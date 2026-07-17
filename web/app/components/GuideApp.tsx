@@ -91,8 +91,8 @@ export function GuideApp({ areas, initialArea }: { areas: AreaSummary[]; initial
           }} placeholder="Sök område, led eller grad…" />
         </label>
         <div className="header-actions">
-          <button className="ghost-button" type="button" onClick={() => setShowAbout(true)}>Om projektet</button>
-          <button className="primary-button" type="button" onClick={() => setShowSuggestion(true)}>Föreslå ändring</button>
+          <button className="ghost-button" type="button" aria-label="Om projektet" onClick={() => setShowAbout(true)}><span className="desktop-label">Om projektet</span><span className="mobile-label" aria-hidden="true">Om</span></button>
+          <button className="primary-button" type="button" aria-label="Föreslå ändring" onClick={() => setShowSuggestion(true)}><span className="desktop-label">Föreslå ändring</span><span className="mobile-label" aria-hidden="true">Ändra</span></button>
         </div>
       </header>
 
@@ -129,8 +129,21 @@ function AboutDialog({ onClose }: { onClose: () => void }) {
     <div className="modal-backdrop" role="presentation" onMouseDown={(event) => { if (event.target === event.currentTarget) onClose(); }}>
       <section className="modal" role="dialog" aria-modal="true" aria-labelledby="about-title">
         <div className="modal-head"><div><span className="eyebrow" style={{ color: "var(--forest)" }}>Om projektet</span><h2 id="about-title">Öppen klätterkunskap, byggd för att leva vidare</h2></div><button className="close-button" type="button" onClick={onClose} aria-label="Stäng">×</button></div>
-        <p>Sverigeföraren utgår från den öppet licensierade wikin som bevarades 2014. Originaltext och bilder ligger kvar som primärkällor, medan den moderna sajten strukturerar materialet för sökning, karta och tydlig källspårning.</p>
-        <p>Förslag granskas av tre separata AI-roller: en som samlar fakta, en som formulerar ändringen och en oberoende kvalitetsgranskare. Säkerhets- och accessinformation publiceras aldrig automatiskt.</p>
+        <p>Sverigeföraren utgår från den öppet licensierade wikin som bevarades 2014. Originaltext och bilder ligger kvar oförändrade som primärkällor. Den moderna sajten gör kunskapen användbar vid klippan utan att dölja var den kommer ifrån.</p>
+
+        <h3>Byggd för att hitta rätt</h3>
+        <ul>
+          <li>Områden har karta, vägbeskrivning, sektorer och sökbara leder eller problem.</li>
+          <li>Varje ledkort samlar nummer, grad, längd, förstebestigning, beskrivning och källor. Beta är dold tills du själv väljer att visa den.</li>
+          <li>Skisser och topos kopplas till berörda leder. Kopplingen kan bygga på placeringen i originalet, filnamnet eller avlästa lednummer i bilden och sparas med metod, belägg och konfidens.</li>
+        </ul>
+
+        <h3>En spårbar kunskapsdatabas</h3>
+        <p>Den publicerade databasen består av versionsstyrda JSON-dokument i Git. Modellen binder samman område, sektor, led eller problem, bild, topo och källa. En uppgift på en led kan hänvisa till en eller flera källor, så nya fakta kan läggas till utan att en extern källas skyddade text eller bilder kopieras.</p>
+        <p>Aktuell accessinformation hämtas från Svenska Klätterförbundets accessdatabas. Både källans uppdateringsdatum och tidpunkten då uppgiften hämtades visas.</p>
+
+        <h3>Ändringar med granskning</h3>
+        <p>Fritextförslag bearbetas med OpenAI av separata roller för strukturering, presentation och kvalitetsgranskning. Resultatet blir granskningsbara Git-commits. Access, parkering, avstängningar och annan säkerhetskritisk information kräver alltid mänskligt godkännande.</p>
         <p><strong>Licens:</strong> GNU Free Documentation License. Nya externa källor behåller sin egen attribution och licensmetadata.</p>
         <a className="source-link" href="https://github.com/nicemd/Sverigeforaren" target="_blank" rel="noreferrer"><span>Projektets Git-repository</span><span>↗</span></a>
       </section>
