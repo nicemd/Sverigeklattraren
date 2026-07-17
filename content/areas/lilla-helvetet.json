@@ -31,7 +31,7 @@
     {
       "id": "leder",
       "title": "Leder",
-      "body": "Den lilla sjön går till stor del går hela vägen fram till klippan. Längden på lederna är ca 10 - 25 meter?? Skiss finns på www.coronn.com Informationen är hämtad från Mikael Larsons förare på www.coronn.com (2004). Skiss finns i föraren men får ligga kvar pga. eventuellt tjorv med copyright. Finns fler förare på coronn för den nyfikne Kategori:trad kategori:Saknar skiss Category:Jämtland"
+      "body": "Den lilla sjön går till stor del går hela vägen fram till klippan. Längden på lederna är ca 10 - 25 meter??\n\nSkiss finns på www.coronn.com (http://www.coronn.com/TOPOS/readersTOPOS/readersTOPOS/Lilla_Helvetet.pdf)\n\nInformationen är hämtad från Mikael Larsons förare på www.coronn.com (http://www.coronn.com/TOPOS/readersTOPOS/readersTOPOS/Lilla_Helvetet.pdf) (2004). Skiss finns i föraren men får ligga kvar pga. eventuellt tjorv med copyright.\nFinns fler förare på coronn (http://www.coronn.com/TOPOS/readersTOPOS_download.html) för den nyfikne"
     }
   ],
   "routes": [
@@ -263,9 +263,37 @@
   "images": [
     {
       "filename": "Skiss.gif",
-      "caption": "",
+      "caption": "Skiss",
       "missing": false,
-      "sectorId": "leder"
+      "sectorId": "leder",
+      "routeIds": [
+        "lilla-helvetet-led-1",
+        "lilla-helvetet-led-2",
+        "lilla-helvetet-led-3",
+        "lilla-helvetet-led-4",
+        "lilla-helvetet-led-5",
+        "lilla-helvetet-led-6",
+        "lilla-helvetet-led-7",
+        "lilla-helvetet-led-8",
+        "lilla-helvetet-led-9",
+        "lilla-helvetet-led-10",
+        "lilla-helvetet-led-11",
+        "lilla-helvetet-led-12",
+        "lilla-helvetet-led-13",
+        "lilla-helvetet-led-14"
+      ]
+    }
+  ],
+  "externalLinks": [
+    {
+      "url": "http://www.coronn.com/TOPOS/readersTOPOS/readersTOPOS/Lilla_Helvetet.pdf",
+      "label": "www.coronn.com",
+      "sectionId": "leder"
+    },
+    {
+      "url": "http://www.coronn.com/TOPOS/readersTOPOS_download.html",
+      "label": "coronn",
+      "sectionId": "leder"
     }
   ],
   "access": {

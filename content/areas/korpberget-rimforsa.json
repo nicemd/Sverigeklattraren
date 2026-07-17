@@ -32,22 +32,22 @@
     {
       "id": "fikavaggen",
       "title": "Fikaväggen",
-      "body": "följt av en fingerspricka till toppen. Dessa två går bra att toppa i ett träd.}}"
+      "body": "följt av en fingerspricka till toppen. Dessa två går bra att toppa i ett träd."
     },
     {
       "id": "amfivaggen",
       "title": "Amfiväggen",
-      "body": "Vägen till instegen på amfiväggen är en intressant labyrint av stenblock. Vid vänstra kanten har någon vänlig själ lämnat ett fast rep. Variant: Varianter:"
+      "body": "Vägen till instegen på amfiväggen är en intressant labyrint av stenblock. Vid vänstra kanten har någon vänlig själ lämnat ett fast rep.\n\nVariant:\n\nVarianter:"
     },
     {
       "id": "stora-vaggen-nordvaggen",
       "title": "Stora väggen, Nordväggen",
-      "body": "Variant: :"
+      "body": "Variant:\n:"
     },
     {
       "id": "lankar",
       "title": "Länkar",
-      "body": "Förare tillhandahållen av Linköpings klätterklubb. Kategori:Östergötland"
+      "body": "Förare tillhandahållen av Linköpings klätterklubb (http://linkopingsklatterklubb.se/index.php/forare.html)."
     }
   ],
   "routes": [
@@ -713,7 +713,26 @@
       "filename": "29242_396100859155_746994155_4377041_6374387_n.jpg",
       "caption": "Fikaväggen vänstra delen",
       "missing": false,
-      "sectorId": "fikavaggen"
+      "sectorId": "fikavaggen",
+      "routeIds": [
+        "korpberget-rimforsa-led-7",
+        "korpberget-rimforsa-led-8",
+        "korpberget-rimforsa-led-9",
+        "korpberget-rimforsa-led-10",
+        "korpberget-rimforsa-led-11",
+        "korpberget-rimforsa-led-12",
+        "korpberget-rimforsa-led-13",
+        "korpberget-rimforsa-led-14",
+        "korpberget-rimforsa-led-15",
+        "korpberget-rimforsa-led-16"
+      ]
+    }
+  ],
+  "externalLinks": [
+    {
+      "url": "http://linkopingsklatterklubb.se/index.php/forare.html",
+      "label": "Linköpings klätterklubb",
+      "sectionId": "lankar"
     }
   ],
   "access": {

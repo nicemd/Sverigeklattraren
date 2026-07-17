@@ -2,7 +2,7 @@ import { z } from "zod";
 
 export const factSchema = z.object({
   claim: z.string(),
-  sourceUrl: z.string().nullable(),
+  sourceUrl: z.string().url().nullable(),
   sourceQuote: z.string().nullable(),
   isFirsthandObservation: z.boolean(),
 });
@@ -15,10 +15,10 @@ export const intakeSchema = z.object({
 });
 
 export const patchSchema = z.object({
-  field: z.enum(["description", "coordinates", "section", "access"]),
+  field: z.enum(["description", "coordinates", "section", "route_fact", "access"]),
   value: z.string(),
   rationale: z.string(),
-  sourceUrl: z.string().nullable(),
+  sourceUrl: z.string().url().nullable(),
   sourceQuote: z.string().nullable(),
 });
 

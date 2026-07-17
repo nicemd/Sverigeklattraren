@@ -3,7 +3,7 @@
   "id": "lucerna-vastervik",
   "slug": "lucerna-vastervik",
   "name": "Lucerna (Västervik)",
-  "description": "Lucerna är ett gammalt klassikt boulderställe nära Västerviks centrum. Klipporna består av grovkornig granit. Många linjer har en borrbult som toppankare. Särskilt rekommenderade linjer markeras med en stjärna.",
+  "description": "Lucerna är ett gammalt klassikt boulderställe nära Västerviks centrum. Klipporna består av grovkornig granit.\nMånga linjer har en borrbult som toppankare. Särskilt rekommenderade linjer markeras med en stjärna.",
   "coordinates": {
     "latitude": 57.753333,
     "longitude": 16.6769444
@@ -16,7 +16,7 @@
     {
       "id": "allmant",
       "title": "Allmänt",
-      "body": "Lucerna är ett gammalt klassikt boulderställe nära Västerviks centrum. Klipporna består av grovkornig granit. Många linjer har en borrbult som toppankare. Särskilt rekommenderade linjer markeras med en stjärna."
+      "body": "Lucerna är ett gammalt klassikt boulderställe nära Västerviks centrum. Klipporna består av grovkornig granit.\nMånga linjer har en borrbult som toppankare. Särskilt rekommenderade linjer markeras med en stjärna."
     },
     {
       "id": "vagbeskrivning",
@@ -26,11 +26,18 @@
     {
       "id": "extern-forare",
       "title": "Extern förare",
-      "body": "http://www.vastervikclimbing.se/klattercentret/pdfer/ Kategori:Småland Kategori:Västervik"
+      "body": "http://www.vastervikclimbing.se/klattercentret/pdfer/"
     }
   ],
   "routes": [],
   "images": [],
+  "externalLinks": [
+    {
+      "url": "http://www.vastervikclimbing.se/klattercentret/pdfer/",
+      "label": "pdfer",
+      "sectionId": "extern-forare"
+    }
+  ],
   "access": {
     "legacyText": null,
     "federationSlug": null

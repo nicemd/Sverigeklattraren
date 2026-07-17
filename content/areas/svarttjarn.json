@@ -21,12 +21,12 @@
     {
       "id": "extern-forare",
       "title": "Extern Förare",
-      "body": "Förare med skiss finns på Stockholms Nätförare (saxat från Plonk) Varning! Det stora blocket tv om överhängande väggen, ute på Svarttjärn, har flyttat sig ca 1 - 1.5 meter ner mot skogen. Ett mindre block (ca 1 ton) som tidigare varit inkilat mellan blocket och väggen bakom, har rasat ned på hyllan tv om Corn Flakes och fler är på väg ner. Det är inte lämpligt att klättra på de tre till fyra lederna som går på blocket. När blocket, som uppskattnigsvis väger 150 - 200 ton, bestämmer sig för att glida den sista biten innan det rullar ned i skogen framför klippan så vill man inte vara inklippt i en eller flera av borrbultarna!"
+      "body": "Förare med skiss finns på Stockholms Nätförare (http://www.plonk.se/snf/svarttjarn.html)\n\n(saxat från Plonk)\n\nVarning!\nDet stora blocket tv om överhängande väggen, ute på Svarttjärn, har flyttat sig ca 1 - 1.5 meter ner mot skogen. Ett mindre block (ca 1 ton) som tidigare varit inkilat mellan blocket och väggen bakom, har rasat ned på hyllan tv om Corn Flakes och fler är på väg ner.\nDet är inte lämpligt att klättra på de tre till fyra lederna som går på blocket. När blocket, som uppskattnigsvis väger 150 - 200 ton, bestämmer sig för att glida den sista biten innan det rullar ned i skogen framför klippan så vill man inte vara inklippt i en eller flera av borrbultarna!"
     },
     {
       "id": "vagbeskrivning",
       "title": "Vägbeskrivning",
-      "body": "]] titel=Svarttjarn lat=18466920 long=59260480 Värmdöleden 222. Avfart Ingarö/Gustavsberg mot Ingarö. Höger efter Brunn, vänster in på Enkärrsvägen, höger in på Svarttjärnsvägen. Parkera och gå in in skogen. (Svårt att hitta, använd GPS eller kartan på SNF)"
+      "body": "]]\n\nVärmdöleden 222. Avfart Ingarö/Gustavsberg mot Ingarö. Höger efter Brunn, vänster in på Enkärrsvägen, höger in på Svarttjärnsvägen.\n\nParkera och gå in in skogen. (Svårt att hitta, använd GPS eller kartan på SNF (http://plonk.se/oldsite/svarttjarn.html))"
     },
     {
       "id": "leder",
@@ -51,7 +51,7 @@
     {
       "id": "roda-vaggen",
       "title": "Röda väggen",
-      "body": "Kategori:Nacka-Värmdö Kategori:Stockholm Category:Överhäng Category:Vertikalt Category:Sport Category:Trad Category:Saknar skiss Category:Saknar vägbeskrivning Category:Saknar kolumner"
+      "body": ""
     }
   ],
   "routes": [
@@ -445,7 +445,20 @@
       "filename": "Svarttjärn.jpg",
       "caption": "Jonas Ahlman",
       "missing": false,
-      "sectorId": "vagbeskrivning"
+      "sectorId": "vagbeskrivning",
+      "routeIds": []
+    }
+  ],
+  "externalLinks": [
+    {
+      "url": "http://www.plonk.se/snf/svarttjarn.html",
+      "label": "Stockholms Nätförare",
+      "sectionId": "extern-forare"
+    },
+    {
+      "url": "http://plonk.se/oldsite/svarttjarn.html",
+      "label": "SNF",
+      "sectionId": "vagbeskrivning"
     }
   ],
   "access": {

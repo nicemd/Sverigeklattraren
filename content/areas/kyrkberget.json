@@ -3,7 +3,7 @@
   "id": "kyrkberget",
   "slug": "kyrkberget",
   "name": "Kyrkberget",
-  "description": "En mycket imponerande klippa nära Storuman. 60-70 meter hög och kraftigt överhängande. Tyvärr ganska lös. Förstabestigningen av huvudpartiet gjordes av Krister Jonsson och Lars Söder. Svea skog tillåter inte bultning eller rensning på detta berg.",
+  "description": "En mycket imponerande klippa nära Storuman. 60-70 meter hög och kraftigt överhängande. Tyvärr ganska lös.\n\nFörstabestigningen av huvudpartiet gjordes av Krister Jonsson och Lars Söder.\n\nSvea skog tillåter inte bultning eller rensning på detta berg.",
   "coordinates": {
     "latitude": 65.273425,
     "longitude": 16.758363888888887
@@ -18,21 +18,34 @@
     {
       "id": "allmant",
       "title": "Allmänt",
-      "body": "En mycket imponerande klippa nära Storuman. 60-70 meter hög och kraftigt överhängande. Tyvärr ganska lös. Förstabestigningen av huvudpartiet gjordes av Krister Jonsson och Lars Söder. Svea skog tillåter inte bultning eller rensning på detta berg."
+      "body": "En mycket imponerande klippa nära Storuman. 60-70 meter hög och kraftigt överhängande. Tyvärr ganska lös.\n\nFörstabestigningen av huvudpartiet gjordes av Krister Jonsson och Lars Söder.\n\nSvea skog tillåter inte bultning eller rensning på detta berg."
     },
     {
       "id": "vagbeskrivning",
       "title": "Vägbeskrivning",
-      "body": "=Access= Det finns ännu inget tillstånd för klättring/bultning på Kyrkberget. Läs mer på * 8a.nu. * Borrbult.nu Kategori:Lappland Kategori:Access Kategori:Överhäng Kategori:Multipitch Kategori:Lappland"
+      "body": "=Access=\nDet finns ännu inget tillstånd för klättring/bultning på Kyrkberget.\n\nLäs mer på\n• 8a.nu (http://web.8a.nu/(nkiwdmnsy0vwm255stijzl45)/forum/ViewForumThread.aspx?ObjectId=6326&ObjectClass=CLS_UserNewsComment&CountryCode=SWE).\n• Borrbult.nu (http://www.borrbult.nu/forum/topic.asp?TOPIC_ID=357)"
     }
   ],
   "routes": [],
   "images": [
     {
       "filename": "Access.jpg",
-      "caption": "",
+      "caption": "Access",
       "missing": false,
-      "sectorId": "vagbeskrivning"
+      "sectorId": "vagbeskrivning",
+      "routeIds": []
+    }
+  ],
+  "externalLinks": [
+    {
+      "url": "http://web.8a.nu/(nkiwdmnsy0vwm255stijzl45)/forum/ViewForumThread.aspx?ObjectId=6326&ObjectClass=CLS_UserNewsComment&CountryCode=SWE",
+      "label": "8a.nu",
+      "sectionId": "vagbeskrivning"
+    },
+    {
+      "url": "http://www.borrbult.nu/forum/topic.asp?TOPIC_ID=357",
+      "label": "Borrbult.nu",
+      "sectionId": "vagbeskrivning"
     }
   ],
   "access": {

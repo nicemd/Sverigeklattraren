@@ -30,7 +30,7 @@
     {
       "id": "vagbeskrivning",
       "title": "Vägbeskrivning",
-      "body": "titel=Solberga lat=18307590 long=59225680 Åk Tyresövägen och sväng h i rondellen till Brakmarsvägen. Följ denna till den andra vägen på vänster sida. Den heter Passet. Denna väg följs tills den tar slut (10 m) varefter du svänger h in på Vallvägen. I slutet på Vallvägen ligger en parkeringsplats och nu syns berget 30 m upp i skogen"
+      "body": "Åk Tyresövägen och sväng h i rondellen till Brakmarsvägen. Följ denna till den andra vägen på vänster sida. Den heter Passet. Denna väg följs tills den tar slut (10 m) varefter du svänger h in på Vallvägen. I slutet på Vallvägen ligger en parkeringsplats och nu syns berget 30 m upp i skogen"
     },
     {
       "id": "leder",
@@ -50,7 +50,7 @@
     {
       "id": "hogra-delen",
       "title": "Högra delen",
-      "body": "Kategori:Trad Kategori:Vertikalt Kategori:Överhäng Kategori:Stockholm Kategori:Tyresö Kategori:Saknar kolumner"
+      "body": ""
     }
   ],
   "routes": [
@@ -314,17 +314,35 @@
   "images": [
     {
       "filename": "Solberga_v.png",
-      "caption": "",
+      "caption": "Vänstra delen · foto",
       "missing": false,
-      "sectorId": "vanstra-delen"
+      "sectorId": "vanstra-delen",
+      "routeIds": [
+        "solberga-led-1",
+        "solberga-led-2",
+        "solberga-led-3",
+        "solberga-led-4",
+        "solberga-led-5",
+        "solberga-led-6",
+        "solberga-led-7",
+        "solberga-led-8",
+        "solberga-led-9"
+      ]
     },
     {
       "filename": "Solberga_h.png",
-      "caption": "",
+      "caption": "Högra delen · foto",
       "missing": false,
-      "sectorId": "hogra-delen"
+      "sectorId": "hogra-delen",
+      "routeIds": [
+        "solberga-led-13",
+        "solberga-led-14",
+        "solberga-led-15",
+        "solberga-led-16"
+      ]
     }
   ],
+  "externalLinks": [],
   "access": {
     "legacyText": null,
     "federationSlug": null

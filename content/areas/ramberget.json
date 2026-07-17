@@ -25,12 +25,12 @@
     {
       "id": "vagbeskrivning",
       "title": "Vägbeskrivning",
-      "body": "Vägbeskrivningen i den första utgåvan av Göteborgsföraren är felaktig. Klippan ligger mer västerut än vad som anges. Klippan ligger precis nedanför parkeringen. Parkeringen är den som är på toppen av Ramberget. Vägarna mest söder ut är slutet av Herkulesgatan samt Gamla Rambergsvägen. Moskén ligger mer österut om man följer Herkulesgatan."
+      "body": "Vägbeskrivningen i den första utgåvan av Göteborgsföraren är felaktig. Klippan ligger mer västerut än vad som anges. Klippan ligger precis nedanför parkeringen.\n\nParkeringen är den som är på toppen av Ramberget. Vägarna mest söder ut är slutet av Herkulesgatan samt Gamla Rambergsvägen. Moskén ligger mer österut om man följer Herkulesgatan."
     },
     {
       "id": "kollektivtrafik",
       "title": "Kollektivtrafik",
-      "body": "Närmsta hållplats är \"Ramberget\", buss 31 ifrån Wieselgrensplatsen. Ramberget, mitt i Hisingen, erbjuder urban klättring. Ganska roligt."
+      "body": "Närmsta hållplats är \"Ramberget\", buss 31 ifrån Wieselgrensplatsen.\n\nRamberget, mitt i Hisingen, erbjuder urban klättring. Ganska roligt."
     },
     {
       "id": "stora-plattan",
@@ -55,7 +55,7 @@
     {
       "id": "moskebouldering",
       "title": "Moskebouldering",
-      "body": "Kategori:Göteborg"
+      "body": ""
     }
   ],
   "routes": [
@@ -413,7 +413,7 @@
     },
     {
       "id": "ramberget-led-23",
-      "kind": "route",
+      "kind": "problem",
       "number": null,
       "name": "Boulderväggen",
       "grade": "bouldering",
@@ -431,17 +431,20 @@
   "images": [
     {
       "filename": "Valkomstbild_ramberget.jpg",
-      "caption": "",
+      "caption": "Valkomstbild ramberget",
       "missing": false,
-      "sectorId": "mer"
+      "sectorId": "mer",
+      "routeIds": []
     },
     {
       "filename": "Oversikt_ramberget.jpg",
-      "caption": "",
+      "caption": "Oversikt ramberget",
       "missing": false,
-      "sectorId": "vagbeskrivning"
+      "sectorId": "vagbeskrivning",
+      "routeIds": []
     }
   ],
+  "externalLinks": [],
   "access": {
     "legacyText": null,
     "federationSlug": null

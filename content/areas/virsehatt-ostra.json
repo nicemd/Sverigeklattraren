@@ -28,7 +28,7 @@
     {
       "id": "vagbeskrivning",
       "title": "Vägbeskrivning",
-      "body": "Karta här. Tryck på kartknappen ovan. Enklaste sättet att hitta hit är från Oskarström. Kör från Oskarström mot Simlångsdalen och naturreservatet Virsehatt, väl framme vid reservatet passerar man en äldre byggnad med vasstak, Virsestuga. Gå rätt upp i rasbranten bakom det lilla huset till vänster om torpet ca 50m nu står du under klippan."
+      "body": "Karta här. Tryck på kartknappen ovan.\n\nEnklaste sättet att hitta hit är från Oskarström. Kör från Oskarström mot Simlångsdalen och naturreservatet Virsehatt, väl framme vid reservatet passerar man en äldre byggnad med vasstak, Virsestuga. Gå rätt upp i rasbranten bakom det lilla huset till vänster om torpet ca 50m nu står du under klippan."
     },
     {
       "id": "leder",
@@ -38,7 +38,7 @@
     {
       "id": "kontakt",
       "title": "Kontakt",
-      "body": "För bilder och mer info kolla Eskapader Höger kolumn Kategori:trad Kategori:vertikalt kategori:Saknar leder kategori:Saknar koordinater kategori:Saknar skrivarformatering Category:Halland"
+      "body": "För bilder och mer info kolla Eskapader (http://www.eskapader.se)\n\nHöger kolumn"
     }
   ],
   "routes": [
@@ -190,9 +190,27 @@
   "images": [
     {
       "filename": "Virsehatt2.jpg",
-      "caption": "",
+      "caption": "Virsehatt2",
       "missing": false,
-      "sectorId": "leder"
+      "sectorId": "leder",
+      "routeIds": [
+        "virsehatt-ostra-led-1",
+        "virsehatt-ostra-led-2",
+        "virsehatt-ostra-led-3",
+        "virsehatt-ostra-led-4",
+        "virsehatt-ostra-led-5",
+        "virsehatt-ostra-led-6",
+        "virsehatt-ostra-led-7",
+        "virsehatt-ostra-led-8",
+        "virsehatt-ostra-led-9"
+      ]
+    }
+  ],
+  "externalLinks": [
+    {
+      "url": "http://www.eskapader.se",
+      "label": "Eskapader",
+      "sectionId": "kontakt"
     }
   ],
   "access": {

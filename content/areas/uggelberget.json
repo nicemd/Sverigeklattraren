@@ -25,7 +25,7 @@
     {
       "id": "beskrivning",
       "title": "Beskrivning",
-      "body": "En ny förare som täcker Uggelberget, Simonsberget, Bistaberget samt andra berg i Södermanland har släppts i november 2006. Beställ via Dangerzone."
+      "body": "En ny förare som täcker Uggelberget, Simonsberget, Bistaberget samt andra berg i Södermanland har släppts i november 2006. Beställ via Dangerzone (http://www.dangerzone.se)."
     },
     {
       "id": "access",
@@ -60,7 +60,7 @@
     {
       "id": "bateman-vaggen",
       "title": "Bateman-väggen",
-      "body": "Kategori:Sport Kategori:Trad Kategori:Sva Kategori:Vertikalt Kategori:Saknar vägbeskrivning Kategori:Saknar skiss Kategori:Saknar karta Kategori:Saknar koordinater Kategori:Södermanland"
+      "body": ""
     }
   ],
   "routes": [
@@ -662,13 +662,22 @@
       "filename": "Uggelberget_front.jpg",
       "caption": "Per Lindh",
       "missing": false,
-      "sectorId": null
+      "sectorId": null,
+      "routeIds": []
     },
     {
       "filename": "Uggelberget.jpg",
       "caption": "[[Andreas Harne",
       "missing": false,
-      "sectorId": null
+      "sectorId": null,
+      "routeIds": []
+    }
+  ],
+  "externalLinks": [
+    {
+      "url": "http://www.dangerzone.se",
+      "label": "Dangerzone",
+      "sectionId": "beskrivning"
     }
   ],
   "access": {

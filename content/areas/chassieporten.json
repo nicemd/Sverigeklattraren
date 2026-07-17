@@ -3,7 +3,7 @@
   "id": "chassieporten",
   "slug": "chassieporten",
   "name": "Chassieporten",
-  "description": "Liten klipp-snutt med fantastisk stenkvalitet, allt annat talar emot klippans helhetsintryck. Numera är det lite mer röjt så att klippan ligger lite mer exponerad utan träden som syns t v på bilden!",
+  "description": "Liten klipp-snutt med fantastisk stenkvalitet, allt annat talar emot klippans helhetsintryck.\nNumera är det lite mer röjt så att klippan ligger lite mer exponerad utan träden som syns t v på bilden!",
   "coordinates": {
     "latitude": 59.168391,
     "longitude": 17.636906
@@ -23,17 +23,17 @@
     {
       "id": "allmant",
       "title": "Allmänt",
-      "body": "Liten klipp-snutt med fantastisk stenkvalitet, allt annat talar emot klippans helhetsintryck. Numera är det lite mer röjt så att klippan ligger lite mer exponerad utan träden som syns t v på bilden!"
+      "body": "Liten klipp-snutt med fantastisk stenkvalitet, allt annat talar emot klippans helhetsintryck.\nNumera är det lite mer röjt så att klippan ligger lite mer exponerad utan träden som syns t v på bilden!"
     },
     {
       "id": "vagbeskrivning",
       "title": "Vägbeskrivning",
-      "body": "Järnagatan/Nyköpingsvägen utanför Scanias chassieverkstad, egentligen på andra sidan Scania än själva Chassieporten. titel=Chassieporten lat=17636906 long=59168391"
+      "body": "Järnagatan/Nyköpingsvägen utanför Scanias chassieverkstad, egentligen på andra sidan Scania än själva Chassieporten."
     },
     {
       "id": "leder",
       "title": "Leder",
-      "body": "Kategori:sport Kategori:trad Kategori:vertikalt kategori:Saknar vägbeskrivning kategori:Saknar skrivarformatering Category:Stockholm Kategori:Västra Södertörn"
+      "body": ""
     }
   ],
   "routes": [
@@ -105,11 +105,18 @@
   "images": [
     {
       "filename": "Sdt_copy.jpg",
-      "caption": "",
+      "caption": "Sdt copy",
       "missing": false,
-      "sectorId": "leder"
+      "sectorId": "leder",
+      "routeIds": [
+        "chassieporten-led-1",
+        "chassieporten-led-2",
+        "chassieporten-led-3",
+        "chassieporten-led-4"
+      ]
     }
   ],
+  "externalLinks": [],
   "access": {
     "legacyText": null,
     "federationSlug": null

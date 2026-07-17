@@ -3,14 +3,14 @@
   "id": "turbo",
   "slug": "turbo",
   "name": "Turbo",
-  "description": "Ett större område än Vikmanshyttan, kan säkerligen komma att rymma minst ett 20-tal problem tids nog. Än sålänge är bara en bråkdel utvecklat men mer är på G. Bla en supernajs och luftig Arete. Soon to come /c",
+  "description": "Ett större område än Vikmanshyttan, kan säkerligen komma att rymma minst ett 20-tal problem tids nog. Än sålänge är bara en bråkdel utvecklat men mer är på G. Bla en supernajs och luftig Arete.\nSoon to come\n/c",
   "coordinates": null,
   "categories": [],
   "sections": [
     {
       "id": "allmant",
       "title": "Allmänt",
-      "body": "Ett större område än Vikmanshyttan, kan säkerligen komma att rymma minst ett 20-tal problem tids nog. Än sålänge är bara en bråkdel utvecklat men mer är på G. Bla en supernajs och luftig Arete. Soon to come /c"
+      "body": "Ett större område än Vikmanshyttan, kan säkerligen komma att rymma minst ett 20-tal problem tids nog. Än sålänge är bara en bråkdel utvecklat men mer är på G. Bla en supernajs och luftig Arete.\nSoon to come\n/c"
     },
     {
       "id": "vagbeskrivning",
@@ -336,47 +336,80 @@
   "images": [
     {
       "filename": "PICT0055.jpg",
-      "caption": "",
+      "caption": "PICT0055",
       "missing": false,
-      "sectorId": "frontal"
+      "sectorId": "frontal",
+      "routeIds": [
+        "turbo-problem-1",
+        "turbo-problem-2",
+        "turbo-problem-3"
+      ]
     },
     {
       "filename": "Mr_Hyde.jpg",
-      "caption": "",
+      "caption": "Mr Hyde",
       "missing": false,
-      "sectorId": "frontal"
+      "sectorId": "frontal",
+      "routeIds": [
+        "turbo-problem-4",
+        "turbo-problem-5",
+        "turbo-problem-6"
+      ]
     },
     {
       "filename": "Dr_Jekyll.jpg",
-      "caption": "",
+      "caption": "Dr Jekyll",
       "missing": false,
-      "sectorId": "frontal"
+      "sectorId": "frontal",
+      "routeIds": [
+        "turbo-problem-7"
+      ]
     },
     {
       "filename": "Linus_direkt.jpg",
-      "caption": "",
+      "caption": "Linus direkt",
       "missing": false,
-      "sectorId": "skogen"
+      "sectorId": "skogen",
+      "routeIds": [
+        "turbo-problem-8",
+        "turbo-problem-9",
+        "turbo-problem-10"
+      ]
     },
     {
       "filename": "IMG_6204.jpg",
-      "caption": "",
+      "caption": "IMG 6204",
       "missing": false,
-      "sectorId": "skogen"
+      "sectorId": "skogen",
+      "routeIds": [
+        "turbo-problem-11",
+        "turbo-problem-12",
+        "turbo-problem-13"
+      ]
     },
     {
       "filename": "IMG_6201.JPG",
-      "caption": "",
+      "caption": "IMG 6201",
       "missing": false,
-      "sectorId": "myren"
+      "sectorId": "myren",
+      "routeIds": [
+        "turbo-problem-14",
+        "turbo-problem-15",
+        "turbo-problem-16"
+      ]
     },
     {
       "filename": "IMG_6200.JPG",
-      "caption": "",
+      "caption": "IMG 6200",
       "missing": false,
-      "sectorId": "myren"
+      "sectorId": "myren",
+      "routeIds": [
+        "turbo-problem-17",
+        "turbo-problem-18"
+      ]
     }
   ],
+  "externalLinks": [],
   "access": {
     "legacyText": null,
     "federationSlug": null

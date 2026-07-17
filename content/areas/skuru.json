@@ -22,12 +22,12 @@
     {
       "id": "vagbeskrivning",
       "title": "Vägbeskrivning",
-      "body": "titel=Skurubouldern lat=18219345 long=59319988 Denna boulderklippa finns kvar i allra högsta grad. Kör värmdöleden och sväng av mot Skuru sjukhus (före bron). Kör vänster och följ Skurusundsvägen tills du kommer fram till Kristinedalsvägen. Sväng höger in på Kristinedalsvägen, direkt efter fotbollsplanen. Följ vägen rakt fram en bit och parkera på gatan utanför det jättestora huset, Kristinedalsvägen 6. Gå in på vägen bredvid huset och följ grusvägen uppför backen ca 20 meter. Klipporna ligger där nålarna är på kartan. Problemen är sällan klättrade så räkna inte med att hitta någon krita som tipsar vart problemen är."
+      "body": "Denna boulderklippa finns kvar i allra högsta grad.\n\nKör värmdöleden och sväng av mot Skuru sjukhus (före bron). Kör vänster och följ Skurusundsvägen tills du kommer fram till Kristinedalsvägen. Sväng höger in på Kristinedalsvägen, direkt efter fotbollsplanen. Följ vägen rakt fram en bit och parkera på gatan utanför det jättestora huset, Kristinedalsvägen 6. Gå in på vägen bredvid huset och följ grusvägen uppför backen ca 20 meter.\n\nKlipporna ligger där nålarna är på kartan.\n\nProblemen är sällan klättrade så räkna inte med att hitta någon krita som tipsar vart problemen är."
     },
     {
       "id": "boulderproblem",
       "title": "Boulderproblem",
-      "body": "Kategori:Stockholm Kategori:Nacka-Värmdö kategori:Saknar vägbeskrivning"
+      "body": ""
     }
   ],
   "routes": [
@@ -115,11 +115,19 @@
   "images": [
     {
       "filename": "Skuru.jpg",
-      "caption": "",
+      "caption": "Boulderproblem · foto",
       "missing": false,
-      "sectorId": "boulderproblem"
+      "sectorId": "boulderproblem",
+      "routeIds": [
+        "skuru-problem-1",
+        "skuru-problem-2",
+        "skuru-problem-3",
+        "skuru-problem-4",
+        "skuru-problem-5"
+      ]
     }
   ],
+  "externalLinks": [],
   "access": {
     "legacyText": null,
     "federationSlug": null

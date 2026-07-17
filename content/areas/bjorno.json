@@ -3,7 +3,7 @@
   "id": "bjorno",
   "slug": "bjorno",
   "name": "Björnö",
-  "description": "titel=Björnö lat=18540115 long=59224272 Värmdöleden 222 avfart Ingarö. Kör igenom Brunn och fortsätt rakt fram mot Björkvik. En bit innan Björkviks brygga, sväng vänster vid skylt Björnö Naturreservat. Klippan ligger på vänster sida 50m före första farthindret.",
+  "description": "Värmdöleden 222 avfart Ingarö.\nKör igenom Brunn och fortsätt rakt fram mot Björkvik. En bit innan Björkviks brygga, sväng vänster vid skylt Björnö Naturreservat. Klippan ligger på vänster sida 50m före första farthindret.",
   "coordinates": {
     "latitude": 59.224272,
     "longitude": 18.540115
@@ -13,7 +13,7 @@
     {
       "id": "vagbeskrivning",
       "title": "Vägbeskrivning",
-      "body": "titel=Björnö lat=18540115 long=59224272 Värmdöleden 222 avfart Ingarö. Kör igenom Brunn och fortsätt rakt fram mot Björkvik. En bit innan Björkviks brygga, sväng vänster vid skylt Björnö Naturreservat. Klippan ligger på vänster sida 50m före första farthindret."
+      "body": "Värmdöleden 222 avfart Ingarö.\nKör igenom Brunn och fortsätt rakt fram mot Björkvik. En bit innan Björkviks brygga, sväng vänster vid skylt Björnö Naturreservat. Klippan ligger på vänster sida 50m före första farthindret."
     },
     {
       "id": "boulderproblem",
@@ -23,18 +23,18 @@
     {
       "id": "mera",
       "title": "Mera",
-      "body": "Det finns en till Bouldervägg inne i Björnö Naturreservat. Parkera vid stora parkeringen sedan följ vägen förbi några hus tills Du kommer till en skarp högersväng. Går ner grusstigen som går åt vänster i ca. 300m och Du är framme. OBS: Detta är ett Naturreservat, snälla ta med Dig ditt skräp och försök att ta bort kritan o tickmärken! Tack."
+      "body": "Det finns en till Bouldervägg inne i Björnö Naturreservat. Parkera vid stora parkeringen sedan följ vägen förbi några hus tills Du kommer till en skarp högersväng. Går ner grusstigen som går åt vänster i ca. 300m och Du är framme.\n\nOBS: Detta är ett Naturreservat, snälla ta med Dig ditt skräp och försök att ta bort kritan o tickmärken! Tack."
     },
     {
       "id": "bjorno-1",
       "title": "Björnö 1",
-      "body": "Överblicksbild Category:Bouldering Category:Oklättrat Category:Stockholm Category:Nacka-Värmdö"
+      "body": "Överblicksbild"
     }
   ],
   "routes": [
     {
       "id": "bjorno-led-1",
-      "kind": "route",
+      "kind": "problem",
       "number": null,
       "name": "Cookiemonster Dave",
       "grade": "4",
@@ -50,7 +50,7 @@
     },
     {
       "id": "bjorno-led-2",
-      "kind": "route",
+      "kind": "problem",
       "number": "1",
       "name": "Blåbärskungen",
       "grade": "6b+",
@@ -66,7 +66,7 @@
     },
     {
       "id": "bjorno-led-3",
-      "kind": "route",
+      "kind": "problem",
       "number": "2",
       "name": "Inskolning",
       "grade": "5",
@@ -82,7 +82,7 @@
     },
     {
       "id": "bjorno-led-4",
-      "kind": "route",
+      "kind": "problem",
       "number": "3a",
       "name": "Fröken Fröken",
       "grade": "7a?",
@@ -98,7 +98,7 @@
     },
     {
       "id": "bjorno-led-5",
-      "kind": "route",
+      "kind": "problem",
       "number": "3b",
       "name": "Frökens Frökens äldre syster",
       "grade": "hård",
@@ -114,7 +114,7 @@
     },
     {
       "id": "bjorno-led-6",
-      "kind": "route",
+      "kind": "problem",
       "number": "4",
       "name": "Herr Pedagog",
       "grade": "6a?",
@@ -230,37 +230,65 @@
       "filename": "Bjorno.jpg",
       "caption": "Vänstra sidan av Björnö",
       "missing": false,
-      "sectorId": null
+      "sectorId": null,
+      "routeIds": []
     },
     {
       "filename": "Bjorno_niclas.jpg",
       "caption": "Niclas på Fröken Fröken",
       "missing": false,
-      "sectorId": "boulderproblem"
+      "sectorId": "boulderproblem",
+      "routeIds": []
     },
     {
       "filename": "Björnö.gif",
-      "caption": "",
+      "caption": "Boulderproblem · foto",
       "missing": false,
-      "sectorId": "boulderproblem"
+      "sectorId": "boulderproblem",
+      "routeIds": [
+        "bjorno-led-1",
+        "bjorno-led-2",
+        "bjorno-led-3",
+        "bjorno-led-4",
+        "bjorno-led-5",
+        "bjorno-led-6"
+      ]
     },
     {
       "filename": "Sektor1a.jpg",
-      "caption": "",
+      "caption": "Sektor1a",
       "missing": false,
-      "sectorId": "bjorno-1"
+      "sectorId": "bjorno-1",
+      "routeIds": []
     },
     {
       "filename": "Sektor1b.jpg",
-      "caption": "",
+      "caption": "Sektor1b",
       "missing": false,
-      "sectorId": "bjorno-1"
+      "sectorId": "bjorno-1",
+      "routeIds": [
+        "bjorno-led-7",
+        "bjorno-led-8",
+        "bjorno-led-9"
+      ]
     },
     {
       "filename": "Sektor1c.jpg",
-      "caption": "",
+      "caption": "Sektor1c",
       "missing": false,
-      "sectorId": "bjorno-1"
+      "sectorId": "bjorno-1",
+      "routeIds": [
+        "bjorno-led-10",
+        "bjorno-led-11",
+        "bjorno-led-12"
+      ]
+    }
+  ],
+  "externalLinks": [
+    {
+      "url": "http://www.bloxc.com/forum/viewtopic.php?t=1528",
+      "label": "Bloxc",
+      "sectionId": null
     }
   ],
   "access": {

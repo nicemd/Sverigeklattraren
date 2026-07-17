@@ -22,7 +22,7 @@
     {
       "id": "ovrigt",
       "title": "Övrigt",
-      "body": "Leder i grottan, som kallas Helleren, finns på Headwall och Steepstone. ]] ]]"
+      "body": "Leder i grottan, som kallas Helleren, finns på Headwall (http://www.headwall.com/headwall/explorer.jsp?cgy=CRAG&cid=374&skn=classic) och Steepstone (http://www.steepstone.com/topo/cragDet.asp?Crag_id=15).\n\n]]\n\n]]"
     },
     {
       "id": "leder",
@@ -52,7 +52,7 @@
     {
       "id": "oppvarmningsveggen",
       "title": "Oppvarmningsveggen",
-      "body": "Ofta seriösa och svåra starter på lederna. Kategori:Sport Kategori:Trad Kategori:Vertikalt Kategori:Överhäng Kategori:Norge Kategori:Utomlands"
+      "body": "Ofta seriösa och svåra starter på lederna."
     }
   ],
   "routes": [
@@ -910,13 +910,27 @@
       "filename": "IMG_0845.jpg",
       "caption": "Jan Lundström",
       "missing": false,
-      "sectorId": "ovrigt"
+      "sectorId": "ovrigt",
+      "routeIds": []
     },
     {
       "filename": "IMG_0889.jpg",
       "caption": "Jan Lundström",
       "missing": false,
-      "sectorId": "ovrigt"
+      "sectorId": "ovrigt",
+      "routeIds": []
+    }
+  ],
+  "externalLinks": [
+    {
+      "url": "http://www.headwall.com/headwall/explorer.jsp?cgy=CRAG&cid=374&skn=classic",
+      "label": "Headwall",
+      "sectionId": "ovrigt"
+    },
+    {
+      "url": "http://www.steepstone.com/topo/cragDet.asp?Crag_id=15",
+      "label": "Steepstone",
+      "sectionId": "ovrigt"
     }
   ],
   "access": {

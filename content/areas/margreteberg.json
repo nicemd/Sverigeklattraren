@@ -24,12 +24,12 @@
     {
       "id": "vagbeskrivning",
       "title": "Vägbeskrivning",
-      "body": "Kör värmdöleden 222, avfart mot Orminge. Efter Orminge C tag vänster in på Skarpövägen, därefter första höger in på Hasseluddsvägen. 200m senare tag höger in på Margretebergsvägen. Följ grusvägen till en vändplan. Parkera och följ vägen tillbaka. Klippan ligger på vänster sida, i skogen mitt emot de röda husen och kan skymtas från grusvägen. Efter klättringen rekommenderas ett besök på Restaurang Telegraf titel=Margreteberg lat=18275070 long=59335060"
+      "body": "Kör värmdöleden 222, avfart mot Orminge. Efter Orminge C tag vänster in på Skarpövägen, därefter första höger in på Hasseluddsvägen. 200m senare tag höger in på Margretebergsvägen. Följ grusvägen till en vändplan. Parkera och följ\nvägen tillbaka. Klippan ligger på vänster sida, i skogen mitt emot de röda husen och kan skymtas från grusvägen.\n\nEfter klättringen rekommenderas ett besök på Restaurang Telegraf (http://www.alltomstockholm.se/profil.aspx?fid=2&EntityID=898707)"
     },
     {
       "id": "leder",
       "title": "Leder",
-      "body": "sedan vänster till }} ]] Kategori:Nacka-Värmdö Kategori:Stockholm Kategori:Sport Kategori:Överhäng Kategori:Sva"
+      "body": "sedan vänster till\n\n]]"
     }
   ],
   "routes": [
@@ -261,15 +261,39 @@
   "images": [
     {
       "filename": "Margreteberg_skiss.gif",
-      "caption": "",
+      "caption": "skiss",
       "missing": false,
-      "sectorId": "leder"
+      "sectorId": "leder",
+      "routeIds": [
+        "margreteberg-led-1",
+        "margreteberg-led-2",
+        "margreteberg-led-3",
+        "margreteberg-led-4",
+        "margreteberg-led-5",
+        "margreteberg-led-6",
+        "margreteberg-led-7",
+        "margreteberg-led-8",
+        "margreteberg-led-9",
+        "margreteberg-led-10",
+        "margreteberg-led-11",
+        "margreteberg-led-12",
+        "margreteberg-led-13",
+        "margreteberg-led-14"
+      ]
     },
     {
       "filename": "Margreteberg.jpg",
       "caption": "Jonas Ahlman",
       "missing": false,
-      "sectorId": "leder"
+      "sectorId": "leder",
+      "routeIds": []
+    }
+  ],
+  "externalLinks": [
+    {
+      "url": "http://www.alltomstockholm.se/profil.aspx?fid=2&EntityID=898707",
+      "label": "Restaurang Telegraf",
+      "sectionId": "vagbeskrivning"
     }
   ],
   "access": {

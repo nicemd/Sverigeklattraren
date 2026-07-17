@@ -36,12 +36,12 @@
     {
       "id": "lank",
       "title": "Länk",
-      "body": "http://www.8a.nu/forum/ViewForumThread.aspx?ObjectId=5745&ObjectClass=CLS_UserBlogComment&CountryCode=CZE Kategori:sport Kategori:sva"
+      "body": "http://www.8a.nu/forum/ViewForumThread.aspx?ObjectId=5745&ObjectClass=CLS_UserBlogComment&CountryCode=CZE"
     },
     {
       "id": "bilder",
       "title": "Bilder",
-      "body": "kategori:Saknar skiss kategori:Saknar vägbeskrivning kategori:Saknar koordinater kategori:Saknar skrivarformatering Category:Bohuslän Kategori:Göteborg"
+      "body": ""
     }
   ],
   "routes": [
@@ -99,19 +99,29 @@
       "filename": "Stora_hoga_bild1.jpg",
       "caption": "Topprepsklättring på Stora höga",
       "missing": false,
-      "sectorId": "bilder"
+      "sectorId": "bilder",
+      "routeIds": []
     },
     {
       "filename": "Stora_hoga_bild2.jpg",
       "caption": "Berget måste klättras också",
       "missing": false,
-      "sectorId": "bilder"
+      "sectorId": "bilder",
+      "routeIds": []
     },
     {
       "filename": "Stora_hoga_bild3.jpg",
       "caption": "En rolig eftermiddag.",
       "missing": false,
-      "sectorId": "bilder"
+      "sectorId": "bilder",
+      "routeIds": []
+    }
+  ],
+  "externalLinks": [
+    {
+      "url": "http://www.8a.nu/forum/ViewForumThread.aspx?ObjectId=5745&ObjectClass=CLS_UserBlogComment&CountryCode=CZE",
+      "label": "ViewForumThread.aspx",
+      "sectionId": "lank"
     }
   ],
   "access": {

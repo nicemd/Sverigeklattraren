@@ -38,7 +38,7 @@
     {
       "id": "film",
       "title": "Film",
-      "body": "2a repetitionen av Dags att deklarera http://vimeo.com/5693146 Kategori:trad Kategori:vertikalt Kategori:överhäng Kategori:Bohuslän"
+      "body": "2a repetitionen av Dags att deklarera\nhttp://vimeo.com/5693146"
     }
   ],
   "routes": [
@@ -206,9 +206,28 @@
   "images": [
     {
       "filename": "Pärleporten.jpg",
-      "caption": "",
+      "caption": "Huvudväggen · foto",
       "missing": false,
-      "sectorId": "huvudvaggen"
+      "sectorId": "huvudvaggen",
+      "routeIds": [
+        "parleporten-led-1",
+        "parleporten-led-2",
+        "parleporten-led-3",
+        "parleporten-led-4",
+        "parleporten-led-5",
+        "parleporten-led-6",
+        "parleporten-led-7",
+        "parleporten-led-8",
+        "parleporten-led-9",
+        "parleporten-led-10"
+      ]
+    }
+  ],
+  "externalLinks": [
+    {
+      "url": "http://vimeo.com/5693146",
+      "label": "5693146",
+      "sectionId": "film"
     }
   ],
   "access": {

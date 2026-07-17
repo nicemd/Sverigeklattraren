@@ -27,7 +27,7 @@
     {
       "id": "vagbeskrivning",
       "title": "Vägbeskrivning",
-      "body": "Cykel på fin cykelväg hela vägen från Gamlestan / Utby. Bil: Kör av E20 vid Allum / Partille C. Kör över ån till en liten rondell där du tar höger. Skolan ligger precis under den väl synliga väggen vid Lexbyhyllan. Parkera där (kan vara förbjudet vardagar arbetstid?). Gå runt skolan för instag på byggnadens baksida."
+      "body": "Cykel på fin cykelväg hela vägen från Gamlestan / Utby.\n\nBil: Kör av E20 vid Allum / Partille C. Kör över ån till en liten rondell där du tar höger. Skolan ligger precis under den väl synliga väggen vid Lexbyhyllan. Parkera där (kan vara förbjudet vardagar arbetstid?). Gå runt skolan för instag på byggnadens baksida."
     },
     {
       "id": "vaggar",
@@ -47,7 +47,7 @@
     {
       "id": "isklattring",
       "title": "Isklättring",
-      "body": "I marknivå, strax till höger om skolan intill ett litet torp, bildas vissa vintrar en fin ispelare med klättring i olika svårighetsgrader. Hårdast är att gå upp vänster om och bakom pelaren och jobba sig igenom galleriet. Lättast är svaet till höger. Allt kan toppas från en stor tall på toppen med ett kättingsankare, men man får leda upp för att komma dit. Namnen är påhittade, FA-person får gärna ändra. Kategori:Göteborg Kategori:Is Kategori:Trad"
+      "body": "I marknivå, strax till höger om skolan intill ett litet torp, bildas vissa vintrar en fin ispelare med klättring i olika svårighetsgrader. Hårdast är att gå upp vänster om och bakom pelaren och jobba sig igenom galleriet. Lättast är svaet till höger. Allt kan toppas från en stor tall på toppen med ett kättingsankare, men man får leda upp för att komma dit. Namnen är påhittade, FA-person får gärna ändra."
     }
   ],
   "routes": [
@@ -855,11 +855,13 @@
   "images": [
     {
       "filename": "Lexby_valkomstbild.jpg",
-      "caption": "",
+      "caption": "valkomstbild",
       "missing": false,
-      "sectorId": "vaggar"
+      "sectorId": "vaggar",
+      "routeIds": []
     }
   ],
+  "externalLinks": [],
   "access": {
     "legacyText": "Det är värt att känna till att Lexbyklippan ingår i Göteborgs klätterklubbs bultpolicy att inga ytterligare bultar ska sättas upp på berget.",
     "federationSlug": "lexby"

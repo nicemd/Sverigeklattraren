@@ -3,7 +3,7 @@
   "id": "hidebrottet",
   "slug": "hidebrottet",
   "name": "Hidebrottet",
-  "description": "Gammalt kalkbrott på norra Gotland med ca 8m hög vägg. Klippan är lös på sina ställen, så använd hjälm och se till att hålla repet bort från väggen. Tag gärna med rensningsutrustning för att ta bort lös sten och lösa flak. Eventuell möjlighet för framtida bultning dock väldigt lättåtkomligt att sätta topprep. Hela klippan ligger i en amfiteaterliknande sydvänd gryta vilket gör klättring möjlig året runt. Kombinera gärna denna vägg med ett besök på andra sidan viken (Hidevikens Boulder).",
+  "description": "Gammalt kalkbrott på norra Gotland med ca 8m hög vägg. Klippan är lös på sina ställen, så använd hjälm och se till att hålla repet bort från väggen. Tag gärna med rensningsutrustning för att ta bort lös sten och lösa flak.\nEventuell möjlighet för framtida bultning dock väldigt lättåtkomligt att sätta topprep. Hela klippan ligger i en amfiteaterliknande sydvänd gryta vilket gör klättring möjlig året runt.\n\nKombinera gärna denna vägg med ett besök på andra sidan viken (Hidevikens Boulder).",
   "coordinates": {
     "latitude": 59,
     "longitude": 18
@@ -23,12 +23,12 @@
     {
       "id": "allmant",
       "title": "Allmänt",
-      "body": "Gammalt kalkbrott på norra Gotland med ca 8m hög vägg. Klippan är lös på sina ställen, så använd hjälm och se till att hålla repet bort från väggen. Tag gärna med rensningsutrustning för att ta bort lös sten och lösa flak. Eventuell möjlighet för framtida bultning dock väldigt lättåtkomligt att sätta topprep. Hela klippan ligger i en amfiteaterliknande sydvänd gryta vilket gör klättring möjlig året runt. Kombinera gärna denna vägg med ett besök på andra sidan viken (Hidevikens Boulder)."
+      "body": "Gammalt kalkbrott på norra Gotland med ca 8m hög vägg. Klippan är lös på sina ställen, så använd hjälm och se till att hålla repet bort från väggen. Tag gärna med rensningsutrustning för att ta bort lös sten och lösa flak.\nEventuell möjlighet för framtida bultning dock väldigt lättåtkomligt att sätta topprep. Hela klippan ligger i en amfiteaterliknande sydvänd gryta vilket gör klättring möjlig året runt.\n\nKombinera gärna denna vägg med ett besök på andra sidan viken (Hidevikens Boulder)."
     },
     {
       "id": "vagbeskrivning",
       "title": "Vägbeskrivning",
-      "body": "Några km norr om Slite, höger mot Hellvi, efter ca 6 km höger mot Hide. kör förbi campingen. Efter ca 500 meter så syns väggen på vänster sida Karta här. Tryck på kartknappen ovan."
+      "body": "Några km norr om Slite, höger mot Hellvi, efter ca 6 km höger mot Hide. kör förbi campingen. Efter ca 500 meter så syns väggen på vänster sida\n\nKarta här. Tryck på kartknappen ovan."
     },
     {
       "id": "boende",
@@ -38,7 +38,7 @@
     {
       "id": "leder",
       "title": "Leder",
-      "body": "thumb|720px| Alla leder går mellan de vertikala borrhålen som går längs väggen och är graderade utan användning av dessa, om inte annat står beskrivet. Alla FA är med topprep... thumb|350px| Närbild Elvis nackspärr 6c, Astragalus 6a, Hide n Seek 5c och Nine inch nails 6b kategori:Saknar skiss kategori:Saknar vägbeskrivning kategori:Saknar koordinater kategori:Saknar skrivarformatering Category:Gotland"
+      "body": "Alla leder går mellan de vertikala borrhålen som går längs väggen och är graderade utan användning av dessa, om inte annat står beskrivet. Alla FA är med topprep...\n\nNärbild Elvis nackspärr 6c, Astragalus 6a, Hide n Seek 5c och Nine inch nails 6b"
     }
   ],
   "routes": [
@@ -400,9 +400,48 @@
       "filename": "Vertikalt.gif",
       "caption": "Vertikal klättring",
       "missing": false,
-      "sectorId": null
+      "sectorId": null,
+      "routeIds": []
+    },
+    {
+      "filename": "Hide.jpeg",
+      "caption": "Hide",
+      "missing": false,
+      "sectorId": "leder",
+      "routeIds": [
+        "hidebrottet-led-1",
+        "hidebrottet-led-2",
+        "hidebrottet-led-3",
+        "hidebrottet-led-4",
+        "hidebrottet-led-5",
+        "hidebrottet-led-6",
+        "hidebrottet-led-7",
+        "hidebrottet-led-8",
+        "hidebrottet-led-9",
+        "hidebrottet-led-10",
+        "hidebrottet-led-11",
+        "hidebrottet-led-12",
+        "hidebrottet-led-13",
+        "hidebrottet-led-14",
+        "hidebrottet-led-15",
+        "hidebrottet-led-16",
+        "hidebrottet-led-17",
+        "hidebrottet-led-18",
+        "hidebrottet-led-19",
+        "hidebrottet-led-20",
+        "hidebrottet-led-21",
+        "hidebrottet-led-22"
+      ]
+    },
+    {
+      "filename": "13-16.jpg",
+      "caption": "13-16",
+      "missing": false,
+      "sectorId": "leder",
+      "routeIds": []
     }
   ],
+  "externalLinks": [],
   "access": {
     "legacyText": null,
     "federationSlug": null

@@ -3,7 +3,7 @@
   "id": "barnbergspelaren",
   "slug": "barnbergspelaren",
   "name": "Barnbergspelaren",
-  "description": "Observera att isarna ligger på en sydsluttning vilket leder till att kvalitén kan vara dålig om det inte har varit riktigt kallt under ett par dagar. För aktuellt isläge/övriga frågor kontakta Sundsvalls Klätterklubb.",
+  "description": "Observera att isarna ligger på en sydsluttning vilket leder till att kvalitén kan vara dålig om det inte har varit riktigt kallt under ett par dagar.\n\nFör aktuellt isläge/övriga frågor kontakta Sundsvalls Klätterklubb (http://www.sundsvallsklatterklubb.se).",
   "coordinates": null,
   "categories": [
     "Medelpad"
@@ -12,12 +12,12 @@
     {
       "id": "allmant",
       "title": "Allmänt",
-      "body": "Observera att isarna ligger på en sydsluttning vilket leder till att kvalitén kan vara dålig om det inte har varit riktigt kallt under ett par dagar. För aktuellt isläge/övriga frågor kontakta Sundsvalls Klätterklubb."
+      "body": "Observera att isarna ligger på en sydsluttning vilket leder till att kvalitén kan vara dålig om det inte har varit riktigt kallt under ett par dagar.\n\nFör aktuellt isläge/övriga frågor kontakta Sundsvalls Klätterklubb (http://www.sundsvallsklatterklubb.se)."
     },
     {
       "id": "vagbeskrivning",
       "title": "Vägbeskrivning",
-      "body": "Åk till Laggaberg efter väg 631/320 mellan Timrå och Kovland, sväng av mot Laggarberg (Berget syns nu norrut) och håll till vänster och parkera nära vägens slut. Anmarschen tar ca 20-30min beroend på snöläget. Gå rakt mot berget och följ kanten tills du hittar isarna (Kommer ni till tjärnen har ni gått för långt)."
+      "body": "Åk till Laggaberg efter väg 631/320 mellan Timrå och Kovland, sväng av mot Laggarberg (Berget syns nu norrut) och håll till vänster och parkera nära vägens slut.\n\nAnmarschen tar ca 20-30min beroend på snöläget. Gå rakt mot berget och följ kanten tills du hittar isarna (Kommer ni till tjärnen har ni gått för långt)."
     },
     {
       "id": "klattringen",
@@ -27,7 +27,7 @@
     {
       "id": "accessinformation",
       "title": "Accessinformation",
-      "body": "Inga accessproblem föreligger för tillfället, men när ni parkerar se till att inte hindra ev. passerade trafik. Kategori:Medelpad"
+      "body": "Inga accessproblem föreligger för tillfället, men när ni parkerar se till att inte hindra ev. passerade trafik."
     }
   ],
   "routes": [],
@@ -36,23 +36,33 @@
       "filename": "Barnberget_1.jpg",
       "caption": "dec 2008, Foto: Johan Hedman",
       "missing": false,
-      "sectorId": "vagbeskrivning"
+      "sectorId": "vagbeskrivning",
+      "routeIds": []
     },
     {
       "filename": "Barnberget_2.jpg",
       "caption": "dec 2008, Foto: Johan Hedman",
       "missing": false,
-      "sectorId": "vagbeskrivning"
+      "sectorId": "vagbeskrivning",
+      "routeIds": []
     },
     {
       "filename": "Barnberget_3.jpg",
       "caption": "dec 2008, Foto: Johan Hedman",
       "missing": false,
-      "sectorId": "vagbeskrivning"
+      "sectorId": "vagbeskrivning",
+      "routeIds": []
+    }
+  ],
+  "externalLinks": [
+    {
+      "url": "http://www.sundsvallsklatterklubb.se",
+      "label": "Sundsvalls Klätterklubb",
+      "sectionId": "allmant"
     }
   ],
   "access": {
-    "legacyText": "Inga accessproblem föreligger för tillfället, men när ni parkerar se till att inte hindra ev. passerade trafik. Kategori:Medelpad",
+    "legacyText": "Inga accessproblem föreligger för tillfället, men när ni parkerar se till att inte hindra ev. passerade trafik.",
     "federationSlug": null
   },
   "qualityIssues": [],

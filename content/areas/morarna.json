@@ -31,7 +31,7 @@
     {
       "id": "vagbeskrivning",
       "title": "Vägbeskrivning",
-      "body": "titel=Morarna lat=18280391 long=59088781 Kör Nynäshamnsvägen, sväng av mot Dalarö och kör tills du har en lanthandel på höger sida. Sväng höger mot Gålö och efter ca 1km sväng vänster vid skylt Gålö havsbad och Skälåker. Klippan ligger på vänster sida efter ca 3km. Kör in på parkeringen vid fornstigen. Parkeringen ligger på vänster sida strax före hembygdsmuseet (röda byggnader på höger sida av vägen)."
+      "body": "Kör Nynäshamnsvägen, sväng av mot Dalarö och kör tills du har en lanthandel på höger sida. Sväng höger mot Gålö och efter ca 1km sväng vänster vid skylt Gålö havsbad och Skälåker. Klippan ligger på vänster sida efter ca 3km. Kör in på parkeringen vid fornstigen. Parkeringen ligger på vänster sida strax före hembygdsmuseet (röda byggnader på höger sida av vägen)."
     },
     {
       "id": "leder",
@@ -56,7 +56,7 @@
     {
       "id": "eldare-vaggen",
       "title": "Eldare väggen",
-      "body": "Ligger ca 20m till höger Kategori:Saknar kolumner Kategori:Stockholm Kategori:Södra Södertörn Kategori:Trad Kategori:Sport Kategori:Vertikalt Kategori:Överhäng"
+      "body": "Ligger ca 20m till höger"
     }
   ],
   "routes": [
@@ -528,35 +528,74 @@
   "images": [
     {
       "filename": "Morarna_karta.png",
-      "caption": "",
+      "caption": "karta",
       "missing": false,
-      "sectorId": null
+      "sectorId": null,
+      "routeIds": []
     },
     {
       "filename": "Morarna-vänster.gif",
-      "caption": "",
+      "caption": "-vänster",
       "missing": false,
-      "sectorId": "vanstra-vaggen"
+      "sectorId": "vanstra-vaggen",
+      "routeIds": [
+        "morarna-led-1",
+        "morarna-led-2",
+        "morarna-led-3",
+        "morarna-led-4"
+      ]
     },
     {
       "filename": "Morarna-huvudväggen.gif",
-      "caption": "",
+      "caption": "-huvudväggen",
       "missing": false,
-      "sectorId": "huvudvaggen"
+      "sectorId": "huvudvaggen",
+      "routeIds": [
+        "morarna-led-5",
+        "morarna-led-6",
+        "morarna-led-7",
+        "morarna-led-8",
+        "morarna-led-9",
+        "morarna-led-10",
+        "morarna-led-11",
+        "morarna-led-12",
+        "morarna-led-13",
+        "morarna-led-14",
+        "morarna-led-15",
+        "morarna-led-16",
+        "morarna-led-17",
+        "morarna-led-18",
+        "morarna-led-19"
+      ]
     },
     {
       "filename": "Morarna-högra.gif",
-      "caption": "",
+      "caption": "-högra",
       "missing": false,
-      "sectorId": "hogra-vaggen"
+      "sectorId": "hogra-vaggen",
+      "routeIds": [
+        "morarna-led-20",
+        "morarna-led-21",
+        "morarna-led-22",
+        "morarna-led-23",
+        "morarna-led-24",
+        "morarna-led-25",
+        "morarna-led-26",
+        "morarna-led-27"
+      ]
     },
     {
       "filename": "Morarna-eldare.gif",
-      "caption": "",
+      "caption": "-eldare",
       "missing": false,
-      "sectorId": "eldare-vaggen"
+      "sectorId": "eldare-vaggen",
+      "routeIds": [
+        "morarna-led-28",
+        "morarna-led-29"
+      ]
     }
   ],
+  "externalLinks": [],
   "access": {
     "legacyText": null,
     "federationSlug": null

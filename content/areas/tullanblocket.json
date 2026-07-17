@@ -20,7 +20,7 @@
     {
       "id": "forare",
       "title": "Förare",
-      "body": "Category:Stockholm Kategori:Västra Södertörn"
+      "body": ""
     }
   ],
   "routes": [
@@ -60,11 +60,16 @@
   "images": [
     {
       "filename": "Tullanblocket.png",
-      "caption": "",
+      "caption": "Förare · foto",
       "missing": false,
-      "sectorId": "forare"
+      "sectorId": "forare",
+      "routeIds": [
+        "tullanblocket-led-1",
+        "tullanblocket-led-2"
+      ]
     }
   ],
+  "externalLinks": [],
   "access": {
     "legacyText": null,
     "federationSlug": null

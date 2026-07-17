@@ -3,7 +3,7 @@
   "id": "stenhamra",
   "slug": "stenhamra",
   "name": "Stenhamra",
-  "description": "Stenbrott i Stenhamra på södra delen av Svartsjölandet. Här finns ett flertal väggar av en höjd mellan 5–15 m. Väggarna är branta och innehåller en hel del löst material. Ett fåtal lockande formationer, i övrigt mest skräp.",
+  "description": "Stenbrott i Stenhamra på södra delen av Svartsjölandet.\nHär finns ett flertal väggar av en höjd mellan 5–15 m. Väggarna är branta och innehåller en hel del löst material. Ett fåtal lockande formationer, i övrigt mest skräp.",
   "coordinates": {
     "latitude": 59.337022222222224,
     "longitude": 17.675216666666667
@@ -18,17 +18,17 @@
     {
       "id": "allmant",
       "title": "Allmänt",
-      "body": "Stenbrott i Stenhamra på södra delen av Svartsjölandet. Här finns ett flertal väggar av en höjd mellan 5–15 m. Väggarna är branta och innehåller en hel del löst material. Ett fåtal lockande formationer, i övrigt mest skräp."
+      "body": "Stenbrott i Stenhamra på södra delen av Svartsjölandet.\nHär finns ett flertal väggar av en höjd mellan 5–15 m. Väggarna är branta och innehåller en hel del löst material. Ett fåtal lockande formationer, i övrigt mest skräp."
     },
     {
       "id": "bilder",
       "title": "Bilder",
-      "body": "Gammalt stenbrott som togs ur bruk 1937. Bilder finns på www.stenbrottet.nu."
+      "body": "Gammalt stenbrott som togs ur bruk 1937. Bilder finns på www.stenbrottet.nu (http://www.stenbrottet.nu/)."
     },
     {
       "id": "vagbeskrivning",
       "title": "Vägbeskrivning",
-      "body": "Kategori:Stockholm Kategori:Norra Stockholm Kategori:Saknar skiss Kategori:Saknar vägbeskrivning"
+      "body": ""
     }
   ],
   "routes": [
@@ -66,6 +66,13 @@
     }
   ],
   "images": [],
+  "externalLinks": [
+    {
+      "url": "http://www.stenbrottet.nu/",
+      "label": "www.stenbrottet.nu",
+      "sectionId": "bilder"
+    }
+  ],
   "access": {
     "legacyText": null,
     "federationSlug": null

@@ -3,7 +3,7 @@
   "id": "ulvasen-is",
   "slug": "ulvasen-is",
   "name": "Ulvåsen is",
-  "description": "Området är ganska litet och lederna är mellan 15-10 m långa. Lederna är vända mot väst. Plus för att det är lugnt och tyst. Passar utmärkt för nybörjare och provapå. Då det är enkelt att sätta topprep. Namnen på lederna är påhittade, FA-person får gärna ändra. Anmarsch: lederna är lätta att hitta om man följer skidspåret och tittar åt höger. Isuppdatering 4 februari 2012:",
+  "description": "Området är ganska litet och lederna är mellan 15-10 m långa. Lederna är vända mot väst. Plus för att det är lugnt och tyst. Passar utmärkt för nybörjare och provapå. Då det är enkelt att sätta topprep. Namnen på lederna är påhittade, FA-person får gärna ändra. Anmarsch: lederna är lätta att hitta om man följer skidspåret och tittar åt höger.\n\nIsuppdatering 4 februari 2012:",
   "coordinates": null,
   "categories": [
     "Is"
@@ -12,7 +12,7 @@
     {
       "id": "allmant",
       "title": "Allmänt",
-      "body": "Området är ganska litet och lederna är mellan 15-10 m långa. Lederna är vända mot väst. Plus för att det är lugnt och tyst. Passar utmärkt för nybörjare och provapå. Då det är enkelt att sätta topprep. Namnen på lederna är påhittade, FA-person får gärna ändra. Anmarsch: lederna är lätta att hitta om man följer skidspåret och tittar åt höger. Isuppdatering 4 februari 2012:"
+      "body": "Området är ganska litet och lederna är mellan 15-10 m långa. Lederna är vända mot väst. Plus för att det är lugnt och tyst. Passar utmärkt för nybörjare och provapå. Då det är enkelt att sätta topprep. Namnen på lederna är påhittade, FA-person får gärna ändra. Anmarsch: lederna är lätta att hitta om man följer skidspåret och tittar åt höger.\n\nIsuppdatering 4 februari 2012:"
     },
     {
       "id": "vagbeskrivning",
@@ -22,7 +22,7 @@
     {
       "id": "access",
       "title": "Access",
-      "body": "Inga kända accessproblem. Kategori:Is --Mr Dark 27 februari 2011 kl. 23.43 (CET)"
+      "body": "Inga kända accessproblem.\n\n--Mr Dark 27 februari 2011 kl. 23.43 (CET)"
     }
   ],
   "routes": [
@@ -78,31 +78,44 @@
   "images": [
     {
       "filename": "Från_vänster_Mr_Dark_Mr_Black_och_Mr_Gren_110227.JPG",
-      "caption": "",
+      "caption": "Mr Dark",
       "missing": false,
-      "sectorId": "allmant"
+      "sectorId": "allmant",
+      "routeIds": [
+        "ulvasen-is-led-1"
+      ]
     },
     {
       "filename": "Johan_Mörk_leder_Mr_Dark.JPG",
-      "caption": "",
+      "caption": "Mr Dark",
       "missing": false,
-      "sectorId": "allmant"
+      "sectorId": "allmant",
+      "routeIds": [
+        "ulvasen-is-led-1",
+        "ulvasen-is-led-2",
+        "ulvasen-is-led-3"
+      ]
     },
     {
       "filename": "Micke_leder_Mr_Gren.JPG",
-      "caption": "",
+      "caption": "Mr Gren",
       "missing": false,
-      "sectorId": "allmant"
+      "sectorId": "allmant",
+      "routeIds": [
+        "ulvasen-is-led-3"
+      ]
     },
     {
       "filename": "Ulvåsen_is_4-2-2012.jpg",
-      "caption": "",
+      "caption": "4-2-2012",
       "missing": false,
-      "sectorId": "allmant"
+      "sectorId": "allmant",
+      "routeIds": []
     }
   ],
+  "externalLinks": [],
   "access": {
-    "legacyText": "Inga kända accessproblem. Kategori:Is --Mr Dark 27 februari 2011 kl. 23.43 (CET)",
+    "legacyText": "Inga kända accessproblem.\n\n--Mr Dark 27 februari 2011 kl. 23.43 (CET)",
     "federationSlug": "ulvasen"
   },
   "qualityIssues": [],

@@ -28,7 +28,7 @@
     {
       "id": "vagbeskrivning",
       "title": "Vägbeskrivning",
-      "body": "titel=Allmoraberget lat=18396710 long=59198370 Ällmoraberget ligger längs norra sidan av Ällmoravägen på västsidan av halvön. Gritstone-klippan ligger 30 m från vägen uppe i skogen mitt emot tomt nr 92-94-96. Parkera längs med vägen. Se även Gritstoneberget."
+      "body": "Ällmoraberget ligger längs norra sidan av Ällmoravägen på västsidan av halvön. Gritstone-klippan ligger 30 m från vägen uppe i skogen mitt emot tomt nr 92-94-96. Parkera längs med vägen.\nSe även Gritstoneberget."
     },
     {
       "id": "miljo",
@@ -53,7 +53,7 @@
     {
       "id": "hogra-delen",
       "title": "Högra delen",
-      "body": "Kategori:Saknar kolumner Kategori:Sport Kategori:Stockholm Kategori:Tyresö"
+      "body": ""
     }
   ],
   "routes": [
@@ -317,11 +317,21 @@
   "images": [
     {
       "filename": "Ällmoraberget.png",
-      "caption": "",
+      "caption": "Vänstra delen · foto",
       "missing": false,
-      "sectorId": "vanstra-delen"
+      "sectorId": "vanstra-delen",
+      "routeIds": [
+        "allmoraberget-led-1",
+        "allmoraberget-led-2",
+        "allmoraberget-led-3",
+        "allmoraberget-led-4",
+        "allmoraberget-led-5",
+        "allmoraberget-led-6",
+        "allmoraberget-led-7"
+      ]
     }
   ],
+  "externalLinks": [],
   "access": {
     "legacyText": null,
     "federationSlug": null

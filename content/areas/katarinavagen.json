@@ -39,7 +39,7 @@
     {
       "id": "leder",
       "title": "Leder",
-      "body": "Kategori:sport kategori:Saknar skiss kategori:Saknar vägbeskrivning kategori:Saknar leder kategori:Saknar skrivarformatering Category:Stockholm Category:Stockholm City"
+      "body": ""
     }
   ],
   "routes": [
@@ -63,11 +63,15 @@
   "images": [
     {
       "filename": "Tusenoennatt.jpg",
-      "caption": "",
+      "caption": "Tusenoennatt",
       "missing": false,
-      "sectorId": "leder"
+      "sectorId": "leder",
+      "routeIds": [
+        "katarinavagen-led-1"
+      ]
     }
   ],
+  "externalLinks": [],
   "access": {
     "legacyText": "I och med att klippan ligger så synligt för förbipasserande är det viktigt att vi klättrare sköter oss exemplariskt. Skrik inte när du faller på slutkruxet ;) och var försiktig med de planterade buskarna och blommorna. Visa hänsyn till allt och alla.",
     "federationSlug": null

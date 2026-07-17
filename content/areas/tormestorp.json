@@ -3,7 +3,7 @@
   "id": "tormestorp",
   "slug": "tormestorp",
   "name": "Tormestorp",
-  "description": "En liten och kanske inte så väldigt betydelsefull klippa. Men har man vägarna förbi kan det kanske vara av intresse. Området består av tre väggar och två större flyttblock. Boulderväggen är något lägre, ca 5-6 m som högst, medan huvudväggen och nedre väggen är ca 10 m höga. Klättringen är av karaktären väggklättring strax under 90 grader, mestadels på små lister. Klippan har vid torrt väder mycket fin friktion. Att tänka på är att den torkar långsammt och behöver minst en varm sommardag för att torka upp. Boulderblocken är kanske inte så mycket att hänga i julgranen med dagens mått på bouldering. Förutom de tre väggarna i \"Stora Tormestorp\" finns en mindre vägg. Klippkvalitén på denna är mycket god, men klippan är dessvärre mycket svår att finna.",
+  "description": "En liten och kanske inte så väldigt betydelsefull klippa. Men har man vägarna förbi kan det kanske vara av intresse. Området består av tre väggar och två större flyttblock.\nBoulderväggen är något lägre, ca 5-6 m som högst, medan huvudväggen och nedre väggen är ca 10 m höga.\nKlättringen är av karaktären väggklättring strax under 90 grader, mestadels på små lister.\nKlippan har vid torrt väder mycket fin friktion. Att tänka på är att den torkar långsammt och behöver minst en varm sommardag för att torka upp. Boulderblocken är kanske inte så mycket att hänga i julgranen med dagens mått på bouldering.\nFörutom de tre väggarna i \"Stora Tormestorp\" finns en mindre vägg. Klippkvalitén på denna är mycket god, men klippan är dessvärre mycket svår att finna.",
   "coordinates": {
     "latitude": 56.09561,
     "longitude": 13.74886
@@ -15,7 +15,7 @@
     {
       "id": "allmant",
       "title": "Allmänt",
-      "body": "En liten och kanske inte så väldigt betydelsefull klippa. Men har man vägarna förbi kan det kanske vara av intresse. Området består av tre väggar och två större flyttblock. Boulderväggen är något lägre, ca 5-6 m som högst, medan huvudväggen och nedre väggen är ca 10 m höga. Klättringen är av karaktären väggklättring strax under 90 grader, mestadels på små lister. Klippan har vid torrt väder mycket fin friktion. Att tänka på är att den torkar långsammt och behöver minst en varm sommardag för att torka upp. Boulderblocken är kanske inte så mycket att hänga i julgranen med dagens mått på bouldering. Förutom de tre väggarna i \"Stora Tormestorp\" finns en mindre vägg. Klippkvalitén på denna är mycket god, men klippan är dessvärre mycket svår att finna."
+      "body": "En liten och kanske inte så väldigt betydelsefull klippa. Men har man vägarna förbi kan det kanske vara av intresse. Området består av tre väggar och två större flyttblock.\nBoulderväggen är något lägre, ca 5-6 m som högst, medan huvudväggen och nedre väggen är ca 10 m höga.\nKlättringen är av karaktären väggklättring strax under 90 grader, mestadels på små lister.\nKlippan har vid torrt väder mycket fin friktion. Att tänka på är att den torkar långsammt och behöver minst en varm sommardag för att torka upp. Boulderblocken är kanske inte så mycket att hänga i julgranen med dagens mått på bouldering.\nFörutom de tre väggarna i \"Stora Tormestorp\" finns en mindre vägg. Klippkvalitén på denna är mycket god, men klippan är dessvärre mycket svår att finna."
     },
     {
       "id": "hitta-hit",
@@ -25,7 +25,7 @@
     {
       "id": "stora-tormestorp",
       "title": "Stora Tormestorp",
-      "body": "* 1 Boulderväggen * 2 Huvudväggen * 3 Nedre väggen * 4 Boulderblocken Klippan sedd nerifrån. Det finns upp/nedstigningsleder vid sidan av varje vägg. Till boulderblocken går man från klippan snett nedåt vänster i backen ca 100m"
+      "body": "• 1 Boulderväggen\n• 2 Huvudväggen\n• 3 Nedre väggen\n• 4 Boulderblocken\n\nKlippan sedd nerifrån. Det finns upp/nedstigningsleder vid sidan av varje vägg.\nTill boulderblocken går man från klippan snett nedåt vänster i backen ca 100m"
     },
     {
       "id": "bouldervaggen",
@@ -50,7 +50,7 @@
     {
       "id": "lilla-tormestorp",
       "title": "Lilla Tormestorp",
-      "body": "Kategori:Skåne"
+      "body": ""
     }
   ],
   "routes": [
@@ -394,47 +394,82 @@
   "images": [
     {
       "filename": "Tormestorp_Karta4.gif",
-      "caption": "",
+      "caption": "Karta4",
       "missing": false,
-      "sectorId": "hitta-hit"
+      "sectorId": "hitta-hit",
+      "routeIds": []
     },
     {
       "filename": "Tormeoversikt.gif",
-      "caption": "",
+      "caption": "Tormeoversikt",
       "missing": false,
-      "sectorId": "stora-tormestorp"
+      "sectorId": "stora-tormestorp",
+      "routeIds": []
     },
     {
       "filename": "Tormebouldervaggen.gif",
-      "caption": "",
+      "caption": "Boulder",
       "missing": false,
-      "sectorId": "bouldervaggen"
+      "sectorId": "bouldervaggen",
+      "routeIds": [
+        "tormestorp-led-17",
+        "tormestorp-led-1"
+      ]
     },
     {
       "filename": "Tormehuvudvaggen.gif",
-      "caption": "",
+      "caption": "Tormehuvudvaggen",
       "missing": false,
-      "sectorId": "huvudvaggen"
+      "sectorId": "huvudvaggen",
+      "routeIds": [
+        "tormestorp-led-2",
+        "tormestorp-led-3",
+        "tormestorp-led-4",
+        "tormestorp-led-5",
+        "tormestorp-led-6",
+        "tormestorp-led-7",
+        "tormestorp-led-8",
+        "tormestorp-led-9",
+        "tormestorp-led-10"
+      ]
     },
     {
       "filename": "Tormenedrevaggen.gif",
-      "caption": "",
+      "caption": "Tormenedrevaggen",
       "missing": false,
-      "sectorId": "nedre-vaggen"
+      "sectorId": "nedre-vaggen",
+      "routeIds": [
+        "tormestorp-led-11"
+      ]
     },
     {
       "filename": "Tormesblocken.gif",
-      "caption": "",
+      "caption": "Tormesblocken",
       "missing": false,
-      "sectorId": "boulderblocken"
+      "sectorId": "boulderblocken",
+      "routeIds": [
+        "tormestorp-led-12",
+        "tormestorp-led-13",
+        "tormestorp-led-14",
+        "tormestorp-led-15",
+        "tormestorp-led-16",
+        "tormestorp-led-17",
+        "tormestorp-led-18",
+        "tormestorp-led-19"
+      ]
     },
     {
       "filename": "Lillatormes.gif",
-      "caption": "",
+      "caption": "Lillatormes",
       "missing": false,
-      "sectorId": "lilla-tormestorp"
+      "sectorId": "lilla-tormestorp",
+      "routeIds": [
+        "tormestorp-led-20",
+        "tormestorp-led-21"
+      ]
     }
   ],
+  "externalLinks": [],
   "access": {
     "legacyText": null,
     "federationSlug": null

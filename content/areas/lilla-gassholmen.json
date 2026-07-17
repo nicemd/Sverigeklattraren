@@ -39,7 +39,7 @@
     {
       "id": "leder",
       "title": "Leder",
-      "body": "Kategori:DWS Kategori:vertikalt Kategori:Stockholm Kategori:Nacka-Värmdö Kategori:Stockholms Skärgård"
+      "body": ""
     }
   ],
   "routes": [
@@ -111,11 +111,18 @@
   "images": [
     {
       "filename": "Forare_gassholmen.JPG",
-      "caption": "",
+      "caption": "Forare gassholmen",
       "missing": false,
-      "sectorId": "leder"
+      "sectorId": "leder",
+      "routeIds": [
+        "lilla-gassholmen-led-1",
+        "lilla-gassholmen-led-2",
+        "lilla-gassholmen-led-3",
+        "lilla-gassholmen-led-4"
+      ]
     }
   ],
+  "externalLinks": [],
   "access": {
     "legacyText": null,
     "federationSlug": null

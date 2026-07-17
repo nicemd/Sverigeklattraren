@@ -34,12 +34,12 @@
     {
       "id": "vagbeskrivning",
       "title": "Vägbeskrivning",
-      "body": "Från Granebergsvägen svänger man av på Rådjursstigen till Allnäs friluftsgård (skyltat, KFUK/KFUM). Efter 450 meter ser du parkeringen till Allnäs på höger sida. Ta stigen västerut in i skogen just innan parkering. Efter 150 meter kommer du att se väggen på höger sida. Längst västerut (bortanför 'Ficktjuven') finns en stig upp till toppen av klippan."
+      "body": "Från Granebergsvägen svänger man av på Rådjursstigen till Allnäs friluftsgård (skyltat, KFUK/KFUM). Efter 450 meter ser du parkeringen till Allnäs på höger sida. Ta stigen västerut in i skogen just innan parkering. Efter 150 meter kommer du att se väggen på höger sida.\n\nLängst västerut (bortanför 'Ficktjuven') finns en stig upp till toppen av klippan."
     },
     {
       "id": "skiss",
       "title": "Skiss",
-      "body": "Högupplöst version - SVG"
+      "body": "Högupplöst version (http://www.sverigeforaren.se/images/5/5f/Granebergsklippan-Skiss_HighRes.png) -\nSVG (http://www.sverigeforaren.se/images/2/2a/Granebergsklippan-Skiss.svg)"
     },
     {
       "id": "leder",
@@ -54,7 +54,7 @@
     {
       "id": "ovrigt",
       "title": "Övrigt",
-      "body": "Författarna till denna sida har fått bekräftelse på att det klättrats tidigare på denna klippa. Däremot har ingen information kunnat hittas om leder, namn, förstabestigningar osv. Förhoppningvis hör du av dig eller korrigerar direkt om det finns dylik information hos dig som läser detta. Det viktiga för oss var att snabbt presentera denna svaklack som ett ytterligare alternativ kring det inte alltför klipptäta Uppsala. Kategori:trad Kategori:sva kategori:Saknar skiss kategori:Svealand kategori:Uppland"
+      "body": "Författarna till denna sida har fått bekräftelse på att det klättrats tidigare på denna klippa. Däremot har ingen information kunnat hittas om leder, namn, förstabestigningar osv. Förhoppningvis hör du av dig eller korrigerar direkt om det finns dylik information hos dig som läser detta. Det viktiga för oss var att snabbt presentera denna svaklack som ett ytterligare alternativ kring det inte alltför klipptäta Uppsala."
     }
   ],
   "routes": [
@@ -254,21 +254,36 @@
   "images": [
     {
       "filename": "Granebergsklippan_-_Skiss.jpg",
-      "caption": "",
+      "caption": "- Skiss",
       "missing": false,
-      "sectorId": "skiss"
+      "sectorId": "skiss",
+      "routeIds": []
     },
     {
       "filename": "Granebergsklippan1_350.jpg",
-      "caption": "",
+      "caption": "1 350",
       "missing": false,
-      "sectorId": "bilder"
+      "sectorId": "bilder",
+      "routeIds": []
     },
     {
       "filename": "Granebergsklippan2_350.jpg",
-      "caption": "",
+      "caption": "2 350",
       "missing": false,
-      "sectorId": "bilder"
+      "sectorId": "bilder",
+      "routeIds": []
+    }
+  ],
+  "externalLinks": [
+    {
+      "url": "http://www.sverigeforaren.se/images/5/5f/Granebergsklippan-Skiss_HighRes.png",
+      "label": "Högupplöst version",
+      "sectionId": "skiss"
+    },
+    {
+      "url": "http://www.sverigeforaren.se/images/2/2a/Granebergsklippan-Skiss.svg",
+      "label": "SVG",
+      "sectionId": "skiss"
     }
   ],
   "access": {

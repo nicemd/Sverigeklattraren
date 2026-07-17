@@ -34,7 +34,7 @@
     {
       "id": "vagbeskrivning",
       "title": "Vägbeskrivning",
-      "body": "titel=Träskbergen lat=18382870 long=59208320 Kör Breviksvägen, sväng av höger in på Ällmoravägen, sedan vänster in på Stubvretsvägen.När vägen svänger skarpt vänster fortsätt rakt fram in på en kort grusväg. Parkera där vägen tar slut OBS! Denna parkering finns ej längre! Parkera antingen nere på någon av parkeringarna vid Breviksmaren (båthamnen) eller på den allmänna parkeringen mittemot Tyresö Snickeri & Bygg (gamla affären) precis när du kommer fram till Brevik. Följ stigen som fortsätter in i skogen 20 m och gå sedan uppför berget th och vidare i samma riktning tills du ser träsket. Stora Träskbergets 30 m höga svaplatta går inte att missa. Om du fortsätter norrut ca 200 m avslutas berget med en ca 15 m hög, brant svavägg; detta är Lilla Träskberget. För att komma till Saharaväggen gå tillbaka ca 100m från parkeringen tills du ser en 10m bred remsa skog mellan två tomter på vänster (sydväst) sida. Ta stigen som går genom dungen längst med staketet. När stigen delar sig ta höger så ser du den överhängande Saharaväggen på höger sida uppe på en platå. Om du nu går går vänster längst med sjön kommer du till de övriga väggarna."
+      "body": "Kör Breviksvägen, sväng av höger in på Ällmoravägen, sedan vänster in på Stubvretsvägen.När vägen svänger skarpt vänster fortsätt rakt fram in på en kort grusväg. Parkera där vägen tar slut OBS! Denna parkering finns ej längre! Parkera antingen nere på någon av parkeringarna vid Breviksmaren (båthamnen) eller på den allmänna parkeringen mittemot Tyresö Snickeri & Bygg (gamla affären) precis när du kommer fram till Brevik.\n\nFölj stigen som fortsätter in i skogen 20 m och gå sedan uppför berget th och vidare i samma riktning tills du ser träsket. Stora Träskbergets 30 m höga svaplatta går inte att missa. Om du fortsätter norrut ca 200 m avslutas berget med en ca 15 m hög, brant svavägg; detta är Lilla Träskberget.\n\nFör att komma till Saharaväggen gå tillbaka ca 100m från parkeringen tills du ser en 10m bred remsa skog mellan två tomter på vänster (sydväst) sida. Ta stigen som går genom dungen längst med staketet. När stigen delar sig ta höger så ser du den överhängande Saharaväggen på höger sida uppe på en platå. Om du nu går går vänster längst med sjön kommer du till de övriga väggarna."
     },
     {
       "id": "kommunikationer",
@@ -54,7 +54,7 @@
     {
       "id": "lilla-traskberget",
       "title": "Lilla Träskberget",
-      "body": "Detta förhållandevis lilla klipparti ger fingriga leder på kompakt klippa. Många av lederna har grott igen pga lite trafik och mycket barr. Innehåller dock ett par klassiker. Lämna grejorna ovanpå berget och gå ner i en liten ränna th (vänd utåt) om klippan. Fin, lätt och välsäkrad."
+      "body": "Detta förhållandevis lilla klipparti ger fingriga leder på kompakt klippa. Många av lederna har grott igen pga lite trafik och mycket barr. Innehåller dock ett par klassiker. Lämna grejorna ovanpå berget och gå ner i en liten ränna th (vänd utåt) om klippan.\n\nFin, lätt och välsäkrad."
     },
     {
       "id": "greenpeace-vaggen",
@@ -84,7 +84,7 @@
     {
       "id": "vox-populi-vaggen",
       "title": "Vox populi väggen",
-      "body": "Kategori:Sport Kategori:Överhäng Kategori:Trad Kategori:Stockholm Kategori:Tyresö"
+      "body": ""
     }
   ],
   "routes": [
@@ -1548,59 +1548,159 @@
   "images": [
     {
       "filename": "Traskbergen_karta.png",
-      "caption": "",
+      "caption": "Traskbergen karta",
       "missing": false,
-      "sectorId": null
+      "sectorId": null,
+      "routeIds": []
     },
     {
       "filename": "Träskberget001.jpg",
       "caption": "Jonas Ahlman",
       "missing": false,
-      "sectorId": "beskrivning"
+      "sectorId": "beskrivning",
+      "routeIds": []
     },
     {
       "filename": "Traskbergen_detalj.png",
-      "caption": "",
+      "caption": "Traskbergen detalj",
       "missing": false,
-      "sectorId": "sahara-vaggen"
+      "sectorId": "sahara-vaggen",
+      "routeIds": [
+        "traskbergen-led-1",
+        "traskbergen-led-2",
+        "traskbergen-led-3",
+        "traskbergen-led-4",
+        "traskbergen-led-5",
+        "traskbergen-led-6",
+        "traskbergen-led-7",
+        "traskbergen-led-8",
+        "traskbergen-led-9",
+        "traskbergen-led-10"
+      ]
     },
     {
       "filename": "Traskberget_0.png",
-      "caption": "",
+      "caption": "Traskberget 0",
       "missing": false,
-      "sectorId": "lilla-traskberget"
+      "sectorId": "lilla-traskberget",
+      "routeIds": [
+        "traskbergen-led-11",
+        "traskbergen-led-12",
+        "traskbergen-led-13",
+        "traskbergen-led-14",
+        "traskbergen-led-15",
+        "traskbergen-led-16",
+        "traskbergen-led-17",
+        "traskbergen-led-18",
+        "traskbergen-led-19",
+        "traskbergen-led-20",
+        "traskbergen-led-21"
+      ]
     },
     {
       "filename": "Traskbergen_1.png",
-      "caption": "",
+      "caption": "Traskbergen 1",
       "missing": false,
-      "sectorId": "greenpeace-vaggen"
+      "sectorId": "greenpeace-vaggen",
+      "routeIds": [
+        "traskbergen-led-22",
+        "traskbergen-led-23",
+        "traskbergen-led-24",
+        "traskbergen-led-25",
+        "traskbergen-led-26",
+        "traskbergen-led-27",
+        "traskbergen-led-28",
+        "traskbergen-led-29"
+      ]
     },
     {
       "filename": "Traskbergen_2.png",
-      "caption": "",
+      "caption": "Traskbergen 2",
       "missing": false,
-      "sectorId": "overhangande-vaggen"
+      "sectorId": "overhangande-vaggen",
+      "routeIds": [
+        "traskbergen-led-33",
+        "traskbergen-led-34",
+        "traskbergen-led-35",
+        "traskbergen-led-36",
+        "traskbergen-led-37",
+        "traskbergen-led-38",
+        "traskbergen-led-39",
+        "traskbergen-led-40",
+        "traskbergen-led-41",
+        "traskbergen-led-42",
+        "traskbergen-led-43",
+        "traskbergen-led-44",
+        "traskbergen-led-45",
+        "traskbergen-led-46",
+        "traskbergen-led-47",
+        "traskbergen-led-48",
+        "traskbergen-led-49",
+        "traskbergen-led-50"
+      ]
     },
     {
       "filename": "Traskbergen_3.png",
-      "caption": "",
+      "caption": "Traskbergen 3",
       "missing": false,
-      "sectorId": "sumpvaggen"
+      "sectorId": "sumpvaggen",
+      "routeIds": [
+        "traskbergen-led-56",
+        "traskbergen-led-57",
+        "traskbergen-led-58",
+        "traskbergen-led-59",
+        "traskbergen-led-60",
+        "traskbergen-led-61",
+        "traskbergen-led-62",
+        "traskbergen-led-63",
+        "traskbergen-led-64",
+        "traskbergen-led-65",
+        "traskbergen-led-66",
+        "traskbergen-led-67"
+      ]
     },
     {
       "filename": "Traskbergen_4.png",
-      "caption": "",
+      "caption": "Traskbergen 4",
       "missing": false,
-      "sectorId": "sumpvaggen"
+      "sectorId": "sumpvaggen",
+      "routeIds": [
+        "traskbergen-led-68",
+        "traskbergen-led-69",
+        "traskbergen-led-70",
+        "traskbergen-led-71",
+        "traskbergen-led-72",
+        "traskbergen-led-73",
+        "traskbergen-led-74",
+        "traskbergen-led-75",
+        "traskbergen-led-76",
+        "traskbergen-led-77"
+      ]
     },
     {
       "filename": "Traskbergen_5.png",
-      "caption": "",
+      "caption": "Traskbergen 5",
       "missing": false,
-      "sectorId": "vox-populi-vaggen"
+      "sectorId": "vox-populi-vaggen",
+      "routeIds": [
+        "traskbergen-led-78",
+        "traskbergen-led-79",
+        "traskbergen-led-80",
+        "traskbergen-led-81",
+        "traskbergen-led-82",
+        "traskbergen-led-83",
+        "traskbergen-led-84",
+        "traskbergen-led-85",
+        "traskbergen-led-86",
+        "traskbergen-led-87",
+        "traskbergen-led-88",
+        "traskbergen-led-89",
+        "traskbergen-led-90",
+        "traskbergen-led-91"
+      ]
     }
   ],
+  "externalLinks": [],
   "access": {
     "legacyText": null,
     "federationSlug": null

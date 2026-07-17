@@ -38,7 +38,7 @@
     {
       "id": "vagbeskrivning",
       "title": "Vägbeskrivning",
-      "body": "titel=Dyviksudd lat=18405410 long=59192310 Som för Dödskalleberget. Klipporna ligger efter vägen, ett par hundra meter längre fram efter en vänsterkrök. En parkeringsficka finns vid klippans början. Parkera under inga omständigheter på mötesplatser eller privata platser. Den naturliga utgångspunkten är den lilla gräshyllan under den stora rödaktiga diedern ( Apokalyps ) ca 200 m efter vänsterkröken som avgränsar klippan åt v. En stig leder upp till denna hylla några m innan en skyltad mötesplats. Diedern är faktiskt synlig ända nere från vägen. Skisserna över klippan är ganska schematiska men bör ändå tjäna som en vägledning fram till klippan och klättringen."
+      "body": "Som för Dödskalleberget. Klipporna ligger efter vägen, ett par hundra meter längre fram efter en vänsterkrök. En parkeringsficka finns vid klippans början. Parkera under inga omständigheter på mötesplatser eller privata platser. Den naturliga utgångspunkten är den lilla gräshyllan under den stora rödaktiga diedern ( Apokalyps ) ca 200 m efter vänsterkröken som avgränsar klippan åt v. En stig leder upp till denna hylla några m innan en skyltad mötesplats. Diedern är faktiskt synlig ända nere från vägen. Skisserna över klippan är ganska schematiska men bör ändå tjäna som en vägledning fram till klippan och klättringen."
     },
     {
       "id": "access",
@@ -68,7 +68,7 @@
     {
       "id": "lord-hard-vaggen",
       "title": "Lord Hård-väggen",
-      "body": "]] Bergets mest imponerande vägg. Här ligger ett antal extremt svåra turer samt några lite mänskligare."
+      "body": "]]\n\nBergets mest imponerande vägg. Här ligger ett antal extremt svåra turer samt några lite mänskligare."
     },
     {
       "id": "graffiti-vaggen",
@@ -2088,51 +2088,180 @@
       "filename": "Dyvik_karta.png",
       "caption": "Dyviksudd, Gritstoneberget, Dödskalleberget m.fl.",
       "missing": false,
-      "sectorId": null
+      "sectorId": null,
+      "routeIds": []
     },
     {
       "filename": "Dyvik_oversikt.png",
-      "caption": "",
+      "caption": "Dyvik oversikt",
       "missing": false,
-      "sectorId": "leder"
+      "sectorId": "leder",
+      "routeIds": []
     },
     {
       "filename": "Dyvik_a.png",
-      "caption": "",
+      "caption": "Dyvik a",
       "missing": false,
-      "sectorId": "gibbon-partiet"
+      "sectorId": "gibbon-partiet",
+      "routeIds": [
+        "dyviksudd-led-1",
+        "dyviksudd-led-2",
+        "dyviksudd-led-3",
+        "dyviksudd-led-4",
+        "dyviksudd-led-5",
+        "dyviksudd-led-6",
+        "dyviksudd-led-7",
+        "dyviksudd-led-8",
+        "dyviksudd-led-9",
+        "dyviksudd-led-10",
+        "dyviksudd-led-11",
+        "dyviksudd-led-12",
+        "dyviksudd-led-13",
+        "dyviksudd-led-14",
+        "dyviksudd-led-15",
+        "dyviksudd-led-16",
+        "dyviksudd-led-17",
+        "dyviksudd-led-18",
+        "dyviksudd-led-19",
+        "dyviksudd-led-20",
+        "dyviksudd-led-21",
+        "dyviksudd-led-22",
+        "dyviksudd-led-23",
+        "dyviksudd-led-24",
+        "dyviksudd-led-25",
+        "dyviksudd-led-26"
+      ]
     },
     {
       "filename": "Dyvik_b.png",
-      "caption": "",
+      "caption": "Dyvik b",
       "missing": false,
-      "sectorId": "kokoskorvs-och-apocalyps-vaggen"
+      "sectorId": "kokoskorvs-och-apocalyps-vaggen",
+      "routeIds": [
+        "dyviksudd-led-27",
+        "dyviksudd-led-28",
+        "dyviksudd-led-29",
+        "dyviksudd-led-30",
+        "dyviksudd-led-31",
+        "dyviksudd-led-32",
+        "dyviksudd-led-33",
+        "dyviksudd-led-34",
+        "dyviksudd-led-35",
+        "dyviksudd-led-36",
+        "dyviksudd-led-37",
+        "dyviksudd-led-38",
+        "dyviksudd-led-39",
+        "dyviksudd-led-40",
+        "dyviksudd-led-41",
+        "dyviksudd-led-42",
+        "dyviksudd-led-43",
+        "dyviksudd-led-44",
+        "dyviksudd-led-45",
+        "dyviksudd-led-46",
+        "dyviksudd-led-47",
+        "dyviksudd-led-48",
+        "dyviksudd-led-49",
+        "dyviksudd-led-50",
+        "dyviksudd-led-51",
+        "dyviksudd-led-52",
+        "dyviksudd-led-53"
+      ]
     },
     {
       "filename": "Dyvik_c.png",
-      "caption": "",
+      "caption": "Dyvik c",
       "missing": false,
-      "sectorId": "no-more-heroes-vaggen"
+      "sectorId": "no-more-heroes-vaggen",
+      "routeIds": [
+        "dyviksudd-led-54",
+        "dyviksudd-led-55",
+        "dyviksudd-led-56",
+        "dyviksudd-led-57",
+        "dyviksudd-led-58",
+        "dyviksudd-led-59",
+        "dyviksudd-led-60",
+        "dyviksudd-led-61",
+        "dyviksudd-led-62",
+        "dyviksudd-led-63",
+        "dyviksudd-led-64",
+        "dyviksudd-led-65",
+        "dyviksudd-led-66",
+        "dyviksudd-led-67",
+        "dyviksudd-led-68",
+        "dyviksudd-led-69",
+        "dyviksudd-led-70",
+        "dyviksudd-led-71",
+        "dyviksudd-led-72",
+        "dyviksudd-led-73",
+        "dyviksudd-led-74",
+        "dyviksudd-led-75",
+        "dyviksudd-led-76",
+        "dyviksudd-led-77",
+        "dyviksudd-led-78"
+      ]
     },
     {
       "filename": "Dyvik_d.png",
-      "caption": "",
+      "caption": "Dyvik d",
       "missing": false,
-      "sectorId": "no-more-heroes-vaggen"
+      "sectorId": "no-more-heroes-vaggen",
+      "routeIds": [
+        "dyviksudd-led-79",
+        "dyviksudd-led-80",
+        "dyviksudd-led-81",
+        "dyviksudd-led-82",
+        "dyviksudd-led-83",
+        "dyviksudd-led-84",
+        "dyviksudd-led-85",
+        "dyviksudd-led-86",
+        "dyviksudd-led-87",
+        "dyviksudd-led-88",
+        "dyviksudd-led-89",
+        "dyviksudd-led-90",
+        "dyviksudd-led-91",
+        "dyviksudd-led-92",
+        "dyviksudd-led-93",
+        "dyviksudd-led-94",
+        "dyviksudd-led-95",
+        "dyviksudd-led-96",
+        "dyviksudd-led-97"
+      ]
     },
     {
       "filename": "Dyviksudd001.jpg",
       "caption": "Jonas Ahlman",
       "missing": false,
-      "sectorId": "lord-hard-vaggen"
+      "sectorId": "lord-hard-vaggen",
+      "routeIds": []
     },
     {
       "filename": "Dyvik_e.png",
-      "caption": "",
+      "caption": "Dyvik e",
       "missing": false,
-      "sectorId": "lord-hard-vaggen"
+      "sectorId": "lord-hard-vaggen",
+      "routeIds": [
+        "dyviksudd-led-98",
+        "dyviksudd-led-99",
+        "dyviksudd-led-100",
+        "dyviksudd-led-101",
+        "dyviksudd-led-102",
+        "dyviksudd-led-103",
+        "dyviksudd-led-104",
+        "dyviksudd-led-105",
+        "dyviksudd-led-106",
+        "dyviksudd-led-107",
+        "dyviksudd-led-108",
+        "dyviksudd-led-109",
+        "dyviksudd-led-110",
+        "dyviksudd-led-111",
+        "dyviksudd-led-112",
+        "dyviksudd-led-113",
+        "dyviksudd-led-114",
+        "dyviksudd-led-115"
+      ]
     }
   ],
+  "externalLinks": [],
   "access": {
     "legacyText": "Verkar ständigt vara hotat av klätterförbud. Var diskreta och parkera endast på parkeringsplatsen nedanför klippan.",
     "federationSlug": "dyviksudde"

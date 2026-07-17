@@ -3,7 +3,7 @@
   "id": "sparod",
   "slug": "sparod",
   "name": "Sparöd",
-  "description": "Berget ligger precis nordost om Bovallstrand och fågelvägen (=cykelvägen) är det inte mer än 1,5 km till centrum. Parkering för bil ligger 400 meter norr om klippan – du promenerar sedan en grusväg upp till berget. Inga bilar får ställas mellan parkeringen och klippan. Marken ägs av Sotenäs kommun. Granitväggen är knappt hundra meter bred och vägghöjden 15-25 meter. Solen börja komma in i väggen först vid 13-tiden – så Sparöd är ett bra alternativ en varm dag. Från toppen har du en strålande utsikt över Bottnafjorden, och havet – från Valön i norr till SoteBonde i söder.",
+  "description": "Berget ligger precis nordost om Bovallstrand och fågelvägen (=cykelvägen) är det inte mer än 1,5 km till centrum. Parkering för bil ligger 400 meter norr om klippan – du promenerar sedan en grusväg upp till berget. Inga bilar får ställas mellan parkeringen och klippan. Marken ägs av Sotenäs kommun.\nGranitväggen är knappt hundra meter bred och vägghöjden 15-25 meter. Solen börja komma in i väggen först vid 13-tiden – så Sparöd är ett bra alternativ en varm dag. Från toppen har du en strålande utsikt över Bottnafjorden, och havet – från Valön i norr till SoteBonde i söder.",
   "coordinates": {
     "latitude": 58.4775,
     "longitude": 11.3483
@@ -21,17 +21,17 @@
     {
       "id": "allmant",
       "title": "Allmänt",
-      "body": "Berget ligger precis nordost om Bovallstrand och fågelvägen (=cykelvägen) är det inte mer än 1,5 km till centrum. Parkering för bil ligger 400 meter norr om klippan – du promenerar sedan en grusväg upp till berget. Inga bilar får ställas mellan parkeringen och klippan. Marken ägs av Sotenäs kommun. Granitväggen är knappt hundra meter bred och vägghöjden 15-25 meter. Solen börja komma in i väggen först vid 13-tiden – så Sparöd är ett bra alternativ en varm dag. Från toppen har du en strålande utsikt över Bottnafjorden, och havet – från Valön i norr till SoteBonde i söder."
+      "body": "Berget ligger precis nordost om Bovallstrand och fågelvägen (=cykelvägen) är det inte mer än 1,5 km till centrum. Parkering för bil ligger 400 meter norr om klippan – du promenerar sedan en grusväg upp till berget. Inga bilar får ställas mellan parkeringen och klippan. Marken ägs av Sotenäs kommun.\nGranitväggen är knappt hundra meter bred och vägghöjden 15-25 meter. Solen börja komma in i väggen först vid 13-tiden – så Sparöd är ett bra alternativ en varm dag. Från toppen har du en strålande utsikt över Bottnafjorden, och havet – från Valön i norr till SoteBonde i söder."
     },
     {
       "id": "vagbeskrivning",
       "title": "Vägbeskrivning",
-      "body": "Från E6 – avtag Bovallstrand. Följ vägen till några km innan samhället där du svänger vänster vid skylt ”Heljarödshemmet”. Efter en knapp km parkering till vänster – mittemot en villa. Gå sedan in på grusvägen – markerad ”Soteleden”- efter villan och följ den högra när den delar sig. När du passerat ytterligare en villa på höger hand dyker klippan upp till vänster. Gå in vid rödmarkerad stolpe. Till utstegen kommer du via scrambling förbi ett träd 50 meter till vänster om lederna. Ovanför lederna längst till höger kan du fira från stora träd på en hylla 15 meter ovanför marken. De två lederna längst till höger är 15 meter långa – de övriga 25 meter. Svårighetsgraden varierar. Det finns tre leder graderade 5+ - härefter en jämn progression upp til 8-. Berget borde alltså kunna locka både ”gammal och ung” De leder som gjorts är alla ledda på naturliga säkringar. Tänk på att hålla en låg ljudnivå – villorna ligger nära!"
+      "body": "Från E6 – avtag Bovallstrand. Följ vägen till några km innan samhället där du svänger vänster vid skylt ”Heljarödshemmet”. Efter en knapp km parkering till vänster – mittemot en villa. Gå sedan in på grusvägen – markerad ”Soteleden”- efter villan och följ den högra när den delar sig. När du passerat ytterligare en villa på höger hand dyker klippan upp till vänster. Gå in vid rödmarkerad stolpe.\nTill utstegen kommer du via scrambling förbi ett träd 50 meter till vänster om lederna. Ovanför lederna längst till höger kan du fira från stora träd på en hylla 15 meter ovanför marken.\nDe två lederna längst till höger är 15 meter långa – de övriga 25 meter. Svårighetsgraden varierar. Det finns tre leder graderade 5+ - härefter en jämn progression upp til 8-.\nBerget borde alltså kunna locka både ”gammal och ung”\nDe leder som gjorts är alla ledda på naturliga säkringar.\nTänk på att hålla en låg ljudnivå – villorna ligger nära!"
     },
     {
       "id": "leder",
       "title": "Leder",
-      "body": "Leder från vänster (norr): Kategori:trad Kategori:vertikalt kategori:Saknar skrivarformatering Category:Bohuslän"
+      "body": "Leder från vänster (norr):"
     }
   ],
   "routes": [
@@ -215,17 +215,32 @@
   "images": [
     {
       "filename": "Sparröd_m.jpg",
-      "caption": "",
+      "caption": "Sparröd m",
       "missing": false,
-      "sectorId": "leder"
+      "sectorId": "leder",
+      "routeIds": []
     },
     {
       "filename": "Sparröd_h.jpg",
-      "caption": "",
+      "caption": "Sparröd h",
       "missing": false,
-      "sectorId": "leder"
+      "sectorId": "leder",
+      "routeIds": [
+        "sparod-led-1",
+        "sparod-led-2",
+        "sparod-led-3",
+        "sparod-led-4",
+        "sparod-led-5",
+        "sparod-led-6",
+        "sparod-led-7",
+        "sparod-led-8",
+        "sparod-led-9",
+        "sparod-led-10",
+        "sparod-led-11"
+      ]
     }
   ],
+  "externalLinks": [],
   "access": {
     "legacyText": null,
     "federationSlug": null

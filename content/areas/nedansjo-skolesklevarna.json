@@ -3,7 +3,7 @@
   "id": "nedansjo-skolesklevarna",
   "slug": "nedansjo-skolesklevarna",
   "name": "Nedansjö(Skölesklevarna)",
-  "description": "Nedansjöisarna är fint belägna på nordsidan av Skölesklevarna med vy utöver dalgången där älven Ljungan flyter igenom. Under normala förhållanden sträcker sig säsongen från början av december till slutet av mars. För aktuellt isläge/övriga frågor kontakta Sundsvalls Klätterklubb.",
+  "description": "Nedansjöisarna är fint belägna på nordsidan av Skölesklevarna med vy utöver dalgången där älven Ljungan flyter igenom. Under normala förhållanden sträcker sig säsongen från början av december till slutet av mars.\n\nFör aktuellt isläge/övriga frågor kontakta Sundsvalls Klätterklubb (http://www.sundsvallsklatterklubb.se).",
   "coordinates": null,
   "categories": [
     "Medelpad",
@@ -14,12 +14,12 @@
     {
       "id": "allmant",
       "title": "Allmänt",
-      "body": "Nedansjöisarna är fint belägna på nordsidan av Skölesklevarna med vy utöver dalgången där älven Ljungan flyter igenom. Under normala förhållanden sträcker sig säsongen från början av december till slutet av mars. För aktuellt isläge/övriga frågor kontakta Sundsvalls Klätterklubb."
+      "body": "Nedansjöisarna är fint belägna på nordsidan av Skölesklevarna med vy utöver dalgången där älven Ljungan flyter igenom. Under normala förhållanden sträcker sig säsongen från början av december till slutet av mars.\n\nFör aktuellt isläge/övriga frågor kontakta Sundsvalls Klätterklubb (http://www.sundsvallsklatterklubb.se)."
     },
     {
       "id": "vagbeskrivning",
       "title": "Vägbeskrivning",
-      "body": "Sväng av E14 mot Matfors, kör över Ljungan och 700m senare ta höger precis innan vägbron(skyltat mot stöde). Kör 200m och ta höger i T-korset, följ sedan vägen 5.2km och berget syns nu tydligt på vänster sida, du kör ner för en backe och passerar en stor äng. Målet är nära! Ta nu första vägen till vänster som går vinkelrätt mot berget. OBS! vägen är inte alltid plogad och i sådant fall kan parkering ske vid infarten men tänk på att parkera så att en ev plogbil/markägare kan passera. Om du nu är en lyckans ost och vägen är plogan fortsätt då ytterliggare 300m tills dess att vägen tar en skarp högersväng. Här kan det vara lämpligt att parkera bilen då markägaren brukar ploga extra brett. Finns oftast en liten vändplan plogad 400m längre fram längs vägen och om inte får man tillfälle att träna på att framför bilen i andra färdriktningen. Anmarschen är 300-600m (beroende på vart man kan parkera). Strax efter den skarpa högersvängen(där ni för hoppningsvis kunde parkera) går det upp en stig/skogsmaskinsspår åt vänster. Följ denna över bäcken tills dess att stigen tar slut(ca 250m), gå nu rakt upp mot berget genom skogen och håll något till vänster efter ca 150m borde ni se stor fallet tydligt (eller följ ev. upptrampad stig)."
+      "body": "Sväng av E14 mot Matfors, kör över Ljungan och 700m senare ta höger precis innan vägbron(skyltat mot stöde). Kör 200m och ta höger i T-korset, följ sedan vägen 5.2km och berget syns nu tydligt på vänster sida, du kör ner för en backe och passerar en stor äng. Målet är nära! Ta nu första vägen till vänster som går vinkelrätt mot berget. OBS! vägen är inte alltid plogad och i sådant fall kan parkering ske vid infarten men tänk på att parkera så att en ev plogbil/markägare kan passera. Om du nu är en lyckans ost och vägen är plogan fortsätt då ytterliggare 300m tills dess att vägen tar en skarp högersväng. Här kan det vara lämpligt att parkera bilen då markägaren brukar ploga extra brett. Finns oftast en liten vändplan plogad 400m längre fram längs vägen och om inte får man tillfälle att träna på att framför bilen i andra färdriktningen.\n\nAnmarschen är 300-600m (beroende på vart man kan parkera). Strax efter den skarpa högersvängen(där ni för hoppningsvis kunde parkera) går det upp en stig/skogsmaskinsspår åt vänster. Följ denna över bäcken tills dess att stigen tar slut(ca 250m), gå nu rakt upp mot berget genom skogen och håll något till vänster efter ca 150m borde ni se stor fallet tydligt (eller följ ev. upptrampad stig)."
     },
     {
       "id": "klattringen",
@@ -29,7 +29,7 @@
     {
       "id": "accessinformation",
       "title": "Accessinformation",
-      "body": "Inga accessproblem föreligger för tillfället, men när ni parkerar se till att inte hindra ev. passerade trafik. Kategori:Medelpad Kategori:Saknar koordinater Kategori:Saknar karta"
+      "body": "Inga accessproblem föreligger för tillfället, men när ni parkerar se till att inte hindra ev. passerade trafik."
     }
   ],
   "routes": [
@@ -103,41 +103,59 @@
       "filename": "Vy2.jpg",
       "caption": "Vintervy över Ljungan, dec 2008. Foto:David Andreasson",
       "missing": false,
-      "sectorId": "vagbeskrivning"
+      "sectorId": "vagbeskrivning",
+      "routeIds": []
     },
     {
       "filename": "Nedre_högra2.jpg",
       "caption": "Nedre högra fallet, jan 2009. Foto: Johan Hedman",
       "missing": false,
-      "sectorId": "vagbeskrivning"
+      "sectorId": "vagbeskrivning",
+      "routeIds": []
     },
     {
       "filename": "Storafallet.jpg",
       "caption": "Stora fallet, dec 2007. Foto: Jonas Bäckström",
       "missing": false,
-      "sectorId": "klattringen"
+      "sectorId": "klattringen",
+      "routeIds": [
+        "nedansjo-skolesklevarna-led-1",
+        "nedansjo-skolesklevarna-led-2",
+        "nedansjo-skolesklevarna-led-3",
+        "nedansjo-skolesklevarna-led-4"
+      ]
     },
     {
       "filename": "Nedansjö_övre_högra2.jpg",
       "caption": "Övre högra fallet, feb 2009. Foto: Johan Hedman",
       "missing": false,
-      "sectorId": "accessinformation"
+      "sectorId": "accessinformation",
+      "routeIds": []
     },
     {
       "filename": "Nedansjö_övre_högra_pelaren.jpg",
       "caption": "Pelaren vid sidan av övre högra fallet, feb 2009. Foto: Johan Hedman",
       "missing": false,
-      "sectorId": "accessinformation"
+      "sectorId": "accessinformation",
+      "routeIds": []
     },
     {
       "filename": "Nedansjö_övre_vänstra2.jpg",
       "caption": "Övre vänstra fallet, jan 2009. Foto: Johan Hedman",
       "missing": false,
-      "sectorId": "accessinformation"
+      "sectorId": "accessinformation",
+      "routeIds": []
+    }
+  ],
+  "externalLinks": [
+    {
+      "url": "http://www.sundsvallsklatterklubb.se",
+      "label": "Sundsvalls Klätterklubb",
+      "sectionId": "allmant"
     }
   ],
   "access": {
-    "legacyText": "Inga accessproblem föreligger för tillfället, men när ni parkerar se till att inte hindra ev. passerade trafik. Kategori:Medelpad Kategori:Saknar koordinater Kategori:Saknar karta",
+    "legacyText": "Inga accessproblem föreligger för tillfället, men när ni parkerar se till att inte hindra ev. passerade trafik.",
     "federationSlug": null
   },
   "qualityIssues": [],

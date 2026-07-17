@@ -26,12 +26,12 @@
     {
       "id": "misc",
       "title": "Misc",
-      "body": "Klippan är till större del sprängklippa, men de lättare lederna till vänster går mestadels över orörd klippa. Parkeringsplatsen där klippan ligger verkar vara ett populärt ställe för taxichafförer att stanna och vila, och även ett populärt ställe för nedskräpning. Ta gärna med lite extra skräp hem! Det pågår just nu (2012-08-20) ett byggarbete i området, och byggnadsstaket har satts upp som hindrar den enklaste promenad vägen till toppen av klippan. Du kan fortfarande hitta till toppen av klippan genom att följa cykelvägen till vänster om klippan, hitta parkeringen rakt ovanför och gå igenom ett buskage. Ett kanske bättre alternativ är att klättra upp för den lätta leden i mitten av klippan. Finns en bunte nya leder att göra som vi inte hann med (flyttat utomlands /Johan), så uppdatera gärna föraren om ni gör någon mer led."
+      "body": "Klippan är till större del sprängklippa, men de lättare lederna till vänster går mestadels över orörd klippa.\n\nParkeringsplatsen där klippan ligger verkar vara ett populärt ställe för taxichafförer att stanna och vila, och även ett populärt ställe för nedskräpning. Ta gärna med lite extra skräp hem!\n\nDet pågår just nu (2012-08-20) ett byggarbete i området, och byggnadsstaket har satts upp som hindrar den enklaste promenad vägen till toppen av klippan. Du kan fortfarande hitta till toppen av klippan genom att följa cykelvägen till vänster om klippan, hitta parkeringen rakt ovanför och gå igenom ett buskage. Ett kanske bättre alternativ är att klättra upp för den lätta leden i mitten av klippan.\n\nFinns en bunte nya leder att göra som vi inte hann med (flyttat utomlands /Johan), så uppdatera gärna föraren om ni gör någon mer led."
     },
     {
       "id": "vagbeskrivning",
       "title": "Vägbeskrivning",
-      "body": "titel=Majstångsvägen lat=18007783‎ long=59304125 Klippan ligger centralt, söder om söder. Det ligger några minuters promenad från midsommarkransen tunnelbana, och flertalet bussar stannar precis vid klippan. Åker ni bil så ligger klippan mitt på en parkeringsplats -- dock oklart huruvida man får stå där."
+      "body": "Klippan ligger centralt, söder om söder. Det ligger några minuters promenad från midsommarkransen tunnelbana, och flertalet bussar stannar precis vid klippan. Åker ni bil så ligger klippan mitt på en parkeringsplats -- dock oklart huruvida man får stå där."
     },
     {
       "id": "leder",
@@ -51,7 +51,7 @@
     {
       "id": "hoger",
       "title": "Höger",
-      "body": "Kategori:sva Kategori:vertikalt Kategori:Stockholm Kategori:Stockholm City"
+      "body": ""
     }
   ],
   "routes": [
@@ -267,23 +267,43 @@
   "images": [
     {
       "filename": "Taxiklippan_vanster.jpg",
-      "caption": "",
+      "caption": "vanster",
       "missing": false,
-      "sectorId": "vanster"
+      "sectorId": "vanster",
+      "routeIds": [
+        "taxiklippan-led-1",
+        "taxiklippan-led-2",
+        "taxiklippan-led-3",
+        "taxiklippan-led-4",
+        "taxiklippan-led-5"
+      ]
     },
     {
       "filename": "Taxiklippan_mitten.jpg",
-      "caption": "",
+      "caption": "mitten",
       "missing": false,
-      "sectorId": "mitten"
+      "sectorId": "mitten",
+      "routeIds": [
+        "taxiklippan-led-6",
+        "taxiklippan-led-7",
+        "taxiklippan-led-8",
+        "taxiklippan-led-9",
+        "taxiklippan-led-10"
+      ]
     },
     {
       "filename": "Taxiklippan_hoger.jpg",
-      "caption": "",
+      "caption": "hoger",
       "missing": false,
-      "sectorId": "hoger"
+      "sectorId": "hoger",
+      "routeIds": [
+        "taxiklippan-led-11",
+        "taxiklippan-led-12",
+        "taxiklippan-led-13"
+      ]
     }
   ],
+  "externalLinks": [],
   "access": {
     "legacyText": null,
     "federationSlug": null

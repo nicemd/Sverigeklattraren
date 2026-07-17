@@ -22,12 +22,12 @@
     {
       "id": "vagbeskrivning",
       "title": "Vägbeskrivning",
-      "body": "titel=Anneberg lat= 18484400 long=59298100 Bil Ligger vid Lostigen i Skeppsdalsström (bakom Värmdö Golf), syns tydligt från vägen. Parkera bilen med förstånd. Buss Buss 433 och 434 från Slussen (ca 25 minuter), kliv av på hållplats Skeppdalström. Följ Svartträskvägen, förbi Återvägen, Svartträsket och Dalgången. Gå åt höger när du kommer till en t-korsning ut på Lostigen. Du ska till Lostigen någonstans mellan nr 33-72. Det tar ca 15 min att gå ifrån busshållplatsen."
+      "body": "titel=Anneberg\nlat= 18484400\nlong=59298100\nBil\nLigger vid Lostigen i Skeppsdalsström (bakom Värmdö Golf), syns tydligt från vägen. Parkera bilen med förstånd.\nBuss\nBuss 433 och 434 från Slussen (ca 25 minuter), kliv av på hållplats Skeppdalström.\n\nFölj Svartträskvägen, förbi Återvägen, Svartträsket och Dalgången. Gå åt höger när du kommer till en t-korsning ut på Lostigen. Du ska till Lostigen någonstans mellan nr 33-72.\n\nDet tar ca 15 min att gå ifrån busshållplatsen."
     },
     {
       "id": "sektor-1",
       "title": "Sektor 1",
-      "body": "Klipp-partierna visas från vägen och inåt skogen. Första klippan från vägen. Det finns säkert möjligheter att göra flera problem här om man vill."
+      "body": "Klipp-partierna visas från vägen och inåt skogen.\n\nFörsta klippan från vägen.\n\nDet finns säkert möjligheter att göra flera problem här om man vill."
     },
     {
       "id": "sektor-2",
@@ -52,7 +52,7 @@
     {
       "id": "sektor-4",
       "title": "Sektor 4",
-      "body": "Kategori:Stockholm Kategori:Nacka-Värmdö Kategori:Saknar ledmall"
+      "body": ""
     }
   ],
   "routes": [
@@ -636,89 +636,153 @@
   "images": [
     {
       "filename": "Lynx11.jpg",
-      "caption": "",
+      "caption": "Lynx11",
       "missing": false,
-      "sectorId": "sektor-1"
+      "sectorId": "sektor-1",
+      "routeIds": [
+        "lynxklippan-led-1",
+        "lynxklippan-led-2",
+        "lynxklippan-led-3",
+        "lynxklippan-led-4",
+        "lynxklippan-led-5",
+        "lynxklippan-led-6"
+      ]
     },
     {
       "filename": "Lynx12.jpg",
-      "caption": "",
+      "caption": "Lynx12",
       "missing": false,
-      "sectorId": "sektor-1"
+      "sectorId": "sektor-1",
+      "routeIds": [
+        "lynxklippan-led-7",
+        "lynxklippan-led-8",
+        "lynxklippan-led-9"
+      ]
     },
     {
       "filename": "Lynx13.jpg",
-      "caption": "",
+      "caption": "Lynx13",
       "missing": false,
-      "sectorId": "sektor-1"
+      "sectorId": "sektor-1",
+      "routeIds": [
+        "lynxklippan-led-10",
+        "lynxklippan-led-11"
+      ]
     },
     {
       "filename": "Lynx_sydde.jpg",
-      "caption": "",
+      "caption": "Lynx sydde",
       "missing": false,
-      "sectorId": "sektor-1"
+      "sectorId": "sektor-1",
+      "routeIds": [
+        "lynxklippan-led-12"
+      ]
     },
     {
       "filename": "Lynx21.jpg",
-      "caption": "",
+      "caption": "Lynx21",
       "missing": false,
-      "sectorId": "sektor-2"
+      "sectorId": "sektor-2",
+      "routeIds": [
+        "lynxklippan-led-13",
+        "lynxklippan-led-14",
+        "lynxklippan-led-15",
+        "lynxklippan-led-16"
+      ]
     },
     {
       "filename": "Lynx31.jpg",
-      "caption": "",
+      "caption": "Lynx31",
       "missing": false,
-      "sectorId": "sektor-3"
+      "sectorId": "sektor-3",
+      "routeIds": [
+        "lynxklippan-led-17"
+      ]
     },
     {
       "filename": "Lynx_stefan.jpg",
-      "caption": "",
+      "caption": "Lynx stefan",
       "missing": false,
-      "sectorId": "sektor-3"
+      "sectorId": "sektor-3",
+      "routeIds": [
+        "lynxklippan-led-18"
+      ]
     },
     {
       "filename": "Lynx32.jpg",
-      "caption": "",
+      "caption": "Lynx32",
       "missing": false,
-      "sectorId": "sektor-3"
+      "sectorId": "sektor-3",
+      "routeIds": [
+        "lynxklippan-led-19",
+        "lynxklippan-led-20",
+        "lynxklippan-led-21"
+      ]
     },
     {
       "filename": "Lynx41.jpg",
-      "caption": "",
+      "caption": "Lynx41",
       "missing": false,
-      "sectorId": "sektor-3"
+      "sectorId": "sektor-3",
+      "routeIds": []
     },
     {
       "filename": "Lynx_stefan2.jpg",
-      "caption": "",
+      "caption": "Lynx stefan2",
       "missing": false,
-      "sectorId": "sektor-3"
+      "sectorId": "sektor-3",
+      "routeIds": [
+        "lynxklippan-led-22"
+      ]
     },
     {
       "filename": "Lynx42.jpg",
-      "caption": "",
+      "caption": "Lynx42",
       "missing": false,
-      "sectorId": "hogra-delen"
+      "sectorId": "hogra-delen",
+      "routeIds": [
+        "lynxklippan-led-23",
+        "lynxklippan-led-24",
+        "lynxklippan-led-25",
+        "lynxklippan-led-26",
+        "lynxklippan-led-27",
+        "lynxklippan-led-28",
+        "lynxklippan-led-29"
+      ]
     },
     {
       "filename": "Lynx43.jpg",
-      "caption": "",
+      "caption": "Lynx43",
       "missing": false,
-      "sectorId": "vanstra-delen"
+      "sectorId": "vanstra-delen",
+      "routeIds": [
+        "lynxklippan-led-30",
+        "lynxklippan-led-31",
+        "lynxklippan-led-32",
+        "lynxklippan-led-33"
+      ]
     },
     {
       "filename": "Lynx51.jpg",
-      "caption": "",
+      "caption": "Lynx51",
       "missing": false,
-      "sectorId": "sektor-4"
+      "sectorId": "sektor-4",
+      "routeIds": [
+        "lynxklippan-led-34",
+        "lynxklippan-led-35"
+      ]
     },
     {
       "filename": "Lynx52.jpg",
-      "caption": "",
+      "caption": "Lynx52",
       "missing": false,
-      "sectorId": "sektor-4"
+      "sectorId": "sektor-4",
+      "routeIds": [
+        "lynxklippan-led-36"
+      ]
     }
   ],
+  "externalLinks": [],
   "access": {
     "legacyText": null,
     "federationSlug": null

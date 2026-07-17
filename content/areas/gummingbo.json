@@ -30,17 +30,17 @@
     {
       "id": "vagbeskrivning",
       "title": "Vägbeskrivning",
-      "body": "Karta här. Tryck på kartknappen ovan. Skriv vägbeskrivning här."
+      "body": "Karta här. Tryck på kartknappen ovan.\n\nSkriv vägbeskrivning här."
     },
     {
       "id": "leder",
       "title": "Leder",
-      "body": "kategori:Saknar skiss kategori:Saknar vägbeskrivning kategori:Saknar leder kategori:Saknar koordinater kategori:Saknar skrivarformatering Category:Östergötland"
+      "body": ""
     },
     {
       "id": "natforare",
       "title": "Nätförare",
-      "body": "Linköping klätterklubbs hemsida: http://linkopingsklatterklubb.se/index.php/forare.html"
+      "body": "Linköping klätterklubbs hemsida:\nhttp://linkopingsklatterklubb.se/index.php/forare.html"
     }
   ],
   "routes": [
@@ -254,6 +254,13 @@
     }
   ],
   "images": [],
+  "externalLinks": [
+    {
+      "url": "http://linkopingsklatterklubb.se/index.php/forare.html",
+      "label": "forare.html",
+      "sectionId": "natforare"
+    }
+  ],
   "access": {
     "legacyText": null,
     "federationSlug": null

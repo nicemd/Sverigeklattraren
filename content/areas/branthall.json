@@ -22,12 +22,12 @@
     {
       "id": "kommunikationer",
       "title": "Kommunikationer",
-      "body": "Med båt; Om man har egen båt, eller lånad dito bereder det inga större problem att ta sig ut till ön, men det går att ta sig dit även utan sådana möjligheter. Under sommaren kan man åka ut med turistbåten \"Sunnan\" och bli ilandsatt på ön, för att bli hämtad med dagens sista tur, eller följande dags tur. \"Sunnan\" utgår från kajen mittemot järnvägsstationen i Söderhamn. GPS-koordinater: Lat: N 61º 15' 40.43\" Long: E 17º 13' 8.36\""
+      "body": "Med båt; Om man har egen båt, eller lånad dito bereder det inga större\nproblem att ta sig ut till ön, men det går att ta sig dit även utan\nsådana möjligheter. Under sommaren kan man åka ut med turistbåten\n\"Sunnan\" och bli ilandsatt på ön, för att bli hämtad med dagens sista\ntur, eller följande dags tur. \"Sunnan\" utgår från kajen mittemot\njärnvägsstationen i Söderhamn.\nGPS-koordinater: Lat: N 61º 15' 40.43\" Long: E 17º 13' 8.36\""
     },
     {
       "id": "sydvaggen",
       "title": "Sydväggen",
-      "body": "Väggen är en sydvägg av som högst tio meters höjd. Väggens längd är ungefär 75 m. Lederna startar vid vattenytan eller från stenar i vattnet. Klättringen sker i sprickor i ovanligt ren och fin granit. Den intressantaste delen av väggen är den högra halvan. I allmänhet topprepas turerna, genom att klättraren blir nedfirad på stichten. Kategori:Saknar kolumner Kategori:Hälsingland Kategori:Trad Kategori:Hälsingland"
+      "body": "Väggen är en sydvägg av som högst tio meters höjd. Väggens längd är\nungefär 75 m. Lederna startar vid vattenytan eller från stenar i\nvattnet. Klättringen sker i sprickor i ovanligt ren och fin granit.\nDen intressantaste delen av väggen är den högra halvan. I allmänhet\ntopprepas turerna, genom att klättraren blir nedfirad på stichten."
     }
   ],
   "routes": [
@@ -309,27 +309,53 @@
       "filename": "Branth%C3%A4ll.jpg",
       "caption": "Branthäll. Foto: Per Calleberg",
       "missing": true,
-      "sectorId": null
+      "sectorId": null,
+      "routeIds": []
     },
     {
       "filename": "Branthall.jpg",
-      "caption": "",
+      "caption": "Branthall",
       "missing": false,
-      "sectorId": "sydvaggen"
+      "sectorId": "sydvaggen",
+      "routeIds": [
+        "branthall-led-1",
+        "branthall-led-2",
+        "branthall-led-3",
+        "branthall-led-4",
+        "branthall-led-5"
+      ]
     },
     {
       "filename": "Seacliffclimbing.jpg",
       "caption": "Buster Delin i mundering för sea cliff climbing på Penguin in Bondage. Foto: Peter Brolin",
       "missing": false,
-      "sectorId": "sydvaggen"
+      "sectorId": "sydvaggen",
+      "routeIds": [
+        "branthall-led-6",
+        "branthall-led-7",
+        "branthall-led-8",
+        "branthall-led-9",
+        "branthall-led-10"
+      ]
     },
     {
       "filename": "Spiderman.jpg",
       "caption": "Mikael Bäckman på Spiderman, 1981. Foto: Per Calleberg",
       "missing": false,
-      "sectorId": "sydvaggen"
+      "sectorId": "sydvaggen",
+      "routeIds": [
+        "branthall-led-10",
+        "branthall-led-11",
+        "branthall-led-12",
+        "branthall-led-13",
+        "branthall-led-14",
+        "branthall-led-15",
+        "branthall-led-16",
+        "branthall-led-17"
+      ]
     }
   ],
+  "externalLinks": [],
   "access": {
     "legacyText": null,
     "federationSlug": null

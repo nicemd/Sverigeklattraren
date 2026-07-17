@@ -51,6 +51,49 @@ test("keeps route order and sector context needed to find a route at the crag", 
   assert.match(utby.sections.find((section) => section.id === carlsberg.sectorId)?.body || "", /Hitta hit:/i);
 });
 
+test("keeps Nacka Kvarn sport, boulder, sketches and source numbers aligned", async () => {
+  const area = JSON.parse(await readFile(path.join(contentRoot, "areas", "nacka-kvarn.json"), "utf8"));
+  const blind = area.routes.find((route) => route.name === "Blind");
+  const flinka = area.routes.find((route) => route.name === "Flinka Fingrar");
+  const getItShorty = area.routes.find((route) => route.name === "Get It Shorty");
+  assert.deepEqual({ kind: blind.kind, sector: blind.sectorId, number: blind.number }, { kind: "route", sector: "huvudvaggen", number: "1" });
+  assert.deepEqual({ kind: flinka.kind, sector: flinka.sectorId, number: flinka.number }, { kind: "problem", sector: "grottan", number: "1" });
+  assert.deepEqual({ kind: getItShorty.kind, sector: getItShorty.sectorId, number: getItShorty.number, grade: getItShorty.grade }, { kind: "problem", sector: "vaggen", number: "10a", grade: "7B" });
+  assert.ok(area.images.some((image) => image.filename === "Nackakvarn1.gif" && image.sectorId === "huvudvaggen"));
+  assert.ok(area.images.some((image) => image.filename === "NKGrottan.jpg" && image.sectorId === "grottan"));
+  assert.ok(area.images.some((image) => image.filename === "NK_Mossebacke2.jpg" && image.routeIds.includes(getItShorty.id)));
+  assert.match(area.sections.find((section) => section.id === "vagbeskrivning")?.body || "", /gångbro över ån/i);
+});
+
+test("turns legacy boulder templates, loose notes and external links into usable content", async () => {
+  const [orminge, askimsbadet, almenas] = await Promise.all([
+    readFile(path.join(contentRoot, "areas", "orminge.json"), "utf8").then(JSON.parse),
+    readFile(path.join(contentRoot, "areas", "askimsbadet.json"), "utf8").then(JSON.parse),
+    readFile(path.join(contentRoot, "areas", "almenas.json"), "utf8").then(JSON.parse),
+  ]);
+  const wongSai = orminge.routes.find((route) => route.name === "Wong-Sai");
+  assert.ok(orminge.routes.every((route) => route.kind === "problem"));
+  assert.deepEqual({ sector: wongSai.sectorId, number: wongSai.number, grade: wongSai.grade }, { sector: "hogra-delen", number: "4, gul", grade: "7b+ sd" });
+  assert.ok(orminge.images.some((image) => image.filename === "Orminge_wongsai.jpg" && image.caption === "Wong-Sai" && image.sectorId === "hogra-delen"));
+  assert.notEqual(orminge.images.find((image) => image.filename === "Orminge_spineless.jpg")?.sectorId, wongSai.sectorId);
+  assert.match(orminge.sections.find((section) => section.id === "vagbeskrivning")?.body || "", /• Överhängande Väggen/);
+  assert.equal(askimsbadet.routes.length, 0);
+  assert.match(askimsbadet.sections.find((section) => section.id === "historia")?.body || "", /Patrik Alseby/);
+  assert.ok(askimsbadet.images.some((image) => image.caption));
+  assert.ok(almenas.externalLinks.some((link) => link.url.endsWith("ALMENAS_BoulderGuide.pdf")));
+  assert.doesNotMatch(almenas.description, /Kategori:/i);
+});
+
+test("does not leak common MediaWiki artifacts into reader-facing copy", async () => {
+  const files = await readdir(path.join(contentRoot, "areas"));
+  for (const filename of files) {
+    const area = JSON.parse(await readFile(path.join(contentRoot, "areas", filename), "utf8"));
+    const copy = [area.description, ...area.sections.map((section) => section.body), ...area.routes.map((route) => route.description)].join("\n");
+    const readerFacingCopy = copy.replace(/https?:\/\/\S+/g, "");
+    assert.doesNotMatch(readerFacingCopy, /\[\[|\{\{|\b(?:Kategori|Category):|\b(?:Fil|File):[^\s]+\.(?:jpe?g|png|gif)/i, filename);
+  }
+});
+
 test("replays committed auto-published proposals during a fresh import", async () => {
   const output = await mkdtemp(path.join(os.tmpdir(), "sverigeforaren-import-"));
   const proposalDir = path.join(process.cwd(), "tests", "fixtures", "proposals");
@@ -67,6 +110,10 @@ test("replays committed auto-published proposals during a fresh import", async (
     const utby = JSON.parse(await readFile(path.join(output, "areas", "utby.json"), "utf8"));
     assert.equal(utby.description, "Verifierad testbeskrivning som ska överleva en fullständig nyimport.");
     assert.ok(utby.provenance.sources.some((source) => source.url === "https://example.test/source"));
+    const carlsberg = utby.routes.find((route) => route.id === "utby-led-74");
+    const externalSource = utby.provenance.sources.find((source) => source.url === "https://example.test/source");
+    assert.ok(carlsberg.fieldSources.grade.includes(externalSource.id));
+    assert.equal(externalSource.usage, "fact-reference");
   } finally {
     await rm(output, { recursive: true, force: true });
   }

@@ -37,7 +37,7 @@
     {
       "id": "overnattning",
       "title": "Övernattning",
-      "body": "Camping finns på KustCamp vid Hammarsbadet lsom ligger 2 km sydost om Gamleby centrum tel 0493-10221 www.campa.se, Överums vandrarhem tel 0493-30302 www.overum.nu, stugor och camping har Risebo fritid, tel 0493-33046, www.risebofritid.se, camping och stugor finns på Lysingsbadet i Västervik tel 0490-258000 www.lysingsbadet.se, stugor har Tofvehults café och konferens tel 0490-26351 www.tofvehult.se och på Live in Nature på Kallersnäs gård tel 0768-513090 www.liveinnature.se"
+      "body": "Camping finns på KustCamp vid Hammarsbadet lsom ligger 2 km sydost om Gamleby centrum tel 0493-10221\nwww.campa.se, Överums vandrarhem tel 0493-30302 www.overum.nu, stugor och camping har Risebo fritid,\ntel 0493-33046, www.risebofritid.se, camping och stugor finns på Lysingsbadet i Västervik tel 0490-258000\nwww.lysingsbadet.se, stugor har Tofvehults café och konferens tel 0490-26351 www.tofvehult.se och på Live in\nNature på Kallersnäs gård tel 0768-513090 www.liveinnature.se"
     },
     {
       "id": "affarer",
@@ -52,7 +52,7 @@
     {
       "id": "forare",
       "title": "Förare",
-      "body": "Förare gjord av Västervik Climbing kan hittas på www.vastervikclimbing.se. Kategori:sport kategori:Saknar vägbeskrivning kategori:Saknar skrivarformatering Category:Småland"
+      "body": "Förare gjord av Västervik Climbing kan hittas på www.vastervikclimbing.se (http://www.vastervikclimbing.se/klattercentret/pdfer/)."
     }
   ],
   "routes": [
@@ -476,15 +476,52 @@
   "images": [
     {
       "filename": "Garpedans1.png",
-      "caption": "",
+      "caption": "Förare · foto",
       "missing": false,
-      "sectorId": "forare"
+      "sectorId": "forare",
+      "routeIds": [
+        "garpedans-led-1",
+        "garpedans-led-2",
+        "garpedans-led-3",
+        "garpedans-led-4",
+        "garpedans-led-5",
+        "garpedans-led-6",
+        "garpedans-led-7",
+        "garpedans-led-8",
+        "garpedans-led-9",
+        "garpedans-led-10",
+        "garpedans-led-11",
+        "garpedans-led-12",
+        "garpedans-led-13"
+      ]
     },
     {
       "filename": "Garpedans2.png",
-      "caption": "",
+      "caption": "Förare · foto",
       "missing": false,
-      "sectorId": "forare"
+      "sectorId": "forare",
+      "routeIds": [
+        "garpedans-led-14",
+        "garpedans-led-15",
+        "garpedans-led-16",
+        "garpedans-led-17",
+        "garpedans-led-18",
+        "garpedans-led-19",
+        "garpedans-led-20",
+        "garpedans-led-21",
+        "garpedans-led-22",
+        "garpedans-led-23",
+        "garpedans-led-24",
+        "garpedans-led-25",
+        "garpedans-led-26"
+      ]
+    }
+  ],
+  "externalLinks": [
+    {
+      "url": "http://www.vastervikclimbing.se/klattercentret/pdfer/",
+      "label": "www.vastervikclimbing.se",
+      "sectionId": "forare"
     }
   ],
   "access": {

@@ -28,7 +28,7 @@
     {
       "id": "vagbeskrivning",
       "title": "Vägbeskrivning",
-      "body": "Karta här. Tryck på kartknappen ovan. Från Solväggen är det inte svårt att hitta, stå med Solväggen i ryggen och gå ca 200m rakt fram genom granskogen tills du når en ravin. Gå ned i ravinen och här ifrån ser du väggen på din högra sida."
+      "body": "Karta här. Tryck på kartknappen ovan.\n\nFrån Solväggen är det inte svårt att hitta, stå med Solväggen i ryggen och gå ca 200m rakt fram genom granskogen tills du når en ravin. Gå ned i ravinen och här ifrån ser du väggen på din högra sida."
     },
     {
       "id": "leder",
@@ -38,7 +38,7 @@
     {
       "id": "kontakt",
       "title": "Kontakt",
-      "body": "För mer info och bilder kolla Eskapader Kategori:trad Kategori:vertikalt kategori:Saknar vägbeskrivning kategori:Saknar koordinater kategori:Saknar skrivarformatering Category:Halland"
+      "body": "För mer info och bilder kolla Eskapader (http://www.eskapader.se)"
     }
   ],
   "routes": [
@@ -206,15 +206,35 @@
   "images": [
     {
       "filename": "Månklippan.jpg",
-      "caption": "",
+      "caption": "Månklippan",
       "missing": false,
-      "sectorId": "leder"
+      "sectorId": "leder",
+      "routeIds": []
     },
     {
       "filename": "Månklippan2.jpg",
-      "caption": "",
+      "caption": "Månklippan2",
       "missing": false,
-      "sectorId": "leder"
+      "sectorId": "leder",
+      "routeIds": [
+        "manklippan-skedala-led-1",
+        "manklippan-skedala-led-2",
+        "manklippan-skedala-led-3",
+        "manklippan-skedala-led-4",
+        "manklippan-skedala-led-5",
+        "manklippan-skedala-led-6",
+        "manklippan-skedala-led-7",
+        "manklippan-skedala-led-8",
+        "manklippan-skedala-led-9",
+        "manklippan-skedala-led-10"
+      ]
+    }
+  ],
+  "externalLinks": [
+    {
+      "url": "http://www.eskapader.se",
+      "label": "Eskapader",
+      "sectionId": "kontakt"
     }
   ],
   "access": {

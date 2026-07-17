@@ -37,12 +37,12 @@
     {
       "id": "oops-klippan",
       "title": "Oops-klippan",
-      "body": "Liten brant klippa med en tydlig diagonal linje i . Ligger längs med gångvägen bakom radhusområdet innan Alby skogsväg. Kan behöva lite trafik för inte växa igen."
+      "body": "Liten brant klippa med en tydlig diagonal linje i .\n\nLigger längs med gångvägen bakom radhusområdet innan Alby skogsväg. Kan behöva lite trafik för inte växa igen."
     },
     {
       "id": "purgatorio-klippan",
       "title": "Purgatorio-klippan",
-      "body": "Relativt hög klippa med den mycket fina . Följ Sörmlandsleden ca 150m och håll vänster för att hitta klippan. och upp till vänster.}} och upp till höger.}}"
+      "body": "Relativt hög klippa med den mycket fina .\nFölj Sörmlandsleden ca 150m och håll vänster för att hitta klippan.\n\noch upp till vänster.\noch upp till höger."
     },
     {
       "id": "nasta-klippa",
@@ -52,7 +52,7 @@
     {
       "id": "alby-natureservat",
       "title": "Alby (Natureservat)",
-      "body": "Kategori:StockholmKategori:TyresöKategori:Klippa"
+      "body": ""
     }
   ],
   "routes": [
@@ -252,11 +252,17 @@
   "images": [
     {
       "filename": "Oops.jpg",
-      "caption": "",
+      "caption": "Oops",
       "missing": false,
-      "sectorId": "oops-klippan"
+      "sectorId": "oops-klippan",
+      "routeIds": [
+        "nyfors-led-1",
+        "nyfors-led-2",
+        "nyfors-led-3"
+      ]
     }
   ],
+  "externalLinks": [],
   "access": {
     "legacyText": null,
     "federationSlug": null

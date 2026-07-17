@@ -3,7 +3,7 @@
   "id": "vallberget",
   "slug": "vallberget",
   "name": "Vallberget",
-  "description": "Lite skräpig klippa som torkar snabbt om våren. Klippan ligger i en gryta som gör att det bildas ett mikroklimat, där det blir mycket varmt och ofta vindstilla. Solen ligger på från morgonen och fram till 16:00. Klippan erbjuder ett stort antal topprepsleder, och några bultade turer, samt några som är möjliga att göra på kil.",
+  "description": "Lite skräpig klippa som torkar snabbt om våren. Klippan ligger i en\ngryta som gör att det bildas ett mikroklimat, där det blir mycket varmt och ofta\nvindstilla. Solen ligger på från morgonen och fram till 16:00. Klippan erbjuder ett\nstort antal topprepsleder, och några bultade turer, samt några som är möjliga att\ngöra på kil.",
   "coordinates": {
     "latitude": 63.9959125627964,
     "longitude": 20.0265312194824
@@ -17,7 +17,7 @@
     {
       "id": "allmant",
       "title": "Allmänt",
-      "body": "Lite skräpig klippa som torkar snabbt om våren. Klippan ligger i en gryta som gör att det bildas ett mikroklimat, där det blir mycket varmt och ofta vindstilla. Solen ligger på från morgonen och fram till 16:00. Klippan erbjuder ett stort antal topprepsleder, och några bultade turer, samt några som är möjliga att göra på kil."
+      "body": "Lite skräpig klippa som torkar snabbt om våren. Klippan ligger i en\ngryta som gör att det bildas ett mikroklimat, där det blir mycket varmt och ofta\nvindstilla. Solen ligger på från morgonen och fram till 16:00. Klippan erbjuder ett\nstort antal topprepsleder, och några bultade turer, samt några som är möjliga att\ngöra på kil."
     },
     {
       "id": "vagbeskrivning",
@@ -27,12 +27,12 @@
     {
       "id": "uppdateringar",
       "title": "Uppdateringar",
-      "body": "Ny väg upp till Vallberget! Det är numera förbjudet att gå via det gula huset. Läs mer här: UKHKs forum"
+      "body": "Ny väg upp till Vallberget! Det är numera förbjudet att gå via det gula huset. Läs mer här: UKHKs forum (http://www.ukhk.se/nyaforumet/topic.asp?TOPIC_ID=222)"
     },
     {
       "id": "ostra-vaggen",
       "title": "Östra väggen",
-      "body": "Väggen mot sjön, nedanför fikaplatsen på toppen. Väggen nås lättast genom att fira ner från fikaplatsen, alternativt genom scrambling nedifrån. Man kan även nå väggen genom klättring på huvudväggens fortsättning nedåt, nedanför/till höger om Linkan Special. Östra väggen bjuder på lätt tradklättring och har god möjlighet för nyturer. Det har klättrats på denna vägg under 70- och 80-talet men vad vi har kunnat hitta så finns inga ledbeskrivningar kvar. Kategori:Västerbotten Kategori:sport Kategori:vertikalt"
+      "body": "Väggen mot sjön, nedanför fikaplatsen på toppen. Väggen nås lättast genom att fira ner från fikaplatsen, alternativt genom scrambling nedifrån. Man kan även nå väggen genom klättring på huvudväggens fortsättning nedåt, nedanför/till höger om Linkan Special. Östra väggen bjuder på lätt tradklättring och har god möjlighet för nyturer.\nDet har klättrats på denna vägg under 70- och 80-talet men vad vi har kunnat hitta så finns inga ledbeskrivningar kvar."
     }
   ],
   "routes": [
@@ -104,9 +104,22 @@
   "images": [
     {
       "filename": "Radius_ulna.jpg",
-      "caption": "",
+      "caption": "Radius",
       "missing": false,
-      "sectorId": "ostra-vaggen"
+      "sectorId": "ostra-vaggen",
+      "routeIds": [
+        "vallberget-led-1",
+        "vallberget-led-2",
+        "vallberget-led-3",
+        "vallberget-led-4"
+      ]
+    }
+  ],
+  "externalLinks": [
+    {
+      "url": "http://www.ukhk.se/nyaforumet/topic.asp?TOPIC_ID=222",
+      "label": "UKHKs forum",
+      "sectionId": "uppdateringar"
     }
   ],
   "access": {

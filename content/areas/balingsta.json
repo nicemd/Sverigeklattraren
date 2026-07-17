@@ -20,17 +20,17 @@
     {
       "id": "vagbeskrivning",
       "title": "Vägbeskrivning",
-      "body": "Från Stockholms centrum tar du Huddingevägen (226), svänger av på Lännavägen (259), kör ca 1 km efter att du passerat Balingsnäs, sväng av vänster (skyltat Balingsta Gård) på en grusväg med en lång gammal allé. Kör vidare ca 950 m, på vänster sida finns ett par parkeringsfickor och ca 200 m längre fram ytterligare ett par till. För att komma till Kvarnen kör du ytterligare några hundra meter och ställer bilen på den stora parkeringen på höger sida före stallen. Gå förbi stallen, runda ridhuset och följ vägen bakom bommen, över åkrarna, tills du är framme."
+      "body": "Från Stockholms centrum tar du Huddingevägen (226), svänger av på Lännavägen (259), kör ca 1 km efter att du passerat Balingsnäs, sväng av vänster (skyltat Balingsta Gård) på en grusväg med en lång gammal allé. Kör vidare ca 950 m, på vänster sida finns ett par parkeringsfickor och ca 200 m längre fram ytterligare ett par till.\n\nFör att komma till Kvarnen kör du ytterligare några hundra meter och ställer bilen på den stora parkeringen på höger sida före stallen. Gå förbi stallen, runda ridhuset och följ vägen bakom bommen, över åkrarna, tills du är framme."
     },
     {
       "id": "access",
       "title": "Access",
-      "body": "Området ligger, som nämnts, i Orlångens naturreservat med allt vad det innebär. Var extremt noga med att ta med dig allt skräp och visa hänsyn till naturen och andra besökare. Obs. bara en varning myggtätt som attans vissa dagar. annars jättebra ställe"
+      "body": "Området ligger, som nämnts, i Orlångens naturreservat med allt vad det innebär. Var extremt noga med att ta med dig allt skräp och visa hänsyn till naturen och andra besökare.\n\nObs. bara en varning myggtätt som attans vissa dagar. annars jättebra ställe"
     },
     {
       "id": "forare",
       "title": "Förare",
-      "body": "Balingstaföraren 2008 i PDF-format"
+      "body": "Balingstaföraren 2008 i PDF-format (http://www.sverigeforaren.se/media/Balingsta.pdf)"
     },
     {
       "id": "hundsektorn",
@@ -60,12 +60,12 @@
     {
       "id": "angssektorn",
       "title": "Ängssektorn",
-      "body": "Vill du gå direkt hit gör du det enklast genom att följa ängskanten från vägen. Om man från E-blocket går mot vattnet och håller lite vänster, kommer man till en bastant sköld ca 15 meter hög. På skölden går en bultad tur."
+      "body": "Vill du gå direkt hit gör du det enklast genom att följa ängskanten från vägen.\n\nOm man från E-blocket går mot vattnet och håller lite vänster, kommer man till en bastant sköld ca 15 meter hög. På skölden går en bultad tur."
     },
     {
       "id": "kvarnen",
       "title": "Kvarnen",
-      "body": "En naturskön sektor med lövskog, bad och grillplats. Mycket myggigt inne vid väggarna under sommarsäsongen. Flera höga och fina problem. Några så höga att de hittills bara är gjorda på topprep. Ett problem visade sig t.o.m. vara en gammal tradled. Oftast mycket bra landningar. Höga väggen Blocket Högra väggarna Problem nr C:1 - C:3 kan avslutas när man står i övre tvärsprickan. Den som vill ha mer klättring än så kan toppa ur via en lätt men hög slab. Kategori:Stockholm"
+      "body": "En naturskön sektor med lövskog, bad och grillplats. Mycket myggigt inne vid väggarna under sommarsäsongen. Flera höga och fina problem. Några så höga att de hittills bara är gjorda på topprep. Ett problem visade sig t.o.m. vara en gammal tradled. Oftast mycket bra landningar.\n\nHöga väggen\n\nBlocket\nHögra väggarna\nProblem nr C:1 - C:3 kan avslutas när man står i övre tvärsprickan. Den som vill ha mer klättring än så kan toppa ur via en lätt men hög slab."
     }
   ],
   "routes": [
@@ -2105,73 +2105,231 @@
   "images": [
     {
       "filename": "Hundsektorn.png",
-      "caption": "",
+      "caption": "Hundsektorn",
       "missing": false,
-      "sectorId": "hundsektorn"
+      "sectorId": "hundsektorn",
+      "routeIds": [
+        "balingsta-problem-1",
+        "balingsta-problem-2",
+        "balingsta-problem-3",
+        "balingsta-problem-4",
+        "balingsta-problem-5",
+        "balingsta-problem-6",
+        "balingsta-problem-7",
+        "balingsta-problem-8",
+        "balingsta-problem-9",
+        "balingsta-problem-10",
+        "balingsta-problem-11"
+      ]
     },
     {
       "filename": "Balingstaskiss_vagsektorn1.gif",
-      "caption": "",
+      "caption": "skiss vagsektorn1",
       "missing": false,
-      "sectorId": "vagsektorn-1"
+      "sectorId": "vagsektorn-1",
+      "routeIds": [
+        "balingsta-problem-12",
+        "balingsta-problem-13",
+        "balingsta-problem-14",
+        "balingsta-problem-15",
+        "balingsta-problem-16",
+        "balingsta-problem-17",
+        "balingsta-problem-18",
+        "balingsta-problem-19",
+        "balingsta-problem-20",
+        "balingsta-problem-21",
+        "balingsta-problem-22",
+        "balingsta-problem-23",
+        "balingsta-problem-24",
+        "balingsta-problem-25",
+        "balingsta-problem-26",
+        "balingsta-problem-27",
+        "balingsta-problem-28",
+        "balingsta-problem-29",
+        "balingsta-problem-30",
+        "balingsta-problem-31",
+        "balingsta-problem-32",
+        "balingsta-problem-33",
+        "balingsta-problem-34",
+        "balingsta-problem-35",
+        "balingsta-problem-36",
+        "balingsta-problem-37",
+        "balingsta-problem-38",
+        "balingsta-problem-39",
+        "balingsta-problem-40",
+        "balingsta-problem-41",
+        "balingsta-problem-42",
+        "balingsta-problem-43",
+        "balingsta-problem-44"
+      ]
     },
     {
       "filename": "Mammothassis.jpg",
       "caption": "Start på Mammoth Assis och Ice Age Assis",
       "missing": false,
-      "sectorId": "vagsektorn-1"
+      "sectorId": "vagsektorn-1",
+      "routeIds": [
+        "balingsta-problem-26"
+      ]
     },
     {
       "filename": "Mammothblocket.jpg",
       "caption": "Klippan med Mammoth och Ice Age",
       "missing": false,
-      "sectorId": "vagsektorn-1"
+      "sectorId": "vagsektorn-1",
+      "routeIds": [
+        "balingsta-problem-26"
+      ]
     },
     {
       "filename": "Balingstaskiss_vagsektorn2.gif",
-      "caption": "",
+      "caption": "skiss vagsektorn2",
       "missing": false,
-      "sectorId": "vagsektorn-2"
+      "sectorId": "vagsektorn-2",
+      "routeIds": [
+        "balingsta-problem-45",
+        "balingsta-problem-46",
+        "balingsta-problem-47",
+        "balingsta-problem-48",
+        "balingsta-problem-49",
+        "balingsta-problem-50",
+        "balingsta-problem-51",
+        "balingsta-problem-52",
+        "balingsta-problem-53",
+        "balingsta-problem-54",
+        "balingsta-problem-55",
+        "balingsta-problem-56",
+        "balingsta-problem-57",
+        "balingsta-problem-58",
+        "balingsta-problem-59",
+        "balingsta-problem-60",
+        "balingsta-problem-61",
+        "balingsta-problem-62"
+      ]
     },
     {
       "filename": "Balingstaskiss_bergsektorn1.gif",
-      "caption": "",
+      "caption": "skiss bergsektorn1",
       "missing": false,
-      "sectorId": "bergsektorn-1"
+      "sectorId": "bergsektorn-1",
+      "routeIds": [
+        "balingsta-problem-63",
+        "balingsta-problem-64",
+        "balingsta-problem-65",
+        "balingsta-problem-66",
+        "balingsta-problem-67",
+        "balingsta-problem-68",
+        "balingsta-problem-69",
+        "balingsta-problem-70",
+        "balingsta-problem-71",
+        "balingsta-problem-72",
+        "balingsta-problem-73",
+        "balingsta-problem-74",
+        "balingsta-problem-75"
+      ]
     },
     {
       "filename": "Balingstaskiss_bergsektorn2.gif",
-      "caption": "",
+      "caption": "skiss bergsektorn2",
       "missing": false,
-      "sectorId": "bergsektorn-2"
+      "sectorId": "bergsektorn-2",
+      "routeIds": [
+        "balingsta-problem-76",
+        "balingsta-problem-77",
+        "balingsta-problem-78",
+        "balingsta-problem-79",
+        "balingsta-problem-80",
+        "balingsta-problem-81",
+        "balingsta-problem-82",
+        "balingsta-problem-83",
+        "balingsta-problem-84"
+      ]
     },
     {
       "filename": "Balingstaskiss_angssektorn.gif",
-      "caption": "",
+      "caption": "skiss angssektorn",
       "missing": false,
-      "sectorId": "angssektorn"
+      "sectorId": "angssektorn",
+      "routeIds": [
+        "balingsta-problem-85",
+        "balingsta-problem-86",
+        "balingsta-problem-87",
+        "balingsta-problem-88",
+        "balingsta-problem-89",
+        "balingsta-problem-90",
+        "balingsta-problem-91",
+        "balingsta-problem-92",
+        "balingsta-problem-93",
+        "balingsta-problem-94",
+        "balingsta-problem-95",
+        "balingsta-problem-96",
+        "balingsta-problem-97",
+        "balingsta-problem-98",
+        "balingsta-problem-99",
+        "balingsta-problem-100",
+        "balingsta-problem-101",
+        "balingsta-problem-102"
+      ]
     },
     {
       "filename": "Balingstaskiss_kvarnen.gif",
-      "caption": "",
+      "caption": "skiss kvarnen",
       "missing": false,
-      "sectorId": "kvarnen"
+      "sectorId": "kvarnen",
+      "routeIds": [
+        "balingsta-problem-103",
+        "balingsta-problem-104",
+        "balingsta-problem-105",
+        "balingsta-problem-106",
+        "balingsta-problem-107",
+        "balingsta-problem-108",
+        "balingsta-problem-109",
+        "balingsta-problem-110",
+        "balingsta-problem-111",
+        "balingsta-problem-112"
+      ]
     },
     {
       "filename": "Blocket.gif",
-      "caption": "",
+      "caption": "Blocket",
       "missing": false,
-      "sectorId": "kvarnen"
+      "sectorId": "kvarnen",
+      "routeIds": [
+        "balingsta-problem-113",
+        "balingsta-problem-114",
+        "balingsta-problem-115",
+        "balingsta-problem-116",
+        "balingsta-problem-117",
+        "balingsta-problem-118",
+        "balingsta-problem-119",
+        "balingsta-problem-120",
+        "balingsta-problem-121"
+      ]
     },
     {
       "filename": "Hogra_vaggen.gif",
-      "caption": "",
+      "caption": "Hogra vaggen",
       "missing": false,
-      "sectorId": "kvarnen"
+      "sectorId": "kvarnen",
+      "routeIds": [
+        "balingsta-problem-122",
+        "balingsta-problem-123",
+        "balingsta-problem-124",
+        "balingsta-problem-125",
+        "balingsta-problem-126",
+        "balingsta-problem-127"
+      ]
+    }
+  ],
+  "externalLinks": [
+    {
+      "url": "http://www.sverigeforaren.se/media/Balingsta.pdf",
+      "label": "Balingstaföraren 2008 i PDF-format",
+      "sectionId": "forare"
     }
   ],
   "access": {
-    "legacyText": "Området ligger, som nämnts, i Orlångens naturreservat med allt vad det innebär. Var extremt noga med att ta med dig allt skräp och visa hänsyn till naturen och andra besökare. Obs. bara en varning myggtätt som attans vissa dagar. annars jättebra ställe",
+    "legacyText": "Området ligger, som nämnts, i Orlångens naturreservat med allt vad det innebär. Var extremt noga med att ta med dig allt skräp och visa hänsyn till naturen och andra besökare.\n\nObs. bara en varning myggtätt som attans vissa dagar. annars jättebra ställe",
     "federationSlug": null
   },
   "qualityIssues": [],

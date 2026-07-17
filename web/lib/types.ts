@@ -7,6 +7,8 @@ export type SourceReference = {
   snapshotDate?: string;
   importedAt?: string;
   sourceModifiedAt?: string;
+  usage?: "licensed-content" | "fact-reference" | "firsthand";
+  rightsNote?: string;
 };
 
 export type Route = {
@@ -20,7 +22,8 @@ export type Route = {
   firstAscent: string;
   description: string;
   sectorId: string | null;
-  source: { id: string; path: string };
+  source: { id: string; path?: string; url?: string };
+  fieldSources?: Partial<Record<"name" | "grade" | "number" | "length" | "type" | "firstAscent" | "description" | "sectorId", string[]>>;
 };
 
 export type AreaSummary = {
@@ -40,7 +43,8 @@ export type Area = Omit<AreaSummary, "routeCount" | "imageCount" | "accessSlug" 
   schemaVersion: number;
   sections: Array<{ id: string; title: string; body: string; sourceStart?: number; sourceEnd?: number }>;
   routes: Route[];
-  images: Array<{ filename: string; caption: string; missing?: boolean; sectorId?: string | null }>;
+  images: Array<{ filename: string; caption: string; missing?: boolean; sectorId?: string | null; routeIds?: string[] }>;
+  externalLinks?: Array<{ url: string; label: string; sectionId?: string | null }>;
   access: { legacyText: string | null; federationSlug: string | null };
   qualityIssues: Array<{ code: string; message: string }>;
   provenance: { primarySourceId: string; sources: SourceReference[] };

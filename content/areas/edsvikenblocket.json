@@ -3,7 +3,7 @@
   "id": "edsvikenblocket",
   "slug": "edsvikenblocket",
   "name": "Edsvikenblocket",
-  "description": "Litet block med ett fint överhäng. Möjlig men svår travers finns, och ett par tre problem med lite olika insteg. Har fått höra att det finns två stycken äldre förare till detta lilla block och samtliga problem som beskrivs här har gjorts redan tidigt 90-tal av Hasse Häggquist, vet tyvärr inte vad han kallade problemen. Tänkte att föraren kan ligga kvar ändå som ett komplement! Värt ett besök om ni är i krokarna...",
+  "description": "Litet block med ett fint överhäng. Möjlig men svår travers finns, och ett par tre problem med lite olika insteg.\n\nHar fått höra att det finns två stycken äldre förare till detta lilla block och samtliga problem som beskrivs här har gjorts redan tidigt 90-tal av Hasse Häggquist, vet tyvärr inte vad han kallade problemen. Tänkte att föraren kan ligga kvar ändå som ett komplement! Värt ett besök om ni är i krokarna...",
   "coordinates": {
     "latitude": 59.432514,
     "longitude": 17.983965
@@ -15,7 +15,7 @@
     {
       "id": "allmant",
       "title": "Allmänt",
-      "body": "Litet block med ett fint överhäng. Möjlig men svår travers finns, och ett par tre problem med lite olika insteg. Har fått höra att det finns två stycken äldre förare till detta lilla block och samtliga problem som beskrivs här har gjorts redan tidigt 90-tal av Hasse Häggquist, vet tyvärr inte vad han kallade problemen. Tänkte att föraren kan ligga kvar ändå som ett komplement! Värt ett besök om ni är i krokarna..."
+      "body": "Litet block med ett fint överhäng. Möjlig men svår travers finns, och ett par tre problem med lite olika insteg.\n\nHar fått höra att det finns två stycken äldre förare till detta lilla block och samtliga problem som beskrivs här har gjorts redan tidigt 90-tal av Hasse Häggquist, vet tyvärr inte vad han kallade problemen. Tänkte att föraren kan ligga kvar ändå som ett komplement! Värt ett besök om ni är i krokarna..."
     },
     {
       "id": "vagbeskrivning",
@@ -25,7 +25,7 @@
     {
       "id": "problem",
       "title": "Problem",
-      "body": "Tre problem testade. Finns möjligen en svår travers. Föraren skapad av: Jim Eriksson Kategori:Norra Stockholm"
+      "body": "Tre problem testade. Finns möjligen en svår travers.\n\nFöraren skapad av: Jim Eriksson"
     }
   ],
   "routes": [
@@ -115,15 +115,24 @@
       "filename": "Edsviken01.jpg",
       "caption": "Kristoffer satsar alltid på högern",
       "missing": false,
-      "sectorId": "problem"
+      "sectorId": "problem",
+      "routeIds": []
     },
     {
       "filename": "Edsviken02.jpg",
-      "caption": "",
+      "caption": "Edsviken02",
       "missing": false,
-      "sectorId": "problem"
+      "sectorId": "problem",
+      "routeIds": [
+        "edsvikenblocket-led-1",
+        "edsvikenblocket-led-2",
+        "edsvikenblocket-led-3",
+        "edsvikenblocket-led-4",
+        "edsvikenblocket-led-5"
+      ]
     }
   ],
+  "externalLinks": [],
   "access": {
     "legacyText": null,
     "federationSlug": null

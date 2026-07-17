@@ -3,7 +3,7 @@
   "id": "rodsberget",
   "slug": "rodsberget",
   "name": "Rödsberget",
-  "description": "Klippan ligger i Åbyfjorden, mitt emot Sjöhäller. Klippan utvecklades av Team Granitbiten under 2007.",
+  "description": "Klippan ligger i Åbyfjorden, mitt emot Sjöhäller. Klippan utvecklades av Team Granitbiten (http://www.granitbiten.com) under 2007.",
   "coordinates": {
     "latitude": 58.25501,
     "longitude": 11.25547
@@ -17,17 +17,17 @@
     {
       "id": "beskrivning",
       "title": "Beskrivning",
-      "body": "Klippan ligger i Åbyfjorden, mitt emot Sjöhäller. Klippan utvecklades av Team Granitbiten under 2007."
+      "body": "Klippan ligger i Åbyfjorden, mitt emot Sjöhäller. Klippan utvecklades av Team Granitbiten (http://www.granitbiten.com) under 2007."
     },
     {
       "id": "vagbeskrivning",
       "title": "Vägbeskrivning",
-      "body": "Ligger mitt emot Sjöhäller klippan. Vägbeskrivning till Sjöhäller. Fortsätt förbi Häller, ca 1km. En åker passeras och vatten till höger en kulle blir synlig. Parkera vid kullens högra fot vid en liten gräsplan. Gå rakt över kullen i sänkan. Berget som vetter mot vatten dyker upp till vänster."
+      "body": "Ligger mitt emot Sjöhäller klippan.\n\nVägbeskrivning till Sjöhäller. Fortsätt förbi Häller, ca 1km. En åker passeras och vatten till höger en kulle blir synlig. Parkera vid kullens högra fot vid en liten gräsplan. Gå rakt över kullen i sänkan. Berget som vetter mot vatten dyker upp till vänster."
     },
     {
       "id": "klippan",
       "title": "Klippan",
-      "body": "Kategori:DWS Kategori:Saknar karta Kategori:Bohuslän"
+      "body": ""
     }
   ],
   "routes": [
@@ -227,9 +227,30 @@
   "images": [
     {
       "filename": "Rödsberget.png",
-      "caption": "",
+      "caption": "Klippan · foto",
       "missing": false,
-      "sectorId": "klippan"
+      "sectorId": "klippan",
+      "routeIds": [
+        "rodsberget-led-1",
+        "rodsberget-led-2",
+        "rodsberget-led-3",
+        "rodsberget-led-4",
+        "rodsberget-led-5",
+        "rodsberget-led-6",
+        "rodsberget-led-7",
+        "rodsberget-led-8",
+        "rodsberget-led-9",
+        "rodsberget-led-10",
+        "rodsberget-led-11",
+        "rodsberget-led-12"
+      ]
+    }
+  ],
+  "externalLinks": [
+    {
+      "url": "http://www.granitbiten.com",
+      "label": "Team Granitbiten",
+      "sectionId": "beskrivning"
     }
   ],
   "access": {

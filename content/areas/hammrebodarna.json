@@ -3,7 +3,7 @@
   "id": "hammrebodarna",
   "slug": "hammrebodarna",
   "name": "Hammrebodarna",
-  "description": "Hammrebodarna är beläget på Vätabergets östsida ca 20km söder om Sundsvall. För aktuellt isläge/övriga frågor kontakta Sundsvalls Klätterklubb.",
+  "description": "Hammrebodarna är beläget på Vätabergets östsida ca 20km söder om Sundsvall.\n\nFör aktuellt isläge/övriga frågor kontakta Sundsvalls Klätterklubb (http://www.sundsvallsklatterklubb.se).",
   "coordinates": null,
   "categories": [
     "Medelpad"
@@ -12,12 +12,12 @@
     {
       "id": "allmant",
       "title": "Allmänt",
-      "body": "Hammrebodarna är beläget på Vätabergets östsida ca 20km söder om Sundsvall. För aktuellt isläge/övriga frågor kontakta Sundsvalls Klätterklubb."
+      "body": "Hammrebodarna är beläget på Vätabergets östsida ca 20km söder om Sundsvall.\n\nFör aktuellt isläge/övriga frågor kontakta Sundsvalls Klätterklubb (http://www.sundsvallsklatterklubb.se)."
     },
     {
       "id": "vagbeskrivning",
       "title": "Vägbeskrivning",
-      "body": "Åk till Njurundabommen 20km söder om Sundsvall efter E4. Ta av vägen mot Ängom, följ vägen 3.4km och sväng höger mot Sörfors. Kör ytterligare 7km innan du tar höger mot Hammrebodarna. Kör 1km tills du kommer till en T-korsning där du tar vänster. Tänk på hur du parkerar så du inte stör de som bor där! Anmarschen tar ca ??min beroend på snöläget. Följ berget ut åt vänster (söderut) så kommer ni se isarna."
+      "body": "Åk till Njurundabommen 20km söder om Sundsvall efter E4. Ta av vägen mot Ängom, följ vägen 3.4km och sväng höger mot Sörfors. Kör ytterligare 7km innan du tar höger mot Hammrebodarna. Kör 1km tills du kommer till en T-korsning där du tar vänster. Tänk på hur du parkerar så du inte stör de som bor där!\n\nAnmarschen tar ca ??min beroend på snöläget. Följ berget ut åt vänster (söderut) så kommer ni se isarna."
     },
     {
       "id": "klattringen",
@@ -27,7 +27,7 @@
     {
       "id": "accessinformation",
       "title": "Accessinformation",
-      "body": "Inga accessproblem föreligger för tillfället, men när ni parkerar se till att inte hindra ev. passerade trafik. Kategori:Medelpad"
+      "body": "Inga accessproblem föreligger för tillfället, men när ni parkerar se till att inte hindra ev. passerade trafik."
     }
   ],
   "routes": [],
@@ -36,11 +36,19 @@
       "filename": "Hammrebodarna.JPG",
       "caption": "Hammrebodarna, jan 2011. Foto: Jonas Bäckström",
       "missing": false,
-      "sectorId": "klattringen"
+      "sectorId": "klattringen",
+      "routeIds": []
+    }
+  ],
+  "externalLinks": [
+    {
+      "url": "http://www.sundsvallsklatterklubb.se",
+      "label": "Sundsvalls Klätterklubb",
+      "sectionId": "allmant"
     }
   ],
   "access": {
-    "legacyText": "Inga accessproblem föreligger för tillfället, men när ni parkerar se till att inte hindra ev. passerade trafik. Kategori:Medelpad",
+    "legacyText": "Inga accessproblem föreligger för tillfället, men när ni parkerar se till att inte hindra ev. passerade trafik.",
     "federationSlug": null
   },
   "qualityIssues": [],

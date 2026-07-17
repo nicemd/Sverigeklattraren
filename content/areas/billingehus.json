@@ -26,7 +26,7 @@
     {
       "id": "vagbeskrivning",
       "title": "Vägbeskrivning",
-      "body": "karta här Följ backen upp till parkeringen utanför Billingenbadet."
+      "body": "karta här\n\nFölj backen upp till parkeringen utanför Billingenbadet."
     },
     {
       "id": "access",
@@ -36,12 +36,12 @@
     {
       "id": "gamla-liften",
       "title": "Gamla liften",
-      "body": "Gamla liften är den del av berget som ligger utanför naturreservatet - söderut från strupen - och omnämns i föraren. Den börjar vid slalombacken och sträcker sig norr ut bort mot strupen. En hel del leder är gjorda och det finns möjlighet att göra många fler. Lättaste vägarna dit är antingen nedifrån - då parkerar man på slalombackens parkering och går sedan upp under den lilla liften.Sedan går man in i skogen där \"Snowparken\" börjar och fortsätter rakt upp mot klippan Uppifrån så parkerar man vid bandybanan. Sedan går man bakom hotellet och ner mellan slalombacken och kapellet. Var noga med att inte gå framför kapellets panoramafönster!! Två stödrep är uppsatta för upp/nedstigning - de lokaliseras lättast nedifrån. Ett finns mellan led nr.5 och 9 och ett mellan led 35 och 41 Första delen börjar direkt i anslutning till slalombacken Cirka 50m längre bort - strax söder om kapellet - finner du en klippa med följande leder: Bilden är tagen från två håll då det var svårt att få en bild rakt framifrån Rakt under och norr om kapellet finns två klippor, med 10 leder , Visa hänsyn när det är aktivitet i kapellet . Nr. 31- 35 på den södra och nr. 41 - 53 på den norra"
+      "body": "Gamla liften är den del av berget som ligger utanför naturreservatet - söderut från strupen - och omnämns i föraren. Den börjar vid slalombacken och sträcker sig norr ut bort mot strupen. En hel del leder är gjorda och det finns möjlighet att göra många fler.\n\nLättaste vägarna dit är antingen nedifrån - då parkerar man på slalombackens parkering och går sedan upp under den lilla liften.Sedan går man in i skogen där \"Snowparken\" börjar och fortsätter rakt upp mot klippan\n\nUppifrån så parkerar man vid bandybanan. Sedan går man bakom hotellet och ner mellan slalombacken och kapellet. Var noga med att inte gå framför kapellets panoramafönster!!\n\nTvå stödrep är uppsatta för upp/nedstigning - de lokaliseras lättast nedifrån. Ett finns mellan led nr.5 och 9 och ett mellan led 35 och 41\n\nFörsta delen börjar direkt i anslutning till slalombacken\n\nCirka 50m längre bort - strax söder om kapellet - finner du en klippa med följande leder:\n\nBilden är tagen från två håll då det var svårt att få en bild rakt framifrån\n\nRakt under och norr om kapellet finns två klippor, med 10 leder , Visa hänsyn när det är aktivitet i kapellet .\nNr. 31- 35 på den södra och nr. 41 - 53 på den norra"
     },
     {
       "id": "extern-forare",
       "title": "Extern förare",
-      "body": "Förare hos Billingens Klatterklubb Kategori:Västergötland kategori:Saknar vägbeskrivning kategori:Saknar koordinater kategori:Saknar skrivarformatering"
+      "body": "Förare hos Billingens Klatterklubb (http://www4.idrottonline.se/ImageVaultFiles/id_245724/cf_72266/forareversion1.pdf)"
     }
   ],
   "routes": [
@@ -385,39 +385,79 @@
   "images": [
     {
       "filename": "Slalomväggen.jpg",
-      "caption": "",
+      "caption": "Slalomväggen",
       "missing": false,
-      "sectorId": "gamla-liften"
+      "sectorId": "gamla-liften",
+      "routeIds": [
+        "billingehus-led-1",
+        "billingehus-led-2",
+        "billingehus-led-3",
+        "billingehus-led-4",
+        "billingehus-led-5",
+        "billingehus-led-6"
+      ]
     },
     {
       "filename": "Kapell.jpg",
-      "caption": "",
+      "caption": "Kapell",
       "missing": false,
-      "sectorId": "gamla-liften"
+      "sectorId": "gamla-liften",
+      "routeIds": [
+        "billingehus-led-7",
+        "billingehus-led-8",
+        "billingehus-led-9",
+        "billingehus-led-10",
+        "billingehus-led-11"
+      ]
     },
     {
       "filename": "31_Vänster_under_kappel.jpg",
-      "caption": "",
+      "caption": "31 Vänster under kappel",
       "missing": false,
-      "sectorId": "gamla-liften"
+      "sectorId": "gamla-liften",
+      "routeIds": [
+        "billingehus-led-12",
+        "billingehus-led-13",
+        "billingehus-led-14"
+      ]
     },
     {
       "filename": "Linus2.jpg",
-      "caption": "",
+      "caption": "Linus2",
       "missing": false,
-      "sectorId": "gamla-liften"
+      "sectorId": "gamla-liften",
+      "routeIds": [
+        "billingehus-led-15"
+      ]
     },
     {
       "filename": "7höger_under_kappel41.jpg",
-      "caption": "",
+      "caption": "7höger under kappel41",
       "missing": false,
-      "sectorId": "gamla-liften"
+      "sectorId": "gamla-liften",
+      "routeIds": [
+        "billingehus-led-16",
+        "billingehus-led-17",
+        "billingehus-led-18"
+      ]
     },
     {
       "filename": "Kappellängstillhögerändring_.jpg",
-      "caption": "",
+      "caption": "Kappellängstillhögerändring",
       "missing": false,
-      "sectorId": "gamla-liften"
+      "sectorId": "gamla-liften",
+      "routeIds": [
+        "billingehus-led-19",
+        "billingehus-led-20",
+        "billingehus-led-21"
+      ]
+    }
+  ],
+  "externalLinks": [
+    {
+      "url": "http://www4.idrottonline.se/ImageVaultFiles/id_245724/cf_72266/forareversion1.pdf",
+      "label": "Förare hos Billingens Klatterklubb",
+      "sectionId": "extern-forare"
     }
   ],
   "access": {

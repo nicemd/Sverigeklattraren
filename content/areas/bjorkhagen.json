@@ -3,7 +3,7 @@
   "id": "bjorkhagen",
   "slug": "bjorkhagen",
   "name": "Björkhagen",
-  "description": "Två småväggar och med korta intensiva problem samt en highballvägg. Korta anmarscher och nära T-Bana helt klart värt ett besök. Var beredd på viss publik vid Parkeringsväggen.",
+  "description": "Två småväggar och med korta intensiva problem samt en highballvägg. Korta anmarscher och nära T-Bana helt klart värt ett besök.\nVar beredd på viss publik vid Parkeringsväggen.",
   "coordinates": null,
   "categories": [
     "Saknar karta",
@@ -14,7 +14,7 @@
     {
       "id": "allmant",
       "title": "Allmänt",
-      "body": "Två småväggar och med korta intensiva problem samt en highballvägg. Korta anmarscher och nära T-Bana helt klart värt ett besök. Var beredd på viss publik vid Parkeringsväggen."
+      "body": "Två småväggar och med korta intensiva problem samt en highballvägg. Korta anmarscher och nära T-Bana helt klart värt ett besök.\nVar beredd på viss publik vid Parkeringsväggen."
     },
     {
       "id": "vagbeskrivning",
@@ -24,7 +24,7 @@
     {
       "id": "fritidsvaggen",
       "title": "Fritidsväggen",
-      "body": "En större klippa med lite highballs och boulders samt några stenhårda projekt för den hugade. Gå förbi hyreshuset på vänster sida så ligger klippan på vänster sida mittemot fritidsett. Var bered på vissa kommentarer från nyfikna barn. Några projekt är påbörjade här."
+      "body": "En större klippa med lite highballs och boulders samt några stenhårda projekt för den hugade. Gå förbi hyreshuset på vänster sida så ligger klippan på vänster sida mittemot fritidsett. Var bered på vissa kommentarer från nyfikna barn.\n\nNågra projekt är påbörjade här."
     },
     {
       "id": "parkeringsvaggen",
@@ -39,7 +39,7 @@
     {
       "id": "traskvaggen-2",
       "title": "Träskväggen 2",
-      "body": "Den lite högre väggen, ca 10m till höger om Tott. Tre problem Kategori:Stockholm Kategori:Saknar karta Kategori:Saknar koordinater"
+      "body": "Den lite högre väggen, ca 10m till höger om Tott.\n\nTre problem"
     }
   ],
   "routes": [
@@ -255,35 +255,55 @@
   "images": [
     {
       "filename": "Björkhagen_vänstra_delen.jpg",
-      "caption": "",
+      "caption": "vänstra delen",
       "missing": false,
-      "sectorId": "fritidsvaggen"
+      "sectorId": "fritidsvaggen",
+      "routeIds": [
+        "bjorkhagen-led-1"
+      ]
     },
     {
       "filename": "Björkhagen_högra_delen.jpg",
-      "caption": "",
+      "caption": "högra delen",
       "missing": false,
-      "sectorId": "fritidsvaggen"
+      "sectorId": "fritidsvaggen",
+      "routeIds": [
+        "bjorkhagen-led-2"
+      ]
     },
     {
       "filename": "Björkhagen_högra_delen_2.jpg",
-      "caption": "",
+      "caption": "högra delen 2",
       "missing": false,
-      "sectorId": "fritidsvaggen"
+      "sectorId": "fritidsvaggen",
+      "routeIds": []
     },
     {
       "filename": "Björkhagen_parkeringen2.jpg",
-      "caption": "",
+      "caption": "parkeringen2",
       "missing": false,
-      "sectorId": "parkeringsvaggen"
+      "sectorId": "parkeringsvaggen",
+      "routeIds": [
+        "bjorkhagen-led-3",
+        "bjorkhagen-led-4",
+        "bjorkhagen-led-5",
+        "bjorkhagen-led-6"
+      ]
     },
     {
       "filename": "Bild.JPG",
-      "caption": "",
+      "caption": "Bild",
       "missing": false,
-      "sectorId": "traskvaggen"
+      "sectorId": "traskvaggen",
+      "routeIds": [
+        "bjorkhagen-led-7",
+        "bjorkhagen-led-8",
+        "bjorkhagen-led-9",
+        "bjorkhagen-led-10"
+      ]
     }
   ],
+  "externalLinks": [],
   "access": {
     "legacyText": null,
     "federationSlug": null

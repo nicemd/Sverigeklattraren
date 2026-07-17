@@ -35,7 +35,7 @@
     {
       "id": "leder",
       "title": "Leder",
-      "body": "Tre tradlinjer är gjorda hittills, det krävs en del rensningsarbete innan det går att uttala sig till fullo hur klippans kvalitet är. Av de tre gjorda linjerna är två fina leder, dom skulle dock gärna varit lite längre. Klippan har vissa lösa partier samt något ställe som verkar svårtorkat. Klippan har 3-4 sektioner med varierande typ av klättring med ofta överhängande start. Några av lederna har fina spricklinjer som tilltalar en kilfantast i början av karriären. Markägaren tycker att det är ok att klättring sker, frågor om att bulta har ännu inte ställts. Mer information kommer. 200px|thumb Kategori:sport Kategori:trad Kategori:vertikalt Kategori:överhäng kategori:Saknar skiss kategori:Saknar vägbeskrivning kategori:Saknar leder kategori:Saknar koordinater kategori:Saknar skrivarformatering Category:Värmland"
+      "body": "Tre tradlinjer är gjorda hittills, det krävs en del rensningsarbete innan det går att uttala sig till fullo hur klippans kvalitet är. Av de tre gjorda linjerna är två fina leder, dom skulle dock gärna varit lite längre. Klippan har vissa lösa partier samt något ställe som verkar svårtorkat. Klippan har 3-4 sektioner med varierande typ av klättring med ofta överhängande start. Några av lederna har fina spricklinjer som tilltalar en kilfantast i början av karriären.\n\nMarkägaren tycker att det är ok att klättring sker, frågor om att bulta har ännu inte ställts.\n\nMer information kommer."
     }
   ],
   "routes": [
@@ -91,11 +91,25 @@
   "images": [
     {
       "filename": "Kallerhorn.jpg",
-      "caption": "",
+      "caption": "Kallerhorn",
       "missing": false,
-      "sectorId": "leder"
+      "sectorId": "leder",
+      "routeIds": [
+        "kalleshallarna-led-1"
+      ]
+    },
+    {
+      "filename": "Kallesnr2.jpg",
+      "caption": "Kalles nr 2",
+      "missing": false,
+      "sectorId": "leder",
+      "routeIds": [
+        "kalleshallarna-led-2",
+        "kalleshallarna-led-3"
+      ]
     }
   ],
+  "externalLinks": [],
   "access": {
     "legacyText": null,
     "federationSlug": null

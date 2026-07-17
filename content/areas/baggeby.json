@@ -28,7 +28,7 @@
     {
       "id": "vagbeskrivning",
       "title": "Vägbeskrivning",
-      "body": "titel=Baggeby lat=18129360 long=59354220 Åk till bostadsområdet Baggeby (se kartan. Leta reda på Farkostvägen 8. Mittemot detta hyreshus leder en tydlig grusstig ned mot vattnet. Följ denna i högerböj i ca 3 minuter. Klippan ligger på h sida i en liten slänt."
+      "body": "Åk till bostadsområdet Baggeby (se kartan. Leta reda på Farkostvägen 8. Mittemot detta hyreshus leder en tydlig grusstig ned mot vattnet. Följ denna i högerböj i ca 3 minuter. Klippan ligger på h sida i en liten slänt."
     },
     {
       "id": "leder",
@@ -217,11 +217,25 @@
   "images": [
     {
       "filename": "Baggeby.png",
-      "caption": "",
+      "caption": "Leder · foto",
       "missing": false,
-      "sectorId": "leder"
+      "sectorId": "leder",
+      "routeIds": [
+        "baggeby-led-1",
+        "baggeby-led-2",
+        "baggeby-led-3",
+        "baggeby-led-4",
+        "baggeby-led-5",
+        "baggeby-led-6",
+        "baggeby-led-7",
+        "baggeby-led-8",
+        "baggeby-led-9",
+        "baggeby-led-10",
+        "baggeby-led-11"
+      ]
     }
   ],
+  "externalLinks": [],
   "access": {
     "legacyText": null,
     "federationSlug": null

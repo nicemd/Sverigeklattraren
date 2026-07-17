@@ -36,7 +36,7 @@
     {
       "id": "hogra-delen",
       "title": "Högra delen",
-      "body": "Kategori:Sport Kategori:Dalarna"
+      "body": ""
     }
   ],
   "routes": [
@@ -460,23 +460,55 @@
   "images": [
     {
       "filename": "Vägbeskrivning.gif",
-      "caption": "",
+      "caption": "Vägbeskrivning",
       "missing": false,
-      "sectorId": "vagbeskrivning"
+      "sectorId": "vagbeskrivning",
+      "routeIds": []
     },
     {
       "filename": "Vänstra_delen.gif",
       "caption": "frame",
       "missing": false,
-      "sectorId": "vanstra-delen"
+      "sectorId": "vanstra-delen",
+      "routeIds": [
+        "vitturn-led-1",
+        "vitturn-led-2",
+        "vitturn-led-3",
+        "vitturn-led-4",
+        "vitturn-led-5",
+        "vitturn-led-6",
+        "vitturn-led-7",
+        "vitturn-led-8",
+        "vitturn-led-9",
+        "vitturn-led-10",
+        "vitturn-led-11",
+        "vitturn-led-12",
+        "vitturn-led-13"
+      ]
     },
     {
       "filename": "Högra_delen.gif",
       "caption": "frame",
       "missing": false,
-      "sectorId": "hogra-delen"
+      "sectorId": "hogra-delen",
+      "routeIds": [
+        "vitturn-led-14",
+        "vitturn-led-15",
+        "vitturn-led-16",
+        "vitturn-led-17",
+        "vitturn-led-18",
+        "vitturn-led-19",
+        "vitturn-led-20",
+        "vitturn-led-21",
+        "vitturn-led-22",
+        "vitturn-led-23",
+        "vitturn-led-24",
+        "vitturn-led-25",
+        "vitturn-led-26"
+      ]
     }
   ],
+  "externalLinks": [],
   "access": {
     "legacyText": null,
     "federationSlug": null

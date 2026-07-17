@@ -80,31 +80,74 @@ function plainText(source) {
     .replace(/<!--[^]*?-->/g, " ")
     .replace(/<googlemap[^]*?<\/googlemap>/gi, " ")
     .replace(/<[^>]+>/g, " ")
-    .replace(/\[\[(?:bild|image):[^\]]+\]\]/gi, " ")
+    .replace(/\[\[(?:bild|image|fil|file):[^\]]+\]\]/gi, " ")
+    .replace(/\[+\s*(?:kategori|category):[^\]\n]+\]+/gi, " ")
+    .replace(/\[\[(https?:\/\/[^\s\]]+)\s+([^\]]+)\]\]/g, "$2 ($1)")
     .replace(/\[\[([^\]|]+)\|([^\]]+)\]\]/g, "$2")
     .replace(/\[\[([^\]]+)\]\]/g, "$1")
-    .replace(/\[(https?:\/\/[^\s\]]+)\s+([^\]]+)\]/g, "$2")
+    .replace(/\[(https?:\/\/[^\s\]]+)\s+([^\]]+)\]/g, "$2 ($1)")
     .replace(/\[(https?:\/\/[^\]]+)\]/g, "$1")
     .replace(/\{\{[^]*?\}\}/g, " ")
+    .replace(/[{}]{2,}/g, " ")
+    .replace(/\btitel=[^]*?\blat=[^\s|]+\s+long=[^\s|]+/gi, " ")
     .replace(/'{2,}/g, "")
     .replace(/^\s*[|{}!].*$/gm, " ")
     .replace(/\s+/g, " ")
     .trim();
 }
 
+function proseText(source) {
+  return source
+    .replace(/<!--[^]*?-->/g, " ")
+    .replace(/<googlemap[^]*?<\/googlemap>/gi, " ")
+    .replace(/<[^>]+>/g, " ")
+    .replace(/\[\[(?:bild|image|fil|file):[^\]]+\]\]/gi, " ")
+    .replace(/\[+\s*(?:kategori|category):[^\]\n]+\]+/gi, " ")
+    .replace(/\[\[(https?:\/\/[^\s\]]+)\s+([^\]]+)\]\]/g, "$2 ($1)")
+    .replace(/\[\[([^\]|]+)\|([^\]]+)\]\]/g, "$2")
+    .replace(/\[\[([^\]]+)\]\]/g, "$1")
+    .replace(/\[(https?:\/\/[^\s\]]+)\s+([^\]]+)\]/g, "$2 ($1)")
+    .replace(/\[(https?:\/\/[^\]]+)\]/g, "$1")
+    .replace(/\{\{[^]*?\}\}/g, " ")
+    .replace(/[{}]{2,}/g, " ")
+    .replace(/\btitel=[^]*?\blat=[^\s|]+\s+long=[^\s|]+/gi, " ")
+    .replace(/^\s*'{2,}(.+?)'{2,}\s*$/gm, "$1")
+    .replace(/'{2,}/g, "")
+    .replace(/^\s*[*#]\s*/gm, "• ")
+    .replace(/^\s*[|{}!].*$/gm, " ")
+    .split(/\n\s*\n/)
+    .map((paragraph) => paragraph.replace(/[ \t]+/g, " ").replace(/\s*\n\s*/g, "\n").trim())
+    .filter(Boolean)
+    .join("\n\n");
+}
+
 function parseSections(source) {
   const matches = [...source.matchAll(/^={2,4}\s*(.*?)\s*={2,4}\s*$/gm)];
-  return matches.map((match, index) => {
+  const parsed = matches.map((match, index) => {
     const bodyStart = match.index + match[0].length;
     const bodyEnd = matches[index + 1]?.index ?? source.length;
     return {
-      id: slugify(plainText(match[1])),
       title: plainText(match[1]).replace(/\s+/g, " "),
-      body: plainText(source.slice(bodyStart, bodyEnd)),
+      level: match[0].match(/^=+/)?.[0].length || 2,
+      body: proseText(source.slice(bodyStart, bodyEnd)),
       sourceStart: match.index,
       sourceEnd: bodyEnd,
     };
   }).filter((section) => section.title);
+  const seenIds = new Set();
+  return parsed.map((section, index) => {
+    const baseId = slugify(section.title);
+    if (!seenIds.has(baseId)) {
+      seenIds.add(baseId);
+      return { ...section, id: baseId };
+    }
+    const parent = [...parsed.slice(0, index)].reverse().find((candidate) => candidate.level < section.level);
+    let id = `${slugify(parent?.title || "sektion")}-${baseId}`;
+    let suffix = 2;
+    while (seenIds.has(id)) { id = `${slugify(parent?.title || "sektion")}-${baseId}-${suffix}`; suffix += 1; }
+    seenIds.add(id);
+    return { ...section, id };
+  });
 }
 
 function sectionAt(sections, position) {
@@ -120,6 +163,16 @@ function numeric(value) {
 function applyPublishedProposals(area) {
   for (const proposal of publishedProposals.get(area.slug) || []) {
     for (const patch of proposal.edit?.patches || []) {
+      const existingSource = patch.sourceUrl ? area.provenance.sources.find((source) => source.url === patch.sourceUrl) : null;
+      const sourceId = patch.sourceUrl ? existingSource?.id || `external:${slugify(patch.sourceUrl)}` : null;
+      if (patch.sourceUrl && !existingSource) area.provenance.sources.push({
+        id: sourceId,
+        title: patch.sourceUrl,
+        url: patch.sourceUrl,
+        importedAt: proposal.createdAt,
+        usage: "fact-reference",
+        rightsNote: "Endast faktapåståenden har hämtats; formuleringar, bilder och topos återpubliceras inte.",
+      });
       if (patch.field === "description") area.description = patch.value;
       if (patch.field === "coordinates") {
         try {
@@ -136,8 +189,24 @@ function applyPublishedProposals(area) {
           if (index === -1) area.sections.push(section); else area.sections[index] = section;
         } catch { /* En ogiltig historisk patch ändrar aldrig importresultatet. */ }
       }
-      if (patch.sourceUrl && !area.provenance.sources.some((source) => source.url === patch.sourceUrl)) {
-        area.provenance.sources.push({ id: `external:${slugify(patch.sourceUrl)}`, title: patch.sourceUrl, url: patch.sourceUrl });
+      if (patch.field === "route_fact" && sourceId && patch.sourceUrl) {
+        try {
+          const value = JSON.parse(patch.value);
+          let route = value.routeId ? area.routes.find((item) => item.id === value.routeId) : null;
+          if (!route && value.facts?.name) route = area.routes.find((item) => item.sectorId === value.sectorId && item.name.toLocaleLowerCase("sv") === String(value.facts.name).toLocaleLowerCase("sv"));
+          if (!route && value.facts?.name && ["route", "problem"].includes(value.kind) && area.sections.some((section) => section.id === value.sectorId)) {
+            route = { id: `${area.slug}-${value.kind}-external-${slugify(String(value.facts.name))}`, kind: value.kind, number: null, name: String(value.facts.name), grade: "", length: "", type: "", firstAscent: "", description: "", sectorId: value.sectorId, source: { id: sourceId, url: patch.sourceUrl }, fieldSources: {} };
+            area.routes.push(route);
+          }
+          if (route) {
+            route.fieldSources ||= {};
+            for (const [field, fact] of Object.entries(value.facts || {})) {
+              if (!["name", "grade", "number", "length", "type", "firstAscent", "description", "sectorId"].includes(field) || (fact !== null && typeof fact !== "string")) continue;
+              route[field] = fact;
+              route.fieldSources[field] = [...new Set([...(route.fieldSources[field] || []), sourceId])];
+            }
+          }
+        } catch { /* En ogiltig historisk patch ändrar aldrig importresultatet. */ }
       }
     }
   }
@@ -149,13 +218,19 @@ function parseArea(filename, source, uniqueSlug) {
   const templates = extractTemplates(source).map((entry) => ({ ...splitTemplate(entry.content), start: entry.start, end: entry.end }));
   const info = templates.find((template) => ["info klippa", "info boulderområde"].includes(template.name));
   const sections = parseSections(source);
-  const routes = templates
-    .filter((template) => template.name === "led" || template.name === "problem")
+  const topLevelHeadings = sections.filter((section) => source.slice(section.sourceStart).startsWith("==") && !source.slice(section.sourceStart).startsWith("==="));
+  const isBoulderPosition = (position) => {
+    if (info?.name === "info boulderområde") return true;
+    const context = [...topLevelHeadings].reverse().find((section) => section.sourceStart < position);
+    return Boolean(context && /boulder/i.test(context.title));
+  };
+  const routeTemplates = templates.filter((template) => template.name === "led" || template.name === "problem");
+  const routes = routeTemplates
     .map((template, index) => {
       const sector = sectionAt(sections, template.start);
       return {
         id: `${uniqueSlug}-${template.name}-${index + 1}`,
-        kind: template.name === "led" ? "route" : "problem",
+        kind: template.name === "problem" || isBoulderPosition(template.start) ? "problem" : "route",
         number: template.args.nr || null,
         name: plainText(template.args.namn || `Namnlös ${template.name}`),
         grade: plainText(template.args.grad || ""),
@@ -170,16 +245,41 @@ function parseArea(filename, source, uniqueSlug) {
   const categories = [...source.matchAll(/\[\[kategori:([^\]]+)\]\]/gi)]
     .map((match) => plainText(match[1]))
     .filter(Boolean);
-  const images = [...source.matchAll(/\[\[(?:bild|image):([^|\]]+)(?:\|([^\]]*))?\]\]/gi)]
-    .map((match) => {
+  const imageMatches = [...source.matchAll(/\[\[(?:bild|image|fil|file):([^|\]]+)(?:\|([^\]]*))?\]\]/gi)];
+  const images = imageMatches
+    .map((match, matchIndex) => {
       const options = (match[2] || "").split("|").map((part) => part.trim());
       const requested = match[1].trim();
       const filename = imageIndex.get(requested.toLowerCase()) || imageIndex.get(requested.toLowerCase().replaceAll(" ", "_")) || requested;
       const sector = sectionAt(sections, match.index ?? 0);
       const caption = [...options].reverse().find((option) => option && !/^(thumb|thumbnail|left|right|center|frameless|border|\d+px)$/i.test(option)) || "";
-      return { filename, caption: plainText(caption), missing: !imageIndex.has(filename.toLowerCase()), sectorId: sector?.id || null };
+      const filenameSlug = slugify(path.basename(filename, path.extname(filename)));
+      const filenameKey = filenameSlug.replaceAll("-", "");
+      const relatedRoute = routes.find((route) => {
+        const routeKey = slugify(route.name).replaceAll("-", "");
+        return route.name !== "?" && routeKey.length > 3 && filenameKey.includes(routeKey);
+      });
+      const nextImageInSector = imageMatches.slice(matchIndex + 1).find((candidate) => sectionAt(sections, candidate.index ?? 0)?.id === sector?.id);
+      const groupedRouteIds = routeTemplates.flatMap((template, routeIndex) => template.start > (match.index ?? 0)
+        && (!nextImageInSector || template.start < (nextImageInSector.index ?? source.length))
+        && routes[routeIndex]?.sectorId === sector?.id ? [routes[routeIndex].id] : []);
+      if (relatedRoute && !groupedRouteIds.includes(relatedRoute.id)) groupedRouteIds.unshift(relatedRoute.id);
+      const cleanedFilename = path.basename(filename, path.extname(filename)).replaceAll("_", " ").replace(new RegExp(`^${name.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}\\s*`, "i"), "").trim();
+      const fallbackCaption = relatedRoute?.name || (/^\d*$/.test(cleanedFilename) || cleanedFilename.length < 3 ? `${sector?.title || "Området"} · foto` : cleanedFilename);
+      return { filename, caption: plainText(caption) || fallbackCaption || "Översiktsbild", missing: !imageIndex.has(filename.toLowerCase()), sectorId: sector?.id || null, routeIds: groupedRouteIds };
     });
   const accessTemplate = templates.find((template) => template.name === "accessdb");
+  const externalLinks = [];
+  const seenExternalUrls = new Set();
+  for (const match of source.matchAll(/\[{1,2}(https?:\/\/[^\s\]]+)\s+([^\]]+)\]{1,2}|(https?:\/\/[^\s\]|}<>]+)/gi)) {
+    const url = String(match[1] || match[3] || "").replace(/[.,;:)]+$/, "");
+    if (!url || seenExternalUrls.has(url)) continue;
+    seenExternalUrls.add(url);
+    const section = sectionAt(sections, match.index ?? 0);
+    let fallbackLabel = "Extern länk";
+    try { fallbackLabel = decodeURIComponent(path.basename(new URL(url).pathname)) || new URL(url).hostname; } catch { /* Behåll neutral etikett för historiskt trasiga URL:er. */ }
+    externalLinks.push({ url, label: plainText(match[2] || fallbackLabel), sectionId: section?.id || null });
+  }
   const latitude = numeric(info?.args.lat);
   const longitude = numeric(info?.args.long);
   const coordinatesValid = latitude !== null && longitude !== null && latitude >= -90 && latitude <= 90 && longitude >= -180 && longitude <= 180;
@@ -198,6 +298,7 @@ function parseArea(filename, source, uniqueSlug) {
     sections: sections.map((section) => ({ id: section.id, title: section.title, body: section.body })),
     routes,
     images,
+    externalLinks,
     access: {
       legacyText: sections.find((section) => /access/i.test(section.title))?.body || null,
       federationSlug: accessTemplate?.args.klippa || null,

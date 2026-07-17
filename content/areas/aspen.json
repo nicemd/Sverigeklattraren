@@ -21,7 +21,7 @@
     {
       "id": "karaktar",
       "title": "Karaktär",
-      "body": "Klätterklippa med lite längre (20 meter) vertikala turer, och turer med brant svakaraktär, det mesta är lättare än 7a. Merparten ganska skuggigt. Väldigt många människor klättrar här, ofta får man stå i kö för de finare lederna. Ta med skräp härifrån. Visa hänsyn mot andra klättrare. Använd alltid egna karbiner i firningsankarna! På Fikahyllan klättrar många nybörjare."
+      "body": "Klätterklippa med lite längre (20 meter) vertikala turer, och turer med brant svakaraktär, det mesta är lättare än 7a. Merparten ganska skuggigt. Väldigt många människor klättrar här, ofta får man stå i kö för de finare lederna. Ta med skräp härifrån. Visa hänsyn mot andra klättrare. Använd alltid egna karbiner i firningsankarna!\n\nPå Fikahyllan klättrar många nybörjare."
     },
     {
       "id": "vagbeskrivning",
@@ -46,7 +46,7 @@
     {
       "id": "nalle-puh",
       "title": "Nalle Puh",
-      "body": "Väggen som ligger längst bort ifrån parkeringen, för att komma hit gå längs med vägen tills klippan tar slut och gå in i skogen. Ca 20m hög vägg med flera borrbultade turer. Den finaste är antagligen leden med samma namn som väggen, Nalle Puh(5c)."
+      "body": "Väggen som ligger längst bort ifrån parkeringen, för att komma hit gå längs med vägen tills klippan tar slut och gå in i skogen.\nCa 20m hög vägg med flera borrbultade turer. Den finaste är antagligen leden med samma namn som väggen, Nalle Puh(5c)."
     },
     {
       "id": "columbushyllan",
@@ -76,7 +76,7 @@
     {
       "id": "fikahyllan",
       "title": "Fikahyllan",
-      "body": "Låt bli att topprepa direkt i ringarna! Använd egna karbiner. Från parkeringen gå in i skogen men parallellt med vägen, uppför. Kategori:Göteborg"
+      "body": "Låt bli att topprepa direkt i ringarna! Använd egna karbiner. Från parkeringen gå in i skogen men parallellt med vägen, uppför."
     },
     {
       "id": "mumindalen",
@@ -1289,17 +1289,20 @@
   "images": [
     {
       "filename": "Aspen_valkomstbild.jpg",
-      "caption": "",
+      "caption": "valkomstbild",
       "missing": false,
-      "sectorId": "karaktar"
+      "sectorId": "karaktar",
+      "routeIds": []
     },
     {
       "filename": "Aspen.png",
-      "caption": "",
+      "caption": "Väggar · foto",
       "missing": false,
-      "sectorId": "vaggar"
+      "sectorId": "vaggar",
+      "routeIds": []
     }
   ],
+  "externalLinks": [],
   "access": {
     "legacyText": null,
     "federationSlug": "Aspen"

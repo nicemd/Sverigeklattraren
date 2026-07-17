@@ -21,7 +21,7 @@
     {
       "id": "vagbeskrivning",
       "title": "Vägbeskrivning",
-      "body": "titel=Finnsvedsberget lat=18337440 long=59280700 Kör väg 222 Värmdöleden, avfart Gustavsberg/Ingarö. Tag vänster mot Ingarö. Kör Ingarövägen ca 2km och sedan höger mot Lillängsdal efter bron. Kör Lillängsdalsvägen ca 4km och parkera i korsningen Lillängsdalsvägen/Klintvägen. Gå Klintvägen tills dess slut och följ stigen i vägens förlängning. När stigen grenar sig ta första vänster, andra vänster och tredje höger. Följ stigen ytterligare 2-300m. Ett röse vid sidan av stigen visar att det är dags att ta vänster ner mot vattnet. Undvik sommarstugorna. Väl nere vid vattnet gå åt höger. Ett nymonterat firningsankare sitter på svaplattan ovanför vänstra delen av klippan. Från ankaret kan du nå ankarna på Sjöjungfrun - Tintin. För att hitta ankaret, följ stigen knappt hundra meter längre och ett andra röse visar var du ska ta vänster mot vattnet."
+      "body": "Kör väg 222 Värmdöleden, avfart Gustavsberg/Ingarö. Tag vänster mot Ingarö. Kör Ingarövägen ca 2km och sedan höger mot Lillängsdal efter bron. Kör Lillängsdalsvägen ca 4km och parkera i korsningen Lillängsdalsvägen/Klintvägen.\n\nGå Klintvägen tills dess slut och följ stigen i vägens förlängning. När stigen grenar sig ta första vänster, andra vänster och tredje höger.\n\nFölj stigen ytterligare 2-300m. Ett röse vid sidan av stigen visar att det är dags att ta vänster ner mot vattnet. Undvik sommarstugorna. Väl nere vid vattnet gå åt höger.\n\nEtt nymonterat firningsankare sitter på svaplattan ovanför vänstra delen av klippan. Från ankaret kan du nå ankarna på Sjöjungfrun - Tintin. För att hitta ankaret, följ stigen knappt hundra meter längre och ett andra röse visar var du ska ta vänster mot vattnet."
     },
     {
       "id": "leder",
@@ -36,7 +36,7 @@
     {
       "id": "hogklint",
       "title": "Högklint",
-      "body": "Överhängande vägg som också ligger vid vattnet. Korta tunga leder. Vägbeskrivning: Som för Sjöväggen, men fortsätt stigen rakt fram. Efter några hundra meter korsar en ledning stigen och strax efter det visar ett tredje röse var du ska vika av höger ned mot vattnet. Lättare att hitta till än Sjöväggen. Här finns ett gäng nya leder. Någon som har koll? Balkongen nås via fast rep längst ut till vänster på Högklint. Här finns några ganska fina 5c-leder och några nya, okända leder. Akta taggbuskarna när ni firar ner från led 3 & 4."
+      "body": "Överhängande vägg som också ligger vid vattnet. Korta tunga leder.\n\nVägbeskrivning: Som för Sjöväggen, men fortsätt stigen rakt fram. Efter några hundra meter korsar en ledning stigen och strax efter det visar ett tredje röse var du ska vika av höger ned mot vattnet. Lättare att hitta till än Sjöväggen.\n\nHär finns ett gäng nya leder. Någon som har koll?\n\nBalkongen nås via fast rep längst ut till vänster på Högklint. Här finns några ganska fina 5c-leder och några nya, okända leder. Akta taggbuskarna när ni firar ner från led 3 & 4."
     },
     {
       "id": "svavaggen",
@@ -46,7 +46,7 @@
     {
       "id": "lilla-vaggen",
       "title": "Lilla väggen",
-      "body": "Kategori:Nacka-Värmdö Kategori:Stockholm Category:Trad Category:Sport Category:Överhäng"
+      "body": ""
     }
   ],
   "routes": [
@@ -664,21 +664,61 @@
       "filename": "Finnsvedsberget.jpg",
       "caption": "Tintin direkt, Finnsvedsberget",
       "missing": false,
-      "sectorId": "sjovaggen"
+      "sectorId": "sjovaggen",
+      "routeIds": [
+        "finnsvedsberget-led-1",
+        "finnsvedsberget-led-2",
+        "finnsvedsberget-led-3",
+        "finnsvedsberget-led-4",
+        "finnsvedsberget-led-5",
+        "finnsvedsberget-led-6",
+        "finnsvedsberget-led-7",
+        "finnsvedsberget-led-8",
+        "finnsvedsberget-led-9",
+        "finnsvedsberget-led-10",
+        "finnsvedsberget-led-11",
+        "finnsvedsberget-led-12",
+        "finnsvedsberget-led-13",
+        "finnsvedsberget-led-14",
+        "finnsvedsberget-led-15",
+        "finnsvedsberget-led-16"
+      ]
     },
     {
       "filename": "Högklint.jpg",
       "caption": "Högklint",
       "missing": false,
-      "sectorId": "hogklint"
+      "sectorId": "hogklint",
+      "routeIds": [
+        "finnsvedsberget-led-17",
+        "finnsvedsberget-led-18",
+        "finnsvedsberget-led-19",
+        "finnsvedsberget-led-20",
+        "finnsvedsberget-led-21",
+        "finnsvedsberget-led-22",
+        "finnsvedsberget-led-23",
+        "finnsvedsberget-led-24"
+      ]
     },
     {
       "filename": "Finnsvedsberget_balkongen.png",
-      "caption": "",
+      "caption": "balkongen",
       "missing": false,
-      "sectorId": "hogklint"
+      "sectorId": "hogklint",
+      "routeIds": [
+        "finnsvedsberget-led-25",
+        "finnsvedsberget-led-26",
+        "finnsvedsberget-led-27",
+        "finnsvedsberget-led-28",
+        "finnsvedsberget-led-29",
+        "finnsvedsberget-led-30",
+        "finnsvedsberget-led-31",
+        "finnsvedsberget-led-32",
+        "finnsvedsberget-led-33"
+      ]
     }
   ],
+  "externalLinks": [],
   "access": {
     "legacyText": null,
     "federationSlug": null

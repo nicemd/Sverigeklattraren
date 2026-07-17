@@ -25,7 +25,7 @@
     {
       "id": "lederna",
       "title": "Lederna",
-      "body": "Kategori:Blekinge"
+      "body": ""
     }
   ],
   "routes": [
@@ -195,27 +195,34 @@
       "filename": "IMG_4713.1.jpg",
       "caption": "Om du har ombesiktning på bilen så kan det vara lägligt att kombinera med lite fin sportklättring på klippan bredvid",
       "missing": false,
-      "sectorId": null
+      "sectorId": null,
+      "routeIds": []
     },
     {
       "filename": "Gelin_Karelin-1.jpg",
       "caption": "Bekväm \"roadside\" cragging. Micke Blixt hänger loss på [[Gelin Karelin",
       "missing": false,
-      "sectorId": null
+      "sectorId": null,
+      "routeIds": [
+        "bilprovningen-led-3"
+      ]
     },
     {
       "filename": "BIlprov1.jpg",
-      "caption": "",
+      "caption": "BIlprov1",
       "missing": false,
-      "sectorId": "lederna"
+      "sectorId": "lederna",
+      "routeIds": []
     },
     {
       "filename": "Bilprov2.jpg",
-      "caption": "",
+      "caption": "Bilprov2",
       "missing": false,
-      "sectorId": "lederna"
+      "sectorId": "lederna",
+      "routeIds": []
     }
   ],
+  "externalLinks": [],
   "access": {
     "legacyText": null,
     "federationSlug": null

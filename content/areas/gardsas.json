@@ -21,7 +21,7 @@
     {
       "id": "introduktion",
       "title": "Introduktion",
-      "body": "Tänk på ljudnivån då klättringen sker alldeles intill bebyggelse, se Access nedan. Parkera inte på Ungmästaregatan! Nedstigning finns dels genom att ta sig till höger till cykelvägen. Dels kan man navigera sig ned på en brant stig till vänster om Älgens överskning."
+      "body": "Tänk på ljudnivån då klättringen sker alldeles intill bebyggelse, se Access nedan. Parkera inte på Ungmästaregatan!\n\nNedstigning finns dels genom att ta sig till höger till cykelvägen. Dels kan man navigera sig ned på en brant stig till vänster om Älgens överskning."
     },
     {
       "id": "karaktar",
@@ -31,7 +31,7 @@
     {
       "id": "vagbeskrivning",
       "title": "Vägbeskrivning",
-      "body": "Parkera längs Gärdsåsgatan, Kamgatan. Parkera INTE vid återvinningsstationen på Ungmästaregatan, vilket angetts här tidigare. Gå upp och ta vänster på Sockerbagaregatan. Gatan blir cykelväg, sedan ser du klippan."
+      "body": "Parkera längs Gärdsåsgatan, Kamgatan.\nParkera INTE vid återvinningsstationen på Ungmästaregatan, vilket angetts här tidigare.\nGå upp och ta vänster på Sockerbagaregatan. Gatan blir cykelväg, sedan ser du klippan."
     },
     {
       "id": "access",
@@ -61,7 +61,7 @@
     {
       "id": "nurejev",
       "title": "Nurejev",
-      "body": "category:Barnvänligt category:trad category:Vertikalt Kategori:Göteborg"
+      "body": ""
     }
   ],
   "routes": [
@@ -855,9 +855,13 @@
       "filename": "Jugg_jappe.jpg",
       "caption": "Jappe och Jug.",
       "missing": false,
-      "sectorId": "introduktion"
+      "sectorId": "introduktion",
+      "routeIds": [
+        "gardsas-led-27"
+      ]
     }
   ],
+  "externalLinks": [],
   "access": {
     "legacyText": "Klättringen sker väldigt nära villatomter. I vänstra delen av området klättrar man bokstavligen rakt ovanför nån stackare som försöker läsa tidningen i lugn och ro på sin gräsmatta. Ropa inte i onödan och låt bli alla svordomar och annat oskick! Tänk även på parkeringen, Parkera inte på Ungmästaregatan.",
     "federationSlug": "gardsas"

@@ -3,7 +3,7 @@
   "id": "kyrksjon",
   "slug": "kyrksjon",
   "name": "Kyrksjön",
-  "description": "Från Brommaplan: kör Spångavägen cirka 2 km till rondellen där Spångavägen möter Gliavägen och Vultejusvägen. Sväng vänster in på Vultejusvägen och fortsätt cirka 100 m. Där villorna slutar och skogen tar vid går det in en gång- och cykelstig till vänster. Det går att parkera 50 m längre fram t h vid Ängby IP. Följ gång- och cykelstigen tills den grenar sig som ett Y. Följ den vänstra grenen ytterligare cirka 50 m. Där stigen kröker åt höger finns en parkbänk nedanför en bergknalle. Följ bergsbranten åt vänster (norrut) så hittar du klippan 30-40 meter in i skogen. Kommunalt: T-bana till Brommaplan. Buss 117 mot Spånga station, avstigning vid hållplats Vultejusvägen. Följ sedan Vultejusvägen enl. vägbeskrivningen ovan.",
+  "description": "Från Brommaplan: kör Spångavägen cirka 2 km till rondellen där Spångavägen möter Gliavägen och Vultejusvägen. Sväng vänster in på Vultejusvägen och fortsätt cirka 100 m. Där villorna slutar och skogen tar vid går det in en gång- och cykelstig till vänster. Det går att parkera 50 m längre fram t h vid Ängby IP. Följ gång- och cykelstigen tills den grenar sig som ett Y. Följ den vänstra grenen ytterligare cirka 50 m. Där stigen kröker åt höger finns en parkbänk nedanför en bergknalle. Följ bergsbranten åt vänster (norrut) så hittar du klippan 30-40 meter in i skogen.\nKommunalt:\nT-bana till Brommaplan. Buss 117 mot Spånga station, avstigning vid hållplats Vultejusvägen. Följ sedan Vultejusvägen enl. vägbeskrivningen ovan.",
   "coordinates": {
     "latitude": 59.351893,
     "longitude": 17.915847
@@ -16,7 +16,7 @@
     {
       "id": "vagbeskrivning",
       "title": "Vägbeskrivning",
-      "body": "Från Brommaplan: kör Spångavägen cirka 2 km till rondellen där Spångavägen möter Gliavägen och Vultejusvägen. Sväng vänster in på Vultejusvägen och fortsätt cirka 100 m. Där villorna slutar och skogen tar vid går det in en gång- och cykelstig till vänster. Det går att parkera 50 m längre fram t h vid Ängby IP. Följ gång- och cykelstigen tills den grenar sig som ett Y. Följ den vänstra grenen ytterligare cirka 50 m. Där stigen kröker åt höger finns en parkbänk nedanför en bergknalle. Följ bergsbranten åt vänster (norrut) så hittar du klippan 30-40 meter in i skogen. Kommunalt: T-bana till Brommaplan. Buss 117 mot Spånga station, avstigning vid hållplats Vultejusvägen. Följ sedan Vultejusvägen enl. vägbeskrivningen ovan."
+      "body": "Från Brommaplan: kör Spångavägen cirka 2 km till rondellen där Spångavägen möter Gliavägen och Vultejusvägen. Sväng vänster in på Vultejusvägen och fortsätt cirka 100 m. Där villorna slutar och skogen tar vid går det in en gång- och cykelstig till vänster. Det går att parkera 50 m längre fram t h vid Ängby IP. Följ gång- och cykelstigen tills den grenar sig som ett Y. Följ den vänstra grenen ytterligare cirka 50 m. Där stigen kröker åt höger finns en parkbänk nedanför en bergknalle. Följ bergsbranten åt vänster (norrut) så hittar du klippan 30-40 meter in i skogen.\nKommunalt:\nT-bana till Brommaplan. Buss 117 mot Spånga station, avstigning vid hållplats Vultejusvägen. Följ sedan Vultejusvägen enl. vägbeskrivningen ovan."
     },
     {
       "id": "skiss",
@@ -26,7 +26,7 @@
     {
       "id": "problem",
       "title": "Problem",
-      "body": "kategori:Bouldering kategori:Stockholm"
+      "body": ""
     }
   ],
   "routes": [
@@ -276,21 +276,41 @@
       "filename": "PW_p%C3%A5_Snillen.JPG",
       "caption": "Per Willén på Snillen Spekulerar (6a+), Kyrksjön, Bromma. Foto: Per Calleberg",
       "missing": true,
-      "sectorId": null
+      "sectorId": null,
+      "routeIds": []
     },
     {
       "filename": "Kyrksjon_ny.gif",
-      "caption": "",
+      "caption": "Kyrksjon ny",
       "missing": false,
-      "sectorId": "skiss"
+      "sectorId": "skiss",
+      "routeIds": []
     },
     {
       "filename": "PW_p%C3%A5_Dirty_Deeds_2.JPG",
       "caption": "Per Willén på Dirty Deeds Done Dirt Cheap (6a), Kyrksjön, Bromma. Foto: Per Calleberg",
       "missing": true,
-      "sectorId": "problem"
+      "sectorId": "problem",
+      "routeIds": [
+        "kyrksjon-led-1",
+        "kyrksjon-led-2",
+        "kyrksjon-led-3",
+        "kyrksjon-led-4",
+        "kyrksjon-led-5",
+        "kyrksjon-led-6",
+        "kyrksjon-led-7",
+        "kyrksjon-led-8",
+        "kyrksjon-led-9",
+        "kyrksjon-led-10",
+        "kyrksjon-led-11",
+        "kyrksjon-led-12",
+        "kyrksjon-led-13",
+        "kyrksjon-led-14",
+        "kyrksjon-led-15"
+      ]
     }
   ],
+  "externalLinks": [],
   "access": {
     "legacyText": null,
     "federationSlug": null

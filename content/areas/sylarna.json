@@ -17,12 +17,12 @@
     {
       "id": "forare",
       "title": "Förare",
-      "body": "Förare från Östersunds KK"
+      "body": "Förare från Östersunds KK (http://www.ostersundskk.se/klattring/fjallklattring_sylarna.htm)"
     },
     {
       "id": "bilder",
       "title": "Bilder",
-      "body": "Film över Stora syltraversen sommar 2012. http://youtu.be/uO8yhyomREY Film: Robin Haag"
+      "body": "Film över Stora syltraversen sommar 2012.\nhttp://youtu.be/uO8yhyomREY\nFilm: Robin Haag"
     }
   ],
   "routes": [],
@@ -31,19 +31,34 @@
       "filename": "Syltrav_templet.jpg",
       "caption": "Peter Brolin och Eva Pettersson på Syltraversen, 1988. Foto: Per Calleberg",
       "missing": false,
-      "sectorId": "bilder"
+      "sectorId": "bilder",
+      "routeIds": []
     },
     {
       "filename": "Djävulskammen.jpg",
       "caption": "Peter Brolin på Djävulskammen, 1990. Foto: Per Calleberg",
       "missing": false,
-      "sectorId": "bilder"
+      "sectorId": "bilder",
+      "routeIds": []
     },
     {
       "filename": "Sylarna.jpg",
       "caption": "Kent Andersson och Peter Brolin ovanför Djävulskammen, 1990. Foto: Per Calleberg",
       "missing": false,
-      "sectorId": "bilder"
+      "sectorId": "bilder",
+      "routeIds": []
+    }
+  ],
+  "externalLinks": [
+    {
+      "url": "http://www.ostersundskk.se/klattring/fjallklattring_sylarna.htm",
+      "label": "Förare från Östersunds KK",
+      "sectionId": "forare"
+    },
+    {
+      "url": "http://youtu.be/uO8yhyomREY",
+      "label": "uO8yhyomREY",
+      "sectionId": "bilder"
     }
   ],
   "access": {

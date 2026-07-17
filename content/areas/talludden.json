@@ -24,12 +24,12 @@
     {
       "id": "extern-forare",
       "title": "Extern förare",
-      "body": "Förare med skiss finns på Stockholms Nätförare"
+      "body": "Förare med skiss finns på Stockholms Nätförare (http://www.plonk.se/oldsite/talludden.html)"
     },
     {
       "id": "vagbeskrivning",
       "title": "Vägbeskrivning",
-      "body": "titel=Talludden lat=18225880 long=59334940 Kör Värmdöleden (222) och sväng av via Skuru (direkt efter Skurubron). Sväng till vänster och kör under motorvägen. Sväng höger och sedan vänster mot Talludden (på Talluddsvägen). Kör rakt fram en stund sedan Höger (Helmdalsvägen), Vänster (Friggvägen), höger (Emblavägen). Nära slutet av Emblavägen finns det en vänd/parkerings plats. Parkera bilen där och sedan följer Mariedalsvägen ner. Efter några meter ser man sedan en lång bouldervägg. Fortsätt gå stigen ned mot vattnet och följ stranden till höger. Musväggen är väggen närmast stranden."
+      "body": "Kör Värmdöleden (222) och sväng av via Skuru (direkt efter Skurubron). Sväng till vänster och kör under motorvägen. Sväng höger och sedan vänster mot Talludden (på Talluddsvägen). Kör rakt fram en stund sedan Höger (Helmdalsvägen), Vänster (Friggvägen), höger (Emblavägen). Nära slutet av Emblavägen finns det en vänd/parkerings plats. Parkera bilen där och sedan följer Mariedalsvägen ner. Efter några meter ser man sedan en lång bouldervägg. Fortsätt gå stigen ned mot vattnet och följ stranden till höger. Musväggen är väggen närmast stranden."
     },
     {
       "id": "leder",
@@ -54,7 +54,7 @@
     {
       "id": "sjovaggen",
       "title": "Sjöväggen",
-      "body": "Kategori:Sport Kategori:Nacka-Värmdö Kategori:Stockholm Kategori:Saknar skiss Kategori:Saknar skrivarformatering"
+      "body": ""
     }
   ],
   "routes": [
@@ -494,9 +494,25 @@
   "images": [
     {
       "filename": "Talludden_musvaggen.gif",
-      "caption": "",
+      "caption": "musvaggen",
       "missing": false,
-      "sectorId": "musvaggen-vanster"
+      "sectorId": "musvaggen-vanster",
+      "routeIds": [
+        "talludden-led-10",
+        "talludden-led-11",
+        "talludden-led-12",
+        "talludden-led-13",
+        "talludden-led-14",
+        "talludden-led-15",
+        "talludden-led-16"
+      ]
+    }
+  ],
+  "externalLinks": [
+    {
+      "url": "http://www.plonk.se/oldsite/talludden.html",
+      "label": "Stockholms Nätförare",
+      "sectionId": "extern-forare"
     }
   ],
   "access": {

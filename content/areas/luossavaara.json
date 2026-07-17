@@ -3,7 +3,7 @@
   "id": "luossavaara",
   "slug": "luossavaara",
   "name": "Luossavaara",
-  "description": "Klättring i Kiruna utförs på berget Luossavaara. Ett stort och ståtligt berg som någon gång runt sekelskiftet klyvdes mitt itu av gruvbolaget LKAB.",
+  "description": "Klättring i Kiruna utförs på berget Luossavaara. Ett stort och ståtligt berg som\nnågon gång runt sekelskiftet klyvdes mitt itu av gruvbolaget LKAB.",
   "coordinates": {
     "latitude": 67.87369871850989,
     "longitude": 20.223941802978516
@@ -15,7 +15,7 @@
     {
       "id": "allmant",
       "title": "Allmänt",
-      "body": "Klättring i Kiruna utförs på berget Luossavaara. Ett stort och ståtligt berg som någon gång runt sekelskiftet klyvdes mitt itu av gruvbolaget LKAB."
+      "body": "Klättring i Kiruna utförs på berget Luossavaara. Ett stort och ståtligt berg som\nnågon gång runt sekelskiftet klyvdes mitt itu av gruvbolaget LKAB."
     },
     {
       "id": "vagbeskrivning",
@@ -30,11 +30,18 @@
     {
       "id": "extern-forare",
       "title": "Extern förare",
-      "body": "Kirunaföraren finns att ladda ner på Borrbult.nu Kategori:Lappland"
+      "body": "Kirunaföraren finns att ladda ner på Borrbult.nu (http://www.borrbult.nu/forare)"
     }
   ],
   "routes": [],
   "images": [],
+  "externalLinks": [
+    {
+      "url": "http://www.borrbult.nu/forare",
+      "label": "Borrbult.nu",
+      "sectionId": "extern-forare"
+    }
+  ],
   "access": {
     "legacyText": null,
     "federationSlug": "loussavaara-dagbrott"

@@ -3,7 +3,7 @@
   "id": "olberget",
   "slug": "olberget",
   "name": "Olberget",
-  "description": "Olberget ligger 13.5 km från Söderhamn, nära riksväg 50 mot Bollnäs. Huvudväggen är en 20-25 m hög, kraftigt överhängande sydvägg. Klippan är kompakt, men de sprickor som finns är rena och fina. Nedanför huvudväggen finns en enklare fikaplats.",
+  "description": "Olberget ligger 13.5 km från Söderhamn, nära riksväg 50 mot Bollnäs.\nHuvudväggen är en 20-25 m hög, kraftigt överhängande sydvägg. Klippan\när kompakt, men de sprickor som finns är rena och fina.\nNedanför huvudväggen finns en enklare fikaplats.",
   "coordinates": {
     "latitude": 61.307342,
     "longitude": 16.812859
@@ -21,17 +21,17 @@
     {
       "id": "allmant",
       "title": "Allmänt",
-      "body": "Olberget ligger 13.5 km från Söderhamn, nära riksväg 50 mot Bollnäs. Huvudväggen är en 20-25 m hög, kraftigt överhängande sydvägg. Klippan är kompakt, men de sprickor som finns är rena och fina. Nedanför huvudväggen finns en enklare fikaplats."
+      "body": "Olberget ligger 13.5 km från Söderhamn, nära riksväg 50 mot Bollnäs.\nHuvudväggen är en 20-25 m hög, kraftigt överhängande sydvägg. Klippan\när kompakt, men de sprickor som finns är rena och fina.\nNedanför huvudväggen finns en enklare fikaplats."
     },
     {
       "id": "kommunikationer",
       "title": "Kommunikationer",
-      "body": "Från Söderhamn: Åk mot Bollnäs på riksväg 50. Ca 1 km efter avtagsvägen till Mohed ser du en bilskrot/däckfirma på vänster sida, sväng av höger på första vägen efter denna. (Vägen kan ibland vara i dåligt skick, parkera då på parkeringsfickan som finns på riksväg 50). Kör förbi åkrarna och huset på vänster sida, parkera sedan vid det gamla övergivna huset på höger sida. Klippan och blocken ligger uppe i skogen på vänster sida. Med buss: Från Söderhamn: Ta linje 100 mot Bollnäs. Be chauffören att stanna vid vägen mellan hållplatserna Näcktjärn N och Östbo. GPS-koordinater för klippan: N61 18 36.0 E16 48 42.0"
+      "body": "Från Söderhamn: Åk mot Bollnäs på riksväg 50. Ca 1 km efter avtagsvägen till Mohed ser du en bilskrot/däckfirma på vänster sida, sväng av höger på första vägen efter denna. (Vägen kan ibland vara i dåligt skick, parkera då på parkeringsfickan som finns på riksväg 50).\nKör förbi åkrarna och huset på vänster sida, parkera sedan vid det gamla övergivna huset på höger sida. Klippan och blocken ligger uppe i skogen på vänster sida.\n\nMed buss: Från Söderhamn: Ta linje 100 mot Bollnäs. Be chauffören\natt stanna vid vägen mellan hållplatserna Näcktjärn N och Östbo.\n\nGPS-koordinater för klippan: N61 18 36.0 E16 48 42.0"
     },
     {
       "id": "vaggar",
       "title": "Väggar",
-      "body": "Huvudväggen är en 20-25 m hög, kraftigt överhängande sydvägg. Klippan är kompakt, men de sprickor som finns är rena och fina. Berget är gnejs. Till vänster om huvudväggen finns ett område med mindre väggar och stora flyttblock. Lättaste nedstigningen går till höger om huvudväggen."
+      "body": "Huvudväggen är en 20-25 m hög, kraftigt överhängande sydvägg. Klippan\när kompakt, men de sprickor som finns är rena och fina. Berget är\ngnejs. Till vänster om huvudväggen finns ett område med mindre väggar\noch stora flyttblock. Lättaste nedstigningen går till höger om\nhuvudväggen."
     },
     {
       "id": "huvudvaggen",
@@ -41,7 +41,7 @@
     {
       "id": "lilla-vaggen",
       "title": "Lilla väggen",
-      "body": "Skiss av Jörgen Lundgren. Ligger 30 meter uppåt vänster från Huvudväggen. Bilder från i huvudsak Lilla väggen finns på Bollnäs klätterklubbs sida: http://www.bollnasklatterklubb.se/fotoalbum/2008/ute/olbergetapril6/index.html"
+      "body": "Skiss av Jörgen Lundgren.\n\nLigger 30 meter uppåt vänster från Huvudväggen. Bilder från i huvudsak Lilla väggen finns på Bollnäs klätterklubbs sida: http://www.bollnasklatterklubb.se/fotoalbum/2008/ute/olbergetapril6/index.html"
     },
     {
       "id": "sudoku-vaggen",
@@ -51,7 +51,7 @@
     {
       "id": "bouldering",
       "title": "Bouldering",
-      "body": "Boulderingen vid Olberget finns separat beskrivet i Sverigeföraren: = Olberget = Olberget finns beskrivet separat i Sverigeföraren: http://www.sverigeforaren.se/index.php/Olberget_%28bimbo%29 Kategori:Saknar kolumner Kategori:sport Kategori:trad Kategori:sva Kategori:vertikalt Kategori:överhäng Kategori:Hälsingland Kategori:Hälsingland"
+      "body": "Boulderingen vid Olberget finns separat beskrivet i Sverigeföraren: = Olberget =\nOlberget finns beskrivet separat i Sverigeföraren: http://www.sverigeforaren.se/index.php/Olberget_%28bimbo%29"
     }
   ],
   "routes": [
@@ -555,45 +555,109 @@
   "images": [
     {
       "filename": "Olberget_Huvudvagg.png",
-      "caption": "",
+      "caption": "Huvudvagg",
       "missing": false,
-      "sectorId": "huvudvaggen"
+      "sectorId": "huvudvaggen",
+      "routeIds": []
     },
     {
       "filename": "ZombieWoof.jpg",
       "caption": "Mikael Bäckman gör första fria bestigningen av Zombie Woof 1982. Foto: Per Calleberg",
       "missing": false,
-      "sectorId": "huvudvaggen"
+      "sectorId": "huvudvaggen",
+      "routeIds": [
+        "olberget-led-3"
+      ]
     },
     {
       "filename": "Lunchrast.jpg",
       "caption": "Per Calleberg gör förstabestigningen av Lunchrast 1986. Foto: Eva Pettersson/Per Callebergs arkiv.",
       "missing": false,
-      "sectorId": "huvudvaggen"
+      "sectorId": "huvudvaggen",
+      "routeIds": [
+        "olberget-led-12"
+      ]
     },
     {
       "filename": "Turist.jpg",
       "caption": "Jan Liliemark under den första fria bestigningen av Turist i tillvaron 1983. Foto: Per Calleberg",
       "missing": false,
-      "sectorId": "huvudvaggen"
+      "sectorId": "huvudvaggen",
+      "routeIds": [
+        "olberget-led-1",
+        "olberget-led-2",
+        "olberget-led-3",
+        "olberget-led-4",
+        "olberget-led-5",
+        "olberget-led-6",
+        "olberget-led-7",
+        "olberget-led-8",
+        "olberget-led-9",
+        "olberget-led-10",
+        "olberget-led-11",
+        "olberget-led-12",
+        "olberget-led-13",
+        "olberget-led-14",
+        "olberget-led-15",
+        "olberget-led-16",
+        "olberget-led-17",
+        "olberget-led-18",
+        "olberget-led-19",
+        "olberget-led-20"
+      ]
     },
     {
       "filename": "Olb_vanstra_2.png",
-      "caption": "",
+      "caption": "Olb vanstra 2",
       "missing": false,
-      "sectorId": "lilla-vaggen"
+      "sectorId": "lilla-vaggen",
+      "routeIds": [
+        "olberget-led-21",
+        "olberget-led-22",
+        "olberget-led-23",
+        "olberget-led-24",
+        "olberget-led-25",
+        "olberget-led-26",
+        "olberget-led-27",
+        "olberget-led-28",
+        "olberget-led-29",
+        "olberget-led-30"
+      ]
     },
     {
       "filename": "Fotonen.jpg",
       "caption": "Per Calleberg på Fotonen 1982. Foto: Per Callebergs arkiv.",
       "missing": false,
-      "sectorId": "sudoku-vaggen"
+      "sectorId": "sudoku-vaggen",
+      "routeIds": [
+        "olberget-led-16"
+      ]
     },
     {
       "filename": "SriChimnoy.jpg",
       "caption": "Mikael Bäckman på Sri Chimnoy 1982. Foto: Per Calleberg",
       "missing": false,
-      "sectorId": "sudoku-vaggen"
+      "sectorId": "sudoku-vaggen",
+      "routeIds": [
+        "olberget-led-15"
+      ]
+    }
+  ],
+  "externalLinks": [
+    {
+      "url": "http://www.bollnasklatterklubb.se/fotoalbum/2008/ute/olbergetapril6/index.html",
+      "label": "index.html",
+      "sectionId": "lilla-vaggen"
+    },
+    {
+      "url": "http://www.bollnasklatterklubb.se/fotoalbum/2008/ute/Olberget19april/index.html",
+      "label": "index.html",
+      "sectionId": "sudoku-vaggen"
+    },
+    {
+      "url": "http://www.sverigeforaren.se/index.php/Olberget_%28bimbo%29",
+      "label": "Olberget_(bimbo)",
+      "sectionId": "bouldering"
     }
   ],
   "access": {

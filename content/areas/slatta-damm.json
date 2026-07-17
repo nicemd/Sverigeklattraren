@@ -39,7 +39,7 @@
     {
       "id": "leder",
       "title": "Leder",
-      "body": "(Klippan är mycket vagt beskrivning i Klättring i Göteborg med omnejd) kategori:Saknar skiss kategori:Saknar leder kategori:Saknar koordinater kategori:Saknar skrivarformatering Category:Göteborg"
+      "body": "(Klippan är mycket vagt beskrivning i Klättring i Göteborg med omnejd)"
     },
     {
       "id": "access",
@@ -180,11 +180,22 @@
   "images": [
     {
       "filename": "Slattadamm_storavaggen.jpg",
-      "caption": "",
+      "caption": "Slattadamm storavaggen",
       "missing": false,
-      "sectorId": "leder"
+      "sectorId": "leder",
+      "routeIds": [
+        "slatta-damm-led-1",
+        "slatta-damm-led-2",
+        "slatta-damm-led-3",
+        "slatta-damm-led-4",
+        "slatta-damm-led-5",
+        "slatta-damm-led-6",
+        "slatta-damm-led-7",
+        "slatta-damm-led-8"
+      ]
     }
   ],
+  "externalLinks": [],
   "access": {
     "legacyText": "Det ligger en fornborg ovanför klippan...",
     "federationSlug": null

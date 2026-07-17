@@ -30,7 +30,7 @@
     {
       "id": "vagbeskrivning",
       "title": "Vägbeskrivning",
-      "body": "titel=Ostnoraberget lat=18044700 long=59049860 Från Stockholm, kör motorvägen (73) mot Nynäshamn en knapp mil söder om Västerhaninge. Ta av vid avfarten skyltad \"Tungelsta Landfjärden\" och korsa motorvägen oc sväng höger mot Landfjärden. Efter nån kilometer sväng vänster vid skylt Östnora camping. Efter ca 700 m går en enskild väg in åt höger. Följ den (till fots) i 300 m och ta den högra vägen. Efter ytterligare ca 500 m tar vägen slut vid några sjöbodar. Klippan ligger alldeles framför."
+      "body": "Från Stockholm, kör motorvägen (73) mot Nynäshamn en knapp mil söder om Västerhaninge. Ta av vid avfarten skyltad \"Tungelsta Landfjärden\" och korsa motorvägen oc sväng höger mot Landfjärden. Efter nån kilometer sväng vänster vid skylt Östnora camping. Efter ca 700 m går en enskild väg in åt höger. Följ den (till fots) i 300 m och ta den högra vägen. Efter ytterligare ca 500 m tar vägen slut vid några sjöbodar. Klippan ligger alldeles framför."
     },
     {
       "id": "kommunikationer",
@@ -105,7 +105,7 @@
     {
       "id": "examensvaggen",
       "title": "Examensväggen",
-      "body": "Kategori:Stockholm Kategori:Södra Södertörn Kategori:Sport Kategori:Trad Kategori:Överhäng Kategori:Vertikalt"
+      "body": ""
     }
   ],
   "routes": [
@@ -1121,59 +1121,127 @@
   "images": [
     {
       "filename": "Ostnora_oversikt.png",
-      "caption": "",
+      "caption": "Ostnora oversikt",
       "missing": false,
-      "sectorId": "leder"
+      "sectorId": "leder",
+      "routeIds": []
     },
     {
       "filename": "Franskaväggen.jpg",
-      "caption": "",
+      "caption": "Franskaväggen",
       "missing": false,
-      "sectorId": "franska-vaggen"
+      "sectorId": "franska-vaggen",
+      "routeIds": [
+        "ostnoraberget-led-1",
+        "ostnoraberget-led-2",
+        "ostnoraberget-led-3",
+        "ostnoraberget-led-4",
+        "ostnoraberget-led-5",
+        "ostnoraberget-led-6",
+        "ostnoraberget-led-7",
+        "ostnoraberget-led-8"
+      ]
     },
     {
       "filename": "Ostnora_forsta_taket.png",
-      "caption": "",
+      "caption": "Ostnora forsta taket",
       "missing": false,
-      "sectorId": "forsta-taket"
+      "sectorId": "forsta-taket",
+      "routeIds": [
+        "ostnoraberget-led-9",
+        "ostnoraberget-led-10",
+        "ostnoraberget-led-11",
+        "ostnoraberget-led-12",
+        "ostnoraberget-led-13",
+        "ostnoraberget-led-14"
+      ]
     },
     {
       "filename": "Ostnora_stora_vaggen.png",
-      "caption": "",
+      "caption": "Ostnora stora vaggen",
       "missing": false,
-      "sectorId": "storsta-taket"
+      "sectorId": "storsta-taket",
+      "routeIds": [
+        "ostnoraberget-led-19",
+        "ostnoraberget-led-20",
+        "ostnoraberget-led-21",
+        "ostnoraberget-led-22",
+        "ostnoraberget-led-23"
+      ]
     },
     {
       "filename": "Pelarvaggen.jpg",
-      "caption": "",
+      "caption": "Pelarvaggen",
       "missing": false,
-      "sectorId": "pelarvaggen"
+      "sectorId": "pelarvaggen",
+      "routeIds": []
     },
     {
       "filename": "Ostnora_pelarvaggen.png",
-      "caption": "",
+      "caption": "Ostnora pelarvaggen",
       "missing": false,
-      "sectorId": "pelarvaggen"
+      "sectorId": "pelarvaggen",
+      "routeIds": [
+        "ostnoraberget-led-24",
+        "ostnoraberget-led-25",
+        "ostnoraberget-led-26",
+        "ostnoraberget-led-27",
+        "ostnoraberget-led-28",
+        "ostnoraberget-led-29",
+        "ostnoraberget-led-30",
+        "ostnoraberget-led-31",
+        "ostnoraberget-led-32",
+        "ostnoraberget-led-33",
+        "ostnoraberget-led-34",
+        "ostnoraberget-led-35",
+        "ostnoraberget-led-36",
+        "ostnoraberget-led-37",
+        "ostnoraberget-led-38",
+        "ostnoraberget-led-39",
+        "ostnoraberget-led-40",
+        "ostnoraberget-led-41"
+      ]
     },
     {
       "filename": "Ostnora_solklippan.png",
-      "caption": "",
+      "caption": "Ostnora solklippan",
       "missing": false,
-      "sectorId": "solklippan"
+      "sectorId": "solklippan",
+      "routeIds": [
+        "ostnoraberget-led-42",
+        "ostnoraberget-led-43",
+        "ostnoraberget-led-44",
+        "ostnoraberget-led-45",
+        "ostnoraberget-led-46",
+        "ostnoraberget-led-47",
+        "ostnoraberget-led-48"
+      ]
     },
     {
       "filename": "Ostnora_marylinvaggen.png",
-      "caption": "",
+      "caption": "Marylin",
       "missing": false,
-      "sectorId": "marylinvaggen"
+      "sectorId": "marylinvaggen",
+      "routeIds": [
+        "ostnoraberget-led-49",
+        "ostnoraberget-led-50",
+        "ostnoraberget-led-51",
+        "ostnoraberget-led-52"
+      ]
     },
     {
       "filename": "Ostnora_gecco.png",
-      "caption": "",
+      "caption": "Ostnora gecco",
       "missing": false,
-      "sectorId": "geckovaggen"
+      "sectorId": "geckovaggen",
+      "routeIds": [
+        "ostnoraberget-led-53",
+        "ostnoraberget-led-54",
+        "ostnoraberget-led-55"
+      ]
     }
   ],
+  "externalLinks": [],
   "access": {
     "legacyText": "Delar av klippan (Tvåbultsväggen och Examensväggen) ligger på privat tomtmark där det inte är ok att klättra.",
     "federationSlug": null

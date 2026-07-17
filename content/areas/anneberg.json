@@ -21,12 +21,12 @@
     {
       "id": "vagbeskrivning",
       "title": "Vägbeskrivning",
-      "body": "titel=Anneberg lat=18207030 long=59331210 Från Stockholm: kör Värmdöleden 222, sväng av mot \"Skuru/Ektorp/Sjukhus\" (innan Skurubron), kör vänster och under motorvägen. Följ Skurusundsvägen rakt fram och efter en stund har du klippan på höger sida precis vid vägkanten. Ställ bilen på parkeringen precis vid klippan."
+      "body": "Från Stockholm: kör Värmdöleden 222, sväng av mot \"Skuru/Ektorp/Sjukhus\" (innan Skurubron), kör vänster och under motorvägen. Följ Skurusundsvägen rakt fram och efter en stund har du klippan på höger sida precis vid vägkanten. Ställ bilen på parkeringen precis vid klippan."
     },
     {
       "id": "leder",
       "title": "Leder",
-      "body": "Vänstra väggen Högra väggen ]] Kategori:Nacka-Värmdö Kategori:Stockholm Category:Trad Category:Sport Category:Vertikalt"
+      "body": "Vänstra väggen\n\nHögra väggen\n\n]]"
     }
   ],
   "routes": [
@@ -404,33 +404,65 @@
       "filename": "Anneberg.jpg",
       "caption": "frame",
       "missing": false,
-      "sectorId": null
+      "sectorId": null,
+      "routeIds": []
     },
     {
       "filename": "Anneberg_vänster.gif",
-      "caption": "",
+      "caption": "vänster",
       "missing": false,
-      "sectorId": "leder"
+      "sectorId": "leder",
+      "routeIds": [
+        "anneberg-led-1",
+        "anneberg-led-2",
+        "anneberg-led-3",
+        "anneberg-led-4",
+        "anneberg-led-5",
+        "anneberg-led-6",
+        "anneberg-led-7",
+        "anneberg-led-8"
+      ]
     },
     {
       "filename": "Anneberg_vänster2.gif",
-      "caption": "",
+      "caption": "vänster2",
       "missing": false,
-      "sectorId": "leder"
+      "sectorId": "leder",
+      "routeIds": [
+        "anneberg-led-9",
+        "anneberg-led-10",
+        "anneberg-led-11",
+        "anneberg-led-12",
+        "anneberg-led-13"
+      ]
     },
     {
       "filename": "Anneberg_höger.gif",
-      "caption": "",
+      "caption": "höger",
       "missing": false,
-      "sectorId": "leder"
+      "sectorId": "leder",
+      "routeIds": [
+        "anneberg-led-14",
+        "anneberg-led-15",
+        "anneberg-led-16",
+        "anneberg-led-17",
+        "anneberg-led-18",
+        "anneberg-led-19",
+        "anneberg-led-20",
+        "anneberg-led-21",
+        "anneberg-led-22",
+        "anneberg-led-23"
+      ]
     },
     {
       "filename": "Anneberg001.jpg",
       "caption": "Jonas Ahlman",
       "missing": false,
-      "sectorId": "leder"
+      "sectorId": "leder",
+      "routeIds": []
     }
   ],
+  "externalLinks": [],
   "access": {
     "legacyText": null,
     "federationSlug": null

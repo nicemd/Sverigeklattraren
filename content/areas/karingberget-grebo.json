@@ -28,7 +28,7 @@
     {
       "id": "lankar",
       "title": "Länkar",
-      "body": "Förare tillhandahållen av Linköpings klätterklubb. Kategori:ÖstergötlandKategori:vertikaltKategori:Sport"
+      "body": "Förare tillhandahållen av Linköpings klätterklubb (http://linkopingsklatterklubb.se/index.php/forare.html)."
     }
   ],
   "routes": [
@@ -260,9 +260,32 @@
   "images": [
     {
       "filename": "Karingberget-figurer-v1.0.1-2006-06-20.gif",
-      "caption": "",
+      "caption": "Karingberget-figurer-v1.0.1-2006-06-20",
       "missing": false,
-      "sectorId": "klippan"
+      "sectorId": "klippan",
+      "routeIds": [
+        "karingberget-grebo-led-1",
+        "karingberget-grebo-led-2",
+        "karingberget-grebo-led-3",
+        "karingberget-grebo-led-4",
+        "karingberget-grebo-led-5",
+        "karingberget-grebo-led-6",
+        "karingberget-grebo-led-7",
+        "karingberget-grebo-led-8",
+        "karingberget-grebo-led-9",
+        "karingberget-grebo-led-10",
+        "karingberget-grebo-led-11",
+        "karingberget-grebo-led-12",
+        "karingberget-grebo-led-13",
+        "karingberget-grebo-led-14"
+      ]
+    }
+  ],
+  "externalLinks": [
+    {
+      "url": "http://linkopingsklatterklubb.se/index.php/forare.html",
+      "label": "Linköpings klätterklubb",
+      "sectionId": "lankar"
     }
   ],
   "access": {

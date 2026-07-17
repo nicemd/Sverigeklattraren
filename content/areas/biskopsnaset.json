@@ -19,7 +19,7 @@
     {
       "id": "biskopsnasblocket",
       "title": "Biskopsnäsblocket",
-      "body": "Blockets högsta sida. 4,5-5m högt Kategori:Utkast Kategori:Ludvika Kategori:Bouldering Kategori:Bimbo Kategori:Saknar karta Kategori:Saknar skrivarformattering Kategori:Saknar skiss Kategori:Dalarna"
+      "body": "Blockets högsta sida. 4,5-5m högt"
     }
   ],
   "routes": [
@@ -315,41 +315,72 @@
   "images": [
     {
       "filename": "Hemma2.JPG",
-      "caption": "",
+      "caption": "Hemma",
       "missing": false,
-      "sectorId": null
+      "sectorId": null,
+      "routeIds": [
+        "biskopsnaset-problem-5"
+      ]
     },
     {
       "filename": "Biskops.jpg",
-      "caption": "",
+      "caption": "Biskops",
       "missing": false,
-      "sectorId": null
+      "sectorId": null,
+      "routeIds": []
     },
     {
       "filename": "Relapsef.jpg",
-      "caption": "",
+      "caption": "Relapse",
       "missing": false,
-      "sectorId": "biskopsnasblocket"
+      "sectorId": "biskopsnasblocket",
+      "routeIds": [
+        "biskopsnaset-problem-1",
+        "biskopsnaset-problem-2",
+        "biskopsnaset-problem-3",
+        "biskopsnaset-problem-4"
+      ]
     },
     {
       "filename": "Hemmaf.jpg",
-      "caption": "",
+      "caption": "Hemma",
       "missing": false,
-      "sectorId": "biskopsnasblocket"
+      "sectorId": "biskopsnasblocket",
+      "routeIds": [
+        "biskopsnaset-problem-5",
+        "biskopsnaset-problem-6",
+        "biskopsnaset-problem-7",
+        "biskopsnaset-problem-8",
+        "biskopsnaset-problem-9",
+        "biskopsnaset-problem-10"
+      ]
     },
     {
       "filename": "Lugnasiglitef.jpg",
-      "caption": "",
+      "caption": "Lugna sig lite",
       "missing": false,
-      "sectorId": "biskopsnasblocket"
+      "sectorId": "biskopsnasblocket",
+      "routeIds": [
+        "biskopsnaset-problem-11",
+        "biskopsnaset-problem-12",
+        "biskopsnaset-problem-13",
+        "biskopsnaset-problem-14"
+      ]
     },
     {
       "filename": "Petanasanf.jpg",
-      "caption": "",
+      "caption": "Peta näsan",
       "missing": false,
-      "sectorId": "biskopsnasblocket"
+      "sectorId": "biskopsnasblocket",
+      "routeIds": [
+        "biskopsnaset-problem-15",
+        "biskopsnaset-problem-16",
+        "biskopsnaset-problem-17",
+        "biskopsnaset-problem-18"
+      ]
     }
   ],
+  "externalLinks": [],
   "access": {
     "legacyText": null,
     "federationSlug": null

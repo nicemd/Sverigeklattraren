@@ -26,7 +26,7 @@
     {
       "id": "vagbeskrivning",
       "title": "Vägbeskrivning",
-      "body": "Vid Hemmesta vägskäl, vik av v mot Vaxholm. Efter ca 4 km ta av mot Sandö. Efter ytterligare ca 4 km kan man skymta svaplattor vid vattnet på v sida, Sandövägen 77. Position: 10 J NV"
+      "body": "Vid Hemmesta vägskäl, vik av v mot Vaxholm. Efter ca 4 km ta av mot Sandö. Efter ytterligare ca 4 km kan man\nskymta svaplattor vid vattnet på v sida, Sandövägen 77.\n\nPosition: 10 J NV"
     },
     {
       "id": "access",
@@ -36,7 +36,7 @@
     {
       "id": "leder",
       "title": "Leder",
-      "body": "Kategori:Nacka-Värmdö Kategori:Stockholm Kategori:Trad Kategori:Mix Kategori:Saknar karta"
+      "body": ""
     }
   ],
   "routes": [
@@ -204,11 +204,24 @@
   "images": [
     {
       "filename": "Sandöberget.png",
-      "caption": "",
+      "caption": "Leder · foto",
       "missing": false,
-      "sectorId": "leder"
+      "sectorId": "leder",
+      "routeIds": [
+        "sandoberget-led-1",
+        "sandoberget-led-2",
+        "sandoberget-led-3",
+        "sandoberget-led-4",
+        "sandoberget-led-5",
+        "sandoberget-led-6",
+        "sandoberget-led-7",
+        "sandoberget-led-8",
+        "sandoberget-led-9",
+        "sandoberget-led-10"
+      ]
     }
   ],
+  "externalLinks": [],
   "access": {
     "legacyText": "Berget ligger på privat mark, varför största hänsyn måste tas. Klättra ej under häckningstid.",
     "federationSlug": null

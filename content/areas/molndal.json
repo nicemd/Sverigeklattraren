@@ -25,12 +25,12 @@
     {
       "id": "molndalsparaden",
       "title": "Mölndalsparaden",
-      "body": "Denna outvecklade klippa ligger på södra kanten av Safjället, vid Bifrostgatan. Trots att den är ganska hög är det svårt att se den från vägen på grund av träd. 246px 400px Vägbeskrivning: Klippan ligger vid Bifrostgatan, mellan Toltorpsgatan och Lackarebäcksmotet. Klippan syns nästan inte från vägen, men när du är vid en gräsplätt som ser ut som en igenvuxen trädgård är du framme. Här kan du parkera cykeln och gå in bakom buskarna så ser du strax klippan. Med bil: E6 från Göteborg, ta av vid Lackarebäcksmotet. Parkera vid någon av korsningarna eller vid en annan gata då man inte kan stå längs Bifrostgatan. Kollektivtrafik: Flera spårvagnar och bussar går till hållplatsen Lackarebäck som är närmast. Busshållplatsen Bifrost är också nära."
+      "body": "Denna outvecklade klippa ligger på södra kanten av Safjället, vid Bifrostgatan. Trots att den är ganska hög är det svårt att se den från vägen på grund av träd.\n\nVägbeskrivning: Klippan ligger vid Bifrostgatan, mellan Toltorpsgatan och Lackarebäcksmotet. Klippan syns nästan inte från vägen, men när du är vid en gräsplätt som ser ut som en igenvuxen trädgård är du framme. Här kan du parkera cykeln och gå in bakom buskarna så ser du strax klippan.\n\nMed bil: E6 från Göteborg, ta av vid Lackarebäcksmotet. Parkera vid någon av korsningarna eller vid en annan gata då man inte kan stå längs Bifrostgatan.\n\nKollektivtrafik: Flera spårvagnar och bussar går till hållplatsen Lackarebäck som är närmast. Busshållplatsen Bifrost är också nära."
     },
     {
       "id": "lilla-toltorpsdalen",
       "title": "Lilla Toltorpsdalen",
-      "body": "Vägbeskrivning: Parkera på Axgatan, följ stig mot Västerberget, om du möter ett nätstaket med en stängd grind har du kommit rätt, ta dig runt staketet från höger (högt upp åt höger slutar staketet), gå på stigen och gå upp höger när du börjar se granit, promenera längs med tills du hittar lederna, ca 300-400 meter. karta Kategori:trad Kategori:sva kategori:Saknar skiss kategori:Saknar vägbeskrivning kategori:Saknar koordinater kategori:Saknar skrivarformatering Category:Göteborg"
+      "body": "Vägbeskrivning: Parkera på Axgatan, följ stig mot Västerberget, om du möter ett nätstaket med en stängd grind har du kommit rätt, ta dig runt staketet från höger (högt upp åt höger slutar staketet), gå på stigen och gå upp höger när du börjar se granit, promenera längs med tills du hittar lederna, ca 300-400 meter. karta (http://www.hitta.se/karta?ref=start#var=bifrost%20m%C3%B6lndal&from=1&pageCount=20&level=1&sm=6&center=6399312:1276156&type=map&zl=8&bounds=6398506:1270190,6400288:1273420&rlm=1&mp=%5B%7B%20%22x%22%3A%221271896%22%2C%20%22y%22%3A%226399312%22%2C%20%22i%22%3A%22%2Fpublic%2Fimages%2Fweb%2Fmap%2Fmap-pin%2Fpoint.png%3F120614-134402%22%2C%20%22t%22%3A%22Typ%20h%C3%A4r...%20%0A%22%7D%5D)"
     }
   ],
   "routes": [
@@ -133,10 +133,40 @@
   ],
   "images": [
     {
-      "filename": "Oversikt_lilla_toltorpsdalen.jpg",
-      "caption": "",
+      "filename": "Mölndalsklippan.jpg",
+      "caption": "sklippan",
       "missing": false,
-      "sectorId": "lilla-toltorpsdalen"
+      "sectorId": "molndalsparaden",
+      "routeIds": []
+    },
+    {
+      "filename": "Mölndalsklippan_vy.jpg",
+      "caption": "sklippan vy",
+      "missing": false,
+      "sectorId": "molndalsparaden",
+      "routeIds": [
+        "molndal-led-1",
+        "molndal-led-2"
+      ]
+    },
+    {
+      "filename": "Oversikt_lilla_toltorpsdalen.jpg",
+      "caption": "Oversikt lilla toltorpsdalen",
+      "missing": false,
+      "sectorId": "lilla-toltorpsdalen",
+      "routeIds": [
+        "molndal-led-3",
+        "molndal-led-4",
+        "molndal-led-5",
+        "molndal-led-6"
+      ]
+    }
+  ],
+  "externalLinks": [
+    {
+      "url": "http://www.hitta.se/karta?ref=start#var=bifrost%20m%C3%B6lndal&from=1&pageCount=20&level=1&sm=6&center=6399312:1276156&type=map&zl=8&bounds=6398506:1270190,6400288:1273420&rlm=1&mp=%5B%7B%20%22x%22%3A%221271896%22%2C%20%22y%22%3A%226399312%22%2C%20%22i%22%3A%22%2Fpublic%2Fimages%2Fweb%2Fmap%2Fmap-pin%2Fpoint.png%3F120614-134402%22%2C%20%22t%22%3A%22Typ%20h%C3%A4r...%20%0A%22%7D%5D",
+      "label": "karta",
+      "sectionId": "lilla-toltorpsdalen"
     }
   ],
   "access": {

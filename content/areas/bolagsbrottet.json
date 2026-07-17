@@ -32,7 +32,7 @@
     {
       "id": "originalvaggen",
       "title": "Originalväggen",
-      "body": "Kategori:Halland"
+      "body": ""
     }
   ],
   "routes": [
@@ -74,15 +74,23 @@
       "filename": "Solsting.jpg",
       "caption": "Solsting, 6a+",
       "missing": false,
-      "sectorId": "originalvaggen"
+      "sectorId": "originalvaggen",
+      "routeIds": [
+        "bolagsbrottet-led-1"
+      ]
     },
     {
       "filename": "Bitter_End.jpg",
       "caption": "Bitter End, 7a+",
       "missing": false,
-      "sectorId": "originalvaggen"
+      "sectorId": "originalvaggen",
+      "routeIds": [
+        "bolagsbrottet-led-1",
+        "bolagsbrottet-led-2"
+      ]
     }
   ],
+  "externalLinks": [],
   "access": {
     "legacyText": "Inga problem",
     "federationSlug": null

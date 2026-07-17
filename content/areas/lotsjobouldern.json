@@ -3,7 +3,7 @@
   "id": "lotsjobouldern",
   "slug": "lotsjobouldern",
   "name": "Lötsjöbouldern",
-  "description": "Lättillgängligt boulderområde en knapp kilometer från Sundbybergs centrum. Delar av en höjd har sprängts bort för att ge plats åt två tennisplaner. Resterna av höjden har skapat ett utmärkt boulderområde. Endast några få leder har hittills etablerats och det finns utmärkta möjligheter för att skapa fler leder. Bättre på eftermiddagen då solen kommer åt. Del C blöt på våren.",
+  "description": "Lättillgängligt boulderområde en knapp kilometer från Sundbybergs centrum. Delar av en höjd har sprängts bort för att ge plats åt två tennisplaner. Resterna av höjden har skapat ett utmärkt boulderområde. Endast några få leder har hittills etablerats och det finns utmärkta möjligheter för att skapa fler leder.\nBättre på eftermiddagen då solen kommer åt. Del C blöt på våren.",
   "coordinates": {
     "latitude": 59.36792,
     "longitude": 17.96946
@@ -17,12 +17,12 @@
     {
       "id": "allmant",
       "title": "Allmänt",
-      "body": "Lättillgängligt boulderområde en knapp kilometer från Sundbybergs centrum. Delar av en höjd har sprängts bort för att ge plats åt två tennisplaner. Resterna av höjden har skapat ett utmärkt boulderområde. Endast några få leder har hittills etablerats och det finns utmärkta möjligheter för att skapa fler leder. Bättre på eftermiddagen då solen kommer åt. Del C blöt på våren."
+      "body": "Lättillgängligt boulderområde en knapp kilometer från Sundbybergs centrum. Delar av en höjd har sprängts bort för att ge plats åt två tennisplaner. Resterna av höjden har skapat ett utmärkt boulderområde. Endast några få leder har hittills etablerats och det finns utmärkta möjligheter för att skapa fler leder.\nBättre på eftermiddagen då solen kommer åt. Del C blöt på våren."
     },
     {
       "id": "vagbeskrivning",
       "title": "Vägbeskrivning",
-      "body": "Lättillgängligt med tunnelbana. Kliv av vid Duvbo. Följ Tulegatan österut. Sväng upp på Rensgatan. Du kommer direkt till en parkeringsplats. Gå över parkeringsplatsen upp mot tennisplanerna. Klippan ligger till höger om tennisplanerna. Med buss 515 stiger du av vid Sundbybergs Idrottsplats. Klippan ligger ca 50 meter bort. Kommer du med bil finns det gott om parkeringsplatser längs Tulegatan. =Skiss= OBS - föreslår sänkning av graderna på vissa problem som känns lättare än dess grad, se diskussions-sidan // Sasq"
+      "body": "Lättillgängligt med tunnelbana. Kliv av vid Duvbo. Följ Tulegatan österut. Sväng upp på Rensgatan. Du kommer direkt till en parkeringsplats. Gå över parkeringsplatsen upp mot tennisplanerna. Klippan ligger till höger om tennisplanerna.\n\nMed buss 515 stiger du av vid Sundbybergs Idrottsplats. Klippan ligger ca 50 meter bort.\n\nKommer du med bil finns det gott om parkeringsplatser längs Tulegatan.\n\n=Skiss=\n\nOBS - föreslår sänkning av graderna på vissa problem som känns lättare än dess grad, se diskussions-sidan // Sasq"
     },
     {
       "id": "del-a",
@@ -32,7 +32,7 @@
     {
       "id": "del-c",
       "title": "Del C",
-      "body": "Fil:partC.jpg"
+      "body": ""
     },
     {
       "id": "del-e",
@@ -215,35 +215,63 @@
   "images": [
     {
       "filename": "Lötsjöbouldern.png",
-      "caption": "",
+      "caption": "Vägbeskrivning · foto",
       "missing": false,
-      "sectorId": "vagbeskrivning"
+      "sectorId": "vagbeskrivning",
+      "routeIds": []
     },
     {
       "filename": "OneHandedSmash.jpg",
-      "caption": "",
+      "caption": "One-handed Smash",
       "missing": false,
-      "sectorId": "del-a"
+      "sectorId": "del-a",
+      "routeIds": [
+        "lotsjobouldern-problem-1"
+      ]
+    },
+    {
+      "filename": "PartC.jpg",
+      "caption": "PartC",
+      "missing": false,
+      "sectorId": "del-c",
+      "routeIds": [
+        "lotsjobouldern-problem-2",
+        "lotsjobouldern-problem-3"
+      ]
     },
     {
       "filename": "PartD.jpg",
-      "caption": "",
+      "caption": "PartD",
       "missing": false,
-      "sectorId": "del-e"
+      "sectorId": "del-e",
+      "routeIds": [
+        "lotsjobouldern-problem-4",
+        "lotsjobouldern-problem-5",
+        "lotsjobouldern-problem-6"
+      ]
     },
     {
       "filename": "PartG.jpg",
-      "caption": "",
+      "caption": "PartG",
       "missing": false,
-      "sectorId": "del-g"
+      "sectorId": "del-g",
+      "routeIds": [
+        "lotsjobouldern-problem-7",
+        "lotsjobouldern-problem-8"
+      ]
     },
     {
       "filename": "PartH.jpg",
-      "caption": "",
+      "caption": "PartH",
       "missing": false,
-      "sectorId": "del-h"
+      "sectorId": "del-h",
+      "routeIds": [
+        "lotsjobouldern-problem-9",
+        "lotsjobouldern-problem-10"
+      ]
     }
   ],
+  "externalLinks": [],
   "access": {
     "legacyText": null,
     "federationSlug": null

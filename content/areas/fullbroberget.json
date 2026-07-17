@@ -25,12 +25,12 @@
     {
       "id": "miljo",
       "title": "Miljö",
-      "body": "Fil:Fullbroberget.jpg Sydost, öppet för solen. Ett par vattenstråk påverkar några av lederna. En röjning 2012 av träd och buskar närmast klippan har gett den ett mera öppet läge och den är numera inte så svår att upptäcka. Klippan är ganska mossig på de nedre delarna tyvärr. Parkering omedelbart i anslutning till klippan, trevlig fikaäng mellan klippan och stranden. Goda möjligheter till bad i Himmerfjärden."
+      "body": "Sydost, öppet för solen. Ett par vattenstråk påverkar några av lederna. En röjning 2012 av träd och buskar närmast klippan har gett den ett mera öppet läge och den är numera inte så svår att upptäcka.\n\nKlippan är ganska mossig på de nedre delarna tyvärr.\n\nParkering omedelbart i anslutning till klippan, trevlig fikaäng mellan klippan och stranden. Goda möjligheter till bad i Himmerfjärden."
     },
     {
       "id": "vagbeskrivning",
       "title": "Vägbeskrivning",
-      "body": "titel=Fullbroberget lat=17756030 long=59081560 Ta av Nynäshamnsvägen åt h in på en skogsväg, skyltad med en badplatsvägvisningsskylt, och följ sedan diverse skogsvägar i ca 2,5 km ned till ett friluftsbad. Berget ligger alldeles th om vägen, precis innan badet."
+      "body": "Ta av Nynäshamnsvägen åt h in på en skogsväg, skyltad med en badplatsvägvisningsskylt, och följ sedan diverse skogsvägar i ca 2,5 km ned till ett friluftsbad. Berget ligger alldeles th om vägen, precis innan badet."
     },
     {
       "id": "kommunikationer",
@@ -40,7 +40,7 @@
     {
       "id": "leder",
       "title": "Leder",
-      "body": "Kategori:Sva Kategori:Trad Kategori:Mix Kategori:Stockholm Kategori:Fituna Kategori:Saknar kolumner"
+      "body": ""
     }
   ],
   "routes": [
@@ -239,12 +239,34 @@
   ],
   "images": [
     {
-      "filename": "Fullbro.ill.png",
-      "caption": "",
+      "filename": "Fullbroberget.jpg",
+      "caption": "Miljö · foto",
       "missing": false,
-      "sectorId": "leder"
+      "sectorId": "miljo",
+      "routeIds": []
+    },
+    {
+      "filename": "Fullbro.ill.png",
+      "caption": "Fullbro.ill",
+      "missing": false,
+      "sectorId": "leder",
+      "routeIds": [
+        "fullbroberget-led-1",
+        "fullbroberget-led-2",
+        "fullbroberget-led-3",
+        "fullbroberget-led-4",
+        "fullbroberget-led-5",
+        "fullbroberget-led-6",
+        "fullbroberget-led-7",
+        "fullbroberget-led-8",
+        "fullbroberget-led-9",
+        "fullbroberget-led-10",
+        "fullbroberget-led-11",
+        "fullbroberget-led-12"
+      ]
     }
   ],
+  "externalLinks": [],
   "access": {
     "legacyText": null,
     "federationSlug": null

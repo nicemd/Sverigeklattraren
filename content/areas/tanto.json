@@ -22,12 +22,12 @@
     {
       "id": "vagbeskrivning",
       "title": "Vägbeskrivning",
-      "body": "KML titel=Tantoklippan lat=18042340 long=59314075 Det ska sägas på en gång: Det här är inte direkt stockholms bästa klättring. Å andra sidan finns det knappast någon mer lättillgänglig klippa och klättring är ju alltid klättring. Ta tunnelbanan till hornstull och kryssa genom parken mellan solbadare, glassätande barn och a-lagare. Klippan ligger längs cykelbanan mot zinken."
+      "body": "KML\n\nDet ska sägas på en gång: Det här är inte direkt stockholms bästa klättring.\nÅ andra sidan finns det knappast någon mer lättillgänglig klippa och klättring är ju alltid klättring. Ta tunnelbanan till hornstull och kryssa genom parken mellan solbadare, glassätande barn och a-lagare. Klippan ligger längs cykelbanan mot zinken."
     },
     {
       "id": "leder",
       "title": "Leder",
-      "body": "Oklart vilka av dessa som finns kvar. Beskrivningen kommer från bloxc"
+      "body": "Oklart vilka av dessa som finns kvar.\nBeskrivningen kommer från bloxc (http://www.bloxc.com/forum/viewtopic.php?t=996)"
     }
   ],
   "routes": [
@@ -163,9 +163,26 @@
   "images": [
     {
       "filename": "Tanto.jpeg",
-      "caption": "",
+      "caption": "Leder · foto",
       "missing": false,
-      "sectorId": "leder"
+      "sectorId": "leder",
+      "routeIds": [
+        "tanto-led-1",
+        "tanto-led-2",
+        "tanto-led-3",
+        "tanto-led-4",
+        "tanto-led-5",
+        "tanto-led-6",
+        "tanto-led-7",
+        "tanto-led-8"
+      ]
+    }
+  ],
+  "externalLinks": [
+    {
+      "url": "http://www.bloxc.com/forum/viewtopic.php?t=996",
+      "label": "bloxc",
+      "sectionId": "leder"
     }
   ],
   "access": {

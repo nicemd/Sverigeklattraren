@@ -3,7 +3,7 @@
   "id": "kyrkviksklippan",
   "slug": "kyrkviksklippan",
   "name": "Kyrkviksklippan",
-  "description": "Vägbeskrivning finns på Stockholms Nätförare titel=Kyrkviksklippan lat=18180600 long=59204810",
+  "description": "Vägbeskrivning finns på Stockholms Nätförare (http://www.plonk.se/snf/kyrkviksklippan.html)",
   "coordinates": {
     "latitude": 59.20481,
     "longitude": 18.1806
@@ -18,12 +18,12 @@
     {
       "id": "vagbeskrivning",
       "title": "Vägbeskrivning",
-      "body": "Vägbeskrivning finns på Stockholms Nätförare titel=Kyrkviksklippan lat=18180600 long=59204810"
+      "body": "Vägbeskrivning finns på Stockholms Nätförare (http://www.plonk.se/snf/kyrkviksklippan.html)"
     },
     {
       "id": "leder",
       "title": "Leder",
-      "body": "15m till höger: Kategori:Sport Kategori:Överhäng Kategori:Stockholm Kategori:Södra Södertörn"
+      "body": "15m till höger:"
     }
   ],
   "routes": [
@@ -271,9 +271,17 @@
   "images": [
     {
       "filename": "Kyrkviksklippan.gif",
-      "caption": "",
+      "caption": "Vägbeskrivning · foto",
       "missing": false,
-      "sectorId": "vagbeskrivning"
+      "sectorId": "vagbeskrivning",
+      "routeIds": []
+    }
+  ],
+  "externalLinks": [
+    {
+      "url": "http://www.plonk.se/snf/kyrkviksklippan.html",
+      "label": "Stockholms Nätförare",
+      "sectionId": "vagbeskrivning"
     }
   ],
   "access": {

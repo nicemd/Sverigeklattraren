@@ -35,7 +35,7 @@
     {
       "id": "vagbeskrivning",
       "title": "Vägbeskrivning",
-      "body": "Åk som för Klövberget men kör förbi parkeringen och ta th på Svartbäcksvägen och följ den tills en brant backe leder ner till vattnet. Sväng här brant åt h på Noretvägen och fortsätt tills en liten väg/stig försvinner in åt h. Parkera här! Stigen leder ner till båthamnen. titel=Noret lat=18354710 long=59209420"
+      "body": "Åk som för Klövberget men kör förbi parkeringen och ta th på Svartbäcksvägen och följ den tills en brant backe leder ner till vattnet. Sväng här brant åt h på Noretvägen och fortsätt tills en liten väg/stig försvinner in åt h. Parkera här! Stigen leder ner till båthamnen."
     },
     {
       "id": "leder",
@@ -45,12 +45,12 @@
     {
       "id": "terriervaggen",
       "title": "Terrierväggen",
-      "body": "Överhängande vägg med ett block framför. Skiss saknas av vänstra delen. Tre leder går på blocket: Dessa leder är till höger"
+      "body": "Överhängande vägg med ett block framför. Skiss saknas av vänstra delen.\n\nTre leder går på blocket:\n\nDessa leder är till höger"
     },
     {
       "id": "roda-lacket-klippan",
       "title": "Röda Lacket klippan",
-      "body": "50m norr om båthamnen finns en låg men brant, lite rödaktig klippa. Den Enklaste sättet att komma upp till klippan är att gå tv om blocken men det går också att klättra upp på högra sidan. I \"smutshålet\" går två leder:"
+      "body": "50m norr om båthamnen finns en låg men brant, lite rödaktig klippa. Den Enklaste sättet att komma upp till klippan är att gå tv om blocken men det går också att klättra upp på högra sidan.\n\nI \"smutshålet\" går två leder:"
     },
     {
       "id": "bathamnen",
@@ -60,12 +60,12 @@
     {
       "id": "sprackliga-bandet",
       "title": "Spräckliga bandet",
-      "body": "Nästa svaplatta som leder upp till en hylla med en logisk men till synes ganska tunn avslutning ovanför är antagligen inte klättrad. Nere vid båthamnen finns en trappa upp på berget. Th om denna finns en led uppför den mycket originellt tecknade svaplattan. Från bryggorna går en vägg upp till parkeringen."
+      "body": "Nästa svaplatta som leder upp till en hylla med en logisk men till synes ganska tunn avslutning ovanför är antagligen inte klättrad. Nere vid båthamnen finns en trappa upp på berget. Th om denna finns en led uppför den mycket originellt tecknade svaplattan.\n\nFrån bryggorna går en vägg upp till parkeringen."
     },
     {
       "id": "ormplattan",
       "title": "Ormplattan",
-      "body": "20m innanför parkeringen finns ett högt klipparti med några branta svaplattor. Nästa parti ligger ovanför en gul sommarstuga. Försök att undvika att störa dem som bor där i onödan."
+      "body": "20m innanför parkeringen finns ett högt klipparti med några branta svaplattor.\n\nNästa parti ligger ovanför en gul sommarstuga. Försök att undvika att störa dem som bor där i onödan."
     },
     {
       "id": "svartbacksvaggen",
@@ -75,7 +75,7 @@
     {
       "id": "extern-forare",
       "title": "Extern förare",
-      "body": "Några väggar finns på Stockholms Nätförare Kategori:Saknar vägbeskrivning Kategori:Saknar skiss Kategori:Trad Kategori:Sport Kategori:Stockholm Kategori:Tyresö"
+      "body": "Några väggar finns på Stockholms Nätförare (http://www.plonk.se/snf/noret.html)"
     }
   ],
   "routes": [
@@ -1091,45 +1091,126 @@
   "images": [
     {
       "filename": "Noret_oversikt.png",
-      "caption": "",
+      "caption": "oversikt",
       "missing": false,
-      "sectorId": null
+      "sectorId": null,
+      "routeIds": []
     },
     {
       "filename": "Noret_0.png",
-      "caption": "",
+      "caption": "Terrierväggen · foto",
       "missing": false,
-      "sectorId": "terriervaggen"
+      "sectorId": "terriervaggen",
+      "routeIds": [
+        "noret-led-1",
+        "noret-led-2",
+        "noret-led-3",
+        "noret-led-4",
+        "noret-led-5",
+        "noret-led-6",
+        "noret-led-7",
+        "noret-led-8",
+        "noret-led-9",
+        "noret-led-10",
+        "noret-led-11",
+        "noret-led-12",
+        "noret-led-13",
+        "noret-led-14",
+        "noret-led-15",
+        "noret-led-16",
+        "noret-led-17"
+      ]
     },
     {
       "filename": "Noret_1.png",
-      "caption": "",
+      "caption": "Röda Lacket klippan · foto",
       "missing": false,
-      "sectorId": "roda-lacket-klippan"
+      "sectorId": "roda-lacket-klippan",
+      "routeIds": [
+        "noret-led-18",
+        "noret-led-19",
+        "noret-led-20",
+        "noret-led-21",
+        "noret-led-22",
+        "noret-led-23",
+        "noret-led-24",
+        "noret-led-25",
+        "noret-led-26",
+        "noret-led-27",
+        "noret-led-28",
+        "noret-led-29",
+        "noret-led-30",
+        "noret-led-31",
+        "noret-led-32",
+        "noret-led-33",
+        "noret-led-34",
+        "noret-led-35",
+        "noret-led-36",
+        "noret-led-37",
+        "noret-led-38",
+        "noret-led-39",
+        "noret-led-40",
+        "noret-led-41",
+        "noret-led-42"
+      ]
     },
     {
       "filename": "Noret_2.png",
-      "caption": "",
+      "caption": "Båthamnen · foto",
       "missing": false,
-      "sectorId": "bathamnen"
+      "sectorId": "bathamnen",
+      "routeIds": [
+        "noret-led-43",
+        "noret-led-44",
+        "noret-led-45",
+        "noret-led-46",
+        "noret-led-47"
+      ]
     },
     {
       "filename": "Noret_3.png",
-      "caption": "",
+      "caption": "Spräckliga bandet · foto",
       "missing": false,
-      "sectorId": "sprackliga-bandet"
+      "sectorId": "sprackliga-bandet",
+      "routeIds": [
+        "noret-led-48",
+        "noret-led-49"
+      ]
     },
     {
       "filename": "Noret_4.png",
-      "caption": "",
+      "caption": "Spräckliga bandet · foto",
       "missing": false,
-      "sectorId": "sprackliga-bandet"
+      "sectorId": "sprackliga-bandet",
+      "routeIds": [
+        "noret-led-50",
+        "noret-led-51",
+        "noret-led-52",
+        "noret-led-53"
+      ]
     },
     {
       "filename": "Noret_5.png",
-      "caption": "",
+      "caption": "Ormplattan · foto",
       "missing": false,
-      "sectorId": "ormplattan"
+      "sectorId": "ormplattan",
+      "routeIds": [
+        "noret-led-54",
+        "noret-led-55",
+        "noret-led-56",
+        "noret-led-57",
+        "noret-led-58",
+        "noret-led-59",
+        "noret-led-60",
+        "noret-led-61"
+      ]
+    }
+  ],
+  "externalLinks": [
+    {
+      "url": "http://www.plonk.se/snf/noret.html",
+      "label": "Stockholms Nätförare",
+      "sectionId": "extern-forare"
     }
   ],
   "access": {

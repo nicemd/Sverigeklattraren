@@ -3,7 +3,7 @@
   "id": "kebnekaise",
   "slug": "kebnekaise",
   "name": "Kebnekaise",
-  "description": "Kebnekaise är som de flesta vet Sveriges högsta berg. Denna beskrivning ämnar dock omfatta mer än berget kebnekaise, hela det område som normalt sett brukar klättras med Kebnekaise fjällstation och Tarfalastugan som någon sorts bas bör ingå i denna artikel. Det är alltså ett ganska stort område i norra lapplands fjällvärld, bestående av flera av sveriges högsta toppar. Här finns allt från bouldering, långa klippleder till alpinleder och isklättring, dock bör det framhävas att svenska fjällen står ganska bleka i en internationell jämförelse.",
+  "description": "Kebnekaise är som de flesta vet Sveriges högsta berg.\nDenna beskrivning ämnar dock omfatta mer än berget kebnekaise, hela det område som normalt sett brukar klättras med Kebnekaise fjällstation och Tarfalastugan som någon sorts bas bör ingå i denna artikel.\nDet är alltså ett ganska stort område i norra lapplands fjällvärld, bestående av flera av sveriges högsta toppar.\nHär finns allt från bouldering, långa klippleder till alpinleder och isklättring, dock bör det framhävas att svenska fjällen står ganska bleka i en internationell jämförelse.",
   "coordinates": {
     "latitude": 67.86881666553145,
     "longitude": 18.555908203125
@@ -15,7 +15,7 @@
     {
       "id": "allmant",
       "title": "Allmänt",
-      "body": "Kebnekaise är som de flesta vet Sveriges högsta berg. Denna beskrivning ämnar dock omfatta mer än berget kebnekaise, hela det område som normalt sett brukar klättras med Kebnekaise fjällstation och Tarfalastugan som någon sorts bas bör ingå i denna artikel. Det är alltså ett ganska stort område i norra lapplands fjällvärld, bestående av flera av sveriges högsta toppar. Här finns allt från bouldering, långa klippleder till alpinleder och isklättring, dock bör det framhävas att svenska fjällen står ganska bleka i en internationell jämförelse."
+      "body": "Kebnekaise är som de flesta vet Sveriges högsta berg.\nDenna beskrivning ämnar dock omfatta mer än berget kebnekaise, hela det område som normalt sett brukar klättras med Kebnekaise fjällstation och Tarfalastugan som någon sorts bas bör ingå i denna artikel.\nDet är alltså ett ganska stort område i norra lapplands fjällvärld, bestående av flera av sveriges högsta toppar.\nHär finns allt från bouldering, långa klippleder till alpinleder och isklättring, dock bör det framhävas att svenska fjällen står ganska bleka i en internationell jämförelse."
     },
     {
       "id": "historia",
@@ -30,17 +30,17 @@
     {
       "id": "fjallstugor",
       "title": "Fjällstugor",
-      "body": "Kebnekaise Fjällstation drivs av svenska turistföreningen, och ligger strategiskt i mitten av ladtjovagge, på behagligt avstånd från lederna på Toulpagorni, isfallen i ladtjovagge, boulderblocken vid elsas bro samt givetvis många av lederna upp på kebnekaise. Stationen är något av en turistfälla, och under högsäsong kan du inte räkna med att någon av de ordinarie 190 bäddarna ska vara lediga. Kebnekaise Fjällstation är inte det bästa stället att åka till om man vill vara för sig själv. På fjällstationen finns en sportavdelning som ansvarar för guidade turer, kurser samt uthyrning av utrustning. Tarfala fjällstuga är Kebnekaises motsats, en liten gemytlig stuga intryckt i vad som känns som en återvändsgränd mellan stora berg. Tarfala är den naturliga utgångspunkten för dig som vill upp på lederna på Kaskasapaktes sydsida, Kaskasatjåkka, kebnepakte, drakryggen, klippbergen och kebnekaises nordtopp."
+      "body": "Kebnekaise Fjällstation drivs av svenska turistföreningen, och ligger strategiskt i mitten av ladtjovagge, på behagligt avstånd från lederna på Toulpagorni, isfallen i ladtjovagge, boulderblocken vid elsas bro samt givetvis många av lederna upp på kebnekaise.\nStationen är något av en turistfälla, och under högsäsong kan du inte räkna med att någon av de ordinarie 190 bäddarna ska vara lediga. Kebnekaise Fjällstation är inte det bästa stället att åka till om man vill vara för sig själv.\nPå fjällstationen finns en sportavdelning som ansvarar för guidade turer, kurser samt uthyrning av utrustning.\n\nTarfala fjällstuga är Kebnekaises motsats, en liten gemytlig stuga intryckt i vad som känns som en återvändsgränd mellan stora berg.\nTarfala är den naturliga utgångspunkten för dig som vill upp på lederna på Kaskasapaktes sydsida, Kaskasatjåkka, kebnepakte, drakryggen, klippbergen och kebnekaises nordtopp."
     },
     {
       "id": "tuolpagorni",
       "title": "Tuolpagorni",
-      "body": "]] Tuolpagorni är det första berget som fångar ens blick på väg in mot kebnekaise, med sin egendomliga kittel står den ut bland övriga fjäll. Tuolpagorni ger precis som övriga fjäll här ett sargat och uppbrutet intryck, vilket den också lever upp till när man kommer i närmre kontakt, men ändå finns sveriges kanske mest klassiska fjäll-led här."
+      "body": "]]\n\nTuolpagorni är det första berget som fångar ens blick på väg in mot kebnekaise, med sin egendomliga kittel står den ut bland övriga fjäll.\nTuolpagorni ger precis som övriga fjäll här ett sargat och uppbrutet intryck, vilket den också lever upp till när man kommer i närmre kontakt, men ändå finns sveriges kanske mest klassiska fjäll-led här."
     },
     {
       "id": "kebnekaise",
       "title": "Kebnekaise",
-      "body": "Beskrivning onödig? Kategori:Lappland"
+      "body": "Beskrivning onödig?"
     }
   ],
   "routes": [
@@ -98,9 +98,14 @@
       "filename": "Toulpagorni.gif",
       "caption": "Petter Åsander",
       "missing": false,
-      "sectorId": "tuolpagorni"
+      "sectorId": "tuolpagorni",
+      "routeIds": [
+        "kebnekaise-led-1",
+        "kebnekaise-led-2"
+      ]
     }
   ],
+  "externalLinks": [],
   "access": {
     "legacyText": null,
     "federationSlug": null

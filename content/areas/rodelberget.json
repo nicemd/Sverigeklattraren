@@ -3,7 +3,7 @@
   "id": "rodelberget",
   "slug": "rodelberget",
   "name": "Rodelberget",
-  "description": "Klippa i alldeles intill rodelbanan i Saltsjöbaden. Liten men brant. Övervägande sportklättring. Nya solo/toprepsturer på övre väggen.",
+  "description": "Klippa i alldeles intill rodelbanan i Saltsjöbaden. Liten men brant. Övervägande sportklättring.\nNya solo/toprepsturer på övre väggen.",
   "coordinates": null,
   "categories": [
     "Nacka-Värmdö",
@@ -17,7 +17,7 @@
     {
       "id": "allmant",
       "title": "Allmänt",
-      "body": "Klippa i alldeles intill rodelbanan i Saltsjöbaden. Liten men brant. Övervägande sportklättring. Nya solo/toprepsturer på övre väggen."
+      "body": "Klippa i alldeles intill rodelbanan i Saltsjöbaden. Liten men brant. Övervägande sportklättring.\nNya solo/toprepsturer på övre väggen."
     },
     {
       "id": "miljo",
@@ -37,7 +37,7 @@
     {
       "id": "ovre-vaggen",
       "title": "Övre väggen",
-      "body": "Fil:Rodelberget.JPG Fil:Rodelberget2.jpg Kategori:Nacka-Värmdö Kategori:Stockholm Kategori:Sport Kategori:Saknar karta Kategori:Saknar kolumner kategori:Saknar skiss"
+      "body": ""
     }
   ],
   "routes": [
@@ -330,7 +330,31 @@
       }
     }
   ],
-  "images": [],
+  "images": [
+    {
+      "filename": "Rodelberget.JPG",
+      "caption": "Övre väggen · foto",
+      "missing": false,
+      "sectorId": "ovre-vaggen",
+      "routeIds": [
+        "rodelberget-led-13",
+        "rodelberget-led-14",
+        "rodelberget-led-15"
+      ]
+    },
+    {
+      "filename": "Rodelberget2.jpg",
+      "caption": "Övre väggen · foto",
+      "missing": false,
+      "sectorId": "ovre-vaggen",
+      "routeIds": [
+        "rodelberget-led-16",
+        "rodelberget-led-17",
+        "rodelberget-led-18"
+      ]
+    }
+  ],
+  "externalLinks": [],
   "access": {
     "legacyText": null,
     "federationSlug": null

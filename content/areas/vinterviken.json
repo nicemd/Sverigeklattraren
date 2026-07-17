@@ -20,7 +20,7 @@
     {
       "id": "leder",
       "title": "Leder",
-      "body": "Ett kvarvarande projekt från tidigare besök är traversen längs hela väggen. Från vänster till höger har testats, men ej länkats. Det finns också några problem på två låga, svagt överhängande väggar längre bort åt höger."
+      "body": "Ett kvarvarande projekt från tidigare besök är traversen längs hela väggen. Från vänster till höger har testats, men ej länkats.\n\nDet finns också några problem på två låga, svagt överhängande väggar längre bort åt höger."
     },
     {
       "id": "repturer",
@@ -81,17 +81,25 @@
   "images": [
     {
       "filename": "Vinterviken_vänster.jpg",
-      "caption": "",
+      "caption": "vänster",
       "missing": false,
-      "sectorId": "leder"
+      "sectorId": "leder",
+      "routeIds": [
+        "vinterviken-problem-1",
+        "vinterviken-problem-2"
+      ]
     },
     {
       "filename": "Vinterviken_höger.jpg",
-      "caption": "",
+      "caption": "höger",
       "missing": false,
-      "sectorId": "leder"
+      "sectorId": "leder",
+      "routeIds": [
+        "vinterviken-problem-3"
+      ]
     }
   ],
+  "externalLinks": [],
   "access": {
     "legacyText": null,
     "federationSlug": null

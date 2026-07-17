@@ -3,7 +3,7 @@
   "id": "smorkullen",
   "slug": "smorkullen",
   "name": "Smörkullen",
-  "description": "Parkera vid ladan på Röe gård och följ vandringstigen norrut ca:200m efter åkern. Klippan syns från parkeringen.",
+  "description": "Parkera vid ladan på Röe gård och följ vandringstigen norrut ca:200m efter åkern.\nKlippan syns från parkeringen.",
   "coordinates": {
     "latitude": 58.4189,
     "longitude": 11.43736
@@ -25,7 +25,7 @@
     {
       "id": "vagbeskrivning",
       "title": "Vägbeskrivning",
-      "body": "Parkera vid ladan på Röe gård och följ vandringstigen norrut ca:200m efter åkern. Klippan syns från parkeringen."
+      "body": "Parkera vid ladan på Röe gård och följ vandringstigen norrut ca:200m efter åkern.\nKlippan syns från parkeringen."
     },
     {
       "id": "access",
@@ -35,7 +35,7 @@
     {
       "id": "rekommenderade-leder",
       "title": "Rekommenderade leder",
-      "body": "Lederna och namn från vänster till höger på skissen Stefan Weddmark / Stefan Bäckström Stefan Bäckström / Stefan Weddmark Stefan Bäckström / Stefan Weddmark Stefan Weddmark / Stefan Bäckström category:trad category:saknar_skiss Kategori:Bohuslän --Bultfeber 21 maj 2012 kl. 09.14 (CEST)"
+      "body": "Lederna och namn från vänster till höger på skissen\n\nStefan Weddmark / Stefan Bäckström\n\nStefan Bäckström / Stefan Weddmark\n\nStefan Bäckström / Stefan Weddmark\n\nStefan Weddmark / Stefan Bäckström\n\n--Bultfeber 21 maj 2012 kl. 09.14 (CEST)"
     }
   ],
   "routes": [
@@ -107,17 +107,25 @@
   "images": [
     {
       "filename": "Smör.jpg",
-      "caption": "",
+      "caption": "Smör",
       "missing": false,
-      "sectorId": "access"
+      "sectorId": "access",
+      "routeIds": []
     },
     {
       "filename": "Smörkullen_översikt2.jpg",
-      "caption": "",
+      "caption": "översikt2",
       "missing": false,
-      "sectorId": "rekommenderade-leder"
+      "sectorId": "rekommenderade-leder",
+      "routeIds": [
+        "smorkullen-led-1",
+        "smorkullen-led-2",
+        "smorkullen-led-3",
+        "smorkullen-led-4"
+      ]
     }
   ],
+  "externalLinks": [],
   "access": {
     "legacyText": "Foto visar Smörkullen sed från parkeringen vid Röe gård.",
     "federationSlug": null

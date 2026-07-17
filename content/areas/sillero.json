@@ -3,14 +3,14 @@
   "id": "sillero",
   "slug": "sillero",
   "name": "Sillerö",
-  "description": "Ett block med överhängande, travers och svaproblem. Blocket har potential till fler problem och det finns några mindre block i närheten som också kan hysa några projekt. Projektera gärna.",
+  "description": "Ett block med överhängande, travers och svaproblem. Blocket har potential till fler problem och det finns några mindre block i närheten som också kan hysa några projekt.\nProjektera gärna.",
   "coordinates": null,
   "categories": [],
   "sections": [
     {
       "id": "beskrivning",
       "title": "Beskrivning",
-      "body": "Ett block med överhängande, travers och svaproblem. Blocket har potential till fler problem och det finns några mindre block i närheten som också kan hysa några projekt. Projektera gärna."
+      "body": "Ett block med överhängande, travers och svaproblem. Blocket har potential till fler problem och det finns några mindre block i närheten som också kan hysa några projekt.\nProjektera gärna."
     },
     {
       "id": "vagbeskrivning",
@@ -140,17 +140,29 @@
   "images": [
     {
       "filename": "IMG_0005_problem_extra_liten.JPG",
-      "caption": "",
+      "caption": "IMG 0005 problem extra liten",
       "missing": false,
-      "sectorId": "problem"
+      "sectorId": "problem",
+      "routeIds": [
+        "sillero-problem-1",
+        "sillero-problem-2",
+        "sillero-problem-3",
+        "sillero-problem-4",
+        "sillero-problem-5"
+      ]
     },
     {
       "filename": "IMG_0006_prob_liten.JPG",
-      "caption": "",
+      "caption": "IMG 0006 prob liten",
       "missing": false,
-      "sectorId": "problem"
+      "sectorId": "problem",
+      "routeIds": [
+        "sillero-problem-6",
+        "sillero-problem-7"
+      ]
     }
   ],
+  "externalLinks": [],
   "access": {
     "legacyText": null,
     "federationSlug": null

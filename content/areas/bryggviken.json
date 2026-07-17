@@ -26,17 +26,17 @@
     {
       "id": "access",
       "title": "Access",
-      "body": "OBS!!! Det råder begränsad acess på klippan. Det är förbjudet att beträda bergsbranter och stup under perioden 1 jan - 31 juli. Förare med skiss finns på Stockholms Nätförare,Bryggviken"
+      "body": "OBS!!! Det råder begränsad acess på klippan. Det är förbjudet att beträda bergsbranter och stup under perioden 1 jan - 31 juli.\n\nFörare med skiss finns på Stockholms Nätförare (http://www.plonk.se/snf/bryggviken.html),Bryggviken (http://www.plonk.se/oldsite/bryggviken.html)"
     },
     {
       "id": "vagbeskrivning",
       "title": "Vägbeskrivning",
-      "body": "Position: 11 H SO kartlänk"
+      "body": "Position: 11 H SO kartlänk (http://www.openstreetmap.org/?lat=59.54982&lon=17.44811&zoom=16)"
     },
     {
       "id": "leder",
       "title": "Leder",
-      "body": "Kategori:Trad Kategori:Sport Kategori:Mix Kategori:Saknar skiss Kategori:Saknar karta Kategori:Saknar lednummer Kategori:Saknar kolumner Kategori:Saknar vägbeskrivning Kategori:Stockholm Kategori:Norra Stockholm"
+      "body": ""
     }
   ],
   "routes": [
@@ -298,8 +298,25 @@
     }
   ],
   "images": [],
+  "externalLinks": [
+    {
+      "url": "http://www.plonk.se/snf/bryggviken.html",
+      "label": "Stockholms Nätförare",
+      "sectionId": "access"
+    },
+    {
+      "url": "http://www.plonk.se/oldsite/bryggviken.html",
+      "label": "Bryggviken",
+      "sectionId": "access"
+    },
+    {
+      "url": "http://www.openstreetmap.org/?lat=59.54982&lon=17.44811&zoom=16",
+      "label": "kartlänk",
+      "sectionId": "vagbeskrivning"
+    }
+  ],
   "access": {
-    "legacyText": "OBS!!! Det råder begränsad acess på klippan. Det är förbjudet att beträda bergsbranter och stup under perioden 1 jan - 31 juli. Förare med skiss finns på Stockholms Nätförare,Bryggviken",
+    "legacyText": "OBS!!! Det råder begränsad acess på klippan. Det är förbjudet att beträda bergsbranter och stup under perioden 1 jan - 31 juli.\n\nFörare med skiss finns på Stockholms Nätförare (http://www.plonk.se/snf/bryggviken.html),Bryggviken (http://www.plonk.se/oldsite/bryggviken.html)",
     "federationSlug": null
   },
   "qualityIssues": [],

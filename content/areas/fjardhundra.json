@@ -28,12 +28,12 @@
     {
       "id": "historik-m-m",
       "title": "Historik m.m.",
-      "body": "Ungefär 1993 började man klättra på klippan, men det stora genombrottet för klippan blev nog sommaren 1995 då den första guiden till lederna gavs ut. Även under år 96 och 97 gjordes ytterligare ett antal nyturer. Idag finns det totalt 31 turer (då är ett par kombinationer / varianter) uppsatta av ett tiotal olika klättrare. Efter att allt fler började klättra på klippan kom det 1998 och 1999 upp flertalet kompletterande firningsankare som Uppsala klätterklubb satte upp med ett stort stöd från Crux AB. Detta för att inte slita på träden och vegetationen ovanför klippan. Men framför allt för att höja säkerheten och klätterfrekvensen. Obs!! På firningankarna sitter det karbiner (utan låsbar grind) som bör backas upp med en skruvkarbin vid topprepning. Möjligheten finns till att klippa ur dessa när repet tvinnas runt sig själv eller om man går över karbinen / ankaret."
+      "body": "Ungefär 1993 började man klättra på klippan, men det stora genombrottet för klippan blev nog sommaren 1995 då den första guiden till lederna gavs ut. Även under år 96 och 97 gjordes ytterligare ett antal nyturer. Idag finns det totalt 31 turer (då är ett par kombinationer / varianter) uppsatta av ett tiotal olika klättrare.\n\nEfter att allt fler började klättra på klippan kom det 1998 och 1999 upp flertalet kompletterande firningsankare som Uppsala klätterklubb satte upp med ett stort stöd från Crux AB. Detta för att inte slita på träden och vegetationen ovanför klippan. Men framför allt för att höja säkerheten och klätterfrekvensen.\n\nObs!! På firningankarna sitter det karbiner (utan låsbar grind) som bör backas upp med en skruvkarbin vid topprepning. Möjligheten finns till att klippa ur dessa när repet tvinnas runt sig själv eller om man går över karbinen / ankaret."
     },
     {
       "id": "vagbeskrivning",
       "title": "Vägbeskrivning",
-      "body": "Åk till Fjärdhundra. Åk genom samhället, efter någon km åker du över en bro och tar direkt vänster mot Altuna, in på en grusväg. Åk denna en kort stund och ta sen höger mot Nygård. Klippan ses efter en stund. Passera klippan, åk förbi en handfull hus och parkera sedan på \"Klätterparkering\" (skyltad, men skylten kan ha rasat) till vänster. Se till att ni inte står i vägen för annan trafik. Diskussion om vägbeskrivningen kan läsas på Bloxc. Kolla här också. Det verkar vara ett känsligt kapitel."
+      "body": "Åk till Fjärdhundra. Åk genom samhället, efter någon km åker du över en bro och tar direkt vänster mot Altuna, in på en grusväg. Åk denna en kort stund och ta sen höger mot Nygård. Klippan ses efter en stund.\n\nPassera klippan, åk förbi en handfull hus och parkera sedan på \"Klätterparkering\" (skyltad, men skylten kan ha rasat) till vänster. Se till att ni inte står i vägen för annan trafik.\n\nDiskussion om vägbeskrivningen kan läsas på Bloxc (http://www.bloxc.com/forum/viewtopic.php?t=1469). Kolla här (http://www.utsidan.se/forum/showthread.php?t=43967) också. Det verkar vara ett känsligt kapitel."
     },
     {
       "id": "access",
@@ -58,7 +58,7 @@
     {
       "id": "skogen",
       "title": "Skogen",
-      "body": "Denna förare bygger delvis på material från Bertil Dyvell publicerat i Uppsala klätterklubbs Medlemstidning Ukkern. Kategori:Sport Kategori:Uppsala Kategori:Uppland Kategori:Saknar vägbeskrivning"
+      "body": "Denna förare bygger delvis på material från Bertil Dyvell publicerat i Uppsala klätterklubbs Medlemstidning Ukkern."
     }
   ],
   "routes": [
@@ -610,27 +610,80 @@
   "images": [
     {
       "filename": "Fjärdhundra.jpg",
-      "caption": "",
+      "caption": "Historik m.m. · foto",
       "missing": false,
-      "sectorId": "historik-m-m"
+      "sectorId": "historik-m-m",
+      "routeIds": []
     },
     {
       "filename": "Fjärdhundra_södra.png",
-      "caption": "",
+      "caption": "södra",
       "missing": false,
-      "sectorId": "sodra-delen"
+      "sectorId": "sodra-delen",
+      "routeIds": [
+        "fjardhundra-led-1",
+        "fjardhundra-led-2",
+        "fjardhundra-led-3",
+        "fjardhundra-led-4",
+        "fjardhundra-led-5",
+        "fjardhundra-led-6",
+        "fjardhundra-led-7"
+      ]
     },
     {
       "filename": "Fjärdhundra_åkern.png",
-      "caption": "",
+      "caption": "åkern",
       "missing": false,
-      "sectorId": "akern"
+      "sectorId": "akern",
+      "routeIds": [
+        "fjardhundra-led-8",
+        "fjardhundra-led-9",
+        "fjardhundra-led-10",
+        "fjardhundra-led-11",
+        "fjardhundra-led-12",
+        "fjardhundra-led-13",
+        "fjardhundra-led-14",
+        "fjardhundra-led-15",
+        "fjardhundra-led-16",
+        "fjardhundra-led-17",
+        "fjardhundra-led-18",
+        "fjardhundra-led-19"
+      ]
     },
     {
       "filename": "Fjärdhundra_skogen.png",
-      "caption": "",
+      "caption": "skogen",
       "missing": false,
-      "sectorId": "skogen"
+      "sectorId": "skogen",
+      "routeIds": [
+        "fjardhundra-led-20",
+        "fjardhundra-led-21",
+        "fjardhundra-led-22",
+        "fjardhundra-led-23",
+        "fjardhundra-led-24",
+        "fjardhundra-led-25",
+        "fjardhundra-led-26",
+        "fjardhundra-led-27",
+        "fjardhundra-led-28",
+        "fjardhundra-led-29",
+        "fjardhundra-led-30",
+        "fjardhundra-led-31",
+        "fjardhundra-led-32",
+        "fjardhundra-led-33",
+        "fjardhundra-led-34"
+      ]
+    }
+  ],
+  "externalLinks": [
+    {
+      "url": "http://www.bloxc.com/forum/viewtopic.php?t=1469",
+      "label": "Bloxc",
+      "sectionId": "vagbeskrivning"
+    },
+    {
+      "url": "http://www.utsidan.se/forum/showthread.php?t=43967",
+      "label": "här",
+      "sectionId": "vagbeskrivning"
     }
   ],
   "access": {

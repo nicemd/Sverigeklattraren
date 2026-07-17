@@ -27,12 +27,12 @@
     {
       "id": "vagbeskrivning",
       "title": "Vägbeskrivning",
-      "body": "Väg 222 värmdöleden. Vänster i stora Mölnviks-rondellen, sedan vänster igen mot Bygg-Ole. Vänster i pytte-rondellen och under motorvägen. Parkera vid brukshundklubben. Fortsätt sedan asfaltsvägen till fots (ca 150 m) tills du har en äng på vänster sida. Korsa ängen så kommer du fram till väggen."
+      "body": "Väg 222 värmdöleden.\n\nVänster i stora Mölnviks-rondellen, sedan vänster igen mot Bygg-Ole. Vänster i pytte-rondellen och under motorvägen. Parkera vid brukshundklubben.\nFortsätt sedan asfaltsvägen till fots (ca 150 m) tills du har en äng på vänster sida. Korsa ängen så kommer du fram till väggen."
     },
     {
       "id": "boulderproblem",
       "title": "Boulderproblem",
-      "body": "Sittstart på samtliga problem Klippan 50m bakom dog rock Det finns ett projekt på samma sten med insteg ifrån vänster med samma utsteg ca. 7B+ och ytterligare ett projekt till höger om Glöggparty (samma startgrepp). Det finns en till liten vägg mot vattnet, samt flera problem i skogen..mest gjort av Trevor Kategori:vertikalt Kategori:överhäng kategori:Saknar skrivarformatering Category:Stockholm Kategori:Nacka-Värmdö"
+      "body": "Sittstart på samtliga problem\nKlippan 50m bakom dog rock\nDet finns ett projekt på samma sten med insteg ifrån vänster med samma utsteg ca. 7B+ och ytterligare ett projekt till höger om Glöggparty (samma startgrepp).\n\nDet finns en till liten vägg mot vattnet, samt flera problem i skogen..mest gjort av Trevor"
     }
   ],
   "routes": [
@@ -200,29 +200,48 @@
   "images": [
     {
       "filename": "Dogbone1.jpg",
-      "caption": "",
+      "caption": "Dogbone1",
       "missing": false,
-      "sectorId": "boulderproblem"
+      "sectorId": "boulderproblem",
+      "routeIds": [
+        "dog-rock-problem-1",
+        "dog-rock-problem-2",
+        "dog-rock-problem-3"
+      ]
     },
     {
       "filename": "Dogbone2.jpg",
-      "caption": "",
+      "caption": "Dogbone2",
       "missing": false,
-      "sectorId": "boulderproblem"
+      "sectorId": "boulderproblem",
+      "routeIds": [
+        "dog-rock-problem-4",
+        "dog-rock-problem-5",
+        "dog-rock-problem-6"
+      ]
     },
     {
       "filename": "Dogbone3.jpg",
-      "caption": "",
+      "caption": "Dogbone3",
       "missing": false,
-      "sectorId": "boulderproblem"
+      "sectorId": "boulderproblem",
+      "routeIds": [
+        "dog-rock-problem-7",
+        "dog-rock-problem-8"
+      ]
     },
     {
       "filename": "Dogbone4.jpg",
-      "caption": "",
+      "caption": "Dogbone4",
       "missing": false,
-      "sectorId": "boulderproblem"
+      "sectorId": "boulderproblem",
+      "routeIds": [
+        "dog-rock-problem-9",
+        "dog-rock-problem-10"
+      ]
     }
   ],
+  "externalLinks": [],
   "access": {
     "legacyText": null,
     "federationSlug": null

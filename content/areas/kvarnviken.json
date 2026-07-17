@@ -3,7 +3,7 @@
   "id": "kvarnviken",
   "slug": "kvarnviken",
   "name": "Kvarnviken",
-  "description": "Nygammal klippa i de klätterfattiga västra delarna av Stockholm. Klippan är sydvästvänd med skön utsikt över Mälaren vilket gör det till en trevlig kvällsklippa. Ledregistret är som en påse gott-och-blandat med något för alla. Graderna går från 4 till 7 och för den som inte tycker det räcker så finns det några ultratunna linjer som kan bli ännu svårare. Kilsäkrade leder samsas med borrbultade och ett par boulderproblem runtomkring finns att utforska för den som vill. Flera av de naturligt säkrade lederna har med all sannolikhet klättrats tidigare. Ovanför till höger om klippan finns ytterligare en liten vägg med några artificiella leder för den hugade att återupptäcka. En fast kil sitter bland annat kvar. För enkelhetens skull anges alla leder med fransk gradering. Viss nyturspotential finns i det svårare registret.",
+  "description": "Nygammal klippa i de klätterfattiga västra delarna av Stockholm. Klippan är sydvästvänd med skön utsikt över Mälaren vilket gör det till en trevlig kvällsklippa. Ledregistret är som en påse gott-och-blandat med något för alla. Graderna går från 4 till 7 och för den som inte tycker det räcker så finns det några ultratunna linjer som kan bli ännu svårare. Kilsäkrade leder samsas med borrbultade och ett par boulderproblem runtomkring finns att utforska för den som vill. Flera av de naturligt säkrade lederna har med all sannolikhet klättrats tidigare.\n\nOvanför till höger om klippan finns ytterligare en liten vägg med några artificiella leder för den hugade att återupptäcka. En fast kil sitter bland annat kvar. För enkelhetens skull anges alla leder med fransk gradering. Viss nyturspotential finns i det svårare registret.",
   "coordinates": {
     "latitude": 59.343278640111315,
     "longitude": 17.872331142425537
@@ -15,7 +15,7 @@
     {
       "id": "allmant",
       "title": "Allmänt",
-      "body": "Nygammal klippa i de klätterfattiga västra delarna av Stockholm. Klippan är sydvästvänd med skön utsikt över Mälaren vilket gör det till en trevlig kvällsklippa. Ledregistret är som en påse gott-och-blandat med något för alla. Graderna går från 4 till 7 och för den som inte tycker det räcker så finns det några ultratunna linjer som kan bli ännu svårare. Kilsäkrade leder samsas med borrbultade och ett par boulderproblem runtomkring finns att utforska för den som vill. Flera av de naturligt säkrade lederna har med all sannolikhet klättrats tidigare. Ovanför till höger om klippan finns ytterligare en liten vägg med några artificiella leder för den hugade att återupptäcka. En fast kil sitter bland annat kvar. För enkelhetens skull anges alla leder med fransk gradering. Viss nyturspotential finns i det svårare registret."
+      "body": "Nygammal klippa i de klätterfattiga västra delarna av Stockholm. Klippan är sydvästvänd med skön utsikt över Mälaren vilket gör det till en trevlig kvällsklippa. Ledregistret är som en påse gott-och-blandat med något för alla. Graderna går från 4 till 7 och för den som inte tycker det räcker så finns det några ultratunna linjer som kan bli ännu svårare. Kilsäkrade leder samsas med borrbultade och ett par boulderproblem runtomkring finns att utforska för den som vill. Flera av de naturligt säkrade lederna har med all sannolikhet klättrats tidigare.\n\nOvanför till höger om klippan finns ytterligare en liten vägg med några artificiella leder för den hugade att återupptäcka. En fast kil sitter bland annat kvar. För enkelhetens skull anges alla leder med fransk gradering. Viss nyturspotential finns i det svårare registret."
     },
     {
       "id": "vagbeskrivning",
@@ -25,7 +25,7 @@
     {
       "id": "leder",
       "title": "Leder",
-      "body": "Kategori : Stockholm Kategori : Trad Kategori : Sport Kategori : Vertikalt Kategori : Sva Kategori:Norra Stockholm"
+      "body": "Kategori : Stockholm\nKategori : Trad\nKategori : Sport\nKategori : Vertikalt\nKategori : Sva"
     }
   ],
   "routes": [
@@ -161,11 +161,22 @@
   "images": [
     {
       "filename": "Kvarnviken.jpg",
-      "caption": "",
+      "caption": "Leder · foto",
       "missing": false,
-      "sectorId": "leder"
+      "sectorId": "leder",
+      "routeIds": [
+        "kvarnviken-led-1",
+        "kvarnviken-led-2",
+        "kvarnviken-led-3",
+        "kvarnviken-led-4",
+        "kvarnviken-led-5",
+        "kvarnviken-led-6",
+        "kvarnviken-led-7",
+        "kvarnviken-led-8"
+      ]
     }
   ],
+  "externalLinks": [],
   "access": {
     "legacyText": null,
     "federationSlug": null

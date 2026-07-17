@@ -3,7 +3,7 @@
   "id": "vikdal",
   "slug": "vikdal",
   "name": "Vikdal",
-  "description": "Liten brant klippa vid en vändplan. En perfekt klippa för den som vill kunna säkra från bakluckan. Fin och fast klippa. Behöver nog borstas för att återfå sin forna glans.",
+  "description": "Liten brant klippa vid en vändplan. En perfekt klippa för den som vill kunna säkra från bakluckan. Fin och fast klippa.\nBehöver nog borstas för att återfå sin forna glans.",
   "coordinates": {
     "latitude": 59.31521,
     "longitude": 18.15163
@@ -17,12 +17,12 @@
     {
       "id": "allmant",
       "title": "Allmänt",
-      "body": "Liten brant klippa vid en vändplan. En perfekt klippa för den som vill kunna säkra från bakluckan. Fin och fast klippa. Behöver nog borstas för att återfå sin forna glans."
+      "body": "Liten brant klippa vid en vändplan. En perfekt klippa för den som vill kunna säkra från bakluckan. Fin och fast klippa.\nBehöver nog borstas för att återfå sin forna glans."
     },
     {
       "id": "vagbeskrivning",
       "title": "Vägbeskrivning",
-      "body": "titel=Vikdal lat=18151630 long=59315210 Värmdöleden till Jarlaberg. Korsa motorvägen och ta vänster på Vikdalsvägen. Följ vägen i 700 m till dess slut."
+      "body": "Värmdöleden till Jarlaberg. Korsa motorvägen och ta vänster på Vikdalsvägen. Följ vägen i 700 m till dess slut."
     },
     {
       "id": "leder",
@@ -37,7 +37,7 @@
     {
       "id": "ovre-vaggen",
       "title": "Övre väggen",
-      "body": "Senast jag åkte förbi var det ett nybyggt hus nedanför denna vägg. Kategori:Mix Kategori:Nacka-Värmdö Kategori:Stockholm"
+      "body": "Senast jag åkte förbi var det ett nybyggt hus nedanför denna vägg."
     }
   ],
   "routes": [
@@ -173,11 +173,17 @@
   "images": [
     {
       "filename": "Vikdal1_skiss.gif",
-      "caption": "",
+      "caption": "1 skiss",
       "missing": false,
-      "sectorId": "vandplanen"
+      "sectorId": "vandplanen",
+      "routeIds": [
+        "vikdal-led-1",
+        "vikdal-led-2",
+        "vikdal-led-3"
+      ]
     }
   ],
+  "externalLinks": [],
   "access": {
     "legacyText": null,
     "federationSlug": null

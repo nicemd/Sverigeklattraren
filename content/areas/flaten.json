@@ -25,12 +25,12 @@
     {
       "id": "extern-forare",
       "title": "Extern förare",
-      "body": "Förare finns på Stockholms Nätförare"
+      "body": "Förare finns på Stockholms Nätförare (http://www.plonk.se/snf/flaten.html)"
     },
     {
       "id": "vagbeskrivning",
       "title": "Vägbeskrivning",
-      "body": "titel=Flaten lat=18154000 long=59258520"
+      "body": ""
     },
     {
       "id": "leder",
@@ -60,7 +60,7 @@
     {
       "id": "hogra-vaggen",
       "title": "Högra väggen",
-      "body": "Kategori:Sport Kategori:Överhäng Kategori:Stockholm Kategori:Södra Södertörn Kategori:Saknar skiss Kategori:Saknar lednummer"
+      "body": ""
     }
   ],
   "routes": [
@@ -1172,21 +1172,65 @@
   "images": [
     {
       "filename": "Flaten_oversikt.png",
-      "caption": "",
+      "caption": "oversikt",
       "missing": false,
-      "sectorId": null
+      "sectorId": null,
+      "routeIds": []
     },
     {
       "filename": "Flaten_0.png",
-      "caption": "",
+      "caption": "Hells cave · foto",
       "missing": false,
-      "sectorId": "hells-cave"
+      "sectorId": "hells-cave",
+      "routeIds": [
+        "flaten-led-1",
+        "flaten-led-2",
+        "flaten-led-3",
+        "flaten-led-4",
+        "flaten-led-5",
+        "flaten-led-6",
+        "flaten-led-7",
+        "flaten-led-8",
+        "flaten-led-9",
+        "flaten-led-10"
+      ]
     },
     {
       "filename": "Flaten_1.png",
-      "caption": "",
+      "caption": "Huvudväggen · foto",
       "missing": false,
-      "sectorId": "huvudvaggen"
+      "sectorId": "huvudvaggen",
+      "routeIds": [
+        "flaten-led-32",
+        "flaten-led-33",
+        "flaten-led-34",
+        "flaten-led-35",
+        "flaten-led-36",
+        "flaten-led-37",
+        "flaten-led-38",
+        "flaten-led-39",
+        "flaten-led-40",
+        "flaten-led-41",
+        "flaten-led-42",
+        "flaten-led-43",
+        "flaten-led-44",
+        "flaten-led-45",
+        "flaten-led-46",
+        "flaten-led-47",
+        "flaten-led-48",
+        "flaten-led-49",
+        "flaten-led-50",
+        "flaten-led-51",
+        "flaten-led-52",
+        "flaten-led-53"
+      ]
+    }
+  ],
+  "externalLinks": [
+    {
+      "url": "http://www.plonk.se/snf/flaten.html",
+      "label": "Stockholms Nätförare",
+      "sectionId": "extern-forare"
     }
   ],
   "access": {

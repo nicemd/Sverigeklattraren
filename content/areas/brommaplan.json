@@ -3,7 +3,7 @@
   "id": "brommaplan",
   "slug": "brommaplan",
   "name": "Brommaplan",
-  "description": "titel=Brommaplansobelisken lat= 17935781 long=59333583",
+  "description": "titel=Brommaplansobelisken\nlat= 17935781\nlong=59333583",
   "coordinates": {
     "latitude": 59.3335834217362,
     "longitude": 17.935781478881836
@@ -20,12 +20,12 @@
     {
       "id": "vagbeskrivning",
       "title": "Vägbeskrivning",
-      "body": "titel=Brommaplansobelisken lat= 17935781 long=59333583"
+      "body": "titel=Brommaplansobelisken\nlat= 17935781\nlong=59333583"
     },
     {
       "id": "leder",
       "title": "Leder",
-      "body": "Någon som kan hjälpa? Någon som vet om dom ens är gjorda? Ryktet säger att Luhr satt upp dom, nån som kan bekräfta? Från vänster till höger på bilden så är nu 1-4-5-6 Utrustade med hängare hela vägen, jag har även hängt upp snabblänkar på alla(21/10 07). Ett block som ligger tvärs över gatan klättras nog bäst med padda eller tradrack... Kategori:Klippa Kategori:Bouldering Kategori:Sport Kategori:Vertikalt Kategori:Stockholm Kategori:Norra Stockholm"
+      "body": "Någon som kan hjälpa?\nNågon som vet om dom ens är gjorda?\n\nRyktet säger att Luhr satt upp dom, nån som kan bekräfta?\n\nFrån vänster till höger på bilden så är nu 1-4-5-6 Utrustade med hängare hela vägen, jag har även hängt upp snabblänkar på alla(21/10 07).\n\nEtt block som ligger tvärs över gatan klättras nog bäst med padda eller tradrack..."
     }
   ],
   "routes": [
@@ -129,17 +129,27 @@
   "images": [
     {
       "filename": "Brommaplan.jpg",
-      "caption": "",
+      "caption": "Leder · foto",
       "missing": false,
-      "sectorId": "leder"
+      "sectorId": "leder",
+      "routeIds": [
+        "brommaplan-led-1",
+        "brommaplan-led-2",
+        "brommaplan-led-3",
+        "brommaplan-led-4",
+        "brommaplan-led-5",
+        "brommaplan-led-6"
+      ]
     },
     {
       "filename": "Komposten.jpg",
-      "caption": "",
+      "caption": "Komposten",
       "missing": false,
-      "sectorId": "leder"
+      "sectorId": "leder",
+      "routeIds": []
     }
   ],
+  "externalLinks": [],
   "access": {
     "legacyText": null,
     "federationSlug": null

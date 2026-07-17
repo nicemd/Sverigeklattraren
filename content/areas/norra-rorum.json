@@ -3,7 +3,7 @@
   "id": "norra-rorum",
   "slug": "norra-rorum",
   "name": "Norra Rörum",
-  "description": "Norra Rörum är en mindre klippa i mitten av Skåne, en mil norr om Höör. Klättringen är uppdelad på två väggpartier med lite olika karaktär. Den östra väggen är brant och ca 8 meter hög, här klättrar man i sprickor och på vägg med gott om små grepp och lister. Sydväggen är mer polerad och lutar svagt inåt, här bjuds på några riktigt fina balansleder. Mestadels är det tradklättring som gäller här, men ett antal bultar finns att klippa. Toppankare byggs oftast enkelt med hjälp av träd om man har långa slingor eller statiskt rep. Anmarschen är lätt och tillgängligheten väl framme vid klippan är bästa tänkbara. Klippan ligger i skugga i princip hela dagen.",
+  "description": "Norra Rörum är en mindre klippa i mitten av Skåne, en mil norr om Höör.\nKlättringen är uppdelad på två väggpartier med lite olika karaktär. Den östra väggen är brant och ca 8 meter hög, här klättrar man i sprickor och på vägg med gott om små grepp och lister.\nSydväggen är mer polerad och lutar svagt inåt, här bjuds på några riktigt fina balansleder.\nMestadels är det tradklättring som gäller här, men ett antal bultar finns att klippa.\nToppankare byggs oftast enkelt med hjälp av träd om man har långa slingor eller statiskt rep.\nAnmarschen är lätt och tillgängligheten väl framme vid klippan är bästa tänkbara.\nKlippan ligger i skugga i princip hela dagen.",
   "coordinates": {
     "latitude": 56.02544230429888,
     "longitude": 13.500051498413086
@@ -15,7 +15,7 @@
     {
       "id": "allmant",
       "title": "Allmänt",
-      "body": "Norra Rörum är en mindre klippa i mitten av Skåne, en mil norr om Höör. Klättringen är uppdelad på två väggpartier med lite olika karaktär. Den östra väggen är brant och ca 8 meter hög, här klättrar man i sprickor och på vägg med gott om små grepp och lister. Sydväggen är mer polerad och lutar svagt inåt, här bjuds på några riktigt fina balansleder. Mestadels är det tradklättring som gäller här, men ett antal bultar finns att klippa. Toppankare byggs oftast enkelt med hjälp av träd om man har långa slingor eller statiskt rep. Anmarschen är lätt och tillgängligheten väl framme vid klippan är bästa tänkbara. Klippan ligger i skugga i princip hela dagen."
+      "body": "Norra Rörum är en mindre klippa i mitten av Skåne, en mil norr om Höör.\nKlättringen är uppdelad på två väggpartier med lite olika karaktär. Den östra väggen är brant och ca 8 meter hög, här klättrar man i sprickor och på vägg med gott om små grepp och lister.\nSydväggen är mer polerad och lutar svagt inåt, här bjuds på några riktigt fina balansleder.\nMestadels är det tradklättring som gäller här, men ett antal bultar finns att klippa.\nToppankare byggs oftast enkelt med hjälp av träd om man har långa slingor eller statiskt rep.\nAnmarschen är lätt och tillgängligheten väl framme vid klippan är bästa tänkbara.\nKlippan ligger i skugga i princip hela dagen."
     },
     {
       "id": "hitta-hit",
@@ -25,7 +25,7 @@
     {
       "id": "vaggoversikt",
       "title": "Väggöversikt",
-      "body": "* 1-3 Södra väggen * 4-5 Östra väggen * 6-8 Boulder"
+      "body": "• 1-3 Södra väggen\n• 4-5 Östra väggen\n• 6-8 Boulder"
     },
     {
       "id": "sodra-vaggen",
@@ -65,7 +65,7 @@
     {
       "id": "bouldervaggarna",
       "title": "Boulderväggarna",
-      "body": "Kategori:Skåne"
+      "body": ""
     }
   ],
   "routes": [
@@ -471,7 +471,7 @@
     },
     {
       "id": "norra-rorum-led-26",
-      "kind": "route",
+      "kind": "problem",
       "number": "1",
       "name": "Namnlös",
       "grade": "?",
@@ -487,7 +487,7 @@
     },
     {
       "id": "norra-rorum-led-27",
-      "kind": "route",
+      "kind": "problem",
       "number": "2",
       "name": "Namnlös",
       "grade": "?",
@@ -503,7 +503,7 @@
     },
     {
       "id": "norra-rorum-led-28",
-      "kind": "route",
+      "kind": "problem",
       "number": "3",
       "name": "Namnlös",
       "grade": "?",
@@ -519,7 +519,7 @@
     },
     {
       "id": "norra-rorum-led-29",
-      "kind": "route",
+      "kind": "problem",
       "number": "4",
       "name": "Travers pervers",
       "grade": "?",
@@ -535,7 +535,7 @@
     },
     {
       "id": "norra-rorum-led-30",
-      "kind": "route",
+      "kind": "problem",
       "number": "5",
       "name": "Namnlös",
       "grade": "?",
@@ -555,75 +555,124 @@
       "filename": "Nrorum.jpg",
       "caption": "Nick Baker, [[Klarälven",
       "missing": false,
-      "sectorId": null
+      "sectorId": null,
+      "routeIds": []
     },
     {
       "filename": "Nrorumoversikt20130715.gif",
-      "caption": "",
+      "caption": "Nrorumoversikt20130715",
       "missing": false,
-      "sectorId": "hitta-hit"
+      "sectorId": "hitta-hit",
+      "routeIds": []
     },
     {
       "filename": "Nrorum_oversikt.png",
-      "caption": "",
+      "caption": "Nrorum oversikt",
       "missing": false,
-      "sectorId": "vaggoversikt"
+      "sectorId": "vaggoversikt",
+      "routeIds": []
     },
     {
       "filename": "Nrorum_vagg1.png",
-      "caption": "",
+      "caption": "Nrorum vagg1",
       "missing": false,
-      "sectorId": "vagg-1"
+      "sectorId": "vagg-1",
+      "routeIds": [
+        "norra-rorum-led-1",
+        "norra-rorum-led-2",
+        "norra-rorum-led-3"
+      ]
     },
     {
       "filename": "Nrorum_vagg2.png",
-      "caption": "",
+      "caption": "Nrorum vagg2",
       "missing": false,
-      "sectorId": "vagg-2"
+      "sectorId": "vagg-2",
+      "routeIds": []
     },
     {
       "filename": "Nrorum_foto_vagg2.jpg",
       "caption": "Foto av vägg 2, ganska igenvuxen just vid fototillfället",
       "missing": false,
-      "sectorId": "vagg-2"
+      "sectorId": "vagg-2",
+      "routeIds": [
+        "norra-rorum-led-4",
+        "norra-rorum-led-5",
+        "norra-rorum-led-6",
+        "norra-rorum-led-7",
+        "norra-rorum-led-8",
+        "norra-rorum-led-9",
+        "norra-rorum-led-10",
+        "norra-rorum-led-11",
+        "norra-rorum-led-12",
+        "norra-rorum-led-13",
+        "norra-rorum-led-14"
+      ]
     },
     {
       "filename": "Nrorum_vagg3.png",
-      "caption": "",
+      "caption": "Nrorum vagg3",
       "missing": false,
-      "sectorId": "vagg-3"
+      "sectorId": "vagg-3",
+      "routeIds": [
+        "norra-rorum-led-15",
+        "norra-rorum-led-16",
+        "norra-rorum-led-17"
+      ]
     },
     {
       "filename": "Nrorum_vagg4.png",
-      "caption": "",
+      "caption": "Nrorum vagg4",
       "missing": false,
-      "sectorId": "vagg-4"
+      "sectorId": "vagg-4",
+      "routeIds": [
+        "norra-rorum-led-18"
+      ]
     },
     {
       "filename": "Nrorum_vagg5.png",
-      "caption": "",
+      "caption": "Nrorum vagg5",
       "missing": false,
-      "sectorId": "vagg-5"
+      "sectorId": "vagg-5",
+      "routeIds": []
     },
     {
       "filename": "Nrorum_foto_vagg5a.jpg",
       "caption": "Vänstra delen av vägg 5",
       "missing": false,
-      "sectorId": "vagg-5"
+      "sectorId": "vagg-5",
+      "routeIds": []
     },
     {
       "filename": "Nrorum_foto_vagg5b.jpg",
       "caption": "Högra delen av vägg 5",
       "missing": false,
-      "sectorId": "vagg-5"
+      "sectorId": "vagg-5",
+      "routeIds": [
+        "norra-rorum-led-19",
+        "norra-rorum-led-20",
+        "norra-rorum-led-21",
+        "norra-rorum-led-22",
+        "norra-rorum-led-23",
+        "norra-rorum-led-24",
+        "norra-rorum-led-25"
+      ]
     },
     {
       "filename": "Nrorum_boulders.png",
-      "caption": "",
+      "caption": "Nrorum boulders",
       "missing": false,
-      "sectorId": "bouldervaggarna"
+      "sectorId": "bouldervaggarna",
+      "routeIds": [
+        "norra-rorum-led-26",
+        "norra-rorum-led-27",
+        "norra-rorum-led-28",
+        "norra-rorum-led-29",
+        "norra-rorum-led-30"
+      ]
     }
   ],
+  "externalLinks": [],
   "access": {
     "legacyText": null,
     "federationSlug": null

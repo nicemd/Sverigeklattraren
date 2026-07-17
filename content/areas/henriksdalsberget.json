@@ -29,12 +29,12 @@
     {
       "id": "vagbeskrivning",
       "title": "Vägbeskrivning",
-      "body": "titel=Henriksdalsberget lat=18120310 long=59310690 Från Södermalm åk över Danviksbron och ta v vid rödljusen. Kör Kvarnholmsvägen ca 400 m och ta vänster igen och sedan höger över Kvarnholmsvägen och upp för backen ca 400 m mot Henriksdalsringen. Parkera innan hyreshusen vid en grusparkering på v sida. Gå ner mot båthamnen via en trätrappa. Innan trappan tar slut: vik av åt h längs klipporna. Klippan ligger ca 150 m in åt h och 60 m ovanför båthamnen längst in i Svindersviken. Mer info om Henriksdalsberget"
+      "body": "Från Södermalm åk över Danviksbron och ta v vid rödljusen. Kör Kvarnholmsvägen ca 400 m och ta vänster igen och sedan höger över Kvarnholmsvägen och upp för backen ca 400 m mot Henriksdalsringen.\nParkera innan hyreshusen vid en grusparkering på v sida. Gå ner mot båthamnen via en trätrappa. Innan trappan tar slut: vik av åt h längs klipporna. Klippan ligger ca 150 m in åt h och 60 m ovanför båthamnen längst in i Svindersviken. Mer info om Henriksdalsberget (http://www.henriksdalsberget.se)"
     },
     {
       "id": "leder",
       "title": "Leder",
-      "body": "Kategori:Nacka-Värmdö Kategori:Stockholm Kategori:Sport Kategori:Överhäng Kategori:Saknar skrivarformatering"
+      "body": ""
     }
   ],
   "routes": [
@@ -330,9 +330,36 @@
   "images": [
     {
       "filename": "Henriksdalsberget.png",
-      "caption": "",
+      "caption": "Leder · foto",
       "missing": false,
-      "sectorId": "leder"
+      "sectorId": "leder",
+      "routeIds": [
+        "henriksdalsberget-led-1",
+        "henriksdalsberget-led-2",
+        "henriksdalsberget-led-3",
+        "henriksdalsberget-led-4",
+        "henriksdalsberget-led-5",
+        "henriksdalsberget-led-6",
+        "henriksdalsberget-led-7",
+        "henriksdalsberget-led-8",
+        "henriksdalsberget-led-9",
+        "henriksdalsberget-led-10",
+        "henriksdalsberget-led-11",
+        "henriksdalsberget-led-12",
+        "henriksdalsberget-led-13",
+        "henriksdalsberget-led-14",
+        "henriksdalsberget-led-15",
+        "henriksdalsberget-led-16",
+        "henriksdalsberget-led-17",
+        "henriksdalsberget-led-18"
+      ]
+    }
+  ],
+  "externalLinks": [
+    {
+      "url": "http://www.henriksdalsberget.se",
+      "label": "Mer info om Henriksdalsberget",
+      "sectionId": "vagbeskrivning"
     }
   ],
   "access": {

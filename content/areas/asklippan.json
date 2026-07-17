@@ -41,7 +41,7 @@
     {
       "id": "lankar",
       "title": "Länkar",
-      "body": "Förare tillhandahållen av Linköpings klätterklubb. Kategori:Trad Kategori:Mix Kategori:vertikalt kategori:Saknar skiss kategori:Saknar vägbeskrivning kategori:Saknar skrivarformatering Kategori:Östergötland"
+      "body": "Förare tillhandahållen av Linköpings klätterklubb (http://linkopingsklatterklubb.se/index.php/forare.html)."
     }
   ],
   "routes": [
@@ -209,9 +209,28 @@
   "images": [
     {
       "filename": "Skiss.gif",
-      "caption": "",
+      "caption": "Skiss",
       "missing": false,
-      "sectorId": "leder"
+      "sectorId": "leder",
+      "routeIds": [
+        "asklippan-led-1",
+        "asklippan-led-2",
+        "asklippan-led-3",
+        "asklippan-led-4",
+        "asklippan-led-5",
+        "asklippan-led-6",
+        "asklippan-led-7",
+        "asklippan-led-8",
+        "asklippan-led-9",
+        "asklippan-led-10"
+      ]
+    }
+  ],
+  "externalLinks": [
+    {
+      "url": "http://linkopingsklatterklubb.se/index.php/forare.html",
+      "label": "Linköpings klätterklubb",
+      "sectionId": "lankar"
     }
   ],
   "access": {

@@ -3,7 +3,7 @@
   "id": "knipehall",
   "slug": "knipehall",
   "name": "Knipehall",
-  "description": "Knipehall är en ca 100 meter bred och 15 meter hög klippa vackert belägen i östra Blekinge. Ett 30-tal leder bjuder på utmaningar i de flesta grader. Klippan, som är av mycket god kvallité, ger ett kompakt intryck men är relativt sprickrik. Här finns såväl sport som aid, men fokuset ligger på tradklättring. De lätta lederna längst till höger är mycket mossiga, i övrigt är det rent och fint.",
+  "description": "Knipehall är en ca 100 meter bred och 15 meter hög klippa vackert belägen i östra Blekinge. Ett 30-tal leder bjuder på utmaningar i de flesta grader.\nKlippan, som är av mycket god kvallité, ger ett kompakt intryck men är relativt sprickrik. Här finns såväl sport som aid, men fokuset ligger på tradklättring.\nDe lätta lederna längst till höger är mycket mossiga, i övrigt är det rent och fint.",
   "coordinates": {
     "latitude": 56.17969813430581,
     "longitude": 15.68075180053711
@@ -15,12 +15,12 @@
     {
       "id": "allmant",
       "title": "Allmänt",
-      "body": "Knipehall är en ca 100 meter bred och 15 meter hög klippa vackert belägen i östra Blekinge. Ett 30-tal leder bjuder på utmaningar i de flesta grader. Klippan, som är av mycket god kvallité, ger ett kompakt intryck men är relativt sprickrik. Här finns såväl sport som aid, men fokuset ligger på tradklättring. De lätta lederna längst till höger är mycket mossiga, i övrigt är det rent och fint."
+      "body": "Knipehall är en ca 100 meter bred och 15 meter hög klippa vackert belägen i östra Blekinge. Ett 30-tal leder bjuder på utmaningar i de flesta grader.\nKlippan, som är av mycket god kvallité, ger ett kompakt intryck men är relativt sprickrik. Här finns såväl sport som aid, men fokuset ligger på tradklättring.\nDe lätta lederna längst till höger är mycket mossiga, i övrigt är det rent och fint."
     },
     {
       "id": "access",
       "title": "Access",
-      "body": "Klippan ligger ganska tätt inpå ett hus (norr om klippan) och vid bryggorna nedanför klippan ligger massa båtar. Hittills har Karlskrona Bergsportförening haft en bra dialog med husägaren, men det är givetvis självklart att man försöker hålla en låg profil när man klättrar här. Om du vill göra en nytur som innebär nya borrbultar vill Karlskrona Bergsportförening att du hör av dig till Patrik Lind (patrik.lind {snabela} ltblekinge.se) innan några ingrepp med borren görs."
+      "body": "Klippan ligger ganska tätt inpå ett hus (norr om klippan) och vid bryggorna nedanför klippan ligger massa båtar.\nHittills har Karlskrona Bergsportförening haft en bra dialog med husägaren, men det är givetvis självklart att man försöker hålla en låg profil när man klättrar här.\nOm du vill göra en nytur som innebär nya borrbultar vill Karlskrona Bergsportförening att du hör av dig till Patrik Lind (patrik.lind {snabela} ltblekinge.se) innan några ingrepp med borren görs."
     },
     {
       "id": "hitta-hit",
@@ -35,7 +35,7 @@
     {
       "id": "norra-delen",
       "title": "Norra delen",
-      "body": "Kategori:Blekinge Foto: Tomi Biloglav]]"
+      "body": "Foto: Tomi Biloglav]]"
     }
   ],
   "routes": [
@@ -573,23 +573,42 @@
       "filename": "Knipe1.jpg",
       "caption": "Henrik Sundal",
       "missing": false,
-      "sectorId": null
+      "sectorId": null,
+      "routeIds": []
     },
     {
       "filename": "KnipehallTopoM.jpg",
       "caption": "Fredrik Rapp",
       "missing": false,
-      "sectorId": "sodra-delen"
+      "sectorId": "sodra-delen",
+      "routeIds": [
+        "knipehall-led-1",
+        "knipehall-led-2",
+        "knipehall-led-3",
+        "knipehall-led-4",
+        "knipehall-led-5",
+        "knipehall-led-6",
+        "knipehall-led-7",
+        "knipehall-led-8",
+        "knipehall-led-9",
+        "knipehall-led-10",
+        "knipehall-led-11",
+        "knipehall-led-12",
+        "knipehall-led-13",
+        "knipehall-led-14"
+      ]
     },
     {
       "filename": "Knipe.jpg",
       "caption": "Petter Åsander",
       "missing": false,
-      "sectorId": "norra-delen"
+      "sectorId": "norra-delen",
+      "routeIds": []
     }
   ],
+  "externalLinks": [],
   "access": {
-    "legacyText": "Klippan ligger ganska tätt inpå ett hus (norr om klippan) och vid bryggorna nedanför klippan ligger massa båtar. Hittills har Karlskrona Bergsportförening haft en bra dialog med husägaren, men det är givetvis självklart att man försöker hålla en låg profil när man klättrar här. Om du vill göra en nytur som innebär nya borrbultar vill Karlskrona Bergsportförening att du hör av dig till Patrik Lind (patrik.lind {snabela} ltblekinge.se) innan några ingrepp med borren görs.",
+    "legacyText": "Klippan ligger ganska tätt inpå ett hus (norr om klippan) och vid bryggorna nedanför klippan ligger massa båtar.\nHittills har Karlskrona Bergsportförening haft en bra dialog med husägaren, men det är givetvis självklart att man försöker hålla en låg profil när man klättrar här.\nOm du vill göra en nytur som innebär nya borrbultar vill Karlskrona Bergsportförening att du hör av dig till Patrik Lind (patrik.lind {snabela} ltblekinge.se) innan några ingrepp med borren görs.",
     "federationSlug": null
   },
   "qualityIssues": [],

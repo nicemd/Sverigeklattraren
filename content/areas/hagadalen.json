@@ -19,7 +19,7 @@
     {
       "id": "leder",
       "title": "Leder",
-      "body": "Kategori:Uppland Kategori:Saknar kartaKategori:Saknar vägbeskrivning"
+      "body": ""
     }
   ],
   "routes": [
@@ -187,17 +187,32 @@
   "images": [
     {
       "filename": "HagadalenRoutesLeft.jpg",
-      "caption": "",
+      "caption": "HagadalenRoutesLeft",
       "missing": false,
-      "sectorId": "leder"
+      "sectorId": "leder",
+      "routeIds": [
+        "hagadalen-led-1",
+        "hagadalen-led-2",
+        "hagadalen-led-3",
+        "hagadalen-led-4",
+        "hagadalen-led-5"
+      ]
     },
     {
       "filename": "HagadalenRoutesRight.jpg",
-      "caption": "",
+      "caption": "HagadalenRoutesRight",
       "missing": false,
-      "sectorId": "leder"
+      "sectorId": "leder",
+      "routeIds": [
+        "hagadalen-led-6",
+        "hagadalen-led-7",
+        "hagadalen-led-8",
+        "hagadalen-led-9",
+        "hagadalen-led-10"
+      ]
     }
   ],
+  "externalLinks": [],
   "access": {
     "legacyText": null,
     "federationSlug": null

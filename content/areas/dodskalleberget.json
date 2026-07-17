@@ -32,12 +32,12 @@
     {
       "id": "vagbeskrivning",
       "title": "Vägbeskrivning",
-      "body": "titel=Dodskalleberget lat=18407510 long=59195120 Kör Tyresövägen ut på Tyresöhalvön och fortsätt rakt fram en bra stund på den kurviga vägen tills du kommer till en liten båthamn. Sväng höger och fortsätt ännu en bra bit längst en backig väg. Efter en skarp nedförsbacke ta höger på Dyviksuddsvägen. Klippan kan ses på höger sida efter ett par hundra meter. Parkera på parkeringen ca 150 m efter klippan. Parkeringen är välanvänd så lämna plats för andra bilar. Det nyinrättade naturreservatet Dyviks lövängar, ligger kring klippan, och till detta reservat finns numera skyltning. Klippan är en del av reservatet."
+      "body": "Kör Tyresövägen ut på Tyresöhalvön och fortsätt rakt fram en bra stund på den kurviga vägen tills du kommer till en liten båthamn. Sväng höger och fortsätt ännu en bra bit längst en backig väg. Efter en skarp nedförsbacke ta höger på Dyviksuddsvägen. Klippan kan ses på höger sida efter ett par hundra meter. Parkera på parkeringen ca 150 m efter klippan. Parkeringen är välanvänd så lämna plats för andra bilar. Det nyinrättade naturreservatet Dyviks lövängar, ligger kring klippan, och till detta reservat finns numera skyltning. Klippan är en del av reservatet."
     },
     {
       "id": "access",
       "title": "Access",
-      "body": "Ständigt hotat av klätterförbud. Var diskreta, skräpa inte ned och håll en låg profil. Berget ingår i naturreservatet Dyviks lövängar. Parkera endast på parkeringsplatsen ca 150m efter klippan och ställ bilen så att fler bilar får plats. Bultkommittén i Stockholm nådde under 2012 en överenskommelse med Tyresö kommun, som förvaltar naturreservatet, om ombultningar av leder. Ombultningar är endast tillåtet under vissa förutsättningar och varje åtgärd måste godkännas av kommunen i ett skriftligt förfarande. http://bultkommitten.blogspot.se/2012/09/dodskalleberget-bultas-om.html"
+      "body": "Ständigt hotat av klätterförbud. Var diskreta, skräpa inte ned och håll en låg profil. Berget ingår i naturreservatet Dyviks lövängar. Parkera endast på parkeringsplatsen ca 150m efter klippan och ställ bilen så att fler bilar får plats.\n\nBultkommittén i Stockholm nådde under 2012 en överenskommelse med Tyresö kommun, som förvaltar naturreservatet, om ombultningar av leder. Ombultningar är endast tillåtet under vissa förutsättningar och varje åtgärd måste godkännas av kommunen i ett skriftligt förfarande.\n\nhttp://bultkommitten.blogspot.se/2012/09/dodskalleberget-bultas-om.html"
     },
     {
       "id": "leder",
@@ -62,7 +62,7 @@
     {
       "id": "apvaggen",
       "title": "Apväggen",
-      "body": "Kategori:Trad Kategori:Mix Kategori:Sport Kategori:Vertikalt Kategori:Överhäng Kategori:Sva Kategori:Stockholm Kategori:Tyresö"
+      "body": ""
     }
   ],
   "routes": [
@@ -728,29 +728,40 @@
       "filename": "Dodskalleberget.jpg",
       "caption": "Per Lindh",
       "missing": false,
-      "sectorId": null
+      "sectorId": null,
+      "routeIds": []
     },
     {
       "filename": "Dodskalleberget_v.png",
-      "caption": "",
+      "caption": "Dodskalleberget v",
       "missing": false,
-      "sectorId": "leder"
+      "sectorId": "leder",
+      "routeIds": []
     },
     {
       "filename": "Dodskalleberget_liten_h.png",
-      "caption": "",
+      "caption": "Dodskalleberget liten h",
       "missing": false,
-      "sectorId": "stora-vaggen"
+      "sectorId": "stora-vaggen",
+      "routeIds": []
     },
     {
       "filename": "Dodskalleberget_h.png",
-      "caption": "",
+      "caption": "Dodskalleberget h",
       "missing": false,
-      "sectorId": "stora-vaggen"
+      "sectorId": "stora-vaggen",
+      "routeIds": []
+    }
+  ],
+  "externalLinks": [
+    {
+      "url": "http://bultkommitten.blogspot.se/2012/09/dodskalleberget-bultas-om.html",
+      "label": "dodskalleberget-bultas-om.html",
+      "sectionId": "access"
     }
   ],
   "access": {
-    "legacyText": "Ständigt hotat av klätterförbud. Var diskreta, skräpa inte ned och håll en låg profil. Berget ingår i naturreservatet Dyviks lövängar. Parkera endast på parkeringsplatsen ca 150m efter klippan och ställ bilen så att fler bilar får plats. Bultkommittén i Stockholm nådde under 2012 en överenskommelse med Tyresö kommun, som förvaltar naturreservatet, om ombultningar av leder. Ombultningar är endast tillåtet under vissa förutsättningar och varje åtgärd måste godkännas av kommunen i ett skriftligt förfarande. http://bultkommitten.blogspot.se/2012/09/dodskalleberget-bultas-om.html",
+    "legacyText": "Ständigt hotat av klätterförbud. Var diskreta, skräpa inte ned och håll en låg profil. Berget ingår i naturreservatet Dyviks lövängar. Parkera endast på parkeringsplatsen ca 150m efter klippan och ställ bilen så att fler bilar får plats.\n\nBultkommittén i Stockholm nådde under 2012 en överenskommelse med Tyresö kommun, som förvaltar naturreservatet, om ombultningar av leder. Ombultningar är endast tillåtet under vissa förutsättningar och varje åtgärd måste godkännas av kommunen i ett skriftligt förfarande.\n\nhttp://bultkommitten.blogspot.se/2012/09/dodskalleberget-bultas-om.html",
     "federationSlug": "dodskalleberget"
   },
   "qualityIssues": [],

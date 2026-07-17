@@ -82,14 +82,14 @@
       "body": "https://lh6.googleusercontent.com/-_Rca5hGX0i8/UZ_evIKyc2I/AAAAAAAAEnM/UmnVONss7do/s640/garberg%2520skogen%2520.jpg"
     },
     {
-      "id": "vaggen-i-skogen",
+      "id": "vaggen-i-skogen-vaggen-i-skogen",
       "title": "Väggen i skogen",
       "body": "Väggen i skogen har några fina leder men är tyvärr mycket mossig. Förhoppningsvis kommer även denna vägg att borstas fram men än så länge är fokus på att rensa huvudklippan."
     },
     {
       "id": "svaet",
       "title": "Svaet",
-      "body": "Liten svaplatta ovanför vägggen i skogen. Kategori:Dalarna Kategori:Sport Kategori:Trad Kategori:Sva Kategori:Vertikalt"
+      "body": "Liten svaplatta ovanför vägggen i skogen."
     }
   ],
   "routes": [
@@ -647,7 +647,7 @@
       "type": "",
       "firstAscent": "",
       "description": "Längst till vänster.",
-      "sectorId": "vaggen-i-skogen",
+      "sectorId": "vaggen-i-skogen-vaggen-i-skogen",
       "source": {
         "id": "legacy:garberg",
         "path": "mediawiki/Garberg.txt"
@@ -663,7 +663,7 @@
       "type": "",
       "firstAscent": "",
       "description": "Juggen på mitten är 3+. 2bb+1 U-bult som kan förstärkas med en dunderkil. Leden fick en \"nyborstning\" 2003.",
-      "sectorId": "vaggen-i-skogen",
+      "sectorId": "vaggen-i-skogen-vaggen-i-skogen",
       "source": {
         "id": "legacy:garberg",
         "path": "mediawiki/Garberg.txt"
@@ -679,7 +679,7 @@
       "type": "",
       "firstAscent": "",
       "description": "Lite svårsäkrad led med ett överaskande sva på slutet.",
-      "sectorId": "vaggen-i-skogen",
+      "sectorId": "vaggen-i-skogen-vaggen-i-skogen",
       "source": {
         "id": "legacy:garberg",
         "path": "mediawiki/Garberg.txt"
@@ -695,7 +695,7 @@
       "type": "",
       "firstAscent": "",
       "description": "Sprickan. Möjligen klättrad av Daniel Bidner tidigt 90-tal.",
-      "sectorId": "vaggen-i-skogen",
+      "sectorId": "vaggen-i-skogen-vaggen-i-skogen",
       "source": {
         "id": "legacy:garberg",
         "path": "mediawiki/Garberg.txt"
@@ -711,7 +711,7 @@
       "type": "mix",
       "firstAscent": "",
       "description": "2 borrbultar och ett par kilar.",
-      "sectorId": "vaggen-i-skogen",
+      "sectorId": "vaggen-i-skogen-vaggen-i-skogen",
       "source": {
         "id": "legacy:garberg",
         "path": "mediawiki/Garberg.txt"
@@ -727,7 +727,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "Balansartat och lätt pumpande längs den vänstra sprickan. Kilar och friends.",
-      "sectorId": "vaggen-i-skogen",
+      "sectorId": "vaggen-i-skogen-vaggen-i-skogen",
       "source": {
         "id": "legacy:garberg",
         "path": "mediawiki/Garberg.txt"
@@ -743,7 +743,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "Fin led som följer den högra sprickan. Ta med små kilar.",
-      "sectorId": "vaggen-i-skogen",
+      "sectorId": "vaggen-i-skogen-vaggen-i-skogen",
       "source": {
         "id": "legacy:garberg",
         "path": "mediawiki/Garberg.txt"
@@ -783,6 +783,23 @@
     }
   ],
   "images": [],
+  "externalLinks": [
+    {
+      "url": "https://lh4.googleusercontent.com/-5Eq37Hsmgxs/UZ_evUdrxcI/AAAAAAAAEnQ/zZQqlLNxSrc/s512/garberg%2520v%25C3%25A4nster.jpg",
+      "label": "garberg%20v%C3%A4nster.jpg",
+      "sectionId": "vanstra-delen"
+    },
+    {
+      "url": "https://lh4.googleusercontent.com/-vnL0IViBeT4/UZ_evV7_nNI/AAAAAAAAEnU/EbFK_aRCBdY/s640/garberg%2520h%25C3%25B6ger.jpg",
+      "label": "garberg%20h%C3%B6ger.jpg",
+      "sectionId": "hogra-delen"
+    },
+    {
+      "url": "https://lh6.googleusercontent.com/-_Rca5hGX0i8/UZ_evIKyc2I/AAAAAAAAEnM/UmnVONss7do/s640/garberg%2520skogen%2520.jpg",
+      "label": "garberg%20skogen%20.jpg",
+      "sectionId": "vaggen-i-skogen"
+    }
+  ],
   "access": {
     "legacyText": null,
     "federationSlug": null

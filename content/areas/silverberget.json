@@ -3,7 +3,7 @@
   "id": "silverberget",
   "slug": "silverberget",
   "name": "Silverberget",
-  "description": "Från Västervik Kör mot överum, sväng vänster mot Dalhem. Följ sedan skylten \"Kila 5\"",
+  "description": "Från Västervik\nKör mot överum, sväng vänster mot Dalhem. Följ sedan skylten \"Kila 5\"",
   "coordinates": {
     "latitude": 57.98427,
     "longitude": 16.12127
@@ -17,7 +17,7 @@
     {
       "id": "vagbeskrivning",
       "title": "Vägbeskrivning",
-      "body": "Från Västervik Kör mot överum, sväng vänster mot Dalhem. Följ sedan skylten \"Kila 5\""
+      "body": "Från Västervik\nKör mot överum, sväng vänster mot Dalhem. Följ sedan skylten \"Kila 5\""
     },
     {
       "id": "leder",
@@ -27,11 +27,23 @@
     {
       "id": "lankar",
       "title": "Länkar",
-      "body": "Förare tillhandahållen av Linköpings klätterklubb. Förare av Västervik Climbing. Kategori:Småland"
+      "body": "Förare tillhandahållen av Linköpings klätterklubb (http://linkopingsklatterklubb.se/index.php/forare.html).\n\nFörare av Västervik Climbing (http://www.vastervikclimbing.se/klattercentret/pdfer/)."
     }
   ],
   "routes": [],
   "images": [],
+  "externalLinks": [
+    {
+      "url": "http://linkopingsklatterklubb.se/index.php/forare.html",
+      "label": "Linköpings klätterklubb",
+      "sectionId": "lankar"
+    },
+    {
+      "url": "http://www.vastervikclimbing.se/klattercentret/pdfer/",
+      "label": "Västervik Climbing",
+      "sectionId": "lankar"
+    }
+  ],
   "access": {
     "legacyText": null,
     "federationSlug": null

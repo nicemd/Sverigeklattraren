@@ -3,7 +3,7 @@
   "id": "gladaker",
   "slug": "gladaker",
   "name": "Gladåker",
-  "description": "Vackert belägen klippa vid Lilla Ullfjärden, mittemot slalombacken i Bålsta. På den ca 12 meter höga Nedre väggen finns ett tiotal turer brant fin klättring på röd klippa. Den ca 12 m höga Grottan avslutas med ett 50 graders överhäng som är upp till 5 meter långt.",
+  "description": "Vackert belägen klippa vid Lilla Ullfjärden, mittemot slalombacken i Bålsta.\n\nPå den ca 12 meter höga Nedre väggen finns ett tiotal turer brant fin klättring på röd klippa. Den ca 12 m höga Grottan avslutas med ett 50 graders överhäng som är upp till 5 meter långt.",
   "coordinates": {
     "latitude": 59.59461809751466,
     "longitude": 17.532023191452026
@@ -21,17 +21,17 @@
     {
       "id": "allmant",
       "title": "Allmänt",
-      "body": "Vackert belägen klippa vid Lilla Ullfjärden, mittemot slalombacken i Bålsta. På den ca 12 meter höga Nedre väggen finns ett tiotal turer brant fin klättring på röd klippa. Den ca 12 m höga Grottan avslutas med ett 50 graders överhäng som är upp till 5 meter långt."
+      "body": "Vackert belägen klippa vid Lilla Ullfjärden, mittemot slalombacken i Bålsta.\n\nPå den ca 12 meter höga Nedre väggen finns ett tiotal turer brant fin klättring på röd klippa. Den ca 12 m höga Grottan avslutas med ett 50 graders överhäng som är upp till 5 meter långt."
     },
     {
       "id": "vagbeskrivning",
       "title": "Vägbeskrivning",
-      "body": "titel=Baggeby lat=18129360 long=59354220 Åk E:18 mot Oslo, sväng av vid 1:a avfarten mot Bålsta, sedan direkt höger. Efter ca 2 km, vänster mot Sättervikshage. Här ska man parkera (det är inte tillåtet att köra in i området. Cykla eller gå vidare.)"
+      "body": "Åk E:18 mot Oslo, sväng av vid 1:a avfarten mot Bålsta, sedan direkt höger. Efter ca 2 km, vänster mot Sättervikshage. Här ska man parkera (det är inte tillåtet att köra in i området. Cykla eller gå vidare.)"
     },
     {
       "id": "access",
       "title": "Access",
-      "body": "Om nu någon mot förmodan ändå kör in i militärområdet så observera följande: OBSERVERA! Kör aldrig in på den väg som leder in till den röda stugan. Jag har varit i kontakt med markägaren (som bor här) som vänligt men bestämt klargjort att han absolut inte vill se någon bil på hans väg, alls. Han har dock inget emot att det klättras på klippan. Markägaren är handlingskraftig och tvekar inte att ta till lagliga medel för att snabbt få undan en eventuell felparkerad bil. Parkering ska ske ute vid stora vägen (S. Bålstaleden). Om ni ändå kör in i området (vilket inte är tillåtet), så kan man ställa sig längs med asfaltsvägen ca 200 m förbi infarten till den privata vägen (med risk för att tex få lappar från militären). Men som sagt, aldrig en bil in på den sista lilla privata vägen som leder fram till stugan. Det är lika gott att inte ens gå in på vägen (han har bosatt sig här för att få vara ifred, respekt!). Ta er istället ned till vattnet rakt ned från asfaltsvägen och följ strandlinjen bort till väggen."
+      "body": "Om nu någon mot förmodan ändå kör in i militärområdet så observera följande: OBSERVERA! Kör aldrig in på den väg som leder in till den röda stugan. Jag har varit i kontakt med markägaren (som bor här) som vänligt men bestämt klargjort att han absolut inte vill se någon bil på hans väg, alls. Han har dock inget emot att det klättras på klippan. Markägaren är handlingskraftig och tvekar inte att ta till lagliga medel för att snabbt få undan en eventuell felparkerad bil.\n\nParkering ska ske ute vid stora vägen (S. Bålstaleden). Om ni ändå kör in i området (vilket inte är tillåtet), så kan man ställa sig längs med asfaltsvägen ca 200 m förbi infarten till den privata vägen (med risk för att tex få lappar från militären).\nMen som sagt, aldrig en bil in på den sista lilla privata vägen som leder fram till stugan.\nDet är lika gott att inte ens gå in på vägen (han har bosatt sig här för att få vara ifred, respekt!). Ta er istället ned till vattnet rakt ned från asfaltsvägen och följ strandlinjen bort till väggen."
     },
     {
       "id": "leder",
@@ -46,7 +46,7 @@
     {
       "id": "takklippan",
       "title": "Takklippan",
-      "body": "Kategori:Sport Kategori:Överhäng Kategori:Vertikalt Kategori:Saknar skiss Kategori:Saknar skrivarformatering Kategori:Stockholm Kategori:Norra Stockholm"
+      "body": ""
     }
   ],
   "routes": [
@@ -342,19 +342,42 @@
   "images": [
     {
       "filename": "Gladaker.jpg",
-      "caption": "",
+      "caption": "Gladaker",
       "missing": false,
-      "sectorId": "huvudvaggen"
+      "sectorId": "huvudvaggen",
+      "routeIds": [
+        "gladaker-led-1",
+        "gladaker-led-2",
+        "gladaker-led-3",
+        "gladaker-led-4",
+        "gladaker-led-5",
+        "gladaker-led-6",
+        "gladaker-led-7",
+        "gladaker-led-8",
+        "gladaker-led-9",
+        "gladaker-led-10",
+        "gladaker-led-11",
+        "gladaker-led-12",
+        "gladaker-led-13",
+        "gladaker-led-14",
+        "gladaker-led-15",
+        "gladaker-led-16"
+      ]
     },
     {
       "filename": "Gladakertakklippan.jpg",
-      "caption": "",
+      "caption": "Gladakertakklippan",
       "missing": false,
-      "sectorId": "takklippan"
+      "sectorId": "takklippan",
+      "routeIds": [
+        "gladaker-led-17",
+        "gladaker-led-18"
+      ]
     }
   ],
+  "externalLinks": [],
   "access": {
-    "legacyText": "Om nu någon mot förmodan ändå kör in i militärområdet så observera följande: OBSERVERA! Kör aldrig in på den väg som leder in till den röda stugan. Jag har varit i kontakt med markägaren (som bor här) som vänligt men bestämt klargjort att han absolut inte vill se någon bil på hans väg, alls. Han har dock inget emot att det klättras på klippan. Markägaren är handlingskraftig och tvekar inte att ta till lagliga medel för att snabbt få undan en eventuell felparkerad bil. Parkering ska ske ute vid stora vägen (S. Bålstaleden). Om ni ändå kör in i området (vilket inte är tillåtet), så kan man ställa sig längs med asfaltsvägen ca 200 m förbi infarten till den privata vägen (med risk för att tex få lappar från militären). Men som sagt, aldrig en bil in på den sista lilla privata vägen som leder fram till stugan. Det är lika gott att inte ens gå in på vägen (han har bosatt sig här för att få vara ifred, respekt!). Ta er istället ned till vattnet rakt ned från asfaltsvägen och följ strandlinjen bort till väggen.",
+    "legacyText": "Om nu någon mot förmodan ändå kör in i militärområdet så observera följande: OBSERVERA! Kör aldrig in på den väg som leder in till den röda stugan. Jag har varit i kontakt med markägaren (som bor här) som vänligt men bestämt klargjort att han absolut inte vill se någon bil på hans väg, alls. Han har dock inget emot att det klättras på klippan. Markägaren är handlingskraftig och tvekar inte att ta till lagliga medel för att snabbt få undan en eventuell felparkerad bil.\n\nParkering ska ske ute vid stora vägen (S. Bålstaleden). Om ni ändå kör in i området (vilket inte är tillåtet), så kan man ställa sig längs med asfaltsvägen ca 200 m förbi infarten till den privata vägen (med risk för att tex få lappar från militären).\nMen som sagt, aldrig en bil in på den sista lilla privata vägen som leder fram till stugan.\nDet är lika gott att inte ens gå in på vägen (han har bosatt sig här för att få vara ifred, respekt!). Ta er istället ned till vattnet rakt ned från asfaltsvägen och följ strandlinjen bort till väggen.",
     "federationSlug": null
   },
   "qualityIssues": [],

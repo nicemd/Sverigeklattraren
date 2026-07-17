@@ -21,7 +21,7 @@
     {
       "id": "vagbeskrivning",
       "title": "Vägbeskrivning",
-      "body": "titel=Ekoberget lat=18318360 long=59327030 Åk Värmdöleden (väg 222) i riktning Gustavsberg. Ta av i Orminge/Lännersta. Åk över motorvägen mot Orminge. Följ sedan skyltar mot Gustavsberg (Gamla Värmdövägen). Följ skyltar mot Graninge, parkera vid Graninge Stiftgård. Gå ner till vattnet i vägens förlängning och ta höger längst stranden. Klippan ligger ca 200 meter bort. Jag håller på att gräva om vägen. följ orangea deviationen. Se även hitta.se"
+      "body": "Åk Värmdöleden (väg 222) i riktning Gustavsberg. Ta av i Orminge/Lännersta. Åk över motorvägen mot Orminge. Följ sedan skyltar mot Gustavsberg (Gamla Värmdövägen). Följ skyltar mot Graninge, parkera vid Graninge Stiftgård. Gå ner till vattnet i vägens förlängning och ta höger längst stranden. Klippan ligger ca 200 meter bort.\n\nJag håller på att gräva om vägen. följ orangea deviationen.\n\nSe även hitta.se (http://www.hitta.se/ViewDetailsPlace.aspx?PlaceId=2456943&SearchType=4&UCSB%3aWflWhite=1a1b&UCSB%3aWflPink=4a&UCSB%3aTextBoxWho=&UCSB%3aTextBoxWhere=ekoberget)"
     },
     {
       "id": "leder",
@@ -36,7 +36,7 @@
     {
       "id": "hogra-delen",
       "title": "Högra delen",
-      "body": "Kategori:Nacka-Värmdö Kategori:Stockholm Kategori : Trad Kategori : Mix Kategori : Sport Kategori : Vertikalt Kategori : Sva"
+      "body": "Kategori : Trad\nKategori : Mix\nKategori : Sport\nKategori : Vertikalt\nKategori : Sva"
     }
   ],
   "routes": [
@@ -764,21 +764,78 @@
   "images": [
     {
       "filename": "Ekoberget1.gif",
-      "caption": "",
+      "caption": "Vänstra delen · foto",
       "missing": false,
-      "sectorId": "vanstra-delen"
+      "sectorId": "vanstra-delen",
+      "routeIds": [
+        "ekoberget-led-1",
+        "ekoberget-led-2",
+        "ekoberget-led-3",
+        "ekoberget-led-4",
+        "ekoberget-led-5",
+        "ekoberget-led-6",
+        "ekoberget-led-7",
+        "ekoberget-led-8",
+        "ekoberget-led-9",
+        "ekoberget-led-10",
+        "ekoberget-led-11",
+        "ekoberget-led-12",
+        "ekoberget-led-13",
+        "ekoberget-led-14",
+        "ekoberget-led-15",
+        "ekoberget-led-16",
+        "ekoberget-led-17",
+        "ekoberget-led-18",
+        "ekoberget-led-19",
+        "ekoberget-led-20",
+        "ekoberget-led-21",
+        "ekoberget-led-22",
+        "ekoberget-led-23",
+        "ekoberget-led-24",
+        "ekoberget-led-25",
+        "ekoberget-led-26"
+      ]
     },
     {
       "filename": "Ekoberget2.gif",
-      "caption": "",
+      "caption": "Högra delen · foto",
       "missing": false,
-      "sectorId": "hogra-delen"
+      "sectorId": "hogra-delen",
+      "routeIds": []
     },
     {
       "filename": "Ekoberget3.gif",
-      "caption": "",
+      "caption": "Högra delen · foto",
       "missing": false,
-      "sectorId": "hogra-delen"
+      "sectorId": "hogra-delen",
+      "routeIds": [
+        "ekoberget-led-27",
+        "ekoberget-led-28",
+        "ekoberget-led-29",
+        "ekoberget-led-30",
+        "ekoberget-led-31",
+        "ekoberget-led-32",
+        "ekoberget-led-33",
+        "ekoberget-led-34",
+        "ekoberget-led-35",
+        "ekoberget-led-36",
+        "ekoberget-led-37",
+        "ekoberget-led-38",
+        "ekoberget-led-39",
+        "ekoberget-led-40",
+        "ekoberget-led-41",
+        "ekoberget-led-42",
+        "ekoberget-led-43",
+        "ekoberget-led-44",
+        "ekoberget-led-45"
+      ]
+    }
+  ],
+  "externalLinks": [
+    {
+      "url": "http://www.hitta.se/ViewDetailsPlace.aspx?PlaceId=2456943&SearchType=4&UCSB%3aWflWhite=1a1b&UCSB%3aWflPink=4a&UCSB%3aTextBoxWho=&UCSB%3aTextBoxWhere=ekoberget",
+      "label": "hitta.se",
+      "sectionId": "vagbeskrivning"
     }
   ],
   "access": {

@@ -3,7 +3,7 @@
   "id": "trollevagga",
   "slug": "trollevagga",
   "name": "Trollevägga",
-  "description": "Omedelbart öster om Mariannelund, följ väg norrut mot Kåremåla i ca 2 km. Parkera vid vandringsleden och följ denna ca 500 m in till berget. Kolla vädret vid Trollevägga",
+  "description": "Omedelbart öster om Mariannelund, följ väg norrut mot Kåremåla i ca 2 km. Parkera vid vandringsleden och följ denna ca 500 m in till berget.\n\nKolla vädret vid Trollevägga (http://www.hitta.se/LargeMap.aspx?z=6&cx=1484631&cy=6390571&PointX=1487111&PointY=6390671&referrer&var=Mariannelund&wflWhite=1a1b&wflPink=4a&SearchType=4&name=Trollev%e4gga&weather=true&forecastDate=&showTraffic=false)",
   "coordinates": {
     "latitude": 57.640568,
     "longitude": 15.589551
@@ -18,17 +18,17 @@
     {
       "id": "vagbeskrivning",
       "title": "Vägbeskrivning",
-      "body": "Omedelbart öster om Mariannelund, följ väg norrut mot Kåremåla i ca 2 km. Parkera vid vandringsleden och följ denna ca 500 m in till berget. Kolla vädret vid Trollevägga"
+      "body": "Omedelbart öster om Mariannelund, följ väg norrut mot Kåremåla i ca 2 km. Parkera vid vandringsleden och följ denna ca 500 m in till berget.\n\nKolla vädret vid Trollevägga (http://www.hitta.se/LargeMap.aspx?z=6&cx=1484631&cy=6390571&PointX=1487111&PointY=6390671&referrer&var=Mariannelund&wflWhite=1a1b&wflPink=4a&SearchType=4&name=Trollev%e4gga&weather=true&forecastDate=&showTraffic=false)"
     },
     {
       "id": "leder",
       "title": "Leder",
-      "body": "Varianter: Varianter (svårsäkrade): Till höger om huvudväggen ligger också:"
+      "body": "Varianter:Varianter (svårsäkrade):\nTill höger om huvudväggen ligger också:"
     },
     {
       "id": "lankar",
       "title": "Länkar",
-      "body": "Linköpings klätterklubbs beskrivning av Trollevägga. Förare tillhandahållen av Linköpings klätterklubb. Kategori:Småland"
+      "body": "Linköpings klätterklubbs beskrivning av Trollevägga (http://www.linkopingsklatterklubb.se/index.php/trollevagga.html).\n\nFörare tillhandahållen av Linköpings klätterklubb (http://linkopingsklatterklubb.se/index.php/forare.html)."
     }
   ],
   "routes": [
@@ -498,6 +498,23 @@
     }
   ],
   "images": [],
+  "externalLinks": [
+    {
+      "url": "http://www.hitta.se/LargeMap.aspx?z=6&cx=1484631&cy=6390571&PointX=1487111&PointY=6390671&referrer&var=Mariannelund&wflWhite=1a1b&wflPink=4a&SearchType=4&name=Trollev%e4gga&weather=true&forecastDate=&showTraffic=false",
+      "label": "Kolla vädret vid Trollevägga",
+      "sectionId": "vagbeskrivning"
+    },
+    {
+      "url": "http://www.linkopingsklatterklubb.se/index.php/trollevagga.html",
+      "label": "Linköpings klätterklubbs beskrivning av Trollevägga",
+      "sectionId": "lankar"
+    },
+    {
+      "url": "http://linkopingsklatterklubb.se/index.php/forare.html",
+      "label": "Linköpings klätterklubb",
+      "sectionId": "lankar"
+    }
+  ],
   "access": {
     "legacyText": null,
     "federationSlug": null

@@ -30,12 +30,12 @@
     {
       "id": "vagbeskrivning",
       "title": "Vägbeskrivning",
-      "body": "Karta här. Tryck på kartknappen ovan. Skriv vägbeskrivning här."
+      "body": "Karta här. Tryck på kartknappen ovan.\n\nSkriv vägbeskrivning här."
     },
     {
       "id": "leder",
       "title": "Leder",
-      "body": "Höger kolumn kategori:Saknar skiss kategori:Saknar vägbeskrivning kategori:Saknar leder kategori:Saknar koordinater kategori:Saknar skrivarformatering Category:Jämtland"
+      "body": "Höger kolumn"
     }
   ],
   "routes": [
@@ -59,11 +59,15 @@
   "images": [
     {
       "filename": "Skiss.gif",
-      "caption": "",
+      "caption": "Skiss",
       "missing": false,
-      "sectorId": "leder"
+      "sectorId": "leder",
+      "routeIds": [
+        "statsberget-led-1"
+      ]
     }
   ],
+  "externalLinks": [],
   "access": {
     "legacyText": null,
     "federationSlug": null

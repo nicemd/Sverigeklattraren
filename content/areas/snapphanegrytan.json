@@ -28,7 +28,7 @@
     {
       "id": "vagbeskrivning",
       "title": "Vägbeskrivning",
-      "body": "Karta här. Tryck på kartknappen ovan. Vägbeskrivning: från E6 ta av vid Hjärnarp och vidare upp mot Ugglehult/Lerbäckshult. Kör förbi Faxeröd, snart går den asfalterade vägen över till grusväg. Man passera vägen till djurholmen och kör sedan 1 km och får då en väg på vänstersida denna väg följs ca 2 km. En stuga och sjö dyker upp på högersida några hundrameter till och kolugnsvägen dyker upp på högerhand. Parkera här och gå de sista 300m på Kolungnsvägen. Klippan syns ny på vänster sida 40m in i skogen."
+      "body": "Karta här. Tryck på kartknappen ovan.\n\nVägbeskrivning: från E6 ta av vid Hjärnarp och vidare upp mot Ugglehult/Lerbäckshult. Kör förbi Faxeröd, snart går den asfalterade vägen över till grusväg. Man passera vägen till djurholmen och kör sedan 1 km och får då en väg på vänstersida denna väg följs ca 2 km. En stuga och sjö dyker upp på högersida några hundrameter till och kolugnsvägen dyker upp på högerhand. Parkera här och gå de sista 300m på Kolungnsvägen. Klippan syns ny på vänster sida 40m in i skogen."
     },
     {
       "id": "leder",
@@ -38,7 +38,7 @@
     {
       "id": "kontakt",
       "title": "Kontakt",
-      "body": "För mer info och bilder kolla Eskapader Höger kolumn Kategori:trad Kategori:vertikalt Kategori:överhäng kategori:Saknar koordinater kategori:Saknar karta kategori:Saknar skrivarformatering Category:Halland"
+      "body": "För mer info och bilder kolla Eskapader (http://www.eskapader.se)\n\nHöger kolumn"
     }
   ],
   "routes": [
@@ -222,9 +222,29 @@
   "images": [
     {
       "filename": "Nysnapphane.jpg",
-      "caption": "",
+      "caption": "Nysnapphane",
       "missing": false,
-      "sectorId": "leder"
+      "sectorId": "leder",
+      "routeIds": [
+        "snapphanegrytan-led-1",
+        "snapphanegrytan-led-2",
+        "snapphanegrytan-led-3",
+        "snapphanegrytan-led-4",
+        "snapphanegrytan-led-5",
+        "snapphanegrytan-led-6",
+        "snapphanegrytan-led-7",
+        "snapphanegrytan-led-8",
+        "snapphanegrytan-led-9",
+        "snapphanegrytan-led-10",
+        "snapphanegrytan-led-11"
+      ]
+    }
+  ],
+  "externalLinks": [
+    {
+      "url": "http://www.eskapader.se",
+      "label": "Eskapader",
+      "sectionId": "kontakt"
     }
   ],
   "access": {

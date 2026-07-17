@@ -40,7 +40,7 @@
     {
       "id": "brudarebacken",
       "title": "Brudarebacken",
-      "body": "Fortsätt förbi Brudaremossen. Kategori:Göteborg"
+      "body": "Fortsätt förbi Brudaremossen."
     }
   ],
   "routes": [
@@ -336,11 +336,25 @@
   "images": [
     {
       "filename": "Oversikt_vastralangvattnet.jpg",
-      "caption": "",
+      "caption": "Oversikt vastralangvattnet",
       "missing": false,
-      "sectorId": "harlanda-tjarn-vastra-langvattnet"
+      "sectorId": "harlanda-tjarn-vastra-langvattnet",
+      "routeIds": [
+        "delsjon-led-1",
+        "delsjon-led-2",
+        "delsjon-led-3",
+        "delsjon-led-4",
+        "delsjon-led-5",
+        "delsjon-led-6",
+        "delsjon-led-7",
+        "delsjon-led-8",
+        "delsjon-led-9",
+        "delsjon-led-10",
+        "delsjon-led-11"
+      ]
     }
   ],
+  "externalLinks": [],
   "access": {
     "legacyText": "Området är ett naturreservat och väldigt välbesökt. Följ de anvisningar som finns på uppsatta skyltar vid parkeringar och överallt i området.",
     "federationSlug": null

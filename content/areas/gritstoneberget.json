@@ -28,7 +28,7 @@
     {
       "id": "access",
       "title": "Access",
-      "body": "id=6 width=500 height=300 Hänsyn till boende. På senare år har relationerna med sommarstugeägarna nedanför vägen successivt försämrats. Under vintern 91/92 satte någon – olagligt – upp skyltar längs med vägen där det står tillträde förbjudet. Området är ett naturskyddsområde men Länsstyrelsen har hittills inte infört några restriktioner för klättring. För att konflikten inte skall förvärras måsta alla som klättrar här hjälpas åt. Allt som sägs uppe på klippan hörs otroligt väl nere vid sommarstugorna. Undvik därför att skrika och hojta i onödan. Många av parkeringsfickorna längs med vägen tillhör sommarstugorna, parkera klokt. Välj andra klippor för klätterkurser och dylika arrangemang."
+      "body": "id=6\nwidth=500\nheight=300\n\nHänsyn till boende. På senare år har relationerna med sommarstugeägarna nedanför vägen successivt försämrats. Under vintern 91/92 satte någon – olagligt – upp skyltar längs med vägen där det står tillträde förbjudet. Området är ett naturskyddsområde men Länsstyrelsen har hittills inte infört några restriktioner för klättring. För att konflikten inte skall förvärras måsta alla som klättrar här hjälpas åt. Allt som sägs uppe på klippan hörs otroligt väl nere vid sommarstugorna. Undvik därför att skrika och hojta i onödan. Många av parkeringsfickorna längs med vägen tillhör sommarstugorna, parkera klokt. Välj andra klippor för klätterkurser och dylika arrangemang."
     },
     {
       "id": "miljo",
@@ -38,7 +38,7 @@
     {
       "id": "vagbeskrivning",
       "title": "Vägbeskrivning:",
-      "body": "titel=Gritstoneberget lat=18391360 long=59201440 Ällmoraberget ligger längs norra sidan av Ällmoravägen på västsidan av halvön. Gritstone-klippan ligger 30 m från vägen uppe i skogen mitt emot tomt nr 92-94-96. Parkera längs med vägen. Nya koordinater: Lat: 59.12.00 Long: 18.23.34"
+      "body": "Ällmoraberget ligger längs norra sidan av Ällmoravägen på västsidan av halvön. Gritstone-klippan ligger 30 m från vägen uppe i skogen mitt emot tomt nr 92-94-96. Parkera längs med vägen.\nNya koordinater: Lat: 59.12.00 Long: 18.23.34"
     },
     {
       "id": "kommunikationer",
@@ -68,7 +68,7 @@
     {
       "id": "allmoraberget",
       "title": "Ällmoraberget",
-      "body": "Snett bakom parkeringsfickan finns ett annat intressant väggparti. Längst tv på klippan finns en tydlig kamindieder med ett kraftigt överhäng på slutet. Det högra partiet kännetecknas av markanta toppöverhäng, en fin spricklinje och ett stort träd som vilar mot klippan. Väggen avslutas åt h av en blockaktig pelare. Th om detta blir klippan av betydligt sämre kvalitet. Kategori:Sport Kategori:Trad Kategori:Stockholm Kategori:Tyresö"
+      "body": "Snett bakom parkeringsfickan finns ett annat intressant väggparti. Längst tv på klippan finns en tydlig kamindieder med ett kraftigt överhäng på slutet. Det högra partiet kännetecknas av markanta toppöverhäng, en fin spricklinje och ett stort träd som vilar mot klippan. Väggen avslutas åt h av en blockaktig pelare. Th om detta blir klippan av betydligt sämre kvalitet."
     }
   ],
   "routes": [
@@ -732,19 +732,30 @@
   "images": [
     {
       "filename": "Gritstone.png",
-      "caption": "",
+      "caption": "Gritstone",
       "missing": false,
-      "sectorId": "leder"
+      "sectorId": "leder",
+      "routeIds": []
     },
     {
       "filename": "Gritstone_mellan.png",
-      "caption": "",
+      "caption": "Gritstone mellan",
       "missing": false,
-      "sectorId": "allmoraberget"
+      "sectorId": "allmoraberget",
+      "routeIds": [
+        "gritstoneberget-led-35",
+        "gritstoneberget-led-36",
+        "gritstoneberget-led-37",
+        "gritstoneberget-led-38",
+        "gritstoneberget-led-39",
+        "gritstoneberget-led-40",
+        "gritstoneberget-led-41"
+      ]
     }
   ],
+  "externalLinks": [],
   "access": {
-    "legacyText": "id=6 width=500 height=300 Hänsyn till boende. På senare år har relationerna med sommarstugeägarna nedanför vägen successivt försämrats. Under vintern 91/92 satte någon – olagligt – upp skyltar längs med vägen där det står tillträde förbjudet. Området är ett naturskyddsområde men Länsstyrelsen har hittills inte infört några restriktioner för klättring. För att konflikten inte skall förvärras måsta alla som klättrar här hjälpas åt. Allt som sägs uppe på klippan hörs otroligt väl nere vid sommarstugorna. Undvik därför att skrika och hojta i onödan. Många av parkeringsfickorna längs med vägen tillhör sommarstugorna, parkera klokt. Välj andra klippor för klätterkurser och dylika arrangemang.",
+    "legacyText": "id=6\nwidth=500\nheight=300\n\nHänsyn till boende. På senare år har relationerna med sommarstugeägarna nedanför vägen successivt försämrats. Under vintern 91/92 satte någon – olagligt – upp skyltar längs med vägen där det står tillträde förbjudet. Området är ett naturskyddsområde men Länsstyrelsen har hittills inte infört några restriktioner för klättring. För att konflikten inte skall förvärras måsta alla som klättrar här hjälpas åt. Allt som sägs uppe på klippan hörs otroligt väl nere vid sommarstugorna. Undvik därför att skrika och hojta i onödan. Många av parkeringsfickorna längs med vägen tillhör sommarstugorna, parkera klokt. Välj andra klippor för klätterkurser och dylika arrangemang.",
     "federationSlug": null
   },
   "qualityIssues": [],

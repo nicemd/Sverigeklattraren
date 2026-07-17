@@ -3,7 +3,7 @@
   "id": "harso",
   "slug": "harso",
   "name": "Härsö",
-  "description": "Härsö ligger utanför Tyresö och har en brant sydspets vars väggar (Harso udde) är väl synliga från Tyresö-Brevik. Ett annat väggparti finns ca 500m längre norrut och har några artificiella turer. Härsö klack, det branta berget i NO ger också ett fåtal möjligheter. Till vänster om sjöklippan finns en mäktig vägg (ca 20m), som har få formationer och lär bjuda på svår klättring. En topprepstur är framborstad i vänsterkanten. På sjöklippan finns det ett flertal riktiga linjer kvar att göra,",
+  "description": "Härsö ligger utanför Tyresö och har en brant sydspets vars väggar (Harso udde) är väl synliga från Tyresö-Brevik. Ett annat väggparti finns ca 500m längre norrut och har några artificiella turer. Härsö klack, det branta berget i NO ger också ett fåtal möjligheter.\nTill vänster om sjöklippan finns en mäktig vägg (ca 20m), som har få formationer och lär bjuda på svår klättring. En topprepstur är framborstad i vänsterkanten.\n\nPå sjöklippan finns det ett flertal riktiga linjer kvar att göra,",
   "coordinates": {
     "latitude": 59.20926,
     "longitude": 18.41711
@@ -18,7 +18,7 @@
     {
       "id": "allmant",
       "title": "Allmänt",
-      "body": "Härsö ligger utanför Tyresö och har en brant sydspets vars väggar (Harso udde) är väl synliga från Tyresö-Brevik. Ett annat väggparti finns ca 500m längre norrut och har några artificiella turer. Härsö klack, det branta berget i NO ger också ett fåtal möjligheter. Till vänster om sjöklippan finns en mäktig vägg (ca 20m), som har få formationer och lär bjuda på svår klättring. En topprepstur är framborstad i vänsterkanten. På sjöklippan finns det ett flertal riktiga linjer kvar att göra,"
+      "body": "Härsö ligger utanför Tyresö och har en brant sydspets vars väggar (Harso udde) är väl synliga från Tyresö-Brevik. Ett annat väggparti finns ca 500m längre norrut och har några artificiella turer. Härsö klack, det branta berget i NO ger också ett fåtal möjligheter.\nTill vänster om sjöklippan finns en mäktig vägg (ca 20m), som har få formationer och lär bjuda på svår klättring. En topprepstur är framborstad i vänsterkanten.\n\nPå sjöklippan finns det ett flertal riktiga linjer kvar att göra,"
     },
     {
       "id": "vagbeskrivning",
@@ -38,7 +38,7 @@
     {
       "id": "udden",
       "title": "Udden",
-      "body": "Kategori:Stockholm Kategori:Tyresö Kategori:Saknar vägbeskrivning Kategori:Stockholms Skärgård"
+      "body": ""
     }
   ],
   "routes": [
@@ -270,11 +270,24 @@
   "images": [
     {
       "filename": "Harso.png",
-      "caption": "",
+      "caption": "Harso",
       "missing": false,
-      "sectorId": "udden"
+      "sectorId": "udden",
+      "routeIds": [
+        "harso-led-5",
+        "harso-led-6",
+        "harso-led-7",
+        "harso-led-8",
+        "harso-led-9",
+        "harso-led-10",
+        "harso-led-11",
+        "harso-led-12",
+        "harso-led-13",
+        "harso-led-14"
+      ]
     }
   ],
+  "externalLinks": [],
   "access": {
     "legacyText": null,
     "federationSlug": null

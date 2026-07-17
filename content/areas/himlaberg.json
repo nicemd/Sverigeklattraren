@@ -26,7 +26,7 @@
     {
       "id": "leder",
       "title": "Leder",
-      "body": "Kategori:Nacka-Värmdö Kategori:Stockholm Kategori:Trad Kategori:Mix Kategori:Sport"
+      "body": ""
     }
   ],
   "routes": [
@@ -114,11 +114,19 @@
   "images": [
     {
       "filename": "Himlaberg.png",
-      "caption": "",
+      "caption": "Leder · foto",
       "missing": false,
-      "sectorId": "leder"
+      "sectorId": "leder",
+      "routeIds": [
+        "himlaberg-led-1",
+        "himlaberg-led-2",
+        "himlaberg-led-3",
+        "himlaberg-led-4",
+        "himlaberg-led-5"
+      ]
     }
   ],
+  "externalLinks": [],
   "access": {
     "legacyText": null,
     "federationSlug": null

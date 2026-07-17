@@ -30,7 +30,7 @@
     {
       "id": "hogra-berget",
       "title": "Högra berget",
-      "body": "Kategori:Göteborg"
+      "body": ""
     }
   ],
   "routes": [
@@ -198,29 +198,46 @@
   "images": [
     {
       "filename": "Nylose_oversikt.jpg",
-      "caption": "",
+      "caption": "Nylose oversikt",
       "missing": false,
-      "sectorId": "mer"
+      "sectorId": "mer",
+      "routeIds": []
     },
     {
       "filename": "Vanstraberget.jpg",
-      "caption": "",
+      "caption": "Vanstraberget",
       "missing": false,
-      "sectorId": "vanstra-berget"
+      "sectorId": "vanstra-berget",
+      "routeIds": [
+        "nylose-led-1",
+        "nylose-led-2",
+        "nylose-led-3"
+      ]
     },
     {
       "filename": "Hograberget2.jpg",
-      "caption": "",
+      "caption": "Hograberget2",
       "missing": false,
-      "sectorId": "hogra-berget"
+      "sectorId": "hogra-berget",
+      "routeIds": []
     },
     {
       "filename": "Hograberget3.jpg",
-      "caption": "",
+      "caption": "Hograberget3",
       "missing": false,
-      "sectorId": "hogra-berget"
+      "sectorId": "hogra-berget",
+      "routeIds": [
+        "nylose-led-4",
+        "nylose-led-5",
+        "nylose-led-6",
+        "nylose-led-7",
+        "nylose-led-8",
+        "nylose-led-9",
+        "nylose-led-10"
+      ]
     }
   ],
+  "externalLinks": [],
   "access": {
     "legacyText": null,
     "federationSlug": null

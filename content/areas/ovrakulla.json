@@ -62,7 +62,7 @@
     {
       "id": "norra-huvudvaggen",
       "title": "Norra huvudväggen",
-      "body": "Höger kolumn kategori:Saknar skiss [[kategori:Saknar vägbeskrivning] kategori:Saknar skrivarformatering Category:Småland"
+      "body": "Höger kolumn"
     }
   ],
   "routes": [
@@ -262,11 +262,13 @@
   "images": [
     {
       "filename": "XXX",
-      "caption": "",
+      "caption": "XXX",
       "missing": true,
-      "sectorId": "leder"
+      "sectorId": "leder",
+      "routeIds": []
     }
   ],
+  "externalLinks": [],
   "access": {
     "legacyText": null,
     "federationSlug": null

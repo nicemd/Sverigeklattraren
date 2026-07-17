@@ -3,7 +3,7 @@
   "id": "kajehallar",
   "slug": "kajehallar",
   "name": "Kajehallar",
-  "description": "Cirka 400 m klippa uppdelad på sex partier. Lederna är antingen naturligt säkrade eller klättras på topprep. Det är enkelt att sätta topprep, men det krävs en hel del statiskt rep på sina håll. Ungefär mitt på väggen finns ett flackare parti med en stig upp.",
+  "description": "Cirka 400 m klippa uppdelad på sex partier.\n\nLederna är antingen naturligt säkrade eller klättras på topprep. Det är enkelt att sätta topprep, men det krävs en hel del statiskt rep på sina håll.\n\nUngefär mitt på väggen finns ett flackare parti med en stig upp.",
   "coordinates": {
     "latitude": 56.7897,
     "longitude": 12.83583
@@ -15,7 +15,7 @@
     {
       "id": "allmant",
       "title": "Allmänt",
-      "body": "Cirka 400 m klippa uppdelad på sex partier. Lederna är antingen naturligt säkrade eller klättras på topprep. Det är enkelt att sätta topprep, men det krävs en hel del statiskt rep på sina håll. Ungefär mitt på väggen finns ett flackare parti med en stig upp."
+      "body": "Cirka 400 m klippa uppdelad på sex partier.\n\nLederna är antingen naturligt säkrade eller klättras på topprep. Det är enkelt att sätta topprep, men det krävs en hel del statiskt rep på sina håll.\n\nUngefär mitt på väggen finns ett flackare parti med en stig upp."
     },
     {
       "id": "access",
@@ -25,7 +25,7 @@
     {
       "id": "hitta-hit",
       "title": "Hitta hit",
-      "body": "Klippan ligger på cykelavstånd från Halmstad (1,5 mil) och det går att ta sig hit med lokaltrafiken. Kör gamla göteborgsvägen till Kvibille. Vid gästgiveriet, ta av in på vägen mot Slättåkra och Oskarsström. Fortsätt cirka 400 meter och sväng sedan vänster in på Lundsgårdsvägen. I höjd med Ekegränd går ni höger in i skogen och följer högerkanten av dalen. Efter 300 meter kommer man till Originalväggen. Alternativt kör man in till höger på skogsvägen innan Ekegränd och följer den till den stora grusplanen där man kan parkera. Sedan är det bara att gå direkt åt vänster och snedda upp genom skogen så kommer man direkt på klipporna ovanifrån."
+      "body": "Klippan ligger på cykelavstånd från Halmstad (1,5 mil) och det går att ta sig hit med lokaltrafiken.\nKör gamla göteborgsvägen till Kvibille. Vid gästgiveriet, ta av in på vägen mot Slättåkra och Oskarsström. Fortsätt cirka 400 meter och sväng sedan vänster in på Lundsgårdsvägen. I höjd med Ekegränd går ni höger in i skogen och följer högerkanten av dalen. Efter 300 meter kommer man till Originalväggen.\nAlternativt kör man in till höger på skogsvägen innan Ekegränd och följer den till den stora grusplanen där man kan parkera. Sedan är det bara att gå direkt åt vänster och snedda upp genom skogen så kommer man direkt på klipporna ovanifrån."
     },
     {
       "id": "klippor",
@@ -65,7 +65,7 @@
     {
       "id": "kallor",
       "title": "Källor",
-      "body": "For more routes see http://www.mountain-environment.com/Rock_climbing_guide_Kajehallar.pdf Kategori:Halland"
+      "body": "For more routes see http://www.mountain-environment.com/Rock_climbing_guide_Kajehallar.pdf"
     }
   ],
   "routes": [
@@ -539,19 +539,48 @@
       "filename": "Original.jpg",
       "caption": "Slutet, Kongo, Stenen på benen, Fet och värdo",
       "missing": false,
-      "sectorId": "originalvaggen"
+      "sectorId": "originalvaggen",
+      "routeIds": []
     },
     {
       "filename": "Original2.jpg",
       "caption": "Mr. Mean, Arresterad",
       "missing": false,
-      "sectorId": "originalvaggen"
+      "sectorId": "originalvaggen",
+      "routeIds": [
+        "kajehallar-led-1",
+        "kajehallar-led-2",
+        "kajehallar-led-3",
+        "kajehallar-led-4",
+        "kajehallar-led-5",
+        "kajehallar-led-6",
+        "kajehallar-led-7",
+        "kajehallar-led-8",
+        "kajehallar-led-9",
+        "kajehallar-led-10"
+      ]
     },
     {
       "filename": "Blacklabel.jpg",
       "caption": "Lugna Gatan, Black Label, Svarta konster",
       "missing": false,
-      "sectorId": "black-labelvaggen"
+      "sectorId": "black-labelvaggen",
+      "routeIds": [
+        "kajehallar-led-13",
+        "kajehallar-led-14",
+        "kajehallar-led-15",
+        "kajehallar-led-16",
+        "kajehallar-led-17",
+        "kajehallar-led-18",
+        "kajehallar-led-19"
+      ]
+    }
+  ],
+  "externalLinks": [
+    {
+      "url": "http://www.mountain-environment.com/Rock_climbing_guide_Kajehallar.pdf",
+      "label": "Rock_climbing_guide_Kajehallar.pdf",
+      "sectionId": "kallor"
     }
   ],
   "access": {

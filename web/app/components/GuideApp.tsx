@@ -10,6 +10,13 @@ const formatDate = (value: string | null | undefined) => value
   ? new Intl.DateTimeFormat("sv-SE", { dateStyle: "long" }).format(new Date(value))
   : "datum saknas";
 
+function RichText({ text }: { text: string }) {
+  const pieces = text.split(/(https?:\/\/[^\s)]+)/g);
+  return <>{pieces.map((piece, index) => /^https?:\/\//.test(piece)
+    ? <a className="inline-link" href={piece} target="_blank" rel="noreferrer" key={`${piece}-${index}`}>{piece}</a>
+    : <Fragment key={index}>{piece}</Fragment>)}</>;
+}
+
 function areaMatches(area: AreaSummary, query: string, filter: string) {
   const haystack = `${area.name} ${area.description} ${area.categories.join(" ")} ${area.searchText}`.toLocaleLowerCase("sv");
   const matchesQuery = haystack.includes(query.toLocaleLowerCase("sv").trim());
@@ -122,8 +129,9 @@ function AreaMap({ area }: { area: Area }) {
   useEffect(() => {
     if (!mapRef.current || !area.coordinates?.latitude || !area.coordinates.longitude) return;
     let map: import("maplibre-gl").Map | undefined;
+    let cancelled = false;
     import("maplibre-gl").then(({ default: maplibregl }) => {
-      if (!mapRef.current) return;
+      if (cancelled || !mapRef.current) return;
       map = new maplibregl.Map({
         container: mapRef.current,
         style: "https://tiles.openfreemap.org/styles/bright",
@@ -137,7 +145,7 @@ function AreaMap({ area }: { area: Area }) {
         .addTo(map);
       map.addControl(new maplibregl.NavigationControl({ showCompass: false }), "top-right");
     });
-    return () => map?.remove();
+    return () => { cancelled = true; map?.remove(); };
   }, [area]);
   return <div id="area-map" ref={mapRef} aria-label={`Karta över ${area.name}`} />;
 }
@@ -145,44 +153,81 @@ function AreaMap({ area }: { area: Area }) {
 function AreaView({ area, access, globalQuery, onSuggest }: { area: Area; access: AccessInfo | null; globalQuery: string; onSuggest: () => void }) {
   const routeCount = area.routes.length;
   const [routeQuery, setRouteQuery] = useState("");
+  const [discipline, setDiscipline] = useState<"all" | "route" | "problem">("all");
   const [sectorId, setSectorId] = useState("all");
+  const [openImage, setOpenImage] = useState<Area["images"][number] | null>(null);
+  const [selectedRouteId, setSelectedRouteId] = useState<string | null>(null);
+  const [showBeta, setShowBeta] = useState(false);
   const normalizedGlobalQuery = globalQuery.trim().toLocaleLowerCase("sv");
-  const globalRouteQuery = normalizedGlobalQuery && area.routes.some((route) => `${route.name} ${route.grade}`.toLocaleLowerCase("sv").includes(normalizedGlobalQuery)) ? globalQuery.trim() : "";
+  const globalRouteQuery = normalizedGlobalQuery
+    && normalizedGlobalQuery !== area.name.toLocaleLowerCase("sv")
+    && area.routes.some((route) => `${route.name} ${route.grade}`.toLocaleLowerCase("sv").includes(normalizedGlobalQuery)) ? globalQuery.trim() : "";
   const effectiveRouteQuery = routeQuery || globalRouteQuery;
   const normalizedRouteQuery = effectiveRouteQuery.toLocaleLowerCase("sv").trim();
   const sectionById = useMemo(() => new Map(area.sections.map((section) => [section.id, section])), [area.sections]);
   const sectors = useMemo(() => {
     const counts = new Map<string, { id: string; title: string; count: number }>();
     area.routes.forEach((route) => {
+      if (discipline !== "all" && route.kind !== discipline) return;
       if (!route.sectorId) return;
       const current = counts.get(route.sectorId);
       counts.set(route.sectorId, { id: route.sectorId, title: sectionById.get(route.sectorId)?.title || "Övriga leder", count: (current?.count || 0) + 1 });
     });
     return [...counts.values()];
-  }, [area.routes, sectionById]);
+  }, [area.routes, discipline, sectionById]);
   const visibleRoutes = area.routes.filter((route) => {
+    const matchesDiscipline = discipline === "all" || route.kind === discipline;
     const matchesSector = sectorId === "all" || route.sectorId === sectorId;
     const haystack = `${route.name} ${route.grade} ${route.type} ${route.description}`.toLocaleLowerCase("sv");
-    return matchesSector && (!normalizedRouteQuery || haystack.includes(normalizedRouteQuery));
+    return matchesDiscipline && matchesSector && (!normalizedRouteQuery || haystack.includes(normalizedRouteQuery));
   });
   const exactRoute = visibleRoutes.length === 1 ? visibleRoutes[0] : null;
   const exactSector = exactRoute?.sectorId ? area.sections.find((section) => section.id === exactRoute.sectorId) : null;
-  const sectorRoutes = exactRoute?.sectorId ? area.routes.filter((route) => route.sectorId === exactRoute.sectorId) : [];
+  const sectorRoutes = exactRoute?.sectorId ? area.routes.filter((route) => route.sectorId === exactRoute.sectorId && route.kind === exactRoute.kind) : [];
   const exactIndex = exactRoute ? sectorRoutes.findIndex((route) => route.id === exactRoute.id) : -1;
+  const exactSourceIds = exactRoute ? [...new Set([exactRoute.source.id, ...Object.values(exactRoute.fieldSources || {}).flat()])] : [];
+  const disciplineSectorIds = new Set(area.routes.filter((route) => discipline === "all" || route.kind === discipline).map((route) => route.sectorId).filter(Boolean));
   const preferredImageSector = sectorId !== "all" ? sectorId : exactRoute?.sectorId;
   const visibleImages = area.images
-    .filter((image) => !image.missing && (sectorId === "all" || !image.sectorId || image.sectorId === sectorId))
+    .filter((image) => !image.missing
+      && (discipline === "all" || !image.sectorId || disciplineSectorIds.has(image.sectorId))
+      && (sectorId === "all" || !image.sectorId || image.sectorId === sectorId))
     .sort((left, right) => Number(right.sectorId === preferredImageSector) - Number(left.sectorId === preferredImageSector));
+  const directions = area.sections.find((section) => /vägbeskrivning|hitta hit|anmarsch/i.test(section.title));
+  const routeTotal = area.routes.filter((route) => route.kind === "route").length;
+  const problemTotal = area.routes.filter((route) => route.kind === "problem").length;
+  const disciplineTotal = discipline === "route" ? routeTotal : discipline === "problem" ? problemTotal : routeCount;
+  const selectedRoute = selectedRouteId ? area.routes.find((route) => route.id === selectedRouteId) || null : null;
+  const selectedRouteSector = selectedRoute?.sectorId ? sectionById.get(selectedRoute.sectorId) : null;
+  const selectedRouteSources = selectedRoute ? [...new Set([selectedRoute.source.id, ...Object.values(selectedRoute.fieldSources || {}).flat()])] : [];
+  const selectedRouteImageKey = selectedRoute?.name.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLocaleLowerCase("sv").replace(/[^a-z0-9]+/g, "") || "";
+  const selectedRouteImages = selectedRoute ? area.images
+    .filter((image) => !image.missing && (!selectedRoute.sectorId || image.sectorId === selectedRoute.sectorId))
+    .sort((left, right) => {
+      const score = (image: Area["images"][number]) => Number(image.routeIds?.includes(selectedRoute.id)) * 2 + Number(image.filename.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLocaleLowerCase("sv").replace(/[^a-z0-9]+/g, "").includes(selectedRouteImageKey));
+      return score(right) - score(left);
+    })
+    : [];
+  const openImageRoute = selectedRoute && openImage?.routeIds?.includes(selectedRoute.id) ? selectedRoute : null;
+  const openImageRouteColor = openImageRoute?.description.match(/^\(([^)]+)\)/)?.[1] || null;
+  const climbingLabel = routeTotal > 0 && problemTotal > 0 ? "Repklättring · Bouldering" : problemTotal > 0 ? "Bouldering" : routeTotal > 0 ? "Repklättring" : "Svenskt klätterområde";
+  const countLabel = routeTotal > 0 && problemTotal > 0 ? "leder & problem" : problemTotal > 0 ? "problem" : "leder";
+  const routeSectorIds = new Set(area.routes.map((route) => route.sectorId).filter(Boolean));
+  const looseSections = area.sections.filter((section) => section.body
+    && !routeSectorIds.has(section.id)
+    && section.id !== directions?.id
+    && !/^(allmänt|access)$/i.test(section.title)
+    && section.body !== area.description);
 
   return (
     <>
       <section className="hero-grid">
         <article className="area-hero">
-          <span className="eyebrow">{area.categories.slice(0, 2).join(" · ") || "Svenskt klätterområde"}</span>
+          <span className="eyebrow">{climbingLabel}</span>
           <h1>{area.name}</h1>
-          <p>{area.description}</p>
+          <p><RichText text={area.description} /></p>
           <div className="hero-stats">
-            <div className="hero-stat"><strong>{routeCount}</strong><span>leder & problem</span></div>
+            <div className="hero-stat"><strong>{routeCount}</strong><span>{countLabel}</span></div>
             <div className="hero-stat"><strong>{area.images.length}</strong><span>bilder & topos</span></div>
             <div className="hero-stat"><strong>{new Set(area.routes.map((route) => route.grade).filter(Boolean)).size}</strong><span>grader</span></div>
           </div>
@@ -193,56 +238,79 @@ function AreaView({ area, access, globalQuery, onSuggest }: { area: Area; access
         </div>
       </section>
 
+      <section className="arrival-card" aria-labelledby="arrival-title">
+        <div><span className="eyebrow" style={{ color: "var(--forest)" }}>På väg till berget</span><h2 id="arrival-title">Hitta klippan</h2></div>
+        <p><RichText text={directions?.body || "Originalkällan saknar en strukturerad vägbeskrivning. Använd kartpunkten med försiktighet och föreslå gärna en verifierad anmarsch."} /></p>
+        {area.coordinates?.latitude && area.coordinates.longitude && <a className="primary-button directions-button" href={`https://www.google.com/maps/dir/?api=1&destination=${area.coordinates.latitude},${area.coordinates.longitude}`} target="_blank" rel="noreferrer">Vägbeskrivning ↗</a>}
+        <small>Vägbeskrivningen är från 2014. Kontrollera alltid aktuell access före avfärd.</small>
+      </section>
+
       <section className="content-grid">
         <article className="panel">
-          <div className="panel-heading"><div><span className="eyebrow" style={{ color: "var(--forest)" }}>Fältläge</span><h2>Hitta leden</h2></div><span>Från Sverigeföraren 2014</span></div>
-          <div className="route-finder">
+          <div className="panel-heading"><div><span className="eyebrow" style={{ color: "var(--forest)" }}>Fältläge</span><h2>{routeCount ? "Hitta leden" : "Originalförarens anteckningar"}</h2></div><span>Från Sverigeföraren 2014</span></div>
+          {routeCount > 0 && <div className="route-finder">
+            {routeTotal > 0 && problemTotal > 0 && <div className="discipline-tabs" aria-label="Välj klätterform">
+              <button type="button" className={discipline === "all" ? "active" : ""} onClick={() => { setDiscipline("all"); setSectorId("all"); }}>Allt <small>{routeCount}</small></button>
+              <button type="button" className={discipline === "route" ? "active" : ""} onClick={() => { setDiscipline("route"); setSectorId("all"); }}>Repklättring <small>{routeTotal}</small></button>
+              <button type="button" className={discipline === "problem" ? "active" : ""} onClick={() => { setDiscipline("problem"); setSectorId("all"); }}>Bouldering <small>{problemTotal}</small></button>
+            </div>}
             <label>
               <span className="sr-only">Sök led i {area.name}</span>
-              <input value={effectiveRouteQuery} onChange={(event) => setRouteQuery(event.target.value)} placeholder={`Sök bland ${routeCount} leder och problem…`} />
+              <input value={effectiveRouteQuery} onChange={(event) => setRouteQuery(event.target.value)} placeholder={`Sök bland ${routeCount} ${countLabel}…`} />
             </label>
             <div className="sector-tabs" aria-label="Välj sektor">
-              <button type="button" className={sectorId === "all" ? "active" : ""} onClick={() => setSectorId("all")}>Alla <small>{routeCount}</small></button>
+              <button type="button" className={sectorId === "all" ? "active" : ""} onClick={() => setSectorId("all")}>Alla sektorer <small>{disciplineTotal}</small></button>
               {sectors.map((sector) => <button type="button" key={sector.id} className={sectorId === sector.id ? "active" : ""} onClick={() => setSectorId(sector.id)}>{sector.title} <small>{sector.count}</small></button>)}
             </div>
-          </div>
+          </div>}
           {exactRoute && (
             <div className="field-result" role="status">
               <span className="field-result-kicker">{exactSector ? `Sektor ${exactSector.title}` : "Sektor saknas i källan"}</span>
               <strong>{exactRoute.name} · {exactRoute.grade || "ograderad"}</strong>
-              {exactSector?.body && <p>{exactSector.body}</p>}
+              {exactSector?.body && <p><RichText text={exactSector.body} /></p>}
               {exactIndex >= 0 && <div className="route-neighbours"><span>Vänster: <b>{sectorRoutes[exactIndex - 1]?.name || "sektorgräns"}</b></span><span>Position <b>{exactIndex + 1} av {sectorRoutes.length}</b> i sektorn</span><span>Höger: <b>{sectorRoutes[exactIndex + 1]?.name || "sektorgräns"}</b></span></div>}
+              <div className="route-citations"><span>Källor för leden</span>{exactSourceIds.map((sourceId) => {
+                const source = area.provenance.sources.find((item) => item.id === sourceId);
+                if (!source) return null;
+                const fields = Object.entries(exactRoute.fieldSources || {}).filter(([, ids]) => ids?.includes(sourceId)).map(([field]) => field);
+                const href = source.url || `/api/source/${area.slug}`;
+                return <a key={sourceId} href={href} target="_blank" rel="noreferrer">{source.title}{fields.length ? ` · ${fields.join(", ")}` : " · importerad led"} ↗</a>;
+              })}</div>
             </div>
           )}
+          {looseSections.length > 0 && <section className="legacy-notes" aria-label="Anteckningar från originalföraren">
+            <div className="legacy-notes-heading"><strong>Anteckningar från originalföraren</strong><span>Historiskt, löst strukturerat material</span></div>
+            {looseSections.map((section) => <article key={section.id}><h3>{section.title}</h3><p><RichText text={section.body} /></p></article>)}
+          </section>}
           {visibleImages.length > 0 && (
             <div className="image-strip" aria-label={`Bilder från ${area.name}`}>
               {visibleImages.slice(0, 3).map((image) => (
-                <a key={image.filename} href={`/api/media/${encodeURIComponent(image.filename)}`} target="_blank" rel="noreferrer" title="Öppna topo eller bild i full storlek">
+                <button type="button" key={image.filename} onClick={() => setOpenImage(image)} title="Visa skiss eller bild i full storlek" aria-label={`Visa bild: ${image.caption}`}>
                   <figure>
                   {/* eslint-disable-next-line @next/next/no-img-element */}
                   <img src={`/api/media/${encodeURIComponent(image.filename)}`} alt={image.caption || `Klättring vid ${area.name}`} loading="lazy" />
-                  <figcaption>{image.sectorId && sectionById.get(image.sectorId) ? `${sectionById.get(image.sectorId)!.title} · ` : ""}{image.caption || "Öppna i full storlek"}</figcaption>
+                  <figcaption>{image.sectorId && sectionById.get(image.sectorId) ? `${sectionById.get(image.sectorId)!.title} · ` : ""}{image.caption || "Visa skiss"}</figcaption>
                   </figure>
-                </a>
+                </button>
               ))}
             </div>
           )}
           <div className="route-list">
             {visibleRoutes.map((route, visibleIndex) => (
               <Fragment key={route.id}>
-              {(visibleIndex === 0 || visibleRoutes[visibleIndex - 1]?.sectorId !== route.sectorId) && <div className="sector-heading"><strong>{route.sectorId ? sectionById.get(route.sectorId)?.title || "Övriga leder" : "Övriga leder"}</strong><span>{route.sectorId ? sectionById.get(route.sectorId)?.body || "Sektorsbeskrivning saknas i originalet." : "Sektorsbeskrivning saknas i originalet."}</span></div>}
-              <div className={`route-row ${exactRoute?.id === route.id ? "highlighted" : ""}`}>
-                <span className="route-number">{route.number || (route.sectorId ? area.routes.filter((item) => item.sectorId === route.sectorId).findIndex((item) => item.id === route.id) + 1 : area.routes.findIndex((item) => item.id === route.id) + 1)}</span>
-                <div className="route-name"><strong>{route.name}</strong>{route.description && <small>{route.description}</small>}</div>
+              {(visibleIndex === 0 || visibleRoutes[visibleIndex - 1]?.sectorId !== route.sectorId) && <div className="sector-heading"><strong>{route.sectorId ? sectionById.get(route.sectorId)?.title || "Övriga leder" : "Övriga leder"}</strong><span><RichText text={route.sectorId ? sectionById.get(route.sectorId)?.body || "Sektorsbeskrivning saknas i originalet." : "Sektorsbeskrivning saknas i originalet."} /></span></div>}
+              <button type="button" className={`route-row ${exactRoute?.id === route.id ? "highlighted" : ""}`} onClick={() => { setSelectedRouteId(route.id); setShowBeta(false); }} aria-label={`Öppna fältkort för ${route.name}`}>
+                <span className="route-number" title={route.number ? "Nummer i originalets skiss/lista" : "Lednummer saknas i originalkällan"}>{route.number || "–"}</span>
+                <span className="route-name"><strong>{route.name}</strong><small>Visa fältkort</small></span>
                 <span className="grade">{route.grade || "–"}</span>
                 <span className="route-length">{route.length ? `${route.length} m` : route.type}</span>
-              </div>
+              </button>
               </Fragment>
             ))}
-            {!area.routes.length && <div className="empty">Inga strukturerade leder hittades i originalet.</div>}
+            {!area.routes.length && <div className="empty">Originalet innehåller inga ledposter som säkert kan struktureras. Anteckningar och externa länkar visas ändå ovan.</div>}
             {area.routes.length > 0 && !visibleRoutes.length && <div className="empty">Ingen led matchar sökningen i vald sektor.</div>}
           </div>
-          <div className="list-note">Visar {visibleRoutes.length} av {area.routes.length}. Ledordning och sektortext kommer från originalkällan.</div>
+          {area.routes.length > 0 && <div className="list-note">Visar {visibleRoutes.length} av {area.routes.length}. Ledordning och sektortext kommer från originalkällan.</div>}
         </article>
 
         <aside>
@@ -254,13 +322,41 @@ function AreaView({ area, access, globalQuery, onSuggest }: { area: Area; access
           </article>
           <article className="panel source-card">
             <span className="eyebrow" style={{ color: "var(--forest)" }}>Källspårning</span>
-            <h2>{area.provenance.sources.length} primärkälla</h2>
-            <p>Varje importerad uppgift är kopplad till originalfilen. Nya uppgifter kräver uttrycklig källa och granskningsresultat.</p>
-            <a className="source-link" href={`/api/source/${area.slug}`} target="_blank"><span>{area.provenance.sources[0]?.title}<br /><small>GNU FDL · ögonblicksbild 2014</small></span><span>↗</span></a>
+            <h2>{area.provenance.sources.length} {area.provenance.sources.length === 1 ? "källa" : "källor"}</h2>
+            <p>Legacyuppgifter pekar på originalfilen. Externa fakta spåras per fält på berörd led; en faktareferens ger aldrig rätt att kopiera beskrivning, bild eller topo.</p>
+            {area.provenance.sources.map((source) => <a className="source-link" key={source.id} href={source.url || `/api/source/${area.slug}`} target="_blank" rel="noreferrer"><span>{source.title}<br /><small>{source.usage === "fact-reference" ? "Faktareferens · inget material återpublicerat" : `${source.license || "Källmaterial"} · ${source.snapshotDate ? `ögonblicksbild ${source.snapshotDate.slice(0, 4)}` : "spårad källa"}`}</small></span><span>↗</span></a>)}
+            {area.externalLinks?.map((link) => <a className="source-link external" key={link.url} href={link.url} target="_blank" rel="noreferrer"><span>{link.label || "Extern länk"}<br /><small>Extern länk från originalföraren · materialet återpubliceras inte</small></span><span>↗</span></a>)}
             <button className="primary-button" style={{ width: "100%", marginTop: 18 }} type="button" onClick={onSuggest}>Föreslå förbättring</button>
           </article>
         </aside>
       </section>
+      {openImage && <div className="image-modal" role="presentation" onMouseDown={(event) => { if (event.target === event.currentTarget) setOpenImage(null); }}>
+        <section role="dialog" aria-modal="true" aria-label={`Skiss eller bild från ${area.name}`}>
+          <div className="image-modal-head"><div><span className="eyebrow">{openImage.sectorId ? sectionById.get(openImage.sectorId)?.title || area.name : area.name}</span><strong>{openImage.caption || "Skiss från originalföraren"}</strong></div><button type="button" onClick={() => setOpenImage(null)} aria-label="Stäng skiss">×</button></div>
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img src={`/api/media/${encodeURIComponent(openImage.filename)}`} alt={openImage.caption || `Skiss eller bild från ${area.name}`} />
+          {openImageRoute && <div className="image-route-context"><strong>{openImageRoute.number || "Utan nummer"} · {openImageRoute.name}</strong><span>{openImageRoute.grade || "Ograderad"}{openImageRouteColor ? ` · ${openImageRouteColor.toLocaleLowerCase("sv")} i originaltopon` : ""}</span></div>}
+          <p>Lednumren i listan motsvarar originalskissen när ett nummer finns angivet i källan.</p>
+        </section>
+      </div>}
+      {selectedRoute && <div className="route-detail-backdrop" role="presentation" onMouseDown={(event) => { if (event.target === event.currentTarget) setSelectedRouteId(null); }}>
+        <section className="route-detail" role="dialog" aria-modal="true" aria-label={`Fältkort för ${selectedRoute.name}`}>
+          <div className="route-detail-head">
+            <div><span className="eyebrow">{selectedRouteSector?.title || "Sektor saknas"} · {selectedRoute.number || "utan nummer"}</span><h2>{selectedRoute.name}</h2></div>
+            <button type="button" onClick={() => setSelectedRouteId(null)} aria-label="Stäng fältkort">×</button>
+          </div>
+          <div className="route-detail-facts"><strong>{selectedRoute.grade || "Ograderad"}</strong><span>{selectedRoute.kind === "problem" ? "Boulderproblem" : "Klätterled"}</span>{selectedRoute.length && <span>{selectedRoute.length} m</span>}{selectedRoute.type && <span>{selectedRoute.type}</span>}</div>
+          {selectedRoute.firstAscent && <p className="first-ascent">Förstebestigning: <strong>{selectedRoute.firstAscent}</strong></p>}
+          {selectedRoute.description ? <div className="beta-panel">
+            {!showBeta ? <button type="button" className="beta-toggle" onClick={() => setShowBeta(true)}>Visa beta</button> : <><div className="beta-heading"><strong>Beta från originalföraren</strong><button type="button" onClick={() => setShowBeta(false)}>Dölj beta</button></div><p><RichText text={selectedRoute.description} /></p></>}
+          </div> : <p className="no-beta">Originalföraren innehåller ingen beta för {selectedRoute.kind === "problem" ? "problemet" : "leden"}.</p>}
+          {selectedRouteImages.length > 0 && <div className="route-detail-images"><div><strong>Sektorns bilder & topos</strong><span>Tryck för full storlek</span></div><div>{selectedRouteImages.slice(0, 4).map((image) => <button type="button" key={image.filename} onClick={() => setOpenImage(image)} aria-label={`Visa bild: ${image.caption}`}>
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img src={`/api/media/${encodeURIComponent(image.filename)}`} alt={image.caption} /><span>{image.caption}</span>
+          </button>)}</div></div>}
+          <div className="route-detail-sources"><strong>Källor för uppgifterna</strong>{selectedRouteSources.map((sourceId) => { const source = area.provenance.sources.find((item) => item.id === sourceId); return source ? <a key={sourceId} href={source.url || `/api/source/${area.slug}`} target="_blank" rel="noreferrer">{source.title} ↗</a> : null; })}</div>
+        </section>
+      </div>}
     </>
   );
 }

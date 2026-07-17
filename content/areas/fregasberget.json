@@ -49,12 +49,12 @@
     {
       "id": "centralvaggen",
       "title": "Centralväggen",
-      "body": "Centralväggen är Fregåsbergets högsta klippa. Här finns det vid skrivande stunden ca. 23 leder av hög kvalitet i olika svårigheter och stiler. Miljön är trivsamt, dock kan trafikbuller ibland vara irriterande. Se översiktskartan för placering och vägbeskrivning. I dagsläget saknas en detaljerad skiss för denna klippa. Curlie crankin hard på Craig's crack. Foto: Rikard Borres Ulf bränner av Stora klöften. Foto: Rikard Borres"
+      "body": "Centralväggen är Fregåsbergets högsta klippa. Här finns det vid skrivande stunden ca. 23 leder av hög kvalitet i olika svårigheter och stiler. Miljön är trivsamt, dock kan trafikbuller ibland vara irriterande. Se översiktskartan för placering och vägbeskrivning. I dagsläget saknas en detaljerad skiss för denna klippa.\n\nCurlie crankin hard på Craig's crack. Foto: Rikard Borres\n\nUlf bränner av Stora klöften. Foto: Rikard Borres"
     },
     {
       "id": "siam-stenen",
       "title": "Siam-stenen",
-      "body": "Siam- stenen är det fristående pyramid-liknandeblocket nedanför stora grottan. Här finns det 2 bultade leder. På en svaplatta cirka 15m till höger om Siam-stenen finns ytteliggare en kort fristående led."
+      "body": "Siam- stenen är det fristående pyramid-liknandeblocket nedanför stora grottan. Här finns det 2 bultade leder.\n\nPå en svaplatta cirka 15m till höger om Siam-stenen finns ytteliggare en kort fristående led."
     },
     {
       "id": "smalavaggen",
@@ -64,7 +64,7 @@
     {
       "id": "gomdaklippan",
       "title": "Gömdaklippan",
-      "body": "En mycket trevlig liten klippväg som ligger lugnt och avskilt uppe i skogen. Lederna här är generellt kortare än vid centralväggen, dock saknas trafikljud vilket gör miljön mycket trivsam. I dagsläget finns det 17 leder här inklusive Mattias Flodins Jag hatar mig själv och jag vill dö 8+, bergets svåraste led. Spot-Squad send-fest på 2 för 1. Följande leder finns på en vägg 20m till höger om The knife blocket: kategori:Saknar skiss kategori:Saknar koordinater Category:Dalarna"
+      "body": "En mycket trevlig liten klippväg som ligger lugnt och avskilt uppe i skogen. Lederna här är generellt kortare än vid centralväggen, dock saknas trafikljud vilket gör miljön mycket trivsam. I dagsläget finns det 17 leder här inklusive Mattias Flodins Jag hatar mig själv och jag vill dö 8+, bergets svåraste led.\n\nSpot-Squad send-fest på 2 för 1.\n\nFöljande leder finns på en vägg 20m till höger om The knife blocket:"
     }
   ],
   "routes": [
@@ -888,41 +888,92 @@
   "images": [
     {
       "filename": "Fregåsberget_översiktskarta.png",
-      "caption": "",
+      "caption": "översiktskarta",
       "missing": false,
-      "sectorId": "oversiktskarta"
+      "sectorId": "oversiktskarta",
+      "routeIds": []
     },
     {
       "filename": "Fregåsberget_2.jpg",
-      "caption": "",
+      "caption": "Centralväggen · foto",
       "missing": false,
-      "sectorId": "centralvaggen"
+      "sectorId": "centralvaggen",
+      "routeIds": [
+        "fregasberget-led-8",
+        "fregasberget-led-9",
+        "fregasberget-led-10",
+        "fregasberget-led-11",
+        "fregasberget-led-12",
+        "fregasberget-led-13",
+        "fregasberget-led-14",
+        "fregasberget-led-15",
+        "fregasberget-led-16",
+        "fregasberget-led-17",
+        "fregasberget-led-18",
+        "fregasberget-led-19",
+        "fregasberget-led-20"
+      ]
     },
     {
       "filename": "Fregåsberget_1.jpg",
-      "caption": "",
+      "caption": "Centralväggen · foto",
       "missing": false,
-      "sectorId": "centralvaggen"
+      "sectorId": "centralvaggen",
+      "routeIds": [
+        "fregasberget-led-21",
+        "fregasberget-led-22",
+        "fregasberget-led-23",
+        "fregasberget-led-24",
+        "fregasberget-led-25",
+        "fregasberget-led-26",
+        "fregasberget-led-27"
+      ]
     },
     {
       "filename": "Gömdaklippan_nedredelen.png",
-      "caption": "",
+      "caption": "Gömdaklippan nedredelen",
       "missing": false,
-      "sectorId": "gomdaklippan"
+      "sectorId": "gomdaklippan",
+      "routeIds": [
+        "fregasberget-led-34",
+        "fregasberget-led-35",
+        "fregasberget-led-36",
+        "fregasberget-led-37",
+        "fregasberget-led-38"
+      ]
     },
     {
       "filename": "2_for_1.png",
-      "caption": "",
+      "caption": "2 för 1",
       "missing": false,
-      "sectorId": "gomdaklippan"
+      "sectorId": "gomdaklippan",
+      "routeIds": [
+        "fregasberget-led-38",
+        "fregasberget-led-39",
+        "fregasberget-led-40",
+        "fregasberget-led-41",
+        "fregasberget-led-42",
+        "fregasberget-led-43"
+      ]
     },
     {
       "filename": "Gömdeklippan_mittendel.png",
-      "caption": "",
+      "caption": "Gömdeklippan mittendel",
       "missing": false,
-      "sectorId": "gomdaklippan"
+      "sectorId": "gomdaklippan",
+      "routeIds": [
+        "fregasberget-led-44",
+        "fregasberget-led-45",
+        "fregasberget-led-46",
+        "fregasberget-led-47",
+        "fregasberget-led-48",
+        "fregasberget-led-49",
+        "fregasberget-led-50",
+        "fregasberget-led-51"
+      ]
     }
   ],
+  "externalLinks": [],
   "access": {
     "legacyText": null,
     "federationSlug": null

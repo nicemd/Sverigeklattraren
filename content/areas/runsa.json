@@ -3,7 +3,7 @@
   "id": "runsa",
   "slug": "runsa",
   "name": "Runsa",
-  "description": "Vackert belägen vid en vik av Mälaren och med många fina leder i fast och bra klippa är detta berg värt ett besök. Klippan ligger ca 7 km NV om Upplands Väsby och är en av de få klätterklipporna av betydelse norr om Stockholm. Höjden är 10–20 m och den sammanlagda längden är ca 100 m. Bergarten är gnejs/granit av kompakt natur och blanka väggar dominerar. Klättring på klippan är inte tillåten före 1:a maj eftersom den är häckningsplats för berguv.",
+  "description": "Vackert belägen vid en vik av Mälaren och med många fina leder i fast och bra klippa är detta berg värt ett besök. Klippan ligger ca 7 km NV om Upplands Väsby och är en av de få klätterklipporna av betydelse norr om Stockholm. Höjden är 10–20 m och den sammanlagda längden är ca 100 m. Bergarten är gnejs/granit av kompakt natur och blanka väggar dominerar.\nKlättring på klippan är inte tillåten före 1:a maj eftersom den är häckningsplats för berguv.",
   "coordinates": {
     "latitude": 59.56914,
     "longitude": 17.82467
@@ -20,7 +20,7 @@
     {
       "id": "allmant",
       "title": "Allmänt",
-      "body": "Vackert belägen vid en vik av Mälaren och med många fina leder i fast och bra klippa är detta berg värt ett besök. Klippan ligger ca 7 km NV om Upplands Väsby och är en av de få klätterklipporna av betydelse norr om Stockholm. Höjden är 10–20 m och den sammanlagda längden är ca 100 m. Bergarten är gnejs/granit av kompakt natur och blanka väggar dominerar. Klättring på klippan är inte tillåten före 1:a maj eftersom den är häckningsplats för berguv."
+      "body": "Vackert belägen vid en vik av Mälaren och med många fina leder i fast och bra klippa är detta berg värt ett besök. Klippan ligger ca 7 km NV om Upplands Väsby och är en av de få klätterklipporna av betydelse norr om Stockholm. Höjden är 10–20 m och den sammanlagda längden är ca 100 m. Bergarten är gnejs/granit av kompakt natur och blanka väggar dominerar.\nKlättring på klippan är inte tillåten före 1:a maj eftersom den är häckningsplats för berguv."
     },
     {
       "id": "miljo",
@@ -30,7 +30,7 @@
     {
       "id": "vagbeskrivning",
       "title": "Vägbeskrivning",
-      "body": "titel=Runsa lat=17824670 long=59569140 Kör skyltade vägen mot Runsa, ca 6km. Parkera vid parkeringen efter allén. Följ grusvägen ca 400m till skylt Runsaborg. Följ stigen förbi skeppssättningen upp på fornborgen. Fortsätt över fornborgen och gå ner på andra sidan. Följ stigen ner mot vattnet. Klippan ligger på udden."
+      "body": "Kör skyltade vägen mot Runsa, ca 6km. Parkera vid parkeringen efter allén. Följ grusvägen ca 400m till skylt Runsaborg. Följ stigen förbi skeppssättningen upp på fornborgen. Fortsätt över fornborgen och gå ner på andra sidan. Följ stigen ner mot vattnet. Klippan ligger på udden."
     },
     {
       "id": "leder",
@@ -50,7 +50,7 @@
     {
       "id": "skeppssattningen",
       "title": "Skeppssättningen",
-      "body": "Rakt in i skogen vid skeppssättningen ligger en 30m bred och 6–9m hög klippa. Den har två huvudsakliga väggar varav den vänstra är brantast (95°) men också lägst. Det högra partiet är rätt skuggigt och har en tendens att gro igen. De fyra lederna är väl värda att göra och har mycket klättring för metrarna. Många av lederna har sina krux högst upp vilket gör dem mindre lämpliga som boulderturer, klippan passar nog bäst för en eftermiddags topprepsträning. Alla möjligheter på väggen är ännu inte uttömda. Kategori:Trad Kategori:Mix Kategori:Saknar kolumner Kategori:Saknar skrivarformatering Kategori:Stockholm Kategori:Norra Stockholm"
+      "body": "Rakt in i skogen vid skeppssättningen ligger en 30m bred och 6–9m hög klippa. Den har två huvudsakliga väggar varav den vänstra är brantast (95°) men också lägst. Det högra partiet är rätt skuggigt och har en tendens att gro igen. De fyra lederna är väl värda att göra och har mycket klättring för metrarna. Många av lederna har sina krux högst upp vilket gör dem mindre lämpliga som boulderturer, klippan passar nog bäst för en eftermiddags topprepsträning. Alla möjligheter på väggen är ännu inte uttömda."
     }
   ],
   "routes": [
@@ -538,29 +538,62 @@
   "images": [
     {
       "filename": "Runsa_karta.png",
-      "caption": "",
+      "caption": "karta",
       "missing": false,
-      "sectorId": null
+      "sectorId": null,
+      "routeIds": []
     },
     {
       "filename": "Runsa_stor.png",
-      "caption": "",
+      "caption": "stor",
       "missing": false,
-      "sectorId": "leder"
+      "sectorId": "leder",
+      "routeIds": []
     },
     {
       "filename": "Runsa.jpg",
-      "caption": "namn=Vampyren}}, 6-",
+      "caption": "namn=Vampyren , 6-",
       "missing": false,
-      "sectorId": "huvudvaggen"
+      "sectorId": "huvudvaggen",
+      "routeIds": [
+        "runsa-led-1",
+        "runsa-led-2",
+        "runsa-led-3",
+        "runsa-led-4",
+        "runsa-led-5",
+        "runsa-led-6",
+        "runsa-led-7",
+        "runsa-led-8",
+        "runsa-led-9",
+        "runsa-led-10",
+        "runsa-led-11",
+        "runsa-led-12",
+        "runsa-led-13",
+        "runsa-led-14",
+        "runsa-led-15",
+        "runsa-led-16",
+        "runsa-led-17",
+        "runsa-led-18",
+        "runsa-led-19"
+      ]
     },
     {
       "filename": "Runsa_flugvaggen.png",
-      "caption": "",
+      "caption": "flugvaggen",
       "missing": false,
-      "sectorId": "flugvaggen"
+      "sectorId": "flugvaggen",
+      "routeIds": [
+        "runsa-led-20",
+        "runsa-led-21",
+        "runsa-led-22",
+        "runsa-led-23",
+        "runsa-led-24",
+        "runsa-led-25",
+        "runsa-led-26"
+      ]
     }
   ],
+  "externalLinks": [],
   "access": {
     "legacyText": null,
     "federationSlug": null

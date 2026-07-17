@@ -21,7 +21,7 @@
     {
       "id": "leder",
       "title": "Leder",
-      "body": "Starten på alla leder är markerade med en svart prick. Kategori:DWS Kategori:Bohuslän Kategori:Bohuslän"
+      "body": "Starten på alla leder är markerade med en svart prick."
     }
   ],
   "routes": [
@@ -173,27 +173,49 @@
   "images": [
     {
       "filename": "Bläckhall_fyr.jpg",
-      "caption": "",
+      "caption": "fyr",
       "missing": false,
-      "sectorId": null
+      "sectorId": null,
+      "routeIds": []
     },
     {
       "filename": "Bläckhall_vä.jpg",
-      "caption": "",
+      "caption": "Leder · foto",
       "missing": false,
-      "sectorId": "leder"
+      "sectorId": "leder",
+      "routeIds": []
     },
     {
       "filename": "Henrik_dws.jpg",
       "caption": "Henrik Bolander på 43 knop",
       "missing": false,
-      "sectorId": "leder"
+      "sectorId": "leder",
+      "routeIds": [
+        "blackhall-led-1",
+        "blackhall-led-2",
+        "blackhall-led-3",
+        "blackhall-led-4",
+        "blackhall-led-5",
+        "blackhall-led-6",
+        "blackhall-led-7"
+      ]
     },
     {
       "filename": "Bläckhall_hö.jpg",
-      "caption": "",
+      "caption": "Leder · foto",
       "missing": false,
-      "sectorId": "leder"
+      "sectorId": "leder",
+      "routeIds": [
+        "blackhall-led-8",
+        "blackhall-led-9"
+      ]
+    }
+  ],
+  "externalLinks": [
+    {
+      "url": "http://www.granitbiten.com",
+      "label": "Team Granitbiten",
+      "sectionId": null
     }
   ],
   "access": {

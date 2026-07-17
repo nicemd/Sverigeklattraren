@@ -3,7 +3,7 @@
   "id": "hogklitt",
   "slug": "hogklitt",
   "name": "Högklitt",
-  "description": "Klippan vetter mot ost och ligger till största delen gömd av träd. Trots detta letar sig solens strålar ned mellan träden på förmiddagarna, vilket är kanske den bästa tidpunkten för klättring här. Klippan består av kompakt granit med få sprickor vilket innebär att så gott som alla leder är bultade. Dock kan vissa leder behöva kompletteras med egna säkringar. Höjden på klippan är som högst ca 15 meter men de flesta lederna är strax under 10 meter långa. Medellutningen på klippan är inte så stor (ca 75 grader) vilket tillsammans med en relativt grepprik granit gör att de flesta lederna är lätta. Passar nybörjaren perfekt! Informationen hämtad från denna sida",
+  "description": "Klippan vetter mot ost och ligger till största delen gömd av träd. Trots detta letar sig solens strålar ned mellan träden på förmiddagarna, vilket är kanske den bästa tidpunkten för klättring här. Klippan består av kompakt granit med få sprickor vilket innebär att så gott som alla leder är bultade. Dock kan vissa leder behöva kompletteras med egna säkringar. Höjden på klippan är som högst ca 15 meter men de flesta lederna är strax under 10 meter långa. Medellutningen på klippan är inte så stor (ca 75 grader) vilket tillsammans med en relativt grepprik granit gör att de flesta lederna är lätta. Passar nybörjaren perfekt!\n\nInformationen hämtad från denna sida (http://hem.passagen.se/bigstone/hogklitt.htm)",
   "coordinates": {
     "latitude": 61.7622,
     "longitude": 17.0217
@@ -19,17 +19,17 @@
     {
       "id": "allmant",
       "title": "Allmänt",
-      "body": "Klippan vetter mot ost och ligger till största delen gömd av träd. Trots detta letar sig solens strålar ned mellan träden på förmiddagarna, vilket är kanske den bästa tidpunkten för klättring här. Klippan består av kompakt granit med få sprickor vilket innebär att så gott som alla leder är bultade. Dock kan vissa leder behöva kompletteras med egna säkringar. Höjden på klippan är som högst ca 15 meter men de flesta lederna är strax under 10 meter långa. Medellutningen på klippan är inte så stor (ca 75 grader) vilket tillsammans med en relativt grepprik granit gör att de flesta lederna är lätta. Passar nybörjaren perfekt! Informationen hämtad från denna sida"
+      "body": "Klippan vetter mot ost och ligger till största delen gömd av träd. Trots detta letar sig solens strålar ned mellan träden på förmiddagarna, vilket är kanske den bästa tidpunkten för klättring här. Klippan består av kompakt granit med få sprickor vilket innebär att så gott som alla leder är bultade. Dock kan vissa leder behöva kompletteras med egna säkringar. Höjden på klippan är som högst ca 15 meter men de flesta lederna är strax under 10 meter långa. Medellutningen på klippan är inte så stor (ca 75 grader) vilket tillsammans med en relativt grepprik granit gör att de flesta lederna är lätta. Passar nybörjaren perfekt!\n\nInformationen hämtad från denna sida (http://hem.passagen.se/bigstone/hogklitt.htm)"
     },
     {
       "id": "vagbeskrivning",
       "title": "Vägbeskrivning",
-      "body": "Med bil från Hudiksvall, kör mot Hög. Efter E4 är det ca 4,5 km till korsningen mot Gåcksäter. Sväng där och parkera vid första mötesplatsen till vänster. Därifrån väntar en lätt promenad fram till klippan. Från bilen fortsätter man Gåcksätersvägen en kort bit till första \"korsningen\" där man gårupp till vänster. Följ vägen tills du kommer till en äng på höger sida. Korsa denna och följ sedan de gula snitslarna fram till klippan. GPS-koordinater: Lat: N 61º 45' 44.36\"; Long: E 17º 1' 18.23\""
+      "body": "Med bil från Hudiksvall, kör mot Hög. Efter E4 är det ca 4,5 km till korsningen mot Gåcksäter. Sväng där och parkera vid första mötesplatsen till vänster. Därifrån väntar en lätt promenad fram till klippan. Från bilen fortsätter man Gåcksätersvägen en kort bit till första \"korsningen\" där man gårupp till vänster. Följ vägen tills du kommer till en äng på höger sida. Korsa denna och följ sedan de gula snitslarna fram till klippan.\n\nGPS-koordinater: Lat: N 61º 45' 44.36\"; Long: E 17º 1' 18.23\""
     },
     {
       "id": "leder",
       "title": "Leder",
-      "body": "Kategori:trad Kategori:mix Kategori:sva kategori:Saknar skrivarformatering kategori:Saknar skiss Category:Hälsingland"
+      "body": ""
     }
   ],
   "routes": [
@@ -229,9 +229,30 @@
   "images": [
     {
       "filename": "högklitt_skiss.gif",
-      "caption": "",
+      "caption": "skiss",
       "missing": true,
-      "sectorId": "leder"
+      "sectorId": "leder",
+      "routeIds": [
+        "hogklitt-led-1",
+        "hogklitt-led-2",
+        "hogklitt-led-3",
+        "hogklitt-led-4",
+        "hogklitt-led-5",
+        "hogklitt-led-6",
+        "hogklitt-led-7",
+        "hogklitt-led-8",
+        "hogklitt-led-9",
+        "hogklitt-led-10",
+        "hogklitt-led-11",
+        "hogklitt-led-12"
+      ]
+    }
+  ],
+  "externalLinks": [
+    {
+      "url": "http://hem.passagen.se/bigstone/hogklitt.htm",
+      "label": "denna sida",
+      "sectionId": "allmant"
     }
   ],
   "access": {

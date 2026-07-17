@@ -21,7 +21,7 @@
     {
       "id": "kommunikationer",
       "title": "Kommunikationer",
-      "body": "Med bil; från Söderhamn åker man till Sandarne. Därifrån åker man mot Ljusne och tar av vänster vid en skylt \"Mot Ljusne bruk\". Man ser berget när man kör igenom Ljusne. Strax före en ICA-affär, korsningen Smedsvägen/Nygatan, tar man av vänster och parkerar precis nedanför berget. Vid parkeringen syns ett gammalt trästaket. Gå igenom det vid ett hål och gå sedan upp en bit i backen och följ staketet bortåt ca 30 m. Här finns en finns en sex m hög vägg med fyra sprickor. GPS-koordinater: Lat: N 61º 12' 40.60\" Long: E 17º 7' 55.4\""
+      "body": "Med bil; från Söderhamn åker man till Sandarne. Därifrån åker man mot Ljusne och tar av vänster vid en skylt \"Mot Ljusne bruk\". Man ser berget när man kör igenom Ljusne. Strax före en ICA-affär, korsningen Smedsvägen/Nygatan, tar man av vänster och parkerar precis nedanför berget. Vid parkeringen syns ett gammalt trästaket. Gå igenom det vid ett hål och gå sedan upp en bit i backen och följ staketet bortåt ca 30 m. Här finns en finns en sex m hög vägg med fyra sprickor.\nGPS-koordinater: Lat: N 61º 12' 40.60\" Long: E 17º 7' 55.4\""
     },
     {
       "id": "historik",
@@ -46,7 +46,7 @@
     {
       "id": "vattencisternen",
       "title": "Vattencisternen",
-      "body": "På bergets topp, mot samhället till, finns en stor vattencistern. Gå 15 m från vattencisternen mot en telefonstolpe och i riktning ett gult hyreshus. Ett av stagen på telefonstolpen är förankrat med en stor bult som går att använda som firningsbult vid nedfirning till lederna på nordsidan av berget. Man firar då rakt över \"Heaven up here\". Om man inte vill fira ned kan man gå ned till vänster längs en ramp. Kategori:Hälsingland Kategori:Trad Kategori:Hälsingland"
+      "body": "På bergets topp, mot samhället till, finns en stor vattencistern. Gå 15 m från vattencisternen mot en telefonstolpe och i riktning ett gult hyreshus. Ett av stagen på telefonstolpen är förankrat med en stor bult som går att använda som firningsbult vid nedfirning till lederna på nordsidan av berget. Man firar då rakt över \"Heaven up here\". Om man inte vill fira ned kan man gå ned till vänster längs en ramp."
     }
   ],
   "routes": [
@@ -342,29 +342,56 @@
   "images": [
     {
       "filename": "Vb_tuggummi.jpg",
-      "caption": "",
+      "caption": "Vb tuggummi",
       "missing": false,
-      "sectorId": "tuggummiblocket"
+      "sectorId": "tuggummiblocket",
+      "routeIds": [
+        "vardberget-halsingland-led-1",
+        "vardberget-halsingland-led-2",
+        "vardberget-halsingland-led-3"
+      ]
     },
     {
       "filename": "Vb_choklad.jpg",
-      "caption": "",
+      "caption": "Vb choklad",
       "missing": false,
-      "sectorId": "chokladblocket"
+      "sectorId": "chokladblocket",
+      "routeIds": [
+        "vardberget-halsingland-led-4",
+        "vardberget-halsingland-led-5",
+        "vardberget-halsingland-led-6",
+        "vardberget-halsingland-led-7",
+        "vardberget-halsingland-led-8",
+        "vardberget-halsingland-led-9"
+      ]
     },
     {
       "filename": "Schweizern%C3%B6t.jpg",
       "caption": "Claes Jelinek, Schweizernöt, 1983. Foto: Per Calleberg.",
       "missing": true,
-      "sectorId": "chokladblocket"
+      "sectorId": "chokladblocket",
+      "routeIds": [
+        "vardberget-halsingland-led-10",
+        "vardberget-halsingland-led-11",
+        "vardberget-halsingland-led-12",
+        "vardberget-halsingland-led-13"
+      ]
     },
     {
       "filename": "Heaven.jpg",
       "caption": "Claes Jelinek toppar Heaven Up Here (6), Ljusne, 1983. Foto: Per Calleberg",
       "missing": false,
-      "sectorId": "vattencisternen"
+      "sectorId": "vattencisternen",
+      "routeIds": [
+        "vardberget-halsingland-led-14",
+        "vardberget-halsingland-led-15",
+        "vardberget-halsingland-led-16",
+        "vardberget-halsingland-led-17",
+        "vardberget-halsingland-led-18"
+      ]
     }
   ],
+  "externalLinks": [],
   "access": {
     "legacyText": null,
     "federationSlug": null

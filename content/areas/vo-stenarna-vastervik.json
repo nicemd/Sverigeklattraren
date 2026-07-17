@@ -3,7 +3,7 @@
   "id": "vo-stenarna-vastervik",
   "slug": "vo-stenarna-vastervik",
   "name": "VO Stenarna (Västervik)",
-  "description": "VO är ett stort område bestående av block och väggar i öppen skogsterräng med mestadels bra landningar. Delar av området ligger centralt i anslutning till en idrottsanläggning och är lätt åtkomligt med lokaltrafiken. VO delas upp i ett antal olika sektorer: “Sebulba”, “Dillerium”, “Sjöstenarna”, “Titty Twister”, “Svarta väggen” och “Röda väggen”.",
+  "description": "VO är ett stort område bestående av block och väggar i öppen skogsterräng med mestadels bra landningar. Delar\nav området ligger centralt i anslutning till en idrottsanläggning och är lätt åtkomligt med lokaltrafiken. VO delas upp i\nett antal olika sektorer: “Sebulba”, “Dillerium”, “Sjöstenarna”, “Titty Twister”, “Svarta väggen” och “Röda väggen”.",
   "coordinates": {
     "latitude": 57.753333,
     "longitude": 16.626944
@@ -16,7 +16,7 @@
     {
       "id": "allmant",
       "title": "Allmänt",
-      "body": "VO är ett stort område bestående av block och väggar i öppen skogsterräng med mestadels bra landningar. Delar av området ligger centralt i anslutning till en idrottsanläggning och är lätt åtkomligt med lokaltrafiken. VO delas upp i ett antal olika sektorer: “Sebulba”, “Dillerium”, “Sjöstenarna”, “Titty Twister”, “Svarta väggen” och “Röda väggen”."
+      "body": "VO är ett stort område bestående av block och väggar i öppen skogsterräng med mestadels bra landningar. Delar\nav området ligger centralt i anslutning till en idrottsanläggning och är lätt åtkomligt med lokaltrafiken. VO delas upp i\nett antal olika sektorer: “Sebulba”, “Dillerium”, “Sjöstenarna”, “Titty Twister”, “Svarta väggen” och “Röda väggen”."
     },
     {
       "id": "vagbeskrivning",
@@ -26,11 +26,18 @@
     {
       "id": "extern-forare",
       "title": "Extern förare",
-      "body": "http://www.vastervikclimbing.se/klattercentret/pdfer/ Kategori:Småland Kategori:Västervik"
+      "body": "http://www.vastervikclimbing.se/klattercentret/pdfer/"
     }
   ],
   "routes": [],
   "images": [],
+  "externalLinks": [
+    {
+      "url": "http://www.vastervikclimbing.se/klattercentret/pdfer/",
+      "label": "pdfer",
+      "sectionId": "extern-forare"
+    }
+  ],
   "access": {
     "legacyText": null,
     "federationSlug": null

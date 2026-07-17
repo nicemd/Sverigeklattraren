@@ -25,7 +25,7 @@
     {
       "id": "vagbeskrivning",
       "title": "Vägbeskrivning",
-      "body": "Karta här. Tryck på kartknappen ovan. Virsehatt ligger mellan Simlångsdalen och Oskarström utanför Halmstad. Från parkeringen går man genom grindarna så att man har höjden på höger hand. Följ stigen tills klipporna börjar dyka upp på höger hand. Sväng höger på den lilla stigen och klippan syns nu tydligt på höger sida."
+      "body": "Karta här. Tryck på kartknappen ovan.\n\nVirsehatt ligger mellan Simlångsdalen och Oskarström utanför Halmstad. Från parkeringen går man genom grindarna så att man har höjden på höger hand. Följ stigen tills klipporna börjar dyka upp på höger hand. Sväng höger på den lilla stigen och klippan syns nu tydligt på höger sida."
     },
     {
       "id": "leder",
@@ -35,7 +35,7 @@
     {
       "id": "kontakt",
       "title": "Kontakt",
-      "body": "För mer info och bilder kolla Eskapader Kategori:trad Kategori:vertikalt Category:Halland"
+      "body": "För mer info och bilder kolla Eskapader (http://www.eskapader.se)"
     }
   ],
   "routes": [
@@ -107,9 +107,22 @@
   "images": [
     {
       "filename": "Virsehatt.jpg",
-      "caption": "",
+      "caption": "Leder · foto",
       "missing": false,
-      "sectorId": "leder"
+      "sectorId": "leder",
+      "routeIds": [
+        "virsehatt-led-1",
+        "virsehatt-led-2",
+        "virsehatt-led-3",
+        "virsehatt-led-4"
+      ]
+    }
+  ],
+  "externalLinks": [
+    {
+      "url": "http://www.eskapader.se",
+      "label": "Eskapader",
+      "sectionId": "kontakt"
     }
   ],
   "access": {

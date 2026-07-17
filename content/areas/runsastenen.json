@@ -15,7 +15,7 @@
     {
       "id": "vagbeskrivning",
       "title": "Vägbeskrivning",
-      "body": "titel=Runsa lat=17824670 long=59569140 Kör skyltade vägen mot Runsa, ca 6km. Parkera vid parkeringen efter allén. Följ grusvägen ca 400m till skylt Runsaborg vänster. Följ stigen. Efter ca 200 m ligger stenen mycket synligt på höger sida."
+      "body": "Kör skyltade vägen mot Runsa, ca 6km. Parkera vid parkeringen efter allén. Följ grusvägen ca 400m till skylt Runsaborg vänster. Följ stigen. Efter ca 200 m ligger stenen mycket synligt på höger sida."
     },
     {
       "id": "leder",
@@ -140,11 +140,21 @@
   "images": [
     {
       "filename": "Runsastenen_bild.jpg",
-      "caption": "",
+      "caption": "bild",
       "missing": false,
-      "sectorId": "leder"
+      "sectorId": "leder",
+      "routeIds": [
+        "runsastenen-problem-1",
+        "runsastenen-problem-2",
+        "runsastenen-problem-3",
+        "runsastenen-problem-4",
+        "runsastenen-problem-5",
+        "runsastenen-problem-6",
+        "runsastenen-problem-7"
+      ]
     }
   ],
+  "externalLinks": [],
   "access": {
     "legacyText": null,
     "federationSlug": null

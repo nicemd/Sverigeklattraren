@@ -3,7 +3,7 @@
   "id": "suljatten",
   "slug": "suljatten",
   "name": "Suljätten",
-  "description": "Detta mycket speciella fjäll ligger vid Kallsjön. Det ser ut som en liggande jättes näsa. Väggen, som är överhängande, vetter mot syd. Nedre delen av väggen är mycket lös och den övre fastare, därav överhänget. Två försök har gjorts. Ett slutade med att förste mannen blev hängande i en arm sedan det mesta under honom hade rasat undan. 2009-10(?) Klättrade Krister Jonsson,Denny Calvo med flera den första leden till tops på den vänstra delen av väggen. Leden följer ett diedersystem följt av en travers till en tydlig utstegsränna. Ca 2 replängder. D+ sattes graden som. Toppen ger trots sin ringa höjd (845 m) en ovanligt imponerande utsikt över Kallsjön mot Skäckerfjällen.",
+  "description": "Detta mycket speciella fjäll ligger vid Kallsjön. Det ser ut som en liggande jättes näsa. Väggen, som är överhängande, vetter mot syd. Nedre delen av väggen är mycket lös och den övre fastare, därav överhänget. Två försök har gjorts. Ett slutade med att förste mannen blev hängande i en arm sedan det mesta under honom hade rasat undan.\n\n2009-10(?) Klättrade Krister Jonsson,Denny Calvo med flera den första leden till tops på den vänstra delen av väggen. Leden följer ett diedersystem följt av en travers till en tydlig utstegsränna. Ca 2 replängder. D+ sattes graden som.\n\nToppen ger trots sin ringa höjd (845 m) en ovanligt imponerande utsikt över Kallsjön mot Skäckerfjällen.",
   "coordinates": {
     "latitude": 59,
     "longitude": 18
@@ -20,17 +20,17 @@
     {
       "id": "allmant",
       "title": "Allmänt",
-      "body": "Detta mycket speciella fjäll ligger vid Kallsjön. Det ser ut som en liggande jättes näsa. Väggen, som är överhängande, vetter mot syd. Nedre delen av väggen är mycket lös och den övre fastare, därav överhänget. Två försök har gjorts. Ett slutade med att förste mannen blev hängande i en arm sedan det mesta under honom hade rasat undan. 2009-10(?) Klättrade Krister Jonsson,Denny Calvo med flera den första leden till tops på den vänstra delen av väggen. Leden följer ett diedersystem följt av en travers till en tydlig utstegsränna. Ca 2 replängder. D+ sattes graden som. Toppen ger trots sin ringa höjd (845 m) en ovanligt imponerande utsikt över Kallsjön mot Skäckerfjällen."
+      "body": "Detta mycket speciella fjäll ligger vid Kallsjön. Det ser ut som en liggande jättes näsa. Väggen, som är överhängande, vetter mot syd. Nedre delen av väggen är mycket lös och den övre fastare, därav överhänget. Två försök har gjorts. Ett slutade med att förste mannen blev hängande i en arm sedan det mesta under honom hade rasat undan.\n\n2009-10(?) Klättrade Krister Jonsson,Denny Calvo med flera den första leden till tops på den vänstra delen av väggen. Leden följer ett diedersystem följt av en travers till en tydlig utstegsränna. Ca 2 replängder. D+ sattes graden som.\n\nToppen ger trots sin ringa höjd (845 m) en ovanligt imponerande utsikt över Kallsjön mot Skäckerfjällen."
     },
     {
       "id": "vagbeskrivning",
       "title": "Vägbeskrivning",
-      "body": "Karta här. Tryck på kartknappen ovan. Skriv vägbeskrivning här. Följ E 14 till Järpen, Tag till höger mot Kall. Fortsätt förbi Kall till Övre Konäs. Där en kraftledning går över vägen börjar en skogsbilväg. Följ den till en vägbom och fortsätt sedan på en stig som är markerad på fjällkartan."
+      "body": "Karta här. Tryck på kartknappen ovan.\n\nSkriv vägbeskrivning här.\n\nFölj E 14 till Järpen, Tag till höger mot Kall. Fortsätt förbi Kall till Övre Konäs. Där en kraftledning går över vägen börjar en skogsbilväg. Följ den till en vägbom och fortsätt sedan på en stig som är markerad på fjällkartan."
     },
     {
       "id": "leder",
       "title": "Leder",
-      "body": "Höger kolumn kategori:Saknar skiss kategori:Saknar vägbeskrivning kategori:Saknar leder kategori:Saknar koordinater kategori:Saknar skrivarformatering Category:Jämtland"
+      "body": "Höger kolumn"
     }
   ],
   "routes": [
@@ -54,11 +54,15 @@
   "images": [
     {
       "filename": "Skiss.gif",
-      "caption": "",
+      "caption": "Skiss",
       "missing": false,
-      "sectorId": "leder"
+      "sectorId": "leder",
+      "routeIds": [
+        "suljatten-led-1"
+      ]
     }
   ],
+  "externalLinks": [],
   "access": {
     "legacyText": null,
     "federationSlug": null

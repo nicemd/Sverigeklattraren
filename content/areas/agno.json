@@ -47,12 +47,12 @@
     {
       "id": "mer-information",
       "title": "Mer information",
-      "body": "Tråd på Bloxc med bilder."
+      "body": "Tråd på Bloxc (http://www.bloxc.com/forum/viewtopic.php?t=1536) med bilder."
     },
     {
       "id": "bilder",
       "title": "Bilder",
-      "body": "]] ]] ]] ]] Category:Överhäng Category:Oklättrat Kategori:Stockholm Kategori:Tyresö Kategori:Stockholms Skärgård"
+      "body": "]]\n\n]]\n\n]]\n\n]]"
     }
   ],
   "routes": [
@@ -190,31 +190,43 @@
       "filename": "Ägnö.jpg",
       "caption": "Jonas Ahlman",
       "missing": false,
-      "sectorId": null
+      "sectorId": null,
+      "routeIds": []
     },
     {
       "filename": "Agno002.jpg",
       "caption": "Jonas Ahlman",
       "missing": false,
-      "sectorId": "bilder"
+      "sectorId": "bilder",
+      "routeIds": []
     },
     {
       "filename": "IMG_9725.jpg",
       "caption": "Jonas Ahlman",
       "missing": false,
-      "sectorId": "bilder"
+      "sectorId": "bilder",
+      "routeIds": []
     },
     {
       "filename": "Agno001.jpg",
       "caption": "Jonas Ahlman",
       "missing": false,
-      "sectorId": "bilder"
+      "sectorId": "bilder",
+      "routeIds": []
     },
     {
       "filename": "Agno003.jpg",
       "caption": "Jonas Ahlman",
       "missing": false,
-      "sectorId": "bilder"
+      "sectorId": "bilder",
+      "routeIds": []
+    }
+  ],
+  "externalLinks": [
+    {
+      "url": "http://www.bloxc.com/forum/viewtopic.php?t=1536",
+      "label": "Bloxc",
+      "sectionId": "mer-information"
     }
   ],
   "access": {

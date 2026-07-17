@@ -3,7 +3,7 @@
   "id": "galgberget",
   "slug": "galgberget",
   "name": "Galgberget",
-  "description": "Överhängande kalkstensklippa, 10 - 15 meter hög. Klippan ger ett något löst intryck men är ändå hyggligt fast. Ganska rolig och pumpande klättring och helt OK om man nu ändå råkar vara på Gotland. Förstabestigare på dom flesta lederna är Patrik Agerkrans.",
+  "description": "Överhängande kalkstensklippa, 10 - 15 meter hög. Klippan ger ett\nnågot löst intryck men är ändå hyggligt fast. Ganska rolig och pumpande\nklättring och helt OK om man nu ändå råkar vara på Gotland.\n\nFörstabestigare på dom flesta lederna är Patrik Agerkrans.",
   "coordinates": {
     "latitude": 57.652358841426924,
     "longitude": 18.30867290496826
@@ -18,7 +18,7 @@
     {
       "id": "allmant",
       "title": "Allmänt",
-      "body": "Överhängande kalkstensklippa, 10 - 15 meter hög. Klippan ger ett något löst intryck men är ändå hyggligt fast. Ganska rolig och pumpande klättring och helt OK om man nu ändå råkar vara på Gotland. Förstabestigare på dom flesta lederna är Patrik Agerkrans."
+      "body": "Överhängande kalkstensklippa, 10 - 15 meter hög. Klippan ger ett\nnågot löst intryck men är ändå hyggligt fast. Ganska rolig och pumpande\nklättring och helt OK om man nu ändå råkar vara på Gotland.\n\nFörstabestigare på dom flesta lederna är Patrik Agerkrans."
     },
     {
       "id": "miljo",
@@ -28,12 +28,12 @@
     {
       "id": "vagbeskrivning",
       "title": "Vägbeskrivning",
-      "body": "Klippan är belägen ca 1,5 km utanför Norra delen av ringmuren. Från parkeringen; följ stig upp till vänster ca 150 meter, och vik därefter av höger. Ta av vänster alldeles före trappan och klippan dyker upp eft ca 20 meter."
+      "body": "Klippan är belägen ca 1,5 km\nutanför Norra delen av ringmuren.\nFrån parkeringen; följ stig upp till\nvänster ca 150 meter, och vik\ndärefter av höger. Ta av vänster\nalldeles före trappan och klippan\ndyker upp eft ca 20 meter."
     },
     {
       "id": "leder",
       "title": "Leder",
-      "body": "Kategori:Gotland Kategori:Överhäng Kategori:Vertikalt Kategori:Sport Kategori:Gotland"
+      "body": ""
     }
   ],
   "routes": [
@@ -233,17 +233,33 @@
   "images": [
     {
       "filename": "Galgberget_vagbesk.png",
-      "caption": "",
+      "caption": "vagbesk",
       "missing": false,
-      "sectorId": "vagbeskrivning"
+      "sectorId": "vagbeskrivning",
+      "routeIds": []
     },
     {
       "filename": "Galgberget.png",
-      "caption": "",
+      "caption": "Leder · foto",
       "missing": false,
-      "sectorId": "leder"
+      "sectorId": "leder",
+      "routeIds": [
+        "galgberget-led-1",
+        "galgberget-led-2",
+        "galgberget-led-3",
+        "galgberget-led-4",
+        "galgberget-led-5",
+        "galgberget-led-6",
+        "galgberget-led-7",
+        "galgberget-led-8",
+        "galgberget-led-9",
+        "galgberget-led-10",
+        "galgberget-led-11",
+        "galgberget-led-12"
+      ]
     }
   ],
+  "externalLinks": [],
   "access": {
     "legacyText": null,
     "federationSlug": null

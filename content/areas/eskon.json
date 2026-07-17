@@ -27,7 +27,7 @@
     {
       "id": "kommunikationer",
       "title": "Kommunikationer",
-      "body": "Med bil från Gävle kör man 15 km norrut på Trödjevägen (gamla E4:an) och svänger höger vid en skylt \"ESKÖN 7\". Efter 7 km svänger man höger vid en lanthandel och fortsätter nu på en grusväg ca 3 km, då man ser centralklippan från vägen. Väldigt, väldigt ungefärliga GPS-koordinater: Lat: N 60º 47' 34.45\" Long: E 17º 20' 29.39\""
+      "body": "Med bil från Gävle kör man 15 km norrut på Trödjevägen (gamla E4:an) och svänger höger vid en skylt \"ESKÖN 7\". Efter 7 km svänger man höger vid en lanthandel och fortsätter nu på en grusväg ca 3 km, då man ser centralklippan från vägen.\n\nVäldigt, väldigt ungefärliga GPS-koordinater: Lat: N 60º 47' 34.45\" Long: E 17º 20' 29.39\""
     },
     {
       "id": "historik",
@@ -47,22 +47,22 @@
     {
       "id": "a",
       "title": "A",
-      "body": "http://www.bouldersinc.se/Bilder/A.jpg Sektor A är området längst till vänster sett från parkeringen. Gå över fältet för att nå sektorn. Sektor A innefattar Taggtrådsblocket, Hårdareblocket samt Foo Fightersblocket. Även väggarna mellan de olika blocken hör till Sektorn."
+      "body": "http://www.bouldersinc.se/Bilder/A.jpg\nSektor A är området längst till vänster sett från parkeringen. Gå över fältet för att nå sektorn. Sektor A innefattar Taggtrådsblocket, Hårdareblocket samt Foo Fightersblocket. Även väggarna mellan de olika blocken hör till Sektorn."
     },
     {
       "id": "b",
       "title": "B",
-      "body": "http://www.bouldersinc.se/Bilder/B.jpg Sektor B är området runt skogsklippan och innefattar Påskväggen, Lösablocket samt några mindre block i anslutning till dessa."
+      "body": "http://www.bouldersinc.se/Bilder/B.jpg\nSektor B är området runt skogsklippan och innefattar Påskväggen, Lösablocket samt några mindre block i anslutning till dessa."
     },
     {
       "id": "c",
       "title": "C",
-      "body": "http://www.bouldersinc.se/Bilder/C.jpg Sektor C ligger upp till höger sett från parkeringen. Gå mot \"ängen\" följ kraftledningen åt höger så kommer ni till blocken. Sektorn innefattar kraftledningsblocken, speleologiblocket samt snusblocken"
+      "body": "http://www.bouldersinc.se/Bilder/C.jpg\nSektor C ligger upp till höger sett från parkeringen. Gå mot \"ängen\" följ kraftledningen åt höger så kommer ni till blocken. Sektorn innefattar kraftledningsblocken, speleologiblocket samt snusblocken"
     },
     {
       "id": "d",
       "title": "D",
-      "body": "http://www.bouldersinc.se/Bilder/D.jpg Sektor D är området bakom skogsklippan, innefattar även vattenblocken."
+      "body": "http://www.bouldersinc.se/Bilder/D.jpg\nSektor D är området bakom skogsklippan, innefattar även vattenblocken."
     },
     {
       "id": "e",
@@ -72,7 +72,7 @@
     {
       "id": "f",
       "title": "F",
-      "body": "http://www.bouldersinc.se/Bilder/Sektor%20F.jpg Sektor F nås enklast om man kör vägen så långt det går och parkerar på vändplanen. Sektorn innefattar Stjärnväggen och Dynoväggen."
+      "body": "http://www.bouldersinc.se/Bilder/Sektor%20F.jpg\nSektor F nås enklast om man kör vägen så långt det går och parkerar på vändplanen. Sektorn innefattar Stjärnväggen och Dynoväggen."
     },
     {
       "id": "g",
@@ -97,7 +97,7 @@
     {
       "id": "svartmarsberget",
       "title": "Svartmarsberget",
-      "body": "Kategori:Trad Kategori:Bouldering Kategori:Bimbo Kategori:Behöver kvalitetssäkras Kategori:Saknar karta Kategori:Saknar koordinater Kategori:Saknar skrivarformattering Kategori:Saknar skiss Kategori:Hälsingland Kategori:Gästrikland Kategori:Gävle"
+      "body": ""
     }
   ],
   "routes": [
@@ -2441,9 +2441,42 @@
   "images": [
     {
       "filename": "Eskon.jpg",
-      "caption": "",
+      "caption": "Eskon",
       "missing": false,
-      "sectorId": "klippan"
+      "sectorId": "klippan",
+      "routeIds": [
+        "eskon-led-1",
+        "eskon-led-2",
+        "eskon-led-3",
+        "eskon-led-4"
+      ]
+    }
+  ],
+  "externalLinks": [
+    {
+      "url": "http://www.bouldersinc.se/Bilder/A.jpg",
+      "label": "A.jpg",
+      "sectionId": "a"
+    },
+    {
+      "url": "http://www.bouldersinc.se/Bilder/B.jpg",
+      "label": "B.jpg",
+      "sectionId": "b"
+    },
+    {
+      "url": "http://www.bouldersinc.se/Bilder/C.jpg",
+      "label": "C.jpg",
+      "sectionId": "c"
+    },
+    {
+      "url": "http://www.bouldersinc.se/Bilder/D.jpg",
+      "label": "D.jpg",
+      "sectionId": "d"
+    },
+    {
+      "url": "http://www.bouldersinc.se/Bilder/Sektor%20F.jpg",
+      "label": "Sektor F.jpg",
+      "sectionId": "f"
     }
   ],
   "access": {

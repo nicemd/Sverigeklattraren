@@ -95,7 +95,7 @@
     {
       "id": "koreavaggen",
       "title": "Koreaväggen",
-      "body": "Längre bort mot stora vägen finns ytterligare en liten vägg med par problem gjorda. Senaste tillskottet, ej helt rensad ännu. Kategori:Norra Stockholm"
+      "body": "Längre bort mot stora vägen finns ytterligare en liten vägg med par problem gjorda. Senaste tillskottet, ej helt rensad ännu."
     }
   ],
   "routes": [
@@ -1383,83 +1383,186 @@
   "images": [
     {
       "filename": "Sollentuna.jpg",
-      "caption": "",
+      "caption": "Sollentuna",
       "missing": false,
-      "sectorId": "karta-vagbeskrivning"
+      "sectorId": "karta-vagbeskrivning",
+      "routeIds": []
     },
     {
       "filename": "Snuggtaskeberg.jpg",
-      "caption": "",
+      "caption": "Översikt · foto",
       "missing": false,
-      "sectorId": "oversikt"
+      "sectorId": "oversikt",
+      "routeIds": []
     },
     {
       "filename": "Huvudvaggen.jpg",
-      "caption": "",
+      "caption": "Huvudvaggen",
       "missing": false,
-      "sectorId": "huvudvaggen"
+      "sectorId": "huvudvaggen",
+      "routeIds": []
     },
     {
       "filename": "Huvudvaggen1.jpg",
-      "caption": "",
+      "caption": "Huvudvaggen1",
       "missing": false,
-      "sectorId": "vanstra-delen"
+      "sectorId": "vanstra-delen",
+      "routeIds": [
+        "snuggtaskeberg-led-1",
+        "snuggtaskeberg-led-2",
+        "snuggtaskeberg-led-3",
+        "snuggtaskeberg-led-4",
+        "snuggtaskeberg-led-5",
+        "snuggtaskeberg-led-6",
+        "snuggtaskeberg-led-7"
+      ]
     },
     {
       "filename": "Huvudvaggen2.jpg",
-      "caption": "",
+      "caption": "Huvudvaggen2",
       "missing": false,
-      "sectorId": "mittendelen"
+      "sectorId": "mittendelen",
+      "routeIds": [
+        "snuggtaskeberg-led-8",
+        "snuggtaskeberg-led-9",
+        "snuggtaskeberg-led-10",
+        "snuggtaskeberg-led-11",
+        "snuggtaskeberg-led-12",
+        "snuggtaskeberg-led-13",
+        "snuggtaskeberg-led-14",
+        "snuggtaskeberg-led-15",
+        "snuggtaskeberg-led-16",
+        "snuggtaskeberg-led-17",
+        "snuggtaskeberg-led-18",
+        "snuggtaskeberg-led-19",
+        "snuggtaskeberg-led-20",
+        "snuggtaskeberg-led-21",
+        "snuggtaskeberg-led-22",
+        "snuggtaskeberg-led-23",
+        "snuggtaskeberg-led-24"
+      ]
     },
     {
       "filename": "Huvudvaggen3.jpg",
-      "caption": "",
+      "caption": "Huvudvaggen3",
       "missing": false,
-      "sectorId": "hogra-delen"
+      "sectorId": "hogra-delen",
+      "routeIds": [
+        "snuggtaskeberg-led-25",
+        "snuggtaskeberg-led-26",
+        "snuggtaskeberg-led-27",
+        "snuggtaskeberg-led-28",
+        "snuggtaskeberg-led-29",
+        "snuggtaskeberg-led-30",
+        "snuggtaskeberg-led-31"
+      ]
     },
     {
       "filename": "Ddt.jpg",
-      "caption": "",
+      "caption": "Ddt",
       "missing": false,
-      "sectorId": "ddt-vaggen"
+      "sectorId": "ddt-vaggen",
+      "routeIds": []
     },
     {
       "filename": "Slicka.JPG",
       "caption": "Magnus Lennartsson på Slicka uppåt - Sparka neråt (5+), Snuggtaskeberg 2006. Foto: Mattis Wide",
       "missing": false,
-      "sectorId": "ddt-vaggen"
+      "sectorId": "ddt-vaggen",
+      "routeIds": [
+        "snuggtaskeberg-led-32",
+        "snuggtaskeberg-led-33",
+        "snuggtaskeberg-led-34",
+        "snuggtaskeberg-led-35",
+        "snuggtaskeberg-led-36",
+        "snuggtaskeberg-led-37",
+        "snuggtaskeberg-led-38",
+        "snuggtaskeberg-led-39",
+        "snuggtaskeberg-led-40",
+        "snuggtaskeberg-led-41",
+        "snuggtaskeberg-led-42",
+        "snuggtaskeberg-led-43",
+        "snuggtaskeberg-led-44"
+      ]
     },
     {
       "filename": "Sva.jpg",
-      "caption": "",
+      "caption": "Sva",
       "missing": false,
-      "sectorId": "svavaggen"
+      "sectorId": "svavaggen",
+      "routeIds": [
+        "snuggtaskeberg-led-45",
+        "snuggtaskeberg-led-46",
+        "snuggtaskeberg-led-47",
+        "snuggtaskeberg-led-48",
+        "snuggtaskeberg-led-49",
+        "snuggtaskeberg-led-50",
+        "snuggtaskeberg-led-51",
+        "snuggtaskeberg-led-52",
+        "snuggtaskeberg-led-53",
+        "snuggtaskeberg-led-54"
+      ]
     },
     {
       "filename": "Solvaggen.jpg",
-      "caption": "",
+      "caption": "Solvaggen",
       "missing": false,
-      "sectorId": "solvaggen"
+      "sectorId": "solvaggen",
+      "routeIds": [
+        "snuggtaskeberg-led-55",
+        "snuggtaskeberg-led-56",
+        "snuggtaskeberg-led-57",
+        "snuggtaskeberg-led-58",
+        "snuggtaskeberg-led-59",
+        "snuggtaskeberg-led-60",
+        "snuggtaskeberg-led-61",
+        "snuggtaskeberg-led-62"
+      ]
     },
     {
       "filename": "Hogavaggarna.jpg",
-      "caption": "",
+      "caption": "Hogavaggarna",
       "missing": false,
-      "sectorId": "hoga-vaggarna"
+      "sectorId": "hoga-vaggarna",
+      "routeIds": [
+        "snuggtaskeberg-led-63",
+        "snuggtaskeberg-led-64",
+        "snuggtaskeberg-led-65",
+        "snuggtaskeberg-led-66",
+        "snuggtaskeberg-led-67",
+        "snuggtaskeberg-led-68",
+        "snuggtaskeberg-led-69",
+        "snuggtaskeberg-led-70",
+        "snuggtaskeberg-led-71",
+        "snuggtaskeberg-led-72",
+        "snuggtaskeberg-led-73"
+      ]
     },
     {
       "filename": "Revolver.jpg",
-      "caption": "",
+      "caption": "Revolver",
       "missing": false,
-      "sectorId": "revolvervaggen"
+      "sectorId": "revolvervaggen",
+      "routeIds": [
+        "snuggtaskeberg-led-74",
+        "snuggtaskeberg-led-75",
+        "snuggtaskeberg-led-76",
+        "snuggtaskeberg-led-77",
+        "snuggtaskeberg-led-78"
+      ]
     },
     {
       "filename": "KimIlSung.JPG",
       "caption": "Petter Norberg på Kim Il Sung (5+), Snuggtaskeberg 2007. Foto: Mattis Wide",
       "missing": false,
-      "sectorId": "koreavaggen"
+      "sectorId": "koreavaggen",
+      "routeIds": [
+        "snuggtaskeberg-led-79",
+        "snuggtaskeberg-led-80"
+      ]
     }
   ],
+  "externalLinks": [],
   "access": {
     "legacyText": null,
     "federationSlug": null

@@ -24,17 +24,17 @@
     {
       "id": "karaktar",
       "title": "Karaktär",
-      "body": "Väggen är 8-10m hög och alla leder är borrbultade och försedda med ankare. Miljön är lite speciell då klippan ligger precis vid en vältrafikerad gångväg. En del kommentarer från överförfriskade, förbipasserande herrar ingår i paketet. De flesta ankare är lätta att komma åt uppifrån för att sätta topprep i. Klippan är nordöst-vänd men torkar ganska långsamt efter regn. Även marken nedanför klippan är oftast blöt. Klippan är upplyst på kvällarna!"
+      "body": "Väggen är 8-10m hög och alla leder är borrbultade och försedda med ankare. Miljön är lite speciell då klippan ligger precis vid en vältrafikerad gångväg. En del kommentarer från överförfriskade, förbipasserande herrar ingår i paketet. De flesta ankare är lätta att komma åt uppifrån för att sätta topprep i.\n\nKlippan är nordöst-vänd men torkar ganska långsamt efter regn. Även marken nedanför klippan är oftast blöt. Klippan är upplyst på kvällarna!"
     },
     {
       "id": "vagbeskrivning",
       "title": "Vägbeskrivning",
-      "body": "titel=Storvretsbacken lat=17839980 long=59196710 Bil: Från Tumba centrum, ta Huddingevägen mot Huddinge. Sväng h efter köpcentret. Sväng h in på Bryggarvägen och fortsätt förbi McDonalds och brädgården till parkeringen. Kommunalt: Åk pendeltåget till Tumba och gå ut vid västra utgången (framåt i färdriktningen om man kommer från Stockholm) och gå ner till bussterminalen. Gå förbi busshållplatserna och ett stort cykelställ och in på en gångväg skyltad Storvreten"
+      "body": "Bil: Från Tumba centrum, ta Huddingevägen mot Huddinge. Sväng h efter köpcentret. Sväng h in på Bryggarvägen och fortsätt förbi McDonalds och brädgården till parkeringen.\n\nKommunalt: Åk pendeltåget till Tumba och gå ut vid västra utgången (framåt i färdriktningen om man kommer från Stockholm) och gå ner till bussterminalen. Gå förbi busshållplatserna och ett stort cykelställ och in på en gångväg skyltad Storvreten"
     },
     {
       "id": "leder",
       "title": "Leder",
-      "body": "men på ett något mer ansträngande sätt.}}"
+      "body": "men på ett något mer ansträngande sätt."
     },
     {
       "id": "observera",
@@ -44,7 +44,7 @@
     {
       "id": "panorama",
       "title": "Panorama",
-      "body": "Kategori:Sport Kategori:Sva Kategori:Vertikalt Kategori:Stockholm Kategori:Västra Södertörn"
+      "body": ""
     }
   ],
   "routes": [
@@ -212,17 +212,31 @@
   "images": [
     {
       "filename": "Storvretsbacken_skiss.gif",
-      "caption": "",
+      "caption": "skiss",
       "missing": false,
-      "sectorId": "leder"
+      "sectorId": "leder",
+      "routeIds": [
+        "storvretsbacken-led-1",
+        "storvretsbacken-led-2",
+        "storvretsbacken-led-3",
+        "storvretsbacken-led-4",
+        "storvretsbacken-led-5",
+        "storvretsbacken-led-6",
+        "storvretsbacken-led-7",
+        "storvretsbacken-led-8",
+        "storvretsbacken-led-9",
+        "storvretsbacken-led-10"
+      ]
     },
     {
       "filename": "Pano_DSC08039.jpg",
-      "caption": "",
+      "caption": "Pano DSC08039",
       "missing": false,
-      "sectorId": "panorama"
+      "sectorId": "panorama",
+      "routeIds": []
     }
   ],
+  "externalLinks": [],
   "access": {
     "legacyText": null,
     "federationSlug": null

@@ -20,7 +20,7 @@
     {
       "id": "kommunikationer",
       "title": "Kommunikationer",
-      "body": "Med bil; från länsväg 301 kör man vid en skylt \"Bergvik~5\" mot Bergvik. Sex km från bron i Bergvik, i riktning mot Stråtjära och Holmsveden, ses berget som en skogsklädd höjd på höger sida. I och med att ett stort kalhygge gjorts närmast vägen syns klipporna tydligt. Ca 200 m före en skogstjärn, mitt emot en halvmeterhög sprängvägg parkerar man. Härifrån leder en stig upp till stora klippan. Ungefärliga GPS-koordinater för klippan: Lat: N 61º 12' 46.37\" Long: E 16º 49' 59.11\""
+      "body": "Med bil; från länsväg 301 kör man vid en skylt \"Bergvik~5\" mot\nBergvik. Sex km från bron i Bergvik, i riktning mot Stråtjära och\nHolmsveden, ses berget som en skogsklädd höjd på höger sida. I och med\natt ett stort kalhygge gjorts närmast vägen syns klipporna tydligt. Ca\n200 m före en skogstjärn, mitt emot en halvmeterhög sprängvägg\nparkerar man. Härifrån leder en stig upp till stora klippan.\nUngefärliga GPS-koordinater för klippan: Lat: N 61º 12' 46.37\" Long: E 16º 49' 59.11\""
     },
     {
       "id": "historik",
@@ -30,7 +30,7 @@
     {
       "id": "klipporna",
       "title": "Klipporna",
-      "body": "Här finns två klippor. Den stora klippan är av 8-15 m höjd och har sju leder, vilka alla är renborstade från lavar. Vidare finns en del små boulderproblem på toppen. Klippan är av granit av god kvalitet med små fina sprickor. Nedstigningen ligger till höger om väggen. Den lilla klippan, som ligger ca 50 m till vänster om den stora, består i princip bara av gigantiska klippblock ihoppusslade till en klippa. Lilla klippan är inte renborstad, och rekomenderas ej."
+      "body": "Här finns två klippor. Den stora klippan är av 8-15 m höjd och har sju\nleder, vilka alla är renborstade från lavar. Vidare finns en del små\nboulderproblem på toppen. Klippan är av granit av god kvalitet med små\nfina sprickor. Nedstigningen ligger till höger om väggen. Den lilla\nklippan, som ligger ca 50 m till vänster om den stora, består i\nprincip bara av gigantiska klippblock ihoppusslade till en klippa.\nLilla klippan är inte renborstad, och rekomenderas ej."
     },
     {
       "id": "stora-klippan",
@@ -40,7 +40,7 @@
     {
       "id": "lilla-klippan",
       "title": "Lilla klippan",
-      "body": "Kategori:Saknar karta Kategori:Saknar kolumner Kategori:Hälsingland Kategori:Trad Kategori:Hälsingland"
+      "body": ""
     }
   ],
   "routes": [
@@ -258,51 +258,76 @@
       "filename": "Gullberg.jpg",
       "caption": "Utsikt från Gullberget, 1981. Foto: Per Calleberg",
       "missing": false,
-      "sectorId": null
+      "sectorId": null,
+      "routeIds": []
     },
     {
       "filename": "Gullberget.jpg",
-      "caption": "",
+      "caption": "Klipporna · foto",
       "missing": false,
-      "sectorId": "klipporna"
+      "sectorId": "klipporna",
+      "routeIds": []
     },
     {
       "filename": "Gullb_stora.jpg",
-      "caption": "",
+      "caption": "Gullb stora",
       "missing": false,
-      "sectorId": "stora-klippan"
+      "sectorId": "stora-klippan",
+      "routeIds": []
     },
     {
       "filename": "KarinsSpricka.jpg",
       "caption": "Topprepsklättring på Karins Spricka 1980. Foto: Per Calleberg",
       "missing": false,
-      "sectorId": "stora-klippan"
+      "sectorId": "stora-klippan",
+      "routeIds": [
+        "gullberget-led-1",
+        "gullberget-led-2",
+        "gullberget-led-3",
+        "gullberget-led-4",
+        "gullberget-led-5",
+        "gullberget-led-6"
+      ]
     },
     {
       "filename": "Styrkan.jpg",
       "caption": "Kent Andersson på Styrkans hemvist (6-), Gullberget, 1982. Foto: Per Calleberg",
       "missing": false,
-      "sectorId": "stora-klippan"
+      "sectorId": "stora-klippan",
+      "routeIds": [
+        "gullberget-led-7"
+      ]
     },
     {
       "filename": "3star.png",
-      "caption": "",
+      "caption": "3star",
       "missing": false,
-      "sectorId": "stora-klippan"
+      "sectorId": "stora-klippan",
+      "routeIds": []
     },
     {
       "filename": "Shorttrip.jpg",
       "caption": "Kent Andersson gör första fria bestigningen av Short Trip to Space (5+), Gullberget, 1981. Foto: Per Calleberg",
       "missing": false,
-      "sectorId": "stora-klippan"
+      "sectorId": "stora-klippan",
+      "routeIds": []
     },
     {
       "filename": "Gullb_lilla.jpg",
-      "caption": "",
+      "caption": "Gullb lilla",
       "missing": false,
-      "sectorId": "lilla-klippan"
+      "sectorId": "lilla-klippan",
+      "routeIds": [
+        "gullberget-led-8",
+        "gullberget-led-9",
+        "gullberget-led-10",
+        "gullberget-led-11",
+        "gullberget-led-12",
+        "gullberget-led-13"
+      ]
     }
   ],
+  "externalLinks": [],
   "access": {
     "legacyText": null,
     "federationSlug": null

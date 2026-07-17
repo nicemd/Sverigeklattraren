@@ -30,39 +30,60 @@
     {
       "id": "beskrivning",
       "title": "Beskrivning",
-      "body": "Adress: Hamnplan, Höganäs. Vid Kvickbadet och småbåtshamnen. Karta Foto: Ola Foto: Ola Foto: Ola Foto: Höganäs Turistbyrå. Används med tillstånd."
+      "body": "Adress: Hamnplan, Höganäs. Vid Kvickbadet och småbåtshamnen.\n\nKarta (http://maps.google.se/maps?q=H%C3%B6gan%C3%A4s+-+Kvickbadet&oe=utf-8&rls=org.mozilla:en-US:official&client=firefox-a&um=1&ie=UTF-8&hq=&hnear=Kvickbadet,+H%C3%B6gan%C3%A4s&gl=se&ei=EqEHTJyOGqiHOILr9PEP&sa=X&oi=geocode_result&ct=image&resnum=1&ved=0CBgQ8gEwAA)\n\nFoto: Ola\n\nFoto: Ola\n\nFoto: Ola\n\nFoto: Höganäs Turistbyrå. Används med tillstånd."
     },
     {
       "id": "lankar",
       "title": "Länkar",
-      "body": "* Tidningsartikel från invigningen i Höganäs * Freeform climbing boulders kategori:Saknar skiss kategori:Saknar vägbeskrivning kategori:Saknar leder kategori:Saknar koordinater kategori:Saknar skrivarformatering Category:Skåne"
+      "body": "• Tidningsartikel från invigningen i Höganäs (http://hd.se/hoganas/2010/05/30/det-ar-en-oslipad-diamant/)\n• Freeform climbing boulders (http://www.entre-prises.com/news/2010/05/FreeformBouldersSweden)"
     }
   ],
   "routes": [],
   "images": [
     {
       "filename": "IMG_5834.JPG",
-      "caption": "",
+      "caption": "IMG 5834",
       "missing": false,
-      "sectorId": "beskrivning"
+      "sectorId": "beskrivning",
+      "routeIds": []
     },
     {
       "filename": "100702_Hoganas_bouldering_panorama.jpg",
-      "caption": "",
+      "caption": "100702 Hoganas bouldering panorama",
       "missing": false,
-      "sectorId": "beskrivning"
+      "sectorId": "beskrivning",
+      "routeIds": []
     },
     {
       "filename": "IMG_5827.JPG",
-      "caption": "",
+      "caption": "IMG 5827",
       "missing": false,
-      "sectorId": "beskrivning"
+      "sectorId": "beskrivning",
+      "routeIds": []
     },
     {
       "filename": "HoganasBoulderpark2.jpg",
       "caption": "Höganäs boulderpark. Fotograf: Höganäs Turistbyrå",
       "missing": false,
-      "sectorId": "beskrivning"
+      "sectorId": "beskrivning",
+      "routeIds": []
+    }
+  ],
+  "externalLinks": [
+    {
+      "url": "http://maps.google.se/maps?q=H%C3%B6gan%C3%A4s+-+Kvickbadet&oe=utf-8&rls=org.mozilla:en-US:official&client=firefox-a&um=1&ie=UTF-8&hq=&hnear=Kvickbadet,+H%C3%B6gan%C3%A4s&gl=se&ei=EqEHTJyOGqiHOILr9PEP&sa=X&oi=geocode_result&ct=image&resnum=1&ved=0CBgQ8gEwAA",
+      "label": "Karta",
+      "sectionId": "beskrivning"
+    },
+    {
+      "url": "http://hd.se/hoganas/2010/05/30/det-ar-en-oslipad-diamant/",
+      "label": "Tidningsartikel från invigningen i Höganäs",
+      "sectionId": "lankar"
+    },
+    {
+      "url": "http://www.entre-prises.com/news/2010/05/FreeformBouldersSweden",
+      "label": "Freeform climbing boulders",
+      "sectionId": "lankar"
     }
   ],
   "access": {

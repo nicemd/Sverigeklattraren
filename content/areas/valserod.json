@@ -24,7 +24,7 @@
     {
       "id": "karaktar",
       "title": "Karaktär",
-      "body": "Klassisk sprick och vägg-klättring. Välseröd inbefattas av Bohusläns Klätterklubbs bultpolicy om att hållas bultfria i framtiden. Classic crack and face climbing. Välseröd follows the Bohusläns Klätterklubb's bolt policy on staying bolt free in the future."
+      "body": "Klassisk sprick och vägg-klättring. Välseröd inbefattas av Bohusläns Klätterklubbs bultpolicy om att hållas bultfria i framtiden.\n\nClassic crack and face climbing. Välseröd follows the Bohusläns Klätterklubb's bolt policy on staying bolt free in the future."
     },
     {
       "id": "vagbeskrivning",
@@ -94,7 +94,7 @@
     {
       "id": "badklippan",
       "title": "Badklippan",
-      "body": "Kategori:Bohuslän Kategori:trad Kategori:sva Kategori:vertikalt Kategori:access"
+      "body": ""
     }
   ],
   "routes": [
@@ -1384,21 +1384,33 @@
       "filename": "Ängsväggen_david_och_goliat.jpg",
       "caption": "David och Goliat",
       "missing": false,
-      "sectorId": "100-dagar-vaggen"
+      "sectorId": "100-dagar-vaggen",
+      "routeIds": [
+        "valserod-led-67",
+        "valserod-led-68"
+      ]
     },
     {
       "filename": "Ängsväggen_pontus_arete.jpg",
       "caption": "Pontus arête",
       "missing": false,
-      "sectorId": "100-dagar-vaggen"
+      "sectorId": "100-dagar-vaggen",
+      "routeIds": [
+        "valserod-led-68",
+        "valserod-led-69"
+      ]
     },
     {
       "filename": "Ängsväggen_pontus_styvbror.jpg",
       "caption": "Pontus styvbror",
       "missing": false,
-      "sectorId": "100-dagar-vaggen"
+      "sectorId": "100-dagar-vaggen",
+      "routeIds": [
+        "valserod-led-69"
+      ]
     }
   ],
+  "externalLinks": [],
   "access": {
     "legacyText": null,
     "federationSlug": "valserod"

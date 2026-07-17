@@ -9,6 +9,13 @@
         "value": "Verifierad testbeskrivning som ska överleva en fullständig nyimport.",
         "sourceUrl": "https://example.test/source",
         "sourceQuote": "Testkälla"
+      },
+      {
+        "field": "route_fact",
+        "value": "{\"routeId\":\"utby-led-74\",\"kind\":\"route\",\"sectorId\":\"stora-vaggen\",\"facts\":{\"grade\":\"8+\"}}",
+        "rationale": "Verifierar fältvis källspårning för en led.",
+        "sourceUrl": "https://example.test/source",
+        "sourceQuote": null
       }
     ]
   },

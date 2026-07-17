@@ -3,14 +3,14 @@
   "id": "hogasrebbetuarod",
   "slug": "hogasrebbetuarod",
   "name": "HögåsRebbetuaröd",
-  "description": "På åsen sydväst om Degeberga (vägen mellan Forsakar och Vallarum) finns ett område med ett antal block. Observera att området är utspritt, inte så högt (1,8-4 m) och absolut inte värt ett omväga besök, men om du råkar vara i närheten eller har vägarna förbi kan det vara värt besväret. På Google maps hittar du en karta med alla problem. Glöm inte att göra en fästingkontroll efteråt.",
+  "description": "På åsen sydväst om Degeberga (vägen mellan Forsakar och Vallarum) finns ett område med ett antal block. Observera att området är utspritt, inte så högt (1,8-4 m) och absolut inte värt ett omväga besök, men om du råkar vara i närheten eller har vägarna förbi kan det vara värt besväret. På Google maps (http://maps.google.com/maps/ms?ie=UTF&msa=0&msid=200774747100642001592.0004a7cf630d7f4915a18) hittar du en karta med alla problem. Glöm inte att göra en fästingkontroll efteråt.",
   "coordinates": null,
   "categories": [],
   "sections": [
     {
       "id": "allmant",
       "title": "Allmänt",
-      "body": "På åsen sydväst om Degeberga (vägen mellan Forsakar och Vallarum) finns ett område med ett antal block. Observera att området är utspritt, inte så högt (1,8-4 m) och absolut inte värt ett omväga besök, men om du råkar vara i närheten eller har vägarna förbi kan det vara värt besväret. På Google maps hittar du en karta med alla problem. Glöm inte att göra en fästingkontroll efteråt."
+      "body": "På åsen sydväst om Degeberga (vägen mellan Forsakar och Vallarum) finns ett område med ett antal block. Observera att området är utspritt, inte så högt (1,8-4 m) och absolut inte värt ett omväga besök, men om du råkar vara i närheten eller har vägarna förbi kan det vara värt besväret. På Google maps (http://maps.google.com/maps/ms?ie=UTF&msa=0&msid=200774747100642001592.0004a7cf630d7f4915a18) hittar du en karta med alla problem. Glöm inte att göra en fästingkontroll efteråt."
     },
     {
       "id": "access",
@@ -378,69 +378,112 @@
   "images": [
     {
       "filename": "Hogas_Rebbe_Oversiktskarta.jpg",
-      "caption": "",
+      "caption": "Hogas Rebbe Oversiktskarta",
       "missing": false,
-      "sectorId": "forare"
+      "sectorId": "forare",
+      "routeIds": []
     },
     {
       "filename": "Hogas_Rebbe_Oversiktskarta.pdf‎",
-      "caption": "",
+      "caption": "Hogas Rebbe Oversiktskarta",
       "missing": true,
-      "sectorId": "forare"
+      "sectorId": "forare",
+      "routeIds": []
     },
     {
       "filename": "Rebbe_stora_stenen.jpg",
-      "caption": "",
+      "caption": "Rebbe stora stenen",
       "missing": false,
-      "sectorId": "stora-stenen"
+      "sectorId": "stora-stenen",
+      "routeIds": [
+        "hogasrebbetuarod-problem-1",
+        "hogasrebbetuarod-problem-2",
+        "hogasrebbetuarod-problem-3"
+      ]
     },
     {
       "filename": "Rebbe_blabarsblocket1_4.jpg",
-      "caption": "",
+      "caption": "Rebbe blabarsblocket1 4",
       "missing": false,
-      "sectorId": "blabarsblocket"
+      "sectorId": "blabarsblocket",
+      "routeIds": [
+        "hogasrebbetuarod-problem-4",
+        "hogasrebbetuarod-problem-5",
+        "hogasrebbetuarod-problem-6",
+        "hogasrebbetuarod-problem-7",
+        "hogasrebbetuarod-problem-8"
+      ]
     },
     {
       "filename": "Rebbe_myrblocket1.jpg",
-      "caption": "",
+      "caption": "Rebbe myrblocket1",
       "missing": false,
-      "sectorId": "myrblocket"
+      "sectorId": "myrblocket",
+      "routeIds": []
     },
     {
       "filename": "Rebbe_myrblocket2_3.jpg",
-      "caption": "",
+      "caption": "Rebbe myrblocket2 3",
       "missing": false,
-      "sectorId": "myrblocket"
+      "sectorId": "myrblocket",
+      "routeIds": []
     },
     {
       "filename": "Rebbe_myrblocket3_4.jpg",
-      "caption": "",
+      "caption": "Rebbe myrblocket3 4",
       "missing": false,
-      "sectorId": "myrblocket"
+      "sectorId": "myrblocket",
+      "routeIds": []
     },
     {
       "filename": "Rebbe_myrblocket5_6.jpg",
-      "caption": "",
+      "caption": "Rebbe myrblocket5 6",
       "missing": false,
-      "sectorId": "myrblocket"
+      "sectorId": "myrblocket",
+      "routeIds": [
+        "hogasrebbetuarod-problem-9",
+        "hogasrebbetuarod-problem-10",
+        "hogasrebbetuarod-problem-11",
+        "hogasrebbetuarod-problem-12",
+        "hogasrebbetuarod-problem-13",
+        "hogasrebbetuarod-problem-14"
+      ]
     },
     {
       "filename": "Rebbe_djungelblocket_1_2.jpg",
-      "caption": "",
+      "caption": "Rebbe djungelblocket 1 2",
       "missing": false,
-      "sectorId": "djungelblocket"
+      "sectorId": "djungelblocket",
+      "routeIds": [
+        "hogasrebbetuarod-problem-15",
+        "hogasrebbetuarod-problem-16"
+      ]
     },
     {
       "filename": "Rebbe_halalblocket_1.jpg",
-      "caption": "",
+      "caption": "Halal",
       "missing": false,
-      "sectorId": "halalblocket"
+      "sectorId": "halalblocket",
+      "routeIds": [
+        "hogasrebbetuarod-problem-17"
+      ]
     },
     {
       "filename": "Rebbe_halalblocket_2.jpg",
-      "caption": "",
+      "caption": "Halal",
       "missing": false,
-      "sectorId": "halalblocket"
+      "sectorId": "halalblocket",
+      "routeIds": [
+        "hogasrebbetuarod-problem-17",
+        "hogasrebbetuarod-problem-18"
+      ]
+    }
+  ],
+  "externalLinks": [
+    {
+      "url": "http://maps.google.com/maps/ms?ie=UTF&msa=0&msid=200774747100642001592.0004a7cf630d7f4915a18",
+      "label": "Google maps",
+      "sectionId": "allmant"
     }
   ],
   "access": {

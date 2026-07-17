@@ -3,7 +3,7 @@
   "id": "stapelbaddsparken",
   "slug": "stapelbaddsparken",
   "name": "Stapelbäddsparken",
-  "description": "I Stapelbäddsparken utanför Malmö finns tre konstgjorda boulderstenar. Mer info på Stapelbäddsparkens webbsida. * Karta kategori:Saknar skiss kategori:Saknar vägbeskrivning kategori:Saknar leder kategori:Saknar koordinater kategori:Saknar skrivarformatering Category:Skåne",
+  "description": "I Stapelbäddsparken utanför Malmö finns tre konstgjorda boulderstenar. Mer info på Stapelbäddsparkens webbsida (http://www.stapelbaddsparken.se/parken/climbing.aspx).\n• Karta (http://maps.google.com/maps?q=55.613668,12.984493&num=1&t=h&sll=55.595268,13.000244&sspn=0.036581,0.043907&ie=UTF8&ll=55.613699,12.984611&spn=0.001648,0.006169&z=18&iwloc=near)",
   "coordinates": {
     "latitude": 55.613668,
     "longitude": 12.984493
@@ -25,11 +25,23 @@
     {
       "id": "allmant",
       "title": "Allmänt",
-      "body": "I Stapelbäddsparken utanför Malmö finns tre konstgjorda boulderstenar. Mer info på Stapelbäddsparkens webbsida. * Karta kategori:Saknar skiss kategori:Saknar vägbeskrivning kategori:Saknar leder kategori:Saknar koordinater kategori:Saknar skrivarformatering Category:Skåne"
+      "body": "I Stapelbäddsparken utanför Malmö finns tre konstgjorda boulderstenar. Mer info på Stapelbäddsparkens webbsida (http://www.stapelbaddsparken.se/parken/climbing.aspx).\n• Karta (http://maps.google.com/maps?q=55.613668,12.984493&num=1&t=h&sll=55.595268,13.000244&sspn=0.036581,0.043907&ie=UTF8&ll=55.613699,12.984611&spn=0.001648,0.006169&z=18&iwloc=near)"
     }
   ],
   "routes": [],
   "images": [],
+  "externalLinks": [
+    {
+      "url": "http://www.stapelbaddsparken.se/parken/climbing.aspx",
+      "label": "Stapelbäddsparkens webbsida",
+      "sectionId": "allmant"
+    },
+    {
+      "url": "http://maps.google.com/maps?q=55.613668,12.984493&num=1&t=h&sll=55.595268,13.000244&sspn=0.036581,0.043907&ie=UTF8&ll=55.613699,12.984611&spn=0.001648,0.006169&z=18&iwloc=near",
+      "label": "Karta",
+      "sectionId": "allmant"
+    }
+  ],
   "access": {
     "legacyText": null,
     "federationSlug": null

@@ -15,12 +15,12 @@
     {
       "id": "introduktion",
       "title": "Introduktion",
-      "body": "Kallades förr Lyse Kyrka, efter den vackra kyrkan intill. Populärt kursberg, och det är inte att undra på. Fina långa lätta leder, lätt att topprepa från den stora platån ovanför, vindskydd att luncha i, och inte långt att gå från bilen. Used to be called Lyse Kyrka, named after the beautiful church close to the crag. This cliff holds relatively easy routes, good toprope possibilities and easy access with just a short walk from the car."
+      "body": "Kallades förr Lyse Kyrka, efter den vackra kyrkan intill. Populärt kursberg, och det är inte att undra på. Fina långa lätta leder, lätt att topprepa från den stora platån ovanför, vindskydd att luncha i, och inte långt att gå från bilen.\n\nUsed to be called Lyse Kyrka, named after the beautiful church close to the crag. This cliff holds relatively easy routes, good toprope possibilities and easy access with just a short walk from the car."
     },
     {
       "id": "karaktar",
       "title": "Karaktär",
-      "body": "Kompakt, hög, sydvänd klippa, inte riktigt vertikal. Både väggklättring och sprickor. En hel del lättare turer mellan 3 och 5+. Även ett och annat lite tuffare. Compact, tall, southfacing and slabby cliff. Both face and crack-climbing. Mostly easier routes ranging from grade 3 to 5+ even though some harder challenges can be found."
+      "body": "Kompakt, hög, sydvänd klippa, inte riktigt vertikal. Både väggklättring och sprickor. En hel del lättare turer mellan 3 och 5+. Även ett och annat lite tuffare.\n\nCompact, tall, southfacing and slabby cliff. Both face and crack-climbing. Mostly easier routes ranging from grade 3 to 5+ even though some harder challenges can be found."
     },
     {
       "id": "vagbeskrivning",
@@ -40,12 +40,12 @@
     {
       "id": "sydvaggen",
       "title": "Sydväggen",
-      "body": "En fin vägg med många relativt lätta och välsäkrade leder i övre femma-registret. Foto visar huvudväggen sedd från kyrkogården."
+      "body": "En fin vägg med många relativt lätta och välsäkrade leder i övre femma-registret.\nFoto visar huvudväggen sedd från kyrkogården."
     },
     {
       "id": "lilla-vaggen",
       "title": "Lilla väggen",
-      "body": "Den mindre klippväggen nära Brappersberget. category:Topprep category:trad category:saknar_leder category:saknar_skiss Kategori:Bohuslän"
+      "body": "Den mindre klippväggen nära Brappersberget."
     }
   ],
   "routes": [
@@ -389,15 +389,44 @@
   "images": [
     {
       "filename": "Lyse-kyrka-1.jpg",
-      "caption": "",
+      "caption": "Lyse-kyrka-1",
       "missing": false,
-      "sectorId": "sydvaggen"
+      "sectorId": "sydvaggen",
+      "routeIds": [
+        "brappersberget-lyse-kyrka-led-4",
+        "brappersberget-lyse-kyrka-led-5",
+        "brappersberget-lyse-kyrka-led-6",
+        "brappersberget-lyse-kyrka-led-7",
+        "brappersberget-lyse-kyrka-led-8",
+        "brappersberget-lyse-kyrka-led-9",
+        "brappersberget-lyse-kyrka-led-10",
+        "brappersberget-lyse-kyrka-led-11",
+        "brappersberget-lyse-kyrka-led-12",
+        "brappersberget-lyse-kyrka-led-13",
+        "brappersberget-lyse-kyrka-led-14",
+        "brappersberget-lyse-kyrka-led-15"
+      ]
     },
     {
       "filename": "Lyse-kyrka-2.jpg",
-      "caption": "",
+      "caption": "Lyse-kyrka-2",
       "missing": false,
-      "sectorId": "lilla-vaggen"
+      "sectorId": "lilla-vaggen",
+      "routeIds": [
+        "brappersberget-lyse-kyrka-led-16",
+        "brappersberget-lyse-kyrka-led-17",
+        "brappersberget-lyse-kyrka-led-18",
+        "brappersberget-lyse-kyrka-led-19",
+        "brappersberget-lyse-kyrka-led-20",
+        "brappersberget-lyse-kyrka-led-21"
+      ]
+    }
+  ],
+  "externalLinks": [
+    {
+      "url": "http://www.bohusbergen.se/forare/lyse-kyrka",
+      "label": "lyse-kyrka",
+      "sectionId": "access"
     }
   ],
   "access": {

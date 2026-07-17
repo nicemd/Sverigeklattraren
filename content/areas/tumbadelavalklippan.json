@@ -22,7 +22,7 @@
     {
       "id": "vagbeskrivning",
       "title": "Vägbeskrivning",
-      "body": "titel=TumbaDeLaval lat=17860427 long=59201677"
+      "body": ""
     },
     {
       "id": "leder",
@@ -37,7 +37,7 @@
     {
       "id": "huvudvaggen",
       "title": "Huvudväggen",
-      "body": "(OBS fel kan mycket väl finnas) Från vänster till höger:"
+      "body": "(OBS fel kan mycket väl finnas)\n\nFrån vänster till höger:"
     },
     {
       "id": "rasbranten",
@@ -47,7 +47,7 @@
     {
       "id": "hawaiivaggen",
       "title": "Hawaiiväggen",
-      "body": "7-8 meter hög vägg 200m syd om huvudväggen. kategori:sport Kategori:Stockholm Kategori:Västra Södertörn"
+      "body": "7-8 meter hög vägg 200m syd om huvudväggen."
     }
   ],
   "routes": [
@@ -535,17 +535,35 @@
   "images": [
     {
       "filename": "Kastrullocket2.png",
-      "caption": "",
+      "caption": "Kastrullocket2",
       "missing": false,
-      "sectorId": "kastrullocket"
+      "sectorId": "kastrullocket",
+      "routeIds": [
+        "tumbadelavalklippan-led-1",
+        "tumbadelavalklippan-led-2",
+        "tumbadelavalklippan-led-3",
+        "tumbadelavalklippan-led-4"
+      ]
     },
     {
       "filename": "Hawaii.png",
-      "caption": "",
+      "caption": "Hawaii",
       "missing": false,
-      "sectorId": "hawaiivaggen"
+      "sectorId": "hawaiivaggen",
+      "routeIds": [
+        "tumbadelavalklippan-led-22",
+        "tumbadelavalklippan-led-23",
+        "tumbadelavalklippan-led-24",
+        "tumbadelavalklippan-led-25",
+        "tumbadelavalklippan-led-26",
+        "tumbadelavalklippan-led-27",
+        "tumbadelavalklippan-led-28",
+        "tumbadelavalklippan-led-29",
+        "tumbadelavalklippan-led-30"
+      ]
     }
   ],
+  "externalLinks": [],
   "access": {
     "legacyText": null,
     "federationSlug": null

@@ -27,7 +27,7 @@
     {
       "id": "vagbeskrivning",
       "title": "Vägbeskrivning",
-      "body": "Kör E18 mot Oslo. Sväng av mot Viksjö. Följ Viksjöleden och sväng vänster in på Hummelmoravägen. Ta vänster in på Basunvägen och parkera på gästparkeringen. (Google-karta finner du på egen sida.) Gå cykelvägen mot skogen och förbi bommen. Följ stigen och korsa elljusspåret två gånger. Stigen går över en spång och 120 meter efter spången går delar sig stigen. Ta vänster här - stigen du följer är markerad med gula trianglar. Korsa grusvägen och följ gula trianglar/orangea ledmarkeringar. Efter ca 5 minuter kommer du till en ny väg, och ett träd med gul triangel+pil åt vänster samt orangemarkering+pil åt höger - ta höger och följ orange markeringar. Efter ca 20 meter, sväng vänster in på ny stig. Du är nu vid fornborgen. Håller du höger kommer du in i fornborgen, håller du vänster kommer du ner till Ravinen."
+      "body": "Kör E18 mot Oslo. Sväng av mot Viksjö. Följ Viksjöleden och sväng vänster in på Hummelmoravägen. Ta vänster in på Basunvägen och parkera på gästparkeringen. (Google-karta finner du på egen sida.)\nGå cykelvägen mot skogen och förbi bommen. Följ stigen och korsa elljusspåret två gånger. Stigen går över en spång och 120 meter efter spången går delar sig stigen. Ta vänster här - stigen du följer är markerad med gula trianglar. Korsa grusvägen och följ gula trianglar/orangea ledmarkeringar. Efter ca 5 minuter kommer du till en ny väg, och ett träd med gul triangel+pil åt vänster samt orangemarkering+pil åt höger - ta höger och följ orange markeringar. Efter ca 20 meter, sväng vänster in på ny stig.\n\nDu är nu vid fornborgen. Håller du höger kommer du in i fornborgen, håller du vänster kommer du ner till Ravinen."
     },
     {
       "id": "klippor",
@@ -37,7 +37,7 @@
     {
       "id": "ravinen",
       "title": "Ravinen",
-      "body": "Första delen av lederna är lätt överhängande och sedan går väggen över i brant sva. Flera ankare går att nå uppifrån. ]] Ravinen fortsättning... Denna del är den första du möter när du kommer till ravinen. Det går att komma åt ankare på merparten av dessa leder. ]]"
+      "body": "Första delen av lederna är lätt överhängande och sedan går väggen över i brant sva. Flera ankare går att nå uppifrån.\n\n]]\n\nRavinen fortsättning... Denna del är den första du möter när du kommer till ravinen.\nDet går att komma åt ankare på merparten av dessa leder.\n\n]]"
     },
     {
       "id": "ovanfor-ravinen",
@@ -52,7 +52,7 @@
     {
       "id": "djavulsvaggen",
       "title": "Djävulsväggen",
-      "body": "Saknar toppankare, men två ordentliga tallar väger upp denna brist. Kategori:Topprep Kategori:Sport Kategori:Trad Kategori:Överhäng Kategori:Vertikalt Kategori:Sva Kategori:Stockholm Kategori:Norra Stockholm"
+      "body": "Saknar toppankare, men två ordentliga tallar väger upp denna brist."
     }
   ],
   "routes": [
@@ -1100,53 +1100,132 @@
   "images": [
     {
       "filename": "GaseborgVagbesk.PNG",
-      "caption": "",
+      "caption": "GaseborgVagbesk",
       "missing": false,
-      "sectorId": "vagbeskrivning"
+      "sectorId": "vagbeskrivning",
+      "routeIds": []
     },
     {
       "filename": "Gåseborg_ravinen1.png",
-      "caption": "",
+      "caption": "ravinen1",
       "missing": false,
-      "sectorId": "ravinen"
+      "sectorId": "ravinen",
+      "routeIds": [
+        "gaseborg-led-1",
+        "gaseborg-led-2",
+        "gaseborg-led-3",
+        "gaseborg-led-4",
+        "gaseborg-led-5",
+        "gaseborg-led-6",
+        "gaseborg-led-7",
+        "gaseborg-led-8",
+        "gaseborg-led-9",
+        "gaseborg-led-10",
+        "gaseborg-led-11",
+        "gaseborg-led-12",
+        "gaseborg-led-13",
+        "gaseborg-led-14",
+        "gaseborg-led-15",
+        "gaseborg-led-16",
+        "gaseborg-led-17",
+        "gaseborg-led-18",
+        "gaseborg-led-19",
+        "gaseborg-led-20",
+        "gaseborg-led-21",
+        "gaseborg-led-22",
+        "gaseborg-led-23"
+      ]
     },
     {
       "filename": "Gåseborg001.jpg",
       "caption": "Jonas Ahlman",
       "missing": false,
-      "sectorId": "ravinen"
+      "sectorId": "ravinen",
+      "routeIds": []
     },
     {
       "filename": "Gåseborg_ravinen2.png",
-      "caption": "",
+      "caption": "ravinen2",
       "missing": false,
-      "sectorId": "ravinen"
+      "sectorId": "ravinen",
+      "routeIds": []
     },
     {
       "filename": "Tornrosa.jpg",
       "caption": "Per Lindh",
       "missing": false,
-      "sectorId": "ravinen"
+      "sectorId": "ravinen",
+      "routeIds": [
+        "gaseborg-led-24",
+        "gaseborg-led-25",
+        "gaseborg-led-26",
+        "gaseborg-led-27",
+        "gaseborg-led-28",
+        "gaseborg-led-29",
+        "gaseborg-led-30"
+      ]
     },
     {
       "filename": "Gåseborg_ovanför_ravinen.jpg",
-      "caption": "",
+      "caption": "ovanför ravinen",
       "missing": false,
-      "sectorId": "ovanfor-ravinen"
+      "sectorId": "ovanfor-ravinen",
+      "routeIds": [
+        "gaseborg-led-31",
+        "gaseborg-led-32",
+        "gaseborg-led-33",
+        "gaseborg-led-34",
+        "gaseborg-led-35",
+        "gaseborg-led-36",
+        "gaseborg-led-37",
+        "gaseborg-led-38",
+        "gaseborg-led-39",
+        "gaseborg-led-40",
+        "gaseborg-led-41",
+        "gaseborg-led-42",
+        "gaseborg-led-43"
+      ]
     },
     {
       "filename": "Gåseborg_gulaväggen.png",
-      "caption": "",
+      "caption": "gulaväggen",
       "missing": false,
-      "sectorId": "gula-vaggen"
+      "sectorId": "gula-vaggen",
+      "routeIds": [
+        "gaseborg-led-44",
+        "gaseborg-led-45",
+        "gaseborg-led-46",
+        "gaseborg-led-47",
+        "gaseborg-led-48",
+        "gaseborg-led-49",
+        "gaseborg-led-50",
+        "gaseborg-led-51",
+        "gaseborg-led-52",
+        "gaseborg-led-53"
+      ]
     },
     {
       "filename": "Djavulstopo_01.jpg",
-      "caption": "",
+      "caption": "Djavulstopo 01",
       "missing": false,
-      "sectorId": "djavulsvaggen"
+      "sectorId": "djavulsvaggen",
+      "routeIds": [
+        "gaseborg-led-54",
+        "gaseborg-led-55",
+        "gaseborg-led-56",
+        "gaseborg-led-57",
+        "gaseborg-led-58",
+        "gaseborg-led-59",
+        "gaseborg-led-60",
+        "gaseborg-led-61",
+        "gaseborg-led-62",
+        "gaseborg-led-63",
+        "gaseborg-led-64",
+        "gaseborg-led-65"
+      ]
     }
   ],
+  "externalLinks": [],
   "access": {
     "legacyText": null,
     "federationSlug": null

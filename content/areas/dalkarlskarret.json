@@ -32,17 +32,17 @@
     {
       "id": "vagbeskrivning",
       "title": "Vägbeskrivning",
-      "body": "Ta Dag Hammarskjölds väg söderut från centrum och vid trafikljuset vid Ulleråker sväng av till höger på Vårdsätravägen. Forsätt några kilometer fram till en avtagsväg skyltad mot Hammarskog och tag av där över bron (Lurbo bro). Kör vidare till avtagsvägen skyltad till Uppsala Näs på vänster sida. Ta denna väg 1km, sväng sedan till höger på grusvägen som är bakvägen till Hammarskog. Efter ett par kilometer ser du parkeringen till Dalkarlskärret på vänster sida. Korsa vägen och gå 10 minuter nordväst runt sjön. Du kommer att se väggen på höger sida. Alternativ: istället för att svänga vänster mot Uppsala Näs, ta höger i den korsningen, och ta sen in vänster på en grusväg. Passera några hus och åk vidare in i skogen. Du finner snart en pakeringsficka på höger sida -- ställ dig där eller på vändplanen något längre fram. Följ stigen mittemot den första parkeringsfickan i 5-10 minuter (finns röda markeringar). Klippan ligger på vänster sida i åkerkanten."
+      "body": "Ta Dag Hammarskjölds väg söderut från centrum och vid trafikljuset vid Ulleråker sväng av till höger på Vårdsätravägen. Forsätt några kilometer fram till en avtagsväg skyltad mot Hammarskog och tag av där över bron (Lurbo bro). Kör vidare till avtagsvägen skyltad till Uppsala Näs på vänster sida. Ta denna väg 1km, sväng sedan till höger på grusvägen som är bakvägen till Hammarskog. Efter ett par kilometer ser du parkeringen till Dalkarlskärret på vänster sida. Korsa vägen och gå 10 minuter nordväst runt sjön. Du kommer att se väggen på höger sida.\n\nAlternativ: istället för att svänga vänster mot Uppsala Näs, ta höger i den korsningen, och ta sen in vänster på en grusväg. Passera några hus och åk vidare in i skogen. Du finner snart en pakeringsficka på höger sida -- ställ dig där eller på vändplanen något längre fram. Följ stigen mittemot den första parkeringsfickan i 5-10 minuter (finns röda markeringar). Klippan ligger på vänster sida i åkerkanten."
     },
     {
       "id": "leder",
       "title": "Leder",
-      "body": ". Foto: Mark Harris]] Listade från vänster till höger när man står framför klippan. Inte en fullständig beskrivning: fyll gärna i dom som saknas!"
+      "body": ". Foto: Mark Harris]]\nListade från vänster till höger när man står framför klippan. Inte en fullständig beskrivning: fyll gärna i dom som saknas!"
     },
     {
       "id": "lankar",
       "title": "Länkar",
-      "body": "Mark Harris stod för mycket av ursprungsmaterialet till den här sidan, och hans sida om klättring kring Uppsala är ovärderlig om man sitter fast i den uppländska leran och undrar vart alla klippor tagit vägen. På www.bergsklattring.nu hittas en annan förare som med lite tydligare ledbeskrivningar. länk till förare"
+      "body": "Mark Harris stod för mycket av ursprungsmaterialet till den här sidan, och hans sida om klättring kring Uppsala (http://alpha2.bmc.uu.se/mark/climbing/climbing_areas_swedish.html) är ovärderlig om man sitter fast i den uppländska leran och undrar vart alla klippor tagit vägen.\n\nPå www.bergsklattring.nu hittas en annan förare som med lite tydligare ledbeskrivningar.\nlänk till förare (http://www.bergsklattring.nu/index.php?pg=/showpage.php&t=142)"
     }
   ],
   "routes": [
@@ -244,7 +244,33 @@
       "filename": "Dalkarlskarret_topo_small.jpg",
       "caption": "Dalkarlskärrets huvudvägg",
       "missing": false,
-      "sectorId": "leder"
+      "sectorId": "leder",
+      "routeIds": [
+        "dalkarlskarret-led-1",
+        "dalkarlskarret-led-2",
+        "dalkarlskarret-led-3",
+        "dalkarlskarret-led-4",
+        "dalkarlskarret-led-5",
+        "dalkarlskarret-led-6",
+        "dalkarlskarret-led-7",
+        "dalkarlskarret-led-8",
+        "dalkarlskarret-led-9",
+        "dalkarlskarret-led-10",
+        "dalkarlskarret-led-11",
+        "dalkarlskarret-led-12"
+      ]
+    }
+  ],
+  "externalLinks": [
+    {
+      "url": "http://alpha2.bmc.uu.se/mark/climbing/climbing_areas_swedish.html",
+      "label": "klättring kring Uppsala",
+      "sectionId": "lankar"
+    },
+    {
+      "url": "http://www.bergsklattring.nu/index.php?pg=/showpage.php&t=142",
+      "label": "länk till förare",
+      "sectionId": "lankar"
     }
   ],
   "access": {

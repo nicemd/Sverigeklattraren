@@ -21,12 +21,12 @@
     {
       "id": "vagbeskrivning",
       "title": "Vägbeskrivning",
-      "body": "Kör från Arvika längs väg 175 mot Klässbol/Säffle. Vid södra ingestrandsinfarten går man sedan upp mot Björnmyra. Skyltat från vägen? Berget ligger på andra sidan det hygge man passerar på vänster hand innan man går över bäcken. På det här berget har det dock inte varit någon värre trafik under de senaste åren så berget är i stort behov av att rensas både framför(rejält snårigt) och på lederna!"
+      "body": "Kör från Arvika längs väg 175 mot Klässbol/Säffle. Vid södra ingestrandsinfarten går man sedan upp mot Björnmyra. Skyltat från vägen? Berget ligger på andra sidan det hygge man passerar på vänster hand innan man går över bäcken.\nPå det här berget har det dock inte varit någon värre trafik under de senaste åren så berget är i stort behov av att rensas både framför(rejält snårigt) och på lederna!"
     },
     {
       "id": "leder",
       "title": "Leder",
-      "body": "Kategori:Värmland"
+      "body": ""
     }
   ],
   "routes": [
@@ -130,11 +130,20 @@
   "images": [
     {
       "filename": "Björnmyra.jpg",
-      "caption": "",
+      "caption": "Leder · foto",
       "missing": false,
-      "sectorId": "leder"
+      "sectorId": "leder",
+      "routeIds": [
+        "bjornmyra-led-1",
+        "bjornmyra-led-2",
+        "bjornmyra-led-3",
+        "bjornmyra-led-4",
+        "bjornmyra-led-5",
+        "bjornmyra-led-6"
+      ]
     }
   ],
+  "externalLinks": [],
   "access": {
     "legacyText": null,
     "federationSlug": null

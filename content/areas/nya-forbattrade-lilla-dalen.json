@@ -19,18 +19,18 @@
     {
       "id": "vagbeskrivning",
       "title": "Vägbeskrivning",
-      "body": "Om du kommer med bil från Stockholm så sväng av Tumba och efter avfarten sväng höger. Kör rakt fram i rondellen och du ska nu befinna dig på Hågelbyleden. Efter Hågelby sväng vänster tror det står Lilla Dalen på en skylt. Parkera på stora parkeringen och gå sedan tillbaka på den vägen du kom ifrån ca: 100-150 m. så dyker klippan upp på höger sida någon meter in i skogen. Mitt emot highballväggen över vägen i skogen finns ett stort block men endast en sida är klätterbar. Gå upp mot kistmotagningen och följ grusvägen till höger och forsätt sedan rakt fram in i skogen när vägen tar slut och blocket dyker upp efter ett 50 tal meter. http://www.plonk.se/oldsite/lilladalen.html"
+      "body": "Om du kommer med bil från Stockholm så sväng av Tumba och efter avfarten sväng höger. Kör rakt fram i rondellen och du ska nu befinna dig på Hågelbyleden. Efter Hågelby sväng vänster tror det står Lilla Dalen på en skylt. Parkera på stora parkeringen och gå sedan tillbaka på den vägen du kom ifrån ca: 100-150 m. så dyker klippan upp på höger sida någon meter in i skogen. Mitt emot highballväggen över vägen i skogen finns ett stort block men endast en sida är klätterbar. Gå upp mot kistmotagningen och följ grusvägen till höger och forsätt sedan rakt fram in i skogen när vägen tar slut och blocket dyker upp efter ett 50 tal meter.\n\nhttp://www.plonk.se/oldsite/lilladalen.html"
     },
     {
       "id": "boulderproblem",
       "title": "Boulderproblem",
-      "body": "http://www.sverigeforaren.se/images/3/36/Lilla_Dalen.jpg Kategori:Stockholm Kategori:Saknar koordinater Kategori:Saknar karta"
+      "body": "http://www.sverigeforaren.se/images/3/36/Lilla_Dalen.jpg"
     }
   ],
   "routes": [
     {
       "id": "nya-forbattrade-lilla-dalen-led-1",
-      "kind": "route",
+      "kind": "problem",
       "number": "1",
       "name": "Likbilen",
       "grade": "6c",
@@ -46,7 +46,7 @@
     },
     {
       "id": "nya-forbattrade-lilla-dalen-led-2",
-      "kind": "route",
+      "kind": "problem",
       "number": "2",
       "name": "Begravningsentreprenören",
       "grade": "6c",
@@ -62,7 +62,7 @@
     },
     {
       "id": "nya-forbattrade-lilla-dalen-led-3",
-      "kind": "route",
+      "kind": "problem",
       "number": "3",
       "name": "Projektnamn Rolf Gustavsson 1912-1996",
       "grade": "7c?",
@@ -78,7 +78,7 @@
     },
     {
       "id": "nya-forbattrade-lilla-dalen-led-4",
-      "kind": "route",
+      "kind": "problem",
       "number": "4",
       "name": "Ljuset i tunneln",
       "grade": "6c+",
@@ -94,7 +94,7 @@
     },
     {
       "id": "nya-forbattrade-lilla-dalen-led-5",
-      "kind": "route",
+      "kind": "problem",
       "number": "5",
       "name": "Six feet under",
       "grade": "7a",
@@ -110,7 +110,7 @@
     },
     {
       "id": "nya-forbattrade-lilla-dalen-led-6",
-      "kind": "route",
+      "kind": "problem",
       "number": "6",
       "name": "Nagiala",
       "grade": "6b+",
@@ -126,7 +126,7 @@
     },
     {
       "id": "nya-forbattrade-lilla-dalen-led-7",
-      "kind": "route",
+      "kind": "problem",
       "number": "1",
       "name": "Lennart",
       "grade": "6b",
@@ -142,7 +142,7 @@
     },
     {
       "id": "nya-forbattrade-lilla-dalen-led-8",
-      "kind": "route",
+      "kind": "problem",
       "number": "2",
       "name": "Sunk",
       "grade": "6b",
@@ -158,7 +158,7 @@
     },
     {
       "id": "nya-forbattrade-lilla-dalen-led-9",
-      "kind": "route",
+      "kind": "problem",
       "number": "3",
       "name": "Munk",
       "grade": "6b",
@@ -176,9 +176,26 @@
   "images": [
     {
       "filename": "Lilla_dalen_blocket.jpg",
-      "caption": "",
+      "caption": "Lilla dalen blocket",
       "missing": false,
-      "sectorId": "boulderproblem"
+      "sectorId": "boulderproblem",
+      "routeIds": [
+        "nya-forbattrade-lilla-dalen-led-7",
+        "nya-forbattrade-lilla-dalen-led-8",
+        "nya-forbattrade-lilla-dalen-led-9"
+      ]
+    }
+  ],
+  "externalLinks": [
+    {
+      "url": "http://www.plonk.se/oldsite/lilladalen.html",
+      "label": "lilladalen.html",
+      "sectionId": "vagbeskrivning"
+    },
+    {
+      "url": "http://www.sverigeforaren.se/images/3/36/Lilla_Dalen.jpg",
+      "label": "Lilla_Dalen.jpg",
+      "sectionId": "boulderproblem"
     }
   ],
   "access": {

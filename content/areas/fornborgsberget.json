@@ -28,7 +28,7 @@
     {
       "id": "miljo",
       "title": "Miljö",
-      "body": "Klippan är sydvästvänd men mestadels skuggas av granskogen. På flera kartor kan man förtfarande se ett hus ganska nära klippan. Det var kanske huvudorsaken att klippan har varit helt outveklad och oklättrad trots att den finns listad i Stockholmsföraren (1992, 1996 och 2008). Huset finns inte längre!"
+      "body": "Klippan är sydvästvänd men mestadels skuggas av granskogen.\n\nPå flera kartor kan man förtfarande se ett hus ganska nära klippan. Det var kanske huvudorsaken att klippan har varit helt outveklad och oklättrad trots att den finns listad i Stockholmsföraren (1992, 1996 och 2008).\n\nHuset finns inte längre!"
     },
     {
       "id": "vagbeskrivning",
@@ -43,7 +43,7 @@
     {
       "id": "access",
       "title": "Access",
-      "body": "Accessläget vid Fornborgsberget är oklart. Det ligger på privat mark. Dessutom finns en välkänd fornborg på berget. Fornborgen är belagen på andra “oklätterbara” sidan av berget, men... Var uppmärksam och glöm inte att nedsågning av träd och grenar ingår faktist inte i allemansrätten. Undvik att parkera nära klippan och håll låg profil tills mer information finns tillgänglig. http://www.botkyrka.se/kulturguiden/omraden/34221.html http://www.botkyrka.se/index.php?dispatchTo=Renderer&action=download&file=59999"
+      "body": "Accessläget vid Fornborgsberget är oklart.\nDet ligger på privat mark. Dessutom finns en välkänd fornborg på berget. Fornborgen är belagen på andra “oklätterbara” sidan av berget, men...\n\nVar uppmärksam och glöm inte att nedsågning av träd och grenar ingår faktist inte i allemansrätten. Undvik att parkera nära klippan och håll låg profil tills mer information finns tillgänglig.\n\nhttp://www.botkyrka.se/kulturguiden/omraden/34221.html\n\nhttp://www.botkyrka.se/index.php?dispatchTo=Renderer&action=download&file=59999"
     },
     {
       "id": "leder",
@@ -53,12 +53,12 @@
     {
       "id": "pelaren",
       "title": "Pelaren",
-      "body": "Inte hög men intressant klippformation längst åt vänster. Inga leder eller projekt. Möjlighet till ett par lättare turer."
+      "body": "Inte hög men intressant klippformation längst åt vänster.\n\nInga leder eller projekt. Möjlighet till ett par lättare turer."
     },
     {
       "id": "huvudvaggen",
       "title": "Huvudväggen",
-      "body": "10-12m hög svagt överhängande vägg. Inga leder eller projekt. Möjlighet till 5-6 sportturer."
+      "body": "10-12m hög svagt överhängande vägg.\n\nInga leder eller projekt. Möjlighet till 5-6 sportturer."
     },
     {
       "id": "hoger-om-huvudvagen",
@@ -68,7 +68,7 @@
     {
       "id": "jarnvaggen",
       "title": "Järnväggen",
-      "body": "Mindre men kraftigt överhängande väggpartiet längst åt höger. Kategori:Stockholm Kategori:Västra Södertörn Kategori:Oklättrat Kategori:Saknar leder Kategori:Saknar skiss Kategori:Saknar skiss Kategori:sport Kategori:trad Kategori:vertikalt Kategori:överhäng"
+      "body": "Mindre men kraftigt överhängande väggpartiet längst åt höger."
     }
   ],
   "routes": [
@@ -190,47 +190,75 @@
       "filename": "Fornborgsberget_view1.jpg",
       "caption": "Fornborgsberget",
       "missing": false,
-      "sectorId": "miljo"
+      "sectorId": "miljo",
+      "routeIds": []
     },
     {
       "filename": "Fornborgsberget_parkering.jpg",
       "caption": "Rätt parkering.",
       "missing": false,
-      "sectorId": "vagbeskrivning"
+      "sectorId": "vagbeskrivning",
+      "routeIds": []
     },
     {
       "filename": "Fornborgsberget_parkera_inte.jpg",
       "caption": "Ingång. Parkera inte här!",
       "missing": false,
-      "sectorId": "access"
+      "sectorId": "access",
+      "routeIds": []
     },
     {
       "filename": "Fornborgsberget_pelaren.jpg",
       "caption": "Pelaren",
       "missing": false,
-      "sectorId": "pelaren"
+      "sectorId": "pelaren",
+      "routeIds": []
     },
     {
       "filename": "Fornborgsberget_huvudv.jpg",
       "caption": "Huvudväggen",
       "missing": false,
-      "sectorId": "huvudvaggen"
+      "sectorId": "huvudvaggen",
+      "routeIds": []
     },
     {
       "filename": "Fornborgsberget_day_off.jpg",
       "caption": "Trad eller sport?",
       "missing": false,
-      "sectorId": "hoger-om-huvudvagen"
+      "sectorId": "hoger-om-huvudvagen",
+      "routeIds": [
+        "fornborgsberget-led-1",
+        "fornborgsberget-led-2",
+        "fornborgsberget-led-3"
+      ]
     },
     {
       "filename": "Fornborgsberget_iron_wall1.jpg",
       "caption": "Järnväggen",
       "missing": false,
-      "sectorId": "jarnvaggen"
+      "sectorId": "jarnvaggen",
+      "routeIds": [
+        "fornborgsberget-led-4",
+        "fornborgsberget-led-5",
+        "fornborgsberget-led-6",
+        "fornborgsberget-led-7"
+      ]
+    }
+  ],
+  "externalLinks": [
+    {
+      "url": "http://www.botkyrka.se/kulturguiden/omraden/34221.html",
+      "label": "34221.html",
+      "sectionId": "access"
+    },
+    {
+      "url": "http://www.botkyrka.se/index.php?dispatchTo=Renderer&action=download&file=59999",
+      "label": "index.php",
+      "sectionId": "access"
     }
   ],
   "access": {
-    "legacyText": "Accessläget vid Fornborgsberget är oklart. Det ligger på privat mark. Dessutom finns en välkänd fornborg på berget. Fornborgen är belagen på andra “oklätterbara” sidan av berget, men... Var uppmärksam och glöm inte att nedsågning av träd och grenar ingår faktist inte i allemansrätten. Undvik att parkera nära klippan och håll låg profil tills mer information finns tillgänglig. http://www.botkyrka.se/kulturguiden/omraden/34221.html http://www.botkyrka.se/index.php?dispatchTo=Renderer&action=download&file=59999",
+    "legacyText": "Accessläget vid Fornborgsberget är oklart.\nDet ligger på privat mark. Dessutom finns en välkänd fornborg på berget. Fornborgen är belagen på andra “oklätterbara” sidan av berget, men...\n\nVar uppmärksam och glöm inte att nedsågning av träd och grenar ingår faktist inte i allemansrätten. Undvik att parkera nära klippan och håll låg profil tills mer information finns tillgänglig.\n\nhttp://www.botkyrka.se/kulturguiden/omraden/34221.html\n\nhttp://www.botkyrka.se/index.php?dispatchTo=Renderer&action=download&file=59999",
     "federationSlug": null
   },
   "qualityIssues": [],

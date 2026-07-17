@@ -40,12 +40,12 @@
     {
       "id": "vagbeskrivning",
       "title": "Vägbeskrivning",
-      "body": "Karta här. Tryck på kartknappen ovan. Skriv vägbeskrivning här. (Klippan beskrivs mycket vagt i Göteborg med omnejd)"
+      "body": "Karta här. Tryck på kartknappen ovan.\n\nSkriv vägbeskrivning här.\n\n(Klippan beskrivs mycket vagt i Göteborg med omnejd)"
     },
     {
       "id": "leder",
       "title": "Leder",
-      "body": "Höger kolumn kategori:Saknar skiss kategori:Saknar vägbeskrivning kategori:Saknar leder kategori:Saknar koordinater kategori:Saknar skrivarformatering Category:Göteborg"
+      "body": "Höger kolumn"
     }
   ],
   "routes": [
@@ -85,11 +85,13 @@
   "images": [
     {
       "filename": "Oversiktsbild_backadalen.jpg",
-      "caption": "",
+      "caption": "Oversiktsbild backadalen",
       "missing": false,
-      "sectorId": "bild"
+      "sectorId": "bild",
+      "routeIds": []
     }
   ],
+  "externalLinks": [],
   "access": {
     "legacyText": null,
     "federationSlug": null

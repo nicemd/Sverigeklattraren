@@ -20,7 +20,7 @@
     {
       "id": "vagbeskrivning",
       "title": "Vägbeskrivning",
-      "body": "Parkera bakom Kortedala brandstation, promenera ner för backen ca. 400 meter tills du får syn berget på höger sida av vägen. Kollektivt, åk spårvagn och kliv av vid Kortedala torg. Följ Tideräkningsgatan i riktning mot Angered tills du ser brandstationen, fortsätt förbi brandstationen ca. 400 meter tills du får syn på berget på höger sida av vägen. Total promenadsträcka ca. 1 km. För att komma till Burmaklippan och till dem söder om denna kan man antingen följa kraftledningen från kolonilotterna eller leta sig ner till dem via stigarna från brandstationen eller från Dagjämingsgatan. Parkera inte vid kolonilotterna."
+      "body": "Parkera bakom Kortedala brandstation, promenera ner för backen ca. 400 meter tills du får syn berget på höger sida av vägen. Kollektivt, åk spårvagn och kliv av vid Kortedala torg. Följ Tideräkningsgatan i riktning mot Angered tills du ser brandstationen, fortsätt förbi brandstationen ca. 400 meter tills du får syn på berget på höger sida av vägen. Total promenadsträcka ca. 1 km.\n\nFör att komma till Burmaklippan och till dem söder om denna kan man antingen följa kraftledningen från kolonilotterna eller leta sig ner till dem via stigarna från brandstationen eller från Dagjämingsgatan. Parkera inte vid kolonilotterna."
     },
     {
       "id": "oversikt",
@@ -40,12 +40,12 @@
     {
       "id": "hogra-vaggen",
       "title": "Högra väggen",
-      "body": "Den första lilla vägg du ser när du kommer från Tideräkningsgatan. Bör kanske kallas Tidräkningsväggen? Ungefär 10 meter högt. Potential finns för fler leder och boulderproblem. Se upp för ilskna myror. Kategori:Göteborg"
+      "body": "Den första lilla vägg du ser när du kommer från Tideräkningsgatan. Bör kanske kallas Tidräkningsväggen? Ungefär 10 meter högt. Potential finns för fler leder och boulderproblem. Se upp för ilskna myror."
     },
     {
       "id": "burmaklippan",
       "title": "Burmaklippan",
-      "body": "Fil:Burmaklippan.jpg Parkera vid brandstationen, gå ner till koloniområded och följ krafledningarna. Parkera inte i koloniområdet. Alternativt, gå från Dagjämningsgatan genom skogen."
+      "body": "Parkera vid brandstationen, gå ner till koloniområded och följ krafledningarna. Parkera inte i koloniområdet. Alternativt, gå från Dagjämningsgatan genom skogen."
     },
     {
       "id": "linjelusta-klippan",
@@ -55,12 +55,12 @@
     {
       "id": "tardis-vaggen",
       "title": "TARDIS-väggen",
-      "body": "Fortsätter man 100 meter mer söderut dyker ytterligare en vägg upp, samma höjd och lutning som de övriga, men bredare. Hit tar man sig enklast från Dagjämningsgatan. Följ stigen från Dagjämningsgatan ner för backen tills du kommer till ett rostigt stängsel. Där ligger följande leder: Dessa leder ligger ca 50 meter till höger om de föregående lederna: Dessa leder ligger ca 50 meter till höger om föregående lederna, ungefär där stigen är som brantast:"
+      "body": "Fortsätter man 100 meter mer söderut dyker ytterligare en vägg upp, samma höjd och lutning som de övriga, men bredare. Hit tar man sig enklast från Dagjämningsgatan.\n\nFölj stigen från Dagjämningsgatan ner för backen tills du kommer till ett rostigt stängsel. Där ligger följande leder:\n\nDessa leder ligger ca 50 meter till höger om de föregående lederna:\n\nDessa leder ligger ca 50 meter till höger om föregående lederna, ungefär där stigen är som brantast:"
     },
     {
       "id": "kalendervagen",
       "title": "Kalendervägen",
-      "body": "Vid Kalendervägen 38 i Kortedala finns tre tradleder. De finns markerade med T1, T2 och T3 på en topo på Gbg bouldering online tillsammans med ett antal boulderproblem. Se Kortedala > Kalendervägen på GBO."
+      "body": "Vid Kalendervägen 38 i Kortedala finns tre tradleder. De finns markerade med T1, T2 och T3 på en topo på Gbg bouldering online tillsammans med ett antal boulderproblem. Se Kortedala > Kalendervägen på GBO (http://gbo.crimp.se/omraden.php?oid=13&sid=47)."
     }
   ],
   "routes": [
@@ -580,27 +580,63 @@
   "images": [
     {
       "filename": "Kortedala_översikt.png",
-      "caption": "",
+      "caption": "översikt",
       "missing": false,
-      "sectorId": "oversikt"
+      "sectorId": "oversikt",
+      "routeIds": []
     },
     {
       "filename": "Kortedala_vanster.jpg",
-      "caption": "",
+      "caption": "vanster",
       "missing": false,
-      "sectorId": "vanstra-vaggen"
+      "sectorId": "vanstra-vaggen",
+      "routeIds": []
     },
     {
       "filename": "Kortedala_hoger.jpg",
-      "caption": "",
+      "caption": "hoger",
       "missing": false,
-      "sectorId": "hogra-vaggen"
+      "sectorId": "hogra-vaggen",
+      "routeIds": [
+        "kortedala-led-8",
+        "kortedala-led-9"
+      ]
+    },
+    {
+      "filename": "Burmaklippan.jpg",
+      "caption": "Burma",
+      "missing": false,
+      "sectorId": "burmaklippan",
+      "routeIds": [
+        "kortedala-led-10",
+        "kortedala-led-11",
+        "kortedala-led-12",
+        "kortedala-led-13",
+        "kortedala-led-14",
+        "kortedala-led-15",
+        "kortedala-led-16",
+        "kortedala-led-17"
+      ]
     },
     {
       "filename": "Kortedala_Linjelusta-klippan.jpg",
-      "caption": "",
+      "caption": "Linje lusta",
       "missing": false,
-      "sectorId": "linjelusta-klippan"
+      "sectorId": "linjelusta-klippan",
+      "routeIds": [
+        "kortedala-led-18",
+        "kortedala-led-19",
+        "kortedala-led-20",
+        "kortedala-led-21",
+        "kortedala-led-22"
+      ]
+    }
+  ],
+  "externalLinks": [
+    {
+      "url": "http://gbo.crimp.se/omraden.php?oid=13&sid=47",
+      "label": "Kortedala > Kalendervägen på GBO",
+      "sectionId": "kalendervagen"
     }
   ],
   "access": {

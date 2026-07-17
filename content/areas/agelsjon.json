@@ -43,12 +43,12 @@
     {
       "id": "lankar",
       "title": "Länkar",
-      "body": "Förare tillhandahållen av Linköpings klätterklubb."
+      "body": "Förare tillhandahållen av Linköpings klätterklubb (http://linkopingsklatterklubb.se/index.php/forare.html)."
     },
     {
       "id": "leder",
       "title": "Leder",
-      "body": "Klättringen i ågelsjön är utspridd på ett stort antal väggar med olika karaktär. A-lagsväggen, B-lagsväggen, Drakväggen, Volxväggen, Surfväggen, Ravinväggen och Östväggen ligger utspridda på \"Fotbollsberget\" eller Borgarberget, som ligger norr om fotbollsplanen. Längs stigen utmed sjön hittar man först Lilla berget, flankerat av Röda Oktoberväggen till höger och divaväggen till vänster. Följer man sedan stigen vidare längs sjön kommer man så småningom till Stora väggen. Ovanför den ligger svaplattan och bortom den dels några tvärväggar, dels sjöklippan."
+      "body": "Klättringen i ågelsjön är utspridd på ett stort antal väggar med olika karaktär.\nA-lagsväggen, B-lagsväggen, Drakväggen, Volxväggen, Surfväggen, Ravinväggen och Östväggen ligger utspridda på \"Fotbollsberget\" eller Borgarberget, som ligger norr om fotbollsplanen.\nLängs stigen utmed sjön hittar man först Lilla berget, flankerat av Röda Oktoberväggen till höger och divaväggen till vänster.\nFöljer man sedan stigen vidare längs sjön kommer man så småningom till Stora väggen. Ovanför den ligger svaplattan och bortom den dels några tvärväggar, dels sjöklippan."
     },
     {
       "id": "fotbollsberget",
@@ -58,7 +58,7 @@
     {
       "id": "drakvaggen",
       "title": "== Drakväggen ==",
-      "body": "Drakväggen ligger precis över vägen från fotbollsplanens nordvästra hörn. Lätt att känna igen på den inristade draken. Här går tre mycket fina bultade svaleder. Från vänster till höger:"
+      "body": "Drakväggen ligger precis över vägen från fotbollsplanens nordvästra hörn. Lätt att känna igen på den inristade draken.\n\nHär går tre mycket fina bultade svaleder. Från vänster till höger:"
     },
     {
       "id": "a-lagsvaggen",
@@ -133,7 +133,7 @@
     {
       "id": "gammbultspartiet",
       "title": "== Gammbultspartiet ==",
-      "body": "Gammbultspartiet ligger till höger om stora väggen, och leder upp mot svaplattan. för den som vill upp till svaplattan. Några kruxiga etapper med avsatser mellan. Rejält mossig (2007)}}"
+      "body": "Gammbultspartiet ligger till höger om stora väggen, och leder upp mot svaplattan.\n\nför den som vill upp till svaplattan. Några kruxiga etapper med avsatser mellan. Rejält mossig (2007)"
     },
     {
       "id": "valhallvaggen",
@@ -198,7 +198,7 @@
     {
       "id": "undre-isvaggen",
       "title": "Undre isväggen",
-      "body": "Kategori:Norrköping category:Barnvänligt Kategori:sport Kategori:trad Kategori:Vertikalt Kategori:Sva Kategori:DWS Kategori:Is Kategori:Östergötland Kategori:Barnvänligt"
+      "body": ""
     }
   ],
   "routes": [
@@ -1534,33 +1534,60 @@
   "images": [
     {
       "filename": "Ågelsjön.jpg",
-      "caption": "",
+      "caption": "Leder · foto",
       "missing": false,
-      "sectorId": "leder"
+      "sectorId": "leder",
+      "routeIds": []
     },
     {
       "filename": "Väggdrake.jpg",
-      "caption": "",
+      "caption": "Väggdrake",
       "missing": false,
-      "sectorId": "drakvaggen"
+      "sectorId": "drakvaggen",
+      "routeIds": [
+        "agelsjon-led-1",
+        "agelsjon-led-2",
+        "agelsjon-led-3"
+      ]
     },
     {
       "filename": "Ågelsjön_ravinväggen.jpg",
       "caption": "Ravinväggen",
       "missing": false,
-      "sectorId": "ravinvaggen"
+      "sectorId": "ravinvaggen",
+      "routeIds": [
+        "agelsjon-led-28",
+        "agelsjon-led-29",
+        "agelsjon-led-30",
+        "agelsjon-led-31",
+        "agelsjon-led-32",
+        "agelsjon-led-33",
+        "agelsjon-led-34",
+        "agelsjon-led-35",
+        "agelsjon-led-36",
+        "agelsjon-led-37"
+      ]
     },
     {
       "filename": "Ågelsjön_lilla.jpg",
       "caption": "Lilla berget",
       "missing": false,
-      "sectorId": "lilla-berget-och-dar-omkring"
+      "sectorId": "lilla-berget-och-dar-omkring",
+      "routeIds": []
     },
     {
       "filename": "32192_397548624155_746994155_4408368_675168_n.jpg",
       "caption": "Lilla berget",
       "missing": false,
-      "sectorId": "lilla-berget-och-dar-omkring"
+      "sectorId": "lilla-berget-och-dar-omkring",
+      "routeIds": []
+    }
+  ],
+  "externalLinks": [
+    {
+      "url": "http://linkopingsklatterklubb.se/index.php/forare.html",
+      "label": "Linköpings klätterklubb",
+      "sectionId": "lankar"
     }
   ],
   "access": {

@@ -3,7 +3,7 @@
   "id": "kopegarda",
   "slug": "kopegarda",
   "name": "Köpegårda",
-  "description": "Köpegårda är en sportklippa mellan Karlshamn och Ronneby. Klippan bjuder på ett 20-tal fina leder från grad 3 - 7. Vackert belägen med sydläge vid en åker gör att den torkar snabbt och kan klättras tidigt på våren. Klippan är svaig (förutom sektor A) och vass, vilket innebär mycket friktion, men greppen kan kännas lite gömda ibland. Köpegårda är en populär klippa, försök hålla låg profil med omtanke om familjerna som bor tvärs över åkern. I området finns även ett par stycken boulderblock. Minst fem st leder till är gjorda, utöver de som redovisas nedan: en travers på okänd höjd, 2 st lätta (~5) i högerkanten av huvudklippan, en på blocket i högerkanten och en i den vänstra sprickan i sektor C. Därutöver har det även gjorts några boulders i sektor A.",
+  "description": "Köpegårda är en sportklippa mellan Karlshamn och Ronneby. Klippan bjuder på ett 20-tal fina leder från grad 3 - 7.\nVackert belägen med sydläge vid en åker gör att den torkar snabbt och kan klättras tidigt på våren.\nKlippan är svaig (förutom sektor A) och vass, vilket innebär mycket friktion, men greppen kan kännas lite gömda ibland.\nKöpegårda är en populär klippa, försök hålla låg profil med omtanke om familjerna som bor tvärs över åkern.\nI området finns även ett par stycken boulderblock.\nMinst fem st leder till är gjorda, utöver de som redovisas nedan: en travers på okänd höjd, 2 st lätta (~5) i högerkanten av huvudklippan, en på blocket i högerkanten och en i den vänstra sprickan i sektor C. Därutöver har det även gjorts några boulders i sektor A.",
   "coordinates": {
     "latitude": 56.195364318056235,
     "longitude": 15.034103393554688
@@ -16,17 +16,17 @@
     {
       "id": "allmant",
       "title": "Allmänt",
-      "body": "Köpegårda är en sportklippa mellan Karlshamn och Ronneby. Klippan bjuder på ett 20-tal fina leder från grad 3 - 7. Vackert belägen med sydläge vid en åker gör att den torkar snabbt och kan klättras tidigt på våren. Klippan är svaig (förutom sektor A) och vass, vilket innebär mycket friktion, men greppen kan kännas lite gömda ibland. Köpegårda är en populär klippa, försök hålla låg profil med omtanke om familjerna som bor tvärs över åkern. I området finns även ett par stycken boulderblock. Minst fem st leder till är gjorda, utöver de som redovisas nedan: en travers på okänd höjd, 2 st lätta (~5) i högerkanten av huvudklippan, en på blocket i högerkanten och en i den vänstra sprickan i sektor C. Därutöver har det även gjorts några boulders i sektor A."
+      "body": "Köpegårda är en sportklippa mellan Karlshamn och Ronneby. Klippan bjuder på ett 20-tal fina leder från grad 3 - 7.\nVackert belägen med sydläge vid en åker gör att den torkar snabbt och kan klättras tidigt på våren.\nKlippan är svaig (förutom sektor A) och vass, vilket innebär mycket friktion, men greppen kan kännas lite gömda ibland.\nKöpegårda är en populär klippa, försök hålla låg profil med omtanke om familjerna som bor tvärs över åkern.\nI området finns även ett par stycken boulderblock.\nMinst fem st leder till är gjorda, utöver de som redovisas nedan: en travers på okänd höjd, 2 st lätta (~5) i högerkanten av huvudklippan, en på blocket i högerkanten och en i den vänstra sprickan i sektor C. Därutöver har det även gjorts några boulders i sektor A."
     },
     {
       "id": "hitta-hit",
       "title": "Hitta hit",
-      "body": "Från Karlshamn kör du österut mot Karlskrona, vid Åryd svänger du av från E22:an och tar sedan vänster under E22:an och sedan snabbt höger igen för att köra under E22:an igen. Efter ca 1 km kommer en skylt åt höger \"Köpegårda\", efter 1 km på den vägen ser du klippan på vänster sida. fortsätt köra en liten bit tills det viker av en grusväg in mot klippan, parkera här och gå sedan sista biten. Obs Gena inte över åkern! Gå runt åkern utmed kanten."
+      "body": "Från Karlshamn kör du österut mot Karlskrona, vid Åryd svänger du av från E22:an och tar sedan vänster under E22:an och sedan snabbt höger igen för att köra under E22:an igen.\nEfter ca 1 km kommer en skylt åt höger \"Köpegårda\", efter 1 km på den vägen ser du klippan på vänster sida. fortsätt köra en liten bit tills det viker av en grusväg in mot klippan, parkera här och gå sedan sista biten.\nObs Gena inte över åkern! Gå runt åkern utmed kanten."
     },
     {
       "id": "a-sektorn",
       "title": "A-Sektorn",
-      "body": "Detta är den bortersta delen av väggen, på vänster sida om huvudväggen. Insteget till de lätta lederna till höger kan vara lite bökigt att nå."
+      "body": "Detta är den bortersta delen av väggen, på vänster sida om huvudväggen.\nInsteget till de lätta lederna till höger kan vara lite bökigt att nå."
     },
     {
       "id": "b-sektorn",
@@ -36,7 +36,7 @@
     {
       "id": "c-sektorn",
       "title": "C-sektorn",
-      "body": "Denna lilla vägg ligger inne bland träden innan huvudväggen Kategori:sport Kategori:Blekinge"
+      "body": "Denna lilla vägg ligger inne bland träden innan huvudväggen"
     }
   ],
   "routes": [
@@ -334,33 +334,62 @@
       "filename": "Skalen.gif",
       "caption": "Udi Grinberg klättrar [[Skålen",
       "missing": false,
-      "sectorId": null
+      "sectorId": null,
+      "routeIds": [
+        "kopegarda-led-14"
+      ]
     },
     {
       "filename": "Kopet2.gif",
-      "caption": "",
+      "caption": "Kopet2",
       "missing": false,
-      "sectorId": "a-sektorn"
+      "sectorId": "a-sektorn",
+      "routeIds": [
+        "kopegarda-led-1",
+        "kopegarda-led-2",
+        "kopegarda-led-3",
+        "kopegarda-led-4",
+        "kopegarda-led-5",
+        "kopegarda-led-6",
+        "kopegarda-led-7"
+      ]
     },
     {
       "filename": "Kopet.gif",
-      "caption": "",
+      "caption": "Kopet",
       "missing": false,
-      "sectorId": "b-sektorn"
+      "sectorId": "b-sektorn",
+      "routeIds": []
     },
     {
       "filename": "Kopegarda1.jpg",
       "caption": "B-sektorn Foto: Fredrik Rapp",
       "missing": false,
-      "sectorId": "b-sektorn"
+      "sectorId": "b-sektorn",
+      "routeIds": [
+        "kopegarda-led-8",
+        "kopegarda-led-9",
+        "kopegarda-led-10",
+        "kopegarda-led-11",
+        "kopegarda-led-12",
+        "kopegarda-led-13",
+        "kopegarda-led-14",
+        "kopegarda-led-15",
+        "kopegarda-led-16",
+        "kopegarda-led-17"
+      ]
     },
     {
       "filename": "Kopet3.gif",
-      "caption": "",
+      "caption": "Kopet3",
       "missing": false,
-      "sectorId": "c-sektorn"
+      "sectorId": "c-sektorn",
+      "routeIds": [
+        "kopegarda-led-18"
+      ]
     }
   ],
+  "externalLinks": [],
   "access": {
     "legacyText": null,
     "federationSlug": null
