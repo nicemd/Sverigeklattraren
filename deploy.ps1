@@ -5,7 +5,9 @@ param(
     [string]$AppDirectory = "~/migrated-compose/sverigeforaren",
     [string]$Branch = "codex/wiki-2026",
     [int]$LocalBindPort = 3086,
-    [string]$ServiceName = "sverigeforaren"
+    [string]$ServiceName = "sverigeforaren",
+    [int]$FallbackHttpsPort = 8443,
+    [switch]$Confirmed
 )
 
 $ErrorActionPreference = "Stop"
@@ -14,6 +16,7 @@ if ($Branch -notmatch '^[a-zA-Z0-9._/-]+$') { throw "Ogiltigt branch-namn." }
 if ($ServiceName -notmatch '^[a-z0-9-]+$') { throw "Ogiltigt Tailscale service-namn." }
 if ($Image -notmatch '^ghcr\.io/[a-zA-Z0-9._-]+/[a-zA-Z0-9._-]+$') { throw "Image ska vara ett GHCR-repository utan tagg." }
 if ($AppDirectory -notmatch '^~/[a-zA-Z0-9._/-]+$') { throw "Ogiltig appkatalog." }
+if ($FallbackHttpsPort -lt 1024 -or $FallbackHttpsPort -gt 65535 -or $FallbackHttpsPort -eq 443) { throw "Ogiltig HTTPS-reservport." }
 
 $repoRoot = $PSScriptRoot
 $secretFile = Join-Path $repoRoot ".env.local"
@@ -33,12 +36,25 @@ $tailscaleStatusJson = ssh -o ConnectTimeout=10 $Server "tailscale status --self
 if ($LASTEXITCODE -ne 0) { throw "Kunde inte kontrollera Tailscale på $Server." }
 try { $tailscaleStatus = $tailscaleStatusJson | ConvertFrom-Json } catch { throw "Tailscale returnerade ogiltig status-JSON." }
 $requiredCapability = "services/$ServiceName"
-if ($tailscaleStatus.Self.Capabilities -notcontains $requiredCapability) {
-    throw "davtor1 saknar Tailscale-kapabiliteten $requiredCapability. Godkänn svc:$ServiceName i tailnet-policyn innan deploy. Inga images har pushats och inga fjärrfiler har ändrats."
+$useService = $tailscaleStatus.Self.Capabilities -contains $requiredCapability
+if ($useService) {
+    $publicUrl = "https://$ServiceName.tail026a3a.ts.net/"
+    $tailscaleServeCommand = "sudo tailscale serve --yes --bg --service=svc:$ServiceName --https=443 http://127.0.0.1:$LocalBindPort"
+} else {
+    $publicUrl = "https://davtor1.tail026a3a.ts.net:$FallbackHttpsPort/"
+    $tailscaleServeCommand = "sudo tailscale serve --yes --bg --https=$FallbackHttpsPort http://127.0.0.1:$LocalBindPort"
+    $serveStatus = (ssh $Server "sudo tailscale serve status --json") -join "`n"
+    if ($LASTEXITCODE -ne 0) { throw "Kunde inte kontrollera befintliga Tailscale Serve-portar." }
+    if ($serveStatus -match ('"' + $FallbackHttpsPort + '"') -and $serveStatus -notmatch ('127\.0\.0\.1:' + $LocalBindPort)) {
+        throw "Tailscale HTTPS-port $FallbackHttpsPort används redan av en annan tjänst."
+    }
+    Write-Warning "davtor1 saknar $requiredCapability. Publicerar privat via värdens MagicDNS på $publicUrl i stället."
 }
 
-$answer = Read-Host "Detta bygger och pushar $imageRef samt ändrar Docker/Tailscale på $Server. Skriv DEPLOY för att fortsätta"
-if ($answer -cne "DEPLOY") { Write-Host "Avbrutet utan fjärrändringar."; exit 0 }
+if (-not $Confirmed) {
+    $answer = Read-Host "Detta bygger och pushar $imageRef samt ändrar Docker/Tailscale på $Server. Skriv DEPLOY för att fortsätta"
+    if ($answer -cne "DEPLOY") { Write-Host "Avbrutet utan fjärrändringar."; exit 0 }
+}
 
 docker build -t $imageRef -t $latestRef $repoRoot
 if ($LASTEXITCODE -ne 0) { throw "Docker-bygget misslyckades." }
@@ -58,7 +74,7 @@ try {
         "AUTO_PUBLISH_THRESHOLD=0.97"
         "GHCR_IMAGE=$imageRef"
         "LOCAL_BIND_PORT=$LocalBindPort"
-        "PUBLIC_BASE_URL=https://$ServiceName.tail026a3a.ts.net"
+        "PUBLIC_BASE_URL=$($publicUrl.TrimEnd('/'))"
     ) -join "`n"
     [IO.File]::WriteAllText($remoteEnv, $envText + "`n", [Text.UTF8Encoding]::new($false))
 
@@ -74,7 +90,7 @@ try {
     ssh $Server $repositoryCommand
     if ($LASTEXITCODE -ne 0) { throw "Kunde inte uppdatera innehållsrepot på servern." }
 
-    $deployCommand = 'cd {0} && sudo docker-compose pull && sudo docker-compose up -d --force-recreate --no-build && for i in $(seq 1 30); do curl --fail --silent http://127.0.0.1:{1}/ >/dev/null && break; if [ "$i" -eq 30 ]; then exit 1; fi; sleep 2; done && sudo tailscale serve --yes --bg --service=svc:{2} --https=443 http://127.0.0.1:{1} && sudo tailscale serve status --json && tailscale status --self --json && sudo docker-compose ps' -f $AppDirectory, $LocalBindPort, $ServiceName
+    $deployCommand = 'cd {0} && sudo docker-compose pull && sudo docker-compose up -d --force-recreate --no-build && for i in $(seq 1 30); do curl --fail --silent http://127.0.0.1:{1}/ >/dev/null && break; if [ "$i" -eq 30 ]; then exit 1; fi; sleep 2; done && {2} && sudo tailscale serve status --json && tailscale status --self --json && sudo docker-compose ps' -f $AppDirectory, $LocalBindPort, $tailscaleServeCommand
     ssh -t $Server $deployCommand
     if ($LASTEXITCODE -ne 0) {
         Write-Warning "Fjärrdeploy misslyckades. Försöker återställa föregående compose-konfiguration."
@@ -83,7 +99,6 @@ try {
         throw "Fjärrdeploy eller verifiering misslyckades; rollback har försökts."
     }
 
-    $publicUrl = "https://$ServiceName.tail026a3a.ts.net/"
     $response = Invoke-WebRequest -UseBasicParsing -Uri $publicUrl -TimeoutSec 20
     if ($response.StatusCode -ne 200) { throw "Tailscale-adressen svarade inte med HTTP 200." }
 

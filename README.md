@@ -39,7 +39,7 @@ npm run build
 
 `Dockerfile`, `docker-compose.yml` och `deploy.ps1` bygger en Git-versionsmärkt GHCR-image, håller applikationsporten bunden till `127.0.0.1` och exponerar den privat med värdens Tailscale Service. Deployskriptet kräver en ren `codex/wiki-2026`, kontrollerar servicekapabiliteten före push, kräver alltid en uttrycklig `DEPLOY`-bekräftelse, väntar in hälsa och återställer föregående compose-konfiguration om fjärrverifieringen misslyckas.
 
-Före första deploy måste davtor1:s Tailscale-identitet ha kapabiliteten `services/sverigeforaren` för `svc:sverigeforaren`. Skriptet stoppar utan fjärrändringar om policyn ännu inte medger detta.
+Om davtor1 har kapabiliteten `services/sverigeforaren` används den egna adressen `https://sverigeforaren.tail026a3a.ts.net/`. Annars använder skriptet automatiskt den privata MagicDNS-reservadressen `https://davtor1.tail026a3a.ts.net:8443/`, utan att påverka värdens befintliga HTTPS-tjänster på port 443. `-Confirmed` får bara användas när användaren redan har godkänt deploy uttryckligen i den aktiva sessionen.
 
 ## Licens
 
