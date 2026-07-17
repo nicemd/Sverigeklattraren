@@ -183,6 +183,10 @@ a { color: inherit; }
 .sector-heading:first-child { margin-top: 0; }
 .sector-heading strong { display: block; font-family: Georgia, serif; font-size: 19px; }
 .sector-heading span { color: #4f615a; display: block; font-size: 14px; line-height: 1.55; margin-top: 5px; white-space: pre-line; }
+.sector-heading-topos { display: grid; gap: 1px; margin: 14px -14px -12px; }
+.sector-heading-topos button { background: #fff; border: 0; border-top: 1px solid #d8ded4; cursor: zoom-in; padding: 0; position: relative; }
+.sector-heading-topos img { display: block; height: 310px; object-fit: contain; width: 100%; }
+.sector-heading-topos small { background: rgb(18 65 50 / 90%); border-radius: 999px; bottom: 12px; color: #fff; font-size: 11px; font-weight: 700; padding: 7px 10px; position: absolute; right: 12px; }
 .sector-topo { background: #eef2e9; border: 1px solid #d3ddce; border-radius: 18px 18px 0 0; margin: 0; overflow: hidden; }
 .sector-topo-heading { align-items: end; display: grid; gap: 20px; grid-template-columns: minmax(180px, .7fr) minmax(260px, 1.3fr); padding: 20px 22px; }
 .sector-topo-heading h3 { font-family: Georgia, serif; font-size: 26px; line-height: 1.05; margin: 4px 0 0; }

@@ -227,13 +227,6 @@ function AreaView({ area, access, globalQuery, onSuggest }: { area: Area; access
   const sectorRoutes = exactRoute?.sectorId ? area.routes.filter((route) => route.sectorId === exactRoute.sectorId && route.kind === exactRoute.kind) : [];
   const exactIndex = exactRoute ? sectorRoutes.findIndex((route) => route.id === exactRoute.id) : -1;
   const exactSourceIds = exactRoute ? [...new Set([exactRoute.source.id, ...Object.values(exactRoute.fieldSources || {}).flat()])] : [];
-  const disciplineSectorIds = new Set(area.routes.filter((route) => discipline === "all" || route.kind === discipline).map((route) => route.sectorId).filter(Boolean));
-  const preferredImageSector = sectorId !== "all" ? sectorId : exactRoute?.sectorId;
-  const visibleImages = area.images
-    .filter((image) => !image.missing
-      && (discipline === "all" || !image.sectorId || disciplineSectorIds.has(image.sectorId))
-      && (sectorId === "all" || !image.sectorId || image.sectorId === sectorId))
-    .sort((left, right) => Number(right.sectorId === preferredImageSector) - Number(left.sectorId === preferredImageSector));
   const selectedSector = sectorId !== "all" ? sectionById.get(sectorId) : null;
   const selectedSectorRoutes = selectedSector
     ? area.routes.filter((route) => route.sectorId === selectedSector.id && (discipline === "all" || route.kind === discipline))
@@ -255,6 +248,14 @@ function AreaView({ area, access, globalQuery, onSuggest }: { area: Area; access
     const relation = routeImageRelation(image, route.id);
     return Boolean(relation && relation.confidence >= 0.7);
   });
+  const imagesForSector = (targetSectorId: string) => {
+    const targetRouteIds = new Set(area.routes.filter((route) => route.sectorId === targetSectorId && (discipline === "all" || route.kind === discipline)).map((route) => route.id));
+    return area.images.filter((image) => !image.missing && image.imageKind !== "photo" && image.imageKind !== "map" && (
+      image.sectorId === targetSectorId
+      || image.routeRelations?.some((relation) => targetRouteIds.has(relation.routeId) && relation.confidence >= 0.7)
+      || image.routeIds?.some((routeId) => targetRouteIds.has(routeId))
+    ));
+  };
   const directions = area.sections.find((section) => /vägbeskrivning|hitta hit|anmarsch/i.test(section.title));
   const routeTotal = area.routes.filter((route) => route.kind === "route").length;
   const problemTotal = area.routes.filter((route) => route.kind === "problem").length;
@@ -368,26 +369,19 @@ function AreaView({ area, access, globalQuery, onSuggest }: { area: Area; access
               </div>
             </section>
           )}
-          {sectorId === "all" && visibleImages.length > 0 && (
-            <div className="image-strip" aria-label={`Bilder från ${area.name}`}>
-              {visibleImages.slice(0, 3).map((image) => (
-                <button type="button" key={image.filename} onClick={() => setOpenImage(image)} title="Visa skiss eller bild i full storlek" aria-label={`Visa bild: ${image.caption}`}>
-                  <figure>
-                  {/* eslint-disable-next-line @next/next/no-img-element */}
-                  <img src={`/api/media/${encodeURIComponent(image.filename)}`} alt={image.caption || `Klättring vid ${area.name}`} loading="lazy" />
-                  <figcaption>{image.sectorId && sectionById.get(image.sectorId) ? `${sectionById.get(image.sectorId)!.title} · ` : ""}{image.caption || "Visa skiss"}</figcaption>
-                  </figure>
-                </button>
-              ))}
-            </div>
-          )}
           <div className={`route-list ${sectorId !== "all" ? "sector-route-list" : ""}`}>
             {visibleRoutes.map((route, visibleIndex) => (
               <Fragment key={route.id}>
-              {(visibleIndex === 0 || visibleRoutes[visibleIndex - 1]?.sectorId !== route.sectorId) && (sectorId === "all" || selectedSectorImages.length === 0) && <div className="sector-heading"><strong>{route.sectorId ? sectionById.get(route.sectorId)?.title || "Övriga leder" : "Övriga leder"}</strong><span><RichText text={route.sectorId ? sectionById.get(route.sectorId)?.body || "Sektorsbeskrivning saknas i originalet." : "Sektorsbeskrivning saknas i originalet."} /></span></div>}
+              {(visibleIndex === 0 || visibleRoutes[visibleIndex - 1]?.sectorId !== route.sectorId) && (sectorId === "all" || selectedSectorImages.length === 0) && (() => {
+                const groupImages = route.sectorId ? imagesForSector(route.sectorId).slice(0, 3) : [];
+                return <div className={`sector-heading ${groupImages.length ? "with-topos" : ""}`}><strong>{route.sectorId ? sectionById.get(route.sectorId)?.title || "Övriga leder" : "Övriga leder"}</strong><span><RichText text={route.sectorId ? sectionById.get(route.sectorId)?.body || "Sektorsbeskrivning saknas i originalet." : "Sektorsbeskrivning saknas i originalet."} /></span>{groupImages.length > 0 && <div className="sector-heading-topos">{groupImages.map((image) => <button type="button" key={image.filename} onClick={() => setOpenImage(image)} aria-label={`Öppna skiss för ${sectionById.get(route.sectorId!)?.title || "sektorn"} i full storlek`}>
+                  {/* eslint-disable-next-line @next/next/no-img-element */}
+                  <img src={`/api/media/${encodeURIComponent(image.filename)}`} alt={image.caption || "Sektorskiss"} loading="lazy" /><small>{image.caption || "Sektorskiss"} · öppna stort</small>
+                </button>)}</div>}</div>;
+              })()}
               <button type="button" className={`route-row ${exactRoute?.id === route.id ? "highlighted" : ""}`} onClick={() => { setSelectedRouteId(route.id); setShowBeta(false); }} aria-label={`Öppna fältkort för ${route.name}`}>
                 <span className="route-number" title={route.number ? "Nummer i originalets skiss/lista" : "Lednummer saknas i originalkällan"}>{route.number || "–"}</span>
-                <span className="route-name"><strong>{route.name}</strong><small>Visa fältkort{area.images.some((image) => image.imageKind !== "photo" && image.imageKind !== "map" && (routeImageRelation(image, route.id)?.confidence || 0) >= 0.7) ? " · finns i skissen" : ""}</small>{sectorId !== "all" && route.description && <span className="route-inline-description">{route.description}</span>}</span>
+                <span className="route-name"><strong>{route.name}</strong><small>Visa fältkort{area.images.some((image) => image.imageKind !== "photo" && image.imageKind !== "map" && (routeImageRelation(image, route.id)?.confidence || 0) >= 0.7) ? " · finns i skissen" : ""}</small>{route.description && <span className="route-inline-description">{route.description}</span>}</span>
                 <span className="grade">{route.grade || "–"}</span>
                 <span className="route-length">{route.length ? `${route.length} m` : route.type}</span>
               </button>
