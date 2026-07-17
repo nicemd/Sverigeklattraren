@@ -86,7 +86,7 @@ try {
     ssh $Server "chmod 600 $AppDirectory/.env"
     if ($LASTEXITCODE -ne 0) { throw "Kunde inte skydda fjärrens miljöfil." }
 
-    $repositoryCommand = "if [ ! -d $AppDirectory/repository/.git ]; then git clone git@github.com:nicemd/Sverigeforaren.git $AppDirectory/repository; fi && cd $AppDirectory/repository && git fetch origin $Branch && git checkout $Branch && git pull --ff-only origin $Branch"
+    $repositoryCommand = "if [ ! -d $AppDirectory/repository/.git ]; then git clone https://github.com/nicemd/Sverigeforaren.git $AppDirectory/repository; fi && cd $AppDirectory/repository && git fetch origin $Branch && git checkout $Branch && git pull --ff-only origin $Branch"
     ssh $Server $repositoryCommand
     if ($LASTEXITCODE -ne 0) { throw "Kunde inte uppdatera innehållsrepot på servern." }
 
