@@ -256,6 +256,24 @@ function AreaView({ area, access, globalQuery, onSuggest }: { area: Area; access
       || image.routeIds?.some((routeId) => targetRouteIds.has(routeId))
     ));
   };
+  const routesForTopo = (image: Area["images"][number]) => area.routes.filter((route) =>
+    (discipline === "all" || route.kind === discipline)
+    && (routeImageRelation(image, route.id)?.confidence || 0) >= 0.7
+  );
+  const renderTopoVisual = (image: Area["images"][number], sectorTitle: string) => {
+    const annotatedRoutes = routesForTopo(image);
+    return <div className="topo-visual">
+      <button className="topo-image-open" type="button" onClick={() => setOpenImage(image)} aria-label={`Öppna skiss för ${sectorTitle} i full storlek`}>
+        {/* eslint-disable-next-line @next/next/no-img-element */}
+        <img src={`/api/media/${encodeURIComponent(image.filename)}`} alt={image.caption || `Skiss över ${sectorTitle}`} loading="lazy" />
+        <span>Öppna stort</span>
+      </button>
+      {annotatedRoutes.length > 0 && <details className="topo-annotations" open>
+        <summary>Lednyckel <span>{annotatedRoutes.length} leder</span></summary>
+        <div>{annotatedRoutes.map((route) => <button type="button" key={route.id} onClick={() => { setSelectedRouteId(route.id); setShowBeta(false); }} title={`Öppna fältkort för ${route.name}`}><b>{route.number || "–"}</b><span>{route.name}</span>{route.grade && <em>{route.grade}</em>}</button>)}</div>
+      </details>}
+    </div>;
+  };
   const directions = area.sections.find((section) => /vägbeskrivning|hitta hit|anmarsch/i.test(section.title));
   const routeTotal = area.routes.filter((route) => route.kind === "route").length;
   const problemTotal = area.routes.filter((route) => route.kind === "problem").length;
@@ -358,11 +376,7 @@ function AreaView({ area, access, globalQuery, onSuggest }: { area: Area; access
                 {selectedSectorImages.slice(0, 3).map((image) => {
                   const relatedRoutes = routesShownInImage(image);
                   return <article className="sector-topo-image" key={image.filename}>
-                    <button type="button" onClick={() => setOpenImage(image)} aria-label={`Öppna skiss för ${selectedSector.title} i full storlek`}>
-                      {/* eslint-disable-next-line @next/next/no-img-element */}
-                      <img src={`/api/media/${encodeURIComponent(image.filename)}`} alt={image.caption || `Skiss över ${selectedSector.title}`} loading="lazy" />
-                      <span>Öppna skissen stort</span>
-                    </button>
+                    {renderTopoVisual(image, selectedSector.title)}
                     <div className="sector-topo-caption"><strong>{image.caption || `Skiss över ${selectedSector.title}`}</strong><span>{relatedRoutes.length > 0 ? `${relatedRoutes.length} lednummer har kopplats till skissen` : "Skissen hör till sektorn, men lednummer har ännu inte kunnat läsas säkert."}</span></div>
                   </article>;
                 })}
@@ -374,10 +388,8 @@ function AreaView({ area, access, globalQuery, onSuggest }: { area: Area; access
               <Fragment key={route.id}>
               {(visibleIndex === 0 || visibleRoutes[visibleIndex - 1]?.sectorId !== route.sectorId) && (sectorId === "all" || selectedSectorImages.length === 0) && (() => {
                 const groupImages = route.sectorId ? imagesForSector(route.sectorId).slice(0, 3) : [];
-                return <div className={`sector-heading ${groupImages.length ? "with-topos" : ""}`}><strong>{route.sectorId ? sectionById.get(route.sectorId)?.title || "Övriga leder" : "Övriga leder"}</strong><span><RichText text={route.sectorId ? sectionById.get(route.sectorId)?.body || "Sektorsbeskrivning saknas i originalet." : "Sektorsbeskrivning saknas i originalet."} /></span>{groupImages.length > 0 && <div className="sector-heading-topos">{groupImages.map((image) => <button type="button" key={image.filename} onClick={() => setOpenImage(image)} aria-label={`Öppna skiss för ${sectionById.get(route.sectorId!)?.title || "sektorn"} i full storlek`}>
-                  {/* eslint-disable-next-line @next/next/no-img-element */}
-                  <img src={`/api/media/${encodeURIComponent(image.filename)}`} alt={image.caption || "Sektorskiss"} loading="lazy" /><small>{image.caption || "Sektorskiss"} · öppna stort</small>
-                </button>)}</div>}</div>;
+                const groupTitle = route.sectorId ? sectionById.get(route.sectorId)?.title || "Övriga leder" : "Övriga leder";
+                return <div className={`sector-heading ${groupImages.length ? "with-topos" : ""}`}><strong>{groupTitle}</strong><span><RichText text={route.sectorId ? sectionById.get(route.sectorId)?.body || "Sektorsbeskrivning saknas i originalet." : "Sektorsbeskrivning saknas i originalet."} /></span>{groupImages.length > 0 && <div className="sector-heading-topos">{groupImages.map((image) => <div className="sector-heading-topo" key={image.filename}>{renderTopoVisual(image, groupTitle)}<small>{image.caption || "Sektorskiss"}</small></div>)}</div>}</div>;
               })()}
               <button type="button" className={`route-row ${exactRoute?.id === route.id ? "highlighted" : ""}`} onClick={() => { setSelectedRouteId(route.id); setShowBeta(false); }} aria-label={`Öppna fältkort för ${route.name}`}>
                 <span className="route-number" title={route.number ? "Nummer i originalets skiss/lista" : "Lednummer saknas i originalkällan"}>{route.number || "–"}</span>

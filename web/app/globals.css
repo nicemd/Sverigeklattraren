@@ -184,9 +184,9 @@ a { color: inherit; }
 .sector-heading strong { display: block; font-family: Georgia, serif; font-size: 19px; }
 .sector-heading span { color: #4f615a; display: block; font-size: 14px; line-height: 1.55; margin-top: 5px; white-space: pre-line; }
 .sector-heading-topos { display: grid; gap: 1px; margin: 14px -14px -12px; }
-.sector-heading-topos button { background: #fff; border: 0; border-top: 1px solid #d8ded4; cursor: zoom-in; padding: 0; position: relative; }
+.sector-heading-topo { background: #fff; border-top: 1px solid #d8ded4; position: relative; }
 .sector-heading-topos img { display: block; height: 310px; object-fit: contain; width: 100%; }
-.sector-heading-topos small { background: rgb(18 65 50 / 90%); border-radius: 999px; bottom: 12px; color: #fff; font-size: 11px; font-weight: 700; padding: 7px 10px; position: absolute; right: 12px; }
+.sector-heading-topo > small { background: rgb(18 65 50 / 90%); border-radius: 999px; color: #fff; font-size: 11px; font-weight: 700; left: 12px; padding: 7px 10px; position: absolute; top: 12px; z-index: 2; }
 .sector-topo { background: #eef2e9; border: 1px solid #d3ddce; border-radius: 18px 18px 0 0; margin: 0; overflow: hidden; }
 .sector-topo-heading { align-items: end; display: grid; gap: 20px; grid-template-columns: minmax(180px, .7fr) minmax(260px, 1.3fr); padding: 20px 22px; }
 .sector-topo-heading h3 { font-family: Georgia, serif; font-size: 26px; line-height: 1.05; margin: 4px 0 0; }
@@ -194,9 +194,22 @@ a { color: inherit; }
 .sector-topo-grid { background: #d3ddce; border-top: 1px solid #d3ddce; display: grid; gap: 1px; grid-template-columns: minmax(0, 1fr); }
 .sector-topo-grid.single { grid-template-columns: minmax(0, 1fr); }
 .sector-topo-image { background: var(--paper); min-width: 0; }
-.sector-topo-image > button { background: #fff; border: 0; cursor: zoom-in; display: block; padding: 0; position: relative; width: 100%; }
+.topo-visual { background: #fff; position: relative; }
+.topo-image-open { background: #fff; border: 0; cursor: zoom-in; display: block; padding: 0; position: relative; width: 100%; }
 .sector-topo-image img { display: block; height: 310px; object-fit: contain; width: 100%; }
-.sector-topo-image > button > span { background: rgb(18 65 50 / 90%); border-radius: 999px; bottom: 12px; color: #fff; font-size: 12px; font-weight: 700; padding: 7px 11px; position: absolute; right: 12px; }
+.topo-image-open > span { background: rgb(18 65 50 / 90%); border-radius: 999px; color: #fff; font-size: 11px; font-weight: 700; padding: 7px 10px; position: absolute; right: 12px; top: 12px; }
+.topo-annotations { background: rgb(249 248 242 / 91%); backdrop-filter: blur(8px); border: 1px solid rgb(18 65 50 / 22%); border-radius: 14px; bottom: 10px; left: 10px; max-width: calc(100% - 20px); padding: 7px; position: absolute; right: 10px; z-index: 3; }
+.topo-annotations summary { align-items: center; color: var(--forest); cursor: pointer; display: flex; font-size: 11px; font-weight: 800; gap: 7px; list-style: none; padding: 2px 4px; text-transform: uppercase; }
+.topo-annotations summary::-webkit-details-marker { display: none; }
+.topo-annotations summary::before { content: "▾"; font-size: 10px; }
+.topo-annotations:not([open]) summary::before { content: "▸"; }
+.topo-annotations summary span { color: var(--muted); font-size: 10px; font-weight: 600; text-transform: none; }
+.topo-annotations > div { display: flex; gap: 5px; margin-top: 6px; overflow-x: auto; padding-bottom: 2px; scrollbar-width: thin; }
+.topo-annotations > div > button { align-items: center; background: #fff; border: 1px solid #ccd8c7; border-radius: 999px; color: var(--forest); cursor: pointer; display: inline-flex; flex: 0 0 auto; gap: 5px; max-width: 220px; padding: 5px 8px 5px 5px; }
+.topo-annotations > div > button:hover, .topo-annotations > div > button:focus-visible { border-color: var(--forest); outline: none; }
+.topo-annotations b { background: var(--forest); border-radius: 999px; color: #fff; display: inline-grid; font-size: 11px; min-height: 23px; min-width: 23px; place-items: center; }
+.topo-annotations button span { font-size: 11px; font-weight: 700; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.topo-annotations em { color: var(--muted); font-size: 11px; font-style: normal; font-weight: 700; }
 .sector-topo-caption { display: grid; gap: 7px; padding: 14px 16px 17px; }
 .sector-topo-caption > span { color: var(--muted); font-size: 12px; }
 .sector-topo + .sector-route-list { border: 1px solid #d3ddce; border-radius: 0 0 18px 18px; border-top: 0; margin-bottom: 22px; overflow: hidden; padding: 0 16px 12px; }
