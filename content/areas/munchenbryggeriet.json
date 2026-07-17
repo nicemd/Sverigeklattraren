@@ -27,7 +27,13 @@
     {
       "id": "leder",
       "title": "Leder",
-      "body": "Vänstra delen\n\nHögra delen"
+      "body": "Vänstra delen",
+      "blocks": [
+        {
+          "kind": "heading",
+          "text": "Vänstra delen"
+        }
+      ]
     }
   ],
   "routes": [

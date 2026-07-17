@@ -26,7 +26,7 @@
     {
       "id": "kommunikationer",
       "title": "Kommunikationer",
-      "body": "Mest praktiskt är att åka bil. Från Söderhamn åker man länsväg 301 mot Bollnäs. Efter ca två mil befinner man sig i byn Glössbo, där svänger man höger vid en skylt \"ARBRÅ 27\". Efter ca 18 km kommer man till byn Flästa. Här svänger man höger vid en skylt \"ÖJUNGEN 6\". Efter en och en halv kilometer befinner man sig rakt nedanför Bodberget. 100 meter bortanför det andra militära förrådet efter vägen finns parkeringemöjligheter. Härifrån följer man ett gammalt skogsmaskinspår upp i skogen. Följ snitslingen fram till berget. Det är även möjligt att åka buss. Från Bollnäs får man åka till Arbrå, där man sedan byter till en buss som går till Flästa. Där den vänder, i bortre änden av Flästa, vid skylten \"ÖJUNGEN 6\", kliver man av och sedan får man gå sista biten (drygt en och en halv km).\nGPS-koordinater för klippan: Lat: N 61º 26' 47.15\" Long: E 16º 30' 56.38\""
+      "body": "Mest praktiskt är att åka bil. Från Söderhamn åker man länsväg 301 mot Bollnäs. Efter ca två mil befinner man sig i byn Glössbo, där svänger man höger vid en skylt \"ARBRÅ 27\". Efter ca 18 km kommer man till byn Flästa. Här svänger man höger vid en skylt \"ÖJUNGEN 6\". Efter en och en halv kilometer befinner man sig rakt nedanför Bodberget. 100 meter bortanför det andra militära förrådet efter vägen finns parkeringemöjligheter. Härifrån följer man ett gammalt skogsmaskinspår upp i skogen. Följ snitslingen fram till berget. Det är även möjligt att åka buss. Från Bollnäs får man åka till Arbrå, där man sedan byter till en buss som går till Flästa. Där den vänder, i bortre änden av Flästa, vid skylten \"ÖJUNGEN 6\", kliver man av och sedan får man gå sista biten (drygt en och en halv km). GPS-koordinater för klippan: Lat: N 61º 26' 47.15\" Long: E 16º 30' 56.38\""
     },
     {
       "id": "vaggar",
@@ -1028,6 +1028,14 @@
         "bodberget-led-12",
         "bodberget-led-13",
         "bodberget-led-14"
+      ],
+      "routeRelations": [
+        {
+          "routeId": "bodberget-led-11",
+          "method": "filename",
+          "confidence": 0.95,
+          "evidence": "Lednamnet återfinns i originalfilens bildnamn."
+        }
       ]
     },
     {
@@ -1083,6 +1091,14 @@
         "bodberget-led-29",
         "bodberget-led-30",
         "bodberget-led-31"
+      ],
+      "routeRelations": [
+        {
+          "routeId": "bodberget-led-30",
+          "method": "filename",
+          "confidence": 0.95,
+          "evidence": "Lednamnet återfinns i originalfilens bildnamn."
+        }
       ]
     },
     {
@@ -1120,6 +1136,14 @@
       "routeIds": [
         "bodberget-led-42",
         "bodberget-led-43"
+      ],
+      "routeRelations": [
+        {
+          "routeId": "bodberget-led-42",
+          "method": "filename",
+          "confidence": 0.95,
+          "evidence": "Lednamnet återfinns i originalfilens bildnamn."
+        }
       ]
     },
     {
@@ -1136,6 +1160,14 @@
         "bodberget-led-48",
         "bodberget-led-49",
         "bodberget-led-50"
+      ],
+      "routeRelations": [
+        {
+          "routeId": "bodberget-led-43",
+          "method": "filename",
+          "confidence": 0.95,
+          "evidence": "Lednamnet återfinns i originalfilens bildnamn."
+        }
       ]
     },
     {

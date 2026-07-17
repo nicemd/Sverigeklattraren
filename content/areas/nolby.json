@@ -18,7 +18,7 @@
     {
       "id": "vagbeskrivning",
       "title": "Vägbeskrivning",
-      "body": "Från Sundsvall:\nFölj E4:an söderut till Kvissleby. Sväng av åt höger, skyltat Nolbykullen. Ta sedan direkt vänster, dvs ej mot Nolbybacken.\nTa sedan höger på Nyavägen. Sväng sedan höger igen på Trastvägen. Parkera på grusvägen 50m innan bommen.\n\nPromenera vidare längs vägen. 20 meter efter en blå container så finns en stig som går upp åt höger. Följ den 50m så är ni vid klippan."
+      "body": "Från Sundsvall: Följ E4:an söderut till Kvissleby. Sväng av åt höger, skyltat Nolbykullen. Ta sedan direkt vänster, dvs ej mot Nolbybacken. Ta sedan höger på Nyavägen. Sväng sedan höger igen på Trastvägen. Parkera på grusvägen 50m innan bommen.\n\nPromenera vidare längs vägen. 20 meter efter en blå container så finns en stig som går upp åt höger. Följ den 50m så är ni vid klippan."
     },
     {
       "id": "miljo",
@@ -411,6 +411,14 @@
         "nolby-led-17",
         "nolby-led-18",
         "nolby-led-19"
+      ],
+      "routeRelations": [
+        {
+          "routeId": "nolby-led-20",
+          "method": "filename",
+          "confidence": 0.95,
+          "evidence": "Lednamnet återfinns i originalfilens bildnamn."
+        }
       ]
     }
   ],

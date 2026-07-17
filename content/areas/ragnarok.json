@@ -78,12 +78,12 @@
     {
       "id": "ravloungen",
       "title": "=Rävloungen=",
-      "body": "45 graders överhängande läpp som har potential för några linjer varav en mkt fin travers på pinchlimpor.\n----"
+      "body": "45 graders överhängande läpp som har potential för några linjer varav en mkt fin travers på pinchlimpor. ----"
     },
     {
       "id": "grottan",
       "title": "=Grottan=",
-      "body": "Ganska så fnasigt men långt, ca 4-5 meter, och brant, ca 45 grader, överhängande tak med en större stenbumling inkilad inunder. Bredden kanske en 10-15 meter (minus 5-6 för stenen) och höjden med urtoppning ca 4-5 meter.\n\nFinns ffa två hårdare spricklinjer i taket. Utsidan av blocket bjuder på en riktigt skön \"dubbel dyno\" highball med en landning i buskage som fungerar som hålslagare i paddtyget."
+      "body": "Ganska så fnasigt men långt, ca 4-5 meter, och brant, ca 45 grader, överhängande tak med en större stenbumling inkilad inunder. Bredden kanske en 10-15 meter (minus 5-6 för stenen) och höjden med urtoppning ca 4-5 meter."
     },
     {
       "id": "hoxla",
@@ -98,7 +98,7 @@
     {
       "id": "taxi-johan",
       "title": "=Taxi Johan=",
-      "body": "Brant vägg i otymplig terräng straxt ovan \"Taxi Johan\"\nBild:"
+      "body": "Brant vägg i otymplig terräng straxt ovan \"Taxi Johan\""
     },
     {
       "id": "det-bortanfor",
@@ -544,6 +544,14 @@
       "sectorId": "nasorna",
       "routeIds": [
         "ragnarok-problem-1"
+      ],
+      "routeRelations": [
+        {
+          "routeId": "ragnarok-problem-1",
+          "method": "filename",
+          "confidence": 0.95,
+          "evidence": "Lednamnet återfinns i originalfilens bildnamn."
+        }
       ]
     },
     {
@@ -553,6 +561,14 @@
       "sectorId": "nasorna",
       "routeIds": [
         "ragnarok-problem-2"
+      ],
+      "routeRelations": [
+        {
+          "routeId": "ragnarok-problem-2",
+          "method": "filename",
+          "confidence": 0.95,
+          "evidence": "Lednamnet återfinns i originalfilens bildnamn."
+        }
       ]
     },
     {
@@ -563,6 +579,14 @@
       "routeIds": [
         "ragnarok-problem-14",
         "ragnarok-problem-3"
+      ],
+      "routeRelations": [
+        {
+          "routeId": "ragnarok-problem-14",
+          "method": "filename",
+          "confidence": 0.95,
+          "evidence": "Lednamnet återfinns i originalfilens bildnamn."
+        }
       ]
     },
     {
@@ -572,6 +596,14 @@
       "sectorId": "nasorna",
       "routeIds": [
         "ragnarok-problem-4"
+      ],
+      "routeRelations": [
+        {
+          "routeId": "ragnarok-problem-4",
+          "method": "filename",
+          "confidence": 0.95,
+          "evidence": "Lednamnet återfinns i originalfilens bildnamn."
+        }
       ]
     },
     {
@@ -581,6 +613,14 @@
       "sectorId": "korridoren",
       "routeIds": [
         "ragnarok-problem-5"
+      ],
+      "routeRelations": [
+        {
+          "routeId": "ragnarok-problem-5",
+          "method": "filename",
+          "confidence": 0.95,
+          "evidence": "Lednamnet återfinns i originalfilens bildnamn."
+        }
       ]
     },
     {
@@ -591,6 +631,14 @@
       "routeIds": [
         "ragnarok-problem-6",
         "ragnarok-problem-7"
+      ],
+      "routeRelations": [
+        {
+          "routeId": "ragnarok-problem-6",
+          "method": "filename",
+          "confidence": 0.95,
+          "evidence": "Lednamnet återfinns i originalfilens bildnamn."
+        }
       ]
     },
     {
@@ -600,6 +648,14 @@
       "sectorId": "korridoren",
       "routeIds": [
         "ragnarok-problem-8"
+      ],
+      "routeRelations": [
+        {
+          "routeId": "ragnarok-problem-8",
+          "method": "filename",
+          "confidence": 0.95,
+          "evidence": "Lednamnet återfinns i originalfilens bildnamn."
+        }
       ]
     },
     {
@@ -609,6 +665,14 @@
       "sectorId": "kylskapet",
       "routeIds": [
         "ragnarok-problem-9"
+      ],
+      "routeRelations": [
+        {
+          "routeId": "ragnarok-problem-9",
+          "method": "filename",
+          "confidence": 0.95,
+          "evidence": "Lednamnet återfinns i originalfilens bildnamn."
+        }
       ]
     },
     {
@@ -619,6 +683,14 @@
       "routeIds": [
         "ragnarok-problem-10",
         "ragnarok-problem-11"
+      ],
+      "routeRelations": [
+        {
+          "routeId": "ragnarok-problem-10",
+          "method": "filename",
+          "confidence": 0.95,
+          "evidence": "Lednamnet återfinns i originalfilens bildnamn."
+        }
       ]
     },
     {
@@ -628,6 +700,14 @@
       "sectorId": "krypin",
       "routeIds": [
         "ragnarok-problem-12"
+      ],
+      "routeRelations": [
+        {
+          "routeId": "ragnarok-problem-12",
+          "method": "filename",
+          "confidence": 0.95,
+          "evidence": "Lednamnet återfinns i originalfilens bildnamn."
+        }
       ]
     },
     {
@@ -638,6 +718,14 @@
       "routeIds": [
         "ragnarok-problem-13",
         "ragnarok-problem-14"
+      ],
+      "routeRelations": [
+        {
+          "routeId": "ragnarok-problem-13",
+          "method": "filename",
+          "confidence": 0.95,
+          "evidence": "Lednamnet återfinns i originalfilens bildnamn."
+        }
       ]
     },
     {
@@ -647,6 +735,14 @@
       "sectorId": "vatten-vaggen",
       "routeIds": [
         "ragnarok-problem-15"
+      ],
+      "routeRelations": [
+        {
+          "routeId": "ragnarok-problem-15",
+          "method": "filename",
+          "confidence": 0.95,
+          "evidence": "Lednamnet återfinns i originalfilens bildnamn."
+        }
       ]
     },
     {
@@ -656,6 +752,14 @@
       "sectorId": "vatten-vaggen",
       "routeIds": [
         "ragnarok-problem-16"
+      ],
+      "routeRelations": [
+        {
+          "routeId": "ragnarok-problem-16",
+          "method": "filename",
+          "confidence": 0.95,
+          "evidence": "Lednamnet återfinns i originalfilens bildnamn."
+        }
       ]
     },
     {
@@ -665,6 +769,14 @@
       "sectorId": "vatten-vaggen",
       "routeIds": [
         "ragnarok-problem-17"
+      ],
+      "routeRelations": [
+        {
+          "routeId": "ragnarok-problem-17",
+          "method": "filename",
+          "confidence": 0.95,
+          "evidence": "Lednamnet återfinns i originalfilens bildnamn."
+        }
       ]
     },
     {
@@ -674,6 +786,14 @@
       "sectorId": "fiskarfange",
       "routeIds": [
         "ragnarok-problem-18"
+      ],
+      "routeRelations": [
+        {
+          "routeId": "ragnarok-problem-18",
+          "method": "filename",
+          "confidence": 0.95,
+          "evidence": "Lednamnet återfinns i originalfilens bildnamn."
+        }
       ]
     },
     {
@@ -698,6 +818,14 @@
       "routeIds": [
         "ragnarok-problem-19",
         "ragnarok-problem-20"
+      ],
+      "routeRelations": [
+        {
+          "routeId": "ragnarok-problem-19",
+          "method": "filename",
+          "confidence": 0.95,
+          "evidence": "Lednamnet återfinns i originalfilens bildnamn."
+        }
       ]
     },
     {
@@ -707,6 +835,14 @@
       "sectorId": "ravloungen",
       "routeIds": [
         "ragnarok-problem-21"
+      ],
+      "routeRelations": [
+        {
+          "routeId": "ragnarok-problem-21",
+          "method": "filename",
+          "confidence": 0.95,
+          "evidence": "Lednamnet återfinns i originalfilens bildnamn."
+        }
       ]
     },
     {
@@ -716,6 +852,14 @@
       "sectorId": "ravloungen",
       "routeIds": [
         "ragnarok-problem-22"
+      ],
+      "routeRelations": [
+        {
+          "routeId": "ragnarok-problem-22",
+          "method": "filename",
+          "confidence": 0.95,
+          "evidence": "Lednamnet återfinns i originalfilens bildnamn."
+        }
       ]
     },
     {
@@ -725,6 +869,14 @@
       "sectorId": "ravloungen",
       "routeIds": [
         "ragnarok-problem-23"
+      ],
+      "routeRelations": [
+        {
+          "routeId": "ragnarok-problem-23",
+          "method": "filename",
+          "confidence": 0.95,
+          "evidence": "Lednamnet återfinns i originalfilens bildnamn."
+        }
       ]
     },
     {
@@ -757,6 +909,14 @@
       "sectorId": "stugan",
       "routeIds": [
         "ragnarok-problem-26"
+      ],
+      "routeRelations": [
+        {
+          "routeId": "ragnarok-problem-26",
+          "method": "filename",
+          "confidence": 0.95,
+          "evidence": "Lednamnet återfinns i originalfilens bildnamn."
+        }
       ]
     }
   ],

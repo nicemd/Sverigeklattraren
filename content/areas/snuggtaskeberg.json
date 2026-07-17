@@ -1559,6 +1559,14 @@
       "routeIds": [
         "snuggtaskeberg-led-79",
         "snuggtaskeberg-led-80"
+      ],
+      "routeRelations": [
+        {
+          "routeId": "snuggtaskeberg-led-80",
+          "method": "filename",
+          "confidence": 0.95,
+          "evidence": "Lednamnet återfinns i originalfilens bildnamn."
+        }
       ]
     }
   ],

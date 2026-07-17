@@ -18,7 +18,21 @@
     {
       "id": "leder",
       "title": "Leder",
-      "body": "Följande leder har klättrats då det tidigare var tillåtet.\nDet är alltså inte tillåtet att klättra dessa.\nFrån vänster till höger."
+      "body": "Följande leder har klättrats då det tidigare var tillåtet.\n\nDet är alltså inte tillåtet att klättra dessa.\n\nFrån vänster till höger.",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Följande leder har klättrats då det tidigare var tillåtet."
+        },
+        {
+          "kind": "heading",
+          "text": "Det är alltså inte tillåtet att klättra dessa."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Från vänster till höger."
+        }
+      ]
     }
   ],
   "routes": [

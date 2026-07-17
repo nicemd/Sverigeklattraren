@@ -3,14 +3,14 @@
   "id": "jarna-orrsatra",
   "slug": "jarna-orrsatra",
   "name": "Järna, Orrsätra",
-  "description": "Nytt boulderområde utanför Järna. Blocken hittades våren 2009 och en del har utvecklats.\nTvå feta block, några mindre och en del små väggar. De stora blocken är de intressantaste med flera mycket överhängande sidor. Till och med lite tak finns. Tyvärr ganska vass sten på sina ställe och lite grepplöst. Potential för flera nya leder, främst lite hårdare. Alla projekt är självklart öppna.\n\nLänge bort i området finns även en del kompakta väggar med möjlig potential för repklättring. En annan samling block varav ett riktigt as ligger ca 1km närmre Järna. Vintertid syns de över en åker på höger sida (om man åker från Järna). Här har inget gjorts ännu.",
+  "description": "Nytt boulderområde utanför Järna. Blocken hittades våren 2009 och en del har utvecklats. Två feta block, några mindre och en del små väggar. De stora blocken är de intressantaste med flera mycket överhängande sidor. Till och med lite tak finns. Tyvärr ganska vass sten på sina ställe och lite grepplöst. Potential för flera nya leder, främst lite hårdare. Alla projekt är självklart öppna.\n\nLänge bort i området finns även en del kompakta väggar med möjlig potential för repklättring. En annan samling block varav ett riktigt as ligger ca 1km närmre Järna. Vintertid syns de över en åker på höger sida (om man åker från Järna). Här har inget gjorts ännu.",
   "coordinates": null,
   "categories": [],
   "sections": [
     {
       "id": "allmant",
       "title": "Allmänt",
-      "body": "Nytt boulderområde utanför Järna. Blocken hittades våren 2009 och en del har utvecklats.\nTvå feta block, några mindre och en del små väggar. De stora blocken är de intressantaste med flera mycket överhängande sidor. Till och med lite tak finns. Tyvärr ganska vass sten på sina ställe och lite grepplöst. Potential för flera nya leder, främst lite hårdare. Alla projekt är självklart öppna.\n\nLänge bort i området finns även en del kompakta väggar med möjlig potential för repklättring. En annan samling block varav ett riktigt as ligger ca 1km närmre Järna. Vintertid syns de över en åker på höger sida (om man åker från Järna). Här har inget gjorts ännu."
+      "body": "Nytt boulderområde utanför Järna. Blocken hittades våren 2009 och en del har utvecklats. Två feta block, några mindre och en del små väggar. De stora blocken är de intressantaste med flera mycket överhängande sidor. Till och med lite tak finns. Tyvärr ganska vass sten på sina ställe och lite grepplöst. Potential för flera nya leder, främst lite hårdare. Alla projekt är självklart öppna.\n\nLänge bort i området finns även en del kompakta väggar med möjlig potential för repklättring. En annan samling block varav ett riktigt as ligger ca 1km närmre Järna. Vintertid syns de över en åker på höger sida (om man åker från Järna). Här har inget gjorts ännu."
     },
     {
       "id": "vagbeskrivning",
@@ -35,7 +35,13 @@
     {
       "id": "block-c-och-d",
       "title": "Block C och D",
-      "body": "Block C: Det andra stora blocket i området. Två riktigt överhängande sidor och en stor slabb. Potential för fler hårda turer.Block D: Några enklare uppvärmningsproblem\nNils på Hangelkammrennen, block C\n\nOla på Tarzans son, block C"
+      "body": "Block C: Det andra stora blocket i området. Två riktigt överhängande sidor och en stor slabb. Potential för fler hårda turer.",
+      "blocks": [
+        {
+          "kind": "heading",
+          "text": "Block C: Det andra stora blocket i området. Två riktigt överhängande sidor och en stor slabb. Potential för fler hårda turer."
+        }
+      ]
     }
   ],
   "routes": [
@@ -358,6 +364,14 @@
       "sectorId": "block-c-och-d",
       "routeIds": [
         "jarna-orrsatra-problem-11"
+      ],
+      "routeRelations": [
+        {
+          "routeId": "jarna-orrsatra-problem-11",
+          "method": "filename",
+          "confidence": 0.95,
+          "evidence": "Lednamnet återfinns i originalfilens bildnamn."
+        }
       ]
     }
   ],

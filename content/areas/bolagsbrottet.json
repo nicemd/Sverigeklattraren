@@ -77,6 +77,14 @@
       "sectorId": "originalvaggen",
       "routeIds": [
         "bolagsbrottet-led-1"
+      ],
+      "routeRelations": [
+        {
+          "routeId": "bolagsbrottet-led-1",
+          "method": "filename",
+          "confidence": 0.95,
+          "evidence": "Lednamnet återfinns i originalfilens bildnamn."
+        }
       ]
     },
     {
@@ -87,6 +95,14 @@
       "routeIds": [
         "bolagsbrottet-led-1",
         "bolagsbrottet-led-2"
+      ],
+      "routeRelations": [
+        {
+          "routeId": "bolagsbrottet-led-2",
+          "method": "filename",
+          "confidence": 0.95,
+          "evidence": "Lednamnet återfinns i originalfilens bildnamn."
+        }
       ]
     }
   ],

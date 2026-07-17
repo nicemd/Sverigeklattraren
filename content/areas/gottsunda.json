@@ -122,6 +122,14 @@
       "sectorId": null,
       "routeIds": [
         "gottsunda-problem-2"
+      ],
+      "routeRelations": [
+        {
+          "routeId": "gottsunda-problem-2",
+          "method": "filename",
+          "confidence": 0.95,
+          "evidence": "Lednamnet återfinns i originalfilens bildnamn."
+        }
       ]
     }
   ],

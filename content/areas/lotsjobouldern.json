@@ -3,7 +3,7 @@
   "id": "lotsjobouldern",
   "slug": "lotsjobouldern",
   "name": "Lötsjöbouldern",
-  "description": "Lättillgängligt boulderområde en knapp kilometer från Sundbybergs centrum. Delar av en höjd har sprängts bort för att ge plats åt två tennisplaner. Resterna av höjden har skapat ett utmärkt boulderområde. Endast några få leder har hittills etablerats och det finns utmärkta möjligheter för att skapa fler leder.\nBättre på eftermiddagen då solen kommer åt. Del C blöt på våren.",
+  "description": "Lättillgängligt boulderområde en knapp kilometer från Sundbybergs centrum. Delar av en höjd har sprängts bort för att ge plats åt två tennisplaner. Resterna av höjden har skapat ett utmärkt boulderområde. Endast några få leder har hittills etablerats och det finns utmärkta möjligheter för att skapa fler leder. Bättre på eftermiddagen då solen kommer åt. Del C blöt på våren.",
   "coordinates": {
     "latitude": 59.36792,
     "longitude": 17.96946
@@ -17,7 +17,7 @@
     {
       "id": "allmant",
       "title": "Allmänt",
-      "body": "Lättillgängligt boulderområde en knapp kilometer från Sundbybergs centrum. Delar av en höjd har sprängts bort för att ge plats åt två tennisplaner. Resterna av höjden har skapat ett utmärkt boulderområde. Endast några få leder har hittills etablerats och det finns utmärkta möjligheter för att skapa fler leder.\nBättre på eftermiddagen då solen kommer åt. Del C blöt på våren."
+      "body": "Lättillgängligt boulderområde en knapp kilometer från Sundbybergs centrum. Delar av en höjd har sprängts bort för att ge plats åt två tennisplaner. Resterna av höjden har skapat ett utmärkt boulderområde. Endast några få leder har hittills etablerats och det finns utmärkta möjligheter för att skapa fler leder. Bättre på eftermiddagen då solen kommer åt. Del C blöt på våren."
     },
     {
       "id": "vagbeskrivning",
@@ -227,6 +227,14 @@
       "sectorId": "del-a",
       "routeIds": [
         "lotsjobouldern-problem-1"
+      ],
+      "routeRelations": [
+        {
+          "routeId": "lotsjobouldern-problem-1",
+          "method": "filename",
+          "confidence": 0.95,
+          "evidence": "Lednamnet återfinns i originalfilens bildnamn."
+        }
       ]
     },
     {

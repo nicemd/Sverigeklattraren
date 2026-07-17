@@ -44,7 +44,7 @@
     {
       "id": "vagbeskrivning",
       "title": "Vägbeskrivning",
-      "body": "Från norr: Kör Huddingevägen, passera Tullinge station. Passera en pizzeria och ta första höger.\nFölj vägen till höger ner för backen och sedan längst sjön. Klippan syns efter ett tag på höger sida och känns igen på det imponerande överhänget.\nParkera 200 m innan du kommer fram till berget och gå den sista biten, se under \"Access\""
+      "body": "Från norr: Kör Huddingevägen, passera Tullinge station. Passera en pizzeria och ta första höger. Följ vägen till höger ner för backen och sedan längst sjön. Klippan syns efter ett tag på höger sida och känns igen på det imponerande överhänget. Parkera 200 m innan du kommer fram till berget och gå den sista biten, se under \"Access\""
     },
     {
       "id": "access",
@@ -74,7 +74,7 @@
     {
       "id": "sydvaggen",
       "title": "Sydväggen",
-      "body": "]]\n\nHär tar Örnbergets huvudvägg vid. Väggen inleds med en skräckinjagande skapelse som är 20m hög, 25m bred och 95–100° brant. Samtliga leder på detta parti karakteriseras av stadigt överhängande klättring mellan borrbultar. Väggens formlöshet och borrbultarnas täthet gör det lite svårt att skilja på lederna men med lite tålamod bör det gå. Ett bra riktmärke är den stora alm som lutar sig mot berget.\n\nHighway på areten 7c+ v insteg\n\nHighway 8a h insteg"
+      "body": "Här tar Örnbergets huvudvägg vid. Väggen inleds med en skräckinjagande skapelse som är 20m hög, 25m bred och 95–100° brant. Samtliga leder på detta parti karakteriseras av stadigt överhängande klättring mellan borrbultar. Väggens formlöshet och borrbultarnas täthet gör det lite svårt att skilja på lederna men med lite tålamod bör det gå. Ett bra riktmärke är den stora alm som lutar sig mot berget.\n\nHighway på areten 7c+ v insteg\n\nHighway 8a h insteg"
     },
     {
       "id": "lidingovaggen",
@@ -1562,6 +1562,14 @@
         "ornberget-led-10",
         "ornberget-led-11",
         "ornberget-led-12"
+      ],
+      "routeRelations": [
+        {
+          "routeId": "ornberget-led-7",
+          "method": "filename",
+          "confidence": 0.95,
+          "evidence": "Lednamnet återfinns i originalfilens bildnamn."
+        }
       ]
     },
     {
@@ -1672,6 +1680,14 @@
         "ornberget-led-89",
         "ornberget-led-90",
         "ornberget-led-91"
+      ],
+      "routeRelations": [
+        {
+          "routeId": "ornberget-led-74",
+          "method": "filename",
+          "confidence": 0.95,
+          "evidence": "Lednamnet återfinns i originalfilens bildnamn."
+        }
       ]
     }
   ],

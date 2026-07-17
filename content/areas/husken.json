@@ -33,7 +33,13 @@
     {
       "id": "leder",
       "title": "Leder",
-      "body": "PoPoPopcornpartiet\n\nSoltiderpartiet"
+      "body": "PoPoPopcornpartiet",
+      "blocks": [
+        {
+          "kind": "heading",
+          "text": "PoPoPopcornpartiet"
+        }
+      ]
     }
   ],
   "routes": [

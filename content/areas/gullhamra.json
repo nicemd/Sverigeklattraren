@@ -3,7 +3,7 @@
   "id": "gullhamra",
   "slug": "gullhamra",
   "name": "Gullhamra",
-  "description": "Nyutvecklad sportklippa nära Grödinge kyrka.\nGullhamra är ett stort berg som har flera mer eller mindre kompakta väggpartier på den branta västsidan. Längst åt söder ligger det mest sammanhängande och klippliknande väggpartiet. Det är mer än hundra meter brett men delvis ganska löst. Vägghöjd varierar mellan 15 och 20m. Idag finns det någon femton helbultade sportleder och flera nya projekt är på gång. Klättringen varierar från lättare vertikal till hårda branta delar och små tak.",
+  "description": "Nyutvecklad sportklippa nära Grödinge kyrka. Gullhamra är ett stort berg som har flera mer eller mindre kompakta väggpartier på den branta västsidan. Längst åt söder ligger det mest sammanhängande och klippliknande väggpartiet. Det är mer än hundra meter brett men delvis ganska löst. Vägghöjd varierar mellan 15 och 20m. Idag finns det någon femton helbultade sportleder och flera nya projekt är på gång. Klättringen varierar från lättare vertikal till hårda branta delar och små tak.",
   "coordinates": {
     "latitude": 59.13733605990039,
     "longitude": 17.78939723968506
@@ -22,17 +22,17 @@
     {
       "id": "allmant",
       "title": "Allmänt",
-      "body": "Nyutvecklad sportklippa nära Grödinge kyrka.\nGullhamra är ett stort berg som har flera mer eller mindre kompakta väggpartier på den branta västsidan. Längst åt söder ligger det mest sammanhängande och klippliknande väggpartiet. Det är mer än hundra meter brett men delvis ganska löst. Vägghöjd varierar mellan 15 och 20m. Idag finns det någon femton helbultade sportleder och flera nya projekt är på gång. Klättringen varierar från lättare vertikal till hårda branta delar och små tak."
+      "body": "Nyutvecklad sportklippa nära Grödinge kyrka. Gullhamra är ett stort berg som har flera mer eller mindre kompakta väggpartier på den branta västsidan. Längst åt söder ligger det mest sammanhängande och klippliknande väggpartiet. Det är mer än hundra meter brett men delvis ganska löst. Vägghöjd varierar mellan 15 och 20m. Idag finns det någon femton helbultade sportleder och flera nya projekt är på gång. Klättringen varierar från lättare vertikal till hårda branta delar och små tak."
     },
     {
       "id": "miljo",
       "title": "Miljö:",
-      "body": "Klippan är solvänd men delvis skuggad av lövträd, vilket borde innebära att de går att klättra på från tidig vår till sen höst.\nEn våtmark ligger ett stenkast från klippan. Under sommaren kan det vara ganska rejält med mygg. Glöm inte myggmedel.\nDet finns massor med vildsvin i området. Ta det lugnt och försiktigt."
+      "body": "Klippan är solvänd men delvis skuggad av lövträd, vilket borde innebära att de går att klättra på från tidig vår till sen höst. En våtmark ligger ett stenkast från klippan. Under sommaren kan det vara ganska rejält med mygg. Glöm inte myggmedel. Det finns massor med vildsvin i området. Ta det lugnt och försiktigt."
     },
     {
       "id": "vagbeskrivning",
       "title": "Vägbeskrivning",
-      "body": "Från Tumba kör Dalvägen (väg 226) mot Vårsta ca 4km. Kör genom Vårsta och ta vänster in på väg 225 mot Nynäshamn. Efter 1.8km sväng höger mot Skanssundet och Grödinge k:a. Efter 2.5km passeras kykan. Försätt ca 200m till 70-skyltar. Precis efter skyltarna finns det en liten plätt på vänster sidan. Där kan man parkera två eller tre bilar max. I alt finns det en stor parkering vid kyrkan.\n\nBuss 727 från Tumba station mot Skanssundet stannar vid Grödinge kyrka. Restid ca 15min.\n\nVyn från vägen mot klippan är fin.\nMen om du ser det så har du kört för långt!!\n\nRiktig start från parkering."
+      "body": "Från Tumba kör Dalvägen (väg 226) mot Vårsta ca 4km. Kör genom Vårsta och ta vänster in på väg 225 mot Nynäshamn. Efter 1.8km sväng höger mot Skanssundet och Grödinge k:a. Efter 2.5km passeras kykan. Försätt ca 200m till 70-skyltar. Precis efter skyltarna finns det en liten plätt på vänster sidan. Där kan man parkera två eller tre bilar max. I alt finns det en stor parkering vid kyrkan.\n\nBuss 727 från Tumba station mot Skanssundet stannar vid Grödinge kyrka. Restid ca 15min.\n\nVyn från vägen mot klippan är fin. Men om du ser det så har du kört för långt!!\n\nRiktig start från parkering."
     },
     {
       "id": "karaktar",
@@ -456,6 +456,14 @@
         "gullhamra-led-11",
         "gullhamra-led-12",
         "gullhamra-led-13"
+      ],
+      "routeRelations": [
+        {
+          "routeId": "gullhamra-led-10",
+          "method": "filename",
+          "confidence": 0.95,
+          "evidence": "Lednamnet återfinns i originalfilens bildnamn."
+        }
       ]
     },
     {

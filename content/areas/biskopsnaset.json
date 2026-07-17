@@ -19,7 +19,7 @@
     {
       "id": "biskopsnasblocket",
       "title": "Biskopsnäsblocket",
-      "body": "Blockets högsta sida. 4,5-5m högt"
+      "body": ""
     }
   ],
   "routes": [
@@ -320,6 +320,14 @@
       "sectorId": null,
       "routeIds": [
         "biskopsnaset-problem-5"
+      ],
+      "routeRelations": [
+        {
+          "routeId": "biskopsnaset-problem-5",
+          "method": "filename",
+          "confidence": 0.95,
+          "evidence": "Lednamnet återfinns i originalfilens bildnamn."
+        }
       ]
     },
     {
@@ -339,6 +347,14 @@
         "biskopsnaset-problem-2",
         "biskopsnaset-problem-3",
         "biskopsnaset-problem-4"
+      ],
+      "routeRelations": [
+        {
+          "routeId": "biskopsnaset-problem-2",
+          "method": "filename",
+          "confidence": 0.95,
+          "evidence": "Lednamnet återfinns i originalfilens bildnamn."
+        }
       ]
     },
     {
@@ -353,6 +369,14 @@
         "biskopsnaset-problem-8",
         "biskopsnaset-problem-9",
         "biskopsnaset-problem-10"
+      ],
+      "routeRelations": [
+        {
+          "routeId": "biskopsnaset-problem-5",
+          "method": "filename",
+          "confidence": 0.95,
+          "evidence": "Lednamnet återfinns i originalfilens bildnamn."
+        }
       ]
     },
     {
@@ -365,6 +389,14 @@
         "biskopsnaset-problem-12",
         "biskopsnaset-problem-13",
         "biskopsnaset-problem-14"
+      ],
+      "routeRelations": [
+        {
+          "routeId": "biskopsnaset-problem-11",
+          "method": "filename",
+          "confidence": 0.95,
+          "evidence": "Lednamnet återfinns i originalfilens bildnamn."
+        }
       ]
     },
     {
@@ -377,6 +409,14 @@
         "biskopsnaset-problem-16",
         "biskopsnaset-problem-17",
         "biskopsnaset-problem-18"
+      ],
+      "routeRelations": [
+        {
+          "routeId": "biskopsnaset-problem-15",
+          "method": "filename",
+          "confidence": 0.95,
+          "evidence": "Lednamnet återfinns i originalfilens bildnamn."
+        }
       ]
     }
   ],

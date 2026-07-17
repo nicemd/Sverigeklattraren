@@ -26,7 +26,13 @@
     {
       "id": "leder",
       "title": "Leder",
-      "body": "Vänstra väggen\n\nHögra väggen\n\n]]"
+      "body": "Vänstra väggen",
+      "blocks": [
+        {
+          "kind": "heading",
+          "text": "Vänstra väggen"
+        }
+      ]
     }
   ],
   "routes": [

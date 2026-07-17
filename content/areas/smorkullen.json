@@ -3,7 +3,7 @@
   "id": "smorkullen",
   "slug": "smorkullen",
   "name": "Smörkullen",
-  "description": "Parkera vid ladan på Röe gård och följ vandringstigen norrut ca:200m efter åkern.\nKlippan syns från parkeringen.",
+  "description": "Parkera vid ladan på Röe gård och följ vandringstigen norrut ca:200m efter åkern. Klippan syns från parkeringen.",
   "coordinates": {
     "latitude": 58.4189,
     "longitude": 11.43736
@@ -15,7 +15,13 @@
     {
       "id": "introduktion",
       "title": "Introduktion",
-      "body": "Smörkullen"
+      "body": "Smörkullen",
+      "blocks": [
+        {
+          "kind": "heading",
+          "text": "Smörkullen"
+        }
+      ]
     },
     {
       "id": "karaktar",
@@ -25,7 +31,7 @@
     {
       "id": "vagbeskrivning",
       "title": "Vägbeskrivning",
-      "body": "Parkera vid ladan på Röe gård och följ vandringstigen norrut ca:200m efter åkern.\nKlippan syns från parkeringen."
+      "body": "Parkera vid ladan på Röe gård och följ vandringstigen norrut ca:200m efter åkern. Klippan syns från parkeringen."
     },
     {
       "id": "access",
@@ -35,7 +41,7 @@
     {
       "id": "rekommenderade-leder",
       "title": "Rekommenderade leder",
-      "body": "Lederna och namn från vänster till höger på skissen\n\nStefan Weddmark / Stefan Bäckström\n\nStefan Bäckström / Stefan Weddmark\n\nStefan Bäckström / Stefan Weddmark\n\nStefan Weddmark / Stefan Bäckström\n\n--Bultfeber 21 maj 2012 kl. 09.14 (CEST)"
+      "body": "Lederna och namn från vänster till höger på skissen"
     }
   ],
   "routes": [

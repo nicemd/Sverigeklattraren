@@ -3,7 +3,7 @@
   "id": "olberget",
   "slug": "olberget",
   "name": "Olberget",
-  "description": "Olberget ligger 13.5 km från Söderhamn, nära riksväg 50 mot Bollnäs.\nHuvudväggen är en 20-25 m hög, kraftigt överhängande sydvägg. Klippan\när kompakt, men de sprickor som finns är rena och fina.\nNedanför huvudväggen finns en enklare fikaplats.",
+  "description": "Olberget ligger 13.5 km från Söderhamn, nära riksväg 50 mot Bollnäs. Huvudväggen är en 20-25 m hög, kraftigt överhängande sydvägg. Klippan är kompakt, men de sprickor som finns är rena och fina. Nedanför huvudväggen finns en enklare fikaplats.",
   "coordinates": {
     "latitude": 61.307342,
     "longitude": 16.812859
@@ -21,17 +21,17 @@
     {
       "id": "allmant",
       "title": "Allmänt",
-      "body": "Olberget ligger 13.5 km från Söderhamn, nära riksväg 50 mot Bollnäs.\nHuvudväggen är en 20-25 m hög, kraftigt överhängande sydvägg. Klippan\när kompakt, men de sprickor som finns är rena och fina.\nNedanför huvudväggen finns en enklare fikaplats."
+      "body": "Olberget ligger 13.5 km från Söderhamn, nära riksväg 50 mot Bollnäs. Huvudväggen är en 20-25 m hög, kraftigt överhängande sydvägg. Klippan är kompakt, men de sprickor som finns är rena och fina. Nedanför huvudväggen finns en enklare fikaplats."
     },
     {
       "id": "kommunikationer",
       "title": "Kommunikationer",
-      "body": "Från Söderhamn: Åk mot Bollnäs på riksväg 50. Ca 1 km efter avtagsvägen till Mohed ser du en bilskrot/däckfirma på vänster sida, sväng av höger på första vägen efter denna. (Vägen kan ibland vara i dåligt skick, parkera då på parkeringsfickan som finns på riksväg 50).\nKör förbi åkrarna och huset på vänster sida, parkera sedan vid det gamla övergivna huset på höger sida. Klippan och blocken ligger uppe i skogen på vänster sida.\n\nMed buss: Från Söderhamn: Ta linje 100 mot Bollnäs. Be chauffören\natt stanna vid vägen mellan hållplatserna Näcktjärn N och Östbo.\n\nGPS-koordinater för klippan: N61 18 36.0 E16 48 42.0"
+      "body": "Från Söderhamn: Åk mot Bollnäs på riksväg 50. Ca 1 km efter avtagsvägen till Mohed ser du en bilskrot/däckfirma på vänster sida, sväng av höger på första vägen efter denna. (Vägen kan ibland vara i dåligt skick, parkera då på parkeringsfickan som finns på riksväg 50). Kör förbi åkrarna och huset på vänster sida, parkera sedan vid det gamla övergivna huset på höger sida. Klippan och blocken ligger uppe i skogen på vänster sida.\n\nMed buss: Från Söderhamn: Ta linje 100 mot Bollnäs. Be chauffören att stanna vid vägen mellan hållplatserna Näcktjärn N och Östbo.\n\nGPS-koordinater för klippan: N61 18 36.0 E16 48 42.0"
     },
     {
       "id": "vaggar",
       "title": "Väggar",
-      "body": "Huvudväggen är en 20-25 m hög, kraftigt överhängande sydvägg. Klippan\när kompakt, men de sprickor som finns är rena och fina. Berget är\ngnejs. Till vänster om huvudväggen finns ett område med mindre väggar\noch stora flyttblock. Lättaste nedstigningen går till höger om\nhuvudväggen."
+      "body": "Huvudväggen är en 20-25 m hög, kraftigt överhängande sydvägg. Klippan är kompakt, men de sprickor som finns är rena och fina. Berget är gnejs. Till vänster om huvudväggen finns ett område med mindre väggar och stora flyttblock. Lättaste nedstigningen går till höger om huvudväggen."
     },
     {
       "id": "huvudvaggen",
@@ -51,7 +51,7 @@
     {
       "id": "bouldering",
       "title": "Bouldering",
-      "body": "Boulderingen vid Olberget finns separat beskrivet i Sverigeföraren: = Olberget =\nOlberget finns beskrivet separat i Sverigeföraren: http://www.sverigeforaren.se/index.php/Olberget_%28bimbo%29"
+      "body": "Boulderingen vid Olberget finns separat beskrivet i Sverigeföraren: = Olberget = Olberget finns beskrivet separat i Sverigeföraren: http://www.sverigeforaren.se/index.php/Olberget_%28bimbo%29"
     }
   ],
   "routes": [
@@ -567,6 +567,14 @@
       "sectorId": "huvudvaggen",
       "routeIds": [
         "olberget-led-3"
+      ],
+      "routeRelations": [
+        {
+          "routeId": "olberget-led-3",
+          "method": "filename",
+          "confidence": 0.95,
+          "evidence": "Lednamnet återfinns i originalfilens bildnamn."
+        }
       ]
     },
     {
@@ -576,6 +584,14 @@
       "sectorId": "huvudvaggen",
       "routeIds": [
         "olberget-led-12"
+      ],
+      "routeRelations": [
+        {
+          "routeId": "olberget-led-12",
+          "method": "filename",
+          "confidence": 0.95,
+          "evidence": "Lednamnet återfinns i originalfilens bildnamn."
+        }
       ]
     },
     {
@@ -631,6 +647,14 @@
       "sectorId": "sudoku-vaggen",
       "routeIds": [
         "olberget-led-16"
+      ],
+      "routeRelations": [
+        {
+          "routeId": "olberget-led-16",
+          "method": "filename",
+          "confidence": 0.95,
+          "evidence": "Lednamnet återfinns i originalfilens bildnamn."
+        }
       ]
     },
     {
@@ -640,6 +664,14 @@
       "sectorId": "sudoku-vaggen",
       "routeIds": [
         "olberget-led-15"
+      ],
+      "routeRelations": [
+        {
+          "routeId": "olberget-led-15",
+          "method": "filename",
+          "confidence": 0.95,
+          "evidence": "Lednamnet återfinns i originalfilens bildnamn."
+        }
       ]
     }
   ],

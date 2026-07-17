@@ -38,7 +38,29 @@
     {
       "id": "access",
       "title": "Access",
-      "body": "Parkera inte framme vid husen, för då blir de boende sura, och inte på någon skogsväg för då blir bonden sur (och det är hans mark berget står på). Klarar vi detta har vi nog ingen problem med accessen till detta fina berg.\nNytt 2008!\nDet byggs en ny sommarstuga nedanför berget. Den ligger under nedstigningsleden, varför det inte är så lämpligt att använda denna. Fira av från träden istället.\n\n2008-07-13: Det är inga problem att använda nedstigningsleden, huset ligger en bra bit ned, gömt bakom träden. Man skymtar endast taket. Extra hänsyn rekommenderas dock,\nspeciellt när det gäller ljudnivån.\n\n2008-08-21\nVar i kontakt med husägaren förra hösten för accesskomittens räkning. Husägaren visste att det klättrades på berget när han började bygga och såg inget problem med det. Han var positivt inställd till klättrare och hade bara haft problem ngn enstaka gång med folk som gick över hans tomt (alltså fel väg). Så instämmmer med föregående skribent: tänk på ljudnivån, lämna inget skräp, gå inte över tomten. Men använd gärna nedstigningsleden det är ju faktiskt säkraste vägen ner.\n//Ola Tuvesson"
+      "body": "Parkera inte framme vid husen, för då blir de boende sura, och inte på någon skogsväg för då blir bonden sur (och det är hans mark berget står på). Klarar vi detta har vi nog ingen problem med accessen till detta fina berg.\n\nNytt 2008!\n\nDet byggs en ny sommarstuga nedanför berget. Den ligger under nedstigningsleden, varför det inte är så lämpligt att använda denna. Fira av från träden istället.\n\n2008-07-13: Det är inga problem att använda nedstigningsleden, huset ligger en bra bit ned, gömt bakom träden. Man skymtar endast taket. Extra hänsyn rekommenderas dock, speciellt när det gäller ljudnivån.\n\n2008-08-21 Var i kontakt med husägaren förra hösten för accesskomittens räkning. Husägaren visste att det klättrades på berget när han började bygga och såg inget problem med det. Han var positivt inställd till klättrare och hade bara haft problem ngn enstaka gång med folk som gick över hans tomt (alltså fel väg). Så instämmmer med föregående skribent: tänk på ljudnivån, lämna inget skräp, gå inte över tomten. Men använd gärna nedstigningsleden det är ju faktiskt säkraste vägen ner. //Ola Tuvesson",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Parkera inte framme vid husen, för då blir de boende sura, och inte på någon skogsväg för då blir bonden sur (och det är hans mark berget står på). Klarar vi detta har vi nog ingen problem med accessen till detta fina berg."
+        },
+        {
+          "kind": "heading",
+          "text": "Nytt 2008!"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Det byggs en ny sommarstuga nedanför berget. Den ligger under nedstigningsleden, varför det inte är så lämpligt att använda denna. Fira av från träden istället."
+        },
+        {
+          "kind": "paragraph",
+          "text": "2008-07-13: Det är inga problem att använda nedstigningsleden, huset ligger en bra bit ned, gömt bakom träden. Man skymtar endast taket. Extra hänsyn rekommenderas dock, speciellt när det gäller ljudnivån."
+        },
+        {
+          "kind": "paragraph",
+          "text": "2008-08-21 Var i kontakt med husägaren förra hösten för accesskomittens räkning. Husägaren visste att det klättrades på berget när han började bygga och såg inget problem med det. Han var positivt inställd till klättrare och hade bara haft problem ngn enstaka gång med folk som gick över hans tomt (alltså fel väg). Så instämmmer med föregående skribent: tänk på ljudnivån, lämna inget skräp, gå inte över tomten. Men använd gärna nedstigningsleden det är ju faktiskt säkraste vägen ner. //Ola Tuvesson"
+        }
+      ]
     },
     {
       "id": "leder",
@@ -775,6 +797,14 @@
       "sectorId": null,
       "routeIds": [
         "gronbrinksberget-led-7"
+      ],
+      "routeRelations": [
+        {
+          "routeId": "gronbrinksberget-led-7",
+          "method": "filename",
+          "confidence": 0.95,
+          "evidence": "Lednamnet återfinns i originalfilens bildnamn."
+        }
       ]
     },
     {
@@ -840,7 +870,7 @@
   ],
   "externalLinks": [],
   "access": {
-    "legacyText": "Parkera inte framme vid husen, för då blir de boende sura, och inte på någon skogsväg för då blir bonden sur (och det är hans mark berget står på). Klarar vi detta har vi nog ingen problem med accessen till detta fina berg.\nNytt 2008!\nDet byggs en ny sommarstuga nedanför berget. Den ligger under nedstigningsleden, varför det inte är så lämpligt att använda denna. Fira av från träden istället.\n\n2008-07-13: Det är inga problem att använda nedstigningsleden, huset ligger en bra bit ned, gömt bakom träden. Man skymtar endast taket. Extra hänsyn rekommenderas dock,\nspeciellt när det gäller ljudnivån.\n\n2008-08-21\nVar i kontakt med husägaren förra hösten för accesskomittens räkning. Husägaren visste att det klättrades på berget när han började bygga och såg inget problem med det. Han var positivt inställd till klättrare och hade bara haft problem ngn enstaka gång med folk som gick över hans tomt (alltså fel väg). Så instämmmer med föregående skribent: tänk på ljudnivån, lämna inget skräp, gå inte över tomten. Men använd gärna nedstigningsleden det är ju faktiskt säkraste vägen ner.\n//Ola Tuvesson",
+    "legacyText": "Parkera inte framme vid husen, för då blir de boende sura, och inte på någon skogsväg för då blir bonden sur (och det är hans mark berget står på). Klarar vi detta har vi nog ingen problem med accessen till detta fina berg.\n\nNytt 2008!\n\nDet byggs en ny sommarstuga nedanför berget. Den ligger under nedstigningsleden, varför det inte är så lämpligt att använda denna. Fira av från träden istället.\n\n2008-07-13: Det är inga problem att använda nedstigningsleden, huset ligger en bra bit ned, gömt bakom träden. Man skymtar endast taket. Extra hänsyn rekommenderas dock, speciellt när det gäller ljudnivån.\n\n2008-08-21 Var i kontakt med husägaren förra hösten för accesskomittens räkning. Husägaren visste att det klättrades på berget när han började bygga och såg inget problem med det. Han var positivt inställd till klättrare och hade bara haft problem ngn enstaka gång med folk som gick över hans tomt (alltså fel väg). Så instämmmer med föregående skribent: tänk på ljudnivån, lämna inget skräp, gå inte över tomten. Men använd gärna nedstigningsleden det är ju faktiskt säkraste vägen ner. //Ola Tuvesson",
     "federationSlug": "gronbrinksberget"
   },
   "qualityIssues": [],

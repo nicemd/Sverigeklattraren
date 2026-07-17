@@ -55,17 +55,27 @@
     {
       "id": "bergsektorn-2",
       "title": "Bergsektorn 2",
-      "body": "Ovanför B och C är perfekta fikaplatser med milsvid utsikt."
+      "body": ""
     },
     {
       "id": "angssektorn",
       "title": "Ängssektorn",
-      "body": "Vill du gå direkt hit gör du det enklast genom att följa ängskanten från vägen.\n\nOm man från E-blocket går mot vattnet och håller lite vänster, kommer man till en bastant sköld ca 15 meter hög. På skölden går en bultad tur."
+      "body": "Vill du gå direkt hit gör du det enklast genom att följa ängskanten från vägen."
     },
     {
       "id": "kvarnen",
       "title": "Kvarnen",
-      "body": "En naturskön sektor med lövskog, bad och grillplats. Mycket myggigt inne vid väggarna under sommarsäsongen. Flera höga och fina problem. Några så höga att de hittills bara är gjorda på topprep. Ett problem visade sig t.o.m. vara en gammal tradled. Oftast mycket bra landningar.\n\nHöga väggen\n\nBlocket\nHögra väggarna\nProblem nr C:1 - C:3 kan avslutas när man står i övre tvärsprickan. Den som vill ha mer klättring än så kan toppa ur via en lätt men hög slab."
+      "body": "En naturskön sektor med lövskog, bad och grillplats. Mycket myggigt inne vid väggarna under sommarsäsongen. Flera höga och fina problem. Några så höga att de hittills bara är gjorda på topprep. Ett problem visade sig t.o.m. vara en gammal tradled. Oftast mycket bra landningar.\n\nHöga väggen",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "En naturskön sektor med lövskog, bad och grillplats. Mycket myggigt inne vid väggarna under sommarsäsongen. Flera höga och fina problem. Några så höga att de hittills bara är gjorda på topprep. Ett problem visade sig t.o.m. vara en gammal tradled. Oftast mycket bra landningar."
+        },
+        {
+          "kind": "heading",
+          "text": "Höga väggen"
+        }
+      ]
     }
   ],
   "routes": [
@@ -2170,6 +2180,14 @@
       "sectorId": "vagsektorn-1",
       "routeIds": [
         "balingsta-problem-26"
+      ],
+      "routeRelations": [
+        {
+          "routeId": "balingsta-problem-26",
+          "method": "filename",
+          "confidence": 0.95,
+          "evidence": "Lednamnet återfinns i originalfilens bildnamn."
+        }
       ]
     },
     {
@@ -2179,6 +2197,14 @@
       "sectorId": "vagsektorn-1",
       "routeIds": [
         "balingsta-problem-26"
+      ],
+      "routeRelations": [
+        {
+          "routeId": "balingsta-problem-26",
+          "method": "filename",
+          "confidence": 0.95,
+          "evidence": "Lednamnet återfinns i originalfilens bildnamn."
+        }
       ]
     },
     {

@@ -3,7 +3,7 @@
   "id": "hemtjarn",
   "slug": "hemtjarn",
   "name": "Hemtjärn",
-  "description": "Hemtjärn är en överhängande och ganska regnsäker liten sportklippa utanför Filipstad.\nOmrådet består av en vägg med ca 15 meters höjd och 50-100 meters bredd. Ett tiotal leder bjuder på jämn och relativt hård klättring.",
+  "description": "Hemtjärn är en överhängande och ganska regnsäker liten sportklippa utanför Filipstad. Området består av en vägg med ca 15 meters höjd och 50-100 meters bredd. Ett tiotal leder bjuder på jämn och relativt hård klättring.",
   "coordinates": {
     "latitude": 59.734253,
     "longitude": 14.166183
@@ -19,22 +19,22 @@
     {
       "id": "allmant",
       "title": "Allmänt",
-      "body": "Hemtjärn är en överhängande och ganska regnsäker liten sportklippa utanför Filipstad.\nOmrådet består av en vägg med ca 15 meters höjd och 50-100 meters bredd. Ett tiotal leder bjuder på jämn och relativt hård klättring."
+      "body": "Hemtjärn är en överhängande och ganska regnsäker liten sportklippa utanför Filipstad. Området består av en vägg med ca 15 meters höjd och 50-100 meters bredd. Ett tiotal leder bjuder på jämn och relativt hård klättring."
     },
     {
       "id": "hitta-hit",
       "title": "Hitta hit",
-      "body": "Från Filipstad kör du väg 246 mot Hagfors. Efter ungefär 2 km är du i Finnshyttan. Där ska du svänga in höger på en liten grusväg som uppenbarar sig efter en rad brevlådor.\nEfter 200m uppenbarar sig Hemtjärn och det gamla stationshuset, följ då den gamla banvallen norrut. Efter knappt en kilometer ser du klippan tydligt 10 meter in till vänster. Om du inte vill backa tillbaka bilen kan du bara fortsätta på banvallen och ta första vägen till vänster så kommer du ut på väg 246."
+      "body": "Från Filipstad kör du väg 246 mot Hagfors. Efter ungefär 2 km är du i Finnshyttan. Där ska du svänga in höger på en liten grusväg som uppenbarar sig efter en rad brevlådor. Efter 200m uppenbarar sig Hemtjärn och det gamla stationshuset, följ då den gamla banvallen norrut. Efter knappt en kilometer ser du klippan tydligt 10 meter in till vänster. Om du inte vill backa tillbaka bilen kan du bara fortsätta på banvallen och ta första vägen till vänster så kommer du ut på väg 246."
     },
     {
       "id": "beskrivning",
       "title": "Beskrivning",
-      "body": "Vertikala till överhängande leder i 6b-7c+ registret med fokus kring 7b.\nFast och fin klippa som lämpar sig bra för den som är ute efter några hårda men jämna sport-turer.\nKnappt 100 meter från parkering och bad.\nKlippan har sol fram till kl 12 sommartid.\n\nKlippan hittades i slutet på 90-talet efter tips från Gudmund Söderin som varit där och tränat brandmän i repteknik och räddningsövningar. De som då var aktiva sportklättrare i Karlstads Klätterklubb var snabbt där med borren och flera ankare kom upp. Turer som Icaros och Dynamitharry öppnades av Urban, Martin, Peter, Mattias och Oscar. Fler har tillkommit i nytursskapandet efter det och det finns fortfarande utrymme för ytterligare några hårda sportturer på berget.\n2009-2010 fick berget ytterligare bultar och ankare. En del fortfarande projekt (öppna).\n\nDet går ganska enkelt att orientera sig vid den lilla klippan genom att räkna bultrader. Lederna räknas upp från vänster till höger.\n\nDet finns också boulderblock i trakterna runt tjärnet En del bättre än annat. Det mesta oklättrat.\n\nKoordinater 1407724, 6625207."
+      "body": "Vertikala till överhängande leder i 6b-7c+ registret med fokus kring 7b. Fast och fin klippa som lämpar sig bra för den som är ute efter några hårda men jämna sport-turer. Knappt 100 meter från parkering och bad. Klippan har sol fram till kl 12 sommartid.\n\nKlippan hittades i slutet på 90-talet efter tips från Gudmund Söderin som varit där och tränat brandmän i repteknik och räddningsövningar. De som då var aktiva sportklättrare i Karlstads Klätterklubb var snabbt där med borren och flera ankare kom upp. Turer som Icaros och Dynamitharry öppnades av Urban, Martin, Peter, Mattias och Oscar. Fler har tillkommit i nytursskapandet efter det och det finns fortfarande utrymme för ytterligare några hårda sportturer på berget. 2009-2010 fick berget ytterligare bultar och ankare. En del fortfarande projekt (öppna).\n\nDet går ganska enkelt att orientera sig vid den lilla klippan genom att räkna bultrader. Lederna räknas upp från vänster till höger.\n\nDet finns också boulderblock i trakterna runt tjärnet En del bättre än annat. Det mesta oklättrat.\n\nKoordinater 1407724, 6625207."
     },
     {
       "id": "leder",
       "title": "Leder",
-      "body": ". Namnet inspirerat från den trubadur-drömmande förstabestigarens semi-religiösa gitarrfodral\n\noch gå en liten bit på andra sidan grooven innan man går in i leden igen och klipper sista bultarna. Lite lättare men påverkar inte graden. Toppankare"
+      "body": ""
     }
   ],
   "routes": [
@@ -301,6 +301,14 @@
       "sectorId": "leder",
       "routeIds": [
         "hemtjarn-led-4"
+      ],
+      "routeRelations": [
+        {
+          "routeId": "hemtjarn-led-4",
+          "method": "filename",
+          "confidence": 0.95,
+          "evidence": "Lednamnet återfinns i originalfilens bildnamn."
+        }
       ]
     }
   ],

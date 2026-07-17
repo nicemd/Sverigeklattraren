@@ -23,7 +23,54 @@
     {
       "id": "vagbeskrivning",
       "title": "Vägbeskrivning",
-      "body": "Överhängande Väggen med bil\nKör Värmdöleden (222) och sväng av via Skuru (direkt efter Skurubron). Sväng till vänster och kör under Motorvägen. Du ser Björknäs C. Sväng höger och sedan första vänster mot Talludden (på Talluddsvägen). Kör rakt fram en stund sedan Höger (Helmdalsvägen), Vänster (Friggvägen), höger (Emblavägen). Nära slutet av Emblavägen finns det en vänd/parkerings plats. Parkera bilen där och följ sedan Mariedalsvägen ner. Först ser man \"Parkeringsväggen\" och några meter senare delar av \"Överhängande Väggen\" på högra sidan.\nÖverhängande Väggen med buss\nAntingen tar man buss till Björknäs C från Slussen (ca 15 min och det finns massor med bussar att välja på) eller så tar man 413 till Talludden.\n\nGå samma väg som bilvägen. Från Björknäs C tar det ca 20 min att gå (2 km) och åker man 413 tar det ca 10 min från bussen.\nWarm Up Väggen med bil\nKör Värmdöleden (222) och sväng av mot Orminge. Kör vidare mot Orminge Center.\nFöljande väggar finns i området\n• Överhängande Väggen (1a. Parkeringsväggen)\n• Traverse Väggen\n• Spineless Väggen\n• Warm up Väggen\n\nObs: Inte alla väggar är med än!"
+      "body": "Överhängande Väggen med bil\n\nKör Värmdöleden (222) och sväng av via Skuru (direkt efter Skurubron). Sväng till vänster och kör under Motorvägen. Du ser Björknäs C. Sväng höger och sedan första vänster mot Talludden (på Talluddsvägen). Kör rakt fram en stund sedan Höger (Helmdalsvägen), Vänster (Friggvägen), höger (Emblavägen). Nära slutet av Emblavägen finns det en vänd/parkerings plats. Parkera bilen där och följ sedan Mariedalsvägen ner. Först ser man \"Parkeringsväggen\" och några meter senare delar av \"Överhängande Väggen\" på högra sidan.\n\nÖverhängande Väggen med buss\n\nAntingen tar man buss till Björknäs C från Slussen (ca 15 min och det finns massor med bussar att välja på) eller så tar man 413 till Talludden.\n\nGå samma väg som bilvägen. Från Björknäs C tar det ca 20 min att gå (2 km) och åker man 413 tar det ca 10 min från bussen.\n\nWarm Up Väggen med bil\n\nKör Värmdöleden (222) och sväng av mot Orminge. Kör vidare mot Orminge Center.\n\nFöljande väggar finns i området\n\n• Överhängande Väggen (1a. Parkeringsväggen)\n• Traverse Väggen\n• Spineless Väggen\n• Warm up Väggen\n\nObs: Inte alla väggar är med än!",
+      "blocks": [
+        {
+          "kind": "heading",
+          "text": "Överhängande Väggen med bil"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Kör Värmdöleden (222) och sväng av via Skuru (direkt efter Skurubron). Sväng till vänster och kör under Motorvägen. Du ser Björknäs C. Sväng höger och sedan första vänster mot Talludden (på Talluddsvägen). Kör rakt fram en stund sedan Höger (Helmdalsvägen), Vänster (Friggvägen), höger (Emblavägen). Nära slutet av Emblavägen finns det en vänd/parkerings plats. Parkera bilen där och följ sedan Mariedalsvägen ner. Först ser man \"Parkeringsväggen\" och några meter senare delar av \"Överhängande Väggen\" på högra sidan."
+        },
+        {
+          "kind": "heading",
+          "text": "Överhängande Väggen med buss"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Antingen tar man buss till Björknäs C från Slussen (ca 15 min och det finns massor med bussar att välja på) eller så tar man 413 till Talludden."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Gå samma väg som bilvägen. Från Björknäs C tar det ca 20 min att gå (2 km) och åker man 413 tar det ca 10 min från bussen."
+        },
+        {
+          "kind": "heading",
+          "text": "Warm Up Väggen med bil"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Kör Värmdöleden (222) och sväng av mot Orminge. Kör vidare mot Orminge Center."
+        },
+        {
+          "kind": "heading",
+          "text": "Följande väggar finns i området"
+        },
+        {
+          "kind": "list",
+          "items": [
+            "Överhängande Väggen (1a. Parkeringsväggen)",
+            "Traverse Väggen",
+            "Spineless Väggen",
+            "Warm up Väggen"
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "text": "Obs: Inte alla väggar är med än!"
+        }
+      ]
     },
     {
       "id": "boulderproblem",
@@ -48,7 +95,7 @@
     {
       "id": "mellandelen-hogra",
       "title": "Mellandelen (högra)",
-      "body": "Sur Fredde extension (2) & Hugo (4) finns beskrivna ovan\n\nFinns numera en trv. som börjar med sittstart upp vid areten i slutet av Hugo, trv. Hugo höger-vänster och avslutar med Televinken. fa=Daniel J.L. Namn:? Grad:?"
+      "body": ""
     },
     {
       "id": "hogra-delen",
@@ -437,6 +484,45 @@
         "orminge-led-4",
         "orminge-led-5",
         "orminge-led-6"
+      ],
+      "imageKind": "topo",
+      "routeRelations": [
+        {
+          "routeId": "orminge-led-1",
+          "method": "source-order",
+          "confidence": 0.72,
+          "evidence": "Leden följer bilden före nästa bild i samma originalsektion."
+        },
+        {
+          "routeId": "orminge-led-2",
+          "method": "source-order",
+          "confidence": 0.72,
+          "evidence": "Leden följer bilden före nästa bild i samma originalsektion."
+        },
+        {
+          "routeId": "orminge-led-3",
+          "method": "source-order",
+          "confidence": 0.72,
+          "evidence": "Leden följer bilden före nästa bild i samma originalsektion."
+        },
+        {
+          "routeId": "orminge-led-4",
+          "method": "source-order",
+          "confidence": 0.72,
+          "evidence": "Leden följer bilden före nästa bild i samma originalsektion."
+        },
+        {
+          "routeId": "orminge-led-5",
+          "method": "filename",
+          "confidence": 0.95,
+          "evidence": "Lednamnet återfinns i originalfilens bildnamn."
+        },
+        {
+          "routeId": "orminge-led-6",
+          "method": "source-order",
+          "confidence": 0.72,
+          "evidence": "Leden följer bilden före nästa bild i samma originalsektion."
+        }
       ]
     },
     {
@@ -450,6 +536,39 @@
         "orminge-led-9",
         "orminge-led-10",
         "orminge-led-11"
+      ],
+      "imageKind": "topo",
+      "routeRelations": [
+        {
+          "routeId": "orminge-led-7",
+          "method": "source-order",
+          "confidence": 0.72,
+          "evidence": "Leden följer bilden före nästa bild i samma originalsektion."
+        },
+        {
+          "routeId": "orminge-led-8",
+          "method": "source-order",
+          "confidence": 0.72,
+          "evidence": "Leden följer bilden före nästa bild i samma originalsektion."
+        },
+        {
+          "routeId": "orminge-led-9",
+          "method": "source-order",
+          "confidence": 0.72,
+          "evidence": "Leden följer bilden före nästa bild i samma originalsektion."
+        },
+        {
+          "routeId": "orminge-led-10",
+          "method": "source-order",
+          "confidence": 0.72,
+          "evidence": "Leden följer bilden före nästa bild i samma originalsektion."
+        },
+        {
+          "routeId": "orminge-led-11",
+          "method": "source-order",
+          "confidence": 0.72,
+          "evidence": "Leden följer bilden före nästa bild i samma originalsektion."
+        }
       ]
     },
     {
@@ -461,6 +580,27 @@
         "orminge-led-12",
         "orminge-led-13",
         "orminge-led-14"
+      ],
+      "imageKind": "topo",
+      "routeRelations": [
+        {
+          "routeId": "orminge-led-12",
+          "method": "source-order",
+          "confidence": 0.72,
+          "evidence": "Leden följer bilden före nästa bild i samma originalsektion."
+        },
+        {
+          "routeId": "orminge-led-13",
+          "method": "source-order",
+          "confidence": 0.72,
+          "evidence": "Leden följer bilden före nästa bild i samma originalsektion."
+        },
+        {
+          "routeId": "orminge-led-14",
+          "method": "source-order",
+          "confidence": 0.72,
+          "evidence": "Leden följer bilden före nästa bild i samma originalsektion."
+        }
       ]
     },
     {
@@ -474,6 +614,39 @@
         "orminge-led-17",
         "orminge-led-18",
         "orminge-led-19"
+      ],
+      "imageKind": "topo",
+      "routeRelations": [
+        {
+          "routeId": "orminge-led-15",
+          "method": "source-order",
+          "confidence": 0.72,
+          "evidence": "Leden följer bilden före nästa bild i samma originalsektion."
+        },
+        {
+          "routeId": "orminge-led-16",
+          "method": "source-order",
+          "confidence": 0.72,
+          "evidence": "Leden följer bilden före nästa bild i samma originalsektion."
+        },
+        {
+          "routeId": "orminge-led-17",
+          "method": "source-order",
+          "confidence": 0.72,
+          "evidence": "Leden följer bilden före nästa bild i samma originalsektion."
+        },
+        {
+          "routeId": "orminge-led-18",
+          "method": "source-order",
+          "confidence": 0.72,
+          "evidence": "Leden följer bilden före nästa bild i samma originalsektion."
+        },
+        {
+          "routeId": "orminge-led-19",
+          "method": "source-order",
+          "confidence": 0.72,
+          "evidence": "Leden följer bilden före nästa bild i samma originalsektion."
+        }
       ]
     },
     {
@@ -483,6 +656,15 @@
       "sectorId": "hogra-delen",
       "routeIds": [
         "orminge-led-18"
+      ],
+      "imageKind": "topo",
+      "routeRelations": [
+        {
+          "routeId": "orminge-led-18",
+          "method": "filename",
+          "confidence": 0.95,
+          "evidence": "Lednamnet återfinns i originalfilens bildnamn."
+        }
       ]
     },
     {

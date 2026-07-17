@@ -466,6 +466,14 @@
       "sectorId": "halalblocket",
       "routeIds": [
         "hogasrebbetuarod-problem-17"
+      ],
+      "routeRelations": [
+        {
+          "routeId": "hogasrebbetuarod-problem-17",
+          "method": "filename",
+          "confidence": 0.95,
+          "evidence": "Lednamnet återfinns i originalfilens bildnamn."
+        }
       ]
     },
     {
@@ -476,6 +484,14 @@
       "routeIds": [
         "hogasrebbetuarod-problem-17",
         "hogasrebbetuarod-problem-18"
+      ],
+      "routeRelations": [
+        {
+          "routeId": "hogasrebbetuarod-problem-17",
+          "method": "filename",
+          "confidence": 0.95,
+          "evidence": "Lednamnet återfinns i originalfilens bildnamn."
+        }
       ]
     }
   ],

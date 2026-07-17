@@ -20,7 +20,7 @@
     {
       "id": "hitta-hit",
       "title": "Hitta hit",
-      "body": "Från Karlshamn kör du österut mot Karlskrona och tar av från E22:an strax efter Åryd, mot Järnavik. I Järnavik är det turistfärjan till Tjärö som gäller. Det går också att ta färja från hamnen i Karlshamn. Båda färjorna går tyvärr bara under sommarhalvåret. Väl ute på ön är det lätt att orientera sig med hjälp av kartan nedan. Om du skulle vilja paddla egen kajak så finns en bra iläggningsplats med brygga, om man följer vägen förbi Köpegårdaklippan och till dess slut (se Köpegårda).\n\nFärja från Karlshamn:\nhttp://www.karlshamn.se/Turism/Kommunikation/Skargardstrafik_Karlshamn-Tjaro/\nFärja från Järnavik:\nhttp://www.karlshamn.se/Turism/Kommunikation/Skargardstrafik_Jarnavik-Tjaro/"
+      "body": "Från Karlshamn kör du österut mot Karlskrona och tar av från E22:an strax efter Åryd, mot Järnavik. I Järnavik är det turistfärjan till Tjärö som gäller. Det går också att ta färja från hamnen i Karlshamn. Båda färjorna går tyvärr bara under sommarhalvåret. Väl ute på ön är det lätt att orientera sig med hjälp av kartan nedan. Om du skulle vilja paddla egen kajak så finns en bra iläggningsplats med brygga, om man följer vägen förbi Köpegårdaklippan och till dess slut (se Köpegårda).\n\nFärja från Karlshamn: http://www.karlshamn.se/Turism/Kommunikation/Skargardstrafik_Karlshamn-Tjaro/ Färja från Järnavik: http://www.karlshamn.se/Turism/Kommunikation/Skargardstrafik_Jarnavik-Tjaro/"
     },
     {
       "id": "havsklippan",
@@ -30,7 +30,7 @@
     {
       "id": "svaklippan",
       "title": "Svaklippan",
-      "body": "En mindre klippa på den södra delen av Tjärö. Tyvärr saknas logiska linjer. Men klippan ligger mycket vackert på en äng. Ganska knepigt att bygga toppankare.\n\n4 Foto: Fredrik Rapp ]]\n\n5+, medan Erblin Neziri och Povel Andersson gör ett luftigt hopp.]]"
+      "body": "En mindre klippa på den södra delen av Tjärö. Tyvärr saknas logiska linjer. Men klippan ligger mycket vackert på en äng. Ganska knepigt att bygga toppankare."
     }
   ],
   "routes": [
@@ -118,11 +118,19 @@
   "images": [
     {
       "filename": "Skärgårdsturen1.jpg‎",
-      "caption": "Bobo Gustavsson klättrar [[Skärgårdsturen",
+      "caption": "Bobo Gustavsson klättrar Skärgårdsturen",
       "missing": true,
       "sectorId": null,
       "routeIds": [
         "tjaro-led-2"
+      ],
+      "routeRelations": [
+        {
+          "routeId": "tjaro-led-2",
+          "method": "filename",
+          "confidence": 0.95,
+          "evidence": "Lednamnet återfinns i originalfilens bildnamn."
+        }
       ]
     },
     {
@@ -155,14 +163,14 @@
     },
     {
       "filename": "Pampersaction.jpg‎",
-      "caption": "Mäktig klättring på den brutala [[Pampers Bigwall",
+      "caption": "Mäktig klättring på den brutala Pampers Bigwall",
       "missing": true,
       "sectorId": "svaklippan",
       "routeIds": []
     },
     {
       "filename": "Hoppet.JPG‎",
-      "caption": "Stefan Teglund topprepar [[Skärgårdsturen",
+      "caption": "Stefan Teglund topprepar Skärgårdsturen",
       "missing": true,
       "sectorId": "svaklippan",
       "routeIds": []

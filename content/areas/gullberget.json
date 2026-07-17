@@ -20,7 +20,7 @@
     {
       "id": "kommunikationer",
       "title": "Kommunikationer",
-      "body": "Med bil; från länsväg 301 kör man vid en skylt \"Bergvik~5\" mot\nBergvik. Sex km från bron i Bergvik, i riktning mot Stråtjära och\nHolmsveden, ses berget som en skogsklädd höjd på höger sida. I och med\natt ett stort kalhygge gjorts närmast vägen syns klipporna tydligt. Ca\n200 m före en skogstjärn, mitt emot en halvmeterhög sprängvägg\nparkerar man. Härifrån leder en stig upp till stora klippan.\nUngefärliga GPS-koordinater för klippan: Lat: N 61º 12' 46.37\" Long: E 16º 49' 59.11\""
+      "body": "Med bil; från länsväg 301 kör man vid en skylt \"Bergvik~5\" mot Bergvik. Sex km från bron i Bergvik, i riktning mot Stråtjära och Holmsveden, ses berget som en skogsklädd höjd på höger sida. I och med att ett stort kalhygge gjorts närmast vägen syns klipporna tydligt. Ca 200 m före en skogstjärn, mitt emot en halvmeterhög sprängvägg parkerar man. Härifrån leder en stig upp till stora klippan. Ungefärliga GPS-koordinater för klippan: Lat: N 61º 12' 46.37\" Long: E 16º 49' 59.11\""
     },
     {
       "id": "historik",
@@ -30,7 +30,7 @@
     {
       "id": "klipporna",
       "title": "Klipporna",
-      "body": "Här finns två klippor. Den stora klippan är av 8-15 m höjd och har sju\nleder, vilka alla är renborstade från lavar. Vidare finns en del små\nboulderproblem på toppen. Klippan är av granit av god kvalitet med små\nfina sprickor. Nedstigningen ligger till höger om väggen. Den lilla\nklippan, som ligger ca 50 m till vänster om den stora, består i\nprincip bara av gigantiska klippblock ihoppusslade till en klippa.\nLilla klippan är inte renborstad, och rekomenderas ej."
+      "body": "Här finns två klippor. Den stora klippan är av 8-15 m höjd och har sju leder, vilka alla är renborstade från lavar. Vidare finns en del små boulderproblem på toppen. Klippan är av granit av god kvalitet med små fina sprickor. Nedstigningen ligger till höger om väggen. Den lilla klippan, som ligger ca 50 m till vänster om den stora, består i princip bara av gigantiska klippblock ihoppusslade till en klippa. Lilla klippan är inte renborstad, och rekomenderas ej."
     },
     {
       "id": "stora-klippan",
@@ -287,6 +287,14 @@
         "gullberget-led-4",
         "gullberget-led-5",
         "gullberget-led-6"
+      ],
+      "routeRelations": [
+        {
+          "routeId": "gullberget-led-1",
+          "method": "filename",
+          "confidence": 0.95,
+          "evidence": "Lednamnet återfinns i originalfilens bildnamn."
+        }
       ]
     },
     {

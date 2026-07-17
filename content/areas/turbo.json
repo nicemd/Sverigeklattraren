@@ -3,14 +3,14 @@
   "id": "turbo",
   "slug": "turbo",
   "name": "Turbo",
-  "description": "Ett större område än Vikmanshyttan, kan säkerligen komma att rymma minst ett 20-tal problem tids nog. Än sålänge är bara en bråkdel utvecklat men mer är på G. Bla en supernajs och luftig Arete.\nSoon to come\n/c",
+  "description": "Ett större område än Vikmanshyttan, kan säkerligen komma att rymma minst ett 20-tal problem tids nog. Än sålänge är bara en bråkdel utvecklat men mer är på G. Bla en supernajs och luftig Arete. Soon to come /c",
   "coordinates": null,
   "categories": [],
   "sections": [
     {
       "id": "allmant",
       "title": "Allmänt",
-      "body": "Ett större område än Vikmanshyttan, kan säkerligen komma att rymma minst ett 20-tal problem tids nog. Än sålänge är bara en bråkdel utvecklat men mer är på G. Bla en supernajs och luftig Arete.\nSoon to come\n/c"
+      "body": "Ett större område än Vikmanshyttan, kan säkerligen komma att rymma minst ett 20-tal problem tids nog. Än sålänge är bara en bråkdel utvecklat men mer är på G. Bla en supernajs och luftig Arete. Soon to come /c"
     },
     {
       "id": "vagbeskrivning",
@@ -354,6 +354,14 @@
         "turbo-problem-4",
         "turbo-problem-5",
         "turbo-problem-6"
+      ],
+      "routeRelations": [
+        {
+          "routeId": "turbo-problem-5",
+          "method": "filename",
+          "confidence": 0.95,
+          "evidence": "Lednamnet återfinns i originalfilens bildnamn."
+        }
       ]
     },
     {
@@ -363,6 +371,14 @@
       "sectorId": "frontal",
       "routeIds": [
         "turbo-problem-7"
+      ],
+      "routeRelations": [
+        {
+          "routeId": "turbo-problem-7",
+          "method": "filename",
+          "confidence": 0.95,
+          "evidence": "Lednamnet återfinns i originalfilens bildnamn."
+        }
       ]
     },
     {

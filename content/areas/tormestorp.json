@@ -3,7 +3,7 @@
   "id": "tormestorp",
   "slug": "tormestorp",
   "name": "Tormestorp",
-  "description": "En liten och kanske inte så väldigt betydelsefull klippa. Men har man vägarna förbi kan det kanske vara av intresse. Området består av tre väggar och två större flyttblock.\nBoulderväggen är något lägre, ca 5-6 m som högst, medan huvudväggen och nedre väggen är ca 10 m höga.\nKlättringen är av karaktären väggklättring strax under 90 grader, mestadels på små lister.\nKlippan har vid torrt väder mycket fin friktion. Att tänka på är att den torkar långsammt och behöver minst en varm sommardag för att torka upp. Boulderblocken är kanske inte så mycket att hänga i julgranen med dagens mått på bouldering.\nFörutom de tre väggarna i \"Stora Tormestorp\" finns en mindre vägg. Klippkvalitén på denna är mycket god, men klippan är dessvärre mycket svår att finna.",
+  "description": "En liten och kanske inte så väldigt betydelsefull klippa. Men har man vägarna förbi kan det kanske vara av intresse. Området består av tre väggar och två större flyttblock. Boulderväggen är något lägre, ca 5-6 m som högst, medan huvudväggen och nedre väggen är ca 10 m höga. Klättringen är av karaktären väggklättring strax under 90 grader, mestadels på små lister. Klippan har vid torrt väder mycket fin friktion. Att tänka på är att den torkar långsammt och behöver minst en varm sommardag för att torka upp. Boulderblocken är kanske inte så mycket att hänga i julgranen med dagens mått på bouldering. Förutom de tre väggarna i \"Stora Tormestorp\" finns en mindre vägg. Klippkvalitén på denna är mycket god, men klippan är dessvärre mycket svår att finna.",
   "coordinates": {
     "latitude": 56.09561,
     "longitude": 13.74886
@@ -15,7 +15,7 @@
     {
       "id": "allmant",
       "title": "Allmänt",
-      "body": "En liten och kanske inte så väldigt betydelsefull klippa. Men har man vägarna förbi kan det kanske vara av intresse. Området består av tre väggar och två större flyttblock.\nBoulderväggen är något lägre, ca 5-6 m som högst, medan huvudväggen och nedre väggen är ca 10 m höga.\nKlättringen är av karaktären väggklättring strax under 90 grader, mestadels på små lister.\nKlippan har vid torrt väder mycket fin friktion. Att tänka på är att den torkar långsammt och behöver minst en varm sommardag för att torka upp. Boulderblocken är kanske inte så mycket att hänga i julgranen med dagens mått på bouldering.\nFörutom de tre väggarna i \"Stora Tormestorp\" finns en mindre vägg. Klippkvalitén på denna är mycket god, men klippan är dessvärre mycket svår att finna."
+      "body": "En liten och kanske inte så väldigt betydelsefull klippa. Men har man vägarna förbi kan det kanske vara av intresse. Området består av tre väggar och två större flyttblock. Boulderväggen är något lägre, ca 5-6 m som högst, medan huvudväggen och nedre väggen är ca 10 m höga. Klättringen är av karaktären väggklättring strax under 90 grader, mestadels på små lister. Klippan har vid torrt väder mycket fin friktion. Att tänka på är att den torkar långsammt och behöver minst en varm sommardag för att torka upp. Boulderblocken är kanske inte så mycket att hänga i julgranen med dagens mått på bouldering. Förutom de tre väggarna i \"Stora Tormestorp\" finns en mindre vägg. Klippkvalitén på denna är mycket god, men klippan är dessvärre mycket svår att finna."
     },
     {
       "id": "hitta-hit",
@@ -25,7 +25,22 @@
     {
       "id": "stora-tormestorp",
       "title": "Stora Tormestorp",
-      "body": "• 1 Boulderväggen\n• 2 Huvudväggen\n• 3 Nedre väggen\n• 4 Boulderblocken\n\nKlippan sedd nerifrån. Det finns upp/nedstigningsleder vid sidan av varje vägg.\nTill boulderblocken går man från klippan snett nedåt vänster i backen ca 100m"
+      "body": "• 1 Boulderväggen\n• 2 Huvudväggen\n• 3 Nedre väggen\n• 4 Boulderblocken\n\nKlippan sedd nerifrån. Det finns upp/nedstigningsleder vid sidan av varje vägg. Till boulderblocken går man från klippan snett nedåt vänster i backen ca 100m",
+      "blocks": [
+        {
+          "kind": "list",
+          "items": [
+            "1 Boulderväggen",
+            "2 Huvudväggen",
+            "3 Nedre väggen",
+            "4 Boulderblocken"
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "text": "Klippan sedd nerifrån. Det finns upp/nedstigningsleder vid sidan av varje vägg. Till boulderblocken går man från klippan snett nedåt vänster i backen ca 100m"
+        }
+      ]
     },
     {
       "id": "bouldervaggen",
@@ -414,6 +429,14 @@
       "routeIds": [
         "tormestorp-led-17",
         "tormestorp-led-1"
+      ],
+      "routeRelations": [
+        {
+          "routeId": "tormestorp-led-17",
+          "method": "filename",
+          "confidence": 0.95,
+          "evidence": "Lednamnet återfinns i originalfilens bildnamn."
+        }
       ]
     },
     {

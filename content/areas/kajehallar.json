@@ -25,7 +25,7 @@
     {
       "id": "hitta-hit",
       "title": "Hitta hit",
-      "body": "Klippan ligger på cykelavstånd från Halmstad (1,5 mil) och det går att ta sig hit med lokaltrafiken.\nKör gamla göteborgsvägen till Kvibille. Vid gästgiveriet, ta av in på vägen mot Slättåkra och Oskarsström. Fortsätt cirka 400 meter och sväng sedan vänster in på Lundsgårdsvägen. I höjd med Ekegränd går ni höger in i skogen och följer högerkanten av dalen. Efter 300 meter kommer man till Originalväggen.\nAlternativt kör man in till höger på skogsvägen innan Ekegränd och följer den till den stora grusplanen där man kan parkera. Sedan är det bara att gå direkt åt vänster och snedda upp genom skogen så kommer man direkt på klipporna ovanifrån."
+      "body": "Klippan ligger på cykelavstånd från Halmstad (1,5 mil) och det går att ta sig hit med lokaltrafiken. Kör gamla göteborgsvägen till Kvibille. Vid gästgiveriet, ta av in på vägen mot Slättåkra och Oskarsström. Fortsätt cirka 400 meter och sväng sedan vänster in på Lundsgårdsvägen. I höjd med Ekegränd går ni höger in i skogen och följer högerkanten av dalen. Efter 300 meter kommer man till Originalväggen. Alternativt kör man in till höger på skogsvägen innan Ekegränd och följer den till den stora grusplanen där man kan parkera. Sedan är det bara att gå direkt åt vänster och snedda upp genom skogen så kommer man direkt på klipporna ovanifrån."
     },
     {
       "id": "klippor",
@@ -573,6 +573,14 @@
         "kajehallar-led-17",
         "kajehallar-led-18",
         "kajehallar-led-19"
+      ],
+      "routeRelations": [
+        {
+          "routeId": "kajehallar-led-13",
+          "method": "filename",
+          "confidence": 0.95,
+          "evidence": "Lednamnet återfinns i originalfilens bildnamn."
+        }
       ]
     }
   ],

@@ -96,6 +96,14 @@
       "sectorId": "leder",
       "routeIds": [
         "kalleshallarna-led-1"
+      ],
+      "routeRelations": [
+        {
+          "routeId": "kalleshallarna-led-1",
+          "method": "filename",
+          "confidence": 0.95,
+          "evidence": "Lednamnet återfinns i originalfilens bildnamn."
+        }
       ]
     },
     {
@@ -106,6 +114,14 @@
       "routeIds": [
         "kalleshallarna-led-2",
         "kalleshallarna-led-3"
+      ],
+      "routeRelations": [
+        {
+          "routeId": "kalleshallarna-led-2",
+          "method": "filename",
+          "confidence": 0.95,
+          "evidence": "Lednamnet återfinns i originalfilens bildnamn."
+        }
       ]
     }
   ],

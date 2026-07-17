@@ -10,6 +10,7 @@ const contentRoot = runtimeEnv.CONTENT_OUTPUT_ROOT ? path.resolve(runtimeEnv.CON
 const outputDir = path.join(contentRoot, "areas");
 const imageIndex = new Map();
 const publishedProposals = new Map();
+const topoEnrichment = new Map();
 
 const slugify = (value) => value
   .normalize("NFD")
@@ -75,19 +76,49 @@ function splitTemplate(template) {
   return { name: name.trim().toLowerCase(), args };
 }
 
+function removeBalancedWikiImages(source) {
+  let result = source;
+  const imageStart = /\[\[(?:bild|image|fil|file):/gi;
+  let match;
+  while ((match = imageStart.exec(result))) {
+    let depth = 1;
+    let cursor = match.index + 2;
+    while (cursor < result.length - 1 && depth > 0) {
+      const pair = result.slice(cursor, cursor + 2);
+      if (pair === "[[") { depth += 1; cursor += 2; }
+      else if (pair === "]]" ) { depth -= 1; cursor += 2; }
+      else cursor += 1;
+    }
+    result = `${result.slice(0, match.index)} ${result.slice(depth === 0 ? cursor : match.index + match[0].length)}`;
+    imageStart.lastIndex = match.index + 1;
+  }
+  return result;
+}
+
+function removeTemplates(source) {
+  let result = source;
+  for (const template of extractTemplates(source).sort((left, right) => right.start - left.start)) {
+    result = `${result.slice(0, template.start)} ${result.slice(template.end)}`;
+  }
+  return result;
+}
+
+function cleanEmbeddedMarkup(source) {
+  return removeTemplates(removeBalancedWikiImages(source));
+}
+
 function plainText(source) {
-  return source
+  return cleanEmbeddedMarkup(source)
     .replace(/<!--[^]*?-->/g, " ")
     .replace(/<googlemap[^]*?<\/googlemap>/gi, " ")
     .replace(/<[^>]+>/g, " ")
-    .replace(/\[\[(?:bild|image|fil|file):[^\]]+\]\]/gi, " ")
     .replace(/\[+\s*(?:kategori|category):[^\]\n]+\]+/gi, " ")
     .replace(/\[\[(https?:\/\/[^\s\]]+)\s+([^\]]+)\]\]/g, "$2 ($1)")
     .replace(/\[\[([^\]|]+)\|([^\]]+)\]\]/g, "$2")
     .replace(/\[\[([^\]]+)\]\]/g, "$1")
     .replace(/\[(https?:\/\/[^\s\]]+)\s+([^\]]+)\]/g, "$2 ($1)")
     .replace(/\[(https?:\/\/[^\]]+)\]/g, "$1")
-    .replace(/\{\{[^]*?\}\}/g, " ")
+    .replace(/\[\[|\]\]/g, " ")
     .replace(/[{}]{2,}/g, " ")
     .replace(/\btitel=[^]*?\blat=[^\s|]+\s+long=[^\s|]+/gi, " ")
     .replace(/'{2,}/g, "")
@@ -96,29 +127,46 @@ function plainText(source) {
     .trim();
 }
 
-function proseText(source) {
-  return source
+function proseBlocks(source) {
+  const cleaned = cleanEmbeddedMarkup(source)
     .replace(/<!--[^]*?-->/g, " ")
     .replace(/<googlemap[^]*?<\/googlemap>/gi, " ")
-    .replace(/<[^>]+>/g, " ")
-    .replace(/\[\[(?:bild|image|fil|file):[^\]]+\]\]/gi, " ")
-    .replace(/\[+\s*(?:kategori|category):[^\]\n]+\]+/gi, " ")
-    .replace(/\[\[(https?:\/\/[^\s\]]+)\s+([^\]]+)\]\]/g, "$2 ($1)")
-    .replace(/\[\[([^\]|]+)\|([^\]]+)\]\]/g, "$2")
-    .replace(/\[\[([^\]]+)\]\]/g, "$1")
-    .replace(/\[(https?:\/\/[^\s\]]+)\s+([^\]]+)\]/g, "$2 ($1)")
-    .replace(/\[(https?:\/\/[^\]]+)\]/g, "$1")
-    .replace(/\{\{[^]*?\}\}/g, " ")
-    .replace(/[{}]{2,}/g, " ")
-    .replace(/\btitel=[^]*?\blat=[^\s|]+\s+long=[^\s|]+/gi, " ")
-    .replace(/^\s*'{2,}(.+?)'{2,}\s*$/gm, "$1")
-    .replace(/'{2,}/g, "")
-    .replace(/^\s*[*#]\s*/gm, "• ")
-    .replace(/^\s*[|{}!].*$/gm, " ")
-    .split(/\n\s*\n/)
-    .map((paragraph) => paragraph.replace(/[ \t]+/g, " ").replace(/\s*\n\s*/g, "\n").trim())
-    .filter(Boolean)
-    .join("\n\n");
+    .replace(/<[^>]+>/g, " ");
+  const blocks = [];
+  let paragraph = [];
+  let list = [];
+  const flushParagraph = () => {
+    const text = plainText(paragraph.join(" "));
+    if (text) blocks.push({ kind: "paragraph", text });
+    paragraph = [];
+  };
+  const flushList = () => {
+    const items = list.map((item) => plainText(item)).filter(Boolean);
+    if (items.length) blocks.push({ kind: "list", items });
+    list = [];
+  };
+  for (const rawLine of cleaned.split(/\r?\n/)) {
+    const line = rawLine.trim();
+    if (!line) { flushParagraph(); flushList(); continue; }
+    if (/^[|{}!]/.test(line)) continue;
+    const heading = line.match(/^'{3,}\s*(.*?)\s*'{3,}$/);
+    if (heading) {
+      flushParagraph(); flushList();
+      const text = plainText(heading[1]);
+      if (text) blocks.push({ kind: "heading", text });
+      continue;
+    }
+    const item = line.match(/^[*#]\s*(.*)$/);
+    if (item) { flushParagraph(); list.push(item[1]); continue; }
+    flushList();
+    paragraph.push(line);
+  }
+  flushParagraph(); flushList();
+  return blocks;
+}
+
+function blocksToText(blocks) {
+  return blocks.map((block) => block.kind === "list" ? block.items.map((item) => `• ${item}`).join("\n") : block.text).join("\n\n");
 }
 
 function parseSections(source) {
@@ -126,10 +174,13 @@ function parseSections(source) {
   const parsed = matches.map((match, index) => {
     const bodyStart = match.index + match[0].length;
     const bodyEnd = matches[index + 1]?.index ?? source.length;
+    const blocks = proseBlocks(source.slice(bodyStart, bodyEnd));
     return {
       title: plainText(match[1]).replace(/\s+/g, " "),
       level: match[0].match(/^=+/)?.[0].length || 2,
-      body: proseText(source.slice(bodyStart, bodyEnd)),
+      body: blocksToText(blocks),
+      blocks,
+      bodyStart,
       sourceStart: match.index,
       sourceEnd: bodyEnd,
     };
@@ -217,14 +268,19 @@ function parseArea(filename, source, uniqueSlug) {
   const name = path.basename(filename, ".txt");
   const templates = extractTemplates(source).map((entry) => ({ ...splitTemplate(entry.content), start: entry.start, end: entry.end }));
   const info = templates.find((template) => ["info klippa", "info boulderområde"].includes(template.name));
-  const sections = parseSections(source);
+  const parsedSections = parseSections(source);
+  const routeTemplates = templates.filter((template) => template.name === "led" || template.name === "problem");
+  const sections = parsedSections.map((section) => {
+    const firstRoute = routeTemplates.find((template) => template.start >= section.bodyStart && template.start < section.sourceEnd);
+    const blocks = proseBlocks(source.slice(section.bodyStart, firstRoute?.start ?? section.sourceEnd));
+    return { ...section, body: blocksToText(blocks), blocks };
+  });
   const topLevelHeadings = sections.filter((section) => source.slice(section.sourceStart).startsWith("==") && !source.slice(section.sourceStart).startsWith("==="));
   const isBoulderPosition = (position) => {
     if (info?.name === "info boulderområde") return true;
     const context = [...topLevelHeadings].reverse().find((section) => section.sourceStart < position);
     return Boolean(context && /boulder/i.test(context.title));
   };
-  const routeTemplates = templates.filter((template) => template.name === "led" || template.name === "problem");
   const routes = routeTemplates
     .map((template, index) => {
       const sector = sectionAt(sections, template.start);
@@ -264,9 +320,22 @@ function parseArea(filename, source, uniqueSlug) {
         && (!nextImageInSector || template.start < (nextImageInSector.index ?? source.length))
         && routes[routeIndex]?.sectorId === sector?.id ? [routes[routeIndex].id] : []);
       if (relatedRoute && !groupedRouteIds.includes(relatedRoute.id)) groupedRouteIds.unshift(relatedRoute.id);
+      const enrichment = topoEnrichment.get(`${uniqueSlug}/${filename.toLocaleLowerCase("sv")}`);
+      const visionRouteIds = enrichment?.confidence >= 0.85
+        ? (enrichment.visibleRouteNumbers || []).flatMap((number) => routes.filter((route) => route.sectorId === sector?.id && route.number?.trim().toLocaleLowerCase("sv") === String(number).trim().toLocaleLowerCase("sv")).map((route) => route.id))
+        : [];
+      const routeIds = [...new Set([...groupedRouteIds, ...visionRouteIds])];
+      const routeRelations = routeIds.map((routeId) => visionRouteIds.includes(routeId)
+        ? { routeId, method: "vision", confidence: enrichment.confidence, evidence: enrichment.evidence }
+        : relatedRoute?.id === routeId
+          ? { routeId, method: "filename", confidence: 0.95, evidence: "Lednamnet återfinns i originalfilens bildnamn." }
+          : { routeId, method: "source-order", confidence: 0.72, evidence: "Leden följer bilden före nästa bild i samma originalsektion." });
       const cleanedFilename = path.basename(filename, path.extname(filename)).replaceAll("_", " ").replace(new RegExp(`^${name.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}\\s*`, "i"), "").trim();
       const fallbackCaption = relatedRoute?.name || (/^\d*$/.test(cleanedFilename) || cleanedFilename.length < 3 ? `${sector?.title || "Området"} · foto` : cleanedFilename);
-      return { filename, caption: plainText(caption) || fallbackCaption || "Översiktsbild", missing: !imageIndex.has(filename.toLowerCase()), sectorId: sector?.id || null, routeIds: groupedRouteIds };
+      const image = { filename, caption: plainText(caption) || enrichment?.title || fallbackCaption || "Översiktsbild", missing: !imageIndex.has(filename.toLowerCase()), sectorId: sector?.id || null, routeIds };
+      if (enrichment) Object.assign(image, { imageKind: enrichment.imageKind, routeRelations });
+      else if (relatedRoute) Object.assign(image, { routeRelations: routeRelations.filter((relation) => relation.method === "filename") });
+      return image;
     });
   const accessTemplate = templates.find((template) => template.name === "accessdb");
   const externalLinks = [];
@@ -295,7 +364,11 @@ function parseArea(filename, source, uniqueSlug) {
     description,
     coordinates: coordinatesValid ? { latitude, longitude } : null,
     categories: [...new Set(categories)].sort((a, b) => a.localeCompare(b, "sv")),
-    sections: sections.map((section) => ({ id: section.id, title: section.title, body: section.body })),
+    sections: sections.map((section) => {
+      const published = { id: section.id, title: section.title, body: section.body };
+      if (section.blocks.some((block) => block.kind !== "paragraph")) Object.assign(published, { blocks: section.blocks });
+      return published;
+    }),
     routes,
     images,
     externalLinks,
@@ -329,6 +402,10 @@ try {
     publishedProposals.set(proposal.area, entries);
   }
 } catch { /* Ett nytt repo har ännu inga ändringsförslag. */ }
+try {
+  const enrichment = JSON.parse(await readFile(path.join(contentRoot, "enrichment", "topo-relations.json"), "utf8"));
+  for (const [key, value] of Object.entries(enrichment.images || {})) topoEnrichment.set(key.toLocaleLowerCase("sv"), value);
+} catch { /* LLM-berikning är valfri; grundimporten är alltid reproducerbar. */ }
 const files = (await readdir(inputDir)).filter((filename) => filename.toLowerCase().endsWith(".txt"));
 for (const filename of await readdir(path.join(repoRoot, "images"))) {
   imageIndex.set(filename.toLowerCase(), filename);

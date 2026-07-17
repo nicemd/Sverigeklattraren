@@ -50,6 +50,14 @@
       "sectorId": "leder",
       "routeIds": [
         "sprangvaggen-vid-grannaavfarten-fran-e4-led-1"
+      ],
+      "routeRelations": [
+        {
+          "routeId": "sprangvaggen-vid-grannaavfarten-fran-e4-led-1",
+          "method": "filename",
+          "confidence": 0.95,
+          "evidence": "Lednamnet återfinns i originalfilens bildnamn."
+        }
       ]
     }
   ],

@@ -22,17 +22,27 @@
     {
       "id": "access",
       "title": "Access",
-      "body": "Det råder totalt klätterförbud på Kungsberget.\nVänligen respektera det! Gästrike Klätterklubb (GKK) (http://www.gkk.nu/) för en diskussion med länsstyrelsen i Gävleborg om utökad access, förstör inte denna dialog."
+      "body": "Det råder totalt klätterförbud på Kungsberget.\n\nVänligen respektera det! Gästrike Klätterklubb (GKK) (http://www.gkk.nu/) för en diskussion med länsstyrelsen i Gävleborg om utökad access, förstör inte denna dialog.",
+      "blocks": [
+        {
+          "kind": "heading",
+          "text": "Det råder totalt klätterförbud på Kungsberget."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Vänligen respektera det! Gästrike Klätterklubb (GKK) (http://www.gkk.nu/) för en diskussion med länsstyrelsen i Gävleborg om utökad access, förstör inte denna dialog."
+        }
+      ]
     },
     {
       "id": "kommunikationer",
       "title": "Kommunikationer",
-      "body": "Med bil; man kör samma väg som till skidanläggningen Kungsberget, men\nca en km söder om denna svänger man vänster vid en skylt \"Norrby 2\".\nKlipporna skymtar nu mellan träden. Efter två km tar vägen slut vid en\nbondgård. Härifrån leder en röd snitslad stig upp till en skylt\n\"Grottorna\", men man fortsätter och kommer upp till lägerplatsen.\n\nMycket ungefärliga GPS-koordinater: Lat: N 60º 44' 59.41\" Long: E 16º 30' 35.99\""
+      "body": "Med bil; man kör samma väg som till skidanläggningen Kungsberget, men ca en km söder om denna svänger man vänster vid en skylt \"Norrby 2\". Klipporna skymtar nu mellan träden. Efter två km tar vägen slut vid en bondgård. Härifrån leder en röd snitslad stig upp till en skylt \"Grottorna\", men man fortsätter och kommer upp till lägerplatsen.\n\nMycket ungefärliga GPS-koordinater: Lat: N 60º 44' 59.41\" Long: E 16º 30' 35.99\""
     },
     {
       "id": "vaggen",
       "title": "Väggen",
-      "body": "Väggen är en sydvägg och är av flera hundra meters längd. Högsta\nhöjden torde vara 20-25 m. En stor del av klipporna är mycket mossiga.\nDet finns några trevliga grottor alldeles vid lägerplatsen. Området är\nett naturreservat, och totalt klätterförbud råder."
+      "body": "Väggen är en sydvägg och är av flera hundra meters längd. Högsta höjden torde vara 20-25 m. En stor del av klipporna är mycket mossiga. Det finns några trevliga grottor alldeles vid lägerplatsen. Området är ett naturreservat, och totalt klätterförbud råder."
     }
   ],
   "routes": [],
@@ -45,7 +55,7 @@
     }
   ],
   "access": {
-    "legacyText": "Det råder totalt klätterförbud på Kungsberget.\nVänligen respektera det! Gästrike Klätterklubb (GKK) (http://www.gkk.nu/) för en diskussion med länsstyrelsen i Gävleborg om utökad access, förstör inte denna dialog.",
+    "legacyText": "Det råder totalt klätterförbud på Kungsberget.\n\nVänligen respektera det! Gästrike Klätterklubb (GKK) (http://www.gkk.nu/) för en diskussion med länsstyrelsen i Gävleborg om utökad access, förstör inte denna dialog.",
     "federationSlug": null
   },
   "qualityIssues": [],

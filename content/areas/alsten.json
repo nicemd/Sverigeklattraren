@@ -20,12 +20,22 @@
     {
       "id": "gammal-forare",
       "title": "Gammal förare",
-      "body": "Plonks orginal förare (http://plonk.se/oldsite/foraren/alsten/alsten.gif)\nFlera av problemen har sedan Plonks sammanfattning sett sina förstabestigningar samt tillkomst av nya(?). Nedan är en textsammanfattning från forum/scorecards av vad som är dagsaktuellt. Komplettera gärna med vad du vet."
+      "body": "Plonks orginal förare (http://plonk.se/oldsite/foraren/alsten/alsten.gif) Flera av problemen har sedan Plonks sammanfattning sett sina förstabestigningar samt tillkomst av nya(?). Nedan är en textsammanfattning från forum/scorecards av vad som är dagsaktuellt. Komplettera gärna med vad du vet."
     },
     {
       "id": "uppdatering",
       "title": "Uppdatering",
-      "body": "Ålstensskogen\nÅlstensskogen vänstra sidan (http://27crags.com/crags/alsten/topos/alstensskogen-vanstra)\nÅlstensskogen högra sidan (http://27crags.com/crags/alsten/topos/alstensskogen-hogra) Bör finnas många problem längs väggen. Parkering på Per Albins väg, följ stora stigen 75 m längs med vattnet på andra sidan ängen. Samma stig åt andra hållet går till Ålstensblocket.\n\nStarta på den horisontella pinchen.\nÅlsten\nLägger till några bilder.\nDen branta sidan, den som vetter mot parkeringen, och de problem som går där.\nFrån vänster: Lila: Karlsson Arete, 7A Gula: Feta sprickan, 5+,6A Röda: Ladugårdsdörr, 6B Svart: Disel, 7B+ Ljusröd: Paladinos Arete, 6C, 7A Grön: Lite Kraft 6B\nMindre Branta sidan:\nPesto, 6B Gul: Slör, 6A Vit.\nKarlssons Arete till Höger\nBluto:Projektet bortanför Bluto"
+      "body": "Ålstensskogen\n\nÅlstensskogen vänstra sidan (http://27crags.com/crags/alsten/topos/alstensskogen-vanstra) Ålstensskogen högra sidan (http://27crags.com/crags/alsten/topos/alstensskogen-hogra) Bör finnas många problem längs väggen. Parkering på Per Albins väg, följ stora stigen 75 m längs med vattnet på andra sidan ängen. Samma stig åt andra hållet går till Ålstensblocket.",
+      "blocks": [
+        {
+          "kind": "heading",
+          "text": "Ålstensskogen"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Ålstensskogen vänstra sidan (http://27crags.com/crags/alsten/topos/alstensskogen-vanstra) Ålstensskogen högra sidan (http://27crags.com/crags/alsten/topos/alstensskogen-hogra) Bör finnas många problem längs väggen. Parkering på Per Albins väg, följ stora stigen 75 m längs med vattnet på andra sidan ängen. Samma stig åt andra hållet går till Ålstensblocket."
+        }
+      ]
     }
   ],
   "routes": [
@@ -340,6 +350,14 @@
       "sectorId": "uppdatering",
       "routeIds": [
         "alsten-problem-9"
+      ],
+      "routeRelations": [
+        {
+          "routeId": "alsten-problem-9",
+          "method": "filename",
+          "confidence": 0.95,
+          "evidence": "Lednamnet återfinns i originalfilens bildnamn."
+        }
       ]
     },
     {

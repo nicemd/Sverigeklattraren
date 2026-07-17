@@ -31,7 +31,7 @@
     {
       "id": "vagbeskrivning",
       "title": "Vägbeskrivning",
-      "body": "Parkera längs Gärdsåsgatan, Kamgatan.\nParkera INTE vid återvinningsstationen på Ungmästaregatan, vilket angetts här tidigare.\nGå upp och ta vänster på Sockerbagaregatan. Gatan blir cykelväg, sedan ser du klippan."
+      "body": "Parkera längs Gärdsåsgatan, Kamgatan. Parkera INTE vid återvinningsstationen på Ungmästaregatan, vilket angetts här tidigare. Gå upp och ta vänster på Sockerbagaregatan. Gatan blir cykelväg, sedan ser du klippan."
     },
     {
       "id": "access",
@@ -858,6 +858,14 @@
       "sectorId": "introduktion",
       "routeIds": [
         "gardsas-led-27"
+      ],
+      "routeRelations": [
+        {
+          "routeId": "gardsas-led-27",
+          "method": "filename",
+          "confidence": 0.95,
+          "evidence": "Lednamnet återfinns i originalfilens bildnamn."
+        }
       ]
     }
   ],

@@ -26,12 +26,12 @@
     {
       "id": "vagbeskrivning",
       "title": "Vägbeskrivning",
-      "body": "Vägbeskrivning norrut på riksväg 71:\n\n1.7 km efter Dala-Järna, sväng höger mot Skålö.\n3.4 km från riksvägen sväng höger mot Vålbergsvägen och Fisklösskölen.\nFölj Hulnvägen och skyltar mot Fisklöskölen i 10 km och sväng sedan vänster.\nEfter ytterligare 2 km sväng vänster igen.\nFortsätt fram till skylt mot Kringelrisåsen och parkera där.\nGå sedan in i skogen på samma sida som skylten men 50 – 100 meter längre fram. Om du gått in på rätt ställe så kommer du passera en liten glänta med stora ljusa stenblock.\nFortsätt ca 500 meter och du bör se klippan."
+      "body": "Vägbeskrivning norrut på riksväg 71:\n\n1.7 km efter Dala-Järna, sväng höger mot Skålö. 3.4 km från riksvägen sväng höger mot Vålbergsvägen och Fisklösskölen. Följ Hulnvägen och skyltar mot Fisklöskölen i 10 km och sväng sedan vänster. Efter ytterligare 2 km sväng vänster igen. Fortsätt fram till skylt mot Kringelrisåsen och parkera där. Gå sedan in i skogen på samma sida som skylten men 50 – 100 meter längre fram. Om du gått in på rätt ställe så kommer du passera en liten glänta med stora ljusa stenblock. Fortsätt ca 500 meter och du bör se klippan."
     },
     {
       "id": "leder",
       "title": "Leder",
-      "body": ". Foto: Lars Svensson]]"
+      "body": ""
     }
   ],
   "routes": [
@@ -103,7 +103,7 @@
   "images": [
     {
       "filename": "Högerisåsendetrosabandet.jpg",
-      "caption": "Thomas Eriksson klättrar [[Det rosa bandet",
+      "caption": "Thomas Eriksson klättrar Det rosa bandet",
       "missing": false,
       "sectorId": "leder",
       "routeIds": [
@@ -111,6 +111,14 @@
         "hogerisasen-led-2",
         "hogerisasen-led-3",
         "hogerisasen-led-4"
+      ],
+      "routeRelations": [
+        {
+          "routeId": "hogerisasen-led-2",
+          "method": "filename",
+          "confidence": 0.95,
+          "evidence": "Lednamnet återfinns i originalfilens bildnamn."
+        }
       ]
     }
   ],

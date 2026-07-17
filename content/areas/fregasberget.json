@@ -49,12 +49,12 @@
     {
       "id": "centralvaggen",
       "title": "Centralväggen",
-      "body": "Centralväggen är Fregåsbergets högsta klippa. Här finns det vid skrivande stunden ca. 23 leder av hög kvalitet i olika svårigheter och stiler. Miljön är trivsamt, dock kan trafikbuller ibland vara irriterande. Se översiktskartan för placering och vägbeskrivning. I dagsläget saknas en detaljerad skiss för denna klippa.\n\nCurlie crankin hard på Craig's crack. Foto: Rikard Borres\n\nUlf bränner av Stora klöften. Foto: Rikard Borres"
+      "body": "Centralväggen är Fregåsbergets högsta klippa. Här finns det vid skrivande stunden ca. 23 leder av hög kvalitet i olika svårigheter och stiler. Miljön är trivsamt, dock kan trafikbuller ibland vara irriterande. Se översiktskartan för placering och vägbeskrivning. I dagsläget saknas en detaljerad skiss för denna klippa."
     },
     {
       "id": "siam-stenen",
       "title": "Siam-stenen",
-      "body": "Siam- stenen är det fristående pyramid-liknandeblocket nedanför stora grottan. Här finns det 2 bultade leder.\n\nPå en svaplatta cirka 15m till höger om Siam-stenen finns ytteliggare en kort fristående led."
+      "body": "Siam- stenen är det fristående pyramid-liknandeblocket nedanför stora grottan. Här finns det 2 bultade leder."
     },
     {
       "id": "smalavaggen",
@@ -64,7 +64,7 @@
     {
       "id": "gomdaklippan",
       "title": "Gömdaklippan",
-      "body": "En mycket trevlig liten klippväg som ligger lugnt och avskilt uppe i skogen. Lederna här är generellt kortare än vid centralväggen, dock saknas trafikljud vilket gör miljön mycket trivsam. I dagsläget finns det 17 leder här inklusive Mattias Flodins Jag hatar mig själv och jag vill dö 8+, bergets svåraste led.\n\nSpot-Squad send-fest på 2 för 1.\n\nFöljande leder finns på en vägg 20m till höger om The knife blocket:"
+      "body": "En mycket trevlig liten klippväg som ligger lugnt och avskilt uppe i skogen. Lederna här är generellt kortare än vid centralväggen, dock saknas trafikljud vilket gör miljön mycket trivsam. I dagsläget finns det 17 leder här inklusive Mattias Flodins Jag hatar mig själv och jag vill dö 8+, bergets svåraste led."
     }
   ],
   "routes": [
@@ -954,6 +954,14 @@
         "fregasberget-led-41",
         "fregasberget-led-42",
         "fregasberget-led-43"
+      ],
+      "routeRelations": [
+        {
+          "routeId": "fregasberget-led-38",
+          "method": "filename",
+          "confidence": 0.95,
+          "evidence": "Lednamnet återfinns i originalfilens bildnamn."
+        }
       ]
     },
     {

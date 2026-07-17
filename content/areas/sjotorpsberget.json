@@ -3,7 +3,7 @@
   "id": "sjotorpsberget",
   "slug": "sjotorpsberget",
   "name": "Sjötorpsberget",
-  "description": "Liten, brant klippa ca 1 km söder om Skogås pendeltågsstation. Den är 10-14 m hög och har ett antal ganska korta, men i vissa fall tämligen fina leder. En massa gamla militära befästningsverk bjuder på en del överraskningar.\nPå grund av närhet till bostadsområdet så är platsen tyvärr ganska nedskräpad. Så farligt är det dock inte, men det är ingen höjdarklippa att ta med krypande barn eller hundar till på grund av en del krossat glas.",
+  "description": "Liten, brant klippa ca 1 km söder om Skogås pendeltågsstation. Den är 10-14 m hög och har ett antal ganska korta, men i vissa fall tämligen fina leder. En massa gamla militära befästningsverk bjuder på en del överraskningar. På grund av närhet till bostadsområdet så är platsen tyvärr ganska nedskräpad. Så farligt är det dock inte, men det är ingen höjdarklippa att ta med krypande barn eller hundar till på grund av en del krossat glas.",
   "coordinates": {
     "latitude": 59.21117,
     "longitude": 18.15954
@@ -18,7 +18,7 @@
     {
       "id": "allmant",
       "title": "Allmänt",
-      "body": "Liten, brant klippa ca 1 km söder om Skogås pendeltågsstation. Den är 10-14 m hög och har ett antal ganska korta, men i vissa fall tämligen fina leder. En massa gamla militära befästningsverk bjuder på en del överraskningar.\nPå grund av närhet till bostadsområdet så är platsen tyvärr ganska nedskräpad. Så farligt är det dock inte, men det är ingen höjdarklippa att ta med krypande barn eller hundar till på grund av en del krossat glas."
+      "body": "Liten, brant klippa ca 1 km söder om Skogås pendeltågsstation. Den är 10-14 m hög och har ett antal ganska korta, men i vissa fall tämligen fina leder. En massa gamla militära befästningsverk bjuder på en del överraskningar. På grund av närhet till bostadsområdet så är platsen tyvärr ganska nedskräpad. Så farligt är det dock inte, men det är ingen höjdarklippa att ta med krypande barn eller hundar till på grund av en del krossat glas."
     },
     {
       "id": "miljo",
@@ -600,6 +600,14 @@
       "sectorId": null,
       "routeIds": [
         "sjotorpsberget-led-19"
+      ],
+      "routeRelations": [
+        {
+          "routeId": "sjotorpsberget-led-19",
+          "method": "filename",
+          "confidence": 0.95,
+          "evidence": "Lednamnet återfinns i originalfilens bildnamn."
+        }
       ]
     },
     {

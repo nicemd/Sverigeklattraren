@@ -52,12 +52,12 @@
     {
       "id": "skivblocket",
       "title": "Skivblocket",
-      "body": "Mellan Kristallväggen och Cliff Digger finns en ny klippa som varken är med på översikten eller har en topo.\nDen ligger ca 50 meter nedströms från Kristallväggen och har tre turer i nuläget."
+      "body": "Mellan Kristallväggen och Cliff Digger finns en ny klippa som varken är med på översikten eller har en topo. Den ligger ca 50 meter nedströms från Kristallväggen och har tre turer i nuläget."
     },
     {
       "id": "rymdvaggen",
       "title": "Rymdväggen",
-      "body": "Mellan Skivblocket och Cliff Digger väggen finns en klippa som varken är med på översikten eller har en topo.\nFrån toppen av Cliff digger väggen går en stig ovanför ravinen mot Kristallväggen. Fälj denna till en fin utsiktsplats med eldstad. Väggen ligger precis nedanför. Nedstigning till vänster (med ansiktet mot ravinen) till en smal gräshylla. 2 leder börjar från hyllan och 2 leder ligger nedanför hyllan."
+      "body": "Mellan Skivblocket och Cliff Digger väggen finns en klippa som varken är med på översikten eller har en topo. Från toppen av Cliff digger väggen går en stig ovanför ravinen mot Kristallväggen. Fälj denna till en fin utsiktsplats med eldstad. Väggen ligger precis nedanför. Nedstigning till vänster (med ansiktet mot ravinen) till en smal gräshylla. 2 leder börjar från hyllan och 2 leder ligger nedanför hyllan."
     },
     {
       "id": "cliff-digger",
@@ -937,6 +937,14 @@
       "sectorId": null,
       "routeIds": [
         "soffabacken-led-35"
+      ],
+      "routeRelations": [
+        {
+          "routeId": "soffabacken-led-35",
+          "method": "filename",
+          "confidence": 0.95,
+          "evidence": "Lednamnet återfinns i originalfilens bildnamn."
+        }
       ]
     },
     {
@@ -970,6 +978,14 @@
         "soffabacken-led-15",
         "soffabacken-led-16",
         "soffabacken-led-17"
+      ],
+      "routeRelations": [
+        {
+          "routeId": "soffabacken-led-16",
+          "method": "filename",
+          "confidence": 0.95,
+          "evidence": "Lednamnet återfinns i originalfilens bildnamn."
+        }
       ]
     },
     {
@@ -986,6 +1002,14 @@
         "soffabacken-led-23",
         "soffabacken-led-24",
         "soffabacken-led-25"
+      ],
+      "routeRelations": [
+        {
+          "routeId": "soffabacken-led-21",
+          "method": "filename",
+          "confidence": 0.95,
+          "evidence": "Lednamnet återfinns i originalfilens bildnamn."
+        }
       ]
     },
     {
@@ -996,6 +1020,14 @@
       "routeIds": [
         "soffabacken-led-26",
         "soffabacken-led-27"
+      ],
+      "routeRelations": [
+        {
+          "routeId": "soffabacken-led-26",
+          "method": "filename",
+          "confidence": 0.95,
+          "evidence": "Lednamnet återfinns i originalfilens bildnamn."
+        }
       ]
     },
     {
@@ -1010,6 +1042,14 @@
         "soffabacken-led-31",
         "soffabacken-led-32",
         "soffabacken-led-33"
+      ],
+      "routeRelations": [
+        {
+          "routeId": "soffabacken-led-30",
+          "method": "filename",
+          "confidence": 0.95,
+          "evidence": "Lednamnet återfinns i originalfilens bildnamn."
+        }
       ]
     },
     {
@@ -1069,6 +1109,14 @@
         "soffabacken-led-50",
         "soffabacken-led-51",
         "soffabacken-led-52"
+      ],
+      "routeRelations": [
+        {
+          "routeId": "soffabacken-led-51",
+          "method": "filename",
+          "confidence": 0.95,
+          "evidence": "Lednamnet återfinns i originalfilens bildnamn."
+        }
       ]
     }
   ],

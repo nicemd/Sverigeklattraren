@@ -95,7 +95,13 @@
     {
       "id": "privat-tomtmark",
       "title": "Privat tomtmark",
-      "body": "Klättra inte på dessa väggar!"
+      "body": "Klättra inte på dessa väggar!",
+      "blocks": [
+        {
+          "kind": "heading",
+          "text": "Klättra inte på dessa väggar!"
+        }
+      ]
     },
     {
       "id": "tvabultsvaggen",
@@ -293,7 +299,7 @@
       "grade": "4+",
       "length": "17",
       "type": "",
-      "firstAscent": "okänd [[-83]]",
+      "firstAscent": "okänd -83",
       "description": "",
       "sectorId": "forsta-taket",
       "source": {
@@ -1227,6 +1233,14 @@
         "ostnoraberget-led-50",
         "ostnoraberget-led-51",
         "ostnoraberget-led-52"
+      ],
+      "routeRelations": [
+        {
+          "routeId": "ostnoraberget-led-52",
+          "method": "filename",
+          "confidence": 0.95,
+          "evidence": "Lednamnet återfinns i originalfilens bildnamn."
+        }
       ]
     },
     {

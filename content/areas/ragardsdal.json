@@ -32,7 +32,16 @@
     {
       "id": "access",
       "title": "Access",
-      "body": "• Tänk på ljudnivån med hänsyn till närboende.\n• Parkera bara vid hamnen, och kör absolut inte in till klippan på grusvägen."
+      "body": "• Tänk på ljudnivån med hänsyn till närboende.\n• Parkera bara vid hamnen, och kör absolut inte in till klippan på grusvägen.",
+      "blocks": [
+        {
+          "kind": "list",
+          "items": [
+            "Tänk på ljudnivån med hänsyn till närboende.",
+            "Parkera bara vid hamnen, och kör absolut inte in till klippan på grusvägen."
+          ]
+        }
+      ]
     }
   ],
   "routes": [

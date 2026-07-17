@@ -200,11 +200,19 @@
     },
     {
       "filename": "Gelin_Karelin-1.jpg",
-      "caption": "Bekväm \"roadside\" cragging. Micke Blixt hänger loss på [[Gelin Karelin",
+      "caption": "Bekväm \"roadside\" cragging. Micke Blixt hänger loss på Gelin Karelin",
       "missing": false,
       "sectorId": null,
       "routeIds": [
         "bilprovningen-led-3"
+      ],
+      "routeRelations": [
+        {
+          "routeId": "bilprovningen-led-3",
+          "method": "filename",
+          "confidence": 0.95,
+          "evidence": "Lednamnet återfinns i originalfilens bildnamn."
+        }
       ]
     },
     {

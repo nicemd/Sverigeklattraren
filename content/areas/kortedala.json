@@ -55,7 +55,7 @@
     {
       "id": "tardis-vaggen",
       "title": "TARDIS-väggen",
-      "body": "Fortsätter man 100 meter mer söderut dyker ytterligare en vägg upp, samma höjd och lutning som de övriga, men bredare. Hit tar man sig enklast från Dagjämningsgatan.\n\nFölj stigen från Dagjämningsgatan ner för backen tills du kommer till ett rostigt stängsel. Där ligger följande leder:\n\nDessa leder ligger ca 50 meter till höger om de föregående lederna:\n\nDessa leder ligger ca 50 meter till höger om föregående lederna, ungefär där stigen är som brantast:"
+      "body": "Fortsätter man 100 meter mer söderut dyker ytterligare en vägg upp, samma höjd och lutning som de övriga, men bredare. Hit tar man sig enklast från Dagjämningsgatan.\n\nFölj stigen från Dagjämningsgatan ner för backen tills du kommer till ett rostigt stängsel. Där ligger följande leder:"
     },
     {
       "id": "kalendervagen",
@@ -616,6 +616,14 @@
         "kortedala-led-15",
         "kortedala-led-16",
         "kortedala-led-17"
+      ],
+      "routeRelations": [
+        {
+          "routeId": "kortedala-led-11",
+          "method": "filename",
+          "confidence": 0.95,
+          "evidence": "Lednamnet återfinns i originalfilens bildnamn."
+        }
       ]
     },
     {
@@ -629,6 +637,14 @@
         "kortedala-led-20",
         "kortedala-led-21",
         "kortedala-led-22"
+      ],
+      "routeRelations": [
+        {
+          "routeId": "kortedala-led-22",
+          "method": "filename",
+          "confidence": 0.95,
+          "evidence": "Lednamnet återfinns i originalfilens bildnamn."
+        }
       ]
     }
   ],

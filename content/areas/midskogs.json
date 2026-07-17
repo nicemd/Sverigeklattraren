@@ -41,12 +41,47 @@
     {
       "id": "bouldering",
       "title": "Bouldering",
-      "body": "Det finns en del bouldering vid midskogsklippan. Alla problem finns inlagda på BIMBO (http://www.sverigeforaren.se/index.php/Kategori:Bimbo). De flesta boulderproblemen ligger på block nedanför Stora väggen.\n2008-02-25 fanns det\n• Totalt 64 problem\n• Upp till 5C 20 problem\n• 6A till 6C+ 33 problem\n• 7A till 7C+ 11 problem"
+      "body": "Det finns en del bouldering vid midskogsklippan. Alla problem finns inlagda på BIMBO (http://www.sverigeforaren.se/index.php/Kategori:Bimbo). De flesta boulderproblemen ligger på block nedanför Stora väggen.\n\n2008-02-25 fanns det\n\n• Totalt 64 problem\n• Upp till 5C 20 problem\n• 6A till 6C+ 33 problem\n• 7A till 7C+ 11 problem",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Det finns en del bouldering vid midskogsklippan. Alla problem finns inlagda på BIMBO (http://www.sverigeforaren.se/index.php/Kategori:Bimbo). De flesta boulderproblemen ligger på block nedanför Stora väggen."
+        },
+        {
+          "kind": "heading",
+          "text": "2008-02-25 fanns det"
+        },
+        {
+          "kind": "list",
+          "items": [
+            "Totalt 64 problem",
+            "Upp till 5C 20 problem",
+            "6A till 6C+ 33 problem",
+            "7A till 7C+ 11 problem"
+          ]
+        }
+      ]
     },
     {
       "id": "leder",
       "title": "Leder",
-      "body": "2011-05-12 fanns det\n• Totalt 86 leder\n• Upp till 5c 23 leder\n• 6a till 6c+ 38 leder\n• 7a till 7c+ 21 leder\n• 8a till 8c+ 4 leder"
+      "body": "2011-05-12 fanns det\n\n• Totalt 86 leder\n• Upp till 5c 23 leder\n• 6a till 6c+ 38 leder\n• 7a till 7c+ 21 leder\n• 8a till 8c+ 4 leder",
+      "blocks": [
+        {
+          "kind": "heading",
+          "text": "2011-05-12 fanns det"
+        },
+        {
+          "kind": "list",
+          "items": [
+            "Totalt 86 leder",
+            "Upp till 5c 23 leder",
+            "6a till 6c+ 38 leder",
+            "7a till 7c+ 21 leder",
+            "8a till 8c+ 4 leder"
+          ]
+        }
+      ]
     },
     {
       "id": "1-pelarvaggen",
@@ -1708,6 +1743,14 @@
         "midskogs-led-25",
         "midskogs-led-26",
         "midskogs-led-27"
+      ],
+      "routeRelations": [
+        {
+          "routeId": "midskogs-led-52",
+          "method": "filename",
+          "confidence": 0.95,
+          "evidence": "Lednamnet återfinns i originalfilens bildnamn."
+        }
       ]
     },
     {

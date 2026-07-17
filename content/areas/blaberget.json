@@ -37,7 +37,7 @@
     {
       "id": "normalvagen",
       "title": "Normalvägen",
-      "body": "Från kusten på väg 92 via Bjurholm: Efter Balsjö kommer en flygraka. Efter flygrakan och ytterligare en lång raksträcka sväng vänster mot: Ö Nyland 2 km. Inne i byn svänger du vänster igen mot Bredträsk. Kör ca 1 km, och ta rakt fram i nästa korsning där en väg svänger av till höger mot Bredträsk. Efter en kort bit svänger du av mot vänster på en liten skogsbilväg.\n\nHåll vänster i Y-korsningen efter ett par kilometer.\n\nUngefär 4 km från det att man svänger in på skogsbilvägen ligger Blåberget. När du får syn på berget borde du också\nkunna se en liten parkering. Vid parkeringen går en tydlig stig som startar med en trapp upp mot klippan. Här finns även en liten bäck med dricksvatten. På väg upp mot klippan passeras en platå med vindskydd, eldstad, utedass och tältplatser.\n\nFör att hitta till lilla väggen följ skyltningen, korsta bron och följ sedan blå snittsling. Ungefär 100 meter efter bron så dyker en stig upp mot höger, tag av på den och följ den i 40 meter uppåt backen, sväng sedan vänster på en tunn stig. Se även karta nedan"
+      "body": "Från kusten på väg 92 via Bjurholm: Efter Balsjö kommer en flygraka. Efter flygrakan och ytterligare en lång raksträcka sväng vänster mot: Ö Nyland 2 km. Inne i byn svänger du vänster igen mot Bredträsk. Kör ca 1 km, och ta rakt fram i nästa korsning där en väg svänger av till höger mot Bredträsk. Efter en kort bit svänger du av mot vänster på en liten skogsbilväg.\n\nHåll vänster i Y-korsningen efter ett par kilometer.\n\nUngefär 4 km från det att man svänger in på skogsbilvägen ligger Blåberget. När du får syn på berget borde du också kunna se en liten parkering. Vid parkeringen går en tydlig stig som startar med en trapp upp mot klippan. Här finns även en liten bäck med dricksvatten. På väg upp mot klippan passeras en platå med vindskydd, eldstad, utedass och tältplatser.\n\nFör att hitta till lilla väggen följ skyltningen, korsta bron och följ sedan blå snittsling. Ungefär 100 meter efter bron så dyker en stig upp mot höger, tag av på den och följ den i 40 meter uppåt backen, sväng sedan vänster på en tunn stig. Se även karta nedan"
     },
     {
       "id": "alternativ-vag",
@@ -52,12 +52,12 @@
     {
       "id": "bilder",
       "title": "Bilder",
-      "body": "]]\nFredrik Nybergs bilder från Blåberget (http://www.flickr.com/search/?q=bl%C3%A5berget&w=12641780%40N07)."
+      "body": "Fredrik Nybergs bilder från Blåberget (http://www.flickr.com/search/?q=bl%C3%A5berget&w=12641780%40N07)."
     },
     {
       "id": "nya-leder",
       "title": "Nya leder",
-      "body": "Nya leder, och leder som friats sedan senaste utgåvan av Umeföraren:\n\n. Kliv in via den smala hyllan från höger. Klipp första bulten med hjälp av en pinne (ytterligare en bult skall slås senare). Inget ankare för närvarande så toppa ut på hyllan ovan. Det finns gott om träd att fira av från.\n\nmen traversera ut höger till ytterhörnet och följ bultar upp till hyllan"
+      "body": "Nya leder, och leder som friats sedan senaste utgåvan av Umeföraren:"
     },
     {
       "id": "rekommenderade-leder",
@@ -122,7 +122,7 @@
     {
       "id": "directions",
       "title": "Directions",
-      "body": "From Umeå drive E12 west towards Vännes. After passing Vännesby take road 92 towards Bjurholm/Fredrika. After passing Balsjö there is are two long straightways. A short while after the second one there is a road sign pointing left towards Ö Nyland. Follow that road to the tiny village where you go left towards Bredträsk. Continue on that road for 1 km until the first crossing. Take left and continue for some 2-300 meters until you see a tiny logging road on the left. Follow that logging road for 4 km until you see the cliff on the right side. There is ample parking on both sides of the road.\nFrom the parking lot you follow a well worn trail up to the cliff."
+      "body": "From Umeå drive E12 west towards Vännes. After passing Vännesby take road 92 towards Bjurholm/Fredrika. After passing Balsjö there is are two long straightways. A short while after the second one there is a road sign pointing left towards Ö Nyland. Follow that road to the tiny village where you go left towards Bredträsk. Continue on that road for 1 km until the first crossing. Take left and continue for some 2-300 meters until you see a tiny logging road on the left. Follow that logging road for 4 km until you see the cliff on the right side. There is ample parking on both sides of the road. From the parking lot you follow a well worn trail up to the cliff."
     },
     {
       "id": "season",
@@ -760,6 +760,14 @@
       "sectorId": "bilder",
       "routeIds": [
         "blaberget-led-26"
+      ],
+      "routeRelations": [
+        {
+          "routeId": "blaberget-led-26",
+          "method": "filename",
+          "confidence": 0.95,
+          "evidence": "Lednamnet återfinns i originalfilens bildnamn."
+        }
       ]
     }
   ],

@@ -29,7 +29,7 @@
     {
       "id": "beskrivning",
       "title": "Beskrivning",
-      "body": "En förare över Dye boulder skapades av Martin Kristiansson 2004.\nTexten på denna sida är till största del hämtat från detta alster.\n\nTill skillnad mot andra boulderställen i Karlstad som Färjestad och Hästspåret är Dyes karaktär av ett annat slag. Om utveckling av färdigheter som teknik, tassighet, balans och finlir erbjuds vid Färjestad och Hästspåret, så erbjuder dye mer kroppsstyrka, kontaktstyrka, pump och \"jävlar anamma\".\n\nDye är kompakt, då alla problem är gjorde på en och samma \"sten\". Stenens höjd är 2-3 meter och dess längd uppskattas till ungefär 60 meter +- någon meter i ändarna. De flesta problemen är sittstarter med mer eller mindre grad av överhängande lutning (vanligtvis mer än midre), går ut över en \"läpp\" och avslutas med något \"svaiga\" utsteg. Detta om man klättrar uppåt. Stenen erbjuder också fina traverser med en hel del heelhookarbete och pump i underarmarna.\n\n40 minuter med målinriktade övningar (en blandning av problem och traverser) kan göra dig ordentligt mör.\n\nLandningarna är generellt bra. Platt berg eller stubbe är dina största problem. Då flera avslut är krångliga mantlingar och/eller heelhooks över kant, så kan en spotter vara behövlig så du inte trillar med huvudet först.\n\nGraderna bör betraktas som något ofullständiga då de genomgått en konvertering från V-grader till fontangrader samt att vissa problem ej repeterats i tillräckligt stor omfattning för att anses vara helt tillförlitliga.\n\nTraverserna beskrivs med franska ledgrader. Problemen \"uppåt\" beskrivs med fontangrader.\n\nFör att enklare kunna hitta vid klippan har man medvetet skrivit in mycket text vid varje problem.\nOm DU anser att detta är för mycket beta, så flytta denna information till varje problem. Dvs, gör så att man måste klicka på problemet för att ta till sig denna information."
+      "body": "En förare över Dye boulder skapades av Martin Kristiansson 2004. Texten på denna sida är till största del hämtat från detta alster.\n\nTill skillnad mot andra boulderställen i Karlstad som Färjestad och Hästspåret är Dyes karaktär av ett annat slag. Om utveckling av färdigheter som teknik, tassighet, balans och finlir erbjuds vid Färjestad och Hästspåret, så erbjuder dye mer kroppsstyrka, kontaktstyrka, pump och \"jävlar anamma\".\n\nDye är kompakt, då alla problem är gjorde på en och samma \"sten\". Stenens höjd är 2-3 meter och dess längd uppskattas till ungefär 60 meter +- någon meter i ändarna. De flesta problemen är sittstarter med mer eller mindre grad av överhängande lutning (vanligtvis mer än midre), går ut över en \"läpp\" och avslutas med något \"svaiga\" utsteg. Detta om man klättrar uppåt. Stenen erbjuder också fina traverser med en hel del heelhookarbete och pump i underarmarna.\n\n40 minuter med målinriktade övningar (en blandning av problem och traverser) kan göra dig ordentligt mör.\n\nLandningarna är generellt bra. Platt berg eller stubbe är dina största problem. Då flera avslut är krångliga mantlingar och/eller heelhooks över kant, så kan en spotter vara behövlig så du inte trillar med huvudet först.\n\nGraderna bör betraktas som något ofullständiga då de genomgått en konvertering från V-grader till fontangrader samt att vissa problem ej repeterats i tillräckligt stor omfattning för att anses vara helt tillförlitliga.\n\nTraverserna beskrivs med franska ledgrader. Problemen \"uppåt\" beskrivs med fontangrader.\n\nFör att enklare kunna hitta vid klippan har man medvetet skrivit in mycket text vid varje problem. Om DU anser att detta är för mycket beta, så flytta denna information till varje problem. Dvs, gör så att man måste klicka på problemet för att ta till sig denna information."
     },
     {
       "id": "sektioner",
@@ -39,7 +39,7 @@
     {
       "id": "traverser",
       "title": "Traverser",
-      "body": "Övrigt: Traverserna har i föraren begränsats till antal. Du kan med god tillförsikt variera dig inom traverssystemet och på så vis sätta ihop egna traverser som extra krydda på tillvaron."
+      "body": ""
     },
     {
       "id": "omrade-a",
@@ -696,6 +696,14 @@
       "sectorId": "vagbeskrivning",
       "routeIds": [
         "dye-problem-17"
+      ],
+      "routeRelations": [
+        {
+          "routeId": "dye-problem-17",
+          "method": "filename",
+          "confidence": 0.95,
+          "evidence": "Lednamnet återfinns i originalfilens bildnamn."
+        }
       ]
     },
     {
@@ -705,6 +713,14 @@
       "sectorId": "beskrivning",
       "routeIds": [
         "dye-problem-17"
+      ],
+      "routeRelations": [
+        {
+          "routeId": "dye-problem-17",
+          "method": "filename",
+          "confidence": 0.95,
+          "evidence": "Lednamnet återfinns i originalfilens bildnamn."
+        }
       ]
     },
     {

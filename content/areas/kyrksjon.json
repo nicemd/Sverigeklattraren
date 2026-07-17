@@ -3,7 +3,7 @@
   "id": "kyrksjon",
   "slug": "kyrksjon",
   "name": "Kyrksjön",
-  "description": "Från Brommaplan: kör Spångavägen cirka 2 km till rondellen där Spångavägen möter Gliavägen och Vultejusvägen. Sväng vänster in på Vultejusvägen och fortsätt cirka 100 m. Där villorna slutar och skogen tar vid går det in en gång- och cykelstig till vänster. Det går att parkera 50 m längre fram t h vid Ängby IP. Följ gång- och cykelstigen tills den grenar sig som ett Y. Följ den vänstra grenen ytterligare cirka 50 m. Där stigen kröker åt höger finns en parkbänk nedanför en bergknalle. Följ bergsbranten åt vänster (norrut) så hittar du klippan 30-40 meter in i skogen.\nKommunalt:\nT-bana till Brommaplan. Buss 117 mot Spånga station, avstigning vid hållplats Vultejusvägen. Följ sedan Vultejusvägen enl. vägbeskrivningen ovan.",
+  "description": "Från Brommaplan: kör Spångavägen cirka 2 km till rondellen där Spångavägen möter Gliavägen och Vultejusvägen. Sväng vänster in på Vultejusvägen och fortsätt cirka 100 m. Där villorna slutar och skogen tar vid går det in en gång- och cykelstig till vänster. Det går att parkera 50 m längre fram t h vid Ängby IP. Följ gång- och cykelstigen tills den grenar sig som ett Y. Följ den vänstra grenen ytterligare cirka 50 m. Där stigen kröker åt höger finns en parkbänk nedanför en bergknalle. Följ bergsbranten åt vänster (norrut) så hittar du klippan 30-40 meter in i skogen.\n\nKommunalt:\n\nT-bana till Brommaplan. Buss 117 mot Spånga station, avstigning vid hållplats Vultejusvägen. Följ sedan Vultejusvägen enl. vägbeskrivningen ovan.",
   "coordinates": {
     "latitude": 59.351893,
     "longitude": 17.915847
@@ -16,7 +16,21 @@
     {
       "id": "vagbeskrivning",
       "title": "Vägbeskrivning",
-      "body": "Från Brommaplan: kör Spångavägen cirka 2 km till rondellen där Spångavägen möter Gliavägen och Vultejusvägen. Sväng vänster in på Vultejusvägen och fortsätt cirka 100 m. Där villorna slutar och skogen tar vid går det in en gång- och cykelstig till vänster. Det går att parkera 50 m längre fram t h vid Ängby IP. Följ gång- och cykelstigen tills den grenar sig som ett Y. Följ den vänstra grenen ytterligare cirka 50 m. Där stigen kröker åt höger finns en parkbänk nedanför en bergknalle. Följ bergsbranten åt vänster (norrut) så hittar du klippan 30-40 meter in i skogen.\nKommunalt:\nT-bana till Brommaplan. Buss 117 mot Spånga station, avstigning vid hållplats Vultejusvägen. Följ sedan Vultejusvägen enl. vägbeskrivningen ovan."
+      "body": "Från Brommaplan: kör Spångavägen cirka 2 km till rondellen där Spångavägen möter Gliavägen och Vultejusvägen. Sväng vänster in på Vultejusvägen och fortsätt cirka 100 m. Där villorna slutar och skogen tar vid går det in en gång- och cykelstig till vänster. Det går att parkera 50 m längre fram t h vid Ängby IP. Följ gång- och cykelstigen tills den grenar sig som ett Y. Följ den vänstra grenen ytterligare cirka 50 m. Där stigen kröker åt höger finns en parkbänk nedanför en bergknalle. Följ bergsbranten åt vänster (norrut) så hittar du klippan 30-40 meter in i skogen.\n\nKommunalt:\n\nT-bana till Brommaplan. Buss 117 mot Spånga station, avstigning vid hållplats Vultejusvägen. Följ sedan Vultejusvägen enl. vägbeskrivningen ovan.",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Från Brommaplan: kör Spångavägen cirka 2 km till rondellen där Spångavägen möter Gliavägen och Vultejusvägen. Sväng vänster in på Vultejusvägen och fortsätt cirka 100 m. Där villorna slutar och skogen tar vid går det in en gång- och cykelstig till vänster. Det går att parkera 50 m längre fram t h vid Ängby IP. Följ gång- och cykelstigen tills den grenar sig som ett Y. Följ den vänstra grenen ytterligare cirka 50 m. Där stigen kröker åt höger finns en parkbänk nedanför en bergknalle. Följ bergsbranten åt vänster (norrut) så hittar du klippan 30-40 meter in i skogen."
+        },
+        {
+          "kind": "heading",
+          "text": "Kommunalt:"
+        },
+        {
+          "kind": "paragraph",
+          "text": "T-bana till Brommaplan. Buss 117 mot Spånga station, avstigning vid hållplats Vultejusvägen. Följ sedan Vultejusvägen enl. vägbeskrivningen ovan."
+        }
+      ]
     },
     {
       "id": "skiss",

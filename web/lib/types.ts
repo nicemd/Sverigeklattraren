@@ -41,9 +41,24 @@ export type AreaSummary = {
 
 export type Area = Omit<AreaSummary, "routeCount" | "imageCount" | "accessSlug" | "searchText"> & {
   schemaVersion: number;
-  sections: Array<{ id: string; title: string; body: string; sourceStart?: number; sourceEnd?: number }>;
+  sections: Array<{
+    id: string;
+    title: string;
+    body: string;
+    blocks?: Array<{ kind: "heading" | "paragraph"; text: string } | { kind: "list"; items: string[] }>;
+    sourceStart?: number;
+    sourceEnd?: number;
+  }>;
   routes: Route[];
-  images: Array<{ filename: string; caption: string; missing?: boolean; sectorId?: string | null; routeIds?: string[] }>;
+  images: Array<{
+    filename: string;
+    caption: string;
+    missing?: boolean;
+    sectorId?: string | null;
+    imageKind?: "topo" | "photo" | "map" | "other" | "unknown";
+    routeIds?: string[];
+    routeRelations?: Array<{ routeId: string; method: "source-order" | "filename" | "vision"; confidence: number; evidence: string }>;
+  }>;
   externalLinks?: Array<{ url: string; label: string; sectionId?: string | null }>;
   access: { legacyText: string | null; federationSlug: string | null };
   qualityIssues: Array<{ code: string; message: string }>;

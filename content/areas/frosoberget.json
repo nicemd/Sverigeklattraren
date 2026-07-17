@@ -78,7 +78,7 @@
     {
       "id": "piasavavaggen",
       "title": "Piasavaväggen",
-      "body": "Led nr två till nio går under en lång takformation.\n\n12. Projekt (-04)\n\n23.\n(-04 )\n\n24.\n(-04 )"
+      "body": "Led nr två till nio går under en lång takformation."
     },
     {
       "id": "morsans-omrade",
@@ -88,7 +88,7 @@
     {
       "id": "degagementvaggen",
       "title": "Degagementväggen",
-      "body": "Led 12 till 18 går från en hylla. Följ hyllsystemet t.h om centralpelaren till du hittar ett fast repLed 12 till 14 börjar från stubben med repet och upp t.v."
+      "body": ""
     },
     {
       "id": "gummans-vagg",
@@ -98,7 +98,7 @@
     {
       "id": "frosotaket",
       "title": "Frösötaket",
-      "body": "De tre följande lederna går ovanför ett stort block på marken"
+      "body": ""
     },
     {
       "id": "kilturer",
@@ -482,7 +482,7 @@
       "grade": "7?",
       "length": "",
       "type": "sport",
-      "firstAscent": "[[]] -",
+      "firstAscent": "-",
       "description": "",
       "sectorId": "mitten",
       "source": {
@@ -514,7 +514,7 @@
       "grade": "7-",
       "length": "20",
       "type": "sport",
-      "firstAscent": "[[]] -",
+      "firstAscent": "-",
       "description": "Svårt att klippa första bult, en del gör detta med en fuskpinne.",
       "sectorId": "mitten",
       "source": {
@@ -4051,6 +4051,14 @@
         "frosoberget-led-14",
         "frosoberget-led-15",
         "frosoberget-led-16"
+      ],
+      "routeRelations": [
+        {
+          "routeId": "frosoberget-led-37",
+          "method": "filename",
+          "confidence": 0.95,
+          "evidence": "Lednamnet återfinns i originalfilens bildnamn."
+        }
       ]
     },
     {
@@ -4078,6 +4086,14 @@
         "frosoberget-led-32",
         "frosoberget-led-33",
         "frosoberget-led-34"
+      ],
+      "routeRelations": [
+        {
+          "routeId": "frosoberget-led-37",
+          "method": "filename",
+          "confidence": 0.95,
+          "evidence": "Lednamnet återfinns i originalfilens bildnamn."
+        }
       ]
     },
     {
@@ -4105,6 +4121,14 @@
         "frosoberget-led-51",
         "frosoberget-led-52",
         "frosoberget-led-53"
+      ],
+      "routeRelations": [
+        {
+          "routeId": "frosoberget-led-37",
+          "method": "filename",
+          "confidence": 0.95,
+          "evidence": "Lednamnet återfinns i originalfilens bildnamn."
+        }
       ]
     },
     {

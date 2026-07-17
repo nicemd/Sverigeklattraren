@@ -123,6 +123,14 @@
         "nedansjo-skolesklevarna-led-2",
         "nedansjo-skolesklevarna-led-3",
         "nedansjo-skolesklevarna-led-4"
+      ],
+      "routeRelations": [
+        {
+          "routeId": "nedansjo-skolesklevarna-led-1",
+          "method": "filename",
+          "confidence": 0.95,
+          "evidence": "Lednamnet återfinns i originalfilens bildnamn."
+        }
       ]
     },
     {

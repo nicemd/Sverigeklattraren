@@ -396,6 +396,14 @@
         "stora-stenen-bimbo-problem-1",
         "stora-stenen-bimbo-problem-2",
         "stora-stenen-bimbo-problem-3"
+      ],
+      "routeRelations": [
+        {
+          "routeId": "stora-stenen-bimbo-problem-1",
+          "method": "filename",
+          "confidence": 0.95,
+          "evidence": "Lednamnet återfinns i originalfilens bildnamn."
+        }
       ]
     },
     {

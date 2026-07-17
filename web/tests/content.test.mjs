@@ -62,6 +62,7 @@ test("keeps Nacka Kvarn sport, boulder, sketches and source numbers aligned", as
   assert.ok(area.images.some((image) => image.filename === "Nackakvarn1.gif" && image.sectorId === "huvudvaggen"));
   assert.ok(area.images.some((image) => image.filename === "NKGrottan.jpg" && image.sectorId === "grottan"));
   assert.ok(area.images.some((image) => image.filename === "NK_Mossebacke2.jpg" && image.routeIds.includes(getItShorty.id)));
+  assert.ok(area.images.find((image) => image.filename === "NK_Mossebacke2.jpg")?.routeRelations.some((relation) => relation.routeId === getItShorty.id));
   assert.match(area.sections.find((section) => section.id === "vagbeskrivning")?.body || "", /gångbro över ån/i);
 });
 
@@ -76,6 +77,7 @@ test("turns legacy boulder templates, loose notes and external links into usable
   assert.deepEqual({ sector: wongSai.sectorId, number: wongSai.number, grade: wongSai.grade }, { sector: "hogra-delen", number: "4, gul", grade: "7b+ sd" });
   assert.ok(orminge.images.some((image) => image.filename === "Orminge_wongsai.jpg" && image.caption === "Wong-Sai" && image.sectorId === "hogra-delen"));
   assert.notEqual(orminge.images.find((image) => image.filename === "Orminge_spineless.jpg")?.sectorId, wongSai.sectorId);
+  assert.ok(orminge.sections.every((section) => !/\[\[|\]\]|\{\{|\}\}/.test(section.body)), "publicerad copy ska inte innehålla wikiartefakter");
   assert.match(orminge.sections.find((section) => section.id === "vagbeskrivning")?.body || "", /• Överhängande Väggen/);
   assert.equal(askimsbadet.routes.length, 0);
   assert.match(askimsbadet.sections.find((section) => section.id === "historia")?.body || "", /Patrik Alseby/);
@@ -92,6 +94,23 @@ test("does not leak common MediaWiki artifacts into reader-facing copy", async (
     const readerFacingCopy = copy.replace(/https?:\/\/\S+/g, "");
     assert.doesNotMatch(readerFacingCopy, /\[\[|\{\{|\b(?:Kategori|Category):|\b(?:Fil|File):[^\s]+\.(?:jpe?g|png|gif)/i, filename);
   }
+});
+
+test("links Häggsta route numbers to original sketches with reviewable vision evidence", async () => {
+  const haggsta = JSON.parse(await readFile(path.join(contentRoot, "areas", "haggsta.json"), "utf8"));
+  const sjotraversen = haggsta.routes.find((route) => route.name === "Sjötraversen");
+  const sketch = haggsta.images.find((image) => image.filename === "Haggsta_sjosidan_v.png");
+  const relation = sketch?.routeRelations.find((item) => item.routeId === sjotraversen?.id);
+  assert.deepEqual({ kind: sketch?.imageKind, method: relation?.method, confidence: relation?.confidence }, { kind: "topo", method: "vision", confidence: 0.97 });
+  assert.ok(relation?.evidence);
+});
+
+test("keeps directions as semantic headings, paragraphs and lists", async () => {
+  const orminge = JSON.parse(await readFile(path.join(contentRoot, "areas", "orminge.json"), "utf8"));
+  const directions = orminge.sections.find((section) => /vägbeskrivning/i.test(section.title));
+  assert.equal(directions?.blocks?.[0]?.kind, "heading");
+  assert.equal(directions?.blocks?.[0]?.text, "Överhängande Väggen med bil");
+  assert.ok(directions?.blocks?.some((block) => block.kind === "list" && block.items.length === 4));
 });
 
 test("replays committed auto-published proposals during a fresh import", async () => {

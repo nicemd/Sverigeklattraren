@@ -7,6 +7,7 @@
   },
   "scripts": {
     "content:import": "node scripts/import-mediawiki.mjs",
+    "content:topos": "node scripts/enrich-topo-relations.mjs",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",

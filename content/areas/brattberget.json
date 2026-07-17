@@ -31,7 +31,28 @@
     {
       "id": "vagbeskrivning",
       "title": "Vägbeskrivning",
-      "body": "Från Sundsvall kör man söder ut till Kvissleby, ca 15km. Vid trafikljusen tar man vänster mot Essvik. Kommer man på E4 söderifrån kör man förbi Kvissleby centrum (som man har på höger sida), och svänger höger vid trafikljusen.\n\nKör över Ljungan och ta vänster direkt efter bron. Kör igenom Essvik och Stockstrand och fortsätt tills du når några cisterner. Ett par hundra meter efter cisternerna går en liten vägsnutt in till vänster - kör in på den och parkera i dungen. Följ sen stigen över berget till vindskyddet - drygt 5 minuters anmarch. Själva klippan ligger sydost om vindskyddet - eller till höger om det när man kommer från parkeringen.\n\nFör att ta sig ner till klippan finns det (förutom firning) två vägar. Antingen:\n• Gå ganska direkt ut mot vattnet snett höger ner från vindskyddet. Du kommer då till en stor, blockig nedstigningsränna som du kan scrambla ner i med viss försiktighet. Eller,\n• Följ stigen som går ovanpå klippan och tar dig längst bort på stora väggen. Där finns fasta rep som hjälper dig nedför stigen ner till insteget på Over the top. Denna väg rekommenderas för förstagångsbesökaren."
+      "body": "Från Sundsvall kör man söder ut till Kvissleby, ca 15km. Vid trafikljusen tar man vänster mot Essvik. Kommer man på E4 söderifrån kör man förbi Kvissleby centrum (som man har på höger sida), och svänger höger vid trafikljusen.\n\nKör över Ljungan och ta vänster direkt efter bron. Kör igenom Essvik och Stockstrand och fortsätt tills du når några cisterner. Ett par hundra meter efter cisternerna går en liten vägsnutt in till vänster - kör in på den och parkera i dungen. Följ sen stigen över berget till vindskyddet - drygt 5 minuters anmarch. Själva klippan ligger sydost om vindskyddet - eller till höger om det när man kommer från parkeringen.\n\nFör att ta sig ner till klippan finns det (förutom firning) två vägar. Antingen:\n\n• Gå ganska direkt ut mot vattnet snett höger ner från vindskyddet. Du kommer då till en stor, blockig nedstigningsränna som du kan scrambla ner i med viss försiktighet. Eller,\n• Följ stigen som går ovanpå klippan och tar dig längst bort på stora väggen. Där finns fasta rep som hjälper dig nedför stigen ner till insteget på Over the top. Denna väg rekommenderas för förstagångsbesökaren.",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Från Sundsvall kör man söder ut till Kvissleby, ca 15km. Vid trafikljusen tar man vänster mot Essvik. Kommer man på E4 söderifrån kör man förbi Kvissleby centrum (som man har på höger sida), och svänger höger vid trafikljusen."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Kör över Ljungan och ta vänster direkt efter bron. Kör igenom Essvik och Stockstrand och fortsätt tills du når några cisterner. Ett par hundra meter efter cisternerna går en liten vägsnutt in till vänster - kör in på den och parkera i dungen. Följ sen stigen över berget till vindskyddet - drygt 5 minuters anmarch. Själva klippan ligger sydost om vindskyddet - eller till höger om det när man kommer från parkeringen."
+        },
+        {
+          "kind": "paragraph",
+          "text": "För att ta sig ner till klippan finns det (förutom firning) två vägar. Antingen:"
+        },
+        {
+          "kind": "list",
+          "items": [
+            "Gå ganska direkt ut mot vattnet snett höger ner från vindskyddet. Du kommer då till en stor, blockig nedstigningsränna som du kan scrambla ner i med viss försiktighet. Eller,",
+            "Följ stigen som går ovanpå klippan och tar dig längst bort på stora väggen. Där finns fasta rep som hjälper dig nedför stigen ner till insteget på Over the top. Denna väg rekommenderas för förstagångsbesökaren."
+          ]
+        }
+      ]
     },
     {
       "id": "miljo",
@@ -1237,6 +1258,14 @@
       "sectorId": "karaktar",
       "routeIds": [
         "brattberget-led-42"
+      ],
+      "routeRelations": [
+        {
+          "routeId": "brattberget-led-42",
+          "method": "filename",
+          "confidence": 0.95,
+          "evidence": "Lednamnet återfinns i originalfilens bildnamn."
+        }
       ]
     },
     {

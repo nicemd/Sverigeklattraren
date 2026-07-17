@@ -3,7 +3,7 @@
   "id": "norra-rorum",
   "slug": "norra-rorum",
   "name": "Norra Rörum",
-  "description": "Norra Rörum är en mindre klippa i mitten av Skåne, en mil norr om Höör.\nKlättringen är uppdelad på två väggpartier med lite olika karaktär. Den östra väggen är brant och ca 8 meter hög, här klättrar man i sprickor och på vägg med gott om små grepp och lister.\nSydväggen är mer polerad och lutar svagt inåt, här bjuds på några riktigt fina balansleder.\nMestadels är det tradklättring som gäller här, men ett antal bultar finns att klippa.\nToppankare byggs oftast enkelt med hjälp av träd om man har långa slingor eller statiskt rep.\nAnmarschen är lätt och tillgängligheten väl framme vid klippan är bästa tänkbara.\nKlippan ligger i skugga i princip hela dagen.",
+  "description": "Norra Rörum är en mindre klippa i mitten av Skåne, en mil norr om Höör. Klättringen är uppdelad på två väggpartier med lite olika karaktär. Den östra väggen är brant och ca 8 meter hög, här klättrar man i sprickor och på vägg med gott om små grepp och lister. Sydväggen är mer polerad och lutar svagt inåt, här bjuds på några riktigt fina balansleder. Mestadels är det tradklättring som gäller här, men ett antal bultar finns att klippa. Toppankare byggs oftast enkelt med hjälp av träd om man har långa slingor eller statiskt rep. Anmarschen är lätt och tillgängligheten väl framme vid klippan är bästa tänkbara. Klippan ligger i skugga i princip hela dagen.",
   "coordinates": {
     "latitude": 56.02544230429888,
     "longitude": 13.500051498413086
@@ -15,7 +15,7 @@
     {
       "id": "allmant",
       "title": "Allmänt",
-      "body": "Norra Rörum är en mindre klippa i mitten av Skåne, en mil norr om Höör.\nKlättringen är uppdelad på två väggpartier med lite olika karaktär. Den östra väggen är brant och ca 8 meter hög, här klättrar man i sprickor och på vägg med gott om små grepp och lister.\nSydväggen är mer polerad och lutar svagt inåt, här bjuds på några riktigt fina balansleder.\nMestadels är det tradklättring som gäller här, men ett antal bultar finns att klippa.\nToppankare byggs oftast enkelt med hjälp av träd om man har långa slingor eller statiskt rep.\nAnmarschen är lätt och tillgängligheten väl framme vid klippan är bästa tänkbara.\nKlippan ligger i skugga i princip hela dagen."
+      "body": "Norra Rörum är en mindre klippa i mitten av Skåne, en mil norr om Höör. Klättringen är uppdelad på två väggpartier med lite olika karaktär. Den östra väggen är brant och ca 8 meter hög, här klättrar man i sprickor och på vägg med gott om små grepp och lister. Sydväggen är mer polerad och lutar svagt inåt, här bjuds på några riktigt fina balansleder. Mestadels är det tradklättring som gäller här, men ett antal bultar finns att klippa. Toppankare byggs oftast enkelt med hjälp av träd om man har långa slingor eller statiskt rep. Anmarschen är lätt och tillgängligheten väl framme vid klippan är bästa tänkbara. Klippan ligger i skugga i princip hela dagen."
     },
     {
       "id": "hitta-hit",
@@ -25,7 +25,17 @@
     {
       "id": "vaggoversikt",
       "title": "Väggöversikt",
-      "body": "• 1-3 Södra väggen\n• 4-5 Östra väggen\n• 6-8 Boulder"
+      "body": "• 1-3 Södra väggen\n• 4-5 Östra väggen\n• 6-8 Boulder",
+      "blocks": [
+        {
+          "kind": "list",
+          "items": [
+            "1-3 Södra väggen",
+            "4-5 Östra väggen",
+            "6-8 Boulder"
+          ]
+        }
+      ]
     },
     {
       "id": "sodra-vaggen",
@@ -60,7 +70,7 @@
     {
       "id": "vagg-5",
       "title": "Vägg 5",
-      "body": "Det finns ett direktinsteg som projekt och då håller man sig bara inne på vertikalväggen, alltså inte stora laybacksprickan längst till höger. Grad minst 7b+(8)."
+      "body": ""
     },
     {
       "id": "bouldervaggarna",
@@ -553,7 +563,7 @@
   "images": [
     {
       "filename": "Nrorum.jpg",
-      "caption": "Nick Baker, [[Klarälven",
+      "caption": "Nick Baker, Klarälven",
       "missing": false,
       "sectorId": null,
       "routeIds": []

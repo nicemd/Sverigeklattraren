@@ -3,7 +3,7 @@
   "id": "ulvasen-is",
   "slug": "ulvasen-is",
   "name": "Ulvåsen is",
-  "description": "Området är ganska litet och lederna är mellan 15-10 m långa. Lederna är vända mot väst. Plus för att det är lugnt och tyst. Passar utmärkt för nybörjare och provapå. Då det är enkelt att sätta topprep. Namnen på lederna är påhittade, FA-person får gärna ändra. Anmarsch: lederna är lätta att hitta om man följer skidspåret och tittar åt höger.\n\nIsuppdatering 4 februari 2012:",
+  "description": "Området är ganska litet och lederna är mellan 15-10 m långa. Lederna är vända mot väst. Plus för att det är lugnt och tyst. Passar utmärkt för nybörjare och provapå. Då det är enkelt att sätta topprep. Namnen på lederna är påhittade, FA-person får gärna ändra. Anmarsch: lederna är lätta att hitta om man följer skidspåret och tittar åt höger.",
   "coordinates": null,
   "categories": [
     "Is"
@@ -12,7 +12,7 @@
     {
       "id": "allmant",
       "title": "Allmänt",
-      "body": "Området är ganska litet och lederna är mellan 15-10 m långa. Lederna är vända mot väst. Plus för att det är lugnt och tyst. Passar utmärkt för nybörjare och provapå. Då det är enkelt att sätta topprep. Namnen på lederna är påhittade, FA-person får gärna ändra. Anmarsch: lederna är lätta att hitta om man följer skidspåret och tittar åt höger.\n\nIsuppdatering 4 februari 2012:"
+      "body": "Området är ganska litet och lederna är mellan 15-10 m långa. Lederna är vända mot väst. Plus för att det är lugnt och tyst. Passar utmärkt för nybörjare och provapå. Då det är enkelt att sätta topprep. Namnen på lederna är påhittade, FA-person får gärna ändra. Anmarsch: lederna är lätta att hitta om man följer skidspåret och tittar åt höger."
     },
     {
       "id": "vagbeskrivning",
@@ -83,6 +83,14 @@
       "sectorId": "allmant",
       "routeIds": [
         "ulvasen-is-led-1"
+      ],
+      "routeRelations": [
+        {
+          "routeId": "ulvasen-is-led-1",
+          "method": "filename",
+          "confidence": 0.95,
+          "evidence": "Lednamnet återfinns i originalfilens bildnamn."
+        }
       ]
     },
     {
@@ -94,6 +102,14 @@
         "ulvasen-is-led-1",
         "ulvasen-is-led-2",
         "ulvasen-is-led-3"
+      ],
+      "routeRelations": [
+        {
+          "routeId": "ulvasen-is-led-1",
+          "method": "filename",
+          "confidence": 0.95,
+          "evidence": "Lednamnet återfinns i originalfilens bildnamn."
+        }
       ]
     },
     {
@@ -103,6 +119,14 @@
       "sectorId": "allmant",
       "routeIds": [
         "ulvasen-is-led-3"
+      ],
+      "routeRelations": [
+        {
+          "routeId": "ulvasen-is-led-3",
+          "method": "filename",
+          "confidence": 0.95,
+          "evidence": "Lednamnet återfinns i originalfilens bildnamn."
+        }
       ]
     },
     {

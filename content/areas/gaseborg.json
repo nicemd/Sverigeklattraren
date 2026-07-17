@@ -27,7 +27,7 @@
     {
       "id": "vagbeskrivning",
       "title": "Vägbeskrivning",
-      "body": "Kör E18 mot Oslo. Sväng av mot Viksjö. Följ Viksjöleden och sväng vänster in på Hummelmoravägen. Ta vänster in på Basunvägen och parkera på gästparkeringen. (Google-karta finner du på egen sida.)\nGå cykelvägen mot skogen och förbi bommen. Följ stigen och korsa elljusspåret två gånger. Stigen går över en spång och 120 meter efter spången går delar sig stigen. Ta vänster här - stigen du följer är markerad med gula trianglar. Korsa grusvägen och följ gula trianglar/orangea ledmarkeringar. Efter ca 5 minuter kommer du till en ny väg, och ett träd med gul triangel+pil åt vänster samt orangemarkering+pil åt höger - ta höger och följ orange markeringar. Efter ca 20 meter, sväng vänster in på ny stig.\n\nDu är nu vid fornborgen. Håller du höger kommer du in i fornborgen, håller du vänster kommer du ner till Ravinen."
+      "body": "Kör E18 mot Oslo. Sväng av mot Viksjö. Följ Viksjöleden och sväng vänster in på Hummelmoravägen. Ta vänster in på Basunvägen och parkera på gästparkeringen. (Google-karta finner du på egen sida.) Gå cykelvägen mot skogen och förbi bommen. Följ stigen och korsa elljusspåret två gånger. Stigen går över en spång och 120 meter efter spången går delar sig stigen. Ta vänster här - stigen du följer är markerad med gula trianglar. Korsa grusvägen och följ gula trianglar/orangea ledmarkeringar. Efter ca 5 minuter kommer du till en ny väg, och ett träd med gul triangel+pil åt vänster samt orangemarkering+pil åt höger - ta höger och följ orange markeringar. Efter ca 20 meter, sväng vänster in på ny stig.\n\nDu är nu vid fornborgen. Håller du höger kommer du in i fornborgen, håller du vänster kommer du ner till Ravinen."
     },
     {
       "id": "klippor",
@@ -37,7 +37,7 @@
     {
       "id": "ravinen",
       "title": "Ravinen",
-      "body": "Första delen av lederna är lätt överhängande och sedan går väggen över i brant sva. Flera ankare går att nå uppifrån.\n\n]]\n\nRavinen fortsättning... Denna del är den första du möter när du kommer till ravinen.\nDet går att komma åt ankare på merparten av dessa leder.\n\n]]"
+      "body": "Första delen av lederna är lätt överhängande och sedan går väggen över i brant sva. Flera ankare går att nå uppifrån."
     },
     {
       "id": "ovanfor-ravinen",
@@ -1163,6 +1163,14 @@
         "gaseborg-led-28",
         "gaseborg-led-29",
         "gaseborg-led-30"
+      ],
+      "routeRelations": [
+        {
+          "routeId": "gaseborg-led-25",
+          "method": "filename",
+          "confidence": 0.95,
+          "evidence": "Lednamnet återfinns i originalfilens bildnamn."
+        }
       ]
     },
     {

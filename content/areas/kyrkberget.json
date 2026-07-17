@@ -23,7 +23,24 @@
     {
       "id": "vagbeskrivning",
       "title": "Vägbeskrivning",
-      "body": "=Access=\nDet finns ännu inget tillstånd för klättring/bultning på Kyrkberget.\n\nLäs mer på\n• 8a.nu (http://web.8a.nu/(nkiwdmnsy0vwm255stijzl45)/forum/ViewForumThread.aspx?ObjectId=6326&ObjectClass=CLS_UserNewsComment&CountryCode=SWE).\n• Borrbult.nu (http://www.borrbult.nu/forum/topic.asp?TOPIC_ID=357)"
+      "body": "=Access= Det finns ännu inget tillstånd för klättring/bultning på Kyrkberget.\n\nLäs mer på\n\n• 8a.nu (http://web.8a.nu/(nkiwdmnsy0vwm255stijzl45)/forum/ViewForumThread.aspx?ObjectId=6326&ObjectClass=CLS_UserNewsComment&CountryCode=SWE).\n• Borrbult.nu (http://www.borrbult.nu/forum/topic.asp?TOPIC_ID=357)",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "=Access= Det finns ännu inget tillstånd för klättring/bultning på Kyrkberget."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Läs mer på"
+        },
+        {
+          "kind": "list",
+          "items": [
+            "8a.nu (http://web.8a.nu/(nkiwdmnsy0vwm255stijzl45)/forum/ViewForumThread.aspx?ObjectId=6326&ObjectClass=CLS_UserNewsComment&CountryCode=SWE).",
+            "Borrbult.nu (http://www.borrbult.nu/forum/topic.asp?TOPIC_ID=357)"
+          ]
+        }
+      ]
     }
   ],
   "routes": [],
