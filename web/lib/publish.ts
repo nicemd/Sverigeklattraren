@@ -38,6 +38,7 @@ export async function publishProposal(area: Area, intake: Intake, edit: Proposed
   const changed = [proposalRelative];
   if (autoPublish) {
     const areaRelative = path.join("content", "areas", `${area.slug}.json`);
+    const manifestRelative = path.join("content", "areas.json");
     const updated: Area = JSON.parse(await readFile(path.join(repositoryRoot, areaRelative), "utf8"));
     for (const patch of edit.patches) {
       if (patch.field === "description") updated.description = patch.value;
@@ -57,7 +58,13 @@ export async function publishProposal(area: Area, intake: Intake, edit: Proposed
       }
     }
     await writeFile(path.join(repositoryRoot, areaRelative), `${JSON.stringify(updated, null, 2)}\n`);
-    changed.push(areaRelative);
+    const manifest = JSON.parse(await readFile(path.join(repositoryRoot, manifestRelative), "utf8"));
+    const summary = manifest.find((item: { slug: string }) => item.slug === area.slug);
+    if (!summary) throw new Error(`Området ${area.slug} saknas i manifestet.`);
+    summary.description = updated.description;
+    summary.coordinates = updated.coordinates;
+    await writeFile(path.join(repositoryRoot, manifestRelative), `${JSON.stringify(manifest, null, 2)}\n`);
+    changed.push(areaRelative, manifestRelative);
   }
 
   let committed = false;

@@ -32,6 +32,8 @@ npm test
 npm run build
 ```
 
+`npm run build` använder den versionsstyrda `content/`-representationen. `npm run content:import` behövs när importeraren eller 2014-källorna ändras och återspelar då auto-publicerade förslag så att senare kunskap inte går förlorad.
+
 ## Privat drift på davtor1
 
 `Dockerfile`, `docker-compose.yml` och `deploy.ps1` bygger en GHCR-image, håller applikationsporten bunden till `127.0.0.1` och exponerar den privat med värdens Tailscale Service. Deployskriptet kräver alltid en uttrycklig `DEPLOY`-bekräftelse innan externa eller fjärrstyrda ändringar.

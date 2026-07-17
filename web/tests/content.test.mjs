@@ -1,5 +1,7 @@
 import assert from "node:assert/strict";
-import { readFile, readdir } from "node:fs/promises";
+import { mkdtemp, readFile, readdir, rm } from "node:fs/promises";
+import { spawn } from "node:child_process";
+import os from "node:os";
 import path from "node:path";
 import test from "node:test";
 
@@ -34,5 +36,26 @@ test("coordinates stay inside valid WGS84 bounds", async () => {
   for (const area of manifest.filter((item) => item.coordinates?.latitude && item.coordinates?.longitude)) {
     assert.ok(area.coordinates.latitude >= -90 && area.coordinates.latitude <= 90, `${area.name}: latitude`);
     assert.ok(area.coordinates.longitude >= -180 && area.coordinates.longitude <= 180, `${area.name}: longitude`);
+  }
+});
+
+test("replays committed auto-published proposals during a fresh import", async () => {
+  const output = await mkdtemp(path.join(os.tmpdir(), "sverigeforaren-import-"));
+  const proposalDir = path.join(process.cwd(), "tests", "fixtures", "proposals");
+  try {
+    await new Promise((resolve, reject) => {
+      const child = spawn(process.execPath, ["scripts/import-mediawiki.mjs"], {
+        cwd: process.cwd(),
+        env: { ...process.env, CONTENT_OUTPUT_ROOT: output, PROPOSAL_DIR: proposalDir },
+        stdio: "ignore",
+      });
+      child.on("error", reject);
+      child.on("close", (code) => code === 0 ? resolve() : reject(new Error(`Importer exited ${code}`)));
+    });
+    const utby = JSON.parse(await readFile(path.join(output, "areas", "utby.json"), "utf8"));
+    assert.equal(utby.description, "Verifierad testbeskrivning som ska överleva en fullständig nyimport.");
+    assert.ok(utby.provenance.sources.some((source) => source.url === "https://example.test/source"));
+  } finally {
+    await rm(output, { recursive: true, force: true });
   }
 });

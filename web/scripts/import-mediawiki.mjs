@@ -3,8 +3,10 @@ import path from "node:path";
 
 const repoRoot = path.resolve(process.cwd(), "..");
 const inputDir = path.join(repoRoot, "mediawiki");
-const outputDir = path.join(repoRoot, "content", "areas");
+const contentRoot = process.env.CONTENT_OUTPUT_ROOT ? path.resolve(process.env.CONTENT_OUTPUT_ROOT) : path.join(repoRoot, "content");
+const outputDir = path.join(contentRoot, "areas");
 const imageIndex = new Map();
+const publishedProposals = new Map();
 
 const slugify = (value) => value
   .normalize("NFD")
@@ -106,6 +108,33 @@ function numeric(value) {
   return Number.isFinite(result) ? result : null;
 }
 
+function applyPublishedProposals(area) {
+  for (const proposal of publishedProposals.get(area.slug) || []) {
+    for (const patch of proposal.edit?.patches || []) {
+      if (patch.field === "description") area.description = patch.value;
+      if (patch.field === "coordinates") {
+        try {
+          const value = JSON.parse(patch.value);
+          if (Number.isFinite(value.latitude) && Number.isFinite(value.longitude) && value.latitude >= -90 && value.latitude <= 90 && value.longitude >= -180 && value.longitude <= 180) area.coordinates = value;
+        } catch { /* En ogiltig historisk patch ändrar aldrig importresultatet. */ }
+      }
+      if (patch.field === "section") {
+        try {
+          const value = JSON.parse(patch.value);
+          const id = slugify(String(value.title));
+          const section = { id, title: String(value.title), body: String(value.body) };
+          const index = area.sections.findIndex((item) => item.id === id);
+          if (index === -1) area.sections.push(section); else area.sections[index] = section;
+        } catch { /* En ogiltig historisk patch ändrar aldrig importresultatet. */ }
+      }
+      if (patch.sourceUrl && !area.provenance.sources.some((source) => source.url === patch.sourceUrl)) {
+        area.provenance.sources.push({ id: `external:${slugify(patch.sourceUrl)}`, title: patch.sourceUrl, url: patch.sourceUrl });
+      }
+    }
+  }
+  return area;
+}
+
 function parseArea(filename, source, uniqueSlug) {
   const name = path.basename(filename, ".txt");
   const templates = extractTemplates(source).map(splitTemplate);
@@ -174,6 +203,16 @@ function parseArea(filename, source, uniqueSlug) {
 
 await rm(outputDir, { recursive: true, force: true });
 await mkdir(outputDir, { recursive: true });
+try {
+  const proposalDir = process.env.PROPOSAL_DIR ? path.resolve(process.env.PROPOSAL_DIR) : path.join(repoRoot, "proposals");
+  for (const filename of (await readdir(proposalDir)).filter((name) => name.endsWith(".json")).sort()) {
+    const proposal = JSON.parse(await readFile(path.join(proposalDir, filename), "utf8"));
+    if (proposal.decision !== "auto_published" || typeof proposal.area !== "string") continue;
+    const entries = publishedProposals.get(proposal.area) || [];
+    entries.push(proposal);
+    publishedProposals.set(proposal.area, entries);
+  }
+} catch { /* Ett nytt repo har ännu inga ändringsförslag. */ }
 const files = (await readdir(inputDir)).filter((filename) => filename.toLowerCase().endsWith(".txt"));
 for (const filename of await readdir(path.join(repoRoot, "images"))) {
   imageIndex.set(filename.toLowerCase(), filename);
@@ -188,7 +227,7 @@ for (const filename of files) {
   const occurrence = (slugOccurrences.get(baseSlug) || 0) + 1;
   slugOccurrences.set(baseSlug, occurrence);
   const uniqueSlug = occurrence === 1 ? baseSlug : `${baseSlug}-${occurrence}`;
-  const area = parseArea(filename, source, uniqueSlug);
+  const area = applyPublishedProposals(parseArea(filename, source, uniqueSlug));
   await writeFile(path.join(outputDir, `${area.slug}.json`), `${JSON.stringify(area, null, 2)}\n`);
   manifest.push({
     id: area.id,
@@ -204,5 +243,5 @@ for (const filename of files) {
   });
 }
 manifest.sort((a, b) => a.name.localeCompare(b.name, "sv"));
-await writeFile(path.join(repoRoot, "content", "areas.json"), `${JSON.stringify(manifest, null, 2)}\n`);
+await writeFile(path.join(contentRoot, "areas.json"), `${JSON.stringify(manifest, null, 2)}\n`);
 console.log(`Imported ${manifest.length} areas with ${manifest.reduce((sum, area) => sum + area.routeCount, 0)} routes/problems.`);

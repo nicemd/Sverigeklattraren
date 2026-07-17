@@ -7,6 +7,9 @@ export const metadata: Metadata = {
   description: "Öppen, källspårbar klätterförare för svenska klippor och boulderområden.",
 };
 
+// Publicerade Git-ändringar ska synas utan ett nytt containerbygge.
+export const dynamic = "force-dynamic";
+
 export default async function Home() {
   const areas = await getAreaSummaries();
   const preferred = areas.find((area) => area.name.toLowerCase() === "utby")

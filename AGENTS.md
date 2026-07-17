@@ -4,7 +4,7 @@
 
 - `mediawiki/` and `images/` are the immutable 2014 primary-source snapshot.
 - `content/areas/*.json` is the current publishable representation.
-- Run `npm run content:import` from `web/` after importer changes. Never silently rewrite the legacy snapshot.
+- Run `npm run content:import` from `web/` after importer or legacy-source changes. The importer replays committed auto-published proposals; never silently rewrite the legacy snapshot.
 - Every factual addition must carry a source in `provenance.sources`.
 
 ## Safety and access
