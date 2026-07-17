@@ -105,6 +105,14 @@ test("links Häggsta route numbers to original sketches with reviewable vision e
   assert.ok(relation?.evidence);
 });
 
+test("promotes numbered loose route lists into sourced structured routes", async () => {
+  const haggsta = JSON.parse(await readFile(path.join(contentRoot, "areas", "haggsta.json"), "utf8"));
+  const spiderPig = haggsta.routes.find((route) => route.name === "Spider-pig");
+  assert.deepEqual({ sector: spiderPig?.sectorId, number: spiderPig?.number, grade: spiderPig?.grade, length: spiderPig?.length, method: spiderPig?.extraction?.method }, { sector: "nya-vaggen", number: "1", grade: "V-", length: "13", method: "llm" });
+  assert.ok(spiderPig?.extraction?.confidence >= 0.9);
+  assert.doesNotMatch(haggsta.sections.find((section) => section.id === "nya-vaggen")?.body || "", /Spider-pig/);
+});
+
 test("keeps directions as semantic headings, paragraphs and lists", async () => {
   const orminge = JSON.parse(await readFile(path.join(contentRoot, "areas", "orminge.json"), "utf8"));
   const directions = orminge.sections.find((section) => /vägbeskrivning/i.test(section.title));

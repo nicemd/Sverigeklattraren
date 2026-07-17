@@ -23,6 +23,7 @@ export type Route = {
   description: string;
   sectorId: string | null;
   source: { id: string; path?: string; url?: string };
+  extraction?: { method: "llm"; model: string; confidence: number; evidence: string };
   fieldSources?: Partial<Record<"name" | "grade" | "number" | "length" | "type" | "firstAscent" | "description" | "sectorId", string[]>>;
 };
 

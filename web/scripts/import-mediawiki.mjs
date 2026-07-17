@@ -11,6 +11,7 @@ const outputDir = path.join(contentRoot, "areas");
 const imageIndex = new Map();
 const publishedProposals = new Map();
 const topoEnrichment = new Map();
+const looseRouteEnrichment = new Map();
 
 const slugify = (value) => value
   .normalize("NFD")
@@ -298,6 +299,29 @@ function parseArea(filename, source, uniqueSlug) {
         source: { id: `legacy:${uniqueSlug}`, path: `mediawiki/${filename}` },
       };
     });
+  for (const section of sections) {
+    const enrichment = looseRouteEnrichment.get(`${uniqueSlug}/${section.id}`);
+    if (!enrichment || enrichment.confidence < 0.9) continue;
+    section.body = plainText(enrichment.intro || "");
+    section.blocks = section.body ? [{ kind: "paragraph", text: section.body }] : [];
+    for (const [index, item] of (enrichment.routes || []).entries()) {
+      if (!item.name || !item.number || routes.some((route) => route.sectorId === section.id && route.name.toLocaleLowerCase("sv") === item.name.toLocaleLowerCase("sv"))) continue;
+      routes.push({
+        id: `${uniqueSlug}-${item.kind || "route"}-llm-${section.id}-${index + 1}`,
+        kind: item.kind === "problem" ? "problem" : "route",
+        number: item.number,
+        name: plainText(item.name),
+        grade: plainText(item.grade || ""),
+        length: plainText(item.length || "").replace(/\s*m$/i, ""),
+        type: plainText(item.type || ""),
+        firstAscent: plainText(item.firstAscent || ""),
+        description: plainText(item.description || ""),
+        sectorId: section.id,
+        source: { id: `legacy:${uniqueSlug}`, path: `mediawiki/${filename}` },
+        extraction: { method: "llm", model: enrichment.model, confidence: enrichment.confidence, evidence: plainText(item.evidence || enrichment.evidence || "") },
+      });
+    }
+  }
   const categories = [...source.matchAll(/\[\[kategori:([^\]]+)\]\]/gi)]
     .map((match) => plainText(match[1]))
     .filter(Boolean);
@@ -406,6 +430,10 @@ try {
   const enrichment = JSON.parse(await readFile(path.join(contentRoot, "enrichment", "topo-relations.json"), "utf8"));
   for (const [key, value] of Object.entries(enrichment.images || {})) topoEnrichment.set(key.toLocaleLowerCase("sv"), value);
 } catch { /* LLM-berikning är valfri; grundimporten är alltid reproducerbar. */ }
+try {
+  const enrichment = JSON.parse(await readFile(path.join(contentRoot, "enrichment", "loose-routes.json"), "utf8"));
+  for (const [key, value] of Object.entries(enrichment.sections || {})) looseRouteEnrichment.set(key.toLocaleLowerCase("sv"), value);
+} catch { /* Löptextberikning är valfri och granskningsbar i Git. */ }
 const files = (await readdir(inputDir)).filter((filename) => filename.toLowerCase().endsWith(".txt"));
 for (const filename of await readdir(path.join(repoRoot, "images"))) {
   imageIndex.set(filename.toLowerCase(), filename);

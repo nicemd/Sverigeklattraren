@@ -364,6 +364,7 @@ function AreaView({ area, access, globalQuery, onSuggest }: { area: Area; access
           </div>
           <div className="route-detail-facts"><strong>{selectedRoute.grade || "Ograderad"}</strong><span>{selectedRoute.kind === "problem" ? "Boulderproblem" : "Klätterled"}</span>{selectedRoute.length && <span>{selectedRoute.length} m</span>}{selectedRoute.type && <span>{selectedRoute.type}</span>}</div>
           {selectedRoute.firstAscent && <p className="first-ascent">Förstebestigning: <strong>{selectedRoute.firstAscent}</strong></p>}
+          {selectedRoute.extraction?.method === "llm" && <p className="extraction-note">Strukturerad med OpenAI från originalförarens löptext · konfidens {Math.round(selectedRoute.extraction.confidence * 100)} %</p>}
           {selectedRoute.description ? <div className="beta-panel">
             {!showBeta ? <button type="button" className="beta-toggle" onClick={() => setShowBeta(true)}>Visa beta</button> : <><div className="beta-heading"><strong>Beta från originalföraren</strong><button type="button" onClick={() => setShowBeta(false)}>Dölj beta</button></div><p><RichText text={selectedRoute.description} /></p></>}
           </div> : <p className="no-beta">Originalföraren innehåller ingen beta för {selectedRoute.kind === "problem" ? "problemet" : "leden"}.</p>}
