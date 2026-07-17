@@ -10,8 +10,9 @@ Den nya applikationen finns i `web/`. Originalets MediaWiki-filer och bilder lig
 - Responsiv React/Next.js-vy med karta, bilder, topos och leddata.
 - Livekoppling till Svenska Klätterförbundets accessdatabas med källans uppdateringsdatum och lokal hämtningstid.
 - Fritextförslag som bearbetas av separata struktur-, presentations- och granskningsagenter via OpenAI Responses API.
-- Kvalitetsgrind där access- och säkerhetsuppgifter alltid kräver mänsklig granskning.
+- Kvalitetsgrind där access, parkering, vägbeskrivning, koordinater, avstängningar och säkerhetsuppgifter alltid kräver mänsklig granskning.
 - Godkända ändringar och granskningsärenden sparas genom Git-commits.
+- Källor registreras per ändrat ledfält. Faktareferenser, exempelvis 27crags, får belägga korta fakta men aldrig återpublicerad text, bild eller topo.
 
 ## Lokal utveckling
 
@@ -22,7 +23,7 @@ npm run content:import
 npm run dev
 ```
 
-Konfigurationen dokumenteras i `.env.example`. Lägg hemligheter i den Git-ignorerade `.env.local` i repots rot.
+Konfigurationen dokumenteras i `.env.example`. Lägg hemligheter i den Git-ignorerade `.env.local` i repots rot; Next-konfigurationen läser samma fil vid lokal utveckling och deployskriptet återanvänder den utan att checka in nyckeln. Standardmodellen är den explicita kvalitetsrollen `gpt-5.6-sol`.
 
 ## Verifiering
 
@@ -36,7 +37,9 @@ npm run build
 
 ## Privat drift på davtor1
 
-`Dockerfile`, `docker-compose.yml` och `deploy.ps1` bygger en GHCR-image, håller applikationsporten bunden till `127.0.0.1` och exponerar den privat med värdens Tailscale Service. Deployskriptet kräver alltid en uttrycklig `DEPLOY`-bekräftelse innan externa eller fjärrstyrda ändringar.
+`Dockerfile`, `docker-compose.yml` och `deploy.ps1` bygger en Git-versionsmärkt GHCR-image, håller applikationsporten bunden till `127.0.0.1` och exponerar den privat med värdens Tailscale Service. Deployskriptet kräver en ren `codex/wiki-2026`, kontrollerar servicekapabiliteten före push, kräver alltid en uttrycklig `DEPLOY`-bekräftelse, väntar in hälsa och återställer föregående compose-konfiguration om fjärrverifieringen misslyckas.
+
+Före första deploy måste davtor1:s Tailscale-identitet ha kapabiliteten `services/sverigeforaren` för `svc:sverigeforaren`. Skriptet stoppar utan fjärrändringar om policyn ännu inte medger detta.
 
 ## Licens
 

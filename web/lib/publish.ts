@@ -5,6 +5,7 @@ import path from "node:path";
 import type { Area } from "./types";
 import { repositoryRoot } from "./content";
 import type { Intake, ProposedEdit, Review } from "./agents/schemas";
+import { patchNeedsHumanReview } from "./publication-policy.mjs";
 
 const runGit = (args: string[]) => new Promise<void>((resolve, reject) => {
   const child = spawn("git", ["-c", `safe.directory=${repositoryRoot.replaceAll("\\", "/")}`, ...args], { cwd: repositoryRoot, env: { ...process.env, GIT_AUTHOR_NAME: "Sverigeföraren agent", GIT_AUTHOR_EMAIL: "agent@sverigeforaren.local", GIT_COMMITTER_NAME: "Sverigeföraren agent", GIT_COMMITTER_EMAIL: "agent@sverigeforaren.local" } });
@@ -21,7 +22,7 @@ export async function publishProposal(area: Area, intake: Intake, edit: Proposed
   const stamp = now.toISOString().replace(/[:.]/g, "-");
   const threshold = Number(process.env.AUTO_PUBLISH_THRESHOLD || "0.97");
   const allCited = edit.patches.length > 0 && edit.patches.every((patch) => Boolean(patch.sourceUrl));
-  const hasProtectedChange = edit.patches.some((patch) => patch.field === "access");
+  const hasProtectedChange = edit.patches.some(patchNeedsHumanReview);
   const patchesAreApplicable = edit.patches.every((patch) => {
     if (patch.field === "description") return patch.value.trim().length >= 20;
     if (patch.field === "access") return true;

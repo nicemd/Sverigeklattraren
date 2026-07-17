@@ -1,8 +1,13 @@
 import { z } from "zod";
 
+const sourceUrlSchema = z.string().url().refine((value) => {
+  const protocol = new URL(value).protocol;
+  return protocol === "https:" || protocol === "http:";
+}, "Källan måste använda http eller https").nullable();
+
 export const factSchema = z.object({
   claim: z.string(),
-  sourceUrl: z.string().url().nullable(),
+  sourceUrl: sourceUrlSchema,
   sourceQuote: z.string().nullable(),
   isFirsthandObservation: z.boolean(),
 });
@@ -18,7 +23,7 @@ export const patchSchema = z.object({
   field: z.enum(["description", "coordinates", "section", "route_fact", "access"]),
   value: z.string(),
   rationale: z.string(),
-  sourceUrl: z.string().url().nullable(),
+  sourceUrl: sourceUrlSchema,
   sourceQuote: z.string().nullable(),
 });
 

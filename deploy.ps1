@@ -1,7 +1,7 @@
 [CmdletBinding()]
 param(
     [string]$Server = "nicemd@davtor1",
-    [string]$Image = "ghcr.io/nicemd/sverigeforaren:latest",
+    [string]$Image = "ghcr.io/nicemd/sverigeforaren",
     [string]$AppDirectory = "~/migrated-compose/sverigeforaren",
     [string]$Branch = "codex/wiki-2026",
     [int]$LocalBindPort = 3086,
@@ -12,6 +12,8 @@ $ErrorActionPreference = "Stop"
 if ($Server -notmatch '^[a-zA-Z0-9._-]+@[a-zA-Z0-9._-]+$') { throw "Ogiltigt SSH-mål." }
 if ($Branch -notmatch '^[a-zA-Z0-9._/-]+$') { throw "Ogiltigt branch-namn." }
 if ($ServiceName -notmatch '^[a-z0-9-]+$') { throw "Ogiltigt Tailscale service-namn." }
+if ($Image -notmatch '^ghcr\.io/[a-zA-Z0-9._-]+/[a-zA-Z0-9._-]+$') { throw "Image ska vara ett GHCR-repository utan tagg." }
+if ($AppDirectory -notmatch '^~/[a-zA-Z0-9._/-]+$') { throw "Ogiltig appkatalog." }
 
 $repoRoot = $PSScriptRoot
 $secretFile = Join-Path $repoRoot ".env.local"
@@ -19,12 +21,30 @@ if (-not (Test-Path -LiteralPath $secretFile)) { throw ".env.local saknas." }
 $keyLine = Get-Content -LiteralPath $secretFile | Where-Object { $_ -match '^OPENAI_API_KEY=\S+' } | Select-Object -First 1
 if (-not $keyLine) { throw "OPENAI_API_KEY saknas i .env.local." }
 
-$answer = Read-Host "Detta bygger och pushar $Image samt ändrar Docker/Tailscale på $Server. Skriv DEPLOY för att fortsätta"
+$currentBranch = (git -C $repoRoot branch --show-current).Trim()
+if ($LASTEXITCODE -ne 0 -or $currentBranch -ne $Branch) { throw "Checka ut $Branch före deploy." }
+if (git -C $repoRoot status --porcelain) { throw "Arbetskopian måste vara ren före deploy." }
+$gitSha = (git -C $repoRoot rev-parse --short=12 HEAD).Trim()
+if ($LASTEXITCODE -ne 0 -or -not $gitSha) { throw "Kunde inte läsa Git-versionen." }
+$imageRef = "${Image}:$gitSha"
+$latestRef = "${Image}:latest"
+
+$tailscaleStatusJson = ssh -o ConnectTimeout=10 $Server "tailscale status --self --json"
+if ($LASTEXITCODE -ne 0) { throw "Kunde inte kontrollera Tailscale på $Server." }
+try { $tailscaleStatus = $tailscaleStatusJson | ConvertFrom-Json } catch { throw "Tailscale returnerade ogiltig status-JSON." }
+$requiredCapability = "services/$ServiceName"
+if ($tailscaleStatus.Self.Capabilities -notcontains $requiredCapability) {
+    throw "davtor1 saknar Tailscale-kapabiliteten $requiredCapability. Godkänn svc:$ServiceName i tailnet-policyn innan deploy. Inga images har pushats och inga fjärrfiler har ändrats."
+}
+
+$answer = Read-Host "Detta bygger och pushar $imageRef samt ändrar Docker/Tailscale på $Server. Skriv DEPLOY för att fortsätta"
 if ($answer -cne "DEPLOY") { Write-Host "Avbrutet utan fjärrändringar."; exit 0 }
 
-docker build -t $Image $repoRoot
+docker build -t $imageRef -t $latestRef $repoRoot
 if ($LASTEXITCODE -ne 0) { throw "Docker-bygget misslyckades." }
-docker push $Image
+docker push $imageRef
+if ($LASTEXITCODE -ne 0) { throw "Push av versionsimagen till GHCR misslyckades." }
+docker push $latestRef
 if ($LASTEXITCODE -ne 0) { throw "Push till GHCR misslyckades." }
 
 $tempDirectory = Join-Path ([IO.Path]::GetTempPath()) ("sverigeforaren-deploy-" + [guid]::NewGuid().ToString("N"))
@@ -34,29 +54,40 @@ try {
     $remoteEnv = Join-Path $resolvedTemp ".env"
     $envText = @(
         $keyLine
-        "OPENAI_EDITORIAL_MODEL=gpt-5.6"
+        "OPENAI_EDITORIAL_MODEL=gpt-5.6-sol"
         "AUTO_PUBLISH_THRESHOLD=0.97"
-        "GHCR_IMAGE=$Image"
+        "GHCR_IMAGE=$imageRef"
         "LOCAL_BIND_PORT=$LocalBindPort"
         "PUBLIC_BASE_URL=https://$ServiceName.tail026a3a.ts.net"
     ) -join "`n"
     [IO.File]::WriteAllText($remoteEnv, $envText + "`n", [Text.UTF8Encoding]::new($false))
 
-    ssh $Server "mkdir -p $AppDirectory"
+    ssh $Server "mkdir -p $AppDirectory && cd $AppDirectory && if [ -f .env ]; then cp -f .env .env.previous && chmod 600 .env.previous; fi && if [ -f docker-compose.yml ]; then cp -f docker-compose.yml docker-compose.yml.previous; fi"
     if ($LASTEXITCODE -ne 0) { throw "Kunde inte skapa appkatalogen." }
     scp (Join-Path $repoRoot "docker-compose.yml") "${Server}:${AppDirectory}/docker-compose.yml"
     scp $remoteEnv "${Server}:${AppDirectory}/.env"
     if ($LASTEXITCODE -ne 0) { throw "Kunde inte kopiera deployfiler." }
+    ssh $Server "chmod 600 $AppDirectory/.env"
+    if ($LASTEXITCODE -ne 0) { throw "Kunde inte skydda fjärrens miljöfil." }
 
     $repositoryCommand = "if [ ! -d $AppDirectory/repository/.git ]; then git clone git@github.com:nicemd/Sverigeforaren.git $AppDirectory/repository; fi && cd $AppDirectory/repository && git fetch origin $Branch && git checkout $Branch && git pull --ff-only origin $Branch"
     ssh $Server $repositoryCommand
     if ($LASTEXITCODE -ne 0) { throw "Kunde inte uppdatera innehållsrepot på servern." }
 
-    $deployCommand = "cd $AppDirectory && sudo docker-compose pull && sudo docker-compose up -d --force-recreate --no-build && curl --fail --silent --show-error http://127.0.0.1:$LocalBindPort/ >/dev/null && sudo tailscale serve --bg --service=svc:$ServiceName --https=443 http://127.0.0.1:$LocalBindPort && sudo docker-compose ps"
+    $deployCommand = 'cd {0} && sudo docker-compose pull && sudo docker-compose up -d --force-recreate --no-build && for i in $(seq 1 30); do curl --fail --silent http://127.0.0.1:{1}/ >/dev/null && break; if [ "$i" -eq 30 ]; then exit 1; fi; sleep 2; done && sudo tailscale serve --yes --bg --service=svc:{2} --https=443 http://127.0.0.1:{1} && sudo tailscale serve status --json && tailscale status --self --json && sudo docker-compose ps' -f $AppDirectory, $LocalBindPort, $ServiceName
     ssh -t $Server $deployCommand
-    if ($LASTEXITCODE -ne 0) { throw "Fjärrdeploy eller verifiering misslyckades." }
+    if ($LASTEXITCODE -ne 0) {
+        Write-Warning "Fjärrdeploy misslyckades. Försöker återställa föregående compose-konfiguration."
+        $rollbackCommand = 'cd {0} && if [ -f .env.previous ] && [ -f docker-compose.yml.previous ]; then cp -f .env.previous .env && cp -f docker-compose.yml.previous docker-compose.yml && chmod 600 .env && sudo docker-compose pull && sudo docker-compose up -d --force-recreate --no-build; fi' -f $AppDirectory
+        ssh -t $Server $rollbackCommand
+        throw "Fjärrdeploy eller verifiering misslyckades; rollback har försökts."
+    }
 
-    Write-Host "Publicerad privat på https://$ServiceName.tail026a3a.ts.net/"
+    $publicUrl = "https://$ServiceName.tail026a3a.ts.net/"
+    $response = Invoke-WebRequest -UseBasicParsing -Uri $publicUrl -TimeoutSec 20
+    if ($response.StatusCode -ne 200) { throw "Tailscale-adressen svarade inte med HTTP 200." }
+
+    Write-Host "Publicerad privat på $publicUrl från Git $gitSha"
 }
 finally {
     if (Test-Path -LiteralPath $resolvedTemp) {
