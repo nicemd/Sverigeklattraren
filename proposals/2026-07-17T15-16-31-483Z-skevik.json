@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "createdAt": "2026-07-17T15:16:31.483Z",
+  "area": "skevik",
+  "intake": {
+    "status": "ready",
+    "reply": "Noterat: ta bort texten om tv-serien Kvarteret Skatan och avsnittet ”På mansläger med Ernst” från Skeviks allmänna del.",
+    "missingQuestions": [],
+    "facts": [
+      {
+        "claim": "I Skeviks allmänna del ska texten om Kvarteret Skatan och avsnittet ”På mansläger med Ernst” tas bort.",
+        "sourceUrl": null,
+        "sourceQuote": "Texten om tv-serien kan tas bort.",
+        "isFirsthandObservation": true
+      }
+    ]
+  },
+  "edit": {
+    "reply": "Tar bort stycket om Kvarteret Skatan och behåller kulturhistoriken oförändrad.",
+    "patches": [
+      {
+        "field": "section",
+        "value": "{\"title\":\"Kuriosa\",\"body\":\"Kulturhistoria: Under 1700-talets mitt användes \\\" grottan \\\" som gudstjänstlokal för en religös sekt, de sk Skevikarna. Samfundet bildades av två finska prästsöner Jakob och Erik Eriksson. De förkastade kyrkans ritualer och blev dömda till landsflykt, i elva år drev de runt i Europa innan de fann en fristad på gården Skevik. Enligt traditionen förkunnade de sin lära nere i Skeviksgrottan.\\n\\nUr: Grottor i stockholms län.\"}",
+        "rationale": "En förstahandsuppgift anger att texten om tv-serien och avsnittet ”På mansläger med Ernst” ska tas bort.",
+        "sourceUrl": null,
+        "sourceQuote": "Texten om tv-serien kan tas bort."
+      }
+    ]
+  },
+  "review": {
+    "passed": false,
+    "score": 0.38,
+    "reasons": [
+      "Borttagningen av tv-seriereferensen stöds av underlaget, men det framgår inte att den återstående kulturhistoriska texten verkligen är oförändrad eftersom originaltexten saknas.",
+      "Hela stycket om Skevikarna, gården och Skeviksgrottan saknar verifierbart faktastöd i underlaget. Hänvisningen ”Ur: Grottor i stockholms län” är ofullständig och innehåller ingen utgåva, sida eller länk.",
+      "Formuleringen ser ut som ett längre ordagrant utdrag ur en publikation snarare än korta faktapåståenden. Återpubliceringsrätten måste klarläggas eller texten skrivas om med stöd av en tillåten källa.",
+      "Platsen är otydlig: ”grottan” och Skeviksgrottan kopplas inte uttryckligen till rätt klippa eller koordinater, vilket innebär risk att kulturhistorik för en annan plats förs in.",
+      "Texten innehåller språk- och kvalitetsfel, bland annat felaktiga mellanslag runt ”grottan”, ”religös”, ”de sk” och gemen i ”stockholms län”."
+    ],
+    "requiresHumanReview": true
+  },
+  "decision": "needs_review"
+}
