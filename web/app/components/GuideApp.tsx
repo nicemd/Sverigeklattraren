@@ -31,20 +31,45 @@ function routeImageRelation(image: Area["images"][number], routeId: string) {
     || (image.routeIds?.includes(routeId) ? { routeId, method: "source-order" as const, confidence: 0.72, evidence: "Leden följer bilden i samma originalsektion." } : null);
 }
 
+function normalizeSearch(value: string) {
+  return value.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLocaleLowerCase("sv").replace(/[^a-z0-9åäö]+/g, " ").trim();
+}
+
 function areaMatches(area: AreaSummary, query: string, filter: string) {
-  const haystack = `${area.name} ${area.description} ${area.categories.join(" ")} ${area.searchText}`.toLocaleLowerCase("sv");
-  const matchesQuery = haystack.includes(query.toLocaleLowerCase("sv").trim());
+  const haystack = normalizeSearch(`${area.name} ${area.description} ${area.categories.join(" ")} ${area.searchText}`);
+  const matchesQuery = haystack.includes(normalizeSearch(query));
   const matchesFilter = filter === "Alla"
     || (filter === "Klippa" && !area.categories.some((category) => /boulder/i.test(category)))
     || (filter === "Boulder" && area.categories.some((category) => /boulder/i.test(category)))
+    || (filter === "Sport" && /\bsport/i.test(haystack))
+    || (filter === "Trad" && /\btrad/i.test(haystack))
+    || (filter === "Is" && area.categories.some((category) => /(^|\s)is($|\s)/i.test(category)))
+    || (filter === "Med bilder" && area.imageCount > 0)
     || (filter === "Access" && Boolean(area.accessSlug));
   return matchesQuery && matchesFilter;
+}
+
+function areaQualityScore(area: AreaSummary) {
+  const warnings = area.categories.join(" ");
+  const stars = Number(warnings.match(/(\d)\s*stjärn/i)?.[1] || 0);
+  return Math.min(100,
+    (area.coordinates?.latitude != null && area.coordinates.longitude != null ? 18 : 0)
+    + (area.imageCount > 0 ? 18 : 0)
+    + (area.imageCount > 2 ? 4 : 0)
+    + (area.routeCount > 0 ? 10 : 0)
+    + (area.routeCount >= 10 ? 5 : 0)
+    + (area.description.length >= 100 ? 12 : 0)
+    + (!/saknar|behöver kvalitetssäkras|bimbo/i.test(warnings) ? 28 : 0)
+    + Math.min(5, stars * 2)
+  );
 }
 
 export function GuideApp({ areas, initialArea }: { areas: AreaSummary[]; initialArea: Area | null }) {
   const [query, setQuery] = useState("");
   const [filter, setFilter] = useState("Alla");
+  const [sort, setSort] = useState<"Kvalitet" | "A–Ö" | "Flest leder">("Kvalitet");
   const [selected, setSelected] = useState<Area | null>(initialArea);
+  const [routeSeed, setRouteSeed] = useState<{ slug: string; value: string } | null>(null);
   const [showLanding, setShowLanding] = useState(true);
   const [loading, setLoading] = useState(false);
   const [showSuggestion, setShowSuggestion] = useState(false);
@@ -53,20 +78,50 @@ export function GuideApp({ areas, initialArea }: { areas: AreaSummary[]; initial
   const selectedAccessSlug = selected?.access.federationSlug || null;
   const access = accessResult?.slug === selectedAccessSlug ? accessResult.info : null;
 
-  const filtered = useMemo(() => areas.filter((area) => areaMatches(area, query, filter)), [areas, filter, query]);
+  const filtered = useMemo(() => areas.filter((area) => areaMatches(area, query, filter)).sort((left, right) => {
+    if (sort === "A–Ö") return left.name.localeCompare(right.name, "sv");
+    if (sort === "Flest leder") return right.routeCount - left.routeCount || left.name.localeCompare(right.name, "sv");
+    return areaQualityScore(right) - areaQualityScore(left) || right.routeCount - left.routeCount || left.name.localeCompare(right.name, "sv");
+  }), [areas, filter, query, sort]);
   const displayedAreas = useMemo(() => {
     if (!selected || query.trim() || !filtered.some((area) => area.slug === selected.slug)) return filtered;
     return [filtered.find((area) => area.slug === selected.slug)!, ...filtered.filter((area) => area.slug !== selected.slug)];
   }, [filtered, query, selected]);
-  const featuredAreas = useMemo(() => [...areas]
-    .filter((area) => area.routeCount > 0 && !area.categories.some((category) => /behöver kvalitetssäkras|bimbo/i.test(category)))
-    .sort((left, right) => right.routeCount - left.routeCount)
-    .slice(0, 6), [areas]);
+  const landingGroups = useMemo(() => {
+    const usable = areas.filter((area) => area.routeCount > 0);
+    const ranked = (items: AreaSummary[]) => [...items].sort((left, right) => areaQualityScore(right) - areaQualityScore(left) || right.routeCount - left.routeCount).slice(0, 4);
+    return [
+      { title: "Bäst fältdata", description: "Karta, bilder och strukturerat innehåll", areas: ranked(usable) },
+      { title: "Sportklättring", description: "Klippor med sportleder", areas: ranked(usable.filter((area) => /\bsport/i.test(`${area.categories.join(" ")} ${area.searchText}`))) },
+      { title: "Bouldering", description: "Områden med problem och block", areas: ranked(usable.filter((area) => area.categories.some((category) => /boulder/i.test(category)))) },
+    ].filter((group) => group.areas.length > 0);
+  }, [areas]);
 
-  async function selectArea(slug: string) {
+  async function selectArea(slug: string, initialRouteQuery = "") {
+    const routeSeedFor = (area: Area) => {
+      const needle = normalizeSearch(initialRouteQuery);
+      if (!needle) return "";
+      return area.routes.some((route) => normalizeSearch(`${route.name} ${route.grade || ""} ${route.number || ""}`).includes(needle))
+        ? initialRouteQuery
+        : "";
+    };
+    if (selected?.slug === slug) {
+      const value = routeSeedFor(selected);
+      setRouteSeed(value ? { slug, value } : null);
+      setQuery("");
+      setShowLanding(false);
+      return;
+    }
     setLoading(true);
     const response = await fetch(`/api/areas/${slug}`);
-    if (response.ok) { setSelected(await response.json()); setShowLanding(false); }
+    if (response.ok) {
+      const nextArea: Area = await response.json();
+      const value = routeSeedFor(nextArea);
+      setSelected(nextArea);
+      setRouteSeed(value ? { slug, value } : null);
+      setQuery("");
+      setShowLanding(false);
+    }
     setLoading(false);
   }
 
@@ -91,8 +146,9 @@ export function GuideApp({ areas, initialArea }: { areas: AreaSummary[]; initial
           <input className="search" value={query} onChange={(event) => {
             const value = event.target.value;
             setQuery(value);
+            if (value.trim()) setShowLanding(false);
             const matches = areas.filter((area) => areaMatches(area, value, filter));
-            if (value.trim() && matches.length === 1 && matches[0].slug !== selected?.slug) void selectArea(matches[0].slug);
+            if (value.trim() && matches.length === 1) void selectArea(matches[0].slug, value.trim());
           }} placeholder="Sök område, led eller grad…" />
         </label>
         <div className="header-actions">
@@ -109,15 +165,16 @@ export function GuideApp({ areas, initialArea }: { areas: AreaSummary[]; initial
           <div className="landing-actions"><button className="primary-button" type="button" onClick={() => setShowLanding(false)}>Utforska alla områden</button><button className="ghost-button" type="button" onClick={() => setShowAbout(true)}>Så fungerar projektet</button></div>
           <div className="landing-stats"><div><strong>{areas.length}</strong><span>områden</span></div><div><strong>{areas.reduce((sum, area) => sum + area.routeCount, 0)}</strong><span>leder & problem</span></div><div><strong>2014→2026</strong><span>öppen kunskap</span></div></div>
         </section>
-        <section className="landing-featured" aria-labelledby="featured-title"><div><span className="eyebrow">Börja utforska</span><h2 id="featured-title">Innehållsrika områden</h2></div><div className="landing-area-grid">{featuredAreas.map((area) => <button type="button" key={area.id} onClick={() => selectArea(area.slug)}><span><strong>{area.name}</strong><small>{area.categories.slice(0, 2).join(" · ") || "Sverige"}</small></span><b>{area.routeCount}</b></button>)}</div></section>
+        <section className="landing-featured" aria-labelledby="featured-title"><div><span className="eyebrow">Börja utforska</span><h2 id="featured-title">Hitta efter klätterdag</h2></div><div className="landing-groups">{landingGroups.map((group) => <section key={group.title}><div><h3>{group.title}</h3><p>{group.description}</p></div><div className="landing-area-grid">{group.areas.map((area) => <button type="button" key={area.id} onClick={() => selectArea(area.slug)}><span><strong>{area.name}</strong><small>{area.routeCount} leder · {area.categories.slice(0, 1).join("") || "Sverige"}</small></span><b title="Beräknad kvalitet på fältdata">{areaQualityScore(area)}%</b></button>)}</div></section>)}</div></section>
       </main> : <div className="workspace">
         <aside className="area-nav">
           <div className="nav-kicker">{filtered.length} av {areas.length} områden</div>
           <div className="filter-row" aria-label="Filtrera områden">
-            {["Alla", "Klippa", "Boulder", "Access"].map((option) => (
+            {["Alla", "Klippa", "Boulder", "Sport", "Trad", "Is", "Med bilder", "Access"].map((option) => (
               <button key={option} className={`filter-chip ${filter === option ? "active" : ""}`} type="button" onClick={() => setFilter(option)}>{option}</button>
             ))}
           </div>
+          <div className="sort-row" aria-label="Sortera områden">{(["Kvalitet", "A–Ö", "Flest leder"] as const).map((option) => <button key={option} className={sort === option ? "active" : ""} type="button" onClick={() => setSort(option)}>{option}</button>)}</div>
           <div className="area-list">
             {displayedAreas.map((area) => (
               <button className={`area-item ${selected?.slug === area.slug ? "active" : ""}`} type="button" key={area.id} onClick={() => selectArea(area.slug)}>
@@ -129,7 +186,7 @@ export function GuideApp({ areas, initialArea }: { areas: AreaSummary[]; initial
         </aside>
 
         <main className="main-canvas" aria-busy={loading}>
-          {selected ? <AreaView key={selected.slug} area={selected} access={access} globalQuery={query} onSuggest={() => setShowSuggestion(true)} /> : <div className="empty">Inget område valt.</div>}
+          {selected ? <AreaView key={`${selected.slug}:${routeSeed?.slug === selected.slug ? routeSeed.value : ""}`} area={selected} access={access} initialRouteQuery={routeSeed?.slug === selected.slug ? routeSeed.value : ""} onSuggest={() => setShowSuggestion(true)} /> : <div className="empty">Inget område valt.</div>}
         </main>
       </div>}
       {showSuggestion && selected && <SuggestionDialog area={selected} onClose={() => setShowSuggestion(false)} />}
@@ -191,20 +248,15 @@ function AreaMap({ area }: { area: Area }) {
   return <div id="area-map" ref={mapRef} aria-label={`Karta över ${area.name}`} />;
 }
 
-function AreaView({ area, access, globalQuery, onSuggest }: { area: Area; access: AccessInfo | null; globalQuery: string; onSuggest: () => void }) {
+function AreaView({ area, access, initialRouteQuery, onSuggest }: { area: Area; access: AccessInfo | null; initialRouteQuery: string; onSuggest: () => void }) {
   const routeCount = area.routes.length;
-  const [routeQuery, setRouteQuery] = useState<string | null>(null);
+  const [routeQuery, setRouteQuery] = useState(initialRouteQuery);
   const [discipline, setDiscipline] = useState<"all" | "route" | "problem">("all");
   const [sectorId, setSectorId] = useState("all");
   const [openImage, setOpenImage] = useState<Area["images"][number] | null>(null);
   const [selectedRouteId, setSelectedRouteId] = useState<string | null>(null);
   const [showBeta, setShowBeta] = useState(false);
-  const normalizedGlobalQuery = globalQuery.trim().toLocaleLowerCase("sv");
-  const globalRouteQuery = normalizedGlobalQuery
-    && normalizedGlobalQuery !== area.name.toLocaleLowerCase("sv")
-    && area.routes.some((route) => `${route.name} ${route.grade}`.toLocaleLowerCase("sv").includes(normalizedGlobalQuery)) ? globalQuery.trim() : "";
-  const effectiveRouteQuery = routeQuery ?? globalRouteQuery;
-  const normalizedRouteQuery = effectiveRouteQuery.toLocaleLowerCase("sv").trim();
+  const normalizedRouteQuery = normalizeSearch(routeQuery);
   const sectionById = useMemo(() => new Map(area.sections.map((section) => [section.id, section])), [area.sections]);
   const sectors = useMemo(() => {
     const counts = new Map<string, { id: string; title: string; count: number }>();
@@ -219,7 +271,7 @@ function AreaView({ area, access, globalQuery, onSuggest }: { area: Area; access
   const visibleRoutes = area.routes.filter((route) => {
     const matchesDiscipline = discipline === "all" || route.kind === discipline;
     const matchesSector = sectorId === "all" || route.sectorId === sectorId;
-    const haystack = `${route.name} ${route.grade} ${route.type} ${route.description}`.toLocaleLowerCase("sv");
+    const haystack = normalizeSearch(`${route.name} ${route.grade} ${route.type} ${route.description}`);
     return matchesDiscipline && matchesSector && (!normalizedRouteQuery || haystack.includes(normalizedRouteQuery));
   });
   const exactRoute = visibleRoutes.length === 1 ? visibleRoutes[0] : null;
@@ -261,17 +313,12 @@ function AreaView({ area, access, globalQuery, onSuggest }: { area: Area; access
     && (routeImageRelation(image, route.id)?.confidence || 0) >= 0.7
   );
   const renderTopoVisual = (image: Area["images"][number], sectorTitle: string) => {
-    const annotatedRoutes = routesForTopo(image);
     return <div className="topo-visual">
       <button className="topo-image-open" type="button" onClick={() => setOpenImage(image)} aria-label={`Öppna skiss för ${sectorTitle} i full storlek`}>
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img src={`/api/media/${encodeURIComponent(image.filename)}`} alt={image.caption || `Skiss över ${sectorTitle}`} loading="lazy" />
         <span>Öppna stort</span>
       </button>
-      {annotatedRoutes.length > 0 && <details className="topo-annotations" open>
-        <summary>Lednyckel <span>{annotatedRoutes.length} leder</span></summary>
-        <div>{annotatedRoutes.map((route) => <button type="button" key={route.id} onClick={() => { setSelectedRouteId(route.id); setShowBeta(false); }} title={`Öppna fältkort för ${route.name}`}><b>{route.number || "–"}</b><span>{route.name}</span>{route.grade && <em>{route.grade}</em>}</button>)}</div>
-      </details>}
     </div>;
   };
   const directions = area.sections.find((section) => /vägbeskrivning|hitta hit|anmarsch/i.test(section.title));
@@ -292,7 +339,8 @@ function AreaView({ area, access, globalQuery, onSuggest }: { area: Area; access
       const score = (image: Area["images"][number]) => Number(image.routeIds?.includes(selectedRoute!.id)) * 2 + Number(image.filename.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLocaleLowerCase("sv").replace(/[^a-z0-9]+/g, "").includes(selectedRouteImageKey));
       return score(right) - score(left);
     });
-  const openImageRoute = selectedRoute && openImage?.routeIds?.includes(selectedRoute.id) ? selectedRoute : null;
+  const openImageRoutes = openImage ? routesForTopo(openImage) : [];
+  const openImageRoute = selectedRoute && openImage && routeImageRelation(openImage, selectedRoute.id) ? selectedRoute : null;
   const openImageRouteColor = openImageRoute?.description.match(/^\(([^)]+)\)/)?.[1] || null;
   const climbingLabel = routeTotal > 0 && problemTotal > 0 ? "Repklättring · Bouldering" : problemTotal > 0 ? "Bouldering" : routeTotal > 0 ? "Repklättring" : "Svenskt klätterområde";
   const countLabel = routeTotal > 0 && problemTotal > 0 ? "leder & problem" : problemTotal > 0 ? "problem" : "leder";
@@ -340,7 +388,8 @@ function AreaView({ area, access, globalQuery, onSuggest }: { area: Area; access
             </div>}
             <label>
               <span className="sr-only">Sök led i {area.name}</span>
-              <input value={effectiveRouteQuery} onChange={(event) => setRouteQuery(event.target.value)} placeholder={`Sök bland ${routeCount} ${countLabel}…`} />
+              <input value={routeQuery} onChange={(event) => setRouteQuery(event.target.value)} placeholder={`Sök bland ${routeCount} ${countLabel}…`} />
+              {routeQuery && <button className="route-search-clear" type="button" onClick={() => setRouteQuery("")} aria-label="Rensa ledsökning">×</button>}
             </label>
             <div className="sector-tabs" aria-label="Välj sektor">
               <button type="button" className={sectorId === "all" ? "active" : ""} onClick={() => setSectorId("all")}>Alla sektorer <small>{disciplineTotal}</small></button>
@@ -425,8 +474,11 @@ function AreaView({ area, access, globalQuery, onSuggest }: { area: Area; access
       {openImage && <div className="image-modal" role="presentation" onMouseDown={(event) => { if (event.target === event.currentTarget) setOpenImage(null); }}>
         <section role="dialog" aria-modal="true" aria-label={`Skiss eller bild från ${area.name}`}>
           <div className="image-modal-head"><div><span className="eyebrow">{openImage.sectorId ? sectionById.get(openImage.sectorId)?.title || area.name : area.name}</span><strong>{openImage.caption || "Skiss från originalföraren"}</strong></div><button type="button" onClick={() => setOpenImage(null)} aria-label="Stäng skiss">×</button></div>
-          {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img src={`/api/media/${encodeURIComponent(openImage.filename)}`} alt={openImage.caption || `Skiss eller bild från ${area.name}`} />
+          <div className="image-modal-visual">
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img src={`/api/media/${encodeURIComponent(openImage.filename)}`} alt={openImage.caption || `Skiss eller bild från ${area.name}`} />
+            {openImageRoutes.length > 0 && <details className="image-modal-annotations" open><summary>Lednyckel <span>{openImageRoutes.length} leder</span></summary><div>{openImageRoutes.map((route) => <button type="button" key={route.id} onClick={() => { setOpenImage(null); setSelectedRouteId(route.id); setShowBeta(false); }} title={`Öppna fältkort för ${route.name}`}><b>{route.number || "–"}</b><span>{route.name}</span>{route.grade && <em>{route.grade}</em>}</button>)}</div></details>}
+          </div>
           {openImageRoute && <div className="image-route-context"><strong>{openImageRoute.number || "Utan nummer"} · {openImageRoute.name}</strong><span>{openImageRoute.grade || "Ograderad"}{openImageRouteColor ? ` · ${openImageRouteColor.toLocaleLowerCase("sv")} i originaltopon` : ""}</span></div>}
           <p>Lednumren i listan motsvarar originalskissen när ett nummer finns angivet i källan.</p>
         </section>
