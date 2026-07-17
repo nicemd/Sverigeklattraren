@@ -1,9 +1,8 @@
 import { z } from "zod";
 
-const sourceUrlSchema = z.string().url().refine((value) => {
-  const protocol = new URL(value).protocol;
-  return protocol === "https:" || protocol === "http:";
-}, "Källan måste använda http eller https").nullable();
+// OpenAI Structured Outputs accepterar inte JSON Schema-formatet `uri`.
+// Ett explicit mönster behåller protokollgrinden utan att generera format: "uri".
+const sourceUrlSchema = z.string().regex(/^https?:\/\/[^\s]+$/i, "Källan måste vara en fullständig http- eller https-adress").nullable();
 
 export const factSchema = z.object({
   claim: z.string(),
