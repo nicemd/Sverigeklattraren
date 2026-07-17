@@ -45,6 +45,7 @@ export function GuideApp({ areas, initialArea }: { areas: AreaSummary[]; initial
   const [query, setQuery] = useState("");
   const [filter, setFilter] = useState("Alla");
   const [selected, setSelected] = useState<Area | null>(initialArea);
+  const [showLanding, setShowLanding] = useState(true);
   const [loading, setLoading] = useState(false);
   const [showSuggestion, setShowSuggestion] = useState(false);
   const [showAbout, setShowAbout] = useState(false);
@@ -57,11 +58,15 @@ export function GuideApp({ areas, initialArea }: { areas: AreaSummary[]; initial
     if (!selected || query.trim() || !filtered.some((area) => area.slug === selected.slug)) return filtered;
     return [filtered.find((area) => area.slug === selected.slug)!, ...filtered.filter((area) => area.slug !== selected.slug)];
   }, [filtered, query, selected]);
+  const featuredAreas = useMemo(() => [...areas]
+    .filter((area) => area.routeCount > 0 && !area.categories.some((category) => /behöver kvalitetssäkras|bimbo/i.test(category)))
+    .sort((left, right) => right.routeCount - left.routeCount)
+    .slice(0, 6), [areas]);
 
   async function selectArea(slug: string) {
     setLoading(true);
     const response = await fetch(`/api/areas/${slug}`);
-    if (response.ok) setSelected(await response.json());
+    if (response.ok) { setSelected(await response.json()); setShowLanding(false); }
     setLoading(false);
   }
 
@@ -77,10 +82,10 @@ export function GuideApp({ areas, initialArea }: { areas: AreaSummary[]; initial
   return (
     <div className="app-shell">
       <header className="site-header">
-        <div className="brand" aria-label="Sverigeföraren">
+        <button className="brand" type="button" aria-label="Till Sverigeförarens startsida" onClick={() => { setShowLanding(true); setQuery(""); }}>
           <div className="brand-mark">SF</div>
           <div><strong>Sverigeföraren</strong><small>Öppen klätterkunskap</small></div>
-        </div>
+        </button>
         <label className="search-wrap">
           <span className="sr-only">Sök område eller led</span>
           <input className="search" value={query} onChange={(event) => {
@@ -96,7 +101,16 @@ export function GuideApp({ areas, initialArea }: { areas: AreaSummary[]; initial
         </div>
       </header>
 
-      <div className="workspace">
+      {showLanding ? <main className="landing-page">
+        <section className="landing-hero">
+          <span className="eyebrow">Öppen klätterkunskap</span>
+          <h1>Hitta klippan.<br />Hitta leden.</h1>
+          <p>En modern fältförare byggd från den öppna Sverigeföraren. Sök bland {areas.length} områden, välj sektor och se skissen tillsammans med lederna.</p>
+          <div className="landing-actions"><button className="primary-button" type="button" onClick={() => setShowLanding(false)}>Utforska alla områden</button><button className="ghost-button" type="button" onClick={() => setShowAbout(true)}>Så fungerar projektet</button></div>
+          <div className="landing-stats"><div><strong>{areas.length}</strong><span>områden</span></div><div><strong>{areas.reduce((sum, area) => sum + area.routeCount, 0)}</strong><span>leder & problem</span></div><div><strong>2014→2026</strong><span>öppen kunskap</span></div></div>
+        </section>
+        <section className="landing-featured" aria-labelledby="featured-title"><div><span className="eyebrow">Börja utforska</span><h2 id="featured-title">Innehållsrika områden</h2></div><div className="landing-area-grid">{featuredAreas.map((area) => <button type="button" key={area.id} onClick={() => selectArea(area.slug)}><span><strong>{area.name}</strong><small>{area.categories.slice(0, 2).join(" · ") || "Sverige"}</small></span><b>{area.routeCount}</b></button>)}</div></section>
+      </main> : <div className="workspace">
         <aside className="area-nav">
           <div className="nav-kicker">{filtered.length} av {areas.length} områden</div>
           <div className="filter-row" aria-label="Filtrera områden">
@@ -117,7 +131,7 @@ export function GuideApp({ areas, initialArea }: { areas: AreaSummary[]; initial
         <main className="main-canvas" aria-busy={loading}>
           {selected ? <AreaView key={selected.slug} area={selected} access={access} globalQuery={query} onSuggest={() => setShowSuggestion(true)} /> : <div className="empty">Inget område valt.</div>}
         </main>
-      </div>
+      </div>}
       {showSuggestion && selected && <SuggestionDialog area={selected} onClose={() => setShowSuggestion(false)} />}
       {showAbout && <AboutDialog onClose={() => setShowAbout(false)} />}
     </div>
@@ -179,7 +193,7 @@ function AreaMap({ area }: { area: Area }) {
 
 function AreaView({ area, access, globalQuery, onSuggest }: { area: Area; access: AccessInfo | null; globalQuery: string; onSuggest: () => void }) {
   const routeCount = area.routes.length;
-  const [routeQuery, setRouteQuery] = useState("");
+  const [routeQuery, setRouteQuery] = useState<string | null>(null);
   const [discipline, setDiscipline] = useState<"all" | "route" | "problem">("all");
   const [sectorId, setSectorId] = useState("all");
   const [openImage, setOpenImage] = useState<Area["images"][number] | null>(null);
@@ -189,7 +203,7 @@ function AreaView({ area, access, globalQuery, onSuggest }: { area: Area; access
   const globalRouteQuery = normalizedGlobalQuery
     && normalizedGlobalQuery !== area.name.toLocaleLowerCase("sv")
     && area.routes.some((route) => `${route.name} ${route.grade}`.toLocaleLowerCase("sv").includes(normalizedGlobalQuery)) ? globalQuery.trim() : "";
-  const effectiveRouteQuery = routeQuery || globalRouteQuery;
+  const effectiveRouteQuery = routeQuery ?? globalRouteQuery;
   const normalizedRouteQuery = effectiveRouteQuery.toLocaleLowerCase("sv").trim();
   const sectionById = useMemo(() => new Map(area.sections.map((section) => [section.id, section])), [area.sections]);
   const sectors = useMemo(() => {
@@ -348,7 +362,7 @@ function AreaView({ area, access, globalQuery, onSuggest }: { area: Area; access
                       <img src={`/api/media/${encodeURIComponent(image.filename)}`} alt={image.caption || `Skiss över ${selectedSector.title}`} loading="lazy" />
                       <span>Öppna skissen stort</span>
                     </button>
-                    <div className="sector-topo-caption"><strong>{image.caption || `Skiss över ${selectedSector.title}`}</strong>{relatedRoutes.length > 0 ? <><span>Lednummer i skissen</span><div className="topo-route-links">{relatedRoutes.map((route) => <button type="button" key={route.id} onClick={() => { setSelectedRouteId(route.id); setShowBeta(false); }} title={`Öppna ${route.name}`}><b>{route.number || "–"}</b>{route.name}</button>)}</div></> : <span>Skissen hör till sektorn, men lednummer har ännu inte kunnat läsas säkert.</span>}</div>
+                    <div className="sector-topo-caption"><strong>{image.caption || `Skiss över ${selectedSector.title}`}</strong><span>{relatedRoutes.length > 0 ? `${relatedRoutes.length} lednummer har kopplats till skissen` : "Skissen hör till sektorn, men lednummer har ännu inte kunnat läsas säkert."}</span></div>
                   </article>;
                 })}
               </div>
@@ -367,13 +381,13 @@ function AreaView({ area, access, globalQuery, onSuggest }: { area: Area; access
               ))}
             </div>
           )}
-          <div className="route-list">
+          <div className={`route-list ${sectorId !== "all" ? "sector-route-list" : ""}`}>
             {visibleRoutes.map((route, visibleIndex) => (
               <Fragment key={route.id}>
               {(visibleIndex === 0 || visibleRoutes[visibleIndex - 1]?.sectorId !== route.sectorId) && (sectorId === "all" || selectedSectorImages.length === 0) && <div className="sector-heading"><strong>{route.sectorId ? sectionById.get(route.sectorId)?.title || "Övriga leder" : "Övriga leder"}</strong><span><RichText text={route.sectorId ? sectionById.get(route.sectorId)?.body || "Sektorsbeskrivning saknas i originalet." : "Sektorsbeskrivning saknas i originalet."} /></span></div>}
               <button type="button" className={`route-row ${exactRoute?.id === route.id ? "highlighted" : ""}`} onClick={() => { setSelectedRouteId(route.id); setShowBeta(false); }} aria-label={`Öppna fältkort för ${route.name}`}>
                 <span className="route-number" title={route.number ? "Nummer i originalets skiss/lista" : "Lednummer saknas i originalkällan"}>{route.number || "–"}</span>
-                <span className="route-name"><strong>{route.name}</strong><small>Visa fältkort{area.images.some((image) => image.imageKind !== "photo" && image.imageKind !== "map" && (routeImageRelation(image, route.id)?.confidence || 0) >= 0.7) ? " · skiss finns" : ""}</small></span>
+                <span className="route-name"><strong>{route.name}</strong><small>Visa fältkort{area.images.some((image) => image.imageKind !== "photo" && image.imageKind !== "map" && (routeImageRelation(image, route.id)?.confidence || 0) >= 0.7) ? " · finns i skissen" : ""}</small>{sectorId !== "all" && route.description && <span className="route-inline-description">{route.description}</span>}</span>
                 <span className="grade">{route.grade || "–"}</span>
                 <span className="route-length">{route.length ? `${route.length} m` : route.type}</span>
               </button>
@@ -439,32 +453,36 @@ function SuggestionDialog({ area, onClose }: { area: Area; onClose: () => void }
   const [message, setMessage] = useState("");
   const [conversation, setConversation] = useState<ConversationEntry[]>([]);
   const [pending, setPending] = useState(false);
+  const [status, setStatus] = useState<string | null>(null);
 
-  async function submit(event: React.FormEvent) {
-    event.preventDefault();
-    if (!message.trim() || pending) return;
-    const next = [...conversation, { role: "user" as const, content: message.trim() }];
+  async function send(content: string) {
+    if (!content.trim() || pending) return;
+    const next = [...conversation, { role: "user" as const, content: content.trim() }];
     setConversation(next);
     setMessage("");
     setPending(true);
     try {
       const response = await fetch("/api/suggestions", { method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify({ areaSlug: area.slug, conversation: next }) });
       const result = await response.json();
+      setStatus(result.status || "error");
       setConversation([...next, { role: "assistant", content: result.reply || result.error || "Förslaget kunde inte behandlas." }]);
     } catch {
       setConversation([...next, { role: "assistant", content: "Tjänsten kunde inte nås. Försök igen om en stund." }]);
     } finally { setPending(false); }
   }
 
+  function submit(event: React.FormEvent) { event.preventDefault(); void send(message); }
+
   return (
     <div className="modal-backdrop" role="presentation" onMouseDown={(event) => { if (event.target === event.currentTarget) onClose(); }}>
       <section className="modal" role="dialog" aria-modal="true" aria-labelledby="suggest-title">
         <div className="modal-head"><div><span className="eyebrow" style={{ color: "var(--forest)" }}>Kunskapsbidrag</span><h2 id="suggest-title">Förbättra {area.name}</h2></div><button className="close-button" type="button" onClick={onClose} aria-label="Stäng">×</button></div>
-        <p>Beskriv vad som är fel eller saknas. Redaktörsagenten ställer följdfrågor tills uppgiften går att källbelägga och granska.</p>
+        <p>Beskriv ändringen med egna ord. Agenten använder områdets befintliga innehåll som kontext och frågar bara när något avgörande saknas.</p>
         <div className="conversation">{conversation.map((entry, index) => <div key={index} className={`bubble ${entry.role}`}>{entry.content}</div>)}</div>
+        {status === "needs_information" && !pending && <div className="suggestion-shortcuts"><button type="button" onClick={() => void send("Ja, gör så utifrån din sammanfattning.")}>Ja, gör så</button><button type="button" onClick={() => setMessage("Jag vill förtydliga: ")}>Jag vill förtydliga</button></div>}
         <form className="suggestion-form" onSubmit={submit}>
-          <textarea value={message} onChange={(event) => setMessage(event.target.value)} placeholder="Exempel: Parkeringen har flyttats till… Källa: …" aria-label="Ditt ändringsförslag" />
-          <div className="form-actions"><small>Fakta publiceras bara när källor och kvalitet klarar granskningsgrinden.</small><button className="primary-button" disabled={pending} type="submit">{pending ? "Granskar…" : "Fortsätt"}</button></div>
+          <textarea value={message} onChange={(event) => setMessage(event.target.value)} placeholder={conversation.length ? "Svara kort eller lägg till en detalj…" : "Exempel: Ta bort stycket om tv-serien i den allmänna beskrivningen."} aria-label="Ditt ändringsförslag" />
+          <div className="form-actions"><small>Redaktionella ändringar kan bygga på ditt godkännande. Nya fakta behöver en kontrollerbar källa.</small><button className="primary-button" disabled={pending || !message.trim()} type="submit">{pending ? "Granskar…" : conversation.length ? "Skicka svar" : "Skicka förslag"}</button></div>
         </form>
       </section>
     </div>
