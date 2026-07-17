@@ -42,6 +42,7 @@
       "type": "trad",
       "firstAscent": "David Kleman, Love Calissendorff, -07",
       "description": "Det tydliga diedret på vänstra delen av klippan. Krux på mitten. Säkras med ett par små friends.",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:berghamn",
         "path": "mediawiki/Berghamn.txt"
@@ -52,17 +53,20 @@
     {
       "filename": "Berghamn001.jpg",
       "caption": "Jonas Ahlman",
-      "missing": false
+      "missing": false,
+      "sectorId": "leder"
     },
     {
       "filename": "Berghamn003.jpg",
       "caption": "Jonas Ahlman",
-      "missing": false
+      "missing": false,
+      "sectorId": "leder"
     },
     {
       "filename": "Berghamn002.jpg",
       "caption": "Jonas Ahlman",
-      "missing": false
+      "missing": false,
+      "sectorId": "leder"
     }
   ],
   "access": {

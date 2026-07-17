@@ -25,6 +25,16 @@
       "body": "Ca 180 leder. Bitvis äventyrligt med möjlighet till turer med flera replängder eller utdragna enkelrepor. Fjällbo är på vissa ställen ganska hylligt, vilket gör att man ibland behöver pitcha sig upp för att komma åt godbitarna. Områden som Koskenkorva, Hollywoodväggen och Skivblocket lämpar sig för topprep om man vill (tänk på att inte toppa direkt i firningsankarna, sätt egna karbiner för att undvika slitage), i övrigt krävs mestadels ledkunskaper. Glöm inte att ta med några 60-slingor. Att rekommendera är Bananblocket, Hollywoodväggen och Skivblocket Bultade turer lite här och var, men framför allt på Rabiesväggen."
     },
     {
+      "id": "access",
+      "title": "Access",
+      "body": ""
+    },
+    {
+      "id": "oversikt",
+      "title": "Översikt",
+      "body": ""
+    },
+    {
       "id": "vanster-om-koskenkorva",
       "title": "Vänster om koskenkorva",
       "body": "4 odefinierade leder som ingen? vet var de går... En gissning är att de två sista lederna går från rampen/hyllan på väggen till höger om hörnet där man går upp till toppen på Koskenkorva. Det finns två \"linjer\" där, ca 2 meter ifrån varandra, som stämmer ungefär med beskrivningarna förutom att de nog är 5-6 meter istället för 7. Även graden stämmer ungefär och att dessa är 7m och de andra är 9m talar för att de är på denna hylla. I så fall borde Ostronet vara \"linjen\" som toppar ut precis vänster om hörnet. -- Rob"
@@ -35,9 +45,19 @@
       "body": "Fin klättring i 5:a-registret. För att sätta topprepp går det går att skrambla upp femtio meter vänster om Koskenkorva."
     },
     {
+      "id": "ikaros",
+      "title": "Ikaros",
+      "body": ""
+    },
+    {
       "id": "hollywoodvaggen",
       "title": "Hollywoodväggen",
       "body": "En fin vägg som ligger lite skuggigt bakom träd."
+    },
+    {
+      "id": "slowfox",
+      "title": "Slowfox",
+      "body": ""
     },
     {
       "id": "sahara",
@@ -106,6 +126,7 @@
       "type": "",
       "firstAscent": "",
       "description": "Längs med vägen mellan fjällbo och utby, i stora korsningen rakt upp för det uppenbara hörnet",
+      "sectorId": "vanster-om-koskenkorva",
       "source": {
         "id": "legacy:fjallbo",
         "path": "mediawiki/Fjällbo.txt"
@@ -121,6 +142,7 @@
       "type": "trad",
       "firstAscent": "Patrik Alseby",
       "description": "",
+      "sectorId": "vanster-om-koskenkorva",
       "source": {
         "id": "legacy:fjallbo",
         "path": "mediawiki/Fjällbo.txt"
@@ -136,6 +158,7 @@
       "type": "trad",
       "firstAscent": "Patrik Alseby",
       "description": "",
+      "sectorId": "vanster-om-koskenkorva",
       "source": {
         "id": "legacy:fjallbo",
         "path": "mediawiki/Fjällbo.txt"
@@ -151,6 +174,7 @@
       "type": "solo",
       "firstAscent": "Patrik Alseby",
       "description": "",
+      "sectorId": "vanster-om-koskenkorva",
       "source": {
         "id": "legacy:fjallbo",
         "path": "mediawiki/Fjällbo.txt"
@@ -166,6 +190,7 @@
       "type": "solo",
       "firstAscent": "Patrik Alseby",
       "description": "",
+      "sectorId": "vanster-om-koskenkorva",
       "source": {
         "id": "legacy:fjallbo",
         "path": "mediawiki/Fjällbo.txt"
@@ -181,6 +206,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "Sprickan/diedret vänster om Koskenkorva-lederna.",
+      "sectorId": "koskenkorva",
       "source": {
         "id": "legacy:fjallbo",
         "path": "mediawiki/Fjällbo.txt"
@@ -196,6 +222,7 @@
       "type": "trad",
       "firstAscent": "Robert Andersson, Lisa Fernell, Andy Brasier 2009-09-13",
       "description": "Diffus flaklinje på den vänstra delen av väggen. Startar ca 5 meter till vänster om Chivas Regal upp till ett tak, följ sedan flaken upp åt vänster till ett litet tak. Lite cruxig urtoppning som är lättare för längre personer. Mindre runouts på hyfsade säkringar gör den lite mer spännande än de övriga lederna. Osäker grad.",
+      "sectorId": "koskenkorva",
       "source": {
         "id": "legacy:fjallbo",
         "path": "mediawiki/Fjällbo.txt"
@@ -211,6 +238,7 @@
       "type": "trad",
       "firstAscent": "Jan Pålsgård",
       "description": "Den vänstra tydliga sprickan, insteg kan göras i koskenkorva eller via en \"groove\" strax till vänster under sprickan.",
+      "sectorId": "koskenkorva",
       "source": {
         "id": "legacy:fjallbo",
         "path": "mediawiki/Fjällbo.txt"
@@ -226,6 +254,7 @@
       "type": "trad",
       "firstAscent": "Jan Pålsgård",
       "description": "Den mittersta sprickan, går rakt upp igenom ett buskage strax innan toppen.",
+      "sectorId": "koskenkorva",
       "source": {
         "id": "legacy:fjallbo",
         "path": "mediawiki/Fjällbo.txt"
@@ -241,6 +270,7 @@
       "type": "trad",
       "firstAscent": "Jan Pålsgård",
       "description": "Tufft instegscrux följs av lätt hej och hå-klättring till toppen. Inslag av jam.",
+      "sectorId": "koskenkorva",
       "source": {
         "id": "legacy:fjallbo",
         "path": "mediawiki/Fjällbo.txt"
@@ -256,6 +286,7 @@
       "type": "trad",
       "firstAscent": "Anders Nyberg & Daniel Appelquist",
       "description": "Börja som Koskenkorva eller Drambuie och efter hyllan på mitten följ traverssprickan åt höger till Hathersages utsteg. Fin och lite känslig jamklättring. Välsäkrad, men man bör vara lite varsam med placeringarna. Framborstad av Robert Andersson, stulen utan vetskap av Anders Nyberg",
+      "sectorId": "koskenkorva",
       "source": {
         "id": "legacy:fjallbo",
         "path": "mediawiki/Fjällbo.txt"
@@ -271,6 +302,7 @@
       "type": "trad",
       "firstAscent": "Petter Åsander & Per Larsson 2010-06-16",
       "description": "Den tydliga och inbjudande \"hängande\" areten mellan Drambuie och Analkonfekt. Klättra först en lätt vägg upp till gräshylla och sen en blöt (nästan jämt) spricka för att ta dig till en kort hangeltravers som leder till areten. Aningen seriös.",
+      "sectorId": "koskenkorva",
       "source": {
         "id": "legacy:fjallbo",
         "path": "mediawiki/Fjällbo.txt"
@@ -286,6 +318,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "Liten takspricka en bra bit upp på väggen",
+      "sectorId": "koskenkorva",
       "source": {
         "id": "legacy:fjallbo",
         "path": "mediawiki/Fjällbo.txt"
@@ -301,6 +334,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "Större takspricka snäppet brevid föregående",
+      "sectorId": "koskenkorva",
       "source": {
         "id": "legacy:fjallbo",
         "path": "mediawiki/Fjällbo.txt"
@@ -316,6 +350,7 @@
       "type": "trad",
       "firstAscent": "Andy Brasier, Robert Andersson 2011-04-??",
       "description": "Istället för att toppa ur som Analkonfekt, följ sprickor och flak längs aréten efter taket. Faktiskt välsäkrat, håller graden och ger leden ett mer värdigt avslut",
+      "sectorId": "koskenkorva",
       "source": {
         "id": "legacy:fjallbo",
         "path": "mediawiki/Fjällbo.txt"
@@ -331,6 +366,7 @@
       "type": "trad",
       "firstAscent": "Andreas Eriksson -06",
       "description": "Följer det tydliga diedret till höger om Babytaket. Lång och fin välsäkrad lätt led med svakaraktär. Följer den tydliga areten på sva till en hylla sedan brant rakt upp via sprickor mot stor tall på toppen.",
+      "sectorId": "koskenkorva",
       "source": {
         "id": "legacy:fjallbo",
         "path": "mediawiki/Fjällbo.txt"
@@ -346,6 +382,7 @@
       "type": "trad",
       "firstAscent": "Andy Brasier, Lisa Fernell, Robert Andersson -09",
       "description": "Startar på samma ställe som Till Linnéa men viker av åt höger. Upp till en mindre hylla och uppför ett spricksystem mot ett träd men traversera ut åt vänster och gå upp mitt på väggen via lite suspekta flak till en större hylla, och upp i ett hörn till toppen. Lättare variant genom att undvika att gå ut på väggen och istället gå bakom trädet (4+).",
+      "sectorId": "koskenkorva",
       "source": {
         "id": "legacy:fjallbo",
         "path": "mediawiki/Fjällbo.txt"
@@ -361,6 +398,7 @@
       "type": "trad",
       "firstAscent": "Oskar Ostwald och Kristian Sidron År 2012.",
       "description": "Säker klättring upp till ett ganska seriöst utsteg. Börja i diedret till höger om Aquatic Ape och klättra därefter lite höger för att komma ut på facet. Avslutas upp på gräshyllan.",
+      "sectorId": "koskenkorva",
       "source": {
         "id": "legacy:fjallbo",
         "path": "mediawiki/Fjällbo.txt"
@@ -376,6 +414,7 @@
       "type": "trad",
       "firstAscent": "Oskar Ostwald och Kristian Sidron. År 2012.",
       "description": "Fortsättning på En tappad liten blå med start från gräshyllan. Starta i den vertikala sprickan lite till höger om toppen på En tappad liten blå. Traversera sedan höger till juggen och avsluta på mestadels knoppar.",
+      "sectorId": "koskenkorva",
       "source": {
         "id": "legacy:fjallbo",
         "path": "mediawiki/Fjällbo.txt"
@@ -391,6 +430,7 @@
       "type": "mix",
       "firstAscent": "",
       "description": "Rapporteras som fin klättring i 6-registret. Förmodligen något sparsamt och svårsäkrad. Har varit projekt sedan i alla fall 1996, men bultarna ser bra ut.",
+      "sectorId": "koskenkorva",
       "source": {
         "id": "legacy:fjallbo",
         "path": "mediawiki/Fjällbo.txt"
@@ -406,6 +446,7 @@
       "type": "",
       "firstAscent": "Piotr Bober",
       "description": "",
+      "sectorId": "koskenkorva",
       "source": {
         "id": "legacy:fjallbo",
         "path": "mediawiki/Fjällbo.txt"
@@ -421,6 +462,7 @@
       "type": "trad",
       "firstAscent": "Weine Hallberg",
       "description": "Starta vid stora eken som en sva highball. Därefter helt okej säkrat med småkammar! Upp till \"taksprickan\" och upp till en stor hylla, stand, därefter följer du flaket till toppen.",
+      "sectorId": "koskenkorva",
       "source": {
         "id": "legacy:fjallbo",
         "path": "mediawiki/Fjällbo.txt"
@@ -436,6 +478,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "",
+      "sectorId": "koskenkorva",
       "source": {
         "id": "legacy:fjallbo",
         "path": "mediawiki/Fjällbo.txt"
@@ -451,6 +494,7 @@
       "type": "trad",
       "firstAscent": "Johan Svensson",
       "description": "Via tvärsprickor upp till toppen. Något seriös.",
+      "sectorId": "ikaros",
       "source": {
         "id": "legacy:fjallbo",
         "path": "mediawiki/Fjällbo.txt"
@@ -466,6 +510,7 @@
       "type": "trad",
       "firstAscent": "Hans-Christian Doseth, Piotr Bober",
       "description": "Spricklinjen som börjar nästan ute på areten. Ett måste för den som behärskar graden",
+      "sectorId": "ikaros",
       "source": {
         "id": "legacy:fjallbo",
         "path": "mediawiki/Fjällbo.txt"
@@ -481,6 +526,7 @@
       "type": "sport",
       "firstAscent": "Henrik Sennelöv, Ola Hillberg",
       "description": "Areten till höger om Vit ambivalens",
+      "sectorId": "ikaros",
       "source": {
         "id": "legacy:fjallbo",
         "path": "mediawiki/Fjällbo.txt"
@@ -496,6 +542,7 @@
       "type": "trad",
       "firstAscent": "Dag Kolsrud, Jan Pålsgård",
       "description": "",
+      "sectorId": "ikaros",
       "source": {
         "id": "legacy:fjallbo",
         "path": "mediawiki/Fjällbo.txt"
@@ -511,6 +558,7 @@
       "type": "topprep",
       "firstAscent": "",
       "description": "",
+      "sectorId": "ikaros",
       "source": {
         "id": "legacy:fjallbo",
         "path": "mediawiki/Fjällbo.txt"
@@ -526,6 +574,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "Går upp i en spricka till en svaplatta och upp i taket och ut på väggen via en horisontal spricka och uppför den blanka väggen till tunna flak och sprickor. Väldigt seriös och kanske omöjlig?",
+      "sectorId": "ikaros",
       "source": {
         "id": "legacy:fjallbo",
         "path": "mediawiki/Fjällbo.txt"
@@ -541,6 +590,7 @@
       "type": "topprep",
       "firstAscent": "",
       "description": "",
+      "sectorId": "ikaros",
       "source": {
         "id": "legacy:fjallbo",
         "path": "mediawiki/Fjällbo.txt"
@@ -556,6 +606,7 @@
       "type": "trad",
       "firstAscent": "Ulf Björnberg, Susanne Rydfeldt",
       "description": "Lång, varierad och äventyrlig.",
+      "sectorId": "ikaros",
       "source": {
         "id": "legacy:fjallbo",
         "path": "mediawiki/Fjällbo.txt"
@@ -571,6 +622,7 @@
       "type": "trad",
       "firstAscent": "piotr Bober, Bengt Sörvik",
       "description": "",
+      "sectorId": "ikaros",
       "source": {
         "id": "legacy:fjallbo",
         "path": "mediawiki/Fjällbo.txt"
@@ -586,6 +638,7 @@
       "type": "trad",
       "firstAscent": "Dag Kolsrud, Piotr Bober",
       "description": "",
+      "sectorId": "ikaros",
       "source": {
         "id": "legacy:fjallbo",
         "path": "mediawiki/Fjällbo.txt"
@@ -601,6 +654,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "",
+      "sectorId": "ikaros",
       "source": {
         "id": "legacy:fjallbo",
         "path": "mediawiki/Fjällbo.txt"
@@ -616,6 +670,7 @@
       "type": "trad",
       "firstAscent": "Jan Pålsgård",
       "description": "Takproblem",
+      "sectorId": "ikaros",
       "source": {
         "id": "legacy:fjallbo",
         "path": "mediawiki/Fjällbo.txt"
@@ -631,6 +686,7 @@
       "type": "trad",
       "firstAscent": "Ulf Björnberg",
       "description": "ganska brant klättring på flak, äventyrlig",
+      "sectorId": "ikaros",
       "source": {
         "id": "legacy:fjallbo",
         "path": "mediawiki/Fjällbo.txt"
@@ -646,6 +702,7 @@
       "type": "sport",
       "firstAscent": "Henrik Sennelöv",
       "description": "",
+      "sectorId": "ikaros",
       "source": {
         "id": "legacy:fjallbo",
         "path": "mediawiki/Fjällbo.txt"
@@ -661,6 +718,7 @@
       "type": "sport",
       "firstAscent": "Said Belhaj (2005), Johan Nilsson, Dag Lövenwald",
       "description": "",
+      "sectorId": "ikaros",
       "source": {
         "id": "legacy:fjallbo",
         "path": "mediawiki/Fjällbo.txt"
@@ -676,6 +734,7 @@
       "type": "trad",
       "firstAscent": "Ulf Björnberg",
       "description": "Äventyr",
+      "sectorId": "ikaros",
       "source": {
         "id": "legacy:fjallbo",
         "path": "mediawiki/Fjällbo.txt"
@@ -691,6 +750,7 @@
       "type": "sport",
       "firstAscent": "Lars Ingemansson, Henrik Sennelöv",
       "description": "",
+      "sectorId": "ikaros",
       "source": {
         "id": "legacy:fjallbo",
         "path": "mediawiki/Fjällbo.txt"
@@ -706,6 +766,7 @@
       "type": "trad",
       "firstAscent": "Rikard Ekehed",
       "description": "",
+      "sectorId": "ikaros",
       "source": {
         "id": "legacy:fjallbo",
         "path": "mediawiki/Fjällbo.txt"
@@ -721,6 +782,7 @@
       "type": "trad",
       "firstAscent": "Lars Ingemansson, Arne roos",
       "description": "",
+      "sectorId": "ikaros",
       "source": {
         "id": "legacy:fjallbo",
         "path": "mediawiki/Fjällbo.txt"
@@ -736,6 +798,7 @@
       "type": "trad",
       "firstAscent": "Rickard Hedman, Piotr Bober",
       "description": "Fin överhängande fingerspricka som börjar bakom ett träd, ofta blöt.",
+      "sectorId": "ikaros",
       "source": {
         "id": "legacy:fjallbo",
         "path": "mediawiki/Fjällbo.txt"
@@ -751,6 +814,7 @@
       "type": "trad",
       "firstAscent": "Lars Ingemansson, Hans Wingdén",
       "description": "",
+      "sectorId": "ikaros",
       "source": {
         "id": "legacy:fjallbo",
         "path": "mediawiki/Fjällbo.txt"
@@ -766,6 +830,7 @@
       "type": "mix",
       "firstAscent": "Nils Sjöström, Lars Ingemansson",
       "description": "En väggtur längst till vänster på väggen som börjar i en spricka genom ett litet tak strax till höger om en stor sten.",
+      "sectorId": "hollywoodvaggen",
       "source": {
         "id": "legacy:fjallbo",
         "path": "mediawiki/Fjällbo.txt"
@@ -781,6 +846,7 @@
       "type": "trad",
       "firstAscent": "Henrik Sennelöv",
       "description": "",
+      "sectorId": "hollywoodvaggen",
       "source": {
         "id": "legacy:fjallbo",
         "path": "mediawiki/Fjällbo.txt"
@@ -796,6 +862,7 @@
       "type": "mix",
       "firstAscent": "Dag Kolsrud",
       "description": "Delikat och tekniskt. Lätt att göra bort sig.",
+      "sectorId": "hollywoodvaggen",
       "source": {
         "id": "legacy:fjallbo",
         "path": "mediawiki/Fjällbo.txt"
@@ -811,6 +878,7 @@
       "type": "trad",
       "firstAscent": "Henrik Sennelöv",
       "description": "En seriös vägghistoria som går upp till Hollywoods ankare.",
+      "sectorId": "hollywoodvaggen",
       "source": {
         "id": "legacy:fjallbo",
         "path": "mediawiki/Fjällbo.txt"
@@ -826,6 +894,7 @@
       "type": "trad",
       "firstAscent": "Hans-Chrisitan Doseth",
       "description": "Fin vänsterlutande spricklinje med stor variation. Välsäkrad",
+      "sectorId": "hollywoodvaggen",
       "source": {
         "id": "legacy:fjallbo",
         "path": "mediawiki/Fjällbo.txt"
@@ -841,6 +910,7 @@
       "type": "trad",
       "firstAscent": "Johan Nilsson",
       "description": "Viker från hollywood där sprickan börjar och sneddar ut till bob hopps ankare",
+      "sectorId": "hollywoodvaggen",
       "source": {
         "id": "legacy:fjallbo",
         "path": "mediawiki/Fjällbo.txt"
@@ -856,6 +926,7 @@
       "type": "mix",
       "firstAscent": "Rickard Hedman, Piotr Bober",
       "description": "Populär led.",
+      "sectorId": "hollywoodvaggen",
       "source": {
         "id": "legacy:fjallbo",
         "path": "mediawiki/Fjällbo.txt"
@@ -871,6 +942,7 @@
       "type": "",
       "firstAscent": "Johan Luhr & Rikard Hedman",
       "description": "",
+      "sectorId": "hollywoodvaggen",
       "source": {
         "id": "legacy:fjallbo",
         "path": "mediawiki/Fjällbo.txt"
@@ -886,6 +958,7 @@
       "type": "trad",
       "firstAscent": "Ulf Björnberg",
       "description": "Kort sva i början och sen upp i dieder. Ankare finns på toppen.",
+      "sectorId": "hollywoodvaggen",
       "source": {
         "id": "legacy:fjallbo",
         "path": "mediawiki/Fjällbo.txt"
@@ -901,6 +974,7 @@
       "type": "mix",
       "firstAscent": "Piotr Bober",
       "description": "",
+      "sectorId": "hollywoodvaggen",
       "source": {
         "id": "legacy:fjallbo",
         "path": "mediawiki/Fjällbo.txt"
@@ -916,6 +990,7 @@
       "type": "mix",
       "firstAscent": "Bogi Palfay, Jan Pålsgård",
       "description": "Dubbelsprickor i övre delen",
+      "sectorId": "hollywoodvaggen",
       "source": {
         "id": "legacy:fjallbo",
         "path": "mediawiki/Fjällbo.txt"
@@ -931,6 +1006,7 @@
       "type": "mix",
       "firstAscent": "Johan Luhr, Henrik Sennelöv",
       "description": "",
+      "sectorId": "hollywoodvaggen",
       "source": {
         "id": "legacy:fjallbo",
         "path": "mediawiki/Fjällbo.txt"
@@ -946,6 +1022,7 @@
       "type": "trad",
       "firstAscent": "Robert Casperssen, Johan Nilsson",
       "description": "",
+      "sectorId": "hollywoodvaggen",
       "source": {
         "id": "legacy:fjallbo",
         "path": "mediawiki/Fjällbo.txt"
@@ -961,6 +1038,7 @@
       "type": "trad",
       "firstAscent": "Robert Andersson, Andy Brasier (2010-07-09)",
       "description": "En läng led till höger om Hollywoodväggen som bjuder på fin, kul och lite annorlunda klättring upp till toppen av Fjällbo.",
+      "sectorId": "hollywoodvaggen",
       "source": {
         "id": "legacy:fjallbo",
         "path": "mediawiki/Fjällbo.txt"
@@ -976,6 +1054,7 @@
       "type": "trad",
       "firstAscent": "Rikard Andreasson, Jonas Nilsson",
       "description": "",
+      "sectorId": "hollywoodvaggen",
       "source": {
         "id": "legacy:fjallbo",
         "path": "mediawiki/Fjällbo.txt"
@@ -991,6 +1070,7 @@
       "type": "trad",
       "firstAscent": "Rick McGregor, Ola Hillberg",
       "description": "Stort dieder till vänster om toblerone",
+      "sectorId": "slowfox",
       "source": {
         "id": "legacy:fjallbo",
         "path": "mediawiki/Fjällbo.txt"
@@ -1006,6 +1086,7 @@
       "type": "mix",
       "firstAscent": "",
       "description": "Lång knopptur längs areten, för den som klarar handsvetten.",
+      "sectorId": "slowfox",
       "source": {
         "id": "legacy:fjallbo",
         "path": "mediawiki/Fjällbo.txt"
@@ -1021,6 +1102,7 @@
       "type": "trad",
       "firstAscent": "Per Fernqvist",
       "description": "",
+      "sectorId": "slowfox",
       "source": {
         "id": "legacy:fjallbo",
         "path": "mediawiki/Fjällbo.txt"
@@ -1036,6 +1118,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "Flerrepors äventyr med inslag av travers. Många varianter",
+      "sectorId": "slowfox",
       "source": {
         "id": "legacy:fjallbo",
         "path": "mediawiki/Fjällbo.txt"
@@ -1051,6 +1134,7 @@
       "type": "trad",
       "firstAscent": "Weine Hallberg, Jan Machek (2006-09-09)",
       "description": "En lång sprickled som letar sig upp till höger om slowfox, mer info på egen sida.",
+      "sectorId": "slowfox",
       "source": {
         "id": "legacy:fjallbo",
         "path": "mediawiki/Fjällbo.txt"
@@ -1066,6 +1150,7 @@
       "type": "aid",
       "firstAscent": "Michel Blomgren (2008-01-??)",
       "description": "Aidlinje mellan slowfoxs två utstegsvarianter, mer info på egen sida.",
+      "sectorId": "slowfox",
       "source": {
         "id": "legacy:fjallbo",
         "path": "mediawiki/Fjällbo.txt"
@@ -1081,6 +1166,7 @@
       "type": "mix",
       "firstAscent": "Johan Svensson",
       "description": "",
+      "sectorId": "sahara",
       "source": {
         "id": "legacy:fjallbo",
         "path": "mediawiki/Fjällbo.txt"
@@ -1096,6 +1182,7 @@
       "type": "trad",
       "firstAscent": "Hans-Christian Doseth",
       "description": "",
+      "sectorId": "sahara",
       "source": {
         "id": "legacy:fjallbo",
         "path": "mediawiki/Fjällbo.txt"
@@ -1111,6 +1198,7 @@
       "type": "trad",
       "firstAscent": "Jan Pålsgård, Piotr Bober, Rolf Reeder",
       "description": "",
+      "sectorId": "sahara",
       "source": {
         "id": "legacy:fjallbo",
         "path": "mediawiki/Fjällbo.txt"
@@ -1126,6 +1214,7 @@
       "type": "trad",
       "firstAscent": "Hans-Christian Doseth, Piotr Bober",
       "description": "",
+      "sectorId": "sahara",
       "source": {
         "id": "legacy:fjallbo",
         "path": "mediawiki/Fjällbo.txt"
@@ -1141,6 +1230,7 @@
       "type": "trad",
       "firstAscent": "Hans-Christian Doseth, Rickard Hedman",
       "description": "",
+      "sectorId": "sahara",
       "source": {
         "id": "legacy:fjallbo",
         "path": "mediawiki/Fjällbo.txt"
@@ -1156,6 +1246,7 @@
       "type": "trad",
       "firstAscent": "Rickard Ekehed",
       "description": "",
+      "sectorId": "sahara",
       "source": {
         "id": "legacy:fjallbo",
         "path": "mediawiki/Fjällbo.txt"
@@ -1171,6 +1262,7 @@
       "type": "",
       "firstAscent": "Henrik Sennelöv & Lars Ingemansson",
       "description": "",
+      "sectorId": "rabiesvaggen",
       "source": {
         "id": "legacy:fjallbo",
         "path": "mediawiki/Fjällbo.txt"
@@ -1186,6 +1278,7 @@
       "type": "sport",
       "firstAscent": "",
       "description": "",
+      "sectorId": "rabiesvaggen",
       "source": {
         "id": "legacy:fjallbo",
         "path": "mediawiki/Fjällbo.txt"
@@ -1201,6 +1294,7 @@
       "type": "sport",
       "firstAscent": "",
       "description": "",
+      "sectorId": "rabiesvaggen",
       "source": {
         "id": "legacy:fjallbo",
         "path": "mediawiki/Fjällbo.txt"
@@ -1216,6 +1310,7 @@
       "type": "sport",
       "firstAscent": "",
       "description": "",
+      "sectorId": "rabiesvaggen",
       "source": {
         "id": "legacy:fjallbo",
         "path": "mediawiki/Fjällbo.txt"
@@ -1231,6 +1326,7 @@
       "type": "sport",
       "firstAscent": "",
       "description": "",
+      "sectorId": "rabiesvaggen",
       "source": {
         "id": "legacy:fjallbo",
         "path": "mediawiki/Fjällbo.txt"
@@ -1246,6 +1342,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "",
+      "sectorId": "rabiesvaggen",
       "source": {
         "id": "legacy:fjallbo",
         "path": "mediawiki/Fjällbo.txt"
@@ -1261,6 +1358,7 @@
       "type": "sport",
       "firstAscent": "Mathias Carlson 1999, Åke Ljungberg -08 (trad)",
       "description": "Går upp i ett dieder till en lite svaplatta och ett nytt dieder, och går sedan ut mot och längs vänsterkanten av väggen. Mycket fin led med en del ovanliga grepp. Har letts traditionellt, med skyhooks, och då kallad \"Hooka Sky\". Se Diskussion om namnet.",
+      "sectorId": "rabiesvaggen",
       "source": {
         "id": "legacy:fjallbo",
         "path": "mediawiki/Fjällbo.txt"
@@ -1276,6 +1374,7 @@
       "type": "sport",
       "firstAscent": "",
       "description": "",
+      "sectorId": "rabiesvaggen",
       "source": {
         "id": "legacy:fjallbo",
         "path": "mediawiki/Fjällbo.txt"
@@ -1291,6 +1390,7 @@
       "type": "sport",
       "firstAscent": "",
       "description": "",
+      "sectorId": "rabiesvaggen",
       "source": {
         "id": "legacy:fjallbo",
         "path": "mediawiki/Fjällbo.txt"
@@ -1306,6 +1406,7 @@
       "type": "sport",
       "firstAscent": "",
       "description": "",
+      "sectorId": "rabiesvaggen",
       "source": {
         "id": "legacy:fjallbo",
         "path": "mediawiki/Fjällbo.txt"
@@ -1321,6 +1422,7 @@
       "type": "",
       "firstAscent": "",
       "description": "Fortsättning på Stopplikt",
+      "sectorId": "rabiesvaggen",
       "source": {
         "id": "legacy:fjallbo",
         "path": "mediawiki/Fjällbo.txt"
@@ -1336,6 +1438,7 @@
       "type": "sport",
       "firstAscent": "",
       "description": "",
+      "sectorId": "rabiesvaggen",
       "source": {
         "id": "legacy:fjallbo",
         "path": "mediawiki/Fjällbo.txt"
@@ -1351,6 +1454,7 @@
       "type": "trad",
       "firstAscent": "Nils Gustafsson",
       "description": "",
+      "sectorId": "kenneths-led",
       "source": {
         "id": "legacy:fjallbo",
         "path": "mediawiki/Fjällbo.txt"
@@ -1366,6 +1470,7 @@
       "type": "trad",
       "firstAscent": "Andreas Åberg (2007?)",
       "description": "Till höger om Mowitz. Markfallspotential från 15 m (därav namnet kanske?). (OBS! Misstänker att detta är felrapporterat och är fortfarande ett projekt, och då inte Andreas. Projektet ligger till höger om Fredman och är möjligen numer öppet --Rob)",
+      "sectorId": "kenneths-led",
       "source": {
         "id": "legacy:fjallbo",
         "path": "mediawiki/Fjällbo.txt"
@@ -1381,6 +1486,7 @@
       "type": "trad",
       "firstAscent": "Jenny Förander",
       "description": "Spricka rakt upp, via travers upp till ett stort träd. Alternativt utsteg är att fortsätta klättra rakt upp, och klättra på gräset (brant och osäkrat) till trädet",
+      "sectorId": "kenneths-led",
       "source": {
         "id": "legacy:fjallbo",
         "path": "mediawiki/Fjällbo.txt"
@@ -1396,6 +1502,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "Äventyrsled. Kaminklättring och route finding.",
+      "sectorId": "kenneths-led",
       "source": {
         "id": "legacy:fjallbo",
         "path": "mediawiki/Fjällbo.txt"
@@ -1411,6 +1518,7 @@
       "type": "trad",
       "firstAscent": "Dag Kolsrud, Bogi Palfay, Piotr Bober",
       "description": "På väggasvsnittet till höger om grooven går en tydlig överhängande spricka som bjuder på fin klättring, efter denna blir det lite äventyr upp till toppen.",
+      "sectorId": "kenneths-led",
       "source": {
         "id": "legacy:fjallbo",
         "path": "mediawiki/Fjällbo.txt"
@@ -1426,6 +1534,7 @@
       "type": "mix",
       "firstAscent": "",
       "description": "Till höger om dessertörens urtoppning ligger en krystad bultad utstegsvariant. förändrar inte graden, bara upplevelsen...",
+      "sectorId": "kenneths-led",
       "source": {
         "id": "legacy:fjallbo",
         "path": "mediawiki/Fjällbo.txt"
@@ -1441,6 +1550,7 @@
       "type": "trad",
       "firstAscent": "Charles French och Anette Kinde",
       "description": "",
+      "sectorId": "kenneths-led",
       "source": {
         "id": "legacy:fjallbo",
         "path": "mediawiki/Fjällbo.txt"
@@ -1456,6 +1566,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "Ett stort dieder med bred spricka som börjar en bra bit upp efter en massa brötiga hyllor.",
+      "sectorId": "kenneths-led",
       "source": {
         "id": "legacy:fjallbo",
         "path": "mediawiki/Fjällbo.txt"
@@ -1471,6 +1582,7 @@
       "type": "trad",
       "firstAscent": "Ulf Björnberg, Susanne Rydfeldt",
       "description": "Leden börjar i ett hörn med två pararella sprickor upp till en björk. Ifrån björken skall du klättra på vänster vägg upp till en kamin/hål/grotta (stand). När du har gått igenom grottan är det rakt upp!",
+      "sectorId": "kenneths-led",
       "source": {
         "id": "legacy:fjallbo",
         "path": "mediawiki/Fjällbo.txt"
@@ -1486,6 +1598,7 @@
       "type": "trad",
       "firstAscent": "Anton Malak, Thomas Machek",
       "description": "",
+      "sectorId": "kenneths-led",
       "source": {
         "id": "legacy:fjallbo",
         "path": "mediawiki/Fjällbo.txt"
@@ -1501,6 +1614,7 @@
       "type": "trad",
       "firstAscent": "Anton Malak",
       "description": "",
+      "sectorId": "kenneths-led",
       "source": {
         "id": "legacy:fjallbo",
         "path": "mediawiki/Fjällbo.txt"
@@ -1516,6 +1630,7 @@
       "type": "trad",
       "firstAscent": "Jan Machek",
       "description": "",
+      "sectorId": "kenneths-led",
       "source": {
         "id": "legacy:fjallbo",
         "path": "mediawiki/Fjällbo.txt"
@@ -1531,6 +1646,7 @@
       "type": "trad",
       "firstAscent": "Sem Larsson, Susanne Rydfeldt",
       "description": "",
+      "sectorId": "kenneths-led",
       "source": {
         "id": "legacy:fjallbo",
         "path": "mediawiki/Fjällbo.txt"
@@ -1546,6 +1662,7 @@
       "type": "trad",
       "firstAscent": "Susanne Rydfeldt, Sem Larsson",
       "description": "",
+      "sectorId": "kenneths-led",
       "source": {
         "id": "legacy:fjallbo",
         "path": "mediawiki/Fjällbo.txt"
@@ -1561,6 +1678,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "Zeke startar på den stora hyllan där Sodom slutar. I vänsterkant på hyllan följ spricka upp till björk, byt spricka och klättra till ett litet tak, följ diedret upp.",
+      "sectorId": "kenneths-led",
       "source": {
         "id": "legacy:fjallbo",
         "path": "mediawiki/Fjällbo.txt"
@@ -1576,6 +1694,7 @@
       "type": "trad",
       "firstAscent": "Strömhäll & Hillström",
       "description": "Startar i sprickan höger om Zeke och går efter sprickan ut åt vänster på areten. Bättre snyggare och vackrare än Zeke",
+      "sectorId": "kenneths-led",
       "source": {
         "id": "legacy:fjallbo",
         "path": "mediawiki/Fjällbo.txt"
@@ -1591,6 +1710,7 @@
       "type": "trad",
       "firstAscent": "Jan Machek",
       "description": "Startar vid överhänget vänster om starten på Sodom",
+      "sectorId": "kenneths-led",
       "source": {
         "id": "legacy:fjallbo",
         "path": "mediawiki/Fjällbo.txt"
@@ -1606,6 +1726,7 @@
       "type": "trad",
       "firstAscent": "Lars Ingemansson, Johan Nilsson",
       "description": "Först upp via den vänsterlutande fingersprickan till en hylla. Dra dig upp till nästa hylla till en perfekt handjamspricka.",
+      "sectorId": "kenneths-led",
       "source": {
         "id": "legacy:fjallbo",
         "path": "mediawiki/Fjällbo.txt"
@@ -1621,6 +1742,7 @@
       "type": "aid",
       "firstAscent": "Per Gunnarson (2005?)",
       "description": "På det stora blocket nedanför Kenneths led. Starta på en hylla 1/2 m ovanför marken på väggen till vänster om kaminingången in mot Kenneths leds hylla. Börja med den överhängande hand- och fistjamsprickan upp till hyllan. Sedan en eller ett par meter till höger och ut runt om läppen och upp i den tunna sprickan. Följ sedan sprickan rakt till toppen av blocket. En mycket rolig aidtur med intressanta placeringar. Fin \"head groove\" i slutet. Ta med dig Rurp's, heads och det vanliga.",
+      "sectorId": "kenneths-led",
       "source": {
         "id": "legacy:fjallbo",
         "path": "mediawiki/Fjällbo.txt"
@@ -1636,6 +1758,7 @@
       "type": "trad",
       "firstAscent": "Petter Åsander, Nils Bäckman 2011",
       "description": "En lång, sned spricklinje som börjar strax till vänster om sodom, och korsar Bohemia och Kenneths led. Avslutas i ett träd ovanför bluetracks dieder, eller med fördel upp i Bluetrack (eller någon annan led på väggen...). En äventyrlig led, inga stjärnor direkt... möjligen ledd tidigare.",
+      "sectorId": "kenneths-led",
       "source": {
         "id": "legacy:fjallbo",
         "path": "mediawiki/Fjällbo.txt"
@@ -1651,6 +1774,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "Travers nedåt vänster från Kenneths-hyllan, runt areten och upp i diedret. Avsluta med sprickan på den knoppiga och laviga högerväggen. Något svårsäkrad. Den avslutande sprickan blir också en bra länk mellan Sodom och Gomorra, dvs ett fint trerepors äventyr.",
+      "sectorId": "kenneths-led",
       "source": {
         "id": "legacy:fjallbo",
         "path": "mediawiki/Fjällbo.txt"
@@ -1666,6 +1790,7 @@
       "type": "mix",
       "firstAscent": "Lars Ingemansson",
       "description": "Vägg- och sprickklättring som startar på hyllan en meter ner, längst till vänster ifrån hyllan på Kennets led, kort travers utåt till ett exponerat utsteg och sedan rakt upp. 1bb",
+      "sectorId": "kenneths-led",
       "source": {
         "id": "legacy:fjallbo",
         "path": "mediawiki/Fjällbo.txt"
@@ -1681,6 +1806,7 @@
       "type": "mix",
       "firstAscent": "",
       "description": "Startar till vänster om Kenneths, knoppklättring. 2bb",
+      "sectorId": "kenneths-led",
       "source": {
         "id": "legacy:fjallbo",
         "path": "mediawiki/Fjällbo.txt"
@@ -1696,6 +1822,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "Klassisk led i spricksystem, björk växer mitt på leden.",
+      "sectorId": "kenneths-led",
       "source": {
         "id": "legacy:fjallbo",
         "path": "mediawiki/Fjällbo.txt"
@@ -1711,6 +1838,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "Startar i diedret till höger om Kenneths. Tunn väggklättring i utsteget.",
+      "sectorId": "kenneths-led",
       "source": {
         "id": "legacy:fjallbo",
         "path": "mediawiki/Fjällbo.txt"
@@ -1726,6 +1854,7 @@
       "type": "trad",
       "firstAscent": "Ronny Ek & Petter Åsander 2009",
       "description": "Startar precis i högerkanten av anmarschkaminen till kennets led. En inbjuden ganska bred formation en bit upp som påminner lite om Boa-constrictor/pyton visar vägen. Standplats på en hylla i ett litet hörn efter den tydliga formationen. Från stand gå upp och snett åt vänster ut på ett slabb, samla mod och sikta mot en bred spricka i en båge. sedan rakt upp. Ledens namn uppnås när du får in den första bra säkringen efter slabbet.",
+      "sectorId": "kenneths-led",
       "source": {
         "id": "legacy:fjallbo",
         "path": "mediawiki/Fjällbo.txt"
@@ -1741,6 +1870,7 @@
       "type": "",
       "firstAscent": "Hans Wingdén",
       "description": "",
+      "sectorId": "kenneths-led",
       "source": {
         "id": "legacy:fjallbo",
         "path": "mediawiki/Fjällbo.txt"
@@ -1756,6 +1886,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "",
+      "sectorId": "kenneths-led",
       "source": {
         "id": "legacy:fjallbo",
         "path": "mediawiki/Fjällbo.txt"
@@ -1771,6 +1902,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "",
+      "sectorId": "kenneths-led",
       "source": {
         "id": "legacy:fjallbo",
         "path": "mediawiki/Fjällbo.txt"
@@ -1786,6 +1918,7 @@
       "type": "trad",
       "firstAscent": "Thomas Rydfeldt & Lars Ingemansson",
       "description": "Leden går några meter vänster om Gomorra",
+      "sectorId": "kenneths-led",
       "source": {
         "id": "legacy:fjallbo",
         "path": "mediawiki/Fjällbo.txt"
@@ -1801,6 +1934,7 @@
       "type": "trad",
       "firstAscent": "Johan Nilsson & Lars Ingemansson",
       "description": "Startar i hörnet, har ett utmärkt firningsankare",
+      "sectorId": "kenneths-led",
       "source": {
         "id": "legacy:fjallbo",
         "path": "mediawiki/Fjällbo.txt"
@@ -1816,6 +1950,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "Går upp till Ulf Björnbergs led",
+      "sectorId": "bananblocket-nedre-del",
       "source": {
         "id": "legacy:fjallbo",
         "path": "mediawiki/Fjällbo.txt"
@@ -1831,6 +1966,7 @@
       "type": "trad",
       "firstAscent": "Dag Kolsrud",
       "description": "Brant och välsäkrad klättring några meter till vänster om Oles",
+      "sectorId": "bananblocket-nedre-del",
       "source": {
         "id": "legacy:fjallbo",
         "path": "mediawiki/Fjällbo.txt"
@@ -1846,6 +1982,7 @@
       "type": "trad",
       "firstAscent": "Ulf Björnberg, Susanne Rydfeldt",
       "description": "",
+      "sectorId": "bananblocket-nedre-del",
       "source": {
         "id": "legacy:fjallbo",
         "path": "mediawiki/Fjällbo.txt"
@@ -1861,6 +1998,7 @@
       "type": "trad",
       "firstAscent": "Dag Kolsrud",
       "description": "",
+      "sectorId": "bananblocket-nedre-del",
       "source": {
         "id": "legacy:fjallbo",
         "path": "mediawiki/Fjällbo.txt"
@@ -1876,6 +2014,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "Uppenbar spricka som laybackas eller jammas upp till taket, där man gör kort travers och mantling. Välsäkrad men lite tung för graden.",
+      "sectorId": "bananblocket-nedre-del",
       "source": {
         "id": "legacy:fjallbo",
         "path": "mediawiki/Fjällbo.txt"
@@ -1891,6 +2030,7 @@
       "type": "trad",
       "firstAscent": "Robin Barley, Thomas Rydfeldt & Lars Ingemansson",
       "description": "Varierande klättring upp till insteget på Bananblocket. Start i en tydlig spricka bakom ett träd, strax vänster om ett tydligt dieder.",
+      "sectorId": "bananblocket-nedre-del",
       "source": {
         "id": "legacy:fjallbo",
         "path": "mediawiki/Fjällbo.txt"
@@ -1906,6 +2046,7 @@
       "type": "trad",
       "firstAscent": "Thomas Rydfeldt & Lars Ingemansson",
       "description": "Startar som Robins crack men går rakt upp längs med sprickan mot björken istället för diedret",
+      "sectorId": "bananblocket-nedre-del",
       "source": {
         "id": "legacy:fjallbo",
         "path": "mediawiki/Fjällbo.txt"
@@ -1921,6 +2062,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "Handjamklättring i diedret höger om Robins crack följt av en mantling, därefter lätt till toppen. Helt okej",
+      "sectorId": "bananblocket-nedre-del",
       "source": {
         "id": "legacy:fjallbo",
         "path": "mediawiki/Fjällbo.txt"
@@ -1936,6 +2078,7 @@
       "type": "trad",
       "firstAscent": "2012-03-03",
       "description": "Den svaiga dubbelsprickan 4 meter höger om Fallos, upp till ett par gräsiga hyllor till ett träd. Svårare än den ser ut med överraskande sekvenser",
+      "sectorId": "bananblocket-nedre-del",
       "source": {
         "id": "legacy:fjallbo",
         "path": "mediawiki/Fjällbo.txt"
@@ -1951,6 +2094,7 @@
       "type": "",
       "firstAscent": "",
       "description": "",
+      "sectorId": "bananblocket-ovre-del",
       "source": {
         "id": "legacy:fjallbo",
         "path": "mediawiki/Fjällbo.txt"
@@ -1966,6 +2110,7 @@
       "type": "",
       "firstAscent": "",
       "description": "",
+      "sectorId": "bananblocket-ovre-del",
       "source": {
         "id": "legacy:fjallbo",
         "path": "mediawiki/Fjällbo.txt"
@@ -1981,6 +2126,7 @@
       "type": "",
       "firstAscent": "",
       "description": "",
+      "sectorId": "bananblocket-ovre-del",
       "source": {
         "id": "legacy:fjallbo",
         "path": "mediawiki/Fjällbo.txt"
@@ -1996,6 +2142,7 @@
       "type": "trad",
       "firstAscent": "Ulf Björnberg",
       "description": "Hette tidigare Svart magi",
+      "sectorId": "bananblocket-ovre-del",
       "source": {
         "id": "legacy:fjallbo",
         "path": "mediawiki/Fjällbo.txt"
@@ -2011,6 +2158,7 @@
       "type": "",
       "firstAscent": "",
       "description": "",
+      "sectorId": "bananblocket-ovre-del",
       "source": {
         "id": "legacy:fjallbo",
         "path": "mediawiki/Fjällbo.txt"
@@ -2026,6 +2174,7 @@
       "type": "",
       "firstAscent": "",
       "description": "Okej klättring om du tycker om smuts i handjam-sprickan vänster om tunnsprickan upp till tallen.",
+      "sectorId": "bananblocket-ovre-del",
       "source": {
         "id": "legacy:fjallbo",
         "path": "mediawiki/Fjällbo.txt"
@@ -2041,6 +2190,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "Fin spricka som går upp till den stora tallen, ganska krävande för en \"femmaklättrare\" Utstegsvarianter finns, längst till vänster på hyllan 4, vänstra diedret 5, högra diedret 6, rakt upp (undviker hyllan) 6",
+      "sectorId": "bananblocket-ovre-del",
       "source": {
         "id": "legacy:fjallbo",
         "path": "mediawiki/Fjällbo.txt"
@@ -2056,6 +2206,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "Vacker linje som lätt känns igen pga ett bananformat block som jammats fast i nedre delen av sprickan",
+      "sectorId": "bananblocket-ovre-del",
       "source": {
         "id": "legacy:fjallbo",
         "path": "mediawiki/Fjällbo.txt"
@@ -2071,6 +2222,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "Elegant Jamspricka.",
+      "sectorId": "bananblocket-ovre-del",
       "source": {
         "id": "legacy:fjallbo",
         "path": "mediawiki/Fjällbo.txt"
@@ -2086,6 +2238,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "Samma start som stopper, men traverserar sen över i högra sprickan. Pumpigt Jammande, välsäkrad.",
+      "sectorId": "bananblocket-ovre-del",
       "source": {
         "id": "legacy:fjallbo",
         "path": "mediawiki/Fjällbo.txt"
@@ -2101,6 +2254,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "Samma start som stepper stopper men traversera ut åt höger, bjuder på run out, sva, överhäng, välsäkrat. Mer kan man inte begära av en femma.",
+      "sectorId": "bananblocket-ovre-del",
       "source": {
         "id": "legacy:fjallbo",
         "path": "mediawiki/Fjällbo.txt"
@@ -2116,6 +2270,7 @@
       "type": "trad",
       "firstAscent": "Hans-Christian Doseth",
       "description": "En tunn bågspricka som splittar väggen till höger om svarta diedret. Ok säkrad",
+      "sectorId": "bananblocket-ovre-del",
       "source": {
         "id": "legacy:fjallbo",
         "path": "mediawiki/Fjällbo.txt"
@@ -2131,6 +2286,7 @@
       "type": "",
       "firstAscent": "topprep",
       "description": "",
+      "sectorId": "bananblocket-ovre-del",
       "source": {
         "id": "legacy:fjallbo",
         "path": "mediawiki/Fjällbo.txt"
@@ -2146,6 +2302,7 @@
       "type": "",
       "firstAscent": "",
       "description": "",
+      "sectorId": "bananblocket-hoger",
       "source": {
         "id": "legacy:fjallbo",
         "path": "mediawiki/Fjällbo.txt"
@@ -2161,6 +2318,7 @@
       "type": "",
       "firstAscent": "",
       "description": "",
+      "sectorId": "bananblocket-hoger",
       "source": {
         "id": "legacy:fjallbo",
         "path": "mediawiki/Fjällbo.txt"
@@ -2176,6 +2334,7 @@
       "type": "",
       "firstAscent": "Piotr Bober",
       "description": "Leden går upp till insteget på Borta med vinden",
+      "sectorId": "bananblocket-hoger",
       "source": {
         "id": "legacy:fjallbo",
         "path": "mediawiki/Fjällbo.txt"
@@ -2191,6 +2350,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "Startar längst ut till vänster på den smala hyllan.",
+      "sectorId": "bananblocket-hoger",
       "source": {
         "id": "legacy:fjallbo",
         "path": "mediawiki/Fjällbo.txt"
@@ -2206,6 +2366,7 @@
       "type": "",
       "firstAscent": "",
       "description": "Det supersnygga diedret/sprickan",
+      "sectorId": "bananblocket-hoger",
       "source": {
         "id": "legacy:fjallbo",
         "path": "mediawiki/Fjällbo.txt"
@@ -2221,6 +2382,7 @@
       "type": "",
       "firstAscent": "Johan Nilsson",
       "description": "Ute på Areten",
+      "sectorId": "bananblocket-hoger",
       "source": {
         "id": "legacy:fjallbo",
         "path": "mediawiki/Fjällbo.txt"
@@ -2236,6 +2398,7 @@
       "type": "",
       "firstAscent": "Ulf Björnberg",
       "description": "Den första sprickan efter areten, klassiker!",
+      "sectorId": "bananblocket-hoger",
       "source": {
         "id": "legacy:fjallbo",
         "path": "mediawiki/Fjällbo.txt"
@@ -2251,6 +2414,7 @@
       "type": "",
       "firstAscent": "",
       "description": "Hörnet",
+      "sectorId": "bananblocket-hoger",
       "source": {
         "id": "legacy:fjallbo",
         "path": "mediawiki/Fjällbo.txt"
@@ -2266,6 +2430,7 @@
       "type": "",
       "firstAscent": "",
       "description": "",
+      "sectorId": "bananblocket-hoger",
       "source": {
         "id": "legacy:fjallbo",
         "path": "mediawiki/Fjällbo.txt"
@@ -2281,6 +2446,7 @@
       "type": "",
       "firstAscent": "",
       "description": "Aréten längst till vänster i detta område",
+      "sectorId": "bananblocket-hoger-nedre-del",
       "source": {
         "id": "legacy:fjallbo",
         "path": "mediawiki/Fjällbo.txt"
@@ -2296,6 +2462,7 @@
       "type": "trad",
       "firstAscent": "2012-03-03",
       "description": "Den flarade sprickan fem meter till höger om Café Stålborsten, ganska kul klättring.",
+      "sectorId": "bananblocket-hoger-nedre-del",
       "source": {
         "id": "legacy:fjallbo",
         "path": "mediawiki/Fjällbo.txt"
@@ -2311,6 +2478,7 @@
       "type": "",
       "firstAscent": "2012-03-03",
       "description": "Leden är ganska lös, så det gäller att se upp med var man sätter sina säkringar.",
+      "sectorId": "bananblocket-hoger-nedre-del",
       "source": {
         "id": "legacy:fjallbo",
         "path": "mediawiki/Fjällbo.txt"
@@ -2326,6 +2494,7 @@
       "type": "",
       "firstAscent": "2012-03-11",
       "description": "Lätt klättring längs med horisentella sprickor upp till ett lite brantare parti, in i ett minidieder.",
+      "sectorId": "bananblocket-hoger-nedre-del",
       "source": {
         "id": "legacy:fjallbo",
         "path": "mediawiki/Fjällbo.txt"
@@ -2341,6 +2510,7 @@
       "type": "trad",
       "firstAscent": "Jonas Lyckegård, John Liungman & Thomas Kihlberg",
       "description": "Scrambla upp till det branta, klättra vänstra taksprickan. Ifrån hyllan följer man spricksystemet rakt upp mot enen ungefär. En blivande klassiker?",
+      "sectorId": "bananblocket-hoger-nedre-del",
       "source": {
         "id": "legacy:fjallbo",
         "path": "mediawiki/Fjällbo.txt"
@@ -2356,6 +2526,7 @@
       "type": "",
       "firstAscent": "",
       "description": "Spricka/formation 2 meter vänster om Joannas led (a.k.a. Fingerspricka nr3) upp mot ett block och förbi",
+      "sectorId": "bananblocket-hoger-nedre-del",
       "source": {
         "id": "legacy:fjallbo",
         "path": "mediawiki/Fjällbo.txt"
@@ -2371,6 +2542,7 @@
       "type": "trad",
       "firstAscent": "Joanna Åsander & Rick McGregor 23/3 2012",
       "description": "En fin fingerspricka som bjuder på klassisk utbyklättring i stil med mirceas och fjällbos fingerspricka. Leden hittas mitt emellan cafe stålborsten och gunnars skräck, ett tiotal höjdmeter upp i slänten. Toppar ut precis vid bondage, vilken man med fördel kan klättra som urtoppning.",
+      "sectorId": "bananblocket-hoger-nedre-del",
       "source": {
         "id": "legacy:fjallbo",
         "path": "mediawiki/Fjällbo.txt"
@@ -2386,6 +2558,7 @@
       "type": "",
       "firstAscent": "Jonas Lyckegård och Thomas Kihlberg",
       "description": "Sprickan 2 meter till vänster om Zoo-apan, ingen klassiker, men kul att göra",
+      "sectorId": "bananblocket-hoger-nedre-del",
       "source": {
         "id": "legacy:fjallbo",
         "path": "mediawiki/Fjällbo.txt"
@@ -2401,6 +2574,7 @@
       "type": "trad",
       "firstAscent": "Jonas Lyckegård",
       "description": "Dieder/arete, hittas 30 meter vänster om Sjuksköterskearmén.",
+      "sectorId": "bananblocket-hoger-nedre-del",
       "source": {
         "id": "legacy:fjallbo",
         "path": "mediawiki/Fjällbo.txt"
@@ -2416,6 +2590,7 @@
       "type": "trad",
       "firstAscent": "Per Larsson (2005?)",
       "description": "Den svaga aréten till vänster om Gunnars skräck. Startar strax till vänster om aréten och därefter höger och upp via tvärsprickorna (små säkringar)",
+      "sectorId": "skivblocket",
       "source": {
         "id": "legacy:fjallbo",
         "path": "mediawiki/Fjällbo.txt"
@@ -2431,6 +2606,7 @@
       "type": "trad",
       "firstAscent": "Petter Åsander",
       "description": "Slabben mitt emellan sjuksköterskearmen och Gunnars skräck. Fin klättring för den som vill ge sig hän",
+      "sectorId": "skivblocket",
       "source": {
         "id": "legacy:fjallbo",
         "path": "mediawiki/Fjällbo.txt"
@@ -2446,6 +2622,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "Sva i ett dieder upp till en platå med ett bultat ankare. Lite tyngre och svårare klättring på 2:a replängden.",
+      "sectorId": "skivblocket",
       "source": {
         "id": "legacy:fjallbo",
         "path": "mediawiki/Fjällbo.txt"
@@ -2461,6 +2638,7 @@
       "type": "mix",
       "firstAscent": "",
       "description": "Varierad och brant.",
+      "sectorId": "skivblocket",
       "source": {
         "id": "legacy:fjallbo",
         "path": "mediawiki/Fjällbo.txt"
@@ -2476,6 +2654,7 @@
       "type": "mix",
       "firstAscent": "",
       "description": "Går på facet av skivblocket. Ankare med 2 bultar finns ovanpå blocket.",
+      "sectorId": "skivblocket",
       "source": {
         "id": "legacy:fjallbo",
         "path": "mediawiki/Fjällbo.txt"
@@ -2491,6 +2670,7 @@
       "type": "",
       "firstAscent": "Henrik Sennelöv & Lars Ingemansson",
       "description": "Väggen höger om Nosferatu",
+      "sectorId": "skivblocket",
       "source": {
         "id": "legacy:fjallbo",
         "path": "mediawiki/Fjällbo.txt"
@@ -2506,6 +2686,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "",
+      "sectorId": "skivblocket",
       "source": {
         "id": "legacy:fjallbo",
         "path": "mediawiki/Fjällbo.txt"
@@ -2521,6 +2702,7 @@
       "type": "sport",
       "firstAscent": "",
       "description": "Den tydliga areten.",
+      "sectorId": "skivblocket",
       "source": {
         "id": "legacy:fjallbo",
         "path": "mediawiki/Fjällbo.txt"
@@ -2536,6 +2718,7 @@
       "type": "",
       "firstAscent": "",
       "description": "",
+      "sectorId": "skivblocket",
       "source": {
         "id": "legacy:fjallbo",
         "path": "mediawiki/Fjällbo.txt"
@@ -2551,6 +2734,7 @@
       "type": "",
       "firstAscent": "",
       "description": "välsäkrad klättring inne i kaminen",
+      "sectorId": "skivblocket",
       "source": {
         "id": "legacy:fjallbo",
         "path": "mediawiki/Fjällbo.txt"
@@ -2566,6 +2750,7 @@
       "type": "sport",
       "firstAscent": "",
       "description": "Dieder och väggklättring.",
+      "sectorId": "skivblocket",
       "source": {
         "id": "legacy:fjallbo",
         "path": "mediawiki/Fjällbo.txt"
@@ -2581,6 +2766,7 @@
       "type": "mix",
       "firstAscent": "",
       "description": "Lättaste vägen upp på skivblocket. Finns en toppbok på toppen",
+      "sectorId": "skivblocket",
       "source": {
         "id": "legacy:fjallbo",
         "path": "mediawiki/Fjällbo.txt"
@@ -2596,6 +2782,7 @@
       "type": "mix",
       "firstAscent": "Lars Ingemansson & Piotr Bober)",
       "description": "Startar lite höger om gladiatorn. Små säkringar underlättar ;",
+      "sectorId": "skivblocket",
       "source": {
         "id": "legacy:fjallbo",
         "path": "mediawiki/Fjällbo.txt"
@@ -2611,6 +2798,7 @@
       "type": "mix",
       "firstAscent": "",
       "description": "Spricka.",
+      "sectorId": "skivblocket",
       "source": {
         "id": "legacy:fjallbo",
         "path": "mediawiki/Fjällbo.txt"
@@ -2626,6 +2814,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "Dieder.",
+      "sectorId": "skivblocket",
       "source": {
         "id": "legacy:fjallbo",
         "path": "mediawiki/Fjällbo.txt"
@@ -2641,6 +2830,7 @@
       "type": "bult",
       "firstAscent": "Henrik Sennelöv & Johan Nilsson",
       "description": "",
+      "sectorId": "skivblocket",
       "source": {
         "id": "legacy:fjallbo",
         "path": "mediawiki/Fjällbo.txt"
@@ -2656,6 +2846,7 @@
       "type": "trad",
       "firstAscent": "Jimmy Pettersson (2004)",
       "description": "Går ca 15 m till vänster om insteget på Limus. Fin och lite spännande klättring på lister. Säkring i tvärsprickor med run-out på slutet",
+      "sectorId": "skivblocket",
       "source": {
         "id": "legacy:fjallbo",
         "path": "mediawiki/Fjällbo.txt"
@@ -2671,6 +2862,7 @@
       "type": "",
       "firstAscent": "",
       "description": "Samma start som Limus men rakt upp",
+      "sectorId": "skivblocket",
       "source": {
         "id": "legacy:fjallbo",
         "path": "mediawiki/Fjällbo.txt"
@@ -2686,6 +2878,7 @@
       "type": "",
       "firstAscent": "",
       "description": "Upp tre meter i klockrena handjam och traversera höger i en välsäkrad rolig spricka, och sedan spricka rakt upp i fin klättring. Direktinsteg finns också (Svårare)",
+      "sectorId": "skivblocket",
       "source": {
         "id": "legacy:fjallbo",
         "path": "mediawiki/Fjällbo.txt"
@@ -2701,6 +2894,7 @@
       "type": "",
       "firstAscent": "projekt?",
       "description": "",
+      "sectorId": "skivblocket",
       "source": {
         "id": "legacy:fjallbo",
         "path": "mediawiki/Fjällbo.txt"
@@ -2716,6 +2910,7 @@
       "type": "sport",
       "firstAscent": "",
       "description": "",
+      "sectorId": "rampen",
       "source": {
         "id": "legacy:fjallbo",
         "path": "mediawiki/Fjällbo.txt"
@@ -2731,6 +2926,7 @@
       "type": "sport",
       "firstAscent": "",
       "description": "",
+      "sectorId": "rampen",
       "source": {
         "id": "legacy:fjallbo",
         "path": "mediawiki/Fjällbo.txt"
@@ -2746,6 +2942,7 @@
       "type": "sport",
       "firstAscent": "",
       "description": "",
+      "sectorId": "rampen",
       "source": {
         "id": "legacy:fjallbo",
         "path": "mediawiki/Fjällbo.txt"
@@ -2761,6 +2958,7 @@
       "type": "sport",
       "firstAscent": "",
       "description": "",
+      "sectorId": "rampen",
       "source": {
         "id": "legacy:fjallbo",
         "path": "mediawiki/Fjällbo.txt"
@@ -2776,6 +2974,7 @@
       "type": "mix",
       "firstAscent": "",
       "description": "",
+      "sectorId": "rampen",
       "source": {
         "id": "legacy:fjallbo",
         "path": "mediawiki/Fjällbo.txt"
@@ -2791,6 +2990,7 @@
       "type": "sport",
       "firstAscent": "",
       "description": "",
+      "sectorId": "rampen",
       "source": {
         "id": "legacy:fjallbo",
         "path": "mediawiki/Fjällbo.txt"
@@ -2806,6 +3006,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "",
+      "sectorId": "rampen",
       "source": {
         "id": "legacy:fjallbo",
         "path": "mediawiki/Fjällbo.txt"
@@ -2821,6 +3022,7 @@
       "type": "sport",
       "firstAscent": "",
       "description": "",
+      "sectorId": "rampen",
       "source": {
         "id": "legacy:fjallbo",
         "path": "mediawiki/Fjällbo.txt"
@@ -2836,6 +3038,7 @@
       "type": "sport",
       "firstAscent": "",
       "description": "",
+      "sectorId": "rampen",
       "source": {
         "id": "legacy:fjallbo",
         "path": "mediawiki/Fjällbo.txt"
@@ -2851,6 +3054,7 @@
       "type": "",
       "firstAscent": "",
       "description": "",
+      "sectorId": "supertaket",
       "source": {
         "id": "legacy:fjallbo",
         "path": "mediawiki/Fjällbo.txt"
@@ -2866,6 +3070,7 @@
       "type": "",
       "firstAscent": "",
       "description": "",
+      "sectorId": "supertaket",
       "source": {
         "id": "legacy:fjallbo",
         "path": "mediawiki/Fjällbo.txt"
@@ -2881,6 +3086,7 @@
       "type": "aid",
       "firstAscent": "Michel Blomgren (2008-01-04)",
       "description": "Går mellan Nålsögat och Mammas Nya Kille. Insteg via en head-spricka upp till en delvis rutten horisontell spricka. Följ sedan den högra och lite bredare sprickan snett upp till höger till utsteget. Följande prylar användes: 2st 5-6mm aluheads, 1 Bugaboo #3, 1 Lost Arrow #1, 1 Angle #2, 1 kilset inkl små stål-/kopparkilar samt kamsäkringar för 1cm till 5cm sprickor (dubbelt av de minsta rekommenderas).",
+      "sectorId": "supertaket",
       "source": {
         "id": "legacy:fjallbo",
         "path": "mediawiki/Fjällbo.txt"
@@ -2896,6 +3102,7 @@
       "type": "",
       "firstAscent": "",
       "description": "",
+      "sectorId": "supertaket",
       "source": {
         "id": "legacy:fjallbo",
         "path": "mediawiki/Fjällbo.txt"
@@ -2911,6 +3118,7 @@
       "type": "aid",
       "firstAscent": "Andreas Eriksson (2008-03-30, repsolo)",
       "description": "Startar i ett litet hörn någon meter till vänster om Frimärkets insteg. Efter hörnet görs en travers åt höger till det stora hörnet som utgår från vänsterkanten på Frimärkets tak. Upp i detta och vidare rakt upp via sprickor till toppen. Mestadels mindre kilar några halvkassa i småkluriga placeringar, kamsäkringar samt en cam hook (som användes för att göra den clean).",
+      "sectorId": "supertaket",
       "source": {
         "id": "legacy:fjallbo",
         "path": "mediawiki/Fjällbo.txt"
@@ -2926,6 +3134,7 @@
       "type": "aid",
       "firstAscent": "",
       "description": "",
+      "sectorId": "supertaket",
       "source": {
         "id": "legacy:fjallbo",
         "path": "mediawiki/Fjällbo.txt"
@@ -2941,6 +3150,7 @@
       "type": "",
       "firstAscent": "Magnus Strömhäll",
       "description": "Sprickan som klyver taket, tidigare grad A2+. Efter taket ganska dålig klippkvalité.",
+      "sectorId": "supertaket",
       "source": {
         "id": "legacy:fjallbo",
         "path": "mediawiki/Fjällbo.txt"
@@ -2956,6 +3166,7 @@
       "type": "sport",
       "firstAscent": "Said Belhaj (2007-08-21)",
       "description": "Hyfsat spektakulär med dubbla fotlås. Sammanlagt 12 hårda move.",
+      "sectorId": "supertaket",
       "source": {
         "id": "legacy:fjallbo",
         "path": "mediawiki/Fjällbo.txt"
@@ -2971,6 +3182,7 @@
       "type": "",
       "firstAscent": "Jens Larssen",
       "description": "Leden går på längst till vänster på väggen efter Pippi Pelikan, upp till ankaret.",
+      "sectorId": "supertaket",
       "source": {
         "id": "legacy:fjallbo",
         "path": "mediawiki/Fjällbo.txt"
@@ -2986,6 +3198,7 @@
       "type": "",
       "firstAscent": "",
       "description": "",
+      "sectorId": "supertaket",
       "source": {
         "id": "legacy:fjallbo",
         "path": "mediawiki/Fjällbo.txt"
@@ -3001,6 +3214,7 @@
       "type": "",
       "firstAscent": "",
       "description": "Längst in i hörnet.",
+      "sectorId": "supertaket",
       "source": {
         "id": "legacy:fjallbo",
         "path": "mediawiki/Fjällbo.txt"
@@ -3016,6 +3230,7 @@
       "type": "",
       "firstAscent": "",
       "description": "",
+      "sectorId": "supertaket",
       "source": {
         "id": "legacy:fjallbo",
         "path": "mediawiki/Fjällbo.txt"
@@ -3031,6 +3246,7 @@
       "type": "trad",
       "firstAscent": "Kjell Zackrisson, Weine Hallberg (2003-03-31)",
       "description": "Leden är på väggen till höger om Smala vägen vid Supertaket och följer spricksystemet som går något till vänster om Alfa Centauri. Samma insteg och utsteg som den senare. Det går att använda bulten vid insteget. Man bör undvika att säkra i blocket 4 meter under utsteget. Namnet kommer från förstebestigarens ålder.",
+      "sectorId": "supertaket",
       "source": {
         "id": "legacy:fjallbo",
         "path": "mediawiki/Fjällbo.txt"
@@ -3046,6 +3262,7 @@
       "type": "sport",
       "firstAscent": "Jens Larssen (1998)?",
       "description": "Går längs med Areten. Klätterbar på höger och vänster sida. Läskigt bultad.",
+      "sectorId": "supertaket",
       "source": {
         "id": "legacy:fjallbo",
         "path": "mediawiki/Fjällbo.txt"
@@ -3061,6 +3278,7 @@
       "type": "",
       "firstAscent": "",
       "description": "",
+      "sectorId": "glomda-vaggen",
       "source": {
         "id": "legacy:fjallbo",
         "path": "mediawiki/Fjällbo.txt"
@@ -3076,6 +3294,7 @@
       "type": "",
       "firstAscent": "",
       "description": "",
+      "sectorId": "glomda-vaggen",
       "source": {
         "id": "legacy:fjallbo",
         "path": "mediawiki/Fjällbo.txt"
@@ -3091,6 +3310,7 @@
       "type": "",
       "firstAscent": "",
       "description": "",
+      "sectorId": "glomda-vaggen",
       "source": {
         "id": "legacy:fjallbo",
         "path": "mediawiki/Fjällbo.txt"
@@ -3106,6 +3326,7 @@
       "type": "",
       "firstAscent": "",
       "description": "",
+      "sectorId": "glomda-vaggen",
       "source": {
         "id": "legacy:fjallbo",
         "path": "mediawiki/Fjällbo.txt"
@@ -3121,6 +3342,7 @@
       "type": "",
       "firstAscent": "",
       "description": "",
+      "sectorId": "glomda-vaggen",
       "source": {
         "id": "legacy:fjallbo",
         "path": "mediawiki/Fjällbo.txt"
@@ -3136,6 +3358,7 @@
       "type": "",
       "firstAscent": "",
       "description": "",
+      "sectorId": "glomda-vaggen",
       "source": {
         "id": "legacy:fjallbo",
         "path": "mediawiki/Fjällbo.txt"
@@ -3151,6 +3374,7 @@
       "type": "",
       "firstAscent": "",
       "description": "Väggen mellan Utby och Fjällbo, höger om trappan om man ska till Övre väggen kan bilda is.",
+      "sectorId": "glomda-vaggen",
       "source": {
         "id": "legacy:fjallbo",
         "path": "mediawiki/Fjällbo.txt"
@@ -3166,6 +3390,7 @@
       "type": "is",
       "firstAscent": "Johan Svensson",
       "description": "",
+      "sectorId": "glomda-vaggen",
       "source": {
         "id": "legacy:fjallbo",
         "path": "mediawiki/Fjällbo.txt"
@@ -3181,6 +3406,7 @@
       "type": "is",
       "firstAscent": "okänd",
       "description": "",
+      "sectorId": "glomda-vaggen",
       "source": {
         "id": "legacy:fjallbo",
         "path": "mediawiki/Fjällbo.txt"
@@ -3196,6 +3422,7 @@
       "type": "is",
       "firstAscent": "Magnus Strömhäll, Per Larsson",
       "description": "",
+      "sectorId": "glomda-vaggen",
       "source": {
         "id": "legacy:fjallbo",
         "path": "mediawiki/Fjällbo.txt"
@@ -3211,6 +3438,7 @@
       "type": "is",
       "firstAscent": "okänd",
       "description": "",
+      "sectorId": "glomda-vaggen",
       "source": {
         "id": "legacy:fjallbo",
         "path": "mediawiki/Fjällbo.txt"
@@ -3221,17 +3449,20 @@
     {
       "filename": "Fjallbo_valkomstbild.jpg",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "karaktar"
     },
     {
       "filename": "Översiktfjällbo.png",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "oversikt"
     },
     {
       "filename": "Bananblocketv.png",
-      "caption": "600px",
-      "missing": false
+      "caption": "",
+      "missing": false,
+      "sectorId": "bananblocket-ovre-del"
     }
   ],
   "access": {

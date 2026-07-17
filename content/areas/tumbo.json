@@ -27,9 +27,24 @@
       "body": "Berget ligger någon kilometer från Tumbo, under en fornborg. Kör E20 från Eskilstuna mot Örebro/Göteborg. Sväng mot Västerås (väg 53). Direkt i första rondellen följer man skylt mot Tumbo (3km). Sväng vänster mot Arbåga (mitt i samhället, men före kyrkan). Efter 800 meter går en liten grusväg in till vänster. Ca 20 meter in på vägen finns en lite skylt \"Fornborg 0.2\". Parkering för två bilar är möjlig vid en vägbom. Följ grusvägen tills berget dyker upp på höger hand. Här finns också en igenväxt parkeringsskylt för fornborgen. Huruvida vägbommen stängs ibland är inte känt."
     },
     {
+      "id": "leder",
+      "title": "Leder",
+      "body": ""
+    },
+    {
       "id": "vanstra-sektionen",
       "title": "Vänstra sektionen",
       "body": "Fyra femmor och ett ankare. Längst ut till vänster på väggen. Här skiner solen vid bra väder. .Traversera ut till höger på hyllan efter 2:a bulten. Firningsankare.}} . Dra ut mot höger efter 3:e bulten mot :s 4: bult (eller så är detta Nordinilino). Firningsankare.}} .}}"
+    },
+    {
+      "id": "mittensektion-vanster",
+      "title": "Mittensektion, vänster",
+      "body": ""
+    },
+    {
+      "id": "mittensektion-hoger",
+      "title": "Mittensektion, höger",
+      "body": ""
     },
     {
       "id": "nordvaggen",
@@ -53,6 +68,7 @@
       "type": "sport",
       "firstAscent": "Andreas Harne 06",
       "description": "Firningsankare. Aningen långt till första bulten.",
+      "sectorId": "vanstra-sektionen",
       "source": {
         "id": "legacy:tumbo",
         "path": "mediawiki/Tumbo.txt"
@@ -68,6 +84,7 @@
       "type": "sport",
       "firstAscent": "Andreas Harne 06",
       "description": "Samma insteg och ankare som .Traversera ut till höger på hyllan efter 2:a bulten. Firningsankare.",
+      "sectorId": "vanstra-sektionen",
       "source": {
         "id": "legacy:tumbo",
         "path": "mediawiki/Tumbo.txt"
@@ -83,6 +100,7 @@
       "type": "sport",
       "firstAscent": "Okänt",
       "description": "Samma ankare som . Dra ut mot höger efter 3:e bulten mot :s 4: bult (eller så är detta Nordinilino). Firningsankare.",
+      "sectorId": "vanstra-sektionen",
       "source": {
         "id": "legacy:tumbo",
         "path": "mediawiki/Tumbo.txt"
@@ -98,6 +116,7 @@
       "type": "sport",
       "firstAscent": "Micke Nordin/Johan Lundgren 2001",
       "description": "Samma ankare som .",
+      "sectorId": "vanstra-sektionen",
       "source": {
         "id": "legacy:tumbo",
         "path": "mediawiki/Tumbo.txt"
@@ -113,6 +132,7 @@
       "type": "trad",
       "firstAscent": "Micke Nordin/Johan Lundgren 2001",
       "description": "Inte klart var den går",
+      "sectorId": "vanstra-sektionen",
       "source": {
         "id": "legacy:tumbo",
         "path": "mediawiki/Tumbo.txt"
@@ -128,6 +148,7 @@
       "type": "trad",
       "firstAscent": "Tobbe Lindh?",
       "description": "",
+      "sectorId": "mittensektion-vanster",
       "source": {
         "id": "legacy:tumbo",
         "path": "mediawiki/Tumbo.txt"
@@ -143,6 +164,7 @@
       "type": "trad",
       "firstAscent": "Tobbe Lindh?",
       "description": "",
+      "sectorId": "mittensektion-vanster",
       "source": {
         "id": "legacy:tumbo",
         "path": "mediawiki/Tumbo.txt"
@@ -158,6 +180,7 @@
       "type": "trad",
       "firstAscent": "Andreas Harne 2006",
       "description": "",
+      "sectorId": "mittensektion-vanster",
       "source": {
         "id": "legacy:tumbo",
         "path": "mediawiki/Tumbo.txt"
@@ -173,6 +196,7 @@
       "type": "sport",
       "firstAscent": "Andreas Harne 2006",
       "description": "Svaled, med en gammal pitong. Ankare",
+      "sectorId": "mittensektion-vanster",
       "source": {
         "id": "legacy:tumbo",
         "path": "mediawiki/Tumbo.txt"
@@ -188,6 +212,7 @@
       "type": "sport",
       "firstAscent": "",
       "description": "Utmärkt att använda för att öva friend- och kilplacering eftersom ett par fina sprickor löper längs leden. Inkluderar en pitong. Bra standplats vid ankare.",
+      "sectorId": "mittensektion-hoger",
       "source": {
         "id": "legacy:tumbo",
         "path": "mediawiki/Tumbo.txt"
@@ -203,6 +228,7 @@
       "type": "sport",
       "firstAscent": "Johnny Pettersson/Kent Mihlberg ca 1989",
       "description": "Följ tre bultar längst ut på kanten. 4 juli, 2010: Den här har en extremt rostig bult vid kruxet (andra bulten) som ser fullständigt livsfarlig ut.",
+      "sectorId": "mittensektion-hoger",
       "source": {
         "id": "legacy:tumbo",
         "path": "mediawiki/Tumbo.txt"
@@ -218,6 +244,7 @@
       "type": "sport",
       "firstAscent": "Johan Lundgren/Micke Nordin 2001",
       "description": "Sportled längst ut till vänster på väggen. Ankare.",
+      "sectorId": "nordvaggen",
       "source": {
         "id": "legacy:tumbo",
         "path": "mediawiki/Tumbo.txt"
@@ -233,6 +260,7 @@
       "type": "sport",
       "firstAscent": "Andreas Harne 2006",
       "description": "Strax till höger om och med samma ankare som .",
+      "sectorId": "nordvaggen",
       "source": {
         "id": "legacy:tumbo",
         "path": "mediawiki/Tumbo.txt"
@@ -248,6 +276,7 @@
       "type": "sport",
       "firstAscent": "Kent Mihlberg solo ca 1989, Johan Lundgren/Micke Nordin 2001",
       "description": "Till vänster om lilla taket. Ankare.",
+      "sectorId": "nordvaggen",
       "source": {
         "id": "legacy:tumbo",
         "path": "mediawiki/Tumbo.txt"
@@ -263,6 +292,7 @@
       "type": "sport",
       "firstAscent": "Johan Lundgren/Micke Nordin 2001",
       "description": "Kul diederklättring och följande mantling upp på hylla till höger om taket mitt på väggen. Ankare.",
+      "sectorId": "nordvaggen",
       "source": {
         "id": "legacy:tumbo",
         "path": "mediawiki/Tumbo.txt"
@@ -278,6 +308,7 @@
       "type": "trad",
       "firstAscent": "Thomas Lundgren 2002",
       "description": "Spricka inne vid hörnet",
+      "sectorId": "nordvaggen",
       "source": {
         "id": "legacy:tumbo",
         "path": "mediawiki/Tumbo.txt"
@@ -293,6 +324,7 @@
       "type": "trad",
       "firstAscent": "Småklättrarna 2012",
       "description": "Diedret mellan Smajl och Trio",
+      "sectorId": "nordvaggen",
       "source": {
         "id": "legacy:tumbo",
         "path": "mediawiki/Tumbo.txt"
@@ -308,6 +340,7 @@
       "type": "sport",
       "firstAscent": "Harri Skyttborn/Michael Svensson ca 1989",
       "description": "Den bultade leden på högra nordväggen. Ganska delikat insteg. Ankare.",
+      "sectorId": "nordvaggen",
       "source": {
         "id": "legacy:tumbo",
         "path": "mediawiki/Tumbo.txt"
@@ -323,6 +356,7 @@
       "type": "trad",
       "firstAscent": "okänt",
       "description": "Leden går i vänstra kanten på svapelaren",
+      "sectorId": "nordvaggen",
       "source": {
         "id": "legacy:tumbo",
         "path": "mediawiki/Tumbo.txt"

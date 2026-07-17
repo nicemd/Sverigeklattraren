@@ -49,6 +49,7 @@
       "type": "trad",
       "firstAscent": "namn på fa -08",
       "description": "ledbeskrivning",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:klippmall",
         "path": "mediawiki/Klippmall.txt"
@@ -59,7 +60,8 @@
     {
       "filename": "Skiss.gif",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "leder"
     }
   ],
   "access": {

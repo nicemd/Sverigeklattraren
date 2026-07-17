@@ -43,6 +43,7 @@
       "type": "mix",
       "firstAscent": "Henrik Tykosson och Lars Enqvist m topprep, 1999 Fritt: Henrik Tykosson och Fredrik Lärka -99",
       "description": "Klättra från rönnen rakt upp till tallen. Efter första bulten finns det en bra horisontellspricka i vilken en friend med fördel placeras. Risk för ett lååååånnngt fall annars! Jämn och fin klättring. Leden har fått mycket beröm av de som klättrat den. Ett måste alltså!!",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:hogklitt",
         "path": "mediawiki/Högklitt.txt"
@@ -58,6 +59,7 @@
       "type": "mix",
       "firstAscent": "Fredrik Lärka -99",
       "description": "Starta till vänster under taket och traversera till höger upp till bult. Klättra sedan till vänster om denna och fortsätt till toppen.",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:hogklitt",
         "path": "mediawiki/Högklitt.txt"
@@ -73,6 +75,7 @@
       "type": "mix",
       "firstAscent": "Henrik Tykosson och Fredrik Lärka -99",
       "description": "Följ spricksystemet till höger om \"Flyg som en lärka\" upp till toppen. Gemensamma bultar med dito.",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:hogklitt",
         "path": "mediawiki/Högklitt.txt"
@@ -88,6 +91,7 @@
       "type": "trad",
       "firstAscent": "Henrik Tykosson och Fredrik Lärka m topprep -00",
       "description": "Startar till vänster om pelaren och fortsätter sedan rakt upp. Ankare.",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:hogklitt",
         "path": "mediawiki/Högklitt.txt"
@@ -103,6 +107,7 @@
       "type": "trad",
       "firstAscent": "Henrik Tykosson och Fredrik Lärka m topprep -00",
       "description": "Starta från hyllan ovanför Myran och gå rakt upp. Tunn och rolig led. Endast ankare, men skall bultas vid senare tillfälle.",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:hogklitt",
         "path": "mediawiki/Högklitt.txt"
@@ -118,6 +123,7 @@
       "type": "mix",
       "firstAscent": "Henrik Tykosson och Fredrik Lärka m topprep, 2000 Fritt: Eyvind -00",
       "description": "Pressa dig mellan klippan och granarna och följ sedan bultarna till toppen.",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:hogklitt",
         "path": "mediawiki/Högklitt.txt"
@@ -133,6 +139,7 @@
       "type": "trad",
       "firstAscent": "Henrik Tykosson och Fredrik Lärka -99",
       "description": "Leden utgår från granarna vid TmP och fortsätter sedan på hyllan till spricksystemet vilket följs till toppen.",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:hogklitt",
         "path": "mediawiki/Högklitt.txt"
@@ -148,6 +155,7 @@
       "type": "trad",
       "firstAscent": "Henrik Tykosson och Lars Enqvist m topprep, 1999 Fritt: Henrik Tykosson -00",
       "description": "Leden fick inte detta namn för att den är svår utan att de första metrarna är betydligt svårare än fortsättningen vilket består av 3:a klättring. Detta är den enda led som säkras helt naturligt på klippan. Ankare på toppen.",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:hogklitt",
         "path": "mediawiki/Högklitt.txt"
@@ -163,6 +171,7 @@
       "type": "mix",
       "firstAscent": "Henrik Tykosson och Lars Enqvist m topprep, 1999 Fritt: Henrik Tykosson och Peter Norin -00",
       "description": "Går upp i det tydliga diedret för att sedan gå ut en aning åt höger för att sedan gå rakt upp till toppen. Lätt och rolig led. Säkras med fördel med egna säkringar före 1:a bult.",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:hogklitt",
         "path": "mediawiki/Högklitt.txt"
@@ -178,6 +187,7 @@
       "type": "mix",
       "firstAscent": "Peter Norin -00",
       "description": "Går till höger om den tydliga sprickan en bit upp på väggen. Följ bultarna och du är på rätt led!",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:hogklitt",
         "path": "mediawiki/Högklitt.txt"
@@ -193,6 +203,7 @@
       "type": "mix",
       "firstAscent": "Peter Norin -00",
       "description": "Börjar på den snett lutande väggen. Går sedan vidare upp genom taket. Följd bultarna och du är rätt!",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:hogklitt",
         "path": "mediawiki/Högklitt.txt"
@@ -208,6 +219,7 @@
       "type": "trad",
       "firstAscent": "Henrik Tykosson m topprep -00",
       "description": "Startar från ett liggande block på marken och fortsätter därifrån snett uppåt till höger för att efter ett par meter gå rakt upp till toppen. Grepprik led. Endast ankare, men skall bultas. Perfekt för förstagångsklättraren!",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:hogklitt",
         "path": "mediawiki/Högklitt.txt"
@@ -218,7 +230,8 @@
     {
       "filename": "högklitt_skiss.gif",
       "caption": "",
-      "missing": true
+      "missing": true,
+      "sectorId": "leder"
     }
   ],
   "access": {

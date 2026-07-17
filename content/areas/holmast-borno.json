@@ -46,6 +46,7 @@
       "type": "is",
       "firstAscent": "Okänd",
       "description": "",
+      "sectorId": "stora-fallen",
       "source": {
         "id": "legacy:holmast-borno",
         "path": "mediawiki/HolmaSt Bornö.txt"
@@ -61,6 +62,7 @@
       "type": "is",
       "firstAscent": "Okänd",
       "description": "",
+      "sectorId": "stora-fallen",
       "source": {
         "id": "legacy:holmast-borno",
         "path": "mediawiki/HolmaSt Bornö.txt"
@@ -76,6 +78,7 @@
       "type": "is",
       "firstAscent": "Okänd",
       "description": "",
+      "sectorId": "vastra-fallen",
       "source": {
         "id": "legacy:holmast-borno",
         "path": "mediawiki/HolmaSt Bornö.txt"
@@ -91,6 +94,7 @@
       "type": "is",
       "firstAscent": "Okänd",
       "description": "",
+      "sectorId": "vastra-fallen",
       "source": {
         "id": "legacy:holmast-borno",
         "path": "mediawiki/HolmaSt Bornö.txt"
@@ -101,17 +105,20 @@
     {
       "filename": "Det_stora_fallet_på_Stora_Bornö_Foto_Johan_Mörk_20110107.jpg",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "stora-fallen"
     },
     {
       "filename": "Christian_Jonsgården_leder_den_vänstra_leden_på_det_stora_fallet_på_stora_Bornö_20110107.jpg",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "stora-fallen"
     },
     {
       "filename": "Långfallen_WI5.jpg",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "vastra-fallen"
     }
   ],
   "access": {

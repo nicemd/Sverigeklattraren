@@ -13,6 +13,11 @@
   ],
   "sections": [
     {
+      "id": "oversiktskarta",
+      "title": "ÖVERSIKTSKARTA",
+      "body": ""
+    },
+    {
       "id": "media",
       "title": "Media",
       "body": "Kolonin: John klättrar \"Pojkarnas Brigad\". Pojkarnas Brigad Kolonin: Martin klättrar \"Allemansarêten\", \"Småborgaren\" och \"Knutna Nävar\" Servitutväggen Christer klättrar Sadistic Sandsnake Bortre väggarna: Fredrik klättrar \"Karatekid i Knarkarkvarten\". KK Del 3 Bortre väggarna: Andreas klättrar \"Rune\" och \"Kalsongfjong i Knarkarkvarten\". KK Del 2 Bortre väggarna: Andreas klättrar \"Natterbjudande\" och \"All I need\". KK Del 1 Bortre väggarna: Andreas klättrar \"La fissure de la Foret\". Fissuren Bortre väggarna: Andreas klättrar \"La fonderie assis\". Fondarien"
@@ -28,14 +33,69 @@
       "body": "Lång vägg med ett femtiotal problem med mestadels utmärkta landningar. Vägbeskrivning: Från parkeringen, följ hälsans stig norrut i 3-5 minuter. Efter en utförsbacke hamnar du i en svacka med en brant uppförsbacke framför dig - följ då stigen in till vänster. Du är då efter 25 meter vid Vänstra väggen. Det går även att bröta sig genom skogen från bilvägen men Hälsans-stigalternativet är till och med barnvagnsvänligt. Numrering o gradering från BBB3. Det finns även en del problem o FA-info i 'gamla' föraren som kan vara värda att lägga till. Var så god!!!!"
     },
     {
+      "id": "ovre-vaggen",
+      "title": "Övre väggen",
+      "body": ""
+    },
+    {
+      "id": "vanstra-vaggen",
+      "title": "Vänstra väggen",
+      "body": ""
+    },
+    {
+      "id": "sandhalsvaggen",
+      "title": "Sandhålsväggen",
+      "body": ""
+    },
+    {
+      "id": "vertikalvaggen",
+      "title": "Vertikalväggen",
+      "body": ""
+    },
+    {
+      "id": "stora-overhanget",
+      "title": "Stora överhänget",
+      "body": ""
+    },
+    {
+      "id": "karmavaggen",
+      "title": "Karmaväggen",
+      "body": ""
+    },
+    {
+      "id": "chipvaggen",
+      "title": "Chipväggen",
+      "body": ""
+    },
+    {
       "id": "skogsvaggarna",
       "title": "Skogsväggarna",
       "body": "Någon med BBB3-ticklistan borde kunna fylla i lednamn nedan."
     },
     {
+      "id": "klippa-narmast-vagen",
+      "title": "Klippa närmast vägen.",
+      "body": ""
+    },
+    {
+      "id": "hogbollarna",
+      "title": "Högbollarna",
+      "body": ""
+    },
+    {
       "id": "parkeringvaggarna",
       "title": "Parkeringväggarna",
       "body": "Fyll i problemen namn o grader!"
+    },
+    {
+      "id": "bortre-vaggarna",
+      "title": "Bortre väggarna",
+      "body": ""
+    },
+    {
+      "id": "oversiktskarta",
+      "title": "Översiktskarta",
+      "body": ""
     },
     {
       "id": "vagbeskrivning",
@@ -46,6 +106,16 @@
       "id": "sjovaggarna",
       "title": "Sjöväggarna",
       "body": "Vägbeskrivning: Följ samma väg som mot Bortre väggarna, men fortsätt så att du kommer runt sjön. Sjöväggarna hittar du på höger sida av vägen strax efter att vägen delat av sig mot Flatens Skogsväg. 1. Låga sjöväggen 2. Höga sjöväggen"
+    },
+    {
+      "id": "kolonin",
+      "title": "Kolonin",
+      "body": ""
+    },
+    {
+      "id": "oversiktskarta",
+      "title": "Översiktskarta",
+      "body": ""
     },
     {
       "id": "vagbeskrivning",
@@ -64,6 +134,7 @@
       "type": "",
       "firstAscent": "Micke Meyer -97?",
       "description": "Teknisk väggklättring. Förstabestigaren slutade inte på juggen",
+      "sectorId": "media",
       "source": {
         "id": "legacy:orhem",
         "path": "mediawiki/Orhem.txt"
@@ -79,6 +150,7 @@
       "type": "",
       "firstAscent": "Mikael Söderström",
       "description": "Hoppas du är bra på gaston",
+      "sectorId": "vagklippan",
       "source": {
         "id": "legacy:orhem",
         "path": "mediawiki/Orhem.txt"
@@ -94,6 +166,7 @@
       "type": "",
       "firstAscent": "Mikael Söderström",
       "description": "Går ihop med den onde på slutet",
+      "sectorId": "vagklippan",
       "source": {
         "id": "legacy:orhem",
         "path": "mediawiki/Orhem.txt"
@@ -109,6 +182,7 @@
       "type": "",
       "firstAscent": "Mikael Söderström",
       "description": "Upp till hålet sen kan du gå vänster eller höger eller rakt upp du bestämmer",
+      "sectorId": "vagklippan",
       "source": {
         "id": "legacy:orhem",
         "path": "mediawiki/Orhem.txt"
@@ -124,6 +198,7 @@
       "type": "",
       "firstAscent": "Mikael Söderström",
       "description": "Skulle kunna vara en led",
+      "sectorId": "vagklippan",
       "source": {
         "id": "legacy:orhem",
         "path": "mediawiki/Orhem.txt"
@@ -139,6 +214,7 @@
       "type": "",
       "firstAscent": "",
       "description": "Följ diagonalsprickan till toppen",
+      "sectorId": "ovre-vaggen",
       "source": {
         "id": "legacy:orhem",
         "path": "mediawiki/Orhem.txt"
@@ -154,6 +230,7 @@
       "type": "",
       "firstAscent": "",
       "description": "Väggpartiet till vänster om stora sprickan. röd linje",
+      "sectorId": "ovre-vaggen",
       "source": {
         "id": "legacy:orhem",
         "path": "mediawiki/Orhem.txt"
@@ -169,6 +246,7 @@
       "type": "",
       "firstAscent": "",
       "description": "gul linje",
+      "sectorId": "ovre-vaggen",
       "source": {
         "id": "legacy:orhem",
         "path": "mediawiki/Orhem.txt"
@@ -184,6 +262,7 @@
       "type": "",
       "firstAscent": "",
       "description": "rosa linje",
+      "sectorId": "ovre-vaggen",
       "source": {
         "id": "legacy:orhem",
         "path": "mediawiki/Orhem.txt"
@@ -199,6 +278,7 @@
       "type": "",
       "firstAscent": "",
       "description": "blå linje",
+      "sectorId": "ovre-vaggen",
       "source": {
         "id": "legacy:orhem",
         "path": "mediawiki/Orhem.txt"
@@ -214,6 +294,7 @@
       "type": "",
       "firstAscent": "",
       "description": "röd linje",
+      "sectorId": "ovre-vaggen",
       "source": {
         "id": "legacy:orhem",
         "path": "mediawiki/Orhem.txt"
@@ -229,6 +310,7 @@
       "type": "",
       "firstAscent": "",
       "description": "gul linje",
+      "sectorId": "ovre-vaggen",
       "source": {
         "id": "legacy:orhem",
         "path": "mediawiki/Orhem.txt"
@@ -244,6 +326,7 @@
       "type": "",
       "firstAscent": "",
       "description": "Sittst. i undercling och rakt upp. Röd linje.",
+      "sectorId": "vanstra-vaggen",
       "source": {
         "id": "legacy:orhem",
         "path": "mediawiki/Orhem.txt"
@@ -259,6 +342,7 @@
       "type": "",
       "firstAscent": "",
       "description": "Sittst. till v. om sprickan och rakt upp. gul linje.",
+      "sectorId": "vanstra-vaggen",
       "source": {
         "id": "legacy:orhem",
         "path": "mediawiki/Orhem.txt"
@@ -274,6 +358,7 @@
       "type": "",
       "firstAscent": "",
       "description": "Sittst. och upp i stora sprickan.",
+      "sectorId": "vanstra-vaggen",
       "source": {
         "id": "legacy:orhem",
         "path": "mediawiki/Orhem.txt"
@@ -289,6 +374,7 @@
       "type": "",
       "firstAscent": "",
       "description": "Sittst. rakt under \"If you need crack's\" utsteg och rakt upp",
+      "sectorId": "vanstra-vaggen",
       "source": {
         "id": "legacy:orhem",
         "path": "mediawiki/Orhem.txt"
@@ -304,6 +390,7 @@
       "type": "",
       "firstAscent": "",
       "description": "Sittstart i brevlådan och rakt upp. Grön linje.",
+      "sectorId": "vanstra-vaggen",
       "source": {
         "id": "legacy:orhem",
         "path": "mediawiki/Orhem.txt"
@@ -319,6 +406,7 @@
       "type": "",
       "firstAscent": "",
       "description": "Sittst. till v. om sprickan, h.hand i sidotag i sprickan och rakt upp. Blå linje.",
+      "sectorId": "vanstra-vaggen",
       "source": {
         "id": "legacy:orhem",
         "path": "mediawiki/Orhem.txt"
@@ -334,6 +422,7 @@
       "type": "",
       "firstAscent": "",
       "description": "Sittst. på areten och upp mot roten. Lila linje.",
+      "sectorId": "sandhalsvaggen",
       "source": {
         "id": "legacy:orhem",
         "path": "mediawiki/Orhem.txt"
@@ -349,6 +438,7 @@
       "type": "",
       "firstAscent": "",
       "description": "Start med vänsterhand i koppen under minisprickan och upp snett till höger. Gul linje.",
+      "sectorId": "sandhalsvaggen",
       "source": {
         "id": "legacy:orhem",
         "path": "mediawiki/Orhem.txt"
@@ -364,6 +454,7 @@
       "type": "",
       "firstAscent": "",
       "description": "Röd linje. sittstarta?",
+      "sectorId": "sandhalsvaggen",
       "source": {
         "id": "legacy:orhem",
         "path": "mediawiki/Orhem.txt"
@@ -379,6 +470,7 @@
       "type": "",
       "firstAscent": "",
       "description": "Sittst. i högra sprickan, v/h.hand upp till list och vidare till toppen. Grön linje. Obs: grepp har lossnat i sittstarten.",
+      "sectorId": "sandhalsvaggen",
       "source": {
         "id": "legacy:orhem",
         "path": "mediawiki/Orhem.txt"
@@ -394,6 +486,7 @@
       "type": "",
       "firstAscent": "",
       "description": "hang Sittst. i flakets högra del, travers vänster och upp. Blå linje.",
+      "sectorId": "sandhalsvaggen",
       "source": {
         "id": "legacy:orhem",
         "path": "mediawiki/Orhem.txt"
@@ -409,6 +502,7 @@
       "type": "",
       "firstAscent": "",
       "description": "Sittstart i brevlådan och rakt upp. Gul linje.",
+      "sectorId": "vertikalvaggen",
       "source": {
         "id": "legacy:orhem",
         "path": "mediawiki/Orhem.txt"
@@ -424,6 +518,7 @@
       "type": "",
       "firstAscent": "",
       "description": "Sittstart i v:et ,upp till tvärsprickan och vidare rakt upp",
+      "sectorId": "vertikalvaggen",
       "source": {
         "id": "legacy:orhem",
         "path": "mediawiki/Orhem.txt"
@@ -439,6 +534,7 @@
       "type": "",
       "firstAscent": "",
       "description": "Rakt genom grytan på små grepp.",
+      "sectorId": "vertikalvaggen",
       "source": {
         "id": "legacy:orhem",
         "path": "mediawiki/Orhem.txt"
@@ -454,6 +550,7 @@
       "type": "",
       "firstAscent": "",
       "description": "",
+      "sectorId": "vertikalvaggen",
       "source": {
         "id": "legacy:orhem",
         "path": "mediawiki/Orhem.txt"
@@ -469,6 +566,7 @@
       "type": "",
       "firstAscent": "",
       "description": "Start på \"blå\" listen under bullen och rakt upp. röd linje.",
+      "sectorId": "vertikalvaggen",
       "source": {
         "id": "legacy:orhem",
         "path": "mediawiki/Orhem.txt"
@@ -484,6 +582,7 @@
       "type": "",
       "firstAscent": "",
       "description": "",
+      "sectorId": "stora-overhanget",
       "source": {
         "id": "legacy:orhem",
         "path": "mediawiki/Orhem.txt"
@@ -499,6 +598,7 @@
       "type": "",
       "firstAscent": "",
       "description": "",
+      "sectorId": "stora-overhanget",
       "source": {
         "id": "legacy:orhem",
         "path": "mediawiki/Orhem.txt"
@@ -514,6 +614,7 @@
       "type": "",
       "firstAscent": "",
       "description": "",
+      "sectorId": "stora-overhanget",
       "source": {
         "id": "legacy:orhem",
         "path": "mediawiki/Orhem.txt"
@@ -529,6 +630,7 @@
       "type": "",
       "firstAscent": "",
       "description": "",
+      "sectorId": "stora-overhanget",
       "source": {
         "id": "legacy:orhem",
         "path": "mediawiki/Orhem.txt"
@@ -544,6 +646,7 @@
       "type": "",
       "firstAscent": "",
       "description": "Fortsättningen på teen. Toppar ut lite åt vänster.",
+      "sectorId": "stora-overhanget",
       "source": {
         "id": "legacy:orhem",
         "path": "mediawiki/Orhem.txt"
@@ -559,6 +662,7 @@
       "type": "",
       "firstAscent": "",
       "description": "Rakt upp på goda grepp. Slutar på Juggen.",
+      "sectorId": "stora-overhanget",
       "source": {
         "id": "legacy:orhem",
         "path": "mediawiki/Orhem.txt"
@@ -574,6 +678,7 @@
       "type": "",
       "firstAscent": "",
       "description": "Travers åt höger ifrån tvärsprickans början bort till abundance (karmaväggen).",
+      "sectorId": "stora-overhanget",
       "source": {
         "id": "legacy:orhem",
         "path": "mediawiki/Orhem.txt"
@@ -589,6 +694,7 @@
       "type": "",
       "firstAscent": "",
       "description": "",
+      "sectorId": "stora-overhanget",
       "source": {
         "id": "legacy:orhem",
         "path": "mediawiki/Orhem.txt"
@@ -604,6 +710,7 @@
       "type": "",
       "firstAscent": "",
       "description": "På det höga partiet till höger om Teen",
+      "sectorId": "stora-overhanget",
       "source": {
         "id": "legacy:orhem",
         "path": "mediawiki/Orhem.txt"
@@ -619,6 +726,7 @@
       "type": "",
       "firstAscent": "",
       "description": "St. på orange grepp och upp till vänster",
+      "sectorId": "karmavaggen",
       "source": {
         "id": "legacy:orhem",
         "path": "mediawiki/Orhem.txt"
@@ -634,6 +742,7 @@
       "type": "",
       "firstAscent": "",
       "description": "Rakt upp i mitten av grytan",
+      "sectorId": "karmavaggen",
       "source": {
         "id": "legacy:orhem",
         "path": "mediawiki/Orhem.txt"
@@ -649,6 +758,7 @@
       "type": "",
       "firstAscent": "",
       "description": "St. på gult grepp och upp till h. om lilla enen på toppen",
+      "sectorId": "karmavaggen",
       "source": {
         "id": "legacy:orhem",
         "path": "mediawiki/Orhem.txt"
@@ -664,6 +774,7 @@
       "type": "",
       "firstAscent": "",
       "description": "Hopp till taggiga greppet och upp. Gul linje.",
+      "sectorId": "karmavaggen",
       "source": {
         "id": "legacy:orhem",
         "path": "mediawiki/Orhem.txt"
@@ -679,6 +790,7 @@
       "type": "",
       "firstAscent": "",
       "description": "sitstart. Gulstreckad linje.",
+      "sectorId": "karmavaggen",
       "source": {
         "id": "legacy:orhem",
         "path": "mediawiki/Orhem.txt"
@@ -694,6 +806,7 @@
       "type": "",
       "firstAscent": "",
       "description": "Sittstart. Tror att det är röd linje upp.",
+      "sectorId": "karmavaggen",
       "source": {
         "id": "legacy:orhem",
         "path": "mediawiki/Orhem.txt"
@@ -709,6 +822,7 @@
       "type": "",
       "firstAscent": "",
       "description": "",
+      "sectorId": "chipvaggen",
       "source": {
         "id": "legacy:orhem",
         "path": "mediawiki/Orhem.txt"
@@ -724,6 +838,7 @@
       "type": "",
       "firstAscent": "",
       "description": "Vänstra sprickan. Start i bra grepp, upp i överhäng o sedan sprickan till svaet.'Gul linje.",
+      "sectorId": "chipvaggen",
       "source": {
         "id": "legacy:orhem",
         "path": "mediawiki/Orhem.txt"
@@ -739,6 +854,7 @@
       "type": "",
       "firstAscent": "",
       "description": "Högra sprickan. Röd linje.",
+      "sectorId": "chipvaggen",
       "source": {
         "id": "legacy:orhem",
         "path": "mediawiki/Orhem.txt"
@@ -754,6 +870,7 @@
       "type": "",
       "firstAscent": "",
       "description": "Från tvärsprickan upp till halvmånen och rakt upp. Turkos linje.",
+      "sectorId": "chipvaggen",
       "source": {
         "id": "legacy:orhem",
         "path": "mediawiki/Orhem.txt"
@@ -769,6 +886,7 @@
       "type": "",
       "firstAscent": "",
       "description": "Halvmånen sen höger ut till sneda listen och rakt upp. Grön linje.",
+      "sectorId": "chipvaggen",
       "source": {
         "id": "legacy:orhem",
         "path": "mediawiki/Orhem.txt"
@@ -784,6 +902,7 @@
       "type": "",
       "firstAscent": "",
       "description": "Från högra delen av tvärsprickan upp till sneda listen och rakt upp. Lila linje.",
+      "sectorId": "chipvaggen",
       "source": {
         "id": "legacy:orhem",
         "path": "mediawiki/Orhem.txt"
@@ -799,6 +918,7 @@
       "type": "",
       "firstAscent": "",
       "description": "Sittst. v.hand i litet sidotag och h.hand i låg list på hyla. Avsluta med Jonnas klätterträd. Röd streckad linje.",
+      "sectorId": "chipvaggen",
       "source": {
         "id": "legacy:orhem",
         "path": "mediawiki/Orhem.txt"
@@ -814,6 +934,7 @@
       "type": "",
       "firstAscent": "",
       "description": "Travers med st. vid längs tvärsprickan och upp i dess slut. Röd linje.",
+      "sectorId": "chipvaggen",
       "source": {
         "id": "legacy:orhem",
         "path": "mediawiki/Orhem.txt"
@@ -829,6 +950,7 @@
       "type": "",
       "firstAscent": "",
       "description": "Sittst. till höger om pyttelilla trädet och rakt upp",
+      "sectorId": "chipvaggen",
       "source": {
         "id": "legacy:orhem",
         "path": "mediawiki/Orhem.txt"
@@ -844,6 +966,7 @@
       "type": "",
       "firstAscent": "",
       "description": "Sittst. direkt h. om #10 med start på slopers",
+      "sectorId": "chipvaggen",
       "source": {
         "id": "legacy:orhem",
         "path": "mediawiki/Orhem.txt"
@@ -859,6 +982,7 @@
       "type": "",
       "firstAscent": "Graham/Carl",
       "description": "Sittstart nere till höger om graffitin, skicka högerhanden till crimp rakt upp, traversera över graffitin och sluta på jugge uppe till vänster.",
+      "sectorId": "parkeringvaggarna",
       "source": {
         "id": "legacy:orhem",
         "path": "mediawiki/Orhem.txt"
@@ -874,6 +998,7 @@
       "type": "Slabb",
       "firstAscent": "Ljungberg",
       "description": "Ståstarta, gå rakt upp längs bra grepp.",
+      "sectorId": "vagbeskrivning",
       "source": {
         "id": "legacy:orhem",
         "path": "mediawiki/Orhem.txt"
@@ -889,6 +1014,7 @@
       "type": "Vägg",
       "firstAscent": "Fröberg",
       "description": "Sittstarta lågt.",
+      "sectorId": "vagbeskrivning",
       "source": {
         "id": "legacy:orhem",
         "path": "mediawiki/Orhem.txt"
@@ -904,6 +1030,7 @@
       "type": "Vägg",
       "firstAscent": "Spångberg",
       "description": "Sittstarta lågt i horisontella sprickan, lås av och sträck.",
+      "sectorId": "vagbeskrivning",
       "source": {
         "id": "legacy:orhem",
         "path": "mediawiki/Orhem.txt"
@@ -919,6 +1046,7 @@
       "type": "Catch",
       "firstAscent": "Fröberg(?)",
       "description": "Sittstarta på det stora greppet m vh och lite skröfs för hh och catcha upp åt höger.",
+      "sectorId": "vagbeskrivning",
       "source": {
         "id": "legacy:orhem",
         "path": "mediawiki/Orhem.txt"
@@ -934,6 +1062,7 @@
       "type": "Över",
       "firstAscent": "Holmlund/Påhlman(?)",
       "description": "Sittstart på vänstra areten, snett upp åt höger.",
+      "sectorId": "vagbeskrivning",
       "source": {
         "id": "legacy:orhem",
         "path": "mediawiki/Orhem.txt"
@@ -949,6 +1078,7 @@
       "type": "Över",
       "firstAscent": "Holmlund/Påhlman",
       "description": "Sittstart på undercut flak, snett upp åt höger.",
+      "sectorId": "vagbeskrivning",
       "source": {
         "id": "legacy:orhem",
         "path": "mediawiki/Orhem.txt"
@@ -964,6 +1094,7 @@
       "type": "Över",
       "firstAscent": "Holmlund/Påhlman",
       "description": "Låg sittstart till vänster om diedern, gå åt vänster och upp.",
+      "sectorId": "vagbeskrivning",
       "source": {
         "id": "legacy:orhem",
         "path": "mediawiki/Orhem.txt"
@@ -979,6 +1110,7 @@
       "type": "Över/vägg",
       "firstAscent": "Spångberg",
       "description": "Samma start som \"\"Kalsongfjong\"\", gå rakt upp. Ståstart 6c.",
+      "sectorId": "vagbeskrivning",
       "source": {
         "id": "legacy:orhem",
         "path": "mediawiki/Orhem.txt"
@@ -994,6 +1126,7 @@
       "type": "Över/vägg",
       "firstAscent": "Spångberg/Fröberg",
       "description": "Samma start som \"\"Kalsongfjong\"\", gå åt höger och upp. Ståstart i jug på bullen 6a.",
+      "sectorId": "vagbeskrivning",
       "source": {
         "id": "legacy:orhem",
         "path": "mediawiki/Orhem.txt"
@@ -1009,6 +1142,7 @@
       "type": "Vägg",
       "firstAscent": "Spångberg",
       "description": "Ståstart mitt på bullen, gå rakt upp.",
+      "sectorId": "vagbeskrivning",
       "source": {
         "id": "legacy:orhem",
         "path": "mediawiki/Orhem.txt"
@@ -1024,6 +1158,7 @@
       "type": "Vägg",
       "firstAscent": "Spångberg",
       "description": "Ståstart mitt på bullen, gå åt höger och upp, tveksam landning.",
+      "sectorId": "vagbeskrivning",
       "source": {
         "id": "legacy:orhem",
         "path": "mediawiki/Orhem.txt"
@@ -1039,6 +1174,7 @@
       "type": "Vägg",
       "firstAscent": "Fröberg/Nordström(?)",
       "description": "Sittstarta och knöla dig upp på bullen.",
+      "sectorId": "vagbeskrivning",
       "source": {
         "id": "legacy:orhem",
         "path": "mediawiki/Orhem.txt"
@@ -1054,6 +1190,7 @@
       "type": "Vägg",
       "firstAscent": "Spångberg/Fröberg(?)",
       "description": "Ståstarta sprickan, upp till hylla, toppa ur åt vänster",
+      "sectorId": "vagbeskrivning",
       "source": {
         "id": "legacy:orhem",
         "path": "mediawiki/Orhem.txt"
@@ -1069,6 +1206,7 @@
       "type": "Vägg",
       "firstAscent": "kredd?",
       "description": "Linjen mitt på fejset.",
+      "sectorId": "vagbeskrivning",
       "source": {
         "id": "legacy:orhem",
         "path": "mediawiki/Orhem.txt"
@@ -1084,6 +1222,7 @@
       "type": "Vägg",
       "firstAscent": "kredd?",
       "description": "Ståstarta den trubbiga areten och upp längs slopig ränna.",
+      "sectorId": "vagbeskrivning",
       "source": {
         "id": "legacy:orhem",
         "path": "mediawiki/Orhem.txt"
@@ -1099,6 +1238,7 @@
       "type": "Vägg",
       "firstAscent": "Spångberg/Westerlund(?)",
       "description": "Ståstart på bra grepp bakom tallen, upp till jugg, toppa ur åt höger. Variant åt vänster.",
+      "sectorId": "vagbeskrivning",
       "source": {
         "id": "legacy:orhem",
         "path": "mediawiki/Orhem.txt"
@@ -1114,6 +1254,7 @@
       "type": "Slabb",
       "firstAscent": "Westerlund/Fröberg/Spångberg",
       "description": "Balansera ut åt höger längs rampen med händerna på seglet.",
+      "sectorId": "vagbeskrivning",
       "source": {
         "id": "legacy:orhem",
         "path": "mediawiki/Orhem.txt"
@@ -1129,6 +1270,7 @@
       "type": "Dyno/slabb",
       "firstAscent": "Spångberg/Fröberg",
       "description": "Start på bra grepp på högra areten, dyna upp åt vänster till slot på slabben.",
+      "sectorId": "vagbeskrivning",
       "source": {
         "id": "legacy:orhem",
         "path": "mediawiki/Orhem.txt"
@@ -1144,6 +1286,7 @@
       "type": "Slabb",
       "firstAscent": "Spångberg",
       "description": "Klurig slabb á la Spångberg.",
+      "sectorId": "vagbeskrivning",
       "source": {
         "id": "legacy:orhem",
         "path": "mediawiki/Orhem.txt"
@@ -1159,6 +1302,7 @@
       "type": "Över/vägg",
       "firstAscent": "Holmlund/Påhlman(?)",
       "description": "Ett par linjer som går att utveckla och/eller roa sig på...",
+      "sectorId": "vagbeskrivning",
       "source": {
         "id": "legacy:orhem",
         "path": "mediawiki/Orhem.txt"
@@ -1174,6 +1318,7 @@
       "type": "Över/vägg",
       "firstAscent": "Holmlund/Påhlman(?)",
       "description": "Ett par linjer som går att utveckla och/eller roa sig på...",
+      "sectorId": "vagbeskrivning",
       "source": {
         "id": "legacy:orhem",
         "path": "mediawiki/Orhem.txt"
@@ -1189,6 +1334,7 @@
       "type": "Vägg/slabb",
       "firstAscent": "kredd?",
       "description": "Ståstart längst till vänster.",
+      "sectorId": "vagbeskrivning",
       "source": {
         "id": "legacy:orhem",
         "path": "mediawiki/Orhem.txt"
@@ -1204,6 +1350,7 @@
       "type": "Vägg/slabb",
       "firstAscent": "Paladino",
       "description": "Ståstarta sprickan. variant till vänster på slabbdelen finns.",
+      "sectorId": "vagbeskrivning",
       "source": {
         "id": "legacy:orhem",
         "path": "mediawiki/Orhem.txt"
@@ -1219,6 +1366,7 @@
       "type": "Vägg/slabb",
       "firstAscent": "kredd?",
       "description": "Mitt på fejset till höger om sprickan.(?)",
+      "sectorId": "vagbeskrivning",
       "source": {
         "id": "legacy:orhem",
         "path": "mediawiki/Orhem.txt"
@@ -1234,6 +1382,7 @@
       "type": "Vägg/slabb",
       "firstAscent": "Holmlund",
       "description": "Sittstarta, upp till hylla, toppa ur åt vänster på slabb. Highball. Ståstart 7a+(?).",
+      "sectorId": "vagbeskrivning",
       "source": {
         "id": "legacy:orhem",
         "path": "mediawiki/Orhem.txt"
@@ -1249,6 +1398,7 @@
       "type": "Vägg",
       "firstAscent": "Holmlund",
       "description": "Sittstarta, rakt upp. Ståstart 7a(?).",
+      "sectorId": "vagbeskrivning",
       "source": {
         "id": "legacy:orhem",
         "path": "mediawiki/Orhem.txt"
@@ -1264,6 +1414,7 @@
       "type": "Vägg",
       "firstAscent": "Kraufvelin",
       "description": "Ståstart mellan \"La fonderie\" och \"Forellfrisyren\".",
+      "sectorId": "vagbeskrivning",
       "source": {
         "id": "legacy:orhem",
         "path": "mediawiki/Orhem.txt"
@@ -1279,6 +1430,7 @@
       "type": "Vägg",
       "firstAscent": "Hans Lindqvist",
       "description": "Sittstarta den trubbiga areten vid björken. Upp längs slopiga hyllor.",
+      "sectorId": "vagbeskrivning",
       "source": {
         "id": "legacy:orhem",
         "path": "mediawiki/Orhem.txt"
@@ -1294,6 +1446,7 @@
       "type": "Spricka",
       "firstAscent": "Wernquist/Stetina",
       "description": "Sittstart, gå rakt upp längs sprickan.",
+      "sectorId": "sjovaggarna",
       "source": {
         "id": "legacy:orhem",
         "path": "mediawiki/Orhem.txt"
@@ -1309,6 +1462,7 @@
       "type": "Stor bulle",
       "firstAscent": "Stetina/Dick Andersson",
       "description": "Sittstart, gå rakt upp på bullen. Ej stenblocken ovan och på sidorna! Flicka demonstrerar en sittstart på Boob job",
+      "sectorId": "sjovaggarna",
       "source": {
         "id": "legacy:orhem",
         "path": "mediawiki/Orhem.txt"
@@ -1324,6 +1478,7 @@
       "type": "Sittstart",
       "firstAscent": "",
       "description": "",
+      "sectorId": "sjovaggarna",
       "source": {
         "id": "legacy:orhem",
         "path": "mediawiki/Orhem.txt"
@@ -1339,6 +1494,7 @@
       "type": "Sittstart",
       "firstAscent": "",
       "description": "",
+      "sectorId": "sjovaggarna",
       "source": {
         "id": "legacy:orhem",
         "path": "mediawiki/Orhem.txt"
@@ -1354,6 +1510,7 @@
       "type": "Sittstart",
       "firstAscent": "",
       "description": "Upp och lite till höger därefter rakt upp!",
+      "sectorId": "sjovaggarna",
       "source": {
         "id": "legacy:orhem",
         "path": "mediawiki/Orhem.txt"
@@ -1369,6 +1526,7 @@
       "type": "Sittstart",
       "firstAscent": "",
       "description": "Starta vid Uno, ut vä och upp på små crimps",
+      "sectorId": "sjovaggarna",
       "source": {
         "id": "legacy:orhem",
         "path": "mediawiki/Orhem.txt"
@@ -1384,6 +1542,7 @@
       "type": "Sittstart",
       "firstAscent": "",
       "description": "",
+      "sectorId": "sjovaggarna",
       "source": {
         "id": "legacy:orhem",
         "path": "mediawiki/Orhem.txt"
@@ -1399,6 +1558,7 @@
       "type": "Sittstart",
       "firstAscent": "",
       "description": "",
+      "sectorId": "sjovaggarna",
       "source": {
         "id": "legacy:orhem",
         "path": "mediawiki/Orhem.txt"
@@ -1414,6 +1574,7 @@
       "type": "Sittstart",
       "firstAscent": "",
       "description": "",
+      "sectorId": "sjovaggarna",
       "source": {
         "id": "legacy:orhem",
         "path": "mediawiki/Orhem.txt"
@@ -1429,6 +1590,7 @@
       "type": "Arete",
       "firstAscent": "Westerlund",
       "description": "Sittstart",
+      "sectorId": "sjovaggarna",
       "source": {
         "id": "legacy:orhem",
         "path": "mediawiki/Orhem.txt"
@@ -1444,6 +1606,7 @@
       "type": "Highball",
       "firstAscent": "???",
       "description": "High-ball projekt med intressant landning.",
+      "sectorId": "vagbeskrivning",
       "source": {
         "id": "legacy:orhem",
         "path": "mediawiki/Orhem.txt"
@@ -1459,6 +1622,7 @@
       "type": "arete",
       "firstAscent": "Westerlund",
       "description": "Fristående liten vägg, sittstarta med händerna på var sida om areten.",
+      "sectorId": "vagbeskrivning",
       "source": {
         "id": "legacy:orhem",
         "path": "mediawiki/Orhem.txt"
@@ -1474,6 +1638,7 @@
       "type": "brant",
       "firstAscent": "Westerlund",
       "description": "Sittstart vid seglet/rampen.",
+      "sectorId": "vagbeskrivning",
       "source": {
         "id": "legacy:orhem",
         "path": "mediawiki/Orhem.txt"
@@ -1489,6 +1654,7 @@
       "type": "brant",
       "firstAscent": "F Gatu",
       "description": "Start som Småbåtshamn, upp till läppen o sen höger via sloopers till Vformad krimp mitt på svaét.",
+      "sectorId": "vagbeskrivning",
       "source": {
         "id": "legacy:orhem",
         "path": "mediawiki/Orhem.txt"
@@ -1504,6 +1670,7 @@
       "type": "mantling",
       "firstAscent": "Westerlund",
       "description": "Liggstart med händerna till vänster, mantling i klykan, utsteg vänster eller höger. Variant: starta med händerna till höger 5+.",
+      "sectorId": "vagbeskrivning",
       "source": {
         "id": "legacy:orhem",
         "path": "mediawiki/Orhem.txt"
@@ -1519,6 +1686,7 @@
       "type": "brant arete",
       "firstAscent": "Westerlund",
       "description": "Sittstarta den trubbiga areten.",
+      "sectorId": "vagbeskrivning",
       "source": {
         "id": "legacy:orhem",
         "path": "mediawiki/Orhem.txt"
@@ -1534,6 +1702,7 @@
       "type": "brant",
       "firstAscent": "Ljungberg",
       "description": "Sittstart, upp till vänster om trädet.",
+      "sectorId": "vagbeskrivning",
       "source": {
         "id": "legacy:orhem",
         "path": "mediawiki/Orhem.txt"
@@ -1549,6 +1718,7 @@
       "type": "slabb",
       "firstAscent": "Fröberg",
       "description": "Ståstart på lätt slabb. Projekt: Birgit hands off (no hands).",
+      "sectorId": "vagbeskrivning",
       "source": {
         "id": "legacy:orhem",
         "path": "mediawiki/Orhem.txt"
@@ -1564,6 +1734,7 @@
       "type": "low-ball",
       "firstAscent": "Fröberg",
       "description": "Sittstart.",
+      "sectorId": "vagbeskrivning",
       "source": {
         "id": "legacy:orhem",
         "path": "mediawiki/Orhem.txt"
@@ -1579,6 +1750,7 @@
       "type": "brant/mantling",
       "firstAscent": "Nordenstam",
       "description": "Sittstart uppe på avsatsen, rakt upp.",
+      "sectorId": "vagbeskrivning",
       "source": {
         "id": "legacy:orhem",
         "path": "mediawiki/Orhem.txt"
@@ -1594,6 +1766,7 @@
       "type": "brant-vertikalt",
       "firstAscent": "Westerlund",
       "description": "Sittstart uppe på avsatsen, runda höger arête.",
+      "sectorId": "vagbeskrivning",
       "source": {
         "id": "legacy:orhem",
         "path": "mediawiki/Orhem.txt"
@@ -1609,6 +1782,7 @@
       "type": "brant",
       "firstAscent": "Ljungberg",
       "description": "Sittstarta på tydliga greppet, upp via jug till höger.",
+      "sectorId": "vagbeskrivning",
       "source": {
         "id": "legacy:orhem",
         "path": "mediawiki/Orhem.txt"
@@ -1624,6 +1798,7 @@
       "type": "dyno",
       "firstAscent": "Fröberg/Spångberg",
       "description": "Sittstarta på tydliga greppet, dyna direkt till toppen. Variant: dyna med vänsterhanden eller båda händerna.",
+      "sectorId": "vagbeskrivning",
       "source": {
         "id": "legacy:orhem",
         "path": "mediawiki/Orhem.txt"
@@ -1639,6 +1814,7 @@
       "type": "brant arete",
       "firstAscent": "Fröberg/Ljungberg",
       "description": "Ståstart.",
+      "sectorId": "vagbeskrivning",
       "source": {
         "id": "legacy:orhem",
         "path": "mediawiki/Orhem.txt"
@@ -1654,6 +1830,7 @@
       "type": "brant",
       "firstAscent": "Fröberg/Ljungberg",
       "description": "Sittstart mitt på väggen.",
+      "sectorId": "vagbeskrivning",
       "source": {
         "id": "legacy:orhem",
         "path": "mediawiki/Orhem.txt"
@@ -1669,6 +1846,7 @@
       "type": "low-ball",
       "firstAscent": "Fröberg/Ljungberg",
       "description": "Sittstart med höger hand i sidosprickan.",
+      "sectorId": "vagbeskrivning",
       "source": {
         "id": "legacy:orhem",
         "path": "mediawiki/Orhem.txt"
@@ -1684,6 +1862,7 @@
       "type": "Många flytt på liten sten",
       "firstAscent": "Påhlman",
       "description": "Sittstart på högra delen av väggen. Låt bli att ta det övre högerflaket. Det sitter löst o risken finns att startgreppet följer med om det ryker. Dessutom behövs det inte för att göra problemet.",
+      "sectorId": "vagbeskrivning",
       "source": {
         "id": "legacy:orhem",
         "path": "mediawiki/Orhem.txt"
@@ -1694,202 +1873,242 @@
     {
       "filename": "Orhem_oversikt2.jpg",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "oversiktskarta"
     },
     {
       "filename": "Vägklippan.jpg",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "vagklippan"
     },
     {
       "filename": "Ovre_vaggen_vanster_problem.JPG",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "ovre-vaggen"
     },
     {
       "filename": "Ovre_vaggen_hoger_problem.JPG",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "ovre-vaggen"
     },
     {
       "filename": "Vanstra_vaggen_problem.JPG",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "vanstra-vaggen"
     },
     {
       "filename": "Sandhalsvaggen_problem.JPG",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "sandhalsvaggen"
     },
     {
       "filename": "Vertikalvaggen_problem.JPG",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "vertikalvaggen"
     },
     {
       "filename": "Stora_overhanget_vänster.JPG",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "stora-overhanget"
     },
     {
       "filename": "Stora_overhanget_hoger.JPG",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "stora-overhanget"
     },
     {
       "filename": "Karmaväggen_problem.JPG",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "karmavaggen"
     },
     {
       "filename": "Chipväggen1.jpg",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "chipvaggen"
     },
     {
       "filename": "Chipväggen2.jpg",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "chipvaggen"
     },
     {
       "filename": "Skogsväggarna1.jpg",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "klippa-narmast-vagen"
     },
     {
       "filename": "Skogsväggarna2.jpg",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "hogbollarna"
     },
     {
       "filename": "Skogsväggarna5.jpg",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "hogbollarna"
     },
     {
       "filename": "Skogsväggarna3.jpg",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "hogbollarna"
     },
     {
       "filename": "Skogsväggarna4.jpg",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "hogbollarna"
     },
     {
       "filename": "Skogsväggarna6.jpg",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "hogbollarna"
     },
     {
       "filename": "Skogsväggarna7.jpg",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "hogbollarna"
     },
     {
       "filename": "Parkeringväggarna1.jpg",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "parkeringvaggarna"
     },
     {
       "filename": "Parkeringväggarna2.jpg",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "parkeringvaggarna"
     },
     {
       "filename": "Parkeringväggarna3.jpg",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "parkeringvaggarna"
     },
     {
       "filename": "Parkeringväggarna4.jpg",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "parkeringvaggarna"
     },
     {
       "filename": "Orhem_bortre_oversikt.jpg",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "oversiktskarta"
     },
     {
       "filename": "1_uppvarmningsvaggen.jpg",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "vagbeskrivning"
     },
     {
       "filename": "2_knarkarkvarten.jpg",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "vagbeskrivning"
     },
     {
       "filename": "3_overvaggen.jpg",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "vagbeskrivning"
     },
     {
       "filename": "4_rampvaggen.jpg",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "vagbeskrivning"
     },
     {
       "filename": "5_andreas_slabb.jpg",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "vagbeskrivning"
     },
     {
       "filename": "6_alkovvaggen.jpg",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "vagbeskrivning"
     },
     {
       "filename": "7_fissurvaggen.jpg",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "vagbeskrivning"
     },
     {
       "filename": "Orhem_sjovaggen_left.jpg",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "sjovaggarna"
     },
     {
       "filename": "Orhem.sjovaggen.right.jpg",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "sjovaggarna"
     },
     {
       "filename": "Kolonin_karta_2.0.jpg",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "oversiktskarta"
     },
     {
       "filename": "01_babel.jpg",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "vagbeskrivning"
     },
     {
       "filename": "02_friggebodarna.jpg",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "vagbeskrivning"
     },
     {
       "filename": "03_buken.jpg",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "vagbeskrivning"
     },
     {
       "filename": "04_marginalskatten.jpg",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "vagbeskrivning"
     },
     {
       "filename": "05_gradvargsattack.jpg",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "vagbeskrivning"
     },
     {
       "filename": "Servitutvaggen.jpg",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "vagbeskrivning"
     }
   ],
   "access": {

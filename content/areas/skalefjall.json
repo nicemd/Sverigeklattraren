@@ -34,6 +34,36 @@
       "body": "Söderut på väg 162, sväng höger mot Rixö i rondellen i Brastad och följ vägen cirka en kilometer. Sväng vänster och sen höger. Parkera längs vägen vid industrin, inte vid föreningsgården som anvisas i Bohusguiden 2002. Vardagar ska plats lämnas så stora långtradare kan komma in till fabriken. En liten stig leder genom skogen över en kulle till skogsvägen som går framför berget."
     },
     {
+      "id": "access",
+      "title": "Access",
+      "body": ""
+    },
+    {
+      "id": "leder",
+      "title": "Leder",
+      "body": ""
+    },
+    {
+      "id": "vanster",
+      "title": "Vänster",
+      "body": ""
+    },
+    {
+      "id": "mitten",
+      "title": "Mitten",
+      "body": ""
+    },
+    {
+      "id": "hoger",
+      "title": "Höger",
+      "body": ""
+    },
+    {
+      "id": "in-english",
+      "title": "In English",
+      "body": ""
+    },
+    {
       "id": "description",
       "title": "Description",
       "body": "Northwest-facing cliff which is not sunlit until late in the afternoon, and therefore a popular crag in the summer. Mostly trad routes but some harder bolted routes can be found."
@@ -55,6 +85,7 @@
       "type": "trad",
       "firstAscent": "Johan Svensson",
       "description": "Längst till vänster på berget. Snygg linje på en grönaktig vägg. Starta uppe på blocket, traversera vänster ut till linjen. Svårsäkrad i början.",
+      "sectorId": "vanster",
       "source": {
         "id": "legacy:skalefjall",
         "path": "mediawiki/Skälefjäll.txt"
@@ -70,6 +101,7 @@
       "type": "spor",
       "firstAscent": "Said Belhaj -05",
       "description": "Startar i ett litet hörn och går över en bulle/tak, strax höger om Tradjazz. Bultad.",
+      "sectorId": "vanster",
       "source": {
         "id": "legacy:skalefjall",
         "path": "mediawiki/Skälefjäll.txt"
@@ -85,6 +117,7 @@
       "type": "trad",
       "firstAscent": "Simon Thyr -97",
       "description": "Hörn höger om Legalize. Sällan klättrad.",
+      "sectorId": "vanster",
       "source": {
         "id": "legacy:skalefjall",
         "path": "mediawiki/Skälefjäll.txt"
@@ -100,6 +133,7 @@
       "type": "trad",
       "firstAscent": "Johan Svensson -97",
       "description": "Kort rundad arete med sprickor i. Sällan klättrad.",
+      "sectorId": "vanster",
       "source": {
         "id": "legacy:skalefjall",
         "path": "mediawiki/Skälefjäll.txt"
@@ -115,6 +149,7 @@
       "type": "trad",
       "firstAscent": "Ann-Sofie Andersson -99",
       "description": "Variant på Snusdosan, viker av vänster ut i ett grunt hörn.",
+      "sectorId": "vanster",
       "source": {
         "id": "legacy:skalefjall",
         "path": "mediawiki/Skälefjäll.txt"
@@ -130,6 +165,7 @@
       "type": "trad",
       "firstAscent": "Petter Restorp -08",
       "description": "Kort och intensiv sprickklättring. Den vänstra av sprickorna på en liten vägg strax vänster om Electric avenue. Firningsankare.",
+      "sectorId": "vanster",
       "source": {
         "id": "legacy:skalefjall",
         "path": "mediawiki/Skälefjäll.txt"
@@ -145,6 +181,7 @@
       "type": "sport",
       "firstAscent": "Niklas Alm, Leif Jägerbrand -97",
       "description": "Startar på en hylla uppe till vänster om Electric avenue.",
+      "sectorId": "vanster",
       "source": {
         "id": "legacy:skalefjall",
         "path": "mediawiki/Skälefjäll.txt"
@@ -160,6 +197,7 @@
       "type": "mix",
       "firstAscent": "Stefan Wulf, Henrik Bolander 2010-07",
       "description": "Vänster om Electric avenue. Startar i Offwidhsprickan, ut höger där bultarna börjar. Någon stor kam i startsprickan och någon mindre i överdelen.",
+      "sectorId": "vanster",
       "source": {
         "id": "legacy:skalefjall",
         "path": "mediawiki/Skälefjäll.txt"
@@ -175,6 +213,7 @@
       "type": "trad",
       "firstAscent": "Henrik Bolander -97",
       "description": "Fantastisk led mitt på den stora rödaktiga väggen.",
+      "sectorId": "vanster",
       "source": {
         "id": "legacy:skalefjall",
         "path": "mediawiki/Skälefjäll.txt"
@@ -190,6 +229,7 @@
       "type": "mix",
       "firstAscent": "Eugenia Bolander -97",
       "description": "Startar som Electric avenue, men följer linjen upp åt höger istället. Mycket bra led.",
+      "sectorId": "vanster",
       "source": {
         "id": "legacy:skalefjall",
         "path": "mediawiki/Skälefjäll.txt"
@@ -205,6 +245,7 @@
       "type": "trad",
       "firstAscent": "Petter Restorp, Erik Heyman -05",
       "description": "Bred spricka i hörnet till vänster om Berberis",
+      "sectorId": "mitten",
       "source": {
         "id": "legacy:skalefjall",
         "path": "mediawiki/Skälefjäll.txt"
@@ -220,6 +261,7 @@
       "type": "trad",
       "firstAscent": "Patrik Jakobsson",
       "description": "Leden går på kanten till vänster om Odon. Insteg på aréten och vidare upp i det ljusröda diedret. Därefter ut åt höger och sedan rakt upp över två bulliga formationer. Luftig men välsäkrad med kilar i början, 4 st limbultar på slutet och ankare på hyllan.",
+      "sectorId": "mitten",
       "source": {
         "id": "legacy:skalefjall",
         "path": "mediawiki/Skälefjäll.txt"
@@ -235,6 +277,7 @@
       "type": "sport",
       "firstAscent": "Henrik Bolander -98",
       "description": "Fantastisk led på väggen vänster om Hallon. Första replängden är grad 7. Andra replängden flackar av och tunnar ut...",
+      "sectorId": "mitten",
       "source": {
         "id": "legacy:skalefjall",
         "path": "mediawiki/Skälefjäll.txt"
@@ -250,6 +293,7 @@
       "type": "trad",
       "firstAscent": "Niklas Björnerstedt, Lars Svadängs -92",
       "description": "Kalaslinje på den stora väggen till vänster om granitbitenpartiet. Startar i flakformationen, upp till dieder och spricka. Travers höger via en borrbult på slutet.",
+      "sectorId": "mitten",
       "source": {
         "id": "legacy:skalefjall",
         "path": "mediawiki/Skälefjäll.txt"
@@ -265,6 +309,7 @@
       "type": "trad",
       "firstAscent": "Mikael Jansson, Joakim Olofsson -93",
       "description": "Vällustig dieder som sällan torkar upp. Finner du den torr har du ingen ursäkt, även om den mossat igen de sista åren.",
+      "sectorId": "mitten",
       "source": {
         "id": "legacy:skalefjall",
         "path": "mediawiki/Skälefjäll.txt"
@@ -280,6 +325,7 @@
       "type": "trad",
       "firstAscent": "Lars Grankvist, Niklas Björnerstedt -92",
       "description": "Kalasspricka på den smala tvärställda väggen.",
+      "sectorId": "mitten",
       "source": {
         "id": "legacy:skalefjall",
         "path": "mediawiki/Skälefjäll.txt"
@@ -295,6 +341,7 @@
       "type": "sport",
       "firstAscent": "Stefan Wulf -98",
       "description": "Areten mellan Granitbiten och Hassan chop. Marig.",
+      "sectorId": "mitten",
       "source": {
         "id": "legacy:skalefjall",
         "path": "mediawiki/Skälefjäll.txt"
@@ -310,6 +357,7 @@
       "type": "trad",
       "firstAscent": "Niklas Björnerstedt, Lars Grankvist -92",
       "description": "Kalasdieder. Osedvanligt renskuren.",
+      "sectorId": "mitten",
       "source": {
         "id": "legacy:skalefjall",
         "path": "mediawiki/Skälefjäll.txt"
@@ -325,6 +373,7 @@
       "type": "trad",
       "firstAscent": "Eugenia Bolander -99",
       "description": "Kort och fin spricklinje. Kopplas med fördel ihop med överdelen på Hassan chop, vilket ökar längden men inte svårigheten.",
+      "sectorId": "mitten",
       "source": {
         "id": "legacy:skalefjall",
         "path": "mediawiki/Skälefjäll.txt"
@@ -340,6 +389,7 @@
       "type": "trad",
       "firstAscent": "Niklas Björnerstedt, Jeremy Sheeham, Pål Nylander -95",
       "description": "Den inbjudande handjamdiedern en bit upp. Lite skitig i starten, men det är ingen ursäkt.",
+      "sectorId": "hoger",
       "source": {
         "id": "legacy:skalefjall",
         "path": "mediawiki/Skälefjäll.txt"
@@ -355,6 +405,7 @@
       "type": "mix",
       "firstAscent": "Johan Svensson, Robin Qwint -02",
       "description": "Startar uppe på det stående blocket höger om Jamspricka nr2. Klättra upp i minidiedret och vidare upp och förbi 2 st borrbultar. Kliv sedan ut på aréten och förbi en tredje borrbult. På hyllan ovanför sitter 2 limbultar som även kan nyttjas som ankare för Tvärviggen. Glöm inte småkilar/rp's samt några friends i de mindre storlekarna.",
+      "sectorId": "hoger",
       "source": {
         "id": "legacy:skalefjall",
         "path": "mediawiki/Skälefjäll.txt"
@@ -370,6 +421,7 @@
       "type": "sport",
       "firstAscent": "Henrik Bolander, Stefan Wulf -04",
       "description": "Leden går på högra arête kanten mellan Jamspricka nr2 och Tvärviggen. Ihållande arête klättring som säkras med 7 borrbultar. Utsteg åt höger mot toppankaret.",
+      "sectorId": "hoger",
       "source": {
         "id": "legacy:skalefjall",
         "path": "mediawiki/Skälefjäll.txt"
@@ -385,6 +437,7 @@
       "type": "trad",
       "firstAscent": "Lars Grankvist, Lars Svadängs -92",
       "description": "Den stora diedern. Ofta blöt och kan vara lite smutsig. I torrt skick är den fantastisk. Försiktigt säkrad de första metrarna.",
+      "sectorId": "hoger",
       "source": {
         "id": "legacy:skalefjall",
         "path": "mediawiki/Skälefjäll.txt"
@@ -400,6 +453,7 @@
       "type": "sport",
       "firstAscent": "Henrik Bolander, Eugenia Bolander -04",
       "description": "Fin väggtur till höger om Tvärviggen. Även denna smutsar igen fort. Säkras med 6 borrbultar.",
+      "sectorId": "hoger",
       "source": {
         "id": "legacy:skalefjall",
         "path": "mediawiki/Skälefjäll.txt"
@@ -415,6 +469,7 @@
       "type": "sport",
       "firstAscent": "Henrik Bolander -00",
       "description": "Arete som börjar med tunga sekvenser på kanten av ett tak. Sju borrbultar. Vissa vill gärna lägga en liten kam på slutet.",
+      "sectorId": "hoger",
       "source": {
         "id": "legacy:skalefjall",
         "path": "mediawiki/Skälefjäll.txt"
@@ -430,6 +485,7 @@
       "type": "trad",
       "firstAscent": "Lars Grankvist, Jan Ahrens 9-2",
       "description": "Prövande led med diedertema. Ihållande svårsäkrat i starten, var noga med mässingsorkestern.",
+      "sectorId": "hoger",
       "source": {
         "id": "legacy:skalefjall",
         "path": "mediawiki/Skälefjäll.txt"
@@ -445,6 +501,7 @@
       "type": "trad",
       "firstAscent": "Öystein K Johnsen?",
       "description": "Dieder som brantar på, upp till en björk.",
+      "sectorId": "hoger",
       "source": {
         "id": "legacy:skalefjall",
         "path": "mediawiki/Skälefjäll.txt"
@@ -460,6 +517,7 @@
       "type": "trad",
       "firstAscent": "Lars Svadängs, Lars Grankvist, Jan Ahrens -92",
       "description": "Svalaybackdieder upp till ett tak som passeras åt höger. Upp i sprickor på svaet ovanför.",
+      "sectorId": "hoger",
       "source": {
         "id": "legacy:skalefjall",
         "path": "mediawiki/Skälefjäll.txt"
@@ -475,6 +533,7 @@
       "type": "trad",
       "firstAscent": "Pia Fagernes, Niklas Björnerstedt -94",
       "description": "Det finns två utsteg. Originalet till vänster, varianten till höger.",
+      "sectorId": "hoger",
       "source": {
         "id": "legacy:skalefjall",
         "path": "mediawiki/Skälefjäll.txt"
@@ -490,6 +549,7 @@
       "type": "trad",
       "firstAscent": "Jan Ahrenes, Jeremy Sheeham -95",
       "description": "Kort och klockren dieder.",
+      "sectorId": "hoger",
       "source": {
         "id": "legacy:skalefjall",
         "path": "mediawiki/Skälefjäll.txt"
@@ -505,6 +565,7 @@
       "type": "trad",
       "firstAscent": "Simon Thyr -99",
       "description": "Areten mellan Stålfål och Machete. Startar till vänster och går sedan på högersidan till toppen. Om areten följs strikt är det ganska långt mellan säkringarna.",
+      "sectorId": "hoger",
       "source": {
         "id": "legacy:skalefjall",
         "path": "mediawiki/Skälefjäll.txt"
@@ -520,6 +581,7 @@
       "type": "trad",
       "firstAscent": "Joakim Olofsson, Mikael Janson -93",
       "description": "Kort och fin fingerspricka upp till en hylla med björk.",
+      "sectorId": "hoger",
       "source": {
         "id": "legacy:skalefjall",
         "path": "mediawiki/Skälefjäll.txt"
@@ -535,6 +597,7 @@
       "type": "sport",
       "firstAscent": "Johan Luhr?",
       "description": "Bultad led.",
+      "sectorId": "hoger",
       "source": {
         "id": "legacy:skalefjall",
         "path": "mediawiki/Skälefjäll.txt"
@@ -550,6 +613,7 @@
       "type": "trad",
       "firstAscent": "Johan Svensson -00",
       "description": "Spricka/hörn som startar på en hylla, fira dit.",
+      "sectorId": "hoger",
       "source": {
         "id": "legacy:skalefjall",
         "path": "mediawiki/Skälefjäll.txt"
@@ -565,6 +629,7 @@
       "type": "trad",
       "firstAscent": "Jan Ahrenes, Katarina Ståhl -92",
       "description": "",
+      "sectorId": "hoger",
       "source": {
         "id": "legacy:skalefjall",
         "path": "mediawiki/Skälefjäll.txt"
@@ -580,6 +645,7 @@
       "type": "trad",
       "firstAscent": "Jan Ahrens -92",
       "description": "",
+      "sectorId": "hoger",
       "source": {
         "id": "legacy:skalefjall",
         "path": "mediawiki/Skälefjäll.txt"
@@ -595,6 +661,7 @@
       "type": "trad",
       "firstAscent": "Oskar Alexandersson, Petter Restorp -09",
       "description": "Tunna sprickor till vänster om Mithrandir. Klättrad förut?",
+      "sectorId": "hoger",
       "source": {
         "id": "legacy:skalefjall",
         "path": "mediawiki/Skälefjäll.txt"
@@ -610,6 +677,7 @@
       "type": "trad",
       "firstAscent": "Joakim Olofsson -01",
       "description": "",
+      "sectorId": "hoger",
       "source": {
         "id": "legacy:skalefjall",
         "path": "mediawiki/Skälefjäll.txt"
@@ -625,6 +693,7 @@
       "type": "trad",
       "firstAscent": "Jesper Gren, Erik Gustafsson -13",
       "description": "Upp på vagt hörn höger om Mithrandir, in i en bred spricka. Stora händer och stora säkringar som t.ex. camalot 4 & 5 underlättar. Efter fist/offwidth-partiet travers vänster.",
+      "sectorId": "hoger",
       "source": {
         "id": "legacy:skalefjall",
         "path": "mediawiki/Skälefjäll.txt"

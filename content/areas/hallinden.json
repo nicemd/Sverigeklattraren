@@ -22,9 +22,34 @@
       "body": "En av sveriges absolut finaste och viktigaste klippor. Detta är det första berg du ser på väg in mot Lysekil från E6, och ett absolut måste för besökaren. Lederna är långa (upp till 50 m), utgörs generellt av fina, välsäkrade sprickor i olika bredder, och berget är på sina ställen snudd på överhängande. Turerna börjar vid 5+ men man bör ligga runt 6+ eller tom 7- för att komma åt godbitarna, och det rör sig ofta om lite vuxen klättring med krav på jamkunskaper. I övrigt är det hårt - många turer i åtta-registret. Under klippan är det platt och fint, med både skugga och sol, så även barnfamiljen kan ha det trevligt här. Solen når Stora väggen vid tvåtiden, och på branta väggen skuggar höga träd merparten av dagen. Följ parkeringsanvisningarna noga, se Access nedan."
     },
     {
+      "id": "vagbeskrivning",
+      "title": "Vägbeskrivning",
+      "body": ""
+    },
+    {
       "id": "access",
       "title": "Access",
       "body": "Parkeringen för Hallinden har ändrats sen den gamla föraren skrevs 2002. Parkera nu vid Hallindens pendelparkering. Den gamla parkeringen få ej användas och tänk inte ens på att köra in på traktorstigen till klippan. Detta har skett vid upprepade tillfällen och är ABSOLUT inte tillåtet. Händer detta igen riskerar vi att klippan stängs."
+    },
+    {
+      "id": "leder",
+      "title": "Leder",
+      "body": ""
+    },
+    {
+      "id": "stora-vaggen",
+      "title": "Stora väggen",
+      "body": ""
+    },
+    {
+      "id": "branta-vaggen",
+      "title": "Branta väggen",
+      "body": ""
+    },
+    {
+      "id": "hellervaggen",
+      "title": "Hellerväggen",
+      "body": ""
     },
     {
       "id": "terassvaggen",
@@ -43,6 +68,7 @@
       "type": "mix",
       "firstAscent": "",
       "description": "Väggen till vänsterom det stora diedret. En bult och två borrbultar",
+      "sectorId": "stora-vaggen",
       "source": {
         "id": "legacy:hallinden",
         "path": "mediawiki/Hallinden.txt"
@@ -58,6 +84,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "Mossigt dieder.",
+      "sectorId": "stora-vaggen",
       "source": {
         "id": "legacy:hallinden",
         "path": "mediawiki/Hallinden.txt"
@@ -73,6 +100,7 @@
       "type": "trad",
       "firstAscent": "Robert Caspersen",
       "description": "Väggen till höger om det stora diedret.",
+      "sectorId": "stora-vaggen",
       "source": {
         "id": "legacy:hallinden",
         "path": "mediawiki/Hallinden.txt"
@@ -88,6 +116,7 @@
       "type": "sport",
       "firstAscent": "Per Calleberg, Rikard Hedman",
       "description": "",
+      "sectorId": "stora-vaggen",
       "source": {
         "id": "legacy:hallinden",
         "path": "mediawiki/Hallinden.txt"
@@ -103,6 +132,7 @@
       "type": "trad",
       "firstAscent": "Niklas Bjornerstedt",
       "description": "",
+      "sectorId": "stora-vaggen",
       "source": {
         "id": "legacy:hallinden",
         "path": "mediawiki/Hallinden.txt"
@@ -118,6 +148,7 @@
       "type": "trad",
       "firstAscent": "Mats Almlöf , Per Calleberg",
       "description": "Fin led med ett hårt och kort krux direkt efter standplats. Denna passage är hårdare än grad 7 vilket anges i befintlig förare. I övrigt är andra repan mycket fin.",
+      "sectorId": "stora-vaggen",
       "source": {
         "id": "legacy:hallinden",
         "path": "mediawiki/Hallinden.txt"
@@ -133,6 +164,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "Första delen är 7+, andra delen är 6, och tredje delen är 5+. Klättra hela eller traversera in från Prismaster där du tycker att det ser lämpligt ut.",
+      "sectorId": "stora-vaggen",
       "source": {
         "id": "legacy:hallinden",
         "path": "mediawiki/Hallinden.txt"
@@ -148,6 +180,7 @@
       "type": "trad",
       "firstAscent": "Buster Delin, Kay von Damm och Peter Brolin",
       "description": "Mycket fin och lång tur som inte får missas. Varierad.",
+      "sectorId": "stora-vaggen",
       "source": {
         "id": "legacy:hallinden",
         "path": "mediawiki/Hallinden.txt"
@@ -163,6 +196,7 @@
       "type": "mix",
       "firstAscent": "Joakim Olofson",
       "description": "Starta som Priesmaster och går in höger i diedersystemet som passerar ett tak, och tunnas ut på väggens övre del. 3 borrbultar",
+      "sectorId": "stora-vaggen",
       "source": {
         "id": "legacy:hallinden",
         "path": "mediawiki/Hallinden.txt"
@@ -178,6 +212,7 @@
       "type": "trad",
       "firstAscent": "Rikard Hedman, Per Calleberg",
       "description": "Fin sva- och diederklättring.",
+      "sectorId": "stora-vaggen",
       "source": {
         "id": "legacy:hallinden",
         "path": "mediawiki/Hallinden.txt"
@@ -193,6 +228,7 @@
       "type": "trad",
       "firstAscent": "Rikard Hedman",
       "description": "Startar som Rapé, men viker av åt höger efter hyllan och följer den tunna spricklinjen.",
+      "sectorId": "stora-vaggen",
       "source": {
         "id": "legacy:hallinden",
         "path": "mediawiki/Hallinden.txt"
@@ -208,6 +244,7 @@
       "type": "trad",
       "firstAscent": "Lars Grankvist, Lars Svadangs",
       "description": "Fin och lång led.",
+      "sectorId": "stora-vaggen",
       "source": {
         "id": "legacy:hallinden",
         "path": "mediawiki/Hallinden.txt"
@@ -223,6 +260,7 @@
       "type": "trad",
       "firstAscent": "Rikard Hedman, Jan Liljemark",
       "description": "Långt och fint.",
+      "sectorId": "stora-vaggen",
       "source": {
         "id": "legacy:hallinden",
         "path": "mediawiki/Hallinden.txt"
@@ -238,6 +276,7 @@
       "type": "trad",
       "firstAscent": "Rikard Hedman, Johan Luhr",
       "description": "Långt och fint.",
+      "sectorId": "stora-vaggen",
       "source": {
         "id": "legacy:hallinden",
         "path": "mediawiki/Hallinden.txt"
@@ -253,6 +292,7 @@
       "type": "trad",
       "firstAscent": "Lars Svadang, Lars Grankvist",
       "description": "Lite mogen klättring, men inget att vara rädd för.",
+      "sectorId": "stora-vaggen",
       "source": {
         "id": "legacy:hallinden",
         "path": "mediawiki/Hallinden.txt"
@@ -268,6 +308,7 @@
       "type": "trad",
       "firstAscent": "Rikard Hedman, Per Calleberg",
       "description": "Ofta blöt. Ofta skitig.",
+      "sectorId": "branta-vaggen",
       "source": {
         "id": "legacy:hallinden",
         "path": "mediawiki/Hallinden.txt"
@@ -283,6 +324,7 @@
       "type": "trad",
       "firstAscent": "Rikard Hedman",
       "description": "Brant och ihållande jamklättring.",
+      "sectorId": "branta-vaggen",
       "source": {
         "id": "legacy:hallinden",
         "path": "mediawiki/Hallinden.txt"
@@ -298,6 +340,7 @@
       "type": "trad",
       "firstAscent": "Henrik Bolander, Stefan Wulf",
       "description": "Startar på det stora flaket. Brant och ihållande jamklättring.",
+      "sectorId": "branta-vaggen",
       "source": {
         "id": "legacy:hallinden",
         "path": "mediawiki/Hallinden.txt"
@@ -313,6 +356,7 @@
       "type": "trad",
       "firstAscent": "Joakim Olofsson, Andreas Ulvdell",
       "description": "Brant och ihållande jamklättring.",
+      "sectorId": "branta-vaggen",
       "source": {
         "id": "legacy:hallinden",
         "path": "mediawiki/Hallinden.txt"
@@ -328,6 +372,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "Traversera vänster direkt efter starten och sedan rakt upp.",
+      "sectorId": "branta-vaggen",
       "source": {
         "id": "legacy:hallinden",
         "path": "mediawiki/Hallinden.txt"
@@ -343,6 +388,7 @@
       "type": "trad",
       "firstAscent": "Petter Restorp, Oskar Alexandersson",
       "description": "Startar en meter till höger om After Burner.",
+      "sectorId": "branta-vaggen",
       "source": {
         "id": "legacy:hallinden",
         "path": "mediawiki/Hallinden.txt"
@@ -358,6 +404,7 @@
       "type": "trad",
       "firstAscent": "Robert Caspersen",
       "description": "Sprickan till höger om Afterburner.",
+      "sectorId": "branta-vaggen",
       "source": {
         "id": "legacy:hallinden",
         "path": "mediawiki/Hallinden.txt"
@@ -373,6 +420,7 @@
       "type": "trad",
       "firstAscent": "Torkel Røisli",
       "description": "Brant och ihållande jamklättring.",
+      "sectorId": "branta-vaggen",
       "source": {
         "id": "legacy:hallinden",
         "path": "mediawiki/Hallinden.txt"
@@ -388,6 +436,7 @@
       "type": "trad",
       "firstAscent": "Torkel Røisli",
       "description": "Sprickan till vänster om Ont Blot. Insteg vid knäckt gran, traversera tillbaka 3m mot Ont Blot och seda upp via lister till sprickan som följs till toppen.",
+      "sectorId": "branta-vaggen",
       "source": {
         "id": "legacy:hallinden",
         "path": "mediawiki/Hallinden.txt"
@@ -403,6 +452,7 @@
       "type": "trad",
       "firstAscent": "Michael Jansson",
       "description": "Brant och ihållande jamklättring.",
+      "sectorId": "branta-vaggen",
       "source": {
         "id": "legacy:hallinden",
         "path": "mediawiki/Hallinden.txt"
@@ -418,6 +468,7 @@
       "type": "trad",
       "firstAscent": "Petter Restorp",
       "description": "Klättra Ont Blot men traversera vänster ungefär halvvägs. Kul alternativ.",
+      "sectorId": "branta-vaggen",
       "source": {
         "id": "legacy:hallinden",
         "path": "mediawiki/Hallinden.txt"
@@ -433,6 +484,7 @@
       "type": "trad",
       "firstAscent": "Rikard Hedman",
       "description": "Startar med en 15-meters travers tills den givna linjen nås. Brant och ihållande jamklättring.",
+      "sectorId": "branta-vaggen",
       "source": {
         "id": "legacy:hallinden",
         "path": "mediawiki/Hallinden.txt"
@@ -448,6 +500,7 @@
       "type": "trad",
       "firstAscent": "Torkel Røisli -03",
       "description": "To riss starter på hver sin side av ett tre, rett etter at du har gått opp den lille avsatsen ved det store taket. Dette er risset på høyre side av treet og er ofte vått de første metrene.",
+      "sectorId": "branta-vaggen",
       "source": {
         "id": "legacy:hallinden",
         "path": "mediawiki/Hallinden.txt"
@@ -463,6 +516,7 @@
       "type": "trad",
       "firstAscent": "Torkel Røisli, Ulrika Tiegs",
       "description": "Den tydliga handsprickan.",
+      "sectorId": "branta-vaggen",
       "source": {
         "id": "legacy:hallinden",
         "path": "mediawiki/Hallinden.txt"
@@ -478,6 +532,7 @@
       "type": "trad",
       "firstAscent": "Ulrika Tiegs, Torkel Røisli",
       "description": "Startar med kamin.",
+      "sectorId": "branta-vaggen",
       "source": {
         "id": "legacy:hallinden",
         "path": "mediawiki/Hallinden.txt"
@@ -493,6 +548,7 @@
       "type": "trad",
       "firstAscent": "Torkel Røisli -03",
       "description": "Opp to avsatser i starten så forbi stor LØS trekantet blokk og riss svakt mot høyre til topps.",
+      "sectorId": "branta-vaggen",
       "source": {
         "id": "legacy:hallinden",
         "path": "mediawiki/Hallinden.txt"
@@ -508,6 +564,7 @@
       "type": "trad",
       "firstAscent": "Torkel Røisli -03",
       "description": "Riss på rødt fjell til høyre for stor kløft formasjon.",
+      "sectorId": "branta-vaggen",
       "source": {
         "id": "legacy:hallinden",
         "path": "mediawiki/Hallinden.txt"
@@ -523,6 +580,7 @@
       "type": "trad",
       "firstAscent": "Torkel Røisli -03",
       "description": "Start i dieder med ow riss opp til liten hylle, fortsett opp dieder til riss.",
+      "sectorId": "branta-vaggen",
       "source": {
         "id": "legacy:hallinden",
         "path": "mediawiki/Hallinden.txt"
@@ -538,6 +596,7 @@
       "type": "trad",
       "firstAscent": "Torkel Røisli",
       "description": "Grov spricka och dieder.",
+      "sectorId": "hellervaggen",
       "source": {
         "id": "legacy:hallinden",
         "path": "mediawiki/Hallinden.txt"
@@ -553,6 +612,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "Dieder.",
+      "sectorId": "hellervaggen",
       "source": {
         "id": "legacy:hallinden",
         "path": "mediawiki/Hallinden.txt"
@@ -568,6 +628,7 @@
       "type": "trad",
       "firstAscent": "Dag Hagen, Torkel Røisli",
       "description": "Diagonal tunn spricka.",
+      "sectorId": "hellervaggen",
       "source": {
         "id": "legacy:hallinden",
         "path": "mediawiki/Hallinden.txt"
@@ -583,6 +644,7 @@
       "type": "mix",
       "firstAscent": "Torkel Røisli",
       "description": "En borrbult i starten och en kort travers för att nå sprickan. Direktinsteget är ännu ej gjort.",
+      "sectorId": "hellervaggen",
       "source": {
         "id": "legacy:hallinden",
         "path": "mediawiki/Hallinden.txt"
@@ -598,6 +660,7 @@
       "type": "trad",
       "firstAscent": "Halvor Hagen",
       "description": "Traversera ganska långt väster över kanten för att nå till hörn och spricka som följs till toppen. Firningsankare.",
+      "sectorId": "hellervaggen",
       "source": {
         "id": "legacy:hallinden",
         "path": "mediawiki/Hallinden.txt"
@@ -613,6 +676,7 @@
       "type": "trad",
       "firstAscent": "Torkel Røisli",
       "description": "Traversera väster över kanten och klättra rätt upp i diedret. En klassiker! Firningsankare.",
+      "sectorId": "hellervaggen",
       "source": {
         "id": "legacy:hallinden",
         "path": "mediawiki/Hallinden.txt"
@@ -628,6 +692,7 @@
       "type": "mix",
       "firstAscent": "Torkel Røisli",
       "description": "Areten. 3 borrbutar.",
+      "sectorId": "hellervaggen",
       "source": {
         "id": "legacy:hallinden",
         "path": "mediawiki/Hallinden.txt"
@@ -643,6 +708,7 @@
       "type": "trad",
       "firstAscent": "Torkel Røisli",
       "description": "Samma som förra leden upp till hyllan. Följ sedan sprickan till vänster om areten till toppen.",
+      "sectorId": "hellervaggen",
       "source": {
         "id": "legacy:hallinden",
         "path": "mediawiki/Hallinden.txt"
@@ -658,6 +724,7 @@
       "type": "trad",
       "firstAscent": "Torkel Røisli",
       "description": "Diedret till höger om areten.",
+      "sectorId": "hellervaggen",
       "source": {
         "id": "legacy:hallinden",
         "path": "mediawiki/Hallinden.txt"
@@ -673,6 +740,7 @@
       "type": "trad",
       "firstAscent": "Gro Gujord Tangen",
       "description": "Spricklinjen alldeles till höger om Sorte mand.",
+      "sectorId": "hellervaggen",
       "source": {
         "id": "legacy:hallinden",
         "path": "mediawiki/Hallinden.txt"
@@ -688,6 +756,7 @@
       "type": "trad",
       "firstAscent": "Tina Jorgensen",
       "description": "",
+      "sectorId": "hellervaggen",
       "source": {
         "id": "legacy:hallinden",
         "path": "mediawiki/Hallinden.txt"
@@ -703,6 +772,7 @@
       "type": "trad",
       "firstAscent": "Tina Jorgensen, Jappe Pålsgård",
       "description": "Samma insteg som Pyttsan i 2meter. Följ sedan bågen åt höger och därefter sprickan rakt upp.",
+      "sectorId": "hellervaggen",
       "source": {
         "id": "legacy:hallinden",
         "path": "mediawiki/Hallinden.txt"
@@ -718,6 +788,7 @@
       "type": "trad",
       "firstAscent": "Dag Hagen",
       "description": "Brant bred spricka till höger om det fasta repet. Kan klättras med enklare start.",
+      "sectorId": "hellervaggen",
       "source": {
         "id": "legacy:hallinden",
         "path": "mediawiki/Hallinden.txt"
@@ -733,6 +804,7 @@
       "type": "trad",
       "firstAscent": "Niklas Björnerstedt, Torkel Røisli -01",
       "description": "",
+      "sectorId": "terassvaggen",
       "source": {
         "id": "legacy:hallinden",
         "path": "mediawiki/Hallinden.txt"
@@ -748,6 +820,7 @@
       "type": "trad",
       "firstAscent": "Torkel Røisli -00",
       "description": "",
+      "sectorId": "terassvaggen",
       "source": {
         "id": "legacy:hallinden",
         "path": "mediawiki/Hallinden.txt"
@@ -763,6 +836,7 @@
       "type": "trad",
       "firstAscent": "Torkel Røisli -98",
       "description": "",
+      "sectorId": "terassvaggen",
       "source": {
         "id": "legacy:hallinden",
         "path": "mediawiki/Hallinden.txt"
@@ -778,6 +852,7 @@
       "type": "trad",
       "firstAscent": "Torkel Røisli -00",
       "description": "",
+      "sectorId": "terassvaggen",
       "source": {
         "id": "legacy:hallinden",
         "path": "mediawiki/Hallinden.txt"
@@ -793,6 +868,7 @@
       "type": "trad",
       "firstAscent": "Dag Hagen, Torkel Røisli -99",
       "description": "Den breda sprickan.",
+      "sectorId": "terassvaggen",
       "source": {
         "id": "legacy:hallinden",
         "path": "mediawiki/Hallinden.txt"
@@ -808,6 +884,7 @@
       "type": "trad",
       "firstAscent": "Torkel Røisli -98",
       "description": "",
+      "sectorId": "terassvaggen",
       "source": {
         "id": "legacy:hallinden",
         "path": "mediawiki/Hallinden.txt"
@@ -823,6 +900,7 @@
       "type": "trad",
       "firstAscent": "Torkel Røisli -98",
       "description": "",
+      "sectorId": "terassvaggen",
       "source": {
         "id": "legacy:hallinden",
         "path": "mediawiki/Hallinden.txt"
@@ -838,6 +916,7 @@
       "type": "trad",
       "firstAscent": "Torkel Røisli -99",
       "description": "",
+      "sectorId": "terassvaggen",
       "source": {
         "id": "legacy:hallinden",
         "path": "mediawiki/Hallinden.txt"
@@ -853,6 +932,7 @@
       "type": "mix",
       "firstAscent": "Said Belhaj -10",
       "description": "limbultar och några egna säkringar",
+      "sectorId": "terassvaggen",
       "source": {
         "id": "legacy:hallinden",
         "path": "mediawiki/Hallinden.txt"
@@ -868,6 +948,7 @@
       "type": "trad",
       "firstAscent": "Niklas Björnerstedt",
       "description": "Handjamspricka till firningsankare.",
+      "sectorId": "terassvaggen",
       "source": {
         "id": "legacy:hallinden",
         "path": "mediawiki/Hallinden.txt"
@@ -883,6 +964,7 @@
       "type": "trad",
       "firstAscent": "Petter Restorp",
       "description": "Sportig och ihållande.",
+      "sectorId": "terassvaggen",
       "source": {
         "id": "legacy:hallinden",
         "path": "mediawiki/Hallinden.txt"
@@ -898,6 +980,7 @@
       "type": "trad",
       "firstAscent": "Oskar Alexandersson",
       "description": "Klättra BSDO men undviker toppkruxet genom att traversera in i nästa led 5 meter under toppen.",
+      "sectorId": "terassvaggen",
       "source": {
         "id": "legacy:hallinden",
         "path": "mediawiki/Hallinden.txt"
@@ -913,6 +996,7 @@
       "type": "trad",
       "firstAscent": "Torkel Røisli",
       "description": "Kort travers från höger till vänster i starten. Sen är det bara att klättra rätt upp. Firningsankare.",
+      "sectorId": "terassvaggen",
       "source": {
         "id": "legacy:hallinden",
         "path": "mediawiki/Hallinden.txt"
@@ -928,6 +1012,7 @@
       "type": "trad",
       "firstAscent": "Torkel Røisli -00",
       "description": "",
+      "sectorId": "terassvaggen",
       "source": {
         "id": "legacy:hallinden",
         "path": "mediawiki/Hallinden.txt"

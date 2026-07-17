@@ -39,6 +39,7 @@
       "type": "trad",
       "firstAscent": "Christer Stenmark, Jonas Cederling -01",
       "description": "Känslig linje på svaväggen runt hörnet till vänster. Friends och kilar säkrar leden, dessvärre precis där man vill ha fingrarna. Trädet ovanför är bra topprepsfäste och firningsstation.",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:kvarnviken",
         "path": "mediawiki/Kvarnviken.txt"
@@ -54,6 +55,7 @@
       "type": "sport",
       "firstAscent": "Peter Siljerud -07",
       "description": "Följer areten i klippans vänsterkant. Insteg till vänster om hörnet. 3 bb och trädet som ankare.",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:kvarnviken",
         "path": "mediawiki/Kvarnviken.txt"
@@ -69,6 +71,7 @@
       "type": "trad",
       "firstAscent": "Christer Stenmark, Jonas Cederling -01",
       "description": "Sprickdiedern som är klippans finaste linje. Omväxlande klättring. Säkras uteslutande med kilar och friends.",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:kvarnviken",
         "path": "mediawiki/Kvarnviken.txt"
@@ -84,6 +87,7 @@
       "type": "sport",
       "firstAscent": "Thomas Eriksson -07",
       "description": "Startar vid flaksprickan som leder uppåt vänster. Via sidogreppet tar man sig återigen tillbaks högeråt för att avsluta rakt upp via försvagningen i taket. 3 bb och ankare ovanför (ankaret kan backas upp med träd).",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:kvarnviken",
         "path": "mediawiki/Kvarnviken.txt"
@@ -99,6 +103,7 @@
       "type": "trad",
       "firstAscent": "Peter Siljerud -07",
       "description": "Den vänstra sprickan vid dubbeldiedret i klippans mittersta del. En rostig bult vittnar om tidigare aktiviteter här. Går att säkra naturligt.",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:kvarnviken",
         "path": "mediawiki/Kvarnviken.txt"
@@ -114,6 +119,7 @@
       "type": "sport",
       "firstAscent": "Per Willén -07",
       "description": "Boulderaktig led som går upp längs den rödaktiga areten. Det ihåliga röda flaket får nog belastas med omtanke.",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:kvarnviken",
         "path": "mediawiki/Kvarnviken.txt"
@@ -129,6 +135,7 @@
       "type": "aid",
       "firstAscent": "Christer Stenmark -03",
       "description": "Går upp mellan led 6 och 7 på den svagt överhängande väggen, säkras med Copperheads, microkilar, birdbeaks samt skyhook.).",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:kvarnviken",
         "path": "mediawiki/Kvarnviken.txt"
@@ -144,6 +151,7 @@
       "type": "sport",
       "firstAscent": "Peter Siljerud, Thomas Eriksson -07",
       "description": "Startar i hörnet längst till höger och går upp längs svaet. Greppen i rännan kan vara lösa och kan undvikas. 3 bb och ankare (ankaret kan backas upp med träd).",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:kvarnviken",
         "path": "mediawiki/Kvarnviken.txt"
@@ -154,7 +162,8 @@
     {
       "filename": "Kvarnviken.jpg",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "leder"
     }
   ],
   "access": {

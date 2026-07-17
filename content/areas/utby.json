@@ -29,9 +29,24 @@
       "body": "E20 från Alingsås/Stockholm - ta av vid Partillemotet E20 från Göteborg - ta av vid Munkebäcksmotet Parkera på Ungmästaregatan/Kamgatan. Parkera INTE på Ungmästargatan, vilket angetts här tidigare. Alternativt, parkera på parkeringen på Fjällbogatan. Kollektivtrafik finns också. Ta buss 58 från Centralstationen mot Bergsjön. Hållplats Ungbrodersgatan ligger i närheten. (Finns utmärkt på Google-kartan.) Kolla Västtrafiks hemsida för tidtabell."
     },
     {
+      "id": "access",
+      "title": "Access",
+      "body": ""
+    },
+    {
+      "id": "oversikt",
+      "title": "Översikt",
+      "body": ""
+    },
+    {
       "id": "gomda-vaggen",
       "title": "Gömda väggen",
       "body": "En fin vägg med några leder framförallt i övre femma-registret. Hitta hit: Uppe i skogen till vänster om Ragnhilds Näsa. Några minuters vandring. Gå upp förbi boulderblocken vid soptunnan på ängen. Om du kommer till en liten bouldervägg så är det Köksväggen. Gå då vänster och fortsätt bland de obskyra stigarna. Väggen är ganska stor och du kommer nog inte att missa."
+    },
+    {
+      "id": "bakterievaggen",
+      "title": "Bakterieväggen",
+      "body": ""
     },
     {
       "id": "ragnhilds-nasa",
@@ -47,6 +62,11 @@
       "id": "ronnleden",
       "title": "Rönnleden",
       "body": "Från Slabben, gå runt nästa arete åt höger, till ett stort hörn ganska högt upp i backen."
+    },
+    {
+      "id": "monster-crack",
+      "title": "Monster crack",
+      "body": ""
     },
     {
       "id": "crack-of-doom",
@@ -100,6 +120,7 @@
       "type": "trad",
       "firstAscent": "Lars Ingemansson, Sem Larsen -84",
       "description": "",
+      "sectorId": "gomda-vaggen",
       "source": {
         "id": "legacy:utby",
         "path": "mediawiki/Utby.txt"
@@ -115,6 +136,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "En kort led med annorlunda grepp",
+      "sectorId": "gomda-vaggen",
       "source": {
         "id": "legacy:utby",
         "path": "mediawiki/Utby.txt"
@@ -130,6 +152,7 @@
       "type": "trad",
       "firstAscent": "Ulf Björnberg, Jan Liliemark",
       "description": "Tydlig kaminformation. Börjar på ett block som övergår i en bred spricka. Firningsankare på toppen.",
+      "sectorId": "gomda-vaggen",
       "source": {
         "id": "legacy:utby",
         "path": "mediawiki/Utby.txt"
@@ -145,6 +168,7 @@
       "type": "trad",
       "firstAscent": "Ulf Björnberg, Jan Liliemark -75",
       "description": "En tydlig bågformation som bjuder på förhållandevis branta jam.",
+      "sectorId": "gomda-vaggen",
       "source": {
         "id": "legacy:utby",
         "path": "mediawiki/Utby.txt"
@@ -160,6 +184,7 @@
       "type": "trad",
       "firstAscent": "Jan Liliemark, Lars Björkman -75",
       "description": "Kort run-out, kul klättring på ovanlig klippa",
+      "sectorId": "gomda-vaggen",
       "source": {
         "id": "legacy:utby",
         "path": "mediawiki/Utby.txt"
@@ -175,6 +200,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "Den vänstra sprickan bakom ett stort träd. Väldigt fin jam- och laybackklättring.",
+      "sectorId": "gomda-vaggen",
       "source": {
         "id": "legacy:utby",
         "path": "mediawiki/Utby.txt"
@@ -190,6 +216,7 @@
       "type": "trad",
       "firstAscent": "Steve Bancroft -79",
       "description": "",
+      "sectorId": "gomda-vaggen",
       "source": {
         "id": "legacy:utby",
         "path": "mediawiki/Utby.txt"
@@ -205,6 +232,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "",
+      "sectorId": "gomda-vaggen",
       "source": {
         "id": "legacy:utby",
         "path": "mediawiki/Utby.txt"
@@ -220,6 +248,7 @@
       "type": "trad",
       "firstAscent": "Jörgen Gahne (2006?)",
       "description": "Startar till höger om Bakterieväggen. Tunn spricka i ett litet dieder upp till en liten trekantig hylla 1 meter under toppen.",
+      "sectorId": "bakterievaggen",
       "source": {
         "id": "legacy:utby",
         "path": "mediawiki/Utby.txt"
@@ -235,6 +264,7 @@
       "type": "trad",
       "firstAscent": "Henrik Sennelöv",
       "description": "Seriös",
+      "sectorId": "ragnhilds-nasa",
       "source": {
         "id": "legacy:utby",
         "path": "mediawiki/Utby.txt"
@@ -250,6 +280,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "",
+      "sectorId": "ragnhilds-nasa",
       "source": {
         "id": "legacy:utby",
         "path": "mediawiki/Utby.txt"
@@ -265,6 +296,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "Fin och lite annorlunda klättring.",
+      "sectorId": "ragnhilds-nasa",
       "source": {
         "id": "legacy:utby",
         "path": "mediawiki/Utby.txt"
@@ -280,6 +312,7 @@
       "type": "trad",
       "firstAscent": "Henrik Sennelöv",
       "description": "Seriös",
+      "sectorId": "ragnhilds-nasa",
       "source": {
         "id": "legacy:utby",
         "path": "mediawiki/Utby.txt"
@@ -295,6 +328,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "Traversen under det stora taket som ligger mellan Ragnhild och slabben.",
+      "sectorId": "ragnhilds-nasa",
       "source": {
         "id": "legacy:utby",
         "path": "mediawiki/Utby.txt"
@@ -310,6 +344,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "Highball/repled med en säkring uppför den stora slabben.",
+      "sectorId": "slabben",
       "source": {
         "id": "legacy:utby",
         "path": "mediawiki/Utby.txt"
@@ -325,6 +360,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "Startar i ett litet hörn precis till höger om uppstigningsleden mellan Ragnhild näsa och Slabben. Upp till en gräsig hylla och vidare på sva och sprickor till hyllan ovanför slabben.",
+      "sectorId": "slabben",
       "source": {
         "id": "legacy:utby",
         "path": "mediawiki/Utby.txt"
@@ -340,6 +376,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "Några meter till höger om föregående led. Går upp i en bred spricka som lutar åt höger och planar ut. Traversera ut till areten och lätt klättring upp. Traversen kan göras luftig eller så kan man krypa i sprickan...",
+      "sectorId": "slabben",
       "source": {
         "id": "legacy:utby",
         "path": "mediawiki/Utby.txt"
@@ -355,6 +392,7 @@
       "type": "trad",
       "firstAscent": "Steve Bancroft, Nipper Harrisson",
       "description": "Går längs aréten och ansluter med föregående led längre upp",
+      "sectorId": "slabben",
       "source": {
         "id": "legacy:utby",
         "path": "mediawiki/Utby.txt"
@@ -370,6 +408,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "Startar i en bred spricka till höger om aréten, och sen traverserar några meter åt höger och så upp till väggens sista horisontella spricka, och då tillbaka till aréten och upp. Kul och rätt tung klättring.",
+      "sectorId": "slabben",
       "source": {
         "id": "legacy:utby",
         "path": "mediawiki/Utby.txt"
@@ -385,6 +424,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "Går upp ungefär vid föregående leds \"högraste\" punkt, och ansluter till denna, men traversen till aréten görs tidigare.",
+      "sectorId": "slabben",
       "source": {
         "id": "legacy:utby",
         "path": "mediawiki/Utby.txt"
@@ -400,6 +440,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "Fin lite bred handjamspricka mitt på väggen. Fin nybörjarled",
+      "sectorId": "slabben",
       "source": {
         "id": "legacy:utby",
         "path": "mediawiki/Utby.txt"
@@ -415,6 +456,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "Börjar några meter till vänster om hörnet. Väggklättring som är något svårsäkrad i början leder upp till en hylla med ett träd och vidare upp till toppen.",
+      "sectorId": "slabben",
       "source": {
         "id": "legacy:utby",
         "path": "mediawiki/Utby.txt"
@@ -430,6 +472,7 @@
       "type": "trad",
       "firstAscent": "Jonas Lyckegård & Edvin Mellergård",
       "description": "Travers som startar i högerkant på diedret (samma start som La Traviata), följ den tydliga sprickan som slutar några meter vänster om Skärselden.",
+      "sectorId": "slabben",
       "source": {
         "id": "legacy:utby",
         "path": "mediawiki/Utby.txt"
@@ -445,6 +488,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "Börja längst inne i hörnet och traversa kort åt vänster och följ sprickor rakt upp. Fin, spektakulär klättring för graden. Inte helt trivial. Om den är blöt kanske den går att klättra ändå. Annars går det att klättra rakt under spricksystemet (eliminerar traversen)",
+      "sectorId": "slabben",
       "source": {
         "id": "legacy:utby",
         "path": "mediawiki/Utby.txt"
@@ -460,6 +504,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "Efter den gemensamma starten med föregående led, gå upp i en spricka.",
+      "sectorId": "slabben",
       "source": {
         "id": "legacy:utby",
         "path": "mediawiki/Utby.txt"
@@ -475,6 +520,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "Efter hörnet gå ut höger mot ett stort flak. Inslag av stäm- och kaminklättring.",
+      "sectorId": "slabben",
       "source": {
         "id": "legacy:utby",
         "path": "mediawiki/Utby.txt"
@@ -490,6 +536,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "Hörnet till höger om föregående leder.",
+      "sectorId": "slabben",
       "source": {
         "id": "legacy:utby",
         "path": "mediawiki/Utby.txt"
@@ -505,6 +552,7 @@
       "type": "mix",
       "firstAscent": "Lars Ingemansson, Thomas Rydfeldt",
       "description": "",
+      "sectorId": "slabben",
       "source": {
         "id": "legacy:utby",
         "path": "mediawiki/Utby.txt"
@@ -520,6 +568,7 @@
       "type": "trad",
       "firstAscent": "Lars Östman",
       "description": "",
+      "sectorId": "slabben",
       "source": {
         "id": "legacy:utby",
         "path": "mediawiki/Utby.txt"
@@ -535,6 +584,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "Uppenbar bred spricka med stenblock i",
+      "sectorId": "ronnleden",
       "source": {
         "id": "legacy:utby",
         "path": "mediawiki/Utby.txt"
@@ -550,6 +600,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "Kort diagonal spricka åt vänster som ansluter till Rönnledens utsteg. Stentuff om du inte fullt ut bemästrar handjam, och även då tämligen hård för sin grad. Väldigt fin och välsäkrad!",
+      "sectorId": "ronnleden",
       "source": {
         "id": "legacy:utby",
         "path": "mediawiki/Utby.txt"
@@ -565,6 +616,7 @@
       "type": "trad",
       "firstAscent": "Dag Kolsrud, Bogi Palfay",
       "description": "Tunn spricklinje med fina fingerslots. Börjar en meter till höger om föregående led och följer den tunna högra sprickan, lite otydlig sträckning i toppen. Välsäkrad med förnuft",
+      "sectorId": "ronnleden",
       "source": {
         "id": "legacy:utby",
         "path": "mediawiki/Utby.txt"
@@ -580,6 +632,7 @@
       "type": "trad",
       "firstAscent": "Robin Barley",
       "description": "Det tunna hörnet. Går att säkra väl, faktiskt! Dubbel uppsättning småkilar rekommenderas.",
+      "sectorId": "ronnleden",
       "source": {
         "id": "legacy:utby",
         "path": "mediawiki/Utby.txt"
@@ -595,6 +648,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "",
+      "sectorId": "ronnleden",
       "source": {
         "id": "legacy:utby",
         "path": "mediawiki/Utby.txt"
@@ -610,6 +664,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "",
+      "sectorId": "ronnleden",
       "source": {
         "id": "legacy:utby",
         "path": "mediawiki/Utby.txt"
@@ -625,6 +680,7 @@
       "type": "trad",
       "firstAscent": "Piotr Bober",
       "description": "",
+      "sectorId": "ronnleden",
       "source": {
         "id": "legacy:utby",
         "path": "mediawiki/Utby.txt"
@@ -640,6 +696,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "",
+      "sectorId": "monster-crack",
       "source": {
         "id": "legacy:utby",
         "path": "mediawiki/Utby.txt"
@@ -655,6 +712,7 @@
       "type": "trad",
       "firstAscent": "Ola Fagrell",
       "description": "",
+      "sectorId": "monster-crack",
       "source": {
         "id": "legacy:utby",
         "path": "mediawiki/Utby.txt"
@@ -670,6 +728,7 @@
       "type": "trad",
       "firstAscent": "Ingemar Strandberg",
       "description": "Klättra upp till taket och traversera längs med detta",
+      "sectorId": "monster-crack",
       "source": {
         "id": "legacy:utby",
         "path": "mediawiki/Utby.txt"
@@ -685,6 +744,7 @@
       "type": "trad",
       "firstAscent": "Steve Bancroft",
       "description": "",
+      "sectorId": "monster-crack",
       "source": {
         "id": "legacy:utby",
         "path": "mediawiki/Utby.txt"
@@ -700,6 +760,7 @@
       "type": "mix",
       "firstAscent": "Ulf Carlsson & Gustav Carlsson",
       "description": "",
+      "sectorId": "monster-crack",
       "source": {
         "id": "legacy:utby",
         "path": "mediawiki/Utby.txt"
@@ -715,6 +776,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "Ganska brant klättring på bitvis stora jam, en upplevelse i graden!",
+      "sectorId": "monster-crack",
       "source": {
         "id": "legacy:utby",
         "path": "mediawiki/Utby.txt"
@@ -730,6 +792,7 @@
       "type": "trad",
       "firstAscent": "Olof Nygren",
       "description": "Klockrent dieder! Det sitter en gammal (historisk) säkringsgrej i sprickan",
+      "sectorId": "monster-crack",
       "source": {
         "id": "legacy:utby",
         "path": "mediawiki/Utby.txt"
@@ -745,6 +808,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "Någon/några har numera bosatt sig och byggt ett hus mitt under leden",
+      "sectorId": "monster-crack",
       "source": {
         "id": "legacy:utby",
         "path": "mediawiki/Utby.txt"
@@ -760,6 +824,7 @@
       "type": "sport",
       "firstAscent": "Lars Ingemansson",
       "description": "Sportklättring uppför areten. Leden hittar du på vägen mot Monster Layback",
+      "sectorId": "monster-crack",
       "source": {
         "id": "legacy:utby",
         "path": "mediawiki/Utby.txt"
@@ -775,6 +840,7 @@
       "type": "trad",
       "firstAscent": "Jan Vikman, Anders Månsson",
       "description": "",
+      "sectorId": "crack-of-doom",
       "source": {
         "id": "legacy:utby",
         "path": "mediawiki/Utby.txt"
@@ -790,6 +856,7 @@
       "type": "trad",
       "firstAscent": "Hans Mark",
       "description": "",
+      "sectorId": "crack-of-doom",
       "source": {
         "id": "legacy:utby",
         "path": "mediawiki/Utby.txt"
@@ -805,6 +872,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "",
+      "sectorId": "crack-of-doom",
       "source": {
         "id": "legacy:utby",
         "path": "mediawiki/Utby.txt"
@@ -820,6 +888,7 @@
       "type": "trad",
       "firstAscent": "Anders Neld",
       "description": "En tydlig kaminformation som avslutas med en handspricka, ofta grusig. Har ett firningsankare",
+      "sectorId": "crack-of-doom",
       "source": {
         "id": "legacy:utby",
         "path": "mediawiki/Utby.txt"
@@ -835,6 +904,7 @@
       "type": "trad",
       "firstAscent": "Hennrik Sennerlöv, Robert Brunell",
       "description": "Tunnare spricka mellan Återvändsgränden och Crack of Doom.",
+      "sectorId": "crack-of-doom",
       "source": {
         "id": "legacy:utby",
         "path": "mediawiki/Utby.txt"
@@ -850,6 +920,7 @@
       "type": "trad",
       "firstAscent": "Anders Neld",
       "description": "Den tydliga handjamsprickan, det hänger ett firningsankare lite höger om sprickan när man kommit upp. Passa på att klättra denna om du finner den torr!",
+      "sectorId": "crack-of-doom",
       "source": {
         "id": "legacy:utby",
         "path": "mediawiki/Utby.txt"
@@ -865,6 +936,7 @@
       "type": "trad",
       "firstAscent": "2011-08-14",
       "description": "Sprickan/dieder tre meter till höger om Crack of Doom.",
+      "sectorId": "crack-of-doom",
       "source": {
         "id": "legacy:utby",
         "path": "mediawiki/Utby.txt"
@@ -880,6 +952,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "Lång och äventyrlig led. Starta genom att klättra rampen vänster om Lasses hörn, därefter lätt travers förbi björken (ovanför Asterix och Obelix), klättra diedret rakt upp, kliv sedan ut höger cirka 2 meter och därefter lättaste vägen upp.",
+      "sectorId": "crack-of-doom",
       "source": {
         "id": "legacy:utby",
         "path": "mediawiki/Utby.txt"
@@ -895,6 +968,7 @@
       "type": "",
       "firstAscent": "",
       "description": "Leden nämns i Fabrikens pappersförare",
+      "sectorId": "crack-of-doom",
       "source": {
         "id": "legacy:utby",
         "path": "mediawiki/Utby.txt"
@@ -910,6 +984,7 @@
       "type": "",
       "firstAscent": "Jacob Sjöstrand",
       "description": "Ska finnas en sjuminus mitt på areten också",
+      "sectorId": "crack-of-doom",
       "source": {
         "id": "legacy:utby",
         "path": "mediawiki/Utby.txt"
@@ -925,6 +1000,7 @@
       "type": "trad",
       "firstAscent": "Steve Bancroft",
       "description": "Samma insteg som förra fast höger om areten.",
+      "sectorId": "crack-of-doom",
       "source": {
         "id": "legacy:utby",
         "path": "mediawiki/Utby.txt"
@@ -940,6 +1016,7 @@
       "type": "trad",
       "firstAscent": "Jan Liliemark, Ulf Björnberg",
       "description": "Bökig kamin- eller jamklättring eller någonting där emellan i ett tydligt hörn. Svårare än det ser ut. Toppar ut vid början av Luftiga steget.",
+      "sectorId": "till",
       "source": {
         "id": "legacy:utby",
         "path": "mediawiki/Utby.txt"
@@ -955,6 +1032,7 @@
       "type": "trad",
       "firstAscent": "Hans-Christian Doseth",
       "description": "Tak- och sprickklättring. Klättra upp till ett tak och passera detta in i en fin fingerspricka. Tämligen välsäkrad.",
+      "sectorId": "till",
       "source": {
         "id": "legacy:utby",
         "path": "mediawiki/Utby.txt"
@@ -970,6 +1048,7 @@
       "type": "trad",
       "firstAscent": "Petter Åsander 28-06-10",
       "description": "Den inbjudande areten mellan Dart och Till. Insteg görs över ett litet tak i huvudhöjd via grepp rakt upp till areten som klättras på vänstra sida. Exponerad teknisk klättring, Adekvat säkrad men får nog benämnas som aningen seriös, speciellt om man går den Onsight. Går man på aretens högersida och använder tills insteg så blir det en fin 5-",
+      "sectorId": "till",
       "source": {
         "id": "legacy:utby",
         "path": "mediawiki/Utby.txt"
@@ -985,6 +1064,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "Ett tydligt svaigt dieder som inleds med en kort travers under ett litet tak. Andra repan görs i en kaminformation rakt upp. Alternativt så avslutar man med Luftiga steget istället för att klättra in i kaminen.",
+      "sectorId": "till",
       "source": {
         "id": "legacy:utby",
         "path": "mediawiki/Utby.txt"
@@ -1000,6 +1080,7 @@
       "type": "mix",
       "firstAscent": "Lars Lysgård",
       "description": "Samma start som Till men följer bultarna rakt upp över facet",
+      "sectorId": "till",
       "source": {
         "id": "legacy:utby",
         "path": "mediawiki/Utby.txt"
@@ -1015,6 +1096,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "Nästa led till höger, i en dieder. Originalutsteg igenom \"taksprickan\"",
+      "sectorId": "till",
       "source": {
         "id": "legacy:utby",
         "path": "mediawiki/Utby.txt"
@@ -1030,6 +1112,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "Leden börjar ovanför Lasses hörn, vänster om hyllan efter första repan på till. Fin.",
+      "sectorId": "till",
       "source": {
         "id": "legacy:utby",
         "path": "mediawiki/Utby.txt"
@@ -1045,6 +1128,7 @@
       "type": "trad",
       "firstAscent": "Richard Ekehed",
       "description": "En trevlig utstegsvariant. Ungefär där luftiga steget övergår till scrambling viker man av vänster och står snart vid en väggsköld med två tunna sprickor genom, Rakt upp här. Från backen ser leden ut som en respektingivande pinackel, men vid närmare bekantskap är det en välsäkrad och ganska snäll sak. Förtjänar att få fler bestigningar.",
+      "sectorId": "till",
       "source": {
         "id": "legacy:utby",
         "path": "mediawiki/Utby.txt"
@@ -1060,6 +1144,7 @@
       "type": "trad",
       "firstAscent": "Ulf Björnberg",
       "description": "Något svårsäkrad.",
+      "sectorId": "stora-vaggen",
       "source": {
         "id": "legacy:utby",
         "path": "mediawiki/Utby.txt"
@@ -1075,6 +1160,7 @@
       "type": "trad",
       "firstAscent": "Rikard Ekehed",
       "description": "Startar som Faxe men fortsätter rakt upp, där även säkringsmöjligheterna tar slut. Seriös.",
+      "sectorId": "stora-vaggen",
       "source": {
         "id": "legacy:utby",
         "path": "mediawiki/Utby.txt"
@@ -1090,6 +1176,7 @@
       "type": "trad",
       "firstAscent": "Björn Myhrer Lund",
       "description": "Välsäkrad superklassiker och test-piece för 6+ klättrare. Uppenbar spricka som börjar i flaket uppe på hyllan. Traverserar höger någon meter där sprickan tar slut, och sen rakt upp igen.",
+      "sectorId": "stora-vaggen",
       "source": {
         "id": "legacy:utby",
         "path": "mediawiki/Utby.txt"
@@ -1105,6 +1192,7 @@
       "type": "trad",
       "firstAscent": "Steve Bancroft",
       "description": "Efter traversen på Tuborg, fortsätt traversera till nästa spricka.",
+      "sectorId": "stora-vaggen",
       "source": {
         "id": "legacy:utby",
         "path": "mediawiki/Utby.txt"
@@ -1120,6 +1208,7 @@
       "type": "mix",
       "firstAscent": "Hans-Christian Doseth",
       "description": "Tunn spricka som spås vara snäppet hårdare sen grepp försvunnit, En ensam bult visar vägen i starten.",
+      "sectorId": "stora-vaggen",
       "source": {
         "id": "legacy:utby",
         "path": "mediawiki/Utby.txt"
@@ -1135,6 +1224,7 @@
       "type": "mix",
       "firstAscent": "Eva Sehlin, Anders Lundahl",
       "description": "Balansklättring på crimpers och små flak övergår i galant toppspricka.",
+      "sectorId": "stora-vaggen",
       "source": {
         "id": "legacy:utby",
         "path": "mediawiki/Utby.txt"
@@ -1150,6 +1240,7 @@
       "type": "mix",
       "firstAscent": "Johan Luhr, Henrik Sennelöv, Johan Nilsson",
       "description": "",
+      "sectorId": "stora-vaggen",
       "source": {
         "id": "legacy:utby",
         "path": "mediawiki/Utby.txt"
@@ -1165,6 +1256,7 @@
       "type": "trad",
       "firstAscent": "Steve Bancroft",
       "description": "Superfin hård sprickklättring. Går upp till det tydliga hålet och vidare upp i sprickan till vänster. När denna tar slut traversera över kristallbandet och upp i jamsprickan. Finns en bult på traversen som kan klippas men som egentligen inte tillhör leden.",
+      "sectorId": "stora-vaggen",
       "source": {
         "id": "legacy:utby",
         "path": "mediawiki/Utby.txt"
@@ -1180,6 +1272,7 @@
       "type": "trad",
       "firstAscent": "Hans-Christian Doseth",
       "description": "Utstegsvariant till Carlsberg, när sprickan tar slut på föregående led, fly ut åt höger.",
+      "sectorId": "stora-vaggen",
       "source": {
         "id": "legacy:utby",
         "path": "mediawiki/Utby.txt"
@@ -1195,6 +1288,7 @@
       "type": "mix",
       "firstAscent": "Johan Luhr",
       "description": "Ännu en utstegsvariant, när sprickan tar slut på Carlsberg, fortsätt rakt upp. Desperat.",
+      "sectorId": "stora-vaggen",
       "source": {
         "id": "legacy:utby",
         "path": "mediawiki/Utby.txt"
@@ -1210,6 +1304,7 @@
       "type": "mix",
       "firstAscent": "Henrik Sennelöv, Lars Ingemansson",
       "description": "",
+      "sectorId": "stora-vaggen",
       "source": {
         "id": "legacy:utby",
         "path": "mediawiki/Utby.txt"
@@ -1225,6 +1320,7 @@
       "type": "mix",
       "firstAscent": "Henrik Sennelöv, Lars Ingemansson",
       "description": "",
+      "sectorId": "stora-vaggen",
       "source": {
         "id": "legacy:utby",
         "path": "mediawiki/Utby.txt"
@@ -1240,6 +1336,7 @@
       "type": "trad",
       "firstAscent": "Hans-Christian Doseth",
       "description": "",
+      "sectorId": "stora-vaggen",
       "source": {
         "id": "legacy:utby",
         "path": "mediawiki/Utby.txt"
@@ -1255,6 +1352,7 @@
       "type": "",
       "firstAscent": "",
       "description": "Egentligen 7c+, men känns det jobbigt så välj den högre graden.",
+      "sectorId": "stora-vaggen",
       "source": {
         "id": "legacy:utby",
         "path": "mediawiki/Utby.txt"
@@ -1270,6 +1368,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "",
+      "sectorId": "stora-vaggen",
       "source": {
         "id": "legacy:utby",
         "path": "mediawiki/Utby.txt"
@@ -1285,6 +1384,7 @@
       "type": "trad",
       "firstAscent": "Jan Liliemark",
       "description": "",
+      "sectorId": "stora-vaggen",
       "source": {
         "id": "legacy:utby",
         "path": "mediawiki/Utby.txt"
@@ -1300,6 +1400,7 @@
       "type": "trad",
       "firstAscent": "Anders Neld",
       "description": "En upplevelse som är svår att beskriva i ord. Leden börjar till vänster på hyllan där Panda och Boa constrictor slutar.",
+      "sectorId": "stora-vaggen",
       "source": {
         "id": "legacy:utby",
         "path": "mediawiki/Utby.txt"
@@ -1315,6 +1416,7 @@
       "type": "",
       "firstAscent": "",
       "description": "",
+      "sectorId": "limbo",
       "source": {
         "id": "legacy:utby",
         "path": "mediawiki/Utby.txt"
@@ -1330,6 +1432,7 @@
       "type": "trad",
       "firstAscent": "Anders Neld -72",
       "description": "Klassisk fostrande kamin/off-width. Goda säkringar",
+      "sectorId": "limbo",
       "source": {
         "id": "legacy:utby",
         "path": "mediawiki/Utby.txt"
@@ -1345,6 +1448,7 @@
       "type": "trad",
       "firstAscent": "Anders Neld -72",
       "description": "Nästa stora spricka till höger om föregående led.",
+      "sectorId": "limbo",
       "source": {
         "id": "legacy:utby",
         "path": "mediawiki/Utby.txt"
@@ -1360,6 +1464,7 @@
       "type": "mix",
       "firstAscent": "Lars Ingemansson, Sem Larsson",
       "description": "",
+      "sectorId": "limbo",
       "source": {
         "id": "legacy:utby",
         "path": "mediawiki/Utby.txt"
@@ -1375,6 +1480,7 @@
       "type": "trad",
       "firstAscent": "Piotr Bober, Lars Ingemansson, Sten-göran Lindbladh",
       "description": "Diagonal ihållande finger/hand-spricka. Startar på hyllan som föregående och nästa led toppar ut på.",
+      "sectorId": "limbo",
       "source": {
         "id": "legacy:utby",
         "path": "mediawiki/Utby.txt"
@@ -1390,6 +1496,7 @@
       "type": "trad",
       "firstAscent": "Lars Möller",
       "description": "Börjar i ett litet tag som man lätt forcerar. Traverserar sedan vänster för att göra utsteg på samma hylla som Grönt och grymt.",
+      "sectorId": "limbo",
       "source": {
         "id": "legacy:utby",
         "path": "mediawiki/Utby.txt"
@@ -1405,6 +1512,7 @@
       "type": "trad",
       "firstAscent": "Rickard Hedman, Piotr Bober",
       "description": "Från insteget följer man sprickan rakt upp, med lite dragning åt vänster. Avsluta runt kanten. Välsäkrad",
+      "sectorId": "limbo",
       "source": {
         "id": "legacy:utby",
         "path": "mediawiki/Utby.txt"
@@ -1420,6 +1528,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "Länkar ihop Samba och Limbo",
+      "sectorId": "limbo",
       "source": {
         "id": "legacy:utby",
         "path": "mediawiki/Utby.txt"
@@ -1435,6 +1544,7 @@
       "type": "trad",
       "firstAscent": "Hans-Christian Doseth",
       "description": "Traverserar höger efter insteget och följer sedan sick-sackande sprickor rakt upp till högsta punkten. Kan upplevas som lurig att säkra",
+      "sectorId": "limbo",
       "source": {
         "id": "legacy:utby",
         "path": "mediawiki/Utby.txt"
@@ -1450,6 +1560,7 @@
       "type": "trad",
       "firstAscent": "Jan Liliemark, Ulf Björnberg",
       "description": "",
+      "sectorId": "limbo",
       "source": {
         "id": "legacy:utby",
         "path": "mediawiki/Utby.txt"
@@ -1465,6 +1576,7 @@
       "type": "mix",
       "firstAscent": "Trond Örnhöi, Dag Kolsrud",
       "description": "",
+      "sectorId": "limbo",
       "source": {
         "id": "legacy:utby",
         "path": "mediawiki/Utby.txt"
@@ -1480,6 +1592,7 @@
       "type": "trad",
       "firstAscent": "Ingemar Strandberg, Susanne Rydfeldt, Sten-göran Lindbladh",
       "description": "Dieder till hyllan, ca 15 m. Fortsätter sedan upp lättaste vägen från hyllans vänsterkant.",
+      "sectorId": "limbo",
       "source": {
         "id": "legacy:utby",
         "path": "mediawiki/Utby.txt"
@@ -1495,6 +1608,7 @@
       "type": "trad",
       "firstAscent": "Ingemar Strandberg, Ulf Björnberg",
       "description": "Babianen, men med den mer naturliga fortsättningen en meter åt höger och sedan rakt upp sett från björken på hyllan. Luftig.",
+      "sectorId": "limbo",
       "source": {
         "id": "legacy:utby",
         "path": "mediawiki/Utby.txt"
@@ -1510,6 +1624,7 @@
       "type": "trad",
       "firstAscent": "Hans-Christian Doseth, Dag Kolsrud, Ulf G Hansen",
       "description": "Tunna sprickor som blir bredare mot slutet. Till höger om Babianen",
+      "sectorId": "limbo",
       "source": {
         "id": "legacy:utby",
         "path": "mediawiki/Utby.txt"
@@ -1525,6 +1640,7 @@
       "type": "sport",
       "firstAscent": "Henrik Sennelöv, Robert Brunell",
       "description": "",
+      "sectorId": "limbo",
       "source": {
         "id": "legacy:utby",
         "path": "mediawiki/Utby.txt"
@@ -1540,6 +1656,7 @@
       "type": "mix",
       "firstAscent": "Dag Kolsrud",
       "description": "",
+      "sectorId": "limbo",
       "source": {
         "id": "legacy:utby",
         "path": "mediawiki/Utby.txt"
@@ -1555,6 +1672,7 @@
       "type": "mix",
       "firstAscent": "Sem Larsen, Arne Roos",
       "description": "",
+      "sectorId": "limbo",
       "source": {
         "id": "legacy:utby",
         "path": "mediawiki/Utby.txt"
@@ -1570,6 +1688,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "",
+      "sectorId": "limbo",
       "source": {
         "id": "legacy:utby",
         "path": "mediawiki/Utby.txt"
@@ -1585,6 +1704,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "Börjar på hyllan där Panda slutar",
+      "sectorId": "limbo",
       "source": {
         "id": "legacy:utby",
         "path": "mediawiki/Utby.txt"
@@ -1600,6 +1720,7 @@
       "type": "trad",
       "firstAscent": "Anders Neld",
       "description": "Ett par hårda moves i fina fingerlås, sedan lättare.",
+      "sectorId": "limbo",
       "source": {
         "id": "legacy:utby",
         "path": "mediawiki/Utby.txt"
@@ -1615,6 +1736,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "Insteg mitt på \"Babianenhyllan\", spricka alldeles vid en en, det sitter ett stort klämblock en bit upp i sprickan. Lite bökig start, sedan valfri sida om blocket.",
+      "sectorId": "limbo",
       "source": {
         "id": "legacy:utby",
         "path": "mediawiki/Utby.txt"
@@ -1630,6 +1752,7 @@
       "type": "trad",
       "firstAscent": "Rikard Ekehed -96",
       "description": "",
+      "sectorId": "limbo",
       "source": {
         "id": "legacy:utby",
         "path": "mediawiki/Utby.txt"
@@ -1645,6 +1768,7 @@
       "type": "trad",
       "firstAscent": "Rikard Ekehed -96",
       "description": "",
+      "sectorId": "limbo",
       "source": {
         "id": "legacy:utby",
         "path": "mediawiki/Utby.txt"
@@ -1660,6 +1784,7 @@
       "type": "trad",
       "firstAscent": "Ulf Björnberg & Sten-Göran Lindbladh",
       "description": "Spricksystemet längst till höger på hyllan. Tungt i början.",
+      "sectorId": "limbo",
       "source": {
         "id": "legacy:utby",
         "path": "mediawiki/Utby.txt"
@@ -1675,6 +1800,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "",
+      "sectorId": "limbo",
       "source": {
         "id": "legacy:utby",
         "path": "mediawiki/Utby.txt"
@@ -1690,6 +1816,7 @@
       "type": "trad",
       "firstAscent": "Gustav Carlsson",
       "description": "",
+      "sectorId": "limbo",
       "source": {
         "id": "legacy:utby",
         "path": "mediawiki/Utby.txt"
@@ -1705,6 +1832,7 @@
       "type": "trad",
       "firstAscent": "Kristian Sidron, Björn Nyman -11",
       "description": "Smutsig led. Leden återfinns till höger om Gustavs led.",
+      "sectorId": "limbo",
       "source": {
         "id": "legacy:utby",
         "path": "mediawiki/Utby.txt"
@@ -1720,6 +1848,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "Fint stort dieder med kamin- och stämklättring som går över och blir hyfsat brant, men lite smutig klättring. Lätt att sätta topprep.",
+      "sectorId": "limbo",
       "source": {
         "id": "legacy:utby",
         "path": "mediawiki/Utby.txt"
@@ -1735,6 +1864,7 @@
       "type": "trad",
       "firstAscent": "Björn Nyman, Kristian Sidron -11",
       "description": "Leden finnes längs med stigen upp till toppen, från Babianen. Följ sneda sprickan/listen upp till höger, därefter sprickan lodrätt, slutligen sprickan snett åt vänster.",
+      "sectorId": "limbo",
       "source": {
         "id": "legacy:utby",
         "path": "mediawiki/Utby.txt"
@@ -1750,6 +1880,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "Går upp längs västsidan av övreväggen. Svaklättring längs en spricka. Utmärkt för att lära sig leda traditionellt på.",
+      "sectorId": "ovre-vaggen",
       "source": {
         "id": "legacy:utby",
         "path": "mediawiki/Utby.txt"
@@ -1765,6 +1896,7 @@
       "type": "trad",
       "firstAscent": "Ulf Björnberg",
       "description": "Längst till vänster på huvudväggen. Långt till första placering.",
+      "sectorId": "ovre-vaggen",
       "source": {
         "id": "legacy:utby",
         "path": "mediawiki/Utby.txt"
@@ -1780,6 +1912,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "Välsäkrad, lagom brant i fin miljö. Går utmärkt att topprepa.",
+      "sectorId": "ovre-vaggen",
       "source": {
         "id": "legacy:utby",
         "path": "mediawiki/Utby.txt"
@@ -1795,6 +1928,7 @@
       "type": "trad",
       "firstAscent": "Ulf Björnberg",
       "description": "Undviker spagat-movet på spagaten och går rakt upp istället",
+      "sectorId": "ovre-vaggen",
       "source": {
         "id": "legacy:utby",
         "path": "mediawiki/Utby.txt"
@@ -1810,6 +1944,7 @@
       "type": "trad",
       "firstAscent": "Dag Kolsrud",
       "description": "Kalibrera din balans och knopphantering på denna fina led. Vänster om den svarta randen, på vaga flak och knoppar.",
+      "sectorId": "ovre-vaggen",
       "source": {
         "id": "legacy:utby",
         "path": "mediawiki/Utby.txt"
@@ -1825,6 +1960,7 @@
       "type": "trad",
       "firstAscent": "Ulf Björnberg, Jan Liliemark",
       "description": "Fin, naturlig diagonal över hela väggens mittparti. Start som Snett åt höger, utsteg som Spagaten. Välsäkrad",
+      "sectorId": "ovre-vaggen",
       "source": {
         "id": "legacy:utby",
         "path": "mediawiki/Utby.txt"
@@ -1840,6 +1976,7 @@
       "type": "trad",
       "firstAscent": "Rikard Ekehed",
       "description": "Samma start som Snett åt vänster. Hård, känslig knoppklättring, med bra men få säkringsmöjligheter.",
+      "sectorId": "ovre-vaggen",
       "source": {
         "id": "legacy:utby",
         "path": "mediawiki/Utby.txt"
@@ -1855,6 +1992,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "Lång och varierad. Egentligen två olika leder, då såväl insteg, mittparti och utsteg finns i två helt separata varianter.",
+      "sectorId": "ovre-vaggen",
       "source": {
         "id": "legacy:utby",
         "path": "mediawiki/Utby.txt"
@@ -1870,6 +2008,7 @@
       "type": "trad",
       "firstAscent": "Bogi Palfay",
       "description": "En high-ball",
+      "sectorId": "ovre-vaggen",
       "source": {
         "id": "legacy:utby",
         "path": "mediawiki/Utby.txt"
@@ -1885,6 +2024,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "Bitvis breda sprickor i lite hej-och-hå-terräng",
+      "sectorId": "ovre-vaggen",
       "source": {
         "id": "legacy:utby",
         "path": "mediawiki/Utby.txt"
@@ -1900,6 +2040,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "",
+      "sectorId": "ovre-vaggen",
       "source": {
         "id": "legacy:utby",
         "path": "mediawiki/Utby.txt"
@@ -1915,6 +2056,7 @@
       "type": "mix",
       "firstAscent": "",
       "description": "",
+      "sectorId": "ovre-vaggen",
       "source": {
         "id": "legacy:utby",
         "path": "mediawiki/Utby.txt"
@@ -1930,6 +2072,7 @@
       "type": "",
       "firstAscent": "",
       "description": "Kryp in under blocket till insteget, blött och eländigt. Du känner dig obekväm och vill inte vara där.",
+      "sectorId": "ovre-vaggen",
       "source": {
         "id": "legacy:utby",
         "path": "mediawiki/Utby.txt"
@@ -1945,6 +2088,7 @@
       "type": "trad",
       "firstAscent": "Johan Eklund",
       "description": "Till vänster om Myran. Börja i boulderinsteg, sedan tunnt på knoppar upp till horisontalsprickan",
+      "sectorId": "notterna-1",
       "source": {
         "id": "legacy:utby",
         "path": "mediawiki/Utby.txt"
@@ -1960,6 +2104,7 @@
       "type": "trad",
       "firstAscent": "Torbjörn Bengtsson, Magnus Nilsson",
       "description": "Kort fin spricka längst till vänster på väggen, mycket lämplig nybörjarled.",
+      "sectorId": "notterna-1",
       "source": {
         "id": "legacy:utby",
         "path": "mediawiki/Utby.txt"
@@ -1975,6 +2120,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "Kort jamspricka. Väldigt iögonfallande och jättefin.",
+      "sectorId": "notterna-1",
       "source": {
         "id": "legacy:utby",
         "path": "mediawiki/Utby.txt"
@@ -1990,6 +2136,7 @@
       "type": "",
       "firstAscent": "Richard Ekehed, 1997",
       "description": "Start vid blocket höger om Mirceas och sprickan upp",
+      "sectorId": "notterna-1",
       "source": {
         "id": "legacy:utby",
         "path": "mediawiki/Utby.txt"
@@ -2005,6 +2152,7 @@
       "type": "trad",
       "firstAscent": "Richard Ekehed",
       "description": "Start vid Laybacksprickan, följ vattenbandet på slabben, något snett åt vänster, via två tvärsprickor. Högt till första tvärsprickan. Markfallspotential, nästan!",
+      "sectorId": "notterna-1",
       "source": {
         "id": "legacy:utby",
         "path": "mediawiki/Utby.txt"
@@ -2020,6 +2168,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "Tydlig spricka längst till höger på väggen.",
+      "sectorId": "notterna-1",
       "source": {
         "id": "legacy:utby",
         "path": "mediawiki/Utby.txt"
@@ -2035,6 +2184,7 @@
       "type": "trad",
       "firstAscent": "Nils Sjöström",
       "description": "",
+      "sectorId": "notterna-2",
       "source": {
         "id": "legacy:utby",
         "path": "mediawiki/Utby.txt"
@@ -2050,6 +2200,7 @@
       "type": "trad",
       "firstAscent": "Nils Sjöström",
       "description": "",
+      "sectorId": "notterna-2",
       "source": {
         "id": "legacy:utby",
         "path": "mediawiki/Utby.txt"
@@ -2065,6 +2216,7 @@
       "type": "trad",
       "firstAscent": "Nils Sjöström, Henrik Sennelöv",
       "description": "",
+      "sectorId": "notterna-2",
       "source": {
         "id": "legacy:utby",
         "path": "mediawiki/Utby.txt"
@@ -2080,6 +2232,7 @@
       "type": "TP",
       "firstAscent": "",
       "description": "",
+      "sectorId": "notterna-2",
       "source": {
         "id": "legacy:utby",
         "path": "mediawiki/Utby.txt"
@@ -2095,6 +2248,7 @@
       "type": "TP",
       "firstAscent": "",
       "description": "",
+      "sectorId": "notterna-2",
       "source": {
         "id": "legacy:utby",
         "path": "mediawiki/Utby.txt"
@@ -2110,6 +2264,7 @@
       "type": "trad",
       "firstAscent": "Nils Sjöström",
       "description": "Längst till höger, går upp till trädet",
+      "sectorId": "notterna-2",
       "source": {
         "id": "legacy:utby",
         "path": "mediawiki/Utby.txt"
@@ -2125,6 +2280,7 @@
       "type": "",
       "firstAscent": "",
       "description": "",
+      "sectorId": "notterna-3",
       "source": {
         "id": "legacy:utby",
         "path": "mediawiki/Utby.txt"
@@ -2140,6 +2296,7 @@
       "type": "",
       "firstAscent": "",
       "description": "",
+      "sectorId": "notterna-3",
       "source": {
         "id": "legacy:utby",
         "path": "mediawiki/Utby.txt"
@@ -2155,6 +2312,7 @@
       "type": "",
       "firstAscent": "",
       "description": "",
+      "sectorId": "notterna-3",
       "source": {
         "id": "legacy:utby",
         "path": "mediawiki/Utby.txt"
@@ -2170,6 +2328,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "\"Jätterolig\", Jamsession ligger på hyllan vid Goldfingers utsteg",
+      "sectorId": "notterna-3",
       "source": {
         "id": "legacy:utby",
         "path": "mediawiki/Utby.txt"
@@ -2185,6 +2344,7 @@
       "type": "",
       "firstAscent": "",
       "description": "",
+      "sectorId": "notterna-3",
       "source": {
         "id": "legacy:utby",
         "path": "mediawiki/Utby.txt"
@@ -2200,6 +2360,7 @@
       "type": "",
       "firstAscent": "",
       "description": "",
+      "sectorId": "notterna-3",
       "source": {
         "id": "legacy:utby",
         "path": "mediawiki/Utby.txt"
@@ -2215,6 +2376,7 @@
       "type": "",
       "firstAscent": "",
       "description": "Bra led att lära sig jamma traditionellt på.",
+      "sectorId": "notterna-3",
       "source": {
         "id": "legacy:utby",
         "path": "mediawiki/Utby.txt"
@@ -2230,6 +2392,7 @@
       "type": "",
       "firstAscent": "",
       "description": "Något hård/bökig i starten",
+      "sectorId": "notterna-3",
       "source": {
         "id": "legacy:utby",
         "path": "mediawiki/Utby.txt"
@@ -2245,6 +2408,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "Kamin",
+      "sectorId": "notterna-3",
       "source": {
         "id": "legacy:utby",
         "path": "mediawiki/Utby.txt"
@@ -2260,6 +2424,7 @@
       "type": "",
       "firstAscent": "",
       "description": "",
+      "sectorId": "notterna-3",
       "source": {
         "id": "legacy:utby",
         "path": "mediawiki/Utby.txt"
@@ -2275,6 +2440,7 @@
       "type": "",
       "firstAscent": "",
       "description": "Svaklättring på stora knoppar mot ett tak med en spricka i, därefter får du lov att sätta en säkring innan du klättrar förbi taket.",
+      "sectorId": "notterna-3",
       "source": {
         "id": "legacy:utby",
         "path": "mediawiki/Utby.txt"
@@ -2285,22 +2451,26 @@
     {
       "filename": "Valkommen_utby.jpg",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "karaktar"
     },
     {
       "filename": "Översikt.png",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "oversikt"
     },
     {
       "filename": "Storavaggen.png",
-      "caption": "600px",
-      "missing": false
+      "caption": "",
+      "missing": false,
+      "sectorId": "stora-vaggen"
     },
     {
       "filename": "Ovrevaggen.png",
-      "caption": "800px",
-      "missing": false
+      "caption": "",
+      "missing": false,
+      "sectorId": "ovre-vaggen"
     }
   ],
   "access": {

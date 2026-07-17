@@ -44,6 +44,16 @@
       "body": "Klicka på bilden för att se den i större format format. Skiss och leder finns inramad på vindskyddet. För den som vill leda kan det vara bra att ta med utrustning för mixade leder, men annars är detta ett klassiskt toppreps/clogg berg. Ankare finns det gott om i form av järnöglor ovan utstegen - medtag gott om slingor och karbiner. Bilden tagen i april och visar att det torkar fort - på vissa delar - medan andra delar är desto envisare. Ett bra vårpremiärberg ändå, då det brukar kunna vara både lä och solsken vilket är tacksamt för den tidige vårklättraren."
     },
     {
+      "id": "leder",
+      "title": "Leder",
+      "body": ""
+    },
+    {
+      "id": "svampvaggen",
+      "title": "Svampväggen",
+      "body": ""
+    },
+    {
       "id": "kaminvaggen",
       "title": "Kaminväggen",
       "body": "Mitt emot huvudväggen ligger en liten brant vägg. Den korta jamsprickan längst till vänster håller grad 5."
@@ -54,9 +64,19 @@
       "body": "Klippans finaste parti. Delvis löjligt tätt mellan lederna men det finns ett antal godbitar."
     },
     {
+      "id": "mellanvaggen",
+      "title": "Mellanväggen",
+      "body": ""
+    },
+    {
       "id": "sams-vagg",
       "title": "Sams vägg",
       "body": "Den sprickrika och mycket välrensade väggen längst bort th har fyra leder:"
+    },
+    {
+      "id": "ostvaggen",
+      "title": "Ostväggen",
+      "body": ""
     },
     {
       "id": "dansvaggen",
@@ -75,6 +95,7 @@
       "type": "",
       "firstAscent": "Jan Mellring-87",
       "description": "",
+      "sectorId": "svampvaggen",
       "source": {
         "id": "legacy:vardberget",
         "path": "mediawiki/Vårdberget.txt"
@@ -90,6 +111,7 @@
       "type": "",
       "firstAscent": "Jan Mellring-87",
       "description": "",
+      "sectorId": "svampvaggen",
       "source": {
         "id": "legacy:vardberget",
         "path": "mediawiki/Vårdberget.txt"
@@ -105,6 +127,7 @@
       "type": "",
       "firstAscent": "lars-Åke Svartz, Jan Mellering-87",
       "description": "",
+      "sectorId": "svampvaggen",
       "source": {
         "id": "legacy:vardberget",
         "path": "mediawiki/Vårdberget.txt"
@@ -120,6 +143,7 @@
       "type": "",
       "firstAscent": "Lars-Åke Svartz. FF: Thomas Hansson, Gary Hansson-88",
       "description": "",
+      "sectorId": "svampvaggen",
       "source": {
         "id": "legacy:vardberget",
         "path": "mediawiki/Vårdberget.txt"
@@ -135,6 +159,7 @@
       "type": "",
       "firstAscent": "Jan Mellring. FF: David Fält -87",
       "description": "",
+      "sectorId": "svampvaggen",
       "source": {
         "id": "legacy:vardberget",
         "path": "mediawiki/Vårdberget.txt"
@@ -150,6 +175,7 @@
       "type": "",
       "firstAscent": "Lars-Åke Svartz. FF: Per-Elof Lidstrom-87",
       "description": "",
+      "sectorId": "svampvaggen",
       "source": {
         "id": "legacy:vardberget",
         "path": "mediawiki/Vårdberget.txt"
@@ -165,6 +191,7 @@
       "type": "",
       "firstAscent": "Börje Svedman-95",
       "description": "",
+      "sectorId": "svampvaggen",
       "source": {
         "id": "legacy:vardberget",
         "path": "mediawiki/Vårdberget.txt"
@@ -180,6 +207,7 @@
       "type": "",
       "firstAscent": "Annika Ekwall-92",
       "description": "",
+      "sectorId": "kaminvaggen",
       "source": {
         "id": "legacy:vardberget",
         "path": "mediawiki/Vårdberget.txt"
@@ -195,6 +223,7 @@
       "type": "",
       "firstAscent": "Börje Svedman",
       "description": "",
+      "sectorId": "kaminvaggen",
       "source": {
         "id": "legacy:vardberget",
         "path": "mediawiki/Vårdberget.txt"
@@ -210,6 +239,7 @@
       "type": "mix",
       "firstAscent": "Lars-Åke Svartz. FF: Thomas Hansson, Gary Hansson-88",
       "description": "",
+      "sectorId": "kaminvaggen",
       "source": {
         "id": "legacy:vardberget",
         "path": "mediawiki/Vårdberget.txt"
@@ -225,6 +255,7 @@
       "type": "",
       "firstAscent": "Johan Luhr-89",
       "description": "",
+      "sectorId": "kaminvaggen",
       "source": {
         "id": "legacy:vardberget",
         "path": "mediawiki/Vårdberget.txt"
@@ -240,6 +271,7 @@
       "type": "",
       "firstAscent": "Jakob Sjöstrand, Birger Hedlund, Daniel Bidner-85",
       "description": "",
+      "sectorId": "kaminvaggen",
       "source": {
         "id": "legacy:vardberget",
         "path": "mediawiki/Vårdberget.txt"
@@ -255,6 +287,7 @@
       "type": "",
       "firstAscent": "Thomas Hansson-88",
       "description": "",
+      "sectorId": "kaminvaggen",
       "source": {
         "id": "legacy:vardberget",
         "path": "mediawiki/Vårdberget.txt"
@@ -270,6 +303,7 @@
       "type": "",
       "firstAscent": "David Fält-88",
       "description": "",
+      "sectorId": "kaminvaggen",
       "source": {
         "id": "legacy:vardberget",
         "path": "mediawiki/Vårdberget.txt"
@@ -285,6 +319,7 @@
       "type": "",
       "firstAscent": "Thomas Hansson, Gary Hansson-85",
       "description": "",
+      "sectorId": "stora-vaggen",
       "source": {
         "id": "legacy:vardberget",
         "path": "mediawiki/Vårdberget.txt"
@@ -300,6 +335,7 @@
       "type": "",
       "firstAscent": "Thomas Hansson, Gary Hansson-85",
       "description": "",
+      "sectorId": "stora-vaggen",
       "source": {
         "id": "legacy:vardberget",
         "path": "mediawiki/Vårdberget.txt"
@@ -315,6 +351,7 @@
       "type": "",
       "firstAscent": "Lars-Åke Svartz-84. FF: Thomas Hansson, Gary Hansson-85",
       "description": "",
+      "sectorId": "stora-vaggen",
       "source": {
         "id": "legacy:vardberget",
         "path": "mediawiki/Vårdberget.txt"
@@ -330,6 +367,7 @@
       "type": "",
       "firstAscent": "Jan Mellring, Lars-Åke Svartz-83",
       "description": "Rejäl spricka, ganska välsäkrad med friends och några kilar. Tung i början.",
+      "sectorId": "stora-vaggen",
       "source": {
         "id": "legacy:vardberget",
         "path": "mediawiki/Vårdberget.txt"
@@ -345,6 +383,7 @@
       "type": "",
       "firstAscent": "Lars-Åke Svartz-83 FF: Birger Hedlund-84",
       "description": "",
+      "sectorId": "stora-vaggen",
       "source": {
         "id": "legacy:vardberget",
         "path": "mediawiki/Vårdberget.txt"
@@ -360,6 +399,7 @@
       "type": "",
       "firstAscent": "David Fält-88",
       "description": "",
+      "sectorId": "stora-vaggen",
       "source": {
         "id": "legacy:vardberget",
         "path": "mediawiki/Vårdberget.txt"
@@ -375,6 +415,7 @@
       "type": "",
       "firstAscent": "Jan Mellring-83. FF: Lars Svadängs-84",
       "description": "",
+      "sectorId": "stora-vaggen",
       "source": {
         "id": "legacy:vardberget",
         "path": "mediawiki/Vårdberget.txt"
@@ -390,6 +431,7 @@
       "type": "",
       "firstAscent": "David Fält-88",
       "description": "",
+      "sectorId": "stora-vaggen",
       "source": {
         "id": "legacy:vardberget",
         "path": "mediawiki/Vårdberget.txt"
@@ -405,6 +447,7 @@
       "type": "",
       "firstAscent": "Per-Olof Lidström-83, FF: Jan Liliemark, Claes Jelinek, Ingemar Gustafsson-84",
       "description": "",
+      "sectorId": "stora-vaggen",
       "source": {
         "id": "legacy:vardberget",
         "path": "mediawiki/Vårdberget.txt"
@@ -420,6 +463,7 @@
       "type": "",
       "firstAscent": "Roger Pyddoke-83 FF: Jan Liliemark, Claes Jelinek, Ingemar Gustafsson-84",
       "description": "",
+      "sectorId": "stora-vaggen",
       "source": {
         "id": "legacy:vardberget",
         "path": "mediawiki/Vårdberget.txt"
@@ -435,6 +479,7 @@
       "type": "",
       "firstAscent": "Lars-Åke Svartz, Per-Olof Lidström-88. FF: Per Willen-95",
       "description": "",
+      "sectorId": "stora-vaggen",
       "source": {
         "id": "legacy:vardberget",
         "path": "mediawiki/Vårdberget.txt"
@@ -450,6 +495,7 @@
       "type": "",
       "firstAscent": "Lars-Åke Svartz-84. FF: Jan Liliemark, Claes Jelinek, Ingemar Gustafsson-84",
       "description": "",
+      "sectorId": "stora-vaggen",
       "source": {
         "id": "legacy:vardberget",
         "path": "mediawiki/Vårdberget.txt"
@@ -465,6 +511,7 @@
       "type": "",
       "firstAscent": "Lars-Åke Svartz-85. FF: Lars Svadängs-87",
       "description": "",
+      "sectorId": "stora-vaggen",
       "source": {
         "id": "legacy:vardberget",
         "path": "mediawiki/Vårdberget.txt"
@@ -480,6 +527,7 @@
       "type": "",
       "firstAscent": "Lars-Åke Svartz, Jan Mellring-83",
       "description": "",
+      "sectorId": "stora-vaggen",
       "source": {
         "id": "legacy:vardberget",
         "path": "mediawiki/Vårdberget.txt"
@@ -495,6 +543,7 @@
       "type": "",
       "firstAscent": "Per-Elof Lidström-8?",
       "description": "",
+      "sectorId": "stora-vaggen",
       "source": {
         "id": "legacy:vardberget",
         "path": "mediawiki/Vårdberget.txt"
@@ -510,6 +559,7 @@
       "type": "",
       "firstAscent": "Roger Pyddoke, Per-Elof Lidström, Lars-Åke Svartz-83",
       "description": "",
+      "sectorId": "stora-vaggen",
       "source": {
         "id": "legacy:vardberget",
         "path": "mediawiki/Vårdberget.txt"
@@ -525,6 +575,7 @@
       "type": "",
       "firstAscent": "Gunnar Woodsack-88",
       "description": "",
+      "sectorId": "stora-vaggen",
       "source": {
         "id": "legacy:vardberget",
         "path": "mediawiki/Vårdberget.txt"
@@ -540,6 +591,7 @@
       "type": "",
       "firstAscent": "Jan Mellring, Lars-Åke Svartz-83",
       "description": "Tydlig, välsäkrad spricka. Layback mm.",
+      "sectorId": "stora-vaggen",
       "source": {
         "id": "legacy:vardberget",
         "path": "mediawiki/Vårdberget.txt"
@@ -555,6 +607,7 @@
       "type": "",
       "firstAscent": "Mikael Sribbadung, Lennart Swahn, Tomas Weber-86",
       "description": "Tunn väggklättring. Högt till första bulten, en kil i början känns skönt. Lätt hänt att man \"fuskar\" med fingrar i närliggande leder. Även utan imponerande apindex nås både Babiananen och Björktrampet bekvämt, och det är INTE meningen. Övre halvan är mindre \"trång\".",
+      "sectorId": "stora-vaggen",
       "source": {
         "id": "legacy:vardberget",
         "path": "mediawiki/Vårdberget.txt"
@@ -570,6 +623,7 @@
       "type": "",
       "firstAscent": "Lars-Åke Svartz, Jan Mellring-83",
       "description": "",
+      "sectorId": "stora-vaggen",
       "source": {
         "id": "legacy:vardberget",
         "path": "mediawiki/Vårdberget.txt"
@@ -585,6 +639,7 @@
       "type": "",
       "firstAscent": "Lars-Åke Svartz, Jan Mellring-83",
       "description": "I huvudsak väggklättring, längs bl a fin spricka.",
+      "sectorId": "stora-vaggen",
       "source": {
         "id": "legacy:vardberget",
         "path": "mediawiki/Vårdberget.txt"
@@ -600,6 +655,7 @@
       "type": "",
       "firstAscent": "Lars-Åke Svartz, Jan Mellring-83",
       "description": "Ett antal brevlådor i början av leden lär vara anledning till lednamnet.",
+      "sectorId": "stora-vaggen",
       "source": {
         "id": "legacy:vardberget",
         "path": "mediawiki/Vårdberget.txt"
@@ -615,6 +671,7 @@
       "type": "",
       "firstAscent": "Lars-Åke Svartz-83",
       "description": "Stora grepp och steg, längs sprickor, delar utsteg med Brevbäraren. Perfekt för tradnybörjaren.",
+      "sectorId": "stora-vaggen",
       "source": {
         "id": "legacy:vardberget",
         "path": "mediawiki/Vårdberget.txt"
@@ -630,6 +687,7 @@
       "type": "",
       "firstAscent": "Lars-Åke Svartz, Sam Westerholm-84",
       "description": "",
+      "sectorId": "stora-vaggen",
       "source": {
         "id": "legacy:vardberget",
         "path": "mediawiki/Vårdberget.txt"
@@ -645,6 +703,7 @@
       "type": "",
       "firstAscent": "",
       "description": "Nedstigningsled",
+      "sectorId": "stora-vaggen",
       "source": {
         "id": "legacy:vardberget",
         "path": "mediawiki/Vårdberget.txt"
@@ -660,6 +719,7 @@
       "type": "",
       "firstAscent": "Hasse Häggqvist, Per Hansen -91",
       "description": "Insteg i Brevbäraren, efter ett par meter svagt stigande travers åt vänster till Dolly som följs till toppen.",
+      "sectorId": "stora-vaggen",
       "source": {
         "id": "legacy:vardberget",
         "path": "mediawiki/Vårdberget.txt"
@@ -675,6 +735,7 @@
       "type": "",
       "firstAscent": "David Fält-88",
       "description": "",
+      "sectorId": "mellanvaggen",
       "source": {
         "id": "legacy:vardberget",
         "path": "mediawiki/Vårdberget.txt"
@@ -690,6 +751,7 @@
       "type": "",
       "firstAscent": "Göran Eriksson, Roger Pyddoke-88",
       "description": "",
+      "sectorId": "mellanvaggen",
       "source": {
         "id": "legacy:vardberget",
         "path": "mediawiki/Vårdberget.txt"
@@ -705,6 +767,7 @@
       "type": "",
       "firstAscent": "Lars-Åke Svartz, Sam Westerholm-85. FF: Johan Luhr, Rikard Hedman-89",
       "description": "",
+      "sectorId": "mellanvaggen",
       "source": {
         "id": "legacy:vardberget",
         "path": "mediawiki/Vårdberget.txt"
@@ -720,6 +783,7 @@
       "type": "",
       "firstAscent": "David Fält, Thomas Hansson-88",
       "description": "",
+      "sectorId": "mellanvaggen",
       "source": {
         "id": "legacy:vardberget",
         "path": "mediawiki/Vårdberget.txt"
@@ -735,6 +799,7 @@
       "type": "",
       "firstAscent": "Thomas Hansson, Gary Hansson-85",
       "description": "Brant i början, tunnare på slutet.",
+      "sectorId": "mellanvaggen",
       "source": {
         "id": "legacy:vardberget",
         "path": "mediawiki/Vårdberget.txt"
@@ -750,6 +815,7 @@
       "type": "",
       "firstAscent": "David Fält-88",
       "description": "",
+      "sectorId": "mellanvaggen",
       "source": {
         "id": "legacy:vardberget",
         "path": "mediawiki/Vårdberget.txt"
@@ -765,6 +831,7 @@
       "type": "",
       "firstAscent": "Daniel Flodin, B Flodin-89",
       "description": "",
+      "sectorId": "mellanvaggen",
       "source": {
         "id": "legacy:vardberget",
         "path": "mediawiki/Vårdberget.txt"
@@ -780,6 +847,7 @@
       "type": "",
       "firstAscent": "Daniel Flodin, B Flodin-89",
       "description": "",
+      "sectorId": "mellanvaggen",
       "source": {
         "id": "legacy:vardberget",
         "path": "mediawiki/Vårdberget.txt"
@@ -795,6 +863,7 @@
       "type": "",
       "firstAscent": "Sam Westerholm-84",
       "description": "",
+      "sectorId": "sams-vagg",
       "source": {
         "id": "legacy:vardberget",
         "path": "mediawiki/Vårdberget.txt"
@@ -810,6 +879,7 @@
       "type": "",
       "firstAscent": "Lars-Åke Svartz, Sam Westerholm-84",
       "description": "",
+      "sectorId": "sams-vagg",
       "source": {
         "id": "legacy:vardberget",
         "path": "mediawiki/Vårdberget.txt"
@@ -825,6 +895,7 @@
       "type": "",
       "firstAscent": "Sam Westerholm, Lars-Åke Svartz-84",
       "description": "",
+      "sectorId": "sams-vagg",
       "source": {
         "id": "legacy:vardberget",
         "path": "mediawiki/Vårdberget.txt"
@@ -840,6 +911,7 @@
       "type": "",
       "firstAscent": "Sam Westerholm, Lars-Åke Svartz-84",
       "description": "Välsäkrade sprickor.",
+      "sectorId": "sams-vagg",
       "source": {
         "id": "legacy:vardberget",
         "path": "mediawiki/Vårdberget.txt"
@@ -855,6 +927,7 @@
       "type": "",
       "firstAscent": "Börje Svedman, Annika Swedwall-89",
       "description": "",
+      "sectorId": "sams-vagg",
       "source": {
         "id": "legacy:vardberget",
         "path": "mediawiki/Vårdberget.txt"
@@ -870,6 +943,7 @@
       "type": "",
       "firstAscent": "Claes Jelinek, Stale Ekelund, Hans Lindkvist-90",
       "description": "",
+      "sectorId": "sams-vagg",
       "source": {
         "id": "legacy:vardberget",
         "path": "mediawiki/Vårdberget.txt"
@@ -885,6 +959,7 @@
       "type": "aid",
       "firstAscent": "Lars-Åke Svartz, Jan Mellring-89",
       "description": "",
+      "sectorId": "ostvaggen",
       "source": {
         "id": "legacy:vardberget",
         "path": "mediawiki/Vårdberget.txt"
@@ -900,6 +975,7 @@
       "type": "",
       "firstAscent": "Claes Jelinek, Stale Ekelund, Hans Lindkvist-90",
       "description": "",
+      "sectorId": "ostvaggen",
       "source": {
         "id": "legacy:vardberget",
         "path": "mediawiki/Vårdberget.txt"
@@ -915,6 +991,7 @@
       "type": "",
       "firstAscent": "David Fält-89",
       "description": "",
+      "sectorId": "ostvaggen",
       "source": {
         "id": "legacy:vardberget",
         "path": "mediawiki/Vårdberget.txt"
@@ -925,42 +1002,50 @@
     {
       "filename": "Vårdbergspanorama_med_leder.jpg",
       "caption": "700 px",
-      "missing": false
+      "missing": false,
+      "sectorId": "skiss"
     },
     {
       "filename": "Vb_karta.png",
-      "caption": "400px",
-      "missing": false
+      "caption": "",
+      "missing": false,
+      "sectorId": "leder"
     },
     {
       "filename": "Vb_svampvaggen.png",
-      "caption": "300px",
-      "missing": false
+      "caption": "",
+      "missing": false,
+      "sectorId": "svampvaggen"
     },
     {
       "filename": "Vb_terminator.png",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "kaminvaggen"
     },
     {
       "filename": "Vb_stora_vaggen.png",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "stora-vaggen"
     },
     {
       "filename": "Vb_mellanvaggen.png",
-      "caption": "350px",
-      "missing": false
+      "caption": "",
+      "missing": false,
+      "sectorId": "mellanvaggen"
     },
     {
       "filename": "Vb_sams_vagg.png",
-      "caption": "250px",
-      "missing": false
+      "caption": "",
+      "missing": false,
+      "sectorId": "sams-vagg"
     },
     {
       "filename": "Vb_ostvaggen.png",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "ostvaggen"
     }
   ],
   "access": {

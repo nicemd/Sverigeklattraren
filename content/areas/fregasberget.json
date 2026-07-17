@@ -27,6 +27,11 @@
       "body": "Från Falun, ta riksväg 69 mot Rättvik. Parkera vid den stora rastplatsen på höger sidan om vägen ca. 6,5km efter Bjursås. Följer därefter stigen till önskad klippa. Stigen till Gömdaklippan börjar i ungefär mitten av parkeringsplatsen, bredvid en kort stålpinne som markerar en nedgrävd elledning."
     },
     {
+      "id": "oversiktskarta",
+      "title": "Översiktskarta",
+      "body": ""
+    },
+    {
       "id": "utrustning-och-graderingar",
       "title": "Utrustning och Graderingar",
       "body": "Klättringen på Fregåsberget kräver endast en standard svensk-rack bestående av ett antal slingor av diverse längder, 10 quickdraws och en uppsättning kilar och cams (i ledbeskrivningarna används SLCD’s som fökortning för self loading camming devices eller cams). Som graderingssystem används den skandinaviska gradskalan, 1-9+ med bergets svåraste led i skrivande stund grad 8+. Graderingen gäller den svåraste passagen på leden. Varianter är graderade efter sin självständiga dels svåraste passage."
@@ -73,6 +78,7 @@
       "type": "trad",
       "firstAscent": "Mattias Flodin 1988",
       "description": "Det tydliga svaet längst till vänster. Kilsäkrad.",
+      "sectorId": "svaplattan",
       "source": {
         "id": "legacy:fregasberget",
         "path": "mediawiki/Fregåsberget.txt"
@@ -88,6 +94,7 @@
       "type": "trad",
       "firstAscent": "Okänd",
       "description": "Kort kilsäkrad spricka till vänster om stora väggen.",
+      "sectorId": "svaplattan",
       "source": {
         "id": "legacy:fregasberget",
         "path": "mediawiki/Fregåsberget.txt"
@@ -103,6 +110,7 @@
       "type": "projekt",
       "firstAscent": "",
       "description": "",
+      "sectorId": "svaplattan",
       "source": {
         "id": "legacy:fregasberget",
         "path": "mediawiki/Fregåsberget.txt"
@@ -118,6 +126,7 @@
       "type": "trad",
       "firstAscent": "Familjen Gracie 2010",
       "description": "Kort spricka och sva 5m till vänster om Craig’s crack. Starta längst ner till vänster.",
+      "sectorId": "centralvaggen",
       "source": {
         "id": "legacy:fregasberget",
         "path": "mediawiki/Fregåsberget.txt"
@@ -133,6 +142,7 @@
       "type": "projekt",
       "firstAscent": "",
       "description": "",
+      "sectorId": "centralvaggen",
       "source": {
         "id": "legacy:fregasberget",
         "path": "mediawiki/Fregåsberget.txt"
@@ -148,6 +158,7 @@
       "type": "trad",
       "firstAscent": "Jeff Gracie, Eric Olsson 2006",
       "description": "Flakesystemet på svaet 2m till vänster om Craig’s crack. Små kilar. Saves the best till last.",
+      "sectorId": "centralvaggen",
       "source": {
         "id": "legacy:fregasberget",
         "path": "mediawiki/Fregåsberget.txt"
@@ -163,6 +174,7 @@
       "type": "trad",
       "firstAscent": "Craig Thomas 1988",
       "description": "Stora sprickan I hörnet längst till vänster bakom bautablocket. Kilar och SLCDs.",
+      "sectorId": "centralvaggen",
       "source": {
         "id": "legacy:fregasberget",
         "path": "mediawiki/Fregåsberget.txt"
@@ -178,6 +190,7 @@
       "type": "sport",
       "firstAscent": "Mattias Flodin 1990",
       "description": "Skiffersva 1,5m till höger om Bodil. Nya bultar 2008(?). Ursprungligen klättrad endast med bladbulten och en borrbult. Delar firningsankare med Powerslave.",
+      "sectorId": "centralvaggen",
       "source": {
         "id": "legacy:fregasberget",
         "path": "mediawiki/Fregåsberget.txt"
@@ -193,6 +206,7 @@
       "type": "sport",
       "firstAscent": "Mattias Flodin, Johan Luhr 1988",
       "description": "Den branta bultade areten 3m till höger om Craig’s crack. Firningsankare.",
+      "sectorId": "centralvaggen",
       "source": {
         "id": "legacy:fregasberget",
         "path": "mediawiki/Fregåsberget.txt"
@@ -208,6 +222,7 @@
       "type": "trad",
       "firstAscent": "Mattias Flodin 1988",
       "description": "Den tydliga laybacksprickan 3m till höger om Powerslave. Två möjliga utsteg. Alt. 1: följer vänster sprickan till Rappelfästet för Powerslave (7-). Alt. 2: Ta höger sprickan ovanför hyllan (6).",
+      "sectorId": "centralvaggen",
       "source": {
         "id": "legacy:fregasberget",
         "path": "mediawiki/Fregåsberget.txt"
@@ -223,6 +238,7 @@
       "type": "sport",
       "firstAscent": "Mattias Flodin 1993",
       "description": "Något krystad andra hälft. Börja 1m till höger om Orange Mekanik. Följa bultlinjen uppför svaet och vidare mitt emellan de två alternativa utstegen till Orange mekanik. 4 bultar och firningsankare.",
+      "sectorId": "centralvaggen",
       "source": {
         "id": "legacy:fregasberget",
         "path": "mediawiki/Fregåsberget.txt"
@@ -238,6 +254,7 @@
       "type": "mix",
       "firstAscent": "Mattias Flodin 1993",
       "description": "Hörnsprickan 2m till vänster om Dick. Upp igenom lilla taket. Följer sedan den tunna sprickan vidare förbi 2 bultar till toppen. 2 bultar + kilar och SLCD’s.",
+      "sectorId": "centralvaggen",
       "source": {
         "id": "legacy:fregasberget",
         "path": "mediawiki/Fregåsberget.txt"
@@ -253,6 +270,7 @@
       "type": "mix",
       "firstAscent": "Dick Gunnars 1988",
       "description": "Den lilla sprickan 1m till vänster om stora arete’n. Klättra upp runt hörnet och sedan vidare via sprickan i övre väggen. 1 bult + kilar, SLCD’s.",
+      "sectorId": "centralvaggen",
       "source": {
         "id": "legacy:fregasberget",
         "path": "mediawiki/Fregåsberget.txt"
@@ -268,6 +286,7 @@
       "type": "mix",
       "firstAscent": "Mattias Flodin 1990",
       "description": "Klättra första delen av Dick. Följ sedan areten hela vägen till toppen. Direktstarten 8.",
+      "sectorId": "centralvaggen",
       "source": {
         "id": "legacy:fregasberget",
         "path": "mediawiki/Fregåsberget.txt"
@@ -283,6 +302,7 @@
       "type": "sport",
       "firstAscent": "Mattias Flodin, Johan Luhr 1988",
       "description": "Insteg vid stora grottan. Den vänstra av de 2 lederna ovanför grottan. Bultar och firningsankare.",
+      "sectorId": "centralvaggen",
       "source": {
         "id": "legacy:fregasberget",
         "path": "mediawiki/Fregåsberget.txt"
@@ -298,6 +318,7 @@
       "type": "mix",
       "firstAscent": "Mattias Flodin 1988",
       "description": "Som Axa men hela vägen till toppen.",
+      "sectorId": "centralvaggen",
       "source": {
         "id": "legacy:fregasberget",
         "path": "mediawiki/Fregåsberget.txt"
@@ -313,6 +334,7 @@
       "type": "sport",
       "firstAscent": "Mattias Flodin 1993",
       "description": "Den vänstra av de 3 lederna på väggen till vänster om Stora klöften. 5 bultar och firningsankare.",
+      "sectorId": "centralvaggen",
       "source": {
         "id": "legacy:fregasberget",
         "path": "mediawiki/Fregåsberget.txt"
@@ -328,6 +350,7 @@
       "type": "mix",
       "firstAscent": "Mattias Flodin, Johan Luhr 1988",
       "description": "Mitterst av de 3 lederna på väggen till vänster om Stora klöften. 2 bultar och firningsankare.",
+      "sectorId": "centralvaggen",
       "source": {
         "id": "legacy:fregasberget",
         "path": "mediawiki/Fregåsberget.txt"
@@ -343,6 +366,7 @@
       "type": "mix",
       "firstAscent": "Dick Gunnars 1989",
       "description": "Börja 2m till vänster om Stora klöften. 3 bultar och kilar. Firningsankare.",
+      "sectorId": "centralvaggen",
       "source": {
         "id": "legacy:fregasberget",
         "path": "mediawiki/Fregåsberget.txt"
@@ -358,6 +382,7 @@
       "type": "trad",
       "firstAscent": "Okänd",
       "description": "Tydliga dieder och spricksystemet. Äldsta leden på klippan. Firningsankare.",
+      "sectorId": "centralvaggen",
       "source": {
         "id": "legacy:fregasberget",
         "path": "mediawiki/Fregåsberget.txt"
@@ -373,6 +398,7 @@
       "type": "mix",
       "firstAscent": "Anders Fridberg, Jeff Gracie 1993",
       "description": "Börja vid svaet ovanför blocket till höger om Stora klöften. Klättra uppför svaet och vidare genom taket till toppen. Bultar plus en stor kil för slutet. Variant: avslut till höger efter taket.",
+      "sectorId": "centralvaggen",
       "source": {
         "id": "legacy:fregasberget",
         "path": "mediawiki/Fregåsberget.txt"
@@ -388,6 +414,7 @@
       "type": "sport",
       "firstAscent": "Mattias Flodin 1993",
       "description": "Börja 3m till höger om Clownerna på berget. Klättra upp till taket, traversera sedan till vänster och upp till firningsankare. Bultar.",
+      "sectorId": "centralvaggen",
       "source": {
         "id": "legacy:fregasberget",
         "path": "mediawiki/Fregåsberget.txt"
@@ -403,6 +430,7 @@
       "type": "sport",
       "firstAscent": "Mattias Flodin 1993",
       "description": "Börja som för Hallick, sedan rakt upp till firningsankaret. Bultar.",
+      "sectorId": "centralvaggen",
       "source": {
         "id": "legacy:fregasberget",
         "path": "mediawiki/Fregåsberget.txt"
@@ -418,6 +446,7 @@
       "type": "sport",
       "firstAscent": "Anders Wester 1993",
       "description": "Börja 2m till höger om Hallick. Väggklättring med bultar. Använd trädet som firningsankare.",
+      "sectorId": "centralvaggen",
       "source": {
         "id": "legacy:fregasberget",
         "path": "mediawiki/Fregåsberget.txt"
@@ -433,6 +462,7 @@
       "type": "trad",
       "firstAscent": "Okänd",
       "description": "Breda sprickan/skorsten till höger om Lilltorsken. Kilar och SLCD’s.",
+      "sectorId": "centralvaggen",
       "source": {
         "id": "legacy:fregasberget",
         "path": "mediawiki/Fregåsberget.txt"
@@ -448,6 +478,7 @@
       "type": "sport",
       "firstAscent": "Mattias Flodin 1996",
       "description": "Bultade boulderproblemet 15m till höger om K2, strax innan hörnet. En bult.",
+      "sectorId": "centralvaggen",
       "source": {
         "id": "legacy:fregasberget",
         "path": "mediawiki/Fregåsberget.txt"
@@ -463,6 +494,7 @@
       "type": "sport",
       "firstAscent": "projekt",
       "description": "Bultade linjen 20m till höger om Styrkelyft.",
+      "sectorId": "centralvaggen",
       "source": {
         "id": "legacy:fregasberget",
         "path": "mediawiki/Fregåsberget.txt"
@@ -478,6 +510,7 @@
       "type": "sport",
       "firstAscent": "Mattias Flodin 1996",
       "description": "Vänstra leden på stenen. Bultar och firningsankare.",
+      "sectorId": "siam-stenen",
       "source": {
         "id": "legacy:fregasberget",
         "path": "mediawiki/Fregåsberget.txt"
@@ -493,6 +526,7 @@
       "type": "sport",
       "firstAscent": "Mattias Flodin 1996",
       "description": "Högra leden på stenen. Bultar och firningsankare.",
+      "sectorId": "siam-stenen",
       "source": {
         "id": "legacy:fregasberget",
         "path": "mediawiki/Fregåsberget.txt"
@@ -508,6 +542,7 @@
       "type": "sport",
       "firstAscent": "Mattias Flodin 1996",
       "description": "Ett brant insteg leder till en svaplatta. 2 bultar.",
+      "sectorId": "siam-stenen",
       "source": {
         "id": "legacy:fregasberget",
         "path": "mediawiki/Fregåsberget.txt"
@@ -523,6 +558,7 @@
       "type": "sport",
       "firstAscent": "Mattias Flodin 1993",
       "description": "Längst till vänster på hörnet. Bultar",
+      "sectorId": "smalavaggen",
       "source": {
         "id": "legacy:fregasberget",
         "path": "mediawiki/Fregåsberget.txt"
@@ -538,6 +574,7 @@
       "type": "sport",
       "firstAscent": "Mattias Flodin 1993",
       "description": "I mitten. Bultar",
+      "sectorId": "smalavaggen",
       "source": {
         "id": "legacy:fregasberget",
         "path": "mediawiki/Fregåsberget.txt"
@@ -553,6 +590,7 @@
       "type": "sport",
       "firstAscent": "Mattias Flodin 1993",
       "description": "Kanten till höger. Bultar",
+      "sectorId": "smalavaggen",
       "source": {
         "id": "legacy:fregasberget",
         "path": "mediawiki/Fregåsberget.txt"
@@ -568,6 +606,7 @@
       "type": "trad",
       "firstAscent": "Familjen Gracie",
       "description": "Korta hörnet till vänster om Motorsågsmassakern. Start som för Motorsågsmassakern, kliv åt vänster och följ flaken och sprickan till toppen. 5 bonuspoäng för direktstarten! (Syns ej på bilden).",
+      "sectorId": "gomdaklippan",
       "source": {
         "id": "legacy:fregasberget",
         "path": "mediawiki/Fregåsberget.txt"
@@ -583,6 +622,7 @@
       "type": "sport",
       "firstAscent": "Mattias Flodin",
       "description": "Start 5m till vänster om Flink och Qvick. 2 bultar.",
+      "sectorId": "gomdaklippan",
       "source": {
         "id": "legacy:fregasberget",
         "path": "mediawiki/Fregåsberget.txt"
@@ -598,6 +638,7 @@
       "type": "trad",
       "firstAscent": "Mattias Flodin",
       "description": "Kilsäkradesprickan.",
+      "sectorId": "gomdaklippan",
       "source": {
         "id": "legacy:fregasberget",
         "path": "mediawiki/Fregåsberget.txt"
@@ -613,6 +654,7 @@
       "type": "sport",
       "firstAscent": "Jeff Gracie",
       "description": "Rolig! Börjar 2m till höger om Flink och Qvick. Klättra väggen alldeles till höger om sprickan (använd inte sprickan!). Delar firningsankare med 2 för 1.",
+      "sectorId": "gomdaklippan",
       "source": {
         "id": "legacy:fregasberget",
         "path": "mediawiki/Fregåsberget.txt"
@@ -628,6 +670,7 @@
       "type": "sport",
       "firstAscent": "Jeff Gracie",
       "description": "Two routes for the price of one! Härlig väggklättring. Måste göras! 5+ om man klättrar på höger sida om bultarna och 6+ om man klättrar till vänster om bultarna. 5 bultar. Firningsankare.",
+      "sectorId": "gomdaklippan",
       "source": {
         "id": "legacy:fregasberget",
         "path": "mediawiki/Fregåsberget.txt"
@@ -643,6 +686,7 @@
       "type": "trad",
       "firstAscent": "Jonas Gustavsson",
       "description": "Öppenbara kilsäkrade diedern och efterföljande spricksystemet. Delar firningsankare med Jag hatar mig själv och jag vill dö. Kan även avslutas till vänster och delar då firningsankare med 2 för 1.",
+      "sectorId": "gomdaklippan",
       "source": {
         "id": "legacy:fregasberget",
         "path": "mediawiki/Fregåsberget.txt"
@@ -658,6 +702,7 @@
       "type": "sport",
       "firstAscent": "Mattias Flodin",
       "description": "Starta 2m till höger om Jonas symaskin. Klättra ut genom taket, sedan väggklättring efter bultarna. Firningsankare.",
+      "sectorId": "gomdaklippan",
       "source": {
         "id": "legacy:fregasberget",
         "path": "mediawiki/Fregåsberget.txt"
@@ -673,6 +718,7 @@
       "type": "mix",
       "firstAscent": "Jeff Gracie",
       "description": "Starta 1m till vänster om Knashög. Upp genom det lilla taket, sedan vidare via 2 bultar och sprickorna till toppen. Utsteg via vänster sprickan. 2 bultar + små SLCD´s eller kilar. Använd trädet som firningsankare.",
+      "sectorId": "gomdaklippan",
       "source": {
         "id": "legacy:fregasberget",
         "path": "mediawiki/Fregåsberget.txt"
@@ -688,6 +734,7 @@
       "type": "trad",
       "firstAscent": "Mattias Flodin",
       "description": "Korta kilsäkrade sprickan 5m till höger om Jag hatar mig själv och jag vill dö. Häftig klättring. Kilar och SLCD’s. Delar ankare med Tokspeedad.",
+      "sectorId": "gomdaklippan",
       "source": {
         "id": "legacy:fregasberget",
         "path": "mediawiki/Fregåsberget.txt"
@@ -703,6 +750,7 @@
       "type": "trad",
       "firstAscent": "Mattias Flodin",
       "description": "Klättra första delen på Knashög, sedan utsteg via sprickan till höger. Kilar och SLCD’s. Delar ankare med Knashög.",
+      "sectorId": "gomdaklippan",
       "source": {
         "id": "legacy:fregasberget",
         "path": "mediawiki/Fregåsberget.txt"
@@ -718,6 +766,7 @@
       "type": "mix",
       "firstAscent": "Mattias Flodin",
       "description": "Korta och branta borrbultslinjen 3m till höger om Knashög. 2 bultar.",
+      "sectorId": "gomdaklippan",
       "source": {
         "id": "legacy:fregasberget",
         "path": "mediawiki/Fregåsberget.txt"
@@ -733,6 +782,7 @@
       "type": "mix",
       "firstAscent": "Mattias Flodin",
       "description": "Tydliga borrbultslinjen i klykan 2m till vänster om Nudist 1. Följer linjen rakt upp till rappellfästet på övreblocket. 2 bultar + SLCD’s för den svaghjärtade.",
+      "sectorId": "gomdaklippan",
       "source": {
         "id": "legacy:fregasberget",
         "path": "mediawiki/Fregåsberget.txt"
@@ -748,6 +798,7 @@
       "type": "mix",
       "firstAscent": "Jonas Gustavsson",
       "description": "Sprickan och svaplattan till vänster om The knife. Kilar/ SLCD’s och en bult på övre svaplattan. Delar ankare med The knife.",
+      "sectorId": "gomdaklippan",
       "source": {
         "id": "legacy:fregasberget",
         "path": "mediawiki/Fregåsberget.txt"
@@ -763,6 +814,7 @@
       "type": "mix",
       "firstAscent": "Jeff Gracie",
       "description": "Klättra väggen och vänsterkanten på blocket. 2 bultar. En välplacerad kil vid utsteget kan motverka potentiell kalsongtvätt.",
+      "sectorId": "gomdaklippan",
       "source": {
         "id": "legacy:fregasberget",
         "path": "mediawiki/Fregåsberget.txt"
@@ -778,6 +830,7 @@
       "type": "sport",
       "firstAscent": "projekt",
       "description": "Något krystat men rolig. Väggklättring på högersidan av blocket. Börja 2m till höger om The knife. Undvik kanten och sprickan till höger! Förbi första bulten, genom taket och vidare. 3 bultar.",
+      "sectorId": "gomdaklippan",
       "source": {
         "id": "legacy:fregasberget",
         "path": "mediawiki/Fregåsberget.txt"
@@ -793,6 +846,7 @@
       "type": "trad",
       "firstAscent": "Jonas Gustavsson",
       "description": "Sprickan 1m till höger om Öppet projektet. Kilar och SLCD´s.",
+      "sectorId": "gomdaklippan",
       "source": {
         "id": "legacy:fregasberget",
         "path": "mediawiki/Fregåsberget.txt"
@@ -808,6 +862,7 @@
       "type": "sport",
       "firstAscent": "Jeff Gracie, Klara Gracie",
       "description": "Börjar på marken mellan blocket och den fristående pelaren. Klättra upp på pelaren och sedan vidare efter bultarna. 5+ om man traverserar vänster efter tredje bulten och 6+ om man klättrar rakt upp. 4 bultar och ankare bestående av 2 bultar. (Syns ej på bilden).",
+      "sectorId": "gomdaklippan",
       "source": {
         "id": "legacy:fregasberget",
         "path": "mediawiki/Fregåsberget.txt"
@@ -823,6 +878,7 @@
       "type": "sport",
       "firstAscent": "Projekt",
       "description": "Klättra högra sidan av areten. Bult. (Syns ej på bilden).",
+      "sectorId": "gomdaklippan",
       "source": {
         "id": "legacy:fregasberget",
         "path": "mediawiki/Fregåsberget.txt"
@@ -833,32 +889,38 @@
     {
       "filename": "Fregåsberget_översiktskarta.png",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "oversiktskarta"
     },
     {
       "filename": "Fregåsberget_2.jpg",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "centralvaggen"
     },
     {
       "filename": "Fregåsberget_1.jpg",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "centralvaggen"
     },
     {
       "filename": "Gömdaklippan_nedredelen.png",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "gomdaklippan"
     },
     {
       "filename": "2_for_1.png",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "gomdaklippan"
     },
     {
       "filename": "Gömdeklippan_mittendel.png",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "gomdaklippan"
     }
   ],
   "access": {

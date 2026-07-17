@@ -47,6 +47,7 @@
       "type": "trad",
       "firstAscent": "Petter Restorp sep 2011",
       "description": "Den uppenbara sprickan som klyver taket i minst 10 meter. Uthållighet och stora knytnävar lär hjälpa.",
+      "sectorId": "grottan",
       "source": {
         "id": "legacy:amaliagrottan",
         "path": "mediawiki/Amaliagrottan.txt"
@@ -57,7 +58,8 @@
     {
       "filename": "Smk.gif",
       "caption": "namn=Slagsmålsklubben}} Foto: Niklas Andersson",
-      "missing": false
+      "missing": false,
+      "sectorId": null
     }
   ],
   "access": {

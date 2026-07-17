@@ -61,6 +61,11 @@
       "body": "10-12m hög svagt överhängande vägg. Inga leder eller projekt. Möjlighet till 5-6 sportturer."
     },
     {
+      "id": "hoger-om-huvudvagen",
+      "title": "Höger om huvudvägen",
+      "body": ""
+    },
+    {
       "id": "jarnvaggen",
       "title": "Järnväggen",
       "body": "Mindre men kraftigt överhängande väggpartiet längst åt höger. Kategori:Stockholm Kategori:Västra Södertörn Kategori:Oklättrat Kategori:Saknar leder Kategori:Saknar skiss Kategori:Saknar skiss Kategori:sport Kategori:trad Kategori:vertikalt Kategori:överhäng"
@@ -77,6 +82,7 @@
       "type": "sport",
       "firstAscent": "Jörgen Alvhäll, Peter Yakubenko -09",
       "description": "Mitt på väggen till höger om den lutande granen. Krux i början, stora juggar på slutet. 4bb och ankare.",
+      "sectorId": "hoger-om-huvudvagen",
       "source": {
         "id": "legacy:fornborgsberget",
         "path": "mediawiki/Fornborgsberget.txt"
@@ -92,6 +98,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "Off-width spricka som är svag överhängande i övre delen. Ganska mossig, måste rensas ordentligt. Öppet projekt",
+      "sectorId": "hoger-om-huvudvagen",
       "source": {
         "id": "legacy:fornborgsberget",
         "path": "mediawiki/Fornborgsberget.txt"
@@ -107,6 +114,7 @@
       "type": "sport",
       "firstAscent": "Peter Yakubenko, Anders Eriksson -09",
       "description": "Överhängande sprickan till höger om föregående. 6bb och ankare.",
+      "sectorId": "hoger-om-huvudvagen",
       "source": {
         "id": "legacy:fornborgsberget",
         "path": "mediawiki/Fornborgsberget.txt"
@@ -122,6 +130,7 @@
       "type": "sport",
       "firstAscent": "Johan Luhr -09",
       "description": "På vänsterkant. 4bb.",
+      "sectorId": "jarnvaggen",
       "source": {
         "id": "legacy:fornborgsberget",
         "path": "mediawiki/Fornborgsberget.txt"
@@ -137,6 +146,7 @@
       "type": "sport",
       "firstAscent": "Peter Yakubenko -09",
       "description": "Sprickan snett åt vänster. Två fingrar jam. 4bb och ankare.",
+      "sectorId": "jarnvaggen",
       "source": {
         "id": "legacy:fornborgsberget",
         "path": "mediawiki/Fornborgsberget.txt"
@@ -152,6 +162,7 @@
       "type": "sport",
       "firstAscent": "Larry Valkama, Johan Luhr -09",
       "description": "Genom spricksystemet mitt på väggen. Hoppslut. 4bb och ankare.",
+      "sectorId": "jarnvaggen",
       "source": {
         "id": "legacy:fornborgsberget",
         "path": "mediawiki/Fornborgsberget.txt"
@@ -167,6 +178,7 @@
       "type": "sport",
       "firstAscent": "",
       "description": "Peter Yakubenko -09. På högerkant. Fin och fast klippa. 4bb och ankare.",
+      "sectorId": "jarnvaggen",
       "source": {
         "id": "legacy:fornborgsberget",
         "path": "mediawiki/Fornborgsberget.txt"
@@ -177,37 +189,44 @@
     {
       "filename": "Fornborgsberget_view1.jpg",
       "caption": "Fornborgsberget",
-      "missing": false
+      "missing": false,
+      "sectorId": "miljo"
     },
     {
       "filename": "Fornborgsberget_parkering.jpg",
       "caption": "Rätt parkering.",
-      "missing": false
+      "missing": false,
+      "sectorId": "vagbeskrivning"
     },
     {
       "filename": "Fornborgsberget_parkera_inte.jpg",
       "caption": "Ingång. Parkera inte här!",
-      "missing": false
+      "missing": false,
+      "sectorId": "access"
     },
     {
       "filename": "Fornborgsberget_pelaren.jpg",
       "caption": "Pelaren",
-      "missing": false
+      "missing": false,
+      "sectorId": "pelaren"
     },
     {
       "filename": "Fornborgsberget_huvudv.jpg",
       "caption": "Huvudväggen",
-      "missing": false
+      "missing": false,
+      "sectorId": "huvudvaggen"
     },
     {
       "filename": "Fornborgsberget_day_off.jpg",
       "caption": "Trad eller sport?",
-      "missing": false
+      "missing": false,
+      "sectorId": "hoger-om-huvudvagen"
     },
     {
       "filename": "Fornborgsberget_iron_wall1.jpg",
       "caption": "Järnväggen",
-      "missing": false
+      "missing": false,
+      "sectorId": "jarnvaggen"
     }
   ],
   "access": {

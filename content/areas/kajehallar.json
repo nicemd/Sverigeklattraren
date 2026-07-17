@@ -28,6 +28,41 @@
       "body": "Klippan ligger på cykelavstånd från Halmstad (1,5 mil) och det går att ta sig hit med lokaltrafiken. Kör gamla göteborgsvägen till Kvibille. Vid gästgiveriet, ta av in på vägen mot Slättåkra och Oskarsström. Fortsätt cirka 400 meter och sväng sedan vänster in på Lundsgårdsvägen. I höjd med Ekegränd går ni höger in i skogen och följer högerkanten av dalen. Efter 300 meter kommer man till Originalväggen. Alternativt kör man in till höger på skogsvägen innan Ekegränd och följer den till den stora grusplanen där man kan parkera. Sedan är det bara att gå direkt åt vänster och snedda upp genom skogen så kommer man direkt på klipporna ovanifrån."
     },
     {
+      "id": "klippor",
+      "title": "Klippor",
+      "body": ""
+    },
+    {
+      "id": "originalvaggen",
+      "title": "Originalväggen",
+      "body": ""
+    },
+    {
+      "id": "introvaggarna",
+      "title": "Introväggarna",
+      "body": ""
+    },
+    {
+      "id": "black-labelvaggen",
+      "title": "Black Labelväggen",
+      "body": ""
+    },
+    {
+      "id": "red-labelvaggen",
+      "title": "Red Labelväggen",
+      "body": ""
+    },
+    {
+      "id": "skuggvaggen",
+      "title": "Skuggväggen",
+      "body": ""
+    },
+    {
+      "id": "nya-vaggen",
+      "title": "Nya Väggen",
+      "body": ""
+    },
+    {
       "id": "kallor",
       "title": "Källor",
       "body": "For more routes see http://www.mountain-environment.com/Rock_climbing_guide_Kajehallar.pdf Kategori:Halland"
@@ -44,6 +79,7 @@
       "type": "trad",
       "firstAscent": "D. Lindwall - 91",
       "description": "",
+      "sectorId": "originalvaggen",
       "source": {
         "id": "legacy:kajehallar",
         "path": "mediawiki/Kajehallar.txt"
@@ -59,6 +95,7 @@
       "type": "trad",
       "firstAscent": "D. Lindwall - 91",
       "description": "",
+      "sectorId": "originalvaggen",
       "source": {
         "id": "legacy:kajehallar",
         "path": "mediawiki/Kajehallar.txt"
@@ -74,6 +111,7 @@
       "type": "trad",
       "firstAscent": "D. Lindwall, J. Lundgren - 90",
       "description": "",
+      "sectorId": "originalvaggen",
       "source": {
         "id": "legacy:kajehallar",
         "path": "mediawiki/Kajehallar.txt"
@@ -89,6 +127,7 @@
       "type": "trad",
       "firstAscent": "Mattias Lundqvist -97",
       "description": "Förstod aldrig hur den skulle avslutas. Oklart avritat i Halmstadföraren men ska enligt denna ha ett \"härligt utsteg\".",
+      "sectorId": "originalvaggen",
       "source": {
         "id": "legacy:kajehallar",
         "path": "mediawiki/Kajehallar.txt"
@@ -104,6 +143,7 @@
       "type": "trad",
       "firstAscent": "D. Lindwall, M. Andersson -91",
       "description": "Fin layback fram till kruxet.",
+      "sectorId": "originalvaggen",
       "source": {
         "id": "legacy:kajehallar",
         "path": "mediawiki/Kajehallar.txt"
@@ -119,6 +159,7 @@
       "type": "trad",
       "firstAscent": "J. Lundgren, M. Jönsson - 90",
       "description": "",
+      "sectorId": "originalvaggen",
       "source": {
         "id": "legacy:kajehallar",
         "path": "mediawiki/Kajehallar.txt"
@@ -134,6 +175,7 @@
       "type": "trad",
       "firstAscent": "D. Lindwall, J. Lundgren -91",
       "description": "",
+      "sectorId": "originalvaggen",
       "source": {
         "id": "legacy:kajehallar",
         "path": "mediawiki/Kajehallar.txt"
@@ -149,6 +191,7 @@
       "type": "T.R.",
       "firstAscent": "D. Lindwall - 90",
       "description": "",
+      "sectorId": "originalvaggen",
       "source": {
         "id": "legacy:kajehallar",
         "path": "mediawiki/Kajehallar.txt"
@@ -164,6 +207,7 @@
       "type": "T.R.",
       "firstAscent": "Björn Hedberg - 07",
       "description": "Fin helkroppsjam halvvägs.",
+      "sectorId": "originalvaggen",
       "source": {
         "id": "legacy:kajehallar",
         "path": "mediawiki/Kajehallar.txt"
@@ -179,6 +223,7 @@
       "type": "trad",
       "firstAscent": "Ludde - 07",
       "description": "Första vettiga säkringarna 3m upp under flaket.",
+      "sectorId": "originalvaggen",
       "source": {
         "id": "legacy:kajehallar",
         "path": "mediawiki/Kajehallar.txt"
@@ -194,6 +239,7 @@
       "type": "T.R.",
       "firstAscent": "D. Lindwall - 93",
       "description": "",
+      "sectorId": "black-labelvaggen",
       "source": {
         "id": "legacy:kajehallar",
         "path": "mediawiki/Kajehallar.txt"
@@ -209,6 +255,7 @@
       "type": "trad",
       "firstAscent": "D. Lindwall - 93",
       "description": "",
+      "sectorId": "black-labelvaggen",
       "source": {
         "id": "legacy:kajehallar",
         "path": "mediawiki/Kajehallar.txt"
@@ -224,6 +271,7 @@
       "type": "T.R.",
       "firstAscent": "D. Lindwall - 93",
       "description": "",
+      "sectorId": "black-labelvaggen",
       "source": {
         "id": "legacy:kajehallar",
         "path": "mediawiki/Kajehallar.txt"
@@ -239,6 +287,7 @@
       "type": "trad",
       "firstAscent": "D. Lindwall - 93",
       "description": "",
+      "sectorId": "black-labelvaggen",
       "source": {
         "id": "legacy:kajehallar",
         "path": "mediawiki/Kajehallar.txt"
@@ -254,6 +303,7 @@
       "type": "trad",
       "firstAscent": "D. Lindwall - 93",
       "description": "",
+      "sectorId": "black-labelvaggen",
       "source": {
         "id": "legacy:kajehallar",
         "path": "mediawiki/Kajehallar.txt"
@@ -269,6 +319,7 @@
       "type": "T.R.",
       "firstAscent": "Björn Hedberg -97",
       "description": "",
+      "sectorId": "black-labelvaggen",
       "source": {
         "id": "legacy:kajehallar",
         "path": "mediawiki/Kajehallar.txt"
@@ -284,6 +335,7 @@
       "type": "T.R.",
       "firstAscent": "Olof Wojtkowiak -97",
       "description": "",
+      "sectorId": "black-labelvaggen",
       "source": {
         "id": "legacy:kajehallar",
         "path": "mediawiki/Kajehallar.txt"
@@ -299,6 +351,7 @@
       "type": "T.R.",
       "firstAscent": "Sten Johansson -97",
       "description": "",
+      "sectorId": "black-labelvaggen",
       "source": {
         "id": "legacy:kajehallar",
         "path": "mediawiki/Kajehallar.txt"
@@ -314,6 +367,7 @@
       "type": "trad",
       "firstAscent": "J. Lundgren, D. Lindwall - 93",
       "description": "",
+      "sectorId": "black-labelvaggen",
       "source": {
         "id": "legacy:kajehallar",
         "path": "mediawiki/Kajehallar.txt"
@@ -329,6 +383,7 @@
       "type": "trad",
       "firstAscent": "D. Lindwall - 93",
       "description": "",
+      "sectorId": "red-labelvaggen",
       "source": {
         "id": "legacy:kajehallar",
         "path": "mediawiki/Kajehallar.txt"
@@ -344,6 +399,7 @@
       "type": "trad",
       "firstAscent": "D. Lindwall, N. Lindqvist - 93",
       "description": "",
+      "sectorId": "red-labelvaggen",
       "source": {
         "id": "legacy:kajehallar",
         "path": "mediawiki/Kajehallar.txt"
@@ -359,6 +415,7 @@
       "type": "trad",
       "firstAscent": "D. Lindwall, J. Lundgren - 93",
       "description": "",
+      "sectorId": "skuggvaggen",
       "source": {
         "id": "legacy:kajehallar",
         "path": "mediawiki/Kajehallar.txt"
@@ -374,6 +431,7 @@
       "type": "trad",
       "firstAscent": "J. Lundgren -93",
       "description": "",
+      "sectorId": "skuggvaggen",
       "source": {
         "id": "legacy:kajehallar",
         "path": "mediawiki/Kajehallar.txt"
@@ -389,6 +447,7 @@
       "type": "trad",
       "firstAscent": "D. Lindwall - 93",
       "description": "",
+      "sectorId": "skuggvaggen",
       "source": {
         "id": "legacy:kajehallar",
         "path": "mediawiki/Kajehallar.txt"
@@ -404,6 +463,7 @@
       "type": "trad",
       "firstAscent": "D. Lindwall - 93",
       "description": "",
+      "sectorId": "skuggvaggen",
       "source": {
         "id": "legacy:kajehallar",
         "path": "mediawiki/Kajehallar.txt"
@@ -419,6 +479,7 @@
       "type": "T.R.",
       "firstAscent": "N. Lindqvist -93",
       "description": "",
+      "sectorId": "skuggvaggen",
       "source": {
         "id": "legacy:kajehallar",
         "path": "mediawiki/Kajehallar.txt"
@@ -434,6 +495,7 @@
       "type": "trad",
       "firstAscent": "Adde Nilsson -07",
       "description": "Börjar inne i hörned på hyllan till vänster om Blåmes och följer sprickan. Hyfsat välsäkrad.",
+      "sectorId": "nya-vaggen",
       "source": {
         "id": "legacy:kajehallar",
         "path": "mediawiki/Kajehallar.txt"
@@ -449,6 +511,7 @@
       "type": "T.R",
       "firstAscent": "Björn Hedberg -07",
       "description": "Börja uppe på hyllan, gå rakt upp på flaket (fin spricka till vänster), upp på platån och fortsätt rakt upp på väggen. Greppen på väggen är bättre än de ser ut att vara.",
+      "sectorId": "nya-vaggen",
       "source": {
         "id": "legacy:kajehallar",
         "path": "mediawiki/Kajehallar.txt"
@@ -464,6 +527,7 @@
       "type": "trad",
       "firstAscent": "Adde Nilsson -07",
       "description": "Börja uppe på hyllan och följ sprickan upp på platån och in i kaminen. Svårsäkrad(?) innan platån.",
+      "sectorId": "nya-vaggen",
       "source": {
         "id": "legacy:kajehallar",
         "path": "mediawiki/Kajehallar.txt"
@@ -474,17 +538,20 @@
     {
       "filename": "Original.jpg",
       "caption": "Slutet, Kongo, Stenen på benen, Fet och värdo",
-      "missing": false
+      "missing": false,
+      "sectorId": "originalvaggen"
     },
     {
       "filename": "Original2.jpg",
       "caption": "Mr. Mean, Arresterad",
-      "missing": false
+      "missing": false,
+      "sectorId": "originalvaggen"
     },
     {
       "filename": "Blacklabel.jpg",
       "caption": "Lugna Gatan, Black Label, Svarta konster",
-      "missing": false
+      "missing": false,
+      "sectorId": "black-labelvaggen"
     }
   ],
   "access": {

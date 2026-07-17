@@ -54,9 +54,24 @@
       "body": "Stora väggen ligger ovanför alla andra klippor och är den enda som inte har direkt strandkontakt. Du tar dig hit lättast genom att följa stigen ovanpå berget, och gå ner på stigen som tar dig till Over the top. Det är inga problem att sen ta sig ner till de andra klipporna på stranden."
     },
     {
+      "id": "vikingavaggen",
+      "title": "Vikingaväggen",
+      "body": ""
+    },
+    {
       "id": "kortsidan",
       "title": "Kortsidan",
       "body": "Detta är den vänstra kortsidan av Sjöväggen."
+    },
+    {
+      "id": "sjovaggen",
+      "title": "Sjöväggen",
+      "body": ""
+    },
+    {
+      "id": "lilla-vaggen",
+      "title": "Lilla väggen",
+      "body": ""
     },
     {
       "id": "radiovaggen",
@@ -80,6 +95,7 @@
       "type": "sport",
       "firstAscent": "Mattias Andersson 1992",
       "description": "Ombultad 2008. Har flera bultar än tidigare och nytt ankare.",
+      "sectorId": "stora-vaggen",
       "source": {
         "id": "legacy:brattberget",
         "path": "mediawiki/Brattberget.txt"
@@ -95,6 +111,7 @@
       "type": "sport",
       "firstAscent": "Robert Ericson 1989",
       "description": "Mycket fin väggklättring. Leden har fått nya bultar och är nu en ren sporttur. Firningsankare.",
+      "sectorId": "stora-vaggen",
       "source": {
         "id": "legacy:brattberget",
         "path": "mediawiki/Brattberget.txt"
@@ -110,6 +127,7 @@
       "type": "sport",
       "firstAscent": "Daniel Nordström 1991",
       "description": "Följer först flaksprickan, därefter känslig väggklättring. Fin. Ombultad 2008 och nu en ren sporttur. Ankare.",
+      "sectorId": "stora-vaggen",
       "source": {
         "id": "legacy:brattberget",
         "path": "mediawiki/Brattberget.txt"
@@ -125,6 +143,7 @@
       "type": "trad",
       "firstAscent": "Daniel Nordström 1993",
       "description": "överhäng i starten och sedan en spricka. Svårsäkrad.",
+      "sectorId": "stora-vaggen",
       "source": {
         "id": "legacy:brattberget",
         "path": "mediawiki/Brattberget.txt"
@@ -140,6 +159,7 @@
       "type": "mix",
       "firstAscent": "Patric Backlund 1992",
       "description": "",
+      "sectorId": "stora-vaggen",
       "source": {
         "id": "legacy:brattberget",
         "path": "mediawiki/Brattberget.txt"
@@ -155,6 +175,7 @@
       "type": "trad",
       "firstAscent": "Johan Hedman 2010",
       "description": "Följer en tydlig spricka. Bultat ankare.",
+      "sectorId": "stora-vaggen",
       "source": {
         "id": "legacy:brattberget",
         "path": "mediawiki/Brattberget.txt"
@@ -170,6 +191,7 @@
       "type": "sport",
       "firstAscent": "Pär Åslund, Johan Hedman 2010",
       "description": "Start i diedret till vänster om Berkaleden sedan utsteg lite vänster mot det mörka hålet.",
+      "sectorId": "stora-vaggen",
       "source": {
         "id": "legacy:brattberget",
         "path": "mediawiki/Brattberget.txt"
@@ -185,6 +207,7 @@
       "type": "mix",
       "firstAscent": "Kenth Bergquist 1991",
       "description": "Börjar till höger om arêten. Mixad fin led",
+      "sectorId": "stora-vaggen",
       "source": {
         "id": "legacy:brattberget",
         "path": "mediawiki/Brattberget.txt"
@@ -200,6 +223,7 @@
       "type": "sport",
       "firstAscent": "Michael Collins 2013",
       "description": "Följer flakformationer strax höger om Berkaleden. Ankare",
+      "sectorId": "stora-vaggen",
       "source": {
         "id": "legacy:brattberget",
         "path": "mediawiki/Brattberget.txt"
@@ -215,6 +239,7 @@
       "type": "trad",
       "firstAscent": "Kenth Bergquist 1992",
       "description": "Följer ett spricksystem. Dåligt säkrad på slutet.",
+      "sectorId": "stora-vaggen",
       "source": {
         "id": "legacy:brattberget",
         "path": "mediawiki/Brattberget.txt"
@@ -230,6 +255,7 @@
       "type": "sport",
       "firstAscent": "Daniel Nordström 1991",
       "description": "Stand i 1 st limbult eller upp till Vängåvanhyllan. Kompletteringsbultad 2009",
+      "sectorId": "stora-vaggen",
       "source": {
         "id": "legacy:brattberget",
         "path": "mediawiki/Brattberget.txt"
@@ -245,6 +271,7 @@
       "type": "mix",
       "firstAscent": "Anders Wester, Dick Gunnars 1989",
       "description": "Följer en tydlig spricka. Bultat ankare",
+      "sectorId": "stora-vaggen",
       "source": {
         "id": "legacy:brattberget",
         "path": "mediawiki/Brattberget.txt"
@@ -260,6 +287,7 @@
       "type": "sport",
       "firstAscent": "",
       "description": "En ren sporttur. Ankare.",
+      "sectorId": "stora-vaggen",
       "source": {
         "id": "legacy:brattberget",
         "path": "mediawiki/Brattberget.txt"
@@ -275,6 +303,7 @@
       "type": "mix",
       "firstAscent": "Anders Wester, Dick Gunnars 1989",
       "description": "Fira av från Vängåvan.",
+      "sectorId": "stora-vaggen",
       "source": {
         "id": "legacy:brattberget",
         "path": "mediawiki/Brattberget.txt"
@@ -290,6 +319,7 @@
       "type": "mix",
       "firstAscent": "Kenth Bergquist 1992",
       "description": "Startar i hörnet och följer sprickan upp. ankare",
+      "sectorId": "stora-vaggen",
       "source": {
         "id": "legacy:brattberget",
         "path": "mediawiki/Brattberget.txt"
@@ -305,6 +335,7 @@
       "type": "sport",
       "firstAscent": "Peter Ålander 2010",
       "description": "Ihållande väggklättring. Fin. Ankare.",
+      "sectorId": "stora-vaggen",
       "source": {
         "id": "legacy:brattberget",
         "path": "mediawiki/Brattberget.txt"
@@ -320,6 +351,7 @@
       "type": "sport",
       "firstAscent": "Johan Hedman 2009",
       "description": "Ihållande väggklättring. Fin. Ankare.",
+      "sectorId": "stora-vaggen",
       "source": {
         "id": "legacy:brattberget",
         "path": "mediawiki/Brattberget.txt"
@@ -335,6 +367,7 @@
       "type": "sport",
       "firstAscent": "Falko Fleischmann 2011",
       "description": "Följ aretet till \"tanden\" sedan rakt över överhänget, känns lite utsatt. Om man har uppskjutarbeteende kan man smita ur halvvägs till ankaret av \"Inre röster\" då 6a. Ankare. Välsäkrad.",
+      "sectorId": "stora-vaggen",
       "source": {
         "id": "legacy:brattberget",
         "path": "mediawiki/Brattberget.txt"
@@ -350,6 +383,7 @@
       "type": "trad",
       "firstAscent": "Falko Fleischmann 2011",
       "description": "Insteg bakomför \"Prokrastinering\", kamin och sprickan ovanpå areten. Där sprikan viker till vänster går man in till \"Inre röster\" och till ankaret, alt. usteg via \"Prokrastinering\" (bult). Bultat ankare",
+      "sectorId": "stora-vaggen",
       "source": {
         "id": "legacy:brattberget",
         "path": "mediawiki/Brattberget.txt"
@@ -365,6 +399,7 @@
       "type": "trad",
       "firstAscent": "Johan Hedman 2010",
       "description": "Följer en tydlig spricka till ankare halvägs upp på väggen. Funkar med vanligt rack (upp till Camalot #3) men bra med stor kamkil typ Camalot #4. Bultat ankare",
+      "sectorId": "stora-vaggen",
       "source": {
         "id": "legacy:brattberget",
         "path": "mediawiki/Brattberget.txt"
@@ -380,6 +415,7 @@
       "type": "trad",
       "firstAscent": "Johan Hedman 2010",
       "description": "Följer en diedret och spricklinjerna hela vägen upp. Bultat ankare",
+      "sectorId": "stora-vaggen",
       "source": {
         "id": "legacy:brattberget",
         "path": "mediawiki/Brattberget.txt"
@@ -395,6 +431,7 @@
       "type": "sport",
       "firstAscent": "Johan Hedman 2010",
       "description": "Ihållande väggklättring. Fin. Ankare.",
+      "sectorId": "stora-vaggen",
       "source": {
         "id": "legacy:brattberget",
         "path": "mediawiki/Brattberget.txt"
@@ -410,6 +447,7 @@
       "type": "trad",
       "firstAscent": "Ove Dalsegg 1988",
       "description": "Följer en spricka en bit upp till slutet som går i en slags dieder. sopad och rensad 2009, det tidigare osäkrade slutet är kompletterat med en bult.",
+      "sectorId": "stora-vaggen",
       "source": {
         "id": "legacy:brattberget",
         "path": "mediawiki/Brattberget.txt"
@@ -425,6 +463,7 @@
       "type": "mix",
       "firstAscent": "Daniel Nordström 1992",
       "description": "Långt mellan bultarna.",
+      "sectorId": "vikingavaggen",
       "source": {
         "id": "legacy:brattberget",
         "path": "mediawiki/Brattberget.txt"
@@ -440,6 +479,7 @@
       "type": "sport",
       "firstAscent": "Daniel Nordström, Joakim Svedberg 1993",
       "description": "Rensad & sopad 2012.",
+      "sectorId": "vikingavaggen",
       "source": {
         "id": "legacy:brattberget",
         "path": "mediawiki/Brattberget.txt"
@@ -455,6 +495,7 @@
       "type": "sport",
       "firstAscent": "Daniel Nordström 1992",
       "description": "",
+      "sectorId": "vikingavaggen",
       "source": {
         "id": "legacy:brattberget",
         "path": "mediawiki/Brattberget.txt"
@@ -470,6 +511,7 @@
       "type": "mix",
       "firstAscent": "Kenth Bergquist 1992",
       "description": "",
+      "sectorId": "vikingavaggen",
       "source": {
         "id": "legacy:brattberget",
         "path": "mediawiki/Brattberget.txt"
@@ -485,6 +527,7 @@
       "type": "trad",
       "firstAscent": "Ove Dalsegg 1988",
       "description": "Svårsäkrad vid kruxet.",
+      "sectorId": "vikingavaggen",
       "source": {
         "id": "legacy:brattberget",
         "path": "mediawiki/Brattberget.txt"
@@ -500,6 +543,7 @@
       "type": "mix",
       "firstAscent": "",
       "description": "samma start som ont i stjärten de tre första bultarna sedan rakt upp genom taket.Det går att få några friends innan taket.",
+      "sectorId": "vikingavaggen",
       "source": {
         "id": "legacy:brattberget",
         "path": "mediawiki/Brattberget.txt"
@@ -515,6 +559,7 @@
       "type": "sport",
       "firstAscent": "Mats Ekdahl, Daniel Nordström 1991",
       "description": "helbultad linje sedan 2008. Välsäkrad.",
+      "sectorId": "vikingavaggen",
       "source": {
         "id": "legacy:brattberget",
         "path": "mediawiki/Brattberget.txt"
@@ -530,6 +575,7 @@
       "type": "trad",
       "firstAscent": "? ?",
       "description": "Svårsäkrad, lös och djävlig.",
+      "sectorId": "vikingavaggen",
       "source": {
         "id": "legacy:brattberget",
         "path": "mediawiki/Brattberget.txt"
@@ -545,6 +591,7 @@
       "type": "trad",
       "firstAscent": "Sven Heidorn 1993",
       "description": "Följ sprickan något till höger om Trappstegen.",
+      "sectorId": "vikingavaggen",
       "source": {
         "id": "legacy:brattberget",
         "path": "mediawiki/Brattberget.txt"
@@ -560,6 +607,7 @@
       "type": "sport",
       "firstAscent": "",
       "description": "Sprickan i taket.",
+      "sectorId": "vikingavaggen",
       "source": {
         "id": "legacy:brattberget",
         "path": "mediawiki/Brattberget.txt"
@@ -575,6 +623,7 @@
       "type": "sport",
       "firstAscent": "",
       "description": "",
+      "sectorId": "vikingavaggen",
       "source": {
         "id": "legacy:brattberget",
         "path": "mediawiki/Brattberget.txt"
@@ -590,6 +639,7 @@
       "type": "trad",
       "firstAscent": "Simon Talltorp 2011",
       "description": "Den vänstra av de två tydliga högerlutande sprickorna. Markant krux några meter upp. Kruxet kräver Camalot #4 eller större för adekvat säkring.",
+      "sectorId": "vikingavaggen",
       "source": {
         "id": "legacy:brattberget",
         "path": "mediawiki/Brattberget.txt"
@@ -605,6 +655,7 @@
       "type": "trad",
       "firstAscent": "Simon Talltorp 2011",
       "description": "Den högra av de två tydliga högerlutande sprickorna. Fina handjam.",
+      "sectorId": "vikingavaggen",
       "source": {
         "id": "legacy:brattberget",
         "path": "mediawiki/Brattberget.txt"
@@ -620,6 +671,7 @@
       "type": "trad",
       "firstAscent": "Erik Kuiper 2011",
       "description": "Kamindelen är enkel och inte bökig.",
+      "sectorId": "vikingavaggen",
       "source": {
         "id": "legacy:brattberget",
         "path": "mediawiki/Brattberget.txt"
@@ -635,6 +687,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "Gå in under det stora blocket och skrambla upp till en avsats där det finns en off-width spricka till vänster. Annorlunda och intressant klättring med flera bestigningsvarianter. Nedan beskrivs två. Minst två större kamkilar typ Camalot #4 kan vara bra för bekväm säkring.",
+      "sectorId": "vikingavaggen",
       "source": {
         "id": "legacy:brattberget",
         "path": "mediawiki/Brattberget.txt"
@@ -650,6 +703,7 @@
       "type": "trad",
       "firstAscent": "Erik Kuiper 2011",
       "description": "Når man så får man, dvs hitta lättaste vägen upp i närheten av sprickan. Stämma mot det stora blocket och utsteg lite till höger om sprickan kan vara två bra tips.",
+      "sectorId": "vikingavaggen",
       "source": {
         "id": "legacy:brattberget",
         "path": "mediawiki/Brattberget.txt"
@@ -665,6 +719,7 @@
       "type": "trad",
       "firstAscent": "Öppet projekt",
       "description": "Inga klämblock får användas och utsteget skall ske via sprickan. Stämklättring kommer också här till heders, fast nu bara mellan väggarna. Lite småbökig.",
+      "sectorId": "vikingavaggen",
       "source": {
         "id": "legacy:brattberget",
         "path": "mediawiki/Brattberget.txt"
@@ -680,6 +735,7 @@
       "type": "trad",
       "firstAscent": "Simon Talltorp 2011",
       "description": "Breda sprickan upp till det stora klämblocket. Gå runt arêten till diedret och sedan rakt upp.",
+      "sectorId": "kortsidan",
       "source": {
         "id": "legacy:brattberget",
         "path": "mediawiki/Brattberget.txt"
@@ -695,6 +751,7 @@
       "type": "trad",
       "firstAscent": "Ove Dalsegg 1988",
       "description": "Upp i sprickan. Följ flaket åt vänster när du kommer upp till Mindre vibrationer. Ankare.",
+      "sectorId": "kortsidan",
       "source": {
         "id": "legacy:brattberget",
         "path": "mediawiki/Brattberget.txt"
@@ -710,6 +767,7 @@
       "type": "mix",
       "firstAscent": "Ove Dalsegg",
       "description": "Rakt upp över bullen. Delar första bult med Mindre vibrationer. En bit upp till nästa säkringspunkt från första bulten. Ankare.",
+      "sectorId": "kortsidan",
       "source": {
         "id": "legacy:brattberget",
         "path": "mediawiki/Brattberget.txt"
@@ -725,6 +783,7 @@
       "type": "mix",
       "firstAscent": "",
       "description": "Start i en tydlig spricka. Efter första bulten går leden snett upp åt vänster till sprickorna till vänster om överhänget. Därefter rakt upp.",
+      "sectorId": "kortsidan",
       "source": {
         "id": "legacy:brattberget",
         "path": "mediawiki/Brattberget.txt"
@@ -740,6 +799,7 @@
       "type": "trad",
       "firstAscent": "Christian Söderberg 1989",
       "description": "Följer arêten.",
+      "sectorId": "kortsidan",
       "source": {
         "id": "legacy:brattberget",
         "path": "mediawiki/Brattberget.txt"
@@ -755,6 +815,7 @@
       "type": "trad",
       "firstAscent": "Christian Söderberg -89",
       "description": "Följer arêten.",
+      "sectorId": "sjovaggen",
       "source": {
         "id": "legacy:brattberget",
         "path": "mediawiki/Brattberget.txt"
@@ -770,6 +831,7 @@
       "type": "trad",
       "firstAscent": "Daniel Nordström -89",
       "description": "Leden går i ett \"Z\"-mönster.",
+      "sectorId": "sjovaggen",
       "source": {
         "id": "legacy:brattberget",
         "path": "mediawiki/Brattberget.txt"
@@ -785,6 +847,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "Klassikern på berget. Följer en spricka som till en början är riktigt bred, som smalnar av efterhand. Ankare.",
+      "sectorId": "sjovaggen",
       "source": {
         "id": "legacy:brattberget",
         "path": "mediawiki/Brattberget.txt"
@@ -800,6 +863,7 @@
       "type": "sport",
       "firstAscent": "Ove Dalsegg -89",
       "description": "Ihållande sportklättring, bultat ankare 2008",
+      "sectorId": "sjovaggen",
       "source": {
         "id": "legacy:brattberget",
         "path": "mediawiki/Brattberget.txt"
@@ -815,6 +879,7 @@
       "type": "sport",
       "firstAscent": "Daniel Nordström -93",
       "description": "Kort. Ankare.",
+      "sectorId": "sjovaggen",
       "source": {
         "id": "legacy:brattberget",
         "path": "mediawiki/Brattberget.txt"
@@ -830,6 +895,7 @@
       "type": "mix",
       "firstAscent": "Ove Dalsegg -89",
       "description": "Man vill inte råka ut för neros pendel. sopad 2012",
+      "sectorId": "sjovaggen",
       "source": {
         "id": "legacy:brattberget",
         "path": "mediawiki/Brattberget.txt"
@@ -845,6 +911,7 @@
       "type": "sport",
       "firstAscent": "Ove Dalsegg -89",
       "description": "Uppsprucken klippa, med goda grepp.",
+      "sectorId": "sjovaggen",
       "source": {
         "id": "legacy:brattberget",
         "path": "mediawiki/Brattberget.txt"
@@ -860,6 +927,7 @@
       "type": "mix",
       "firstAscent": "Daniel Nordström, Mats Ekedal -92",
       "description": "",
+      "sectorId": "sjovaggen",
       "source": {
         "id": "legacy:brattberget",
         "path": "mediawiki/Brattberget.txt"
@@ -875,6 +943,7 @@
       "type": "mix",
       "firstAscent": "Martin Kempe -90",
       "description": "Efter 1:a BB klättrar man runt areten och kopplar en BB runt hörnet. Sedan klättrar man tillbaka runt areten.",
+      "sectorId": "sjovaggen",
       "source": {
         "id": "legacy:brattberget",
         "path": "mediawiki/Brattberget.txt"
@@ -890,6 +959,7 @@
       "type": "mix",
       "firstAscent": "Daniel Nordström -89",
       "description": "Svärsäkrad på slutet.",
+      "sectorId": "sjovaggen",
       "source": {
         "id": "legacy:brattberget",
         "path": "mediawiki/Brattberget.txt"
@@ -905,6 +975,7 @@
       "type": "trad",
       "firstAscent": "?? -88",
       "description": "Följ diedern från början till slut.",
+      "sectorId": "sjovaggen",
       "source": {
         "id": "legacy:brattberget",
         "path": "mediawiki/Brattberget.txt"
@@ -920,6 +991,7 @@
       "type": "sport",
       "firstAscent": "Daniel Nordström -91",
       "description": "Samma insteg som Premiärdiedern.Nytt ankare & kompletteringsbultad 2009",
+      "sectorId": "sjovaggen",
       "source": {
         "id": "legacy:brattberget",
         "path": "mediawiki/Brattberget.txt"
@@ -935,6 +1007,7 @@
       "type": "sport",
       "firstAscent": "Ove Dalsegg -90",
       "description": "mantla upp & Stand i ankare, sopad 2012.",
+      "sectorId": "sjovaggen",
       "source": {
         "id": "legacy:brattberget",
         "path": "mediawiki/Brattberget.txt"
@@ -950,6 +1023,7 @@
       "type": "sport",
       "firstAscent": "Kenth Bergqvist -93",
       "description": "Svatur precis efter nedstigningen. Stand i enkel bult.",
+      "sectorId": "sjovaggen",
       "source": {
         "id": "legacy:brattberget",
         "path": "mediawiki/Brattberget.txt"
@@ -965,6 +1039,7 @@
       "type": "mix",
       "firstAscent": "Sven Heidorn -93",
       "description": "sport Dieder vid slutet av nedstigningen.",
+      "sectorId": "sjovaggen",
       "source": {
         "id": "legacy:brattberget",
         "path": "mediawiki/Brattberget.txt"
@@ -980,6 +1055,7 @@
       "type": "mix",
       "firstAscent": "Patrik Backlund -92",
       "description": "Kort led. Går över två block i nedstigningssprickan.",
+      "sectorId": "lilla-vaggen",
       "source": {
         "id": "legacy:brattberget",
         "path": "mediawiki/Brattberget.txt"
@@ -995,6 +1071,7 @@
       "type": "trad",
       "firstAscent": "Christian Söderberg -89",
       "description": "Startar på den stora stenen. Går runt hörnet och sedan rakt upp.",
+      "sectorId": "lilla-vaggen",
       "source": {
         "id": "legacy:brattberget",
         "path": "mediawiki/Brattberget.txt"
@@ -1010,6 +1087,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "Följer ett spricksystem med en travers åt vänster ca 3m meter upp. Välsäkrad.",
+      "sectorId": "lilla-vaggen",
       "source": {
         "id": "legacy:brattberget",
         "path": "mediawiki/Brattberget.txt"
@@ -1025,6 +1103,7 @@
       "type": "trad",
       "firstAscent": "Ove Dalsegg -89",
       "description": "Gemensam start med Nya chanser. Leden går rakt upp där Nya chanser traverserar vänster.",
+      "sectorId": "lilla-vaggen",
       "source": {
         "id": "legacy:brattberget",
         "path": "mediawiki/Brattberget.txt"
@@ -1040,6 +1119,7 @@
       "type": "trad",
       "firstAscent": "Ove Dalsegg -89",
       "description": "Startar till höger om Stela chanser. Gemensamt utsteg med Stela chanser.",
+      "sectorId": "lilla-vaggen",
       "source": {
         "id": "legacy:brattberget",
         "path": "mediawiki/Brattberget.txt"
@@ -1055,6 +1135,7 @@
       "type": "sport",
       "firstAscent": "Ove Dalsegg -90",
       "description": "ren sportled som gåtts igenom 2009, ankare i två bultar",
+      "sectorId": "lilla-vaggen",
       "source": {
         "id": "legacy:brattberget",
         "path": "mediawiki/Brattberget.txt"
@@ -1070,6 +1151,7 @@
       "type": "trad",
       "firstAscent": "Christian Söderberg -89",
       "description": "Lös.",
+      "sectorId": "radiovaggen",
       "source": {
         "id": "legacy:brattberget",
         "path": "mediawiki/Brattberget.txt"
@@ -1085,6 +1167,7 @@
       "type": "mix",
       "firstAscent": "Patriq Backlund -92",
       "description": "Friend vid utsteget.",
+      "sectorId": "radiovaggen",
       "source": {
         "id": "legacy:brattberget",
         "path": "mediawiki/Brattberget.txt"
@@ -1100,6 +1183,7 @@
       "type": "trad",
       "firstAscent": "Christian Söderberg -89",
       "description": "Lös.",
+      "sectorId": "radiovaggen",
       "source": {
         "id": "legacy:brattberget",
         "path": "mediawiki/Brattberget.txt"
@@ -1115,6 +1199,7 @@
       "type": "trad",
       "firstAscent": "Christian Söderberg -89",
       "description": "",
+      "sectorId": "radiovaggen",
       "source": {
         "id": "legacy:brattberget",
         "path": "mediawiki/Brattberget.txt"
@@ -1130,6 +1215,7 @@
       "type": "trad",
       "firstAscent": "Christian Söderberg -89",
       "description": "",
+      "sectorId": "radiovaggen",
       "source": {
         "id": "legacy:brattberget",
         "path": "mediawiki/Brattberget.txt"
@@ -1140,52 +1226,62 @@
     {
       "filename": "Brattberget.jpg",
       "caption": "Per Lindh",
-      "missing": false
+      "missing": false,
+      "sectorId": null
     },
     {
       "filename": "Onda_vibrationer_olof_bjerke.jpg",
       "caption": "Klättrare på Onda vibrationer, 6+. Brattberget. Foto: Christian Gulliksson.",
-      "missing": false
+      "missing": false,
+      "sectorId": "karaktar"
     },
     {
       "filename": "DSC_0001_as_Smart_Object-1_copy.jpg",
       "caption": "Foto av vindskyddet vid Brattberget. Foto:Olof Bjerke",
-      "missing": false
+      "missing": false,
+      "sectorId": "camping"
     },
     {
       "filename": "Brattberget_oversikt.png",
-      "caption": "center",
-      "missing": false
+      "caption": "",
+      "missing": false,
+      "sectorId": "leder"
     },
     {
       "filename": "Brattberget_storv.jpg",
       "caption": "Första 3-4 lederna på stora väggen. Leden mitt i bild är Halvrobban.",
-      "missing": false
+      "missing": false,
+      "sectorId": "stora-vaggen"
     },
     {
       "filename": "Brattberget_vikinga.jpg",
       "caption": "Vikingaväggen, med Radioväggen och Stora Väggen till vänster och Kortsidan med Onda Vibrationer väl synlig till höger.",
-      "missing": false
+      "missing": false,
+      "sectorId": "vikingavaggen"
     },
     {
       "filename": "Brattberget_kortv.jpg",
       "caption": "Kortsidan.",
-      "missing": false
+      "missing": false,
+      "sectorId": "kortsidan"
     },
     {
       "filename": "Brattberget_sjo.jpg",
       "caption": "Foto av Sjöväggen. Skrubben till vänster i bild, mitt i bild Listig och Stark.",
-      "missing": false
+      "missing": false,
+      "sectorId": "sjovaggen"
     },
     {
       "filename": "Skrubban.jpg",
       "caption": "Klättrare på Skrubben, 6. Brattberget. Foto: Johan Hedman.",
-      "missing": false
+      "missing": false,
+      "sectorId": "sjovaggen"
     },
     {
       "filename": "Brattberget_lillv.jpg",
       "caption": "Högra delen av Sjöväggen, nedstigningsrännan och Lilla väggen. Nya chanser väl synlig.",
-      "missing": false
+      "missing": false,
+      "sectorId": "lilla-vaggen"
     }
   ],
   "access": {

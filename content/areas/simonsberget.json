@@ -41,6 +41,16 @@
       "body": "Berget har begränsad access (naturreservat) och det råder anmälningsplikt för kurser. Tältplatsen ligger utanför reservatet. Tältning inom reservatet är bara tillåtet mellan grillplatsen och platsen för \"gamla\" (rivna) dasset. På den platsen finns numera bara en rishög kvar. Tälta inte på den, den finns där av en mycket god anledning. I slutet av april kunde man se ett 20-tal huggormar nedanför klippan. Det är INTE ok att köra fram till klippan! OBS Det är förbjudet att bulta nya turer! Gamla bultar får bytas. Reservatsbestämmelserna tillåter vidare endast klättring och underhåll på befintliga leder; nytursförbud alltså! Det är också förbjudet att elda på annan plats än grillplatsen nedanför berget. Det är alltså inte tillåtet att elda uppe på berget. Det är inte tillåtet att fira av ifrån ett träd, då detta sliter på de träden som finns kvar. Använd firningsankare istället."
     },
     {
+      "id": "leder",
+      "title": "Leder",
+      "body": ""
+    },
+    {
+      "id": "graviditetsomradet",
+      "title": "Graviditetsområdet",
+      "body": ""
+    },
+    {
       "id": "himlasangsomradet",
       "title": "Himlasängsområdet",
       "body": "Firningsankare finns ovanför Himlastegen, på Direttissimans första stand och dess topp."
@@ -61,6 +71,16 @@
       "body": "Firningsankare finns ovanför Mamman och horans utsteg, på första stand på Sörmlandsleden, och Hugos insteg/Sörmlandsledens utsteg. VARNING! Stora block har fallit från topphyllan i slutet på \"Mamman och horan\" och \"Sutenören\". Det mesta har nu blivit nedtaget men där blocken en gång låg finns öppna jordlager som kommer erodera och risken finns att det stora döda trädet faller ner. Försök att välta trädet har gjorts men misslyckats. Finns även risk att flera andra block bredvid trädet också faller ner inom snar framtid. STÖRSTA FÖRSIKTIGHET KRÄVS! SÄKRA ABSOLUT INTE FRÅN TRÄDET! /Robin Dahlberg 08-04-27"
     },
     {
+      "id": "restaurangkvarteren",
+      "title": "Restaurangkvarteren",
+      "body": ""
+    },
+    {
+      "id": "langs-tunabergstraversen",
+      "title": "Längs Tunabergstraversen",
+      "body": ""
+    },
+    {
       "id": "toppen",
       "title": "Toppen",
       "body": "Lederna upp till krönet av Simonsberget är populära. Inte minst för att de torkar snabbt. Det går bra att sätta topprep, men det är långt till träden så ta med något tiotal meter statiskt rep och åtminstone för Toppsprickan några kilar. Firningsankare finns ovanför Hugo och Josefin, vid insteget på Hugo och vid insteget till Evas spricka."
@@ -71,9 +91,39 @@
       "body": "Firningsankare finns på Kirsti Himmelsfärds första stand."
     },
     {
+      "id": "fissurplattan",
+      "title": "Fissurplattan",
+      "body": ""
+    },
+    {
+      "id": "dimhyllan",
+      "title": "Dimhyllan",
+      "body": ""
+    },
+    {
+      "id": "anglamarken",
+      "title": "Änglamarken",
+      "body": ""
+    },
+    {
       "id": "klinkers-kamin-och-svarfarsomradet",
       "title": "Klinkers kamin och Svärfarsområdet",
       "body": "Firningsankare finns ovanför Crack/Krisches hörn och vid Gorillans utsteg (ca 7m till vänster om svärfar). Ett 60m rep räcker hela vägen ner från Gorillan till insteget på Krisches hörn."
+    },
+    {
+      "id": "justus-filurer",
+      "title": "Justus filurer",
+      "body": ""
+    },
+    {
+      "id": "ovanfor-justus-filurer",
+      "title": "Ovanför Justus filurer",
+      "body": ""
+    },
+    {
+      "id": "bultlogg",
+      "title": "Bultlogg",
+      "body": ""
     },
     {
       "id": "2012",
@@ -117,6 +167,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "Oftast klättras bara delen från hyllan. Den börjar med ett lätt sva, går över i diederklättring och avslutas med en tydlig spricka.",
+      "sectorId": "graviditetsomradet",
       "source": {
         "id": "legacy:simonsberget",
         "path": "mediawiki/Simonsberget.txt"
@@ -132,6 +183,7 @@
       "type": "trad",
       "firstAscent": "Per Normark och Per Calleberg, 1986",
       "description": "Väggklättring till vänster om Ricks utsteg. Något tunt säkrad.",
+      "sectorId": "graviditetsomradet",
       "source": {
         "id": "legacy:simonsberget",
         "path": "mediawiki/Simonsberget.txt"
@@ -147,6 +199,7 @@
       "type": "trad",
       "firstAscent": "Rick McGregor och Eric Grund 1979",
       "description": "Fin ihållande sprickklättring.",
+      "sectorId": "graviditetsomradet",
       "source": {
         "id": "legacy:simonsberget",
         "path": "mediawiki/Simonsberget.txt"
@@ -162,6 +215,7 @@
       "type": "trad",
       "firstAscent": "Eva Selin och Anders Lundahl, ca 1989",
       "description": "Fin klättring på arêten till höger om Graviditetsleden. Säkras med tre borrbultar och lite eget. Bultarna bytta 2012.",
+      "sectorId": "graviditetsomradet",
       "source": {
         "id": "legacy:simonsberget",
         "path": "mediawiki/Simonsberget.txt"
@@ -177,6 +231,7 @@
       "type": "trad",
       "firstAscent": "Per Calleberg 1985, fritt Erik Massih 2012,",
       "description": "De tunna sprickorna på den vackra väggen till höger om Graviditetsleden. Säkras med fyra borrbultar (bytta 2012) och lite eget.",
+      "sectorId": "graviditetsomradet",
       "source": {
         "id": "legacy:simonsberget",
         "path": "mediawiki/Simonsberget.txt"
@@ -192,6 +247,7 @@
       "type": "trad",
       "firstAscent": "Hans Christian Doseth",
       "description": "En fin fingerspricka klyver den blanka vägen. Sagolik!",
+      "sectorId": "himlasangsomradet",
       "source": {
         "id": "legacy:simonsberget",
         "path": "mediawiki/Simonsberget.txt"
@@ -207,6 +263,7 @@
       "type": "sport",
       "firstAscent": "FA=?",
       "description": "Dieder med avslutande taktravers. Har nya bultar 2008.",
+      "sectorId": "himlasangsomradet",
       "source": {
         "id": "legacy:simonsberget",
         "path": "mediawiki/Simonsberget.txt"
@@ -222,6 +279,7 @@
       "type": "sport",
       "firstAscent": "Rikard Hedman/Johan Luhr",
       "description": "Starta från hyllan i \"Katedraldiedret\" och traversera höger för att nå arêten. Följ arêten genom fantastiska positioner och teknisk klättring. Ihållande och fin klättring säkrad med borrbult.",
+      "sectorId": "himlasangsomradet",
       "source": {
         "id": "legacy:simonsberget",
         "path": "mediawiki/Simonsberget.txt"
@@ -237,6 +295,7 @@
       "type": "trad",
       "firstAscent": "Eva Selin/Anders Lundahl",
       "description": "Brant inledning genom något suspekt klippa. Var lite försiktig med vad du lägger för säkring samt vart du lägger den. Följ sprickan upp till bågformationen på mitten, lägg i 5:ans växel och pressa dig igenom kluriga och engagerande sekvenser. Brant och ihållande klättring med bra kilar och friends. Backa upp eller strunta i pitongerna.",
+      "sectorId": "himlasangsomradet",
       "source": {
         "id": "legacy:simonsberget",
         "path": "mediawiki/Simonsberget.txt"
@@ -252,6 +311,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "Två replängder, men många nöjer sig med den första. Ta med minst en stor friend.",
+      "sectorId": "himlasangsomradet",
       "source": {
         "id": "legacy:simonsberget",
         "path": "mediawiki/Simonsberget.txt"
@@ -267,6 +327,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "Travers.",
+      "sectorId": "himlasangsomradet",
       "source": {
         "id": "legacy:simonsberget",
         "path": "mediawiki/Simonsberget.txt"
@@ -282,6 +343,7 @@
       "type": "trad",
       "firstAscent": "Hans Christian Doseth",
       "description": "Någon pitong.",
+      "sectorId": "himlasangsomradet",
       "source": {
         "id": "legacy:simonsberget",
         "path": "mediawiki/Simonsberget.txt"
@@ -297,6 +359,7 @@
       "type": "trad",
       "firstAscent": "Hans Christian Doseth",
       "description": "",
+      "sectorId": "himlasangsomradet",
       "source": {
         "id": "legacy:simonsberget",
         "path": "mediawiki/Simonsberget.txt"
@@ -312,6 +375,7 @@
       "type": "trad",
       "firstAscent": "Ali Kraufvelin",
       "description": "Start vid högra pelaren, uppför slabben mot vänster, för att sedan avsluta med ett magkittlande bouldermove över taket.",
+      "sectorId": "himlasangsomradet",
       "source": {
         "id": "legacy:simonsberget",
         "path": "mediawiki/Simonsberget.txt"
@@ -327,6 +391,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "Festlig lång traversled som har ett intensivt krux i början. Vidare klättring i 5-registret. Mynnar ut i Direttisimans övre delar. Man kan vika av upp till Trapps insteg via en kort fingerspricka.",
+      "sectorId": "himlasangsomradet",
       "source": {
         "id": "legacy:simonsberget",
         "path": "mediawiki/Simonsberget.txt"
@@ -342,6 +407,7 @@
       "type": "trad",
       "firstAscent": "Anders Lundahl",
       "description": "Tungt laybackhörn leder upp till insteget på Trapp.",
+      "sectorId": "himlasangsomradet",
       "source": {
         "id": "legacy:simonsberget",
         "path": "mediawiki/Simonsberget.txt"
@@ -357,6 +423,7 @@
       "type": "trad",
       "firstAscent": "Birger Hedlund",
       "description": "Fantastiskt fin och varierad klättring på få metrar.",
+      "sectorId": "himlasangsomradet",
       "source": {
         "id": "legacy:simonsberget",
         "path": "mediawiki/Simonsberget.txt"
@@ -372,6 +439,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "Den litterära fortsättningen på Trapp. Svahörn som drar upp åt vänster.",
+      "sectorId": "himlasangsomradet",
       "source": {
         "id": "legacy:simonsberget",
         "path": "mediawiki/Simonsberget.txt"
@@ -387,6 +455,7 @@
       "type": "",
       "firstAscent": "Rikard Hedman",
       "description": "Den logiska fortsättningen på Trapp. Rakt upp och sedan åt höger.",
+      "sectorId": "himlasangsomradet",
       "source": {
         "id": "legacy:simonsberget",
         "path": "mediawiki/Simonsberget.txt"
@@ -402,6 +471,7 @@
       "type": "sport",
       "firstAscent": "Rikard Hedman",
       "description": "Startar några meter till höger om Trapp.",
+      "sectorId": "himlasangsomradet",
       "source": {
         "id": "legacy:simonsberget",
         "path": "mediawiki/Simonsberget.txt"
@@ -417,6 +487,7 @@
       "type": "mix",
       "firstAscent": "Buster Delin, Kent Andersson-08",
       "description": "Starta som Pelaren, men vik av ut åt vänster till det tydliga diedret till vänster om Tromboner i vildmarken. Teknisk stämklättring upp i diedern (krux). Ovanför diedern fortsätter leden upp för ett sva och därefter vidare över två väggpartier upp till toppen. Välsäkrad med sju fasta säkringar och några mellanstora kamkilar och kilar. Leden kan med fördel göras som en svettig 45 m replängd från insteget till toppen.",
+      "sectorId": "pelaromradet",
       "source": {
         "id": "legacy:simonsberget",
         "path": "mediawiki/Simonsberget.txt"
@@ -432,6 +503,7 @@
       "type": "trad",
       "firstAscent": "Rikard Hedman",
       "description": "",
+      "sectorId": "pelaromradet",
       "source": {
         "id": "legacy:simonsberget",
         "path": "mediawiki/Simonsberget.txt"
@@ -447,6 +519,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "Tre replängder. Sista replängden startar på Pelarustegshyllan.",
+      "sectorId": "pelaromradet",
       "source": {
         "id": "legacy:simonsberget",
         "path": "mediawiki/Simonsberget.txt"
@@ -462,6 +535,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "Ett fint alternativ till Pelarens andra replängd. Följ diedern från standplatshyllan istället för att hasa upp på själva pelaren.",
+      "sectorId": "pelaromradet",
       "source": {
         "id": "legacy:simonsberget",
         "path": "mediawiki/Simonsberget.txt"
@@ -477,6 +551,7 @@
       "type": "trad",
       "firstAscent": "Rikard Hedman/ Birger Hedman",
       "description": "Dubbelrep rekommenderas. Fall inte ned på de spetsiga blocken nedanför.",
+      "sectorId": "pelaromradet",
       "source": {
         "id": "legacy:simonsberget",
         "path": "mediawiki/Simonsberget.txt"
@@ -492,6 +567,7 @@
       "type": "trad",
       "firstAscent": "Martin Jacobsson, 2009",
       "description": "Den fria versionen av Stöttepelaren (A2), (FA Per Calleberg 1997). Den knivstunna sprickan ett par meter t h om Pelarens utstegsspricka.",
+      "sectorId": "pelarutstegshyllan",
       "source": {
         "id": "legacy:simonsberget",
         "path": "mediawiki/Simonsberget.txt"
@@ -507,6 +583,7 @@
       "type": "trad",
       "firstAscent": "Hans Christian Doseth, 1981",
       "description": "",
+      "sectorId": "pelarutstegshyllan",
       "source": {
         "id": "legacy:simonsberget",
         "path": "mediawiki/Simonsberget.txt"
@@ -522,6 +599,7 @@
       "type": "sport",
       "firstAscent": "Johan Luhr",
       "description": "Numera (maj 2008) sju glada limbultar.",
+      "sectorId": "pelarutstegshyllan",
       "source": {
         "id": "legacy:simonsberget",
         "path": "mediawiki/Simonsberget.txt"
@@ -537,6 +615,7 @@
       "type": "trad",
       "firstAscent": "Rick McGregor/Eric Grund, sept. 1979",
       "description": "",
+      "sectorId": "pelarutstegshyllan",
       "source": {
         "id": "legacy:simonsberget",
         "path": "mediawiki/Simonsberget.txt"
@@ -552,6 +631,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "Dieder som leder upp till Pelarutstegshyllan.",
+      "sectorId": "mamman-och-horan-omradet",
       "source": {
         "id": "legacy:simonsberget",
         "path": "mediawiki/Simonsberget.txt"
@@ -567,6 +647,7 @@
       "type": "trad",
       "firstAscent": "Niklas Bjornerstedt/Lars Widell",
       "description": "Har en bult, retrobultad 2006.",
+      "sectorId": "mamman-och-horan-omradet",
       "source": {
         "id": "legacy:simonsberget",
         "path": "mediawiki/Simonsberget.txt"
@@ -582,6 +663,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "Startar som Sutenören men drar vidare åt höger för att mynna ut i Sörmlandsleden. Fortsätter man Sörmlandsleden finns passage av grad 5+ högre upp.",
+      "sectorId": "mamman-och-horan-omradet",
       "source": {
         "id": "legacy:simonsberget",
         "path": "mediawiki/Simonsberget.txt"
@@ -597,6 +679,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "Startar vid en orange pil. Går hela vägen från botten av klippan till toppen.",
+      "sectorId": "mamman-och-horan-omradet",
       "source": {
         "id": "legacy:simonsberget",
         "path": "mediawiki/Simonsberget.txt"
@@ -612,6 +695,7 @@
       "type": "trad",
       "firstAscent": "Justus Stern",
       "description": "Namn efter en grekisk krog på Södermalm i Stockholm.",
+      "sectorId": "restaurangkvarteren",
       "source": {
         "id": "legacy:simonsberget",
         "path": "mediawiki/Simonsberget.txt"
@@ -627,6 +711,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "Ett möjligt utsteg till Kamarina. Bredspårig spricka.",
+      "sectorId": "restaurangkvarteren",
       "source": {
         "id": "legacy:simonsberget",
         "path": "mediawiki/Simonsberget.txt"
@@ -642,6 +727,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "Ett andra möjligt utsteg till Kamarina.",
+      "sectorId": "restaurangkvarteren",
       "source": {
         "id": "legacy:simonsberget",
         "path": "mediawiki/Simonsberget.txt"
@@ -657,6 +743,7 @@
       "type": "trad",
       "firstAscent": "Bertil Dahlin",
       "description": "Svaspricka som sneddar upp ifrån vänster till kruxet på Yosemitetaket. Igengrodd i maj 2008.",
+      "sectorId": "langs-tunabergstraversen",
       "source": {
         "id": "legacy:simonsberget",
         "path": "mediawiki/Simonsberget.txt"
@@ -672,6 +759,7 @@
       "type": "mix",
       "firstAscent": "Rick McGregor, 25 september 1982",
       "description": "En expanderbult på insteget och en limbult i taket sedan maj 2008. Gammal pitong kvar ovanför taket.",
+      "sectorId": "langs-tunabergstraversen",
       "source": {
         "id": "legacy:simonsberget",
         "path": "mediawiki/Simonsberget.txt"
@@ -687,6 +775,7 @@
       "type": "trad",
       "firstAscent": "Rick McGregor, Ursila Hufva, 25 september 1982",
       "description": "En tunn spricka klyver den blanka svaplattan. Intensiv!",
+      "sectorId": "langs-tunabergstraversen",
       "source": {
         "id": "legacy:simonsberget",
         "path": "mediawiki/Simonsberget.txt"
@@ -702,6 +791,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "Startar i en dubbelspricka några meter till höger om Riksgränsen. Kan vara elak mot fingrarna.",
+      "sectorId": "langs-tunabergstraversen",
       "source": {
         "id": "legacy:simonsberget",
         "path": "mediawiki/Simonsberget.txt"
@@ -717,6 +807,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "Den tydliga taksprickan. Startar i svahörnet för att sedan traversera vänster under taket. Dubbelrep rekommenderas.",
+      "sectorId": "langs-tunabergstraversen",
       "source": {
         "id": "legacy:simonsberget",
         "path": "mediawiki/Simonsberget.txt"
@@ -732,6 +823,7 @@
       "type": "trad",
       "firstAscent": "Peter Brolin/Per Calleberg, 1986",
       "description": "Kort spricka längst till vänster.",
+      "sectorId": "toppen",
       "source": {
         "id": "legacy:simonsberget",
         "path": "mediawiki/Simonsberget.txt"
@@ -747,6 +839,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "Fingerspricka med hård vertikal start. Snällare lutning efter kruxet.",
+      "sectorId": "toppen",
       "source": {
         "id": "legacy:simonsberget",
         "path": "mediawiki/Simonsberget.txt"
@@ -762,6 +855,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "Finger- och handspricka i ett dieder.",
+      "sectorId": "toppen",
       "source": {
         "id": "legacy:simonsberget",
         "path": "mediawiki/Simonsberget.txt"
@@ -777,6 +871,7 @@
       "type": "trad",
       "firstAscent": "Lars Widell, 1982",
       "description": "Rakt upp och sedan travers åt höger. Varierad. Korsar Vad pojkar vill ha.",
+      "sectorId": "toppen",
       "source": {
         "id": "legacy:simonsberget",
         "path": "mediawiki/Simonsberget.txt"
@@ -792,6 +887,7 @@
       "type": "sport",
       "firstAscent": "Peter Brolin/Per Calleberg, 1987",
       "description": "Något för svafantasterna.",
+      "sectorId": "toppen",
       "source": {
         "id": "legacy:simonsberget",
         "path": "mediawiki/Simonsberget.txt"
@@ -807,6 +903,7 @@
       "type": "trad",
       "firstAscent": "Hilding Gnöters, Nov 2010",
       "description": "Kombo. Börja i \"Vad pojkar...\" och avsluta i \"Evas spricka\"",
+      "sectorId": "toppen",
       "source": {
         "id": "legacy:simonsberget",
         "path": "mediawiki/Simonsberget.txt"
@@ -822,6 +919,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "Härlig välsäkrad handjamsspricka som är ett måste vid Tunabergsbesök.",
+      "sectorId": "toppen",
       "source": {
         "id": "legacy:simonsberget",
         "path": "mediawiki/Simonsberget.txt"
@@ -837,6 +935,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "",
+      "sectorId": "toppen",
       "source": {
         "id": "legacy:simonsberget",
         "path": "mediawiki/Simonsberget.txt"
@@ -852,6 +951,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "Startar som Fräcka händer men drar åt höger.",
+      "sectorId": "toppen",
       "source": {
         "id": "legacy:simonsberget",
         "path": "mediawiki/Simonsberget.txt"
@@ -867,6 +967,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "En ganska bökig historia.",
+      "sectorId": "toppen",
       "source": {
         "id": "legacy:simonsberget",
         "path": "mediawiki/Simonsberget.txt"
@@ -882,6 +983,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "Enda felet med denna led är att den tar slut för fort...",
+      "sectorId": "toppen",
       "source": {
         "id": "legacy:simonsberget",
         "path": "mediawiki/Simonsberget.txt"
@@ -897,6 +999,7 @@
       "type": "trad",
       "firstAscent": "Lars Grankvist",
       "description": "",
+      "sectorId": "under-toppen",
       "source": {
         "id": "legacy:simonsberget",
         "path": "mediawiki/Simonsberget.txt"
@@ -912,6 +1015,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "Brant hörn ovanför Barres de Tunaberg. Fortsätter vidare uppåt till Toppsprickan.",
+      "sectorId": "under-toppen",
       "source": {
         "id": "legacy:simonsberget",
         "path": "mediawiki/Simonsberget.txt"
@@ -927,6 +1031,7 @@
       "type": "trad",
       "firstAscent": "Kirsti Norhaug",
       "description": "",
+      "sectorId": "under-toppen",
       "source": {
         "id": "legacy:simonsberget",
         "path": "mediawiki/Simonsberget.txt"
@@ -942,6 +1047,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "Svårgraderad start direkt efter Kirsti himmelsfärd. Fortsätter vidare uppåt till Evas spricka.",
+      "sectorId": "under-toppen",
       "source": {
         "id": "legacy:simonsberget",
         "path": "mediawiki/Simonsberget.txt"
@@ -957,6 +1063,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "",
+      "sectorId": "fissurplattan",
       "source": {
         "id": "legacy:simonsberget",
         "path": "mediawiki/Simonsberget.txt"
@@ -972,6 +1079,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "",
+      "sectorId": "fissurplattan",
       "source": {
         "id": "legacy:simonsberget",
         "path": "mediawiki/Simonsberget.txt"
@@ -987,6 +1095,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "",
+      "sectorId": "dimhyllan",
       "source": {
         "id": "legacy:simonsberget",
         "path": "mediawiki/Simonsberget.txt"
@@ -1002,6 +1111,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "",
+      "sectorId": "dimhyllan",
       "source": {
         "id": "legacy:simonsberget",
         "path": "mediawiki/Simonsberget.txt"
@@ -1017,6 +1127,7 @@
       "type": "trad",
       "firstAscent": "Olle Klinker",
       "description": "Startar långt till vänster på den gräsbevuxna långa och rymliga hylla som löper från Klinkers Kamin till Svärfar ungefär. Insteget ligger som sagt till längst till vänster, t v om den mer uppenbara Bertils Layback. Den består av lite sprickor och mantlingar och leder upp till det flacka sva som utgör stand innan den andra och brantare replängden. Andra replängden går i den mycket tydliga kaminen, och är svårare än första repan, men inte mer än graden. Kaminen är rymlig och kräver kaminklättring endast om det står högt på önskelistan. Båda replängderna är tämligen välsäkrade. Första replängden kanske något oborstad, då den oftast ersätts av Bertils Layback.",
+      "sectorId": "klinkers-kamin-och-svarfarsomradet",
       "source": {
         "id": "legacy:simonsberget",
         "path": "mediawiki/Simonsberget.txt"
@@ -1032,6 +1143,7 @@
       "type": "trad",
       "firstAscent": "Bertil Holmqvist",
       "description": "Startar t h om Klinkers Kamin, t v om \"Den gamla Ringbulten\". Uppenbar laybackspricka, som övergår i grövre spricksystem med lite etappvis klättring. Välsäkrad och finare insteg till Klinkers Kamin.",
+      "sectorId": "klinkers-kamin-och-svarfarsomradet",
       "source": {
         "id": "legacy:simonsberget",
         "path": "mediawiki/Simonsberget.txt"
@@ -1047,6 +1159,7 @@
       "type": "trad",
       "firstAscent": "Erik Massih, Martin Jakobsson",
       "description": "Startar mellan Stenknäcken och Krisches hörn och leder via svan och säkringsvänliga tvärsprickor upp till en spricka där det går att säkra. Lite krystad men ändå inte samt något sparsamt säkrad.",
+      "sectorId": "klinkers-kamin-och-svarfarsomradet",
       "source": {
         "id": "legacy:simonsberget",
         "path": "mediawiki/Simonsberget.txt"
@@ -1062,6 +1175,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "Startar till vänster om Crack och leder upp till hyllan ovanför.",
+      "sectorId": "klinkers-kamin-och-svarfarsomradet",
       "source": {
         "id": "legacy:simonsberget",
         "path": "mediawiki/Simonsberget.txt"
@@ -1077,6 +1191,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "En mycket sned och svår fingerspricka klyver en i övrigt blank vägg.",
+      "sectorId": "klinkers-kamin-och-svarfarsomradet",
       "source": {
         "id": "legacy:simonsberget",
         "path": "mediawiki/Simonsberget.txt"
@@ -1092,6 +1207,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "En fin fingerspricka till höger runt hörnet på Crack.",
+      "sectorId": "klinkers-kamin-och-svarfarsomradet",
       "source": {
         "id": "legacy:simonsberget",
         "path": "mediawiki/Simonsberget.txt"
@@ -1107,6 +1223,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "Spricka i den tydliga vänstra diedern ovanför Krisches hörn. Ganska skitig (-09)",
+      "sectorId": "klinkers-kamin-och-svarfarsomradet",
       "source": {
         "id": "legacy:simonsberget",
         "path": "mediawiki/Simonsberget.txt"
@@ -1122,6 +1239,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "Hyfsad jamspricka. Något skitig (-09) och en hel del löst.",
+      "sectorId": "klinkers-kamin-och-svarfarsomradet",
       "source": {
         "id": "legacy:simonsberget",
         "path": "mediawiki/Simonsberget.txt"
@@ -1137,6 +1255,7 @@
       "type": "trad",
       "firstAscent": "Bertil Holmqvist",
       "description": "",
+      "sectorId": "klinkers-kamin-och-svarfarsomradet",
       "source": {
         "id": "legacy:simonsberget",
         "path": "mediawiki/Simonsberget.txt"
@@ -1147,7 +1266,8 @@
     {
       "filename": "SimonsbergetVy.jpg",
       "caption": "Niclas Emdelius",
-      "missing": false
+      "missing": false,
+      "sectorId": null
     }
   ],
   "access": {

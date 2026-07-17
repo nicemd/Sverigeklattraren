@@ -58,6 +58,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "Transportsträcka till toppen, något mossig",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:slatta-damm",
         "path": "mediawiki/Slätta Damm.txt"
@@ -73,6 +74,7 @@
       "type": "",
       "firstAscent": "Kristian Thisted 1992",
       "description": "Ihållande och välsäkrad sprickklättring",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:slatta-damm",
         "path": "mediawiki/Slätta Damm.txt"
@@ -88,6 +90,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:slatta-damm",
         "path": "mediawiki/Slätta Damm.txt"
@@ -103,6 +106,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:slatta-damm",
         "path": "mediawiki/Slätta Damm.txt"
@@ -118,6 +122,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "Första replängd som Professorn, sedan annorlunda",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:slatta-damm",
         "path": "mediawiki/Slätta Damm.txt"
@@ -133,6 +138,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "Möjligen bökigare än den ser ut",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:slatta-damm",
         "path": "mediawiki/Slätta Damm.txt"
@@ -148,6 +154,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "Vänsterlutande handjamspricka. Fin.",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:slatta-damm",
         "path": "mediawiki/Slätta Damm.txt"
@@ -163,6 +170,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "Lätt till brant till sva.",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:slatta-damm",
         "path": "mediawiki/Slätta Damm.txt"
@@ -172,8 +180,9 @@
   "images": [
     {
       "filename": "Slattadamm_storavaggen.jpg",
-      "caption": "600px",
-      "missing": false
+      "caption": "",
+      "missing": false,
+      "sectorId": "leder"
     }
   ],
   "access": {

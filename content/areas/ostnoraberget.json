@@ -43,9 +43,19 @@
       "body": "Delar av klippan (Tvåbultsväggen och Examensväggen) ligger på privat tomtmark där det inte är ok att klättra."
     },
     {
+      "id": "leder",
+      "title": "Leder",
+      "body": ""
+    },
+    {
       "id": "franska-vaggen",
       "title": "Franska väggen",
       "body": "Bullig och vattenpolerad. Den första väggen man möter."
+    },
+    {
+      "id": "forsta-taket",
+      "title": "Första taket",
+      "body": ""
     },
     {
       "id": "tangavaggen",
@@ -56,6 +66,31 @@
       "id": "toppsvaet",
       "title": "Toppsvaet",
       "body": "Det går två svaturer upp till toppen av hela bergsmassivet, grad 3. Från lägerplatsen, klättra svaplattan förbi insteget till leden Överhänget och gå vidare till insteget. En gammal bb finns på toppen."
+    },
+    {
+      "id": "storsta-taket",
+      "title": "Största taket",
+      "body": ""
+    },
+    {
+      "id": "pelarvaggen",
+      "title": "Pelarväggen",
+      "body": ""
+    },
+    {
+      "id": "solklippan",
+      "title": "Solklippan",
+      "body": ""
+    },
+    {
+      "id": "marylinvaggen",
+      "title": "Marylinväggen",
+      "body": ""
+    },
+    {
+      "id": "geckovaggen",
+      "title": "Geckoväggen",
+      "body": ""
     },
     {
       "id": "privat-tomtmark",
@@ -84,6 +119,7 @@
       "type": "sport",
       "firstAscent": "",
       "description": "Längst till vänster. Oftast blöt",
+      "sectorId": "franska-vaggen",
       "source": {
         "id": "legacy:ostnoraberget",
         "path": "mediawiki/Östnoraberget.txt"
@@ -99,6 +135,7 @@
       "type": "sport",
       "firstAscent": "",
       "description": "Starka fingrar och dåliga fotsteg. Slutar mitt på väggen",
+      "sectorId": "franska-vaggen",
       "source": {
         "id": "legacy:ostnoraberget",
         "path": "mediawiki/Östnoraberget.txt"
@@ -114,6 +151,7 @@
       "type": "sport",
       "firstAscent": "",
       "description": "L'arch du triumphe sedan till ankaret på Le Corail",
+      "sectorId": "franska-vaggen",
       "source": {
         "id": "legacy:ostnoraberget",
         "path": "mediawiki/Östnoraberget.txt"
@@ -129,6 +167,7 @@
       "type": "sport",
       "firstAscent": "",
       "description": "Tydliga linjen mitt på den blanka väggen",
+      "sectorId": "franska-vaggen",
       "source": {
         "id": "legacy:ostnoraberget",
         "path": "mediawiki/Östnoraberget.txt"
@@ -144,6 +183,7 @@
       "type": "sport",
       "firstAscent": "Mats Olofsson, Claes Thornberg -94",
       "description": "",
+      "sectorId": "franska-vaggen",
       "source": {
         "id": "legacy:ostnoraberget",
         "path": "mediawiki/Östnoraberget.txt"
@@ -159,6 +199,7 @@
       "type": "sport",
       "firstAscent": "Mats Olofsson -95",
       "description": "",
+      "sectorId": "franska-vaggen",
       "source": {
         "id": "legacy:ostnoraberget",
         "path": "mediawiki/Östnoraberget.txt"
@@ -174,6 +215,7 @@
       "type": "sport",
       "firstAscent": "Mats Olofsson, Claes Thornberg -95",
       "description": "",
+      "sectorId": "franska-vaggen",
       "source": {
         "id": "legacy:ostnoraberget",
         "path": "mediawiki/Östnoraberget.txt"
@@ -189,6 +231,7 @@
       "type": "",
       "firstAscent": "Reino Limatainen, Johan Luhr -08",
       "description": "Start i Vertikal Veke sedan höger och upp",
+      "sectorId": "franska-vaggen",
       "source": {
         "id": "legacy:ostnoraberget",
         "path": "mediawiki/Östnoraberget.txt"
@@ -204,6 +247,7 @@
       "type": "",
       "firstAscent": "okänd -95",
       "description": "",
+      "sectorId": "forsta-taket",
       "source": {
         "id": "legacy:ostnoraberget",
         "path": "mediawiki/Östnoraberget.txt"
@@ -219,6 +263,7 @@
       "type": "",
       "firstAscent": "Mats Olofsson, Claes Thornberg, Mia Lindström -95",
       "description": "",
+      "sectorId": "forsta-taket",
       "source": {
         "id": "legacy:ostnoraberget",
         "path": "mediawiki/Östnoraberget.txt"
@@ -234,6 +279,7 @@
       "type": "",
       "firstAscent": "Mikael Thorsell -84, FF: Johan Nylander -85",
       "description": "",
+      "sectorId": "forsta-taket",
       "source": {
         "id": "legacy:ostnoraberget",
         "path": "mediawiki/Östnoraberget.txt"
@@ -249,6 +295,7 @@
       "type": "",
       "firstAscent": "okänd [[-83]]",
       "description": "",
+      "sectorId": "forsta-taket",
       "source": {
         "id": "legacy:ostnoraberget",
         "path": "mediawiki/Östnoraberget.txt"
@@ -264,6 +311,7 @@
       "type": "",
       "firstAscent": "Mikael Thorsell -85",
       "description": "",
+      "sectorId": "forsta-taket",
       "source": {
         "id": "legacy:ostnoraberget",
         "path": "mediawiki/Östnoraberget.txt"
@@ -279,6 +327,7 @@
       "type": "",
       "firstAscent": "Mikael Thorsell -8?",
       "description": "",
+      "sectorId": "forsta-taket",
       "source": {
         "id": "legacy:ostnoraberget",
         "path": "mediawiki/Östnoraberget.txt"
@@ -294,6 +343,7 @@
       "type": "sport",
       "firstAscent": "Johan Luhr -08",
       "description": "",
+      "sectorId": "tangavaggen",
       "source": {
         "id": "legacy:ostnoraberget",
         "path": "mediawiki/Östnoraberget.txt"
@@ -309,6 +359,7 @@
       "type": "sport",
       "firstAscent": "Johan Luhr -08",
       "description": "",
+      "sectorId": "tangavaggen",
       "source": {
         "id": "legacy:ostnoraberget",
         "path": "mediawiki/Östnoraberget.txt"
@@ -324,6 +375,7 @@
       "type": "sport",
       "firstAscent": "Johan Luhr -08",
       "description": "",
+      "sectorId": "tangavaggen",
       "source": {
         "id": "legacy:ostnoraberget",
         "path": "mediawiki/Östnoraberget.txt"
@@ -339,6 +391,7 @@
       "type": "",
       "firstAscent": "Johan Luhr -08",
       "description": "",
+      "sectorId": "tangavaggen",
       "source": {
         "id": "legacy:ostnoraberget",
         "path": "mediawiki/Östnoraberget.txt"
@@ -354,6 +407,7 @@
       "type": "trad",
       "firstAscent": "Anders Olsson, Nicklas Iderfors-87",
       "description": "",
+      "sectorId": "storsta-taket",
       "source": {
         "id": "legacy:ostnoraberget",
         "path": "mediawiki/Östnoraberget.txt"
@@ -369,6 +423,7 @@
       "type": "trad",
       "firstAscent": "Peter Trygg, Anders Olsson-88",
       "description": "",
+      "sectorId": "storsta-taket",
       "source": {
         "id": "legacy:ostnoraberget",
         "path": "mediawiki/Östnoraberget.txt"
@@ -384,6 +439,7 @@
       "type": "trad",
       "firstAscent": "Anders Olsson, Åke Andersson-84",
       "description": "Klättras i två repor.",
+      "sectorId": "storsta-taket",
       "source": {
         "id": "legacy:ostnoraberget",
         "path": "mediawiki/Östnoraberget.txt"
@@ -399,6 +455,7 @@
       "type": "sport",
       "firstAscent": "Anders Olsson, Torbjörn Olsson-85",
       "description": "",
+      "sectorId": "storsta-taket",
       "source": {
         "id": "legacy:ostnoraberget",
         "path": "mediawiki/Östnoraberget.txt"
@@ -414,6 +471,7 @@
       "type": "",
       "firstAscent": "Per-Elof Lidström-84/-85",
       "description": "",
+      "sectorId": "storsta-taket",
       "source": {
         "id": "legacy:ostnoraberget",
         "path": "mediawiki/Östnoraberget.txt"
@@ -429,6 +487,7 @@
       "type": "",
       "firstAscent": "Mats Olofsson, Claes Thornberg -95",
       "description": "",
+      "sectorId": "pelarvaggen",
       "source": {
         "id": "legacy:ostnoraberget",
         "path": "mediawiki/Östnoraberget.txt"
@@ -444,6 +503,7 @@
       "type": "",
       "firstAscent": "Mats Olofsson, Claes Thornberg -95",
       "description": "",
+      "sectorId": "pelarvaggen",
       "source": {
         "id": "legacy:ostnoraberget",
         "path": "mediawiki/Östnoraberget.txt"
@@ -459,6 +519,7 @@
       "type": "sport",
       "firstAscent": "Per-Elof Lidström -8?, FF: Pål& Johan Nylander -91",
       "description": "Fin rolig led. Vänster insteg, går ihop på slutet. Delvis ombultad 2013.",
+      "sectorId": "pelarvaggen",
       "source": {
         "id": "legacy:ostnoraberget",
         "path": "mediawiki/Östnoraberget.txt"
@@ -474,6 +535,7 @@
       "type": "sport",
       "firstAscent": "Per-Elof Lidström -8?, FF: Pål& Johan Nylander -91",
       "description": "Fin rolig led. Höger insteg, går ihop på slutet. Delvis ombultad 2013",
+      "sectorId": "pelarvaggen",
       "source": {
         "id": "legacy:ostnoraberget",
         "path": "mediawiki/Östnoraberget.txt"
@@ -489,6 +551,7 @@
       "type": "sport",
       "firstAscent": "Johan Luhr -92",
       "description": "Häftig led som går mitt på väggen genom taket och hela vägen upp till toppen.",
+      "sectorId": "pelarvaggen",
       "source": {
         "id": "legacy:ostnoraberget",
         "path": "mediawiki/Östnoraberget.txt"
@@ -504,6 +567,7 @@
       "type": "sport",
       "firstAscent": "Johan Luhr -92",
       "description": "Klättra Kill the bills första hälft, till ankaret under taket. Intensiv klättring!",
+      "sectorId": "pelarvaggen",
       "source": {
         "id": "legacy:ostnoraberget",
         "path": "mediawiki/Östnoraberget.txt"
@@ -519,6 +583,7 @@
       "type": "",
       "firstAscent": "Anders Olsson, Åke Andersson -84",
       "description": "",
+      "sectorId": "pelarvaggen",
       "source": {
         "id": "legacy:ostnoraberget",
         "path": "mediawiki/Östnoraberget.txt"
@@ -534,6 +599,7 @@
       "type": "",
       "firstAscent": "Anders&Torbjörn Olsson -84",
       "description": "",
+      "sectorId": "pelarvaggen",
       "source": {
         "id": "legacy:ostnoraberget",
         "path": "mediawiki/Östnoraberget.txt"
@@ -549,6 +615,7 @@
       "type": "",
       "firstAscent": "Anders& Torbjörn Olsson -85",
       "description": "",
+      "sectorId": "pelarvaggen",
       "source": {
         "id": "legacy:ostnoraberget",
         "path": "mediawiki/Östnoraberget.txt"
@@ -564,6 +631,7 @@
       "type": "",
       "firstAscent": "Johan Nylander -89",
       "description": "Har suspekta bultar. Är ledd helt med kilar & kammar.",
+      "sectorId": "pelarvaggen",
       "source": {
         "id": "legacy:ostnoraberget",
         "path": "mediawiki/Östnoraberget.txt"
@@ -579,6 +647,7 @@
       "type": "",
       "firstAscent": "Per-Elof Lidström -8?",
       "description": "",
+      "sectorId": "pelarvaggen",
       "source": {
         "id": "legacy:ostnoraberget",
         "path": "mediawiki/Östnoraberget.txt"
@@ -594,6 +663,7 @@
       "type": "",
       "firstAscent": "Anders& Torbjörn Olsson -87",
       "description": "",
+      "sectorId": "pelarvaggen",
       "source": {
         "id": "legacy:ostnoraberget",
         "path": "mediawiki/Östnoraberget.txt"
@@ -609,6 +679,7 @@
       "type": "",
       "firstAscent": "Anders Olsson, Peter Trygg -84",
       "description": "",
+      "sectorId": "pelarvaggen",
       "source": {
         "id": "legacy:ostnoraberget",
         "path": "mediawiki/Östnoraberget.txt"
@@ -624,6 +695,7 @@
       "type": "",
       "firstAscent": "Peter Trygg, Anders Olsson -88",
       "description": "",
+      "sectorId": "pelarvaggen",
       "source": {
         "id": "legacy:ostnoraberget",
         "path": "mediawiki/Östnoraberget.txt"
@@ -639,6 +711,7 @@
       "type": "",
       "firstAscent": "Anders Olsson, Henrik Falk -87",
       "description": "",
+      "sectorId": "pelarvaggen",
       "source": {
         "id": "legacy:ostnoraberget",
         "path": "mediawiki/Östnoraberget.txt"
@@ -654,6 +727,7 @@
       "type": "",
       "firstAscent": "Henrik Falk -88",
       "description": "",
+      "sectorId": "pelarvaggen",
       "source": {
         "id": "legacy:ostnoraberget",
         "path": "mediawiki/Östnoraberget.txt"
@@ -669,6 +743,7 @@
       "type": "",
       "firstAscent": "Anders Olsson, Nicklas Iderfors -88",
       "description": "",
+      "sectorId": "pelarvaggen",
       "source": {
         "id": "legacy:ostnoraberget",
         "path": "mediawiki/Östnoraberget.txt"
@@ -684,6 +759,7 @@
       "type": "",
       "firstAscent": "Anders Olsson, Henrik Falk, Peter Trygg -88",
       "description": "",
+      "sectorId": "pelarvaggen",
       "source": {
         "id": "legacy:ostnoraberget",
         "path": "mediawiki/Östnoraberget.txt"
@@ -699,6 +775,7 @@
       "type": "",
       "firstAscent": "Johan& Pål Nylander -89",
       "description": "",
+      "sectorId": "solklippan",
       "source": {
         "id": "legacy:ostnoraberget",
         "path": "mediawiki/Östnoraberget.txt"
@@ -714,6 +791,7 @@
       "type": "mix",
       "firstAscent": "Anders Olsson -86",
       "description": "Välj insteg, följ sen hyllsystemet till tallen.",
+      "sectorId": "solklippan",
       "source": {
         "id": "legacy:ostnoraberget",
         "path": "mediawiki/Östnoraberget.txt"
@@ -729,6 +807,7 @@
       "type": "",
       "firstAscent": "Mikael Thorsell -85",
       "description": "",
+      "sectorId": "solklippan",
       "source": {
         "id": "legacy:ostnoraberget",
         "path": "mediawiki/Östnoraberget.txt"
@@ -744,6 +823,7 @@
       "type": "",
       "firstAscent": "Mikael Thorsell -85",
       "description": "",
+      "sectorId": "solklippan",
       "source": {
         "id": "legacy:ostnoraberget",
         "path": "mediawiki/Östnoraberget.txt"
@@ -759,6 +839,7 @@
       "type": "",
       "firstAscent": "Mikael Thorsell -85",
       "description": "",
+      "sectorId": "solklippan",
       "source": {
         "id": "legacy:ostnoraberget",
         "path": "mediawiki/Östnoraberget.txt"
@@ -774,6 +855,7 @@
       "type": "",
       "firstAscent": "Johan Nylander -87",
       "description": "",
+      "sectorId": "solklippan",
       "source": {
         "id": "legacy:ostnoraberget",
         "path": "mediawiki/Östnoraberget.txt"
@@ -789,6 +871,7 @@
       "type": "mix",
       "firstAscent": "Johan Nylander -89",
       "description": "Upp i den överhängande sprickan.",
+      "sectorId": "solklippan",
       "source": {
         "id": "legacy:ostnoraberget",
         "path": "mediawiki/Östnoraberget.txt"
@@ -804,6 +887,7 @@
       "type": "",
       "firstAscent": "Börje Svedman -95",
       "description": "",
+      "sectorId": "marylinvaggen",
       "source": {
         "id": "legacy:ostnoraberget",
         "path": "mediawiki/Östnoraberget.txt"
@@ -819,6 +903,7 @@
       "type": "sport",
       "firstAscent": "Johan Luhr -92",
       "description": "Svår start sedan lättare.",
+      "sectorId": "marylinvaggen",
       "source": {
         "id": "legacy:ostnoraberget",
         "path": "mediawiki/Östnoraberget.txt"
@@ -834,6 +919,7 @@
       "type": "",
       "firstAscent": "Åke& Gun Andersson -85",
       "description": "",
+      "sectorId": "marylinvaggen",
       "source": {
         "id": "legacy:ostnoraberget",
         "path": "mediawiki/Östnoraberget.txt"
@@ -849,6 +935,7 @@
       "type": "sport",
       "firstAscent": "Johan Nylander -87",
       "description": "Upp i den överhängande sprickan. Var försiktig med flaket i slutet.",
+      "sectorId": "marylinvaggen",
       "source": {
         "id": "legacy:ostnoraberget",
         "path": "mediawiki/Östnoraberget.txt"
@@ -864,6 +951,7 @@
       "type": "",
       "firstAscent": "Åke Andersson, Torbjörn Olsson -85",
       "description": "",
+      "sectorId": "geckovaggen",
       "source": {
         "id": "legacy:ostnoraberget",
         "path": "mediawiki/Östnoraberget.txt"
@@ -879,6 +967,7 @@
       "type": "",
       "firstAscent": "Anders Olsson, P Händig -85",
       "description": "",
+      "sectorId": "geckovaggen",
       "source": {
         "id": "legacy:ostnoraberget",
         "path": "mediawiki/Östnoraberget.txt"
@@ -894,6 +983,7 @@
       "type": "",
       "firstAscent": "Johan Nylander -87",
       "description": "",
+      "sectorId": "geckovaggen",
       "source": {
         "id": "legacy:ostnoraberget",
         "path": "mediawiki/Östnoraberget.txt"
@@ -909,6 +999,7 @@
       "type": "",
       "firstAscent": "Johan Nylander -87",
       "description": "",
+      "sectorId": "tvabultsvaggen",
       "source": {
         "id": "legacy:ostnoraberget",
         "path": "mediawiki/Östnoraberget.txt"
@@ -924,6 +1015,7 @@
       "type": "",
       "firstAscent": "Anders Olsson -85",
       "description": "",
+      "sectorId": "tvabultsvaggen",
       "source": {
         "id": "legacy:ostnoraberget",
         "path": "mediawiki/Östnoraberget.txt"
@@ -939,6 +1031,7 @@
       "type": "",
       "firstAscent": "Anders& Torbjörn Olsson -85",
       "description": "",
+      "sectorId": "tvabultsvaggen",
       "source": {
         "id": "legacy:ostnoraberget",
         "path": "mediawiki/Östnoraberget.txt"
@@ -954,6 +1047,7 @@
       "type": "",
       "firstAscent": "Anders Olsson, Henrik Falk, Magnus Danielsson -85",
       "description": "",
+      "sectorId": "examensvaggen",
       "source": {
         "id": "legacy:ostnoraberget",
         "path": "mediawiki/Östnoraberget.txt"
@@ -969,6 +1063,7 @@
       "type": "",
       "firstAscent": "Johan Nylander, Maria Törnäva -88",
       "description": "",
+      "sectorId": "examensvaggen",
       "source": {
         "id": "legacy:ostnoraberget",
         "path": "mediawiki/Östnoraberget.txt"
@@ -984,6 +1079,7 @@
       "type": "",
       "firstAscent": "Anders Olsson -85",
       "description": "",
+      "sectorId": "examensvaggen",
       "source": {
         "id": "legacy:ostnoraberget",
         "path": "mediawiki/Östnoraberget.txt"
@@ -999,6 +1095,7 @@
       "type": "",
       "firstAscent": "Johan Nylander -87",
       "description": "",
+      "sectorId": "examensvaggen",
       "source": {
         "id": "legacy:ostnoraberget",
         "path": "mediawiki/Östnoraberget.txt"
@@ -1014,6 +1111,7 @@
       "type": "",
       "firstAscent": "Pål Nylander -88",
       "description": "",
+      "sectorId": "examensvaggen",
       "source": {
         "id": "legacy:ostnoraberget",
         "path": "mediawiki/Östnoraberget.txt"
@@ -1024,47 +1122,56 @@
     {
       "filename": "Ostnora_oversikt.png",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "leder"
     },
     {
       "filename": "Franskaväggen.jpg",
-      "caption": "right",
-      "missing": false
+      "caption": "",
+      "missing": false,
+      "sectorId": "franska-vaggen"
     },
     {
       "filename": "Ostnora_forsta_taket.png",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "forsta-taket"
     },
     {
       "filename": "Ostnora_stora_vaggen.png",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "storsta-taket"
     },
     {
       "filename": "Pelarvaggen.jpg",
-      "caption": "right",
-      "missing": false
+      "caption": "",
+      "missing": false,
+      "sectorId": "pelarvaggen"
     },
     {
       "filename": "Ostnora_pelarvaggen.png",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "pelarvaggen"
     },
     {
       "filename": "Ostnora_solklippan.png",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "solklippan"
     },
     {
       "filename": "Ostnora_marylinvaggen.png",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "marylinvaggen"
     },
     {
       "filename": "Ostnora_gecco.png",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "geckovaggen"
     }
   ],
   "access": {

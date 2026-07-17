@@ -17,6 +17,36 @@
   ],
   "sections": [
     {
+      "id": "uppvarmningsblocket",
+      "title": "Uppvärmningsblocket",
+      "body": ""
+    },
+    {
+      "id": "laga-skogsblocket",
+      "title": "Låga skogsblocket",
+      "body": ""
+    },
+    {
+      "id": "stenkyrkan",
+      "title": "Stenkyrkan",
+      "body": ""
+    },
+    {
+      "id": "ekblocket",
+      "title": "Ekblocket",
+      "body": ""
+    },
+    {
+      "id": "hasselblocket",
+      "title": "Hasselblocket",
+      "body": ""
+    },
+    {
+      "id": "skogsblocket",
+      "title": "Skogsblocket",
+      "body": ""
+    },
+    {
       "id": "haggsten",
       "title": "Häggsten",
       "body": "=Problem= Kategori:Roslagen Kategori:Bouldering Kategori:Bimbo Kategori:Behöver kvalitetssäkras Kategori:Saknar karta Kategori:Saknar koordinater Kategori:Saknar skrivarformattering Kategori:Saknar skiss"
@@ -33,6 +63,7 @@
       "type": "",
       "firstAscent": "Stefan Sjöberg, 2008",
       "description": "Låg start, krimplister+undercling, catch hylla, vidare kanten",
+      "sectorId": "uppvarmningsblocket",
       "source": {
         "id": "legacy:vastra-syninge-rimbo",
         "path": "mediawiki/Västra Syninge, Rimbo.txt"
@@ -48,6 +79,7 @@
       "type": "",
       "firstAscent": "André Hallberg, 2008",
       "description": "Matchstart, dra upp till v kant och vidare upp",
+      "sectorId": "uppvarmningsblocket",
       "source": {
         "id": "legacy:vastra-syninge-rimbo",
         "path": "mediawiki/Västra Syninge, Rimbo.txt"
@@ -63,6 +95,7 @@
       "type": "Mantling,Travers V->H,Heel hook",
       "firstAscent": "Klara Emmerfors",
       "description": "Traversera v>h, mantla kanten",
+      "sectorId": "laga-skogsblocket",
       "source": {
         "id": "legacy:vastra-syninge-rimbo",
         "path": "mediawiki/Västra Syninge, Rimbo.txt"
@@ -78,6 +111,7 @@
       "type": "",
       "firstAscent": "Klara Emmerfors",
       "description": "Traversera h>v, upp över kanten",
+      "sectorId": "laga-skogsblocket",
       "source": {
         "id": "legacy:vastra-syninge-rimbo",
         "path": "mediawiki/Västra Syninge, Rimbo.txt"
@@ -93,6 +127,7 @@
       "type": "Krimp,Överhäng,Travers V->H",
       "firstAscent": "Stefan Sjöberg, 2006",
       "description": "Traversera v>h med start i grottan, mantla kant",
+      "sectorId": "stenkyrkan",
       "source": {
         "id": "legacy:vastra-syninge-rimbo",
         "path": "mediawiki/Västra Syninge, Rimbo.txt"
@@ -108,6 +143,7 @@
       "type": "",
       "firstAscent": "Klara Emmerfors",
       "description": "",
+      "sectorId": "stenkyrkan",
       "source": {
         "id": "legacy:vastra-syninge-rimbo",
         "path": "mediawiki/Västra Syninge, Rimbo.txt"
@@ -123,6 +159,7 @@
       "type": "Krimp,Slopers,Travers H->V",
       "firstAscent": "Stefan Sjöberg, 2007",
       "description": "Start som Höstreflex, traversera h>v, avslut som Midsommarnattsdröm",
+      "sectorId": "stenkyrkan",
       "source": {
         "id": "legacy:vastra-syninge-rimbo",
         "path": "mediawiki/Västra Syninge, Rimbo.txt"
@@ -138,6 +175,7 @@
       "type": "",
       "firstAscent": "Stefan Sjöberg",
       "description": "Upp över liten bulle",
+      "sectorId": "stenkyrkan",
       "source": {
         "id": "legacy:vastra-syninge-rimbo",
         "path": "mediawiki/Västra Syninge, Rimbo.txt"
@@ -153,6 +191,7 @@
       "type": "Krimp,Slopers,Heel hook",
       "firstAscent": "Stefan Sjöberg",
       "description": "Start som Dagsmeja. Fortsätt sedan som Frostnupen, utan att gå på hyllan nere till v.",
+      "sectorId": "stenkyrkan",
       "source": {
         "id": "legacy:vastra-syninge-rimbo",
         "path": "mediawiki/Västra Syninge, Rimbo.txt"
@@ -168,6 +207,7 @@
       "type": "Krimp,Slopers,Travers V->H",
       "firstAscent": "Stefan Sjöberg, 2008",
       "description": "Start som Vårspegling, traversera sprickan under Höstreflex v>h, avslut som Förbigåendet",
+      "sectorId": "stenkyrkan",
       "source": {
         "id": "legacy:vastra-syninge-rimbo",
         "path": "mediawiki/Västra Syninge, Rimbo.txt"
@@ -183,6 +223,7 @@
       "type": "",
       "firstAscent": "Stefan Sjöberg",
       "description": "",
+      "sectorId": "stenkyrkan",
       "source": {
         "id": "legacy:vastra-syninge-rimbo",
         "path": "mediawiki/Västra Syninge, Rimbo.txt"
@@ -198,6 +239,7 @@
       "type": "",
       "firstAscent": "Klara Emmerfors",
       "description": "Rakt upp över högsta partiet mitt på blocket",
+      "sectorId": "stenkyrkan",
       "source": {
         "id": "legacy:vastra-syninge-rimbo",
         "path": "mediawiki/Västra Syninge, Rimbo.txt"
@@ -213,6 +255,7 @@
       "type": "",
       "firstAscent": "Klara Emmerfors",
       "description": "Den höga till höger om Midsommarhighball",
+      "sectorId": "stenkyrkan",
       "source": {
         "id": "legacy:vastra-syninge-rimbo",
         "path": "mediawiki/Västra Syninge, Rimbo.txt"
@@ -228,6 +271,7 @@
       "type": "",
       "firstAscent": "Stefan Sjöberg",
       "description": "Starta inne vid högra kanten, traversera h>v snett uppåt",
+      "sectorId": "stenkyrkan",
       "source": {
         "id": "legacy:vastra-syninge-rimbo",
         "path": "mediawiki/Västra Syninge, Rimbo.txt"
@@ -243,6 +287,7 @@
       "type": "",
       "firstAscent": "Klara Emmerfors",
       "description": "Svat inåt grottan",
+      "sectorId": "ekblocket",
       "source": {
         "id": "legacy:vastra-syninge-rimbo",
         "path": "mediawiki/Västra Syninge, Rimbo.txt"
@@ -258,6 +303,7 @@
       "type": "",
       "firstAscent": "Klara Emmerfors",
       "description": "Vänsterkanten upp",
+      "sectorId": "ekblocket",
       "source": {
         "id": "legacy:vastra-syninge-rimbo",
         "path": "mediawiki/Västra Syninge, Rimbo.txt"
@@ -273,6 +319,7 @@
       "type": "",
       "firstAscent": "Stefan Sjöberg",
       "description": "Markant h grepp, upp åt v",
+      "sectorId": "ekblocket",
       "source": {
         "id": "legacy:vastra-syninge-rimbo",
         "path": "mediawiki/Västra Syninge, Rimbo.txt"
@@ -288,6 +335,7 @@
       "type": "",
       "firstAscent": "Stefan Sjöberg",
       "description": "Start i tydlig struktur mitt på blocket, upp på kanten",
+      "sectorId": "ekblocket",
       "source": {
         "id": "legacy:vastra-syninge-rimbo",
         "path": "mediawiki/Västra Syninge, Rimbo.txt"
@@ -303,6 +351,7 @@
       "type": "",
       "firstAscent": "Stefan Sjöberg",
       "description": "Upp högra sidan av blocket",
+      "sectorId": "ekblocket",
       "source": {
         "id": "legacy:vastra-syninge-rimbo",
         "path": "mediawiki/Västra Syninge, Rimbo.txt"
@@ -318,6 +367,7 @@
       "type": "",
       "firstAscent": "Stefan Sjöberg",
       "description": "Starta på crimpar, dra upp till kanten",
+      "sectorId": "hasselblocket",
       "source": {
         "id": "legacy:vastra-syninge-rimbo",
         "path": "mediawiki/Västra Syninge, Rimbo.txt"
@@ -333,6 +383,7 @@
       "type": "",
       "firstAscent": "Karl Karlström",
       "description": "Kanten till h om Vildsvinet, rakt upp",
+      "sectorId": "hasselblocket",
       "source": {
         "id": "legacy:vastra-syninge-rimbo",
         "path": "mediawiki/Västra Syninge, Rimbo.txt"
@@ -348,6 +399,7 @@
       "type": "",
       "firstAscent": "Klara Emmerfors",
       "description": "Start vid Svinhänget, taversera kanten h>v",
+      "sectorId": "hasselblocket",
       "source": {
         "id": "legacy:vastra-syninge-rimbo",
         "path": "mediawiki/Västra Syninge, Rimbo.txt"
@@ -363,6 +415,7 @@
       "type": "",
       "firstAscent": "Stefan Sjöberg",
       "description": "Blockets sida ut mot åkern. Traversera sprickbildning från högra kanten upp åt v.",
+      "sectorId": "hasselblocket",
       "source": {
         "id": "legacy:vastra-syninge-rimbo",
         "path": "mediawiki/Västra Syninge, Rimbo.txt"
@@ -378,6 +431,7 @@
       "type": "",
       "firstAscent": "Stefan Sjöberg",
       "description": "Fronta blocket upp",
+      "sectorId": "hasselblocket",
       "source": {
         "id": "legacy:vastra-syninge-rimbo",
         "path": "mediawiki/Västra Syninge, Rimbo.txt"
@@ -393,6 +447,7 @@
       "type": "",
       "firstAscent": "Karl Karlström",
       "description": "Rakt upp svapartiet i klyftan",
+      "sectorId": "hasselblocket",
       "source": {
         "id": "legacy:vastra-syninge-rimbo",
         "path": "mediawiki/Västra Syninge, Rimbo.txt"
@@ -408,6 +463,7 @@
       "type": "",
       "firstAscent": "Gustav",
       "description": "Traversera uppåt v, upp bullen",
+      "sectorId": "hasselblocket",
       "source": {
         "id": "legacy:vastra-syninge-rimbo",
         "path": "mediawiki/Västra Syninge, Rimbo.txt"
@@ -423,6 +479,7 @@
       "type": "Krimp",
       "firstAscent": "Gustav",
       "description": "Lister rakt upp andra väggsidan",
+      "sectorId": "hasselblocket",
       "source": {
         "id": "legacy:vastra-syninge-rimbo",
         "path": "mediawiki/Västra Syninge, Rimbo.txt"
@@ -438,6 +495,7 @@
       "type": "Krimp",
       "firstAscent": "Stefan Sjöberg",
       "description": "Upp över diederbullen",
+      "sectorId": "hasselblocket",
       "source": {
         "id": "legacy:vastra-syninge-rimbo",
         "path": "mediawiki/Västra Syninge, Rimbo.txt"
@@ -453,6 +511,7 @@
       "type": "",
       "firstAscent": "Stefan Sjöberg",
       "description": "Mellan Traversbullen och Hasselkunten",
+      "sectorId": "hasselblocket",
       "source": {
         "id": "legacy:vastra-syninge-rimbo",
         "path": "mediawiki/Västra Syninge, Rimbo.txt"
@@ -468,6 +527,7 @@
       "type": "",
       "firstAscent": "Ulf Palm",
       "description": "Lay back dieder",
+      "sectorId": "hasselblocket",
       "source": {
         "id": "legacy:vastra-syninge-rimbo",
         "path": "mediawiki/Västra Syninge, Rimbo.txt"
@@ -483,6 +543,7 @@
       "type": "Jam,Aréte",
       "firstAscent": "Ulf Palm",
       "description": "Händer i areten, jamma",
+      "sectorId": "hasselblocket",
       "source": {
         "id": "legacy:vastra-syninge-rimbo",
         "path": "mediawiki/Västra Syninge, Rimbo.txt"
@@ -498,6 +559,7 @@
       "type": "",
       "firstAscent": "Klara Emmerfors",
       "description": "Upp vänsterkanten",
+      "sectorId": "skogsblocket",
       "source": {
         "id": "legacy:vastra-syninge-rimbo",
         "path": "mediawiki/Västra Syninge, Rimbo.txt"
@@ -513,6 +575,7 @@
       "type": "",
       "firstAscent": "Stefan Sjöberg",
       "description": "Upp högerkanten",
+      "sectorId": "skogsblocket",
       "source": {
         "id": "legacy:vastra-syninge-rimbo",
         "path": "mediawiki/Västra Syninge, Rimbo.txt"
@@ -528,6 +591,7 @@
       "type": "",
       "firstAscent": "Stefan Sjöberg",
       "description": "Börja v sida av blocket, traversera upp över kanten",
+      "sectorId": "haggsten",
       "source": {
         "id": "legacy:vastra-syninge-rimbo",
         "path": "mediawiki/Västra Syninge, Rimbo.txt"
@@ -543,6 +607,7 @@
       "type": "",
       "firstAscent": "Stefan Sjöberg",
       "description": "Starta på tydlig lista + undercling, lister upp",
+      "sectorId": "haggsten",
       "source": {
         "id": "legacy:vastra-syninge-rimbo",
         "path": "mediawiki/Västra Syninge, Rimbo.txt"
@@ -558,6 +623,7 @@
       "type": "",
       "firstAscent": "Stefan Sjöberg",
       "description": "Start vid Påskharen, traversera h>v upp",
+      "sectorId": "haggsten",
       "source": {
         "id": "legacy:vastra-syninge-rimbo",
         "path": "mediawiki/Västra Syninge, Rimbo.txt"
@@ -573,6 +639,7 @@
       "type": "",
       "firstAscent": "Stefan Sjöberg",
       "description": "Fronta stenens hörn",
+      "sectorId": "haggsten",
       "source": {
         "id": "legacy:vastra-syninge-rimbo",
         "path": "mediawiki/Västra Syninge, Rimbo.txt"
@@ -588,6 +655,7 @@
       "type": "",
       "firstAscent": "Stefan Sjöberg",
       "description": "Liggstart. Ryggen på låga blocket, dra till, tydlig list, upp",
+      "sectorId": "haggsten",
       "source": {
         "id": "legacy:vastra-syninge-rimbo",
         "path": "mediawiki/Västra Syninge, Rimbo.txt"
@@ -603,6 +671,7 @@
       "type": "",
       "firstAscent": "Stefan Sjöberg",
       "description": "Dra till från pinchen, ett move till kanten",
+      "sectorId": "haggsten",
       "source": {
         "id": "legacy:vastra-syninge-rimbo",
         "path": "mediawiki/Västra Syninge, Rimbo.txt"
@@ -618,6 +687,7 @@
       "type": "Heel hook",
       "firstAscent": "Stefan Sjöberg",
       "description": "Hangla kanten åt vänster och upp",
+      "sectorId": "haggsten",
       "source": {
         "id": "legacy:vastra-syninge-rimbo",
         "path": "mediawiki/Västra Syninge, Rimbo.txt"
@@ -633,6 +703,7 @@
       "type": "Layback,Travers V->H",
       "firstAscent": "Stefan Sjöberg",
       "description": "",
+      "sectorId": "haggsten",
       "source": {
         "id": "legacy:vastra-syninge-rimbo",
         "path": "mediawiki/Västra Syninge, Rimbo.txt"
@@ -648,6 +719,7 @@
       "type": "Toe hook",
       "firstAscent": "Stefan Sjöberg, 2007",
       "description": "Starta sittande lilla blocket, brett med båda händerna",
+      "sectorId": "haggsten",
       "source": {
         "id": "legacy:vastra-syninge-rimbo",
         "path": "mediawiki/Västra Syninge, Rimbo.txt"
@@ -663,6 +735,7 @@
       "type": "Travers V->H,Spricka",
       "firstAscent": "Stefan Sjöberg",
       "description": "Följ fina sprickan uppåt höger",
+      "sectorId": "haggsten",
       "source": {
         "id": "legacy:vastra-syninge-rimbo",
         "path": "mediawiki/Västra Syninge, Rimbo.txt"
@@ -678,6 +751,7 @@
       "type": "Krimp,Pinch,Reach",
       "firstAscent": "Stefan Sjöberg, 2004",
       "description": "Start båda händer markant grepp v del av blocket, åt h till handtag, reach h till pinch, upp",
+      "sectorId": "haggsten",
       "source": {
         "id": "legacy:vastra-syninge-rimbo",
         "path": "mediawiki/Västra Syninge, Rimbo.txt"

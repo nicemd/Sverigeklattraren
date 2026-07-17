@@ -31,6 +31,11 @@
       "body": "Sväng av från E14 i Undersåker mot Vålådalen. Passera indalsälven och Henån. I slutet av den branta uppförsbacken efter Henån finns en p-plats på höger sida, här står numera också en mobilmast. Följ kryssleden över kalhygget mot Väliste. Tag en stig åt höger efter ungefär 1 km. Följ den numera vältrampade stigen till berget. Det tar ca 15min att gå från parkeringen till klippan."
     },
     {
+      "id": "leder",
+      "title": "Leder",
+      "body": ""
+    },
+    {
       "id": "aidleder",
       "title": "Aidleder",
       "body": "Obs! Klättra inte nedanstående leder med topprep, utan endast på lead för att minimera onödigt slitage. Var vänlig respektera detta. (Anm. Det finns ytterligare ett antal aidleder på Välaberget som dock inte är utritade i denna förare.)"
@@ -44,6 +49,21 @@
       "id": "stora-stenen",
       "title": "Stora Stenen",
       "body": "Finns flera Aidleder på stora stenen"
+    },
+    {
+      "id": "overhanget-vid-stigen",
+      "title": "Överhänget vid stigen",
+      "body": ""
+    },
+    {
+      "id": "lilla-bouldervaggen",
+      "title": "Lilla boulderväggen",
+      "body": ""
+    },
+    {
+      "id": "boulders-utan-sektor",
+      "title": "Boulders utan sektor",
+      "body": ""
     },
     {
       "id": "extern-forare",
@@ -62,6 +82,7 @@
       "type": "",
       "firstAscent": "",
       "description": "Följ diedret upp till hyllan, sedan höger och avslutas något överhängande. Fel utritad på skissen, leden som är utritad är i princip sträckningen för Captain Hook. Meganöten går ett par meter till vänster i det uppenbara diedret.",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:valaberget",
         "path": "mediawiki/Välaberget.txt"
@@ -77,6 +98,7 @@
       "type": "sport",
       "firstAscent": "Jan Rydén 2012",
       "description": "Ute på areten. 7 bultar. Topankare.",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:valaberget",
         "path": "mediawiki/Välaberget.txt"
@@ -92,6 +114,7 @@
       "type": "sport",
       "firstAscent": "Marcus Hernegård 2010",
       "description": "Går mitt på väggen mellan två aidlinjer. Startar vid en svag areteformation som sträcker sig ca 3 bultar upp. Därefter rakt upp på vassa crimpar mot ankaret under taket. Regnsäker. 4 bultar. Firningsankare.",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:valaberget",
         "path": "mediawiki/Välaberget.txt"
@@ -107,6 +130,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "Överhängade diedret rakt upp. Tung och tämligen teknisk led, något runout 2/3 upp. Går att leda med kamkilar och wirekilar, vilket har gjorts många gånger. Rensning och första kända klättring av P Olsson, 1993",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:valaberget",
         "path": "mediawiki/Välaberget.txt"
@@ -122,6 +146,7 @@
       "type": "sport",
       "firstAscent": "Alexander Rydén 2012",
       "description": "Väggen mellan puhs hörna och vit november. 5 bultar. Firningsankare.",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:valaberget",
         "path": "mediawiki/Välaberget.txt"
@@ -137,6 +162,7 @@
       "type": "sport",
       "firstAscent": "Pierre Olsson, 2001",
       "description": "En av de finaste bultade lederna på berget. Tidigare en aidlinje",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:valaberget",
         "path": "mediawiki/Välaberget.txt"
@@ -152,6 +178,7 @@
       "type": "topprep",
       "firstAscent": "",
       "description": "Kort, brant och välsopad. Endast toppsäkrad led.",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:valaberget",
         "path": "mediawiki/Välaberget.txt"
@@ -167,6 +194,7 @@
       "type": "sport",
       "firstAscent": "Filip Arvidsson, Alexander Rydén -2010.",
       "description": "Gemensam start med Silhuettleden, men drar sig istället ut på vänstra väggen. Firningsankare.",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:valaberget",
         "path": "mediawiki/Välaberget.txt"
@@ -182,6 +210,7 @@
       "type": "",
       "firstAscent": "",
       "description": "Börja ute på hörnet, klättra några layback moves upp till ett något löst block. Klättra över på högra väggen och följ den lilla sprickan rakt upp, sen vidare upp via Billingslingan till toppen.",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:valaberget",
         "path": "mediawiki/Välaberget.txt"
@@ -197,6 +226,7 @@
       "type": "sport",
       "firstAscent": "",
       "description": "Småstegsklättring rakt upp utan att använda kanten. 4bb och ett ankare med kedja. Vill man använda kanten så gör man givetvis det, graden är då 6- och leden är mycket fin på detta vis också!",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:valaberget",
         "path": "mediawiki/Välaberget.txt"
@@ -212,6 +242,7 @@
       "type": "",
       "firstAscent": "",
       "description": "Layback via flaksprickan. Vid hyllan tar man de högra sprickorna upp till toppen. Firningsankare finns.",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:valaberget",
         "path": "mediawiki/Välaberget.txt"
@@ -227,6 +258,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "Bra nybörjarled. Följ de parallella sprickorna, ställ dig på listen mitt på väggen och gå till vänster. Vidare rakt upp på hörnet. Toppankare.",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:valaberget",
         "path": "mediawiki/Välaberget.txt"
@@ -242,6 +274,7 @@
       "type": "mix",
       "firstAscent": "",
       "description": "Säkra i tvärsprickan med 4cm kamkil. Sedan rakt upp på små grepp via 4 bb mot det stora taket vid toppen. Taket klättras med dragning åt höger via ett incutgrepp för högerhanden i taket. Bultat ankare.",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:valaberget",
         "path": "mediawiki/Välaberget.txt"
@@ -257,6 +290,7 @@
       "type": "sport",
       "firstAscent": "",
       "description": "Klättra rakt upp med utsteg till höger eller vänster om taket. Går också dela upp leden med en på var sida om det svagt utstickande hörnet mitt på leden, grad 6.",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:valaberget",
         "path": "mediawiki/Välaberget.txt"
@@ -272,6 +306,7 @@
       "type": "sport",
       "firstAscent": "",
       "description": "Insteg i sprickan, lägg en kamsäkring i tvärsprickan om du känner dig osäker. Följ diederet rakt upp via tre bultar, gå lite höger och sedan uppför svaplattan via en borrbult till toppen. Toppankare.",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:valaberget",
         "path": "mediawiki/Välaberget.txt"
@@ -287,6 +322,7 @@
       "type": "topprep",
       "firstAscent": "",
       "description": "Klättra helt ute på hörnet hela vägen upp. Endast topprep. Teknisk led.",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:valaberget",
         "path": "mediawiki/Välaberget.txt"
@@ -302,6 +338,7 @@
       "type": "",
       "firstAscent": "",
       "description": "Går helt inne i hörnet. Bra nybörjarled, dock något grusig och svårare än man kanske tror.",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:valaberget",
         "path": "mediawiki/Välaberget.txt"
@@ -317,6 +354,7 @@
       "type": "",
       "firstAscent": "",
       "description": "Insteg några meter till höger om Korphörnet. Klättra i sprickan och upp till stor hylla åt höger, gå ut runt hörnet och rakt upp. Sista halvan klättrar man via de sista bultarna på Ren o Fin. Vill man toppa görs det lämpligen i borrbultsankaret till Ledknäckarn.",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:valaberget",
         "path": "mediawiki/Välaberget.txt"
@@ -332,6 +370,7 @@
       "type": "mix",
       "firstAscent": "",
       "description": "Börja leden nedanför det stora blocket, håll i blockets högra kant och klättra upp tills du står på själva spetsen. Placera en stor wirekil så högt du kan, jamma foten i sprickan och gå på rakt upp. Högerhanden greppar ute på areten till höger, säkra i den smala sprickan (gul alien/gul C3) sen med dragning åt vänster upp till stor hylla med en fixpitong, greppa höger-areten med högerhanden, kör rakt upp förbi borrbult till ankare, håll dej till vänster om areten hela tiden - gå inte ut till leden Ren o Fin, Ledknäckaren är en helt oberoende linje. Leden är nu upprustad med ny bb istället för den gamla, och en ny pitong. Toppankare. P Olsson 1992.",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:valaberget",
         "path": "mediawiki/Välaberget.txt"
@@ -347,6 +386,7 @@
       "type": "sport",
       "firstAscent": "",
       "description": "Börja på hörnet och runda det åt höger. Klättra rakt upp med krux på ledens brantaste parti. Lättare sedan.Toppankare.",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:valaberget",
         "path": "mediawiki/Välaberget.txt"
@@ -362,6 +402,7 @@
       "type": "",
       "firstAscent": "",
       "description": "Samma insteg som led 16. Sedan går leden i princip mellan Ren o Fin och Skoterleden. En kombinationsled av 16 & 18 skulle man kunna säga.",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:valaberget",
         "path": "mediawiki/Välaberget.txt"
@@ -377,6 +418,7 @@
       "type": "mix",
       "firstAscent": "",
       "description": "Första halva leden är borrbultad sedan Tradsäkrad med mycket fina lägen. Lite knepigt insteg snett åt vänster sedan rakt upp. Toppankare.",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:valaberget",
         "path": "mediawiki/Välaberget.txt"
@@ -392,6 +434,7 @@
       "type": "",
       "firstAscent": "",
       "description": "Följ kaminen, klättra utanför på pelaren eller I kaminen. Går också att laybacka hela sprickan, fin Yosemite träning!",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:valaberget",
         "path": "mediawiki/Välaberget.txt"
@@ -407,6 +450,7 @@
       "type": "",
       "firstAscent": "",
       "description": "Samma insteg som kaminen men fortsätt in i kaminens mörker. Säkra i taket. Snart återkommer ljuset på andra sidan berget. Klättra över taket och laybackklättra utsteget. Varning för repdrag. Inget för den som lider av cellskräck! OBS, soloklättras oftast.",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:valaberget",
         "path": "mediawiki/Välaberget.txt"
@@ -422,6 +466,7 @@
       "type": "sport",
       "firstAscent": "",
       "description": "Numera helbultad med samma insteg som Röd Oktober.",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:valaberget",
         "path": "mediawiki/Välaberget.txt"
@@ -437,6 +482,7 @@
       "type": "mix",
       "firstAscent": "",
       "description": "Insteget är precis till höger om den överhängande väggen, i det lilla hörnet. Klättra upp i hörnet (aningen överhängande) säkra med en medium kamsäkring, mantla upp och följ den tunna sprickan omedelbart till vänster om näsan och sedan rakt över taket. Taket säkras med liten kam/kil. Två borrbultar som toppankare.",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:valaberget",
         "path": "mediawiki/Välaberget.txt"
@@ -452,6 +498,7 @@
       "type": "sport",
       "firstAscent": "",
       "description": "Rakt upp på små lister till taket, låt bli stora sprickan till höger. Taket är cruxet, finns flera varianter. Borrbultad led.",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:valaberget",
         "path": "mediawiki/Välaberget.txt"
@@ -467,6 +514,7 @@
       "type": "",
       "firstAscent": "",
       "description": "Vill du inte göra originalutsteget, klättra ut åt höger och laybacka uppför den stora sprickan, fint. Topankare",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:valaberget",
         "path": "mediawiki/Välaberget.txt"
@@ -482,6 +530,7 @@
       "type": "",
       "firstAscent": "",
       "description": "Starta i hörnet, följ den vassa stenkanten. Avslutas med att antingen traversera vänster under taket ända bort till Röd Oktober eller rakt upp i den stora sprickan (camalot 6) eller bara snett ut till höger på goda grepp.",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:valaberget",
         "path": "mediawiki/Välaberget.txt"
@@ -497,6 +546,7 @@
       "type": "",
       "firstAscent": "",
       "description": "Klättra uppför det uppspruckna överhängande partiet.",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:valaberget",
         "path": "mediawiki/Välaberget.txt"
@@ -512,6 +562,7 @@
       "type": "",
       "firstAscent": "",
       "description": "Klättra över taket och följ sprickan upp.",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:valaberget",
         "path": "mediawiki/Välaberget.txt"
@@ -527,6 +578,7 @@
       "type": "aid",
       "firstAscent": "",
       "description": "Okänd förstabestigare och troligen friklättrad. Diedret rakt upp. Några Skyhoks och rurps. Leden är felritad på skissen, Halvan går bakom det stora döda trädet 8 meter till vänster om Captain Hook.",
+      "sectorId": "aidleder",
       "source": {
         "id": "legacy:valaberget",
         "path": "mediawiki/Välaberget.txt"
@@ -542,6 +594,7 @@
       "type": "aid",
       "firstAscent": "Pierre Olsson -97",
       "description": "Leden följer den mycket tunna sprickan till vänster om leden Puhs hörna. Säkra inte i hörnet! Det är en friled! Efter den tunna sprickan gå direkt ut på travers till vänster under överhänget, något \"rutten\" klippa. Leden har två 8mm-Petzlbultar utan hängare, ta med egna. Exakt ledbeskrivning finns i brevlådan vid Välaberget. Fler än 20 bestigningar.",
+      "sectorId": "aidleder",
       "source": {
         "id": "legacy:valaberget",
         "path": "mediawiki/Välaberget.txt"
@@ -557,6 +610,7 @@
       "type": "aid",
       "firstAscent": "Pierre Olsson -97",
       "description": "Rakt upp mot två 6mm-bultar utan hängare. Sedan via beaks och hooks mot två andra 6mm-bultar, även de utan hängare. Spricka mot toppen, samma utsteg som \"Triss\". Exakt ledbeskrivning finns i brevlådan vid Välaberget. Fler än 15 bestigningar.",
+      "sectorId": "aidleder",
       "source": {
         "id": "legacy:valaberget",
         "path": "mediawiki/Välaberget.txt"
@@ -572,6 +626,7 @@
       "type": "aid",
       "firstAscent": "Pierre Olsson, Tomas Leitner -94",
       "description": "Start vid den hemgjorda borrbulten ute vid den tydliga areten. Rakt upp i den tunna sprickan, sedan över till vänster och upp i nästa tunna spricka. Skyhook travers till vänster och slutligen upp i nästa diagonala spricka (samma spricka som Svart September). Leden har två 8mm-Petzlbultar utan hängare. Ta med egena. Exakt ledbeskrivning finns i brevlådan vid Välaberget. Fler än 30 bestigningar. Historia: Förstabestigningen gjordes med en borrad BAT-Hook i starten, sedan helt naturlig, A4+ var graden då, nu borrad för att undvika markfall på en otroligt fin led som annars knappast skulle repeteras",
+      "sectorId": "aidleder",
       "source": {
         "id": "legacy:valaberget",
         "path": "mediawiki/Välaberget.txt"
@@ -587,6 +642,7 @@
       "type": "aid",
       "firstAscent": "Pierre Olsson -99",
       "description": "Leden går uppför den svagt överhängade väggen till höger om frileden Ökänd. Insteg från svaplattan. Följ tunn spricka rakt upp i 2m fortsätt i den andra sprickan och avsluta med en Skyhook, fritt till toppen. Exakt ledbeskrivning finns i brevlådan vid Väla. Färre än 5 bestigningar.",
+      "sectorId": "aidleder",
       "source": {
         "id": "legacy:valaberget",
         "path": "mediawiki/Välaberget.txt"
@@ -602,6 +658,7 @@
       "type": "aid",
       "firstAscent": "Pierre Olsson -99",
       "description": "Leden ej utritad på föraren, men startar 2m till vänster om Nostradamus. Många hooklägen samt Beaks och ett par Copperheads. Fler än 5 bestigningar.",
+      "sectorId": "aidleder",
       "source": {
         "id": "legacy:valaberget",
         "path": "mediawiki/Välaberget.txt"
@@ -617,6 +674,7 @@
       "type": "aid",
       "firstAscent": "Pierre Olsson -98",
       "description": "Leden ej utritad på föraren, men startar 2m till höger om Copernicus. Fix pin i starten, i det lilla taket. Dragning åt höger sen rakt upp på Beaks och Rurps och Hooks. En led med kassa säkringar och stor skaderisk. Endast 1 bestigning.",
+      "sectorId": "aidleder",
       "source": {
         "id": "legacy:valaberget",
         "path": "mediawiki/Välaberget.txt"
@@ -632,6 +690,7 @@
       "type": "aid",
       "firstAscent": "Pierre Olsson -97",
       "description": "Leden ej utritad på föraren. Samma start som Svart September. Efter andra 6mm-bulten, gå rakt upp till hooktraversen på Triss. Överhängande och många copperheads. 2 bestigningar.",
+      "sectorId": "aidleder",
       "source": {
         "id": "legacy:valaberget",
         "path": "mediawiki/Välaberget.txt"
@@ -647,6 +706,7 @@
       "type": "trad",
       "firstAscent": "Josef Nyström -05, Mats Olofsson -97?",
       "description": "Den mycket branta breda sprickan som klyver väggen till vänster. Mest hand- och knytnävsjam. Tag förutom standardstorlekar med två camalot #4, eller en camalot #5 och en camalot #4 för denna led.",
+      "sectorId": "nedre-vaggen",
       "source": {
         "id": "legacy:valaberget",
         "path": "mediawiki/Välaberget.txt"
@@ -662,6 +722,7 @@
       "type": "trad",
       "firstAscent": "Alexander Rydén 2007",
       "description": "Klättra den snea stora spickan. Tag med en camalot #5 eller en crashpadd.",
+      "sectorId": "nedre-vaggen",
       "source": {
         "id": "legacy:valaberget",
         "path": "mediawiki/Välaberget.txt"
@@ -677,6 +738,7 @@
       "type": "trad",
       "firstAscent": "Pierre Olsson 1990",
       "description": "Hoppstart, gå sen rakt mot taket. 2 kamsäkringar i tvärsprickorna under taket. 2bb till ankare.",
+      "sectorId": "nedre-vaggen",
       "source": {
         "id": "legacy:valaberget",
         "path": "mediawiki/Välaberget.txt"
@@ -692,6 +754,7 @@
       "type": "",
       "firstAscent": "Alexander Rydén 2008",
       "description": "Boulder, sittstart på Lille Skutt. Startgrepp har gått sönder lite. Ståstart på problemet heter tåskutt 6B+",
+      "sectorId": "nedre-vaggen",
       "source": {
         "id": "legacy:valaberget",
         "path": "mediawiki/Välaberget.txt"
@@ -707,6 +770,7 @@
       "type": "",
       "firstAscent": "Alexander Rydén 2007",
       "description": "Boulderled, etableringstart på små crimps",
+      "sectorId": "nedre-vaggen",
       "source": {
         "id": "legacy:valaberget",
         "path": "mediawiki/Välaberget.txt"
@@ -722,6 +786,7 @@
       "type": "",
       "firstAscent": "Josef Nyström & Micke Andersson 2006",
       "description": "Boulderled, etableringstart på sloopers. Sedan ett ryck upp till kanten. lite trixig",
+      "sectorId": "nedre-vaggen",
       "source": {
         "id": "legacy:valaberget",
         "path": "mediawiki/Välaberget.txt"
@@ -737,6 +802,7 @@
       "type": "",
       "firstAscent": "Alexander Rydén 2009",
       "description": "Boulderled, Sitstart sedan upp längs med aretén till starten på Lille Skutt.",
+      "sectorId": "nedre-vaggen",
       "source": {
         "id": "legacy:valaberget",
         "path": "mediawiki/Välaberget.txt"
@@ -752,6 +818,7 @@
       "type": "",
       "firstAscent": "Okänd",
       "description": "Boulder, Fin hangel travers på stenen brevid stora stenen.",
+      "sectorId": "stora-stenen",
       "source": {
         "id": "legacy:valaberget",
         "path": "mediawiki/Välaberget.txt"
@@ -767,6 +834,7 @@
       "type": "",
       "firstAscent": "Josef Nyström",
       "description": "Boulder",
+      "sectorId": "stora-stenen",
       "source": {
         "id": "legacy:valaberget",
         "path": "mediawiki/Välaberget.txt"
@@ -782,6 +850,7 @@
       "type": "",
       "firstAscent": "Okänd",
       "description": "Boulder, travers längs med den diagonala sprickan på stora stenen.",
+      "sectorId": "stora-stenen",
       "source": {
         "id": "legacy:valaberget",
         "path": "mediawiki/Välaberget.txt"
@@ -797,6 +866,7 @@
       "type": "",
       "firstAscent": "Alexander Rydén -09",
       "description": "Boulder, Ståstart",
+      "sectorId": "stora-stenen",
       "source": {
         "id": "legacy:valaberget",
         "path": "mediawiki/Välaberget.txt"
@@ -812,6 +882,7 @@
       "type": "",
       "firstAscent": "Alexander Rydén -11",
       "description": "Väldigt fina rörelser! Sittstart på elefanthopp",
+      "sectorId": "stora-stenen",
       "source": {
         "id": "legacy:valaberget",
         "path": "mediawiki/Välaberget.txt"
@@ -827,6 +898,7 @@
       "type": "sport",
       "firstAscent": "Alexander Rydén -10",
       "description": "Powerklättring och dyno.",
+      "sectorId": "overhanget-vid-stigen",
       "source": {
         "id": "legacy:valaberget",
         "path": "mediawiki/Välaberget.txt"
@@ -842,6 +914,7 @@
       "type": "sport",
       "firstAscent": "Alexander Rydén -10",
       "description": "Explosiv och dynamisk powerklättring.",
+      "sectorId": "overhanget-vid-stigen",
       "source": {
         "id": "legacy:valaberget",
         "path": "mediawiki/Välaberget.txt"
@@ -857,6 +930,7 @@
       "type": "",
       "firstAscent": "Alexander Rydén -07",
       "description": "Boulder, Startar på baksidan stora stenen. Sittstart, mycket fin",
+      "sectorId": "overhanget-vid-stigen",
       "source": {
         "id": "legacy:valaberget",
         "path": "mediawiki/Välaberget.txt"
@@ -872,6 +946,7 @@
       "type": "",
       "firstAscent": "Christian -07",
       "description": "Boulder",
+      "sectorId": "lilla-bouldervaggen",
       "source": {
         "id": "legacy:valaberget",
         "path": "mediawiki/Välaberget.txt"
@@ -887,6 +962,7 @@
       "type": "",
       "firstAscent": "Christian -07",
       "description": "Boulder, dyno från stora underclings",
+      "sectorId": "lilla-bouldervaggen",
       "source": {
         "id": "legacy:valaberget",
         "path": "mediawiki/Välaberget.txt"
@@ -902,6 +978,7 @@
       "type": "",
       "firstAscent": "Alexander Rydén -07",
       "description": "Boulder, travers längs hela blocket",
+      "sectorId": "lilla-bouldervaggen",
       "source": {
         "id": "legacy:valaberget",
         "path": "mediawiki/Välaberget.txt"
@@ -917,6 +994,7 @@
       "type": "",
       "firstAscent": "Marcus Hernegård -12",
       "description": "Boulder",
+      "sectorId": "boulders-utan-sektor",
       "source": {
         "id": "legacy:valaberget",
         "path": "mediawiki/Välaberget.txt"
@@ -932,6 +1010,7 @@
       "type": "",
       "firstAscent": "Marcus Hernegård -12",
       "description": "Boulder",
+      "sectorId": "boulders-utan-sektor",
       "source": {
         "id": "legacy:valaberget",
         "path": "mediawiki/Välaberget.txt"
@@ -947,6 +1026,7 @@
       "type": "",
       "firstAscent": "Marcus Hernegård -12",
       "description": "Boulder",
+      "sectorId": "boulders-utan-sektor",
       "source": {
         "id": "legacy:valaberget",
         "path": "mediawiki/Välaberget.txt"
@@ -962,6 +1042,7 @@
       "type": "",
       "firstAscent": "Alexander Rydén -12",
       "description": "Boulder",
+      "sectorId": "boulders-utan-sektor",
       "source": {
         "id": "legacy:valaberget",
         "path": "mediawiki/Välaberget.txt"
@@ -972,17 +1053,20 @@
     {
       "filename": "Valaberget.png",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "leder"
     },
     {
       "filename": "Valaberget_nedre.jpg",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "nedre-vaggen"
     },
     {
       "filename": "IMGP3411_.jpg",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "nedre-vaggen"
     }
   ],
   "access": {

@@ -25,9 +25,29 @@
       "body": "Lättillgängligt med tunnelbana. Kliv av vid Duvbo. Följ Tulegatan österut. Sväng upp på Rensgatan. Du kommer direkt till en parkeringsplats. Gå över parkeringsplatsen upp mot tennisplanerna. Klippan ligger till höger om tennisplanerna. Med buss 515 stiger du av vid Sundbybergs Idrottsplats. Klippan ligger ca 50 meter bort. Kommer du med bil finns det gott om parkeringsplatser längs Tulegatan. =Skiss= OBS - föreslår sänkning av graderna på vissa problem som känns lättare än dess grad, se diskussions-sidan // Sasq"
     },
     {
+      "id": "del-a",
+      "title": "Del A",
+      "body": ""
+    },
+    {
       "id": "del-c",
       "title": "Del C",
       "body": "Fil:partC.jpg"
+    },
+    {
+      "id": "del-e",
+      "title": "Del E",
+      "body": ""
+    },
+    {
+      "id": "del-g",
+      "title": "Del G",
+      "body": ""
+    },
+    {
+      "id": "del-h",
+      "title": "Del H",
+      "body": ""
     }
   ],
   "routes": [
@@ -41,6 +61,7 @@
       "type": "",
       "firstAscent": "Edvin Lindqvist",
       "description": "Vh start på blocket till vänster, hh start i undercling. Rakt upp på väggen. Slut på första hyllan .",
+      "sectorId": "del-a",
       "source": {
         "id": "legacy:lotsjobouldern",
         "path": "mediawiki/Lötsjöbouldern.txt"
@@ -56,6 +77,7 @@
       "type": "",
       "firstAscent": "Edvin Lindqvist",
       "description": "Rakt upp.",
+      "sectorId": "del-c",
       "source": {
         "id": "legacy:lotsjobouldern",
         "path": "mediawiki/Lötsjöbouldern.txt"
@@ -71,6 +93,7 @@
       "type": "",
       "firstAscent": "Edvin Lindqvist",
       "description": "Rakt upp, knölig start.",
+      "sectorId": "del-c",
       "source": {
         "id": "legacy:lotsjobouldern",
         "path": "mediawiki/Lötsjöbouldern.txt"
@@ -86,6 +109,7 @@
       "type": "",
       "firstAscent": "Edvin Lindqvist",
       "description": "Start med händerna i borrhålet. Vänsterkanten av svaet till vänster är eliminerad.",
+      "sectorId": "del-e",
       "source": {
         "id": "legacy:lotsjobouldern",
         "path": "mediawiki/Lötsjöbouldern.txt"
@@ -101,6 +125,7 @@
       "type": "",
       "firstAscent": "Edvin Lindqvist",
       "description": "Start med händerna i den tydliga vertikala sprickan/flaket och rakt upp.",
+      "sectorId": "del-e",
       "source": {
         "id": "legacy:lotsjobouldern",
         "path": "mediawiki/Lötsjöbouldern.txt"
@@ -116,6 +141,7 @@
       "type": "",
       "firstAscent": "Edvin Lindqvist",
       "description": "Det bruna blocket th är eliminerad, likaså sprickan/flaket tv och allt till vänster om den.",
+      "sectorId": "del-e",
       "source": {
         "id": "legacy:lotsjobouldern",
         "path": "mediawiki/Lötsjöbouldern.txt"
@@ -131,6 +157,7 @@
       "type": "",
       "firstAscent": "Edvin Lindqvist",
       "description": "Rakt upp i sprickan.",
+      "sectorId": "del-g",
       "source": {
         "id": "legacy:lotsjobouldern",
         "path": "mediawiki/Lötsjöbouldern.txt"
@@ -146,6 +173,7 @@
       "type": "",
       "firstAscent": "Per Norgren",
       "description": "Rakt upp längst högra areten.",
+      "sectorId": "del-g",
       "source": {
         "id": "legacy:lotsjobouldern",
         "path": "mediawiki/Lötsjöbouldern.txt"
@@ -161,6 +189,7 @@
       "type": "",
       "firstAscent": "Per Norgren",
       "description": "Start på det uppenbara greppet mitt på väggen. Klättra rakt upp.",
+      "sectorId": "del-h",
       "source": {
         "id": "legacy:lotsjobouldern",
         "path": "mediawiki/Lötsjöbouldern.txt"
@@ -176,6 +205,7 @@
       "type": "",
       "firstAscent": "Jonas Minnberg",
       "description": "Start på det uppenbara greppet (samma som Mein Goth), sedan upp till vänster längs sprickan.",
+      "sectorId": "del-h",
       "source": {
         "id": "legacy:lotsjobouldern",
         "path": "mediawiki/Lötsjöbouldern.txt"
@@ -186,27 +216,32 @@
     {
       "filename": "Lötsjöbouldern.png",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "vagbeskrivning"
     },
     {
       "filename": "OneHandedSmash.jpg",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "del-a"
     },
     {
       "filename": "PartD.jpg",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "del-e"
     },
     {
       "filename": "PartG.jpg",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "del-g"
     },
     {
       "filename": "PartH.jpg",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "del-h"
     }
   ],
   "access": {

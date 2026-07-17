@@ -30,6 +30,36 @@
       "body": "Skriv vägbeskrivning här."
     },
     {
+      "id": "leder",
+      "title": "Leder",
+      "body": ""
+    },
+    {
+      "id": "sodra-flanken",
+      "title": "Södra flanken",
+      "body": ""
+    },
+    {
+      "id": "stora-vaggen-vanstra-delen",
+      "title": "Stora väggen, vänstra delen",
+      "body": ""
+    },
+    {
+      "id": "stora-vaggen-mittendelen",
+      "title": "Stora väggen, mittendelen",
+      "body": ""
+    },
+    {
+      "id": "stora-vaggen-hogra-delen",
+      "title": "Stora väggen, högra delen",
+      "body": ""
+    },
+    {
+      "id": "latta-vaggen",
+      "title": "Lätta väggen",
+      "body": ""
+    },
+    {
       "id": "norra-huvudvaggen",
       "title": "Norra huvudväggen",
       "body": "Höger kolumn kategori:Saknar skiss [[kategori:Saknar vägbeskrivning] kategori:Saknar skrivarformatering Category:Småland"
@@ -46,6 +76,7 @@
       "type": "trad",
       "firstAscent": "Simon Talltorp -11",
       "description": "Leden ligger lite off, längst söder ut på det södra massivet. En mycket fin led som bjuder på gott om handjam. Traversera ut höger under det första taket och gå därefter rakt upp. Leden är delad av två hyllor och utsteget är bergets finaste utsiktsplats.",
+      "sectorId": "sodra-flanken",
       "source": {
         "id": "legacy:ovrakulla",
         "path": "mediawiki/Övrakulla.txt"
@@ -61,6 +92,7 @@
       "type": "trad",
       "firstAscent": "Simon Talltorp -11",
       "description": "Tydligt dieder. Övre delen kräver några större säkringar för komforten.",
+      "sectorId": "stora-vaggen-vanstra-delen",
       "source": {
         "id": "legacy:ovrakulla",
         "path": "mediawiki/Övrakulla.txt"
@@ -76,6 +108,7 @@
       "type": "trad",
       "firstAscent": "Kristoffer Hellberg -11",
       "description": "börjar vid Trainspotings utsteg. En kort uppstigningsled till toppen för den som hellre vill upp än ner.",
+      "sectorId": "stora-vaggen-vanstra-delen",
       "source": {
         "id": "legacy:ovrakulla",
         "path": "mediawiki/Övrakulla.txt"
@@ -91,6 +124,7 @@
       "type": "trad",
       "firstAscent": "Simon Talltorp -11",
       "description": "Börjar till höger om den stora granen. går rakt upp till en liten hylla och vidare upp igenom ett tak. Följer därefter två tydliga sprickor upp till stora hyllan.",
+      "sectorId": "stora-vaggen-mittendelen",
       "source": {
         "id": "legacy:ovrakulla",
         "path": "mediawiki/Övrakulla.txt"
@@ -106,6 +140,7 @@
       "type": "trad",
       "firstAscent": "Simon Talltorp -11",
       "description": "Klättra rakt upp till diedret tar slut, kliv lite höger och gå rakt upp en kort bit för att därefter ansluta till sprickorna strax till vänster om dig. Följ sprickan till hyllan.",
+      "sectorId": "stora-vaggen-mittendelen",
       "source": {
         "id": "legacy:ovrakulla",
         "path": "mediawiki/Övrakulla.txt"
@@ -121,6 +156,7 @@
       "type": "trad",
       "firstAscent": "Simon Talltorp -11",
       "description": "Gå upp till vänster under taketoch etablera dig i sprickan. Följ därefter den breda sprickan upp till toppen. Några camalot #3 och #4 behövs för den övre sprickan, ganska hög första säkring.",
+      "sectorId": "stora-vaggen-mittendelen",
       "source": {
         "id": "legacy:ovrakulla",
         "path": "mediawiki/Övrakulla.txt"
@@ -136,6 +172,7 @@
       "type": "trad",
       "firstAscent": "Tommy Schultz 80-talet",
       "description": "Det mäktiga diedret som blir brantare och brantare för att avsluta i vertikal klättring. några större kamsäkringar krävs för bekväm säkring.",
+      "sectorId": "stora-vaggen-hogra-delen",
       "source": {
         "id": "legacy:ovrakulla",
         "path": "mediawiki/Övrakulla.txt"
@@ -151,6 +188,7 @@
       "type": "trad",
       "firstAscent": "Simon Talltorp -11",
       "description": "Ett mäktigt kylskåp som klättras på facet efter att man klivit upp till höger om det. vuxet säkrad och inte särskilt onsightvänlig.",
+      "sectorId": "stora-vaggen-hogra-delen",
       "source": {
         "id": "legacy:ovrakulla",
         "path": "mediawiki/Övrakulla.txt"
@@ -166,6 +204,7 @@
       "type": "trad",
       "firstAscent": "Simon Talltorp -11",
       "description": "En ovanlig klättring som följer ett system av flareade sprickor. Bitvis runout och inte helt uppenbart säkrad.",
+      "sectorId": "stora-vaggen-hogra-delen",
       "source": {
         "id": "legacy:ovrakulla",
         "path": "mediawiki/Övrakulla.txt"
@@ -181,6 +220,7 @@
       "type": "trad",
       "firstAscent": "Simon Talltorp -11",
       "description": "Den tydliga sprickan mitt på väggen. Följ linjen till toppen.",
+      "sectorId": "latta-vaggen",
       "source": {
         "id": "legacy:ovrakulla",
         "path": "mediawiki/Övrakulla.txt"
@@ -196,6 +236,7 @@
       "type": "trad",
       "firstAscent": "Simon Talltorp -11",
       "description": "Går ca 1,5 meter till höger om EN NORSK. Undvik att använda EN NORSKs spricka då det är två oberoende linjer.",
+      "sectorId": "latta-vaggen",
       "source": {
         "id": "legacy:ovrakulla",
         "path": "mediawiki/Övrakulla.txt"
@@ -211,6 +252,7 @@
       "type": "Aid",
       "firstAscent": "Tommy Schultz och Janne Stenström 90-talet",
       "description": "Aidtur. Börjar troligtvis på vänstersidan av väggen, vid en kvarlämnad copperhead.",
+      "sectorId": "norra-huvudvaggen",
       "source": {
         "id": "legacy:ovrakulla",
         "path": "mediawiki/Övrakulla.txt"
@@ -221,7 +263,8 @@
     {
       "filename": "XXX",
       "caption": "",
-      "missing": true
+      "missing": true,
+      "sectorId": "leder"
     }
   ],
   "access": {

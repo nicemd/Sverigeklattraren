@@ -19,6 +19,21 @@
   ],
   "sections": [
     {
+      "id": "allmant",
+      "title": "Allmänt",
+      "body": ""
+    },
+    {
+      "id": "sektorer",
+      "title": "Sektorer",
+      "body": ""
+    },
+    {
+      "id": "vagbeskrivning",
+      "title": "Vägbeskrivning",
+      "body": ""
+    },
+    {
       "id": "traversen",
       "title": "Traversen",
       "body": "För att komma till traversen kör du genom Forsby. Efter Forsby får du en stor öppen yta på vänster sida med en bom. Blocken ligger innanför den öppna ytan."
@@ -50,6 +65,7 @@
       "type": "Travers V->H",
       "firstAscent": "Robert kreft",
       "description": "",
+      "sectorId": "traversen",
       "source": {
         "id": "legacy:forsby",
         "path": "mediawiki/Forsby.txt"
@@ -65,6 +81,7 @@
       "type": "Krimp",
       "firstAscent": "Mattias Flodin",
       "description": "",
+      "sectorId": "traversen",
       "source": {
         "id": "legacy:forsby",
         "path": "mediawiki/Forsby.txt"
@@ -80,6 +97,7 @@
       "type": "Krimp,Slopers,Aréte",
       "firstAscent": "Daniel Hultgren",
       "description": "Går på blocket till höger om \"Forsbytraversen\"",
+      "sectorId": "traversen",
       "source": {
         "id": "legacy:forsby",
         "path": "mediawiki/Forsby.txt"
@@ -95,6 +113,7 @@
       "type": "Krimp,Jug",
       "firstAscent": "David Hallman",
       "description": "stenen vid vägen. samma ställe som forsbytraversen",
+      "sectorId": "traversen",
       "source": {
         "id": "legacy:forsby",
         "path": "mediawiki/Forsby.txt"
@@ -110,6 +129,7 @@
       "type": "",
       "firstAscent": "David Hallman",
       "description": "",
+      "sectorId": "traversen",
       "source": {
         "id": "legacy:forsby",
         "path": "mediawiki/Forsby.txt"
@@ -125,6 +145,7 @@
       "type": "Slopers,Aréte",
       "firstAscent": "David Hallman",
       "description": "samma sten som novis.",
+      "sectorId": "traversen",
       "source": {
         "id": "legacy:forsby",
         "path": "mediawiki/Forsby.txt"
@@ -140,6 +161,7 @@
       "type": "Krimp",
       "firstAscent": "David Hallman",
       "description": "samma sten som novis.areten ingår inte.",
+      "sectorId": "traversen",
       "source": {
         "id": "legacy:forsby",
         "path": "mediawiki/Forsby.txt"
@@ -155,6 +177,7 @@
       "type": "Krimp,Travers V->H",
       "firstAscent": "David Hallman och Ronny Andersson",
       "description": "samma sten som giacometti. stenen ligger vid vägen nära forsby traversen. starta vid vänstra areten traversera hö avsluta med novis.",
+      "sectorId": "traversen",
       "source": {
         "id": "legacy:forsby",
         "path": "mediawiki/Forsby.txt"
@@ -170,6 +193,7 @@
       "type": "Krimp,Heel hook",
       "firstAscent": "David Hallman",
       "description": "stora blocket på andra sidan järnvägen.areten på vä sida av grottöppningen.starta på stora greppet,traversera vänster.",
+      "sectorId": "traversen",
       "source": {
         "id": "legacy:forsby",
         "path": "mediawiki/Forsby.txt"
@@ -185,6 +209,7 @@
       "type": "Krimp,Slopers,Överhäng,Heel hook",
       "firstAscent": "David Hallman",
       "description": "ligger på andra sidan järnvägen.starta på stora greppet långt ner på den överhängande areten.",
+      "sectorId": "traversen",
       "source": {
         "id": "legacy:forsby",
         "path": "mediawiki/Forsby.txt"
@@ -200,6 +225,7 @@
       "type": "Krimp,Highball",
       "firstAscent": "Ronny Andersson",
       "description": "Går på stora blocket bakom Forsbytravers stenen. Gå förbi traversen till blocket bakom då får ni en högsida av stenen på er högra sida. Längst ut till vänster på den höga sidan går problemet. Följ den stora hyllan upp och gå sedan rakt upp.",
+      "sectorId": "traversen",
       "source": {
         "id": "legacy:forsby",
         "path": "mediawiki/Forsby.txt"
@@ -215,6 +241,7 @@
       "type": "Krimp,Jug,",
       "firstAscent": "Torbjörn Molén",
       "description": "Går på stora blocket bakom Forsbytravers stenen. Gå förbi traversen till blocket bakom då får ni en högsida av stenen på er högra sida. På den vänstra aréten går problemet, starta sittande under kanten.",
+      "sectorId": "traversen",
       "source": {
         "id": "legacy:forsby",
         "path": "mediawiki/Forsby.txt"
@@ -230,6 +257,7 @@
       "type": "Krimp,Highball",
       "firstAscent": "Carola Bergström, Ronny Andersson",
       "description": "Går på stora blocket bakom Forsbytravers stenen. Gå förbi traversen till blocket bakom då får ni en högsida av stenen på er högra sida. I mitten på den höga sidan går problemet. Gå rakt upp utan att aréterna eller hyllan.",
+      "sectorId": "traversen",
       "source": {
         "id": "legacy:forsby",
         "path": "mediawiki/Forsby.txt"
@@ -245,6 +273,7 @@
       "type": "Krimp,Slopers,Highball",
       "firstAscent": "Carola Bergström, Ronny Andersson",
       "description": "Går på stora blocket bakom Forsbytravers stenen. Gå förbi traversen till blocket bakom då får ni en högsida av stenen på er högra sida. På den högra aréten går problemet.",
+      "sectorId": "traversen",
       "source": {
         "id": "legacy:forsby",
         "path": "mediawiki/Forsby.txt"
@@ -260,6 +289,7 @@
       "type": "Krimp,Slopers,Aréte",
       "firstAscent": "David Hallman",
       "description": "Går på traversblocket. Rakt upp på vänstra aréten och sen toppa ut åt höger, toppa ej ut rakt upp.",
+      "sectorId": "traversen",
       "source": {
         "id": "legacy:forsby",
         "path": "mediawiki/Forsby.txt"
@@ -275,6 +305,7 @@
       "type": "Krimp,Överhäng",
       "firstAscent": "david",
       "description": "Startar sittandes rakt under ståstarten.",
+      "sectorId": "traversen",
       "source": {
         "id": "legacy:forsby",
         "path": "mediawiki/Forsby.txt"
@@ -290,6 +321,7 @@
       "type": "Slopers,Överhäng,Jug",
       "firstAscent": "Ronny",
       "description": "Går på Davids nya block, när ni står framför den överhängande sidan är det den högra aréten.",
+      "sectorId": "traversen",
       "source": {
         "id": "legacy:forsby",
         "path": "mediawiki/Forsby.txt"
@@ -305,6 +337,7 @@
       "type": "Överhäng",
       "firstAscent": "David Hallman",
       "description": "Ligger på ett nytt block i forsby, snett hö efter järnvägen sett från traversen. Överhängsväggen till vänster om hö aret och snett höger.",
+      "sectorId": "traversen",
       "source": {
         "id": "legacy:forsby",
         "path": "mediawiki/Forsby.txt"
@@ -320,6 +353,7 @@
       "type": "Crimp",
       "firstAscent": "Torbjörn Molén",
       "description": "Samma block som bländad, fast på långsidan. etablerad start på två crimpar direkt till vänster om sprickan, gå sedan rakt upp utan att använda något till höger om sprickan.",
+      "sectorId": "traversen",
       "source": {
         "id": "legacy:forsby",
         "path": "mediawiki/Forsby.txt"
@@ -335,6 +369,7 @@
       "type": "Dyno",
       "firstAscent": "Ronny",
       "description": "Går på den vänstra överhängande delen, Starta på den tydliga listen dyno till kanten.",
+      "sectorId": "dyno-blocket-wintjes-fika-block",
       "source": {
         "id": "legacy:forsby",
         "path": "mediawiki/Forsby.txt"
@@ -350,6 +385,7 @@
       "type": "crimp",
       "firstAscent": "Thomas Nordqvist",
       "description": "Sittstart, Går till höger om forsby dynot på den högra aréten, använd endast en heelhook för vänstra foten i sprickan och toppa ut på den överhängande delen.",
+      "sectorId": "dyno-blocket-wintjes-fika-block",
       "source": {
         "id": "legacy:forsby",
         "path": "mediawiki/Forsby.txt"
@@ -365,6 +401,7 @@
       "type": "Krimp,Jug",
       "firstAscent": "Åsa Bengtsson Sjörs",
       "description": "Går mitt på väggen på motsatta sidan mot Forsby dynot.",
+      "sectorId": "dyno-blocket-wintjes-fika-block",
       "source": {
         "id": "legacy:forsby",
         "path": "mediawiki/Forsby.txt"
@@ -380,6 +417,7 @@
       "type": "Krimp",
       "firstAscent": "Torbjörn Molén",
       "description": "Går på sva väggen mot vägen, starta långt till vänster och toppa ur ungefär mitt på blocket.",
+      "sectorId": "dyno-blocket-wintjes-fika-block",
       "source": {
         "id": "legacy:forsby",
         "path": "mediawiki/Forsby.txt"
@@ -395,6 +433,7 @@
       "type": "jugg",
       "firstAscent": "Torbjörn Molén",
       "description": "Sittstart,Går på sva delen längst ut till höger mellan sprickan och aréten. Använd inget till vänster om sprickan.",
+      "sectorId": "dyno-blocket-wintjes-fika-block",
       "source": {
         "id": "legacy:forsby",
         "path": "mediawiki/Forsby.txt"
@@ -410,6 +449,7 @@
       "type": "jugg",
       "firstAscent": "Thomas wintje",
       "description": "Samma som kaffe med dopp men med stå start, Använd inget till vänster om sprickan.",
+      "sectorId": "dyno-blocket-wintjes-fika-block",
       "source": {
         "id": "legacy:forsby",
         "path": "mediawiki/Forsby.txt"
@@ -425,6 +465,7 @@
       "type": "crimp",
       "firstAscent": "Fredrik Andersson",
       "description": "etablerad start med vh på låg list och hh på bra sidtag. Till höger på sidan med Saving private Joel. Kanten är inte med.",
+      "sectorId": "dyno-blocket-wintjes-fika-block",
       "source": {
         "id": "legacy:forsby",
         "path": "mediawiki/Forsby.txt"
@@ -440,6 +481,7 @@
       "type": "slabb,jugg",
       "firstAscent": "Torbjörn Molén",
       "description": "Sittstart,Samma sida som nybörjargodis, starta på den tydliga hyllan vid den vänstra aréten gå sedan rakt upp mellan dom båda aréterna på den lite överhängande delen utan att använda sprickan till höger.",
+      "sectorId": "dyno-blocket-wintjes-fika-block",
       "source": {
         "id": "legacy:forsby",
         "path": "mediawiki/Forsby.txt"
@@ -455,6 +497,7 @@
       "type": "Krimp,Dyno",
       "firstAscent": "Ronny Andersson",
       "description": "Går på VHS blocket, när du står framför svasidan gå då till vänster om blocket. Börja på de tydliga greppen mitt på den höga vertikala väggen. Dyno till toppen.",
+      "sectorId": "vhs-blocket",
       "source": {
         "id": "legacy:forsby",
         "path": "mediawiki/Forsby.txt"
@@ -470,6 +513,7 @@
       "type": "Krimp,Slopers,Aréte",
       "firstAscent": "Ronny Andersson",
       "description": "Går på VHS blocket. När du står framför svaväggen så går problemet längs den vänstra aréten.",
+      "sectorId": "vhs-blocket",
       "source": {
         "id": "legacy:forsby",
         "path": "mediawiki/Forsby.txt"
@@ -485,6 +529,7 @@
       "type": "Krimp,Slopers,Reach",
       "firstAscent": "Robert Muskowitz, Ronny Andersson",
       "description": "Går på VHS blocket. När du står framför svaväggen går problemet precis runt den högra aréten.",
+      "sectorId": "vhs-blocket",
       "source": {
         "id": "legacy:forsby",
         "path": "mediawiki/Forsby.txt"
@@ -500,6 +545,7 @@
       "type": "Krimp,Reach",
       "firstAscent": "Robert Muskowitz",
       "description": "Går direkt till vänster om \"Ett litet hopp\" på VHS-blocket. Precis innan den vänstra aréten.",
+      "sectorId": "vhs-blocket",
       "source": {
         "id": "legacy:forsby",
         "path": "mediawiki/Forsby.txt"
@@ -515,6 +561,7 @@
       "type": "Krimp,Slopers,Överhäng",
       "firstAscent": "Patrick O, Ronny A",
       "description": "ligger efter vägen mot 3G masten, på vänster sida 80-100m före vändplanen gå rakt in i skogen 100- 150m så syns blocket. Problemet startar går på den högra aretén på den branta sidan, startar på dubbelundercling och sen rakt upp och åt vänster.",
+      "sectorId": "vhs-blocket",
       "source": {
         "id": "legacy:forsby",
         "path": "mediawiki/Forsby.txt"
@@ -530,6 +577,7 @@
       "type": "Slopers,Överhäng",
       "firstAscent": "David",
       "description": "Ligger på Grinchen blocket på andra sidan järnvägsspåret. Höger aret vid ingången mellan blocken. Start med vh i sidolist och hh långt ned på aret, klättra rakt upp.",
+      "sectorId": "vhs-blocket",
       "source": {
         "id": "legacy:forsby",
         "path": "mediawiki/Forsby.txt"
@@ -545,6 +593,7 @@
       "type": "Överhäng",
       "firstAscent": "david",
       "description": "Ligger på stora (nya) blocket på andra sidan järnvägen från forsbytraversen.Branta väggen till vä vid björken. VH på stora sidotaget och HH på tvåfingerskrimpen långt till höger.Troligen lättare om man når till stora sidotaget med HH.",
+      "sectorId": "vhs-blocket",
       "source": {
         "id": "legacy:forsby",
         "path": "mediawiki/Forsby.txt"

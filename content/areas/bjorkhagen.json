@@ -53,6 +53,7 @@
       "type": "",
       "firstAscent": "Mikael Söderström",
       "description": "Kruxet på mitten och en spännande avslutning gör denna highball.",
+      "sectorId": "fritidsvaggen",
       "source": {
         "id": "legacy:bjorkhagen",
         "path": "mediawiki/Björkhagen.txt"
@@ -68,6 +69,7 @@
       "type": "",
       "firstAscent": "Mikael Söderström",
       "description": "Trixig start följt av riktigt coola fingerhål. Kan fuskstartas en bit till vänster.",
+      "sectorId": "fritidsvaggen",
       "source": {
         "id": "legacy:bjorkhagen",
         "path": "mediawiki/Björkhagen.txt"
@@ -83,6 +85,7 @@
       "type": "",
       "firstAscent": "Mikael Söderström",
       "description": "Samma sittstart som stirra, följ areten en bit sen rakt upp.",
+      "sectorId": "parkeringsvaggen",
       "source": {
         "id": "legacy:bjorkhagen",
         "path": "mediawiki/Björkhagen.txt"
@@ -98,6 +101,7 @@
       "type": "",
       "firstAscent": "Mikael Söderström",
       "description": "Sittstart matchande på bra grepp. Kan vara lite luddigt var man ska ha fötterna i starten. Frihet under ansvar. Ha en tunn padda.",
+      "sectorId": "parkeringsvaggen",
       "source": {
         "id": "legacy:bjorkhagen",
         "path": "mediawiki/Björkhagen.txt"
@@ -113,6 +117,7 @@
       "type": "",
       "firstAscent": "Mikael Söderström",
       "description": "En variant på problem nr. 3 då det bra greppet till vänster används. Den sträckade linjen på bilden.",
+      "sectorId": "parkeringsvaggen",
       "source": {
         "id": "legacy:bjorkhagen",
         "path": "mediawiki/Björkhagen.txt"
@@ -128,6 +133,7 @@
       "type": "",
       "firstAscent": "Mikael Söderström",
       "description": "Crimpfest, gå rakt upp börjar i crimparna längst ner.",
+      "sectorId": "parkeringsvaggen",
       "source": {
         "id": "legacy:bjorkhagen",
         "path": "mediawiki/Björkhagen.txt"
@@ -143,6 +149,7 @@
       "type": "",
       "firstAscent": "Mikael Söderström",
       "description": "Börjar matchande på lilla crimpgreppet. Den gamla starten ligger numera på marken",
+      "sectorId": "traskvaggen",
       "source": {
         "id": "legacy:bjorkhagen",
         "path": "mediawiki/Björkhagen.txt"
@@ -158,6 +165,7 @@
       "type": "",
       "firstAscent": "Mikael Söderström",
       "description": "Start matchande på crimp fötterna på chips",
+      "sectorId": "traskvaggen",
       "source": {
         "id": "legacy:bjorkhagen",
         "path": "mediawiki/Björkhagen.txt"
@@ -173,6 +181,7 @@
       "type": "",
       "firstAscent": "Mikael Söderström",
       "description": "Samma start som föregående men följ sloperkanten och sen upp i Tott",
+      "sectorId": "traskvaggen",
       "source": {
         "id": "legacy:bjorkhagen",
         "path": "mediawiki/Björkhagen.txt"
@@ -188,6 +197,7 @@
       "type": "",
       "firstAscent": "Mikael Söderström",
       "description": "Kylskåpstart sedan ett flytt och sen var det klart",
+      "sectorId": "traskvaggen",
       "source": {
         "id": "legacy:bjorkhagen",
         "path": "mediawiki/Björkhagen.txt"
@@ -203,6 +213,7 @@
       "type": "",
       "firstAscent": "Robbin",
       "description": "",
+      "sectorId": "traskvaggen-2",
       "source": {
         "id": "legacy:bjorkhagen",
         "path": "mediawiki/Björkhagen.txt"
@@ -218,6 +229,7 @@
       "type": "",
       "firstAscent": "Niklas",
       "description": "",
+      "sectorId": "traskvaggen-2",
       "source": {
         "id": "legacy:bjorkhagen",
         "path": "mediawiki/Björkhagen.txt"
@@ -233,6 +245,7 @@
       "type": "",
       "firstAscent": "Niklas",
       "description": "",
+      "sectorId": "traskvaggen-2",
       "source": {
         "id": "legacy:bjorkhagen",
         "path": "mediawiki/Björkhagen.txt"
@@ -243,27 +256,32 @@
     {
       "filename": "Björkhagen_vänstra_delen.jpg",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "fritidsvaggen"
     },
     {
       "filename": "Björkhagen_högra_delen.jpg",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "fritidsvaggen"
     },
     {
       "filename": "Björkhagen_högra_delen_2.jpg",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "fritidsvaggen"
     },
     {
       "filename": "Björkhagen_parkeringen2.jpg",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "parkeringsvaggen"
     },
     {
       "filename": "Bild.JPG",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "traskvaggen"
     }
   ],
   "access": {

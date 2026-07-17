@@ -17,6 +17,21 @@
   ],
   "sections": [
     {
+      "id": "landa",
+      "title": "Landa",
+      "body": ""
+    },
+    {
+      "id": "sandsnas",
+      "title": "Sandsnäs",
+      "body": ""
+    },
+    {
+      "id": "olbo",
+      "title": "Ölbo",
+      "body": ""
+    },
+    {
       "id": "kraftledningsblocken",
       "title": "Kraftledningsblocken",
       "body": "Kategori:Gävle Kategori:Bouldering Kategori:Bimbo Kategori:Behöver kvalitetssäkras Kategori:Saknar karta Kategori:Saknar koordinater Kategori:Saknar skrivarformattering Kategori:Saknar skiss"
@@ -33,6 +48,7 @@
       "type": "Krimp,Överhäng",
       "firstAscent": "Stefan Eklund",
       "description": "Landablocken. Den överhängande arêten mellan de största blocken.",
+      "sectorId": "landa",
       "source": {
         "id": "legacy:hedesunda",
         "path": "mediawiki/Hedesunda.txt"
@@ -48,6 +64,7 @@
       "type": "Krimp,Slopers,Överhäng",
       "firstAscent": "Stefan E",
       "description": "Landablocken. Kroppstung sittstartsförlängning till Wayland.",
+      "sectorId": "landa",
       "source": {
         "id": "legacy:hedesunda",
         "path": "mediawiki/Hedesunda.txt"
@@ -63,6 +80,7 @@
       "type": "",
       "firstAscent": "Stefan E",
       "description": "Landablocken. Sittstarta den låga arêten på det största blocket.(variant; använd inte greppen till vänster 6c).",
+      "sectorId": "landa",
       "source": {
         "id": "legacy:hedesunda",
         "path": "mediawiki/Hedesunda.txt"
@@ -78,6 +96,7 @@
       "type": "Krimp",
       "firstAscent": "Stefan E",
       "description": "Landablocken. Den fina väggen höger om trädet vid tommy boy.",
+      "sectorId": "landa",
       "source": {
         "id": "legacy:hedesunda",
         "path": "mediawiki/Hedesunda.txt"
@@ -93,6 +112,7 @@
       "type": "Hangel",
       "firstAscent": "H Skoog",
       "description": "Ett vasst uppvärmningsproblem. Börja sittandes under taket där det undre blocket är kluvet, traversera runt vänstra hörnet och vidare längst bort på den låga väggen. Toppa ur..",
+      "sectorId": "landa",
       "source": {
         "id": "legacy:hedesunda",
         "path": "mediawiki/Hedesunda.txt"
@@ -108,6 +128,7 @@
       "type": "Krimp,Pinch,Dyno",
       "firstAscent": "Stefan Eklund",
       "description": "Lättaste vägen upp vid arêten på sockerbiten. Supercoolt sluggerproblem som kanske är hårdare.",
+      "sectorId": "landa",
       "source": {
         "id": "legacy:hedesunda",
         "path": "mediawiki/Hedesunda.txt"
@@ -123,6 +144,7 @@
       "type": "Krimp,Dyno",
       "firstAscent": "Stefan E",
       "description": "Ett par meter höger om Blade, rakt uppför väggen på krimpar.",
+      "sectorId": "landa",
       "source": {
         "id": "legacy:hedesunda",
         "path": "mediawiki/Hedesunda.txt"
@@ -138,6 +160,7 @@
       "type": "Krimp,Överhäng",
       "firstAscent": "Stefan E",
       "description": "Blocket vid badplatsen vid Sandsnäs. Sittstart vid flaket i överhänget, klättra upp å höger. 3 stjärnor så fort jag borstat den bättre...",
+      "sectorId": "sandsnas",
       "source": {
         "id": "legacy:hedesunda",
         "path": "mediawiki/Hedesunda.txt"
@@ -153,6 +176,7 @@
       "type": "Arête",
       "firstAscent": "H Skoog",
       "description": "Arêten vid det lilla taket på blocket på hygget. Sittstarta vid arêten och snedda in under taket, klättra upp och mantla ur åt vänster. Allt inom räckhåll från arêten är OK. Fu, ståstarten från grepp under taket, är 6B+",
+      "sectorId": "olbo",
       "source": {
         "id": "legacy:hedesunda",
         "path": "mediawiki/Hedesunda.txt"
@@ -168,6 +192,7 @@
       "type": "Mantling",
       "firstAscent": "H Skoog",
       "description": "Blocket på hygget. Börja med händerna på hyllan och mantla upp.",
+      "sectorId": "olbo",
       "source": {
         "id": "legacy:hedesunda",
         "path": "mediawiki/Hedesunda.txt"
@@ -183,6 +208,7 @@
       "type": "Arête",
       "firstAscent": "H Skoog",
       "description": "Den vänstra arêten på blocket i skogskanten",
+      "sectorId": "olbo",
       "source": {
         "id": "legacy:hedesunda",
         "path": "mediawiki/Hedesunda.txt"
@@ -198,6 +224,7 @@
       "type": "Vägg",
       "firstAscent": "H Skoog",
       "description": "Blocket i skogskanten. Starta vid den halvmåneformade listen och gå rakt upp",
+      "sectorId": "olbo",
       "source": {
         "id": "legacy:hedesunda",
         "path": "mediawiki/Hedesunda.txt"
@@ -213,6 +240,7 @@
       "type": "Slabb",
       "firstAscent": "?",
       "description": "Stora stenen. Upp vid den gröna pilen på slabben vid sidan längst bort ifrån vägen",
+      "sectorId": "kraftledningsblocken",
       "source": {
         "id": "legacy:hedesunda",
         "path": "mediawiki/Hedesunda.txt"
@@ -228,6 +256,7 @@
       "type": "Mantling",
       "firstAscent": "H Skoog",
       "description": "Ett litet block i skogskanten, lite längre bort från vägen. Sittstart från bra grepp vid den lätt överhängande sidan",
+      "sectorId": "kraftledningsblocken",
       "source": {
         "id": "legacy:hedesunda",
         "path": "mediawiki/Hedesunda.txt"
@@ -243,6 +272,7 @@
       "type": "krimp, sloper",
       "firstAscent": "H Skoog",
       "description": "Lågt block, synligt ifrån vägen, nära parkeringen. Sittstart vid rampen under överhänget",
+      "sectorId": "kraftledningsblocken",
       "source": {
         "id": "legacy:hedesunda",
         "path": "mediawiki/Hedesunda.txt"

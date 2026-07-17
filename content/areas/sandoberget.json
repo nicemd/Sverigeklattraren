@@ -50,6 +50,7 @@
       "type": "trad",
       "firstAscent": "Kay von Damm -95",
       "description": "",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:sandoberget",
         "path": "mediawiki/Sandöberget.txt"
@@ -65,6 +66,7 @@
       "type": "mix",
       "firstAscent": "Mats Olofsson, Tobas Norenstedt -95",
       "description": "",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:sandoberget",
         "path": "mediawiki/Sandöberget.txt"
@@ -80,6 +82,7 @@
       "type": "trad",
       "firstAscent": "Kay von Damm, Jonas Paulsson -91",
       "description": "",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:sandoberget",
         "path": "mediawiki/Sandöberget.txt"
@@ -95,6 +98,7 @@
       "type": "mix",
       "firstAscent": "Kay von Damm -91",
       "description": "",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:sandoberget",
         "path": "mediawiki/Sandöberget.txt"
@@ -110,6 +114,7 @@
       "type": "mix",
       "firstAscent": "Buster Delin, Kay von Damm -91",
       "description": "",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:sandoberget",
         "path": "mediawiki/Sandöberget.txt"
@@ -125,6 +130,7 @@
       "type": "mix",
       "firstAscent": "Kay von Damm, Mats Olofsson -93",
       "description": "",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:sandoberget",
         "path": "mediawiki/Sandöberget.txt"
@@ -140,6 +146,7 @@
       "type": "mix",
       "firstAscent": "Per Calleberg, Jonas Paulsson -91",
       "description": "",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:sandoberget",
         "path": "mediawiki/Sandöberget.txt"
@@ -155,6 +162,7 @@
       "type": "mix",
       "firstAscent": "Mats Olofsson, Kay von Damm -93",
       "description": "",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:sandoberget",
         "path": "mediawiki/Sandöberget.txt"
@@ -170,6 +178,7 @@
       "type": "trad",
       "firstAscent": "Mats Olofsson, Annika Stunke -93",
       "description": "",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:sandoberget",
         "path": "mediawiki/Sandöberget.txt"
@@ -185,6 +194,7 @@
       "type": "trad",
       "firstAscent": "Jonas Paulsson, Kay von Damm -91",
       "description": "",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:sandoberget",
         "path": "mediawiki/Sandöberget.txt"
@@ -195,7 +205,8 @@
     {
       "filename": "Sandöberget.png",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "leder"
     }
   ],
   "access": {

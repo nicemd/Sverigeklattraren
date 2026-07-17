@@ -21,6 +21,11 @@
       "body": "Liten klippa med bra topprepsankare. Ostvänd och har sol på förmiddagen, torkar ganska snabbt. Klättring i graderna runt 5-6 runt 8m hög. På sina ställen mossigt så ta med en borste."
     },
     {
+      "id": "karta",
+      "title": "Karta",
+      "body": ""
+    },
+    {
       "id": "historia",
       "title": "Historia",
       "body": "Vattenledningsparken finns det gamla Åsenverket, dvs Åsendammen med sina tre infiltrationsdammar. Från 1860-talet fram till 1958 var Åsenverket den vattenreservoar som försåg Jönköpings gamla stad med vatten. De gamla fontänerna i infiltrationsdammarna är åter i bruk och tack vare självtryck sprutar de vatten året om. Härigenom bildas under extremt kalla vinterperioder isskulpturer."
@@ -29,6 +34,11 @@
       "id": "vagbeskrivning",
       "title": "Vägbeskrivning",
       "body": "Parkering mitt emot \"fontänerna\".Från parkeringen, vandra tillbaka efter vägen. Följ stigen till höger ner bland träden."
+    },
+    {
+      "id": "leder",
+      "title": "Leder",
+      "body": ""
     },
     {
       "id": "ovrigt",
@@ -47,6 +57,7 @@
       "type": "sport",
       "firstAscent": "",
       "description": "",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:vattenledningsparken",
         "path": "mediawiki/Vattenledningsparken.txt"
@@ -62,6 +73,7 @@
       "type": "sport",
       "firstAscent": "",
       "description": "Svårare om man är kort",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:vattenledningsparken",
         "path": "mediawiki/Vattenledningsparken.txt"
@@ -77,6 +89,7 @@
       "type": "sport",
       "firstAscent": "",
       "description": "Mossig i slutet.",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:vattenledningsparken",
         "path": "mediawiki/Vattenledningsparken.txt"
@@ -92,6 +105,7 @@
       "type": "sport",
       "firstAscent": "",
       "description": "Topprepsvariant på led nr 3",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:vattenledningsparken",
         "path": "mediawiki/Vattenledningsparken.txt"
@@ -107,6 +121,7 @@
       "type": "sport",
       "firstAscent": "",
       "description": "toppankare saknas men verkar vara lätt klättring från sista bulten. Väldigt mossig så ta med borste.",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:vattenledningsparken",
         "path": "mediawiki/Vattenledningsparken.txt"
@@ -117,12 +132,14 @@
     {
       "filename": "Vattenledningsparkenv.jpg",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "vagbeskrivning"
     },
     {
       "filename": "Vattenledningsparkenskiss.jpg",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "leder"
     }
   ],
   "access": {

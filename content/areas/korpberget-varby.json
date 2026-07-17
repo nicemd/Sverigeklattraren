@@ -37,6 +37,21 @@
       "body": "titel=Korpberget-Varby lat=17868410 long=59265240 Åk E4:an söderut, tag mot \"Vårby, Huddinge, Väg 259\". Vid T-korsningen tag höger mot Vårby Gård. Kör förbi Vårbybadet och parkera vid parkeringsplats skyltad \"Ångbåtsbryggan\". Gå sen antingen längst vattnet till berget, eller gå längst Vårbackavägen. Vid vändplanen fortsätt uppför backen och sväng vänster inpå Pilgrimsvägen. När Pilgrimsvägen tar slut tag vänster och följ stigen som leder fram till toppen. Det finns inte någon laglig parkeringsmöjlighet vid Vårbackavägen eller Pilgrimsvägen. Vändplanen på Pilgrimsvägen är inte en parkeringsplats. Annars T-bana till Vårby gård och cirka 1 km promenad."
     },
     {
+      "id": "leder",
+      "title": "Leder",
+      "body": ""
+    },
+    {
+      "id": "nordvaggen",
+      "title": "Nordväggen",
+      "body": ""
+    },
+    {
+      "id": "vanstra-vaggen",
+      "title": "Vänstra väggen",
+      "body": ""
+    },
+    {
       "id": "hogra-vaggen",
       "title": "Högra väggen",
       "body": "på aréten till vänster om orginalet. }} . Går i en tunn spricka mellan 16 och 17.}} Kategori:Trad Kategori:Mix Kategori:Stockholm Kategori:Västra Södertörn Kategori:Saknar kolumner"
@@ -53,6 +68,7 @@
       "type": "trad",
       "firstAscent": "Per Sandström, Lars Svadängs -77",
       "description": "Småbruten klättring förbi en tall upp emot taket som kringgås åt vänster. Enligt gamla stockholmsföraren skulle delar av insteget ha rasat ner, men det är en överdrift. Även om det är lite blockigt nere vid marken är själva klättringen intakt och fin. Undvik dock klättring på denna kant av berget under häckningssäsong (korp)!",
+      "sectorId": "nordvaggen",
       "source": {
         "id": "legacy:korpberget-varby",
         "path": "mediawiki/Korpberget (Vårby).txt"
@@ -68,6 +84,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "Enligt gamla stockholmsföraren kan hela denna led ha rasat ned vilket inte stämmer. Det är obehagligt löst i nedre delen men övre halvan är oförändrad (men kraftigt igenvuxen).",
+      "sectorId": "nordvaggen",
       "source": {
         "id": "legacy:korpberget-varby",
         "path": "mediawiki/Korpberget (Vårby).txt"
@@ -83,6 +100,7 @@
       "type": "mix",
       "firstAscent": "Buster Delin, Kay von Damm -90",
       "description": "",
+      "sectorId": "vanstra-vaggen",
       "source": {
         "id": "legacy:korpberget-varby",
         "path": "mediawiki/Korpberget (Vårby).txt"
@@ -98,6 +116,7 @@
       "type": "mix",
       "firstAscent": "Jan Nyström, Per-Olof Bergström -72",
       "description": "",
+      "sectorId": "vanstra-vaggen",
       "source": {
         "id": "legacy:korpberget-varby",
         "path": "mediawiki/Korpberget (Vårby).txt"
@@ -113,6 +132,7 @@
       "type": "mix",
       "firstAscent": "Kay von Damm, Mats Olofsson -93",
       "description": "",
+      "sectorId": "vanstra-vaggen",
       "source": {
         "id": "legacy:korpberget-varby",
         "path": "mediawiki/Korpberget (Vårby).txt"
@@ -128,6 +148,7 @@
       "type": "trad",
       "firstAscent": "Jan Nyström, Per-Olof Bergström -72 / Jan Liliemark, Lars Svadängs -77",
       "description": "",
+      "sectorId": "vanstra-vaggen",
       "source": {
         "id": "legacy:korpberget-varby",
         "path": "mediawiki/Korpberget (Vårby).txt"
@@ -143,6 +164,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "",
+      "sectorId": "vanstra-vaggen",
       "source": {
         "id": "legacy:korpberget-varby",
         "path": "mediawiki/Korpberget (Vårby).txt"
@@ -158,6 +180,7 @@
       "type": "trad",
       "firstAscent": "Jan Liliemark -77",
       "description": "Flera varianter är möjliga i nedre delen. Högre upp blir det layback på fingergrepp.",
+      "sectorId": "vanstra-vaggen",
       "source": {
         "id": "legacy:korpberget-varby",
         "path": "mediawiki/Korpberget (Vårby).txt"
@@ -173,6 +196,7 @@
       "type": "trad",
       "firstAscent": "Göran Sahlin, Björn Peck -8?",
       "description": "Ganska svårsäkrad i övre delen.",
+      "sectorId": "vanstra-vaggen",
       "source": {
         "id": "legacy:korpberget-varby",
         "path": "mediawiki/Korpberget (Vårby).txt"
@@ -188,6 +212,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "",
+      "sectorId": "vanstra-vaggen",
       "source": {
         "id": "legacy:korpberget-varby",
         "path": "mediawiki/Korpberget (Vårby).txt"
@@ -203,6 +228,7 @@
       "type": "trad",
       "firstAscent": "Lars Svadängs, Per Sandström -77",
       "description": "",
+      "sectorId": "vanstra-vaggen",
       "source": {
         "id": "legacy:korpberget-varby",
         "path": "mediawiki/Korpberget (Vårby).txt"
@@ -218,6 +244,7 @@
       "type": "trad",
       "firstAscent": "Jan Nyström, L Lövgren -72",
       "description": "Fast och fint i början, men högre upp finns ett par jätteflak som inte känns helt solida även om de suttit i många år.",
+      "sectorId": "vanstra-vaggen",
       "source": {
         "id": "legacy:korpberget-varby",
         "path": "mediawiki/Korpberget (Vårby).txt"
@@ -233,6 +260,7 @@
       "type": "mix",
       "firstAscent": "Claes Jelinek -86",
       "description": "",
+      "sectorId": "vanstra-vaggen",
       "source": {
         "id": "legacy:korpberget-varby",
         "path": "mediawiki/Korpberget (Vårby).txt"
@@ -248,6 +276,7 @@
       "type": "mix",
       "firstAscent": "Jan Nyström, Lars Cronlund -72 ff: Jan Liliemark, Patrik Andersson -86",
       "description": "",
+      "sectorId": "vanstra-vaggen",
       "source": {
         "id": "legacy:korpberget-varby",
         "path": "mediawiki/Korpberget (Vårby).txt"
@@ -263,6 +292,7 @@
       "type": "trad",
       "firstAscent": "Jan Nyström, Torbjörn Berg -72",
       "description": "Utsteg i Korpleden",
+      "sectorId": "hogra-vaggen",
       "source": {
         "id": "legacy:korpberget-varby",
         "path": "mediawiki/Korpberget (Vårby).txt"
@@ -278,6 +308,7 @@
       "type": "mix",
       "firstAscent": "Buster Delin, Kay von Damm -90",
       "description": "Alternativt utsteg till på aréten till vänster om orginalet.",
+      "sectorId": "hogra-vaggen",
       "source": {
         "id": "legacy:korpberget-varby",
         "path": "mediawiki/Korpberget (Vårby).txt"
@@ -293,6 +324,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "",
+      "sectorId": "hogra-vaggen",
       "source": {
         "id": "legacy:korpberget-varby",
         "path": "mediawiki/Korpberget (Vårby).txt"
@@ -308,6 +340,7 @@
       "type": "trad",
       "firstAscent": "Kenneth Nolkrantz -77",
       "description": "Alternativt utsteg till . Går i en tunn spricka mellan 16 och 17.",
+      "sectorId": "hogra-vaggen",
       "source": {
         "id": "legacy:korpberget-varby",
         "path": "mediawiki/Korpberget (Vårby).txt"
@@ -323,6 +356,7 @@
       "type": "mix",
       "firstAscent": "Gary Hansson, Tomas Hansson -88",
       "description": "",
+      "sectorId": "hogra-vaggen",
       "source": {
         "id": "legacy:korpberget-varby",
         "path": "mediawiki/Korpberget (Vårby).txt"
@@ -338,6 +372,7 @@
       "type": "trad",
       "firstAscent": "Jan Liliemark, Rikard Hedman -84",
       "description": "Läskig, svår och farlig",
+      "sectorId": "hogra-vaggen",
       "source": {
         "id": "legacy:korpberget-varby",
         "path": "mediawiki/Korpberget (Vårby).txt"
@@ -353,6 +388,7 @@
       "type": "mix",
       "firstAscent": "Claes Jelinek, Per Julius -88",
       "description": "",
+      "sectorId": "hogra-vaggen",
       "source": {
         "id": "legacy:korpberget-varby",
         "path": "mediawiki/Korpberget (Vårby).txt"
@@ -368,6 +404,7 @@
       "type": "trad",
       "firstAscent": "Choe Brooks, Jan Liliemark -80",
       "description": "",
+      "sectorId": "hogra-vaggen",
       "source": {
         "id": "legacy:korpberget-varby",
         "path": "mediawiki/Korpberget (Vårby).txt"
@@ -383,6 +420,7 @@
       "type": "",
       "firstAscent": "Per Julius, Claes Jelinek -88",
       "description": "",
+      "sectorId": "hogra-vaggen",
       "source": {
         "id": "legacy:korpberget-varby",
         "path": "mediawiki/Korpberget (Vårby).txt"
@@ -398,6 +436,7 @@
       "type": "trad",
       "firstAscent": "Claes Jelinek, Per Julius -88",
       "description": "Alternativ start till 21 och 22.",
+      "sectorId": "hogra-vaggen",
       "source": {
         "id": "legacy:korpberget-varby",
         "path": "mediawiki/Korpberget (Vårby).txt"
@@ -413,6 +452,7 @@
       "type": "mix",
       "firstAscent": "Per Julius, Claes Jelinek -88",
       "description": "",
+      "sectorId": "hogra-vaggen",
       "source": {
         "id": "legacy:korpberget-varby",
         "path": "mediawiki/Korpberget (Vårby).txt"
@@ -428,6 +468,7 @@
       "type": "aid",
       "firstAscent": "Ludde Hagberg, Jesper Andersson -95",
       "description": "",
+      "sectorId": "hogra-vaggen",
       "source": {
         "id": "legacy:korpberget-varby",
         "path": "mediawiki/Korpberget (Vårby).txt"
@@ -443,6 +484,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "",
+      "sectorId": "hogra-vaggen",
       "source": {
         "id": "legacy:korpberget-varby",
         "path": "mediawiki/Korpberget (Vårby).txt"
@@ -458,6 +500,7 @@
       "type": "mix",
       "firstAscent": "Per-Olof Lidström, Roger Pyddoke -82",
       "description": "",
+      "sectorId": "hogra-vaggen",
       "source": {
         "id": "legacy:korpberget-varby",
         "path": "mediawiki/Korpberget (Vårby).txt"
@@ -473,6 +516,7 @@
       "type": "trad",
       "firstAscent": "Kenth Lindström -73",
       "description": "",
+      "sectorId": "hogra-vaggen",
       "source": {
         "id": "legacy:korpberget-varby",
         "path": "mediawiki/Korpberget (Vårby).txt"
@@ -488,6 +532,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "",
+      "sectorId": "hogra-vaggen",
       "source": {
         "id": "legacy:korpberget-varby",
         "path": "mediawiki/Korpberget (Vårby).txt"
@@ -503,6 +548,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "",
+      "sectorId": "hogra-vaggen",
       "source": {
         "id": "legacy:korpberget-varby",
         "path": "mediawiki/Korpberget (Vårby).txt"
@@ -518,6 +564,7 @@
       "type": "trad",
       "firstAscent": "Kenth Lindström -7?",
       "description": "",
+      "sectorId": "hogra-vaggen",
       "source": {
         "id": "legacy:korpberget-varby",
         "path": "mediawiki/Korpberget (Vårby).txt"
@@ -528,12 +575,14 @@
     {
       "filename": "Korpberget.jpg",
       "caption": "Per Lindh",
-      "missing": false
+      "missing": false,
+      "sectorId": "om-korpberget"
     },
     {
       "filename": "Korpberget-skiss.gif",
       "caption": "Skiss över Korpberget",
-      "missing": false
+      "missing": false,
+      "sectorId": "leder"
     }
   ],
   "access": {

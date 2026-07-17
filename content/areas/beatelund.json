@@ -37,9 +37,19 @@
       "body": "titel=Beatelund lat=18361070 long=59292080 Kör mot Ingarö, sväng mot Beatelund innan bron. Efter 1,4 km passeras en flott grind på v sida. Efter ytterligare 400m gör vägen en skarp högersväng. Parkera här. Gå in i skogen och ta sikte mot högsta punkten. Rakt nedanför ligger röda väggen och th går Cabragg."
     },
     {
+      "id": "leder",
+      "title": "Leder",
+      "body": ""
+    },
+    {
       "id": "sidovaggen",
       "title": "Sidoväggen",
       "body": "Instegen till Kladdragg, Cabragg och Sponken är på en tämligen exponerad hylla. Ta med nått (en friend typiskt) för att sätta fast säkringsmannen för att undvika tandemfall innan första bulten är klippt. Dessa leder samt Borsten Torsten har ett gemensamt toppankare med två bultar som borde bytas ut/ändras. Dels sitter hängarna ett par centimeter ut från berget med ett tiotal brickor emellan. Kanske allvarligare är att ringhängaren som används inte förbunden med den andra bulten. I stället har man monterat kedjan i expanderpinnen under (dvs händer något med den så floppar också backupen...)"
+    },
+    {
+      "id": "overhangande-vaggen",
+      "title": "Överhängande väggen",
+      "body": ""
     },
     {
       "id": "svavaggen",
@@ -63,6 +73,7 @@
       "type": "sport",
       "firstAscent": "Jesper Andersson, Christer Jansson -96",
       "description": "Snarare 6b.",
+      "sectorId": "sidovaggen",
       "source": {
         "id": "legacy:beatelund",
         "path": "mediawiki/Beatelund.txt"
@@ -78,6 +89,7 @@
       "type": "mix",
       "firstAscent": "Mats Olofsson -95",
       "description": "",
+      "sectorId": "sidovaggen",
       "source": {
         "id": "legacy:beatelund",
         "path": "mediawiki/Beatelund.txt"
@@ -93,6 +105,7 @@
       "type": "mix",
       "firstAscent": "Mats Olofsson, Marco Kupiainen -97",
       "description": "",
+      "sectorId": "sidovaggen",
       "source": {
         "id": "legacy:beatelund",
         "path": "mediawiki/Beatelund.txt"
@@ -108,6 +121,7 @@
       "type": "sport",
       "firstAscent": "Mats Olofsson, Claes Thornberg -97",
       "description": "",
+      "sectorId": "sidovaggen",
       "source": {
         "id": "legacy:beatelund",
         "path": "mediawiki/Beatelund.txt"
@@ -123,6 +137,7 @@
       "type": "trad",
       "firstAscent": "Ludde Hagberg, Christer Jansson, Mats Olofsson -96",
       "description": "",
+      "sectorId": "sidovaggen",
       "source": {
         "id": "legacy:beatelund",
         "path": "mediawiki/Beatelund.txt"
@@ -138,6 +153,7 @@
       "type": "sport",
       "firstAscent": "Mats Olofsson, Marco Kupiainen -96",
       "description": "",
+      "sectorId": "sidovaggen",
       "source": {
         "id": "legacy:beatelund",
         "path": "mediawiki/Beatelund.txt"
@@ -153,6 +169,7 @@
       "type": "projekt",
       "firstAscent": "",
       "description": "Till höger om FTW",
+      "sectorId": "sidovaggen",
       "source": {
         "id": "legacy:beatelund",
         "path": "mediawiki/Beatelund.txt"
@@ -168,6 +185,7 @@
       "type": "trad",
       "firstAscent": "Christer Jansson, Ludde Hagberg -96",
       "description": "",
+      "sectorId": "sidovaggen",
       "source": {
         "id": "legacy:beatelund",
         "path": "mediawiki/Beatelund.txt"
@@ -183,6 +201,7 @@
       "type": "solo",
       "firstAscent": "Marco Kupiainen -96",
       "description": "",
+      "sectorId": "sidovaggen",
       "source": {
         "id": "legacy:beatelund",
         "path": "mediawiki/Beatelund.txt"
@@ -198,6 +217,7 @@
       "type": "sport",
       "firstAscent": "Marco Kupiainen, Mats Olofsson -97",
       "description": "Massor med mer eller mindre lösa grepp och steg! Om du inte kan låta bli att klättra leden så bör säkringsmannen bära hjälm!!",
+      "sectorId": "sidovaggen",
       "source": {
         "id": "legacy:beatelund",
         "path": "mediawiki/Beatelund.txt"
@@ -213,6 +233,7 @@
       "type": "sport",
       "firstAscent": "Thomas Eriksson-07",
       "description": "Går längs aréten tv om \"Den maskerade..\".",
+      "sectorId": "overhangande-vaggen",
       "source": {
         "id": "legacy:beatelund",
         "path": "mediawiki/Beatelund.txt"
@@ -228,6 +249,7 @@
       "type": "sport",
       "firstAscent": "Mats Olofsson, Claes Thornberg, Peter Andersson -99",
       "description": "",
+      "sectorId": "overhangande-vaggen",
       "source": {
         "id": "legacy:beatelund",
         "path": "mediawiki/Beatelund.txt"
@@ -243,6 +265,7 @@
       "type": "sport",
       "firstAscent": "Mats Olofsson, Peter Andersson -99",
       "description": "",
+      "sectorId": "overhangande-vaggen",
       "source": {
         "id": "legacy:beatelund",
         "path": "mediawiki/Beatelund.txt"
@@ -258,6 +281,7 @@
       "type": "sport",
       "firstAscent": "Johan Luhr",
       "description": "Kort med markant krux",
+      "sectorId": "overhangande-vaggen",
       "source": {
         "id": "legacy:beatelund",
         "path": "mediawiki/Beatelund.txt"
@@ -273,6 +297,7 @@
       "type": "sport",
       "firstAscent": "Claes Thornberg",
       "description": "Tung och överhängande",
+      "sectorId": "overhangande-vaggen",
       "source": {
         "id": "legacy:beatelund",
         "path": "mediawiki/Beatelund.txt"
@@ -288,6 +313,7 @@
       "type": "sport",
       "firstAscent": "Mikael Widerberg -99",
       "description": "Brant",
+      "sectorId": "overhangande-vaggen",
       "source": {
         "id": "legacy:beatelund",
         "path": "mediawiki/Beatelund.txt"
@@ -303,6 +329,7 @@
       "type": "sport",
       "firstAscent": "Johan Luhr -99",
       "description": "",
+      "sectorId": "overhangande-vaggen",
       "source": {
         "id": "legacy:beatelund",
         "path": "mediawiki/Beatelund.txt"
@@ -318,6 +345,7 @@
       "type": "sport",
       "firstAscent": "Mikael Widerberg",
       "description": "Svårt insteg med dåligt placerad bult",
+      "sectorId": "overhangande-vaggen",
       "source": {
         "id": "legacy:beatelund",
         "path": "mediawiki/Beatelund.txt"
@@ -333,6 +361,7 @@
       "type": "mix",
       "firstAscent": "Mats Olofsson, Peter Andersson, Claes Thornberg -98",
       "description": "",
+      "sectorId": "svavaggen",
       "source": {
         "id": "legacy:beatelund",
         "path": "mediawiki/Beatelund.txt"
@@ -348,6 +377,7 @@
       "type": "trad",
       "firstAscent": "Claes Thornberg",
       "description": "Alt insteg till Bamsiga baguetter",
+      "sectorId": "svavaggen",
       "source": {
         "id": "legacy:beatelund",
         "path": "mediawiki/Beatelund.txt"
@@ -363,6 +393,7 @@
       "type": "trad",
       "firstAscent": "Mats Olofsson, Peter Andersson -97",
       "description": "Kanontrevlig klättring och förvånansvärt välsäkrad med ett par små friends i början.",
+      "sectorId": "svavaggen",
       "source": {
         "id": "legacy:beatelund",
         "path": "mediawiki/Beatelund.txt"
@@ -378,6 +409,7 @@
       "type": "trad",
       "firstAscent": "Mats Olofsson, Peter Andersson -97",
       "description": "",
+      "sectorId": "svavaggen",
       "source": {
         "id": "legacy:beatelund",
         "path": "mediawiki/Beatelund.txt"
@@ -393,6 +425,7 @@
       "type": "mix",
       "firstAscent": "Mats Olofsson -97",
       "description": "",
+      "sectorId": "svavaggen",
       "source": {
         "id": "legacy:beatelund",
         "path": "mediawiki/Beatelund.txt"
@@ -408,6 +441,7 @@
       "type": "trad",
       "firstAscent": "Claes Thornberg -97",
       "description": "Avsluta med Dubbla militärkallingar",
+      "sectorId": "svavaggen",
       "source": {
         "id": "legacy:beatelund",
         "path": "mediawiki/Beatelund.txt"
@@ -423,6 +457,7 @@
       "type": "mix",
       "firstAscent": "Mats Olofsson -97",
       "description": "",
+      "sectorId": "svavaggen",
       "source": {
         "id": "legacy:beatelund",
         "path": "mediawiki/Beatelund.txt"
@@ -438,6 +473,7 @@
       "type": "mix",
       "firstAscent": "Mats Olofsson, Claes Thornberg -98",
       "description": "",
+      "sectorId": "svavaggen",
       "source": {
         "id": "legacy:beatelund",
         "path": "mediawiki/Beatelund.txt"
@@ -453,6 +489,7 @@
       "type": "trad",
       "firstAscent": "Mats Olofsson, Claes Thornberg -98",
       "description": "Läskiga säkringar bakom flak där inte en enda är pålitlig. Dock värd att göra med topprep.",
+      "sectorId": "svavaggen",
       "source": {
         "id": "legacy:beatelund",
         "path": "mediawiki/Beatelund.txt"
@@ -468,6 +505,7 @@
       "type": "trad",
       "firstAscent": "Lars Svadängs, Lars Grankvist -79",
       "description": "Eftersom hela väggpartiet är klätterbart kan man i praktiken göra två parallella och trevliga linjer. Halvbra säkringspunkter där väggen tar slut men om repet räcker kan man fortsätta ett tjugotal meter till några tallar.",
+      "sectorId": "svavaggen",
       "source": {
         "id": "legacy:beatelund",
         "path": "mediawiki/Beatelund.txt"
@@ -483,6 +521,7 @@
       "type": "mix",
       "firstAscent": "Mats Olofsson, Staffan Gustavsson -98",
       "description": "Lång",
+      "sectorId": "svavaggen",
       "source": {
         "id": "legacy:beatelund",
         "path": "mediawiki/Beatelund.txt"
@@ -498,6 +537,7 @@
       "type": "sport",
       "firstAscent": "Claes Thornberg -99",
       "description": "",
+      "sectorId": "ornnastet",
       "source": {
         "id": "legacy:beatelund",
         "path": "mediawiki/Beatelund.txt"
@@ -513,6 +553,7 @@
       "type": "mix",
       "firstAscent": "Claes Thornberg -98",
       "description": "",
+      "sectorId": "ornnastet",
       "source": {
         "id": "legacy:beatelund",
         "path": "mediawiki/Beatelund.txt"
@@ -528,6 +569,7 @@
       "type": "mix",
       "firstAscent": "Claes Thornberg, Mats Olofsson, Peter Andersson -98",
       "description": "",
+      "sectorId": "ornnastet",
       "source": {
         "id": "legacy:beatelund",
         "path": "mediawiki/Beatelund.txt"
@@ -543,6 +585,7 @@
       "type": "mix",
       "firstAscent": "Mats Olofsson, Staffan Gustavsson -xx",
       "description": "",
+      "sectorId": "ornnastet",
       "source": {
         "id": "legacy:beatelund",
         "path": "mediawiki/Beatelund.txt"

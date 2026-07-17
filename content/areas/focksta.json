@@ -26,6 +26,16 @@
       "body": "Kör väg 55 mot Enköping från Uppsala, sväng av i Säva mot Focksta kvarn. Parkera helst vid kvarnens parkeringsplats under sommarmånaderna."
     },
     {
+      "id": "access",
+      "title": "Access",
+      "body": ""
+    },
+    {
+      "id": "sektorer",
+      "title": "Sektorer",
+      "body": ""
+    },
+    {
       "id": "soderangarna",
       "title": "Söderängarna",
       "body": "Följ grusvägen tillbaka från parkeringen, sväng sedan av höger in på den andra grusvägen. De första blocken ser du rakt fram."
@@ -41,9 +51,19 @@
       "body": "Nordligaste delen av Focksta, ligger på åsen. Gå tillbaka längs grusvägen från parkeringen och ta sedan in höger längs den första grusvägen. Passera torpet på höger sida, korsa sedan ängen på höger sida mot det nordvästra hörnet upp på åsen."
     },
     {
+      "id": "kaoset",
+      "title": "Kaoset",
+      "body": ""
+    },
+    {
       "id": "hygget",
       "title": "Hygget",
       "body": "Efter att ha svängt av väg i Säva, åk ca 500 m och sväng sedan av vänster på en liten grusväg. Om du passerar det stora blocket på åkern har du åkt för lång och missat grusvägen. Parkera med vett nära stugan. Blocken ligger på det lilla hygget söder om stugan."
+    },
+    {
+      "id": "norrangarna",
+      "title": "Norrängarna",
+      "body": ""
     },
     {
       "id": "torsatra",
@@ -67,6 +87,7 @@
       "type": "Krimp,Aréte",
       "firstAscent": "Olof och Jon",
       "description": "Arêten bakom Split Personality.",
+      "sectorId": "soderangarna",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -82,6 +103,7 @@
       "type": "Aréte",
       "firstAscent": "J Smedsaas",
       "description": "Sittstart till Lust på jaktblocket. Morpho.",
+      "sectorId": "soderangarna",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -97,6 +119,7 @@
       "type": "Slopers,Överhäng",
       "firstAscent": "J Smedsaas",
       "description": "Gå längst bort på söderängarna, ta av höger på en lite stig och korsa en äng (ca 200 m) förbi ett älgpass. Problemet går i överhänget på det lilla blocket på höjden.",
+      "sectorId": "soderangarna",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -112,6 +135,7 @@
       "type": "Slopers,Överhäng,Dyno",
       "firstAscent": "J Smedsaas",
       "description": "Elimineringsproblem på blocket med sprickan nära Stress. Sittstart med enbart vä sida sprickan, sedan till sloper vänster och catch upp i Fat ass standing utan att stå i sprickan.",
+      "sectorId": "soderangarna",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -127,6 +151,7 @@
       "type": "Aréte",
       "firstAscent": "Okänd",
       "description": "Sittstart vid stubben med två kanter.",
+      "sectorId": "soderangarna",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -142,6 +167,7 @@
       "type": "Dyno",
       "firstAscent": "J Smedsaas",
       "description": "Det låga blocket nedanför jaktblocket. Sittstarta till höger med slopers och catcha upp vänster.",
+      "sectorId": "soderangarna",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -157,6 +183,7 @@
       "type": "Krimp,Överhäng",
       "firstAscent": "J Smedsaas",
       "description": "Eliminationsproblem. Sittstart mitt i överhänget, klättra rakt upp via list och sidtag i diedret.",
+      "sectorId": "soderangarna",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -172,6 +199,7 @@
       "type": "Aréte",
       "firstAscent": "J Smedsaas",
       "description": "Arêten på jaktblocket. Etablerad start, ingen svingstart.",
+      "sectorId": "soderangarna",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -187,6 +215,7 @@
       "type": "Krimp",
       "firstAscent": "Borg, Antonsson, Jesper A",
       "description": "Starta vänster om Lust-arêten, klättra upp höger på vassa krimpar in i Lust.",
+      "sectorId": "soderangarna",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -202,6 +231,7 @@
       "type": "Överhäng",
       "firstAscent": "Stefan E",
       "description": "Blockröset mitt emot Fräschorama. Starta lågt vid den överhängande arêten med en liten sloper och dålig pinch.",
+      "sectorId": "soderangarna",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -217,6 +247,7 @@
       "type": "Krimp,Slopers,Överhäng",
       "firstAscent": "J Smedsaas",
       "description": "Stort block med överhängande sida 100 m innanför obeliskblocket. Sittstart och klättra ut höger.",
+      "sectorId": "soderangarna",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -232,6 +263,7 @@
       "type": "Slopers,Aréte",
       "firstAscent": "Olof och Stefan",
       "description": "Blocket med vita fläcken. Etablerad start i överhänget med stort sidtag och liten undercut, följ sedan arêten ut till hornet.",
+      "sectorId": "soderangarna",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -247,6 +279,7 @@
       "type": "Slopers,Mantling",
       "firstAscent": "Stefan E",
       "description": "Det vänstra av de första två blocken. Starta vänster om arêten med slopers.",
+      "sectorId": "soderangarna",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -262,6 +295,7 @@
       "type": "Reach,Heel hook",
       "firstAscent": "Stefan",
       "description": "Går på blocket närmast vägen där man går in mot Obelisken. Start som 6a+:en som går där (sittstart med stor sluttande hylla), sedan rakt upp via sidtag.",
+      "sectorId": "soderangarna",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -277,6 +311,7 @@
       "type": "Överhäng",
       "firstAscent": "Stefan E",
       "description": "Står som projekt i föraren, går på blocket vid vägen utanför obelisken. Sittstart med båda händerna i underclings.",
+      "sectorId": "soderangarna",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -292,6 +327,7 @@
       "type": "Dyno",
       "firstAscent": "Stefan",
       "description": "Sittstart som statiska varianten men strunta i sidtaget och hoppa direkt till kanten. Skoj om man gillar dynos och kan väl få stå som eget problem trots allt...",
+      "sectorId": "soderangarna",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -307,6 +343,7 @@
       "type": "Överhäng,Slab",
       "firstAscent": "Fredrik Andersson",
       "description": "Slabben mitt emellan Idol och Fräscorama. Börjar något åt höger.",
+      "sectorId": "soderangarna",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -322,6 +359,7 @@
       "type": "Dyno",
       "firstAscent": "Fredrik Andersson, Anders Tväråna",
       "description": "Starta på stenen till vänster om Obelisken, dubbeldyna ut och upp till obeliskkanten.",
+      "sectorId": "soderangarna",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -337,6 +375,7 @@
       "type": "Slab",
       "firstAscent": "Smith/Boye/Bergholm",
       "description": "Slabben mittemot Candyman.Rensning fullständigt underkänd. Ny FA Anders Jacobsen. Fint och värt att göra.",
+      "sectorId": "soderangarna",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -352,6 +391,7 @@
       "type": "Slab",
       "firstAscent": "Tväråna",
       "description": "På stenen mittemot Fräschorama, ut mot vägen. Starta mitt på väggen med fötterna på bra steg. Rakt upp till kanten.",
+      "sectorId": "soderangarna",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -367,6 +407,7 @@
       "type": "",
       "firstAscent": "Tväråna",
       "description": "På blocket mittemot Fräschorama, ut mot vägen. Till vänster på väggen, börja med vänster hand i undercling runt kanten. Lätt och fin.",
+      "sectorId": "soderangarna",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -382,6 +423,7 @@
       "type": "",
       "firstAscent": "at, Olle Morén, Jens Svensson",
       "description": "Sittstart runt hörnet till höger om Cättvikt, mittemot Candyman. Runda hörnet och hangla till toppen av blocket.Perfekt uppvärmning, fram och tillbaka, höger eller vänster hand.",
+      "sectorId": "soderangarna",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -397,6 +439,7 @@
       "type": "",
       "firstAscent": "Stefan Eklund, Rickard Hedman",
       "description": "På stenen vid vägen mittemot Idolblocket. Längst till höger om Metafor och Antigone. Rakt upp.Sittstart kommer.",
+      "sectorId": "soderangarna",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -412,6 +455,7 @@
       "type": "",
       "firstAscent": "Tväråna",
       "description": "Tittar man på Candyman har man det rätt fina blocket 50 m rakt bakåt, vid hörnet av energiskogen. Uppför högsta delen, 6c i jeans.",
+      "sectorId": "soderangarna",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -427,6 +471,7 @@
       "type": "",
       "firstAscent": "Tväråna",
       "description": "Tittar man på Candyman har man det rätt fina blocket 50 m rakt bakåt, vid hörnet av energiskogen.Upp för vänstra delen av väggen, till vänster om kalsongmannen.",
+      "sectorId": "soderangarna",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -442,6 +487,7 @@
       "type": "",
       "firstAscent": "?",
       "description": "Den nedre mantlingen på Mamma Mu-blocket, närmast hörnet. Ven gjorde den först? Och vad heter den?Återrensad 0705.",
+      "sectorId": "soderangarna",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -457,6 +503,7 @@
       "type": "",
       "firstAscent": "Rikard, Stefan",
       "description": "Lägsta areten på mamma mu-blocket. Sittstart från stenen.",
+      "sectorId": "soderangarna",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -472,6 +519,7 @@
       "type": "",
       "firstAscent": "?",
       "description": "Den översta mantlingen på Mamma Mu-blocket. Vem gjorde den först?Återrensad 0705.",
+      "sectorId": "soderangarna",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -487,6 +535,7 @@
       "type": "Mantling,Överhäng",
       "firstAscent": "Stefan Eklund, Anders Tväråna",
       "description": "På blocket mittemot Fräschorama och Idol, samma som Antigone och Fasans makt. Sittstart under överhänget på änden mot granen. Upp till kanten och vidare.Tänkte den kunde heta Untermench.",
+      "sectorId": "soderangarna",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -502,6 +551,7 @@
       "type": "",
       "firstAscent": "Anders Tväråna",
       "description": "Fasanslakt... Lätt efter många försök.",
+      "sectorId": "soderangarna",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -517,6 +567,7 @@
       "type": "",
       "firstAscent": "Anders Tväråna, Grim Söderin",
       "description": "På blocket mittemot Fräschorama/Idol. Sittstart på kanten till höger om \"den magiska gropen\". Ett långt drag upp till kanten, sen kan man vika upp över slabben.",
+      "sectorId": "soderangarna",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -532,6 +583,7 @@
       "type": "Aréte,Reach",
       "firstAscent": "Dylan",
       "description": "Rakt upp, dvs inget användande av steg ute på slabben. Inte svårare än escapen, men finare och något mer utsatt.",
+      "sectorId": "soderangarna",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -547,6 +599,7 @@
       "type": "Reach,Spricka",
       "firstAscent": "JS, RH",
       "description": "Sprickan till höger om Lust på Jaktstugeblocket.",
+      "sectorId": "soderangarna",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -562,6 +615,7 @@
       "type": "Aréte",
       "firstAscent": "Bosma",
       "description": "Precis som det låter, sittstarta arêten. Grad?",
+      "sectorId": "soderangarna",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -577,6 +631,7 @@
       "type": "Krimp,Mantling,Överhäng",
       "firstAscent": "Stefan och Matte N",
       "description": "Sittstart i ett överhäng med pissiga krimpar, catcha kanten och gör den jobbiga urtoppningen. Ligger på ett litet hygge, gå ca 200m in i skogen vid Stress och håll lite vänster till det öppnar upp. Går på det högra blocket, överhänget.",
+      "sectorId": "soderangarna",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -592,6 +647,7 @@
       "type": "Krimp,Överhäng",
       "firstAscent": "Stefan och Matte N",
       "description": "Blocket vänster om hammock, sittstart höger med ett par krimpar på smileyrampen och börja campusera.",
+      "sectorId": "soderangarna",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -607,6 +663,7 @@
       "type": "Slopers,Överhäng,Aréte",
       "firstAscent": "Stefan",
       "description": "Den branta megaslopiga arêten höger om hammock från assis.",
+      "sectorId": "soderangarna",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -622,6 +679,7 @@
       "type": "Aréte",
       "firstAscent": "Stefan",
       "description": "Arêten vänster om \"en fråga om balans\", går även att göra från ståstart-marginellt lättare.",
+      "sectorId": "soderangarna",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -637,6 +695,7 @@
       "type": "Krimp,Slopers,Överhäng",
       "firstAscent": "Stefan",
       "description": "Gå från Stress längs skogskanten mot Utsikten, blocket ligger ca 10 m in i skogen halvvägs dit. Problemet går på baksidan, starta matchat på juggen nere till höger.",
+      "sectorId": "soderangarna",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -652,6 +711,7 @@
       "type": "Krimp",
       "firstAscent": "Anders Tväråna",
       "description": "På första blocket. Rakt upp till vänster om Mamma mu, på väggen direkt till höger om aréten. Krimpig start och taskiga steg.",
+      "sectorId": "soderangarna",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -667,6 +727,7 @@
       "type": "Layback,Överhäng",
       "firstAscent": "Dylan Smith",
       "description": "Det spruckna uppallade blocket.",
+      "sectorId": "soderangarna",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -682,6 +743,7 @@
       "type": "Överhäng",
       "firstAscent": "Jon S, Anders T, Fredrik S",
       "description": "Starta som Parasit. Följ sprickan ut åt vänster.Kan man egentligen döpa problemet till något annat med tanke på den stämning som rådde där i lördags. Sydde hade en fräck fa-vittring.",
+      "sectorId": "soderangarna",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -697,6 +759,7 @@
       "type": "",
       "firstAscent": "Jenny Bäckström",
       "description": "Till höger runt hörnet om Parasit. Start i undercling för v.h och sidtag för h.h",
+      "sectorId": "soderangarna",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -712,6 +775,7 @@
       "type": "",
       "firstAscent": "Olof och Sydde",
       "description": "Start vid EFOB; ta ett litet undercling och skicka till kanten.",
+      "sectorId": "soderangarna",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -727,6 +791,7 @@
       "type": "Slopers",
       "firstAscent": "Matte N och Stefan",
       "description": "Sittstarta väggen mitt emot Parasit. Skojigare än det såg ut.",
+      "sectorId": "soderangarna",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -742,6 +807,7 @@
       "type": "",
       "firstAscent": "Anders Tväråna",
       "description": "Vänstra areten på ett stort block rätt nära Arnold, mot utsikten till.",
+      "sectorId": "soderangarna",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -757,6 +823,7 @@
       "type": "",
       "firstAscent": "Andreas Spångberg",
       "description": "block bakom Rotnetto blocket. Sittstarta på bra grepp, ut vänster och skicka till kanten.",
+      "sectorId": "soderangarna",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -772,6 +839,7 @@
       "type": "",
       "firstAscent": "Anders Tväråna",
       "description": "Samma block som \"presenten\".Start på jug inne i det överhängande diedret, placera fötterna rätt och glid upp.",
+      "sectorId": "soderangarna",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -787,6 +855,7 @@
       "type": "",
       "firstAscent": "J-Man",
       "description": "Sittstart som Presenten, sedan rakt upp mellan Presenten och Vilse i Pannkakan.",
+      "sectorId": "soderangarna",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -802,6 +871,7 @@
       "type": "Pinch,Överhäng",
       "firstAscent": "Anders Tväråna",
       "description": "Sittstart i två undergrepp, sedan flera nyp och långt sträck till toppen.Blocket ligger inne i skogen bakom candyman. Gå förbi jaktstugan och fortsätt rakt fram in i skogen där vägen svänger. 100m in, över en stenig ås.",
+      "sectorId": "soderangarna",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -817,6 +887,7 @@
       "type": "",
       "firstAscent": "Anders Tväråna",
       "description": "Presentblocket.Sittstart vid långsidans högra aréte. Upp åt vänster och mantla.",
+      "sectorId": "soderangarna",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -832,6 +903,7 @@
       "type": "Mantling",
       "firstAscent": "Anders Tväråna",
       "description": "Samma block som \"Vilse i pannkakan\", till höger om den.Starta på två krimpar, gå till kanten och över.",
+      "sectorId": "soderangarna",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -847,6 +919,7 @@
       "type": "",
       "firstAscent": "Anders Tväråna",
       "description": "Presentblocket.Sittstart något till höger om \"copyleft\", på nästa arétekant. Rakt upp, avslutar något höger.",
+      "sectorId": "soderangarna",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -862,6 +935,7 @@
       "type": "",
       "firstAscent": "S-Man mfl.",
       "description": "Anders block. Längst höger, ss höger om sprickan/diedret och klättra rakt upp på lister utan att använda greppen i och i anslutning till ovan nämnda spricka.",
+      "sectorId": "soderangarna",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -877,6 +951,7 @@
       "type": "Mantling",
       "firstAscent": "Anders Tväråna",
       "description": "Presentblocket.Mantling till höger om Katarsis, vid hörnet. Ta kanten och dra över.",
+      "sectorId": "soderangarna",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -892,6 +967,7 @@
       "type": "Slab",
       "firstAscent": "Stefan Eklund, Anders Tväråna, Dag Löwenvald",
       "description": "Slabb ca 50 meter öster om presentblocket.Slät och fin!",
+      "sectorId": "soderangarna",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -907,6 +983,7 @@
       "type": "Slab",
       "firstAscent": "Magnus Crona, Olof Eriksson, Anders Tväråna",
       "description": "Slabben på baksidan av \"Poäng!\".",
+      "sectorId": "soderangarna",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -922,6 +999,7 @@
       "type": "Slab",
       "firstAscent": "Magnus C",
       "description": "Framborstad av Grim. Vägg t h om Untermensch. Starta i undercling/crimp sedan rakt upp. Morpho.",
+      "sectorId": "soderangarna",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -937,6 +1015,7 @@
       "type": "",
       "firstAscent": "Jon",
       "description": "Starta som Dumbo. Klättra ut vänster genom överhänget.",
+      "sectorId": "soderangarna",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -952,6 +1031,7 @@
       "type": "Krimp,Dyno",
       "firstAscent": "Stefan E",
       "description": "Sittstart på det högra av de två första blocken man kommer till.",
+      "sectorId": "utsikten",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -967,6 +1047,7 @@
       "type": "Slopers",
       "firstAscent": "Stefan E",
       "description": "Det vänstra av de två första, låga blocken. Sittstart vid arêten och dra rakt upp till slopers och mantla. 6c-7a nånstans.",
+      "sectorId": "utsikten",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -982,6 +1063,7 @@
       "type": "Krimp,Slopers,Reach",
       "firstAscent": "stefan",
       "description": "Gå in mellan de två första stora blocken, problemet går på det \"hängande\" blocket man ser rakt fram. Starta med det låga listerna och sträck upp till slopers.",
+      "sectorId": "utsikten",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -997,6 +1079,7 @@
       "type": "Dyno",
       "firstAscent": "stefan",
       "description": "Sittstart mitt emot Pimp my Ride. Lyft kylskåpet och catcha till hyllan. Rätt hårt move och väldigt mycket morpho. Landningen underbar bortsett från stenspetsen som pekar mot bakhuvudet.",
+      "sectorId": "utsikten",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -1012,6 +1095,7 @@
       "type": "",
       "firstAscent": "Anders Tväråna, Fredrik Andersson",
       "description": "På ensamt block över hagen mot söderängarna när man går in. Samma sittstart som Stefans problem (namn?), men snika runt kanten till vänster. Ryggträning.",
+      "sectorId": "utsikten",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -1027,6 +1111,7 @@
       "type": "",
       "firstAscent": "Anders Tväråna",
       "description": "På ensamt block över hagen mot söderängarna när man går in, samma sten som Fjärde stjärnan. På sidan mot vägen. Mantling från bra grepp mitt på.",
+      "sectorId": "utsikten",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -1042,6 +1127,7 @@
       "type": "Slopers",
       "firstAscent": "S Eklund/R Hedman",
       "description": "",
+      "sectorId": "utsikten",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -1057,6 +1143,7 @@
       "type": "",
       "firstAscent": "Grim och Stefan",
       "description": "På blocket rakt in i hagen. Sittstart med stora sidtag och klättra sedan upp höger på slopers.",
+      "sectorId": "utsikten",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -1072,6 +1159,7 @@
       "type": "Mantling,Överhäng,Spricka",
       "firstAscent": "F Andersson",
       "description": "Överhänget på bussblocket, sittstarta från stenen och klättra sprickan.",
+      "sectorId": "bivacken",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -1087,6 +1175,7 @@
       "type": "Överhäng,Aréte",
       "firstAscent": "Ola och Jon",
       "description": "Första stora blocket vid bivacken. Den överhängande arêten till vänster.",
+      "sectorId": "bivacken",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -1102,6 +1191,7 @@
       "type": "Överhäng",
       "firstAscent": "Sydde",
       "description": "Hängstart i två småkrimpar",
+      "sectorId": "bivacken",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -1117,6 +1207,7 @@
       "type": "Dyno",
       "firstAscent": "Stefan / Nisse / Sydde",
       "description": "Hoppstart. VH på aréten, sedan skuttar man till bra list för HH.",
+      "sectorId": "bivacken",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -1132,6 +1223,7 @@
       "type": "Överhäng,Dyno",
       "firstAscent": "grym, steffe, fredrik, nisse",
       "description": "dra från krimpar till kanten och mantla. nya blocken bakom bussen.",
+      "sectorId": "bivacken",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -1147,6 +1239,7 @@
       "type": "Aréte",
       "firstAscent": "grim",
       "description": "areten vänster om sprickan, stora grepp till vänster på väggen är självklart off! men krimparn får man leka med. passera bussen ner för backen gå mot vänster en bit.",
+      "sectorId": "bivacken",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -1162,6 +1255,7 @@
       "type": "Krimp",
       "firstAscent": "grim",
       "description": "väggen till vänster om kottar...heter man stefan kan man sittstarta.",
+      "sectorId": "bivacken",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -1177,6 +1271,7 @@
       "type": "",
       "firstAscent": "grim",
       "description": "samma block som kottar... men på den andra delen. dieder start och sedan lite halvmantling eller något sådant",
+      "sectorId": "bivacken",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -1192,6 +1287,7 @@
       "type": "Dyno",
       "firstAscent": "Fredrik, Grim, Stef, Nisse",
       "description": "Start i (typ) samma grepp som \"En katolsk hemvändare\". Dra till vänstra kanten och mantla upp. Skönt fotsläpp rekomenderas.",
+      "sectorId": "bivacken",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -1207,6 +1303,7 @@
       "type": "Highball,Aréte",
       "firstAscent": "Dylan och Daniel",
       "description": "Gå rakt norrut från Norrängarna, blocket ligger uppe på åsen, går inte att missa. Klättra den höga arêten.",
+      "sectorId": "bivacken",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -1222,6 +1319,7 @@
       "type": "Dyno",
       "firstAscent": "Stefan E",
       "description": "Baksidan av blocket med höga arêten (Instinkt). Starta vänster om vänstra arêten med slopig hylla, dyna rakt upp till kanten, dvs gå inte runt åt höger.",
+      "sectorId": "bivacken",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -1237,6 +1335,7 @@
       "type": "Krimp,Aréte",
       "firstAscent": "Stefan E",
       "description": "Baksidan av blocket med höga arêten. Sittstart borta vid vänstra arêten (höger om stenen), dra upp längs arêten och avsluta mot klykan.",
+      "sectorId": "bivacken",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -1252,6 +1351,7 @@
       "type": "Överhäng",
       "firstAscent": "Nisse, Stefan",
       "description": "Blocket som ligger nedanför Instinkt på åsen. Hängstart med båda händerna på lägsta listerna till höger. Eliminationsvariant; gå direkt ut till rampen utan krimpen rakt upp är 7a.",
+      "sectorId": "bivacken",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -1267,6 +1367,7 @@
       "type": "Krimp,Slopers",
       "firstAscent": "Stefan och Rikard",
       "description": "Rakt upp höger om sprickan, sprickan och greppen vänster om denna är off.",
+      "sectorId": "bivacken",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -1282,6 +1383,7 @@
       "type": "Krimp,Mantling",
       "firstAscent": "Stefan och Rikard",
       "description": "Arêten höger om bakom flötet. Mantla upp vänster på sva.",
+      "sectorId": "bivacken",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -1297,6 +1399,7 @@
       "type": "Aréte",
       "firstAscent": "grim,stefan",
       "description": "området bakom bivacken, sten bredvid blocket med \"i väntan på något stort\".areten upp.",
+      "sectorId": "bivacken",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -1312,6 +1415,7 @@
       "type": "Krimp",
       "firstAscent": "grim,stefan",
       "description": "väggen höger om hjulterfett. högeer om den lilla stenen, gå inte höger till areten. sittstart gjord av stefan 6b+",
+      "sectorId": "bivacken",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -1327,6 +1431,7 @@
       "type": "Krimp,Överhäng",
       "firstAscent": "Olof, Stefan och Jon",
       "description": "Sittstart till Sin Corteza, start från sten.",
+      "sectorId": "bivacken",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -1342,6 +1447,7 @@
       "type": "Aréte",
       "firstAscent": "Jon",
       "description": "Det vänstra av de första blocken. Sittstarta arêten.",
+      "sectorId": "bivacken",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -1357,6 +1463,7 @@
       "type": "Överhäng,Dyno",
       "firstAscent": "Stefan, Olof, Rikard och Jon",
       "description": "Första blocet, sittstart vid stora hyllan.",
+      "sectorId": "bivacken",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -1372,6 +1479,7 @@
       "type": "Travers H->V",
       "firstAscent": "Rikard och Jon",
       "description": "Första blocket vid bivacken, sittstart höger, traversera förbi trädet (trångt).",
+      "sectorId": "bivacken",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -1387,6 +1495,7 @@
       "type": "Aréte",
       "firstAscent": "Rikard, Stefan, Jon, Grim",
       "description": "Arêten på svampblocket.",
+      "sectorId": "bivacken",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -1402,6 +1511,7 @@
       "type": "Slopers,Travers V->H",
       "firstAscent": "Jon",
       "description": "Svampblocket, sittstart vänster och följ kanen in i swoosh.",
+      "sectorId": "bivacken",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -1417,6 +1527,7 @@
       "type": "Mantling",
       "firstAscent": "Stefan",
       "description": "Svampblocket, sittstart vänster och mantla upp på sva.",
+      "sectorId": "bivacken",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -1432,6 +1543,7 @@
       "type": "Slab",
       "firstAscent": "Rikard, Katrin och Stefan",
       "description": "Sva 20 m höger om Grims sva.",
+      "sectorId": "bivacken",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -1447,6 +1559,7 @@
       "type": "Slab",
       "firstAscent": "Stefan, Grim och (dåvarande) Borgen",
       "description": "Grims sva, högra delen. Om man inte använder något av \"greppen\" (sidtag + spricka) blir det skoj, ca 6a.",
+      "sectorId": "bivacken",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -1462,6 +1575,7 @@
       "type": "Slab",
       "firstAscent": "Stefan och Grim",
       "description": "Spring upp till högsta delen av Grims sva. Bör göras i god stil (= sneakers)",
+      "sectorId": "bivacken",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -1477,6 +1591,7 @@
       "type": "Slab",
       "firstAscent": "Borg mfl.",
       "description": "Vänstra delen av Grims sva, no hands-variant 6a/b.",
+      "sectorId": "bivacken",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -1492,6 +1607,7 @@
       "type": "Överhäng,Aréte",
       "firstAscent": "Stefan",
       "description": "Längst höger på slavskeppet. Sittstart vid slopig hylla.",
+      "sectorId": "bivacken",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -1507,6 +1623,7 @@
       "type": "Mantling",
       "firstAscent": "Borg mfl.",
       "description": "Mitt på slavskeppet. starta med slopers på kanten.",
+      "sectorId": "bivacken",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -1522,6 +1639,7 @@
       "type": "Slopers,Överhäng,Aréte",
       "firstAscent": "Stefan",
       "description": "Kort slapproblem. sittstart sker från den lilla stenen.",
+      "sectorId": "bivacken",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -1537,6 +1655,7 @@
       "type": "Slab",
       "firstAscent": "Katrin, Tväråna och Stefan",
       "description": "Sva bredvid uppvärmningsblocket. Vänstra delen med pocket.",
+      "sectorId": "bivacken",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -1552,6 +1671,7 @@
       "type": "Slab",
       "firstAscent": "Katrin, Tväråna och Stefan",
       "description": "Sva bredvid uppvärmningsblocket. Högra delen.",
+      "sectorId": "bivacken",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -1567,6 +1687,7 @@
       "type": "",
       "firstAscent": "Jon",
       "description": "Till vänster på uppvärmningsblocket. Når man det bra sidtaget eller hoppar till det är det ca 6b+. Etablerad lågstart hård 6c+.",
+      "sectorId": "bivacken",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -1582,6 +1703,7 @@
       "type": "Krimp,Slopers",
       "firstAscent": "Katrin Svensson",
       "description": "Uppvärmningsblocket, start vid Buff men gå upp vänster utan jughyllan. Jobbig.",
+      "sectorId": "bivacken",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -1597,6 +1719,7 @@
       "type": "Jug",
       "firstAscent": "Stefan, Jon, Katrin och Rikard",
       "description": "Rakt upp till höger på uppvärmningsblocket.",
+      "sectorId": "bivacken",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -1612,6 +1735,7 @@
       "type": "Aréte",
       "firstAscent": "Stefan, Jon och Rikard",
       "description": "Uppvärmningsblocket, högra arêten, sträck runt åt höger.",
+      "sectorId": "bivacken",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -1627,6 +1751,7 @@
       "type": "Slab",
       "firstAscent": "J Antonsson och Tväråna",
       "description": "Vänstra slabben på bussblocket, svingstart till krimpar, upp via mono.",
+      "sectorId": "bivacken",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -1642,6 +1767,7 @@
       "type": "Slopers,Överhäng",
       "firstAscent": "F Andersson och Tväråna",
       "description": "Bussblocket, hoppstart från liten sten i överhänget. Jobbig slopercampus, bör vara möjligt med hoppstart från marken.",
+      "sectorId": "bivacken",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -1657,6 +1783,7 @@
       "type": "Dyno",
       "firstAscent": "Stefan",
       "description": "Låg start med pockets, dvs ingen reachstart till den stora pocketen. Ligger nedanför backen bakom bussblocket.",
+      "sectorId": "bivacken",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -1672,6 +1799,7 @@
       "type": "Överhäng",
       "firstAscent": "JS AT",
       "description": "Starta nere i hålet på väggen till höger om En katolsk hemvändare. Lätt överhängande uppvärmningsproblem.",
+      "sectorId": "bivacken",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -1687,6 +1815,7 @@
       "type": "",
       "firstAscent": "Mattias Flodin",
       "description": "Taket med sittstart (bussblocket).",
+      "sectorId": "bivacken",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -1702,6 +1831,7 @@
       "type": "",
       "firstAscent": "Team ProjectCleaners feat. Stefan, Tväråna och Jon",
       "description": "På daskblocket, starta vid den slopiga rampen och klättra upp vänster (typ samma startgrepp som Sin Corteza). Mycket finare än man kunde tänkt sig.",
+      "sectorId": "bivacken",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -1717,6 +1847,7 @@
       "type": "",
       "firstAscent": "Cannonball",
       "description": "Nere bakom bivacken... Går på blocket 10m vä om katolsk hemvändare - starta på sidtaget inne i diedret och klättra sedan upp på den slopiga arêten.",
+      "sectorId": "bivacken",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -1732,6 +1863,7 @@
       "type": "Krimp,Överhäng,Dyno",
       "firstAscent": "Anders Tväråna",
       "description": "Samma start som \"Calles\" men ut till areten vid \"Swoosh\".Nästansittstart... Börjar med bra men vasst hål på kanten. Korsa till krimp och skicka kanten.",
+      "sectorId": "bivacken",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -1747,6 +1879,7 @@
       "type": "",
       "firstAscent": "Stefan",
       "description": "Sloperproblem på samma block som Hes och Hoppfenan. Sittstarta med stora hyllan. Mycket, mycket jobbigare än det såg ut.",
+      "sectorId": "bivacken",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -1762,6 +1895,7 @@
       "type": "",
       "firstAscent": "Stefan",
       "description": "Sittstarten till en katolsk hemvändare.",
+      "sectorId": "bivacken",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -1777,6 +1911,7 @@
       "type": "Överhäng,Aréte",
       "firstAscent": "Jon och Olof",
       "description": "Den överhängande arêten på pyramiden. Variant; originalmetoden med vä hand till pinch vid toppen 7b+.",
+      "sectorId": "kaoset",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -1792,6 +1927,7 @@
       "type": "Slopers,Aréte",
       "firstAscent": "S Eklund",
       "description": "Den sluttande arêten på kometblocket.",
+      "sectorId": "kaoset",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -1807,6 +1943,7 @@
       "type": "Jam",
       "firstAscent": "Rikard",
       "description": "Sprickan på baksidan av kometblocket.",
+      "sectorId": "kaoset",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -1822,6 +1959,7 @@
       "type": "Krimp,Aréte",
       "firstAscent": "L Hagberg",
       "description": "Arêten höger om Guldmagistern på pyramiden.",
+      "sectorId": "kaoset",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -1837,6 +1975,7 @@
       "type": "Slopers,Dyno",
       "firstAscent": "J Smedsaas",
       "description": "Pyramiden. Vänster om stora sprickan, från stort grepp rakt upp till slopers utan sprickan/kanten till höger.",
+      "sectorId": "kaoset",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -1852,6 +1991,7 @@
       "type": "Krimp,Överhäng",
       "firstAscent": "J Smedsaas",
       "description": "Pyramiden, sittstarta höger om stora sprickan och klättra rakt upp.",
+      "sectorId": "kaoset",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -1867,6 +2007,7 @@
       "type": "Krimp,Highball",
       "firstAscent": "J Smedsaas",
       "description": "Ahlgrensblocket. Rakt upp från små lister till pocket, fortsätt vidare upp höger till jättepocket.",
+      "sectorId": "kaoset",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -1882,6 +2023,7 @@
       "type": "Överhäng",
       "firstAscent": "Stefan, Björn, Rikard",
       "description": "Baksidan ahlgrens, start som Jailhouse rock men gå upp höger.",
+      "sectorId": "kaoset",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -1897,6 +2039,7 @@
       "type": "Highball,Aréte",
       "firstAscent": "Jon",
       "description": "Starta med Pockets på pyramiden, följ arêten. 3 stjärnor trots landningen.",
+      "sectorId": "kaoset",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -1912,6 +2055,7 @@
       "type": "Överhäng,Reach",
       "firstAscent": "Nisse",
       "description": "På Ahlgrensblocket. Start som för Moustique, sedan rakt upp (ingen escape åt vänster vid urtoppningen)",
+      "sectorId": "kaoset",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -1927,6 +2071,7 @@
       "type": "Aréte",
       "firstAscent": "grim, rickard",
       "description": "blocken bakom algren. högra areten på sidan mot träsket, men med vänster på areten.super öppet projekt att göra väggen utan areten, roligt grepp!",
+      "sectorId": "kaoset",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -1942,6 +2087,7 @@
       "type": "Krimp,Aréte",
       "firstAscent": "grim, rickard",
       "description": "blocket bakom algren. vänster arete med höger landning i träsket om man har otur.",
+      "sectorId": "kaoset",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -1957,6 +2103,7 @@
       "type": "Aréte",
       "firstAscent": "grim, rikard",
       "description": "bakom algren igen. vänstra areten mot träsket.",
+      "sectorId": "kaoset",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -1972,6 +2119,7 @@
       "type": "Krimp,Layback",
       "firstAscent": "grim, rickard",
       "description": "annat block bakom algren, höger om lätt problem som jag inte orkar raportera. ge fan i att gå till de oborsade juggarna till vänster! upp i layback och slapp till högerkant är det som gäller.",
+      "sectorId": "kaoset",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -1987,6 +2135,7 @@
       "type": "Krimp",
       "firstAscent": "Stefan E",
       "description": "Inne bakom ahlgrensblocket. Den snygga väggen skall klättras utan arêten och sprickan. Låter sugigt men grymt problem! Coolaste greppet i Uppsala.",
+      "sectorId": "kaoset",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -2002,6 +2151,7 @@
       "type": "",
       "firstAscent": "Rikard, Stefan",
       "description": "Bakom ahlgrens, areten höger om roadkill.",
+      "sectorId": "kaoset",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -2017,6 +2167,7 @@
       "type": "Layback,Dyno",
       "firstAscent": "Rikard, Stefan",
       "description": "Blocket bakom ahlgrens, vänster om enfingerproblemet, inget vänster om stora sprickan ingår.",
+      "sectorId": "kaoset",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -2032,6 +2183,7 @@
       "type": "Dyno",
       "firstAscent": "Stefan E och Nisse",
       "description": "Inne bakom ahlgrensblocket. Start med jughyllan vid Fanny, sedan dyno upp till kanten.",
+      "sectorId": "kaoset",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -2047,6 +2199,7 @@
       "type": "",
       "firstAscent": "Stefan",
       "description": "Går på största blocket närmast vägen, höger om projektarêten. Etablerat start gäller.",
+      "sectorId": "kaoset",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -2062,6 +2215,7 @@
       "type": "Reach",
       "firstAscent": "Stefan och nisse",
       "description": "På största blocket nära vägen. Rakt upp vid Chokladmedaljongs-formationen. Det finns en krimp ute till vänster som gör att man kan gå statiskt vilket är lite synd...",
+      "sectorId": "kaoset",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -2077,6 +2231,7 @@
       "type": "Krimp",
       "firstAscent": "Stefan",
       "description": "Nu med sittstart. Start mitt på med 2 gastons, sedan upp i ståstarten (alltså utan arêten och sprickan). Kanske 7b.",
+      "sectorId": "kaoset",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -2092,6 +2247,7 @@
       "type": "Krimp",
       "firstAscent": "Stefan",
       "description": "Blocken innnanför ahlgrens, väggen som delas av sprickan. Start höger om sprickan (som ej ingår) med ett par bra krimpar och gå rakt upp.",
+      "sectorId": "kaoset",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -2107,6 +2263,7 @@
       "type": "Krimp,Heel hook",
       "firstAscent": "Stefan och Rikard",
       "description": "På D-dagsblocket. Start vid överhänget med krimpar i sprickan, sedan lättaste vägen upp.",
+      "sectorId": "kaoset",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -2122,6 +2279,7 @@
       "type": "Dyno",
       "firstAscent": "Stefan",
       "description": "Start som alibi på D-dagsblocket. Sedan lång slapcatch upp vänster till sloper, följ med på liten krimp eller matcha och fortsätt upp vänster. Dvs sidtaget och juggen till höger i alibi är off.",
+      "sectorId": "kaoset",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -2137,6 +2295,7 @@
       "type": "Krimp,Överhäng,Dyno",
       "firstAscent": "Stefan",
       "description": "På D-dagsblocket. Sittstart vid vänstra arêten i överhänget, länka in i Alibi. Dubbelpadda ok för korta som inte når startgreppet på arêten.",
+      "sectorId": "kaoset",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -2152,6 +2311,7 @@
       "type": "Krimp,Layback,Highball",
       "firstAscent": "grim",
       "description": "jätteblocket nära vägen. mitt på stora väggen,start i det stora greppet sedan snett upp till vänster. turligt nog lätt urtoppning.",
+      "sectorId": "kaoset",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -2167,6 +2327,7 @@
       "type": "Slab",
       "firstAscent": "Stefan",
       "description": "no-hands sva på ahlgrensblocket. Har börjat växa igen.",
+      "sectorId": "kaoset",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -2182,6 +2343,7 @@
       "type": "Travers V->H",
       "firstAscent": "rikard mfl.",
       "description": "Hangel från vä till hö på ahlgrensblocket.",
+      "sectorId": "kaoset",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -2197,6 +2359,7 @@
       "type": "Travers V->H",
       "firstAscent": "rikard mfl.",
       "description": "Ss till BB.",
+      "sectorId": "kaoset",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -2212,6 +2375,7 @@
       "type": "Krimp",
       "firstAscent": "Stefan, Jon och Rikard",
       "description": "Krimpproblem till vänster på Ahlgrensblocket.",
+      "sectorId": "kaoset",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -2227,6 +2391,7 @@
       "type": "Dyno",
       "firstAscent": "stefan, calle och jon",
       "description": "Mitt på Ahlgrensblockets högsta vägg, etablerad start med små krimpar, catcha juggen.",
+      "sectorId": "kaoset",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -2242,6 +2407,7 @@
       "type": "Krimp",
       "firstAscent": "Jon och Calle D",
       "description": "Start som Journal de... på Ahlgrensblocket, gå ut vänster vid första pocketen.",
+      "sectorId": "kaoset",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -2257,6 +2423,7 @@
       "type": "Överhäng,Travers H->V",
       "firstAscent": "Jon",
       "description": "Baksidan ahlgrens, start längst ner till höger, traversera lågt vänster in i Jailhouse rock.",
+      "sectorId": "kaoset",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -2272,6 +2439,7 @@
       "type": "Överhäng",
       "firstAscent": "stefan, calle och jon",
       "description": "Baksidan ahlgrens, start längst ner till höger, följ rampen.",
+      "sectorId": "kaoset",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -2287,6 +2455,7 @@
       "type": "Överhäng",
       "firstAscent": "Calle D",
       "description": "Baksidan ahlgrens, sittstart mitt på vid sloperjug, upp vänster.",
+      "sectorId": "kaoset",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -2302,6 +2471,7 @@
       "type": "Jug",
       "firstAscent": "Calle D",
       "description": "Baksidan ahlgrens, start vänster vid stort sidtag.",
+      "sectorId": "kaoset",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -2317,6 +2487,7 @@
       "type": "Slab",
       "firstAscent": "Stefan, Björn, Rikard",
       "description": "Start som strato men gå ut höger till stora grepp.",
+      "sectorId": "kaoset",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -2332,6 +2503,7 @@
       "type": "Slab",
       "firstAscent": "Stefan",
       "description": "Höger om ågren asfet på ahlgrensslabben. Dra rakt upp till list från krimpar i spricka.",
+      "sectorId": "kaoset",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -2347,6 +2519,7 @@
       "type": "Slab",
       "firstAscent": "Stefan och Jon",
       "description": "Slabben höger om ahlgrens arête. Start vänster med svart pinch + nåt mer, sträck upp vänster till krimp. Jon tyckte tre stjärnor men vet inte riktigt...",
+      "sectorId": "kaoset",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -2362,6 +2535,7 @@
       "type": "Aréte",
       "firstAscent": "Calle, Björn B och Rikard",
       "description": "Högra arêten på ahlgrens.",
+      "sectorId": "kaoset",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -2377,6 +2551,7 @@
       "type": "Krimp,Reach",
       "firstAscent": "Katrin Svensson",
       "description": "Beat on the brat med greppen (fotsteg) på arêten.",
+      "sectorId": "kaoset",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -2392,6 +2567,7 @@
       "type": "Krimp,Dyno",
       "firstAscent": "Jon, Stefan, Rikard",
       "description": "Till höger på ahlgrens, utan arêten och greppen i anslutning till denna.",
+      "sectorId": "kaoset",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -2407,6 +2583,7 @@
       "type": "Aréte",
       "firstAscent": "Stefan och Rikard",
       "description": "Blocken inne bakom ahlgrens. Sittstart vid dubbelarêten.",
+      "sectorId": "kaoset",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -2422,6 +2599,7 @@
       "type": "Överhäng,Dyno,Highball",
       "firstAscent": "Dylan Smith",
       "description": "Den höga överhängande väggen på pyramiden, start höger från stenen.",
+      "sectorId": "kaoset",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -2437,6 +2615,7 @@
       "type": "Reach",
       "firstAscent": "Stefan och Rikard",
       "description": "Blocken inne bakom ahlgrens. Sittstart vid stora hyllan, gå upp statiskt med mono.",
+      "sectorId": "kaoset",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -2452,6 +2631,7 @@
       "type": "Spricka",
       "firstAscent": "Stefan",
       "description": "Blocken inne bakom ahlgrens. Sprickan.",
+      "sectorId": "kaoset",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -2467,6 +2647,7 @@
       "type": "Aréte",
       "firstAscent": "Stefan",
       "description": "Das Kapital-stenen, baksidan - sittstart från stenen.",
+      "sectorId": "kaoset",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -2482,6 +2663,7 @@
       "type": "Överhäng",
       "firstAscent": "Stefan, Björn, Rikard",
       "description": "Nedanför pyramiden, sittstart under överhänget med underclings i sprickan.",
+      "sectorId": "kaoset",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -2497,6 +2679,7 @@
       "type": "Spricka",
       "firstAscent": "Stefan, Björn, Rikard",
       "description": "Nedanför pyramiden, sittstart upp längs sprickan.",
+      "sectorId": "kaoset",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -2512,6 +2695,7 @@
       "type": "Slopers",
       "firstAscent": "Stefan",
       "description": "Nedanför pyramiden, start höger om stenen vid bra grepp, klättra upp höger utan att gå ut vänster över slabben.",
+      "sectorId": "kaoset",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -2527,6 +2711,7 @@
       "type": "Aréte",
       "firstAscent": "Björn, Rikard, Stefan",
       "description": "Litet block 20 m innanför pyramiden, vid arêten.",
+      "sectorId": "kaoset",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -2542,6 +2727,7 @@
       "type": "Aréte",
       "firstAscent": "Katrin Svensson",
       "description": "Den lättaste arêten på pyramiden, hoppa till stort grepp.",
+      "sectorId": "kaoset",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -2557,6 +2743,7 @@
       "type": "Slab",
       "firstAscent": "Rikard och Stefan",
       "description": "Svasidan på pyramiden. längst till vänster.",
+      "sectorId": "kaoset",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -2572,6 +2759,7 @@
       "type": "Slab",
       "firstAscent": "Rikard och Jon",
       "description": "Slabben på pyramiden, mitt på och rakt upp. Med sittstart 4c.",
+      "sectorId": "kaoset",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -2587,6 +2775,7 @@
       "type": "Slab",
       "firstAscent": "Rikard och Jon",
       "description": "Start som Baddaren på pyramiden, sedan upp åt höger. Med sittstart 5b.",
+      "sectorId": "kaoset",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -2602,6 +2791,7 @@
       "type": "Spricka",
       "firstAscent": "Rikard och Jon",
       "description": "Nedstigningssprickan på pyramiden.",
+      "sectorId": "kaoset",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -2617,6 +2807,7 @@
       "type": "",
       "firstAscent": "Rikard och Jon",
       "description": "Vänster om nedstigningssprickan på pyramiden, utan sprickan. Med sittstart 5a.",
+      "sectorId": "kaoset",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -2632,6 +2823,7 @@
       "type": "Spricka",
       "firstAscent": "Rikard och Jon",
       "description": "Sprickan på överhängssidan av pyramiden, laybacka upp vänstersidan.",
+      "sectorId": "kaoset",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -2647,6 +2839,7 @@
       "type": "Spricka",
       "firstAscent": "Rikard och Jon",
       "description": "Sittstart vä om guldmagistern och klättra sprickan.",
+      "sectorId": "kaoset",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -2662,6 +2855,7 @@
       "type": "Aréte",
       "firstAscent": "Björn, Rikard, Stefan",
       "description": "Lågt block bredvid pyramiden, ss höger.",
+      "sectorId": "kaoset",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -2677,6 +2871,7 @@
       "type": "Aréte",
       "firstAscent": "Björn, Rikard, Stefan",
       "description": "Lågt block bredvid pyramiden, ss vänster.",
+      "sectorId": "kaoset",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -2692,6 +2887,7 @@
       "type": "Överhäng",
       "firstAscent": "Björn B och M Flodin",
       "description": "Bakom pyramiden, ss i överhänget.",
+      "sectorId": "kaoset",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -2707,6 +2903,7 @@
       "type": "Krimp",
       "firstAscent": "M Flodin",
       "description": "Runt till vänster om Trailer, ss vid stort sidtag, utan arêten.",
+      "sectorId": "kaoset",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -2722,6 +2919,7 @@
       "type": "Krimp",
       "firstAscent": "Stefan och Rikard",
       "description": "Bredvid kometblocket, pelarformad liten sten.",
+      "sectorId": "kaoset",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -2737,6 +2935,7 @@
       "type": "Krimp",
       "firstAscent": "Stefan och Rikard",
       "description": "Längst höger på d-dagsblocket.",
+      "sectorId": "kaoset",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -2752,6 +2951,7 @@
       "type": "Spricka",
       "firstAscent": "Stefan och Rikard",
       "description": "Sprickan till höger på D-dagsblocket, gå ut höger till pockets, start från marken.",
+      "sectorId": "kaoset",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -2767,6 +2967,7 @@
       "type": "Spricka",
       "firstAscent": "Stefan och Rikard",
       "description": "Sprickan till höger på D-dagsblocket, start från marken.",
+      "sectorId": "kaoset",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -2782,6 +2983,7 @@
       "type": "Krimp,Slopers",
       "firstAscent": "Stefan och Rikard",
       "description": "Mitt på d-dagsblocket, fint.",
+      "sectorId": "kaoset",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -2797,6 +2999,7 @@
       "type": "",
       "firstAscent": "Stefan och Rikard",
       "description": "Sittstart från stenen till vänster vid d-dagsblocket.",
+      "sectorId": "kaoset",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -2812,6 +3015,7 @@
       "type": "Highball,Spricka",
       "firstAscent": "Rikard och Stefan",
       "description": "Sprickan på kometblocket, ramla inte av.",
+      "sectorId": "kaoset",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -2827,6 +3031,7 @@
       "type": "Highball",
       "firstAscent": "Rikard och Stefan",
       "description": "Höger på kometblocket, sittstart och rakt upp till sprickan på sva.",
+      "sectorId": "kaoset",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -2842,6 +3047,7 @@
       "type": "Highball",
       "firstAscent": "Rikard och Stefan",
       "description": "Höger på kometblocket, ss upp åt vänster.",
+      "sectorId": "kaoset",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -2857,6 +3063,7 @@
       "type": "Dyno",
       "firstAscent": "Stefan",
       "description": "Kortsidan kometblocket, sittstart vid bra grepp.",
+      "sectorId": "kaoset",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -2872,6 +3079,7 @@
       "type": "Aréte",
       "firstAscent": "Shawn B och Emil L",
       "description": "Arête på ljust block på gränsen mot \"hygget\".",
+      "sectorId": "kaoset",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -2887,6 +3095,7 @@
       "type": "Krimp",
       "firstAscent": "Shawn B och Emil L",
       "description": "Som gelebjörnen men utan arêten.",
+      "sectorId": "kaoset",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -2902,6 +3111,7 @@
       "type": "Överhäng",
       "firstAscent": "Stefan och Tväråna",
       "description": "Bortanför kometblocket mellan stenarna, hoppa till stort grepp.",
+      "sectorId": "kaoset",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -2917,6 +3127,7 @@
       "type": "Reach",
       "firstAscent": "Stefan",
       "description": "Mellan blocken innanför kometblocket, ss vid stora hyllan.",
+      "sectorId": "kaoset",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -2932,6 +3143,7 @@
       "type": "Aréte",
       "firstAscent": "Grim",
       "description": "Ut mot hygget, vänster om sprickan.",
+      "sectorId": "kaoset",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -2947,6 +3159,7 @@
       "type": "Aréte",
       "firstAscent": "Grim",
       "description": "Ut mot hygget, höger om sprickan.",
+      "sectorId": "kaoset",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -2962,6 +3175,7 @@
       "type": "Mantling",
       "firstAscent": "Stefan och Rikard",
       "description": "Innanför amfiteatern, litet överhängande block.",
+      "sectorId": "kaoset",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -2977,6 +3191,7 @@
       "type": "Slopers",
       "firstAscent": "Jon",
       "description": "Sloperproblem innanför amfiteatern.",
+      "sectorId": "kaoset",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -2992,6 +3207,7 @@
       "type": "Slab",
       "firstAscent": "Jon, Stefan, Shawn",
       "description": "Svart vägg nära vägen.",
+      "sectorId": "kaoset",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -3007,6 +3223,7 @@
       "type": "Aréte",
       "firstAscent": "Stefan",
       "description": "Vä om amfiteaterns sett från vägen, kort överhängande arête.",
+      "sectorId": "kaoset",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -3022,6 +3239,7 @@
       "type": "Reach",
       "firstAscent": "Stefan",
       "description": "Inne i amfiteatern, vid vertikala väggen.",
+      "sectorId": "kaoset",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -3037,6 +3255,7 @@
       "type": "Krimp,Slopers",
       "firstAscent": "Stefan och Jon",
       "description": "Inne i amfiteatern på det rundade blocket, lättaste vägen upp.",
+      "sectorId": "kaoset",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -3052,6 +3271,7 @@
       "type": "Mantling",
       "firstAscent": "Stefan",
       "description": "I amfiteatern sittstart under taket och mantla upp.",
+      "sectorId": "kaoset",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -3067,6 +3287,7 @@
       "type": "Highball",
       "firstAscent": "Fredrik Andersson, Anders Tväråna",
       "description": "På jätteblocket vid vägen, samma som white heat och mardrömmar om grit. Högra aréten. Fem meter, men med fin landning. Att gå in och pusta ut på hyllan ger färre poäng.",
+      "sectorId": "kaoset",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -3082,6 +3303,7 @@
       "type": "Krimp,Aréte",
       "firstAscent": "Iain och dr daniel",
       "description": "Starta ss med högerhand på areten tv om \"dödmanshand\". Areten till vän om dig är utesluten i den fina versionen. Tungstart som övergår i balans och soft slut.",
+      "sectorId": "kaoset",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -3097,6 +3319,7 @@
       "type": "Slab",
       "firstAscent": "Tomas Ekefalk, Jenny Körlin",
       "description": "På samma block som 38, Leksaker och 39, projekt i guiden. Slabben mellan desamma. Starta stående på marken, inte på stenen.",
+      "sectorId": "kaoset",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -3112,6 +3335,7 @@
       "type": "Mantling,Travers H->V",
       "firstAscent": "Tomas Ekefalk, Jenny Körlin, Anders Tväråna",
       "description": "På blocket mittemot Ekefalketik. Sittstart, traverera vänster och mantla vid trädet.",
+      "sectorId": "kaoset",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -3127,6 +3351,7 @@
       "type": "Mantling",
       "firstAscent": "Anders Tväråna, Jenny Körlin",
       "description": "På blocket mittemot Ekefalketik. Mantla mellan blocket och trädet. Konstigt nog är ingetdera ivägen.",
+      "sectorId": "kaoset",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -3142,6 +3367,7 @@
       "type": "Överhäng",
       "firstAscent": "Tomas Ekefalk. Anders Tväråna",
       "description": "Samma block som Ekefalketik. Sittstart vid hörnet. Följ arteten upp. Kryper man ner och sittstartar i kylskåpsposition blir det Sulas custom och minst en siffergrad hårdare. Ej gjort än.",
+      "sectorId": "kaoset",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -3157,6 +3383,7 @@
       "type": "Överhäng",
       "firstAscent": "Tomas Ekefalk",
       "description": "Nummer 39 i guiden. Startar i kylskåpsposition sittande på \"pottan\". Rätt mycket morfo, korta kan möjligen dubbeldyna förbi.",
+      "sectorId": "kaoset",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -3172,6 +3399,7 @@
       "type": "Highball",
       "firstAscent": "Anders Tväråna",
       "description": "Storstenen.Längst till vänster på stora väggen. Rakt upp via små grepp. Fin om man har luftmadrass.",
+      "sectorId": "kaoset",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -3187,6 +3415,7 @@
       "type": "",
       "firstAscent": "Stefan",
       "description": "Den (inte särskilt) efterlängtade sittstarten till Humble in the jumble. Sittstart vid bullen/hornet.",
+      "sectorId": "kaoset",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -3202,6 +3431,7 @@
       "type": "Krimp,Aréte",
       "firstAscent": "Stefan och Henrik",
       "description": "Lågt block in mot kaoset från ahlgrens.",
+      "sectorId": "kaoset",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -3217,6 +3447,7 @@
       "type": "Aréte",
       "firstAscent": "stefan, rikard, henrik",
       "description": "Lågt block in mot kaoset från ahlgrens, sittstart vid pocketarêten. Gå vänster eller höger.",
+      "sectorId": "kaoset",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -3232,6 +3463,7 @@
       "type": "Överhäng",
       "firstAscent": "Stefan och Rikard",
       "description": "Kort överhäng innan pyramiden, gå rakt upp inte runt arêten åt vänster.",
+      "sectorId": "kaoset",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -3247,6 +3479,7 @@
       "type": "Krimp,Dyno",
       "firstAscent": "Stefan E",
       "description": "Sittstart höger om stenen med ett sidtag, dra sedan upp till tvärsprickan. Blocket ligger på övre delen av hygget och är det första man kommer upp till från stugan.",
+      "sectorId": "hygget",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -3262,6 +3495,7 @@
       "type": "Dyno",
       "firstAscent": "Olof E",
       "description": "Catcha kanten från greppen i sprickan.",
+      "sectorId": "hygget",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -3277,6 +3511,7 @@
       "type": "Krimp,Överhäng",
       "firstAscent": "M Flodin",
       "description": "Sittstarta vid arêten, klättra upp höger.",
+      "sectorId": "hygget",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -3292,6 +3527,7 @@
       "type": "Aréte",
       "firstAscent": "Rikard och Stefan",
       "description": "Högra arêten på pyramidväggen.",
+      "sectorId": "hygget",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -3307,6 +3543,7 @@
       "type": "",
       "firstAscent": "Stefan",
       "description": "Sittstart upp i Kheops, utan stenen.",
+      "sectorId": "hygget",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -3322,6 +3559,7 @@
       "type": "Krimp",
       "firstAscent": "Rikard och Stefan",
       "description": "Mitt på pyramidväggen.",
+      "sectorId": "hygget",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -3337,6 +3575,7 @@
       "type": "Travers V->H",
       "firstAscent": "S Eklund",
       "description": "Sittstart som 2005 på pyramiden, traversera lågt höger till högra arêten.",
+      "sectorId": "hygget",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -3352,6 +3591,7 @@
       "type": "Aréte",
       "firstAscent": "Stefan och Rikard",
       "description": "Vänstra arêten på den lilla pyramiden.",
+      "sectorId": "hygget",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -3367,6 +3607,7 @@
       "type": "Reach",
       "firstAscent": "Rikard och Stefan",
       "description": "Längst höger på vita blocket, etablerad start med list och undercut.",
+      "sectorId": "hygget",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -3382,6 +3623,7 @@
       "type": "",
       "firstAscent": "Stefan och Rikard",
       "description": "På vita blocket, mitt på - start med jug.",
+      "sectorId": "hygget",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -3397,6 +3639,7 @@
       "type": "Layback",
       "firstAscent": "Stefan och Rikard",
       "description": "Uppför laybackkanten på vita blocket.",
+      "sectorId": "hygget",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -3412,6 +3655,7 @@
       "type": "",
       "firstAscent": "Stefan och Rikard",
       "description": "På vita blocket. Längst till vänster.",
+      "sectorId": "hygget",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -3427,6 +3671,7 @@
       "type": "Aréte",
       "firstAscent": "Rikard och Stefan",
       "description": "Blocket bredvid Medley, sittstart uppför arêten.",
+      "sectorId": "hygget",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -3442,6 +3687,7 @@
       "type": "Överhäng",
       "firstAscent": "Stefan och Rikard",
       "description": "Starta med krimpar höger om arêten, skicka upp höger.",
+      "sectorId": "hygget",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -3457,6 +3703,7 @@
       "type": "Överhäng,Aréte",
       "firstAscent": "S Eklund",
       "description": "Sittstart som Medley men klättra uppför arêten.",
+      "sectorId": "hygget",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -3472,6 +3719,7 @@
       "type": "Aréte",
       "firstAscent": "Stefan och Rikard",
       "description": "Start vid Medley men gå uppför arêten.",
+      "sectorId": "hygget",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -3487,6 +3735,7 @@
       "type": "Slab",
       "firstAscent": "Grim, Stefan och Daniel",
       "description": "Svaproblem på Medleyblocket.",
+      "sectorId": "hygget",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -3502,6 +3751,7 @@
       "type": "Aréte",
       "firstAscent": "Rikard och Stefan",
       "description": "Kort arête nere på hygget.",
+      "sectorId": "hygget",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -3517,6 +3767,7 @@
       "type": "",
       "firstAscent": "Rikard och Stefan",
       "description": "Vänster om Sax.",
+      "sectorId": "hygget",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -3532,6 +3783,7 @@
       "type": "Krimp,Reach",
       "firstAscent": "Fred och Grim",
       "description": "Start som Spree killer men gå rakt upp i sprickan.",
+      "sectorId": "hygget",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -3547,6 +3799,7 @@
       "type": "Överhäng",
       "firstAscent": "Ola",
       "description": "Sittstart under den lilla takformationen på första blocket man kommer upp till. Går runt åt vänster.",
+      "sectorId": "hygget",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -3562,6 +3815,7 @@
       "type": "Dyno",
       "firstAscent": "S Eklund",
       "description": "Uppvärmningsblocket. Start höger om arêten med tydliga lister och hoppa till kanten. Kanske lite hårdare.",
+      "sectorId": "hygget",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -3577,6 +3831,7 @@
       "type": "Slopers",
       "firstAscent": "S Eklund",
       "description": "Uppvärmningsblocket, sittstart till höger och upp i försvagningen.",
+      "sectorId": "hygget",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -3592,6 +3847,7 @@
       "type": "Dyno",
       "firstAscent": "S Eklund",
       "description": "Sittstart till Jambalaya, avslutar man med dubbeldyno är det 6b+/6c.",
+      "sectorId": "hygget",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -3607,6 +3863,7 @@
       "type": "Dyno",
       "firstAscent": "S Eklund",
       "description": "Uppvärmningsblocket, går mitt på. Start med sloper och pinch, dyno till toppen. Dubbeldyno är 6b.",
+      "sectorId": "hygget",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -3622,6 +3879,7 @@
       "type": "Travers V->H",
       "firstAscent": "S Eklund",
       "description": "På uppvärmningsblocket längst norrut. Sittstart vänster, klättra upp höger.",
+      "sectorId": "hygget",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -3637,6 +3895,7 @@
       "type": "Överhäng",
       "firstAscent": "-",
       "description": "Den högra överhängande linjen på svälthammaren, assis vid sloperrampen.",
+      "sectorId": "hygget",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -3652,6 +3911,7 @@
       "type": "Slopers,Pinch,Överhäng",
       "firstAscent": "Stefan E",
       "description": "Den vänstra linjen på svälthammaren, dvs den stora monoliten ute på åkerns som skådas när man kör in mot Focksta. Start med en klosspinch på arêten, sedan upp höger till rampen och rakt upp.",
+      "sectorId": "hygget",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -3667,6 +3927,7 @@
       "type": "",
       "firstAscent": "Stefan, Olof, Sydde mfl.",
       "description": "20 m \"ovanför\" blocket med Medley på hygget. Sittstart mitt på en vägg och gör ett långt reachmove till en alldeles för liten krimp. Många bud om graden så då kan det ju bara bli...7a+",
+      "sectorId": "hygget",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -3682,6 +3943,7 @@
       "type": "Krimp,Överhäng",
       "firstAscent": "J Smedsaas",
       "description": "Sittstart till den rosa kolonnen. Ligger inne i dungen.",
+      "sectorId": "norrangarna",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -3697,6 +3959,7 @@
       "type": "Aréte",
       "firstAscent": "CD,JS,SE",
       "description": "Sittstart vid aréten.",
+      "sectorId": "norrangarna",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -3712,6 +3975,7 @@
       "type": "Slab",
       "firstAscent": "JS,SE,CD",
       "description": "Rakt upp vid tvärsprickan.",
+      "sectorId": "norrangarna",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -3727,6 +3991,7 @@
       "type": "",
       "firstAscent": "JS,CD,SE",
       "description": "starta vid bullen,klättra höger",
+      "sectorId": "norrangarna",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -3742,6 +4007,7 @@
       "type": "Aréte",
       "firstAscent": "JS,CD,SE",
       "description": "Upp längst aréten.",
+      "sectorId": "norrangarna",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -3757,6 +4023,7 @@
       "type": "Travers H->V",
       "firstAscent": "Stefan E",
       "description": "Starta vid stubben, traversera sprickan åt vänster.",
+      "sectorId": "norrangarna",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -3772,6 +4039,7 @@
       "type": "",
       "firstAscent": "C Dinges/B Bergmark",
       "description": "Sittstart med stor hylla.",
+      "sectorId": "norrangarna",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -3787,6 +4055,7 @@
       "type": "Travers V->H,Heel hook",
       "firstAscent": "C Dinges",
       "description": "Sittstart till vänster traversera höger till akterseglad.",
+      "sectorId": "norrangarna",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -3802,6 +4071,7 @@
       "type": "",
       "firstAscent": "C Dinges",
       "description": "Sittstart med list och stort sidtag vänster om aréten.",
+      "sectorId": "norrangarna",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -3817,6 +4087,7 @@
       "type": "Aréte",
       "firstAscent": "JS,SE,CD",
       "description": "",
+      "sectorId": "norrangarna",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -3832,6 +4103,7 @@
       "type": "Aréte",
       "firstAscent": "S Eklund",
       "description": "",
+      "sectorId": "norrangarna",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -3847,6 +4119,7 @@
       "type": "Mantling",
       "firstAscent": "J Smedsaas",
       "description": "Sittstart vid tallen",
+      "sectorId": "norrangarna",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -3862,6 +4135,7 @@
       "type": "",
       "firstAscent": "JS,SE,CD",
       "description": "Starta med stor slopig list.",
+      "sectorId": "norrangarna",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -3877,6 +4151,7 @@
       "type": "Överhäng",
       "firstAscent": "J Smedsaas, C Dinges",
       "description": "Sitstart med lister, sedan till sloper.",
+      "sectorId": "norrangarna",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -3892,6 +4167,7 @@
       "type": "Mantling",
       "firstAscent": "C Dinges",
       "description": "",
+      "sectorId": "norrangarna",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -3907,6 +4183,7 @@
       "type": "Överhäng",
       "firstAscent": "",
       "description": "Blocket intill vägen, sittstart med underclings i taket.",
+      "sectorId": "norrangarna",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -3922,6 +4199,7 @@
       "type": "Aréte",
       "firstAscent": "Rikard, Stefan och Staffan",
       "description": "Lågt block inne i dungen, sittstart vid hornet.",
+      "sectorId": "norrangarna",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -3937,6 +4215,7 @@
       "type": "Aréte",
       "firstAscent": "Rikard, Stefan och Staffan",
       "description": "Vänster om höstlegender, start med sidtag och sloper.",
+      "sectorId": "norrangarna",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -3952,6 +4231,7 @@
       "type": "Aréte",
       "firstAscent": "Rikard och Stefan",
       "description": "Sittstart från stenen. Ligger mitt i dungen.",
+      "sectorId": "norrangarna",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -3967,6 +4247,7 @@
       "type": "Aréte",
       "firstAscent": "Rikard och Stefan",
       "description": "I dungen, start stående nere i hålet.",
+      "sectorId": "norrangarna",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -3982,6 +4263,7 @@
       "type": "Aréte",
       "firstAscent": "Rikard och Stefan",
       "description": "Nedstigningen på kolonnblocket.",
+      "sectorId": "norrangarna",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -3997,6 +4279,7 @@
       "type": "",
       "firstAscent": "Jon och Calle D",
       "description": "Lättaste vägen upp på baksidan kolonnblocket.",
+      "sectorId": "norrangarna",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -4012,6 +4295,7 @@
       "type": "Krimp",
       "firstAscent": "Jon och Calle D",
       "description": "Baksidan kolonnblocket. Sittstart höger med uc + gaston i spricka, sedan upp vänster utan jughyllan.",
+      "sectorId": "norrangarna",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -4027,6 +4311,7 @@
       "type": "Överhäng,Aréte",
       "firstAscent": "S Eklund",
       "description": "Sittstart vid arêten vänster om rosa kolonnen. Catch från undercling till hylla.",
+      "sectorId": "norrangarna",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -4042,6 +4327,7 @@
       "type": "Mantling",
       "firstAscent": "Jon",
       "description": "Rakt uppför väggen på kolonnblocket, gå upp åt vänster på slutet om du inte är feg.",
+      "sectorId": "norrangarna",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -4057,6 +4343,7 @@
       "type": "Aréte",
       "firstAscent": "Stefan",
       "description": "Ligger på block på åsen mot parkeringen/kvarnen till. Sittstart till vänster med sidtag och sloper på det lägre blocket.",
+      "sectorId": "norrangarna",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -4072,6 +4359,7 @@
       "type": "Aréte",
       "firstAscent": "Stefan",
       "description": "Ligger på block på åsen mot parkeringen/kvarnen till. Sittstart höger med stora sidtag, på det låga blocket.",
+      "sectorId": "norrangarna",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -4087,6 +4375,7 @@
       "type": "Aréte",
       "firstAscent": "Henrik B och Stefan",
       "description": "Ligger på block på åsen mot parkeringen/kvarnen till. Det låga blocket, sittstart vänster.",
+      "sectorId": "norrangarna",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -4102,6 +4391,7 @@
       "type": "Aréte",
       "firstAscent": "Rikard och Stefan",
       "description": "Ligger på block på åsen mot parkeringen/kvarnen till. Tydliga arêten vänster.",
+      "sectorId": "norrangarna",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -4117,6 +4407,7 @@
       "type": "Aréte",
       "firstAscent": "Jon, Stefan och Calle",
       "description": "Arête med pockets bakom dungen mot bivacken. Start från marken. Finns sittstart ca 6a.",
+      "sectorId": "norrangarna",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -4132,6 +4423,7 @@
       "type": "Slab",
       "firstAscent": "Jon",
       "description": "Superlätt sva med skojigt grepp. Innanför dungen mot bivacken till.",
+      "sectorId": "norrangarna",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -4147,6 +4439,7 @@
       "type": "Travers H->V",
       "firstAscent": "Jon",
       "description": "Sittstart som Jugs fatta, traversera vänster in i Rosa kolonnen.",
+      "sectorId": "norrangarna",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -4162,6 +4455,7 @@
       "type": "Jug",
       "firstAscent": "Jon, Rikard och Calle",
       "description": "Sittstart höger om Rosa kolonnen.",
+      "sectorId": "norrangarna",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -4177,6 +4471,7 @@
       "type": "Reach",
       "firstAscent": "Calle D",
       "description": "Svampblocket. Sittstart höger om arêten.",
+      "sectorId": "norrangarna",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -4192,6 +4487,7 @@
       "type": "Aréte",
       "firstAscent": "Rikard och Stefan",
       "description": "Lutande blocket, längst vänster. Sittstart från stora stenen.",
+      "sectorId": "norrangarna",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -4207,6 +4503,7 @@
       "type": "Jug",
       "firstAscent": "olof, stefan, jon, rikard",
       "description": "Lutande blocket, lättaste vägen upp vid rampen.",
+      "sectorId": "norrangarna",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -4222,6 +4519,7 @@
       "type": "Slopers,Dyno",
       "firstAscent": "Jon och Olof",
       "description": "Det lutande blocket. Högra arêten, sittstarta inte från stenen. Vik runt hörnet ganska tidigt, fortsättning hela vägen till toppen är projekt.",
+      "sectorId": "norrangarna",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -4237,6 +4535,7 @@
       "type": "Tak,Krimp,Dyno",
       "firstAscent": "Jocke Berglund",
       "description": "Sittstart med båda händerna på bra list i den mest vänstra delen av taket. Areten ingår EJ. Klättra höger genom hela taket via krimpar och sidotag. Dyna till kanten längst ut och upp höger. Toppa ut.",
+      "sectorId": "the-outer-outskirts",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -4252,6 +4551,7 @@
       "type": "Tak,Krimp",
       "firstAscent": "Olof Eriksson",
       "description": "Sittstart med båda händerna på mycket bra grepp i botten av taket. Klättra rakt upp genom taket via krimpar och sidotag. Toppa ut.",
+      "sectorId": "the-outer-outskirts",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -4267,6 +4567,7 @@
       "type": "Tak,Krimp,Dyno",
       "firstAscent": "Jocke Berglund",
       "description": "Sittstart Klättra Lockfågel men gå ut till höger in i Banjoduellen. Dyna till kanten längst ut och upp höger. Toppa ut.",
+      "sectorId": "the-outer-outskirts",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -4282,6 +4583,7 @@
       "type": "Tak, Sloopers, heelhooks, morpho",
       "firstAscent": "Magnus Crona",
       "description": "Sittstart med båda händerna på bra list i den mest vänstra delen av taket. Klättra och följ hela aréten åt höger.",
+      "sectorId": "the-outer-outskirts",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -4297,6 +4599,7 @@
       "type": "Tak, Sloopers, mantling, morpho",
       "firstAscent": "Magnus Crona",
       "description": "Sittstart med båda händerna på bra list i den mest vänstra delen av taket. Klättra och följ aréten åt höger, mantla ur i klykan vid björken.",
+      "sectorId": "the-outer-outskirts",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -4312,6 +4615,7 @@
       "type": "Tak, Sloopers, mantling",
       "firstAscent": "Magnus Crona",
       "description": "Sittstart med båda händerna på bra list i den mest vänstra delen av taket. Mantla upp på svaet till vänster ganska snart vid flaket, valfri urtoppning.",
+      "sectorId": "the-outer-outskirts",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -4327,6 +4631,7 @@
       "type": "Dyno",
       "firstAscent": "Olof E",
       "description": "Starta i högra delen av taket, från den stora stenen. Höger och vänster hand på små crimpar. Dyno till kanten. Toppa ut.",
+      "sectorId": "the-outer-outskirts",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -4342,6 +4647,7 @@
       "type": "Krimp,Dyno",
       "firstAscent": "Olof E",
       "description": "Går på den vänstra delen av den vertikala väggen. Starta med båda händerna på en bra list. Klättra rakt upp via stor sloper. Halvdynamiskt till kanten. Toppa ut.",
+      "sectorId": "the-outer-outskirts",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -4357,6 +4663,7 @@
       "type": "Krimp,Sloper",
       "firstAscent": "Magnus Crona",
       "description": "Starta som Den sista färden men klättra höger från slopern via bra lister. Toppa ut.",
+      "sectorId": "the-outer-outskirts",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -4372,6 +4679,7 @@
       "type": "Balans, layback",
       "firstAscent": "Magnus Crona",
       "description": "Ståstarta/hoppstarta upp och på den vänstra aréten till vänster om Den sista färden. Toppa ut.",
+      "sectorId": "the-outer-outskirts",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -4387,6 +4695,7 @@
       "type": "heel hooks, travers",
       "firstAscent": "Stefan Eklund",
       "description": "Sittstart på låg hylla, traversera längs kanten åt höger och avsluta i Trailer park Welly.",
+      "sectorId": "the-outer-outskirts",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -4402,6 +4711,7 @@
       "type": "mantling, ingen highball",
       "firstAscent": "",
       "description": "Norra blocket, sittstart hö hand pinch, mantla upp på hyllan.",
+      "sectorId": "the-outer-outskirts",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -4417,6 +4727,7 @@
       "type": "layback, spricka",
       "firstAscent": "Anders Tväråna",
       "description": "Stora sprickan på baksidan. Finare än det ser ut.",
+      "sectorId": "the-outer-outskirts",
       "source": {
         "id": "legacy:focksta",
         "path": "mediawiki/Focksta.txt"
@@ -4427,7 +4738,8 @@
     {
       "filename": "Tidelagstaket.jpg",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "the-outer-outskirts"
     }
   ],
   "access": {

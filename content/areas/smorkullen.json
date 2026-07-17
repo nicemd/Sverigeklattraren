@@ -49,6 +49,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "Svakrux på slutet, samma början som Eiras led.",
+      "sectorId": "rekommenderade-leder",
       "source": {
         "id": "legacy:smorkullen",
         "path": "mediawiki/Smörkullen.txt"
@@ -64,6 +65,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "Svagt överhängande på slutet.",
+      "sectorId": "rekommenderade-leder",
       "source": {
         "id": "legacy:smorkullen",
         "path": "mediawiki/Smörkullen.txt"
@@ -79,6 +81,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "Svårare än det ser ut.",
+      "sectorId": "rekommenderade-leder",
       "source": {
         "id": "legacy:smorkullen",
         "path": "mediawiki/Smörkullen.txt"
@@ -94,6 +97,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "Hårdare än det ser ut, samma utsteg som Siris led.",
+      "sectorId": "rekommenderade-leder",
       "source": {
         "id": "legacy:smorkullen",
         "path": "mediawiki/Smörkullen.txt"
@@ -104,12 +108,14 @@
     {
       "filename": "Smör.jpg",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "access"
     },
     {
       "filename": "Smörkullen_översikt2.jpg",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "rekommenderade-leder"
     }
   ],
   "access": {

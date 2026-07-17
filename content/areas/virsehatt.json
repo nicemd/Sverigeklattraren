@@ -28,6 +28,11 @@
       "body": "Karta här. Tryck på kartknappen ovan. Virsehatt ligger mellan Simlångsdalen och Oskarström utanför Halmstad. Från parkeringen går man genom grindarna så att man har höjden på höger hand. Följ stigen tills klipporna börjar dyka upp på höger hand. Sväng höger på den lilla stigen och klippan syns nu tydligt på höger sida."
     },
     {
+      "id": "leder",
+      "title": "Leder",
+      "body": ""
+    },
+    {
       "id": "kontakt",
       "title": "Kontakt",
       "body": "För mer info och bilder kolla Eskapader Kategori:trad Kategori:vertikalt Category:Halland"
@@ -44,6 +49,7 @@
       "type": "trad",
       "firstAscent": "Michael Gullvert -08",
       "description": "Lättklättring upp till mitten sedan välsäkrat crux, lite lös i toppen annars fast.",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:virsehatt",
         "path": "mediawiki/Virsehatt.txt"
@@ -59,6 +65,7 @@
       "type": "trad",
       "firstAscent": "Michael Gullvert -08",
       "description": "Cruxet i början, björken i slutet är en trevlig viloplats, lite lös i toppen går att säkra.",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:virsehatt",
         "path": "mediawiki/Virsehatt.txt"
@@ -74,6 +81,7 @@
       "type": "trad",
       "firstAscent": "Michael Gullvert -08",
       "description": "Teknisk klättring i början sedan olika varianter till toppen går att säkra.",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:virsehatt",
         "path": "mediawiki/Virsehatt.txt"
@@ -89,6 +97,7 @@
       "type": "trad",
       "firstAscent": "Michael Gullvert Niklas Sigfeldt -08",
       "description": "Jämn och lite grön klättring",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:virsehatt",
         "path": "mediawiki/Virsehatt.txt"
@@ -99,7 +108,8 @@
     {
       "filename": "Virsehatt.jpg",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "leder"
     }
   ],
   "access": {

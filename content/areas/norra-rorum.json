@@ -28,9 +28,34 @@
       "body": "* 1-3 Södra väggen * 4-5 Östra väggen * 6-8 Boulder"
     },
     {
+      "id": "sodra-vaggen",
+      "title": "Södra väggen",
+      "body": ""
+    },
+    {
+      "id": "vagg-1",
+      "title": "Vägg 1",
+      "body": ""
+    },
+    {
       "id": "vagg-2",
       "title": "Vägg 2",
       "body": "I princip alla leder till höger om \"Botten upp\" är mer eller mindre igenmossade och blockeras av ett stort träd som drar till sig mossa, fukt, löv och annat elände."
+    },
+    {
+      "id": "vagg-3",
+      "title": "Vägg 3",
+      "body": ""
+    },
+    {
+      "id": "ostra-vaggen",
+      "title": "Östra väggen",
+      "body": ""
+    },
+    {
+      "id": "vagg-4",
+      "title": "Vägg 4",
+      "body": ""
     },
     {
       "id": "vagg-5",
@@ -54,6 +79,7 @@
       "type": "trad",
       "firstAscent": "Anders \"Killing\" Meyer 96",
       "description": "Lätt upp till de två parallella skålarna. Svårsäkrat krux. Utsteg till vänster om grenen. Risk för fall i hylla!",
+      "sectorId": "vagg-1",
       "source": {
         "id": "legacy:norra-rorum",
         "path": "mediawiki/Norra Rörum.txt"
@@ -69,6 +95,7 @@
       "type": "trad",
       "firstAscent": "Torbjörn Friberg 96",
       "description": "",
+      "sectorId": "vagg-1",
       "source": {
         "id": "legacy:norra-rorum",
         "path": "mediawiki/Norra Rörum.txt"
@@ -84,6 +111,7 @@
       "type": "trad",
       "firstAscent": "Bernt Wagner",
       "description": "Lätt led på den inte direkt jätteimponerande kanten.",
+      "sectorId": "vagg-1",
       "source": {
         "id": "legacy:norra-rorum",
         "path": "mediawiki/Norra Rörum.txt"
@@ -99,6 +127,7 @@
       "type": "mix",
       "firstAscent": "Torbjörna Friberg",
       "description": "Insteg på hyllan, vik sedan av åt höger in till den lilla diedern.",
+      "sectorId": "vagg-2",
       "source": {
         "id": "legacy:norra-rorum",
         "path": "mediawiki/Norra Rörum.txt"
@@ -114,6 +143,7 @@
       "type": "trad",
       "firstAscent": "Martin Weberg 06",
       "description": "Start i småsprickor, följ sedan uppbruten klippa rakt upp. Utsteget i sprickan till vänster är kruxet. Osäker gradering.",
+      "sectorId": "vagg-2",
       "source": {
         "id": "legacy:norra-rorum",
         "path": "mediawiki/Norra Rörum.txt"
@@ -129,6 +159,7 @@
       "type": "mix",
       "firstAscent": "Claes Cramer",
       "description": "Instegsvariant till \"Myrslok\".",
+      "sectorId": "vagg-2",
       "source": {
         "id": "legacy:norra-rorum",
         "path": "mediawiki/Norra Rörum.txt"
@@ -144,6 +175,7 @@
       "type": "sport",
       "firstAscent": "Benjamin Ehman",
       "description": "Gå rakt upp till första bulten. Efter första bb. gå lite snett vänster och sen rakt upp. En av de trevligare lederna i Norra Rörum. Firningsankare.",
+      "sectorId": "vagg-2",
       "source": {
         "id": "legacy:norra-rorum",
         "path": "mediawiki/Norra Rörum.txt"
@@ -159,6 +191,7 @@
       "type": "sport",
       "firstAscent": "Daniel Ehman",
       "description": "Samma insteg som \"Myrslok\", men där \"Myrslok\" viker av lite åt vänster fortsätter denna rakt upp och snart kommer ett svakrux. Ganska desperat krux. Firningsankare.",
+      "sectorId": "vagg-2",
       "source": {
         "id": "legacy:norra-rorum",
         "path": "mediawiki/Norra Rörum.txt"
@@ -174,6 +207,7 @@
       "type": "trad",
       "firstAscent": "Bernt Wagner",
       "description": "Följ den markanta sprickan hela vägen. Berget är poröst och kan gå sönder om man faller på kilar. svårsäkrad.",
+      "sectorId": "vagg-2",
       "source": {
         "id": "legacy:norra-rorum",
         "path": "mediawiki/Norra Rörum.txt"
@@ -189,6 +223,7 @@
       "type": "trad",
       "firstAscent": "Mats Larsson",
       "description": "Lätt i början. Lurig och svår att on-sighta!",
+      "sectorId": "vagg-2",
       "source": {
         "id": "legacy:norra-rorum",
         "path": "mediawiki/Norra Rörum.txt"
@@ -204,6 +239,7 @@
       "type": "mix",
       "firstAscent": "Torbjörn Friberg",
       "description": "Rolig led mitt på väggen. Bultarna ska kompletteras med kil.",
+      "sectorId": "vagg-2",
       "source": {
         "id": "legacy:norra-rorum",
         "path": "mediawiki/Norra Rörum.txt"
@@ -219,6 +255,7 @@
       "type": "",
       "firstAscent": "Bernt Wagner",
       "description": "Vägg- och sprickklättring. Sparsamt säkrad i början, men bättre mot slutet.",
+      "sectorId": "vagg-2",
       "source": {
         "id": "legacy:norra-rorum",
         "path": "mediawiki/Norra Rörum.txt"
@@ -234,6 +271,7 @@
       "type": "trad",
       "firstAscent": "Bernt Wagner",
       "description": "Krux i starten, säkras med kilar.",
+      "sectorId": "vagg-2",
       "source": {
         "id": "legacy:norra-rorum",
         "path": "mediawiki/Norra Rörum.txt"
@@ -249,6 +287,7 @@
       "type": "",
       "firstAscent": "Benjamin Ehman",
       "description": "Går utmed högra hörnet av väggen, sparsamt säkrad.",
+      "sectorId": "vagg-2",
       "source": {
         "id": "legacy:norra-rorum",
         "path": "mediawiki/Norra Rörum.txt"
@@ -264,6 +303,7 @@
       "type": "trad",
       "firstAscent": "Petter Åsander 06",
       "description": "Följer först \"Baksprickan\" upp halvvägs ungefär, sedan viker man av åt vänster förbi ett fint layback. Välsäkrad med kilar och friends. Osäker gradering.",
+      "sectorId": "vagg-3",
       "source": {
         "id": "legacy:norra-rorum",
         "path": "mediawiki/Norra Rörum.txt"
@@ -279,6 +319,7 @@
       "type": "trad",
       "firstAscent": "?",
       "description": "Följer högra sprickan rakt upp. Välsäkrad med kilar och friends.",
+      "sectorId": "vagg-3",
       "source": {
         "id": "legacy:norra-rorum",
         "path": "mediawiki/Norra Rörum.txt"
@@ -294,6 +335,7 @@
       "type": "trad",
       "firstAscent": "Claes Cramer",
       "description": "Klättring upp i en tunn spricka ute på den lilla pelaren. (Osäkert exakt var leden går)",
+      "sectorId": "vagg-3",
       "source": {
         "id": "legacy:norra-rorum",
         "path": "mediawiki/Norra Rörum.txt"
@@ -309,6 +351,7 @@
       "type": "trad",
       "firstAscent": "Petter Åsander 06",
       "description": "En tydlig lite sick-sackande spricka. Osäker gradering.",
+      "sectorId": "vagg-4",
       "source": {
         "id": "legacy:norra-rorum",
         "path": "mediawiki/Norra Rörum.txt"
@@ -324,6 +367,7 @@
       "type": "sport",
       "firstAscent": "Bernt Wagner 91",
       "description": "Väggklättring mitt på vänstra väggen. Säkras med en borrbult.",
+      "sectorId": "vagg-5",
       "source": {
         "id": "legacy:norra-rorum",
         "path": "mediawiki/Norra Rörum.txt"
@@ -339,6 +383,7 @@
       "type": "sport",
       "firstAscent": "Bernt Wagner 92",
       "description": "Tuff led till höger om \"Börnis bravader\". Sliter hårt på fingrarna och säkras med två borrbultar.",
+      "sectorId": "vagg-5",
       "source": {
         "id": "legacy:norra-rorum",
         "path": "mediawiki/Norra Rörum.txt"
@@ -354,6 +399,7 @@
       "type": "sport",
       "firstAscent": "Patrik Lind 92",
       "description": "Tung väggklätting med krux på insteget, andra krux vid borrbulten som är enda säkringen.",
+      "sectorId": "vagg-5",
       "source": {
         "id": "legacy:norra-rorum",
         "path": "mediawiki/Norra Rörum.txt"
@@ -369,6 +415,7 @@
       "type": "trad",
       "firstAscent": "Bernt Wagner 91",
       "description": "Följer sprickan rakt upp till flaket som viker av åt vänster. Sparsamt säkrad.",
+      "sectorId": "vagg-5",
       "source": {
         "id": "legacy:norra-rorum",
         "path": "mediawiki/Norra Rörum.txt"
@@ -384,6 +431,7 @@
       "type": "trad",
       "firstAscent": "Daniel Ehman 91",
       "description": "Följer sprickan åt höger. Krux vid utsteget.",
+      "sectorId": "vagg-5",
       "source": {
         "id": "legacy:norra-rorum",
         "path": "mediawiki/Norra Rörum.txt"
@@ -399,6 +447,7 @@
       "type": "trad",
       "firstAscent": "Benjamin Ehman 92",
       "description": "Rakt upp för väggens högra del. Samma utsteg som \"Raka rör\", som också är kruxet.",
+      "sectorId": "vagg-5",
       "source": {
         "id": "legacy:norra-rorum",
         "path": "mediawiki/Norra Rörum.txt"
@@ -414,6 +463,7 @@
       "type": "trad",
       "firstAscent": "Daniel Ehman, Benjamin Ehman & P Lind 91",
       "description": "",
+      "sectorId": "vagg-5",
       "source": {
         "id": "legacy:norra-rorum",
         "path": "mediawiki/Norra Rörum.txt"
@@ -429,6 +479,7 @@
       "type": "",
       "firstAscent": "",
       "description": "Rakt uppför klippan, till höger om det lilla hörnet.",
+      "sectorId": "bouldervaggarna",
       "source": {
         "id": "legacy:norra-rorum",
         "path": "mediawiki/Norra Rörum.txt"
@@ -444,6 +495,7 @@
       "type": "",
       "firstAscent": "",
       "description": "Startar någon meter från hörnet, tuff catch innan toppen.",
+      "sectorId": "bouldervaggarna",
       "source": {
         "id": "legacy:norra-rorum",
         "path": "mediawiki/Norra Rörum.txt"
@@ -459,6 +511,7 @@
       "type": "",
       "firstAscent": "",
       "description": "Travers på klippans nedre del.",
+      "sectorId": "bouldervaggarna",
       "source": {
         "id": "legacy:norra-rorum",
         "path": "mediawiki/Norra Rörum.txt"
@@ -474,6 +527,7 @@
       "type": "",
       "firstAscent": "",
       "description": "Tung travers fram och tillbaka strax ovanför marken. Lätt överhängande.",
+      "sectorId": "bouldervaggarna",
       "source": {
         "id": "legacy:norra-rorum",
         "path": "mediawiki/Norra Rörum.txt"
@@ -489,6 +543,7 @@
       "type": "",
       "firstAscent": "",
       "description": "Rakt uppför det rena partiet till höger på klippan.",
+      "sectorId": "bouldervaggarna",
       "source": {
         "id": "legacy:norra-rorum",
         "path": "mediawiki/Norra Rörum.txt"
@@ -499,62 +554,74 @@
     {
       "filename": "Nrorum.jpg",
       "caption": "Nick Baker, [[Klarälven",
-      "missing": false
+      "missing": false,
+      "sectorId": null
     },
     {
       "filename": "Nrorumoversikt20130715.gif",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "hitta-hit"
     },
     {
       "filename": "Nrorum_oversikt.png",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "vaggoversikt"
     },
     {
       "filename": "Nrorum_vagg1.png",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "vagg-1"
     },
     {
       "filename": "Nrorum_vagg2.png",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "vagg-2"
     },
     {
       "filename": "Nrorum_foto_vagg2.jpg",
       "caption": "Foto av vägg 2, ganska igenvuxen just vid fototillfället",
-      "missing": false
+      "missing": false,
+      "sectorId": "vagg-2"
     },
     {
       "filename": "Nrorum_vagg3.png",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "vagg-3"
     },
     {
       "filename": "Nrorum_vagg4.png",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "vagg-4"
     },
     {
       "filename": "Nrorum_vagg5.png",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "vagg-5"
     },
     {
       "filename": "Nrorum_foto_vagg5a.jpg",
       "caption": "Vänstra delen av vägg 5",
-      "missing": false
+      "missing": false,
+      "sectorId": "vagg-5"
     },
     {
       "filename": "Nrorum_foto_vagg5b.jpg",
       "caption": "Högra delen av vägg 5",
-      "missing": false
+      "missing": false,
+      "sectorId": "vagg-5"
     },
     {
       "filename": "Nrorum_boulders.png",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "bouldervaggarna"
     }
   ],
   "access": {

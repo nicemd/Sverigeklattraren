@@ -49,6 +49,7 @@
       "type": "trad",
       "firstAscent": "Mathias Nilsson (John-Olov Larsson) 120908",
       "description": "Varierad klättring med blöt start, möjlighet att välja en alternativ start via en platå med en gran. Från cirka 3-4 meter och uppåt följer en fin välsäkrad spricklinje. Diederklättring med lite knix för att ta sig över en rygg till höger. I övrigt rätt fina jamgrepp och listor, dock behöver sprickan borstas ur djupare, just nu ställer mycket jord till intressanta problem. Leden avslutades med att klättra upp på \"hornet\" till vänster.",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:kalleshallarna",
         "path": "mediawiki/Kalleshallarna.txt"
@@ -64,6 +65,7 @@
       "type": "trad",
       "firstAscent": "Mathias Nilsson (Conny Andersson) 120908",
       "description": "Välsäkrad spricklinje med en något tung start, därefter enkelt till toppen. Leden sväljer kamkilar i en tills dels djup spricka full av rötter och jord.",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:kalleshallarna",
         "path": "mediawiki/Kalleshallarna.txt"
@@ -79,6 +81,7 @@
       "type": "trad",
       "firstAscent": "Conny Andersson (Mathias Nilsson) 120908",
       "description": "Välsäkrad spricklinje med fina steg hela vägen.",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:kalleshallarna",
         "path": "mediawiki/Kalleshallarna.txt"
@@ -88,8 +91,9 @@
   "images": [
     {
       "filename": "Kallerhorn.jpg",
-      "caption": "thumb",
-      "missing": false
+      "caption": "",
+      "missing": false,
+      "sectorId": "leder"
     }
   ],
   "access": {

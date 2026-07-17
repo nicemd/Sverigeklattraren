@@ -23,6 +23,11 @@
       "body": "Vänstra berget ligger bakom idrottshallen medan högra berget ligger bakom Nylöseskolan, använd hitta.se för att hitta Nylöseskolan. (Berget är 400 meter ifrån SKF)."
     },
     {
+      "id": "vanstra-berget",
+      "title": "Vänstra berget",
+      "body": ""
+    },
+    {
       "id": "hogra-berget",
       "title": "Högra berget",
       "body": "Kategori:Göteborg"
@@ -39,6 +44,7 @@
       "type": "",
       "firstAscent": "Fredrik Persson & Elisabeth Ohlsson",
       "description": "",
+      "sectorId": "vanstra-berget",
       "source": {
         "id": "legacy:nylose",
         "path": "mediawiki/Nylöse.txt"
@@ -54,6 +60,7 @@
       "type": "sport",
       "firstAscent": "Henrik Sennelöv",
       "description": "Höger om taket finns lite bultar, starta ifrån andra bulten och klättra upp längs med areten. Leden går inte att missa!",
+      "sectorId": "vanstra-berget",
       "source": {
         "id": "legacy:nylose",
         "path": "mediawiki/Nylöse.txt"
@@ -69,6 +76,7 @@
       "type": "",
       "firstAscent": "Henrik Sennelöv",
       "description": "",
+      "sectorId": "vanstra-berget",
       "source": {
         "id": "legacy:nylose",
         "path": "mediawiki/Nylöse.txt"
@@ -84,6 +92,7 @@
       "type": "",
       "firstAscent": "Henrik Sennelöv&Robert Brunell",
       "description": "",
+      "sectorId": "hogra-berget",
       "source": {
         "id": "legacy:nylose",
         "path": "mediawiki/Nylöse.txt"
@@ -99,6 +108,7 @@
       "type": "",
       "firstAscent": "Camilla Ramstedt",
       "description": "Hörnet",
+      "sectorId": "hogra-berget",
       "source": {
         "id": "legacy:nylose",
         "path": "mediawiki/Nylöse.txt"
@@ -114,6 +124,7 @@
       "type": "",
       "firstAscent": "Robert Brunell & Lars Lövgren",
       "description": "",
+      "sectorId": "hogra-berget",
       "source": {
         "id": "legacy:nylose",
         "path": "mediawiki/Nylöse.txt"
@@ -129,6 +140,7 @@
       "type": "",
       "firstAscent": "Henrik Sennelöv & Robert Brunell",
       "description": "",
+      "sectorId": "hogra-berget",
       "source": {
         "id": "legacy:nylose",
         "path": "mediawiki/Nylöse.txt"
@@ -144,6 +156,7 @@
       "type": "",
       "firstAscent": "Lars Ingemansson & Arne Roos",
       "description": "",
+      "sectorId": "hogra-berget",
       "source": {
         "id": "legacy:nylose",
         "path": "mediawiki/Nylöse.txt"
@@ -159,6 +172,7 @@
       "type": "",
       "firstAscent": "Lars Lövgren & Robert Brunell",
       "description": "",
+      "sectorId": "hogra-berget",
       "source": {
         "id": "legacy:nylose",
         "path": "mediawiki/Nylöse.txt"
@@ -174,6 +188,7 @@
       "type": "",
       "firstAscent": "Lars Lövgren & Robert Brunell",
       "description": "",
+      "sectorId": "hogra-berget",
       "source": {
         "id": "legacy:nylose",
         "path": "mediawiki/Nylöse.txt"
@@ -184,22 +199,26 @@
     {
       "filename": "Nylose_oversikt.jpg",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "mer"
     },
     {
       "filename": "Vanstraberget.jpg",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "vanstra-berget"
     },
     {
       "filename": "Hograberget2.jpg",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "hogra-berget"
     },
     {
       "filename": "Hograberget3.jpg",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "hogra-berget"
     }
   ],
   "access": {

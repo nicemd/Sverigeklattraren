@@ -41,6 +41,16 @@
       "id": "leder",
       "title": "Leder",
       "body": "Det finns 11 leder. Storaväggen är det väggparti som ligger bakom och till vänster om klacken. Klacken är det första väggpartiet som man möter efter stigen och går ut som en klack från Storaväggen. Korta leder."
+    },
+    {
+      "id": "1-storavaggen",
+      "title": "1. Storaväggen",
+      "body": ""
+    },
+    {
+      "id": "2-klacken",
+      "title": "2. Klacken",
+      "body": ""
     }
   ],
   "routes": [
@@ -54,6 +64,7 @@
       "type": "trad",
       "firstAscent": "Erik L 2000",
       "description": "Gå upp i den breda sprickan och traversera sedan någon meter t.v. Klättra rakt upp. Blandade lister och crimps.",
+      "sectorId": "1-storavaggen",
       "source": {
         "id": "legacy:grottberget",
         "path": "mediawiki/Grottberget.txt"
@@ -69,6 +80,7 @@
       "type": "trad",
       "firstAscent": "Okänd ?",
       "description": "Sprickan t.h. Klättra den överhängande sprickan och ta sedan lite t.v (5c) eller rakt upp (6a). Tung i överhänget men fin spricka.",
+      "sectorId": "1-storavaggen",
       "source": {
         "id": "legacy:grottberget",
         "path": "mediawiki/Grottberget.txt"
@@ -84,6 +96,7 @@
       "type": "trad",
       "firstAscent": "Okänd ?",
       "description": "Går upp i den tunna sprickan 2m t.h om Puma. Gå sedan över det lilla taket och rakt upp i sprickan. Ihållande klättring. Ankare.",
+      "sectorId": "1-storavaggen",
       "source": {
         "id": "legacy:grottberget",
         "path": "mediawiki/Grottberget.txt"
@@ -99,6 +112,7 @@
       "type": "trad",
       "firstAscent": "Erik L, Jakob H 2009",
       "description": "Startar överhängande med sned spricka, fortsätter i den tydliga sprickan. Ankare.",
+      "sectorId": "1-storavaggen",
       "source": {
         "id": "legacy:grottberget",
         "path": "mediawiki/Grottberget.txt"
@@ -114,6 +128,7 @@
       "type": "trad",
       "firstAscent": "[[]] [[]]",
       "description": "Det högra diedret. Kan startas med överhängande spricka.",
+      "sectorId": "1-storavaggen",
       "source": {
         "id": "legacy:grottberget",
         "path": "mediawiki/Grottberget.txt"
@@ -129,6 +144,7 @@
       "type": "trad",
       "firstAscent": "[[]] [[]]",
       "description": "Linjen över taket",
+      "sectorId": "1-storavaggen",
       "source": {
         "id": "legacy:grottberget",
         "path": "mediawiki/Grottberget.txt"
@@ -144,6 +160,7 @@
       "type": "trad",
       "firstAscent": "Jakob H 2000",
       "description": "Går upp i banansprickan, Välsäkrad.",
+      "sectorId": "2-klacken",
       "source": {
         "id": "legacy:grottberget",
         "path": "mediawiki/Grottberget.txt"
@@ -159,6 +176,7 @@
       "type": "sport",
       "firstAscent": "Erik L, Jakob H 2008",
       "description": "Går på brant parti. Ankare.",
+      "sectorId": "2-klacken",
       "source": {
         "id": "legacy:grottberget",
         "path": "mediawiki/Grottberget.txt"
@@ -174,6 +192,7 @@
       "type": "sport",
       "firstAscent": "[[]] [[]]",
       "description": "Knivskarp aréte",
+      "sectorId": "2-klacken",
       "source": {
         "id": "legacy:grottberget",
         "path": "mediawiki/Grottberget.txt"
@@ -189,6 +208,7 @@
       "type": "trad",
       "firstAscent": "Jakob H 2000",
       "description": "Börjar rakt nedanför sprickan ett par m t.h om kanten där det är överhängande. Ankare.",
+      "sectorId": "2-klacken",
       "source": {
         "id": "legacy:grottberget",
         "path": "mediawiki/Grottberget.txt"
@@ -204,6 +224,7 @@
       "type": "trad",
       "firstAscent": "Stieg B 1998?",
       "description": "Går i sprickan t.h om Rimfaxe. Fin och lätt jamspricka. Början kan tyckas vara avig. Bra nybörjar led. Ankare.",
+      "sectorId": "2-klacken",
       "source": {
         "id": "legacy:grottberget",
         "path": "mediawiki/Grottberget.txt"

@@ -25,6 +25,11 @@
       "body": "Utmärkt klippa för att lära sig leda trad. Klippan vätter mot sydväst och en öppen åker, vilket ger gott om kvällssol. Topprepsmöjligheterna är goda, men ta med ordentligt långa slingor och/eller några kilar, eftersom träden står en bit från klippkanten. Klippan är 20 m lång och höjden varierar mellan 3 och 8 meter, så om man är utrustad med crashpad och en god portion cojones kan man lämna repet hemma. Uppsalas bästa efter-jobbet-klippa?"
     },
     {
+      "id": "rekommenderade-leder",
+      "title": "Rekommenderade leder",
+      "body": ""
+    },
+    {
       "id": "vagbeskrivning",
       "title": "Vägbeskrivning",
       "body": "Ta Dag Hammarskjölds väg söderut från centrum och vid trafikljuset vid Ulleråker sväng av till höger på Vårdsätravägen. Forsätt några kilometer fram till en avtagsväg skyltad mot Hammarskog och tag av där över bron (Lurbo bro). Kör vidare till avtagsvägen skyltad till Uppsala Näs på vänster sida. Ta denna väg 1km, sväng sedan till höger på grusvägen som är bakvägen till Hammarskog. Efter ett par kilometer ser du parkeringen till Dalkarlskärret på vänster sida. Korsa vägen och gå 10 minuter nordväst runt sjön. Du kommer att se väggen på höger sida. Alternativ: istället för att svänga vänster mot Uppsala Näs, ta höger i den korsningen, och ta sen in vänster på en grusväg. Passera några hus och åk vidare in i skogen. Du finner snart en pakeringsficka på höger sida -- ställ dig där eller på vändplanen något längre fram. Följ stigen mittemot den första parkeringsfickan i 5-10 minuter (finns röda markeringar). Klippan ligger på vänster sida i åkerkanten."
@@ -51,6 +56,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:dalkarlskarret",
         "path": "mediawiki/Dalkarlskärret.txt"
@@ -66,6 +72,7 @@
       "type": "trad",
       "firstAscent": "Carl-Göran Brask 1976",
       "description": "",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:dalkarlskarret",
         "path": "mediawiki/Dalkarlskärret.txt"
@@ -81,6 +88,7 @@
       "type": "trad",
       "firstAscent": "Carl-Göran Brask 1976",
       "description": "",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:dalkarlskarret",
         "path": "mediawiki/Dalkarlskärret.txt"
@@ -96,6 +104,7 @@
       "type": "trad",
       "firstAscent": "Åke Danielsson 1987",
       "description": "",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:dalkarlskarret",
         "path": "mediawiki/Dalkarlskärret.txt"
@@ -111,6 +120,7 @@
       "type": "trad",
       "firstAscent": "Rick McGregor 1979",
       "description": "",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:dalkarlskarret",
         "path": "mediawiki/Dalkarlskärret.txt"
@@ -126,6 +136,7 @@
       "type": "trad",
       "firstAscent": "Erik Grund 1977",
       "description": "",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:dalkarlskarret",
         "path": "mediawiki/Dalkarlskärret.txt"
@@ -141,6 +152,7 @@
       "type": "trad",
       "firstAscent": "Markus Nyström 2010",
       "description": "",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:dalkarlskarret",
         "path": "mediawiki/Dalkarlskärret.txt"
@@ -156,6 +168,7 @@
       "type": "trad",
       "firstAscent": "Wigren & Olofsson 2011",
       "description": "",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:dalkarlskarret",
         "path": "mediawiki/Dalkarlskärret.txt"
@@ -171,6 +184,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:dalkarlskarret",
         "path": "mediawiki/Dalkarlskärret.txt"
@@ -186,6 +200,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:dalkarlskarret",
         "path": "mediawiki/Dalkarlskärret.txt"
@@ -201,6 +216,7 @@
       "type": "trad",
       "firstAscent": "Markus Nyström 2009",
       "description": "",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:dalkarlskarret",
         "path": "mediawiki/Dalkarlskärret.txt"
@@ -216,6 +232,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "Syns ej på bilden. C:a 5 m höger om 11.",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:dalkarlskarret",
         "path": "mediawiki/Dalkarlskärret.txt"
@@ -226,7 +243,8 @@
     {
       "filename": "Dalkarlskarret_topo_small.jpg",
       "caption": "Dalkarlskärrets huvudvägg",
-      "missing": false
+      "missing": false,
+      "sectorId": "leder"
     }
   ],
   "access": {

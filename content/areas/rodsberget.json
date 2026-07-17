@@ -41,6 +41,7 @@
       "type": "",
       "firstAscent": "Stefan Wulf -07",
       "description": "Det lilla taket med den tydliga aretén cirka 15m till vänster om Badkrukan.",
+      "sectorId": "klippan",
       "source": {
         "id": "legacy:rodsberget",
         "path": "mediawiki/Rödsberget.txt"
@@ -56,6 +57,7 @@
       "type": "",
       "firstAscent": "",
       "description": "Sprickan upp till det lilla taket.",
+      "sectorId": "klippan",
       "source": {
         "id": "legacy:rodsberget",
         "path": "mediawiki/Rödsberget.txt"
@@ -71,6 +73,7 @@
       "type": "",
       "firstAscent": "Henrik Bolander -07",
       "description": "Startar två meter till vänster om Badkrukan. Hangla ca 4m vänster snett uppför sprickan därefter rakt upp i spricksystemet. Tänk på utstickande hyllan under traversen.",
+      "sectorId": "klippan",
       "source": {
         "id": "legacy:rodsberget",
         "path": "mediawiki/Rödsberget.txt"
@@ -86,6 +89,7 @@
       "type": "",
       "firstAscent": "",
       "description": "",
+      "sectorId": "klippan",
       "source": {
         "id": "legacy:rodsberget",
         "path": "mediawiki/Rödsberget.txt"
@@ -101,6 +105,7 @@
       "type": "",
       "firstAscent": "Henrik Bolander -07",
       "description": "Sprickan längst till vänster i det stora taket. Börjar på aretén på den utskjutande klacken.",
+      "sectorId": "klippan",
       "source": {
         "id": "legacy:rodsberget",
         "path": "mediawiki/Rödsberget.txt"
@@ -116,6 +121,7 @@
       "type": "",
       "firstAscent": "",
       "description": "Följer den överhängande aretén. Sen vänster ut på den slopiga hyllan.",
+      "sectorId": "klippan",
       "source": {
         "id": "legacy:rodsberget",
         "path": "mediawiki/Rödsberget.txt"
@@ -131,6 +137,7 @@
       "type": "",
       "firstAscent": "Henrik Bolander -07",
       "description": "Börjar två meter till höger om Badkrukan. Följ sprickan till toppen.",
+      "sectorId": "klippan",
       "source": {
         "id": "legacy:rodsberget",
         "path": "mediawiki/Rödsberget.txt"
@@ -146,6 +153,7 @@
       "type": "",
       "firstAscent": "",
       "description": "Cirka 10m till höger om badkrukan. Följ diederformationen en bit. Därefter vänster upp under överhänget. Svårt.",
+      "sectorId": "klippan",
       "source": {
         "id": "legacy:rodsberget",
         "path": "mediawiki/Rödsberget.txt"
@@ -161,6 +169,7 @@
       "type": "",
       "firstAscent": "Henrik Bolander -07",
       "description": "Cirka 15m till höger om badkrukan. Klättra mitt på den röda skölden snett uppåt höger.",
+      "sectorId": "klippan",
       "source": {
         "id": "legacy:rodsberget",
         "path": "mediawiki/Rödsberget.txt"
@@ -176,6 +185,7 @@
       "type": "",
       "firstAscent": "Henrik Bolander -07",
       "description": "Breda sprickan snett uppåt höger.",
+      "sectorId": "klippan",
       "source": {
         "id": "legacy:rodsberget",
         "path": "mediawiki/Rödsberget.txt"
@@ -191,6 +201,7 @@
       "type": "",
       "firstAscent": "Henrik Bolander -07",
       "description": "Lutande sprickan till höger om Marulk.",
+      "sectorId": "klippan",
       "source": {
         "id": "legacy:rodsberget",
         "path": "mediawiki/Rödsberget.txt"
@@ -206,6 +217,7 @@
       "type": "",
       "firstAscent": "Peter Bosma -07",
       "description": "Startar i monot 2m till höger om Lutfisk.",
+      "sectorId": "klippan",
       "source": {
         "id": "legacy:rodsberget",
         "path": "mediawiki/Rödsberget.txt"
@@ -215,8 +227,9 @@
   "images": [
     {
       "filename": "Rödsberget.png",
-      "caption": "center",
-      "missing": false
+      "caption": "",
+      "missing": false,
+      "sectorId": "klippan"
     }
   ],
   "access": {

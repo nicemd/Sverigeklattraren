@@ -23,6 +23,11 @@
       "body": "Snuggtaskebergs klätterhistoria är liksom många andra mindre områden bortom de stora klätterstråken höljt i dunkel. Någon form av aktivitet har bedrivits, det vet man, men inga dokument har återfunnits där problem beskrivits. Under 2003-2004 återupptäcktes området av en ny generation bouldrare som borstade fram vägg efter vägg och numera är det mesta självklara gjort, det som återstår är de hårdaste linjerna som i vissa fall är smått utopiska."
     },
     {
+      "id": "karta-vagbeskrivning",
+      "title": "Karta & Vägbeskrivning",
+      "body": ""
+    },
+    {
       "id": "bil",
       "title": "Bil",
       "body": "Från Danderydsvägen svänger man in på Frestavägen. Efter ca 800 meter tar man vänster in på Båtmansvägen och sedan höger på Gammelvägen. Följ Gammelvägen tills dess slut. Där finns parkering invid Turebergs klubbstuga."
@@ -38,9 +43,29 @@
       "body": "Följ stigen från parkeringen tills huvudväggen skymtar på vänster sida. Orientera er sedan med hjälp av översiktskartan för att nå de andra väggarna."
     },
     {
+      "id": "oversikt",
+      "title": "Översikt",
+      "body": ""
+    },
+    {
       "id": "huvudvaggen",
       "title": "Huvudväggen",
       "body": "Den största väggen i området och den vägg som har flest problem. Väggen är uppdelad i flera nivåer. Väggen har varierande kvalitet. Vissa delar är lite spröd, andra mycket fastare. Gröna Lund är ett problem som man inte bör missa på denna vägg."
+    },
+    {
+      "id": "vanstra-delen",
+      "title": "Vänstra delen",
+      "body": ""
+    },
+    {
+      "id": "mittendelen",
+      "title": "Mittendelen",
+      "body": ""
+    },
+    {
+      "id": "hogra-delen",
+      "title": "Högra delen",
+      "body": ""
     },
     {
       "id": "ddt-vaggen",
@@ -84,6 +109,7 @@
       "type": "",
       "firstAscent": "Mattis Wide, 2005",
       "description": "Ta kanten, upp och mantla.",
+      "sectorId": "vanstra-delen",
       "source": {
         "id": "legacy:snuggtaskeberg",
         "path": "mediawiki/Snuggtaskeberg.txt"
@@ -99,6 +125,7 @@
       "type": "",
       "firstAscent": "Magnus Lennartsson, 2005",
       "description": "Små grepp, vidare till kanten.",
+      "sectorId": "vanstra-delen",
       "source": {
         "id": "legacy:snuggtaskeberg",
         "path": "mediawiki/Snuggtaskeberg.txt"
@@ -114,6 +141,7 @@
       "type": "",
       "firstAscent": "Mattis Wide, 2005",
       "description": "Lätt arête med en något känslig avslutning.",
+      "sectorId": "vanstra-delen",
       "source": {
         "id": "legacy:snuggtaskeberg",
         "path": "mediawiki/Snuggtaskeberg.txt"
@@ -129,6 +157,7 @@
       "type": "",
       "firstAscent": "Magnus Lennartsson, 2005",
       "description": "Mantla upp på starthyllan, nå ett grepp för vh. Upp till kanten och mantla igen.",
+      "sectorId": "vanstra-delen",
       "source": {
         "id": "legacy:snuggtaskeberg",
         "path": "mediawiki/Snuggtaskeberg.txt"
@@ -144,6 +173,7 @@
       "type": "",
       "firstAscent": "Mattis Wide, 2006",
       "description": "Lätt dubbelmantling th om Dubbelmantlingen.",
+      "sectorId": "vanstra-delen",
       "source": {
         "id": "legacy:snuggtaskeberg",
         "path": "mediawiki/Snuggtaskeberg.txt"
@@ -159,6 +189,7 @@
       "type": "",
       "firstAscent": "Kenneth Hedman, 2006",
       "description": "Sittstart. Teknik och juggar. Hög.",
+      "sectorId": "vanstra-delen",
       "source": {
         "id": "legacy:snuggtaskeberg",
         "path": "mediawiki/Snuggtaskeberg.txt"
@@ -174,6 +205,7 @@
       "type": "",
       "firstAscent": "Mattis Wide, 2006",
       "description": "Sittstart med ev layback. Gå mot kanten.",
+      "sectorId": "vanstra-delen",
       "source": {
         "id": "legacy:snuggtaskeberg",
         "path": "mediawiki/Snuggtaskeberg.txt"
@@ -189,6 +221,7 @@
       "type": "",
       "firstAscent": "Petter Norberg, 2004",
       "description": "Klippans jungfrutur. Tunna grepp tar en till toppen.",
+      "sectorId": "mittendelen",
       "source": {
         "id": "legacy:snuggtaskeberg",
         "path": "mediawiki/Snuggtaskeberg.txt"
@@ -204,6 +237,7 @@
       "type": "",
       "firstAscent": "Magnus Lennartsson, 2005",
       "description": "Den självklara linjen på röda partiet.",
+      "sectorId": "mittendelen",
       "source": {
         "id": "legacy:snuggtaskeberg",
         "path": "mediawiki/Snuggtaskeberg.txt"
@@ -219,6 +253,7 @@
       "type": "",
       "firstAscent": "Mattis Wide, 2005",
       "description": "Skön uppvärmningsmantling på bra grepp.",
+      "sectorId": "mittendelen",
       "source": {
         "id": "legacy:snuggtaskeberg",
         "path": "mediawiki/Snuggtaskeberg.txt"
@@ -234,6 +269,7 @@
       "type": "",
       "firstAscent": "Mattis Wide, 2004",
       "description": "Problemet kräver en ganska lång sträckning. Mental avslutning, mången god bergsman har här valt att retirera.",
+      "sectorId": "mittendelen",
       "source": {
         "id": "legacy:snuggtaskeberg",
         "path": "mediawiki/Snuggtaskeberg.txt"
@@ -249,6 +285,7 @@
       "type": "",
       "firstAscent": "Rune Andersson, 2005",
       "description": "Tunna steg, mantla. Fin!",
+      "sectorId": "mittendelen",
       "source": {
         "id": "legacy:snuggtaskeberg",
         "path": "mediawiki/Snuggtaskeberg.txt"
@@ -264,6 +301,7 @@
       "type": "",
       "firstAscent": "Rune Andersson, 2005",
       "description": "Highball. Kul start, bra grepp, krimp på toppen. Känslig.",
+      "sectorId": "mittendelen",
       "source": {
         "id": "legacy:snuggtaskeberg",
         "path": "mediawiki/Snuggtaskeberg.txt"
@@ -279,6 +317,7 @@
       "type": "",
       "firstAscent": "Mattis Wide, 2005",
       "description": "Sprickan.",
+      "sectorId": "mittendelen",
       "source": {
         "id": "legacy:snuggtaskeberg",
         "path": "mediawiki/Snuggtaskeberg.txt"
@@ -294,6 +333,7 @@
       "type": "",
       "firstAscent": "Petter Norberg, 2005",
       "description": "Start i kristallist för hh. Vidare upp via hyfsade grepp.",
+      "sectorId": "mittendelen",
       "source": {
         "id": "legacy:snuggtaskeberg",
         "path": "mediawiki/Snuggtaskeberg.txt"
@@ -309,6 +349,7 @@
       "type": "",
       "firstAscent": "Magnus Lennartsson, 2005",
       "description": "Start i snedsprickan, upp till kanten, mantla.",
+      "sectorId": "mittendelen",
       "source": {
         "id": "legacy:snuggtaskeberg",
         "path": "mediawiki/Snuggtaskeberg.txt"
@@ -324,6 +365,7 @@
       "type": "",
       "firstAscent": "Mattis Wide, 2005",
       "description": "Lätt problem upp till trädet.",
+      "sectorId": "mittendelen",
       "source": {
         "id": "legacy:snuggtaskeberg",
         "path": "mediawiki/Snuggtaskeberg.txt"
@@ -339,6 +381,7 @@
       "type": "",
       "firstAscent": "Magnus Lennartsson, 2005",
       "description": "V sidtag, h krimp, upp till toppen.",
+      "sectorId": "mittendelen",
       "source": {
         "id": "legacy:snuggtaskeberg",
         "path": "mediawiki/Snuggtaskeberg.txt"
@@ -354,6 +397,7 @@
       "type": "",
       "firstAscent": "Mattis Wide, 2005",
       "description": "Sittstart, sträck till kanten, mantla.",
+      "sectorId": "mittendelen",
       "source": {
         "id": "legacy:snuggtaskeberg",
         "path": "mediawiki/Snuggtaskeberg.txt"
@@ -369,6 +413,7 @@
       "type": "",
       "firstAscent": "Magnus Lennartsson, 2005",
       "description": "Start i slopers på kanten, upp via känslig mantling.",
+      "sectorId": "mittendelen",
       "source": {
         "id": "legacy:snuggtaskeberg",
         "path": "mediawiki/Snuggtaskeberg.txt"
@@ -384,6 +429,7 @@
       "type": "",
       "firstAscent": "Petter Norberg, 2006",
       "description": "Sprickan th om Lättare än svår.",
+      "sectorId": "mittendelen",
       "source": {
         "id": "legacy:snuggtaskeberg",
         "path": "mediawiki/Snuggtaskeberg.txt"
@@ -399,6 +445,7 @@
       "type": "",
       "firstAscent": "Rune Andersson, 2005",
       "description": "Start i krimplist, upp via krimpers och mantla.",
+      "sectorId": "mittendelen",
       "source": {
         "id": "legacy:snuggtaskeberg",
         "path": "mediawiki/Snuggtaskeberg.txt"
@@ -414,6 +461,7 @@
       "type": "",
       "firstAscent": "Mattis Wide, 2005",
       "description": "Mantlingsproblem.",
+      "sectorId": "mittendelen",
       "source": {
         "id": "legacy:snuggtaskeberg",
         "path": "mediawiki/Snuggtaskeberg.txt"
@@ -429,6 +477,7 @@
       "type": "",
       "firstAscent": "Mattis Wide, 2005",
       "description": "Sprickan. Mental beslutsamhet på slutet kan behövas.",
+      "sectorId": "mittendelen",
       "source": {
         "id": "legacy:snuggtaskeberg",
         "path": "mediawiki/Snuggtaskeberg.txt"
@@ -444,6 +493,7 @@
       "type": "",
       "firstAscent": "Petter Norberg, 2005",
       "description": "Starta i sidtag, upp höger till hyllan och vidare till toppen.",
+      "sectorId": "hogra-delen",
       "source": {
         "id": "legacy:snuggtaskeberg",
         "path": "mediawiki/Snuggtaskeberg.txt"
@@ -459,6 +509,7 @@
       "type": "",
       "firstAscent": "Rune Andersson, 2005",
       "description": "Hårdare variant på Vila sig i form. Start på krimper för hh och sidtag/undercling för vh. Lås av, skicka till hyllan och gå sen till toppen.",
+      "sectorId": "hogra-delen",
       "source": {
         "id": "legacy:snuggtaskeberg",
         "path": "mediawiki/Snuggtaskeberg.txt"
@@ -474,6 +525,7 @@
       "type": "",
       "firstAscent": "Mattis Wide, 2005",
       "description": "Mantlingsproblem.",
+      "sectorId": "hogra-delen",
       "source": {
         "id": "legacy:snuggtaskeberg",
         "path": "mediawiki/Snuggtaskeberg.txt"
@@ -489,6 +541,7 @@
       "type": "",
       "firstAscent": "Mattis Wide, 2005",
       "description": "Stora sprickan, rejält rensad som tur är då den är tyngre än vad man först tror.",
+      "sectorId": "hogra-delen",
       "source": {
         "id": "legacy:snuggtaskeberg",
         "path": "mediawiki/Snuggtaskeberg.txt"
@@ -504,6 +557,7 @@
       "type": "",
       "firstAscent": "Mattis Wide, 2005",
       "description": "Th om stora sprickan, tunn i mitten, läskig på slutet.",
+      "sectorId": "hogra-delen",
       "source": {
         "id": "legacy:snuggtaskeberg",
         "path": "mediawiki/Snuggtaskeberg.txt"
@@ -519,6 +573,7 @@
       "type": "",
       "firstAscent": "Magnus Lennartsson, 2005",
       "description": "Tekniskt problem som blir lättare på slutet.",
+      "sectorId": "hogra-delen",
       "source": {
         "id": "legacy:snuggtaskeberg",
         "path": "mediawiki/Snuggtaskeberg.txt"
@@ -534,6 +589,7 @@
       "type": "",
       "firstAscent": "Petter Norberg, 2005",
       "description": "Th om Stel som ett lik. Skön start.",
+      "sectorId": "hogra-delen",
       "source": {
         "id": "legacy:snuggtaskeberg",
         "path": "mediawiki/Snuggtaskeberg.txt"
@@ -549,6 +605,7 @@
       "type": "",
       "firstAscent": "Magnus Lennartsson, 2005",
       "description": "Höger på sidtag, h fot på bra steg. Tag vh till gaston, kom upp, sträck och mantla.",
+      "sectorId": "ddt-vaggen",
       "source": {
         "id": "legacy:snuggtaskeberg",
         "path": "mediawiki/Snuggtaskeberg.txt"
@@ -564,6 +621,7 @@
       "type": "",
       "firstAscent": "Rune Andersson, 2005",
       "description": "Vh på krimper, hh i sprickan. Kliv upp, tag tunt grepp och sträck till toppen, mantla. Hård!",
+      "sectorId": "ddt-vaggen",
       "source": {
         "id": "legacy:snuggtaskeberg",
         "path": "mediawiki/Snuggtaskeberg.txt"
@@ -579,6 +637,7 @@
       "type": "",
       "firstAscent": "Mattis Wide, 2006",
       "description": "Start i krimpers, skicka mot kanten och mantla ur.",
+      "sectorId": "ddt-vaggen",
       "source": {
         "id": "legacy:snuggtaskeberg",
         "path": "mediawiki/Snuggtaskeberg.txt"
@@ -594,6 +653,7 @@
       "type": "",
       "firstAscent": "Mattis Wide, 2004",
       "description": "Start i tunna flak, catch på toppen. Betydligt lättare om man är längre än 185 cm lång - och betydligt tråkigare.",
+      "sectorId": "ddt-vaggen",
       "source": {
         "id": "legacy:snuggtaskeberg",
         "path": "mediawiki/Snuggtaskeberg.txt"
@@ -609,6 +669,7 @@
       "type": "",
       "firstAscent": "Mattis Wide, 2004",
       "description": "Stora sprickan.",
+      "sectorId": "ddt-vaggen",
       "source": {
         "id": "legacy:snuggtaskeberg",
         "path": "mediawiki/Snuggtaskeberg.txt"
@@ -624,6 +685,7 @@
       "type": "",
       "firstAscent": "Magnus Lennartsson, 2005",
       "description": "Krystad variant på Uppochner. Till toppen utan att använd väggen tv om sprickan.",
+      "sectorId": "ddt-vaggen",
       "source": {
         "id": "legacy:snuggtaskeberg",
         "path": "mediawiki/Snuggtaskeberg.txt"
@@ -639,6 +701,7 @@
       "type": "",
       "firstAscent": "Mattis Wide, 2005",
       "description": "Tunn i starten, sträck till bra list, resten är lättare.",
+      "sectorId": "ddt-vaggen",
       "source": {
         "id": "legacy:snuggtaskeberg",
         "path": "mediawiki/Snuggtaskeberg.txt"
@@ -654,6 +717,7 @@
       "type": "",
       "firstAscent": "Joel Nyberg, 2013",
       "description": "Ss med ett handjam, fötterna i \"grottan\".offwidth sprickan/kaminen upp hela vägen. Kliv rakt upp ur.",
+      "sectorId": "ddt-vaggen",
       "source": {
         "id": "legacy:snuggtaskeberg",
         "path": "mediawiki/Snuggtaskeberg.txt"
@@ -669,6 +733,7 @@
       "type": "",
       "firstAscent": "Ali Kraufvelin, 2006",
       "description": "Hoppstart till bra grepp. Vidare rakt upp.",
+      "sectorId": "ddt-vaggen",
       "source": {
         "id": "legacy:snuggtaskeberg",
         "path": "mediawiki/Snuggtaskeberg.txt"
@@ -684,6 +749,7 @@
       "type": "",
       "firstAscent": "Magnus Lennartsson, 2005",
       "description": "Vh på kristallsidtag, hh på sloper. Lås av och sträck till litet grepp för hh. Vidare till hyllan och mantla.",
+      "sectorId": "ddt-vaggen",
       "source": {
         "id": "legacy:snuggtaskeberg",
         "path": "mediawiki/Snuggtaskeberg.txt"
@@ -699,6 +765,7 @@
       "type": "",
       "firstAscent": "Mattis Wide, 2006",
       "description": "Följ kanten snett uppåt, fötterna på vägg.",
+      "sectorId": "ddt-vaggen",
       "source": {
         "id": "legacy:snuggtaskeberg",
         "path": "mediawiki/Snuggtaskeberg.txt"
@@ -714,6 +781,7 @@
       "type": "",
       "firstAscent": "Mårten Sjöström, 2006",
       "description": "Slabben.",
+      "sectorId": "ddt-vaggen",
       "source": {
         "id": "legacy:snuggtaskeberg",
         "path": "mediawiki/Snuggtaskeberg.txt"
@@ -729,6 +797,7 @@
       "type": "",
       "firstAscent": "Rune Andersson, 2006",
       "description": "No hands variant.",
+      "sectorId": "ddt-vaggen",
       "source": {
         "id": "legacy:snuggtaskeberg",
         "path": "mediawiki/Snuggtaskeberg.txt"
@@ -744,6 +813,7 @@
       "type": "",
       "firstAscent": "Staffan Lorentz, 2007",
       "description": "Sittstart, sedan rakt upp.",
+      "sectorId": "svavaggen",
       "source": {
         "id": "legacy:snuggtaskeberg",
         "path": "mediawiki/Snuggtaskeberg.txt"
@@ -759,6 +829,7 @@
       "type": "",
       "firstAscent": "Petter Norberg, 2006",
       "description": "Hh i undercling, vh på crimp, gå mot toppen, mantla.",
+      "sectorId": "svavaggen",
       "source": {
         "id": "legacy:snuggtaskeberg",
         "path": "mediawiki/Snuggtaskeberg.txt"
@@ -774,6 +845,7 @@
       "type": "",
       "firstAscent": "Petter Norberg, 2006",
       "description": "Starta i små lister, följ slopekanten snett uppåt vänster.",
+      "sectorId": "svavaggen",
       "source": {
         "id": "legacy:snuggtaskeberg",
         "path": "mediawiki/Snuggtaskeberg.txt"
@@ -789,6 +861,7 @@
       "type": "",
       "firstAscent": "Petter Norberg, 2006",
       "description": "Starta som Mattis - den svenske gambianen men gå rakt upp efter första flytten.",
+      "sectorId": "svavaggen",
       "source": {
         "id": "legacy:snuggtaskeberg",
         "path": "mediawiki/Snuggtaskeberg.txt"
@@ -804,6 +877,7 @@
       "type": "",
       "firstAscent": "Mattis Wide, 2006",
       "description": "Starta via rampen och sen upp.",
+      "sectorId": "svavaggen",
       "source": {
         "id": "legacy:snuggtaskeberg",
         "path": "mediawiki/Snuggtaskeberg.txt"
@@ -819,6 +893,7 @@
       "type": "",
       "firstAscent": "Mattis Wide, 2006",
       "description": "Upp på den tunna väggen. Hyllan på The moisty slab ingår givetvis inte. Mycket känslig bit!",
+      "sectorId": "svavaggen",
       "source": {
         "id": "legacy:snuggtaskeberg",
         "path": "mediawiki/Snuggtaskeberg.txt"
@@ -834,6 +909,7 @@
       "type": "",
       "firstAscent": "Magnus Lennartsson, 2006",
       "description": "Starta med hyllan, sen rakt upp på slabben strax höger om sprickan.",
+      "sectorId": "svavaggen",
       "source": {
         "id": "legacy:snuggtaskeberg",
         "path": "mediawiki/Snuggtaskeberg.txt"
@@ -849,6 +925,7 @@
       "type": "",
       "firstAscent": "Petter Norberg, 2006",
       "description": "H fot på liten kristal, stega upp mot toppen.",
+      "sectorId": "svavaggen",
       "source": {
         "id": "legacy:snuggtaskeberg",
         "path": "mediawiki/Snuggtaskeberg.txt"
@@ -864,6 +941,7 @@
       "type": "",
       "firstAscent": "Petter Norberg, 2006",
       "description": "Utan händer.",
+      "sectorId": "svavaggen",
       "source": {
         "id": "legacy:snuggtaskeberg",
         "path": "mediawiki/Snuggtaskeberg.txt"
@@ -879,6 +957,7 @@
       "type": "",
       "firstAscent": "Magnus Lennartsson, 2006",
       "description": "Upp utan att använda händerna.",
+      "sectorId": "svavaggen",
       "source": {
         "id": "legacy:snuggtaskeberg",
         "path": "mediawiki/Snuggtaskeberg.txt"
@@ -894,6 +973,7 @@
       "type": "",
       "firstAscent": "Mattis Wide, 2006",
       "description": "Rakt upp och mantla.",
+      "sectorId": "solvaggen",
       "source": {
         "id": "legacy:snuggtaskeberg",
         "path": "mediawiki/Snuggtaskeberg.txt"
@@ -909,6 +989,7 @@
       "type": "",
       "firstAscent": "Magnus Lennartsson, 2005",
       "description": "Rakt upp och mantla.",
+      "sectorId": "solvaggen",
       "source": {
         "id": "legacy:snuggtaskeberg",
         "path": "mediawiki/Snuggtaskeberg.txt"
@@ -924,6 +1005,7 @@
       "type": "",
       "firstAscent": "Petter Norberg, 2005",
       "description": "På hörnet, mantla.",
+      "sectorId": "solvaggen",
       "source": {
         "id": "legacy:snuggtaskeberg",
         "path": "mediawiki/Snuggtaskeberg.txt"
@@ -939,6 +1021,7 @@
       "type": "",
       "firstAscent": "Petter Norberg, 2006",
       "description": "Sittstart på hörnet.",
+      "sectorId": "solvaggen",
       "source": {
         "id": "legacy:snuggtaskeberg",
         "path": "mediawiki/Snuggtaskeberg.txt"
@@ -954,6 +1037,7 @@
       "type": "",
       "firstAscent": "Fredrik Gillving, 2007",
       "description": "Variant på 3b, enbart sprickan för händerna.",
+      "sectorId": "solvaggen",
       "source": {
         "id": "legacy:snuggtaskeberg",
         "path": "mediawiki/Snuggtaskeberg.txt"
@@ -969,6 +1053,7 @@
       "type": "",
       "firstAscent": "Magnus Lennartsson, 2005",
       "description": "Väggen tv om sprickan, mantla.",
+      "sectorId": "solvaggen",
       "source": {
         "id": "legacy:snuggtaskeberg",
         "path": "mediawiki/Snuggtaskeberg.txt"
@@ -984,6 +1069,7 @@
       "type": "",
       "firstAscent": "Rune Andersson, 2005",
       "description": "Start i krimpers. Upp på svaet utan att använda kanten tv.",
+      "sectorId": "solvaggen",
       "source": {
         "id": "legacy:snuggtaskeberg",
         "path": "mediawiki/Snuggtaskeberg.txt"
@@ -999,6 +1085,7 @@
       "type": "",
       "firstAscent": "Magnus Lennartsson, 2005",
       "description": "Upp till slopers och mantla ut. Hyllsystemet th är off limit.",
+      "sectorId": "solvaggen",
       "source": {
         "id": "legacy:snuggtaskeberg",
         "path": "mediawiki/Snuggtaskeberg.txt"
@@ -1014,6 +1101,7 @@
       "type": "",
       "firstAscent": "Mattis Wide, 2006",
       "description": "Omfamna blocket och mantla.",
+      "sectorId": "hoga-vaggarna",
       "source": {
         "id": "legacy:snuggtaskeberg",
         "path": "mediawiki/Snuggtaskeberg.txt"
@@ -1029,6 +1117,7 @@
       "type": "",
       "firstAscent": "Staffan Lorentz, 2006",
       "description": "Sittstart, sen upp längs kanten.",
+      "sectorId": "hoga-vaggarna",
       "source": {
         "id": "legacy:snuggtaskeberg",
         "path": "mediawiki/Snuggtaskeberg.txt"
@@ -1044,6 +1133,7 @@
       "type": "",
       "firstAscent": "Magnus Lennartsson, 2006",
       "description": "Upp i sprickan, avsluta med mantling.",
+      "sectorId": "hoga-vaggarna",
       "source": {
         "id": "legacy:snuggtaskeberg",
         "path": "mediawiki/Snuggtaskeberg.txt"
@@ -1059,6 +1149,7 @@
       "type": "",
       "firstAscent": "Mattis Wide, 2006",
       "description": "Genom taket, Mantla på slutet.",
+      "sectorId": "hoga-vaggarna",
       "source": {
         "id": "legacy:snuggtaskeberg",
         "path": "mediawiki/Snuggtaskeberg.txt"
@@ -1074,6 +1165,7 @@
       "type": "",
       "firstAscent": "Staffan Lorentz, 2006",
       "description": "Start i små grepp. Snett upp genom taket. Mantla.",
+      "sectorId": "hoga-vaggarna",
       "source": {
         "id": "legacy:snuggtaskeberg",
         "path": "mediawiki/Snuggtaskeberg.txt"
@@ -1089,6 +1181,7 @@
       "type": "",
       "firstAscent": "Okänd, 2007",
       "description": "Hög.",
+      "sectorId": "hoga-vaggarna",
       "source": {
         "id": "legacy:snuggtaskeberg",
         "path": "mediawiki/Snuggtaskeberg.txt"
@@ -1104,6 +1197,7 @@
       "type": "",
       "firstAscent": "Mikael Söderström, 2011",
       "description": "Insteg någon meter till vänster om problem nr7 ut på väggen till H följ diagonala sprickan åt V.och till topps. Rammla inte ner. Ledgraderad.",
+      "sectorId": "hoga-vaggarna",
       "source": {
         "id": "legacy:snuggtaskeberg",
         "path": "mediawiki/Snuggtaskeberg.txt"
@@ -1119,6 +1213,7 @@
       "type": "",
       "firstAscent": "Petter Norberg, 2006",
       "description": "På med storskorna. Glöm ej picknickkorgen.",
+      "sectorId": "hoga-vaggarna",
       "source": {
         "id": "legacy:snuggtaskeberg",
         "path": "mediawiki/Snuggtaskeberg.txt"
@@ -1134,6 +1229,7 @@
       "type": "",
       "firstAscent": "Rune Andersson, 2006",
       "description": "Endast arêten för händerna.",
+      "sectorId": "hoga-vaggarna",
       "source": {
         "id": "legacy:snuggtaskeberg",
         "path": "mediawiki/Snuggtaskeberg.txt"
@@ -1149,6 +1245,7 @@
       "type": "",
       "firstAscent": "Petter Norberg, 2006",
       "description": "Start med vh på arêten och hh i undercling.",
+      "sectorId": "hoga-vaggarna",
       "source": {
         "id": "legacy:snuggtaskeberg",
         "path": "mediawiki/Snuggtaskeberg.txt"
@@ -1164,6 +1261,7 @@
       "type": "",
       "firstAscent": "Petter Norberg, 2006",
       "description": "Undvik att vidröra trädet med rumpan.",
+      "sectorId": "hoga-vaggarna",
       "source": {
         "id": "legacy:snuggtaskeberg",
         "path": "mediawiki/Snuggtaskeberg.txt"
@@ -1179,6 +1277,7 @@
       "type": "",
       "firstAscent": "Magnus Lennartsson, 2004",
       "description": "Start i listen och upp via ett bra grepp tv.",
+      "sectorId": "revolvervaggen",
       "source": {
         "id": "legacy:snuggtaskeberg",
         "path": "mediawiki/Snuggtaskeberg.txt"
@@ -1194,6 +1293,7 @@
       "type": "",
       "firstAscent": "Magnus Lennartsson, 2004",
       "description": "Start i listen och sen upp till små krimplister.",
+      "sectorId": "revolvervaggen",
       "source": {
         "id": "legacy:snuggtaskeberg",
         "path": "mediawiki/Snuggtaskeberg.txt"
@@ -1209,6 +1309,7 @@
       "type": "",
       "firstAscent": "Magnus Lennartsson, 2006",
       "description": "Tv om arêten.",
+      "sectorId": "revolvervaggen",
       "source": {
         "id": "legacy:snuggtaskeberg",
         "path": "mediawiki/Snuggtaskeberg.txt"
@@ -1224,6 +1325,7 @@
       "type": "",
       "firstAscent": "Mattis Wide, 2004",
       "description": "Arêten höger om Revolverkäke.",
+      "sectorId": "revolvervaggen",
       "source": {
         "id": "legacy:snuggtaskeberg",
         "path": "mediawiki/Snuggtaskeberg.txt"
@@ -1239,6 +1341,7 @@
       "type": "",
       "firstAscent": "Magnus Lennartsson, 2006",
       "description": "Start i krimpers och sen upp.",
+      "sectorId": "revolvervaggen",
       "source": {
         "id": "legacy:snuggtaskeberg",
         "path": "mediawiki/Snuggtaskeberg.txt"
@@ -1254,6 +1357,7 @@
       "type": "",
       "firstAscent": "Petter Norberg, 2007",
       "description": "Rakt upp för väggen. Avsluta upp på svaet.",
+      "sectorId": "koreavaggen",
       "source": {
         "id": "legacy:snuggtaskeberg",
         "path": "mediawiki/Snuggtaskeberg.txt"
@@ -1269,6 +1373,7 @@
       "type": "",
       "firstAscent": "Petter Norberg, 2007",
       "description": "Längs den svaiga arêten.",
+      "sectorId": "koreavaggen",
       "source": {
         "id": "legacy:snuggtaskeberg",
         "path": "mediawiki/Snuggtaskeberg.txt"
@@ -1279,67 +1384,80 @@
     {
       "filename": "Sollentuna.jpg",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "karta-vagbeskrivning"
     },
     {
       "filename": "Snuggtaskeberg.jpg",
-      "caption": "750px",
-      "missing": false
+      "caption": "",
+      "missing": false,
+      "sectorId": "oversikt"
     },
     {
       "filename": "Huvudvaggen.jpg",
-      "caption": "750px",
-      "missing": false
+      "caption": "",
+      "missing": false,
+      "sectorId": "huvudvaggen"
     },
     {
       "filename": "Huvudvaggen1.jpg",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "vanstra-delen"
     },
     {
       "filename": "Huvudvaggen2.jpg",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "mittendelen"
     },
     {
       "filename": "Huvudvaggen3.jpg",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "hogra-delen"
     },
     {
       "filename": "Ddt.jpg",
-      "caption": "750px",
-      "missing": false
+      "caption": "",
+      "missing": false,
+      "sectorId": "ddt-vaggen"
     },
     {
       "filename": "Slicka.JPG",
       "caption": "Magnus Lennartsson på Slicka uppåt - Sparka neråt (5+), Snuggtaskeberg 2006. Foto: Mattis Wide",
-      "missing": false
+      "missing": false,
+      "sectorId": "ddt-vaggen"
     },
     {
       "filename": "Sva.jpg",
-      "caption": "750px",
-      "missing": false
+      "caption": "",
+      "missing": false,
+      "sectorId": "svavaggen"
     },
     {
       "filename": "Solvaggen.jpg",
-      "caption": "750px",
-      "missing": false
+      "caption": "",
+      "missing": false,
+      "sectorId": "solvaggen"
     },
     {
       "filename": "Hogavaggarna.jpg",
-      "caption": "750px",
-      "missing": false
+      "caption": "",
+      "missing": false,
+      "sectorId": "hoga-vaggarna"
     },
     {
       "filename": "Revolver.jpg",
-      "caption": "750px",
-      "missing": false
+      "caption": "",
+      "missing": false,
+      "sectorId": "revolvervaggen"
     },
     {
       "filename": "KimIlSung.JPG",
       "caption": "Petter Norberg på Kim Il Sung (5+), Snuggtaskeberg 2007. Foto: Mattis Wide",
-      "missing": false
+      "missing": false,
+      "sectorId": "koreavaggen"
     }
   ],
   "access": {

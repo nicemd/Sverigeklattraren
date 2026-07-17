@@ -26,14 +26,34 @@
       "body": "titel=Ormingebouldern lat=18224269 long=59333548 Överhängande Väggen med bil Kör Värmdöleden (222) och sväng av via Skuru (direkt efter Skurubron). Sväng till vänster och kör under Motorvägen. Du ser Björknäs C. Sväng höger och sedan första vänster mot Talludden (på Talluddsvägen). Kör rakt fram en stund sedan Höger (Helmdalsvägen), Vänster (Friggvägen), höger (Emblavägen). Nära slutet av Emblavägen finns det en vänd/parkerings plats. Parkera bilen där och följ sedan Mariedalsvägen ner. Först ser man \"Parkeringsväggen\" och några meter senare delar av \"Överhängande Väggen\" på högra sidan. Överhängande Väggen med buss Antingen tar man buss till Björknäs C från Slussen (ca 15 min och det finns massor med bussar att välja på) eller så tar man 413 till Talludden. Gå samma väg som bilvägen. Från Björknäs C tar det ca 20 min att gå (2 km) och åker man 413 tar det ca 10 min från bussen. Warm Up Väggen med bil Kör Värmdöleden (222) och sväng av mot Orminge. Kör vidare mot Orminge Center. Följande väggar finns i området # Överhängande Väggen (1a. Parkeringsväggen) # Traverse Väggen # Spineless Väggen # Warm up Väggen Obs: Inte alla väggar är med än!"
     },
     {
+      "id": "boulderproblem",
+      "title": "Boulderproblem",
+      "body": ""
+    },
+    {
       "id": "overhangande-vaggen",
       "title": "Överhängande Väggen",
       "body": "Fina väggar som är delvis rätt överhängande med fina problem."
     },
     {
+      "id": "vanstra-delen",
+      "title": "Vänstra delen",
+      "body": ""
+    },
+    {
+      "id": "mellandelen-vanstra",
+      "title": "Mellandelen (vänstra)",
+      "body": ""
+    },
+    {
       "id": "mellandelen-hogra",
       "title": "Mellandelen (högra)",
       "body": "Sur Fredde extension (2) & Hugo (4) finns beskrivna ovan Finns numera en trv. som börjar med sittstart upp vid areten i slutet av Hugo, trv. Hugo höger-vänster och avslutar med Televinken. fa=Daniel J.L. Namn:? Grad:?"
+    },
+    {
+      "id": "hogra-delen",
+      "title": "Högra delen",
+      "body": ""
     },
     {
       "id": "parkeringvaggen",
@@ -102,6 +122,7 @@
       "type": "",
       "firstAscent": "Fredrik Andersson",
       "description": "",
+      "sectorId": "vanstra-delen",
       "source": {
         "id": "legacy:orminge",
         "path": "mediawiki/Orminge.txt"
@@ -117,6 +138,7 @@
       "type": "",
       "firstAscent": "Misse",
       "description": "Starta med en hand i sprickan och andra på grepp. Utsteg via Phat cat http://bloxc.com/forum/viewtopic.php?t=1967 beta",
+      "sectorId": "vanstra-delen",
       "source": {
         "id": "legacy:orminge",
         "path": "mediawiki/Orminge.txt"
@@ -132,6 +154,7 @@
       "type": "",
       "firstAscent": "Stefan Pettersson",
       "description": "Samma start som Phat cat trv. till vänster mot White Trash och avslutar med den utan att använda hyllan under Phat Cat, Fag Burn och White Trash avslutar med White Trash.",
+      "sectorId": "vanstra-delen",
       "source": {
         "id": "legacy:orminge",
         "path": "mediawiki/Orminge.txt"
@@ -147,6 +170,7 @@
       "type": "",
       "firstAscent": "Stefan Pettersson",
       "description": "Samma start som Phat cat trv. till vänster mot White Trash och avslutar med den utan att använda alla stora juggar som tillhör Phat Cat och Fag Burn och hyllorna under!",
+      "sectorId": "vanstra-delen",
       "source": {
         "id": "legacy:orminge",
         "path": "mediawiki/Orminge.txt"
@@ -162,6 +186,7 @@
       "type": "",
       "firstAscent": "Misse",
       "description": "Rakt upp. Start med vänstra hand i undercling och vänstra på ett ”crimp”grepp. (Om man är liten tar gärna dubbla paddor)",
+      "sectorId": "vanstra-delen",
       "source": {
         "id": "legacy:orminge",
         "path": "mediawiki/Orminge.txt"
@@ -177,6 +202,7 @@
       "type": "",
       "firstAscent": "Misse",
       "description": "Start till höger på bra grepp, trv. till vänster sedan (akta Er för alla lösa flak!) och avslutar med Phat Cat.",
+      "sectorId": "vanstra-delen",
       "source": {
         "id": "legacy:orminge",
         "path": "mediawiki/Orminge.txt"
@@ -192,6 +218,7 @@
       "type": "",
       "firstAscent": "Niklas Adler",
       "description": "Höger hand på sidogreppet och vänstra på sidan av ”flaket”. Rakt upp sedan till höger mot juggen..Hugo trv. vidare till juggen mitt på ”Sur Fredde” (innan cruxet also). Fortsätter på bild nedan.",
+      "sectorId": "mellandelen-vanstra",
       "source": {
         "id": "legacy:orminge",
         "path": "mediawiki/Orminge.txt"
@@ -207,6 +234,7 @@
       "type": "",
       "firstAscent": "Stefan Pettersson",
       "description": "Starta precis bakom trädet trv. i Sur Fredde. Fortsätter på bild nedan.",
+      "sectorId": "mellandelen-vanstra",
       "source": {
         "id": "legacy:orminge",
         "path": "mediawiki/Orminge.txt"
@@ -222,6 +250,7 @@
       "type": "",
       "firstAscent": "Stefan Kolmodin",
       "description": "Samma som 1. men man går ut till vänster och upp på bra grepp. Slutet vid växtet.",
+      "sectorId": "mellandelen-vanstra",
       "source": {
         "id": "legacy:orminge",
         "path": "mediawiki/Orminge.txt"
@@ -237,6 +266,7 @@
       "type": "",
       "firstAscent": "Fredrik Andersson",
       "description": "Upp till juggen sedan rakt upp…antligen hela vägen upp eller till bra grepp ¾ vägen upp (om man inte vågar göra hela....) akta Er för trädet!",
+      "sectorId": "mellandelen-vanstra",
       "source": {
         "id": "legacy:orminge",
         "path": "mediawiki/Orminge.txt"
@@ -252,6 +282,7 @@
       "type": "",
       "firstAscent": "Niklas Adler",
       "description": "Hela vägen upp, UPPS! Farligt landning!!",
+      "sectorId": "mellandelen-vanstra",
       "source": {
         "id": "legacy:orminge",
         "path": "mediawiki/Orminge.txt"
@@ -267,6 +298,7 @@
       "type": "",
       "firstAscent": "Stefan Pettersson",
       "description": "",
+      "sectorId": "mellandelen-hogra",
       "source": {
         "id": "legacy:orminge",
         "path": "mediawiki/Orminge.txt"
@@ -282,6 +314,7 @@
       "type": "",
       "firstAscent": "Stefan Pettersson",
       "description": "Gå via en liten list man matchar på. Slutar på samma grepp som Sur Fredde",
+      "sectorId": "mellandelen-hogra",
       "source": {
         "id": "legacy:orminge",
         "path": "mediawiki/Orminge.txt"
@@ -297,6 +330,7 @@
       "type": "",
       "firstAscent": "",
       "description": "Sittstart som Stefan P’s odöpta men följ den hala rampen snett uppåt höger sedan, avslut med match på rampens topp. Varning för Läskig landning!!",
+      "sectorId": "mellandelen-hogra",
       "source": {
         "id": "legacy:orminge",
         "path": "mediawiki/Orminge.txt"
@@ -312,6 +346,7 @@
       "type": "",
       "firstAscent": "Misse",
       "description": "Start i sprickan, rakt upp sedan långt move till höger",
+      "sectorId": "hogra-delen",
       "source": {
         "id": "legacy:orminge",
         "path": "mediawiki/Orminge.txt"
@@ -327,6 +362,7 @@
       "type": "",
       "firstAscent": "Misse",
       "description": "Starta på Sidogrepp sedan trv. till vänster och avslutar med ”I.T.”",
+      "sectorId": "hogra-delen",
       "source": {
         "id": "legacy:orminge",
         "path": "mediawiki/Orminge.txt"
@@ -342,6 +378,7 @@
       "type": "",
       "firstAscent": "Björn Pohl",
       "description": "Samma start som ”Skinny Puppy” och catch rakt upp. Avslutar på ”I.T” juggen.",
+      "sectorId": "hogra-delen",
       "source": {
         "id": "legacy:orminge",
         "path": "mediawiki/Orminge.txt"
@@ -357,6 +394,7 @@
       "type": "",
       "firstAscent": "Chris Ellis",
       "description": "Samma start igen, trv. till höger och upp. Se bilden nedan för slutet.",
+      "sectorId": "hogra-delen",
       "source": {
         "id": "legacy:orminge",
         "path": "mediawiki/Orminge.txt"
@@ -372,6 +410,7 @@
       "type": "",
       "firstAscent": "Stefan Pettersson",
       "description": "Till höger om \"Wong Sai\" finns det ett Problem till.",
+      "sectorId": "hogra-delen",
       "source": {
         "id": "legacy:orminge",
         "path": "mediawiki/Orminge.txt"
@@ -382,72 +421,86 @@
     {
       "filename": "Orminge_karta.gif",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "vagbeskrivning"
     },
     {
       "filename": "Orminge_phatcat.jpg",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "vanstra-delen"
     },
     {
       "filename": "Orminge_surfred1.jpg",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "mellandelen-vanstra"
     },
     {
       "filename": "Orminge_surfred2.jpg",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "mellandelen-hogra"
     },
     {
       "filename": "Orminge_overhangande1.jpg",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "hogra-delen"
     },
     {
       "filename": "Orminge_wongsai.jpg",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "hogra-delen"
     },
     {
       "filename": "Orminge_pleft.jpg",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "vanstra-delen"
     },
     {
       "filename": "Orminge_pmiddle.jpg",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "mellandelen"
     },
     {
       "filename": "Orminge_pright_2.jpg",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "hogra-delen"
     },
     {
       "filename": "Orminge_traverse.jpg",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "traverse-vagg"
     },
     {
       "filename": "Orminge_spineless1.jpg",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "vanstra-delen"
     },
     {
       "filename": "Orminge_spineless.jpg",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "hogra-delen"
     },
     {
       "filename": "Orminge_warmup.jpg",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "vanstra-delen"
     },
     {
       "filename": "Orminge_warmup1.jpg",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "hogra-delen"
     }
   ],
   "access": {

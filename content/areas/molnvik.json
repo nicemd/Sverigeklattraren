@@ -40,13 +40,15 @@
   "images": [
     {
       "filename": "Mölnvik.jpg",
-      "caption": "center",
-      "missing": false
+      "caption": "frame",
+      "missing": false,
+      "sectorId": null
     },
     {
       "filename": "Mölnvik2.jpg",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "vagbeskrivning"
     }
   ],
   "access": {

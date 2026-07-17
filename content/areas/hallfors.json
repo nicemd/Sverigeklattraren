@@ -30,6 +30,11 @@
       "body": "Från väg E4: Sväng av E4an vid norra infarten till Byske. Ta vägen mot Fällfors. Just som du passerat den lilla byn Hällfors tar du höger in på en grusväg. Nu ser du klippan. Håll höger och parkera rakt nedanför klippan. En lätt promenad leder dig upp till väggen."
     },
     {
+      "id": "leder",
+      "title": "Leder",
+      "body": ""
+    },
+    {
       "id": "huvudvaggen",
       "title": "Huvudväggen",
       "body": "(från vänster till höger)"
@@ -56,6 +61,7 @@
       "type": "trad",
       "firstAscent": "Jan-Christer Boström",
       "description": "Kort tradled på pelaren till vänster om grottan.",
+      "sectorId": "huvudvaggen",
       "source": {
         "id": "legacy:hallfors",
         "path": "mediawiki/Hällfors.txt"
@@ -71,6 +77,7 @@
       "type": "sport",
       "firstAscent": "",
       "description": "Kort projekt vid grottans öppning. Brant start.",
+      "sectorId": "huvudvaggen",
       "source": {
         "id": "legacy:hallfors",
         "path": "mediawiki/Hällfors.txt"
@@ -86,6 +93,7 @@
       "type": "sport",
       "firstAscent": "",
       "description": "Kort projekt lite till höger om det andra projektet. Brant start.",
+      "sectorId": "huvudvaggen",
       "source": {
         "id": "legacy:hallfors",
         "path": "mediawiki/Hällfors.txt"
@@ -101,6 +109,7 @@
       "type": "trad",
       "firstAscent": "Johan Lindström",
       "description": "Dieder. Mossigt och lite hårt för graden",
+      "sectorId": "huvudvaggen",
       "source": {
         "id": "legacy:hallfors",
         "path": "mediawiki/Hällfors.txt"
@@ -116,6 +125,7 @@
       "type": "trad",
       "firstAscent": "Johan Lindström",
       "description": "Dieder. Mossigt.",
+      "sectorId": "huvudvaggen",
       "source": {
         "id": "legacy:hallfors",
         "path": "mediawiki/Hällfors.txt"
@@ -131,6 +141,7 @@
       "type": "trad",
       "firstAscent": "Håkan Eklund",
       "description": "Gemensamt insteg med nästa led.",
+      "sectorId": "huvudvaggen",
       "source": {
         "id": "legacy:hallfors",
         "path": "mediawiki/Hällfors.txt"
@@ -146,6 +157,7 @@
       "type": "trad",
       "firstAscent": "Fredrik Andersson",
       "description": "Gemensamt insteg med Starla. Gemensamt utsteg med nästa led.",
+      "sectorId": "huvudvaggen",
       "source": {
         "id": "legacy:hallfors",
         "path": "mediawiki/Hällfors.txt"
@@ -161,6 +173,7 @@
       "type": "sport",
       "firstAscent": "Johan Lindström",
       "description": "Gemensamt utsteg med leden till vänster.",
+      "sectorId": "huvudvaggen",
       "source": {
         "id": "legacy:hallfors",
         "path": "mediawiki/Hällfors.txt"
@@ -176,6 +189,7 @@
       "type": "sport",
       "firstAscent": "Johan Lindström",
       "description": "Något vandrande led.",
+      "sectorId": "huvudvaggen",
       "source": {
         "id": "legacy:hallfors",
         "path": "mediawiki/Hällfors.txt"
@@ -191,6 +205,7 @@
       "type": "sport",
       "firstAscent": "Johan Lindström",
       "description": "Gemensamma bultar och gemensamt insteg med Molnstigen?",
+      "sectorId": "huvudvaggen",
       "source": {
         "id": "legacy:hallfors",
         "path": "mediawiki/Hällfors.txt"
@@ -206,6 +221,7 @@
       "type": "sport",
       "firstAscent": "Johan Lindström",
       "description": "Gemensamma bultar och gemensamt insteg med Molnstigen?",
+      "sectorId": "huvudvaggen",
       "source": {
         "id": "legacy:hallfors",
         "path": "mediawiki/Hällfors.txt"
@@ -221,6 +237,7 @@
       "type": "sport",
       "firstAscent": "Håkan Eklund",
       "description": "Microled somstartar ovanför den högra väggen.",
+      "sectorId": "huvudvaggen",
       "source": {
         "id": "legacy:hallfors",
         "path": "mediawiki/Hällfors.txt"
@@ -236,6 +253,7 @@
       "type": "sport",
       "firstAscent": "Johan Lindström, Johan Konradsson",
       "description": "Superkort led på vänstra sidan av väggen.",
+      "sectorId": "hogra-vaggen",
       "source": {
         "id": "legacy:hallfors",
         "path": "mediawiki/Hällfors.txt"
@@ -251,6 +269,7 @@
       "type": "sport",
       "firstAscent": "Fredrik Andersson",
       "description": "Fin led som traverserar vänster ovanför taket. Gemensamt insteg med Stjärnstigen. Ankare.",
+      "sectorId": "hogra-vaggen",
       "source": {
         "id": "legacy:hallfors",
         "path": "mediawiki/Hällfors.txt"
@@ -266,6 +285,7 @@
       "type": "sport",
       "firstAscent": "Johan Lindström",
       "description": "Fin led som går rakt upp över taket. Sista klippet är knepigt. Ankare.",
+      "sectorId": "hogra-vaggen",
       "source": {
         "id": "legacy:hallfors",
         "path": "mediawiki/Hällfors.txt"
@@ -281,6 +301,7 @@
       "type": "mix",
       "firstAscent": "Johan Konradsson",
       "description": "Långt till höger på klippan. Mixad?",
+      "sectorId": "hogra-vaggen",
       "source": {
         "id": "legacy:hallfors",
         "path": "mediawiki/Hällfors.txt"

@@ -29,9 +29,39 @@
       "body": "Sväng av väg 162 vid Coop i Brodalen och sväng först höger i Brodalen och sen vänster mot Härnäset. Sväng därefter höger när du kommer till avtagsvägen mot Café Röe gård. Vid Röe gård sväng vänster på grusvägen tills du kommer till den iordninggjorda parkeringen för klättrare. Båda bergen syns från parkeringen."
     },
     {
+      "id": "access",
+      "title": "Access",
+      "body": ""
+    },
+    {
+      "id": "leder",
+      "title": "Leder",
+      "body": ""
+    },
+    {
+      "id": "lilla-galgberget",
+      "title": "Lilla Galgberget",
+      "body": ""
+    },
+    {
+      "id": "stora-galgberget",
+      "title": "Stora Galgberget",
+      "body": ""
+    },
+    {
       "id": "vastvaggen",
       "title": "Vastvaggen",
       "body": "De tre nästa lederna ligger \"runt hörnet\" mellan Stora Galgebergets västvägg og sydvägg."
+    },
+    {
+      "id": "sydvaggen",
+      "title": "Sydväggen",
+      "body": ""
+    },
+    {
+      "id": "in-english",
+      "title": "In English",
+      "body": ""
     },
     {
       "id": "description",
@@ -55,6 +85,7 @@
       "type": "trad",
       "firstAscent": "Tom Cosgriff-02",
       "description": "Sprickan längst till vänster om Ängsland. Leden ser lätt ut men kräver sin stålman.",
+      "sectorId": "lilla-galgberget",
       "source": {
         "id": "legacy:galgeberget",
         "path": "mediawiki/Galgeberget.txt"
@@ -70,6 +101,7 @@
       "type": "trad",
       "firstAscent": "Jappe Pålsgård-00",
       "description": "Till höger om Clark Kent. Fingerrisset i mitten av nordväggen (gemensamt med Ängsland) traverserar mot vänster till sprickan. Brant klättring på stora grepp. Ihållande.",
+      "sectorId": "lilla-galgberget",
       "source": {
         "id": "legacy:galgeberget",
         "path": "mediawiki/Galgeberget.txt"
@@ -85,6 +117,7 @@
       "type": "trad",
       "firstAscent": "Mattias Hallsten-02",
       "description": "",
+      "sectorId": "lilla-galgberget",
       "source": {
         "id": "legacy:galgeberget",
         "path": "mediawiki/Galgeberget.txt"
@@ -100,6 +133,7 @@
       "type": "trad",
       "firstAscent": "Jappe Palsgard-00",
       "description": "Älskat och hatat stämdieder. Obligatorisk delkurs för den komplette bohusklättraren. Följ diedret i 10m, därefter ut på högerväggen till hylla med block.",
+      "sectorId": "lilla-galgberget",
       "source": {
         "id": "legacy:galgeberget",
         "path": "mediawiki/Galgeberget.txt"
@@ -115,6 +149,7 @@
       "type": "trad",
       "firstAscent": "Jappe Palsgard-07",
       "description": "Areten till höger om Science friction. Superb vägg och aretklättring för klättrare med goda nerver. Säkras med skyhooks och småkilar. Inga falltester före 1 bestigningen. Inga därefter tack!",
+      "sectorId": "lilla-galgberget",
       "source": {
         "id": "legacy:galgeberget",
         "path": "mediawiki/Galgeberget.txt"
@@ -130,6 +165,7 @@
       "type": "trad",
       "firstAscent": "Ulrika Tiegs-00",
       "description": "Underbart varierad pärla!",
+      "sectorId": "lilla-galgberget",
       "source": {
         "id": "legacy:galgeberget",
         "path": "mediawiki/Galgeberget.txt"
@@ -145,6 +181,7 @@
       "type": "trad",
       "firstAscent": "Robert Caspersen-02",
       "description": "Sprickan till höger om Än du'rå hörnet. Obs detta är inte den fria versionen av \"Sgt. Ripley\". Sgt. Ripley går längre till höger.",
+      "sectorId": "lilla-galgberget",
       "source": {
         "id": "legacy:galgeberget",
         "path": "mediawiki/Galgeberget.txt"
@@ -160,6 +197,7 @@
       "type": "trad",
       "firstAscent": "Oskar Alexandersson2012",
       "description": "Startar som Dangan Runner men viker av lite vänster vid det lilla taket i slutet av diedern. Sen rakt upp",
+      "sectorId": "lilla-galgberget",
       "source": {
         "id": "legacy:galgeberget",
         "path": "mediawiki/Galgeberget.txt"
@@ -175,6 +213,7 @@
       "type": "trad",
       "firstAscent": "Bjørn Eivind Årtun-04",
       "description": "Spricklinje som börjar på högra kanten av lilla galgbergets huvudvägg.Upp i ett litet dieder till ett tak och sedan ut till höger. Fin jämn balansklättring som är ok säkrad med kilar - för den som orkar.",
+      "sectorId": "lilla-galgberget",
       "source": {
         "id": "legacy:galgeberget",
         "path": "mediawiki/Galgeberget.txt"
@@ -190,6 +229,7 @@
       "type": "trad",
       "firstAscent": "Eivind Nagell & Einar Landmark2012",
       "description": "Startar som Döv för en dag men viker av åt vänster för att avsluta som Dangan runner",
+      "sectorId": "lilla-galgberget",
       "source": {
         "id": "legacy:galgeberget",
         "path": "mediawiki/Galgeberget.txt"
@@ -205,6 +245,7 @@
       "type": "trad",
       "firstAscent": "Espen Samuelsen2002- 07",
       "description": "Linjen till vänster om Masken, med en snygg liggande dieder i slutet. Starta från höger.",
+      "sectorId": "lilla-galgberget",
       "source": {
         "id": "legacy:galgeberget",
         "path": "mediawiki/Galgeberget.txt"
@@ -220,6 +261,7 @@
       "type": "trad",
       "firstAscent": "Patrik Jakobsson/Robin Qvint-98",
       "description": "Obligatoriskt inträdesprov till jamskolans högre kurser.",
+      "sectorId": "lilla-galgberget",
       "source": {
         "id": "legacy:galgeberget",
         "path": "mediawiki/Galgeberget.txt"
@@ -235,6 +277,7 @@
       "type": "trad",
       "firstAscent": "Erik Nordbye och Åsmund Björnstad-01",
       "description": "",
+      "sectorId": "lilla-galgberget",
       "source": {
         "id": "legacy:galgeberget",
         "path": "mediawiki/Galgeberget.txt"
@@ -250,6 +293,7 @@
       "type": "trad",
       "firstAscent": "Thomas Rydfelt, Susanne Rydfelt, Jappe Pålsgård -04",
       "description": "Det vänligt lutande hörnet som avslutar sydväggen till höger om Masken. Elegant och teknisk friktionsklättring. Välsäkrad för den som är händig med småkilar.",
+      "sectorId": "lilla-galgberget",
       "source": {
         "id": "legacy:galgeberget",
         "path": "mediawiki/Galgeberget.txt"
@@ -265,6 +309,7 @@
       "type": "trad",
       "firstAscent": "Bjørn Eivind Årtun-05",
       "description": "Den venstre areten på Stora Galgeberget. Flott og spennende klatring med utvalgte små, men gode sikringer. Siste halvdel av ruta er lett riss til toppen.",
+      "sectorId": "vastvaggen",
       "source": {
         "id": "legacy:galgeberget",
         "path": "mediawiki/Galgeberget.txt"
@@ -280,6 +325,7 @@
       "type": "trad",
       "firstAscent": "Øystein K Johnsen-07",
       "description": "Diedern vänster om Bagatell. Upp till överhänget, så ut på areten och upp på svaet. Utsteg som Bagatell.",
+      "sectorId": "vastvaggen",
       "source": {
         "id": "legacy:galgeberget",
         "path": "mediawiki/Galgeberget.txt"
@@ -295,6 +341,7 @@
       "type": "trad",
       "firstAscent": "Jappe Palsgard/ Ulrika Tiegs-00",
       "description": "En välsäkrad klassiker.",
+      "sectorId": "vastvaggen",
       "source": {
         "id": "legacy:galgeberget",
         "path": "mediawiki/Galgeberget.txt"
@@ -310,6 +357,7 @@
       "type": "trad",
       "firstAscent": "Jan Leyon/ Jappe Pålsgård-2004-07",
       "description": "Linjen till höger om Bagatel. Kruxet är insteget spotta gärna. Fira av från hyllan ovanför till höger.",
+      "sectorId": "vastvaggen",
       "source": {
         "id": "legacy:galgeberget",
         "path": "mediawiki/Galgeberget.txt"
@@ -325,6 +373,7 @@
       "type": "trad",
       "firstAscent": "Jappe Pålsgård Jan Leyon]]-2004-07",
       "description": "Vänstervänd diederlinje till vänster om DNA. Jämn och varierad kalasklättring.",
+      "sectorId": "vastvaggen",
       "source": {
         "id": "legacy:galgeberget",
         "path": "mediawiki/Galgeberget.txt"
@@ -340,6 +389,7 @@
       "type": "trad",
       "firstAscent": "Jon Brint/ Jon Granath-99",
       "description": "",
+      "sectorId": "vastvaggen",
       "source": {
         "id": "legacy:galgeberget",
         "path": "mediawiki/Galgeberget.txt"
@@ -355,6 +405,7 @@
       "type": "trad",
       "firstAscent": "Jon Granath/ Mathias Rosell-99",
       "description": "",
+      "sectorId": "vastvaggen",
       "source": {
         "id": "legacy:galgeberget",
         "path": "mediawiki/Galgeberget.txt"
@@ -370,6 +421,7 @@
       "type": "trad",
       "firstAscent": "Lars Grankvist/ Niklas Bjornerstedt-84",
       "description": "",
+      "sectorId": "vastvaggen",
       "source": {
         "id": "legacy:galgeberget",
         "path": "mediawiki/Galgeberget.txt"
@@ -385,6 +437,7 @@
       "type": "trad",
       "firstAscent": "Johan Svensson/ Ann-Sofie Andersson-05",
       "description": "Brant vänsterlutande spricka längst till höger på västväggen. Börjar med en kort hangel till höger, sedan layback och fingerjam. När det flackar av går leden snett upp till höger några meter till firningsslinga från block.",
+      "sectorId": "vastvaggen",
       "source": {
         "id": "legacy:galgeberget",
         "path": "mediawiki/Galgeberget.txt"
@@ -400,6 +453,7 @@
       "type": "trad",
       "firstAscent": "Johan Svensson05",
       "description": "Direktstart till Laid back crack. Boulderstart på desperat tunna laybacks. Akta fotknölarna.",
+      "sectorId": "vastvaggen",
       "source": {
         "id": "legacy:galgeberget",
         "path": "mediawiki/Galgeberget.txt"
@@ -415,6 +469,7 @@
       "type": "trad",
       "firstAscent": "John W/ Joakim Olofsson m fl",
       "description": "Den snygga bågen som leder in i Skyggediedret (det uppenbara hörnet ett stycke upp i skogen på sydsidan, grad 6). Småknepig klättring.",
+      "sectorId": "vastvaggen",
       "source": {
         "id": "legacy:galgeberget",
         "path": "mediawiki/Galgeberget.txt"
@@ -430,6 +485,7 @@
       "type": "",
       "firstAscent": "Asgeir Larsen",
       "description": "",
+      "sectorId": "vastvaggen",
       "source": {
         "id": "legacy:galgeberget",
         "path": "mediawiki/Galgeberget.txt"
@@ -445,6 +501,7 @@
       "type": "",
       "firstAscent": "Fredrik Persson (topprep)-00",
       "description": "",
+      "sectorId": "vastvaggen",
       "source": {
         "id": "legacy:galgeberget",
         "path": "mediawiki/Galgeberget.txt"
@@ -460,6 +517,7 @@
       "type": "trad",
       "firstAscent": "okand-91",
       "description": "",
+      "sectorId": "sydvaggen",
       "source": {
         "id": "legacy:galgeberget",
         "path": "mediawiki/Galgeberget.txt"
@@ -475,6 +533,7 @@
       "type": "trad",
       "firstAscent": "Jonas Paulsson-08",
       "description": "Väggen och arêten rakt ovanför Galgen och Gritarêten. Startas med fördel med Galgen. Se till att lägga några bra säkringar på hyllan under taket i botten av arêten, de är allt du får. Kliv sedan upp på hyllan till höger och följ rampen som går snett åt vänster på väggen ända ut till själva arêten. Luftigt!",
+      "sectorId": "sydvaggen",
       "source": {
         "id": "legacy:galgeberget",
         "path": "mediawiki/Galgeberget.txt"
@@ -490,6 +549,7 @@
       "type": "",
       "firstAscent": "Lars Grankvist/ Lars Svadangs/ Niklas Bjornerstedt-84",
       "description": "",
+      "sectorId": "sydvaggen",
       "source": {
         "id": "legacy:galgeberget",
         "path": "mediawiki/Galgeberget.txt"
@@ -505,6 +565,7 @@
       "type": "trad",
       "firstAscent": "Erik Massih[2008",
       "description": "Areten till höger på hyllan, tämligen given linje",
+      "sectorId": "sydvaggen",
       "source": {
         "id": "legacy:galgeberget",
         "path": "mediawiki/Galgeberget.txt"
@@ -520,6 +581,7 @@
       "type": "trad",
       "firstAscent": "Erik Massih[2008",
       "description": "",
+      "sectorId": "sydvaggen",
       "source": {
         "id": "legacy:galgeberget",
         "path": "mediawiki/Galgeberget.txt"
@@ -535,6 +597,7 @@
       "type": "trad",
       "firstAscent": "Mattias Skafar, Ronny Ek",
       "description": "Start Strax v om Bortom allt förnuft, Dragning åt vänster",
+      "sectorId": "sydvaggen",
       "source": {
         "id": "legacy:galgeberget",
         "path": "mediawiki/Galgeberget.txt"
@@ -550,6 +613,7 @@
       "type": "trad",
       "firstAscent": "Lars Svadangs/ Lars Grankvist-84",
       "description": "Nervkittlande, sparsamt men tillräckligt säkrad resa längs tunna riss mot toppen.",
+      "sectorId": "sydvaggen",
       "source": {
         "id": "legacy:galgeberget",
         "path": "mediawiki/Galgeberget.txt"
@@ -565,6 +629,7 @@
       "type": "trad",
       "firstAscent": "Niklas Bjornerstedt/ Lars Svadangs-84",
       "description": "",
+      "sectorId": "sydvaggen",
       "source": {
         "id": "legacy:galgeberget",
         "path": "mediawiki/Galgeberget.txt"
@@ -580,6 +645,7 @@
       "type": "trad",
       "firstAscent": "Lars Svadangs/ Niklas Bjornerstedt-84",
       "description": "En huggorm ligger pa leden. Lat den vara i fred (2007)",
+      "sectorId": "sydvaggen",
       "source": {
         "id": "legacy:galgeberget",
         "path": "mediawiki/Galgeberget.txt"
@@ -595,6 +661,7 @@
       "type": "",
       "firstAscent": "Joakim Olofsson/ Sofia Zachrisson/ Wendelin Zobel-00",
       "description": "",
+      "sectorId": "sydvaggen",
       "source": {
         "id": "legacy:galgeberget",
         "path": "mediawiki/Galgeberget.txt"
@@ -610,6 +677,7 @@
       "type": "trad",
       "firstAscent": "[[]]",
       "description": "Startar på svaplattan tv om Återkomsten, går krystat nära nästa led, mycket kul",
+      "sectorId": "sydvaggen",
       "source": {
         "id": "legacy:galgeberget",
         "path": "mediawiki/Galgeberget.txt"
@@ -625,6 +693,7 @@
       "type": "trad",
       "firstAscent": "Goteborgare-98",
       "description": "",
+      "sectorId": "sydvaggen",
       "source": {
         "id": "legacy:galgeberget",
         "path": "mediawiki/Galgeberget.txt"
@@ -635,7 +704,8 @@
     {
       "filename": "Galgeberget_SF.jpg",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "vastvaggen"
     }
   ],
   "access": {

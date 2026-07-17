@@ -55,6 +55,7 @@
       "type": "crimp, catch",
       "firstAscent": "Sören Danielsson, Martin Jurander",
       "description": "4-fingercrimp för vänster hand som nätt och jämt sväljer fingertopparna. Grov rensning resulterade i riktigt bra crimp för höger hand. Etablera fötter och dra sedan direkt till kanten. Hoppstart givetvis uteslutet.",
+      "sectorId": "hiv-vaggen",
       "source": {
         "id": "legacy:vaxnas",
         "path": "mediawiki/Våxnäs.txt"
@@ -70,6 +71,7 @@
       "type": "crimp, undercling",
       "firstAscent": "Martin Jurander, Sören Danielsson",
       "description": "Mellan aids och herpes. vänster hand på bra crimp, höger hand förslagsvis i undercling. upp till sidogrepp under kant eller launcha hela vägen upp. Går du ut höger till snälla kanten är du svag och feg.",
+      "sectorId": "hiv-vaggen",
       "source": {
         "id": "legacy:vaxnas",
         "path": "mediawiki/Våxnäs.txt"
@@ -85,6 +87,7 @@
       "type": "",
       "firstAscent": "Sören Danielsson",
       "description": "Samma start som pulkrunkaren, men du är svag och flyr ut till höger och snälla utsteget.",
+      "sectorId": "hiv-vaggen",
       "source": {
         "id": "legacy:vaxnas",
         "path": "mediawiki/Våxnäs.txt"
@@ -100,6 +103,7 @@
       "type": "",
       "firstAscent": "Sören Danielsson, Jonas Wallmander",
       "description": "Något för alla (vilket namnet syftar på). Upp via stora tydliga hyllor och flak mitt på HIV-väggen.",
+      "sectorId": "hiv-vaggen",
       "source": {
         "id": "legacy:vaxnas",
         "path": "mediawiki/Våxnäs.txt"
@@ -115,6 +119,7 @@
       "type": "travers",
       "firstAscent": "",
       "description": "Travers. Börja där led 2 börjar. Gå via enkla grepp snett uppåt höger till den slopade kanten ovanför släta väggen. Se upp så du inte lägger handen i glas på kanten. Fortsätt genom \"tomtar i trumpeten\" och avsluta på lösa blocket där denna börjar. Namnförslag: Hepatit C",
+      "sectorId": "hiv-vaggen",
       "source": {
         "id": "legacy:vaxnas",
         "path": "mediawiki/Våxnäs.txt"
@@ -130,6 +135,7 @@
       "type": "spricka, travers",
       "firstAscent": "Sören Danielsson",
       "description": "Börja med match på stora lösa blocket, följ sedan stora sprickan snett upp åt vänster. Bjuder mer motstånd än det ser ut.",
+      "sectorId": "hiv-vaggen",
       "source": {
         "id": "legacy:vaxnas",
         "path": "mediawiki/Våxnäs.txt"
@@ -145,6 +151,7 @@
       "type": "crimp, catch",
       "firstAscent": "Sören Danielsson",
       "description": "Börjar på areten, leta dig åt höger och etablera dig på vettiga crimpar innan du skickar till bra grepp rakt upp. Går du upp via stora greppet kl 10-11 nallar du på annat problem. Aja baja.",
+      "sectorId": "u2-vaggen",
       "source": {
         "id": "legacy:vaxnas",
         "path": "mediawiki/Våxnäs.txt"
@@ -160,6 +167,7 @@
       "type": "arete",
       "firstAscent": "Sören Danielsson",
       "description": "Börja på areten och följ den sedan rakt upp",
+      "sectorId": "u2-vaggen",
       "source": {
         "id": "legacy:vaxnas",
         "path": "mediawiki/Våxnäs.txt"
@@ -175,6 +183,7 @@
       "type": "catch",
       "firstAscent": "Sören Danielsson",
       "description": "Börjar på platta väggen till vänster om areten, fina startgrepp, sedan \"långt\" one-move-wonder till tydliga hyllan strax under toppen och upp.",
+      "sectorId": "u2-vaggen",
       "source": {
         "id": "legacy:vaxnas",
         "path": "mediawiki/Våxnäs.txt"
@@ -190,6 +199,7 @@
       "type": "",
       "firstAscent": "Jonas Wallmander",
       "description": "Upp via tydliga grepp \"i hörnet\" till vänster om Elevation",
+      "sectorId": "u2-vaggen",
       "source": {
         "id": "legacy:vaxnas",
         "path": "mediawiki/Våxnäs.txt"
@@ -205,6 +215,7 @@
       "type": "",
       "firstAscent": "Jonas Wallmander",
       "description": "Över tvärhyllorna till vänster om \"bad\".",
+      "sectorId": "u2-vaggen",
       "source": {
         "id": "legacy:vaxnas",
         "path": "mediawiki/Våxnäs.txt"
@@ -220,6 +231,7 @@
       "type": "crimp, catch",
       "firstAscent": "Sören Danielsson",
       "description": "Sittstart och händer på två ok lister, sträck dig upp till en liten horisontalspricka. Etablera dig och skicka till kanten.",
+      "sectorId": "vinkel-vaggen",
       "source": {
         "id": "legacy:vaxnas",
         "path": "mediawiki/Våxnäs.txt"
@@ -235,6 +247,7 @@
       "type": "arete",
       "firstAscent": "Sören Danielsson",
       "description": "Börja på areten och leta dig upp åt höger. Dra sedan rakt upp. (Kung Alkinoos var drottning Aretes make)",
+      "sectorId": "vinkel-vaggen",
       "source": {
         "id": "legacy:vaxnas",
         "path": "mediawiki/Våxnäs.txt"
@@ -250,6 +263,7 @@
       "type": "arete",
       "firstAscent": "Sören Danielsson, Jonas Wallmander",
       "description": "Rakt upp på areten (Faiakernas drottning hette Arete).",
+      "sectorId": "vinkel-vaggen",
       "source": {
         "id": "legacy:vaxnas",
         "path": "mediawiki/Våxnäs.txt"
@@ -259,28 +273,33 @@
   "images": [
     {
       "filename": "Hiv.JPG",
-      "caption": "right",
-      "missing": false
+      "caption": "",
+      "missing": false,
+      "sectorId": "hiv-vaggen"
     },
     {
       "filename": "Hiv2.JPG",
       "caption": "Jonas på \"tomtar i trumpeten\"",
-      "missing": false
+      "missing": false,
+      "sectorId": "hiv-vaggen"
     },
     {
       "filename": "Tn_vaxnas-u2sida1.JPG",
       "caption": "Sweetest thing & Beautiful Day",
-      "missing": false
+      "missing": false,
+      "sectorId": "u2-vaggen"
     },
     {
       "filename": "Tn_vaxnas-u2sida.JPG",
       "caption": "Vänstra delen av u2-väggen",
-      "missing": false
+      "missing": false,
+      "sectorId": "u2-vaggen"
     },
     {
       "filename": "Tn_vaxnas-vinkel.JPG",
       "caption": "Vinkelväggen.",
-      "missing": false
+      "missing": false,
+      "sectorId": "vinkel-vaggen"
     }
   ],
   "access": {

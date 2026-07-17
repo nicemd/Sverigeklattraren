@@ -53,6 +53,7 @@
       "type": "sport",
       "firstAscent": "Johan Luhr",
       "description": "Kort och ihållande led med spektakulärt slut! Undvik att klättra upp till toppen av klippan så slipper de boende på toppen störas.",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:katarinavagen",
         "path": "mediawiki/Katarinavägen.txt"
@@ -62,8 +63,9 @@
   "images": [
     {
       "filename": "Tusenoennatt.jpg",
-      "caption": "250px",
-      "missing": false
+      "caption": "",
+      "missing": false,
+      "sectorId": "leder"
     }
   ],
   "access": {

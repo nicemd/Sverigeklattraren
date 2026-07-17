@@ -19,9 +19,19 @@
       "body": "Vitturn ligger vid byn Klitten utanför Älvdalen och är trots den ringa storleken på max tio meter en av Dalarnas finaste sportklippor tack vare mycket bra klippkvalité (nån mysko sandsten) och det fina sydläget på toppen av ett berg med fantastisk utsikt som kan matchas av få klätterklippor i landet. En perfekt klippa för trevlig fikaklättring soliga sommarkvällar. De flesta ankarna saknar tyvärr kjeda, men det kommer att åtgärdas. Högt och öppet sydläge möjligör klättring från mars till sen oktober."
     },
     {
+      "id": "vagbeskrivning",
+      "title": "Vägbeskrivning",
+      "body": ""
+    },
+    {
       "id": "camping",
       "title": "Camping",
       "body": "Eldstäder finns nedanför insteget och en bit ovanför utsteget på led 19. I anslutning till eldstaden på toppen finns även bra tältplatser. Inget vatten finns på plats."
+    },
+    {
+      "id": "vanstra-delen",
+      "title": "Vänstra delen",
+      "body": ""
     },
     {
       "id": "hogra-delen",
@@ -40,6 +50,7 @@
       "type": "sport",
       "firstAscent": "Ted Ekberg solo",
       "description": "Klättra hörnets högra vägg utan att kliva ut till vänster, sedan lätt klättring upp till ankaret. 4bb+2bb i toppen.",
+      "sectorId": "vanstra-delen",
       "source": {
         "id": "legacy:vitturn",
         "path": "mediawiki/Vitturn.txt"
@@ -55,6 +66,7 @@
       "type": "",
       "firstAscent": "Ted Ekberg, Oskar Tjärnberg",
       "description": "Längsta turen. Starta i spricka upp till en nisch. Klättra upp till Feghörnets ankare via diverse formationer och vidare upp till höger om detta. En borrbult gemensamt med Feghörnet.",
+      "sectorId": "vanstra-delen",
       "source": {
         "id": "legacy:vitturn",
         "path": "mediawiki/Vitturn.txt"
@@ -70,6 +82,7 @@
       "type": "",
       "firstAscent": "Frank Jansson",
       "description": "Sprickan bakom granen",
+      "sectorId": "vanstra-delen",
       "source": {
         "id": "legacy:vitturn",
         "path": "mediawiki/Vitturn.txt"
@@ -85,6 +98,7 @@
       "type": "mix",
       "firstAscent": "Jörgen Lundgren",
       "description": "3bb + kil i slutet. Variant är att klättra utsteget på Jackpot.",
+      "sectorId": "vanstra-delen",
       "source": {
         "id": "legacy:vitturn",
         "path": "mediawiki/Vitturn.txt"
@@ -100,6 +114,7 @@
       "type": "sport",
       "firstAscent": "Mikael Hellberg",
       "description": "3bb + ev.liten kil i början.",
+      "sectorId": "vanstra-delen",
       "source": {
         "id": "legacy:vitturn",
         "path": "mediawiki/Vitturn.txt"
@@ -115,6 +130,7 @@
       "type": "sport",
       "firstAscent": "Jörgen Lundgren",
       "description": "4bb+ 2 borrbultar i toppen gemensamt med led 5.",
+      "sectorId": "vanstra-delen",
       "source": {
         "id": "legacy:vitturn",
         "path": "mediawiki/Vitturn.txt"
@@ -130,6 +146,7 @@
       "type": "mix",
       "firstAscent": "Erik Wadman",
       "description": "Camalot 0.75 i början sedan 1bb + kil i slutet 2bb i toppen. Sten/Grepp har lossnat under 2012, svårighetsgraden har bedömt ökat.",
+      "sectorId": "vanstra-delen",
       "source": {
         "id": "legacy:vitturn",
         "path": "mediawiki/Vitturn.txt"
@@ -145,6 +162,7 @@
       "type": "trad",
       "firstAscent": "Erik Wadman",
       "description": "Vitturns hårdaste kiltur. Små kilar och friends. Går att toppa/fira av med led nios ankare.",
+      "sectorId": "vanstra-delen",
       "source": {
         "id": "legacy:vitturn",
         "path": "mediawiki/Vitturn.txt"
@@ -160,6 +178,7 @@
       "type": "",
       "firstAscent": "",
       "description": "Rakt upp till höger om Faktotum.",
+      "sectorId": "vanstra-delen",
       "source": {
         "id": "legacy:vitturn",
         "path": "mediawiki/Vitturn.txt"
@@ -175,6 +194,7 @@
       "type": "sport",
       "firstAscent": "",
       "description": "4bb+2bb i toppen.",
+      "sectorId": "vanstra-delen",
       "source": {
         "id": "legacy:vitturn",
         "path": "mediawiki/Vitturn.txt"
@@ -190,6 +210,7 @@
       "type": "",
       "firstAscent": "Göran Erlandsson",
       "description": "Vitturns hårdaste tur. Svårighetsgraden har möjligen ökat något efter att steg har lossnat under våren-03.",
+      "sectorId": "vanstra-delen",
       "source": {
         "id": "legacy:vitturn",
         "path": "mediawiki/Vitturn.txt"
@@ -205,6 +226,7 @@
       "type": "sport",
       "firstAscent": "Erik Hansson",
       "description": "Undgå kruxet genom att gå ut till vänster vid första bulten och hangla efter rampen. 4bb.",
+      "sectorId": "vanstra-delen",
       "source": {
         "id": "legacy:vitturn",
         "path": "mediawiki/Vitturn.txt"
@@ -220,6 +242,7 @@
       "type": "sport",
       "firstAscent": "Ted Ekberg",
       "description": "Klättra upp till vänster om Grov utan att använda sprickan. 4bb+ankare med kedja.",
+      "sectorId": "vanstra-delen",
       "source": {
         "id": "legacy:vitturn",
         "path": "mediawiki/Vitturn.txt"
@@ -235,6 +258,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "Den stora sprickan med nischen. Välsäkrad med kilar och Hex#10 el. 11.",
+      "sectorId": "hogra-delen",
       "source": {
         "id": "legacy:vitturn",
         "path": "mediawiki/Vitturn.txt"
@@ -250,6 +274,7 @@
       "type": "FALSKT",
       "firstAscent": "Erik Wadman",
       "description": "",
+      "sectorId": "hogra-delen",
       "source": {
         "id": "legacy:vitturn",
         "path": "mediawiki/Vitturn.txt"
@@ -265,6 +290,7 @@
       "type": "FALSKT",
       "firstAscent": "Ted Ekberg",
       "description": "",
+      "sectorId": "hogra-delen",
       "source": {
         "id": "legacy:vitturn",
         "path": "mediawiki/Vitturn.txt"
@@ -280,6 +306,7 @@
       "type": "FALSKT",
       "firstAscent": "Mikael Hellberg",
       "description": "",
+      "sectorId": "hogra-delen",
       "source": {
         "id": "legacy:vitturn",
         "path": "mediawiki/Vitturn.txt"
@@ -295,6 +322,7 @@
       "type": "sport",
       "firstAscent": "Daniel Nylén",
       "description": "3bb+2bb i toppen.",
+      "sectorId": "hogra-delen",
       "source": {
         "id": "legacy:vitturn",
         "path": "mediawiki/Vitturn.txt"
@@ -310,6 +338,7 @@
       "type": "",
       "firstAscent": "Jörgen Lundgren",
       "description": "Hangla på utsidan av rampen sedan rakt upp. Små kilar+ liten friend.",
+      "sectorId": "hogra-delen",
       "source": {
         "id": "legacy:vitturn",
         "path": "mediawiki/Vitturn.txt"
@@ -325,6 +354,7 @@
       "type": "",
       "firstAscent": "",
       "description": "Direktinsteg rakt upp till hyllan",
+      "sectorId": "hogra-delen",
       "source": {
         "id": "legacy:vitturn",
         "path": "mediawiki/Vitturn.txt"
@@ -340,6 +370,7 @@
       "type": "FALSKT",
       "firstAscent": "Erik Wadman",
       "description": "",
+      "sectorId": "hogra-delen",
       "source": {
         "id": "legacy:vitturn",
         "path": "mediawiki/Vitturn.txt"
@@ -355,6 +386,7 @@
       "type": "FALSKT",
       "firstAscent": "Mikael Hellberg solo",
       "description": "",
+      "sectorId": "hogra-delen",
       "source": {
         "id": "legacy:vitturn",
         "path": "mediawiki/Vitturn.txt"
@@ -370,6 +402,7 @@
       "type": "FALSKT",
       "firstAscent": "Daniel Nylén",
       "description": "",
+      "sectorId": "hogra-delen",
       "source": {
         "id": "legacy:vitturn",
         "path": "mediawiki/Vitturn.txt"
@@ -385,6 +418,7 @@
       "type": "FALSKT",
       "firstAscent": "Daniel Nylén",
       "description": "",
+      "sectorId": "hogra-delen",
       "source": {
         "id": "legacy:vitturn",
         "path": "mediawiki/Vitturn.txt"
@@ -400,6 +434,7 @@
       "type": "sport",
       "firstAscent": "Ted Ekberg",
       "description": "Rakt upp utan att använda sprickan till vänster. Boulderkaraktär. 2bb+2 i toppen.",
+      "sectorId": "hogra-delen",
       "source": {
         "id": "legacy:vitturn",
         "path": "mediawiki/Vitturn.txt"
@@ -415,6 +450,7 @@
       "type": "",
       "firstAscent": "Erik Wadman",
       "description": "Sveriges brantaste fyra?",
+      "sectorId": "hogra-delen",
       "source": {
         "id": "legacy:vitturn",
         "path": "mediawiki/Vitturn.txt"
@@ -425,17 +461,20 @@
     {
       "filename": "Vägbeskrivning.gif",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "vagbeskrivning"
     },
     {
       "filename": "Vänstra_delen.gif",
       "caption": "frame",
-      "missing": false
+      "missing": false,
+      "sectorId": "vanstra-delen"
     },
     {
       "filename": "Högra_delen.gif",
       "caption": "frame",
-      "missing": false
+      "missing": false,
+      "sectorId": "hogra-delen"
     }
   ],
   "access": {

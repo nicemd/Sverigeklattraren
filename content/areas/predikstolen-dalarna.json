@@ -42,6 +42,16 @@
       "body": "Leder med tillägget trad. är med stor sannolikhet från början gjorda av Tommy Sandberg m.fl. i en eller annan stil under sextiotalet. Klippan i Predikstolen är som regel inte direkt bombfast. Eftersom dessutom turisterna anländer ovanpå berget och gärna vill kasta ned saker så är det inte alls dumt att bära hjälm här! På våren brukar ett korppar häcka i Predikstolen. De brukar bygga sitt bo på Rampfeber eller Klockstapeln. Något år har de valt framtidsväggen istället. Stör dem inte! De brukar vara klara runt månadsskiftet maj-juni. Nedre Sexaväggen och CADväggen ligger långt till vänster och nås lättast genom en firning över Sir Väs eller nedklättring t. v. om densamme. Du står då nedanför övre Sexaväggen och kan härifrån lätt gå ned till nedre. Ett annat alternativ är att gå runt berget till vänster nedifrån sett vilket inte tar mer än 5 minuter. Lederna är runt 20 m. långa. CADväggen är den vänstraste väggen i predikstolen och ligger strax nedanför till vänster om nedre Sexaväggen."
     },
     {
+      "id": "cad-vaggen",
+      "title": "CAD-väggen",
+      "body": ""
+    },
+    {
+      "id": "nedre-sexavaggen",
+      "title": "Nedre Sexaväggen",
+      "body": ""
+    },
+    {
       "id": "ovre-sexavaggen",
       "title": "Övre Sexaväggen",
       "body": "Ligger strax ovanför och till höger om den nedre. Se föregående anmarsch."
@@ -73,6 +83,7 @@
       "type": "sport",
       "firstAscent": "Arne Johnsen -98",
       "description": "Inte lika prydlig linjeföring som Solid Edge men ihållande och fin klättring i alla fall. Ankare finns.",
+      "sectorId": "cad-vaggen",
       "source": {
         "id": "legacy:predikstolen-dalarna",
         "path": "mediawiki/Predikstolen (Dalarna).txt"
@@ -88,6 +99,7 @@
       "type": "sport",
       "firstAscent": "Arne Johnsen -98",
       "description": "En av de finaste lederna i Predikstolen. Ligger mellan 1a och 1 på skissen. Ihållande brant klättring på goda grepp. Ankare finns.",
+      "sectorId": "cad-vaggen",
       "source": {
         "id": "legacy:predikstolen-dalarna",
         "path": "mediawiki/Predikstolen (Dalarna).txt"
@@ -103,6 +115,7 @@
       "type": "mix",
       "firstAscent": "Erik Hansson, Göran Nordgren -95",
       "description": "Den fina sprickan som börjar precis där marken börjar plana ut, ihållande och välsäkrat även om det kan vara svårt att få till säkringarna. Där sprickan tar slut, vidare förbi de två borrbultarna. En fin tur!",
+      "sectorId": "nedre-sexavaggen",
       "source": {
         "id": "legacy:predikstolen-dalarna",
         "path": "mediawiki/Predikstolen (Dalarna).txt"
@@ -118,6 +131,7 @@
       "type": "sport",
       "firstAscent": "Göran Nordegren, Erik Hansson -95",
       "description": "Nästa spricka, ca. 2 m. t. v. om föregående led. Tunt insteg förbi två borrbultar, följ sedan sprickan så långt som möjligt innan du traverserar vänster bort till nedre borrbulten på föregående led. Klart värd att göra!",
+      "sectorId": "nedre-sexavaggen",
       "source": {
         "id": "legacy:predikstolen-dalarna",
         "path": "mediawiki/Predikstolen (Dalarna).txt"
@@ -133,6 +147,7 @@
       "type": "trad",
       "firstAscent": "Gunnar Renström -95",
       "description": "Ytterligare en spricka längre åt höger, som följs tills att den sammanfaller med föregående led. Ganska svårsäkrad!",
+      "sectorId": "nedre-sexavaggen",
       "source": {
         "id": "legacy:predikstolen-dalarna",
         "path": "mediawiki/Predikstolen (Dalarna).txt"
@@ -148,6 +163,7 @@
       "type": "",
       "firstAscent": "Erik Hansson, M. Mellberg -96",
       "description": "Kort led som leder upp till hyllan nedanför Övre Sexaväggen.",
+      "sectorId": "nedre-sexavaggen",
       "source": {
         "id": "legacy:predikstolen-dalarna",
         "path": "mediawiki/Predikstolen (Dalarna).txt"
@@ -163,6 +179,7 @@
       "type": "trad",
       "firstAscent": "J. Spännar -96",
       "description": "Ett par meter till vänster om Sir Väs. Fin klättring i undre fyraregistret. Säkringsmöjligheterna är dock näst intill obefintliga. Leden är inte rensad.",
+      "sectorId": "ovre-sexavaggen",
       "source": {
         "id": "legacy:predikstolen-dalarna",
         "path": "mediawiki/Predikstolen (Dalarna).txt"
@@ -178,6 +195,7 @@
       "type": "mix",
       "firstAscent": "E. Hansson, Lars Frisk, Stefan Hermansson -87",
       "description": "Ännu en fin tur i undre sexaregistret! Rakt upp förbi tre borrbultar. Ta med någon TCU (mini friend) eller kil! Två bultar moderniserade -95",
+      "sectorId": "ovre-sexavaggen",
       "source": {
         "id": "legacy:predikstolen-dalarna",
         "path": "mediawiki/Predikstolen (Dalarna).txt"
@@ -193,6 +211,7 @@
       "type": "sport",
       "firstAscent": "E. Hansson, G. Nordgren -95",
       "description": "Håller sig hela tiden omkring den tydliga flaklinjen. Insteg ungefär fem meter h. om Sir Väs. Upp till borrbulten, sedan snett upp åt vänster där någon kil kan vara på sin plats. En något konstlad led men hyfsad klättring. Egentligen rätt onödig...",
+      "sectorId": "ovre-sexavaggen",
       "source": {
         "id": "legacy:predikstolen-dalarna",
         "path": "mediawiki/Predikstolen (Dalarna).txt"
@@ -208,6 +227,7 @@
       "type": "mix",
       "firstAscent": "G. Nordgren, E. Hansson -95",
       "description": "Börja som föregående, men dra istället lite åt höger vid första borrbulten och fortsätt upp i det stora diedret. Friends är bra att ha! En klassisk linje!",
+      "sectorId": "ovre-sexavaggen",
       "source": {
         "id": "legacy:predikstolen-dalarna",
         "path": "mediawiki/Predikstolen (Dalarna).txt"
@@ -218,32 +238,38 @@
     {
       "filename": "Predikstolen_överblick.gif",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "beskrivning"
     },
     {
       "filename": "Predikstolen_tavla.png",
-      "caption": "right",
-      "missing": false
+      "caption": "",
+      "missing": false,
+      "sectorId": "access"
     },
     {
       "filename": "Predikstolen_karta.gif",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "vagbeskrivning"
     },
     {
       "filename": "Nedresexaväggen.gif",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "leder"
     },
     {
       "filename": "Framtidsväggen.gif",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "framtidsvaggen"
     },
     {
       "filename": "Kalleankaväggen.gif",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "kalle-anka-vaggen"
     }
   ],
   "access": {

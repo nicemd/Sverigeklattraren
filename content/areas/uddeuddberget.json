@@ -37,6 +37,16 @@
       "body": "Som för Dödskalleberget. Ca 45 minuters promenad från ändhållplatsen."
     },
     {
+      "id": "access",
+      "title": "Access",
+      "body": ""
+    },
+    {
+      "id": "leder",
+      "title": "Leder",
+      "body": ""
+    },
+    {
       "id": "kratervaggen",
       "title": "Kraterväggen",
       "body": "Den branta väggen nedanför Mäusliväggen"
@@ -50,6 +60,11 @@
       "id": "vastvaggen",
       "title": "Västväggen",
       "body": "Bergets västvägg har ännu så länge endast en tur men det finns möjligheter till fler."
+    },
+    {
+      "id": "sydvaggen",
+      "title": "Sydväggen",
+      "body": ""
     },
     {
       "id": "ravinen",
@@ -78,6 +93,7 @@
       "type": "",
       "firstAscent": "Ludde Hagberg -95",
       "description": "",
+      "sectorId": "kratervaggen",
       "source": {
         "id": "legacy:uddeuddberget",
         "path": "mediawiki/Uddeuddberget.txt"
@@ -93,6 +109,7 @@
       "type": "",
       "firstAscent": "Christer Jansson -95",
       "description": "",
+      "sectorId": "kratervaggen",
       "source": {
         "id": "legacy:uddeuddberget",
         "path": "mediawiki/Uddeuddberget.txt"
@@ -108,6 +125,7 @@
       "type": "",
       "firstAscent": "Marco Kupiainen -94",
       "description": "",
+      "sectorId": "kratervaggen",
       "source": {
         "id": "legacy:uddeuddberget",
         "path": "mediawiki/Uddeuddberget.txt"
@@ -123,6 +141,7 @@
       "type": "",
       "firstAscent": "Marco Kupiainen, Ludde Hagberg -95",
       "description": "",
+      "sectorId": "kratervaggen",
       "source": {
         "id": "legacy:uddeuddberget",
         "path": "mediawiki/Uddeuddberget.txt"
@@ -138,6 +157,7 @@
       "type": "",
       "firstAscent": "Mikael Wegrelius, Mårten Dahlström -85",
       "description": "",
+      "sectorId": "mauslivaggen",
       "source": {
         "id": "legacy:uddeuddberget",
         "path": "mediawiki/Uddeuddberget.txt"
@@ -153,6 +173,7 @@
       "type": "",
       "firstAscent": "Mikael Wegrelius, Pierre Alcayna -85",
       "description": "",
+      "sectorId": "mauslivaggen",
       "source": {
         "id": "legacy:uddeuddberget",
         "path": "mediawiki/Uddeuddberget.txt"
@@ -168,6 +189,7 @@
       "type": "",
       "firstAscent": "Pierre Alcayna, Mikael Wegrelius -85",
       "description": "",
+      "sectorId": "mauslivaggen",
       "source": {
         "id": "legacy:uddeuddberget",
         "path": "mediawiki/Uddeuddberget.txt"
@@ -183,6 +205,7 @@
       "type": "",
       "firstAscent": "Daniel Bidner, Magnus Buhré -89",
       "description": "",
+      "sectorId": "vastvaggen",
       "source": {
         "id": "legacy:uddeuddberget",
         "path": "mediawiki/Uddeuddberget.txt"
@@ -198,6 +221,7 @@
       "type": "",
       "firstAscent": "Magnus Buhré, Daniel Bidner -89",
       "description": "",
+      "sectorId": "vastvaggen",
       "source": {
         "id": "legacy:uddeuddberget",
         "path": "mediawiki/Uddeuddberget.txt"
@@ -213,6 +237,7 @@
       "type": "",
       "firstAscent": "Daniel Bidner -89",
       "description": "",
+      "sectorId": "vastvaggen",
       "source": {
         "id": "legacy:uddeuddberget",
         "path": "mediawiki/Uddeuddberget.txt"
@@ -228,6 +253,7 @@
       "type": "",
       "firstAscent": "Marco Kupiainen, Jesper Andersson -93",
       "description": "",
+      "sectorId": "vastvaggen",
       "source": {
         "id": "legacy:uddeuddberget",
         "path": "mediawiki/Uddeuddberget.txt"
@@ -243,6 +269,7 @@
       "type": "",
       "firstAscent": "Rikard Hedman, Birger Hedlund -85",
       "description": "",
+      "sectorId": "sydvaggen",
       "source": {
         "id": "legacy:uddeuddberget",
         "path": "mediawiki/Uddeuddberget.txt"
@@ -258,6 +285,7 @@
       "type": "",
       "firstAscent": "Daniel Bidner -87",
       "description": "",
+      "sectorId": "sydvaggen",
       "source": {
         "id": "legacy:uddeuddberget",
         "path": "mediawiki/Uddeuddberget.txt"
@@ -273,6 +301,7 @@
       "type": "",
       "firstAscent": "Daniel Bidner -87",
       "description": "",
+      "sectorId": "sydvaggen",
       "source": {
         "id": "legacy:uddeuddberget",
         "path": "mediawiki/Uddeuddberget.txt"
@@ -288,6 +317,7 @@
       "type": "",
       "firstAscent": "Rikard Hedman, Birger Hedlund -85",
       "description": "",
+      "sectorId": "sydvaggen",
       "source": {
         "id": "legacy:uddeuddberget",
         "path": "mediawiki/Uddeuddberget.txt"
@@ -303,6 +333,7 @@
       "type": "",
       "firstAscent": "Birger Hedlund, Rikard Hedman -85",
       "description": "",
+      "sectorId": "sydvaggen",
       "source": {
         "id": "legacy:uddeuddberget",
         "path": "mediawiki/Uddeuddberget.txt"
@@ -318,6 +349,7 @@
       "type": "",
       "firstAscent": "Daniel Bidner -89",
       "description": "",
+      "sectorId": "sydvaggen",
       "source": {
         "id": "legacy:uddeuddberget",
         "path": "mediawiki/Uddeuddberget.txt"
@@ -333,6 +365,7 @@
       "type": "",
       "firstAscent": "Johan Luhr, Rikard Hedman -89",
       "description": "",
+      "sectorId": "sydvaggen",
       "source": {
         "id": "legacy:uddeuddberget",
         "path": "mediawiki/Uddeuddberget.txt"
@@ -348,6 +381,7 @@
       "type": "",
       "firstAscent": "Jan Liliemark -83",
       "description": "",
+      "sectorId": "sydvaggen",
       "source": {
         "id": "legacy:uddeuddberget",
         "path": "mediawiki/Uddeuddberget.txt"
@@ -363,6 +397,7 @@
       "type": "",
       "firstAscent": "Marco Kupiainen -95 FF: Marco Kupiainen, Ludde Hagberg -96",
       "description": "",
+      "sectorId": "sydvaggen",
       "source": {
         "id": "legacy:uddeuddberget",
         "path": "mediawiki/Uddeuddberget.txt"
@@ -378,6 +413,7 @@
       "type": "",
       "firstAscent": "Ludde Hagberg -95 FF: Ludde Hagberg, Marco Kupiainen -96",
       "description": "",
+      "sectorId": "sydvaggen",
       "source": {
         "id": "legacy:uddeuddberget",
         "path": "mediawiki/Uddeuddberget.txt"
@@ -393,6 +429,7 @@
       "type": "",
       "firstAscent": "Rikard Hedman, Johan Luhr -89",
       "description": "",
+      "sectorId": "sydvaggen",
       "source": {
         "id": "legacy:uddeuddberget",
         "path": "mediawiki/Uddeuddberget.txt"
@@ -408,6 +445,7 @@
       "type": "",
       "firstAscent": "Ludde Hagberg -95",
       "description": "",
+      "sectorId": "sydvaggen",
       "source": {
         "id": "legacy:uddeuddberget",
         "path": "mediawiki/Uddeuddberget.txt"
@@ -423,6 +461,7 @@
       "type": "",
       "firstAscent": "Johan Luhr, Rikard Hedman -89",
       "description": "",
+      "sectorId": "sydvaggen",
       "source": {
         "id": "legacy:uddeuddberget",
         "path": "mediawiki/Uddeuddberget.txt"
@@ -438,6 +477,7 @@
       "type": "",
       "firstAscent": "Stefan Norman -90",
       "description": "",
+      "sectorId": "sydvaggen",
       "source": {
         "id": "legacy:uddeuddberget",
         "path": "mediawiki/Uddeuddberget.txt"
@@ -453,6 +493,7 @@
       "type": "",
       "firstAscent": "Pål Nylander -96",
       "description": "",
+      "sectorId": "sydvaggen",
       "source": {
         "id": "legacy:uddeuddberget",
         "path": "mediawiki/Uddeuddberget.txt"
@@ -468,6 +509,7 @@
       "type": "",
       "firstAscent": "Stefan Norman, Johan Enkvist -90",
       "description": "",
+      "sectorId": "sydvaggen",
       "source": {
         "id": "legacy:uddeuddberget",
         "path": "mediawiki/Uddeuddberget.txt"
@@ -483,6 +525,7 @@
       "type": "",
       "firstAscent": "Lars Grankvist, Rikard Hedman -83",
       "description": "",
+      "sectorId": "sydvaggen",
       "source": {
         "id": "legacy:uddeuddberget",
         "path": "mediawiki/Uddeuddberget.txt"
@@ -498,6 +541,7 @@
       "type": "",
       "firstAscent": "Johan Sandberg, Catrine Sandberg 2010-10-17",
       "description": "",
+      "sectorId": "sydvaggen",
       "source": {
         "id": "legacy:uddeuddberget",
         "path": "mediawiki/Uddeuddberget.txt"
@@ -513,6 +557,7 @@
       "type": "",
       "firstAscent": "Johan Luhr, Rikard Hedman -89",
       "description": "",
+      "sectorId": "sydvaggen",
       "source": {
         "id": "legacy:uddeuddberget",
         "path": "mediawiki/Uddeuddberget.txt"
@@ -528,6 +573,7 @@
       "type": "",
       "firstAscent": "Rikard Hedman -83",
       "description": "",
+      "sectorId": "sydvaggen",
       "source": {
         "id": "legacy:uddeuddberget",
         "path": "mediawiki/Uddeuddberget.txt"
@@ -543,6 +589,7 @@
       "type": "",
       "firstAscent": "Johan Luhr, Thomas Hansson -89",
       "description": "",
+      "sectorId": "sydvaggen",
       "source": {
         "id": "legacy:uddeuddberget",
         "path": "mediawiki/Uddeuddberget.txt"
@@ -558,6 +605,7 @@
       "type": "",
       "firstAscent": "Thomas Hansson, Johan Luhr -89",
       "description": "",
+      "sectorId": "sydvaggen",
       "source": {
         "id": "legacy:uddeuddberget",
         "path": "mediawiki/Uddeuddberget.txt"
@@ -573,6 +621,7 @@
       "type": "",
       "firstAscent": "Jan Liliemark -83",
       "description": "",
+      "sectorId": "sydvaggen",
       "source": {
         "id": "legacy:uddeuddberget",
         "path": "mediawiki/Uddeuddberget.txt"
@@ -588,6 +637,7 @@
       "type": "",
       "firstAscent": "Birger Hedlund m fl -83",
       "description": "",
+      "sectorId": "sydvaggen",
       "source": {
         "id": "legacy:uddeuddberget",
         "path": "mediawiki/Uddeuddberget.txt"
@@ -603,6 +653,7 @@
       "type": "",
       "firstAscent": "Birger Hedlund -84",
       "description": "",
+      "sectorId": "sydvaggen",
       "source": {
         "id": "legacy:uddeuddberget",
         "path": "mediawiki/Uddeuddberget.txt"
@@ -618,6 +669,7 @@
       "type": "",
       "firstAscent": "Thomas Hansson, Johan Luhr -89",
       "description": "",
+      "sectorId": "sydvaggen",
       "source": {
         "id": "legacy:uddeuddberget",
         "path": "mediawiki/Uddeuddberget.txt"
@@ -633,6 +685,7 @@
       "type": "",
       "firstAscent": "Johan Luhr, Thomas Hansson -89",
       "description": "",
+      "sectorId": "sydvaggen",
       "source": {
         "id": "legacy:uddeuddberget",
         "path": "mediawiki/Uddeuddberget.txt"
@@ -648,6 +701,7 @@
       "type": "",
       "firstAscent": "Daniel Bidner -88",
       "description": "",
+      "sectorId": "sydvaggen",
       "source": {
         "id": "legacy:uddeuddberget",
         "path": "mediawiki/Uddeuddberget.txt"
@@ -663,6 +717,7 @@
       "type": "",
       "firstAscent": "Per Willén, Johnny Carlén -95",
       "description": "",
+      "sectorId": "ravinen",
       "source": {
         "id": "legacy:uddeuddberget",
         "path": "mediawiki/Uddeuddberget.txt"
@@ -678,6 +733,7 @@
       "type": "",
       "firstAscent": "Jesper Andersson -94",
       "description": "",
+      "sectorId": "ravinen",
       "source": {
         "id": "legacy:uddeuddberget",
         "path": "mediawiki/Uddeuddberget.txt"
@@ -693,6 +749,7 @@
       "type": "",
       "firstAscent": "Marco Kupiainen -94",
       "description": "",
+      "sectorId": "ravinen",
       "source": {
         "id": "legacy:uddeuddberget",
         "path": "mediawiki/Uddeuddberget.txt"
@@ -708,6 +765,7 @@
       "type": "",
       "firstAscent": "Jesper Andersson -94",
       "description": "",
+      "sectorId": "ravinen",
       "source": {
         "id": "legacy:uddeuddberget",
         "path": "mediawiki/Uddeuddberget.txt"
@@ -723,6 +781,7 @@
       "type": "",
       "firstAscent": "Christer Jansson -95",
       "description": "",
+      "sectorId": "ravinen",
       "source": {
         "id": "legacy:uddeuddberget",
         "path": "mediawiki/Uddeuddberget.txt"
@@ -738,6 +797,7 @@
       "type": "",
       "firstAscent": "Jesper Andersson -95",
       "description": "",
+      "sectorId": "ravinen",
       "source": {
         "id": "legacy:uddeuddberget",
         "path": "mediawiki/Uddeuddberget.txt"
@@ -753,6 +813,7 @@
       "type": "",
       "firstAscent": "Christer Jansson -95",
       "description": "",
+      "sectorId": "ravinen",
       "source": {
         "id": "legacy:uddeuddberget",
         "path": "mediawiki/Uddeuddberget.txt"
@@ -768,6 +829,7 @@
       "type": "",
       "firstAscent": "Niklas Björnerstedt -91",
       "description": "",
+      "sectorId": "flaskvaggen",
       "source": {
         "id": "legacy:uddeuddberget",
         "path": "mediawiki/Uddeuddberget.txt"
@@ -783,6 +845,7 @@
       "type": "",
       "firstAscent": "Harri Sporrevik -90",
       "description": "",
+      "sectorId": "flaskvaggen",
       "source": {
         "id": "legacy:uddeuddberget",
         "path": "mediawiki/Uddeuddberget.txt"
@@ -798,6 +861,7 @@
       "type": "",
       "firstAscent": "Harri Sporrevik, Anna Groth -90",
       "description": "",
+      "sectorId": "flaskvaggen",
       "source": {
         "id": "legacy:uddeuddberget",
         "path": "mediawiki/Uddeuddberget.txt"
@@ -813,6 +877,7 @@
       "type": "",
       "firstAscent": "Harri Sporrevik -90",
       "description": "",
+      "sectorId": "flaskvaggen",
       "source": {
         "id": "legacy:uddeuddberget",
         "path": "mediawiki/Uddeuddberget.txt"
@@ -828,6 +893,7 @@
       "type": "",
       "firstAscent": "Jan Liliemark, Niklas Björnerstedt -89",
       "description": "",
+      "sectorId": "flaskvaggen",
       "source": {
         "id": "legacy:uddeuddberget",
         "path": "mediawiki/Uddeuddberget.txt"
@@ -843,6 +909,7 @@
       "type": "",
       "firstAscent": "Johan Sandberg, Catrine Sandberg -07",
       "description": "",
+      "sectorId": "vinylvaggen",
       "source": {
         "id": "legacy:uddeuddberget",
         "path": "mediawiki/Uddeuddberget.txt"
@@ -858,6 +925,7 @@
       "type": "",
       "firstAscent": "Johan Sandberg, Patrik Roos -07",
       "description": "",
+      "sectorId": "vinylvaggen",
       "source": {
         "id": "legacy:uddeuddberget",
         "path": "mediawiki/Uddeuddberget.txt"
@@ -873,6 +941,7 @@
       "type": "",
       "firstAscent": "Johan Sandberg, Anders Jakobsen Simona -08",
       "description": "",
+      "sectorId": "vinylvaggen",
       "source": {
         "id": "legacy:uddeuddberget",
         "path": "mediawiki/Uddeuddberget.txt"
@@ -888,6 +957,7 @@
       "type": "",
       "firstAscent": "Johan Sandberg, Catrine Sandberg -08",
       "description": "",
+      "sectorId": "vinylvaggen",
       "source": {
         "id": "legacy:uddeuddberget",
         "path": "mediawiki/Uddeuddberget.txt"
@@ -903,6 +973,7 @@
       "type": "",
       "firstAscent": "",
       "description": "",
+      "sectorId": "vinylvaggen",
       "source": {
         "id": "legacy:uddeuddberget",
         "path": "mediawiki/Uddeuddberget.txt"
@@ -918,6 +989,7 @@
       "type": "",
       "firstAscent": "",
       "description": "",
+      "sectorId": "vinylvaggen",
       "source": {
         "id": "legacy:uddeuddberget",
         "path": "mediawiki/Uddeuddberget.txt"
@@ -928,7 +1000,8 @@
     {
       "filename": "Uddeudd.png",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "sydvaggen"
     }
   ],
   "access": {

@@ -30,9 +30,19 @@
       "body": "Egen båt. Har du vägarna förbi ligger Härsö och Stora Korpmaren alldeles i närheten."
     },
     {
+      "id": "leder",
+      "title": "Leder",
+      "body": ""
+    },
+    {
       "id": "mittpartiet",
       "title": "Mittpartiet",
       "body": "Mitt på väggen finns ett sva och ovanför det en skarpt skuren dieder med en väldigt slät högervägg."
+    },
+    {
+      "id": "hogra-svaet",
+      "title": "Högra svaet",
+      "body": ""
     },
     {
       "id": "mer-information",
@@ -56,6 +66,7 @@
       "type": "",
       "firstAscent": "Martin Jacobsson -96",
       "description": "",
+      "sectorId": "mittpartiet",
       "source": {
         "id": "legacy:agno",
         "path": "mediawiki/Ägnö.txt"
@@ -71,6 +82,7 @@
       "type": "",
       "firstAscent": "Jesper Andersson -96",
       "description": "",
+      "sectorId": "mittpartiet",
       "source": {
         "id": "legacy:agno",
         "path": "mediawiki/Ägnö.txt"
@@ -86,6 +98,7 @@
       "type": "",
       "firstAscent": "Ludde Hagberg -96",
       "description": "",
+      "sectorId": "mittpartiet",
       "source": {
         "id": "legacy:agno",
         "path": "mediawiki/Ägnö.txt"
@@ -101,6 +114,7 @@
       "type": "",
       "firstAscent": "Ludde Hagberg -96",
       "description": "",
+      "sectorId": "mittpartiet",
       "source": {
         "id": "legacy:agno",
         "path": "mediawiki/Ägnö.txt"
@@ -116,6 +130,7 @@
       "type": "",
       "firstAscent": "Ludde Hagberg -96",
       "description": "",
+      "sectorId": "mittpartiet",
       "source": {
         "id": "legacy:agno",
         "path": "mediawiki/Ägnö.txt"
@@ -131,6 +146,7 @@
       "type": "",
       "firstAscent": "Marco Kupiainen -96",
       "description": "",
+      "sectorId": "mittpartiet",
       "source": {
         "id": "legacy:agno",
         "path": "mediawiki/Ägnö.txt"
@@ -146,6 +162,7 @@
       "type": "",
       "firstAscent": "Niklas Björnerstedt, Jan Ahrens -95",
       "description": "",
+      "sectorId": "hogra-svaet",
       "source": {
         "id": "legacy:agno",
         "path": "mediawiki/Ägnö.txt"
@@ -161,6 +178,7 @@
       "type": "",
       "firstAscent": "Jan Ahrens, Niklas Björnerstedt -95",
       "description": "",
+      "sectorId": "hogra-svaet",
       "source": {
         "id": "legacy:agno",
         "path": "mediawiki/Ägnö.txt"
@@ -171,27 +189,32 @@
     {
       "filename": "Ägnö.jpg",
       "caption": "Jonas Ahlman",
-      "missing": false
+      "missing": false,
+      "sectorId": null
     },
     {
       "filename": "Agno002.jpg",
       "caption": "Jonas Ahlman",
-      "missing": false
+      "missing": false,
+      "sectorId": "bilder"
     },
     {
       "filename": "IMG_9725.jpg",
       "caption": "Jonas Ahlman",
-      "missing": false
+      "missing": false,
+      "sectorId": "bilder"
     },
     {
       "filename": "Agno001.jpg",
       "caption": "Jonas Ahlman",
-      "missing": false
+      "missing": false,
+      "sectorId": "bilder"
     },
     {
       "filename": "Agno003.jpg",
       "caption": "Jonas Ahlman",
-      "missing": false
+      "missing": false,
+      "sectorId": "bilder"
     }
   ],
   "access": {

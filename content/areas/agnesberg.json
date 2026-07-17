@@ -50,6 +50,7 @@
       "type": "is",
       "firstAscent": "",
       "description": "Fin jämn och lång klättring rakt under kraftledningarna. Ofta ganska tunn.",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:agnesberg",
         "path": "mediawiki/Agnesberg.txt"
@@ -60,22 +61,26 @@
     {
       "filename": "VackraAgnesberg.jpg",
       "caption": "Högsta fallet:",
-      "missing": false
+      "missing": false,
+      "sectorId": "vackra-bilder"
     },
     {
       "filename": "Vackersomendag.jpg",
       "caption": "Högsta fallet:",
-      "missing": false
+      "missing": false,
+      "sectorId": "vackra-bilder"
     },
     {
       "filename": "Agnesbergvacker.jpg",
       "caption": "Här lägger du topprepet för det högsta fallet.",
-      "missing": false
+      "missing": false,
+      "sectorId": "vackra-bilder"
     },
     {
       "filename": "VackerAgnesberg.jpg",
       "caption": "Kortare fallen.",
-      "missing": false
+      "missing": false,
+      "sectorId": "vackra-bilder"
     }
   ],
   "access": {

@@ -26,6 +26,11 @@
       "body": "Ett härligt område med mycket klättring, men också en vacker badsjö med dykklippor och stränder, fina campingmöjligheter och smidig anmarsch. Lämpar sig även utmärkt för den som reser med kompisar eller familj som inte klättrar, eftersom det finns så mycket annat att göra. Många av klipporna är barnvänliga."
     },
     {
+      "id": "karta",
+      "title": "Karta",
+      "body": ""
+    },
+    {
       "id": "access",
       "title": "Access",
       "body": "Ett pågående naturreservatsprojekt kan få konsekvenser för klättringen. Visa hänsyn när ni är där!"
@@ -86,6 +91,11 @@
       "body": "\"Lilla berget\" är den första lodräta klippväggen om man följer stigen efter sjön. Mycket topprep fina dagar. Många vandrare som stannar och tittar."
     },
     {
+      "id": "lilla-berget",
+      "title": "== Lilla berget ==",
+      "body": ""
+    },
+    {
       "id": "divavaggen",
       "title": "== Divaväggen ==",
       "body": "Divaväggen är lilla bergets fortsättning till vänster."
@@ -131,6 +141,61 @@
       "body": "Här ligger några leder i 4/5-registret. Graniten är inte snäll mot fingrarna."
     },
     {
+      "id": "sjoklippan",
+      "title": "Sjöklippan",
+      "body": ""
+    },
+    {
+      "id": "ostvaggen",
+      "title": "Ostväggen",
+      "body": ""
+    },
+    {
+      "id": "musvaggen",
+      "title": "Musväggen",
+      "body": ""
+    },
+    {
+      "id": "joshuavaggen",
+      "title": "Joshuaväggen",
+      "body": ""
+    },
+    {
+      "id": "traskvaggen",
+      "title": "Traskväggen",
+      "body": ""
+    },
+    {
+      "id": "nordvaggen",
+      "title": "Nordväggen",
+      "body": ""
+    },
+    {
+      "id": "bouldervaggen",
+      "title": "Boulderväggen",
+      "body": ""
+    },
+    {
+      "id": "triangelvaggen",
+      "title": "Triangelväggen",
+      "body": ""
+    },
+    {
+      "id": "bermudavaggen",
+      "title": "Bermudaväggen",
+      "body": ""
+    },
+    {
+      "id": "tvarvaggen",
+      "title": "Tvarväggen",
+      "body": ""
+    },
+    {
+      "id": "ovre-isvaggen",
+      "title": "Ovre isväggen",
+      "body": ""
+    },
+    {
       "id": "undre-isvaggen",
       "title": "Undre isväggen",
       "body": "Kategori:Norrköping category:Barnvänligt Kategori:sport Kategori:trad Kategori:Vertikalt Kategori:Sva Kategori:DWS Kategori:Is Kategori:Östergötland Kategori:Barnvänligt"
@@ -147,6 +212,7 @@
       "type": "sport",
       "firstAscent": "M Lund -92",
       "description": "Ankare med två borrbultar. Träd att fira från.",
+      "sectorId": "drakvaggen",
       "source": {
         "id": "legacy:agelsjon",
         "path": "mediawiki/Ågelsjön.txt"
@@ -162,6 +228,7 @@
       "type": "sport",
       "firstAscent": "U Åkesson -92",
       "description": "Första bulten känns långt borta. I synnerhet som det finns en elak sten att falla på.",
+      "sectorId": "drakvaggen",
       "source": {
         "id": "legacy:agelsjon",
         "path": "mediawiki/Ågelsjön.txt"
@@ -177,6 +244,7 @@
       "type": "sport",
       "firstAscent": "F Axelsson -92",
       "description": "Fin lagom känslig svaklättring med klipp från bra positioner.",
+      "sectorId": "drakvaggen",
       "source": {
         "id": "legacy:agelsjon",
         "path": "mediawiki/Ågelsjön.txt"
@@ -192,6 +260,7 @@
       "type": "",
       "firstAscent": "",
       "description": "",
+      "sectorId": "a-lagsvaggen",
       "source": {
         "id": "legacy:agelsjon",
         "path": "mediawiki/Ågelsjön.txt"
@@ -207,6 +276,7 @@
       "type": "mix",
       "firstAscent": "P Welin -91",
       "description": "Finns kedja för toppsäkring.",
+      "sectorId": "a-lagsvaggen",
       "source": {
         "id": "legacy:agelsjon",
         "path": "mediawiki/Ågelsjön.txt"
@@ -222,6 +292,7 @@
       "type": "mix",
       "firstAscent": "Fredrik Schlyter",
       "description": "",
+      "sectorId": "a-lagsvaggen",
       "source": {
         "id": "legacy:agelsjon",
         "path": "mediawiki/Ågelsjön.txt"
@@ -237,6 +308,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "Respektingivande linje som dock är rolig och välsäkrad.",
+      "sectorId": "a-lagsvaggen",
       "source": {
         "id": "legacy:agelsjon",
         "path": "mediawiki/Ågelsjön.txt"
@@ -252,6 +324,7 @@
       "type": "mix",
       "firstAscent": "Fredrik Schlyter",
       "description": "",
+      "sectorId": "a-lagsvaggen",
       "source": {
         "id": "legacy:agelsjon",
         "path": "mediawiki/Ågelsjön.txt"
@@ -267,6 +340,7 @@
       "type": "",
       "firstAscent": "",
       "description": "",
+      "sectorId": "a-lagsvaggen",
       "source": {
         "id": "legacy:agelsjon",
         "path": "mediawiki/Ågelsjön.txt"
@@ -282,6 +356,7 @@
       "type": "",
       "firstAscent": "",
       "description": "",
+      "sectorId": "a-lagsvaggen",
       "source": {
         "id": "legacy:agelsjon",
         "path": "mediawiki/Ågelsjön.txt"
@@ -297,6 +372,7 @@
       "type": "",
       "firstAscent": "",
       "description": "",
+      "sectorId": "a-lagsvaggen",
       "source": {
         "id": "legacy:agelsjon",
         "path": "mediawiki/Ågelsjön.txt"
@@ -312,6 +388,7 @@
       "type": "",
       "firstAscent": "",
       "description": "",
+      "sectorId": "a-lagsvaggen",
       "source": {
         "id": "legacy:agelsjon",
         "path": "mediawiki/Ågelsjön.txt"
@@ -327,6 +404,7 @@
       "type": "trad",
       "firstAscent": "Fredrik Schlyter",
       "description": "",
+      "sectorId": "a-lagsvaggen",
       "source": {
         "id": "legacy:agelsjon",
         "path": "mediawiki/Ågelsjön.txt"
@@ -342,6 +420,7 @@
       "type": "",
       "firstAscent": "",
       "description": "",
+      "sectorId": "a-lagsvaggen",
       "source": {
         "id": "legacy:agelsjon",
         "path": "mediawiki/Ågelsjön.txt"
@@ -357,6 +436,7 @@
       "type": "",
       "firstAscent": "",
       "description": "",
+      "sectorId": "a-lagsvaggen",
       "source": {
         "id": "legacy:agelsjon",
         "path": "mediawiki/Ågelsjön.txt"
@@ -372,6 +452,7 @@
       "type": "trad",
       "firstAscent": "Fredrik Schlyter",
       "description": "Det bor en aggresiv halvmeter lång huggorm i den fina sprickan (våren 2008).",
+      "sectorId": "b-lagsvaggen",
       "source": {
         "id": "legacy:agelsjon",
         "path": "mediawiki/Ågelsjön.txt"
@@ -387,6 +468,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "Fräck linje med en del layback och jam. Inte helt lättsäkrad men det går.",
+      "sectorId": "b-lagsvaggen",
       "source": {
         "id": "legacy:agelsjon",
         "path": "mediawiki/Ågelsjön.txt"
@@ -402,6 +484,7 @@
       "type": "sport",
       "firstAscent": "P Welin -91",
       "description": "Tung och teknisk. Har numer ankare.",
+      "sectorId": "surfvaggen",
       "source": {
         "id": "legacy:agelsjon",
         "path": "mediawiki/Ågelsjön.txt"
@@ -417,6 +500,7 @@
       "type": "sport",
       "firstAscent": "O Johansson -91",
       "description": "Följ den tydliga diagonalen. Mantla upp på hyllan där du får ett avbrott i en annars fin led. Ytterligare två bultar och ankare.",
+      "sectorId": "surfvaggen",
       "source": {
         "id": "legacy:agelsjon",
         "path": "mediawiki/Ågelsjön.txt"
@@ -432,6 +516,7 @@
       "type": "mix",
       "firstAscent": "M Lund/ S Ward",
       "description": "",
+      "sectorId": "surfvaggen",
       "source": {
         "id": "legacy:agelsjon",
         "path": "mediawiki/Ågelsjön.txt"
@@ -447,6 +532,7 @@
       "type": "mix",
       "firstAscent": "Sanna Akerlund/ Milka Nilsson-92",
       "description": "",
+      "sectorId": "surfvaggen",
       "source": {
         "id": "legacy:agelsjon",
         "path": "mediawiki/Ågelsjön.txt"
@@ -462,6 +548,7 @@
       "type": "trad",
       "firstAscent": "J Martensson",
       "description": "",
+      "sectorId": "surfvaggen",
       "source": {
         "id": "legacy:agelsjon",
         "path": "mediawiki/Ågelsjön.txt"
@@ -477,6 +564,7 @@
       "type": "trad",
       "firstAscent": "A Rydén",
       "description": "",
+      "sectorId": "surfvaggen",
       "source": {
         "id": "legacy:agelsjon",
         "path": "mediawiki/Ågelsjön.txt"
@@ -492,6 +580,7 @@
       "type": "mix",
       "firstAscent": "O Johansson-91",
       "description": "",
+      "sectorId": "surfvaggen",
       "source": {
         "id": "legacy:agelsjon",
         "path": "mediawiki/Ågelsjön.txt"
@@ -507,6 +596,7 @@
       "type": "",
       "firstAscent": "M Lund/S Ward-92",
       "description": "",
+      "sectorId": "surfvaggen",
       "source": {
         "id": "legacy:agelsjon",
         "path": "mediawiki/Ågelsjön.txt"
@@ -522,6 +612,7 @@
       "type": "mix",
       "firstAscent": "S Ward-93",
       "description": "",
+      "sectorId": "surfvaggen",
       "source": {
         "id": "legacy:agelsjon",
         "path": "mediawiki/Ågelsjön.txt"
@@ -537,6 +628,7 @@
       "type": "mix",
       "firstAscent": "P Welin-91",
       "description": "",
+      "sectorId": "surfvaggen",
       "source": {
         "id": "legacy:agelsjon",
         "path": "mediawiki/Ågelsjön.txt"
@@ -552,6 +644,7 @@
       "type": "mix",
       "firstAscent": "Fredrik Schlyter-91",
       "description": "",
+      "sectorId": "ravinvaggen",
       "source": {
         "id": "legacy:agelsjon",
         "path": "mediawiki/Ågelsjön.txt"
@@ -567,6 +660,7 @@
       "type": "mix",
       "firstAscent": "P Welin -90",
       "description": "",
+      "sectorId": "ravinvaggen",
       "source": {
         "id": "legacy:agelsjon",
         "path": "mediawiki/Ågelsjön.txt"
@@ -582,6 +676,7 @@
       "type": "mix",
       "firstAscent": "Fredrik Schlyter-91",
       "description": "",
+      "sectorId": "ravinvaggen",
       "source": {
         "id": "legacy:agelsjon",
         "path": "mediawiki/Ågelsjön.txt"
@@ -597,6 +692,7 @@
       "type": "sport",
       "firstAscent": "C Johnsson -92",
       "description": "Väggklättring på bra grepp (men bara om man tar dom rätt.) Ankare.",
+      "sectorId": "ravinvaggen",
       "source": {
         "id": "legacy:agelsjon",
         "path": "mediawiki/Ågelsjön.txt"
@@ -612,6 +708,7 @@
       "type": "mix",
       "firstAscent": "Fredrik Schlyter -92",
       "description": "",
+      "sectorId": "ravinvaggen",
       "source": {
         "id": "legacy:agelsjon",
         "path": "mediawiki/Ågelsjön.txt"
@@ -627,6 +724,7 @@
       "type": "sport",
       "firstAscent": "Fredrik Schlyter -92",
       "description": "",
+      "sectorId": "ravinvaggen",
       "source": {
         "id": "legacy:agelsjon",
         "path": "mediawiki/Ågelsjön.txt"
@@ -642,6 +740,7 @@
       "type": "",
       "firstAscent": "M Carstens-92",
       "description": "",
+      "sectorId": "ravinvaggen",
       "source": {
         "id": "legacy:agelsjon",
         "path": "mediawiki/Ågelsjön.txt"
@@ -657,6 +756,7 @@
       "type": "",
       "firstAscent": "K Johansson-93",
       "description": "",
+      "sectorId": "ravinvaggen",
       "source": {
         "id": "legacy:agelsjon",
         "path": "mediawiki/Ågelsjön.txt"
@@ -672,6 +772,7 @@
       "type": "",
       "firstAscent": "J Rasmussen-93",
       "description": "",
+      "sectorId": "ravinvaggen",
       "source": {
         "id": "legacy:agelsjon",
         "path": "mediawiki/Ågelsjön.txt"
@@ -687,6 +788,7 @@
       "type": "",
       "firstAscent": "P Karlsson-93",
       "description": "",
+      "sectorId": "ravinvaggen",
       "source": {
         "id": "legacy:agelsjon",
         "path": "mediawiki/Ågelsjön.txt"
@@ -702,6 +804,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "Finare klättring än namnet antyder. Välsäkrad och perfekt som introduktion till att leda på kil.",
+      "sectorId": "lilla-berget",
       "source": {
         "id": "legacy:agelsjon",
         "path": "mediawiki/Ågelsjön.txt"
@@ -717,6 +820,7 @@
       "type": "sport",
       "firstAscent": "",
       "description": "Ett förnedrande instegskrux, sedan fin väggklättring upp till urtoppningen som är det verkliga kruxet.",
+      "sectorId": "lilla-berget",
       "source": {
         "id": "legacy:agelsjon",
         "path": "mediawiki/Ågelsjön.txt"
@@ -732,6 +836,7 @@
       "type": "trad",
       "firstAscent": "M Sribhadung -88",
       "description": "Inte ser denna tydliga spricka ut som en sexa sedd nedifrån, men väl på väggen inser du att den håller sin grad...",
+      "sectorId": "lilla-berget",
       "source": {
         "id": "legacy:agelsjon",
         "path": "mediawiki/Ågelsjön.txt"
@@ -747,6 +852,7 @@
       "type": "mix",
       "firstAscent": "P Welin -88",
       "description": "",
+      "sectorId": "lilla-berget",
       "source": {
         "id": "legacy:agelsjon",
         "path": "mediawiki/Ågelsjön.txt"
@@ -762,6 +868,7 @@
       "type": "sport",
       "firstAscent": "Fredrik Schlyter",
       "description": "",
+      "sectorId": "divavaggen",
       "source": {
         "id": "legacy:agelsjon",
         "path": "mediawiki/Ågelsjön.txt"
@@ -777,6 +884,7 @@
       "type": "trad",
       "firstAscent": "B Bagmark",
       "description": "",
+      "sectorId": "divavaggen",
       "source": {
         "id": "legacy:agelsjon",
         "path": "mediawiki/Ågelsjön.txt"
@@ -792,6 +900,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "",
+      "sectorId": "divavaggen",
       "source": {
         "id": "legacy:agelsjon",
         "path": "mediawiki/Ågelsjön.txt"
@@ -807,6 +916,7 @@
       "type": "sport",
       "firstAscent": "",
       "description": "",
+      "sectorId": "divavaggen",
       "source": {
         "id": "legacy:agelsjon",
         "path": "mediawiki/Ågelsjön.txt"
@@ -822,6 +932,7 @@
       "type": "sport",
       "firstAscent": "P Karlsson -91",
       "description": "",
+      "sectorId": "roda-oktobervaggen",
       "source": {
         "id": "legacy:agelsjon",
         "path": "mediawiki/Ågelsjön.txt"
@@ -837,6 +948,7 @@
       "type": "trad",
       "firstAscent": "M Carstens-92",
       "description": "",
+      "sectorId": "borrbultspartiet",
       "source": {
         "id": "legacy:agelsjon",
         "path": "mediawiki/Ågelsjön.txt"
@@ -852,6 +964,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "",
+      "sectorId": "borrbultspartiet",
       "source": {
         "id": "legacy:agelsjon",
         "path": "mediawiki/Ågelsjön.txt"
@@ -867,6 +980,7 @@
       "type": "",
       "firstAscent": "Fredrik Schlyter-91",
       "description": "",
+      "sectorId": "borrbultspartiet",
       "source": {
         "id": "legacy:agelsjon",
         "path": "mediawiki/Ågelsjön.txt"
@@ -882,6 +996,7 @@
       "type": "mix",
       "firstAscent": "O Kylstam-91",
       "description": "",
+      "sectorId": "borrbultspartiet",
       "source": {
         "id": "legacy:agelsjon",
         "path": "mediawiki/Ågelsjön.txt"
@@ -897,6 +1012,7 @@
       "type": "",
       "firstAscent": "Fredrik Schlyter-92",
       "description": "",
+      "sectorId": "borrbultspartiet",
       "source": {
         "id": "legacy:agelsjon",
         "path": "mediawiki/Ågelsjön.txt"
@@ -912,6 +1028,7 @@
       "type": "",
       "firstAscent": "P Welin-87",
       "description": "",
+      "sectorId": "borrbultspartiet",
       "source": {
         "id": "legacy:agelsjon",
         "path": "mediawiki/Ågelsjön.txt"
@@ -927,6 +1044,7 @@
       "type": "trad",
       "firstAscent": "O Kylstam-90",
       "description": "",
+      "sectorId": "borrbultspartiet",
       "source": {
         "id": "legacy:agelsjon",
         "path": "mediawiki/Ågelsjön.txt"
@@ -942,6 +1060,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "",
+      "sectorId": "borrbultspartiet",
       "source": {
         "id": "legacy:agelsjon",
         "path": "mediawiki/Ågelsjön.txt"
@@ -957,6 +1076,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "",
+      "sectorId": "borrbultspartiet",
       "source": {
         "id": "legacy:agelsjon",
         "path": "mediawiki/Ågelsjön.txt"
@@ -972,6 +1092,7 @@
       "type": "",
       "firstAscent": "",
       "description": "",
+      "sectorId": "stora-vaggen",
       "source": {
         "id": "legacy:agelsjon",
         "path": "mediawiki/Ågelsjön.txt"
@@ -987,6 +1108,7 @@
       "type": "",
       "firstAscent": "",
       "description": "",
+      "sectorId": "stora-vaggen",
       "source": {
         "id": "legacy:agelsjon",
         "path": "mediawiki/Ågelsjön.txt"
@@ -1002,6 +1124,7 @@
       "type": "",
       "firstAscent": "",
       "description": "",
+      "sectorId": "stora-vaggen",
       "source": {
         "id": "legacy:agelsjon",
         "path": "mediawiki/Ågelsjön.txt"
@@ -1017,6 +1140,7 @@
       "type": "",
       "firstAscent": "",
       "description": "",
+      "sectorId": "stora-vaggen",
       "source": {
         "id": "legacy:agelsjon",
         "path": "mediawiki/Ågelsjön.txt"
@@ -1032,6 +1156,7 @@
       "type": "",
       "firstAscent": "",
       "description": "",
+      "sectorId": "stora-vaggen",
       "source": {
         "id": "legacy:agelsjon",
         "path": "mediawiki/Ågelsjön.txt"
@@ -1047,6 +1172,7 @@
       "type": "",
       "firstAscent": "",
       "description": "",
+      "sectorId": "stora-vaggen",
       "source": {
         "id": "legacy:agelsjon",
         "path": "mediawiki/Ågelsjön.txt"
@@ -1062,6 +1188,7 @@
       "type": "mix",
       "firstAscent": "Patrik Leje",
       "description": "Bjuder på lite motstånd redan innan taket. Taket är säkrat med en bult. Resten av leden ovanför taket kan vara lite skitig.",
+      "sectorId": "stora-vaggen",
       "source": {
         "id": "legacy:agelsjon",
         "path": "mediawiki/Ågelsjön.txt"
@@ -1077,6 +1204,7 @@
       "type": "",
       "firstAscent": "",
       "description": "",
+      "sectorId": "stora-vaggen",
       "source": {
         "id": "legacy:agelsjon",
         "path": "mediawiki/Ågelsjön.txt"
@@ -1092,6 +1220,7 @@
       "type": "mix",
       "firstAscent": "",
       "description": "Borrbultad start leder upp till fin spricka, som dock kan klättras runt om man ogillar jam. Passera ett flak för att komma till ett ankare med två bultar och kätting. Rekommenderas varmt.",
+      "sectorId": "stora-vaggen",
       "source": {
         "id": "legacy:agelsjon",
         "path": "mediawiki/Ågelsjön.txt"
@@ -1107,6 +1236,7 @@
       "type": "mix",
       "firstAscent": "",
       "description": "Fortsätt rakt upp från standplatsen på Lynnard Skynnard, via 1st borrbult, sen Trad-spricka (något svårsäkrad bitvis) till borrbultat toppankare, görs givetvis i ett svep från marken, ca 40meter!",
+      "sectorId": "stora-vaggen",
       "source": {
         "id": "legacy:agelsjon",
         "path": "mediawiki/Ågelsjön.txt"
@@ -1122,6 +1252,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "Utsteg från Lynnard via den stora diederformationen.",
+      "sectorId": "stora-vaggen",
       "source": {
         "id": "legacy:agelsjon",
         "path": "mediawiki/Ågelsjön.txt"
@@ -1137,6 +1268,7 @@
       "type": "trad",
       "firstAscent": "F Schlyter",
       "description": "Delar insteg med Lynnard Skynnard, fortsätter sedan upp i spricka till höger och upp till ankaret på Lavskägge. Fin sprickklättring men verkar sällan besökt - mossig (Aug 2007)!",
+      "sectorId": "stora-vaggen",
       "source": {
         "id": "legacy:agelsjon",
         "path": "mediawiki/Ågelsjön.txt"
@@ -1152,6 +1284,7 @@
       "type": "sport",
       "firstAscent": "P Welin",
       "description": "Borrbultad väggklättring. Tung start och avslutning. Ankare med två bultar och kedja.",
+      "sectorId": "stora-vaggen",
       "source": {
         "id": "legacy:agelsjon",
         "path": "mediawiki/Ågelsjön.txt"
@@ -1167,6 +1300,7 @@
       "type": "",
       "firstAscent": "",
       "description": "Fortsätt rakt upp från Lavskägges ankare.",
+      "sectorId": "stora-vaggen",
       "source": {
         "id": "legacy:agelsjon",
         "path": "mediawiki/Ågelsjön.txt"
@@ -1182,6 +1316,7 @@
       "type": "trad",
       "firstAscent": "M Ryden",
       "description": "Jämn och mycket fin klättring ända till toppen. Omväxlande och mer teknisk än tung. Balansig i början. Välsäkrad. Våren 2012 föll en sten bort i början som antagligen kommer göra leden lite svårare, typ grad 6",
+      "sectorId": "stora-vaggen",
       "source": {
         "id": "legacy:agelsjon",
         "path": "mediawiki/Ågelsjön.txt"
@@ -1197,6 +1332,7 @@
       "type": "sport",
       "firstAscent": "O Welin",
       "description": "Bultlinjen till höger om Mörkret faller. Ankare.",
+      "sectorId": "stora-vaggen",
       "source": {
         "id": "legacy:agelsjon",
         "path": "mediawiki/Ågelsjön.txt"
@@ -1212,6 +1348,7 @@
       "type": "mix",
       "firstAscent": "P Welin",
       "description": "Sprickklättring till höger om Prostetnic. Sprickan har några inslagna pitonger, i övrigt kilsäkrad. Samma ankare som Prostetnic.",
+      "sectorId": "stora-vaggen",
       "source": {
         "id": "legacy:agelsjon",
         "path": "mediawiki/Ågelsjön.txt"
@@ -1227,6 +1364,7 @@
       "type": "trad",
       "firstAscent": "O Kylstam",
       "description": "",
+      "sectorId": "stora-vaggen",
       "source": {
         "id": "legacy:agelsjon",
         "path": "mediawiki/Ågelsjön.txt"
@@ -1242,6 +1380,7 @@
       "type": "",
       "firstAscent": "",
       "description": "",
+      "sectorId": "stora-vaggen",
       "source": {
         "id": "legacy:agelsjon",
         "path": "mediawiki/Ågelsjön.txt"
@@ -1257,6 +1396,7 @@
       "type": "mix Knepigt insteg resten typ 5/5+ klättring",
       "firstAscent": "Patrik Leje",
       "description": "",
+      "sectorId": "stora-vaggen",
       "source": {
         "id": "legacy:agelsjon",
         "path": "mediawiki/Ågelsjön.txt"
@@ -1272,6 +1412,7 @@
       "type": "mix",
       "firstAscent": "P Welin",
       "description": "",
+      "sectorId": "stora-vaggen",
       "source": {
         "id": "legacy:agelsjon",
         "path": "mediawiki/Ågelsjön.txt"
@@ -1287,6 +1428,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "",
+      "sectorId": "svaplattan",
       "source": {
         "id": "legacy:agelsjon",
         "path": "mediawiki/Ågelsjön.txt"
@@ -1302,6 +1444,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "Mer ihållande än rotsprickan.",
+      "sectorId": "svaplattan",
       "source": {
         "id": "legacy:agelsjon",
         "path": "mediawiki/Ågelsjön.txt"
@@ -1317,6 +1460,7 @@
       "type": "sport",
       "firstAscent": "",
       "description": "",
+      "sectorId": "svaplattan",
       "source": {
         "id": "legacy:agelsjon",
         "path": "mediawiki/Ågelsjön.txt"
@@ -1332,6 +1476,7 @@
       "type": "sport",
       "firstAscent": "",
       "description": "",
+      "sectorId": "svaplattan",
       "source": {
         "id": "legacy:agelsjon",
         "path": "mediawiki/Ågelsjön.txt"
@@ -1347,6 +1492,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "Ett alternativ till för den som vill upp till svaplattan. Några kruxiga etapper med avsatser mellan. Rejält mossig (2007)",
+      "sectorId": "gammbultspartiet",
       "source": {
         "id": "legacy:agelsjon",
         "path": "mediawiki/Ågelsjön.txt"
@@ -1362,6 +1508,7 @@
       "type": "mix",
       "firstAscent": "",
       "description": "Kilsäkrad fyraklättring upp till svaplattan, sedan bultad 6b+",
+      "sectorId": "gammbultspartiet",
       "source": {
         "id": "legacy:agelsjon",
         "path": "mediawiki/Ågelsjön.txt"
@@ -1377,6 +1524,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "Simma till insteget och sola upp?",
+      "sectorId": "sjoklippan",
       "source": {
         "id": "legacy:agelsjon",
         "path": "mediawiki/Ågelsjön.txt"
@@ -1387,27 +1535,32 @@
     {
       "filename": "Ågelsjön.jpg",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "leder"
     },
     {
       "filename": "Väggdrake.jpg",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "drakvaggen"
     },
     {
       "filename": "Ågelsjön_ravinväggen.jpg",
       "caption": "Ravinväggen",
-      "missing": false
+      "missing": false,
+      "sectorId": "ravinvaggen"
     },
     {
       "filename": "Ågelsjön_lilla.jpg",
       "caption": "Lilla berget",
-      "missing": false
+      "missing": false,
+      "sectorId": "lilla-berget-och-dar-omkring"
     },
     {
       "filename": "32192_397548624155_746994155_4408368_675168_n.jpg",
       "caption": "Lilla berget",
-      "missing": false
+      "missing": false,
+      "sectorId": "lilla-berget-och-dar-omkring"
     }
   ],
   "access": {

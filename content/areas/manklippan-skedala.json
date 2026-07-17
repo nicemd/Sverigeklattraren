@@ -31,6 +31,11 @@
       "body": "Karta här. Tryck på kartknappen ovan. Från Solväggen är det inte svårt att hitta, stå med Solväggen i ryggen och gå ca 200m rakt fram genom granskogen tills du når en ravin. Gå ned i ravinen och här ifrån ser du väggen på din högra sida."
     },
     {
+      "id": "leder",
+      "title": "Leder",
+      "body": ""
+    },
+    {
       "id": "kontakt",
       "title": "Kontakt",
       "body": "För mer info och bilder kolla Eskapader Kategori:trad Kategori:vertikalt kategori:Saknar vägbeskrivning kategori:Saknar koordinater kategori:Saknar skrivarformatering Category:Halland"
@@ -47,6 +52,7 @@
       "type": "trad",
       "firstAscent": "M Gullvert -02",
       "description": "Trevlig och välsäkrad klättring men kort.",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:manklippan-skedala",
         "path": "mediawiki/Månklippan (Skedala).txt"
@@ -62,6 +68,7 @@
       "type": "trad",
       "firstAscent": "M Gullvert -02",
       "description": "Starta i det lilla taket, sedan rakt upp.",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:manklippan-skedala",
         "path": "mediawiki/Månklippan (Skedala).txt"
@@ -77,6 +84,7 @@
       "type": "trad",
       "firstAscent": "M Gullvert -02",
       "description": "Lite svår att toppa ur annars fin led.",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:manklippan-skedala",
         "path": "mediawiki/Månklippan (Skedala).txt"
@@ -92,6 +100,7 @@
       "type": "trad",
       "firstAscent": "M Gullvert -02",
       "description": "Har man inget bättre för såg så varför inte.",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:manklippan-skedala",
         "path": "mediawiki/Månklippan (Skedala).txt"
@@ -107,6 +116,7 @@
       "type": "trad",
       "firstAscent": "M Gullvert -02",
       "description": "Börja traverserna vid överhänget och följ sprickbildningen hela vägen till höger.",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:manklippan-skedala",
         "path": "mediawiki/Månklippan (Skedala).txt"
@@ -122,6 +132,7 @@
       "type": "trad",
       "firstAscent": "M Gullvert -02",
       "description": "Upp i den lilla diederen sedan utsteg till vänster vid den markerade listen sedan rakt upp, ej välsäkrad.",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:manklippan-skedala",
         "path": "mediawiki/Månklippan (Skedala).txt"
@@ -137,6 +148,7 @@
       "type": "trad",
       "firstAscent": "M Gullvert -02",
       "description": "Samma insteg som Buxus sedan rakt upp, dåligt med säkrings möjligheter och svår att toppa ut.",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:manklippan-skedala",
         "path": "mediawiki/Månklippan (Skedala).txt"
@@ -152,6 +164,7 @@
       "type": "trad",
       "firstAscent": "M Gullvert -02",
       "description": "En riktigt utmanade spricklinje, välsäkrad.",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:manklippan-skedala",
         "path": "mediawiki/Månklippan (Skedala).txt"
@@ -167,6 +180,7 @@
       "type": "trad",
       "firstAscent": "M Gullvert -02",
       "description": "Fin linje med crux på Mitten och i toppen",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:manklippan-skedala",
         "path": "mediawiki/Månklippan (Skedala).txt"
@@ -182,6 +196,7 @@
       "type": "trad",
       "firstAscent": "M Gullvert -02",
       "description": "För dom som gillar kraftiga streckar men lite marig att toppa ur",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:manklippan-skedala",
         "path": "mediawiki/Månklippan (Skedala).txt"
@@ -192,12 +207,14 @@
     {
       "filename": "Månklippan.jpg",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "leder"
     },
     {
       "filename": "Månklippan2.jpg",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "leder"
     }
   ],
   "access": {

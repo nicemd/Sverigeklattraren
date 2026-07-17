@@ -47,6 +47,7 @@
       "type": "sport",
       "firstAscent": "Lars Lundquist 1996",
       "description": "Ny sportled i ravinen. Brant på goda grepp. Till vänster om klassikern Sprickan.",
+      "sectorId": "idag-rekommenderade-leder",
       "source": {
         "id": "legacy:rosas",
         "path": "mediawiki/Rösås.txt"
@@ -62,6 +63,7 @@
       "type": "sport",
       "firstAscent": "Fredrik Nyberg 2010",
       "description": "Sportled på höger sida av ravinväggen.",
+      "sectorId": "idag-rekommenderade-leder",
       "source": {
         "id": "legacy:rosas",
         "path": "mediawiki/Rösås.txt"
@@ -77,6 +79,7 @@
       "type": "trad",
       "firstAscent": "Edgar Lundmark, Erland Sandqvist 1968",
       "description": "Rösåsklassikern!",
+      "sectorId": "idag-rekommenderade-leder",
       "source": {
         "id": "legacy:rosas",
         "path": "mediawiki/Rösås.txt"
@@ -92,6 +95,7 @@
       "type": "trad",
       "firstAscent": "L-G Johansson, Jörgen Kragh 1973",
       "description": "Klassisk travers halvvägs upp.",
+      "sectorId": "idag-rekommenderade-leder",
       "source": {
         "id": "legacy:rosas",
         "path": "mediawiki/Rösås.txt"
@@ -107,6 +111,7 @@
       "type": "mix",
       "firstAscent": "Tommy Nilsson, Lena Carleborg 1982",
       "description": "",
+      "sectorId": "idag-rekommenderade-leder",
       "source": {
         "id": "legacy:rosas",
         "path": "mediawiki/Rösås.txt"
@@ -122,6 +127,7 @@
       "type": "mix",
       "firstAscent": "Tommy Nilsson, Hans Lindberg 1981",
       "description": "",
+      "sectorId": "idag-rekommenderade-leder",
       "source": {
         "id": "legacy:rosas",
         "path": "mediawiki/Rösås.txt"
@@ -137,6 +143,7 @@
       "type": "mix",
       "firstAscent": "Per Öhman, Jan Wermelin ?",
       "description": "",
+      "sectorId": "idag-rekommenderade-leder",
       "source": {
         "id": "legacy:rosas",
         "path": "mediawiki/Rösås.txt"
@@ -152,6 +159,7 @@
       "type": "mix",
       "firstAscent": "Tommy Nilsson, Chris Craggs 1978",
       "description": "",
+      "sectorId": "idag-rekommenderade-leder",
       "source": {
         "id": "legacy:rosas",
         "path": "mediawiki/Rösås.txt"
@@ -162,7 +170,8 @@
     {
       "filename": "Rosas_storavaggen.jpg",
       "caption": "Pär Lindholm",
-      "missing": false
+      "missing": false,
+      "sectorId": null
     }
   ],
   "access": {

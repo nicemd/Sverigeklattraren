@@ -41,6 +41,7 @@
       "type": "",
       "firstAscent": "",
       "description": "Börjar med ett 10m vertikalt draperi efter vilket lutningen avtar ju högre man kommer.",
+      "sectorId": "klattringen",
       "source": {
         "id": "legacy:liden",
         "path": "mediawiki/Liden.txt"
@@ -56,6 +57,7 @@
       "type": "",
       "firstAscent": "",
       "description": "Klättras lämpligen genom att sola upp för en sva-is till några mindre träd till vänster på fallet. Sedan följer ~40m ihållande brant klättring 80-90° för att nå snöfältet där stand görs i träd ut till vänster. Andra replängden börjar med 20m brant draperi vilket som sedan avtar till 50-60°.",
+      "sectorId": "klattringen",
       "source": {
         "id": "legacy:liden",
         "path": "mediawiki/Liden.txt"
@@ -71,6 +73,7 @@
       "type": "",
       "firstAscent": "",
       "description": "Ett stort och brett isfall med väldigt varierad lutning. 60m singelrep räcker för att fira ner.",
+      "sectorId": "klattringen",
       "source": {
         "id": "legacy:liden",
         "path": "mediawiki/Liden.txt"
@@ -86,6 +89,7 @@
       "type": "",
       "firstAscent": "",
       "description": "Består egentligen av fyra mindre isfall. Längst till vänster finns ett istäckt hörn följt av ett överhängande draperi som ibland når botten och bildar en fristående ispelare. Sedan följer en progressivt brantare svais och längst ut till höger (där stigen kommer ut) det högsta fallet.",
+      "sectorId": "klattringen",
       "source": {
         "id": "legacy:liden",
         "path": "mediawiki/Liden.txt"
@@ -96,22 +100,26 @@
     {
       "filename": "Trappstegsfallet.jpg",
       "caption": "Trappstegsfallet, dec 2007. Foto: Jonas Bäckström",
-      "missing": false
+      "missing": false,
+      "sectorId": "vagbeskrivning"
     },
     {
       "filename": "Liden_2.jpg",
       "caption": "Vänstra fallet, Göteborgsisarna, dec 2007. Foto: Jonas Bäckström",
-      "missing": false
+      "missing": false,
+      "sectorId": "vagbeskrivning"
     },
     {
       "filename": "Liden_stora_fallet.jpg",
       "caption": "Stora fallet, jan 2009. Foto: Jonas Bäckström",
-      "missing": false
+      "missing": false,
+      "sectorId": "vagbeskrivning"
     },
     {
       "filename": "Liden_4.jpg",
       "caption": "Mittpelaren, Göteborgsisarna, jan 2008. Foto: Johan Hedman",
-      "missing": false
+      "missing": false,
+      "sectorId": "vagbeskrivning"
     }
   ],
   "access": {

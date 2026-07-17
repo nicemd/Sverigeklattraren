@@ -34,6 +34,16 @@
       "body": "För närvarande är huvudsakligen borrade leder placerade på Sverigeföraren. Från höger till vänster."
     },
     {
+      "id": "ingen-utvag",
+      "title": "Ingen utväg",
+      "body": ""
+    },
+    {
+      "id": "fatigue",
+      "title": "Fatigue",
+      "body": ""
+    },
+    {
       "id": "roda-vaggen",
       "title": "Röda väggen",
       "body": "En 5 metersvägg med någon enstaka bult på. Ett flertal halvhöga, halvsvåra boulders med okänt eller osäkert ursprung."
@@ -55,6 +65,7 @@
       "type": "sport",
       "firstAscent": "Kenneth Marklund",
       "description": "Startar vid ett tak i ett hörn.",
+      "sectorId": "ingen-utvag",
       "source": {
         "id": "legacy:falkberget-skelleftea",
         "path": "mediawiki/Falkberget, Skellefteå.txt"
@@ -70,6 +81,7 @@
       "type": "sport",
       "firstAscent": "Kenneth Marklund",
       "description": "Väggklättring.",
+      "sectorId": "ingen-utvag",
       "source": {
         "id": "legacy:falkberget-skelleftea",
         "path": "mediawiki/Falkberget, Skellefteå.txt"
@@ -85,6 +97,7 @@
       "type": "sport",
       "firstAscent": "Håkan Gustavsson",
       "description": "Gemensamt slut med Eraser.",
+      "sectorId": "ingen-utvag",
       "source": {
         "id": "legacy:falkberget-skelleftea",
         "path": "mediawiki/Falkberget, Skellefteå.txt"
@@ -100,6 +113,7 @@
       "type": "sport",
       "firstAscent": "Kenneth Marklund",
       "description": "",
+      "sectorId": "ingen-utvag",
       "source": {
         "id": "legacy:falkberget-skelleftea",
         "path": "mediawiki/Falkberget, Skellefteå.txt"
@@ -115,6 +129,7 @@
       "type": "sport",
       "firstAscent": "Thomas Eriksson",
       "description": "",
+      "sectorId": "ingen-utvag",
       "source": {
         "id": "legacy:falkberget-skelleftea",
         "path": "mediawiki/Falkberget, Skellefteå.txt"
@@ -130,6 +145,7 @@
       "type": "sport",
       "firstAscent": "Thomas Eriksson",
       "description": "",
+      "sectorId": "ingen-utvag",
       "source": {
         "id": "legacy:falkberget-skelleftea",
         "path": "mediawiki/Falkberget, Skellefteå.txt"
@@ -145,6 +161,7 @@
       "type": "sport",
       "firstAscent": "Håkan Gustavsson",
       "description": "",
+      "sectorId": "fatigue",
       "source": {
         "id": "legacy:falkberget-skelleftea",
         "path": "mediawiki/Falkberget, Skellefteå.txt"
@@ -160,6 +177,7 @@
       "type": "sport",
       "firstAscent": "Håkan Eklund",
       "description": "",
+      "sectorId": "fatigue",
       "source": {
         "id": "legacy:falkberget-skelleftea",
         "path": "mediawiki/Falkberget, Skellefteå.txt"
@@ -175,6 +193,7 @@
       "type": "sport",
       "firstAscent": "Kenneth Marklund",
       "description": "",
+      "sectorId": "fatigue",
       "source": {
         "id": "legacy:falkberget-skelleftea",
         "path": "mediawiki/Falkberget, Skellefteå.txt"
@@ -190,6 +209,7 @@
       "type": "sport",
       "firstAscent": "Kenneth Marklund",
       "description": "",
+      "sectorId": "kaminvaggen",
       "source": {
         "id": "legacy:falkberget-skelleftea",
         "path": "mediawiki/Falkberget, Skellefteå.txt"
@@ -205,6 +225,7 @@
       "type": "sport",
       "firstAscent": "Kenneth Marklund",
       "description": "",
+      "sectorId": "kaminvaggen",
       "source": {
         "id": "legacy:falkberget-skelleftea",
         "path": "mediawiki/Falkberget, Skellefteå.txt"
@@ -220,6 +241,7 @@
       "type": "sport",
       "firstAscent": "Kenneth Marklund",
       "description": "",
+      "sectorId": "kaminvaggen",
       "source": {
         "id": "legacy:falkberget-skelleftea",
         "path": "mediawiki/Falkberget, Skellefteå.txt"
@@ -235,6 +257,7 @@
       "type": "sport",
       "firstAscent": "Kenneth Marklund",
       "description": "",
+      "sectorId": "kaminvaggen",
       "source": {
         "id": "legacy:falkberget-skelleftea",
         "path": "mediawiki/Falkberget, Skellefteå.txt"
@@ -250,6 +273,7 @@
       "type": "trad",
       "firstAscent": "Kjell Carlen, Bo Berglund",
       "description": "Välsäkrad spricka.",
+      "sectorId": "kaminvaggen",
       "source": {
         "id": "legacy:falkberget-skelleftea",
         "path": "mediawiki/Falkberget, Skellefteå.txt"
@@ -265,6 +289,7 @@
       "type": "sport",
       "firstAscent": "Kenneth Marklund",
       "description": "",
+      "sectorId": "kaminvaggen",
       "source": {
         "id": "legacy:falkberget-skelleftea",
         "path": "mediawiki/Falkberget, Skellefteå.txt"
@@ -280,6 +305,7 @@
       "type": "trad",
       "firstAscent": "Johan Engström, Axel Engström",
       "description": "Mossig. Klättra med dragning åt höger upp till en hylla. Sedan rakt upp.",
+      "sectorId": "kaminvaggen",
       "source": {
         "id": "legacy:falkberget-skelleftea",
         "path": "mediawiki/Falkberget, Skellefteå.txt"
@@ -295,6 +321,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "Starta på andra sidan pelaren. Gemensamt slut med Bokhyllan.",
+      "sectorId": "kaminvaggen",
       "source": {
         "id": "legacy:falkberget-skelleftea",
         "path": "mediawiki/Falkberget, Skellefteå.txt"
@@ -310,6 +337,7 @@
       "type": "sport",
       "firstAscent": "Erik Bergquist",
       "description": "",
+      "sectorId": "kaminvaggen",
       "source": {
         "id": "legacy:falkberget-skelleftea",
         "path": "mediawiki/Falkberget, Skellefteå.txt"
@@ -325,6 +353,7 @@
       "type": "sport",
       "firstAscent": "Kenneth Marklund",
       "description": "Kilar?",
+      "sectorId": "kaminvaggen",
       "source": {
         "id": "legacy:falkberget-skelleftea",
         "path": "mediawiki/Falkberget, Skellefteå.txt"
@@ -340,6 +369,7 @@
       "type": "sport",
       "firstAscent": "Håkan Gustavsson",
       "description": "Start på en sten under ett tak.",
+      "sectorId": "kaminvaggen",
       "source": {
         "id": "legacy:falkberget-skelleftea",
         "path": "mediawiki/Falkberget, Skellefteå.txt"
@@ -350,7 +380,8 @@
     {
       "filename": "Falkberget.jpg",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "sektorer"
     }
   ],
   "access": {

@@ -17,6 +17,21 @@
   ],
   "sections": [
     {
+      "id": "introvaggen",
+      "title": "Introväggen",
+      "body": ""
+    },
+    {
+      "id": "fotbollsvaggen",
+      "title": "Fotbollsväggen",
+      "body": ""
+    },
+    {
+      "id": "vittergrottan",
+      "title": "Vittergrottan",
+      "body": ""
+    },
+    {
       "id": "tjockisvaggarna",
       "title": "Tjockisväggarna",
       "body": "Kategori:Umeå Kategori:Bouldering Kategori:Bimbo Kategori:Behöver kvalitetssäkras Kategori:Saknar karta Kategori:Saknar koordinater Kategori:Saknar skrivarformattering Kategori:Saknar skiss"
@@ -33,6 +48,7 @@
       "type": "Slopers,Mantling",
       "firstAscent": "Matt & Pär",
       "description": "Sittstart till vänster/bakom överhänget.",
+      "sectorId": "fotbollsvaggen",
       "source": {
         "id": "legacy:rormyrberget",
         "path": "mediawiki/Rörmyrberget.txt"
@@ -48,6 +64,7 @@
       "type": "Krimp",
       "firstAscent": "Matt & Pär",
       "description": "Går upp vänster sida om överhänget.",
+      "sectorId": "fotbollsvaggen",
       "source": {
         "id": "legacy:rormyrberget",
         "path": "mediawiki/Rörmyrberget.txt"
@@ -63,6 +80,7 @@
       "type": "Krimp,Layback",
       "firstAscent": "Matt Kupilik",
       "description": "Starta i två fina undercling och gå snett upp åt vänster mot aréten (ej till greppet till höger om granen). Luftig.",
+      "sectorId": "fotbollsvaggen",
       "source": {
         "id": "legacy:rormyrberget",
         "path": "mediawiki/Rörmyrberget.txt"
@@ -78,6 +96,7 @@
       "type": "Highball",
       "firstAscent": "Matt, Erik & Pär",
       "description": "Till höger om Vittergrottan, startar till vänster om tallen och går rakt upp.",
+      "sectorId": "vittergrottan",
       "source": {
         "id": "legacy:rormyrberget",
         "path": "mediawiki/Rörmyrberget.txt"
@@ -93,6 +112,7 @@
       "type": "Krimp,Överhäng",
       "firstAscent": "Matt & Pär & Erik",
       "description": "På stenen brevid Vittergrottan. Starta i givet stort startgrepp och gå rakt upp.",
+      "sectorId": "vittergrottan",
       "source": {
         "id": "legacy:rormyrberget",
         "path": "mediawiki/Rörmyrberget.txt"
@@ -108,6 +128,7 @@
       "type": "Slopers",
       "firstAscent": "Matt & Pär & Erik",
       "description": "På stenen brevid Vittergrottan. Sittstart tre meter till vänster om Yes, Sir Captain! Följ aréten upp åt höger. Uteslutning: Håll fötterna på väggen, ej tillåtet att kliva upp på aréten.",
+      "sectorId": "vittergrottan",
       "source": {
         "id": "legacy:rormyrberget",
         "path": "mediawiki/Rörmyrberget.txt"
@@ -123,6 +144,7 @@
       "type": "Krimp,Aréte",
       "firstAscent": "Erik & Pär",
       "description": "Går på den ensamma väggen/stenen mellan Vittergrottan och Tjockisväggarna. Den högra aréten.",
+      "sectorId": "vittergrottan",
       "source": {
         "id": "legacy:rormyrberget",
         "path": "mediawiki/Rörmyrberget.txt"
@@ -138,6 +160,7 @@
       "type": "Krimp",
       "firstAscent": "Erik & Pär",
       "description": "Går på den ensamma väggen/stenen mellan Vittergrottan och Tjockisväggarna. Rakt upp i mitten. Lite hög.",
+      "sectorId": "vittergrottan",
       "source": {
         "id": "legacy:rormyrberget",
         "path": "mediawiki/Rörmyrberget.txt"
@@ -153,6 +176,7 @@
       "type": "Krimp,Aréte",
       "firstAscent": "Pär & Erik",
       "description": "Går på den ensamma väggen/stenen mellan Vittergrottan och Tjockisväggarna. Den vänstra aréten. Ett ganska misslyckat problem, vi får fundera ut hur det ska klättras sen.",
+      "sectorId": "vittergrottan",
       "source": {
         "id": "legacy:rormyrberget",
         "path": "mediawiki/Rörmyrberget.txt"
@@ -168,6 +192,7 @@
       "type": "Aréte,Heel hook",
       "firstAscent": "Rörmyrsligan",
       "description": "Sittstart vid arétet och sedan rakt upp. Fina flytt med härligt häng i hälen.",
+      "sectorId": "vittergrottan",
       "source": {
         "id": "legacy:rormyrberget",
         "path": "mediawiki/Rörmyrberget.txt"
@@ -183,6 +208,7 @@
       "type": "Krimp,Överhäng",
       "firstAscent": "Rörmyrsligan",
       "description": "Starta matchat och följ små grepp upp. Se upp för att toucha med ryggen i stenen bakom.",
+      "sectorId": "vittergrottan",
       "source": {
         "id": "legacy:rormyrberget",
         "path": "mediawiki/Rörmyrberget.txt"
@@ -198,6 +224,7 @@
       "type": "Krimp",
       "firstAscent": "Rörmyrsligan",
       "description": "",
+      "sectorId": "vittergrottan",
       "source": {
         "id": "legacy:rormyrberget",
         "path": "mediawiki/Rörmyrberget.txt"
@@ -213,6 +240,7 @@
       "type": "Krimp",
       "firstAscent": "Rörmyrsligan",
       "description": "Aréten utesluten.",
+      "sectorId": "vittergrottan",
       "source": {
         "id": "legacy:rormyrberget",
         "path": "mediawiki/Rörmyrberget.txt"
@@ -228,6 +256,7 @@
       "type": "Krimp",
       "firstAscent": "Erik & Pär",
       "description": "Till vänster på den stora väggen. Lagom höjd.",
+      "sectorId": "tjockisvaggarna",
       "source": {
         "id": "legacy:rormyrberget",
         "path": "mediawiki/Rörmyrberget.txt"
@@ -243,6 +272,7 @@
       "type": "Jug",
       "firstAscent": "Erik & Pär",
       "description": "Liten vägg till höger om den stora väggen. Sandigt litet problem.",
+      "sectorId": "tjockisvaggarna",
       "source": {
         "id": "legacy:rormyrberget",
         "path": "mediawiki/Rörmyrberget.txt"
@@ -258,6 +288,7 @@
       "type": "Krimp",
       "firstAscent": "Pär",
       "description": "Startar i skrevan till höger om stora väggen. Givna startgrepp, följ väggen till högsta punkten.",
+      "sectorId": "tjockisvaggarna",
       "source": {
         "id": "legacy:rormyrberget",
         "path": "mediawiki/Rörmyrberget.txt"

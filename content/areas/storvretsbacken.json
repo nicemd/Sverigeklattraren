@@ -58,6 +58,7 @@
       "type": "sport",
       "firstAscent": "Per Willén -03",
       "description": "Går upp längs ”hyllorna” i klippans vänsterkant. En av dem är ganska intressant att mantla upp på.",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:storvretsbacken",
         "path": "mediawiki/Storvretsbacken.txt"
@@ -73,6 +74,7 @@
       "type": "sport",
       "firstAscent": "Lars Svensson -03",
       "description": "Går upp till samma ankare som men på ett något mer ansträngande sätt.",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:storvretsbacken",
         "path": "mediawiki/Storvretsbacken.txt"
@@ -88,6 +90,7 @@
       "type": "sport",
       "firstAscent": "PW -00",
       "description": "Graden gäller insteg rakt upp. Man kan göra leden lättare genom att börja med rampen (5b).",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:storvretsbacken",
         "path": "mediawiki/Storvretsbacken.txt"
@@ -103,6 +106,7 @@
       "type": "sport",
       "firstAscent": "Andreas Bengtsson -00",
       "description": "",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:storvretsbacken",
         "path": "mediawiki/Storvretsbacken.txt"
@@ -118,6 +122,7 @@
       "type": "sport",
       "firstAscent": "Magnus Linderholm -00",
       "description": "",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:storvretsbacken",
         "path": "mediawiki/Storvretsbacken.txt"
@@ -133,6 +138,7 @@
       "type": "sport",
       "firstAscent": "Thomas Eriksson -03",
       "description": "",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:storvretsbacken",
         "path": "mediawiki/Storvretsbacken.txt"
@@ -148,6 +154,7 @@
       "type": "sport",
       "firstAscent": "PW -03",
       "description": "",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:storvretsbacken",
         "path": "mediawiki/Storvretsbacken.txt"
@@ -163,6 +170,7 @@
       "type": "sport",
       "firstAscent": "TE -03",
       "description": "Fin klättring som tyvärr ofta är blöt i nedre delen.",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:storvretsbacken",
         "path": "mediawiki/Storvretsbacken.txt"
@@ -178,6 +186,7 @@
       "type": "Topprep",
       "firstAscent": "",
       "description": "",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:storvretsbacken",
         "path": "mediawiki/Storvretsbacken.txt"
@@ -193,6 +202,7 @@
       "type": "sport",
       "firstAscent": "Petra Carlénarsson -03",
       "description": "Klippans svaled. Graderingen gäller om man gör en liten kringgående manöver åt vänster på mitten, annars blir leden betydligt svårare.",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:storvretsbacken",
         "path": "mediawiki/Storvretsbacken.txt"
@@ -203,12 +213,14 @@
     {
       "filename": "Storvretsbacken_skiss.gif",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "leder"
     },
     {
       "filename": "Pano_DSC08039.jpg",
-      "caption": "740px",
-      "missing": false
+      "caption": "",
+      "missing": false,
+      "sectorId": "panorama"
     }
   ],
   "access": {

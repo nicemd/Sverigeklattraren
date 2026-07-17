@@ -26,6 +26,16 @@
       "body": "Båt."
     },
     {
+      "id": "leder",
+      "title": "Leder",
+      "body": ""
+    },
+    {
+      "id": "norra-klippan",
+      "title": "Norra klippan",
+      "body": ""
+    },
+    {
       "id": "udden",
       "title": "Udden",
       "body": "Kategori:Stockholm Kategori:Tyresö Kategori:Saknar vägbeskrivning Kategori:Stockholms Skärgård"
@@ -42,6 +52,7 @@
       "type": "",
       "firstAscent": "Marco Kupiainen -96",
       "description": "",
+      "sectorId": "norra-klippan",
       "source": {
         "id": "legacy:harso",
         "path": "mediawiki/Härsö.txt"
@@ -57,6 +68,7 @@
       "type": "",
       "firstAscent": "Marco Kupiainen -96",
       "description": "",
+      "sectorId": "norra-klippan",
       "source": {
         "id": "legacy:harso",
         "path": "mediawiki/Härsö.txt"
@@ -72,6 +84,7 @@
       "type": "",
       "firstAscent": "Christer Jansson -96",
       "description": "",
+      "sectorId": "norra-klippan",
       "source": {
         "id": "legacy:harso",
         "path": "mediawiki/Härsö.txt"
@@ -87,6 +100,7 @@
       "type": "",
       "firstAscent": "Ludde Hagberg -96",
       "description": "",
+      "sectorId": "norra-klippan",
       "source": {
         "id": "legacy:harso",
         "path": "mediawiki/Härsö.txt"
@@ -102,6 +116,7 @@
       "type": "",
       "firstAscent": "Mats Olofsson, Marco Kupiainen -95",
       "description": "",
+      "sectorId": "udden",
       "source": {
         "id": "legacy:harso",
         "path": "mediawiki/Härsö.txt"
@@ -117,6 +132,7 @@
       "type": "",
       "firstAscent": "Mats Olofsson, Marco Kupiainen -95",
       "description": "",
+      "sectorId": "udden",
       "source": {
         "id": "legacy:harso",
         "path": "mediawiki/Härsö.txt"
@@ -132,6 +148,7 @@
       "type": "",
       "firstAscent": "Marco Kupiainen, Mats Olofsson -95",
       "description": "",
+      "sectorId": "udden",
       "source": {
         "id": "legacy:harso",
         "path": "mediawiki/Härsö.txt"
@@ -147,6 +164,7 @@
       "type": "",
       "firstAscent": "Marco Kupiainen -96",
       "description": "",
+      "sectorId": "udden",
       "source": {
         "id": "legacy:harso",
         "path": "mediawiki/Härsö.txt"
@@ -162,6 +180,7 @@
       "type": "",
       "firstAscent": "Martin Jacobsson -96",
       "description": "",
+      "sectorId": "udden",
       "source": {
         "id": "legacy:harso",
         "path": "mediawiki/Härsö.txt"
@@ -177,6 +196,7 @@
       "type": "",
       "firstAscent": "Marco Kupiainen(solo och utan metall) -95",
       "description": "",
+      "sectorId": "udden",
       "source": {
         "id": "legacy:harso",
         "path": "mediawiki/Härsö.txt"
@@ -192,6 +212,7 @@
       "type": "",
       "firstAscent": "Marco Kupiainen,Anders Jakobssen-99",
       "description": "",
+      "sectorId": "udden",
       "source": {
         "id": "legacy:harso",
         "path": "mediawiki/Härsö.txt"
@@ -207,6 +228,7 @@
       "type": "",
       "firstAscent": "",
       "description": "",
+      "sectorId": "udden",
       "source": {
         "id": "legacy:harso",
         "path": "mediawiki/Härsö.txt"
@@ -222,6 +244,7 @@
       "type": "",
       "firstAscent": "",
       "description": "",
+      "sectorId": "udden",
       "source": {
         "id": "legacy:harso",
         "path": "mediawiki/Härsö.txt"
@@ -237,6 +260,7 @@
       "type": "",
       "firstAscent": "",
       "description": "",
+      "sectorId": "udden",
       "source": {
         "id": "legacy:harso",
         "path": "mediawiki/Härsö.txt"
@@ -247,7 +271,8 @@
     {
       "filename": "Harso.png",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "udden"
     }
   ],
   "access": {

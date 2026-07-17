@@ -26,6 +26,16 @@
       "body": "Från E6, kör mot Lysekil och sväng höger mot Kungshamn. Efter fyra kilometer dyker Åbyfjorden upp på vänster sida. Precis innan busshållplatsen i mötande fil finns det en liten traktorväg som man kör på över åkern, klippan dyker upp på din vänstra sida efter ca 500m. Kör förbi klippan och parkera på platserna längre fram. Platserna på vänster sida av vägen hör till huset!"
     },
     {
+      "id": "leder",
+      "title": "Leder",
+      "body": ""
+    },
+    {
+      "id": "huvudvaggen",
+      "title": "Huvudväggen",
+      "body": ""
+    },
+    {
       "id": "film",
       "title": "Film",
       "body": "2a repetitionen av Dags att deklarera http://vimeo.com/5693146 Kategori:trad Kategori:vertikalt Kategori:överhäng Kategori:Bohuslän"
@@ -42,6 +52,7 @@
       "type": "trad",
       "firstAscent": "Jappe Pålsgård -05",
       "description": "Den tydliga sprickan till vänster i väggen. En led för dem med vuxen smak!",
+      "sectorId": "huvudvaggen",
       "source": {
         "id": "legacy:parleporten",
         "path": "mediawiki/Pärleporten.txt"
@@ -57,6 +68,7 @@
       "type": "trad",
       "firstAscent": "Geir Arne Bore -05",
       "description": "Hjälp, underarmarna brinner upp! Välsäkrad och goda grepp... men då kan det väl inte vara så svårt? Prova!!! Första 10 m som Styx så diagonalt till höger tvärs över hela väggen.",
+      "sectorId": "huvudvaggen",
       "source": {
         "id": "legacy:parleporten",
         "path": "mediawiki/Pärleporten.txt"
@@ -72,6 +84,7 @@
       "type": "trad",
       "firstAscent": "Eirik Nordhaug, Jappe Pålsgård -08",
       "description": "En spännande resa som innehåller både ålning och hangling.",
+      "sectorId": "huvudvaggen",
       "source": {
         "id": "legacy:parleporten",
         "path": "mediawiki/Pärleporten.txt"
@@ -87,6 +100,7 @@
       "type": "trad",
       "firstAscent": "Geir Arne Bore -05",
       "description": "Nödvändig delexamen för dr-grad i bohusklättring. Lika krävande mentalt som fysiskt.",
+      "sectorId": "huvudvaggen",
       "source": {
         "id": "legacy:parleporten",
         "path": "mediawiki/Pärleporten.txt"
@@ -102,6 +116,7 @@
       "type": "trad",
       "firstAscent": "Eirik Nordhaug Jappe Pålsgård (ledd av både fadern och sonen) -08",
       "description": "Tung och analytisk spricklinje. Få men goda säkringsmöjligheter med vanligt bohusrack.",
+      "sectorId": "huvudvaggen",
       "source": {
         "id": "legacy:parleporten",
         "path": "mediawiki/Pärleporten.txt"
@@ -117,6 +132,7 @@
       "type": "trad",
       "firstAscent": "Geir Arne Bore -06",
       "description": "Vänstervänt dieder leder till tak och tunn spricka.",
+      "sectorId": "huvudvaggen",
       "source": {
         "id": "legacy:parleporten",
         "path": "mediawiki/Pärleporten.txt"
@@ -132,6 +148,7 @@
       "type": "trad",
       "firstAscent": "Anita Rostén, Jappe Pålsgård -06",
       "description": "Fin och finurlig led. Man får mycket för pengarna. Lite skrotigt dieder för vidare via vägg till blockigt tak (12 m). Gåtfullt genom detta och så till toppen via rampspricka till vänster.",
+      "sectorId": "huvudvaggen",
       "source": {
         "id": "legacy:parleporten",
         "path": "mediawiki/Pärleporten.txt"
@@ -147,6 +164,7 @@
       "type": "trad",
       "firstAscent": "Åsmund Bjørnestad -08",
       "description": "Ett fint minimalistisk dieder 6m. Kliv till vänster och upp liten vägg som led 7 till tvärsprickan. Följ denna 2m till höger och svinga genom det stora taket.",
+      "sectorId": "huvudvaggen",
       "source": {
         "id": "legacy:parleporten",
         "path": "mediawiki/Pärleporten.txt"
@@ -162,6 +180,7 @@
       "type": "trad",
       "firstAscent": "Ulrika Tiegs -08",
       "description": "Start 4m till höger om led 8. Buldrig start via tvärspricka till tunn spricka som leder vidare i en serie små diedrar skilda med små tak. En härlig tipspromenad.",
+      "sectorId": "huvudvaggen",
       "source": {
         "id": "legacy:parleporten",
         "path": "mediawiki/Pärleporten.txt"
@@ -177,6 +196,7 @@
       "type": "trad",
       "firstAscent": "Jappe Pålsgård -08",
       "description": "Rätt lätt upp till taket, sedan trynar du (i goda säkringar) om du har gjort analysen felaktigt – och det har du nog!",
+      "sectorId": "huvudvaggen",
       "source": {
         "id": "legacy:parleporten",
         "path": "mediawiki/Pärleporten.txt"
@@ -187,7 +207,8 @@
     {
       "filename": "Pärleporten.jpg",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "huvudvaggen"
     }
   ],
   "access": {

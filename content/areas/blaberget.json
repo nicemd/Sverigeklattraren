@@ -30,6 +30,11 @@
       "body": "Eftersom de flesta replängder är runt 30 meter så behövs ett större rack än ett vanligt svenskt tradrack; placerar du en punkt varannan meter samt två punkter i stand så behöver du 16 säkringar per replängd. För den som är duktig på att hitta kilplaceringar kan många leder göras säkert med ett dubbelt rack kil samt några få kamkilar eller häxor. Idag använder dock de flesta ett standardrack bestående av ett set kil samt ett set små kamsäkringar från fingertoppar till fingrar och ett och ett halvt till två set kamsäkringar från fingrar till handjam med en extra i knytnävsstorlek. En jämförelse mellan olika kamsäkringar i pdf-format."
     },
     {
+      "id": "vagbeskrivning",
+      "title": "Vägbeskrivning",
+      "body": ""
+    },
+    {
       "id": "normalvagen",
       "title": "Normalvägen",
       "body": "Från kusten på väg 92 via Bjurholm: Efter Balsjö kommer en flygraka. Efter flygrakan och ytterligare en lång raksträcka sväng vänster mot: Ö Nyland 2 km. Inne i byn svänger du vänster igen mot Bredträsk. Kör ca 1 km, och ta rakt fram i nästa korsning där en väg svänger av till höger mot Bredträsk. Efter en kort bit svänger du av mot vänster på en liten skogsbilväg. Håll vänster i Y-korsningen efter ett par kilometer. Ungefär 4 km från det att man svänger in på skogsbilvägen ligger Blåberget. När du får syn på berget borde du också kunna se en liten parkering. Vid parkeringen går en tydlig stig som startar med en trapp upp mot klippan. Här finns även en liten bäck med dricksvatten. På väg upp mot klippan passeras en platå med vindskydd, eldstad, utedass och tältplatser. För att hitta till lilla väggen följ skyltningen, korsta bron och följ sedan blå snittsling. Ungefär 100 meter efter bron så dyker en stig upp mot höger, tag av på den och följ den i 40 meter uppåt backen, sväng sedan vänster på en tunn stig. Se även karta nedan"
@@ -55,6 +60,16 @@
       "body": "Nya leder, och leder som friats sedan senaste utgåvan av Umeföraren: . Kliv in via den smala hyllan från höger. Klipp första bulten med hjälp av en pinne (ytterligare en bult skall slås senare). Inget ankare för närvarande så toppa ut på hyllan ovan. Det finns gott om träd att fira av från.}} men traversera ut höger till ytterhörnet och följ bultar upp till hyllan}}"
     },
     {
+      "id": "rekommenderade-leder",
+      "title": "Rekommenderade leder",
+      "body": ""
+    },
+    {
+      "id": "stora-vaggen",
+      "title": "Stora väggen",
+      "body": ""
+    },
+    {
       "id": "lilla-vaggen",
       "title": "Lilla väggen",
       "body": "För att hitta till lilla väggen följ skyltningen, och korsta bron. Ungefär 100 meter efter bron så dyker en svag stig upp mot höger, tag av på den och följ den i 40 meter, sväng sedan vänster på en ännu tunnare stig. Följ blå snittsling, Se även kartan ovan."
@@ -63,6 +78,16 @@
       "id": "vinterleder-och-tekniska-turer",
       "title": "Vinterleder och tekniska turer",
       "body": "Det finns en hel del vinterleder och aidleder som aldrig blivit ordentligt dokumenterade. Kanske det är dags nu?"
+    },
+    {
+      "id": "lilla-vaggen",
+      "title": "Lilla väggen",
+      "body": ""
+    },
+    {
+      "id": "stora-vaggen",
+      "title": "Stora väggen",
+      "body": ""
     },
     {
       "id": "bultlogg",
@@ -121,6 +146,7 @@
       "type": "mix",
       "firstAscent": "Jens Åström 2004",
       "description": "Starta ifrån trädet på kojhyllan. Klättra rakt upp ifrån det bultade ankaret.",
+      "sectorId": "nya-leder",
       "source": {
         "id": "legacy:blaberget",
         "path": "mediawiki/Blåberget.txt"
@@ -136,6 +162,7 @@
       "type": "mix",
       "firstAscent": "Krister Jonsson 2005",
       "description": "Firningspisten till vänster om Till Anki. Fin sva och väggklättring på mindre grepp. Det går sätta en acceptabel kamkil i fingerstorlek en bit upp (typ 3-4 meter ovan hyllan). Annars bultad.",
+      "sectorId": "nya-leder",
       "source": {
         "id": "legacy:blaberget",
         "path": "mediawiki/Blåberget.txt"
@@ -151,6 +178,7 @@
       "type": "mix",
       "firstAscent": "Tommy Nilsson 2004",
       "description": "Separat andra replängd till Gemini. Ta sikte på en liten dieder till vänster om Gemenis andra replängd. Några borrbultar.",
+      "sectorId": "nya-leder",
       "source": {
         "id": "legacy:blaberget",
         "path": "mediawiki/Blåberget.txt"
@@ -166,6 +194,7 @@
       "type": "trad",
       "firstAscent": "Tommy Nilsson 2005",
       "description": "Går på en pelare mellan vänsterdelen och ikaros-väggen. Starta på pelarens vänstra sida, vid ett dieder.",
+      "sectorId": "nya-leder",
       "source": {
         "id": "legacy:blaberget",
         "path": "mediawiki/Blåberget.txt"
@@ -181,6 +210,7 @@
       "type": "mix",
       "firstAscent": "Jens Åström 2007",
       "description": "Aréten mellan Vikingasvärdet och Taknöten. Gemensam första bult och instegsboulder med Vikingasvärdet. En kil, resten bult?",
+      "sectorId": "nya-leder",
       "source": {
         "id": "legacy:blaberget",
         "path": "mediawiki/Blåberget.txt"
@@ -196,6 +226,7 @@
       "type": "trad",
       "firstAscent": "FFA J. Söderström 2008",
       "description": "Tidigare aid/mixled, som nu friats.",
+      "sectorId": "nya-leder",
       "source": {
         "id": "legacy:blaberget",
         "path": "mediawiki/Blåberget.txt"
@@ -211,6 +242,7 @@
       "type": "trad",
       "firstAscent": "J. Söderström, FFA E. Massih 2008",
       "description": "Efter det lilla taket på Hugga klättrar man diagonalt upp åt vänster i drygt 15 meter till dess man når väggens vänsterkant som man följer upp till en hylla med ett bultat ankare.",
+      "sectorId": "nya-leder",
       "source": {
         "id": "legacy:blaberget",
         "path": "mediawiki/Blåberget.txt"
@@ -226,6 +258,7 @@
       "type": "sport",
       "firstAscent": "Anders Lindh 1993",
       "description": "Retrobultad. Två långa slingor (60cm eller längre) är bra på mittenpartiet. 6 bultar.",
+      "sectorId": "nya-leder",
       "source": {
         "id": "legacy:blaberget",
         "path": "mediawiki/Blåberget.txt"
@@ -241,6 +274,7 @@
       "type": "mix",
       "firstAscent": "T. Nilsson, 1993 J. Wiklund (FFA- 2a repl), 2009",
       "description": "Andra replängden nu klättrad helt fritt. Från utsteget på första replängd, gå rakt fram över hyllan och lokalisera ett överhängande dieder med två bultar. Klättra diedret och sedan en slabb upp till en hylla (7). Ett mycket hårt boulderproblem (Fb 7A+), eller drag i två säkringar (en bult och en kil : Wallnut #1 el liknande) leder till toppen. Andra replängden helt bultad.",
+      "sectorId": "nya-leder",
       "source": {
         "id": "legacy:blaberget",
         "path": "mediawiki/Blåberget.txt"
@@ -256,6 +290,7 @@
       "type": "trad",
       "firstAscent": "J. Söderström 2009",
       "description": "Den markanta, mycket breda taksprickan som leder upp till Kojhyllan. Klättrare med byxlinning över 30 tum göre sig knappast besvär. Camalot #6, solo eller topprep.",
+      "sectorId": "nya-leder",
       "source": {
         "id": "legacy:blaberget",
         "path": "mediawiki/Blåberget.txt"
@@ -271,6 +306,7 @@
       "type": "mix",
       "firstAscent": "J. Söderström, J. Wiklund 2009",
       "description": "Direktinsteg till Styx för de som inte har dubbelrep. Gå upp mot \"Stenen i skogen\" och snedda tillbaka till dess ni kommer rakt under leden. Samma grad som originalet. Bultar, bladbultar och eget. Ta med ett set friends och många kortslingor, gärna några 60 cm. Bladbultarna placerades på tidigt 90-tal och fanns vara frächa när de kontrollerades 2008, men det är ingen garanti för att de håller...",
+      "sectorId": "nya-leder",
       "source": {
         "id": "legacy:blaberget",
         "path": "mediawiki/Blåberget.txt"
@@ -286,6 +322,7 @@
       "type": "sport",
       "firstAscent": "Jonas Wiklund",
       "description": "Ligger till höger på Lilla väggen och följer en markant linje genom ett litet tak upp mot ett renskuret arete.",
+      "sectorId": "nya-leder",
       "source": {
         "id": "legacy:blaberget",
         "path": "mediawiki/Blåberget.txt"
@@ -301,6 +338,7 @@
       "type": "sport",
       "firstAscent": "Jonas Wiklund",
       "description": "Öppet projekt, grad 8-9. Ligger strax till höger om . Kliv in via den smala hyllan från höger. Klipp första bulten med hjälp av en pinne (ytterligare en bult skall slås senare). Inget ankare för närvarande så toppa ut på hyllan ovan. Det finns gott om träd att fira av från.",
+      "sectorId": "nya-leder",
       "source": {
         "id": "legacy:blaberget",
         "path": "mediawiki/Blåberget.txt"
@@ -316,6 +354,7 @@
       "type": "sport",
       "firstAscent": "Saku Korosuo 2011",
       "description": "Starta från Kojhyllan i samma träd som men traversera ut höger till ytterhörnet och följ bultar upp till hyllan",
+      "sectorId": "nya-leder",
       "source": {
         "id": "legacy:blaberget",
         "path": "mediawiki/Blåberget.txt"
@@ -331,6 +370,7 @@
       "type": "sport",
       "firstAscent": "Jonas Wiklund 2011",
       "description": "Kort arete längst stigen vid lilla väggen, just innan man kommer ut på sva med fast rep. Förstebestigaren mantlade ut, men gör som ni vill",
+      "sectorId": "nya-leder",
       "source": {
         "id": "legacy:blaberget",
         "path": "mediawiki/Blåberget.txt"
@@ -346,6 +386,7 @@
       "type": "mix",
       "firstAscent": "Jörgen Vikström, Anders Strömberg 1986",
       "description": "Rolig svaklättring",
+      "sectorId": "stora-vaggen",
       "source": {
         "id": "legacy:blaberget",
         "path": "mediawiki/Blåberget.txt"
@@ -361,6 +402,7 @@
       "type": "trad",
       "firstAscent": "Anders Lindh 1993",
       "description": "På andra repan finns riktigt fin väggklättring.",
+      "sectorId": "stora-vaggen",
       "source": {
         "id": "legacy:blaberget",
         "path": "mediawiki/Blåberget.txt"
@@ -376,6 +418,7 @@
       "type": "trad",
       "firstAscent": "Anders Fersters, Anders Strömberg 1986",
       "description": "Fin spricka som går från fingerstorlek till off-width. Två 30 meters replängder (6-; 5-). Välsäkrad och jämn klättring.",
+      "sectorId": "stora-vaggen",
       "source": {
         "id": "legacy:blaberget",
         "path": "mediawiki/Blåberget.txt"
@@ -391,6 +434,7 @@
       "type": "trad",
       "firstAscent": "Tommy Nilsson, Jörgen Vikström 1986",
       "description": "En spricka från botten till toppen.",
+      "sectorId": "stora-vaggen",
       "source": {
         "id": "legacy:blaberget",
         "path": "mediawiki/Blåberget.txt"
@@ -406,6 +450,7 @@
       "type": "sport",
       "firstAscent": "",
       "description": "Helbultad väggklättring. Backa gärna upp bladbulten vid taket med liten Alien.",
+      "sectorId": "stora-vaggen",
       "source": {
         "id": "legacy:blaberget",
         "path": "mediawiki/Blåberget.txt"
@@ -421,6 +466,7 @@
       "type": "trad",
       "firstAscent": "Tommy Nilsson 1987",
       "description": "Klassiker. Första replängden är brant småstegsklättring. Andra replängden följer en renskuret dieder.",
+      "sectorId": "stora-vaggen",
       "source": {
         "id": "legacy:blaberget",
         "path": "mediawiki/Blåberget.txt"
@@ -436,6 +482,7 @@
       "type": "trad",
       "firstAscent": "Anders Edström 1990",
       "description": "Stort dieder, där andra replängden är riktigt fin.",
+      "sectorId": "stora-vaggen",
       "source": {
         "id": "legacy:blaberget",
         "path": "mediawiki/Blåberget.txt"
@@ -451,6 +498,7 @@
       "type": "trad",
       "firstAscent": "Tommy Nilsson, Jörgen Vikström(?), 1985, Första fria: Tomas Hansson 1990",
       "description": "Brant spricka.",
+      "sectorId": "stora-vaggen",
       "source": {
         "id": "legacy:blaberget",
         "path": "mediawiki/Blåberget.txt"
@@ -466,6 +514,7 @@
       "type": "trad",
       "firstAscent": "Anders Lindh 1987",
       "description": "Underbar vindlande spricka där förvånansvärt lite sprickteknik behövs.",
+      "sectorId": "stora-vaggen",
       "source": {
         "id": "legacy:blaberget",
         "path": "mediawiki/Blåberget.txt"
@@ -481,6 +530,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "Fin handspricka. Tejpa.",
+      "sectorId": "stora-vaggen",
       "source": {
         "id": "legacy:blaberget",
         "path": "mediawiki/Blåberget.txt"
@@ -496,6 +546,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "Flakspricka. Av några ansedd som Blåbergets enskilt finaste replängd. Se upp med lös klippa på ledens övre del. Ankaret är lite knasigt: en kedja som hänger ner runt ett träd.",
+      "sectorId": "stora-vaggen",
       "source": {
         "id": "legacy:blaberget",
         "path": "mediawiki/Blåberget.txt"
@@ -511,6 +562,7 @@
       "type": "trad",
       "firstAscent": "Per Håkansson, 90-tal Första fria: Fredrik Wågberg 2001",
       "description": "Efter det onödigt hårda insteget följer fantastisk sprickklättring. Sprickan börjar vid en nisch ca 3m upp. Starta vid Fenix och klättra upp 2m. Traversera sedan ut till nischen och klättra Lambdasprickan.",
+      "sectorId": "stora-vaggen",
       "source": {
         "id": "legacy:blaberget",
         "path": "mediawiki/Blåberget.txt"
@@ -526,6 +578,7 @@
       "type": "trad",
       "firstAscent": "Anders Lindfors",
       "description": "Brant sprickklättring på första replängden efterföljs av teknisk klättrin i en öppen bok.",
+      "sectorId": "lilla-vaggen",
       "source": {
         "id": "legacy:blaberget",
         "path": "mediawiki/Blåberget.txt"
@@ -541,6 +594,7 @@
       "type": "trad",
       "firstAscent": "J. Söderström, FFA E. Massih 2008",
       "description": "Efter det lilla taket klättrar man diagonalt upp åt vänster i drygt 15 meter till dess man når väggens vänsterkant som man följer upp till en hylla med ett bultat ankare.",
+      "sectorId": "lilla-vaggen",
       "source": {
         "id": "legacy:blaberget",
         "path": "mediawiki/Blåberget.txt"
@@ -556,6 +610,7 @@
       "type": "mix",
       "firstAscent": "Anders Lindh",
       "description": "Teknisk väggklättring med krux efter krux. Många hårda passager. En ren bestigning ger anledning till stolthet.",
+      "sectorId": "lilla-vaggen",
       "source": {
         "id": "legacy:blaberget",
         "path": "mediawiki/Blåberget.txt"
@@ -571,6 +626,7 @@
       "type": "sport",
       "firstAscent": "Jonas Wiklund",
       "description": "Ligger till höger på Lilla väggen och följer en markant linje genom ett litet tak upp mot ett renskuret arete.",
+      "sectorId": "lilla-vaggen",
       "source": {
         "id": "legacy:blaberget",
         "path": "mediawiki/Blåberget.txt"
@@ -586,6 +642,7 @@
       "type": "aid",
       "firstAscent": "Johan Engström 1999",
       "description": "Ca 5-10 m h om Svart Kaffe. Insteg på rampens h kant, traversera ca 3 m tv på hyllan, följ sedan den tydliga fingersprickan till dess den slutar, ca 15m, traversera 2 m th, avsluta upp i den fingersprickan, ca 6m.",
+      "sectorId": "lilla-vaggen",
       "source": {
         "id": "legacy:blaberget",
         "path": "mediawiki/Blåberget.txt"
@@ -601,6 +658,7 @@
       "type": "trad",
       "firstAscent": "Krister Jonsson",
       "description": "Strax th om stora taket och upp över taket. Säkras med kil, bladbult och isskruv",
+      "sectorId": "lilla-vaggen",
       "source": {
         "id": "legacy:blaberget",
         "path": "mediawiki/Blåberget.txt"
@@ -616,6 +674,7 @@
       "type": "trad",
       "firstAscent": "Krister Jonsson 1999",
       "description": "Sommarleden Värre än väntat bestegs redan juldagen -99 av K. Jonson som en vintertur och kallades då \"Inga olyckor på julafton\".",
+      "sectorId": "lilla-vaggen",
       "source": {
         "id": "legacy:blaberget",
         "path": "mediawiki/Blåberget.txt"
@@ -631,6 +690,7 @@
       "type": "trad",
       "firstAscent": "Krister Jonsson",
       "description": "Startar som Kaffesump och dra rakt upp där TLB går vänster, dvs till vänster om isen.",
+      "sectorId": "lilla-vaggen",
       "source": {
         "id": "legacy:blaberget",
         "path": "mediawiki/Blåberget.txt"
@@ -646,6 +706,7 @@
       "type": "sport",
       "firstAscent": "Krister Jonsson",
       "description": "Helbultad vintertur mellan Fenix och Lamda.",
+      "sectorId": "stora-vaggen",
       "source": {
         "id": "legacy:blaberget",
         "path": "mediawiki/Blåberget.txt"
@@ -661,6 +722,7 @@
       "type": "aid",
       "firstAscent": "Krister Jonsson",
       "description": "Aidtur till höger om Felix.",
+      "sectorId": "stora-vaggen",
       "source": {
         "id": "legacy:blaberget",
         "path": "mediawiki/Blåberget.txt"
@@ -676,6 +738,7 @@
       "type": "sport",
       "firstAscent": "Krister Jonsson",
       "description": "Helbultad(?) vintertur till höger om Blueberry thrill.",
+      "sectorId": "stora-vaggen",
       "source": {
         "id": "legacy:blaberget",
         "path": "mediawiki/Blåberget.txt"
@@ -686,12 +749,14 @@
     {
       "filename": "Blaberget-overview.jpg",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "alternativ-vag"
     },
     {
       "filename": "Fenix.jpg",
       "caption": "Pär Lindholm",
-      "missing": false
+      "missing": false,
+      "sectorId": "bilder"
     }
   ],
   "access": {

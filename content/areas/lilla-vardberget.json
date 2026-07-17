@@ -51,6 +51,7 @@
       "type": "sport",
       "firstAscent": "Anton & Peter Yakubenko -09",
       "description": "Två pitch upplevelse för alla. Start längst till vänster i början av sprickan sen rakt upp. Första replängden: grad 5c, jämn och fin vertikal klättring på bra grepp, 5bb och bra standplats vid ankare. Andra replängden: grad 4c, svaklättring, 4bb, standplats och ankare på toppen.",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:lilla-vardberget",
         "path": "mediawiki/Lilla Vårdberget.txt"
@@ -66,6 +67,7 @@
       "type": "mix",
       "firstAscent": "",
       "description": "Kanske mest naturliga vägen att bestiga Lilla Vårbergets sydvägg. Första replängden: Börjar längst till vänster, traversera ca 15m i sprickan (trad) till led nr 2, fortsätt upp och åt höger (3bb) på hyllan till en standplats. Andra replängden: klättra rakt upp i spriсkan sen åt vänster (trad) till en bb på led nr.3 och vidare upp till toppankaret",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:lilla-vardberget",
         "path": "mediawiki/Lilla Vårdberget.txt"
@@ -81,6 +83,7 @@
       "type": "sport",
       "firstAscent": "Börje Svedman -98",
       "description": "Helbultad och ganska lång femma.",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:lilla-vardberget",
         "path": "mediawiki/Lilla Vårdberget.txt"
@@ -96,6 +99,7 @@
       "type": "sport",
       "firstAscent": "Börje Svedman -98",
       "description": "Rakt upp bakom björken.",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:lilla-vardberget",
         "path": "mediawiki/Lilla Vårdberget.txt"
@@ -111,6 +115,7 @@
       "type": "sport",
       "firstAscent": "Peter Yakubenko -08",
       "description": "Kort men hårt.",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:lilla-vardberget",
         "path": "mediawiki/Lilla Vårdberget.txt"
@@ -126,6 +131,7 @@
       "type": "",
       "firstAscent": "Lars Grankvist, Niklas Björnerstedt -87",
       "description": "Fin, ihållande. Krux vid andra bulten.",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:lilla-vardberget",
         "path": "mediawiki/Lilla Vårdberget.txt"
@@ -141,6 +147,7 @@
       "type": "sport",
       "firstAscent": "Börje Svedman -98",
       "description": "krux i början.",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:lilla-vardberget",
         "path": "mediawiki/Lilla Vårdberget.txt"
@@ -156,6 +163,7 @@
       "type": "mix",
       "firstAscent": "Niklas Björnerstedt, Lars Grankvist -87",
       "description": "Trevlig mixled som går i den fina men korta sprickan. Gemensamt insteg med Nya Vågen och utsteg i Nytursåke.",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:lilla-vardberget",
         "path": "mediawiki/Lilla Vårdberget.txt"
@@ -171,6 +179,7 @@
       "type": "sport",
       "firstAscent": "Peter Yakubenko, Anders Eriksson, Jörgen Alvhäll -08",
       "description": "Samma insteg som Glasnost, därefter rakt upp. Krux på slutet.",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:lilla-vardberget",
         "path": "mediawiki/Lilla Vårdberget.txt"
@@ -186,6 +195,7 @@
       "type": "sport",
       "firstAscent": "Daniel Engström -98",
       "description": "Jämn och fin femmaklättring.",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:lilla-vardberget",
         "path": "mediawiki/Lilla Vårdberget.txt"
@@ -201,6 +211,7 @@
       "type": "sport",
       "firstAscent": "Börje Svedman -98",
       "description": "Betydligt svårare än väntat.",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:lilla-vardberget",
         "path": "mediawiki/Lilla Vårdberget.txt"
@@ -216,6 +227,7 @@
       "type": "sport",
       "firstAscent": "Anton & Dennis Yakubenko -11",
       "description": "På vägg emellan Hacke Hackspett och sprickorna.",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:lilla-vardberget",
         "path": "mediawiki/Lilla Vårdberget.txt"
@@ -231,6 +243,7 @@
       "type": "trad",
       "firstAscent": "Börje Svedman -98",
       "description": "Ett spricksystem längst till höger.",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:lilla-vardberget",
         "path": "mediawiki/Lilla Vårdberget.txt"
@@ -240,18 +253,21 @@
   "images": [
     {
       "filename": "LillaV-B.jpg",
-      "caption": "right",
-      "missing": false
+      "caption": "",
+      "missing": false,
+      "sectorId": null
     },
     {
       "filename": "LillaVBtravers.jpg",
-      "caption": "right",
-      "missing": false
+      "caption": "",
+      "missing": false,
+      "sectorId": "karaktar"
     },
     {
       "filename": "Lilla_vb_skiss.png",
-      "caption": "640px",
-      "missing": false
+      "caption": "",
+      "missing": false,
+      "sectorId": "leder"
     }
   ],
   "access": {

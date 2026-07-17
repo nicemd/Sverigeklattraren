@@ -33,6 +33,7 @@
       "type": "trad",
       "firstAscent": "?",
       "description": "Vet inte om denna led är klättrad. Mycket mossig men bör ej borstas pga naturreservat. Är troligen inte klätterbar.",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:hagadalen",
         "path": "mediawiki/Hågadalen.txt"
@@ -48,6 +49,7 @@
       "type": "trad",
       "firstAscent": "?",
       "description": "Klättras på flaket ej i sprickan/grottan vilket Uppsala föraren föreslår.",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:hagadalen",
         "path": "mediawiki/Hågadalen.txt"
@@ -63,6 +65,7 @@
       "type": "trad",
       "firstAscent": "?",
       "description": "Mycket bred spricka. Välsäkrad med näst största Camaloten.",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:hagadalen",
         "path": "mediawiki/Hågadalen.txt"
@@ -78,6 +81,7 @@
       "type": "topprepsled",
       "firstAscent": "?",
       "description": "Vertikal väggklättring.",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:hagadalen",
         "path": "mediawiki/Hågadalen.txt"
@@ -93,6 +97,7 @@
       "type": "trad",
       "firstAscent": "?",
       "description": "Scrambling.",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:hagadalen",
         "path": "mediawiki/Hågadalen.txt"
@@ -108,6 +113,7 @@
       "type": "trad",
       "firstAscent": "?",
       "description": "Säkras med mickrokilar.",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:hagadalen",
         "path": "mediawiki/Hågadalen.txt"
@@ -123,6 +129,7 @@
       "type": "topprepsled",
       "firstAscent": "Erik Terenius och Bertil Dyvell 1990, topprep",
       "description": "",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:hagadalen",
         "path": "mediawiki/Hågadalen.txt"
@@ -138,6 +145,7 @@
       "type": "topprepsled",
       "firstAscent": "Erik Terenius och Bertil Dyvell 1990, topprep",
       "description": "",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:hagadalen",
         "path": "mediawiki/Hågadalen.txt"
@@ -153,6 +161,7 @@
       "type": "topprepsled",
       "firstAscent": "Erik Terenius och Bertil Dyvell 1990, topprep",
       "description": "",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:hagadalen",
         "path": "mediawiki/Hågadalen.txt"
@@ -168,6 +177,7 @@
       "type": "boulder",
       "firstAscent": "Erik Terenius 1990, solo",
       "description": "",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:hagadalen",
         "path": "mediawiki/Hågadalen.txt"
@@ -178,12 +188,14 @@
     {
       "filename": "HagadalenRoutesLeft.jpg",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "leder"
     },
     {
       "filename": "HagadalenRoutesRight.jpg",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "leder"
     }
   ],
   "access": {

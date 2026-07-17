@@ -36,6 +36,7 @@
       "type": "mix",
       "firstAscent": "M. Nilsson & T.Winther 84",
       "description": "Väggklättring på små grepp. Två gamla Petzl bultar visar vägen. En stålhammare eller liknande kan stickas ner i och knytas av i ett gammalt borrhål nära toppen",
+      "sectorId": "hitta-hit",
       "source": {
         "id": "legacy:impan-vid-gladsax",
         "path": "mediawiki/Impan vid Gladsax.txt"
@@ -51,6 +52,7 @@
       "type": "äventyr",
       "firstAscent": "T.Winther & M. Nilsson 84",
       "description": "Från den lilla urgröpningens vänstra kant följande en diagonal grund spricka mot höger.",
+      "sectorId": "hitta-hit",
       "source": {
         "id": "legacy:impan-vid-gladsax",
         "path": "mediawiki/Impan vid Gladsax.txt"
@@ -66,6 +68,7 @@
       "type": "trad",
       "firstAscent": "Scouter, anno dazumal",
       "description": "I det lätta hörnet. Förmodligen förstabestigen av scouter under 70-talet.",
+      "sectorId": "hitta-hit",
       "source": {
         "id": "legacy:impan-vid-gladsax",
         "path": "mediawiki/Impan vid Gladsax.txt"
@@ -76,7 +79,8 @@
     {
       "filename": "Impan_v2.jpg",
       "caption": "Foto: Fredrik Ekblad",
-      "missing": false
+      "missing": false,
+      "sectorId": null
     }
   ],
   "access": {

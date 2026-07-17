@@ -76,6 +76,11 @@
       "body": "Firningsankare finns rakt ovanför Oborstad och det finns även ett ankare ovanför Irrfärd."
     },
     {
+      "id": "lilla-vaggen",
+      "title": "Lilla väggen",
+      "body": ""
+    },
+    {
       "id": "kaminvaggen",
       "title": "Kaminväggen",
       "body": "Den perfekta väggen att hålla till på under varma sommardagar. är en riktig klassiker!"
@@ -109,6 +114,21 @@
       "id": "ruttna-vaggen",
       "title": "Ruttna väggen",
       "body": "För att komma till Ruttna väggen så gå upp förbi Överhängsväggen. Mellan Överhängsväggen och Svaväggen finns en ravin. Gå upp en bit i den längs några fasta rep. Därefter tar du vänster upp i en liten kamin. Från vänster till höger."
+    },
+    {
+      "id": "tonusvaggen",
+      "title": "Tonusväggen",
+      "body": ""
+    },
+    {
+      "id": "nedre-tonusvaggen",
+      "title": "Nedre Tonusväggen",
+      "body": ""
+    },
+    {
+      "id": "ovre-tonusvaggen",
+      "title": "Övre Tonusväggen",
+      "body": ""
     },
     {
       "id": "harrda-vaggen",
@@ -157,6 +177,7 @@
       "type": "mix",
       "firstAscent": "",
       "description": "Klättra var du vill på den lilla väggen till vänster om offwidthen. Två leder enligt gamla föraren, idag klättrar alla ungefär mitt på och klipper sen en bult. Dessa två leder tar dig upp till Lilla väggen. Firningsankare.",
+      "sectorId": "fikavaggen",
       "source": {
         "id": "legacy:ringkallen",
         "path": "mediawiki/Ringkallen.txt"
@@ -172,6 +193,7 @@
       "type": "",
       "firstAscent": "",
       "description": "Börja direkt till höger om offwidth-sprickan. Avsluta med det känsliga arétet. Seriös?",
+      "sectorId": "fikavaggen",
       "source": {
         "id": "legacy:ringkallen",
         "path": "mediawiki/Ringkallen.txt"
@@ -187,6 +209,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "Startar en liten bit till höger om offwidth-sprickan i ett lite brantare parti. Klättra rakt upp till en hylla. Därifrån följer man sprickor vidare uppåt. Antingen går man hela vägen till toppen, eller så stannar man vid ett block med en slinga runt. Referensled.",
+      "sectorId": "fikavaggen",
       "source": {
         "id": "legacy:ringkallen",
         "path": "mediawiki/Ringkallen.txt"
@@ -202,6 +225,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "Börjar tre meter till höger om Sträckbänken på hyllan som är ett snäpp upp.",
+      "sectorId": "fikavaggen",
       "source": {
         "id": "legacy:ringkallen",
         "path": "mediawiki/Ringkallen.txt"
@@ -217,6 +241,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "En del ihåliga block, men det brukar gå bra ändå.",
+      "sectorId": "fikavaggen",
       "source": {
         "id": "legacy:ringkallen",
         "path": "mediawiki/Ringkallen.txt"
@@ -232,6 +257,7 @@
       "type": "trad",
       "firstAscent": "Fredrik Wågberg -93",
       "description": "Klättras aldrig.",
+      "sectorId": "fikavaggen",
       "source": {
         "id": "legacy:ringkallen",
         "path": "mediawiki/Ringkallen.txt"
@@ -247,6 +273,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "Går upp till en liten nich med ett tak ovanför. Klättra upp och förbi taket till toppen. Referensled.",
+      "sectorId": "fikavaggen",
       "source": {
         "id": "legacy:ringkallen",
         "path": "mediawiki/Ringkallen.txt"
@@ -262,6 +289,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "Perfekt uppvärmning eller ett roligare sätt att ta sig till Stora Väggen än att gå. Bred och välsäkrad spricka. Passa på att njuta av utsikten när du ändå fastnat i sprickan strax innan toppen! Populär.",
+      "sectorId": "fikavaggen",
       "source": {
         "id": "legacy:ringkallen",
         "path": "mediawiki/Ringkallen.txt"
@@ -277,6 +305,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "Tydliga sprickor bakom björken.",
+      "sectorId": "fikavaggen",
       "source": {
         "id": "legacy:ringkallen",
         "path": "mediawiki/Ringkallen.txt"
@@ -292,6 +321,7 @@
       "type": "mix",
       "firstAscent": "Per Wermelin, Jan Wermelun",
       "description": "",
+      "sectorId": "fikavaggen",
       "source": {
         "id": "legacy:ringkallen",
         "path": "mediawiki/Ringkallen.txt"
@@ -307,6 +337,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "Följer vänstra sidan av den stora \"kaminliknande\" formationen.",
+      "sectorId": "fikavaggen",
       "source": {
         "id": "legacy:ringkallen",
         "path": "mediawiki/Ringkallen.txt"
@@ -322,6 +353,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "Följer högra sidan av den stora \"kaminliknande\" formationen.",
+      "sectorId": "fikavaggen",
       "source": {
         "id": "legacy:ringkallen",
         "path": "mediawiki/Ringkallen.txt"
@@ -337,6 +369,7 @@
       "type": "trad",
       "firstAscent": "Per Wermelin, Jan Wermelin",
       "description": "Tunna sprickan till vänster om Jerry",
+      "sectorId": "fikavaggen",
       "source": {
         "id": "legacy:ringkallen",
         "path": "mediawiki/Ringkallen.txt"
@@ -352,6 +385,7 @@
       "type": "trad",
       "firstAscent": "Per Öhman, Jan Wermelin",
       "description": "Referensled. En av dom tydligare linjerna på Fikaväggen -- klättra upp för flaket just vänster om överhänget och fortsätt upp via sprickor som gradvis blir större och snart övergår i block. Lättare ju högre man kommer.",
+      "sectorId": "fikavaggen",
       "source": {
         "id": "legacy:ringkallen",
         "path": "mediawiki/Ringkallen.txt"
@@ -367,6 +401,7 @@
       "type": "trad",
       "firstAscent": "Per Öhman",
       "description": "Sprickan direkt till vänster om Stramare Tyglar. Utmärkt diederklättring övergår i tunnare sprickor och lister mot toppen. Ta med små kamkilar för högsta komfort -- men kilar duger mer än väl.",
+      "sectorId": "fikavaggen",
       "source": {
         "id": "legacy:ringkallen",
         "path": "mediawiki/Ringkallen.txt"
@@ -382,6 +417,7 @@
       "type": "mix",
       "firstAscent": "Jan Wermelin, Per Wermelin",
       "description": "Risken är överhängande att komma in i lättare klättring både till höger och vänster om leden.",
+      "sectorId": "fikavaggen",
       "source": {
         "id": "legacy:ringkallen",
         "path": "mediawiki/Ringkallen.txt"
@@ -397,6 +433,7 @@
       "type": "mix",
       "firstAscent": "Per Öhman",
       "description": "Referensled",
+      "sectorId": "fikavaggen",
       "source": {
         "id": "legacy:ringkallen",
         "path": "mediawiki/Ringkallen.txt"
@@ -412,6 +449,7 @@
       "type": "mix",
       "firstAscent": "Per Wermelin",
       "description": "Startar som Strama tyglar går ut diagonalt åt höger genom taken i fikaväggens högerkant. Mestadels bult, någon kil i början samt (eventuellt) i slutet.",
+      "sectorId": "fikavaggen",
       "source": {
         "id": "legacy:ringkallen",
         "path": "mediawiki/Ringkallen.txt"
@@ -427,6 +465,7 @@
       "type": "mix",
       "firstAscent": "Per Wermelin, Jan Wermelin",
       "description": "Klättra till vänster om och på arêten.",
+      "sectorId": "fikavaggen",
       "source": {
         "id": "legacy:ringkallen",
         "path": "mediawiki/Ringkallen.txt"
@@ -442,6 +481,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "Leden ligger i diedret mellan Brustna illusioner och Sista marängen. Stor spricka.",
+      "sectorId": "fikavaggen",
       "source": {
         "id": "legacy:ringkallen",
         "path": "mediawiki/Ringkallen.txt"
@@ -457,6 +497,7 @@
       "type": "sport",
       "firstAscent": "",
       "description": "Brant arete. Helbultad + firningsankare",
+      "sectorId": "fikavaggen",
       "source": {
         "id": "legacy:ringkallen",
         "path": "mediawiki/Ringkallen.txt"
@@ -472,6 +513,7 @@
       "type": "",
       "firstAscent": "Jan Wermelin",
       "description": "Strax till höger om Sista Marängen. Samma firningsankare.",
+      "sectorId": "fikavaggen",
       "source": {
         "id": "legacy:ringkallen",
         "path": "mediawiki/Ringkallen.txt"
@@ -487,6 +529,7 @@
       "type": "",
       "firstAscent": "Jan Wermelin, Per Wermelin",
       "description": "referensled Strax till höger om grottan på väg mot Tonusväggarna.",
+      "sectorId": "fikavaggen",
       "source": {
         "id": "legacy:ringkallen",
         "path": "mediawiki/Ringkallen.txt"
@@ -502,6 +545,7 @@
       "type": "trad",
       "firstAscent": "Per Wermelin",
       "description": "Fin kort spricka rakt ovanför Amaretto.",
+      "sectorId": "fikavaggen",
       "source": {
         "id": "legacy:ringkallen",
         "path": "mediawiki/Ringkallen.txt"
@@ -517,6 +561,7 @@
       "type": "trad",
       "firstAscent": "Per Wermelin",
       "description": "Miniväggen 7 meter till höger om Sprickan. Vänstra sprickan.",
+      "sectorId": "fikavaggen",
       "source": {
         "id": "legacy:ringkallen",
         "path": "mediawiki/Ringkallen.txt"
@@ -532,6 +577,7 @@
       "type": "trad",
       "firstAscent": "Per Wermelin",
       "description": "Precis till höger om Vad skall den heta.",
+      "sectorId": "fikavaggen",
       "source": {
         "id": "legacy:ringkallen",
         "path": "mediawiki/Ringkallen.txt"
@@ -547,6 +593,7 @@
       "type": "mix",
       "firstAscent": "Per Öhman, Jan Wermelin",
       "description": "referensled Ligger på väggen \"ovanför\" La France. Borrbultar + ankare.",
+      "sectorId": "fikavaggen",
       "source": {
         "id": "legacy:ringkallen",
         "path": "mediawiki/Ringkallen.txt"
@@ -562,6 +609,7 @@
       "type": "",
       "firstAscent": "Jan Wermelin, Per Wermelin",
       "description": "Börjar i tydliga sprickan till höger om Anomali. Upp på hylla, sedan mäktig aréte- och sprickklättring till gemensammt ankare med Anomali.",
+      "sectorId": "fikavaggen",
       "source": {
         "id": "legacy:ringkallen",
         "path": "mediawiki/Ringkallen.txt"
@@ -577,6 +625,7 @@
       "type": "sport",
       "firstAscent": "Jan Wermelin, Per Öhman och Fredrik Wågberg -99",
       "description": "",
+      "sectorId": "nedre-vaggen",
       "source": {
         "id": "legacy:ringkallen",
         "path": "mediawiki/Ringkallen.txt"
@@ -592,6 +641,7 @@
       "type": "mix",
       "firstAscent": "Per Öhman -92",
       "description": "Svårsäkrad start.",
+      "sectorId": "nedre-vaggen",
       "source": {
         "id": "legacy:ringkallen",
         "path": "mediawiki/Ringkallen.txt"
@@ -607,6 +657,7 @@
       "type": "",
       "firstAscent": "Mårten Ellingsson, Jan Wermelin 1990-talet",
       "description": "Spricka. Coola pockets på slutet.",
+      "sectorId": "nedre-vaggen",
       "source": {
         "id": "legacy:ringkallen",
         "path": "mediawiki/Ringkallen.txt"
@@ -622,6 +673,7 @@
       "type": "trad",
       "firstAscent": "Per Wermelin, Jan Wermelin -93",
       "description": "",
+      "sectorId": "nedre-vaggen",
       "source": {
         "id": "legacy:ringkallen",
         "path": "mediawiki/Ringkallen.txt"
@@ -637,6 +689,7 @@
       "type": "mix",
       "firstAscent": "Jan Wermelin -99",
       "description": "Mossig och skulle må bra av att få smaka på borsten.",
+      "sectorId": "nedre-vaggen",
       "source": {
         "id": "legacy:ringkallen",
         "path": "mediawiki/Ringkallen.txt"
@@ -652,6 +705,7 @@
       "type": "",
       "firstAscent": "Jan Wermelin, Per Wermelin -98",
       "description": "",
+      "sectorId": "nedre-vaggen",
       "source": {
         "id": "legacy:ringkallen",
         "path": "mediawiki/Ringkallen.txt"
@@ -667,6 +721,7 @@
       "type": "",
       "firstAscent": "Jan Wermelin, Per Wermelin -98",
       "description": "Tunn spricka.",
+      "sectorId": "nedre-vaggen",
       "source": {
         "id": "legacy:ringkallen",
         "path": "mediawiki/Ringkallen.txt"
@@ -682,6 +737,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "Följ pockets i väggens högra del. Bultat ankare på hyllan.",
+      "sectorId": "stora-vaggen",
       "source": {
         "id": "legacy:ringkallen",
         "path": "mediawiki/Ringkallen.txt"
@@ -697,6 +753,7 @@
       "type": "mix",
       "firstAscent": "",
       "description": "Startar på den nedersta hyllan under stora väggen. Klättra upp förbi en björk och sedan med dragning åt vänster mot bullarna på slutet.",
+      "sectorId": "stora-vaggen",
       "source": {
         "id": "legacy:ringkallen",
         "path": "mediawiki/Ringkallen.txt"
@@ -712,6 +769,7 @@
       "type": "mix",
       "firstAscent": "",
       "description": "Startar på den nedersta hyllan under stora väggen. Bultad väggklättring de sista metrarna.",
+      "sectorId": "stora-vaggen",
       "source": {
         "id": "legacy:ringkallen",
         "path": "mediawiki/Ringkallen.txt"
@@ -727,6 +785,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "Starta antingen vid botten av Stora Väggen eller på hyllan något uppåt höger, och klättra genom möjligtvis mossig vägg mot den stora nischen. Efter det vidtar klockren spricka upp mot toppen.",
+      "sectorId": "stora-vaggen",
       "source": {
         "id": "legacy:ringkallen",
         "path": "mediawiki/Ringkallen.txt"
@@ -742,6 +801,7 @@
       "type": "",
       "firstAscent": "Gustav Nilsson -13",
       "description": "Klättra rakt upp i spricklinjen direkt till höger om Geometri hela vägen till toppen. Leden bjuder på bra säkringar första halvan sedan kommer ett lätt parti som kräver lite mer uppfinningsrikedom. (Klättra inte denna som din första 6-)",
+      "sectorId": "stora-vaggen",
       "source": {
         "id": "legacy:ringkallen",
         "path": "mediawiki/Ringkallen.txt"
@@ -757,6 +817,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "Pumpande led med spektakulär klättring den sista biten.",
+      "sectorId": "stora-vaggen",
       "source": {
         "id": "legacy:ringkallen",
         "path": "mediawiki/Ringkallen.txt"
@@ -772,6 +833,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "Lite otypisk för Ringkallen då denna led kräver färdighet att lägga kilar i stället för friends. Se till att det inte blir för glest mellan kilarna på mitten. Klättra AT-läkaren som en egen linje utan att ta vare sig i Oborstad eller Fermentas sprickor, använder du dig av dessa sprickor blir graden lägre...",
+      "sectorId": "stora-vaggen",
       "source": {
         "id": "legacy:ringkallen",
         "path": "mediawiki/Ringkallen.txt"
@@ -787,6 +849,7 @@
       "type": "mix",
       "firstAscent": "",
       "description": "Referensled. Fin-fin väggled uppför Stora Väggen (och rakt genom en av firningspisterna). Följ spricksystemet upp till den rätt så spektakulära och bultade avslutningen.",
+      "sectorId": "stora-vaggen",
       "source": {
         "id": "legacy:ringkallen",
         "path": "mediawiki/Ringkallen.txt"
@@ -802,6 +865,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "Klättra spricklinjen strax vänster om hörnet upp till ett klart oroväckande flak (ryktet säger att man kan hänga knäveck här...), och vidare till \"Piri-piri\"-hyllan. Tappa inte modet här p g a eventuellt \"pirr\" i magen: slutet är närmare än vad man tror.",
+      "sectorId": "stora-vaggen",
       "source": {
         "id": "legacy:ringkallen",
         "path": "mediawiki/Ringkallen.txt"
@@ -817,6 +881,7 @@
       "type": "mix",
       "firstAscent": "",
       "description": "Fin och välsäkrad spricka till höger om hörnet. Avslutningen säkrad med en borrbult.",
+      "sectorId": "stora-vaggen",
       "source": {
         "id": "legacy:ringkallen",
         "path": "mediawiki/Ringkallen.txt"
@@ -832,6 +897,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "Ovanligt klurigt insteg leder vidare till något lättare väggklättring. Viss risk för markfall i starten: säkra noggrannt.",
+      "sectorId": "stora-vaggen",
       "source": {
         "id": "legacy:ringkallen",
         "path": "mediawiki/Ringkallen.txt"
@@ -847,6 +913,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "Är inte så svårsäkrad som man kan tro, men det är nog ändå bra att ha lite marginal på graden innan du går på denna. Ankare på toppen.",
+      "sectorId": "stora-vaggen",
       "source": {
         "id": "legacy:ringkallen",
         "path": "mediawiki/Ringkallen.txt"
@@ -862,6 +929,7 @@
       "type": "",
       "firstAscent": "",
       "description": "Riktigt hård om du går strickt i sprickan. Referensled.",
+      "sectorId": "lilla-vaggen",
       "source": {
         "id": "legacy:ringkallen",
         "path": "mediawiki/Ringkallen.txt"
@@ -877,6 +945,7 @@
       "type": "",
       "firstAscent": "",
       "description": "Dieder.",
+      "sectorId": "lilla-vaggen",
       "source": {
         "id": "legacy:ringkallen",
         "path": "mediawiki/Ringkallen.txt"
@@ -892,6 +961,7 @@
       "type": "sport",
       "firstAscent": "",
       "description": "Tre bultar. Kan behövas en stor friend för att säkra uttoppningen. Läcker arête med känsliga flytt.",
+      "sectorId": "lilla-vaggen",
       "source": {
         "id": "legacy:ringkallen",
         "path": "mediawiki/Ringkallen.txt"
@@ -907,6 +977,7 @@
       "type": "",
       "firstAscent": "",
       "description": "Saknar bladbulten som skyddade kruxet sedan sommaren 2006. Kommer att få ett par borrbultar som ersättning. Referensled.",
+      "sectorId": "lilla-vaggen",
       "source": {
         "id": "legacy:ringkallen",
         "path": "mediawiki/Ringkallen.txt"
@@ -922,6 +993,7 @@
       "type": "",
       "firstAscent": "Per Öhman, Jan Wermelin -91",
       "description": "Svårsäkrad. Spricksystem i väggens högra del",
+      "sectorId": "lilla-vaggen",
       "source": {
         "id": "legacy:ringkallen",
         "path": "mediawiki/Ringkallen.txt"
@@ -937,6 +1009,7 @@
       "type": "",
       "firstAscent": "Per Wermelin, JB -92",
       "description": "Klättra upp till den lodräta sprickan som startar 5m upp och följ sedan den till toppen.",
+      "sectorId": "lilla-vaggen",
       "source": {
         "id": "legacy:ringkallen",
         "path": "mediawiki/Ringkallen.txt"
@@ -952,6 +1025,7 @@
       "type": "",
       "firstAscent": "JB, PB -92",
       "description": "Sprickan till höer om Liten RP.",
+      "sectorId": "lilla-vaggen",
       "source": {
         "id": "legacy:ringkallen",
         "path": "mediawiki/Ringkallen.txt"
@@ -967,6 +1041,7 @@
       "type": "mix",
       "firstAscent": "Per Öhman, Fredrik Wågberg -98",
       "description": "Spricka med ett block i. Fortsätt rakt upp förbi en bult.",
+      "sectorId": "kaminvaggen",
       "source": {
         "id": "legacy:ringkallen",
         "path": "mediawiki/Ringkallen.txt"
@@ -982,6 +1057,7 @@
       "type": "mix",
       "firstAscent": "Per Öhman, Per Wermelin -94",
       "description": "Referensled. Leden startar till vänster om skrevans öppning. Klättra areten upp och förbi ledens första borrbult. Snedda av ut mot sprickan till höger och klättra till vänster om den upp mot det lilla taket. Tre till fyra meter ovan takete kan man välja mellan att fortsätta upp längs areten eller kliva över kaminen och ut på den brantare väggen till höger.",
+      "sectorId": "kaminvaggen",
       "source": {
         "id": "legacy:ringkallen",
         "path": "mediawiki/Ringkallen.txt"
@@ -997,6 +1073,7 @@
       "type": "trad",
       "firstAscent": "Ulrik",
       "description": "Fin och välsäkrad kamin! Startar 3 meter innanför Delicato i given spricka. Möjligheter till spricklättring finns nästan hela vägen om du är mer sugen på det. Starta vid mossig spricka och följ denna upp mot två klämblock (håller att stå på!) som passeras strax innan du toppar ut på hylla med jättetall på. Firningsankare strax nedanför hyllan.",
+      "sectorId": "kaminvaggen",
       "source": {
         "id": "legacy:ringkallen",
         "path": "mediawiki/Ringkallen.txt"
@@ -1012,6 +1089,7 @@
       "type": "trad",
       "firstAscent": "Olof",
       "description": "Nästa spricka inne i kaminen.",
+      "sectorId": "kaminvaggen",
       "source": {
         "id": "legacy:ringkallen",
         "path": "mediawiki/Ringkallen.txt"
@@ -1027,6 +1105,7 @@
       "type": "mix",
       "firstAscent": "",
       "description": "Klättra upp och förbi bultarna. Sväng sedan ut till höger, där leden går ihop med Vindpinad.",
+      "sectorId": "kaminvaggen",
       "source": {
         "id": "legacy:ringkallen",
         "path": "mediawiki/Ringkallen.txt"
@@ -1042,6 +1121,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "Höjd i grad från 6- till 6. Fränt, välsäkrad arete.",
+      "sectorId": "kaminvaggen",
       "source": {
         "id": "legacy:ringkallen",
         "path": "mediawiki/Ringkallen.txt"
@@ -1057,6 +1137,7 @@
       "type": "trad",
       "firstAscent": "Pär Öhman, Per Wermelin 1994",
       "description": "Kliv över skrevan och följ sprickan till tallen.",
+      "sectorId": "ovre-kaminvaggen",
       "source": {
         "id": "legacy:ringkallen",
         "path": "mediawiki/Ringkallen.txt"
@@ -1072,6 +1153,7 @@
       "type": "kil",
       "firstAscent": "Pär Öhman, Fredrik Wågberg 1994",
       "description": "Referensled. Svårsäkrad i starten, vid förstabestigningen användes förplacerade kilar.",
+      "sectorId": "ovre-kaminvaggen",
       "source": {
         "id": "legacy:ringkallen",
         "path": "mediawiki/Ringkallen.txt"
@@ -1087,6 +1169,7 @@
       "type": "mix",
       "firstAscent": "Jan Wermelin, Pär Öhman 1997",
       "description": "Runt hörnet till höger om 'Ledsna fingrar'.",
+      "sectorId": "ovre-kaminvaggen",
       "source": {
         "id": "legacy:ringkallen",
         "path": "mediawiki/Ringkallen.txt"
@@ -1102,6 +1185,7 @@
       "type": "trad",
       "firstAscent": "P.E. 1994",
       "description": "Lös.",
+      "sectorId": "ovre-kaminvaggen",
       "source": {
         "id": "legacy:ringkallen",
         "path": "mediawiki/Ringkallen.txt"
@@ -1117,6 +1201,7 @@
       "type": "mix",
       "firstAscent": "",
       "description": "Cruxig. Sänkt i grad.",
+      "sectorId": "portalvaggen",
       "source": {
         "id": "legacy:ringkallen",
         "path": "mediawiki/Ringkallen.txt"
@@ -1132,6 +1217,7 @@
       "type": "",
       "firstAscent": "",
       "description": "Lite svårsäkrad väggtur till höger om protalen.Referensled",
+      "sectorId": "portalvaggen",
       "source": {
         "id": "legacy:ringkallen",
         "path": "mediawiki/Ringkallen.txt"
@@ -1147,6 +1233,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "Startar i portalen. Håller bara graden om du går rakt upp i fingersprickan utan att röra diedret.",
+      "sectorId": "portalvaggen",
       "source": {
         "id": "legacy:ringkallen",
         "path": "mediawiki/Ringkallen.txt"
@@ -1162,6 +1249,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "Diedret som går från hyllan till höger om portalen.",
+      "sectorId": "portalvaggen",
       "source": {
         "id": "legacy:ringkallen",
         "path": "mediawiki/Ringkallen.txt"
@@ -1177,6 +1265,7 @@
       "type": "mix",
       "firstAscent": "",
       "description": "Väggtur som startar från en hylla. Går att säkra acceptabelt även om den ser tunn ut.",
+      "sectorId": "portalvaggen",
       "source": {
         "id": "legacy:ringkallen",
         "path": "mediawiki/Ringkallen.txt"
@@ -1192,6 +1281,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "Klockren, men ack så kort spricka. Referensled",
+      "sectorId": "portalvaggen",
       "source": {
         "id": "legacy:ringkallen",
         "path": "mediawiki/Ringkallen.txt"
@@ -1207,6 +1297,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "Inklämd/tveksam",
+      "sectorId": "portalvaggen",
       "source": {
         "id": "legacy:ringkallen",
         "path": "mediawiki/Ringkallen.txt"
@@ -1222,6 +1313,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "Leden längst till höger på Portalväggen. Går upp till en liten tall som hänger ut över kanten. Riktigt små kammar och kilar är bra att ha.",
+      "sectorId": "portalvaggen",
       "source": {
         "id": "legacy:ringkallen",
         "path": "mediawiki/Ringkallen.txt"
@@ -1237,6 +1329,7 @@
       "type": "",
       "firstAscent": "Jan Wermelin, Per Öhman",
       "description": "Går till vänster om Näcken. Bultar + Firningsankare.",
+      "sectorId": "overhangande-vaggen",
       "source": {
         "id": "legacy:ringkallen",
         "path": "mediawiki/Ringkallen.txt"
@@ -1252,6 +1345,7 @@
       "type": "",
       "firstAscent": "JS, RG",
       "description": "Passande namn! Går på den knottriga väggen strax före Tonusväggen. Samma firningsankare som på Pet Problem. Ankare uppe vid Överhängsväggen.",
+      "sectorId": "overhangande-vaggen",
       "source": {
         "id": "legacy:ringkallen",
         "path": "mediawiki/Ringkallen.txt"
@@ -1267,6 +1361,7 @@
       "type": "sport",
       "firstAscent": "Kari Nikkuma -97",
       "description": "Den bultade leden längst till vänster på överhängande väggen. Hårdast på berget",
+      "sectorId": "overhangande-vaggen",
       "source": {
         "id": "legacy:ringkallen",
         "path": "mediawiki/Ringkallen.txt"
@@ -1282,6 +1377,7 @@
       "type": "trad",
       "firstAscent": "Kari Nikkuma 1997",
       "description": "Fantastisk spricka, välsäkrad och pumpande",
+      "sectorId": "overhangande-vaggen",
       "source": {
         "id": "legacy:ringkallen",
         "path": "mediawiki/Ringkallen.txt"
@@ -1297,6 +1393,7 @@
       "type": "trad",
       "firstAscent": "Kari Nikkuma, Jan Wermelin 1999",
       "description": "Starta som Rätt åt dig men traversera direkt vänster på rampen (dåligt säkrat) över till nischen på Jämtland, jämtland. Klättra sedan den vänstra, tunnare sprickan (bra säkrat).",
+      "sectorId": "overhangande-vaggen",
       "source": {
         "id": "legacy:ringkallen",
         "path": "mediawiki/Ringkallen.txt"
@@ -1312,6 +1409,7 @@
       "type": "mix",
       "firstAscent": "Kari Nikkuma, Jan Wermelin -99",
       "description": "Referensled. Starten är lite pillrig att säkra (små kamkilar och en liten kil).",
+      "sectorId": "overhangande-vaggen",
       "source": {
         "id": "legacy:ringkallen",
         "path": "mediawiki/Ringkallen.txt"
@@ -1327,6 +1425,7 @@
       "type": "mix",
       "firstAscent": "Kari Nikkuma, Jan Wermelin 1999",
       "description": "Starta som Rätt åt dig och gå sedan in till första BB på Syra miner. Fortsätt upp åt höger in i Stressgubben och avsluta leden. Finast på Ringkallen?",
+      "sectorId": "overhangande-vaggen",
       "source": {
         "id": "legacy:ringkallen",
         "path": "mediawiki/Ringkallen.txt"
@@ -1342,6 +1441,7 @@
       "type": "mix",
       "firstAscent": "",
       "description": "Ankare",
+      "sectorId": "overhangande-vaggen",
       "source": {
         "id": "legacy:ringkallen",
         "path": "mediawiki/Ringkallen.txt"
@@ -1357,6 +1457,7 @@
       "type": "mix",
       "firstAscent": "Jan Wermelin, PO -96",
       "description": "Referensled. Firningsankare. Starta vid taköverhänget, stressande start, rakt upp på hyfsade grepp till borrbult. Tunn spricka i litet dieder, sen upp lite vänster till en hylla med nästa borrbult. Ta med en uppsättning kammar och ett kilknippe.",
+      "sectorId": "overhangande-vaggen",
       "source": {
         "id": "legacy:ringkallen",
         "path": "mediawiki/Ringkallen.txt"
@@ -1372,6 +1473,7 @@
       "type": "mix",
       "firstAscent": "B.K., Per Öhman 1995",
       "description": "Välsäkrad och väldigt rolig.Referensled. Firningsankare.",
+      "sectorId": "overhangande-vaggen",
       "source": {
         "id": "legacy:ringkallen",
         "path": "mediawiki/Ringkallen.txt"
@@ -1387,6 +1489,7 @@
       "type": "trad",
       "firstAscent": "Per Öhman, Jan Wermelin 1997",
       "description": "Referensled. Bökigt att komma upp till insteget. Dieder.",
+      "sectorId": "overhangande-vaggen",
       "source": {
         "id": "legacy:ringkallen",
         "path": "mediawiki/Ringkallen.txt"
@@ -1402,6 +1505,7 @@
       "type": "sport",
       "firstAscent": "Kari Nikkuma 1999",
       "description": "Referensled. Väggklättring på klippartiet till höger om huvudväggen. Firningsankare.",
+      "sectorId": "overhangande-vaggen",
       "source": {
         "id": "legacy:ringkallen",
         "path": "mediawiki/Ringkallen.txt"
@@ -1417,6 +1521,7 @@
       "type": "mix",
       "firstAscent": "Kari Nikkuma, Gudmund Söderin 1997",
       "description": "Referensled. Firningsankare. Leden går ovanför självaste Överhängande väggen inne i en skreva till vänster om svaväggen. Följer en spricka diagonalt upp mot några bultar. Tung och trixig. Ofta kallt klimat.",
+      "sectorId": "overhangande-vaggen",
       "source": {
         "id": "legacy:ringkallen",
         "path": "mediawiki/Ringkallen.txt"
@@ -1432,6 +1537,7 @@
       "type": "",
       "firstAscent": "",
       "description": "Ligger inne i ravinen, till vänster om Gryning. Följ den givna linjen till toppen av svaväggen. Lös!",
+      "sectorId": "svavaggen",
       "source": {
         "id": "legacy:ringkallen",
         "path": "mediawiki/Ringkallen.txt"
@@ -1447,6 +1553,7 @@
       "type": "",
       "firstAscent": "",
       "description": "Startar inne i ravinen på svaväggssidan. Omväxlande diederklättring som kan upplevas lite sandig.Referensled.",
+      "sectorId": "svavaggen",
       "source": {
         "id": "legacy:ringkallen",
         "path": "mediawiki/Ringkallen.txt"
@@ -1462,6 +1569,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "Lös! Se upp med denna. Passera det lilla taket och flöj srickorna till toppen. Och det enorma blocket du ser på övre halvan är löst. Klättras aldrig.",
+      "sectorId": "svavaggen",
       "source": {
         "id": "legacy:ringkallen",
         "path": "mediawiki/Ringkallen.txt"
@@ -1477,6 +1585,7 @@
       "type": "",
       "firstAscent": "",
       "description": "Till vänster om 'Panorama'. Går upp mot det sneda taket och slutar som 'Panorma'.",
+      "sectorId": "svavaggen",
       "source": {
         "id": "legacy:ringkallen",
         "path": "mediawiki/Ringkallen.txt"
@@ -1492,6 +1601,7 @@
       "type": "",
       "firstAscent": "",
       "description": "Förbi bultarna och sedan upp längs arêten. Referensled.",
+      "sectorId": "svavaggen",
       "source": {
         "id": "legacy:ringkallen",
         "path": "mediawiki/Ringkallen.txt"
@@ -1507,6 +1617,7 @@
       "type": "",
       "firstAscent": "Jan Wermelin, Per Öhman -92",
       "description": "Klättra upp till blocket och traversera sedan vänster. Sikta på det oborstade hacket. Lös.",
+      "sectorId": "svavaggen",
       "source": {
         "id": "legacy:ringkallen",
         "path": "mediawiki/Ringkallen.txt"
@@ -1522,6 +1633,7 @@
       "type": "",
       "firstAscent": "",
       "description": "Referensled. Går via tydliga hyllor/formationer rakt upp i ett stort dieder som passerar två små tallar. Firningsankare 3 meter till höger om uttoppningen. Välsäkrad.",
+      "sectorId": "svavaggen",
       "source": {
         "id": "legacy:ringkallen",
         "path": "mediawiki/Ringkallen.txt"
@@ -1537,6 +1649,7 @@
       "type": "",
       "firstAscent": "",
       "description": "Går strax till höger om Tre vise män, via diedret som viker av åt höger. Firningsankare.",
+      "sectorId": "svavaggen",
       "source": {
         "id": "legacy:ringkallen",
         "path": "mediawiki/Ringkallen.txt"
@@ -1552,6 +1665,7 @@
       "type": "",
       "firstAscent": "",
       "description": "",
+      "sectorId": "svavaggen",
       "source": {
         "id": "legacy:ringkallen",
         "path": "mediawiki/Ringkallen.txt"
@@ -1567,6 +1681,7 @@
       "type": "",
       "firstAscent": "",
       "description": "En bult på slutet. Ankare.",
+      "sectorId": "ovre-svavaggen",
       "source": {
         "id": "legacy:ringkallen",
         "path": "mediawiki/Ringkallen.txt"
@@ -1582,6 +1697,7 @@
       "type": "mix",
       "firstAscent": "",
       "description": "Traversera ut till slutet på bamse för att undvika rutten klippa.",
+      "sectorId": "ovre-svavaggen",
       "source": {
         "id": "legacy:ringkallen",
         "path": "mediawiki/Ringkallen.txt"
@@ -1597,6 +1713,7 @@
       "type": "trad",
       "firstAscent": "?",
       "description": "Den flakiga linjen till höer av väggen. Ihåliga och ruttna flak. Välj en annan led.",
+      "sectorId": "ovre-svavaggen",
       "source": {
         "id": "legacy:ringkallen",
         "path": "mediawiki/Ringkallen.txt"
@@ -1612,6 +1729,7 @@
       "type": "",
       "firstAscent": "",
       "description": "Riktigt brant tradd! Otroligt läcker. Ligger på en egen klippelare till höger om Övre Svaväggen.",
+      "sectorId": "ovre-svavaggen",
       "source": {
         "id": "legacy:ringkallen",
         "path": "mediawiki/Ringkallen.txt"
@@ -1627,6 +1745,7 @@
       "type": "mix",
       "firstAscent": "Per Öhmnan, Jan Wermelin 1997",
       "description": "Går att lägga en kamkil före första borrbulten. Över tak",
+      "sectorId": "ruttna-vaggen",
       "source": {
         "id": "legacy:ringkallen",
         "path": "mediawiki/Ringkallen.txt"
@@ -1642,6 +1761,7 @@
       "type": "trad",
       "firstAscent": "Jan Wermelin, Per Wermelin 1994",
       "description": "Referensled. Traversera vänster 5m under toppen för att undvika lös klippa.",
+      "sectorId": "ruttna-vaggen",
       "source": {
         "id": "legacy:ringkallen",
         "path": "mediawiki/Ringkallen.txt"
@@ -1657,6 +1777,7 @@
       "type": "trad",
       "firstAscent": "Jan Wermelin, Per Öhmnan 1997",
       "description": "Lite läskig...",
+      "sectorId": "ruttna-vaggen",
       "source": {
         "id": "legacy:ringkallen",
         "path": "mediawiki/Ringkallen.txt"
@@ -1672,6 +1793,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "Kort led med stora grepp, men leden är överhängande och har lite pillriga säkringar så pump garanteras ändå. Perfekt uppvärmning för lederna på överhängande väggen.",
+      "sectorId": "tonusvaggen",
       "source": {
         "id": "legacy:ringkallen",
         "path": "mediawiki/Ringkallen.txt"
@@ -1687,6 +1809,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "Brant för graden. Leden följer spricksystemet på areten till höger om Tonus. Blocken kan ibland låta lite ihåliga, men det brukar ändå gå bra.",
+      "sectorId": "tonusvaggen",
       "source": {
         "id": "legacy:ringkallen",
         "path": "mediawiki/Ringkallen.txt"
@@ -1702,6 +1825,7 @@
       "type": "mix",
       "firstAscent": "",
       "description": "Offwidth-sprickan till höger om System. Börja lite längre till höger och bouldra förbi bulten så får du ticka grad 6. Toppankare.",
+      "sectorId": "tonusvaggen",
       "source": {
         "id": "legacy:ringkallen",
         "path": "mediawiki/Ringkallen.txt"
@@ -1717,6 +1841,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "Inte helt självklar att säkra. Gör inte denna som din första 6:a.",
+      "sectorId": "tonusvaggen",
       "source": {
         "id": "legacy:ringkallen",
         "path": "mediawiki/Ringkallen.txt"
@@ -1732,6 +1857,7 @@
       "type": "mix",
       "firstAscent": "Per Öhamn -93",
       "description": "Insteget är lite till vänster om ledens borrbult. Från hyllan klättrar man sprickan till toppen.",
+      "sectorId": "nedre-tonusvaggen",
       "source": {
         "id": "legacy:ringkallen",
         "path": "mediawiki/Ringkallen.txt"
@@ -1747,6 +1873,7 @@
       "type": "sport",
       "firstAscent": "",
       "description": "Glesbultad väggklättring.",
+      "sectorId": "nedre-tonusvaggen",
       "source": {
         "id": "legacy:ringkallen",
         "path": "mediawiki/Ringkallen.txt"
@@ -1762,6 +1889,7 @@
       "type": "trad",
       "firstAscent": "Per Öhamn, Jan Wermelin -96",
       "description": "Spricksystemet till höger om Jällolabel. Hård för graden.",
+      "sectorId": "nedre-tonusvaggen",
       "source": {
         "id": "legacy:ringkallen",
         "path": "mediawiki/Ringkallen.txt"
@@ -1777,6 +1905,7 @@
       "type": "trad",
       "firstAscent": "Per Öhman, Jan Wermelin -94",
       "description": "På en egen vägg till vänster. Ett sätt att ta sig till svaväggen. Inte helt ren.",
+      "sectorId": "ovre-tonusvaggen",
       "source": {
         "id": "legacy:ringkallen",
         "path": "mediawiki/Ringkallen.txt"
@@ -1792,6 +1921,7 @@
       "type": "mix",
       "firstAscent": "",
       "description": "Bultat ankare. Kryp in under blocket för att komma till insteget",
+      "sectorId": "ovre-tonusvaggen",
       "source": {
         "id": "legacy:ringkallen",
         "path": "mediawiki/Ringkallen.txt"
@@ -1807,6 +1937,7 @@
       "type": "mix",
       "firstAscent": "",
       "description": "Bultat ankare.",
+      "sectorId": "ovre-tonusvaggen",
       "source": {
         "id": "legacy:ringkallen",
         "path": "mediawiki/Ringkallen.txt"
@@ -1822,6 +1953,7 @@
       "type": "mix",
       "firstAscent": "",
       "description": "Bultat ankare. Tydlig spricka på högra delen. Går ut till aretet, sedan via bb till toppen.",
+      "sectorId": "ovre-tonusvaggen",
       "source": {
         "id": "legacy:ringkallen",
         "path": "mediawiki/Ringkallen.txt"
@@ -1837,6 +1969,7 @@
       "type": "mix",
       "firstAscent": "",
       "description": "Bultat ankare, gemensamt med 'Foton fobi'. Startar som Snedsteg men går direkt ut till aretet och klättra förbi ett litet tak, därefter fortsätter man på högra sidan av aretet. Liten kamkil till första kruxet, lång slinga till slutet.",
+      "sectorId": "ovre-tonusvaggen",
       "source": {
         "id": "legacy:ringkallen",
         "path": "mediawiki/Ringkallen.txt"
@@ -1852,6 +1985,7 @@
       "type": "mix",
       "firstAscent": "B.K. 1995",
       "description": "Brant och kul. Två bultar + något eget. Inget toppankare, så ta med något extra för standplats på toppen.",
+      "sectorId": "harrda-vaggen",
       "source": {
         "id": "legacy:ringkallen",
         "path": "mediawiki/Ringkallen.txt"
@@ -1867,6 +2001,7 @@
       "type": "mix",
       "firstAscent": "Jan Wermelin, Per Wermelin 1993",
       "description": "Referensled.",
+      "sectorId": "harrda-vaggen",
       "source": {
         "id": "legacy:ringkallen",
         "path": "mediawiki/Ringkallen.txt"
@@ -1882,6 +2017,7 @@
       "type": "mix",
       "firstAscent": "Per Wermelin, J.B. 1994",
       "description": "",
+      "sectorId": "harrda-vaggen",
       "source": {
         "id": "legacy:ringkallen",
         "path": "mediawiki/Ringkallen.txt"
@@ -1897,6 +2033,7 @@
       "type": "trad",
       "firstAscent": "Per Öhman, Jan Wermelin 1994",
       "description": "Referensled.",
+      "sectorId": "harrda-vaggen",
       "source": {
         "id": "legacy:ringkallen",
         "path": "mediawiki/Ringkallen.txt"
@@ -1912,6 +2049,7 @@
       "type": "mix",
       "firstAscent": "Jan Wermelin, B.K och Per Öhman 1995",
       "description": "",
+      "sectorId": "harrda-vaggen",
       "source": {
         "id": "legacy:ringkallen",
         "path": "mediawiki/Ringkallen.txt"
@@ -1927,6 +2065,7 @@
       "type": "trad",
       "firstAscent": "Jan Wermelin, Per Öhman, EK.Ö. 1993",
       "description": "",
+      "sectorId": "harrda-vaggen",
       "source": {
         "id": "legacy:ringkallen",
         "path": "mediawiki/Ringkallen.txt"
@@ -1942,6 +2081,7 @@
       "type": "mix",
       "firstAscent": "Jan Wermelin 1995",
       "description": "Referensled",
+      "sectorId": "harrda-vaggen",
       "source": {
         "id": "legacy:ringkallen",
         "path": "mediawiki/Ringkallen.txt"
@@ -1957,6 +2097,7 @@
       "type": "mix",
       "firstAscent": "Jan Wermelin, Fredrik Wågberg 2000",
       "description": "Referensled. Går i ravinen ovanför Borrkrona. Följ sicksacksprickan upp mot bultarna. Firningsankare.",
+      "sectorId": "harrda-vaggen",
       "source": {
         "id": "legacy:ringkallen",
         "path": "mediawiki/Ringkallen.txt"
@@ -1972,6 +2113,7 @@
       "type": "trad",
       "firstAscent": "Per Wermelin, J.B 1994",
       "description": "",
+      "sectorId": "partyhyllan",
       "source": {
         "id": "legacy:ringkallen",
         "path": "mediawiki/Ringkallen.txt"
@@ -1987,6 +2129,7 @@
       "type": "trad",
       "firstAscent": "J.B., Per Wermelin 1994",
       "description": "",
+      "sectorId": "partyhyllan",
       "source": {
         "id": "legacy:ringkallen",
         "path": "mediawiki/Ringkallen.txt"
@@ -2002,6 +2145,7 @@
       "type": "mix",
       "firstAscent": "",
       "description": "Går på väggen längst till vänster på strandväggarna. Startar från hyllan.",
+      "sectorId": "strandvaggarna",
       "source": {
         "id": "legacy:ringkallen",
         "path": "mediawiki/Ringkallen.txt"
@@ -2017,6 +2161,7 @@
       "type": "trad",
       "firstAscent": "Per Öhamn, Jan Wermelin -98",
       "description": "Sprickan till höger om Tjäderskräck.",
+      "sectorId": "strandvaggarna",
       "source": {
         "id": "legacy:ringkallen",
         "path": "mediawiki/Ringkallen.txt"
@@ -2032,6 +2177,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "Tydlig spricka som går genom ett litet tak på slutet. Till vänster om Krås. Ofta blöt. Bultat ankare.",
+      "sectorId": "strandvaggarna",
       "source": {
         "id": "legacy:ringkallen",
         "path": "mediawiki/Ringkallen.txt"
@@ -2047,6 +2193,7 @@
       "type": "mix",
       "firstAscent": "",
       "description": "Startar vid ett tunnt utstickande flak.",
+      "sectorId": "strandvaggarna",
       "source": {
         "id": "legacy:ringkallen",
         "path": "mediawiki/Ringkallen.txt"
@@ -2062,6 +2209,7 @@
       "type": "mix",
       "firstAscent": "",
       "description": "Går på en egen lite diagonal pelare",
+      "sectorId": "strandvaggarna",
       "source": {
         "id": "legacy:ringkallen",
         "path": "mediawiki/Ringkallen.txt"
@@ -2077,6 +2225,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "Längst till vänster på väggen. Välsäkrad och fysisk!",
+      "sectorId": "strandvaggarna",
       "source": {
         "id": "legacy:ringkallen",
         "path": "mediawiki/Ringkallen.txt"
@@ -2092,6 +2241,7 @@
       "type": "mix",
       "firstAscent": "",
       "description": "I mitten på nedre strandväggen. En bult i starten och två i slutet visar vägen.",
+      "sectorId": "strandvaggarna",
       "source": {
         "id": "legacy:ringkallen",
         "path": "mediawiki/Ringkallen.txt"
@@ -2107,6 +2257,7 @@
       "type": "mix",
       "firstAscent": "",
       "description": "Högra ytterhörnet på nedre strandväggen.",
+      "sectorId": "strandvaggarna",
       "source": {
         "id": "legacy:ringkallen",
         "path": "mediawiki/Ringkallen.txt"
@@ -2122,6 +2273,7 @@
       "type": "mix",
       "firstAscent": "",
       "description": "",
+      "sectorId": "strandvaggarna",
       "source": {
         "id": "legacy:ringkallen",
         "path": "mediawiki/Ringkallen.txt"
@@ -2137,6 +2289,7 @@
       "type": "sport",
       "firstAscent": "",
       "description": "",
+      "sectorId": "strandvaggarna",
       "source": {
         "id": "legacy:ringkallen",
         "path": "mediawiki/Ringkallen.txt"
@@ -2147,47 +2300,56 @@
     {
       "filename": "Ringkallen_fikaplats.jpg",
       "caption": "Pär Lindholm",
-      "missing": false
+      "missing": false,
+      "sectorId": "viktig-accessinformation"
     },
     {
       "filename": "Ringkallen_oversikt_split.jpg",
       "caption": "600 px",
-      "missing": false
+      "missing": false,
+      "sectorId": "oversikt-vaggar"
     },
     {
       "filename": "Fikaväggen_mitt_topo.jpg",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "fikavaggen"
     },
     {
       "filename": "Fikaväggen_höger.jpg",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "fikavaggen"
     },
     {
       "filename": "Sista_marängen.jpg",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "fikavaggen"
     },
     {
       "filename": "Kaminväggen_vänster.jpg",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "kaminvaggen"
     },
     {
       "filename": "Ringkallen_matt_nollpositiv.jpg",
       "caption": "Pär Lindholm",
-      "missing": false
+      "missing": false,
+      "sectorId": "portalvaggen"
     },
     {
       "filename": "Pet-problemväggen.jpg",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "overhangande-vaggen"
     },
     {
       "filename": "Ringkallen_panorama.gif",
       "caption": "Per Lindh",
-      "missing": false
+      "missing": false,
+      "sectorId": "fler-bilder"
     }
   ],
   "access": {

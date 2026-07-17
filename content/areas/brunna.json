@@ -35,6 +35,11 @@
       "body": "Kör väg 162 från Hallinden mot Lysekil För parkering på P1 : Efter någon kilometer väg in till vänster mittemot busshållplats \"Staxäng\". 90 grader höger och efter en bit 90 grader vänster och sedan uppför en backe. Mitt i denna en traktorväg på vänster sida. Kör in på denna och parkera. För parkering på P2 : Fortsätt förbi hållplats \"Staxäng\" ytterligare 700 meter. Sväng vänster och håll höger när vägen så småningom delar sig. När du passerat sommarstugan på vänster hand ser du Jan-Åkes hus framme till vänster - bakom några uthus. Gå över ängen som ligger öster om Jan-Åkes hus och igenom ett kortare platt skogsparti. Du kommer då fram till den stora äng som ligger framför Brunna"
     },
     {
+      "id": "leder",
+      "title": "Leder",
+      "body": ""
+    },
+    {
       "id": "nordvaggen",
       "title": "Nordväggen",
       "body": "Uppstigning/nedstigning – enkel - till vänster om väggen. Två leder är gjorda på väggen:"
@@ -61,6 +66,7 @@
       "type": "trad",
       "firstAscent": "Jan Leyon, Geir Eriksen 2011",
       "description": "Långt till vänster på väggen. Insteg i ett stort hörn och rätt upp i den uppenbara sprickan. Tall vid utsteget. Jämn i graden",
+      "sectorId": "nordvaggen",
       "source": {
         "id": "legacy:brunna",
         "path": "mediawiki/Brunna.txt"
@@ -76,6 +82,7 @@
       "type": "trad",
       "firstAscent": "Geir Eriksen, Jan Leyon 2011",
       "description": "Långt till höger på väggen. Insteg i en handspricka under två block. Travers vänster och så upp i sprickan och vidare i sprickformationer till en tall på toppen. Insteget är nästan ledens krux – och traversen är inte bara en promenad..",
+      "sectorId": "nordvaggen",
       "source": {
         "id": "legacy:brunna",
         "path": "mediawiki/Brunna.txt"
@@ -91,6 +98,7 @@
       "type": "trad",
       "firstAscent": "Jan Leyon, Geir Eriksen 2010",
       "description": "Längst till vänster på väggen. Insteg i det uppenbara vänstervända diedret. Kruxet kommer nästan direkt – med precis lagom med säkringar så att det känns roligt. Du får sedan belöningen i form av 25 meters kalasklättring på lite större formationer!",
+      "sectorId": "vastvaggen",
       "source": {
         "id": "legacy:brunna",
         "path": "mediawiki/Brunna.txt"
@@ -106,6 +114,7 @@
       "type": "trad",
       "firstAscent": "Edvin Mellergård, Marcus von Schmalensee 2013-08-28",
       "description": "Rpl. 1. (Grad 6) Startar 50 m till vänster om \"En tjur och nio kvigor\". Klättra flak formationer upp till den tydliga sprickan/försvagningen i det stora taket. Passera detta och fortsätt uppför flak och sprickor till en stor hylla. Rpl 2.(Grad 6/5-) Fortsätt antingen direkt upp åt höger i hörnet(grad 5-, smutsigt) eller gå några meter åt vänster och klättra det tydliga spricksystemet.(Grad 6)",
+      "sectorId": "vastvaggen",
       "source": {
         "id": "legacy:brunna",
         "path": "mediawiki/Brunna.txt"
@@ -121,6 +130,7 @@
       "type": "trad",
       "firstAscent": "Geir Eriksen, Jan Leyon 2010",
       "description": "Långt till höger på väggen. Börja bakom ett stort block, i det vänstervända diedret. Leden är överhängande i början men är här lättare än vad den ser ut. Sedan minskar lutningen och svårigheterna ökar. Firningsslinga med länk i en tall 10 meter till höger om utsteget",
+      "sectorId": "vastvaggen",
       "source": {
         "id": "legacy:brunna",
         "path": "mediawiki/Brunna.txt"
@@ -136,6 +146,7 @@
       "type": "trad",
       "firstAscent": "Geir Eriksen, Jan Leyon 2011",
       "description": "10 meter till höger om föregående led. Scrambla upp till en hylla med två träd, 5 meter ovan marken. Upp i kaminen till överhänget. Använd dig initialt av bägge sprickorna för att sedan göra utsteget i den vänstra. Fina handjam på kruxet! Firningsslinga med länk i en tall 5 meter ovan utsteget",
+      "sectorId": "vastvaggen",
       "source": {
         "id": "legacy:brunna",
         "path": "mediawiki/Brunna.txt"
@@ -145,8 +156,9 @@
   "images": [
     {
       "filename": "Brunna_Västväggen.jpg",
-      "caption": "500px",
-      "missing": false
+      "caption": "",
+      "missing": false,
+      "sectorId": "vastvaggen"
     }
   ],
   "access": {

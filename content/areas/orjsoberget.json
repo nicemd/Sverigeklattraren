@@ -37,6 +37,16 @@
       "id": "bouldering",
       "title": "Bouldering",
       "body": "Örsjöklippan innehåller en del problem som främst finns belägna på blocken ovanför klippan. Norr om stigen som leder till klippan finns också ett fåtal problem. 2010-07-25 fanns det *Totalt 16 problem *Upp till 5C 12 problem *6A till 6C+ 4 problem *7A till 7C+ 0 problem"
+    },
+    {
+      "id": "leder",
+      "title": "Leder",
+      "body": ""
+    },
+    {
+      "id": "1-storavaggen",
+      "title": "1. Storaväggen",
+      "body": ""
     }
   ],
   "routes": [
@@ -50,6 +60,7 @@
       "type": "trad",
       "firstAscent": "Peter H 2011",
       "description": "Start vid botten av ravinen vänster om klippan. Följ aréten till bultat ankare. (Sportprojekt)",
+      "sectorId": "1-storavaggen",
       "source": {
         "id": "legacy:orjsoberget",
         "path": "mediawiki/Örjsöberget.txt"
@@ -65,6 +76,7 @@
       "type": "trad",
       "firstAscent": "Jakob H,Erik L 2000",
       "description": "Insteg vid spricksystemet 1m t.v.om det vänstra diedret. Klättra rakt uppmed en armlängds avstånd från aréten. Tunna lister och grepp. Ankare. (Sportprojekt)",
+      "sectorId": "1-storavaggen",
       "source": {
         "id": "legacy:orjsoberget",
         "path": "mediawiki/Örjsöberget.txt"
@@ -80,6 +92,7 @@
       "type": "trad",
       "firstAscent": "Jakob H, 2005",
       "description": "Det vänstra diedret genom irriterande vegetation. Avsluta på hyllan eller fortsätt den grunda sprickan till toppen.",
+      "sectorId": "1-storavaggen",
       "source": {
         "id": "legacy:orjsoberget",
         "path": "mediawiki/Örjsöberget.txt"
@@ -95,6 +108,7 @@
       "type": "trad",
       "firstAscent": "Peter H/Jakob H (Möjligtvis gjord tidigare) 2011",
       "description": "Linjen vänster om överhänget. Startar med hjälp av blocket. Ankare. (Sportprojekt).",
+      "sectorId": "1-storavaggen",
       "source": {
         "id": "legacy:orjsoberget",
         "path": "mediawiki/Örjsöberget.txt"
@@ -110,6 +124,7 @@
       "type": "trad",
       "firstAscent": "Peter H, Erik L 2011",
       "description": "Samma start som Strykjärnet men avsluta över taket. Ankare. (Sportprojekt)",
+      "sectorId": "1-storavaggen",
       "source": {
         "id": "legacy:orjsoberget",
         "path": "mediawiki/Örjsöberget.txt"
@@ -125,6 +140,7 @@
       "type": "trad",
       "firstAscent": "[[]] [[]]",
       "description": "Startar i den överhängande delen två meter t.v. om Bogren. Projekt",
+      "sectorId": "1-storavaggen",
       "source": {
         "id": "legacy:orjsoberget",
         "path": "mediawiki/Örjsöberget.txt"
@@ -140,6 +156,7 @@
       "type": "trad",
       "firstAscent": "[[]] [[]]",
       "description": "Linjen t.v. om Sprickan. (Sportprojekt).",
+      "sectorId": "1-storavaggen",
       "source": {
         "id": "legacy:orjsoberget",
         "path": "mediawiki/Örjsöberget.txt"
@@ -155,6 +172,7 @@
       "type": "trad",
       "firstAscent": "Okänd [[]]",
       "description": "Den tydliga sprickan i högra didret. Väl uppe i sprickan väntar ihållande layback klättring. Välsäkrad med friends. Ankare.",
+      "sectorId": "1-storavaggen",
       "source": {
         "id": "legacy:orjsoberget",
         "path": "mediawiki/Örjsöberget.txt"
@@ -170,6 +188,7 @@
       "type": "trad",
       "firstAscent": "Mattias B [[]]",
       "description": "Spricksystemet t.h. om Namnlös 1. Kruxet är den överhängande biten. Välsäkrad men tung. Ankare",
+      "sectorId": "1-storavaggen",
       "source": {
         "id": "legacy:orjsoberget",
         "path": "mediawiki/Örjsöberget.txt"
@@ -185,6 +204,7 @@
       "type": "trad",
       "firstAscent": "Jakob H [2005]",
       "description": "Insteg vid de pelarliknande formationerna (löst) Klättra upp mot bullen där man bökar sig över denna för att sedan kort traversera t.v. och sedan följa den tunna sprickan.",
+      "sectorId": "1-storavaggen",
       "source": {
         "id": "legacy:orjsoberget",
         "path": "mediawiki/Örjsöberget.txt"
@@ -200,6 +220,7 @@
       "type": "trad",
       "firstAscent": "Okänd",
       "description": "Bakom blocket börjar denna korta men lite aviga led. Klättra den lätt överhängande sprickan och sedan efter lister till utsteget.",
+      "sectorId": "1-storavaggen",
       "source": {
         "id": "legacy:orjsoberget",
         "path": "mediawiki/Örjsöberget.txt"
@@ -215,6 +236,7 @@
       "type": "trad",
       "firstAscent": "Mattias B, Milly L",
       "description": "Sprickan som ligger bakom trädet.",
+      "sectorId": "1-storavaggen",
       "source": {
         "id": "legacy:orjsoberget",
         "path": "mediawiki/Örjsöberget.txt"

@@ -34,6 +34,26 @@
       "body": "titel=Morarna lat=18280391 long=59088781 Kör Nynäshamnsvägen, sväng av mot Dalarö och kör tills du har en lanthandel på höger sida. Sväng höger mot Gålö och efter ca 1km sväng vänster vid skylt Gålö havsbad och Skälåker. Klippan ligger på vänster sida efter ca 3km. Kör in på parkeringen vid fornstigen. Parkeringen ligger på vänster sida strax före hembygdsmuseet (röda byggnader på höger sida av vägen)."
     },
     {
+      "id": "leder",
+      "title": "Leder",
+      "body": ""
+    },
+    {
+      "id": "vanstra-vaggen",
+      "title": "Vänstra väggen",
+      "body": ""
+    },
+    {
+      "id": "huvudvaggen",
+      "title": "Huvudväggen",
+      "body": ""
+    },
+    {
+      "id": "hogra-vaggen",
+      "title": "Högra väggen",
+      "body": ""
+    },
+    {
       "id": "eldare-vaggen",
       "title": "Eldare väggen",
       "body": "Ligger ca 20m till höger Kategori:Saknar kolumner Kategori:Stockholm Kategori:Södra Södertörn Kategori:Trad Kategori:Sport Kategori:Vertikalt Kategori:Överhäng"
@@ -50,6 +70,7 @@
       "type": "sport",
       "firstAscent": "Johan Luhr-91",
       "description": "Mycket överhängande led med dynamisk klättring",
+      "sectorId": "vanstra-vaggen",
       "source": {
         "id": "legacy:morarna",
         "path": "mediawiki/Morarna.txt"
@@ -65,6 +86,7 @@
       "type": "sport",
       "firstAscent": "Johan Boman, Jimmy Paladino-98",
       "description": "Går på kanten",
+      "sectorId": "vanstra-vaggen",
       "source": {
         "id": "legacy:morarna",
         "path": "mediawiki/Morarna.txt"
@@ -80,6 +102,7 @@
       "type": "sport",
       "firstAscent": "Stefan Ösund, Anders Landström-89",
       "description": "",
+      "sectorId": "vanstra-vaggen",
       "source": {
         "id": "legacy:morarna",
         "path": "mediawiki/Morarna.txt"
@@ -95,6 +118,7 @@
       "type": "mix",
       "firstAscent": "Lennart Swahn, Kay von Damm-94",
       "description": "",
+      "sectorId": "vanstra-vaggen",
       "source": {
         "id": "legacy:morarna",
         "path": "mediawiki/Morarna.txt"
@@ -110,6 +134,7 @@
       "type": "mix",
       "firstAscent": "Johan Luhr",
       "description": "",
+      "sectorId": "huvudvaggen",
       "source": {
         "id": "legacy:morarna",
         "path": "mediawiki/Morarna.txt"
@@ -125,6 +150,7 @@
       "type": "",
       "firstAscent": "Jan Liliemark-83",
       "description": "",
+      "sectorId": "huvudvaggen",
       "source": {
         "id": "legacy:morarna",
         "path": "mediawiki/Morarna.txt"
@@ -140,6 +166,7 @@
       "type": "sport",
       "firstAscent": "Bogi Palfay, Claes Jelinek -90",
       "description": "10m till vänster om Onskans hemvist",
+      "sectorId": "huvudvaggen",
       "source": {
         "id": "legacy:morarna",
         "path": "mediawiki/Morarna.txt"
@@ -155,6 +182,7 @@
       "type": "mix",
       "firstAscent": "Daniel Bidner, Claes Jelinek-90",
       "description": "",
+      "sectorId": "huvudvaggen",
       "source": {
         "id": "legacy:morarna",
         "path": "mediawiki/Morarna.txt"
@@ -170,6 +198,7 @@
       "type": "sport",
       "firstAscent": "Johan Luhr -91",
       "description": "Boulderproblem",
+      "sectorId": "huvudvaggen",
       "source": {
         "id": "legacy:morarna",
         "path": "mediawiki/Morarna.txt"
@@ -185,6 +214,7 @@
       "type": "trad",
       "firstAscent": "Jan Liliemark, Jeremy Sheehan-83",
       "description": "En av de stora klassikerna i stockholm. Välsäkrad med kilar och medelstora friends.",
+      "sectorId": "huvudvaggen",
       "source": {
         "id": "legacy:morarna",
         "path": "mediawiki/Morarna.txt"
@@ -200,6 +230,7 @@
       "type": "trad",
       "firstAscent": "Johan Luhr, Rickard Hedman-84",
       "description": "",
+      "sectorId": "huvudvaggen",
       "source": {
         "id": "legacy:morarna",
         "path": "mediawiki/Morarna.txt"
@@ -215,6 +246,7 @@
       "type": "mix",
       "firstAscent": "Daniel Bidner -90",
       "description": "Start i Onskans hemvist därefter ut höger till liten hylla",
+      "sectorId": "huvudvaggen",
       "source": {
         "id": "legacy:morarna",
         "path": "mediawiki/Morarna.txt"
@@ -230,6 +262,7 @@
       "type": "sport",
       "firstAscent": "Johan Luhr -91",
       "description": "",
+      "sectorId": "huvudvaggen",
       "source": {
         "id": "legacy:morarna",
         "path": "mediawiki/Morarna.txt"
@@ -245,6 +278,7 @@
       "type": "sport",
       "firstAscent": "Daniel Bidner-85",
       "description": "Gemensamt utsteg med En negerleksak",
+      "sectorId": "huvudvaggen",
       "source": {
         "id": "legacy:morarna",
         "path": "mediawiki/Morarna.txt"
@@ -260,6 +294,7 @@
       "type": "sport",
       "firstAscent": "Johan Luhr",
       "description": "Samma insteg som Negerbollar av stål, sedan rakt upp",
+      "sectorId": "huvudvaggen",
       "source": {
         "id": "legacy:morarna",
         "path": "mediawiki/Morarna.txt"
@@ -275,6 +310,7 @@
       "type": "sport",
       "firstAscent": "Johan Luhr, Daniel Bidner -89",
       "description": "",
+      "sectorId": "huvudvaggen",
       "source": {
         "id": "legacy:morarna",
         "path": "mediawiki/Morarna.txt"
@@ -290,6 +326,7 @@
       "type": "trad",
       "firstAscent": "JS, Johan Luhr, Annikki Liliemark-83",
       "description": "Hörnet till höger",
+      "sectorId": "huvudvaggen",
       "source": {
         "id": "legacy:morarna",
         "path": "mediawiki/Morarna.txt"
@@ -305,6 +342,7 @@
       "type": "mix",
       "firstAscent": "Johan Luhr -91",
       "description": "Väggen till höger",
+      "sectorId": "huvudvaggen",
       "source": {
         "id": "legacy:morarna",
         "path": "mediawiki/Morarna.txt"
@@ -320,6 +358,7 @@
       "type": "sport",
       "firstAscent": "Johan Luhr -91",
       "description": "Går på lilla väggen övanför Sumpan",
+      "sectorId": "huvudvaggen",
       "source": {
         "id": "legacy:morarna",
         "path": "mediawiki/Morarna.txt"
@@ -335,6 +374,7 @@
       "type": "",
       "firstAscent": "Daniel Bidner, David Fält, Bogi Palfay -90",
       "description": "",
+      "sectorId": "hogra-vaggen",
       "source": {
         "id": "legacy:morarna",
         "path": "mediawiki/Morarna.txt"
@@ -350,6 +390,7 @@
       "type": "trad",
       "firstAscent": "Daniel Bidner -85",
       "description": "",
+      "sectorId": "hogra-vaggen",
       "source": {
         "id": "legacy:morarna",
         "path": "mediawiki/Morarna.txt"
@@ -365,6 +406,7 @@
       "type": "mix",
       "firstAscent": "Johan Luhr -90",
       "description": "På \"bullen\"",
+      "sectorId": "hogra-vaggen",
       "source": {
         "id": "legacy:morarna",
         "path": "mediawiki/Morarna.txt"
@@ -380,6 +422,7 @@
       "type": "sport",
       "firstAscent": "Daniel Bidner -90",
       "description": "På \"bullen\"",
+      "sectorId": "hogra-vaggen",
       "source": {
         "id": "legacy:morarna",
         "path": "mediawiki/Morarna.txt"
@@ -395,6 +438,7 @@
       "type": "",
       "firstAscent": "Daniel Bidner, Michael Wegrelius-85",
       "description": "",
+      "sectorId": "hogra-vaggen",
       "source": {
         "id": "legacy:morarna",
         "path": "mediawiki/Morarna.txt"
@@ -410,6 +454,7 @@
       "type": "",
       "firstAscent": "Johan Luhr -91",
       "description": "",
+      "sectorId": "hogra-vaggen",
       "source": {
         "id": "legacy:morarna",
         "path": "mediawiki/Morarna.txt"
@@ -425,6 +470,7 @@
       "type": "trad",
       "firstAscent": "Pat Littlejohn, Jan Liliemark-84",
       "description": "",
+      "sectorId": "hogra-vaggen",
       "source": {
         "id": "legacy:morarna",
         "path": "mediawiki/Morarna.txt"
@@ -440,6 +486,7 @@
       "type": "mix",
       "firstAscent": "Daniel Bidner-91",
       "description": "",
+      "sectorId": "hogra-vaggen",
       "source": {
         "id": "legacy:morarna",
         "path": "mediawiki/Morarna.txt"
@@ -455,6 +502,7 @@
       "type": "sport",
       "firstAscent": "Daniel Bidner, Claes Jelinek -91",
       "description": "",
+      "sectorId": "eldare-vaggen",
       "source": {
         "id": "legacy:morarna",
         "path": "mediawiki/Morarna.txt"
@@ -470,6 +518,7 @@
       "type": "",
       "firstAscent": "Daniel Bidner, Claes Jelinek -91",
       "description": "",
+      "sectorId": "eldare-vaggen",
       "source": {
         "id": "legacy:morarna",
         "path": "mediawiki/Morarna.txt"
@@ -479,28 +528,33 @@
   "images": [
     {
       "filename": "Morarna_karta.png",
-      "caption": "250px",
-      "missing": false
+      "caption": "",
+      "missing": false,
+      "sectorId": null
     },
     {
       "filename": "Morarna-vänster.gif",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "vanstra-vaggen"
     },
     {
       "filename": "Morarna-huvudväggen.gif",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "huvudvaggen"
     },
     {
       "filename": "Morarna-högra.gif",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "hogra-vaggen"
     },
     {
       "filename": "Morarna-eldare.gif",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "eldare-vaggen"
     }
   ],
   "access": {

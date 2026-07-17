@@ -41,6 +41,7 @@
       "type": "projekt",
       "firstAscent": "",
       "description": "Leden är orangefärgad och följer vänstra kanten av det rensade området. För yxplaceringar följs de orangemarkerade borrhålen (inga andra yxplaceringar tillåtna) och för fötter kan alla grepp nyttjas, inklusive borrhål.",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:tandkulevagen",
         "path": "mediawiki/Tändkulevägen.txt"
@@ -56,6 +57,7 @@
       "type": "projekt",
       "firstAscent": "",
       "description": "Leden är grönfärgad och följer mitten av det rensade området. För yxplaceringar följs de grönmarkerade borrhålen (inga andra yxplaceringar tillåtna) och för fötter kan alla grepp nyttjas, inklusive borrhål.",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:tandkulevagen",
         "path": "mediawiki/Tändkulevägen.txt"
@@ -71,6 +73,7 @@
       "type": "projekt",
       "firstAscent": "",
       "description": "Leden är rödfärgad och följer högra kanten av det rensade området. Ej ut i hörnet då detta område är väldigt löst. För yxplaceringar följs de rödmarkerade borrhålen (inga andra yxplaceringar tillåtna) och för fötter kan alla grepp nyttjas, inklusive borrhål.",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:tandkulevagen",
         "path": "mediawiki/Tändkulevägen.txt"
@@ -81,12 +84,14 @@
     {
       "filename": "Led2.jpg",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "allmant"
     },
     {
       "filename": "Led.jpg",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "leder"
     }
   ],
   "access": {

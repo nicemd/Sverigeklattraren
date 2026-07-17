@@ -16,14 +16,34 @@
   ],
   "sections": [
     {
+      "id": "introduktion",
+      "title": "Introduktion",
+      "body": ""
+    },
+    {
       "id": "karaktar",
       "title": "Karaktär",
       "body": "Klassisk sprick och vägg-klättring. Buråsen och inbefattas av Bohusläns Klätterklubbs bultpolicy om att hållas bultfria i framtiden. Classic crack and face climbing. Buråsen follows the Bohusläns Klätterklubb's bolt policy on staying bolt free in the future."
     },
     {
+      "id": "vagbeskrivning",
+      "title": "Vägbeskrivning",
+      "body": ""
+    },
+    {
       "id": "access",
       "title": "Access",
       "body": "Parkera vid en grusficka på andra sidan asfaltsvägen, mitt emot cementfabriken. Vägen fram till klippan används för trafik med breda maskiner, därför är det viktigt att du inte parkerar där. Park at the little exit/lot on the opposite side of the paved road just across from the cement plant. The road leading up to the actual cliff is being used by large machines and it is important not to park anywhere on that road."
+    },
+    {
+      "id": "leder",
+      "title": "Leder",
+      "body": ""
+    },
+    {
+      "id": "nedre-vaggen",
+      "title": "Nedre Väggen",
+      "body": ""
     },
     {
       "id": "ovre-vaggen",
@@ -42,6 +62,7 @@
       "type": "mix",
       "firstAscent": "Sem Larsen,Dag Kolserud, Rikard Hedman -86",
       "description": "Tydligt vänstersluttande dieder som börjar med ett markant tak. Taket passeras med hjälp av en gammal pitong med slinga i. Den sliriga diedern säkras med något svårfunna men bra kilar och kamsäkringar. En gammal/rutten borrbult på toppväggen",
+      "sectorId": "nedre-vaggen",
       "source": {
         "id": "legacy:burasen",
         "path": "mediawiki/Buråsen.txt"
@@ -57,6 +78,7 @@
       "type": "trad",
       "firstAscent": "Johan Svensson 2010-10",
       "description": "Den fria versionen av Farenheit 450. Passera taket på vänster sida med några välriktade häv, kort travers in i diedern. Utsteg via en tydlig fingerspricka ca1,5meter höger om borrbulten. Välsäkrad, många småkammar.",
+      "sectorId": "nedre-vaggen",
       "source": {
         "id": "legacy:burasen",
         "path": "mediawiki/Buråsen.txt"
@@ -72,6 +94,7 @@
       "type": "trad",
       "firstAscent": "Lars Svadängs, Lars Granqvist, Niklas Björnerstedt 87",
       "description": "",
+      "sectorId": "nedre-vaggen",
       "source": {
         "id": "legacy:burasen",
         "path": "mediawiki/Buråsen.txt"
@@ -87,6 +110,7 @@
       "type": "trad",
       "firstAscent": "Johan Svensson, Ann-Sofie Andersson -01",
       "description": "",
+      "sectorId": "nedre-vaggen",
       "source": {
         "id": "legacy:burasen",
         "path": "mediawiki/Buråsen.txt"
@@ -102,6 +126,7 @@
       "type": "trad",
       "firstAscent": "Mikael Palmgren, Fredrik Rapp -97",
       "description": "",
+      "sectorId": "nedre-vaggen",
       "source": {
         "id": "legacy:burasen",
         "path": "mediawiki/Buråsen.txt"
@@ -117,6 +142,7 @@
       "type": "trad",
       "firstAscent": "Oskar Alexandersson, Petter Restorp -09",
       "description": "Parallellinjen till nästa led. Nedfirningsankare.",
+      "sectorId": "nedre-vaggen",
       "source": {
         "id": "legacy:burasen",
         "path": "mediawiki/Buråsen.txt"
@@ -132,6 +158,7 @@
       "type": "trad",
       "firstAscent": "Dag Kolsrud, Niklas Björnerstedt -86",
       "description": "Den tydligaste vänsterlutande sprickan mitt på väggen. Nedfirningsankare lite till vänster på toppen. En variant är att klättra halva Grymt Slut och fortsätta in i Dagstur. Denna kallas Snällt slut och är grad 7.",
+      "sectorId": "nedre-vaggen",
       "source": {
         "id": "legacy:burasen",
         "path": "mediawiki/Buråsen.txt"
@@ -147,6 +174,7 @@
       "type": "trad",
       "firstAscent": "Rikard Hedman, Henrik Bolander -94",
       "description": "",
+      "sectorId": "nedre-vaggen",
       "source": {
         "id": "legacy:burasen",
         "path": "mediawiki/Buråsen.txt"
@@ -162,6 +190,7 @@
       "type": "trad",
       "firstAscent": "Lars Granqvist, Jan Liliemark -81",
       "description": "Nedfirningsankare",
+      "sectorId": "nedre-vaggen",
       "source": {
         "id": "legacy:burasen",
         "path": "mediawiki/Buråsen.txt"
@@ -177,6 +206,7 @@
       "type": "trad",
       "firstAscent": "Niklas Björnerstedt, Lars Svadängs -87",
       "description": "",
+      "sectorId": "nedre-vaggen",
       "source": {
         "id": "legacy:burasen",
         "path": "mediawiki/Buråsen.txt"
@@ -192,6 +222,7 @@
       "type": "trad",
       "firstAscent": "Lars Svadängs, Niklas Björnerstedt -87",
       "description": "",
+      "sectorId": "nedre-vaggen",
       "source": {
         "id": "legacy:burasen",
         "path": "mediawiki/Buråsen.txt"
@@ -207,6 +238,7 @@
       "type": "trad",
       "firstAscent": "Niklas Björnerstedt, Dag Kolserud, Sem Larsen, Rikard Hedman -86",
       "description": "",
+      "sectorId": "nedre-vaggen",
       "source": {
         "id": "legacy:burasen",
         "path": "mediawiki/Buråsen.txt"
@@ -222,6 +254,7 @@
       "type": "trad",
       "firstAscent": "Rikard Hedman -86",
       "description": "",
+      "sectorId": "nedre-vaggen",
       "source": {
         "id": "legacy:burasen",
         "path": "mediawiki/Buråsen.txt"
@@ -237,6 +270,7 @@
       "type": "trad",
       "firstAscent": "Henrik Bolander -94",
       "description": "Bulten i början ser rostig ut och är onödig. Traversera istället in från höger.",
+      "sectorId": "nedre-vaggen",
       "source": {
         "id": "legacy:burasen",
         "path": "mediawiki/Buråsen.txt"
@@ -252,6 +286,7 @@
       "type": "trad",
       "firstAscent": "Rikard Hedman -86",
       "description": "",
+      "sectorId": "nedre-vaggen",
       "source": {
         "id": "legacy:burasen",
         "path": "mediawiki/Buråsen.txt"
@@ -267,6 +302,7 @@
       "type": "trad",
       "firstAscent": "Dag Kolserud, Sem Larsen -86",
       "description": "",
+      "sectorId": "nedre-vaggen",
       "source": {
         "id": "legacy:burasen",
         "path": "mediawiki/Buråsen.txt"
@@ -282,6 +318,7 @@
       "type": "trad",
       "firstAscent": "Johan Nilsson, Anita Rosten, Dag Lövenvald -92",
       "description": "Fin sprickklättring, men ofta blöt.",
+      "sectorId": "nedre-vaggen",
       "source": {
         "id": "legacy:burasen",
         "path": "mediawiki/Buråsen.txt"
@@ -297,6 +334,7 @@
       "type": "trad",
       "firstAscent": "Martin Jakobsson -05",
       "description": "Sprickor längst bort till vänster på den branta väggen.",
+      "sectorId": "ovre-vaggen",
       "source": {
         "id": "legacy:burasen",
         "path": "mediawiki/Buråsen.txt"
@@ -312,6 +350,7 @@
       "type": "trad",
       "firstAscent": "Henrik Sjöqvist",
       "description": "",
+      "sectorId": "ovre-vaggen",
       "source": {
         "id": "legacy:burasen",
         "path": "mediawiki/Buråsen.txt"
@@ -327,6 +366,7 @@
       "type": "trad",
       "firstAscent": "Petter Restorp -07",
       "description": "",
+      "sectorId": "ovre-vaggen",
       "source": {
         "id": "legacy:burasen",
         "path": "mediawiki/Buråsen.txt"
@@ -342,6 +382,7 @@
       "type": "trad",
       "firstAscent": "Fredrik Persson -98",
       "description": "Startar i vänsterkanten av den branta väggen. Dieder.",
+      "sectorId": "ovre-vaggen",
       "source": {
         "id": "legacy:burasen",
         "path": "mediawiki/Buråsen.txt"
@@ -357,6 +398,7 @@
       "type": "trad",
       "firstAscent": "Marcus Sandersnäs -06",
       "description": "Mellan Frank Olssons stuga och skalmansväggen ligger två dieder. Det vänstra av dessa är Accésskommitén. Fin diederklättring i ca 20meter, sedan upp på en hylla och därifrån gemensamt med nästa led till toppen.",
+      "sectorId": "ovre-vaggen",
       "source": {
         "id": "legacy:burasen",
         "path": "mediawiki/Buråsen.txt"
@@ -372,6 +414,7 @@
       "type": "trad",
       "firstAscent": "Petter Restorp, Hanna Mellin -06",
       "description": "Dieder till hylla, sedan sprickor till toppen.",
+      "sectorId": "ovre-vaggen",
       "source": {
         "id": "legacy:burasen",
         "path": "mediawiki/Buråsen.txt"
@@ -387,6 +430,7 @@
       "type": "trad",
       "firstAscent": "Lars Granqvist, Niklas Björnerstedt -87",
       "description": "Startar bakom ett block och går genom ett tak, och vidare förbi ett litet dieder och mer sprickor till toppen. Mycket fin!",
+      "sectorId": "ovre-vaggen",
       "source": {
         "id": "legacy:burasen",
         "path": "mediawiki/Buråsen.txt"
@@ -402,6 +446,7 @@
       "type": "trad",
       "firstAscent": "Andreas Holm, Patrik Jacobson -06",
       "description": "Gemensamt insteg med Frank Olssons stuga. Vid taket, vik istället höger och klättra via en undercling/jam-travers upp på en liten svahylla. Titta runt kanten där du sedan trippar iväg i den diagonala sprickan som leder till toppen. Annorlunda och kul klättring! Bra säkrat hela vägen, om du orkar...",
+      "sectorId": "ovre-vaggen",
       "source": {
         "id": "legacy:burasen",
         "path": "mediawiki/Buråsen.txt"
@@ -417,6 +462,7 @@
       "type": "trad",
       "firstAscent": "Lars Granqvist, Lasse Ingemansson",
       "description": "Den vänstra sprickan.",
+      "sectorId": "ovre-vaggen",
       "source": {
         "id": "legacy:burasen",
         "path": "mediawiki/Buråsen.txt"
@@ -432,6 +478,7 @@
       "type": "trad",
       "firstAscent": "Johan Nilsson, Lotti Magnitun -89",
       "description": "Den högra sprickan.",
+      "sectorId": "ovre-vaggen",
       "source": {
         "id": "legacy:burasen",
         "path": "mediawiki/Buråsen.txt"

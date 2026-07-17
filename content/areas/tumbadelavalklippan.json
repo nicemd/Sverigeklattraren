@@ -25,9 +25,24 @@
       "body": "titel=TumbaDeLaval lat=17860427 long=59201677"
     },
     {
+      "id": "leder",
+      "title": "Leder",
+      "body": ""
+    },
+    {
+      "id": "kastrullocket",
+      "title": "Kastrullocket",
+      "body": ""
+    },
+    {
       "id": "huvudvaggen",
       "title": "Huvudväggen",
       "body": "(OBS fel kan mycket väl finnas) Från vänster till höger:"
+    },
+    {
+      "id": "rasbranten",
+      "title": "Rasbranten",
+      "body": ""
     },
     {
       "id": "hawaiivaggen",
@@ -46,6 +61,7 @@
       "type": "sport",
       "firstAscent": "Larry Valkama 20100829",
       "description": "",
+      "sectorId": "kastrullocket",
       "source": {
         "id": "legacy:tumbadelavalklippan",
         "path": "mediawiki/Tumbadelavalklippan.txt"
@@ -61,6 +77,7 @@
       "type": "sport",
       "firstAscent": "Larry Valkama 20100814",
       "description": "",
+      "sectorId": "kastrullocket",
       "source": {
         "id": "legacy:tumbadelavalklippan",
         "path": "mediawiki/Tumbadelavalklippan.txt"
@@ -76,6 +93,7 @@
       "type": "sport",
       "firstAscent": "Reino Liimatainen 20100829",
       "description": "",
+      "sectorId": "kastrullocket",
       "source": {
         "id": "legacy:tumbadelavalklippan",
         "path": "mediawiki/Tumbadelavalklippan.txt"
@@ -91,6 +109,7 @@
       "type": "sport",
       "firstAscent": "Reino Liimatainen 20100829",
       "description": "",
+      "sectorId": "kastrullocket",
       "source": {
         "id": "legacy:tumbadelavalklippan",
         "path": "mediawiki/Tumbadelavalklippan.txt"
@@ -106,6 +125,7 @@
       "type": "sport",
       "firstAscent": "Reino/Larry Liimatainen 20070822",
       "description": "Längst till vänster.Börjar med en boulder på plattan.",
+      "sectorId": "huvudvaggen",
       "source": {
         "id": "legacy:tumbadelavalklippan",
         "path": "mediawiki/Tumbadelavalklippan.txt"
@@ -121,6 +141,7 @@
       "type": "sport",
       "firstAscent": "Reino/Larry Liimatainen 20070819",
       "description": "VARNING: lös i början",
+      "sectorId": "huvudvaggen",
       "source": {
         "id": "legacy:tumbadelavalklippan",
         "path": "mediawiki/Tumbadelavalklippan.txt"
@@ -136,6 +157,7 @@
       "type": "sport",
       "firstAscent": "",
       "description": "",
+      "sectorId": "huvudvaggen",
       "source": {
         "id": "legacy:tumbadelavalklippan",
         "path": "mediawiki/Tumbadelavalklippan.txt"
@@ -151,6 +173,7 @@
       "type": "sport",
       "firstAscent": "",
       "description": "Går i dieder-sprickan. Lång, har en skruvkarbin på toppen.",
+      "sectorId": "huvudvaggen",
       "source": {
         "id": "legacy:tumbadelavalklippan",
         "path": "mediawiki/Tumbadelavalklippan.txt"
@@ -166,6 +189,7 @@
       "type": "sport",
       "firstAscent": "",
       "description": "Börjar vid hornet, går rakt upp.",
+      "sectorId": "huvudvaggen",
       "source": {
         "id": "legacy:tumbadelavalklippan",
         "path": "mediawiki/Tumbadelavalklippan.txt"
@@ -181,6 +205,7 @@
       "type": "sport",
       "firstAscent": "",
       "description": "Leden går rakt upp. Två-tre mycket hårda move i starten, sedan 6c.",
+      "sectorId": "huvudvaggen",
       "source": {
         "id": "legacy:tumbadelavalklippan",
         "path": "mediawiki/Tumbadelavalklippan.txt"
@@ -196,6 +221,7 @@
       "type": "sport",
       "firstAscent": "",
       "description": "Rakt upp, sedan till höger. Samma utsteg som \"Vilken vacker dag\"",
+      "sectorId": "huvudvaggen",
       "source": {
         "id": "legacy:tumbadelavalklippan",
         "path": "mediawiki/Tumbadelavalklippan.txt"
@@ -211,6 +237,7 @@
       "type": "sport",
       "firstAscent": "",
       "description": "Börjar som Ravi-1. Går till höger ihop med \"Vilken jävla dag\"",
+      "sectorId": "huvudvaggen",
       "source": {
         "id": "legacy:tumbadelavalklippan",
         "path": "mediawiki/Tumbadelavalklippan.txt"
@@ -226,6 +253,7 @@
       "type": "sport",
       "firstAscent": "",
       "description": "Hoppstart, sedan snett till vänster, samma utsteg som \"Vilken vacker dag\"",
+      "sectorId": "huvudvaggen",
       "source": {
         "id": "legacy:tumbadelavalklippan",
         "path": "mediawiki/Tumbadelavalklippan.txt"
@@ -241,6 +269,7 @@
       "type": "sport",
       "firstAscent": "",
       "description": "Har en hoppstart. Går rakt upp.",
+      "sectorId": "huvudvaggen",
       "source": {
         "id": "legacy:tumbadelavalklippan",
         "path": "mediawiki/Tumbadelavalklippan.txt"
@@ -256,6 +285,7 @@
       "type": "sport",
       "firstAscent": "",
       "description": "Börjar till höger, går snett ihop till \"Vilken jävla dag\". Rakt upp.",
+      "sectorId": "huvudvaggen",
       "source": {
         "id": "legacy:tumbadelavalklippan",
         "path": "mediawiki/Tumbadelavalklippan.txt"
@@ -271,6 +301,7 @@
       "type": "sport",
       "firstAscent": "",
       "description": "Börjar till höger, går snett ihop till \"Vilken jävla dag\". Fortsätter att snedda till vänster och går ut på \"Ravi-1\".",
+      "sectorId": "huvudvaggen",
       "source": {
         "id": "legacy:tumbadelavalklippan",
         "path": "mediawiki/Tumbadelavalklippan.txt"
@@ -286,6 +317,7 @@
       "type": "",
       "firstAscent": "",
       "description": "Projekt som går till vänster om \"Smärta\"",
+      "sectorId": "huvudvaggen",
       "source": {
         "id": "legacy:tumbadelavalklippan",
         "path": "mediawiki/Tumbadelavalklippan.txt"
@@ -301,6 +333,7 @@
       "type": "sport",
       "firstAscent": "",
       "description": "Börjar med ett sidotag på överhänget, resning upp på hyllan.",
+      "sectorId": "huvudvaggen",
       "source": {
         "id": "legacy:tumbadelavalklippan",
         "path": "mediawiki/Tumbadelavalklippan.txt"
@@ -316,6 +349,7 @@
       "type": "sport",
       "firstAscent": "",
       "description": "Svatur, som möter en när man kommer till klippan. Ca 4 bultar.",
+      "sectorId": "huvudvaggen",
       "source": {
         "id": "legacy:tumbadelavalklippan",
         "path": "mediawiki/Tumbadelavalklippan.txt"
@@ -331,6 +365,7 @@
       "type": "sport",
       "firstAscent": "Larry Valkama 2009",
       "description": "",
+      "sectorId": "rasbranten",
       "source": {
         "id": "legacy:tumbadelavalklippan",
         "path": "mediawiki/Tumbadelavalklippan.txt"
@@ -346,6 +381,7 @@
       "type": "sport",
       "firstAscent": "Reino Liimatainen 2009",
       "description": "",
+      "sectorId": "rasbranten",
       "source": {
         "id": "legacy:tumbadelavalklippan",
         "path": "mediawiki/Tumbadelavalklippan.txt"
@@ -361,6 +397,7 @@
       "type": "sport",
       "firstAscent": "Reino Liimatainen 20100828",
       "description": "2bb+ankare",
+      "sectorId": "hawaiivaggen",
       "source": {
         "id": "legacy:tumbadelavalklippan",
         "path": "mediawiki/Tumbadelavalklippan.txt"
@@ -376,6 +413,7 @@
       "type": "sport",
       "firstAscent": "Larry Valkama 20100724",
       "description": "2bb+ankare, grep ovanför ankare avslutar leden",
+      "sectorId": "hawaiivaggen",
       "source": {
         "id": "legacy:tumbadelavalklippan",
         "path": "mediawiki/Tumbadelavalklippan.txt"
@@ -391,6 +429,7 @@
       "type": "toprep",
       "firstAscent": "Mikael Söderström(solo) 2008",
       "description": "",
+      "sectorId": "hawaiivaggen",
       "source": {
         "id": "legacy:tumbadelavalklippan",
         "path": "mediawiki/Tumbadelavalklippan.txt"
@@ -406,6 +445,7 @@
       "type": "sport",
       "firstAscent": "Larry Valkama 20100722",
       "description": "3bb+ankare, slutjuggen sitter förbi ankaret",
+      "sectorId": "hawaiivaggen",
       "source": {
         "id": "legacy:tumbadelavalklippan",
         "path": "mediawiki/Tumbadelavalklippan.txt"
@@ -421,6 +461,7 @@
       "type": "sport",
       "firstAscent": "Mikael Söderström (solo) 2008",
       "description": "3bb",
+      "sectorId": "hawaiivaggen",
       "source": {
         "id": "legacy:tumbadelavalklippan",
         "path": "mediawiki/Tumbadelavalklippan.txt"
@@ -436,6 +477,7 @@
       "type": "sport",
       "firstAscent": "Mikael Söderström (solo) 2008",
       "description": "3bb+ankare(slutar förbi ankaret)",
+      "sectorId": "hawaiivaggen",
       "source": {
         "id": "legacy:tumbadelavalklippan",
         "path": "mediawiki/Tumbadelavalklippan.txt"
@@ -451,6 +493,7 @@
       "type": "projekt",
       "firstAscent": "",
       "description": "vart?",
+      "sectorId": "hawaiivaggen",
       "source": {
         "id": "legacy:tumbadelavalklippan",
         "path": "mediawiki/Tumbadelavalklippan.txt"
@@ -466,6 +509,7 @@
       "type": "sport",
       "firstAscent": "x x 20101231",
       "description": "3bb+ankare",
+      "sectorId": "hawaiivaggen",
       "source": {
         "id": "legacy:tumbadelavalklippan",
         "path": "mediawiki/Tumbadelavalklippan.txt"
@@ -481,6 +525,7 @@
       "type": "sport",
       "firstAscent": "Reino Liimatainen 20100828",
       "description": "3bb+ankare",
+      "sectorId": "hawaiivaggen",
       "source": {
         "id": "legacy:tumbadelavalklippan",
         "path": "mediawiki/Tumbadelavalklippan.txt"
@@ -491,12 +536,14 @@
     {
       "filename": "Kastrullocket2.png",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "kastrullocket"
     },
     {
       "filename": "Hawaii.png",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "hawaiivaggen"
     }
   ],
   "access": {

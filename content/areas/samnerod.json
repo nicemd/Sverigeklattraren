@@ -13,9 +13,44 @@
   ],
   "sections": [
     {
+      "id": "introduktion",
+      "title": "Introduktion",
+      "body": ""
+    },
+    {
+      "id": "karaktar",
+      "title": "Karaktär",
+      "body": ""
+    },
+    {
       "id": "vagbeskrivning",
       "title": "Vägbeskrivning",
       "body": "Från 44:an sväng av mot Bengtsfors (väg 172). Sväng in vid Shellstationen och parkera på grusplanen bakom."
+    },
+    {
+      "id": "leder",
+      "title": "Leder",
+      "body": ""
+    },
+    {
+      "id": "ovre-vaggen",
+      "title": "Övre väggen",
+      "body": ""
+    },
+    {
+      "id": "nedre-vaggen",
+      "title": "Nedre väggen",
+      "body": ""
+    },
+    {
+      "id": "pelaren",
+      "title": "Pelaren",
+      "body": ""
+    },
+    {
+      "id": "sprangvaggen",
+      "title": "Sprängväggen",
+      "body": ""
     },
     {
       "id": "glomda-vaggen",
@@ -34,6 +69,7 @@
       "type": "",
       "firstAscent": "Joakim Olofsson, Wendelin Zobel -91",
       "description": "",
+      "sectorId": "ovre-vaggen",
       "source": {
         "id": "legacy:samnerod",
         "path": "mediawiki/Samneröd.txt"
@@ -49,6 +85,7 @@
       "type": "",
       "firstAscent": "Rickard Larsson, Joakim Olofsson, Wendelin Zobel -92",
       "description": "",
+      "sectorId": "ovre-vaggen",
       "source": {
         "id": "legacy:samnerod",
         "path": "mediawiki/Samneröd.txt"
@@ -64,6 +101,7 @@
       "type": "",
       "firstAscent": "Björn Holmgren, Kurt Wiklander -90",
       "description": "",
+      "sectorId": "ovre-vaggen",
       "source": {
         "id": "legacy:samnerod",
         "path": "mediawiki/Samneröd.txt"
@@ -79,6 +117,7 @@
       "type": "",
       "firstAscent": "Michael Jansson",
       "description": "",
+      "sectorId": "ovre-vaggen",
       "source": {
         "id": "legacy:samnerod",
         "path": "mediawiki/Samneröd.txt"
@@ -94,6 +133,7 @@
       "type": "",
       "firstAscent": "Joakim Olofsson, Kurt Wiklander, Björn Holmgren -91",
       "description": "",
+      "sectorId": "ovre-vaggen",
       "source": {
         "id": "legacy:samnerod",
         "path": "mediawiki/Samneröd.txt"
@@ -109,6 +149,7 @@
       "type": "",
       "firstAscent": "Lars Jonsson, Ulf Johansson, John \"Spooky\" Williams -97",
       "description": "",
+      "sectorId": "ovre-vaggen",
       "source": {
         "id": "legacy:samnerod",
         "path": "mediawiki/Samneröd.txt"
@@ -124,6 +165,7 @@
       "type": "",
       "firstAscent": "Niklas Alm -97",
       "description": "",
+      "sectorId": "ovre-vaggen",
       "source": {
         "id": "legacy:samnerod",
         "path": "mediawiki/Samneröd.txt"
@@ -139,6 +181,7 @@
       "type": "",
       "firstAscent": "Joakim Olofsson (solo) -92",
       "description": "",
+      "sectorId": "nedre-vaggen",
       "source": {
         "id": "legacy:samnerod",
         "path": "mediawiki/Samneröd.txt"
@@ -154,6 +197,7 @@
       "type": "",
       "firstAscent": "Fredrik Gustavsson, Michael Jansson -91",
       "description": "",
+      "sectorId": "nedre-vaggen",
       "source": {
         "id": "legacy:samnerod",
         "path": "mediawiki/Samneröd.txt"
@@ -169,6 +213,7 @@
       "type": "",
       "firstAscent": "Kurt Wiklander, Rickard Larsson, Joakim Olofsson -91",
       "description": "",
+      "sectorId": "nedre-vaggen",
       "source": {
         "id": "legacy:samnerod",
         "path": "mediawiki/Samneröd.txt"
@@ -184,6 +229,7 @@
       "type": "",
       "firstAscent": "Kurt Wiklander, Björn Holmgren -90",
       "description": "",
+      "sectorId": "nedre-vaggen",
       "source": {
         "id": "legacy:samnerod",
         "path": "mediawiki/Samneröd.txt"
@@ -199,6 +245,7 @@
       "type": "",
       "firstAscent": "Joakim Olofsson",
       "description": "",
+      "sectorId": "nedre-vaggen",
       "source": {
         "id": "legacy:samnerod",
         "path": "mediawiki/Samneröd.txt"
@@ -214,6 +261,7 @@
       "type": "",
       "firstAscent": "Joakim Olofsson -92",
       "description": "",
+      "sectorId": "nedre-vaggen",
       "source": {
         "id": "legacy:samnerod",
         "path": "mediawiki/Samneröd.txt"
@@ -229,6 +277,7 @@
       "type": "",
       "firstAscent": "Björn Holmgren, Kurt Wiklander -90",
       "description": "",
+      "sectorId": "nedre-vaggen",
       "source": {
         "id": "legacy:samnerod",
         "path": "mediawiki/Samneröd.txt"
@@ -244,6 +293,7 @@
       "type": "",
       "firstAscent": "Joakim Olofsson, Wendelin Zobel, Johan Nord -91",
       "description": "",
+      "sectorId": "nedre-vaggen",
       "source": {
         "id": "legacy:samnerod",
         "path": "mediawiki/Samneröd.txt"
@@ -259,6 +309,7 @@
       "type": "",
       "firstAscent": "Mikale Ylinen, Tobias Ryberg, Greger Andersson -08-09",
       "description": "",
+      "sectorId": "nedre-vaggen",
       "source": {
         "id": "legacy:samnerod",
         "path": "mediawiki/Samneröd.txt"
@@ -274,6 +325,7 @@
       "type": "",
       "firstAscent": "Peter Andersson, Niclas Andersson -92",
       "description": "",
+      "sectorId": "nedre-vaggen",
       "source": {
         "id": "legacy:samnerod",
         "path": "mediawiki/Samneröd.txt"
@@ -289,6 +341,7 @@
       "type": "",
       "firstAscent": "Peter Andersson (Solo) -92",
       "description": "",
+      "sectorId": "nedre-vaggen",
       "source": {
         "id": "legacy:samnerod",
         "path": "mediawiki/Samneröd.txt"
@@ -304,6 +357,7 @@
       "type": "",
       "firstAscent": "Johan Nord, Wendelin Zobel, Peter Andersson -92",
       "description": "",
+      "sectorId": "pelaren",
       "source": {
         "id": "legacy:samnerod",
         "path": "mediawiki/Samneröd.txt"
@@ -319,6 +373,7 @@
       "type": "",
       "firstAscent": "Peter Andersson, Kurt Wiklander -92",
       "description": "",
+      "sectorId": "pelaren",
       "source": {
         "id": "legacy:samnerod",
         "path": "mediawiki/Samneröd.txt"
@@ -334,6 +389,7 @@
       "type": "",
       "firstAscent": "Niklas Alm, Leif Jägerbrand -97",
       "description": "",
+      "sectorId": "sprangvaggen",
       "source": {
         "id": "legacy:samnerod",
         "path": "mediawiki/Samneröd.txt"
@@ -349,6 +405,7 @@
       "type": "",
       "firstAscent": "",
       "description": "Niklas Alm -97",
+      "sectorId": "sprangvaggen",
       "source": {
         "id": "legacy:samnerod",
         "path": "mediawiki/Samneröd.txt"
@@ -364,6 +421,7 @@
       "type": "",
       "firstAscent": "Niklas Alm -97",
       "description": "",
+      "sectorId": "sprangvaggen",
       "source": {
         "id": "legacy:samnerod",
         "path": "mediawiki/Samneröd.txt"
@@ -379,6 +437,7 @@
       "type": "",
       "firstAscent": "Ulf Johansson, Stefan Skarp -97",
       "description": "",
+      "sectorId": "sprangvaggen",
       "source": {
         "id": "legacy:samnerod",
         "path": "mediawiki/Samneröd.txt"
@@ -394,6 +453,7 @@
       "type": "",
       "firstAscent": "Lars Jonsson, Ulf Johansson -97",
       "description": "",
+      "sectorId": "glomda-vaggen",
       "source": {
         "id": "legacy:samnerod",
         "path": "mediawiki/Samneröd.txt"
@@ -409,6 +469,7 @@
       "type": "",
       "firstAscent": "Joakim Olofsson -97",
       "description": "",
+      "sectorId": "glomda-vaggen",
       "source": {
         "id": "legacy:samnerod",
         "path": "mediawiki/Samneröd.txt"
@@ -424,6 +485,7 @@
       "type": "",
       "firstAscent": "Joakim Olofsson -97",
       "description": "",
+      "sectorId": "glomda-vaggen",
       "source": {
         "id": "legacy:samnerod",
         "path": "mediawiki/Samneröd.txt"

@@ -44,6 +44,7 @@
       "type": "trad",
       "firstAscent": "namn på fa -08",
       "description": "ledbeskrivning",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:suljatten",
         "path": "mediawiki/Suljätten.txt"
@@ -54,7 +55,8 @@
     {
       "filename": "Skiss.gif",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "leder"
     }
   ],
   "access": {

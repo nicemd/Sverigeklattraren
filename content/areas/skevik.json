@@ -40,6 +40,11 @@
       "body": "titel=Skevik lat=18378710 long=59342780 Kör väg 222 mot Gustavsberg. Sväng av vid avfart Norra Lagnö / Skevik. Ta andra vänster in på Lagnövägen, kör tills du kommer ut till en T-korsning. Sväng höger in på Skeviksvägen (riktning Gustavsberg) och ta vänster efter ca 1km vid busshållplats Koviks hagar finns en vägbom. Fortsätt 300 m norrut längs Lagnövägen för att hitta parkering.Följ sen traktorvägen till fots. Ta vänster på ängen och du ser klippan (se bild). UPPDATERING Låst bom uppsatt av markägaren pga mycket bil- och skräpdumpning så att parkering är omöjlig på den tidigare parkeringsplatsen. Är grinden öppen och man kör in och parkerar så riskerar man att bli inlåst bakom grinden i en vecka. Kommer du från Gustavsberg - åk förbi OK-macken, ta vänster på skeviksvägen. Du åker förbi Gustavsbergs Vattentorn efter bara 50 meter. Fortsätt ca 2-3 km och ta av höger vid samma busshållplats och lilla skylt."
     },
     {
+      "id": "leder",
+      "title": "Leder",
+      "body": ""
+    },
+    {
       "id": "lilla-och-vanstra-vaggen",
       "title": "Lilla och vänstra väggen",
       "body": "och }}"
@@ -48,6 +53,11 @@
       "id": "hogra-vaggen",
       "title": "Högra väggen",
       "body": "och . Förstärkt, -08, med ytterligare en bult på insteget.}} som i stort sett följer samma sträckning. Nedre delen har också delvis bultats och ingår numera i Luftslottet direkt (om man gör som de flesta och håller vänster om bultarna). Mittpartiet upp till tvärsprickan och vidare upp i den korta, högervända diedern är fortfarande kilsäkrat. Klättras nästan aldrig.}}"
+    },
+    {
+      "id": "sidovaggen",
+      "title": "Sidoväggen",
+      "body": ""
     },
     {
       "id": "bouldering",
@@ -71,6 +81,7 @@
       "type": "",
       "firstAscent": "",
       "description": "",
+      "sectorId": "lilla-och-vanstra-vaggen",
       "source": {
         "id": "legacy:skevik",
         "path": "mediawiki/Skevik.txt"
@@ -86,6 +97,7 @@
       "type": "",
       "firstAscent": "Johan Luhr -91",
       "description": "",
+      "sectorId": "lilla-och-vanstra-vaggen",
       "source": {
         "id": "legacy:skevik",
         "path": "mediawiki/Skevik.txt"
@@ -101,6 +113,7 @@
       "type": "trad",
       "firstAscent": "Lars Thulin, Johan Arnegård -87 FF, Johan Luhr, Mattias Flodin -88",
       "description": "",
+      "sectorId": "lilla-och-vanstra-vaggen",
       "source": {
         "id": "legacy:skevik",
         "path": "mediawiki/Skevik.txt"
@@ -116,6 +129,7 @@
       "type": "",
       "firstAscent": "Jan Nyström -77",
       "description": "",
+      "sectorId": "lilla-och-vanstra-vaggen",
       "source": {
         "id": "legacy:skevik",
         "path": "mediawiki/Skevik.txt"
@@ -131,6 +145,7 @@
       "type": "sport",
       "firstAscent": "Anders Lundahl, Eva Selin -90",
       "description": "Tung klättring på arêten. Saknar hängare på första bulten.",
+      "sectorId": "lilla-och-vanstra-vaggen",
       "source": {
         "id": "legacy:skevik",
         "path": "mediawiki/Skevik.txt"
@@ -146,6 +161,7 @@
       "type": "sport",
       "firstAscent": "Kristian Dahlgren -88",
       "description": "Den vänstra leden på lilla väggen. Är nu ok bultad.",
+      "sectorId": "lilla-och-vanstra-vaggen",
       "source": {
         "id": "legacy:skevik",
         "path": "mediawiki/Skevik.txt"
@@ -161,6 +177,7 @@
       "type": "sport",
       "firstAscent": "",
       "description": "Den högra leden. Boulder-start sedan lättare.",
+      "sectorId": "lilla-och-vanstra-vaggen",
       "source": {
         "id": "legacy:skevik",
         "path": "mediawiki/Skevik.txt"
@@ -176,6 +193,7 @@
       "type": "",
       "firstAscent": "",
       "description": "",
+      "sectorId": "lilla-och-vanstra-vaggen",
       "source": {
         "id": "legacy:skevik",
         "path": "mediawiki/Skevik.txt"
@@ -191,6 +209,7 @@
       "type": "sport",
       "firstAscent": "",
       "description": "Lättare om man använder väggen till vänster",
+      "sectorId": "lilla-och-vanstra-vaggen",
       "source": {
         "id": "legacy:skevik",
         "path": "mediawiki/Skevik.txt"
@@ -206,6 +225,7 @@
       "type": "sport",
       "firstAscent": "Eva Selin/ Anders Lundahl -88",
       "description": "Klassiker!",
+      "sectorId": "lilla-och-vanstra-vaggen",
       "source": {
         "id": "legacy:skevik",
         "path": "mediawiki/Skevik.txt"
@@ -221,6 +241,7 @@
       "type": "sport",
       "firstAscent": "",
       "description": "Sva-insteg, sedan överhängande och dynamisk!",
+      "sectorId": "lilla-och-vanstra-vaggen",
       "source": {
         "id": "legacy:skevik",
         "path": "mediawiki/Skevik.txt"
@@ -236,6 +257,7 @@
       "type": "sport",
       "firstAscent": "Anders Lundahl-88",
       "description": "",
+      "sectorId": "lilla-och-vanstra-vaggen",
       "source": {
         "id": "legacy:skevik",
         "path": "mediawiki/Skevik.txt"
@@ -251,6 +273,7 @@
       "type": "trad",
       "firstAscent": "Eva Selin/ Anders Lundahl-81",
       "description": "",
+      "sectorId": "lilla-och-vanstra-vaggen",
       "source": {
         "id": "legacy:skevik",
         "path": "mediawiki/Skevik.txt"
@@ -266,6 +289,7 @@
       "type": "sport",
       "firstAscent": "",
       "description": "Startar med insteget på Faiblesse, sedan vänster och upp. Slutar vid Faiblesses ankaret mitt på väggen.",
+      "sectorId": "lilla-och-vanstra-vaggen",
       "source": {
         "id": "legacy:skevik",
         "path": "mediawiki/Skevik.txt"
@@ -281,6 +305,7 @@
       "type": "sport",
       "firstAscent": "Anders Lundahl-88",
       "description": "Balansig klättring i längst en spricka. Slutar mitt på vägg. Nybultad. Fin!",
+      "sectorId": "lilla-och-vanstra-vaggen",
       "source": {
         "id": "legacy:skevik",
         "path": "mediawiki/Skevik.txt"
@@ -296,6 +321,7 @@
       "type": "sport",
       "firstAscent": "Johan Luhr-91",
       "description": "Startar med Faiblesse, upp i diedern och sedan vänster genom överhänget.",
+      "sectorId": "lilla-och-vanstra-vaggen",
       "source": {
         "id": "legacy:skevik",
         "path": "mediawiki/Skevik.txt"
@@ -311,6 +337,7 @@
       "type": "sport",
       "firstAscent": "",
       "description": "Kombination Rovdjuret + Vilddjuret",
+      "sectorId": "lilla-och-vanstra-vaggen",
       "source": {
         "id": "legacy:skevik",
         "path": "mediawiki/Skevik.txt"
@@ -326,6 +353,7 @@
       "type": "sport",
       "firstAscent": "Anders Lundahl-91",
       "description": "Startar med Faiblesse, sedan snett upp åt höger.",
+      "sectorId": "lilla-och-vanstra-vaggen",
       "source": {
         "id": "legacy:skevik",
         "path": "mediawiki/Skevik.txt"
@@ -341,6 +369,7 @@
       "type": "",
       "firstAscent": "Anders Lundahl/ Eva Selin-89",
       "description": "",
+      "sectorId": "lilla-och-vanstra-vaggen",
       "source": {
         "id": "legacy:skevik",
         "path": "mediawiki/Skevik.txt"
@@ -356,6 +385,7 @@
       "type": "",
       "firstAscent": "",
       "description": "",
+      "sectorId": "lilla-och-vanstra-vaggen",
       "source": {
         "id": "legacy:skevik",
         "path": "mediawiki/Skevik.txt"
@@ -371,6 +401,7 @@
       "type": "sport",
       "firstAscent": "",
       "description": "Startar med Ingen vinner, sedan ännu mer åt höger. Fin! Obs! En stor sten känns lös efter högertraversen - var försiktiga!",
+      "sectorId": "lilla-och-vanstra-vaggen",
       "source": {
         "id": "legacy:skevik",
         "path": "mediawiki/Skevik.txt"
@@ -386,6 +417,7 @@
       "type": "trad",
       "firstAscent": "Anders Lundahl/ Eva Selin-88",
       "description": "",
+      "sectorId": "lilla-och-vanstra-vaggen",
       "source": {
         "id": "legacy:skevik",
         "path": "mediawiki/Skevik.txt"
@@ -401,6 +433,7 @@
       "type": "sport",
       "firstAscent": "Anders Lundahl-88",
       "description": "Logisk fortsättning på Delphi. Startar mitt på väggen på hylla",
+      "sectorId": "lilla-och-vanstra-vaggen",
       "source": {
         "id": "legacy:skevik",
         "path": "mediawiki/Skevik.txt"
@@ -416,6 +449,7 @@
       "type": "",
       "firstAscent": "",
       "description": "",
+      "sectorId": "lilla-och-vanstra-vaggen",
       "source": {
         "id": "legacy:skevik",
         "path": "mediawiki/Skevik.txt"
@@ -431,6 +465,7 @@
       "type": "",
       "firstAscent": "",
       "description": "Startar som Knölleden snett åt höger",
+      "sectorId": "lilla-och-vanstra-vaggen",
       "source": {
         "id": "legacy:skevik",
         "path": "mediawiki/Skevik.txt"
@@ -446,6 +481,7 @@
       "type": "mix",
       "firstAscent": "Anders Lundahl/Eva Selin-89",
       "description": "Troligen inte ofta klättrad. Upp till en hylla.",
+      "sectorId": "lilla-och-vanstra-vaggen",
       "source": {
         "id": "legacy:skevik",
         "path": "mediawiki/Skevik.txt"
@@ -461,6 +497,7 @@
       "type": "mix",
       "firstAscent": "Lars Svadangs/Rikard Hedman-81",
       "description": "Troligen inte ofta klättrad. Upp till en hylla. Startar bakom en stor lind",
+      "sectorId": "lilla-och-vanstra-vaggen",
       "source": {
         "id": "legacy:skevik",
         "path": "mediawiki/Skevik.txt"
@@ -476,6 +513,7 @@
       "type": "sport",
       "firstAscent": "Eva Selin, Anders Lundahl-88",
       "description": "Enbart utsteg",
+      "sectorId": "lilla-och-vanstra-vaggen",
       "source": {
         "id": "legacy:skevik",
         "path": "mediawiki/Skevik.txt"
@@ -491,6 +529,7 @@
       "type": "mix",
       "firstAscent": "Eva Selin, Anders Lundahl -84",
       "description": "Ev svårare pga lossnade grepp",
+      "sectorId": "lilla-och-vanstra-vaggen",
       "source": {
         "id": "legacy:skevik",
         "path": "mediawiki/Skevik.txt"
@@ -506,6 +545,7 @@
       "type": "sport",
       "firstAscent": "",
       "description": "Bultat gemensamt insteg till och",
+      "sectorId": "lilla-och-vanstra-vaggen",
       "source": {
         "id": "legacy:skevik",
         "path": "mediawiki/Skevik.txt"
@@ -521,6 +561,7 @@
       "type": "sport",
       "firstAscent": "",
       "description": "Samma insteg som Puls",
+      "sectorId": "lilla-och-vanstra-vaggen",
       "source": {
         "id": "legacy:skevik",
         "path": "mediawiki/Skevik.txt"
@@ -536,6 +577,7 @@
       "type": "sport",
       "firstAscent": "Johan Luhr-91",
       "description": "Tung, intensiv, ihållande och känslig - allt en riktigt hård led ska vara!",
+      "sectorId": "lilla-och-vanstra-vaggen",
       "source": {
         "id": "legacy:skevik",
         "path": "mediawiki/Skevik.txt"
@@ -551,6 +593,7 @@
       "type": "trad",
       "firstAscent": "Anders Lundahl/ Eva Selin-79",
       "description": "Klassiker som inte är helt lätt. Varning för rostiga pitonger.",
+      "sectorId": "lilla-och-vanstra-vaggen",
       "source": {
         "id": "legacy:skevik",
         "path": "mediawiki/Skevik.txt"
@@ -566,6 +609,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "Alt. utsteg",
+      "sectorId": "lilla-och-vanstra-vaggen",
       "source": {
         "id": "legacy:skevik",
         "path": "mediawiki/Skevik.txt"
@@ -581,6 +625,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "Starta med Centralpelaren sedan ut höger",
+      "sectorId": "hogra-vaggen",
       "source": {
         "id": "legacy:skevik",
         "path": "mediawiki/Skevik.txt"
@@ -596,6 +641,7 @@
       "type": "mix",
       "firstAscent": "",
       "description": "",
+      "sectorId": "hogra-vaggen",
       "source": {
         "id": "legacy:skevik",
         "path": "mediawiki/Skevik.txt"
@@ -611,6 +657,7 @@
       "type": "sport",
       "firstAscent": "",
       "description": "Balans. Slutar mitt på väggen.",
+      "sectorId": "hogra-vaggen",
       "source": {
         "id": "legacy:skevik",
         "path": "mediawiki/Skevik.txt"
@@ -626,6 +673,7 @@
       "type": "sport",
       "firstAscent": "Anders Lundahl-88",
       "description": "12bb och ett ankare (-08)",
+      "sectorId": "hogra-vaggen",
       "source": {
         "id": "legacy:skevik",
         "path": "mediawiki/Skevik.txt"
@@ -641,6 +689,7 @@
       "type": "sport",
       "firstAscent": "Stefan Kalén 2013",
       "description": "Två första bultarna på Fobi sedan till höger om Fobi och rakt upp. Ankare, kedjan vid toppen.",
+      "sectorId": "hogra-vaggen",
       "source": {
         "id": "legacy:skevik",
         "path": "mediawiki/Skevik.txt"
@@ -656,6 +705,7 @@
       "type": "sport",
       "firstAscent": "Eva Selin, Anders Lundahl-89",
       "description": "Superdirettissima med start i vänsterkant av svaplattan. Säkras med 10bb och har försetts med eget ankare. Alla bultar utom en satta -08",
+      "sectorId": "hogra-vaggen",
       "source": {
         "id": "legacy:skevik",
         "path": "mediawiki/Skevik.txt"
@@ -671,6 +721,7 @@
       "type": "sport",
       "firstAscent": "Eva Selin, Anders Lundahl-83",
       "description": "",
+      "sectorId": "hogra-vaggen",
       "source": {
         "id": "legacy:skevik",
         "path": "mediawiki/Skevik.txt"
@@ -686,6 +737,7 @@
       "type": "sport",
       "firstAscent": "Anders Lundahl, Eva Selin-89",
       "description": "6 borrbultar, ombultad -08. Kedjorna i ankaret utbytta mot stålringar.",
+      "sectorId": "hogra-vaggen",
       "source": {
         "id": "legacy:skevik",
         "path": "mediawiki/Skevik.txt"
@@ -701,6 +753,7 @@
       "type": "sport",
       "firstAscent": "Anders Lundahl-89",
       "description": "Används med fördel som direktinsteg till och . Förstärkt, -08, med ytterligare en bult på insteget.",
+      "sectorId": "hogra-vaggen",
       "source": {
         "id": "legacy:skevik",
         "path": "mediawiki/Skevik.txt"
@@ -716,6 +769,7 @@
       "type": "sport",
       "firstAscent": "",
       "description": "Samma insteg som Konsum, men viker av vänster mitt på väggen. Övre delen gemensam med Spöksonaten.",
+      "sectorId": "hogra-vaggen",
       "source": {
         "id": "legacy:skevik",
         "path": "mediawiki/Skevik.txt"
@@ -731,6 +785,7 @@
       "type": "sport",
       "firstAscent": "",
       "description": "Samma insteg som Coop. Fin klättring längs arêten.",
+      "sectorId": "hogra-vaggen",
       "source": {
         "id": "legacy:skevik",
         "path": "mediawiki/Skevik.txt"
@@ -746,6 +801,7 @@
       "type": "mix",
       "firstAscent": "Eva Selin, Anders Lundahl-84",
       "description": "Lång och ihållande.",
+      "sectorId": "hogra-vaggen",
       "source": {
         "id": "legacy:skevik",
         "path": "mediawiki/Skevik.txt"
@@ -761,6 +817,7 @@
       "type": "mix",
       "firstAscent": "Anders Lundahl, Eva Selin-83",
       "description": "Sällan klättrad. Övre delen har i princip övertagits av som i stort sett följer samma sträckning. Nedre delen har också delvis bultats och ingår numera i Luftslottet direkt (om man gör som de flesta och håller vänster om bultarna). Mittpartiet upp till tvärsprickan och vidare upp i den korta, högervända diedern är fortfarande kilsäkrat. Klättras nästan aldrig.",
+      "sectorId": "hogra-vaggen",
       "source": {
         "id": "legacy:skevik",
         "path": "mediawiki/Skevik.txt"
@@ -776,6 +833,7 @@
       "type": "sport",
       "firstAscent": "Eva Selin, Anders Lundahl-88",
       "description": "Hade tidigare en bladbult, men är nu helbultad.",
+      "sectorId": "hogra-vaggen",
       "source": {
         "id": "legacy:skevik",
         "path": "mediawiki/Skevik.txt"
@@ -791,6 +849,7 @@
       "type": "sport",
       "firstAscent": "Peter Yakubenko-06",
       "description": "Ett alternativ till Icones som klippans uppvärmningsled. Den är en förlängning av Luftslottet som finns med i gamla Stockholmsföraren. Startar uppför det sneda blocket ca 2 meter tills man når första bulten, där går man över från blocket till själva väggen och därefter i stort sett rakt upp emellan Atlantis och Tabu upp till originalleden. Enligt förstabestigaren går leden till höger om bultarna (nära Tabu), men de flesta håller sig på vänster sida. Välsäkrad med 9 bb (-06) och ett ankare med två ringar.",
+      "sectorId": "hogra-vaggen",
       "source": {
         "id": "legacy:skevik",
         "path": "mediawiki/Skevik.txt"
@@ -806,6 +865,7 @@
       "type": "sport",
       "firstAscent": "Eva Selin, Anders Lundahl-88",
       "description": "Lång och ihållande.",
+      "sectorId": "hogra-vaggen",
       "source": {
         "id": "legacy:skevik",
         "path": "mediawiki/Skevik.txt"
@@ -821,6 +881,7 @@
       "type": "sport",
       "firstAscent": "Peter Yakubenko-05",
       "description": "Startar med Tabu, sedan höger genom lilla taket.",
+      "sectorId": "hogra-vaggen",
       "source": {
         "id": "legacy:skevik",
         "path": "mediawiki/Skevik.txt"
@@ -836,6 +897,7 @@
       "type": "trad",
       "firstAscent": "Jan Liliemark, Lars Svadangs-81",
       "description": "",
+      "sectorId": "hogra-vaggen",
       "source": {
         "id": "legacy:skevik",
         "path": "mediawiki/Skevik.txt"
@@ -851,6 +913,7 @@
       "type": "mix",
       "firstAscent": "",
       "description": "Fin men sällan klättrad.",
+      "sectorId": "hogra-vaggen",
       "source": {
         "id": "legacy:skevik",
         "path": "mediawiki/Skevik.txt"
@@ -866,6 +929,7 @@
       "type": "sport",
       "firstAscent": "Johan Luhr-91",
       "description": "Megaballt krux! Nya borrbultar -05.",
+      "sectorId": "hogra-vaggen",
       "source": {
         "id": "legacy:skevik",
         "path": "mediawiki/Skevik.txt"
@@ -881,6 +945,7 @@
       "type": "sport",
       "firstAscent": "",
       "description": "Fortsätt rakt upp förbi ankaret på Megadans till klippans topp. Svår och dynamisk väggklättring. 2bb och toppankare.",
+      "sectorId": "hogra-vaggen",
       "source": {
         "id": "legacy:skevik",
         "path": "mediawiki/Skevik.txt"
@@ -896,6 +961,7 @@
       "type": "sport",
       "firstAscent": "Anders Lundahl-84 / Eva Selin, Anders Lundahl (direktutsteg)-89",
       "description": "Tekniskt fotarbete belönas. Svårare än Tabu. Ihållande i nedre delen och med en liten \"sting in the tail\" på slutet.",
+      "sectorId": "hogra-vaggen",
       "source": {
         "id": "legacy:skevik",
         "path": "mediawiki/Skevik.txt"
@@ -911,6 +977,7 @@
       "type": "sport",
       "firstAscent": "Johan Luhr, Rikard Hedman-89",
       "description": "Pumpig :-)",
+      "sectorId": "hogra-vaggen",
       "source": {
         "id": "legacy:skevik",
         "path": "mediawiki/Skevik.txt"
@@ -926,6 +993,7 @@
       "type": "sport",
       "firstAscent": "Anders Lundahl, Eva Selin-89",
       "description": "Fin led som alltid är upptagen!",
+      "sectorId": "hogra-vaggen",
       "source": {
         "id": "legacy:skevik",
         "path": "mediawiki/Skevik.txt"
@@ -941,6 +1009,7 @@
       "type": "sport",
       "firstAscent": "Claes Jelinek, Daniel Bidner-91",
       "description": "Utstegsvariant till Icones. Går rakt upp genom taket där Icones viker av åt vänster på mitten.",
+      "sectorId": "hogra-vaggen",
       "source": {
         "id": "legacy:skevik",
         "path": "mediawiki/Skevik.txt"
@@ -956,6 +1025,7 @@
       "type": "trad",
       "firstAscent": "Jan Liliemark, Lars Grankvist-81",
       "description": "",
+      "sectorId": "hogra-vaggen",
       "source": {
         "id": "legacy:skevik",
         "path": "mediawiki/Skevik.txt"
@@ -971,6 +1041,7 @@
       "type": "sport",
       "firstAscent": "Anders Lundahl-87",
       "description": "Väggklättring till höger om Via Aqua.",
+      "sectorId": "hogra-vaggen",
       "source": {
         "id": "legacy:skevik",
         "path": "mediawiki/Skevik.txt"
@@ -986,6 +1057,7 @@
       "type": "sport",
       "firstAscent": "Daniel Bidner-85",
       "description": "Väggtur th om Hamlet som numera är helbultad. Startar antingen med Icones insteg eller via Spigollo Rosso. I båda fallen får man göra en mossig travers till ledens första borrbult. Några långa slingor för att undvika repdrag kan vara bra. Sedan teknisk och ihållande väggklättring.",
+      "sectorId": "hogra-vaggen",
       "source": {
         "id": "legacy:skevik",
         "path": "mediawiki/Skevik.txt"
@@ -1001,6 +1073,7 @@
       "type": "sport",
       "firstAscent": "Jan Nyström, Bengt Hansson-78 / Niklas Björnerstedt (direktutsteg)-83",
       "description": "Första delen längs arêten har bultats och försetts med ankare.",
+      "sectorId": "hogra-vaggen",
       "source": {
         "id": "legacy:skevik",
         "path": "mediawiki/Skevik.txt"
@@ -1016,6 +1089,7 @@
       "type": "sport",
       "firstAscent": "",
       "description": "",
+      "sectorId": "sidovaggen",
       "source": {
         "id": "legacy:skevik",
         "path": "mediawiki/Skevik.txt"
@@ -1031,6 +1105,7 @@
       "type": "sport",
       "firstAscent": "Anders Lundahl/ Eva Selin-88",
       "description": "",
+      "sectorId": "sidovaggen",
       "source": {
         "id": "legacy:skevik",
         "path": "mediawiki/Skevik.txt"
@@ -1046,6 +1121,7 @@
       "type": "mix",
       "firstAscent": "Anders Lundahl-90",
       "description": "",
+      "sectorId": "sidovaggen",
       "source": {
         "id": "legacy:skevik",
         "path": "mediawiki/Skevik.txt"
@@ -1061,6 +1137,7 @@
       "type": "boulder",
       "firstAscent": "Chris Ellis-02",
       "description": "Sittstart med avslut i Reach boys juggar. Repeterad i feb 2008.",
+      "sectorId": "sidovaggen",
       "source": {
         "id": "legacy:skevik",
         "path": "mediawiki/Skevik.txt"
@@ -1076,6 +1153,7 @@
       "type": "",
       "firstAscent": "Johan Luhr-91",
       "description": "",
+      "sectorId": "sidovaggen",
       "source": {
         "id": "legacy:skevik",
         "path": "mediawiki/Skevik.txt"
@@ -1091,6 +1169,7 @@
       "type": "",
       "firstAscent": "Magnus Budre/Daniel Bidner-89",
       "description": "2m t v om Böhlstark. Samma standplats som Böhlstark.",
+      "sectorId": "sidovaggen",
       "source": {
         "id": "legacy:skevik",
         "path": "mediawiki/Skevik.txt"
@@ -1106,6 +1185,7 @@
       "type": "mix",
       "firstAscent": "Eva Selin-88",
       "description": "",
+      "sectorId": "sidovaggen",
       "source": {
         "id": "legacy:skevik",
         "path": "mediawiki/Skevik.txt"
@@ -1121,6 +1201,7 @@
       "type": "",
       "firstAscent": "",
       "description": "",
+      "sectorId": "sidovaggen",
       "source": {
         "id": "legacy:skevik",
         "path": "mediawiki/Skevik.txt"
@@ -1136,6 +1217,7 @@
       "type": "",
       "firstAscent": "",
       "description": "",
+      "sectorId": "sidovaggen",
       "source": {
         "id": "legacy:skevik",
         "path": "mediawiki/Skevik.txt"
@@ -1151,6 +1233,7 @@
       "type": "",
       "firstAscent": "",
       "description": "",
+      "sectorId": "sidovaggen",
       "source": {
         "id": "legacy:skevik",
         "path": "mediawiki/Skevik.txt"
@@ -1166,6 +1249,7 @@
       "type": "",
       "firstAscent": "Johan Luhr/ Rikard Hedman-89",
       "description": "",
+      "sectorId": "sidovaggen",
       "source": {
         "id": "legacy:skevik",
         "path": "mediawiki/Skevik.txt"
@@ -1181,6 +1265,7 @@
       "type": "",
       "firstAscent": "Magnus Budre/Daniel Bidner-89",
       "description": "sju meter th om Bohlstark vid ett skarpt litet tak",
+      "sectorId": "sidovaggen",
       "source": {
         "id": "legacy:skevik",
         "path": "mediawiki/Skevik.txt"
@@ -1196,6 +1281,7 @@
       "type": "boulder",
       "firstAscent": "Som vill?",
       "description": "??.",
+      "sectorId": "bouldering",
       "source": {
         "id": "legacy:skevik",
         "path": "mediawiki/Skevik.txt"
@@ -1211,6 +1297,7 @@
       "type": "boulder",
       "firstAscent": "Per Norgren-10",
       "description": "??.",
+      "sectorId": "bouldering",
       "source": {
         "id": "legacy:skevik",
         "path": "mediawiki/Skevik.txt"
@@ -1226,6 +1313,7 @@
       "type": "boulder",
       "firstAscent": "Matte Nyberg-08",
       "description": "Starta i två tydliga undercling.",
+      "sectorId": "bouldering",
       "source": {
         "id": "legacy:skevik",
         "path": "mediawiki/Skevik.txt"
@@ -1241,6 +1329,7 @@
       "type": "boulder",
       "firstAscent": "Per Norgren-10",
       "description": "??.",
+      "sectorId": "bouldering",
       "source": {
         "id": "legacy:skevik",
         "path": "mediawiki/Skevik.txt"
@@ -1256,6 +1345,7 @@
       "type": "boulder",
       "firstAscent": "Johan Luhr?-04",
       "description": "Det här ser ut som insteget till Böhlstark. Böhlstark ss då kanske...?",
+      "sectorId": "bouldering",
       "source": {
         "id": "legacy:skevik",
         "path": "mediawiki/Skevik.txt"
@@ -1271,6 +1361,7 @@
       "type": "boulder",
       "firstAscent": "Johan Luhr?-04",
       "description": "??.",
+      "sectorId": "bouldering",
       "source": {
         "id": "legacy:skevik",
         "path": "mediawiki/Skevik.txt"
@@ -1286,6 +1377,7 @@
       "type": "boulder",
       "firstAscent": "Chris Ellis-02",
       "description": "Sittstart med avslut i Reach boys juggar. Repeterad i feb 2008.",
+      "sectorId": "bouldering",
       "source": {
         "id": "legacy:skevik",
         "path": "mediawiki/Skevik.txt"
@@ -1301,6 +1393,7 @@
       "type": "boulder",
       "firstAscent": "Per Norgren-09",
       "description": "samma Startgrepp som Verve går sedan till höger om Verve.",
+      "sectorId": "bouldering",
       "source": {
         "id": "legacy:skevik",
         "path": "mediawiki/Skevik.txt"
@@ -1316,6 +1409,7 @@
       "type": "boulder",
       "firstAscent": "Peter Lindmark-10",
       "description": "Samma start som 7B nedan och samma slut som Verve.",
+      "sectorId": "bouldering",
       "source": {
         "id": "legacy:skevik",
         "path": "mediawiki/Skevik.txt"
@@ -1331,6 +1425,7 @@
       "type": "boulder",
       "firstAscent": "Johan Luhr?-04",
       "description": "??.",
+      "sectorId": "bouldering",
       "source": {
         "id": "legacy:skevik",
         "path": "mediawiki/Skevik.txt"
@@ -1346,6 +1441,7 @@
       "type": "boulder",
       "firstAscent": "Per Norgren?-10",
       "description": "??.",
+      "sectorId": "bouldering",
       "source": {
         "id": "legacy:skevik",
         "path": "mediawiki/Skevik.txt"
@@ -1356,52 +1452,62 @@
     {
       "filename": "Skevik.jpg",
       "caption": "Vy från ängen mot klippan",
-      "missing": false
+      "missing": false,
+      "sectorId": null
     },
     {
       "filename": "Skevik-overview.png",
       "caption": "Skiss av klippan sedd uppifrån",
-      "missing": false
+      "missing": false,
+      "sectorId": "vagbeskrivning"
     },
     {
       "filename": "Skevik_v.png",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "lilla-och-vanstra-vaggen"
     },
     {
       "filename": "Skevik_h.png",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "hogra-vaggen"
     },
     {
       "filename": "Skevik8.jpg",
-      "caption": "500px",
-      "missing": false
+      "caption": "",
+      "missing": false,
+      "sectorId": "bouldering"
     },
     {
       "filename": "Skevik1.jpg",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "bouldering"
     },
     {
       "filename": "Skevik2.jpg",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "bouldering"
     },
     {
       "filename": "Skevik3.jpg",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "bouldering"
     },
     {
       "filename": "Skevik4.jpg",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "bouldering"
     },
     {
       "filename": "Skevik5.jpg",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "bouldering"
     }
   ],
   "access": {

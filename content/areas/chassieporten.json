@@ -47,6 +47,7 @@
       "type": "trad",
       "firstAscent": "Mikael Söderström -10",
       "description": "Solo",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:chassieporten",
         "path": "mediawiki/Chassieporten.txt"
@@ -62,6 +63,7 @@
       "type": "sport",
       "firstAscent": "Robin Dahlberg -08",
       "description": "Upp o stå!",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:chassieporten",
         "path": "mediawiki/Chassieporten.txt"
@@ -77,6 +79,7 @@
       "type": "sport",
       "firstAscent": "Johan Luhr -08",
       "description": "",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:chassieporten",
         "path": "mediawiki/Chassieporten.txt"
@@ -92,6 +95,7 @@
       "type": "mix",
       "firstAscent": "Anders Henriksson 090517",
       "description": "Uppsprucket och flackt efter bulten. Ett kilknippe eller småkammar om man vill säkra ovanför bulten. Delar sista bult med \"Se upp!\".",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:chassieporten",
         "path": "mediawiki/Chassieporten.txt"
@@ -102,7 +106,8 @@
     {
       "filename": "Sdt_copy.jpg",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "leder"
     }
   ],
   "access": {

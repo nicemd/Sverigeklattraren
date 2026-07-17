@@ -38,6 +38,11 @@
       "body": "Från Tranås, åk mot Ödeshög. Efter ca 16 km sväng vänster vid skylt Flugebo 3. I korsningen strax efter Flugebo, ta av vänster in på Grusvägen och passera två stycken grindar. Strax innan grustaget går det en stig på vänster sida som löper till berget.(Markerad med blå färg på nedan karta). Bilar kan parkeras vid grustaget. Alternativt kan man från Tranås ta vägen mot Duvebo, följ denna 12-13 km och tag av till höger vid skylt Hakebo 1. Efter ett par kilometer delas vägen, välj då den vänstra vägen. Vid Flugebo, ta höger ner på Grusvägen. Därefter, följ ovan beskrivning. Kolla vädret vid Rödberget En större kartbild finns här."
     },
     {
+      "id": "access",
+      "title": "Access",
+      "body": ""
+    },
+    {
       "id": "bilder",
       "title": "Bilder",
       "body": "Bilder på en helt orörd, och därmed orensad, klippa finns på nedan länk. http://www.hoglandsklattrarna.se/rodberget/index.html"
@@ -46,6 +51,16 @@
       "id": "leder-inklusive-projekt",
       "title": "Leder (inklusive projekt)",
       "body": "(Från vänster till höger sett nerifrån, höger till vänster sett uppifrån)"
+    },
+    {
+      "id": "stora-vaggen",
+      "title": "Stora väggen",
+      "body": ""
+    },
+    {
+      "id": "overhangsvaggen",
+      "title": "Överhängsväggen",
+      "body": ""
     },
     {
       "id": "lilla-vaggen",
@@ -64,6 +79,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "Sprickan till höger om det stora stående flaket. Leden rensades och borstades av Kenny Carlsson sommaren -07. Denna led kommer behöva kompletteras med en till två borrbultar. Öppet projekt.",
+      "sectorId": "stora-vaggen",
       "source": {
         "id": "legacy:rodberget-flugebosjon",
         "path": "mediawiki/Rödberget (Flugebosjön).txt"
@@ -79,6 +95,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "Sprickan mellan Projekt nr 1 och diedret. Efter 5-6 meter traverserar man 2 m åt höger och följer den grova sprickan över taket. Öppet projekt.",
+      "sectorId": "stora-vaggen",
       "source": {
         "id": "legacy:rodberget-flugebosjon",
         "path": "mediawiki/Rödberget (Flugebosjön).txt"
@@ -94,6 +111,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "Det högra diedret på huvudvägggen. Leden rensades och borstades av Kenny Carlsson sommaren -08, men kan nog behöva lite mer puts innan den klättras. Öppet projekt.",
+      "sectorId": "stora-vaggen",
       "source": {
         "id": "legacy:rodberget-flugebosjon",
         "path": "mediawiki/Rödberget (Flugebosjön).txt"
@@ -109,6 +127,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "Sicksack i sprickor mellan diedret och Stygga flickor och en kasse pilsner. Kan möjligtvis behöva nån bult. Öppet projekt.",
+      "sectorId": "stora-vaggen",
       "source": {
         "id": "legacy:rodberget-flugebosjon",
         "path": "mediawiki/Rödberget (Flugebosjön).txt"
@@ -124,6 +143,7 @@
       "type": "trad",
       "firstAscent": "Kenny Carlsson, Marcus Bennäs-08",
       "description": "Den tydliga sprickan, ca 10-12 m höger om det stora flaket.",
+      "sectorId": "stora-vaggen",
       "source": {
         "id": "legacy:rodberget-flugebosjon",
         "path": "mediawiki/Rödberget (Flugebosjön).txt"
@@ -139,6 +159,7 @@
       "type": "sport",
       "firstAscent": "",
       "description": "Brant och ännu obultat, men många timmar rensning offrad. Följer spricklinjen mitt på väggen, något till vänster. Stängt projekt tillhörande Christian Johansson.",
+      "sectorId": "overhangsvaggen",
       "source": {
         "id": "legacy:rodberget-flugebosjon",
         "path": "mediawiki/Rödberget (Flugebosjön).txt"
@@ -154,6 +175,7 @@
       "type": "sport",
       "firstAscent": "",
       "description": "Brant och ännu obultat. Mitt på väggen. Stängt projekt tillhörande Christian Johansson.",
+      "sectorId": "overhangsvaggen",
       "source": {
         "id": "legacy:rodberget-flugebosjon",
         "path": "mediawiki/Rödberget (Flugebosjön).txt"
@@ -169,6 +191,7 @@
       "type": "sport",
       "firstAscent": "",
       "description": "Brant och ej färdig bultad, saknas 3 bultar. Pelaren(Bult pillaren). Stängt projekt tillhörande Christian Johansson.",
+      "sectorId": "overhangsvaggen",
       "source": {
         "id": "legacy:rodberget-flugebosjon",
         "path": "mediawiki/Rödberget (Flugebosjön).txt"
@@ -184,6 +207,7 @@
       "type": "trad",
       "firstAscent": "Christian Johansson. -08",
       "description": "Diedret till höger om överhänget. Börjar med osäkrad lätt klättring (går att få i någon halvtaskig kil några meter upp) upp till hyllan halvvägs. Sedan rolig stämklättring. En röd HB offset (nr8), eller liknande är bra att ha.",
+      "sectorId": "overhangsvaggen",
       "source": {
         "id": "legacy:rodberget-flugebosjon",
         "path": "mediawiki/Rödberget (Flugebosjön).txt"
@@ -199,6 +223,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "Tunn klättring, upp längs den halva jättegrytan, till höger om överhängsväggen. Stängt projekt tillhörande Tom Bjernerud.",
+      "sectorId": "overhangsvaggen",
       "source": {
         "id": "legacy:rodberget-flugebosjon",
         "path": "mediawiki/Rödberget (Flugebosjön).txt"
@@ -214,6 +239,7 @@
       "type": "sport",
       "firstAscent": "Marcus Bennäs, Kenny Carlsson-08",
       "description": "Första leden på Rödberget.",
+      "sectorId": "lilla-vaggen",
       "source": {
         "id": "legacy:rodberget-flugebosjon",
         "path": "mediawiki/Rödberget (Flugebosjön).txt"
@@ -229,6 +255,7 @@
       "type": "sport",
       "firstAscent": "",
       "description": "Projekt i mitten av den vänstra delen på Lilla klippan. Öppet projekt.",
+      "sectorId": "lilla-vaggen",
       "source": {
         "id": "legacy:rodberget-flugebosjon",
         "path": "mediawiki/Rödberget (Flugebosjön).txt"
@@ -244,6 +271,7 @@
       "type": "sport",
       "firstAscent": "Christoffer Beidegårdh-08",
       "description": "Led som slutar med arêten till höger på lilla klippan.",
+      "sectorId": "lilla-vaggen",
       "source": {
         "id": "legacy:rodberget-flugebosjon",
         "path": "mediawiki/Rödberget (Flugebosjön).txt"
@@ -259,6 +287,7 @@
       "type": "sport",
       "firstAscent": "Christoffer Beidegårdh, Kenny Carlsson-08",
       "description": "Led i mitten av Lilla klippan. Leden följer en arête upp till ett tak, därefter fortsätter leden några meter upp längs diedret till höger om taket. Lite kruxig start, därefter enklare.",
+      "sectorId": "lilla-vaggen",
       "source": {
         "id": "legacy:rodberget-flugebosjon",
         "path": "mediawiki/Rödberget (Flugebosjön).txt"
@@ -274,6 +303,7 @@
       "type": "sport",
       "firstAscent": "",
       "description": "Projekt på högra delen av Lilla klippan. Stängt projekt tillhörande Marcus Bennäs.",
+      "sectorId": "lilla-vaggen",
       "source": {
         "id": "legacy:rodberget-flugebosjon",
         "path": "mediawiki/Rödberget (Flugebosjön).txt"
@@ -289,6 +319,7 @@
       "type": "trad",
       "firstAscent": "Christian Johansson-08",
       "description": "Tydlig spricklinje långt till höger på Lilla klippan. Ska eventuellt få ett ett bultat ankare. För närvarande så klättrar man vidare efter den lilla tallen upp till toppen.",
+      "sectorId": "lilla-vaggen",
       "source": {
         "id": "legacy:rodberget-flugebosjon",
         "path": "mediawiki/Rödberget (Flugebosjön).txt"
@@ -304,6 +335,7 @@
       "type": "sport",
       "firstAscent": "",
       "description": "Projekt längst till höger på Lilla klippan. Öppet projekt.",
+      "sectorId": "lilla-vaggen",
       "source": {
         "id": "legacy:rodberget-flugebosjon",
         "path": "mediawiki/Rödberget (Flugebosjön).txt"
@@ -314,12 +346,14 @@
     {
       "filename": "Rodberget.jpg",
       "caption": "Kenny Carlsson",
-      "missing": false
+      "missing": false,
+      "sectorId": null
     },
     {
       "filename": "Rodberget_400.jpg",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "vagbeskrivning"
     }
   ],
   "access": {

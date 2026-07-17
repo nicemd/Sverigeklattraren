@@ -17,9 +17,39 @@
   ],
   "sections": [
     {
+      "id": "introduktion",
+      "title": "Introduktion",
+      "body": ""
+    },
+    {
       "id": "karaktar",
       "title": "Karaktär",
       "body": "Klassisk sprick och vägg-klättring. Vettekullen och inbefattas av Bohusläns Klätterklubbs bultpolicy om att hållas bultfria i framtiden. Classic crack and face climbing. Vettekullen follows the Bohusläns Klätterklubb's bolt policy on staying bolt free in the future."
+    },
+    {
+      "id": "vagbeskrivning",
+      "title": "Vägbeskrivning",
+      "body": ""
+    },
+    {
+      "id": "access",
+      "title": "Access",
+      "body": ""
+    },
+    {
+      "id": "leder",
+      "title": "Leder",
+      "body": ""
+    },
+    {
+      "id": "ovre-vaggen",
+      "title": "Övre Väggen",
+      "body": ""
+    },
+    {
+      "id": "nedre-vaggen",
+      "title": "Nedre Väggen",
+      "body": ""
     },
     {
       "id": "granvaggen",
@@ -38,6 +68,7 @@
       "type": "trad",
       "firstAscent": "Pia Fagernes, Niklas Björnerstedt -94",
       "description": "",
+      "sectorId": "ovre-vaggen",
       "source": {
         "id": "legacy:vettekullen",
         "path": "mediawiki/Vettekullen.txt"
@@ -53,6 +84,7 @@
       "type": "trad",
       "firstAscent": "Niklas Björnerstedt, Bogi Palfay -95",
       "description": "",
+      "sectorId": "ovre-vaggen",
       "source": {
         "id": "legacy:vettekullen",
         "path": "mediawiki/Vettekullen.txt"
@@ -68,6 +100,7 @@
       "type": "trad",
       "firstAscent": "Henrik Bolander, David Bolander -89",
       "description": "",
+      "sectorId": "ovre-vaggen",
       "source": {
         "id": "legacy:vettekullen",
         "path": "mediawiki/Vettekullen.txt"
@@ -83,6 +116,7 @@
       "type": "trad",
       "firstAscent": "Henrik Sjöqvist, Lina Lundkvist -07",
       "description": "Starta i Ormsprickan, höger under \"taket\" upp i hörnet och avsluta med ett par feta handjam i Skitrännan, eller följ den tydliga linjen.",
+      "sectorId": "ovre-vaggen",
       "source": {
         "id": "legacy:vettekullen",
         "path": "mediawiki/Vettekullen.txt"
@@ -98,6 +132,7 @@
       "type": "mix",
       "firstAscent": "Henrik Bolander, Jonas Böttiger -89",
       "description": "",
+      "sectorId": "ovre-vaggen",
       "source": {
         "id": "legacy:vettekullen",
         "path": "mediawiki/Vettekullen.txt"
@@ -113,6 +148,7 @@
       "type": "mix",
       "firstAscent": "Fredrik Rundkvist, Henrik Bolander, Jonas Böttiger -89",
       "description": "",
+      "sectorId": "ovre-vaggen",
       "source": {
         "id": "legacy:vettekullen",
         "path": "mediawiki/Vettekullen.txt"
@@ -128,6 +164,7 @@
       "type": "mix",
       "firstAscent": "Fredrik Rundkvist, Anders Jauring -89",
       "description": "",
+      "sectorId": "ovre-vaggen",
       "source": {
         "id": "legacy:vettekullen",
         "path": "mediawiki/Vettekullen.txt"
@@ -143,6 +180,7 @@
       "type": "trad",
       "firstAscent": "Fredrik Rundkvist, Anders Jauring -89",
       "description": "",
+      "sectorId": "ovre-vaggen",
       "source": {
         "id": "legacy:vettekullen",
         "path": "mediawiki/Vettekullen.txt"
@@ -158,6 +196,7 @@
       "type": "mix",
       "firstAscent": "Henrik Bolander -95",
       "description": "",
+      "sectorId": "ovre-vaggen",
       "source": {
         "id": "legacy:vettekullen",
         "path": "mediawiki/Vettekullen.txt"
@@ -173,6 +212,7 @@
       "type": "trad",
       "firstAscent": "Henrik Bolander, Jonas Böttiger -89",
       "description": "",
+      "sectorId": "ovre-vaggen",
       "source": {
         "id": "legacy:vettekullen",
         "path": "mediawiki/Vettekullen.txt"
@@ -188,6 +228,7 @@
       "type": "trad",
       "firstAscent": "Henrik Bolander, Jonas Böttiger -89",
       "description": "",
+      "sectorId": "ovre-vaggen",
       "source": {
         "id": "legacy:vettekullen",
         "path": "mediawiki/Vettekullen.txt"
@@ -203,6 +244,7 @@
       "type": "mix",
       "firstAscent": "Henrik Bolander, Jonas Böttiger -89",
       "description": "",
+      "sectorId": "ovre-vaggen",
       "source": {
         "id": "legacy:vettekullen",
         "path": "mediawiki/Vettekullen.txt"
@@ -218,6 +260,7 @@
       "type": "trad",
       "firstAscent": "Jonas Böttiger, Henrik Bolander -89",
       "description": "",
+      "sectorId": "ovre-vaggen",
       "source": {
         "id": "legacy:vettekullen",
         "path": "mediawiki/Vettekullen.txt"
@@ -233,6 +276,7 @@
       "type": "trad",
       "firstAscent": "Lars Svadängs, Niklas Björnerstedt -89",
       "description": "",
+      "sectorId": "ovre-vaggen",
       "source": {
         "id": "legacy:vettekullen",
         "path": "mediawiki/Vettekullen.txt"
@@ -248,6 +292,7 @@
       "type": "mix",
       "firstAscent": "Henrik Bolander, Jonas Böttiger -89",
       "description": "",
+      "sectorId": "ovre-vaggen",
       "source": {
         "id": "legacy:vettekullen",
         "path": "mediawiki/Vettekullen.txt"
@@ -263,6 +308,7 @@
       "type": "sport",
       "firstAscent": "Henrik Bolander, Jonas Böttiger -89",
       "description": "",
+      "sectorId": "ovre-vaggen",
       "source": {
         "id": "legacy:vettekullen",
         "path": "mediawiki/Vettekullen.txt"
@@ -278,6 +324,7 @@
       "type": "trad",
       "firstAscent": "Johan Svensson -97",
       "description": "",
+      "sectorId": "nedre-vaggen",
       "source": {
         "id": "legacy:vettekullen",
         "path": "mediawiki/Vettekullen.txt"
@@ -293,6 +340,7 @@
       "type": "trad",
       "firstAscent": "Niklas Björnerstedt, Ulrika Tiegs -96",
       "description": "",
+      "sectorId": "nedre-vaggen",
       "source": {
         "id": "legacy:vettekullen",
         "path": "mediawiki/Vettekullen.txt"
@@ -308,6 +356,7 @@
       "type": "trad",
       "firstAscent": "Niklas Björnerstedt, Lars Svadängs -89",
       "description": "",
+      "sectorId": "granvaggen",
       "source": {
         "id": "legacy:vettekullen",
         "path": "mediawiki/Vettekullen.txt"
@@ -323,6 +372,7 @@
       "type": "trad",
       "firstAscent": "Niklas Björnerstedt, Lars Svadängs -89",
       "description": "",
+      "sectorId": "granvaggen",
       "source": {
         "id": "legacy:vettekullen",
         "path": "mediawiki/Vettekullen.txt"
@@ -338,6 +388,7 @@
       "type": "trad",
       "firstAscent": "Lars Svadängs, Niklas Björnerstedt -89",
       "description": "",
+      "sectorId": "granvaggen",
       "source": {
         "id": "legacy:vettekullen",
         "path": "mediawiki/Vettekullen.txt"

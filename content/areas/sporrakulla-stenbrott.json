@@ -39,6 +39,7 @@
       "type": "sport",
       "firstAscent": "Fredrik Rapp & Zebastian Mattsson 05",
       "description": "Den längsta leden i brottet. Fira ner till stand på den lilla hyllan vid vattenytan och första bulten. Ankare på toppen.",
+      "sectorId": "gamla-brottet",
       "source": {
         "id": "legacy:sporrakulla-stenbrott",
         "path": "mediawiki/Sporrakulla stenbrott.txt"
@@ -54,6 +55,7 @@
       "type": "sport",
       "firstAscent": "",
       "description": "Häftig och exponerad ute på areten. Ankare",
+      "sectorId": "gamla-brottet",
       "source": {
         "id": "legacy:sporrakulla-stenbrott",
         "path": "mediawiki/Sporrakulla stenbrott.txt"
@@ -69,6 +71,7 @@
       "type": "trad",
       "firstAscent": "Fredrik Rapp",
       "description": "Mycket kort led i hörnet. Ankarbultar finns",
+      "sectorId": "gamla-brottet",
       "source": {
         "id": "legacy:sporrakulla-stenbrott",
         "path": "mediawiki/Sporrakulla stenbrott.txt"
@@ -84,6 +87,7 @@
       "type": "",
       "firstAscent": "Topprep",
       "description": "Intressant och teknisk klättring längs borrillorna på vinkelväggen. Endast topprepad. Ankarbult finns.",
+      "sectorId": "gamla-brottet",
       "source": {
         "id": "legacy:sporrakulla-stenbrott",
         "path": "mediawiki/Sporrakulla stenbrott.txt"
@@ -99,6 +103,7 @@
       "type": "sport",
       "firstAscent": "Fredrik Rapp 05",
       "description": "Precis till höger om kanten. Lätt på stora grepp. Ankarbult finns",
+      "sectorId": "gamla-brottet",
       "source": {
         "id": "legacy:sporrakulla-stenbrott",
         "path": "mediawiki/Sporrakulla stenbrott.txt"
@@ -114,6 +119,7 @@
       "type": "mix",
       "firstAscent": "Fredrik Rapp 05",
       "description": "Klurig start där dynamik kan vara av behov. Liten kil på toppväggen. Ankarbultar.",
+      "sectorId": "gamla-brottet",
       "source": {
         "id": "legacy:sporrakulla-stenbrott",
         "path": "mediawiki/Sporrakulla stenbrott.txt"
@@ -129,6 +135,7 @@
       "type": "sport",
       "firstAscent": "Fredrik Rapp & Zebastian Mattsson 05",
       "description": "Ankarbult.",
+      "sectorId": "gamla-brottet",
       "source": {
         "id": "legacy:sporrakulla-stenbrott",
         "path": "mediawiki/Sporrakulla stenbrott.txt"
@@ -144,6 +151,7 @@
       "type": "mix",
       "firstAscent": "Fredrik Rapp",
       "description": "Tekniskt avslut. Någon egen bit i början.",
+      "sectorId": "gamla-brottet",
       "source": {
         "id": "legacy:sporrakulla-stenbrott",
         "path": "mediawiki/Sporrakulla stenbrott.txt"
@@ -159,6 +167,7 @@
       "type": "trad",
       "firstAscent": "Fredrik Rapp",
       "description": "Den tydliga sprickan som också är välsäkrad. Ankarbultar.",
+      "sectorId": "gamla-brottet",
       "source": {
         "id": "legacy:sporrakulla-stenbrott",
         "path": "mediawiki/Sporrakulla stenbrott.txt"
@@ -174,6 +183,7 @@
       "type": "",
       "firstAscent": "Topprep",
       "description": "Den släta väggen till höger om sprickan. Inga säkringar. Ankarbultar.",
+      "sectorId": "gamla-brottet",
       "source": {
         "id": "legacy:sporrakulla-stenbrott",
         "path": "mediawiki/Sporrakulla stenbrott.txt"
@@ -189,6 +199,7 @@
       "type": "trad",
       "firstAscent": "Martin Vilhelmsson & Björn Cairns 2011",
       "description": "Fira ner och bygg ankare ca 1 meter från vatten ytan, följ sprickan.",
+      "sectorId": "gamla-brottet",
       "source": {
         "id": "legacy:sporrakulla-stenbrott",
         "path": "mediawiki/Sporrakulla stenbrott.txt"
@@ -199,22 +210,26 @@
     {
       "filename": "Sporrakulla4.jpg",
       "caption": "Fredrik Rapp",
-      "missing": false
+      "missing": false,
+      "sectorId": null
     },
     {
       "filename": "Sporrakulla1.jpg",
       "caption": "Huvudväggen vid Sporrakulla stenbrott",
-      "missing": false
+      "missing": false,
+      "sectorId": "gamla-brottet"
     },
     {
       "filename": "Sporrakulla2.jpg",
-      "caption": "",
-      "missing": false
+      "caption": "500 px",
+      "missing": false,
+      "sectorId": "gamla-brottet"
     },
     {
       "filename": "Sporrakulla3.jpg",
-      "caption": "",
-      "missing": false
+      "caption": "500 px",
+      "missing": false,
+      "sectorId": "gamla-brottet"
     }
   ],
   "access": {

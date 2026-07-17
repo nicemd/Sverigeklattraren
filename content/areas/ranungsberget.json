@@ -26,6 +26,11 @@
       "body": "Berget är beläget norr om Ranugnssjön, ca en mil väster om Ljusdal. Med bil; Man följer vägen från Ljusdal till Föne och tar till höger vid en bro strax innan Ranugnssjön. Följ vägen till sjön och parkera i närheten av en av mötesplatserna nedanför branten."
     },
     {
+      "id": "berget",
+      "title": "Berget",
+      "body": ""
+    },
+    {
       "id": "sydvaggen",
       "title": "Sydväggen",
       "body": "Kategori:Saknar leder Kategori:Saknar karta Kategori:Hälsingland Kategori:Trad Kategori:Hälsingland"
@@ -42,6 +47,7 @@
       "type": "",
       "firstAscent": "Olle och Erik Zeidlitz -93",
       "description": "Fin, tunn spricka",
+      "sectorId": "sydvaggen",
       "source": {
         "id": "legacy:ranungsberget",
         "path": "mediawiki/Ranungsberget.txt"
@@ -57,6 +63,7 @@
       "type": "",
       "firstAscent": "Olle och Erik Zeidlitz -93",
       "description": "Flak/Svatur",
+      "sectorId": "sydvaggen",
       "source": {
         "id": "legacy:ranungsberget",
         "path": "mediawiki/Ranungsberget.txt"
@@ -67,7 +74,8 @@
     {
       "filename": "Ranungs.jpg",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "berget"
     }
   ],
   "access": {

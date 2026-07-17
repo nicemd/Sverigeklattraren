@@ -54,6 +54,7 @@
       "type": "sport",
       "firstAscent": "Anna Söderberg, Anders Johansson 1996",
       "description": "Lätt till andra borrbulten. Utsteget säkrades med kil, där någon nu placerat en bb av okänt ursprung. Lednamnet kommer av det antal skor som behövde provas innan leden sattes.",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:kanalklippan-sodertalje",
         "path": "mediawiki/Kanalklippan (Södertälje).txt"
@@ -69,6 +70,7 @@
       "type": "sport",
       "firstAscent": "Anders Johansson 1996",
       "description": "Följ kanten av porten, (ursprungligen gjort utan betongberöring, därav lednamn), förstärk med kil mellan 1:a och 2:a bb. Lite klurigt insteg och krux vid 2:a borrbult.",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:kanalklippan-sodertalje",
         "path": "mediawiki/Kanalklippan (Södertälje).txt"
@@ -84,6 +86,7 @@
       "type": "",
       "firstAscent": "",
       "description": "Till höger om porten.",
+      "sectorId": "topprepsleder",
       "source": {
         "id": "legacy:kanalklippan-sodertalje",
         "path": "mediawiki/Kanalklippan (Södertälje).txt"
@@ -99,6 +102,7 @@
       "type": "",
       "firstAscent": "",
       "description": "Knivigare bakom parkbänken 20 m höger om dörren. Insteg i sprängd klippa sedan vidare rakt upp till tallen på fina lister.",
+      "sectorId": "topprepsleder",
       "source": {
         "id": "legacy:kanalklippan-sodertalje",
         "path": "mediawiki/Kanalklippan (Södertälje).txt"
@@ -109,12 +113,14 @@
     {
       "filename": "Kanalklippan_talje_grey.jpg",
       "caption": "Kanalklippan i Södertälje. Skiss: Anders Henriksson, uppladdad med tillstånd.",
-      "missing": false
+      "missing": false,
+      "sectorId": null
     },
     {
       "filename": "Kanalklippan_talje_foto.jpg",
       "caption": "Kanalklippan i Södertälje. Foto: Anders Henriksson, uppladdat med tillstånd.",
-      "missing": false
+      "missing": false,
+      "sectorId": null
     }
   ],
   "access": {

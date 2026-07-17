@@ -29,6 +29,11 @@
       "id": "vagbeskrivning",
       "title": "Vägbeskrivning",
       "body": "titel=Baggeby lat=18129360 long=59354220 Åk till bostadsområdet Baggeby (se kartan. Leta reda på Farkostvägen 8. Mittemot detta hyreshus leder en tydlig grusstig ned mot vattnet. Följ denna i högerböj i ca 3 minuter. Klippan ligger på h sida i en liten slänt."
+    },
+    {
+      "id": "leder",
+      "title": "Leder",
+      "body": ""
     }
   ],
   "routes": [
@@ -42,6 +47,7 @@
       "type": "sport",
       "firstAscent": "Johan Luhr",
       "description": "",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:baggeby",
         "path": "mediawiki/Baggeby.txt"
@@ -57,6 +63,7 @@
       "type": "sport",
       "firstAscent": "Göran Wennerbrant, Claes Jelinek -93",
       "description": "",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:baggeby",
         "path": "mediawiki/Baggeby.txt"
@@ -72,6 +79,7 @@
       "type": "sport",
       "firstAscent": "Claes Jelinek -94",
       "description": "",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:baggeby",
         "path": "mediawiki/Baggeby.txt"
@@ -87,6 +95,7 @@
       "type": "sport",
       "firstAscent": "Stefan Ösund -94",
       "description": "",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:baggeby",
         "path": "mediawiki/Baggeby.txt"
@@ -102,6 +111,7 @@
       "type": "sport",
       "firstAscent": "Claes Jelinek, Göran Wennerbrant -93",
       "description": "",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:baggeby",
         "path": "mediawiki/Baggeby.txt"
@@ -117,6 +127,7 @@
       "type": "sport",
       "firstAscent": "Claes Jelinek, Göran Wennerbrant -93",
       "description": "Starta med Klifingertango sedan höger vid andra bb",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:baggeby",
         "path": "mediawiki/Baggeby.txt"
@@ -132,6 +143,7 @@
       "type": "sport",
       "firstAscent": "Johan Luhr",
       "description": "Starta med Klifingertango sedan höger vid första bb",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:baggeby",
         "path": "mediawiki/Baggeby.txt"
@@ -147,6 +159,7 @@
       "type": "sport",
       "firstAscent": "Göran Wennerbrant, Claes Jelinek -93",
       "description": "",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:baggeby",
         "path": "mediawiki/Baggeby.txt"
@@ -162,6 +175,7 @@
       "type": "sport",
       "firstAscent": "Claes Jelinek, Göran Wennerbrant -93",
       "description": "",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:baggeby",
         "path": "mediawiki/Baggeby.txt"
@@ -177,6 +191,7 @@
       "type": "sport",
       "firstAscent": "Göran Wennerbrant, Claes Jelinek -93",
       "description": "",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:baggeby",
         "path": "mediawiki/Baggeby.txt"
@@ -192,6 +207,7 @@
       "type": "sport",
       "firstAscent": "Johan Luhr",
       "description": "Utan stenen",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:baggeby",
         "path": "mediawiki/Baggeby.txt"
@@ -202,7 +218,8 @@
     {
       "filename": "Baggeby.png",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "leder"
     }
   ],
   "access": {

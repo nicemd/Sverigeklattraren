@@ -34,6 +34,21 @@
       "body": "titel=Majstångsvägen lat=18007783‎ long=59304125 Klippan ligger centralt, söder om söder. Det ligger några minuters promenad från midsommarkransen tunnelbana, och flertalet bussar stannar precis vid klippan. Åker ni bil så ligger klippan mitt på en parkeringsplats -- dock oklart huruvida man får stå där."
     },
     {
+      "id": "leder",
+      "title": "Leder",
+      "body": ""
+    },
+    {
+      "id": "vanster",
+      "title": "Vänster",
+      "body": ""
+    },
+    {
+      "id": "mitten",
+      "title": "Mitten",
+      "body": ""
+    },
+    {
       "id": "hoger",
       "title": "Höger",
       "body": "Kategori:sva Kategori:vertikalt Kategori:Stockholm Kategori:Stockholm City"
@@ -50,6 +65,7 @@
       "type": "toprep",
       "firstAscent": "Johan Björk -2012",
       "description": "Håll dig till vänster på stora juggar (??).",
+      "sectorId": "vanster",
       "source": {
         "id": "legacy:taxiklippan",
         "path": "mediawiki/Taxiklippan.txt"
@@ -65,6 +81,7 @@
       "type": "toprep",
       "firstAscent": "Johan Björk -2012",
       "description": "Rakt upp genom det lilla överhänget.",
+      "sectorId": "vanster",
       "source": {
         "id": "legacy:taxiklippan",
         "path": "mediawiki/Taxiklippan.txt"
@@ -80,6 +97,7 @@
       "type": "toprep",
       "firstAscent": "Johan Björk -2012",
       "description": "Lite krystad balansklättring precis till vänster om lyktstolpen.",
+      "sectorId": "vanster",
       "source": {
         "id": "legacy:taxiklippan",
         "path": "mediawiki/Taxiklippan.txt"
@@ -95,6 +113,7 @@
       "type": "toprep",
       "firstAscent": "Johan Björk -2012",
       "description": "Ännu mera krystad balansklättring, håll dig till höger om lyktstolpen.",
+      "sectorId": "vanster",
       "source": {
         "id": "legacy:taxiklippan",
         "path": "mediawiki/Taxiklippan.txt"
@@ -110,6 +129,7 @@
       "type": "toprep",
       "firstAscent": "Johan Björk -2012",
       "description": "Följ sprickan.",
+      "sectorId": "vanster",
       "source": {
         "id": "legacy:taxiklippan",
         "path": "mediawiki/Taxiklippan.txt"
@@ -125,6 +145,7 @@
       "type": "toprep",
       "firstAscent": "Johan Björk -2012",
       "description": "Lätt, men småkul klättring med juggar och underclings.",
+      "sectorId": "mitten",
       "source": {
         "id": "legacy:taxiklippan",
         "path": "mediawiki/Taxiklippan.txt"
@@ -140,6 +161,7 @@
       "type": "toprep",
       "firstAscent": "Johan Björk -2012",
       "description": "Lätt, men småkul klättring med juggar och underclings.",
+      "sectorId": "mitten",
       "source": {
         "id": "legacy:taxiklippan",
         "path": "mediawiki/Taxiklippan.txt"
@@ -155,6 +177,7 @@
       "type": "toprep",
       "firstAscent": "Johan Björk -2012",
       "description": "Enklaste sättet att komma upp för att installera toprep.",
+      "sectorId": "mitten",
       "source": {
         "id": "legacy:taxiklippan",
         "path": "mediawiki/Taxiklippan.txt"
@@ -170,6 +193,7 @@
       "type": "toprep",
       "firstAscent": "Johan Gustavsson -2012",
       "description": "Följ den lilla sprickan rakt upp.",
+      "sectorId": "mitten",
       "source": {
         "id": "legacy:taxiklippan",
         "path": "mediawiki/Taxiklippan.txt"
@@ -185,6 +209,7 @@
       "type": "toprep",
       "firstAscent": "Johan Gustavsson -2012",
       "description": "Följ den större sprickan ovanför björken.",
+      "sectorId": "mitten",
       "source": {
         "id": "legacy:taxiklippan",
         "path": "mediawiki/Taxiklippan.txt"
@@ -200,6 +225,7 @@
       "type": "toprep",
       "firstAscent": "Johan Gustavsson?",
       "description": "..?",
+      "sectorId": "hoger",
       "source": {
         "id": "legacy:taxiklippan",
         "path": "mediawiki/Taxiklippan.txt"
@@ -215,6 +241,7 @@
       "type": "toprep",
       "firstAscent": "Johan Björk och Johan Gustavsson",
       "description": "Ett svårt crux...",
+      "sectorId": "hoger",
       "source": {
         "id": "legacy:taxiklippan",
         "path": "mediawiki/Taxiklippan.txt"
@@ -230,6 +257,7 @@
       "type": "toprep",
       "firstAscent": "Johan Gustavsson?",
       "description": "Väldigt odefinierad, går att göra lite hur svår eller enkel man vill genom att eliminera saker..",
+      "sectorId": "hoger",
       "source": {
         "id": "legacy:taxiklippan",
         "path": "mediawiki/Taxiklippan.txt"
@@ -240,17 +268,20 @@
     {
       "filename": "Taxiklippan_vanster.jpg",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "vanster"
     },
     {
       "filename": "Taxiklippan_mitten.jpg",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "mitten"
     },
     {
       "filename": "Taxiklippan_hoger.jpg",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "hoger"
     }
   ],
   "access": {

@@ -38,6 +38,11 @@
       "body": "Dass, medtag eget papper. Eldstad. Allt vatten måste medtagas, enligt markägarens vilja."
     },
     {
+      "id": "historik",
+      "title": "Historik",
+      "body": ""
+    },
+    {
       "id": "vaggar",
       "title": "Väggar",
       "body": "Över hela sydsidan av berget finns ett komplext, utspritt system av gnejsväggar. Längst till höger finns Planetväggen, en brant vägg med tunna sprickor. Längre till vänster ligger Stora väggen, en ca 45 m hög, 70 graders vägg med fin sprick- och väggklättring. I vinkel mot Stora väggen ligger Zig-zag väggen, med ett fåtal turer. Längre till vänster finns flera väggar av 10-30 m höjd. Här finns några av bergets finaste leder på väggpartier som Cirkusväggen, Vildmarksväggen och Stålväggen."
@@ -58,9 +63,19 @@
       "body": "Firningsstation finns ovanför utstegen på November/Combat."
     },
     {
+      "id": "zig-zag-vaggen",
+      "title": "Zig-Zag Väggen",
+      "body": ""
+    },
+    {
       "id": "buskvaggen",
       "title": "Buskväggen",
       "body": "Ligger mellan Zig-zagväggen och cirkusväggen. Hade 1987 inga kända leder, men det kanske har ändrat sig under de senaste 20 åren."
+    },
+    {
+      "id": "cirkus-vaggen",
+      "title": "Cirkus Väggen",
+      "body": ""
     },
     {
       "id": "vildmarksvaggen",
@@ -71,6 +86,21 @@
       "id": "bra-vaggen",
       "title": "Bra Väggen",
       "body": "Firningsstation finns ovanför Alltid attack."
+    },
+    {
+      "id": "ororda-vaggen",
+      "title": "Orörda Väggen",
+      "body": ""
+    },
+    {
+      "id": "stalvaggen",
+      "title": "Stålväggen",
+      "body": ""
+    },
+    {
+      "id": "moderna-vaggen",
+      "title": "Moderna Väggen",
+      "body": ""
     },
     {
       "id": "gestur",
@@ -94,6 +124,7 @@
       "type": "trad",
       "firstAscent": "Gustav Schaffter och Peter Brolin 1987",
       "description": "Ligger till höger om själva planetväggen. En kort vägg följt av litet scrambling leder upp till det tydliga taket som elegant passeras på bredaste stället.",
+      "sectorId": "planetvaggen",
       "source": {
         "id": "legacy:morkberget",
         "path": "mediawiki/Mörkberget.txt"
@@ -109,6 +140,7 @@
       "type": "trad",
       "firstAscent": "Buster Delin och Torbjörn Nilsson 1986",
       "description": "Sparsamt säkrad väggklättring i högerkanten av väggen",
+      "sectorId": "planetvaggen",
       "source": {
         "id": "legacy:morkberget",
         "path": "mediawiki/Mörkberget.txt"
@@ -124,6 +156,7 @@
       "type": "trad",
       "firstAscent": "Torbjörn Nilsson m topprep 1983",
       "description": "Fritt: Torbjörn Nilsson och Buster Delin 1983. Tunn, fin klättring. Inte alltför välsäkrad",
+      "sectorId": "planetvaggen",
       "source": {
         "id": "legacy:morkberget",
         "path": "mediawiki/Mörkberget.txt"
@@ -139,6 +172,7 @@
       "type": "trad",
       "firstAscent": "Torbjörn Nilsson m topprep 1983",
       "description": "Fritt: Birger Hedlund och Kent Andersson, 1984 Fin handjamspricka. Utsteget är kruxet.",
+      "sectorId": "planetvaggen",
       "source": {
         "id": "legacy:morkberget",
         "path": "mediawiki/Mörkberget.txt"
@@ -154,6 +188,7 @@
       "type": "trad",
       "firstAscent": "Torbjörn Nilsson m topprep 1983",
       "description": "Fritt: Buster Delin och Per Calleberg, 1984 Ihållande väggklättring.",
+      "sectorId": "planetvaggen",
       "source": {
         "id": "legacy:morkberget",
         "path": "mediawiki/Mörkberget.txt"
@@ -169,6 +204,7 @@
       "type": "trad",
       "firstAscent": "Torbjörn Nilsson m topprep 1983",
       "description": "Fritt: Per Calleberg och Buster Delin, 1984 Spricklinje till vänster om \"Uranus\". Gemensamt utsteg med \"Uranus\".",
+      "sectorId": "planetvaggen",
       "source": {
         "id": "legacy:morkberget",
         "path": "mediawiki/Mörkberget.txt"
@@ -184,6 +220,7 @@
       "type": "trad",
       "firstAscent": "Peter Brolin 1986",
       "description": "Klättra väggen mellan \"Solnedgången\" och \"Saturnus\" upp till en hylla. Fortsätt sedan snett upp t h över ett sva.",
+      "sectorId": "planetvaggen",
       "source": {
         "id": "legacy:morkberget",
         "path": "mediawiki/Mörkberget.txt"
@@ -199,6 +236,7 @@
       "type": "trad",
       "firstAscent": "Buster Delin 1986",
       "description": "Rännan tv om \"Saturnus\".",
+      "sectorId": "planetvaggen",
       "source": {
         "id": "legacy:morkberget",
         "path": "mediawiki/Mörkberget.txt"
@@ -214,6 +252,7 @@
       "type": "trad",
       "firstAscent": "Per Calleberg och Peter Brolin 1986",
       "description": "Rakt igenom det tydliga taket i vänsterkanten av Planetväggen. 1 bult. Små friends rekommenderas i horisontalsprickan under taket.",
+      "sectorId": "planetvaggen",
       "source": {
         "id": "legacy:morkberget",
         "path": "mediawiki/Mörkberget.txt"
@@ -229,6 +268,7 @@
       "type": "mix",
       "firstAscent": "Buster Delin 1989",
       "description": "Startar vid Eggens insteg och och går diagonalt upp åt höger, längs en osannolik linje, för den lätt överhängande väggen ovanför. Runda kanten och sedan följer lättare klättring upp till en hylla med träd och standplats.",
+      "sectorId": "lagervaggen",
       "source": {
         "id": "legacy:morkberget",
         "path": "mediawiki/Mörkberget.txt"
@@ -244,6 +284,7 @@
       "type": "trad",
       "firstAscent": "Lars Grankvist 1989",
       "description": "Den överhängande handjamsprickan några meter till vänster om Schritt tempo. Tung och pumpande.",
+      "sectorId": "lagervaggen",
       "source": {
         "id": "legacy:morkberget",
         "path": "mediawiki/Mörkberget.txt"
@@ -259,6 +300,7 @@
       "type": "trad",
       "firstAscent": "Torbjörn Nilsson, Åke Englund och Gunnar Larsson 1981",
       "description": "Tydlig diederlinje mindre än 50 m till höger om Stora väggen. Leder upp till en stor sten med eggvass kant. Utsteget består av att följa eggen rakt upp.",
+      "sectorId": "lagervaggen",
       "source": {
         "id": "legacy:morkberget",
         "path": "mediawiki/Mörkberget.txt"
@@ -274,6 +316,7 @@
       "type": "trad",
       "firstAscent": "Per Calleberg, Buster Delin och Åke Englund 1985",
       "description": "Ligger rakt ovanför lägerplatsen. Följer två korta diedrar upp till en stor tall och standplats. Sedan svaklättring till toppen.",
+      "sectorId": "lagervaggen",
       "source": {
         "id": "legacy:morkberget",
         "path": "mediawiki/Mörkberget.txt"
@@ -289,6 +332,7 @@
       "type": "trad",
       "firstAscent": "Peter Brolin och Per Calleberg 1986",
       "description": "Klättra en brant vägg ovanför lägerplatsen (1 bult). Sedan layback i hörnet ovanför. Går ihop med \"November\" strax under standplatstallen.",
+      "sectorId": "lagervaggen",
       "source": {
         "id": "legacy:morkberget",
         "path": "mediawiki/Mörkberget.txt"
@@ -304,6 +348,7 @@
       "type": "trad",
       "firstAscent": "Torbjörn Nilsson och Per Calleberg 1982",
       "description": "Startar bakom högra hörnet på stora väggen. Traversera vänster längs en tydlig hylla ca tre meter upp, runt hörnet in på stora väggen. Man kommer då upp till ett par stora flak, dessa klättras upp till en liten hylla. Här kommer man upp till standplatstallen på \"Potent ultra macho\". Strax ovanför den tallen gör man en travers höger och kommer in på en ramp som klättras diagonalt upp åt vänster tills man befinner sig under en större tall. Där klättrar man rakt upp till tallen och gör standplats. Andra replängden traverserar antingen rakt vänster från tallen längs en tydlig hylla in till spricksystemet eller följer en diagonal ramp upp till det samma. Man följer sedan den grova sprickan till toppen.",
+      "sectorId": "stora-vaggen",
       "source": {
         "id": "legacy:morkberget",
         "path": "mediawiki/Mörkberget.txt"
@@ -319,6 +364,7 @@
       "type": "mix",
       "firstAscent": "Buster Delin och Peter Brolin 1984",
       "description": "Start i sprickor t h om \"Potent ultra macho\", vidare upp över en rödaktig vägg och upp till standplatstallen på November. Sedan rakt upp över väggen med tre borrbultar som inte sitter så tätt.",
+      "sectorId": "stora-vaggen",
       "source": {
         "id": "legacy:morkberget",
         "path": "mediawiki/Mörkberget.txt"
@@ -334,6 +380,7 @@
       "type": "trad",
       "firstAscent": "Torbjörn Nilsson och Buster Delin 1983",
       "description": "Nära väggens högerkant mitt för en stor tall, finns en tydlig spricka som ca 10 m upp grenar sig i ett \"Y\". Man följer den vänstra sprickan upp till en ramp som sedan klättras ned ett par meter till en liten tall, där man kan göra standplats. Andra replängden följer rampen tills man kommer upp i nischen vid \"Lilla menasse\". Här traverserar man vänster några meter och klättrar den tydliga sprickan rakt upp tills man kommer in på \"November\" några meter under toppen.",
+      "sectorId": "stora-vaggen",
       "source": {
         "id": "legacy:morkberget",
         "path": "mediawiki/Mörkberget.txt"
@@ -349,6 +396,7 @@
       "type": "trad",
       "firstAscent": "Torbjörn Nilsson, Buster Delin och Per Calleberg 1983",
       "description": "Starta som för \"Megatrend\", men klättra diagonalt upp åt höger mot en liten nisch. Klättra sedan sprickan ovanför den tills man kommer in på \"November\", som sedan kan följas till toppen.",
+      "sectorId": "stora-vaggen",
       "source": {
         "id": "legacy:morkberget",
         "path": "mediawiki/Mörkberget.txt"
@@ -364,6 +412,7 @@
       "type": "mix",
       "firstAscent": "Per Calleberg med topprep 1983",
       "description": "Fritt: (nedre) Born Braaten och Bent Soinung, 1984. (övre) Kent Andersson och Birger Hedlund, 1984 Fem meter nedanför \"Combat\". Starta i en kort spricka diagonalt upp åt höger. Efter några meter kliver man vänster över i en spricka som leder upp till den krokiga tallen. Standplats vid blocket på hyllan. Följ den sick-sakande flakformationen diagonalt upp åt vänster tills den blir vågrätt. Klättra här rakt upp över en knoppig vägg tills ett par sprickor nås. Traversera längs dessa vänster tre meter och fortsätt sedan rakt upp över en slät vägg, till en standplatshylla med en tall och en björk på. Totalt 4-5 bultar och en borrbult.",
+      "sectorId": "stora-vaggen",
       "source": {
         "id": "legacy:morkberget",
         "path": "mediawiki/Mörkberget.txt"
@@ -379,6 +428,7 @@
       "type": "trad",
       "firstAscent": "Torbjörn Nilsson, Per Calleberg och Buster Delin 1982",
       "description": "Övre delen: Torbjörn Nilsson och Per Calleberg, 1982 I sin helhet: Torbjörn Nilsson och Buster Delin, 1983 Starta där rännan i väggens vänsterkant börjar. Följ den tydliga grova sprickan tills den upphör. Kort travers höger till en borrbult och sedan upp till den krokiga tallen. Standplats vid det stora blocket på hyllan. Fortsätt sprickan ovanför till toppen. En borrbult. Variant: Gå rakt upp t v om borrbulten [6-]",
+      "sectorId": "stora-vaggen",
       "source": {
         "id": "legacy:morkberget",
         "path": "mediawiki/Mörkberget.txt"
@@ -394,6 +444,7 @@
       "type": "trad",
       "firstAscent": "Torbjörn Nilsson och Åke Englund 1983",
       "description": "Insteget börjar i rännan ovanför \"Combat\", följer sedan hörnet mellan stora väggen och zig-zag väggen raktupp till toppen. Fin, tunn klättring. Välsäkrad med små kilar.",
+      "sectorId": "stora-vaggen",
       "source": {
         "id": "legacy:morkberget",
         "path": "mediawiki/Mörkberget.txt"
@@ -409,6 +460,7 @@
       "type": "mix",
       "firstAscent": "Buster Delin och Niklas Björnerstedt 1987",
       "description": "Svaklättring nedanför Zig-zag och till vänster om Lugna gatan. Efter det branta kruxet lättar klättringen succesivt av. Utsteg åt vänster under toppen eller gemensamt med Lugna gatan. 2 borrbultar och en fast bult.",
+      "sectorId": "zig-zag-vaggen",
       "source": {
         "id": "legacy:morkberget",
         "path": "mediawiki/Mörkberget.txt"
@@ -424,6 +476,7 @@
       "type": "trad",
       "firstAscent": "Torbjörn Nilsson och Gunnar Larsson 1983",
       "description": "Starta som för \"Ornitologleden\", men efter första korta diedret kliver man höger över ett sva. Svaet klättras tills man befinner sig rakt under den tydliga zig-zag sprickan. Klättra det korta hörnet upp till sprickan och följ den till toppen. Kan vara att ha dubbelt av camalot#3 eller motsvarande.",
+      "sectorId": "zig-zag-vaggen",
       "source": {
         "id": "legacy:morkberget",
         "path": "mediawiki/Mörkberget.txt"
@@ -439,6 +492,7 @@
       "type": "trad",
       "firstAscent": "Åke Englund och Gunnar Larsson 1982",
       "description": "Går uppför väggpartiet till vänster om stora väggen. Klättra rännan i stora väggens vänsterkant upp till en hylla med en tall. Klättra två korta diedrar och traversera vänster runt ett block, till en hylla med en tall. Lätt klättring till toppen.",
+      "sectorId": "zig-zag-vaggen",
       "source": {
         "id": "legacy:morkberget",
         "path": "mediawiki/Mörkberget.txt"
@@ -454,6 +508,7 @@
       "type": "trad",
       "firstAscent": "Torbjörn Nilsson och Åke Englund 1982",
       "description": "I första inskärningen, dryga 50 m till vänster om stora väggen och till vänster om Buskväggen finns flera leder. Till höger om ett stort tydligt dieder med ett fastkilat block i, finns ett dött träd. Bakom det går \"Mörkrett\", längs en trappstegsformation åt höger. Avslutas med ett svasteg.",
+      "sectorId": "cirkus-vaggen",
       "source": {
         "id": "legacy:morkberget",
         "path": "mediawiki/Mörkberget.txt"
@@ -469,6 +524,7 @@
       "type": "trad",
       "firstAscent": "Åke Englund och Gunnar Larsson 1986",
       "description": "Tydlig spricklinje runt hörnet t h om \"Åkes led\". Det kan vara bökigt att ta sig upp till insteget, men sedan fin klättring.",
+      "sectorId": "cirkus-vaggen",
       "source": {
         "id": "legacy:morkberget",
         "path": "mediawiki/Mörkberget.txt"
@@ -484,6 +540,7 @@
       "type": "trad",
       "firstAscent": "Torbjörn Nilsson och Åke Englund 1982",
       "description": "På en hylla ca tio meter nedanför det tydliga diedret med det fastkilade blocket växer ett antal tallar. Om man följer hyllan åt vänster runt ett hörn, kommer man till \"Åkes led\". Man kan tydligt se leden tack vare att den är så ren. Leden följer en grov sick-sackande spricka som toppas av ett överhäng. Man följer sprickan under detta ut åt vänster och upp.",
+      "sectorId": "cirkus-vaggen",
       "source": {
         "id": "legacy:morkberget",
         "path": "mediawiki/Mörkberget.txt"
@@ -499,6 +556,7 @@
       "type": "trad",
       "firstAscent": "Buster Delin 1990",
       "description": "Ligger längst t h på den egentliga Circusväggen, runt hörnet t v om Åkes led. En bred spricka leder upp till ett tunnt högervänt dieder. Avslutas med en kort hangel på goda grepp åt höger. Samma standplats som för Åkes led. 4 bultar.",
+      "sectorId": "cirkus-vaggen",
       "source": {
         "id": "legacy:morkberget",
         "path": "mediawiki/Mörkberget.txt"
@@ -514,6 +572,7 @@
       "type": "trad",
       "firstAscent": "Buster Delin 1984",
       "description": "Fritt: Lars Grankvist och Åke Danielsson, 1986 Sprick- och kamintur i högra delen av Circusväggen.",
+      "sectorId": "cirkus-vaggen",
       "source": {
         "id": "legacy:morkberget",
         "path": "mediawiki/Mörkberget.txt"
@@ -529,6 +588,7 @@
       "type": "mix",
       "firstAscent": "Johan Luhr 1987",
       "description": "Den tydliga (?) linjen till vänster om Gästspel. Väggklättring för upp till tvillingsprickorna som börjar på halva vägghöjden. Sedan följs dessa upp. 3 borrbultar.",
+      "sectorId": "cirkus-vaggen",
       "source": {
         "id": "legacy:morkberget",
         "path": "mediawiki/Mörkberget.txt"
@@ -544,6 +604,7 @@
       "type": "mix",
       "firstAscent": "Buster Delin, Per Calleberg och Kent Andersson 1991",
       "description": "Går till vänster om Daladansen och har i stort sett samma insteg som denna. Går rakt upp längs en tunn spricka och avslutas med en mycket tunn travers åt vänster. Gemensamt utsteg med Circus maximus. 2 bultar och 1 borrbult.",
+      "sectorId": "cirkus-vaggen",
       "source": {
         "id": "legacy:morkberget",
         "path": "mediawiki/Mörkberget.txt"
@@ -559,6 +620,7 @@
       "type": "trad",
       "firstAscent": "Buster Delin, Peter Brolin och Åke Englund 1984",
       "description": "C-formad spricka i väggens vänstra del",
+      "sectorId": "cirkus-vaggen",
       "source": {
         "id": "legacy:morkberget",
         "path": "mediawiki/Mörkberget.txt"
@@ -574,6 +636,7 @@
       "type": "trad",
       "firstAscent": "Buster Delin m topprep 1984",
       "description": "Fritt: Buster Delin och Björn Isacsson, 1991 Vänstra utsteget på \"Circus Maximus\".",
+      "sectorId": "cirkus-vaggen",
       "source": {
         "id": "legacy:morkberget",
         "path": "mediawiki/Mörkberget.txt"
@@ -589,6 +652,7 @@
       "type": "trad",
       "firstAscent": "Buster Delin 1986",
       "description": "Dieder längst upp i högerkanten av \"Vildmarken\". Säkras med småkilar.",
+      "sectorId": "vildmarksvaggen",
       "source": {
         "id": "legacy:morkberget",
         "path": "mediawiki/Mörkberget.txt"
@@ -604,6 +668,7 @@
       "type": "trad",
       "firstAscent": "Buster Delin och Anna Billman 1990",
       "description": "En brant sekvens leder upp till plattan och areten t h om Safari. Säkras med småkilar och 1 borrbult.",
+      "sectorId": "vildmarksvaggen",
       "source": {
         "id": "legacy:morkberget",
         "path": "mediawiki/Mörkberget.txt"
@@ -619,6 +684,7 @@
       "type": "trad",
       "firstAscent": "Niklas Björnerstedt och Buster Delin 1987",
       "description": "Följer den tydliga spricklinjen till höger om Sällsamma besynnerligheter. Utsteg via en kort dieder från hyllan strax under toppkanten. Två fasta bultar.",
+      "sectorId": "vildmarksvaggen",
       "source": {
         "id": "legacy:morkberget",
         "path": "mediawiki/Mörkberget.txt"
@@ -634,6 +700,7 @@
       "type": "mix",
       "firstAscent": "Buster Delin m topprep 1986",
       "description": "Fritt: Buster Delin, Per Calleberg och Peter Brolin, 1987 Startar i det lilla diedret som toppas av ett tak. Runda taket till höger. Leden slingrar sig sedan, via ett flak, i stort sett rakt upp över väggen till ett utsteg som är gemensamt med Gökboet. 2 borrbultar och 2 fasta bultar.",
+      "sectorId": "vildmarksvaggen",
       "source": {
         "id": "legacy:morkberget",
         "path": "mediawiki/Mörkberget.txt"
@@ -649,6 +716,7 @@
       "type": "trad",
       "firstAscent": "Buster Delin 1986",
       "description": "Väggklättring förbi en borrbult (krux) leder upp till en liten hylla. Följ sedan det bågformiga diedret ovanför tills det är möjligt att gå rakt upp.",
+      "sectorId": "vildmarksvaggen",
       "source": {
         "id": "legacy:morkberget",
         "path": "mediawiki/Mörkberget.txt"
@@ -664,6 +732,7 @@
       "type": "trad",
       "firstAscent": "Åke Danielsson och Lars Grankvist 1986",
       "description": "Följ sprickan t v om \"Gökboet\" och sedan snett uppåt vänster över väggen. Delvis litet pillriga säkringar. Nyborstad Sept. 2010",
+      "sectorId": "vildmarksvaggen",
       "source": {
         "id": "legacy:morkberget",
         "path": "mediawiki/Mörkberget.txt"
@@ -679,6 +748,7 @@
       "type": "sport",
       "firstAscent": "Per Calleberg och Peter Brolin 1988",
       "description": "Elegant väggklättring mitt emellan Falköga och Mården. Börjar med lätt, men osäkrad, transportklättring, upp till en hylla. Här blir väggen slätare och det är bara att följa linjen med borrbultar. Efter sista borrbulten går man rakt upp till en firningsstation. 4 borrbultar. Nyborstad Sept. 2010",
+      "sectorId": "vildmarksvaggen",
       "source": {
         "id": "legacy:morkberget",
         "path": "mediawiki/Mörkberget.txt"
@@ -694,6 +764,7 @@
       "type": "mix",
       "firstAscent": "Kent Andersson och Per Calleberg 1987",
       "description": "Spikrak linje till höger om Scener ur ett äktenskap. Lättare, men osäkrad klättring leder upp till den släta slutväggen. Leden slutar vid en firningspunkt med två borrbultar och kedja. 2 borrbultar.",
+      "sectorId": "vildmarksvaggen",
       "source": {
         "id": "legacy:morkberget",
         "path": "mediawiki/Mörkberget.txt"
@@ -709,6 +780,7 @@
       "type": "mix",
       "firstAscent": "Buster Delin, Kent Andersson och Per Calleberg 1987",
       "description": "Väggklättring till höger om Ungkarlsliv leder upp till en spricklös dieder, som toppas av ett överhäng. Efter detta leder en kort travers åt höger till en firningspunkt med kedja ovanför Falköga. 3 borrbultar",
+      "sectorId": "vildmarksvaggen",
       "source": {
         "id": "legacy:morkberget",
         "path": "mediawiki/Mörkberget.txt"
@@ -724,6 +796,7 @@
       "type": "mix",
       "firstAscent": "Per Calleberg m topprep 1986",
       "description": "Fritt: Per Calleberg och Kent Andersson, 1987 Vacker och luftig klättring längs den tydliga areten. 4 borrbultar.Nyborstad Sept. 2010",
+      "sectorId": "vildmarksvaggen",
       "source": {
         "id": "legacy:morkberget",
         "path": "mediawiki/Mörkberget.txt"
@@ -739,6 +812,7 @@
       "type": "trad",
       "firstAscent": "Harald Brandt topprep 1986",
       "description": "Fritt: Harald Brandt och Per Calleberg, 1987 Följer den eleganta fingersprickan på väggen till höger om Vän nr 4 saknas. Markant krux under den tydliga tvärsprickan. Tyvärr finns vissa möjligheter att \"fuska\" genom att kliva ut på steg på areten.",
+      "sectorId": "vildmarksvaggen",
       "source": {
         "id": "legacy:morkberget",
         "path": "mediawiki/Mörkberget.txt"
@@ -754,6 +828,7 @@
       "type": "mix",
       "firstAscent": "Rickard Slettmyr någon gång under perioden 1996-98",
       "description": "Går långt till vänster på vildmarksväggen (till vänster om \"Scener ur ett äktenskap\"). Borde finnas ett par bultar. (Rapporterad av Robert Kreft på Sundsvalls Klätterklubbs hemsidas diskussionsforum).",
+      "sectorId": "vildmarksvaggen",
       "source": {
         "id": "legacy:morkberget",
         "path": "mediawiki/Mörkberget.txt"
@@ -769,6 +844,7 @@
       "type": "mix",
       "firstAscent": "Håkan Wanke någon gång under perioden 1996-98",
       "description": "Bredvid \"Familjefadern\". (Oklart om den går t.h. eller t.v. om \"Familjefadern\", men det torde framgå av bultar (?)). (Rapporterad av Robert Kreft på Sundsvalls Klätterklubbs hemsidas diskussionsforum). Sannolikt t.h. om \"Familjefadern\", 3 borrbult, Nyborstad Sept. 2010",
+      "sectorId": "vildmarksvaggen",
       "source": {
         "id": "legacy:morkberget",
         "path": "mediawiki/Mörkberget.txt"
@@ -784,6 +860,7 @@
       "type": "trad",
       "firstAscent": "Buster Delin och Kent Andersson 1986",
       "description": "Tydligt diedersystem som består av tre korta diedrar med hyllor mellan. Vacker layback i utstegsdiedret. Variant: Undvik utstegsdiedret genom att klättra den orensade sprickan på väggen t h.",
+      "sectorId": "bra-vaggen",
       "source": {
         "id": "legacy:morkberget",
         "path": "mediawiki/Mörkberget.txt"
@@ -799,6 +876,7 @@
       "type": "trad",
       "firstAscent": "Per Calleberg och Eva Pettersson 1987",
       "description": "Följer spricklinjen mellan Bra för däj och Vän nr 4 saknas upp till hyllan under det stora taket. En kort travers vänster leder till standplatstallen på Bra för däj.",
+      "sectorId": "bra-vaggen",
       "source": {
         "id": "legacy:morkberget",
         "path": "mediawiki/Mörkberget.txt"
@@ -814,6 +892,7 @@
       "type": "trad",
       "firstAscent": "Per Calleberg 1987",
       "description": "Direktinsteg över plattan rakt under sprickan på Strutsen. Numera tämligen igengrodd.",
+      "sectorId": "bra-vaggen",
       "source": {
         "id": "legacy:morkberget",
         "path": "mediawiki/Mörkberget.txt"
@@ -829,6 +908,7 @@
       "type": "trad",
       "firstAscent": "Peter Brolin och Per Calleberg 1986",
       "description": "Insteg vid en stor stenskiva 10 m t v om \"Vän nr 4 saknas\". Brant klättring på goda grepp leder upp till en stor tall. standplats. Flera varianter upp finns.",
+      "sectorId": "bra-vaggen",
       "source": {
         "id": "legacy:morkberget",
         "path": "mediawiki/Mörkberget.txt"
@@ -844,6 +924,7 @@
       "type": "mix",
       "firstAscent": "Tony Holmberg och Per Calleberg 1988",
       "description": "En osannolik linje genom taket längst inne i håligheten till höger om Bra tag, och ett par meter till höger om Första hjälpen. Gorillaklättring genom taket leder upp till en hylla där man kan samla kraft inför väggen ovanför. Denna klättras längs en tunn spricka upp till en ny viloposition under utstegsväggen, som sedan forceras i vänsterkanten. 4 borrbultar",
+      "sectorId": "bra-vaggen",
       "source": {
         "id": "legacy:morkberget",
         "path": "mediawiki/Mörkberget.txt"
@@ -859,6 +940,7 @@
       "type": "trad",
       "firstAscent": "Peter Brolin och Per Calleberg 1987",
       "description": "Fritt: Mathias Flodin, 1989 Tidigare en artificiell tur genom det välvda lilla taköverhänget några meter till höger om Bra tag. Numera svår och rätt tung friklättring med tunna fingerjam och små grepp. Fira ner från en lämplig tall ovanför.",
+      "sectorId": "bra-vaggen",
       "source": {
         "id": "legacy:morkberget",
         "path": "mediawiki/Mörkberget.txt"
@@ -874,6 +956,7 @@
       "type": "mix",
       "firstAscent": "Johan Wallin och Nicolas Gafgo 1988",
       "description": "Startar i tunna sprickor ett par meter till höger om Bra tag och går upp till ett triangelformat tak, som passeras på bredaste stället. En borrbult på läppen av taket.",
+      "sectorId": "bra-vaggen",
       "source": {
         "id": "legacy:morkberget",
         "path": "mediawiki/Mörkberget.txt"
@@ -889,6 +972,7 @@
       "type": "trad",
       "firstAscent": "Per Calleberg och Tony Holmberg 1986",
       "description": "Takproblem på goda grepp i vänsterkanten av en tydlig urgröpning i berget.",
+      "sectorId": "bra-vaggen",
       "source": {
         "id": "legacy:morkberget",
         "path": "mediawiki/Mörkberget.txt"
@@ -904,6 +988,7 @@
       "type": "trad",
       "firstAscent": "Tony Holmberg och Buster Delin 1987",
       "description": "Följer areten strax till vänster om Bra tag. Sluttande grepp om steg. Känsligt utsteg. En fast bult i tvärsprickan mitt på. Har inte många repetitioner.",
+      "sectorId": "ororda-vaggen",
       "source": {
         "id": "legacy:morkberget",
         "path": "mediawiki/Mörkberget.txt"
@@ -919,6 +1004,7 @@
       "type": "trad",
       "firstAscent": "Per Calleberg och Kent Andersson 1988",
       "description": "Ovanför och till v om Bra tag ligger en tydlig arete. På väggen till v går denna handjamspricka. Avslutas med fingerjam (krux).",
+      "sectorId": "ororda-vaggen",
       "source": {
         "id": "legacy:morkberget",
         "path": "mediawiki/Mörkberget.txt"
@@ -934,6 +1020,7 @@
       "type": "mix",
       "firstAscent": "Rickard Slettmyr någon gång under perioden 1996-98",
       "description": "Arête som startar en bit upp på en vägg något till vänster om \"Alltid attack\" (antagligen arêten t.h. om \"Stensötan\"). Några bultar. (Rapporterad av Robert Kreft på Sundsvalls Klätterklubbs hemsidas diskussionsforum).",
+      "sectorId": "ororda-vaggen",
       "source": {
         "id": "legacy:morkberget",
         "path": "mediawiki/Mörkberget.txt"
@@ -949,6 +1036,7 @@
       "type": "trad",
       "firstAscent": "Per Normark, Kent Andersson mfl 1986",
       "description": "Tung vägg- och spricktur snett nedanför och t h om \"Ståålfågel\". Mycket fin och ihållande klättring.",
+      "sectorId": "stalvaggen",
       "source": {
         "id": "legacy:morkberget",
         "path": "mediawiki/Mörkberget.txt"
@@ -964,6 +1052,7 @@
       "type": "trad",
       "firstAscent": "Niklas Björnerstedt 1985",
       "description": "Grov spricka mellan \"Ståålfågel\" och \"Orgier i adrenalin\".",
+      "sectorId": "stalvaggen",
       "source": {
         "id": "legacy:morkberget",
         "path": "mediawiki/Mörkberget.txt"
@@ -979,6 +1068,7 @@
       "type": "mix",
       "firstAscent": "Per Calleberg och Per Normark 1986",
       "description": "Klättra väggen med 3 borrbultar upp till det tydliga taket. Jamspricka genom och ovanför taket. Friends !",
+      "sectorId": "stalvaggen",
       "source": {
         "id": "legacy:morkberget",
         "path": "mediawiki/Mörkberget.txt"
@@ -994,6 +1084,7 @@
       "type": "trad",
       "firstAscent": "Buster Delin och Niklas Björnerstedt 1985",
       "description": "Tydlig dieder t h om \"Ståålfågel\". Välsäkrad.",
+      "sectorId": "stalvaggen",
       "source": {
         "id": "legacy:morkberget",
         "path": "mediawiki/Mörkberget.txt"
@@ -1009,6 +1100,7 @@
       "type": "trad",
       "firstAscent": "Per Calleberg och Peter Brolin 1988",
       "description": "Vägg- och sprickklättring längs spricklinjen i högerkanten av Moderna väggen. Jämn och ihållande klättring. Något svårsäkrat högst upp.",
+      "sectorId": "moderna-vaggen",
       "source": {
         "id": "legacy:morkberget",
         "path": "mediawiki/Mörkberget.txt"
@@ -1024,6 +1116,7 @@
       "type": "trad",
       "firstAscent": "Lars Grankvist 1986",
       "description": "Rakt upp längs grunda sprickor mitt på väggen. En bult i början.",
+      "sectorId": "moderna-vaggen",
       "source": {
         "id": "legacy:morkberget",
         "path": "mediawiki/Mörkberget.txt"
@@ -1039,6 +1132,7 @@
       "type": "trad",
       "firstAscent": "Bertil Dahlin 1993",
       "description": "Stora kaminen mellan Modern standard och Nisse Gandhi",
+      "sectorId": "moderna-vaggen",
       "source": {
         "id": "legacy:morkberget",
         "path": "mediawiki/Mörkberget.txt"
@@ -1054,6 +1148,7 @@
       "type": "trad",
       "firstAscent": "Peter Brolin, Torbjörn Nilsson och Tony Holmberg 1986",
       "description": "Spricktur i vänsterkanten på väggen.",
+      "sectorId": "moderna-vaggen",
       "source": {
         "id": "legacy:morkberget",
         "path": "mediawiki/Mörkberget.txt"
@@ -1069,6 +1164,7 @@
       "type": "trad",
       "firstAscent": "Peter Brolin 1987",
       "description": "Tunn väggklättring till vänster om Gestur. En borrbult vid utsteget.",
+      "sectorId": "gestur",
       "source": {
         "id": "legacy:morkberget",
         "path": "mediawiki/Mörkberget.txt"
@@ -1084,6 +1180,7 @@
       "type": "trad",
       "firstAscent": "Peter Brolin 1986",
       "description": "Väggklättring från hyllan innanför utsteget på \"Ståålfågel\". 1 borrbult med en märklig, hemmagjord hängare.",
+      "sectorId": "gestur",
       "source": {
         "id": "legacy:morkberget",
         "path": "mediawiki/Mörkberget.txt"
@@ -1099,6 +1196,7 @@
       "type": "mix",
       "firstAscent": "Buster Delin, Per Calleberg och Peter Brolin 1987",
       "description": "Delikat småstegs- och svaklättring längs svaryggen alldeles till höger om Gestur. 2 borrbultar.",
+      "sectorId": "gestur",
       "source": {
         "id": "legacy:morkberget",
         "path": "mediawiki/Mörkberget.txt"
@@ -1114,6 +1212,7 @@
       "type": "trad",
       "firstAscent": "Buster Delin 1987",
       "description": "Följer den diagonala spricklinjen snett uppåt vänster till utsteget, som är gemensamt med Tungur knivurs.",
+      "sectorId": "gestur",
       "source": {
         "id": "legacy:morkberget",
         "path": "mediawiki/Mörkberget.txt"
@@ -1129,6 +1228,7 @@
       "type": "trad",
       "firstAscent": "Buster Delin och Tony Holmberg 1987",
       "description": "Finger- och handspricka belägen mitt emellan Gesturväggen och Korpen flyger, ovanför Bra för däjs utsteg.",
+      "sectorId": "korpvaggen",
       "source": {
         "id": "legacy:morkberget",
         "path": "mediawiki/Mörkberget.txt"
@@ -1144,6 +1244,7 @@
       "type": "trad",
       "firstAscent": "Peter Brolin och Buster Delin 1986",
       "description": "Kort spricktur på en mindre vägg ovanför \"Mården\".",
+      "sectorId": "korpvaggen",
       "source": {
         "id": "legacy:morkberget",
         "path": "mediawiki/Mörkberget.txt"
@@ -1154,97 +1255,116 @@
     {
       "filename": "Morkberget.jpg",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "vaggar"
     },
     {
       "filename": "MB_planet.jpg",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "planetvaggen"
     },
     {
       "filename": "Jupiter.jpg",
       "caption": "Kent Andersson på Jupiter (6+/7-), Mörkberget, 1986. Foto: Per Calleberg",
-      "missing": false
+      "missing": false,
+      "sectorId": "planetvaggen"
     },
     {
       "filename": "MB_lager.jpg",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "lagervaggen"
     },
     {
       "filename": "MB_stora.jpg",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "stora-vaggen"
     },
     {
       "filename": "November.jpg",
       "caption": "Torbjörn Nilsson under förstabestigningen av November, november 1982. Foto: Per Calleberg",
-      "missing": false
+      "missing": false,
+      "sectorId": "stora-vaggen"
     },
     {
       "filename": "Megatrend.jpg",
       "caption": "Kent Andersson på sista replängden på Megatrend (5+), Mörkberget, 1984. Foto: Per Calleberg",
-      "missing": false
+      "missing": false,
+      "sectorId": "stora-vaggen"
     },
     {
       "filename": "MB_zigzag.jpg",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "zig-zag-vaggen"
     },
     {
       "filename": "MB_busk.jpg",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "buskvaggen"
     },
     {
       "filename": "MB_cirkus.jpg",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "cirkus-vaggen"
     },
     {
       "filename": "Daladans.jpg",
       "caption": "Johan Luhr gör förstabestigningen av Daladansen (8-), Mörkberget, 1987. Foto: Per Calleberg",
-      "missing": false
+      "missing": false,
+      "sectorId": "cirkus-vaggen"
     },
     {
       "filename": "MB_vildmark.jpg",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "vildmarksvaggen"
     },
     {
       "filename": "Ungkarlsliv.jpg",
       "caption": "Per Calleberg under förstabestigningen av Ungkarlsliv 1987. Foto: Eva Pettersson/Per Callebergs arkiv.",
-      "missing": false
+      "missing": false,
+      "sectorId": "vildmarksvaggen"
     },
     {
       "filename": "MB_bra.jpg",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "bra-vaggen"
     },
     {
       "filename": "Attack.jpg",
       "caption": "Buster Delin leder Alltid Attack (6+) på Mörkberget 1989. Foto: Per Calleberg",
-      "missing": false
+      "missing": false,
+      "sectorId": "bra-vaggen"
     },
     {
       "filename": "MB_ororda.jpg",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "ororda-vaggen"
     },
     {
       "filename": "MB_stalvaggen.jpg",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "stalvaggen"
     },
     {
       "filename": "St%C3%A5%C3%A5lf%C3%A5gel.jpg",
       "caption": "Per Calleberg på Ståålfågel (7-), Mörkberget, 1990. Foto: Peter Brolin",
-      "missing": true
+      "missing": true,
+      "sectorId": "stalvaggen"
     },
     {
       "filename": "MB_modern.jpg",
-      "caption": "500px",
-      "missing": false
+      "caption": "",
+      "missing": false,
+      "sectorId": "moderna-vaggen"
     }
   ],
   "access": {

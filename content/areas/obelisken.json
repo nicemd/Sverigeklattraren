@@ -18,6 +18,26 @@
   ],
   "sections": [
     {
+      "id": "minihangvaggen",
+      "title": "MINIHÄNGVÄGGEN",
+      "body": ""
+    },
+    {
+      "id": "tokhanget",
+      "title": "TOKHÄNGET",
+      "body": ""
+    },
+    {
+      "id": "lilla-vaggen",
+      "title": "LILLA VÄGGEN",
+      "body": ""
+    },
+    {
+      "id": "hb",
+      "title": "HB",
+      "body": ""
+    },
+    {
       "id": "baksidan",
       "title": "BAKSIDAN",
       "body": "Kategori:Kiruna Kategori:Bouldering Kategori:Bimbo Kategori:Behöver kvalitetssäkras Kategori:Saknar skrivarformattering Kategori:Saknar skiss"
@@ -34,6 +54,7 @@
       "type": "Sva",
       "firstAscent": "Antti Stålnacke",
       "description": "",
+      "sectorId": "minihangvaggen",
       "source": {
         "id": "legacy:obelisken",
         "path": "mediawiki/Obelisken.txt"
@@ -49,6 +70,7 @@
       "type": "Mantling,Överhäng",
       "firstAscent": "J.Carlsson",
       "description": "",
+      "sectorId": "minihangvaggen",
       "source": {
         "id": "legacy:obelisken",
         "path": "mediawiki/Obelisken.txt"
@@ -64,6 +86,7 @@
       "type": "Mantling,Överhäng",
       "firstAscent": "David Nutti",
       "description": "",
+      "sectorId": "minihangvaggen",
       "source": {
         "id": "legacy:obelisken",
         "path": "mediawiki/Obelisken.txt"
@@ -79,6 +102,7 @@
       "type": "Överhäng",
       "firstAscent": "",
       "description": "Samma start som projekt, men mantling över på sva till vä",
+      "sectorId": "tokhanget",
       "source": {
         "id": "legacy:obelisken",
         "path": "mediawiki/Obelisken.txt"
@@ -94,6 +118,7 @@
       "type": "Överhäng",
       "firstAscent": "David Nutti",
       "description": "Sitstart i mitt på juggar, travers vä till kant, följ sedan denna hö upp till topp",
+      "sectorId": "tokhanget",
       "source": {
         "id": "legacy:obelisken",
         "path": "mediawiki/Obelisken.txt"
@@ -109,6 +134,7 @@
       "type": "Överhäng",
       "firstAscent": "J.Hughes",
       "description": "börjar stående med crimpskivan, följ aret till topp",
+      "sectorId": "tokhanget",
       "source": {
         "id": "legacy:obelisken",
         "path": "mediawiki/Obelisken.txt"
@@ -124,6 +150,7 @@
       "type": "Krimp,Överhäng",
       "firstAscent": "Pudde Hansson -07",
       "description": "Start i mitt, rakt upp via tydlig crimplinje till jugg på kant.",
+      "sectorId": "tokhanget",
       "source": {
         "id": "legacy:obelisken",
         "path": "mediawiki/Obelisken.txt"
@@ -139,6 +166,7 @@
       "type": "Krimp,Överhäng",
       "firstAscent": "?",
       "description": "Sittstart rakt under på små tydliga crimpers. Därefter givetvis ovanstående problem. Ihållande.",
+      "sectorId": "tokhanget",
       "source": {
         "id": "legacy:obelisken",
         "path": "mediawiki/Obelisken.txt"
@@ -154,6 +182,7 @@
       "type": "Överhäng",
       "firstAscent": "?",
       "description": "Tydlig ramp med sidepulls rakt upp till högsta toppen av hänget. Desperat?",
+      "sectorId": "tokhanget",
       "source": {
         "id": "legacy:obelisken",
         "path": "mediawiki/Obelisken.txt"
@@ -169,6 +198,7 @@
       "type": "Överhäng",
       "firstAscent": "J.Hughes",
       "description": "Ståstart i hörnet längst till höger, uppenbar krimpsidepull. rakt uppåt.",
+      "sectorId": "tokhanget",
       "source": {
         "id": "legacy:obelisken",
         "path": "mediawiki/Obelisken.txt"
@@ -184,6 +214,7 @@
       "type": "Överhäng",
       "firstAscent": "Pudde Hansson",
       "description": "Följ den tydliga pelaren, ”prowen” rakt upp.",
+      "sectorId": "lilla-vaggen",
       "source": {
         "id": "legacy:obelisken",
         "path": "mediawiki/Obelisken.txt"
@@ -199,6 +230,7 @@
       "type": "",
       "firstAscent": "Janne Carlsson",
       "description": "",
+      "sectorId": "lilla-vaggen",
       "source": {
         "id": "legacy:obelisken",
         "path": "mediawiki/Obelisken.txt"
@@ -214,6 +246,7 @@
       "type": "",
       "firstAscent": "Janne Carlsson",
       "description": "",
+      "sectorId": "lilla-vaggen",
       "source": {
         "id": "legacy:obelisken",
         "path": "mediawiki/Obelisken.txt"
@@ -229,6 +262,7 @@
       "type": "",
       "firstAscent": "Janne Carlsson",
       "description": "",
+      "sectorId": "lilla-vaggen",
       "source": {
         "id": "legacy:obelisken",
         "path": "mediawiki/Obelisken.txt"
@@ -244,6 +278,7 @@
       "type": "Överhäng",
       "firstAscent": "Pudde Hansson",
       "description": "Start strax innan nästa väggdel på tydliga jugg - grepp.",
+      "sectorId": "lilla-vaggen",
       "source": {
         "id": "legacy:obelisken",
         "path": "mediawiki/Obelisken.txt"
@@ -259,6 +294,7 @@
       "type": "Överhäng/arrete",
       "firstAscent": "Tony Hanssen",
       "description": "Sit-start på tak i bunnen av arret m/hælkrok og opp mot starten til Lavskägge. Kan være gått tidligere.",
+      "sectorId": "lilla-vaggen",
       "source": {
         "id": "legacy:obelisken",
         "path": "mediawiki/Obelisken.txt"
@@ -274,6 +310,7 @@
       "type": "Överhäng",
       "firstAscent": "",
       "description": "",
+      "sectorId": "hb",
       "source": {
         "id": "legacy:obelisken",
         "path": "mediawiki/Obelisken.txt"
@@ -289,6 +326,7 @@
       "type": "Highball",
       "firstAscent": "Pudde Hansson",
       "description": "Start på tydlig jugghylla",
+      "sectorId": "hb",
       "source": {
         "id": "legacy:obelisken",
         "path": "mediawiki/Obelisken.txt"
@@ -304,6 +342,7 @@
       "type": "Highball",
       "firstAscent": "",
       "description": "",
+      "sectorId": "hb",
       "source": {
         "id": "legacy:obelisken",
         "path": "mediawiki/Obelisken.txt"
@@ -319,6 +358,7 @@
       "type": "",
       "firstAscent": "Hanna Drugge",
       "description": "",
+      "sectorId": "baksidan",
       "source": {
         "id": "legacy:obelisken",
         "path": "mediawiki/Obelisken.txt"
@@ -334,6 +374,7 @@
       "type": "",
       "firstAscent": "Madelene Strängdal",
       "description": "",
+      "sectorId": "baksidan",
       "source": {
         "id": "legacy:obelisken",
         "path": "mediawiki/Obelisken.txt"
@@ -349,6 +390,7 @@
       "type": "",
       "firstAscent": "Davve Nutti",
       "description": "",
+      "sectorId": "baksidan",
       "source": {
         "id": "legacy:obelisken",
         "path": "mediawiki/Obelisken.txt"
@@ -359,7 +401,8 @@
     {
       "filename": "3115_obelisk1.jpg",
       "caption": "Obelisken. Foto: Krister",
-      "missing": false
+      "missing": false,
+      "sectorId": null
     }
   ],
   "access": {

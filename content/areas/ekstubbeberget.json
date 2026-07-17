@@ -27,9 +27,24 @@
       "body": "Det är lika lätt att ta sig dit med bil som att åka kommunalt. Buss 811 och 816 från Gullmarsplan eller buss 401 från slussen (går inte så ofta). Gå av vid Flatenbadet och fortsätt Flatenvägen fram till bron över Tyresövägen. Precis innan bron, tag av höger ner på en bommad väg med en skylt för motorbanan. Passera en motorbana för miniracerbilar på vänster sida, ta till höger vid husen (MHF) och gå mot den äldre motorbanan, passera bakom läktaren på höger sida om banan och ta den breda stigen rakt ner mot vattnet. När du nått vattnet, vik av till vänster in på den lilla stigen och gå cirka 100-200 meter. Du har nu förhoppningsvis klippan rakt framför dig. Kommer du med bil parkerar du på vägen som går ner till motorbanan innan vägbommen om du inte vill få bilen inlåst när radiobilsförarna är klara för dagen. Eller vid Flatenbadet."
     },
     {
+      "id": "leder",
+      "title": "Leder",
+      "body": ""
+    },
+    {
+      "id": "huvudvaggen",
+      "title": "Huvudväggen",
+      "body": ""
+    },
+    {
       "id": "roda-vaggen",
       "title": "Röda väggen",
       "body": "Mellan huvudväggen och röda väggen finns troligtvis viss nyturspotential."
+    },
+    {
+      "id": "bortre-vaggen",
+      "title": "Bortre väggen",
+      "body": ""
     },
     {
       "id": "externa-lankar",
@@ -48,6 +63,7 @@
       "type": "trad",
       "firstAscent": "Thomas Leitner, Björn Wolgast -89",
       "description": "Kort led långt till vänster.",
+      "sectorId": "huvudvaggen",
       "source": {
         "id": "legacy:ekstubbeberget",
         "path": "mediawiki/Ekstubbeberget.txt"
@@ -63,6 +79,7 @@
       "type": "trad",
       "firstAscent": "Gunnar Woodsack, Vivi-Ann Friberg -86",
       "description": "Insteg till vänster om stor gran.",
+      "sectorId": "huvudvaggen",
       "source": {
         "id": "legacy:ekstubbeberget",
         "path": "mediawiki/Ekstubbeberget.txt"
@@ -78,6 +95,7 @@
       "type": "sport",
       "firstAscent": "Patrik Agerkrans -96",
       "description": "",
+      "sectorId": "huvudvaggen",
       "source": {
         "id": "legacy:ekstubbeberget",
         "path": "mediawiki/Ekstubbeberget.txt"
@@ -93,6 +111,7 @@
       "type": "",
       "firstAscent": "?",
       "description": "",
+      "sectorId": "huvudvaggen",
       "source": {
         "id": "legacy:ekstubbeberget",
         "path": "mediawiki/Ekstubbeberget.txt"
@@ -108,6 +127,7 @@
       "type": "sport",
       "firstAscent": "Johan Luhr -98",
       "description": "",
+      "sectorId": "huvudvaggen",
       "source": {
         "id": "legacy:ekstubbeberget",
         "path": "mediawiki/Ekstubbeberget.txt"
@@ -123,6 +143,7 @@
       "type": "sport",
       "firstAscent": "Patrik Agerkrans, Johan Luhr",
       "description": "",
+      "sectorId": "huvudvaggen",
       "source": {
         "id": "legacy:ekstubbeberget",
         "path": "mediawiki/Ekstubbeberget.txt"
@@ -138,6 +159,7 @@
       "type": "sport",
       "firstAscent": "Thomas Leitner -92, FF: Patrik Agerkrans",
       "description": "Följer en intressant formation upp till taket.",
+      "sectorId": "huvudvaggen",
       "source": {
         "id": "legacy:ekstubbeberget",
         "path": "mediawiki/Ekstubbeberget.txt"
@@ -153,6 +175,7 @@
       "type": "sport",
       "firstAscent": "Johan Luhr -96",
       "description": "",
+      "sectorId": "huvudvaggen",
       "source": {
         "id": "legacy:ekstubbeberget",
         "path": "mediawiki/Ekstubbeberget.txt"
@@ -168,6 +191,7 @@
       "type": "sport",
       "firstAscent": "Johan Luhr -96",
       "description": "",
+      "sectorId": "huvudvaggen",
       "source": {
         "id": "legacy:ekstubbeberget",
         "path": "mediawiki/Ekstubbeberget.txt"
@@ -183,6 +207,7 @@
       "type": "sport",
       "firstAscent": "Johan Luhr -96",
       "description": "",
+      "sectorId": "huvudvaggen",
       "source": {
         "id": "legacy:ekstubbeberget",
         "path": "mediawiki/Ekstubbeberget.txt"
@@ -198,6 +223,7 @@
       "type": "sport",
       "firstAscent": "Johan Luhr -96",
       "description": "Börja med Ahlgrens och avsluta med Haribo.",
+      "sectorId": "huvudvaggen",
       "source": {
         "id": "legacy:ekstubbeberget",
         "path": "mediawiki/Ekstubbeberget.txt"
@@ -213,6 +239,7 @@
       "type": "trad",
       "firstAscent": "Jan Liliemark -89",
       "description": "Härlig klättring på bra säkringar!",
+      "sectorId": "huvudvaggen",
       "source": {
         "id": "legacy:ekstubbeberget",
         "path": "mediawiki/Ekstubbeberget.txt"
@@ -228,6 +255,7 @@
       "type": "sport",
       "firstAscent": "Claes Thornberg, Mats Olofsson -99",
       "description": "Startar 2m th om Jordcirkus. Förlängdes -09 hela vägen till toppen. Delar ankare med Jordcirkus och Ahlgrens.",
+      "sectorId": "huvudvaggen",
       "source": {
         "id": "legacy:ekstubbeberget",
         "path": "mediawiki/Ekstubbeberget.txt"
@@ -243,6 +271,7 @@
       "type": "sport",
       "firstAscent": "Johan Luhr, Patrik Agerkrans -96",
       "description": "",
+      "sectorId": "huvudvaggen",
       "source": {
         "id": "legacy:ekstubbeberget",
         "path": "mediawiki/Ekstubbeberget.txt"
@@ -258,6 +287,7 @@
       "type": "sport",
       "firstAscent": "Patrik Agerkrans -96",
       "description": "",
+      "sectorId": "huvudvaggen",
       "source": {
         "id": "legacy:ekstubbeberget",
         "path": "mediawiki/Ekstubbeberget.txt"
@@ -273,6 +303,7 @@
       "type": "sport",
       "firstAscent": "Patrik Agerkrans, Johan Luhr -96",
       "description": "Fin laybackspricka med rolig avslutning. Kanske värd en stjärna?",
+      "sectorId": "huvudvaggen",
       "source": {
         "id": "legacy:ekstubbeberget",
         "path": "mediawiki/Ekstubbeberget.txt"
@@ -288,6 +319,7 @@
       "type": "sport",
       "firstAscent": "Patrik Agerkrans -96",
       "description": "",
+      "sectorId": "huvudvaggen",
       "source": {
         "id": "legacy:ekstubbeberget",
         "path": "mediawiki/Ekstubbeberget.txt"
@@ -303,6 +335,7 @@
       "type": "sport",
       "firstAscent": "Per Willén, Thomas Eriksson, Peter Mogård -09",
       "description": "Th om Kort och gott",
+      "sectorId": "huvudvaggen",
       "source": {
         "id": "legacy:ekstubbeberget",
         "path": "mediawiki/Ekstubbeberget.txt"
@@ -318,6 +351,7 @@
       "type": "sport",
       "firstAscent": "Patrik Agerkrans -96",
       "description": "",
+      "sectorId": "huvudvaggen",
       "source": {
         "id": "legacy:ekstubbeberget",
         "path": "mediawiki/Ekstubbeberget.txt"
@@ -333,6 +367,7 @@
       "type": "sport",
       "firstAscent": "Johan Luhr -00",
       "description": "Sista bulten och ankare gemensamt med Högersväng.",
+      "sectorId": "roda-vaggen",
       "source": {
         "id": "legacy:ekstubbeberget",
         "path": "mediawiki/Ekstubbeberget.txt"
@@ -348,6 +383,7 @@
       "type": "sport",
       "firstAscent": "Johan Luhr -00",
       "description": "Sista bulten och ankare gemensamt med Sug i.",
+      "sectorId": "roda-vaggen",
       "source": {
         "id": "legacy:ekstubbeberget",
         "path": "mediawiki/Ekstubbeberget.txt"
@@ -363,6 +399,7 @@
       "type": "sport",
       "firstAscent": "Johan Luhr -00",
       "description": "Ankare gemensamt med Högersväng.",
+      "sectorId": "roda-vaggen",
       "source": {
         "id": "legacy:ekstubbeberget",
         "path": "mediawiki/Ekstubbeberget.txt"
@@ -378,6 +415,7 @@
       "type": "sport",
       "firstAscent": "Johan Luhr -00",
       "description": "Ankare gemensamt med Interkulturell.",
+      "sectorId": "roda-vaggen",
       "source": {
         "id": "legacy:ekstubbeberget",
         "path": "mediawiki/Ekstubbeberget.txt"
@@ -393,6 +431,7 @@
       "type": "sport",
       "firstAscent": "Johan Luhr -00",
       "description": "Ankare gemensamt med Maggan.",
+      "sectorId": "roda-vaggen",
       "source": {
         "id": "legacy:ekstubbeberget",
         "path": "mediawiki/Ekstubbeberget.txt"
@@ -408,6 +447,7 @@
       "type": "sport",
       "firstAscent": "Johan Luhr -96",
       "description": "Nytt ankare 2013.",
+      "sectorId": "bortre-vaggen",
       "source": {
         "id": "legacy:ekstubbeberget",
         "path": "mediawiki/Ekstubbeberget.txt"
@@ -423,6 +463,7 @@
       "type": "sport",
       "firstAscent": "Johan Luhr -96",
       "description": "Nytt ankare 2013.",
+      "sectorId": "bortre-vaggen",
       "source": {
         "id": "legacy:ekstubbeberget",
         "path": "mediawiki/Ekstubbeberget.txt"
@@ -438,6 +479,7 @@
       "type": "sport",
       "firstAscent": "Johan Luhr -96",
       "description": "Gemensamt ankare med Gnällmåns.",
+      "sectorId": "bortre-vaggen",
       "source": {
         "id": "legacy:ekstubbeberget",
         "path": "mediawiki/Ekstubbeberget.txt"
@@ -448,17 +490,20 @@
     {
       "filename": "Ekstubbe_huvud.png",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "huvudvaggen"
     },
     {
       "filename": "Ekstubbe_roda.png",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "roda-vaggen"
     },
     {
       "filename": "Ekstubbe_bortre.png",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "bortre-vaggen"
     }
   ],
   "access": {

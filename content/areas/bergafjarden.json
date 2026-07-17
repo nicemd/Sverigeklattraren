@@ -32,6 +32,21 @@
       "body": "Den andra stenen man stöter på när man kommer svängt av från åkern och passerat första stenen."
     },
     {
+      "id": "andra-sidan",
+      "title": "Andra sidan",
+      "body": ""
+    },
+    {
+      "id": "gatustenen",
+      "title": "Gatustenen",
+      "body": ""
+    },
+    {
+      "id": "batblocket",
+      "title": "Batblocket",
+      "body": ""
+    },
+    {
       "id": "pyramidblocket",
       "title": "Pyramidblocket",
       "body": "Ligger ned till höger från stigen sett när man har \"En annan sten\" upp åt vänster. Mycket trevlig sten med lite lättare problem upp till 6A, bra landningar =Problem= Kategori:Sundsvall Kategori:Bouldering Kategori:Bimbo Kategori:Behöver kvalitetssäkras Kategori:Saknar karta Kategori:Saknar koordinater Kategori:Saknar skrivarformattering Kategori:Saknar skiss"
@@ -48,6 +63,7 @@
       "type": "Krimp,Slab",
       "firstAscent": "Fredrik Bodin",
       "description": "Börjar uppe på stenen går rakt upp via hålet.",
+      "sectorId": "en-annan-sten",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -63,6 +79,7 @@
       "type": "Krimp,Slopers,Slab",
       "firstAscent": "Fredrik Bodin",
       "description": "Börjar där det stora blocket har lossnat, går rakt upp.",
+      "sectorId": "en-annan-sten",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -78,6 +95,7 @@
       "type": "Krimp,Slopers",
       "firstAscent": "Fredrik Bodin",
       "description": "Etableringsstart med händerna på det stora underclinget, går rakt upp.",
+      "sectorId": "en-annan-sten",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -93,6 +111,7 @@
       "type": "Krimp,Slopers",
       "firstAscent": "Fredrik Bodin",
       "description": "Går rakt upp utan att stå på stenen nedan. Ej hoppstart.",
+      "sectorId": "en-annan-sten",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -108,6 +127,7 @@
       "type": "Krimp,Slopers,Reach",
       "firstAscent": "Fredrik Bodin",
       "description": "Etableringsstart med båda händerna på den låga slopen, går rakt upp.",
+      "sectorId": "en-annan-sten",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -123,6 +143,7 @@
       "type": "Krimp,Layback,Reach",
       "firstAscent": "Fredrik Bodin",
       "description": "Startar där backen är som lägst till vänster om areten, går rakt upp. Morpho.",
+      "sectorId": "en-annan-sten",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -138,6 +159,7 @@
       "type": "Pinch,Layback,Dyno",
       "firstAscent": "Fredrik Bodin",
       "description": "Startar med händerna på den lilla areten, går rakt upp. Ej hoppstart.",
+      "sectorId": "en-annan-sten",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -153,6 +175,7 @@
       "type": "Krimp,Slopers",
       "firstAscent": "Fredrik Bodin",
       "description": "Etableringsstart med händerna på den låga slopen, går rakt upp.",
+      "sectorId": "en-annan-sten",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -168,6 +191,7 @@
       "type": "Krimp,Slopers,Mantling",
       "firstAscent": "Fredrik Bodin",
       "description": "Startar med händerna på slopen, går rakt upp. Dubbla paddor tillåtet om man ej når till startgreppet.",
+      "sectorId": "en-annan-sten",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -183,6 +207,7 @@
       "type": "Krimp,Slopers,Dyno",
       "firstAscent": "Fredrik Bodin",
       "description": "Sittstart med vänster hand på låg bra list och höger hand på slope, går rakt upp. Dubbla paddor tillåtet om man ej når slopen.",
+      "sectorId": "en-annan-sten",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -198,6 +223,7 @@
       "type": "Krimp,Överhäng",
       "firstAscent": "Fredrik Bodin & Olle Morén",
       "description": "Sittstart vid överhänget, där stenen är som lägst. Går rakt upp till hyllan och sedan upp åt höger.",
+      "sectorId": "en-annan-sten",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -213,6 +239,7 @@
       "type": "Krimp,Slopers",
       "firstAscent": "Jon Kågström & Olle Moren",
       "description": "Sittstart rakt under areten, rakt upp.",
+      "sectorId": "en-annan-sten",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -228,6 +255,7 @@
       "type": "Krimp,Slopers",
       "firstAscent": "Fredrik Bodin & Ulf Moberg",
       "description": "Sittstart vid areten, går rakt upp.",
+      "sectorId": "andra-stenen",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -243,6 +271,7 @@
       "type": "Krimp,Slopers,Mantling",
       "firstAscent": "Fredrik Bodin",
       "description": "Sittstart, går rakt upp.",
+      "sectorId": "andra-stenen",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -258,6 +287,7 @@
       "type": "Krimp,Slopers,Mantling",
       "firstAscent": "Fredrik Bodin",
       "description": "Sittstart vid areten, går rakt upp",
+      "sectorId": "andra-stenen",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -273,6 +303,7 @@
       "type": "Krimp,Slopers,Mantling",
       "firstAscent": "Fredrik Bodin",
       "description": "Sittstart med händerna på den nedersta hyllan, går rakt upp.",
+      "sectorId": "andra-stenen",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -288,6 +319,7 @@
       "type": "Slopers,Pinch,Mantling",
       "firstAscent": "Fredrik Bodin & Jörgen Åsberg",
       "description": "Sittstart med händerna på den stora slopen, går rakt upp",
+      "sectorId": "andra-stenen",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -303,6 +335,7 @@
       "type": "Krimp,Slopers",
       "firstAscent": "Jörgen Åsberg",
       "description": "Sittstart med händerna på hyllan vänster om Gnatish, går rakt upp.",
+      "sectorId": "andra-stenen",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -318,6 +351,7 @@
       "type": "Krimp,Slopers,Mantling",
       "firstAscent": "Fredrik Bodin",
       "description": "Sittstart med händerna på slopen, går rakt upp utan att använda den bakre kanten av stenen. Garanterat Bergas lägsta problem.",
+      "sectorId": "andra-stenen",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -333,6 +367,7 @@
       "type": "Krimp,Mantling",
       "firstAscent": "Fredrik Bodin",
       "description": "Börjar med sittstart på arêten längst in under taket, följer sedan denna ut och mantla längst ut.",
+      "sectorId": "andra-sidan",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -348,6 +383,7 @@
       "type": "Krimp,Mantling,Reach",
       "firstAscent": "Fredrik Bodin",
       "description": "Sittstartmed händerna på små lister längst in under taket. Går sedan upp och ut över taket och avslutas med en mantling.",
+      "sectorId": "andra-sidan",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -363,6 +399,7 @@
       "type": "Krimp,Slopers,Dyno",
       "firstAscent": "Fredrik Bodin",
       "description": "Sittstart med händerna på läppen längst ut på taket, går sedan rakt upp.",
+      "sectorId": "andra-sidan",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -378,6 +415,7 @@
       "type": "Krimp,Slopers,Dyno",
       "firstAscent": "Fredrik Bodin",
       "description": "Hoppstart från fotsteg nere på väggen upp till slopen längst ut på taket. Går sedan rakt upp.",
+      "sectorId": "andra-sidan",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -393,6 +431,7 @@
       "type": "Krimp,Slopers,Aréte",
       "firstAscent": "Fredrik Bodin & Jon Kågström",
       "description": "Sittstart vid areten, går rakt upp.",
+      "sectorId": "gatustenen",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -408,6 +447,7 @@
       "type": "Krimp,Dyno",
       "firstAscent": "Fredrik Bodin",
       "description": "Sittstart under överhänget, går rakt upp",
+      "sectorId": "gatustenen",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -423,6 +463,7 @@
       "type": "Krimp,Slopers",
       "firstAscent": "Fredrik Bodin",
       "description": "Går rakt upp.",
+      "sectorId": "gatustenen",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -438,6 +479,7 @@
       "type": "Krimp,Jug",
       "firstAscent": "Fredrik Bodin",
       "description": "Startar rakt under det lilla diedret, går rakt upp.",
+      "sectorId": "gatustenen",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -453,6 +495,7 @@
       "type": "Krimp",
       "firstAscent": "Fredrik Bodin",
       "description": "Går rakt upp direkt till höger om areten. Stå ej på stenen till höger.",
+      "sectorId": "gatustenen",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -468,6 +511,7 @@
       "type": "Krimp,Slopers",
       "firstAscent": "Fredrik Bodin",
       "description": "Sittstart vid areten, går rakt upp.",
+      "sectorId": "gatustenen",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -483,6 +527,7 @@
       "type": "Krimp,Layback,Överhäng",
       "firstAscent": "Per Wermelin och Jon Kågström",
       "description": "SIttstart till Överste Barsk, går rakt upp.",
+      "sectorId": "gatustenen",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -498,6 +543,7 @@
       "type": "Krimp,Layback,Överhäng",
       "firstAscent": "Jon Kågström",
       "description": "Rakt upp.",
+      "sectorId": "gatustenen",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -513,6 +559,7 @@
       "type": "",
       "firstAscent": "Jon Kågström",
       "description": "Rakt upp.",
+      "sectorId": "gatustenen",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -528,6 +575,7 @@
       "type": "Slopers",
       "firstAscent": "Jon Kågström",
       "description": "Rakt upp.",
+      "sectorId": "gatustenen",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -543,6 +591,7 @@
       "type": "Slopers",
       "firstAscent": "Jon Kågström",
       "description": "Rakt upp.",
+      "sectorId": "gatustenen",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -558,6 +607,7 @@
       "type": "Slopers,Aréte",
       "firstAscent": "Jon Kågström",
       "description": "Startar under areten, rakt upp utan att använda bjässe juggen till vänster eller höger.",
+      "sectorId": "gatustenen",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -573,6 +623,7 @@
       "type": "Slopers,Jug",
       "firstAscent": "Jon Kågström",
       "description": "Börjar under areten och går enklaste vägen upp, dvs. via bjässejuggen till vänster.",
+      "sectorId": "gatustenen",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -588,6 +639,7 @@
       "type": "Krimp",
       "firstAscent": "Jon Kågström",
       "description": "Rakt upp.",
+      "sectorId": "gatustenen",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -603,6 +655,7 @@
       "type": "Jug",
       "firstAscent": "Jon Kågström",
       "description": "Rakt upp, utan areten, stå inte på stenen nedanför i starten.",
+      "sectorId": "gatustenen",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -618,6 +671,7 @@
       "type": "Slab",
       "firstAscent": "Jon Kågström",
       "description": "Rakt upp, använd ej areten.",
+      "sectorId": "gatustenen",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -633,6 +687,7 @@
       "type": "Krimp,Slopers",
       "firstAscent": "Fredrik Bodin & JK,JÅ",
       "description": "Sittstart längst ut på spetsen, går rakt upp. Stora stenen under är med.",
+      "sectorId": "gatustenen",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -648,6 +703,7 @@
       "type": "Slopers,Mantling",
       "firstAscent": "Jon Kågström",
       "description": "Rakt upp, sittstart till vänster om trädet.",
+      "sectorId": "gatustenen",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -663,6 +719,7 @@
       "type": "Slopers,Mantling",
       "firstAscent": "Jon Kågström",
       "description": "Sittstart till höger om trädet, går rakt upp.",
+      "sectorId": "gatustenen",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -678,6 +735,7 @@
       "type": "Krimp,Slopers,Mantling",
       "firstAscent": "Jon Kågström",
       "description": "Rakt upp, vänster hand på liten sloper och höger på krimp.",
+      "sectorId": "gatustenen",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -693,6 +751,7 @@
       "type": "Krimp,Highball,Jug",
       "firstAscent": "Jörgen Åsberg",
       "description": "Sittstart vänster om areten. Går rakt upp utan arete.",
+      "sectorId": "batblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -708,6 +767,7 @@
       "type": "Krimp,Slopers,Aréte",
       "firstAscent": "Fredrik Bodin",
       "description": "Börjar med händerna på listen vid areten längst till vänster, följer sedan areten hela vägen upp.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -723,6 +783,7 @@
       "type": "Krimp",
       "firstAscent": "Fredrik Bodin",
       "description": "Går rakt upp vid det lilla diedret, areterna är ej med.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -738,6 +799,7 @@
       "type": "Layback",
       "firstAscent": "Fredrik Bodin",
       "description": "Följer areten upp.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -753,6 +815,7 @@
       "type": "Krimp,Slab",
       "firstAscent": "Fredrik Bodin",
       "description": "Går rakt upp utan areten.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -768,6 +831,7 @@
       "type": "Aréte",
       "firstAscent": "Fredrik Bodin",
       "description": "Följer areten upp.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -783,6 +847,7 @@
       "type": "Krimp,Pinch,Aréte",
       "firstAscent": "Fredrik Bodin",
       "description": "Sittstart vid areten, följer denna upp.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -798,6 +863,7 @@
       "type": "Krimp,Reach",
       "firstAscent": "Fredrik Bodin",
       "description": "Sittstart med händerna på den tydliga listen. Går sedan ut åt höger och sedan rakt upp.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -813,6 +879,7 @@
       "type": "Krimp",
       "firstAscent": "Jon Kågström",
       "description": "Starta med den tydliga listen, gå sedan rakt upp.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -828,6 +895,7 @@
       "type": "Krimp,Layback",
       "firstAscent": "Robin Persson",
       "description": "Sittstart i den tydliga listen, gå sedan upp med dragning åt vänster.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -843,6 +911,7 @@
       "type": "Slopers,Aréte",
       "firstAscent": "Fredrik Bodin",
       "description": "Sittstart vid areten, följer denna upp.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -858,6 +927,7 @@
       "type": "Krimp,Aréte",
       "firstAscent": "Jon Kågström",
       "description": "Sittstart vid areten, följer denna upp.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -873,6 +943,7 @@
       "type": "Krimp",
       "firstAscent": "Jon Kågström",
       "description": "Sittstart med händerna på det tydliga greppet, går rakt upp.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -888,6 +959,7 @@
       "type": "Krimp,Slopers,Aréte",
       "firstAscent": "Jon Kågström",
       "description": "Startar ståendes vid arêten, går rakt upp. Ej hoppstart.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -903,6 +975,7 @@
       "type": "Krimp",
       "firstAscent": "Fredrik Bodin",
       "description": "Sittstart med händerna vid listen, går rakt upp.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -918,6 +991,7 @@
       "type": "Krimp,Dyno",
       "firstAscent": "Fredrik Bodin",
       "description": "Dyno från den stora listen på \"Bergakungen\" upp till kanten snett upp åt höger.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -933,6 +1007,7 @@
       "type": "Slopers,Pinch,Aréte",
       "firstAscent": "Fredrik Bodin",
       "description": "Sittstart vid arêten, med händerna på dåliga grepp, går rakt upp.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -948,6 +1023,7 @@
       "type": "Mantling,Dyno,Reach",
       "firstAscent": "Robert Österholm",
       "description": "Startar med båda händerna på rampen (spricka)fortsätter med ett dynamiskt move till kanten och mantlar över kanten (knixig mantling för min del)",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -963,6 +1039,7 @@
       "type": "Mantling,Reach",
       "firstAscent": "Robert Österholm",
       "description": "Startar med båda händerna på rampen(sprickan) ,där rampen börjar gå uppåt till vänster och reachar upp till kanten och över.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -978,6 +1055,7 @@
       "type": "Travers V->H,Travers H->V,Jug",
       "firstAscent": "Sebastian Österholm",
       "description": "Börjar med foten på den lägsta hyllan till vänster om Glada gubben. Fortsätter med händerna i sprickan och går åt vänster på hyllor för att gå åt höger på slutet. Gå upp till höger om toppknölen. Junior High Ball.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -993,6 +1071,7 @@
       "type": "Pinch,Mantling,Reach",
       "firstAscent": "Robert Österholm",
       "description": "Vänster hand på en hylllist i sprickan och höger hand inne under taket på en pinchjug.Rakt upp över kanten.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -1008,6 +1087,7 @@
       "type": "Mantling,Reach,Spricka",
       "firstAscent": "Robert Österholm",
       "description": "Båda händerna i sprickan. Går rakt upp över kanten.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -1023,6 +1103,7 @@
       "type": "Slopers,Mantling,Spricka",
       "firstAscent": "Robert Österholm",
       "description": "Vänster hand i sprickan på en sloper och höger hand runt aréten på en sloperbulle.Rakt upp och över kanten.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -1038,6 +1119,7 @@
       "type": "Krimp,Mantling,Överhäng",
       "firstAscent": "Robert Österholm",
       "description": "Startar med båda händerna i sprickan (hålet), går rakt upp.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -1053,6 +1135,7 @@
       "type": "Krimp,Slopers",
       "firstAscent": "Robert Österholm",
       "description": "Sittstart vid areten. Går rakt upp utan att använd den stora pocketen.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -1068,6 +1151,7 @@
       "type": "Krimp,Slopers,Dyno",
       "firstAscent": "Robert Österholm",
       "description": "Sittstart, går upp med lätt dragning åt höger.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -1083,6 +1167,7 @@
       "type": "Slopers,Mantling,Jug",
       "firstAscent": "Robert Österholm",
       "description": "Samma start som Tvillingarna Kramp men gå rakt upp.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -1098,6 +1183,7 @@
       "type": "Krimp,Slopers,Aréte",
       "firstAscent": "Per Wermelin + Alla som sopat på aretet",
       "description": "Sittstart vid pilen på aretet, ca 4 m till v om Red Alert. Klättra rakt upp.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -1113,6 +1199,7 @@
       "type": "Krimp,Slopers,Heel hook",
       "firstAscent": "Fredrik Bodin",
       "description": "Sittstart vid bullen, följer kanten rakt upp.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -1128,6 +1215,7 @@
       "type": "Krimp,Slopers,Dyno",
       "firstAscent": "Fredrik Bodin",
       "description": "Sittstart vid areten, går rakt upp.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -1143,6 +1231,7 @@
       "type": "Krimp,Slopers,Mantling",
       "firstAscent": "Fredrik Bodin",
       "description": "Går rakt upp till höger om trädet. Starta där backen är som lägst.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -1158,6 +1247,7 @@
       "type": "Krimp,Slopers,Aréte,Heel hook",
       "firstAscent": "Per Wermelin",
       "description": "Startar på aréten till höger om Blockchoklad sett från stigen. Klättra rakt upp och avsluta mha av svaplattan.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -1173,6 +1263,7 @@
       "type": "Krimp,Slopers",
       "firstAscent": "Fredrik Bodin",
       "description": "Sittstart, går rakt upp.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -1188,6 +1279,7 @@
       "type": "Krimp,Slopers",
       "firstAscent": "Jon Kågström",
       "description": "Rakt upp.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -1203,6 +1295,7 @@
       "type": "Krimp,Mantling",
       "firstAscent": "Fredrik Bodin",
       "description": "Sittstart med händerna på den tydliga listen, går rakt upp.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -1218,6 +1311,7 @@
       "type": "Krimp,Mantling",
       "firstAscent": "Fredrik Bodin",
       "description": "Sittstart vid överhänget med händerna på små krimprar, går rakt upp.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -1233,6 +1327,7 @@
       "type": "Krimp,Slopers,Aréte",
       "firstAscent": "Fredrik Bodin",
       "description": "Sittstart vid areten, följer denna och sedan upp via svaplattan.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -1248,6 +1343,7 @@
       "type": "Krimp,Slab",
       "firstAscent": "Fredrik Bodin",
       "description": "Går rakt upp till höger om tallen, utan att använda flaket med juggen ute till höger.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -1263,6 +1359,7 @@
       "type": "Krimp,Slopers,Mantling",
       "firstAscent": "Fredrik Bodin",
       "description": "Sittstart mitt i det lilla överhänget, går rakt upp.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -1278,6 +1375,7 @@
       "type": "Krimp,Reach,Heel hook",
       "firstAscent": "Fredrik Bodin",
       "description": "Sittstart till vänster om trädet, går rakt upp",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -1293,6 +1391,7 @@
       "type": "Krimp",
       "firstAscent": "Fredrik Bodin",
       "description": "Går rakt upp, stenen under får bara användas om man ej når det nedre listparet.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -1308,6 +1407,7 @@
       "type": "Krimp,Mantling,Jug",
       "firstAscent": "Fredrik Bodin",
       "description": "Startar vid läppen, går rakt upp. Stenarna på sidorna är ej med.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -1323,6 +1423,7 @@
       "type": "Krimp,Jug",
       "firstAscent": "Fredrik Bodin",
       "description": "Sittstart med händerna på hyllan, går rakt upp.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -1338,6 +1439,7 @@
       "type": "Krimp,Layback,Reach",
       "firstAscent": "Fredrik Bodin",
       "description": "Går rakt upp.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -1353,6 +1455,7 @@
       "type": "Krimp",
       "firstAscent": "Fredrik Bodin",
       "description": "Går rakt upp.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -1368,6 +1471,7 @@
       "type": "Krimp",
       "firstAscent": "Fredrik Bodin",
       "description": "Sittstart med ena handen på det tydliga jugen, går rakt upp utan att använda arêten.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -1383,6 +1487,7 @@
       "type": "Krimp,Jug",
       "firstAscent": "Fredrik Bodin",
       "description": "Går rakt upp.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -1398,6 +1503,7 @@
       "type": "Krimp",
       "firstAscent": "Fredrik Bodin",
       "description": "Börjar vid den lilla arêten, går sedan upp med lätt dragning åt höger.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -1413,6 +1519,7 @@
       "type": "Krimp,Slopers",
       "firstAscent": "Fredrik Bodin",
       "description": "Sittstart mellan de två stora sidepullen, går rakt upp.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -1428,6 +1535,7 @@
       "type": "Krimp,Slopers,Mantling",
       "firstAscent": "Fredrik Bodin",
       "description": "Börjar ståendes på den stora hyllan, går rakt upp.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -1443,6 +1551,7 @@
       "type": "Krimp,Slopers,Aréte",
       "firstAscent": "Fredrik Bodin",
       "description": "Sittstart på vänster sida av arêten, går rakt upp",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -1458,6 +1567,7 @@
       "type": "Krimp,Slopers,Layback",
       "firstAscent": "Jon Kågström",
       "description": "Sittstart, rakt upp.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -1473,6 +1583,7 @@
       "type": "Krimp",
       "firstAscent": "Jon Kågström",
       "description": "Rakt upp, vänstra areten är inte med.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -1488,6 +1599,7 @@
       "type": "Krimp",
       "firstAscent": "Fredrik Bodin",
       "description": "Sittstart med händerna på den stora listen, går rakt upp.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -1503,6 +1615,7 @@
       "type": "Krimp",
       "firstAscent": "Fredrik Bodin",
       "description": "Går upp med lätt dragning åt vänster",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -1518,6 +1631,7 @@
       "type": "Krimp,Slopers",
       "firstAscent": "Fredrik Bodin",
       "description": "Sittstart med händerna på den stora listen, går sedan rakt upp.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -1533,6 +1647,7 @@
       "type": "Krimp,Slopers",
       "firstAscent": "Fredrik Bodin",
       "description": "Sittstart, går rakt upp",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -1548,6 +1663,7 @@
       "type": "Krimp,Slopers",
       "firstAscent": "Fredrik Bodin",
       "description": "Följer det lilla diedret rakt upp.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -1563,6 +1679,7 @@
       "type": "Krimp,Mantling,Slab",
       "firstAscent": "Fredrik Bodin",
       "description": "Går rakt upp utan att använda arêten till höger eller väggen till vänster.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -1578,6 +1695,7 @@
       "type": "Krimp,Slopers,Aréte",
       "firstAscent": "Fredrik Bodin",
       "description": "Sittstart med händerna på den tydliga listen, följ sedan den högra sidan av arêten upp.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -1593,6 +1711,7 @@
       "type": "Krimp",
       "firstAscent": "Fredrik Bodin",
       "description": "Startar med händerna i det bra underclinget, går rakt upp utan att gå ut något åt sidorna.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -1608,6 +1727,7 @@
       "type": "Krimp,Pinch",
       "firstAscent": "Fredrik Bodin",
       "description": "Sittstart med händerna på två undercling, länka med \"Bald is Beautiful\".",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -1623,6 +1743,7 @@
       "type": "Krimp,Slopers",
       "firstAscent": "Jon Kågström",
       "description": "Startar i det stora greppet, går rakt upp med lite dragning åt höger (naturligt).",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -1638,6 +1759,7 @@
       "type": "Krimp,Aréte",
       "firstAscent": "Jon Kågström",
       "description": "Börjar på areten. Rakt upp.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -1653,6 +1775,7 @@
       "type": "Krimp,Slopers",
       "firstAscent": "Jon Kågström",
       "description": "Sittstart, går rakt upp.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -1668,6 +1791,7 @@
       "type": "Jug",
       "firstAscent": "Jon Kågström",
       "description": "Rakt upp. Enklaste vägen ner för stenen.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -1683,6 +1807,7 @@
       "type": "Krimp,Mantling",
       "firstAscent": "Fredrik Bodin",
       "description": "Sittstart, går rakt upp.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -1698,6 +1823,7 @@
       "type": "Krimp,Slopers",
       "firstAscent": "Fredrik Bodin & Jon Kågström",
       "description": "Startar vid arêten, följer sedan kanten åt vänster.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -1713,6 +1839,7 @@
       "type": "Krimp,Mantling",
       "firstAscent": "Christofer Björklund & Jon Kågström",
       "description": "Börjar vid arêten, går rakt upp.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -1728,6 +1855,7 @@
       "type": "Krimp,Slopers,Mantling",
       "firstAscent": "Jon Kågström",
       "description": "Rakt upp.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -1743,6 +1871,7 @@
       "type": "Slab",
       "firstAscent": "Jon Kågström",
       "description": "Rakt upp utan vänstra areten.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -1758,6 +1887,7 @@
       "type": "Krimp,Aréte,Jug",
       "firstAscent": "Fredrik Bodin",
       "description": "Går rakt upp efter arête, stenen till höger är inte med",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -1773,6 +1903,7 @@
       "type": "Slab",
       "firstAscent": "Jon Kågström",
       "description": "Rakt upp, utan areten.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -1788,6 +1919,7 @@
       "type": "Krimp,Slopers",
       "firstAscent": "Fredrik Bodin",
       "description": "Går rakt upp.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -1803,6 +1935,7 @@
       "type": "Krimp,Slopers",
       "firstAscent": "Fredrik Bodin",
       "description": "Går rakt upp.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -1818,6 +1951,7 @@
       "type": "Krimp,Slopers,Heel hook",
       "firstAscent": "Fredrik Bodin",
       "description": "Sittstart med händerna på hyllan. Går rakt upp till kanten följ sedan denna åt höger, mantla på högsta punkt.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -1833,6 +1967,7 @@
       "type": "Krimp",
       "firstAscent": "Fredrik Bodin",
       "description": "Går rakt upp.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -1848,6 +1983,7 @@
       "type": "Slopers,Layback,Aréte",
       "firstAscent": "Fredrik Bodin",
       "description": "Börjar med underclinget, följ sedan den vänstra sidan av arêten upp.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -1863,6 +1999,7 @@
       "type": "Krimp,Mantling,Överhäng",
       "firstAscent": "Andreas Ström & Fredrik Bodin",
       "description": "Startar vid listerna mitt i överhänget, går rakt upp.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -1878,6 +2015,7 @@
       "type": "Krimp,Reach",
       "firstAscent": "Fredrik Bodin",
       "description": "Börjar längst till höger på stenen, går rakt upp.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -1893,6 +2031,7 @@
       "type": "Krimp",
       "firstAscent": "Fredrik Bodin",
       "description": "Startar till höger om stenen på backen, går rakt upp.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -1908,6 +2047,7 @@
       "type": "Krimp",
       "firstAscent": "Fredrik Bodin & Christofer Björklund",
       "description": "Sittstart nere till höger på stenen nedan, går rakt upp.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -1923,6 +2063,7 @@
       "type": "Krimp",
       "firstAscent": "Fredrik Bodin",
       "description": "Sittstart vid den stora listen, går sedan rakt upp.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -1938,6 +2079,7 @@
       "type": "Krimp",
       "firstAscent": "Jon Kågström",
       "description": "Sittstart, följer sprickan åt höger.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -1953,6 +2095,7 @@
       "type": "Krimp",
       "firstAscent": "Jon Kågström",
       "description": "Startar med höger hand under läppen och vänster hand på list, går rakt upp.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -1968,6 +2111,7 @@
       "type": "Mantling",
       "firstAscent": "Jon Kågström",
       "description": "Sittstart, går rakt upp.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -1983,6 +2127,7 @@
       "type": "Krimp",
       "firstAscent": "Peter Nilsson",
       "description": "Sittstart vid arêten. Vänster hand på list och höger hand på ganska lågt grepp, går rakt upp.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -1998,6 +2143,7 @@
       "type": "Krimp,Slopers,Dyno",
       "firstAscent": "Fredrik Bodin",
       "description": "Sittstart längst in i grottan med händerna på listerna i överhänget, går rakt upp via hålet ovanför. Stenen på sidan är ej med. Dubbelvikt padda är ok om man ej når listerna.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -2013,6 +2159,7 @@
       "type": "Mantling,Heel hook",
       "firstAscent": "Tony Berglund",
       "description": "Går på den stora stenen ca 5m höger om \"Dr Pepper\". Båda händerna på läppen på stenen. Mantla upp.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -2028,6 +2175,7 @@
       "type": "Krimp",
       "firstAscent": "Tony Berglund",
       "description": "Går på stenen bredvid \"Coca cola\". En hand på vardera aréte. Gå rakt upp över spetsen på stenen.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -2043,6 +2191,7 @@
       "type": "Layback,Mantling",
       "firstAscent": "Tony Berglund, 2003-09-25",
       "description": "På en utstickande sten nästan inne vid trädet.Båda händerna under den nedre kanten.Båda fötterna på stenen till vänster.Gå rakt upp till vänster om areten.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -2058,6 +2207,7 @@
       "type": "Layback,Aréte",
       "firstAscent": "Fredrik Bodin",
       "description": "Sittstart vid arêten, följer denna upp.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -2073,6 +2223,7 @@
       "type": "Krimp,Layback",
       "firstAscent": "Fredrik Bodin",
       "description": "Sittstart vid den tydliga listen, går rakt upp.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -2088,6 +2239,7 @@
       "type": "Krimp,Slab",
       "firstAscent": "Fredrik Bodin",
       "description": "Börjar vid de lite större greppen, går rakt upp.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -2103,6 +2255,7 @@
       "type": "Krimp,Slab",
       "firstAscent": "Fredrik Bodin",
       "description": "Startar nästan ute vid arêten på små lister, går rakt upp. Arêten är ej med.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -2118,6 +2271,7 @@
       "type": "Krimp,Aréte",
       "firstAscent": "Fredrik Bodin",
       "description": "Sittstart till vänster om arêten, med vänster hand på crimp och höger hand på arêten. Går rakt upp.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -2133,6 +2287,7 @@
       "type": "Krimp,Aréte",
       "firstAscent": "Peter Nilsson",
       "description": "Start med högerhanden på en list och vänstern på en krimp. Sedan rakt upp.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -2148,6 +2303,7 @@
       "type": "Slopers,Mantling,Jug",
       "firstAscent": "Peter Nilsson",
       "description": "Börjar lånt in på den vänstra stenen med händerna på juggen, gå på överhänget på nästa sten och fortsätt runt till en mantling på mitten av väggen.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -2163,6 +2319,7 @@
       "type": "Krimp",
       "firstAscent": "Jon Kågström",
       "description": "Sittstart, rakt upp, avslut lite till vänster.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -2178,6 +2335,7 @@
       "type": "Överhäng",
       "firstAscent": "JW + Jon K + FB??",
       "description": "Högervariant på Apocalypse. Starta som Apocalypse men gå istället ut åt höger in i Götterdämmerung. Fina move!",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -2193,6 +2351,7 @@
       "type": "Krimp,Slopers",
       "firstAscent": "Fredrik Bodin",
       "description": "Startar med händerna på den låga hyllan, går rakt upp",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -2208,6 +2367,7 @@
       "type": "",
       "firstAscent": "Fredrik Bodin",
       "description": "Sittstart längst till höger på stenen, följer kanten upp till toppen. Du får stå på stenen till höger i starten.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -2223,6 +2383,7 @@
       "type": "Krimp,Slab",
       "firstAscent": "Jon Kågström",
       "description": "Rakt upp, roligare utan juggen uppe till höger.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -2238,6 +2399,7 @@
       "type": "Slopers,Heel hook",
       "firstAscent": "Jörgen Åsberg",
       "description": "Startar med frihäng i två slopes på kanten, går upp med lätt dragning åt vänster.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -2253,6 +2415,7 @@
       "type": "Slopers",
       "firstAscent": "Jörgen Åsberg",
       "description": "Sittstart på lilla stenen. Vänster hand på liten hylla på areten och höger på gaston. Upp till toppen på stenen.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -2268,6 +2431,7 @@
       "type": "Krimp,Slopers",
       "firstAscent": "Fredrik Bodin",
       "description": "Startar med den stora sidepullen för vänster hand och en crimp för höger hand, går rakt upp.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -2283,6 +2447,7 @@
       "type": "Krimp,Slopers,Mantling",
       "firstAscent": "Fredrik Bodin",
       "description": "Sittstart med händerna på den slopiga hyllan, går rakt upp.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -2298,6 +2463,7 @@
       "type": "Krimp,Slopers",
       "firstAscent": "Fredrik Bodin",
       "description": "Sittstart vid areten, går rakt upp",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -2313,6 +2479,7 @@
       "type": "Krimp",
       "firstAscent": "Fredrik Bodin",
       "description": "Går rakt upp längst till höger av blocket. Stenen till höger är ej med.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -2328,6 +2495,7 @@
       "type": "Slopers,Mantling",
       "firstAscent": "Fredrik Bodin",
       "description": "Går rakt upp.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -2343,6 +2511,7 @@
       "type": "Krimp,Slopers",
       "firstAscent": "Fredrik Bodin",
       "description": "Sittstart längst till höger, följer kanten till vänster och upp vid areten. Stenen till höger är ej med. Dubbelvikt padda OK om man ej når i starten.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -2358,6 +2527,7 @@
       "type": "Krimp,Slopers,Mantling",
       "firstAscent": "Fredrik Bodin & Jonas Wiklund",
       "description": "Sittstart, går upp med lätt dragning åt vänster. Stenen under är ej med.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -2373,6 +2543,7 @@
       "type": "Slopers,Layback,Aréte",
       "firstAscent": "Jon Kågström",
       "description": "Rakt upp, areten är med.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -2388,6 +2559,7 @@
       "type": "Krimp,Highball,Aréte",
       "firstAscent": "Fredrik Bodin",
       "description": "Startar vid arêten från stenen under, går sedan rakt upp.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -2403,6 +2575,7 @@
       "type": "Krimp,Jug",
       "firstAscent": "Fredrik Bodin",
       "description": "Går rakt upp via hyllorna.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -2418,6 +2591,7 @@
       "type": "Krimp,Slopers,Highball",
       "firstAscent": "Fredrik Bodin",
       "description": "Börjar med dubbeldyno från nedre hyllan på stenen under upp till de två sloprarna på kanten. Går sedan rakt upp.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -2433,6 +2607,7 @@
       "type": "Krimp,Slopers,Mantling",
       "firstAscent": "Fredrik Bodin",
       "description": "Börjar ståendes på stenen under taket, med händerna på undercling. Gå sedan rakt ut och upp.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -2448,6 +2623,7 @@
       "type": "Mantling,Överhäng,Travers V->H",
       "firstAscent": "Per Wermelin",
       "description": "Startar längst till vänster på ett block snett bakom Moonshadow. Följ kanten och avsluta sen rakt upp med en mantling.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -2463,6 +2639,7 @@
       "type": "Slopers",
       "firstAscent": "Jon Kågström",
       "description": "Startar med händerna på den vänstra av sloprarna, går rakt upp. Når man inte start greppet så går det bra med dubbelvikt padda.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -2478,6 +2655,7 @@
       "type": "Slopers,Aréte",
       "firstAscent": "Jon Kågström",
       "description": "Sittstart, rakt upp. Areten är med.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -2493,6 +2671,7 @@
       "type": "Krimp,Mantling,Aréte",
       "firstAscent": "Fredrik Bodin",
       "description": "Sittstart, går rakt upp.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -2508,6 +2687,7 @@
       "type": "Spricka",
       "firstAscent": "Peter Nilsson",
       "description": "Följ den uppenbara sprickan hela vägen.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -2523,6 +2703,7 @@
       "type": "Krimp",
       "firstAscent": "Jon Kågström",
       "description": "Går rakt upp 1.5 meter till höger om Crackers. Schysst halvdynamiskt avslut.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -2538,6 +2719,7 @@
       "type": "Krimp,Dyno",
       "firstAscent": "Fredrik Bodin",
       "description": "Startar vid areten, går rakt upp. Ej hoppstart.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -2553,6 +2735,7 @@
       "type": "Krimp,Dyno",
       "firstAscent": "Fredrik Bodin",
       "description": "Startar med två små krimpar, går sedan rakt upp. Dubbelvikt matta är tillåtet om man inte når till startgreppen.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -2568,6 +2751,7 @@
       "type": "Krimp,Överhäng,Dyno",
       "firstAscent": "Fredrik Bodin",
       "description": "Sittstart vid den utstickande spetsen längst in till höger. Gå snett upp åt vänster och länka med \"Reload\".",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -2583,6 +2767,7 @@
       "type": "Slopers,Dyno",
       "firstAscent": "Fredrik Bodin",
       "description": "Börjar med händerna på kanten av den låga stenen. Dubbeldyno upp till den borstade \"bollen\" på stenen ovanför.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -2598,6 +2783,7 @@
       "type": "Krimp,Slopers,Överhäng",
       "firstAscent": "Andreas Ström",
       "description": "Börjar på stenen längst in, går sedan ut över klämblocket och upp. Väggarna på sidorna är ej med.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -2613,6 +2799,7 @@
       "type": "Krimp,Slab",
       "firstAscent": "Jon Kågström",
       "description": "Rakt upp.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -2628,6 +2815,7 @@
       "type": "Dyno,Jug",
       "firstAscent": "Jon Kågström",
       "description": "Dyno från den stora hyllan till toppen.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -2643,6 +2831,7 @@
       "type": "Krimp,Jug",
       "firstAscent": "Jon Kågström",
       "description": "Rakt upp, stora hyllan till vänster är med.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -2658,6 +2847,7 @@
       "type": "Krimp",
       "firstAscent": "Fredrik Bodin",
       "description": "Sittstart med vänster han på låg crimp och höger hand på list, går rakt upp.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -2673,6 +2863,7 @@
       "type": "Krimp",
       "firstAscent": "Fredrik Bodin",
       "description": "Sittstart med båda händerna på den stora listen, går sedan rakt upp.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -2688,6 +2879,7 @@
       "type": "Krimp",
       "firstAscent": "Fredrik Bodin",
       "description": "Sittstart med händerna på den stora listen, går sedan snett upp åt höger.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -2703,6 +2895,7 @@
       "type": "Krimp",
       "firstAscent": "Fredrik Bodin",
       "description": "Börjar där marken är som lägst, går rakt upp.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -2718,6 +2911,7 @@
       "type": "Krimp,Aréte",
       "firstAscent": "Fredrik Bodin",
       "description": "Går rakt upp på den vänstra sidan av areten.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -2733,6 +2927,7 @@
       "type": "Krimp,Slopers,Pinch",
       "firstAscent": "Fredrik Bodin",
       "description": "Startar med händerna på hyllan sittandes på stenen bakom, går upp med dragning åt vänster.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -2748,6 +2943,7 @@
       "type": "Slab",
       "firstAscent": "Fredrik Bodin",
       "description": "Går rakt upp utan att använda händerna. Variant med händer 3A.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -2763,6 +2959,7 @@
       "type": "Krimp,Slopers",
       "firstAscent": "Fredrik Bodin",
       "description": "Går rakt upp, där taket är som högst, morpho.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -2778,6 +2975,7 @@
       "type": "Krimp",
       "firstAscent": "Fredrik Bodin",
       "description": "Går rakt upp där taket blir lägre, morpho.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -2793,6 +2991,7 @@
       "type": "Layback,Aréte",
       "firstAscent": "Jon Kågström",
       "description": "Sittstart, rakt upp.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -2808,6 +3007,7 @@
       "type": "Slab",
       "firstAscent": "Jon Kågström",
       "description": "Rakt upp.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -2823,6 +3023,7 @@
       "type": "Krimp",
       "firstAscent": "Jon Kågström",
       "description": "Ståstart där marken är som lägst. Vänstra areten är med.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -2838,6 +3039,7 @@
       "type": "Krimp,Layback",
       "firstAscent": "Fredrik Bodin",
       "description": "Startar under det stora underclinget, utan att stå på någon av stenarna på backen. Går rakt upp.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -2853,6 +3055,7 @@
       "type": "Krimp,Slopers",
       "firstAscent": "Fredrik Bodin",
       "description": "Sittstart vid arêten, går rakt upp.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -2868,6 +3071,7 @@
       "type": "Krimp,Slopers",
       "firstAscent": "Fredrik Bodin",
       "description": "Startar med händerna rakt ovanför den stora rampen i överhänget, går sedan rakt upp.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -2883,6 +3087,7 @@
       "type": "Krimp,Slopers,Mantling",
       "firstAscent": "Fredrik Bodin",
       "description": "Hoppstart från stenen under överhänget, går sedan rakt upp utan att gå in något på \"Rockshock\".",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -2898,6 +3103,7 @@
       "type": "Krimp,Layback,Spricka",
       "firstAscent": "Fredrik Bodin",
       "description": "Startar med händerna i sprickan, går rakt upp utan att använda vänstra arêten.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -2913,6 +3119,7 @@
       "type": "Slopers",
       "firstAscent": "Jörgen Åsberg",
       "description": "Sittstart på blocket bredvid. Båda händerna på listen. Gå upp till spetsen på stenen.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -2928,6 +3135,7 @@
       "type": "Krimp,Slopers",
       "firstAscent": "Ulf Moberg",
       "description": "Börja på hyllan och gå rakt upp över ryggen på stenen till toppen.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -2943,6 +3151,7 @@
       "type": "",
       "firstAscent": "Jonas Wiklund",
       "description": "Kammen till höger om 'kriterium'. Lättare och lättare ju högre man kommer.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -2958,6 +3167,7 @@
       "type": "Aréte",
       "firstAscent": "Jonas Wiklund",
       "description": "Går på ett vänsterlutande arete som ligger längs stigen mellan Overload och Dwarf Hunter.Bryt över när du kommer upp till den lilla hyllan.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -2973,6 +3183,7 @@
       "type": "Aréte,Reach",
       "firstAscent": "Jonas Wiklund",
       "description": "Går till vänster om \"Stumble into Grace\" på samma vägg som denna, starta just till vänster om tallen och gå rakt upp på skölden.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -2988,6 +3199,7 @@
       "type": "Reach,Jug",
       "firstAscent": "Jonas Wiklund",
       "description": "Längst till höger på väggen till vänster om 'wrecking ball'. Extrem lätt klättring de sista 3 meter.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -3003,6 +3215,7 @@
       "type": "Highball,Spricka",
       "firstAscent": "Peter Nilsson, Jonas Wiklund",
       "description": "Den klockrena sprickan på väggen ovanför \"Reload\". Startar uppe på den lutande blocket och är med sitt höga krux ett skönt pirrande problem.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -3018,6 +3231,7 @@
       "type": "Travers H->V",
       "firstAscent": "Robert Österholm",
       "description": "Travers som börjar vid stumble in to grace!Äntligen en längre travers i Berga!!!!",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -3033,6 +3247,7 @@
       "type": "Highball,Aréte",
       "firstAscent": "Jonas Wiklund",
       "description": "Följer ett elegant arete just till vänster om en grov spricka 20 meter till vänster om Stumble into Grace. Efter sex meter så lättar klättringen upp betydligt.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -3048,6 +3263,7 @@
       "type": "Krimp,Layback",
       "firstAscent": "Jörgen Åsberg",
       "description": "Sittstart under \"stalagtiten\". Går rakt upp utan väggen till vänster. Avslutas med en matchning till höger på övre överhänget.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -3063,6 +3279,7 @@
       "type": "Highball,Spricka,Toe hook",
       "firstAscent": "Pär Lindholm",
       "description": "Går brevid Klämkäck. Klättra kaminen bakom stalktiten. Fastna inte!",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -3078,6 +3295,7 @@
       "type": "Krimp,Slopers,Mantling",
       "firstAscent": "Jon Kågström",
       "description": "Sittstart, rakt upp.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -3093,6 +3311,7 @@
       "type": "Krimp,Aréte",
       "firstAscent": "Per Wermelin o Jon Kågström",
       "description": "Ligger på hörnet innan I maskopi med en surslop. Startar med vänster på ett krimp och höger på areten. Klättra sen rakt upp mha krimp och aretet.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -3108,6 +3327,7 @@
       "type": "Krimp",
       "firstAscent": "Fredrik Bodin",
       "description": "Går rakt upp.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -3123,6 +3343,7 @@
       "type": "Krimp,Slopers",
       "firstAscent": "Per Wermelin",
       "description": "Ståstart till vänster om Nogat, följ kanten rakt upp.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -3138,6 +3359,7 @@
       "type": "Mantling,Reach,Jug",
       "firstAscent": "Fredrik Bodin & Peter Nilsson",
       "description": "Startar frihängande med händerna på den nedre hyllan, går rakt upp.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -3153,6 +3375,7 @@
       "type": "Krimp",
       "firstAscent": "Fredrik Bodin",
       "description": "Startar under det stora sidepullen, går rakt upp.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -3168,6 +3391,7 @@
       "type": "Krimp,Jug",
       "firstAscent": "Fredrik Bodin",
       "description": "Går rakt upp. Ramla inte ned åt vänster!",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -3183,6 +3407,7 @@
       "type": "Jam,Mantling,Aréte",
       "firstAscent": "Per Wermelin",
       "description": "Startar till vänster om Zegul. Starta med vänsterhand på aréten och höger på en crimp. Klättra till höger om aréten och avsluta problemet med mantling.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -3198,6 +3423,7 @@
       "type": "Krimp,Mantling",
       "firstAscent": "Per Wermelin",
       "description": "Startar till höger och runt hörnet om Nu äre brottomt. Klättra rakt upp och avsluta med en mantling.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -3213,6 +3439,7 @@
       "type": "Krimp,Slopers,Spricka",
       "firstAscent": "Per Wermelin",
       "description": "Startar i sprickan ca 3 m till höger om Sans Balance. Följa sprickan rakt upp.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -3228,6 +3455,7 @@
       "type": "Krimp,Mantling",
       "firstAscent": "Per Wermelin",
       "description": "Startar mellan Trance balance och Nu äre brottomt. Klättra rakt upp.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -3243,6 +3471,7 @@
       "type": "Krimp,Överhäng,Aréte",
       "firstAscent": "Per Wermelin o Fredrik Bodin",
       "description": "Sittstart på Sans Balance.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -3258,6 +3487,7 @@
       "type": "Krimp,Aréte",
       "firstAscent": "Fredrik Bodin",
       "description": "Startar med ganska låg crimp för höger hand och arêten för vänster hand, går rakt upp.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -3273,6 +3503,7 @@
       "type": "Krimp",
       "firstAscent": "Per Wermelin",
       "description": "Startar mitt på väggen runt hörnet till vänster om Trans Balance. Klättra rakt upp.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -3288,6 +3519,7 @@
       "type": "Krimp,Reach",
       "firstAscent": "Fredrik Bodin",
       "description": "Börjar med händerna på den stora hyllan, går rakt upp.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -3303,6 +3535,7 @@
       "type": "Krimp,Aréte",
       "firstAscent": "Fredrik Bodin",
       "description": "Börjar med händerna på den stora hyllan, går rakt upp. Stenen till vänster är ej med.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -3318,6 +3551,7 @@
       "type": "Krimp,Layback,Aréte",
       "firstAscent": "Fredrik Bodin",
       "description": "Starta med det ni når, går rakt upp.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -3333,6 +3567,7 @@
       "type": "Layback,Jug,Spricka",
       "firstAscent": "Robert Österholm",
       "description": "Ligger till höger om Frostrearande. Följ sprickan upp.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -3348,6 +3583,7 @@
       "type": "Krimp",
       "firstAscent": "Jon Kågström",
       "description": "Rakt upp. Håll dig till vänster om den kraftiga sprickan.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -3363,6 +3599,7 @@
       "type": "Krimp,Layback",
       "firstAscent": "Fredrik Bodin",
       "description": "Sittstart med händerna på den lilla arêten, går rakt upp och avslutas som \"Air Pocket\".",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -3378,6 +3615,7 @@
       "type": "Krimp,Dyno",
       "firstAscent": "Fredrik Bodin",
       "description": "Börjar med hoppstart under det lilla taket, går rakt upp.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -3393,6 +3631,7 @@
       "type": "Layback",
       "firstAscent": "Jon Kågström",
       "description": "Följer den kraftiga sprickan upp åt höger. Ej hoppstart.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -3408,6 +3647,7 @@
       "type": "Krimp,Slopers",
       "firstAscent": "Fredrik Bodin",
       "description": "Börjar vid den bra sidepullen, går rakt upp. Stora sprickan till höger är ej med.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -3423,6 +3663,7 @@
       "type": "Krimp,Reach",
       "firstAscent": "Fredrik Bodin",
       "description": "Går rakt upp mellan \"Hell Hopp\" och \"Vanquish\". OK med hoppstart om man ej når till greppet för högerhanden. Håll linjen.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -3438,6 +3679,7 @@
       "type": "Krimp,Dyno",
       "firstAscent": "Fredrik Bodin",
       "description": "Startar med händerna på den stora listen, sedan är det bara att skicka på upp till crimpen och gå vidare.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -3453,6 +3695,7 @@
       "type": "Mantling,Dyno",
       "firstAscent": "Jörgen Åsberg",
       "description": "Startar till vänster om den lilla björken med båda händerna på den stora jugen. Går rakt upp.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -3468,6 +3711,7 @@
       "type": "Krimp,Mantling,Travers H->V",
       "firstAscent": "Ulf Moberg",
       "description": "Börja på sneda listen, etablera starten. Följ sprickan åt vänster och mantla vid spetsen.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -3483,6 +3727,7 @@
       "type": "Slopers,Mantling",
       "firstAscent": "Fredrik Bodin, Conny, Dag, Eva",
       "description": "Sittstart, går rakt upp. Ligger mellan \"Dwarf Hunter\" och \"Razor´s Edge\"",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -3498,6 +3743,7 @@
       "type": "Krimp,Mantling,Överhäng",
       "firstAscent": "Andreas Ström",
       "description": "Sittstart med båda händerna inne på rampen. Rakt upp.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -3513,6 +3759,7 @@
       "type": "Krimp,Slopers,Överhäng",
       "firstAscent": "Andreas Ström",
       "description": "Sittstart vid arêten, traversera åt höger och avluta som Dwarf Hunter.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -3528,6 +3775,7 @@
       "type": "Krimp,Slopers,Heel hook",
       "firstAscent": "Jonas Wiklund",
       "description": "Starta som \"Fight Club\" men gå rakt upp istället.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -3543,6 +3791,7 @@
       "type": "Krimp,Pinch",
       "firstAscent": "Jörgen Åsberg",
       "description": "Vänster hand på litet crimp och höger pinchar hörnet på stenen. Går rakt upp. Dubbelvikt padda är tillåtet om man ej når till startgreppen.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -3558,6 +3807,7 @@
       "type": "Slopers",
       "firstAscent": "Jörgen Åsberg",
       "description": "Starta med höger hand på stort grepp och vänster på sidepull. går rakt upp. Den stora hyllan på vänstersidan är inte med.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -3573,6 +3823,7 @@
       "type": "Mantling",
       "firstAscent": "Ulf Moberg",
       "description": "Börja hängande längst till höger på hyllan. Gå sedan upp på upp på avsatsen och vidare upp till kanten högst upp och mantla. Stenarna under är inte med!",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -3588,6 +3839,7 @@
       "type": "Krimp,Spricka",
       "firstAscent": "Ulf Moberg",
       "description": "Ståstart. Börja i sprickan och gå rakt upp.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -3603,6 +3855,7 @@
       "type": "Dyno",
       "firstAscent": "Robert Österholm",
       "description": "Startar med händerna på greppet som är där den vertikala sprickan möter den lodräta. Dyno till kanten.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -3618,6 +3871,7 @@
       "type": "Travers V->H,Spricka",
       "firstAscent": "Jörgen Åsberg",
       "description": "Startar med händerna på hyllan längst till vänster. Följer den vertikala sprickan fram till lodräta sprickan där man går rakt upp endast med hjälp utav sprickan och hålet.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -3633,6 +3887,7 @@
       "type": "Slab",
       "firstAscent": "Jon Kågström",
       "description": "Rakt upp, tillåtet att kliva upp på stenen till höger.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -3648,6 +3903,7 @@
       "type": "",
       "firstAscent": "Jon Kågström",
       "description": "Sittstart, går rakt upp.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -3663,6 +3919,7 @@
       "type": "Slopers",
       "firstAscent": "Jon Kågström",
       "description": "Sittstart, med dragning åt höger runt hörnet.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -3678,6 +3935,7 @@
       "type": "Slopers",
       "firstAscent": "Jon Kågström",
       "description": "Sittstart, rakt upp.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -3693,6 +3951,7 @@
       "type": "Krimp",
       "firstAscent": "Jon Kågström",
       "description": "Rakt upp, börjar ståstart där man står som längst ner.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -3708,6 +3967,7 @@
       "type": "Slopers,Överhäng,Dyno,Toe hook",
       "firstAscent": "Jon Kågström",
       "description": "Sittstart på lilla stenen, rakt upp, utan areterna. Man får använda stenarna under stenen.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -3723,6 +3983,7 @@
       "type": "Aréte",
       "firstAscent": "Jon Kågström",
       "description": "Sittstart följ areten åt vänster, stenarna under stenen får man använda.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -3738,6 +3999,7 @@
       "type": "Aréte",
       "firstAscent": "Jon Kågström",
       "description": "Följ areten åt höger och mantla där det är som högst.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -3753,6 +4015,7 @@
       "type": "Krimp",
       "firstAscent": "Fredrik Bodin",
       "description": "Sittstart, går rakt upp.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -3768,6 +4031,7 @@
       "type": "Krimp,Slopers,Highball",
       "firstAscent": "Jon Kågström",
       "description": "Sittstart på höger sida av areten, fin och ganska hög (lätt på slutet).",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -3783,6 +4047,7 @@
       "type": "Krimp,Highball",
       "firstAscent": "Fredrik Bodin",
       "description": "Börjar med två crimprar, går rakt upp utan att använda hyllan ute på arêten.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -3798,6 +4063,7 @@
       "type": "Krimp,Highball",
       "firstAscent": "Fredrik Bodin",
       "description": "Börjar en meter vänster om \"Chat with the Bat\", går rakt upp.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -3813,6 +4079,7 @@
       "type": "Krimp,Highball",
       "firstAscent": "Fredrik Bodin",
       "description": "Startar vid det stora steget, går rakt upp med lätt dragning åt höger.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -3828,6 +4095,7 @@
       "type": "Krimp",
       "firstAscent": "Fredrik Bodin",
       "description": "Startar med den tydliga listen, gå sedan statiskt rakt upp.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -3843,6 +4111,7 @@
       "type": "Krimp,Dyno",
       "firstAscent": "Fredrik Bodin",
       "description": "Startar med händerna på den stora listen, kliv upp och dyna till kanten.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -3858,6 +4127,7 @@
       "type": "Slab",
       "firstAscent": "Jon Kågström",
       "description": "Rakt upp.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -3873,6 +4143,7 @@
       "type": "Krimp",
       "firstAscent": "Jon Kågström",
       "description": "Rakt upp, hela vägen.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -3888,6 +4159,7 @@
       "type": "Krimp,Layback",
       "firstAscent": "Fredrik Bodin",
       "description": "Följer rampen upp.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -3903,6 +4175,7 @@
       "type": "Krimp,Dyno",
       "firstAscent": "Fredrik Bodin",
       "description": "Börjar med händerna på den bra listen, dyna upp till kanten. Rampen till höger är ej med.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -3918,6 +4191,7 @@
       "type": "Krimp",
       "firstAscent": "Fredrik Bodin",
       "description": "Börjar med händerna på den låga hyllan, går sedan upp med dragning åt vänster.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -3933,6 +4207,7 @@
       "type": "Krimp,Mantling",
       "firstAscent": "Fredrik Bodin",
       "description": "Startar med frihäng ute på läppen, gå sedan rakt upp. Inga andra stenar är med.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -3948,6 +4223,7 @@
       "type": "Krimp,Jug",
       "firstAscent": "Fredrik Bodin",
       "description": "Börjar med händerna på listerna i sprickan, går rakt upp.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -3963,6 +4239,7 @@
       "type": "Krimp,Jug",
       "firstAscent": "Fredrik Bodin",
       "description": "Börjar med händerna på det stora greppet, går rakt upp utan att gå höger på slutet.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -3978,6 +4255,7 @@
       "type": "Krimp,Dyno,Jug",
       "firstAscent": "Fredrik Bodin",
       "description": "Börjar med den bra listen i sprickan, går rakt upp. Följ kammen på slutet.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -3993,6 +4271,7 @@
       "type": "Krimp,Dyno,Highball",
       "firstAscent": "Fredrik Bodin",
       "description": "Börjar med crimp. Går rakt upp.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -4008,6 +4287,7 @@
       "type": "Krimp,Slab",
       "firstAscent": "Magnus Holmström",
       "description": "Går rakt upp.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -4023,6 +4303,7 @@
       "type": "Krimp,Aréte",
       "firstAscent": "Jon Kågström",
       "description": "Rakt upp. Fin.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -4038,6 +4319,7 @@
       "type": "Krimp",
       "firstAscent": "Jon Kågström",
       "description": "Rakt upp.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -4053,6 +4335,7 @@
       "type": "Reach,Jug",
       "firstAscent": "Jon Kågström",
       "description": "Rakt upp.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -4068,6 +4351,7 @@
       "type": "Krimp,Jug",
       "firstAscent": "Fredrik Bodin",
       "description": "Sittstart med händerna på rampen. (Inneslutning)Pocketen måste användas för att man skall ha tagit den.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -4083,6 +4367,7 @@
       "type": "Krimp,Highball",
       "firstAscent": "Magnus Holmström",
       "description": "Går rakt upp till vänster om granen",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -4098,6 +4383,7 @@
       "type": "Krimp,Highball",
       "firstAscent": "Fredrik Bodin",
       "description": "Går rakt upp. Ledvarning.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -4113,6 +4399,7 @@
       "type": "Krimp,Slopers",
       "firstAscent": "Fredrik Bodin",
       "description": "Går rakt upp.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -4128,6 +4415,7 @@
       "type": "Krimp,Slopers,Aréte",
       "firstAscent": "Fredrik Bodin",
       "description": "Sittstart vid arêten, följer denna upp.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -4143,6 +4431,7 @@
       "type": "Överhäng,Travers H->V",
       "firstAscent": "Per Wermelin",
       "description": "Startar på areten till höger om Hang Loose. Traversera efter kanten och avsluta med samma utsteg som Hang Loose.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -4158,6 +4447,7 @@
       "type": "Krimp,Aréte",
       "firstAscent": "Per Wermelin",
       "description": "Sittstart, går rakt upp.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -4173,6 +4463,7 @@
       "type": "Jug",
       "firstAscent": "Jon Kågström",
       "description": "Sittstart, rakt upp.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -4188,6 +4479,7 @@
       "type": "Krimp,Slopers,Mantling",
       "firstAscent": "Fredrik Bodin",
       "description": "Sittstart, går rakt upp.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -4203,6 +4495,7 @@
       "type": "Krimp,Slopers",
       "firstAscent": "Jon Kågström",
       "description": "Mycket lågt problem. Sittstart och rakt upp.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -4218,6 +4511,7 @@
       "type": "Krimp,Jug",
       "firstAscent": "Fredrik Bodin",
       "description": "Startar lika som \"Snöfall\" men går rakt upp istället.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -4233,6 +4527,7 @@
       "type": "Krimp,Slopers",
       "firstAscent": "Fredrik Bodin",
       "description": "Börjar med sittstart nere till höger, gå vänster upp till hyllan och sedan rakt upp över bullen.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -4248,6 +4543,7 @@
       "type": "Krimp,Jug",
       "firstAscent": "Fredrik Bodin",
       "description": "Startar med händerna på den lägsta hyllan direkt till vänster om granen, går rakt upp. Osopade hyllan till vänster är utesluten.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -4263,6 +4559,7 @@
       "type": "Krimp",
       "firstAscent": "Jon Kågström",
       "description": "Sittstart, rakt upp.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -4278,6 +4575,7 @@
       "type": "Krimp,Slopers,Travers H->V",
       "firstAscent": "Fredrik Bodin & Per Wermelin",
       "description": "Startar lika som \"Defcon 1\", går ut till areten och sedan upp.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -4293,6 +4591,7 @@
       "type": "Krimp,Slopers",
       "firstAscent": "Fredrik Bodin",
       "description": "Sittstart, går rakt upp.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -4308,6 +4607,7 @@
       "type": "Krimp",
       "firstAscent": "Fredrik Bodin",
       "description": "Går rakt upp. Stå ej på stenarna nedanför i starten.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -4323,6 +4623,7 @@
       "type": "Krimp,Slopers",
       "firstAscent": "Fredrik Bodin",
       "description": "Sittstart, går rakt upp",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -4338,6 +4639,7 @@
       "type": "Krimp",
       "firstAscent": "Fredrik Bodin",
       "description": "Går rakt upp.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -4353,6 +4655,7 @@
       "type": "Slopers,Överhäng",
       "firstAscent": "Fredrik Bodin",
       "description": "Sittstart, börjar med vänster häl på hyllan längst in till vänster. Går sedan rakt ut över spettsen, utan att gå ut åt någon av sidorna.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -4368,6 +4671,7 @@
       "type": "Krimp,Jug,Heel hook,Toe hook",
       "firstAscent": "Fredrik Bodin",
       "description": "Sittstart, går rakt upp.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -4383,6 +4687,7 @@
       "type": "Krimp,Slopers,Mantling",
       "firstAscent": "Fredrik Bodin",
       "description": "Sittstart vid bullen, går rakt upp.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -4398,6 +4703,7 @@
       "type": "Krimp,Slopers,Slab",
       "firstAscent": "Fredrik Bodin",
       "description": "Går rakt upp.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -4413,6 +4719,7 @@
       "type": "Krimp,Slab",
       "firstAscent": "Fredrik Bodin",
       "description": "Går rakt upp.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -4428,6 +4735,7 @@
       "type": "Krimp,Slab",
       "firstAscent": "Fredrik Bodin",
       "description": "Går rakt upp.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -4443,6 +4751,7 @@
       "type": "Krimp,Slopers,Mantling",
       "firstAscent": "Fredrik Bodin",
       "description": "Sittstart med vänster hand på kanten och höger på krimp i överhänget, följer kanten ut åt höger. Mantla ute på \"bullen\".",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -4458,6 +4767,7 @@
       "type": "Krimp,Slab",
       "firstAscent": "Fredrik Bodin",
       "description": "Går rakt upp.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -4473,6 +4783,7 @@
       "type": "Krimp,Slopers,Mantling",
       "firstAscent": "Fredrik Bodin",
       "description": "Sittstart vid hörnet av stenen, går rakt upp.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -4488,6 +4799,7 @@
       "type": "Slopers",
       "firstAscent": "Fredrik Bodin",
       "description": "Går rakt upp.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -4503,6 +4815,7 @@
       "type": "Krimp,Slopers",
       "firstAscent": "Fredrik Bodin",
       "description": "Går rakt upp.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -4518,6 +4831,7 @@
       "type": "Krimp,Aréte",
       "firstAscent": "Fredrik Bodin",
       "description": "Sittstart, går rakt upp.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -4533,6 +4847,7 @@
       "type": "Krimp,Jug",
       "firstAscent": "Fredrik Bodin",
       "description": "Går rakt upp utan att gå för långt åt vänster.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -4548,6 +4863,7 @@
       "type": "Krimp,Slopers",
       "firstAscent": "Fredrik Bodin",
       "description": "Börja med höger hand på sidepull, går rakt upp.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -4563,6 +4879,7 @@
       "type": "Krimp,Aréte",
       "firstAscent": "Fredrik Bodin",
       "description": "Går rakt upp vid areten. Stenen under är ej med.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -4578,6 +4895,7 @@
       "type": "Krimp",
       "firstAscent": "Fredrik Bodin",
       "description": "Startar till vänster om \"Rip Off\" mellan blocken och utan att stå på stenen på backen i starten. Går rakt upp. Svårare om man är lite kortare.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -4593,6 +4911,7 @@
       "type": "Krimp,Aréte",
       "firstAscent": "Fredrik Bodin",
       "description": "Går rakt upp.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -4608,6 +4927,7 @@
       "type": "Krimp,Aréte",
       "firstAscent": "Fredrik Bodin",
       "description": "Går upp på den högra sidan av areten.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -4623,6 +4943,7 @@
       "type": "Krimp,Slab",
       "firstAscent": "Fredrik Bodin",
       "description": "Går rakt upp.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -4638,6 +4959,7 @@
       "type": "Krimp,Slopers",
       "firstAscent": "Fredrik Bodin",
       "description": "Sittstart med händerna på slopen, går rakt upp.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -4653,6 +4975,7 @@
       "type": "Krimp,Heel hook",
       "firstAscent": "Per Wermelin",
       "description": "Klättra rakt upp.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -4668,6 +4991,7 @@
       "type": "Krimp,Aréte",
       "firstAscent": "Per Wermelin",
       "description": "Klättra rakt upp vid pilen. Problemet ligger ca 5 m till v om Höjdarna",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -4683,6 +5007,7 @@
       "type": "Krimp,Dyno,Aréte",
       "firstAscent": "Per Wermelin och Jörgen Åsberg",
       "description": "Klättra rakt upp.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -4698,6 +5023,7 @@
       "type": "Krimp,Mantling,Aréte",
       "firstAscent": "Per Wermelin",
       "description": "Samma start som Hörnet. Följ sen hylla ut åt v ca 1,5 m. Avsluta sen rakt upp.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -4713,6 +5039,7 @@
       "type": "Krimp,Aréte",
       "firstAscent": "Per Wermelin",
       "description": "Startar ca 1,5 m till h om Red Alert. Klättra sen rakt upp.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -4728,6 +5055,7 @@
       "type": "",
       "firstAscent": "Per Wermelin",
       "description": "Ståstart, klättra på enklaste sätt rakt vid pilen ca 2,5 m till v om Red Alert.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -4743,6 +5071,7 @@
       "type": "Slab",
       "firstAscent": "Per Wermelin",
       "description": "Klättra rakt upp vid pilen, ligger ca 1,5 m till v om Velociraptor.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -4758,6 +5087,7 @@
       "type": "Krimp,Mantling,Aréte",
       "firstAscent": "Per Wermelin",
       "description": "Klättra rakt upp och följ sen kanten ut åt v ca 2m, avsluta sen rakt upp. Problemet ligger på en sten ca 50 m till v om stigen upp till väggen med Premier.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -4773,6 +5103,7 @@
       "type": "Krimp,Mantling,Aréte",
       "firstAscent": "Per Wermelin",
       "description": "Följ kanten upp åt höger. Avsluta rakt upp där stenen är som högst. Ligger ca 4 m till v om Singel i busken.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"
@@ -4788,6 +5119,7 @@
       "type": "Krimp,Slopers",
       "firstAscent": "Jörgen Åsberg Boija",
       "description": "Sittstart där Razors edge startar. Går rakt upp.",
+      "sectorId": "pyramidblocket",
       "source": {
         "id": "legacy:bergafjarden",
         "path": "mediawiki/Bergafjärden.txt"

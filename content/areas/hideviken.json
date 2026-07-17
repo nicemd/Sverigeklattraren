@@ -53,6 +53,7 @@
       "type": "",
       "firstAscent": "David Skoog -13",
       "description": "Sittstart med två ganska fina grepp. Rakt upp.",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:hideviken",
         "path": "mediawiki/Hideviken.txt"
@@ -68,6 +69,7 @@
       "type": "",
       "firstAscent": "Felix Lorentzén -13",
       "description": "Sittstart med två ganska fina grepp. Rakt upp.",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:hideviken",
         "path": "mediawiki/Hideviken.txt"
@@ -83,6 +85,7 @@
       "type": "",
       "firstAscent": "Malte Åberg -13",
       "description": "Sittstart med sidogrepp för höger och crimp för vänster. Sen upp med tydliga slopes och pockets.",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:hideviken",
         "path": "mediawiki/Hideviken.txt"
@@ -98,6 +101,7 @@
       "type": "",
       "firstAscent": "Per Bäckström -12",
       "description": "Långt till vänster, några meter från nedstigningen. Sittstart och vidare rakt upp på bra grepp, urtoppning.",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:hideviken",
         "path": "mediawiki/Hideviken.txt"
@@ -113,6 +117,7 @@
       "type": "",
       "firstAscent": "Martin Sjölin -13",
       "description": "Sittstart",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:hideviken",
         "path": "mediawiki/Hideviken.txt"
@@ -128,6 +133,7 @@
       "type": "",
       "firstAscent": "Martin Sjölin -13",
       "description": "Start in the big hold in the middle of the roof and reach for the edge. Varning! The big flake at the top-out might not hold. Go up on the left.",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:hideviken",
         "path": "mediawiki/Hideviken.txt"
@@ -143,6 +149,7 @@
       "type": "",
       "firstAscent": "Magnus Nilsson -13",
       "description": "Ståstart på hyllan och rakt ut.",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:hideviken",
         "path": "mediawiki/Hideviken.txt"
@@ -158,6 +165,7 @@
       "type": "",
       "firstAscent": "Helena Lundgren -13",
       "description": "Högersidan på det stora utskjutande blocket ovanför grillplatsen.",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:hideviken",
         "path": "mediawiki/Hideviken.txt"
@@ -167,8 +175,9 @@
   "images": [
     {
       "filename": "Översikt_Hideviken.jpg",
-      "caption": "600px",
-      "missing": false
+      "caption": "",
+      "missing": false,
+      "sectorId": null
     }
   ],
   "access": {

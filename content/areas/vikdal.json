@@ -25,6 +25,16 @@
       "body": "titel=Vikdal lat=18151630 long=59315210 Värmdöleden till Jarlaberg. Korsa motorvägen och ta vänster på Vikdalsvägen. Följ vägen i 700 m till dess slut."
     },
     {
+      "id": "leder",
+      "title": "Leder",
+      "body": ""
+    },
+    {
+      "id": "vandplanen",
+      "title": "Vändplanen",
+      "body": ""
+    },
+    {
       "id": "ovre-vaggen",
       "title": "Övre väggen",
       "body": "Senast jag åkte förbi var det ett nybyggt hus nedanför denna vägg. Kategori:Mix Kategori:Nacka-Värmdö Kategori:Stockholm"
@@ -41,6 +51,7 @@
       "type": "mix",
       "firstAscent": "Anders Lundahl, Eva Selin-90",
       "description": "",
+      "sectorId": "vandplanen",
       "source": {
         "id": "legacy:vikdal",
         "path": "mediawiki/Vikdal.txt"
@@ -56,6 +67,7 @@
       "type": "",
       "firstAscent": "Eva Selin, Anders Lundahl-90",
       "description": "",
+      "sectorId": "vandplanen",
       "source": {
         "id": "legacy:vikdal",
         "path": "mediawiki/Vikdal.txt"
@@ -71,6 +83,7 @@
       "type": "mix",
       "firstAscent": "Eva Selin, Anders Lundahl-90",
       "description": "",
+      "sectorId": "vandplanen",
       "source": {
         "id": "legacy:vikdal",
         "path": "mediawiki/Vikdal.txt"
@@ -86,6 +99,7 @@
       "type": "",
       "firstAscent": "Eva Selin, Anders Lundahl-90",
       "description": "",
+      "sectorId": "ovre-vaggen",
       "source": {
         "id": "legacy:vikdal",
         "path": "mediawiki/Vikdal.txt"
@@ -101,6 +115,7 @@
       "type": "",
       "firstAscent": "Anders Lundahl-90",
       "description": "",
+      "sectorId": "ovre-vaggen",
       "source": {
         "id": "legacy:vikdal",
         "path": "mediawiki/Vikdal.txt"
@@ -116,6 +131,7 @@
       "type": "",
       "firstAscent": "Johan Luhr-92",
       "description": "",
+      "sectorId": "ovre-vaggen",
       "source": {
         "id": "legacy:vikdal",
         "path": "mediawiki/Vikdal.txt"
@@ -131,6 +147,7 @@
       "type": "",
       "firstAscent": "Johan Luhr, Stefan Norman-90",
       "description": "",
+      "sectorId": "ovre-vaggen",
       "source": {
         "id": "legacy:vikdal",
         "path": "mediawiki/Vikdal.txt"
@@ -146,6 +163,7 @@
       "type": "trad",
       "firstAscent": "Daniel Bidner-90",
       "description": "",
+      "sectorId": "ovre-vaggen",
       "source": {
         "id": "legacy:vikdal",
         "path": "mediawiki/Vikdal.txt"
@@ -156,7 +174,8 @@
     {
       "filename": "Vikdal1_skiss.gif",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "vandplanen"
     }
   ],
   "access": {

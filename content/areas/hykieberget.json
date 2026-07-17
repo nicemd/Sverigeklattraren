@@ -35,6 +35,11 @@
       "body": "Det är inte tillåtet att tälta vid slogboden i reservatet. En bra tältplats med eldstad finns i en glänta ovanför . Om man inte orkar bära tältet upp på berget så går det utmärkt att tälta vid parkeringen. Det finns inget vatten varken uppe på berget eller vid parkeringen så medtag dunk. Nere i Älvdalen finns möjlighet att bo på camping eller vandrarhem http://www.destination-alvdalen.se/"
     },
     {
+      "id": "access",
+      "title": "Access",
+      "body": ""
+    },
+    {
       "id": "rekommenderade-leder",
       "title": "Rekommenderade leder",
       "body": "Lederna uppräknade från vänster till höger. Följande leder startar från den stora rampen till höger om \"Zaphod\", på den s.k. \"lilla väggen\" och nås lämpligast genom firning ovanifrån. Även möjligt att slemma upp nedifrån. Till höger om lilla väggen ligger en sidovägg där rampen slutar. Här går det två leder."
@@ -56,6 +61,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "",
+      "sectorId": "rekommenderade-leder",
       "source": {
         "id": "legacy:hykieberget",
         "path": "mediawiki/Hykieberget.txt"
@@ -71,6 +77,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "",
+      "sectorId": "rekommenderade-leder",
       "source": {
         "id": "legacy:hykieberget",
         "path": "mediawiki/Hykieberget.txt"
@@ -86,6 +93,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "",
+      "sectorId": "rekommenderade-leder",
       "source": {
         "id": "legacy:hykieberget",
         "path": "mediawiki/Hykieberget.txt"
@@ -101,6 +109,7 @@
       "type": "mix",
       "firstAscent": "",
       "description": "",
+      "sectorId": "rekommenderade-leder",
       "source": {
         "id": "legacy:hykieberget",
         "path": "mediawiki/Hykieberget.txt"
@@ -116,6 +125,7 @@
       "type": "mix",
       "firstAscent": "",
       "description": "",
+      "sectorId": "rekommenderade-leder",
       "source": {
         "id": "legacy:hykieberget",
         "path": "mediawiki/Hykieberget.txt"
@@ -131,6 +141,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "",
+      "sectorId": "rekommenderade-leder",
       "source": {
         "id": "legacy:hykieberget",
         "path": "mediawiki/Hykieberget.txt"
@@ -146,6 +157,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "",
+      "sectorId": "rekommenderade-leder",
       "source": {
         "id": "legacy:hykieberget",
         "path": "mediawiki/Hykieberget.txt"
@@ -161,6 +173,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "",
+      "sectorId": "rekommenderade-leder",
       "source": {
         "id": "legacy:hykieberget",
         "path": "mediawiki/Hykieberget.txt"
@@ -176,6 +189,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "",
+      "sectorId": "rekommenderade-leder",
       "source": {
         "id": "legacy:hykieberget",
         "path": "mediawiki/Hykieberget.txt"
@@ -191,6 +205,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "",
+      "sectorId": "rekommenderade-leder",
       "source": {
         "id": "legacy:hykieberget",
         "path": "mediawiki/Hykieberget.txt"
@@ -206,6 +221,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "",
+      "sectorId": "rekommenderade-leder",
       "source": {
         "id": "legacy:hykieberget",
         "path": "mediawiki/Hykieberget.txt"
@@ -221,6 +237,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "",
+      "sectorId": "rekommenderade-leder",
       "source": {
         "id": "legacy:hykieberget",
         "path": "mediawiki/Hykieberget.txt"
@@ -236,6 +253,7 @@
       "type": "mix",
       "firstAscent": "",
       "description": "",
+      "sectorId": "rekommenderade-leder",
       "source": {
         "id": "legacy:hykieberget",
         "path": "mediawiki/Hykieberget.txt"
@@ -251,6 +269,7 @@
       "type": "mix",
       "firstAscent": "",
       "description": "",
+      "sectorId": "rekommenderade-leder",
       "source": {
         "id": "legacy:hykieberget",
         "path": "mediawiki/Hykieberget.txt"
@@ -266,6 +285,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "",
+      "sectorId": "rekommenderade-leder",
       "source": {
         "id": "legacy:hykieberget",
         "path": "mediawiki/Hykieberget.txt"
@@ -281,6 +301,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "",
+      "sectorId": "rekommenderade-leder",
       "source": {
         "id": "legacy:hykieberget",
         "path": "mediawiki/Hykieberget.txt"
@@ -289,7 +310,7 @@
   ],
   "images": [],
   "access": {
-    "legacyText": "Hykieberget är akut hotat av totalt klätterförbud och det är av yttersta vikt att alla klättrare följer nedanstående föreskrifter. Klättring är ej tillåten på stora väggen (allt nedanför räcket) och samtliga väggar till höger om denna nedanifrån sett. Den högraste tillåtna leden är , reservatsgränsen är tydligt markerad vid foten av klippan. Lederna Götterdämung och Impotens som beskrivs i boken \"Klättring i Sverige\" ligger inom reservatet och får ej klättras! För inte onödigt oväsen, rensa inte, bulta inte, ta med allt skräp hem och använd befintliga stigar. Markägaren tillåter klättring men är inte direkt överförtjust i det. Respektera avstängning av vägen i samband med tjällossning.",
+    "legacyText": null,
     "federationSlug": "hykieberget"
   },
   "qualityIssues": [],

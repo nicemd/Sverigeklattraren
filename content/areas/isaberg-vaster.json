@@ -60,6 +60,7 @@
       "type": "trad",
       "firstAscent": "namn på fa -08",
       "description": "ledbeskrivning",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:isaberg-vaster",
         "path": "mediawiki/Isaberg Väster.txt"
@@ -70,17 +71,20 @@
     {
       "filename": "Isabergutsikt.jpg",
       "caption": "Milsvid utsikt att njuta av medan man säkrar",
-      "missing": false
+      "missing": false,
+      "sectorId": null
     },
     {
       "filename": "Isabergvasterklippa.jpg",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "information"
     },
     {
       "filename": "Isabergboulder.jpg",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "bouldering"
     }
   ],
   "access": {

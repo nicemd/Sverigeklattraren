@@ -28,6 +28,11 @@
       "body": "Liten klippa som ingen klättrar på. Finns tre bultade leder."
     },
     {
+      "id": "bild",
+      "title": "Bild",
+      "body": ""
+    },
+    {
       "id": "kollektivtrafik",
       "title": "Kollektivtrafik",
       "body": "Akkas gata är väl närmast/bästa hållplatsen. Dock är det lättare att hitta klippan ifrån Olshammarsgatan. Ifrån hållplats Olshammarsgatan, gå upp längs med Plockerotsvägen, sväng höger in i skogen (i riktning mot ängen du precis har passerat). Klippan dyker snart upp."
@@ -54,6 +59,7 @@
       "type": "trad",
       "firstAscent": "namn på fa -08",
       "description": "ledbeskrivning",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:backadalen",
         "path": "mediawiki/Backadalen.txt"
@@ -69,6 +75,7 @@
       "type": "aid",
       "firstAscent": "Michel Blomgren",
       "description": "\"Kommentar: En aid highball om man så vill, inget att ha egentligen. Går till vänster om den \"stora\" väggen mellan offwidth-sprickan och \"en-bults-leden\". Tunna sprickor, bra lister och eventuellt en björk. Startar med kroppsviktsplaceringar. Ser tyvärr(?) lättare ut att friklättra än att aid:a. Följande prylar användes: 2 aluheads (5-6mm), 1 birdbeak, 1 BD Grappling hook, 1 Camalot #1, 1 Lost Arrow #1 Läge: Backadalenklippan (under \"övriga klippor\" i boken)\"",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:backadalen",
         "path": "mediawiki/Backadalen.txt"
@@ -78,8 +85,9 @@
   "images": [
     {
       "filename": "Oversiktsbild_backadalen.jpg",
-      "caption": "thumb",
-      "missing": false
+      "caption": "",
+      "missing": false,
+      "sectorId": "bild"
     }
   ],
   "access": {

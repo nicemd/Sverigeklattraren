@@ -32,6 +32,11 @@
       "body": "titel=Ekholmsnas lat=18209510 long=59362300 Med bil, åk Södra Kungsvägen och sedermera Gåshagaleden ut mot Käppala. Ca 500 m innan Käppala hpl, ta v (skylt Killinge) på Katrinelundsvägen och sedan v på Killingevägen. Följ denna till dess slut och ta h på Slånbärsvägen, som leder till en hårnålskurva. Ca 200 m efter kurvan, ta h ner på en liten grusväg som leder till vattnet och klippan. Parkering vid instegen!"
     },
     {
+      "id": "leder",
+      "title": "Leder",
+      "body": ""
+    },
+    {
       "id": "vanstervaggen",
       "title": "Vänsterväggen",
       "body": "Tidigare listad som osäkrad, vilket inte stämmer. Går att säkra bra med ett gäng småkammar typ 0.3 camalot och däromkring. Mossig och jordig led men ganska rolig klättring."
@@ -53,6 +58,7 @@
       "type": "mix",
       "firstAscent": "Marco Kupiainen, Mats Olofson, Jonas Paulsson -94",
       "description": "",
+      "sectorId": "vanstervaggen",
       "source": {
         "id": "legacy:ekholmsnas",
         "path": "mediawiki/Ekholmsnäs.txt"
@@ -68,6 +74,7 @@
       "type": "solo",
       "firstAscent": "Ludde Hagberg -94",
       "description": "",
+      "sectorId": "vanstervaggen",
       "source": {
         "id": "legacy:ekholmsnas",
         "path": "mediawiki/Ekholmsnäs.txt"
@@ -83,6 +90,7 @@
       "type": "mix",
       "firstAscent": "Ludde Hagberg -94",
       "description": "",
+      "sectorId": "vanstervaggen",
       "source": {
         "id": "legacy:ekholmsnas",
         "path": "mediawiki/Ekholmsnäs.txt"
@@ -98,6 +106,7 @@
       "type": "trad",
       "firstAscent": "Ludde Hagberg -94",
       "description": "",
+      "sectorId": "vanstervaggen",
       "source": {
         "id": "legacy:ekholmsnas",
         "path": "mediawiki/Ekholmsnäs.txt"
@@ -113,6 +122,7 @@
       "type": "sport",
       "firstAscent": "Jonas Paulsson, Ludde Hagberg -94",
       "description": "",
+      "sectorId": "huvudvaggen",
       "source": {
         "id": "legacy:ekholmsnas",
         "path": "mediawiki/Ekholmsnäs.txt"
@@ -128,6 +138,7 @@
       "type": "sport",
       "firstAscent": "Henrik Bolander-08",
       "description": "",
+      "sectorId": "huvudvaggen",
       "source": {
         "id": "legacy:ekholmsnas",
         "path": "mediawiki/Ekholmsnäs.txt"
@@ -143,6 +154,7 @@
       "type": "sport",
       "firstAscent": "Mats Olofson, Ludde Hagberg -94",
       "description": "",
+      "sectorId": "huvudvaggen",
       "source": {
         "id": "legacy:ekholmsnas",
         "path": "mediawiki/Ekholmsnäs.txt"
@@ -158,6 +170,7 @@
       "type": "sport",
       "firstAscent": "Johan Hvenmark, Jonas Paulsson -95",
       "description": "",
+      "sectorId": "huvudvaggen",
       "source": {
         "id": "legacy:ekholmsnas",
         "path": "mediawiki/Ekholmsnäs.txt"
@@ -173,6 +186,7 @@
       "type": "mix",
       "firstAscent": "Mats Olofson, Ludde Hagberg, Jonas Paulsson -94",
       "description": "",
+      "sectorId": "huvudvaggen",
       "source": {
         "id": "legacy:ekholmsnas",
         "path": "mediawiki/Ekholmsnäs.txt"
@@ -188,6 +202,7 @@
       "type": "mix",
       "firstAscent": "Jonas Paulsson, Ludde Hagberg -95",
       "description": "",
+      "sectorId": "huvudvaggen",
       "source": {
         "id": "legacy:ekholmsnas",
         "path": "mediawiki/Ekholmsnäs.txt"
@@ -203,6 +218,7 @@
       "type": "mix",
       "firstAscent": "Mats Olofson, Anders Karlsson, Jonas Paulsson -94",
       "description": "",
+      "sectorId": "huvudvaggen",
       "source": {
         "id": "legacy:ekholmsnas",
         "path": "mediawiki/Ekholmsnäs.txt"
@@ -218,6 +234,7 @@
       "type": "trad",
       "firstAscent": "Jonas Paulsson, Ludde Hagberg, Claes Thornberg -94",
       "description": "",
+      "sectorId": "huvudvaggen",
       "source": {
         "id": "legacy:ekholmsnas",
         "path": "mediawiki/Ekholmsnäs.txt"
@@ -233,6 +250,7 @@
       "type": "mix",
       "firstAscent": "Mats Olofson, Claes Thornberg -94",
       "description": "",
+      "sectorId": "huvudvaggen",
       "source": {
         "id": "legacy:ekholmsnas",
         "path": "mediawiki/Ekholmsnäs.txt"
@@ -248,6 +266,7 @@
       "type": "trad",
       "firstAscent": "Henrik Bolander -95",
       "description": "",
+      "sectorId": "huvudvaggen",
       "source": {
         "id": "legacy:ekholmsnas",
         "path": "mediawiki/Ekholmsnäs.txt"
@@ -258,7 +277,8 @@
     {
       "filename": "Ekholmsnäs.png",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "leder"
     }
   ],
   "access": {

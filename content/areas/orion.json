@@ -49,6 +49,7 @@
       "type": "trad",
       "firstAscent": "Nils Bäckman -12",
       "description": "Uppenbar, kort, takspricka. Hand, fist och mitt emellan.",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:orion",
         "path": "mediawiki/Orion.txt"
@@ -64,6 +65,7 @@
       "type": "trad",
       "firstAscent": "Nils Bäckman -12",
       "description": "Harmonisk led med ett lite bökigare krux i bred spricka. Från högt startgrepp, långa sträckningar ut längs högerkanten. Efter några meter tar den vänstra sprickan vid - som sedan följs till toppen. Välsäkrad. Inga stora säkringsprylar nödvändiga.",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:orion",
         "path": "mediawiki/Orion.txt"
@@ -79,6 +81,7 @@
       "type": "trad",
       "firstAscent": "John Liungman och Jonas Lyckeghård -13",
       "description": "Areten höger om Betelgeuse.",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:orion",
         "path": "mediawiki/Orion.txt"
@@ -94,6 +97,7 @@
       "type": "trad",
       "firstAscent": "Ronny Ek -13",
       "description": "Rakt upp för facet, utan aréten till vänster.",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:orion",
         "path": "mediawiki/Orion.txt"
@@ -109,6 +113,7 @@
       "type": "trad",
       "firstAscent": "Erik Gustafsson och Per Larsson -13",
       "description": "Lite lös, men rätt fin och rätt välsäkrad. Innerhörn först, sen låta bli att kliva ut vänster på stora hyllan, sen bred spricka / ytterhörn rakt upp.",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:orion",
         "path": "mediawiki/Orion.txt"
@@ -124,6 +129,7 @@
       "type": "",
       "firstAscent": "",
       "description": "Otroligt inbjudande greppklättring längs högersidan med dragning vänster upp mot taket som pryds av en otroligt fin horisontell takspricka.",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:orion",
         "path": "mediawiki/Orion.txt"
@@ -139,6 +145,7 @@
       "type": "",
       "firstAscent": "Linus Svensson -12",
       "description": "Grepp och layback till det kristallrika bältet. Sedan en något överhängande spricka till toppen.",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:orion",
         "path": "mediawiki/Orion.txt"
@@ -154,6 +161,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "Sprickan strax till höger om Orions bälte.",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:orion",
         "path": "mediawiki/Orion.txt"
@@ -164,7 +172,8 @@
     {
       "filename": "Miljo_bild_orion.jpg",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "miljo"
     }
   ],
   "access": {

@@ -48,6 +48,7 @@
       "type": "Aid",
       "firstAscent": "Ola Modéer -08",
       "description": "Följ den fantastiska sprickan",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:aryd",
         "path": "mediawiki/Åryd.txt"
@@ -58,17 +59,20 @@
     {
       "filename": "Vägbeskrivning_NY.jpg",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "vagbeskrivning"
     },
     {
       "filename": "Aidlinjen.jpg",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "leder"
     },
     {
       "filename": "Brant.jpg",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "leder"
     }
   ],
   "access": {

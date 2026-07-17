@@ -19,6 +19,11 @@
   ],
   "sections": [
     {
+      "id": "oppalaklippan",
+      "title": "Oppalaklippan",
+      "body": ""
+    },
+    {
       "id": "fire-away",
       "title": "Fire Away",
       "body": "För att komma till denna sektorn svänger du vänster mot Oppala i Björke. Efter ca 20m svänger du av till höger, följ denna väg förbi husen. Efter ca 1,5 km så ser du blocken på vänstersidan inne i skogen."
@@ -50,6 +55,7 @@
       "type": "Krimp,Highball",
       "firstAscent": "Staffan Hemström",
       "description": "Går till höger om CH brinner på \"Nya klippan\". Kan säkras med två bultar.",
+      "sectorId": "oppalaklippan",
       "source": {
         "id": "legacy:oppala",
         "path": "mediawiki/Oppala.txt"
@@ -65,6 +71,7 @@
       "type": "Slopers,Slab",
       "firstAscent": "Staffan",
       "description": "Ligger bredvid repklippan. Startar mitt på väggen, därefter snett upp höger via tvärsprickan och kristaller. Slabbfest.",
+      "sectorId": "oppalaklippan",
       "source": {
         "id": "legacy:oppala",
         "path": "mediawiki/Oppala.txt"
@@ -80,6 +87,7 @@
       "type": "Krimp",
       "firstAscent": "Maria Olsson",
       "description": "Sprickorna på höger och vänster är uteslutna. Går till vänster på skogsklippan i Oppala.",
+      "sectorId": "oppalaklippan",
       "source": {
         "id": "legacy:oppala",
         "path": "mediawiki/Oppala.txt"
@@ -95,6 +103,7 @@
       "type": "Travers V->H,Jug,Spricka",
       "firstAscent": "Staffan Hemström",
       "description": "Problemet ligger på södra boulderväggen, den första du ser när du kommer från parkeringen. Starta sittande på hörnet, endast sprickan.",
+      "sectorId": "oppalaklippan",
       "source": {
         "id": "legacy:oppala",
         "path": "mediawiki/Oppala.txt"
@@ -110,6 +119,7 @@
       "type": "Krimp,Heel hook",
       "firstAscent": "Daniel Hultgren",
       "description": "Går på \"Fire Away blocket\", längst ute till vänster.",
+      "sectorId": "fire-away",
       "source": {
         "id": "legacy:oppala",
         "path": "mediawiki/Oppala.txt"
@@ -125,6 +135,7 @@
       "type": "Överhäng,Jug",
       "firstAscent": "Daniel Hultgren",
       "description": "Går till vänster om \"Fire Away\".",
+      "sectorId": "fire-away",
       "source": {
         "id": "legacy:oppala",
         "path": "mediawiki/Oppala.txt"
@@ -140,6 +151,7 @@
       "type": "Slopers,Pinch,Överhäng",
       "firstAscent": "Daniel Hultgren",
       "description": "Krimpen ute till vänster efter taket är utesluten, gå direkt över taket via slopern.",
+      "sectorId": "fire-away",
       "source": {
         "id": "legacy:oppala",
         "path": "mediawiki/Oppala.txt"
@@ -155,6 +167,7 @@
       "type": "Krimp,Slopers",
       "firstAscent": "Daniel Hultgren",
       "description": "Låg start på två små krimpar. Går på \"Fire Away blocket\" till höger om \"Freakin´you out\".",
+      "sectorId": "fire-away",
       "source": {
         "id": "legacy:oppala",
         "path": "mediawiki/Oppala.txt"
@@ -170,6 +183,7 @@
       "type": "Jug",
       "firstAscent": "Daniel Hultgren",
       "description": "Går på \"Fire Away blocket\" på baksidan mot skogen.",
+      "sectorId": "fire-away",
       "source": {
         "id": "legacy:oppala",
         "path": "mediawiki/Oppala.txt"
@@ -185,6 +199,7 @@
       "type": "Krimp,Jug",
       "firstAscent": "Daniel Hultgren",
       "description": "Går på \"Fire Away blocket\" på baksidan mot skogen.",
+      "sectorId": "fire-away",
       "source": {
         "id": "legacy:oppala",
         "path": "mediawiki/Oppala.txt"
@@ -200,6 +215,7 @@
       "type": "Slopers,Jug",
       "firstAscent": "David Hallman",
       "description": "Gå snett uppåt höger.",
+      "sectorId": "fire-away",
       "source": {
         "id": "legacy:oppala",
         "path": "mediawiki/Oppala.txt"
@@ -215,6 +231,7 @@
       "type": "Krimp,Slopers,Mantling",
       "firstAscent": "David Hallman",
       "description": "Till höger om \"Fire Away\"",
+      "sectorId": "fire-away",
       "source": {
         "id": "legacy:oppala",
         "path": "mediawiki/Oppala.txt"
@@ -230,6 +247,7 @@
       "type": "Mantling,Överhäng",
       "firstAscent": "David Hallman",
       "description": "Till höger om \"Fire Away\"",
+      "sectorId": "fire-away",
       "source": {
         "id": "legacy:oppala",
         "path": "mediawiki/Oppala.txt"
@@ -245,6 +263,7 @@
       "type": "Krimp,Pinch",
       "firstAscent": "Mattias Flodin",
       "description": "",
+      "sectorId": "fire-away",
       "source": {
         "id": "legacy:oppala",
         "path": "mediawiki/Oppala.txt"
@@ -260,6 +279,7 @@
       "type": "Krimp,Slopers",
       "firstAscent": "David Hallman",
       "description": "Sittstart. Till hö om Fire away",
+      "sectorId": "fire-away",
       "source": {
         "id": "legacy:oppala",
         "path": "mediawiki/Oppala.txt"
@@ -275,6 +295,7 @@
       "type": "Krimp",
       "firstAscent": "David Hallman",
       "description": "Ligger på det lilla blocket vid stigen, nära \"Hugo\" blocket. Sittstart vid areten sen snett åt vänster och uppåt.",
+      "sectorId": "hugo",
       "source": {
         "id": "legacy:oppala",
         "path": "mediawiki/Oppala.txt"
@@ -290,6 +311,7 @@
       "type": "Krimp,Slopers,Överhäng",
       "firstAscent": "David Hallman",
       "description": "Går på \"Hugoblocket\". Vänstra delen av \"Hugo\" taket, sittstart under taket, upp längs den vänstra aréten.",
+      "sectorId": "hugo",
       "source": {
         "id": "legacy:oppala",
         "path": "mediawiki/Oppala.txt"
@@ -305,6 +327,7 @@
       "type": "Slopers,Överhäng,Jug",
       "firstAscent": "David Hallman",
       "description": "Sittstart under taket och upp igenom högra sidan av taket. Gå rakt igenom taket och ta greppet på läppen innan du går runt kanten till höger.",
+      "sectorId": "hugo",
       "source": {
         "id": "legacy:oppala",
         "path": "mediawiki/Oppala.txt"
@@ -320,6 +343,7 @@
       "type": "Highball,Aréte",
       "firstAscent": "David Hallman",
       "description": "Baksidan av \"Hugo\" blocket, vänstra aréten.",
+      "sectorId": "hugo",
       "source": {
         "id": "legacy:oppala",
         "path": "mediawiki/Oppala.txt"
@@ -335,6 +359,7 @@
       "type": "Krimp,Överhäng",
       "firstAscent": "David Hallman",
       "description": "Går på \"Hugoblocket\" till vänster om \"Kill-O-Zap\". Starta med v hand på lilla greppet till vänster, hoppa med h hand till krimpen. Gå rakt upp inte ut på aréten.",
+      "sectorId": "hugo",
       "source": {
         "id": "legacy:oppala",
         "path": "mediawiki/Oppala.txt"
@@ -350,6 +375,7 @@
       "type": "Krimp,Spricka",
       "firstAscent": "Daniel Hultgren",
       "description": "Går på baksidan av \"Hugo blocket\". Tydliga linjen mitt på väggen.",
+      "sectorId": "hugo",
       "source": {
         "id": "legacy:oppala",
         "path": "mediawiki/Oppala.txt"
@@ -365,6 +391,7 @@
       "type": "Överhäng",
       "firstAscent": "David Hallman",
       "description": "Ligger på blocket nere vid åkern, från \"Hugo\" blocket följ åkerkanten ca 100m. Sittstart vid överhänget till vänster om granen.",
+      "sectorId": "hugo",
       "source": {
         "id": "legacy:oppala",
         "path": "mediawiki/Oppala.txt"
@@ -380,6 +407,7 @@
       "type": "Slopers,Travers V->H",
       "firstAscent": "David Hallman",
       "description": "Ligger på ett mindre block bredvid det stora blocket högst uppe på kullen. Sittstart till vänster följ kanten till höger.",
+      "sectorId": "hugo",
       "source": {
         "id": "legacy:oppala",
         "path": "mediawiki/Oppala.txt"
@@ -395,6 +423,7 @@
       "type": "Slopers,Överhäng",
       "firstAscent": "David Hallman",
       "description": "Samma start som \"Hugo\" följ sedan rampen åt vänster genom taket och toppa ut rakt genom taket.",
+      "sectorId": "hugo",
       "source": {
         "id": "legacy:oppala",
         "path": "mediawiki/Oppala.txt"
@@ -410,6 +439,7 @@
       "type": "Krimp",
       "firstAscent": "David Hallman",
       "description": "Ligger på stora blocket uppe på kullen bredvid \"Hugoblocket\", under kojan. Går inte upp över kanten slutar på sista stora juggen.",
+      "sectorId": "hugo",
       "source": {
         "id": "legacy:oppala",
         "path": "mediawiki/Oppala.txt"
@@ -425,6 +455,7 @@
       "type": "Krimp,Reach",
       "firstAscent": "Daniel Hultgren",
       "description": "Ligger på samma block som \"Bilbo\" bredvid det stora blocket högst uppe på kullen. Sittstart mitt på väggen och rakt upp.",
+      "sectorId": "hugo",
       "source": {
         "id": "legacy:oppala",
         "path": "mediawiki/Oppala.txt"
@@ -440,6 +471,7 @@
       "type": "Krimp,Överhäng",
       "firstAscent": "David Hallman",
       "description": "Ligger på stora blocket högst uppe på kullen. Sittstart vid trädet upp och till höger, sluta på en stor jug ute vid aréten.",
+      "sectorId": "hugo",
       "source": {
         "id": "legacy:oppala",
         "path": "mediawiki/Oppala.txt"
@@ -455,6 +487,7 @@
       "type": "Krimp,Slopers,Highball",
       "firstAscent": "Mattias Flodin",
       "description": "Ligger på stora blocket högst uppe på kullen. Starta till vänster om tallen gå upp och till höger. Toppa ut via sprickan.",
+      "sectorId": "hugo",
       "source": {
         "id": "legacy:oppala",
         "path": "mediawiki/Oppala.txt"
@@ -470,6 +503,7 @@
       "type": "Krimp,Highball",
       "firstAscent": "Mattias Flodin",
       "description": "Sittstart under taket.",
+      "sectorId": "hugo",
       "source": {
         "id": "legacy:oppala",
         "path": "mediawiki/Oppala.txt"
@@ -485,6 +519,7 @@
       "type": "Krimp,Highball",
       "firstAscent": "Thomas Hultman, Ronny Andersson",
       "description": "Går på höga svasidan på samma block som Bilbo",
+      "sectorId": "hugo",
       "source": {
         "id": "legacy:oppala",
         "path": "mediawiki/Oppala.txt"
@@ -500,6 +535,7 @@
       "type": "Mantling,Jug",
       "firstAscent": "Thomas Hultman",
       "description": "Samma sten som HUGO men till vänster om granen. etabl. med båda händerna på vänstra juggen. mantla upp på avsatsen och balansera vidare mot toppen. Lätt problem om du orkar mantla.",
+      "sectorId": "hugo",
       "source": {
         "id": "legacy:oppala",
         "path": "mediawiki/Oppala.txt"
@@ -515,6 +551,7 @@
       "type": "Aréte",
       "firstAscent": "David Hallman Ronny Andersson",
       "description": "Samma block som \"Bilbo\", aréten till höger om denna.",
+      "sectorId": "hugo",
       "source": {
         "id": "legacy:oppala",
         "path": "mediawiki/Oppala.txt"
@@ -530,6 +567,7 @@
       "type": "Krimp",
       "firstAscent": "Mattias Flodin",
       "description": "Ligger på stora blocket på toppen av kullen. Till vänster om \"väsen\", start på gröna prickar.",
+      "sectorId": "hugo",
       "source": {
         "id": "legacy:oppala",
         "path": "mediawiki/Oppala.txt"
@@ -545,6 +583,7 @@
       "type": "Slopers,Spricka",
       "firstAscent": "Mattias Flodin",
       "description": "Stora blocket i Oppala. Starta på stenen till hö om \"Hero\". Rakt upp.",
+      "sectorId": "hugo",
       "source": {
         "id": "legacy:oppala",
         "path": "mediawiki/Oppala.txt"
@@ -560,6 +599,7 @@
       "type": "Layback",
       "firstAscent": "David Hallman",
       "description": "Ligger till hö om \"Kung fu\". Samma slutgrepp",
+      "sectorId": "hugo",
       "source": {
         "id": "legacy:oppala",
         "path": "mediawiki/Oppala.txt"
@@ -575,6 +615,7 @@
       "type": "Krimp",
       "firstAscent": "Mattias Flodin",
       "description": "Problemet ligger på stora stenen i oppala, till höger om \"väsen\"",
+      "sectorId": "hugo",
       "source": {
         "id": "legacy:oppala",
         "path": "mediawiki/Oppala.txt"
@@ -590,6 +631,7 @@
       "type": "Slopers,Överhäng,Jug",
       "firstAscent": "David Hallman",
       "description": "Samma problem som Hugo men utan uteslutningar, dvs det är ok att runda högerkanten från greppet mitt i taket.",
+      "sectorId": "hugo",
       "source": {
         "id": "legacy:oppala",
         "path": "mediawiki/Oppala.txt"
@@ -605,6 +647,7 @@
       "type": "Överhäng,Aréte",
       "firstAscent": "Mattias Flodin",
       "description": "Går på baksidan av hugo blocket. Starta på gröna prickar, skick arete till vänster. sedan rakt upp.",
+      "sectorId": "hugo",
       "source": {
         "id": "legacy:oppala",
         "path": "mediawiki/Oppala.txt"
@@ -620,6 +663,7 @@
       "type": "Överhäng,Highball",
       "firstAscent": "Jon Smedsaas",
       "description": "Stora blocket i Oppala. Låg sittstart till Pride, utan att sitta på stenen.",
+      "sectorId": "hugo",
       "source": {
         "id": "legacy:oppala",
         "path": "mediawiki/Oppala.txt"
@@ -635,6 +679,7 @@
       "type": "Krimp",
       "firstAscent": "Mattias Flodin",
       "description": "Sittstarten till Oväsen",
+      "sectorId": "hugo",
       "source": {
         "id": "legacy:oppala",
         "path": "mediawiki/Oppala.txt"
@@ -650,6 +695,7 @@
       "type": "Highball",
       "firstAscent": "M Flodin",
       "description": "Till höger om Pride. Den galanta spricklinjen",
+      "sectorId": "hugo",
       "source": {
         "id": "legacy:oppala",
         "path": "mediawiki/Oppala.txt"
@@ -665,6 +711,7 @@
       "type": "Krimp",
       "firstAscent": "David Hallman",
       "description": "Ligger på det första blocket man kommer till efter att man svängt av mot Linskäkten, till vänster inne i skogen. Ligger på baksidan av blocket. Start på två små krimpar.",
+      "sectorId": "linskakten",
       "source": {
         "id": "legacy:oppala",
         "path": "mediawiki/Oppala.txt"
@@ -680,6 +727,7 @@
       "type": "Slopers",
       "firstAscent": "David Hallman",
       "description": "Ligger på det första blocket man kommer till efter att man svängt av mot Linskäkten, till vänster inne i skogen. Till höger om \"Old man's crimp\"",
+      "sectorId": "linskakten",
       "source": {
         "id": "legacy:oppala",
         "path": "mediawiki/Oppala.txt"
@@ -695,6 +743,7 @@
       "type": "Slopers,Layback",
       "firstAscent": "Daniel Hultgren",
       "description": "Ligger på det första blocket man kommer till efter att man svängt av mot Linskäkten, till vänster inne i skogen. Följer aréten åt höger upp till \"slopkoppen\" sedan mantling.",
+      "sectorId": "linskakten",
       "source": {
         "id": "legacy:oppala",
         "path": "mediawiki/Oppala.txt"
@@ -710,6 +759,7 @@
       "type": "Mantling,Aréte",
       "firstAscent": "Daniel Hultgren",
       "description": "Ligger på det första blocket man kommer till efter att man svängt av mot Linskäkten, till vänster inne i skogen. Följer aréten åt vänster till stora \"slopkoppen\" sedan mantling.",
+      "sectorId": "linskakten",
       "source": {
         "id": "legacy:oppala",
         "path": "mediawiki/Oppala.txt"
@@ -725,6 +775,7 @@
       "type": "Slopers,Travers H->V",
       "firstAscent": "David Hallman",
       "description": "Ligger på det första blocket man kommer till efter att man svängt av mot Linskäkten, till vänster inne i skogen. Låg travers på baksidan av blocket.",
+      "sectorId": "linskakten",
       "source": {
         "id": "legacy:oppala",
         "path": "mediawiki/Oppala.txt"
@@ -740,6 +791,7 @@
       "type": "",
       "firstAscent": "David Hallman",
       "description": "Ligger på ett block på andra sidan vägen från \"Salut\" blocket. Det vänstra problemet på blocket.",
+      "sectorId": "linskakten",
       "source": {
         "id": "legacy:oppala",
         "path": "mediawiki/Oppala.txt"
@@ -755,6 +807,7 @@
       "type": "",
       "firstAscent": "David Hallman",
       "description": "Ligger på blocket inne i skogen på andra sidan vägen från \"Salut\" blocket. Problemet till höger på blocket.",
+      "sectorId": "linskakten",
       "source": {
         "id": "legacy:oppala",
         "path": "mediawiki/Oppala.txt"
@@ -770,6 +823,7 @@
       "type": "Slopers",
       "firstAscent": "David Hallman",
       "description": "Ligger på jätte blocket vid ån.Nära linskäkten",
+      "sectorId": "linskakten",
       "source": {
         "id": "legacy:oppala",
         "path": "mediawiki/Oppala.txt"
@@ -785,6 +839,7 @@
       "type": "Krimp,Dyno",
       "firstAscent": "Mattias Flodin",
       "description": "Ligger vid linskäkten, på blocket vid vägen. Ståstart vid areten.",
+      "sectorId": "linskakten",
       "source": {
         "id": "legacy:oppala",
         "path": "mediawiki/Oppala.txt"
@@ -800,6 +855,7 @@
       "type": "Krimp,Slopers",
       "firstAscent": "David Hallman",
       "description": "Ligger vid linskäkten på blocket vid vägen. Sittstart till vänster på väggen vid den tydliga rampen, upp till kanten följ den till höger och toppa ut mitt på blocket.",
+      "sectorId": "linskakten",
       "source": {
         "id": "legacy:oppala",
         "path": "mediawiki/Oppala.txt"
@@ -815,6 +871,7 @@
       "type": "Slopers,Överhäng,Reach",
       "firstAscent": "David Hallman",
       "description": "",
+      "sectorId": "linskakten",
       "source": {
         "id": "legacy:oppala",
         "path": "mediawiki/Oppala.txt"
@@ -830,6 +887,7 @@
       "type": "Överhäng",
       "firstAscent": "Mattias Flodin",
       "description": "Börja på den tydliga hyllan till höger om \"Salut\" toppa ut på samma ställe.",
+      "sectorId": "linskakten",
       "source": {
         "id": "legacy:oppala",
         "path": "mediawiki/Oppala.txt"
@@ -845,6 +903,7 @@
       "type": "Krimp,Överhäng",
       "firstAscent": "Mattias Flodin",
       "description": "Variant på \"Fly in my eye\" starta på samma ställe gå upp utan att använda aréten.",
+      "sectorId": "linskakten",
       "source": {
         "id": "legacy:oppala",
         "path": "mediawiki/Oppala.txt"
@@ -860,6 +919,7 @@
       "type": "Krimp",
       "firstAscent": "David Hallman",
       "description": "Ligger vid Linskäkten, på stenen på högersida av vägen. Sittstart mitt på väggen, gå upp till vänster.",
+      "sectorId": "linskakten",
       "source": {
         "id": "legacy:oppala",
         "path": "mediawiki/Oppala.txt"
@@ -875,6 +935,7 @@
       "type": "Krimp",
       "firstAscent": "David Hallman",
       "description": "Fly and Cry blocket, på väggen till höger om \"Fly and Cry\", sittstart vid den högra aréten. Två finger crimp.",
+      "sectorId": "linskakten",
       "source": {
         "id": "legacy:oppala",
         "path": "mediawiki/Oppala.txt"
@@ -890,6 +951,7 @@
       "type": "Slopers",
       "firstAscent": "David Hallman",
       "description": "Fly and cry blocket, på andra sidan från \"Fly and Cry\". Problemet längst till höger på den sidan, sittstart och upp via slopiga grepp.",
+      "sectorId": "linskakten",
       "source": {
         "id": "legacy:oppala",
         "path": "mediawiki/Oppala.txt"
@@ -905,6 +967,7 @@
       "type": "Travers H->V",
       "firstAscent": "Mattias Flodin",
       "description": "starta som pingvinmannen, traversera vänster.ligger vid Linskäkten, stora blocket",
+      "sectorId": "linskakten",
       "source": {
         "id": "legacy:oppala",
         "path": "mediawiki/Oppala.txt"
@@ -920,6 +983,7 @@
       "type": "Överhäng",
       "firstAscent": "Mattias Flodin",
       "description": "Ett move från sittstart. Linskäkten",
+      "sectorId": "linskakten",
       "source": {
         "id": "legacy:oppala",
         "path": "mediawiki/Oppala.txt"
@@ -935,6 +999,7 @@
       "type": "Krimp",
       "firstAscent": "David Hallman",
       "description": "Fint problem som ligger mellan de stora blocken på ängen vid linskäkten, på det vänstra blocket, längst till höger ner mot ån.",
+      "sectorId": "linskakten",
       "source": {
         "id": "legacy:oppala",
         "path": "mediawiki/Oppala.txt"
@@ -950,6 +1015,7 @@
       "type": "Krimp",
       "firstAscent": "David Hallman",
       "description": "Ligger på Fly and Cry stenen, på andra sidan blocket från F&C, sittstart till vänster på väggen, gå snett uppåt höger via några små krimpar.",
+      "sectorId": "linskakten",
       "source": {
         "id": "legacy:oppala",
         "path": "mediawiki/Oppala.txt"
@@ -965,6 +1031,7 @@
       "type": "Överhäng",
       "firstAscent": "David Hallman",
       "description": "",
+      "sectorId": "linskakten",
       "source": {
         "id": "legacy:oppala",
         "path": "mediawiki/Oppala.txt"
@@ -980,6 +1047,7 @@
       "type": "Krimp,Slopers",
       "firstAscent": "David Hallman",
       "description": "På \"Fly and Cry\" blocket, på andra sidan från F&C, sittstart vid ett stort undercling, gå upp och åt vänster.",
+      "sectorId": "linskakten",
       "source": {
         "id": "legacy:oppala",
         "path": "mediawiki/Oppala.txt"
@@ -995,6 +1063,7 @@
       "type": "Dyno,Jug",
       "firstAscent": "Ronny A, Robert W",
       "description": "Starta på den övre listen, dyno till kanten. En toklång variant kan göras från den nedre listen.",
+      "sectorId": "linskakten",
       "source": {
         "id": "legacy:oppala",
         "path": "mediawiki/Oppala.txt"
@@ -1010,6 +1079,7 @@
       "type": "Överhäng,Jug",
       "firstAscent": "Patrick O, Ronny A",
       "description": "Starta vid pilarna i de tydliga \"inomhusgreppen\" gå upp åt höger och toppa ur rakt upp.",
+      "sectorId": "midgard",
       "source": {
         "id": "legacy:oppala",
         "path": "mediawiki/Oppala.txt"
@@ -1025,6 +1095,7 @@
       "type": "Krimp,Reach,Jug",
       "firstAscent": "Patrick O, Ronny A",
       "description": "Starta vid pilarna. Samma start som Skogens vänner, men gå rakt upp.",
+      "sectorId": "midgard",
       "source": {
         "id": "legacy:oppala",
         "path": "mediawiki/Oppala.txt"
@@ -1040,6 +1111,7 @@
       "type": "Reach,Jug",
       "firstAscent": "Patrick O, Ronny A",
       "description": "Problemet går vi gröna pilen. Starta vid vänstra aréten gå rakt upp via juggarna.",
+      "sectorId": "midgard",
       "source": {
         "id": "legacy:oppala",
         "path": "mediawiki/Oppala.txt"
@@ -1055,6 +1127,7 @@
       "type": "Dyno",
       "firstAscent": "Ronny A, Patrick O",
       "description": "Starta på översta juggen på Death in the shape..... Dyno till kanten.",
+      "sectorId": "midgard",
       "source": {
         "id": "legacy:oppala",
         "path": "mediawiki/Oppala.txt"
@@ -1070,6 +1143,7 @@
       "type": "Aréte,Reach,Jug",
       "firstAscent": "Patrick Olander",
       "description": "Går på det lilla blocket strax före vändplanen i Midgård. Går på den västra aréten på sidan som vätter mot vägen, starta på hyllan och sen rakt upp till kanten.",
+      "sectorId": "midgard",
       "source": {
         "id": "legacy:oppala",
         "path": "mediawiki/Oppala.txt"
@@ -1085,6 +1159,7 @@
       "type": "Krimp,Dyno,Reach",
       "firstAscent": "Patrick Olander",
       "description": "Startar till höger om (save it for the ladies) förslagsvis med pinch/sidepull för högerhanden och crimp för vänster och sedan rakt upp (se bild)",
+      "sectorId": "midgard",
       "source": {
         "id": "legacy:oppala",
         "path": "mediawiki/Oppala.txt"
@@ -1100,6 +1175,7 @@
       "type": "",
       "firstAscent": "Robert Westberg",
       "description": "Går till höger om P.L.Ä.P och använder pinchen från denna för vänsterhanden och crimp för högerhanden skicka med höger till sidepull/jug och ta dig sen över kanten.",
+      "sectorId": "midgard",
       "source": {
         "id": "legacy:oppala",
         "path": "mediawiki/Oppala.txt"
@@ -1115,6 +1191,7 @@
       "type": "Krimp,Highball",
       "firstAscent": "Patrick O, Tommi M",
       "description": "Går på det stora blocket vid vägen ca 100m innan vändplanen i midgård. ståstart ca 1m till höger om den vänstra aréten på sidan som vätter mot vägen. Rakt upp till toppen inga konstigheter.",
+      "sectorId": "midgard",
       "source": {
         "id": "legacy:oppala",
         "path": "mediawiki/Oppala.txt"
@@ -1130,6 +1207,7 @@
       "type": "Layback",
       "firstAscent": "Patrick Olander",
       "description": "Ta vänster innan vägen som går mot vändplanen i Midgård. efter ca 100m ta vänster igen in i skogen gå ca 70-80m och du ska se ett 5-6m högt block på höger sida, problemet går 1m från den vänstra aréten vid den gröna pilen. ståstart rakt upp till kanten.",
+      "sectorId": "midgard",
       "source": {
         "id": "legacy:oppala",
         "path": "mediawiki/Oppala.txt"
@@ -1145,6 +1223,7 @@
       "type": "Dyno,Aréte",
       "firstAscent": "Patrick O, Robert W",
       "description": "går på aréten till vänster om perts knogar,se perts knogar för info om var blocket ligger. Starta med händerna på de med grönt kryss markerade greppen och sen dyno till kanten eller sidepull strax under kanten. Används valfria grepp är graden 6B.",
+      "sectorId": "midgard",
       "source": {
         "id": "legacy:oppala",
         "path": "mediawiki/Oppala.txt"
@@ -1160,6 +1239,7 @@
       "type": "",
       "firstAscent": "David H",
       "description": "sons of guns blocket. traversen från janssons frestelse. Se bild på Sons of Guns problemt för att se hur fragglarna går.",
+      "sectorId": "midgard",
       "source": {
         "id": "legacy:oppala",
         "path": "mediawiki/Oppala.txt"
@@ -1175,6 +1255,7 @@
       "type": "Krimp,Slopers,Jug",
       "firstAscent": "Patrick O, Martin Pärt",
       "description": "Rakt up på aréten till vänster om S.U.W.U för info om blockets läge se S.U.W.U.",
+      "sectorId": "midgard",
       "source": {
         "id": "legacy:oppala",
         "path": "mediawiki/Oppala.txt"
@@ -1190,6 +1271,7 @@
       "type": "Krimp,Reach,Jug",
       "firstAscent": "Patrick O, Martin Pärt",
       "description": "Går vid aréten till höger om S.U.W.U aréten utesluten.",
+      "sectorId": "midgard",
       "source": {
         "id": "legacy:oppala",
         "path": "mediawiki/Oppala.txt"
@@ -1205,6 +1287,7 @@
       "type": "Slopers,Layback,Jug",
       "firstAscent": "Patrick O, Martin Pärt",
       "description": "Går på baksidan av S.U.W.U-blocket vid den högra aréten. sittstart vid grön pil först skick rakt, gå sen snett upp åt höger",
+      "sectorId": "midgard",
       "source": {
         "id": "legacy:oppala",
         "path": "mediawiki/Oppala.txt"
@@ -1220,6 +1303,7 @@
       "type": "Krimp",
       "firstAscent": "Patrick O, Robert W",
       "description": "Går på Sons of Guns blocket precis till höger om Sons of Guns. Starta till höger om taket vid pilen på sidepull och crimp. Gå sedan vänster och upp över taket.",
+      "sectorId": "midgard",
       "source": {
         "id": "legacy:oppala",
         "path": "mediawiki/Oppala.txt"
@@ -1235,6 +1319,7 @@
       "type": "Krimp,Överhäng,Highball",
       "firstAscent": "Patrick O",
       "description": "Starta under taket på Sons of Guns blocket och gå rakt upp genom taket. Aréten till vänster är utesluten.",
+      "sectorId": "midgard",
       "source": {
         "id": "legacy:oppala",
         "path": "mediawiki/Oppala.txt"
@@ -1250,6 +1335,7 @@
       "type": "Krimp,Reach",
       "firstAscent": "Ronny A",
       "description": "Går till höger om Jasså Janssons fre...... Starta på den lilla hyllan vid pilen, gå rakt upp till den stora rampen och följ den upp till höger. Avsluta med att mantla upp på jättehyllan. Lite morpho i starten.",
+      "sectorId": "midgard",
       "source": {
         "id": "legacy:oppala",
         "path": "mediawiki/Oppala.txt"
@@ -1265,6 +1351,7 @@
       "type": "Aréte,Jug",
       "firstAscent": "Ronny A",
       "description": "Går på stenen närmast järnvägen vid Sons of Guns blocket. Aréten mot järnvägen.",
+      "sectorId": "midgard",
       "source": {
         "id": "legacy:oppala",
         "path": "mediawiki/Oppala.txt"
@@ -1280,6 +1367,7 @@
       "type": "Jug",
       "firstAscent": "Janne A, Maria O",
       "description": "Går på det mindre blocket framför Sons of Guns blocket.Starta på juggen och följer sen kanten för att kliva upp sen.",
+      "sectorId": "midgard",
       "source": {
         "id": "legacy:oppala",
         "path": "mediawiki/Oppala.txt"
@@ -1295,6 +1383,7 @@
       "type": "Aréte",
       "firstAscent": "Janne A, Maria O",
       "description": "Går på ett block som ligger en bit bakom Sons of Guns blocket. Starta med vänstern på areten och höger på en list, gå vidare med högern på areten, matcha med vänstern, flytta högerhanden till listen som går lodrätt på högersida, och toppa upp.",
+      "sectorId": "midgard",
       "source": {
         "id": "legacy:oppala",
         "path": "mediawiki/Oppala.txt"
@@ -1310,6 +1399,7 @@
       "type": "Mantling,Överhäng,Jug",
       "firstAscent": "Ronny A",
       "description": "Går på Överhängsblocket. Starta sittande vid pilen nere i grottan. Händerna på den \"diagonala\" hyllan, gå snett upp åt vänster till jättehyllan. Skicka sedan till kanten.",
+      "sectorId": "midgard",
       "source": {
         "id": "legacy:oppala",
         "path": "mediawiki/Oppala.txt"
@@ -1325,6 +1415,7 @@
       "type": "Layback,Mantling",
       "firstAscent": "Ronny A",
       "description": "Går på överhängsblocket på aréten tll vänster om \"Överhäng\" följ aréten upp. Starta vid pilen.",
+      "sectorId": "midgard",
       "source": {
         "id": "legacy:oppala",
         "path": "mediawiki/Oppala.txt"
@@ -1340,6 +1431,7 @@
       "type": "Mantling,Överhäng",
       "firstAscent": "David Hallman",
       "description": "Startar sittande under ett brant överhäng.",
+      "sectorId": "midgard",
       "source": {
         "id": "legacy:oppala",
         "path": "mediawiki/Oppala.txt"
@@ -1355,6 +1447,7 @@
       "type": "Dyno",
       "firstAscent": "David Hallman",
       "description": "",
+      "sectorId": "midgard",
       "source": {
         "id": "legacy:oppala",
         "path": "mediawiki/Oppala.txt"
@@ -1370,6 +1463,7 @@
       "type": "Aréte",
       "firstAscent": "David Hallman",
       "description": "",
+      "sectorId": "midgard",
       "source": {
         "id": "legacy:oppala",
         "path": "mediawiki/Oppala.txt"
@@ -1385,6 +1479,7 @@
       "type": "Krimp,Slopers",
       "firstAscent": "David Hallman",
       "description": "",
+      "sectorId": "midgard",
       "source": {
         "id": "legacy:oppala",
         "path": "mediawiki/Oppala.txt"
@@ -1400,6 +1495,7 @@
       "type": "",
       "firstAscent": "David Hallman",
       "description": "",
+      "sectorId": "midgard",
       "source": {
         "id": "legacy:oppala",
         "path": "mediawiki/Oppala.txt"
@@ -1415,6 +1511,7 @@
       "type": "Krimp,Slopers,Slab",
       "firstAscent": "David Hallman",
       "description": "ganska kort men fint problem",
+      "sectorId": "midgard",
       "source": {
         "id": "legacy:oppala",
         "path": "mediawiki/Oppala.txt"
@@ -1430,6 +1527,7 @@
       "type": "",
       "firstAscent": "David Hallman",
       "description": "",
+      "sectorId": "midgard",
       "source": {
         "id": "legacy:oppala",
         "path": "mediawiki/Oppala.txt"
@@ -1445,6 +1543,7 @@
       "type": "",
       "firstAscent": "David Hallman",
       "description": "",
+      "sectorId": "midgard",
       "source": {
         "id": "legacy:oppala",
         "path": "mediawiki/Oppala.txt"

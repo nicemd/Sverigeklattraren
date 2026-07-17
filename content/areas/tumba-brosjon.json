@@ -49,6 +49,7 @@
       "type": "sport",
       "firstAscent": "Reino Liimatainen 20100904",
       "description": "Tung i början och slutet",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:tumba-brosjon",
         "path": "mediawiki/Tumba - Brosjön.txt"
@@ -64,6 +65,7 @@
       "type": "sport",
       "firstAscent": "Larry Valkama 20100904",
       "description": "Följer areten på slutet",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:tumba-brosjon",
         "path": "mediawiki/Tumba - Brosjön.txt"
@@ -74,7 +76,8 @@
     {
       "filename": "Brosjon.png",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "leder"
     }
   ],
   "access": {

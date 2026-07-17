@@ -3,7 +3,7 @@
   "id": "tullinge-skog",
   "slug": "tullinge-skog",
   "name": "Tullinge skog",
-  "description": "Vägbeskrivning här",
+  "description": "1 dokumenterade leder och problem.",
   "coordinates": {
     "latitude": 59.121,
     "longitude": 17.5458
@@ -14,6 +14,11 @@
     "Västra Södertörn"
   ],
   "sections": [
+    {
+      "id": "allmant",
+      "title": "Allmänt",
+      "body": ""
+    },
     {
       "id": "vagbeskrivning",
       "title": "Vägbeskrivning",
@@ -36,6 +41,7 @@
       "type": "trad",
       "firstAscent": "JL -11",
       "description": "Vid cykelvägen. Bra klippa.",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:tullinge-skog",
         "path": "mediawiki/Tullinge skog.txt"
@@ -45,8 +51,9 @@
   "images": [
     {
       "filename": "Tullingeskog.png",
-      "caption": "700px",
-      "missing": false
+      "caption": "",
+      "missing": false,
+      "sectorId": "leder"
     }
   ],
   "access": {

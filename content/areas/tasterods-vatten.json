@@ -23,6 +23,21 @@
       "id": "vagbeskrivning",
       "title": "Vägbeskrivning",
       "body": "Från Bärfendal mot Bovallstrand på väg 174. Höger mot Bottna och uppför en brant backe. Parkera på toppen av backen, vänster sida. Parkera så traktorn kan komma förbi. Fortsätt till fots på vägen och ta vänster vid binghultsskylten, på en traktorstig. Följ denna över ett kalhygge över en kulle och det går nedåt, mot Tåsteröds vatten. Berget ligger nedåt vänster och vetter söderut mot sjön."
+    },
+    {
+      "id": "access",
+      "title": "Access",
+      "body": ""
+    },
+    {
+      "id": "leder",
+      "title": "Leder",
+      "body": ""
+    },
+    {
+      "id": "fran-vanster",
+      "title": "Från vänster",
+      "body": ""
     }
   ],
   "routes": [
@@ -36,6 +51,7 @@
       "type": "trad",
       "firstAscent": "Ann-Sofie andersson",
       "description": "Tunn spricka på lilla väggen. Något svårsäkrad och intensiv i början. Rp`s kan hjälpa dig.",
+      "sectorId": "fran-vanster",
       "source": {
         "id": "legacy:tasterods-vatten",
         "path": "mediawiki/Tåsteröds vatten.txt"

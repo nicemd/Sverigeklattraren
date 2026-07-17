@@ -39,6 +39,7 @@
       "type": "trad",
       "firstAscent": "Fri: Kasper Berkowicz, Aid: Ola Modéer -12, -08",
       "description": "Brant boulder start som följs av en lättare spricka. Hyfsat säkrad, men akta hyllan. Ganska kort. Slutar vid tallen på den stora bilden. Tidigare brant aidlinje A1+, Ola Modéer -08.",
+      "sectorId": "lederna",
       "source": {
         "id": "legacy:bilprovningen",
         "path": "mediawiki/Bilprovningen.txt"
@@ -54,6 +55,7 @@
       "type": "trad",
       "firstAscent": "Fredrik Rapp -07",
       "description": "Fin och brant aidklättring som övergår till en tunn copperheadsöm på sva mot slutet. Någon rivet finns där denna tunnar ut helt.",
+      "sectorId": "lederna",
       "source": {
         "id": "legacy:bilprovningen",
         "path": "mediawiki/Bilprovningen.txt"
@@ -69,6 +71,7 @@
       "type": "sport",
       "firstAscent": "Patrik Gelin -95",
       "description": "Kanonhäftig och mycket brant sportklättring längs den överhängande sprickan. Ett måste för den hängivne och sydsvenske sportklättraren! Ankare. Etablerades av Mark Jansson i början på 90-talet, men den förste som klarade en bestigning var Patrik Gelin. Går även att klättra på egna säkringar...",
+      "sectorId": "lederna",
       "source": {
         "id": "legacy:bilprovningen",
         "path": "mediawiki/Bilprovningen.txt"
@@ -84,6 +87,7 @@
       "type": "sport",
       "firstAscent": "Johan Luhr -09?",
       "description": "Stabil centrallinje som anses mycket fin. Ankare.",
+      "sectorId": "lederna",
       "source": {
         "id": "legacy:bilprovningen",
         "path": "mediawiki/Bilprovningen.txt"
@@ -99,6 +103,7 @@
       "type": "sport",
       "firstAscent": "Johan Luhr -12",
       "description": "Variant om man inte har något annat att göra - Första halvan på Japp och sedan in i Gelin Karelin",
+      "sectorId": "lederna",
       "source": {
         "id": "legacy:bilprovningen",
         "path": "mediawiki/Bilprovningen.txt"
@@ -114,6 +119,7 @@
       "type": "sport",
       "firstAscent": "Johan Luhr -10",
       "description": "Skåne/Blekinges hårdaste led! Linjen forcerar klippans mest kompakta yta, utan att erbjuda allt för mycket respit.. Ankare.",
+      "sectorId": "lederna",
       "source": {
         "id": "legacy:bilprovningen",
         "path": "mediawiki/Bilprovningen.txt"
@@ -129,6 +135,7 @@
       "type": "sport",
       "firstAscent": "Johan Luhr -04",
       "description": "Fin linje som är knepigare än den ser ut. Ankare.",
+      "sectorId": "lederna",
       "source": {
         "id": "legacy:bilprovningen",
         "path": "mediawiki/Bilprovningen.txt"
@@ -144,6 +151,7 @@
       "type": "sport",
       "firstAscent": "Johan Luhr -12",
       "description": "Starta de två första bultarna som Dubbelt upp sedan snett vänster och upp.",
+      "sectorId": "lederna",
       "source": {
         "id": "legacy:bilprovningen",
         "path": "mediawiki/Bilprovningen.txt"
@@ -159,6 +167,7 @@
       "type": "sport",
       "firstAscent": "Johan Luhr -04",
       "description": "Kort linje långt till höger. Ankare.",
+      "sectorId": "lederna",
       "source": {
         "id": "legacy:bilprovningen",
         "path": "mediawiki/Bilprovningen.txt"
@@ -174,6 +183,7 @@
       "type": "sport",
       "firstAscent": "Johan Luhr -04",
       "description": "Kort linje längst till höger. Ankare.",
+      "sectorId": "lederna",
       "source": {
         "id": "legacy:bilprovningen",
         "path": "mediawiki/Bilprovningen.txt"
@@ -184,22 +194,26 @@
     {
       "filename": "IMG_4713.1.jpg",
       "caption": "Om du har ombesiktning på bilen så kan det vara lägligt att kombinera med lite fin sportklättring på klippan bredvid",
-      "missing": false
+      "missing": false,
+      "sectorId": null
     },
     {
       "filename": "Gelin_Karelin-1.jpg",
       "caption": "Bekväm \"roadside\" cragging. Micke Blixt hänger loss på [[Gelin Karelin",
-      "missing": false
+      "missing": false,
+      "sectorId": null
     },
     {
       "filename": "BIlprov1.jpg",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "lederna"
     },
     {
       "filename": "Bilprov2.jpg",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "lederna"
     }
   ],
   "access": {

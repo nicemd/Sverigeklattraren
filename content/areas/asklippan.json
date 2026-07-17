@@ -24,6 +24,21 @@
   ],
   "sections": [
     {
+      "id": "allmant",
+      "title": "Allmänt",
+      "body": ""
+    },
+    {
+      "id": "vagbeskrivning",
+      "title": "Vägbeskrivning",
+      "body": ""
+    },
+    {
+      "id": "leder",
+      "title": "Leder",
+      "body": ""
+    },
+    {
       "id": "lankar",
       "title": "Länkar",
       "body": "Förare tillhandahållen av Linköpings klätterklubb. Kategori:Trad Kategori:Mix Kategori:vertikalt kategori:Saknar skiss kategori:Saknar vägbeskrivning kategori:Saknar skrivarformatering Kategori:Östergötland"
@@ -40,6 +55,7 @@
       "type": "trad",
       "firstAscent": "Helene Landin -09",
       "description": "",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:asklippan",
         "path": "mediawiki/Åsklippan.txt"
@@ -55,6 +71,7 @@
       "type": "trad",
       "firstAscent": "Helene Landin -09",
       "description": "",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:asklippan",
         "path": "mediawiki/Åsklippan.txt"
@@ -70,6 +87,7 @@
       "type": "mix",
       "firstAscent": "",
       "description": "",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:asklippan",
         "path": "mediawiki/Åsklippan.txt"
@@ -85,6 +103,7 @@
       "type": "",
       "firstAscent": "",
       "description": "",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:asklippan",
         "path": "mediawiki/Åsklippan.txt"
@@ -100,6 +119,7 @@
       "type": "trad",
       "firstAscent": "Fredrik Nordström -08",
       "description": "",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:asklippan",
         "path": "mediawiki/Åsklippan.txt"
@@ -115,6 +135,7 @@
       "type": "mix",
       "firstAscent": "Erik Kuiper -10",
       "description": "",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:asklippan",
         "path": "mediawiki/Åsklippan.txt"
@@ -130,6 +151,7 @@
       "type": "",
       "firstAscent": "",
       "description": "",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:asklippan",
         "path": "mediawiki/Åsklippan.txt"
@@ -145,6 +167,7 @@
       "type": "mix",
       "firstAscent": "Erik Kuiper -10",
       "description": "",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:asklippan",
         "path": "mediawiki/Åsklippan.txt"
@@ -160,6 +183,7 @@
       "type": "",
       "firstAscent": "",
       "description": "",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:asklippan",
         "path": "mediawiki/Åsklippan.txt"
@@ -175,6 +199,7 @@
       "type": "",
       "firstAscent": "",
       "description": "",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:asklippan",
         "path": "mediawiki/Åsklippan.txt"
@@ -185,7 +210,8 @@
     {
       "filename": "Skiss.gif",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "leder"
     }
   ],
   "access": {

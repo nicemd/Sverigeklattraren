@@ -17,6 +17,21 @@
   ],
   "sections": [
     {
+      "id": "introvaggen",
+      "title": "Introväggen",
+      "body": ""
+    },
+    {
+      "id": "hyllan",
+      "title": "Hyllan",
+      "body": ""
+    },
+    {
+      "id": "laglandet",
+      "title": "Låglandet",
+      "body": ""
+    },
+    {
       "id": "anna-lotta",
       "title": "Anna-Lotta",
       "body": "Problemen som ligger i närheten av Anna-Lotta-kammaren. Klassiker som Eriks Extension och Prozak."
@@ -30,6 +45,31 @@
       "id": "sodra-asen",
       "title": "Södra åsen",
       "body": "Gå upp på berget ovanför introväggen och gå sedan vänster. Följ åsen ner ungefär 100 meter så kommer du till Tigerman, det första problemet i sektorn."
+    },
+    {
+      "id": "milkyway",
+      "title": "Milkyway",
+      "body": ""
+    },
+    {
+      "id": "offspring",
+      "title": "Offspring",
+      "body": ""
+    },
+    {
+      "id": "ravinen",
+      "title": "(Ravinen)",
+      "body": ""
+    },
+    {
+      "id": "gamla-damen",
+      "title": "(Gamla damen)",
+      "body": ""
+    },
+    {
+      "id": "y-front-skogen",
+      "title": "Y-front-skogen",
+      "body": ""
     },
     {
       "id": "norra-asen",
@@ -53,6 +93,7 @@
       "type": "Jam,Layback,Spricka",
       "firstAscent": "JW,HS",
       "description": "Lätt överhängande spricka. Hoppas den håller sig torr och mossfri!",
+      "sectorId": "introvaggen",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -68,6 +109,7 @@
       "type": "Spricka",
       "firstAscent": "Jonas W & friends",
       "description": "Sprickan till vänster om Kung Haakon på introväggen.",
+      "sectorId": "introvaggen",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -83,6 +125,7 @@
       "type": "Highball,Aréte",
       "firstAscent": "Jonas Wiklund",
       "description": "Startar vid siffran och siktar snett upp mot aretet till vänster. Händerna ska hela tiden vara på huvudväggen, dvs ingen intraversering från vänster!",
+      "sectorId": "introvaggen",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -98,6 +141,7 @@
       "type": "Krimp,Slopers,Jug",
       "firstAscent": "DK & JN",
       "description": "Semi-highball, trevligt problem.",
+      "sectorId": "introvaggen",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -113,6 +157,7 @@
       "type": "Mantling",
       "firstAscent": "?",
       "description": "Sjysst problem.",
+      "sectorId": "introvaggen",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -128,6 +173,7 @@
       "type": "Krimp,Slopers,Reach",
       "firstAscent": "DK, JN",
       "description": "K.C.K. = Kejsare Campus Karamell. Sittstart. Många verkar tro att detta är en variant men det är alltså tvärt om. Detta [orginalet] går rakt upp UTAN att användra arêtet till vänster och alla grepp som hör till det. Skön slope-avslutning.",
+      "sectorId": "introvaggen",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -143,6 +189,7 @@
       "type": "Krimp,Slopers,Reach",
       "firstAscent": "?? (under SBO 2002)",
       "description": "K.C.K. = Kejsare Campus Karamell. Variant där arêtet till V också får användas. Blir då betydligt lättare men inte roligare. Varianten \"tvingades\" fram under SBO 2002 då flera deltagare klättrade den på detta vis, kanske borde varit orginalet?",
+      "sectorId": "introvaggen",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -158,6 +205,7 @@
       "type": "Krimp,Slopers,Reach",
       "firstAscent": "JN, DK",
       "description": "Går på \"introväggen\" rakt nedanför domarbordet. Gjordes inför SBO 2002. Ganska fin & något känslig. Troligtvis finast av dom 3 i närheten.",
+      "sectorId": "introvaggen",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -173,6 +221,7 @@
       "type": "Krimp,Spricka",
       "firstAscent": "DK & JN",
       "description": "Hyllan till höger är inte med.",
+      "sectorId": "introvaggen",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -188,6 +237,7 @@
       "type": "Mantling,Reach,Jug",
       "firstAscent": "JN, DK",
       "description": "Ett av dom finare problemen som borstades fram inför sbo 2003. Ibland går det verkligen att trolla med en motorsåg! Går på introväggen, 10m till höger om nr 82 Kung Haakon.",
+      "sectorId": "introvaggen",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -203,6 +253,7 @@
       "type": "Krimp,Reach,Spricka",
       "firstAscent": "DK, JN",
       "description": "Industrialiserad landning (kolla in den bort-baxade stenen bakom!) gör att den inte känns så farlig trots höjden. Går på introväggen, till höger om nr 82 Kung Haakon.",
+      "sectorId": "introvaggen",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -218,6 +269,7 @@
       "type": "Krimp,Travers H->V,Reach",
       "firstAscent": "JN",
       "description": "Starta på höger sida om aretet. Traversera snett uppåt förbi aretet och etablera dig på väggen på andra sidan. Sen rakt upp utan arete. Finare än det låter.",
+      "sectorId": "hyllan",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -233,6 +285,7 @@
       "type": "",
       "firstAscent": "JN",
       "description": "",
+      "sectorId": "hyllan",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -248,6 +301,7 @@
       "type": "Krimp,Jug",
       "firstAscent": "JN",
       "description": "Du tappar knappast andan. Varken svår, hög eller fin, men funkar bra som uppvärmning.",
+      "sectorId": "hyllan",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -263,6 +317,7 @@
       "type": "Krimp,Highball",
       "firstAscent": "Daniel Widell (denna putsning)",
       "description": "Börja en meter till vänster om nr 45 Stabil/Labil och gå på några sjyssta krimpar snett upp åt vänster. Anslut där till Fetch Direkt för en härligt luftig uttoppning. 5B-klättring + luft ger graden.",
+      "sectorId": "hyllan",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -278,6 +333,7 @@
       "type": "Spricka",
       "firstAscent": "JN",
       "description": "Bara sprickan till toppen (tror jag, länge sen..) om det verkar orimligt så gör som du vill. Problemet är INTE hårdare än ovan nämnd grad.",
+      "sectorId": "hyllan",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -293,6 +349,7 @@
       "type": "Krimp,Jug",
       "firstAscent": "JN",
       "description": "Ja va fan ska man säga. Klättra upp, kryssa i ticklistan och du slipper tänka på den här i fortsättningen.",
+      "sectorId": "hyllan",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -308,6 +365,7 @@
       "type": "Krimp,Jug",
       "firstAscent": "JN",
       "description": "Upp vid siffran - plättlätt",
+      "sectorId": "hyllan",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -323,6 +381,7 @@
       "type": "Krimp,Slopers,Mantling",
       "firstAscent": "Hans Stenlund",
       "description": "Bra landning men fallhöjden kan göra att det smäller bra ändå om man ramlar från slutet. Mysko mantel-krux.",
+      "sectorId": "hyllan",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -338,6 +397,7 @@
       "type": "Jug",
       "firstAscent": "Pär Lindholm",
       "description": "Längst till höger på väggen till höger om Stabil/Labil, precis brevid där stigen går ner. Enkelt problem på positiva grepp. Sittstart.",
+      "sectorId": "hyllan",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -353,6 +413,7 @@
       "type": "Krimp,Layback",
       "firstAscent": "Daniel Widell",
       "description": "Runt hörnet till höger om nr 73, Auviux Campeur. Hyllan och kanten till vänster samt sprickan till höger är uteslutna.",
+      "sectorId": "hyllan",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -368,6 +429,7 @@
       "type": "Krimp",
       "firstAscent": "Daniel Widell",
       "description": "Runt hörnet till höger om nr 73, Auviux Campeur. Sittstart. Hyllan och kanten till vänster samt sprickan till höger är uteslutna. Roligt och tungt.",
+      "sectorId": "hyllan",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -383,6 +445,7 @@
       "type": "Slab",
       "firstAscent": "Daniel Widell",
       "description": "Om man står med ryggen mot Stabil/Labil och går rakt fram så kommer man till uttoppningen av Sva-ha-ha-ha. OK litet problem.",
+      "sectorId": "hyllan",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -398,6 +461,7 @@
       "type": "Dyno",
       "firstAscent": "Daniel Widell",
       "description": "Till vänster på väggen till höger om Stabil/Labil. Sug det stora greppet och tokskicka på toppen. Tungt som fan om du är 1m20cm, annars kakbit...",
+      "sectorId": "hyllan",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -413,6 +477,7 @@
       "type": "Krimp,Dyno,Aréte",
       "firstAscent": "Henrik Johansson",
       "description": "Mellan Mulitool och Svahaha på ett arete. Startgrepp ganska självklara på var sin sida om aretet. Sen rakt upp...",
+      "sectorId": "hyllan",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -428,6 +493,7 @@
       "type": "Krimp,Pinch,Aréte",
       "firstAscent": "Carlos & Crille",
       "description": "Ligger till 10 meter höger om 210. Startar på markerade grepp och sedan följa rampen upp.",
+      "sectorId": "laglandet",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -443,6 +509,7 @@
       "type": "Slopers,Travers H->V",
       "firstAscent": "Urban Dufva & Carlos",
       "description": "Ligger 20 meter till höger om Rövpropp, nr 210. Klättra det omkullvältna lilla blocket. Start nere till hö. i jug och undercling, följ rampen uppåt vä. och mantla över, väldigt lik Habanero i Krokviken.",
+      "sectorId": "laglandet",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -458,6 +525,7 @@
       "type": "Krimp",
       "firstAscent": "Eva Knekta",
       "description": "Går på den ensamma lilla stenen, nedanför Mary väggen. Inte så kul men inte så tråkig heller.",
+      "sectorId": "laglandet",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -473,6 +541,7 @@
       "type": "Krimp",
       "firstAscent": "Fredrik Wågberg",
       "description": "Fint och givet problem på en ensam sten.",
+      "sectorId": "laglandet",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -488,6 +557,7 @@
       "type": "Travers V->H",
       "firstAscent": "JW",
       "description": "Variant. Startar med båda händer på rampen längs till vänster på Running Wild (#62) Travers åt höger till Roskildefredens start och klättra den.",
+      "sectorId": "laglandet",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -503,6 +573,7 @@
       "type": "Krimp",
       "firstAscent": "Fredrik Wågberg",
       "description": "Små krimprar gör ont. Mer V än H.",
+      "sectorId": "laglandet",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -518,6 +589,7 @@
       "type": "Krimp,Reach,Spricka",
       "firstAscent": "DK, JN",
       "description": "Bökig start inne i ett hörn och sen en bökig avslutning. Bökig och ganska bökig.",
+      "sectorId": "laglandet",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -533,6 +605,7 @@
       "type": "Krimp,Spricka",
       "firstAscent": "Urban Dufva",
       "description": "",
+      "sectorId": "laglandet",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -548,6 +621,7 @@
       "type": "Krimp,Slab",
       "firstAscent": "Urban Dufva",
       "description": "Håll till vänster om sprickan. Finaste sva-problemet i skogen.",
+      "sectorId": "laglandet",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -563,6 +637,7 @@
       "type": "Jug",
       "firstAscent": "",
       "description": "Grad ok?",
+      "sectorId": "laglandet",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -578,6 +653,7 @@
       "type": "Aréte,Spricka",
       "firstAscent": "Johannes Nilsson",
       "description": "Sprickan/arêtet rakt upp. Togs fram för SBO 2002. Fin.",
+      "sectorId": "laglandet",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -593,6 +669,7 @@
       "type": "Jam",
       "firstAscent": "Fredrik Wågberg",
       "description": "Starta sittande men inte på stenen.",
+      "sectorId": "laglandet",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -608,6 +685,7 @@
       "type": "Krimp",
       "firstAscent": "Magnus Eriksson",
       "description": "Rakt upp UTAN aréten. Ser fantastiskt blank ut.",
+      "sectorId": "laglandet",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -623,6 +701,7 @@
       "type": "Krimp",
       "firstAscent": "Urban Dufva",
       "description": "Start på krimp, sedan ut höger och upp via aréten.",
+      "sectorId": "laglandet",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -638,6 +717,7 @@
       "type": "Krimp,Slopers",
       "firstAscent": "Urban Dufva",
       "description": "Händerna följer sprickan, fötterna håller sig på slabben.",
+      "sectorId": "laglandet",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -653,6 +733,7 @@
       "type": "Krimp,Slopers,Jam",
       "firstAscent": "Urban Dufva",
       "description": "Hela sprickan får användas.",
+      "sectorId": "laglandet",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -668,6 +749,7 @@
       "type": "Highball",
       "firstAscent": "Carlos",
       "description": "Mitt emot Chevrolet Silverado (137:2) (nedanför Hakkuh (68:2)) Går på den högsta väggen, slutar mellan två tallar, oborstad och lätt.",
+      "sectorId": "laglandet",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -683,6 +765,7 @@
       "type": "",
       "firstAscent": "Carlos?",
       "description": "Lägsta problemet i Skravel? Startgreppen märkta + endast stenen i mitten för fötterna (ni lär väl se). Problemet finns mellan 101 och 102 i en liten sänka.",
+      "sectorId": "laglandet",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -698,6 +781,7 @@
       "type": "Krimp,Slab",
       "firstAscent": "Johan Öhman",
       "description": "Mellan Maybe Next Year, nr 63, och Crack Whore, nr 75. Lite lös klippa. Se upp så du inte rullar baklänges vid fall.",
+      "sectorId": "laglandet",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -713,6 +797,7 @@
       "type": "Aréte",
       "firstAscent": "Jonas Wiklund",
       "description": "Aretet till höger om #62 (Running Wild) på plan 2. Ett av de finaste i Skravel i sin grad. Klättra arétet, juggen till höger är uteslutet.",
+      "sectorId": "laglandet",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -728,6 +813,7 @@
       "type": "Travers H->V",
       "firstAscent": "Jonas?",
       "description": "Traverserar H->V från krimp (markerad med två kritstreck) så långt åt höger man rimligtvis vill starta. Använder naturligtvis inte jugrampen för att traversera ut till \"Roskildefreden\" där den går upp. Mycket osäker grad pga varmt väder",
+      "sectorId": "laglandet",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -743,6 +829,7 @@
       "type": "",
       "firstAscent": "JW",
       "description": "På en ensam vägg 10 meter nedanför 115,116, och 117. Går på väggen rakt framför granen och till höger om den tydliga sprickan, skön mantling på toppen. Med hoppstart är den kanske 6A+ eller så. Typisk \"skravel-klättring\".",
+      "sectorId": "laglandet",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -758,6 +845,7 @@
       "type": "Slopers,Heel hook",
       "firstAscent": "JW",
       "description": "Går på näsan på det stora stenblocket nedanför \"Red Hot Chili\". På denna Aerodynamite-kopia får man rimligtvis bara stå på en padda på starten.",
+      "sectorId": "laglandet",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -773,6 +861,7 @@
       "type": "Krimp,Slopers",
       "firstAscent": "Urban",
       "description": "Problemet ligger en meter till vänster om Pingu. Startar sittande på krimpers, rakt upp till hyfsad jug och toppa sedan ut via den slopiga toppen",
+      "sectorId": "laglandet",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -788,6 +877,7 @@
       "type": "Överhäng",
       "firstAscent": "",
       "description": "En bit bortanför #138, på en överhängande bulle snett mitt emot en fristående sten. Startar med en liten klack för vänster hand, går rakt upp, och är graderad för bestigningar utan hoppstart.",
+      "sectorId": "laglandet",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -803,6 +893,7 @@
       "type": "Layback,Slab,Dyno",
       "firstAscent": "JW",
       "description": "Klättra sprickan till vänster om Red Hot Chili.",
+      "sectorId": "laglandet",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -818,6 +909,7 @@
       "type": "Slopers,Mantling",
       "firstAscent": "DK -03",
       "description": "Går på ovansidan av Kinapuff-stenen. Den givna mantlingen till höger. Håll dig borta från arêtet, annars rakt upp på alla tänkbara vis. Helt ok rent mantlingsproblem.",
+      "sectorId": "laglandet",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -833,6 +925,7 @@
       "type": "Slopers,Mantling",
       "firstAscent": "DK",
       "description": "Ett bra exempel på vad man kan trolla fram genom att modifiera landningen lite. Marken sänktes ca 1 m under problemet och gjorde det betydligt finare. Ligger på en egen sten precis till höger om nr 168 Kinapuff.",
+      "sectorId": "laglandet",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -848,6 +941,7 @@
       "type": "Krimp,Dyno",
       "firstAscent": "JN",
       "description": "Klockrent problem på den stora kinapuff-stenen. Sug tag i miniatyrgreppen, ställ dig på stenen (Ja - den ÄR med) och hoppa. Ligger till vänster om nr 168 Kinapuff.",
+      "sectorId": "laglandet",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -863,6 +957,7 @@
       "type": "Krimp,Aréte,Heel hook",
       "firstAscent": "DK, HJ -03",
       "description": "Går på Kinapuff-stenen (ovansidan). Det vänstra arêtet. Inga direkta uteslutningar men håll dig på arêtet. Mkt fin klättring men tyvärr dålig landning, ska se om jag kan förbättre den lite.",
+      "sectorId": "laglandet",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -878,6 +973,7 @@
       "type": "Krimp",
       "firstAscent": "HS,JW",
       "description": "Startar i sprickan i huvudhöjd och rakt upp till mikrokrimper och sloper. Kul mantling på rund sten. (Tror att numret var 194, till hö om chevrolet silverado nr137)",
+      "sectorId": "laglandet",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -893,6 +989,7 @@
       "type": "Slopers",
       "firstAscent": "DK, JW",
       "description": "Sittstart till vänster om Chevrolet Silverado. För att missförstånd ej ska uppstå är startgreppen märkta.",
+      "sectorId": "laglandet",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -908,6 +1005,7 @@
       "type": "Jug,Spricka",
       "firstAscent": "Fredrik Ekström",
       "description": "Ganska fin stor spricka till höger om \"Red hot Chili\". Startar nära trädet.",
+      "sectorId": "laglandet",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -923,6 +1021,7 @@
       "type": "Dyno,Reach,Jug",
       "firstAscent": "DK -03",
       "description": "Går till höger om Pingu 7a på samma vägg. Starta i stort givet grepp i midje/bröst höjd. Skicka, hoppa (från marken) eller stata sen till rampen och så upp. Arêtet till höger är uteslutet. Mycket osäker på graden.",
+      "sectorId": "laglandet",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -938,6 +1037,7 @@
       "type": "Slopers,Pinch,Överhäng",
       "firstAscent": "DK, Tatt, Peter Nilsson",
       "description": "Går på den låga branta stenen 15m nedanför/bakom Bernsten. Samma start som Booty Trap (dvs stenen i sprickan) men sen går den åt vänster ut över pinchen och vidare vänster via slopes. Sprickan får ej användas annat än i starten. Brytig & fin.",
+      "sectorId": "laglandet",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -953,6 +1053,7 @@
       "type": "Slopers,Mantling",
       "firstAscent": "Andreas Ström",
       "description": "Går på den låga branta stenen 15m nedanför/bakom Bernsten. Sittstart längst till höger, starta med händerna på sloperampen och mantla rakt upp. Sprickan till vänster utesluten.",
+      "sectorId": "laglandet",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -968,6 +1069,7 @@
       "type": "Överhäng,Spricka",
       "firstAscent": "DK, Tatt, Peter Nilsson",
       "description": "Går på den låga branta stenen 15m nedanför/bakom Bernsten. Sprickan som går rakt genom taket. Ett fast startgrepp - du ska ha den ena handen på stenen i sprickan i starten, sen rakt upp som du vill.",
+      "sectorId": "laglandet",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -983,6 +1085,7 @@
       "type": "Slopers,Mantling",
       "firstAscent": "DK",
       "description": "Går mitt över #132 Rivjärn. Ta tag i kanten och mantla rakt upp. väldigt svårt att göra fel men självklart får man inte traversera ut till hörnet och gå upp där, rakt upp ska man, rent mantlingsproblem. Givet när man väl är på plats.",
+      "sectorId": "laglandet",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -998,6 +1101,7 @@
       "type": "Slopers,Mantling,Aréte",
       "firstAscent": "jonas m.fl",
       "description": "sittstart vid aretet till vänster om De små tingens gud, följ aretet och toppa ur samma som Tingen",
+      "sectorId": "laglandet",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -1013,6 +1117,7 @@
       "type": "Reach",
       "firstAscent": "DK, JN",
       "description": "Hoppa till kanten och mantla. Svårare för korta.",
+      "sectorId": "anna-lotta",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -1028,6 +1133,7 @@
       "type": "Travers V->H,Reach",
       "firstAscent": "Erik Nilsson",
       "description": "Föjl pilen åt H och sen upp bortanför trädet.",
+      "sectorId": "anna-lotta",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -1043,6 +1149,7 @@
       "type": "Layback,Mantling,Jug",
       "firstAscent": "JN",
       "description": "Börja till höger, följ aréten upp, gå sedan runt till vänster innan du mantlar.",
+      "sectorId": "anna-lotta",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -1058,6 +1165,7 @@
       "type": "Krimp,Överhäng,Reach",
       "firstAscent": "Johannes Nilsson",
       "description": "Skumt problem på baksidan av Atletique stenen. Går uppför \"arêtet\" via konstiga move men ändå ganska fint.",
+      "sectorId": "anna-lotta",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -1073,6 +1181,7 @@
       "type": "Krimp,Reach,Spricka",
       "firstAscent": "JN",
       "description": "Rakt över det \"breda arêtet\". Äcklig avslutning med långt fall om du misslyckas. Se till att ha en bra spotter, det hade förstabestigaren ;)",
+      "sectorId": "anna-lotta",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -1088,6 +1197,7 @@
       "type": "Överhäng,Reach",
       "firstAscent": "Fredrik Wågberg",
       "description": "Starta på startprickarna under det lilla taket, sträck ut och mantla upp.",
+      "sectorId": "anna-lotta",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -1103,6 +1213,7 @@
       "type": "Krimp,Layback",
       "firstAscent": "JN",
       "description": "Gå med undercling hela vägen. Och kom ihåg! Genvägar är senvägar!",
+      "sectorId": "anna-lotta",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -1118,6 +1229,7 @@
       "type": "Jug",
       "firstAscent": "",
       "description": "Gå upp över högsta punkten.",
+      "sectorId": "anna-lotta",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -1133,6 +1245,7 @@
       "type": "Krimp",
       "firstAscent": "",
       "description": "",
+      "sectorId": "anna-lotta",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -1148,6 +1261,7 @@
       "type": "Krimp",
       "firstAscent": "Jonas Wiklund",
       "description": "Sittstart till höger om sprickan #71 sedan rakt upp.",
+      "sectorId": "anna-lotta",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -1163,6 +1277,7 @@
       "type": "Slopers,Mantling",
       "firstAscent": "",
       "description": "Perfekt mantlings-problem. Tuffare för korta.",
+      "sectorId": "anna-lotta",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -1178,6 +1293,7 @@
       "type": "Slopers,Mantling",
       "firstAscent": "JW, HS",
       "description": "Ett sittstartprojekt som trots allt är ganska roligt även som ståstart, dock mycket längdberoende. Under 180 cm = hård, över 180 cm = lätt. Prova gärna sittstarten som lär bli kring 7C.",
+      "sectorId": "anna-lotta",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -1193,6 +1309,7 @@
       "type": "Krimp,Överhäng,Highball",
       "firstAscent": "Jens Åström",
       "description": "Highball på den stora väggen ovanför Anna-Lotta kammaren. Lite smårisig landning men ett mycket fint problem. Fall inte.",
+      "sectorId": "anna-lotta",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -1208,6 +1325,7 @@
       "type": "Slopers,Dyno,Jug",
       "firstAscent": "DK",
       "description": "Dyna från sprickan till toppen. Stenen till vänster utesluten och även arêtet/sprickan till vänster. Gjordes till SBO 2002 för att fylla ut 4-registret..",
+      "sectorId": "anna-lotta",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -1223,6 +1341,7 @@
       "type": "Slopers,Mantling",
       "firstAscent": "Carola Sigurd",
       "description": "Straight up by the number.",
+      "sectorId": "anna-lotta",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -1238,6 +1357,7 @@
       "type": "Slopers,Mantling",
       "firstAscent": "Jonas Wiklund",
       "description": "Mantla inte för långt till vänster.",
+      "sectorId": "anna-lotta",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -1253,6 +1373,7 @@
       "type": "",
       "firstAscent": "Carola Sigurd",
       "description": "Tämligen meningslöst.",
+      "sectorId": "anna-lotta",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -1268,6 +1389,7 @@
       "type": "",
       "firstAscent": "Jonas Wiklund",
       "description": "Tämligen meningslöst.",
+      "sectorId": "anna-lotta",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -1283,6 +1405,7 @@
       "type": "Highball",
       "firstAscent": "Jonas Wiklund",
       "description": "Troligtvis områdets värsta landning vid ett ev. fall. Du bör vet vad du gör innan du går på denna. Gå ut vänster innan de något lösa jättekristallerna. Varning.",
+      "sectorId": "anna-lotta",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -1298,6 +1421,7 @@
       "type": "Slab",
       "firstAscent": "Carlos Cabrera",
       "description": "Cirka 10m till vänster om nr 97, Zipramil.",
+      "sectorId": "anna-lotta",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -1313,6 +1437,7 @@
       "type": "Slab",
       "firstAscent": "Anders Linder",
       "description": "Bakom nr 26, Mission Possible, och snett upp till höger från nr 32, Da Copa.",
+      "sectorId": "anna-lotta",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -1328,6 +1453,7 @@
       "type": "Highball",
       "firstAscent": "Carlos Cabrera",
       "description": "Finns ca. 20m till vänster om nr 97, Zipramil. Retrete anspelar på spanska betydelsen av ordet (Toalettstol) och likheten med svenskan. Enkel led att skada sig på, men har alla mojligheter till en snabb retratt.",
+      "sectorId": "anna-lotta",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -1343,6 +1469,7 @@
       "type": "Dyno,Aréte",
       "firstAscent": "JN",
       "description": "En av dom finare på sbo 2003. Långt dyno till bra grepp, som ändå verkar svårt att hålla kvar i. Under sbo hoppade de flesta från marken men problemet ska göras med en etablering på väggen och sen ett skutt. Ligger \"runt hörnet\" till hö om nr 32 Da Copa'.",
+      "sectorId": "anna-lotta",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -1358,6 +1485,7 @@
       "type": "Dyno,Aréte",
       "firstAscent": "Urban Dufva",
       "description": "Sittstarten.",
+      "sectorId": "anna-lotta",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -1373,6 +1501,7 @@
       "type": "",
       "firstAscent": "JN",
       "description": "Sattes upp inför sbo 2003. Halv-bökigt dieder som troligtvis fått en grymt felaktig grad (graderades i mörker med pannlampa och gympaskor). Ligger ca 25m till vänster om nr 97 Zipramil, bakom en stor gran.",
+      "sectorId": "anna-lotta",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -1388,6 +1517,7 @@
       "type": "Layback,Mantling,Aréte",
       "firstAscent": "JN, HJ",
       "description": "Starta sittande på prickarna. Stenen till höger utesluten. Något krystad & bänglig start men ändå helt ok. Går ca 25m till vänster om nr 97 Zipramil. Bakom en stor gran.",
+      "sectorId": "anna-lotta",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -1403,6 +1533,7 @@
       "type": "Slopers,Mantling,Travers H->V",
       "firstAscent": "JN",
       "description": "Starta till höger, skavla till vänter och kravla sen upp över kanten. Finns på en egen liten sten strax bakom nr 66 Genvägar är Senvägar.",
+      "sectorId": "anna-lotta",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -1418,6 +1549,7 @@
       "type": "Mantling,Överhäng,Jug",
       "firstAscent": "Johan Nordlund",
       "description": "I Anna-Lotta kammaren, \"Dagbrottet\". Hård start i ett undercling (spricka), sen armiga, grymma takmove upp ur grottan (mantla upp helt ur grottan). Klart värd sina stjärnor!",
+      "sectorId": "anna-lotta",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -1433,6 +1565,7 @@
       "type": "Slab",
       "firstAscent": "Johan Öhman",
       "description": "Givet problem nedanför Erik's extension mfl. Går på \"mittenslabben\". Trots dess höjd, ändock ett småtrevligt problem.",
+      "sectorId": "anna-lotta",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -1448,6 +1581,7 @@
       "type": "Slab",
       "firstAscent": "Johan Öhman",
       "description": "Något barskare svaproblem än dess vänstra granne - Bill. Svårare start, lättare urtoppning.",
+      "sectorId": "anna-lotta",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -1463,6 +1597,7 @@
       "type": "Slopers,Heel hook",
       "firstAscent": "Tatt, Lord, Damp",
       "description": "Ligger rakt utanför Anna-Lotta kammaren. Starta i givet stort bra grepp långt ner och sen fritt fram till toppen. Sten i landningen drar ner betyget men den kanske försvinner en vacker dag, den som lever får se :)",
+      "sectorId": "anna-lotta",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -1478,6 +1613,7 @@
       "type": "Överhäng",
       "firstAscent": "",
       "description": "Startar sittande under det lilla taket till vänster om Da Copa/Eriks extension/F 150. Börjar med båda händer i en given jug långt under taket. Semiläskig topout då man får lite gratisexponering.",
+      "sectorId": "anna-lotta",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -1493,6 +1629,7 @@
       "type": "Krimp,Slopers",
       "firstAscent": "JW",
       "description": "Klättra franska taket mellan #14 \"le ballant\" och #15 \"Porte de grange\". Ett totalproblem som innehåller lite av varje: Gaston, krimp, slopers, catch, och delikat utsteg en bit ovan marken. Grad mycket osäker pga grusiga grepp vid 1a-best.",
+      "sectorId": "mellanomradet",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -1508,6 +1645,7 @@
       "type": "Krimp,Överhäng",
       "firstAscent": "Per Lindmark",
       "description": "Sittstart längst till vänster på 10 dollar hooker klippan. Går sedan under taket och avslutar upp för den mindre vertikala vägen.",
+      "sectorId": "mellanomradet",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -1523,6 +1661,7 @@
       "type": "Pinch,Överhäng,Dyno",
       "firstAscent": "DK, JN",
       "description": "Starta under taket på en liten list som ser ut att lossna (det gör den inte). Skicka ut till jug. \"Hörnet\" till H är uteslutet.",
+      "sectorId": "mellanomradet",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -1538,6 +1677,7 @@
       "type": "Krimp,Överhäng",
       "firstAscent": "J.W. & M.E.",
       "description": "Startar som 14 men går ut åt vänster via små krimpers. I övrigt samma restriktioner som \"Le Ballant\"",
+      "sectorId": "mellanomradet",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -1553,6 +1693,7 @@
       "type": "Pinch,Layback,Överhäng",
       "firstAscent": "Jonas Wiklund",
       "description": "Starta i markerade lister under taket. Sen rakt upp via laybackrampen och ett bökigt knälås. Cool men kroppstung.",
+      "sectorId": "mellanomradet",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -1568,6 +1709,7 @@
       "type": "Layback,Spricka",
       "firstAscent": "Dag & Johannes",
       "description": "",
+      "sectorId": "mellanomradet",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -1583,6 +1725,7 @@
       "type": "Krimp,Slopers,Reach",
       "firstAscent": "DK",
       "description": "Starta med båda händerna i sprickan och dra sedan långt upp till list. Böka dig upp och fortsätt över hyllan. Förbjudet att vika av hyllan åt vänster på slutet.",
+      "sectorId": "mellanomradet",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -1598,6 +1741,7 @@
       "type": "Highball",
       "firstAscent": "?",
       "description": "Starta som Fetch men vik aldrig runt hörnet utan gå helt enkelt rakt upp till höger om arétet. LÄSKIGT är ordet.",
+      "sectorId": "mellanomradet",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -1613,6 +1757,7 @@
       "type": "Krimp",
       "firstAscent": "JN, DK",
       "description": "Går längst till V på den stora väggen brevid franska taket. Inget utmärkande problem på något vis, en list, en list, en list och så toppen.. Sprickan till vänster är utesluten.",
+      "sectorId": "mellanomradet",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -1628,6 +1773,7 @@
       "type": "Krimp,Överhäng,Dyno",
       "firstAscent": "Johannes Nilsson",
       "description": "Orginalet startar statiskt utan hopp. Den variant som de flesta kör är med hoppastart till den givna listen och sen dyno till kanten, denna variant är 6B+. Stenen bakom fortfarande utesluten.",
+      "sectorId": "mellanomradet",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -1643,6 +1789,7 @@
       "type": "Krimp,Mantling,Highball",
       "firstAscent": "Jonas Wiklund",
       "description": "Läskigt hög. Var säker på grad och att du uppskattar livet innan du går på.",
+      "sectorId": "mellanomradet",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -1658,6 +1805,7 @@
       "type": "Krimp,Highball,Reach",
       "firstAscent": "Hasse, Lotta & Jonas",
       "description": "Highball på den stora väggen till H om franska taket. Som namnet antyder är detta lillasyrran till Bloody Mary. Lägre och mindre blodig men svårare i grad. Fall inte från slutet.",
+      "sectorId": "mellanomradet",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -1673,6 +1821,7 @@
       "type": "",
       "firstAscent": "",
       "description": "Ståstart till höger på taknäsan 10 meter nedanför/till höger om franska taket, just till h. om bloody/virgin mary. Bryt upp från det bra greppet.",
+      "sectorId": "mellanomradet",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -1688,6 +1837,7 @@
       "type": "Spricka",
       "firstAscent": "Johan G, Tomas B",
       "description": "Offwidthsprickan till höger om nr 57. Hyllan ovanför siffran 57 utesluten.",
+      "sectorId": "mellanomradet",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -1703,6 +1853,7 @@
       "type": "Spricka",
       "firstAscent": "?",
       "description": "En av de bättre lätta problemen.",
+      "sectorId": "mellanomradet",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -1718,6 +1869,7 @@
       "type": "Krimp",
       "firstAscent": "DK?",
       "description": "Fint problem!",
+      "sectorId": "mellanomradet",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -1733,6 +1885,7 @@
       "type": "Slopers,Layback",
       "firstAscent": "Anders Linder",
       "description": "Borstades fram för att fixa ett fint sloper-problem.",
+      "sectorId": "mellanomradet",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -1748,6 +1901,7 @@
       "type": "Slopers",
       "firstAscent": "Urban Dufva",
       "description": "Kanten till höger utesluten, även för fötterna. Väldigt fint sloperproblem!",
+      "sectorId": "mellanomradet",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -1763,6 +1917,7 @@
       "type": "",
       "firstAscent": "Carola Sigurd",
       "description": "Riktigt lågt problem som är förvånansvärt roligt!",
+      "sectorId": "mellanomradet",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -1778,6 +1933,7 @@
       "type": "Jam,Layback",
       "firstAscent": "Hans Stenlund",
       "description": "Fint problem. Gå upp i sprickan.",
+      "sectorId": "mellanomradet",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -1793,6 +1949,7 @@
       "type": "Layback",
       "firstAscent": "Johan Öhman",
       "description": "Till vänster om nr 68, Hakkuh. Layback-spricka, som tyvärr är lite låg. Hade gärna fått fortsätta någon meter till. Namnet anspelar på var man bör sätta fötterna, och ivern hos förstabestigarna när problemet gjordes. Fötterna hålls till höger om sprickan.",
+      "sectorId": "mellanomradet",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -1808,6 +1965,7 @@
       "type": "Krimp,Reach",
       "firstAscent": "Johan \"Tatt\" Nordlund",
       "description": "Bara ett problem till i mängden. Men fint ändå. Ännu inte borstat, så varsegod!. går på vägg till v om 152.",
+      "sectorId": "mellanomradet",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -1823,6 +1981,7 @@
       "type": "Slopers,Aréte",
       "firstAscent": "JW",
       "description": "Klättra den hängande rampen till vänster om \"Mot alla odds\" no 34. Slopig och med dåliga fotsteg.",
+      "sectorId": "mellanomradet",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -1838,6 +1997,7 @@
       "type": "Krimp,Travers H->V,Reach",
       "firstAscent": "Eva Knekta, Sofia Nording",
       "description": "Lång travers sedan rakt upp vid väggens vänstra del. Går på samma vägg som (och korsar) nr 64 Softis. Den verkar tyckas barsk för sin orginalgrad 6a.",
+      "sectorId": "mellanomradet",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -1853,6 +2013,7 @@
       "type": "Krimp,Heel hook",
       "firstAscent": "JW & Andreas Ström",
       "description": "Startar 3 meter till höger om \"Bloody Mary\" mitt på den utskjutande skivan.",
+      "sectorId": "mellanomradet",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -1868,6 +2029,7 @@
       "type": "Slopers,Slab",
       "firstAscent": "Pär Lindholm",
       "description": "Ligger på hörnet till höger från Hakkuh (#68) och till vänster om Dodge G.C. (#78) Ett enkelt och av någon anledning otrevligt problem.",
+      "sectorId": "mellanomradet",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -1883,6 +2045,7 @@
       "type": "Krimp,Mantling,Dyno",
       "firstAscent": "Sydde & Danne W",
       "description": "Starta etablerat i den vertikala sprickan och gå sen rakt upp via den horisontala sprickan. Hoppstart 6B. Ligger 15 meter till höger från Twin & Peak, precis runt hörnet.",
+      "sectorId": "sodra-asen",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -1898,6 +2061,7 @@
       "type": "Krimp,Aréte,Travers V->H",
       "firstAscent": "JN, DK",
       "description": "Traversera åt höger och gå upp längs arêtet. För dom som hatar att dyna, övriga hänvisas till orginalet som är betydligt finare.",
+      "sectorId": "sodra-asen",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -1913,6 +2077,7 @@
       "type": "Krimp,Slopers,Dyno",
       "firstAscent": "JN, DK",
       "description": "Dyna till toppen från startprickarna. Lätt men kul.",
+      "sectorId": "sodra-asen",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -1928,6 +2093,7 @@
       "type": "Slopers,Dyno",
       "firstAscent": "JN, DK",
       "description": "Lätt men kul dyno",
+      "sectorId": "sodra-asen",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -1943,6 +2109,7 @@
       "type": "Krimp,Jug,Spricka",
       "firstAscent": "Calle Ohlsson",
       "description": "Superfint problem med perfekt höjd! Rekommenderas.",
+      "sectorId": "sodra-asen",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -1958,6 +2125,7 @@
       "type": "Krimp,Layback,Spricka",
       "firstAscent": "CO, SBO Crew",
       "description": "Borstades fram inför SBO 2001 av SBO teamet (främst av Calle). Har sedan dess av nån märklig anledning fått ett annat namn (Dödsfällan) och en ny FA. Infon är nu ändrad till den korrekta.",
+      "sectorId": "sodra-asen",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -1973,6 +2141,7 @@
       "type": "",
       "firstAscent": "Fredrik&Carola",
       "description": "Balansigt problem, ganska roligt!",
+      "sectorId": "sodra-asen",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -1988,6 +2157,7 @@
       "type": "",
       "firstAscent": "Fredrik&Carola",
       "description": "Balansigt problem, ganska roligt!",
+      "sectorId": "sodra-asen",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -2003,6 +2173,7 @@
       "type": "Mantling",
       "firstAscent": "Johan Öhman",
       "description": "Beläget på sidoväggen brevid nr 55, Tigerman. Kul litet problem, som kräver en del balans. Sittstarten ger, om man är svag och lite kort (som jag), finfin tricepsträning. Går rakt upp, via de tre \"topparna\".",
+      "sectorId": "sodra-asen",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -2018,6 +2189,7 @@
       "type": "Mantling",
       "firstAscent": "Johan Öhman och Isabelle",
       "description": "Går på sidoväggen bredvid nr 55, Tigerman, till vänster om Triceratops. Ganska trevlig om än (halv-) krystat problem. Rakt upp via juggar. Varning för barr när du ska mantla och grenar i ansiktet på toppen.",
+      "sectorId": "sodra-asen",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -2033,6 +2205,7 @@
       "type": "Krimp,Aréte,Jug",
       "firstAscent": "JN, DK",
       "description": "Lätt men givet arête som tog betydligt längre tid att borsta än att klättra. Bra uppvärning inför resten av problemen på stenen. Går på en egen liten sten mellan nr 52 (y-front) och 42, lite off och halvsvår att se.",
+      "sectorId": "sodra-asen",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -2048,6 +2221,7 @@
       "type": "Krimp,Slopers,Reach",
       "firstAscent": "JN",
       "description": "Startar med krimp i sprickan, skicka upp på sloperrampen. Stenens mest givna problem. Går på en egen liten sten mellan nr 52 (y-front) och 42, lite off och halvsvår att se.",
+      "sectorId": "sodra-asen",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -2063,6 +2237,7 @@
       "type": "Slopers,Mantling,Reach",
       "firstAscent": "DK, JN",
       "description": "Ännu ett exempel på en härligt modifierad landning. Se stenhögen bakom. Också detta ett sbo 2003 problem, ett av dom finare. Går på en egen liten sten mellan nr 52 (y-front) och 42, lite off och halvsvår att se.",
+      "sectorId": "sodra-asen",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -2078,6 +2253,7 @@
       "type": "",
       "firstAscent": "Thomas P, Johan S",
       "description": "Ligger 5m vänster om nr:105 Peak, startar under den lilla björken och rakt upp.",
+      "sectorId": "sodra-asen",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -2093,6 +2269,7 @@
       "type": "Mantling,Reach",
       "firstAscent": "Daniel Widell",
       "description": "Ligger precis till höger om Twin och Peak, på nästa sten nedöver.Problemet består av en 2.5m bred vägg med 2 st, i höjdled jämnt fördelade, tvärsprickor som passeras på lättaste sätt till en rundad mantling.",
+      "sectorId": "sodra-asen",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -2108,6 +2285,7 @@
       "type": "Slab",
       "firstAscent": "JN",
       "description": "Kanske Skravelsjös största klassiker. Ett av dom absolut första problemen med namn & grad i området.",
+      "sectorId": "milkyway",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -2123,6 +2301,7 @@
       "type": "",
       "firstAscent": "Hans Stenlund",
       "description": "Låg semi-sunkig travers. Det andra problemet på den här väggen är finare.",
+      "sectorId": "milkyway",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -2138,6 +2317,7 @@
       "type": "Krimp,Slopers,Överhäng",
       "firstAscent": "Calle Ohlsson, JN",
       "description": "Löjligt lågt men ändå mycket bra problem! Sittstart och så skick runt H hörnet och sen slappa dig upp m heelhooks.",
+      "sectorId": "milkyway",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -2153,6 +2333,7 @@
       "type": "Krimp",
       "firstAscent": "Calle Ohlsson",
       "description": "Travers och sen upp. Grad något osäker.",
+      "sectorId": "milkyway",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -2168,6 +2349,7 @@
       "type": "Överhäng,Reach",
       "firstAscent": "CO",
       "description": "Starta i samma grepp som för Kappa men gå direkt rakt upp i stället för travers till vänster.",
+      "sectorId": "milkyway",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -2183,6 +2365,7 @@
       "type": "Travers V->H",
       "firstAscent": "",
       "description": "Travers v->h sedan rakt upp över bullen.",
+      "sectorId": "milkyway",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -2198,6 +2381,7 @@
       "type": "",
       "firstAscent": "",
       "description": "",
+      "sectorId": "milkyway",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -2213,6 +2397,7 @@
       "type": "Slopers,Överhäng,Travers H->V",
       "firstAscent": "JW",
       "description": "Travers H -> V sedan rakt upp på näsan. Små pilar på stenen visar vägen.",
+      "sectorId": "milkyway",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -2228,6 +2413,7 @@
       "type": "Krimp,Mantling",
       "firstAscent": "Hans Stenlund",
       "description": "LÅG sittstart, annars roligt!",
+      "sectorId": "milkyway",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -2243,6 +2429,7 @@
       "type": "Slopers,Travers H->V,Reach",
       "firstAscent": "Hans Stenlund",
       "description": "Traversera från start på Stjärnfall, #90, till Milkyway, #92, och klättra den.",
+      "sectorId": "milkyway",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -2258,6 +2445,7 @@
       "type": "Slopers,Reach",
       "firstAscent": "Carlos Cabrera",
       "description": "Sloper galore. Tejpa fingertopparna, gott folk! (Något lättare [6C+] om man använder list till höger vid skick till toppen.)",
+      "sectorId": "milkyway",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -2273,6 +2461,7 @@
       "type": "Krimp,Dyno",
       "firstAscent": "JN",
       "description": "Dyna från givna bra lister till toppen. Lite halvlångt och väldigt trevligt.",
+      "sectorId": "milkyway",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -2288,6 +2477,7 @@
       "type": "",
       "firstAscent": "Urban Dufva",
       "description": "(Är det sittstart?)",
+      "sectorId": "milkyway",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -2303,6 +2493,7 @@
       "type": "Krimp",
       "firstAscent": "Urban Dufva",
       "description": "Rakt upp över högsta punken. Hyllan och aretén till både höger och vänster är uteslutna.",
+      "sectorId": "milkyway",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -2318,6 +2509,7 @@
       "type": "Krimp",
       "firstAscent": "Pär Lindholm",
       "description": "Ståstart av Piri-piri. Inga uteslutningar. Rakt upp över toppen. Gjordes egentligen innan Piri-Piri av en snikig jäkel som snodde den eminenta sopare på hans FA... :)",
+      "sectorId": "milkyway",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -2333,6 +2525,7 @@
       "type": "Slopers,Travers H->V",
       "firstAscent": "Olof Wallin",
       "description": "Slopertravers i vinkel med Asteroid. Starta sittande i \"stolnichen\" vid björken och traversera mot starten till Asteroid där den slutar.",
+      "sectorId": "milkyway",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -2348,6 +2541,7 @@
       "type": "Krimp,Slopers",
       "firstAscent": "Jonas Wiklund",
       "description": "Följ krimprampen till höger om Milkyway rakt upp utan att escapa ut till vänster.",
+      "sectorId": "milkyway",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -2363,6 +2557,7 @@
       "type": "Slopers,Mantling",
       "firstAscent": "Anders Lidman & Pär Lindholm",
       "description": "Går 2 meter till vänster om nr 10, MP5. Starta hängande med båda händerna på slopern (lite tungt) och kanske en fot på hyllan under?",
+      "sectorId": "offspring",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -2378,6 +2573,7 @@
       "type": "Krimp,Dyno",
       "firstAscent": "JN",
       "description": "Sug surkrimprarna, sätt upp foten och flyyyg",
+      "sectorId": "offspring",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -2393,6 +2589,7 @@
       "type": "",
       "firstAscent": "JN",
       "description": "Sprickorna till höger är uteslutna.",
+      "sectorId": "offspring",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -2408,6 +2605,7 @@
       "type": "Krimp,Reach",
       "firstAscent": "CO, DK",
       "description": "Skum men charmig",
+      "sectorId": "offspring",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -2423,6 +2621,7 @@
       "type": "Layback,Spricka",
       "firstAscent": "DK, JN",
       "description": "Rakt upp i den stora sprickan.",
+      "sectorId": "offspring",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -2438,6 +2637,7 @@
       "type": "Krimp,Layback",
       "firstAscent": "JN, DK",
       "description": "Halvhögt problem på Offspring-blocket. Greppet du vill ta snett ute till vänster är inte med. Nästa grepp efter sidepull-rampen är precis rakt upp.",
+      "sectorId": "offspring",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -2453,6 +2653,7 @@
       "type": "Krimp,Aréte",
       "firstAscent": "JN",
       "description": "Snyggt men bängligt arete.",
+      "sectorId": "offspring",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -2468,6 +2669,7 @@
       "type": "Överhäng,Aréte,Heel hook",
       "firstAscent": "Linus",
       "description": "Start med händerna på stor list längst ned i sprickan i nederkant av stenen. Gå ut till Nitro.",
+      "sectorId": "offspring",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -2483,6 +2685,7 @@
       "type": "Krimp,Reach",
       "firstAscent": "DK, CO",
       "description": "Går på den lilla ensamma väggen just brevid Offspring blocket. Stora fetingen till höger utesluten. En sittstart kan även göras, boostar inte graden så värst men ett måste för sittstartälskaren.",
+      "sectorId": "offspring",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -2498,6 +2701,7 @@
       "type": "Dyno,Reach",
       "firstAscent": "DK, JN",
       "description": "Mycket skumt problem, inte så kul och svårt att gradera. Är du 1.90 så är det bara att ta tag och är du 1.50 så lycka till...",
+      "sectorId": "offspring",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -2513,6 +2717,7 @@
       "type": "Krimp,Aréte,Reach",
       "firstAscent": "JN",
       "description": "Mysko problem som många misslyckats på. Ett skumt hopp till kanten verkar vare det enda som funkar.",
+      "sectorId": "offspring",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -2528,6 +2733,7 @@
       "type": "Krimp,Slopers,Dyno",
       "firstAscent": "Johannes Nilsson",
       "description": "Startar som \"Time to Relax\" och traverserar sedan runt hörnet, avsluta med \"Pretty Fly\". Var 6C+ från början men få repetitioner har dragit upp graden. Svårare för korta.",
+      "sectorId": "offspring",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -2543,6 +2749,7 @@
       "type": "Krimp,Dyno",
       "firstAscent": "Magnus Öberg",
       "description": "Till vänster om Da Copa, nr 32. Dyno från sjysst krimp till toppen. Kanten är med om man vill men håll fötterna borta från stenen till vänster.",
+      "sectorId": "offspring",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -2558,6 +2765,7 @@
       "type": "Highball",
       "firstAscent": "Johannes Nilsson",
       "description": "Direkt till höger om Trad är Gay. Osäker grad, Johannes kom inte riktigt ihåg.",
+      "sectorId": "ravinen",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -2573,6 +2781,7 @@
       "type": "Krimp,Slopers,Pinch",
       "firstAscent": "",
       "description": "Tråkig landning",
+      "sectorId": "ravinen",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -2588,6 +2797,7 @@
       "type": "Krimp,Aréte",
       "firstAscent": "DK",
       "description": "Starta under taket och sen samma som den vanliga \"För Sverige I Tiden\". Boostar graden något. Kom gärna med kommentarer om graden.",
+      "sectorId": "ravinen",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -2603,6 +2813,7 @@
       "type": "Krimp",
       "firstAscent": "JN, DK",
       "description": "",
+      "sectorId": "ravinen",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -2618,6 +2829,7 @@
       "type": "Krimp,Reach",
       "firstAscent": "Johannes Nilsson",
       "description": "Ett groteskt sträck upp till toppen eller massiv krimpstyrka är vad som krävs. Arêtet till H är uteslutet. Spottaren står på stenen bakom och drar klättraren till sig vid fall.",
+      "sectorId": "ravinen",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -2633,6 +2845,7 @@
       "type": "Jug",
       "firstAscent": "JN, DK",
       "description": "Vacker sten ger namnet. Otroligt lätt men skön som uppmjukning inför dagens uppvärmning.",
+      "sectorId": "ravinen",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -2648,6 +2861,7 @@
       "type": "Mantling,Dyno",
       "firstAscent": "",
       "description": "Hoppa från \"andra sidan\" till toppen av 22 och mantla upp.",
+      "sectorId": "ravinen",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -2663,6 +2877,7 @@
       "type": "",
       "firstAscent": "DK",
       "description": "MYCKET annorlunda problem. Rekommenderas! Du ska alltså stämma med hela kroppen mot väggen bakom tills du når toppen med händerna och då släppa in fötterna och sen mantla upp. Väldigt morpho på sitt sätt.",
+      "sectorId": "ravinen",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -2678,6 +2893,7 @@
       "type": "Slopers,Mantling",
       "firstAscent": "Johannes Nilsson",
       "description": "Starta längst till H på löjligt låg sten och traversera sedan längs kanten ända runt hörnet på V sida. Mantla upp på kortsidan.",
+      "sectorId": "ravinen",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -2693,6 +2909,7 @@
       "type": "Dyno,Jug",
       "firstAscent": "DK, JN",
       "description": "Dyna från den nedre kanten till den övre. Inga statiska medel tillåtna.",
+      "sectorId": "ravinen",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -2708,6 +2925,7 @@
       "type": "Layback,Highball,Reach",
       "firstAscent": "Jonas Wiklund",
       "description": "Halv-Highball mitt på den största väggen. Med ett högt krux och ett känsligt sista move har det här blvit en omtalad gobit.",
+      "sectorId": "ravinen",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -2723,6 +2941,7 @@
       "type": "Krimp,Överhäng,Reach",
       "firstAscent": "Hans Stenlund",
       "description": "Starta i undercling/sidepull med hö hand och slope i sprickan med vä hand och fötterna långt nere. Sen är det fri fart till toppen. Lååångt sträck till risig crimp som man sen tvingas hålla allt för länge.",
+      "sectorId": "ravinen",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -2738,6 +2957,7 @@
       "type": "Överhäng,Reach,Spricka",
       "firstAscent": "DK",
       "description": "Grymt fint problem, ligger dock lite tråkigt till i skuggsida men den fina klättringen väger upp. En sittstart gjordes några månader efter FA av Hans Stenlund och fick områdets hårdaste grad.",
+      "sectorId": "ravinen",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -2753,6 +2973,7 @@
       "type": "Krimp,Överhäng,Spricka",
       "firstAscent": "Urban Dufva",
       "description": "Självklar \"linkup\"! Samma start som \"Another Biz\" [ss]. Avsluta med \"Magistratet\" till vänster.",
+      "sectorId": "ravinen",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -2768,6 +2989,7 @@
       "type": "Layback,Highball,Spricka",
       "firstAscent": "",
       "description": "",
+      "sectorId": "ravinen",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -2783,6 +3005,7 @@
       "type": "Slopers,Reach",
       "firstAscent": "DK",
       "description": "Starta på märkta startgrepp. Traversera längs rampen och sen upp i änden. Småbökig & småkul.",
+      "sectorId": "ravinen",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -2798,6 +3021,7 @@
       "type": "Krimp,Highball",
       "firstAscent": "",
       "description": "Går numera förbi de markerade greppen till toppen.",
+      "sectorId": "ravinen",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -2813,6 +3037,7 @@
       "type": "Jug,Spricka",
       "firstAscent": "DK",
       "description": "Riktigt skitproblem. Tillverkades endast i syfte att fylla ut under en SBO tävling. Klättra & kryssa i, inget mer.",
+      "sectorId": "ravinen",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -2828,6 +3053,7 @@
       "type": "Highball,Jug,Spricka",
       "firstAscent": "?? (nån gång på 80-talet)",
       "description": "Mycket hög men också mycket lätt. Kul på sitt sätt men var säker på att komma upp. Att falla finns inte här.",
+      "sectorId": "ravinen",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -2843,6 +3069,7 @@
       "type": "Dyno",
       "firstAscent": "Jonas?",
       "description": "Sprickan och areten till höger är utesluten. Kliv upp på hyllan, stå no-hands och ladda... Helt ograderbar från 4A-6A beroende på längd och mental status...",
+      "sectorId": "ravinen",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -2858,6 +3085,7 @@
       "type": "Spricka",
       "firstAscent": "?",
       "description": "Hög spricka, troligtvis klättrad första gången för 100 år sen... Namnförslag någon?",
+      "sectorId": "ravinen",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -2873,6 +3101,7 @@
       "type": "Slopers,Travers V->H",
       "firstAscent": "Jonas Wiklund",
       "description": "Häng in vid startgreppen, traversera höger en meter och gå upp samma utstem som nr 70, Bootylisious.",
+      "sectorId": "ravinen",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -2888,6 +3117,7 @@
       "type": "Krimp,Aréte",
       "firstAscent": "Jonas Wiklund",
       "description": "Ytterhörnet 5 meter till höger om #1 (För Sverige i tiden).",
+      "sectorId": "ravinen",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -2903,6 +3133,7 @@
       "type": "Krimp,Slab",
       "firstAscent": "Magnus Eriksson",
       "description": "Till höger om #22. Sprickan till vänster och kanten till höger är givetvis uteslutna (ni förstår varför när ni ser det).",
+      "sectorId": "ravinen",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -2918,6 +3149,7 @@
       "type": "Krimp,Överhäng",
       "firstAscent": "HJ, UB",
       "description": "Inte direkt några uteslutningar men man får hålla sig i mitten. \"Linjen\" skådades för länge sen men det var inte föränn landningen renoverades inför sbo 2003 som den borstades och klättrades. Går ca 5m till höger om nr 1 För Sverige I Tiden.",
+      "sectorId": "ravinen",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -2933,6 +3165,7 @@
       "type": "Aréte,Jug",
       "firstAscent": "JN",
       "description": "Skapad för sbo 2003. Det dåliga namnet har en bra förklaring. Ligger snett mitt i mot nr 51 Another Biz, långt till vänster på stora väggen allstå.",
+      "sectorId": "ravinen",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -2948,6 +3181,7 @@
       "type": "",
       "firstAscent": "UD",
       "description": "Klassiskt sur-dieder som borstades av Dufva inför sbo 2003. Numera helt ok pga förbättrad landning. Ligger ca 5m till höer om nr 1 För Sverige i Tiden.",
+      "sectorId": "ravinen",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -2963,6 +3197,7 @@
       "type": "Krimp,Pinch,Reach",
       "firstAscent": "DK, JN, HJ",
       "description": "Bakom en rönnjävel hittades detta ganska trevliga problem. Rakt upp vid siffra mitt på väggen, arête-hyllan på slutet är med. Lite synd på landningen dock (sten & stubbe). Går längst till vänster på stora väggen, snett mitt i mot nr 51 - Another Biz.",
+      "sectorId": "ravinen",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -2978,6 +3213,7 @@
       "type": "Jug,Spricka",
       "firstAscent": "JN",
       "description": "Efter en renovering av den dåliga landningen gjordes inför sbo 2003. Något svårare än den ser ut men fortfarande lätt. Ligger ca 5m till höger om nr 1 För Sverige i Tiden.",
+      "sectorId": "ravinen",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -2993,6 +3229,7 @@
       "type": "Mantling,Aréte,Jug",
       "firstAscent": "JN, HJ",
       "description": "Det givna arêtet mitt i mot Anoter Biz. Ligger till vänster om nr 20 A.I.D.Ta med en vaken spottare och en padda om du inte garenterat kommer upp på en gång.",
+      "sectorId": "ravinen",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -3008,6 +3245,7 @@
       "type": "Slab,Highball",
       "firstAscent": "JW -03",
       "description": "Svaplattan till vänster om Trad är Gay. Gå mitt på väggen till vänster om den grova sprickan som naturligtvis inte får användas.",
+      "sectorId": "ravinen",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -3023,6 +3261,7 @@
       "type": "Överhäng",
       "firstAscent": "",
       "description": "Går till vänster om #51 Another Jam. Den stora vertikala sprickan på Bizen är utesluten. Startar med höger hand i tvärsprickan.",
+      "sectorId": "ravinen",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -3038,6 +3277,7 @@
       "type": "Slopers,Mantling",
       "firstAscent": "jag m.fl",
       "description": "start vid siffran mitt på läppen just till vänster om starten på bootylisous, häng in och surmantla utan att glida över varken till höger eller vänster",
+      "sectorId": "ravinen",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -3053,6 +3293,7 @@
       "type": "Krimp",
       "firstAscent": "JN & DK",
       "description": "Går på blocket mitt emot Pingu. På den \"branta\" sidan. Inget märkvärdigt att gå hit för men helt ok om du ska köra nåt annat i närheten.",
+      "sectorId": "gamla-damen",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -3068,6 +3309,7 @@
       "type": "Spricka",
       "firstAscent": "Urban Dufva",
       "description": "Fin fingerspricka",
+      "sectorId": "gamla-damen",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -3083,6 +3325,7 @@
       "type": "Krimp,Layback",
       "firstAscent": "Urban Dufva",
       "description": "Om du står vid Walk in the Park sett nerifrån så ligger problemet ca 40 m till vänster på en bred vägg. Startprickar finns just nu innan siffror målas dit. Gå till höger om ett litet tak rakt upp.",
+      "sectorId": "gamla-damen",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -3098,6 +3341,7 @@
       "type": "Krimp",
       "firstAscent": "Urban Dufva",
       "description": "Problemet ligger ca 5 m till höger om Den gamla damen. Syns ganska tydligt vart det är sopat. Ett par problem till är framsopade i detta område men är ännu projekt",
+      "sectorId": "gamla-damen",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -3113,6 +3357,7 @@
       "type": "Slopers,Överhäng",
       "firstAscent": "Jens Åström",
       "description": "Ligger 2 meter till vänster om nr 161, Den Gamla Damen. Upp över det lilla taket. Sprickan till höger används inte vid mantlingen.",
+      "sectorId": "gamla-damen",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -3128,6 +3373,7 @@
       "type": "Spricka",
       "firstAscent": "Peter Berggren?",
       "description": "100% givet. Starta i sprickan och följ den till toppen. Ligger 20 meter längre ner i skogen sett från #44 Backdraft.",
+      "sectorId": "y-front-skogen",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -3143,6 +3389,7 @@
       "type": "Krimp,Reach",
       "firstAscent": "JN",
       "description": "Starta i dåligt sidepull för H hand och lite bättre sidepull för V hand. Svårt förstamove sen lite lättare. Fin på sitt vis men kan vara ganska frustrerande. Var 6C från början men har åkt upp sen dess. OBS! Hopp ej tillåtet!",
+      "sectorId": "y-front-skogen",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -3158,6 +3405,7 @@
       "type": "Krimp,Reach",
       "firstAscent": "Jonas Wiklund?",
       "description": "Startar, med båda händerna, i den stora vågräta sprickan. Vi som inte har händer i damstorlek har väldiga problem att göra mer än just starta. Rekommenderas om du har smala [och starka] fingrar!",
+      "sectorId": "y-front-skogen",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -3173,6 +3421,7 @@
       "type": "Krimp,Layback,Travers V->H",
       "firstAscent": "JW (?)",
       "description": "Traversera längst startsprickan av \"Farfars Y-Front\" (starta aningen till V om Y-Front)tills du kommer till ett flak, följ flaket till kanten. Svårare för långa.",
+      "sectorId": "y-front-skogen",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -3188,6 +3437,7 @@
       "type": "Krimp,Slopers,Mantling",
       "firstAscent": "JW, HS",
       "description": "Klockren fontan-avslutning. Områdets hårdaste topout men väl värd några försök. Sittstarten suger också lite kraft men det är på slutet som folk brukar falla.",
+      "sectorId": "y-front-skogen",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -3203,6 +3453,7 @@
       "type": "Spricka",
       "firstAscent": "JN",
       "description": "Sprickan till vänster om Crimp Master Flash. Gjordes inför SBO 2002 för att få fram lite lättare saker.",
+      "sectorId": "y-front-skogen",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -3218,6 +3469,7 @@
       "type": "Krimp,Mantling",
       "firstAscent": "JN, FW",
       "description": "Sittstart i listerna under taket sen mer eller mindre direkt upp till kanten. 1 eller 2 move + mantling beroende på längd. Ingenting för crimphatare.",
+      "sectorId": "y-front-skogen",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -3233,6 +3485,7 @@
       "type": "Slopers",
       "firstAscent": "Johannes Nilsson",
       "description": "Se till att ha aktiva spottare så blir det nog bra.",
+      "sectorId": "y-front-skogen",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -3248,6 +3501,7 @@
       "type": "Travers H->V",
       "firstAscent": "Carola Sigurd",
       "description": "En väldigt låg travers (i starten) som går runt ett hörn och sedan upp.",
+      "sectorId": "y-front-skogen",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -3263,6 +3517,7 @@
       "type": "",
       "firstAscent": "Carola Sigurd",
       "description": "",
+      "sectorId": "y-front-skogen",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -3278,6 +3533,7 @@
       "type": "Krimp,Layback,Spricka",
       "firstAscent": "Carola Sigurd",
       "description": "Sjysst problem.",
+      "sectorId": "y-front-skogen",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -3293,6 +3549,7 @@
       "type": "",
       "firstAscent": "Carola Sigurd",
       "description": "",
+      "sectorId": "y-front-skogen",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -3308,6 +3565,7 @@
       "type": "Krimp",
       "firstAscent": "Carola Sigurd",
       "description": "En av de sämre problemen i skogen. Ska glömmas bort.",
+      "sectorId": "y-front-skogen",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -3323,6 +3581,7 @@
       "type": "Jug,Spricka",
       "firstAscent": "Carola Sigurd",
       "description": "Fint lätt problem!",
+      "sectorId": "y-front-skogen",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -3338,6 +3597,7 @@
       "type": "Krimp",
       "firstAscent": "Urban Dufva",
       "description": "Rakt upp vid siffran.",
+      "sectorId": "y-front-skogen",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -3353,6 +3613,7 @@
       "type": "",
       "firstAscent": "Magnus Ö/Micke E",
       "description": "Precis till vänster om 112, restriktionerna är att hålla sej mellan sprickorna (rätt naturligt när man ser problemet) graden är runt 5Cish och namnet är The Gimp.",
+      "sectorId": "y-front-skogen",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -3368,6 +3629,7 @@
       "type": "",
       "firstAscent": "Jens Åström",
       "description": "Löst block som nyckelgrepp tar ner kvalitén. Annars kul, bra att va smålång! Fin friktion på stenen! Just under 30 m åt vänster om man tittar på Crimp Master Flash.",
+      "sectorId": "y-front-skogen",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -3383,6 +3645,7 @@
       "type": "Slopers",
       "firstAscent": "JN",
       "description": "Låg sten och lågt problem. De flesta hade mkt svårt för denna på sbo 2003 och graden 6c verkar lite väl låg. Stenarna under är uteslutna, bara huvudstenen är med. Ligger ca 15 m ovan/till hö om nr 52 Farfars Y-Front. Testa och kommentera!",
+      "sectorId": "y-front-skogen",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -3398,6 +3661,7 @@
       "type": "",
       "firstAscent": "DK, JN",
       "description": "Stora grepp och mkt mossa",
+      "sectorId": "norra-asen",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -3413,6 +3677,7 @@
       "type": "",
       "firstAscent": "JN, DK",
       "description": "En stor sten föll ner här, nu är den.. .annorlunda",
+      "sectorId": "norra-asen",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -3428,6 +3693,7 @@
       "type": "Layback,Spricka",
       "firstAscent": "Johannes Nilsson",
       "description": "Följ sprickan upp höger från siffran. Borstades fram inför första SBO tävlingen.",
+      "sectorId": "norra-asen",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -3443,6 +3709,7 @@
       "type": "",
       "firstAscent": "JN",
       "description": "Håll dig mellan sprickorna på båda sidor så håller den graden, annars betydligt lättare.",
+      "sectorId": "norra-asen",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -3458,6 +3725,7 @@
       "type": "Mantling",
       "firstAscent": "JN & DK",
       "description": "Fint och högt problem där tyvärr en stubbe gör mantlingen ytterliggare ett snäpp nervös.",
+      "sectorId": "norra-asen",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -3473,6 +3741,7 @@
       "type": "Överhäng,Reach,Jug",
       "firstAscent": "DK, JN",
       "description": "Börjar inne i en liten mini-grotta och sen rakt ut över taket och mantla. Bökig om man är lång då fötterna lätt tar i marken. Även sk. skitproblem.",
+      "sectorId": "norra-asen",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -3488,6 +3757,7 @@
       "type": "Jam,Spricka",
       "firstAscent": "DK, JN",
       "description": "Tryck in händerna i ett rejält jam och så är det bara att böka sig upp. Lättare för långa personer som når högre i början. Bör gå att sittstarta på om det nu ger nånting förutom grad.",
+      "sectorId": "norra-asen",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -3503,6 +3773,7 @@
       "type": "Jam,Spricka",
       "firstAscent": "JN, DK",
       "description": "Handjam spricka m sittstart. Använd bara sprickan. TEJPA INNAN!",
+      "sectorId": "norra-asen",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -3518,6 +3789,7 @@
       "type": "Krimp,Jug",
       "firstAscent": "Urban Dufva",
       "description": "Ett problem lite vid sidan av. Balans krävs.",
+      "sectorId": "norra-asen",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -3533,6 +3805,7 @@
       "type": "Jug",
       "firstAscent": "CC;CW",
       "description": "4m till höger om nr 31 Mosquito. Börja längst in i diedret och klättra sedan snett t.v. mot aretet.",
+      "sectorId": "norra-asen",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -3548,6 +3821,7 @@
       "type": "Mantling,Spricka",
       "firstAscent": "CC,CW",
       "description": "6m till höger om nr 31 Mosqito. Starta in djupt mellan 2 stenar med händerna i tvärprickan, fötterna bör vara uppe på väggen innan du startar. Högra diederformationen utesluten. Sedan bara rakt upp. Lite skrämmande...",
+      "sectorId": "norra-asen",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -3563,6 +3837,7 @@
       "type": "Jug",
       "firstAscent": "Cathis",
       "description": "Ligger direkt till vänster om Jay Lenos haka. Starta sittande inne i klykan. Sen autobahn upp.",
+      "sectorId": "obelix",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -3578,6 +3853,7 @@
       "type": "Slab",
       "firstAscent": "Hazzo",
       "description": "Direkt till höger om Jay Leno. Starta vid lilla aretet sen rakt upp.",
+      "sectorId": "obelix",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -3593,6 +3869,7 @@
       "type": "Mantling",
       "firstAscent": "Hazzo",
       "description": "Runt hörnet till vänster om Jay Leno. Starta i tvärspricka till höger på väggen sen rakt upp över högsta punkt.",
+      "sectorId": "obelix",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -3608,6 +3885,7 @@
       "type": "Jug",
       "firstAscent": "Hazzo",
       "description": "Runt hörnet till vänster om Jay Leno. Starta i tvärsprickan längst till vänster på väggen, linje med det lilla trädet på toppen, sen rakt upp",
+      "sectorId": "obelix",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -3623,6 +3901,7 @@
       "type": "",
       "firstAscent": "Hazzo",
       "description": "Bakom Obelix på en ensam liten vägg. Starta sittande i den låga tvärsprickan sen rakt upp via en krimp.",
+      "sectorId": "obelix",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -3638,6 +3917,7 @@
       "type": "Spricka",
       "firstAscent": "Hazzo",
       "description": "Bakom Obelix på en ensam liten vägg. Starta i sprickan till höger om miffo sen rakt upp",
+      "sectorId": "obelix",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -3653,6 +3933,7 @@
       "type": "Krimp,Aréte,Reach",
       "firstAscent": "DK, JW, UD",
       "description": "Starta sittade på aretet och följ det upp. Ganska fritt med grepp men man ska går upp längs aretet och inte vika av för mkt åt vänster. Ganska givet. Stenen hittas genom att gå \"rakt fram\" genom sand/sten taget vid masten.",
+      "sectorId": "obelix",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -3668,6 +3949,7 @@
       "type": "Överhäng,Aréte",
       "firstAscent": "Daniel Widell",
       "description": "Ligger 30 m till vänster om Obelix.Sittstart rakt under hakan. När väl baken är av marken så klättra på uppåt via stora goda grepp mitt på hakan (aréten).",
+      "sectorId": "obelix",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -3683,6 +3965,7 @@
       "type": "Aréte",
       "firstAscent": "CC,CW",
       "description": "På högra aretet i \"Obelixstenen\". Lägg händerna på aretet (brösthöjd) och etablera fötterna på stenytan först innan du börjar klättra. Rolig aretklättring",
+      "sectorId": "obelix",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -3698,6 +3981,7 @@
       "type": "Krimp,Reach",
       "firstAscent": "JN ?",
       "description": "Rakt upp vid siffran...",
+      "sectorId": "obelix",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -3713,6 +3997,7 @@
       "type": "",
       "firstAscent": "Jens Åström",
       "description": "Nummret är ledigt.",
+      "sectorId": "obelix",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -3728,6 +4013,7 @@
       "type": "Slopers,Mantling",
       "firstAscent": "Jonas Wiklund?",
       "description": "Håller sig mellan #75 och #76, dvs sprickan till vänster och väggen till höger är uteslutna. Krystat utsteg men ändå ett fint problem. Grad?",
+      "sectorId": "obelix",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -3743,6 +4029,7 @@
       "type": "Jug",
       "firstAscent": "Urban Dufva",
       "description": "Kruxig att komma upp från backen.",
+      "sectorId": "obelix",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -3758,6 +4045,7 @@
       "type": "Krimp",
       "firstAscent": "UD",
       "description": "Makalöst lågt problem.",
+      "sectorId": "obelix",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -3773,6 +4061,7 @@
       "type": "Travers H->V",
       "firstAscent": "",
       "description": "Travers H->V som avslutas med en intressant mantling. Starta inne i hörnet och traversera ut till pilen och sedan upp.",
+      "sectorId": "obelix",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -3788,6 +4077,7 @@
       "type": "Jug",
       "firstAscent": "Fredrik&Carola",
       "description": "",
+      "sectorId": "obelix",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -3803,6 +4093,7 @@
       "type": "Jug",
       "firstAscent": "Fredrik&Carola",
       "description": "Grad?",
+      "sectorId": "obelix",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -3818,6 +4109,7 @@
       "type": "Slopers,Överhäng,Travers V->H",
       "firstAscent": "-",
       "description": "V->h sedan ut som #133. Behöver avkristalliseras en hel del innan den kan klättras. Borde inte bli allt för hård men det är nog bara ingen som orkat ännu.",
+      "sectorId": "obelix",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"
@@ -3833,6 +4125,7 @@
       "type": "Slopers,Mantling,Reach",
       "firstAscent": "DK, JN, UB",
       "description": "Ännu ett problem för sbo 2003. Arêtet är uteslutet. Starta i prickarna och kravla dig upp. Namnet kom ganska naturligt. Ligger på samma sten (samma start) som nr 87 Skrubbsår.",
+      "sectorId": "obelix",
       "source": {
         "id": "legacy:skravel",
         "path": "mediawiki/Skravel.txt"

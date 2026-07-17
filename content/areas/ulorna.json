@@ -23,6 +23,16 @@
       "body": "Miljön är gudomlig. Gigantiska ljusa granitklippor ovanför en vacker stenstrand intill fjorden. Värt ett besök om än bara för att se och bada. Många fina leder och även en held del aidturer."
     },
     {
+      "id": "karaktar",
+      "title": "Karaktär",
+      "body": ""
+    },
+    {
+      "id": "vagbeskrivning",
+      "title": "Vägbeskrivning",
+      "body": ""
+    },
+    {
       "id": "access",
       "title": "Access",
       "body": "Det har varit häckande fåglar på Ulorna i år med och klippan har varit frivilligt stängd f.o.m 15/3. Klippan är nu öppen igen för klättring efter 15/7."
@@ -43,6 +53,21 @@
       "body": "En ny klippa med friturer, Ulorna Norra, har också öppnats. Den ligger närmre hamnen där man parkerar."
     },
     {
+      "id": "leder",
+      "title": "Leder",
+      "body": ""
+    },
+    {
+      "id": "delikatessen-vaggen",
+      "title": "Delikatessen Väggen",
+      "body": ""
+    },
+    {
+      "id": "hyllan",
+      "title": "Hyllan",
+      "body": ""
+    },
+    {
       "id": "sodra-vaggen",
       "title": "Södra Väggen",
       "body": "Kategori:Bohuslän Kategori:trad Kategori:sport Kategori:sva Kategori:vertikalt Kategori:access category:Aid"
@@ -59,6 +84,7 @@
       "type": "trad",
       "firstAscent": "Magnus Strömhäll, Mattias Hallsten -01",
       "description": "Off-width",
+      "sectorId": "delikatessen-vaggen",
       "source": {
         "id": "legacy:ulorna",
         "path": "mediawiki/Ulorna.txt"
@@ -74,6 +100,7 @@
       "type": "trad",
       "firstAscent": "Stefan Nilsson, Petter Restorp -06",
       "description": "Linjen till vänster om Amfibiechips. Efter att på lämpligt sätt tagit sig till den lilla fyrkantiga hyllan strax ovanför vattenbrynet så är det bara rakt upp på varierande breda sprickor. Brant och trevlig klättring med goda säkringar. Leden gjordes ground-up så graden är lite osäker...",
+      "sectorId": "delikatessen-vaggen",
       "source": {
         "id": "legacy:ulorna",
         "path": "mediawiki/Ulorna.txt"
@@ -89,6 +116,7 @@
       "type": "trad",
       "firstAscent": "Geir Arne Bore -03",
       "description": "Klättra diedret till taket. Traversera vänster in i nästa dieder. Bultat firningsankare på nästa led kan användas.",
+      "sectorId": "delikatessen-vaggen",
       "source": {
         "id": "legacy:ulorna",
         "path": "mediawiki/Ulorna.txt"
@@ -104,6 +132,7 @@
       "type": "sport",
       "firstAscent": "?",
       "description": "den enda bultade leden.",
+      "sectorId": "delikatessen-vaggen",
       "source": {
         "id": "legacy:ulorna",
         "path": "mediawiki/Ulorna.txt"
@@ -119,6 +148,7 @@
       "type": "trad",
       "firstAscent": "Tom Cossgriff -04",
       "description": "Ett måste för den aspirerande tradhjälten. En sagolik kombination av tåspetsdans, rå kraft och mental kontroll. Startar i hörnet vid ett litet båtskjul. Smart att göra standplats på den lilla gräshyllan efter 15meter.",
+      "sectorId": "delikatessen-vaggen",
       "source": {
         "id": "legacy:ulorna",
         "path": "mediawiki/Ulorna.txt"
@@ -134,6 +164,7 @@
       "type": "trad",
       "firstAscent": "Ulrika Tiegs Jappe Pålsgård-06",
       "description": "Startar som Delikatessen men kliver ut på vänsterväggens fingersprickor under det tunna hörnet. Standplats under toppväggen. Vidare upp toppväggen i risslinje till vänster om Delikatessen. Mycket varierad och fin klättring.",
+      "sectorId": "delikatessen-vaggen",
       "source": {
         "id": "legacy:ulorna",
         "path": "mediawiki/Ulorna.txt"
@@ -149,6 +180,7 @@
       "type": "trad",
       "firstAscent": "Petter Restorp, Stefan Wulf -08",
       "description": "Startar vid nästa arete. Hangla ut höger och upp. En firningsbult.",
+      "sectorId": "delikatessen-vaggen",
       "source": {
         "id": "legacy:ulorna",
         "path": "mediawiki/Ulorna.txt"
@@ -164,6 +196,7 @@
       "type": "trad",
       "firstAscent": "Bjørn-Eivind Årtun -03",
       "description": "En superled där allt stämmer.",
+      "sectorId": "delikatessen-vaggen",
       "source": {
         "id": "legacy:ulorna",
         "path": "mediawiki/Ulorna.txt"
@@ -179,6 +212,7 @@
       "type": "trad",
       "firstAscent": "Petter Restorp -05",
       "description": "Väggen till höger om Superdierdern. Klättra första 5 metrarna gemensam med Ibens bok och ge dig sedan ut på väggen. Välj den högra sprickan till ankaret där sprickorna delar sig.",
+      "sectorId": "delikatessen-vaggen",
       "source": {
         "id": "legacy:ulorna",
         "path": "mediawiki/Ulorna.txt"
@@ -194,6 +228,7 @@
       "type": "trad",
       "firstAscent": "Jappe Pålsgård, Tina Jørgensen -03",
       "description": "Linjen till höger om led nr 10 på strandväggen. Fast firningsslinga med en skruvkarbini en kraftig en på toppen.",
+      "sectorId": "delikatessen-vaggen",
       "source": {
         "id": "legacy:ulorna",
         "path": "mediawiki/Ulorna.txt"
@@ -209,6 +244,7 @@
       "type": "trad",
       "firstAscent": "Stefan Nilsson, Petter Restorp -06",
       "description": "Leden föjer de vänstraste dubbelsprickorna. Kort men brant klättring på mestadels goda handjam. Välsäkrad.",
+      "sectorId": "hyllan",
       "source": {
         "id": "legacy:ulorna",
         "path": "mediawiki/Ulorna.txt"
@@ -224,6 +260,7 @@
       "type": "trad",
       "firstAscent": "Petter Restorp, Stefan Nilsson -06",
       "description": "Leden går på branta väggen upp och till vänster om Delikatessen. Starta framför en liten rönn och klättra dubbelsprickorna. Brant, men ge dig inte! Välsäkrad. Förstabestigningen gjordes on-sight, så den kan vara något smulig.",
+      "sectorId": "hyllan",
       "source": {
         "id": "legacy:ulorna",
         "path": "mediawiki/Ulorna.txt"
@@ -239,6 +276,7 @@
       "type": "trad",
       "firstAscent": "Petter Restorp, Hanna Mellin -07",
       "description": "En fantastisk upplevelse trots att den är kort! Klättra den överhängande sprickan som går genom ett tydligt svart vattenstråk. Mycket välsäkrad.",
+      "sectorId": "hyllan",
       "source": {
         "id": "legacy:ulorna",
         "path": "mediawiki/Ulorna.txt"
@@ -254,6 +292,7 @@
       "type": "trad",
       "firstAscent": "Ulrika Tiegs Jappe Pålsgård -06",
       "description": "Denna leden startar egentligen från marken, men kan klättras från hyllan. Följer linjen till vänster om Delikatessen.",
+      "sectorId": "hyllan",
       "source": {
         "id": "legacy:ulorna",
         "path": "mediawiki/Ulorna.txt"
@@ -269,6 +308,7 @@
       "type": "trad",
       "firstAscent": "Jonas Paulsson -08",
       "description": "Leden går i vänstra delen på den stora svaväggen längs nedstigningen till Ulorna. Starta i den tydliga vänstervända diedern och kliv över ett litet mothäng. Fortsätt i diagonal spricka något åt vänster, för att sedan vika av upp åt höger. Du kommer då upp till ett litet \"flakhål\" på väggen. Härifrån ett par känsliga och tekniska flytt rakt upp och sedan något vänster igen till toppen. Dubbelrep inte så dumt.",
+      "sectorId": "sodra-vaggen",
       "source": {
         "id": "legacy:ulorna",
         "path": "mediawiki/Ulorna.txt"
@@ -284,6 +324,7 @@
       "type": "trad",
       "firstAscent": "?",
       "description": "Fin spricklinje.",
+      "sectorId": "sodra-vaggen",
       "source": {
         "id": "legacy:ulorna",
         "path": "mediawiki/Ulorna.txt"
@@ -299,6 +340,7 @@
       "type": "trad",
       "firstAscent": "Jappe Pålsgård -03",
       "description": "Välsäkrad och fin. Firningsankare.",
+      "sectorId": "sodra-vaggen",
       "source": {
         "id": "legacy:ulorna",
         "path": "mediawiki/Ulorna.txt"
@@ -314,6 +356,7 @@
       "type": "trad",
       "firstAscent": "Jan Liliemark",
       "description": "Det stora röda diedret i takväggens vänstra del leddes någon gång för 20 år sedan av Jan Liliemark men utan att rapporteras. Nu, 2003, repeterad och namngiven av Ulrika Tiegs. Insteg till botten av diedret från höger, eller den giftigare starten nere till vänster, via en liten en. Alpin kalastur med pondus!",
+      "sectorId": "sodra-vaggen",
       "source": {
         "id": "legacy:ulorna",
         "path": "mediawiki/Ulorna.txt"
@@ -329,6 +372,7 @@
       "type": "trad",
       "firstAscent": "Niklas Björnerstedt, Tina Jørgensen -03",
       "description": "Det mittre av de tre tydliga taken, som också är loite V-format. Det är stor risk för att repet kilar sig efter att man har passerat taket. Lägg en säkring i sprickan som går ut åt höger efter taket för att undvika problem.",
+      "sectorId": "sodra-vaggen",
       "source": {
         "id": "legacy:ulorna",
         "path": "mediawiki/Ulorna.txt"
@@ -344,6 +388,7 @@
       "type": "trad",
       "firstAscent": "Geir Arne Bore, Jappe Pålsgård -05",
       "description": "En fantastisk resa upp från havet till toppen av klippan. Följer Resningen upp till genom taket och skjuter sedan skrått upp höger längs sprickor genom bulken de nästan 30 meterna upp till standplatsen. Lite opptak med halvgode sikringer i venstre kant av hylla fører til toppen av klippen. Förstabestigningen leddes on-sight.",
+      "sectorId": "sodra-vaggen",
       "source": {
         "id": "legacy:ulorna",
         "path": "mediawiki/Ulorna.txt"
@@ -359,6 +404,7 @@
       "type": "trad",
       "firstAscent": "Jonas Paulsson -07",
       "description": "Den vänstra av de grunda diederformationerna runt hörnet till höger om Tiega för guld. Fin, känslig klättring i och på kanten av hörnet leder upp till standplatsen på Tiega för guld. Delvis tunt säkrad. Ta med småkilar.",
+      "sectorId": "sodra-vaggen",
       "source": {
         "id": "legacy:ulorna",
         "path": "mediawiki/Ulorna.txt"
@@ -374,6 +420,7 @@
       "type": "trad",
       "firstAscent": "Andreas Holm, Petter Restorp",
       "description": "En bit till höger om Tiega För Guld.",
+      "sectorId": "sodra-vaggen",
       "source": {
         "id": "legacy:ulorna",
         "path": "mediawiki/Ulorna.txt"
@@ -389,6 +436,7 @@
       "type": "trad",
       "firstAscent": "Geir Arne Bore -05",
       "description": "Onsight fribestigning av det første og tydeligste risset på dobbeltsprekkveggen lengs til høyre. Jevn og fin. Möjligen Beamer fritt??",
+      "sectorId": "sodra-vaggen",
       "source": {
         "id": "legacy:ulorna",
         "path": "mediawiki/Ulorna.txt"

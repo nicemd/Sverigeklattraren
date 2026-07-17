@@ -13,6 +13,31 @@
       "body": "Ett större område än Vikmanshyttan, kan säkerligen komma att rymma minst ett 20-tal problem tids nog. Än sålänge är bara en bråkdel utvecklat men mer är på G. Bla en supernajs och luftig Arete. Soon to come /c"
     },
     {
+      "id": "vagbeskrivning",
+      "title": "Vägbeskrivning",
+      "body": ""
+    },
+    {
+      "id": "omraden",
+      "title": "Områden",
+      "body": ""
+    },
+    {
+      "id": "frontal",
+      "title": "Frontal",
+      "body": ""
+    },
+    {
+      "id": "skogen",
+      "title": "Skogen",
+      "body": ""
+    },
+    {
+      "id": "myren",
+      "title": "Myren",
+      "body": ""
+    },
+    {
       "id": "projekt",
       "title": "Projekt",
       "body": "Alla är öppna, klättra för njutningen inte äran. Om ni klättrar något nytt, snälla fota och för in här så att vi kan hålla koll på vad som är ogjort."
@@ -29,6 +54,7 @@
       "type": "",
       "firstAscent": "",
       "description": "Grön linje, SS, Kort cruxig tur på areten till vänster på väggen/blocket.",
+      "sectorId": "frontal",
       "source": {
         "id": "legacy:turbo",
         "path": "mediawiki/Turbo.txt"
@@ -44,6 +70,7 @@
       "type": "",
       "firstAscent": "",
       "description": "Röd linje, SS, Kort lite sträckig tur mitt på väggen. Börjar nere till höger på dubbellister och drar sedan upp åt vänster via sidolist. Areterna elim för händerna.",
+      "sectorId": "frontal",
       "source": {
         "id": "legacy:turbo",
         "path": "mediawiki/Turbo.txt"
@@ -59,6 +86,7 @@
       "type": "",
       "firstAscent": "",
       "description": "Blå linje, SS, Den högra areten helt enkelt.",
+      "sectorId": "frontal",
       "source": {
         "id": "legacy:turbo",
         "path": "mediawiki/Turbo.txt"
@@ -74,6 +102,7 @@
       "type": "",
       "firstAscent": "",
       "description": "Blå linje, Startas lättast på två crimpar vardera sida om areten, drar sedan efter catch ut åt höger",
+      "sectorId": "frontal",
       "source": {
         "id": "legacy:turbo",
         "path": "mediawiki/Turbo.txt"
@@ -89,6 +118,7 @@
       "type": "",
       "firstAscent": "",
       "description": "Röd linje, Startas lättast på två crimpar vardera sida om areten, följ areten åt vänster på slopers och toppa ut via skönt 'homesafe' kristallgrepp",
+      "sectorId": "frontal",
       "source": {
         "id": "legacy:turbo",
         "path": "mediawiki/Turbo.txt"
@@ -104,6 +134,7 @@
       "type": "",
       "firstAscent": "",
       "description": "Gul linje, gå från hh pinch och vh crimp och slappa areten därifrån vidare upp i Mr Hyde förslagsvis",
+      "sectorId": "frontal",
       "source": {
         "id": "legacy:turbo",
         "path": "mediawiki/Turbo.txt"
@@ -119,6 +150,7 @@
       "type": "",
       "firstAscent": "",
       "description": "Röd linje, Startar brett och slappas via areten upp med spricka som stöd, skralt med fotsteg för högern.",
+      "sectorId": "frontal",
       "source": {
         "id": "legacy:turbo",
         "path": "mediawiki/Turbo.txt"
@@ -134,6 +166,7 @@
       "type": "",
       "firstAscent": "",
       "description": "Gul linje, sittstart med crimpers, upp via knopp och rakt upp för slabbig urtoppning",
+      "sectorId": "skogen",
       "source": {
         "id": "legacy:turbo",
         "path": "mediawiki/Turbo.txt"
@@ -149,6 +182,7 @@
       "type": "",
       "firstAscent": "",
       "description": "Grön linje, sittstart med crimpers, upp via knopp och fortsätt rampen ut till topps.",
+      "sectorId": "skogen",
       "source": {
         "id": "legacy:turbo",
         "path": "mediawiki/Turbo.txt"
@@ -164,6 +198,7 @@
       "type": "",
       "firstAscent": "",
       "description": "Lila linje, sittstart med arete och crimper, cruxet är starten, betydligt lättare därefter",
+      "sectorId": "skogen",
       "source": {
         "id": "legacy:turbo",
         "path": "mediawiki/Turbo.txt"
@@ -179,6 +214,7 @@
       "type": "",
       "firstAscent": "",
       "description": "Gul linje, Start med dubbel sidepull/undercling. Fint överhängande, upp via vä kant.",
+      "sectorId": "skogen",
       "source": {
         "id": "legacy:turbo",
         "path": "mediawiki/Turbo.txt"
@@ -194,6 +230,7 @@
       "type": "",
       "firstAscent": "",
       "description": "Grön linje, Start med dubbel sidepull/undercling. Fint överhängande, upp via höger kant",
+      "sectorId": "skogen",
       "source": {
         "id": "legacy:turbo",
         "path": "mediawiki/Turbo.txt"
@@ -209,6 +246,7 @@
       "type": "",
       "firstAscent": "",
       "description": "Röd linje, Fint överhängande, starta i dubbla sidepulls/underclings, dyno från stora grepp till tops utan sidokanterna.",
+      "sectorId": "skogen",
       "source": {
         "id": "legacy:turbo",
         "path": "mediawiki/Turbo.txt"
@@ -224,6 +262,7 @@
       "type": "",
       "firstAscent": "",
       "description": "Röd linje, Start på minipinch hh och sidepull vä. Upp via hö.",
+      "sectorId": "myren",
       "source": {
         "id": "legacy:turbo",
         "path": "mediawiki/Turbo.txt"
@@ -239,6 +278,7 @@
       "type": "",
       "firstAscent": "",
       "description": "Blå linje, Start med höger i crimppocket, vä på sidepull/undercling.",
+      "sectorId": "myren",
       "source": {
         "id": "legacy:turbo",
         "path": "mediawiki/Turbo.txt"
@@ -254,6 +294,7 @@
       "type": "",
       "firstAscent": "",
       "description": "Röd+Lila linje, Start som WRE men istället för att dra höger och upp gå in vä och upp i slopig skål",
+      "sectorId": "myren",
       "source": {
         "id": "legacy:turbo",
         "path": "mediawiki/Turbo.txt"
@@ -269,6 +310,7 @@
       "type": "",
       "firstAscent": "",
       "description": "Blå linje, SS, upp via sloperhyllan och sedan med dragning åt vänster.",
+      "sectorId": "myren",
       "source": {
         "id": "legacy:turbo",
         "path": "mediawiki/Turbo.txt"
@@ -284,6 +326,7 @@
       "type": "",
       "firstAscent": "",
       "description": "Grön linje, SS, men från sloperhyllan dyno rakt upp.",
+      "sectorId": "myren",
       "source": {
         "id": "legacy:turbo",
         "path": "mediawiki/Turbo.txt"
@@ -294,37 +337,44 @@
     {
       "filename": "PICT0055.jpg",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "frontal"
     },
     {
       "filename": "Mr_Hyde.jpg",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "frontal"
     },
     {
       "filename": "Dr_Jekyll.jpg",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "frontal"
     },
     {
       "filename": "Linus_direkt.jpg",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "skogen"
     },
     {
       "filename": "IMG_6204.jpg",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "skogen"
     },
     {
       "filename": "IMG_6201.JPG",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "myren"
     },
     {
       "filename": "IMG_6200.JPG",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "myren"
     }
   ],
   "access": {

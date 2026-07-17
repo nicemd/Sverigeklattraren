@@ -18,6 +18,11 @@
   ],
   "sections": [
     {
+      "id": "byrum",
+      "title": "Byrum",
+      "body": ""
+    },
+    {
       "id": "hemsjon",
       "title": "Hemsjön",
       "body": "Klättra inte här under jaktsäsongen."
@@ -38,6 +43,21 @@
       "body": "Stängt under jaktsäsongen (mitten Oktober - 1 Mars)."
     },
     {
+      "id": "stugorna",
+      "title": "Stugorna",
+      "body": ""
+    },
+    {
+      "id": "badplatsen",
+      "title": "Badplatsen",
+      "body": ""
+    },
+    {
+      "id": "hygget-ii",
+      "title": "Hygget II",
+      "body": ""
+    },
+    {
       "id": "stora-naset",
       "title": "Stora näset",
       "body": "Stängt under jaktsäsongen (mitten Oktober - 1 Mars)."
@@ -53,6 +73,11 @@
       "body": "Stängt under jaktsäsongen (mitten Oktober - 1 Mars). Tyvärr är mycket igen mossat men faktum är att många problem håller väldigt hög klass. Bouldrar man grad 5-6 så finns det få ställen som erbjuder så mycket kvalitet som här. Vildvittran, Kapten Nemo, Rödatråden, Lateralus m.fl är topproblemen i denna kategori. Det finns även ett par fina, hårda och ogjorda linjer."
     },
     {
+      "id": "skogsblocket",
+      "title": "Skogsblocket",
+      "body": ""
+    },
+    {
       "id": "skepparblocket",
       "title": "Skepparblocket",
       "body": "Stängt under jaktsäsongen (mitten Oktober - 1 Mars)."
@@ -61,6 +86,11 @@
       "id": "hasthagsgolen",
       "title": "Hästhagsgölen",
       "body": "Stängt under jaktsäsongen (mitten Oktober - 1 Mars)."
+    },
+    {
+      "id": "nifelheim",
+      "title": "Nifelheim",
+      "body": ""
     },
     {
       "id": "jotumheim",
@@ -79,6 +109,7 @@
       "type": "Krimp,Layback,Aréte",
       "firstAscent": "Johan Lindvall",
       "description": "Går på den vänstra sidan av den stora areten på Tjurblocket.",
+      "sectorId": "byrum",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -94,6 +125,7 @@
       "type": "Krimp,Slopers",
       "firstAscent": "Stefan Holm",
       "description": "",
+      "sectorId": "byrum",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -109,6 +141,7 @@
       "type": "Krimp,Slopers",
       "firstAscent": "Stefan Holm",
       "description": "Nr 11, Tjurblocket, inga grepp i diedret. Bara areten och vänster om den.",
+      "sectorId": "byrum",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -124,6 +157,7 @@
       "type": "Krimp,Aréte",
       "firstAscent": "Peter Erhard",
       "description": "Nr 11, Tjurblocket men med grepp i diedret dock ej fotsteg?",
+      "sectorId": "byrum",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -139,6 +173,7 @@
       "type": "Krimp,Slopers",
       "firstAscent": "Stefan Holm",
       "description": "Sittstart något v om \"Ungersk dans\".",
+      "sectorId": "byrum",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -154,6 +189,7 @@
       "type": "Krimp,Överhäng",
       "firstAscent": "Stefan Holm",
       "description": "Som nr 33 på Hästblocket men utan areten.",
+      "sectorId": "byrum",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -169,6 +205,7 @@
       "type": "Krimp,Heel hook",
       "firstAscent": "Peter Erhard",
       "description": "Nr 10, Tjurblocket. Bara hornet i starten. Rakt upp/något höger.",
+      "sectorId": "byrum",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -184,6 +221,7 @@
       "type": "Krimp,Pinch",
       "firstAscent": "Stefan Holm",
       "description": "Nr 10, Tjurblocket. Klättra snett höger mha dålig krimp ute till vänster.",
+      "sectorId": "byrum",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -199,6 +237,7 @@
       "type": "",
       "firstAscent": "Stefan Holm",
       "description": "",
+      "sectorId": "byrum",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -214,6 +253,7 @@
       "type": "Aréte",
       "firstAscent": "Stefan Holm",
       "description": "",
+      "sectorId": "byrum",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -229,6 +269,7 @@
       "type": "",
       "firstAscent": "Stefan Holm",
       "description": "höger om Homohajjen.",
+      "sectorId": "byrum",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -244,6 +285,7 @@
       "type": "Slopers,Travers V->H",
       "firstAscent": "Stefan Holm",
       "description": "Start i Porrsälen, utsteg i Homohajjen. Endast 'hyllan' på Porrsälen ingår, ej greppen högre upp.",
+      "sectorId": "byrum",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -259,6 +301,7 @@
       "type": "Slopers,Pinch",
       "firstAscent": "Johan Lindvall/Adam Rosenbaum",
       "description": "",
+      "sectorId": "byrum",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -274,6 +317,7 @@
       "type": "",
       "firstAscent": "Johan Lindvall",
       "description": "",
+      "sectorId": "byrum",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -289,6 +333,7 @@
       "type": "Krimp,Slopers,Slab",
       "firstAscent": "Stefan Holm",
       "description": "Vänster om \"Spin off\". Ej greppen i sprickan till vänster.",
+      "sectorId": "byrum",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -304,6 +349,7 @@
       "type": "Krimp,Dyno",
       "firstAscent": "S Sterner",
       "description": "",
+      "sectorId": "byrum",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -319,6 +365,7 @@
       "type": "Krimp,Dyno",
       "firstAscent": "S Sterner",
       "description": "Sittstart vänster vid areten",
+      "sectorId": "byrum",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -334,6 +381,7 @@
       "type": "Krimp",
       "firstAscent": "S Sterner",
       "description": "",
+      "sectorId": "byrum",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -349,6 +397,7 @@
       "type": "Krimp",
       "firstAscent": "S Holm",
       "description": "Ej areten.",
+      "sectorId": "byrum",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -364,6 +413,7 @@
       "type": "",
       "firstAscent": "M Börjesson",
       "description": "",
+      "sectorId": "byrum",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -379,6 +429,7 @@
       "type": "Krimp,Slopers,Pinch",
       "firstAscent": "J Lindfors",
       "description": "",
+      "sectorId": "byrum",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -394,6 +445,7 @@
       "type": "",
       "firstAscent": "S Sterner",
       "description": "Morpho",
+      "sectorId": "byrum",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -409,6 +461,7 @@
       "type": "",
       "firstAscent": "J Kjellberg",
       "description": "",
+      "sectorId": "byrum",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -424,6 +477,7 @@
       "type": "",
       "firstAscent": "A Jonsson",
       "description": "",
+      "sectorId": "byrum",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -439,6 +493,7 @@
       "type": "",
       "firstAscent": "T Granlund",
       "description": "",
+      "sectorId": "byrum",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -454,6 +509,7 @@
       "type": "Krimp",
       "firstAscent": "W Kjell/A Rosenbaum",
       "description": "Lättare nu när trädet blåst ned?",
+      "sectorId": "byrum",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -469,6 +525,7 @@
       "type": "",
       "firstAscent": "S Holm",
       "description": "",
+      "sectorId": "byrum",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -484,6 +541,7 @@
       "type": "Krimp",
       "firstAscent": "T Granlund",
       "description": "",
+      "sectorId": "byrum",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -499,6 +557,7 @@
       "type": "",
       "firstAscent": "A Rosenbaum",
       "description": "Stor sandbag eller fel info?",
+      "sectorId": "byrum",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -514,6 +573,7 @@
       "type": "Överhäng,Highball",
       "firstAscent": "A Rosenbaum",
       "description": "Löst startgrepp!!!Betydligt hårdare än 6b+...",
+      "sectorId": "byrum",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -529,6 +589,7 @@
       "type": "Dyno",
       "firstAscent": "C Eriksson",
       "description": "Löst startgrepp!!!",
+      "sectorId": "byrum",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -544,6 +605,7 @@
       "type": "Highball,Aréte",
       "firstAscent": "W Kjell",
       "description": "",
+      "sectorId": "byrum",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -559,6 +621,7 @@
       "type": "Slab,Highball,Spricka",
       "firstAscent": "A Rosenbaum",
       "description": "",
+      "sectorId": "byrum",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -574,6 +637,7 @@
       "type": "",
       "firstAscent": "T Granlund",
       "description": "",
+      "sectorId": "byrum",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -589,6 +653,7 @@
       "type": "",
       "firstAscent": "J Kjellberg",
       "description": "",
+      "sectorId": "byrum",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -604,6 +669,7 @@
       "type": "Mantling",
       "firstAscent": "S Sterner",
       "description": "",
+      "sectorId": "byrum",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -619,6 +685,7 @@
       "type": "",
       "firstAscent": "S Sterner",
       "description": "",
+      "sectorId": "byrum",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -634,6 +701,7 @@
       "type": "",
       "firstAscent": "W Kjell",
       "description": "",
+      "sectorId": "byrum",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -649,6 +717,7 @@
       "type": "",
       "firstAscent": "A Rosenbaum",
       "description": "",
+      "sectorId": "byrum",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -664,6 +733,7 @@
       "type": "",
       "firstAscent": "J Kjellberg",
       "description": "",
+      "sectorId": "byrum",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -679,6 +749,7 @@
       "type": "",
       "firstAscent": "S Sterner",
       "description": "",
+      "sectorId": "byrum",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -694,6 +765,7 @@
       "type": "",
       "firstAscent": "W Kjell",
       "description": "",
+      "sectorId": "byrum",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -709,6 +781,7 @@
       "type": "",
       "firstAscent": "W kjell",
       "description": "",
+      "sectorId": "byrum",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -724,6 +797,7 @@
       "type": "",
       "firstAscent": "A Rosenbaum",
       "description": "utsteg höger",
+      "sectorId": "byrum",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -739,6 +813,7 @@
       "type": "",
       "firstAscent": "A Rosenbaum",
       "description": "utsteg vänster",
+      "sectorId": "byrum",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -754,6 +829,7 @@
       "type": "",
       "firstAscent": "W Kjell",
       "description": "",
+      "sectorId": "byrum",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -769,6 +845,7 @@
       "type": "",
       "firstAscent": "A Rosenbaum",
       "description": "",
+      "sectorId": "byrum",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -784,6 +861,7 @@
       "type": "",
       "firstAscent": "J Sterner",
       "description": "",
+      "sectorId": "byrum",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -799,6 +877,7 @@
       "type": "",
       "firstAscent": "W Kjell",
       "description": "",
+      "sectorId": "byrum",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -814,6 +893,7 @@
       "type": "Överhäng",
       "firstAscent": "W Kjell",
       "description": "",
+      "sectorId": "byrum",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -829,6 +909,7 @@
       "type": "",
       "firstAscent": "W Kjell",
       "description": "",
+      "sectorId": "byrum",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -844,6 +925,7 @@
       "type": "",
       "firstAscent": "J Sterner",
       "description": "",
+      "sectorId": "byrum",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -859,6 +941,7 @@
       "type": "",
       "firstAscent": "J Sterner",
       "description": "",
+      "sectorId": "byrum",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -874,6 +957,7 @@
       "type": "",
       "firstAscent": "S Sterner",
       "description": "",
+      "sectorId": "byrum",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -889,6 +973,7 @@
       "type": "",
       "firstAscent": "S Holm",
       "description": "",
+      "sectorId": "byrum",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -904,6 +989,7 @@
       "type": "Krimp,Heel hook",
       "firstAscent": "S Holm",
       "description": "",
+      "sectorId": "byrum",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -919,6 +1005,7 @@
       "type": "",
       "firstAscent": "M Sköldstam",
       "description": "Innehåller allt man kan önska av en 5+",
+      "sectorId": "byrum",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -934,6 +1021,7 @@
       "type": "",
       "firstAscent": "M Börjesson/T Granlund",
       "description": "",
+      "sectorId": "byrum",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -949,6 +1037,7 @@
       "type": "Överhäng",
       "firstAscent": "C Eriksson",
       "description": "",
+      "sectorId": "byrum",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -964,6 +1053,7 @@
       "type": "",
       "firstAscent": "C Eriksson",
       "description": "",
+      "sectorId": "byrum",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -979,6 +1069,7 @@
       "type": "Överhäng",
       "firstAscent": "W Kjell",
       "description": "",
+      "sectorId": "byrum",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -994,6 +1085,7 @@
       "type": "Krimp,Slopers",
       "firstAscent": "S Holm/M Börjesson",
       "description": "",
+      "sectorId": "byrum",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -1009,6 +1101,7 @@
       "type": "",
       "firstAscent": "J Lindfors",
       "description": "",
+      "sectorId": "byrum",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -1024,6 +1117,7 @@
       "type": "",
       "firstAscent": "S Sterner",
       "description": "",
+      "sectorId": "byrum",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -1039,6 +1133,7 @@
       "type": "Slab",
       "firstAscent": "S Holm",
       "description": "",
+      "sectorId": "byrum",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -1054,6 +1149,7 @@
       "type": "",
       "firstAscent": "S Sterner/J Lindfors",
       "description": "",
+      "sectorId": "byrum",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -1069,6 +1165,7 @@
       "type": "Krimp,Slopers,Överhäng",
       "firstAscent": "C Eriksson/J Lindfors",
       "description": "",
+      "sectorId": "byrum",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -1084,6 +1181,7 @@
       "type": "Slopers",
       "firstAscent": "J Lindfors",
       "description": "",
+      "sectorId": "byrum",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -1099,6 +1197,7 @@
       "type": "",
       "firstAscent": "S Holm",
       "description": "",
+      "sectorId": "byrum",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -1114,6 +1213,7 @@
       "type": "",
       "firstAscent": "W Kjell",
       "description": "",
+      "sectorId": "byrum",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -1129,6 +1229,7 @@
       "type": "Krimp,Slopers,Dyno",
       "firstAscent": "W Kjell",
       "description": "",
+      "sectorId": "byrum",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -1144,6 +1245,7 @@
       "type": "Layback",
       "firstAscent": "J Lindvall",
       "description": "",
+      "sectorId": "byrum",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -1159,6 +1261,7 @@
       "type": "Krimp,Pinch,Layback",
       "firstAscent": "C Eriksson",
       "description": "\"Sverige topp 10\"",
+      "sectorId": "byrum",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -1174,6 +1277,7 @@
       "type": "",
       "firstAscent": "C Eriksson",
       "description": "",
+      "sectorId": "byrum",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -1189,6 +1293,7 @@
       "type": "",
       "firstAscent": "A Rosenbaum/J Kjellberg",
       "description": "",
+      "sectorId": "byrum",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -1204,6 +1309,7 @@
       "type": "",
       "firstAscent": "A Rosenbaum/J Kjellberg",
       "description": "",
+      "sectorId": "byrum",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -1219,6 +1325,7 @@
       "type": "",
       "firstAscent": "C Eriksson",
       "description": "",
+      "sectorId": "byrum",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -1234,6 +1341,7 @@
       "type": "Dyno",
       "firstAscent": "A Rosenbaum",
       "description": "",
+      "sectorId": "byrum",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -1249,6 +1357,7 @@
       "type": "Aréte",
       "firstAscent": "J Lindfors",
       "description": "",
+      "sectorId": "byrum",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -1264,6 +1373,7 @@
       "type": "Aréte",
       "firstAscent": "S Holm",
       "description": "",
+      "sectorId": "byrum",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -1279,6 +1389,7 @@
       "type": "",
       "firstAscent": "J Kjellberg/S Sterner",
       "description": "",
+      "sectorId": "byrum",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -1294,6 +1405,7 @@
       "type": "",
       "firstAscent": "S Holm",
       "description": "",
+      "sectorId": "byrum",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -1309,6 +1421,7 @@
       "type": "",
       "firstAscent": "J Lindfors",
       "description": "",
+      "sectorId": "byrum",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -1324,6 +1437,7 @@
       "type": "",
       "firstAscent": "C Eriksson",
       "description": "",
+      "sectorId": "byrum",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -1339,6 +1453,7 @@
       "type": "Aréte",
       "firstAscent": "S Sterner",
       "description": "",
+      "sectorId": "byrum",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -1354,6 +1469,7 @@
       "type": "",
       "firstAscent": "M Sköldstam",
       "description": "",
+      "sectorId": "byrum",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -1369,6 +1485,7 @@
       "type": "Aréte",
       "firstAscent": "C Eriksson/M Sköldstam",
       "description": "",
+      "sectorId": "byrum",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -1384,6 +1501,7 @@
       "type": "",
       "firstAscent": "C Eriksson",
       "description": "",
+      "sectorId": "byrum",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -1399,6 +1517,7 @@
       "type": "",
       "firstAscent": "C Eriksson",
       "description": "",
+      "sectorId": "byrum",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -1414,6 +1533,7 @@
       "type": "",
       "firstAscent": "J Lindfors",
       "description": "",
+      "sectorId": "byrum",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -1429,6 +1549,7 @@
       "type": "",
       "firstAscent": "C Eriksson",
       "description": "",
+      "sectorId": "byrum",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -1444,6 +1565,7 @@
       "type": "",
       "firstAscent": "J Lindfors",
       "description": "",
+      "sectorId": "byrum",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -1459,6 +1581,7 @@
       "type": "",
       "firstAscent": "J Lindfors",
       "description": "",
+      "sectorId": "byrum",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -1474,6 +1597,7 @@
       "type": "",
       "firstAscent": "J Lindfors",
       "description": "",
+      "sectorId": "byrum",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -1489,6 +1613,7 @@
       "type": "",
       "firstAscent": "M Börjesson",
       "description": "",
+      "sectorId": "byrum",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -1504,6 +1629,7 @@
       "type": "",
       "firstAscent": "M Börjesson",
       "description": "",
+      "sectorId": "byrum",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -1519,6 +1645,7 @@
       "type": "",
       "firstAscent": "M Börjesson",
       "description": "",
+      "sectorId": "byrum",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -1534,6 +1661,7 @@
       "type": "",
       "firstAscent": "S Holm",
       "description": "",
+      "sectorId": "byrum",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -1549,6 +1677,7 @@
       "type": "Krimp,Slopers",
       "firstAscent": "S Holm",
       "description": "",
+      "sectorId": "byrum",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -1564,6 +1693,7 @@
       "type": "Krimp",
       "firstAscent": "S Holm",
       "description": "Smalt problem, bara krimpers.",
+      "sectorId": "byrum",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -1579,6 +1709,7 @@
       "type": "",
       "firstAscent": "S Holm",
       "description": "",
+      "sectorId": "byrum",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -1594,6 +1725,7 @@
       "type": "",
       "firstAscent": "S Holm",
       "description": "",
+      "sectorId": "byrum",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -1609,6 +1741,7 @@
       "type": "Slopers,Mantling",
       "firstAscent": "S Holm",
       "description": "",
+      "sectorId": "byrum",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -1624,6 +1757,7 @@
       "type": "",
       "firstAscent": "S Holm",
       "description": "",
+      "sectorId": "byrum",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -1639,6 +1773,7 @@
       "type": "",
       "firstAscent": "S Holm",
       "description": "",
+      "sectorId": "byrum",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -1654,6 +1789,7 @@
       "type": "",
       "firstAscent": "S Holm",
       "description": "Hoppstart",
+      "sectorId": "byrum",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -1669,6 +1805,7 @@
       "type": "",
       "firstAscent": "M Sköldstam",
       "description": "",
+      "sectorId": "byrum",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -1684,6 +1821,7 @@
       "type": "",
       "firstAscent": "M Sköldstam",
       "description": "",
+      "sectorId": "byrum",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -1699,6 +1837,7 @@
       "type": "Aréte",
       "firstAscent": "S Holm",
       "description": "",
+      "sectorId": "byrum",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -1714,6 +1853,7 @@
       "type": "Slab",
       "firstAscent": "M Sköldstam",
       "description": "",
+      "sectorId": "byrum",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -1729,6 +1869,7 @@
       "type": "Highball,Aréte",
       "firstAscent": "M Sköldstam/S Holm",
       "description": "",
+      "sectorId": "byrum",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -1744,6 +1885,7 @@
       "type": "",
       "firstAscent": "M Sköldstam",
       "description": "",
+      "sectorId": "byrum",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -1759,6 +1901,7 @@
       "type": "",
       "firstAscent": "M Sköldstam",
       "description": "",
+      "sectorId": "byrum",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -1774,6 +1917,7 @@
       "type": "",
       "firstAscent": "M Sköldstam",
       "description": "",
+      "sectorId": "byrum",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -1789,6 +1933,7 @@
       "type": "",
       "firstAscent": "M Sköldstam",
       "description": "",
+      "sectorId": "byrum",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -1804,6 +1949,7 @@
       "type": "Pinch",
       "firstAscent": "S Holm",
       "description": "",
+      "sectorId": "byrum",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -1819,6 +1965,7 @@
       "type": "",
       "firstAscent": "S Holm",
       "description": "",
+      "sectorId": "byrum",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -1834,6 +1981,7 @@
       "type": "",
       "firstAscent": "S Holm",
       "description": "",
+      "sectorId": "byrum",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -1849,6 +1997,7 @@
       "type": "Slab",
       "firstAscent": "S Holm",
       "description": "",
+      "sectorId": "byrum",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -1864,6 +2013,7 @@
       "type": "",
       "firstAscent": "M Sköldstam",
       "description": "",
+      "sectorId": "byrum",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -1879,6 +2029,7 @@
       "type": "",
       "firstAscent": "M Sköldstam",
       "description": "",
+      "sectorId": "byrum",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -1894,6 +2045,7 @@
       "type": "",
       "firstAscent": "S Holm/M Sköldstam",
       "description": "Hoppstart",
+      "sectorId": "byrum",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -1909,6 +2061,7 @@
       "type": "",
       "firstAscent": "M Sköldstam",
       "description": "",
+      "sectorId": "byrum",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -1924,6 +2077,7 @@
       "type": "",
       "firstAscent": "M Sköldstam",
       "description": "",
+      "sectorId": "byrum",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -1939,6 +2093,7 @@
       "type": "",
       "firstAscent": "M Sköldstam",
       "description": "",
+      "sectorId": "byrum",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -1954,6 +2109,7 @@
       "type": "",
       "firstAscent": "S Holm",
       "description": "",
+      "sectorId": "byrum",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -1969,6 +2125,7 @@
       "type": "",
       "firstAscent": "S Holm",
       "description": "",
+      "sectorId": "byrum",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -1984,6 +2141,7 @@
       "type": "",
       "firstAscent": "S Holm",
       "description": "",
+      "sectorId": "byrum",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -1999,6 +2157,7 @@
       "type": "",
       "firstAscent": "M Sköldstam",
       "description": "",
+      "sectorId": "byrum",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -2014,6 +2173,7 @@
       "type": "Slopers,Aréte",
       "firstAscent": "Stefan Holm m.fl?",
       "description": "Samma start som orginalet men sedan rakt upp längs areten.",
+      "sectorId": "byrum",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -2029,6 +2189,7 @@
       "type": "Krimp,Slopers,Toe hook",
       "firstAscent": "Stefan Holm",
       "description": "",
+      "sectorId": "byrum",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -2044,6 +2205,7 @@
       "type": "Krimp,Slopers",
       "firstAscent": "Stefan Holm",
       "description": "",
+      "sectorId": "byrum",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -2059,6 +2221,7 @@
       "type": "",
       "firstAscent": "Stefan Holm",
       "description": "",
+      "sectorId": "byrum",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -2074,6 +2237,7 @@
       "type": "Krimp,Slopers,Layback,Aréte",
       "firstAscent": "Christian Eriksson",
       "description": "Följer areten till toppen.",
+      "sectorId": "hemsjon",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -2089,6 +2253,7 @@
       "type": "Krimp,Slopers,Överhäng,Aréte,Heel hook",
       "firstAscent": "Christian Eriksson",
       "description": "",
+      "sectorId": "hemsjon",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -2104,6 +2269,7 @@
       "type": "Mantling,Överhäng",
       "firstAscent": "Adam Rosenbaum/Peter Erhard",
       "description": "",
+      "sectorId": "hemsjon",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -2119,6 +2285,7 @@
       "type": "Krimp,Dyno",
       "firstAscent": "Johan Andersson",
       "description": "",
+      "sectorId": "hemsjon",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -2134,6 +2301,7 @@
       "type": "Krimp,Dyno",
       "firstAscent": "Johan Andersson ?",
       "description": "",
+      "sectorId": "hemsjon",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -2149,6 +2317,7 @@
       "type": "Krimp",
       "firstAscent": "Stefan Holm",
       "description": "",
+      "sectorId": "hemsjon",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -2164,6 +2333,7 @@
       "type": "Krimp,Aréte",
       "firstAscent": "Stefan Holm",
       "description": "",
+      "sectorId": "hemsjon",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -2179,6 +2349,7 @@
       "type": "Highball",
       "firstAscent": "Stefan Holm",
       "description": "Nr 37",
+      "sectorId": "hemsjon",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -2194,6 +2365,7 @@
       "type": "Aréte",
       "firstAscent": "Manne Anliot",
       "description": "",
+      "sectorId": "hemsjon",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -2209,6 +2381,7 @@
       "type": "Krimp,Slopers",
       "firstAscent": "Stefan Holm",
       "description": "Sittstart vid 21.1, sedan utsteg åt höger.",
+      "sectorId": "hemsjon",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -2224,6 +2397,7 @@
       "type": "",
       "firstAscent": "Manne/Staffan?",
       "description": "",
+      "sectorId": "hemsjon",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -2239,6 +2413,7 @@
       "type": "",
       "firstAscent": "Adam Rosenbaum",
       "description": "Kebabblocket",
+      "sectorId": "hemsjon",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -2254,6 +2429,7 @@
       "type": "",
       "firstAscent": "Manne Anliot",
       "description": "Kebabblocket",
+      "sectorId": "hemsjon",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -2269,6 +2445,7 @@
       "type": "Krimp,Slopers,Slab,Highball",
       "firstAscent": "Stefan Holm",
       "description": "Kebabblocket",
+      "sectorId": "hemsjon",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -2284,6 +2461,7 @@
       "type": "Krimp,Mantling,Slab,Highball",
       "firstAscent": "Stefan Holm",
       "description": "Kebabblocket",
+      "sectorId": "hemsjon",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -2299,6 +2477,7 @@
       "type": "",
       "firstAscent": "Christina Eriksson/Adam Rosenbaum",
       "description": "",
+      "sectorId": "hemsjon",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -2314,6 +2493,7 @@
       "type": "Slopers,Aréte",
       "firstAscent": "",
       "description": "50m in i skogen på v. sida vägen mittemot hygget. Strax innan man kommer fram till stenen med Yggdrasil o.s.v. Det var mossigt så det borde varit ogjort. Ståstart aréten v. sida.",
+      "sectorId": "hemsjon",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -2329,6 +2509,7 @@
       "type": "Krimp,Överhäng",
       "firstAscent": "",
       "description": "50m in i skogen v. sida mittemot hygget strax innan Yggdrasilstenen. h. om \"bill\". Rakt upp på överhäng.",
+      "sectorId": "hemsjon",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -2344,6 +2525,7 @@
       "type": "",
       "firstAscent": "C Eriksson",
       "description": "",
+      "sectorId": "hemsjon",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -2359,6 +2541,7 @@
       "type": "",
       "firstAscent": "S Sterner",
       "description": "",
+      "sectorId": "hemsjon",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -2374,6 +2557,7 @@
       "type": "",
       "firstAscent": "M Sköldstam",
       "description": "",
+      "sectorId": "hemsjon",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -2389,6 +2573,7 @@
       "type": "Slab",
       "firstAscent": "S Sterner",
       "description": "",
+      "sectorId": "hemsjon",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -2404,6 +2589,7 @@
       "type": "",
       "firstAscent": "S Sterner",
       "description": "",
+      "sectorId": "hemsjon",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -2419,6 +2605,7 @@
       "type": "",
       "firstAscent": "C Eriksson",
       "description": "",
+      "sectorId": "hemsjon",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -2434,6 +2621,7 @@
       "type": "",
       "firstAscent": "M Sköldstam",
       "description": "",
+      "sectorId": "hemsjon",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -2449,6 +2637,7 @@
       "type": "",
       "firstAscent": "C Eriksson",
       "description": "",
+      "sectorId": "hemsjon",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -2464,6 +2653,7 @@
       "type": "",
       "firstAscent": "C Eriksson",
       "description": "",
+      "sectorId": "hemsjon",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -2479,6 +2669,7 @@
       "type": "",
       "firstAscent": "C Eriksson",
       "description": "",
+      "sectorId": "hemsjon",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -2494,6 +2685,7 @@
       "type": "",
       "firstAscent": "C Eriksson",
       "description": "",
+      "sectorId": "hemsjon",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -2509,6 +2701,7 @@
       "type": "",
       "firstAscent": "C Eriksson",
       "description": "",
+      "sectorId": "hemsjon",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -2524,6 +2717,7 @@
       "type": "",
       "firstAscent": "S Sterner",
       "description": "",
+      "sectorId": "hemsjon",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -2539,6 +2733,7 @@
       "type": "",
       "firstAscent": "S Sterner",
       "description": "",
+      "sectorId": "hemsjon",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -2554,6 +2749,7 @@
       "type": "",
       "firstAscent": "S Sterner",
       "description": "",
+      "sectorId": "hemsjon",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -2569,6 +2765,7 @@
       "type": "",
       "firstAscent": "S Sterner",
       "description": "",
+      "sectorId": "hemsjon",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -2584,6 +2781,7 @@
       "type": "",
       "firstAscent": "S Sterner",
       "description": "",
+      "sectorId": "hemsjon",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -2599,6 +2797,7 @@
       "type": "",
       "firstAscent": "S Sterner",
       "description": "",
+      "sectorId": "hemsjon",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -2614,6 +2813,7 @@
       "type": "",
       "firstAscent": "S Sterner",
       "description": "",
+      "sectorId": "hemsjon",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -2629,6 +2829,7 @@
       "type": "",
       "firstAscent": "S Sterner",
       "description": "",
+      "sectorId": "hemsjon",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -2644,6 +2845,7 @@
       "type": "Krimp,Layback",
       "firstAscent": "Tim Granlund/Stefan Holm",
       "description": "",
+      "sectorId": "norrviken",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -2659,6 +2861,7 @@
       "type": "Krimp,Layback,Travers H->V",
       "firstAscent": "Christian Eriksson",
       "description": "",
+      "sectorId": "norrviken",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -2674,6 +2877,7 @@
       "type": "Slopers",
       "firstAscent": "Stefan Holm",
       "description": "Nr 2, Norrviken",
+      "sectorId": "norrviken",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -2689,6 +2893,7 @@
       "type": "Krimp,Reach",
       "firstAscent": "Stefan Holm",
       "description": "Nr 3, Norrviken. In bakom enen.",
+      "sectorId": "norrviken",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -2704,6 +2909,7 @@
       "type": "Krimp,Dyno",
       "firstAscent": "Stefan Holm",
       "description": "Mellan nr 1 & 2, Norrviken",
+      "sectorId": "norrviken",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -2719,6 +2925,7 @@
       "type": "",
       "firstAscent": "Martin Perk",
       "description": "Nr 6, Norrviken",
+      "sectorId": "norrviken",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -2734,6 +2941,7 @@
       "type": "",
       "firstAscent": "Elin Boström Holm",
       "description": "Nr 7, Norrviken",
+      "sectorId": "norrviken",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -2749,6 +2957,7 @@
       "type": "",
       "firstAscent": "Elin Boström Holm",
       "description": "Nr 8, Norrviken",
+      "sectorId": "norrviken",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -2764,6 +2973,7 @@
       "type": "Slab",
       "firstAscent": "Elin Boström Holm",
       "description": "Nr 9, Norrviken",
+      "sectorId": "norrviken",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -2779,6 +2989,7 @@
       "type": "Slopers,Överhäng,Heel hook",
       "firstAscent": "Stefan Holm",
       "description": "Nr 10, Norrviken",
+      "sectorId": "norrviken",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -2794,6 +3005,7 @@
       "type": "Slopers,Överhäng,Heel hook",
       "firstAscent": "Stefan Holm",
       "description": "Nr 10, Norrviken.",
+      "sectorId": "norrviken",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -2809,6 +3021,7 @@
       "type": "Slopers,Överhäng",
       "firstAscent": "Stefan Holm",
       "description": "Nr 11, Norrviken.",
+      "sectorId": "norrviken",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -2824,6 +3037,7 @@
       "type": "Överhäng",
       "firstAscent": "Stefan Holm",
       "description": "Nr 12, Norrviken. Nyttgrepp => ny grad. 6C => 6B",
+      "sectorId": "norrviken",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -2839,6 +3053,7 @@
       "type": "",
       "firstAscent": "Stefan Holm",
       "description": "Nr 13, Norrviken",
+      "sectorId": "norrviken",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -2854,6 +3069,7 @@
       "type": "Krimp,Mantling,Reach",
       "firstAscent": "Johan + Chrille?",
       "description": "Mellan 11 & 12, Norrviken",
+      "sectorId": "norrviken",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -2869,6 +3085,7 @@
       "type": "Slab",
       "firstAscent": "Maritin Börjesson",
       "description": "14 Norrviken",
+      "sectorId": "norrviken",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -2884,6 +3101,7 @@
       "type": "Slab",
       "firstAscent": "Martin Börjesson",
       "description": "16 Norrviken",
+      "sectorId": "norrviken",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -2899,6 +3117,7 @@
       "type": "Slab",
       "firstAscent": "Linnea Börjesson",
       "description": "17 Norrviken",
+      "sectorId": "norrviken",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -2914,6 +3133,7 @@
       "type": "Mantling",
       "firstAscent": "Elin Boström Holm",
       "description": "18 Norrviken",
+      "sectorId": "norrviken",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -2929,6 +3149,7 @@
       "type": "Mantling",
       "firstAscent": "Stefan Holm",
       "description": "18 Norrviken",
+      "sectorId": "norrviken",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -2944,6 +3165,7 @@
       "type": "Krimp",
       "firstAscent": "Stefan Holm",
       "description": "19 Norrviken",
+      "sectorId": "norrviken",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -2959,6 +3181,7 @@
       "type": "Krimp,Slopers,Mantling,Överhäng,Highball,Toe hook",
       "firstAscent": "Stefan Holm",
       "description": "20 Norrviken. Rakt upp över bullen. Ej stora greppet långt vänster (off route men ändå).",
+      "sectorId": "norrviken",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -2974,6 +3197,7 @@
       "type": "Krimp,Slopers,Reach",
       "firstAscent": "Stefan Holm",
       "description": "21 Norrviken. Hårdare än 6A.",
+      "sectorId": "norrviken",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -2989,6 +3213,7 @@
       "type": "Krimp,Slopers",
       "firstAscent": "Stefan Holm",
       "description": "23 Norrviken.",
+      "sectorId": "norrviken",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -3004,6 +3229,7 @@
       "type": "Mantling",
       "firstAscent": "Martin Börjesson",
       "description": "Nr 24, Norrviken",
+      "sectorId": "norrviken",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -3019,6 +3245,7 @@
       "type": "Slab,Aréte",
       "firstAscent": "Tim Granlund",
       "description": "Nr 25, Norrviken",
+      "sectorId": "norrviken",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -3034,6 +3261,7 @@
       "type": "",
       "firstAscent": "Elin Boström Holm",
       "description": "Nr 26, Norrviken",
+      "sectorId": "norrviken",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -3049,6 +3277,7 @@
       "type": "Överhäng",
       "firstAscent": "Magnus Hansen",
       "description": "Nr 27, Norrviken",
+      "sectorId": "norrviken",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -3064,6 +3293,7 @@
       "type": "",
       "firstAscent": "Stefan Holm",
       "description": "Nr 28, Norrviken. Extremt låg.",
+      "sectorId": "norrviken",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -3079,6 +3309,7 @@
       "type": "",
       "firstAscent": "Martin Börjesson",
       "description": "Nr 29, Norrviken. Hoppstart",
+      "sectorId": "norrviken",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -3094,6 +3325,7 @@
       "type": "",
       "firstAscent": "Martin Börjesson",
       "description": "Nr 30 Norrviken",
+      "sectorId": "norrviken",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -3109,6 +3341,7 @@
       "type": "",
       "firstAscent": "Linne Börjesson",
       "description": "Nr 32 Norrviken",
+      "sectorId": "norrviken",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -3124,6 +3357,7 @@
       "type": "",
       "firstAscent": "Linnea Börjesson",
       "description": "Nr 33 Norrviken",
+      "sectorId": "norrviken",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -3139,6 +3373,7 @@
       "type": "",
       "firstAscent": "Linnea Börjesson",
       "description": "Nr 34, Norrviken",
+      "sectorId": "norrviken",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -3154,6 +3389,7 @@
       "type": "Slab",
       "firstAscent": "Stefan Holm",
       "description": "Nr 35, Norrviken",
+      "sectorId": "norrviken",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -3169,6 +3405,7 @@
       "type": "Slab",
       "firstAscent": "Stefan Holm",
       "description": "Nr 36, Norrviken",
+      "sectorId": "norrviken",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -3184,6 +3421,7 @@
       "type": "",
       "firstAscent": "Elin Boström Holm",
       "description": "Nr 37, Norrviken",
+      "sectorId": "norrviken",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -3199,6 +3437,7 @@
       "type": "Highball",
       "firstAscent": "Stefan Holm",
       "description": "Nr 39, Norrviken. Landningen består av ett taggtrådsstängsel.",
+      "sectorId": "norrviken",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -3214,6 +3453,7 @@
       "type": "",
       "firstAscent": "Stefan Holm",
       "description": "Nr 40, Norrviken",
+      "sectorId": "norrviken",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -3229,6 +3469,7 @@
       "type": "",
       "firstAscent": "Walter Kjell",
       "description": "Nr 42, Norrviken",
+      "sectorId": "norrviken",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -3244,6 +3485,7 @@
       "type": "Överhäng",
       "firstAscent": "Stefan Holm",
       "description": "Nr 43, Norrviken",
+      "sectorId": "norrviken",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -3259,6 +3501,7 @@
       "type": "Mantling,Dyno",
       "firstAscent": "Peter Erhard",
       "description": "Samma start som nr 43 (Norrviken) men dynamiskt rakt upp (vänster om areten).",
+      "sectorId": "norrviken",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -3274,6 +3517,7 @@
       "type": "Slopers,Aréte,Heel hook",
       "firstAscent": "Adam Rosenbaum",
       "description": "Problemet finns nere vid kraftledningen. Klättra rakt upp genom att slappa båda areterna.",
+      "sectorId": "norrviken",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -3289,6 +3533,7 @@
       "type": "Krimp,Slopers",
       "firstAscent": "Stefan Holm/Tim Granlund",
       "description": "",
+      "sectorId": "kraftledningen",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -3304,6 +3549,7 @@
       "type": "",
       "firstAscent": "Martin Börjesson",
       "description": "",
+      "sectorId": "kraftledningen",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -3319,6 +3565,7 @@
       "type": "",
       "firstAscent": "Stefan Holm",
       "description": "",
+      "sectorId": "kraftledningen",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -3334,6 +3581,7 @@
       "type": "",
       "firstAscent": "Stefan Holm",
       "description": "",
+      "sectorId": "kraftledningen",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -3349,6 +3597,7 @@
       "type": "",
       "firstAscent": "",
       "description": "",
+      "sectorId": "kraftledningen",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -3364,6 +3613,7 @@
       "type": "Slab",
       "firstAscent": "Walter Kjell",
       "description": "",
+      "sectorId": "kraftledningen",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -3379,6 +3629,7 @@
       "type": "",
       "firstAscent": "Markus Sköldstam",
       "description": "",
+      "sectorId": "kraftledningen",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -3394,6 +3645,7 @@
       "type": "Krimp,Pinch,Dyno",
       "firstAscent": "Christian Eriksson",
       "description": "",
+      "sectorId": "kraftledningen",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -3409,6 +3661,7 @@
       "type": "",
       "firstAscent": "Walter Kjell",
       "description": "",
+      "sectorId": "kraftledningen",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -3424,6 +3677,7 @@
       "type": "Krimp,Slopers,Mantling,Överhäng",
       "firstAscent": "Christian Eriksson",
       "description": "",
+      "sectorId": "kraftledningen",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -3439,6 +3693,7 @@
       "type": "Slopers,Mantling,Överhäng,Travers V->H,Jug,Spricka",
       "firstAscent": "Christian Eriksson",
       "description": "",
+      "sectorId": "kraftledningen",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -3454,6 +3709,7 @@
       "type": "Krimp,Slopers,Mantling,Överhäng,Jug",
       "firstAscent": "Christian Eriksson",
       "description": "",
+      "sectorId": "kraftledningen",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -3469,6 +3725,7 @@
       "type": "Aréte",
       "firstAscent": "Walter Kjell/Adam Rosenbaum",
       "description": "",
+      "sectorId": "kraftledningen",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -3484,6 +3741,7 @@
       "type": "",
       "firstAscent": "",
       "description": "",
+      "sectorId": "kraftledningen",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -3499,6 +3757,7 @@
       "type": "",
       "firstAscent": "Kattis Sköldstam/Johan Lindfors",
       "description": "",
+      "sectorId": "kraftledningen",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -3514,6 +3773,7 @@
       "type": "",
       "firstAscent": "Walter Kjell",
       "description": "",
+      "sectorId": "kraftledningen",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -3529,6 +3789,7 @@
       "type": "",
       "firstAscent": "Johan Lindfors",
       "description": "",
+      "sectorId": "kraftledningen",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -3544,6 +3805,7 @@
       "type": "Överhäng",
       "firstAscent": "Christian Eriksson",
       "description": "",
+      "sectorId": "kraftledningen",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -3559,6 +3821,7 @@
       "type": "",
       "firstAscent": "Walter Kjell",
       "description": "",
+      "sectorId": "kraftledningen",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -3574,6 +3837,7 @@
       "type": "",
       "firstAscent": "Johan Lindfors",
       "description": "",
+      "sectorId": "kraftledningen",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -3589,6 +3853,7 @@
       "type": "Krimp,Slopers,Överhäng",
       "firstAscent": "Stefan Holm",
       "description": "Stora blocket vid grusvägen till Solviksklippan. Sidan mot grusvägen.",
+      "sectorId": "kraftledningen",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -3604,6 +3869,7 @@
       "type": "Mantling",
       "firstAscent": "Christian Eriksson",
       "description": "",
+      "sectorId": "kraftledningen",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -3619,6 +3885,7 @@
       "type": "Mantling,Slab",
       "firstAscent": "Christian Eriksson",
       "description": "",
+      "sectorId": "kraftledningen",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -3634,6 +3901,7 @@
       "type": "Mantling,Slab",
       "firstAscent": "Christian Eriksson",
       "description": "",
+      "sectorId": "kraftledningen",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -3649,6 +3917,7 @@
       "type": "Mantling,Slab",
       "firstAscent": "Tim Granlund",
       "description": "",
+      "sectorId": "kraftledningen",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -3664,6 +3933,7 @@
       "type": "Aréte",
       "firstAscent": "Martin Börjesson",
       "description": "Endast greppen nära areten, ej kanten.",
+      "sectorId": "kraftledningen",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -3679,6 +3949,7 @@
       "type": "",
       "firstAscent": "Markus Sköldstam",
       "description": "",
+      "sectorId": "kraftledningen",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -3694,6 +3965,7 @@
       "type": "",
       "firstAscent": "Walter Kjell",
       "description": "",
+      "sectorId": "kraftledningen",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -3709,6 +3981,7 @@
       "type": "",
       "firstAscent": "Markus Sköldstam",
       "description": "",
+      "sectorId": "kraftledningen",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -3724,6 +3997,7 @@
       "type": "",
       "firstAscent": "Christian Eriksson",
       "description": "",
+      "sectorId": "kraftledningen",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -3739,6 +4013,7 @@
       "type": "",
       "firstAscent": "Stina Sterner",
       "description": "",
+      "sectorId": "kraftledningen",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -3754,6 +4029,7 @@
       "type": "Mantling,Överhäng",
       "firstAscent": "Jens Sterner",
       "description": "",
+      "sectorId": "kraftledningen",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -3769,6 +4045,7 @@
       "type": "",
       "firstAscent": "Jens Sterner",
       "description": "",
+      "sectorId": "kraftledningen",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -3784,6 +4061,7 @@
       "type": "",
       "firstAscent": "Jens Sterner",
       "description": "",
+      "sectorId": "kraftledningen",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -3799,6 +4077,7 @@
       "type": "",
       "firstAscent": "Adam Rosenbaum/Christian Eriksson",
       "description": "",
+      "sectorId": "kraftledningen",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -3814,6 +4093,7 @@
       "type": "Pinch",
       "firstAscent": "Christian Eriksson",
       "description": "",
+      "sectorId": "kraftledningen",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -3829,6 +4109,7 @@
       "type": "Krimp,Pinch",
       "firstAscent": "Christian Eriksson/Adam Rosenbaum",
       "description": "",
+      "sectorId": "kraftledningen",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -3844,6 +4125,7 @@
       "type": "",
       "firstAscent": "Bengt Gustavsson/Johan Lindfors",
       "description": "",
+      "sectorId": "kraftledningen",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -3859,6 +4141,7 @@
       "type": "",
       "firstAscent": "Markus Sköldstam",
       "description": "",
+      "sectorId": "kraftledningen",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -3874,6 +4157,7 @@
       "type": "",
       "firstAscent": "Adam Rosenbaum",
       "description": "",
+      "sectorId": "kraftledningen",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -3889,6 +4173,7 @@
       "type": "Pinch,Layback",
       "firstAscent": "Christian Eriksson",
       "description": "",
+      "sectorId": "kraftledningen",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -3904,6 +4189,7 @@
       "type": "",
       "firstAscent": "Johan Lindfors",
       "description": "",
+      "sectorId": "kraftledningen",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -3919,6 +4205,7 @@
       "type": "",
       "firstAscent": "Jens Sterner",
       "description": "",
+      "sectorId": "kraftledningen",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -3934,6 +4221,7 @@
       "type": "",
       "firstAscent": "Christian Eriksson",
       "description": "",
+      "sectorId": "kraftledningen",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -3949,6 +4237,7 @@
       "type": "Layback",
       "firstAscent": "Christian Eriksson",
       "description": "",
+      "sectorId": "kraftledningen",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -3964,6 +4253,7 @@
       "type": "",
       "firstAscent": "Johan Lindfors",
       "description": "",
+      "sectorId": "kraftledningen",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -3979,6 +4269,7 @@
       "type": "",
       "firstAscent": "",
       "description": "",
+      "sectorId": "kraftledningen",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -3994,6 +4285,7 @@
       "type": "Slab",
       "firstAscent": "Stefan Holm",
       "description": "Grymt morfo. Start på marken (ej på stubbe).",
+      "sectorId": "hygget",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -4009,6 +4301,7 @@
       "type": "Layback,Slab,Aréte",
       "firstAscent": "Stefan Holm",
       "description": "",
+      "sectorId": "hygget",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -4024,6 +4317,7 @@
       "type": "Slab",
       "firstAscent": "S Holm",
       "description": "",
+      "sectorId": "hygget",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -4039,6 +4333,7 @@
       "type": "",
       "firstAscent": "S Holm",
       "description": "",
+      "sectorId": "hygget",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -4054,6 +4349,7 @@
       "type": "",
       "firstAscent": "S Holm",
       "description": "",
+      "sectorId": "hygget",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -4069,6 +4365,7 @@
       "type": "",
       "firstAscent": "S Holm",
       "description": "",
+      "sectorId": "hygget",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -4084,6 +4381,7 @@
       "type": "",
       "firstAscent": "S Holm",
       "description": "",
+      "sectorId": "hygget",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -4099,6 +4397,7 @@
       "type": "",
       "firstAscent": "S Holm",
       "description": "Utan kanterna rakt upp",
+      "sectorId": "hygget",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -4114,6 +4413,7 @@
       "type": "",
       "firstAscent": "Elin Boström Holm",
       "description": "",
+      "sectorId": "hygget",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -4129,6 +4429,7 @@
       "type": "",
       "firstAscent": "Daniel Hallgren",
       "description": "",
+      "sectorId": "hygget",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -4144,6 +4445,7 @@
       "type": "",
       "firstAscent": "Daniel Hallgren",
       "description": "",
+      "sectorId": "hygget",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -4159,6 +4461,7 @@
       "type": "",
       "firstAscent": "W Kjell",
       "description": "",
+      "sectorId": "hygget",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -4174,6 +4477,7 @@
       "type": "Aréte",
       "firstAscent": "S Holm",
       "description": "",
+      "sectorId": "hygget",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -4189,6 +4493,7 @@
       "type": "",
       "firstAscent": "S Holm",
       "description": "",
+      "sectorId": "hygget",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -4204,6 +4509,7 @@
       "type": "",
       "firstAscent": "S Holm",
       "description": "",
+      "sectorId": "hygget",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -4219,6 +4525,7 @@
       "type": "Krimp,Slopers,Mantling",
       "firstAscent": "Stefan Holm",
       "description": "",
+      "sectorId": "stugorna",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -4234,6 +4541,7 @@
       "type": "",
       "firstAscent": "A Rosenbaum",
       "description": "",
+      "sectorId": "stugorna",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -4249,6 +4557,7 @@
       "type": "",
       "firstAscent": "A Rosenbaum",
       "description": "",
+      "sectorId": "stugorna",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -4264,6 +4573,7 @@
       "type": "",
       "firstAscent": "J Sterner/S Holm",
       "description": "",
+      "sectorId": "stugorna",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -4279,6 +4589,7 @@
       "type": "Slopers,Mantling",
       "firstAscent": "J Sterner",
       "description": "",
+      "sectorId": "stugorna",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -4294,6 +4605,7 @@
       "type": "",
       "firstAscent": "J Lindfors",
       "description": "",
+      "sectorId": "stugorna",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -4309,6 +4621,7 @@
       "type": "",
       "firstAscent": "J Sterner",
       "description": "",
+      "sectorId": "stugorna",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -4324,6 +4637,7 @@
       "type": "Överhäng,Travers V->H,Heel hook",
       "firstAscent": "Stefan Holm",
       "description": "Vid badplatsen följ strandkanten 200 m och blocket ligger uppe i backen.",
+      "sectorId": "badplatsen",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -4339,6 +4653,7 @@
       "type": "Slab",
       "firstAscent": "S Sterner",
       "description": "",
+      "sectorId": "badplatsen",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -4354,6 +4669,7 @@
       "type": "",
       "firstAscent": "C Eriksson",
       "description": "Händerna på bullen.",
+      "sectorId": "badplatsen",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -4369,6 +4685,7 @@
       "type": "",
       "firstAscent": "J Sterner",
       "description": "Ej toppkanten",
+      "sectorId": "badplatsen",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -4384,6 +4701,7 @@
       "type": "",
       "firstAscent": "S Sterner",
       "description": "",
+      "sectorId": "badplatsen",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -4399,6 +4717,7 @@
       "type": "",
       "firstAscent": "J Lindfors",
       "description": "",
+      "sectorId": "badplatsen",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -4414,6 +4733,7 @@
       "type": "",
       "firstAscent": "C Eriksson",
       "description": "",
+      "sectorId": "badplatsen",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -4429,6 +4749,7 @@
       "type": "Travers V->H",
       "firstAscent": "J Sterner",
       "description": "Travers snett nedåt...",
+      "sectorId": "badplatsen",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -4444,6 +4765,7 @@
       "type": "",
       "firstAscent": "J Sterner",
       "description": "",
+      "sectorId": "badplatsen",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -4459,6 +4781,7 @@
       "type": "",
       "firstAscent": "J Sterner",
       "description": "",
+      "sectorId": "badplatsen",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -4474,6 +4797,7 @@
       "type": "",
       "firstAscent": "C Eriksson",
       "description": "",
+      "sectorId": "badplatsen",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -4489,6 +4813,7 @@
       "type": "",
       "firstAscent": "C Eriksson",
       "description": "",
+      "sectorId": "badplatsen",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -4504,6 +4829,7 @@
       "type": "",
       "firstAscent": "C Eriksson",
       "description": "",
+      "sectorId": "badplatsen",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -4519,6 +4845,7 @@
       "type": "",
       "firstAscent": "C Eriksson",
       "description": "",
+      "sectorId": "badplatsen",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -4534,6 +4861,7 @@
       "type": "",
       "firstAscent": "J Lindfors",
       "description": "",
+      "sectorId": "badplatsen",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -4549,6 +4877,7 @@
       "type": "",
       "firstAscent": "J Kjellberg",
       "description": "",
+      "sectorId": "badplatsen",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -4564,6 +4893,7 @@
       "type": "",
       "firstAscent": "C Eriksson",
       "description": "",
+      "sectorId": "badplatsen",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -4579,6 +4909,7 @@
       "type": "Krimp,Dyno",
       "firstAscent": "C Eriksson",
       "description": "",
+      "sectorId": "badplatsen",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -4594,6 +4925,7 @@
       "type": "",
       "firstAscent": "S Holm",
       "description": "",
+      "sectorId": "badplatsen",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -4609,6 +4941,7 @@
       "type": "",
       "firstAscent": "W Kjell",
       "description": "",
+      "sectorId": "badplatsen",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -4624,6 +4957,7 @@
       "type": "Slopers",
       "firstAscent": "Christian Eriksson",
       "description": "",
+      "sectorId": "hygget-ii",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -4639,6 +4973,7 @@
       "type": "",
       "firstAscent": "Christian Eriksson",
       "description": "",
+      "sectorId": "hygget-ii",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -4654,6 +4989,7 @@
       "type": "",
       "firstAscent": "Stefan Holm",
       "description": "",
+      "sectorId": "hygget-ii",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -4669,6 +5005,7 @@
       "type": "",
       "firstAscent": "Stefan Holm",
       "description": "",
+      "sectorId": "hygget-ii",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -4684,6 +5021,7 @@
       "type": "",
       "firstAscent": "Christian Eriksson",
       "description": "",
+      "sectorId": "hygget-ii",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -4699,6 +5037,7 @@
       "type": "",
       "firstAscent": "Adam Rosenbaum",
       "description": "",
+      "sectorId": "hygget-ii",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -4714,6 +5053,7 @@
       "type": "",
       "firstAscent": "Johan Lindvall",
       "description": "",
+      "sectorId": "hygget-ii",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -4729,6 +5069,7 @@
       "type": "",
       "firstAscent": "Johan Lindvall",
       "description": "",
+      "sectorId": "hygget-ii",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -4744,6 +5085,7 @@
       "type": "",
       "firstAscent": "Christian Eriksson",
       "description": "",
+      "sectorId": "hygget-ii",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -4759,6 +5101,7 @@
       "type": "",
       "firstAscent": "Adam Rosenbaum",
       "description": "",
+      "sectorId": "hygget-ii",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -4774,6 +5117,7 @@
       "type": "",
       "firstAscent": "Stina Sterner/Jenny Kjellberg",
       "description": "",
+      "sectorId": "hygget-ii",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -4789,6 +5133,7 @@
       "type": "Travers V->H",
       "firstAscent": "Martin Börjesson",
       "description": "",
+      "sectorId": "stora-naset",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -4804,6 +5149,7 @@
       "type": "",
       "firstAscent": "Martin Börjesson",
       "description": "",
+      "sectorId": "stora-naset",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -4819,6 +5165,7 @@
       "type": "",
       "firstAscent": "Martin Börjesson",
       "description": "",
+      "sectorId": "stora-naset",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -4834,6 +5181,7 @@
       "type": "",
       "firstAscent": "Martin Börjesson",
       "description": "",
+      "sectorId": "stora-naset",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -4849,6 +5197,7 @@
       "type": "",
       "firstAscent": "Martin Börjesson",
       "description": "",
+      "sectorId": "stora-naset",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -4864,6 +5213,7 @@
       "type": "",
       "firstAscent": "Martin Börjesson",
       "description": "",
+      "sectorId": "stora-naset",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -4879,6 +5229,7 @@
       "type": "",
       "firstAscent": "Martin Börjesson",
       "description": "",
+      "sectorId": "stora-naset",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -4894,6 +5245,7 @@
       "type": "",
       "firstAscent": "Martin Börjesson",
       "description": "",
+      "sectorId": "stora-naset",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -4909,6 +5261,7 @@
       "type": "",
       "firstAscent": "Martin Börjesson",
       "description": "",
+      "sectorId": "stora-naset",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -4924,6 +5277,7 @@
       "type": "",
       "firstAscent": "",
       "description": "",
+      "sectorId": "stora-naset",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -4939,6 +5293,7 @@
       "type": "",
       "firstAscent": "Martin Börjesson/Stefan Holm",
       "description": "",
+      "sectorId": "stora-naset",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -4954,6 +5309,7 @@
       "type": "",
       "firstAscent": "Martin Börjesson",
       "description": "",
+      "sectorId": "stora-naset",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -4969,6 +5325,7 @@
       "type": "Slab",
       "firstAscent": "Martin Börjesson",
       "description": "Utan areten",
+      "sectorId": "stora-naset",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -4984,6 +5341,7 @@
       "type": "",
       "firstAscent": "Martin Börjesson",
       "description": "",
+      "sectorId": "stora-naset",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -4999,6 +5357,7 @@
       "type": "",
       "firstAscent": "Martin Börjesson",
       "description": "",
+      "sectorId": "stora-naset",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -5014,6 +5373,7 @@
       "type": "",
       "firstAscent": "Martin Börjesson",
       "description": "",
+      "sectorId": "stora-naset",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -5029,6 +5389,7 @@
       "type": "",
       "firstAscent": "Martin Börjesson",
       "description": "",
+      "sectorId": "stora-naset",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -5044,6 +5405,7 @@
       "type": "Överhäng",
       "firstAscent": "Martin Börjesson",
       "description": "",
+      "sectorId": "stora-naset",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -5059,6 +5421,7 @@
       "type": "Överhäng",
       "firstAscent": "Stefan Holm",
       "description": "Areten ingår ej.",
+      "sectorId": "stora-naset",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -5074,6 +5437,7 @@
       "type": "Dyno",
       "firstAscent": "Stefan Holm",
       "description": "",
+      "sectorId": "stora-naset",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -5089,6 +5453,7 @@
       "type": "",
       "firstAscent": "Martin Börjesson/Stefan Holm",
       "description": "",
+      "sectorId": "stora-naset",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -5104,6 +5469,7 @@
       "type": "",
       "firstAscent": "Martin Börjesson",
       "description": "",
+      "sectorId": "stora-naset",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -5119,6 +5485,7 @@
       "type": "Krimp,Slopers,Överhäng",
       "firstAscent": "Martin Börjesson",
       "description": "",
+      "sectorId": "lilla-naset",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -5134,6 +5501,7 @@
       "type": "Krimp",
       "firstAscent": "Stefan Holm",
       "description": "",
+      "sectorId": "lilla-naset",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -5149,6 +5517,7 @@
       "type": "",
       "firstAscent": "Martin Börjesson",
       "description": "",
+      "sectorId": "lilla-naset",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -5164,6 +5533,7 @@
       "type": "Krimp,Slopers,Överhäng,Travers H->V",
       "firstAscent": "Martin Börjesson",
       "description": "",
+      "sectorId": "lilla-naset",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -5179,6 +5549,7 @@
       "type": "Krimp,Aréte",
       "firstAscent": "Christian Eriksson",
       "description": "",
+      "sectorId": "lilla-naset",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -5194,6 +5565,7 @@
       "type": "",
       "firstAscent": "B Gustavsson/J Lindfors",
       "description": "",
+      "sectorId": "lilla-naset",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -5209,6 +5581,7 @@
       "type": "",
       "firstAscent": "Christian Eriksson",
       "description": "",
+      "sectorId": "lilla-naset",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -5224,6 +5597,7 @@
       "type": "",
       "firstAscent": "Martin Perk/Bengt Gustavsson",
       "description": "Nr 9",
+      "sectorId": "lilla-naset",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -5239,6 +5613,7 @@
       "type": "",
       "firstAscent": "?",
       "description": "nr 10",
+      "sectorId": "lilla-naset",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -5254,6 +5629,7 @@
       "type": "",
       "firstAscent": "Bengt Gustavsson",
       "description": "nr 11",
+      "sectorId": "lilla-naset",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -5269,6 +5645,7 @@
       "type": "Krimp",
       "firstAscent": "Johan Lindfors",
       "description": "",
+      "sectorId": "lilla-naset",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -5284,6 +5661,7 @@
       "type": "Travers V->H",
       "firstAscent": "Christian Eriksson",
       "description": "",
+      "sectorId": "lilla-naset",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -5299,6 +5677,7 @@
       "type": "",
       "firstAscent": "Christian Eriksson",
       "description": "",
+      "sectorId": "lilla-naset",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -5314,6 +5693,7 @@
       "type": "Aréte",
       "firstAscent": "Christian Eriksson",
       "description": "",
+      "sectorId": "lilla-naset",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -5329,6 +5709,7 @@
       "type": "",
       "firstAscent": "Martin Börjesson",
       "description": "",
+      "sectorId": "lilla-naset",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -5344,6 +5725,7 @@
       "type": "",
       "firstAscent": "Stina Sterner",
       "description": "",
+      "sectorId": "lilla-naset",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -5359,6 +5741,7 @@
       "type": "Slopers,Mantling",
       "firstAscent": "Elin Boström Holm",
       "description": "",
+      "sectorId": "ronjablocken",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -5374,6 +5757,7 @@
       "type": "Heel hook",
       "firstAscent": "Elin Boström Holm",
       "description": "Ej stora greppet",
+      "sectorId": "ronjablocken",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -5389,6 +5773,7 @@
       "type": "",
       "firstAscent": "?",
       "description": "",
+      "sectorId": "ronjablocken",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -5404,6 +5789,7 @@
       "type": "",
       "firstAscent": "Walter Kjell",
       "description": "",
+      "sectorId": "ronjablocken",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -5419,6 +5805,7 @@
       "type": "Krimp,Slab",
       "firstAscent": "Johan Lindfors",
       "description": "",
+      "sectorId": "ronjablocken",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -5434,6 +5821,7 @@
       "type": "Krimp",
       "firstAscent": "Christian Eriksson",
       "description": "",
+      "sectorId": "ronjablocken",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -5449,6 +5837,7 @@
       "type": "Krimp,Slopers",
       "firstAscent": "Stefan Holm",
       "description": "",
+      "sectorId": "ronjablocken",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -5464,6 +5853,7 @@
       "type": "Slopers",
       "firstAscent": "Christian Eriksson",
       "description": "",
+      "sectorId": "ronjablocken",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -5479,6 +5869,7 @@
       "type": "Krimp,Slopers,Travers H->V",
       "firstAscent": "Stefan Holm",
       "description": "",
+      "sectorId": "ronjablocken",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -5494,6 +5885,7 @@
       "type": "Krimp,Pinch,Mantling",
       "firstAscent": "Stefan Holm",
       "description": "",
+      "sectorId": "ronjablocken",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -5509,6 +5901,7 @@
       "type": "Krimp,Slab",
       "firstAscent": "Stefan Holm",
       "description": "",
+      "sectorId": "ronjablocken",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -5524,6 +5917,7 @@
       "type": "Slab,Spricka",
       "firstAscent": "Walter Kjell",
       "description": "Tunn tunn söm. 6c ursprungligen.",
+      "sectorId": "ronjablocken",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -5539,6 +5933,7 @@
       "type": "Krimp,Slab",
       "firstAscent": "Johan Lindfors",
       "description": "",
+      "sectorId": "ronjablocken",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -5554,6 +5949,7 @@
       "type": "Krimp,Slab",
       "firstAscent": "Johan Lindfors",
       "description": "",
+      "sectorId": "ronjablocken",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -5569,6 +5965,7 @@
       "type": "Krimp,Slopers,Layback",
       "firstAscent": "Christian Eriksson",
       "description": "",
+      "sectorId": "ronjablocken",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -5584,6 +5981,7 @@
       "type": "Slopers,Slab,Jug",
       "firstAscent": "Elin Boström Holm",
       "description": "",
+      "sectorId": "ronjablocken",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -5599,6 +5997,7 @@
       "type": "",
       "firstAscent": "Christian Eriksson",
       "description": "",
+      "sectorId": "ronjablocken",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -5614,6 +6013,7 @@
       "type": "Spricka",
       "firstAscent": "Stefan Holm",
       "description": "Överflödigt problem.",
+      "sectorId": "ronjablocken",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -5629,6 +6029,7 @@
       "type": "Layback",
       "firstAscent": "Walter Kjell",
       "description": "",
+      "sectorId": "ronjablocken",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -5644,6 +6045,7 @@
       "type": "Layback",
       "firstAscent": "Christian Eriksson",
       "description": "",
+      "sectorId": "ronjablocken",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -5659,6 +6061,7 @@
       "type": "Layback",
       "firstAscent": "Walter Kjell",
       "description": "",
+      "sectorId": "ronjablocken",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -5674,6 +6077,7 @@
       "type": "Krimp",
       "firstAscent": "Walter Kjell",
       "description": "",
+      "sectorId": "ronjablocken",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -5689,6 +6093,7 @@
       "type": "",
       "firstAscent": "Christian Eriksson",
       "description": "",
+      "sectorId": "ronjablocken",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -5704,6 +6109,7 @@
       "type": "Mantling",
       "firstAscent": "Elin Boström Holm",
       "description": "Även korta personer är framgångsrika.",
+      "sectorId": "ronjablocken",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -5719,6 +6125,7 @@
       "type": "",
       "firstAscent": "Stefan Holm",
       "description": "Kanten endast vid starten",
+      "sectorId": "ronjablocken",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -5734,6 +6141,7 @@
       "type": "Dyno",
       "firstAscent": "Markus Sköldstam",
       "description": "",
+      "sectorId": "ronjablocken",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -5749,6 +6157,7 @@
       "type": "",
       "firstAscent": "Markus Sköldstam",
       "description": "",
+      "sectorId": "ronjablocken",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -5764,6 +6173,7 @@
       "type": "",
       "firstAscent": "Elin Boström Holm",
       "description": "",
+      "sectorId": "ronjablocken",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -5779,6 +6189,7 @@
       "type": "Slab",
       "firstAscent": "Stefan Holm",
       "description": "",
+      "sectorId": "ronjablocken",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -5794,6 +6205,7 @@
       "type": "Layback,Överhäng,Jug,Spricka",
       "firstAscent": "Johan Lindfors",
       "description": "",
+      "sectorId": "ronjablocken",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -5809,6 +6221,7 @@
       "type": "Mantling",
       "firstAscent": "Johan Lindfors",
       "description": "",
+      "sectorId": "ronjablocken",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -5824,6 +6237,7 @@
       "type": "Krimp,Slopers,Mantling",
       "firstAscent": "Stefan Holm",
       "description": "",
+      "sectorId": "ronjablocken",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -5839,6 +6253,7 @@
       "type": "Krimp,Slopers,Överhäng",
       "firstAscent": "Christian Eriksson",
       "description": "",
+      "sectorId": "ronjablocken",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -5854,6 +6269,7 @@
       "type": "Överhäng",
       "firstAscent": "Jens Sterner",
       "description": "Ett par fina överhäng.",
+      "sectorId": "ronjablocken",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -5869,6 +6285,7 @@
       "type": "Krimp,Mantling,Överhäng",
       "firstAscent": "Stefan Holm",
       "description": "På skogsblocket mellan \"Sport Chrille\" och \"Squeeze lika a pig\". Rakt upp via lite ond gaston/krimp.",
+      "sectorId": "skogsblocket",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -5884,6 +6301,7 @@
       "type": "Överhäng,Dyno",
       "firstAscent": "Stefan Holm",
       "description": "vid 7 (vit pil)",
+      "sectorId": "skogsblocket",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -5899,6 +6317,7 @@
       "type": "Aréte",
       "firstAscent": "Stefan Holm",
       "description": "vänster om 1, vit pil. Ej stora greppen på 1.",
+      "sectorId": "skogsblocket",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -5914,6 +6333,7 @@
       "type": "Krimp,Överhäng,Dyno",
       "firstAscent": "C Eriksson",
       "description": "",
+      "sectorId": "skogsblocket",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -5929,6 +6349,7 @@
       "type": "",
       "firstAscent": "C Eriksson",
       "description": "",
+      "sectorId": "skogsblocket",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -5944,6 +6365,7 @@
       "type": "",
       "firstAscent": "C Eriksson",
       "description": "",
+      "sectorId": "skogsblocket",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -5959,6 +6381,7 @@
       "type": "",
       "firstAscent": "J Lindfors",
       "description": "",
+      "sectorId": "skogsblocket",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -5974,6 +6397,7 @@
       "type": "Reach",
       "firstAscent": "S Sterner",
       "description": "suspekt flak",
+      "sectorId": "skogsblocket",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -5989,6 +6413,7 @@
       "type": "Aréte",
       "firstAscent": "J Lindfors",
       "description": "Bra men suspekta grepp. Varning!",
+      "sectorId": "skogsblocket",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -6004,6 +6429,7 @@
       "type": "",
       "firstAscent": "C Eriksson",
       "description": "",
+      "sectorId": "skogsblocket",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -6019,6 +6445,7 @@
       "type": "",
       "firstAscent": "C Eriksson",
       "description": "",
+      "sectorId": "skogsblocket",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -6034,6 +6461,7 @@
       "type": "",
       "firstAscent": "A Rosenbaum",
       "description": "",
+      "sectorId": "skogsblocket",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -6049,6 +6477,7 @@
       "type": "",
       "firstAscent": "C Eriksson",
       "description": "",
+      "sectorId": "skogsblocket",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -6064,6 +6493,7 @@
       "type": "",
       "firstAscent": "C Eriksson",
       "description": "",
+      "sectorId": "skogsblocket",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -6079,6 +6509,7 @@
       "type": "Slopers",
       "firstAscent": "C Eriksson",
       "description": "Positiva slopers...",
+      "sectorId": "skogsblocket",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -6094,6 +6525,7 @@
       "type": "Slopers,Mantling",
       "firstAscent": "A Rosenbaum",
       "description": "",
+      "sectorId": "skogsblocket",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -6109,6 +6541,7 @@
       "type": "",
       "firstAscent": "S Sterner",
       "description": "",
+      "sectorId": "skogsblocket",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -6124,6 +6557,7 @@
       "type": "Highball",
       "firstAscent": "J Lindfors",
       "description": "",
+      "sectorId": "skogsblocket",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -6139,6 +6573,7 @@
       "type": "Krimp,Slopers,Layback,Highball",
       "firstAscent": "Christian Eriksson",
       "description": "",
+      "sectorId": "skepparblocket",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -6154,6 +6589,7 @@
       "type": "Highball",
       "firstAscent": "Jens Sterner",
       "description": "",
+      "sectorId": "skepparblocket",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -6169,6 +6605,7 @@
       "type": "",
       "firstAscent": "Christian Eriksson",
       "description": "",
+      "sectorId": "skepparblocket",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -6184,6 +6621,7 @@
       "type": "",
       "firstAscent": "Stina Sterner",
       "description": "",
+      "sectorId": "skepparblocket",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -6199,6 +6637,7 @@
       "type": "",
       "firstAscent": "?",
       "description": "",
+      "sectorId": "skepparblocket",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -6214,6 +6653,7 @@
       "type": "",
       "firstAscent": "?",
       "description": "",
+      "sectorId": "skepparblocket",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -6229,6 +6669,7 @@
       "type": "",
       "firstAscent": "Jens Sterner",
       "description": "Låg start",
+      "sectorId": "skepparblocket",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -6244,6 +6685,7 @@
       "type": "",
       "firstAscent": "Jens Sterner",
       "description": "",
+      "sectorId": "skepparblocket",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -6259,6 +6701,7 @@
       "type": "Slopers",
       "firstAscent": "Johan Lindfors",
       "description": "Halvsittande på stor sloper.",
+      "sectorId": "skepparblocket",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -6274,6 +6717,7 @@
       "type": "",
       "firstAscent": "Jens Sterner",
       "description": "Inga fötter på intilliggande stenar.",
+      "sectorId": "hasthagsgolen",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -6289,6 +6733,7 @@
       "type": "Dyno",
       "firstAscent": "Jens Sterner",
       "description": "",
+      "sectorId": "hasthagsgolen",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -6304,6 +6749,7 @@
       "type": "",
       "firstAscent": "Jens Sterner",
       "description": "",
+      "sectorId": "hasthagsgolen",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -6319,6 +6765,7 @@
       "type": "",
       "firstAscent": "Jens Sterner",
       "description": "",
+      "sectorId": "hasthagsgolen",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -6334,6 +6781,7 @@
       "type": "",
       "firstAscent": "Jens Sterner",
       "description": "",
+      "sectorId": "hasthagsgolen",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -6349,6 +6797,7 @@
       "type": "",
       "firstAscent": "Johan Lindvall",
       "description": "",
+      "sectorId": "hasthagsgolen",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -6364,6 +6813,7 @@
       "type": "",
       "firstAscent": "Johan Lindvall",
       "description": "",
+      "sectorId": "hasthagsgolen",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -6379,6 +6829,7 @@
       "type": "",
       "firstAscent": "Johan Lindvall",
       "description": "",
+      "sectorId": "hasthagsgolen",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -6394,6 +6845,7 @@
       "type": "",
       "firstAscent": "Christian Eriksson",
       "description": "",
+      "sectorId": "hasthagsgolen",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -6409,6 +6861,7 @@
       "type": "",
       "firstAscent": "Johan Lindfors",
       "description": "",
+      "sectorId": "hasthagsgolen",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -6424,6 +6877,7 @@
       "type": "",
       "firstAscent": "Johan Lindvall",
       "description": "",
+      "sectorId": "hasthagsgolen",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -6439,6 +6893,7 @@
       "type": "",
       "firstAscent": "Johan Lindfors",
       "description": "",
+      "sectorId": "hasthagsgolen",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -6454,6 +6909,7 @@
       "type": "",
       "firstAscent": "Christian Eriksson",
       "description": "",
+      "sectorId": "hasthagsgolen",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -6469,6 +6925,7 @@
       "type": "",
       "firstAscent": "Tim Granlund",
       "description": "",
+      "sectorId": "hasthagsgolen",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -6484,6 +6941,7 @@
       "type": "",
       "firstAscent": "Jens Sterner",
       "description": "",
+      "sectorId": "hasthagsgolen",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -6499,6 +6957,7 @@
       "type": "Pinch",
       "firstAscent": "Christian Eriksson",
       "description": "HH på fetpichen, VH längst ned på slopiga laybacken. Sedan snett vänster.",
+      "sectorId": "hasthagsgolen",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -6514,6 +6973,7 @@
       "type": "",
       "firstAscent": "Christian Eriksson",
       "description": "",
+      "sectorId": "hasthagsgolen",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -6529,6 +6989,7 @@
       "type": "",
       "firstAscent": "Christian Eriksson",
       "description": "",
+      "sectorId": "hasthagsgolen",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -6544,6 +7005,7 @@
       "type": "",
       "firstAscent": "Tim Granlund",
       "description": "",
+      "sectorId": "hasthagsgolen",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -6559,6 +7021,7 @@
       "type": "",
       "firstAscent": "Stefan Holm",
       "description": "",
+      "sectorId": "hasthagsgolen",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -6574,6 +7037,7 @@
       "type": "",
       "firstAscent": "Jens Sterner",
       "description": "",
+      "sectorId": "hasthagsgolen",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -6589,6 +7053,7 @@
       "type": "",
       "firstAscent": "Stefan Holm",
       "description": "",
+      "sectorId": "hasthagsgolen",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -6604,6 +7069,7 @@
       "type": "Mantling",
       "firstAscent": "Christian Eriksson",
       "description": "",
+      "sectorId": "hasthagsgolen",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -6619,6 +7085,7 @@
       "type": "",
       "firstAscent": "Jens Sterner",
       "description": "",
+      "sectorId": "hasthagsgolen",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -6634,6 +7101,7 @@
       "type": "",
       "firstAscent": "Johan Lindvall",
       "description": "",
+      "sectorId": "hasthagsgolen",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -6649,6 +7117,7 @@
       "type": "",
       "firstAscent": "Christian Eriksson",
       "description": "",
+      "sectorId": "hasthagsgolen",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -6664,6 +7133,7 @@
       "type": "",
       "firstAscent": "Jens Sterner",
       "description": "",
+      "sectorId": "hasthagsgolen",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -6679,6 +7149,7 @@
       "type": "Slab",
       "firstAscent": "Johan Lindvall/Christian Eriksson",
       "description": "",
+      "sectorId": "hasthagsgolen",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -6694,6 +7165,7 @@
       "type": "Slab",
       "firstAscent": "Christian Eriksson",
       "description": "VH på layback, snett åt höger med HH.",
+      "sectorId": "hasthagsgolen",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -6709,6 +7181,7 @@
       "type": "",
       "firstAscent": "Stina Sterner",
       "description": "",
+      "sectorId": "hasthagsgolen",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -6724,6 +7197,7 @@
       "type": "",
       "firstAscent": "Stina Sterner",
       "description": "",
+      "sectorId": "hasthagsgolen",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -6739,6 +7213,7 @@
       "type": "",
       "firstAscent": "Adam Rosenbaum",
       "description": "Utsteget på Rampage",
+      "sectorId": "hasthagsgolen",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -6754,6 +7229,7 @@
       "type": "",
       "firstAscent": "Jens Sterner",
       "description": "",
+      "sectorId": "hasthagsgolen",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -6769,6 +7245,7 @@
       "type": "Krimp,Dyno",
       "firstAscent": "Jens Sterner",
       "description": "Start på låg tydlig list sedan dyno.",
+      "sectorId": "hasthagsgolen",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -6784,6 +7261,7 @@
       "type": "",
       "firstAscent": "Johan Lindfors",
       "description": "",
+      "sectorId": "hasthagsgolen",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -6799,6 +7277,7 @@
       "type": "",
       "firstAscent": "Jens Sterner",
       "description": "",
+      "sectorId": "hasthagsgolen",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -6814,6 +7293,7 @@
       "type": "",
       "firstAscent": "Christian Eriksson/Jens Sterner",
       "description": "",
+      "sectorId": "hasthagsgolen",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -6829,6 +7309,7 @@
       "type": "",
       "firstAscent": "Jens Sterner",
       "description": "",
+      "sectorId": "hasthagsgolen",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -6844,6 +7325,7 @@
       "type": "Mantling",
       "firstAscent": "Stina Sterner",
       "description": "",
+      "sectorId": "hasthagsgolen",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -6859,6 +7341,7 @@
       "type": "",
       "firstAscent": "Christian Eriksson",
       "description": "",
+      "sectorId": "hasthagsgolen",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -6874,6 +7357,7 @@
       "type": "",
       "firstAscent": "Christian Eriksson",
       "description": "",
+      "sectorId": "hasthagsgolen",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -6889,6 +7373,7 @@
       "type": "",
       "firstAscent": "Stina Sterner/Johan Lindfors",
       "description": "",
+      "sectorId": "hasthagsgolen",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -6904,6 +7389,7 @@
       "type": "",
       "firstAscent": "Stefan Holm",
       "description": "Svanstenarna",
+      "sectorId": "hasthagsgolen",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -6919,6 +7405,7 @@
       "type": "",
       "firstAscent": "Stefan Holm",
       "description": "Svanstenarna",
+      "sectorId": "hasthagsgolen",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -6934,6 +7421,7 @@
       "type": "Aréte,Travers H->V",
       "firstAscent": "Stefan Holm",
       "description": "Svanstenarna",
+      "sectorId": "hasthagsgolen",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -6949,6 +7437,7 @@
       "type": "",
       "firstAscent": "Stefan Holm",
       "description": "",
+      "sectorId": "hasthagsgolen",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -6964,6 +7453,7 @@
       "type": "Slab",
       "firstAscent": "Stefan Holm",
       "description": "",
+      "sectorId": "hasthagsgolen",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -6979,6 +7469,7 @@
       "type": "Överhäng",
       "firstAscent": "Johan Lindvall",
       "description": "Nr 14, ss",
+      "sectorId": "nifelheim",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -6994,6 +7485,7 @@
       "type": "Överhäng",
       "firstAscent": "Magnus Hansen/Adam Rosenbaum",
       "description": "",
+      "sectorId": "nifelheim",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -7009,6 +7501,7 @@
       "type": "",
       "firstAscent": "Daniel",
       "description": "vänster om 16, Nifelheim",
+      "sectorId": "nifelheim",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -7024,6 +7517,7 @@
       "type": "Mantling,Överhäng",
       "firstAscent": "Daniel",
       "description": "v om 16, Nifelheim",
+      "sectorId": "nifelheim",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -7039,6 +7533,7 @@
       "type": "",
       "firstAscent": "C Eriksson",
       "description": "",
+      "sectorId": "nifelheim",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -7054,6 +7549,7 @@
       "type": "",
       "firstAscent": "S Sterner",
       "description": "",
+      "sectorId": "nifelheim",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -7069,6 +7565,7 @@
       "type": "",
       "firstAscent": "S Sterner",
       "description": "",
+      "sectorId": "nifelheim",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -7084,6 +7581,7 @@
       "type": "",
       "firstAscent": "C Eriksson",
       "description": "",
+      "sectorId": "nifelheim",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -7099,6 +7597,7 @@
       "type": "",
       "firstAscent": "S Sterner",
       "description": "",
+      "sectorId": "nifelheim",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -7114,6 +7613,7 @@
       "type": "Aréte",
       "firstAscent": "S Sterner",
       "description": "",
+      "sectorId": "nifelheim",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -7129,6 +7629,7 @@
       "type": "",
       "firstAscent": "S Sterner",
       "description": "",
+      "sectorId": "nifelheim",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -7144,6 +7645,7 @@
       "type": "Slopers",
       "firstAscent": "C Eriksson",
       "description": "",
+      "sectorId": "nifelheim",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -7159,6 +7661,7 @@
       "type": "",
       "firstAscent": "A Rosenbaum",
       "description": "",
+      "sectorId": "nifelheim",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -7174,6 +7677,7 @@
       "type": "",
       "firstAscent": "C Eriksson",
       "description": "",
+      "sectorId": "nifelheim",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -7189,6 +7693,7 @@
       "type": "",
       "firstAscent": "C Eriksson",
       "description": "",
+      "sectorId": "nifelheim",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -7204,6 +7709,7 @@
       "type": "",
       "firstAscent": "C Eriksson",
       "description": "",
+      "sectorId": "nifelheim",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -7219,6 +7725,7 @@
       "type": "",
       "firstAscent": "J Sterner",
       "description": "Hoppstart",
+      "sectorId": "nifelheim",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -7234,6 +7741,7 @@
       "type": "",
       "firstAscent": "S Sterner",
       "description": "Start på jug",
+      "sectorId": "nifelheim",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -7249,6 +7757,7 @@
       "type": "",
       "firstAscent": "S Sterner",
       "description": "",
+      "sectorId": "nifelheim",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -7264,6 +7773,7 @@
       "type": "",
       "firstAscent": "C Eriksson",
       "description": "",
+      "sectorId": "nifelheim",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -7279,6 +7789,7 @@
       "type": "Slab",
       "firstAscent": "M Börjesson",
       "description": "",
+      "sectorId": "nifelheim",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -7294,6 +7805,7 @@
       "type": "Slab",
       "firstAscent": "S Holm/M Börjesson",
       "description": "",
+      "sectorId": "nifelheim",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -7309,6 +7821,7 @@
       "type": "Slab",
       "firstAscent": "S Holm/M Börjesson",
       "description": "",
+      "sectorId": "nifelheim",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -7324,6 +7837,7 @@
       "type": "",
       "firstAscent": "C Eriksson",
       "description": "",
+      "sectorId": "nifelheim",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -7339,6 +7853,7 @@
       "type": "",
       "firstAscent": "S Sterner",
       "description": "",
+      "sectorId": "nifelheim",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -7354,6 +7869,7 @@
       "type": "",
       "firstAscent": "",
       "description": "",
+      "sectorId": "nifelheim",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -7369,6 +7885,7 @@
       "type": "",
       "firstAscent": "C Eriksson",
       "description": "",
+      "sectorId": "nifelheim",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -7384,6 +7901,7 @@
       "type": "",
       "firstAscent": "C Eriksson",
       "description": "",
+      "sectorId": "nifelheim",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -7399,6 +7917,7 @@
       "type": "",
       "firstAscent": "J Sterner",
       "description": "",
+      "sectorId": "nifelheim",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -7414,6 +7933,7 @@
       "type": "",
       "firstAscent": "S Sterner",
       "description": "",
+      "sectorId": "nifelheim",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -7429,6 +7949,7 @@
       "type": "",
       "firstAscent": "S Sterner",
       "description": "",
+      "sectorId": "nifelheim",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -7444,6 +7965,7 @@
       "type": "",
       "firstAscent": "C Eriksson",
       "description": "",
+      "sectorId": "nifelheim",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -7459,6 +7981,7 @@
       "type": "",
       "firstAscent": "S Sterner",
       "description": "",
+      "sectorId": "nifelheim",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -7474,6 +7997,7 @@
       "type": "",
       "firstAscent": "S Sterner",
       "description": "",
+      "sectorId": "nifelheim",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -7489,6 +8013,7 @@
       "type": "",
       "firstAscent": "J Sterner",
       "description": "",
+      "sectorId": "nifelheim",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -7504,6 +8029,7 @@
       "type": "",
       "firstAscent": "J Sterner",
       "description": "",
+      "sectorId": "nifelheim",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -7519,6 +8045,7 @@
       "type": "",
       "firstAscent": "J Lindfors",
       "description": "",
+      "sectorId": "nifelheim",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -7534,6 +8061,7 @@
       "type": "",
       "firstAscent": "C Eriksson",
       "description": "",
+      "sectorId": "nifelheim",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -7549,6 +8077,7 @@
       "type": "",
       "firstAscent": "C Eriksson",
       "description": "",
+      "sectorId": "nifelheim",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -7564,6 +8093,7 @@
       "type": "",
       "firstAscent": "S Sterner",
       "description": "",
+      "sectorId": "nifelheim",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -7579,6 +8109,7 @@
       "type": "",
       "firstAscent": "S Sterner",
       "description": "",
+      "sectorId": "nifelheim",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -7594,6 +8125,7 @@
       "type": "",
       "firstAscent": "S Sterner",
       "description": "",
+      "sectorId": "nifelheim",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -7609,6 +8141,7 @@
       "type": "",
       "firstAscent": "J Lindfors",
       "description": "",
+      "sectorId": "nifelheim",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -7624,6 +8157,7 @@
       "type": "",
       "firstAscent": "S Holm/M Börjesson",
       "description": "",
+      "sectorId": "jotumheim",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -7639,6 +8173,7 @@
       "type": "",
       "firstAscent": "S Sterner",
       "description": "",
+      "sectorId": "jotumheim",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -7654,6 +8189,7 @@
       "type": "Krimp",
       "firstAscent": "Martin Börjesson",
       "description": "Problemet ligger i sektor Jotumheim. Rakt upp, något vänster. Start med bra sidotag för VH.",
+      "sectorId": "jotumheim",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -7669,6 +8205,7 @@
       "type": "",
       "firstAscent": "M Börjesson",
       "description": "",
+      "sectorId": "jotumheim",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -7684,6 +8221,7 @@
       "type": "",
       "firstAscent": "S Holm",
       "description": "",
+      "sectorId": "jotumheim",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -7699,6 +8237,7 @@
       "type": "Dyno",
       "firstAscent": "S Holm/M Börjesson",
       "description": "",
+      "sectorId": "jotumheim",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -7714,6 +8253,7 @@
       "type": "Slab",
       "firstAscent": "M Sköldstam",
       "description": "",
+      "sectorId": "jotumheim",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -7729,6 +8269,7 @@
       "type": "",
       "firstAscent": "C Eriksson/A Rosenbaum",
       "description": "",
+      "sectorId": "jotumheim",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -7744,6 +8285,7 @@
       "type": "",
       "firstAscent": "A Rosenbaum",
       "description": "",
+      "sectorId": "jotumheim",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -7759,6 +8301,7 @@
       "type": "",
       "firstAscent": "S Sterner",
       "description": "",
+      "sectorId": "jotumheim",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -7774,6 +8317,7 @@
       "type": "",
       "firstAscent": "M Börjesson",
       "description": "",
+      "sectorId": "jotumheim",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -7789,6 +8333,7 @@
       "type": "",
       "firstAscent": "W Kjell",
       "description": "",
+      "sectorId": "jotumheim",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -7804,6 +8349,7 @@
       "type": "Aréte",
       "firstAscent": "C Eriksson/J Lindfors",
       "description": "",
+      "sectorId": "jotumheim",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -7819,6 +8365,7 @@
       "type": "",
       "firstAscent": "J Lindfors",
       "description": "",
+      "sectorId": "jotumheim",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -7834,6 +8381,7 @@
       "type": "",
       "firstAscent": "J Lindfors",
       "description": "",
+      "sectorId": "jotumheim",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -7849,6 +8397,7 @@
       "type": "",
       "firstAscent": "C Eriksson",
       "description": "",
+      "sectorId": "jotumheim",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -7864,6 +8413,7 @@
       "type": "Dyno",
       "firstAscent": "C Eriksson",
       "description": "",
+      "sectorId": "jotumheim",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -7879,6 +8429,7 @@
       "type": "",
       "firstAscent": "S Sterner",
       "description": "",
+      "sectorId": "jotumheim",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -7894,6 +8445,7 @@
       "type": "",
       "firstAscent": "C Eriksson",
       "description": "",
+      "sectorId": "jotumheim",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -7909,6 +8461,7 @@
       "type": "",
       "firstAscent": "S Sterner",
       "description": "",
+      "sectorId": "jotumheim",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -7924,6 +8477,7 @@
       "type": "",
       "firstAscent": "M Sköldstam",
       "description": "",
+      "sectorId": "jotumheim",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -7939,6 +8493,7 @@
       "type": "",
       "firstAscent": "S Sterner",
       "description": "",
+      "sectorId": "jotumheim",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -7954,6 +8509,7 @@
       "type": "",
       "firstAscent": "S Sterner",
       "description": "",
+      "sectorId": "jotumheim",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -7969,6 +8525,7 @@
       "type": "",
       "firstAscent": "C Eriksson",
       "description": "",
+      "sectorId": "jotumheim",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -7984,6 +8541,7 @@
       "type": "",
       "firstAscent": "S Sterner",
       "description": "",
+      "sectorId": "jotumheim",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -7999,6 +8557,7 @@
       "type": "",
       "firstAscent": "C Eriksson",
       "description": "",
+      "sectorId": "jotumheim",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -8014,6 +8573,7 @@
       "type": "",
       "firstAscent": "C Eriksson",
       "description": "",
+      "sectorId": "jotumheim",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -8029,6 +8589,7 @@
       "type": "",
       "firstAscent": "J Lindfors",
       "description": "",
+      "sectorId": "jotumheim",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -8044,6 +8605,7 @@
       "type": "",
       "firstAscent": "S Sterner",
       "description": "",
+      "sectorId": "jotumheim",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -8059,6 +8621,7 @@
       "type": "",
       "firstAscent": "A Rosenbaum",
       "description": "",
+      "sectorId": "jotumheim",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -8074,6 +8637,7 @@
       "type": "Aréte",
       "firstAscent": "J Kjellberg",
       "description": "",
+      "sectorId": "jotumheim",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -8089,6 +8653,7 @@
       "type": "Aréte",
       "firstAscent": "C Eriksson",
       "description": "",
+      "sectorId": "jotumheim",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -8104,6 +8669,7 @@
       "type": "",
       "firstAscent": "S Sterner",
       "description": "",
+      "sectorId": "jotumheim",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -8119,6 +8685,7 @@
       "type": "",
       "firstAscent": "S Sterner",
       "description": "",
+      "sectorId": "jotumheim",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -8134,6 +8701,7 @@
       "type": "",
       "firstAscent": "S Sterner",
       "description": "",
+      "sectorId": "jotumheim",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -8149,6 +8717,7 @@
       "type": "",
       "firstAscent": "J Kjellberg",
       "description": "",
+      "sectorId": "jotumheim",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -8164,6 +8733,7 @@
       "type": "Dyno,Highball,Reach",
       "firstAscent": "Stefan Holm",
       "description": "Stort block vid bilvägen straxt innan Borkhult. Ligger fint i solen om våren. Riktigt hög och fin.",
+      "sectorId": "jotumheim",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -8179,6 +8749,7 @@
       "type": "Slab",
       "firstAscent": "Maritin Börjesson",
       "description": "15 Norrviken",
+      "sectorId": "jotumheim",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -8194,6 +8765,7 @@
       "type": "",
       "firstAscent": "M Börjesson",
       "description": "",
+      "sectorId": "jotumheim",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -8209,6 +8781,7 @@
       "type": "",
       "firstAscent": "S Holm",
       "description": "",
+      "sectorId": "jotumheim",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -8224,6 +8797,7 @@
       "type": "",
       "firstAscent": "S Holm",
       "description": "Svanstenarna",
+      "sectorId": "jotumheim",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -8239,6 +8813,7 @@
       "type": "",
       "firstAscent": "S Holm",
       "description": "Svanstenarna",
+      "sectorId": "jotumheim",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -8254,6 +8829,7 @@
       "type": "",
       "firstAscent": "S Holm",
       "description": "Svanstenarna",
+      "sectorId": "jotumheim",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -8269,6 +8845,7 @@
       "type": "",
       "firstAscent": "S Holm",
       "description": "Svanstenarna",
+      "sectorId": "jotumheim",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"
@@ -8284,6 +8861,7 @@
       "type": "",
       "firstAscent": "S Holm",
       "description": "Svanstenarna",
+      "sectorId": "jotumheim",
       "source": {
         "id": "legacy:bjorsater",
         "path": "mediawiki/Björsäter.txt"

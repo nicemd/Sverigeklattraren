@@ -21,6 +21,7 @@
       "type": "Överhäng",
       "firstAscent": "",
       "description": "Etablerad start med hh lågt i spricka och vh på sidtag, klättra höger och toppa ut via slabben.",
+      "sectorId": null,
       "source": {
         "id": "legacy:pettersberg",
         "path": "mediawiki/Pettersberg.txt"
@@ -36,6 +37,7 @@
       "type": "Överhäng",
       "firstAscent": "",
       "description": "Sittstart mitt i överhänget och vidare rakt upp mot stenens högsta punkt.",
+      "sectorId": null,
       "source": {
         "id": "legacy:pettersberg",
         "path": "mediawiki/Pettersberg.txt"
@@ -51,6 +53,7 @@
       "type": "Överhäng",
       "firstAscent": "",
       "description": "Sittstart vid högra areten, klättra med dragning vänster och toppa ut via slabben.",
+      "sectorId": null,
       "source": {
         "id": "legacy:pettersberg",
         "path": "mediawiki/Pettersberg.txt"
@@ -66,6 +69,7 @@
       "type": "Sva",
       "firstAscent": "T.Torsne",
       "description": "Sittstart vid högra areten, klättra höger ut på svaväggen och vidare rakt upp.",
+      "sectorId": null,
       "source": {
         "id": "legacy:pettersberg",
         "path": "mediawiki/Pettersberg.txt"
@@ -81,6 +85,7 @@
       "type": "Sva",
       "firstAscent": "J.Ernlund",
       "description": "",
+      "sectorId": null,
       "source": {
         "id": "legacy:pettersberg",
         "path": "mediawiki/Pettersberg.txt"
@@ -96,6 +101,7 @@
       "type": "Sva",
       "firstAscent": "T.Torsne",
       "description": "Svagatan t.h. om trädet, vänster om svaareten",
+      "sectorId": null,
       "source": {
         "id": "legacy:pettersberg",
         "path": "mediawiki/Pettersberg.txt"
@@ -111,6 +117,7 @@
       "type": "Sva",
       "firstAscent": "T.Torsne,J.Ernlund",
       "description": "Följ den svepande formationen till toppen",
+      "sectorId": null,
       "source": {
         "id": "legacy:pettersberg",
         "path": "mediawiki/Pettersberg.txt"
@@ -126,6 +133,7 @@
       "type": "Vägg",
       "firstAscent": "T.Torsne,J.Ernlund",
       "description": "",
+      "sectorId": null,
       "source": {
         "id": "legacy:pettersberg",
         "path": "mediawiki/Pettersberg.txt"
@@ -141,6 +149,7 @@
       "type": "Arete",
       "firstAscent": "T.Torsne,J.Ernlund",
       "description": "",
+      "sectorId": null,
       "source": {
         "id": "legacy:pettersberg",
         "path": "mediawiki/Pettersberg.txt"
@@ -156,6 +165,7 @@
       "type": "Travers",
       "firstAscent": "",
       "description": "Slopertravers v>h",
+      "sectorId": null,
       "source": {
         "id": "legacy:pettersberg",
         "path": "mediawiki/Pettersberg.txt"
@@ -171,6 +181,7 @@
       "type": "Arete",
       "firstAscent": "J.Ernlund",
       "description": "Sittstart under areten.",
+      "sectorId": null,
       "source": {
         "id": "legacy:pettersberg",
         "path": "mediawiki/Pettersberg.txt"
@@ -186,6 +197,7 @@
       "type": "Slopers, Mantling",
       "firstAscent": "M.Berglind Kostelac",
       "description": "Mantling på blockets sydsida",
+      "sectorId": null,
       "source": {
         "id": "legacy:pettersberg",
         "path": "mediawiki/Pettersberg.txt"
@@ -201,6 +213,7 @@
       "type": "Krimp, Catch",
       "firstAscent": "J.Ernlund",
       "description": "Sittstart med hh på lågt sidotag och vh på gastonkrimp",
+      "sectorId": null,
       "source": {
         "id": "legacy:pettersberg",
         "path": "mediawiki/Pettersberg.txt"
@@ -210,8 +223,9 @@
   "images": [
     {
       "filename": "Pettersberg.png",
-      "caption": "center",
-      "missing": false
+      "caption": "",
+      "missing": false,
+      "sectorId": null
     }
   ],
   "access": {

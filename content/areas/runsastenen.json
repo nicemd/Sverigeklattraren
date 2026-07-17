@@ -16,6 +16,11 @@
       "id": "vagbeskrivning",
       "title": "Vägbeskrivning",
       "body": "titel=Runsa lat=17824670 long=59569140 Kör skyltade vägen mot Runsa, ca 6km. Parkera vid parkeringen efter allén. Följ grusvägen ca 400m till skylt Runsaborg vänster. Följ stigen. Efter ca 200 m ligger stenen mycket synligt på höger sida."
+    },
+    {
+      "id": "leder",
+      "title": "Leder",
+      "body": ""
     }
   ],
   "routes": [
@@ -29,6 +34,7 @@
       "type": "",
       "firstAscent": "",
       "description": "Rakt upp. (S.Clancy 2011)",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:runsastenen",
         "path": "mediawiki/Runsastenen.txt"
@@ -44,6 +50,7 @@
       "type": "",
       "firstAscent": "",
       "description": "Starta brett med sidotag. Rakt upp. (S.Clancy 2011)",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:runsastenen",
         "path": "mediawiki/Runsastenen.txt"
@@ -59,6 +66,7 @@
       "type": "",
       "firstAscent": "",
       "description": "För den starke kanske det går att ta sig upp på det blanka överhänget",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:runsastenen",
         "path": "mediawiki/Runsastenen.txt"
@@ -74,6 +82,7 @@
       "type": "",
       "firstAscent": "",
       "description": "Startar som Take off men klättras upp längs aretén till stenens topp. (S.Clancy, 2011)",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:runsastenen",
         "path": "mediawiki/Runsastenen.txt"
@@ -89,6 +98,7 @@
       "type": "",
       "firstAscent": "",
       "description": "Start med höger hand i tydligt sprickhål, vänster på liten vårta. Rakt upp. (T.Rönnbäck, 2011)",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:runsastenen",
         "path": "mediawiki/Runsastenen.txt"
@@ -104,6 +114,7 @@
       "type": "",
       "firstAscent": "",
       "description": "5c. Mellan led 3 och 5. Starta med höger hand på liten list, klättra över den lilla bullen. (T.Rönnbäck, 2011)",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:runsastenen",
         "path": "mediawiki/Runsastenen.txt"
@@ -119,6 +130,7 @@
       "type": "",
       "firstAscent": "",
       "description": "Sva just hitom trädet, rakt upp. (T.Rönnbäck, 2011)",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:runsastenen",
         "path": "mediawiki/Runsastenen.txt"
@@ -129,7 +141,8 @@
     {
       "filename": "Runsastenen_bild.jpg",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "leder"
     }
   ],
   "access": {

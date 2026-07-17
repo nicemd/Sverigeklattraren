@@ -30,6 +30,11 @@
       "body": "Ta buss 803 till ändhållplatsen Nyfors (Nyforsvägen)."
     },
     {
+      "id": "leder",
+      "title": "Leder",
+      "body": ""
+    },
+    {
       "id": "oops-klippan",
       "title": "Oops-klippan",
       "body": "Liten brant klippa med en tydlig diagonal linje i . Ligger längs med gångvägen bakom radhusområdet innan Alby skogsväg. Kan behöva lite trafik för inte växa igen."
@@ -38,6 +43,11 @@
       "id": "purgatorio-klippan",
       "title": "Purgatorio-klippan",
       "body": "Relativt hög klippa med den mycket fina . Följ Sörmlandsleden ca 150m och håll vänster för att hitta klippan. och upp till vänster.}} och upp till höger.}}"
+    },
+    {
+      "id": "nasta-klippa",
+      "title": "Nästa klippa",
+      "body": ""
     },
     {
       "id": "alby-natureservat",
@@ -56,6 +66,7 @@
       "type": "boulder",
       "firstAscent": "Johan Boman",
       "description": "Den tydliga sprickan med sitstart längst ned i undercling",
+      "sectorId": "oops-klippan",
       "source": {
         "id": "legacy:nyfors",
         "path": "mediawiki/Nyfors.txt"
@@ -71,6 +82,7 @@
       "type": "boulder",
       "firstAscent": "Jacob Andren",
       "description": "Den högra spricklinjen med def. start i bra grep i axelhöjd",
+      "sectorId": "oops-klippan",
       "source": {
         "id": "legacy:nyfors",
         "path": "mediawiki/Nyfors.txt"
@@ -86,6 +98,7 @@
       "type": "boulder",
       "firstAscent": "John Pahlman",
       "description": "Den högra spricklinjen med sittstart på samma ställe som",
+      "sectorId": "oops-klippan",
       "source": {
         "id": "legacy:nyfors",
         "path": "mediawiki/Nyfors.txt"
@@ -101,6 +114,7 @@
       "type": "",
       "firstAscent": "Marco Kupiainen, Erik Massih, Jimmy Paladino -95",
       "description": "",
+      "sectorId": "purgatorio-klippan",
       "source": {
         "id": "legacy:nyfors",
         "path": "mediawiki/Nyfors.txt"
@@ -116,6 +130,7 @@
       "type": "",
       "firstAscent": "Erik Massih ,Marco Kupiainen -95",
       "description": "",
+      "sectorId": "purgatorio-klippan",
       "source": {
         "id": "legacy:nyfors",
         "path": "mediawiki/Nyfors.txt"
@@ -131,6 +146,7 @@
       "type": "",
       "firstAscent": "Marco Kupiainen(utan rep) -95",
       "description": "",
+      "sectorId": "purgatorio-klippan",
       "source": {
         "id": "legacy:nyfors",
         "path": "mediawiki/Nyfors.txt"
@@ -146,6 +162,7 @@
       "type": "boulder",
       "firstAscent": "Jimmy Paladino -95",
       "description": "Den tydliga höga sprickan i högerkant just innan klippan blir lägre. Behöver rensas.",
+      "sectorId": "purgatorio-klippan",
       "source": {
         "id": "legacy:nyfors",
         "path": "mediawiki/Nyfors.txt"
@@ -161,6 +178,7 @@
       "type": "boulder",
       "firstAscent": "Jimmy Paladino, Johan Boman",
       "description": "Start på tydlig crimp 5m till höger om och upp till vänster.",
+      "sectorId": "purgatorio-klippan",
       "source": {
         "id": "legacy:nyfors",
         "path": "mediawiki/Nyfors.txt"
@@ -176,6 +194,7 @@
       "type": "boulder",
       "firstAscent": "Jimmy Paladino, Johan Boman",
       "description": "Start på tydlig crimp 5m till höger om och upp till höger.",
+      "sectorId": "purgatorio-klippan",
       "source": {
         "id": "legacy:nyfors",
         "path": "mediawiki/Nyfors.txt"
@@ -191,6 +210,7 @@
       "type": "boulder",
       "firstAscent": "Jimmy Paladino, Johan Boman",
       "description": "Sittstart längst till höger.",
+      "sectorId": "purgatorio-klippan",
       "source": {
         "id": "legacy:nyfors",
         "path": "mediawiki/Nyfors.txt"
@@ -206,6 +226,7 @@
       "type": "",
       "firstAscent": "Marco Kupiainen(repsolo -95",
       "description": "",
+      "sectorId": "nasta-klippa",
       "source": {
         "id": "legacy:nyfors",
         "path": "mediawiki/Nyfors.txt"
@@ -221,6 +242,7 @@
       "type": "Vertikal",
       "firstAscent": "Moritz K",
       "description": "Sittstart vid Aréten, rakt upp, toppa ut.",
+      "sectorId": "alby-natureservat",
       "source": {
         "id": "legacy:nyfors",
         "path": "mediawiki/Nyfors.txt"
@@ -230,8 +252,9 @@
   "images": [
     {
       "filename": "Oops.jpg",
-      "caption": "right",
-      "missing": false
+      "caption": "",
+      "missing": false,
+      "sectorId": "oops-klippan"
     }
   ],
   "access": {

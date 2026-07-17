@@ -54,6 +54,7 @@
       "type": "trad",
       "firstAscent": "Emmerich Rossipal, Gunnar Santesson 27/8 1938",
       "description": "Omnämns ofta som Sveriges längsta led och Sveriges mesta klassiker, men också som en av sveriges lösaste och farligaste leder. Vad som är säkert är dock att Silhuettleden är en upplevelse.",
+      "sectorId": "tuolpagorni",
       "source": {
         "id": "legacy:kebnekaise",
         "path": "mediawiki/Kebnekaise.txt"
@@ -69,6 +70,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "En bra variant om man har klättrat siluetten och vill ta sig upp på toppen. Scrambling, på gränsen till lätt klättring.",
+      "sectorId": "tuolpagorni",
       "source": {
         "id": "legacy:kebnekaise",
         "path": "mediawiki/Kebnekaise.txt"
@@ -84,6 +86,7 @@
       "type": "alpin",
       "firstAscent": "T. H. Gudjohnsen & sällskap",
       "description": "En mycket lätt \"alpin\" led till Kebnekaise Sydtopp. Från Fjällstationen går man upp på kebnetjåkka-platån, korsar Björlings glaciär och scramblar uppför Kebnekaises östvägg med hjälp av en via-ferrata i en tydlig ränna. All info du behöver finns att tillgå på Fjällstationen.",
+      "sectorId": "kebnekaise",
       "source": {
         "id": "legacy:kebnekaise",
         "path": "mediawiki/Kebnekaise.txt"
@@ -94,7 +97,8 @@
     {
       "filename": "Toulpagorni.gif",
       "caption": "Petter Åsander",
-      "missing": false
+      "missing": false,
+      "sectorId": "tuolpagorni"
     }
   ],
   "access": {

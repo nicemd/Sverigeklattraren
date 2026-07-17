@@ -34,6 +34,7 @@
       "type": "boulder",
       "firstAscent": "JL 09",
       "description": "vert. ytan mot skogen",
+      "sectorId": "forare",
       "source": {
         "id": "legacy:tullanblocket",
         "path": "mediawiki/Tullanblocket.txt"
@@ -49,6 +50,7 @@
       "type": "boulder",
       "firstAscent": "JK 09",
       "description": "aréten till höger",
+      "sectorId": "forare",
       "source": {
         "id": "legacy:tullanblocket",
         "path": "mediawiki/Tullanblocket.txt"
@@ -59,7 +61,8 @@
     {
       "filename": "Tullanblocket.png",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "forare"
     }
   ],
   "access": {

@@ -40,6 +40,11 @@
       "body": "Ständigt hotat av klätterförbud. Var diskreta, skräpa inte ned och håll en låg profil. Berget ingår i naturreservatet Dyviks lövängar. Parkera endast på parkeringsplatsen ca 150m efter klippan och ställ bilen så att fler bilar får plats. Bultkommittén i Stockholm nådde under 2012 en överenskommelse med Tyresö kommun, som förvaltar naturreservatet, om ombultningar av leder. Ombultningar är endast tillåtet under vissa förutsättningar och varje åtgärd måste godkännas av kommunen i ett skriftligt förfarande. http://bultkommitten.blogspot.se/2012/09/dodskalleberget-bultas-om.html"
     },
     {
+      "id": "leder",
+      "title": "Leder",
+      "body": ""
+    },
+    {
       "id": "lilla-vaggen-till-vanster",
       "title": "Lilla väggen till vänster",
       "body": "Vertikalt till svagt överhängande"
@@ -48,6 +53,11 @@
       "id": "stora-vaggen",
       "title": "Stora väggen",
       "body": "Svaklättring på vänstra delen, vertikalt till svagt överhängande högra delen"
+    },
+    {
+      "id": "hogra-vaggen",
+      "title": "Högra väggen",
+      "body": ""
     },
     {
       "id": "apvaggen",
@@ -66,6 +76,7 @@
       "type": "trad",
       "firstAscent": "Peter Brolin, Buster Delin -96",
       "description": "behöver inte repeteras enligt fa",
+      "sectorId": "lilla-vaggen-till-vanster",
       "source": {
         "id": "legacy:dodskalleberget",
         "path": "mediawiki/Dödskalleberget.txt"
@@ -81,6 +92,7 @@
       "type": "trad",
       "firstAscent": "Gary Hansson, Tomas Hansson-89",
       "description": "Dåligt säkrad i början",
+      "sectorId": "lilla-vaggen-till-vanster",
       "source": {
         "id": "legacy:dodskalleberget",
         "path": "mediawiki/Dödskalleberget.txt"
@@ -96,6 +108,7 @@
       "type": "sport",
       "firstAscent": "Jacob Sjöstrand, Daniel Bidner-84",
       "description": "Fantastisk klättring på den luftiga arêten. Ombultad 2013.",
+      "sectorId": "lilla-vaggen-till-vanster",
       "source": {
         "id": "legacy:dodskalleberget",
         "path": "mediawiki/Dödskalleberget.txt"
@@ -111,6 +124,7 @@
       "type": "sport",
       "firstAscent": "Johan Luhr, Rickard Hedman-87",
       "description": "Ombultad 2013.",
+      "sectorId": "lilla-vaggen-till-vanster",
       "source": {
         "id": "legacy:dodskalleberget",
         "path": "mediawiki/Dödskalleberget.txt"
@@ -126,6 +140,7 @@
       "type": "sport",
       "firstAscent": "Johan Luhr, Stefan Nordman, Mårten Dahlström-90",
       "description": "En av stockholms pärlor. Tung väggklättring.",
+      "sectorId": "lilla-vaggen-till-vanster",
       "source": {
         "id": "legacy:dodskalleberget",
         "path": "mediawiki/Dödskalleberget.txt"
@@ -141,6 +156,7 @@
       "type": "sport",
       "firstAscent": "Johan Luhr-90",
       "description": "Traverserar lilla väggen från v till höger.",
+      "sectorId": "lilla-vaggen-till-vanster",
       "source": {
         "id": "legacy:dodskalleberget",
         "path": "mediawiki/Dödskalleberget.txt"
@@ -156,6 +172,7 @@
       "type": "trad",
       "firstAscent": "Niklas Björnerstedt, Dan Engström-83",
       "description": "Diedern till vänster. Småkilar.",
+      "sectorId": "stora-vaggen",
       "source": {
         "id": "legacy:dodskalleberget",
         "path": "mediawiki/Dödskalleberget.txt"
@@ -171,6 +188,7 @@
       "type": "mix",
       "firstAscent": "Johan Luhr-95",
       "description": "Start i En skänk från ovan sedan vänster",
+      "sectorId": "stora-vaggen",
       "source": {
         "id": "legacy:dodskalleberget",
         "path": "mediawiki/Dödskalleberget.txt"
@@ -186,6 +204,7 @@
       "type": "sport",
       "firstAscent": "Lennart Swahn, Per Willén, Johnny Carlén-93",
       "description": "Går genom det lilla taket med dragning åt höger på slutet. Ombultad 2013.",
+      "sectorId": "stora-vaggen",
       "source": {
         "id": "legacy:dodskalleberget",
         "path": "mediawiki/Dödskalleberget.txt"
@@ -201,6 +220,7 @@
       "type": "trad",
       "firstAscent": "Lars Svadängs, Jeremy Sheehan, Dan Engström-83",
       "description": "Spännande, äventyrlig led uppför hela väggen. Säkras med små kilar, avslingade flak och friends på toppen.",
+      "sectorId": "stora-vaggen",
       "source": {
         "id": "legacy:dodskalleberget",
         "path": "mediawiki/Dödskalleberget.txt"
@@ -216,6 +236,7 @@
       "type": "sport",
       "firstAscent": "Mats Olofson, Peter Andersson-93",
       "description": "Ombultad 2013. Leden slutar numera vid ett eget ankare under taket. Originalutsteget, som fortsatte till toppen, är svårsäkrat och har en hel del lösa block.",
+      "sectorId": "stora-vaggen",
       "source": {
         "id": "legacy:dodskalleberget",
         "path": "mediawiki/Dödskalleberget.txt"
@@ -231,6 +252,7 @@
       "type": "sport",
       "firstAscent": "Mats Olofsson",
       "description": "Känslig och inte helt enkel. Går till ett ankare under taket. Ombultad 2013.",
+      "sectorId": "stora-vaggen",
       "source": {
         "id": "legacy:dodskalleberget",
         "path": "mediawiki/Dödskalleberget.txt"
@@ -246,6 +268,7 @@
       "type": "sport",
       "firstAscent": "Johan Luhr-92",
       "description": "Spektakulär led som går genom taket. Ombultad 2013.",
+      "sectorId": "stora-vaggen",
       "source": {
         "id": "legacy:dodskalleberget",
         "path": "mediawiki/Dödskalleberget.txt"
@@ -261,6 +284,7 @@
       "type": "sport",
       "firstAscent": "",
       "description": "Börja i Devil/Inget för pygméer och snedda sedan vänster och in i Ahlgrens bilar. Ombultad 2013.",
+      "sectorId": "stora-vaggen",
       "source": {
         "id": "legacy:dodskalleberget",
         "path": "mediawiki/Dödskalleberget.txt"
@@ -276,6 +300,7 @@
       "type": "sport",
       "firstAscent": "Johan Luhr-91",
       "description": "Passagen genom taket är lite lös och aningen ogästvänlig. Ankare under taket, om man avslutar leden här blir den klart lättare.",
+      "sectorId": "stora-vaggen",
       "source": {
         "id": "legacy:dodskalleberget",
         "path": "mediawiki/Dödskalleberget.txt"
@@ -291,6 +316,7 @@
       "type": "trad",
       "firstAscent": "Magnus Runsten, Mats Olofsson-90",
       "description": "Start i en diederformation",
+      "sectorId": "stora-vaggen",
       "source": {
         "id": "legacy:dodskalleberget",
         "path": "mediawiki/Dödskalleberget.txt"
@@ -306,6 +332,7 @@
       "type": "mix",
       "firstAscent": "Johan Luhr, Rikard Hedman-87",
       "description": "",
+      "sectorId": "stora-vaggen",
       "source": {
         "id": "legacy:dodskalleberget",
         "path": "mediawiki/Dödskalleberget.txt"
@@ -321,6 +348,7 @@
       "type": "sport",
       "firstAscent": "Johan Luhr",
       "description": "Svaled som på mitten av berget går in i Diana. Ombultad i oktober 2012.",
+      "sectorId": "stora-vaggen",
       "source": {
         "id": "legacy:dodskalleberget",
         "path": "mediawiki/Dödskalleberget.txt"
@@ -336,6 +364,7 @@
       "type": "sport",
       "firstAscent": "Rikard Hedman, Johan Luhr",
       "description": "Fin led som kan bita ifrån. Ombultad i oktober 2012. Har ett eget ankare.",
+      "sectorId": "stora-vaggen",
       "source": {
         "id": "legacy:dodskalleberget",
         "path": "mediawiki/Dödskalleberget.txt"
@@ -351,6 +380,7 @@
       "type": "",
       "firstAscent": "Johan Luhr-92",
       "description": "På mitten av Diana, där denna gör en krumbukt åt vänster, går leden rakt upp till ankaret. Ombultad i oktober 2012.",
+      "sectorId": "stora-vaggen",
       "source": {
         "id": "legacy:dodskalleberget",
         "path": "mediawiki/Dödskalleberget.txt"
@@ -366,6 +396,7 @@
       "type": "sport",
       "firstAscent": "Johan Luhr-92",
       "description": "Lång teknisk och ihållande led. Ombultad i oktober 2012.",
+      "sectorId": "stora-vaggen",
       "source": {
         "id": "legacy:dodskalleberget",
         "path": "mediawiki/Dödskalleberget.txt"
@@ -381,6 +412,7 @@
       "type": "sport",
       "firstAscent": "Johan Luhr-91",
       "description": "Krimpfest utan vila. Ombultad hösten 2011.",
+      "sectorId": "stora-vaggen",
       "source": {
         "id": "legacy:dodskalleberget",
         "path": "mediawiki/Dödskalleberget.txt"
@@ -396,6 +428,7 @@
       "type": "sport",
       "firstAscent": "Johan Luhr-90",
       "description": "Upp genom taket. Ombultad i oktober 2012.",
+      "sectorId": "stora-vaggen",
       "source": {
         "id": "legacy:dodskalleberget",
         "path": "mediawiki/Dödskalleberget.txt"
@@ -411,6 +444,7 @@
       "type": "sport",
       "firstAscent": "Johan Luhr-90",
       "description": "Ankare under taket. Ombultad i oktober 2012.",
+      "sectorId": "stora-vaggen",
       "source": {
         "id": "legacy:dodskalleberget",
         "path": "mediawiki/Dödskalleberget.txt"
@@ -426,6 +460,7 @@
       "type": "sport",
       "firstAscent": "Johan Luhr, Rikard Hedman-87",
       "description": "Startar som Mr Walker men fortsätter rakt upp efter diedern. Sedan genom takets högra kant. Ombultad i oktober 2012.",
+      "sectorId": "stora-vaggen",
       "source": {
         "id": "legacy:dodskalleberget",
         "path": "mediawiki/Dödskalleberget.txt"
@@ -441,6 +476,7 @@
       "type": "sport",
       "firstAscent": "Johan Luhr, Rikard Hedman-90",
       "description": "Till höger om Fantomen. Ombultad i oktober 2012.",
+      "sectorId": "stora-vaggen",
       "source": {
         "id": "legacy:dodskalleberget",
         "path": "mediawiki/Dödskalleberget.txt"
@@ -456,6 +492,7 @@
       "type": "sport",
       "firstAscent": "Rikard Hedman-91",
       "description": "Känner du dig stark? Ombultad i oktober 2012.",
+      "sectorId": "stora-vaggen",
       "source": {
         "id": "legacy:dodskalleberget",
         "path": "mediawiki/Dödskalleberget.txt"
@@ -471,6 +508,7 @@
       "type": "sport",
       "firstAscent": "Johan Luhr-91",
       "description": "Går ihop med Tio Tigrar. Ombultad i oktober 2012.",
+      "sectorId": "stora-vaggen",
       "source": {
         "id": "legacy:dodskalleberget",
         "path": "mediawiki/Dödskalleberget.txt"
@@ -486,6 +524,7 @@
       "type": "",
       "firstAscent": "Johan Luhr-95",
       "description": "",
+      "sectorId": "hogra-vaggen",
       "source": {
         "id": "legacy:dodskalleberget",
         "path": "mediawiki/Dödskalleberget.txt"
@@ -501,6 +540,7 @@
       "type": "",
       "firstAscent": "Johan Luhr-90",
       "description": "",
+      "sectorId": "hogra-vaggen",
       "source": {
         "id": "legacy:dodskalleberget",
         "path": "mediawiki/Dödskalleberget.txt"
@@ -516,6 +556,7 @@
       "type": "sport",
       "firstAscent": "Johan Luhr-95",
       "description": "Bakom björken",
+      "sectorId": "hogra-vaggen",
       "source": {
         "id": "legacy:dodskalleberget",
         "path": "mediawiki/Dödskalleberget.txt"
@@ -531,6 +572,7 @@
       "type": "",
       "firstAscent": "Rikard HedmanBirger Hedman-84",
       "description": "",
+      "sectorId": "hogra-vaggen",
       "source": {
         "id": "legacy:dodskalleberget",
         "path": "mediawiki/Dödskalleberget.txt"
@@ -546,6 +588,7 @@
       "type": "",
       "firstAscent": "Rikard HedmanBirger Hedman-84",
       "description": "",
+      "sectorId": "hogra-vaggen",
       "source": {
         "id": "legacy:dodskalleberget",
         "path": "mediawiki/Dödskalleberget.txt"
@@ -561,6 +604,7 @@
       "type": "",
       "firstAscent": "Johan Luhr-90",
       "description": "",
+      "sectorId": "hogra-vaggen",
       "source": {
         "id": "legacy:dodskalleberget",
         "path": "mediawiki/Dödskalleberget.txt"
@@ -576,6 +620,7 @@
       "type": "",
       "firstAscent": "Stefan Thunberg-90",
       "description": "",
+      "sectorId": "hogra-vaggen",
       "source": {
         "id": "legacy:dodskalleberget",
         "path": "mediawiki/Dödskalleberget.txt"
@@ -591,6 +636,7 @@
       "type": "",
       "firstAscent": "Jeremy Sheehan, Claes Jelinek, Dan Engstrom-83",
       "description": "",
+      "sectorId": "apvaggen",
       "source": {
         "id": "legacy:dodskalleberget",
         "path": "mediawiki/Dödskalleberget.txt"
@@ -606,6 +652,7 @@
       "type": "mix",
       "firstAscent": "Stale Ekelund,Claes Jelinek-90",
       "description": "",
+      "sectorId": "apvaggen",
       "source": {
         "id": "legacy:dodskalleberget",
         "path": "mediawiki/Dödskalleberget.txt"
@@ -621,6 +668,7 @@
       "type": "mix",
       "firstAscent": "Stale Ekelund,Claes Jelinek-90",
       "description": "",
+      "sectorId": "apvaggen",
       "source": {
         "id": "legacy:dodskalleberget",
         "path": "mediawiki/Dödskalleberget.txt"
@@ -636,6 +684,7 @@
       "type": "mix",
       "firstAscent": "Stale Ekelund,Claes Jelinek-90",
       "description": "",
+      "sectorId": "apvaggen",
       "source": {
         "id": "legacy:dodskalleberget",
         "path": "mediawiki/Dödskalleberget.txt"
@@ -651,6 +700,7 @@
       "type": "mix",
       "firstAscent": "Claes Jelinek,Stale Ekelund-90",
       "description": "",
+      "sectorId": "apvaggen",
       "source": {
         "id": "legacy:dodskalleberget",
         "path": "mediawiki/Dödskalleberget.txt"
@@ -666,6 +716,7 @@
       "type": "",
       "firstAscent": "Jeremy Sheehan,Claes Jelinek,Dan Engstrom-83",
       "description": "",
+      "sectorId": "apvaggen",
       "source": {
         "id": "legacy:dodskalleberget",
         "path": "mediawiki/Dödskalleberget.txt"
@@ -676,22 +727,26 @@
     {
       "filename": "Dodskalleberget.jpg",
       "caption": "Per Lindh",
-      "missing": false
+      "missing": false,
+      "sectorId": null
     },
     {
       "filename": "Dodskalleberget_v.png",
-      "caption": "650px",
-      "missing": false
+      "caption": "",
+      "missing": false,
+      "sectorId": "leder"
     },
     {
       "filename": "Dodskalleberget_liten_h.png",
-      "caption": "right",
-      "missing": false
+      "caption": "",
+      "missing": false,
+      "sectorId": "stora-vaggen"
     },
     {
       "filename": "Dodskalleberget_h.png",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "stora-vaggen"
     }
   ],
   "access": {

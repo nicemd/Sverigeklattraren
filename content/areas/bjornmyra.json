@@ -40,6 +40,7 @@
       "type": "topprep",
       "firstAscent": "Anders Borg/Tväråna",
       "description": "Runda det stora taket till vänster. En trevlig led för den som saknar inspiration för det stora taket.",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:bjornmyra",
         "path": "mediawiki/Björnmyra.txt"
@@ -55,6 +56,7 @@
       "type": "topprep",
       "firstAscent": "Anders Borg/Tväråna",
       "description": "Rakt över det stora taket. Undercling på en minimal list leder till postlådan över läppen.",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:bjornmyra",
         "path": "mediawiki/Björnmyra.txt"
@@ -70,6 +72,7 @@
       "type": "topprep",
       "firstAscent": "Martin Norlander",
       "description": "På aréten till vänster",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:bjornmyra",
         "path": "mediawiki/Björnmyra.txt"
@@ -85,6 +88,7 @@
       "type": "topprep",
       "firstAscent": "Joakim Johansson",
       "description": "Mitt på väggen. Små lister, ganska jobbig.",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:bjornmyra",
         "path": "mediawiki/Björnmyra.txt"
@@ -100,6 +104,7 @@
       "type": "topprep",
       "firstAscent": "Joakim Johansson",
       "description": "Uppför den högra aréten. Lätt, trevlig klättring.",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:bjornmyra",
         "path": "mediawiki/Björnmyra.txt"
@@ -115,6 +120,7 @@
       "type": "trad",
       "firstAscent": "Joakim Johansson",
       "description": "Lätt början, stora grepp. Kruxet är utsteget där man genom en liten högertravers rundar det lilla taket. Goda naturliga säkringar",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:bjornmyra",
         "path": "mediawiki/Björnmyra.txt"
@@ -124,8 +130,9 @@
   "images": [
     {
       "filename": "Björnmyra.jpg",
-      "caption": "500px",
-      "missing": false
+      "caption": "",
+      "missing": false,
+      "sectorId": "leder"
     }
   ],
   "access": {

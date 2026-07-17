@@ -24,6 +24,16 @@
       "body": "Med bil; från Söderhamn åker man till Sandarne. Därifrån åker man mot Ljusne och tar av vänster vid en skylt \"Mot Ljusne bruk\". Man ser berget när man kör igenom Ljusne. Strax före en ICA-affär, korsningen Smedsvägen/Nygatan, tar man av vänster och parkerar precis nedanför berget. Vid parkeringen syns ett gammalt trästaket. Gå igenom det vid ett hål och gå sedan upp en bit i backen och följ staketet bortåt ca 30 m. Här finns en finns en sex m hög vägg med fyra sprickor. GPS-koordinater: Lat: N 61º 12' 40.60\" Long: E 17º 7' 55.4\""
     },
     {
+      "id": "historik",
+      "title": "Historik",
+      "body": ""
+    },
+    {
+      "id": "vaggar",
+      "title": "Väggar",
+      "body": ""
+    },
+    {
       "id": "tuggummiblocket",
       "title": "Tuggummiblocket",
       "body": "Räknat från vänster:"
@@ -50,6 +60,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "Klart svår.",
+      "sectorId": "tuggummiblocket",
       "source": {
         "id": "legacy:vardberget-halsingland",
         "path": "mediawiki/Vårdberget, Hälsingland.txt"
@@ -65,6 +76,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "Relativt lätt.",
+      "sectorId": "tuggummiblocket",
       "source": {
         "id": "legacy:vardberget-halsingland",
         "path": "mediawiki/Vårdberget, Hälsingland.txt"
@@ -80,6 +92,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "Något svårare.",
+      "sectorId": "tuggummiblocket",
       "source": {
         "id": "legacy:vardberget-halsingland",
         "path": "mediawiki/Vårdberget, Hälsingland.txt"
@@ -95,6 +108,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "Kort väggtur i vinkel mot Chokladblocket till vänster.",
+      "sectorId": "chokladblocket",
       "source": {
         "id": "legacy:vardberget-halsingland",
         "path": "mediawiki/Vårdberget, Hälsingland.txt"
@@ -110,6 +124,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "Grund kamin med en handspricka i hörnet. Lätt.",
+      "sectorId": "chokladblocket",
       "source": {
         "id": "legacy:vardberget-halsingland",
         "path": "mediawiki/Vårdberget, Hälsingland.txt"
@@ -125,6 +140,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "Tydlig traverspricka under ett tak.",
+      "sectorId": "chokladblocket",
       "source": {
         "id": "legacy:vardberget-halsingland",
         "path": "mediawiki/Vårdberget, Hälsingland.txt"
@@ -140,6 +156,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "Den tydliga kaminen med utsteg åt höger. Lätt.",
+      "sectorId": "chokladblocket",
       "source": {
         "id": "legacy:vardberget-halsingland",
         "path": "mediawiki/Vårdberget, Hälsingland.txt"
@@ -155,6 +172,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "Det vänstra diederutsteget ur kaminen.",
+      "sectorId": "chokladblocket",
       "source": {
         "id": "legacy:vardberget-halsingland",
         "path": "mediawiki/Vårdberget, Hälsingland.txt"
@@ -170,6 +188,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "Den första tydliga sprickan till höger om kaminen. Relativt svår.",
+      "sectorId": "chokladblocket",
       "source": {
         "id": "legacy:vardberget-halsingland",
         "path": "mediawiki/Vårdberget, Hälsingland.txt"
@@ -185,6 +204,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "Fem m travers in från höger till \"Schweizernöt\". Börjar ända borta vid sprickan till höger om \"Schweizernöt\". Man kliver in från ett flyttblock och traverserar diagonalt upp mot nischen mitt på \"Schweizernöt\". Känslig.",
+      "sectorId": "chokladblocket",
       "source": {
         "id": "legacy:vardberget-halsingland",
         "path": "mediawiki/Vårdberget, Hälsingland.txt"
@@ -200,6 +220,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "Tunn spricka rakt ovanför insteget på \"Helnöt\". Vass.",
+      "sectorId": "chokladblocket",
       "source": {
         "id": "legacy:vardberget-halsingland",
         "path": "mediawiki/Vårdberget, Hälsingland.txt"
@@ -215,6 +236,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "Det grunda hörnet till höger om \"Snickers\". Medelsvår",
+      "sectorId": "chokladblocket",
       "source": {
         "id": "legacy:vardberget-halsingland",
         "path": "mediawiki/Vårdberget, Hälsingland.txt"
@@ -230,6 +252,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "Tydlig lay-back spricka till höger om det grunda hörnet som utgör \"Raider\" Relativt lätt.",
+      "sectorId": "chokladblocket",
       "source": {
         "id": "legacy:vardberget-halsingland",
         "path": "mediawiki/Vårdberget, Hälsingland.txt"
@@ -245,6 +268,7 @@
       "type": "",
       "firstAscent": "Per Calleberg m topprep 1981",
       "description": "Vägg med 70 graders lutning nedanför ovan nämnda telefonstolpe. Väggtur med små grepp och steg. Leden har inte letts, då den är helt osäkrad.",
+      "sectorId": "vattencisternen",
       "source": {
         "id": "legacy:vardberget-halsingland",
         "path": "mediawiki/Vårdberget, Hälsingland.txt"
@@ -260,6 +284,7 @@
       "type": "trad",
       "firstAscent": "Kent Andersson och Per Calleberg 1981",
       "description": "Om man från insteget från \"Heaven up here\" följer nederkanten på väggen åt vänster ut mot havet, kommer man efter ca 100 m till ett kort dieder.",
+      "sectorId": "vattencisternen",
       "source": {
         "id": "legacy:vardberget-halsingland",
         "path": "mediawiki/Vårdberget, Hälsingland.txt"
@@ -275,6 +300,7 @@
       "type": "trad",
       "firstAscent": "Gunnar Larsson m topprep 1981",
       "description": "Ännu längre åt vänster (ca 50 m), nedanför ett trästaket, ligger en liten ravinformation. På ravinens högra vägg finns denna led. Följer en tydlig arete förbi ett litet tak.",
+      "sectorId": "vattencisternen",
       "source": {
         "id": "legacy:vardberget-halsingland",
         "path": "mediawiki/Vårdberget, Hälsingland.txt"
@@ -290,6 +316,7 @@
       "type": "trad",
       "firstAscent": "Torbjörn Nilsson m topprep 1982",
       "description": "Ligger strax till vänster om \"Örnnäsan\".",
+      "sectorId": "vattencisternen",
       "source": {
         "id": "legacy:vardberget-halsingland",
         "path": "mediawiki/Vårdberget, Hälsingland.txt"
@@ -305,6 +332,7 @@
       "type": "trad",
       "firstAscent": "Gunnar Larsson m topprep 1981",
       "description": "Runt hörnet, till höger om \"Örnnäsan\", finns en annan vägg. Tydlig spricka på en relativt brant vägg. Leder upp till en gran.",
+      "sectorId": "vattencisternen",
       "source": {
         "id": "legacy:vardberget-halsingland",
         "path": "mediawiki/Vårdberget, Hälsingland.txt"
@@ -315,22 +343,26 @@
     {
       "filename": "Vb_tuggummi.jpg",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "tuggummiblocket"
     },
     {
       "filename": "Vb_choklad.jpg",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "chokladblocket"
     },
     {
       "filename": "Schweizern%C3%B6t.jpg",
       "caption": "Claes Jelinek, Schweizernöt, 1983. Foto: Per Calleberg.",
-      "missing": true
+      "missing": true,
+      "sectorId": "chokladblocket"
     },
     {
       "filename": "Heaven.jpg",
       "caption": "Claes Jelinek toppar Heaven Up Here (6), Ljusne, 1983. Foto: Per Calleberg",
-      "missing": false
+      "missing": false,
+      "sectorId": "vattencisternen"
     }
   ],
   "access": {

@@ -26,6 +26,16 @@
       "body": "Vägbeskrivning: I Tenhult tag vägen söderut mot Ödestugu. Forstätt 1,5 km från badplatsen, i en uppförsbacke står en av vägverkets sandboxar på höger sida, sväng in vänster 10 meter efter denna (vid en brevlåda på vänster sida, hus på höger sida). Parkera i gläntan. Följ stigen 20 meter, när den svänger vänster fortsätt rakt fram och leta dig nerför branten längs en något otydlig stig (fortsätter du på stigen kommer du till toppen av klippan). Följ sjön några hundra meter norrut och klippan blir synlig."
     },
     {
+      "id": "access",
+      "title": "Access",
+      "body": ""
+    },
+    {
+      "id": "leder",
+      "title": "Leder",
+      "body": ""
+    },
+    {
       "id": "forare",
       "title": "Förare",
       "body": "* Förare Kategori:Småland Kategori:sport Kategori:vertikalt Kategori:överhäng"
@@ -42,6 +52,7 @@
       "type": "sport",
       "firstAscent": "",
       "description": "",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:uvberget",
         "path": "mediawiki/Uvberget.txt"
@@ -57,6 +68,7 @@
       "type": "sport",
       "firstAscent": "",
       "description": "Lättare om du klättrar ut vänster efter tredje bulten. Klättring i diedret.",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:uvberget",
         "path": "mediawiki/Uvberget.txt"
@@ -72,6 +84,7 @@
       "type": "sport",
       "firstAscent": "",
       "description": "",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:uvberget",
         "path": "mediawiki/Uvberget.txt"
@@ -87,6 +100,7 @@
       "type": "sport",
       "firstAscent": "",
       "description": "",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:uvberget",
         "path": "mediawiki/Uvberget.txt"
@@ -102,6 +116,7 @@
       "type": "sport",
       "firstAscent": "",
       "description": "",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:uvberget",
         "path": "mediawiki/Uvberget.txt"
@@ -117,6 +132,7 @@
       "type": "",
       "firstAscent": "",
       "description": "",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:uvberget",
         "path": "mediawiki/Uvberget.txt"
@@ -132,6 +148,7 @@
       "type": "sport",
       "firstAscent": "",
       "description": "",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:uvberget",
         "path": "mediawiki/Uvberget.txt"
@@ -147,6 +164,7 @@
       "type": "sport",
       "firstAscent": "",
       "description": "Klättring på mestadels bra grepp.",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:uvberget",
         "path": "mediawiki/Uvberget.txt"
@@ -162,6 +180,7 @@
       "type": "sport",
       "firstAscent": "",
       "description": "Utsteg genom taket.",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:uvberget",
         "path": "mediawiki/Uvberget.txt"
@@ -177,6 +196,7 @@
       "type": "sport",
       "firstAscent": "",
       "description": "Utsteg till höger. Längst till höger på klippan.",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:uvberget",
         "path": "mediawiki/Uvberget.txt"
@@ -192,6 +212,7 @@
       "type": "boulder",
       "firstAscent": "",
       "description": "Traversera vänster och mantla ut.",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:uvberget",
         "path": "mediawiki/Uvberget.txt"
@@ -202,7 +223,8 @@
     {
       "filename": "Uvberget_skiss1.jpg",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "leder"
     }
   ],
   "access": {

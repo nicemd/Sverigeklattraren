@@ -41,6 +41,7 @@
       "type": "sport",
       "firstAscent": "MO, CT 00",
       "description": "Längst till vänster. Svagt överhängande tur som drar åt höger, trevlig. 3 bb + ankare.",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:tanto",
         "path": "mediawiki/Tanto.txt"
@@ -56,6 +57,7 @@
       "type": "sport",
       "firstAscent": "",
       "description": "3m th ”Reclaim..” Svår teknisk tur rakt upp mot ankaret.",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:tanto",
         "path": "mediawiki/Tanto.txt"
@@ -71,6 +73,7 @@
       "type": "mix",
       "firstAscent": "MO, CT 00",
       "description": "Det uppenbara svaga hörnet. Småtrevlig klättring med en borrbult i början och därefter kilar. Ankare.",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:tanto",
         "path": "mediawiki/Tanto.txt"
@@ -86,6 +89,7 @@
       "type": "sport",
       "firstAscent": "MO, CT 00",
       "description": "2m th ”Med fanan…”. Omväxlande klättring på kanten. 3 bb + föregående ankare.",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:tanto",
         "path": "mediawiki/Tanto.txt"
@@ -101,6 +105,7 @@
       "type": "sport",
       "firstAscent": "CT 00",
       "description": "Precis bakom trädet. Någon krystat men fin klättring rakt upp.",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:tanto",
         "path": "mediawiki/Tanto.txt"
@@ -116,6 +121,7 @@
       "type": "sport",
       "firstAscent": "CT 00",
       "description": "Tv ”Min pappa…”. För hög för att sola. Kort gorillatur med få steg.",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:tanto",
         "path": "mediawiki/Tanto.txt"
@@ -131,6 +137,7 @@
       "type": "sport",
       "firstAscent": "CT",
       "description": "1m th ”Old men…” Knepig inklämd tur, använd omgivande bultar.",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:tanto",
         "path": "mediawiki/Tanto.txt"
@@ -146,6 +153,7 @@
       "type": "sport",
       "firstAscent": "CT 00",
       "description": "Längst till höger. Teknisk pillrig tur med 1 bb och ankare.",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:tanto",
         "path": "mediawiki/Tanto.txt"
@@ -155,8 +163,9 @@
   "images": [
     {
       "filename": "Tanto.jpeg",
-      "caption": "center",
-      "missing": false
+      "caption": "",
+      "missing": false,
+      "sectorId": "leder"
     }
   ],
   "access": {

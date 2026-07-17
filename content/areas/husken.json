@@ -47,6 +47,7 @@
       "type": "",
       "firstAscent": "Alexander Sjöstrand -13",
       "description": "Ståstart en hand på varje vägg, upp på vänstra väggen, urtoppning i hörnet",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:husken",
         "path": "mediawiki/Husken.txt"
@@ -62,6 +63,7 @@
       "type": "",
       "firstAscent": "Per Bäckström -13",
       "description": "Samma start som Bokhyllan men längre in i hörnet och urtoppning rakt upp på den överhängande väggen.",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:husken",
         "path": "mediawiki/Husken.txt"
@@ -77,6 +79,7 @@
       "type": "",
       "firstAscent": "Per-Ola Nilsson -13",
       "description": "",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:husken",
         "path": "mediawiki/Husken.txt"
@@ -92,6 +95,7 @@
       "type": "",
       "firstAscent": "Per Bäckström -13",
       "description": "Sittstart,direkt till vänster om de två övre vertikala sprickorna, rakt upp, urtoppning.",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:husken",
         "path": "mediawiki/Husken.txt"
@@ -107,6 +111,7 @@
       "type": "",
       "firstAscent": "Magnus Nilsson -13",
       "description": "",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:husken",
         "path": "mediawiki/Husken.txt"
@@ -122,6 +127,7 @@
       "type": "",
       "firstAscent": "Magnus Nilsson -13",
       "description": "",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:husken",
         "path": "mediawiki/Husken.txt"
@@ -137,6 +143,7 @@
       "type": "",
       "firstAscent": "Helena Lundgren -13",
       "description": "",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:husken",
         "path": "mediawiki/Husken.txt"
@@ -152,6 +159,7 @@
       "type": "",
       "firstAscent": "Carl Quick -13",
       "description": "",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:husken",
         "path": "mediawiki/Husken.txt"
@@ -167,6 +175,7 @@
       "type": "",
       "firstAscent": "Carl Quick -13",
       "description": "",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:husken",
         "path": "mediawiki/Husken.txt"
@@ -177,7 +186,8 @@
     {
       "filename": "Husken.jpg",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": null
     }
   ],
   "access": {

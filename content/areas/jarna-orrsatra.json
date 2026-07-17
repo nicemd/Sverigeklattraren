@@ -49,6 +49,7 @@
       "type": "",
       "firstAscent": "",
       "description": "(Nils Å. 09)",
+      "sectorId": "block-a",
       "source": {
         "id": "legacy:jarna-orrsatra",
         "path": "mediawiki/Järna, Orrsätra.txt"
@@ -64,6 +65,7 @@
       "type": "",
       "firstAscent": "",
       "description": "Öppet projekt (borstat)",
+      "sectorId": "block-a",
       "source": {
         "id": "legacy:jarna-orrsatra",
         "path": "mediawiki/Järna, Orrsätra.txt"
@@ -79,6 +81,7 @@
       "type": "",
       "firstAscent": "",
       "description": "Öppet projekt (borstat)",
+      "sectorId": "block-a",
       "source": {
         "id": "legacy:jarna-orrsatra",
         "path": "mediawiki/Järna, Orrsätra.txt"
@@ -94,6 +97,7 @@
       "type": "",
       "firstAscent": "",
       "description": "Öppet projekt",
+      "sectorId": "block-a",
       "source": {
         "id": "legacy:jarna-orrsatra",
         "path": "mediawiki/Järna, Orrsätra.txt"
@@ -109,6 +113,7 @@
       "type": "",
       "firstAscent": "",
       "description": "Öppet projekt",
+      "sectorId": "block-a",
       "source": {
         "id": "legacy:jarna-orrsatra",
         "path": "mediawiki/Järna, Orrsätra.txt"
@@ -124,6 +129,7 @@
       "type": "",
       "firstAscent": "",
       "description": "Hoppstart till kanten, Johan L. -09",
+      "sectorId": "block-a",
       "source": {
         "id": "legacy:jarna-orrsatra",
         "path": "mediawiki/Järna, Orrsätra.txt"
@@ -139,6 +145,7 @@
       "type": "",
       "firstAscent": "",
       "description": "Öppet projekt",
+      "sectorId": "block-a",
       "source": {
         "id": "legacy:jarna-orrsatra",
         "path": "mediawiki/Järna, Orrsätra.txt"
@@ -154,6 +161,7 @@
       "type": "",
       "firstAscent": "",
       "description": "(Jenny K. 09)",
+      "sectorId": "block-b",
       "source": {
         "id": "legacy:jarna-orrsatra",
         "path": "mediawiki/Järna, Orrsätra.txt"
@@ -169,6 +177,7 @@
       "type": "",
       "firstAscent": "",
       "description": "(Jenny K. 09)",
+      "sectorId": "block-b",
       "source": {
         "id": "legacy:jarna-orrsatra",
         "path": "mediawiki/Järna, Orrsätra.txt"
@@ -184,6 +193,7 @@
       "type": "",
       "firstAscent": "",
       "description": "Ståstart 6A+ (Nils Å. 09)",
+      "sectorId": "block-c-och-d",
       "source": {
         "id": "legacy:jarna-orrsatra",
         "path": "mediawiki/Järna, Orrsätra.txt"
@@ -199,6 +209,7 @@
       "type": "",
       "firstAscent": "",
       "description": "Start vi sprickan sen rakt upp. (Ola T. 09) Sittstarten har projekt namn Tarzan (öppet) mycket hårdare",
+      "sectorId": "block-c-och-d",
       "source": {
         "id": "legacy:jarna-orrsatra",
         "path": "mediawiki/Järna, Orrsätra.txt"
@@ -214,6 +225,7 @@
       "type": "",
       "firstAscent": "",
       "description": "Ståstart längst till vänster travers längs rampen och sedan upp. Riktigt fint! Hyfsat hög så padda stenen.(Nils Å. 09)",
+      "sectorId": "block-c-och-d",
       "source": {
         "id": "legacy:jarna-orrsatra",
         "path": "mediawiki/Järna, Orrsätra.txt"
@@ -229,6 +241,7 @@
       "type": "",
       "firstAscent": "",
       "description": "Start på de tydliga sidotagen sen rakt upp (Nils Å. 09)",
+      "sectorId": "block-c-och-d",
       "source": {
         "id": "legacy:jarna-orrsatra",
         "path": "mediawiki/Järna, Orrsätra.txt"
@@ -244,6 +257,7 @@
       "type": "",
       "firstAscent": "",
       "description": "Start med vh på sidotaget och hh på slopen. Rakt upp. (Ola T. 09)",
+      "sectorId": "block-c-och-d",
       "source": {
         "id": "legacy:jarna-orrsatra",
         "path": "mediawiki/Järna, Orrsätra.txt"
@@ -259,6 +273,7 @@
       "type": "",
       "firstAscent": "",
       "description": "Start med båda händer på den låga slopern klättra snett upp vänster på greppen. (Jenny K. 09)",
+      "sectorId": "block-c-och-d",
       "source": {
         "id": "legacy:jarna-orrsatra",
         "path": "mediawiki/Järna, Orrsätra.txt"
@@ -274,6 +289,7 @@
       "type": "",
       "firstAscent": "",
       "description": "Start som D3 men rakt upp.(Ola T. 09)",
+      "sectorId": "block-c-och-d",
       "source": {
         "id": "legacy:jarna-orrsatra",
         "path": "mediawiki/Järna, Orrsätra.txt"
@@ -284,32 +300,38 @@
     {
       "filename": "Översikt.jpg",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "oversikt"
     },
     {
       "filename": "Block_A.jpg",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "block-a"
     },
     {
       "filename": "Block_B.jpg",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "block-b"
     },
     {
       "filename": "Block_C_o_D.jpg",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "block-c-och-d"
     },
     {
       "filename": "Block_C.jpg",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "block-c-och-d"
     },
     {
       "filename": "Tarzans_son.jpg",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "block-c-och-d"
     }
   ],
   "access": {

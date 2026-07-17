@@ -56,6 +56,7 @@
       "type": "trad",
       "firstAscent": "Jappe Pålsgård-13",
       "description": "Det uppenbara vänstervända diedret som toppas av en flarande ow-spricka. Om du lyckas överkvinna den första sektionen kan du begrunda uttrycket, \"ur askan i elden\" när du stirrar upp i käften som sedan väntar på att spotta ut dig.",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:morkrets-hjarta",
         "path": "mediawiki/Mörkrets hjärta.txt"
@@ -71,6 +72,7 @@
       "type": "trad",
       "firstAscent": "Geir Arne Bore -09",
       "description": "Start just till höger om Bellatrix och toppar ut just till vänster om Den första kretsen. Campus till tunn diagonal spricka som fortsätter uppåt höger. Att flytta extremiteterna från grepp till grepp är skithårt, så ska du säkra också.",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:morkrets-hjarta",
         "path": "mediawiki/Mörkrets hjärta.txt"
@@ -86,6 +88,7 @@
       "type": "trad",
       "firstAscent": "Jappe Pålsgård -09",
       "description": "Start i det tydliga diedret som för upp till ett överhäng. Svagt vänster och vidare upp risset. Stämma, jamma och såå brant",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:morkrets-hjarta",
         "path": "mediawiki/Mörkrets hjärta.txt"
@@ -101,6 +104,7 @@
       "type": "trad",
       "firstAscent": "Robert Caspersen-13",
       "description": "Ett buldrigt insteg någon meter till höger om föregående led. Vidare upp i ett högerlutande dieder. Toppar ut via den högra varianten. Blocket strax under toppen sitter bergfast",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:morkrets-hjarta",
         "path": "mediawiki/Mörkrets hjärta.txt"
@@ -116,6 +120,7 @@
       "type": "trad",
       "firstAscent": "Olli-Petteri Manni-13",
       "description": "Snacka om att skenet bedrar! Från ow-starten till det du tror är solida fingerlås vidare. Du ger den fingret men får det nog tillbaka. Men ... om du ger den lillfingret så tar den kanske hela handen... ?",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:morkrets-hjarta",
         "path": "mediawiki/Mörkrets hjärta.txt"
@@ -131,6 +136,7 @@
       "type": "trad",
       "firstAscent": "Ulrika Tiegs -10",
       "description": "Start i den högra av de två offwidthsprickorna. Brett, brant, brutalt och sååå coooolt!",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:morkrets-hjarta",
         "path": "mediawiki/Mörkrets hjärta.txt"
@@ -146,6 +152,7 @@
       "type": "trad",
       "firstAscent": "Olli-Petteri Manni -13",
       "description": "Två meter till höger om Ullared. Hit och dit tills du kommer till den brutala fingersprickan som leder upp ... eller ned.",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:morkrets-hjarta",
         "path": "mediawiki/Mörkrets hjärta.txt"
@@ -155,23 +162,27 @@
   "images": [
     {
       "filename": "Mörkrets_hjärta_guide.jpg",
-      "caption": "400px",
-      "missing": false
+      "caption": "",
+      "missing": false,
+      "sectorId": "leder"
     },
     {
       "filename": "Bellatrix_22.jpg",
       "caption": "namn=Bellatrix}}, 8- Jappe under förstebestigningen. Foto Mattis Ranheim",
-      "missing": false
+      "missing": false,
+      "sectorId": "leder"
     },
     {
       "filename": "Ulrika_Tiegs_leder_Den_första_kretsen..jpg",
-      "caption": "400px",
-      "missing": false
+      "caption": "",
+      "missing": false,
+      "sectorId": "leder"
     },
     {
       "filename": "Bellatrix_333.jpg",
-      "caption": "400px",
-      "missing": false
+      "caption": "",
+      "missing": false,
+      "sectorId": "leder"
     }
   ],
   "access": {

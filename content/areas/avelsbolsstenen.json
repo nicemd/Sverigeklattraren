@@ -69,6 +69,7 @@
       "type": "hyllor, sva",
       "firstAscent": "Sören Danielsson",
       "description": "Problemet närmast på bilden. Sittstart med matchning på bulliga utsticket precis under de rostiga spikarna (ni förstår när ni är där). Sedan mer eller mindre rakt upp",
+      "sectorId": "sida-2-vagsidan",
       "source": {
         "id": "legacy:avelsbolsstenen",
         "path": "mediawiki/Avelsbolsstenen.txt"
@@ -84,6 +85,7 @@
       "type": "hyllor, sva",
       "firstAscent": "",
       "description": "problemet i mitten på bilden. behöver putsas.",
+      "sectorId": "sida-2-vagsidan",
       "source": {
         "id": "legacy:avelsbolsstenen",
         "path": "mediawiki/Avelsbolsstenen.txt"
@@ -99,6 +101,7 @@
       "type": "hyllor, sva",
       "firstAscent": "Sören Danielsson",
       "description": "Problemet längst bort. Ståstart på två mindre grepp under stora hyllan. Sedan lätt uppstigning på oputsade grepp.",
+      "sectorId": "sida-2-vagsidan",
       "source": {
         "id": "legacy:avelsbolsstenen",
         "path": "mediawiki/Avelsbolsstenen.txt"
@@ -114,6 +117,7 @@
       "type": "crimp, highball",
       "firstAscent": "",
       "description": "projektet till höger är den som klättras på bilden. Början går väl an, men sen försvinner alla grepp. Möjlig utväg upp till vänster om man är duktig?",
+      "sectorId": "sida-3-highballsidan",
       "source": {
         "id": "legacy:avelsbolsstenen",
         "path": "mediawiki/Avelsbolsstenen.txt"
@@ -129,6 +133,7 @@
       "type": "areté, catch, crimp",
       "firstAscent": "",
       "description": "Intressant problem på hörnet. Snällt grepp ut till taskig crimp, som kanske någon orkar hålla för att etablera fötter på dåliga steg innan tokig catch till taskig kant.",
+      "sectorId": "sida-3-highballsidan",
       "source": {
         "id": "legacy:avelsbolsstenen",
         "path": "mediawiki/Avelsbolsstenen.txt"
@@ -144,6 +149,7 @@
       "type": "överhäng, mantling",
       "firstAscent": "",
       "description": "Projektet på bilden gör den duktige enkelt? Fina hyllor och sprickor till läppen. Där blir allt märkligt svårare. Utsteget är bättre putsat än bilden visar, men kruxet att ta sig över kanten var för mycket för mig. Om man hade en spotter kanske jag hade vågat idiotslänga en tass över kanten, men...--Sören",
+      "sectorId": "sida-4-overhangssidan",
       "source": {
         "id": "legacy:avelsbolsstenen",
         "path": "mediawiki/Avelsbolsstenen.txt"
@@ -154,32 +160,38 @@
     {
       "filename": "Oversikt-avelsbolsstenen.JPG",
       "caption": "Översikt.",
-      "missing": false
+      "missing": false,
+      "sectorId": "sektioner"
     },
     {
       "filename": "Avelsbolsstenen-sida1.jpg",
       "caption": "sida 1. sva-sidan",
-      "missing": false
+      "missing": false,
+      "sectorId": "sida-1-svasidan"
     },
     {
       "filename": "PICT0001-1.JPG",
       "caption": "sida 2. väg-sidan",
-      "missing": false
+      "missing": false,
+      "sectorId": "sida-2-vagsidan"
     },
     {
       "filename": "Avelsbolsstenen-sida3.JPG",
       "caption": "sida 3. highball-sidan",
-      "missing": false
+      "missing": false,
+      "sectorId": "sida-3-highballsidan"
     },
     {
       "filename": "Climbing-sida3.jpg",
       "caption": "Sören",
-      "missing": false
+      "missing": false,
+      "sectorId": "sida-3-highballsidan"
     },
     {
       "filename": "PICT0002-1.JPG",
       "caption": "sida 4. Överhängssidan",
-      "missing": false
+      "missing": false,
+      "sectorId": "sida-4-overhangssidan"
     }
   ],
   "access": {

@@ -1,9 +1,12 @@
 import { mkdir, readFile, readdir, rm, writeFile } from "node:fs/promises";
 import path from "node:path";
+import { fileURLToPath } from "node:url";
 
-const repoRoot = path.resolve(process.cwd(), "..");
+const webRoot = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
+const repoRoot = path.resolve(webRoot, "..");
+const runtimeEnv = globalThis.process?.env || {};
 const inputDir = path.join(repoRoot, "mediawiki");
-const contentRoot = process.env.CONTENT_OUTPUT_ROOT ? path.resolve(process.env.CONTENT_OUTPUT_ROOT) : path.join(repoRoot, "content");
+const contentRoot = runtimeEnv.CONTENT_OUTPUT_ROOT ? path.resolve(runtimeEnv.CONTENT_OUTPUT_ROOT) : path.join(repoRoot, "content");
 const outputDir = path.join(contentRoot, "areas");
 const imageIndex = new Map();
 const publishedProposals = new Map();
@@ -36,7 +39,7 @@ function extractTemplates(source) {
       }
     }
     if (depth === 0) {
-      templates.push(source.slice(start + 2, cursor - 2));
+      templates.push({ content: source.slice(start + 2, cursor - 2), start, end: cursor });
       start = cursor - 1;
     }
   }
@@ -98,8 +101,14 @@ function parseSections(source) {
       id: slugify(plainText(match[1])),
       title: plainText(match[1]).replace(/\s+/g, " "),
       body: plainText(source.slice(bodyStart, bodyEnd)),
+      sourceStart: match.index,
+      sourceEnd: bodyEnd,
     };
-  }).filter((section) => section.title && section.body);
+  }).filter((section) => section.title);
+}
+
+function sectionAt(sections, position) {
+  return [...sections].reverse().find((section) => position >= section.sourceStart && position < section.sourceEnd) || null;
 }
 
 function numeric(value) {
@@ -137,22 +146,27 @@ function applyPublishedProposals(area) {
 
 function parseArea(filename, source, uniqueSlug) {
   const name = path.basename(filename, ".txt");
-  const templates = extractTemplates(source).map(splitTemplate);
+  const templates = extractTemplates(source).map((entry) => ({ ...splitTemplate(entry.content), start: entry.start, end: entry.end }));
   const info = templates.find((template) => ["info klippa", "info boulderområde"].includes(template.name));
+  const sections = parseSections(source);
   const routes = templates
     .filter((template) => template.name === "led" || template.name === "problem")
-    .map((template, index) => ({
-      id: `${uniqueSlug}-${template.name}-${index + 1}`,
-      kind: template.name === "led" ? "route" : "problem",
-      number: template.args.nr || null,
-      name: plainText(template.args.namn || `Namnlös ${template.name}`),
-      grade: plainText(template.args.grad || ""),
-      length: plainText(template.args.längd || template.args.läng || ""),
-      type: plainText(template.args.typ || ""),
-      firstAscent: plainText(template.args.fa || ""),
-      description: plainText(template.args.text || ""),
-      source: { id: `legacy:${uniqueSlug}`, path: `mediawiki/${filename}` },
-    }));
+    .map((template, index) => {
+      const sector = sectionAt(sections, template.start);
+      return {
+        id: `${uniqueSlug}-${template.name}-${index + 1}`,
+        kind: template.name === "led" ? "route" : "problem",
+        number: template.args.nr || null,
+        name: plainText(template.args.namn || `Namnlös ${template.name}`),
+        grade: plainText(template.args.grad || ""),
+        length: plainText(template.args.längd || template.args.läng || ""),
+        type: plainText(template.args.typ || ""),
+        firstAscent: plainText(template.args.fa || ""),
+        description: plainText(template.args.text || ""),
+        sectorId: sector?.id || null,
+        source: { id: `legacy:${uniqueSlug}`, path: `mediawiki/${filename}` },
+      };
+    });
   const categories = [...source.matchAll(/\[\[kategori:([^\]]+)\]\]/gi)]
     .map((match) => plainText(match[1]))
     .filter(Boolean);
@@ -161,10 +175,11 @@ function parseArea(filename, source, uniqueSlug) {
       const options = (match[2] || "").split("|").map((part) => part.trim());
       const requested = match[1].trim();
       const filename = imageIndex.get(requested.toLowerCase()) || imageIndex.get(requested.toLowerCase().replaceAll(" ", "_")) || requested;
-      return { filename, caption: plainText(options.at(-1) || ""), missing: !imageIndex.has(filename.toLowerCase()) };
+      const sector = sectionAt(sections, match.index ?? 0);
+      const caption = [...options].reverse().find((option) => option && !/^(thumb|thumbnail|left|right|center|frameless|border|\d+px)$/i.test(option)) || "";
+      return { filename, caption: plainText(caption), missing: !imageIndex.has(filename.toLowerCase()), sectorId: sector?.id || null };
     });
   const accessTemplate = templates.find((template) => template.name === "accessdb");
-  const sections = parseSections(source);
   const latitude = numeric(info?.args.lat);
   const longitude = numeric(info?.args.long);
   const coordinatesValid = latitude !== null && longitude !== null && latitude >= -90 && latitude <= 90 && longitude >= -180 && longitude <= 180;
@@ -180,7 +195,7 @@ function parseArea(filename, source, uniqueSlug) {
     description,
     coordinates: coordinatesValid ? { latitude, longitude } : null,
     categories: [...new Set(categories)].sort((a, b) => a.localeCompare(b, "sv")),
-    sections,
+    sections: sections.map((section) => ({ id: section.id, title: section.title, body: section.body })),
     routes,
     images,
     access: {
@@ -204,7 +219,7 @@ function parseArea(filename, source, uniqueSlug) {
 await rm(outputDir, { recursive: true, force: true });
 await mkdir(outputDir, { recursive: true });
 try {
-  const proposalDir = process.env.PROPOSAL_DIR ? path.resolve(process.env.PROPOSAL_DIR) : path.join(repoRoot, "proposals");
+  const proposalDir = runtimeEnv.PROPOSAL_DIR ? path.resolve(runtimeEnv.PROPOSAL_DIR) : path.join(repoRoot, "proposals");
   for (const filename of (await readdir(proposalDir)).filter((name) => name.endsWith(".json")).sort()) {
     const proposal = JSON.parse(await readFile(path.join(proposalDir, filename), "utf8"));
     if (proposal.decision !== "auto_published" || typeof proposal.area !== "string") continue;

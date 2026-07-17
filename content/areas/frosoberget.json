@@ -21,6 +21,11 @@
       "body": "Frösöberget ligger bara ett stenkast från Östersund centrum. Med ett par hundra leder är det här träningsklippan för Östersundare. Länk till förare finns på Östersunds KK Alternativ länk till föraren finns här"
     },
     {
+      "id": "vagbeskrivning",
+      "title": "Vägbeskrivning",
+      "body": ""
+    },
+    {
       "id": "rigor-mortis",
       "title": "Rigor Mortis",
       "body": "Från Östersund. Kör över Frösöbron. Sväng vänster i T-korsningen. Passera Konsum på höger sida och sväng höger direkt efter. Forsätt Trädgårdsvägen hela vägen upp till toppen. Vid 5-vägskorsningen tar du Alpvägen, uppåt höger. Efter ett tag ser du klippan."
@@ -41,6 +46,21 @@
       "body": "Se \"Rigor Mortis\", men vid 5-vägskorsningen tar du Vintervägen, uppåt vänster. Parkera nedanför slalombackens café. Gå snett uppåt vänster in i skogen. Gå igenom äventyrsbanan och förbi teaterscenen. Följ stigen upp så ser du klippan."
     },
     {
+      "id": "vaggar-leder",
+      "title": "Väggar & leder",
+      "body": ""
+    },
+    {
+      "id": "rigor-mortis",
+      "title": "Rigor Mortis",
+      "body": ""
+    },
+    {
+      "id": "vanstra-sidan",
+      "title": "Vänstra sidan",
+      "body": ""
+    },
+    {
       "id": "mitten",
       "title": "Mitten",
       "body": "Led 17-24 ombultad/kompletteringsbultad 2012"
@@ -49,6 +69,11 @@
       "id": "hogra-sidan",
       "title": "Högra sidan",
       "body": "Samtliga leder inom sektorn ombultades/kompletteringbultades 2012"
+    },
+    {
+      "id": "stora-klippan",
+      "title": "Stora klippan",
+      "body": ""
     },
     {
       "id": "piasavavaggen",
@@ -66,9 +91,24 @@
       "body": "Led 12 till 18 går från en hylla. Följ hyllsystemet t.h om centralpelaren till du hittar ett fast rep Led 12 till 14 börjar från stubben med repet och upp t.v."
     },
     {
+      "id": "gummans-vagg",
+      "title": "Gummans vägg",
+      "body": ""
+    },
+    {
       "id": "frosotaket",
       "title": "Frösötaket",
       "body": "De tre följande lederna går ovanför ett stort block på marken"
+    },
+    {
+      "id": "kilturer",
+      "title": "Kilturer",
+      "body": ""
+    },
+    {
+      "id": "bergrummet",
+      "title": "Bergrummet",
+      "body": ""
     },
     {
       "id": "stormvaggen",
@@ -92,6 +132,7 @@
       "type": "sport",
       "firstAscent": "G.Söderin, H.Thordarsson -90",
       "description": "Längst upp i slänten. Överhängande på stora grepp.",
+      "sectorId": "vanstra-sidan",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -107,6 +148,7 @@
       "type": "sport",
       "firstAscent": "G.Söderin, H.Thordarsson -90",
       "description": "Överhängande på stora grepp. Gör en liten travers t.h i mitten av leden.",
+      "sectorId": "vanstra-sidan",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -122,6 +164,7 @@
       "type": "sport",
       "firstAscent": "G.Söderin, L.Wahlström -91",
       "description": "",
+      "sectorId": "vanstra-sidan",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -137,6 +180,7 @@
       "type": "sport",
       "firstAscent": "G.Söderin, K. Nikumaa -",
       "description": "",
+      "sectorId": "vanstra-sidan",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -152,6 +196,7 @@
       "type": "sport",
       "firstAscent": "G.Söderin, L.Wahlström -91",
       "description": "",
+      "sectorId": "vanstra-sidan",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -167,6 +212,7 @@
       "type": "sport",
       "firstAscent": "",
       "description": "Travers åt vänster till Varma vinklar",
+      "sectorId": "vanstra-sidan",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -182,6 +228,7 @@
       "type": "sport",
       "firstAscent": "G.Söderin -91",
       "description": "Går upp i ett hörn som inte syns på bild. Lite osäkrad.",
+      "sectorId": "vanstra-sidan",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -197,6 +244,7 @@
       "type": "sport",
       "firstAscent": "G.Söderin -91",
       "description": "Börjar med ett kraftigt överhäng.",
+      "sectorId": "vanstra-sidan",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -212,6 +260,7 @@
       "type": "sport",
       "firstAscent": "G.Söderin -91",
       "description": "Sitter en skylt vid klippan.(maj -04)",
+      "sectorId": "vanstra-sidan",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -227,6 +276,7 @@
       "type": "sport",
       "firstAscent": "G.Söderin -91",
       "description": "",
+      "sectorId": "vanstra-sidan",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -242,6 +292,7 @@
       "type": "sport",
       "firstAscent": "L.Wahlström, G. Söderin -",
       "description": "",
+      "sectorId": "vanstra-sidan",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -257,6 +308,7 @@
       "type": "sport",
       "firstAscent": "M.Ellingsson",
       "description": "Börja t.v om betonkuren. Fortsätt upp förbi ankaret t.v och gör avslutningen på Lärken drillar för fin klättring på stora grepp, grad 6+. En lätt passage högt upp har långt mellan bultarna.",
+      "sectorId": "vanstra-sidan",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -272,6 +324,7 @@
       "type": "sport",
       "firstAscent": "M.Ellingsson",
       "description": "En fin fortsättning på Anna Roxia med ett markant punktkrux.",
+      "sectorId": "vanstra-sidan",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -287,6 +340,7 @@
       "type": "trad",
       "firstAscent": "G.Söderin -79",
       "description": "Börja på taket. Kilsäkrad i sprickan, upp till toppen.",
+      "sectorId": "vanstra-sidan",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -302,6 +356,7 @@
       "type": "sport",
       "firstAscent": "G.Söderin -91",
       "description": "Upp till ankaret.",
+      "sectorId": "vanstra-sidan",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -317,6 +372,7 @@
       "type": "sport",
       "firstAscent": "A-T. Arnasso -91",
       "description": "Upp till ankaret på led 12 (Fina fisken)",
+      "sectorId": "vanstra-sidan",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -332,6 +388,7 @@
       "type": "sport",
       "firstAscent": "G.Söderin. L.Wahlström -91",
       "description": "Börja t.h om betongkuren, drar lite t.v i början upp till en tunn vägg och ett trekantigt tak. Fira från ankare på hyllan eller fortsätt till ankaret på Brüderlein.",
+      "sectorId": "mitten",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -347,6 +404,7 @@
       "type": "sport",
       "firstAscent": "G.Söderin, A-T. Arnasson -91",
       "description": "Den vänstra av dom. Samma ankare som Fina fisken",
+      "sectorId": "mitten",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -362,6 +420,7 @@
       "type": "sport",
       "firstAscent": "G.Söderin, Ö.Söderin -90",
       "description": "Den högra av alternativen. Går till hyllan ovanför Fina fisken, avslutas med ett brant överhäng. Första hälften är lös",
+      "sectorId": "mitten",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -377,6 +436,7 @@
       "type": "sport",
       "firstAscent": "K.Nikumaa -91",
       "description": "",
+      "sectorId": "mitten",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -392,6 +452,7 @@
       "type": "sport",
       "firstAscent": "L.Wahlström -91",
       "description": "",
+      "sectorId": "mitten",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -407,6 +468,7 @@
       "type": "sport",
       "firstAscent": "G.Söderin -91",
       "description": "",
+      "sectorId": "mitten",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -422,6 +484,7 @@
       "type": "sport",
       "firstAscent": "[[]] -",
       "description": "",
+      "sectorId": "mitten",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -437,6 +500,7 @@
       "type": "sport",
       "firstAscent": "G.Söderin, L. Wahlström -91",
       "description": "",
+      "sectorId": "mitten",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -452,6 +516,7 @@
       "type": "sport",
       "firstAscent": "[[]] -",
       "description": "Svårt att klippa första bult, en del gör detta med en fuskpinne.",
+      "sectorId": "mitten",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -467,6 +532,7 @@
       "type": "sport",
       "firstAscent": "G.Söderin -91",
       "description": "",
+      "sectorId": "mitten",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -482,6 +548,7 @@
       "type": "sport",
       "firstAscent": "G.Söderin, A-T. Arnasson, L. Wahlström -91",
       "description": "Den vänstra av dem.",
+      "sectorId": "mitten",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -497,6 +564,7 @@
       "type": "sport",
       "firstAscent": "G.Söderin -91",
       "description": "Det högra alternativet.",
+      "sectorId": "mitten",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -512,6 +580,7 @@
       "type": "sport",
       "firstAscent": "G.Söderin, M. Ellingsson -91",
       "description": "Börja på betongplattan, vid en kort spricka.",
+      "sectorId": "mitten",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -527,6 +596,7 @@
       "type": "sport",
       "firstAscent": "(-89 G.Söderin, H. Thordarsson -89",
       "description": "Samma start som Ovalätt.",
+      "sectorId": "mitten",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -542,6 +612,7 @@
       "type": "sport",
       "firstAscent": "G.Söderin, H. Thordarsson -91",
       "description": "Samma start som Ovalätt.",
+      "sectorId": "mitten",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -557,6 +628,7 @@
       "type": "sport",
       "firstAscent": "G.Söderin, H. Thordarsson -91",
       "description": "Samma start som Ovalätt.",
+      "sectorId": "mitten",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -572,6 +644,7 @@
       "type": "trad",
       "firstAscent": "G.Söderin, M.Sundberg -79",
       "description": "Den markanta sprickan ovanför betongplattan. Fira från ankare ovan kanten.",
+      "sectorId": "mitten",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -587,6 +660,7 @@
       "type": "sport",
       "firstAscent": "G.Söderin -90",
       "description": "Första leden t.h om den markanta sprickan.",
+      "sectorId": "mitten",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -602,6 +676,7 @@
       "type": "sport",
       "firstAscent": "G.Söderin, H. Thordarsson -90",
       "description": "två leder t.h om den markanta sprickan",
+      "sectorId": "hogra-sidan",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -617,6 +692,7 @@
       "type": "sport",
       "firstAscent": "G.Söderin -90",
       "description": "",
+      "sectorId": "hogra-sidan",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -632,6 +708,7 @@
       "type": "trad",
       "firstAscent": "F. Götzmann, K. Westman -77",
       "description": "",
+      "sectorId": "hogra-sidan",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -647,6 +724,7 @@
       "type": "sport",
       "firstAscent": "G.Söderin -12?",
       "description": "Går i det tydliga hörnet",
+      "sectorId": "hogra-sidan",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -662,6 +740,7 @@
       "type": "sport",
       "firstAscent": "G.Söderin, H. Thordarsson -90",
       "description": "",
+      "sectorId": "hogra-sidan",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -677,6 +756,7 @@
       "type": "sport",
       "firstAscent": "G.Söderin, H. Thordarsson -90",
       "description": "",
+      "sectorId": "hogra-sidan",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -692,6 +772,7 @@
       "type": "sport",
       "firstAscent": "G.Söderin, H. Thordarsson, A-T. Arnasson -90",
       "description": "Går t.h om det markanta taket.",
+      "sectorId": "hogra-sidan",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -707,6 +788,7 @@
       "type": "sport",
       "firstAscent": "G.Söderin, H. Thordarsson, A-T. Arnasson -90",
       "description": "",
+      "sectorId": "hogra-sidan",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -722,6 +804,7 @@
       "type": "sport",
       "firstAscent": "G.Söderin, H. Thordarsson -90",
       "description": "",
+      "sectorId": "hogra-sidan",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -737,6 +820,7 @@
       "type": "sport",
       "firstAscent": "G.Söderin, H. Thordarsson -90",
       "description": "",
+      "sectorId": "hogra-sidan",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -752,6 +836,7 @@
       "type": "sport",
       "firstAscent": "G.Söderin, H. Thordarsson, A-T. Arnasson -90",
       "description": "",
+      "sectorId": "hogra-sidan",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -767,6 +852,7 @@
       "type": "sport",
       "firstAscent": "G.Söderin -91",
       "description": "",
+      "sectorId": "hogra-sidan",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -782,6 +868,7 @@
       "type": "sport",
       "firstAscent": "G.Söderin -90",
       "description": "Att koppla en skruvkarbin i första bulten kan vara bra.",
+      "sectorId": "hogra-sidan",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -797,6 +884,7 @@
       "type": "?",
       "firstAscent": "? -?",
       "description": "",
+      "sectorId": "hogra-sidan",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -812,6 +900,7 @@
       "type": "sport",
       "firstAscent": "G.Söderin -83",
       "description": "",
+      "sectorId": "hogra-sidan",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -827,6 +916,7 @@
       "type": "sport",
       "firstAscent": "G.Söderin -83",
       "description": "",
+      "sectorId": "hogra-sidan",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -842,6 +932,7 @@
       "type": "sport",
       "firstAscent": "G.Söderin -91",
       "description": "",
+      "sectorId": "hogra-sidan",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -857,6 +948,7 @@
       "type": "sport",
       "firstAscent": "G.Söderin -90",
       "description": "",
+      "sectorId": "hogra-sidan",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -872,6 +964,7 @@
       "type": "sport",
       "firstAscent": "G.Söderin, K. Nikumaa -91",
       "description": "",
+      "sectorId": "hogra-sidan",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -887,6 +980,7 @@
       "type": "sport",
       "firstAscent": "G.Söderin -?",
       "description": "FF",
+      "sectorId": "piasavavaggen",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -902,6 +996,7 @@
       "type": "sport",
       "firstAscent": "G.Söderin -?",
       "description": "",
+      "sectorId": "piasavavaggen",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -917,6 +1012,7 @@
       "type": "trad",
       "firstAscent": "G.Söderin, K.Westman -?",
       "description": "Följer den tydliga sprickan.",
+      "sectorId": "piasavavaggen",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -932,6 +1028,7 @@
       "type": "sport",
       "firstAscent": "M.Ellingsson -96",
       "description": "",
+      "sectorId": "piasavavaggen",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -947,6 +1044,7 @@
       "type": "sport",
       "firstAscent": "G.Söderin, Ö.Söderin, M.Ellingsson -96",
       "description": "Frän takpassage! Tidigare en aid-led.",
+      "sectorId": "piasavavaggen",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -962,6 +1060,7 @@
       "type": "sport",
       "firstAscent": "G.Söderin",
       "description": "Lurig.",
+      "sectorId": "piasavavaggen",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -977,6 +1076,7 @@
       "type": "sport",
       "firstAscent": "G.Söderin -96",
       "description": "Lätt att hamna ute i mossan till höger. Försök håll dig på banan!",
+      "sectorId": "piasavavaggen",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -992,6 +1092,7 @@
       "type": "trad",
       "firstAscent": "G.Söderin, K.Westman -?",
       "description": "Kommentar överflödig, du hör på namnet.",
+      "sectorId": "piasavavaggen",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -1007,6 +1108,7 @@
       "type": "sport",
       "firstAscent": "M.Ellingsson",
       "description": "Börjar t.h om taken och fortsätter längs en arete.",
+      "sectorId": "piasavavaggen",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -1022,6 +1124,7 @@
       "type": "sport",
       "firstAscent": "F.Olofsson -04",
       "description": "Känslig i överhägnet. Blir lättare om man går på sidan om bb.",
+      "sectorId": "piasavavaggen",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -1037,6 +1140,7 @@
       "type": "sport",
       "firstAscent": "Fredrik Olofsson -04",
       "description": "Alternativ till Jungfruns andra replängd",
+      "sectorId": "piasavavaggen",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -1052,6 +1156,7 @@
       "type": "sport",
       "firstAscent": "Fredrik Olofsson -04",
       "description": "Två replängder enbart på bultar.",
+      "sectorId": "piasavavaggen",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -1067,6 +1172,7 @@
       "type": "sport",
       "firstAscent": "Fredrik Olofsson -04",
       "description": "Börja på Jungfrun och klättra in på denna.",
+      "sectorId": "piasavavaggen",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -1082,6 +1188,7 @@
       "type": "sport",
       "firstAscent": "Fredrik Olofsson -04",
       "description": "Börja på Jungfrun och klättra in på denna.",
+      "sectorId": "piasavavaggen",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -1097,6 +1204,7 @@
       "type": "sport",
       "firstAscent": "J.Oskarsson, M.Ellingsson",
       "description": "Går några meter t.v om taket.",
+      "sectorId": "piasavavaggen",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -1112,6 +1220,7 @@
       "type": "trad",
       "firstAscent": "G.Söderin, H.Thorardsson -84",
       "description": "Lurig spricka. Små säkringar.",
+      "sectorId": "piasavavaggen",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -1127,6 +1236,7 @@
       "type": "sport",
       "firstAscent": "M.Ellingsson",
       "description": "Börjar under ett tak för att sedan kliva ut vänster om detta.",
+      "sectorId": "piasavavaggen",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -1142,6 +1252,7 @@
       "type": "sport",
       "firstAscent": "M.Ellingsson, K.Nikumaa",
       "description": "Samma start som Metropolis.",
+      "sectorId": "piasavavaggen",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -1157,6 +1268,7 @@
       "type": "mix",
       "firstAscent": "Massimo Del Din",
       "description": "Startar något t.h om taket och sneddar över Nikita och slutar på Metropolis ankare. Man kan sätta en kamkil när man passerar sprickan (0,75 Camalot).",
+      "sectorId": "piasavavaggen",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -1172,6 +1284,7 @@
       "type": "sport",
       "firstAscent": "G.Söderin",
       "description": "",
+      "sectorId": "piasavavaggen",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -1187,6 +1300,7 @@
       "type": "trad",
       "firstAscent": "C.Wiström, L.Bergström, G.Söderin -77",
       "description": "Mer info på sidan \"Långa kilturer\"",
+      "sectorId": "piasavavaggen",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -1202,6 +1316,7 @@
       "type": "sport",
       "firstAscent": "G.Söderin, K.Nikumaa -95",
       "description": "Nytt ankare 2012, börja med \"Långa leden\"",
+      "sectorId": "piasavavaggen",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -1217,6 +1332,7 @@
       "type": "sport",
       "firstAscent": "G.Söderin, K.Nikumaa -95",
       "description": "Nytt ankare,ombultad 2012, börja med led 25",
+      "sectorId": "piasavavaggen",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -1232,6 +1348,7 @@
       "type": "sport",
       "firstAscent": "G.Söderin, K.Nikumaa -95",
       "description": "Nytt ankare,ombultad 2012, börja med led 25",
+      "sectorId": "piasavavaggen",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -1247,6 +1364,7 @@
       "type": "sport",
       "firstAscent": "G.Söderin, G.Söderin -02",
       "description": "",
+      "sectorId": "piasavavaggen",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -1262,6 +1380,7 @@
       "type": "sport",
       "firstAscent": "M.Ellingsson",
       "description": "Bra för nybörjarklättring.",
+      "sectorId": "piasavavaggen",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -1277,6 +1396,7 @@
       "type": "sport",
       "firstAscent": "G Södering",
       "description": "Bra för nybörjarklättring.",
+      "sectorId": "piasavavaggen",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -1292,6 +1412,7 @@
       "type": "sport",
       "firstAscent": "G Söderin",
       "description": "Bra för nybörjarklättring.",
+      "sectorId": "piasavavaggen",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -1307,6 +1428,7 @@
       "type": "sport",
       "firstAscent": "G Söderin",
       "description": "Bra för nybörjarklättring. Har en liten grafitti i starten.",
+      "sectorId": "piasavavaggen",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -1322,6 +1444,7 @@
       "type": "sport",
       "firstAscent": "N Nathen",
       "description": "Första leden man kommer till på den här sektorn. Höger om led 35.",
+      "sectorId": "piasavavaggen",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -1337,6 +1460,7 @@
       "type": "trad",
       "firstAscent": "F.Fisher, F.Götzmann, -73",
       "description": "Börjar i diedret vid Morsans muskler. 2 replängder.",
+      "sectorId": "morsans-omrade",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -1352,6 +1476,7 @@
       "type": "sport",
       "firstAscent": "G.Söderin, K.Nikumaa, -95",
       "description": "",
+      "sectorId": "morsans-omrade",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -1367,6 +1492,7 @@
       "type": "sport",
       "firstAscent": "G.Söderin, M.Ellingsson, -95",
       "description": "",
+      "sectorId": "morsans-omrade",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -1382,6 +1508,7 @@
       "type": "trad",
       "firstAscent": "F.Götzmann, -76",
       "description": "",
+      "sectorId": "morsans-omrade",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -1397,6 +1524,7 @@
       "type": "sport",
       "firstAscent": "G.Söderin, M.Ellingsson -95",
       "description": "",
+      "sectorId": "morsans-omrade",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -1412,6 +1540,7 @@
       "type": "sport",
       "firstAscent": "G.Söderin -?",
       "description": "",
+      "sectorId": "morsans-omrade",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -1427,6 +1556,7 @@
       "type": "sport",
       "firstAscent": "G.Söderin -95",
       "description": "",
+      "sectorId": "morsans-omrade",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -1442,6 +1572,7 @@
       "type": "sport",
       "firstAscent": "G.Söderin, -94",
       "description": "",
+      "sectorId": "morsans-omrade",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -1457,6 +1588,7 @@
       "type": "sport",
       "firstAscent": "G.Söderin,",
       "description": "Rolig klättring. Samma start som Himlakul. Går över det lilla taket.",
+      "sectorId": "morsans-omrade",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -1472,6 +1604,7 @@
       "type": "sport",
       "firstAscent": "G.Söderin -94",
       "description": "Går till samma ankare som ”Var glad”. Ankare bytt om bultkompletterad 2012",
+      "sectorId": "morsans-omrade",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -1487,6 +1620,7 @@
       "type": "sport",
       "firstAscent": "K.Nikumaa -94",
       "description": "Utstegsvar. till ”Goda grannar” som fortsätter in i ”Våren värmer”.",
+      "sectorId": "morsans-omrade",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -1502,6 +1636,7 @@
       "type": "sport",
       "firstAscent": "G.Söderin -?",
       "description": "",
+      "sectorId": "morsans-omrade",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -1517,6 +1652,7 @@
       "type": "mix",
       "firstAscent": "G.Söderin, H.Thorardsson -83",
       "description": "",
+      "sectorId": "morsans-omrade",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -1532,6 +1668,7 @@
       "type": "sport",
       "firstAscent": "G.Söderin, M.Larsson -94",
       "description": "",
+      "sectorId": "morsans-omrade",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -1547,6 +1684,7 @@
       "type": "sport",
       "firstAscent": "K.Nikumaa -94",
       "description": "Börja med att klättra led 23 (Östpelaren) och fortsätt sedan in på denna led.",
+      "sectorId": "morsans-omrade",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -1562,6 +1700,7 @@
       "type": "sport",
       "firstAscent": "G.Söderin -94",
       "description": "Ofta väldigt mossig",
+      "sectorId": "morsans-omrade",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -1577,6 +1716,7 @@
       "type": "sport",
       "firstAscent": "G.Söderin, M.Olofsson -94",
       "description": "",
+      "sectorId": "morsans-omrade",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -1592,6 +1732,7 @@
       "type": "sport",
       "firstAscent": "G.Söderin, M.Olofsson -94",
       "description": "",
+      "sectorId": "morsans-omrade",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -1607,6 +1748,7 @@
       "type": "sport",
       "firstAscent": "G.Söderin, M.Olofsson -94",
       "description": "",
+      "sectorId": "morsans-omrade",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -1622,6 +1764,7 @@
       "type": "mix",
       "firstAscent": "G.Söderin,",
       "description": "Börjar i diedret. Ta sedan ett kliv ut t.h och följ bultarna.",
+      "sectorId": "morsans-omrade",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -1637,6 +1780,7 @@
       "type": "sport",
       "firstAscent": "G.Söderin -?",
       "description": "FF",
+      "sectorId": "morsans-omrade",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -1652,6 +1796,7 @@
       "type": "sport",
       "firstAscent": "G.Söderin -?",
       "description": "",
+      "sectorId": "morsans-omrade",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -1667,6 +1812,7 @@
       "type": "sport",
       "firstAscent": "M.Ellingsson -?",
       "description": "",
+      "sectorId": "morsans-omrade",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -1682,6 +1828,7 @@
       "type": "trad",
       "firstAscent": "F.Götzmann, K.Westman, -77",
       "description": "Du hittar den som led nr 24 på \"Morsans område\". Denna led följer ”minsta motståndets väg” genom den branta väggen till vänster om Stora Diedret.",
+      "sectorId": "morsans-omrade",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -1697,6 +1844,7 @@
       "type": "sport",
       "firstAscent": "G.Söderin, J.Oskarsson -94",
       "description": "Ny dragning och nytt ankare 2012",
+      "sectorId": "morsans-omrade",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -1712,6 +1860,7 @@
       "type": "sport",
       "firstAscent": "G.Söderin, K.Nikumaa -94",
       "description": "Nytt ankare 2012",
+      "sectorId": "morsans-omrade",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -1727,6 +1876,7 @@
       "type": "sport",
       "firstAscent": "G.Söderin -94",
       "description": "Nytt ankare och kompletteringsbultad 2012",
+      "sectorId": "morsans-omrade",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -1742,6 +1892,7 @@
       "type": "sport",
       "firstAscent": "G.Söderin, M.Ellingsson -94",
       "description": "Nytt ankare och ombultad 2012",
+      "sectorId": "morsans-omrade",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -1757,6 +1908,7 @@
       "type": "sport",
       "firstAscent": "G.Söderin, M.Ellingsson -94",
       "description": "I slutet på leden går du direkt över överhänget.",
+      "sectorId": "morsans-omrade",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -1772,6 +1924,7 @@
       "type": "sport",
       "firstAscent": "G.Söderin, M.Larsson -94",
       "description": "Nytt ankare och ombultad 2012",
+      "sectorId": "morsans-omrade",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -1787,6 +1940,7 @@
       "type": "trad",
       "firstAscent": "F.Fischer, K.Westman, -75",
       "description": "Mer info på sidan \"Långa kilturer\".",
+      "sectorId": "morsans-omrade",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -1802,6 +1956,7 @@
       "type": "trad",
       "firstAscent": "G.Söderin, N.Bylund -80",
       "description": "",
+      "sectorId": "degagementvaggen",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -1817,6 +1972,7 @@
       "type": "sport",
       "firstAscent": "G.Söderin, M.Ellingsson -95",
       "description": "Nytt ankare, ombultad 2012",
+      "sectorId": "degagementvaggen",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -1832,6 +1988,7 @@
       "type": "sport",
       "firstAscent": "G.Söderin, K.Nikumaa -94",
       "description": "Nytt ankare samt bultad 2012",
+      "sectorId": "degagementvaggen",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -1847,6 +2004,7 @@
       "type": "trad",
       "firstAscent": "G.Söderin, K.Westman, F.Götzmann -?",
       "description": "Mer info på sidan \"Långa kilturer\".",
+      "sectorId": "degagementvaggen",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -1862,6 +2020,7 @@
       "type": "sport",
       "firstAscent": "G.Söderin, J.Oskarsson -95",
       "description": "Startar på hylla till höger om \"Glada gossar\"",
+      "sectorId": "degagementvaggen",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -1877,6 +2036,7 @@
       "type": "sport",
       "firstAscent": "G.Söderin, Geir Söderin -95",
       "description": "Startar på hylla till höger om \"Glada gossar\"",
+      "sectorId": "degagementvaggen",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -1892,6 +2052,7 @@
       "type": "sport",
       "firstAscent": "G.Söderin -95",
       "description": "",
+      "sectorId": "degagementvaggen",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -1907,6 +2068,7 @@
       "type": "sport",
       "firstAscent": "G.Söderin, M.Ellingsson -94",
       "description": "Nytt ankare, ombultad 2012",
+      "sectorId": "degagementvaggen",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -1922,6 +2084,7 @@
       "type": "sport",
       "firstAscent": "G.Söderin, M.Ellingsson -94",
       "description": "Nytt ankare, ombultad 2012",
+      "sectorId": "degagementvaggen",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -1937,6 +2100,7 @@
       "type": "sport",
       "firstAscent": "G.Söderin, M.Ellingsson -94",
       "description": "",
+      "sectorId": "degagementvaggen",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -1952,6 +2116,7 @@
       "type": "trad",
       "firstAscent": "F.Götzmann -76",
       "description": "Mer info på sidan \"Långa kilturer\".",
+      "sectorId": "degagementvaggen",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -1967,6 +2132,7 @@
       "type": "sport",
       "firstAscent": "K.Nikumaa -94",
       "description": "Börja från stubben och ta leden längs t.v. Betydligt lättare om man använder hörnet.",
+      "sectorId": "degagementvaggen",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -1982,6 +2148,7 @@
       "type": "sport",
       "firstAscent": "K.Nikumaa -94",
       "description": "",
+      "sectorId": "degagementvaggen",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -1997,6 +2164,7 @@
       "type": "sport",
       "firstAscent": "D.Lindberg",
       "description": "Följer det lilla hörnet genom överhänget",
+      "sectorId": "degagementvaggen",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -2012,6 +2180,7 @@
       "type": "trad",
       "firstAscent": "G.Söderin, F.Götzmann -95",
       "description": "",
+      "sectorId": "degagementvaggen",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -2027,6 +2196,7 @@
       "type": "sport",
       "firstAscent": "G.Söderin -?",
       "description": "",
+      "sectorId": "degagementvaggen",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -2042,6 +2212,7 @@
       "type": "sport",
       "firstAscent": "G.Söderin -?",
       "description": "På mitten av Yalla yalla går denna led till vänster på ett slätare parti. Två bultar, sedan tillbaka till ovan nämnda led.",
+      "sectorId": "degagementvaggen",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -2057,6 +2228,7 @@
       "type": "trad",
       "firstAscent": "M.Ellingsson? -?",
       "description": "",
+      "sectorId": "degagementvaggen",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -2072,6 +2244,7 @@
       "type": "sport",
       "firstAscent": "J. Oskarsson & M. Hellberg -?",
       "description": "FF. Rolig att gå över bullen på mitten.",
+      "sectorId": "degagementvaggen",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -2087,6 +2260,7 @@
       "type": "trad",
       "firstAscent": "G.Söderin, M.Sundberg",
       "description": "Börja nere vid de två stubbarna o gå uppåt med en dragning åt vänster. Fira från ankaret på Miloue. Bra säkrat, om man hittar placeringarna. Camalot 3 är bra i krux.",
+      "sectorId": "degagementvaggen",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -2102,6 +2276,7 @@
       "type": "sport",
       "firstAscent": "M.Ellingsson, G.Söderin -94",
       "description": "Hitta två stubbar på en hylla, leden är den första bultade leden t.v om dessa. Nytt ankare 2012",
+      "sectorId": "degagementvaggen",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -2117,6 +2292,7 @@
       "type": "sport",
       "firstAscent": "M.Ellingsson, G.Söderin -",
       "description": "",
+      "sectorId": "degagementvaggen",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -2132,6 +2308,7 @@
       "type": "sport",
       "firstAscent": "G.Söderin, M.Ellingsson, M.Hellberg -96",
       "description": "",
+      "sectorId": "degagementvaggen",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -2147,6 +2324,7 @@
       "type": "sport",
       "firstAscent": "G.Söderin, M.Ellingsson, M.Hellberg -96",
       "description": "Ombultad samt nytt ankare 2012. Starta med \"Bara barr\"",
+      "sectorId": "degagementvaggen",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -2162,6 +2340,7 @@
       "type": "sport",
       "firstAscent": "G.Söderin, M.Ellingsson, M.Hellberg -96",
       "description": "Ombultad 2012, starta med \"Bara barr\"",
+      "sectorId": "degagementvaggen",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -2177,6 +2356,7 @@
       "type": "sport",
       "firstAscent": "G.Söderin, M.Ellingsson, M.Hellberg -96",
       "description": "Ombultad 2012",
+      "sectorId": "degagementvaggen",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -2192,6 +2372,7 @@
       "type": "sport",
       "firstAscent": "G.Söderin, M.Ellingsson -01",
       "description": "Nytt ankare och ombultad 2012",
+      "sectorId": "degagementvaggen",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -2207,6 +2388,7 @@
       "type": "sport",
       "firstAscent": "G.Söderin -01",
       "description": "FF. Samma som ovan men man går vänster på slutet direkt över överhänget.",
+      "sectorId": "degagementvaggen",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -2222,6 +2404,7 @@
       "type": "sport",
       "firstAscent": "G.Söderin, M.Ellingsson -01",
       "description": "T.h om Bara barr.",
+      "sectorId": "degagementvaggen",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -2237,6 +2420,7 @@
       "type": "sport",
       "firstAscent": "G.Söderin -12",
       "description": "Starta med \"Liggande löv och gå över i \"Brokiga blad\".",
+      "sectorId": "degagementvaggen",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -2252,6 +2436,7 @@
       "type": "sport",
       "firstAscent": "G.Söderin -01",
       "description": "",
+      "sectorId": "degagementvaggen",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -2267,6 +2452,7 @@
       "type": "mix",
       "firstAscent": "M. Ellingsson, G.Söderin, K.Nikumaa -01",
       "description": "Dåligt säkrat insteg, annars skulle den vara en FF. Bultat ankare.",
+      "sectorId": "degagementvaggen",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -2282,6 +2468,7 @@
       "type": "sport",
       "firstAscent": "M.Bergstedt, Vatos Locos -11",
       "description": "Helbultad i två replängder 5, 5+, 60 m rep krävs för avfirning, insteg längst till höger på denna sektor.",
+      "sectorId": "degagementvaggen",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -2297,6 +2484,7 @@
       "type": "sport",
       "firstAscent": "G.Söderin -01",
       "description": "",
+      "sectorId": "gummans-vagg",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -2312,6 +2500,7 @@
       "type": "trad",
       "firstAscent": "G.Söderin, P.Dahl -01",
       "description": "",
+      "sectorId": "gummans-vagg",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -2327,6 +2516,7 @@
       "type": "sport",
       "firstAscent": "G.Söderin, K.Nikumaa -01",
       "description": "",
+      "sectorId": "gummans-vagg",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -2342,6 +2532,7 @@
       "type": "trad",
       "firstAscent": "G.Söderin, N.B -?",
       "description": "Första replängden. Leden drar lite vänster förbi en gran i starten. Andra replängden: a,b,c eller d",
+      "sectorId": "gummans-vagg",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -2357,6 +2548,7 @@
       "type": "mix",
       "firstAscent": "G.Söderin, N.B -?",
       "description": "Travers till hörnet.",
+      "sectorId": "gummans-vagg",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -2372,6 +2564,7 @@
       "type": "mix",
       "firstAscent": "G.Söderin, N.B -?",
       "description": "Lite känslig rakt på",
+      "sectorId": "gummans-vagg",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -2387,6 +2580,7 @@
       "type": "mix",
       "firstAscent": "G.Söderin, N.B -?",
       "description": "Rakt upp från ankaret",
+      "sectorId": "gummans-vagg",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -2402,6 +2596,7 @@
       "type": "trad",
       "firstAscent": "G.Söderin, N.B -?",
       "description": "Följ sprickan lite åt höger.",
+      "sectorId": "gummans-vagg",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -2417,6 +2612,7 @@
       "type": "sport",
       "firstAscent": "K.Nikumaa -97",
       "description": "Samma start som Hålögd. Gå till vänster efter tredje bulten.",
+      "sectorId": "gummans-vagg",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -2432,6 +2628,7 @@
       "type": "sport",
       "firstAscent": "G.Söderin -11",
       "description": "Samma start som Hålögd/Tjolihojsan. Utsteg åt vänster till eget ankare.",
+      "sectorId": "gummans-vagg",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -2447,6 +2644,7 @@
       "type": "sport",
       "firstAscent": "K.Nikumaa -95",
       "description": "Samma start som Tjolihojsan.",
+      "sectorId": "gummans-vagg",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -2462,6 +2660,7 @@
       "type": "trad",
       "firstAscent": "K.Nikumaa, M.Ellingsson -95",
       "description": "",
+      "sectorId": "gummans-vagg",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -2477,6 +2676,7 @@
       "type": "mix",
       "firstAscent": "G.Söderin, M.Ellingsson -95",
       "description": "Kilar till överhänget. Gå sedan över till led nr 8(Kasta loss).",
+      "sectorId": "gummans-vagg",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -2492,6 +2692,7 @@
       "type": "sport",
       "firstAscent": "G.Söderin, M.Ellingsson -95",
       "description": "",
+      "sectorId": "gummans-vagg",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -2507,6 +2708,7 @@
       "type": "sport",
       "firstAscent": "G.Söderin, M.Ellingsson -95?",
       "description": "Alt insteg till Avd \"Kasta loss\".",
+      "sectorId": "gummans-vagg",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -2522,6 +2724,7 @@
       "type": "sport",
       "firstAscent": "G.Söderin, M.Ellingsson -96",
       "description": "Alt insteg till Avd \"Kasta loss\".",
+      "sectorId": "gummans-vagg",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -2537,6 +2740,7 @@
       "type": "sport",
       "firstAscent": "G.Söderin, M.Ellingsson -95",
       "description": "",
+      "sectorId": "gummans-vagg",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -2552,6 +2756,7 @@
       "type": "sport",
       "firstAscent": "G.Söderin, M.Ellingsson -96",
       "description": "",
+      "sectorId": "gummans-vagg",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -2567,6 +2772,7 @@
       "type": "trad",
       "firstAscent": "C.Wiström, G.Söderin -77?",
       "description": "",
+      "sectorId": "gummans-vagg",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -2582,6 +2788,7 @@
       "type": "sport",
       "firstAscent": "G.Söderin, M.Ellingsson -96",
       "description": "Något lös bitvis.",
+      "sectorId": "frosotaket",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -2597,6 +2804,7 @@
       "type": "sport",
       "firstAscent": "M.Hellberg, M.Ellingsson -96",
       "description": "T.v om det stora taket. Efter några meter stöter man på ett punktkrux, en kort travers åt vänster ut på den branta väggen fixar detta.",
+      "sectorId": "frosotaket",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -2612,6 +2820,7 @@
       "type": "sport",
       "firstAscent": "G. Söderin, K. Nikuma -?",
       "description": "Exponerad travers. Slutar vid ”Listig”.",
+      "sectorId": "frosotaket",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -2627,6 +2836,7 @@
       "type": "mix",
       "firstAscent": "Hellberg -?",
       "description": "Bultar upp till taket, sen små kilar.",
+      "sectorId": "frosotaket",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -2642,6 +2852,7 @@
       "type": "sport",
       "firstAscent": "G.Söderin, M.Ellingsson",
       "description": "Följer flak/sprick formationen genom taket. Löst och dammigt under taket.",
+      "sectorId": "frosotaket",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -2657,6 +2868,7 @@
       "type": "sport",
       "firstAscent": "G.Söderin, K.Nikumaa -?",
       "description": "",
+      "sectorId": "frosotaket",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -2672,6 +2884,7 @@
       "type": "sport",
       "firstAscent": "G. Söderin -?",
       "description": "Följer den tydliga sprickan genom taket. Följer sedan samma som led nr 2 (Dimman lättar).",
+      "sectorId": "frosotaket",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -2687,6 +2900,7 @@
       "type": "sport",
       "firstAscent": "K. Nikuma -?",
       "description": "",
+      "sectorId": "frosotaket",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -2702,6 +2916,7 @@
       "type": "sport",
       "firstAscent": "G. Söderin -?",
       "description": "Den här är lös på sina ställen, därav namnet...",
+      "sectorId": "frosotaket",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -2717,6 +2932,7 @@
       "type": "sport",
       "firstAscent": "K.Nikuma, G.Söderin -?",
       "description": "Klipp första bulten när du står på hyllan. Gå vidare på vänster sida om nästa bult. Vidare vänster till ankare.",
+      "sectorId": "frosotaket",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -2732,6 +2948,7 @@
       "type": "sport",
       "firstAscent": "G. Söderin -?",
       "description": "Samma start som 9 (Likblek). Klättra till höger om andra bulten. Vidare höger till ankare.",
+      "sectorId": "frosotaket",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -2747,6 +2964,7 @@
       "type": "sport",
       "firstAscent": "G.Söderin, K.Nikuma -95",
       "description": "Lite löst från början. Sedan rakt upp till ankare.",
+      "sectorId": "frosotaket",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -2762,6 +2980,7 @@
       "type": "sport",
       "firstAscent": "M. Ellingsson, G.Söderin, J.Oskarsson -?",
       "description": "",
+      "sectorId": "frosotaket",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -2777,6 +2996,7 @@
       "type": "sport",
       "firstAscent": "D Jacobs",
       "description": "Delar första bult med Pulla på, går sedan vänster. Fira från anonyma alpinister.",
+      "sectorId": "frosotaket",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -2792,6 +3012,7 @@
       "type": "sport",
       "firstAscent": "K.Nikuma, G.Söderin",
       "description": "Första bulten sitter i ett litet dieder. Ankaret sitter ovanför kanten.",
+      "sectorId": "frosotaket",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -2807,6 +3028,7 @@
       "type": "sport",
       "firstAscent": "J Wermelin, P Wermelin",
       "description": "Tre täta bultar som drar lite åt vänster i starten.",
+      "sectorId": "frosotaket",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -2822,6 +3044,7 @@
       "type": "trad",
       "firstAscent": "M.Larsson, T.Nilsson, S-E.Brevik -83",
       "description": "",
+      "sectorId": "frosotaket",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -2837,6 +3060,7 @@
       "type": "sport",
       "firstAscent": "P.Dahl -?",
       "description": "",
+      "sectorId": "frosotaket",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -2852,6 +3076,7 @@
       "type": "sport",
       "firstAscent": "J. Wermelin, P.Wermelin -?",
       "description": "",
+      "sectorId": "frosotaket",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -2867,6 +3092,7 @@
       "type": "sport",
       "firstAscent": "-97 G.Söderin, M.Ellingsson -97",
       "description": "(\"Därför\"?)",
+      "sectorId": "frosotaket",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -2882,6 +3108,7 @@
       "type": "sport",
       "firstAscent": "G.Söderin -?",
       "description": "",
+      "sectorId": "frosotaket",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -2897,6 +3124,7 @@
       "type": "sport",
       "firstAscent": "G. Söderin, Massimo -01",
       "description": "",
+      "sectorId": "frosotaket",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -2912,6 +3140,7 @@
       "type": "sport",
       "firstAscent": "M.Ellingsson -01",
       "description": "",
+      "sectorId": "frosotaket",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -2927,6 +3156,7 @@
       "type": "sport",
       "firstAscent": "G. Söderin, Massimo -01",
       "description": "",
+      "sectorId": "frosotaket",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -2942,6 +3172,7 @@
       "type": "trad",
       "firstAscent": "F.Fischer, F.Götzmann -73",
       "description": "Lämplig nybörjarled med jämn och fin klättring första replängden. Välsäkrad och relativt lätt kan den dock ändå vålla den övermodige en och annan förtretlighet. 1 III+ 40 m Insteget är i ett markant 5 meter högt dieder. Startar 10 meter till vänter om Sunda Simpor (Piasavaväggen). Standplats vid stora stubben. 2 II-III 20 m Upp till en stor hylla åt höger. Fortsätt några meter åt höger på denna hylla. Sedan över trappstegshyllor åt vänster och så rakt upp till krönet.",
+      "sectorId": "kilturer",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -2957,6 +3188,7 @@
       "type": "trad",
       "firstAscent": "C.Wiström, L.Bergström, G.Söderin -77",
       "description": "Namnet återspeglar, som alla förstår, förstebestiga-rens förehavanden. Du hittar insteget som led nr 26 på \"Piasavaväggen\". 1 V- 30 m Ta standplats under taket på den stora hyllan. 2a II 20 m (originalutsteget) Rakt upp genom den stora rännan i hyllans vänstra kant. Lite löst och skitigt.",
+      "sectorId": "kilturer",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -2972,6 +3204,7 @@
       "type": "trad",
       "firstAscent": "F.Fisher, F.Götzmann, -73",
       "description": "Detta är den första, av oss kända, leden som klättrats på Frösöberget. Du hittar den som led nr 1 på \"Morsans område\". Börjar i diedret vid Morsans muskler. 2 replängder.",
+      "sectorId": "kilturer",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -2987,6 +3220,7 @@
       "type": "trad",
       "firstAscent": "F.Götzmann, K.Westman, -77",
       "description": "Du hittar den som led nr 24 på \"Morsans område\". Denna led följer ”minsta motståndets väg” genom den branta väggen till vänster om Stora Diedret.Namnet har den efter den våldförda ”hexa” som sitter i en spricka 20 m längre upp.(Tyvärr har någon snott hexan!) 1 V+ 50 m Gå upp på terrassen några meter till vänster om Stora Diedret. Därefter snett upp åt vänster, över stora block, fram till en tydlig vinkel. Rakt upp i vinkeln till hylla. Sedan vidare på små hyllor åt höger och försiktigt runt ett stort block och så upp på ytterli-gare en hylla. Här sitter ”hexan” väl inbankad i sin spricka. Trä en ny slinga runt kilen. Fortsätt sedan upp ur vinkeln åt vänster ut på en platta och rakt upp under överhäng. OBS! Stora lösa block till vänster. Vidare ut till höger under överhänget. Därefter snett upp åt höger till kort vinkel och så rakt upp till standplats. 2 II-III 10 m Rakt upp till krönet. 3 III+ 30 m Uppför kort brant vägg med dragning åt vänster. Vidare till höger uppför en blockuppstapling. Sedan rakt upp över väggen till ett stort block med markant horisontalspricka. Till vänster över detta block och vidare snett upp åt vänster till svagt utbildad vinkel. Uppför vinkeln till standplats.",
+      "sectorId": "kilturer",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -3002,6 +3236,7 @@
       "type": "trad",
       "firstAscent": "F.Fischer, K.Westman, -75",
       "description": "Du hittar den som led nr 30 på \"Morsans område\".Frösöbergets verkliga klassiker och fortfarande en av de flottaste linjerna på berget. Fördel med stora kilar. 1 V- 45 m (från terrassen ca 40 m) Starta på marken rakt nedanför det markanta hörnet. Klättra den första korta väggen upp till terrassen. Fortsätt sedan uppför det ca 15 m höga hörnet och så vidare via en kort, något överhängande spricka till ett ankare. Standplats. 2 V- 15 m 1977, F.Götzmann Kliv upp på en sluttande hylla omedelbart till höger om tallen. Bult bakom löst flak. Fortsätt sedan (lite känsligt) 7-8 m uppåt med dragning åt höger till nästa bult. Sedan rakt upp till standplats. Svårsäkrat, om man inte bestämt sig för att lita på första bulten...",
+      "sectorId": "kilturer",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -3017,6 +3252,7 @@
       "type": "trad",
       "firstAscent": "? -?",
       "description": "1. V+ ?m Stora kilar. Samma start som Mårten Pillaren. På stora hyllan där denna går vänster så fortsätter man rakt upp i ratigt dieder (Krux, lortigt). Stand på någon av hyllorna efter diedret. ÖPPET PROJEKT På den stora hyllan bakom den döda granen finns en fin spricka som leder upp mot första stand. Den sprickan skulle göra hela leden mycket intressantare. 2. IV? ?m Följer en fin lång grov spricka/dieder till toppen.",
+      "sectorId": "kilturer",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -3032,6 +3268,7 @@
       "type": "sport",
       "firstAscent": "G.Söderin -00",
       "description": "",
+      "sectorId": "bergrummet",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -3047,6 +3284,7 @@
       "type": "sport",
       "firstAscent": "G.Söderin -00",
       "description": "",
+      "sectorId": "bergrummet",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -3062,6 +3300,7 @@
       "type": "sport",
       "firstAscent": "G.Söderin -00",
       "description": "",
+      "sectorId": "bergrummet",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -3077,6 +3316,7 @@
       "type": "sport",
       "firstAscent": "G.Söderin -00",
       "description": "",
+      "sectorId": "bergrummet",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -3092,6 +3332,7 @@
       "type": "sport",
       "firstAscent": "G Söderin -00",
       "description": "T.v om det stora taket, upp på hyllan och fortsätt till ankaret längst t.v.",
+      "sectorId": "bergrummet",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -3107,6 +3348,7 @@
       "type": "sport",
       "firstAscent": "G Söderin -00",
       "description": "Starta t.v om det stora taket. Klipp två första bultarna från hyllorna, kliv sedan ut på väggen...om du kan.",
+      "sectorId": "bergrummet",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -3122,6 +3364,7 @@
       "type": "sport",
       "firstAscent": "G Söderin -00",
       "description": "Starta längst in under taket och traversera detta till ankaret längst t.h. Grafitti höjer den urbana känslan.",
+      "sectorId": "bergrummet",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -3137,6 +3380,7 @@
       "type": "sport",
       "firstAscent": "Geir S -08",
       "description": "Går innifrån hörnet och tar längsta vägen genom taket till ankaret på Frutta Fresca.",
+      "sectorId": "bergrummet",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -3152,6 +3396,7 @@
       "type": "sport",
       "firstAscent": "Geir S -11",
       "description": "Start i Pruttgäddan sen går den via Battery in i Frutta-fresca. När man gjort cruxmovet på Frutta-fresca gör man en pillig match och traverserar ut till torkad frukt och traversen är cruxet.",
+      "sectorId": "bergrummet",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -3167,6 +3412,7 @@
       "type": "sport",
       "firstAscent": "G.Söderin -00",
       "description": "",
+      "sectorId": "bergrummet",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -3182,6 +3428,7 @@
       "type": "sport",
       "firstAscent": "G.Söderin -00",
       "description": "",
+      "sectorId": "bergrummet",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -3197,6 +3444,7 @@
       "type": "sport",
       "firstAscent": "G.Söderin -00",
       "description": "",
+      "sectorId": "bergrummet",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -3212,6 +3460,7 @@
       "type": "sport",
       "firstAscent": "G.Söderin -00",
       "description": "Följ Areten på högersidan av taket. Gå ut t.h på slutet. Långt mellan bultarna nära marken, fall inte medan du klipper.",
+      "sectorId": "bergrummet",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -3227,6 +3476,7 @@
       "type": "sport",
       "firstAscent": "G.Söderin -00",
       "description": "",
+      "sectorId": "bergrummet",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -3242,6 +3492,7 @@
       "type": "sport",
       "firstAscent": "? -?",
       "description": "",
+      "sectorId": "bergrummet",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -3257,6 +3508,7 @@
       "type": "sport",
       "firstAscent": "? 20??",
       "description": "Rensad men ej bultat. Följer flak och sprickor i vänstra delen av väggen.",
+      "sectorId": "stormvaggen",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -3272,6 +3524,7 @@
       "type": "sport",
       "firstAscent": "M Bergstedt -08",
       "description": "Går på mitten av väggen.",
+      "sectorId": "stormvaggen",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -3287,6 +3540,7 @@
       "type": "sport",
       "firstAscent": "G Söderin -96",
       "description": "T.h på väggen. Svårare om man är kort.",
+      "sectorId": "stormvaggen",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -3302,6 +3556,7 @@
       "type": "",
       "firstAscent": "",
       "description": "Bouldering. Hitta på lite egna problem. Fin att toppa ut!",
+      "sectorId": "stormvaggen",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -3317,6 +3572,7 @@
       "type": "sport",
       "firstAscent": "M.Ellingsson, M.Hellberg -96",
       "description": "",
+      "sectorId": "stormvaggen",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -3332,6 +3588,7 @@
       "type": "sport",
       "firstAscent": "M.Ellingsson, M.Hellberg -96",
       "description": "",
+      "sectorId": "stormvaggen",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -3347,6 +3604,7 @@
       "type": "sport",
       "firstAscent": "G.Söderin -02",
       "description": "",
+      "sectorId": "stormvaggen",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -3362,6 +3620,7 @@
       "type": "sport",
       "firstAscent": "G.Söderin -02",
       "description": "",
+      "sectorId": "stormvaggen",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -3377,6 +3636,7 @@
       "type": "trad",
       "firstAscent": "M Ellingsson",
       "description": "Markant spricka ovanför stigen. Fira från träd.",
+      "sectorId": "stormvaggen",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -3392,6 +3652,7 @@
       "type": "sport",
       "firstAscent": "G Söderin -96",
       "description": "Börja till vänster och korsa sedan led 10 och gå vidare på den vertikala delen. Ankare.",
+      "sectorId": "stormvaggen",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -3407,6 +3668,7 @@
       "type": "sport",
       "firstAscent": "? -96",
       "description": "Börja i det något lösa överhänget",
+      "sectorId": "stormvaggen",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -3422,6 +3684,7 @@
       "type": "sport",
       "firstAscent": "G.Söderin, M.Ellingsson -96",
       "description": "Utstegsvariant åt vänster.",
+      "sectorId": "stormvaggen",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -3437,6 +3700,7 @@
       "type": "mix",
       "firstAscent": "G.Söderin -96",
       "description": "Finns ankare, två bultar+kedja under granen i slutet av leden, ser lite muggigt ut. (juli 2011) Går enkelt att gå till samma avslut som led 13.",
+      "sectorId": "stormvaggen",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -3452,6 +3716,7 @@
       "type": "sport",
       "firstAscent": "G.Söderin -96",
       "description": "Ankare.",
+      "sectorId": "stormvaggen",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -3467,6 +3732,7 @@
       "type": "sport",
       "firstAscent": "?,P.Dahl",
       "description": "t.v om Rioja och Latino där stigen går in i skogen. Kort vertikal passage i början. Rolig klättring.",
+      "sectorId": "stormvaggen",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -3482,6 +3748,7 @@
       "type": "sport",
       "firstAscent": "M.Ellingsson -96",
       "description": "Saknar ankare!",
+      "sectorId": "stormvaggen",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -3497,6 +3764,7 @@
       "type": "sport",
       "firstAscent": "M.Ellingsson -96",
       "description": "Ankare satt -11",
+      "sectorId": "stormvaggen",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -3512,6 +3780,7 @@
       "type": "sport",
       "firstAscent": "M.Degermark,?",
       "description": "",
+      "sectorId": "stormvaggen",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -3527,6 +3796,7 @@
       "type": "sport",
       "firstAscent": "",
       "description": "",
+      "sectorId": "aventyrsvaggen",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -3542,6 +3812,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "",
+      "sectorId": "aventyrsvaggen",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -3557,6 +3828,7 @@
       "type": "sport",
       "firstAscent": "",
       "description": "Borstad 2010-06",
+      "sectorId": "aventyrsvaggen",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -3572,6 +3844,7 @@
       "type": "sport",
       "firstAscent": "",
       "description": "",
+      "sectorId": "aventyrsvaggen",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -3587,6 +3860,7 @@
       "type": "sport",
       "firstAscent": "",
       "description": "Finputsad 2010-06",
+      "sectorId": "aventyrsvaggen",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -3602,6 +3876,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "",
+      "sectorId": "aventyrsvaggen",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -3617,6 +3892,7 @@
       "type": "sport",
       "firstAscent": "",
       "description": "",
+      "sectorId": "aventyrsvaggen",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -3632,6 +3908,7 @@
       "type": "sport",
       "firstAscent": "",
       "description": "",
+      "sectorId": "aventyrsvaggen",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -3647,6 +3924,7 @@
       "type": "sport",
       "firstAscent": "",
       "description": "",
+      "sectorId": "aventyrsvaggen",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -3662,6 +3940,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "",
+      "sectorId": "aventyrsvaggen",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -3677,6 +3956,7 @@
       "type": "sport",
       "firstAscent": "",
       "description": "",
+      "sectorId": "aventyrsvaggen",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -3692,6 +3972,7 @@
       "type": "sport",
       "firstAscent": "",
       "description": "",
+      "sectorId": "aventyrsvaggen",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -3707,6 +3988,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "",
+      "sectorId": "aventyrsvaggen",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -3722,6 +4004,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "",
+      "sectorId": "aventyrsvaggen",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -3737,6 +4020,7 @@
       "type": "sport",
       "firstAscent": "",
       "description": "",
+      "sectorId": "aventyrsvaggen",
       "source": {
         "id": "legacy:frosoberget",
         "path": "mediawiki/Frösöberget.txt"
@@ -3747,62 +4031,74 @@
     {
       "filename": "Froson_thumb_400_Rigor_mortis_1.gif",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "vanstra-sidan"
     },
     {
       "filename": "Froson_thumb_400_Rigor_mortis_2.gif",
-      "caption": "right",
-      "missing": false
+      "caption": "",
+      "missing": false,
+      "sectorId": "mitten"
     },
     {
       "filename": "Froson_thumb_400_Rigor_mortis_3.gif",
-      "caption": "right",
-      "missing": false
+      "caption": "",
+      "missing": false,
+      "sectorId": "hogra-sidan"
     },
     {
       "filename": "Froson_Piasava_700p.gif",
       "caption": "top",
-      "missing": false
+      "missing": false,
+      "sectorId": "piasavavaggen"
     },
     {
       "filename": "Froson_Morsans_omrade_700p.gif",
       "caption": "top",
-      "missing": false
+      "missing": false,
+      "sectorId": "morsans-omrade"
     },
     {
       "filename": "Froson_Degagementvaggen_700p.gif",
       "caption": "top",
-      "missing": false
+      "missing": false,
+      "sectorId": "degagementvaggen"
     },
     {
       "filename": "Froson_Gummans_vagg_700p.gif",
       "caption": "top",
-      "missing": false
+      "missing": false,
+      "sectorId": "gummans-vagg"
     },
     {
       "filename": "Froson_Frosotaket_700p.gif",
       "caption": "top",
-      "missing": false
+      "missing": false,
+      "sectorId": "frosotaket"
     },
     {
       "filename": "Froson_Langa_kilturer_sodra_700p.gif",
       "caption": "top",
-      "missing": false
+      "missing": false,
+      "sectorId": "kilturer"
     },
     {
       "filename": "Froson_Bergrummet_700p.gif",
       "caption": "top",
-      "missing": false
+      "missing": false,
+      "sectorId": "bergrummet"
     },
     {
       "filename": "Froson_Stormvaggen.gif",
       "caption": "750Widthpx",
-      "missing": false
+      "missing": false,
+      "sectorId": "stormvaggen"
     },
     {
       "filename": "Froson_Aventyrsvaggen_700p.gif",
       "caption": "top",
-      "missing": false
+      "missing": false,
+      "sectorId": "aventyrsvaggen"
     }
   ],
   "access": {

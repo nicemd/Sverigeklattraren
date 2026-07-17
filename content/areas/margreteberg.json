@@ -43,6 +43,7 @@
       "type": "sport",
       "firstAscent": "Johan Luhr",
       "description": "Leden längst till vänster",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:margreteberg",
         "path": "mediawiki/Margreteberg.txt"
@@ -58,6 +59,7 @@
       "type": "sport",
       "firstAscent": "Johan Luhr",
       "description": "Arêten, direktinsteg",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:margreteberg",
         "path": "mediawiki/Margreteberg.txt"
@@ -73,6 +75,7 @@
       "type": "sport",
       "firstAscent": "Johan Luhr",
       "description": "Arêten med insteg från höger",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:margreteberg",
         "path": "mediawiki/Margreteberg.txt"
@@ -88,6 +91,7 @@
       "type": "sport",
       "firstAscent": "Johan Luhr",
       "description": "Kroppstung och teknisk",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:margreteberg",
         "path": "mediawiki/Margreteberg.txt"
@@ -103,6 +107,7 @@
       "type": "sport",
       "firstAscent": "Johan Luhr",
       "description": "Ny. Snett upp till vänster",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:margreteberg",
         "path": "mediawiki/Margreteberg.txt"
@@ -118,6 +123,7 @@
       "type": "sport",
       "firstAscent": "Johan Luhr",
       "description": "Rakt upp",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:margreteberg",
         "path": "mediawiki/Margreteberg.txt"
@@ -133,6 +139,7 @@
       "type": "sport",
       "firstAscent": "Johan Luhr",
       "description": "Svänger av åt höger",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:margreteberg",
         "path": "mediawiki/Margreteberg.txt"
@@ -148,6 +155,7 @@
       "type": "sport",
       "firstAscent": "Johan Luhr",
       "description": "Insteg i sedan vänster till",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:margreteberg",
         "path": "mediawiki/Margreteberg.txt"
@@ -163,6 +171,7 @@
       "type": "sport",
       "firstAscent": "Johan Luhr",
       "description": "Reach",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:margreteberg",
         "path": "mediawiki/Margreteberg.txt"
@@ -178,6 +187,7 @@
       "type": "sport",
       "firstAscent": "Johan Luhr",
       "description": "En led man kan vara utan",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:margreteberg",
         "path": "mediawiki/Margreteberg.txt"
@@ -193,6 +203,7 @@
       "type": "sport",
       "firstAscent": "Johan Luhr",
       "description": "Sprickan",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:margreteberg",
         "path": "mediawiki/Margreteberg.txt"
@@ -208,6 +219,7 @@
       "type": "sport",
       "firstAscent": "Johan Luhr -07",
       "description": "Kylskåpsklättring på arêten. Kort och bouldrig. Hörnet används ej.",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:margreteberg",
         "path": "mediawiki/Margreteberg.txt"
@@ -223,6 +235,7 @@
       "type": "sport",
       "firstAscent": "Johan Luhr",
       "description": "Diedret",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:margreteberg",
         "path": "mediawiki/Margreteberg.txt"
@@ -238,6 +251,7 @@
       "type": "sport",
       "firstAscent": "Johan Luhr",
       "description": "Tunn svaklättring.",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:margreteberg",
         "path": "mediawiki/Margreteberg.txt"
@@ -248,12 +262,14 @@
     {
       "filename": "Margreteberg_skiss.gif",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "leder"
     },
     {
       "filename": "Margreteberg.jpg",
       "caption": "Jonas Ahlman",
-      "missing": false
+      "missing": false,
+      "sectorId": "leder"
     }
   ],
   "access": {

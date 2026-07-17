@@ -44,6 +44,7 @@
       "type": "trad",
       "firstAscent": "Mark Jansson 92",
       "description": "Fin klättring längs en växlande spricka. Något ojämn med ett markant krux i den överhängande toppdelen. Starten nås antingen genom firning eller genom den stora klyftan mellan klipporna. Denna kräver lite nedåtklättring.",
+      "sectorId": "havsklippan",
       "source": {
         "id": "legacy:tjaro",
         "path": "mediawiki/Tjärö.txt"
@@ -59,6 +60,7 @@
       "type": "trad",
       "firstAscent": "Bill Sjökvist 90",
       "description": "Kalasfin fingerspricka uppför den släta skölden som stupar rakt ner i vattnet. En firning krävs för att nå insteget (eller egen båt). Tidigare fanns en lite brygga nedanför som man kunde säkra från. Den är numera borta, så nu är det hängande stand som gäller. Två varianter kan göras i starten. Den vänstra är klart styvare. Lite lavar förekommer men påverkar inte intrycket så mycket. Välsäkrad.",
+      "sectorId": "havsklippan",
       "source": {
         "id": "legacy:tjaro",
         "path": "mediawiki/Tjärö.txt"
@@ -74,6 +76,7 @@
       "type": "trad",
       "firstAscent": "Patrik Lind 91",
       "description": "En variant på leden ovan. Klättra ut i sprickorna till höger då detta blir möjligt.",
+      "sectorId": "havsklippan",
       "source": {
         "id": "legacy:tjaro",
         "path": "mediawiki/Tjärö.txt"
@@ -89,6 +92,7 @@
       "type": "trad",
       "firstAscent": "Patrik Lind 86",
       "description": "Klättring på fast och fin klippa som tyvärr är ganska lavig, vilket försvårar kruxet på mitten.",
+      "sectorId": "svaklippan",
       "source": {
         "id": "legacy:tjaro",
         "path": "mediawiki/Tjärö.txt"
@@ -104,6 +108,7 @@
       "type": "trad",
       "firstAscent": "Patrik Lind 86",
       "description": "Samma start som \"Pampers..\" men fortsätt rakt upp.",
+      "sectorId": "svaklippan",
       "source": {
         "id": "legacy:tjaro",
         "path": "mediawiki/Tjärö.txt"
@@ -114,32 +119,38 @@
     {
       "filename": "Skärgårdsturen1.jpg‎",
       "caption": "Bobo Gustavsson klättrar [[Skärgårdsturen",
-      "missing": true
+      "missing": true,
+      "sectorId": null
     },
     {
       "filename": "Tjärökarta.jpg‎",
-      "caption": "center",
-      "missing": true
+      "caption": "",
+      "missing": true,
+      "sectorId": "hitta-hit"
     },
     {
       "filename": "Tjäröh_58.jpg",
-      "caption": "center",
-      "missing": false
+      "caption": "",
+      "missing": false,
+      "sectorId": "havsklippan"
     },
     {
       "filename": "Tjärösvaväggen.jpg",
-      "caption": "center",
-      "missing": false
+      "caption": "",
+      "missing": false,
+      "sectorId": "svaklippan"
     },
     {
       "filename": "Pampersaction.jpg‎",
       "caption": "Mäktig klättring på den brutala [[Pampers Bigwall",
-      "missing": true
+      "missing": true,
+      "sectorId": "svaklippan"
     },
     {
       "filename": "Hoppet.JPG‎",
       "caption": "Stefan Teglund topprepar [[Skärgårdsturen",
-      "missing": true
+      "missing": true,
+      "sectorId": "svaklippan"
     }
   ],
   "access": {

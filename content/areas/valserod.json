@@ -27,14 +27,69 @@
       "body": "Klassisk sprick och vägg-klättring. Välseröd inbefattas av Bohusläns Klätterklubbs bultpolicy om att hållas bultfria i framtiden. Classic crack and face climbing. Välseröd follows the Bohusläns Klätterklubb's bolt policy on staying bolt free in the future."
     },
     {
+      "id": "vagbeskrivning",
+      "title": "Vägbeskrivning",
+      "body": ""
+    },
+    {
+      "id": "access",
+      "title": "Access",
+      "body": ""
+    },
+    {
+      "id": "leder",
+      "title": "Leder",
+      "body": ""
+    },
+    {
+      "id": "parkeringsvaggen",
+      "title": "Parkeringsväggen",
+      "body": ""
+    },
+    {
       "id": "villskuddvaggen",
       "title": "Villskuddväggen",
       "body": "Firningsankare ovanför Villskudd, det är drygt 30 meter ner men fungerar med ett intakt 60 m rep."
     },
     {
+      "id": "slimlinevaggen",
+      "title": "Slimlineväggen",
+      "body": ""
+    },
+    {
+      "id": "stora-vaggen",
+      "title": "Stora Väggen",
+      "body": ""
+    },
+    {
+      "id": "umuliusvaggen",
+      "title": "Umuliusväggen",
+      "body": ""
+    },
+    {
+      "id": "kaminvaggen",
+      "title": "Kaminväggen",
+      "body": ""
+    },
+    {
       "id": "100-dagar-vaggen",
       "title": "100-Dagar-Väggen",
       "body": "Ungefär 100 meter till höger om 100 dagar, precis innan väggen tar slut går följande leder."
+    },
+    {
+      "id": "ovre-vaggen",
+      "title": "Övre Väggen",
+      "body": ""
+    },
+    {
+      "id": "ying-yang-vaggen",
+      "title": "Ying-Yang Väggen",
+      "body": ""
+    },
+    {
+      "id": "skogsvaggen",
+      "title": "Skogsväggen",
+      "body": ""
     },
     {
       "id": "badklippan",
@@ -53,6 +108,7 @@
       "type": "trad",
       "firstAscent": "[[]]",
       "description": "",
+      "sectorId": "parkeringsvaggen",
       "source": {
         "id": "legacy:valserod",
         "path": "mediawiki/Välseröd.txt"
@@ -68,6 +124,7 @@
       "type": "trad",
       "firstAscent": "[[]]",
       "description": "",
+      "sectorId": "parkeringsvaggen",
       "source": {
         "id": "legacy:valserod",
         "path": "mediawiki/Välseröd.txt"
@@ -83,6 +140,7 @@
       "type": "trad",
       "firstAscent": "[[]]",
       "description": "",
+      "sectorId": "parkeringsvaggen",
       "source": {
         "id": "legacy:valserod",
         "path": "mediawiki/Välseröd.txt"
@@ -98,6 +156,7 @@
       "type": "trad",
       "firstAscent": "[[]]",
       "description": "Detta är en underskattad led. Tips! Efter kruxbulken klättrar du välsäkrat via tunna sprickor till starten på Torsketakets 2 replängd. Fortsätt denna (krämigt kilsäkrat dieder (grad 6) och du har en tvåstjärnig kalaskombination.",
+      "sectorId": "villskuddvaggen",
       "source": {
         "id": "legacy:valserod",
         "path": "mediawiki/Välseröd.txt"
@@ -113,6 +172,7 @@
       "type": "trad",
       "firstAscent": "[[]]",
       "description": "",
+      "sectorId": "villskuddvaggen",
       "source": {
         "id": "legacy:valserod",
         "path": "mediawiki/Välseröd.txt"
@@ -128,6 +188,7 @@
       "type": "trad",
       "firstAscent": "[[]]",
       "description": "",
+      "sectorId": "villskuddvaggen",
       "source": {
         "id": "legacy:valserod",
         "path": "mediawiki/Välseröd.txt"
@@ -143,6 +204,7 @@
       "type": "trad",
       "firstAscent": "[[]]",
       "description": "",
+      "sectorId": "villskuddvaggen",
       "source": {
         "id": "legacy:valserod",
         "path": "mediawiki/Välseröd.txt"
@@ -158,6 +220,7 @@
       "type": "trad",
       "firstAscent": "Ingemar Strandberg mfl -75,76",
       "description": "Traversera vänster på den stora hyllan tvärs över väggen (luftig grad 2), stand runt hörnet. Sedan upp i den klockrena sprickan.",
+      "sectorId": "villskuddvaggen",
       "source": {
         "id": "legacy:valserod",
         "path": "mediawiki/Välseröd.txt"
@@ -173,6 +236,7 @@
       "type": "mix",
       "firstAscent": "[[]]",
       "description": "Knallfin led som för till ett syltunt men välsäkrat krux. Tyvärr är den felbultad vid det första taket. FA hade en förplacerad lååång slinga i den första bulten. Om du inte har med - och litar på - skyhooks, tvingas du göra ett 6+ flytt innan du kan klippa bulten (och riskerar ett frakturfall i rampen).",
+      "sectorId": "villskuddvaggen",
       "source": {
         "id": "legacy:valserod",
         "path": "mediawiki/Välseröd.txt"
@@ -188,6 +252,7 @@
       "type": "trad",
       "firstAscent": "[[]]",
       "description": "",
+      "sectorId": "villskuddvaggen",
       "source": {
         "id": "legacy:valserod",
         "path": "mediawiki/Välseröd.txt"
@@ -203,6 +268,7 @@
       "type": "mix",
       "firstAscent": "[[]]",
       "description": "",
+      "sectorId": "villskuddvaggen",
       "source": {
         "id": "legacy:valserod",
         "path": "mediawiki/Välseröd.txt"
@@ -218,6 +284,7 @@
       "type": "trad",
       "firstAscent": "Rune Thrap-Meyer, Ulf Geir Hansen, Håkon Staver, Dag Kolsrud, 1980",
       "description": "En av Bohusläns finaste i sin grad. Hangla åt vänster tills du når fingersprickan. Gå rakt upp, fortsätt genom liten diederformation/flak. När sprickan tar slut, kliv ut åt vänster till nästa spricka. Följ denna med dragning åt höger till takets högra sida. Traversera vänster under taket, sedan upp till hyllan. Fortsätt ända till toppen för att få ut max av leden. Några långa slingor hjälper mot repdrag.",
+      "sectorId": "villskuddvaggen",
       "source": {
         "id": "legacy:valserod",
         "path": "mediawiki/Välseröd.txt"
@@ -233,6 +300,7 @@
       "type": "trad",
       "firstAscent": "[[]]",
       "description": "",
+      "sectorId": "villskuddvaggen",
       "source": {
         "id": "legacy:valserod",
         "path": "mediawiki/Välseröd.txt"
@@ -248,6 +316,7 @@
       "type": "trad",
       "firstAscent": "[[]]",
       "description": "Alternativt utsteg till Vildvin. Klättra sömen rätt upp till firningsankaret.",
+      "sectorId": "villskuddvaggen",
       "source": {
         "id": "legacy:valserod",
         "path": "mediawiki/Välseröd.txt"
@@ -263,6 +332,7 @@
       "type": "trad",
       "firstAscent": "[[]]",
       "description": "",
+      "sectorId": "villskuddvaggen",
       "source": {
         "id": "legacy:valserod",
         "path": "mediawiki/Välseröd.txt"
@@ -278,6 +348,7 @@
       "type": "trad",
       "firstAscent": "[[]]",
       "description": "",
+      "sectorId": "villskuddvaggen",
       "source": {
         "id": "legacy:valserod",
         "path": "mediawiki/Välseröd.txt"
@@ -293,6 +364,7 @@
       "type": "trad",
       "firstAscent": "[[]]",
       "description": "",
+      "sectorId": "villskuddvaggen",
       "source": {
         "id": "legacy:valserod",
         "path": "mediawiki/Välseröd.txt"
@@ -308,6 +380,7 @@
       "type": "trad",
       "firstAscent": "[[]]",
       "description": "",
+      "sectorId": "slimlinevaggen",
       "source": {
         "id": "legacy:valserod",
         "path": "mediawiki/Välseröd.txt"
@@ -323,6 +396,7 @@
       "type": "trad",
       "firstAscent": "[[]]",
       "description": "",
+      "sectorId": "slimlinevaggen",
       "source": {
         "id": "legacy:valserod",
         "path": "mediawiki/Välseröd.txt"
@@ -338,6 +412,7 @@
       "type": "trad",
       "firstAscent": "[[]]",
       "description": "",
+      "sectorId": "slimlinevaggen",
       "source": {
         "id": "legacy:valserod",
         "path": "mediawiki/Välseröd.txt"
@@ -353,6 +428,7 @@
       "type": "trad",
       "firstAscent": "Rein Leidal, Öystein K Johnsen -06",
       "description": "Som Slimline de första 15 m upp till ett horisontellt riss som hanglas till areten till höger. Upp areten ett par meter, så ut på sva till höger. Följ detta till toppen. Leden börjar med ett tak, fortsätter med en fingerspricka, en hangel, en arete och till sist ett psykande sva långt från den sista säkringen. Den här krämleden får med sig det mesta av det bästa på en av Sveriges finaste formationer.",
+      "sectorId": "slimlinevaggen",
       "source": {
         "id": "legacy:valserod",
         "path": "mediawiki/Välseröd.txt"
@@ -368,6 +444,7 @@
       "type": "trad",
       "firstAscent": "[[]]",
       "description": "",
+      "sectorId": "slimlinevaggen",
       "source": {
         "id": "legacy:valserod",
         "path": "mediawiki/Välseröd.txt"
@@ -383,6 +460,7 @@
       "type": "trad",
       "firstAscent": "[[]]",
       "description": "",
+      "sectorId": "slimlinevaggen",
       "source": {
         "id": "legacy:valserod",
         "path": "mediawiki/Välseröd.txt"
@@ -398,6 +476,7 @@
       "type": "trad",
       "firstAscent": "[[]]",
       "description": "",
+      "sectorId": "stora-vaggen",
       "source": {
         "id": "legacy:valserod",
         "path": "mediawiki/Välseröd.txt"
@@ -413,6 +492,7 @@
       "type": "trad",
       "firstAscent": "[[]]",
       "description": "",
+      "sectorId": "stora-vaggen",
       "source": {
         "id": "legacy:valserod",
         "path": "mediawiki/Välseröd.txt"
@@ -428,6 +508,7 @@
       "type": "trad",
       "firstAscent": "[[]]",
       "description": "",
+      "sectorId": "stora-vaggen",
       "source": {
         "id": "legacy:valserod",
         "path": "mediawiki/Välseröd.txt"
@@ -443,6 +524,7 @@
       "type": "trad",
       "firstAscent": "[[]]",
       "description": "",
+      "sectorId": "stora-vaggen",
       "source": {
         "id": "legacy:valserod",
         "path": "mediawiki/Välseröd.txt"
@@ -458,6 +540,7 @@
       "type": "trad",
       "firstAscent": "Niklas Björnerstedt, Lars Svadängs -89",
       "description": "Det jämnare och finare avlutet på Stora väggen. Efter stand på Stora väggen klättra upp lite, traversera höger, och följ den naturliga linjen rakt upp. En bult saknas (sept 2010), något run-out.",
+      "sectorId": "stora-vaggen",
       "source": {
         "id": "legacy:valserod",
         "path": "mediawiki/Välseröd.txt"
@@ -473,6 +556,7 @@
       "type": "trad",
       "firstAscent": "Jan Liliemark, Björn Holmgren (FF) -82",
       "description": "Välsäkrad och fin om man har gott om grejer. Första replängden är 7-, stand vid busken. Andra replängden är smutsig och igenväxt (5+), och för den kompetenta sjuminusklättraren rekommenderas Gör Stor Större som ett finare avslut.",
+      "sectorId": "stora-vaggen",
       "source": {
         "id": "legacy:valserod",
         "path": "mediawiki/Välseröd.txt"
@@ -488,6 +572,7 @@
       "type": "trad",
       "firstAscent": "Stefan Kalén, Ulf Karlsson 2010",
       "description": "Börja direkt ovanför det stora överhänget längst ned i sprickan några meter till vänster om Uppskjuten Start. Följ denna spricka tills den börjar gå ihop med Uppskjuten Start och gå sedan vänster mot bågformad spricka. Följ den bågformade sprickan upp till hylla. Traversera vänster längsmed hyllan till möjlig standplats. Fortsätt uppåt i det lilla diedret mellan Stora väggen och Gör Stor Större och avsluta med känslig väggklättring rakt upp till utsteget. Mycket mångfacetterad och jämn klättring utan nämnvärda transportsträckor.",
+      "sectorId": "stora-vaggen",
       "source": {
         "id": "legacy:valserod",
         "path": "mediawiki/Välseröd.txt"
@@ -503,6 +588,7 @@
       "type": "trad",
       "firstAscent": "[[]]",
       "description": "",
+      "sectorId": "stora-vaggen",
       "source": {
         "id": "legacy:valserod",
         "path": "mediawiki/Välseröd.txt"
@@ -518,6 +604,7 @@
       "type": "trad",
       "firstAscent": "[[]]",
       "description": "",
+      "sectorId": "stora-vaggen",
       "source": {
         "id": "legacy:valserod",
         "path": "mediawiki/Välseröd.txt"
@@ -533,6 +620,7 @@
       "type": "trad",
       "firstAscent": "[[]]",
       "description": "",
+      "sectorId": "stora-vaggen",
       "source": {
         "id": "legacy:valserod",
         "path": "mediawiki/Välseröd.txt"
@@ -548,6 +636,7 @@
       "type": "trad",
       "firstAscent": "[[]]",
       "description": "",
+      "sectorId": "stora-vaggen",
       "source": {
         "id": "legacy:valserod",
         "path": "mediawiki/Välseröd.txt"
@@ -563,6 +652,7 @@
       "type": "trad",
       "firstAscent": "[[]]",
       "description": "",
+      "sectorId": "stora-vaggen",
       "source": {
         "id": "legacy:valserod",
         "path": "mediawiki/Välseröd.txt"
@@ -578,6 +668,7 @@
       "type": "trad",
       "firstAscent": "[[]]",
       "description": "",
+      "sectorId": "stora-vaggen",
       "source": {
         "id": "legacy:valserod",
         "path": "mediawiki/Välseröd.txt"
@@ -593,6 +684,7 @@
       "type": "trad",
       "firstAscent": "[[]]",
       "description": "",
+      "sectorId": "stora-vaggen",
       "source": {
         "id": "legacy:valserod",
         "path": "mediawiki/Välseröd.txt"
@@ -608,6 +700,7 @@
       "type": "trad",
       "firstAscent": "[[]]",
       "description": "",
+      "sectorId": "stora-vaggen",
       "source": {
         "id": "legacy:valserod",
         "path": "mediawiki/Välseröd.txt"
@@ -623,6 +716,7 @@
       "type": "trad",
       "firstAscent": "[[]]",
       "description": "",
+      "sectorId": "umuliusvaggen",
       "source": {
         "id": "legacy:valserod",
         "path": "mediawiki/Välseröd.txt"
@@ -638,6 +732,7 @@
       "type": "trad",
       "firstAscent": "[[]]",
       "description": "",
+      "sectorId": "umuliusvaggen",
       "source": {
         "id": "legacy:valserod",
         "path": "mediawiki/Välseröd.txt"
@@ -653,6 +748,7 @@
       "type": "trad",
       "firstAscent": "Torkel Røisli -04",
       "description": "Direktinsteg till Birgers borst. Startar direkt till vänster om originaldiedret. Följer en kant och några sidotag. Ansluter till Birgers borst halvvägs upp.",
+      "sectorId": "umuliusvaggen",
       "source": {
         "id": "legacy:valserod",
         "path": "mediawiki/Välseröd.txt"
@@ -668,6 +764,7 @@
       "type": "trad",
       "firstAscent": "[[]]",
       "description": "Mycket delikat men mycket välsäkrat krux.",
+      "sectorId": "umuliusvaggen",
       "source": {
         "id": "legacy:valserod",
         "path": "mediawiki/Välseröd.txt"
@@ -683,6 +780,7 @@
       "type": "trad",
       "firstAscent": "[[]]",
       "description": "",
+      "sectorId": "umuliusvaggen",
       "source": {
         "id": "legacy:valserod",
         "path": "mediawiki/Välseröd.txt"
@@ -698,6 +796,7 @@
       "type": "trad",
       "firstAscent": "[[]]",
       "description": "",
+      "sectorId": "umuliusvaggen",
       "source": {
         "id": "legacy:valserod",
         "path": "mediawiki/Välseröd.txt"
@@ -713,6 +812,7 @@
       "type": "trad",
       "firstAscent": "[[]]",
       "description": "",
+      "sectorId": "umuliusvaggen",
       "source": {
         "id": "legacy:valserod",
         "path": "mediawiki/Välseröd.txt"
@@ -728,6 +828,7 @@
       "type": "trad",
       "firstAscent": "[[]]",
       "description": "",
+      "sectorId": "umuliusvaggen",
       "source": {
         "id": "legacy:valserod",
         "path": "mediawiki/Välseröd.txt"
@@ -743,6 +844,7 @@
       "type": "trad",
       "firstAscent": "Marcus Sandersnäs -05",
       "description": "Några meter till höger om Celesta. Börjar i ett överhäng, upp till en pricka. Följ denna över ytterligre ett mindre överhäng, sedan fin slott-klättring till ett bitande boulderkrux som avslutas på en svahylla. Efter hyllan fin ihållande tvärbandsklättring till en avslutande spricka som leder dig till topps.",
+      "sectorId": "umuliusvaggen",
       "source": {
         "id": "legacy:valserod",
         "path": "mediawiki/Välseröd.txt"
@@ -758,6 +860,7 @@
       "type": "trad",
       "firstAscent": "[[]]",
       "description": "",
+      "sectorId": "kaminvaggen",
       "source": {
         "id": "legacy:valserod",
         "path": "mediawiki/Välseröd.txt"
@@ -773,6 +876,7 @@
       "type": "trad",
       "firstAscent": "[[]]",
       "description": "",
+      "sectorId": "kaminvaggen",
       "source": {
         "id": "legacy:valserod",
         "path": "mediawiki/Välseröd.txt"
@@ -788,6 +892,7 @@
       "type": "trad",
       "firstAscent": "[[]]",
       "description": "",
+      "sectorId": "kaminvaggen",
       "source": {
         "id": "legacy:valserod",
         "path": "mediawiki/Välseröd.txt"
@@ -803,6 +908,7 @@
       "type": "trad",
       "firstAscent": "Håkan Persson, Henrik Johnsson -05",
       "description": "Går i kaminen i hörnet mellan Ett Barn Av Glas och Glöm Inte Det Gröna Fodralet. Över kaminen vid hyllan, följ spricka på vänsterväggen upp till toppen. Går att säkra med normalt rack. Orensad men det går ändå.",
+      "sectorId": "kaminvaggen",
       "source": {
         "id": "legacy:valserod",
         "path": "mediawiki/Välseröd.txt"
@@ -818,6 +924,7 @@
       "type": "trad",
       "firstAscent": "[[]]",
       "description": "",
+      "sectorId": "kaminvaggen",
       "source": {
         "id": "legacy:valserod",
         "path": "mediawiki/Välseröd.txt"
@@ -833,6 +940,7 @@
       "type": "trad",
       "firstAscent": "[[]]",
       "description": "Kalasled i sin grad. Äkta klassisk kaminklättring följs av fin fingerspricka.",
+      "sectorId": "kaminvaggen",
       "source": {
         "id": "legacy:valserod",
         "path": "mediawiki/Välseröd.txt"
@@ -848,6 +956,7 @@
       "type": "trad",
       "firstAscent": "[[]]",
       "description": "",
+      "sectorId": "kaminvaggen",
       "source": {
         "id": "legacy:valserod",
         "path": "mediawiki/Välseröd.txt"
@@ -863,6 +972,7 @@
       "type": "trad",
       "firstAscent": "[[]]",
       "description": "",
+      "sectorId": "kaminvaggen",
       "source": {
         "id": "legacy:valserod",
         "path": "mediawiki/Välseröd.txt"
@@ -878,6 +988,7 @@
       "type": "trad",
       "firstAscent": "[[]]",
       "description": "",
+      "sectorId": "kaminvaggen",
       "source": {
         "id": "legacy:valserod",
         "path": "mediawiki/Välseröd.txt"
@@ -893,6 +1004,7 @@
       "type": "trad",
       "firstAscent": "[[]]",
       "description": "",
+      "sectorId": "100-dagar-vaggen",
       "source": {
         "id": "legacy:valserod",
         "path": "mediawiki/Välseröd.txt"
@@ -908,6 +1020,7 @@
       "type": "trad",
       "firstAscent": "[[]]",
       "description": "",
+      "sectorId": "100-dagar-vaggen",
       "source": {
         "id": "legacy:valserod",
         "path": "mediawiki/Välseröd.txt"
@@ -923,6 +1036,7 @@
       "type": "trad",
       "firstAscent": "[[]]",
       "description": "",
+      "sectorId": "100-dagar-vaggen",
       "source": {
         "id": "legacy:valserod",
         "path": "mediawiki/Välseröd.txt"
@@ -938,6 +1052,7 @@
       "type": "trad",
       "firstAscent": "[[]]",
       "description": "",
+      "sectorId": "100-dagar-vaggen",
       "source": {
         "id": "legacy:valserod",
         "path": "mediawiki/Välseröd.txt"
@@ -953,6 +1068,7 @@
       "type": "mix",
       "firstAscent": "[[]]",
       "description": "",
+      "sectorId": "100-dagar-vaggen",
       "source": {
         "id": "legacy:valserod",
         "path": "mediawiki/Välseröd.txt"
@@ -968,6 +1084,7 @@
       "type": "trad",
       "firstAscent": "[[]]",
       "description": "Ihållande, teknisk och fin fingerspricka.",
+      "sectorId": "100-dagar-vaggen",
       "source": {
         "id": "legacy:valserod",
         "path": "mediawiki/Välseröd.txt"
@@ -983,6 +1100,7 @@
       "type": "trad",
       "firstAscent": "[[]]",
       "description": "",
+      "sectorId": "100-dagar-vaggen",
       "source": {
         "id": "legacy:valserod",
         "path": "mediawiki/Välseröd.txt"
@@ -998,6 +1116,7 @@
       "type": "trad",
       "firstAscent": "[[]]",
       "description": "",
+      "sectorId": "100-dagar-vaggen",
       "source": {
         "id": "legacy:valserod",
         "path": "mediawiki/Välseröd.txt"
@@ -1013,6 +1132,7 @@
       "type": "trad",
       "firstAscent": "[[]]",
       "description": "",
+      "sectorId": "100-dagar-vaggen",
       "source": {
         "id": "legacy:valserod",
         "path": "mediawiki/Välseröd.txt"
@@ -1028,6 +1148,7 @@
       "type": "trad",
       "firstAscent": "[[]]",
       "description": "",
+      "sectorId": "100-dagar-vaggen",
       "source": {
         "id": "legacy:valserod",
         "path": "mediawiki/Välseröd.txt"
@@ -1043,6 +1164,7 @@
       "type": "trad",
       "firstAscent": "Simon Talltorp 2011",
       "description": "Omväxlande stora sprickor och bra lister till vänster om Pontus arête. Välsäkrad start men runout på mitten. Avslutar i det flacka diedret från hyllan till toppen.",
+      "sectorId": "100-dagar-vaggen",
       "source": {
         "id": "legacy:valserod",
         "path": "mediawiki/Välseröd.txt"
@@ -1058,6 +1180,7 @@
       "type": "trad",
       "firstAscent": "Topprep",
       "description": "Börja längs arêten på blocket för att fortsätta på arêten på väggen. Svårsäkrad.",
+      "sectorId": "100-dagar-vaggen",
       "source": {
         "id": "legacy:valserod",
         "path": "mediawiki/Välseröd.txt"
@@ -1073,6 +1196,7 @@
       "type": "trad",
       "firstAscent": "Erik Kuiper 2011",
       "description": "Väggklättring till höger om Pontus arête precis till vänster om det stora diedret. Utsteg precis till höger om arêten.",
+      "sectorId": "100-dagar-vaggen",
       "source": {
         "id": "legacy:valserod",
         "path": "mediawiki/Välseröd.txt"
@@ -1088,6 +1212,7 @@
       "type": "trad",
       "firstAscent": "[[]]",
       "description": "",
+      "sectorId": "ovre-vaggen",
       "source": {
         "id": "legacy:valserod",
         "path": "mediawiki/Välseröd.txt"
@@ -1103,6 +1228,7 @@
       "type": "trad",
       "firstAscent": "[[]]",
       "description": "",
+      "sectorId": "ovre-vaggen",
       "source": {
         "id": "legacy:valserod",
         "path": "mediawiki/Välseröd.txt"
@@ -1118,6 +1244,7 @@
       "type": "trad",
       "firstAscent": "[[]]",
       "description": "",
+      "sectorId": "ovre-vaggen",
       "source": {
         "id": "legacy:valserod",
         "path": "mediawiki/Välseröd.txt"
@@ -1133,6 +1260,7 @@
       "type": "trad",
       "firstAscent": "[[]]",
       "description": "",
+      "sectorId": "ying-yang-vaggen",
       "source": {
         "id": "legacy:valserod",
         "path": "mediawiki/Välseröd.txt"
@@ -1148,6 +1276,7 @@
       "type": "trad",
       "firstAscent": "[[]]",
       "description": "",
+      "sectorId": "ying-yang-vaggen",
       "source": {
         "id": "legacy:valserod",
         "path": "mediawiki/Välseröd.txt"
@@ -1163,6 +1292,7 @@
       "type": "trad",
       "firstAscent": "[[]]",
       "description": "",
+      "sectorId": "ying-yang-vaggen",
       "source": {
         "id": "legacy:valserod",
         "path": "mediawiki/Välseröd.txt"
@@ -1178,6 +1308,7 @@
       "type": "mix",
       "firstAscent": "[[]]",
       "description": "",
+      "sectorId": "ying-yang-vaggen",
       "source": {
         "id": "legacy:valserod",
         "path": "mediawiki/Välseröd.txt"
@@ -1193,6 +1324,7 @@
       "type": "trad",
       "firstAscent": "[[]]",
       "description": "",
+      "sectorId": "ying-yang-vaggen",
       "source": {
         "id": "legacy:valserod",
         "path": "mediawiki/Välseröd.txt"
@@ -1208,6 +1340,7 @@
       "type": "trad",
       "firstAscent": "[[]]",
       "description": "",
+      "sectorId": "ying-yang-vaggen",
       "source": {
         "id": "legacy:valserod",
         "path": "mediawiki/Välseröd.txt"
@@ -1223,6 +1356,7 @@
       "type": "trad",
       "firstAscent": "Niklas Björnerstedt, Tina Jörgensen -97",
       "description": "",
+      "sectorId": "skogsvaggen",
       "source": {
         "id": "legacy:valserod",
         "path": "mediawiki/Välseröd.txt"
@@ -1238,6 +1372,7 @@
       "type": "trad",
       "firstAscent": "Tina Jörgensen, Jan Ahrens -01",
       "description": "",
+      "sectorId": "badklippan",
       "source": {
         "id": "legacy:valserod",
         "path": "mediawiki/Välseröd.txt"
@@ -1248,17 +1383,20 @@
     {
       "filename": "Ängsväggen_david_och_goliat.jpg",
       "caption": "David och Goliat",
-      "missing": false
+      "missing": false,
+      "sectorId": "100-dagar-vaggen"
     },
     {
       "filename": "Ängsväggen_pontus_arete.jpg",
       "caption": "Pontus arête",
-      "missing": false
+      "missing": false,
+      "sectorId": "100-dagar-vaggen"
     },
     {
       "filename": "Ängsväggen_pontus_styvbror.jpg",
       "caption": "Pontus styvbror",
-      "missing": false
+      "missing": false,
+      "sectorId": "100-dagar-vaggen"
     }
   ],
   "access": {

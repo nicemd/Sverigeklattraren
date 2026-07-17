@@ -17,6 +17,31 @@
   ],
   "sections": [
     {
+      "id": "stora-blocket",
+      "title": "Stora blocket",
+      "body": ""
+    },
+    {
+      "id": "tandenblocket",
+      "title": "Tandenblocket",
+      "body": ""
+    },
+    {
+      "id": "lilla-stenen",
+      "title": "Lilla stenen",
+      "body": ""
+    },
+    {
+      "id": "lutande-stenen",
+      "title": "Lutande stenen",
+      "body": ""
+    },
+    {
+      "id": "skogsblocket",
+      "title": "Skogsblocket",
+      "body": ""
+    },
+    {
       "id": "traskblocket",
       "title": "Träskblocket",
       "body": "=Problem= Kategori:Roslagen Kategori:Bouldering Kategori:Bimbo Kategori:Behöver kvalitetssäkras Kategori:Saknar karta Kategori:Saknar koordinater Kategori:Saknar skrivarformattering Kategori:Saknar skiss"
@@ -33,6 +58,7 @@
       "type": "",
       "firstAscent": "Klara Emmerfors",
       "description": "Högerdel av svat upp",
+      "sectorId": "stora-blocket",
       "source": {
         "id": "legacy:gorvalstorp-rimbo",
         "path": "mediawiki/Görvälstorp, Rimbo.txt"
@@ -48,6 +74,7 @@
       "type": "",
       "firstAscent": "Stefan Sjöberg",
       "description": "Vänsterkanten på överhänget",
+      "sectorId": "stora-blocket",
       "source": {
         "id": "legacy:gorvalstorp-rimbo",
         "path": "mediawiki/Görvälstorp, Rimbo.txt"
@@ -63,6 +90,7 @@
       "type": "",
       "firstAscent": "Stefan Sjöberg",
       "description": "Start mitt på blocket, avslut ovan",
+      "sectorId": "stora-blocket",
       "source": {
         "id": "legacy:gorvalstorp-rimbo",
         "path": "mediawiki/Görvälstorp, Rimbo.txt"
@@ -78,6 +106,7 @@
       "type": "",
       "firstAscent": "Klara Emerfors",
       "description": "Traversera kanten h>v",
+      "sectorId": "tandenblocket",
       "source": {
         "id": "legacy:gorvalstorp-rimbo",
         "path": "mediawiki/Görvälstorp, Rimbo.txt"
@@ -93,6 +122,7 @@
       "type": "",
       "firstAscent": "Klara Emerfors",
       "description": "Vänsterkanten upp",
+      "sectorId": "lilla-stenen",
       "source": {
         "id": "legacy:gorvalstorp-rimbo",
         "path": "mediawiki/Görvälstorp, Rimbo.txt"
@@ -108,6 +138,7 @@
       "type": "",
       "firstAscent": "Klara Emerfors",
       "description": "Mitt på blocket, start på hylla m båda fötterna, upp. Ett för vissa helt omöjligt balansnummer..",
+      "sectorId": "lilla-stenen",
       "source": {
         "id": "legacy:gorvalstorp-rimbo",
         "path": "mediawiki/Görvälstorp, Rimbo.txt"
@@ -123,6 +154,7 @@
       "type": "",
       "firstAscent": "Klara Emerfors",
       "description": "Höherkanten, dra upp på lister",
+      "sectorId": "lilla-stenen",
       "source": {
         "id": "legacy:gorvalstorp-rimbo",
         "path": "mediawiki/Görvälstorp, Rimbo.txt"
@@ -138,6 +170,7 @@
       "type": "",
       "firstAscent": "Klara Emerfors",
       "description": "Gå kant h>v",
+      "sectorId": "lutande-stenen",
       "source": {
         "id": "legacy:gorvalstorp-rimbo",
         "path": "mediawiki/Görvälstorp, Rimbo.txt"
@@ -153,6 +186,7 @@
       "type": "",
       "firstAscent": "Klara Emerfors",
       "description": "Gå kant v>h",
+      "sectorId": "lutande-stenen",
       "source": {
         "id": "legacy:gorvalstorp-rimbo",
         "path": "mediawiki/Görvälstorp, Rimbo.txt"
@@ -168,6 +202,7 @@
       "type": "",
       "firstAscent": "Klara Emerfors",
       "description": "Höga svalinjen",
+      "sectorId": "skogsblocket",
       "source": {
         "id": "legacy:gorvalstorp-rimbo",
         "path": "mediawiki/Görvälstorp, Rimbo.txt"
@@ -183,6 +218,7 @@
       "type": "",
       "firstAscent": "Klara Emmerfors",
       "description": "Kanten snett uppåt h",
+      "sectorId": "skogsblocket",
       "source": {
         "id": "legacy:gorvalstorp-rimbo",
         "path": "mediawiki/Görvälstorp, Rimbo.txt"
@@ -198,6 +234,7 @@
       "type": "",
       "firstAscent": "Klara Emmerfors",
       "description": "Upp över bullen t catch och vidare",
+      "sectorId": "skogsblocket",
       "source": {
         "id": "legacy:gorvalstorp-rimbo",
         "path": "mediawiki/Görvälstorp, Rimbo.txt"
@@ -213,6 +250,7 @@
       "type": "",
       "firstAscent": "Stefan Sjöberg",
       "description": "Linjen t höger om Solar Plexus",
+      "sectorId": "skogsblocket",
       "source": {
         "id": "legacy:gorvalstorp-rimbo",
         "path": "mediawiki/Görvälstorp, Rimbo.txt"
@@ -228,6 +266,7 @@
       "type": "",
       "firstAscent": "Stefan Sjöberg",
       "description": "Flakstenen. Traversera kanten v>h",
+      "sectorId": "skogsblocket",
       "source": {
         "id": "legacy:gorvalstorp-rimbo",
         "path": "mediawiki/Görvälstorp, Rimbo.txt"
@@ -243,6 +282,7 @@
       "type": "Krimp,Heel hook",
       "firstAscent": "Stefan Sjöberg, 2006",
       "description": "Snett upp h på lister",
+      "sectorId": "traskblocket",
       "source": {
         "id": "legacy:gorvalstorp-rimbo",
         "path": "mediawiki/Görvälstorp, Rimbo.txt"

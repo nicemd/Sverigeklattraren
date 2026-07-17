@@ -53,6 +53,7 @@
       "type": "mix",
       "firstAscent": "Fredrik Schlyter",
       "description": "Lång och maffig led med mycket klättring. Linjen på bilden är något osäker",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:hollandarod",
         "path": "mediawiki/Holländaröd.txt"
@@ -68,6 +69,7 @@
       "type": "mix",
       "firstAscent": "Henrik Bolander -96",
       "description": "Börjar 10m till vänster om Orange Mekanism. Spricklinje upp till taket, där 1bb finns. Bra med lite microkilar och småfriends. Firningsankare.",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:hollandarod",
         "path": "mediawiki/Holländaröd.txt"
@@ -83,6 +85,7 @@
       "type": "trad",
       "firstAscent": "Henrik Bolander -96",
       "description": "Börjar 2m till höger om Extra. Spricklinje rakt upp till ankare. Trevlig lite enklare led. Firningsankare.",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:hollandarod",
         "path": "mediawiki/Holländaröd.txt"
@@ -98,6 +101,7 @@
       "type": "trad",
       "firstAscent": "Torkel Røisli -03",
       "description": "Startar första 7m tillsammans med Spektra och viker sen av ut höger i sprickor till vänster omOrange Mekanism. En fin led med ett knepigt krux. Firningsankare.",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:hollandarod",
         "path": "mediawiki/Holländaröd.txt"
@@ -113,6 +117,7 @@
       "type": "trad",
       "firstAscent": "Henrik Bolander, Jonas Böttiger",
       "description": "Startar vid stenplattan. Upp till halvmånen, drar vänster ett par meter sedan rakt upp. En fantastisk resa utan dess like i bohus! Mycket välsäkrad. Firningsankare på hyllan där leden slutar samt på toppen.",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:hollandarod",
         "path": "mediawiki/Holländaröd.txt"
@@ -128,6 +133,7 @@
       "type": "trad",
       "firstAscent": "Krister Stoltz, Maria Palm -96",
       "description": "30m till höger om Orange mekanism. Följer den tydliga sprickan i nästa väggs vänstra del. Brant start. Linjen på bilden är något osäker.",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:hollandarod",
         "path": "mediawiki/Holländaröd.txt"
@@ -137,8 +143,9 @@
   "images": [
     {
       "filename": "Hollandarod.jpg",
-      "caption": "left",
-      "missing": false
+      "caption": "",
+      "missing": false,
+      "sectorId": "leder"
     }
   ],
   "access": {

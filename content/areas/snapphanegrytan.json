@@ -31,6 +31,11 @@
       "body": "Karta här. Tryck på kartknappen ovan. Vägbeskrivning: från E6 ta av vid Hjärnarp och vidare upp mot Ugglehult/Lerbäckshult. Kör förbi Faxeröd, snart går den asfalterade vägen över till grusväg. Man passera vägen till djurholmen och kör sedan 1 km och får då en väg på vänstersida denna väg följs ca 2 km. En stuga och sjö dyker upp på högersida några hundrameter till och kolugnsvägen dyker upp på högerhand. Parkera här och gå de sista 300m på Kolungnsvägen. Klippan syns ny på vänster sida 40m in i skogen."
     },
     {
+      "id": "leder",
+      "title": "Leder",
+      "body": ""
+    },
+    {
       "id": "kontakt",
       "title": "Kontakt",
       "body": "För mer info och bilder kolla Eskapader Höger kolumn Kategori:trad Kategori:vertikalt Kategori:överhäng kategori:Saknar koordinater kategori:Saknar karta kategori:Saknar skrivarformatering Category:Halland"
@@ -47,6 +52,7 @@
       "type": "trad",
       "firstAscent": "M Gullvert P Karlsson -04",
       "description": "Sprickan längst till höger.",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:snapphanegrytan",
         "path": "mediawiki/Snapphanegrytan.txt"
@@ -62,6 +68,7 @@
       "type": "trad",
       "firstAscent": "M Gullvert p Karlsson -04",
       "description": "Crux i toppen.",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:snapphanegrytan",
         "path": "mediawiki/Snapphanegrytan.txt"
@@ -77,6 +84,7 @@
       "type": "trad",
       "firstAscent": "M Gullvert P Karlsson -04",
       "description": "Kan vara fuktig, lite lös i mitten, välsäkrad.",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:snapphanegrytan",
         "path": "mediawiki/Snapphanegrytan.txt"
@@ -92,6 +100,7 @@
       "type": "trad",
       "firstAscent": "M Gullvert J Dejmec -04",
       "description": "Smålurig handjam i toppen, välsäkrad.",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:snapphanegrytan",
         "path": "mediawiki/Snapphanegrytan.txt"
@@ -107,6 +116,7 @@
       "type": "trad",
       "firstAscent": "M Gullvert P Karlsson -04",
       "description": "Fin, välsäkrad klättring med jam och sträck.",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:snapphanegrytan",
         "path": "mediawiki/Snapphanegrytan.txt"
@@ -122,6 +132,7 @@
       "type": "trad",
       "firstAscent": "M Gullvert P Karlsson -04",
       "description": "Upp till crimpen mitt på väggen, en näve i vänster sprickan är tillåten.",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:snapphanegrytan",
         "path": "mediawiki/Snapphanegrytan.txt"
@@ -137,6 +148,7 @@
       "type": "trad",
       "firstAscent": "P Karlsson J Dejmec -04",
       "description": "Upp i kaminen till vänster, välsäkrad.",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:snapphanegrytan",
         "path": "mediawiki/Snapphanegrytan.txt"
@@ -152,6 +164,7 @@
       "type": "trad",
       "firstAscent": "P Karlsson J Dejmec -04",
       "description": "Upp i kaminen till höger, välsäkrad.",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:snapphanegrytan",
         "path": "mediawiki/Snapphanegrytan.txt"
@@ -167,6 +180,7 @@
       "type": "trad",
       "firstAscent": "M Gullvert -04",
       "description": "Traversera från höger till vänster i den låga sprickan.",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:snapphanegrytan",
         "path": "mediawiki/Snapphanegrytan.txt"
@@ -182,6 +196,7 @@
       "type": "trad",
       "firstAscent": "M Gullvert -04",
       "description": "Traversera från vänster till höger i den höga spickan. Avsluta vid toppen av Öljäst",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:snapphanegrytan",
         "path": "mediawiki/Snapphanegrytan.txt"
@@ -197,6 +212,7 @@
       "type": "trad",
       "firstAscent": "M Gullvert -04",
       "description": "Traversera från vänster till höger i den höga spickan. Avsluta vid toppen av Öljäst",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:snapphanegrytan",
         "path": "mediawiki/Snapphanegrytan.txt"
@@ -207,7 +223,8 @@
     {
       "filename": "Nysnapphane.jpg",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "leder"
     }
   ],
   "access": {

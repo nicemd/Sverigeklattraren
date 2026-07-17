@@ -29,6 +29,11 @@
       "body": "Klippan ligger vid Stora Högaskolan i Stora Höga, strax norr om Göteborg. Sök på Eniro för vägbeskrivning. Synlig ifrån vägen."
     },
     {
+      "id": "leder",
+      "title": "Leder",
+      "body": ""
+    },
+    {
       "id": "lank",
       "title": "Länk",
       "body": "http://www.8a.nu/forum/ViewForumThread.aspx?ObjectId=5745&ObjectClass=CLS_UserBlogComment&CountryCode=CZE Kategori:sport Kategori:sva"
@@ -50,6 +55,7 @@
       "type": "",
       "firstAscent": "Jens Larssen (2009)",
       "description": "",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:stora-hoga",
         "path": "mediawiki/Stora Höga.txt"
@@ -65,6 +71,7 @@
       "type": "",
       "firstAscent": "Jens Larssen (2009)",
       "description": "",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:stora-hoga",
         "path": "mediawiki/Stora Höga.txt"
@@ -80,6 +87,7 @@
       "type": "",
       "firstAscent": "Jens Larssen (2009)",
       "description": "",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:stora-hoga",
         "path": "mediawiki/Stora Höga.txt"
@@ -90,17 +98,20 @@
     {
       "filename": "Stora_hoga_bild1.jpg",
       "caption": "Topprepsklättring på Stora höga",
-      "missing": false
+      "missing": false,
+      "sectorId": "bilder"
     },
     {
       "filename": "Stora_hoga_bild2.jpg",
       "caption": "Berget måste klättras också",
-      "missing": false
+      "missing": false,
+      "sectorId": "bilder"
     },
     {
       "filename": "Stora_hoga_bild3.jpg",
       "caption": "En rolig eftermiddag.",
-      "missing": false
+      "missing": false,
+      "sectorId": "bilder"
     }
   ],
   "access": {

@@ -19,6 +19,16 @@
   ],
   "sections": [
     {
+      "id": "nedre-vaggen",
+      "title": "Nedre väggen",
+      "body": ""
+    },
+    {
+      "id": "mellanvaggen",
+      "title": "Mellanväggen",
+      "body": ""
+    },
+    {
       "id": "ovre-vaggen",
       "title": "Övre väggen",
       "body": "=Problem= Kategori:Sundsvall Kategori:Bouldering Kategori:Bimbo Kategori:Behöver kvalitetssäkras Kategori:Saknar karta Kategori:Saknar koordinater Kategori:Saknar skrivarformattering Kategori:Saknar skiss"
@@ -35,6 +45,7 @@
       "type": "Mantling,Överhäng,Dyno",
       "firstAscent": "Fredrik Bodin",
       "description": "Startar med händerna på stenen under. Dubbeldyno upp till spetsen och sedan rakt upp.",
+      "sectorId": "ovre-vaggen",
       "source": {
         "id": "legacy:hastberget",
         "path": "mediawiki/Hästberget.txt"
@@ -50,6 +61,7 @@
       "type": "Krimp,Slopers,Överhäng",
       "firstAscent": "Fredrik Bodin",
       "description": "Startar med händerna på stenen under, går rakt upp via spetsen.",
+      "sectorId": "ovre-vaggen",
       "source": {
         "id": "legacy:hastberget",
         "path": "mediawiki/Hästberget.txt"
@@ -65,6 +77,7 @@
       "type": "Krimp,Slopers,Mantling",
       "firstAscent": "Fredrik Bodin",
       "description": "Startar med vänster hand på stora greppet inne i sprickan, går sedan åt vänster ut på spetsen och sedan upp.",
+      "sectorId": "ovre-vaggen",
       "source": {
         "id": "legacy:hastberget",
         "path": "mediawiki/Hästberget.txt"
@@ -80,6 +93,7 @@
       "type": "Krimp,Mantling,Överhäng",
       "firstAscent": "Fredrik Bodin",
       "description": "Sittstart under överhänget, går rakt upp på den högra sidan.",
+      "sectorId": "ovre-vaggen",
       "source": {
         "id": "legacy:hastberget",
         "path": "mediawiki/Hästberget.txt"
@@ -95,6 +109,7 @@
       "type": "Krimp,Slopers",
       "firstAscent": "Fredrik Bodin",
       "description": "Börjar med händerna på tydliga listen, går sedan rakt upp via pocketen. Stenen till vänster är ej med.",
+      "sectorId": "ovre-vaggen",
       "source": {
         "id": "legacy:hastberget",
         "path": "mediawiki/Hästberget.txt"
@@ -110,6 +125,7 @@
       "type": "Krimp,Slopers",
       "firstAscent": "Fredrik Bodin",
       "description": "Sittstart vid areten, går rakt upp. Stenen till vänster är ej med.",
+      "sectorId": "ovre-vaggen",
       "source": {
         "id": "legacy:hastberget",
         "path": "mediawiki/Hästberget.txt"
@@ -125,6 +141,7 @@
       "type": "Krimp,Dyno",
       "firstAscent": "Fredrik Bodin",
       "description": "Börjar på den tydliga listen, dyno upp till kanten.",
+      "sectorId": "ovre-vaggen",
       "source": {
         "id": "legacy:hastberget",
         "path": "mediawiki/Hästberget.txt"
@@ -140,6 +157,7 @@
       "type": "Dyno",
       "firstAscent": "Fredrik Bodin",
       "description": "Delikat dynoproblem, där man börjar med händerna på hyllan under överhänget och sedan är det bara att kliva upp och skicka på de ca 180 centimetrarna upp till slutjuggen.",
+      "sectorId": "ovre-vaggen",
       "source": {
         "id": "legacy:hastberget",
         "path": "mediawiki/Hästberget.txt"
@@ -155,6 +173,7 @@
       "type": "Krimp,Reach",
       "firstAscent": "Christofer Björklund",
       "description": "Börjar med ett gaston högt upp för högerhanden och en minimal crimp för vänsterhanden, går rakt upp. Kroppstung.",
+      "sectorId": "ovre-vaggen",
       "source": {
         "id": "legacy:hastberget",
         "path": "mediawiki/Hästberget.txt"
@@ -170,6 +189,7 @@
       "type": "Krimp",
       "firstAscent": "Christofer Björklund",
       "description": "Gaston för vänster och crimp för högern, går sedan rakt upp.",
+      "sectorId": "ovre-vaggen",
       "source": {
         "id": "legacy:hastberget",
         "path": "mediawiki/Hästberget.txt"
@@ -185,6 +205,7 @@
       "type": "Krimp,Slopers,Dyno",
       "firstAscent": "Christofer Björklund",
       "description": "Dynoproblem där man börjar med händerna i den horisontella sprickan på ett par krimprar, skicka sedan på till kanten och mantla.",
+      "sectorId": "ovre-vaggen",
       "source": {
         "id": "legacy:hastberget",
         "path": "mediawiki/Hästberget.txt"
@@ -200,6 +221,7 @@
       "type": "Krimp,Dyno",
       "firstAscent": "Fredrik Bodin",
       "description": "Börjar med händerna på den tydliga listen, går rakt upp. Sprickorna till vänster och höger är uteslutna men det blir som helt naturligt.",
+      "sectorId": "ovre-vaggen",
       "source": {
         "id": "legacy:hastberget",
         "path": "mediawiki/Hästberget.txt"
@@ -215,6 +237,7 @@
       "type": "Krimp",
       "firstAscent": "Fredrik Bodin",
       "description": "Börjar vid den bra hyllan, går rakt upp utan att använda sprickan ute till höger.",
+      "sectorId": "ovre-vaggen",
       "source": {
         "id": "legacy:hastberget",
         "path": "mediawiki/Hästberget.txt"
@@ -230,6 +253,7 @@
       "type": "Highball,Jug,Spricka",
       "firstAscent": "Fredrik Bodin",
       "description": "Börjar med händerna på det stora underclinget, följer sedan sprickorna rakt upp.",
+      "sectorId": "ovre-vaggen",
       "source": {
         "id": "legacy:hastberget",
         "path": "mediawiki/Hästberget.txt"
@@ -245,6 +269,7 @@
       "type": "Krimp",
       "firstAscent": "Fredrik Bodin",
       "description": "Sittstart till höger om \"Another Snatch\", går rakt upp.",
+      "sectorId": "ovre-vaggen",
       "source": {
         "id": "legacy:hastberget",
         "path": "mediawiki/Hästberget.txt"
@@ -260,6 +285,7 @@
       "type": "Krimp,Spricka",
       "firstAscent": "Christofer Björklund",
       "description": "Går rakt upp vid sprickan.",
+      "sectorId": "ovre-vaggen",
       "source": {
         "id": "legacy:hastberget",
         "path": "mediawiki/Hästberget.txt"
@@ -275,6 +301,7 @@
       "type": "Krimp,Reach",
       "firstAscent": "Fredrik Bodin",
       "description": "Ståstart till vänster om \"Nyskick\", går rakt upp. Sprickan som \"Nyskick\" går upp i är ej med.",
+      "sectorId": "ovre-vaggen",
       "source": {
         "id": "legacy:hastberget",
         "path": "mediawiki/Hästberget.txt"
@@ -290,6 +317,7 @@
       "type": "Krimp",
       "firstAscent": "Fredrik Bodin",
       "description": "Startar med höger hand på samma startgrepp som man har för vänster hand på \"Another Snatch\" och vänster hand också på en sidepull. Går snett upp åt vänster.",
+      "sectorId": "ovre-vaggen",
       "source": {
         "id": "legacy:hastberget",
         "path": "mediawiki/Hästberget.txt"
@@ -305,6 +333,7 @@
       "type": "Krimp,Överhäng,Dyno",
       "firstAscent": "Fredrik Bodin",
       "description": "Sittstart med händerna på hyllan, går rakt upp i \"Sjätte Sinnet\". Sprickan ute till vänster är utesluten men det är ganska naturligt.",
+      "sectorId": "ovre-vaggen",
       "source": {
         "id": "legacy:hastberget",
         "path": "mediawiki/Hästberget.txt"

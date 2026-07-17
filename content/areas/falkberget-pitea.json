@@ -23,6 +23,11 @@
       "body": "Om du kommer från Piteå, så kör till väg 373, som går mot Älvsbyn. Passera Öjebyn. Klippan kan man skymta uppe på höger sida. När du passerat skylten \"Kapell Begravningsplats\" så kör du vidare 200m, där det står en skylt \"Råbergsspåret\". Sväng höger där och följ skogsvägen. Parkera och följ stigen mot klippan."
     },
     {
+      "id": "leder",
+      "title": "Leder",
+      "body": ""
+    },
+    {
       "id": "hoger-sida",
       "title": "Höger sida",
       "body": "Här har det nog klättrats på varje millimeter av den svaiga klippan, men bara en led brukar ledas."
@@ -44,6 +49,7 @@
       "type": "trad",
       "firstAscent": "?",
       "description": "Flakspricka som ligger nära det enorma blocket",
+      "sectorId": "hoger-sida",
       "source": {
         "id": "legacy:falkberget-pitea",
         "path": "mediawiki/Falkberget, Piteå.txt"
@@ -59,6 +65,7 @@
       "type": "trad",
       "firstAscent": "?",
       "description": "Det vänstra av de två, mossiga diedrarna.",
+      "sectorId": "vanster-sida",
       "source": {
         "id": "legacy:falkberget-pitea",
         "path": "mediawiki/Falkberget, Piteå.txt"
@@ -74,6 +81,7 @@
       "type": "mix",
       "firstAscent": "?",
       "description": "Den enda bulten på berget sitter i starten på denna led. Ihållande.",
+      "sectorId": "vanster-sida",
       "source": {
         "id": "legacy:falkberget-pitea",
         "path": "mediawiki/Falkberget, Piteå.txt"
@@ -89,6 +97,7 @@
       "type": "trad",
       "firstAscent": "?",
       "description": "Överhängande stor spricka. Måste rensas.",
+      "sectorId": "vanster-sida",
       "source": {
         "id": "legacy:falkberget-pitea",
         "path": "mediawiki/Falkberget, Piteå.txt"
@@ -104,6 +113,7 @@
       "type": "trad",
       "firstAscent": "?",
       "description": "Överhängande spricksystem. Måste rensas.",
+      "sectorId": "vanster-sida",
       "source": {
         "id": "legacy:falkberget-pitea",
         "path": "mediawiki/Falkberget, Piteå.txt"

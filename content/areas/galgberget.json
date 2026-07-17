@@ -47,6 +47,7 @@
       "type": "",
       "firstAscent": "",
       "description": "",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:galgberget",
         "path": "mediawiki/Galgberget.txt"
@@ -62,6 +63,7 @@
       "type": "",
       "firstAscent": "",
       "description": "Toprepsled från ankaret mitt på den enklaste väggen till vänster om trollriten",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:galgberget",
         "path": "mediawiki/Galgberget.txt"
@@ -77,6 +79,7 @@
       "type": "",
       "firstAscent": "",
       "description": "",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:galgberget",
         "path": "mediawiki/Galgberget.txt"
@@ -92,6 +95,7 @@
       "type": "",
       "firstAscent": "",
       "description": "",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:galgberget",
         "path": "mediawiki/Galgberget.txt"
@@ -107,6 +111,7 @@
       "type": "",
       "firstAscent": "",
       "description": "väggens finaste led, väldigt jämn och pumpande klättring på stora grepp.",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:galgberget",
         "path": "mediawiki/Galgberget.txt"
@@ -122,6 +127,7 @@
       "type": "",
       "firstAscent": "",
       "description": "",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:galgberget",
         "path": "mediawiki/Galgberget.txt"
@@ -137,6 +143,7 @@
       "type": "",
       "firstAscent": "",
       "description": "grepp har lossnat i starten vilket gör den hårdare. kanske 7b+?",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:galgberget",
         "path": "mediawiki/Galgberget.txt"
@@ -152,6 +159,7 @@
       "type": "",
       "firstAscent": "",
       "description": "",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:galgberget",
         "path": "mediawiki/Galgberget.txt"
@@ -167,6 +175,7 @@
       "type": "",
       "firstAscent": "",
       "description": "",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:galgberget",
         "path": "mediawiki/Galgberget.txt"
@@ -182,6 +191,7 @@
       "type": "",
       "firstAscent": "",
       "description": "",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:galgberget",
         "path": "mediawiki/Galgberget.txt"
@@ -197,6 +207,7 @@
       "type": "",
       "firstAscent": "",
       "description": "",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:galgberget",
         "path": "mediawiki/Galgberget.txt"
@@ -212,6 +223,7 @@
       "type": "",
       "firstAscent": "",
       "description": "",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:galgberget",
         "path": "mediawiki/Galgberget.txt"
@@ -221,13 +233,15 @@
   "images": [
     {
       "filename": "Galgberget_vagbesk.png",
-      "caption": "right",
-      "missing": false
+      "caption": "",
+      "missing": false,
+      "sectorId": "vagbeskrivning"
     },
     {
       "filename": "Galgberget.png",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "leder"
     }
   ],
   "access": {

@@ -18,6 +18,11 @@
   ],
   "sections": [
     {
+      "id": "introduktion",
+      "title": "Introduktion",
+      "body": ""
+    },
+    {
       "id": "karaktar",
       "title": "Karaktär",
       "body": "En 40m hög klippa med egen strand. Två firningsankare på toppen."
@@ -26,6 +31,11 @@
       "id": "vagbeskrivning",
       "title": "Vägbeskrivning",
       "body": "Fortsätt förbi Häller, ca 1km. En åker passeras och vatten till höger en kulle blir synlig. Parkera vid kullens högra fot vid en liten gräsplan. Gå rakt över kullen i sänkan. Berget som vetter mot vatten dyker upp till vänster."
+    },
+    {
+      "id": "access",
+      "title": "Access",
+      "body": ""
     },
     {
       "id": "leder",
@@ -44,6 +54,7 @@
       "type": "mix",
       "firstAscent": "Henrik Bolander, Dag Lövenvald -97",
       "description": "Sprickor och dieder genom svart klippa. En bult.",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:sjohaller",
         "path": "mediawiki/Sjöhäller.txt"
@@ -59,6 +70,7 @@
       "type": "mix",
       "firstAscent": "Henrik Bolander, Jonas Böttinger -91",
       "description": "Börjar i sprickan v om den stora skivan. Tung sprick och diederklättring upp till hylla. Traversera h 4m under ett litet tak. Fyra borrbultar",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:sjohaller",
         "path": "mediawiki/Sjöhäller.txt"
@@ -74,6 +86,7 @@
       "type": "trad",
       "firstAscent": "Henrik Bolander -91",
       "description": "Startar vid skivan. Tunn tung och hård.",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:sjohaller",
         "path": "mediawiki/Sjöhäller.txt"
@@ -89,6 +102,7 @@
       "type": "mix",
       "firstAscent": "Johan Svensson, Ann-Sofi Andrsson -07",
       "description": "Lång linje till höger om Little Yosemite, startar i ett överhäng. Fem borrbultar som kompletteras med en god selektion kilar och friends. För berget sedvanligt hög kvalitet.",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:sjohaller",
         "path": "mediawiki/Sjöhäller.txt"
@@ -104,6 +118,7 @@
       "type": "sport",
       "firstAscent": "Petter Restorp -08",
       "description": "",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:sjohaller",
         "path": "mediawiki/Sjöhäller.txt"
@@ -119,6 +134,7 @@
       "type": "sport",
       "firstAscent": "Erik Heyman -09",
       "description": "",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:sjohaller",
         "path": "mediawiki/Sjöhäller.txt"

@@ -20,6 +20,11 @@
       "body": "Lite skräpig klippa som torkar snabbt om våren. Klippan ligger i en gryta som gör att det bildas ett mikroklimat, där det blir mycket varmt och ofta vindstilla. Solen ligger på från morgonen och fram till 16:00. Klippan erbjuder ett stort antal topprepsleder, och några bultade turer, samt några som är möjliga att göra på kil."
     },
     {
+      "id": "vagbeskrivning",
+      "title": "Vägbeskrivning",
+      "body": ""
+    },
+    {
       "id": "uppdateringar",
       "title": "Uppdateringar",
       "body": "Ny väg upp till Vallberget! Det är numera förbjudet att gå via det gula huset. Läs mer här: UKHKs forum"
@@ -41,6 +46,7 @@
       "type": "trad",
       "firstAscent": "Oskar Hedin, 2012",
       "description": "En av två korta lättsäkrade sprickor. Bra för nybörjare på trad.",
+      "sectorId": "ostra-vaggen",
       "source": {
         "id": "legacy:vallberget",
         "path": "mediawiki/Vallberget.txt"
@@ -56,6 +62,7 @@
       "type": "trad",
       "firstAscent": "Johan Blixt Dackhammar, 2012",
       "description": "Den andra sprickan, krux på mitten - lättare för de längre. Lättsäkrad och bra nybörjarled.",
+      "sectorId": "ostra-vaggen",
       "source": {
         "id": "legacy:vallberget",
         "path": "mediawiki/Vallberget.txt"
@@ -71,6 +78,7 @@
       "type": "trad",
       "firstAscent": "Christoffer Vikström, 2012",
       "description": "Skreva precis under fikaplatsen. Mycket lätt och skitig led.",
+      "sectorId": "ostra-vaggen",
       "source": {
         "id": "legacy:vallberget",
         "path": "mediawiki/Vallberget.txt"
@@ -86,6 +94,7 @@
       "type": "trad",
       "firstAscent": "Oskar Hedin, 2012",
       "description": "Längst till höger på plattån, vid den höga tallen. Off width-spricka upp till flakig arête. Rolig klättring.",
+      "sectorId": "ostra-vaggen",
       "source": {
         "id": "legacy:vallberget",
         "path": "mediawiki/Vallberget.txt"
@@ -96,7 +105,8 @@
     {
       "filename": "Radius_ulna.jpg",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "ostra-vaggen"
     }
   ],
   "access": {

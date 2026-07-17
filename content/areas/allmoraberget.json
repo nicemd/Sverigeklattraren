@@ -36,6 +36,21 @@
       "body": "Sydväst, halvöppet. Ingen mossa."
     },
     {
+      "id": "leder",
+      "title": "Leder",
+      "body": ""
+    },
+    {
+      "id": "vanstra-delen",
+      "title": "Vänstra delen",
+      "body": ""
+    },
+    {
+      "id": "mitten",
+      "title": "Mitten",
+      "body": ""
+    },
+    {
       "id": "hogra-delen",
       "title": "Högra delen",
       "body": "Kategori:Saknar kolumner Kategori:Sport Kategori:Stockholm Kategori:Tyresö"
@@ -52,6 +67,7 @@
       "type": "",
       "firstAscent": "Thomas Hansson, Johan Luhr -89",
       "description": "",
+      "sectorId": "vanstra-delen",
       "source": {
         "id": "legacy:allmoraberget",
         "path": "mediawiki/Ällmoraberget.txt"
@@ -67,6 +83,7 @@
       "type": "",
       "firstAscent": "Johan Luhr -89",
       "description": "",
+      "sectorId": "vanstra-delen",
       "source": {
         "id": "legacy:allmoraberget",
         "path": "mediawiki/Ällmoraberget.txt"
@@ -82,6 +99,7 @@
       "type": "",
       "firstAscent": "Marco Kupiainen, Mats Olofsson -95",
       "description": "",
+      "sectorId": "vanstra-delen",
       "source": {
         "id": "legacy:allmoraberget",
         "path": "mediawiki/Ällmoraberget.txt"
@@ -97,6 +115,7 @@
       "type": "",
       "firstAscent": "Niklas Björnerstedt, Jan Liliemark -89",
       "description": "",
+      "sectorId": "vanstra-delen",
       "source": {
         "id": "legacy:allmoraberget",
         "path": "mediawiki/Ällmoraberget.txt"
@@ -112,6 +131,7 @@
       "type": "",
       "firstAscent": "Daniel Bidner, Niklas Björnerstedt -89",
       "description": "",
+      "sectorId": "vanstra-delen",
       "source": {
         "id": "legacy:allmoraberget",
         "path": "mediawiki/Ällmoraberget.txt"
@@ -127,6 +147,7 @@
       "type": "",
       "firstAscent": "Mats Olofsson, Marco Kupiainen -95",
       "description": "",
+      "sectorId": "vanstra-delen",
       "source": {
         "id": "legacy:allmoraberget",
         "path": "mediawiki/Ällmoraberget.txt"
@@ -142,6 +163,7 @@
       "type": "",
       "firstAscent": "Lars Svadängs, Niklas Björnerstedt, Jan Liliemark, Jeremy Sheehan, StaffanEricsson -89",
       "description": "",
+      "sectorId": "vanstra-delen",
       "source": {
         "id": "legacy:allmoraberget",
         "path": "mediawiki/Ällmoraberget.txt"
@@ -157,6 +179,7 @@
       "type": "",
       "firstAscent": "Niklas Björnerstedt, Jan Liliemark -89",
       "description": "",
+      "sectorId": "mitten",
       "source": {
         "id": "legacy:allmoraberget",
         "path": "mediawiki/Ällmoraberget.txt"
@@ -172,6 +195,7 @@
       "type": "",
       "firstAscent": "Johan Luhr -89",
       "description": "",
+      "sectorId": "mitten",
       "source": {
         "id": "legacy:allmoraberget",
         "path": "mediawiki/Ällmoraberget.txt"
@@ -187,6 +211,7 @@
       "type": "",
       "firstAscent": "Johan Luhr, Jan Liliemark -89",
       "description": "",
+      "sectorId": "mitten",
       "source": {
         "id": "legacy:allmoraberget",
         "path": "mediawiki/Ällmoraberget.txt"
@@ -202,6 +227,7 @@
       "type": "",
       "firstAscent": "Jan Liliemark, Niklas Björnerstedt -89",
       "description": "",
+      "sectorId": "mitten",
       "source": {
         "id": "legacy:allmoraberget",
         "path": "mediawiki/Ällmoraberget.txt"
@@ -217,6 +243,7 @@
       "type": "",
       "firstAscent": "Niklas Björnerstedt, Jan Liliemark, Staffan Ericsson -89",
       "description": "",
+      "sectorId": "mitten",
       "source": {
         "id": "legacy:allmoraberget",
         "path": "mediawiki/Ällmoraberget.txt"
@@ -232,6 +259,7 @@
       "type": "",
       "firstAscent": "Jan Liliemark, Niklas Björnerstedt, Staffan Ericsson -89",
       "description": "",
+      "sectorId": "hogra-delen",
       "source": {
         "id": "legacy:allmoraberget",
         "path": "mediawiki/Ällmoraberget.txt"
@@ -247,6 +275,7 @@
       "type": "",
       "firstAscent": "Jan Liliemark, Johan Luhr -89",
       "description": "",
+      "sectorId": "hogra-delen",
       "source": {
         "id": "legacy:allmoraberget",
         "path": "mediawiki/Ällmoraberget.txt"
@@ -262,6 +291,7 @@
       "type": "",
       "firstAscent": "Jan Liliemark, Niklas Björnerstedt, Staffan Ericsson -89",
       "description": "",
+      "sectorId": "hogra-delen",
       "source": {
         "id": "legacy:allmoraberget",
         "path": "mediawiki/Ällmoraberget.txt"
@@ -277,6 +307,7 @@
       "type": "",
       "firstAscent": "Peter Brolin, Per Calleberg, Staffan Ericsson, Buster Delin, Kaj von Damm, Hasse Hellström -89",
       "description": "",
+      "sectorId": "hogra-delen",
       "source": {
         "id": "legacy:allmoraberget",
         "path": "mediawiki/Ällmoraberget.txt"
@@ -286,8 +317,9 @@
   "images": [
     {
       "filename": "Ällmoraberget.png",
-      "caption": "center",
-      "missing": false
+      "caption": "",
+      "missing": false,
+      "sectorId": "vanstra-delen"
     }
   ],
   "access": {

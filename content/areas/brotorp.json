@@ -18,6 +18,11 @@
       "body": "Tunnelbanan är grön linje 17 mot Skarpnäck och stationen heter Bagarmossen eller Skarpnäck. Ta dig till Brotorpstugan på kanten till Nackareservatet mellan Bagarmossen och Skarpnäck. Kommer du med bil går det att parkera i slutet av Klarälvsvägen (om du gör det snyggt). Ta sedan gångvägen rakt ut i Nackareservatet så kommer du ner mot stugan. Från stugan går en grusväg som leder till Älta, gå denna över ån och rakt fram. När vägen går över ett sankt område där det går ett dräneringsrör under vägen (efter ca 500 meter), går du tillbaks 20 meter och tar in på stigen som är till vänster om du tittar mot Älta. Följ stigen, efter 30 meter är du framme vid överhängande väggen vid en matplats för rådjur. Följ stigen ytterligare 50-100 meter, uppför backen till höger. Nu är du framme vid Amfiteatern med en stor grillplats i mitten. För att komma till svaklippan går du till höger istället från den överhängande väggen och upp en bit längs kanten."
     },
     {
+      "id": "boulderproblem",
+      "title": "Boulderproblem",
+      "body": ""
+    },
+    {
       "id": "gammal-forare",
       "title": "Gammal förare",
       "body": "Gammal förare: Klaan"
@@ -49,6 +54,7 @@
       "type": "Svagt överhäng, krimpers",
       "firstAscent": "Erik L",
       "description": "Sittstart till vänster om 'inget' på bra Grepp, sedan rakt upp i Sprickan och toppa ut till höger via 'inget'",
+      "sectorId": "overhangande-sektorn",
       "source": {
         "id": "legacy:brotorp",
         "path": "mediawiki/Brotorp.txt"
@@ -64,6 +70,7 @@
       "type": "Svagt överhäng, krimpers",
       "firstAscent": "Tomas G",
       "description": "Sittstart på bra Grepp sedan upp till höger, toppa ut.",
+      "sectorId": "overhangande-sektorn",
       "source": {
         "id": "legacy:brotorp",
         "path": "mediawiki/Brotorp.txt"
@@ -79,6 +86,7 @@
       "type": "Överhäng",
       "firstAscent": "DD",
       "description": "Sittstart med vH på en list och hH i Sprickan, upp i Sprickan till Juggen, fortsätt rakt upp, toppa ut.",
+      "sectorId": "overhangande-sektorn",
       "source": {
         "id": "legacy:brotorp",
         "path": "mediawiki/Brotorp.txt"
@@ -94,6 +102,7 @@
       "type": "Överhäng",
       "firstAscent": "Moritz K",
       "description": "Sittstart precis bakom de 2 stora träden på stort platt Grepp, över efter 3 move i stor jug; skulle varit top om trädet inte fanns då skulle man kunna toppa ut det.",
+      "sectorId": "overhangande-sektorn",
       "source": {
         "id": "legacy:brotorp",
         "path": "mediawiki/Brotorp.txt"
@@ -109,6 +118,7 @@
       "type": "Vertikal/Överhäng",
       "firstAscent": "Moritz K",
       "description": "CA. 2 meter till höger ifrån de 2 stora träden. Sittstart med vH på en list och hH på bättre list, lättaste väg upp,3 move till stor bulle, match, toppa ut.",
+      "sectorId": "overhangande-sektorn",
       "source": {
         "id": "legacy:brotorp",
         "path": "mediawiki/Brotorp.txt"
@@ -124,6 +134,7 @@
       "type": "Vertikal/Överhäng",
       "firstAscent": "Moritz K",
       "description": "CA. 2 meter till höger ifrån de 2 stora träden. Variant av \"Al Taneen\" där man undervika stora bullen och går mera (vänster) rakt upp istället (Bullen är varken med för händerna eller fötterna).",
+      "sectorId": "overhangande-sektorn",
       "source": {
         "id": "legacy:brotorp",
         "path": "mediawiki/Brotorp.txt"
@@ -139,6 +150,7 @@
       "type": "Krimpers",
       "firstAscent": "Tomas G",
       "description": "Ståstart med händerna i Juggen sedan upp till en list, fortsätt upp till vänster, OBS. Bra Fot- och Handgrepp till vänster ingår ej. Grön linje (sittstart projekt, gul).",
+      "sectorId": "amfiteatern",
       "source": {
         "id": "legacy:brotorp",
         "path": "mediawiki/Brotorp.txt"
@@ -154,6 +166,7 @@
       "type": "Travers",
       "firstAscent": "Erik L",
       "description": "Sittstart med vH I Undercling/sidogrepp och hH I ett hål, traversera till vänster och toppa ut. Röd linje.",
+      "sectorId": "amfiteatern",
       "source": {
         "id": "legacy:brotorp",
         "path": "mediawiki/Brotorp.txt"
@@ -169,6 +182,7 @@
       "type": "Catch",
       "firstAscent": "Moritz K?",
       "description": "Sittstart med vH på en bra list och hH i ett bra flak, Catch upp till ett bra Grepp och fortsätt rakt upp, toppa ut. Blå linje.",
+      "sectorId": "amfiteatern",
       "source": {
         "id": "legacy:brotorp",
         "path": "mediawiki/Brotorp.txt"
@@ -184,6 +198,7 @@
       "type": "Uppvärmning",
       "firstAscent": "",
       "description": "Hängstart med Händerna i Juggen, traversera till vänster, avsluta med 'Det är vad det är'. Svart(?) linje.",
+      "sectorId": "amfiteatern",
       "source": {
         "id": "legacy:brotorp",
         "path": "mediawiki/Brotorp.txt"
@@ -194,12 +209,14 @@
     {
       "filename": "todo",
       "caption": "",
-      "missing": true
+      "missing": true,
+      "sectorId": "overhangande-sektorn"
     },
     {
       "filename": "Amfitheater.jpg",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "amfiteatern"
     }
   ],
   "access": {

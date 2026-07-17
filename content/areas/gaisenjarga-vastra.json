@@ -19,6 +19,26 @@
   ],
   "sections": [
     {
+      "id": "tintin-blocken",
+      "title": "Tintin-blocken",
+      "body": ""
+    },
+    {
+      "id": "strandblocken",
+      "title": "Strandblocken",
+      "body": ""
+    },
+    {
+      "id": "boulderasen",
+      "title": "Boulderåsen",
+      "body": ""
+    },
+    {
+      "id": "det-nya-landet",
+      "title": "Det nya landet",
+      "body": ""
+    },
+    {
       "id": "silverfaran",
       "title": "Silverfåran",
       "body": "=Problem= Kategori:Kiruna Kategori:Bouldering Kategori:Bimbo Kategori:Behöver kvalitetssäkras Kategori:Saknar karta Kategori:Saknar koordinater Kategori:Saknar skrivarformattering Kategori:Saknar skiss"
@@ -35,6 +55,7 @@
       "type": "",
       "firstAscent": "McGregor",
       "description": "",
+      "sectorId": "tintin-blocken",
       "source": {
         "id": "legacy:gaisenjarga-vastra",
         "path": "mediawiki/Gaisenjarga-västra.txt"
@@ -50,6 +71,7 @@
       "type": "Krimp,Slab",
       "firstAscent": "Roshed, Stålnacke",
       "description": "Uppför det ljusa svaet.",
+      "sectorId": "tintin-blocken",
       "source": {
         "id": "legacy:gaisenjarga-vastra",
         "path": "mediawiki/Gaisenjarga-västra.txt"
@@ -65,6 +87,7 @@
       "type": "",
       "firstAscent": "McGregor,Anti",
       "description": "",
+      "sectorId": "strandblocken",
       "source": {
         "id": "legacy:gaisenjarga-vastra",
         "path": "mediawiki/Gaisenjarga-västra.txt"
@@ -80,6 +103,7 @@
       "type": "",
       "firstAscent": "Rick",
       "description": "Ett ytligt dieder 3m från vänstra kanten av sydvästra sidan av \"Ship Rock\" på toppen av kullen ca 300m norr om Strandblocket.",
+      "sectorId": "strandblocken",
       "source": {
         "id": "legacy:gaisenjarga-vastra",
         "path": "mediawiki/Gaisenjarga-västra.txt"
@@ -95,6 +119,7 @@
       "type": "Slopers,Mantling,Överhäng",
       "firstAscent": "Heyman",
       "description": "Etabl lågt på rampen. Upp snett åt hö och avsluta över bullen. Fin!",
+      "sectorId": "boulderasen",
       "source": {
         "id": "legacy:gaisenjarga-vastra",
         "path": "mediawiki/Gaisenjarga-västra.txt"
@@ -110,6 +135,7 @@
       "type": "Krimp,Reach",
       "firstAscent": "Heyman",
       "description": "Rakt upp för väggen vä om Kapten Stofil. Catch el statiskt på slutet. Areten är givetvis inte med.",
+      "sectorId": "boulderasen",
       "source": {
         "id": "legacy:gaisenjarga-vastra",
         "path": "mediawiki/Gaisenjarga-västra.txt"
@@ -125,6 +151,7 @@
       "type": "Aréte",
       "firstAscent": "Heyman",
       "description": "Den högra areten. Fin!",
+      "sectorId": "boulderasen",
       "source": {
         "id": "legacy:gaisenjarga-vastra",
         "path": "mediawiki/Gaisenjarga-västra.txt"
@@ -140,6 +167,7 @@
       "type": "",
       "firstAscent": "K.Stålnacke",
       "description": "\"Startar layback i sprickan sen följer man sprickan till topps, (Obs man klättrar hela tiden till v om sprickan)\"Variant: \"..rakt upp istället för att följa sprickan blir det ca:6b, samt om man använder hyllorna till hö om sprickan 6a...\"",
+      "sectorId": "boulderasen",
       "source": {
         "id": "legacy:gaisenjarga-vastra",
         "path": "mediawiki/Gaisenjarga-västra.txt"
@@ -155,6 +183,7 @@
       "type": "Krimp,Aréte,Reach",
       "firstAscent": "Roshed",
       "description": "Start på två sidotag och sen upp via areten.",
+      "sectorId": "boulderasen",
       "source": {
         "id": "legacy:gaisenjarga-vastra",
         "path": "mediawiki/Gaisenjarga-västra.txt"
@@ -170,6 +199,7 @@
       "type": "Highball",
       "firstAscent": "A.Månsson",
       "description": "Det tydliga diedret på baksidan om \"tunna röda\".",
+      "sectorId": "boulderasen",
       "source": {
         "id": "legacy:gaisenjarga-vastra",
         "path": "mediawiki/Gaisenjarga-västra.txt"
@@ -185,6 +215,7 @@
       "type": "Highball",
       "firstAscent": "",
       "description": "Baksidan av Hotellbloc. Det tydliga facet. Desperat, men klart möjligt..",
+      "sectorId": "boulderasen",
       "source": {
         "id": "legacy:gaisenjarga-vastra",
         "path": "mediawiki/Gaisenjarga-västra.txt"
@@ -200,6 +231,7 @@
       "type": "Krimp,Reach",
       "firstAscent": "Roshed",
       "description": "Sittstart på list.",
+      "sectorId": "boulderasen",
       "source": {
         "id": "legacy:gaisenjarga-vastra",
         "path": "mediawiki/Gaisenjarga-västra.txt"
@@ -215,6 +247,7 @@
       "type": "Krimp,Reach",
       "firstAscent": "Roshed, Heyman",
       "description": "Starta vid Senilo. Klättra vänster via given list och sedan rakt upp.",
+      "sectorId": "boulderasen",
       "source": {
         "id": "legacy:gaisenjarga-vastra",
         "path": "mediawiki/Gaisenjarga-västra.txt"
@@ -230,6 +263,7 @@
       "type": "Överhäng",
       "firstAscent": "Pudde Hansson",
       "description": "Sittstart vid de två tydliga sidepull ramperna. Rakt upp efter dessa och mantla över bullen. Fin.",
+      "sectorId": "boulderasen",
       "source": {
         "id": "legacy:gaisenjarga-vastra",
         "path": "mediawiki/Gaisenjarga-västra.txt"
@@ -245,6 +279,7 @@
       "type": "Överhäng",
       "firstAscent": "Pudde Hansson",
       "description": "Tydlig prow på block strax norr om \"inte så lätt ändå\". Sittstart och därefter rakt uppför prowen. möjligen en halvgrad svårare. Fin!",
+      "sectorId": "boulderasen",
       "source": {
         "id": "legacy:gaisenjarga-vastra",
         "path": "mediawiki/Gaisenjarga-västra.txt"
@@ -260,6 +295,7 @@
       "type": "wall",
       "firstAscent": "P.Hansson",
       "description": "variant på \"inte så lätt ändå\". Layback efter vänster ramp. Fin!",
+      "sectorId": "boulderasen",
       "source": {
         "id": "legacy:gaisenjarga-vastra",
         "path": "mediawiki/Gaisenjarga-västra.txt"
@@ -275,6 +311,7 @@
       "type": "slopers",
       "firstAscent": "P.Hansson",
       "description": "Ss nere i nischen. Därefter upp över bullen på roliga slopers.",
+      "sectorId": "boulderasen",
       "source": {
         "id": "legacy:gaisenjarga-vastra",
         "path": "mediawiki/Gaisenjarga-västra.txt"
@@ -290,6 +327,7 @@
       "type": "arete",
       "firstAscent": "?",
       "description": "Ostareten på block 13, utsiktsblocket.",
+      "sectorId": "boulderasen",
       "source": {
         "id": "legacy:gaisenjarga-vastra",
         "path": "mediawiki/Gaisenjarga-västra.txt"
@@ -305,6 +343,7 @@
       "type": "wall",
       "firstAscent": "?",
       "description": "Facet vänster om kanta rei.",
+      "sectorId": "boulderasen",
       "source": {
         "id": "legacy:gaisenjarga-vastra",
         "path": "mediawiki/Gaisenjarga-västra.txt"
@@ -320,6 +359,7 @@
       "type": "roof",
       "firstAscent": "",
       "description": "Linjen innanför i taket bredvid Magic Line. Desperat???",
+      "sectorId": "boulderasen",
       "source": {
         "id": "legacy:gaisenjarga-vastra",
         "path": "mediawiki/Gaisenjarga-västra.txt"
@@ -335,6 +375,7 @@
       "type": "Mantling,Överhäng",
       "firstAscent": "Pudde Hansson",
       "description": "Takproblem bortom tunna röda österut mot träsket. Synligt när man går upp på åsen, två små tak som syns i förgrunden. Följer ett tak (60-70 grader)till en slutdyno och därefter mantling. Riktigt hårt och roligt! ..det finns en ännu lägre sittstart oxå..:)",
+      "sectorId": "boulderasen",
       "source": {
         "id": "legacy:gaisenjarga-vastra",
         "path": "mediawiki/Gaisenjarga-västra.txt"
@@ -350,6 +391,7 @@
       "type": "Krimp,Spricka",
       "firstAscent": "P.Zandelin",
       "description": "Boulderasen ligger vid bakom den övre (andra) \"dammen\", gå från franska blocket in i skogen snett åt höger tills ni kommer till 2st \"dammar\".Startar vid den nedersta listen och fortsätter efter sprickan.",
+      "sectorId": "boulderasen",
       "source": {
         "id": "legacy:gaisenjarga-vastra",
         "path": "mediawiki/Gaisenjarga-västra.txt"
@@ -365,6 +407,7 @@
       "type": "Krimp,Slopers,Spricka",
       "firstAscent": "Kristian och Pontus",
       "description": "ca 50 meter från Hotel njarga mot vägen. Startar vid sprickan, ev. H hand åt höger.",
+      "sectorId": "boulderasen",
       "source": {
         "id": "legacy:gaisenjarga-vastra",
         "path": "mediawiki/Gaisenjarga-västra.txt"
@@ -380,6 +423,7 @@
       "type": "wall",
       "firstAscent": "M.Strängdal",
       "description": "Sittstart hö hörn. Därefter ut vä på face och rakt upp.",
+      "sectorId": "boulderasen",
       "source": {
         "id": "legacy:gaisenjarga-vastra",
         "path": "mediawiki/Gaisenjarga-västra.txt"
@@ -395,6 +439,7 @@
       "type": "pillar",
       "firstAscent": "P.Hansson",
       "description": "Den tydliga pelaren/prowen rakt upp. Fontanstil!",
+      "sectorId": "boulderasen",
       "source": {
         "id": "legacy:gaisenjarga-vastra",
         "path": "mediawiki/Gaisenjarga-västra.txt"
@@ -410,6 +455,7 @@
       "type": "Överhäng",
       "firstAscent": "Pudde Hansson",
       "description": "Kort problem på det annars höga blocket, snett bakåt mot vägen igen fr \"Nästan som Örebro\". Möjligen en halvgrad lättare.",
+      "sectorId": "boulderasen",
       "source": {
         "id": "legacy:gaisenjarga-vastra",
         "path": "mediawiki/Gaisenjarga-västra.txt"
@@ -425,6 +471,7 @@
       "type": "Aréte",
       "firstAscent": "Jakob Strömner",
       "description": "Starta på och klättra upp längs areten höger om Renjävel",
+      "sectorId": "det-nya-landet",
       "source": {
         "id": "legacy:gaisenjarga-vastra",
         "path": "mediawiki/Gaisenjarga-västra.txt"
@@ -440,6 +487,7 @@
       "type": "Dyno",
       "firstAscent": "Carl-Ola Boström",
       "description": "Starta med en hand på areten och andra i överhänget. Dyna till toppen på areten.",
+      "sectorId": "det-nya-landet",
       "source": {
         "id": "legacy:gaisenjarga-vastra",
         "path": "mediawiki/Gaisenjarga-västra.txt"
@@ -455,6 +503,7 @@
       "type": "",
       "firstAscent": "Pudde Hansson",
       "description": "",
+      "sectorId": "det-nya-landet",
       "source": {
         "id": "legacy:gaisenjarga-vastra",
         "path": "mediawiki/Gaisenjarga-västra.txt"
@@ -470,6 +519,7 @@
       "type": "Överhäng",
       "firstAscent": "Pudde Hansson",
       "description": "",
+      "sectorId": "det-nya-landet",
       "source": {
         "id": "legacy:gaisenjarga-vastra",
         "path": "mediawiki/Gaisenjarga-västra.txt"
@@ -485,6 +535,7 @@
       "type": "",
       "firstAscent": "Pudde Hansson",
       "description": "Jättefint faceproblem på ett av bermudablocken, nya landet.",
+      "sectorId": "det-nya-landet",
       "source": {
         "id": "legacy:gaisenjarga-vastra",
         "path": "mediawiki/Gaisenjarga-västra.txt"
@@ -500,6 +551,7 @@
       "type": "",
       "firstAscent": "Pudde Hansson",
       "description": "faceproblem på kaminblock norrut bortom den lilla viken, nya landet",
+      "sectorId": "det-nya-landet",
       "source": {
         "id": "legacy:gaisenjarga-vastra",
         "path": "mediawiki/Gaisenjarga-västra.txt"
@@ -515,6 +567,7 @@
       "type": "Överhäng",
       "firstAscent": "Pudde Hansson",
       "description": "Kort problem nära den lilla viken i nya landet strax bortom huvudblocken.",
+      "sectorId": "det-nya-landet",
       "source": {
         "id": "legacy:gaisenjarga-vastra",
         "path": "mediawiki/Gaisenjarga-västra.txt"
@@ -530,6 +583,7 @@
       "type": "Krimp,Slopers,Mantling,Överhäng",
       "firstAscent": "???",
       "description": "Startar åt höger om \"Kill-Aila\" och går över nosen. Sittstarten är given, super jug.",
+      "sectorId": "det-nya-landet",
       "source": {
         "id": "legacy:gaisenjarga-vastra",
         "path": "mediawiki/Gaisenjarga-västra.txt"
@@ -545,6 +599,7 @@
       "type": "Krimp, Mantling",
       "firstAscent": "Cajsa Nilsson",
       "description": "På andra Bermudablocket. Sittstart på lilla stenen (samma som hangeltraversen). Toppar ur mitt på väggen via krimpramp.",
+      "sectorId": "det-nya-landet",
       "source": {
         "id": "legacy:gaisenjarga-vastra",
         "path": "mediawiki/Gaisenjarga-västra.txt"
@@ -560,6 +615,7 @@
       "type": "Dyno, Mantling",
       "firstAscent": "Johannes Ingrisch",
       "description": "På andra Bermudablocket. Start on the two good holds of the traverse and dyno straight up to the edge.",
+      "sectorId": "det-nya-landet",
       "source": {
         "id": "legacy:gaisenjarga-vastra",
         "path": "mediawiki/Gaisenjarga-västra.txt"
@@ -575,6 +631,7 @@
       "type": "slopers",
       "firstAscent": "P.Hansson",
       "description": "",
+      "sectorId": "silverfaran",
       "source": {
         "id": "legacy:gaisenjarga-vastra",
         "path": "mediawiki/Gaisenjarga-västra.txt"
@@ -590,6 +647,7 @@
       "type": "wall",
       "firstAscent": "P.Hansson",
       "description": "",
+      "sectorId": "silverfaran",
       "source": {
         "id": "legacy:gaisenjarga-vastra",
         "path": "mediawiki/Gaisenjarga-västra.txt"
@@ -605,6 +663,7 @@
       "type": "roof",
       "firstAscent": "",
       "description": "",
+      "sectorId": "silverfaran",
       "source": {
         "id": "legacy:gaisenjarga-vastra",
         "path": "mediawiki/Gaisenjarga-västra.txt"
@@ -620,6 +679,7 @@
       "type": "mantle",
       "firstAscent": "",
       "description": "",
+      "sectorId": "silverfaran",
       "source": {
         "id": "legacy:gaisenjarga-vastra",
         "path": "mediawiki/Gaisenjarga-västra.txt"
@@ -635,6 +695,7 @@
       "type": "overhang",
       "firstAscent": "M.Strängdal",
       "description": "",
+      "sectorId": "silverfaran",
       "source": {
         "id": "legacy:gaisenjarga-vastra",
         "path": "mediawiki/Gaisenjarga-västra.txt"
@@ -650,6 +711,7 @@
       "type": "overhang",
       "firstAscent": "P.Hansson",
       "description": "",
+      "sectorId": "silverfaran",
       "source": {
         "id": "legacy:gaisenjarga-vastra",
         "path": "mediawiki/Gaisenjarga-västra.txt"
@@ -665,6 +727,7 @@
       "type": "overhang",
       "firstAscent": "P.Hansson",
       "description": "Sittstart vänster hörn. Följ därefter jugkanten höger och mantla över till hö. Fin!",
+      "sectorId": "silverfaran",
       "source": {
         "id": "legacy:gaisenjarga-vastra",
         "path": "mediawiki/Gaisenjarga-västra.txt"
@@ -680,6 +743,7 @@
       "type": "overhang",
       "firstAscent": "",
       "description": "Mittenlinjen. Sanslös och vanvettigt snygg. Dock fortfarande ogjord..",
+      "sectorId": "silverfaran",
       "source": {
         "id": "legacy:gaisenjarga-vastra",
         "path": "mediawiki/Gaisenjarga-västra.txt"
@@ -695,6 +759,7 @@
       "type": "overhang",
       "firstAscent": "P.Hansson",
       "description": "Start till höger vid det sjungande trädet, därefter rakt upp. Ganska hög..",
+      "sectorId": "silverfaran",
       "source": {
         "id": "legacy:gaisenjarga-vastra",
         "path": "mediawiki/Gaisenjarga-västra.txt"
@@ -710,6 +775,7 @@
       "type": "slab",
       "firstAscent": "M.Strängdal",
       "description": "Uppför svaet utan de frestande greppen åt höger.",
+      "sectorId": "silverfaran",
       "source": {
         "id": "legacy:gaisenjarga-vastra",
         "path": "mediawiki/Gaisenjarga-västra.txt"
@@ -725,6 +791,7 @@
       "type": "overhang",
       "firstAscent": "D.Nutti",
       "description": "",
+      "sectorId": "silverfaran",
       "source": {
         "id": "legacy:gaisenjarga-vastra",
         "path": "mediawiki/Gaisenjarga-västra.txt"
@@ -740,6 +807,7 @@
       "type": "prow",
       "firstAscent": "P.Hansson",
       "description": "",
+      "sectorId": "silverfaran",
       "source": {
         "id": "legacy:gaisenjarga-vastra",
         "path": "mediawiki/Gaisenjarga-västra.txt"
@@ -755,6 +823,7 @@
       "type": "overhang",
       "firstAscent": "M.Strängdal",
       "description": "",
+      "sectorId": "silverfaran",
       "source": {
         "id": "legacy:gaisenjarga-vastra",
         "path": "mediawiki/Gaisenjarga-västra.txt"
@@ -770,6 +839,7 @@
       "type": "overhang",
       "firstAscent": "",
       "description": "",
+      "sectorId": "silverfaran",
       "source": {
         "id": "legacy:gaisenjarga-vastra",
         "path": "mediawiki/Gaisenjarga-västra.txt"
@@ -785,6 +855,7 @@
       "type": "slopers",
       "firstAscent": "Pudde Hansson",
       "description": "Start på läppen via tydliga sluttare. Därefter rakt upp vilket är betydligt svårare än det ser ut att vara..",
+      "sectorId": "silverfaran",
       "source": {
         "id": "legacy:gaisenjarga-vastra",
         "path": "mediawiki/Gaisenjarga-västra.txt"
@@ -800,6 +871,7 @@
       "type": "",
       "firstAscent": "M.Strängdal,P.Hansson",
       "description": "Sittstart på listerna, därefter upp åt vänster och mantla. Fin!",
+      "sectorId": "silverfaran",
       "source": {
         "id": "legacy:gaisenjarga-vastra",
         "path": "mediawiki/Gaisenjarga-västra.txt"
@@ -815,6 +887,7 @@
       "type": "slab",
       "firstAscent": "M.Lagerquist",
       "description": "Det fina svaet med sprickan längst till höger",
+      "sectorId": "silverfaran",
       "source": {
         "id": "legacy:gaisenjarga-vastra",
         "path": "mediawiki/Gaisenjarga-västra.txt"
@@ -830,6 +903,7 @@
       "type": "slab",
       "firstAscent": "M.Lagerquist",
       "description": "Eliminiation på föregående. Svaet utan sprickan. Fin!",
+      "sectorId": "silverfaran",
       "source": {
         "id": "legacy:gaisenjarga-vastra",
         "path": "mediawiki/Gaisenjarga-västra.txt"
@@ -845,6 +919,7 @@
       "type": "slab",
       "firstAscent": "",
       "description": "svaet längst till vänster. Fin och hög..",
+      "sectorId": "silverfaran",
       "source": {
         "id": "legacy:gaisenjarga-vastra",
         "path": "mediawiki/Gaisenjarga-västra.txt"
@@ -860,6 +935,7 @@
       "type": "overhang",
       "firstAscent": "",
       "description": "Start vid arete hö. därefter in i hänget och sedan rakt upp.",
+      "sectorId": "silverfaran",
       "source": {
         "id": "legacy:gaisenjarga-vastra",
         "path": "mediawiki/Gaisenjarga-västra.txt"
@@ -875,6 +951,7 @@
       "type": "Highball/slab",
       "firstAscent": "M.Lagerquist",
       "description": "Svaet höger om 15.1. Högt och fint!",
+      "sectorId": "silverfaran",
       "source": {
         "id": "legacy:gaisenjarga-vastra",
         "path": "mediawiki/Gaisenjarga-västra.txt"
@@ -890,6 +967,7 @@
       "type": "overhang",
       "firstAscent": "M.Lagerquist",
       "description": "Sittstart vid spricka/list. Drag upp till läpp, och mantla över.Fin!",
+      "sectorId": "silverfaran",
       "source": {
         "id": "legacy:gaisenjarga-vastra",
         "path": "mediawiki/Gaisenjarga-västra.txt"
@@ -905,6 +983,7 @@
       "type": "wall",
       "firstAscent": "M.Strängdal",
       "description": "Sittstart nere i hålet. Därefter vänster och upp efter succesivt bättre grepp. Trixig start.",
+      "sectorId": "silverfaran",
       "source": {
         "id": "legacy:gaisenjarga-vastra",
         "path": "mediawiki/Gaisenjarga-västra.txt"
@@ -920,6 +999,7 @@
       "type": "arete",
       "firstAscent": "",
       "description": "Den vackra areten. Ser kärv ut i början..",
+      "sectorId": "silverfaran",
       "source": {
         "id": "legacy:gaisenjarga-vastra",
         "path": "mediawiki/Gaisenjarga-västra.txt"
@@ -935,6 +1015,7 @@
       "type": "overhang",
       "firstAscent": "",
       "description": "Borstad och klar! Otroligt snygg linje, dock fortfarande ogjord!",
+      "sectorId": "silverfaran",
       "source": {
         "id": "legacy:gaisenjarga-vastra",
         "path": "mediawiki/Gaisenjarga-västra.txt"
@@ -950,6 +1031,7 @@
       "type": "wall",
       "firstAscent": "M.Lagerquist",
       "description": "Sittstart. Upp till lutande ramp.",
+      "sectorId": "silverfaran",
       "source": {
         "id": "legacy:gaisenjarga-vastra",
         "path": "mediawiki/Gaisenjarga-västra.txt"
@@ -965,6 +1047,7 @@
       "type": "wall",
       "firstAscent": "M.Lagerquist",
       "description": "Sittstart. Svårare än det ser ut.",
+      "sectorId": "silverfaran",
       "source": {
         "id": "legacy:gaisenjarga-vastra",
         "path": "mediawiki/Gaisenjarga-västra.txt"
@@ -980,6 +1063,7 @@
       "type": "dyno",
       "firstAscent": "P.Hansson",
       "description": "Hoppstart från undercling. Sedan kort hård dyno till topp.",
+      "sectorId": "silverfaran",
       "source": {
         "id": "legacy:gaisenjarga-vastra",
         "path": "mediawiki/Gaisenjarga-västra.txt"
@@ -995,6 +1079,7 @@
       "type": "wall",
       "firstAscent": "M.Lagerquist",
       "description": "",
+      "sectorId": "silverfaran",
       "source": {
         "id": "legacy:gaisenjarga-vastra",
         "path": "mediawiki/Gaisenjarga-västra.txt"
@@ -1010,6 +1095,7 @@
       "type": "overhang",
       "firstAscent": "P.Hansson",
       "description": "Sittstart. Följ juggstegen höger och mantla över det borstade stråket. Svinhäftig!",
+      "sectorId": "silverfaran",
       "source": {
         "id": "legacy:gaisenjarga-vastra",
         "path": "mediawiki/Gaisenjarga-västra.txt"
@@ -1025,6 +1111,7 @@
       "type": "Aréte",
       "firstAscent": "Heyman",
       "description": "Den tydliga och höga areten.",
+      "sectorId": "silverfaran",
       "source": {
         "id": "legacy:gaisenjarga-vastra",
         "path": "mediawiki/Gaisenjarga-västra.txt"
@@ -1040,6 +1127,7 @@
       "type": "",
       "firstAscent": "McGregor",
       "description": "",
+      "sectorId": "silverfaran",
       "source": {
         "id": "legacy:gaisenjarga-vastra",
         "path": "mediawiki/Gaisenjarga-västra.txt"
@@ -1055,6 +1143,7 @@
       "type": "",
       "firstAscent": "McGregor",
       "description": "",
+      "sectorId": "silverfaran",
       "source": {
         "id": "legacy:gaisenjarga-vastra",
         "path": "mediawiki/Gaisenjarga-västra.txt"
@@ -1070,6 +1159,7 @@
       "type": "",
       "firstAscent": "McGregor",
       "description": "",
+      "sectorId": "silverfaran",
       "source": {
         "id": "legacy:gaisenjarga-vastra",
         "path": "mediawiki/Gaisenjarga-västra.txt"
@@ -1085,6 +1175,7 @@
       "type": "",
       "firstAscent": "McGregor",
       "description": "",
+      "sectorId": "silverfaran",
       "source": {
         "id": "legacy:gaisenjarga-vastra",
         "path": "mediawiki/Gaisenjarga-västra.txt"
@@ -1100,6 +1191,7 @@
       "type": "Krimp,Slopers,Mantling",
       "firstAscent": "Pontus",
       "description": "Från vägen första problemet vid \"Franska\" blocket. Två start grepp sittandes vänster om nosen, avslutas med mantling.",
+      "sectorId": "silverfaran",
       "source": {
         "id": "legacy:gaisenjarga-vastra",
         "path": "mediawiki/Gaisenjarga-västra.txt"
@@ -1115,6 +1207,7 @@
       "type": "",
       "firstAscent": "Chrille",
       "description": "",
+      "sectorId": "silverfaran",
       "source": {
         "id": "legacy:gaisenjarga-vastra",
         "path": "mediawiki/Gaisenjarga-västra.txt"
@@ -1130,6 +1223,7 @@
       "type": "",
       "firstAscent": "Chrille",
       "description": "Överhänget",
+      "sectorId": "silverfaran",
       "source": {
         "id": "legacy:gaisenjarga-vastra",
         "path": "mediawiki/Gaisenjarga-västra.txt"
@@ -1145,6 +1239,7 @@
       "type": "Mantling,Överhäng,Slab",
       "firstAscent": "Chrille",
       "description": "Sitt, ta i till slaben, sen toehooks dyno till jug sedan mantling. 45% överhäng.",
+      "sectorId": "silverfaran",
       "source": {
         "id": "legacy:gaisenjarga-vastra",
         "path": "mediawiki/Gaisenjarga-västra.txt"
@@ -1160,6 +1255,7 @@
       "type": "Krimp,Slopers,Dyno",
       "firstAscent": "Pudde",
       "description": "Sittstarten på den högra Dynolinjen.",
+      "sectorId": "silverfaran",
       "source": {
         "id": "legacy:gaisenjarga-vastra",
         "path": "mediawiki/Gaisenjarga-västra.txt"
@@ -1175,6 +1271,7 @@
       "type": "Krimp,Pinch",
       "firstAscent": "CB",
       "description": "En rörelse sen jugar, sitt, Händerna långt till höger och vänster och ta i.",
+      "sectorId": "silverfaran",
       "source": {
         "id": "legacy:gaisenjarga-vastra",
         "path": "mediawiki/Gaisenjarga-västra.txt"
@@ -1190,6 +1287,7 @@
       "type": "Dyno",
       "firstAscent": "CB",
       "description": "Etablera dig och hoppa. Ligger på Franska blocket.",
+      "sectorId": "silverfaran",
       "source": {
         "id": "legacy:gaisenjarga-vastra",
         "path": "mediawiki/Gaisenjarga-västra.txt"
@@ -1205,6 +1303,7 @@
       "type": "Dyno",
       "firstAscent": "CB",
       "description": "Etablera dig och hoppa, Franska blocket",
+      "sectorId": "silverfaran",
       "source": {
         "id": "legacy:gaisenjarga-vastra",
         "path": "mediawiki/Gaisenjarga-västra.txt"
@@ -1220,6 +1319,7 @@
       "type": "Slab,Jug",
       "firstAscent": "CB",
       "description": "Jugg hyllan upp på Slab sen lång rörelse till jug. Längst till höger på Franska blocket.",
+      "sectorId": "silverfaran",
       "source": {
         "id": "legacy:gaisenjarga-vastra",
         "path": "mediawiki/Gaisenjarga-västra.txt"
@@ -1235,6 +1335,7 @@
       "type": "Slopers",
       "firstAscent": "Chrille",
       "description": "",
+      "sectorId": "silverfaran",
       "source": {
         "id": "legacy:gaisenjarga-vastra",
         "path": "mediawiki/Gaisenjarga-västra.txt"
@@ -1250,6 +1351,7 @@
       "type": "Dyno",
       "firstAscent": "Carl-Ola Boström",
       "description": "Från Kill-Aila, rakt norrut 100m uppe på kammen.",
+      "sectorId": "silverfaran",
       "source": {
         "id": "legacy:gaisenjarga-vastra",
         "path": "mediawiki/Gaisenjarga-västra.txt"
@@ -1265,6 +1367,7 @@
       "type": "Aréte",
       "firstAscent": "Jakob Strömner",
       "description": "Ligger på samma block som Jah",
+      "sectorId": "silverfaran",
       "source": {
         "id": "legacy:gaisenjarga-vastra",
         "path": "mediawiki/Gaisenjarga-västra.txt"
@@ -1280,6 +1383,7 @@
       "type": "Slab",
       "firstAscent": "P.Zandelin",
       "description": "Vid BoulderAsen, mitten slabben efter linjen.",
+      "sectorId": "silverfaran",
       "source": {
         "id": "legacy:gaisenjarga-vastra",
         "path": "mediawiki/Gaisenjarga-västra.txt"
@@ -1295,6 +1399,7 @@
       "type": "Överhäng",
       "firstAscent": "",
       "description": "",
+      "sectorId": "silverfaran",
       "source": {
         "id": "legacy:gaisenjarga-vastra",
         "path": "mediawiki/Gaisenjarga-västra.txt"
@@ -1310,6 +1415,7 @@
       "type": "Krimp,Slopers,Mantling",
       "firstAscent": "P.Zandelin",
       "description": "Från vägen första problemet vid \"Franska\" blocket. Två start grepp sittandes vänster om nosen, avslutas med mantling.",
+      "sectorId": "silverfaran",
       "source": {
         "id": "legacy:gaisenjarga-vastra",
         "path": "mediawiki/Gaisenjarga-västra.txt"

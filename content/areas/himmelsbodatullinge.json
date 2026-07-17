@@ -50,6 +50,7 @@
       "type": "Solo/toprep",
       "firstAscent": "M.Söderström -2012 Solo",
       "description": "Padda upp ordenkligt om du ska sola den.",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:himmelsbodatullinge",
         "path": "mediawiki/HimmelsbodaTullinge.txt"
@@ -60,7 +61,8 @@
     {
       "filename": "Klippa.jpg",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "leder"
     }
   ],
   "access": {

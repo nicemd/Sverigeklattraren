@@ -33,9 +33,19 @@
       "body": "titel=Solberga lat=18307590 long=59225680 Åk Tyresövägen och sväng h i rondellen till Brakmarsvägen. Följ denna till den andra vägen på vänster sida. Den heter Passet. Denna väg följs tills den tar slut (10 m) varefter du svänger h in på Vallvägen. I slutet på Vallvägen ligger en parkeringsplats och nu syns berget 30 m upp i skogen"
     },
     {
+      "id": "leder",
+      "title": "Leder",
+      "body": ""
+    },
+    {
       "id": "vanstra-delen",
       "title": "Vänstra delen",
       "body": "Klippan här är relativt flack men högre än övriga delar. På toppen finns några lätta nötter."
+    },
+    {
+      "id": "mittpartiet",
+      "title": "Mittpartiet",
+      "body": ""
     },
     {
       "id": "hogra-delen",
@@ -54,6 +64,7 @@
       "type": "",
       "firstAscent": "Ståle Ekelund -88",
       "description": "",
+      "sectorId": "vanstra-delen",
       "source": {
         "id": "legacy:solberga",
         "path": "mediawiki/Solberga.txt"
@@ -69,6 +80,7 @@
       "type": "",
       "firstAscent": "Gustav Schaffter -88",
       "description": "",
+      "sectorId": "vanstra-delen",
       "source": {
         "id": "legacy:solberga",
         "path": "mediawiki/Solberga.txt"
@@ -84,6 +96,7 @@
       "type": "",
       "firstAscent": "Ståle Ekelund -89",
       "description": "",
+      "sectorId": "vanstra-delen",
       "source": {
         "id": "legacy:solberga",
         "path": "mediawiki/Solberga.txt"
@@ -99,6 +112,7 @@
       "type": "",
       "firstAscent": "Peter Brolin, Eva Rozenbeek -89",
       "description": "",
+      "sectorId": "vanstra-delen",
       "source": {
         "id": "legacy:solberga",
         "path": "mediawiki/Solberga.txt"
@@ -114,6 +128,7 @@
       "type": "",
       "firstAscent": "Gustav Schaffter -88",
       "description": "",
+      "sectorId": "vanstra-delen",
       "source": {
         "id": "legacy:solberga",
         "path": "mediawiki/Solberga.txt"
@@ -129,6 +144,7 @@
       "type": "",
       "firstAscent": "Ståle Ekelund -88",
       "description": "",
+      "sectorId": "vanstra-delen",
       "source": {
         "id": "legacy:solberga",
         "path": "mediawiki/Solberga.txt"
@@ -144,6 +160,7 @@
       "type": "",
       "firstAscent": "Ståle Ekelund, Gustav Schaffter -88",
       "description": "",
+      "sectorId": "vanstra-delen",
       "source": {
         "id": "legacy:solberga",
         "path": "mediawiki/Solberga.txt"
@@ -159,6 +176,7 @@
       "type": "",
       "firstAscent": "Ståle Ekelund, Gustav Schaffter -88",
       "description": "",
+      "sectorId": "vanstra-delen",
       "source": {
         "id": "legacy:solberga",
         "path": "mediawiki/Solberga.txt"
@@ -174,6 +192,7 @@
       "type": "",
       "firstAscent": "Marco & Pentti Kupiainen -94",
       "description": "",
+      "sectorId": "vanstra-delen",
       "source": {
         "id": "legacy:solberga",
         "path": "mediawiki/Solberga.txt"
@@ -189,6 +208,7 @@
       "type": "",
       "firstAscent": "Anders Lundahl, Eva Selin -89",
       "description": "",
+      "sectorId": "mittpartiet",
       "source": {
         "id": "legacy:solberga",
         "path": "mediawiki/Solberga.txt"
@@ -204,6 +224,7 @@
       "type": "",
       "firstAscent": "Anders Lundahl -89",
       "description": "",
+      "sectorId": "mittpartiet",
       "source": {
         "id": "legacy:solberga",
         "path": "mediawiki/Solberga.txt"
@@ -219,6 +240,7 @@
       "type": "",
       "firstAscent": "Anders Lundahl -89",
       "description": "",
+      "sectorId": "mittpartiet",
       "source": {
         "id": "legacy:solberga",
         "path": "mediawiki/Solberga.txt"
@@ -234,6 +256,7 @@
       "type": "",
       "firstAscent": "Ståle Ekelund -88",
       "description": "",
+      "sectorId": "hogra-delen",
       "source": {
         "id": "legacy:solberga",
         "path": "mediawiki/Solberga.txt"
@@ -249,6 +272,7 @@
       "type": "",
       "firstAscent": "Marco Kupiainen, Christer Jansson -94",
       "description": "",
+      "sectorId": "hogra-delen",
       "source": {
         "id": "legacy:solberga",
         "path": "mediawiki/Solberga.txt"
@@ -264,6 +288,7 @@
       "type": "",
       "firstAscent": "Ståle Ekelund -89",
       "description": "",
+      "sectorId": "hogra-delen",
       "source": {
         "id": "legacy:solberga",
         "path": "mediawiki/Solberga.txt"
@@ -279,6 +304,7 @@
       "type": "",
       "firstAscent": "Gustav Schaffter(solo -88",
       "description": "",
+      "sectorId": "hogra-delen",
       "source": {
         "id": "legacy:solberga",
         "path": "mediawiki/Solberga.txt"
@@ -288,13 +314,15 @@
   "images": [
     {
       "filename": "Solberga_v.png",
-      "caption": "right",
-      "missing": false
+      "caption": "",
+      "missing": false,
+      "sectorId": "vanstra-delen"
     },
     {
       "filename": "Solberga_h.png",
-      "caption": "right",
-      "missing": false
+      "caption": "",
+      "missing": false,
+      "sectorId": "hogra-delen"
     }
   ],
   "access": {

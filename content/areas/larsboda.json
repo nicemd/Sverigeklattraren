@@ -21,6 +21,11 @@
       "body": "Kör väg 73 mot nynäshamn. Efter Farsta C (om du kommer norrifrån, före Farsta C om du kommer söderifrån) ta av på Ågesta broväg. Sväng genast vänster in på Mårbackagatan, förbi Telia. Fortsätt runt området och ta höger in på Filipstabdsbacken. Du kan parkera på gatan i backen. Gå över vägen och ner för gångvägen så kommer du till en gångväg som löper mellan husen. Här ligger den intressanta klippan i Larsboda."
     },
     {
+      "id": "boulderproblem",
+      "title": "Boulderproblem",
+      "body": ""
+    },
+    {
       "id": "gammal-forare",
       "title": "Gammal förare",
       "body": "Gammal förare: Klaan"
@@ -42,6 +47,7 @@
       "type": "boulder",
       "firstAscent": "",
       "description": "Röd linje vänster.",
+      "sectorId": "fridge-klippan",
       "source": {
         "id": "legacy:larsboda",
         "path": "mediawiki/Larsboda.txt"
@@ -57,6 +63,7 @@
       "type": "boulder",
       "firstAscent": "",
       "description": "Grön linje. Lite löst startgrepp.",
+      "sectorId": "fridge-klippan",
       "source": {
         "id": "legacy:larsboda",
         "path": "mediawiki/Larsboda.txt"
@@ -72,6 +79,7 @@
       "type": "boulder",
       "firstAscent": "",
       "description": "Gul linje vänster.",
+      "sectorId": "fridge-klippan",
       "source": {
         "id": "legacy:larsboda",
         "path": "mediawiki/Larsboda.txt"
@@ -87,6 +95,7 @@
       "type": "boulder",
       "firstAscent": "",
       "description": "*** Röd linje mitten. Gå rakt upp för bullen, använd sprickorna på bägge sidorna.",
+      "sectorId": "fridge-klippan",
       "source": {
         "id": "legacy:larsboda",
         "path": "mediawiki/Larsboda.txt"
@@ -102,6 +111,7 @@
       "type": "boulder",
       "firstAscent": "",
       "description": "Gul linje höger.",
+      "sectorId": "fridge-klippan",
       "source": {
         "id": "legacy:larsboda",
         "path": "mediawiki/Larsboda.txt"
@@ -117,6 +127,7 @@
       "type": "boulder",
       "firstAscent": "",
       "description": "Röd linje höger.",
+      "sectorId": "fridge-klippan",
       "source": {
         "id": "legacy:larsboda",
         "path": "mediawiki/Larsboda.txt"
@@ -132,6 +143,7 @@
       "type": "boulder",
       "firstAscent": "",
       "description": "Blå linje höger till vänster.",
+      "sectorId": "fridge-klippan",
       "source": {
         "id": "legacy:larsboda",
         "path": "mediawiki/Larsboda.txt"
@@ -147,6 +159,7 @@
       "type": "boulder",
       "firstAscent": "",
       "description": "Starta i \"Travers\" men gå rakt upp vid \"DEA\".",
+      "sectorId": "fridge-klippan",
       "source": {
         "id": "legacy:larsboda",
         "path": "mediawiki/Larsboda.txt"
@@ -157,7 +170,8 @@
     {
       "filename": "Larsboda.jpg",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "fridge-klippan"
     }
   ],
   "access": {

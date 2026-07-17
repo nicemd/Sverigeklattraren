@@ -19,6 +19,7 @@ export type Route = {
   type: string;
   firstAscent: string;
   description: string;
+  sectorId: string | null;
   source: { id: string; path: string };
 };
 
@@ -37,9 +38,9 @@ export type AreaSummary = {
 
 export type Area = Omit<AreaSummary, "routeCount" | "imageCount" | "accessSlug" | "searchText"> & {
   schemaVersion: number;
-  sections: Array<{ id: string; title: string; body: string }>;
+  sections: Array<{ id: string; title: string; body: string; sourceStart?: number; sourceEnd?: number }>;
   routes: Route[];
-  images: Array<{ filename: string; caption: string; missing?: boolean }>;
+  images: Array<{ filename: string; caption: string; missing?: boolean; sectorId?: string | null }>;
   access: { legacyText: string | null; federationSlug: string | null };
   qualityIssues: Array<{ code: string; message: string }>;
   provenance: { primarySourceId: string; sources: SourceReference[] };

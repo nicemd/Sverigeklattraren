@@ -3,7 +3,7 @@
   "id": "trodjegropen",
   "slug": "trodjegropen",
   "name": "Trödjegropen",
-  "description": "Från centrala Gävle Åk norrut på gamla E4:an förbi golfbanan. Fortsätt förbi Hille och Björke. Åk förbi skylten Eskön och ta nästa vänster ner genom grusgropen. Åk genom sandtaget och över järnvägen och sväng vänster. Fortsätt tills vägen svänger höger 90 grader. Framme.",
+  "description": "Kategori:Saknar allmän info",
   "coordinates": null,
   "categories": [
     "Behöver kvalitetssäkras",
@@ -17,6 +17,11 @@
     "Saknar skrivarformattering"
   ],
   "sections": [
+    {
+      "id": "allmant",
+      "title": "Allmänt",
+      "body": ""
+    },
     {
       "id": "vagbeskrivning",
       "title": "Vägbeskrivning",
@@ -39,6 +44,7 @@
       "type": "Krimp",
       "firstAscent": "Patrick O, Ronny A",
       "description": "Starta på crimparna, upp till sidepull för vänster och skick till kanten",
+      "sectorId": "problem",
       "source": {
         "id": "legacy:trodjegropen",
         "path": "mediawiki/Trödjegropen.txt"
@@ -54,6 +60,7 @@
       "type": "Slopers",
       "firstAscent": "Daniel H",
       "description": "Håll er vänster om lilla aréten",
+      "sectorId": "problem",
       "source": {
         "id": "legacy:trodjegropen",
         "path": "mediawiki/Trödjegropen.txt"
@@ -69,6 +76,7 @@
       "type": "Slopers",
       "firstAscent": "Daniel H",
       "description": "Start med högerhand i undercling",
+      "sectorId": "problem",
       "source": {
         "id": "legacy:trodjegropen",
         "path": "mediawiki/Trödjegropen.txt"
@@ -84,6 +92,7 @@
       "type": "Slopers,Travers V->H",
       "firstAscent": "David H, Patrick O, Ronny A",
       "description": "Start på hyllan, toppa ur vid \"hålet\"",
+      "sectorId": "problem",
       "source": {
         "id": "legacy:trodjegropen",
         "path": "mediawiki/Trödjegropen.txt"
@@ -99,6 +108,7 @@
       "type": "Jug",
       "firstAscent": "Ronny A",
       "description": "Starta ute till höger på jugen för högerhand och stora steget för högerfot",
+      "sectorId": "problem",
       "source": {
         "id": "legacy:trodjegropen",
         "path": "mediawiki/Trödjegropen.txt"
@@ -114,6 +124,7 @@
       "type": "Slab",
       "firstAscent": "Patrick O",
       "description": "Aréten på greppmarodören är utesluten, håll er höger om mossan",
+      "sectorId": "problem",
       "source": {
         "id": "legacy:trodjegropen",
         "path": "mediawiki/Trödjegropen.txt"
@@ -129,6 +140,7 @@
       "type": "Krimp,Aréte",
       "firstAscent": "Patrick O, Ronny A",
       "description": "Gå rakt upp via aréten",
+      "sectorId": "problem",
       "source": {
         "id": "legacy:trodjegropen",
         "path": "mediawiki/Trödjegropen.txt"
@@ -144,6 +156,7 @@
       "type": "Aréte",
       "firstAscent": "David H, Patrick O, Ronny A",
       "description": "Rakt upp mha aréten",
+      "sectorId": "problem",
       "source": {
         "id": "legacy:trodjegropen",
         "path": "mediawiki/Trödjegropen.txt"
@@ -159,6 +172,7 @@
       "type": "Krimp,Slopers,Överhäng",
       "firstAscent": "Patrick O, Ronny A",
       "description": "Rakt upp via \"näsan\"",
+      "sectorId": "problem",
       "source": {
         "id": "legacy:trodjegropen",
         "path": "mediawiki/Trödjegropen.txt"
@@ -174,6 +188,7 @@
       "type": "Krimp",
       "firstAscent": "David H, Patrick O",
       "description": "Start i undercling, Rakt upp",
+      "sectorId": "problem",
       "source": {
         "id": "legacy:trodjegropen",
         "path": "mediawiki/Trödjegropen.txt"
@@ -189,6 +204,7 @@
       "type": "Slopers",
       "firstAscent": "Ronny A",
       "description": "Sittstart med händerna på den slopiga hyllan till höger",
+      "sectorId": "problem",
       "source": {
         "id": "legacy:trodjegropen",
         "path": "mediawiki/Trödjegropen.txt"
@@ -204,6 +220,7 @@
       "type": "Krimp,Slopers",
       "firstAscent": "Ronny A",
       "description": "Vänster om trädet",
+      "sectorId": "problem",
       "source": {
         "id": "legacy:trodjegropen",
         "path": "mediawiki/Trödjegropen.txt"
@@ -219,6 +236,7 @@
       "type": "Krimp,Slopers",
       "firstAscent": "Patrick O",
       "description": "Vänster om drängen",
+      "sectorId": "problem",
       "source": {
         "id": "legacy:trodjegropen",
         "path": "mediawiki/Trödjegropen.txt"
@@ -234,6 +252,7 @@
       "type": "Slopers,Aréte",
       "firstAscent": "Patrick O",
       "description": "Gå rakt upp via aréten",
+      "sectorId": "problem",
       "source": {
         "id": "legacy:trodjegropen",
         "path": "mediawiki/Trödjegropen.txt"
@@ -249,6 +268,7 @@
       "type": "Krimp,Överhäng",
       "firstAscent": "David H, Patrick O",
       "description": "\"Traversera\" in vänster och toppa ur lika som sänka skepp",
+      "sectorId": "problem",
       "source": {
         "id": "legacy:trodjegropen",
         "path": "mediawiki/Trödjegropen.txt"
@@ -264,6 +284,7 @@
       "type": "Krimp,Slopers,Heel hook",
       "firstAscent": "David H, Patrick O",
       "description": "Samma start som Los Pendlos, gå ej ut på \"näsan\" utan gå rakt upp",
+      "sectorId": "problem",
       "source": {
         "id": "legacy:trodjegropen",
         "path": "mediawiki/Trödjegropen.txt"
@@ -279,6 +300,7 @@
       "type": "Slopers,Mantling",
       "firstAscent": "Ronny A",
       "description": "Variant på ryggplask, gå rakt upp vänster om trädet",
+      "sectorId": "problem",
       "source": {
         "id": "legacy:trodjegropen",
         "path": "mediawiki/Trödjegropen.txt"
@@ -294,6 +316,7 @@
       "type": "Slopers,Mantling,Travers V->H",
       "firstAscent": "Ronny A",
       "description": "Start på stora hyllan, traversera höger och toppa ur vid trädet.",
+      "sectorId": "problem",
       "source": {
         "id": "legacy:trodjegropen",
         "path": "mediawiki/Trödjegropen.txt"
@@ -309,6 +332,7 @@
       "type": "Krimp,Aréte,Jug",
       "firstAscent": "Johan A",
       "description": "Fina hyllan är med",
+      "sectorId": "problem",
       "source": {
         "id": "legacy:trodjegropen",
         "path": "mediawiki/Trödjegropen.txt"
@@ -324,6 +348,7 @@
       "type": "Krimp,Slopers",
       "firstAscent": "Ronny A",
       "description": "Aréten utesluten",
+      "sectorId": "problem",
       "source": {
         "id": "legacy:trodjegropen",
         "path": "mediawiki/Trödjegropen.txt"
@@ -339,6 +364,7 @@
       "type": "Aréte",
       "firstAscent": "David H",
       "description": "Aréten rakt upp",
+      "sectorId": "problem",
       "source": {
         "id": "legacy:trodjegropen",
         "path": "mediawiki/Trödjegropen.txt"
@@ -354,6 +380,7 @@
       "type": "Krimp,Slab",
       "firstAscent": "David H",
       "description": "Etablera under taket med Vänsterhand crimp, Högerhand slab runt kanten",
+      "sectorId": "problem",
       "source": {
         "id": "legacy:trodjegropen",
         "path": "mediawiki/Trödjegropen.txt"
@@ -369,6 +396,7 @@
       "type": "Aréte",
       "firstAscent": "Ronny A",
       "description": "Aréten rakt upp",
+      "sectorId": "problem",
       "source": {
         "id": "legacy:trodjegropen",
         "path": "mediawiki/Trödjegropen.txt"
@@ -384,6 +412,7 @@
       "type": "Aréte",
       "firstAscent": "Ronny A",
       "description": "Starta etablerad med fötterna på väggen, ej på stora hyllan, Högerhand på sidepull, Vänsterhand på aréten.",
+      "sectorId": "problem",
       "source": {
         "id": "legacy:trodjegropen",
         "path": "mediawiki/Trödjegropen.txt"
@@ -399,6 +428,7 @@
       "type": "Layback",
       "firstAscent": "Patrick O",
       "description": "Går precis vänster om aréten, gå upp via sidepull greppen.",
+      "sectorId": "problem",
       "source": {
         "id": "legacy:trodjegropen",
         "path": "mediawiki/Trödjegropen.txt"
@@ -414,6 +444,7 @@
       "type": "Mantling",
       "firstAscent": "Ronny A, Patrick O",
       "description": "Starta sittande på stenen",
+      "sectorId": "problem",
       "source": {
         "id": "legacy:trodjegropen",
         "path": "mediawiki/Trödjegropen.txt"
@@ -429,6 +460,7 @@
       "type": "Krimp,Jug",
       "firstAscent": "Andreas ??",
       "description": "Start på listen under taket, toppas ur rakt upp",
+      "sectorId": "problem",
       "source": {
         "id": "legacy:trodjegropen",
         "path": "mediawiki/Trödjegropen.txt"
@@ -444,6 +476,7 @@
       "type": "Krimp,Överhäng,Jug",
       "firstAscent": "Patrick O",
       "description": "Samma start som Andreas problem, följ taket ut och toppa ur där det slutar",
+      "sectorId": "problem",
       "source": {
         "id": "legacy:trodjegropen",
         "path": "mediawiki/Trödjegropen.txt"
@@ -459,6 +492,7 @@
       "type": "Krimp",
       "firstAscent": "Patrick O",
       "description": "Rakt upp vänster om trädet",
+      "sectorId": "problem",
       "source": {
         "id": "legacy:trodjegropen",
         "path": "mediawiki/Trödjegropen.txt"
@@ -474,6 +508,7 @@
       "type": "Highball",
       "firstAscent": "Daniel H",
       "description": "Starta stående på stenen i \"sprickan\"",
+      "sectorId": "problem",
       "source": {
         "id": "legacy:trodjegropen",
         "path": "mediawiki/Trödjegropen.txt"
@@ -489,6 +524,7 @@
       "type": "Jug",
       "firstAscent": "Patrick O, Ronny A",
       "description": "Ok att sitta på stenen",
+      "sectorId": "problem",
       "source": {
         "id": "legacy:trodjegropen",
         "path": "mediawiki/Trödjegropen.txt"
@@ -504,6 +540,7 @@
       "type": "Krimp,Slopers,Mantling",
       "firstAscent": "Patrick O",
       "description": "Aréten höger om min vän Gaston",
+      "sectorId": "problem",
       "source": {
         "id": "legacy:trodjegropen",
         "path": "mediawiki/Trödjegropen.txt"
@@ -519,6 +556,7 @@
       "type": "Krimp,Slopers",
       "firstAscent": "Ronny",
       "description": "Etablerad start på slopiga hyllan",
+      "sectorId": "problem",
       "source": {
         "id": "legacy:trodjegropen",
         "path": "mediawiki/Trödjegropen.txt"
@@ -534,6 +572,7 @@
       "type": "Slopers,Slab",
       "firstAscent": "Janne A, Maria O",
       "description": "Går på baksidan av blocket där Raskens går",
+      "sectorId": "problem",
       "source": {
         "id": "legacy:trodjegropen",
         "path": "mediawiki/Trödjegropen.txt"
@@ -549,6 +588,7 @@
       "type": "Krimp,Slab",
       "firstAscent": "Patrick O",
       "description": "Aréten på Raskens utesluten",
+      "sectorId": "problem",
       "source": {
         "id": "legacy:trodjegropen",
         "path": "mediawiki/Trödjegropen.txt"
@@ -564,6 +604,7 @@
       "type": "Krimp,Aréte",
       "firstAscent": "Daniel H",
       "description": "Aréten rakt upp",
+      "sectorId": "problem",
       "source": {
         "id": "legacy:trodjegropen",
         "path": "mediawiki/Trödjegropen.txt"
@@ -579,6 +620,7 @@
       "type": "Krimp,Slab",
       "firstAscent": "Ronny A",
       "description": "Högra problemet",
+      "sectorId": "problem",
       "source": {
         "id": "legacy:trodjegropen",
         "path": "mediawiki/Trödjegropen.txt"
@@ -594,6 +636,7 @@
       "type": "Krimp,Slab",
       "firstAscent": "Ronny A",
       "description": "Vänstra problemet",
+      "sectorId": "problem",
       "source": {
         "id": "legacy:trodjegropen",
         "path": "mediawiki/Trödjegropen.txt"
@@ -609,6 +652,7 @@
       "type": "Slopers",
       "firstAscent": "Patrick O",
       "description": "Stenen under utesluten",
+      "sectorId": "problem",
       "source": {
         "id": "legacy:trodjegropen",
         "path": "mediawiki/Trödjegropen.txt"
@@ -624,6 +668,7 @@
       "type": "Slopers",
       "firstAscent": "Patrick O",
       "description": "Start på lilla aréten Sen rakt upp, inte samma urtoppning som Jabba.",
+      "sectorId": "problem",
       "source": {
         "id": "legacy:trodjegropen",
         "path": "mediawiki/Trödjegropen.txt"
@@ -639,6 +684,7 @@
       "type": "Krimp,Dyno,Travers H->V",
       "firstAscent": "Robert Hellberg",
       "description": "Sittstart i lilla sänkan, travers åt vänster och skick till kanten",
+      "sectorId": "problem",
       "source": {
         "id": "legacy:trodjegropen",
         "path": "mediawiki/Trödjegropen.txt"
@@ -654,6 +700,7 @@
       "type": "Krimp",
       "firstAscent": "Patrick O",
       "description": "Höger om trädet",
+      "sectorId": "problem",
       "source": {
         "id": "legacy:trodjegropen",
         "path": "mediawiki/Trödjegropen.txt"
@@ -669,6 +716,7 @@
       "type": "Krimp,Aréte,Jug",
       "firstAscent": "Ronny A",
       "description": "Gick under namnet Lilla Aréten på tävlingen pga \"tryckfels nisse\"",
+      "sectorId": "problem",
       "source": {
         "id": "legacy:trodjegropen",
         "path": "mediawiki/Trödjegropen.txt"
@@ -684,6 +732,7 @@
       "type": "Dyno",
       "firstAscent": "Stefan H, Patrick O, Ronny A",
       "description": "Etablera på stora hyllan, dyno till kanten.",
+      "sectorId": "problem",
       "source": {
         "id": "legacy:trodjegropen",
         "path": "mediawiki/Trödjegropen.txt"
@@ -699,6 +748,7 @@
       "type": "Krimp,Dyno",
       "firstAscent": "David H,",
       "description": "Starta från marken i sprickan rakt under hyllan mentalblockering går från, avsluta med mentalblockering.",
+      "sectorId": "problem",
       "source": {
         "id": "legacy:trodjegropen",
         "path": "mediawiki/Trödjegropen.txt"
@@ -714,6 +764,7 @@
       "type": "",
       "firstAscent": "Jon Smedsaas",
       "description": "Etablerad start i överhänget till vänster om Shocking truth. Sluta i densamma. I väntan på sittstart.",
+      "sectorId": "problem",
       "source": {
         "id": "legacy:trodjegropen",
         "path": "mediawiki/Trödjegropen.txt"
@@ -729,6 +780,7 @@
       "type": "Krimp",
       "firstAscent": "Mattias Flodin",
       "description": "Sittstarten till mentalblockering. Starta sittande på marken i sprickan.",
+      "sectorId": "problem",
       "source": {
         "id": "legacy:trodjegropen",
         "path": "mediawiki/Trödjegropen.txt"
@@ -744,6 +796,7 @@
       "type": "Aréte",
       "firstAscent": "David Hallman",
       "description": "fina areten (projektet) vid grusgropen. ståstart på stenen. blir fin med ss.",
+      "sectorId": "problem",
       "source": {
         "id": "legacy:trodjegropen",
         "path": "mediawiki/Trödjegropen.txt"
@@ -759,6 +812,7 @@
       "type": "Slopers,Jug",
       "firstAscent": "Robert Moskowitz",
       "description": "Problemet gårpå baksidan av stenen som S.P.S går på.",
+      "sectorId": "problem",
       "source": {
         "id": "legacy:trodjegropen",
         "path": "mediawiki/Trödjegropen.txt"
@@ -774,6 +828,7 @@
       "type": "",
       "firstAscent": "Janne Andersson",
       "description": "Samma start som \"Förvånad\" men gå rakt upp (se bild)",
+      "sectorId": "problem",
       "source": {
         "id": "legacy:trodjegropen",
         "path": "mediawiki/Trödjegropen.txt"
@@ -789,6 +844,7 @@
       "type": "Slopers,Dyno",
       "firstAscent": "Robert Moskowitz",
       "description": "Located on the stone directly behind \"the dog.\" Start on slopers - dyno to the top.",
+      "sectorId": "problem",
       "source": {
         "id": "legacy:trodjegropen",
         "path": "mediawiki/Trödjegropen.txt"
@@ -804,6 +860,7 @@
       "type": "Krimp,Travers H->V,Reach",
       "firstAscent": "Robert Hellberg",
       "description": "Samma start som Drängen, traversera sedan vänster och gör Lill Hitler upp.",
+      "sectorId": "problem",
       "source": {
         "id": "legacy:trodjegropen",
         "path": "mediawiki/Trödjegropen.txt"
@@ -819,6 +876,7 @@
       "type": "Krimp,Slopers,Reach",
       "firstAscent": "Robert Hellberg",
       "description": "Samma start som Drängen traversera sedan vänster å gör sedan Slynan rakt upp.",
+      "sectorId": "problem",
       "source": {
         "id": "legacy:trodjegropen",
         "path": "mediawiki/Trödjegropen.txt"
@@ -834,6 +892,7 @@
       "type": "Slopers",
       "firstAscent": "Ronny A",
       "description": "Går på samma block som Patricks skick, WGS84 samt RT90. På sidan mitt emot Patricks skick. Rakt upp vid pilen, aréten är utesluten.",
+      "sectorId": "problem",
       "source": {
         "id": "legacy:trodjegropen",
         "path": "mediawiki/Trödjegropen.txt"
@@ -849,6 +908,7 @@
       "type": "Krimp,Dyno",
       "firstAscent": "Patrick Olander",
       "description": "starta på samma grepp som patricks skick och sen dyno upp till kanten.",
+      "sectorId": "problem",
       "source": {
         "id": "legacy:trodjegropen",
         "path": "mediawiki/Trödjegropen.txt"
@@ -864,6 +924,7 @@
       "type": "Slopers,Travers V->H",
       "firstAscent": "Ronny",
       "description": "Går på samma sten som Carcharodon Megalodon och The Sniffles. När ni står med ryggen mot The Dog så går den på stenen rakt fram, starta på vänstra aréten traversera höger och avsluta med The Sniffles.",
+      "sectorId": "problem",
       "source": {
         "id": "legacy:trodjegropen",
         "path": "mediawiki/Trödjegropen.txt"
@@ -879,6 +940,7 @@
       "type": "Reach",
       "firstAscent": "Robert Berger",
       "description": "Hopp till startjug, höger om Frans Aréte, fortsätt på bra grepp.",
+      "sectorId": "problem",
       "source": {
         "id": "legacy:trodjegropen",
         "path": "mediawiki/Trödjegropen.txt"
@@ -894,6 +956,7 @@
       "type": "Mantling",
       "firstAscent": "Martin Ahl",
       "description": "Höger om nr17(ryggplask). Ej aréteÖverhäng.Start med båda händerna på samma stora grepp i ansiktshöjd.",
+      "sectorId": "problem",
       "source": {
         "id": "legacy:trodjegropen",
         "path": "mediawiki/Trödjegropen.txt"
@@ -909,6 +972,7 @@
       "type": "Sva,Krimp",
       "firstAscent": "Martin Ahl",
       "description": "Höger om nr19(junior aretén) nord sidan.Går mellan areten och sprickan, båda är uteslutna.",
+      "sectorId": "problem",
       "source": {
         "id": "legacy:trodjegropen",
         "path": "mediawiki/Trödjegropen.txt"
@@ -924,6 +988,7 @@
       "type": "Krimp",
       "firstAscent": "Magnus Tingnert",
       "description": "Låga blocket längs stigen från Sänka skepp till Disturbed, mitt i mellan. Går längst till höger om högsta punkten, med ryggen mot Tjockare än loket, rakt upp.",
+      "sectorId": "problem",
       "source": {
         "id": "legacy:trodjegropen",
         "path": "mediawiki/Trödjegropen.txt"
@@ -939,6 +1004,7 @@
       "type": "Jug,Aréte",
       "firstAscent": "Martin Ahl",
       "description": "Vänster om Ring inte mig. Högra aréten, etablera på juggen, använd stora hyllan till höger.",
+      "sectorId": "problem",
       "source": {
         "id": "legacy:trodjegropen",
         "path": "mediawiki/Trödjegropen.txt"
@@ -954,6 +1020,7 @@
       "type": "Krimp",
       "firstAscent": "Martin Ahl",
       "description": "Vänster om Healhook delux. Travers från vänster till höger, start i lodräta sprickan samt listen, upp och ut innan höger aréten, använd inte juggen.",
+      "sectorId": "problem",
       "source": {
         "id": "legacy:trodjegropen",
         "path": "mediawiki/Trödjegropen.txt"
@@ -969,6 +1036,7 @@
       "type": "Krimp,Jug",
       "firstAscent": "Martin Ahl",
       "description": "Vänster om Fishy feet, vänstra aréten. Starta höger om aréten, res dig, runda och toppa ut.",
+      "sectorId": "problem",
       "source": {
         "id": "legacy:trodjegropen",
         "path": "mediawiki/Trödjegropen.txt"
@@ -984,6 +1052,7 @@
       "type": "Krimp,Slab",
       "firstAscent": "Magnus Tignert, Martin Ahl",
       "description": "Blocket ligger 5m innan grillplatsen från parkerinen längs stigen. Start med ryggen mot RT90 in i en V-formation.",
+      "sectorId": "problem",
       "source": {
         "id": "legacy:trodjegropen",
         "path": "mediawiki/Trödjegropen.txt"
@@ -999,6 +1068,7 @@
       "type": "Krimp,Slab",
       "firstAscent": "Magnus Tignert, Martin Ahl",
       "description": "Ståstart",
+      "sectorId": "problem",
       "source": {
         "id": "legacy:trodjegropen",
         "path": "mediawiki/Trödjegropen.txt"
@@ -1014,6 +1084,7 @@
       "type": "Skick,Mantling",
       "firstAscent": "Robert Hellberg",
       "description": "Går upp mellan drängen och Lill Hitler, start på sloperhyllan.",
+      "sectorId": "problem",
       "source": {
         "id": "legacy:trodjegropen",
         "path": "mediawiki/Trödjegropen.txt"
@@ -1029,6 +1100,7 @@
       "type": "Travers",
       "firstAscent": "Karin Sundqvist",
       "description": "Går till höger om 20. Hangla kanten och toppa ur rakt upp.",
+      "sectorId": "problem",
       "source": {
         "id": "legacy:trodjegropen",
         "path": "mediawiki/Trödjegropen.txt"
@@ -1044,6 +1116,7 @@
       "type": "Travers",
       "firstAscent": "Fredrik Andersson",
       "description": "Går till höger om 20. Hangla kanten och toppa ur rakt upp.",
+      "sectorId": "problem",
       "source": {
         "id": "legacy:trodjegropen",
         "path": "mediawiki/Trödjegropen.txt"
@@ -1059,6 +1132,7 @@
       "type": "Slopers",
       "firstAscent": "H Skoog",
       "description": "Börja längst ner vid arêten, slappa vänster och toppa ur rakt upp",
+      "sectorId": "problem",
       "source": {
         "id": "legacy:trodjegropen",
         "path": "mediawiki/Trödjegropen.txt"
@@ -1074,6 +1148,7 @@
       "type": "Catch",
       "firstAscent": "H Skoog",
       "description": "Skitnödig sittstart på arêten mellan Patricks skick och WGS84. Hh på liten \"knopp\" till höger om arêten och vh på bra krimplist långt ner",
+      "sectorId": "problem",
       "source": {
         "id": "legacy:trodjegropen",
         "path": "mediawiki/Trödjegropen.txt"
@@ -1089,6 +1164,7 @@
       "type": "Krimp,Jug,Travers",
       "firstAscent": "Martin Ahl",
       "description": "Ligger höger om nr8-Morran Start på tydliga hyllan traversera åt vä runt hörnet och toppa ut vid svarta fältet efter krimpar",
+      "sectorId": "problem",
       "source": {
         "id": "legacy:trodjegropen",
         "path": "mediawiki/Trödjegropen.txt"

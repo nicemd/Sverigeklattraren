@@ -32,9 +32,19 @@
       "body": "titel=Talludden lat=18225880 long=59334940 Kör Värmdöleden (222) och sväng av via Skuru (direkt efter Skurubron). Sväng till vänster och kör under motorvägen. Sväng höger och sedan vänster mot Talludden (på Talluddsvägen). Kör rakt fram en stund sedan Höger (Helmdalsvägen), Vänster (Friggvägen), höger (Emblavägen). Nära slutet av Emblavägen finns det en vänd/parkerings plats. Parkera bilen där och sedan följer Mariedalsvägen ner. Efter några meter ser man sedan en lång bouldervägg. Fortsätt gå stigen ned mot vattnet och följ stranden till höger. Musväggen är väggen närmast stranden."
     },
     {
+      "id": "leder",
+      "title": "Leder",
+      "body": ""
+    },
+    {
       "id": "roda-vaggen",
       "title": "Röda väggen",
       "body": "Väggen längst till höger nära gångvägen"
+    },
+    {
+      "id": "musvaggen-vanster",
+      "title": "Musväggen vänster",
+      "body": ""
     },
     {
       "id": "musvaggen-hoger",
@@ -58,6 +68,7 @@
       "type": "sport",
       "firstAscent": "Johan Luhr, Thomas Eriksson (utsteget)",
       "description": "",
+      "sectorId": "roda-vaggen",
       "source": {
         "id": "legacy:talludden",
         "path": "mediawiki/Talludden.txt"
@@ -73,6 +84,7 @@
       "type": "sport",
       "firstAscent": "Johan Luhr",
       "description": "",
+      "sectorId": "roda-vaggen",
       "source": {
         "id": "legacy:talludden",
         "path": "mediawiki/Talludden.txt"
@@ -88,6 +100,7 @@
       "type": "sport",
       "firstAscent": "Johan Luhr",
       "description": "",
+      "sectorId": "roda-vaggen",
       "source": {
         "id": "legacy:talludden",
         "path": "mediawiki/Talludden.txt"
@@ -103,6 +116,7 @@
       "type": "sport",
       "firstAscent": "Johan Luhr",
       "description": "Leden har tillfälligt avvecklats pga lösa block",
+      "sectorId": "roda-vaggen",
       "source": {
         "id": "legacy:talludden",
         "path": "mediawiki/Talludden.txt"
@@ -118,6 +132,7 @@
       "type": "sport",
       "firstAscent": "Johan Luhr",
       "description": "Leden har avvecklats tillsvidare pga lösa block",
+      "sectorId": "roda-vaggen",
       "source": {
         "id": "legacy:talludden",
         "path": "mediawiki/Talludden.txt"
@@ -133,6 +148,7 @@
       "type": "sport",
       "firstAscent": "Thomas Eriksson",
       "description": "Klippans mest uppenbara och kanske finaste linje. Leden har gemensamt insteg med Blockleden, följer den vänsterlutande spricklinjen, och har gemensamt utsteg med Pissmyran.",
+      "sectorId": "roda-vaggen",
       "source": {
         "id": "legacy:talludden",
         "path": "mediawiki/Talludden.txt"
@@ -148,6 +164,7 @@
       "type": "sport",
       "firstAscent": "Johan Luhr",
       "description": "",
+      "sectorId": "roda-vaggen",
       "source": {
         "id": "legacy:talludden",
         "path": "mediawiki/Talludden.txt"
@@ -163,6 +180,7 @@
       "type": "sport",
       "firstAscent": "Johan Luhr",
       "description": "",
+      "sectorId": "roda-vaggen",
       "source": {
         "id": "legacy:talludden",
         "path": "mediawiki/Talludden.txt"
@@ -178,6 +196,7 @@
       "type": "sport",
       "firstAscent": "Per Willén",
       "description": "Välbultad och med ankare.",
+      "sectorId": "roda-vaggen",
       "source": {
         "id": "legacy:talludden",
         "path": "mediawiki/Talludden.txt"
@@ -193,6 +212,7 @@
       "type": "sport",
       "firstAscent": "Johan Luhr",
       "description": "Crimpig. Går längre än bilden visar upp på svaplattan ovanför.",
+      "sectorId": "musvaggen-vanster",
       "source": {
         "id": "legacy:talludden",
         "path": "mediawiki/Talludden.txt"
@@ -208,6 +228,7 @@
       "type": "sport",
       "firstAscent": "Johan Luhr",
       "description": "Slopers",
+      "sectorId": "musvaggen-vanster",
       "source": {
         "id": "legacy:talludden",
         "path": "mediawiki/Talludden.txt"
@@ -223,6 +244,7 @@
       "type": "sport",
       "firstAscent": "Johan Luhr, PL",
       "description": "Boulderkrux rakt upp sedan samma utsteg som Tuvan. Variant vänster in i räven 8a",
+      "sectorId": "musvaggen-vanster",
       "source": {
         "id": "legacy:talludden",
         "path": "mediawiki/Talludden.txt"
@@ -238,6 +260,7 @@
       "type": "sport",
       "firstAscent": "Johan Luhr",
       "description": "På areten",
+      "sectorId": "musvaggen-vanster",
       "source": {
         "id": "legacy:talludden",
         "path": "mediawiki/Talludden.txt"
@@ -253,6 +276,7 @@
       "type": "sport",
       "firstAscent": "Johan Luhr",
       "description": "Gemensamt insteg med Ketchup och gemensamt utsteg med Tuvan?",
+      "sectorId": "musvaggen-vanster",
       "source": {
         "id": "legacy:talludden",
         "path": "mediawiki/Talludden.txt"
@@ -268,6 +292,7 @@
       "type": "sport",
       "firstAscent": "Johan Luhr, PL",
       "description": "Ett move",
+      "sectorId": "musvaggen-vanster",
       "source": {
         "id": "legacy:talludden",
         "path": "mediawiki/Talludden.txt"
@@ -283,6 +308,7 @@
       "type": "sport",
       "firstAscent": "Johan Luhr, PL",
       "description": "",
+      "sectorId": "musvaggen-vanster",
       "source": {
         "id": "legacy:talludden",
         "path": "mediawiki/Talludden.txt"
@@ -298,6 +324,7 @@
       "type": "sport",
       "firstAscent": "Reino Liimatainen",
       "description": "",
+      "sectorId": "musvaggen-hoger",
       "source": {
         "id": "legacy:talludden",
         "path": "mediawiki/Talludden.txt"
@@ -313,6 +340,7 @@
       "type": "sport",
       "firstAscent": "Johan Luhr",
       "description": "",
+      "sectorId": "musvaggen-hoger",
       "source": {
         "id": "legacy:talludden",
         "path": "mediawiki/Talludden.txt"
@@ -328,6 +356,7 @@
       "type": "sport",
       "firstAscent": "Johan Luhr",
       "description": "Ett limmat grepp har lossnat varför kruxet blivit klart hårdare.",
+      "sectorId": "musvaggen-hoger",
       "source": {
         "id": "legacy:talludden",
         "path": "mediawiki/Talludden.txt"
@@ -343,6 +372,7 @@
       "type": "sport",
       "firstAscent": "Johan Luhr",
       "description": "Kort och hård",
+      "sectorId": "musvaggen-hoger",
       "source": {
         "id": "legacy:talludden",
         "path": "mediawiki/Talludden.txt"
@@ -358,6 +388,7 @@
       "type": "sport",
       "firstAscent": "Reino Liimatainen",
       "description": "",
+      "sectorId": "musvaggen-hoger",
       "source": {
         "id": "legacy:talludden",
         "path": "mediawiki/Talludden.txt"
@@ -373,6 +404,7 @@
       "type": "sport",
       "firstAscent": "Reino Liimatainen",
       "description": "",
+      "sectorId": "musvaggen-hoger",
       "source": {
         "id": "legacy:talludden",
         "path": "mediawiki/Talludden.txt"
@@ -388,6 +420,7 @@
       "type": "sport",
       "firstAscent": "Johan Luhr",
       "description": "",
+      "sectorId": "sjovaggen",
       "source": {
         "id": "legacy:talludden",
         "path": "mediawiki/Talludden.txt"
@@ -403,6 +436,7 @@
       "type": "sport",
       "firstAscent": "Johan Luhr",
       "description": "",
+      "sectorId": "sjovaggen",
       "source": {
         "id": "legacy:talludden",
         "path": "mediawiki/Talludden.txt"
@@ -418,6 +452,7 @@
       "type": "",
       "firstAscent": "Johan Luhr",
       "description": "Vänstra insteget på Freeze",
+      "sectorId": "sjovaggen",
       "source": {
         "id": "legacy:talludden",
         "path": "mediawiki/Talludden.txt"
@@ -433,6 +468,7 @@
       "type": "",
       "firstAscent": "Johan Luhr",
       "description": "Det 15 år gamla projektet till vänster om freeze.",
+      "sectorId": "sjovaggen",
       "source": {
         "id": "legacy:talludden",
         "path": "mediawiki/Talludden.txt"
@@ -448,6 +484,7 @@
       "type": "sport",
       "firstAscent": "Johan Luhr",
       "description": "",
+      "sectorId": "sjovaggen",
       "source": {
         "id": "legacy:talludden",
         "path": "mediawiki/Talludden.txt"
@@ -458,7 +495,8 @@
     {
       "filename": "Talludden_musvaggen.gif",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "musvaggen-vanster"
     }
   ],
   "access": {

@@ -17,6 +17,36 @@
   ],
   "sections": [
     {
+      "id": "introduktion",
+      "title": "Introduktion",
+      "body": ""
+    },
+    {
+      "id": "karaktar",
+      "title": "Karaktär",
+      "body": ""
+    },
+    {
+      "id": "vagbeskrivning",
+      "title": "Vägbeskrivning",
+      "body": ""
+    },
+    {
+      "id": "access",
+      "title": "Access",
+      "body": ""
+    },
+    {
+      "id": "leder",
+      "title": "Leder",
+      "body": ""
+    },
+    {
+      "id": "stora-vaggen",
+      "title": "Stora Väggen",
+      "body": ""
+    },
+    {
       "id": "gamhyllan",
       "title": "Gamhyllan",
       "body": "Gå på en ramp som leder snett upp åt höger för att komma upp till Gamhyllan. Rampen hittar du långt till vänster på berget mellan lederna Gamkanten och Fingrarna i Syltburken."
@@ -27,9 +57,34 @@
       "body": "10-15 meter hög vägg som ligger på toppen av Stora Väggen."
     },
     {
+      "id": "zoo-vaggen",
+      "title": "Zoo-Väggen",
+      "body": ""
+    },
+    {
+      "id": "vansternave-vaggen",
+      "title": "Vänsternäve-Väggen",
+      "body": ""
+    },
+    {
       "id": "sumpvaggen",
       "title": "Sumpväggen",
       "body": "Tio meter hög vägg som ligger bakom och ovanför Vänsternäve-Väggen."
+    },
+    {
+      "id": "pinnackelvaggen",
+      "title": "Pinnackelväggen",
+      "body": ""
+    },
+    {
+      "id": "husvagnsvaggen",
+      "title": "Husvagnsväggen",
+      "body": ""
+    },
+    {
+      "id": "traktorvaggen",
+      "title": "Traktorväggen",
+      "body": ""
     },
     {
       "id": "klyftan",
@@ -48,6 +103,7 @@
       "type": "trad",
       "firstAscent": "Ann-Sofie Andersson -99",
       "description": "Arete längst till vänster på berget.",
+      "sectorId": "stora-vaggen",
       "source": {
         "id": "legacy:vetteberget",
         "path": "mediawiki/Vetteberget.txt"
@@ -63,6 +119,7 @@
       "type": "trad",
       "firstAscent": "Simon Thyr -99",
       "description": "Startar över förra leden.",
+      "sectorId": "stora-vaggen",
       "source": {
         "id": "legacy:vetteberget",
         "path": "mediawiki/Vetteberget.txt"
@@ -78,6 +135,7 @@
       "type": "trad",
       "firstAscent": "Johan Svensson -06",
       "description": "Tunn men tydlig linje upp till Gamhyllan, ca 20meter till vänster om Konstnären. Snygg linje på rödaktig granit som går genom ett vattenslipat överhäng. Lätt upp till och tungt genom överhänget. Sprickan bjuder vidare på delikat och tekniskt desperat klättring. Välsäkrad.",
+      "sectorId": "stora-vaggen",
       "source": {
         "id": "legacy:vetteberget",
         "path": "mediawiki/Vetteberget.txt"
@@ -93,6 +151,7 @@
       "type": "trad",
       "firstAscent": "Magnus Strömhäll -97",
       "description": "",
+      "sectorId": "stora-vaggen",
       "source": {
         "id": "legacy:vetteberget",
         "path": "mediawiki/Vetteberget.txt"
@@ -108,6 +167,7 @@
       "type": "trad",
       "firstAscent": "Johan Svensson -97",
       "description": "",
+      "sectorId": "stora-vaggen",
       "source": {
         "id": "legacy:vetteberget",
         "path": "mediawiki/Vetteberget.txt"
@@ -123,6 +183,7 @@
       "type": "trad",
       "firstAscent": "Magnus Strömhäll -97",
       "description": "En STOR led med varierande kvalitet, men aldrig tråkig och absolut interessant hela vägen. Ser bedrägligt lätt ut i starten. Vad du tycker om den här leden säger mycket om vilket virke du är gjord av.",
+      "sectorId": "stora-vaggen",
       "source": {
         "id": "legacy:vetteberget",
         "path": "mediawiki/Vetteberget.txt"
@@ -138,6 +199,7 @@
       "type": "trad",
       "firstAscent": "Anders Spång -97",
       "description": "Börjar på en hylla.",
+      "sectorId": "stora-vaggen",
       "source": {
         "id": "legacy:vetteberget",
         "path": "mediawiki/Vetteberget.txt"
@@ -153,6 +215,7 @@
       "type": "trad",
       "firstAscent": "Anders Spång -99",
       "description": "Börjar på en hylla.",
+      "sectorId": "stora-vaggen",
       "source": {
         "id": "legacy:vetteberget",
         "path": "mediawiki/Vetteberget.txt"
@@ -168,6 +231,7 @@
       "type": "trad",
       "firstAscent": "Michael Stribhadung, Lena Wegrelius -86",
       "description": "",
+      "sectorId": "stora-vaggen",
       "source": {
         "id": "legacy:vetteberget",
         "path": "mediawiki/Vetteberget.txt"
@@ -183,6 +247,7 @@
       "type": "trad",
       "firstAscent": "Magnus Strömhäll, Patrik Jacobsson -03",
       "description": "Den tydliga bågen/sprickan till höger om 1000 kg tvätt.",
+      "sectorId": "stora-vaggen",
       "source": {
         "id": "legacy:vetteberget",
         "path": "mediawiki/Vetteberget.txt"
@@ -198,6 +263,7 @@
       "type": "trad",
       "firstAscent": "Per Larsson, Erik Gustafsson -10",
       "description": "Den vänsterlutande rännan till vänster om Blood on the tracks.",
+      "sectorId": "stora-vaggen",
       "source": {
         "id": "legacy:vetteberget",
         "path": "mediawiki/Vetteberget.txt"
@@ -213,6 +279,7 @@
       "type": "trad",
       "firstAscent": "Michael Stribhadung, Lena Wegrelius -86",
       "description": "",
+      "sectorId": "stora-vaggen",
       "source": {
         "id": "legacy:vetteberget",
         "path": "mediawiki/Vetteberget.txt"
@@ -228,6 +295,7 @@
       "type": "trad",
       "firstAscent": "Johan Svensson -00",
       "description": "",
+      "sectorId": "gamhyllan",
       "source": {
         "id": "legacy:vetteberget",
         "path": "mediawiki/Vetteberget.txt"
@@ -243,6 +311,7 @@
       "type": "trad",
       "firstAscent": "Johan Svensson -00",
       "description": "",
+      "sectorId": "gamhyllan",
       "source": {
         "id": "legacy:vetteberget",
         "path": "mediawiki/Vetteberget.txt"
@@ -258,6 +327,7 @@
       "type": "trad",
       "firstAscent": "Johan Svensson -97",
       "description": "",
+      "sectorId": "gamhyllan",
       "source": {
         "id": "legacy:vetteberget",
         "path": "mediawiki/Vetteberget.txt"
@@ -273,6 +343,7 @@
       "type": "trad",
       "firstAscent": "Ann-Sofie Andersson -99",
       "description": "",
+      "sectorId": "toppvaggen",
       "source": {
         "id": "legacy:vetteberget",
         "path": "mediawiki/Vetteberget.txt"
@@ -288,6 +359,7 @@
       "type": "trad",
       "firstAscent": "Johan Svensson -00",
       "description": "",
+      "sectorId": "toppvaggen",
       "source": {
         "id": "legacy:vetteberget",
         "path": "mediawiki/Vetteberget.txt"
@@ -303,6 +375,7 @@
       "type": "trad",
       "firstAscent": "Jimmy Pettersson -00",
       "description": "",
+      "sectorId": "toppvaggen",
       "source": {
         "id": "legacy:vetteberget",
         "path": "mediawiki/Vetteberget.txt"
@@ -318,6 +391,7 @@
       "type": "trad",
       "firstAscent": "Markus Sandersnäs -00",
       "description": "",
+      "sectorId": "toppvaggen",
       "source": {
         "id": "legacy:vetteberget",
         "path": "mediawiki/Vetteberget.txt"
@@ -333,6 +407,7 @@
       "type": "trad",
       "firstAscent": "Johan Svensson -97",
       "description": "",
+      "sectorId": "zoo-vaggen",
       "source": {
         "id": "legacy:vetteberget",
         "path": "mediawiki/Vetteberget.txt"
@@ -348,6 +423,7 @@
       "type": "trad",
       "firstAscent": "Simon Thyr -97",
       "description": "",
+      "sectorId": "zoo-vaggen",
       "source": {
         "id": "legacy:vetteberget",
         "path": "mediawiki/Vetteberget.txt"
@@ -363,6 +439,7 @@
       "type": "trad",
       "firstAscent": "Joakim Fransson -97",
       "description": "",
+      "sectorId": "zoo-vaggen",
       "source": {
         "id": "legacy:vetteberget",
         "path": "mediawiki/Vetteberget.txt"
@@ -378,6 +455,7 @@
       "type": "trad",
       "firstAscent": "Anders Spång -97",
       "description": "",
+      "sectorId": "vansternave-vaggen",
       "source": {
         "id": "legacy:vetteberget",
         "path": "mediawiki/Vetteberget.txt"
@@ -393,6 +471,7 @@
       "type": "trad",
       "firstAscent": "Marcus Sandernäs -97",
       "description": "",
+      "sectorId": "vansternave-vaggen",
       "source": {
         "id": "legacy:vetteberget",
         "path": "mediawiki/Vetteberget.txt"
@@ -408,6 +487,7 @@
       "type": "trad",
       "firstAscent": "Fredrik Persson -99",
       "description": "",
+      "sectorId": "vansternave-vaggen",
       "source": {
         "id": "legacy:vetteberget",
         "path": "mediawiki/Vetteberget.txt"
@@ -423,6 +503,7 @@
       "type": "trad",
       "firstAscent": "Mattias Hallsten -99",
       "description": "",
+      "sectorId": "vansternave-vaggen",
       "source": {
         "id": "legacy:vetteberget",
         "path": "mediawiki/Vetteberget.txt"
@@ -438,6 +519,7 @@
       "type": "trad",
       "firstAscent": "Magnus Strömhäll -05",
       "description": "På vänsterväggen mellan El camino... och En knuten vänsternäve. Laybacks och fotjam. Ganska brant.",
+      "sectorId": "vansternave-vaggen",
       "source": {
         "id": "legacy:vetteberget",
         "path": "mediawiki/Vetteberget.txt"
@@ -453,6 +535,7 @@
       "type": "trad",
       "firstAscent": "Johan Svensson -97",
       "description": "",
+      "sectorId": "vansternave-vaggen",
       "source": {
         "id": "legacy:vetteberget",
         "path": "mediawiki/Vetteberget.txt"
@@ -468,6 +551,7 @@
       "type": "trad",
       "firstAscent": "Joakim Olofsson -00",
       "description": "Lättare (6) med insteg som nästa led.",
+      "sectorId": "vansternave-vaggen",
       "source": {
         "id": "legacy:vetteberget",
         "path": "mediawiki/Vetteberget.txt"
@@ -483,6 +567,7 @@
       "type": "trad",
       "firstAscent": "Joakim Olofsson -00",
       "description": "",
+      "sectorId": "vansternave-vaggen",
       "source": {
         "id": "legacy:vetteberget",
         "path": "mediawiki/Vetteberget.txt"
@@ -498,6 +583,7 @@
       "type": "trad",
       "firstAscent": "Joakim Olofsson -00",
       "description": "",
+      "sectorId": "vansternave-vaggen",
       "source": {
         "id": "legacy:vetteberget",
         "path": "mediawiki/Vetteberget.txt"
@@ -513,6 +599,7 @@
       "type": "trad",
       "firstAscent": "Magnus Strömhäll -97",
       "description": "",
+      "sectorId": "vansternave-vaggen",
       "source": {
         "id": "legacy:vetteberget",
         "path": "mediawiki/Vetteberget.txt"
@@ -528,6 +615,7 @@
       "type": "trad",
       "firstAscent": "Mattias Hallsten -97",
       "description": "",
+      "sectorId": "vansternave-vaggen",
       "source": {
         "id": "legacy:vetteberget",
         "path": "mediawiki/Vetteberget.txt"
@@ -543,6 +631,7 @@
       "type": "trad",
       "firstAscent": "Maja Gellerstam -97",
       "description": "",
+      "sectorId": "vansternave-vaggen",
       "source": {
         "id": "legacy:vetteberget",
         "path": "mediawiki/Vetteberget.txt"
@@ -558,6 +647,7 @@
       "type": "trad",
       "firstAscent": "Jonas Nilsson",
       "description": "",
+      "sectorId": "vansternave-vaggen",
       "source": {
         "id": "legacy:vetteberget",
         "path": "mediawiki/Vetteberget.txt"
@@ -573,6 +663,7 @@
       "type": "trad",
       "firstAscent": "Anders Spång -03",
       "description": "Till vänster om Råger mår leder en rampformation upp mot vänster tillett utsteg över en kort vägg. Underliga ljud från greppen, men hyggliga säkringar på mitten",
+      "sectorId": "vansternave-vaggen",
       "source": {
         "id": "legacy:vetteberget",
         "path": "mediawiki/Vetteberget.txt"
@@ -588,6 +679,7 @@
       "type": "trad",
       "firstAscent": "Mattias Hallsten -97",
       "description": "",
+      "sectorId": "vansternave-vaggen",
       "source": {
         "id": "legacy:vetteberget",
         "path": "mediawiki/Vetteberget.txt"
@@ -603,6 +695,7 @@
       "type": "trad",
       "firstAscent": "Ulf Johansson -99",
       "description": "",
+      "sectorId": "sumpvaggen",
       "source": {
         "id": "legacy:vetteberget",
         "path": "mediawiki/Vetteberget.txt"
@@ -618,6 +711,7 @@
       "type": "trad",
       "firstAscent": "Rikard Larsson -99",
       "description": "",
+      "sectorId": "sumpvaggen",
       "source": {
         "id": "legacy:vetteberget",
         "path": "mediawiki/Vetteberget.txt"
@@ -633,6 +727,7 @@
       "type": "trad",
       "firstAscent": "Rikard Larsson -99",
       "description": "",
+      "sectorId": "sumpvaggen",
       "source": {
         "id": "legacy:vetteberget",
         "path": "mediawiki/Vetteberget.txt"
@@ -648,6 +743,7 @@
       "type": "trad",
       "firstAscent": "Rikard Larsson -99",
       "description": "",
+      "sectorId": "sumpvaggen",
       "source": {
         "id": "legacy:vetteberget",
         "path": "mediawiki/Vetteberget.txt"
@@ -663,6 +759,7 @@
       "type": "trad",
       "firstAscent": "Marcus Sandersnäs -98",
       "description": "",
+      "sectorId": "sumpvaggen",
       "source": {
         "id": "legacy:vetteberget",
         "path": "mediawiki/Vetteberget.txt"
@@ -678,6 +775,7 @@
       "type": "trad",
       "firstAscent": "Jonas Hellstrand -99",
       "description": "",
+      "sectorId": "sumpvaggen",
       "source": {
         "id": "legacy:vetteberget",
         "path": "mediawiki/Vetteberget.txt"
@@ -693,6 +791,7 @@
       "type": "trad",
       "firstAscent": "Ulrik Carlsson -99",
       "description": "",
+      "sectorId": "pinnackelvaggen",
       "source": {
         "id": "legacy:vetteberget",
         "path": "mediawiki/Vetteberget.txt"
@@ -708,6 +807,7 @@
       "type": "trad",
       "firstAscent": "Johan Svensson -99",
       "description": "",
+      "sectorId": "pinnackelvaggen",
       "source": {
         "id": "legacy:vetteberget",
         "path": "mediawiki/Vetteberget.txt"
@@ -723,6 +823,7 @@
       "type": "trad",
       "firstAscent": "Johan Svensson -99",
       "description": "",
+      "sectorId": "pinnackelvaggen",
       "source": {
         "id": "legacy:vetteberget",
         "path": "mediawiki/Vetteberget.txt"
@@ -738,6 +839,7 @@
       "type": "trad",
       "firstAscent": "Ann-Sofie Andersson -99",
       "description": "",
+      "sectorId": "pinnackelvaggen",
       "source": {
         "id": "legacy:vetteberget",
         "path": "mediawiki/Vetteberget.txt"
@@ -753,6 +855,7 @@
       "type": "trad",
       "firstAscent": "Marcus Sandersnäs -07",
       "description": "När man går på grusvägen från caféet så ligger denna vägg på höger sida, ca10 meter från vägen. Nedre delan av väggen har tre vattenslipade halvrör. Denna led följer den vänstra formationen, som startar med en tydlig sprickai en gryta. Följ spricksystemen till tops!",
+      "sectorId": "husvagnsvaggen",
       "source": {
         "id": "legacy:vetteberget",
         "path": "mediawiki/Vetteberget.txt"
@@ -768,6 +871,7 @@
       "type": "trad",
       "firstAscent": "Henrik Sjöqvist -07",
       "description": "Leden börjar i det mittre halvröret och vidare i hörnet rakt upp till toppen. Fin välsäkrad klättring.",
+      "sectorId": "husvagnsvaggen",
       "source": {
         "id": "legacy:vetteberget",
         "path": "mediawiki/Vetteberget.txt"
@@ -783,6 +887,7 @@
       "type": "trad",
       "firstAscent": "Jonas Nilsson -99",
       "description": "",
+      "sectorId": "traktorvaggen",
       "source": {
         "id": "legacy:vetteberget",
         "path": "mediawiki/Vetteberget.txt"
@@ -798,6 +903,7 @@
       "type": "trad",
       "firstAscent": "Marcus Sandersnäs -98",
       "description": "",
+      "sectorId": "traktorvaggen",
       "source": {
         "id": "legacy:vetteberget",
         "path": "mediawiki/Vetteberget.txt"
@@ -813,6 +919,7 @@
       "type": "trad",
       "firstAscent": "[[]]",
       "description": "",
+      "sectorId": "klyftan",
       "source": {
         "id": "legacy:vetteberget",
         "path": "mediawiki/Vetteberget.txt"
@@ -828,6 +935,7 @@
       "type": "trad",
       "firstAscent": "[[]]",
       "description": "",
+      "sectorId": "klyftan",
       "source": {
         "id": "legacy:vetteberget",
         "path": "mediawiki/Vetteberget.txt"

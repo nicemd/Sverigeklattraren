@@ -24,9 +24,19 @@
       "body": "titel=Kraftsten lat=18540833 long=59298055 Kör mot Stavnäs (222), innan Strömma kanal, 5,5km efter Ålstäkets rondell svänger man vänster in på Strömmadalsvägen. Fortsätt denna krokiga väg i max 30 km/h i minimalt antal bilar (samåk). Kör förbi en vägbom i trä på vägens högra sida och parkera till vänster utanför vändplanen i nästa korsning (2 platser på gräset bredvid vägen). Gå vägen tillbaka till vägbommen och kliv på Värmdöleden, vid vägbommen står en skylt om Vargstensängen 700m. Klippan är belägen ca. 150m in längs Värmdöleden från vägbommen på Strömmadalsvägen. Den ligger på höger sida efter att man rundat tomten med röda husen. Se även Strömmadalsklippan"
     },
     {
+      "id": "boulderproblem",
+      "title": "Boulderproblem",
+      "body": ""
+    },
+    {
       "id": "vanstra-delen",
       "title": "Vänstra delen",
       "body": "Samma klippdel … men ett problem till: 2. ”Mystique” 3. ”Brutus” 4. ”Nosferatu” 5. ”Buttman” 6. ”Läderlappen”"
+    },
+    {
+      "id": "hogra-delen",
+      "title": "Högra delen",
+      "body": ""
     },
     {
       "id": "lilla-delen-till-hoger",
@@ -45,6 +55,7 @@
       "type": "",
       "firstAscent": "Björn Pohl",
       "description": "Starta med båda händerna i stort undercling, långt flytt rakt upp.",
+      "sectorId": "vanstra-delen",
       "source": {
         "id": "legacy:kraftsten",
         "path": "mediawiki/Kraftsten.txt"
@@ -60,6 +71,7 @@
       "type": "",
       "firstAscent": "Micke Meyer",
       "description": "Starta på tydlig pinch, utsteg till vänster (lättare) eller höger (finare) om sprickan.",
+      "sectorId": "vanstra-delen",
       "source": {
         "id": "legacy:kraftsten",
         "path": "mediawiki/Kraftsten.txt"
@@ -75,6 +87,7 @@
       "type": "",
       "firstAscent": "Stefan Kolmodin",
       "description": "Starta som Nr.5 ”Läderlappen”, elimination rakt upp via ett vasst korall-liknande grepp mellan Nosferatu och Läderlappens utsteg.",
+      "sectorId": "vanstra-delen",
       "source": {
         "id": "legacy:kraftsten",
         "path": "mediawiki/Kraftsten.txt"
@@ -90,6 +103,7 @@
       "type": "",
       "firstAscent": "Stefan Kolmodin",
       "description": "Starta som Nr.6 ”Läderlappen”, men rakt upp till bra lister och utsteg åt vänster.",
+      "sectorId": "vanstra-delen",
       "source": {
         "id": "legacy:kraftsten",
         "path": "mediawiki/Kraftsten.txt"
@@ -105,6 +119,7 @@
       "type": "",
       "firstAscent": "Stefan Kolmodin",
       "description": "Starta längst in under överhänget med händerna på tydligt hangel, följ denna till jug vid läppen och fortsätt i sprickan upp till höger.",
+      "sectorId": "vanstra-delen",
       "source": {
         "id": "legacy:kraftsten",
         "path": "mediawiki/Kraftsten.txt"
@@ -120,6 +135,7 @@
       "type": "",
       "firstAscent": "Trevor Cooper-Williams",
       "description": "Starta i två bra grepp som Nr.7, traversera hela klippan åt vänster under läppen och avsluta vid det s-formade trädet till vänster av ”Johnny Puma”.",
+      "sectorId": "vanstra-delen",
       "source": {
         "id": "legacy:kraftsten",
         "path": "mediawiki/Kraftsten.txt"
@@ -135,6 +151,7 @@
       "type": "",
       "firstAscent": "Peter Lindmark",
       "description": "Starta på 2 bra grepp upp till jugge till vänster sedan upp till en liten list rakt upp, via mikrolister till höger till ett vasst hål sedan rakt upp. OBS: Varken sprickan från ”Läderlappen” eller grepp till höger som ingår till ”Luke Skywalker” ingår!",
+      "sectorId": "vanstra-delen",
       "source": {
         "id": "legacy:kraftsten",
         "path": "mediawiki/Kraftsten.txt"
@@ -150,6 +167,7 @@
       "type": "",
       "firstAscent": "Trevor Cooper-Williams",
       "description": "Starta precis till vänster om stora granen från tydliga sidotag, rakt upp.",
+      "sectorId": "vanstra-delen",
       "source": {
         "id": "legacy:kraftsten",
         "path": "mediawiki/Kraftsten.txt"
@@ -165,6 +183,7 @@
       "type": "",
       "firstAscent": "Stefan Kolmodin",
       "description": "Starta upp för rampen, rakt upp och utsteg lite till höger.",
+      "sectorId": "hogra-delen",
       "source": {
         "id": "legacy:kraftsten",
         "path": "mediawiki/Kraftsten.txt"
@@ -180,6 +199,7 @@
       "type": "",
       "firstAscent": "Micke Meyer",
       "description": "Starta i tydlig spricka sedan rakt upp.",
+      "sectorId": "hogra-delen",
       "source": {
         "id": "legacy:kraftsten",
         "path": "mediawiki/Kraftsten.txt"
@@ -195,6 +215,7 @@
       "type": "",
       "firstAscent": "Stefan Kolmodin",
       "description": "Sittstart till ”Flexnes”",
+      "sectorId": "hogra-delen",
       "source": {
         "id": "legacy:kraftsten",
         "path": "mediawiki/Kraftsten.txt"
@@ -210,6 +231,7 @@
       "type": "",
       "firstAscent": "Fredrik Sydstrand",
       "description": "Starta med vänster hand på Flexnes högra startgrepp, upp snett höger via mikrolist till stor pinch, avsluta som Hulken. Den som ids får gärna flytta på stenen framför problemet.",
+      "sectorId": "hogra-delen",
       "source": {
         "id": "legacy:kraftsten",
         "path": "mediawiki/Kraftsten.txt"
@@ -225,6 +247,7 @@
       "type": "",
       "firstAscent": "Stefan Kolmodin",
       "description": "Aréten till höger. Starta med händerna på stora hyllan, rakt upp. Avsluta på hyllan eller kliv vänster över i ”Hogans” utsteg.",
+      "sectorId": "lilla-delen-till-hoger",
       "source": {
         "id": "legacy:kraftsten",
         "path": "mediawiki/Kraftsten.txt"
@@ -240,6 +263,7 @@
       "type": "",
       "firstAscent": "Stefan Kolmodin",
       "description": "Starta inne i nischen, upp till vänster till bra vasst grepp på rampen, rakt upp. Kanten och aréten (Elsa) till höger ingår ej.",
+      "sectorId": "lilla-delen-till-hoger",
       "source": {
         "id": "legacy:kraftsten",
         "path": "mediawiki/Kraftsten.txt"
@@ -255,6 +279,7 @@
       "type": "",
       "firstAscent": "Trevor Cooper-Williams",
       "description": "Samma start som ”Hogan” men trav. till vänster med ett långt move till ett bra hålgrepp därefter rakt upp.",
+      "sectorId": "lilla-delen-till-hoger",
       "source": {
         "id": "legacy:kraftsten",
         "path": "mediawiki/Kraftsten.txt"
@@ -270,6 +295,7 @@
       "type": "",
       "firstAscent": "Fredrik Sydstrand",
       "description": "",
+      "sectorId": "lilla-delen-till-hoger",
       "source": {
         "id": "legacy:kraftsten",
         "path": "mediawiki/Kraftsten.txt"
@@ -280,27 +306,32 @@
     {
       "filename": "Kraftsten1.jpg",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "vanstra-delen"
     },
     {
       "filename": "Kraftsten2.jpg",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "vanstra-delen"
     },
     {
       "filename": "Kraftsten3.jpg",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "hogra-delen"
     },
     {
       "filename": "Kraftsten4.jpg",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "lilla-delen-till-hoger"
     },
     {
       "filename": "Vågväggen.jpg",
-      "caption": "400px",
-      "missing": false
+      "caption": "",
+      "missing": false,
+      "sectorId": "lilla-delen-till-hoger"
     }
   ],
   "access": {

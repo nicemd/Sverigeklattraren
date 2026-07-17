@@ -42,6 +42,16 @@
       "body": "Högupplöst version - SVG"
     },
     {
+      "id": "leder",
+      "title": "Leder",
+      "body": ""
+    },
+    {
+      "id": "bilder",
+      "title": "Bilder",
+      "body": ""
+    },
+    {
       "id": "ovrigt",
       "title": "Övrigt",
       "body": "Författarna till denna sida har fått bekräftelse på att det klättrats tidigare på denna klippa. Däremot har ingen information kunnat hittas om leder, namn, förstabestigningar osv. Förhoppningvis hör du av dig eller korrigerar direkt om det finns dylik information hos dig som läser detta. Det viktiga för oss var att snabbt presentera denna svaklack som ett ytterligare alternativ kring det inte alltför klipptäta Uppsala. Kategori:trad Kategori:sva kategori:Saknar skiss kategori:Svealand kategori:Uppland"
@@ -58,6 +68,7 @@
       "type": "trad",
       "firstAscent": "Okänt, troligen inte David -11",
       "description": "Efter ett halvhårt instegskrux går leden vidare längs en trevlig fickliknade spricka, lätt efter insteget, välsäkrad!",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:granebergsklippan",
         "path": "mediawiki/Granebergsklippan.txt"
@@ -73,6 +84,7 @@
       "type": "trad",
       "firstAscent": "Okänt, troligen inte David -11",
       "description": "Ett alternativt insteg till Ficktjuven.",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:granebergsklippan",
         "path": "mediawiki/Granebergsklippan.txt"
@@ -88,6 +100,7 @@
       "type": "trad",
       "firstAscent": "Okänt, troligen inte Sjoerd -11",
       "description": "Trevligt klättring. Fötter i sprickan nedanför huvudsprickan.",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:granebergsklippan",
         "path": "mediawiki/Granebergsklippan.txt"
@@ -103,6 +116,7 @@
       "type": "trad",
       "firstAscent": "Okänt, troligen inte Sjoerd -11",
       "description": "Andra hälften bortanför Ficktjuven saknar säkringsmöjligheter!",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:granebergsklippan",
         "path": "mediawiki/Granebergsklippan.txt"
@@ -118,6 +132,7 @@
       "type": "trad",
       "firstAscent": "Okänt, troligen inte Sjoerd -11",
       "description": "Stora sprickan från vänster till höger, och varianten tillbaka till vänster mot trädet.",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:granebergsklippan",
         "path": "mediawiki/Granebergsklippan.txt"
@@ -133,6 +148,7 @@
       "type": "trad",
       "firstAscent": "Okänt, troligen inte David -11",
       "description": "Enkel klättring med cruxet på slutet.",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:granebergsklippan",
         "path": "mediawiki/Granebergsklippan.txt"
@@ -148,6 +164,7 @@
       "type": "trad",
       "firstAscent": "Okänt, troligen inte Sjoerd -11",
       "description": "Nästan rakt på över flak.",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:granebergsklippan",
         "path": "mediawiki/Granebergsklippan.txt"
@@ -163,6 +180,7 @@
       "type": "trad",
       "firstAscent": "Okänt, troligen inte David -11",
       "description": "Saknar säkringsmöjligheter ovanför 'Vandringsleden'.",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:granebergsklippan",
         "path": "mediawiki/Granebergsklippan.txt"
@@ -178,6 +196,7 @@
       "type": "trad",
       "firstAscent": "Okänt, troligen inte David -11",
       "description": "Den kloka varianten med säkringsmöjligheter.",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:granebergsklippan",
         "path": "mediawiki/Granebergsklippan.txt"
@@ -193,6 +212,7 @@
       "type": "trad",
       "firstAscent": "Okänt, troligen inte Sjoerd -11",
       "description": "Mycket enkel klättring, svårt att säkra.",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:granebergsklippan",
         "path": "mediawiki/Granebergsklippan.txt"
@@ -208,6 +228,7 @@
       "type": "trad",
       "firstAscent": "Okänt, troligen inte David & Sjoerd -11",
       "description": "Höga traversen från höger till vänster, starta från marken och toppa ur bortanför 'Ensam'. Enkel klättring, svårsäkrat krux.",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:granebergsklippan",
         "path": "mediawiki/Granebergsklippan.txt"
@@ -223,6 +244,7 @@
       "type": "trad",
       "firstAscent": "Okänt, troligen inte Spider-Man -11",
       "description": "Låga boulder-traversen, höger till vänster eller vänster till höger.",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:granebergsklippan",
         "path": "mediawiki/Granebergsklippan.txt"
@@ -233,17 +255,20 @@
     {
       "filename": "Granebergsklippan_-_Skiss.jpg",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "skiss"
     },
     {
       "filename": "Granebergsklippan1_350.jpg",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "bilder"
     },
     {
       "filename": "Granebergsklippan2_350.jpg",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "bilder"
     }
   ],
   "access": {

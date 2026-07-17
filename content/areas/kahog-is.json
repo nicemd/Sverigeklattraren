@@ -44,6 +44,7 @@
       "type": "is",
       "firstAscent": "Stefan Weddmark 20110223",
       "description": "",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:kahog-is",
         "path": "mediawiki/Kåhög Is.txt"
@@ -59,6 +60,7 @@
       "type": "is",
       "firstAscent": "Stefan Weddmark 20110223",
       "description": "",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:kahog-is",
         "path": "mediawiki/Kåhög Is.txt"
@@ -69,12 +71,14 @@
     {
       "filename": "Marodören.JPG",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "leder"
     },
     {
       "filename": "Flanören.JPG",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "leder"
     }
   ],
   "access": {

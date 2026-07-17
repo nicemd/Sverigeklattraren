@@ -23,9 +23,19 @@
       "body": "Med bil; från länsväg 301 kör man vid en skylt \"Bergvik~5\" mot Bergvik. Sex km från bron i Bergvik, i riktning mot Stråtjära och Holmsveden, ses berget som en skogsklädd höjd på höger sida. I och med att ett stort kalhygge gjorts närmast vägen syns klipporna tydligt. Ca 200 m före en skogstjärn, mitt emot en halvmeterhög sprängvägg parkerar man. Härifrån leder en stig upp till stora klippan. Ungefärliga GPS-koordinater för klippan: Lat: N 61º 12' 46.37\" Long: E 16º 49' 59.11\""
     },
     {
+      "id": "historik",
+      "title": "Historik",
+      "body": ""
+    },
+    {
       "id": "klipporna",
       "title": "Klipporna",
       "body": "Här finns två klippor. Den stora klippan är av 8-15 m höjd och har sju leder, vilka alla är renborstade från lavar. Vidare finns en del små boulderproblem på toppen. Klippan är av granit av god kvalitet med små fina sprickor. Nedstigningen ligger till höger om väggen. Den lilla klippan, som ligger ca 50 m till vänster om den stora, består i princip bara av gigantiska klippblock ihoppusslade till en klippa. Lilla klippan är inte renborstad, och rekomenderas ej."
+    },
+    {
+      "id": "stora-klippan",
+      "title": "Stora klippan",
+      "body": ""
     },
     {
       "id": "lilla-klippan",
@@ -44,6 +54,7 @@
       "type": "trad",
       "firstAscent": "Mikael Bäckman m topprep 1980",
       "description": "Fritt: Mikael Bäckman och Per Calleberg, 1980 Följer en sluttande, ofta blöt, kamin upp till en stor hylla. Därefter ett hörn som vetter åt höger till toppen.",
+      "sectorId": "stora-klippan",
       "source": {
         "id": "legacy:gullberget",
         "path": "mediawiki/Gullberget.txt"
@@ -59,6 +70,7 @@
       "type": "trad",
       "firstAscent": "Per Calleberg och Mikael Bäckman 1979",
       "description": "Fritt: Kent Andersson och Per Calleberg, 1981 Startar från toppen av ett flak, går upp i en avsmalnande kamin och följer sedan sprickan till toppen. Välsäkrad.",
+      "sectorId": "stora-klippan",
       "source": {
         "id": "legacy:gullberget",
         "path": "mediawiki/Gullberget.txt"
@@ -74,6 +86,7 @@
       "type": "trad",
       "firstAscent": "Lars Karlsson m topprep 1979",
       "description": "Fritt: Mikael Bäckman, Per Calleberg och Gunnar Larsson, 1979 Går uppför en kort vägg, över en hylla, följer nischen ovanför till en gran. Sedan följer man rännan ovanför till toppen.",
+      "sectorId": "stora-klippan",
       "source": {
         "id": "legacy:gullberget",
         "path": "mediawiki/Gullberget.txt"
@@ -89,6 +102,7 @@
       "type": "trad",
       "firstAscent": "Lars Eriksson m topprep 1984",
       "description": "Fritt: Birger Hedlund, 1984 Går upp i en grov spricka runt hörnet, strax till höger om \"Styrkans hemvist\". Fortsätt uppför svaet ovanför tills man kommer in på \"Trappan\".",
+      "sectorId": "stora-klippan",
       "source": {
         "id": "legacy:gullberget",
         "path": "mediawiki/Gullberget.txt"
@@ -104,6 +118,7 @@
       "type": "trad",
       "firstAscent": "Lars Eriksson m topprep 1984",
       "description": "Tunn spricka till höger om \"Klass mot klass\".",
+      "sectorId": "stora-klippan",
       "source": {
         "id": "legacy:gullberget",
         "path": "mediawiki/Gullberget.txt"
@@ -119,6 +134,7 @@
       "type": "trad",
       "firstAscent": "Per Calleberg m topprep 1981",
       "description": "Diagonal jamspricka på en svagt övergängande vägg. Leder upp till överhänget på \"Trappan\". Välsäkrad.",
+      "sectorId": "stora-klippan",
       "source": {
         "id": "legacy:gullberget",
         "path": "mediawiki/Gullberget.txt"
@@ -134,6 +150,7 @@
       "type": "trad",
       "firstAscent": "Mikael Bäckman, Per Calleberg och Gunnar Larsson 1979",
       "description": "Fritt: Mikael Bäckman och Kent Andersson, Kombinationen av Styrkans hemvist och Trappan ger en trestjärnig led . Följer ett tydligt dieder upp till ett taköverhäng. Detta undviks genom en hangeltravers åt höger till en hylla. Följ sprickan ovanför till toppen. Välsäkrad.",
+      "sectorId": "stora-klippan",
       "source": {
         "id": "legacy:gullberget",
         "path": "mediawiki/Gullberget.txt"
@@ -149,6 +166,7 @@
       "type": "trad",
       "firstAscent": "Mikael Bäckman 1979",
       "description": "Slipprig, storblockig, kaminartad företeelse.",
+      "sectorId": "lilla-klippan",
       "source": {
         "id": "legacy:gullberget",
         "path": "mediawiki/Gullberget.txt"
@@ -164,6 +182,7 @@
       "type": "trad",
       "firstAscent": "Per Calleberg m topprep 1979",
       "description": "Följer en jamspricka i ett litet hörn, som börjar en liten bit upp på väggen. Där sprickan slutar, kliver man ut vänster och når strax toppen.",
+      "sectorId": "lilla-klippan",
       "source": {
         "id": "legacy:gullberget",
         "path": "mediawiki/Gullberget.txt"
@@ -179,6 +198,7 @@
       "type": "trad",
       "firstAscent": "Lars Ericsson m topprep 1984",
       "description": "Fritt: Birger Hedlund, 1984 Startar strax till höger om ett markant dieder. Följer en diagonal linje upp åt höger. Gemensamt utsteg med \"The Giant Stone Eater\".",
+      "sectorId": "lilla-klippan",
       "source": {
         "id": "legacy:gullberget",
         "path": "mediawiki/Gullberget.txt"
@@ -194,6 +214,7 @@
       "type": "trad",
       "firstAscent": "Birger Hedlund 1984",
       "description": "Ett rent, markerat dieder.",
+      "sectorId": "lilla-klippan",
       "source": {
         "id": "legacy:gullberget",
         "path": "mediawiki/Gullberget.txt"
@@ -209,6 +230,7 @@
       "type": "trad",
       "firstAscent": "Mikael Bäckman m topprep 1979",
       "description": "Trång kamin som vidgar sig uppåt.",
+      "sectorId": "lilla-klippan",
       "source": {
         "id": "legacy:gullberget",
         "path": "mediawiki/Gullberget.txt"
@@ -224,6 +246,7 @@
       "type": "trad",
       "firstAscent": "Per Calleberg och Mikael Bäckman 1979",
       "description": "Där kaminen på \"Return of the king\" börjar, traverserar man ut åt vänster på en smal hylla och klättrar sedan det mossiga hörnet ovanför.",
+      "sectorId": "lilla-klippan",
       "source": {
         "id": "legacy:gullberget",
         "path": "mediawiki/Gullberget.txt"
@@ -234,42 +257,50 @@
     {
       "filename": "Gullberg.jpg",
       "caption": "Utsikt från Gullberget, 1981. Foto: Per Calleberg",
-      "missing": false
+      "missing": false,
+      "sectorId": null
     },
     {
       "filename": "Gullberget.jpg",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "klipporna"
     },
     {
       "filename": "Gullb_stora.jpg",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "stora-klippan"
     },
     {
       "filename": "KarinsSpricka.jpg",
       "caption": "Topprepsklättring på Karins Spricka 1980. Foto: Per Calleberg",
-      "missing": false
+      "missing": false,
+      "sectorId": "stora-klippan"
     },
     {
       "filename": "Styrkan.jpg",
       "caption": "Kent Andersson på Styrkans hemvist (6-), Gullberget, 1982. Foto: Per Calleberg",
-      "missing": false
+      "missing": false,
+      "sectorId": "stora-klippan"
     },
     {
       "filename": "3star.png",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "stora-klippan"
     },
     {
       "filename": "Shorttrip.jpg",
       "caption": "Kent Andersson gör första fria bestigningen av Short Trip to Space (5+), Gullberget, 1981. Foto: Per Calleberg",
-      "missing": false
+      "missing": false,
+      "sectorId": "stora-klippan"
     },
     {
       "filename": "Gullb_lilla.jpg",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "lilla-klippan"
     }
   ],
   "access": {

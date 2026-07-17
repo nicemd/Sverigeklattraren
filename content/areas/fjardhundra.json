@@ -46,6 +46,16 @@
       "body": "Klippan består av en enda lång vägg, här uppdelad i tre sektioner (med mossiga partier emellan). Sektioner och leder är från höger till vänster, eller anmarschordning om man så vill."
     },
     {
+      "id": "sodra-delen",
+      "title": "Södra delen",
+      "body": ""
+    },
+    {
+      "id": "akern",
+      "title": "Åkern",
+      "body": ""
+    },
+    {
       "id": "skogen",
       "title": "Skogen",
       "body": "Denna förare bygger delvis på material från Bertil Dyvell publicerat i Uppsala klätterklubbs Medlemstidning Ukkern. Kategori:Sport Kategori:Uppsala Kategori:Uppland Kategori:Saknar vägbeskrivning"
@@ -62,6 +72,7 @@
       "type": "boulder",
       "firstAscent": "",
       "description": "Start på den vänstra sidan av kaminen till landningen är en risbuske åt höger.",
+      "sectorId": "sodra-delen",
       "source": {
         "id": "legacy:fjardhundra",
         "path": "mediawiki/Fjärdhundra.txt"
@@ -77,6 +88,7 @@
       "type": "sport",
       "firstAscent": "Björn Bergmark,Fredrik Lingvall -01",
       "description": "",
+      "sectorId": "sodra-delen",
       "source": {
         "id": "legacy:fjardhundra",
         "path": "mediawiki/Fjärdhundra.txt"
@@ -92,6 +104,7 @@
       "type": "sport",
       "firstAscent": "Håkan Eriksson -94",
       "description": "tt kortare problem upp på hyllan. Runout till slutet.",
+      "sectorId": "sodra-delen",
       "source": {
         "id": "legacy:fjardhundra",
         "path": "mediawiki/Fjärdhundra.txt"
@@ -107,6 +120,7 @@
       "type": "sport",
       "firstAscent": "H.E. -94",
       "description": "Ett måste bland de lättare lederna",
+      "sectorId": "sodra-delen",
       "source": {
         "id": "legacy:fjardhundra",
         "path": "mediawiki/Fjärdhundra.txt"
@@ -122,6 +136,7 @@
       "type": "sport",
       "firstAscent": "H.E: -95",
       "description": "Detta är nog klippans mest repeterade led. Jämn klättring på fina grepp.",
+      "sectorId": "sodra-delen",
       "source": {
         "id": "legacy:fjardhundra",
         "path": "mediawiki/Fjärdhundra.txt"
@@ -137,6 +152,7 @@
       "type": "sport",
       "firstAscent": "H.E. -94",
       "description": "Hård för sin grad.",
+      "sectorId": "sodra-delen",
       "source": {
         "id": "legacy:fjardhundra",
         "path": "mediawiki/Fjärdhundra.txt"
@@ -152,6 +168,7 @@
       "type": "trad",
       "firstAscent": "Ronny Nilsson -95",
       "description": "För den som hellre lägger kilar och hexor är nog denna en bra uppvärmning. Man bör nog undvika att använda friends bakom de vassa blocken.",
+      "sectorId": "sodra-delen",
       "source": {
         "id": "legacy:fjardhundra",
         "path": "mediawiki/Fjärdhundra.txt"
@@ -167,6 +184,7 @@
       "type": "sport",
       "firstAscent": "Fredrik Ståhl -99",
       "description": "Hårt (6a+?) insteg med första bulten ganska högt placerad. \"Nybörjargrad\", men inget för nybörjare.",
+      "sectorId": "akern",
       "source": {
         "id": "legacy:fjardhundra",
         "path": "mediawiki/Fjärdhundra.txt"
@@ -182,6 +200,7 @@
       "type": "sport",
       "firstAscent": "F.L, B.B. -00",
       "description": "Fin och jämn linje.",
+      "sectorId": "akern",
       "source": {
         "id": "legacy:fjardhundra",
         "path": "mediawiki/Fjärdhundra.txt"
@@ -197,6 +216,7 @@
       "type": "sport",
       "firstAscent": "H.E. -94",
       "description": "Välklättrad led",
+      "sectorId": "akern",
       "source": {
         "id": "legacy:fjardhundra",
         "path": "mediawiki/Fjärdhundra.txt"
@@ -212,6 +232,7 @@
       "type": "sport",
       "firstAscent": "Rikard Hedman -96",
       "description": "En led med få repetitioner.",
+      "sectorId": "akern",
       "source": {
         "id": "legacy:fjardhundra",
         "path": "mediawiki/Fjärdhundra.txt"
@@ -227,6 +248,7 @@
       "type": "sport",
       "firstAscent": "Kjell Henriksson -94",
       "description": "En led som fick sin renässans med det nya toppankaret.",
+      "sectorId": "akern",
       "source": {
         "id": "legacy:fjardhundra",
         "path": "mediawiki/Fjärdhundra.txt"
@@ -242,6 +264,7 @@
       "type": "sport",
       "firstAscent": "Björn Bergmark -97",
       "description": "Omväxlande klättring",
+      "sectorId": "akern",
       "source": {
         "id": "legacy:fjardhundra",
         "path": "mediawiki/Fjärdhundra.txt"
@@ -257,6 +280,7 @@
       "type": "sport",
       "firstAscent": "Peter Viktorsson, Timo Kero -96",
       "description": "Leden har även lytt under namnet Åttjäveln, kanske p.g.a. att denna del av klippan bjuder på bitvis ojämn klättring.",
+      "sectorId": "akern",
       "source": {
         "id": "legacy:fjardhundra",
         "path": "mediawiki/Fjärdhundra.txt"
@@ -272,6 +296,7 @@
       "type": "sport",
       "firstAscent": "B.B. -98",
       "description": "Lite svårläst",
+      "sectorId": "akern",
       "source": {
         "id": "legacy:fjardhundra",
         "path": "mediawiki/Fjärdhundra.txt"
@@ -287,6 +312,7 @@
       "type": "sport",
       "firstAscent": "K.H. -94",
       "description": "En av de bättre lederna på klippan. Distinkt crux som sätter graden.",
+      "sectorId": "akern",
       "source": {
         "id": "legacy:fjardhundra",
         "path": "mediawiki/Fjärdhundra.txt"
@@ -302,6 +328,7 @@
       "type": "sport",
       "firstAscent": "Johan Ullsten",
       "description": "Jämn och fin led. Håll tempot uppe.",
+      "sectorId": "akern",
       "source": {
         "id": "legacy:fjardhundra",
         "path": "mediawiki/Fjärdhundra.txt"
@@ -317,6 +344,7 @@
       "type": "sport",
       "firstAscent": "B.B. -98",
       "description": "Små smärtsamma crimps. Går ihop med nr 15 mot slutet.",
+      "sectorId": "akern",
       "source": {
         "id": "legacy:fjardhundra",
         "path": "mediawiki/Fjärdhundra.txt"
@@ -332,6 +360,7 @@
       "type": "sport",
       "firstAscent": "Patrik Malmström -97",
       "description": "Tjockabultar!!",
+      "sectorId": "akern",
       "source": {
         "id": "legacy:fjardhundra",
         "path": "mediawiki/Fjärdhundra.txt"
@@ -347,6 +376,7 @@
       "type": "sport",
       "firstAscent": "H.E. -96",
       "description": "Namnet efter ett slingrande djur som enligt uppgift trivdes bra under en repsäck nedan för leden..",
+      "sectorId": "skogen",
       "source": {
         "id": "legacy:fjardhundra",
         "path": "mediawiki/Fjärdhundra.txt"
@@ -362,6 +392,7 @@
       "type": "sport",
       "firstAscent": "B.B. -99",
       "description": "OBS! Klättra ej in på Huggormen.",
+      "sectorId": "skogen",
       "source": {
         "id": "legacy:fjardhundra",
         "path": "mediawiki/Fjärdhundra.txt"
@@ -377,6 +408,7 @@
       "type": "sport",
       "firstAscent": "Jon Smedsaas -96",
       "description": "Lite svårare utstegs- variant på nr 20.",
+      "sectorId": "skogen",
       "source": {
         "id": "legacy:fjardhundra",
         "path": "mediawiki/Fjärdhundra.txt"
@@ -392,6 +424,7 @@
       "type": "sport",
       "firstAscent": "R.H. -96",
       "description": "En något känslig start avslutas med relativt fin klättring",
+      "sectorId": "skogen",
       "source": {
         "id": "legacy:fjardhundra",
         "path": "mediawiki/Fjärdhundra.txt"
@@ -407,6 +440,7 @@
       "type": "sport",
       "firstAscent": "Pär Engman, FB, Bertil Dyvell -94",
       "description": "Väl repeterad och har ett flertal onsighter på samvetet.",
+      "sectorId": "skogen",
       "source": {
         "id": "legacy:fjardhundra",
         "path": "mediawiki/Fjärdhundra.txt"
@@ -422,6 +456,7 @@
       "type": "sport",
       "firstAscent": "Bertil Dyvell -94",
       "description": "Ett direkt insteg rakt över det lilla taket, som höjer graden något steg.",
+      "sectorId": "skogen",
       "source": {
         "id": "legacy:fjardhundra",
         "path": "mediawiki/Fjärdhundra.txt"
@@ -437,6 +472,7 @@
       "type": "sport",
       "firstAscent": "K.H. -94",
       "description": "Här kan man i alla fall använda sina förmodade kunskaper från inomhusväggen.",
+      "sectorId": "skogen",
       "source": {
         "id": "legacy:fjardhundra",
         "path": "mediawiki/Fjärdhundra.txt"
@@ -452,6 +488,7 @@
       "type": "sport",
       "firstAscent": "Bertil Dyvell -95",
       "description": "Kombination av nr 23 till 2:a bulten sedan ut på nr:25.",
+      "sectorId": "skogen",
       "source": {
         "id": "legacy:fjardhundra",
         "path": "mediawiki/Fjärdhundra.txt"
@@ -467,6 +504,7 @@
       "type": "sport",
       "firstAscent": "FB J.U. -95",
       "description": "Crux betonad led",
+      "sectorId": "skogen",
       "source": {
         "id": "legacy:fjardhundra",
         "path": "mediawiki/Fjärdhundra.txt"
@@ -482,6 +520,7 @@
       "type": "sport",
       "firstAscent": "Peter Reffner, Jesper Orrhult -95",
       "description": "Bitvis känslig svaklättring.",
+      "sectorId": "skogen",
       "source": {
         "id": "legacy:fjardhundra",
         "path": "mediawiki/Fjärdhundra.txt"
@@ -497,6 +536,7 @@
       "type": "sport",
       "firstAscent": "B.B. -01",
       "description": "",
+      "sectorId": "skogen",
       "source": {
         "id": "legacy:fjardhundra",
         "path": "mediawiki/Fjärdhundra.txt"
@@ -512,6 +552,7 @@
       "type": "sport",
       "firstAscent": "P.R., J.O. -97",
       "description": "Efter att den något högt placerade första bulten har klippts kan man njuta av fin klättring.",
+      "sectorId": "skogen",
       "source": {
         "id": "legacy:fjardhundra",
         "path": "mediawiki/Fjärdhundra.txt"
@@ -527,6 +568,7 @@
       "type": "sport",
       "firstAscent": "P.R., J.O. -97",
       "description": "På denna led kan en liten kil / friend vara bra i starten.",
+      "sectorId": "skogen",
       "source": {
         "id": "legacy:fjardhundra",
         "path": "mediawiki/Fjärdhundra.txt"
@@ -542,6 +584,7 @@
       "type": "sport",
       "firstAscent": "B.B. -99",
       "description": "",
+      "sectorId": "skogen",
       "source": {
         "id": "legacy:fjardhundra",
         "path": "mediawiki/Fjärdhundra.txt"
@@ -557,6 +600,7 @@
       "type": "trad",
       "firstAscent": "B.B. -99",
       "description": "Fin och ren klättring en gång i tiden. Säkras okej med två camalot 1 eller ett par mindre friends, en medelstor kil och en WC etta (friend).",
+      "sectorId": "skogen",
       "source": {
         "id": "legacy:fjardhundra",
         "path": "mediawiki/Fjärdhundra.txt"
@@ -566,23 +610,27 @@
   "images": [
     {
       "filename": "Fjärdhundra.jpg",
-      "caption": "400px",
-      "missing": false
+      "caption": "",
+      "missing": false,
+      "sectorId": "historik-m-m"
     },
     {
       "filename": "Fjärdhundra_södra.png",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "sodra-delen"
     },
     {
       "filename": "Fjärdhundra_åkern.png",
-      "caption": "650px",
-      "missing": false
+      "caption": "",
+      "missing": false,
+      "sectorId": "akern"
     },
     {
       "filename": "Fjärdhundra_skogen.png",
-      "caption": "650px",
-      "missing": false
+      "caption": "",
+      "missing": false,
+      "sectorId": "skogen"
     }
   ],
   "access": {

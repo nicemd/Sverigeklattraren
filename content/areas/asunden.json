@@ -36,6 +36,21 @@
       "body": "Strax norr om stora klinten finns en liten klint med fint tak. Än så länge har det inte etablerats några problem här, men det är bara en tidsfråga."
     },
     {
+      "id": "norra-taket",
+      "title": "Norra taket",
+      "body": ""
+    },
+    {
+      "id": "stora-taket",
+      "title": "Stora taket",
+      "body": ""
+    },
+    {
+      "id": "sodra-taket",
+      "title": "Södra taket",
+      "body": ""
+    },
+    {
       "id": "smataken",
       "title": "Småtaken",
       "body": "Söder om södra taket finns en serie med mindre tak till att klinten upphör Kategori:vertikalt Kategori:överhäng kategori:Saknar skiss kategori:Saknar vägbeskrivning Category:Gotland Category:Bouldering"
@@ -52,6 +67,7 @@
       "type": "boulder",
       "firstAscent": "Visby Klätterklubb -12",
       "description": "Den grepprika vertikala väggen till vänster om Norra taket. Valfri väg och urtoppning.",
+      "sectorId": "norra-taket",
       "source": {
         "id": "legacy:asunden",
         "path": "mediawiki/Asunden.txt"
@@ -67,6 +83,7 @@
       "type": "boulder",
       "firstAscent": "Carl Quick -12",
       "description": "Det tydliga hörnet på fyraväggen. Rakt upp, toppa ur",
+      "sectorId": "norra-taket",
       "source": {
         "id": "legacy:asunden",
         "path": "mediawiki/Asunden.txt"
@@ -82,6 +99,7 @@
       "type": "boulder",
       "firstAscent": "Maximilian Lund -12 Maximilian Lund har satt projektet vid den överhängande spetsen som är fristående från klinten, på strax söder om Norra taket.",
       "description": "",
+      "sectorId": "norra-taket",
       "source": {
         "id": "legacy:asunden",
         "path": "mediawiki/Asunden.txt"
@@ -97,6 +115,7 @@
       "type": "boulder",
       "firstAscent": "Alexander Rydén -12",
       "description": "Längst till höger på Norra taket. Lös start, därefter rakt upp. Toppa ur i det lilla hacket i taket.",
+      "sectorId": "norra-taket",
       "source": {
         "id": "legacy:asunden",
         "path": "mediawiki/Asunden.txt"
@@ -112,6 +131,7 @@
       "type": "boulder",
       "firstAscent": "Per-Ola Nilsson -12",
       "description": "Som namnet antyder är det vänster höger ggr 2, toppa ur.",
+      "sectorId": "norra-taket",
       "source": {
         "id": "legacy:asunden",
         "path": "mediawiki/Asunden.txt"
@@ -127,6 +147,7 @@
       "type": "boulder",
       "firstAscent": "xx xx -xx",
       "description": "Maximilian Lund har ett projekt i början av Stora taket.",
+      "sectorId": "stora-taket",
       "source": {
         "id": "legacy:asunden",
         "path": "mediawiki/Asunden.txt"
@@ -142,6 +163,7 @@
       "type": "boulder",
       "firstAscent": "Per Bäckström -12",
       "description": "Aréten i högra kanten av det stora taket mitt på klinten. Sittstart och vidare rakt upp runt taket. Lätt fint problem på bra grepp hela vägen.",
+      "sectorId": "stora-taket",
       "source": {
         "id": "legacy:asunden",
         "path": "mediawiki/Asunden.txt"
@@ -157,6 +179,7 @@
       "type": "boulder",
       "firstAscent": "Per-Ola Nilsson -12",
       "description": "Vänstra sidan av taket. Rakt upp på bra grepp, höger hand på krimp vid första utskjutande del, vänster hand gaston åt vänster. Toppa ur rakt upp och inte via vertikala väggen till vänster.",
+      "sectorId": "sodra-taket",
       "source": {
         "id": "legacy:asunden",
         "path": "mediawiki/Asunden.txt"
@@ -172,6 +195,7 @@
       "type": "boulder",
       "firstAscent": "Alexander Rydén -12",
       "description": "beskrivning kommer",
+      "sectorId": "sodra-taket",
       "source": {
         "id": "legacy:asunden",
         "path": "mediawiki/Asunden.txt"
@@ -187,6 +211,7 @@
       "type": "boulder",
       "firstAscent": "Maximilian Lund -12",
       "description": "beskrivning kommer",
+      "sectorId": "sodra-taket",
       "source": {
         "id": "legacy:asunden",
         "path": "mediawiki/Asunden.txt"
@@ -202,6 +227,7 @@
       "type": "boulder",
       "firstAscent": "Alexander Sjöstrand -12",
       "description": "Mitt emellan Five finger och Hedlunds går detta problem rakt upp. Toppa ur",
+      "sectorId": "sodra-taket",
       "source": {
         "id": "legacy:asunden",
         "path": "mediawiki/Asunden.txt"
@@ -217,6 +243,7 @@
       "type": "boulder",
       "firstAscent": "David Skoog -12",
       "description": "beskrivning kommer",
+      "sectorId": "sodra-taket",
       "source": {
         "id": "legacy:asunden",
         "path": "mediawiki/Asunden.txt"
@@ -232,6 +259,7 @@
       "type": "boulder",
       "firstAscent": "Maximilian Lund -12",
       "description": "beskrivning kommer",
+      "sectorId": "smataken",
       "source": {
         "id": "legacy:asunden",
         "path": "mediawiki/Asunden.txt"
@@ -247,6 +275,7 @@
       "type": "boulder",
       "firstAscent": "Maximilian Lund -12",
       "description": "beskrivning kommer",
+      "sectorId": "smataken",
       "source": {
         "id": "legacy:asunden",
         "path": "mediawiki/Asunden.txt"
@@ -262,6 +291,7 @@
       "type": "boulder",
       "firstAscent": "Carl Quick -12",
       "description": "beskrivning kommer",
+      "sectorId": "smataken",
       "source": {
         "id": "legacy:asunden",
         "path": "mediawiki/Asunden.txt"
@@ -277,6 +307,7 @@
       "type": "boulder",
       "firstAscent": "Per Bäckström -12",
       "description": "Det lilla taket långt ut till höger. Sittstart, vidare upp till jug under taket, därefter rakt upp.",
+      "sectorId": "smataken",
       "source": {
         "id": "legacy:asunden",
         "path": "mediawiki/Asunden.txt"

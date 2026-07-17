@@ -47,9 +47,19 @@
       "body": "Markägaren är positiv till klättring, men vill att parkering endast sker på den större parkeringen innan kapellet. Det finns ett par rutor närmare berget, men dessa är tidsbegränsade till 2 timmar och avsedda för besökare till kyrkogården. Stölder i parkerade bilar har förekommit."
     },
     {
+      "id": "leder",
+      "title": "Leder",
+      "body": ""
+    },
+    {
       "id": "haggstatraversen",
       "title": "Häggstatraversen",
       "body": "En smått klassisk heldagsutflykt. Poängen är att hålla sig från marken så länge som möjligt. Det går självfallet att kombinera leder efter egen smak, den sträckning som är den vanligaste är: Gillis platta, Tors travers, Helmuts travers, Tveksamheten, (firning), Pierres travers, Rosentraversen, Münchenertraversen, Münchenerplattan, Sjuochenhalvan, Tomas travers, Hasses utsteg, Topptraversen, Tors platta. Se det som träning för alperna!"
+    },
+    {
+      "id": "sjosidan",
+      "title": "Sjösidan",
+      "body": ""
     },
     {
       "id": "rampvaggen",
@@ -60,6 +70,26 @@
       "id": "trean-vaggen",
       "title": "Trean-väggen",
       "body": ", följer den tydliga rampen snett uppåt till vänster. Den som inte vill sola rampen, har stor glädje av små kamkilar - eller mer eftertänksamma kilplaceringar. Pitong på det flacka svaet nån meter efter insteget. }}"
+    },
+    {
+      "id": "franska-vaggen",
+      "title": "Franska Väggen",
+      "body": ""
+    },
+    {
+      "id": "direttissimavaggen",
+      "title": "Direttissimaväggen",
+      "body": ""
+    },
+    {
+      "id": "omojliga-vaggen-vaggen",
+      "title": "Omöjliga väggen-väggen",
+      "body": ""
+    },
+    {
+      "id": "fyrbultsvaggen",
+      "title": "Fyrbultsväggen",
+      "body": ""
     },
     {
       "id": "langfredagsvaggen",
@@ -83,6 +113,7 @@
       "type": "",
       "firstAscent": "",
       "description": "",
+      "sectorId": "sjosidan",
       "source": {
         "id": "legacy:haggsta",
         "path": "mediawiki/Häggsta.txt"
@@ -98,6 +129,7 @@
       "type": "",
       "firstAscent": "Thomas Hansson -90",
       "description": "Förstabestigningen gjord på förplacerade pitonger. Repeterad utan förplacerade säkringar av Peter Bosma -00(?)",
+      "sectorId": "sjosidan",
       "source": {
         "id": "legacy:haggsta",
         "path": "mediawiki/Häggsta.txt"
@@ -113,6 +145,7 @@
       "type": "",
       "firstAscent": "FF: Anders Lundahl-89",
       "description": "",
+      "sectorId": "sjosidan",
       "source": {
         "id": "legacy:haggsta",
         "path": "mediawiki/Häggsta.txt"
@@ -128,6 +161,7 @@
       "type": "",
       "firstAscent": "FF: Rikard Hedman, Jan Liljemark-80",
       "description": "",
+      "sectorId": "sjosidan",
       "source": {
         "id": "legacy:haggsta",
         "path": "mediawiki/Häggsta.txt"
@@ -143,6 +177,7 @@
       "type": "aid",
       "firstAscent": "",
       "description": "",
+      "sectorId": "sjosidan",
       "source": {
         "id": "legacy:haggsta",
         "path": "mediawiki/Häggsta.txt"
@@ -158,6 +193,7 @@
       "type": "aid",
       "firstAscent": "",
       "description": "",
+      "sectorId": "sjosidan",
       "source": {
         "id": "legacy:haggsta",
         "path": "mediawiki/Häggsta.txt"
@@ -173,6 +209,7 @@
       "type": "",
       "firstAscent": "",
       "description": "",
+      "sectorId": "sjosidan",
       "source": {
         "id": "legacy:haggsta",
         "path": "mediawiki/Häggsta.txt"
@@ -188,6 +225,7 @@
       "type": "aid",
       "firstAscent": "",
       "description": "",
+      "sectorId": "sjosidan",
       "source": {
         "id": "legacy:haggsta",
         "path": "mediawiki/Häggsta.txt"
@@ -203,6 +241,7 @@
       "type": "",
       "firstAscent": "FF: Choe Brooks, Jan liljemark-80",
       "description": "",
+      "sectorId": "sjosidan",
       "source": {
         "id": "legacy:haggsta",
         "path": "mediawiki/Häggsta.txt"
@@ -218,6 +257,7 @@
       "type": "",
       "firstAscent": "Hans Steyskal, Jack Berg-65",
       "description": "",
+      "sectorId": "sjosidan",
       "source": {
         "id": "legacy:haggsta",
         "path": "mediawiki/Häggsta.txt"
@@ -233,6 +273,7 @@
       "type": "",
       "firstAscent": "FF: Anders Lundahl, Eva Selin-79",
       "description": "",
+      "sectorId": "sjosidan",
       "source": {
         "id": "legacy:haggsta",
         "path": "mediawiki/Häggsta.txt"
@@ -248,6 +289,7 @@
       "type": "",
       "firstAscent": "",
       "description": "",
+      "sectorId": "sjosidan",
       "source": {
         "id": "legacy:haggsta",
         "path": "mediawiki/Häggsta.txt"
@@ -263,6 +305,7 @@
       "type": "",
       "firstAscent": "",
       "description": "",
+      "sectorId": "sjosidan",
       "source": {
         "id": "legacy:haggsta",
         "path": "mediawiki/Häggsta.txt"
@@ -278,6 +321,7 @@
       "type": "",
       "firstAscent": "",
       "description": "",
+      "sectorId": "sjosidan",
       "source": {
         "id": "legacy:haggsta",
         "path": "mediawiki/Häggsta.txt"
@@ -293,6 +337,7 @@
       "type": "",
       "firstAscent": "",
       "description": "",
+      "sectorId": "sjosidan",
       "source": {
         "id": "legacy:haggsta",
         "path": "mediawiki/Häggsta.txt"
@@ -308,6 +353,7 @@
       "type": "",
       "firstAscent": "Thomas Hansson, Gary Hansson-89",
       "description": "",
+      "sectorId": "sjosidan",
       "source": {
         "id": "legacy:haggsta",
         "path": "mediawiki/Häggsta.txt"
@@ -323,6 +369,7 @@
       "type": "",
       "firstAscent": "",
       "description": "",
+      "sectorId": "sjosidan",
       "source": {
         "id": "legacy:haggsta",
         "path": "mediawiki/Häggsta.txt"
@@ -338,6 +385,7 @@
       "type": "",
       "firstAscent": "Per Willén, Johnny Carlén",
       "description": "",
+      "sectorId": "sjosidan",
       "source": {
         "id": "legacy:haggsta",
         "path": "mediawiki/Häggsta.txt"
@@ -353,6 +401,7 @@
       "type": "",
       "firstAscent": "Anders Lundahl, Eva Selin-91",
       "description": "",
+      "sectorId": "sjosidan",
       "source": {
         "id": "legacy:haggsta",
         "path": "mediawiki/Häggsta.txt"
@@ -368,6 +417,7 @@
       "type": "",
       "firstAscent": "Eva Selin, Anders Lundahl-89",
       "description": "",
+      "sectorId": "sjosidan",
       "source": {
         "id": "legacy:haggsta",
         "path": "mediawiki/Häggsta.txt"
@@ -383,6 +433,7 @@
       "type": "",
       "firstAscent": "Johnny Carlén Per Willén -93",
       "description": "",
+      "sectorId": "sjosidan",
       "source": {
         "id": "legacy:haggsta",
         "path": "mediawiki/Häggsta.txt"
@@ -398,6 +449,7 @@
       "type": "",
       "firstAscent": "Fred Waldvogel, Sune Olsäter, Sven Wicklund-50",
       "description": "",
+      "sectorId": "sjosidan",
       "source": {
         "id": "legacy:haggsta",
         "path": "mediawiki/Häggsta.txt"
@@ -413,6 +465,7 @@
       "type": "",
       "firstAscent": "Bodil Eriksson, Carl-Axel Bladsjö-69",
       "description": "",
+      "sectorId": "sjosidan",
       "source": {
         "id": "legacy:haggsta",
         "path": "mediawiki/Häggsta.txt"
@@ -428,6 +481,7 @@
       "type": "",
       "firstAscent": "",
       "description": "",
+      "sectorId": "sjosidan",
       "source": {
         "id": "legacy:haggsta",
         "path": "mediawiki/Häggsta.txt"
@@ -443,6 +497,7 @@
       "type": "",
       "firstAscent": "Anders Lundahl, Eva Selin-90",
       "description": "",
+      "sectorId": "sjosidan",
       "source": {
         "id": "legacy:haggsta",
         "path": "mediawiki/Häggsta.txt"
@@ -458,6 +513,7 @@
       "type": "",
       "firstAscent": "",
       "description": "",
+      "sectorId": "sjosidan",
       "source": {
         "id": "legacy:haggsta",
         "path": "mediawiki/Häggsta.txt"
@@ -473,6 +529,7 @@
       "type": "",
       "firstAscent": "Anders Lundahl, Stefan Bergström-76",
       "description": "",
+      "sectorId": "sjosidan",
       "source": {
         "id": "legacy:haggsta",
         "path": "mediawiki/Häggsta.txt"
@@ -488,6 +545,7 @@
       "type": "aid",
       "firstAscent": "Tomas Carlström, Jack Berg",
       "description": "",
+      "sectorId": "sjosidan",
       "source": {
         "id": "legacy:haggsta",
         "path": "mediawiki/Häggsta.txt"
@@ -503,6 +561,7 @@
       "type": "",
       "firstAscent": "Eva Selin, Anders Lundahl-91",
       "description": "",
+      "sectorId": "sjosidan",
       "source": {
         "id": "legacy:haggsta",
         "path": "mediawiki/Häggsta.txt"
@@ -518,6 +577,7 @@
       "type": "",
       "firstAscent": "Anders Lundahl, Eva Selin-81",
       "description": "",
+      "sectorId": "sjosidan",
       "source": {
         "id": "legacy:haggsta",
         "path": "mediawiki/Häggsta.txt"
@@ -533,6 +593,7 @@
       "type": "",
       "firstAscent": "Thomas Hansson, Gary Hansson-88",
       "description": "",
+      "sectorId": "sjosidan",
       "source": {
         "id": "legacy:haggsta",
         "path": "mediawiki/Häggsta.txt"
@@ -548,6 +609,7 @@
       "type": "",
       "firstAscent": "Thomas Hansson, Gary Hansson-88",
       "description": "",
+      "sectorId": "sjosidan",
       "source": {
         "id": "legacy:haggsta",
         "path": "mediawiki/Häggsta.txt"
@@ -563,6 +625,7 @@
       "type": "",
       "firstAscent": "Thomas Hansson, Gary Hansson-88",
       "description": "",
+      "sectorId": "sjosidan",
       "source": {
         "id": "legacy:haggsta",
         "path": "mediawiki/Häggsta.txt"
@@ -578,6 +641,7 @@
       "type": "mix",
       "firstAscent": "Johan Luhr,Daniel Bidner-89",
       "description": "",
+      "sectorId": "sjosidan",
       "source": {
         "id": "legacy:haggsta",
         "path": "mediawiki/Häggsta.txt"
@@ -593,6 +657,7 @@
       "type": "",
       "firstAscent": "Anders Lundahl, Eva Selin-82",
       "description": "",
+      "sectorId": "sjosidan",
       "source": {
         "id": "legacy:haggsta",
         "path": "mediawiki/Häggsta.txt"
@@ -608,6 +673,7 @@
       "type": "",
       "firstAscent": "Daniel Bidner-85",
       "description": "",
+      "sectorId": "sjosidan",
       "source": {
         "id": "legacy:haggsta",
         "path": "mediawiki/Häggsta.txt"
@@ -623,6 +689,7 @@
       "type": "",
       "firstAscent": "Thomas Hansson-88",
       "description": "",
+      "sectorId": "sjosidan",
       "source": {
         "id": "legacy:haggsta",
         "path": "mediawiki/Häggsta.txt"
@@ -638,6 +705,7 @@
       "type": "",
       "firstAscent": "Jacob Sjöstrand, Daniel Bidner-85",
       "description": "",
+      "sectorId": "sjosidan",
       "source": {
         "id": "legacy:haggsta",
         "path": "mediawiki/Häggsta.txt"
@@ -653,6 +721,7 @@
       "type": "",
       "firstAscent": "Johan Luhr, Daniel Bidner-89",
       "description": "",
+      "sectorId": "sjosidan",
       "source": {
         "id": "legacy:haggsta",
         "path": "mediawiki/Häggsta.txt"
@@ -668,6 +737,7 @@
       "type": "",
       "firstAscent": "Anders Lundahl, Eva Selin-82",
       "description": "",
+      "sectorId": "sjosidan",
       "source": {
         "id": "legacy:haggsta",
         "path": "mediawiki/Häggsta.txt"
@@ -683,6 +753,7 @@
       "type": "",
       "firstAscent": "FF: Anders Lundahl, Lars Lindberg-75",
       "description": "",
+      "sectorId": "sjosidan",
       "source": {
         "id": "legacy:haggsta",
         "path": "mediawiki/Häggsta.txt"
@@ -698,6 +769,7 @@
       "type": "",
       "firstAscent": "FF:Christer Åstrand-78",
       "description": "",
+      "sectorId": "sjosidan",
       "source": {
         "id": "legacy:haggsta",
         "path": "mediawiki/Häggsta.txt"
@@ -713,6 +785,7 @@
       "type": "",
       "firstAscent": "Per Allmqvist-92",
       "description": "",
+      "sectorId": "sjosidan",
       "source": {
         "id": "legacy:haggsta",
         "path": "mediawiki/Häggsta.txt"
@@ -728,6 +801,7 @@
       "type": "",
       "firstAscent": "Jacob Sjöstrand-85",
       "description": "",
+      "sectorId": "sjosidan",
       "source": {
         "id": "legacy:haggsta",
         "path": "mediawiki/Häggsta.txt"
@@ -743,6 +817,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "",
+      "sectorId": "rampvaggen",
       "source": {
         "id": "legacy:haggsta",
         "path": "mediawiki/Häggsta.txt"
@@ -758,6 +833,7 @@
       "type": "trad",
       "firstAscent": "Harry Sporrevik-88",
       "description": "",
+      "sectorId": "rampvaggen",
       "source": {
         "id": "legacy:haggsta",
         "path": "mediawiki/Häggsta.txt"
@@ -773,6 +849,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "Första erfarenheten av att leda på kil för många. En trevlig erfarenhet, dessutom. Direktrampen är nog kanske lite lättare än vad graden anger, om man jämför med t ex Sjuan (3) på just Häggsta. Rampväggen topprepas ofta, och ett smidigt sätt är att leda uppför Direktrampen, och med ett topprep placerat i ankaret ovanför denna, kan Direktrampen, Rampen och Superrampen toppas. I början av leden, strax nedan mitten, finns en pitong, men det finns även relativt gott om tillfredsställande kilplaceringar. Medtag gärna långa slingor (ca 3 m från ankare till väggens kant.)",
+      "sectorId": "rampvaggen",
       "source": {
         "id": "legacy:haggsta",
         "path": "mediawiki/Häggsta.txt"
@@ -788,6 +865,7 @@
       "type": "trad",
       "firstAscent": "Tomas Carlström, Lars Ceder-64",
       "description": "Leden ska kunna säkras med småkilar, men risken är stor att alla kilarna hänger kvar i selen, när man toppar ut... Väggklättring på små grepp och steg. För att leden ska hålla graden gäller att man håller sig borta från Direktrampen, vilket gör att ett par lite balansiga flytt krävs.",
+      "sectorId": "rampvaggen",
       "source": {
         "id": "legacy:haggsta",
         "path": "mediawiki/Häggsta.txt"
@@ -803,6 +881,7 @@
       "type": "trad",
       "firstAscent": "Hans Hellström, Tomas Carlström-66 FF: Anders Lundahl, Eva Selin-78",
       "description": "En kort och intensiv andra halva av leden gör att den håller graden. Den andra halvan är inte trivial att säkra, även om det går att hitta placeringar.",
+      "sectorId": "rampvaggen",
       "source": {
         "id": "legacy:haggsta",
         "path": "mediawiki/Häggsta.txt"
@@ -818,6 +897,7 @@
       "type": "sport",
       "firstAscent": "Anders Lundahl-89",
       "description": "",
+      "sectorId": "rampvaggen",
       "source": {
         "id": "legacy:haggsta",
         "path": "mediawiki/Häggsta.txt"
@@ -833,6 +913,7 @@
       "type": "sport",
       "firstAscent": "?-??",
       "description": "Okänd led på väggen mellan Gå på moln och Bengts bultspricka. Nån som har info?",
+      "sectorId": "rampvaggen",
       "source": {
         "id": "legacy:haggsta",
         "path": "mediawiki/Häggsta.txt"
@@ -848,6 +929,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "Den enda leden på rampväggen som går åt motsatt håll, dvs åt vänster. En ganska traverserande led, som följer en tydlig ramp. Insteget kan göras från rampens start i princip vid marken, eller så kan man gå mer direkt i lite grova steg någon enstaka meter från rampens börja. Ytterligare ett alternativ är att kliva in i Rampen via Rampfeber, som inte har sin hårda del förrän på andra sidan Rampen. Ett naturligt sätt att göra Rampen på är nog att snarare hangla på den flakkant som i princip utgör själva rampen, och gå med fötterna på en parallell list nedan. I något parti kan det nog även fungera att ha förtterna i själva rampen.",
+      "sectorId": "rampvaggen",
       "source": {
         "id": "legacy:haggsta",
         "path": "mediawiki/Häggsta.txt"
@@ -863,6 +945,7 @@
       "type": "trad",
       "firstAscent": "Bengt hansson, Tomas Carlström-62 FF: Jan Liliemark-78",
       "description": "Sveriges första 7:a.",
+      "sectorId": "rampvaggen",
       "source": {
         "id": "legacy:haggsta",
         "path": "mediawiki/Häggsta.txt"
@@ -878,6 +961,7 @@
       "type": "sport",
       "firstAscent": "Jan Nyström-72 FF: Anders Lundahl-82",
       "description": "",
+      "sectorId": "rampvaggen",
       "source": {
         "id": "legacy:haggsta",
         "path": "mediawiki/Häggsta.txt"
@@ -893,6 +977,7 @@
       "type": "sport",
       "firstAscent": "Thomas Hansson, Johan Luhr-89",
       "description": "Ultrahård smågreppsklättring. Troligtvis inte repeterad sedan första bestigningen. Borrbulten borde bytas, kanske också pitongerna. Jag tror att Dave MacLeod gjorde den första dagen när han var här och undervisade lite, men någon som var där får rätta mig/texten om jag har fel.",
+      "sectorId": "rampvaggen",
       "source": {
         "id": "legacy:haggsta",
         "path": "mediawiki/Häggsta.txt"
@@ -908,6 +993,7 @@
       "type": "",
       "firstAscent": "Anders Lundahl-78 FF: Rick McGregor-82 (solo)",
       "description": "Topprep, solo eller väldigt högt boulderproblem?",
+      "sectorId": "rampvaggen",
       "source": {
         "id": "legacy:haggsta",
         "path": "mediawiki/Häggsta.txt"
@@ -923,6 +1009,7 @@
       "type": "trad",
       "firstAscent": "Anders Lundahl-81 (solo)",
       "description": "Topprep, solo eller väldigt högt boulderproblem?",
+      "sectorId": "rampvaggen",
       "source": {
         "id": "legacy:haggsta",
         "path": "mediawiki/Häggsta.txt"
@@ -938,6 +1025,7 @@
       "type": "trad",
       "firstAscent": "Bengt Hansson, Tomas Carlström-62 FF: Jack Berg-67",
       "description": "",
+      "sectorId": "rampvaggen",
       "source": {
         "id": "legacy:haggsta",
         "path": "mediawiki/Häggsta.txt"
@@ -953,6 +1041,7 @@
       "type": "",
       "firstAscent": "",
       "description": "Se upp med småstenarna ovanför nedre rännan.",
+      "sectorId": "rampvaggen",
       "source": {
         "id": "legacy:haggsta",
         "path": "mediawiki/Häggsta.txt"
@@ -968,6 +1057,7 @@
       "type": "sport",
       "firstAscent": "Buster Delin, Per Calleberg-08",
       "description": "Ej med på skiss. Startar nedanför det stora blocket mitt på Köksleden och följer en linje i högerkanten av den vertikala väggen runt hörnet och till vänster om Bilbos arête. Ganska ihållande klättring, avslutas med en lätt dragning åt vänster, upp till ankaret på Bilbos arête. Välsäkrad med fem borrbultar och, om man så vill, med en gammal bult på Frodos Hörn som leden korsar.",
+      "sectorId": "trean-vaggen",
       "source": {
         "id": "legacy:haggsta",
         "path": "mediawiki/Häggsta.txt"
@@ -983,6 +1073,7 @@
       "type": "mix",
       "firstAscent": "Buster Delin, Mia Persson-88",
       "description": "Starten säkras med en kil eller två, sedan är det \"välbultat\". Trevlig led som dessutom går att toppa om du tar med ett statiskt rep.",
+      "sectorId": "trean-vaggen",
       "source": {
         "id": "legacy:haggsta",
         "path": "mediawiki/Häggsta.txt"
@@ -998,6 +1089,7 @@
       "type": "trad",
       "firstAscent": "Anders Lundahl-75",
       "description": "",
+      "sectorId": "trean-vaggen",
       "source": {
         "id": "legacy:haggsta",
         "path": "mediawiki/Häggsta.txt"
@@ -1013,6 +1105,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "",
+      "sectorId": "trean-vaggen",
       "source": {
         "id": "legacy:haggsta",
         "path": "mediawiki/Häggsta.txt"
@@ -1028,6 +1121,7 @@
       "type": "trad",
       "firstAscent": "Gillis Billing-40?",
       "description": "",
+      "sectorId": "trean-vaggen",
       "source": {
         "id": "legacy:haggsta",
         "path": "mediawiki/Häggsta.txt"
@@ -1043,6 +1137,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "",
+      "sectorId": "trean-vaggen",
       "source": {
         "id": "legacy:haggsta",
         "path": "mediawiki/Häggsta.txt"
@@ -1058,6 +1153,7 @@
       "type": "mix",
       "firstAscent": "Buster Delin, Peter Brolin-90",
       "description": "Insteget brant, och ju mer till vänster, desto hårdare. Lätt klättring över plattan till det jobbigare men välsäkrade utsteget.",
+      "sectorId": "trean-vaggen",
       "source": {
         "id": "legacy:haggsta",
         "path": "mediawiki/Häggsta.txt"
@@ -1073,6 +1169,7 @@
       "type": "trad",
       "firstAscent": "Emmerich Rossipal- 34",
       "description": "",
+      "sectorId": "trean-vaggen",
       "source": {
         "id": "legacy:haggsta",
         "path": "mediawiki/Häggsta.txt"
@@ -1088,6 +1185,7 @@
       "type": "mix",
       "firstAscent": "Anders Lundahl-81",
       "description": "",
+      "sectorId": "trean-vaggen",
       "source": {
         "id": "legacy:haggsta",
         "path": "mediawiki/Häggsta.txt"
@@ -1103,6 +1201,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "Lång och fin led \"mitt på Häggsta\". Insteget går över en svarygg (lätt men sparsamt säkrad), men det är vanligare att starta med insteget till Gillis platta, traversera en aning höger över Gandalfs felsteg, för att fortsätta över slutet av svaryggen till korsningen av Trean. Därefter en mantling som kan vara ledens krux (bult), och vidare över lätt men exponerat parti till stand. Standplatsen beskrivs i äldre förare som bultad, men saknar ankare. Strax ovan t v om standplatshyllan, finns en exponerad men rymlig hylla, vid den finns tre pitonger, men i den naturliga standplats som ligger på själva leden, finns goda möjligheter att bygga stand; gå gärna upp ett steg (1,5 m?) om det till en början verkar ont om bra sprickor. Andra replängden är kort, men brantare, genom nåt som kan beskrivas som en off-width. Denna utstegsspricka har dock gott om grepp och steg och är välsäkrad. (Det är svårt att göra leden i en replängd p g a repdrag för den som inte varit mycket sparsam med säkringarna. Lite längre slingor måste användas på ev säkringar på Gillis platta samt på den hylla med pitonger som följer efter att Trean korsats!) En eller två kamsäkringar av lite halvstor modell kan vara bra att ha.",
+      "sectorId": "trean-vaggen",
       "source": {
         "id": "legacy:haggsta",
         "path": "mediawiki/Häggsta.txt"
@@ -1118,6 +1217,7 @@
       "type": "trad",
       "firstAscent": "Hans Hellström-66",
       "description": "",
+      "sectorId": "trean-vaggen",
       "source": {
         "id": "legacy:haggsta",
         "path": "mediawiki/Häggsta.txt"
@@ -1133,6 +1233,7 @@
       "type": "trad",
       "firstAscent": "Gillis Billing-38",
       "description": "Första replängden startar nära insteget för , följer den tydliga rampen snett uppåt till vänster. Den som inte vill sola rampen, har stor glädje av små kamkilar - eller mer eftertänksamma kilplaceringar. Pitong på det flacka svaet nån meter efter insteget.",
+      "sectorId": "trean-vaggen",
       "source": {
         "id": "legacy:haggsta",
         "path": "mediawiki/Häggsta.txt"
@@ -1148,6 +1249,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "",
+      "sectorId": "trean-vaggen",
       "source": {
         "id": "legacy:haggsta",
         "path": "mediawiki/Häggsta.txt"
@@ -1163,6 +1265,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "",
+      "sectorId": "trean-vaggen",
       "source": {
         "id": "legacy:haggsta",
         "path": "mediawiki/Häggsta.txt"
@@ -1178,6 +1281,7 @@
       "type": "mix",
       "firstAscent": "Mikael Wegrelius-84",
       "description": "",
+      "sectorId": "trean-vaggen",
       "source": {
         "id": "legacy:haggsta",
         "path": "mediawiki/Häggsta.txt"
@@ -1193,6 +1297,7 @@
       "type": "trad",
       "firstAscent": "Eva Selin, Anders Lundahl-82",
       "description": "",
+      "sectorId": "trean-vaggen",
       "source": {
         "id": "legacy:haggsta",
         "path": "mediawiki/Häggsta.txt"
@@ -1208,6 +1313,7 @@
       "type": "mix",
       "firstAscent": "Hans Hellström, Erik Holmgren-67",
       "description": "",
+      "sectorId": "trean-vaggen",
       "source": {
         "id": "legacy:haggsta",
         "path": "mediawiki/Häggsta.txt"
@@ -1223,6 +1329,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "",
+      "sectorId": "trean-vaggen",
       "source": {
         "id": "legacy:haggsta",
         "path": "mediawiki/Häggsta.txt"
@@ -1238,6 +1345,7 @@
       "type": "trad",
       "firstAscent": "Thor Kleppen, Jack Berg-65",
       "description": "",
+      "sectorId": "trean-vaggen",
       "source": {
         "id": "legacy:haggsta",
         "path": "mediawiki/Häggsta.txt"
@@ -1253,6 +1361,7 @@
       "type": "trad",
       "firstAscent": "Daniel Bidner, Claes Jelinek-86",
       "description": "",
+      "sectorId": "trean-vaggen",
       "source": {
         "id": "legacy:haggsta",
         "path": "mediawiki/Häggsta.txt"
@@ -1268,6 +1377,7 @@
       "type": "trad",
       "firstAscent": "Olle Håkansson, Sven Wicklund-50 FF: Jan Liljemark-77",
       "description": "",
+      "sectorId": "trean-vaggen",
       "source": {
         "id": "legacy:haggsta",
         "path": "mediawiki/Häggsta.txt"
@@ -1283,6 +1393,7 @@
       "type": "trad",
       "firstAscent": "Anders Lundahl-79",
       "description": "",
+      "sectorId": "trean-vaggen",
       "source": {
         "id": "legacy:haggsta",
         "path": "mediawiki/Häggsta.txt"
@@ -1298,6 +1409,7 @@
       "type": "trad",
       "firstAscent": "Anders Lundahl, Eva Selin-84",
       "description": "",
+      "sectorId": "trean-vaggen",
       "source": {
         "id": "legacy:haggsta",
         "path": "mediawiki/Häggsta.txt"
@@ -1313,6 +1425,7 @@
       "type": "trad",
       "firstAscent": "Choe Brooks, Jan Liljemark-80",
       "description": "",
+      "sectorId": "trean-vaggen",
       "source": {
         "id": "legacy:haggsta",
         "path": "mediawiki/Häggsta.txt"
@@ -1328,6 +1441,7 @@
       "type": "sport",
       "firstAscent": "Anders Lundahl, Eva Selin-89",
       "description": "Kruxet har bjudit på många luftfärder, men fallen blir rena och odramatiska. Övre delen är glesare bultad. 2011 kompletterades med några bultar varför leden nu kan betraktas som helbultad. Svaet ovan kruxet aningen glest bultat.",
+      "sectorId": "trean-vaggen",
       "source": {
         "id": "legacy:haggsta",
         "path": "mediawiki/Häggsta.txt"
@@ -1343,6 +1457,7 @@
       "type": "trad",
       "firstAscent": "Anders Lundahl-79",
       "description": "",
+      "sectorId": "trean-vaggen",
       "source": {
         "id": "legacy:haggsta",
         "path": "mediawiki/Häggsta.txt"
@@ -1358,6 +1473,7 @@
       "type": "trad",
       "firstAscent": "Christer Åstrand-78",
       "description": "",
+      "sectorId": "trean-vaggen",
       "source": {
         "id": "legacy:haggsta",
         "path": "mediawiki/Häggsta.txt"
@@ -1373,6 +1489,7 @@
       "type": "trad",
       "firstAscent": "40-talet?",
       "description": "",
+      "sectorId": "trean-vaggen",
       "source": {
         "id": "legacy:haggsta",
         "path": "mediawiki/Häggsta.txt"
@@ -1388,6 +1505,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "",
+      "sectorId": "trean-vaggen",
       "source": {
         "id": "legacy:haggsta",
         "path": "mediawiki/Häggsta.txt"
@@ -1403,6 +1521,7 @@
       "type": "trad",
       "firstAscent": "Okänd -38?",
       "description": "",
+      "sectorId": "trean-vaggen",
       "source": {
         "id": "legacy:haggsta",
         "path": "mediawiki/Häggsta.txt"
@@ -1418,6 +1537,7 @@
       "type": "",
       "firstAscent": "Birger Hall, Sven sköld-60. FF:Rick McGregor-79",
       "description": "",
+      "sectorId": "franska-vaggen",
       "source": {
         "id": "legacy:haggsta",
         "path": "mediawiki/Häggsta.txt"
@@ -1433,6 +1553,7 @@
       "type": "",
       "firstAscent": "Anders Lundahl-82",
       "description": "",
+      "sectorId": "franska-vaggen",
       "source": {
         "id": "legacy:haggsta",
         "path": "mediawiki/Häggsta.txt"
@@ -1448,6 +1569,7 @@
       "type": "mix",
       "firstAscent": "Johan Luhr-88",
       "description": "På slutväggen kan man använda sista bulten på Dalarambo/Nosferatu alternativt lägga någon kil eller en liten friend.",
+      "sectorId": "franska-vaggen",
       "source": {
         "id": "legacy:haggsta",
         "path": "mediawiki/Häggsta.txt"
@@ -1463,6 +1585,7 @@
       "type": "",
       "firstAscent": "Helmut Wopfner-49",
       "description": "",
+      "sectorId": "franska-vaggen",
       "source": {
         "id": "legacy:haggsta",
         "path": "mediawiki/Häggsta.txt"
@@ -1478,6 +1601,7 @@
       "type": "",
       "firstAscent": "Per-Olof Lidström-80. FF:Johan Luhr-91",
       "description": "",
+      "sectorId": "franska-vaggen",
       "source": {
         "id": "legacy:haggsta",
         "path": "mediawiki/Häggsta.txt"
@@ -1493,6 +1617,7 @@
       "type": "",
       "firstAscent": "Jan Nyström. FF: Anders Lundahl-83",
       "description": "",
+      "sectorId": "franska-vaggen",
       "source": {
         "id": "legacy:haggsta",
         "path": "mediawiki/Häggsta.txt"
@@ -1508,6 +1633,7 @@
       "type": "sport",
       "firstAscent": "Johan Luhr, Mårten Dahlström, Patrik Anderssson-90",
       "description": "Bultlinje genom taket till vänster om Dracula",
+      "sectorId": "franska-vaggen",
       "source": {
         "id": "legacy:haggsta",
         "path": "mediawiki/Häggsta.txt"
@@ -1523,6 +1649,7 @@
       "type": "",
       "firstAscent": "FF: Anders Lundahl-82",
       "description": "",
+      "sectorId": "franska-vaggen",
       "source": {
         "id": "legacy:haggsta",
         "path": "mediawiki/Häggsta.txt"
@@ -1538,6 +1665,7 @@
       "type": "",
       "firstAscent": "Lars-Göran Johansson, Ulla Bjernehed-67. FF: Choe Brooks, Jan Liljemark-80 (övre). Anders Lundahl-81 (undre)",
       "description": "",
+      "sectorId": "franska-vaggen",
       "source": {
         "id": "legacy:haggsta",
         "path": "mediawiki/Häggsta.txt"
@@ -1553,6 +1681,7 @@
       "type": "",
       "firstAscent": "Claes Jelinek, Johan Luhr-88",
       "description": "",
+      "sectorId": "franska-vaggen",
       "source": {
         "id": "legacy:haggsta",
         "path": "mediawiki/Häggsta.txt"
@@ -1568,6 +1697,7 @@
       "type": "",
       "firstAscent": "Ernst Glaus, Emil Schar-64",
       "description": "",
+      "sectorId": "franska-vaggen",
       "source": {
         "id": "legacy:haggsta",
         "path": "mediawiki/Häggsta.txt"
@@ -1583,6 +1713,7 @@
       "type": "",
       "firstAscent": "Johan Luhr, Anders Lindfors-93",
       "description": "",
+      "sectorId": "franska-vaggen",
       "source": {
         "id": "legacy:haggsta",
         "path": "mediawiki/Häggsta.txt"
@@ -1598,6 +1729,7 @@
       "type": "",
       "firstAscent": "Bengt Hansson-65",
       "description": "",
+      "sectorId": "franska-vaggen",
       "source": {
         "id": "legacy:haggsta",
         "path": "mediawiki/Häggsta.txt"
@@ -1613,6 +1745,7 @@
       "type": "",
       "firstAscent": "Christer Astrand, Alve Henriksson, Anders Lundahl-78",
       "description": "Inga sakringar",
+      "sectorId": "direttissimavaggen",
       "source": {
         "id": "legacy:haggsta",
         "path": "mediawiki/Häggsta.txt"
@@ -1628,6 +1761,7 @@
       "type": "mix",
       "firstAscent": "",
       "description": "",
+      "sectorId": "direttissimavaggen",
       "source": {
         "id": "legacy:haggsta",
         "path": "mediawiki/Häggsta.txt"
@@ -1643,6 +1777,7 @@
       "type": "mix",
       "firstAscent": "Thor Kleppen, P-O Mårtensson -62",
       "description": "",
+      "sectorId": "direttissimavaggen",
       "source": {
         "id": "legacy:haggsta",
         "path": "mediawiki/Häggsta.txt"
@@ -1658,6 +1793,7 @@
       "type": "trad",
       "firstAscent": "Jack Berg -64",
       "description": "",
+      "sectorId": "direttissimavaggen",
       "source": {
         "id": "legacy:haggsta",
         "path": "mediawiki/Häggsta.txt"
@@ -1673,6 +1809,7 @@
       "type": "trad",
       "firstAscent": "Per-Olof Bergström -77",
       "description": "",
+      "sectorId": "direttissimavaggen",
       "source": {
         "id": "legacy:haggsta",
         "path": "mediawiki/Häggsta.txt"
@@ -1688,6 +1825,7 @@
       "type": "trad",
       "firstAscent": "Ernst Glaus, Emil Schär -64",
       "description": "",
+      "sectorId": "direttissimavaggen",
       "source": {
         "id": "legacy:haggsta",
         "path": "mediawiki/Häggsta.txt"
@@ -1703,6 +1841,7 @@
       "type": "trad",
       "firstAscent": "Håkan Bjerneld, Torbjörn Berg [1968",
       "description": "",
+      "sectorId": "direttissimavaggen",
       "source": {
         "id": "legacy:haggsta",
         "path": "mediawiki/Häggsta.txt"
@@ -1718,6 +1857,7 @@
       "type": "trad",
       "firstAscent": "Ståle Ekelund, Claes Jelinek -90",
       "description": "",
+      "sectorId": "direttissimavaggen",
       "source": {
         "id": "legacy:haggsta",
         "path": "mediawiki/Häggsta.txt"
@@ -1733,6 +1873,7 @@
       "type": "trad",
       "firstAscent": "Jürgen Rauscher, Bengt Hansson -63",
       "description": "",
+      "sectorId": "direttissimavaggen",
       "source": {
         "id": "legacy:haggsta",
         "path": "mediawiki/Häggsta.txt"
@@ -1748,6 +1889,7 @@
       "type": "trad",
       "firstAscent": "Jack Berg -65",
       "description": "",
+      "sectorId": "direttissimavaggen",
       "source": {
         "id": "legacy:haggsta",
         "path": "mediawiki/Häggsta.txt"
@@ -1763,6 +1905,7 @@
       "type": "sport",
       "firstAscent": "Johan Luhr -90",
       "description": "",
+      "sectorId": "direttissimavaggen",
       "source": {
         "id": "legacy:haggsta",
         "path": "mediawiki/Häggsta.txt"
@@ -1778,6 +1921,7 @@
       "type": "mix",
       "firstAscent": "",
       "description": "Ytterligare en Häggstaled som passar den som börjar leda trad. Gör den då, för sen känns den för lätt (och det är ju synd). Det är gott om bladbultar på vägen, standplats på mitten och ringbult vid utsteget. Hög \"gammal alpinist\"-faktor: gör i storskor, pösiga byxor och med hamparep för maximal effekt. Skänk dock de gamla slagna bultarna (bara) det förtroende de förtjänar. Bygg hellre standplatsen något åt sidan där det finns bra sprickor istället för att lita på ringbultarna. Den gamla v-bulten i början av slutdiedret är nu ersatt av syrafast bult, den gamla bulten hade rostat av på halva längden, när den enkelt knackades loss.",
+      "sectorId": "direttissimavaggen",
       "source": {
         "id": "legacy:haggsta",
         "path": "mediawiki/Häggsta.txt"
@@ -1793,6 +1937,7 @@
       "type": "trad",
       "firstAscent": "Anders Lundahl, Lars Svadängs [1977",
       "description": "",
+      "sectorId": "direttissimavaggen",
       "source": {
         "id": "legacy:haggsta",
         "path": "mediawiki/Häggsta.txt"
@@ -1808,6 +1953,7 @@
       "type": "trad",
       "firstAscent": "Jurij Radon -81",
       "description": "",
+      "sectorId": "direttissimavaggen",
       "source": {
         "id": "legacy:haggsta",
         "path": "mediawiki/Häggsta.txt"
@@ -1823,6 +1969,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "",
+      "sectorId": "direttissimavaggen",
       "source": {
         "id": "legacy:haggsta",
         "path": "mediawiki/Häggsta.txt"
@@ -1838,6 +1985,7 @@
       "type": "trad",
       "firstAscent": "Anders Lundahl-75",
       "description": "",
+      "sectorId": "direttissimavaggen",
       "source": {
         "id": "legacy:haggsta",
         "path": "mediawiki/Häggsta.txt"
@@ -1853,6 +2001,7 @@
       "type": "mix",
       "firstAscent": "Anders Lundahl -78",
       "description": "",
+      "sectorId": "direttissimavaggen",
       "source": {
         "id": "legacy:haggsta",
         "path": "mediawiki/Häggsta.txt"
@@ -1868,6 +2017,7 @@
       "type": "trad",
       "firstAscent": "Birger Hall, Sven Sköld -64 FF:Hans Hellström -66",
       "description": "",
+      "sectorId": "direttissimavaggen",
       "source": {
         "id": "legacy:haggsta",
         "path": "mediawiki/Häggsta.txt"
@@ -1883,6 +2033,7 @@
       "type": "",
       "firstAscent": "Anders Lundahl, Lars Svadängs-79",
       "description": "",
+      "sectorId": "omojliga-vaggen-vaggen",
       "source": {
         "id": "legacy:haggsta",
         "path": "mediawiki/Häggsta.txt"
@@ -1898,6 +2049,7 @@
       "type": "trad",
       "firstAscent": "Tomas Carlström, Ralph Höibakk-65",
       "description": "Häggstas superklassiker! Normsexa sedan länge. Lite svårsäkrad. Tidigare har leden haft bladbultar men sedan aug-07 är de flesta av dessa bortplockade och leden ledd helt på egna säkringar. Leden kan behöva torka ordentligt efter regn. Det har sagts att man skall undvika att kalla sig sexaklättrare innan man lett denna led! Leden startar mitt på väggen, går först lite höger, sedan snett åt vänster och så snett höger igen upp till nischen. Ledens krux är att komma ur nischen och fortsätta rakt upp längs sprickan. \"Välsäkrat\" och tungt. Fira av från ett ankare. Möjligt att fortsätta hela vägen upp, men det är enkel och tråkig klättring.",
+      "sectorId": "omojliga-vaggen-vaggen",
       "source": {
         "id": "legacy:haggsta",
         "path": "mediawiki/Häggsta.txt"
@@ -1913,6 +2065,7 @@
       "type": "",
       "firstAscent": "Hans Steyskal, Tomas Carlström-63",
       "description": "",
+      "sectorId": "omojliga-vaggen-vaggen",
       "source": {
         "id": "legacy:haggsta",
         "path": "mediawiki/Häggsta.txt"
@@ -1928,6 +2081,7 @@
       "type": "",
       "firstAscent": "Jürgen Rauscher, Tomas Carlström, Bengt Hansson-62",
       "description": "",
+      "sectorId": "omojliga-vaggen-vaggen",
       "source": {
         "id": "legacy:haggsta",
         "path": "mediawiki/Häggsta.txt"
@@ -1943,6 +2097,7 @@
       "type": "",
       "firstAscent": "Tomas Carlstrom,P-O Martensson-62. FF: Olof Ogren-74",
       "description": "",
+      "sectorId": "omojliga-vaggen-vaggen",
       "source": {
         "id": "legacy:haggsta",
         "path": "mediawiki/Häggsta.txt"
@@ -1958,6 +2113,7 @@
       "type": "",
       "firstAscent": "Stale Ekelund, Torbjörn Berg-94",
       "description": "",
+      "sectorId": "omojliga-vaggen-vaggen",
       "source": {
         "id": "legacy:haggsta",
         "path": "mediawiki/Häggsta.txt"
@@ -1973,6 +2129,7 @@
       "type": "",
       "firstAscent": "Rikard Hedman, Claes Jelinek (Ovre)-84. Birger Hedlund, Rikard Hedman (Nedre) -84",
       "description": "",
+      "sectorId": "omojliga-vaggen-vaggen",
       "source": {
         "id": "legacy:haggsta",
         "path": "mediawiki/Häggsta.txt"
@@ -1988,6 +2145,7 @@
       "type": "",
       "firstAscent": "Marten Dahlstrom-87",
       "description": "",
+      "sectorId": "omojliga-vaggen-vaggen",
       "source": {
         "id": "legacy:haggsta",
         "path": "mediawiki/Häggsta.txt"
@@ -2003,6 +2161,7 @@
       "type": "",
       "firstAscent": "Johan Luhr-90",
       "description": "",
+      "sectorId": "omojliga-vaggen-vaggen",
       "source": {
         "id": "legacy:haggsta",
         "path": "mediawiki/Häggsta.txt"
@@ -2018,6 +2177,7 @@
       "type": "",
       "firstAscent": "Lars Grankvist-81",
       "description": "",
+      "sectorId": "omojliga-vaggen-vaggen",
       "source": {
         "id": "legacy:haggsta",
         "path": "mediawiki/Häggsta.txt"
@@ -2033,6 +2193,7 @@
       "type": "",
       "firstAscent": "Hans Steyskal-63",
       "description": "",
+      "sectorId": "omojliga-vaggen-vaggen",
       "source": {
         "id": "legacy:haggsta",
         "path": "mediawiki/Häggsta.txt"
@@ -2048,6 +2209,7 @@
       "type": "",
       "firstAscent": "Pierre Fellman-65",
       "description": "Första vertikala delen bra säkrad, sen finns ingenting på tio meter innan det börjar gå uppåt igen. De pitonger som suttit sedan leden gjordes har plockats bort.",
+      "sectorId": "omojliga-vaggen-vaggen",
       "source": {
         "id": "legacy:haggsta",
         "path": "mediawiki/Häggsta.txt"
@@ -2063,6 +2225,7 @@
       "type": "",
       "firstAscent": "Jürgen Rauscher, Hans Steyskal-64",
       "description": "",
+      "sectorId": "omojliga-vaggen-vaggen",
       "source": {
         "id": "legacy:haggsta",
         "path": "mediawiki/Häggsta.txt"
@@ -2078,6 +2241,7 @@
       "type": "mix",
       "firstAscent": "Stefan Kalén-12",
       "description": "Start 3 m till höger om Direkta Pierre. Första halvan går i rak linje, sedan svag dragning till höger.",
+      "sectorId": "omojliga-vaggen-vaggen",
       "source": {
         "id": "legacy:haggsta",
         "path": "mediawiki/Häggsta.txt"
@@ -2093,6 +2257,7 @@
       "type": "",
       "firstAscent": "Rikard Hedman, Birger Hedlund-85",
       "description": "",
+      "sectorId": "omojliga-vaggen-vaggen",
       "source": {
         "id": "legacy:haggsta",
         "path": "mediawiki/Häggsta.txt"
@@ -2108,6 +2273,7 @@
       "type": "",
       "firstAscent": "Anders Lundahl, Eva Selin-90",
       "description": "",
+      "sectorId": "omojliga-vaggen-vaggen",
       "source": {
         "id": "legacy:haggsta",
         "path": "mediawiki/Häggsta.txt"
@@ -2123,6 +2289,7 @@
       "type": "",
       "firstAscent": "Anders Lundahl, Eva Selin-79",
       "description": "",
+      "sectorId": "omojliga-vaggen-vaggen",
       "source": {
         "id": "legacy:haggsta",
         "path": "mediawiki/Häggsta.txt"
@@ -2138,6 +2305,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "Ett härligt motsträvigt krux som säkras med en eller två halvstora kamsäkringar. Mellanpartiet (5-) kan upplevas som lite seriöst eftersom den är säkrad av en gammal bladbult som är islagen snett underifrån. Det är dock lätt att fira ned från ett ankare på toppen för att nå och sätta upp topprep på de två gedigna borrbultsankare som finns ovanför denna led och Omöjligaväggen. En jug har lossnat (2013) efter diedret vilket piffar upp avslutningen en smula.",
+      "sectorId": "omojliga-vaggen-vaggen",
       "source": {
         "id": "legacy:haggsta",
         "path": "mediawiki/Häggsta.txt"
@@ -2153,6 +2321,7 @@
       "type": "",
       "firstAscent": "Rikard Hedman, Birger Hedlund-85",
       "description": "Har blivit svårare (var 7- från början) sedan ett nyckelgrepp försvann och mer seriös då bladbulten som säkrade kruxet också försvann. Den nya sekvensen håller sig lite mer till höger och det går att använda bultarna och kompletterande kilar på Fåfängligheten. En testpiece.",
+      "sectorId": "omojliga-vaggen-vaggen",
       "source": {
         "id": "legacy:haggsta",
         "path": "mediawiki/Häggsta.txt"
@@ -2168,6 +2337,7 @@
       "type": "",
       "firstAscent": "Mikael Wegrelius, Kjell Carlsson-85",
       "description": "",
+      "sectorId": "omojliga-vaggen-vaggen",
       "source": {
         "id": "legacy:haggsta",
         "path": "mediawiki/Häggsta.txt"
@@ -2183,6 +2353,7 @@
       "type": "",
       "firstAscent": "Rikard Hedman, Jan Liljemark-85",
       "description": "",
+      "sectorId": "omojliga-vaggen-vaggen",
       "source": {
         "id": "legacy:haggsta",
         "path": "mediawiki/Häggsta.txt"
@@ -2198,6 +2369,7 @@
       "type": "",
       "firstAscent": "Rikard Hedman, Jan Liljemark-85",
       "description": "",
+      "sectorId": "omojliga-vaggen-vaggen",
       "source": {
         "id": "legacy:haggsta",
         "path": "mediawiki/Häggsta.txt"
@@ -2213,6 +2385,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "Klassiker, med för sin grad givande klättring. Som synes lite alternativa vägar upp till stand. Mellanstora kilar eller små kammar kan fungera, men viss försiktighet vid placeringarna - det finns en hel del lösa block i olika storlekar längs leden. Orginalinsteget har en pitong som kan klippas i förbifarten, därefter en travers åt vänster för att komma upp i sprickan på väg till den välordnade standplatsen med ringankare. Lite luftig fortsättning från stand, fortsatt välsäkrat med kilar. Ringbult en bit från utsteget. För nedfärd är det smidigt att fira av från ankaret på Palmsöndagsleden.Standplatsen har nu en modern expanderbult som back-upp till den gamla jätteringbulten. Ett hål har funnits sedan många år, och nu sitter det en bult i det hålet.",
+      "sectorId": "fyrbultsvaggen",
       "source": {
         "id": "legacy:haggsta",
         "path": "mediawiki/Häggsta.txt"
@@ -2228,6 +2401,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "Brantare (finare?) och rakare start på Fyrbulten. Lite svårare men mer välsäkrad. Bb vid \"kruxet\". Kan göras som en replängd om man fortsätter rakt uppåt istället för att vika höger mot standplats.",
+      "sectorId": "fyrbultsvaggen",
       "source": {
         "id": "legacy:haggsta",
         "path": "mediawiki/Häggsta.txt"
@@ -2243,6 +2417,7 @@
       "type": "trad",
       "firstAscent": "Eva Selin-81",
       "description": "Klättra originalinsteget på fyrbulten (nr 3 i skissen) men traversera inte ut åt vänster utan gå snett uppåt åt höger in på Palmsöndagsleden. Osäkrad?",
+      "sectorId": "fyrbultsvaggen",
       "source": {
         "id": "legacy:haggsta",
         "path": "mediawiki/Häggsta.txt"
@@ -2258,6 +2433,7 @@
       "type": "trad",
       "firstAscent": "Pinchas Moses, Tomas Carlström-63",
       "description": "Travers från orginalinsteget på Fyrbulten till ringbulten mitt på Sjuan.",
+      "sectorId": "fyrbultsvaggen",
       "source": {
         "id": "legacy:haggsta",
         "path": "mediawiki/Häggsta.txt"
@@ -2273,6 +2449,7 @@
       "type": "trad",
       "firstAscent": "Jürgen Rauscher, Bengt Hansson-62",
       "description": "Ordentligt firningsankare - två bultar med kätting och en extra kembult. Första halvan är lite svårsäkrad, på andra halvan ska du helt enkelt låta bli att falla.",
+      "sectorId": "fyrbultsvaggen",
       "source": {
         "id": "legacy:haggsta",
         "path": "mediawiki/Häggsta.txt"
@@ -2288,6 +2465,7 @@
       "type": "mix",
       "firstAscent": "Ernst Glaus, Emil Schär-64",
       "description": "Ta med gott om kurage till den här: fall i den sparsamt säkrade starten eller ovanför den sista hyllan rekommenderas inte.",
+      "sectorId": "fyrbultsvaggen",
       "source": {
         "id": "legacy:haggsta",
         "path": "mediawiki/Häggsta.txt"
@@ -2303,6 +2481,7 @@
       "type": "mix",
       "firstAscent": "",
       "description": "Några meter till höger om Palmsöndagens originalutsteg ger två bultar och en kil en säkrad variant uppför toppväggen. (Ej inritad)",
+      "sectorId": "fyrbultsvaggen",
       "source": {
         "id": "legacy:haggsta",
         "path": "mediawiki/Häggsta.txt"
@@ -2318,6 +2497,7 @@
       "type": "trad",
       "firstAscent": "Gillis Billing-36",
       "description": "Perfekt för den ovane. Välsäkrad, välordnat stand med dubbla ringankare. Men luftig och lite brant mot slutet, vilket gör det till en upplevelse för den som är i början av sin utomhuskarriär, och även en trevlig tur för den lite mer rutinerade. Startar i hörnet mellan Fyrbultsväggen och Långfredagsväggen och går tämligen rakt upp i denna dieder. Klättra gärna första replängden i sprickan/ -or ca 2 m till v om själva innerhörnet. Brantare, men lätt och bättre säkringsmöjligheter än längst in i hörnet. För nedfärd är det smidigt att fira av från ankaret på Palmsöndagsleden.",
+      "sectorId": "fyrbultsvaggen",
       "source": {
         "id": "legacy:haggsta",
         "path": "mediawiki/Häggsta.txt"
@@ -2333,6 +2513,7 @@
       "type": "mix",
       "firstAscent": "Göran Sahlin-86",
       "description": "Från ringbulten på Sjuan, klättra upp i högra delen av väggen mellan Palmsöndagsleden och Sjuan. Nya bultar 2010.",
+      "sectorId": "fyrbultsvaggen",
       "source": {
         "id": "legacy:haggsta",
         "path": "mediawiki/Häggsta.txt"
@@ -2348,6 +2529,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "Första replängden gemensam med Sjuan, men den andra traverserar ut på en balkong på Långfredagsväggen. Mycket luftigt utsteg, med sista säkring i ringankare på balkongen. Bleka klättrare har även setts fira av från balkongen.",
+      "sectorId": "fyrbultsvaggen",
       "source": {
         "id": "legacy:haggsta",
         "path": "mediawiki/Häggsta.txt"
@@ -2363,6 +2545,7 @@
       "type": "",
       "firstAscent": "",
       "description": "",
+      "sectorId": "langfredagsvaggen",
       "source": {
         "id": "legacy:haggsta",
         "path": "mediawiki/Häggsta.txt"
@@ -2378,6 +2561,7 @@
       "type": "",
       "firstAscent": "",
       "description": "",
+      "sectorId": "langfredagsvaggen",
       "source": {
         "id": "legacy:haggsta",
         "path": "mediawiki/Häggsta.txt"
@@ -2393,6 +2577,7 @@
       "type": "",
       "firstAscent": "Daniel Bidner -85",
       "description": "",
+      "sectorId": "langfredagsvaggen",
       "source": {
         "id": "legacy:haggsta",
         "path": "mediawiki/Häggsta.txt"
@@ -2408,6 +2593,7 @@
       "type": "",
       "firstAscent": "Claes Jelinek, Ståle Ekelund -92",
       "description": "",
+      "sectorId": "langfredagsvaggen",
       "source": {
         "id": "legacy:haggsta",
         "path": "mediawiki/Häggsta.txt"
@@ -2423,6 +2609,7 @@
       "type": "",
       "firstAscent": "Jan Liliemark, Anders Lundahl, Lars Möller -80",
       "description": "",
+      "sectorId": "langfredagsvaggen",
       "source": {
         "id": "legacy:haggsta",
         "path": "mediawiki/Häggsta.txt"
@@ -2438,6 +2625,7 @@
       "type": "",
       "firstAscent": "Johan Luhr, Rikard Hedman, Daniel Bidner -89",
       "description": "",
+      "sectorId": "langfredagsvaggen",
       "source": {
         "id": "legacy:haggsta",
         "path": "mediawiki/Häggsta.txt"
@@ -2453,6 +2641,7 @@
       "type": "",
       "firstAscent": "Johan Luhr, Patrik Andersson -92",
       "description": "",
+      "sectorId": "langfredagsvaggen",
       "source": {
         "id": "legacy:haggsta",
         "path": "mediawiki/Häggsta.txt"
@@ -2468,6 +2657,7 @@
       "type": "trad",
       "firstAscent": "Jürgen Rauscher, Bengt Hansson -62. FF: Hans Hellström -66",
       "description": "Fin led som följer det blockiga \"dietret\" på balkongens vänstra sida. På leden finns två rostiga pitonger från hedenhös av mycket, mycket tveksam hållfasthet. En hel del halvlösa block ger krydda åt dina friendplaceringar.",
+      "sectorId": "langfredagsvaggen",
       "source": {
         "id": "legacy:haggsta",
         "path": "mediawiki/Häggsta.txt"
@@ -2483,6 +2673,7 @@
       "type": "",
       "firstAscent": "Jan Nyström-72. FF: Anders Lundahl-83",
       "description": "",
+      "sectorId": "langfredagsvaggen",
       "source": {
         "id": "legacy:haggsta",
         "path": "mediawiki/Häggsta.txt"
@@ -2498,6 +2689,7 @@
       "type": "",
       "firstAscent": "Claes Jelinek, Stale Ekelund-92",
       "description": "",
+      "sectorId": "langfredagsvaggen",
       "source": {
         "id": "legacy:haggsta",
         "path": "mediawiki/Häggsta.txt"
@@ -2513,6 +2705,7 @@
       "type": "",
       "firstAscent": "Claes Jelinek-87",
       "description": "",
+      "sectorId": "langfredagsvaggen",
       "source": {
         "id": "legacy:haggsta",
         "path": "mediawiki/Häggsta.txt"
@@ -2528,6 +2721,7 @@
       "type": "",
       "firstAscent": "Torbjörn BergHåkan Bjerneld[1972?",
       "description": "",
+      "sectorId": "langfredagsvaggen",
       "source": {
         "id": "legacy:haggsta",
         "path": "mediawiki/Häggsta.txt"
@@ -2543,6 +2737,7 @@
       "type": "",
       "firstAscent": "Hans Steyskal, Hans Hellström, Olle Håkansson, 1967. FF: Jan Liliemark, 1977",
       "description": "Spännande led med en del bladbultar. Tung avslutning.",
+      "sectorId": "langfredagsvaggen",
       "source": {
         "id": "legacy:haggsta",
         "path": "mediawiki/Häggsta.txt"
@@ -2558,6 +2753,7 @@
       "type": "",
       "firstAscent": "Eva Selin-81",
       "description": "En utstegsvariant till vinleden.",
+      "sectorId": "langfredagsvaggen",
       "source": {
         "id": "legacy:haggsta",
         "path": "mediawiki/Häggsta.txt"
@@ -2573,6 +2769,7 @@
       "type": "",
       "firstAscent": "Johan Luhr -88",
       "description": "",
+      "sectorId": "langfredagsvaggen",
       "source": {
         "id": "legacy:haggsta",
         "path": "mediawiki/Häggsta.txt"
@@ -2588,6 +2785,7 @@
       "type": "",
       "firstAscent": "Jürgen Rauscher, Bengt Hansson, Tomas Carlström-62. FF: Tomas Carlström, Hans Steystal-67",
       "description": "Klassisk led. Intressant krux.",
+      "sectorId": "langfredagsvaggen",
       "source": {
         "id": "legacy:haggsta",
         "path": "mediawiki/Häggsta.txt"
@@ -2603,6 +2801,7 @@
       "type": "",
       "firstAscent": "Jürgen Rauscher, Tomas Carlström, Pinchas Moses-61",
       "description": "Luftig och pirrig led.",
+      "sectorId": "langfredagsvaggen",
       "source": {
         "id": "legacy:haggsta",
         "path": "mediawiki/Häggsta.txt"
@@ -2618,6 +2817,7 @@
       "type": "",
       "firstAscent": "Claes Jelinek-86",
       "description": "",
+      "sectorId": "langfredagsvaggen",
       "source": {
         "id": "legacy:haggsta",
         "path": "mediawiki/Häggsta.txt"
@@ -2633,6 +2833,7 @@
       "type": "",
       "firstAscent": "Anders Lundahl[1974",
       "description": "",
+      "sectorId": "langfredagsvaggen",
       "source": {
         "id": "legacy:haggsta",
         "path": "mediawiki/Häggsta.txt"
@@ -2648,6 +2849,7 @@
       "type": "",
       "firstAscent": "Hans Steystal-67",
       "description": "",
+      "sectorId": "langfredagsvaggen",
       "source": {
         "id": "legacy:haggsta",
         "path": "mediawiki/Häggsta.txt"
@@ -2663,6 +2865,7 @@
       "type": "",
       "firstAscent": "Johan Luhr, Marten Dahlström-90",
       "description": "",
+      "sectorId": "langfredagsvaggen",
       "source": {
         "id": "legacy:haggsta",
         "path": "mediawiki/Häggsta.txt"
@@ -2678,6 +2881,7 @@
       "type": "",
       "firstAscent": "Jan Liljemark,Claes Jelinek-83",
       "description": "",
+      "sectorId": "langfredagsvaggen",
       "source": {
         "id": "legacy:haggsta",
         "path": "mediawiki/Häggsta.txt"
@@ -2693,6 +2897,7 @@
       "type": "mix",
       "firstAscent": "CLaes Jelinek (undre) -93, CLaes Jelinek, Goran Wennerbrandt (övre) -94",
       "description": "",
+      "sectorId": "langfredagsvaggen",
       "source": {
         "id": "legacy:haggsta",
         "path": "mediawiki/Häggsta.txt"
@@ -2708,6 +2913,7 @@
       "type": "",
       "firstAscent": "Jürgen Rauscher, Thor Kleppen-63. FF: Jan Liljemark-76",
       "description": "",
+      "sectorId": "langfredagsvaggen",
       "source": {
         "id": "legacy:haggsta",
         "path": "mediawiki/Häggsta.txt"
@@ -2723,6 +2929,7 @@
       "type": "",
       "firstAscent": "Lars Grankvist-83",
       "description": "",
+      "sectorId": "langfredagsvaggen",
       "source": {
         "id": "legacy:haggsta",
         "path": "mediawiki/Häggsta.txt"
@@ -2738,6 +2945,7 @@
       "type": "",
       "firstAscent": "Gillis Billing -36?",
       "description": "",
+      "sectorId": "langfredagsvaggen",
       "source": {
         "id": "legacy:haggsta",
         "path": "mediawiki/Häggsta.txt"
@@ -2753,6 +2961,7 @@
       "type": "",
       "firstAscent": "Christer Åstrand, Eva Karlsson,Kenth Lindström, Torbjörn Berg, Anders Kamb, Marianne Kamb, Harald Brandt, Mike Crossdal, Kenneth Nolkrantz, Lars Grankvist, Robin Grankvist, Olle Hjort, Anna Lindam, Helena Brogren, Katarina Berg, Johan Winge, Johan Kviberg, Catarina Hedman, Jan Liljemark, Kaj Söderin, Staffan Ericsson, Anna Billman, Mats Holmgren, Carin Malmberg, Kent Andersson, P-O Englund, Stefan Bergström2013",
       "description": "Ny led till höger om Åttan bra säkrad med kilar och små kammar, förstabestigning av leden gjordes av ett enda replag på 25 personer med en sammanlagd ålder på 1357år!!",
+      "sectorId": "langfredagsvaggen",
       "source": {
         "id": "legacy:haggsta",
         "path": "mediawiki/Häggsta.txt"
@@ -2762,63 +2971,75 @@
   "images": [
     {
       "filename": "Häggsta.jpeg",
-      "caption": "750px",
-      "missing": false
+      "caption": "",
+      "missing": false,
+      "sectorId": null
     },
     {
       "filename": "Haggsta_oversikt.png",
-      "caption": "center",
-      "missing": false
+      "caption": "",
+      "missing": false,
+      "sectorId": "leder"
     },
     {
       "filename": "Haggsta_sjosidan_v.png",
-      "caption": "500px",
-      "missing": false
+      "caption": "",
+      "missing": false,
+      "sectorId": "sjosidan"
     },
     {
       "filename": "Haggsta_sjosidan_h.png",
-      "caption": "600px",
-      "missing": false
+      "caption": "",
+      "missing": false,
+      "sectorId": "sjosidan"
     },
     {
       "filename": "Haggsta_1.png",
-      "caption": "450px",
-      "missing": false
+      "caption": "",
+      "missing": false,
+      "sectorId": "rampvaggen"
     },
     {
       "filename": "Haggsta_2.png",
-      "caption": "450px",
-      "missing": false
+      "caption": "",
+      "missing": false,
+      "sectorId": "trean-vaggen"
     },
     {
       "filename": "Haggsta_3.png",
-      "caption": "400px",
-      "missing": false
+      "caption": "",
+      "missing": false,
+      "sectorId": "franska-vaggen"
     },
     {
       "filename": "Haggsta_4.png",
-      "caption": "400px",
-      "missing": false
+      "caption": "",
+      "missing": false,
+      "sectorId": "direttissimavaggen"
     },
     {
       "filename": "Haggsta_5.png",
-      "caption": "500px",
-      "missing": false
+      "caption": "",
+      "missing": false,
+      "sectorId": "omojliga-vaggen-vaggen"
     },
     {
       "filename": "Haggsta_6.png",
-      "caption": "400px",
-      "missing": false
+      "caption": "",
+      "missing": false,
+      "sectorId": "fyrbultsvaggen"
     },
     {
       "filename": "Firning_Langfredagsvaggen.jpg",
       "caption": "Per Lindh",
-      "missing": false
+      "missing": false,
+      "sectorId": "langfredagsvaggen"
     },
     {
       "filename": "Haggsta_7.png",
-      "caption": "450px",
-      "missing": false
+      "caption": "",
+      "missing": false,
+      "sectorId": "langfredagsvaggen"
     }
   ],
   "access": {

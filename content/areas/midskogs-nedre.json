@@ -19,6 +19,11 @@
   ],
   "sections": [
     {
+      "id": "nedsidan-vagen",
+      "title": "Nedsidan vägen",
+      "body": ""
+    },
+    {
       "id": "ovansidan-vagen",
       "title": "Ovansidan vägen",
       "body": "=Problem= Kategori:Sundsvall Kategori:Bouldering Kategori:Bimbo Kategori:Behöver kvalitetssäkras Kategori:Saknar karta Kategori:Saknar koordinater Kategori:Saknar skrivarformattering Kategori:Saknar skiss"
@@ -35,6 +40,7 @@
       "type": "Krimp,Överhäng,Aréte",
       "firstAscent": "Fredrik Bodin",
       "description": "Sittstart längst in till vänster under överhänget, går sedan ut till areten och följer den upp.",
+      "sectorId": "nedsidan-vagen",
       "source": {
         "id": "legacy:midskogs-nedre",
         "path": "mediawiki/Midskogs Nedre.txt"
@@ -50,6 +56,7 @@
       "type": "Krimp,Dyno,Jug",
       "firstAscent": "Fredrik Bodin",
       "description": "Sittstart med händerna på krimplisten, går rakt upp.",
+      "sectorId": "nedsidan-vagen",
       "source": {
         "id": "legacy:midskogs-nedre",
         "path": "mediawiki/Midskogs Nedre.txt"
@@ -65,6 +72,7 @@
       "type": "Jug",
       "firstAscent": "Fredrik Bodin",
       "description": "Går rakt upp.",
+      "sectorId": "nedsidan-vagen",
       "source": {
         "id": "legacy:midskogs-nedre",
         "path": "mediawiki/Midskogs Nedre.txt"
@@ -80,6 +88,7 @@
       "type": "Krimp,Slopers",
       "firstAscent": "Fredrik Bodin",
       "description": "Sittstart vid flaket, följ pilen rakt upp. Hyllan vid trädet till vänster är utesluten men det är givet om man följer linjen.",
+      "sectorId": "nedsidan-vagen",
       "source": {
         "id": "legacy:midskogs-nedre",
         "path": "mediawiki/Midskogs Nedre.txt"
@@ -95,6 +104,7 @@
       "type": "Krimp,Jug",
       "firstAscent": "Fredrik Bodin",
       "description": "Börjar vid pocketen, går rakt upp.",
+      "sectorId": "nedsidan-vagen",
       "source": {
         "id": "legacy:midskogs-nedre",
         "path": "mediawiki/Midskogs Nedre.txt"
@@ -110,6 +120,7 @@
       "type": "Krimp",
       "firstAscent": "Fredrik Bodin",
       "description": "Börjar med händerna på krimparna vid \"bollen\", går rakt upp.",
+      "sectorId": "nedsidan-vagen",
       "source": {
         "id": "legacy:midskogs-nedre",
         "path": "mediawiki/Midskogs Nedre.txt"
@@ -125,6 +136,7 @@
       "type": "Krimp,Mantling,Överhäng",
       "firstAscent": "Fredrik Bodin",
       "description": "Sittstart läntst in under stenen, går rakt ut och mantla vid spetsen.",
+      "sectorId": "ovansidan-vagen",
       "source": {
         "id": "legacy:midskogs-nedre",
         "path": "mediawiki/Midskogs Nedre.txt"
@@ -140,6 +152,7 @@
       "type": "Krimp,Mantling",
       "firstAscent": "Fredrik Bodin",
       "description": "Sittstart med händerna på listerna till vänster om \"Rankor\", går rakt upp.",
+      "sectorId": "ovansidan-vagen",
       "source": {
         "id": "legacy:midskogs-nedre",
         "path": "mediawiki/Midskogs Nedre.txt"
@@ -155,6 +168,7 @@
       "type": "Krimp,Slopers",
       "firstAscent": "Fredrik Bodin",
       "description": "Går rakt upp.",
+      "sectorId": "ovansidan-vagen",
       "source": {
         "id": "legacy:midskogs-nedre",
         "path": "mediawiki/Midskogs Nedre.txt"
@@ -170,6 +184,7 @@
       "type": "Krimp,Slopers",
       "firstAscent": "Fredrik Bodin",
       "description": "Börjar med händerna på den stora hyllan, går upp med lätt dragning åt höger. Stora pocketen till vänster samt nedre delen av areten är utesluten.",
+      "sectorId": "ovansidan-vagen",
       "source": {
         "id": "legacy:midskogs-nedre",
         "path": "mediawiki/Midskogs Nedre.txt"
@@ -185,6 +200,7 @@
       "type": "Krimp,Dyno,Jug",
       "firstAscent": "Fredrik Bodin",
       "description": "Börjar med vänster hand på jug och höger hand på krimp, går sedan upp med lätt dragning åt höger.",
+      "sectorId": "ovansidan-vagen",
       "source": {
         "id": "legacy:midskogs-nedre",
         "path": "mediawiki/Midskogs Nedre.txt"
@@ -200,6 +216,7 @@
       "type": "Krimp,Överhäng",
       "firstAscent": "Fredrik Bodin",
       "description": "Sittstart med händerna på den stora rampen, går rakt upp.",
+      "sectorId": "ovansidan-vagen",
       "source": {
         "id": "legacy:midskogs-nedre",
         "path": "mediawiki/Midskogs Nedre.txt"
@@ -215,6 +232,7 @@
       "type": "Krimp,Slopers",
       "firstAscent": "Fredrik Bodin",
       "description": "Går rakt upp.",
+      "sectorId": "ovansidan-vagen",
       "source": {
         "id": "legacy:midskogs-nedre",
         "path": "mediawiki/Midskogs Nedre.txt"
@@ -230,6 +248,7 @@
       "type": "Krimp,Slopers",
       "firstAscent": "Fredrik Bodin",
       "description": "Går rakt upp.",
+      "sectorId": "ovansidan-vagen",
       "source": {
         "id": "legacy:midskogs-nedre",
         "path": "mediawiki/Midskogs Nedre.txt"
@@ -245,6 +264,7 @@
       "type": "Krimp,Slopers",
       "firstAscent": "Fredrik Bodin",
       "description": "Sittstart till \"Kortvåg.",
+      "sectorId": "ovansidan-vagen",
       "source": {
         "id": "legacy:midskogs-nedre",
         "path": "mediawiki/Midskogs Nedre.txt"
@@ -260,6 +280,7 @@
       "type": "Krimp,Överhäng,Heel hook",
       "firstAscent": "Fredrik Bodin",
       "description": "Sittstart med händerna i sprickan i taket, går rakt ut och upp i Quinta Essentia.",
+      "sectorId": "ovansidan-vagen",
       "source": {
         "id": "legacy:midskogs-nedre",
         "path": "mediawiki/Midskogs Nedre.txt"
@@ -275,6 +296,7 @@
       "type": "Krimp",
       "firstAscent": "Fredrik Bodin",
       "description": "Börjar med vänster hand på den nedre krimpen och höger hand på grepp runt areten(startprickar finns), går rakt upp.",
+      "sectorId": "ovansidan-vagen",
       "source": {
         "id": "legacy:midskogs-nedre",
         "path": "mediawiki/Midskogs Nedre.txt"
@@ -290,6 +312,7 @@
       "type": "Krimp,Slopers",
       "firstAscent": "Fredrik Bodin",
       "description": "Går rakt upp över det vita fältet.",
+      "sectorId": "ovansidan-vagen",
       "source": {
         "id": "legacy:midskogs-nedre",
         "path": "mediawiki/Midskogs Nedre.txt"
@@ -305,6 +328,7 @@
       "type": "Krimp,Slopers",
       "firstAscent": "Fredrik Bodin",
       "description": "Sittstart med händerna på rampen/listen (etablerad start om man ej når från backen). Går rakt upp.",
+      "sectorId": "ovansidan-vagen",
       "source": {
         "id": "legacy:midskogs-nedre",
         "path": "mediawiki/Midskogs Nedre.txt"
@@ -320,6 +344,7 @@
       "type": "Krimp,Dyno",
       "firstAscent": "Fredrik Bodin",
       "description": "Börjar med händerna på listrampen, går rakt upp.",
+      "sectorId": "ovansidan-vagen",
       "source": {
         "id": "legacy:midskogs-nedre",
         "path": "mediawiki/Midskogs Nedre.txt"
@@ -335,6 +360,7 @@
       "type": "Krimp,Slopers",
       "firstAscent": "Per Wermelin",
       "description": "Ståstart, klättra hur du vill inom det sopade området upp till toppen.",
+      "sectorId": "ovansidan-vagen",
       "source": {
         "id": "legacy:midskogs-nedre",
         "path": "mediawiki/Midskogs Nedre.txt"
@@ -350,6 +376,7 @@
       "type": "Krimp,Slopers,Överhäng,Dyno",
       "firstAscent": "Per Wermelin",
       "description": "Klättra rakt upp, undvik grankontakt i startmovet.",
+      "sectorId": "ovansidan-vagen",
       "source": {
         "id": "legacy:midskogs-nedre",
         "path": "mediawiki/Midskogs Nedre.txt"
@@ -365,6 +392,7 @@
       "type": "Krimp,Layback,Överhäng",
       "firstAscent": "Per Wermelin",
       "description": "Starta med höger i ett bra sidepull och med vänster på samma startgrepp som Grankontakt. Klättra sen rakt upp, utsteget görs med lätt dragning åt höger.",
+      "sectorId": "ovansidan-vagen",
       "source": {
         "id": "legacy:midskogs-nedre",
         "path": "mediawiki/Midskogs Nedre.txt"
@@ -380,6 +408,7 @@
       "type": "Krimp,Överhäng,Heel hook",
       "firstAscent": "Per Wermelin",
       "description": "Starta med händerna på kanten och en heelhook. Följ kanten och avsluta med samma utseg som Climb in alone.",
+      "sectorId": "ovansidan-vagen",
       "source": {
         "id": "legacy:midskogs-nedre",
         "path": "mediawiki/Midskogs Nedre.txt"
@@ -395,6 +424,7 @@
       "type": "Mantling,Heel hook",
       "firstAscent": "Per Wermelin",
       "description": "Klättra rakt upp och avsluta med en mantling.",
+      "sectorId": "ovansidan-vagen",
       "source": {
         "id": "legacy:midskogs-nedre",
         "path": "mediawiki/Midskogs Nedre.txt"
@@ -410,6 +440,7 @@
       "type": "Krimp,Layback",
       "firstAscent": "Per Wermelin och Fredrik Bodin",
       "description": "Sittstart till Left pocket. Starta i layback och klättra upp till startgreppen på Left pocket, därefter samma.",
+      "sectorId": "ovansidan-vagen",
       "source": {
         "id": "legacy:midskogs-nedre",
         "path": "mediawiki/Midskogs Nedre.txt"

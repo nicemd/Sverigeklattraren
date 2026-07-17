@@ -33,6 +33,11 @@
       "body": "(Informationen i Klättring i Göteborg med omnejd är baserad på informationen ifrån Sverigeföraren)."
     },
     {
+      "id": "lottkarr",
+      "title": "Lottkärr",
+      "body": ""
+    },
+    {
       "id": "miljo",
       "title": "Miljö",
       "body": "En till synes bred klippa som bjuder på en handfull mix/tradleder, brant sva, samt en helbultad led. Ligger vid en äng, utom hör- och synhåll ifrån bilväg. Anmarschen är cirka 800 meter. Vänster om denna klippa i skogsdungen finns lite intressanta block och kortare väggar (överhäng)."
@@ -69,6 +74,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "Kortaste leden på klippan. En ensam borrbult markerar utsteget, går att säkra med småkilar.",
+      "sectorId": "leder-lottkarr",
       "source": {
         "id": "legacy:tumlehed",
         "path": "mediawiki/Tumlehed.txt"
@@ -84,6 +90,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "Första kaminen",
+      "sectorId": "leder-lottkarr",
       "source": {
         "id": "legacy:tumlehed",
         "path": "mediawiki/Tumlehed.txt"
@@ -99,6 +106,7 @@
       "type": "mix",
       "firstAscent": "",
       "description": "En ensam bult ger knappast en led",
+      "sectorId": "leder-lottkarr",
       "source": {
         "id": "legacy:tumlehed",
         "path": "mediawiki/Tumlehed.txt"
@@ -114,6 +122,7 @@
       "type": "mix",
       "firstAscent": "",
       "description": "Brant start",
+      "sectorId": "leder-lottkarr",
       "source": {
         "id": "legacy:tumlehed",
         "path": "mediawiki/Tumlehed.txt"
@@ -129,6 +138,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "Andra kaminen, oftast blöt och en del lös sten.",
+      "sectorId": "leder-lottkarr",
       "source": {
         "id": "legacy:tumlehed",
         "path": "mediawiki/Tumlehed.txt"
@@ -144,6 +154,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "Finaste leden, startar två meter till höger om kaminen",
+      "sectorId": "leder-lottkarr",
       "source": {
         "id": "legacy:tumlehed",
         "path": "mediawiki/Tumlehed.txt"
@@ -159,6 +170,7 @@
       "type": "topprep",
       "firstAscent": "",
       "description": "Topprepsvariant rakt upp, svaklättring, svår",
+      "sectorId": "leder-lottkarr",
       "source": {
         "id": "legacy:tumlehed",
         "path": "mediawiki/Tumlehed.txt"
@@ -174,6 +186,7 @@
       "type": "mix",
       "firstAscent": "",
       "description": "Samma start som nästa led men går upp till vänster efter laybacken istället",
+      "sectorId": "leder-lottkarr",
       "source": {
         "id": "legacy:tumlehed",
         "path": "mediawiki/Tumlehed.txt"
@@ -189,6 +202,7 @@
       "type": "mix",
       "firstAscent": "",
       "description": "Startar ifrån marken, mantla hyllan och rakt upp",
+      "sectorId": "leder-lottkarr",
       "source": {
         "id": "legacy:tumlehed",
         "path": "mediawiki/Tumlehed.txt"
@@ -204,6 +218,7 @@
       "type": "sport",
       "firstAscent": "",
       "description": "Möjligen campus-start följt av svaproblem till toppen.",
+      "sectorId": "leder-lottkarr",
       "source": {
         "id": "legacy:tumlehed",
         "path": "mediawiki/Tumlehed.txt"
@@ -219,6 +234,7 @@
       "type": "mix",
       "firstAscent": "",
       "description": "efter den gemensamma starten går man den mer högra linjen, en kamplacering och en bult på slutet som markerar leden.",
+      "sectorId": "leder-lottkarr",
       "source": {
         "id": "legacy:tumlehed",
         "path": "mediawiki/Tumlehed.txt"
@@ -234,6 +250,7 @@
       "type": "mix",
       "firstAscent": "",
       "description": "Finns en ensam bult ovanför korpboet. Möjligen en mixad led?",
+      "sectorId": "leder-lottkarr",
       "source": {
         "id": "legacy:tumlehed",
         "path": "mediawiki/Tumlehed.txt"
@@ -249,6 +266,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "Högerlutande svasprickan",
+      "sectorId": "leder-lottkarr",
       "source": {
         "id": "legacy:tumlehed",
         "path": "mediawiki/Tumlehed.txt"
@@ -264,6 +282,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "Sprickan innan kaminen",
+      "sectorId": "leder-lottkarr",
       "source": {
         "id": "legacy:tumlehed",
         "path": "mediawiki/Tumlehed.txt"
@@ -279,6 +298,7 @@
       "type": "",
       "firstAscent": "",
       "description": "Högra kaminen, namnet kommer ifrån den geocache som ligger i kaminen.",
+      "sectorId": "leder-lottkarr",
       "source": {
         "id": "legacy:tumlehed",
         "path": "mediawiki/Tumlehed.txt"
@@ -294,6 +314,7 @@
       "type": "",
       "firstAscent": "",
       "description": "Ingen klassiker direkt",
+      "sectorId": "runhallsgatan",
       "source": {
         "id": "legacy:tumlehed",
         "path": "mediawiki/Tumlehed.txt"
@@ -309,6 +330,7 @@
       "type": "",
       "firstAscent": "",
       "description": "Dubbelt överhäng",
+      "sectorId": "runhallsgatan",
       "source": {
         "id": "legacy:tumlehed",
         "path": "mediawiki/Tumlehed.txt"
@@ -324,6 +346,7 @@
       "type": "",
       "firstAscent": "",
       "description": "För att graden ska hålla ska man klättra rakt upp hela tiden... Välsäkrad",
+      "sectorId": "runhallsgatan",
       "source": {
         "id": "legacy:tumlehed",
         "path": "mediawiki/Tumlehed.txt"
@@ -339,6 +362,7 @@
       "type": "",
       "firstAscent": "",
       "description": "Välsäkrad i diedret",
+      "sectorId": "runhallsgatan",
       "source": {
         "id": "legacy:tumlehed",
         "path": "mediawiki/Tumlehed.txt"
@@ -354,6 +378,7 @@
       "type": "",
       "firstAscent": "",
       "description": "Fin klättring, men tyvärr jordig led.",
+      "sectorId": "runhallsgatan",
       "source": {
         "id": "legacy:tumlehed",
         "path": "mediawiki/Tumlehed.txt"
@@ -369,6 +394,7 @@
       "type": "",
       "firstAscent": "",
       "description": "Bra men svårplacerade säkringar.",
+      "sectorId": "runhallsgatan",
       "source": {
         "id": "legacy:tumlehed",
         "path": "mediawiki/Tumlehed.txt"
@@ -384,6 +410,7 @@
       "type": "",
       "firstAscent": "",
       "description": "Håll höger!",
+      "sectorId": "runhallsgatan",
       "source": {
         "id": "legacy:tumlehed",
         "path": "mediawiki/Tumlehed.txt"
@@ -393,18 +420,21 @@
   "images": [
     {
       "filename": "Accessproblem_tumle.jpg",
-      "caption": "100px",
-      "missing": false
+      "caption": "",
+      "missing": false,
+      "sectorId": "t"
     },
     {
       "filename": "Tumlehed_valkomstbild.jpg",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "miljo"
     },
     {
       "filename": "Tumlehed456789.jpg",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "leder-lottkarr"
     }
   ],
   "access": {

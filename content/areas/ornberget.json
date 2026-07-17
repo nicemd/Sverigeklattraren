@@ -52,9 +52,19 @@
       "body": "Det är numera förbjudet att parkera bredvid vägen alldeles vid klippan. Man kan få P-böter och det kan bli accessproblem. Parkera i stället vid båtklubben, en grusplan som ligger bredvid vägen på vänster sida, 200 m innan man kommer fram till berget."
     },
     {
+      "id": "leder",
+      "title": "Leder",
+      "body": ""
+    },
+    {
       "id": "norra-vaggen",
       "title": "Norra väggen",
       "body": "Uppe i skogen tv om svaet finns en liten vägg."
+    },
+    {
+      "id": "svavaggen-vid-vagen",
+      "title": "Svaväggen (vid vägen)",
+      "body": ""
     },
     {
       "id": "vastvaggen",
@@ -83,6 +93,7 @@
       "type": "",
       "firstAscent": "Henrik Bolander, Jonas Böttiger -90",
       "description": "",
+      "sectorId": "norra-vaggen",
       "source": {
         "id": "legacy:ornberget",
         "path": "mediawiki/Örnberget.txt"
@@ -98,6 +109,7 @@
       "type": "sport",
       "firstAscent": "Per Willén, Johnny Carlén -93",
       "description": "",
+      "sectorId": "svavaggen-vid-vagen",
       "source": {
         "id": "legacy:ornberget",
         "path": "mediawiki/Örnberget.txt"
@@ -113,6 +125,7 @@
       "type": "sport",
       "firstAscent": "Henrik Bolander -90",
       "description": "",
+      "sectorId": "svavaggen-vid-vagen",
       "source": {
         "id": "legacy:ornberget",
         "path": "mediawiki/Örnberget.txt"
@@ -128,6 +141,7 @@
       "type": "mix",
       "firstAscent": "Johan Luhr, Fredrik Rundqvist -90",
       "description": "Småkilar. Går ihop med Svarta Änkan",
+      "sectorId": "svavaggen-vid-vagen",
       "source": {
         "id": "legacy:ornberget",
         "path": "mediawiki/Örnberget.txt"
@@ -143,6 +157,7 @@
       "type": "trad",
       "firstAscent": "Katarina Hemgren -87",
       "description": "",
+      "sectorId": "vastvaggen",
       "source": {
         "id": "legacy:ornberget",
         "path": "mediawiki/Örnberget.txt"
@@ -158,6 +173,7 @@
       "type": "sport",
       "firstAscent": "Peter Yakubenko -10",
       "description": "Vänster led på det röda svaet. Betydligt svårare än väntat.",
+      "sectorId": "vastvaggen",
       "source": {
         "id": "legacy:ornberget",
         "path": "mediawiki/Örnberget.txt"
@@ -173,6 +189,7 @@
       "type": "sport",
       "firstAscent": "Anton & Peter Yakubenko -10",
       "description": "Höger led på det röda svaet. Fin led och tätt bultad.",
+      "sectorId": "vastvaggen",
       "source": {
         "id": "legacy:ornberget",
         "path": "mediawiki/Örnberget.txt"
@@ -188,6 +205,7 @@
       "type": "trad",
       "firstAscent": "Katarina Hemgren -87",
       "description": "Vacker spricklinje. Jänm och fin klättring. Nyrensad och nytt toppankare -10.",
+      "sectorId": "vastvaggen",
       "source": {
         "id": "legacy:ornberget",
         "path": "mediawiki/Örnberget.txt"
@@ -203,6 +221,7 @@
       "type": "trad",
       "firstAscent": "Peter Yakubenko -10",
       "description": "Klättra Nalle Puh upp till hyllan, traversera åt höger via tvärsprickan mot björken, sen klättra upp i den breda sprickan. Det kräver stora säkringar (Camalot #3 och #4). Ankare finns på toppen.",
+      "sectorId": "vastvaggen",
       "source": {
         "id": "legacy:ornberget",
         "path": "mediawiki/Örnberget.txt"
@@ -218,6 +237,7 @@
       "type": "sport",
       "firstAscent": "Johan Luhr -10",
       "description": "",
+      "sectorId": "vastvaggen",
       "source": {
         "id": "legacy:ornberget",
         "path": "mediawiki/Örnberget.txt"
@@ -233,6 +253,7 @@
       "type": "sport",
       "firstAscent": "Peter Yakubenko, Jörgen Alvhäll -10",
       "description": "På vägg och aréte höger om björken. Toppankare.",
+      "sectorId": "vastvaggen",
       "source": {
         "id": "legacy:ornberget",
         "path": "mediawiki/Örnberget.txt"
@@ -248,6 +269,7 @@
       "type": "trad",
       "firstAscent": "Eva Selin -86",
       "description": "",
+      "sectorId": "vastvaggen",
       "source": {
         "id": "legacy:ornberget",
         "path": "mediawiki/Örnberget.txt"
@@ -263,6 +285,7 @@
       "type": "mix",
       "firstAscent": "Eva Selin, Anders Lundahl -85",
       "description": "Otroligt lös",
+      "sectorId": "vastvaggen",
       "source": {
         "id": "legacy:ornberget",
         "path": "mediawiki/Örnberget.txt"
@@ -278,6 +301,7 @@
       "type": "mix",
       "firstAscent": "Tomas Hanson, Gary Hanson -88",
       "description": "",
+      "sectorId": "vastvaggen",
       "source": {
         "id": "legacy:ornberget",
         "path": "mediawiki/Örnberget.txt"
@@ -293,6 +317,7 @@
       "type": "trad",
       "firstAscent": "Tomas Hanson, Gary Hanson -88",
       "description": "",
+      "sectorId": "vastvaggen",
       "source": {
         "id": "legacy:ornberget",
         "path": "mediawiki/Örnberget.txt"
@@ -308,6 +333,7 @@
       "type": "mix",
       "firstAscent": "Anders Lundahl, Eva Selin -85",
       "description": "",
+      "sectorId": "vastvaggen",
       "source": {
         "id": "legacy:ornberget",
         "path": "mediawiki/Örnberget.txt"
@@ -323,6 +349,7 @@
       "type": "sport",
       "firstAscent": "Peter Yakubenko, Jörgen Alvhäll -11",
       "description": "På aréte precis höger om Möjliga världar. Gemensamt toppankare.",
+      "sectorId": "vastvaggen",
       "source": {
         "id": "legacy:ornberget",
         "path": "mediawiki/Örnberget.txt"
@@ -338,6 +365,7 @@
       "type": "sport",
       "firstAscent": "Peter Yakubenko -11",
       "description": "Samma start som Verklighet, sedan diagonalt höger mot toppankare på Gasen i botten. Tydlig och logisk linje.",
+      "sectorId": "vastvaggen",
       "source": {
         "id": "legacy:ornberget",
         "path": "mediawiki/Örnberget.txt"
@@ -353,6 +381,7 @@
       "type": "sport",
       "firstAscent": "Johan Luhr, Fredrik Rundqvist -90",
       "description": "Rakt upp genom taket.",
+      "sectorId": "vastvaggen",
       "source": {
         "id": "legacy:ornberget",
         "path": "mediawiki/Örnberget.txt"
@@ -368,6 +397,7 @@
       "type": "trad",
       "firstAscent": "Jan Liliemark, Lars Granqvist, Rickard Hedman -84",
       "description": "",
+      "sectorId": "vastvaggen",
       "source": {
         "id": "legacy:ornberget",
         "path": "mediawiki/Örnberget.txt"
@@ -383,6 +413,7 @@
       "type": "sport",
       "firstAscent": "Johan Luhr, Henrik Bolander -91",
       "description": "",
+      "sectorId": "vastvaggen",
       "source": {
         "id": "legacy:ornberget",
         "path": "mediawiki/Örnberget.txt"
@@ -398,6 +429,7 @@
       "type": "sport",
       "firstAscent": "Johan Luhr, Niklas Adler -95",
       "description": "",
+      "sectorId": "vastvaggen",
       "source": {
         "id": "legacy:ornberget",
         "path": "mediawiki/Örnberget.txt"
@@ -413,6 +445,7 @@
       "type": "sport",
       "firstAscent": "Per Willén, Johnny Carlén -95",
       "description": "",
+      "sectorId": "vastvaggen",
       "source": {
         "id": "legacy:ornberget",
         "path": "mediawiki/Örnberget.txt"
@@ -428,6 +461,7 @@
       "type": "sport",
       "firstAscent": "Alexander Megos -13",
       "description": "Vänster om Sator. Den svåraste leden på berget och kanske i hela Stockholm. Namnet kommer från grannmiljardären. Projektet bultades upp av Henrik Bolander för 15 år sedan och testades av många. Alex Megos var inbjuden av Stockholms KK som firade 40 års jubileum.",
+      "sectorId": "sydvaggen",
       "source": {
         "id": "legacy:ornberget",
         "path": "mediawiki/Örnberget.txt"
@@ -443,6 +477,7 @@
       "type": "sport",
       "firstAscent": "Johan Luhr -92",
       "description": "",
+      "sectorId": "sydvaggen",
       "source": {
         "id": "legacy:ornberget",
         "path": "mediawiki/Örnberget.txt"
@@ -458,6 +493,7 @@
       "type": "sport",
       "firstAscent": "Johan Luhr -91",
       "description": "",
+      "sectorId": "sydvaggen",
       "source": {
         "id": "legacy:ornberget",
         "path": "mediawiki/Örnberget.txt"
@@ -473,6 +509,7 @@
       "type": "sport",
       "firstAscent": "Johan Luhr -95",
       "description": "",
+      "sectorId": "sydvaggen",
       "source": {
         "id": "legacy:ornberget",
         "path": "mediawiki/Örnberget.txt"
@@ -488,6 +525,7 @@
       "type": "sport",
       "firstAscent": "Johan Luhr -92",
       "description": "",
+      "sectorId": "sydvaggen",
       "source": {
         "id": "legacy:ornberget",
         "path": "mediawiki/Örnberget.txt"
@@ -503,6 +541,7 @@
       "type": "sport",
       "firstAscent": "Johan Luhr -91",
       "description": "",
+      "sectorId": "sydvaggen",
       "source": {
         "id": "legacy:ornberget",
         "path": "mediawiki/Örnberget.txt"
@@ -518,6 +557,7 @@
       "type": "sport",
       "firstAscent": "Johan Luhr",
       "description": "",
+      "sectorId": "sydvaggen",
       "source": {
         "id": "legacy:ornberget",
         "path": "mediawiki/Örnberget.txt"
@@ -533,6 +573,7 @@
       "type": "sport",
       "firstAscent": "Johan Luhr -90",
       "description": "",
+      "sectorId": "sydvaggen",
       "source": {
         "id": "legacy:ornberget",
         "path": "mediawiki/Örnberget.txt"
@@ -548,6 +589,7 @@
       "type": "sport",
       "firstAscent": "Johan Luhr, Rikard Hedman -88",
       "description": "Pumpande och annorlunda klättring i den stora, överhängande diedersprickan. En variant som kan rekommenderas är Dödsskiftet, 7c, då man avslutar med utsteget på Dödligt möte i stället.",
+      "sectorId": "sydvaggen",
       "source": {
         "id": "legacy:ornberget",
         "path": "mediawiki/Örnberget.txt"
@@ -563,6 +605,7 @@
       "type": "sport",
       "firstAscent": "Johan Luhr -95",
       "description": "Brant första del med hårda bouldermoves, sedan vertikalt. Leden finns inte med på skissen ovan. Den börjar mellan nr 18 och nr 19 och går i en rak linje till toppen, mellan Nattskiftet och Don´t be late. Har ett eget ankare.",
+      "sectorId": "sydvaggen",
       "source": {
         "id": "legacy:ornberget",
         "path": "mediawiki/Örnberget.txt"
@@ -578,6 +621,7 @@
       "type": "sport",
       "firstAscent": "Johan Luhr, Rikard Hedman -88",
       "description": "Går upp till samma ankare som Underarms UFO.",
+      "sectorId": "sydvaggen",
       "source": {
         "id": "legacy:ornberget",
         "path": "mediawiki/Örnberget.txt"
@@ -593,6 +637,7 @@
       "type": "sport",
       "firstAscent": "Johan Luhr, Lars Thorén -90",
       "description": "På slutet går man in i Nattskiftet och upp till detta ankare. En kul variant är att klättra rakt upp och utsteget till Dödligt möte, då kallas leden Don´t be dead, 7b+.",
+      "sectorId": "sydvaggen",
       "source": {
         "id": "legacy:ornberget",
         "path": "mediawiki/Örnberget.txt"
@@ -608,6 +653,7 @@
       "type": "mix",
       "firstAscent": "Johan Luhr, Rikard Hedman -88",
       "description": "",
+      "sectorId": "sydvaggen",
       "source": {
         "id": "legacy:ornberget",
         "path": "mediawiki/Örnberget.txt"
@@ -623,6 +669,7 @@
       "type": "sport",
       "firstAscent": "Eva Selin, Anders Lundahl -85",
       "description": "Enkelt att klättra onsight.",
+      "sectorId": "sydvaggen",
       "source": {
         "id": "legacy:ornberget",
         "path": "mediawiki/Örnberget.txt"
@@ -638,6 +685,7 @@
       "type": "sport",
       "firstAscent": "Johan Luhr, Mattias Flodin -88",
       "description": "",
+      "sectorId": "sydvaggen",
       "source": {
         "id": "legacy:ornberget",
         "path": "mediawiki/Örnberget.txt"
@@ -653,6 +701,7 @@
       "type": "sport",
       "firstAscent": "Peter Yakubenko -11",
       "description": "Förlangning på Underarms UFO/Lätta. Förlangningen är betydligt lättare men helt logisk fortsättning förbi gamla toppankaret upp mot en hylla och vidare på areten övanfor.",
+      "sectorId": "sydvaggen",
       "source": {
         "id": "legacy:ornberget",
         "path": "mediawiki/Örnberget.txt"
@@ -668,6 +717,7 @@
       "type": "sport",
       "firstAscent": "Johan Luhr, Lars Thorén -90",
       "description": "Ihållande och knappast rak",
+      "sectorId": "sydvaggen",
       "source": {
         "id": "legacy:ornberget",
         "path": "mediawiki/Örnberget.txt"
@@ -683,6 +733,7 @@
       "type": "sport",
       "firstAscent": "Eva Selin, Anders Lundahl -85",
       "description": "",
+      "sectorId": "sydvaggen",
       "source": {
         "id": "legacy:ornberget",
         "path": "mediawiki/Örnberget.txt"
@@ -698,6 +749,7 @@
       "type": "sport",
       "firstAscent": "Johan Luhr -90",
       "description": "",
+      "sectorId": "sydvaggen",
       "source": {
         "id": "legacy:ornberget",
         "path": "mediawiki/Örnberget.txt"
@@ -713,6 +765,7 @@
       "type": "sport",
       "firstAscent": "Eva Selin, Anders Lundahl -86",
       "description": "Uppvärmningsklassiker",
+      "sectorId": "sydvaggen",
       "source": {
         "id": "legacy:ornberget",
         "path": "mediawiki/Örnberget.txt"
@@ -728,6 +781,7 @@
       "type": "sport",
       "firstAscent": "Johan Luhr, Rickard Hedman -88",
       "description": "",
+      "sectorId": "sydvaggen",
       "source": {
         "id": "legacy:ornberget",
         "path": "mediawiki/Örnberget.txt"
@@ -743,6 +797,7 @@
       "type": "sport",
       "firstAscent": "Johan Luhr -91",
       "description": "",
+      "sectorId": "sydvaggen",
       "source": {
         "id": "legacy:ornberget",
         "path": "mediawiki/Örnberget.txt"
@@ -758,6 +813,7 @@
       "type": "sport",
       "firstAscent": "Eva Selin, Anders Lundahl -88",
       "description": "9 bultar totalt inkl de 4 på Panta Rei originalinsteg",
+      "sectorId": "sydvaggen",
       "source": {
         "id": "legacy:ornberget",
         "path": "mediawiki/Örnberget.txt"
@@ -773,6 +829,7 @@
       "type": "sport",
       "firstAscent": "Johan Luhr -90",
       "description": "",
+      "sectorId": "sydvaggen",
       "source": {
         "id": "legacy:ornberget",
         "path": "mediawiki/Örnberget.txt"
@@ -788,6 +845,7 @@
       "type": "sport",
       "firstAscent": "Johan Luhr -91",
       "description": "",
+      "sectorId": "sydvaggen",
       "source": {
         "id": "legacy:ornberget",
         "path": "mediawiki/Örnberget.txt"
@@ -803,6 +861,7 @@
       "type": "sport",
       "firstAscent": "Johan Luhr, Rickard Hedman -88",
       "description": "",
+      "sectorId": "sydvaggen",
       "source": {
         "id": "legacy:ornberget",
         "path": "mediawiki/Örnberget.txt"
@@ -818,6 +877,7 @@
       "type": "sport",
       "firstAscent": "Johan Luhr, Rickard Hedman -88",
       "description": "",
+      "sectorId": "sydvaggen",
       "source": {
         "id": "legacy:ornberget",
         "path": "mediawiki/Örnberget.txt"
@@ -833,6 +893,7 @@
       "type": "sport",
       "firstAscent": "Johan Luhr -90",
       "description": "",
+      "sectorId": "sydvaggen",
       "source": {
         "id": "legacy:ornberget",
         "path": "mediawiki/Örnberget.txt"
@@ -848,6 +909,7 @@
       "type": "sport",
       "firstAscent": "Johan Luhr, Rickard Hedman -88",
       "description": "",
+      "sectorId": "sydvaggen",
       "source": {
         "id": "legacy:ornberget",
         "path": "mediawiki/Örnberget.txt"
@@ -863,6 +925,7 @@
       "type": "sport",
       "firstAscent": "Johan Luhr -92",
       "description": "",
+      "sectorId": "sydvaggen",
       "source": {
         "id": "legacy:ornberget",
         "path": "mediawiki/Örnberget.txt"
@@ -878,6 +941,7 @@
       "type": "mix",
       "firstAscent": "Johan Luhr -91",
       "description": "En friend behövs på mitten i den tydliga sprickan",
+      "sectorId": "sydvaggen",
       "source": {
         "id": "legacy:ornberget",
         "path": "mediawiki/Örnberget.txt"
@@ -893,6 +957,7 @@
       "type": "sport",
       "firstAscent": "Anders Lundahl -86",
       "description": "",
+      "sectorId": "sydvaggen",
       "source": {
         "id": "legacy:ornberget",
         "path": "mediawiki/Örnberget.txt"
@@ -908,6 +973,7 @@
       "type": "sport",
       "firstAscent": "Johan Luhr, Mårten Dahlström -87",
       "description": "",
+      "sectorId": "sydvaggen",
       "source": {
         "id": "legacy:ornberget",
         "path": "mediawiki/Örnberget.txt"
@@ -923,6 +989,7 @@
       "type": "sport",
       "firstAscent": "Rickard Hedman, Johan Luhr -88",
       "description": "",
+      "sectorId": "sydvaggen",
       "source": {
         "id": "legacy:ornberget",
         "path": "mediawiki/Örnberget.txt"
@@ -938,6 +1005,7 @@
       "type": "trad",
       "firstAscent": "Eva Selin, Anders Lundahl -83",
       "description": "",
+      "sectorId": "lidingovaggen",
       "source": {
         "id": "legacy:ornberget",
         "path": "mediawiki/Örnberget.txt"
@@ -953,6 +1021,7 @@
       "type": "sport",
       "firstAscent": "Anton & Peter Yakubenko -11",
       "description": "Vänster om Blötkaken.",
+      "sectorId": "lidingovaggen",
       "source": {
         "id": "legacy:ornberget",
         "path": "mediawiki/Örnberget.txt"
@@ -968,6 +1037,7 @@
       "type": "sport",
       "firstAscent": "Anders Lundahl, Eva Selin -83",
       "description": "Leden är nu bultad. Ankare -09",
+      "sectorId": "lidingovaggen",
       "source": {
         "id": "legacy:ornberget",
         "path": "mediawiki/Örnberget.txt"
@@ -983,6 +1053,7 @@
       "type": "sport",
       "firstAscent": "",
       "description": "Så kan man undvika den första och storsta hyllan. Graden ändras ej. Året var 1983. Hur klättrades det? Helbultad -2011.",
+      "sectorId": "lidingovaggen",
       "source": {
         "id": "legacy:ornberget",
         "path": "mediawiki/Örnberget.txt"
@@ -998,6 +1069,7 @@
       "type": "sport",
       "firstAscent": "Björn Kihlström -89",
       "description": "",
+      "sectorId": "lidingovaggen",
       "source": {
         "id": "legacy:ornberget",
         "path": "mediawiki/Örnberget.txt"
@@ -1013,6 +1085,7 @@
       "type": "sport",
       "firstAscent": "Peter Yakubenko -09",
       "description": "Samma start som Möjlig omöjlighet. Nytt lätt utsteg åt vänster.",
+      "sectorId": "lidingovaggen",
       "source": {
         "id": "legacy:ornberget",
         "path": "mediawiki/Örnberget.txt"
@@ -1028,6 +1101,7 @@
       "type": "trad",
       "firstAscent": "Lars Grankvist, Anders Kamb -82",
       "description": "En klassisk led och en av de finaste spricklinjerna i södra Stockholm. Rensades och försågs med ett firningsankare i oktober 2011.",
+      "sectorId": "lidingovaggen",
       "source": {
         "id": "legacy:ornberget",
         "path": "mediawiki/Örnberget.txt"
@@ -1043,6 +1117,7 @@
       "type": "sport",
       "firstAscent": "Johan Luhr, Rikard Hedman -88",
       "description": "Tidigare en mixled, numera helbultad och rensad. Börjar på hyllan, för att nå dit - klättra En tyst minut.",
+      "sectorId": "lidingovaggen",
       "source": {
         "id": "legacy:ornberget",
         "path": "mediawiki/Örnberget.txt"
@@ -1058,6 +1133,7 @@
       "type": "sport",
       "firstAscent": "Andreas Harne -11",
       "description": "Kort och boulderaktig led med lätt överhängande slut. Låt karbinerna sitta kvar i ankaret!",
+      "sectorId": "lidingovaggen",
       "source": {
         "id": "legacy:ornberget",
         "path": "mediawiki/Örnberget.txt"
@@ -1073,6 +1149,7 @@
       "type": "sport",
       "firstAscent": "Anders Lundahl, Eva Selin -85",
       "description": "Delar första bulten med föregående led. Ursprungligen en instegsvariant till Istället för Lidingöloppet, numera en självständig led. I oktober 2011 bultades leden om och försågs med ett eget ankare t h uppe på hyllan.",
+      "sectorId": "lidingovaggen",
       "source": {
         "id": "legacy:ornberget",
         "path": "mediawiki/Örnberget.txt"
@@ -1088,6 +1165,7 @@
       "type": "sport",
       "firstAscent": "Tomas Hansson -89",
       "description": "En riktig testpiece. Kräver god teknik och starka fingrar.",
+      "sectorId": "lidingovaggen",
       "source": {
         "id": "legacy:ornberget",
         "path": "mediawiki/Örnberget.txt"
@@ -1103,6 +1181,7 @@
       "type": "sport",
       "firstAscent": "Johan Luhr, Rikard Hedman -88",
       "description": "",
+      "sectorId": "lidingovaggen",
       "source": {
         "id": "legacy:ornberget",
         "path": "mediawiki/Örnberget.txt"
@@ -1118,6 +1197,7 @@
       "type": "sport",
       "firstAscent": "Johan Luhr, Rikard Hedman -88",
       "description": "",
+      "sectorId": "lidingovaggen",
       "source": {
         "id": "legacy:ornberget",
         "path": "mediawiki/Örnberget.txt"
@@ -1133,6 +1213,7 @@
       "type": "sport",
       "firstAscent": "Anders Lundahl, Eva Selin -84",
       "description": "Leden är nu bultad",
+      "sectorId": "lidingovaggen",
       "source": {
         "id": "legacy:ornberget",
         "path": "mediawiki/Örnberget.txt"
@@ -1148,6 +1229,7 @@
       "type": "sport",
       "firstAscent": "Johan Luhr -91",
       "description": "",
+      "sectorId": "lidingovaggen",
       "source": {
         "id": "legacy:ornberget",
         "path": "mediawiki/Örnberget.txt"
@@ -1163,6 +1245,7 @@
       "type": "trad",
       "firstAscent": "Anders Lundahl, Eva Selin -85",
       "description": "",
+      "sectorId": "lidingovaggen",
       "source": {
         "id": "legacy:ornberget",
         "path": "mediawiki/Örnberget.txt"
@@ -1178,6 +1261,7 @@
       "type": "sport",
       "firstAscent": "Johan Luhr, Daniel Bidner -91",
       "description": "",
+      "sectorId": "lidingovaggen",
       "source": {
         "id": "legacy:ornberget",
         "path": "mediawiki/Örnberget.txt"
@@ -1193,6 +1277,7 @@
       "type": "sport",
       "firstAscent": "Johnny Carlén, Per Willén -93",
       "description": "",
+      "sectorId": "lidingovaggen",
       "source": {
         "id": "legacy:ornberget",
         "path": "mediawiki/Örnberget.txt"
@@ -1208,6 +1293,7 @@
       "type": "sport",
       "firstAscent": "Eva Selin, Anders Lundahl -85",
       "description": "",
+      "sectorId": "lidingovaggen",
       "source": {
         "id": "legacy:ornberget",
         "path": "mediawiki/Örnberget.txt"
@@ -1223,6 +1309,7 @@
       "type": "sport",
       "firstAscent": "Peter Yakubenko, Jörgen Alvhäll, Anders Eriksson -09",
       "description": "På vägg emellan Grands gorillas och Namo. Nytt toppankare.",
+      "sectorId": "lidingovaggen",
       "source": {
         "id": "legacy:ornberget",
         "path": "mediawiki/Örnberget.txt"
@@ -1238,6 +1325,7 @@
       "type": "sport",
       "firstAscent": "Johan Luhr, Daniel Bidner -92",
       "description": "",
+      "sectorId": "lidingovaggen",
       "source": {
         "id": "legacy:ornberget",
         "path": "mediawiki/Örnberget.txt"
@@ -1253,6 +1341,7 @@
       "type": "trad",
       "firstAscent": "Lars Grankvist, Niklas Björnerstedt -83",
       "description": "",
+      "sectorId": "lidingovaggen",
       "source": {
         "id": "legacy:ornberget",
         "path": "mediawiki/Örnberget.txt"
@@ -1268,6 +1357,7 @@
       "type": "sport",
       "firstAscent": "",
       "description": "Gobiten sedan utsteg åt vänster.",
+      "sectorId": "lidingovaggen",
       "source": {
         "id": "legacy:ornberget",
         "path": "mediawiki/Örnberget.txt"
@@ -1283,6 +1373,7 @@
       "type": "sport",
       "firstAscent": "Johan Luhr -91",
       "description": "Omväxlande klättring först genom ett tak och sedan i en känslig dieder. Utsteg åt höger.",
+      "sectorId": "lidingovaggen",
       "source": {
         "id": "legacy:ornberget",
         "path": "mediawiki/Örnberget.txt"
@@ -1298,6 +1389,7 @@
       "type": "sport",
       "firstAscent": "",
       "description": "Starta med Gobiten. Hangla höger på takkanten och upp burn/Frisco Kid",
+      "sectorId": "lidingovaggen",
       "source": {
         "id": "legacy:ornberget",
         "path": "mediawiki/Örnberget.txt"
@@ -1313,6 +1405,7 @@
       "type": "sport",
       "firstAscent": "Johan Luhr -91",
       "description": "Klättra diagonalt vänster mot areten, följ sedan areten till toppen. Gemensam start med Burn.",
+      "sectorId": "lidingovaggen",
       "source": {
         "id": "legacy:ornberget",
         "path": "mediawiki/Örnberget.txt"
@@ -1328,6 +1421,7 @@
       "type": "sport",
       "firstAscent": "Tomas Hansson, Johan Luhr -89",
       "description": "Startar som Frisco Kid men går in till höger på väggen efter tredje bulten.",
+      "sectorId": "lidingovaggen",
       "source": {
         "id": "legacy:ornberget",
         "path": "mediawiki/Örnberget.txt"
@@ -1343,6 +1437,7 @@
       "type": "sport",
       "firstAscent": "Johan Luhr -87",
       "description": "Samma insteg som Burn sedan höger.",
+      "sectorId": "lidingovaggen",
       "source": {
         "id": "legacy:ornberget",
         "path": "mediawiki/Örnberget.txt"
@@ -1358,6 +1453,7 @@
       "type": "mix",
       "firstAscent": "Anders Lundahl, Eva Selin -82",
       "description": "",
+      "sectorId": "lidingovaggen",
       "source": {
         "id": "legacy:ornberget",
         "path": "mediawiki/Örnberget.txt"
@@ -1373,6 +1469,7 @@
       "type": "sport",
       "firstAscent": "Eva Selin -86",
       "description": "",
+      "sectorId": "lidingovaggen",
       "source": {
         "id": "legacy:ornberget",
         "path": "mediawiki/Örnberget.txt"
@@ -1388,6 +1485,7 @@
       "type": "sport",
       "firstAscent": "Johan Luhr -87",
       "description": "",
+      "sectorId": "lidingovaggen",
       "source": {
         "id": "legacy:ornberget",
         "path": "mediawiki/Örnberget.txt"
@@ -1403,6 +1501,7 @@
       "type": "sport",
       "firstAscent": "Anders Lundahl -86",
       "description": "",
+      "sectorId": "lidingovaggen",
       "source": {
         "id": "legacy:ornberget",
         "path": "mediawiki/Örnberget.txt"
@@ -1418,6 +1517,7 @@
       "type": "instegsvariant",
       "firstAscent": "Johan Luhr -09",
       "description": "",
+      "sectorId": "lidingovaggen",
       "source": {
         "id": "legacy:ornberget",
         "path": "mediawiki/Örnberget.txt"
@@ -1433,6 +1533,7 @@
       "type": "sport",
       "firstAscent": "Johan Luhr -09",
       "description": "",
+      "sectorId": "lidingovaggen",
       "source": {
         "id": "legacy:ornberget",
         "path": "mediawiki/Örnberget.txt"
@@ -1443,27 +1544,32 @@
     {
       "filename": "Örnberget.jpg",
       "caption": "Sydväggen, Örnberget",
-      "missing": false
+      "missing": false,
+      "sectorId": null
     },
     {
       "filename": "Örnberget_1.jpg",
-      "caption": "450px",
-      "missing": false
+      "caption": "",
+      "missing": false,
+      "sectorId": "vastvaggen"
     },
     {
       "filename": "Örnberget001.jpg",
       "caption": "Jonas Ahlman",
-      "missing": false
+      "missing": false,
+      "sectorId": "sydvaggen"
     },
     {
       "filename": "Örnberget_2.png",
-      "caption": "720px",
-      "missing": false
+      "caption": "",
+      "missing": false,
+      "sectorId": "sydvaggen"
     },
     {
       "filename": "Ornberget_Hugo_vers2.png",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "lidingovaggen"
     }
   ],
   "access": {

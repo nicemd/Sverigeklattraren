@@ -32,6 +32,16 @@
       "body": "Ta Dag Hammarskjölds väg söderut från Uppsala centrum och vid trafikljuset vid Ulleråker sväng av till höger på Vårdsätravägen. Forsätt några kilometer fram till en avtagsväg skyltad mot Hammarskog och tag av där över bron. Parkering finns runt hörnet till vänster. Gå sedan 10 minuter norrut på stigen genom Hågadalen, och missa inte klippan en liten bit in i skogen. Det går även bra att ta stadsbusslinje 18, till \"Lurbo bro\", vilket tar ca 12 min från stora torget."
     },
     {
+      "id": "access",
+      "title": "Access",
+      "body": ""
+    },
+    {
+      "id": "rekommenderade-leder",
+      "title": "Rekommenderade leder",
+      "body": ""
+    },
+    {
       "id": "leder",
       "title": "Leder",
       "body": ". Foto: Mark Harris ]] Listade från vänster till höger om man står nedanför klippan. Sparsmakad lista - lägg gärna till fler!"
@@ -58,6 +68,7 @@
       "type": "sport",
       "firstAscent": "Joakim Neander och Mats Olsson 1982",
       "description": "",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:predikstolen",
         "path": "mediawiki/Predikstolen.txt"
@@ -73,6 +84,7 @@
       "type": "trad",
       "firstAscent": "Mats Höglind 1988",
       "description": "",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:predikstolen",
         "path": "mediawiki/Predikstolen.txt"
@@ -88,6 +100,7 @@
       "type": "sport",
       "firstAscent": "Rickard Hedman 1991",
       "description": "",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:predikstolen",
         "path": "mediawiki/Predikstolen.txt"
@@ -103,6 +116,7 @@
       "type": "mix",
       "firstAscent": "Mats Höglind 1989",
       "description": "",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:predikstolen",
         "path": "mediawiki/Predikstolen.txt"
@@ -118,6 +132,7 @@
       "type": "mix",
       "firstAscent": "Rick McGregor 1979",
       "description": "",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:predikstolen",
         "path": "mediawiki/Predikstolen.txt"
@@ -133,6 +148,7 @@
       "type": "trad",
       "firstAscent": "Rickard Hedman 1991",
       "description": "",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:predikstolen",
         "path": "mediawiki/Predikstolen.txt"
@@ -148,6 +164,7 @@
       "type": "trad",
       "firstAscent": "Rick McGregor 1979",
       "description": "",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:predikstolen",
         "path": "mediawiki/Predikstolen.txt"
@@ -163,6 +180,7 @@
       "type": "trad",
       "firstAscent": "Åke Danielsson 1984",
       "description": "",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:predikstolen",
         "path": "mediawiki/Predikstolen.txt"
@@ -178,6 +196,7 @@
       "type": "trad",
       "firstAscent": "Joakim Neander och Mats Olsson 1982",
       "description": "",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:predikstolen",
         "path": "mediawiki/Predikstolen.txt"
@@ -188,7 +207,8 @@
     {
       "filename": "Predikstolen_vanster_small.jpg",
       "caption": "Vänstra sidan av Predikstolen",
-      "missing": false
+      "missing": false,
+      "sectorId": "leder"
     }
   ],
   "access": {

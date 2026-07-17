@@ -45,6 +45,7 @@
       "type": "",
       "firstAscent": "Rikard Hedman",
       "description": "Väggklättra direkt höger om startsprickan upp till hylla, sedan hård sträckning genom överhäng",
+      "sectorId": "vagbeskrivning",
       "source": {
         "id": "legacy:skalberget",
         "path": "mediawiki/Skålberget.txt"
@@ -60,6 +61,7 @@
       "type": "",
       "firstAscent": "",
       "description": "Allt utom 2 meter gjort, borde gå med bra stick och fingerstyrka",
+      "sectorId": "vagbeskrivning",
       "source": {
         "id": "legacy:skalberget",
         "path": "mediawiki/Skålberget.txt"
@@ -75,6 +77,7 @@
       "type": "",
       "firstAscent": "Rikard Hedman, Per Calleberg -90",
       "description": "Finns på bild i SF",
+      "sectorId": "vagbeskrivning",
       "source": {
         "id": "legacy:skalberget",
         "path": "mediawiki/Skålberget.txt"
@@ -90,6 +93,7 @@
       "type": "",
       "firstAscent": "Rikard Hedman",
       "description": "Grenar ut höger från Skål",
+      "sectorId": "vagbeskrivning",
       "source": {
         "id": "legacy:skalberget",
         "path": "mediawiki/Skålberget.txt"
@@ -105,6 +109,7 @@
       "type": "",
       "firstAscent": "Rikard Hedman",
       "description": "Halva trapper sedan upp",
+      "sectorId": "vagbeskrivning",
       "source": {
         "id": "legacy:skalberget",
         "path": "mediawiki/Skålberget.txt"
@@ -120,6 +125,7 @@
       "type": "",
       "firstAscent": "Rikard Hedman, Per Calleberg, -90",
       "description": "Uppför rampen",
+      "sectorId": "vagbeskrivning",
       "source": {
         "id": "legacy:skalberget",
         "path": "mediawiki/Skålberget.txt"
@@ -135,6 +141,7 @@
       "type": "",
       "firstAscent": "Rikard Hedman, Per Calleberg -90",
       "description": "Eget kan behövas i startsprickan",
+      "sectorId": "vagbeskrivning",
       "source": {
         "id": "legacy:skalberget",
         "path": "mediawiki/Skålberget.txt"
@@ -150,6 +157,7 @@
       "type": "",
       "firstAscent": "Rikard Hedman",
       "description": "",
+      "sectorId": "vagbeskrivning",
       "source": {
         "id": "legacy:skalberget",
         "path": "mediawiki/Skålberget.txt"
@@ -165,6 +173,7 @@
       "type": "",
       "firstAscent": "Rikard Hedman",
       "description": "Tunn spricka med pitong, resten bultat",
+      "sectorId": "vagbeskrivning",
       "source": {
         "id": "legacy:skalberget",
         "path": "mediawiki/Skålberget.txt"
@@ -180,6 +189,7 @@
       "type": "",
       "firstAscent": "Rikard Hedman",
       "description": "Samma start sedan höger, saknar nog hängare",
+      "sectorId": "vagbeskrivning",
       "source": {
         "id": "legacy:skalberget",
         "path": "mediawiki/Skålberget.txt"
@@ -195,6 +205,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "Naturligt säkrad",
+      "sectorId": "vagbeskrivning",
       "source": {
         "id": "legacy:skalberget",
         "path": "mediawiki/Skålberget.txt"
@@ -210,6 +221,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "Naturligt säkrad",
+      "sectorId": "vagbeskrivning",
       "source": {
         "id": "legacy:skalberget",
         "path": "mediawiki/Skålberget.txt"
@@ -225,6 +237,7 @@
       "type": "",
       "firstAscent": "Rikard Hedman, Per Calleberg -90",
       "description": "Kort bultad",
+      "sectorId": "vagbeskrivning",
       "source": {
         "id": "legacy:skalberget",
         "path": "mediawiki/Skålberget.txt"
@@ -234,18 +247,21 @@
   "images": [
     {
       "filename": "Skålberget1.jpg",
-      "caption": "300px",
-      "missing": false
+      "caption": "",
+      "missing": false,
+      "sectorId": "ovrigt"
     },
     {
       "filename": "Skålberget2.jpg",
-      "caption": "300px",
-      "missing": false
+      "caption": "",
+      "missing": false,
+      "sectorId": "ovrigt"
     },
     {
       "filename": "Sk%C3%A5lberget.jpg",
       "caption": "Åland har inte bara bouldering: Rikard Hedman gör förstabestigningen av \"Skål och välkommen\" (7), Skålberget, Åland. Foto: Per Calleberg",
-      "missing": true
+      "missing": true,
+      "sectorId": "ovrigt"
     }
   ],
   "access": {

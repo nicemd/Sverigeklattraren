@@ -33,6 +33,11 @@
       "body": "titel=Runsa lat=17824670 long=59569140 Kör skyltade vägen mot Runsa, ca 6km. Parkera vid parkeringen efter allén. Följ grusvägen ca 400m till skylt Runsaborg. Följ stigen förbi skeppssättningen upp på fornborgen. Fortsätt över fornborgen och gå ner på andra sidan. Följ stigen ner mot vattnet. Klippan ligger på udden."
     },
     {
+      "id": "leder",
+      "title": "Leder",
+      "body": ""
+    },
+    {
       "id": "huvudvaggen",
       "title": "Huvudväggen",
       "body": "Längst tv ligger en kort brant vägg med ett tydligt flak. 10m h om flaket ligger en tydlig dieder, Dubbeldiedret."
@@ -59,6 +64,7 @@
       "type": "mix",
       "firstAscent": "Kenth Lindström -7?",
       "description": "Mindre seriös sedan den fått en bult på det tidigare osäkrade kruxet. Firningsankare.",
+      "sectorId": "huvudvaggen",
       "source": {
         "id": "legacy:runsa",
         "path": "mediawiki/Runsa.txt"
@@ -74,6 +80,7 @@
       "type": "mix",
       "firstAscent": "Lars Grankvist -88",
       "description": "",
+      "sectorId": "huvudvaggen",
       "source": {
         "id": "legacy:runsa",
         "path": "mediawiki/Runsa.txt"
@@ -89,6 +96,7 @@
       "type": "mix",
       "firstAscent": "Lars Grankvist -85",
       "description": "",
+      "sectorId": "huvudvaggen",
       "source": {
         "id": "legacy:runsa",
         "path": "mediawiki/Runsa.txt"
@@ -104,6 +112,7 @@
       "type": "trad",
       "firstAscent": "Hans Hellström -65",
       "description": "",
+      "sectorId": "huvudvaggen",
       "source": {
         "id": "legacy:runsa",
         "path": "mediawiki/Runsa.txt"
@@ -119,6 +128,7 @@
       "type": "mix",
       "firstAscent": "Lars Grankvist, Hans Hellström -88",
       "description": "",
+      "sectorId": "huvudvaggen",
       "source": {
         "id": "legacy:runsa",
         "path": "mediawiki/Runsa.txt"
@@ -134,6 +144,7 @@
       "type": "mix",
       "firstAscent": "Lars Grankvist -89",
       "description": "",
+      "sectorId": "huvudvaggen",
       "source": {
         "id": "legacy:runsa",
         "path": "mediawiki/Runsa.txt"
@@ -149,6 +160,7 @@
       "type": "trad",
       "firstAscent": "Daniel Bidner, Svan Fohlin -83",
       "description": "",
+      "sectorId": "huvudvaggen",
       "source": {
         "id": "legacy:runsa",
         "path": "mediawiki/Runsa.txt"
@@ -164,6 +176,7 @@
       "type": "Aid",
       "firstAscent": "ground up.Henrik L, Gustav P -09",
       "description": "",
+      "sectorId": "huvudvaggen",
       "source": {
         "id": "legacy:runsa",
         "path": "mediawiki/Runsa.txt"
@@ -179,6 +192,7 @@
       "type": "Aid",
       "firstAscent": "Henrik L, -10",
       "description": "",
+      "sectorId": "huvudvaggen",
       "source": {
         "id": "legacy:runsa",
         "path": "mediawiki/Runsa.txt"
@@ -194,6 +208,7 @@
       "type": "sport",
       "firstAscent": "Lars Grankvist -84",
       "description": "På utsteget finns två bultar som tillåter att man riggar toppankare, och ovanför leden på väggen vid den stora hyllan finns ett firningsankare till vilket man kan gå osäkrad.",
+      "sectorId": "huvudvaggen",
       "source": {
         "id": "legacy:runsa",
         "path": "mediawiki/Runsa.txt"
@@ -209,6 +224,7 @@
       "type": "mix",
       "firstAscent": "Henrik Bolander -91",
       "description": "",
+      "sectorId": "huvudvaggen",
       "source": {
         "id": "legacy:runsa",
         "path": "mediawiki/Runsa.txt"
@@ -224,6 +240,7 @@
       "type": "trad",
       "firstAscent": "Hans Hellström -65, ff:Christer Åstrand -78",
       "description": "Vampyren är en av Stockholms finare leder i sin svårighetsgrad. Brant, tung att leda och med varierande klättring (spricka, brevlådor, jam, layback m.m). I den övre delen bor en liten fladdermus i sprickan som med sina gälla pip kan öka adrenalinproduktionen (man vill ju inte stoppa in handen alltför långt om man inte är stelkrampsvaccinerad!). Leden är välsäkrad med mellanstora kilar och kammar men tyvärr finns ett och annat suspekt block (precis som på Ricks crack). Genom åren har det ramlat ut både mindre och större saker.",
+      "sectorId": "huvudvaggen",
       "source": {
         "id": "legacy:runsa",
         "path": "mediawiki/Runsa.txt"
@@ -239,6 +256,7 @@
       "type": "mix",
       "firstAscent": "Johan Luhr, Rikard Hedman -89",
       "description": "",
+      "sectorId": "huvudvaggen",
       "source": {
         "id": "legacy:runsa",
         "path": "mediawiki/Runsa.txt"
@@ -254,6 +272,7 @@
       "type": "trad",
       "firstAscent": "Daniel Bidner -84",
       "description": "Starta i Vampyren och traversera sen ut åt höger och tillbaks igen.",
+      "sectorId": "huvudvaggen",
       "source": {
         "id": "legacy:runsa",
         "path": "mediawiki/Runsa.txt"
@@ -269,6 +288,7 @@
       "type": "trad",
       "firstAscent": "-7?",
       "description": "",
+      "sectorId": "huvudvaggen",
       "source": {
         "id": "legacy:runsa",
         "path": "mediawiki/Runsa.txt"
@@ -284,6 +304,7 @@
       "type": "mix",
       "firstAscent": "Lars Grankvist -85",
       "description": "Synnerligen vacker, brant och vass klättring i en fin spricka. Avslutas med ett tunt väggparti. Bultarna bytta 2013.",
+      "sectorId": "huvudvaggen",
       "source": {
         "id": "legacy:runsa",
         "path": "mediawiki/Runsa.txt"
@@ -299,6 +320,7 @@
       "type": "trad",
       "firstAscent": "Rick McGregor -79",
       "description": "",
+      "sectorId": "huvudvaggen",
       "source": {
         "id": "legacy:runsa",
         "path": "mediawiki/Runsa.txt"
@@ -314,6 +336,7 @@
       "type": "mix",
       "firstAscent": "Lars Grankvist, Niklas Björnerstedt -86",
       "description": "",
+      "sectorId": "huvudvaggen",
       "source": {
         "id": "legacy:runsa",
         "path": "mediawiki/Runsa.txt"
@@ -329,6 +352,7 @@
       "type": "mix",
       "firstAscent": "Johan Luhr, Rikard Hedman -89",
       "description": "",
+      "sectorId": "huvudvaggen",
       "source": {
         "id": "legacy:runsa",
         "path": "mediawiki/Runsa.txt"
@@ -344,6 +368,7 @@
       "type": "trad",
       "firstAscent": "Mats Almlöf -87",
       "description": "",
+      "sectorId": "flugvaggen",
       "source": {
         "id": "legacy:runsa",
         "path": "mediawiki/Runsa.txt"
@@ -359,6 +384,7 @@
       "type": "mix",
       "firstAscent": "Åke Danielsson, Erik Grund -79",
       "description": "",
+      "sectorId": "flugvaggen",
       "source": {
         "id": "legacy:runsa",
         "path": "mediawiki/Runsa.txt"
@@ -374,6 +400,7 @@
       "type": "trad",
       "firstAscent": "Daniel Bidner, Stefan Kallin -83",
       "description": "",
+      "sectorId": "flugvaggen",
       "source": {
         "id": "legacy:runsa",
         "path": "mediawiki/Runsa.txt"
@@ -389,6 +416,7 @@
       "type": "trad",
       "firstAscent": "Hans Hellström -65 ff:Christer Åstrand, Riley Moss 78",
       "description": "",
+      "sectorId": "flugvaggen",
       "source": {
         "id": "legacy:runsa",
         "path": "mediawiki/Runsa.txt"
@@ -404,6 +432,7 @@
       "type": "mix",
       "firstAscent": "Lars Grankvist -89",
       "description": "",
+      "sectorId": "flugvaggen",
       "source": {
         "id": "legacy:runsa",
         "path": "mediawiki/Runsa.txt"
@@ -419,6 +448,7 @@
       "type": "sport",
       "firstAscent": "Lars Grankvist, Niklas Björnerstedt -86",
       "description": "",
+      "sectorId": "flugvaggen",
       "source": {
         "id": "legacy:runsa",
         "path": "mediawiki/Runsa.txt"
@@ -434,6 +464,7 @@
       "type": "trad",
       "firstAscent": "Nils Sjöström -81",
       "description": "",
+      "sectorId": "flugvaggen",
       "source": {
         "id": "legacy:runsa",
         "path": "mediawiki/Runsa.txt"
@@ -449,6 +480,7 @@
       "type": "solo",
       "firstAscent": "Lars Grankvist -87",
       "description": "",
+      "sectorId": "skeppssattningen",
       "source": {
         "id": "legacy:runsa",
         "path": "mediawiki/Runsa.txt"
@@ -464,6 +496,7 @@
       "type": "trad",
       "firstAscent": "Niklas Björnerstedt -87",
       "description": "",
+      "sectorId": "skeppssattningen",
       "source": {
         "id": "legacy:runsa",
         "path": "mediawiki/Runsa.txt"
@@ -479,6 +512,7 @@
       "type": "trad",
       "firstAscent": "Christer Åstrand, Kenth Lindström, Niklas Björnerstedt -86",
       "description": "",
+      "sectorId": "skeppssattningen",
       "source": {
         "id": "legacy:runsa",
         "path": "mediawiki/Runsa.txt"
@@ -494,6 +528,7 @@
       "type": "trad",
       "firstAscent": "Niklas Björnerstedt -86",
       "description": "",
+      "sectorId": "skeppssattningen",
       "source": {
         "id": "legacy:runsa",
         "path": "mediawiki/Runsa.txt"
@@ -503,23 +538,27 @@
   "images": [
     {
       "filename": "Runsa_karta.png",
-      "caption": "right",
-      "missing": false
+      "caption": "",
+      "missing": false,
+      "sectorId": null
     },
     {
       "filename": "Runsa_stor.png",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "leder"
     },
     {
       "filename": "Runsa.jpg",
       "caption": "namn=Vampyren}}, 6-",
-      "missing": false
+      "missing": false,
+      "sectorId": "huvudvaggen"
     },
     {
       "filename": "Runsa_flugvaggen.png",
       "caption": "",
-      "missing": false
+      "missing": false,
+      "sectorId": "flugvaggen"
     }
   ],
   "access": {

@@ -25,6 +25,11 @@
       "body": "Leder i grottan, som kallas Helleren, finns på Headwall och Steepstone. ]] ]]"
     },
     {
+      "id": "leder",
+      "title": "Leder",
+      "body": ""
+    },
+    {
       "id": "hanshelleren",
       "title": "Hanshelleren",
       "body": "Den stora grottan och väggen till vänster om den. Cirka 100 m hög vägg som hänger över 4-40m."
@@ -38,6 +43,11 @@
       "id": "dalen-midtre-del",
       "title": "Dalen, Midtre del",
       "body": "Ta gärna med lite större säkringar. Flera av lederna är ganska grova sprickor"
+    },
+    {
+      "id": "dalen-ovre-del",
+      "title": "Dalen, Övre del",
+      "body": ""
     },
     {
       "id": "oppvarmningsveggen",
@@ -56,6 +66,7 @@
       "type": "trad",
       "firstAscent": "Vegard Fluge Samuelsen, Övind Amundsgård -96",
       "description": "Spricka/dieder. Startar i vänstra diedret och går sen in i huvuddiedret.",
+      "sectorId": "hanshelleren",
       "source": {
         "id": "legacy:flatanger",
         "path": "mediawiki/Flatanger.txt"
@@ -71,6 +82,7 @@
       "type": "trad",
       "firstAscent": "Thomas Vekve, Erik Alde -96",
       "description": "Gemensam start med Trang födsel. Viker av mot höger mitt på första replängden.",
+      "sectorId": "hanshelleren",
       "source": {
         "id": "legacy:flatanger",
         "path": "mediawiki/Flatanger.txt"
@@ -86,6 +98,7 @@
       "type": "sport",
       "firstAscent": "Eivind W Nagell -00",
       "description": "Till vänster om det stora taket.",
+      "sectorId": "hanshelleren",
       "source": {
         "id": "legacy:flatanger",
         "path": "mediawiki/Flatanger.txt"
@@ -101,6 +114,7 @@
       "type": "sport",
       "firstAscent": "",
       "description": "Ny led till höger om Tungt möblement?",
+      "sectorId": "hanshelleren",
       "source": {
         "id": "legacy:flatanger",
         "path": "mediawiki/Flatanger.txt"
@@ -116,6 +130,7 @@
       "type": "trad",
       "firstAscent": "",
       "description": "Spricka genom tak.",
+      "sectorId": "hanshelleren",
       "source": {
         "id": "legacy:flatanger",
         "path": "mediawiki/Flatanger.txt"
@@ -131,6 +146,7 @@
       "type": "sport",
       "firstAscent": "Thomas Vekve -99",
       "description": "Slutar vid ankaret mitt i Bondeanger.",
+      "sectorId": "hanshelleren",
       "source": {
         "id": "legacy:flatanger",
         "path": "mediawiki/Flatanger.txt"
@@ -146,6 +162,7 @@
       "type": "sport",
       "firstAscent": "Thomas Vekve -99",
       "description": "Gemensam start med Kykkeli. Traverserar vänster till ankaret på Kneopatra och fortsätt rakt uppåt till nästa ankare.",
+      "sectorId": "hanshelleren",
       "source": {
         "id": "legacy:flatanger",
         "path": "mediawiki/Flatanger.txt"
@@ -161,6 +178,7 @@
       "type": "sport",
       "firstAscent": "Pål Benum Reiten, Thomas Vekve -96",
       "description": "Tydlig spricka som slutar just under ett tak.",
+      "sectorId": "hanshelleren",
       "source": {
         "id": "legacy:flatanger",
         "path": "mediawiki/Flatanger.txt"
@@ -176,6 +194,7 @@
       "type": "sport",
       "firstAscent": "Pål Benum Reiten, Thomas Vekve -96",
       "description": "Förlängning av Kykkeli.",
+      "sectorId": "hanshelleren",
       "source": {
         "id": "legacy:flatanger",
         "path": "mediawiki/Flatanger.txt"
@@ -191,6 +210,7 @@
       "type": "sport",
       "firstAscent": "Pål Benum Reiten -97",
       "description": "",
+      "sectorId": "hanshelleren",
       "source": {
         "id": "legacy:flatanger",
         "path": "mediawiki/Flatanger.txt"
@@ -206,6 +226,7 @@
       "type": "trad",
       "firstAscent": "Pål Benum Reiten -97",
       "description": "Tydlig spricka och dieder.",
+      "sectorId": "hanshelleren",
       "source": {
         "id": "legacy:flatanger",
         "path": "mediawiki/Flatanger.txt"
@@ -221,6 +242,7 @@
       "type": "sport",
       "firstAscent": "Thomas Vekve -01",
       "description": "",
+      "sectorId": "hanshelleren",
       "source": {
         "id": "legacy:flatanger",
         "path": "mediawiki/Flatanger.txt"
@@ -236,6 +258,7 @@
       "type": "sport",
       "firstAscent": "Erik Massih 2006",
       "description": "",
+      "sectorId": "hanshelleren",
       "source": {
         "id": "legacy:flatanger",
         "path": "mediawiki/Flatanger.txt"
@@ -251,6 +274,7 @@
       "type": "sport",
       "firstAscent": "Erik Massih 2006",
       "description": "",
+      "sectorId": "hanshelleren",
       "source": {
         "id": "legacy:flatanger",
         "path": "mediawiki/Flatanger.txt"
@@ -266,6 +290,7 @@
       "type": "sport",
       "firstAscent": "Oscar H Berntsen -01",
       "description": "Upp till första ankaret.",
+      "sectorId": "hanshelleren",
       "source": {
         "id": "legacy:flatanger",
         "path": "mediawiki/Flatanger.txt"
@@ -281,6 +306,7 @@
       "type": "sport",
       "firstAscent": "Oscar H Berntsen -03",
       "description": "Förlängning av Hoevdegjengen.",
+      "sectorId": "hanshelleren",
       "source": {
         "id": "legacy:flatanger",
         "path": "mediawiki/Flatanger.txt"
@@ -296,6 +322,7 @@
       "type": "sport",
       "firstAscent": "Pål Benum Reiten -99",
       "description": "Brant diederformation.",
+      "sectorId": "hanshelleren",
       "source": {
         "id": "legacy:flatanger",
         "path": "mediawiki/Flatanger.txt"
@@ -311,6 +338,7 @@
       "type": "sport",
       "firstAscent": "Thomas Vekve, Gisle Andersen -00",
       "description": "",
+      "sectorId": "hanshelleren",
       "source": {
         "id": "legacy:flatanger",
         "path": "mediawiki/Flatanger.txt"
@@ -326,6 +354,7 @@
       "type": "sport",
       "firstAscent": "",
       "description": "Hårt, brant och långt!",
+      "sectorId": "hanshelleren",
       "source": {
         "id": "legacy:flatanger",
         "path": "mediawiki/Flatanger.txt"
@@ -341,6 +370,7 @@
       "type": "trad",
       "firstAscent": "Pål Benum Reiten -95",
       "description": "Traverserar ut åt höger och delar ankare med Flaggermusmannen.",
+      "sectorId": "hanshelleren",
       "source": {
         "id": "legacy:flatanger",
         "path": "mediawiki/Flatanger.txt"
@@ -356,6 +386,7 @@
       "type": "sport",
       "firstAscent": "Pål Benum Reiten -96",
       "description": "Stick-clip första bulten och dra dig upp till den. Leden startar från första bult.",
+      "sectorId": "hanshelleren",
       "source": {
         "id": "legacy:flatanger",
         "path": "mediawiki/Flatanger.txt"
@@ -371,6 +402,7 @@
       "type": "trad",
       "firstAscent": "Erik Alde, Magnhild S Hatlöy -96",
       "description": "Kamin",
+      "sectorId": "dalen-midtre-del",
       "source": {
         "id": "legacy:flatanger",
         "path": "mediawiki/Flatanger.txt"
@@ -386,6 +418,7 @@
       "type": "trad",
       "firstAscent": "Pål Benum Reiten, Erik Alde -96",
       "description": "Tydlig spricka.",
+      "sectorId": "dalen-midtre-del",
       "source": {
         "id": "legacy:flatanger",
         "path": "mediawiki/Flatanger.txt"
@@ -401,6 +434,7 @@
       "type": "trad",
       "firstAscent": "Pål Benum Reiten, Thomas Vekve -96",
       "description": "Zick-zack längs arete'.",
+      "sectorId": "dalen-midtre-del",
       "source": {
         "id": "legacy:flatanger",
         "path": "mediawiki/Flatanger.txt"
@@ -416,6 +450,7 @@
       "type": "trad",
       "firstAscent": "Erik Alde -96",
       "description": "Dieder i början.",
+      "sectorId": "dalen-midtre-del",
       "source": {
         "id": "legacy:flatanger",
         "path": "mediawiki/Flatanger.txt"
@@ -431,6 +466,7 @@
       "type": "trad",
       "firstAscent": "Erik Alde -96",
       "description": "Diederformationer.",
+      "sectorId": "dalen-midtre-del",
       "source": {
         "id": "legacy:flatanger",
         "path": "mediawiki/Flatanger.txt"
@@ -446,6 +482,7 @@
       "type": "trad",
       "firstAscent": "Thomas Vekve, Pål Benum Reiten -97",
       "description": "Dieder till tak. Passera taket.",
+      "sectorId": "dalen-midtre-del",
       "source": {
         "id": "legacy:flatanger",
         "path": "mediawiki/Flatanger.txt"
@@ -461,6 +498,7 @@
       "type": "trad",
       "firstAscent": "Pål Benum Reiten -97",
       "description": "Tydlig spricka som brantar på mot slutet.",
+      "sectorId": "dalen-midtre-del",
       "source": {
         "id": "legacy:flatanger",
         "path": "mediawiki/Flatanger.txt"
@@ -476,6 +514,7 @@
       "type": "trad",
       "firstAscent": "? -?",
       "description": "Tydlig spricka.",
+      "sectorId": "dalen-midtre-del",
       "source": {
         "id": "legacy:flatanger",
         "path": "mediawiki/Flatanger.txt"
@@ -491,6 +530,7 @@
       "type": "trad",
       "firstAscent": "Anders Kringstad -97",
       "description": "Tydlig spricka. Flack start.",
+      "sectorId": "dalen-midtre-del",
       "source": {
         "id": "legacy:flatanger",
         "path": "mediawiki/Flatanger.txt"
@@ -506,6 +546,7 @@
       "type": "tradFALSKT",
       "firstAscent": "Lars Andun Nornes, Thomas Vekve -97",
       "description": "",
+      "sectorId": "dalen-ovre-del",
       "source": {
         "id": "legacy:flatanger",
         "path": "mediawiki/Flatanger.txt"
@@ -521,6 +562,7 @@
       "type": "trad",
       "firstAscent": "Thomas Vekve, Pål Benum Reiten -97",
       "description": "Brant väggklättring och spricka.",
+      "sectorId": "dalen-ovre-del",
       "source": {
         "id": "legacy:flatanger",
         "path": "mediawiki/Flatanger.txt"
@@ -536,6 +578,7 @@
       "type": "trad",
       "firstAscent": "Thomas Vekve, Lars Andun Nornes -99",
       "description": "Brant diederformation förbi två tak.",
+      "sectorId": "dalen-ovre-del",
       "source": {
         "id": "legacy:flatanger",
         "path": "mediawiki/Flatanger.txt"
@@ -551,6 +594,7 @@
       "type": "trad",
       "firstAscent": "Vegard Fluge Samuelsen, Öyvind Amundsgård -97",
       "description": "Brant spricka och sedan en lätt dieder.",
+      "sectorId": "dalen-ovre-del",
       "source": {
         "id": "legacy:flatanger",
         "path": "mediawiki/Flatanger.txt"
@@ -566,6 +610,7 @@
       "type": "trad",
       "firstAscent": "Vegard Fluge Samuelsen, Öyvind Amundsgård -97",
       "description": "Spricka.",
+      "sectorId": "dalen-ovre-del",
       "source": {
         "id": "legacy:flatanger",
         "path": "mediawiki/Flatanger.txt"
@@ -581,6 +626,7 @@
       "type": "trad",
       "firstAscent": "Thomas Vekve, Pål Benum Reiten -97",
       "description": "Vänster sida av Brattsvaet.",
+      "sectorId": "dalen-ovre-del",
       "source": {
         "id": "legacy:flatanger",
         "path": "mediawiki/Flatanger.txt"
@@ -596,6 +642,7 @@
       "type": "trad",
       "firstAscent": "Eivind W Nagell, Anders Kringstad -00",
       "description": "Höger sida av Brattsvaet.",
+      "sectorId": "dalen-ovre-del",
       "source": {
         "id": "legacy:flatanger",
         "path": "mediawiki/Flatanger.txt"
@@ -611,6 +658,7 @@
       "type": "trad",
       "firstAscent": "Pål Benum Reiten, E. Sönstebö -97",
       "description": "Gemensam start med Frivillig tvang och Gresk krydder. Viker av åt vänster.",
+      "sectorId": "dalen-ovre-del",
       "source": {
         "id": "legacy:flatanger",
         "path": "mediawiki/Flatanger.txt"
@@ -626,6 +674,7 @@
       "type": "trad",
       "firstAscent": "Pål Benum Reiten, Thomas Vekve -97",
       "description": "Går rakt upp.",
+      "sectorId": "dalen-ovre-del",
       "source": {
         "id": "legacy:flatanger",
         "path": "mediawiki/Flatanger.txt"
@@ -641,6 +690,7 @@
       "type": "trad",
       "firstAscent": "Vegard Fluge Samuelsen, Öyvind Amundsgård -97",
       "description": "Dieder. Sva i starten.",
+      "sectorId": "dalen-ovre-del",
       "source": {
         "id": "legacy:flatanger",
         "path": "mediawiki/Flatanger.txt"
@@ -656,6 +706,7 @@
       "type": "trad",
       "firstAscent": "Thomas Vekve, Pål Benum Reiten -96",
       "description": "Gemensam start och slut med Genistreken.",
+      "sectorId": "dalen-ovre-del",
       "source": {
         "id": "legacy:flatanger",
         "path": "mediawiki/Flatanger.txt"
@@ -671,6 +722,7 @@
       "type": "trad",
       "firstAscent": "Pål Benum Reiten, Thomas Vekve -96",
       "description": "Gemensam start och slut med Strekkoden.",
+      "sectorId": "dalen-ovre-del",
       "source": {
         "id": "legacy:flatanger",
         "path": "mediawiki/Flatanger.txt"
@@ -686,6 +738,7 @@
       "type": "trad",
       "firstAscent": "Vegard Fluge Samuelsen, Öyvind Amundsgård -97",
       "description": "Dieder.",
+      "sectorId": "dalen-ovre-del",
       "source": {
         "id": "legacy:flatanger",
         "path": "mediawiki/Flatanger.txt"
@@ -701,6 +754,7 @@
       "type": "trad",
       "firstAscent": "Pål Benum Reiten, Thomas Vekve -96",
       "description": "",
+      "sectorId": "dalen-ovre-del",
       "source": {
         "id": "legacy:flatanger",
         "path": "mediawiki/Flatanger.txt"
@@ -716,6 +770,7 @@
       "type": "trad",
       "firstAscent": "Thomas Vekve, Pål Benum Reiten -96",
       "description": "",
+      "sectorId": "dalen-ovre-del",
       "source": {
         "id": "legacy:flatanger",
         "path": "mediawiki/Flatanger.txt"
@@ -731,6 +786,7 @@
       "type": "trad",
       "firstAscent": "Thomas Vekve, Ragnhild Svinsås -99",
       "description": "Spricka",
+      "sectorId": "oppvarmningsveggen",
       "source": {
         "id": "legacy:flatanger",
         "path": "mediawiki/Flatanger.txt"
@@ -746,6 +802,7 @@
       "type": "trad",
       "firstAscent": "Pål Benum Reiten -98",
       "description": "Spricka",
+      "sectorId": "oppvarmningsveggen",
       "source": {
         "id": "legacy:flatanger",
         "path": "mediawiki/Flatanger.txt"
@@ -761,6 +818,7 @@
       "type": "trad",
       "firstAscent": "Thomas Vekve, Kari Torgersen -98",
       "description": "Spricka",
+      "sectorId": "oppvarmningsveggen",
       "source": {
         "id": "legacy:flatanger",
         "path": "mediawiki/Flatanger.txt"
@@ -776,6 +834,7 @@
       "type": "trad",
       "firstAscent": "Thomas Vekve, Kari Torgersen -98",
       "description": "Spricka. Svårsäkrad mot slutet.",
+      "sectorId": "oppvarmningsveggen",
       "source": {
         "id": "legacy:flatanger",
         "path": "mediawiki/Flatanger.txt"
@@ -791,6 +850,7 @@
       "type": "trad",
       "firstAscent": "Anders Kringstad, Eivind W Nagell -99",
       "description": "",
+      "sectorId": "oppvarmningsveggen",
       "source": {
         "id": "legacy:flatanger",
         "path": "mediawiki/Flatanger.txt"
@@ -806,6 +866,7 @@
       "type": "trad",
       "firstAscent": "Anders Kringstad, Eivind W Nagell -99",
       "description": "Mossig spricka.",
+      "sectorId": "oppvarmningsveggen",
       "source": {
         "id": "legacy:flatanger",
         "path": "mediawiki/Flatanger.txt"
@@ -821,6 +882,7 @@
       "type": "sport",
       "firstAscent": "Thomas Vekve -00",
       "description": "",
+      "sectorId": "oppvarmningsveggen",
       "source": {
         "id": "legacy:flatanger",
         "path": "mediawiki/Flatanger.txt"
@@ -836,6 +898,7 @@
       "type": "sport",
       "firstAscent": "Thomas Vekve -00",
       "description": "",
+      "sectorId": "oppvarmningsveggen",
       "source": {
         "id": "legacy:flatanger",
         "path": "mediawiki/Flatanger.txt"
@@ -846,12 +909,14 @@
     {
       "filename": "IMG_0845.jpg",
       "caption": "Jan Lundström",
-      "missing": false
+      "missing": false,
+      "sectorId": "ovrigt"
     },
     {
       "filename": "IMG_0889.jpg",
       "caption": "Jan Lundström",
-      "missing": false
+      "missing": false,
+      "sectorId": "ovrigt"
     }
   ],
   "access": {

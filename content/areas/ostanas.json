@@ -38,6 +38,11 @@
       "body": "Än så länge endast ett fåtal problem gjorda. Finns block och väggar till betydligt mer även om antalet block inte är så stort."
     },
     {
+      "id": "stora-stygga-taket",
+      "title": "Stora stygga taket",
+      "body": ""
+    },
+    {
       "id": "joker-blocket",
       "title": "Joker-blocket",
       "body": "Uppkallat efter första problemet som skapades på det. Håller lite enklare problem som fungerar utmärkt som uppvärmning. Räknas upp från vänster till höger. Blocket ligger direkt till vänster om lättidentifierade kalhyggeareten"
@@ -59,6 +64,7 @@
       "type": "trad",
       "firstAscent": "Martin Ström Götenstedt (Sören Danielsson) 120530",
       "description": "Estetisk linje som följer en tydlig och välsäkrad spricklinje i en C-båge upp längs ett sva och ut genom ett tak. Placerat ungefär mitt på klippsektionen 30 meter snett upp till vänster i terrängen från tydliga boulderblocken vid kalhygget. Starten är lös, uppbruten och inget vidare. Blir riktigt fin när det blir vertikalt för att verkligen blomma ut i taket där man också hittar kruxet. Utsteg vid enen. Svårgraderad, men taket upplevdes som såpass tungt att det förtjänar graden. Stabil onsight av viking från norr, vissa frustningar och nysningar till trots.",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:ostanas",
         "path": "mediawiki/Östanås.txt"
@@ -74,6 +80,7 @@
       "type": "trad",
       "firstAscent": "Sören Danielsson (Martin Ström Götenstedt) 120530",
       "description": "Ett direktinsteg till ovan led som gör den betydligt mer estetisk. Med denna variant börjar den fina klättringen vid start och är att föredra framför föregående led som startar 3-4 meter till höger. En tydlig och välsäkrad spricka leder dig rätt. Marginellt mer ihållande, men påverkar inte graden. Pga sidoförflyttningen (speciellt i taket) bör du vara uppmärksam på repdrag och pendel vid fall. Otränad ynglig från Fryksdalen knep FA med minimala marginaler. Hur kan så lite arm, innehålla så mycket pump?",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:ostanas",
         "path": "mediawiki/Östanås.txt"
@@ -89,6 +96,7 @@
       "type": "",
       "firstAscent": "",
       "description": "Lederna börjar 10 meter till höger om lättidentifierade \"Renskav\". Denna led endast gjord på topprep. Går över vertikala partiet som nedifrån påminner om en tvättbräda med sina många smågrepp/steg. Olika variantinsteg och utsteg finns.",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:ostanas",
         "path": "mediawiki/Östanås.txt"
@@ -104,6 +112,7 @@
       "type": "trad",
       "firstAscent": "Sören Danielsson 120602",
       "description": "Börja på stora hyllorna och dra dig sedan snett upp åt höger. Leden går på HÖGER sida om areten en bit upp. Namnet på leden skvallrar om fina grepp. Utspridda, men bra säkringar som börjar först ett par meter upp. Var uppmärksam på mossa och lösa stenar vid utsteget.",
+      "sectorId": "leder",
       "source": {
         "id": "legacy:ostanas",
         "path": "mediawiki/Östanås.txt"
@@ -119,6 +128,7 @@
       "type": "crimp, överhäng",
       "firstAscent": "Gunde Svan",
       "description": "Start på sidogrepp och undercling. Skicka sedan till kanten, etablera dig och gå sedan ut åt höger med hjälp av känsliga fotsteg. Gjordes första gången i strumplästen av barbar från storstan. orepeterad sedan förstabestigning.",
+      "sectorId": "bouldering",
       "source": {
         "id": "legacy:ostanas",
         "path": "mediawiki/Östanås.txt"
@@ -134,6 +144,7 @@
       "type": "vertikalt",
       "firstAscent": "",
       "description": "Till vänster om \"ta i och gå förbi\" finns en vertikal vägg. projektet går upp längst till vänster på denna vägg. crimpigt på ok lister upp till finfin kant. Först till kvarn",
+      "sectorId": "stora-stygga-taket",
       "source": {
         "id": "legacy:ostanas",
         "path": "mediawiki/Östanås.txt"
@@ -149,6 +160,7 @@
       "type": "tak, mantling",
       "firstAscent": "Sören Danielsson",
       "description": "Ruggigt brant 5c längst till vänster i stora stygga taket. Start i fina sprickan på nedre blocket längst in under taket. Fötter endast tillåtna på detta block och ej på de lösa stenarna runtomkring. Skicka till superbästa kanten via en pinch i taket. Mantla upp. klicka på namnet för beta i form av video",
+      "sectorId": "stora-stygga-taket",
       "source": {
         "id": "legacy:ostanas",
         "path": "mediawiki/Östanås.txt"
@@ -164,6 +176,7 @@
       "type": "tak",
       "firstAscent": "",
       "description": "Går det att göra? Överhänget är nästan 90grader tak och de få greppen stjälper nästan mer än det hjälper.",
+      "sectorId": "stora-stygga-taket",
       "source": {
         "id": "legacy:ostanas",
         "path": "mediawiki/Östanås.txt"
@@ -179,6 +192,7 @@
       "type": "tak, arete, crimp",
       "firstAscent": "",
       "description": "Småputsat projekt som istället för mitt under taket går på kanten till höger. Ser tungt ut och mr/mrs maximum-crimp-and-ultimate-body-tension-of-beyond får något att bita i.",
+      "sectorId": "stora-stygga-taket",
       "source": {
         "id": "legacy:ostanas",
         "path": "mediawiki/Östanås.txt"
@@ -194,6 +208,7 @@
       "type": "",
       "firstAscent": "",
       "description": "Enklare problem kan putsas fram till vänster på blocket.",
+      "sectorId": "joker-blocket",
       "source": {
         "id": "legacy:ostanas",
         "path": "mediawiki/Östanås.txt"
@@ -209,6 +224,7 @@
       "type": "vertikalt, arete",
       "firstAscent": "Jonas Wallmander",
       "description": "Dra dig upp till höger på blocket och följ areten. Förvånansvärt fin för sin grad och bra landning.",
+      "sectorId": "joker-blocket",
       "source": {
         "id": "legacy:ostanas",
         "path": "mediawiki/Östanås.txt"
@@ -224,6 +240,7 @@
       "type": "vertikalt, arete",
       "firstAscent": "Sören Danielsson",
       "description": "Sittstart på Joker som gör den lite hårdare.",
+      "sectorId": "joker-blocket",
       "source": {
         "id": "legacy:ostanas",
         "path": "mediawiki/Östanås.txt"
@@ -239,6 +256,7 @@
       "type": "stämklättring?",
       "firstAscent": "",
       "description": "Längst till vänster på bilden finns en inbuktning där man kan krypa in under hela blocket. Börja på areten inne under taket och försök etablera dig på obefintliga steg. Alternativa utsteg finns. Antingen på blocket till vänster eller ut mot den streckade linjen på bilden. Båda kanske kräver förmåga att gå ner i spagat för att spjärna sig fast? Verkar avigt och riktigt konstigt.",
+      "sectorId": "kalhygge-areten",
       "source": {
         "id": "legacy:ostanas",
         "path": "mediawiki/Östanås.txt"
@@ -254,6 +272,7 @@
       "type": "mantling, balans",
       "firstAscent": "Sören Danielsson",
       "description": "Börjar där \"Mama Hanna\" börjar, men går åt vänster istället för höger. Sittstart och mantling upp på svaplattan där greppen blir lurigare. Utsteg uppåt vänster. De som kan mantla gör den lätt. Övriga får spänna allt de har och hoppas på det bästa. Roligt problem. De tuffa undviker att nalla på Mama Hannas andra grepp (snäll hylla) långt ut till höger. Handen på kanten är det som gäller.",
+      "sectorId": "kalhygge-areten",
       "source": {
         "id": "legacy:ostanas",
         "path": "mediawiki/Östanås.txt"
@@ -269,6 +288,7 @@
       "type": "arete",
       "firstAscent": "Sören Danielsson",
       "description": "Oj oj oj. Fin att titta på. Ännu finare att klättra. Hög klass och självklar rekommendationen. Sittstart på bra grepp och steg. Följ sedan areten upp längst den 45-gradiga lutningen vid sidan av och in under taket. Något långa sträckningar, så tänk dynamik om du är kort eller mellanlanda på mindre saker och ökad svårighet. Placera paddorna bra om du ska köra solo. Graden oviss, repetitioner avgör. klicka på namnet för beta i form av video",
+      "sectorId": "kalhygge-areten",
       "source": {
         "id": "legacy:ostanas",
         "path": "mediawiki/Östanås.txt"
@@ -278,13 +298,15 @@
   "images": [
     {
       "filename": "Ostanas2.jpg",
-      "caption": "thumb",
-      "missing": false
+      "caption": "",
+      "missing": false,
+      "sectorId": "stora-stygga-taket"
     },
     {
       "filename": "Ostanas.jpg",
-      "caption": "thumb",
-      "missing": false
+      "caption": "",
+      "missing": false,
+      "sectorId": "kalhygge-areten"
     }
   ],
   "access": {

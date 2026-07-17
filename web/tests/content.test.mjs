@@ -39,6 +39,18 @@ test("coordinates stay inside valid WGS84 bounds", async () => {
   }
 });
 
+test("keeps route order and sector context needed to find a route at the crag", async () => {
+  const utby = JSON.parse(await readFile(path.join(contentRoot, "areas", "utby.json"), "utf8"));
+  const carlsberg = utby.routes.find((route) => route.name === "Carlsberg Export");
+  assert.ok(carlsberg, "Carlsberg Export should be searchable");
+  assert.equal(utby.sections.find((section) => section.id === carlsberg.sectorId)?.title, "Stora väggen");
+  const sectorRoutes = utby.routes.filter((route) => route.sectorId === carlsberg.sectorId);
+  const index = sectorRoutes.findIndex((route) => route.id === carlsberg.id);
+  assert.equal(sectorRoutes[index - 1]?.name, "Carlsberg direkt");
+  assert.equal(sectorRoutes[index + 1]?.name, "Urquell");
+  assert.match(utby.sections.find((section) => section.id === carlsberg.sectorId)?.body || "", /Hitta hit:/i);
+});
+
 test("replays committed auto-published proposals during a fresh import", async () => {
   const output = await mkdtemp(path.join(os.tmpdir(), "sverigeforaren-import-"));
   const proposalDir = path.join(process.cwd(), "tests", "fixtures", "proposals");
