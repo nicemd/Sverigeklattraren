@@ -197,7 +197,10 @@ a { color: inherit; }
 .route-detail-facts { align-items: center; border-bottom: 1px solid var(--line); display: flex; flex-wrap: wrap; gap: 8px; margin-top: 18px; padding-bottom: 15px; }
 .route-detail-facts strong { color: var(--forest); font-family: Georgia, serif; font-size: 28px; margin-right: 4px; }
 .route-detail-facts span { background: #e8eee8; border-radius: 999px; color: #315342; font-size: 12px; font-weight: 750; padding: 6px 9px; }
-.first-ascent, .no-beta { color: #53645d; font-size: 14px; margin: 14px 0; }
+.first-ascent { color: #53645d; font-size: 14px; margin: 14px 0; }
+.route-description { border-left: 3px solid #bfd3b7; margin: 15px 0; padding: 2px 0 2px 13px; }
+.route-description > strong { color: var(--forest); font-size: 11px; letter-spacing: .05em; text-transform: uppercase; }
+.route-description p { color: #344b41; font-size: 16px; line-height: 1.55; margin: 7px 0 2px; white-space: pre-line; }
 .beta-panel { background: #14241e; border-radius: 14px; color: white; margin: 15px 0; padding: 15px; }
 .beta-toggle { background: #f4c65f; border: 0; border-radius: 10px; color: #1d332a; cursor: pointer; font-size: 14px; font-weight: 850; padding: 11px 16px; width: 100%; }
 .beta-heading { align-items: center; display: flex; justify-content: space-between; }

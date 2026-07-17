@@ -253,7 +253,7 @@ function applyPublishedProposals(area) {
           if (route) {
             route.fieldSources ||= {};
             for (const [field, fact] of Object.entries(value.facts || {})) {
-              if (!["name", "grade", "number", "length", "type", "firstAscent", "description", "sectorId"].includes(field) || (fact !== null && typeof fact !== "string")) continue;
+              if (!["name", "grade", "number", "length", "type", "firstAscent", "description", "beta", "sectorId"].includes(field) || (fact !== null && typeof fact !== "string")) continue;
               route[field] = fact;
               route.fieldSources[field] = [...new Set([...(route.fieldSources[field] || []), sourceId])];
             }
@@ -295,6 +295,7 @@ function parseArea(filename, source, uniqueSlug) {
         type: plainText(template.args.typ || ""),
         firstAscent: plainText(template.args.fa || ""),
         description: plainText(template.args.text || ""),
+        ...(template.args.beta ? { beta: plainText(template.args.beta) } : {}),
         sectorId: sector?.id || null,
         source: { id: `legacy:${uniqueSlug}`, path: `mediawiki/${filename}` },
       };

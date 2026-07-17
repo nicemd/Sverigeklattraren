@@ -378,9 +378,10 @@ function AreaView({ area, access, globalQuery, onSuggest }: { area: Area; access
           <div className="route-detail-facts"><strong>{selectedRoute.grade || "Ograderad"}</strong><span>{selectedRoute.kind === "problem" ? "Boulderproblem" : "Klätterled"}</span>{selectedRoute.length && <span>{selectedRoute.length} m</span>}{selectedRoute.type && <span>{selectedRoute.type}</span>}</div>
           {selectedRoute.firstAscent && <p className="first-ascent">Förstebestigning: <strong>{selectedRoute.firstAscent}</strong></p>}
           {selectedRoute.extraction?.method === "llm" && <p className="extraction-note">Strukturerad med OpenAI från originalförarens löptext · konfidens {Math.round(selectedRoute.extraction.confidence * 100)} %</p>}
-          {selectedRoute.description ? <div className="beta-panel">
-            {!showBeta ? <button type="button" className="beta-toggle" onClick={() => setShowBeta(true)}>Visa beta</button> : <><div className="beta-heading"><strong>Beta från originalföraren</strong><button type="button" onClick={() => setShowBeta(false)}>Dölj beta</button></div><p><RichText text={selectedRoute.description} /></p></>}
-          </div> : <p className="no-beta">Originalföraren innehåller ingen beta för {selectedRoute.kind === "problem" ? "problemet" : "leden"}.</p>}
+          {selectedRoute.description && <div className="route-description"><strong>Ledbeskrivning</strong><p><RichText text={selectedRoute.description} /></p></div>}
+          {selectedRoute.beta && <div className="beta-panel">
+            {!showBeta ? <button type="button" className="beta-toggle" onClick={() => setShowBeta(true)}>Visa beta</button> : <><div className="beta-heading"><strong>Beta från originalföraren</strong><button type="button" onClick={() => setShowBeta(false)}>Dölj beta</button></div><p><RichText text={selectedRoute.beta} /></p></>}
+          </div>}
           {selectedRouteImages.length > 0 ? <div className="route-detail-images"><div><strong>Kopplad skiss</strong><span>{selectedRouteImages.some((image) => routeImageRelation(image, selectedRoute.id)?.method === "vision" && (routeImageRelation(image, selectedRoute.id)?.confidence || 0) >= 0.85) ? "Lednumret är avläst i originalskissen" : "Kopplad genom bildens placering vid ledlistan i originalet"} · tryck för full storlek</span></div><div>{selectedRouteImages.slice(0, 4).map((image) => <button type="button" key={image.filename} onClick={() => setOpenImage(image)} aria-label={`Visa bild: ${image.caption}`}>
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img src={`/api/media/${encodeURIComponent(image.filename)}`} alt={image.caption} /><span>{image.caption}</span>

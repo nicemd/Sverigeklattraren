@@ -9,7 +9,7 @@ Den nya applikationen finns i `web/`. Originalets MediaWiki-filer och bilder lig
 - 803 sökbara klätterområden och 14 830 importerade leder/problem.
 - Responsiv React/Next.js-vy med karta, vägbeskrivning, sektorer, bilder, topos och klickbara ledkort.
 - Sökning på område, led och grad samt filtrering mellan sektorer, klätterleder och boulderproblem.
-- Ledkort med nummer, grad, längd, förstebestigning, beskrivning och källor. Beta visas först efter ett aktivt val.
+- Ledkort med nummer, grad, längd, förstebestigning, synlig ledbeskrivning och källor. Ett separat beta-fält visas först efter ett aktivt val.
 - Spårbara relationer mellan sektor, led och skiss. Kopplingen kan härledas från källordning, filnamn eller bildtolkning av lednummer och har metod, belägg och konfidens.
 - Livekoppling till Svenska Klätterförbundets accessdatabas med källans uppdateringsdatum och lokal hämtningstid.
 - Fritextförslag som bearbetas av separata struktur-, presentations- och granskningsagenter via OpenAI Responses API.
@@ -59,7 +59,7 @@ npm run content:topos -- --all
 
 ## Flera källor och rättigheter
 
-`provenance.sources` innehåller områdets källregister. Varje led har en primärkälla och kan dessutom ha `fieldSources` för exempelvis namn, grad, längd, förstebestigning eller sektor. Samma faktauppgift kan därmed beläggas av flera källor och olika fält på samma led kan ha olika ursprung.
+`provenance.sources` innehåller områdets källregister. Varje led har en primärkälla och kan dessutom ha `fieldSources` för exempelvis namn, grad, längd, förstebestigning, ledbeskrivning, beta eller sektor. Samma faktauppgift kan därmed beläggas av flera källor och olika fält på samma led kan ha olika ursprung. Ledbeskrivning anger var och hur linjen går på klippan och visas direkt; beta beskriver grepp, rörelser eller lösning och är dold tills användaren väljer att visa den.
 
 En källa anger hur den får användas:
 

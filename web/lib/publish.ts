@@ -15,7 +15,7 @@ const runGit = (args: string[]) => new Promise<void>((resolve, reject) => {
   child.on("close", (code) => code === 0 ? resolve() : reject(new Error(error || `git exited ${code}`)));
 });
 
-const routeFactFields = new Set(["name", "grade", "number", "length", "type", "firstAscent", "description", "sectorId"]);
+const routeFactFields = new Set(["name", "grade", "number", "length", "type", "firstAscent", "description", "beta", "sectorId"]);
 
 export async function publishProposal(area: Area, intake: Intake, edit: ProposedEdit, review: Review) {
   const now = new Date();

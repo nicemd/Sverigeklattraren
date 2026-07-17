@@ -21,10 +21,11 @@ export type Route = {
   type: string;
   firstAscent: string;
   description: string;
+  beta?: string;
   sectorId: string | null;
   source: { id: string; path?: string; url?: string };
   extraction?: { method: "llm"; model: string; confidence: number; evidence: string };
-  fieldSources?: Partial<Record<"name" | "grade" | "number" | "length" | "type" | "firstAscent" | "description" | "sectorId", string[]>>;
+  fieldSources?: Partial<Record<"name" | "grade" | "number" | "length" | "type" | "firstAscent" | "description" | "beta" | "sectorId", string[]>>;
 };
 
 export type AreaSummary = {

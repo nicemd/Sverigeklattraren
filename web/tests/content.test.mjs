@@ -145,3 +145,14 @@ test("replays committed auto-published proposals during a fresh import", async (
     await rm(output, { recursive: true, force: true });
   }
 });
+
+test("keeps route descriptions visible and beta in a separate spoiler field", async () => {
+  const haggsta = JSON.parse(await readFile(path.join(contentRoot, "areas", "haggsta.json"), "utf8"));
+  const spiderPig = haggsta.routes.find((route) => route.name === "Spider-pig");
+  assert.match(spiderPig.description, /småstegsklättring/i);
+  assert.equal(spiderPig.beta, undefined);
+
+  const component = await readFile(path.join(process.cwd(), "app", "components", "GuideApp.tsx"), "utf8");
+  assert.match(component, /className="route-description"[\s\S]*selectedRoute\.description/);
+  assert.match(component, /selectedRoute\.beta[\s\S]*className="beta-panel"/);
+});
