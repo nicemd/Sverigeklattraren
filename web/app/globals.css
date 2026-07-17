@@ -158,6 +158,22 @@ a { color: inherit; }
 .sector-heading:first-child { margin-top: 0; }
 .sector-heading strong { display: block; font-family: Georgia, serif; font-size: 19px; }
 .sector-heading span { color: #4f615a; display: block; font-size: 14px; line-height: 1.55; margin-top: 5px; white-space: pre-line; }
+.sector-topo { background: #eef2e9; border: 1px solid #d3ddce; border-radius: 18px; margin: 0 0 22px; overflow: hidden; }
+.sector-topo-heading { align-items: end; display: grid; gap: 20px; grid-template-columns: minmax(180px, .7fr) minmax(260px, 1.3fr); padding: 20px 22px; }
+.sector-topo-heading h3 { font-family: Georgia, serif; font-size: 26px; line-height: 1.05; margin: 4px 0 0; }
+.sector-topo-heading p { color: var(--muted); line-height: 1.55; margin: 0; }
+.sector-topo-grid { background: #d3ddce; border-top: 1px solid #d3ddce; display: grid; gap: 1px; grid-template-columns: minmax(0, 1fr); }
+.sector-topo-grid.single { grid-template-columns: minmax(0, 1fr); }
+.sector-topo-image { background: var(--paper); min-width: 0; }
+.sector-topo-image > button { background: #fff; border: 0; cursor: zoom-in; display: block; padding: 0; position: relative; width: 100%; }
+.sector-topo-image img { display: block; height: 310px; object-fit: contain; width: 100%; }
+.sector-topo-image > button > span { background: rgb(18 65 50 / 90%); border-radius: 999px; bottom: 12px; color: #fff; font-size: 12px; font-weight: 700; padding: 7px 11px; position: absolute; right: 12px; }
+.sector-topo-caption { display: grid; gap: 7px; padding: 14px 16px 17px; }
+.sector-topo-caption > span { color: var(--muted); font-size: 12px; }
+.topo-route-links { display: flex; flex-wrap: wrap; gap: 6px; }
+.topo-route-links button { align-items: center; background: #fff; border: 1px solid #ccd8c7; border-radius: 999px; color: var(--forest); cursor: pointer; display: inline-flex; font-size: 12px; gap: 6px; max-width: 100%; padding: 6px 9px; }
+.topo-route-links button:hover, .topo-route-links button:focus-visible { border-color: var(--forest); outline: none; }
+.topo-route-links b { background: var(--forest); border-radius: 999px; color: #fff; display: inline-grid; min-height: 22px; min-width: 22px; place-items: center; }
 .no-topo { background: #f4f1e8; border-radius: 12px; color: var(--muted); font-size: 13px; margin: 18px 0 0; padding: 12px 14px; }
 .extraction-note { color: var(--muted); font-size: 12px; margin: 10px 0; }
 .route-row { align-items: start; background: transparent; border: 0; border-top: 1px solid #e1e5dd; color: inherit; cursor: pointer; display: grid; font: inherit; gap: 12px; grid-template-columns: 42px minmax(120px, 1fr) 70px 72px; padding: 15px 8px; text-align: left; width: 100%; }
@@ -285,6 +301,10 @@ a { color: inherit; }
   .route-neighbours { grid-template-columns: 1fr; }
   .route-neighbours span:last-child { text-align: left; }
   .sector-heading { margin-inline: -4px; }
+  .sector-topo { margin-inline: -4px; }
+  .sector-topo-heading { align-items: start; grid-template-columns: 1fr; padding: 17px 16px; }
+  .sector-topo-grid { grid-template-columns: 1fr; }
+  .sector-topo-image img { height: min(68vw, 330px); }
   .image-strip { grid-template-columns: 1.4fr 1fr; }
   .image-strip figure:nth-child(3) { display: none; }
   .image-strip img { height: 150px; }
