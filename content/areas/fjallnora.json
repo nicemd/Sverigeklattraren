@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "id": "fjallnora",
+  "slug": "fjallnora",
+  "name": "Fjällnora",
+  "description": "=Allmänt= Ett Fåtal spridda block. Uppsalas kanske hårdaste problem (The Swedish Stallion) går här. =Vägbeskrivning= Kör österut från Uppsala mot Almunge, sväng av höger mot Fjällnora efter en dryg mil - blocken ligger spridda på båda sidor av vägen. =Problem= Kategori:Uppsala Kategori:Bouldering Kategori:Bimbo Kategori:Behöver kvalitetssäkras Kategori:Saknar karta Kategori:Saknar koordinater Kategori:Saknar skrivarformattering Kategori:Saknar skiss",
+  "coordinates": null,
+  "categories": [
+    "Behöver kvalitetssäkras",
+    "Bimbo",
+    "Bouldering",
+    "Saknar karta",
+    "Saknar koordinater",
+    "Saknar skiss",
+    "Saknar skrivarformattering",
+    "Uppsala"
+  ],
+  "sections": [],
+  "routes": [
+    {
+      "id": "fjallnora-problem-1",
+      "kind": "problem",
+      "number": null,
+      "name": "The Swedish Stallion",
+      "grade": "7C",
+      "length": "",
+      "type": "Överhäng",
+      "firstAscent": "Scott, Jon, Daniel A",
+      "description": "Sittstart i det branta överhänget. Ligger på höger sida vägen 100 m efter man korsat järnvägen.",
+      "source": {
+        "id": "legacy:fjallnora",
+        "path": "mediawiki/Fjällnora.txt"
+      }
+    }
+  ],
+  "images": [],
+  "access": {
+    "legacyText": null,
+    "federationSlug": null
+  },
+  "qualityIssues": [],
+  "provenance": {
+    "primarySourceId": "legacy:fjallnora",
+    "sources": [
+      {
+        "id": "legacy:fjallnora",
+        "title": "Sverigeföraren 2014: Fjällnora",
+        "path": "mediawiki/Fjällnora.txt",
+        "license": "GNU Free Documentation License",
+        "snapshotDate": "2014-01-01"
+      }
+    ]
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "schemaVersion": 1,
+  "id": "staketon",
+  "slug": "staketon",
+  "name": "Stäketön",
+  "description": "Highballklätttring på seriös nivå.",
+  "coordinates": null,
+  "categories": [
+    "Norra Stockholm",
+    "Stockholm"
+  ],
+  "sections": [
+    {
+      "id": "allmant",
+      "title": "Allmänt",
+      "body": "Highballklätttring på seriös nivå."
+    },
+    {
+      "id": "vagbeskrivning",
+      "title": "Vägbeskrivning",
+      "body": "Med bil: Ta av E18 vid Kungsängen ta vänster över motorvägen, fortsätt nedför backen till T-korsning. Ta vänster på gamla Enköpingsvägen ca 500m. Parkera på grusplanen i kurvan. Gå sedan längs grusvägen som går under motorvägen och följ denna till en förfallen stuga som syns på höger sida (kan vara svår att se) Ta höger här på en liten väg. Efter 200 m ta in höger och du kommer ut på ett hygge efter ett tag där stenen ligger."
+    },
+    {
+      "id": "boulderproblem",
+      "title": "Boulderproblem",
+      "body": "Kategori:Stockholm Kategori:Norra Stockholm"
+    }
+  ],
+  "routes": [
+    {
+      "id": "staketon-problem-1",
+      "kind": "problem",
+      "number": null,
+      "name": "Peta in ett finger i sprickan",
+      "grade": "7a",
+      "length": "",
+      "type": "",
+      "firstAscent": "Mikael Söderström",
+      "description": "Riktigt fin sprickklättring med en nervös landning. Highball.",
+      "source": {
+        "id": "legacy:staketon",
+        "path": "mediawiki/Stäketön.txt"
+      }
+    }
+  ],
+  "images": [],
+  "access": {
+    "legacyText": null,
+    "federationSlug": null
+  },
+  "qualityIssues": [],
+  "provenance": {
+    "primarySourceId": "legacy:staketon",
+    "sources": [
+      {
+        "id": "legacy:staketon",
+        "title": "Sverigeföraren 2014: Stäketön",
+        "path": "mediawiki/Stäketön.txt",
+        "license": "GNU Free Documentation License",
+        "snapshotDate": "2014-01-01"
+      }
+    ]
+  }
+}

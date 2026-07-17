@@ -1,0 +1,135 @@
+{
+  "schemaVersion": 1,
+  "id": "tranghalla",
+  "slug": "tranghalla",
+  "name": "Trånghalla",
+  "description": "Sportklippa i skogen i trånghalla, ca 12 m hög. Minst sagt luftigt bultat, det krävs rejält ledpsyke.",
+  "coordinates": {
+    "latitude": 57.85249,
+    "longitude": 14.145461
+  },
+  "categories": [
+    "Saknar skiss",
+    "Saknar skrivarformatering",
+    "sport",
+    "sva",
+    "vertikalt"
+  ],
+  "sections": [
+    {
+      "id": "allmant",
+      "title": "Allmänt",
+      "body": "Sportklippa i skogen i trånghalla, ca 12 m hög. Minst sagt luftigt bultat, det krävs rejält ledpsyke."
+    },
+    {
+      "id": "vagbeskrivning",
+      "title": "Vägbeskrivning",
+      "body": "Från Jönköping: kör mot Bankeryd och sväng höger mot trånghalla, kör igenom hela samhället tills bebyggelsen tar slut och det går en väg till höger mot en järnvägsbro.Parkera på sandplanen bakom busshållplatsen och gå sedan in på en liten stig i skogen på västra sidan vägen, följ den lite åt vänster tills du ser klippan, då är det bara att gå rakt genom buskaget."
+    },
+    {
+      "id": "leder",
+      "title": "Leder",
+      "body": "Från vänster till höger:"
+    },
+    {
+      "id": "ovrigt",
+      "title": "Övrigt",
+      "body": "Ankare och bultar börjar bli gamla och är osmidiga, ett par nya ankare och lite komplementsbultning hade gjort denna klippa mycket trevligare,. Tog mig friheten att hitta på nya namn då ingen info om FA finns att tillgå. Kategori:sport Kategori:sva Kategori:vertikalt kategori:Saknar skiss kategori:Saknar skrivarformatering Category:Småland"
+    }
+  ],
+  "routes": [
+    {
+      "id": "tranghalla-led-1",
+      "kind": "route",
+      "number": "1",
+      "name": "Saprofag",
+      "grade": "?",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "",
+      "description": "Vet inte om det finns toppankare, annars den led som är tätast bultad.",
+      "source": {
+        "id": "legacy:tranghalla",
+        "path": "mediawiki/Trånghalla.txt"
+      }
+    },
+    {
+      "id": "tranghalla-led-2",
+      "kind": "route",
+      "number": "2",
+      "name": "Bergtora",
+      "grade": "?",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "",
+      "description": "långt mellan 1:a och 2:a bulten",
+      "source": {
+        "id": "legacy:tranghalla",
+        "path": "mediawiki/Trånghalla.txt"
+      }
+    },
+    {
+      "id": "tranghalla-led-3",
+      "kind": "route",
+      "number": "3",
+      "name": "Törnrosen",
+      "grade": "6b?",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "",
+      "description": "hög första bult, tyvärr ofta blöt i slutet.",
+      "source": {
+        "id": "legacy:tranghalla",
+        "path": "mediawiki/Trånghalla.txt"
+      }
+    },
+    {
+      "id": "tranghalla-led-4",
+      "kind": "route",
+      "number": "4a",
+      "name": "Magiska metspö",
+      "grade": "6c?",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "",
+      "description": "Variant på nr 4, samma bultar men klättra till vänster om bultarna hela vägen. Hög första bult.",
+      "source": {
+        "id": "legacy:tranghalla",
+        "path": "mediawiki/Trånghalla.txt"
+      }
+    },
+    {
+      "id": "tranghalla-led-5",
+      "kind": "route",
+      "number": "4",
+      "name": "Masungs massage",
+      "grade": "?",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "",
+      "description": "Klättra på facet mitt för bultarna.Hög första bult.",
+      "source": {
+        "id": "legacy:tranghalla",
+        "path": "mediawiki/Trånghalla.txt"
+      }
+    }
+  ],
+  "images": [],
+  "access": {
+    "legacyText": null,
+    "federationSlug": null
+  },
+  "qualityIssues": [],
+  "provenance": {
+    "primarySourceId": "legacy:tranghalla",
+    "sources": [
+      {
+        "id": "legacy:tranghalla",
+        "title": "Sverigeföraren 2014: Trånghalla",
+        "path": "mediawiki/Trånghalla.txt",
+        "license": "GNU Free Documentation License",
+        "snapshotDate": "2014-01-01"
+      }
+    ]
+  }
+}

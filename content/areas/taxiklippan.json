@@ -1,0 +1,273 @@
+{
+  "schemaVersion": 1,
+  "id": "taxiklippan",
+  "slug": "taxiklippan",
+  "name": "Taxiklippan",
+  "description": "En (väldigt) kort vägg med ett antal topprepsleder i graderna 4 till 6. Nära stan och torkar snabbt efter regn. Finns inga bultar idag utan man får slänga slingor runt träd vid toppen av klippan. Ta med långa slingor!",
+  "coordinates": {
+    "latitude": 59.304125,
+    "longitude": 18.007783
+  },
+  "categories": [
+    "Saknar leder",
+    "Saknar skiss",
+    "Saknar skrivarformatering",
+    "Stockholm",
+    "Stockholm City",
+    "sva",
+    "vertikalt"
+  ],
+  "sections": [
+    {
+      "id": "allmant",
+      "title": "Allmänt",
+      "body": "En (väldigt) kort vägg med ett antal topprepsleder i graderna 4 till 6. Nära stan och torkar snabbt efter regn. Finns inga bultar idag utan man får slänga slingor runt träd vid toppen av klippan. Ta med långa slingor!"
+    },
+    {
+      "id": "misc",
+      "title": "Misc",
+      "body": "Klippan är till större del sprängklippa, men de lättare lederna till vänster går mestadels över orörd klippa. Parkeringsplatsen där klippan ligger verkar vara ett populärt ställe för taxichafförer att stanna och vila, och även ett populärt ställe för nedskräpning. Ta gärna med lite extra skräp hem! Det pågår just nu (2012-08-20) ett byggarbete i området, och byggnadsstaket har satts upp som hindrar den enklaste promenad vägen till toppen av klippan. Du kan fortfarande hitta till toppen av klippan genom att följa cykelvägen till vänster om klippan, hitta parkeringen rakt ovanför och gå igenom ett buskage. Ett kanske bättre alternativ är att klättra upp för den lätta leden i mitten av klippan. Finns en bunte nya leder att göra som vi inte hann med (flyttat utomlands /Johan), så uppdatera gärna föraren om ni gör någon mer led."
+    },
+    {
+      "id": "vagbeskrivning",
+      "title": "Vägbeskrivning",
+      "body": "titel=Majstångsvägen lat=18007783‎ long=59304125 Klippan ligger centralt, söder om söder. Det ligger några minuters promenad från midsommarkransen tunnelbana, och flertalet bussar stannar precis vid klippan. Åker ni bil så ligger klippan mitt på en parkeringsplats -- dock oklart huruvida man får stå där."
+    },
+    {
+      "id": "hoger",
+      "title": "Höger",
+      "body": "Kategori:sva Kategori:vertikalt Kategori:Stockholm Kategori:Stockholm City"
+    }
+  ],
+  "routes": [
+    {
+      "id": "taxiklippan-led-1",
+      "kind": "route",
+      "number": "1",
+      "name": "???",
+      "grade": "4",
+      "length": "5",
+      "type": "toprep",
+      "firstAscent": "Johan Björk -2012",
+      "description": "Håll dig till vänster på stora juggar (??).",
+      "source": {
+        "id": "legacy:taxiklippan",
+        "path": "mediawiki/Taxiklippan.txt"
+      }
+    },
+    {
+      "id": "taxiklippan-led-2",
+      "kind": "route",
+      "number": "2",
+      "name": "????",
+      "grade": "4",
+      "length": "5",
+      "type": "toprep",
+      "firstAscent": "Johan Björk -2012",
+      "description": "Rakt upp genom det lilla överhänget.",
+      "source": {
+        "id": "legacy:taxiklippan",
+        "path": "mediawiki/Taxiklippan.txt"
+      }
+    },
+    {
+      "id": "taxiklippan-led-3",
+      "kind": "route",
+      "number": "3",
+      "name": "??",
+      "grade": "5+",
+      "length": "5",
+      "type": "toprep",
+      "firstAscent": "Johan Björk -2012",
+      "description": "Lite krystad balansklättring precis till vänster om lyktstolpen.",
+      "source": {
+        "id": "legacy:taxiklippan",
+        "path": "mediawiki/Taxiklippan.txt"
+      }
+    },
+    {
+      "id": "taxiklippan-led-4",
+      "kind": "route",
+      "number": "4",
+      "name": "??",
+      "grade": "5",
+      "length": "5",
+      "type": "toprep",
+      "firstAscent": "Johan Björk -2012",
+      "description": "Ännu mera krystad balansklättring, håll dig till höger om lyktstolpen.",
+      "source": {
+        "id": "legacy:taxiklippan",
+        "path": "mediawiki/Taxiklippan.txt"
+      }
+    },
+    {
+      "id": "taxiklippan-led-5",
+      "kind": "route",
+      "number": "5",
+      "name": "??",
+      "grade": "4-",
+      "length": "5",
+      "type": "toprep",
+      "firstAscent": "Johan Björk -2012",
+      "description": "Följ sprickan.",
+      "source": {
+        "id": "legacy:taxiklippan",
+        "path": "mediawiki/Taxiklippan.txt"
+      }
+    },
+    {
+      "id": "taxiklippan-led-6",
+      "kind": "route",
+      "number": "1",
+      "name": "Gagnam Style",
+      "grade": "4",
+      "length": "5",
+      "type": "toprep",
+      "firstAscent": "Johan Björk -2012",
+      "description": "Lätt, men småkul klättring med juggar och underclings.",
+      "source": {
+        "id": "legacy:taxiklippan",
+        "path": "mediawiki/Taxiklippan.txt"
+      }
+    },
+    {
+      "id": "taxiklippan-led-7",
+      "kind": "route",
+      "number": "2",
+      "name": "?",
+      "grade": "4",
+      "length": "5",
+      "type": "toprep",
+      "firstAscent": "Johan Björk -2012",
+      "description": "Lätt, men småkul klättring med juggar och underclings.",
+      "source": {
+        "id": "legacy:taxiklippan",
+        "path": "mediawiki/Taxiklippan.txt"
+      }
+    },
+    {
+      "id": "taxiklippan-led-8",
+      "kind": "route",
+      "number": "3",
+      "name": "Inget namn",
+      "grade": "L",
+      "length": "5",
+      "type": "toprep",
+      "firstAscent": "Johan Björk -2012",
+      "description": "Enklaste sättet att komma upp för att installera toprep.",
+      "source": {
+        "id": "legacy:taxiklippan",
+        "path": "mediawiki/Taxiklippan.txt"
+      }
+    },
+    {
+      "id": "taxiklippan-led-9",
+      "kind": "route",
+      "number": "4",
+      "name": "Vi kastar sten på taxibilarna",
+      "grade": "6+",
+      "length": "5",
+      "type": "toprep",
+      "firstAscent": "Johan Gustavsson -2012",
+      "description": "Följ den lilla sprickan rakt upp.",
+      "source": {
+        "id": "legacy:taxiklippan",
+        "path": "mediawiki/Taxiklippan.txt"
+      }
+    },
+    {
+      "id": "taxiklippan-led-10",
+      "kind": "route",
+      "number": "5",
+      "name": "Karmabjörken",
+      "grade": "6",
+      "length": "5",
+      "type": "toprep",
+      "firstAscent": "Johan Gustavsson -2012",
+      "description": "Följ den större sprickan ovanför björken.",
+      "source": {
+        "id": "legacy:taxiklippan",
+        "path": "mediawiki/Taxiklippan.txt"
+      }
+    },
+    {
+      "id": "taxiklippan-led-11",
+      "kind": "route",
+      "number": "1",
+      "name": "N/A",
+      "grade": "5?",
+      "length": "5",
+      "type": "toprep",
+      "firstAscent": "Johan Gustavsson?",
+      "description": "..?",
+      "source": {
+        "id": "legacy:taxiklippan",
+        "path": "mediawiki/Taxiklippan.txt"
+      }
+    },
+    {
+      "id": "taxiklippan-led-12",
+      "kind": "route",
+      "number": "2",
+      "name": "Vem fan snodde min cykel?",
+      "grade": "6+",
+      "length": "5",
+      "type": "toprep",
+      "firstAscent": "Johan Björk och Johan Gustavsson",
+      "description": "Ett svårt crux...",
+      "source": {
+        "id": "legacy:taxiklippan",
+        "path": "mediawiki/Taxiklippan.txt"
+      }
+    },
+    {
+      "id": "taxiklippan-led-13",
+      "kind": "route",
+      "number": "3",
+      "name": "N/A",
+      "grade": "5?",
+      "length": "5",
+      "type": "toprep",
+      "firstAscent": "Johan Gustavsson?",
+      "description": "Väldigt odefinierad, går att göra lite hur svår eller enkel man vill genom att eliminera saker..",
+      "source": {
+        "id": "legacy:taxiklippan",
+        "path": "mediawiki/Taxiklippan.txt"
+      }
+    }
+  ],
+  "images": [
+    {
+      "filename": "Taxiklippan_vanster.jpg",
+      "caption": "",
+      "missing": false
+    },
+    {
+      "filename": "Taxiklippan_mitten.jpg",
+      "caption": "",
+      "missing": false
+    },
+    {
+      "filename": "Taxiklippan_hoger.jpg",
+      "caption": "",
+      "missing": false
+    }
+  ],
+  "access": {
+    "legacyText": null,
+    "federationSlug": null
+  },
+  "qualityIssues": [],
+  "provenance": {
+    "primarySourceId": "legacy:taxiklippan",
+    "sources": [
+      {
+        "id": "legacy:taxiklippan",
+        "title": "Sverigeföraren 2014: Taxiklippan",
+        "path": "mediawiki/Taxiklippan.txt",
+        "license": "GNU Free Documentation License",
+        "snapshotDate": "2014-01-01"
+      }
+    ]
+  }
+}

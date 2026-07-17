@@ -1,0 +1,135 @@
+{
+  "schemaVersion": 1,
+  "id": "gottsunda",
+  "slug": "gottsunda",
+  "name": "Gottsunda",
+  "description": "Kategori:Uppsala Kategori:Bouldering Kategori:Bimbo Kategori:Behöver kvalitetssäkras Kategori:Saknar karta Kategori:Saknar koordinater Kategori:Saknar skrivarformattering Kategori:Saknar skiss =Allmänt= Ett block utvecklat av le Sydd. Ingen direkt utvecklingspotential i området men värt ett besök om inte annat för att testa Neftertiti ss. =Vägbeskrivning= Ligger längst ner på gottsundagipen, lättast att komma hit med cykel. =Bild= =Problem=",
+  "coordinates": null,
+  "categories": [
+    "Behöver kvalitetssäkras",
+    "Bimbo",
+    "Bouldering",
+    "Saknar karta",
+    "Saknar koordinater",
+    "Saknar skiss",
+    "Saknar skrivarformattering",
+    "Uppsala"
+  ],
+  "sections": [],
+  "routes": [
+    {
+      "id": "gottsunda-problem-1",
+      "kind": "problem",
+      "number": null,
+      "name": "Neftertiti ss",
+      "grade": "7B",
+      "length": "",
+      "type": "Krimp,Aréte",
+      "firstAscent": "Sydde",
+      "description": "Den fina arêten, sittstart vid det stora greppet.",
+      "source": {
+        "id": "legacy:gottsunda",
+        "path": "mediawiki/Gottsunda.txt"
+      }
+    },
+    {
+      "id": "gottsunda-problem-2",
+      "kind": "problem",
+      "number": null,
+      "name": "Isak, min bror!",
+      "grade": "7A",
+      "length": "",
+      "type": "Krimp,Slopers",
+      "firstAscent": "Sydde och Jon",
+      "description": "Baksidan, rakt upp från sprickan till slopers och krimpar.",
+      "source": {
+        "id": "legacy:gottsunda",
+        "path": "mediawiki/Gottsunda.txt"
+      }
+    },
+    {
+      "id": "gottsunda-problem-3",
+      "kind": "problem",
+      "number": null,
+      "name": "Men du'rå!",
+      "grade": "7A",
+      "length": "",
+      "type": "Krimp,Slopers",
+      "firstAscent": "Sydde",
+      "description": "Starta med båda händerna i stort undercling.",
+      "source": {
+        "id": "legacy:gottsunda",
+        "path": "mediawiki/Gottsunda.txt"
+      }
+    },
+    {
+      "id": "gottsunda-problem-4",
+      "kind": "problem",
+      "number": null,
+      "name": "Lonely Brigade",
+      "grade": "6C",
+      "length": "",
+      "type": "Krimp,Heel hook",
+      "firstAscent": "Sydde",
+      "description": "Sittstart i de stora underclingen. Rakt upp till vänster om \"Men du'rå\". Finaste problemet på stenen.",
+      "source": {
+        "id": "legacy:gottsunda",
+        "path": "mediawiki/Gottsunda.txt"
+      }
+    },
+    {
+      "id": "gottsunda-problem-5",
+      "kind": "problem",
+      "number": null,
+      "name": "Nefertiti direct",
+      "grade": "7A",
+      "length": "",
+      "type": "Krimp,Pinch",
+      "firstAscent": "stefan",
+      "description": "Start vid nefertiti, klättra rakt upp med grepp i sprickorna utan greppen vänster om arêten (ett par sidtag + sloperpinchen).",
+      "source": {
+        "id": "legacy:gottsunda",
+        "path": "mediawiki/Gottsunda.txt"
+      }
+    },
+    {
+      "id": "gottsunda-problem-6",
+      "kind": "problem",
+      "number": "1",
+      "name": "Getto crimpen",
+      "grade": "4B",
+      "length": "",
+      "type": "Krimp,Jug",
+      "firstAscent": "Dan",
+      "description": "Längs med valthornsvägen. Börja med höger hand på \"nagelcrimpen\" och vänster hand på det lägre av de två lite större crimparna. Sedan är det bara å mysa upp förbi crimp och jug. Även gjord med enbart vänster /höger hand",
+      "source": {
+        "id": "legacy:gottsunda",
+        "path": "mediawiki/Gottsunda.txt"
+      }
+    }
+  ],
+  "images": [
+    {
+      "filename": "Isak_min_bror.jpg",
+      "caption": "\"Isak, min bror!\", 7a, Gottsunda. Foto: Anders Tväråna",
+      "missing": false
+    }
+  ],
+  "access": {
+    "legacyText": null,
+    "federationSlug": null
+  },
+  "qualityIssues": [],
+  "provenance": {
+    "primarySourceId": "legacy:gottsunda",
+    "sources": [
+      {
+        "id": "legacy:gottsunda",
+        "title": "Sverigeföraren 2014: Gottsunda",
+        "path": "mediawiki/Gottsunda.txt",
+        "license": "GNU Free Documentation License",
+        "snapshotDate": "2014-01-01"
+      }
+    ]
+  }
+}

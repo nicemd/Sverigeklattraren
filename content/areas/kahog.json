@@ -1,0 +1,116 @@
+{
+  "schemaVersion": 1,
+  "id": "kahog",
+  "slug": "kahog",
+  "name": "Kåhög",
+  "description": "Kåhög i ligger i Partille och erbjuder hårda leder på bult. Klippan är 10-20 meter hög. Du kan räkna med att vara väldigt ensam på klippan.",
+  "coordinates": {
+    "latitude": 57.74872,
+    "longitude": 12.15781
+  },
+  "categories": [
+    "Göteborg"
+  ],
+  "sections": [
+    {
+      "id": "allmant",
+      "title": "Allmänt",
+      "body": "Kåhög i ligger i Partille och erbjuder hårda leder på bult. Klippan är 10-20 meter hög. Du kan räkna med att vara väldigt ensam på klippan."
+    },
+    {
+      "id": "karaktar",
+      "title": "Karaktär",
+      "body": "Klippan vätter m ot syd men är skuggad av stora träd. Det kan nog vara blött här på våren. Ett stort minus är den extremt frekventa och högljudda tågtrafiken som passerar förbi! Lederna är ca 10-20 m långa och svagt överhängande. Alla leder är bultade och utrustade med firningsankare. rekomenderade leder är Le Débutant 8- och Den långa resan 8."
+    },
+    {
+      "id": "vagbeskrivning",
+      "title": "Vägbeskrivning",
+      "body": "Från Göteborg ta E20:an mot Stockholm. Sväng av vid Jonseredsmotet och följ skyltarna mot Kåhög (längs Kåhögsvägen). Parkera bilen på höger sida strax efter att du har passerat järnvägen (i korsningen mellan Byvägen o Torsetvägen). Hela bilresan är ca 12km lång. Från parkeringen gå uppåt in i skogen (förbi huset) och du når klippan efter ca 100 m promenad."
+    },
+    {
+      "id": "rekommenderade-leder",
+      "title": "Rekommenderade leder",
+      "body": "category:trad category:sport category:Vertikalt Category:överhäng Kategori:Göteborg"
+    }
+  ],
+  "routes": [
+    {
+      "id": "kahog-led-1",
+      "kind": "route",
+      "number": null,
+      "name": "Helt Blånk",
+      "grade": "6c+(7)",
+      "length": "10",
+      "type": "sport",
+      "firstAscent": "Johan Luhr -01",
+      "description": "Ganska Bökig.",
+      "source": {
+        "id": "legacy:kahog",
+        "path": "mediawiki/Kåhög.txt"
+      }
+    },
+    {
+      "id": "kahog-led-2",
+      "kind": "route",
+      "number": null,
+      "name": "Neborian",
+      "grade": "7b(8-)",
+      "length": "15",
+      "type": "sport",
+      "firstAscent": "Johan Luhr -01",
+      "description": "Cruxi. Något lös.",
+      "source": {
+        "id": "legacy:kahog",
+        "path": "mediawiki/Kåhög.txt"
+      }
+    },
+    {
+      "id": "kahog-led-3",
+      "kind": "route",
+      "number": null,
+      "name": "Le Débutant",
+      "grade": "7b(8-)",
+      "length": "20",
+      "type": "sport",
+      "firstAscent": "Johan Luhr -01",
+      "description": "Fin.",
+      "source": {
+        "id": "legacy:kahog",
+        "path": "mediawiki/Kåhög.txt"
+      }
+    },
+    {
+      "id": "kahog-led-4",
+      "kind": "route",
+      "number": null,
+      "name": "Den Långa Resan",
+      "grade": "7b+(8)",
+      "length": "20",
+      "type": "sport",
+      "firstAscent": "Johan Luhr -01",
+      "description": "Lätt för sin grad.",
+      "source": {
+        "id": "legacy:kahog",
+        "path": "mediawiki/Kåhög.txt"
+      }
+    }
+  ],
+  "images": [],
+  "access": {
+    "legacyText": null,
+    "federationSlug": null
+  },
+  "qualityIssues": [],
+  "provenance": {
+    "primarySourceId": "legacy:kahog",
+    "sources": [
+      {
+        "id": "legacy:kahog",
+        "title": "Sverigeföraren 2014: Kåhög",
+        "path": "mediawiki/Kåhög.txt",
+        "license": "GNU Free Documentation License",
+        "snapshotDate": "2014-01-01"
+      }
+    ]
+  }
+}

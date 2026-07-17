@@ -1,0 +1,225 @@
+{
+  "schemaVersion": 1,
+  "id": "baggeby",
+  "slug": "baggeby",
+  "name": "Baggeby",
+  "description": "Klippa på Lidingö mittemot Värtahamnen. Den är låg (6-7m) men turerna är koncentrerade och underhållande. Klippan har ett antal korta, svagt överhängande problem. Samtliga turer är borrbultssäkrade. Några av borrbultarna är målade i ett försök att få dem att smälta in i klippans färg. Se upp med barr på utstegen vid stora tallen, det kan löna sig att borsta dessa utsteg innan de klättras.",
+  "coordinates": {
+    "latitude": 59.35422,
+    "longitude": 18.12936
+  },
+  "categories": [
+    "Lidingö",
+    "Sport",
+    "Stockholm",
+    "Överhäng"
+  ],
+  "sections": [
+    {
+      "id": "allmant",
+      "title": "Allmänt",
+      "body": "Klippa på Lidingö mittemot Värtahamnen. Den är låg (6-7m) men turerna är koncentrerade och underhållande. Klippan har ett antal korta, svagt överhängande problem. Samtliga turer är borrbultssäkrade. Några av borrbultarna är målade i ett försök att få dem att smälta in i klippans färg. Se upp med barr på utstegen vid stora tallen, det kan löna sig att borsta dessa utsteg innan de klättras."
+    },
+    {
+      "id": "miljo",
+      "title": "Miljö",
+      "body": "Sydvästvänd, relativt öppet."
+    },
+    {
+      "id": "vagbeskrivning",
+      "title": "Vägbeskrivning",
+      "body": "titel=Baggeby lat=18129360 long=59354220 Åk till bostadsområdet Baggeby (se kartan. Leta reda på Farkostvägen 8. Mittemot detta hyreshus leder en tydlig grusstig ned mot vattnet. Följ denna i högerböj i ca 3 minuter. Klippan ligger på h sida i en liten slänt."
+    }
+  ],
+  "routes": [
+    {
+      "id": "baggeby-led-1",
+      "kind": "route",
+      "number": null,
+      "name": "Ny 1",
+      "grade": "6b+",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "Johan Luhr",
+      "description": "",
+      "source": {
+        "id": "legacy:baggeby",
+        "path": "mediawiki/Baggeby.txt"
+      }
+    },
+    {
+      "id": "baggeby-led-2",
+      "kind": "route",
+      "number": "1",
+      "name": "Resonator",
+      "grade": "6b+",
+      "length": "8",
+      "type": "sport",
+      "firstAscent": "Göran Wennerbrant, Claes Jelinek -93",
+      "description": "",
+      "source": {
+        "id": "legacy:baggeby",
+        "path": "mediawiki/Baggeby.txt"
+      }
+    },
+    {
+      "id": "baggeby-led-3",
+      "kind": "route",
+      "number": "2",
+      "name": "Subtil irreversibilitet",
+      "grade": "7b",
+      "length": "8",
+      "type": "sport",
+      "firstAscent": "Claes Jelinek -94",
+      "description": "",
+      "source": {
+        "id": "legacy:baggeby",
+        "path": "mediawiki/Baggeby.txt"
+      }
+    },
+    {
+      "id": "baggeby-led-4",
+      "kind": "route",
+      "number": "3",
+      "name": "Riding with the wrong guy",
+      "grade": "7c",
+      "length": "8",
+      "type": "sport",
+      "firstAscent": "Stefan Ösund -94",
+      "description": "",
+      "source": {
+        "id": "legacy:baggeby",
+        "path": "mediawiki/Baggeby.txt"
+      }
+    },
+    {
+      "id": "baggeby-led-5",
+      "kind": "route",
+      "number": "4",
+      "name": "Klifingertango",
+      "grade": "7a+",
+      "length": "7",
+      "type": "sport",
+      "firstAscent": "Claes Jelinek, Göran Wennerbrant -93",
+      "description": "",
+      "source": {
+        "id": "legacy:baggeby",
+        "path": "mediawiki/Baggeby.txt"
+      }
+    },
+    {
+      "id": "baggeby-led-6",
+      "kind": "route",
+      "number": "5",
+      "name": "Tarmterapeuten",
+      "grade": "6c+",
+      "length": "7",
+      "type": "sport",
+      "firstAscent": "Claes Jelinek, Göran Wennerbrant -93",
+      "description": "Starta med Klifingertango sedan höger vid andra bb",
+      "source": {
+        "id": "legacy:baggeby",
+        "path": "mediawiki/Baggeby.txt"
+      }
+    },
+    {
+      "id": "baggeby-led-7",
+      "kind": "route",
+      "number": null,
+      "name": "Ny 2",
+      "grade": "7b+",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "Johan Luhr",
+      "description": "Starta med Klifingertango sedan höger vid första bb",
+      "source": {
+        "id": "legacy:baggeby",
+        "path": "mediawiki/Baggeby.txt"
+      }
+    },
+    {
+      "id": "baggeby-led-8",
+      "kind": "route",
+      "number": "6",
+      "name": "Fjärt i värtan",
+      "grade": "6b",
+      "length": "7",
+      "type": "sport",
+      "firstAscent": "Göran Wennerbrant, Claes Jelinek -93",
+      "description": "",
+      "source": {
+        "id": "legacy:baggeby",
+        "path": "mediawiki/Baggeby.txt"
+      }
+    },
+    {
+      "id": "baggeby-led-9",
+      "kind": "route",
+      "number": "7",
+      "name": "Kapten Stört",
+      "grade": "7a",
+      "length": "7",
+      "type": "sport",
+      "firstAscent": "Claes Jelinek, Göran Wennerbrant -93",
+      "description": "",
+      "source": {
+        "id": "legacy:baggeby",
+        "path": "mediawiki/Baggeby.txt"
+      }
+    },
+    {
+      "id": "baggeby-led-10",
+      "kind": "route",
+      "number": "8",
+      "name": "Fis i vinden",
+      "grade": "6a+",
+      "length": "6",
+      "type": "sport",
+      "firstAscent": "Göran Wennerbrant, Claes Jelinek -93",
+      "description": "",
+      "source": {
+        "id": "legacy:baggeby",
+        "path": "mediawiki/Baggeby.txt"
+      }
+    },
+    {
+      "id": "baggeby-led-11",
+      "kind": "route",
+      "number": null,
+      "name": "Ny 3",
+      "grade": "6a+",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "Johan Luhr",
+      "description": "Utan stenen",
+      "source": {
+        "id": "legacy:baggeby",
+        "path": "mediawiki/Baggeby.txt"
+      }
+    }
+  ],
+  "images": [
+    {
+      "filename": "Baggeby.png",
+      "caption": "",
+      "missing": false
+    }
+  ],
+  "access": {
+    "legacyText": null,
+    "federationSlug": null
+  },
+  "qualityIssues": [],
+  "provenance": {
+    "primarySourceId": "legacy:baggeby",
+    "sources": [
+      {
+        "id": "legacy:baggeby",
+        "title": "Sverigeföraren 2014: Baggeby",
+        "path": "mediawiki/Baggeby.txt",
+        "license": "GNU Free Documentation License",
+        "snapshotDate": "2014-01-01"
+      }
+    ]
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "schemaVersion": 1,
+  "id": "valberget-boulder",
+  "slug": "valberget-boulder",
+  "name": "Valberget-Boulder",
+  "description": "Valberget är mest känt för sin repklättring, men det finns gott om block och lägre väggar här också. Ett fåtal lätta problem är klättrade men nyturspotentialen är stor för den som är villig att jobba lite med stålborsten.",
+  "coordinates": {
+    "latitude": 56.21429371296636,
+    "longitude": 14.89771842956543
+  },
+  "categories": [
+    "Blekinge",
+    "bouldering",
+    "sva",
+    "vertikalt",
+    "överhäng"
+  ],
+  "sections": [
+    {
+      "id": "allmant",
+      "title": "Allmänt",
+      "body": "Valberget är mest känt för sin repklättring, men det finns gott om block och lägre väggar här också. Ett fåtal lätta problem är klättrade men nyturspotentialen är stor för den som är villig att jobba lite med stålborsten."
+    },
+    {
+      "id": "hitta-hit",
+      "title": "Hitta hit",
+      "body": "Från E22 tag av vid avfarten där det är skyltat mot karlshamn sjukhus, kör norrut mot Asarum. Kör rakt fram genom två små rondeller och sväng höger i tredje rondellen mot Asarums centrum. I \"stora korsningen\" vid ica och coop i Asarum viker man av höger och fortsätter mot utkanten av samhället. Ta höger mot Granefors och efter ca 100 meter vänster mot Tararp. Strax efter en liten bro ta höger (återigen mot Granefors) och följ vägen genom S-kurvan. Direkt efter kurvan dyker det upp två småvägar till vänster. Ta den högra av dessa, skyltat mot valberget och följ denna ca 1 kilometer till ett tydligt vägskäl. Här är det skyltat vänster till valberget, parkera bilen här, och se till att det finns plats för markägaren att ta sig förbi med skogsmaskiner. Om man är lite planerande kan man nog trycka in 4 bilar här. Fortsätt till fots på vägen fram till den stora vändplats där man brukade parkera. Fortsätt på stigen som är förlängningen av vägen och ta första förgreningen till vänster. Följ sedan stigen av snett åt vänster när du har ett gammalt (numera uppväxt) hygge på vänster sida. Vik undan för undan mer åt höger, bort från \"hygget\". Strax efteråt syns berget tvärs över en blöt sänka. Om ni fortsätter följa stigen så hittar ni spänger över sänkan."
+    },
+    {
+      "id": "tungan",
+      "title": "Tungan",
+      "body": "Ett litet utstickande block precis vid stigen efter Välkomstblocket"
+    },
+    {
+      "id": "kyrkblocken",
+      "title": "Kyrkblocken",
+      "body": "En samling block under det stora taket Kategori:Blekinge Kategori:vertikalt Kategori:bouldering Kategori:överhäng Kategori:sva"
+    }
+  ],
+  "routes": [
+    {
+      "id": "valberget-boulder-problem-1",
+      "kind": "problem",
+      "number": "1",
+      "name": "Tungan",
+      "grade": "L",
+      "length": "",
+      "type": "överhäng",
+      "firstAscent": "Petter Åsander",
+      "description": "uppenbar kort travers och mantling på högsta punkten. Kanske mer en cirkuskonst/lek än ett boulderproblem",
+      "source": {
+        "id": "legacy:valberget-boulder",
+        "path": "mediawiki/Valberget-Boulder.txt"
+      }
+    },
+    {
+      "id": "valberget-boulder-problem-2",
+      "kind": "problem",
+      "number": "1",
+      "name": "Svär inte i kyrkan",
+      "grade": "L",
+      "length": "",
+      "type": "arete",
+      "firstAscent": "Petter Åsander",
+      "description": "Vass arete",
+      "source": {
+        "id": "legacy:valberget-boulder",
+        "path": "mediawiki/Valberget-Boulder.txt"
+      }
+    },
+    {
+      "id": "valberget-boulder-problem-3",
+      "kind": "problem",
+      "number": "2",
+      "name": "Kvällstraversen",
+      "grade": "L",
+      "length": "",
+      "type": "travers",
+      "firstAscent": "Petter Åsander",
+      "description": "svepande traverslinje på ganska bra grepp men halvkassa steg. Mantling på hörnet.",
+      "source": {
+        "id": "legacy:valberget-boulder",
+        "path": "mediawiki/Valberget-Boulder.txt"
+      }
+    }
+  ],
+  "images": [],
+  "access": {
+    "legacyText": null,
+    "federationSlug": null
+  },
+  "qualityIssues": [],
+  "provenance": {
+    "primarySourceId": "legacy:valberget-boulder",
+    "sources": [
+      {
+        "id": "legacy:valberget-boulder",
+        "title": "Sverigeföraren 2014: Valberget-Boulder",
+        "path": "mediawiki/Valberget-Boulder.txt",
+        "license": "GNU Free Documentation License",
+        "snapshotDate": "2014-01-01"
+      }
+    ]
+  }
+}

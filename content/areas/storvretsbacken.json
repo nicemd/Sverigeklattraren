@@ -1,0 +1,231 @@
+{
+  "schemaVersion": 1,
+  "id": "storvretsbacken",
+  "slug": "storvretsbacken",
+  "name": "Storvretsbacken",
+  "description": "En liten vägg med något, för stockholmstrakten, så ovanligt som lätta bultade turer.",
+  "coordinates": {
+    "latitude": 59.19671,
+    "longitude": 17.83998
+  },
+  "categories": [
+    "Sport",
+    "Stockholm",
+    "Sva",
+    "Vertikalt",
+    "Västra Södertörn"
+  ],
+  "sections": [
+    {
+      "id": "allmant",
+      "title": "Allmänt",
+      "body": "En liten vägg med något, för stockholmstrakten, så ovanligt som lätta bultade turer."
+    },
+    {
+      "id": "karaktar",
+      "title": "Karaktär",
+      "body": "Väggen är 8-10m hög och alla leder är borrbultade och försedda med ankare. Miljön är lite speciell då klippan ligger precis vid en vältrafikerad gångväg. En del kommentarer från överförfriskade, förbipasserande herrar ingår i paketet. De flesta ankare är lätta att komma åt uppifrån för att sätta topprep i. Klippan är nordöst-vänd men torkar ganska långsamt efter regn. Även marken nedanför klippan är oftast blöt. Klippan är upplyst på kvällarna!"
+    },
+    {
+      "id": "vagbeskrivning",
+      "title": "Vägbeskrivning",
+      "body": "titel=Storvretsbacken lat=17839980 long=59196710 Bil: Från Tumba centrum, ta Huddingevägen mot Huddinge. Sväng h efter köpcentret. Sväng h in på Bryggarvägen och fortsätt förbi McDonalds och brädgården till parkeringen. Kommunalt: Åk pendeltåget till Tumba och gå ut vid västra utgången (framåt i färdriktningen om man kommer från Stockholm) och gå ner till bussterminalen. Gå förbi busshållplatserna och ett stort cykelställ och in på en gångväg skyltad Storvreten"
+    },
+    {
+      "id": "leder",
+      "title": "Leder",
+      "body": "men på ett något mer ansträngande sätt.}}"
+    },
+    {
+      "id": "observera",
+      "title": "Observera!",
+      "body": "Klippan ligger på kommunal parkmark. Botkyrka kommun har gett tillstånd att utveckla klippan och tillåter klättring så länge det sköts på ett snyggt sätt och att alla är medvetna om att klättringen sker på egen risk. Om du vill göra en nytur, vilket det finns utrymme för, så skall den vara ordentligt bultad och försedd med rejält ankare, allt i rostfritt, annars kommer turen att avvecklas."
+    },
+    {
+      "id": "panorama",
+      "title": "Panorama",
+      "body": "Kategori:Sport Kategori:Sva Kategori:Vertikalt Kategori:Stockholm Kategori:Västra Södertörn"
+    }
+  ],
+  "routes": [
+    {
+      "id": "storvretsbacken-led-1",
+      "kind": "route",
+      "number": "1",
+      "name": "Blixten Suddigum",
+      "grade": "6a",
+      "length": "8",
+      "type": "sport",
+      "firstAscent": "Per Willén -03",
+      "description": "Går upp längs ”hyllorna” i klippans vänsterkant. En av dem är ganska intressant att mantla upp på.",
+      "source": {
+        "id": "legacy:storvretsbacken",
+        "path": "mediawiki/Storvretsbacken.txt"
+      }
+    },
+    {
+      "id": "storvretsbacken-led-2",
+      "kind": "route",
+      "number": "2",
+      "name": "Smultron-Agnes",
+      "grade": "6b",
+      "length": "8",
+      "type": "sport",
+      "firstAscent": "Lars Svensson -03",
+      "description": "Går upp till samma ankare som men på ett något mer ansträngande sätt.",
+      "source": {
+        "id": "legacy:storvretsbacken",
+        "path": "mediawiki/Storvretsbacken.txt"
+      }
+    },
+    {
+      "id": "storvretsbacken-led-3",
+      "kind": "route",
+      "number": "3",
+      "name": "Fredriks favorit",
+      "grade": "6a",
+      "length": "8",
+      "type": "sport",
+      "firstAscent": "PW -00",
+      "description": "Graden gäller insteg rakt upp. Man kan göra leden lättare genom att börja med rampen (5b).",
+      "source": {
+        "id": "legacy:storvretsbacken",
+        "path": "mediawiki/Storvretsbacken.txt"
+      }
+    },
+    {
+      "id": "storvretsbacken-led-4",
+      "kind": "route",
+      "number": "4",
+      "name": "Samnerud - pionjären",
+      "grade": "4c",
+      "length": "10",
+      "type": "sport",
+      "firstAscent": "Andreas Bengtsson -00",
+      "description": "",
+      "source": {
+        "id": "legacy:storvretsbacken",
+        "path": "mediawiki/Storvretsbacken.txt"
+      }
+    },
+    {
+      "id": "storvretsbacken-led-5",
+      "kind": "route",
+      "number": "5",
+      "name": "Oceanen",
+      "grade": "4c",
+      "length": "10",
+      "type": "sport",
+      "firstAscent": "Magnus Linderholm -00",
+      "description": "",
+      "source": {
+        "id": "legacy:storvretsbacken",
+        "path": "mediawiki/Storvretsbacken.txt"
+      }
+    },
+    {
+      "id": "storvretsbacken-led-6",
+      "kind": "route",
+      "number": "6",
+      "name": "Kronan",
+      "grade": "4c",
+      "length": "10",
+      "type": "sport",
+      "firstAscent": "Thomas Eriksson -03",
+      "description": "",
+      "source": {
+        "id": "legacy:storvretsbacken",
+        "path": "mediawiki/Storvretsbacken.txt"
+      }
+    },
+    {
+      "id": "storvretsbacken-led-7",
+      "kind": "route",
+      "number": "7",
+      "name": "Knipsaren",
+      "grade": "5a",
+      "length": "10",
+      "type": "sport",
+      "firstAscent": "PW -03",
+      "description": "",
+      "source": {
+        "id": "legacy:storvretsbacken",
+        "path": "mediawiki/Storvretsbacken.txt"
+      }
+    },
+    {
+      "id": "storvretsbacken-led-8",
+      "kind": "route",
+      "number": "8",
+      "name": "The Prince of Darkness",
+      "grade": "6b+",
+      "length": "10",
+      "type": "sport",
+      "firstAscent": "TE -03",
+      "description": "Fin klättring som tyvärr ofta är blöt i nedre delen.",
+      "source": {
+        "id": "legacy:storvretsbacken",
+        "path": "mediawiki/Storvretsbacken.txt"
+      }
+    },
+    {
+      "id": "storvretsbacken-led-9",
+      "kind": "route",
+      "number": "9",
+      "name": "Topprepsleden",
+      "grade": "?",
+      "length": "10",
+      "type": "Topprep",
+      "firstAscent": "",
+      "description": "",
+      "source": {
+        "id": "legacy:storvretsbacken",
+        "path": "mediawiki/Storvretsbacken.txt"
+      }
+    },
+    {
+      "id": "storvretsbacken-led-10",
+      "kind": "route",
+      "number": "10",
+      "name": "Skurgumman",
+      "grade": "6a",
+      "length": "10",
+      "type": "sport",
+      "firstAscent": "Petra Carlénarsson -03",
+      "description": "Klippans svaled. Graderingen gäller om man gör en liten kringgående manöver åt vänster på mitten, annars blir leden betydligt svårare.",
+      "source": {
+        "id": "legacy:storvretsbacken",
+        "path": "mediawiki/Storvretsbacken.txt"
+      }
+    }
+  ],
+  "images": [
+    {
+      "filename": "Storvretsbacken_skiss.gif",
+      "caption": "",
+      "missing": false
+    },
+    {
+      "filename": "Pano_DSC08039.jpg",
+      "caption": "740px",
+      "missing": false
+    }
+  ],
+  "access": {
+    "legacyText": null,
+    "federationSlug": null
+  },
+  "qualityIssues": [],
+  "provenance": {
+    "primarySourceId": "legacy:storvretsbacken",
+    "sources": [
+      {
+        "id": "legacy:storvretsbacken",
+        "title": "Sverigeföraren 2014: Storvretsbacken",
+        "path": "mediawiki/Storvretsbacken.txt",
+        "license": "GNU Free Documentation License",
+        "snapshotDate": "2014-01-01"
+      }
+    ]
+  }
+}

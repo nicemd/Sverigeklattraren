@@ -1,0 +1,164 @@
+{
+  "schemaVersion": 1,
+  "id": "uvhallsklack",
+  "slug": "uvhallsklack",
+  "name": "Uvhällsklack",
+  "description": "Lång \"klack\" med bra topprepsmöjligheter. Här har klättring bedrivits sedan 80-talet. Upplandsleden passerar nära parkeringen och leder ner till Tenasjöns badplats (1km). Somliga vintrar bildas klätterbar is på de lägre svapartierna.",
+  "coordinates": {
+    "latitude": 59.89238146613623,
+    "longitude": 17.07953453063965
+  },
+  "categories": [
+    "Saknar leder",
+    "Saknar skiss",
+    "Uppland",
+    "Uppsala"
+  ],
+  "sections": [
+    {
+      "id": "allmant",
+      "title": "Allmänt",
+      "body": "Lång \"klack\" med bra topprepsmöjligheter. Här har klättring bedrivits sedan 80-talet. Upplandsleden passerar nära parkeringen och leder ner till Tenasjöns badplats (1km). Somliga vintrar bildas klätterbar is på de lägre svapartierna."
+    },
+    {
+      "id": "vagbeskrivning",
+      "title": "Vägbeskrivning",
+      "body": "Från Uppsala, ta väg 72 till Vittinge och sväng till vänster vid skylten till Hårsbäck, som tar dig över järnvägen. Efter 100m ta till vänster på Lillbovägen. Kör 400m och sväng sedan till höger vid T-korsningen. Denna väg forsätter österut ~1km innan den stängs av en bom. 100m innan bomen finns det en liten parkering på höger sidan. Gå sedan till bommen. Klipporna är ungefär 30m till vänster."
+    },
+    {
+      "id": "leder",
+      "title": "Leder",
+      "body": "Fler leder finns beskrivna i gamla Uppsala-föraren."
+    },
+    {
+      "id": "lankar",
+      "title": "Länkar",
+      "body": "* Klättring runt Uppsala Kategori:Uppsala Kategori:Uppland Kategori:Saknar leder Kategori:Saknar skiss"
+    }
+  ],
+  "routes": [
+    {
+      "id": "uvhallsklack-led-1",
+      "kind": "route",
+      "number": null,
+      "name": "okänt",
+      "grade": "4",
+      "length": "5",
+      "type": "",
+      "firstAscent": "",
+      "description": "Kort spricka på väggpartiet längst till vänster.",
+      "source": {
+        "id": "legacy:uvhallsklack",
+        "path": "mediawiki/Uvhällsklack.txt"
+      }
+    },
+    {
+      "id": "uvhallsklack-led-2",
+      "kind": "route",
+      "number": null,
+      "name": "Upp!",
+      "grade": "6a+",
+      "length": "8",
+      "type": "sport",
+      "firstAscent": "JE,MD",
+      "description": "15m t.h. om korta sprickan. Start under \"bullen\" sen rakt upp via arete till ankare.",
+      "source": {
+        "id": "legacy:uvhallsklack",
+        "path": "mediawiki/Uvhällsklack.txt"
+      }
+    },
+    {
+      "id": "uvhallsklack-led-3",
+      "kind": "route",
+      "number": null,
+      "name": "Pyramider",
+      "grade": "6b",
+      "length": "8",
+      "type": "",
+      "firstAscent": "JE,MD (topprep)",
+      "description": "5m t.h om Upp. Teknisk.",
+      "source": {
+        "id": "legacy:uvhallsklack",
+        "path": "mediawiki/Uvhällsklack.txt"
+      }
+    },
+    {
+      "id": "uvhallsklack-led-4",
+      "kind": "route",
+      "number": null,
+      "name": "okänt",
+      "grade": "5",
+      "length": "10",
+      "type": "",
+      "firstAscent": "",
+      "description": "Fin topprepsled mitt på huvudväggen.",
+      "source": {
+        "id": "legacy:uvhallsklack",
+        "path": "mediawiki/Uvhällsklack.txt"
+      }
+    },
+    {
+      "id": "uvhallsklack-led-5",
+      "kind": "route",
+      "number": null,
+      "name": "okänt",
+      "grade": "4+",
+      "length": "10",
+      "type": "",
+      "firstAscent": "",
+      "description": "Den uppenbara linjen på huvudväggens högra del.",
+      "source": {
+        "id": "legacy:uvhallsklack",
+        "path": "mediawiki/Uvhällsklack.txt"
+      }
+    },
+    {
+      "id": "uvhallsklack-led-6",
+      "kind": "route",
+      "number": null,
+      "name": "projekt?",
+      "grade": "-",
+      "length": "9",
+      "type": "sport",
+      "firstAscent": "",
+      "description": "30m t.h. om huvudväggen, mitt i det överhängande partiet går denna linje.",
+      "source": {
+        "id": "legacy:uvhallsklack",
+        "path": "mediawiki/Uvhällsklack.txt"
+      }
+    },
+    {
+      "id": "uvhallsklack-led-7",
+      "kind": "route",
+      "number": null,
+      "name": "okänt",
+      "grade": "5",
+      "length": "4",
+      "type": "",
+      "firstAscent": "",
+      "description": "Kul boulderspricka på toppen av klippan.",
+      "source": {
+        "id": "legacy:uvhallsklack",
+        "path": "mediawiki/Uvhällsklack.txt"
+      }
+    }
+  ],
+  "images": [],
+  "access": {
+    "legacyText": null,
+    "federationSlug": null
+  },
+  "qualityIssues": [],
+  "provenance": {
+    "primarySourceId": "legacy:uvhallsklack",
+    "sources": [
+      {
+        "id": "legacy:uvhallsklack",
+        "title": "Sverigeföraren 2014: Uvhällsklack",
+        "path": "mediawiki/Uvhällsklack.txt",
+        "license": "GNU Free Documentation License",
+        "snapshotDate": "2014-01-01"
+      }
+    ]
+  }
+}

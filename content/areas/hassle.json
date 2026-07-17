@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "id": "hassle",
+  "slug": "hassle",
+  "name": "Hassle",
+  "description": "Platsen hyser ett tjugotal block med för nuvarande ett 40tal problem, friktionen är som regel riktigt bra. Alla problem ligger i den något mildare änden av graderingsskalan. Landningarna är som regel mycket bra. Här finns idag möjligheter för nyturer. När man ändå är här kan man passa på att besöka de leder som finns i Hasslebrottet, även här finns Boulder problem.",
+  "coordinates": {
+    "latitude": 56.775368,
+    "longitude": 12.894012
+  },
+  "categories": [
+    "Saknar koordinater",
+    "Saknar leder",
+    "Saknar skiss",
+    "Saknar skrivarformatering",
+    "Saknar vägbeskrivning",
+    "sva",
+    "vertikalt",
+    "överhäng"
+  ],
+  "sections": [
+    {
+      "id": "allmant",
+      "title": "Allmänt",
+      "body": "Platsen hyser ett tjugotal block med för nuvarande ett 40tal problem, friktionen är som regel riktigt bra. Alla problem ligger i den något mildare änden av graderingsskalan. Landningarna är som regel mycket bra. Här finns idag möjligheter för nyturer. När man ändå är här kan man passa på att besöka de leder som finns i Hasslebrottet, även här finns Boulder problem."
+    },
+    {
+      "id": "vagbeskrivning",
+      "title": "Vägbeskrivning",
+      "body": "Karta här. Tryck på kartknappen ovan. Vägbeskrivning: Kör mot Holm om du kommer från Halmstad, ta vägen genom Holm som går över E6. Väl över E6 ta andra vägen till vänster kör sedan till golfklubben och fortsätt förbi denna tills väggen svänger kraftigt vänster här kör du höger in på en asfalterad väg som går över till grusväg efter ett 300m. Följ denna ca: två kilometer. Håll ögonen öppna åt höger här ser du blocken. Hasslebrottet ligger 50m längre fram. Parkera här eller på skogsvägen till vänster vid de övre blocken."
+    },
+    {
+      "id": "leder",
+      "title": "Leder",
+      "body": "Hassle förare Höger kolumn kategori:Saknar skiss kategori:Saknar vägbeskrivning kategori:Saknar leder kategori:Saknar koordinater kategori:Saknar skrivarformatering Category:Halland"
+    }
+  ],
+  "routes": [
+    {
+      "id": "hassle-led-1",
+      "kind": "route",
+      "number": "1",
+      "name": "Namn på led",
+      "grade": "9c+",
+      "length": "30",
+      "type": "trad",
+      "firstAscent": "namn på fa -08",
+      "description": "ledbeskrivning",
+      "source": {
+        "id": "legacy:hassle",
+        "path": "mediawiki/Hassle.txt"
+      }
+    }
+  ],
+  "images": [],
+  "access": {
+    "legacyText": null,
+    "federationSlug": null
+  },
+  "qualityIssues": [],
+  "provenance": {
+    "primarySourceId": "legacy:hassle",
+    "sources": [
+      {
+        "id": "legacy:hassle",
+        "title": "Sverigeföraren 2014: Hassle",
+        "path": "mediawiki/Hassle.txt",
+        "license": "GNU Free Documentation License",
+        "snapshotDate": "2014-01-01"
+      }
+    ]
+  }
+}

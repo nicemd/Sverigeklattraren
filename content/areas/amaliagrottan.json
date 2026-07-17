@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "id": "amaliagrottan",
+  "slug": "amaliagrottan",
+  "name": "Amaliagrottan",
+  "description": "Amaliagrottan är en stor blockgrotta i de småländska skogarna omgiven av många myter och sagor, men för oss klättrare bleknar givetvis allt det när man får se den mäktiga sprickan som klyver det 10 meter långa taket ovanför grottan. Sprickan har varit känd bland lokala klättrare sedan 90-talet, men det dröjde till 2011 innan linjen föll, efter ett par hektiska veckor med många besök från olika klättrare.",
+  "coordinates": null,
+  "categories": [
+    "Småland",
+    "Överhäng"
+  ],
+  "sections": [
+    {
+      "id": "allmant",
+      "title": "Allmänt",
+      "body": "Amaliagrottan är en stor blockgrotta i de småländska skogarna omgiven av många myter och sagor, men för oss klättrare bleknar givetvis allt det när man får se den mäktiga sprickan som klyver det 10 meter långa taket ovanför grottan. Sprickan har varit känd bland lokala klättrare sedan 90-talet, men det dröjde till 2011 innan linjen föll, efter ett par hektiska veckor med många besök från olika klättrare."
+    },
+    {
+      "id": "access",
+      "title": "Access",
+      "body": "Markägaren är positivt inställd till klättring, men p.g.a kulturminnet så har statens instanser inte riktigt sagt sitt än. Därför är det extremt viktigt att vi sköter oss i grottan. Sätt inte upp några nya turer, det som finns att göra runtikring kommer inte upp i närheten av Slagsmålsklubbens kvalitet. Kör inte Rally! och håll det städat och snyggt i grottan, Inga tickmärken och inget skräp!"
+    },
+    {
+      "id": "overnattning",
+      "title": "Övernattning",
+      "body": "Det finns ett vindskydd vid parkeringen, om du använder det så håll låg profil."
+    },
+    {
+      "id": "hitta-hit",
+      "title": "Hitta hit",
+      "body": "Från Eksjöhållet: Tag väg 40 österut mot Vimmerby, Västervik. Fortsätt mot dessa genom Mariannelund. Strax efter avfarten mot Pelarne och Bullerbyn mitt i nerförsbacken tag vänster mot Djurstorp (10,5 km efter järnvägsövergången i Mariannelund). Följ vägen förbi en del fina block över en liten å och tag vänster strax efter ån. Håll låg profil när ni kör genom gården (Björnebro) om jag inte missminner mig är det skyltat med fiske och är en orangemarkerad vandringsled. Fortsätt mot Försjön. Efter knappt 2 kilometer dyker försjön upp med parkering och utedass på höger sida och vindskydd och eldstad på vänster. Parkera där och följ stigen längs med sjöns sydöstra (vänstra) sida till ni når Amaliagrottan (skyltat från parkeringen)."
+    },
+    {
+      "id": "grottan",
+      "title": "Grottan",
+      "body": "Kategori:Småland Kategori:Överhäng"
+    }
+  ],
+  "routes": [
+    {
+      "id": "amaliagrottan-led-1",
+      "kind": "route",
+      "number": "1",
+      "name": "Slagsmålsklubben",
+      "grade": "8",
+      "length": "15",
+      "type": "trad",
+      "firstAscent": "Petter Restorp sep 2011",
+      "description": "Den uppenbara sprickan som klyver taket i minst 10 meter. Uthållighet och stora knytnävar lär hjälpa.",
+      "source": {
+        "id": "legacy:amaliagrottan",
+        "path": "mediawiki/Amaliagrottan.txt"
+      }
+    }
+  ],
+  "images": [
+    {
+      "filename": "Smk.gif",
+      "caption": "namn=Slagsmålsklubben}} Foto: Niklas Andersson",
+      "missing": false
+    }
+  ],
+  "access": {
+    "legacyText": "Markägaren är positivt inställd till klättring, men p.g.a kulturminnet så har statens instanser inte riktigt sagt sitt än. Därför är det extremt viktigt att vi sköter oss i grottan. Sätt inte upp några nya turer, det som finns att göra runtikring kommer inte upp i närheten av Slagsmålsklubbens kvalitet. Kör inte Rally! och håll det städat och snyggt i grottan, Inga tickmärken och inget skräp!",
+    "federationSlug": null
+  },
+  "qualityIssues": [],
+  "provenance": {
+    "primarySourceId": "legacy:amaliagrottan",
+    "sources": [
+      {
+        "id": "legacy:amaliagrottan",
+        "title": "Sverigeföraren 2014: Amaliagrottan",
+        "path": "mediawiki/Amaliagrottan.txt",
+        "license": "GNU Free Documentation License",
+        "snapshotDate": "2014-01-01"
+      }
+    ]
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "id": "gorges-du-loup",
+  "slug": "gorges-du-loup",
+  "name": "Gorges du Loup",
+  "description": "Karta här. Tryck på kartknappen ovan. Skriv vägbeskrivning här.",
+  "coordinates": {
+    "latitude": 59,
+    "longitude": 18
+  },
+  "categories": [
+    "Frankrike",
+    "mix",
+    "Saknar koordinater",
+    "Saknar leder",
+    "Saknar skiss",
+    "Saknar skrivarformatering",
+    "Saknar vägbeskrivning",
+    "sport",
+    "sva",
+    "trad",
+    "Utomlands",
+    "vertikalt",
+    "överhäng"
+  ],
+  "sections": [
+    {
+      "id": "vagbeskrivning",
+      "title": "Vägbeskrivning",
+      "body": "Karta här. Tryck på kartknappen ovan. Skriv vägbeskrivning här."
+    },
+    {
+      "id": "extern-forare",
+      "title": "Extern förare",
+      "body": "http://www.philippegatta.fr/climbing/deverse2.htm Kategori:sport kategori:Saknar skiss kategori:Saknar vägbeskrivning kategori:Saknar leder kategori:Saknar koordinater kategori:Saknar skrivarformatering Kategori:Utomlands Kategori:Frankrike"
+    }
+  ],
+  "routes": [],
+  "images": [],
+  "access": {
+    "legacyText": null,
+    "federationSlug": null
+  },
+  "qualityIssues": [],
+  "provenance": {
+    "primarySourceId": "legacy:gorges-du-loup",
+    "sources": [
+      {
+        "id": "legacy:gorges-du-loup",
+        "title": "Sverigeföraren 2014: Gorges du Loup",
+        "path": "mediawiki/Gorges du Loup.txt",
+        "license": "GNU Free Documentation License",
+        "snapshotDate": "2014-01-01"
+      }
+    ]
+  }
+}

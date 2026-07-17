@@ -1,0 +1,218 @@
+{
+  "schemaVersion": 1,
+  "id": "sandoberget",
+  "slug": "sandoberget",
+  "name": "Sandöberget",
+  "description": "Sjöklippa på Värmdö efter Sandövägen i närheten av Rindö.",
+  "coordinates": null,
+  "categories": [
+    "Mix",
+    "Nacka-Värmdö",
+    "Saknar karta",
+    "Stockholm",
+    "Trad"
+  ],
+  "sections": [
+    {
+      "id": "allmant",
+      "title": "Allmänt",
+      "body": "Sjöklippa på Värmdö efter Sandövägen i närheten av Rindö."
+    },
+    {
+      "id": "miljo",
+      "title": "Miljö",
+      "body": "Sydvänd och helt öppen."
+    },
+    {
+      "id": "vagbeskrivning",
+      "title": "Vägbeskrivning",
+      "body": "Vid Hemmesta vägskäl, vik av v mot Vaxholm. Efter ca 4 km ta av mot Sandö. Efter ytterligare ca 4 km kan man skymta svaplattor vid vattnet på v sida, Sandövägen 77. Position: 10 J NV"
+    },
+    {
+      "id": "access",
+      "title": "Access",
+      "body": "Berget ligger på privat mark, varför största hänsyn måste tas. Klättra ej under häckningstid."
+    },
+    {
+      "id": "leder",
+      "title": "Leder",
+      "body": "Kategori:Nacka-Värmdö Kategori:Stockholm Kategori:Trad Kategori:Mix Kategori:Saknar karta"
+    }
+  ],
+  "routes": [
+    {
+      "id": "sandoberget-led-1",
+      "kind": "route",
+      "number": "1",
+      "name": "Kajs led",
+      "grade": "5+",
+      "length": "12",
+      "type": "trad",
+      "firstAscent": "Kay von Damm -95",
+      "description": "",
+      "source": {
+        "id": "legacy:sandoberget",
+        "path": "mediawiki/Sandöberget.txt"
+      }
+    },
+    {
+      "id": "sandoberget-led-2",
+      "kind": "route",
+      "number": "2",
+      "name": "Svållen gårka",
+      "grade": "6",
+      "length": "17",
+      "type": "mix",
+      "firstAscent": "Mats Olofsson, Tobas Norenstedt -95",
+      "description": "",
+      "source": {
+        "id": "legacy:sandoberget",
+        "path": "mediawiki/Sandöberget.txt"
+      }
+    },
+    {
+      "id": "sandoberget-led-3",
+      "kind": "route",
+      "number": "3",
+      "name": "Bondmorans valkiga innanlår",
+      "grade": "5",
+      "length": "15",
+      "type": "trad",
+      "firstAscent": "Kay von Damm, Jonas Paulsson -91",
+      "description": "",
+      "source": {
+        "id": "legacy:sandoberget",
+        "path": "mediawiki/Sandöberget.txt"
+      }
+    },
+    {
+      "id": "sandoberget-led-4",
+      "kind": "route",
+      "number": "4",
+      "name": "Liquidation totale",
+      "grade": "7-",
+      "length": "12",
+      "type": "mix",
+      "firstAscent": "Kay von Damm -91",
+      "description": "",
+      "source": {
+        "id": "legacy:sandoberget",
+        "path": "mediawiki/Sandöberget.txt"
+      }
+    },
+    {
+      "id": "sandoberget-led-5",
+      "kind": "route",
+      "number": "5",
+      "name": "Clipboard",
+      "grade": "6/6+",
+      "length": "12",
+      "type": "mix",
+      "firstAscent": "Buster Delin, Kay von Damm -91",
+      "description": "",
+      "source": {
+        "id": "legacy:sandoberget",
+        "path": "mediawiki/Sandöberget.txt"
+      }
+    },
+    {
+      "id": "sandoberget-led-6",
+      "kind": "route",
+      "number": "6",
+      "name": "Lätt på foten",
+      "grade": "6+",
+      "length": "15",
+      "type": "mix",
+      "firstAscent": "Kay von Damm, Mats Olofsson -93",
+      "description": "",
+      "source": {
+        "id": "legacy:sandoberget",
+        "path": "mediawiki/Sandöberget.txt"
+      }
+    },
+    {
+      "id": "sandoberget-led-7",
+      "kind": "route",
+      "number": "7",
+      "name": "Zapf dingbats",
+      "grade": "5",
+      "length": "16",
+      "type": "mix",
+      "firstAscent": "Per Calleberg, Jonas Paulsson -91",
+      "description": "",
+      "source": {
+        "id": "legacy:sandoberget",
+        "path": "mediawiki/Sandöberget.txt"
+      }
+    },
+    {
+      "id": "sandoberget-led-8",
+      "kind": "route",
+      "number": "8",
+      "name": "Pioneerpelaren",
+      "grade": "6+",
+      "length": "18",
+      "type": "mix",
+      "firstAscent": "Mats Olofsson, Kay von Damm -93",
+      "description": "",
+      "source": {
+        "id": "legacy:sandoberget",
+        "path": "mediawiki/Sandöberget.txt"
+      }
+    },
+    {
+      "id": "sandoberget-led-9",
+      "kind": "route",
+      "number": "9",
+      "name": "Me spat i rumpan",
+      "grade": "6-",
+      "length": "15",
+      "type": "trad",
+      "firstAscent": "Mats Olofsson, Annika Stunke -93",
+      "description": "",
+      "source": {
+        "id": "legacy:sandoberget",
+        "path": "mediawiki/Sandöberget.txt"
+      }
+    },
+    {
+      "id": "sandoberget-led-10",
+      "kind": "route",
+      "number": "10",
+      "name": "Fruits de mer",
+      "grade": "5-",
+      "length": "18",
+      "type": "trad",
+      "firstAscent": "Jonas Paulsson, Kay von Damm -91",
+      "description": "",
+      "source": {
+        "id": "legacy:sandoberget",
+        "path": "mediawiki/Sandöberget.txt"
+      }
+    }
+  ],
+  "images": [
+    {
+      "filename": "Sandöberget.png",
+      "caption": "",
+      "missing": false
+    }
+  ],
+  "access": {
+    "legacyText": "Berget ligger på privat mark, varför största hänsyn måste tas. Klättra ej under häckningstid.",
+    "federationSlug": null
+  },
+  "qualityIssues": [],
+  "provenance": {
+    "primarySourceId": "legacy:sandoberget",
+    "sources": [
+      {
+        "id": "legacy:sandoberget",
+        "title": "Sverigeföraren 2014: Sandöberget",
+        "path": "mediawiki/Sandöberget.txt",
+        "license": "GNU Free Documentation License",
+        "snapshotDate": "2014-01-01"
+      }
+    ]
+  }
+}

@@ -1,0 +1,504 @@
+{
+  "schemaVersion": 1,
+  "id": "gunnilse",
+  "slug": "gunnilse",
+  "name": "Gunnilse",
+  "description": "Trevligt ställe. Finfin approach, mjuk och fin klippa med stora grepp.",
+  "coordinates": {
+    "latitude": 57.79273,
+    "longitude": 12.07582
+  },
+  "categories": [
+    "Göteborg",
+    "sport",
+    "överhäng"
+  ],
+  "sections": [
+    {
+      "id": "allmant",
+      "title": "Allmänt",
+      "body": "Trevligt ställe. Finfin approach, mjuk och fin klippa med stora grepp."
+    },
+    {
+      "id": "enigma",
+      "title": "Enigma",
+      "body": "En klippa en bit bort. Kategori:Göteborg"
+    }
+  ],
+  "routes": [
+    {
+      "id": "gunnilse-led-1",
+      "kind": "route",
+      "number": null,
+      "name": "Gröna Lund",
+      "grade": "5a",
+      "length": "",
+      "type": "",
+      "firstAscent": "",
+      "description": "",
+      "source": {
+        "id": "legacy:gunnilse",
+        "path": "mediawiki/Gunnilse.txt"
+      }
+    },
+    {
+      "id": "gunnilse-led-2",
+      "kind": "route",
+      "number": null,
+      "name": "Rampen",
+      "grade": "4+ r/x",
+      "length": "",
+      "type": "trad",
+      "firstAscent": "",
+      "description": "Rampen längst till vänster, därefter diedret. Sista säkringen är i början av diedret.",
+      "source": {
+        "id": "legacy:gunnilse",
+        "path": "mediawiki/Gunnilse.txt"
+      }
+    },
+    {
+      "id": "gunnilse-led-3",
+      "kind": "route",
+      "number": null,
+      "name": "Junibacken",
+      "grade": "5a+",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "",
+      "description": "",
+      "source": {
+        "id": "legacy:gunnilse",
+        "path": "mediawiki/Gunnilse.txt"
+      }
+    },
+    {
+      "id": "gunnilse-led-4",
+      "kind": "route",
+      "number": null,
+      "name": "Liseberg",
+      "grade": "6c",
+      "length": "",
+      "type": "topprep",
+      "firstAscent": "",
+      "description": "Använd Junibackens topprepsankare",
+      "source": {
+        "id": "legacy:gunnilse",
+        "path": "mediawiki/Gunnilse.txt"
+      }
+    },
+    {
+      "id": "gunnilse-led-5",
+      "kind": "route",
+      "number": null,
+      "name": "Biceps Femoris",
+      "grade": "6c",
+      "length": "",
+      "type": "",
+      "firstAscent": "",
+      "description": "",
+      "source": {
+        "id": "legacy:gunnilse",
+        "path": "mediawiki/Gunnilse.txt"
+      }
+    },
+    {
+      "id": "gunnilse-led-6",
+      "kind": "route",
+      "number": null,
+      "name": "Elefantöra",
+      "grade": "6c",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "Henrik Sennelöv och Lars Ingemansson",
+      "description": "Det finns numera bult så det går att säkert klättra ifrån Elefantöra till Biceps femoris, 7b",
+      "source": {
+        "id": "legacy:gunnilse",
+        "path": "mediawiki/Gunnilse.txt"
+      }
+    },
+    {
+      "id": "gunnilse-led-7",
+      "kind": "route",
+      "number": null,
+      "name": "Triceps",
+      "grade": "7a",
+      "length": "",
+      "type": "",
+      "firstAscent": "",
+      "description": "",
+      "source": {
+        "id": "legacy:gunnilse",
+        "path": "mediawiki/Gunnilse.txt"
+      }
+    },
+    {
+      "id": "gunnilse-led-8",
+      "kind": "route",
+      "number": null,
+      "name": "90 000",
+      "grade": "7",
+      "length": "",
+      "type": "mix",
+      "firstAscent": "Henrik Sennelöv & Lars Ingemansson",
+      "description": "",
+      "source": {
+        "id": "legacy:gunnilse",
+        "path": "mediawiki/Gunnilse.txt"
+      }
+    },
+    {
+      "id": "gunnilse-led-9",
+      "kind": "route",
+      "number": null,
+      "name": "Giraffhals",
+      "grade": "6+",
+      "length": "",
+      "type": "mix",
+      "firstAscent": "",
+      "description": "",
+      "source": {
+        "id": "legacy:gunnilse",
+        "path": "mediawiki/Gunnilse.txt"
+      }
+    },
+    {
+      "id": "gunnilse-led-10",
+      "kind": "route",
+      "number": null,
+      "name": "Deltoideus",
+      "grade": "6+",
+      "length": "",
+      "type": "trad",
+      "firstAscent": "Olof Hedberg",
+      "description": "",
+      "source": {
+        "id": "legacy:gunnilse",
+        "path": "mediawiki/Gunnilse.txt"
+      }
+    },
+    {
+      "id": "gunnilse-led-11",
+      "kind": "route",
+      "number": null,
+      "name": "Girafföra",
+      "grade": "6+",
+      "length": "",
+      "type": "trad",
+      "firstAscent": "Olof Hedberg",
+      "description": "",
+      "source": {
+        "id": "legacy:gunnilse",
+        "path": "mediawiki/Gunnilse.txt"
+      }
+    },
+    {
+      "id": "gunnilse-led-12",
+      "kind": "route",
+      "number": null,
+      "name": "Mea Culpa",
+      "grade": "6c+",
+      "length": "",
+      "type": "",
+      "firstAscent": "",
+      "description": "",
+      "source": {
+        "id": "legacy:gunnilse",
+        "path": "mediawiki/Gunnilse.txt"
+      }
+    },
+    {
+      "id": "gunnilse-led-13",
+      "kind": "route",
+      "number": null,
+      "name": "Latissimus",
+      "grade": "6c",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "",
+      "description": "Långa drag över stora grepp.",
+      "source": {
+        "id": "legacy:gunnilse",
+        "path": "mediawiki/Gunnilse.txt"
+      }
+    },
+    {
+      "id": "gunnilse-led-14",
+      "kind": "route",
+      "number": null,
+      "name": "Skällande hundar",
+      "grade": "6c+",
+      "length": "",
+      "type": "",
+      "firstAscent": "",
+      "description": "",
+      "source": {
+        "id": "legacy:gunnilse",
+        "path": "mediawiki/Gunnilse.txt"
+      }
+    },
+    {
+      "id": "gunnilse-led-15",
+      "kind": "route",
+      "number": null,
+      "name": "Lagom är bäst",
+      "grade": "7",
+      "length": "",
+      "type": "",
+      "firstAscent": "",
+      "description": "",
+      "source": {
+        "id": "legacy:gunnilse",
+        "path": "mediawiki/Gunnilse.txt"
+      }
+    },
+    {
+      "id": "gunnilse-led-16",
+      "kind": "route",
+      "number": null,
+      "name": "Betjänten",
+      "grade": "7b+",
+      "length": "",
+      "type": "",
+      "firstAscent": "",
+      "description": "",
+      "source": {
+        "id": "legacy:gunnilse",
+        "path": "mediawiki/Gunnilse.txt"
+      }
+    },
+    {
+      "id": "gunnilse-led-17",
+      "kind": "route",
+      "number": null,
+      "name": "Greven 8a+",
+      "grade": "8a+",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "",
+      "description": "",
+      "source": {
+        "id": "legacy:gunnilse",
+        "path": "mediawiki/Gunnilse.txt"
+      }
+    },
+    {
+      "id": "gunnilse-led-18",
+      "kind": "route",
+      "number": null,
+      "name": "Skål",
+      "grade": "6c",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "",
+      "description": "",
+      "source": {
+        "id": "legacy:gunnilse",
+        "path": "mediawiki/Gunnilse.txt"
+      }
+    },
+    {
+      "id": "gunnilse-led-19",
+      "kind": "route",
+      "number": null,
+      "name": "och grattis",
+      "grade": "6a+",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "Jens Larssen",
+      "description": "Utstegsvariant på Skål",
+      "source": {
+        "id": "legacy:gunnilse",
+        "path": "mediawiki/Gunnilse.txt"
+      }
+    },
+    {
+      "id": "gunnilse-led-20",
+      "kind": "route",
+      "number": null,
+      "name": "Nionde månaden",
+      "grade": "6-",
+      "length": "",
+      "type": "trad",
+      "firstAscent": "",
+      "description": "",
+      "source": {
+        "id": "legacy:gunnilse",
+        "path": "mediawiki/Gunnilse.txt"
+      }
+    },
+    {
+      "id": "gunnilse-led-21",
+      "kind": "route",
+      "number": null,
+      "name": "Nada",
+      "grade": "6-",
+      "length": "",
+      "type": "trad",
+      "firstAscent": "",
+      "description": "",
+      "source": {
+        "id": "legacy:gunnilse",
+        "path": "mediawiki/Gunnilse.txt"
+      }
+    },
+    {
+      "id": "gunnilse-led-22",
+      "kind": "route",
+      "number": null,
+      "name": "Letterbox",
+      "grade": "5b/6-",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "Charles French and Anette Kinde",
+      "description": "Bultad av Joakim Andersson 2013. Från ankaret kan Nada och Petitess topprepas.",
+      "source": {
+        "id": "legacy:gunnilse",
+        "path": "mediawiki/Gunnilse.txt"
+      }
+    },
+    {
+      "id": "gunnilse-led-23",
+      "kind": "route",
+      "number": null,
+      "name": "Petitess utan finess",
+      "grade": "6-",
+      "length": "",
+      "type": "trad",
+      "firstAscent": "",
+      "description": "",
+      "source": {
+        "id": "legacy:gunnilse",
+        "path": "mediawiki/Gunnilse.txt"
+      }
+    },
+    {
+      "id": "gunnilse-led-24",
+      "kind": "route",
+      "number": null,
+      "name": "Telefonstolpen",
+      "grade": "6a+",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "",
+      "description": "Bakom telefonstolpen.",
+      "source": {
+        "id": "legacy:gunnilse",
+        "path": "mediawiki/Gunnilse.txt"
+      }
+    },
+    {
+      "id": "gunnilse-led-25",
+      "kind": "route",
+      "number": null,
+      "name": "Bagatell",
+      "grade": "6+",
+      "length": "",
+      "type": "",
+      "firstAscent": "",
+      "description": "",
+      "source": {
+        "id": "legacy:gunnilse",
+        "path": "mediawiki/Gunnilse.txt"
+      }
+    },
+    {
+      "id": "gunnilse-led-26",
+      "kind": "route",
+      "number": null,
+      "name": "Evas led",
+      "grade": "4+",
+      "length": "",
+      "type": "trad",
+      "firstAscent": "",
+      "description": "",
+      "source": {
+        "id": "legacy:gunnilse",
+        "path": "mediawiki/Gunnilse.txt"
+      }
+    },
+    {
+      "id": "gunnilse-led-27",
+      "kind": "route",
+      "number": null,
+      "name": "Glader",
+      "grade": "6a+",
+      "length": "",
+      "type": "",
+      "firstAscent": "",
+      "description": "",
+      "source": {
+        "id": "legacy:gunnilse",
+        "path": "mediawiki/Gunnilse.txt"
+      }
+    },
+    {
+      "id": "gunnilse-led-28",
+      "kind": "route",
+      "number": null,
+      "name": "Arboristerna",
+      "grade": "6b",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "Jonas Emanuelsson",
+      "description": "By Jonas Emanuelsson / Jens Larssen August 2013, 6b eller 6a+",
+      "source": {
+        "id": "legacy:gunnilse",
+        "path": "mediawiki/Gunnilse.txt"
+      }
+    },
+    {
+      "id": "gunnilse-led-29",
+      "kind": "route",
+      "number": null,
+      "name": "Knytes Aréte",
+      "grade": "4-",
+      "length": "",
+      "type": "",
+      "firstAscent": "",
+      "description": "",
+      "source": {
+        "id": "legacy:gunnilse",
+        "path": "mediawiki/Gunnilse.txt"
+      }
+    },
+    {
+      "id": "gunnilse-led-30",
+      "kind": "route",
+      "number": null,
+      "name": "Enigma",
+      "grade": "7b",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "Lars Ingemansson",
+      "description": "",
+      "source": {
+        "id": "legacy:gunnilse",
+        "path": "mediawiki/Gunnilse.txt"
+      }
+    }
+  ],
+  "images": [
+    {
+      "filename": "Gunnilse_oversikt.jpg",
+      "caption": "",
+      "missing": false
+    }
+  ],
+  "access": {
+    "legacyText": null,
+    "federationSlug": null
+  },
+  "qualityIssues": [],
+  "provenance": {
+    "primarySourceId": "legacy:gunnilse",
+    "sources": [
+      {
+        "id": "legacy:gunnilse",
+        "title": "Sverigeföraren 2014: Gunnilse",
+        "path": "mediawiki/Gunnilse.txt",
+        "license": "GNU Free Documentation License",
+        "snapshotDate": "2014-01-01"
+      }
+    ]
+  }
+}

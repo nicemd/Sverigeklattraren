@@ -1,0 +1,137 @@
+{
+  "schemaVersion": 1,
+  "id": "umea-city",
+  "slug": "umea-city",
+  "name": "Umeå City",
+  "description": "Kategori:Saknar allmän infoKategori:Saknar vägbeskrivning =Sektorer=",
+  "coordinates": null,
+  "categories": [
+    "Behöver kvalitetssäkras",
+    "Bimbo",
+    "Bouldering",
+    "Saknar allmän info",
+    "Saknar karta",
+    "Saknar koordinater",
+    "Saknar skiss",
+    "Saknar skrivarformattering",
+    "Saknar vägbeskrivning",
+    "Umeå"
+  ],
+  "sections": [
+    {
+      "id": "brofastet",
+      "title": "Brofästet",
+      "body": "=Problem= Kategori:Umeå Kategori:Bouldering Kategori:Bimbo Kategori:Behöver kvalitetssäkras Kategori:Saknar karta Kategori:Saknar koordinater Kategori:Saknar skrivarformattering Kategori:Saknar skiss"
+    }
+  ],
+  "routes": [
+    {
+      "id": "umea-city-problem-1",
+      "kind": "problem",
+      "number": null,
+      "name": "Fikusexhibitionism",
+      "grade": "5C",
+      "length": "",
+      "type": "Krimp,Aréte",
+      "firstAscent": "Tatt & Damp",
+      "description": "Går på gångbron över älven mellan teg och stan. Brofästet på stadssidan, och på detta den sida som vätter mot stan. Bara att klättra rakt upp till hyllan och mantla. Småkänslig.",
+      "source": {
+        "id": "legacy:umea-city",
+        "path": "mediawiki/Umeå City.txt"
+      }
+    },
+    {
+      "id": "umea-city-problem-2",
+      "kind": "problem",
+      "number": null,
+      "name": "Idiothopp",
+      "grade": "7A",
+      "length": "",
+      "type": "Dyno",
+      "firstAscent": "Damp & Tatt",
+      "description": "Går på samma ställe som Fikusexhibitionism. Dyna direkt till hyllan från den givna startlisten. Ganska långt och det blir bökigare i och med små/dåliga steg.",
+      "source": {
+        "id": "legacy:umea-city",
+        "path": "mediawiki/Umeå City.txt"
+      }
+    },
+    {
+      "id": "umea-city-problem-3",
+      "kind": "problem",
+      "number": null,
+      "name": "Tattarhaket",
+      "grade": "6B",
+      "length": "",
+      "type": "Slopers,Reach",
+      "firstAscent": "DK & PL",
+      "description": "Ligger på muren på Hovrättsgatan, väst på stan. Innan sista korsningen längst ner mot älven. I stort sett helt värdelöst problem. Starta hängande i den undre fastgjutna stenen och dra till den övre sen upp. Man får ej gå direkt upp.",
+      "source": {
+        "id": "legacy:umea-city",
+        "path": "mediawiki/Umeå City.txt"
+      }
+    },
+    {
+      "id": "umea-city-problem-4",
+      "kind": "problem",
+      "number": null,
+      "name": "Artifiziellecke",
+      "grade": "5C",
+      "length": "",
+      "type": "Highball,Aréte,Jug",
+      "firstAscent": "Jimmy-Bob, Tatt, Damp",
+      "description": "Ligger vid tunneln under E4 på teg. Det givna höga arêtet. Bara att suga i och åla sig upp. Går troligtvis lika lätt med klätterskor som utan. Padda är nog grymt skönt om man mot förmodan faller.",
+      "source": {
+        "id": "legacy:umea-city",
+        "path": "mediawiki/Umeå City.txt"
+      }
+    },
+    {
+      "id": "umea-city-problem-5",
+      "kind": "problem",
+      "number": null,
+      "name": "Berlinbarn",
+      "grade": "6A",
+      "length": "",
+      "type": "Pinch,Reach",
+      "firstAscent": "Jimmy-Bob, Damp, Tatt",
+      "description": "Går mitt på väggen till vänster om Artifiziellecke. Starta mitt för stolpen och rakt upp, inte för att det spelar så stor roll, likadana grepp flera meter åt varje håll. Lite vass men ok.",
+      "source": {
+        "id": "legacy:umea-city",
+        "path": "mediawiki/Umeå City.txt"
+      }
+    },
+    {
+      "id": "umea-city-problem-6",
+      "kind": "problem",
+      "number": null,
+      "name": "Mickel Räv",
+      "grade": "5A",
+      "length": "",
+      "type": "Krimp",
+      "firstAscent": "Anders Lidman",
+      "description": "Ligger nere vid gångvägen från Carlshem till Strömpilen. Den s.k MAXI-klippanStarta i slope för högerhanden och crimp för vänster. Klättra rakt upp",
+      "source": {
+        "id": "legacy:umea-city",
+        "path": "mediawiki/Umeå City.txt"
+      }
+    }
+  ],
+  "images": [],
+  "access": {
+    "legacyText": null,
+    "federationSlug": null
+  },
+  "qualityIssues": [],
+  "provenance": {
+    "primarySourceId": "legacy:umea-city",
+    "sources": [
+      {
+        "id": "legacy:umea-city",
+        "title": "Sverigeföraren 2014: Umeå City",
+        "path": "mediawiki/Umeå City.txt",
+        "license": "GNU Free Documentation License",
+        "snapshotDate": "2014-01-01"
+      }
+    ]
+  }
+}

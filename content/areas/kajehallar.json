@@ -1,0 +1,507 @@
+{
+  "schemaVersion": 1,
+  "id": "kajehallar",
+  "slug": "kajehallar",
+  "name": "Kajehallar",
+  "description": "Cirka 400 m klippa uppdelad på sex partier. Lederna är antingen naturligt säkrade eller klättras på topprep. Det är enkelt att sätta topprep, men det krävs en hel del statiskt rep på sina håll. Ungefär mitt på väggen finns ett flackare parti med en stig upp.",
+  "coordinates": {
+    "latitude": 56.7897,
+    "longitude": 12.83583
+  },
+  "categories": [
+    "Halland"
+  ],
+  "sections": [
+    {
+      "id": "allmant",
+      "title": "Allmänt",
+      "body": "Cirka 400 m klippa uppdelad på sex partier. Lederna är antingen naturligt säkrade eller klättras på topprep. Det är enkelt att sätta topprep, men det krävs en hel del statiskt rep på sina håll. Ungefär mitt på väggen finns ett flackare parti med en stig upp."
+    },
+    {
+      "id": "access",
+      "title": "Access",
+      "body": "Det finns inga närliggande hus, och de locals vi träffat på verkade vänligt inställda till och vana vid klättrare."
+    },
+    {
+      "id": "hitta-hit",
+      "title": "Hitta hit",
+      "body": "Klippan ligger på cykelavstånd från Halmstad (1,5 mil) och det går att ta sig hit med lokaltrafiken. Kör gamla göteborgsvägen till Kvibille. Vid gästgiveriet, ta av in på vägen mot Slättåkra och Oskarsström. Fortsätt cirka 400 meter och sväng sedan vänster in på Lundsgårdsvägen. I höjd med Ekegränd går ni höger in i skogen och följer högerkanten av dalen. Efter 300 meter kommer man till Originalväggen. Alternativt kör man in till höger på skogsvägen innan Ekegränd och följer den till den stora grusplanen där man kan parkera. Sedan är det bara att gå direkt åt vänster och snedda upp genom skogen så kommer man direkt på klipporna ovanifrån."
+    },
+    {
+      "id": "kallor",
+      "title": "Källor",
+      "body": "For more routes see http://www.mountain-environment.com/Rock_climbing_guide_Kajehallar.pdf Kategori:Halland"
+    }
+  ],
+  "routes": [
+    {
+      "id": "kajehallar-led-1",
+      "kind": "route",
+      "number": "1",
+      "name": "Agrikulturen",
+      "grade": "4",
+      "length": "20",
+      "type": "trad",
+      "firstAscent": "D. Lindwall - 91",
+      "description": "",
+      "source": {
+        "id": "legacy:kajehallar",
+        "path": "mediawiki/Kajehallar.txt"
+      }
+    },
+    {
+      "id": "kajehallar-led-2",
+      "kind": "route",
+      "number": "2",
+      "name": "Jam Session",
+      "grade": "6+",
+      "length": "20",
+      "type": "trad",
+      "firstAscent": "D. Lindwall - 91",
+      "description": "",
+      "source": {
+        "id": "legacy:kajehallar",
+        "path": "mediawiki/Kajehallar.txt"
+      }
+    },
+    {
+      "id": "kajehallar-led-3",
+      "kind": "route",
+      "number": "3",
+      "name": "Slutet",
+      "grade": "6+",
+      "length": "20",
+      "type": "trad",
+      "firstAscent": "D. Lindwall, J. Lundgren - 90",
+      "description": "",
+      "source": {
+        "id": "legacy:kajehallar",
+        "path": "mediawiki/Kajehallar.txt"
+      }
+    },
+    {
+      "id": "kajehallar-led-4",
+      "kind": "route",
+      "number": "4",
+      "name": "Kongo",
+      "grade": "6+",
+      "length": "20",
+      "type": "trad",
+      "firstAscent": "Mattias Lundqvist -97",
+      "description": "Förstod aldrig hur den skulle avslutas. Oklart avritat i Halmstadföraren men ska enligt denna ha ett \"härligt utsteg\".",
+      "source": {
+        "id": "legacy:kajehallar",
+        "path": "mediawiki/Kajehallar.txt"
+      }
+    },
+    {
+      "id": "kajehallar-led-5",
+      "kind": "route",
+      "number": "5",
+      "name": "Stenen på benen",
+      "grade": "6+",
+      "length": "20",
+      "type": "trad",
+      "firstAscent": "D. Lindwall, M. Andersson -91",
+      "description": "Fin layback fram till kruxet.",
+      "source": {
+        "id": "legacy:kajehallar",
+        "path": "mediawiki/Kajehallar.txt"
+      }
+    },
+    {
+      "id": "kajehallar-led-6",
+      "kind": "route",
+      "number": "6",
+      "name": "Fet och värdo",
+      "grade": "4+",
+      "length": "15",
+      "type": "trad",
+      "firstAscent": "J. Lundgren, M. Jönsson - 90",
+      "description": "",
+      "source": {
+        "id": "legacy:kajehallar",
+        "path": "mediawiki/Kajehallar.txt"
+      }
+    },
+    {
+      "id": "kajehallar-led-7",
+      "kind": "route",
+      "number": "7",
+      "name": "Mr. Mean",
+      "grade": "7",
+      "length": "20",
+      "type": "trad",
+      "firstAscent": "D. Lindwall, J. Lundgren -91",
+      "description": "",
+      "source": {
+        "id": "legacy:kajehallar",
+        "path": "mediawiki/Kajehallar.txt"
+      }
+    },
+    {
+      "id": "kajehallar-led-8",
+      "kind": "route",
+      "number": "8",
+      "name": "Arresterad",
+      "grade": "5+",
+      "length": "20",
+      "type": "T.R.",
+      "firstAscent": "D. Lindwall - 90",
+      "description": "",
+      "source": {
+        "id": "legacy:kajehallar",
+        "path": "mediawiki/Kajehallar.txt"
+      }
+    },
+    {
+      "id": "kajehallar-led-9",
+      "kind": "route",
+      "number": "9",
+      "name": "Sväng vänster",
+      "grade": "5+",
+      "length": "20",
+      "type": "T.R.",
+      "firstAscent": "Björn Hedberg - 07",
+      "description": "Fin helkroppsjam halvvägs.",
+      "source": {
+        "id": "legacy:kajehallar",
+        "path": "mediawiki/Kajehallar.txt"
+      }
+    },
+    {
+      "id": "kajehallar-led-10",
+      "kind": "route",
+      "number": "10",
+      "name": "Runout",
+      "grade": "?",
+      "length": "20",
+      "type": "trad",
+      "firstAscent": "Ludde - 07",
+      "description": "Första vettiga säkringarna 3m upp under flaket.",
+      "source": {
+        "id": "legacy:kajehallar",
+        "path": "mediawiki/Kajehallar.txt"
+      }
+    },
+    {
+      "id": "kajehallar-led-11",
+      "kind": "route",
+      "number": "1",
+      "name": "Je suis un gode",
+      "grade": "7",
+      "length": "15",
+      "type": "T.R.",
+      "firstAscent": "D. Lindwall - 93",
+      "description": "",
+      "source": {
+        "id": "legacy:kajehallar",
+        "path": "mediawiki/Kajehallar.txt"
+      }
+    },
+    {
+      "id": "kajehallar-led-12",
+      "kind": "route",
+      "number": "2",
+      "name": "Lugna gatan",
+      "grade": "6-",
+      "length": "15",
+      "type": "trad",
+      "firstAscent": "D. Lindwall - 93",
+      "description": "",
+      "source": {
+        "id": "legacy:kajehallar",
+        "path": "mediawiki/Kajehallar.txt"
+      }
+    },
+    {
+      "id": "kajehallar-led-13",
+      "kind": "route",
+      "number": "3",
+      "name": "Black Label",
+      "grade": "7-",
+      "length": "15",
+      "type": "T.R.",
+      "firstAscent": "D. Lindwall - 93",
+      "description": "",
+      "source": {
+        "id": "legacy:kajehallar",
+        "path": "mediawiki/Kajehallar.txt"
+      }
+    },
+    {
+      "id": "kajehallar-led-14",
+      "kind": "route",
+      "number": "4",
+      "name": "Svarta konster",
+      "grade": "6-",
+      "length": "15",
+      "type": "trad",
+      "firstAscent": "D. Lindwall - 93",
+      "description": "",
+      "source": {
+        "id": "legacy:kajehallar",
+        "path": "mediawiki/Kajehallar.txt"
+      }
+    },
+    {
+      "id": "kajehallar-led-15",
+      "kind": "route",
+      "number": "5",
+      "name": "Svart hål",
+      "grade": "4",
+      "length": "10",
+      "type": "trad",
+      "firstAscent": "D. Lindwall - 93",
+      "description": "",
+      "source": {
+        "id": "legacy:kajehallar",
+        "path": "mediawiki/Kajehallar.txt"
+      }
+    },
+    {
+      "id": "kajehallar-led-16",
+      "kind": "route",
+      "number": "6",
+      "name": "Dirty Harry",
+      "grade": "5-",
+      "length": "15",
+      "type": "T.R.",
+      "firstAscent": "Björn Hedberg -97",
+      "description": "",
+      "source": {
+        "id": "legacy:kajehallar",
+        "path": "mediawiki/Kajehallar.txt"
+      }
+    },
+    {
+      "id": "kajehallar-led-17",
+      "kind": "route",
+      "number": "7",
+      "name": "Jenny. B",
+      "grade": "5+",
+      "length": "15",
+      "type": "T.R.",
+      "firstAscent": "Olof Wojtkowiak -97",
+      "description": "",
+      "source": {
+        "id": "legacy:kajehallar",
+        "path": "mediawiki/Kajehallar.txt"
+      }
+    },
+    {
+      "id": "kajehallar-led-18",
+      "kind": "route",
+      "number": "8",
+      "name": "Sprickan",
+      "grade": "4+",
+      "length": "15",
+      "type": "T.R.",
+      "firstAscent": "Sten Johansson -97",
+      "description": "",
+      "source": {
+        "id": "legacy:kajehallar",
+        "path": "mediawiki/Kajehallar.txt"
+      }
+    },
+    {
+      "id": "kajehallar-led-19",
+      "kind": "route",
+      "number": "9",
+      "name": "El Kamino",
+      "grade": "4+",
+      "length": "20",
+      "type": "trad",
+      "firstAscent": "J. Lundgren, D. Lindwall - 93",
+      "description": "",
+      "source": {
+        "id": "legacy:kajehallar",
+        "path": "mediawiki/Kajehallar.txt"
+      }
+    },
+    {
+      "id": "kajehallar-led-20",
+      "kind": "route",
+      "number": "1",
+      "name": "Red Label",
+      "grade": "7",
+      "length": "15",
+      "type": "trad",
+      "firstAscent": "D. Lindwall - 93",
+      "description": "",
+      "source": {
+        "id": "legacy:kajehallar",
+        "path": "mediawiki/Kajehallar.txt"
+      }
+    },
+    {
+      "id": "kajehallar-led-21",
+      "kind": "route",
+      "number": "2",
+      "name": "Röde Orm",
+      "grade": "6",
+      "length": "15",
+      "type": "trad",
+      "firstAscent": "D. Lindwall, N. Lindqvist - 93",
+      "description": "",
+      "source": {
+        "id": "legacy:kajehallar",
+        "path": "mediawiki/Kajehallar.txt"
+      }
+    },
+    {
+      "id": "kajehallar-led-22",
+      "kind": "route",
+      "number": "1",
+      "name": "Ett skepp kommer lastat",
+      "grade": "4+",
+      "length": "10",
+      "type": "trad",
+      "firstAscent": "D. Lindwall, J. Lundgren - 93",
+      "description": "",
+      "source": {
+        "id": "legacy:kajehallar",
+        "path": "mediawiki/Kajehallar.txt"
+      }
+    },
+    {
+      "id": "kajehallar-led-23",
+      "kind": "route",
+      "number": "2",
+      "name": "Grenen i grenen",
+      "grade": "4",
+      "length": "10",
+      "type": "trad",
+      "firstAscent": "J. Lundgren -93",
+      "description": "",
+      "source": {
+        "id": "legacy:kajehallar",
+        "path": "mediawiki/Kajehallar.txt"
+      }
+    },
+    {
+      "id": "kajehallar-led-24",
+      "kind": "route",
+      "number": "3",
+      "name": "Knakelibrak snabel",
+      "grade": "4+",
+      "length": "10",
+      "type": "trad",
+      "firstAscent": "D. Lindwall - 93",
+      "description": "",
+      "source": {
+        "id": "legacy:kajehallar",
+        "path": "mediawiki/Kajehallar.txt"
+      }
+    },
+    {
+      "id": "kajehallar-led-25",
+      "kind": "route",
+      "number": "4",
+      "name": "Pinne i brasan",
+      "grade": "4-",
+      "length": "10",
+      "type": "trad",
+      "firstAscent": "D. Lindwall - 93",
+      "description": "",
+      "source": {
+        "id": "legacy:kajehallar",
+        "path": "mediawiki/Kajehallar.txt"
+      }
+    },
+    {
+      "id": "kajehallar-led-26",
+      "kind": "route",
+      "number": "5",
+      "name": "Lakritstrollet",
+      "grade": "5",
+      "length": "10",
+      "type": "T.R.",
+      "firstAscent": "N. Lindqvist -93",
+      "description": "",
+      "source": {
+        "id": "legacy:kajehallar",
+        "path": "mediawiki/Kajehallar.txt"
+      }
+    },
+    {
+      "id": "kajehallar-led-27",
+      "kind": "route",
+      "number": "1",
+      "name": "Genvägen",
+      "grade": "5-",
+      "length": "15",
+      "type": "trad",
+      "firstAscent": "Adde Nilsson -07",
+      "description": "Börjar inne i hörned på hyllan till vänster om Blåmes och följer sprickan. Hyfsat välsäkrad.",
+      "source": {
+        "id": "legacy:kajehallar",
+        "path": "mediawiki/Kajehallar.txt"
+      }
+    },
+    {
+      "id": "kajehallar-led-28",
+      "kind": "route",
+      "number": "2",
+      "name": "Blåmes",
+      "grade": "6-",
+      "length": "15",
+      "type": "T.R",
+      "firstAscent": "Björn Hedberg -07",
+      "description": "Börja uppe på hyllan, gå rakt upp på flaket (fin spricka till vänster), upp på platån och fortsätt rakt upp på väggen. Greppen på väggen är bättre än de ser ut att vara.",
+      "source": {
+        "id": "legacy:kajehallar",
+        "path": "mediawiki/Kajehallar.txt"
+      }
+    },
+    {
+      "id": "kajehallar-led-29",
+      "kind": "route",
+      "number": "3",
+      "name": "2:a chansen",
+      "grade": "5",
+      "length": "15",
+      "type": "trad",
+      "firstAscent": "Adde Nilsson -07",
+      "description": "Börja uppe på hyllan och följ sprickan upp på platån och in i kaminen. Svårsäkrad(?) innan platån.",
+      "source": {
+        "id": "legacy:kajehallar",
+        "path": "mediawiki/Kajehallar.txt"
+      }
+    }
+  ],
+  "images": [
+    {
+      "filename": "Original.jpg",
+      "caption": "Slutet, Kongo, Stenen på benen, Fet och värdo",
+      "missing": false
+    },
+    {
+      "filename": "Original2.jpg",
+      "caption": "Mr. Mean, Arresterad",
+      "missing": false
+    },
+    {
+      "filename": "Blacklabel.jpg",
+      "caption": "Lugna Gatan, Black Label, Svarta konster",
+      "missing": false
+    }
+  ],
+  "access": {
+    "legacyText": "Det finns inga närliggande hus, och de locals vi träffat på verkade vänligt inställda till och vana vid klättrare.",
+    "federationSlug": null
+  },
+  "qualityIssues": [],
+  "provenance": {
+    "primarySourceId": "legacy:kajehallar",
+    "sources": [
+      {
+        "id": "legacy:kajehallar",
+        "title": "Sverigeföraren 2014: Kajehallar",
+        "path": "mediawiki/Kajehallar.txt",
+        "license": "GNU Free Documentation License",
+        "snapshotDate": "2014-01-01"
+      }
+    ]
+  }
+}

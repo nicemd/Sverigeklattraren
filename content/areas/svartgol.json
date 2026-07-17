@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "id": "svartgol",
+  "slug": "svartgol",
+  "name": "Svartgöl",
+  "description": "Östergötlands aidparadis.",
+  "coordinates": {
+    "latitude": 58.09414,
+    "longitude": 15.6258
+  },
+  "categories": [
+    "Aid",
+    "Östergötland"
+  ],
+  "sections": [
+    {
+      "id": "allmant",
+      "title": "Allmänt",
+      "body": "Östergötlands aidparadis."
+    },
+    {
+      "id": "lankar",
+      "title": "Länkar",
+      "body": "Förare tillhandahållen av Linköpings klätterklubb. Kategori:Aid Kategori:Östergötland"
+    }
+  ],
+  "routes": [],
+  "images": [],
+  "access": {
+    "legacyText": null,
+    "federationSlug": null
+  },
+  "qualityIssues": [],
+  "provenance": {
+    "primarySourceId": "legacy:svartgol",
+    "sources": [
+      {
+        "id": "legacy:svartgol",
+        "title": "Sverigeföraren 2014: Svartgöl",
+        "path": "mediawiki/Svartgöl.txt",
+        "license": "GNU Free Documentation License",
+        "snapshotDate": "2014-01-01"
+      }
+    ]
+  }
+}

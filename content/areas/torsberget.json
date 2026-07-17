@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 1,
+  "id": "torsberget",
+  "slug": "torsberget",
+  "name": "Torsberget",
+  "description": "Berget är med sina 86,5 m över havet områdets högsta punkt och ger vid en första anblick ett mycket storslaget intryck. Vid en närmare titt är berget, trots sina imponerande dimensioner, en besvikelse, med få riktigt lockande linjer. Åtminstone två av de tre leder som finns är dock riktigt fina.",
+  "coordinates": null,
+  "categories": [
+    "Fituna",
+    "Gamla koordinater",
+    "Saknar karta",
+    "Stockholm",
+    "Trad"
+  ],
+  "sections": [
+    {
+      "id": "allmant",
+      "title": "Allmänt",
+      "body": "Berget är med sina 86,5 m över havet områdets högsta punkt och ger vid en första anblick ett mycket storslaget intryck. Vid en närmare titt är berget, trots sina imponerande dimensioner, en besvikelse, med få riktigt lockande linjer. Åtminstone två av de tre leder som finns är dock riktigt fina."
+    },
+    {
+      "id": "vagbeskrivning",
+      "title": "Vägbeskrivning:",
+      "body": "Berget sticker upp sin kala hjässa 1 km O om Grönbrinksberget och är väl synligt ifrån toppen av detta. Följ traktorvägen längs åkerkanten under Grönbrinksberget tills den kommer ut på en smal skogsväg. Härifrån syns berget tydligt. Följ vägen åt h tills en liten väg leder ner åt v, till ängen under berget. Vill man absolut ta bilen så är det enklast att från Fituna vägen svänga in åt v på skogsvägen alldeles innan den gamla skolan. Håll åt h så leder den fram till under Torsberget efter ca 1,5 km. Parkera vid den lilla vägen som leder ner till ängen under berget. Gamla koordinater: 10 I SV 500142."
+    },
+    {
+      "id": "leder",
+      "title": "Leder",
+      "body": "Kategori:Stockholm Kategori:Trad Kategori:Fituna Kategori:Saknar karta Kategori:Gamla koordinater"
+    }
+  ],
+  "routes": [
+    {
+      "id": "torsberget-led-1",
+      "kind": "route",
+      "number": "1",
+      "name": "Salpingit",
+      "grade": "5",
+      "length": "",
+      "type": "",
+      "firstAscent": "Jan Liliemark -80",
+      "description": "",
+      "source": {
+        "id": "legacy:torsberget",
+        "path": "mediawiki/Torsberget.txt"
+      }
+    },
+    {
+      "id": "torsberget-led-2",
+      "kind": "route",
+      "number": "2",
+      "name": "Stensadeln",
+      "grade": "6/6",
+      "length": "",
+      "type": "",
+      "firstAscent": "Thomas Leitner -89",
+      "description": "",
+      "source": {
+        "id": "legacy:torsberget",
+        "path": "mediawiki/Torsberget.txt"
+      }
+    },
+    {
+      "id": "torsberget-led-3",
+      "kind": "route",
+      "number": "3",
+      "name": "Akut Otit",
+      "grade": "5",
+      "length": "",
+      "type": "",
+      "firstAscent": "Jan Liliemark, Lars Grankvist -80",
+      "description": "",
+      "source": {
+        "id": "legacy:torsberget",
+        "path": "mediawiki/Torsberget.txt"
+      }
+    }
+  ],
+  "images": [],
+  "access": {
+    "legacyText": null,
+    "federationSlug": null
+  },
+  "qualityIssues": [],
+  "provenance": {
+    "primarySourceId": "legacy:torsberget",
+    "sources": [
+      {
+        "id": "legacy:torsberget",
+        "title": "Sverigeföraren 2014: Torsberget",
+        "path": "mediawiki/Torsberget.txt",
+        "license": "GNU Free Documentation License",
+        "snapshotDate": "2014-01-01"
+      }
+    ]
+  }
+}

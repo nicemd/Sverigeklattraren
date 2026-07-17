@@ -1,0 +1,447 @@
+{
+  "schemaVersion": 1,
+  "id": "vedema",
+  "slug": "vedema",
+  "name": "Vedema",
+  "description": "Klipporna vid Vedema ligger i en osammanhängande brant alldeles nedanför utsiktspunkten vid Vedema Hall. Det finns tre större väggar med en höjd på 10-20 m och dessutom ett antal små väggar däremellan som inte berörs i föraren. Klättringen är av varierande typ där A-väggen bjuder på tuff överhängande klättring medan de andra klipporna är mindre branta och bjuder på både sprick och friktions-klättring. I de flesta fall så är det nödvändigt att ha med sig stålborste när man ska klättra här.",
+  "coordinates": {
+    "latitude": 56.21100024008475,
+    "longitude": 13.653602600097656
+  },
+  "categories": [
+    "Skåne"
+  ],
+  "sections": [
+    {
+      "id": "allmant",
+      "title": "Allmänt",
+      "body": "Klipporna vid Vedema ligger i en osammanhängande brant alldeles nedanför utsiktspunkten vid Vedema Hall. Det finns tre större väggar med en höjd på 10-20 m och dessutom ett antal små väggar däremellan som inte berörs i föraren. Klättringen är av varierande typ där A-väggen bjuder på tuff överhängande klättring medan de andra klipporna är mindre branta och bjuder på både sprick och friktions-klättring. I de flesta fall så är det nödvändigt att ha med sig stålborste när man ska klättra här."
+    },
+    {
+      "id": "hitta-hit",
+      "title": "Hitta hit",
+      "body": "Klipporna ligger i strövområdet Vedema, ca en mil nordväst om Hässleholm. För att hitta dit åker man om man kommer från Hässleholm västerut på väg 21 tills man kommer till korsningen där väg 24 mot Halmstad viker av norrut. Tag av på denna och åk några km tills ni kommer till Hörlinge gård där det står en skylt \"Mala 7\" åt höger. Tag av här och vik direkt vänster efter 50 m (likadan skylt) för att ta vänster igen efter ytterligare 100 m (skylt \"Hågnarp 11\"). Härifrån är det 2,6 km grusväg till en avtagsväg åt vänster med skylt \"Vedema\", 600 m upp i skogen finns en glänta där man parkerar. Härifrån går man stigen rakt fram förbi vägbommen och vidare 200 m till en stig åt vänster. Denna går till utsiktspunkten ovanför klippan. I början av backen viker man av åt höger så kommer man till foten av A-väggen. (OBS! Kartan är ej orienterad i korrekt vädersträck!!)"
+    },
+    {
+      "id": "oversikt",
+      "title": "Översikt",
+      "body": "A-väggen är den mest utvecklade klippan där också de svåraste lederna finns. Klippan är mestadels överhängande och här finns \"Tuff tid\", en av nordöstra skånes svåraste leder. Vidare är B-väggen mindre frekventerad och bjuder på lättare klättring, här kan ha gjorts endel turer som inte finns med i nuläget. C-väggen har ett antal fina leder och innehåller mest friktionsklättring av väggarna. Sedan finns dessutom D-väggen. Denna är inte beskriven i föraren men består av sönderbrutet berg. Här går 5-6 varianter av leder. Överallt är det klätterbart, säkras med kilar. Det finns en fin led, Vedemas längsta, som börjar i mitten och fortsätter en naturlig linje rakt upp till högsta punkten, förstabestigare är okänd. Leden har krux-svårighet på ca 4 och säkras gott med kilar och friends."
+    },
+    {
+      "id": "d-vaggen",
+      "title": "D-väggen",
+      "body": "Klippen längst till höger som också är högst med sina 20 meter. Kategori:Skåne"
+    }
+  ],
+  "routes": [
+    {
+      "id": "vedema-led-1",
+      "kind": "route",
+      "number": "1",
+      "name": "Skjut en snut",
+      "grade": "4+",
+      "length": "",
+      "type": "trad",
+      "firstAscent": "Patrik Lind 87",
+      "description": "Starta på den vänstra sidan av väggen, klättra upp till svaet och vidare upp mot toppen",
+      "source": {
+        "id": "legacy:vedema",
+        "path": "mediawiki/Vedema.txt"
+      }
+    },
+    {
+      "id": "vedema-led-2",
+      "kind": "route",
+      "number": "2",
+      "name": "Blå vägen",
+      "grade": "6+",
+      "length": "",
+      "type": "mix",
+      "firstAscent": "Daniel Ehman 92",
+      "description": "Upp till borrbulten, därefter spricklinjen upp till toppen. Psykig att leda",
+      "source": {
+        "id": "legacy:vedema",
+        "path": "mediawiki/Vedema.txt"
+      }
+    },
+    {
+      "id": "vedema-led-3",
+      "kind": "route",
+      "number": "3",
+      "name": "Don´t think twice",
+      "grade": "6+",
+      "length": "",
+      "type": "mix",
+      "firstAscent": "Patrik Lind 91",
+      "description": "Starta under överhänget och klättra sprickan upp till borrbulten. vidare till andra borrbulten och rakt upp till toppen. tidigare topprepad",
+      "source": {
+        "id": "legacy:vedema",
+        "path": "mediawiki/Vedema.txt"
+      }
+    },
+    {
+      "id": "vedema-led-4",
+      "kind": "route",
+      "number": "4",
+      "name": "Dogs",
+      "grade": "A2",
+      "length": "14",
+      "type": "",
+      "firstAscent": "Patrik Lind 87",
+      "description": "Starta under överhänget bakom blocket och följ den tunna spricklinjen rakt upp förbi flaket och vidare rakt upp till toppen",
+      "source": {
+        "id": "legacy:vedema",
+        "path": "mediawiki/Vedema.txt"
+      }
+    },
+    {
+      "id": "vedema-led-5",
+      "kind": "route",
+      "number": "4,5",
+      "name": "Razor",
+      "grade": "7c+",
+      "length": "14",
+      "type": "sport",
+      "firstAscent": "Peter Bosma 99",
+      "description": "Hård sporttur som börjar alldeles bakom det stora blocket. Säkringsmannen bör vara allert så klättraren inte faller i blocket. Turligt nog sitter bultarna tätt. Mycket överhängande.",
+      "source": {
+        "id": "legacy:vedema",
+        "path": "mediawiki/Vedema.txt"
+      }
+    },
+    {
+      "id": "vedema-led-6",
+      "kind": "route",
+      "number": "5",
+      "name": "Tuff tid",
+      "grade": "7b+/7c",
+      "length": "14",
+      "type": "sport",
+      "firstAscent": "Patrik Lind 93",
+      "description": "En av central-skånes mest klassiska lite hårdare sportturer! Starta vid flaken höger om det stora blocket. Följ borrbultarna rakt upp. Krux vid andra borrbulten. Ihållande och fingrig led. Brant.",
+      "source": {
+        "id": "legacy:vedema",
+        "path": "mediawiki/Vedema.txt"
+      }
+    },
+    {
+      "id": "vedema-led-7",
+      "kind": "route",
+      "number": "6",
+      "name": "Medborgarlön",
+      "grade": "7",
+      "length": "12m",
+      "type": "",
+      "firstAscent": "Patrik Lind 90",
+      "description": "Följ diedern till höger om tuff tid. Klättrades Med fast kil och bladbult från början, men dessas kvalitet är aningen bristande idag (bör plockas bort). Krux i första delen, lättare mot slutet",
+      "source": {
+        "id": "legacy:vedema",
+        "path": "mediawiki/Vedema.txt"
+      }
+    },
+    {
+      "id": "vedema-led-8",
+      "kind": "route",
+      "number": "1",
+      "name": "Myth of Malhan",
+      "grade": "4+",
+      "length": "",
+      "type": "trad",
+      "firstAscent": "Patrik Lind 86",
+      "description": "Följer sprickan. Välsäkrad",
+      "source": {
+        "id": "legacy:vedema",
+        "path": "mediawiki/Vedema.txt"
+      }
+    },
+    {
+      "id": "vedema-led-9",
+      "kind": "route",
+      "number": "2",
+      "name": "Gandolf",
+      "grade": "4+",
+      "length": "",
+      "type": "trad",
+      "firstAscent": "Patrik Lind 86",
+      "description": "Fin och välsäkrad",
+      "source": {
+        "id": "legacy:vedema",
+        "path": "mediawiki/Vedema.txt"
+      }
+    },
+    {
+      "id": "vedema-led-10",
+      "kind": "route",
+      "number": "3",
+      "name": "Namnlös",
+      "grade": "?",
+      "length": "",
+      "type": "",
+      "firstAscent": "Okänd",
+      "description": "Upp till bulten (osäkert om den finns kvar..) och över taket",
+      "source": {
+        "id": "legacy:vedema",
+        "path": "mediawiki/Vedema.txt"
+      }
+    },
+    {
+      "id": "vedema-led-11",
+      "kind": "route",
+      "number": "1",
+      "name": "Örnnästet",
+      "grade": "4+",
+      "length": "",
+      "type": "trad",
+      "firstAscent": "Patrik Lind 86",
+      "description": "Kort led med ganska ointressant klättring",
+      "source": {
+        "id": "legacy:vedema",
+        "path": "mediawiki/Vedema.txt"
+      }
+    },
+    {
+      "id": "vedema-led-12",
+      "kind": "route",
+      "number": "2",
+      "name": "Kurt",
+      "grade": "4+",
+      "length": "",
+      "type": "trad",
+      "firstAscent": "Patrik Lind 86",
+      "description": "Som Örnnästet",
+      "source": {
+        "id": "legacy:vedema",
+        "path": "mediawiki/Vedema.txt"
+      }
+    },
+    {
+      "id": "vedema-led-13",
+      "kind": "route",
+      "number": "1",
+      "name": "Astor",
+      "grade": "6+",
+      "length": "",
+      "type": "trad",
+      "firstAscent": "Patrik Lind 88",
+      "description": "Kort klurig led, följ och säkra i en tunn spricka",
+      "source": {
+        "id": "legacy:vedema",
+        "path": "mediawiki/Vedema.txt"
+      }
+    },
+    {
+      "id": "vedema-led-14",
+      "kind": "route",
+      "number": "2",
+      "name": "Sting-Vätteklyvaren",
+      "grade": "6-",
+      "length": "",
+      "type": "trad",
+      "firstAscent": "Patrik Lind 87",
+      "description": "Börjar till vänster om hörnet och korsar detta 4 meter upp. Säkras med kilar och friends",
+      "source": {
+        "id": "legacy:vedema",
+        "path": "mediawiki/Vedema.txt"
+      }
+    },
+    {
+      "id": "vedema-led-15",
+      "kind": "route",
+      "number": "3",
+      "name": "Dreadlocks",
+      "grade": "5",
+      "length": "",
+      "type": "trad",
+      "firstAscent": "Patrik Lind 88",
+      "description": "Startar vid ett block/flak. Förenar sig med \"Sting-vätteklyvaren\" efter 5 meter. Dåligt säkrad",
+      "source": {
+        "id": "legacy:vedema",
+        "path": "mediawiki/Vedema.txt"
+      }
+    },
+    {
+      "id": "vedema-led-16",
+      "kind": "route",
+      "number": "4",
+      "name": "Yellowman",
+      "grade": "6-",
+      "length": "",
+      "type": "mix",
+      "firstAscent": "Patrik Lind 88",
+      "description": "Startar en meter till höger om \"Dreadlocks\" insteget är kruxet. Det sitter en rostig bladbult innan de två borrbultarna, men man kan lika gärna sätta en egen TCU eller minikil i samma spricka.",
+      "source": {
+        "id": "legacy:vedema",
+        "path": "mediawiki/Vedema.txt"
+      }
+    },
+    {
+      "id": "vedema-led-17",
+      "kind": "route",
+      "number": "5",
+      "name": "Tangle up in blue",
+      "grade": "6+",
+      "length": "",
+      "type": "mix",
+      "firstAscent": "Patrik Lind 88",
+      "description": "Starta under borrbulten, säkras sedan med kilar och friends i den aviga laybacksprickan",
+      "source": {
+        "id": "legacy:vedema",
+        "path": "mediawiki/Vedema.txt"
+      }
+    },
+    {
+      "id": "vedema-led-18",
+      "kind": "route",
+      "number": "6",
+      "name": "Hörnet",
+      "grade": "4+",
+      "length": "",
+      "type": "trad",
+      "firstAscent": "Patrik Lind 86",
+      "description": "Följ den markanta diedern. Något svårsäkrad i början, men bättre sen",
+      "source": {
+        "id": "legacy:vedema",
+        "path": "mediawiki/Vedema.txt"
+      }
+    },
+    {
+      "id": "vedema-led-19",
+      "kind": "route",
+      "number": "7",
+      "name": "Erektion",
+      "grade": "6-",
+      "length": "",
+      "type": "trad",
+      "firstAscent": "Patrik Lind 88",
+      "description": "Starta 2 meter till höger om hörnet. Mantla upp på hyllan. Krux i sträckningen upp till kanten på utsteget. Säkras med små kilar och en bladbult (osäkert om den finns kvar)",
+      "source": {
+        "id": "legacy:vedema",
+        "path": "mediawiki/Vedema.txt"
+      }
+    },
+    {
+      "id": "vedema-led-20",
+      "kind": "route",
+      "number": "8",
+      "name": "Fist-jam",
+      "grade": "3+",
+      "length": "",
+      "type": "trad",
+      "firstAscent": "Peter Grooth 87",
+      "description": "Bred markant knytnävsspricka med en inkilad sten i nedre delen. Välsäkrad med kilar och friends",
+      "source": {
+        "id": "legacy:vedema",
+        "path": "mediawiki/Vedema.txt"
+      }
+    },
+    {
+      "id": "vedema-led-21",
+      "kind": "route",
+      "number": "1",
+      "name": "Den långa linjen",
+      "grade": "4",
+      "length": "20",
+      "type": "trad",
+      "firstAscent": "?",
+      "description": "Den tydliga spricklinjen som går hela vägen till toppen. Riktigt fin trots avbrottet vid hyllan. Firningsträd på toppen. Välsäkrad.",
+      "source": {
+        "id": "legacy:vedema",
+        "path": "mediawiki/Vedema.txt"
+      }
+    },
+    {
+      "id": "vedema-led-22",
+      "kind": "route",
+      "number": "2",
+      "name": "Den ihåliga linjen",
+      "grade": "5-",
+      "length": "20",
+      "type": "trad",
+      "firstAscent": "Fredrik Rapp & Tina Yu 07",
+      "description": "Den tunna prickan på väggen till höger om led 1. Mittpartiet är av lite odefinierad karraktär men lätt. Slutet går via en tunn spricka förbi några block och toppar ut precis till höger om \"Den långa linjen\".",
+      "source": {
+        "id": "legacy:vedema",
+        "path": "mediawiki/Vedema.txt"
+      }
+    }
+  ],
+  "images": [
+    {
+      "filename": "Vedema.gif",
+      "caption": "Petter Åsander",
+      "missing": false
+    },
+    {
+      "filename": "Vedemakarta.gif",
+      "caption": "",
+      "missing": false
+    },
+    {
+      "filename": "Vedemaoversikt.gif",
+      "caption": "",
+      "missing": false
+    },
+    {
+      "filename": "VedemaA-vagg.GIF",
+      "caption": "",
+      "missing": false
+    },
+    {
+      "filename": "IMG_4421WEB.jpg",
+      "caption": "",
+      "missing": false
+    },
+    {
+      "filename": "Vedemabvaggen1.gif",
+      "caption": "",
+      "missing": false
+    },
+    {
+      "filename": "IMG_4423WEB.jpg",
+      "caption": "",
+      "missing": false
+    },
+    {
+      "filename": "Vedemabvaggen2.gif",
+      "caption": "",
+      "missing": false
+    },
+    {
+      "filename": "Vedemacvaggen.gif",
+      "caption": "",
+      "missing": false
+    },
+    {
+      "filename": "IMG_4424WEB.jpg",
+      "caption": "",
+      "missing": false
+    },
+    {
+      "filename": "IMG_4427WEB.jpg",
+      "caption": "",
+      "missing": false
+    },
+    {
+      "filename": "IMG_4412WEB.jpg",
+      "caption": "Foto: Fredrik Rapp",
+      "missing": false
+    }
+  ],
+  "access": {
+    "legacyText": null,
+    "federationSlug": null
+  },
+  "qualityIssues": [],
+  "provenance": {
+    "primarySourceId": "legacy:vedema",
+    "sources": [
+      {
+        "id": "legacy:vedema",
+        "title": "Sverigeföraren 2014: Vedema",
+        "path": "mediawiki/Vedema.txt",
+        "license": "GNU Free Documentation License",
+        "snapshotDate": "2014-01-01"
+      }
+    ]
+  }
+}

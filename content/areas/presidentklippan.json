@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 1,
+  "id": "presidentklippan",
+  "slug": "presidentklippan",
+  "name": "Presidentklippan",
+  "description": "Klippa nära Norrleden på Hisingen. Bara hårda leder, bland annat en överhängande spricka som är grad 7b enligt förstabestigaren.",
+  "coordinates": {
+    "latitude": 57.7971,
+    "longitude": 11.95506
+  },
+  "categories": [
+    "Göteborg"
+  ],
+  "sections": [
+    {
+      "id": "allmant",
+      "title": "Allmänt",
+      "body": "Klippa nära Norrleden på Hisingen. Bara hårda leder, bland annat en överhängande spricka som är grad 7b enligt förstabestigaren."
+    },
+    {
+      "id": "leder",
+      "title": "Leder",
+      "body": "Kategori:Göteborg"
+    }
+  ],
+  "routes": [
+    {
+      "id": "presidentklippan-led-1",
+      "kind": "route",
+      "number": null,
+      "name": "Plutten",
+      "grade": "7b (8/8+)",
+      "length": "",
+      "type": "trad",
+      "firstAscent": "Jens Larssen, 2001",
+      "description": "Överhängande spricka",
+      "source": {
+        "id": "legacy:presidentklippan",
+        "path": "mediawiki/Presidentklippan.txt"
+      }
+    },
+    {
+      "id": "presidentklippan-led-2",
+      "kind": "route",
+      "number": null,
+      "name": "Roll on",
+      "grade": "6c+",
+      "length": "",
+      "type": "",
+      "firstAscent": "",
+      "description": "",
+      "source": {
+        "id": "legacy:presidentklippan",
+        "path": "mediawiki/Presidentklippan.txt"
+      }
+    },
+    {
+      "id": "presidentklippan-led-3",
+      "kind": "route",
+      "number": null,
+      "name": "Teknikens värld",
+      "grade": "7c",
+      "length": "",
+      "type": "",
+      "firstAscent": "",
+      "description": "",
+      "source": {
+        "id": "legacy:presidentklippan",
+        "path": "mediawiki/Presidentklippan.txt"
+      }
+    },
+    {
+      "id": "presidentklippan-led-4",
+      "kind": "route",
+      "number": null,
+      "name": "Premiär",
+      "grade": "7a+",
+      "length": "",
+      "type": "",
+      "firstAscent": "",
+      "description": "",
+      "source": {
+        "id": "legacy:presidentklippan",
+        "path": "mediawiki/Presidentklippan.txt"
+      }
+    }
+  ],
+  "images": [],
+  "access": {
+    "legacyText": null,
+    "federationSlug": null
+  },
+  "qualityIssues": [],
+  "provenance": {
+    "primarySourceId": "legacy:presidentklippan",
+    "sources": [
+      {
+        "id": "legacy:presidentklippan",
+        "title": "Sverigeföraren 2014: Presidentklippan",
+        "path": "mediawiki/Presidentklippan.txt",
+        "license": "GNU Free Documentation License",
+        "snapshotDate": "2014-01-01"
+      }
+    ]
+  }
+}

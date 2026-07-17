@@ -1,0 +1,135 @@
+{
+  "schemaVersion": 1,
+  "id": "cashvaggen",
+  "slug": "cashvaggen",
+  "name": "Cashväggen",
+  "description": "Två mindre väggar i Runby, Upptäckt 2011. Några ytterligare problem finns definitivt att förstabestiga! Den finaste linjen (nr 1) borde va runt 6c-7a och väntar på förstabestigning. Går säkert att borsta fram ytterligare 3-4 problem t.vä om nr 1.",
+  "coordinates": null,
+  "categories": [
+    "Norra Stockholm",
+    "Stockholm"
+  ],
+  "sections": [
+    {
+      "id": "allmant",
+      "title": "Allmänt",
+      "body": "Två mindre väggar i Runby, Upptäckt 2011. Några ytterligare problem finns definitivt att förstabestiga! Den finaste linjen (nr 1) borde va runt 6c-7a och väntar på förstabestigning. Går säkert att borsta fram ytterligare 3-4 problem t.vä om nr 1."
+    },
+    {
+      "id": "vagbeskrivning",
+      "title": "Vägbeskrivning",
+      "body": "titel=Runsa lat=17824670 long=59569140 Väggarna ligger i Runby, Upplands Väsby. Med bil: Säng av E4 från Stockholm mot Upplands Väsby c, sväng vänster i rondellen in på Mälarvägen. Sväng höger i rondellen just efter Hemköp. Sväng vänster in på Törnbyvägen. Parkera vid slutet av Törnbyvägens. Rakt fram i törnbyvägens riktning ser du en liten stig (gå in där, passera en träspärr). Ta första stigen åt höger följ ängskanten/ skogsbrynet ca 100m, till höger ser du väggarna."
+    },
+    {
+      "id": "leder",
+      "title": "Leder",
+      "body": "Kategori:Stockholm Kategori:Norra Stockholm"
+    }
+  ],
+  "routes": [
+    {
+      "id": "cashvaggen-problem-1",
+      "kind": "problem",
+      "number": "1",
+      "name": "How to make it in Runby",
+      "grade": "6A+",
+      "length": "",
+      "type": "",
+      "firstAscent": "",
+      "description": "Starta i markant sidogrepp, vidare rakt upp via krimp, undercling till sloper. (FA. Christoffer Olander & Tommy Zetterman)",
+      "source": {
+        "id": "legacy:cashvaggen",
+        "path": "mediawiki/Cashväggen.txt"
+      }
+    },
+    {
+      "id": "cashvaggen-problem-2",
+      "kind": "problem",
+      "number": "2",
+      "name": "Cashewnötter",
+      "grade": "6a+*",
+      "length": "",
+      "type": "",
+      "firstAscent": "",
+      "description": "Sprickan. (T.Rönnbäck 2011)",
+      "source": {
+        "id": "legacy:cashvaggen",
+        "path": "mediawiki/Cashväggen.txt"
+      }
+    },
+    {
+      "id": "cashvaggen-problem-3",
+      "kind": "problem",
+      "number": "3",
+      "name": "Hundra spänn",
+      "grade": "5a*",
+      "length": "",
+      "type": "",
+      "firstAscent": "",
+      "description": "SS vid snedhylla, upp till höger. (T.Rönnbäck 2011)",
+      "source": {
+        "id": "legacy:cashvaggen",
+        "path": "mediawiki/Cashväggen.txt"
+      }
+    },
+    {
+      "id": "cashvaggen-problem-4",
+      "kind": "problem",
+      "number": "4",
+      "name": "Guldpengen",
+      "grade": "5C**",
+      "length": "",
+      "type": "",
+      "firstAscent": "",
+      "description": "Start i sidjugg, rakt upp. (T.Rönnbäck, 2011)",
+      "source": {
+        "id": "legacy:cashvaggen",
+        "path": "mediawiki/Cashväggen.txt"
+      }
+    },
+    {
+      "id": "cashvaggen-problem-5",
+      "kind": "problem",
+      "number": "5",
+      "name": "Börsras",
+      "grade": "5a*",
+      "length": "",
+      "type": "",
+      "firstAscent": "",
+      "description": "Ss nederst i sprickan, rakt upp. (T.Rönnbäck, 2011)",
+      "source": {
+        "id": "legacy:cashvaggen",
+        "path": "mediawiki/Cashväggen.txt"
+      }
+    }
+  ],
+  "images": [
+    {
+      "filename": "Cashväggen.jpeg",
+      "caption": "",
+      "missing": false
+    },
+    {
+      "filename": "Cashväggen2.jpeg",
+      "caption": "",
+      "missing": false
+    }
+  ],
+  "access": {
+    "legacyText": null,
+    "federationSlug": null
+  },
+  "qualityIssues": [],
+  "provenance": {
+    "primarySourceId": "legacy:cashvaggen",
+    "sources": [
+      {
+        "id": "legacy:cashvaggen",
+        "title": "Sverigeföraren 2014: Cashväggen",
+        "path": "mediawiki/Cashväggen.txt",
+        "license": "GNU Free Documentation License",
+        "snapshotDate": "2014-01-01"
+      }
+    ]
+  }
+}

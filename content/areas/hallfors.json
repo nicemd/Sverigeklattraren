@@ -1,0 +1,308 @@
+{
+  "schemaVersion": 1,
+  "id": "hallfors",
+  "slug": "hallfors",
+  "name": "Hällfors",
+  "description": "Huvudsakligen vertikal, med ett par överhäng. Klippan är ganska lös och grepprik.",
+  "coordinates": {
+    "latitude": 65.0815,
+    "longitude": 20.94659
+  },
+  "categories": [
+    "sport",
+    "vertikalt",
+    "Västerbotten"
+  ],
+  "sections": [
+    {
+      "id": "allmant",
+      "title": "Allmänt",
+      "body": "Huvudsakligen vertikal, med ett par överhäng. Klippan är ganska lös och grepprik."
+    },
+    {
+      "id": "miljo",
+      "title": "Miljö",
+      "body": "Sydvänd. Torkar väldigt snabbt."
+    },
+    {
+      "id": "vagbeskrivning",
+      "title": "Vägbeskrivning",
+      "body": "Från väg E4: Sväng av E4an vid norra infarten till Byske. Ta vägen mot Fällfors. Just som du passerat den lilla byn Hällfors tar du höger in på en grusväg. Nu ser du klippan. Håll höger och parkera rakt nedanför klippan. En lätt promenad leder dig upp till väggen."
+    },
+    {
+      "id": "huvudvaggen",
+      "title": "Huvudväggen",
+      "body": "(från vänster till höger)"
+    },
+    {
+      "id": "hogra-vaggen",
+      "title": "Högra väggen",
+      "body": "Det som är mest utmärkande med detta väggparti är taket som sträcker sig halva väggens längd. (Leder från vänster till höger)"
+    },
+    {
+      "id": "forare",
+      "title": "Förare",
+      "body": "Finns med i nätföraren över skellefteå: http://www.skelleftea.org/forening/kfumskelleftea/Webforare/www-filer/start.html Kategori:sport Kategori:vertikalt Kategori:Västerbotten"
+    }
+  ],
+  "routes": [
+    {
+      "id": "hallfors-led-1",
+      "kind": "route",
+      "number": null,
+      "name": "East face of fuckface",
+      "grade": "5+",
+      "length": "7",
+      "type": "trad",
+      "firstAscent": "Jan-Christer Boström",
+      "description": "Kort tradled på pelaren till vänster om grottan.",
+      "source": {
+        "id": "legacy:hallfors",
+        "path": "mediawiki/Hällfors.txt"
+      }
+    },
+    {
+      "id": "hallfors-led-2",
+      "kind": "route",
+      "number": null,
+      "name": "Projekt?",
+      "grade": "projekt?",
+      "length": "6",
+      "type": "sport",
+      "firstAscent": "",
+      "description": "Kort projekt vid grottans öppning. Brant start.",
+      "source": {
+        "id": "legacy:hallfors",
+        "path": "mediawiki/Hällfors.txt"
+      }
+    },
+    {
+      "id": "hallfors-led-3",
+      "kind": "route",
+      "number": null,
+      "name": "Projekt?",
+      "grade": "projekt?",
+      "length": "6",
+      "type": "sport",
+      "firstAscent": "",
+      "description": "Kort projekt lite till höger om det andra projektet. Brant start.",
+      "source": {
+        "id": "legacy:hallfors",
+        "path": "mediawiki/Hällfors.txt"
+      }
+    },
+    {
+      "id": "hallfors-led-4",
+      "kind": "route",
+      "number": null,
+      "name": "Voyager",
+      "grade": "5-",
+      "length": "8",
+      "type": "trad",
+      "firstAscent": "Johan Lindström",
+      "description": "Dieder. Mossigt och lite hårt för graden",
+      "source": {
+        "id": "legacy:hallfors",
+        "path": "mediawiki/Hällfors.txt"
+      }
+    },
+    {
+      "id": "hallfors-led-5",
+      "kind": "route",
+      "number": null,
+      "name": "Enterprise",
+      "grade": "4+",
+      "length": "8",
+      "type": "trad",
+      "firstAscent": "Johan Lindström",
+      "description": "Dieder. Mossigt.",
+      "source": {
+        "id": "legacy:hallfors",
+        "path": "mediawiki/Hällfors.txt"
+      }
+    },
+    {
+      "id": "hallfors-led-6",
+      "kind": "route",
+      "number": null,
+      "name": "Starla",
+      "grade": "6-",
+      "length": "10",
+      "type": "trad",
+      "firstAscent": "Håkan Eklund",
+      "description": "Gemensamt insteg med nästa led.",
+      "source": {
+        "id": "legacy:hallfors",
+        "path": "mediawiki/Hällfors.txt"
+      }
+    },
+    {
+      "id": "hallfors-led-7",
+      "kind": "route",
+      "number": null,
+      "name": "?",
+      "grade": "5+",
+      "length": "10",
+      "type": "trad",
+      "firstAscent": "Fredrik Andersson",
+      "description": "Gemensamt insteg med Starla. Gemensamt utsteg med nästa led.",
+      "source": {
+        "id": "legacy:hallfors",
+        "path": "mediawiki/Hällfors.txt"
+      }
+    },
+    {
+      "id": "hallfors-led-8",
+      "kind": "route",
+      "number": null,
+      "name": "?",
+      "grade": "5",
+      "length": "10",
+      "type": "sport",
+      "firstAscent": "Johan Lindström",
+      "description": "Gemensamt utsteg med leden till vänster.",
+      "source": {
+        "id": "legacy:hallfors",
+        "path": "mediawiki/Hällfors.txt"
+      }
+    },
+    {
+      "id": "hallfors-led-9",
+      "kind": "route",
+      "number": null,
+      "name": "Månstigen",
+      "grade": "5-",
+      "length": "12",
+      "type": "sport",
+      "firstAscent": "Johan Lindström",
+      "description": "Något vandrande led.",
+      "source": {
+        "id": "legacy:hallfors",
+        "path": "mediawiki/Hällfors.txt"
+      }
+    },
+    {
+      "id": "hallfors-led-10",
+      "kind": "route",
+      "number": null,
+      "name": "Solstigen",
+      "grade": "6+",
+      "length": "15",
+      "type": "sport",
+      "firstAscent": "Johan Lindström",
+      "description": "Gemensamma bultar och gemensamt insteg med Molnstigen?",
+      "source": {
+        "id": "legacy:hallfors",
+        "path": "mediawiki/Hällfors.txt"
+      }
+    },
+    {
+      "id": "hallfors-led-11",
+      "kind": "route",
+      "number": null,
+      "name": "Molnstigen",
+      "grade": "5",
+      "length": "15",
+      "type": "sport",
+      "firstAscent": "Johan Lindström",
+      "description": "Gemensamma bultar och gemensamt insteg med Molnstigen?",
+      "source": {
+        "id": "legacy:hallfors",
+        "path": "mediawiki/Hällfors.txt"
+      }
+    },
+    {
+      "id": "hallfors-led-12",
+      "kind": "route",
+      "number": null,
+      "name": "Badkarsmusik",
+      "grade": "5-",
+      "length": "5",
+      "type": "sport",
+      "firstAscent": "Håkan Eklund",
+      "description": "Microled somstartar ovanför den högra väggen.",
+      "source": {
+        "id": "legacy:hallfors",
+        "path": "mediawiki/Hällfors.txt"
+      }
+    },
+    {
+      "id": "hallfors-led-13",
+      "kind": "route",
+      "number": null,
+      "name": "?",
+      "grade": "6+",
+      "length": "7",
+      "type": "sport",
+      "firstAscent": "Johan Lindström, Johan Konradsson",
+      "description": "Superkort led på vänstra sidan av väggen.",
+      "source": {
+        "id": "legacy:hallfors",
+        "path": "mediawiki/Hällfors.txt"
+      }
+    },
+    {
+      "id": "hallfors-led-14",
+      "kind": "route",
+      "number": null,
+      "name": "?",
+      "grade": "7",
+      "length": "13",
+      "type": "sport",
+      "firstAscent": "Fredrik Andersson",
+      "description": "Fin led som traverserar vänster ovanför taket. Gemensamt insteg med Stjärnstigen. Ankare.",
+      "source": {
+        "id": "legacy:hallfors",
+        "path": "mediawiki/Hällfors.txt"
+      }
+    },
+    {
+      "id": "hallfors-led-15",
+      "kind": "route",
+      "number": null,
+      "name": "Stjärnstigen",
+      "grade": "6+",
+      "length": "11",
+      "type": "sport",
+      "firstAscent": "Johan Lindström",
+      "description": "Fin led som går rakt upp över taket. Sista klippet är knepigt. Ankare.",
+      "source": {
+        "id": "legacy:hallfors",
+        "path": "mediawiki/Hällfors.txt"
+      }
+    },
+    {
+      "id": "hallfors-led-16",
+      "kind": "route",
+      "number": null,
+      "name": "Achtung baby",
+      "grade": "6-",
+      "length": "8",
+      "type": "mix",
+      "firstAscent": "Johan Konradsson",
+      "description": "Långt till höger på klippan. Mixad?",
+      "source": {
+        "id": "legacy:hallfors",
+        "path": "mediawiki/Hällfors.txt"
+      }
+    }
+  ],
+  "images": [],
+  "access": {
+    "legacyText": null,
+    "federationSlug": null
+  },
+  "qualityIssues": [],
+  "provenance": {
+    "primarySourceId": "legacy:hallfors",
+    "sources": [
+      {
+        "id": "legacy:hallfors",
+        "title": "Sverigeföraren 2014: Hällfors",
+        "path": "mediawiki/Hällfors.txt",
+        "license": "GNU Free Documentation License",
+        "snapshotDate": "2014-01-01"
+      }
+    ]
+  }
+}

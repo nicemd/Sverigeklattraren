@@ -1,0 +1,131 @@
+{
+  "schemaVersion": 1,
+  "id": "vrangaro",
+  "slug": "vrangaro",
+  "name": "Vrångarö",
+  "description": "Fortsätt förbi Häller, ca 1km. En åker passeras och vatten till höger en kulle blir synlig. Parkera vid kullens högra fot vid en liten gräsplan. Gå rakt över kullen i sänkan. Berget som vetter mot vatten dyker upp till vänster.",
+  "coordinates": {
+    "latitude": 58.429628,
+    "longitude": 11.434836
+  },
+  "categories": [
+    "Bohuslän",
+    "mix",
+    "sport",
+    "sva",
+    "trad",
+    "vertikalt"
+  ],
+  "sections": [
+    {
+      "id": "karaktar",
+      "title": "Karaktär",
+      "body": "En 40m hög klippa med egen strand. Två firningsankare på toppen."
+    },
+    {
+      "id": "vagbeskrivning",
+      "title": "Vägbeskrivning",
+      "body": "Fortsätt förbi Häller, ca 1km. En åker passeras och vatten till höger en kulle blir synlig. Parkera vid kullens högra fot vid en liten gräsplan. Gå rakt över kullen i sänkan. Berget som vetter mot vatten dyker upp till vänster."
+    },
+    {
+      "id": "leder",
+      "title": "Leder",
+      "body": "Kategori:Bohuslän Kategori:trad Kategori:sva Kategori:vertikalt Kategori:mix Kategori:sport"
+    }
+  ],
+  "routes": [
+    {
+      "id": "vrangaro-led-1",
+      "kind": "route",
+      "number": null,
+      "name": "Svarta Svanen",
+      "grade": "7",
+      "length": "20",
+      "type": "mix",
+      "firstAscent": "Henrik Bolander, Dag Lövenvald -97",
+      "description": "Sprickor och dieder genom svart klippa. En bult.",
+      "source": {
+        "id": "legacy:vrangaro",
+        "path": "mediawiki/Vrångarö.txt"
+      }
+    },
+    {
+      "id": "vrangaro-led-2",
+      "kind": "route",
+      "number": null,
+      "name": "Thriller",
+      "grade": "8-/8",
+      "length": "40",
+      "type": "mix",
+      "firstAscent": "Henrik Bolander, Jonas Böttinger -91",
+      "description": "Börjar i sprickan v om den stora skivan. Tung sprick och diederklättring upp till hylla. Traversera h 4m under ett litet tak. Fyra borrbultar",
+      "source": {
+        "id": "legacy:vrangaro",
+        "path": "mediawiki/Vrångarö.txt"
+      }
+    },
+    {
+      "id": "vrangaro-led-3",
+      "kind": "route",
+      "number": null,
+      "name": "Little Yosemite",
+      "grade": "8/8+",
+      "length": "40",
+      "type": "trad",
+      "firstAscent": "Henrik Bolander -91",
+      "description": "Startar vid skivan. Tunn tung och hård.",
+      "source": {
+        "id": "legacy:vrangaro",
+        "path": "mediawiki/Vrångarö.txt"
+      }
+    },
+    {
+      "id": "vrangaro-led-4",
+      "kind": "route",
+      "number": null,
+      "name": "I All Enkelhet",
+      "grade": "7+",
+      "length": "40",
+      "type": "mix",
+      "firstAscent": "Johan Svensson, Ann-Sofi Andrsson 2007",
+      "description": "Lång linje till höger om Little Yosemite, startar i ett överhäng. Fem borrbultar som kompletteras med en god selektion kilar och friends. För berget sedvanligt hög kvalitet.",
+      "source": {
+        "id": "legacy:vrangaro",
+        "path": "mediawiki/Vrångarö.txt"
+      }
+    },
+    {
+      "id": "vrangaro-led-5",
+      "kind": "route",
+      "number": null,
+      "name": "Uppercut",
+      "grade": "9-",
+      "length": "18",
+      "type": "sport",
+      "firstAscent": "Petter Restorp 2008",
+      "description": "",
+      "source": {
+        "id": "legacy:vrangaro",
+        "path": "mediawiki/Vrångarö.txt"
+      }
+    }
+  ],
+  "images": [],
+  "access": {
+    "legacyText": null,
+    "federationSlug": null
+  },
+  "qualityIssues": [],
+  "provenance": {
+    "primarySourceId": "legacy:vrangaro",
+    "sources": [
+      {
+        "id": "legacy:vrangaro",
+        "title": "Sverigeföraren 2014: Vrångarö",
+        "path": "mediawiki/Vrångarö.txt",
+        "license": "GNU Free Documentation License",
+        "snapshotDate": "2014-01-01"
+      }
+    ]
+  }
+}

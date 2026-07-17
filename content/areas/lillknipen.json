@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "id": "lillknipen",
+  "slug": "lillknipen",
+  "name": "Lillknipen",
+  "description": "0 dokumenterade leder och problem.",
+  "coordinates": {
+    "latitude": 58.2512,
+    "longitude": 11.9771
+  },
+  "categories": [
+    "Bohuslän"
+  ],
+  "sections": [
+    {
+      "id": "access",
+      "title": "Access",
+      "body": "category:Topprep category:trad category:saknar_leder category:saknar_skiss Kategori:Bohuslän"
+    }
+  ],
+  "routes": [],
+  "images": [],
+  "access": {
+    "legacyText": "category:Topprep category:trad category:saknar_leder category:saknar_skiss Kategori:Bohuslän",
+    "federationSlug": "lillknipen"
+  },
+  "qualityIssues": [],
+  "provenance": {
+    "primarySourceId": "legacy:lillknipen",
+    "sources": [
+      {
+        "id": "legacy:lillknipen",
+        "title": "Sverigeföraren 2014: Lillknipen",
+        "path": "mediawiki/Lillknipen.txt",
+        "license": "GNU Free Documentation License",
+        "snapshotDate": "2014-01-01"
+      }
+    ]
+  }
+}

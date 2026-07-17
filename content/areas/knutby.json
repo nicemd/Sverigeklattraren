@@ -1,0 +1,881 @@
+{
+  "schemaVersion": 1,
+  "id": "knutby",
+  "slug": "knutby",
+  "name": "Knutby",
+  "description": "Kategori:Saknar allmän infoKategori:Saknar vägbeskrivning =Problem= Kategori:Linköping Kategori:Bouldering Kategori:Bimbo Kategori:Behöver kvalitetssäkras Kategori:Saknar karta Kategori:Saknar koordinater Kategori:Saknar skrivarformattering Kategori:Saknar skiss",
+  "coordinates": null,
+  "categories": [
+    "Behöver kvalitetssäkras",
+    "Bimbo",
+    "Bouldering",
+    "Linköping",
+    "Saknar allmän info",
+    "Saknar karta",
+    "Saknar koordinater",
+    "Saknar skiss",
+    "Saknar skrivarformattering",
+    "Saknar vägbeskrivning"
+  ],
+  "sections": [],
+  "routes": [
+    {
+      "id": "knutby-problem-1",
+      "kind": "problem",
+      "number": null,
+      "name": "Mad Hooker",
+      "grade": "7A+",
+      "length": "",
+      "type": "Krimp,Slopers,Överhäng",
+      "firstAscent": "Stefan Wulf",
+      "description": "Problemet startar mitt i överhänget på Kristi-Brud blocket. Drar sedan åt vänster och avslutas på vänstra sidan om toppen.",
+      "source": {
+        "id": "legacy:knutby",
+        "path": "mediawiki/Knutby.txt"
+      }
+    },
+    {
+      "id": "knutby-problem-2",
+      "kind": "problem",
+      "number": null,
+      "name": "?",
+      "grade": "6B",
+      "length": "",
+      "type": "Slab",
+      "firstAscent": "Stefan H?",
+      "description": "Lite högre slab med krux på slutet. går till höger om Fet,ful och fattig.",
+      "source": {
+        "id": "legacy:knutby",
+        "path": "mediawiki/Knutby.txt"
+      }
+    },
+    {
+      "id": "knutby-problem-3",
+      "kind": "problem",
+      "number": null,
+      "name": "Fet,ful och fattig",
+      "grade": "6B",
+      "length": "",
+      "type": "",
+      "firstAscent": "Martin Börjesson",
+      "description": "Går rakt upp till höger om Henke Lycklig.",
+      "source": {
+        "id": "legacy:knutby",
+        "path": "mediawiki/Knutby.txt"
+      }
+    },
+    {
+      "id": "knutby-problem-4",
+      "kind": "problem",
+      "number": null,
+      "name": "Henke Lycklig, Ljungberg dämpad",
+      "grade": "6B+",
+      "length": "",
+      "type": "Slab",
+      "firstAscent": "Martin Börjesson",
+      "description": "Går rakt upp till höger om Månskäran.",
+      "source": {
+        "id": "legacy:knutby",
+        "path": "mediawiki/Knutby.txt"
+      }
+    },
+    {
+      "id": "knutby-problem-5",
+      "kind": "problem",
+      "number": null,
+      "name": "Månskäran",
+      "grade": "5B",
+      "length": "",
+      "type": "Krimp,Slab",
+      "firstAscent": "Martin Börjesson",
+      "description": "Går rakt upp via det tydliga halvmåne formade greppet.",
+      "source": {
+        "id": "legacy:knutby",
+        "path": "mediawiki/Knutby.txt"
+      }
+    },
+    {
+      "id": "knutby-problem-6",
+      "kind": "problem",
+      "number": null,
+      "name": "Bad Hooker",
+      "grade": "7B+",
+      "length": "",
+      "type": "Krimp,Slopers,Överhäng",
+      "firstAscent": "Manne,Thomas och Christofer",
+      "description": "Startar som Mad hooker, drar sedan lätt åt höger via de höga krimp greppen. Toppar sedan ur rakt upp.",
+      "source": {
+        "id": "legacy:knutby",
+        "path": "mediawiki/Knutby.txt"
+      }
+    },
+    {
+      "id": "knutby-problem-7",
+      "kind": "problem",
+      "number": null,
+      "name": "Duella",
+      "grade": "7B",
+      "length": "",
+      "type": "Krimp",
+      "firstAscent": "Malin Perk",
+      "description": "Går rakt upp med dragning åt höger, från de små krimp greppen.",
+      "source": {
+        "id": "legacy:knutby",
+        "path": "mediawiki/Knutby.txt"
+      }
+    },
+    {
+      "id": "knutby-problem-8",
+      "kind": "problem",
+      "number": null,
+      "name": "Duella Vänster",
+      "grade": "7A",
+      "length": "",
+      "type": "Krimp",
+      "firstAscent": "Stefan Holm",
+      "description": "Startar med höger hand på grepp för Duella och vänster på annan krimp. Går sedan snett upp åt vänster.",
+      "source": {
+        "id": "legacy:knutby",
+        "path": "mediawiki/Knutby.txt"
+      }
+    },
+    {
+      "id": "knutby-problem-9",
+      "kind": "problem",
+      "number": null,
+      "name": "Konvex",
+      "grade": "7B+",
+      "length": "",
+      "type": "Slopers",
+      "firstAscent": "Christofer Björklund",
+      "description": "Går rakt upp över bullen på N blocket.",
+      "source": {
+        "id": "legacy:knutby",
+        "path": "mediawiki/Knutby.txt"
+      }
+    },
+    {
+      "id": "knutby-problem-10",
+      "kind": "problem",
+      "number": null,
+      "name": "Den gamle räven",
+      "grade": "7B+",
+      "length": "",
+      "type": "Krimp,Överhäng",
+      "firstAscent": "Anders Lantz, Manne Anliot",
+      "description": "Startar som Meles meles, går sedan upp snett åt höger.",
+      "source": {
+        "id": "legacy:knutby",
+        "path": "mediawiki/Knutby.txt"
+      }
+    },
+    {
+      "id": "knutby-problem-11",
+      "kind": "problem",
+      "number": null,
+      "name": "Tussilago",
+      "grade": "7A",
+      "length": "",
+      "type": "Krimp,Slopers",
+      "firstAscent": "Johan Lundborg",
+      "description": "Går rakt upp efter vänstra areten på A blocket.",
+      "source": {
+        "id": "legacy:knutby",
+        "path": "mediawiki/Knutby.txt"
+      }
+    },
+    {
+      "id": "knutby-problem-12",
+      "kind": "problem",
+      "number": null,
+      "name": "Lynx Lynx",
+      "grade": "7B+",
+      "length": "",
+      "type": "Krimp,Dyno,Highball",
+      "firstAscent": "Martin Fransson & Lo Wischman",
+      "description": "Långt skick från två pockets (hand+mono) till list. Går sedan rakt upp utan areten till höger.",
+      "source": {
+        "id": "legacy:knutby",
+        "path": "mediawiki/Knutby.txt"
+      }
+    },
+    {
+      "id": "knutby-problem-13",
+      "kind": "problem",
+      "number": null,
+      "name": "Mount Knutby",
+      "grade": "7B",
+      "length": "",
+      "type": "Slab,Highball",
+      "firstAscent": "Carl-Ola Boström och Christofer Björklund",
+      "description": "Lättaste vägen upp. Jag startade till höger bredvid traden och toppade ut på slabben uppe till vänster.",
+      "source": {
+        "id": "legacy:knutby",
+        "path": "mediawiki/Knutby.txt"
+      }
+    },
+    {
+      "id": "knutby-problem-14",
+      "kind": "problem",
+      "number": null,
+      "name": "Sandbaggen",
+      "grade": "7B+",
+      "length": "",
+      "type": "Slopers,Mantling",
+      "firstAscent": "Carl-Ola Boström",
+      "description": "Starta ett par meter till vänster om Aktiv grävling på de tydliga greppen. Klättra rakt upp.",
+      "source": {
+        "id": "legacy:knutby",
+        "path": "mediawiki/Knutby.txt"
+      }
+    },
+    {
+      "id": "knutby-problem-15",
+      "kind": "problem",
+      "number": null,
+      "name": "Really Mad Hooker",
+      "grade": "7C",
+      "length": "",
+      "type": "Krimp,Slopers,Överhäng",
+      "firstAscent": "Christofer Björklund",
+      "description": "Sittstart till Mad Hooker. Starta med händerna på lägsta rampen.",
+      "source": {
+        "id": "legacy:knutby",
+        "path": "mediawiki/Knutby.txt"
+      }
+    },
+    {
+      "id": "knutby-problem-16",
+      "kind": "problem",
+      "number": null,
+      "name": "Svart magi",
+      "grade": "6B+",
+      "length": "",
+      "type": "Highball,Aréte",
+      "firstAscent": "Niklas Melinder / Christofer Björklund",
+      "description": "På samma block som Lynx Lynx. Vänster sida av den bortre areten.",
+      "source": {
+        "id": "legacy:knutby",
+        "path": "mediawiki/Knutby.txt"
+      }
+    },
+    {
+      "id": "knutby-problem-17",
+      "kind": "problem",
+      "number": null,
+      "name": "Sjunde Sittstarten",
+      "grade": "7A",
+      "length": "",
+      "type": "",
+      "firstAscent": "?",
+      "description": "Startar på lågt på hyllan.",
+      "source": {
+        "id": "legacy:knutby",
+        "path": "mediawiki/Knutby.txt"
+      }
+    },
+    {
+      "id": "knutby-problem-18",
+      "kind": "problem",
+      "number": null,
+      "name": "Sjunde inseglet",
+      "grade": "6A",
+      "length": "",
+      "type": "",
+      "firstAscent": "?",
+      "description": "",
+      "source": {
+        "id": "legacy:knutby",
+        "path": "mediawiki/Knutby.txt"
+      }
+    },
+    {
+      "id": "knutby-problem-19",
+      "kind": "problem",
+      "number": null,
+      "name": "Perkelett",
+      "grade": "6C",
+      "length": "",
+      "type": "",
+      "firstAscent": "?",
+      "description": "Start på areten, följ sedan kanten åt vänster",
+      "source": {
+        "id": "legacy:knutby",
+        "path": "mediawiki/Knutby.txt"
+      }
+    },
+    {
+      "id": "knutby-problem-20",
+      "kind": "problem",
+      "number": null,
+      "name": "Perketvå",
+      "grade": "6C",
+      "length": "",
+      "type": "",
+      "firstAscent": "?",
+      "description": "Start på areten, går sedan rakt upp.",
+      "source": {
+        "id": "legacy:knutby",
+        "path": "mediawiki/Knutby.txt"
+      }
+    },
+    {
+      "id": "knutby-problem-21",
+      "kind": "problem",
+      "number": null,
+      "name": "Mandolin",
+      "grade": "6C",
+      "length": "",
+      "type": "Krimp,Mantling",
+      "firstAscent": "?",
+      "description": "Startar i det triangelformade greppet i överhänget + krimper för höger hand, går sedan rakt upp. (Varning för löst grepp)",
+      "source": {
+        "id": "legacy:knutby",
+        "path": "mediawiki/Knutby.txt"
+      }
+    },
+    {
+      "id": "knutby-problem-22",
+      "kind": "problem",
+      "number": null,
+      "name": "Kolossus Assis",
+      "grade": "7A+",
+      "length": "",
+      "type": "Krimp,Slopers,Pinch,Layback",
+      "firstAscent": "Stefan Holm",
+      "description": "Hårt förstaflytt.",
+      "source": {
+        "id": "legacy:knutby",
+        "path": "mediawiki/Knutby.txt"
+      }
+    },
+    {
+      "id": "knutby-problem-23",
+      "kind": "problem",
+      "number": null,
+      "name": "K2",
+      "grade": "7A",
+      "length": "",
+      "type": "Krimp,Slopers,Highball",
+      "firstAscent": "Manne och Thomas?",
+      "description": "Startar i jug, går sedan takt upp.",
+      "source": {
+        "id": "legacy:knutby",
+        "path": "mediawiki/Knutby.txt"
+      }
+    },
+    {
+      "id": "knutby-problem-24",
+      "kind": "problem",
+      "number": null,
+      "name": "Mt.Everest",
+      "grade": "7A",
+      "length": "",
+      "type": "Krimp,Slopers,Highball",
+      "firstAscent": "Manne och Thomas?",
+      "description": "Startar som K2, går sedan åt höger och upp.",
+      "source": {
+        "id": "legacy:knutby",
+        "path": "mediawiki/Knutby.txt"
+      }
+    },
+    {
+      "id": "knutby-problem-25",
+      "kind": "problem",
+      "number": null,
+      "name": "Kolossus",
+      "grade": "6C",
+      "length": "",
+      "type": "Krimp,Slopers,Layback",
+      "firstAscent": "?",
+      "description": "Ståstart två meter till vänster om Mandolin, går rakt upp.",
+      "source": {
+        "id": "legacy:knutby",
+        "path": "mediawiki/Knutby.txt"
+      }
+    },
+    {
+      "id": "knutby-problem-26",
+      "kind": "problem",
+      "number": null,
+      "name": "Really Bad Hooker",
+      "grade": "7C+",
+      "length": "",
+      "type": "Krimp,Slopers,Överhäng",
+      "firstAscent": "Christofer Björklund",
+      "description": "Sittstart till Bad Hooker. Startar med händerna på lägsta rampen rakt under Mad Hooker.",
+      "source": {
+        "id": "legacy:knutby",
+        "path": "mediawiki/Knutby.txt"
+      }
+    },
+    {
+      "id": "knutby-problem-27",
+      "kind": "problem",
+      "number": null,
+      "name": "Långa natten ss",
+      "grade": "7A+",
+      "length": "",
+      "type": "Överhäng",
+      "firstAscent": "Stefan Rasmussen",
+      "description": "Start med HH på 'fotsteget' inne i taket och VH på areten. 7a+/7b?",
+      "source": {
+        "id": "legacy:knutby",
+        "path": "mediawiki/Knutby.txt"
+      }
+    },
+    {
+      "id": "knutby-problem-28",
+      "kind": "problem",
+      "number": null,
+      "name": "Kristibrud SDS",
+      "grade": "7C",
+      "length": "",
+      "type": "Överhäng",
+      "firstAscent": "Stefan Rasmussen",
+      "description": "Sittstarta långt till höger, travers vänster mot insteget till \"Kristibrud\".",
+      "source": {
+        "id": "legacy:knutby",
+        "path": "mediawiki/Knutby.txt"
+      }
+    },
+    {
+      "id": "knutby-problem-29",
+      "kind": "problem",
+      "number": null,
+      "name": "Riktigt dålig hora",
+      "grade": "7C",
+      "length": "",
+      "type": "Överhäng",
+      "firstAscent": "Stefan Rasmussen",
+      "description": "Sittstart långt till höger. Vidare upp i \"Bad Hooker\".",
+      "source": {
+        "id": "legacy:knutby",
+        "path": "mediawiki/Knutby.txt"
+      }
+    },
+    {
+      "id": "knutby-problem-30",
+      "kind": "problem",
+      "number": null,
+      "name": "Barf",
+      "grade": "6C+",
+      "length": "",
+      "type": "",
+      "firstAscent": "Jon S, Sydde, Stefan Eklund mfl.",
+      "description": "Helt ok ståstart på den nedersta stenen. Överhängande vägg 70 meter öster om Mad Hooker blocket.",
+      "source": {
+        "id": "legacy:knutby",
+        "path": "mediawiki/Knutby.txt"
+      }
+    },
+    {
+      "id": "knutby-problem-31",
+      "kind": "problem",
+      "number": null,
+      "name": "Gnagarn",
+      "grade": "7B",
+      "length": "",
+      "type": "Krimp",
+      "firstAscent": "Manne",
+      "description": "Startar till höger om areten.",
+      "source": {
+        "id": "legacy:knutby",
+        "path": "mediawiki/Knutby.txt"
+      }
+    },
+    {
+      "id": "knutby-problem-32",
+      "kind": "problem",
+      "number": null,
+      "name": "perk sa kärr... ss",
+      "grade": "7B+",
+      "length": "",
+      "type": "Slopers,Travers H->V",
+      "firstAscent": "Adam R",
+      "description": "Sittstart till problemet som går upp över \"näsan\" på samma block som \"mount knutby\". Hårda slopersflytt för att komma in i ståstarten.",
+      "source": {
+        "id": "legacy:knutby",
+        "path": "mediawiki/Knutby.txt"
+      }
+    },
+    {
+      "id": "knutby-problem-33",
+      "kind": "problem",
+      "number": null,
+      "name": "Marty Mat & The Funky Bunch",
+      "grade": "7B+",
+      "length": "",
+      "type": "Krimp,Pinch,Aréte",
+      "firstAscent": "Martin F",
+      "description": "Areten på baksidan av Kolossos-blocket.",
+      "source": {
+        "id": "legacy:knutby",
+        "path": "mediawiki/Knutby.txt"
+      }
+    },
+    {
+      "id": "knutby-problem-34",
+      "kind": "problem",
+      "number": null,
+      "name": "Mount Knutby ss",
+      "grade": "7B",
+      "length": "",
+      "type": "",
+      "firstAscent": "Olle Wehlin",
+      "description": "7B ss. 7A+ ståstart.",
+      "source": {
+        "id": "legacy:knutby",
+        "path": "mediawiki/Knutby.txt"
+      }
+    },
+    {
+      "id": "knutby-problem-35",
+      "kind": "problem",
+      "number": null,
+      "name": "Pippi Pelikan",
+      "grade": "7C+",
+      "length": "",
+      "type": "Krimp,Slopers,Överhäng",
+      "firstAscent": "Said Belhaj",
+      "description": "Startar på samma ramp som Really mad/bad Hooker. Går sedan vänster upp i Kristi brud.",
+      "source": {
+        "id": "legacy:knutby",
+        "path": "mediawiki/Knutby.txt"
+      }
+    },
+    {
+      "id": "knutby-problem-36",
+      "kind": "problem",
+      "number": null,
+      "name": "Myggish",
+      "grade": "6C",
+      "length": "",
+      "type": "Krimp,Slopers,Överhäng",
+      "firstAscent": "?",
+      "description": "",
+      "source": {
+        "id": "legacy:knutby",
+        "path": "mediawiki/Knutby.txt"
+      }
+    },
+    {
+      "id": "knutby-problem-37",
+      "kind": "problem",
+      "number": null,
+      "name": "Myggish SS",
+      "grade": "7B+",
+      "length": "",
+      "type": "Krimp,Slopers,Överhäng",
+      "firstAscent": "Adam?",
+      "description": "",
+      "source": {
+        "id": "legacy:knutby",
+        "path": "mediawiki/Knutby.txt"
+      }
+    },
+    {
+      "id": "knutby-problem-38",
+      "kind": "problem",
+      "number": null,
+      "name": "Oetisk rensning",
+      "grade": "6A",
+      "length": "",
+      "type": "",
+      "firstAscent": "?",
+      "description": "Hoppstart sendan rakt upp",
+      "source": {
+        "id": "legacy:knutby",
+        "path": "mediawiki/Knutby.txt"
+      }
+    },
+    {
+      "id": "knutby-problem-39",
+      "kind": "problem",
+      "number": null,
+      "name": "Ullarädd",
+      "grade": "5B",
+      "length": "",
+      "type": "",
+      "firstAscent": "?",
+      "description": "Hög start",
+      "source": {
+        "id": "legacy:knutby",
+        "path": "mediawiki/Knutby.txt"
+      }
+    },
+    {
+      "id": "knutby-problem-40",
+      "kind": "problem",
+      "number": null,
+      "name": "J-Lo",
+      "grade": "6B+",
+      "length": "",
+      "type": "Krimp,Highball,Aréte",
+      "firstAscent": "Martin Fransson och Lo Wischman",
+      "description": "Följer areten till höger om Lynx Lynx",
+      "source": {
+        "id": "legacy:knutby",
+        "path": "mediawiki/Knutby.txt"
+      }
+    },
+    {
+      "id": "knutby-problem-41",
+      "kind": "problem",
+      "number": null,
+      "name": "Tunnelseende",
+      "grade": "6B",
+      "length": "",
+      "type": "",
+      "firstAscent": "?",
+      "description": "Startar längst in i grottan.",
+      "source": {
+        "id": "legacy:knutby",
+        "path": "mediawiki/Knutby.txt"
+      }
+    },
+    {
+      "id": "knutby-problem-42",
+      "kind": "problem",
+      "number": null,
+      "name": "CEK-5",
+      "grade": "6A",
+      "length": "",
+      "type": "",
+      "firstAscent": "?",
+      "description": "",
+      "source": {
+        "id": "legacy:knutby",
+        "path": "mediawiki/Knutby.txt"
+      }
+    },
+    {
+      "id": "knutby-problem-43",
+      "kind": "problem",
+      "number": null,
+      "name": "Djurperken assis",
+      "grade": "7B+",
+      "length": "",
+      "type": "Krimp,Överhäng",
+      "firstAscent": "Stefan H",
+      "description": "Sittstart något höger om Djurperken. Upp i den via dess högerkrimp.",
+      "source": {
+        "id": "legacy:knutby",
+        "path": "mediawiki/Knutby.txt"
+      }
+    },
+    {
+      "id": "knutby-problem-44",
+      "kind": "problem",
+      "number": null,
+      "name": "Prize Cut",
+      "grade": "6C",
+      "length": "",
+      "type": "Slopers,Överhäng,Highball,Aréte",
+      "firstAscent": "?",
+      "description": "Följ den högra Areten på Mad Hooker överhänget. Hög urtoppning samma som Bad Hooker.",
+      "source": {
+        "id": "legacy:knutby",
+        "path": "mediawiki/Knutby.txt"
+      }
+    },
+    {
+      "id": "knutby-problem-45",
+      "kind": "problem",
+      "number": null,
+      "name": "Korgossen",
+      "grade": "6B",
+      "length": "",
+      "type": "Krimp,Slopers",
+      "firstAscent": "?",
+      "description": "Startar som Prize Cut men går sedan rakt upp på den vertikala väggen",
+      "source": {
+        "id": "legacy:knutby",
+        "path": "mediawiki/Knutby.txt"
+      }
+    },
+    {
+      "id": "knutby-problem-46",
+      "kind": "problem",
+      "number": null,
+      "name": "Livsfarlig att leda",
+      "grade": "6A",
+      "length": "",
+      "type": "Slab",
+      "firstAscent": "?",
+      "description": "Startar vid Leif-Edvin. Går rakt upp på sva väggen.",
+      "source": {
+        "id": "legacy:knutby",
+        "path": "mediawiki/Knutby.txt"
+      }
+    },
+    {
+      "id": "knutby-problem-47",
+      "kind": "problem",
+      "number": null,
+      "name": "Q5",
+      "grade": "6B",
+      "length": "",
+      "type": "",
+      "firstAscent": "?",
+      "description": "Mellan \"Livsfarlig att leda\" och \"Fet, ful och fattig\".",
+      "source": {
+        "id": "legacy:knutby",
+        "path": "mediawiki/Knutby.txt"
+      }
+    },
+    {
+      "id": "knutby-problem-48",
+      "kind": "problem",
+      "number": null,
+      "name": "Leif-Edvin",
+      "grade": "7B",
+      "length": "",
+      "type": "Krimp,Slopers,Pinch,Överhäng,Aréte",
+      "firstAscent": "Adam Rosenbaum",
+      "description": "Följer den vänstra areten på Mad Hooker överhänget.",
+      "source": {
+        "id": "legacy:knutby",
+        "path": "mediawiki/Knutby.txt"
+      }
+    },
+    {
+      "id": "knutby-problem-49",
+      "kind": "problem",
+      "number": null,
+      "name": "Q9",
+      "grade": "3C",
+      "length": "",
+      "type": "Slab",
+      "firstAscent": "?",
+      "description": "Längst till vänster på sva ytan.",
+      "source": {
+        "id": "legacy:knutby",
+        "path": "mediawiki/Knutby.txt"
+      }
+    },
+    {
+      "id": "knutby-problem-50",
+      "kind": "problem",
+      "number": null,
+      "name": "Assistenten",
+      "grade": "4C",
+      "length": "",
+      "type": "",
+      "firstAscent": "?",
+      "description": "HH på på stort layback, snett vänster mot jug.",
+      "source": {
+        "id": "legacy:knutby",
+        "path": "mediawiki/Knutby.txt"
+      }
+    },
+    {
+      "id": "knutby-problem-51",
+      "kind": "problem",
+      "number": null,
+      "name": "Trädgårdsmästaren",
+      "grade": "5A",
+      "length": "",
+      "type": "",
+      "firstAscent": "?",
+      "description": "",
+      "source": {
+        "id": "legacy:knutby",
+        "path": "mediawiki/Knutby.txt"
+      }
+    },
+    {
+      "id": "knutby-problem-52",
+      "kind": "problem",
+      "number": null,
+      "name": "Huggorm",
+      "grade": "4B",
+      "length": "",
+      "type": "Slab",
+      "firstAscent": "Manne?",
+      "description": "Sva groove",
+      "source": {
+        "id": "legacy:knutby",
+        "path": "mediawiki/Knutby.txt"
+      }
+    },
+    {
+      "id": "knutby-problem-53",
+      "kind": "problem",
+      "number": null,
+      "name": "Ryggen",
+      "grade": "5A",
+      "length": "",
+      "type": "Slab",
+      "firstAscent": "?",
+      "description": "Över sva ryggen till vänster om Huggorm.",
+      "source": {
+        "id": "legacy:knutby",
+        "path": "mediawiki/Knutby.txt"
+      }
+    },
+    {
+      "id": "knutby-problem-54",
+      "kind": "problem",
+      "number": null,
+      "name": "Footsteps",
+      "grade": "7C+",
+      "length": "",
+      "type": "Överhäng",
+      "firstAscent": "Stefan Rasmussen",
+      "description": "Start på små greppen under Kristibrud.",
+      "source": {
+        "id": "legacy:knutby",
+        "path": "mediawiki/Knutby.txt"
+      }
+    },
+    {
+      "id": "knutby-problem-55",
+      "kind": "problem",
+      "number": null,
+      "name": "Sami's Cash",
+      "grade": "7B",
+      "length": "",
+      "type": "Slopers,Aréte,Travers H->V",
+      "firstAscent": "-",
+      "description": "Går på den högra areten på baksidan av kollososblocket. Ståstart på slopers och följ sedan areten upp till vänster. Finns möjlighet att jobba in en sittstart för den hugande.",
+      "source": {
+        "id": "legacy:knutby",
+        "path": "mediawiki/Knutby.txt"
+      }
+    },
+    {
+      "id": "knutby-problem-56",
+      "kind": "problem",
+      "number": "5",
+      "name": "Flakasand",
+      "grade": "5B",
+      "length": "",
+      "type": "",
+      "firstAscent": "Johan Lundström",
+      "description": "på M:stenen i Föraren, nr 5.",
+      "source": {
+        "id": "legacy:knutby",
+        "path": "mediawiki/Knutby.txt"
+      }
+    }
+  ],
+  "images": [],
+  "access": {
+    "legacyText": null,
+    "federationSlug": null
+  },
+  "qualityIssues": [],
+  "provenance": {
+    "primarySourceId": "legacy:knutby",
+    "sources": [
+      {
+        "id": "legacy:knutby",
+        "title": "Sverigeföraren 2014: Knutby",
+        "path": "mediawiki/Knutby.txt",
+        "license": "GNU Free Documentation License",
+        "snapshotDate": "2014-01-01"
+      }
+    ]
+  }
+}

@@ -1,0 +1,134 @@
+{
+  "schemaVersion": 1,
+  "id": "skuru",
+  "slug": "skuru",
+  "name": "Skuru",
+  "description": "En klippa med sluttande landningar beläget nära ett hus, ta hänsyn till villägarna. Potential finns för fler problem dock är den vänstra sidan något lös. Problemen i Skuruparken ligger ovanför Saltängens skola nedanför Värmdövägen, flertal väggar och nyuppsatta problem vintern 2012. En del projekt finns också på plats. Parkera på långtidsparkering framför dagiset, respektera småstugeägarna inne i parken. För mer information kontakta Stefan Wulf.",
+  "coordinates": {
+    "latitude": 59.319988,
+    "longitude": 18.219345
+  },
+  "categories": [
+    "Nacka-Värmdö",
+    "Saknar vägbeskrivning",
+    "Stockholm"
+  ],
+  "sections": [
+    {
+      "id": "allmant",
+      "title": "Allmänt",
+      "body": "En klippa med sluttande landningar beläget nära ett hus, ta hänsyn till villägarna. Potential finns för fler problem dock är den vänstra sidan något lös. Problemen i Skuruparken ligger ovanför Saltängens skola nedanför Värmdövägen, flertal väggar och nyuppsatta problem vintern 2012. En del projekt finns också på plats. Parkera på långtidsparkering framför dagiset, respektera småstugeägarna inne i parken. För mer information kontakta Stefan Wulf."
+    },
+    {
+      "id": "vagbeskrivning",
+      "title": "Vägbeskrivning",
+      "body": "titel=Skurubouldern lat=18219345 long=59319988 Denna boulderklippa finns kvar i allra högsta grad. Kör värmdöleden och sväng av mot Skuru sjukhus (före bron). Kör vänster och följ Skurusundsvägen tills du kommer fram till Kristinedalsvägen. Sväng höger in på Kristinedalsvägen, direkt efter fotbollsplanen. Följ vägen rakt fram en bit och parkera på gatan utanför det jättestora huset, Kristinedalsvägen 6. Gå in på vägen bredvid huset och följ grusvägen uppför backen ca 20 meter. Klipporna ligger där nålarna är på kartan. Problemen är sällan klättrade så räkna inte med att hitta någon krita som tipsar vart problemen är."
+    },
+    {
+      "id": "boulderproblem",
+      "title": "Boulderproblem",
+      "body": "Kategori:Stockholm Kategori:Nacka-Värmdö kategori:Saknar vägbeskrivning"
+    }
+  ],
+  "routes": [
+    {
+      "id": "skuru-problem-1",
+      "kind": "problem",
+      "number": "1",
+      "name": "Duce",
+      "grade": "7b",
+      "length": "",
+      "type": "",
+      "firstAscent": "Crell",
+      "description": "Låg sittstart i sidogrepp. Gå, eventuellt via ett par slopiga lister, till ett konstigt krimp/sidgrepp. Skicka upp till stora greppet aningen snett till höger.",
+      "source": {
+        "id": "legacy:skuru",
+        "path": "mediawiki/Skuru.txt"
+      }
+    },
+    {
+      "id": "skuru-problem-2",
+      "kind": "problem",
+      "number": "2",
+      "name": "Travers",
+      "grade": "6b?",
+      "length": "",
+      "type": "",
+      "firstAscent": "",
+      "description": "Från höger till vänster",
+      "source": {
+        "id": "legacy:skuru",
+        "path": "mediawiki/Skuru.txt"
+      }
+    },
+    {
+      "id": "skuru-problem-3",
+      "kind": "problem",
+      "number": "3",
+      "name": "En dag på jobbet",
+      "grade": "7A",
+      "length": "",
+      "type": "",
+      "firstAscent": "Stefan Wulf",
+      "description": "Ligger i Skuruparken alldeles bakom och ovanför dagiset. Den vänstra byggnaden. Var noga med att inte skräpa ner och inte vara ful i munnen, tänk på barnen :-). Ståstart med vänster crimp och höger sidotag. Klättra rakt upp via vertikal list.",
+      "source": {
+        "id": "legacy:skuru",
+        "path": "mediawiki/Skuru.txt"
+      }
+    },
+    {
+      "id": "skuru-problem-4",
+      "kind": "problem",
+      "number": "4",
+      "name": "Goa gubbar",
+      "grade": "7A",
+      "length": "",
+      "type": "",
+      "firstAscent": "Stefan Wulf",
+      "description": "Direkt till höger om En dag på jobbet. Start på två små crimpar, upp till höger gaston, vänster pocket och rakt upp urtoppning på slopers.",
+      "source": {
+        "id": "legacy:skuru",
+        "path": "mediawiki/Skuru.txt"
+      }
+    },
+    {
+      "id": "skuru-problem-5",
+      "kind": "problem",
+      "number": "5",
+      "name": "Goa gummor",
+      "grade": "6B",
+      "length": "",
+      "type": "",
+      "firstAscent": "Stefan Wulf",
+      "description": "Höger hand på slopig ramp, vänster hand i spricka, lättaste vägen upp om man är lång. Går eventuellt att göra sittstart?",
+      "source": {
+        "id": "legacy:skuru",
+        "path": "mediawiki/Skuru.txt"
+      }
+    }
+  ],
+  "images": [
+    {
+      "filename": "Skuru.jpg",
+      "caption": "",
+      "missing": false
+    }
+  ],
+  "access": {
+    "legacyText": null,
+    "federationSlug": null
+  },
+  "qualityIssues": [],
+  "provenance": {
+    "primarySourceId": "legacy:skuru",
+    "sources": [
+      {
+        "id": "legacy:skuru",
+        "title": "Sverigeföraren 2014: Skuru",
+        "path": "mediawiki/Skuru.txt",
+        "license": "GNU Free Documentation License",
+        "snapshotDate": "2014-01-01"
+      }
+    ]
+  }
+}

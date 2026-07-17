@@ -1,0 +1,643 @@
+{
+  "schemaVersion": 1,
+  "id": "finnsvedsberget",
+  "slug": "finnsvedsberget",
+  "name": "Finnsvedsberget",
+  "description": "Skärgårdsnära överhängande klättring.",
+  "coordinates": {
+    "latitude": 59.2807,
+    "longitude": 18.33744
+  },
+  "categories": [
+    "Nacka-Värmdö",
+    "Stockholm"
+  ],
+  "sections": [
+    {
+      "id": "allmant",
+      "title": "Allmänt",
+      "body": "Skärgårdsnära överhängande klättring."
+    },
+    {
+      "id": "vagbeskrivning",
+      "title": "Vägbeskrivning",
+      "body": "titel=Finnsvedsberget lat=18337440 long=59280700 Kör väg 222 Värmdöleden, avfart Gustavsberg/Ingarö. Tag vänster mot Ingarö. Kör Ingarövägen ca 2km och sedan höger mot Lillängsdal efter bron. Kör Lillängsdalsvägen ca 4km och parkera i korsningen Lillängsdalsvägen/Klintvägen. Gå Klintvägen tills dess slut och följ stigen i vägens förlängning. När stigen grenar sig ta första vänster, andra vänster och tredje höger. Följ stigen ytterligare 2-300m. Ett röse vid sidan av stigen visar att det är dags att ta vänster ner mot vattnet. Undvik sommarstugorna. Väl nere vid vattnet gå åt höger. Ett nymonterat firningsankare sitter på svaplattan ovanför vänstra delen av klippan. Från ankaret kan du nå ankarna på Sjöjungfrun - Tintin. För att hitta ankaret, följ stigen knappt hundra meter längre och ett andra röse visar var du ska ta vänster mot vattnet."
+    },
+    {
+      "id": "hogklint",
+      "title": "Högklint",
+      "body": "Överhängande vägg som också ligger vid vattnet. Korta tunga leder. Vägbeskrivning: Som för Sjöväggen, men fortsätt stigen rakt fram. Efter några hundra meter korsar en ledning stigen och strax efter det visar ett tredje röse var du ska vika av höger ned mot vattnet. Lättare att hitta till än Sjöväggen. Här finns ett gäng nya leder. Någon som har koll? Balkongen nås via fast rep längst ut till vänster på Högklint. Här finns några ganska fina 5c-leder och några nya, okända leder. Akta taggbuskarna när ni firar ner från led 3 & 4."
+    },
+    {
+      "id": "lilla-vaggen",
+      "title": "Lilla väggen",
+      "body": "Kategori:Nacka-Värmdö Kategori:Stockholm Category:Trad Category:Sport Category:Överhäng"
+    }
+  ],
+  "routes": [
+    {
+      "id": "finnsvedsberget-led-1",
+      "kind": "route",
+      "number": null,
+      "name": "Sjöjungfrun",
+      "grade": "6a+",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "LL, MW",
+      "description": "",
+      "source": {
+        "id": "legacy:finnsvedsberget",
+        "path": "mediawiki/Finnsvedsberget.txt"
+      }
+    },
+    {
+      "id": "finnsvedsberget-led-2",
+      "kind": "route",
+      "number": null,
+      "name": "Stortorsk",
+      "grade": "7c+",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "MW",
+      "description": "",
+      "source": {
+        "id": "legacy:finnsvedsberget",
+        "path": "mediawiki/Finnsvedsberget.txt"
+      }
+    },
+    {
+      "id": "finnsvedsberget-led-3",
+      "kind": "route",
+      "number": null,
+      "name": "Kattöga",
+      "grade": "7c",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "MW",
+      "description": "Tidigare graderad 7b+, men ett stort grepp lossnade sommaren 2012 och leden är numera aningen svårare.",
+      "source": {
+        "id": "legacy:finnsvedsberget",
+        "path": "mediawiki/Finnsvedsberget.txt"
+      }
+    },
+    {
+      "id": "finnsvedsberget-led-4",
+      "kind": "route",
+      "number": null,
+      "name": "Snatch",
+      "grade": "8a",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "Scott Mooney",
+      "description": "Börjar på samma ställe som Kattöga, men går rakt upp.",
+      "source": {
+        "id": "legacy:finnsvedsberget",
+        "path": "mediawiki/Finnsvedsberget.txt"
+      }
+    },
+    {
+      "id": "finnsvedsberget-led-5",
+      "kind": "route",
+      "number": null,
+      "name": "Finnkampen",
+      "grade": "7b",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "MW",
+      "description": "En diagonal travers över hela väggen. Börjar vid Baggen och slutar i Sjöjungfrun. Saknar hängare?",
+      "source": {
+        "id": "legacy:finnsvedsberget",
+        "path": "mediawiki/Finnsvedsberget.txt"
+      }
+    },
+    {
+      "id": "finnsvedsberget-led-6",
+      "kind": "route",
+      "number": null,
+      "name": "Baggen",
+      "grade": "7a+",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "MW",
+      "description": "Går rakt upp förbi en tydlig flakformation.",
+      "source": {
+        "id": "legacy:finnsvedsberget",
+        "path": "mediawiki/Finnsvedsberget.txt"
+      }
+    },
+    {
+      "id": "finnsvedsberget-led-7",
+      "kind": "route",
+      "number": null,
+      "name": "Kvinnofällan",
+      "grade": "7c",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "Fredrik Sydstrand",
+      "description": "Börjar i Baggen, men går vänster och in i Snatch.",
+      "source": {
+        "id": "legacy:finnsvedsberget",
+        "path": "mediawiki/Finnsvedsberget.txt"
+      }
+    },
+    {
+      "id": "finnsvedsberget-led-8",
+      "kind": "route",
+      "number": null,
+      "name": "Tintin direkt",
+      "grade": "8a (hela)",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "Johan Luhr",
+      "description": "Boulderaktigt insteg. Börjar vid en böjd järnpinne.",
+      "source": {
+        "id": "legacy:finnsvedsberget",
+        "path": "mediawiki/Finnsvedsberget.txt"
+      }
+    },
+    {
+      "id": "finnsvedsberget-led-9",
+      "kind": "route",
+      "number": null,
+      "name": "Tintin",
+      "grade": "7c+",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "Johan Luhr",
+      "description": "",
+      "source": {
+        "id": "legacy:finnsvedsberget",
+        "path": "mediawiki/Finnsvedsberget.txt"
+      }
+    },
+    {
+      "id": "finnsvedsberget-led-10",
+      "kind": "route",
+      "number": null,
+      "name": "Milou",
+      "grade": "7c",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "Johan Luhr",
+      "description": "",
+      "source": {
+        "id": "legacy:finnsvedsberget",
+        "path": "mediawiki/Finnsvedsberget.txt"
+      }
+    },
+    {
+      "id": "finnsvedsberget-led-11",
+      "kind": "route",
+      "number": null,
+      "name": "Kapten Haddock",
+      "grade": "7a",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "LL, MW",
+      "description": "",
+      "source": {
+        "id": "legacy:finnsvedsberget",
+        "path": "mediawiki/Finnsvedsberget.txt"
+      }
+    },
+    {
+      "id": "finnsvedsberget-led-12",
+      "kind": "route",
+      "number": null,
+      "name": "Fasta former",
+      "grade": "7b",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "Johan Luhr",
+      "description": "",
+      "source": {
+        "id": "legacy:finnsvedsberget",
+        "path": "mediawiki/Finnsvedsberget.txt"
+      }
+    },
+    {
+      "id": "finnsvedsberget-led-13",
+      "kind": "route",
+      "number": null,
+      "name": "Ada",
+      "grade": "6a+",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "MW, LL",
+      "description": "Osäkrat insteg leder upp till en dieder som sluttar åt höger. Utsteget är brantare och kräver beslutsamhet.",
+      "source": {
+        "id": "legacy:finnsvedsberget",
+        "path": "mediawiki/Finnsvedsberget.txt"
+      }
+    },
+    {
+      "id": "finnsvedsberget-led-14",
+      "kind": "route",
+      "number": null,
+      "name": "Runda former",
+      "grade": "6a+",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "Johan Luhr",
+      "description": "Fin klättring på goda grepp upp till samma utsteg och ankare som Ada.",
+      "source": {
+        "id": "legacy:finnsvedsberget",
+        "path": "mediawiki/Finnsvedsberget.txt"
+      }
+    },
+    {
+      "id": "finnsvedsberget-led-15",
+      "kind": "route",
+      "number": null,
+      "name": "Solstorm",
+      "grade": "6a",
+      "length": "16",
+      "type": "sport",
+      "firstAscent": "Andreas Harne-13",
+      "description": "Några meter till höger om Runda former. Underhållande klättring upp till en hylla med en stor tall, där ett separat ankare finns.",
+      "source": {
+        "id": "legacy:finnsvedsberget",
+        "path": "mediawiki/Finnsvedsberget.txt"
+      }
+    },
+    {
+      "id": "finnsvedsberget-led-16",
+      "kind": "route",
+      "number": null,
+      "name": "Havstörst",
+      "grade": "6a",
+      "length": "10",
+      "type": "sport",
+      "firstAscent": "Andreas Harne-13",
+      "description": "Går på en liten svavägg till höger om stora väggen. Firningsankare.",
+      "source": {
+        "id": "legacy:finnsvedsberget",
+        "path": "mediawiki/Finnsvedsberget.txt"
+      }
+    },
+    {
+      "id": "finnsvedsberget-led-17",
+      "kind": "route",
+      "number": null,
+      "name": "Matrix",
+      "grade": "7c+",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "JL",
+      "description": "Går ihop med Salt Sill?",
+      "source": {
+        "id": "legacy:finnsvedsberget",
+        "path": "mediawiki/Finnsvedsberget.txt"
+      }
+    },
+    {
+      "id": "finnsvedsberget-led-18",
+      "kind": "route",
+      "number": null,
+      "name": "Salt sill",
+      "grade": "7c",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "JL",
+      "description": "Viker av åt höger?",
+      "source": {
+        "id": "legacy:finnsvedsberget",
+        "path": "mediawiki/Finnsvedsberget.txt"
+      }
+    },
+    {
+      "id": "finnsvedsberget-led-19",
+      "kind": "route",
+      "number": null,
+      "name": "Törnrosa",
+      "grade": "8a",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "",
+      "description": "Stämmer detta? Går ihop med Salt Sill?",
+      "source": {
+        "id": "legacy:finnsvedsberget",
+        "path": "mediawiki/Finnsvedsberget.txt"
+      }
+    },
+    {
+      "id": "finnsvedsberget-led-20",
+      "kind": "route",
+      "number": null,
+      "name": "Ålen",
+      "grade": "7a",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "JL",
+      "description": "Går till vänster om taket. Gymnastisk klättring för hela kroppen. Hemsk, men rolig. Välbultad.",
+      "source": {
+        "id": "legacy:finnsvedsberget",
+        "path": "mediawiki/Finnsvedsberget.txt"
+      }
+    },
+    {
+      "id": "finnsvedsberget-led-21",
+      "kind": "route",
+      "number": null,
+      "name": "Ska ni joppa",
+      "grade": "6b",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "MO, CT",
+      "description": "Högra delen av taket. Svårare än vad den ser ut.",
+      "source": {
+        "id": "legacy:finnsvedsberget",
+        "path": "mediawiki/Finnsvedsberget.txt"
+      }
+    },
+    {
+      "id": "finnsvedsberget-led-22",
+      "kind": "route",
+      "number": null,
+      "name": "Lutande sprickan",
+      "grade": "7b",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "JL",
+      "description": "",
+      "source": {
+        "id": "legacy:finnsvedsberget",
+        "path": "mediawiki/Finnsvedsberget.txt"
+      }
+    },
+    {
+      "id": "finnsvedsberget-led-23",
+      "kind": "route",
+      "number": null,
+      "name": "Medvind",
+      "grade": "7b",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "JL",
+      "description": "",
+      "source": {
+        "id": "legacy:finnsvedsberget",
+        "path": "mediawiki/Finnsvedsberget.txt"
+      }
+    },
+    {
+      "id": "finnsvedsberget-led-24",
+      "kind": "route",
+      "number": null,
+      "name": "Motvind",
+      "grade": "7b",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "JL",
+      "description": "",
+      "source": {
+        "id": "legacy:finnsvedsberget",
+        "path": "mediawiki/Finnsvedsberget.txt"
+      }
+    },
+    {
+      "id": "finnsvedsberget-led-25",
+      "kind": "route",
+      "number": "1",
+      "name": "Badkrukan",
+      "grade": "7b",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "",
+      "description": "",
+      "source": {
+        "id": "legacy:finnsvedsberget",
+        "path": "mediawiki/Finnsvedsberget.txt"
+      }
+    },
+    {
+      "id": "finnsvedsberget-led-26",
+      "kind": "route",
+      "number": "2",
+      "name": "Musslan",
+      "grade": "6c+",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "JL",
+      "description": "",
+      "source": {
+        "id": "legacy:finnsvedsberget",
+        "path": "mediawiki/Finnsvedsberget.txt"
+      }
+    },
+    {
+      "id": "finnsvedsberget-led-27",
+      "kind": "route",
+      "number": "3",
+      "name": "Ta mig till havet",
+      "grade": "5c",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "MJ, JL",
+      "description": "Inne i hörnet. Ganska fin.",
+      "source": {
+        "id": "legacy:finnsvedsberget",
+        "path": "mediawiki/Finnsvedsberget.txt"
+      }
+    },
+    {
+      "id": "finnsvedsberget-led-28",
+      "kind": "route",
+      "number": "4",
+      "name": "Gör mig till kung",
+      "grade": "5c",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "JL, MJ",
+      "description": "",
+      "source": {
+        "id": "legacy:finnsvedsberget",
+        "path": "mediawiki/Finnsvedsberget.txt"
+      }
+    },
+    {
+      "id": "finnsvedsberget-led-29",
+      "kind": "route",
+      "number": "5",
+      "name": "Solo",
+      "grade": "6a",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "Okänd",
+      "description": "Väggklättring till vänster om \"aréten\".",
+      "source": {
+        "id": "legacy:finnsvedsberget",
+        "path": "mediawiki/Finnsvedsberget.txt"
+      }
+    },
+    {
+      "id": "finnsvedsberget-led-30",
+      "kind": "route",
+      "number": "6",
+      "name": "Ormbunken",
+      "grade": "6b+",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "Okänd",
+      "description": "Följer \"aréten\". Cruxet håller kanske 6b/6b+, resten betydligt enklare.",
+      "source": {
+        "id": "legacy:finnsvedsberget",
+        "path": "mediawiki/Finnsvedsberget.txt"
+      }
+    },
+    {
+      "id": "finnsvedsberget-led-31",
+      "kind": "route",
+      "number": "7",
+      "name": "Törnrosa",
+      "grade": "8a",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "Okänd",
+      "description": "",
+      "source": {
+        "id": "legacy:finnsvedsberget",
+        "path": "mediawiki/Finnsvedsberget.txt"
+      }
+    },
+    {
+      "id": "finnsvedsberget-led-32",
+      "kind": "route",
+      "number": "8",
+      "name": "Draget",
+      "grade": "7b+",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "Okänd",
+      "description": "",
+      "source": {
+        "id": "legacy:finnsvedsberget",
+        "path": "mediawiki/Finnsvedsberget.txt"
+      }
+    },
+    {
+      "id": "finnsvedsberget-led-33",
+      "kind": "route",
+      "number": "9",
+      "name": "Rock Johan",
+      "grade": "7b",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "Okänd",
+      "description": "",
+      "source": {
+        "id": "legacy:finnsvedsberget",
+        "path": "mediawiki/Finnsvedsberget.txt"
+      }
+    },
+    {
+      "id": "finnsvedsberget-led-34",
+      "kind": "route",
+      "number": null,
+      "name": "Ljungens lag",
+      "grade": "4c",
+      "length": "",
+      "type": "trad",
+      "firstAscent": "MO, CT",
+      "description": "",
+      "source": {
+        "id": "legacy:finnsvedsberget",
+        "path": "mediawiki/Finnsvedsberget.txt"
+      }
+    },
+    {
+      "id": "finnsvedsberget-led-35",
+      "kind": "route",
+      "number": null,
+      "name": "De som tog och log",
+      "grade": "4b",
+      "length": "",
+      "type": "trad",
+      "firstAscent": "MO, CT",
+      "description": "",
+      "source": {
+        "id": "legacy:finnsvedsberget",
+        "path": "mediawiki/Finnsvedsberget.txt"
+      }
+    },
+    {
+      "id": "finnsvedsberget-led-36",
+      "kind": "route",
+      "number": null,
+      "name": "Svajmast",
+      "grade": "5a",
+      "length": "",
+      "type": "mix",
+      "firstAscent": "MO, CT",
+      "description": "",
+      "source": {
+        "id": "legacy:finnsvedsberget",
+        "path": "mediawiki/Finnsvedsberget.txt"
+      }
+    },
+    {
+      "id": "finnsvedsberget-led-37",
+      "kind": "route",
+      "number": null,
+      "name": "No more Mr Nice guy",
+      "grade": "5c",
+      "length": "",
+      "type": "trad",
+      "firstAscent": "CT, MT",
+      "description": "",
+      "source": {
+        "id": "legacy:finnsvedsberget",
+        "path": "mediawiki/Finnsvedsberget.txt"
+      }
+    },
+    {
+      "id": "finnsvedsberget-led-38",
+      "kind": "route",
+      "number": null,
+      "name": "Meet Dr Nasty",
+      "grade": "5a",
+      "length": "",
+      "type": "trad",
+      "firstAscent": "MO, CT",
+      "description": "",
+      "source": {
+        "id": "legacy:finnsvedsberget",
+        "path": "mediawiki/Finnsvedsberget.txt"
+      }
+    }
+  ],
+  "images": [
+    {
+      "filename": "Finnsvedsberget.jpg",
+      "caption": "Tintin direkt, Finnsvedsberget",
+      "missing": false
+    },
+    {
+      "filename": "Högklint.jpg",
+      "caption": "Högklint",
+      "missing": false
+    },
+    {
+      "filename": "Finnsvedsberget_balkongen.png",
+      "caption": "",
+      "missing": false
+    }
+  ],
+  "access": {
+    "legacyText": null,
+    "federationSlug": null
+  },
+  "qualityIssues": [],
+  "provenance": {
+    "primarySourceId": "legacy:finnsvedsberget",
+    "sources": [
+      {
+        "id": "legacy:finnsvedsberget",
+        "title": "Sverigeföraren 2014: Finnsvedsberget",
+        "path": "mediawiki/Finnsvedsberget.txt",
+        "license": "GNU Free Documentation License",
+        "snapshotDate": "2014-01-01"
+      }
+    ]
+  }
+}

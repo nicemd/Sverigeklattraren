@@ -1,0 +1,208 @@
+{
+  "schemaVersion": 1,
+  "id": "smalinden",
+  "slug": "smalinden",
+  "name": "Smålinden",
+  "description": "En hel del nya borrbultade leder finns på Smålinden",
+  "coordinates": null,
+  "categories": [
+    "Bohuslän"
+  ],
+  "sections": [
+    {
+      "id": "allmant",
+      "title": "Allmänt",
+      "body": "En hel del nya borrbultade leder finns på Smålinden"
+    },
+    {
+      "id": "leder",
+      "title": "Leder",
+      "body": "Kategori:Bohuslän"
+    }
+  ],
+  "routes": [
+    {
+      "id": "smalinden-led-1",
+      "kind": "route",
+      "number": null,
+      "name": "La Tigress",
+      "grade": "6a+",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "?? ??",
+      "description": "",
+      "source": {
+        "id": "legacy:smalinden",
+        "path": "mediawiki/Smålinden.txt"
+      }
+    },
+    {
+      "id": "smalinden-led-2",
+      "kind": "route",
+      "number": null,
+      "name": "Den sista sommaren",
+      "grade": "6b",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "?? ??",
+      "description": "",
+      "source": {
+        "id": "legacy:smalinden",
+        "path": "mediawiki/Smålinden.txt"
+      }
+    },
+    {
+      "id": "smalinden-led-3",
+      "kind": "route",
+      "number": null,
+      "name": "Sparkcykeltjuven",
+      "grade": "7b+",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "?? ??",
+      "description": "",
+      "source": {
+        "id": "legacy:smalinden",
+        "path": "mediawiki/Smålinden.txt"
+      }
+    },
+    {
+      "id": "smalinden-led-4",
+      "kind": "route",
+      "number": null,
+      "name": "Namnlös led",
+      "grade": "projekt",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "?? ??",
+      "description": "8b?",
+      "source": {
+        "id": "legacy:smalinden",
+        "path": "mediawiki/Smålinden.txt"
+      }
+    },
+    {
+      "id": "smalinden-led-5",
+      "kind": "route",
+      "number": null,
+      "name": "Xango",
+      "grade": "8b",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "?? ??",
+      "description": "",
+      "source": {
+        "id": "legacy:smalinden",
+        "path": "mediawiki/Smålinden.txt"
+      }
+    },
+    {
+      "id": "smalinden-led-6",
+      "kind": "route",
+      "number": null,
+      "name": "La Cumparcita",
+      "grade": "8a",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "?? ??",
+      "description": "",
+      "source": {
+        "id": "legacy:smalinden",
+        "path": "mediawiki/Smålinden.txt"
+      }
+    },
+    {
+      "id": "smalinden-led-7",
+      "kind": "route",
+      "number": null,
+      "name": "Otacksam bultstrid",
+      "grade": "7a+",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "?? ??",
+      "description": "",
+      "source": {
+        "id": "legacy:smalinden",
+        "path": "mediawiki/Smålinden.txt"
+      }
+    },
+    {
+      "id": "smalinden-led-8",
+      "kind": "route",
+      "number": null,
+      "name": "Jösse halling breakers",
+      "grade": "7b",
+      "length": "",
+      "type": "",
+      "firstAscent": "",
+      "description": "",
+      "source": {
+        "id": "legacy:smalinden",
+        "path": "mediawiki/Smålinden.txt"
+      }
+    },
+    {
+      "id": "smalinden-led-9",
+      "kind": "route",
+      "number": null,
+      "name": "Moms Moms",
+      "grade": "7",
+      "length": "",
+      "type": "mix",
+      "firstAscent": "",
+      "description": "",
+      "source": {
+        "id": "legacy:smalinden",
+        "path": "mediawiki/Smålinden.txt"
+      }
+    },
+    {
+      "id": "smalinden-led-10",
+      "kind": "route",
+      "number": null,
+      "name": "Moms sportvariant",
+      "grade": "7a",
+      "length": "",
+      "type": "",
+      "firstAscent": "",
+      "description": "",
+      "source": {
+        "id": "legacy:smalinden",
+        "path": "mediawiki/Smålinden.txt"
+      }
+    },
+    {
+      "id": "smalinden-led-11",
+      "kind": "route",
+      "number": null,
+      "name": "Traverse",
+      "grade": "3",
+      "length": "",
+      "type": "",
+      "firstAscent": "",
+      "description": "",
+      "source": {
+        "id": "legacy:smalinden",
+        "path": "mediawiki/Smålinden.txt"
+      }
+    }
+  ],
+  "images": [],
+  "access": {
+    "legacyText": null,
+    "federationSlug": null
+  },
+  "qualityIssues": [],
+  "provenance": {
+    "primarySourceId": "legacy:smalinden",
+    "sources": [
+      {
+        "id": "legacy:smalinden",
+        "title": "Sverigeföraren 2014: Smålinden",
+        "path": "mediawiki/Smålinden.txt",
+        "license": "GNU Free Documentation License",
+        "snapshotDate": "2014-01-01"
+      }
+    ]
+  }
+}

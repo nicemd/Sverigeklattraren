@@ -1,0 +1,176 @@
+{
+  "schemaVersion": 1,
+  "id": "norrblocket",
+  "slug": "norrblocket",
+  "name": "Norrblocket",
+  "description": "Kategori:Saknar allmän infoKategori:Saknar vägbeskrivning =Problem= Kategori:Lycksele Kategori:Bouldering Kategori:Bimbo Kategori:Behöver kvalitetssäkras Kategori:Saknar karta Kategori:Saknar koordinater Kategori:Saknar skrivarformattering Kategori:Saknar skiss",
+  "coordinates": null,
+  "categories": [
+    "Behöver kvalitetssäkras",
+    "Bimbo",
+    "Bouldering",
+    "Lycksele",
+    "Saknar allmän info",
+    "Saknar karta",
+    "Saknar koordinater",
+    "Saknar skiss",
+    "Saknar skrivarformattering",
+    "Saknar vägbeskrivning"
+  ],
+  "sections": [],
+  "routes": [
+    {
+      "id": "norrblocket-problem-1",
+      "kind": "problem",
+      "number": "1",
+      "name": "Svasteg",
+      "grade": "4A",
+      "length": "",
+      "type": "Slab",
+      "firstAscent": "cd ls",
+      "description": "till vänster på stenens slabbiga sida",
+      "source": {
+        "id": "legacy:norrblocket",
+        "path": "mediawiki/Norrblocket.txt"
+      }
+    },
+    {
+      "id": "norrblocket-problem-2",
+      "kind": "problem",
+      "number": "2",
+      "name": "Flykten",
+      "grade": "6C",
+      "length": "",
+      "type": "Mantling,Travers V->H,Heel hook",
+      "firstAscent": "cd",
+      "description": "starta på höger arete av den överhängande sidan gå sedan via läppen ut till en jugge o mantla.",
+      "source": {
+        "id": "legacy:norrblocket",
+        "path": "mediawiki/Norrblocket.txt"
+      }
+    },
+    {
+      "id": "norrblocket-problem-3",
+      "kind": "problem",
+      "number": "3",
+      "name": "Midsom",
+      "grade": "7A+",
+      "length": "",
+      "type": "Krimp,Mantling",
+      "firstAscent": "cd",
+      "description": "starta på höger sida av den överhängande delen, bara att sätta igång o mantla",
+      "source": {
+        "id": "legacy:norrblocket",
+        "path": "mediawiki/Norrblocket.txt"
+      }
+    },
+    {
+      "id": "norrblocket-problem-4",
+      "kind": "problem",
+      "number": "4",
+      "name": "Midsom ss",
+      "grade": "7C",
+      "length": "",
+      "type": "Krimp,Mantling,Överhäng",
+      "firstAscent": "cd",
+      "description": "sittstarta till höger på den överhängande delen, sedan ut på midsom",
+      "source": {
+        "id": "legacy:norrblocket",
+        "path": "mediawiki/Norrblocket.txt"
+      }
+    },
+    {
+      "id": "norrblocket-problem-5",
+      "kind": "problem",
+      "number": "5",
+      "name": "Tanden",
+      "grade": "6B",
+      "length": "",
+      "type": "Krimp,Reach",
+      "firstAscent": "cd",
+      "description": "till vänster på den vertikala väggen o sedan upp.",
+      "source": {
+        "id": "legacy:norrblocket",
+        "path": "mediawiki/Norrblocket.txt"
+      }
+    },
+    {
+      "id": "norrblocket-problem-6",
+      "kind": "problem",
+      "number": "6",
+      "name": "Intet o ensamheten",
+      "grade": "7A",
+      "length": "",
+      "type": "Krimp,Reach",
+      "firstAscent": "cd",
+      "description": "starta sittande ute till höger på den verikala väggen, sedan rakt upp på bäste sätt",
+      "source": {
+        "id": "legacy:norrblocket",
+        "path": "mediawiki/Norrblocket.txt"
+      }
+    },
+    {
+      "id": "norrblocket-problem-7",
+      "kind": "problem",
+      "number": "7",
+      "name": "Första stegen",
+      "grade": "5B",
+      "length": "",
+      "type": "Mantling",
+      "firstAscent": "cd ls",
+      "description": "starta till vänster på den vågformade sidan o mantla.",
+      "source": {
+        "id": "legacy:norrblocket",
+        "path": "mediawiki/Norrblocket.txt"
+      }
+    },
+    {
+      "id": "norrblocket-problem-8",
+      "kind": "problem",
+      "number": "8",
+      "name": "Vågsvall",
+      "grade": "6A+",
+      "length": "",
+      "type": "Krimp,Slopers,Mantling",
+      "firstAscent": "cd",
+      "description": "starta i mitten på den vågformade väggen och ut",
+      "source": {
+        "id": "legacy:norrblocket",
+        "path": "mediawiki/Norrblocket.txt"
+      }
+    },
+    {
+      "id": "norrblocket-problem-9",
+      "kind": "problem",
+      "number": "9",
+      "name": "Tvivel",
+      "grade": "5C",
+      "length": "",
+      "type": "Krimp,Mantling",
+      "firstAscent": "cd ls",
+      "description": "starta till höger på den vågformade väggen och ut",
+      "source": {
+        "id": "legacy:norrblocket",
+        "path": "mediawiki/Norrblocket.txt"
+      }
+    }
+  ],
+  "images": [],
+  "access": {
+    "legacyText": null,
+    "federationSlug": null
+  },
+  "qualityIssues": [],
+  "provenance": {
+    "primarySourceId": "legacy:norrblocket",
+    "sources": [
+      {
+        "id": "legacy:norrblocket",
+        "title": "Sverigeföraren 2014: Norrblocket",
+        "path": "mediawiki/Norrblocket.txt",
+        "license": "GNU Free Documentation License",
+        "snapshotDate": "2014-01-01"
+      }
+    ]
+  }
+}

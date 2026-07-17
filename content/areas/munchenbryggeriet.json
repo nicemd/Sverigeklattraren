@@ -1,0 +1,713 @@
+{
+  "schemaVersion": 1,
+  "id": "munchenbryggeriet",
+  "slug": "munchenbryggeriet",
+  "name": "Münchenbryggeriet",
+  "description": "Lite sprängklippa och lite naturlig klippa.",
+  "coordinates": {
+    "latitude": 59.32081,
+    "longitude": 18.05053
+  },
+  "categories": [
+    "sport",
+    "Stockholm",
+    "Stockholm City"
+  ],
+  "sections": [
+    {
+      "id": "allmant",
+      "title": "Allmänt",
+      "body": "Lite sprängklippa och lite naturlig klippa."
+    },
+    {
+      "id": "vagbeskrivning",
+      "title": "Vägbeskrivning",
+      "body": "titel=Munchenbryggeriet lat=18050530 long=59320810 Nedre delen är sprängklippa av inte så hög kvalitet, dock förvånansvärt fin klättring på övre halvan som är naturlig klippa. Största fördelen är nog ändå att det går fort att ta sig dit en kväll efter jobbet. Skiss finns på Plonk De sex-sju leder som under 2007 bestulits på hängare/ankare har nu återfått forna tiders glans och är åter klätterbara. Läs mer på Utsidan Meja Madeleine har nu fått tillbaka hängare på sitt ankare av Bultkommittén 12/7 08"
+    },
+    {
+      "id": "leder",
+      "title": "Leder",
+      "body": "Vänstra delen Högra delen"
+    }
+  ],
+  "routes": [
+    {
+      "id": "munchenbryggeriet-led-1",
+      "kind": "route",
+      "number": null,
+      "name": "Impromania",
+      "grade": "6a+",
+      "length": "",
+      "type": "",
+      "firstAscent": "JL",
+      "description": "",
+      "source": {
+        "id": "legacy:munchenbryggeriet",
+        "path": "mediawiki/Münchenbryggeriet.txt"
+      }
+    },
+    {
+      "id": "munchenbryggeriet-led-2",
+      "kind": "route",
+      "number": null,
+      "name": "Mater nexus",
+      "grade": "6a",
+      "length": "",
+      "type": "",
+      "firstAscent": "JL",
+      "description": "",
+      "source": {
+        "id": "legacy:munchenbryggeriet",
+        "path": "mediawiki/Münchenbryggeriet.txt"
+      }
+    },
+    {
+      "id": "munchenbryggeriet-led-3",
+      "kind": "route",
+      "number": null,
+      "name": "Slime",
+      "grade": "6b",
+      "length": "",
+      "type": "",
+      "firstAscent": "",
+      "description": "",
+      "source": {
+        "id": "legacy:munchenbryggeriet",
+        "path": "mediawiki/Münchenbryggeriet.txt"
+      }
+    },
+    {
+      "id": "munchenbryggeriet-led-4",
+      "kind": "route",
+      "number": null,
+      "name": "Nytursmonstret",
+      "grade": "6a",
+      "length": "",
+      "type": "",
+      "firstAscent": "MO, CT",
+      "description": "",
+      "source": {
+        "id": "legacy:munchenbryggeriet",
+        "path": "mediawiki/Münchenbryggeriet.txt"
+      }
+    },
+    {
+      "id": "munchenbryggeriet-led-5",
+      "kind": "route",
+      "number": null,
+      "name": "Dumma leden",
+      "grade": "5c",
+      "length": "",
+      "type": "",
+      "firstAscent": "",
+      "description": "",
+      "source": {
+        "id": "legacy:munchenbryggeriet",
+        "path": "mediawiki/Münchenbryggeriet.txt"
+      }
+    },
+    {
+      "id": "munchenbryggeriet-led-6",
+      "kind": "route",
+      "number": null,
+      "name": "Babba bitch",
+      "grade": "6c",
+      "length": "",
+      "type": "",
+      "firstAscent": "",
+      "description": "5c till hylla",
+      "source": {
+        "id": "legacy:munchenbryggeriet",
+        "path": "mediawiki/Münchenbryggeriet.txt"
+      }
+    },
+    {
+      "id": "munchenbryggeriet-led-7",
+      "kind": "route",
+      "number": null,
+      "name": "Längsta leden",
+      "grade": "6b",
+      "length": "",
+      "type": "",
+      "firstAscent": "",
+      "description": "",
+      "source": {
+        "id": "legacy:munchenbryggeriet",
+        "path": "mediawiki/Münchenbryggeriet.txt"
+      }
+    },
+    {
+      "id": "munchenbryggeriet-led-8",
+      "kind": "route",
+      "number": null,
+      "name": "Längsta leden direkt",
+      "grade": "6b",
+      "length": "",
+      "type": "",
+      "firstAscent": "PW",
+      "description": "Direktinsteg till Längsta leden. Efter hyllan kan man också välja slutet på Utan remmar.",
+      "source": {
+        "id": "legacy:munchenbryggeriet",
+        "path": "mediawiki/Münchenbryggeriet.txt"
+      }
+    },
+    {
+      "id": "munchenbryggeriet-led-9",
+      "kind": "route",
+      "number": null,
+      "name": "Utan remmar",
+      "grade": "6b",
+      "length": "",
+      "type": "",
+      "firstAscent": "MO, CT",
+      "description": "",
+      "source": {
+        "id": "legacy:munchenbryggeriet",
+        "path": "mediawiki/Münchenbryggeriet.txt"
+      }
+    },
+    {
+      "id": "munchenbryggeriet-led-10",
+      "kind": "route",
+      "number": null,
+      "name": "Meja Madeleine",
+      "grade": "6a",
+      "length": "",
+      "type": "",
+      "firstAscent": "MO, CT",
+      "description": "",
+      "source": {
+        "id": "legacy:munchenbryggeriet",
+        "path": "mediawiki/Münchenbryggeriet.txt"
+      }
+    },
+    {
+      "id": "munchenbryggeriet-led-11",
+      "kind": "route",
+      "number": null,
+      "name": "Konstiga turen",
+      "grade": "6a",
+      "length": "",
+      "type": "",
+      "firstAscent": "",
+      "description": "",
+      "source": {
+        "id": "legacy:munchenbryggeriet",
+        "path": "mediawiki/Münchenbryggeriet.txt"
+      }
+    },
+    {
+      "id": "munchenbryggeriet-led-12",
+      "kind": "route",
+      "number": null,
+      "name": "750 år",
+      "grade": "7a+",
+      "length": "",
+      "type": "",
+      "firstAscent": "Johan Luhr",
+      "description": "",
+      "source": {
+        "id": "legacy:munchenbryggeriet",
+        "path": "mediawiki/Münchenbryggeriet.txt"
+      }
+    },
+    {
+      "id": "munchenbryggeriet-led-13",
+      "kind": "route",
+      "number": null,
+      "name": "Mors dag",
+      "grade": "7c",
+      "length": "",
+      "type": "",
+      "firstAscent": "Johan Luhr",
+      "description": "Variant höger in i Batman 7b+",
+      "source": {
+        "id": "legacy:munchenbryggeriet",
+        "path": "mediawiki/Münchenbryggeriet.txt"
+      }
+    },
+    {
+      "id": "munchenbryggeriet-led-14",
+      "kind": "route",
+      "number": null,
+      "name": "Batman",
+      "grade": "8a+",
+      "length": "",
+      "type": "",
+      "firstAscent": "Johan Luhr",
+      "description": "",
+      "source": {
+        "id": "legacy:munchenbryggeriet",
+        "path": "mediawiki/Münchenbryggeriet.txt"
+      }
+    },
+    {
+      "id": "munchenbryggeriet-led-15",
+      "kind": "route",
+      "number": null,
+      "name": "Flyt",
+      "grade": "7c+",
+      "length": "",
+      "type": "",
+      "firstAscent": "Johan Luhr",
+      "description": "Alt insteg till Mors dag (7c+, hela) eller Batman (7c, hela)",
+      "source": {
+        "id": "legacy:munchenbryggeriet",
+        "path": "mediawiki/Münchenbryggeriet.txt"
+      }
+    },
+    {
+      "id": "munchenbryggeriet-led-16",
+      "kind": "route",
+      "number": null,
+      "name": "Dick for a day",
+      "grade": "7a",
+      "length": "",
+      "type": "",
+      "firstAscent": "CT",
+      "description": "Endel hävdar att stången ingår, andra inte. Förstabestigaren Claes Thornberg hävdar med bestämdhet att stången EJ ska användas, den kommer sågas bort!",
+      "source": {
+        "id": "legacy:munchenbryggeriet",
+        "path": "mediawiki/Münchenbryggeriet.txt"
+      }
+    },
+    {
+      "id": "munchenbryggeriet-led-17",
+      "kind": "route",
+      "number": null,
+      "name": "När börjar festen?",
+      "grade": "7c",
+      "length": "",
+      "type": "",
+      "firstAscent": "Johan Luhr",
+      "description": "",
+      "source": {
+        "id": "legacy:munchenbryggeriet",
+        "path": "mediawiki/Münchenbryggeriet.txt"
+      }
+    },
+    {
+      "id": "munchenbryggeriet-led-18",
+      "kind": "route",
+      "number": null,
+      "name": "Ligg lågt",
+      "grade": "7a+",
+      "length": "",
+      "type": "",
+      "firstAscent": "Johan Luhr",
+      "description": "",
+      "source": {
+        "id": "legacy:munchenbryggeriet",
+        "path": "mediawiki/Münchenbryggeriet.txt"
+      }
+    },
+    {
+      "id": "munchenbryggeriet-led-19",
+      "kind": "route",
+      "number": null,
+      "name": "Bubbel",
+      "grade": "6b",
+      "length": "",
+      "type": "",
+      "firstAscent": "Johan Luhr",
+      "description": "",
+      "source": {
+        "id": "legacy:munchenbryggeriet",
+        "path": "mediawiki/Münchenbryggeriet.txt"
+      }
+    },
+    {
+      "id": "munchenbryggeriet-led-20",
+      "kind": "route",
+      "number": null,
+      "name": "Borgila",
+      "grade": "5c",
+      "length": "",
+      "type": "",
+      "firstAscent": "Johan Luhr",
+      "description": "",
+      "source": {
+        "id": "legacy:munchenbryggeriet",
+        "path": "mediawiki/Münchenbryggeriet.txt"
+      }
+    },
+    {
+      "id": "munchenbryggeriet-led-21",
+      "kind": "route",
+      "number": null,
+      "name": "Viking",
+      "grade": "5c",
+      "length": "",
+      "type": "",
+      "firstAscent": "Johan Luhr",
+      "description": "",
+      "source": {
+        "id": "legacy:munchenbryggeriet",
+        "path": "mediawiki/Münchenbryggeriet.txt"
+      }
+    },
+    {
+      "id": "munchenbryggeriet-led-22",
+      "kind": "route",
+      "number": null,
+      "name": "Lävik",
+      "grade": "6a",
+      "length": "",
+      "type": "",
+      "firstAscent": "Johan Luhr",
+      "description": "",
+      "source": {
+        "id": "legacy:munchenbryggeriet",
+        "path": "mediawiki/Münchenbryggeriet.txt"
+      }
+    },
+    {
+      "id": "munchenbryggeriet-led-23",
+      "kind": "route",
+      "number": null,
+      "name": "Topaz",
+      "grade": "6a",
+      "length": "",
+      "type": "",
+      "firstAscent": "Johan Luhr",
+      "description": "",
+      "source": {
+        "id": "legacy:munchenbryggeriet",
+        "path": "mediawiki/Münchenbryggeriet.txt"
+      }
+    },
+    {
+      "id": "munchenbryggeriet-led-24",
+      "kind": "route",
+      "number": null,
+      "name": "Fanny",
+      "grade": "6a",
+      "length": "",
+      "type": "",
+      "firstAscent": "Johan Luhr",
+      "description": "",
+      "source": {
+        "id": "legacy:munchenbryggeriet",
+        "path": "mediawiki/Münchenbryggeriet.txt"
+      }
+    },
+    {
+      "id": "munchenbryggeriet-led-25",
+      "kind": "route",
+      "number": null,
+      "name": "Topaz",
+      "grade": "6a",
+      "length": "",
+      "type": "",
+      "firstAscent": "Johan Luhr",
+      "description": "",
+      "source": {
+        "id": "legacy:munchenbryggeriet",
+        "path": "mediawiki/Münchenbryggeriet.txt"
+      }
+    },
+    {
+      "id": "munchenbryggeriet-led-26",
+      "kind": "route",
+      "number": null,
+      "name": "Argus",
+      "grade": "6a",
+      "length": "",
+      "type": "",
+      "firstAscent": "Johan Luhr",
+      "description": "",
+      "source": {
+        "id": "legacy:munchenbryggeriet",
+        "path": "mediawiki/Münchenbryggeriet.txt"
+      }
+    },
+    {
+      "id": "munchenbryggeriet-led-27",
+      "kind": "route",
+      "number": null,
+      "name": "Havsfrun",
+      "grade": "5c",
+      "length": "",
+      "type": "",
+      "firstAscent": "Johan Luhr",
+      "description": "",
+      "source": {
+        "id": "legacy:munchenbryggeriet",
+        "path": "mediawiki/Münchenbryggeriet.txt"
+      }
+    },
+    {
+      "id": "munchenbryggeriet-led-28",
+      "kind": "route",
+      "number": null,
+      "name": "Thor",
+      "grade": "6a",
+      "length": "",
+      "type": "",
+      "firstAscent": "Johan Luhr",
+      "description": "",
+      "source": {
+        "id": "legacy:munchenbryggeriet",
+        "path": "mediawiki/Münchenbryggeriet.txt"
+      }
+    },
+    {
+      "id": "munchenbryggeriet-led-29",
+      "kind": "route",
+      "number": null,
+      "name": "Linnea",
+      "grade": "6a+",
+      "length": "",
+      "type": "",
+      "firstAscent": "Johan Luhr",
+      "description": "",
+      "source": {
+        "id": "legacy:munchenbryggeriet",
+        "path": "mediawiki/Münchenbryggeriet.txt"
+      }
+    },
+    {
+      "id": "munchenbryggeriet-led-30",
+      "kind": "route",
+      "number": null,
+      "name": "Salta katten",
+      "grade": "6a+",
+      "length": "",
+      "type": "",
+      "firstAscent": "Johan Luhr",
+      "description": "",
+      "source": {
+        "id": "legacy:munchenbryggeriet",
+        "path": "mediawiki/Münchenbryggeriet.txt"
+      }
+    },
+    {
+      "id": "munchenbryggeriet-led-31",
+      "kind": "route",
+      "number": null,
+      "name": "Tutti frutti",
+      "grade": "6b",
+      "length": "",
+      "type": "",
+      "firstAscent": "Johan Luhr",
+      "description": "",
+      "source": {
+        "id": "legacy:munchenbryggeriet",
+        "path": "mediawiki/Münchenbryggeriet.txt"
+      }
+    },
+    {
+      "id": "munchenbryggeriet-led-32",
+      "kind": "route",
+      "number": null,
+      "name": "Kalle Anka",
+      "grade": "6a",
+      "length": "",
+      "type": "",
+      "firstAscent": "Johan Luhr",
+      "description": "",
+      "source": {
+        "id": "legacy:munchenbryggeriet",
+        "path": "mediawiki/Münchenbryggeriet.txt"
+      }
+    },
+    {
+      "id": "munchenbryggeriet-led-33",
+      "kind": "route",
+      "number": null,
+      "name": "Frukto",
+      "grade": "5c",
+      "length": "",
+      "type": "",
+      "firstAscent": "Johan Luhr",
+      "description": "",
+      "source": {
+        "id": "legacy:munchenbryggeriet",
+        "path": "mediawiki/Münchenbryggeriet.txt"
+      }
+    },
+    {
+      "id": "munchenbryggeriet-led-34",
+      "kind": "route",
+      "number": null,
+      "name": "Glattis",
+      "grade": "6b+",
+      "length": "",
+      "type": "",
+      "firstAscent": "Johan Luhr",
+      "description": "",
+      "source": {
+        "id": "legacy:munchenbryggeriet",
+        "path": "mediawiki/Münchenbryggeriet.txt"
+      }
+    },
+    {
+      "id": "munchenbryggeriet-led-35",
+      "kind": "route",
+      "number": null,
+      "name": "Trappan direkt",
+      "grade": "6b",
+      "length": "",
+      "type": "",
+      "firstAscent": "Johan Luhr",
+      "description": "",
+      "source": {
+        "id": "legacy:munchenbryggeriet",
+        "path": "mediawiki/Münchenbryggeriet.txt"
+      }
+    },
+    {
+      "id": "munchenbryggeriet-led-36",
+      "kind": "route",
+      "number": null,
+      "name": "Trappan",
+      "grade": "6a+",
+      "length": "",
+      "type": "",
+      "firstAscent": "Johan Luhr",
+      "description": "",
+      "source": {
+        "id": "legacy:munchenbryggeriet",
+        "path": "mediawiki/Münchenbryggeriet.txt"
+      }
+    },
+    {
+      "id": "munchenbryggeriet-led-37",
+      "kind": "route",
+      "number": null,
+      "name": "Koll på stången",
+      "grade": "6c",
+      "length": "",
+      "type": "",
+      "firstAscent": "Johan Luhr",
+      "description": "",
+      "source": {
+        "id": "legacy:munchenbryggeriet",
+        "path": "mediawiki/Münchenbryggeriet.txt"
+      }
+    },
+    {
+      "id": "munchenbryggeriet-led-38",
+      "kind": "route",
+      "number": null,
+      "name": "PK",
+      "grade": "6c",
+      "length": "",
+      "type": "",
+      "firstAscent": "Johan Luhr",
+      "description": "",
+      "source": {
+        "id": "legacy:munchenbryggeriet",
+        "path": "mediawiki/Münchenbryggeriet.txt"
+      }
+    },
+    {
+      "id": "munchenbryggeriet-led-39",
+      "kind": "route",
+      "number": null,
+      "name": "Diedro",
+      "grade": "6b",
+      "length": "",
+      "type": "",
+      "firstAscent": "Johan Luhr",
+      "description": "",
+      "source": {
+        "id": "legacy:munchenbryggeriet",
+        "path": "mediawiki/Münchenbryggeriet.txt"
+      }
+    },
+    {
+      "id": "munchenbryggeriet-led-40",
+      "kind": "route",
+      "number": null,
+      "name": "Titanic",
+      "grade": "7b",
+      "length": "",
+      "type": "",
+      "firstAscent": "Johan Luhr",
+      "description": "",
+      "source": {
+        "id": "legacy:munchenbryggeriet",
+        "path": "mediawiki/Münchenbryggeriet.txt"
+      }
+    },
+    {
+      "id": "munchenbryggeriet-led-41",
+      "kind": "route",
+      "number": null,
+      "name": "Hål i skrovet",
+      "grade": "8a",
+      "length": "",
+      "type": "",
+      "firstAscent": "Johan Luhr",
+      "description": "",
+      "source": {
+        "id": "legacy:munchenbryggeriet",
+        "path": "mediawiki/Münchenbryggeriet.txt"
+      }
+    },
+    {
+      "id": "munchenbryggeriet-led-42",
+      "kind": "route",
+      "number": null,
+      "name": "Hej och hå krimpa på",
+      "grade": "7c+",
+      "length": "",
+      "type": "",
+      "firstAscent": "Johan Luhr",
+      "description": "",
+      "source": {
+        "id": "legacy:munchenbryggeriet",
+        "path": "mediawiki/Münchenbryggeriet.txt"
+      }
+    },
+    {
+      "id": "munchenbryggeriet-led-43",
+      "kind": "route",
+      "number": null,
+      "name": "Stöt",
+      "grade": "8a",
+      "length": "",
+      "type": "",
+      "firstAscent": "Johan Luhr",
+      "description": "Har förlorat ett fotsteg. Kan vara svårare nu.",
+      "source": {
+        "id": "legacy:munchenbryggeriet",
+        "path": "mediawiki/Münchenbryggeriet.txt"
+      }
+    },
+    {
+      "id": "munchenbryggeriet-led-44",
+      "kind": "route",
+      "number": null,
+      "name": "Ångbåtsblues",
+      "grade": "7b+",
+      "length": "",
+      "type": "",
+      "firstAscent": "Johan Luhr",
+      "description": "Insteg bakom träd och snedda längst kant",
+      "source": {
+        "id": "legacy:munchenbryggeriet",
+        "path": "mediawiki/Münchenbryggeriet.txt"
+      }
+    }
+  ],
+  "images": [],
+  "access": {
+    "legacyText": null,
+    "federationSlug": null
+  },
+  "qualityIssues": [],
+  "provenance": {
+    "primarySourceId": "legacy:munchenbryggeriet",
+    "sources": [
+      {
+        "id": "legacy:munchenbryggeriet",
+        "title": "Sverigeföraren 2014: Münchenbryggeriet",
+        "path": "mediawiki/Münchenbryggeriet.txt",
+        "license": "GNU Free Documentation License",
+        "snapshotDate": "2014-01-01"
+      }
+    ]
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "schemaVersion": 1,
+  "id": "tjadervagen",
+  "slug": "tjadervagen",
+  "name": "Tjädervägen",
+  "description": "Kategori:Saknar allmän infoKategori:Saknar vägbeskrivning =Problem= Kategori:Sundsvall Kategori:Bouldering Kategori:Bimbo Kategori:Behöver kvalitetssäkras Kategori:Saknar karta Kategori:Saknar koordinater Kategori:Saknar skrivarformattering Kategori:Saknar skiss",
+  "coordinates": null,
+  "categories": [
+    "Behöver kvalitetssäkras",
+    "Bimbo",
+    "Bouldering",
+    "Saknar allmän info",
+    "Saknar karta",
+    "Saknar koordinater",
+    "Saknar skiss",
+    "Saknar skrivarformattering",
+    "Saknar vägbeskrivning",
+    "Sundsvall"
+  ],
+  "sections": [],
+  "routes": [
+    {
+      "id": "tjadervagen-problem-1",
+      "kind": "problem",
+      "number": null,
+      "name": "Morning Glory",
+      "grade": "6C",
+      "length": "",
+      "type": "Krimp,Dyno",
+      "firstAscent": "Björn K",
+      "description": "Händerna på slopehyllan alt med vänster hand på liten crimp. Gå upp till crimp till vänster och dyna alt lång reach till kanten.",
+      "source": {
+        "id": "legacy:tjadervagen",
+        "path": "mediawiki/Tjädervägen.txt"
+      }
+    },
+    {
+      "id": "tjadervagen-problem-2",
+      "kind": "problem",
+      "number": null,
+      "name": "Rise and shine",
+      "grade": "6B",
+      "length": "",
+      "type": "Krimp,Slopers,Travers V->H",
+      "firstAscent": "Björn Knutsson",
+      "description": "Starta på samma startgrepp som Morning Glory och Svager. Traversera åt höger. När du kommer till kanten gå rakt upp.",
+      "source": {
+        "id": "legacy:tjadervagen",
+        "path": "mediawiki/Tjädervägen.txt"
+      }
+    },
+    {
+      "id": "tjadervagen-problem-3",
+      "kind": "problem",
+      "number": null,
+      "name": "Svager",
+      "grade": "6A",
+      "length": "",
+      "type": "Krimp,Mantling,Dyno",
+      "firstAscent": "Björn Knutsson",
+      "description": "Samma start som morning G. och R. and S. Gå upp till ett stort crimp för höger hand. Gå vidare med samma hand och mantla över kanten.",
+      "source": {
+        "id": "legacy:tjadervagen",
+        "path": "mediawiki/Tjädervägen.txt"
+      }
+    },
+    {
+      "id": "tjadervagen-problem-4",
+      "kind": "problem",
+      "number": null,
+      "name": "Hälhoran",
+      "grade": "6C+",
+      "length": "",
+      "type": "Mantling,Travers V->H,Spricka",
+      "firstAscent": "Björn Knutsson",
+      "description": "Starta till v på stenen. Startgrepp en slope för V hand och en spricka för H hand. traversera åt H och samman avslut som DvärgF.",
+      "source": {
+        "id": "legacy:tjadervagen",
+        "path": "mediawiki/Tjädervägen.txt"
+      }
+    },
+    {
+      "id": "tjadervagen-problem-5",
+      "kind": "problem",
+      "number": null,
+      "name": "Dvärgfeten",
+      "grade": "7A",
+      "length": "",
+      "type": "Krimp,Slopers,Mantling",
+      "firstAscent": "Björn Knutsson",
+      "description": "Startgrepp kommer att märkas ut. Gå upp till crimp v. hand sedan vidare till liten crimp h hand. Fortsätt rakt upp och avsluta med mantling. Går förmodligen att göra enklare om man är lång.",
+      "source": {
+        "id": "legacy:tjadervagen",
+        "path": "mediawiki/Tjädervägen.txt"
+      }
+    }
+  ],
+  "images": [],
+  "access": {
+    "legacyText": null,
+    "federationSlug": null
+  },
+  "qualityIssues": [],
+  "provenance": {
+    "primarySourceId": "legacy:tjadervagen",
+    "sources": [
+      {
+        "id": "legacy:tjadervagen",
+        "title": "Sverigeföraren 2014: Tjädervägen",
+        "path": "mediawiki/Tjädervägen.txt",
+        "license": "GNU Free Documentation License",
+        "snapshotDate": "2014-01-01"
+      }
+    ]
+  }
+}

@@ -1,0 +1,161 @@
+{
+  "schemaVersion": 1,
+  "id": "granloholm",
+  "slug": "granloholm",
+  "name": "Granloholm",
+  "description": "Kategori:Saknar allmän infoKategori:Saknar vägbeskrivning =Problem= Kategori:Sundsvall Kategori:Bouldering Kategori:Bimbo Kategori:Behöver kvalitetssäkras Kategori:Saknar karta Kategori:Saknar koordinater Kategori:Saknar skrivarformattering Kategori:Saknar skiss",
+  "coordinates": null,
+  "categories": [
+    "Behöver kvalitetssäkras",
+    "Bimbo",
+    "Bouldering",
+    "Saknar allmän info",
+    "Saknar karta",
+    "Saknar koordinater",
+    "Saknar skiss",
+    "Saknar skrivarformattering",
+    "Saknar vägbeskrivning",
+    "Sundsvall"
+  ],
+  "sections": [],
+  "routes": [
+    {
+      "id": "granloholm-problem-1",
+      "kind": "problem",
+      "number": null,
+      "name": "El traversen",
+      "grade": "5A",
+      "length": "",
+      "type": "Travers V->H",
+      "firstAscent": "Tony Berglund",
+      "description": "Problemet finns ca 40 m in under elledningen från stenen där de flesta problemen finns. Det är en ca 10 m lång travers, börjar på vä kortsidan, slutar med att gå upp på hö kortsida. Uteslutningarna är den översta läppen på på hela traversen.",
+      "source": {
+        "id": "legacy:granloholm",
+        "path": "mediawiki/Granloholm.txt"
+      }
+    },
+    {
+      "id": "granloholm-problem-2",
+      "kind": "problem",
+      "number": null,
+      "name": "Likspänning",
+      "grade": "5A",
+      "length": "",
+      "type": "Travers V->H",
+      "firstAscent": "Tony Berglund",
+      "description": "En variant på El traversen där man bara gör det intressanta slutet. Sittstart ca 3 m innan slutet.",
+      "source": {
+        "id": "legacy:granloholm",
+        "path": "mediawiki/Granloholm.txt"
+      }
+    },
+    {
+      "id": "granloholm-problem-3",
+      "kind": "problem",
+      "number": "1",
+      "name": "Tradtravers",
+      "grade": "5C",
+      "length": "",
+      "type": "Krimp,Travers H->V",
+      "firstAscent": "Per Wermelin",
+      "description": "Börjar med höger hand på arêten borta till höger, vänster hand i pocket. Traversera till vänster och gå därefter upp via flaket.",
+      "source": {
+        "id": "legacy:granloholm",
+        "path": "mediawiki/Granloholm.txt"
+      }
+    },
+    {
+      "id": "granloholm-problem-4",
+      "kind": "problem",
+      "number": "2",
+      "name": "Below zero",
+      "grade": "6B",
+      "length": "",
+      "type": "Överhäng,Jug",
+      "firstAscent": "Fredrik Bodin",
+      "description": "Börjar till höger under taket på undercling, går därefter på utsidan av detta och upp på kortsidan.",
+      "source": {
+        "id": "legacy:granloholm",
+        "path": "mediawiki/Granloholm.txt"
+      }
+    },
+    {
+      "id": "granloholm-problem-5",
+      "kind": "problem",
+      "number": "3",
+      "name": "Kangaroo",
+      "grade": "6A",
+      "length": "",
+      "type": "Dyno,Jug",
+      "firstAscent": "Jon Kågström",
+      "description": "Hoppstart till juggen längst ut på taket, dyna sedan upp till nästa jug och mantla därefter upp.",
+      "source": {
+        "id": "legacy:granloholm",
+        "path": "mediawiki/Granloholm.txt"
+      }
+    },
+    {
+      "id": "granloholm-problem-6",
+      "kind": "problem",
+      "number": "4",
+      "name": "Snöpuls",
+      "grade": "6B+",
+      "length": "",
+      "type": "Krimp",
+      "firstAscent": "Fredrik Bodin",
+      "description": "Sittstart på kortsidan, går rakt upp utan att använda det stora flaket som är löst.",
+      "source": {
+        "id": "legacy:granloholm",
+        "path": "mediawiki/Granloholm.txt"
+      }
+    },
+    {
+      "id": "granloholm-problem-7",
+      "kind": "problem",
+      "number": "6",
+      "name": "Saddam",
+      "grade": "6A+",
+      "length": "",
+      "type": "Överhäng",
+      "firstAscent": "Peter Nilsson",
+      "description": "Börjar på den tydliga juggen under taket. Sedan rakt upp. Fötterna ska vara på samma sten som händerna.",
+      "source": {
+        "id": "legacy:granloholm",
+        "path": "mediawiki/Granloholm.txt"
+      }
+    },
+    {
+      "id": "granloholm-problem-8",
+      "kind": "problem",
+      "number": "7",
+      "name": "Bin-Laaden",
+      "grade": "5A",
+      "length": "",
+      "type": "Aréte",
+      "firstAscent": "Peter Nilsson",
+      "description": "Börjar längst ut till vänster på terror-stenen. Rakt upp efter aréten.",
+      "source": {
+        "id": "legacy:granloholm",
+        "path": "mediawiki/Granloholm.txt"
+      }
+    }
+  ],
+  "images": [],
+  "access": {
+    "legacyText": null,
+    "federationSlug": null
+  },
+  "qualityIssues": [],
+  "provenance": {
+    "primarySourceId": "legacy:granloholm",
+    "sources": [
+      {
+        "id": "legacy:granloholm",
+        "title": "Sverigeföraren 2014: Granloholm",
+        "path": "mediawiki/Granloholm.txt",
+        "license": "GNU Free Documentation License",
+        "snapshotDate": "2014-01-01"
+      }
+    ]
+  }
+}

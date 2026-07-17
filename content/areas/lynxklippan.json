@@ -1,0 +1,674 @@
+{
+  "schemaVersion": 1,
+  "id": "lynxklippan",
+  "slug": "lynxklippan",
+  "name": "Lynxklippan",
+  "description": "Fin, varierad klippa på Värmdö på vägen till Strömma-området. Delvis hög men bra landningar.",
+  "coordinates": {
+    "latitude": 59.2981,
+    "longitude": 18.4844
+  },
+  "categories": [
+    "Nacka-Värmdö",
+    "Saknar ledmall",
+    "Stockholm"
+  ],
+  "sections": [
+    {
+      "id": "allmant",
+      "title": "Allmänt",
+      "body": "Fin, varierad klippa på Värmdö på vägen till Strömma-området. Delvis hög men bra landningar."
+    },
+    {
+      "id": "vagbeskrivning",
+      "title": "Vägbeskrivning",
+      "body": "titel=Anneberg lat= 18484400 long=59298100 Bil Ligger vid Lostigen i Skeppsdalsström (bakom Värmdö Golf), syns tydligt från vägen. Parkera bilen med förstånd. Buss Buss 433 och 434 från Slussen (ca 25 minuter), kliv av på hållplats Skeppdalström. Följ Svartträskvägen, förbi Återvägen, Svartträsket och Dalgången. Gå åt höger när du kommer till en t-korsning ut på Lostigen. Du ska till Lostigen någonstans mellan nr 33-72. Det tar ca 15 min att gå ifrån busshållplatsen."
+    },
+    {
+      "id": "sektor-1",
+      "title": "Sektor 1",
+      "body": "Klipp-partierna visas från vägen och inåt skogen. Första klippan från vägen. Det finns säkert möjligheter att göra flera problem här om man vill."
+    },
+    {
+      "id": "sektor-2",
+      "title": "Sektor 2",
+      "body": "För övrigt så finns flera projekt som att försöka länka ifrån 3. till 2. samt göra ng mellan 1. och 2."
+    },
+    {
+      "id": "sektor-4",
+      "title": "Sektor 4",
+      "body": "Kategori:Stockholm Kategori:Nacka-Värmdö Kategori:Saknar ledmall"
+    }
+  ],
+  "routes": [
+    {
+      "id": "lynxklippan-led-1",
+      "kind": "route",
+      "number": "1, blå",
+      "name": "Trevor Cooper-Williams, top out",
+      "grade": "?",
+      "length": "",
+      "type": "",
+      "firstAscent": "",
+      "description": "",
+      "source": {
+        "id": "legacy:lynxklippan",
+        "path": "mediawiki/Lynxklippan.txt"
+      }
+    },
+    {
+      "id": "lynxklippan-led-2",
+      "kind": "route",
+      "number": "2, röd",
+      "name": "Leberkäse",
+      "grade": "6C",
+      "length": "",
+      "type": "",
+      "firstAscent": "Fredrik Sydstrand",
+      "description": "Startar i tydlig undercling och följer grepplinje snett upp åt höger, top out.",
+      "source": {
+        "id": "legacy:lynxklippan",
+        "path": "mediawiki/Lynxklippan.txt"
+      }
+    },
+    {
+      "id": "lynxklippan-led-3",
+      "kind": "route",
+      "number": "3, gul",
+      "name": "Lynx au Soleil",
+      "grade": "6C ss",
+      "length": "",
+      "type": "",
+      "firstAscent": "Stefan Kolmodin",
+      "description": "Hög men fin arete med känslig top out.",
+      "source": {
+        "id": "legacy:lynxklippan",
+        "path": "mediawiki/Lynxklippan.txt"
+      }
+    },
+    {
+      "id": "lynxklippan-led-4",
+      "kind": "route",
+      "number": "4, grön",
+      "name": "?",
+      "grade": "?",
+      "length": "",
+      "type": "Projekt",
+      "firstAscent": "",
+      "description": "",
+      "source": {
+        "id": "legacy:lynxklippan",
+        "path": "mediawiki/Lynxklippan.txt"
+      }
+    },
+    {
+      "id": "lynxklippan-led-5",
+      "kind": "route",
+      "number": "5, rosa",
+      "name": "?",
+      "grade": "?",
+      "length": "",
+      "type": "",
+      "firstAscent": "TCW?",
+      "description": "",
+      "source": {
+        "id": "legacy:lynxklippan",
+        "path": "mediawiki/Lynxklippan.txt"
+      }
+    },
+    {
+      "id": "lynxklippan-led-6",
+      "kind": "route",
+      "number": "6, blå",
+      "name": "?",
+      "grade": "?",
+      "length": "",
+      "type": "",
+      "firstAscent": "TCW?",
+      "description": "",
+      "source": {
+        "id": "legacy:lynxklippan",
+        "path": "mediawiki/Lynxklippan.txt"
+      }
+    },
+    {
+      "id": "lynxklippan-led-7",
+      "kind": "route",
+      "number": "1",
+      "name": "Le Frigo assis",
+      "grade": "7a ss",
+      "length": "",
+      "type": "",
+      "firstAscent": "Stefan Kolmodin",
+      "description": "hela väggen tv om övre delen eliminierad, top out.",
+      "source": {
+        "id": "legacy:lynxklippan",
+        "path": "mediawiki/Lynxklippan.txt"
+      }
+    },
+    {
+      "id": "lynxklippan-led-8",
+      "kind": "route",
+      "number": null,
+      "name": "Le Frigo",
+      "grade": "6C",
+      "length": "",
+      "type": "",
+      "firstAscent": "",
+      "description": "Ståstart",
+      "source": {
+        "id": "legacy:lynxklippan",
+        "path": "mediawiki/Lynxklippan.txt"
+      }
+    },
+    {
+      "id": "lynxklippan-led-9",
+      "kind": "route",
+      "number": null,
+      "name": "Le Tournevis",
+      "grade": "6B",
+      "length": "",
+      "type": "",
+      "firstAscent": "",
+      "description": "Rakt upp",
+      "source": {
+        "id": "legacy:lynxklippan",
+        "path": "mediawiki/Lynxklippan.txt"
+      }
+    },
+    {
+      "id": "lynxklippan-led-10",
+      "kind": "route",
+      "number": "1, röd",
+      "name": "?",
+      "grade": "?",
+      "length": "",
+      "type": "Projekt",
+      "firstAscent": "",
+      "description": "",
+      "source": {
+        "id": "legacy:lynxklippan",
+        "path": "mediawiki/Lynxklippan.txt"
+      }
+    },
+    {
+      "id": "lynxklippan-led-11",
+      "kind": "route",
+      "number": "2",
+      "name": "Le Singe (de Kristineberg)",
+      "grade": "5A ss",
+      "length": "",
+      "type": "",
+      "firstAscent": "Erik Hagelin",
+      "description": "Följer tydlig spricklinje tv om mosspartierna i bildens h kant upp till balkongen med mossa 2/3delar upp",
+      "source": {
+        "id": "legacy:lynxklippan",
+        "path": "mediawiki/Lynxklippan.txt"
+      }
+    },
+    {
+      "id": "lynxklippan-led-12",
+      "kind": "route",
+      "number": null,
+      "name": "Le Bebe",
+      "grade": "?",
+      "length": "",
+      "type": "",
+      "firstAscent": "Sydde",
+      "description": "",
+      "source": {
+        "id": "legacy:lynxklippan",
+        "path": "mediawiki/Lynxklippan.txt"
+      }
+    },
+    {
+      "id": "lynxklippan-led-13",
+      "kind": "route",
+      "number": "1, röd",
+      "name": "Presse",
+      "grade": "6B ss",
+      "length": "",
+      "type": "",
+      "firstAscent": "Stefan Kolmodin",
+      "description": "Klurigt 1:a move, top out",
+      "source": {
+        "id": "legacy:lynxklippan",
+        "path": "mediawiki/Lynxklippan.txt"
+      }
+    },
+    {
+      "id": "lynxklippan-led-14",
+      "kind": "route",
+      "number": "2, blå",
+      "name": "Serieux",
+      "grade": "6C ss",
+      "length": "",
+      "type": "",
+      "firstAscent": "Stefan Kolmodin",
+      "description": "Brant start, nästan hela vägen upp",
+      "source": {
+        "id": "legacy:lynxklippan",
+        "path": "mediawiki/Lynxklippan.txt"
+      }
+    },
+    {
+      "id": "lynxklippan-led-15",
+      "kind": "route",
+      "number": "3, gul",
+      "name": "Projekt",
+      "grade": "?",
+      "length": "",
+      "type": "Projekt",
+      "firstAscent": "",
+      "description": "",
+      "source": {
+        "id": "legacy:lynxklippan",
+        "path": "mediawiki/Lynxklippan.txt"
+      }
+    },
+    {
+      "id": "lynxklippan-led-16",
+      "kind": "route",
+      "number": "4",
+      "name": "Double vie",
+      "grade": "6A ss",
+      "length": "",
+      "type": "",
+      "firstAscent": "Stefan Kolmodin",
+      "description": "Tydliga diedern mellan 1 och 2 med start från h sidan.",
+      "source": {
+        "id": "legacy:lynxklippan",
+        "path": "mediawiki/Lynxklippan.txt"
+      }
+    },
+    {
+      "id": "lynxklippan-led-17",
+      "kind": "route",
+      "number": "1, röd",
+      "name": "Le Trou",
+      "grade": "5C ss",
+      "length": "",
+      "type": "",
+      "firstAscent": "Stefan Kolmodin",
+      "description": "juggarna till vänster eliminerade, top out.",
+      "source": {
+        "id": "legacy:lynxklippan",
+        "path": "mediawiki/Lynxklippan.txt"
+      }
+    },
+    {
+      "id": "lynxklippan-led-18",
+      "kind": "route",
+      "number": null,
+      "name": "Friction",
+      "grade": "?",
+      "length": "",
+      "type": "",
+      "firstAscent": "Stefan",
+      "description": "",
+      "source": {
+        "id": "legacy:lynxklippan",
+        "path": "mediawiki/Lynxklippan.txt"
+      }
+    },
+    {
+      "id": "lynxklippan-led-19",
+      "kind": "route",
+      "number": "2, grön",
+      "name": "L'Ombre",
+      "grade": "7A ss",
+      "length": "",
+      "type": "",
+      "firstAscent": "Stefan Kolmodin",
+      "description": "jugar th om areten eliminerade, top out.",
+      "source": {
+        "id": "legacy:lynxklippan",
+        "path": "mediawiki/Lynxklippan.txt"
+      }
+    },
+    {
+      "id": "lynxklippan-led-20",
+      "kind": "route",
+      "number": "3, gul",
+      "name": "C'est comme ca",
+      "grade": "6C ss",
+      "length": "",
+      "type": "",
+      "firstAscent": "Moritz Kiewitt",
+      "description": "Kroppsklättring och top out.",
+      "source": {
+        "id": "legacy:lynxklippan",
+        "path": "mediawiki/Lynxklippan.txt"
+      }
+    },
+    {
+      "id": "lynxklippan-led-21",
+      "kind": "route",
+      "number": "4, rosa",
+      "name": "Le Vieux Campeur",
+      "grade": "7A ss",
+      "length": "",
+      "type": "",
+      "firstAscent": "Stefan Kolmodin",
+      "description": "Följer tydliga sprickan upp till känslig top out, juggarna till vänster om areten och hela väggen till vänster eliminerade.",
+      "source": {
+        "id": "legacy:lynxklippan",
+        "path": "mediawiki/Lynxklippan.txt"
+      }
+    },
+    {
+      "id": "lynxklippan-led-22",
+      "kind": "route",
+      "number": null,
+      "name": "Coupin swing",
+      "grade": "?",
+      "length": "",
+      "type": "",
+      "firstAscent": "Stefan",
+      "description": "",
+      "source": {
+        "id": "legacy:lynxklippan",
+        "path": "mediawiki/Lynxklippan.txt"
+      }
+    },
+    {
+      "id": "lynxklippan-led-23",
+      "kind": "route",
+      "number": "1, blå",
+      "name": "Le Frog",
+      "grade": "6B+ ss",
+      "length": "",
+      "type": "",
+      "firstAscent": "Stefan Kolmodin",
+      "description": "Startar i hål till höger under nischen, sedan upp i denna.",
+      "source": {
+        "id": "legacy:lynxklippan",
+        "path": "mediawiki/Lynxklippan.txt"
+      }
+    },
+    {
+      "id": "lynxklippan-led-24",
+      "kind": "route",
+      "number": "1a, blå",
+      "name": "Friction",
+      "grade": "6A",
+      "length": "",
+      "type": "",
+      "firstAscent": "Stefan Kolmodin",
+      "description": "klurig",
+      "source": {
+        "id": "legacy:lynxklippan",
+        "path": "mediawiki/Lynxklippan.txt"
+      }
+    },
+    {
+      "id": "lynxklippan-led-25",
+      "kind": "route",
+      "number": "2, gul",
+      "name": "Variable",
+      "grade": "6B+ ss",
+      "length": "",
+      "type": "",
+      "firstAscent": "Stefan Kolmodin",
+      "description": "teknik och balans",
+      "source": {
+        "id": "legacy:lynxklippan",
+        "path": "mediawiki/Lynxklippan.txt"
+      }
+    },
+    {
+      "id": "lynxklippan-led-26",
+      "kind": "route",
+      "number": "3, grön",
+      "name": "Coupin",
+      "grade": "6A+ ss",
+      "length": "",
+      "type": "",
+      "firstAscent": "Stefan Kolmodin",
+      "description": "Traversera från starten på Verso till slutet på M. Blaireau, top out.",
+      "source": {
+        "id": "legacy:lynxklippan",
+        "path": "mediawiki/Lynxklippan.txt"
+      }
+    },
+    {
+      "id": "lynxklippan-led-27",
+      "kind": "route",
+      "number": "3a, grön",
+      "name": "Coupin Swing",
+      "grade": "6B+ ss",
+      "length": "",
+      "type": "",
+      "firstAscent": "Stefan Kolmodin",
+      "description": "TRV. Låg variant med skön swing",
+      "source": {
+        "id": "legacy:lynxklippan",
+        "path": "mediawiki/Lynxklippan.txt"
+      }
+    },
+    {
+      "id": "lynxklippan-led-28",
+      "kind": "route",
+      "number": "4, röd",
+      "name": "Verso",
+      "grade": "6B+/C ss",
+      "length": "",
+      "type": "",
+      "firstAscent": "Stefan Kolmodin",
+      "description": "Start i sprickan, rakt upp, slutar stående i nischen.",
+      "source": {
+        "id": "legacy:lynxklippan",
+        "path": "mediawiki/Lynxklippan.txt"
+      }
+    },
+    {
+      "id": "lynxklippan-led-29",
+      "kind": "route",
+      "number": "5",
+      "name": "La Cascade",
+      "grade": "6B ss",
+      "length": "",
+      "type": "",
+      "firstAscent": "Stefan Kolmodin",
+      "description": "Hög, top out...",
+      "source": {
+        "id": "legacy:lynxklippan",
+        "path": "mediawiki/Lynxklippan.txt"
+      }
+    },
+    {
+      "id": "lynxklippan-led-30",
+      "kind": "route",
+      "number": "1, lila",
+      "name": "Le Bebe",
+      "grade": "7B+ ss",
+      "length": "",
+      "type": "",
+      "firstAscent": "Stefan Kolmodin",
+      "description": "Hela vägen via areten, top out.",
+      "source": {
+        "id": "legacy:lynxklippan",
+        "path": "mediawiki/Lynxklippan.txt"
+      }
+    },
+    {
+      "id": "lynxklippan-led-31",
+      "kind": "route",
+      "number": "1a",
+      "name": "M. Blaireau",
+      "grade": "7A+/B ss",
+      "length": "",
+      "type": "",
+      "firstAscent": "Stefan Kolmodin",
+      "description": "Insteg via konstig h fingerjam klart när man är ståendes på badkarskanten.",
+      "source": {
+        "id": "legacy:lynxklippan",
+        "path": "mediawiki/Lynxklippan.txt"
+      }
+    },
+    {
+      "id": "lynxklippan-led-32",
+      "kind": "route",
+      "number": "1b",
+      "name": "Mme Blaierau",
+      "grade": "7A+",
+      "length": "",
+      "type": "",
+      "firstAscent": "Stefan Kolmodin",
+      "description": "Startar med händerna på badkarskanten och följer sedan areten, top out.",
+      "source": {
+        "id": "legacy:lynxklippan",
+        "path": "mediawiki/Lynxklippan.txt"
+      }
+    },
+    {
+      "id": "lynxklippan-led-33",
+      "kind": "route",
+      "number": "1c",
+      "name": "Silberdachs...",
+      "grade": "7B+/C ss",
+      "length": "",
+      "type": "",
+      "firstAscent": "Fredrik Andersson",
+      "description": "Startar sittande vid \"Le Frog\" traversera via 1 grepp under linien \"Coupin\"(dessa grepp ingår ej) och sedan direkt till Badkaret och avslutar med Mme Blaierau.",
+      "source": {
+        "id": "legacy:lynxklippan",
+        "path": "mediawiki/Lynxklippan.txt"
+      }
+    },
+    {
+      "id": "lynxklippan-led-34",
+      "kind": "route",
+      "number": "1, grön",
+      "name": "Vol du Karma",
+      "grade": "6A ss",
+      "length": "",
+      "type": "",
+      "firstAscent": "Stefan Kolmodin",
+      "description": "Stora greppen till höger vid top out eliminerade.",
+      "source": {
+        "id": "legacy:lynxklippan",
+        "path": "mediawiki/Lynxklippan.txt"
+      }
+    },
+    {
+      "id": "lynxklippan-led-35",
+      "kind": "route",
+      "number": "2, röd",
+      "name": "Kolis",
+      "grade": "6A ss",
+      "length": "",
+      "type": "",
+      "firstAscent": "Moritz Kiewitt",
+      "description": "Akta trädet",
+      "source": {
+        "id": "legacy:lynxklippan",
+        "path": "mediawiki/Lynxklippan.txt"
+      }
+    },
+    {
+      "id": "lynxklippan-led-36",
+      "kind": "route",
+      "number": "1, röd",
+      "name": "Le Fou",
+      "grade": "6A+ ss",
+      "length": "",
+      "type": "",
+      "firstAscent": "Stefan Kolmodin",
+      "description": "Ett ton sten flyttat för detta problem!",
+      "source": {
+        "id": "legacy:lynxklippan",
+        "path": "mediawiki/Lynxklippan.txt"
+      }
+    }
+  ],
+  "images": [
+    {
+      "filename": "Lynx11.jpg",
+      "caption": "700px",
+      "missing": false
+    },
+    {
+      "filename": "Lynx12.jpg",
+      "caption": "",
+      "missing": false
+    },
+    {
+      "filename": "Lynx13.jpg",
+      "caption": "700px",
+      "missing": false
+    },
+    {
+      "filename": "Lynx_sydde.jpg",
+      "caption": "",
+      "missing": false
+    },
+    {
+      "filename": "Lynx21.jpg",
+      "caption": "700px",
+      "missing": false
+    },
+    {
+      "filename": "Lynx31.jpg",
+      "caption": "450px",
+      "missing": false
+    },
+    {
+      "filename": "Lynx_stefan.jpg",
+      "caption": "",
+      "missing": false
+    },
+    {
+      "filename": "Lynx32.jpg",
+      "caption": "500px",
+      "missing": false
+    },
+    {
+      "filename": "Lynx41.jpg",
+      "caption": "700px",
+      "missing": false
+    },
+    {
+      "filename": "Lynx_stefan2.jpg",
+      "caption": "",
+      "missing": false
+    },
+    {
+      "filename": "Lynx42.jpg",
+      "caption": "700px",
+      "missing": false
+    },
+    {
+      "filename": "Lynx43.jpg",
+      "caption": "500px",
+      "missing": false
+    },
+    {
+      "filename": "Lynx51.jpg",
+      "caption": "700px",
+      "missing": false
+    },
+    {
+      "filename": "Lynx52.jpg",
+      "caption": "",
+      "missing": false
+    }
+  ],
+  "access": {
+    "legacyText": null,
+    "federationSlug": null
+  },
+  "qualityIssues": [],
+  "provenance": {
+    "primarySourceId": "legacy:lynxklippan",
+    "sources": [
+      {
+        "id": "legacy:lynxklippan",
+        "title": "Sverigeföraren 2014: Lynxklippan",
+        "path": "mediawiki/Lynxklippan.txt",
+        "license": "GNU Free Documentation License",
+        "snapshotDate": "2014-01-01"
+      }
+    ]
+  }
+}

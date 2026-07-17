@@ -1,0 +1,813 @@
+{
+  "schemaVersion": 1,
+  "id": "gardsas",
+  "slug": "gardsas",
+  "name": "Gärdsås",
+  "description": "Det förlovade landet för femma-klättrare. Ca 40 leder, varav massor av fina leder i lättare grader. Bra ställe att öva tradklättring. Lättillgängligt och barnvänligt. Hamnar i skugga framåt kvällen, men svalkande träd gör det ok att vistas där även dagtid. Firningsankare finns ovanför Start och Speed samt Vårtecknet. Parkera inte på Ungmästaregatan.",
+  "coordinates": {
+    "latitude": 57.74851113860408,
+    "longitude": 12.052774429321289
+  },
+  "categories": [
+    "2 stjärnor",
+    "Göteborg"
+  ],
+  "sections": [
+    {
+      "id": "allmant",
+      "title": "Allmänt",
+      "body": "Det förlovade landet för femma-klättrare. Ca 40 leder, varav massor av fina leder i lättare grader. Bra ställe att öva tradklättring. Lättillgängligt och barnvänligt. Hamnar i skugga framåt kvällen, men svalkande träd gör det ok att vistas där även dagtid. Firningsankare finns ovanför Start och Speed samt Vårtecknet. Parkera inte på Ungmästaregatan."
+    },
+    {
+      "id": "introduktion",
+      "title": "Introduktion",
+      "body": "Tänk på ljudnivån då klättringen sker alldeles intill bebyggelse, se Access nedan. Parkera inte på Ungmästaregatan! Nedstigning finns dels genom att ta sig till höger till cykelvägen. Dels kan man navigera sig ned på en brant stig till vänster om Älgens överskning."
+    },
+    {
+      "id": "karaktar",
+      "title": "Karaktär",
+      "body": "Varierat med bland annat stora tak. Mestadels vertikalt med enstaka ramper som erbjuder flack nybörjarklättring. Trad. Två limbultsankare huvudsakligen för firning, försedda med ring och \"maillon rapide\", fira i ringen, toppa i egna karbiner. Sätt inte upp nya bultar i Gärdsås, det är så fint som klätterberg som det är utan bultar!"
+    },
+    {
+      "id": "vagbeskrivning",
+      "title": "Vägbeskrivning",
+      "body": "Parkera längs Gärdsåsgatan, Kamgatan. Parkera INTE vid återvinningsstationen på Ungmästaregatan, vilket angetts här tidigare. Gå upp och ta vänster på Sockerbagaregatan. Gatan blir cykelväg, sedan ser du klippan."
+    },
+    {
+      "id": "access",
+      "title": "Access",
+      "body": "Klättringen sker väldigt nära villatomter. I vänstra delen av området klättrar man bokstavligen rakt ovanför nån stackare som försöker läsa tidningen i lugn och ro på sin gräsmatta. Ropa inte i onödan och låt bli alla svordomar och annat oskick! Tänk även på parkeringen, Parkera inte på Ungmästaregatan."
+    },
+    {
+      "id": "jannes-horn",
+      "title": "Jannes hörn",
+      "body": "Tänk på att hålla ljudnivån nere på alla leder fram till Jennys grej, hus mycket nära!"
+    },
+    {
+      "id": "nurejev",
+      "title": "Nurejev",
+      "body": "category:Barnvänligt category:trad category:Vertikalt Kategori:Göteborg"
+    }
+  ],
+  "routes": [
+    {
+      "id": "gardsas-led-1",
+      "kind": "route",
+      "number": null,
+      "name": "Star trek",
+      "grade": "5",
+      "length": "",
+      "type": "",
+      "firstAscent": "",
+      "description": "",
+      "source": {
+        "id": "legacy:gardsas",
+        "path": "mediawiki/Gärdsås.txt"
+      }
+    },
+    {
+      "id": "gardsas-led-2",
+      "kind": "route",
+      "number": null,
+      "name": "Kurt",
+      "grade": "7-",
+      "length": "",
+      "type": "",
+      "firstAscent": "",
+      "description": "",
+      "source": {
+        "id": "legacy:gardsas",
+        "path": "mediawiki/Gärdsås.txt"
+      }
+    },
+    {
+      "id": "gardsas-led-3",
+      "kind": "route",
+      "number": null,
+      "name": "?",
+      "grade": "4",
+      "length": "",
+      "type": "",
+      "firstAscent": "",
+      "description": "",
+      "source": {
+        "id": "legacy:gardsas",
+        "path": "mediawiki/Gärdsås.txt"
+      }
+    },
+    {
+      "id": "gardsas-led-4",
+      "kind": "route",
+      "number": null,
+      "name": "Dolomiti",
+      "grade": "5+",
+      "length": "25",
+      "type": "trad",
+      "firstAscent": "",
+      "description": "Ovanlig klättring på kristallin klippa.",
+      "source": {
+        "id": "legacy:gardsas",
+        "path": "mediawiki/Gärdsås.txt"
+      }
+    },
+    {
+      "id": "gardsas-led-5",
+      "kind": "route",
+      "number": null,
+      "name": "Svåra väggen",
+      "grade": "7-",
+      "length": "",
+      "type": "",
+      "firstAscent": "Rikard Ekehed",
+      "description": "",
+      "source": {
+        "id": "legacy:gardsas",
+        "path": "mediawiki/Gärdsås.txt"
+      }
+    },
+    {
+      "id": "gardsas-led-6",
+      "kind": "route",
+      "number": null,
+      "name": "Vårtecknet",
+      "grade": "5",
+      "length": "",
+      "type": "",
+      "firstAscent": "Ulf Björnberg & Susanne Rydfeldt",
+      "description": "Längst in i hörnet, har ett firningsankare",
+      "source": {
+        "id": "legacy:gardsas",
+        "path": "mediawiki/Gärdsås.txt"
+      }
+    },
+    {
+      "id": "gardsas-led-7",
+      "kind": "route",
+      "number": null,
+      "name": "Not without my friends",
+      "grade": "6-",
+      "length": "",
+      "type": "",
+      "firstAscent": "Weine Hallberg & Magnus Eriksson",
+      "description": "",
+      "source": {
+        "id": "legacy:gardsas",
+        "path": "mediawiki/Gärdsås.txt"
+      }
+    },
+    {
+      "id": "gardsas-led-8",
+      "kind": "route",
+      "number": null,
+      "name": "Kryckan",
+      "grade": "5",
+      "length": "",
+      "type": "",
+      "firstAscent": "",
+      "description": "",
+      "source": {
+        "id": "legacy:gardsas",
+        "path": "mediawiki/Gärdsås.txt"
+      }
+    },
+    {
+      "id": "gardsas-led-9",
+      "kind": "route",
+      "number": null,
+      "name": "Jannes hörn",
+      "grade": "7-",
+      "length": "20",
+      "type": "trad",
+      "firstAscent": "",
+      "description": "Spricka med brant layback på slutet.",
+      "source": {
+        "id": "legacy:gardsas",
+        "path": "mediawiki/Gärdsås.txt"
+      }
+    },
+    {
+      "id": "gardsas-led-10",
+      "kind": "route",
+      "number": null,
+      "name": "Det eviga projektet",
+      "grade": "7+",
+      "length": "",
+      "type": "mix",
+      "firstAscent": "Lars Ingemansson",
+      "description": "Projekt",
+      "source": {
+        "id": "legacy:gardsas",
+        "path": "mediawiki/Gärdsås.txt"
+      }
+    },
+    {
+      "id": "gardsas-led-11",
+      "kind": "route",
+      "number": null,
+      "name": "Kapten Långfinger",
+      "grade": "7-",
+      "length": "",
+      "type": "",
+      "firstAscent": "Jan Liliemark",
+      "description": "",
+      "source": {
+        "id": "legacy:gardsas",
+        "path": "mediawiki/Gärdsås.txt"
+      }
+    },
+    {
+      "id": "gardsas-led-12",
+      "kind": "route",
+      "number": null,
+      "name": "Jennys Grej",
+      "grade": "5+",
+      "length": "",
+      "type": "",
+      "firstAscent": "Ulf Björnberg",
+      "description": "",
+      "source": {
+        "id": "legacy:gardsas",
+        "path": "mediawiki/Gärdsås.txt"
+      }
+    },
+    {
+      "id": "gardsas-led-13",
+      "kind": "route",
+      "number": null,
+      "name": "Bikupan",
+      "grade": "5+",
+      "length": "20",
+      "type": "trad",
+      "firstAscent": "",
+      "description": "",
+      "source": {
+        "id": "legacy:gardsas",
+        "path": "mediawiki/Gärdsås.txt"
+      }
+    },
+    {
+      "id": "gardsas-led-14",
+      "kind": "route",
+      "number": null,
+      "name": "Bitsk",
+      "grade": "6+",
+      "length": "20?",
+      "type": "trad",
+      "firstAscent": "Johan Sundell (2007-03-29)",
+      "description": "Där Bikupan svänger av till vänster efter någon meter, fortsätt rakt upp i diedret och upp igenom taket (krux) på vänster sida.",
+      "source": {
+        "id": "legacy:gardsas",
+        "path": "mediawiki/Gärdsås.txt"
+      }
+    },
+    {
+      "id": "gardsas-led-15",
+      "kind": "route",
+      "number": null,
+      "name": "Älgens överaskning",
+      "grade": "5+",
+      "length": "20",
+      "type": "trad",
+      "firstAscent": "",
+      "description": "Luftig men välsäkrad.",
+      "source": {
+        "id": "legacy:gardsas",
+        "path": "mediawiki/Gärdsås.txt"
+      }
+    },
+    {
+      "id": "gardsas-led-16",
+      "kind": "route",
+      "number": null,
+      "name": "Luftmadrassen",
+      "grade": "5+",
+      "length": "20",
+      "type": "trad",
+      "firstAscent": "Ulf Björnberg",
+      "description": "Till höger om Älgens överaskning. Flack diederklättring upp till första taket. Gå genom detta och upp till nästa tak, här traverserar du vänster. Luftig men välsäkrad.",
+      "source": {
+        "id": "legacy:gardsas",
+        "path": "mediawiki/Gärdsås.txt"
+      }
+    },
+    {
+      "id": "gardsas-led-17",
+      "kind": "route",
+      "number": null,
+      "name": "Yesterday",
+      "grade": "5",
+      "length": "",
+      "type": "trad",
+      "firstAscent": "Tomas Machek & Jan Machek",
+      "description": "Samma start som Luftmadrassen men traverserar höger vid första bästa tillfälle och därefter rakt upp.",
+      "source": {
+        "id": "legacy:gardsas",
+        "path": "mediawiki/Gärdsås.txt"
+      }
+    },
+    {
+      "id": "gardsas-led-18",
+      "kind": "route",
+      "number": null,
+      "name": "Syjuntan",
+      "grade": "6",
+      "length": "12",
+      "type": "trad",
+      "firstAscent": "Calle Martins, Per Larsson (2007?)",
+      "description": "Aréten höger om Luftmadrassen. Tyvärr har kruxet efter insteget markfallspotensial, 'buyer beware'. I övrigt en bra led på arétens vänstersida. Slutar på hylla strax under toppen. Notera att Syjuntan aldrig går samman med Yesterday.",
+      "source": {
+        "id": "legacy:gardsas",
+        "path": "mediawiki/Gärdsås.txt"
+      }
+    },
+    {
+      "id": "gardsas-led-19",
+      "kind": "route",
+      "number": null,
+      "name": "Toms överraskning",
+      "grade": "5+",
+      "length": "15",
+      "type": "trad",
+      "firstAscent": "Tomas Machek & Jan Machek",
+      "description": "Det sitter en fast 'säkrings grej' i den breda sprickan i slutet.",
+      "source": {
+        "id": "legacy:gardsas",
+        "path": "mediawiki/Gärdsås.txt"
+      }
+    },
+    {
+      "id": "gardsas-led-20",
+      "kind": "route",
+      "number": null,
+      "name": "Match",
+      "grade": "6+",
+      "length": "",
+      "type": "",
+      "firstAscent": "Jan Machek",
+      "description": "",
+      "source": {
+        "id": "legacy:gardsas",
+        "path": "mediawiki/Gärdsås.txt"
+      }
+    },
+    {
+      "id": "gardsas-led-21",
+      "kind": "route",
+      "number": null,
+      "name": "Set",
+      "grade": "5+",
+      "length": "15",
+      "type": "trad",
+      "firstAscent": "",
+      "description": "Vänsterlutande spricka.",
+      "source": {
+        "id": "legacy:gardsas",
+        "path": "mediawiki/Gärdsås.txt"
+      }
+    },
+    {
+      "id": "gardsas-led-22",
+      "kind": "route",
+      "number": null,
+      "name": "Game",
+      "grade": "5",
+      "length": "15",
+      "type": "trad",
+      "firstAscent": "",
+      "description": "Startar på samma ställe som Set men fortsätter i spricksystemet upp höger efter någon meter.",
+      "source": {
+        "id": "legacy:gardsas",
+        "path": "mediawiki/Gärdsås.txt"
+      }
+    },
+    {
+      "id": "gardsas-led-23",
+      "kind": "route",
+      "number": null,
+      "name": "Måndagens led",
+      "grade": "3+",
+      "length": "",
+      "type": "",
+      "firstAscent": "",
+      "description": "",
+      "source": {
+        "id": "legacy:gardsas",
+        "path": "mediawiki/Gärdsås.txt"
+      }
+    },
+    {
+      "id": "gardsas-led-24",
+      "kind": "route",
+      "number": null,
+      "name": "Fredagens led",
+      "grade": "4",
+      "length": "",
+      "type": "",
+      "firstAscent": "",
+      "description": "",
+      "source": {
+        "id": "legacy:gardsas",
+        "path": "mediawiki/Gärdsås.txt"
+      }
+    },
+    {
+      "id": "gardsas-led-25",
+      "kind": "route",
+      "number": null,
+      "name": "Dominikas led",
+      "grade": "4-",
+      "length": "",
+      "type": "",
+      "firstAscent": "",
+      "description": "",
+      "source": {
+        "id": "legacy:gardsas",
+        "path": "mediawiki/Gärdsås.txt"
+      }
+    },
+    {
+      "id": "gardsas-led-26",
+      "kind": "route",
+      "number": null,
+      "name": "Betongsång",
+      "grade": "6-",
+      "length": "15",
+      "type": "trad",
+      "firstAscent": "John Liungman 2012?",
+      "description": "Start som Dominikas. Vid det breda suspekta blocket gå rakt upp på väggen längs vaga sprickor.",
+      "source": {
+        "id": "legacy:gardsas",
+        "path": "mediawiki/Gärdsås.txt"
+      }
+    },
+    {
+      "id": "gardsas-led-27",
+      "kind": "route",
+      "number": null,
+      "name": "Jappe",
+      "grade": "5",
+      "length": "15",
+      "type": "trad",
+      "firstAscent": "Jan Pålsgård",
+      "description": "Sprickklättring med ett och annat bök.",
+      "source": {
+        "id": "legacy:gardsas",
+        "path": "mediawiki/Gärdsås.txt"
+      }
+    },
+    {
+      "id": "gardsas-led-28",
+      "kind": "route",
+      "number": null,
+      "name": "Jug",
+      "grade": "5",
+      "length": "15",
+      "type": "trad",
+      "firstAscent": "Ulf Björnberg, Jan Liliemark",
+      "description": "Laybacka, stäm, ta i. Juggen kommer så småningom.",
+      "source": {
+        "id": "legacy:gardsas",
+        "path": "mediawiki/Gärdsås.txt"
+      }
+    },
+    {
+      "id": "gardsas-led-29",
+      "kind": "route",
+      "number": null,
+      "name": "Start och speed",
+      "grade": "6",
+      "length": "15",
+      "type": "trad",
+      "firstAscent": "Lars Ingemansson, Arne Roos, Lars Cronlund",
+      "description": "Uppför ramp höger om areten, sedan runt areten i svårsäkrat krux. Därefter förvånansvärt välsäkrad väggklättring. En lite krystad instegsvariant (grad 7) finnes. Startar vänster om areten och har en bult.",
+      "source": {
+        "id": "legacy:gardsas",
+        "path": "mediawiki/Gärdsås.txt"
+      }
+    },
+    {
+      "id": "gardsas-led-30",
+      "kind": "route",
+      "number": null,
+      "name": "Bläckfisk",
+      "grade": "7",
+      "length": "",
+      "type": "",
+      "firstAscent": "Richard Ekehed",
+      "description": "",
+      "source": {
+        "id": "legacy:gardsas",
+        "path": "mediawiki/Gärdsås.txt"
+      }
+    },
+    {
+      "id": "gardsas-led-31",
+      "kind": "route",
+      "number": null,
+      "name": "Pi kuan",
+      "grade": "5+",
+      "length": "15",
+      "type": "trad",
+      "firstAscent": "Ulf Björnberg & Göran Hellström)",
+      "description": "Någon av sprickorna höger om rampen och upp till det stora blockets högerkant. Gå rakt upp eller traversersa vänster under blocket. Sedan lite svårsäkrad stämklättring efter hyllan. (Varianten som börjar i samma ramp som Start och Speed är relativt svårsäkrad.",
+      "source": {
+        "id": "legacy:gardsas",
+        "path": "mediawiki/Gärdsås.txt"
+      }
+    },
+    {
+      "id": "gardsas-led-32",
+      "kind": "route",
+      "number": null,
+      "name": "Sträckfisk",
+      "grade": "7-",
+      "length": "20",
+      "type": "trad",
+      "firstAscent": "Dag Kolsrud",
+      "description": "Känslig klättring i ett litet dieder. Tunn tarvers åt höger mot areten, följt av den vänstra sprickan mot toppen. Troligen seriös i första halvan.",
+      "source": {
+        "id": "legacy:gardsas",
+        "path": "mediawiki/Gärdsås.txt"
+      }
+    },
+    {
+      "id": "gardsas-led-33",
+      "kind": "route",
+      "number": null,
+      "name": "Lutfisk",
+      "grade": "7",
+      "length": "20",
+      "type": "trad",
+      "firstAscent": "Johan Nilsson & Henrik Sennelöv",
+      "description": "Som Sträckfisk tills efter traversen, sedan upp i den högra sprickan. Tung men fin klättring på riktiga grepp.",
+      "source": {
+        "id": "legacy:gardsas",
+        "path": "mediawiki/Gärdsås.txt"
+      }
+    },
+    {
+      "id": "gardsas-led-34",
+      "kind": "route",
+      "number": null,
+      "name": "Tien-tsin",
+      "grade": "7",
+      "length": "15",
+      "type": "trad",
+      "firstAscent": "Hans-Christian Doseth",
+      "description": "Varierad klättring upp i det vänstra av de två stora diedren. Tunga handjam när det brantar till sig.",
+      "source": {
+        "id": "legacy:gardsas",
+        "path": "mediawiki/Gärdsås.txt"
+      }
+    },
+    {
+      "id": "gardsas-led-35",
+      "kind": "route",
+      "number": null,
+      "name": "China corner",
+      "grade": "6+",
+      "length": "15",
+      "type": "trad",
+      "firstAscent": "Hans-Christian Doseth",
+      "description": "Stämklättring i det högra stora diedret. Relativt välsäkrat, liten Alien kan göra kruxet behagligare.",
+      "source": {
+        "id": "legacy:gardsas",
+        "path": "mediawiki/Gärdsås.txt"
+      }
+    },
+    {
+      "id": "gardsas-led-36",
+      "kind": "route",
+      "number": null,
+      "name": "Centralpelaren",
+      "grade": "6+",
+      "length": "15",
+      "type": "trad",
+      "firstAscent": "Lars Ingemansson",
+      "description": "Elegant när du traverserar ut på pelaren i början. Sedan lite ojämnt men fint. Välsäkrat.",
+      "source": {
+        "id": "legacy:gardsas",
+        "path": "mediawiki/Gärdsås.txt"
+      }
+    },
+    {
+      "id": "gardsas-led-37",
+      "kind": "route",
+      "number": null,
+      "name": "Leden som gud glömde",
+      "grade": "6-7 (morfo)",
+      "length": "",
+      "type": "",
+      "firstAscent": "Magnus Strömhäll, 20xx",
+      "description": "Leden startar längst in i hörnet, under blocket som har kalvat bort, längs med taket. Välsäkrad med stora kila/hexor/tricams, rensas enklast ovanifrån.Inget för den storväxte.",
+      "source": {
+        "id": "legacy:gardsas",
+        "path": "mediawiki/Gärdsås.txt"
+      }
+    },
+    {
+      "id": "gardsas-led-38",
+      "kind": "route",
+      "number": null,
+      "name": "Ett hål i mitt hjärta",
+      "grade": "6",
+      "length": "15",
+      "type": "trad",
+      "firstAscent": "Per Larsson, Erik Gustavsson (2007?)",
+      "description": "Samma start som Travolta, efter ca 4 m ut vänster via sprick-krysset till arèten. Sedan rakt upp till nästa spricksystem och utsteget. Varierande och fin.",
+      "source": {
+        "id": "legacy:gardsas",
+        "path": "mediawiki/Gärdsås.txt"
+      }
+    },
+    {
+      "id": "gardsas-led-39",
+      "kind": "route",
+      "number": null,
+      "name": "Travolta",
+      "grade": "7-",
+      "length": "",
+      "type": "trad",
+      "firstAscent": "Jan Pålsgård & Bogi Palfay",
+      "description": "Följer de två pararella sprickorna, klurig start till avsevärt lättare men mindre välsäkrat slut.",
+      "source": {
+        "id": "legacy:gardsas",
+        "path": "mediawiki/Gärdsås.txt"
+      }
+    },
+    {
+      "id": "gardsas-led-40",
+      "kind": "route",
+      "number": null,
+      "name": "Baryshnikov",
+      "grade": "6",
+      "length": "",
+      "type": "",
+      "firstAscent": "Bogi Palfay & Jan Pålsgård",
+      "description": "Klättring på ganska grova grepp, balansigt och akrobatiskt. Inte överdrivet säkrat.",
+      "source": {
+        "id": "legacy:gardsas",
+        "path": "mediawiki/Gärdsås.txt"
+      }
+    },
+    {
+      "id": "gardsas-led-41",
+      "kind": "route",
+      "number": null,
+      "name": "Moses Pendelton",
+      "grade": "8-",
+      "length": "",
+      "type": "",
+      "firstAscent": "",
+      "description": "",
+      "source": {
+        "id": "legacy:gardsas",
+        "path": "mediawiki/Gärdsås.txt"
+      }
+    },
+    {
+      "id": "gardsas-problem-42",
+      "kind": "problem",
+      "number": null,
+      "name": "Gärdsåstraversen",
+      "grade": "7+",
+      "length": "",
+      "type": "",
+      "firstAscent": "HC Doseth",
+      "description": "",
+      "source": {
+        "id": "legacy:gardsas",
+        "path": "mediawiki/Gärdsås.txt"
+      }
+    },
+    {
+      "id": "gardsas-led-43",
+      "kind": "route",
+      "number": null,
+      "name": "Nurejev",
+      "grade": "6+",
+      "length": "",
+      "type": "",
+      "firstAscent": "Dag Kolsrud & Jan Pålsgård & Bogi Palfay",
+      "description": "Juggig catch-start i överhänget. Variantstart till höger av Jan P något senare.",
+      "source": {
+        "id": "legacy:gardsas",
+        "path": "mediawiki/Gärdsås.txt"
+      }
+    },
+    {
+      "id": "gardsas-led-44",
+      "kind": "route",
+      "number": null,
+      "name": "Mowgli",
+      "grade": "4+",
+      "length": "",
+      "type": "",
+      "firstAscent": "Tomas Machek",
+      "description": "Fin övning för aspirerande lead-klättrare. Kan rekommenderas!",
+      "source": {
+        "id": "legacy:gardsas",
+        "path": "mediawiki/Gärdsås.txt"
+      }
+    },
+    {
+      "id": "gardsas-led-45",
+      "kind": "route",
+      "number": null,
+      "name": "Bakfylleleken",
+      "grade": "C3",
+      "length": "15?",
+      "type": "aid",
+      "firstAscent": "Per Gunnarson (2006?)",
+      "description": "Startar i den tydliga diedret till höger om Mowgli. Rakt upp till tvärsprickan, traversera höger till taket. Klättra genom taket längst den tunna sprickan (krux). Små kilar. Utsteget är kanske grad 5 (osäkrad) eller flera hookar i rad. Ta med RPs, hooks och normalt frirack. Eventuellt någon pecker för handplacering.",
+      "source": {
+        "id": "legacy:gardsas",
+        "path": "mediawiki/Gärdsås.txt"
+      }
+    },
+    {
+      "id": "gardsas-led-46",
+      "kind": "route",
+      "number": null,
+      "name": "Baloo",
+      "grade": "4",
+      "length": "",
+      "type": "",
+      "firstAscent": "Tomas Machek",
+      "description": "",
+      "source": {
+        "id": "legacy:gardsas",
+        "path": "mediawiki/Gärdsås.txt"
+      }
+    },
+    {
+      "id": "gardsas-led-47",
+      "kind": "route",
+      "number": null,
+      "name": "Bagheera",
+      "grade": "4+",
+      "length": "",
+      "type": "",
+      "firstAscent": "Tomas Machek & Petra Machek",
+      "description": "",
+      "source": {
+        "id": "legacy:gardsas",
+        "path": "mediawiki/Gärdsås.txt"
+      }
+    },
+    {
+      "id": "gardsas-led-48",
+      "kind": "route",
+      "number": null,
+      "name": "Gulbrunt",
+      "grade": "5+",
+      "length": "10",
+      "type": "trad",
+      "firstAscent": "Per Larsson, Magnus Strömhäll (2004)",
+      "description": "Det svaga diedret/flaket till vänster om Blåvitt. Klättra detta och sedan rakt över bullen.",
+      "source": {
+        "id": "legacy:gardsas",
+        "path": "mediawiki/Gärdsås.txt"
+      }
+    },
+    {
+      "id": "gardsas-led-49",
+      "kind": "route",
+      "number": null,
+      "name": "Blåvitt",
+      "grade": "6",
+      "length": "",
+      "type": "",
+      "firstAscent": "",
+      "description": "Blåvitt hittas om du fortsätter cykelvägen i riktning mot fotbollsplanen, strax innan cykelvägen delar sig till vänster.",
+      "source": {
+        "id": "legacy:gardsas",
+        "path": "mediawiki/Gärdsås.txt"
+      }
+    }
+  ],
+  "images": [
+    {
+      "filename": "Jugg_jappe.jpg",
+      "caption": "Jappe och Jug.",
+      "missing": false
+    }
+  ],
+  "access": {
+    "legacyText": "Klättringen sker väldigt nära villatomter. I vänstra delen av området klättrar man bokstavligen rakt ovanför nån stackare som försöker läsa tidningen i lugn och ro på sin gräsmatta. Ropa inte i onödan och låt bli alla svordomar och annat oskick! Tänk även på parkeringen, Parkera inte på Ungmästaregatan.",
+    "federationSlug": "gardsas"
+  },
+  "qualityIssues": [],
+  "provenance": {
+    "primarySourceId": "legacy:gardsas",
+    "sources": [
+      {
+        "id": "legacy:gardsas",
+        "title": "Sverigeföraren 2014: Gärdsås",
+        "path": "mediawiki/Gärdsås.txt",
+        "license": "GNU Free Documentation License",
+        "snapshotDate": "2014-01-01"
+      }
+    ]
+  }
+}

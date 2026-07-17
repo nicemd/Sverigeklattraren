@@ -1,0 +1,94 @@
+{
+  "schemaVersion": 1,
+  "id": "bolagsbrottet",
+  "slug": "bolagsbrottet",
+  "name": "Bolagsbrottet",
+  "description": "Området består av ett nedlagt stenbrott. Klippan är solvänd och lämpar sig för klättring från tidigt på våren till sen höst. Väggarna är ca 10-15m höga och består till stor del av \"bruten\" men fast klippa. Allt är bultat med några få undantag bestående av topprepsleder.",
+  "coordinates": null,
+  "categories": [
+    "Halland"
+  ],
+  "sections": [
+    {
+      "id": "allmant",
+      "title": "Allmänt",
+      "body": "Området består av ett nedlagt stenbrott. Klippan är solvänd och lämpar sig för klättring från tidigt på våren till sen höst. Väggarna är ca 10-15m höga och består till stor del av \"bruten\" men fast klippa. Allt är bultat med några få undantag bestående av topprepsleder."
+    },
+    {
+      "id": "access",
+      "title": "Access",
+      "body": "Inga problem"
+    },
+    {
+      "id": "hitta-hit",
+      "title": "Hitta hit",
+      "body": "Åk till Grötvik. Fortsätt förbi småbåtshamnen och caféet så dyker brottet upp på höger sida efter några hundra meter. Det finns ett antal bultade leder sedan tidigare på vänster sida, från havet sett. De nya lederna finns på väggen rakt fram."
+    },
+    {
+      "id": "originalvaggen",
+      "title": "Originalväggen",
+      "body": "Kategori:Halland"
+    }
+  ],
+  "routes": [
+    {
+      "id": "bolagsbrottet-led-1",
+      "kind": "route",
+      "number": "1",
+      "name": "Solsting",
+      "grade": "6a+",
+      "length": "10",
+      "type": "bult",
+      "firstAscent": "A. Andersson, M Skafar - 07",
+      "description": "Leden följer den tydliga vänsterlutande kanten, den har ett tydligt crux och bjuder på skön klättring, 3 bult+ankare",
+      "source": {
+        "id": "legacy:bolagsbrottet",
+        "path": "mediawiki/Bolagsbrottet.txt"
+      }
+    },
+    {
+      "id": "bolagsbrottet-led-2",
+      "kind": "route",
+      "number": "2",
+      "name": "Bitter End",
+      "grade": "7a+",
+      "length": "15",
+      "type": "bult",
+      "firstAscent": "M.Skafar, A. Andersson - 07",
+      "description": "Leden börjar rakt under den tydliga layback kanten, den passerar \"hyllan\" på mitten och följer sedan den naturliga vägen till ankaret. Varierande och rolig klättring hela vägen. 5 bult+ankare",
+      "source": {
+        "id": "legacy:bolagsbrottet",
+        "path": "mediawiki/Bolagsbrottet.txt"
+      }
+    }
+  ],
+  "images": [
+    {
+      "filename": "Solsting.jpg",
+      "caption": "Solsting, 6a+",
+      "missing": false
+    },
+    {
+      "filename": "Bitter_End.jpg",
+      "caption": "Bitter End, 7a+",
+      "missing": false
+    }
+  ],
+  "access": {
+    "legacyText": "Inga problem",
+    "federationSlug": null
+  },
+  "qualityIssues": [],
+  "provenance": {
+    "primarySourceId": "legacy:bolagsbrottet",
+    "sources": [
+      {
+        "id": "legacy:bolagsbrottet",
+        "title": "Sverigeföraren 2014: Bolagsbrottet",
+        "path": "mediawiki/Bolagsbrottet.txt",
+        "license": "GNU Free Documentation License",
+        "snapshotDate": "2014-01-01"
+      }
+    ]
+  }
+}

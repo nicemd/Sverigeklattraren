@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "id": "agnesberg",
+  "slug": "agnesberg",
+  "name": "Agnesberg",
+  "description": "Ett antal isfall pryder sprängväggarna intill väg 159, i backen upp ifrån väg 40 mot Angered. Inte världens mysigaste miljö, men man står i alla fall skyddad av betongsuggor. Parkera med förstånd i närområdet, självklart inte på motorvägen, duh... Se upp för frånvarande brunnslock under snön när du går i diket under väggen.",
+  "coordinates": {
+    "latitude": 57.79375,
+    "longitude": 12.0287
+  },
+  "categories": [
+    "Göteborg",
+    "Is"
+  ],
+  "sections": [
+    {
+      "id": "allmant",
+      "title": "Allmänt",
+      "body": "Ett antal isfall pryder sprängväggarna intill väg 159, i backen upp ifrån väg 40 mot Angered. Inte världens mysigaste miljö, men man står i alla fall skyddad av betongsuggor. Parkera med förstånd i närområdet, självklart inte på motorvägen, duh... Se upp för frånvarande brunnslock under snön när du går i diket under väggen."
+    },
+    {
+      "id": "karaktar",
+      "title": "Karaktär",
+      "body": "Ett flertal långa och snudd på vertikala leder. Sällan ledbart men inte ovanligt med topprepsmöjligheter. Lättaste vägen upp görs via en krypramp i högerkant."
+    },
+    {
+      "id": "access",
+      "title": "Access",
+      "body": "Det finns vissa accessproblem i Agnesberg. Parkera skall man göra nere vid Steken, finns oftast gott om platser där. Alternativt uppe i Hammarkullen och gå ned. Se till att inte röra er på vägen och stanna (eller parkera) ALDRIG bilen längs med Angeredsleden. Polisen brukar få flera samtal varje år från irriterade/oroade bilister."
+    },
+    {
+      "id": "leder",
+      "title": "Leder",
+      "body": "4-5 leder, de flesta ganska branta . En svaig variant i diedret en bit till höger."
+    },
+    {
+      "id": "vackra-bilder",
+      "title": "Vackra bilder",
+      "body": "Lite bilder så att eventuella spekulanter förstår hur naturskön klippan är."
+    }
+  ],
+  "routes": [
+    {
+      "id": "agnesberg-led-1",
+      "kind": "route",
+      "number": "1",
+      "name": "Längst till vänster(?)",
+      "grade": "WI3+ till WI5",
+      "length": "30",
+      "type": "is",
+      "firstAscent": "",
+      "description": "Fin jämn och lång klättring rakt under kraftledningarna. Ofta ganska tunn.",
+      "source": {
+        "id": "legacy:agnesberg",
+        "path": "mediawiki/Agnesberg.txt"
+      }
+    }
+  ],
+  "images": [
+    {
+      "filename": "VackraAgnesberg.jpg",
+      "caption": "Högsta fallet:",
+      "missing": false
+    },
+    {
+      "filename": "Vackersomendag.jpg",
+      "caption": "Högsta fallet:",
+      "missing": false
+    },
+    {
+      "filename": "Agnesbergvacker.jpg",
+      "caption": "Här lägger du topprepet för det högsta fallet.",
+      "missing": false
+    },
+    {
+      "filename": "VackerAgnesberg.jpg",
+      "caption": "Kortare fallen.",
+      "missing": false
+    }
+  ],
+  "access": {
+    "legacyText": "Det finns vissa accessproblem i Agnesberg. Parkera skall man göra nere vid Steken, finns oftast gott om platser där. Alternativt uppe i Hammarkullen och gå ned. Se till att inte röra er på vägen och stanna (eller parkera) ALDRIG bilen längs med Angeredsleden. Polisen brukar få flera samtal varje år från irriterade/oroade bilister.",
+    "federationSlug": null
+  },
+  "qualityIssues": [],
+  "provenance": {
+    "primarySourceId": "legacy:agnesberg",
+    "sources": [
+      {
+        "id": "legacy:agnesberg",
+        "title": "Sverigeföraren 2014: Agnesberg",
+        "path": "mediawiki/Agnesberg.txt",
+        "license": "GNU Free Documentation License",
+        "snapshotDate": "2014-01-01"
+      }
+    ]
+  }
+}

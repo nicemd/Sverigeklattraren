@@ -1,0 +1,266 @@
+{
+  "schemaVersion": 1,
+  "id": "granebergsklippan",
+  "slug": "granebergsklippan",
+  "name": "Granebergsklippan",
+  "description": "Omkring 7-10 m hög 60° svaklippa inne i Granebergsparken med några lätta linjer som går att säkra naturligt.",
+  "coordinates": {
+    "latitude": 59.785465,
+    "longitude": 17.642654
+  },
+  "categories": [
+    "mix",
+    "Saknar skiss",
+    "Saknar skrivarformatering",
+    "sport",
+    "sva",
+    "Svealand",
+    "trad",
+    "Uppland",
+    "vertikalt",
+    "överhäng"
+  ],
+  "sections": [
+    {
+      "id": "allmant",
+      "title": "Allmänt",
+      "body": "Omkring 7-10 m hög 60° svaklippa inne i Granebergsparken med några lätta linjer som går att säkra naturligt."
+    },
+    {
+      "id": "introduktion",
+      "title": "Introduktion",
+      "body": "Lättillgänglig klippa om man bor i de södra delarna av Uppsala. Det har klättrats där tidigare men klippan verkade vara bortglömd och rensades/borstades återigen omsorgsfullt under hösten 2011. Topprepsmöjligheterna är ok, men ta med ordentligt långa slingor/statiskt rep och/eller några kilar, eftersom träden står en bit från klippkanten. Många linjer går dock så snett på klippan att dessa inte går att göra på topprep."
+    },
+    {
+      "id": "vagbeskrivning",
+      "title": "Vägbeskrivning",
+      "body": "Från Granebergsvägen svänger man av på Rådjursstigen till Allnäs friluftsgård (skyltat, KFUK/KFUM). Efter 450 meter ser du parkeringen till Allnäs på höger sida. Ta stigen västerut in i skogen just innan parkering. Efter 150 meter kommer du att se väggen på höger sida. Längst västerut (bortanför 'Ficktjuven') finns en stig upp till toppen av klippan."
+    },
+    {
+      "id": "skiss",
+      "title": "Skiss",
+      "body": "Högupplöst version - SVG"
+    },
+    {
+      "id": "ovrigt",
+      "title": "Övrigt",
+      "body": "Författarna till denna sida har fått bekräftelse på att det klättrats tidigare på denna klippa. Däremot har ingen information kunnat hittas om leder, namn, förstabestigningar osv. Förhoppningvis hör du av dig eller korrigerar direkt om det finns dylik information hos dig som läser detta. Det viktiga för oss var att snabbt presentera denna svaklack som ett ytterligare alternativ kring det inte alltför klipptäta Uppsala. Kategori:trad Kategori:sva kategori:Saknar skiss kategori:Svealand kategori:Uppland"
+    }
+  ],
+  "routes": [
+    {
+      "id": "granebergsklippan-led-1",
+      "kind": "route",
+      "number": "1",
+      "name": "Ficktjuven",
+      "grade": "5",
+      "length": "8",
+      "type": "trad",
+      "firstAscent": "Okänt, troligen inte David -11",
+      "description": "Efter ett halvhårt instegskrux går leden vidare längs en trevlig fickliknade spricka, lätt efter insteget, välsäkrad!",
+      "source": {
+        "id": "legacy:granebergsklippan",
+        "path": "mediawiki/Granebergsklippan.txt"
+      }
+    },
+    {
+      "id": "granebergsklippan-led-2",
+      "kind": "route",
+      "number": "1b",
+      "name": "Ficktjuvens medbrottsling",
+      "grade": "4+",
+      "length": "8",
+      "type": "trad",
+      "firstAscent": "Okänt, troligen inte David -11",
+      "description": "Ett alternativt insteg till Ficktjuven.",
+      "source": {
+        "id": "legacy:granebergsklippan",
+        "path": "mediawiki/Granebergsklippan.txt"
+      }
+    },
+    {
+      "id": "granebergsklippan-led-3",
+      "kind": "route",
+      "number": "2",
+      "name": "Kluven",
+      "grade": "3+",
+      "length": "10",
+      "type": "trad",
+      "firstAscent": "Okänt, troligen inte Sjoerd -11",
+      "description": "Trevligt klättring. Fötter i sprickan nedanför huvudsprickan.",
+      "source": {
+        "id": "legacy:granebergsklippan",
+        "path": "mediawiki/Granebergsklippan.txt"
+      }
+    },
+    {
+      "id": "granebergsklippan-led-4",
+      "kind": "route",
+      "number": "3",
+      "name": "Ensam",
+      "grade": "3",
+      "length": "9",
+      "type": "trad",
+      "firstAscent": "Okänt, troligen inte Sjoerd -11",
+      "description": "Andra hälften bortanför Ficktjuven saknar säkringsmöjligheter!",
+      "source": {
+        "id": "legacy:granebergsklippan",
+        "path": "mediawiki/Granebergsklippan.txt"
+      }
+    },
+    {
+      "id": "granebergsklippan-led-5",
+      "kind": "route",
+      "number": "4,4b",
+      "name": "Vandringsleden",
+      "grade": "2",
+      "length": "15",
+      "type": "trad",
+      "firstAscent": "Okänt, troligen inte Sjoerd -11",
+      "description": "Stora sprickan från vänster till höger, och varianten tillbaka till vänster mot trädet.",
+      "source": {
+        "id": "legacy:granebergsklippan",
+        "path": "mediawiki/Granebergsklippan.txt"
+      }
+    },
+    {
+      "id": "granebergsklippan-led-6",
+      "kind": "route",
+      "number": "5",
+      "name": "Enkelriktat",
+      "grade": "4",
+      "length": "12",
+      "type": "trad",
+      "firstAscent": "Okänt, troligen inte David -11",
+      "description": "Enkel klättring med cruxet på slutet.",
+      "source": {
+        "id": "legacy:granebergsklippan",
+        "path": "mediawiki/Granebergsklippan.txt"
+      }
+    },
+    {
+      "id": "granebergsklippan-led-7",
+      "kind": "route",
+      "number": "6",
+      "name": "Rakt på",
+      "grade": "3",
+      "length": "9",
+      "type": "trad",
+      "firstAscent": "Okänt, troligen inte Sjoerd -11",
+      "description": "Nästan rakt på över flak.",
+      "source": {
+        "id": "legacy:granebergsklippan",
+        "path": "mediawiki/Granebergsklippan.txt"
+      }
+    },
+    {
+      "id": "granebergsklippan-led-8",
+      "kind": "route",
+      "number": "7",
+      "name": "Den Djärve",
+      "grade": "5",
+      "length": "8",
+      "type": "trad",
+      "firstAscent": "Okänt, troligen inte David -11",
+      "description": "Saknar säkringsmöjligheter ovanför 'Vandringsleden'.",
+      "source": {
+        "id": "legacy:granebergsklippan",
+        "path": "mediawiki/Granebergsklippan.txt"
+      }
+    },
+    {
+      "id": "granebergsklippan-led-9",
+      "kind": "route",
+      "number": "7b",
+      "name": "Den Kloke",
+      "grade": "5-",
+      "length": "8",
+      "type": "trad",
+      "firstAscent": "Okänt, troligen inte David -11",
+      "description": "Den kloka varianten med säkringsmöjligheter.",
+      "source": {
+        "id": "legacy:granebergsklippan",
+        "path": "mediawiki/Granebergsklippan.txt"
+      }
+    },
+    {
+      "id": "granebergsklippan-led-10",
+      "kind": "route",
+      "number": "8",
+      "name": "...",
+      "grade": "3",
+      "length": "10",
+      "type": "trad",
+      "firstAscent": "Okänt, troligen inte Sjoerd -11",
+      "description": "Mycket enkel klättring, svårt att säkra.",
+      "source": {
+        "id": "legacy:granebergsklippan",
+        "path": "mediawiki/Granebergsklippan.txt"
+      }
+    },
+    {
+      "id": "granebergsklippan-led-11",
+      "kind": "route",
+      "number": "9",
+      "name": "Höga Granebergstraversen",
+      "grade": "4",
+      "length": "25",
+      "type": "trad",
+      "firstAscent": "Okänt, troligen inte David & Sjoerd -11",
+      "description": "Höga traversen från höger till vänster, starta från marken och toppa ur bortanför 'Ensam'. Enkel klättring, svårsäkrat krux.",
+      "source": {
+        "id": "legacy:granebergsklippan",
+        "path": "mediawiki/Granebergsklippan.txt"
+      }
+    },
+    {
+      "id": "granebergsklippan-led-12",
+      "kind": "route",
+      "number": "10",
+      "name": "Låga Granebergstraversen",
+      "grade": "4?",
+      "length": "15",
+      "type": "trad",
+      "firstAscent": "Okänt, troligen inte Spider-Man -11",
+      "description": "Låga boulder-traversen, höger till vänster eller vänster till höger.",
+      "source": {
+        "id": "legacy:granebergsklippan",
+        "path": "mediawiki/Granebergsklippan.txt"
+      }
+    }
+  ],
+  "images": [
+    {
+      "filename": "Granebergsklippan_-_Skiss.jpg",
+      "caption": "",
+      "missing": false
+    },
+    {
+      "filename": "Granebergsklippan1_350.jpg",
+      "caption": "",
+      "missing": false
+    },
+    {
+      "filename": "Granebergsklippan2_350.jpg",
+      "caption": "",
+      "missing": false
+    }
+  ],
+  "access": {
+    "legacyText": null,
+    "federationSlug": null
+  },
+  "qualityIssues": [],
+  "provenance": {
+    "primarySourceId": "legacy:granebergsklippan",
+    "sources": [
+      {
+        "id": "legacy:granebergsklippan",
+        "title": "Sverigeföraren 2014: Granebergsklippan",
+        "path": "mediawiki/Granebergsklippan.txt",
+        "license": "GNU Free Documentation License",
+        "snapshotDate": "2014-01-01"
+      }
+    ]
+  }
+}

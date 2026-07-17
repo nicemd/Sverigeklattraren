@@ -1,0 +1,341 @@
+{
+  "schemaVersion": 1,
+  "id": "hjallbo",
+  "slug": "hjallbo",
+  "name": "Hjällbo",
+  "description": "Kul klättring men korta leder. Kan vara värd att åka till om man bor i Göteborg och redan har klättrat allt annat, annars klättrar man det andra först.",
+  "coordinates": {
+    "latitude": 57.77256,
+    "longitude": 12.02982
+  },
+  "categories": [
+    "Göteborg"
+  ],
+  "sections": [
+    {
+      "id": "allmant",
+      "title": "Allmänt",
+      "body": "Kul klättring men korta leder. Kan vara värd att åka till om man bor i Göteborg och redan har klättrat allt annat, annars klättrar man det andra först."
+    },
+    {
+      "id": "vagbeskrivning",
+      "title": "Vägbeskrivning",
+      "body": "För att ta sig till klippan kollektivt, åk spårvagn till Hjällbo station. Promenera längs med Gråbovägen mot Gråbo. Du kommer passera Hjällbo Lillgata, 100 meter efter Hjällbo Lillgata svänger du vänster på cykelbanan och går rakt fram till klippan. Klippan ligger nära bostadsområdet men tillräckligt avskilt."
+    },
+    {
+      "id": "klattring",
+      "title": "Klättring",
+      "body": "Många korta traditionellt säkrade turer eller mixturer. De bladbultar som syns lite här går ofta att backa upp med andra säkringar. Växer ett, par, tre stadiga träd på toppen. De flesta lederna är ca 8 meter höga."
+    },
+    {
+      "id": "leder",
+      "title": "Leder",
+      "body": "Följande leder ser ganska smutsiga ut: Kategori:Göteborg"
+    }
+  ],
+  "routes": [
+    {
+      "id": "hjallbo-led-1",
+      "kind": "route",
+      "number": null,
+      "name": "Mister crack",
+      "grade": "7-",
+      "length": "5",
+      "type": "",
+      "firstAscent": "Nils Sjöström",
+      "description": "",
+      "source": {
+        "id": "legacy:hjallbo",
+        "path": "mediawiki/Hjällbo.txt"
+      }
+    },
+    {
+      "id": "hjallbo-led-2",
+      "kind": "route",
+      "number": null,
+      "name": "Tomaszewki",
+      "grade": "5+",
+      "length": "",
+      "type": "",
+      "firstAscent": "Piotr Bober",
+      "description": "Den högerlutande sprickan",
+      "source": {
+        "id": "legacy:hjallbo",
+        "path": "mediawiki/Hjällbo.txt"
+      }
+    },
+    {
+      "id": "hjallbo-led-3",
+      "kind": "route",
+      "number": null,
+      "name": "Brufen",
+      "grade": "4+",
+      "length": "",
+      "type": "",
+      "firstAscent": "Tomas Machek",
+      "description": "Startar precis höger om trädet",
+      "source": {
+        "id": "legacy:hjallbo",
+        "path": "mediawiki/Hjällbo.txt"
+      }
+    },
+    {
+      "id": "hjallbo-led-4",
+      "kind": "route",
+      "number": null,
+      "name": "?",
+      "grade": "?",
+      "length": "",
+      "type": "",
+      "firstAscent": "",
+      "description": "Höger om Brufen finns det en borrbult, projekt?",
+      "source": {
+        "id": "legacy:hjallbo",
+        "path": "mediawiki/Hjällbo.txt"
+      }
+    },
+    {
+      "id": "hjallbo-led-5",
+      "kind": "route",
+      "number": null,
+      "name": "Nevada lady",
+      "grade": "5+",
+      "length": "",
+      "type": "",
+      "firstAscent": "Nils Sjöström",
+      "description": "",
+      "source": {
+        "id": "legacy:hjallbo",
+        "path": "mediawiki/Hjällbo.txt"
+      }
+    },
+    {
+      "id": "hjallbo-led-6",
+      "kind": "route",
+      "number": null,
+      "name": "Satans dans",
+      "grade": "8-",
+      "length": "",
+      "type": "",
+      "firstAscent": "Nils Sjöström",
+      "description": "",
+      "source": {
+        "id": "legacy:hjallbo",
+        "path": "mediawiki/Hjällbo.txt"
+      }
+    },
+    {
+      "id": "hjallbo-led-7",
+      "kind": "route",
+      "number": null,
+      "name": "Nisses",
+      "grade": "7-",
+      "length": "",
+      "type": "",
+      "firstAscent": "Nils Sjöström",
+      "description": "",
+      "source": {
+        "id": "legacy:hjallbo",
+        "path": "mediawiki/Hjällbo.txt"
+      }
+    },
+    {
+      "id": "hjallbo-led-8",
+      "kind": "route",
+      "number": null,
+      "name": "Hasselnöt",
+      "grade": "4",
+      "length": "",
+      "type": "",
+      "firstAscent": "Nils Sjöström",
+      "description": "",
+      "source": {
+        "id": "legacy:hjallbo",
+        "path": "mediawiki/Hjällbo.txt"
+      }
+    },
+    {
+      "id": "hjallbo-led-9",
+      "kind": "route",
+      "number": null,
+      "name": "Kindergarten",
+      "grade": "3",
+      "length": "",
+      "type": "",
+      "firstAscent": "Tomas Machek",
+      "description": "",
+      "source": {
+        "id": "legacy:hjallbo",
+        "path": "mediawiki/Hjällbo.txt"
+      }
+    },
+    {
+      "id": "hjallbo-led-10",
+      "kind": "route",
+      "number": null,
+      "name": "Short cut",
+      "grade": "5+",
+      "length": "",
+      "type": "",
+      "firstAscent": "Topprep?",
+      "description": "",
+      "source": {
+        "id": "legacy:hjallbo",
+        "path": "mediawiki/Hjällbo.txt"
+      }
+    },
+    {
+      "id": "hjallbo-led-11",
+      "kind": "route",
+      "number": null,
+      "name": "Solo",
+      "grade": "5",
+      "length": "",
+      "type": "",
+      "firstAscent": "Nils Sjöström",
+      "description": "",
+      "source": {
+        "id": "legacy:hjallbo",
+        "path": "mediawiki/Hjällbo.txt"
+      }
+    },
+    {
+      "id": "hjallbo-led-12",
+      "kind": "route",
+      "number": null,
+      "name": "Dirty Business",
+      "grade": "5",
+      "length": "",
+      "type": "",
+      "firstAscent": "Tomas Machek",
+      "description": "",
+      "source": {
+        "id": "legacy:hjallbo",
+        "path": "mediawiki/Hjällbo.txt"
+      }
+    },
+    {
+      "id": "hjallbo-led-13",
+      "kind": "route",
+      "number": null,
+      "name": "Sökandet",
+      "grade": "7-",
+      "length": "",
+      "type": "",
+      "firstAscent": "Nils Sjöström",
+      "description": "",
+      "source": {
+        "id": "legacy:hjallbo",
+        "path": "mediawiki/Hjällbo.txt"
+      }
+    },
+    {
+      "id": "hjallbo-led-14",
+      "kind": "route",
+      "number": null,
+      "name": "Never Dry",
+      "grade": "5-",
+      "length": "",
+      "type": "",
+      "firstAscent": "Tomas Machek",
+      "description": "går in i diedret under taket",
+      "source": {
+        "id": "legacy:hjallbo",
+        "path": "mediawiki/Hjällbo.txt"
+      }
+    },
+    {
+      "id": "hjallbo-led-15",
+      "kind": "route",
+      "number": null,
+      "name": "Mosquito",
+      "grade": "5",
+      "length": "",
+      "type": "",
+      "firstAscent": "Tomas Machek",
+      "description": "Leden går upp emellan taken",
+      "source": {
+        "id": "legacy:hjallbo",
+        "path": "mediawiki/Hjällbo.txt"
+      }
+    },
+    {
+      "id": "hjallbo-led-16",
+      "kind": "route",
+      "number": null,
+      "name": "Fine moves",
+      "grade": "5+",
+      "length": "",
+      "type": "",
+      "firstAscent": "Tomas Machek",
+      "description": "",
+      "source": {
+        "id": "legacy:hjallbo",
+        "path": "mediawiki/Hjällbo.txt"
+      }
+    },
+    {
+      "id": "hjallbo-led-17",
+      "kind": "route",
+      "number": null,
+      "name": "Still going strong",
+      "grade": "6",
+      "length": "",
+      "type": "",
+      "firstAscent": "Anton Malak",
+      "description": "Leden går igenom den kilformade biten i nästa tak",
+      "source": {
+        "id": "legacy:hjallbo",
+        "path": "mediawiki/Hjällbo.txt"
+      }
+    },
+    {
+      "id": "hjallbo-led-18",
+      "kind": "route",
+      "number": null,
+      "name": "Never stop",
+      "grade": "5+",
+      "length": "",
+      "type": "",
+      "firstAscent": "Nils Sjöström",
+      "description": "",
+      "source": {
+        "id": "legacy:hjallbo",
+        "path": "mediawiki/Hjällbo.txt"
+      }
+    },
+    {
+      "id": "hjallbo-led-19",
+      "kind": "route",
+      "number": null,
+      "name": "Voltaren",
+      "grade": "6-",
+      "length": "",
+      "type": "",
+      "firstAscent": "Nils Sjöström",
+      "description": "",
+      "source": {
+        "id": "legacy:hjallbo",
+        "path": "mediawiki/Hjällbo.txt"
+      }
+    }
+  ],
+  "images": [],
+  "access": {
+    "legacyText": null,
+    "federationSlug": null
+  },
+  "qualityIssues": [],
+  "provenance": {
+    "primarySourceId": "legacy:hjallbo",
+    "sources": [
+      {
+        "id": "legacy:hjallbo",
+        "title": "Sverigeföraren 2014: Hjällbo",
+        "path": "mediawiki/Hjällbo.txt",
+        "license": "GNU Free Documentation License",
+        "snapshotDate": "2014-01-01"
+      }
+    ]
+  }
+}

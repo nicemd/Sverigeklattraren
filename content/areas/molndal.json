@@ -1,0 +1,152 @@
+{
+  "schemaVersion": 1,
+  "id": "molndal",
+  "slug": "molndal",
+  "name": "Mölndal",
+  "description": "I centrala Mölndal finns det många småklippor som här samlas på samma sida.",
+  "coordinates": {
+    "latitude": 57.66439,
+    "longitude": 12.00622
+  },
+  "categories": [
+    "Saknar koordinater",
+    "Saknar skiss",
+    "Saknar skrivarformatering",
+    "Saknar vägbeskrivning",
+    "sva",
+    "trad"
+  ],
+  "sections": [
+    {
+      "id": "allmant",
+      "title": "Allmänt",
+      "body": "I centrala Mölndal finns det många småklippor som här samlas på samma sida."
+    },
+    {
+      "id": "molndalsparaden",
+      "title": "Mölndalsparaden",
+      "body": "Denna outvecklade klippa ligger på södra kanten av Safjället, vid Bifrostgatan. Trots att den är ganska hög är det svårt att se den från vägen på grund av träd. 246px 400px Vägbeskrivning: Klippan ligger vid Bifrostgatan, mellan Toltorpsgatan och Lackarebäcksmotet. Klippan syns nästan inte från vägen, men när du är vid en gräsplätt som ser ut som en igenvuxen trädgård är du framme. Här kan du parkera cykeln och gå in bakom buskarna så ser du strax klippan. Med bil: E6 från Göteborg, ta av vid Lackarebäcksmotet. Parkera vid någon av korsningarna eller vid en annan gata då man inte kan stå längs Bifrostgatan. Kollektivtrafik: Flera spårvagnar och bussar går till hållplatsen Lackarebäck som är närmast. Busshållplatsen Bifrost är också nära."
+    },
+    {
+      "id": "lilla-toltorpsdalen",
+      "title": "Lilla Toltorpsdalen",
+      "body": "Vägbeskrivning: Parkera på Axgatan, följ stig mot Västerberget, om du möter ett nätstaket med en stängd grind har du kommit rätt, ta dig runt staketet från höger (högt upp åt höger slutar staketet), gå på stigen och gå upp höger när du börjar se granit, promenera längs med tills du hittar lederna, ca 300-400 meter. karta Kategori:trad Kategori:sva kategori:Saknar skiss kategori:Saknar vägbeskrivning kategori:Saknar koordinater kategori:Saknar skrivarformatering Category:Göteborg"
+    }
+  ],
+  "routes": [
+    {
+      "id": "molndal-led-1",
+      "kind": "route",
+      "number": null,
+      "name": "Mölndalsparaden",
+      "grade": "5-",
+      "length": "20-30",
+      "type": "trad",
+      "firstAscent": "Viktor Söderqvist, Tove Hansson 2013",
+      "description": "Startar i mitten av väggen bakom en jättestor rhododendronbuske och går upp till toppen.",
+      "source": {
+        "id": "legacy:molndal",
+        "path": "mediawiki/Mölndal.txt"
+      }
+    },
+    {
+      "id": "molndal-led-2",
+      "kind": "route",
+      "number": null,
+      "name": "Projekt",
+      "grade": "?",
+      "length": "",
+      "type": "projekt",
+      "firstAscent": "",
+      "description": "",
+      "source": {
+        "id": "legacy:molndal",
+        "path": "mediawiki/Mölndal.txt"
+      }
+    },
+    {
+      "id": "molndal-led-3",
+      "kind": "route",
+      "number": null,
+      "name": "Mot Malmö",
+      "grade": "4+",
+      "length": "8",
+      "type": "",
+      "firstAscent": "Joel Holmgren & Jonas Lyckegård",
+      "description": "Fingerspricka längst till vänster.",
+      "source": {
+        "id": "legacy:molndal",
+        "path": "mediawiki/Mölndal.txt"
+      }
+    },
+    {
+      "id": "molndal-led-4",
+      "kind": "route",
+      "number": null,
+      "name": "Ormtagen",
+      "grade": "4+",
+      "length": "8",
+      "type": "",
+      "firstAscent": "Joel Holmgren & Jonas Lyckegård",
+      "description": "Längs med areten.",
+      "source": {
+        "id": "legacy:molndal",
+        "path": "mediawiki/Mölndal.txt"
+      }
+    },
+    {
+      "id": "molndal-led-5",
+      "kind": "route",
+      "number": null,
+      "name": "Ormbiten",
+      "grade": "5",
+      "length": "",
+      "type": "",
+      "firstAscent": "Jonas Lyckegård & Joel Holmgren",
+      "description": "Rakt upp över svaet till nästa leds utsteg. Markfallspotential.",
+      "source": {
+        "id": "legacy:molndal",
+        "path": "mediawiki/Mölndal.txt"
+      }
+    },
+    {
+      "id": "molndal-led-6",
+      "kind": "route",
+      "number": null,
+      "name": "Ormvråk",
+      "grade": "5-",
+      "length": "",
+      "type": "",
+      "firstAscent": "Jonas Lyckegård",
+      "description": "Fötterna längs med den diagonala hyllan/sprickan. Balansig på stora grepp.",
+      "source": {
+        "id": "legacy:molndal",
+        "path": "mediawiki/Mölndal.txt"
+      }
+    }
+  ],
+  "images": [
+    {
+      "filename": "Oversikt_lilla_toltorpsdalen.jpg",
+      "caption": "",
+      "missing": false
+    }
+  ],
+  "access": {
+    "legacyText": null,
+    "federationSlug": null
+  },
+  "qualityIssues": [],
+  "provenance": {
+    "primarySourceId": "legacy:molndal",
+    "sources": [
+      {
+        "id": "legacy:molndal",
+        "title": "Sverigeföraren 2014: Mölndal",
+        "path": "mediawiki/Mölndal.txt",
+        "license": "GNU Free Documentation License",
+        "snapshotDate": "2014-01-01"
+      }
+    ]
+  }
+}

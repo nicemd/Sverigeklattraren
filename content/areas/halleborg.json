@@ -1,0 +1,586 @@
+{
+  "schemaVersion": 1,
+  "id": "halleborg",
+  "slug": "halleborg",
+  "name": "Hälleborg",
+  "description": "=Allmänt= Hälleborg är ett av de senaste tillskotten till Västerås. Parkera bilen vid Rörverksgatan och leta upp blocken i skogen intill. Området är indelat i tre sektorer: höjden, träsket och skogen. =Vägbeskrivning= (markeringen på kartan visar parkeringen, blocken ligger i skogen) Från Oslo på E18, sväng av vid Bäckbymotet och åk sedan på Bäckbyvägen, parallellt med E18, tillbaka västerut. Sväng vänster in på Spikverksgatan och vänster igen in på Rörverksgatan. Parkera vid villaparkeringarna och leta upp stenarna som finns i skogen ovanför parkeringen. =Beskrivning= Hälleborg är ett av de senaste tillskotten till Västerås. Här finns flera enkla såväl som svårare problem. Parkera bilen vid Rörverksgatan, den 2:a parkeringen, och leta upp blocken i skogen intill. De är till viss del utspridda i denna skog. Området är indelat i tre sektorer: höjden, träsket och skogen. Några favoritproblem är King of Sparta 6b, Eragorn 6c, Aratron 6b, Hoppet i Hälleborg 6c+ och Kapten Nemo 6a. =Sektorer=",
+  "coordinates": {
+    "latitude": 59.605677,
+    "longitude": 16.46533
+  },
+  "categories": [
+    "Behöver kvalitetssäkras",
+    "Bimbo",
+    "Bouldering",
+    "Saknar skiss",
+    "Saknar skrivarformattering",
+    "Västerås"
+  ],
+  "sections": [
+    {
+      "id": "skogen",
+      "title": "Skogen",
+      "body": "Kategori:Västerås Kategori:Bouldering Kategori:Bimbo Kategori:Behöver kvalitetssäkras Kategori:Saknar skrivarformattering Kategori:Saknar skiss"
+    }
+  ],
+  "routes": [
+    {
+      "id": "halleborg-problem-1",
+      "kind": "problem",
+      "number": "1",
+      "name": "Sparta Warrior",
+      "grade": "6B+",
+      "length": "",
+      "type": "Överhäng",
+      "firstAscent": "Stefan Persson",
+      "description": "Den stora stenen uppe på höjden, stenen med ett inbjudande överhäng. Problemet längs till vänster på stora överhänget. Sittstart på areten. Stenens baksida ingår ej vid mantlingen.",
+      "source": {
+        "id": "legacy:halleborg",
+        "path": "mediawiki/Hälleborg.txt"
+      }
+    },
+    {
+      "id": "halleborg-problem-2",
+      "kind": "problem",
+      "number": "1",
+      "name": "Achilles",
+      "grade": "7B",
+      "length": "",
+      "type": "Krimp,Mantling,Reach",
+      "firstAscent": "Tommy Torsne",
+      "description": "Startar som Sparta Warrior sedan höger via krimp och mantling rakt upp.",
+      "source": {
+        "id": "legacy:halleborg",
+        "path": "mediawiki/Hälleborg.txt"
+      }
+    },
+    {
+      "id": "halleborg-problem-3",
+      "kind": "problem",
+      "number": "2",
+      "name": "King of Sparta",
+      "grade": "6B+",
+      "length": "",
+      "type": "Reach",
+      "firstAscent": "Richard Richardsen",
+      "description": "Sittstart till höger om stora överhänget. Start på slope och ramp långt drag snett upp höger till crimp.",
+      "source": {
+        "id": "legacy:halleborg",
+        "path": "mediawiki/Hälleborg.txt"
+      }
+    },
+    {
+      "id": "halleborg-problem-4",
+      "kind": "problem",
+      "number": "3",
+      "name": "Queen of Sparta",
+      "grade": "5C",
+      "length": "",
+      "type": "",
+      "firstAscent": "Richard Richardsen",
+      "description": "Sittstart till höger om King of Sparta. Dra till stor jug.",
+      "source": {
+        "id": "legacy:halleborg",
+        "path": "mediawiki/Hälleborg.txt"
+      }
+    },
+    {
+      "id": "halleborg-problem-5",
+      "kind": "problem",
+      "number": "4",
+      "name": "Cobra Kai",
+      "grade": "6A+",
+      "length": "",
+      "type": "",
+      "firstAscent": "Stefan Persson",
+      "description": "Kid karate, den låga stenen till vänster om Spartablocket. Start på hylla gå höger på bra grepp mantla upp. Akta huvudet!",
+      "source": {
+        "id": "legacy:halleborg",
+        "path": "mediawiki/Hälleborg.txt"
+      }
+    },
+    {
+      "id": "halleborg-problem-6",
+      "kind": "problem",
+      "number": "5",
+      "name": "Mr miyagi",
+      "grade": "5A",
+      "length": "",
+      "type": "",
+      "firstAscent": "Stefan Persson",
+      "description": "På Kid karate blocket till vänster runt hörnet om Cobra Kai. Sittstart på pockets sedan rakt upp.",
+      "source": {
+        "id": "legacy:halleborg",
+        "path": "mediawiki/Hälleborg.txt"
+      }
+    },
+    {
+      "id": "halleborg-problem-7",
+      "kind": "problem",
+      "number": "6",
+      "name": "Herkules traverse",
+      "grade": "6A",
+      "length": "",
+      "type": "",
+      "firstAscent": "Richard Richardsen",
+      "description": "Blocket 50 m söder om Sparta blocket, ner mot cykelbanan, vid enarna. Starta till vänster hängade, traversera sedan runt blocket för att avsluta med mantling vid tydligt grepp.",
+      "source": {
+        "id": "legacy:halleborg",
+        "path": "mediawiki/Hälleborg.txt"
+      }
+    },
+    {
+      "id": "halleborg-problem-8",
+      "kind": "problem",
+      "number": "7",
+      "name": "Superman",
+      "grade": "6B+",
+      "length": "",
+      "type": "",
+      "firstAscent": "Stefan Persson",
+      "description": "Blocket rakt ovanför bortre bilparkeringen. Bakom granen! 50 m sydväst om Hercules traversen. Hängande start, campus drag och vidare på lister för händerna.",
+      "source": {
+        "id": "legacy:halleborg",
+        "path": "mediawiki/Hälleborg.txt"
+      }
+    },
+    {
+      "id": "halleborg-problem-9",
+      "kind": "problem",
+      "number": "7",
+      "name": "Superman, assis",
+      "grade": "6C",
+      "length": "",
+      "type": "Krimp,Överhäng,Reach",
+      "firstAscent": "Tommy Torsne",
+      "description": "Sittstart till Superman. Etablera på stenarna under taket, vidare på krimp eller pinch in i Superman.",
+      "source": {
+        "id": "legacy:halleborg",
+        "path": "mediawiki/Hälleborg.txt"
+      }
+    },
+    {
+      "id": "halleborg-problem-10",
+      "kind": "problem",
+      "number": "8",
+      "name": "Björntjänst",
+      "grade": "6C",
+      "length": "",
+      "type": "",
+      "firstAscent": "Stefan Persson",
+      "description": "Grizzlyblocket 10 m söder om Supermanblocket, mot parkeringen. Starta hängande, i bred kram, under blocket på det mittersta greppet.",
+      "source": {
+        "id": "legacy:halleborg",
+        "path": "mediawiki/Hälleborg.txt"
+      }
+    },
+    {
+      "id": "halleborg-problem-11",
+      "kind": "problem",
+      "number": "16",
+      "name": "Aspamig",
+      "grade": "3C",
+      "length": "",
+      "type": "",
+      "firstAscent": "Tommy T, Patrik H",
+      "description": "Supermanstenen. Till höger om aspen, på stenens östra gavel. Sittstarten lockar...",
+      "source": {
+        "id": "legacy:halleborg",
+        "path": "mediawiki/Hälleborg.txt"
+      }
+    },
+    {
+      "id": "halleborg-problem-12",
+      "kind": "problem",
+      "number": "16",
+      "name": "Aspamig, assis",
+      "grade": "6B",
+      "length": "",
+      "type": "Slopers,Jug",
+      "firstAscent": "Robert Kostelac",
+      "description": "Supermanstenen. Till höger om aspen, på stenens östra gavel. Sittstart med båda händerna på det stora greppet och sedan rakt upp. Möjlig start ännu lägre ner på lilla stenen?",
+      "source": {
+        "id": "legacy:halleborg",
+        "path": "mediawiki/Hälleborg.txt"
+      }
+    },
+    {
+      "id": "halleborg-problem-13",
+      "kind": "problem",
+      "number": "17",
+      "name": "Prästkragen",
+      "grade": "5A",
+      "length": "",
+      "type": "Mantling,Jug",
+      "firstAscent": "Maria Hjort",
+      "description": "Spartablocket. Sittande start till höger om Queen of Sparta.",
+      "source": {
+        "id": "legacy:halleborg",
+        "path": "mediawiki/Hälleborg.txt"
+      }
+    },
+    {
+      "id": "halleborg-problem-14",
+      "kind": "problem",
+      "number": "18",
+      "name": "Vårtgården",
+      "grade": "6A",
+      "length": "",
+      "type": "Slopers",
+      "firstAscent": "Malin Berglind",
+      "description": "Spartablocket, startar med sittstart strax till höger om Prästkragen. Klättra sprickan upp till vänster.",
+      "source": {
+        "id": "legacy:halleborg",
+        "path": "mediawiki/Hälleborg.txt"
+      }
+    },
+    {
+      "id": "halleborg-problem-15",
+      "kind": "problem",
+      "number": "21",
+      "name": "Fossmos fruar",
+      "grade": "6B+",
+      "length": "",
+      "type": "Krimp,Pinch,Mantling",
+      "firstAscent": "Tommy Torsne",
+      "description": "Spartablocket, på stenens södra sida, i det korta branta taket. Etablera i takets vänstra del, på pinch och krimp, sedan rakt upp via tydligt grepp på kanten.",
+      "source": {
+        "id": "legacy:halleborg",
+        "path": "mediawiki/Hälleborg.txt"
+      }
+    },
+    {
+      "id": "halleborg-problem-16",
+      "kind": "problem",
+      "number": "29",
+      "name": "Bonsai",
+      "grade": "4C",
+      "length": "",
+      "type": "Mantling",
+      "firstAscent": "Okänd",
+      "description": "Mantling, svårt att nå till stargreppen för de kortväxta. Starta mellan Cobra Kai och Mr Miyagi.",
+      "source": {
+        "id": "legacy:halleborg",
+        "path": "mediawiki/Hälleborg.txt"
+      }
+    },
+    {
+      "id": "halleborg-problem-17",
+      "kind": "problem",
+      "number": "29",
+      "name": "Bonsai, assis",
+      "grade": "7A+",
+      "length": "",
+      "type": "Mantling,Reach",
+      "firstAscent": "Persson, Torsne",
+      "description": "Start med vänster hand på litet sidtag och höger i ett tunt undercling. Drag rakt upp utan att använda areten eller juggarna på Cobra Kai.",
+      "source": {
+        "id": "legacy:halleborg",
+        "path": "mediawiki/Hälleborg.txt"
+      }
+    },
+    {
+      "id": "halleborg-problem-18",
+      "kind": "problem",
+      "number": "9",
+      "name": "Slopigt!",
+      "grade": "6A+",
+      "length": "",
+      "type": "Slopers",
+      "firstAscent": "Richard Richardsen",
+      "description": "Stora blocket vid träsket. På kortsidan. Ståstart med händerna på slopehyllan vidare rakt upp. Övre diedret ingår ej.",
+      "source": {
+        "id": "legacy:halleborg",
+        "path": "mediawiki/Hälleborg.txt"
+      }
+    },
+    {
+      "id": "halleborg-problem-19",
+      "kind": "problem",
+      "number": "9",
+      "name": "Slopigt!, assis",
+      "grade": "6B+",
+      "length": "",
+      "type": "Krimp,Slopers",
+      "firstAscent": "Tommy Torsne",
+      "description": "Sittstart till Slopigt! Höger hand på tydlig hylla och vänster på krimp. Klättra upp till slopern och sedan rakt upp utan den tydliga \"diedern\" till vänster eller areten till höger.",
+      "source": {
+        "id": "legacy:halleborg",
+        "path": "mediawiki/Hälleborg.txt"
+      }
+    },
+    {
+      "id": "halleborg-problem-20",
+      "kind": "problem",
+      "number": "10",
+      "name": "Ettan",
+      "grade": "6A+",
+      "length": "",
+      "type": "Aréte",
+      "firstAscent": "",
+      "description": "Sittstart till höger om Slopigt, vid \"hörnet\"",
+      "source": {
+        "id": "legacy:halleborg",
+        "path": "mediawiki/Hälleborg.txt"
+      }
+    },
+    {
+      "id": "halleborg-problem-21",
+      "kind": "problem",
+      "number": "11",
+      "name": "Eragon",
+      "grade": "6C",
+      "length": "",
+      "type": "Slopers",
+      "firstAscent": "Richard Richardsen",
+      "description": "Mitt på träskblocket. Start under överhänget. Upp på hyllan traversera sedan åt vänster följ därefter sprickan mot toppen!",
+      "source": {
+        "id": "legacy:halleborg",
+        "path": "mediawiki/Hälleborg.txt"
+      }
+    },
+    {
+      "id": "halleborg-problem-22",
+      "kind": "problem",
+      "number": "11",
+      "name": "Eragon, direkt",
+      "grade": "6C+",
+      "length": "",
+      "type": "Slopers",
+      "firstAscent": "Tommy Torsne",
+      "description": "Starta som Eragon. Först upp till stora hyllan sedan ett långt drag snett upp åt vänster till en liten slopehylla. Därefter sprickan och vidare rakt upp.",
+      "source": {
+        "id": "legacy:halleborg",
+        "path": "mediawiki/Hälleborg.txt"
+      }
+    },
+    {
+      "id": "halleborg-problem-23",
+      "kind": "problem",
+      "number": "12",
+      "name": "Aratron",
+      "grade": "6B",
+      "length": "",
+      "type": "",
+      "firstAscent": "Stefan Persson",
+      "description": "Samma start som Eragon, traversera sedan åt höger, avsluta sedan i samma spricka som Eragon mot toppen.",
+      "source": {
+        "id": "legacy:halleborg",
+        "path": "mediawiki/Hälleborg.txt"
+      }
+    },
+    {
+      "id": "halleborg-problem-24",
+      "kind": "problem",
+      "number": "14",
+      "name": "Hoppet i Hälleborg",
+      "grade": "6C+",
+      "length": "",
+      "type": "Krimp,Dyno",
+      "firstAscent": "Tommy Torsne",
+      "description": "Träsket, vid den lilla stenen. Sittstart vid gaveln som vätter mot träsket. Rakt upp via krimp och dyna utan aréterna.",
+      "source": {
+        "id": "legacy:halleborg",
+        "path": "mediawiki/Hälleborg.txt"
+      }
+    },
+    {
+      "id": "halleborg-problem-25",
+      "kind": "problem",
+      "number": "15",
+      "name": "Kapten Nemo",
+      "grade": "6A",
+      "length": "",
+      "type": "Pinch",
+      "firstAscent": "Robert Kostelac",
+      "description": "Träsket, vid den lilla stenen. Sittstart vid gaveln som vätter mot träsket (ca 1m till höger om Hoppet i Hälleborg). Starta på crimpar och upp via höger pinch.",
+      "source": {
+        "id": "legacy:halleborg",
+        "path": "mediawiki/Hälleborg.txt"
+      }
+    },
+    {
+      "id": "halleborg-problem-26",
+      "kind": "problem",
+      "number": "20",
+      "name": "Kanelgiffeln",
+      "grade": "5B",
+      "length": "",
+      "type": "Slopers",
+      "firstAscent": "Robert Kostelac",
+      "description": "Träsket, vid den lilla stenen. Startar till vänster om trädet (ingår ej) på sidan som vätter bort från träsket. En tydlig bulle markerar startgreppet.",
+      "source": {
+        "id": "legacy:halleborg",
+        "path": "mediawiki/Hälleborg.txt"
+      }
+    },
+    {
+      "id": "halleborg-problem-27",
+      "kind": "problem",
+      "number": "25",
+      "name": "Tomtar i träsket",
+      "grade": "6C",
+      "length": "",
+      "type": "Slopers,Travers H->V",
+      "firstAscent": "Robert Kostelac",
+      "description": "Träskblocket. Starta på den tydliga sluttande hyllan till höger. Traversera vänster på slopiga grepp och avsluta i Aratron. Intressant boulder.",
+      "source": {
+        "id": "legacy:halleborg",
+        "path": "mediawiki/Hälleborg.txt"
+      }
+    },
+    {
+      "id": "halleborg-problem-28",
+      "kind": "problem",
+      "number": "26",
+      "name": "Gaveln",
+      "grade": "5C",
+      "length": "",
+      "type": "Heel hook",
+      "firstAscent": "Richard Richardsen",
+      "description": "Gavelnblocket. 10m söder om träskblocket ligger gaveln 5C. Start med båda händerna på det stora greppet.",
+      "source": {
+        "id": "legacy:halleborg",
+        "path": "mediawiki/Hälleborg.txt"
+      }
+    },
+    {
+      "id": "halleborg-problem-29",
+      "kind": "problem",
+      "number": "13",
+      "name": "Bullen",
+      "grade": "5C",
+      "length": "",
+      "type": "Mantling",
+      "firstAscent": "Stefan Persson",
+      "description": "Ståstart. Mantla sedan upp.",
+      "source": {
+        "id": "legacy:halleborg",
+        "path": "mediawiki/Hälleborg.txt"
+      }
+    },
+    {
+      "id": "halleborg-problem-30",
+      "kind": "problem",
+      "number": "19",
+      "name": "Dyna Moskva",
+      "grade": "6B",
+      "length": "",
+      "type": "Dyno",
+      "firstAscent": "Richard Richardsen",
+      "description": "Sydväst om träskblocket ligger 2 block sida vid sida. Ett av dessa är Moskva blocket. Sittstart på väl definerad crimplist, dra sedan mot toppen, mantla upp. Den lilla crimpen mitt på ingår ej.",
+      "source": {
+        "id": "legacy:halleborg",
+        "path": "mediawiki/Hälleborg.txt"
+      }
+    },
+    {
+      "id": "halleborg-problem-31",
+      "kind": "problem",
+      "number": "22",
+      "name": "Kristallbågen",
+      "grade": "6A+",
+      "length": "",
+      "type": "Travers H->V,Heel hook",
+      "firstAscent": "Tommy T, Robert K, & Patrik H",
+      "description": "Låg bullig sten ca 25 m söder om Bullenproblemet. Etablera vid stenens låga högra del och sedan hangelklättring till vänster. Mantla upp där stenen är som högst.",
+      "source": {
+        "id": "legacy:halleborg",
+        "path": "mediawiki/Hälleborg.txt"
+      }
+    },
+    {
+      "id": "halleborg-problem-32",
+      "kind": "problem",
+      "number": "23",
+      "name": "Kristallbången",
+      "grade": "5B",
+      "length": "",
+      "type": "Slopers,Mantling,Travers V->H",
+      "firstAscent": "Robert Kostelac",
+      "description": "Kristallbågenblocket. Sittstart till vänster, traversera åt höger och toppa ur där stenen är som högst.",
+      "source": {
+        "id": "legacy:halleborg",
+        "path": "mediawiki/Hälleborg.txt"
+      }
+    },
+    {
+      "id": "halleborg-problem-33",
+      "kind": "problem",
+      "number": "24",
+      "name": "Smack My Bitch Up",
+      "grade": "6B+",
+      "length": "",
+      "type": "Pinch",
+      "firstAscent": "Patrik Hagman",
+      "description": "Stenen mellan Kristallbågen och Träskblocken. Areten höger om Bullenmantlingen. Sittstart vid den tydliga areten på krimplister.",
+      "source": {
+        "id": "legacy:halleborg",
+        "path": "mediawiki/Hälleborg.txt"
+      }
+    },
+    {
+      "id": "halleborg-problem-34",
+      "kind": "problem",
+      "number": "27",
+      "name": "Slope orgie",
+      "grade": "6B",
+      "length": "",
+      "type": "Slopers,Travers H->V",
+      "firstAscent": "Stefan Persson",
+      "description": "På döskalleblocket bakom kristallblocket. Sittstart på slopers gå vidare vänster på slopers och upp.",
+      "source": {
+        "id": "legacy:halleborg",
+        "path": "mediawiki/Hälleborg.txt"
+      }
+    },
+    {
+      "id": "halleborg-problem-35",
+      "kind": "problem",
+      "number": "28",
+      "name": "Pumpa och stöt",
+      "grade": "6B",
+      "length": "",
+      "type": "Slopers",
+      "firstAscent": "Stefan Persson",
+      "description": "På döskalleblocket. Sittstart med höger hand på slope och vänster runt kanten.",
+      "source": {
+        "id": "legacy:halleborg",
+        "path": "mediawiki/Hälleborg.txt"
+      }
+    },
+    {
+      "id": "halleborg-problem-36",
+      "kind": "problem",
+      "number": "30",
+      "name": "Dödskallemofvet",
+      "grade": "7A",
+      "length": "",
+      "type": "Slopers",
+      "firstAscent": "Robert Kostelac",
+      "description": "På döskalleblocket till vänster om Pumpa och stöt. Ståstart med vänster hand på undercling och höger på slope. Rakt upp på slopers.",
+      "source": {
+        "id": "legacy:halleborg",
+        "path": "mediawiki/Hälleborg.txt"
+      }
+    }
+  ],
+  "images": [],
+  "access": {
+    "legacyText": null,
+    "federationSlug": null
+  },
+  "qualityIssues": [],
+  "provenance": {
+    "primarySourceId": "legacy:halleborg",
+    "sources": [
+      {
+        "id": "legacy:halleborg",
+        "title": "Sverigeföraren 2014: Hälleborg",
+        "path": "mediawiki/Hälleborg.txt",
+        "license": "GNU Free Documentation License",
+        "snapshotDate": "2014-01-01"
+      }
+    ]
+  }
+}

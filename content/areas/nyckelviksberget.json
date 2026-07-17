@@ -1,0 +1,172 @@
+{
+  "schemaVersion": 1,
+  "id": "nyckelviksberget",
+  "slug": "nyckelviksberget",
+  "name": "Nyckelviksberget",
+  "description": "Brant svaberg i norra änden av viken som går in mot Nyckelvikens gård. Enklast är att komma åt klippan från vägen ut mot Kungshamn. Här finns några leder. Enklast är att fira ned till vattnet från en hylla med ett litet träd en bit under toppen.",
+  "coordinates": {
+    "latitude": 59.32516388888889,
+    "longitude": 18.19763888888889
+  },
+  "categories": [
+    "Mix",
+    "Nacka-Värmdö",
+    "Saknar skiss",
+    "Saknar vägbeskrivning",
+    "Stockholm",
+    "Sva",
+    "Trad"
+  ],
+  "sections": [
+    {
+      "id": "allmant",
+      "title": "Allmänt",
+      "body": "Brant svaberg i norra änden av viken som går in mot Nyckelvikens gård. Enklast är att komma åt klippan från vägen ut mot Kungshamn. Här finns några leder. Enklast är att fira ned till vattnet från en hylla med ett litet träd en bit under toppen."
+    },
+    {
+      "id": "leder",
+      "title": "Leder",
+      "body": "Kategori:Nacka-Värmdö Kategori:Stockholm Kategori:Sva Kategori:Saknar vägbeskrivning Kategori:Saknar skiss Kategori:Trad Kategori:Mix"
+    }
+  ],
+  "routes": [
+    {
+      "id": "nyckelviksberget-led-1",
+      "kind": "route",
+      "number": "1",
+      "name": "Fi",
+      "grade": "5-",
+      "length": "20",
+      "type": "trad",
+      "firstAscent": "Lars Svadängs, Kenneth Nollkrantz -80",
+      "description": "",
+      "source": {
+        "id": "legacy:nyckelviksberget",
+        "path": "mediawiki/Nyckelviksberget.txt"
+      }
+    },
+    {
+      "id": "nyckelviksberget-led-2",
+      "kind": "route",
+      "number": "2",
+      "name": "Badkvigor",
+      "grade": "6-",
+      "length": "30",
+      "type": "mix",
+      "firstAscent": "Rickard Hallerfeldt, Peter Brolin -90",
+      "description": "",
+      "source": {
+        "id": "legacy:nyckelviksberget",
+        "path": "mediawiki/Nyckelviksberget.txt"
+      }
+    },
+    {
+      "id": "nyckelviksberget-led-3",
+      "kind": "route",
+      "number": "3",
+      "name": "Att angöra en brygga",
+      "grade": "5",
+      "length": "30",
+      "type": "mix",
+      "firstAscent": "Buster Delin, Rickard Hallerfeldt -90",
+      "description": "Bultat insteg/standplats vid vattnet.",
+      "source": {
+        "id": "legacy:nyckelviksberget",
+        "path": "mediawiki/Nyckelviksberget.txt"
+      }
+    },
+    {
+      "id": "nyckelviksberget-led-4",
+      "kind": "route",
+      "number": "4",
+      "name": "Slängd överbord",
+      "grade": "6+",
+      "length": "20",
+      "type": "mix",
+      "firstAscent": "Buster Delin, Kay von Damm -90",
+      "description": "Samma stand som Att angöra en brygga. Samma avslut som Ra.",
+      "source": {
+        "id": "legacy:nyckelviksberget",
+        "path": "mediawiki/Nyckelviksberget.txt"
+      }
+    },
+    {
+      "id": "nyckelviksberget-led-5",
+      "kind": "route",
+      "number": "5",
+      "name": "Ra",
+      "grade": "5",
+      "length": "20",
+      "type": "trad",
+      "firstAscent": "Kenneth Nollkrantz, Lars Svadängs -80",
+      "description": "",
+      "source": {
+        "id": "legacy:nyckelviksberget",
+        "path": "mediawiki/Nyckelviksberget.txt"
+      }
+    },
+    {
+      "id": "nyckelviksberget-led-6",
+      "kind": "route",
+      "number": "6",
+      "name": "Dyning",
+      "grade": "4",
+      "length": "28",
+      "type": "trad",
+      "firstAscent": "Buster Delin, Peter Brolin -90",
+      "description": "Firningsankare",
+      "source": {
+        "id": "legacy:nyckelviksberget",
+        "path": "mediawiki/Nyckelviksberget.txt"
+      }
+    },
+    {
+      "id": "nyckelviksberget-led-7",
+      "kind": "route",
+      "number": "7",
+      "name": "Istället för Lidingö Runt",
+      "grade": "5",
+      "length": "18",
+      "type": "trad",
+      "firstAscent": "Peter Brolin, Buster Delin -90",
+      "description": "",
+      "source": {
+        "id": "legacy:nyckelviksberget",
+        "path": "mediawiki/Nyckelviksberget.txt"
+      }
+    },
+    {
+      "id": "nyckelviksberget-led-8",
+      "kind": "route",
+      "number": "8",
+      "name": "Baklås",
+      "grade": "6-",
+      "length": "16",
+      "type": "mix",
+      "firstAscent": "Buster Delin, Peter Brolin -90",
+      "description": "",
+      "source": {
+        "id": "legacy:nyckelviksberget",
+        "path": "mediawiki/Nyckelviksberget.txt"
+      }
+    }
+  ],
+  "images": [],
+  "access": {
+    "legacyText": null,
+    "federationSlug": null
+  },
+  "qualityIssues": [],
+  "provenance": {
+    "primarySourceId": "legacy:nyckelviksberget",
+    "sources": [
+      {
+        "id": "legacy:nyckelviksberget",
+        "title": "Sverigeföraren 2014: Nyckelviksberget",
+        "path": "mediawiki/Nyckelviksberget.txt",
+        "license": "GNU Free Documentation License",
+        "snapshotDate": "2014-01-01"
+      }
+    ]
+  }
+}

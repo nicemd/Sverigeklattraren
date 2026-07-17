@@ -1,0 +1,451 @@
+{
+  "schemaVersion": 1,
+  "id": "samnerod",
+  "slug": "samnerod",
+  "name": "Samneröd",
+  "description": "Från 44:an sväng av mot Bengtsfors (väg 172). Sväng in vid Shellstationen och parkera på grusplanen bakom.",
+  "coordinates": {
+    "latitude": 58.356991,
+    "longitude": 11.963215
+  },
+  "categories": [
+    "Bohuslän"
+  ],
+  "sections": [
+    {
+      "id": "vagbeskrivning",
+      "title": "Vägbeskrivning",
+      "body": "Från 44:an sväng av mot Bengtsfors (väg 172). Sväng in vid Shellstationen och parkera på grusplanen bakom."
+    },
+    {
+      "id": "glomda-vaggen",
+      "title": "Glömda väggen",
+      "body": "Kategori:Bohuslän"
+    }
+  ],
+  "routes": [
+    {
+      "id": "samnerod-led-1",
+      "kind": "route",
+      "number": null,
+      "name": "Skadeskjuten",
+      "grade": "5",
+      "length": "5",
+      "type": "",
+      "firstAscent": "Joakim Olofsson, Wendelin Zobel -91",
+      "description": "",
+      "source": {
+        "id": "legacy:samnerod",
+        "path": "mediawiki/Samneröd.txt"
+      }
+    },
+    {
+      "id": "samnerod-led-2",
+      "kind": "route",
+      "number": null,
+      "name": "Smith & Wesson",
+      "grade": "6-",
+      "length": "10",
+      "type": "",
+      "firstAscent": "Rickard Larsson, Joakim Olofsson, Wendelin Zobel -92",
+      "description": "",
+      "source": {
+        "id": "legacy:samnerod",
+        "path": "mediawiki/Samneröd.txt"
+      }
+    },
+    {
+      "id": "samnerod-led-3",
+      "kind": "route",
+      "number": null,
+      "name": "Elevation",
+      "grade": "6-",
+      "length": "7",
+      "type": "",
+      "firstAscent": "Björn Holmgren, Kurt Wiklander -90",
+      "description": "",
+      "source": {
+        "id": "legacy:samnerod",
+        "path": "mediawiki/Samneröd.txt"
+      }
+    },
+    {
+      "id": "samnerod-led-4",
+      "kind": "route",
+      "number": null,
+      "name": "Army of lovers",
+      "grade": "7-/7",
+      "length": "8",
+      "type": "",
+      "firstAscent": "Michael Jansson",
+      "description": "",
+      "source": {
+        "id": "legacy:samnerod",
+        "path": "mediawiki/Samneröd.txt"
+      }
+    },
+    {
+      "id": "samnerod-led-5",
+      "kind": "route",
+      "number": null,
+      "name": "Skjutvarning",
+      "grade": "6",
+      "length": "9",
+      "type": "",
+      "firstAscent": "Joakim Olofsson, Kurt Wiklander, Björn Holmgren -91",
+      "description": "",
+      "source": {
+        "id": "legacy:samnerod",
+        "path": "mediawiki/Samneröd.txt"
+      }
+    },
+    {
+      "id": "samnerod-led-6",
+      "kind": "route",
+      "number": null,
+      "name": "Rekyl",
+      "grade": "7-",
+      "length": "9",
+      "type": "",
+      "firstAscent": "Lars Jonsson, Ulf Johansson, John \"Spooky\" Williams -97",
+      "description": "",
+      "source": {
+        "id": "legacy:samnerod",
+        "path": "mediawiki/Samneröd.txt"
+      }
+    },
+    {
+      "id": "samnerod-led-7",
+      "kind": "route",
+      "number": null,
+      "name": "Ingemars K-pistbana",
+      "grade": "6+",
+      "length": "8",
+      "type": "",
+      "firstAscent": "Niklas Alm -97",
+      "description": "",
+      "source": {
+        "id": "legacy:samnerod",
+        "path": "mediawiki/Samneröd.txt"
+      }
+    },
+    {
+      "id": "samnerod-led-8",
+      "kind": "route",
+      "number": null,
+      "name": "Lösplugg",
+      "grade": "3+",
+      "length": "7",
+      "type": "",
+      "firstAscent": "Joakim Olofsson (solo) -92",
+      "description": "",
+      "source": {
+        "id": "legacy:samnerod",
+        "path": "mediawiki/Samneröd.txt"
+      }
+    },
+    {
+      "id": "samnerod-led-9",
+      "kind": "route",
+      "number": null,
+      "name": "Skjutet",
+      "grade": "6-",
+      "length": "10",
+      "type": "",
+      "firstAscent": "Fredrik Gustavsson, Michael Jansson -91",
+      "description": "",
+      "source": {
+        "id": "legacy:samnerod",
+        "path": "mediawiki/Samneröd.txt"
+      }
+    },
+    {
+      "id": "samnerod-led-10",
+      "kind": "route",
+      "number": null,
+      "name": "Skyttegraven",
+      "grade": "5",
+      "length": "10",
+      "type": "",
+      "firstAscent": "Kurt Wiklander, Rickard Larsson, Joakim Olofsson -91",
+      "description": "",
+      "source": {
+        "id": "legacy:samnerod",
+        "path": "mediawiki/Samneröd.txt"
+      }
+    },
+    {
+      "id": "samnerod-led-11",
+      "kind": "route",
+      "number": null,
+      "name": "Rickochetten",
+      "grade": "5",
+      "length": "10",
+      "type": "",
+      "firstAscent": "Kurt Wiklander, Björn Holmgren -90",
+      "description": "",
+      "source": {
+        "id": "legacy:samnerod",
+        "path": "mediawiki/Samneröd.txt"
+      }
+    },
+    {
+      "id": "samnerod-led-12",
+      "kind": "route",
+      "number": null,
+      "name": "Mauser",
+      "grade": "7",
+      "length": "10",
+      "type": "",
+      "firstAscent": "Joakim Olofsson",
+      "description": "",
+      "source": {
+        "id": "legacy:samnerod",
+        "path": "mediawiki/Samneröd.txt"
+      }
+    },
+    {
+      "id": "samnerod-led-13",
+      "kind": "route",
+      "number": null,
+      "name": "Tjuvskytten",
+      "grade": "7-",
+      "length": "12",
+      "type": "",
+      "firstAscent": "Joakim Olofsson -92",
+      "description": "",
+      "source": {
+        "id": "legacy:samnerod",
+        "path": "mediawiki/Samneröd.txt"
+      }
+    },
+    {
+      "id": "samnerod-led-14",
+      "kind": "route",
+      "number": null,
+      "name": "Korthålet",
+      "grade": "4+",
+      "length": "15",
+      "type": "",
+      "firstAscent": "Björn Holmgren, Kurt Wiklander -90",
+      "description": "",
+      "source": {
+        "id": "legacy:samnerod",
+        "path": "mediawiki/Samneröd.txt"
+      }
+    },
+    {
+      "id": "samnerod-led-15",
+      "kind": "route",
+      "number": null,
+      "name": "Prickskytten",
+      "grade": "5-",
+      "length": "10",
+      "type": "",
+      "firstAscent": "Joakim Olofsson, Wendelin Zobel, Johan Nord -91",
+      "description": "",
+      "source": {
+        "id": "legacy:samnerod",
+        "path": "mediawiki/Samneröd.txt"
+      }
+    },
+    {
+      "id": "samnerod-led-16",
+      "kind": "route",
+      "number": null,
+      "name": "Det gör ont",
+      "grade": "6",
+      "length": "12",
+      "type": "",
+      "firstAscent": "Mikale Ylinen, Tobias Ryberg, Greger Andersson -08-09",
+      "description": "",
+      "source": {
+        "id": "legacy:samnerod",
+        "path": "mediawiki/Samneröd.txt"
+      }
+    },
+    {
+      "id": "samnerod-led-17",
+      "kind": "route",
+      "number": null,
+      "name": "Deerhunter",
+      "grade": "6-",
+      "length": "8",
+      "type": "",
+      "firstAscent": "Peter Andersson, Niclas Andersson -92",
+      "description": "",
+      "source": {
+        "id": "legacy:samnerod",
+        "path": "mediawiki/Samneröd.txt"
+      }
+    },
+    {
+      "id": "samnerod-led-18",
+      "kind": "route",
+      "number": null,
+      "name": "Snakecharmer",
+      "grade": "5-",
+      "length": "8",
+      "type": "",
+      "firstAscent": "Peter Andersson (Solo) -92",
+      "description": "",
+      "source": {
+        "id": "legacy:samnerod",
+        "path": "mediawiki/Samneröd.txt"
+      }
+    },
+    {
+      "id": "samnerod-led-19",
+      "kind": "route",
+      "number": null,
+      "name": "Var är Pianisten?",
+      "grade": "4+",
+      "length": "15",
+      "type": "",
+      "firstAscent": "Johan Nord, Wendelin Zobel, Peter Andersson -92",
+      "description": "",
+      "source": {
+        "id": "legacy:samnerod",
+        "path": "mediawiki/Samneröd.txt"
+      }
+    },
+    {
+      "id": "samnerod-led-20",
+      "kind": "route",
+      "number": null,
+      "name": "Rocketer",
+      "grade": "6-",
+      "length": "12",
+      "type": "",
+      "firstAscent": "Peter Andersson, Kurt Wiklander -92",
+      "description": "",
+      "source": {
+        "id": "legacy:samnerod",
+        "path": "mediawiki/Samneröd.txt"
+      }
+    },
+    {
+      "id": "samnerod-led-21",
+      "kind": "route",
+      "number": null,
+      "name": "Vikariatet",
+      "grade": "7",
+      "length": "12",
+      "type": "",
+      "firstAscent": "Niklas Alm, Leif Jägerbrand -97",
+      "description": "",
+      "source": {
+        "id": "legacy:samnerod",
+        "path": "mediawiki/Samneröd.txt"
+      }
+    },
+    {
+      "id": "samnerod-led-22",
+      "kind": "route",
+      "number": null,
+      "name": "Magister Tung",
+      "grade": "7+",
+      "length": "12",
+      "type": "",
+      "firstAscent": "",
+      "description": "Niklas Alm -97",
+      "source": {
+        "id": "legacy:samnerod",
+        "path": "mediawiki/Samneröd.txt"
+      }
+    },
+    {
+      "id": "samnerod-led-23",
+      "kind": "route",
+      "number": null,
+      "name": "Fröken Lätt",
+      "grade": "6",
+      "length": "12",
+      "type": "",
+      "firstAscent": "Niklas Alm -97",
+      "description": "",
+      "source": {
+        "id": "legacy:samnerod",
+        "path": "mediawiki/Samneröd.txt"
+      }
+    },
+    {
+      "id": "samnerod-led-24",
+      "kind": "route",
+      "number": null,
+      "name": "Vaktmästaren",
+      "grade": "4",
+      "length": "12",
+      "type": "",
+      "firstAscent": "Ulf Johansson, Stefan Skarp -97",
+      "description": "",
+      "source": {
+        "id": "legacy:samnerod",
+        "path": "mediawiki/Samneröd.txt"
+      }
+    },
+    {
+      "id": "samnerod-led-25",
+      "kind": "route",
+      "number": null,
+      "name": "Rainman",
+      "grade": "6",
+      "length": "7",
+      "type": "",
+      "firstAscent": "Lars Jonsson, Ulf Johansson -97",
+      "description": "",
+      "source": {
+        "id": "legacy:samnerod",
+        "path": "mediawiki/Samneröd.txt"
+      }
+    },
+    {
+      "id": "samnerod-led-26",
+      "kind": "route",
+      "number": null,
+      "name": "Tricky",
+      "grade": "6+",
+      "length": "8",
+      "type": "",
+      "firstAscent": "Joakim Olofsson -97",
+      "description": "",
+      "source": {
+        "id": "legacy:samnerod",
+        "path": "mediawiki/Samneröd.txt"
+      }
+    },
+    {
+      "id": "samnerod-led-27",
+      "kind": "route",
+      "number": null,
+      "name": "Pumpkin",
+      "grade": "6",
+      "length": "8",
+      "type": "",
+      "firstAscent": "Joakim Olofsson -97",
+      "description": "",
+      "source": {
+        "id": "legacy:samnerod",
+        "path": "mediawiki/Samneröd.txt"
+      }
+    }
+  ],
+  "images": [],
+  "access": {
+    "legacyText": null,
+    "federationSlug": null
+  },
+  "qualityIssues": [],
+  "provenance": {
+    "primarySourceId": "legacy:samnerod",
+    "sources": [
+      {
+        "id": "legacy:samnerod",
+        "title": "Sverigeföraren 2014: Samneröd",
+        "path": "mediawiki/Samneröd.txt",
+        "license": "GNU Free Documentation License",
+        "snapshotDate": "2014-01-01"
+      }
+    ]
+  }
+}

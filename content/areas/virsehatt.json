@@ -1,0 +1,122 @@
+{
+  "schemaVersion": 1,
+  "id": "virsehatt",
+  "slug": "virsehatt",
+  "name": "Virsehatt",
+  "description": "Virsehatt är ett naturreservat öster om Halmstad med lite klippor runt en markant höjd i terrängen. Lederna är lättillgängliga och ligger i en mycket fin naturmark. Det finns idag ca 15 trad leder och inget är bultat.",
+  "coordinates": {
+    "latitude": 56.798141,
+    "longitude": 13.020367
+  },
+  "categories": [
+    "mix",
+    "sport",
+    "sva",
+    "trad",
+    "vertikalt",
+    "överhäng"
+  ],
+  "sections": [
+    {
+      "id": "allmant",
+      "title": "Allmänt",
+      "body": "Virsehatt är ett naturreservat öster om Halmstad med lite klippor runt en markant höjd i terrängen. Lederna är lättillgängliga och ligger i en mycket fin naturmark. Det finns idag ca 15 trad leder och inget är bultat."
+    },
+    {
+      "id": "vagbeskrivning",
+      "title": "Vägbeskrivning",
+      "body": "Karta här. Tryck på kartknappen ovan. Virsehatt ligger mellan Simlångsdalen och Oskarström utanför Halmstad. Från parkeringen går man genom grindarna så att man har höjden på höger hand. Följ stigen tills klipporna börjar dyka upp på höger hand. Sväng höger på den lilla stigen och klippan syns nu tydligt på höger sida."
+    },
+    {
+      "id": "kontakt",
+      "title": "Kontakt",
+      "body": "För mer info och bilder kolla Eskapader Kategori:trad Kategori:vertikalt Category:Halland"
+    }
+  ],
+  "routes": [
+    {
+      "id": "virsehatt-led-1",
+      "kind": "route",
+      "number": "1",
+      "name": "Hata plast",
+      "grade": "5+",
+      "length": "10",
+      "type": "trad",
+      "firstAscent": "Michael Gullvert -08",
+      "description": "Lättklättring upp till mitten sedan välsäkrat crux, lite lös i toppen annars fast.",
+      "source": {
+        "id": "legacy:virsehatt",
+        "path": "mediawiki/Virsehatt.txt"
+      }
+    },
+    {
+      "id": "virsehatt-led-2",
+      "kind": "route",
+      "number": "2",
+      "name": "Dopet",
+      "grade": "5-",
+      "length": "10",
+      "type": "trad",
+      "firstAscent": "Michael Gullvert -08",
+      "description": "Cruxet i början, björken i slutet är en trevlig viloplats, lite lös i toppen går att säkra.",
+      "source": {
+        "id": "legacy:virsehatt",
+        "path": "mediawiki/Virsehatt.txt"
+      }
+    },
+    {
+      "id": "virsehatt-led-3",
+      "kind": "route",
+      "number": "3",
+      "name": "Mössan",
+      "grade": "5-",
+      "length": "10",
+      "type": "trad",
+      "firstAscent": "Michael Gullvert -08",
+      "description": "Teknisk klättring i början sedan olika varianter till toppen går att säkra.",
+      "source": {
+        "id": "legacy:virsehatt",
+        "path": "mediawiki/Virsehatt.txt"
+      }
+    },
+    {
+      "id": "virsehatt-led-4",
+      "kind": "route",
+      "number": "4",
+      "name": "Lillen",
+      "grade": "3",
+      "length": "10",
+      "type": "trad",
+      "firstAscent": "Michael Gullvert Niklas Sigfeldt -08",
+      "description": "Jämn och lite grön klättring",
+      "source": {
+        "id": "legacy:virsehatt",
+        "path": "mediawiki/Virsehatt.txt"
+      }
+    }
+  ],
+  "images": [
+    {
+      "filename": "Virsehatt.jpg",
+      "caption": "",
+      "missing": false
+    }
+  ],
+  "access": {
+    "legacyText": null,
+    "federationSlug": null
+  },
+  "qualityIssues": [],
+  "provenance": {
+    "primarySourceId": "legacy:virsehatt",
+    "sources": [
+      {
+        "id": "legacy:virsehatt",
+        "title": "Sverigeföraren 2014: Virsehatt",
+        "path": "mediawiki/Virsehatt.txt",
+        "license": "GNU Free Documentation License",
+        "snapshotDate": "2014-01-01"
+      }
+    ]
+  }
+}

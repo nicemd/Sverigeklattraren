@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "id": "tunnelutloppet",
+  "slug": "tunnelutloppet",
+  "name": "Tunnelutloppet",
+  "description": "Klippan är stängd.",
+  "coordinates": null,
+  "categories": [
+    "Västerbotten"
+  ],
+  "sections": [
+    {
+      "id": "allmant",
+      "title": "Allmänt",
+      "body": "Klippan är stängd."
+    },
+    {
+      "id": "access",
+      "title": "Access",
+      "body": "Klippan är stängd. Kategori:Västerbotten"
+    }
+  ],
+  "routes": [],
+  "images": [],
+  "access": {
+    "legacyText": "Klippan är stängd. Kategori:Västerbotten",
+    "federationSlug": "tunnelutloppet"
+  },
+  "qualityIssues": [],
+  "provenance": {
+    "primarySourceId": "legacy:tunnelutloppet",
+    "sources": [
+      {
+        "id": "legacy:tunnelutloppet",
+        "title": "Sverigeföraren 2014: Tunnelutloppet",
+        "path": "mediawiki/Tunnelutloppet.txt",
+        "license": "GNU Free Documentation License",
+        "snapshotDate": "2014-01-01"
+      }
+    ]
+  }
+}

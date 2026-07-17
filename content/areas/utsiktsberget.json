@@ -1,0 +1,273 @@
+{
+  "schemaVersion": 1,
+  "id": "utsiktsberget",
+  "slug": "utsiktsberget",
+  "name": "Utsiktsberget",
+  "description": "Utsiktsberget är beläget på södra Svärdsö mellan Oxnö och Torö på Södertörns sydspets. Berget är ca 8–10 m högt och ligger ca 300 m från fina badmöjligheter, för övrigt är berget mycket lättillgängligt. Klippan bjuder på mycket varierad klättring med fin friktion och ett brett svårighetsregister.",
+  "coordinates": {
+    "latitude": 58.86075236944444,
+    "longitude": 17.834566319444445
+  },
+  "categories": [
+    "Stockholm",
+    "Södra Södertörn"
+  ],
+  "sections": [
+    {
+      "id": "allmant",
+      "title": "Allmänt",
+      "body": "Utsiktsberget är beläget på södra Svärdsö mellan Oxnö och Torö på Södertörns sydspets. Berget är ca 8–10 m högt och ligger ca 300 m från fina badmöjligheter, för övrigt är berget mycket lättillgängligt. Klippan bjuder på mycket varierad klättring med fin friktion och ett brett svårighetsregister."
+    },
+    {
+      "id": "miljo",
+      "title": "Miljö",
+      "body": "Väst, öppet läge."
+    },
+    {
+      "id": "vagbeskrivning",
+      "title": "Vägbeskrivning",
+      "body": "Svärdsö ligger drygt 5 km sydväst om Nynäshamn (fågelvägen). Man kör ut några km på Svärdsö och passerar Svärdsögården som ligger på vänster hand. Efter 1km svänger man in på Ringvägen, sedan första h in på Måsvägen som följs till vändplatsen, där man parkerar. Sedan återstår 3–4 minuters promenad fram till berget som ligger på v sida."
+    },
+    {
+      "id": "leder",
+      "title": "Leder",
+      "body": "Kategori:Stockholm Kategori:Södra Södertörn"
+    }
+  ],
+  "routes": [
+    {
+      "id": "utsiktsberget-led-1",
+      "kind": "route",
+      "number": "1",
+      "name": "Lättmatros",
+      "grade": "A3",
+      "length": "8",
+      "type": "",
+      "firstAscent": "David Fält -87",
+      "description": "",
+      "source": {
+        "id": "legacy:utsiktsberget",
+        "path": "mediawiki/Utsiktsberget.txt"
+      }
+    },
+    {
+      "id": "utsiktsberget-led-2",
+      "kind": "route",
+      "number": "2",
+      "name": "Styrman",
+      "grade": "A2",
+      "length": "8",
+      "type": "",
+      "firstAscent": "Lars-Åke Svartz -87",
+      "description": "",
+      "source": {
+        "id": "legacy:utsiktsberget",
+        "path": "mediawiki/Utsiktsberget.txt"
+      }
+    },
+    {
+      "id": "utsiktsberget-led-3",
+      "kind": "route",
+      "number": "3",
+      "name": "Hej å Hå, Jungman Jönsson",
+      "grade": "5-",
+      "length": "10",
+      "type": "",
+      "firstAscent": "N Jönsson, Björn Reimers",
+      "description": "",
+      "source": {
+        "id": "legacy:utsiktsberget",
+        "path": "mediawiki/Utsiktsberget.txt"
+      }
+    },
+    {
+      "id": "utsiktsberget-led-4",
+      "kind": "route",
+      "number": "4",
+      "name": "Köldsvinet",
+      "grade": "5+",
+      "length": "10",
+      "type": "",
+      "firstAscent": "Thomas Hjort, N Jönsson, Björn Reimers FF: David Fält, Magnus Wärme -88",
+      "description": "",
+      "source": {
+        "id": "legacy:utsiktsberget",
+        "path": "mediawiki/Utsiktsberget.txt"
+      }
+    },
+    {
+      "id": "utsiktsberget-led-5",
+      "kind": "route",
+      "number": "5",
+      "name": "Draggen",
+      "grade": "4-",
+      "length": "10",
+      "type": "",
+      "firstAscent": "N Jönsson, Björn Reimers -87",
+      "description": "",
+      "source": {
+        "id": "legacy:utsiktsberget",
+        "path": "mediawiki/Utsiktsberget.txt"
+      }
+    },
+    {
+      "id": "utsiktsberget-led-6",
+      "kind": "route",
+      "number": "6",
+      "name": "Varma bullar",
+      "grade": "6+",
+      "length": "10",
+      "type": "",
+      "firstAscent": "Johan Luhr, Rikard Hedman -88",
+      "description": "",
+      "source": {
+        "id": "legacy:utsiktsberget",
+        "path": "mediawiki/Utsiktsberget.txt"
+      }
+    },
+    {
+      "id": "utsiktsberget-led-7",
+      "kind": "route",
+      "number": "7",
+      "name": "Skotlås",
+      "grade": "6",
+      "length": "10",
+      "type": "",
+      "firstAscent": "Lars-Åke Svartz, Jan Mellring -87 FF: Harald Brandt, Niklas Björnerstedt -88",
+      "description": "",
+      "source": {
+        "id": "legacy:utsiktsberget",
+        "path": "mediawiki/Utsiktsberget.txt"
+      }
+    },
+    {
+      "id": "utsiktsberget-led-8",
+      "kind": "route",
+      "number": "8",
+      "name": "Utan åror",
+      "grade": "7",
+      "length": "11",
+      "type": "",
+      "firstAscent": "David Fält, Lars-Åke Svartz -87 FF: Johan Luhr, Rikard Hedman -88",
+      "description": "",
+      "source": {
+        "id": "legacy:utsiktsberget",
+        "path": "mediawiki/Utsiktsberget.txt"
+      }
+    },
+    {
+      "id": "utsiktsberget-led-9",
+      "kind": "route",
+      "number": "9",
+      "name": "Bogserbåten",
+      "grade": "5+",
+      "length": "10",
+      "type": "",
+      "firstAscent": "David Fält, Per-Elof Lidström -87",
+      "description": "",
+      "source": {
+        "id": "legacy:utsiktsberget",
+        "path": "mediawiki/Utsiktsberget.txt"
+      }
+    },
+    {
+      "id": "utsiktsberget-led-10",
+      "kind": "route",
+      "number": "9a",
+      "name": "Andra bullar",
+      "grade": "7+/8",
+      "length": "",
+      "type": "",
+      "firstAscent": "David Fält -88 FF: Johan Luhr, Rikard Hedman -88",
+      "description": "",
+      "source": {
+        "id": "legacy:utsiktsberget",
+        "path": "mediawiki/Utsiktsberget.txt"
+      }
+    },
+    {
+      "id": "utsiktsberget-led-11",
+      "kind": "route",
+      "number": "10",
+      "name": "Bryggan",
+      "grade": "4+",
+      "length": "10",
+      "type": "",
+      "firstAscent": "Jan Hammarbäck, Thomas Hjort, Björn Reimers -87",
+      "description": "",
+      "source": {
+        "id": "legacy:utsiktsberget",
+        "path": "mediawiki/Utsiktsberget.txt"
+      }
+    },
+    {
+      "id": "utsiktsberget-led-12",
+      "kind": "route",
+      "number": "11",
+      "name": "Livbojen",
+      "grade": "4-",
+      "length": "8",
+      "type": "",
+      "firstAscent": "Lars-Åke Svartz, Sam Westerholm -83",
+      "description": "",
+      "source": {
+        "id": "legacy:utsiktsberget",
+        "path": "mediawiki/Utsiktsberget.txt"
+      }
+    },
+    {
+      "id": "utsiktsberget-led-13",
+      "kind": "route",
+      "number": "12",
+      "name": "Fördäckssprickan",
+      "grade": "5-",
+      "length": "10",
+      "type": "",
+      "firstAscent": "David Fält, Magnus Wärme -88",
+      "description": "",
+      "source": {
+        "id": "legacy:utsiktsberget",
+        "path": "mediawiki/Utsiktsberget.txt"
+      }
+    },
+    {
+      "id": "utsiktsberget-led-14",
+      "kind": "route",
+      "number": null,
+      "name": "Davids Face",
+      "grade": "7c+",
+      "length": "",
+      "type": "",
+      "firstAscent": "Johan Luhr?",
+      "description": "David Fälts gammla projekt. Vart går denna?",
+      "source": {
+        "id": "legacy:utsiktsberget",
+        "path": "mediawiki/Utsiktsberget.txt"
+      }
+    }
+  ],
+  "images": [
+    {
+      "filename": "Utsiktsberget.png",
+      "caption": "",
+      "missing": false
+    }
+  ],
+  "access": {
+    "legacyText": null,
+    "federationSlug": null
+  },
+  "qualityIssues": [],
+  "provenance": {
+    "primarySourceId": "legacy:utsiktsberget",
+    "sources": [
+      {
+        "id": "legacy:utsiktsberget",
+        "title": "Sverigeföraren 2014: Utsiktsberget",
+        "path": "mediawiki/Utsiktsberget.txt",
+        "license": "GNU Free Documentation License",
+        "snapshotDate": "2014-01-01"
+      }
+    ]
+  }
+}

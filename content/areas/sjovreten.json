@@ -1,0 +1,133 @@
+{
+  "schemaVersion": 1,
+  "id": "sjovreten",
+  "slug": "sjovreten",
+  "name": "Sjövreten",
+  "description": "Liten, tämligen lös klippa längs vägen mot Fituna, ca 2 km efter Vårsta, Dessa leder är de först rapporterade men spår syntes efter tidigare aktiviteter. Kommer aldrig att bli ett nytt Häggsta!",
+  "coordinates": null,
+  "categories": [
+    "Fituna",
+    "Gamla koordinater",
+    "Saknar karta",
+    "Stockholm",
+    "Sva",
+    "Vertikalt"
+  ],
+  "sections": [
+    {
+      "id": "allmant",
+      "title": "Allmänt",
+      "body": "Liten, tämligen lös klippa längs vägen mot Fituna, ca 2 km efter Vårsta, Dessa leder är de först rapporterade men spår syntes efter tidigare aktiviteter. Kommer aldrig att bli ett nytt Häggsta!"
+    },
+    {
+      "id": "vagbeskrivning",
+      "title": "Vägbeskrivning:",
+      "body": "Klippan ligger på vänster sida av väg 225, körriktning Fituna, alldeles innan avtagsvägen mot Grödinge kyrka och Skanssundet. Väggen sticker upp bakom träden på andra sidan en potatisåker. Gamla koordinater: 10 I SV 615150"
+    },
+    {
+      "id": "kommunikationer",
+      "title": "Kommunikationer:",
+      "body": "Buss 783 stannar vid vägen mot Skanssundet."
+    },
+    {
+      "id": "leder",
+      "title": "Leder",
+      "body": "Kategori:Stockholm Kategori:Fituna Kategori:Sva Kategori:Vertikalt Kategori:Saknar karta Kategori:Gamla koordinater"
+    }
+  ],
+  "routes": [
+    {
+      "id": "sjovreten-led-1",
+      "kind": "route",
+      "number": "1",
+      "name": "Magnum Bonum",
+      "grade": "5+",
+      "length": "15",
+      "type": "",
+      "firstAscent": "Jan Liliemark, Niklas Björnerstedt -87",
+      "description": "",
+      "source": {
+        "id": "legacy:sjovreten",
+        "path": "mediawiki/Sjövreten.txt"
+      }
+    },
+    {
+      "id": "sjovreten-led-2",
+      "kind": "route",
+      "number": "2",
+      "name": "Inget för en femmaklättrare",
+      "grade": "5-",
+      "length": "15",
+      "type": "",
+      "firstAscent": "Niklas Björnerstedt, Jan Liliemark -87",
+      "description": "",
+      "source": {
+        "id": "legacy:sjovreten",
+        "path": "mediawiki/Sjövreten.txt"
+      }
+    },
+    {
+      "id": "sjovreten-led-3",
+      "kind": "route",
+      "number": "3",
+      "name": "X = X",
+      "grade": "5/5+",
+      "length": "15",
+      "type": "",
+      "firstAscent": "Harald Brandt, Björn Alber -87",
+      "description": "",
+      "source": {
+        "id": "legacy:sjovreten",
+        "path": "mediawiki/Sjövreten.txt"
+      }
+    },
+    {
+      "id": "sjovreten-led-4",
+      "kind": "route",
+      "number": "4",
+      "name": "Lång tid, inget hav",
+      "grade": "5/5+",
+      "length": "15",
+      "type": "",
+      "firstAscent": "Harald Brandt, Björn Alber -87",
+      "description": "",
+      "source": {
+        "id": "legacy:sjovreten",
+        "path": "mediawiki/Sjövreten.txt"
+      }
+    },
+    {
+      "id": "sjovreten-led-5",
+      "kind": "route",
+      "number": "5",
+      "name": "Lång tid, inget finger",
+      "grade": "5+",
+      "length": "15",
+      "type": "",
+      "firstAscent": "Björn Alber, Harald Brandt -87",
+      "description": "",
+      "source": {
+        "id": "legacy:sjovreten",
+        "path": "mediawiki/Sjövreten.txt"
+      }
+    }
+  ],
+  "images": [],
+  "access": {
+    "legacyText": null,
+    "federationSlug": null
+  },
+  "qualityIssues": [],
+  "provenance": {
+    "primarySourceId": "legacy:sjovreten",
+    "sources": [
+      {
+        "id": "legacy:sjovreten",
+        "title": "Sverigeföraren 2014: Sjövreten",
+        "path": "mediawiki/Sjövreten.txt",
+        "license": "GNU Free Documentation License",
+        "snapshotDate": "2014-01-01"
+      }
+    ]
+  }
+}

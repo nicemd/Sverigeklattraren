@@ -1,0 +1,185 @@
+{
+  "schemaVersion": 1,
+  "id": "rosas",
+  "slug": "rosas",
+  "name": "Rösås",
+  "description": "Rösås är en mäktig klippa på 120m som har en stark trad-karaktär.",
+  "coordinates": {
+    "latitude": 63.3925981229732,
+    "longitude": 18.4136009216308
+  },
+  "categories": [
+    "sva",
+    "trad",
+    "vertikalt",
+    "Ångermanland"
+  ],
+  "sections": [
+    {
+      "id": "allmant",
+      "title": "Allmänt",
+      "body": "Rösås är en mäktig klippa på 120m som har en stark trad-karaktär."
+    },
+    {
+      "id": "vagbeskrivning",
+      "title": "Vägbeskrivning",
+      "body": "Från Örnsköldsvik så åker man söderut längs E4an ca 3km kilometer. Sväng av E4an åt höger, skyltat 348 mot Åsele. Efter 14 km svänger man höger in på Molidenvägen. Då man kommer in i byn är det skyltat mot Rösåsberget. Passera en fotbollsplan och en gammal järnvägsstaion. Parkera på vändplatsen under berget."
+    },
+    {
+      "id": "idag-rekommenderade-leder",
+      "title": "Idag rekommenderade leder",
+      "body": "Rösås mossar igen. Endast ett fåtal leder är i klätterbar form. Dessa leder går idag bra att klättra: Vilka fler? Någon som vet? Kategori:trad Kategori:vertikalt Kategori:sva"
+    },
+    {
+      "id": "forare",
+      "title": "Förare",
+      "body": "PDF-förare kan laddas ner på UKHK.se Kategori:Ångermanland"
+    }
+  ],
+  "routes": [
+    {
+      "id": "rosas-led-1",
+      "kind": "route",
+      "number": null,
+      "name": "Djungelvrål",
+      "grade": "7",
+      "length": "16",
+      "type": "sport",
+      "firstAscent": "Lars Lundquist 1996",
+      "description": "Ny sportled i ravinen. Brant på goda grepp. Till vänster om klassikern Sprickan.",
+      "source": {
+        "id": "legacy:rosas",
+        "path": "mediawiki/Rösås.txt"
+      }
+    },
+    {
+      "id": "rosas-led-2",
+      "kind": "route",
+      "number": null,
+      "name": "Sista skriket",
+      "grade": "7a+",
+      "length": "27",
+      "type": "sport",
+      "firstAscent": "Fredrik Nyberg 2010",
+      "description": "Sportled på höger sida av ravinväggen.",
+      "source": {
+        "id": "legacy:rosas",
+        "path": "mediawiki/Rösås.txt"
+      }
+    },
+    {
+      "id": "rosas-led-3",
+      "kind": "route",
+      "number": null,
+      "name": "Svarta leden",
+      "grade": "4-",
+      "length": "110",
+      "type": "trad",
+      "firstAscent": "Edgar Lundmark, Erland Sandqvist 1968",
+      "description": "Rösåsklassikern!",
+      "source": {
+        "id": "legacy:rosas",
+        "path": "mediawiki/Rösås.txt"
+      }
+    },
+    {
+      "id": "rosas-led-4",
+      "kind": "route",
+      "number": null,
+      "name": "Korpleden",
+      "grade": "4",
+      "length": "100",
+      "type": "trad",
+      "firstAscent": "L-G Johansson, Jörgen Kragh 1973",
+      "description": "Klassisk travers halvvägs upp.",
+      "source": {
+        "id": "legacy:rosas",
+        "path": "mediawiki/Rösås.txt"
+      }
+    },
+    {
+      "id": "rosas-led-5",
+      "kind": "route",
+      "number": null,
+      "name": "Stenbiten",
+      "grade": "6-",
+      "length": "100",
+      "type": "mix",
+      "firstAscent": "Tommy Nilsson, Lena Carleborg 1982",
+      "description": "",
+      "source": {
+        "id": "legacy:rosas",
+        "path": "mediawiki/Rösås.txt"
+      }
+    },
+    {
+      "id": "rosas-led-6",
+      "kind": "route",
+      "number": null,
+      "name": "Golgata",
+      "grade": "6-",
+      "length": "100",
+      "type": "mix",
+      "firstAscent": "Tommy Nilsson, Hans Lindberg 1981",
+      "description": "",
+      "source": {
+        "id": "legacy:rosas",
+        "path": "mediawiki/Rösås.txt"
+      }
+    },
+    {
+      "id": "rosas-led-7",
+      "kind": "route",
+      "number": null,
+      "name": "Perestrojka",
+      "grade": "7-",
+      "length": "110",
+      "type": "mix",
+      "firstAscent": "Per Öhman, Jan Wermelin ?",
+      "description": "",
+      "source": {
+        "id": "legacy:rosas",
+        "path": "mediawiki/Rösås.txt"
+      }
+    },
+    {
+      "id": "rosas-led-8",
+      "kind": "route",
+      "number": null,
+      "name": "Heta Linjen",
+      "grade": "5",
+      "length": "110",
+      "type": "mix",
+      "firstAscent": "Tommy Nilsson, Chris Craggs 1978",
+      "description": "",
+      "source": {
+        "id": "legacy:rosas",
+        "path": "mediawiki/Rösås.txt"
+      }
+    }
+  ],
+  "images": [
+    {
+      "filename": "Rosas_storavaggen.jpg",
+      "caption": "Pär Lindholm",
+      "missing": false
+    }
+  ],
+  "access": {
+    "legacyText": null,
+    "federationSlug": null
+  },
+  "qualityIssues": [],
+  "provenance": {
+    "primarySourceId": "legacy:rosas",
+    "sources": [
+      {
+        "id": "legacy:rosas",
+        "title": "Sverigeföraren 2014: Rösås",
+        "path": "mediawiki/Rösås.txt",
+        "license": "GNU Free Documentation License",
+        "snapshotDate": "2014-01-01"
+      }
+    ]
+  }
+}

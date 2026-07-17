@@ -1,0 +1,74 @@
+{
+  "schemaVersion": 1,
+  "id": "blahall",
+  "slug": "blahall",
+  "name": "Blåhäll",
+  "description": "En klippa för topprep på Tofta skjutfält.",
+  "coordinates": {
+    "latitude": 59,
+    "longitude": 18
+  },
+  "categories": [
+    "mix",
+    "Saknar koordinater",
+    "Saknar leder",
+    "Saknar skiss",
+    "Saknar skrivarformatering",
+    "Saknar vägbeskrivning",
+    "sva",
+    "vertikalt",
+    "överhäng"
+  ],
+  "sections": [
+    {
+      "id": "allmant",
+      "title": "Allmänt",
+      "body": "En klippa för topprep på Tofta skjutfält."
+    },
+    {
+      "id": "vagbeskrivning",
+      "title": "Vägbeskrivning",
+      "body": "Karta här. Tryck på kartknappen ovan. Skriv vägbeskrivning här."
+    },
+    {
+      "id": "leder",
+      "title": "Leder",
+      "body": "kategori:Saknar skiss kategori:Saknar vägbeskrivning kategori:Saknar leder kategori:Saknar koordinater kategori:Saknar skrivarformatering Category:Gotland"
+    }
+  ],
+  "routes": [
+    {
+      "id": "blahall-led-1",
+      "kind": "route",
+      "number": "1",
+      "name": "Namn på led",
+      "grade": "9c+",
+      "length": "30",
+      "type": "trad",
+      "firstAscent": "namn på fa -08",
+      "description": "ledbeskrivning",
+      "source": {
+        "id": "legacy:blahall",
+        "path": "mediawiki/Blåhäll.txt"
+      }
+    }
+  ],
+  "images": [],
+  "access": {
+    "legacyText": null,
+    "federationSlug": null
+  },
+  "qualityIssues": [],
+  "provenance": {
+    "primarySourceId": "legacy:blahall",
+    "sources": [
+      {
+        "id": "legacy:blahall",
+        "title": "Sverigeföraren 2014: Blåhäll",
+        "path": "mediawiki/Blåhäll.txt",
+        "license": "GNU Free Documentation License",
+        "snapshotDate": "2014-01-01"
+      }
+    ]
+  }
+}

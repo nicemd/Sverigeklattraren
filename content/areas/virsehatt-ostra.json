@@ -1,0 +1,200 @@
+{
+  "schemaVersion": 1,
+  "id": "virsehatt-ostra",
+  "slug": "virsehatt-ostra",
+  "name": "Virsehatt (östra)",
+  "description": "Beskrivning: Klippan är 6-8 m hög och hyser både överhängande samt sva klättring. Samtliga av lederna säkras med kil möjligheten att sätta topprep är god.",
+  "coordinates": {
+    "latitude": 56.797718,
+    "longitude": 13.024185
+  },
+  "categories": [
+    "mix",
+    "Saknar koordinater",
+    "Saknar leder",
+    "Saknar skrivarformatering",
+    "sport",
+    "sva",
+    "trad",
+    "vertikalt",
+    "överhäng"
+  ],
+  "sections": [
+    {
+      "id": "allmant",
+      "title": "Allmänt",
+      "body": "Beskrivning: Klippan är 6-8 m hög och hyser både överhängande samt sva klättring. Samtliga av lederna säkras med kil möjligheten att sätta topprep är god."
+    },
+    {
+      "id": "vagbeskrivning",
+      "title": "Vägbeskrivning",
+      "body": "Karta här. Tryck på kartknappen ovan. Enklaste sättet att hitta hit är från Oskarström. Kör från Oskarström mot Simlångsdalen och naturreservatet Virsehatt, väl framme vid reservatet passerar man en äldre byggnad med vasstak, Virsestuga. Gå rätt upp i rasbranten bakom det lilla huset till vänster om torpet ca 50m nu står du under klippan."
+    },
+    {
+      "id": "kontakt",
+      "title": "Kontakt",
+      "body": "För bilder och mer info kolla Eskapader Höger kolumn Kategori:trad Kategori:vertikalt kategori:Saknar leder kategori:Saknar koordinater kategori:Saknar skrivarformatering Category:Halland"
+    }
+  ],
+  "routes": [
+    {
+      "id": "virsehatt-ostra-led-1",
+      "kind": "route",
+      "number": "1",
+      "name": "Ugglan",
+      "grade": "5-",
+      "length": "7",
+      "type": "trad",
+      "firstAscent": "Michael Gullvert Pernilla Karlsson -03",
+      "description": "Samma start som Orren men sedan vänster, går att säkra.",
+      "source": {
+        "id": "legacy:virsehatt-ostra",
+        "path": "mediawiki/Virsehatt (östra).txt"
+      }
+    },
+    {
+      "id": "virsehatt-ostra-led-2",
+      "kind": "route",
+      "number": "2",
+      "name": "Orren",
+      "grade": "4-",
+      "length": "7",
+      "type": "trad",
+      "firstAscent": "Michael Gullvert Pernilla Karlsson -03",
+      "description": "Klättra upp mitt på väggen",
+      "source": {
+        "id": "legacy:virsehatt-ostra",
+        "path": "mediawiki/Virsehatt (östra).txt"
+      }
+    },
+    {
+      "id": "virsehatt-ostra-led-3",
+      "kind": "route",
+      "number": "3",
+      "name": "Tjädern",
+      "grade": "4+",
+      "length": "7",
+      "type": "trad",
+      "firstAscent": "Michael Gullvert Pernilla Karlsson -03",
+      "description": "Något svårare än det ser ut att vara, dock välsäkrad.",
+      "source": {
+        "id": "legacy:virsehatt-ostra",
+        "path": "mediawiki/Virsehatt (östra).txt"
+      }
+    },
+    {
+      "id": "virsehatt-ostra-led-4",
+      "kind": "route",
+      "number": "4",
+      "name": "Gladan",
+      "grade": "6-",
+      "length": "7",
+      "type": "trad",
+      "firstAscent": "Michael Gullvert Pernilla Karlsson -03",
+      "description": "Håll kroppen en på höger sida av hörnet, crux mot toppen.",
+      "source": {
+        "id": "legacy:virsehatt-ostra",
+        "path": "mediawiki/Virsehatt (östra).txt"
+      }
+    },
+    {
+      "id": "virsehatt-ostra-led-5",
+      "kind": "route",
+      "number": "5",
+      "name": "Höna",
+      "grade": "7-",
+      "length": "8",
+      "type": "trad",
+      "firstAscent": "Michael Gullvert Pernilla Karlsson -03",
+      "description": "Starten är lätt klättring som övergår i ångest attack i slutet. Topprep rekommenderas.",
+      "source": {
+        "id": "legacy:virsehatt-ostra",
+        "path": "mediawiki/Virsehatt (östra).txt"
+      }
+    },
+    {
+      "id": "virsehatt-ostra-led-6",
+      "kind": "route",
+      "number": "6",
+      "name": "Projekt",
+      "grade": "1",
+      "length": "8",
+      "type": "trad",
+      "firstAscent": "i -08",
+      "description": "ledbeskrivning",
+      "source": {
+        "id": "legacy:virsehatt-ostra",
+        "path": "mediawiki/Virsehatt (östra).txt"
+      }
+    },
+    {
+      "id": "virsehatt-ostra-led-7",
+      "kind": "route",
+      "number": "7",
+      "name": "Fulsparven",
+      "grade": "5+",
+      "length": "7",
+      "type": "trad",
+      "firstAscent": "Michael Gullvert Pernilla Karlsson -03",
+      "description": "Väggens bästa led, klättring på stora grepp hela vägen upp. Svår att toppaur.",
+      "source": {
+        "id": "legacy:virsehatt-ostra",
+        "path": "mediawiki/Virsehatt (östra).txt"
+      }
+    },
+    {
+      "id": "virsehatt-ostra-led-8",
+      "kind": "route",
+      "number": "8",
+      "name": "Svartmes",
+      "grade": "6-",
+      "length": "8",
+      "type": "trad",
+      "firstAscent": "Michael Gullvert Pernilla Karlsson -03",
+      "description": "Klättra diedern, säkringar sitter halvbra, något lös klippa. Ett försatt toppankare är att rekommendera.",
+      "source": {
+        "id": "legacy:virsehatt-ostra",
+        "path": "mediawiki/Virsehatt (östra).txt"
+      }
+    },
+    {
+      "id": "virsehatt-ostra-led-9",
+      "kind": "route",
+      "number": "9",
+      "name": "Rödhake",
+      "grade": "5",
+      "length": "7",
+      "type": "trad",
+      "firstAscent": "Michael Gullvert Pernilla Karlsson -03",
+      "description": "Traverser väggen från höger till vänster",
+      "source": {
+        "id": "legacy:virsehatt-ostra",
+        "path": "mediawiki/Virsehatt (östra).txt"
+      }
+    }
+  ],
+  "images": [
+    {
+      "filename": "Virsehatt2.jpg",
+      "caption": "",
+      "missing": false
+    }
+  ],
+  "access": {
+    "legacyText": null,
+    "federationSlug": null
+  },
+  "qualityIssues": [],
+  "provenance": {
+    "primarySourceId": "legacy:virsehatt-ostra",
+    "sources": [
+      {
+        "id": "legacy:virsehatt-ostra",
+        "title": "Sverigeföraren 2014: Virsehatt (östra)",
+        "path": "mediawiki/Virsehatt (östra).txt",
+        "license": "GNU Free Documentation License",
+        "snapshotDate": "2014-01-01"
+      }
+    ]
+  }
+}

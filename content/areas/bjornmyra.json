@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 1,
+  "id": "bjornmyra",
+  "slug": "bjornmyra",
+  "name": "Björnmyra",
+  "description": "Lågt brett berg med ett par roliga leder och stora bouldermöjligheter. Fast och kompakt berg med frisk, ganska sträv, lite eldig karaktär med en aning kärvt inslag.",
+  "coordinates": {
+    "latitude": 59.62922752395399,
+    "longitude": 12.623634338378906
+  },
+  "categories": [
+    "topprep",
+    "Värmland"
+  ],
+  "sections": [
+    {
+      "id": "allmant",
+      "title": "Allmänt",
+      "body": "Lågt brett berg med ett par roliga leder och stora bouldermöjligheter. Fast och kompakt berg med frisk, ganska sträv, lite eldig karaktär med en aning kärvt inslag."
+    },
+    {
+      "id": "vagbeskrivning",
+      "title": "Vägbeskrivning",
+      "body": "Kör från Arvika längs väg 175 mot Klässbol/Säffle. Vid södra ingestrandsinfarten går man sedan upp mot Björnmyra. Skyltat från vägen? Berget ligger på andra sidan det hygge man passerar på vänster hand innan man går över bäcken. På det här berget har det dock inte varit någon värre trafik under de senaste åren så berget är i stort behov av att rensas både framför(rejält snårigt) och på lederna!"
+    },
+    {
+      "id": "leder",
+      "title": "Leder",
+      "body": "Kategori:Värmland"
+    }
+  ],
+  "routes": [
+    {
+      "id": "bjornmyra-led-1",
+      "kind": "route",
+      "number": "1",
+      "name": "Vänsterfusk",
+      "grade": "5+",
+      "length": "",
+      "type": "topprep",
+      "firstAscent": "Anders Borg/Tväråna",
+      "description": "Runda det stora taket till vänster. En trevlig led för den som saknar inspiration för det stora taket.",
+      "source": {
+        "id": "legacy:bjornmyra",
+        "path": "mediawiki/Björnmyra.txt"
+      }
+    },
+    {
+      "id": "bjornmyra-led-2",
+      "kind": "route",
+      "number": "2",
+      "name": "Brutala original",
+      "grade": "7-",
+      "length": "",
+      "type": "topprep",
+      "firstAscent": "Anders Borg/Tväråna",
+      "description": "Rakt över det stora taket. Undercling på en minimal list leder till postlådan över läppen.",
+      "source": {
+        "id": "legacy:bjornmyra",
+        "path": "mediawiki/Björnmyra.txt"
+      }
+    },
+    {
+      "id": "bjornmyra-led-3",
+      "kind": "route",
+      "number": "3",
+      "name": "Jacobs Creek",
+      "grade": "5+",
+      "length": "",
+      "type": "topprep",
+      "firstAscent": "Martin Norlander",
+      "description": "På aréten till vänster",
+      "source": {
+        "id": "legacy:bjornmyra",
+        "path": "mediawiki/Björnmyra.txt"
+      }
+    },
+    {
+      "id": "bjornmyra-led-4",
+      "kind": "route",
+      "number": "4",
+      "name": "El Capitain",
+      "grade": "5",
+      "length": "",
+      "type": "topprep",
+      "firstAscent": "Joakim Johansson",
+      "description": "Mitt på väggen. Små lister, ganska jobbig.",
+      "source": {
+        "id": "legacy:bjornmyra",
+        "path": "mediawiki/Björnmyra.txt"
+      }
+    },
+    {
+      "id": "bjornmyra-led-5",
+      "kind": "route",
+      "number": "5",
+      "name": "Stå på dig, annars gör staten det",
+      "grade": "5-",
+      "length": "",
+      "type": "topprep",
+      "firstAscent": "Joakim Johansson",
+      "description": "Uppför den högra aréten. Lätt, trevlig klättring.",
+      "source": {
+        "id": "legacy:bjornmyra",
+        "path": "mediawiki/Björnmyra.txt"
+      }
+    },
+    {
+      "id": "bjornmyra-led-6",
+      "kind": "route",
+      "number": "6",
+      "name": "Strövarleden",
+      "grade": "5-",
+      "length": "",
+      "type": "trad",
+      "firstAscent": "Joakim Johansson",
+      "description": "Lätt början, stora grepp. Kruxet är utsteget där man genom en liten högertravers rundar det lilla taket. Goda naturliga säkringar",
+      "source": {
+        "id": "legacy:bjornmyra",
+        "path": "mediawiki/Björnmyra.txt"
+      }
+    }
+  ],
+  "images": [
+    {
+      "filename": "Björnmyra.jpg",
+      "caption": "500px",
+      "missing": false
+    }
+  ],
+  "access": {
+    "legacyText": null,
+    "federationSlug": null
+  },
+  "qualityIssues": [],
+  "provenance": {
+    "primarySourceId": "legacy:bjornmyra",
+    "sources": [
+      {
+        "id": "legacy:bjornmyra",
+        "title": "Sverigeföraren 2014: Björnmyra",
+        "path": "mediawiki/Björnmyra.txt",
+        "license": "GNU Free Documentation License",
+        "snapshotDate": "2014-01-01"
+      }
+    ]
+  }
+}

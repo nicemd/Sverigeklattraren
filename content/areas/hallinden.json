@@ -1,0 +1,955 @@
+{
+  "schemaVersion": 1,
+  "id": "hallinden",
+  "slug": "hallinden",
+  "name": "Hallinden",
+  "description": "OBS! Parkering får endast ske vid Hallindens Buss-Station. Det är inte tillåtet att köra in på traktorväggen som leder fram till stora väggen!",
+  "coordinates": {
+    "latitude": 58.457523,
+    "longitude": 11.527233
+  },
+  "categories": [
+    "Bohuslän",
+    "mix",
+    "sva",
+    "trad",
+    "vertikalt"
+  ],
+  "sections": [
+    {
+      "id": "introduktion",
+      "title": "Introduktion",
+      "body": "En av sveriges absolut finaste och viktigaste klippor. Detta är det första berg du ser på väg in mot Lysekil från E6, och ett absolut måste för besökaren. Lederna är långa (upp till 50 m), utgörs generellt av fina, välsäkrade sprickor i olika bredder, och berget är på sina ställen snudd på överhängande. Turerna börjar vid 5+ men man bör ligga runt 6+ eller tom 7- för att komma åt godbitarna, och det rör sig ofta om lite vuxen klättring med krav på jamkunskaper. I övrigt är det hårt - många turer i åtta-registret. Under klippan är det platt och fint, med både skugga och sol, så även barnfamiljen kan ha det trevligt här. Solen når Stora väggen vid tvåtiden, och på branta väggen skuggar höga träd merparten av dagen. Följ parkeringsanvisningarna noga, se Access nedan."
+    },
+    {
+      "id": "access",
+      "title": "Access",
+      "body": "Parkeringen för Hallinden har ändrats sen den gamla föraren skrevs 2002. Parkera nu vid Hallindens pendelparkering. Den gamla parkeringen få ej användas och tänk inte ens på att köra in på traktorstigen till klippan. Detta har skett vid upprepade tillfällen och är ABSOLUT inte tillåtet. Händer detta igen riskerar vi att klippan stängs."
+    },
+    {
+      "id": "terassvaggen",
+      "title": "Terassväggen",
+      "body": "En förare över Hallinden kan man hitta på Torkel Røislis utmärkta sajt HeadWall. Här finns dessutom förare till de flesta klippor av rang i Bohuslän. category:Multipitch category:Trad Kategori:Bohuslän Kategori:trad Kategori:mix Kategori:sva Kategori:vertikalt"
+    }
+  ],
+  "routes": [
+    {
+      "id": "hallinden-led-1",
+      "kind": "route",
+      "number": null,
+      "name": "Voltige",
+      "grade": "6-",
+      "length": "25",
+      "type": "mix",
+      "firstAscent": "",
+      "description": "Väggen till vänsterom det stora diedret. En bult och två borrbultar",
+      "source": {
+        "id": "legacy:hallinden",
+        "path": "mediawiki/Hallinden.txt"
+      }
+    },
+    {
+      "id": "hallinden-led-2",
+      "kind": "route",
+      "number": null,
+      "name": "Delirium",
+      "grade": "5+",
+      "length": "30",
+      "type": "trad",
+      "firstAscent": "",
+      "description": "Mossigt dieder.",
+      "source": {
+        "id": "legacy:hallinden",
+        "path": "mediawiki/Hallinden.txt"
+      }
+    },
+    {
+      "id": "hallinden-led-3",
+      "kind": "route",
+      "number": null,
+      "name": "Mörketid",
+      "grade": "7+",
+      "length": "30",
+      "type": "trad",
+      "firstAscent": "Robert Caspersen",
+      "description": "Väggen till höger om det stora diedret.",
+      "source": {
+        "id": "legacy:hallinden",
+        "path": "mediawiki/Hallinden.txt"
+      }
+    },
+    {
+      "id": "hallinden-led-4",
+      "kind": "route",
+      "number": null,
+      "name": "Hatad och motarbetad",
+      "grade": "6+",
+      "length": "10",
+      "type": "sport",
+      "firstAscent": "Per Calleberg, Rikard Hedman",
+      "description": "",
+      "source": {
+        "id": "legacy:hallinden",
+        "path": "mediawiki/Hallinden.txt"
+      }
+    },
+    {
+      "id": "hallinden-led-5",
+      "kind": "route",
+      "number": null,
+      "name": "Vad är otid?",
+      "grade": "6-",
+      "length": "8",
+      "type": "trad",
+      "firstAscent": "Niklas Bjornerstedt",
+      "description": "",
+      "source": {
+        "id": "legacy:hallinden",
+        "path": "mediawiki/Hallinden.txt"
+      }
+    },
+    {
+      "id": "hallinden-led-6",
+      "kind": "route",
+      "number": null,
+      "name": "Hundra Hövdingar",
+      "grade": "8- eller 6+A0",
+      "length": "50",
+      "type": "trad",
+      "firstAscent": "Mats Almlöf , Per Calleberg",
+      "description": "Fin led med ett hårt och kort krux direkt efter standplats. Denna passage är hårdare än grad 7 vilket anges i befintlig förare. I övrigt är andra repan mycket fin.",
+      "source": {
+        "id": "legacy:hallinden",
+        "path": "mediawiki/Hallinden.txt"
+      }
+    },
+    {
+      "id": "hallinden-led-7",
+      "kind": "route",
+      "number": null,
+      "name": "Quick Step/Tangoläraren/Ragnars utsteg",
+      "grade": "7+",
+      "length": "50",
+      "type": "trad",
+      "firstAscent": "",
+      "description": "Första delen är 7+, andra delen är 6, och tredje delen är 5+. Klättra hela eller traversera in från Prismaster där du tycker att det ser lämpligt ut.",
+      "source": {
+        "id": "legacy:hallinden",
+        "path": "mediawiki/Hallinden.txt"
+      }
+    },
+    {
+      "id": "hallinden-led-8",
+      "kind": "route",
+      "number": null,
+      "name": "Prismaster",
+      "grade": "6-",
+      "length": "55",
+      "type": "trad",
+      "firstAscent": "Buster Delin, Kay von Damm och Peter Brolin",
+      "description": "Mycket fin och lång tur som inte får missas. Varierad.",
+      "source": {
+        "id": "legacy:hallinden",
+        "path": "mediawiki/Hallinden.txt"
+      }
+    },
+    {
+      "id": "hallinden-led-9",
+      "kind": "route",
+      "number": null,
+      "name": "Golden River",
+      "grade": "8-",
+      "length": "55",
+      "type": "mix",
+      "firstAscent": "Joakim Olofson",
+      "description": "Starta som Priesmaster och går in höger i diedersystemet som passerar ett tak, och tunnas ut på väggens övre del. 3 borrbultar",
+      "source": {
+        "id": "legacy:hallinden",
+        "path": "mediawiki/Hallinden.txt"
+      }
+    },
+    {
+      "id": "hallinden-led-10",
+      "kind": "route",
+      "number": null,
+      "name": "Rapé",
+      "grade": "6+",
+      "length": "50",
+      "type": "trad",
+      "firstAscent": "Rikard Hedman, Per Calleberg",
+      "description": "Fin sva- och diederklättring.",
+      "source": {
+        "id": "legacy:hallinden",
+        "path": "mediawiki/Hallinden.txt"
+      }
+    },
+    {
+      "id": "hallinden-led-11",
+      "kind": "route",
+      "number": null,
+      "name": "Blåsningen",
+      "grade": "7+",
+      "length": "50",
+      "type": "trad",
+      "firstAscent": "Rikard Hedman",
+      "description": "Startar som Rapé, men viker av åt höger efter hyllan och följer den tunna spricklinjen.",
+      "source": {
+        "id": "legacy:hallinden",
+        "path": "mediawiki/Hallinden.txt"
+      }
+    },
+    {
+      "id": "hallinden-led-12",
+      "kind": "route",
+      "number": null,
+      "name": "Ettan",
+      "grade": "6",
+      "length": "50",
+      "type": "trad",
+      "firstAscent": "Lars Grankvist, Lars Svadangs",
+      "description": "Fin och lång led.",
+      "source": {
+        "id": "legacy:hallinden",
+        "path": "mediawiki/Hallinden.txt"
+      }
+    },
+    {
+      "id": "hallinden-led-13",
+      "kind": "route",
+      "number": null,
+      "name": "Catch",
+      "grade": "7+",
+      "length": "50",
+      "type": "trad",
+      "firstAscent": "Rikard Hedman, Jan Liljemark",
+      "description": "Långt och fint.",
+      "source": {
+        "id": "legacy:hallinden",
+        "path": "mediawiki/Hallinden.txt"
+      }
+    },
+    {
+      "id": "hallinden-led-14",
+      "kind": "route",
+      "number": null,
+      "name": "General",
+      "grade": "8-",
+      "length": "45",
+      "type": "trad",
+      "firstAscent": "Rikard Hedman, Johan Luhr",
+      "description": "Långt och fint.",
+      "source": {
+        "id": "legacy:hallinden",
+        "path": "mediawiki/Hallinden.txt"
+      }
+    },
+    {
+      "id": "hallinden-led-15",
+      "kind": "route",
+      "number": null,
+      "name": "I andra hand",
+      "grade": "5+",
+      "length": "50",
+      "type": "trad",
+      "firstAscent": "Lars Svadang, Lars Grankvist",
+      "description": "Lite mogen klättring, men inget att vara rädd för.",
+      "source": {
+        "id": "legacy:hallinden",
+        "path": "mediawiki/Hallinden.txt"
+      }
+    },
+    {
+      "id": "hallinden-led-16",
+      "kind": "route",
+      "number": null,
+      "name": "Svarta Katten",
+      "grade": "7",
+      "length": "15",
+      "type": "trad",
+      "firstAscent": "Rikard Hedman, Per Calleberg",
+      "description": "Ofta blöt. Ofta skitig.",
+      "source": {
+        "id": "legacy:hallinden",
+        "path": "mediawiki/Hallinden.txt"
+      }
+    },
+    {
+      "id": "hallinden-led-17",
+      "kind": "route",
+      "number": null,
+      "name": "Veckans Värsting",
+      "grade": "8",
+      "length": "25",
+      "type": "trad",
+      "firstAscent": "Rikard Hedman",
+      "description": "Brant och ihållande jamklättring.",
+      "source": {
+        "id": "legacy:hallinden",
+        "path": "mediawiki/Hallinden.txt"
+      }
+    },
+    {
+      "id": "hallinden-led-18",
+      "kind": "route",
+      "number": null,
+      "name": "Goa Brunetter",
+      "grade": "8-",
+      "length": "27",
+      "type": "trad",
+      "firstAscent": "Henrik Bolander, Stefan Wulf",
+      "description": "Startar på det stora flaket. Brant och ihållande jamklättring.",
+      "source": {
+        "id": "legacy:hallinden",
+        "path": "mediawiki/Hallinden.txt"
+      }
+    },
+    {
+      "id": "hallinden-led-19",
+      "kind": "route",
+      "number": null,
+      "name": "Afterburner",
+      "grade": "6+",
+      "length": "27",
+      "type": "trad",
+      "firstAscent": "Joakim Olofsson, Andreas Ulvdell",
+      "description": "Brant och ihållande jamklättring.",
+      "source": {
+        "id": "legacy:hallinden",
+        "path": "mediawiki/Hallinden.txt"
+      }
+    },
+    {
+      "id": "hallinden-led-20",
+      "kind": "route",
+      "number": null,
+      "name": "Afterburner - Variant",
+      "grade": "7/7+",
+      "length": "27",
+      "type": "trad",
+      "firstAscent": "",
+      "description": "Traversera vänster direkt efter starten och sedan rakt upp.",
+      "source": {
+        "id": "legacy:hallinden",
+        "path": "mediawiki/Hallinden.txt"
+      }
+    },
+    {
+      "id": "hallinden-led-21",
+      "kind": "route",
+      "number": null,
+      "name": "Too Cool For School",
+      "grade": "8/8+",
+      "length": "27",
+      "type": "trad",
+      "firstAscent": "Petter Restorp, Oskar Alexandersson",
+      "description": "Startar en meter till höger om After Burner.",
+      "source": {
+        "id": "legacy:hallinden",
+        "path": "mediawiki/Hallinden.txt"
+      }
+    },
+    {
+      "id": "hallinden-led-22",
+      "kind": "route",
+      "number": null,
+      "name": "Boomerang",
+      "grade": "8/8+",
+      "length": "30",
+      "type": "trad",
+      "firstAscent": "Robert Caspersen",
+      "description": "Sprickan till höger om Afterburner.",
+      "source": {
+        "id": "legacy:hallinden",
+        "path": "mediawiki/Hallinden.txt"
+      }
+    },
+    {
+      "id": "hallinden-led-23",
+      "kind": "route",
+      "number": null,
+      "name": "Pansarkryssaren Potempkin",
+      "grade": "8-/8",
+      "length": "35",
+      "type": "trad",
+      "firstAscent": "Torkel Røisli",
+      "description": "Brant och ihållande jamklättring.",
+      "source": {
+        "id": "legacy:hallinden",
+        "path": "mediawiki/Hallinden.txt"
+      }
+    },
+    {
+      "id": "hallinden-led-24",
+      "kind": "route",
+      "number": null,
+      "name": "Kristi Brud",
+      "grade": "8+",
+      "length": "35",
+      "type": "trad",
+      "firstAscent": "Torkel Røisli",
+      "description": "Sprickan till vänster om Ont Blot. Insteg vid knäckt gran, traversera tillbaka 3m mot Ont Blot och seda upp via lister till sprickan som följs till toppen.",
+      "source": {
+        "id": "legacy:hallinden",
+        "path": "mediawiki/Hallinden.txt"
+      }
+    },
+    {
+      "id": "hallinden-led-25",
+      "kind": "route",
+      "number": null,
+      "name": "Ont Blot",
+      "grade": "6+",
+      "length": "35",
+      "type": "trad",
+      "firstAscent": "Michael Jansson",
+      "description": "Brant och ihållande jamklättring.",
+      "source": {
+        "id": "legacy:hallinden",
+        "path": "mediawiki/Hallinden.txt"
+      }
+    },
+    {
+      "id": "hallinden-led-26",
+      "kind": "route",
+      "number": null,
+      "name": "Ond Brud",
+      "grade": "7-",
+      "length": "35",
+      "type": "trad",
+      "firstAscent": "Petter Restorp",
+      "description": "Klättra Ont Blot men traversera vänster ungefär halvvägs. Kul alternativ.",
+      "source": {
+        "id": "legacy:hallinden",
+        "path": "mediawiki/Hallinden.txt"
+      }
+    },
+    {
+      "id": "hallinden-led-27",
+      "kind": "route",
+      "number": null,
+      "name": "Gå På Pumpen",
+      "grade": "8-/8",
+      "length": "45",
+      "type": "trad",
+      "firstAscent": "Rikard Hedman",
+      "description": "Startar med en 15-meters travers tills den givna linjen nås. Brant och ihållande jamklättring.",
+      "source": {
+        "id": "legacy:hallinden",
+        "path": "mediawiki/Hallinden.txt"
+      }
+    },
+    {
+      "id": "hallinden-led-28",
+      "kind": "route",
+      "number": null,
+      "name": "Per Pølsefinger",
+      "grade": "8",
+      "length": "40",
+      "type": "trad",
+      "firstAscent": "Torkel Røisli -03",
+      "description": "To riss starter på hver sin side av ett tre, rett etter at du har gått opp den lille avsatsen ved det store taket. Dette er risset på høyre side av treet og er ofte vått de første metrene.",
+      "source": {
+        "id": "legacy:hallinden",
+        "path": "mediawiki/Hallinden.txt"
+      }
+    },
+    {
+      "id": "hallinden-led-29",
+      "kind": "route",
+      "number": null,
+      "name": "Stör Inte Blommorna På Min Led",
+      "grade": "7-",
+      "length": "30",
+      "type": "trad",
+      "firstAscent": "Torkel Røisli, Ulrika Tiegs",
+      "description": "Den tydliga handsprickan.",
+      "source": {
+        "id": "legacy:hallinden",
+        "path": "mediawiki/Hallinden.txt"
+      }
+    },
+    {
+      "id": "hallinden-led-30",
+      "kind": "route",
+      "number": null,
+      "name": "Blommor till Mor",
+      "grade": "6",
+      "length": "25",
+      "type": "trad",
+      "firstAscent": "Ulrika Tiegs, Torkel Røisli",
+      "description": "Startar med kamin.",
+      "source": {
+        "id": "legacy:hallinden",
+        "path": "mediawiki/Hallinden.txt"
+      }
+    },
+    {
+      "id": "hallinden-led-31",
+      "kind": "route",
+      "number": null,
+      "name": "Original",
+      "grade": "7-",
+      "length": "20",
+      "type": "trad",
+      "firstAscent": "Torkel Røisli -03",
+      "description": "Opp to avsatser i starten så forbi stor LØS trekantet blokk og riss svakt mot høyre til topps.",
+      "source": {
+        "id": "legacy:hallinden",
+        "path": "mediawiki/Hallinden.txt"
+      }
+    },
+    {
+      "id": "hallinden-led-32",
+      "kind": "route",
+      "number": null,
+      "name": "St:Bernard",
+      "grade": "7-",
+      "length": "20",
+      "type": "trad",
+      "firstAscent": "Torkel Røisli -03",
+      "description": "Riss på rødt fjell til høyre for stor kløft formasjon.",
+      "source": {
+        "id": "legacy:hallinden",
+        "path": "mediawiki/Hallinden.txt"
+      }
+    },
+    {
+      "id": "hallinden-led-33",
+      "kind": "route",
+      "number": null,
+      "name": "Grov",
+      "grade": "6",
+      "length": "20",
+      "type": "trad",
+      "firstAscent": "Torkel Røisli -03",
+      "description": "Start i dieder med ow riss opp til liten hylle, fortsett opp dieder til riss.",
+      "source": {
+        "id": "legacy:hallinden",
+        "path": "mediawiki/Hallinden.txt"
+      }
+    },
+    {
+      "id": "hallinden-led-34",
+      "kind": "route",
+      "number": null,
+      "name": "Norskehjelpa",
+      "grade": "6+",
+      "length": "15",
+      "type": "trad",
+      "firstAscent": "Torkel Røisli",
+      "description": "Grov spricka och dieder.",
+      "source": {
+        "id": "legacy:hallinden",
+        "path": "mediawiki/Hallinden.txt"
+      }
+    },
+    {
+      "id": "hallinden-led-35",
+      "kind": "route",
+      "number": null,
+      "name": "Nicorette",
+      "grade": "4+",
+      "length": "18",
+      "type": "trad",
+      "firstAscent": "",
+      "description": "Dieder.",
+      "source": {
+        "id": "legacy:hallinden",
+        "path": "mediawiki/Hallinden.txt"
+      }
+    },
+    {
+      "id": "hallinden-led-36",
+      "kind": "route",
+      "number": null,
+      "name": "Söndagstur Med Hagen",
+      "grade": "8-",
+      "length": "25",
+      "type": "trad",
+      "firstAscent": "Dag Hagen, Torkel Røisli",
+      "description": "Diagonal tunn spricka.",
+      "source": {
+        "id": "legacy:hallinden",
+        "path": "mediawiki/Hallinden.txt"
+      }
+    },
+    {
+      "id": "hallinden-led-37",
+      "kind": "route",
+      "number": null,
+      "name": "Sunday Bouldering",
+      "grade": "8-/8",
+      "length": "25",
+      "type": "mix",
+      "firstAscent": "Torkel Røisli",
+      "description": "En borrbult i starten och en kort travers för att nå sprickan. Direktinsteget är ännu ej gjort.",
+      "source": {
+        "id": "legacy:hallinden",
+        "path": "mediawiki/Hallinden.txt"
+      }
+    },
+    {
+      "id": "hallinden-led-38",
+      "kind": "route",
+      "number": null,
+      "name": "Pekka Svinger Kosten",
+      "grade": "7/7+",
+      "length": "30",
+      "type": "trad",
+      "firstAscent": "Halvor Hagen",
+      "description": "Traversera ganska långt väster över kanten för att nå till hörn och spricka som följs till toppen. Firningsankare.",
+      "source": {
+        "id": "legacy:hallinden",
+        "path": "mediawiki/Hallinden.txt"
+      }
+    },
+    {
+      "id": "hallinden-led-39",
+      "kind": "route",
+      "number": null,
+      "name": "Fueled on coffee, powered by bacon",
+      "grade": "7",
+      "length": "30",
+      "type": "trad",
+      "firstAscent": "Torkel Røisli",
+      "description": "Traversera väster över kanten och klättra rätt upp i diedret. En klassiker! Firningsankare.",
+      "source": {
+        "id": "legacy:hallinden",
+        "path": "mediawiki/Hallinden.txt"
+      }
+    },
+    {
+      "id": "hallinden-led-40",
+      "kind": "route",
+      "number": null,
+      "name": "Fredriksens Arete",
+      "grade": "8-",
+      "length": "25",
+      "type": "mix",
+      "firstAscent": "Torkel Røisli",
+      "description": "Areten. 3 borrbutar.",
+      "source": {
+        "id": "legacy:hallinden",
+        "path": "mediawiki/Hallinden.txt"
+      }
+    },
+    {
+      "id": "hallinden-led-41",
+      "kind": "route",
+      "number": null,
+      "name": "Soft Fredriksens Arete",
+      "grade": "7-",
+      "length": "25",
+      "type": "trad",
+      "firstAscent": "Torkel Røisli",
+      "description": "Samma som förra leden upp till hyllan. Följ sedan sprickan till vänster om areten till toppen.",
+      "source": {
+        "id": "legacy:hallinden",
+        "path": "mediawiki/Hallinden.txt"
+      }
+    },
+    {
+      "id": "hallinden-led-42",
+      "kind": "route",
+      "number": null,
+      "name": "Sorte Mand",
+      "grade": "6",
+      "length": "25",
+      "type": "trad",
+      "firstAscent": "Torkel Røisli",
+      "description": "Diedret till höger om areten.",
+      "source": {
+        "id": "legacy:hallinden",
+        "path": "mediawiki/Hallinden.txt"
+      }
+    },
+    {
+      "id": "hallinden-led-43",
+      "kind": "route",
+      "number": null,
+      "name": "Pastorn",
+      "grade": "6-",
+      "length": "25",
+      "type": "trad",
+      "firstAscent": "Gro Gujord Tangen",
+      "description": "Spricklinjen alldeles till höger om Sorte mand.",
+      "source": {
+        "id": "legacy:hallinden",
+        "path": "mediawiki/Hallinden.txt"
+      }
+    },
+    {
+      "id": "hallinden-led-44",
+      "kind": "route",
+      "number": null,
+      "name": "Pyttsan",
+      "grade": "6-",
+      "length": "20",
+      "type": "trad",
+      "firstAscent": "Tina Jorgensen",
+      "description": "",
+      "source": {
+        "id": "legacy:hallinden",
+        "path": "mediawiki/Hallinden.txt"
+      }
+    },
+    {
+      "id": "hallinden-led-45",
+      "kind": "route",
+      "number": null,
+      "name": "Mari",
+      "grade": "6-",
+      "length": "20",
+      "type": "trad",
+      "firstAscent": "Tina Jorgensen, Jappe Pålsgård",
+      "description": "Samma insteg som Pyttsan i 2meter. Följ sedan bågen åt höger och därefter sprickan rakt upp.",
+      "source": {
+        "id": "legacy:hallinden",
+        "path": "mediawiki/Hallinden.txt"
+      }
+    },
+    {
+      "id": "hallinden-led-46",
+      "kind": "route",
+      "number": null,
+      "name": "Hagenrisset",
+      "grade": "7+",
+      "length": "20",
+      "type": "trad",
+      "firstAscent": "Dag Hagen",
+      "description": "Brant bred spricka till höger om det fasta repet. Kan klättras med enklare start.",
+      "source": {
+        "id": "legacy:hallinden",
+        "path": "mediawiki/Hallinden.txt"
+      }
+    },
+    {
+      "id": "hallinden-led-47",
+      "kind": "route",
+      "number": null,
+      "name": "Andra Försök",
+      "grade": "6",
+      "length": "10",
+      "type": "trad",
+      "firstAscent": "Niklas Björnerstedt, Torkel Røisli -01",
+      "description": "",
+      "source": {
+        "id": "legacy:hallinden",
+        "path": "mediawiki/Hallinden.txt"
+      }
+    },
+    {
+      "id": "hallinden-led-48",
+      "kind": "route",
+      "number": null,
+      "name": "Grevling I Taket",
+      "grade": "7",
+      "length": "15",
+      "type": "trad",
+      "firstAscent": "Torkel Røisli -00",
+      "description": "",
+      "source": {
+        "id": "legacy:hallinden",
+        "path": "mediawiki/Hallinden.txt"
+      }
+    },
+    {
+      "id": "hallinden-led-49",
+      "kind": "route",
+      "number": null,
+      "name": "1905",
+      "grade": "7-/7",
+      "length": "15",
+      "type": "trad",
+      "firstAscent": "Torkel Røisli -98",
+      "description": "",
+      "source": {
+        "id": "legacy:hallinden",
+        "path": "mediawiki/Hallinden.txt"
+      }
+    },
+    {
+      "id": "hallinden-led-50",
+      "kind": "route",
+      "number": null,
+      "name": "Redern Flagget Ut",
+      "grade": "7/7+",
+      "length": "16",
+      "type": "trad",
+      "firstAscent": "Torkel Røisli -00",
+      "description": "",
+      "source": {
+        "id": "legacy:hallinden",
+        "path": "mediawiki/Hallinden.txt"
+      }
+    },
+    {
+      "id": "hallinden-led-51",
+      "kind": "route",
+      "number": null,
+      "name": "First Blob",
+      "grade": "7",
+      "length": "20",
+      "type": "trad",
+      "firstAscent": "Dag Hagen, Torkel Røisli -99",
+      "description": "Den breda sprickan.",
+      "source": {
+        "id": "legacy:hallinden",
+        "path": "mediawiki/Hallinden.txt"
+      }
+    },
+    {
+      "id": "hallinden-led-52",
+      "kind": "route",
+      "number": null,
+      "name": "Piss Meg I Öret",
+      "grade": "7-",
+      "length": "18",
+      "type": "trad",
+      "firstAscent": "Torkel Røisli -98",
+      "description": "",
+      "source": {
+        "id": "legacy:hallinden",
+        "path": "mediawiki/Hallinden.txt"
+      }
+    },
+    {
+      "id": "hallinden-led-53",
+      "kind": "route",
+      "number": null,
+      "name": "Feil Finger I Feil Hull",
+      "grade": "8",
+      "length": "20",
+      "type": "trad",
+      "firstAscent": "Torkel Røisli -98",
+      "description": "",
+      "source": {
+        "id": "legacy:hallinden",
+        "path": "mediawiki/Hallinden.txt"
+      }
+    },
+    {
+      "id": "hallinden-led-54",
+      "kind": "route",
+      "number": null,
+      "name": "Ø",
+      "grade": "7-/7",
+      "length": "25",
+      "type": "trad",
+      "firstAscent": "Torkel Røisli -99",
+      "description": "",
+      "source": {
+        "id": "legacy:hallinden",
+        "path": "mediawiki/Hallinden.txt"
+      }
+    },
+    {
+      "id": "hallinden-led-55",
+      "kind": "route",
+      "number": null,
+      "name": "?",
+      "grade": "9-",
+      "length": "22",
+      "type": "mix",
+      "firstAscent": "Said Belhaj -10",
+      "description": "limbultar och några egna säkringar",
+      "source": {
+        "id": "legacy:hallinden",
+        "path": "mediawiki/Hallinden.txt"
+      }
+    },
+    {
+      "id": "hallinden-led-56",
+      "kind": "route",
+      "number": null,
+      "name": "Pekkas Diplomtur",
+      "grade": "6",
+      "length": "22",
+      "type": "trad",
+      "firstAscent": "Niklas Björnerstedt",
+      "description": "Handjamspricka till firningsankare.",
+      "source": {
+        "id": "legacy:hallinden",
+        "path": "mediawiki/Hallinden.txt"
+      }
+    },
+    {
+      "id": "hallinden-led-57",
+      "kind": "route",
+      "number": null,
+      "name": "Beauty School Drop Out",
+      "grade": "9-/9",
+      "length": "22",
+      "type": "trad",
+      "firstAscent": "Petter Restorp",
+      "description": "Sportig och ihållande.",
+      "source": {
+        "id": "legacy:hallinden",
+        "path": "mediawiki/Hallinden.txt"
+      }
+    },
+    {
+      "id": "hallinden-led-58",
+      "kind": "route",
+      "number": null,
+      "name": "Graduation Day",
+      "grade": "8+",
+      "length": "22",
+      "type": "trad",
+      "firstAscent": "Oskar Alexandersson",
+      "description": "Klättra BSDO men undviker toppkruxet genom att traversera in i nästa led 5 meter under toppen.",
+      "source": {
+        "id": "legacy:hallinden",
+        "path": "mediawiki/Hallinden.txt"
+      }
+    },
+    {
+      "id": "hallinden-led-59",
+      "kind": "route",
+      "number": null,
+      "name": "My Event Horison",
+      "grade": "9-",
+      "length": "20",
+      "type": "trad",
+      "firstAscent": "Torkel Røisli",
+      "description": "Kort travers från höger till vänster i starten. Sen är det bara att klättra rätt upp. Firningsankare.",
+      "source": {
+        "id": "legacy:hallinden",
+        "path": "mediawiki/Hallinden.txt"
+      }
+    },
+    {
+      "id": "hallinden-led-60",
+      "kind": "route",
+      "number": null,
+      "name": "X3",
+      "grade": "7-/7",
+      "length": "30",
+      "type": "trad",
+      "firstAscent": "Torkel Røisli -00",
+      "description": "",
+      "source": {
+        "id": "legacy:hallinden",
+        "path": "mediawiki/Hallinden.txt"
+      }
+    }
+  ],
+  "images": [],
+  "access": {
+    "legacyText": "Parkeringen för Hallinden har ändrats sen den gamla föraren skrevs 2002. Parkera nu vid Hallindens pendelparkering. Den gamla parkeringen få ej användas och tänk inte ens på att köra in på traktorstigen till klippan. Detta har skett vid upprepade tillfällen och är ABSOLUT inte tillåtet. Händer detta igen riskerar vi att klippan stängs.",
+    "federationSlug": "hallinden"
+  },
+  "qualityIssues": [],
+  "provenance": {
+    "primarySourceId": "legacy:hallinden",
+    "sources": [
+      {
+        "id": "legacy:hallinden",
+        "title": "Sverigeföraren 2014: Hallinden",
+        "path": "mediawiki/Hallinden.txt",
+        "license": "GNU Free Documentation License",
+        "snapshotDate": "2014-01-01"
+      }
+    ]
+  }
+}

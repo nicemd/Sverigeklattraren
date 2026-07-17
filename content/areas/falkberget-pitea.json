@@ -1,0 +1,131 @@
+{
+  "schemaVersion": 1,
+  "id": "falkberget-pitea",
+  "slug": "falkberget-pitea",
+  "name": "Falkberget, Piteå",
+  "description": "En 10m hög vägg som det huvudsakligen topprepas på. Svaigt på höger sida och överhängade på vänster sida. Det kan vara bra at he med sig en bit statiskt rep för att rigga toppankare.",
+  "coordinates": null,
+  "categories": [
+    "Norrbotten",
+    "sva",
+    "trad",
+    "överhäng"
+  ],
+  "sections": [
+    {
+      "id": "allmant",
+      "title": "Allmänt",
+      "body": "En 10m hög vägg som det huvudsakligen topprepas på. Svaigt på höger sida och överhängade på vänster sida. Det kan vara bra at he med sig en bit statiskt rep för att rigga toppankare."
+    },
+    {
+      "id": "vagbeskrivning",
+      "title": "Vägbeskrivning",
+      "body": "Om du kommer från Piteå, så kör till väg 373, som går mot Älvsbyn. Passera Öjebyn. Klippan kan man skymta uppe på höger sida. När du passerat skylten \"Kapell Begravningsplats\" så kör du vidare 200m, där det står en skylt \"Råbergsspåret\". Sväng höger där och följ skogsvägen. Parkera och följ stigen mot klippan."
+    },
+    {
+      "id": "hoger-sida",
+      "title": "Höger sida",
+      "body": "Här har det nog klättrats på varje millimeter av den svaiga klippan, men bara en led brukar ledas."
+    },
+    {
+      "id": "vanster-sida",
+      "title": "Vänster sida",
+      "body": "(från höger till vänster) Kategori:Norrbotten"
+    }
+  ],
+  "routes": [
+    {
+      "id": "falkberget-pitea-led-1",
+      "kind": "route",
+      "number": null,
+      "name": "?",
+      "grade": "4+",
+      "length": "10",
+      "type": "trad",
+      "firstAscent": "?",
+      "description": "Flakspricka som ligger nära det enorma blocket",
+      "source": {
+        "id": "legacy:falkberget-pitea",
+        "path": "mediawiki/Falkberget, Piteå.txt"
+      }
+    },
+    {
+      "id": "falkberget-pitea-led-2",
+      "kind": "route",
+      "number": null,
+      "name": "?",
+      "grade": "5+",
+      "length": "10",
+      "type": "trad",
+      "firstAscent": "?",
+      "description": "Det vänstra av de två, mossiga diedrarna.",
+      "source": {
+        "id": "legacy:falkberget-pitea",
+        "path": "mediawiki/Falkberget, Piteå.txt"
+      }
+    },
+    {
+      "id": "falkberget-pitea-led-3",
+      "kind": "route",
+      "number": null,
+      "name": "Sörlänningen",
+      "grade": "7+",
+      "length": "10",
+      "type": "mix",
+      "firstAscent": "?",
+      "description": "Den enda bulten på berget sitter i starten på denna led. Ihållande.",
+      "source": {
+        "id": "legacy:falkberget-pitea",
+        "path": "mediawiki/Falkberget, Piteå.txt"
+      }
+    },
+    {
+      "id": "falkberget-pitea-led-4",
+      "kind": "route",
+      "number": null,
+      "name": "Projekt",
+      "grade": "projekt",
+      "length": "10",
+      "type": "trad",
+      "firstAscent": "?",
+      "description": "Överhängande stor spricka. Måste rensas.",
+      "source": {
+        "id": "legacy:falkberget-pitea",
+        "path": "mediawiki/Falkberget, Piteå.txt"
+      }
+    },
+    {
+      "id": "falkberget-pitea-led-5",
+      "kind": "route",
+      "number": null,
+      "name": "Projekt",
+      "grade": "projekt",
+      "length": "10",
+      "type": "trad",
+      "firstAscent": "?",
+      "description": "Överhängande spricksystem. Måste rensas.",
+      "source": {
+        "id": "legacy:falkberget-pitea",
+        "path": "mediawiki/Falkberget, Piteå.txt"
+      }
+    }
+  ],
+  "images": [],
+  "access": {
+    "legacyText": null,
+    "federationSlug": null
+  },
+  "qualityIssues": [],
+  "provenance": {
+    "primarySourceId": "legacy:falkberget-pitea",
+    "sources": [
+      {
+        "id": "legacy:falkberget-pitea",
+        "title": "Sverigeföraren 2014: Falkberget, Piteå",
+        "path": "mediawiki/Falkberget, Piteå.txt",
+        "license": "GNU Free Documentation License",
+        "snapshotDate": "2014-01-01"
+      }
+    ]
+  }
+}

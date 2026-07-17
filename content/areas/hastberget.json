@@ -1,0 +1,332 @@
+{
+  "schemaVersion": 1,
+  "id": "hastberget",
+  "slug": "hastberget",
+  "name": "Hästberget",
+  "description": "Kategori:Saknar allmän infoKategori:Saknar vägbeskrivning =Sektorer=",
+  "coordinates": null,
+  "categories": [
+    "Behöver kvalitetssäkras",
+    "Bimbo",
+    "Bouldering",
+    "Saknar allmän info",
+    "Saknar karta",
+    "Saknar koordinater",
+    "Saknar skiss",
+    "Saknar skrivarformattering",
+    "Saknar vägbeskrivning",
+    "Sundsvall"
+  ],
+  "sections": [
+    {
+      "id": "ovre-vaggen",
+      "title": "Övre väggen",
+      "body": "=Problem= Kategori:Sundsvall Kategori:Bouldering Kategori:Bimbo Kategori:Behöver kvalitetssäkras Kategori:Saknar karta Kategori:Saknar koordinater Kategori:Saknar skrivarformattering Kategori:Saknar skiss"
+    }
+  ],
+  "routes": [
+    {
+      "id": "hastberget-problem-1",
+      "kind": "problem",
+      "number": "1",
+      "name": "Epiphany",
+      "grade": "7A",
+      "length": "",
+      "type": "Mantling,Överhäng,Dyno",
+      "firstAscent": "Fredrik Bodin",
+      "description": "Startar med händerna på stenen under. Dubbeldyno upp till spetsen och sedan rakt upp.",
+      "source": {
+        "id": "legacy:hastberget",
+        "path": "mediawiki/Hästberget.txt"
+      }
+    },
+    {
+      "id": "hastberget-problem-2",
+      "kind": "problem",
+      "number": "2",
+      "name": "Epiphany static",
+      "grade": "6B",
+      "length": "",
+      "type": "Krimp,Slopers,Överhäng",
+      "firstAscent": "Fredrik Bodin",
+      "description": "Startar med händerna på stenen under, går rakt upp via spetsen.",
+      "source": {
+        "id": "legacy:hastberget",
+        "path": "mediawiki/Hästberget.txt"
+      }
+    },
+    {
+      "id": "hastberget-problem-3",
+      "kind": "problem",
+      "number": "3",
+      "name": "Klossa",
+      "grade": "6B",
+      "length": "",
+      "type": "Krimp,Slopers,Mantling",
+      "firstAscent": "Fredrik Bodin",
+      "description": "Startar med vänster hand på stora greppet inne i sprickan, går sedan åt vänster ut på spetsen och sedan upp.",
+      "source": {
+        "id": "legacy:hastberget",
+        "path": "mediawiki/Hästberget.txt"
+      }
+    },
+    {
+      "id": "hastberget-problem-4",
+      "kind": "problem",
+      "number": "4",
+      "name": "Livtag",
+      "grade": "6A+",
+      "length": "",
+      "type": "Krimp,Mantling,Överhäng",
+      "firstAscent": "Fredrik Bodin",
+      "description": "Sittstart under överhänget, går rakt upp på den högra sidan.",
+      "source": {
+        "id": "legacy:hastberget",
+        "path": "mediawiki/Hästberget.txt"
+      }
+    },
+    {
+      "id": "hastberget-problem-5",
+      "kind": "problem",
+      "number": "5",
+      "name": "Slopey Hollow",
+      "grade": "6A",
+      "length": "",
+      "type": "Krimp,Slopers",
+      "firstAscent": "Fredrik Bodin",
+      "description": "Börjar med händerna på tydliga listen, går sedan rakt upp via pocketen. Stenen till vänster är ej med.",
+      "source": {
+        "id": "legacy:hastberget",
+        "path": "mediawiki/Hästberget.txt"
+      }
+    },
+    {
+      "id": "hastberget-problem-6",
+      "kind": "problem",
+      "number": "6",
+      "name": "Slopey Hollow (ss)",
+      "grade": "6C+",
+      "length": "",
+      "type": "Krimp,Slopers",
+      "firstAscent": "Fredrik Bodin",
+      "description": "Sittstart vid areten, går rakt upp. Stenen till vänster är ej med.",
+      "source": {
+        "id": "legacy:hastberget",
+        "path": "mediawiki/Hästberget.txt"
+      }
+    },
+    {
+      "id": "hastberget-problem-7",
+      "kind": "problem",
+      "number": "7",
+      "name": "Slopey Hollow Direct",
+      "grade": "6C",
+      "length": "",
+      "type": "Krimp,Dyno",
+      "firstAscent": "Fredrik Bodin",
+      "description": "Börjar på den tydliga listen, dyno upp till kanten.",
+      "source": {
+        "id": "legacy:hastberget",
+        "path": "mediawiki/Hästberget.txt"
+      }
+    },
+    {
+      "id": "hastberget-problem-8",
+      "kind": "problem",
+      "number": null,
+      "name": "Air Force One",
+      "grade": "6C",
+      "length": "",
+      "type": "Dyno",
+      "firstAscent": "Fredrik Bodin",
+      "description": "Delikat dynoproblem, där man börjar med händerna på hyllan under överhänget och sedan är det bara att kliva upp och skicka på de ca 180 centimetrarna upp till slutjuggen.",
+      "source": {
+        "id": "legacy:hastberget",
+        "path": "mediawiki/Hästberget.txt"
+      }
+    },
+    {
+      "id": "hastberget-problem-9",
+      "kind": "problem",
+      "number": null,
+      "name": "Sideline",
+      "grade": "7A+",
+      "length": "",
+      "type": "Krimp,Reach",
+      "firstAscent": "Christofer Björklund",
+      "description": "Börjar med ett gaston högt upp för högerhanden och en minimal crimp för vänsterhanden, går rakt upp. Kroppstung.",
+      "source": {
+        "id": "legacy:hastberget",
+        "path": "mediawiki/Hästberget.txt"
+      }
+    },
+    {
+      "id": "hastberget-problem-10",
+      "kind": "problem",
+      "number": null,
+      "name": "Another Snatch",
+      "grade": "7A",
+      "length": "",
+      "type": "Krimp",
+      "firstAscent": "Christofer Björklund",
+      "description": "Gaston för vänster och crimp för högern, går sedan rakt upp.",
+      "source": {
+        "id": "legacy:hastberget",
+        "path": "mediawiki/Hästberget.txt"
+      }
+    },
+    {
+      "id": "hastberget-problem-11",
+      "kind": "problem",
+      "number": null,
+      "name": "?",
+      "grade": "6C",
+      "length": "",
+      "type": "Krimp,Slopers,Dyno",
+      "firstAscent": "Christofer Björklund",
+      "description": "Dynoproblem där man börjar med händerna i den horisontella sprickan på ett par krimprar, skicka sedan på till kanten och mantla.",
+      "source": {
+        "id": "legacy:hastberget",
+        "path": "mediawiki/Hästberget.txt"
+      }
+    },
+    {
+      "id": "hastberget-problem-12",
+      "kind": "problem",
+      "number": null,
+      "name": "Sjätte sinnet",
+      "grade": "7C",
+      "length": "",
+      "type": "Krimp,Dyno",
+      "firstAscent": "Fredrik Bodin",
+      "description": "Börjar med händerna på den tydliga listen, går rakt upp. Sprickorna till vänster och höger är uteslutna men det blir som helt naturligt.",
+      "source": {
+        "id": "legacy:hastberget",
+        "path": "mediawiki/Hästberget.txt"
+      }
+    },
+    {
+      "id": "hastberget-problem-13",
+      "kind": "problem",
+      "number": null,
+      "name": "Femte elementet",
+      "grade": "6C",
+      "length": "",
+      "type": "Krimp",
+      "firstAscent": "Fredrik Bodin",
+      "description": "Börjar vid den bra hyllan, går rakt upp utan att använda sprickan ute till höger.",
+      "source": {
+        "id": "legacy:hastberget",
+        "path": "mediawiki/Hästberget.txt"
+      }
+    },
+    {
+      "id": "hastberget-problem-14",
+      "kind": "problem",
+      "number": null,
+      "name": "Nyskick",
+      "grade": "6B+",
+      "length": "",
+      "type": "Highball,Jug,Spricka",
+      "firstAscent": "Fredrik Bodin",
+      "description": "Börjar med händerna på det stora underclinget, följer sedan sprickorna rakt upp.",
+      "source": {
+        "id": "legacy:hastberget",
+        "path": "mediawiki/Hästberget.txt"
+      }
+    },
+    {
+      "id": "hastberget-problem-15",
+      "kind": "problem",
+      "number": null,
+      "name": "Dr. Digger",
+      "grade": "6C",
+      "length": "",
+      "type": "Krimp",
+      "firstAscent": "Fredrik Bodin",
+      "description": "Sittstart till höger om \"Another Snatch\", går rakt upp.",
+      "source": {
+        "id": "legacy:hastberget",
+        "path": "mediawiki/Hästberget.txt"
+      }
+    },
+    {
+      "id": "hastberget-problem-16",
+      "kind": "problem",
+      "number": null,
+      "name": "???",
+      "grade": "6A",
+      "length": "",
+      "type": "Krimp,Spricka",
+      "firstAscent": "Christofer Björklund",
+      "description": "Går rakt upp vid sprickan.",
+      "source": {
+        "id": "legacy:hastberget",
+        "path": "mediawiki/Hästberget.txt"
+      }
+    },
+    {
+      "id": "hastberget-problem-17",
+      "kind": "problem",
+      "number": null,
+      "name": "Rhapsody on Rock",
+      "grade": "7B",
+      "length": "",
+      "type": "Krimp,Reach",
+      "firstAscent": "Fredrik Bodin",
+      "description": "Ståstart till vänster om \"Nyskick\", går rakt upp. Sprickan som \"Nyskick\" går upp i är ej med.",
+      "source": {
+        "id": "legacy:hastberget",
+        "path": "mediawiki/Hästberget.txt"
+      }
+    },
+    {
+      "id": "hastberget-problem-18",
+      "kind": "problem",
+      "number": null,
+      "name": "Midway",
+      "grade": "7B",
+      "length": "",
+      "type": "Krimp",
+      "firstAscent": "Fredrik Bodin",
+      "description": "Startar med höger hand på samma startgrepp som man har för vänster hand på \"Another Snatch\" och vänster hand också på en sidepull. Går snett upp åt vänster.",
+      "source": {
+        "id": "legacy:hastberget",
+        "path": "mediawiki/Hästberget.txt"
+      }
+    },
+    {
+      "id": "hastberget-problem-19",
+      "kind": "problem",
+      "number": null,
+      "name": "Sjätte Sinnet (ss)",
+      "grade": "7C+",
+      "length": "",
+      "type": "Krimp,Överhäng,Dyno",
+      "firstAscent": "Fredrik Bodin",
+      "description": "Sittstart med händerna på hyllan, går rakt upp i \"Sjätte Sinnet\". Sprickan ute till vänster är utesluten men det är ganska naturligt.",
+      "source": {
+        "id": "legacy:hastberget",
+        "path": "mediawiki/Hästberget.txt"
+      }
+    }
+  ],
+  "images": [],
+  "access": {
+    "legacyText": null,
+    "federationSlug": null
+  },
+  "qualityIssues": [],
+  "provenance": {
+    "primarySourceId": "legacy:hastberget",
+    "sources": [
+      {
+        "id": "legacy:hastberget",
+        "title": "Sverigeföraren 2014: Hästberget",
+        "path": "mediawiki/Hästberget.txt",
+        "license": "GNU Free Documentation License",
+        "snapshotDate": "2014-01-01"
+      }
+    ]
+  }
+}

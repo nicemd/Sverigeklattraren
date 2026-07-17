@@ -1,0 +1,284 @@
+{
+  "schemaVersion": 1,
+  "id": "kvark",
+  "slug": "kvark",
+  "name": "Kvärk",
+  "description": "16 dokumenterade leder och problem.",
+  "coordinates": null,
+  "categories": [
+    "Skåne",
+    "sport"
+  ],
+  "sections": [
+    {
+      "id": "access",
+      "title": "Access",
+      "body": "Kategori:sport"
+    },
+    {
+      "id": "leder",
+      "title": "Leder",
+      "body": "Följande leder har klättrats då det tidigare var tillåtet. Det är alltså inte tillåtet att klättra dessa. Från vänster till höger. Kategori:Skåne"
+    }
+  ],
+  "routes": [
+    {
+      "id": "kvark-led-1",
+      "kind": "route",
+      "number": "1",
+      "name": "Dieder svider",
+      "grade": "6b",
+      "length": "10",
+      "type": "sport",
+      "firstAscent": "Ronny Ek",
+      "description": "Diedern längst till vänster. Teknisk. Ankare",
+      "source": {
+        "id": "legacy:kvark",
+        "path": "mediawiki/Kvärk.txt"
+      }
+    },
+    {
+      "id": "kvark-led-2",
+      "kind": "route",
+      "number": "2",
+      "name": "Tura",
+      "grade": "5c",
+      "length": "10",
+      "type": "sport",
+      "firstAscent": "Ola Knutsson",
+      "description": "Fantastiskt kul på goda grepp. Ankare",
+      "source": {
+        "id": "legacy:kvark",
+        "path": "mediawiki/Kvärk.txt"
+      }
+    },
+    {
+      "id": "kvark-led-3",
+      "kind": "route",
+      "number": "3",
+      "name": "Scanline",
+      "grade": "6a",
+      "length": "10",
+      "type": "sport",
+      "firstAscent": "Ola Knutsson",
+      "description": "Enligt vissa ännu roligare på ännu bättre grepp. Ankare",
+      "source": {
+        "id": "legacy:kvark",
+        "path": "mediawiki/Kvärk.txt"
+      }
+    },
+    {
+      "id": "kvark-led-4",
+      "kind": "route",
+      "number": "4",
+      "name": "Ryggkliaren",
+      "grade": "6c",
+      "length": "10",
+      "type": "sport",
+      "firstAscent": "Ola Knutsson",
+      "description": "Kanten/areten som avslutar den vänstra väggen åt höger. Ankare",
+      "source": {
+        "id": "legacy:kvark",
+        "path": "mediawiki/Kvärk.txt"
+      }
+    },
+    {
+      "id": "kvark-led-5",
+      "kind": "route",
+      "number": "5",
+      "name": "Jassosopass",
+      "grade": "8a",
+      "length": "10",
+      "type": "sport",
+      "firstAscent": "Harald Bohlin",
+      "description": "Den överhängande areten. Ankare",
+      "source": {
+        "id": "legacy:kvark",
+        "path": "mediawiki/Kvärk.txt"
+      }
+    },
+    {
+      "id": "kvark-led-6",
+      "kind": "route",
+      "number": "6",
+      "name": "Nils Holgersson",
+      "grade": "7b",
+      "length": "12",
+      "type": "sport",
+      "firstAscent": "Fredrik Rapp",
+      "description": "Krimpig väggklättring på vinkelväggen. En variant som går ut åt vänster efter fjärde bulten finns. Ungefär samma grad. Ankare",
+      "source": {
+        "id": "legacy:kvark",
+        "path": "mediawiki/Kvärk.txt"
+      }
+    },
+    {
+      "id": "kvark-led-7",
+      "kind": "route",
+      "number": "7",
+      "name": "Pilevallen",
+      "grade": "7a",
+      "length": "12",
+      "type": "sport",
+      "firstAscent": "Harald Bohlin",
+      "description": "Linjen som går tätt bakom trädet. Teknisk. Ankare",
+      "source": {
+        "id": "legacy:kvark",
+        "path": "mediawiki/Kvärk.txt"
+      }
+    },
+    {
+      "id": "kvark-led-8",
+      "kind": "route",
+      "number": "8",
+      "name": "Rullebören",
+      "grade": "6a+",
+      "length": "10",
+      "type": "sport",
+      "firstAscent": "Ola Knutsson",
+      "description": "Lite flackare linje på den lilla plattan. Teknisk. Ankare",
+      "source": {
+        "id": "legacy:kvark",
+        "path": "mediawiki/Kvärk.txt"
+      }
+    },
+    {
+      "id": "kvark-led-9",
+      "kind": "route",
+      "number": "9",
+      "name": "Spittekakan",
+      "grade": "6b",
+      "length": "10",
+      "type": "sport",
+      "firstAscent": "Ola Knutsson",
+      "description": "Teknisk klättring upp längs areteformationen. Kul avslutning på slopekanten Ankare",
+      "source": {
+        "id": "legacy:kvark",
+        "path": "mediawiki/Kvärk.txt"
+      }
+    },
+    {
+      "id": "kvark-led-10",
+      "kind": "route",
+      "number": "10",
+      "name": "Gåsapågen",
+      "grade": "8a+",
+      "length": "10",
+      "type": "sport",
+      "firstAscent": "Karl-Ola Boström",
+      "description": "Brant lutande diederformation. Bra med små fingrar.Ankare",
+      "source": {
+        "id": "legacy:kvark",
+        "path": "mediawiki/Kvärk.txt"
+      }
+    },
+    {
+      "id": "kvark-led-11",
+      "kind": "route",
+      "number": "11",
+      "name": "Killar kan",
+      "grade": "6c",
+      "length": "8",
+      "type": "sport",
+      "firstAscent": "Mattias Skafar",
+      "description": "Startar i den tydliga sprickan mitt på väggen men viker sen något vänster. Ankare",
+      "source": {
+        "id": "legacy:kvark",
+        "path": "mediawiki/Kvärk.txt"
+      }
+    },
+    {
+      "id": "kvark-led-12",
+      "kind": "route",
+      "number": "12",
+      "name": "Tösabiten",
+      "grade": "7c",
+      "length": "10",
+      "type": "sport",
+      "firstAscent": "Gustav Kamf",
+      "description": "Den kraftigt övehängande röda plattan. Krimpig. Ankare",
+      "source": {
+        "id": "legacy:kvark",
+        "path": "mediawiki/Kvärk.txt"
+      }
+    },
+    {
+      "id": "kvark-led-13",
+      "kind": "route",
+      "number": "13",
+      "name": "Tingvalla",
+      "grade": "6c",
+      "length": "10",
+      "type": "sport",
+      "firstAscent": "Fredrik Rapp",
+      "description": "Den högra av de överhängande linjerna. Jugfest hela vägen. Ankare",
+      "source": {
+        "id": "legacy:kvark",
+        "path": "mediawiki/Kvärk.txt"
+      }
+    },
+    {
+      "id": "kvark-led-14",
+      "kind": "route",
+      "number": "14",
+      "name": "Bonnaläppen",
+      "grade": "7a",
+      "length": "10",
+      "type": "sport",
+      "firstAscent": "Gustav Kamf",
+      "description": "Går ut i vänsterkant av det tydliga taket. Ankare",
+      "source": {
+        "id": "legacy:kvark",
+        "path": "mediawiki/Kvärk.txt"
+      }
+    },
+    {
+      "id": "kvark-led-15",
+      "kind": "route",
+      "number": "15",
+      "name": "Bonnalurken",
+      "grade": "6b+",
+      "length": "10",
+      "type": "sport",
+      "firstAscent": "Gustav Kamf",
+      "description": "Går höger om det tydliga taket. Ankare samma som ovan",
+      "source": {
+        "id": "legacy:kvark",
+        "path": "mediawiki/Kvärk.txt"
+      }
+    },
+    {
+      "id": "kvark-led-16",
+      "kind": "route",
+      "number": "16",
+      "name": "Raps",
+      "grade": "6b+",
+      "length": "8",
+      "type": "sport",
+      "firstAscent": "Fredrik Rapp",
+      "description": "Brokig linje längst till höger uppe i backen. Ankare",
+      "source": {
+        "id": "legacy:kvark",
+        "path": "mediawiki/Kvärk.txt"
+      }
+    }
+  ],
+  "images": [],
+  "access": {
+    "legacyText": "Kategori:sport",
+    "federationSlug": "kvark"
+  },
+  "qualityIssues": [],
+  "provenance": {
+    "primarySourceId": "legacy:kvark",
+    "sources": [
+      {
+        "id": "legacy:kvark",
+        "title": "Sverigeföraren 2014: Kvärk",
+        "path": "mediawiki/Kvärk.txt",
+        "license": "GNU Free Documentation License",
+        "snapshotDate": "2014-01-01"
+      }
+    ]
+  }
+}

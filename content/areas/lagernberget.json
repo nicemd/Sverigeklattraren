@@ -1,0 +1,387 @@
+{
+  "schemaVersion": 1,
+  "id": "lagernberget",
+  "slug": "lagernberget",
+  "name": "Lägernberget",
+  "description": "Klippan ligger nära sjön Östra Lägern ungefär mitt mellan Tranås och Eksjö. Från Tranås åker man väg 131 mot Hestra och Österbymo. Sväng höger i Sund mot Forsnäs gård. Precis innan Forsnäs gård sväng höger mot Hestrahult. Från Eksjö åker man väg 134 åt nordost, mot Österbymo. En dryg halvmil efter Rydsnäs tar man vänster mot Forsnäs gård. Efter att ha passerat Forsnäs gård sväng snett fram åt vänster mot Hestrahult. Från Kisa åker man väg 134 mot Österbymo och Eksjö. Tre kilometer efter Österbymo tar man höger mot Forsnäs gård. Efter att ha passerat Forsnäs gård sväng snett fram åt vänster mot Hestrahult. Efter avtaget mot Hestrahult följ vägen en knapp kilometer och sväng sedan vänster vid de första husen i Hestrahult. Följ vägen 3 kilometer och sväng sedan höger mot Lopperyd. Vid Lopperyds gård finns en bra parkering precis innan bommen. Från parkeringen är det två kilometers promenad till klippan. Fotsätt längs vägen en knapp kilometer till ett T-kors och ta vänster. Vägen kommer nu att gå som ett stort U med två nittiograders högersvängar. Vid den stora vänstersvängen gå in i skogen i ungefär samma riktning som vänsterdelen av U-et. Det är c:a 200 meter genom skogen till klippan.",
+  "coordinates": {
+    "latitude": 57.840323,
+    "longitude": 15.134025
+  },
+  "categories": [
+    "Sport",
+    "sva",
+    "Trad",
+    "vertikalt",
+    "Östergötland",
+    "överhäng"
+  ],
+  "sections": [
+    {
+      "id": "karta",
+      "title": "Karta",
+      "body": "Kategori:ÖstergötlandKategori:svaKategori:överhängKategori:vertikaltKategori:TradKategori:Sport"
+    },
+    {
+      "id": "vagbeskrivning",
+      "title": "Vägbeskrivning",
+      "body": "Klippan ligger nära sjön Östra Lägern ungefär mitt mellan Tranås och Eksjö. Från Tranås åker man väg 131 mot Hestra och Österbymo. Sväng höger i Sund mot Forsnäs gård. Precis innan Forsnäs gård sväng höger mot Hestrahult. Från Eksjö åker man väg 134 åt nordost, mot Österbymo. En dryg halvmil efter Rydsnäs tar man vänster mot Forsnäs gård. Efter att ha passerat Forsnäs gård sväng snett fram åt vänster mot Hestrahult. Från Kisa åker man väg 134 mot Österbymo och Eksjö. Tre kilometer efter Österbymo tar man höger mot Forsnäs gård. Efter att ha passerat Forsnäs gård sväng snett fram åt vänster mot Hestrahult. Efter avtaget mot Hestrahult följ vägen en knapp kilometer och sväng sedan vänster vid de första husen i Hestrahult. Följ vägen 3 kilometer och sväng sedan höger mot Lopperyd. Vid Lopperyds gård finns en bra parkering precis innan bommen. Från parkeringen är det två kilometers promenad till klippan. Fotsätt längs vägen en knapp kilometer till ett T-kors och ta vänster. Vägen kommer nu att gå som ett stort U med två nittiograders högersvängar. Vid den stora vänstersvängen gå in i skogen i ungefär samma riktning som vänsterdelen av U-et. Det är c:a 200 meter genom skogen till klippan."
+    },
+    {
+      "id": "access",
+      "title": "Access",
+      "body": "Kolla vädret vid Lägernberget"
+    },
+    {
+      "id": "lankar",
+      "title": "Länkar",
+      "body": "Höglandsklättrarnas sida om Lägernberget Förare tillhandahållen av Linköpings klätterklubb."
+    }
+  ],
+  "routes": [
+    {
+      "id": "lagernberget-led-1",
+      "kind": "route",
+      "number": "1",
+      "name": "Den Yttersta Vänstern",
+      "grade": "5",
+      "length": "15",
+      "type": "trad",
+      "firstAscent": "Per Gustavsson -91",
+      "description": "",
+      "source": {
+        "id": "legacy:lagernberget",
+        "path": "mediawiki/Lägernberget.txt"
+      }
+    },
+    {
+      "id": "lagernberget-led-2",
+      "kind": "route",
+      "number": "2",
+      "name": "En Bulldog i Mina Byxor",
+      "grade": "6c",
+      "length": "10",
+      "type": "sport",
+      "firstAscent": "Jonas Håkansson -95",
+      "description": "",
+      "source": {
+        "id": "legacy:lagernberget",
+        "path": "mediawiki/Lägernberget.txt"
+      }
+    },
+    {
+      "id": "lagernberget-led-3",
+      "kind": "route",
+      "number": "3",
+      "name": "Till Puh",
+      "grade": "5",
+      "length": "20",
+      "type": "trad",
+      "firstAscent": "Jonas Håkansson -93",
+      "description": "",
+      "source": {
+        "id": "legacy:lagernberget",
+        "path": "mediawiki/Lägernberget.txt"
+      }
+    },
+    {
+      "id": "lagernberget-led-4",
+      "kind": "route",
+      "number": "4",
+      "name": "Trackingroute",
+      "grade": "5",
+      "length": "18",
+      "type": "trad",
+      "firstAscent": "Per Gustavsson -91",
+      "description": "",
+      "source": {
+        "id": "legacy:lagernberget",
+        "path": "mediawiki/Lägernberget.txt"
+      }
+    },
+    {
+      "id": "lagernberget-led-5",
+      "kind": "route",
+      "number": "5",
+      "name": "The Pan Within",
+      "grade": "6a",
+      "length": "18",
+      "type": "sport",
+      "firstAscent": "Magnus Nordqvist -95",
+      "description": "",
+      "source": {
+        "id": "legacy:lagernberget",
+        "path": "mediawiki/Lägernberget.txt"
+      }
+    },
+    {
+      "id": "lagernberget-led-6",
+      "kind": "route",
+      "number": "6",
+      "name": "Blues För Lyckliga Lillie",
+      "grade": "6a",
+      "length": "18",
+      "type": "sport",
+      "firstAscent": "Johan Ragnarsson -94",
+      "description": "",
+      "source": {
+        "id": "legacy:lagernberget",
+        "path": "mediawiki/Lägernberget.txt"
+      }
+    },
+    {
+      "id": "lagernberget-led-7",
+      "kind": "route",
+      "number": "7",
+      "name": "lnget Försök Inget Misslyckande",
+      "grade": "7a+",
+      "length": "18",
+      "type": "sport",
+      "firstAscent": "",
+      "description": "",
+      "source": {
+        "id": "legacy:lagernberget",
+        "path": "mediawiki/Lägernberget.txt"
+      }
+    },
+    {
+      "id": "lagernberget-led-8",
+      "kind": "route",
+      "number": "8",
+      "name": "En Engelsman I Mina Byxor",
+      "grade": "6",
+      "length": "18",
+      "type": "trad",
+      "firstAscent": "Jonas Håkansson -94",
+      "description": "",
+      "source": {
+        "id": "legacy:lagernberget",
+        "path": "mediawiki/Lägernberget.txt"
+      }
+    },
+    {
+      "id": "lagernberget-led-9",
+      "kind": "route",
+      "number": "9",
+      "name": "Hipp Hipp Hurra",
+      "grade": "5-",
+      "length": "20",
+      "type": "trad",
+      "firstAscent": "Jenny Ragnarsson -95",
+      "description": "",
+      "source": {
+        "id": "legacy:lagernberget",
+        "path": "mediawiki/Lägernberget.txt"
+      }
+    },
+    {
+      "id": "lagernberget-led-10",
+      "kind": "route",
+      "number": "10",
+      "name": "N A P",
+      "grade": "7a+",
+      "length": "14",
+      "type": "sport",
+      "firstAscent": "Nils Gustavsson -94",
+      "description": "",
+      "source": {
+        "id": "legacy:lagernberget",
+        "path": "mediawiki/Lägernberget.txt"
+      }
+    },
+    {
+      "id": "lagernberget-led-11",
+      "kind": "route",
+      "number": "11",
+      "name": "I Mitten, Något Till Vänster",
+      "grade": "6c+",
+      "length": "20",
+      "type": "sport",
+      "firstAscent": "Johan Ragnarsson -96",
+      "description": "",
+      "source": {
+        "id": "legacy:lagernberget",
+        "path": "mediawiki/Lägernberget.txt"
+      }
+    },
+    {
+      "id": "lagernberget-led-12",
+      "kind": "route",
+      "number": "12",
+      "name": "Stampe Tar Syra",
+      "grade": "6b+",
+      "length": "18",
+      "type": "sport",
+      "firstAscent": "Johan Ragnarsson -95",
+      "description": "",
+      "source": {
+        "id": "legacy:lagernberget",
+        "path": "mediawiki/Lägernberget.txt"
+      }
+    },
+    {
+      "id": "lagernberget-led-13",
+      "kind": "route",
+      "number": "13",
+      "name": "Psykokanin",
+      "grade": "6c+",
+      "length": "18",
+      "type": "sport",
+      "firstAscent": "Johan Ragnarsson -95",
+      "description": "",
+      "source": {
+        "id": "legacy:lagernberget",
+        "path": "mediawiki/Lägernberget.txt"
+      }
+    },
+    {
+      "id": "lagernberget-led-14",
+      "kind": "route",
+      "number": "14",
+      "name": "Preparing To Fly",
+      "grade": "7a+",
+      "length": "10",
+      "type": "sport",
+      "firstAscent": "Magnus Nordqvist -95",
+      "description": "",
+      "source": {
+        "id": "legacy:lagernberget",
+        "path": "mediawiki/Lägernberget.txt"
+      }
+    },
+    {
+      "id": "lagernberget-led-15",
+      "kind": "route",
+      "number": "15",
+      "name": "?",
+      "grade": "?",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "",
+      "description": "",
+      "source": {
+        "id": "legacy:lagernberget",
+        "path": "mediawiki/Lägernberget.txt"
+      }
+    },
+    {
+      "id": "lagernberget-led-16",
+      "kind": "route",
+      "number": "16",
+      "name": "Det Var Knepigt Det Här Sa Bill",
+      "grade": "7",
+      "length": "10",
+      "type": "trad",
+      "firstAscent": "Johan Ragnarsson -96",
+      "description": "",
+      "source": {
+        "id": "legacy:lagernberget",
+        "path": "mediawiki/Lägernberget.txt"
+      }
+    },
+    {
+      "id": "lagernberget-led-17",
+      "kind": "route",
+      "number": "17",
+      "name": "Vidgade Vyer Vortex",
+      "grade": "6-",
+      "length": "10",
+      "type": "trad",
+      "firstAscent": "Jonas Håkansson -94",
+      "description": "",
+      "source": {
+        "id": "legacy:lagernberget",
+        "path": "mediawiki/Lägernberget.txt"
+      }
+    },
+    {
+      "id": "lagernberget-led-18",
+      "kind": "route",
+      "number": "18",
+      "name": "Elake Måns",
+      "grade": "4+",
+      "length": "10",
+      "type": "trad",
+      "firstAscent": "Johan & Jenny Ragnarsson -95",
+      "description": "",
+      "source": {
+        "id": "legacy:lagernberget",
+        "path": "mediawiki/Lägernberget.txt"
+      }
+    },
+    {
+      "id": "lagernberget-led-19",
+      "kind": "route",
+      "number": "19",
+      "name": "Fix Orcidé",
+      "grade": "6",
+      "length": "8",
+      "type": "trad",
+      "firstAscent": "Jonas Håkansson -95",
+      "description": "",
+      "source": {
+        "id": "legacy:lagernberget",
+        "path": "mediawiki/Lägernberget.txt"
+      }
+    },
+    {
+      "id": "lagernberget-led-20",
+      "kind": "route",
+      "number": "20",
+      "name": "Skriet Från Lekparken",
+      "grade": "6+",
+      "length": "8",
+      "type": "trad",
+      "firstAscent": "Johan Håkansson -96",
+      "description": "",
+      "source": {
+        "id": "legacy:lagernberget",
+        "path": "mediawiki/Lägernberget.txt"
+      }
+    },
+    {
+      "id": "lagernberget-led-21",
+      "kind": "route",
+      "number": "21",
+      "name": "Den Extrema Högern",
+      "grade": "5",
+      "length": "7",
+      "type": "trad",
+      "firstAscent": "Per G. , Anders K -91",
+      "description": "",
+      "source": {
+        "id": "legacy:lagernberget",
+        "path": "mediawiki/Lägernberget.txt"
+      }
+    }
+  ],
+  "images": [
+    {
+      "filename": "Lagern-leder-vanster.jpg",
+      "caption": "",
+      "missing": false
+    },
+    {
+      "filename": "Lagern-leder-hoger.jpg",
+      "caption": "",
+      "missing": false
+    }
+  ],
+  "access": {
+    "legacyText": "Kolla vädret vid Lägernberget",
+    "federationSlug": "lagernberget"
+  },
+  "qualityIssues": [],
+  "provenance": {
+    "primarySourceId": "legacy:lagernberget",
+    "sources": [
+      {
+        "id": "legacy:lagernberget",
+        "title": "Sverigeföraren 2014: Lägernberget",
+        "path": "mediawiki/Lägernberget.txt",
+        "license": "GNU Free Documentation License",
+        "snapshotDate": "2014-01-01"
+      }
+    ]
+  }
+}

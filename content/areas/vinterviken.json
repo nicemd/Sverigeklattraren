@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 1,
+  "id": "vinterviken",
+  "slug": "vinterviken",
+  "name": "Vinterviken",
+  "description": "Klippan är lite rutten på sina ställen. Den vänstra delen är finast, där kan man få ihop några problem 5c-7a typ.",
+  "coordinates": null,
+  "categories": [],
+  "sections": [
+    {
+      "id": "allmant",
+      "title": "Allmänt",
+      "body": "Klippan är lite rutten på sina ställen. Den vänstra delen är finast, där kan man få ihop några problem 5c-7a typ."
+    },
+    {
+      "id": "vagbeskrivning",
+      "title": "Vägbeskrivning",
+      "body": "Klippan ligger några minuters promenad ut på udden från Vintervikens Café (gamla Skulpturens hus) sett. Klippan ligger till höger om stigen."
+    },
+    {
+      "id": "leder",
+      "title": "Leder",
+      "body": "Ett kvarvarande projekt från tidigare besök är traversen längs hela väggen. Från vänster till höger har testats, men ej länkats. Det finns också några problem på två låga, svagt överhängande väggar längre bort åt höger."
+    },
+    {
+      "id": "repturer",
+      "title": "Repturer",
+      "body": "Jodå det finns ett par sådana en ligger till höger om kaminen. Det fladdriga örat 6c ledd som en sport tur då ett stastiskt rep med öglor hängdes från toppen. Den andra tvärs över viken i en spränggrop ca: 7a-7b trestjärnig faktisk. Också den led på samma sätt. Dessa gjordes för en 4-5 år sedan."
+    }
+  ],
+  "routes": [
+    {
+      "id": "vinterviken-problem-1",
+      "kind": "problem",
+      "number": "1",
+      "name": "Projekt",
+      "grade": "?",
+      "length": "",
+      "type": "",
+      "firstAscent": "",
+      "description": "Stå ej på utkrypande bergdel i starten.",
+      "source": {
+        "id": "legacy:vinterviken",
+        "path": "mediawiki/Vinterviken.txt"
+      }
+    },
+    {
+      "id": "vinterviken-problem-2",
+      "kind": "problem",
+      "number": "2",
+      "name": "Sommardans",
+      "grade": "5a",
+      "length": "",
+      "type": "",
+      "firstAscent": "T. Rönnbäck, 2011",
+      "description": "SS. Prova att göra den med så få moves som möjligt..",
+      "source": {
+        "id": "legacy:vinterviken",
+        "path": "mediawiki/Vinterviken.txt"
+      }
+    },
+    {
+      "id": "vinterviken-problem-3",
+      "kind": "problem",
+      "number": "3",
+      "name": "Höstlöv",
+      "grade": "6a*",
+      "length": "",
+      "type": "",
+      "firstAscent": "T. Rönnbäck, 2011",
+      "description": "SS)",
+      "source": {
+        "id": "legacy:vinterviken",
+        "path": "mediawiki/Vinterviken.txt"
+      }
+    }
+  ],
+  "images": [
+    {
+      "filename": "Vinterviken_vänster.jpg",
+      "caption": "",
+      "missing": false
+    },
+    {
+      "filename": "Vinterviken_höger.jpg",
+      "caption": "",
+      "missing": false
+    }
+  ],
+  "access": {
+    "legacyText": null,
+    "federationSlug": null
+  },
+  "qualityIssues": [],
+  "provenance": {
+    "primarySourceId": "legacy:vinterviken",
+    "sources": [
+      {
+        "id": "legacy:vinterviken",
+        "title": "Sverigeföraren 2014: Vinterviken",
+        "path": "mediawiki/Vinterviken.txt",
+        "license": "GNU Free Documentation License",
+        "snapshotDate": "2014-01-01"
+      }
+    ]
+  }
+}

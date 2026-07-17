@@ -1,0 +1,896 @@
+{
+  "schemaVersion": 1,
+  "id": "ryssgraven",
+  "slug": "ryssgraven",
+  "name": "Ryssgraven",
+  "description": "Svabetonad klättring vackert belägen vid Kungsängen.En utmärkt klippa för klättrare som vill ha bra säkrade leder på fin klippa i graderna 4-6 varav dom allra flesta går bra att toppa. Nära E18 med tyvärr en del motorvägsbrus som följd.",
+  "coordinates": {
+    "latitude": 59.48679,
+    "longitude": 17.76507
+  },
+  "categories": [
+    "Norra Stockholm",
+    "Sport",
+    "Stockholm",
+    "Sva",
+    "Trad"
+  ],
+  "sections": [
+    {
+      "id": "allmant",
+      "title": "Allmänt",
+      "body": "Svabetonad klättring vackert belägen vid Kungsängen.En utmärkt klippa för klättrare som vill ha bra säkrade leder på fin klippa i graderna 4-6 varav dom allra flesta går bra att toppa. Nära E18 med tyvärr en del motorvägsbrus som följd."
+    },
+    {
+      "id": "miljo",
+      "title": "Miljö",
+      "body": "Klippan ligger väl synlig från motorvägsbron innan Kungsängen, vackert belägen precis vid stranden av Mälaren i en vik som kallas Ryssgraven, lämpligt för barnfamiljer 100m till en sandstrand,eller ta med metspö till lite större barn. Klippan är östvänd och ca 100m lång och 15-25m hög, bergarten är fast och med ypperlig friktion. Huvuddelen av lederna är grad 4-6 och bra säkrade med borrbultar och kilar. De flesta lederna är försedda med toppankare som gör det lätt att ordna toppsäkring. Lederna längst till höger kan bara nås genom att man firar ned till insteget."
+    },
+    {
+      "id": "vagbeskrivning",
+      "title": "Vägbeskrivning",
+      "body": "titel=Ryssgraven lat=17765070 long=59486790 Med bil: Ta av E18 vid Kungsängen ta vänster över motorvägen, fortsätt nedför backen till T-korsning. Ta vänster på gamla Enköpingsvägen ca 500m. Parkera nedanför början på motorvägsbron inte på grusplanen i kurvan där har bilar fått P-böter. Fortsätt 300m till klippan som syns tydligt från parkeringen. Med Pendeltåg: Kliv av i Kungsängen följ gamla Enköpingsvägen ca 1000m till klippan."
+    },
+    {
+      "id": "leder",
+      "title": "Leder",
+      "body": "Lederna 35-47 ligger nedanför den långa hyllan som börjar ovanför Rasputin och går hela vägen bort till led 48. Led 37-40a kan bara nås genom att man firar ner till den lilla landtungan, lederna som börjar där är alla fina och värda att upptäcka, fira ner i någon av dom två toppankarna . Följande leder kan bara nås med firning, ett toppankare är placerade ovanför Sputnik och ett ovanför Potemkin, på den stora hyllan ovanför led 32-37 sitter ett ankare (2st borrbultar). text=Hade tidigare två(!) handslagna borrbultar men är nu ordentligt bultad. Starta från den lilla hyllan och klättra upp till tvärsprickan. Följ den med fötterna till vänster tills du oundvikligt och naturligt når Poltava. Håll höger och klättra inte in i Poltava helt och hållet. Utsteg genom eller till höger om den polerade nischen. Varierande och mycket teknisk klättring med spännande utsteg. Hårdaste leden i Ryssgraven!}} lederna 50-52 nås bäst genom att fira ner från toppankaret."
+    },
+    {
+      "id": "lankar",
+      "title": "Länkar",
+      "body": "Mark Harris stod för mycket av ursprungsmaterialet till den här sidan, och hans sida om klättring kring Uppsala är ovärderlig om man sitter fast i den uppländska leran och undrar vart alla klippor tagit vägen. Kategori:Sva Kategori:Sport Kategori:Trad Kategori:Stockholm Kategori:Norra Stockholm"
+    }
+  ],
+  "routes": [
+    {
+      "id": "ryssgraven-led-1",
+      "kind": "route",
+      "number": "1",
+      "name": "Ivan",
+      "grade": "4",
+      "length": "15",
+      "type": "trad",
+      "firstAscent": "Daniel Bidner-80",
+      "description": "Kilsäkrad klättring längst till vänster på klippan utsteg via en flakliknande spricka, standplats i träd.",
+      "source": {
+        "id": "legacy:ryssgraven",
+        "path": "mediawiki/Ryssgraven.txt"
+      }
+    },
+    {
+      "id": "ryssgraven-led-2",
+      "kind": "route",
+      "number": "2",
+      "name": "Olga",
+      "grade": "5-",
+      "length": "10",
+      "type": "mix",
+      "firstAscent": "Christer Åstrand-98",
+      "description": "Start via brant flakspricka och vidare rakt upp,insteget säkras med en kamkil sedan 3st borrbultar.",
+      "source": {
+        "id": "legacy:ryssgraven",
+        "path": "mediawiki/Ryssgraven.txt"
+      }
+    },
+    {
+      "id": "ryssgraven-led-3",
+      "kind": "route",
+      "number": "3",
+      "name": "Getingboet",
+      "grade": "3",
+      "length": "10",
+      "type": "sport",
+      "firstAscent": "Christer Åstrand-98",
+      "description": "",
+      "source": {
+        "id": "legacy:ryssgraven",
+        "path": "mediawiki/Ryssgraven.txt"
+      }
+    },
+    {
+      "id": "ryssgraven-led-4",
+      "kind": "route",
+      "number": "4",
+      "name": "Bävern",
+      "grade": "5+",
+      "length": "10",
+      "type": "mix",
+      "firstAscent": "Anders From, Christer Åstrand-07",
+      "description": "",
+      "source": {
+        "id": "legacy:ryssgraven",
+        "path": "mediawiki/Ryssgraven.txt"
+      }
+    },
+    {
+      "id": "ryssgraven-led-5",
+      "kind": "route",
+      "number": "5",
+      "name": "Volga",
+      "grade": "5+",
+      "length": "10",
+      "type": "sport",
+      "firstAscent": "Christer Åstrand, Kenneth Nolkrantz-97",
+      "description": "Fin och ihållande klättring 3st limbultar och toppankare.",
+      "source": {
+        "id": "legacy:ryssgraven",
+        "path": "mediawiki/Ryssgraven.txt"
+      }
+    },
+    {
+      "id": "ryssgraven-led-6",
+      "kind": "route",
+      "number": "6",
+      "name": "Lilla Syster Kanin",
+      "grade": "5",
+      "length": "15",
+      "type": "trad",
+      "firstAscent": "Anders Kamb, Marianne Kamb-05",
+      "description": "Startar vid en stor ek, tydlig spricka kilsäkrad,krux förbi den lilla tallen, toppankare.",
+      "source": {
+        "id": "legacy:ryssgraven",
+        "path": "mediawiki/Ryssgraven.txt"
+      }
+    },
+    {
+      "id": "ryssgraven-led-7",
+      "kind": "route",
+      "number": "7",
+      "name": "Till Nanna",
+      "grade": "5+",
+      "length": "15",
+      "type": "mix",
+      "firstAscent": "Lars Granqvist, Anders Kamb-05",
+      "description": "Samma start som Batman men går ut till vänster genom takformationen,säkras med kilar och en bult.",
+      "source": {
+        "id": "legacy:ryssgraven",
+        "path": "mediawiki/Ryssgraven.txt"
+      }
+    },
+    {
+      "id": "ryssgraven-led-8",
+      "kind": "route",
+      "number": "8",
+      "name": "Batman",
+      "grade": "5",
+      "length": "15",
+      "type": "mix",
+      "firstAscent": "Anders Kamb, Marianne Kamb-05",
+      "description": "Upp svaplattan till vänster om det stora blocket vidare rakt upp till tallen på toppen kilsäkrad och en bult.",
+      "source": {
+        "id": "legacy:ryssgraven",
+        "path": "mediawiki/Ryssgraven.txt"
+      }
+    },
+    {
+      "id": "ryssgraven-led-9",
+      "kind": "route",
+      "number": "9",
+      "name": "Frågvisa Barn",
+      "grade": "4-",
+      "length": "17",
+      "type": "trad",
+      "firstAscent": "Anders Kamb, P-O Englund-05",
+      "description": "Går till vänster om Ringrost startar vid det tydliga V-formade diedret och vidare upp via 2 paralella sprickor kilsäkrad, toppankare.",
+      "source": {
+        "id": "legacy:ryssgraven",
+        "path": "mediawiki/Ryssgraven.txt"
+      }
+    },
+    {
+      "id": "ryssgraven-led-10",
+      "kind": "route",
+      "number": "10",
+      "name": "Store Bror Kanin",
+      "grade": "5+",
+      "length": "20",
+      "type": "mix",
+      "firstAscent": "Anders Kamb, Marianne Kamb-07",
+      "description": "Startar med svaplattan 3m till vänster om diedret på Ringrost fortsätt rakt upp. 4st borrbultar och en kil på mitten, standplats med 2st borrbultar.",
+      "source": {
+        "id": "legacy:ryssgraven",
+        "path": "mediawiki/Ryssgraven.txt"
+      }
+    },
+    {
+      "id": "ryssgraven-led-11",
+      "kind": "route",
+      "number": "11",
+      "name": "Ringrost",
+      "grade": "4",
+      "length": "20",
+      "type": "mix",
+      "firstAscent": "Staffan Ericsson,Christer Åstrand-97",
+      "description": "Starta i diedret bra säkrat med kilar efter överhänget kliv ut vänster och fortsätt upp på den fina slutväggen 2 borrbultar och ankare på hyllan.",
+      "source": {
+        "id": "legacy:ryssgraven",
+        "path": "mediawiki/Ryssgraven.txt"
+      }
+    },
+    {
+      "id": "ryssgraven-led-12",
+      "kind": "route",
+      "number": "12",
+      "name": "Jord i Skorna",
+      "grade": "5",
+      "length": "22",
+      "type": "trad",
+      "firstAscent": "Anders Kamb, Marianne Kamb-05",
+      "description": "Utsteg från rännan på pelare till höger om Ringrost en bladbult.",
+      "source": {
+        "id": "legacy:ryssgraven",
+        "path": "mediawiki/Ryssgraven.txt"
+      }
+    },
+    {
+      "id": "ryssgraven-led-13",
+      "kind": "route",
+      "number": "13",
+      "name": "En guttubral skrafån",
+      "grade": "3+",
+      "length": "22",
+      "type": "trad",
+      "firstAscent": "Andreas Widell, Per Jacobsson-97",
+      "description": "Fortsätter upp i rännan till vänster om led 14.",
+      "source": {
+        "id": "legacy:ryssgraven",
+        "path": "mediawiki/Ryssgraven.txt"
+      }
+    },
+    {
+      "id": "ryssgraven-led-14",
+      "kind": "route",
+      "number": "14",
+      "name": "Plåster på såren",
+      "grade": "5",
+      "length": "22",
+      "type": "sport",
+      "firstAscent": "Kenneth Nolkrantz, Staffan Ericsson, Christer Åstrand-95",
+      "description": "Fin klättring till vänster på den stora svapelaren 6 borrbultar den sista gemensam med led 16 ankare på toppen.",
+      "source": {
+        "id": "legacy:ryssgraven",
+        "path": "mediawiki/Ryssgraven.txt"
+      }
+    },
+    {
+      "id": "ryssgraven-led-15",
+      "kind": "route",
+      "number": "15",
+      "name": "Vaccin",
+      "grade": "6-",
+      "length": "22",
+      "type": "",
+      "firstAscent": "Kenneth Nolkrantz, Staffan Ericsson, Christer Åstrand-97",
+      "description": "Inte en självständig led, går mitt på svapelaren och använder borrbultarna på led 14 och 16 och en gammal ringbult.",
+      "source": {
+        "id": "legacy:ryssgraven",
+        "path": "mediawiki/Ryssgraven.txt"
+      }
+    },
+    {
+      "id": "ryssgraven-led-16",
+      "kind": "route",
+      "number": "16",
+      "name": "Ett moln i byxor",
+      "grade": "4",
+      "length": "22",
+      "type": "sport",
+      "firstAscent": "Christer Åstrand, Kenneth Nolkrantz, Staffan Ericsson-95",
+      "description": "Jämn och fin klättring.",
+      "source": {
+        "id": "legacy:ryssgraven",
+        "path": "mediawiki/Ryssgraven.txt"
+      }
+    },
+    {
+      "id": "ryssgraven-led-17",
+      "kind": "route",
+      "number": "17",
+      "name": "En liten grön klet",
+      "grade": "3",
+      "length": "22",
+      "type": "",
+      "firstAscent": "Andreas Widell-97",
+      "description": "Går till höger om led 16 i den tydliga rännan.",
+      "source": {
+        "id": "legacy:ryssgraven",
+        "path": "mediawiki/Ryssgraven.txt"
+      }
+    },
+    {
+      "id": "ryssgraven-led-18",
+      "kind": "route",
+      "number": "18",
+      "name": "Röde Vips",
+      "grade": "4",
+      "length": "22",
+      "type": "mix",
+      "firstAscent": "Anders Kamb-07",
+      "description": "Leden startar i rännan, ut höger vid den första borrbulten och vidare rakt upp 3 borrbultar och ankare på toppen.",
+      "source": {
+        "id": "legacy:ryssgraven",
+        "path": "mediawiki/Ryssgraven.txt"
+      }
+    },
+    {
+      "id": "ryssgraven-led-19",
+      "kind": "route",
+      "number": "19",
+      "name": "Stampe",
+      "grade": "6-",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "Christer Åstrand, Anders From-07",
+      "description": "Direktinsteg till Röde Vips, 2 borrbultar.",
+      "source": {
+        "id": "legacy:ryssgraven",
+        "path": "mediawiki/Ryssgraven.txt"
+      }
+    },
+    {
+      "id": "ryssgraven-led-20",
+      "kind": "route",
+      "number": "20",
+      "name": "Kollontaj",
+      "grade": "4",
+      "length": "22",
+      "type": "sport",
+      "firstAscent": "Christer Åstrand, Anders From-07",
+      "description": "Samma start som led 19 koppla första bulten,traverera ut till höger och upp vid blocket fortsätt upp via den fina plattan till ett gemensamt utsteg med nästa led.",
+      "source": {
+        "id": "legacy:ryssgraven",
+        "path": "mediawiki/Ryssgraven.txt"
+      }
+    },
+    {
+      "id": "ryssgraven-led-21",
+      "kind": "route",
+      "number": "20a",
+      "name": "Sotaren",
+      "grade": "4",
+      "length": "8",
+      "type": "trad",
+      "firstAscent": "Christer Åstrand,-07",
+      "description": "Alternativt utsteg, liten kamkil behövs för att säkra starten.",
+      "source": {
+        "id": "legacy:ryssgraven",
+        "path": "mediawiki/Ryssgraven.txt"
+      }
+    },
+    {
+      "id": "ryssgraven-led-22",
+      "kind": "route",
+      "number": "21",
+      "name": "Efter Dagis",
+      "grade": "6",
+      "length": "22",
+      "type": "sport",
+      "firstAscent": "Christer Åstrand, Anders From-07",
+      "description": "Startar vid den lågt placerade borrbulten, efter det knepiga insteget upp på ett litet sva och vidare upp via högerkanten på plattan tills leden går ihop med led 20.",
+      "source": {
+        "id": "legacy:ryssgraven",
+        "path": "mediawiki/Ryssgraven.txt"
+      }
+    },
+    {
+      "id": "ryssgraven-led-23",
+      "kind": "route",
+      "number": "22",
+      "name": "Gökägg",
+      "grade": "7+",
+      "length": "25",
+      "type": "sport",
+      "firstAscent": "Thiemo Sieger,Okt -07",
+      "description": "Startar 2m till höger om första borrbulten i taket (också 2m till höger om den lilla tallen på hyllan), efter det svåra insteget traverserar till vänster under taket (andra borrbulten i vänstra del av taket) sedan fortsätter du ut över taket till tredje och fjärde borrbulten tills leden går ihop med led 21.",
+      "source": {
+        "id": "legacy:ryssgraven",
+        "path": "mediawiki/Ryssgraven.txt"
+      }
+    },
+    {
+      "id": "ryssgraven-led-24",
+      "kind": "route",
+      "number": "23",
+      "name": "Trotskij",
+      "grade": "5+",
+      "length": "9",
+      "type": "mix",
+      "firstAscent": "Christer Åstrand-97",
+      "description": "Kort men fin klättring, en kil efter insteget 2 borrbultar och ankare på hyllan.",
+      "source": {
+        "id": "legacy:ryssgraven",
+        "path": "mediawiki/Ryssgraven.txt"
+      }
+    },
+    {
+      "id": "ryssgraven-led-25",
+      "kind": "route",
+      "number": "24",
+      "name": "Majakovskij",
+      "grade": "7-",
+      "length": "9",
+      "type": "sport",
+      "firstAscent": "Christer Åstrand, Gudmund Söderin-97",
+      "description": "",
+      "source": {
+        "id": "legacy:ryssgraven",
+        "path": "mediawiki/Ryssgraven.txt"
+      }
+    },
+    {
+      "id": "ryssgraven-led-26",
+      "kind": "route",
+      "number": "25",
+      "name": "Peter",
+      "grade": "6",
+      "length": "9",
+      "type": "trad",
+      "firstAscent": "Daniel Bidner-80",
+      "description": "Dieder med fingerspricka i. Välsäkrad med små kammar, Ballnutz eller kilar. Ankare finns en bit till höger, lite högre upp på den stora hyllan.",
+      "source": {
+        "id": "legacy:ryssgraven",
+        "path": "mediawiki/Ryssgraven.txt"
+      }
+    },
+    {
+      "id": "ryssgraven-led-27",
+      "kind": "route",
+      "number": "26",
+      "name": "Anastasia",
+      "grade": "4",
+      "length": "9",
+      "type": "trad",
+      "firstAscent": "Kenneth Nolkrantz, Christer Åstrand-95",
+      "description": "Startar med Rasputin ut vänster i den breda sprickan.",
+      "source": {
+        "id": "legacy:ryssgraven",
+        "path": "mediawiki/Ryssgraven.txt"
+      }
+    },
+    {
+      "id": "ryssgraven-led-28",
+      "kind": "route",
+      "number": "27",
+      "name": "Rasputin",
+      "grade": "4",
+      "length": "9",
+      "type": "trad",
+      "firstAscent": "Daniel Bidner-80",
+      "description": "Fin välsäkrad spricka.",
+      "source": {
+        "id": "legacy:ryssgraven",
+        "path": "mediawiki/Ryssgraven.txt"
+      }
+    },
+    {
+      "id": "ryssgraven-led-29",
+      "kind": "route",
+      "number": "28",
+      "name": "Belsebub",
+      "grade": "6",
+      "length": "10",
+      "type": "sport",
+      "firstAscent": "Christer Åstrand, Kenneth Nolkrantz-95",
+      "description": "Startar med Rasputin 3m traversera sedan ut höger på väggen till den första borrbulten,fin klättring upp till hyllan, 4 borrbultar, det går att starta direkt nerifrån ca 6+ om man har långa armar.",
+      "source": {
+        "id": "legacy:ryssgraven",
+        "path": "mediawiki/Ryssgraven.txt"
+      }
+    },
+    {
+      "id": "ryssgraven-led-30",
+      "kind": "route",
+      "number": "29",
+      "name": "Snedrag",
+      "grade": "4",
+      "length": "8",
+      "type": "trad",
+      "firstAscent": "Christer Åstrand,-07",
+      "description": "Upp i hörnet och ut till vänster under taket och vidare upp.",
+      "source": {
+        "id": "legacy:ryssgraven",
+        "path": "mediawiki/Ryssgraven.txt"
+      }
+    },
+    {
+      "id": "ryssgraven-led-31",
+      "kind": "route",
+      "number": "30",
+      "name": "Drömhyllan",
+      "grade": "4-",
+      "length": "15",
+      "type": "sport",
+      "firstAscent": "Christer Åstrand, Anders From-08",
+      "description": "Väggen rakt ovanför Rasputin den vänstra leden, 3 borrbultar standplats på hyllan toppankare.",
+      "source": {
+        "id": "legacy:ryssgraven",
+        "path": "mediawiki/Ryssgraven.txt"
+      }
+    },
+    {
+      "id": "ryssgraven-led-32",
+      "kind": "route",
+      "number": "31",
+      "name": "Pytheas resa till Thule",
+      "grade": "6",
+      "length": "15",
+      "type": "sport",
+      "firstAscent": "Anders From, Christer Åstrand-08",
+      "description": "Leden går mellan Drömhyllan och Ilitj 3 borrbultar.",
+      "source": {
+        "id": "legacy:ryssgraven",
+        "path": "mediawiki/Ryssgraven.txt"
+      }
+    },
+    {
+      "id": "ryssgraven-led-33",
+      "kind": "route",
+      "number": "32",
+      "name": "Ilitj",
+      "grade": "4-",
+      "length": "15",
+      "type": "trad",
+      "firstAscent": "Christer Åstrand, Stefan Åstrand-96",
+      "description": "Fortsättningen rakt ovanför Rasputin fin klättring säkras med små vajerkilar och standplats på hyllan toppankare.",
+      "source": {
+        "id": "legacy:ryssgraven",
+        "path": "mediawiki/Ryssgraven.txt"
+      }
+    },
+    {
+      "id": "ryssgraven-led-34",
+      "kind": "route",
+      "number": "32a",
+      "name": "Gamla Farbror Plös",
+      "grade": "4-",
+      "length": "15",
+      "type": "mix",
+      "firstAscent": "Anders Kamb, Marianne Kamb-10",
+      "description": "Till höger om Ilitj två korta kilsäkrade diedrar och sedan väggklättring säkrat med två st borrbultar och standplats på hyllan toppankare.",
+      "source": {
+        "id": "legacy:ryssgraven",
+        "path": "mediawiki/Ryssgraven.txt"
+      }
+    },
+    {
+      "id": "ryssgraven-led-35",
+      "kind": "route",
+      "number": "33",
+      "name": "Gottlob",
+      "grade": "6-",
+      "length": "13",
+      "type": "sport",
+      "firstAscent": "Christer Åstrand, Kenneth Nolkrantz, Malin Karlsson-96",
+      "description": "Startar med Ägirs Väg men efter 3m fortsätt rakt upp till hyllan 2 borrbultar.",
+      "source": {
+        "id": "legacy:ryssgraven",
+        "path": "mediawiki/Ryssgraven.txt"
+      }
+    },
+    {
+      "id": "ryssgraven-led-36",
+      "kind": "route",
+      "number": "34",
+      "name": "Ägirs väg",
+      "grade": "6",
+      "length": "13",
+      "type": "trad",
+      "firstAscent": "Kenneth Nolkrantz, Christer Åstrand-95",
+      "description": "Startar där landremsan slutar.Delikat och osäkrad travers 6m, det sluttande fotsteget innan man kommer till det grunda diedet brukar väcka tanken på att man borde ha tagit med sig en badhandduk, sedan rakt upp till hyllan via fina tunna sprickor som det går fint att säkra i med små vajerkilar.",
+      "source": {
+        "id": "legacy:ryssgraven",
+        "path": "mediawiki/Ryssgraven.txt"
+      }
+    },
+    {
+      "id": "ryssgraven-led-37",
+      "kind": "route",
+      "number": "35",
+      "name": "Vacumneger",
+      "grade": "5-",
+      "length": "10",
+      "type": "",
+      "firstAscent": "Robin Dahlberg, Stefan Lindström, Joel Andersson-00",
+      "description": "",
+      "source": {
+        "id": "legacy:ryssgraven",
+        "path": "mediawiki/Ryssgraven.txt"
+      }
+    },
+    {
+      "id": "ryssgraven-led-38",
+      "kind": "route",
+      "number": "36",
+      "name": "Runkmunken",
+      "grade": "5",
+      "length": "10",
+      "type": "",
+      "firstAscent": "Robin Dahlberg, Stefan Lindström, Joel Andersson-00",
+      "description": "",
+      "source": {
+        "id": "legacy:ryssgraven",
+        "path": "mediawiki/Ryssgraven.txt"
+      }
+    },
+    {
+      "id": "ryssgraven-led-39",
+      "kind": "route",
+      "number": "37",
+      "name": "Ran",
+      "grade": "5-",
+      "length": "10",
+      "type": "sport",
+      "firstAscent": "Christer Åstrand,-11",
+      "description": "traversera ut vä över vattnet fortsätt rakt upp till toppankaret, fin klättring",
+      "source": {
+        "id": "legacy:ryssgraven",
+        "path": "mediawiki/Ryssgraven.txt"
+      }
+    },
+    {
+      "id": "ryssgraven-led-40",
+      "kind": "route",
+      "number": "38",
+      "name": "Dimman lättar",
+      "grade": "5+",
+      "length": "18",
+      "type": "mix",
+      "firstAscent": "Christer Åstrand, Anders From-08",
+      "description": "Startar med det fina hörnet följ den vänstra tunna spricklinjen upp till standplatsen med toppankare, bra säkrad med kilar och 1st borrbult",
+      "source": {
+        "id": "legacy:ryssgraven",
+        "path": "mediawiki/Ryssgraven.txt"
+      }
+    },
+    {
+      "id": "ryssgraven-led-41",
+      "kind": "route",
+      "number": "39",
+      "name": "Dagen efter",
+      "grade": "6-",
+      "length": "18",
+      "type": "sport",
+      "firstAscent": "Christer Åstrand, Anders From-08",
+      "description": "Startar i samma hörn som \"Dimman lättar\" men fortsätter ut ut höger uppför den branta väggen och avslutas med ett sva upp till toppankaret på föregående led.",
+      "source": {
+        "id": "legacy:ryssgraven",
+        "path": "mediawiki/Ryssgraven.txt"
+      }
+    },
+    {
+      "id": "ryssgraven-led-42",
+      "kind": "route",
+      "number": "40",
+      "name": "Storen",
+      "grade": "6",
+      "length": "19",
+      "type": "sport",
+      "firstAscent": "Christer Åstrand,Anders From-11",
+      "description": "Startar med flaksprickan och upp till nischen ut vä och vidare upp till standplats på den stora hyllan",
+      "source": {
+        "id": "legacy:ryssgraven",
+        "path": "mediawiki/Ryssgraven.txt"
+      }
+    },
+    {
+      "id": "ryssgraven-led-43",
+      "kind": "route",
+      "number": "40a",
+      "name": "Halls Hammare",
+      "grade": "6+",
+      "length": "19",
+      "type": "sport",
+      "firstAscent": "Christer Åstrand,Anders From-11",
+      "description": "Startar med flaksprickan och upp till nischen ut hö och vidare upp till standplats på den stora hyllan",
+      "source": {
+        "id": "legacy:ryssgraven",
+        "path": "mediawiki/Ryssgraven.txt"
+      }
+    },
+    {
+      "id": "ryssgraven-led-44",
+      "kind": "route",
+      "number": "41",
+      "name": "White wall",
+      "grade": "5-",
+      "length": "15",
+      "type": "trad",
+      "firstAscent": "Daniel Bidner-80",
+      "description": "Vit vägg högt upp på klippan som nås från den långa hyllan c:a 15 m t.v. om toppankaret ovanför Sputnik.",
+      "source": {
+        "id": "legacy:ryssgraven",
+        "path": "mediawiki/Ryssgraven.txt"
+      }
+    },
+    {
+      "id": "ryssgraven-led-45",
+      "kind": "route",
+      "number": "42",
+      "name": "Poltava",
+      "grade": "7-",
+      "length": "15",
+      "type": "mix",
+      "firstAscent": "Per Calleberg-95",
+      "description": "Följer en tunn spricklinje i vänstra delen av en slät vägg med ett tak mitt på. Insteg från en trekantig hylla vid vattnet. En kort skålformig dieder leder via hyllor upp till starten av de egentliga svårigheterna. Följ spricklinjen. Tre borrbultar och en liten vajerfriend. Fin led även om början är väsentligt lättare än resten.",
+      "source": {
+        "id": "legacy:ryssgraven",
+        "path": "mediawiki/Ryssgraven.txt"
+      }
+    },
+    {
+      "id": "ryssgraven-led-46",
+      "kind": "route",
+      "number": "43",
+      "name": "Boogle Man",
+      "grade": "8",
+      "length": "12",
+      "type": "sport",
+      "firstAscent": "Joel Andersson, Robin Dahlberg, Stefan Lindström-00",
+      "description": "",
+      "source": {
+        "id": "legacy:ryssgraven",
+        "path": "mediawiki/Ryssgraven.txt"
+      }
+    },
+    {
+      "id": "ryssgraven-led-47",
+      "kind": "route",
+      "number": "44",
+      "name": "Sputnik",
+      "grade": "4+",
+      "length": "8",
+      "type": "trad",
+      "firstAscent": "Christer Åstrand, Kenneth Nolkrantz, Per Calleberg-95",
+      "description": "Utsteg från hyllan ovanför Poltava säkras med kilar ankare på toppen.",
+      "source": {
+        "id": "legacy:ryssgraven",
+        "path": "mediawiki/Ryssgraven.txt"
+      }
+    },
+    {
+      "id": "ryssgraven-led-48",
+      "kind": "route",
+      "number": "45",
+      "name": "Narva",
+      "grade": "7-",
+      "length": "10",
+      "type": "sport",
+      "firstAscent": "Per Willén-99",
+      "description": "",
+      "source": {
+        "id": "legacy:ryssgraven",
+        "path": "mediawiki/Ryssgraven.txt"
+      }
+    },
+    {
+      "id": "ryssgraven-led-49",
+      "kind": "route",
+      "number": "46",
+      "name": "Faktor våt",
+      "grade": "6+",
+      "length": "15",
+      "type": "mix",
+      "firstAscent": "Miguel de Brito-95",
+      "description": "Startar från samma trekantiga hylla som Poltava. Travers höger några meter. Sedan lätt klättring upp till en hylla under den släta väggen. Borrbult. Gå inte rakt upp, utan klättra lite snett upp åt vänster. Då får man en lite känslig travers tillbaka höger in till sprickan. Någon meter ovanför finns ett litet tak. Borrbult ovanför taket, därefter leder en dieder snett upp åt vänster (krux). Säkras med kilar och någon friend förutom de två borrbultarna.",
+      "source": {
+        "id": "legacy:ryssgraven",
+        "path": "mediawiki/Ryssgraven.txt"
+      }
+    },
+    {
+      "id": "ryssgraven-led-50",
+      "kind": "route",
+      "number": "47",
+      "name": "Aurora",
+      "grade": "5+",
+      "length": "15",
+      "type": "trad",
+      "firstAscent": "Christer Åstrand, Staffan Ericsson-95",
+      "description": "Startar i en hängande standplats precis över vattnet, en borrbult och en kil, kliv ut åt vänster och följ sprickan på arêten upp till den långa hyllan, kilsäkrad.",
+      "source": {
+        "id": "legacy:ryssgraven",
+        "path": "mediawiki/Ryssgraven.txt"
+      }
+    },
+    {
+      "id": "ryssgraven-led-51",
+      "kind": "route",
+      "number": "48",
+      "name": "Potemkim",
+      "grade": "6-",
+      "length": "22",
+      "type": "sport",
+      "firstAscent": "Christer Åstrand, Staffan Ericsson, Kenneth Nolkrantz-95",
+      "description": "Startar från samma standplats som Aurora fin väggklättring upp till ett skålformat dieder, 5st borrbultar efter hyllan fortsätt rakt upp i sprickan till toppankaret.",
+      "source": {
+        "id": "legacy:ryssgraven",
+        "path": "mediawiki/Ryssgraven.txt"
+      }
+    },
+    {
+      "id": "ryssgraven-led-52",
+      "kind": "route",
+      "number": "49",
+      "name": "Muroroa",
+      "grade": "5-",
+      "length": "25",
+      "type": "mix",
+      "firstAscent": "Per Calleberg-95",
+      "description": "Ingen märkvärdig led. Startar från en liten hylla ovanför vattnet, kilsäkrad standplats där. Man behöver inte fira, utan det går att ta sig till insteget från sidan. Sedan upp och ut till vänster på plattan som utgör den högra sidan av en stor groove. Två borrbultar. Lite krystad linje, eftersom det går att följa plattans högra kant och då blir klättringen knappast mer än 3+ någonstans.",
+      "source": {
+        "id": "legacy:ryssgraven",
+        "path": "mediawiki/Ryssgraven.txt"
+      }
+    },
+    {
+      "id": "ryssgraven-led-53",
+      "kind": "route",
+      "number": "50",
+      "name": "Medelmåttornas muntra skara",
+      "grade": "4",
+      "length": "12",
+      "type": "sport",
+      "firstAscent": "Christer Åstrand, S, K-11",
+      "description": "Startar från en gräshylla och upp till ankaret på den långa hyllan under led 52.",
+      "source": {
+        "id": "legacy:ryssgraven",
+        "path": "mediawiki/Ryssgraven.txt"
+      }
+    },
+    {
+      "id": "ryssgraven-led-54",
+      "kind": "route",
+      "number": "51",
+      "name": "Familjeutflykten",
+      "grade": "4",
+      "length": "22",
+      "type": "trad",
+      "firstAscent": "Christer Åstrand, S-11",
+      "description": "Startar precis över vattnet med dom första 8m på \"Poltava\", fortsätt upp i hörnet upp till den långa hyllan följ sedan dom tydliga och fina sprickorna till toppankaret, bra säkrad med kilar.",
+      "source": {
+        "id": "legacy:ryssgraven",
+        "path": "mediawiki/Ryssgraven.txt"
+      }
+    },
+    {
+      "id": "ryssgraven-led-55",
+      "kind": "route",
+      "number": "52",
+      "name": "Exit",
+      "grade": "5",
+      "length": "8",
+      "type": "trad",
+      "firstAscent": "Christer Åstrand, S-11",
+      "description": "Startar från ankaret (2bb) på den långa hyllan, följ sprickan .",
+      "source": {
+        "id": "legacy:ryssgraven",
+        "path": "mediawiki/Ryssgraven.txt"
+      }
+    }
+  ],
+  "images": [
+    {
+      "filename": "Ryssgraven.gif",
+      "caption": "",
+      "missing": false
+    }
+  ],
+  "access": {
+    "legacyText": null,
+    "federationSlug": null
+  },
+  "qualityIssues": [],
+  "provenance": {
+    "primarySourceId": "legacy:ryssgraven",
+    "sources": [
+      {
+        "id": "legacy:ryssgraven",
+        "title": "Sverigeföraren 2014: Ryssgraven",
+        "path": "mediawiki/Ryssgraven.txt",
+        "license": "GNU Free Documentation License",
+        "snapshotDate": "2014-01-01"
+      }
+    ]
+  }
+}

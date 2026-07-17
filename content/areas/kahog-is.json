@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 1,
+  "id": "kahog-is",
+  "slug": "kahog-is",
+  "name": "Kåhög Is",
+  "description": "Två st. isfall som vätter mot sydväst. Marodören ligger mycket nära en villa.",
+  "coordinates": null,
+  "categories": [
+    "Göteborg",
+    "Is",
+    "Trad",
+    "Västergötland"
+  ],
+  "sections": [
+    {
+      "id": "allmant",
+      "title": "Allmänt",
+      "body": "Två st. isfall som vätter mot sydväst. Marodören ligger mycket nära en villa."
+    },
+    {
+      "id": "leder",
+      "title": "Leder",
+      "body": "Övre delen av fallet syns inte på bilden är blandat klippa och is. Isfallet är cirka 12-15m brant is WI4-5 (riktigt fin) sedan följt av 12-15 m mix (inte lika fin). 60 metersrep räcker precis ner vid firning från en liten ek. Fallet är cirka 15 meter (WI5 -WI6) och pelaren går att säkra bakom på klippan med friends eller kil. En rejäl enbuske finns att fira från på toppen. Rolig och varierad klätring. Det ser ut som att det kan finnas möjlighet att klättra upp till vänster om fallet för att sätta topprep. Kategori:Is"
+    },
+    {
+      "id": "vagbeskrivning",
+      "title": "Vägbeskrivning",
+      "body": "Ta E20 österut mot Lerum. Sväng av mot Jonsered och Kåhög och isen finns på berget ovanför Nedre Östangårdsvägen. (andra gatan till höger efter järnvägen) Kategori:Trad"
+    },
+    {
+      "id": "access",
+      "title": "Access",
+      "body": "Parkera med förstånd. Håll en låg profil då hus ligger mycket nära. Kommunicera med Walki-talki, telefon eller repkommando för att inte störa. Kategori:Is --Bultfeber 25 februari 2011 kl. 08.34 (CET) Kategori:Västergötland Kategori:Göteborg"
+    }
+  ],
+  "routes": [
+    {
+      "id": "kahog-is-led-1",
+      "kind": "route",
+      "number": "1",
+      "name": "Marodören",
+      "grade": "WI4 - WI5 + M?",
+      "length": "30",
+      "type": "is",
+      "firstAscent": "Stefan Weddmark 20110223",
+      "description": "",
+      "source": {
+        "id": "legacy:kahog-is",
+        "path": "mediawiki/Kåhög Is.txt"
+      }
+    },
+    {
+      "id": "kahog-is-led-2",
+      "kind": "route",
+      "number": "2",
+      "name": "Flanören",
+      "grade": "WI5 - WI6 + M?",
+      "length": "15",
+      "type": "is",
+      "firstAscent": "Stefan Weddmark 20110223",
+      "description": "",
+      "source": {
+        "id": "legacy:kahog-is",
+        "path": "mediawiki/Kåhög Is.txt"
+      }
+    }
+  ],
+  "images": [
+    {
+      "filename": "Marodören.JPG",
+      "caption": "",
+      "missing": false
+    },
+    {
+      "filename": "Flanören.JPG",
+      "caption": "",
+      "missing": false
+    }
+  ],
+  "access": {
+    "legacyText": "Parkera med förstånd. Håll en låg profil då hus ligger mycket nära. Kommunicera med Walki-talki, telefon eller repkommando för att inte störa. Kategori:Is --Bultfeber 25 februari 2011 kl. 08.34 (CET) Kategori:Västergötland Kategori:Göteborg",
+    "federationSlug": null
+  },
+  "qualityIssues": [],
+  "provenance": {
+    "primarySourceId": "legacy:kahog-is",
+    "sources": [
+      {
+        "id": "legacy:kahog-is",
+        "title": "Sverigeföraren 2014: Kåhög Is",
+        "path": "mediawiki/Kåhög Is.txt",
+        "license": "GNU Free Documentation License",
+        "snapshotDate": "2014-01-01"
+      }
+    ]
+  }
+}

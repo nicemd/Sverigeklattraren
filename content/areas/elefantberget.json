@@ -1,0 +1,170 @@
+{
+  "schemaVersion": 1,
+  "id": "elefantberget",
+  "slug": "elefantberget",
+  "name": "Elefantberget",
+  "description": "Klippan ligger vid sjön Rudan i Handen och är väl synlig från pendeltåget, alldeles innan stationen. Sitt namn har berget fått pga dess stora likhet med ett elefanthuvud som med sin snabel dricker ur Rudans vatten.",
+  "coordinates": {
+    "latitude": 59.170914,
+    "longitude": 18.137398
+  },
+  "categories": [
+    "DWS",
+    "Saknar skiss",
+    "Saknar skrivarformatering",
+    "sport",
+    "trad"
+  ],
+  "sections": [
+    {
+      "id": "allmant",
+      "title": "Allmänt",
+      "body": "Klippan ligger vid sjön Rudan i Handen och är väl synlig från pendeltåget, alldeles innan stationen. Sitt namn har berget fått pga dess stora likhet med ett elefanthuvud som med sin snabel dricker ur Rudans vatten."
+    },
+    {
+      "id": "miljo",
+      "title": "Miljö",
+      "body": "Nord och väst, öppet för solen. Sipprigt på vår och höst."
+    },
+    {
+      "id": "vagbeskrivning",
+      "title": "Vägbeskrivning",
+      "body": "Ta av från Nynäshamnsvägen mot Handen. Strax norr om Handen ta h (om du kommer norrifrån) på Kolartorpsvägen. Efter järnvägen, ta v på Ängsvägen och sedan v igen på Sotargränd. Parkera en bit in i skogen. Klippan ligger några hundra meter längre fram. Klippan ligger extremt nära den fina boulderingen i Kolartorp."
+    },
+    {
+      "id": "kommunikationer",
+      "title": "Kommunikationer",
+      "body": "Från Handens pendeltågsstation, gå runt sjöns södra ände och gå tillbaka mot norr uppe på berget."
+    },
+    {
+      "id": "leder",
+      "title": "Leder",
+      "body": "Kategori:sport Kategori:trad Kategori:DWS kategori:Saknar skiss kategori:Saknar skrivarformatering Category:Stockholm"
+    }
+  ],
+  "routes": [
+    {
+      "id": "elefantberget-led-1",
+      "kind": "route",
+      "number": "1",
+      "name": "Taste of hell",
+      "grade": "7+/8",
+      "length": "",
+      "type": "",
+      "firstAscent": "Daniel Bidner -84",
+      "description": "",
+      "source": {
+        "id": "legacy:elefantberget",
+        "path": "mediawiki/Elefantberget.txt"
+      }
+    },
+    {
+      "id": "elefantberget-led-2",
+      "kind": "route",
+      "number": "2",
+      "name": "Taste of heaven",
+      "grade": "?",
+      "length": "",
+      "type": "",
+      "firstAscent": "D Vilhelm Casteel, Stefan Kallin FF, Daniel Bidner -84",
+      "description": "",
+      "source": {
+        "id": "legacy:elefantberget",
+        "path": "mediawiki/Elefantberget.txt"
+      }
+    },
+    {
+      "id": "elefantberget-led-3",
+      "kind": "route",
+      "number": "3",
+      "name": "Elefantsprickan",
+      "grade": "9-/9",
+      "length": "~13",
+      "type": "",
+      "firstAscent": "Lars Grankvist, Rikard Hedman -80 FF: Johan Luhr -94",
+      "description": "Bultad av JL, DWS/Solad av Stefan Wulf 2007 (?)",
+      "source": {
+        "id": "legacy:elefantberget",
+        "path": "mediawiki/Elefantberget.txt"
+      }
+    },
+    {
+      "id": "elefantberget-led-4",
+      "kind": "route",
+      "number": "4",
+      "name": "Krakeli brak",
+      "grade": "8-",
+      "length": "",
+      "type": "",
+      "firstAscent": "Johan Luhr -94",
+      "description": "",
+      "source": {
+        "id": "legacy:elefantberget",
+        "path": "mediawiki/Elefantberget.txt"
+      }
+    },
+    {
+      "id": "elefantberget-led-5",
+      "kind": "route",
+      "number": "5",
+      "name": "Pip",
+      "grade": "7+/8",
+      "length": "",
+      "type": "",
+      "firstAscent": "Johan Luhr, M Denkert -94",
+      "description": "",
+      "source": {
+        "id": "legacy:elefantberget",
+        "path": "mediawiki/Elefantberget.txt"
+      }
+    },
+    {
+      "id": "elefantberget-led-6",
+      "kind": "route",
+      "number": "6",
+      "name": "Pellefant",
+      "grade": "4+",
+      "length": "~10",
+      "type": "",
+      "firstAscent": "Daniel Bidner -83",
+      "description": "",
+      "source": {
+        "id": "legacy:elefantberget",
+        "path": "mediawiki/Elefantberget.txt"
+      }
+    },
+    {
+      "id": "elefantberget-led-7",
+      "kind": "route",
+      "number": "7",
+      "name": "610 Newton",
+      "grade": "6-",
+      "length": "~8",
+      "type": "",
+      "firstAscent": "Daniel Bidner, Stefan Kallin -83",
+      "description": "",
+      "source": {
+        "id": "legacy:elefantberget",
+        "path": "mediawiki/Elefantberget.txt"
+      }
+    }
+  ],
+  "images": [],
+  "access": {
+    "legacyText": null,
+    "federationSlug": null
+  },
+  "qualityIssues": [],
+  "provenance": {
+    "primarySourceId": "legacy:elefantberget",
+    "sources": [
+      {
+        "id": "legacy:elefantberget",
+        "title": "Sverigeföraren 2014: Elefantberget",
+        "path": "mediawiki/Elefantberget.txt",
+        "license": "GNU Free Documentation License",
+        "snapshotDate": "2014-01-01"
+      }
+    ]
+  }
+}

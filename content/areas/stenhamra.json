@@ -1,0 +1,84 @@
+{
+  "schemaVersion": 1,
+  "id": "stenhamra",
+  "slug": "stenhamra",
+  "name": "Stenhamra",
+  "description": "Stenbrott i Stenhamra på södra delen av Svartsjölandet. Här finns ett flertal väggar av en höjd mellan 5–15 m. Väggarna är branta och innehåller en hel del löst material. Ett fåtal lockande formationer, i övrigt mest skräp.",
+  "coordinates": {
+    "latitude": 59.337022222222224,
+    "longitude": 17.675216666666667
+  },
+  "categories": [
+    "Norra Stockholm",
+    "Saknar skiss",
+    "Saknar vägbeskrivning",
+    "Stockholm"
+  ],
+  "sections": [
+    {
+      "id": "allmant",
+      "title": "Allmänt",
+      "body": "Stenbrott i Stenhamra på södra delen av Svartsjölandet. Här finns ett flertal väggar av en höjd mellan 5–15 m. Väggarna är branta och innehåller en hel del löst material. Ett fåtal lockande formationer, i övrigt mest skräp."
+    },
+    {
+      "id": "bilder",
+      "title": "Bilder",
+      "body": "Gammalt stenbrott som togs ur bruk 1937. Bilder finns på www.stenbrottet.nu."
+    },
+    {
+      "id": "vagbeskrivning",
+      "title": "Vägbeskrivning",
+      "body": "Kategori:Stockholm Kategori:Norra Stockholm Kategori:Saknar skiss Kategori:Saknar vägbeskrivning"
+    }
+  ],
+  "routes": [
+    {
+      "id": "stenhamra-led-1",
+      "kind": "route",
+      "number": null,
+      "name": "En krallig transvestit",
+      "grade": "6+",
+      "length": "10",
+      "type": "",
+      "firstAscent": "Claes Jelinek, Daniel Bidner, Magnus Buhre -86",
+      "description": "Den tydliga arêten längst inne i brottet. Saknar säkringsplaceringar men anses tekniskt lätt för sin grad.",
+      "source": {
+        "id": "legacy:stenhamra",
+        "path": "mediawiki/Stenhamra.txt"
+      }
+    },
+    {
+      "id": "stenhamra-led-2",
+      "kind": "route",
+      "number": null,
+      "name": "Som smort",
+      "grade": "6+",
+      "length": "10",
+      "type": "",
+      "firstAscent": "Lundahl/Sehlin -91",
+      "description": "Ett tydligt öppet hörn även det längst in i brottet.",
+      "source": {
+        "id": "legacy:stenhamra",
+        "path": "mediawiki/Stenhamra.txt"
+      }
+    }
+  ],
+  "images": [],
+  "access": {
+    "legacyText": null,
+    "federationSlug": null
+  },
+  "qualityIssues": [],
+  "provenance": {
+    "primarySourceId": "legacy:stenhamra",
+    "sources": [
+      {
+        "id": "legacy:stenhamra",
+        "title": "Sverigeföraren 2014: Stenhamra",
+        "path": "mediawiki/Stenhamra.txt",
+        "license": "GNU Free Documentation License",
+        "snapshotDate": "2014-01-01"
+      }
+    ]
+  }
+}

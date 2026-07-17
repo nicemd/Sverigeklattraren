@@ -1,0 +1,71 @@
+{
+  "schemaVersion": 1,
+  "id": "juniskar",
+  "slug": "juniskar",
+  "name": "Juniskär",
+  "description": "Kategori:Saknar allmän infoKategori:Saknar vägbeskrivning =Problem= Kategori:Sundsvall Kategori:Bouldering Kategori:Bimbo Kategori:Behöver kvalitetssäkras Kategori:Saknar karta Kategori:Saknar koordinater Kategori:Saknar skrivarformattering Kategori:Saknar skiss",
+  "coordinates": null,
+  "categories": [
+    "Behöver kvalitetssäkras",
+    "Bimbo",
+    "Bouldering",
+    "Saknar allmän info",
+    "Saknar karta",
+    "Saknar koordinater",
+    "Saknar skiss",
+    "Saknar skrivarformattering",
+    "Saknar vägbeskrivning",
+    "Sundsvall"
+  ],
+  "sections": [],
+  "routes": [
+    {
+      "id": "juniskar-problem-1",
+      "kind": "problem",
+      "number": null,
+      "name": "The Wave",
+      "grade": "6C",
+      "length": "",
+      "type": "Slopers,Mantling",
+      "firstAscent": "Christofer Björklund",
+      "description": "Hoppstart mitt på väggen, rakt under pocket listen. Sedan mantling rakt upp.",
+      "source": {
+        "id": "legacy:juniskar",
+        "path": "mediawiki/Juniskär.txt"
+      }
+    },
+    {
+      "id": "juniskar-problem-2",
+      "kind": "problem",
+      "number": null,
+      "name": "The Rightwave",
+      "grade": "6B",
+      "length": "",
+      "type": "Mantling",
+      "firstAscent": "Christofer Björklund",
+      "description": "Hoppstart till det bra greppet ca: 2 meter till höger om \"The Wave\". Går sedan till vänster och avslutas som \"The Wave\"",
+      "source": {
+        "id": "legacy:juniskar",
+        "path": "mediawiki/Juniskär.txt"
+      }
+    }
+  ],
+  "images": [],
+  "access": {
+    "legacyText": null,
+    "federationSlug": null
+  },
+  "qualityIssues": [],
+  "provenance": {
+    "primarySourceId": "legacy:juniskar",
+    "sources": [
+      {
+        "id": "legacy:juniskar",
+        "title": "Sverigeföraren 2014: Juniskär",
+        "path": "mediawiki/Juniskär.txt",
+        "license": "GNU Free Documentation License",
+        "snapshotDate": "2014-01-01"
+      }
+    ]
+  }
+}

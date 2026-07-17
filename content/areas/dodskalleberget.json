@@ -1,0 +1,714 @@
+{
+  "schemaVersion": 1,
+  "id": "dodskalleberget",
+  "slug": "dodskalleberget",
+  "name": "Dödskalleberget",
+  "description": "Mycket hög och imponerande klippa med öppet, soligt och vackert läge. En av Stockholms bästa klippor för långa leder i 7a-8a registret. Bultningen var tidigare av äventyrligt slag, men de flesta lederna har nu bultats om och är säkra att klättra.",
+  "coordinates": {
+    "latitude": 59.19512,
+    "longitude": 18.40751
+  },
+  "categories": [
+    "Mix",
+    "Sport",
+    "Stockholm",
+    "Sva",
+    "Trad",
+    "Tyresö",
+    "Vertikalt",
+    "Överhäng"
+  ],
+  "sections": [
+    {
+      "id": "allmant",
+      "title": "Allmänt",
+      "body": "Mycket hög och imponerande klippa med öppet, soligt och vackert läge. En av Stockholms bästa klippor för långa leder i 7a-8a registret. Bultningen var tidigare av äventyrligt slag, men de flesta lederna har nu bultats om och är säkra att klättra."
+    },
+    {
+      "id": "miljo",
+      "title": "Miljö",
+      "body": "På sommaren blir klippan olidligt varm. Fungerar bäst på tidig vår och sen höst, och ibland även fina vinterdagar! Den högra delen av stora väggen är hyfsat regnsäker. Gångavstånd till badklippor."
+    },
+    {
+      "id": "vagbeskrivning",
+      "title": "Vägbeskrivning",
+      "body": "titel=Dodskalleberget lat=18407510 long=59195120 Kör Tyresövägen ut på Tyresöhalvön och fortsätt rakt fram en bra stund på den kurviga vägen tills du kommer till en liten båthamn. Sväng höger och fortsätt ännu en bra bit längst en backig väg. Efter en skarp nedförsbacke ta höger på Dyviksuddsvägen. Klippan kan ses på höger sida efter ett par hundra meter. Parkera på parkeringen ca 150 m efter klippan. Parkeringen är välanvänd så lämna plats för andra bilar. Det nyinrättade naturreservatet Dyviks lövängar, ligger kring klippan, och till detta reservat finns numera skyltning. Klippan är en del av reservatet."
+    },
+    {
+      "id": "access",
+      "title": "Access",
+      "body": "Ständigt hotat av klätterförbud. Var diskreta, skräpa inte ned och håll en låg profil. Berget ingår i naturreservatet Dyviks lövängar. Parkera endast på parkeringsplatsen ca 150m efter klippan och ställ bilen så att fler bilar får plats. Bultkommittén i Stockholm nådde under 2012 en överenskommelse med Tyresö kommun, som förvaltar naturreservatet, om ombultningar av leder. Ombultningar är endast tillåtet under vissa förutsättningar och varje åtgärd måste godkännas av kommunen i ett skriftligt förfarande. http://bultkommitten.blogspot.se/2012/09/dodskalleberget-bultas-om.html"
+    },
+    {
+      "id": "lilla-vaggen-till-vanster",
+      "title": "Lilla väggen till vänster",
+      "body": "Vertikalt till svagt överhängande"
+    },
+    {
+      "id": "stora-vaggen",
+      "title": "Stora väggen",
+      "body": "Svaklättring på vänstra delen, vertikalt till svagt överhängande högra delen"
+    },
+    {
+      "id": "apvaggen",
+      "title": "Apväggen",
+      "body": "Kategori:Trad Kategori:Mix Kategori:Sport Kategori:Vertikalt Kategori:Överhäng Kategori:Sva Kategori:Stockholm Kategori:Tyresö"
+    }
+  ],
+  "routes": [
+    {
+      "id": "dodskalleberget-led-1",
+      "kind": "route",
+      "number": "1",
+      "name": "En byrå underifrån",
+      "grade": "5",
+      "length": "",
+      "type": "trad",
+      "firstAscent": "Peter Brolin, Buster Delin -96",
+      "description": "behöver inte repeteras enligt fa",
+      "source": {
+        "id": "legacy:dodskalleberget",
+        "path": "mediawiki/Dödskalleberget.txt"
+      }
+    },
+    {
+      "id": "dodskalleberget-led-2",
+      "kind": "route",
+      "number": "2",
+      "name": "Adios stupido",
+      "grade": "6+",
+      "length": "",
+      "type": "trad",
+      "firstAscent": "Gary Hansson, Tomas Hansson-89",
+      "description": "Dåligt säkrad i början",
+      "source": {
+        "id": "legacy:dodskalleberget",
+        "path": "mediawiki/Dödskalleberget.txt"
+      }
+    },
+    {
+      "id": "dodskalleberget-led-3",
+      "kind": "route",
+      "number": "3",
+      "name": "Asers arête",
+      "grade": "6c",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "Jacob Sjöstrand, Daniel Bidner-84",
+      "description": "Fantastisk klättring på den luftiga arêten. Ombultad 2013.",
+      "source": {
+        "id": "legacy:dodskalleberget",
+        "path": "mediawiki/Dödskalleberget.txt"
+      }
+    },
+    {
+      "id": "dodskalleberget-led-4",
+      "kind": "route",
+      "number": "4",
+      "name": "Skriet i vildmarken",
+      "grade": "7b+",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "Johan Luhr, Rickard Hedman-87",
+      "description": "Ombultad 2013.",
+      "source": {
+        "id": "legacy:dodskalleberget",
+        "path": "mediawiki/Dödskalleberget.txt"
+      }
+    },
+    {
+      "id": "dodskalleberget-led-5",
+      "kind": "route",
+      "number": "5",
+      "name": "Mio",
+      "grade": "7b+",
+      "length": "14",
+      "type": "sport",
+      "firstAscent": "Johan Luhr, Stefan Nordman, Mårten Dahlström-90",
+      "description": "En av stockholms pärlor. Tung väggklättring.",
+      "source": {
+        "id": "legacy:dodskalleberget",
+        "path": "mediawiki/Dödskalleberget.txt"
+      }
+    },
+    {
+      "id": "dodskalleberget-led-6",
+      "kind": "route",
+      "number": "6",
+      "name": "Indianerna kommer",
+      "grade": "7+",
+      "length": "12",
+      "type": "sport",
+      "firstAscent": "Johan Luhr-90",
+      "description": "Traverserar lilla väggen från v till höger.",
+      "source": {
+        "id": "legacy:dodskalleberget",
+        "path": "mediawiki/Dödskalleberget.txt"
+      }
+    },
+    {
+      "id": "dodskalleberget-led-7",
+      "kind": "route",
+      "number": "7",
+      "name": "En skänk från ovan",
+      "grade": "6-",
+      "length": "",
+      "type": "trad",
+      "firstAscent": "Niklas Björnerstedt, Dan Engström-83",
+      "description": "Diedern till vänster. Småkilar.",
+      "source": {
+        "id": "legacy:dodskalleberget",
+        "path": "mediawiki/Dödskalleberget.txt"
+      }
+    },
+    {
+      "id": "dodskalleberget-led-8",
+      "kind": "route",
+      "number": "7a",
+      "name": "Vingel",
+      "grade": "6+",
+      "length": "",
+      "type": "mix",
+      "firstAscent": "Johan Luhr-95",
+      "description": "Start i En skänk från ovan sedan vänster",
+      "source": {
+        "id": "legacy:dodskalleberget",
+        "path": "mediawiki/Dödskalleberget.txt"
+      }
+    },
+    {
+      "id": "dodskalleberget-led-9",
+      "kind": "route",
+      "number": "8",
+      "name": "Gammelgäddan",
+      "grade": "6a+",
+      "length": "20",
+      "type": "sport",
+      "firstAscent": "Lennart Swahn, Per Willén, Johnny Carlén-93",
+      "description": "Går genom det lilla taket med dragning åt höger på slutet. Ombultad 2013.",
+      "source": {
+        "id": "legacy:dodskalleberget",
+        "path": "mediawiki/Dödskalleberget.txt"
+      }
+    },
+    {
+      "id": "dodskalleberget-led-10",
+      "kind": "route",
+      "number": "9",
+      "name": "Trygghet utan grund",
+      "grade": "5+/6-",
+      "length": "25",
+      "type": "trad",
+      "firstAscent": "Lars Svadängs, Jeremy Sheehan, Dan Engström-83",
+      "description": "Spännande, äventyrlig led uppför hela väggen. Säkras med små kilar, avslingade flak och friends på toppen.",
+      "source": {
+        "id": "legacy:dodskalleberget",
+        "path": "mediawiki/Dödskalleberget.txt"
+      }
+    },
+    {
+      "id": "dodskalleberget-led-11",
+      "kind": "route",
+      "number": "10",
+      "name": "Gelatinerad sperma",
+      "grade": "6b",
+      "length": "15",
+      "type": "sport",
+      "firstAscent": "Mats Olofson, Peter Andersson-93",
+      "description": "Ombultad 2013. Leden slutar numera vid ett eget ankare under taket. Originalutsteget, som fortsatte till toppen, är svårsäkrat och har en hel del lösa block.",
+      "source": {
+        "id": "legacy:dodskalleberget",
+        "path": "mediawiki/Dödskalleberget.txt"
+      }
+    },
+    {
+      "id": "dodskalleberget-led-12",
+      "kind": "route",
+      "number": "11",
+      "name": "Ahlgrens bilar",
+      "grade": "6b+",
+      "length": "15",
+      "type": "sport",
+      "firstAscent": "Mats Olofsson",
+      "description": "Känslig och inte helt enkel. Går till ett ankare under taket. Ombultad 2013.",
+      "source": {
+        "id": "legacy:dodskalleberget",
+        "path": "mediawiki/Dödskalleberget.txt"
+      }
+    },
+    {
+      "id": "dodskalleberget-led-13",
+      "kind": "route",
+      "number": "11a",
+      "name": "Devil",
+      "grade": "7b",
+      "length": "18",
+      "type": "sport",
+      "firstAscent": "Johan Luhr-92",
+      "description": "Spektakulär led som går genom taket. Ombultad 2013.",
+      "source": {
+        "id": "legacy:dodskalleberget",
+        "path": "mediawiki/Dödskalleberget.txt"
+      }
+    },
+    {
+      "id": "dodskalleberget-led-14",
+      "kind": "route",
+      "number": "11b",
+      "name": "Ahlgrens pygméer",
+      "grade": "5c",
+      "length": "15",
+      "type": "sport",
+      "firstAscent": "",
+      "description": "Börja i Devil/Inget för pygméer och snedda sedan vänster och in i Ahlgrens bilar. Ombultad 2013.",
+      "source": {
+        "id": "legacy:dodskalleberget",
+        "path": "mediawiki/Dödskalleberget.txt"
+      }
+    },
+    {
+      "id": "dodskalleberget-led-15",
+      "kind": "route",
+      "number": "11c",
+      "name": "Inget för pygméer",
+      "grade": "7a+",
+      "length": "25",
+      "type": "sport",
+      "firstAscent": "Johan Luhr-91",
+      "description": "Passagen genom taket är lite lös och aningen ogästvänlig. Ankare under taket, om man avslutar leden här blir den klart lättare.",
+      "source": {
+        "id": "legacy:dodskalleberget",
+        "path": "mediawiki/Dödskalleberget.txt"
+      }
+    },
+    {
+      "id": "dodskalleberget-led-16",
+      "kind": "route",
+      "number": "12",
+      "name": "Magnus led",
+      "grade": "7-",
+      "length": "",
+      "type": "trad",
+      "firstAscent": "Magnus Runsten, Mats Olofsson-90",
+      "description": "Start i en diederformation",
+      "source": {
+        "id": "legacy:dodskalleberget",
+        "path": "mediawiki/Dödskalleberget.txt"
+      }
+    },
+    {
+      "id": "dodskalleberget-led-17",
+      "kind": "route",
+      "number": "13",
+      "name": "Rex",
+      "grade": "7",
+      "length": "25",
+      "type": "mix",
+      "firstAscent": "Johan Luhr, Rikard Hedman-87",
+      "description": "",
+      "source": {
+        "id": "legacy:dodskalleberget",
+        "path": "mediawiki/Dödskalleberget.txt"
+      }
+    },
+    {
+      "id": "dodskalleberget-led-18",
+      "kind": "route",
+      "number": "14",
+      "name": "Guran",
+      "grade": "6c+",
+      "length": "17",
+      "type": "sport",
+      "firstAscent": "Johan Luhr",
+      "description": "Svaled som på mitten av berget går in i Diana. Ombultad i oktober 2012.",
+      "source": {
+        "id": "legacy:dodskalleberget",
+        "path": "mediawiki/Dödskalleberget.txt"
+      }
+    },
+    {
+      "id": "dodskalleberget-led-19",
+      "kind": "route",
+      "number": "15",
+      "name": "Diana",
+      "grade": "6c+",
+      "length": "17",
+      "type": "sport",
+      "firstAscent": "Rikard Hedman, Johan Luhr",
+      "description": "Fin led som kan bita ifrån. Ombultad i oktober 2012. Har ett eget ankare.",
+      "source": {
+        "id": "legacy:dodskalleberget",
+        "path": "mediawiki/Dödskalleberget.txt"
+      }
+    },
+    {
+      "id": "dodskalleberget-led-20",
+      "kind": "route",
+      "number": "15a",
+      "name": "Diana direkt",
+      "grade": "7a+",
+      "length": "",
+      "type": "",
+      "firstAscent": "Johan Luhr-92",
+      "description": "På mitten av Diana, där denna gör en krumbukt åt vänster, går leden rakt upp till ankaret. Ombultad i oktober 2012.",
+      "source": {
+        "id": "legacy:dodskalleberget",
+        "path": "mediawiki/Dödskalleberget.txt"
+      }
+    },
+    {
+      "id": "dodskalleberget-led-21",
+      "kind": "route",
+      "number": "16",
+      "name": "Holidays in eden",
+      "grade": "7c+",
+      "length": "25",
+      "type": "sport",
+      "firstAscent": "Johan Luhr-92",
+      "description": "Lång teknisk och ihållande led. Ombultad i oktober 2012.",
+      "source": {
+        "id": "legacy:dodskalleberget",
+        "path": "mediawiki/Dödskalleberget.txt"
+      }
+    },
+    {
+      "id": "dodskalleberget-led-22",
+      "kind": "route",
+      "number": "17",
+      "name": "Mr Magister",
+      "grade": "7c+/8a",
+      "length": "25",
+      "type": "sport",
+      "firstAscent": "Johan Luhr-91",
+      "description": "Krimpfest utan vila. Ombultad hösten 2011.",
+      "source": {
+        "id": "legacy:dodskalleberget",
+        "path": "mediawiki/Dödskalleberget.txt"
+      }
+    },
+    {
+      "id": "dodskalleberget-led-23",
+      "kind": "route",
+      "number": "18a",
+      "name": "Mr Walker",
+      "grade": "7c",
+      "length": "25",
+      "type": "sport",
+      "firstAscent": "Johan Luhr-90",
+      "description": "Upp genom taket. Ombultad i oktober 2012.",
+      "source": {
+        "id": "legacy:dodskalleberget",
+        "path": "mediawiki/Dödskalleberget.txt"
+      }
+    },
+    {
+      "id": "dodskalleberget-led-24",
+      "kind": "route",
+      "number": "18b",
+      "name": "Mr Walker (variant)",
+      "grade": "7b+",
+      "length": "20",
+      "type": "sport",
+      "firstAscent": "Johan Luhr-90",
+      "description": "Ankare under taket. Ombultad i oktober 2012.",
+      "source": {
+        "id": "legacy:dodskalleberget",
+        "path": "mediawiki/Dödskalleberget.txt"
+      }
+    },
+    {
+      "id": "dodskalleberget-led-25",
+      "kind": "route",
+      "number": "19",
+      "name": "Fantomen",
+      "grade": "7b+",
+      "length": "26",
+      "type": "sport",
+      "firstAscent": "Johan Luhr, Rikard Hedman-87",
+      "description": "Startar som Mr Walker men fortsätter rakt upp efter diedern. Sedan genom takets högra kant. Ombultad i oktober 2012.",
+      "source": {
+        "id": "legacy:dodskalleberget",
+        "path": "mediawiki/Dödskalleberget.txt"
+      }
+    },
+    {
+      "id": "dodskalleberget-led-26",
+      "kind": "route",
+      "number": "20",
+      "name": "Dragos",
+      "grade": "7b+",
+      "length": "25",
+      "type": "sport",
+      "firstAscent": "Johan Luhr, Rikard Hedman-90",
+      "description": "Till höger om Fantomen. Ombultad i oktober 2012.",
+      "source": {
+        "id": "legacy:dodskalleberget",
+        "path": "mediawiki/Dödskalleberget.txt"
+      }
+    },
+    {
+      "id": "dodskalleberget-led-27",
+      "kind": "route",
+      "number": "21",
+      "name": "Tio Tigrar",
+      "grade": "7c",
+      "length": "15",
+      "type": "sport",
+      "firstAscent": "Rikard Hedman-91",
+      "description": "Känner du dig stark? Ombultad i oktober 2012.",
+      "source": {
+        "id": "legacy:dodskalleberget",
+        "path": "mediawiki/Dödskalleberget.txt"
+      }
+    },
+    {
+      "id": "dodskalleberget-led-28",
+      "kind": "route",
+      "number": "22",
+      "name": "Hero",
+      "grade": "7c",
+      "length": "15",
+      "type": "sport",
+      "firstAscent": "Johan Luhr-91",
+      "description": "Går ihop med Tio Tigrar. Ombultad i oktober 2012.",
+      "source": {
+        "id": "legacy:dodskalleberget",
+        "path": "mediawiki/Dödskalleberget.txt"
+      }
+    },
+    {
+      "id": "dodskalleberget-led-29",
+      "kind": "route",
+      "number": "23",
+      "name": "Den vassa eggen",
+      "grade": "8-/8",
+      "length": "",
+      "type": "",
+      "firstAscent": "Johan Luhr-95",
+      "description": "",
+      "source": {
+        "id": "legacy:dodskalleberget",
+        "path": "mediawiki/Dödskalleberget.txt"
+      }
+    },
+    {
+      "id": "dodskalleberget-led-30",
+      "kind": "route",
+      "number": "24",
+      "name": "Höstrusk",
+      "grade": "6b+",
+      "length": "15",
+      "type": "",
+      "firstAscent": "Johan Luhr-90",
+      "description": "",
+      "source": {
+        "id": "legacy:dodskalleberget",
+        "path": "mediawiki/Dödskalleberget.txt"
+      }
+    },
+    {
+      "id": "dodskalleberget-led-31",
+      "kind": "route",
+      "number": "25",
+      "name": "Den stygga björken",
+      "grade": "7+/8-",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "Johan Luhr-95",
+      "description": "Bakom björken",
+      "source": {
+        "id": "legacy:dodskalleberget",
+        "path": "mediawiki/Dödskalleberget.txt"
+      }
+    },
+    {
+      "id": "dodskalleberget-led-32",
+      "kind": "route",
+      "number": "26",
+      "name": "Trans",
+      "grade": "7-",
+      "length": "15",
+      "type": "",
+      "firstAscent": "Rikard HedmanBirger Hedman-84",
+      "description": "",
+      "source": {
+        "id": "legacy:dodskalleberget",
+        "path": "mediawiki/Dödskalleberget.txt"
+      }
+    },
+    {
+      "id": "dodskalleberget-led-33",
+      "kind": "route",
+      "number": "27",
+      "name": "Savate",
+      "grade": "7",
+      "length": "18",
+      "type": "",
+      "firstAscent": "Rikard HedmanBirger Hedman-84",
+      "description": "",
+      "source": {
+        "id": "legacy:dodskalleberget",
+        "path": "mediawiki/Dödskalleberget.txt"
+      }
+    },
+    {
+      "id": "dodskalleberget-led-34",
+      "kind": "route",
+      "number": "28",
+      "name": "Loppet ar kort",
+      "grade": "7+/8-",
+      "length": "15",
+      "type": "",
+      "firstAscent": "Johan Luhr-90",
+      "description": "",
+      "source": {
+        "id": "legacy:dodskalleberget",
+        "path": "mediawiki/Dödskalleberget.txt"
+      }
+    },
+    {
+      "id": "dodskalleberget-led-35",
+      "kind": "route",
+      "number": "29",
+      "name": "P047",
+      "grade": "6/6+",
+      "length": "25",
+      "type": "",
+      "firstAscent": "Stefan Thunberg-90",
+      "description": "",
+      "source": {
+        "id": "legacy:dodskalleberget",
+        "path": "mediawiki/Dödskalleberget.txt"
+      }
+    },
+    {
+      "id": "dodskalleberget-led-36",
+      "kind": "route",
+      "number": "30",
+      "name": "Monkey business",
+      "grade": "6",
+      "length": "22",
+      "type": "",
+      "firstAscent": "Jeremy Sheehan, Claes Jelinek, Dan Engstrom-83",
+      "description": "",
+      "source": {
+        "id": "legacy:dodskalleberget",
+        "path": "mediawiki/Dödskalleberget.txt"
+      }
+    },
+    {
+      "id": "dodskalleberget-led-37",
+      "kind": "route",
+      "number": "31",
+      "name": "Sjuk",
+      "grade": "7-",
+      "length": "12",
+      "type": "mix",
+      "firstAscent": "Stale Ekelund,Claes Jelinek-90",
+      "description": "",
+      "source": {
+        "id": "legacy:dodskalleberget",
+        "path": "mediawiki/Dödskalleberget.txt"
+      }
+    },
+    {
+      "id": "dodskalleberget-led-38",
+      "kind": "route",
+      "number": "32",
+      "name": "En liten psykiatrisk undersokning",
+      "grade": "7+",
+      "length": "12",
+      "type": "mix",
+      "firstAscent": "Stale Ekelund,Claes Jelinek-90",
+      "description": "",
+      "source": {
+        "id": "legacy:dodskalleberget",
+        "path": "mediawiki/Dödskalleberget.txt"
+      }
+    },
+    {
+      "id": "dodskalleberget-led-39",
+      "kind": "route",
+      "number": "33",
+      "name": "Utan neuroleptika",
+      "grade": "7+",
+      "length": "12",
+      "type": "mix",
+      "firstAscent": "Stale Ekelund,Claes Jelinek-90",
+      "description": "",
+      "source": {
+        "id": "legacy:dodskalleberget",
+        "path": "mediawiki/Dödskalleberget.txt"
+      }
+    },
+    {
+      "id": "dodskalleberget-led-40",
+      "kind": "route",
+      "number": "34",
+      "name": "Slaktmiddagangest",
+      "grade": "7/7+",
+      "length": "12",
+      "type": "mix",
+      "firstAscent": "Claes Jelinek,Stale Ekelund-90",
+      "description": "",
+      "source": {
+        "id": "legacy:dodskalleberget",
+        "path": "mediawiki/Dödskalleberget.txt"
+      }
+    },
+    {
+      "id": "dodskalleberget-led-41",
+      "kind": "route",
+      "number": "35",
+      "name": "No monkey business",
+      "grade": "5+",
+      "length": "14",
+      "type": "",
+      "firstAscent": "Jeremy Sheehan,Claes Jelinek,Dan Engstrom-83",
+      "description": "",
+      "source": {
+        "id": "legacy:dodskalleberget",
+        "path": "mediawiki/Dödskalleberget.txt"
+      }
+    }
+  ],
+  "images": [
+    {
+      "filename": "Dodskalleberget.jpg",
+      "caption": "Per Lindh",
+      "missing": false
+    },
+    {
+      "filename": "Dodskalleberget_v.png",
+      "caption": "650px",
+      "missing": false
+    },
+    {
+      "filename": "Dodskalleberget_liten_h.png",
+      "caption": "right",
+      "missing": false
+    },
+    {
+      "filename": "Dodskalleberget_h.png",
+      "caption": "",
+      "missing": false
+    }
+  ],
+  "access": {
+    "legacyText": "Ständigt hotat av klätterförbud. Var diskreta, skräpa inte ned och håll en låg profil. Berget ingår i naturreservatet Dyviks lövängar. Parkera endast på parkeringsplatsen ca 150m efter klippan och ställ bilen så att fler bilar får plats. Bultkommittén i Stockholm nådde under 2012 en överenskommelse med Tyresö kommun, som förvaltar naturreservatet, om ombultningar av leder. Ombultningar är endast tillåtet under vissa förutsättningar och varje åtgärd måste godkännas av kommunen i ett skriftligt förfarande. http://bultkommitten.blogspot.se/2012/09/dodskalleberget-bultas-om.html",
+    "federationSlug": "dodskalleberget"
+  },
+  "qualityIssues": [],
+  "provenance": {
+    "primarySourceId": "legacy:dodskalleberget",
+    "sources": [
+      {
+        "id": "legacy:dodskalleberget",
+        "title": "Sverigeföraren 2014: Dödskalleberget",
+        "path": "mediawiki/Dödskalleberget.txt",
+        "license": "GNU Free Documentation License",
+        "snapshotDate": "2014-01-01"
+      }
+    ]
+  }
+}

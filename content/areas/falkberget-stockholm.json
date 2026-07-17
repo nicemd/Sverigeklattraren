@@ -1,0 +1,122 @@
+{
+  "schemaVersion": 1,
+  "id": "falkberget-stockholm",
+  "slug": "falkberget-stockholm",
+  "name": "Falkberget (Stockholm)",
+  "description": "Liten oansenlig klippa vid Edsvikens östra strand.",
+  "coordinates": null,
+  "categories": [
+    "Norra Stockholm",
+    "Saknar karta",
+    "Saknar skiss",
+    "Saknar vägbeskrivning",
+    "Stockholm"
+  ],
+  "sections": [
+    {
+      "id": "allmant",
+      "title": "Allmänt",
+      "body": "Liten oansenlig klippa vid Edsvikens östra strand."
+    },
+    {
+      "id": "position",
+      "title": "Position",
+      "body": "Position: 10 I NV 920233 Dessutom finns det en liten vägg intill Borgvägen i närheten. Väggen är tidigare känd för sin isklättring men det har även bouldrats här. Kategori:Saknar skiss Kategori:Saknar vägbeskrivning Kategori:Saknar karta Kategori:Stockholm Kategori:Norra Stockholm"
+    }
+  ],
+  "routes": [
+    {
+      "id": "falkberget-stockholm-led-1",
+      "kind": "route",
+      "number": "1",
+      "name": "Berguvvännens krypskyttenäste",
+      "grade": "4",
+      "length": "8",
+      "type": "",
+      "firstAscent": "Lars Heijkenskjöld, Etienne Friedrich -89",
+      "description": "",
+      "source": {
+        "id": "legacy:falkberget-stockholm",
+        "path": "mediawiki/Falkberget (Stockholm).txt"
+      }
+    },
+    {
+      "id": "falkberget-stockholm-led-2",
+      "kind": "route",
+      "number": "2",
+      "name": "Glatte platte",
+      "grade": "4-",
+      "length": "12",
+      "type": "",
+      "firstAscent": "Lars Heijkenskjöld, Thomas Hermelin -89",
+      "description": "",
+      "source": {
+        "id": "legacy:falkberget-stockholm",
+        "path": "mediawiki/Falkberget (Stockholm).txt"
+      }
+    },
+    {
+      "id": "falkberget-stockholm-led-3",
+      "kind": "route",
+      "number": "3",
+      "name": "Ballongkriget",
+      "grade": "4",
+      "length": "10",
+      "type": "",
+      "firstAscent": "Thomas Hermelin, Lars Heijkenskjöld -89",
+      "description": "",
+      "source": {
+        "id": "legacy:falkberget-stockholm",
+        "path": "mediawiki/Falkberget (Stockholm).txt"
+      }
+    },
+    {
+      "id": "falkberget-stockholm-led-4",
+      "kind": "route",
+      "number": "4",
+      "name": "Scoutledarfrasse",
+      "grade": "5-",
+      "length": "10",
+      "type": "",
+      "firstAscent": "Lars Heijkenskjöld, Etienne Friedrich -89",
+      "description": "",
+      "source": {
+        "id": "legacy:falkberget-stockholm",
+        "path": "mediawiki/Falkberget (Stockholm).txt"
+      }
+    },
+    {
+      "id": "falkberget-stockholm-led-5",
+      "kind": "route",
+      "number": "5",
+      "name": "Den väna jungfrun",
+      "grade": "3+",
+      "length": "10",
+      "type": "",
+      "firstAscent": "Lars Heijkenskjöld, Thomas Hermelin -89",
+      "description": "",
+      "source": {
+        "id": "legacy:falkberget-stockholm",
+        "path": "mediawiki/Falkberget (Stockholm).txt"
+      }
+    }
+  ],
+  "images": [],
+  "access": {
+    "legacyText": null,
+    "federationSlug": null
+  },
+  "qualityIssues": [],
+  "provenance": {
+    "primarySourceId": "legacy:falkberget-stockholm",
+    "sources": [
+      {
+        "id": "legacy:falkberget-stockholm",
+        "title": "Sverigeföraren 2014: Falkberget (Stockholm)",
+        "path": "mediawiki/Falkberget (Stockholm).txt",
+        "license": "GNU Free Documentation License",
+        "snapshotDate": "2014-01-01"
+      }
+    ]
+  }
+}

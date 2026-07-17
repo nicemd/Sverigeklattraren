@@ -1,0 +1,282 @@
+{
+  "schemaVersion": 1,
+  "id": "tolarp",
+  "slug": "tolarp",
+  "name": "Tolarp",
+  "description": "Lättillgänglig klippa i jönköping. Bjuder på klättring ifrån 5c till 7c. Klättringen varierar ifrån vertikal till överhängande.",
+  "coordinates": {
+    "latitude": 57.805444,
+    "longitude": 14.130607
+  },
+  "categories": [
+    "Is",
+    "Saknar skiss",
+    "Saknar skrivarformatering",
+    "sport",
+    "trad",
+    "vertikalt",
+    "överhäng"
+  ],
+  "sections": [
+    {
+      "id": "allmant",
+      "title": "Allmänt",
+      "body": "Lättillgänglig klippa i jönköping. Bjuder på klättring ifrån 5c till 7c. Klättringen varierar ifrån vertikal till överhängande."
+    },
+    {
+      "id": "vagbeskrivning",
+      "title": "Vägbeskrivning",
+      "body": "jönköping, väg mot bankeryd (kortebovägen), sväng vid garageportsexperten (björnebergsvägen), när backen når sitt slut och husen tar slut sväng vänster, ta nästa höger mot tolarp och sen första höger in på en liten (men körbar) skogsväg, kör tills du ser klippan på vänster sida"
+    },
+    {
+      "id": "leder",
+      "title": "Leder",
+      "body": "Kategori:sport Kategori:Is Kategori:trad Kategori:vertikalt Kategori:överhäng Category:Småland kategori:Saknar skiss kategori:Saknar skrivarformatering"
+    }
+  ],
+  "routes": [
+    {
+      "id": "tolarp-led-1",
+      "kind": "route",
+      "number": "1",
+      "name": "?",
+      "grade": "?",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "Patrik Jansson",
+      "description": "Lättare led uppför ett mossigt hyllsystem",
+      "source": {
+        "id": "legacy:tolarp",
+        "path": "mediawiki/Tolarp.txt"
+      }
+    },
+    {
+      "id": "tolarp-led-2",
+      "kind": "route",
+      "number": "2",
+      "name": "No God",
+      "grade": "6c",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "Nisse larsson -92",
+      "description": "Går i högerkanten av ett överhäng.",
+      "source": {
+        "id": "legacy:tolarp",
+        "path": "mediawiki/Tolarp.txt"
+      }
+    },
+    {
+      "id": "tolarp-led-3",
+      "kind": "route",
+      "number": "3",
+      "name": "?",
+      "grade": "5c",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "Nisse larsson eller Anders Sjöberg -92",
+      "description": "Hårt insteg, fortsätt sedan upp på den uppbrutna pelaren.",
+      "source": {
+        "id": "legacy:tolarp",
+        "path": "mediawiki/Tolarp.txt"
+      }
+    },
+    {
+      "id": "tolarp-led-4",
+      "kind": "route",
+      "number": "?",
+      "name": "Nypet",
+      "grade": "6c",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "Anders Sjöberg -92",
+      "description": "Börjar vid en arete med ett nypgrepp.",
+      "source": {
+        "id": "legacy:tolarp",
+        "path": "mediawiki/Tolarp.txt"
+      }
+    },
+    {
+      "id": "tolarp-led-5",
+      "kind": "route",
+      "number": "4",
+      "name": "Adreadre",
+      "grade": "6c",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "Nisse larsson -92",
+      "description": "Startar 2 m till höger om föregående led, ovanför ett betongtak. Små och vassa grepp i slutet.",
+      "source": {
+        "id": "legacy:tolarp",
+        "path": "mediawiki/Tolarp.txt"
+      }
+    },
+    {
+      "id": "tolarp-led-6",
+      "kind": "route",
+      "number": "5",
+      "name": "Hyllningen",
+      "grade": "7c",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "Oskar Råström eller Fredrik Arlbrandt -02",
+      "description": "Börjar mellan porten och det stora stenblocket. Ganska vass och fingrig klättring.",
+      "source": {
+        "id": "legacy:tolarp",
+        "path": "mediawiki/Tolarp.txt"
+      }
+    },
+    {
+      "id": "tolarp-led-7",
+      "kind": "route",
+      "number": "6",
+      "name": "Pionjären",
+      "grade": "6c",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "Nisse Larsson -92",
+      "description": "Startar ovanpå det stora blocket och följer en svagt överhängande traversspricka. Samma firningsankare som Adreadre och Hyllningen.",
+      "source": {
+        "id": "legacy:tolarp",
+        "path": "mediawiki/Tolarp.txt"
+      }
+    },
+    {
+      "id": "tolarp-led-8",
+      "kind": "route",
+      "number": "7",
+      "name": "?",
+      "grade": "?",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "",
+      "description": "Samma insteg som Pionjären, men viker av åt höger upp i en dieder.",
+      "source": {
+        "id": "legacy:tolarp",
+        "path": "mediawiki/Tolarp.txt"
+      }
+    },
+    {
+      "id": "tolarp-led-9",
+      "kind": "route",
+      "number": "8",
+      "name": "Elmia",
+      "grade": "7b",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "Nisse Larsson eller Henrik Bolander",
+      "description": "Stundtals överhängande led som börjar till höger om en stor port. Har även klättrats utan hjälp av betongpelaren... Ska eventuellt också ha klättrats av Fredrik Arlbrandt/Magnus Råström och fått namnet Pelargången.",
+      "source": {
+        "id": "legacy:tolarp",
+        "path": "mediawiki/Tolarp.txt"
+      }
+    },
+    {
+      "id": "tolarp-led-10",
+      "kind": "route",
+      "number": "9",
+      "name": "Chili",
+      "grade": "?",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "",
+      "description": "",
+      "source": {
+        "id": "legacy:tolarp",
+        "path": "mediawiki/Tolarp.txt"
+      }
+    },
+    {
+      "id": "tolarp-led-11",
+      "kind": "route",
+      "number": "10",
+      "name": "Curry",
+      "grade": "6c+",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "",
+      "description": "Samma insteg som Chili, men håll sedan åt höger. Avslutning i en tydlig liten dieder.",
+      "source": {
+        "id": "legacy:tolarp",
+        "path": "mediawiki/Tolarp.txt"
+      }
+    },
+    {
+      "id": "tolarp-led-12",
+      "kind": "route",
+      "number": "11",
+      "name": "Wannabe",
+      "grade": "6c",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "Anders Sjöberg - 92",
+      "description": "En av de mest populära lederna. Följer arêten. Lätt klättring i början, sedan blir det svårare.",
+      "source": {
+        "id": "legacy:tolarp",
+        "path": "mediawiki/Tolarp.txt"
+      }
+    },
+    {
+      "id": "tolarp-led-13",
+      "kind": "route",
+      "number": "11a",
+      "name": "?",
+      "grade": "5a",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "",
+      "description": "Topprepsvariant: börja som 11 och vid hyllan gå över i 12:an och avlsuta med sprickan. nr 12s ankare bör användas.",
+      "source": {
+        "id": "legacy:tolarp",
+        "path": "mediawiki/Tolarp.txt"
+      }
+    },
+    {
+      "id": "tolarp-led-14",
+      "kind": "route",
+      "number": "12",
+      "name": "Beavis",
+      "grade": "5c/6a",
+      "length": "",
+      "type": "trad",
+      "firstAscent": "Anders Sjöberg",
+      "description": "Kilsäkrad spricka.",
+      "source": {
+        "id": "legacy:tolarp",
+        "path": "mediawiki/Tolarp.txt"
+      }
+    },
+    {
+      "id": "tolarp-led-15",
+      "kind": "route",
+      "number": "13",
+      "name": "Butthead",
+      "grade": "5c/6a",
+      "length": "",
+      "type": "trad",
+      "firstAscent": "Anders Sjöberg",
+      "description": "Sprickan till höger om föregående led.",
+      "source": {
+        "id": "legacy:tolarp",
+        "path": "mediawiki/Tolarp.txt"
+      }
+    }
+  ],
+  "images": [],
+  "access": {
+    "legacyText": null,
+    "federationSlug": null
+  },
+  "qualityIssues": [],
+  "provenance": {
+    "primarySourceId": "legacy:tolarp",
+    "sources": [
+      {
+        "id": "legacy:tolarp",
+        "title": "Sverigeföraren 2014: Tolarp",
+        "path": "mediawiki/Tolarp.txt",
+        "license": "GNU Free Documentation License",
+        "snapshotDate": "2014-01-01"
+      }
+    ]
+  }
+}

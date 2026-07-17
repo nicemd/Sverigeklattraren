@@ -1,0 +1,116 @@
+{
+  "schemaVersion": 1,
+  "id": "balingeberget",
+  "slug": "balingeberget",
+  "name": "Bälingeberget",
+  "description": "Kategori:Saknar allmän infoKategori:Saknar vägbeskrivning =Problem= Kategori:Luleå Kategori:Bouldering Kategori:Bimbo Kategori:Behöver kvalitetssäkras Kategori:Saknar karta Kategori:Saknar koordinater Kategori:Saknar skrivarformattering Kategori:Saknar skiss",
+  "coordinates": null,
+  "categories": [
+    "Behöver kvalitetssäkras",
+    "Bimbo",
+    "Bouldering",
+    "Luleå",
+    "Saknar allmän info",
+    "Saknar karta",
+    "Saknar koordinater",
+    "Saknar skiss",
+    "Saknar skrivarformattering",
+    "Saknar vägbeskrivning"
+  ],
+  "sections": [],
+  "routes": [
+    {
+      "id": "balingeberget-problem-1",
+      "kind": "problem",
+      "number": null,
+      "name": "Snusmumriken",
+      "grade": "7A",
+      "length": "",
+      "type": "Krimp,Tak,Heel hook",
+      "firstAscent": "",
+      "description": "Mittlinjen i taket. Startar längst in i taket på ett givet block. Går rakt ut mot läppen för att sen mantlas ut åt höger.",
+      "source": {
+        "id": "legacy:balingeberget",
+        "path": "mediawiki/Bälingeberget.txt"
+      }
+    },
+    {
+      "id": "balingeberget-problem-2",
+      "kind": "problem",
+      "number": null,
+      "name": "Snusmumriken direkt",
+      "grade": "7C",
+      "length": "",
+      "type": "Krimp,Tak,Heel hook",
+      "firstAscent": "",
+      "description": "Direktvariant av Snusmumriken. Samma start men uteslutning av den stora sloperna och ALLT till vänster om denna.",
+      "source": {
+        "id": "legacy:balingeberget",
+        "path": "mediawiki/Bälingeberget.txt"
+      }
+    },
+    {
+      "id": "balingeberget-problem-3",
+      "kind": "problem",
+      "number": null,
+      "name": "Hemulen",
+      "grade": "7B+",
+      "length": "",
+      "type": "Slopers,Överhäng,Heel hook",
+      "firstAscent": "",
+      "description": "Går längst till vänster i taket. Startar under taket i bra sidocrimp för vh och bra sidepull för hh. Därifrån rakt ut och upp.",
+      "source": {
+        "id": "legacy:balingeberget",
+        "path": "mediawiki/Bälingeberget.txt"
+      }
+    },
+    {
+      "id": "balingeberget-problem-4",
+      "kind": "problem",
+      "number": null,
+      "name": "Sniff",
+      "grade": "7A",
+      "length": "",
+      "type": "Krimp,Överhäng,Reach",
+      "firstAscent": "",
+      "description": "Startar i stor jug på väggen till vänster om Hemulen och avslutas i denna.",
+      "source": {
+        "id": "legacy:balingeberget",
+        "path": "mediawiki/Bälingeberget.txt"
+      }
+    },
+    {
+      "id": "balingeberget-problem-5",
+      "kind": "problem",
+      "number": null,
+      "name": "Lilla My",
+      "grade": "7A+",
+      "length": "",
+      "type": "Krimp,Överhäng,Heel hook",
+      "firstAscent": "",
+      "description": "Startar i Snusmumriken och avslutas i Hemulen. Lång och pumpig takklättring.",
+      "source": {
+        "id": "legacy:balingeberget",
+        "path": "mediawiki/Bälingeberget.txt"
+      }
+    }
+  ],
+  "images": [],
+  "access": {
+    "legacyText": null,
+    "federationSlug": null
+  },
+  "qualityIssues": [],
+  "provenance": {
+    "primarySourceId": "legacy:balingeberget",
+    "sources": [
+      {
+        "id": "legacy:balingeberget",
+        "title": "Sverigeföraren 2014: Bälingeberget",
+        "path": "mediawiki/Bälingeberget.txt",
+        "license": "GNU Free Documentation License",
+        "snapshotDate": "2014-01-01"
+      }
+    ]
+  }
+}

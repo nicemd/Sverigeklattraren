@@ -1,0 +1,208 @@
+{
+  "schemaVersion": 1,
+  "id": "asklippan",
+  "slug": "asklippan",
+  "name": "Åsklippan",
+  "description": "10 dokumenterade leder och problem.",
+  "coordinates": {
+    "latitude": 58.2257,
+    "longitude": 15.7305
+  },
+  "categories": [
+    "Mix",
+    "Saknar koordinater",
+    "Saknar leder",
+    "Saknar skiss",
+    "Saknar skrivarformatering",
+    "Saknar vägbeskrivning",
+    "sport",
+    "sva",
+    "Trad",
+    "vertikalt",
+    "Östergötland",
+    "överhäng"
+  ],
+  "sections": [
+    {
+      "id": "lankar",
+      "title": "Länkar",
+      "body": "Förare tillhandahållen av Linköpings klätterklubb. Kategori:Trad Kategori:Mix Kategori:vertikalt kategori:Saknar skiss kategori:Saknar vägbeskrivning kategori:Saknar skrivarformatering Kategori:Östergötland"
+    }
+  ],
+  "routes": [
+    {
+      "id": "asklippan-led-1",
+      "kind": "route",
+      "number": "1",
+      "name": "Blåkläder",
+      "grade": "5+",
+      "length": "12",
+      "type": "trad",
+      "firstAscent": "Helene Landin -09",
+      "description": "",
+      "source": {
+        "id": "legacy:asklippan",
+        "path": "mediawiki/Åsklippan.txt"
+      }
+    },
+    {
+      "id": "asklippan-led-2",
+      "kind": "route",
+      "number": "2",
+      "name": "Telefonterror",
+      "grade": "5",
+      "length": "12",
+      "type": "trad",
+      "firstAscent": "Helene Landin -09",
+      "description": "",
+      "source": {
+        "id": "legacy:asklippan",
+        "path": "mediawiki/Åsklippan.txt"
+      }
+    },
+    {
+      "id": "asklippan-led-3",
+      "kind": "route",
+      "number": "3",
+      "name": "Öppet projekt",
+      "grade": "?",
+      "length": "15",
+      "type": "mix",
+      "firstAscent": "",
+      "description": "",
+      "source": {
+        "id": "legacy:asklippan",
+        "path": "mediawiki/Åsklippan.txt"
+      }
+    },
+    {
+      "id": "asklippan-led-4",
+      "kind": "route",
+      "number": "4",
+      "name": "Öppet projekt",
+      "grade": "?",
+      "length": "14",
+      "type": "",
+      "firstAscent": "",
+      "description": "",
+      "source": {
+        "id": "legacy:asklippan",
+        "path": "mediawiki/Åsklippan.txt"
+      }
+    },
+    {
+      "id": "asklippan-led-5",
+      "kind": "route",
+      "number": "5",
+      "name": "Äntligen regn",
+      "grade": "6-",
+      "length": "14",
+      "type": "trad",
+      "firstAscent": "Fredrik Nordström -08",
+      "description": "",
+      "source": {
+        "id": "legacy:asklippan",
+        "path": "mediawiki/Åsklippan.txt"
+      }
+    },
+    {
+      "id": "asklippan-led-6",
+      "kind": "route",
+      "number": "6",
+      "name": "En längtande blick",
+      "grade": "6(-)",
+      "length": "13",
+      "type": "mix",
+      "firstAscent": "Erik Kuiper -10",
+      "description": "",
+      "source": {
+        "id": "legacy:asklippan",
+        "path": "mediawiki/Åsklippan.txt"
+      }
+    },
+    {
+      "id": "asklippan-led-7",
+      "kind": "route",
+      "number": "7",
+      "name": "Öppet projekt",
+      "grade": "?",
+      "length": "13",
+      "type": "",
+      "firstAscent": "",
+      "description": "",
+      "source": {
+        "id": "legacy:asklippan",
+        "path": "mediawiki/Åsklippan.txt"
+      }
+    },
+    {
+      "id": "asklippan-led-8",
+      "kind": "route",
+      "number": "8",
+      "name": "Tassa på tå",
+      "grade": "5(+)",
+      "length": "~8",
+      "type": "mix",
+      "firstAscent": "Erik Kuiper -10",
+      "description": "",
+      "source": {
+        "id": "legacy:asklippan",
+        "path": "mediawiki/Åsklippan.txt"
+      }
+    },
+    {
+      "id": "asklippan-led-9",
+      "kind": "route",
+      "number": "9",
+      "name": "Öppet projekt",
+      "grade": "?",
+      "length": "17",
+      "type": "",
+      "firstAscent": "",
+      "description": "",
+      "source": {
+        "id": "legacy:asklippan",
+        "path": "mediawiki/Åsklippan.txt"
+      }
+    },
+    {
+      "id": "asklippan-led-10",
+      "kind": "route",
+      "number": "10",
+      "name": "Öppet projekt",
+      "grade": "?",
+      "length": "",
+      "type": "",
+      "firstAscent": "",
+      "description": "",
+      "source": {
+        "id": "legacy:asklippan",
+        "path": "mediawiki/Åsklippan.txt"
+      }
+    }
+  ],
+  "images": [
+    {
+      "filename": "Skiss.gif",
+      "caption": "",
+      "missing": false
+    }
+  ],
+  "access": {
+    "legacyText": null,
+    "federationSlug": null
+  },
+  "qualityIssues": [],
+  "provenance": {
+    "primarySourceId": "legacy:asklippan",
+    "sources": [
+      {
+        "id": "legacy:asklippan",
+        "title": "Sverigeföraren 2014: Åsklippan",
+        "path": "mediawiki/Åsklippan.txt",
+        "license": "GNU Free Documentation License",
+        "snapshotDate": "2014-01-01"
+      }
+    ]
+  }
+}

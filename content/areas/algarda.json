@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "id": "algarda",
+  "slug": "algarda",
+  "name": "Ålgårda",
+  "description": "Klätterstopp och klätterförbud råder på Ålgårda",
+  "coordinates": {
+    "latitude": 59,
+    "longitude": 18
+  },
+  "categories": [
+    "mix",
+    "Saknar koordinater",
+    "Saknar leder",
+    "Saknar skiss",
+    "Saknar skrivarformatering",
+    "Saknar vägbeskrivning",
+    "sport",
+    "sva",
+    "trad",
+    "vertikalt",
+    "överhäng"
+  ],
+  "sections": [
+    {
+      "id": "allmant",
+      "title": "Allmänt",
+      "body": "Klätterstopp och klätterförbud råder på Ålgårda"
+    },
+    {
+      "id": "vagbeskrivning",
+      "title": "Vägbeskrivning",
+      "body": "kategori:Saknar skiss kategori:Saknar vägbeskrivning kategori:Saknar leder kategori:Saknar koordinater kategori:Saknar skrivarformatering Category:Halland"
+    }
+  ],
+  "routes": [],
+  "images": [],
+  "access": {
+    "legacyText": null,
+    "federationSlug": "algarda"
+  },
+  "qualityIssues": [],
+  "provenance": {
+    "primarySourceId": "legacy:algarda",
+    "sources": [
+      {
+        "id": "legacy:algarda",
+        "title": "Sverigeföraren 2014: Ålgårda",
+        "path": "mediawiki/Ålgårda.txt",
+        "license": "GNU Free Documentation License",
+        "snapshotDate": "2014-01-01"
+      }
+    ]
+  }
+}

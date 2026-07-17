@@ -1,0 +1,458 @@
+{
+  "schemaVersion": 1,
+  "id": "vitturn",
+  "slug": "vitturn",
+  "name": "Vitturn",
+  "description": "Vitturn ligger vid byn Klitten utanför Älvdalen och är trots den ringa storleken på max tio meter en av Dalarnas finaste sportklippor tack vare mycket bra klippkvalité (nån mysko sandsten) och det fina sydläget på toppen av ett berg med fantastisk utsikt som kan matchas av få klätterklippor i landet. En perfekt klippa för trevlig fikaklättring soliga sommarkvällar. De flesta ankarna saknar tyvärr kjeda, men det kommer att åtgärdas. Högt och öppet sydläge möjligör klättring från mars till sen oktober.",
+  "coordinates": {
+    "latitude": 61.278071,
+    "longitude": 14.119148
+  },
+  "categories": [
+    "Dalarna",
+    "Sport"
+  ],
+  "sections": [
+    {
+      "id": "allmant",
+      "title": "Allmänt",
+      "body": "Vitturn ligger vid byn Klitten utanför Älvdalen och är trots den ringa storleken på max tio meter en av Dalarnas finaste sportklippor tack vare mycket bra klippkvalité (nån mysko sandsten) och det fina sydläget på toppen av ett berg med fantastisk utsikt som kan matchas av få klätterklippor i landet. En perfekt klippa för trevlig fikaklättring soliga sommarkvällar. De flesta ankarna saknar tyvärr kjeda, men det kommer att åtgärdas. Högt och öppet sydläge möjligör klättring från mars till sen oktober."
+    },
+    {
+      "id": "camping",
+      "title": "Camping",
+      "body": "Eldstäder finns nedanför insteget och en bit ovanför utsteget på led 19. I anslutning till eldstaden på toppen finns även bra tältplatser. Inget vatten finns på plats."
+    },
+    {
+      "id": "hogra-delen",
+      "title": "Högra delen",
+      "body": "Kategori:Sport Kategori:Dalarna"
+    }
+  ],
+  "routes": [
+    {
+      "id": "vitturn-led-1",
+      "kind": "route",
+      "number": "1",
+      "name": "Feghörnet",
+      "grade": "5",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "Ted Ekberg solo",
+      "description": "Klättra hörnets högra vägg utan att kliva ut till vänster, sedan lätt klättring upp till ankaret. 4bb+2bb i toppen.",
+      "source": {
+        "id": "legacy:vitturn",
+        "path": "mediawiki/Vitturn.txt"
+      }
+    },
+    {
+      "id": "vitturn-led-2",
+      "kind": "route",
+      "number": "2",
+      "name": "Gubben Einar",
+      "grade": "4",
+      "length": "",
+      "type": "",
+      "firstAscent": "Ted Ekberg, Oskar Tjärnberg",
+      "description": "Längsta turen. Starta i spricka upp till en nisch. Klättra upp till Feghörnets ankare via diverse formationer och vidare upp till höger om detta. En borrbult gemensamt med Feghörnet.",
+      "source": {
+        "id": "legacy:vitturn",
+        "path": "mediawiki/Vitturn.txt"
+      }
+    },
+    {
+      "id": "vitturn-led-3",
+      "kind": "route",
+      "number": "3",
+      "name": "Skitig spricka",
+      "grade": "4",
+      "length": "",
+      "type": "",
+      "firstAscent": "Frank Jansson",
+      "description": "Sprickan bakom granen",
+      "source": {
+        "id": "legacy:vitturn",
+        "path": "mediawiki/Vitturn.txt"
+      }
+    },
+    {
+      "id": "vitturn-led-4",
+      "kind": "route",
+      "number": "4",
+      "name": "Inget är för evigt",
+      "grade": "6-",
+      "length": "",
+      "type": "mix",
+      "firstAscent": "Jörgen Lundgren",
+      "description": "3bb + kil i slutet. Variant är att klättra utsteget på Jackpot.",
+      "source": {
+        "id": "legacy:vitturn",
+        "path": "mediawiki/Vitturn.txt"
+      }
+    },
+    {
+      "id": "vitturn-led-5",
+      "kind": "route",
+      "number": "5",
+      "name": "Jackpot",
+      "grade": "6",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "Mikael Hellberg",
+      "description": "3bb + ev.liten kil i början.",
+      "source": {
+        "id": "legacy:vitturn",
+        "path": "mediawiki/Vitturn.txt"
+      }
+    },
+    {
+      "id": "vitturn-led-6",
+      "kind": "route",
+      "number": "6",
+      "name": "Eufori",
+      "grade": "6",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "Jörgen Lundgren",
+      "description": "4bb+ 2 borrbultar i toppen gemensamt med led 5.",
+      "source": {
+        "id": "legacy:vitturn",
+        "path": "mediawiki/Vitturn.txt"
+      }
+    },
+    {
+      "id": "vitturn-led-7",
+      "kind": "route",
+      "number": "7",
+      "name": "Faktotum",
+      "grade": "6+",
+      "length": "",
+      "type": "mix",
+      "firstAscent": "Erik Wadman",
+      "description": "Camalot 0.75 i början sedan 1bb + kil i slutet 2bb i toppen. Sten/Grepp har lossnat under 2012, svårighetsgraden har bedömt ökat.",
+      "source": {
+        "id": "legacy:vitturn",
+        "path": "mediawiki/Vitturn.txt"
+      }
+    },
+    {
+      "id": "vitturn-led-8",
+      "kind": "route",
+      "number": "8",
+      "name": "Den mystiska spegeln",
+      "grade": "7-",
+      "length": "",
+      "type": "trad",
+      "firstAscent": "Erik Wadman",
+      "description": "Vitturns hårdaste kiltur. Små kilar och friends. Går att toppa/fira av med led nios ankare.",
+      "source": {
+        "id": "legacy:vitturn",
+        "path": "mediawiki/Vitturn.txt"
+      }
+    },
+    {
+      "id": "vitturn-led-9",
+      "kind": "route",
+      "number": "8a",
+      "name": "Öppet projekt",
+      "grade": "projekt",
+      "length": "",
+      "type": "",
+      "firstAscent": "",
+      "description": "Rakt upp till höger om Faktotum.",
+      "source": {
+        "id": "legacy:vitturn",
+        "path": "mediawiki/Vitturn.txt"
+      }
+    },
+    {
+      "id": "vitturn-led-10",
+      "kind": "route",
+      "number": "9",
+      "name": "Sköna myran",
+      "grade": "7/7+",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "",
+      "description": "4bb+2bb i toppen.",
+      "source": {
+        "id": "legacy:vitturn",
+        "path": "mediawiki/Vitturn.txt"
+      }
+    },
+    {
+      "id": "vitturn-led-11",
+      "kind": "route",
+      "number": "10",
+      "name": "Fungus",
+      "grade": "8-",
+      "length": "",
+      "type": "",
+      "firstAscent": "Göran Erlandsson",
+      "description": "Vitturns hårdaste tur. Svårighetsgraden har möjligen ökat något efter att steg har lossnat under våren-03.",
+      "source": {
+        "id": "legacy:vitturn",
+        "path": "mediawiki/Vitturn.txt"
+      }
+    },
+    {
+      "id": "vitturn-led-12",
+      "kind": "route",
+      "number": "10a",
+      "name": "Variant av Fungus",
+      "grade": "7-",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "Erik Hansson",
+      "description": "Undgå kruxet genom att gå ut till vänster vid första bulten och hangla efter rampen. 4bb.",
+      "source": {
+        "id": "legacy:vitturn",
+        "path": "mediawiki/Vitturn.txt"
+      }
+    },
+    {
+      "id": "vitturn-led-13",
+      "kind": "route",
+      "number": "11",
+      "name": "Dystopia",
+      "grade": "6",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "Ted Ekberg",
+      "description": "Klättra upp till vänster om Grov utan att använda sprickan. 4bb+ankare med kedja.",
+      "source": {
+        "id": "legacy:vitturn",
+        "path": "mediawiki/Vitturn.txt"
+      }
+    },
+    {
+      "id": "vitturn-led-14",
+      "kind": "route",
+      "number": "12",
+      "name": "Grov",
+      "grade": "5+",
+      "length": "",
+      "type": "trad",
+      "firstAscent": "",
+      "description": "Den stora sprickan med nischen. Välsäkrad med kilar och Hex#10 el. 11.",
+      "source": {
+        "id": "legacy:vitturn",
+        "path": "mediawiki/Vitturn.txt"
+      }
+    },
+    {
+      "id": "vitturn-led-15",
+      "kind": "route",
+      "number": "13",
+      "name": "Roulette",
+      "grade": "6+/7-",
+      "length": "",
+      "type": "FALSKT",
+      "firstAscent": "Erik Wadman",
+      "description": "",
+      "source": {
+        "id": "legacy:vitturn",
+        "path": "mediawiki/Vitturn.txt"
+      }
+    },
+    {
+      "id": "vitturn-led-16",
+      "kind": "route",
+      "number": "14",
+      "name": "137 kilo kärlek",
+      "grade": "6+",
+      "length": "",
+      "type": "FALSKT",
+      "firstAscent": "Ted Ekberg",
+      "description": "",
+      "source": {
+        "id": "legacy:vitturn",
+        "path": "mediawiki/Vitturn.txt"
+      }
+    },
+    {
+      "id": "vitturn-led-17",
+      "kind": "route",
+      "number": "15",
+      "name": "Spricka",
+      "grade": "5-",
+      "length": "",
+      "type": "FALSKT",
+      "firstAscent": "Mikael Hellberg",
+      "description": "",
+      "source": {
+        "id": "legacy:vitturn",
+        "path": "mediawiki/Vitturn.txt"
+      }
+    },
+    {
+      "id": "vitturn-led-18",
+      "kind": "route",
+      "number": "16",
+      "name": "Sarajevo by night",
+      "grade": "7+",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "Daniel Nylén",
+      "description": "3bb+2bb i toppen.",
+      "source": {
+        "id": "legacy:vitturn",
+        "path": "mediawiki/Vitturn.txt"
+      }
+    },
+    {
+      "id": "vitturn-led-19",
+      "kind": "route",
+      "number": "17",
+      "name": "Till Saras Egypten",
+      "grade": "5+",
+      "length": "",
+      "type": "",
+      "firstAscent": "Jörgen Lundgren",
+      "description": "Hangla på utsidan av rampen sedan rakt upp. Små kilar+ liten friend.",
+      "source": {
+        "id": "legacy:vitturn",
+        "path": "mediawiki/Vitturn.txt"
+      }
+    },
+    {
+      "id": "vitturn-led-20",
+      "kind": "route",
+      "number": "17a",
+      "name": "Egypten direkt",
+      "grade": "6-",
+      "length": "",
+      "type": "",
+      "firstAscent": "",
+      "description": "Direktinsteg rakt upp till hyllan",
+      "source": {
+        "id": "legacy:vitturn",
+        "path": "mediawiki/Vitturn.txt"
+      }
+    },
+    {
+      "id": "vitturn-led-21",
+      "kind": "route",
+      "number": "18",
+      "name": "All you can eat",
+      "grade": "6-",
+      "length": "",
+      "type": "FALSKT",
+      "firstAscent": "Erik Wadman",
+      "description": "",
+      "source": {
+        "id": "legacy:vitturn",
+        "path": "mediawiki/Vitturn.txt"
+      }
+    },
+    {
+      "id": "vitturn-led-22",
+      "kind": "route",
+      "number": "19",
+      "name": "Löst dike",
+      "grade": "4",
+      "length": "",
+      "type": "FALSKT",
+      "firstAscent": "Mikael Hellberg solo",
+      "description": "",
+      "source": {
+        "id": "legacy:vitturn",
+        "path": "mediawiki/Vitturn.txt"
+      }
+    },
+    {
+      "id": "vitturn-led-23",
+      "kind": "route",
+      "number": "20",
+      "name": "Johans picknick",
+      "grade": "5",
+      "length": "",
+      "type": "FALSKT",
+      "firstAscent": "Daniel Nylén",
+      "description": "",
+      "source": {
+        "id": "legacy:vitturn",
+        "path": "mediawiki/Vitturn.txt"
+      }
+    },
+    {
+      "id": "vitturn-led-24",
+      "kind": "route",
+      "number": "21",
+      "name": "Daniels spricka",
+      "grade": "5+",
+      "length": "",
+      "type": "FALSKT",
+      "firstAscent": "Daniel Nylén",
+      "description": "",
+      "source": {
+        "id": "legacy:vitturn",
+        "path": "mediawiki/Vitturn.txt"
+      }
+    },
+    {
+      "id": "vitturn-led-25",
+      "kind": "route",
+      "number": "22",
+      "name": "Sydpillaren",
+      "grade": "7",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "Ted Ekberg",
+      "description": "Rakt upp utan att använda sprickan till vänster. Boulderkaraktär. 2bb+2 i toppen.",
+      "source": {
+        "id": "legacy:vitturn",
+        "path": "mediawiki/Vitturn.txt"
+      }
+    },
+    {
+      "id": "vitturn-led-26",
+      "kind": "route",
+      "number": "23",
+      "name": "Vegas world",
+      "grade": "4",
+      "length": "",
+      "type": "",
+      "firstAscent": "Erik Wadman",
+      "description": "Sveriges brantaste fyra?",
+      "source": {
+        "id": "legacy:vitturn",
+        "path": "mediawiki/Vitturn.txt"
+      }
+    }
+  ],
+  "images": [
+    {
+      "filename": "Vägbeskrivning.gif",
+      "caption": "",
+      "missing": false
+    },
+    {
+      "filename": "Vänstra_delen.gif",
+      "caption": "frame",
+      "missing": false
+    },
+    {
+      "filename": "Högra_delen.gif",
+      "caption": "frame",
+      "missing": false
+    }
+  ],
+  "access": {
+    "legacyText": null,
+    "federationSlug": null
+  },
+  "qualityIssues": [],
+  "provenance": {
+    "primarySourceId": "legacy:vitturn",
+    "sources": [
+      {
+        "id": "legacy:vitturn",
+        "title": "Sverigeföraren 2014: Vitturn",
+        "path": "mediawiki/Vitturn.txt",
+        "license": "GNU Free Documentation License",
+        "snapshotDate": "2014-01-01"
+      }
+    ]
+  }
+}

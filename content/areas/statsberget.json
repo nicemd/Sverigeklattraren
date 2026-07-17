@@ -1,0 +1,82 @@
+{
+  "schemaVersion": 1,
+  "id": "statsberget",
+  "slug": "statsberget",
+  "name": "Statsberget",
+  "description": "För den som gillar isklättring med en väldigt fin utsikt.",
+  "coordinates": {
+    "latitude": 59,
+    "longitude": 18
+  },
+  "categories": [
+    "mix",
+    "Saknar koordinater",
+    "Saknar leder",
+    "Saknar skiss",
+    "Saknar skrivarformatering",
+    "Saknar vägbeskrivning",
+    "sport",
+    "sva",
+    "trad",
+    "vertikalt",
+    "överhäng"
+  ],
+  "sections": [
+    {
+      "id": "allmant",
+      "title": "Allmänt",
+      "body": "För den som gillar isklättring med en väldigt fin utsikt."
+    },
+    {
+      "id": "vagbeskrivning",
+      "title": "Vägbeskrivning",
+      "body": "Karta här. Tryck på kartknappen ovan. Skriv vägbeskrivning här."
+    },
+    {
+      "id": "leder",
+      "title": "Leder",
+      "body": "Höger kolumn kategori:Saknar skiss kategori:Saknar vägbeskrivning kategori:Saknar leder kategori:Saknar koordinater kategori:Saknar skrivarformatering Category:Jämtland"
+    }
+  ],
+  "routes": [
+    {
+      "id": "statsberget-led-1",
+      "kind": "route",
+      "number": "1",
+      "name": "Namn på led",
+      "grade": "9c+",
+      "length": "30",
+      "type": "trad",
+      "firstAscent": "namn på fa -08",
+      "description": "ledbeskrivning",
+      "source": {
+        "id": "legacy:statsberget",
+        "path": "mediawiki/Statsberget.txt"
+      }
+    }
+  ],
+  "images": [
+    {
+      "filename": "Skiss.gif",
+      "caption": "",
+      "missing": false
+    }
+  ],
+  "access": {
+    "legacyText": null,
+    "federationSlug": null
+  },
+  "qualityIssues": [],
+  "provenance": {
+    "primarySourceId": "legacy:statsberget",
+    "sources": [
+      {
+        "id": "legacy:statsberget",
+        "title": "Sverigeföraren 2014: Statsberget",
+        "path": "mediawiki/Statsberget.txt",
+        "license": "GNU Free Documentation License",
+        "snapshotDate": "2014-01-01"
+      }
+    ]
+  }
+}

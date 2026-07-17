@@ -1,0 +1,1228 @@
+{
+  "schemaVersion": 1,
+  "id": "aspen",
+  "slug": "aspen",
+  "name": "Aspen",
+  "description": "Trevlig klippa ovanför sjön, med mestadels bult men även en del kil. Överkomliga grader. Ta ett dopp efter klätterdagen, antingen från bryggan nedanför klippan, eller vid badstranden i sjöns norra ände. Ta med skräp härifrån!",
+  "coordinates": {
+    "latitude": 57.7702607272836,
+    "longitude": 12.221088409423828
+  },
+  "categories": [
+    "2 stjärnor",
+    "Göteborg"
+  ],
+  "sections": [
+    {
+      "id": "allmant",
+      "title": "Allmänt",
+      "body": "Trevlig klippa ovanför sjön, med mestadels bult men även en del kil. Överkomliga grader. Ta ett dopp efter klätterdagen, antingen från bryggan nedanför klippan, eller vid badstranden i sjöns norra ände. Ta med skräp härifrån!"
+    },
+    {
+      "id": "karaktar",
+      "title": "Karaktär",
+      "body": "Klätterklippa med lite längre (20 meter) vertikala turer, och turer med brant svakaraktär, det mesta är lättare än 7a. Merparten ganska skuggigt. Väldigt många människor klättrar här, ofta får man stå i kö för de finare lederna. Ta med skräp härifrån. Visa hänsyn mot andra klättrare. Använd alltid egna karbiner i firningsankarna! På Fikahyllan klättrar många nybörjare."
+    },
+    {
+      "id": "vagbeskrivning",
+      "title": "Vägbeskrivning",
+      "body": "Om du kör av vid Hulanmotet, kör längs med motorvägen. Sväng vänster i rondellen skylt mot Aspenäs, sedan vänster igen. Fortsätt svänga vänster så ofta du kan. Följ Goråsvägen. Efter att du har passerat en gammal lada på varje sida av vägen dyker en grusparkering på höger sida upp, ställ bilen här!"
+    },
+    {
+      "id": "kollektivtrafik",
+      "title": "Kollektivtrafik",
+      "body": "Ta tåg till Aspedalen, beställ taxi till klippan därifrån."
+    },
+    {
+      "id": "nalle-puh",
+      "title": "Nalle Puh",
+      "body": "Väggen som ligger längst bort ifrån parkeringen, för att komma hit gå längs med vägen tills klippan tar slut och gå in i skogen. Ca 20m hög vägg med flera borrbultade turer. Den finaste är antagligen leden med samma namn som väggen, Nalle Puh(5c)."
+    },
+    {
+      "id": "columbushyllan",
+      "title": "Columbushyllan",
+      "body": "Ligger ovanför Nallepuh. Se till att inte sparka ner sten eller tappa saker på de som klättrar i Nalle Puh."
+    },
+    {
+      "id": "sheriffen",
+      "title": "Sheriffen",
+      "body": "Höger om Nalle Puh-området eller rakt nedanför Highway-hyllan. En del svårare leder, inklusive Sheriffen."
+    },
+    {
+      "id": "highwayhyllan",
+      "title": "Highwayhyllan",
+      "body": "Highway-hyllan rekommenderas! Lättaste vägen är att gå skrambla ovanför Fikahyllan och följa bergets topp tills ni ser två firningsankare som tillhör Highway 66 och Sonic Youth. Insteget till sportlederna har två limbultar. Var försiktig så ni inte sparkar ner sten på Sheriffen, tänk på att ropa \"Sten!\"."
+    },
+    {
+      "id": "oversta-hyllan",
+      "title": "Översta hyllan",
+      "body": "Ovanför fikahyllan, skrambla ner eller klättra någon led mellan Svarta leden och Mr-100 upp."
+    },
+    {
+      "id": "fikahyllan",
+      "title": "Fikahyllan",
+      "body": "Låt bli att topprepa direkt i ringarna! Använd egna karbiner. Från parkeringen gå in i skogen men parallellt med vägen, uppför. Kategori:Göteborg"
+    },
+    {
+      "id": "mumindalen",
+      "title": "Mumindalen",
+      "body": "Höger om parkeringen, istället för vänster om parkeringen där alla andra leder finns. 5-6 bultade leder av måttlig kvalité. Utrustade med firningsankare. Rekommenderas varma sommardagar då det är för varmt för att vara på fikahyllan eller då det är fullt av klättrare på alla andra områden av Aspen (händer)."
+    }
+  ],
+  "routes": [
+    {
+      "id": "aspen-led-1",
+      "kind": "route",
+      "number": null,
+      "name": "Spricka nummer 1",
+      "grade": "5-",
+      "length": "",
+      "type": "",
+      "firstAscent": "",
+      "description": "",
+      "source": {
+        "id": "legacy:aspen",
+        "path": "mediawiki/Aspen.txt"
+      }
+    },
+    {
+      "id": "aspen-led-2",
+      "kind": "route",
+      "number": null,
+      "name": "Transpilleten",
+      "grade": "5+",
+      "length": "",
+      "type": "",
+      "firstAscent": "",
+      "description": "",
+      "source": {
+        "id": "legacy:aspen",
+        "path": "mediawiki/Aspen.txt"
+      }
+    },
+    {
+      "id": "aspen-led-3",
+      "kind": "route",
+      "number": null,
+      "name": "Serious hiking",
+      "grade": "6b+",
+      "length": "",
+      "type": "",
+      "firstAscent": "",
+      "description": "",
+      "source": {
+        "id": "legacy:aspen",
+        "path": "mediawiki/Aspen.txt"
+      }
+    },
+    {
+      "id": "aspen-led-4",
+      "kind": "route",
+      "number": null,
+      "name": "Grodan boll",
+      "grade": "6c",
+      "length": "",
+      "type": "",
+      "firstAscent": "Patrik Svahn & Marcus Rimen",
+      "description": "En mer frekvent klättrad led",
+      "source": {
+        "id": "legacy:aspen",
+        "path": "mediawiki/Aspen.txt"
+      }
+    },
+    {
+      "id": "aspen-led-5",
+      "kind": "route",
+      "number": null,
+      "name": "Kalle Stropp",
+      "grade": "6c",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "",
+      "description": "",
+      "source": {
+        "id": "legacy:aspen",
+        "path": "mediawiki/Aspen.txt"
+      }
+    },
+    {
+      "id": "aspen-led-6",
+      "kind": "route",
+      "number": null,
+      "name": "Ior",
+      "grade": "6b",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "Peter Svahn",
+      "description": "",
+      "source": {
+        "id": "legacy:aspen",
+        "path": "mediawiki/Aspen.txt"
+      }
+    },
+    {
+      "id": "aspen-led-7",
+      "kind": "route",
+      "number": null,
+      "name": "Nalle Puh",
+      "grade": "5c/5+",
+      "length": "20",
+      "type": "sport",
+      "firstAscent": "Krister Stoltz",
+      "description": "",
+      "source": {
+        "id": "legacy:aspen",
+        "path": "mediawiki/Aspen.txt"
+      }
+    },
+    {
+      "id": "aspen-led-8",
+      "kind": "route",
+      "number": null,
+      "name": "Nasse",
+      "grade": "6a/5+",
+      "length": "20",
+      "type": "sport",
+      "firstAscent": "Krister Stoltz",
+      "description": "Samma insteg som Nalle Puh, fortsätter till ankaret höger om Nalle Puhs.",
+      "source": {
+        "id": "legacy:aspen",
+        "path": "mediawiki/Aspen.txt"
+      }
+    },
+    {
+      "id": "aspen-led-9",
+      "kind": "route",
+      "number": null,
+      "name": "Tiger",
+      "grade": "6c",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "Jens Larssen",
+      "description": "Tiger går upp till Nasses ankare.",
+      "source": {
+        "id": "legacy:aspen",
+        "path": "mediawiki/Aspen.txt"
+      }
+    },
+    {
+      "id": "aspen-led-10",
+      "kind": "route",
+      "number": null,
+      "name": "Plåtniklas",
+      "grade": "6c",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "Patrik Svahn & Marcus Rimen",
+      "description": "",
+      "source": {
+        "id": "legacy:aspen",
+        "path": "mediawiki/Aspen.txt"
+      }
+    },
+    {
+      "id": "aspen-led-11",
+      "kind": "route",
+      "number": null,
+      "name": "Rövjammet",
+      "grade": "5+",
+      "length": "",
+      "type": "trad",
+      "firstAscent": "",
+      "description": "Kaminen höger om Plåtniklas. Bultarna går i allra högsta grad undvika, (samma grad, roligare klättring)",
+      "source": {
+        "id": "legacy:aspen",
+        "path": "mediawiki/Aspen.txt"
+      }
+    },
+    {
+      "id": "aspen-led-12",
+      "kind": "route",
+      "number": null,
+      "name": "Spökbultaren",
+      "grade": "7a+",
+      "length": "",
+      "type": "",
+      "firstAscent": "",
+      "description": "",
+      "source": {
+        "id": "legacy:aspen",
+        "path": "mediawiki/Aspen.txt"
+      }
+    },
+    {
+      "id": "aspen-led-13",
+      "kind": "route",
+      "number": null,
+      "name": "Nangiala",
+      "grade": "6c+",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "",
+      "description": "",
+      "source": {
+        "id": "legacy:aspen",
+        "path": "mediawiki/Aspen.txt"
+      }
+    },
+    {
+      "id": "aspen-led-14",
+      "kind": "route",
+      "number": null,
+      "name": "Peak performance",
+      "grade": "7a",
+      "length": "",
+      "type": "",
+      "firstAscent": "Jens Larsssen",
+      "description": "Inte helt oklättrad",
+      "source": {
+        "id": "legacy:aspen",
+        "path": "mediawiki/Aspen.txt"
+      }
+    },
+    {
+      "id": "aspen-led-15",
+      "kind": "route",
+      "number": null,
+      "name": "Görans tur",
+      "grade": "5+",
+      "length": "",
+      "type": "",
+      "firstAscent": "",
+      "description": "",
+      "source": {
+        "id": "legacy:aspen",
+        "path": "mediawiki/Aspen.txt"
+      }
+    },
+    {
+      "id": "aspen-led-16",
+      "kind": "route",
+      "number": null,
+      "name": "Projekt nummer 17",
+      "grade": "6b+",
+      "length": "",
+      "type": "",
+      "firstAscent": "?",
+      "description": "Numera bultat? Vilken namn?",
+      "source": {
+        "id": "legacy:aspen",
+        "path": "mediawiki/Aspen.txt"
+      }
+    },
+    {
+      "id": "aspen-led-17",
+      "kind": "route",
+      "number": null,
+      "name": "Luke Skywalker",
+      "grade": "6b+",
+      "length": "",
+      "type": "",
+      "firstAscent": "Krister Stoltz?",
+      "description": "",
+      "source": {
+        "id": "legacy:aspen",
+        "path": "mediawiki/Aspen.txt"
+      }
+    },
+    {
+      "id": "aspen-led-18",
+      "kind": "route",
+      "number": null,
+      "name": "Exodus",
+      "grade": "6c",
+      "length": "",
+      "type": "",
+      "firstAscent": "",
+      "description": "",
+      "source": {
+        "id": "legacy:aspen",
+        "path": "mediawiki/Aspen.txt"
+      }
+    },
+    {
+      "id": "aspen-led-19",
+      "kind": "route",
+      "number": null,
+      "name": "Markus led",
+      "grade": "7a",
+      "length": "",
+      "type": "",
+      "firstAscent": "",
+      "description": "",
+      "source": {
+        "id": "legacy:aspen",
+        "path": "mediawiki/Aspen.txt"
+      }
+    },
+    {
+      "id": "aspen-led-20",
+      "kind": "route",
+      "number": null,
+      "name": "Robert & Hans led",
+      "grade": "6",
+      "length": "",
+      "type": "",
+      "firstAscent": "",
+      "description": "",
+      "source": {
+        "id": "legacy:aspen",
+        "path": "mediawiki/Aspen.txt"
+      }
+    },
+    {
+      "id": "aspen-led-21",
+      "kind": "route",
+      "number": null,
+      "name": "Zorro",
+      "grade": "7b",
+      "length": "",
+      "type": "",
+      "firstAscent": "",
+      "description": "",
+      "source": {
+        "id": "legacy:aspen",
+        "path": "mediawiki/Aspen.txt"
+      }
+    },
+    {
+      "id": "aspen-led-22",
+      "kind": "route",
+      "number": null,
+      "name": "Columbus",
+      "grade": "4",
+      "length": "6",
+      "type": "trad",
+      "firstAscent": "",
+      "description": "",
+      "source": {
+        "id": "legacy:aspen",
+        "path": "mediawiki/Aspen.txt"
+      }
+    },
+    {
+      "id": "aspen-led-23",
+      "kind": "route",
+      "number": null,
+      "name": "Marco Polo",
+      "grade": "6",
+      "length": "6",
+      "type": "trad",
+      "firstAscent": "",
+      "description": "",
+      "source": {
+        "id": "legacy:aspen",
+        "path": "mediawiki/Aspen.txt"
+      }
+    },
+    {
+      "id": "aspen-led-24",
+      "kind": "route",
+      "number": null,
+      "name": "Weight watcher",
+      "grade": "6c",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "Krister Stoltz",
+      "description": "",
+      "source": {
+        "id": "legacy:aspen",
+        "path": "mediawiki/Aspen.txt"
+      }
+    },
+    {
+      "id": "aspen-led-25",
+      "kind": "route",
+      "number": null,
+      "name": "Viggo Viking",
+      "grade": "6a+",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "Krister Stoltz",
+      "description": "",
+      "source": {
+        "id": "legacy:aspen",
+        "path": "mediawiki/Aspen.txt"
+      }
+    },
+    {
+      "id": "aspen-led-26",
+      "kind": "route",
+      "number": null,
+      "name": "Astra",
+      "grade": "6",
+      "length": "",
+      "type": "",
+      "firstAscent": "",
+      "description": "",
+      "source": {
+        "id": "legacy:aspen",
+        "path": "mediawiki/Aspen.txt"
+      }
+    },
+    {
+      "id": "aspen-led-27",
+      "kind": "route",
+      "number": null,
+      "name": "TV1",
+      "grade": "5-",
+      "length": "",
+      "type": "trad",
+      "firstAscent": "",
+      "description": "",
+      "source": {
+        "id": "legacy:aspen",
+        "path": "mediawiki/Aspen.txt"
+      }
+    },
+    {
+      "id": "aspen-led-28",
+      "kind": "route",
+      "number": null,
+      "name": "TV2",
+      "grade": "5+",
+      "length": "",
+      "type": "trad",
+      "firstAscent": "",
+      "description": "Tv1 och Tv2 är de inbjudande sprickorna vänter om överhänget (Robin Hood)",
+      "source": {
+        "id": "legacy:aspen",
+        "path": "mediawiki/Aspen.txt"
+      }
+    },
+    {
+      "id": "aspen-led-29",
+      "kind": "route",
+      "number": null,
+      "name": "Super Channel",
+      "grade": "6-",
+      "length": "",
+      "type": "trad",
+      "firstAscent": "",
+      "description": "Super Channel är fortsättningen på Tv1/Tv2",
+      "source": {
+        "id": "legacy:aspen",
+        "path": "mediawiki/Aspen.txt"
+      }
+    },
+    {
+      "id": "aspen-led-30",
+      "kind": "route",
+      "number": null,
+      "name": "Robin Hood",
+      "grade": "7b",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "Jens Larssen",
+      "description": "Det mycket inbjudande överhänget",
+      "source": {
+        "id": "legacy:aspen",
+        "path": "mediawiki/Aspen.txt"
+      }
+    },
+    {
+      "id": "aspen-led-31",
+      "kind": "route",
+      "number": null,
+      "name": "Spricka nr 2",
+      "grade": "5",
+      "length": "",
+      "type": "trad",
+      "firstAscent": "",
+      "description": "Följer flaket",
+      "source": {
+        "id": "legacy:aspen",
+        "path": "mediawiki/Aspen.txt"
+      }
+    },
+    {
+      "id": "aspen-led-32",
+      "kind": "route",
+      "number": null,
+      "name": "Lucifers längtan",
+      "grade": "6",
+      "length": "",
+      "type": "mix",
+      "firstAscent": "",
+      "description": "Samma start som Sheriffen fast rakt upp",
+      "source": {
+        "id": "legacy:aspen",
+        "path": "mediawiki/Aspen.txt"
+      }
+    },
+    {
+      "id": "aspen-led-33",
+      "kind": "route",
+      "number": null,
+      "name": "Sheriffen",
+      "grade": "7a+",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "Jens Larssen",
+      "description": "",
+      "source": {
+        "id": "legacy:aspen",
+        "path": "mediawiki/Aspen.txt"
+      }
+    },
+    {
+      "id": "aspen-led-34",
+      "kind": "route",
+      "number": null,
+      "name": "Little John",
+      "grade": "6b",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "Jens Larssen",
+      "description": "Tar slut vid ringen",
+      "source": {
+        "id": "legacy:aspen",
+        "path": "mediawiki/Aspen.txt"
+      }
+    },
+    {
+      "id": "aspen-led-35",
+      "kind": "route",
+      "number": null,
+      "name": "Sir väs",
+      "grade": "8a",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "Jens Larssen",
+      "description": "Fortsättning på Little John, ska klättras ifrån backen (inte ifrån hängande stand)",
+      "source": {
+        "id": "legacy:aspen",
+        "path": "mediawiki/Aspen.txt"
+      }
+    },
+    {
+      "id": "aspen-led-36",
+      "kind": "route",
+      "number": null,
+      "name": "30-årspresenten",
+      "grade": "7-",
+      "length": "",
+      "type": "trad",
+      "firstAscent": "",
+      "description": "",
+      "source": {
+        "id": "legacy:aspen",
+        "path": "mediawiki/Aspen.txt"
+      }
+    },
+    {
+      "id": "aspen-led-37",
+      "kind": "route",
+      "number": null,
+      "name": "Fredriks långa näsa",
+      "grade": "7-",
+      "length": "",
+      "type": "trad",
+      "firstAscent": "",
+      "description": "",
+      "source": {
+        "id": "legacy:aspen",
+        "path": "mediawiki/Aspen.txt"
+      }
+    },
+    {
+      "id": "aspen-led-38",
+      "kind": "route",
+      "number": null,
+      "name": "Amaretto",
+      "grade": "7a",
+      "length": "",
+      "type": "",
+      "firstAscent": "Patrik Svahn & Marcus Rimen",
+      "description": "",
+      "source": {
+        "id": "legacy:aspen",
+        "path": "mediawiki/Aspen.txt"
+      }
+    },
+    {
+      "id": "aspen-led-39",
+      "kind": "route",
+      "number": null,
+      "name": "Flakmoppen",
+      "grade": "5+",
+      "length": "",
+      "type": "trad",
+      "firstAscent": "",
+      "description": "Flakmoppens utsteg heter Afrodite, Afrodite fortsätter och blir Helenas salva",
+      "source": {
+        "id": "legacy:aspen",
+        "path": "mediawiki/Aspen.txt"
+      }
+    },
+    {
+      "id": "aspen-led-40",
+      "kind": "route",
+      "number": null,
+      "name": "?",
+      "grade": "?",
+      "length": "",
+      "type": "",
+      "firstAscent": "Jens Larsson",
+      "description": "sitter två topprepsankare till vänster om Mors lilla olle, singelbultar",
+      "source": {
+        "id": "legacy:aspen",
+        "path": "mediawiki/Aspen.txt"
+      }
+    },
+    {
+      "id": "aspen-led-41",
+      "kind": "route",
+      "number": null,
+      "name": "?",
+      "grade": "?",
+      "length": "",
+      "type": "",
+      "firstAscent": "Jens Larsson",
+      "description": "Man ser ankarna ganska lätt ifrån foten av fikahyllan",
+      "source": {
+        "id": "legacy:aspen",
+        "path": "mediawiki/Aspen.txt"
+      }
+    },
+    {
+      "id": "aspen-led-42",
+      "kind": "route",
+      "number": null,
+      "name": "Mors lilla Olle",
+      "grade": "3a",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "Jens Larssen",
+      "description": "Upp till sista bulten",
+      "source": {
+        "id": "legacy:aspen",
+        "path": "mediawiki/Aspen.txt"
+      }
+    },
+    {
+      "id": "aspen-led-43",
+      "kind": "route",
+      "number": null,
+      "name": "I skogen gick",
+      "grade": "5a",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "Jens Larssen",
+      "description": "fortsättning på Mors lilla Olle",
+      "source": {
+        "id": "legacy:aspen",
+        "path": "mediawiki/Aspen.txt"
+      }
+    },
+    {
+      "id": "aspen-led-44",
+      "kind": "route",
+      "number": null,
+      "name": "Leden Jens glömde",
+      "grade": "5-",
+      "length": "12",
+      "type": "mix",
+      "firstAscent": "fa=längesen",
+      "description": "Sprickan rakt under Mors lilla Olles Ankare, sitter en gammal pitong fyra meter upp",
+      "source": {
+        "id": "legacy:aspen",
+        "path": "mediawiki/Aspen.txt"
+      }
+    },
+    {
+      "id": "aspen-led-45",
+      "kind": "route",
+      "number": null,
+      "name": "Stå inte på vägen och säkra",
+      "grade": "5b",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "Jens Larssen",
+      "description": "Bultarna är numera borttagna",
+      "source": {
+        "id": "legacy:aspen",
+        "path": "mediawiki/Aspen.txt"
+      }
+    },
+    {
+      "id": "aspen-led-46",
+      "kind": "route",
+      "number": null,
+      "name": "Tomas Aréte",
+      "grade": "6+",
+      "length": "",
+      "type": "",
+      "firstAscent": "",
+      "description": "",
+      "source": {
+        "id": "legacy:aspen",
+        "path": "mediawiki/Aspen.txt"
+      }
+    },
+    {
+      "id": "aspen-led-47",
+      "kind": "route",
+      "number": null,
+      "name": "Hans spricka",
+      "grade": "5",
+      "length": "",
+      "type": "",
+      "firstAscent": "",
+      "description": "",
+      "source": {
+        "id": "legacy:aspen",
+        "path": "mediawiki/Aspen.txt"
+      }
+    },
+    {
+      "id": "aspen-led-48",
+      "kind": "route",
+      "number": null,
+      "name": "Highway 66",
+      "grade": "5c",
+      "length": "10",
+      "type": "sport",
+      "firstAscent": "Patrik Svahn",
+      "description": "Exponerad, Highway 66 är den arete som har ett firningsankare.",
+      "source": {
+        "id": "legacy:aspen",
+        "path": "mediawiki/Aspen.txt"
+      }
+    },
+    {
+      "id": "aspen-led-49",
+      "kind": "route",
+      "number": null,
+      "name": "Sonic Youth",
+      "grade": "6a+",
+      "length": "10",
+      "type": "sport",
+      "firstAscent": "Krister Stoltz",
+      "description": "",
+      "source": {
+        "id": "legacy:aspen",
+        "path": "mediawiki/Aspen.txt"
+      }
+    },
+    {
+      "id": "aspen-led-50",
+      "kind": "route",
+      "number": null,
+      "name": "Helenas Salva",
+      "grade": "4-",
+      "length": "",
+      "type": "",
+      "firstAscent": "",
+      "description": "",
+      "source": {
+        "id": "legacy:aspen",
+        "path": "mediawiki/Aspen.txt"
+      }
+    },
+    {
+      "id": "aspen-led-51",
+      "kind": "route",
+      "number": null,
+      "name": "Johan 1",
+      "grade": "4",
+      "length": "",
+      "type": "trad",
+      "firstAscent": "",
+      "description": "Den välsäkrade sprickan, utmärkt nybörjareled!",
+      "source": {
+        "id": "legacy:aspen",
+        "path": "mediawiki/Aspen.txt"
+      }
+    },
+    {
+      "id": "aspen-led-52",
+      "kind": "route",
+      "number": null,
+      "name": "Blodvite",
+      "grade": "4+",
+      "length": "",
+      "type": "",
+      "firstAscent": "",
+      "description": "Startar i diedret och följer sprickan. En del lösa grepp och en hel del smuts. Smutisigt utsteg. Leden får inga stjärnor.",
+      "source": {
+        "id": "legacy:aspen",
+        "path": "mediawiki/Aspen.txt"
+      }
+    },
+    {
+      "id": "aspen-led-53",
+      "kind": "route",
+      "number": null,
+      "name": "Afrodite",
+      "grade": "5+",
+      "length": "",
+      "type": "trad",
+      "firstAscent": "",
+      "description": "",
+      "source": {
+        "id": "legacy:aspen",
+        "path": "mediawiki/Aspen.txt"
+      }
+    },
+    {
+      "id": "aspen-led-54",
+      "kind": "route",
+      "number": null,
+      "name": "Svarta leden",
+      "grade": "5+",
+      "length": "",
+      "type": "trad",
+      "firstAscent": "",
+      "description": "",
+      "source": {
+        "id": "legacy:aspen",
+        "path": "mediawiki/Aspen.txt"
+      }
+    },
+    {
+      "id": "aspen-led-55",
+      "kind": "route",
+      "number": null,
+      "name": "Fladdermusen",
+      "grade": "5",
+      "length": "",
+      "type": "trad",
+      "firstAscent": "",
+      "description": "",
+      "source": {
+        "id": "legacy:aspen",
+        "path": "mediawiki/Aspen.txt"
+      }
+    },
+    {
+      "id": "aspen-led-56",
+      "kind": "route",
+      "number": null,
+      "name": "Tunnsprickan",
+      "grade": "6",
+      "length": "",
+      "type": "trad",
+      "firstAscent": "",
+      "description": "",
+      "source": {
+        "id": "legacy:aspen",
+        "path": "mediawiki/Aspen.txt"
+      }
+    },
+    {
+      "id": "aspen-led-57",
+      "kind": "route",
+      "number": null,
+      "name": "Teatime",
+      "grade": "4",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "",
+      "description": "",
+      "source": {
+        "id": "legacy:aspen",
+        "path": "mediawiki/Aspen.txt"
+      }
+    },
+    {
+      "id": "aspen-led-58",
+      "kind": "route",
+      "number": null,
+      "name": "Mr100",
+      "grade": "4a",
+      "length": "10",
+      "type": "sport",
+      "firstAscent": "",
+      "description": "",
+      "source": {
+        "id": "legacy:aspen",
+        "path": "mediawiki/Aspen.txt"
+      }
+    },
+    {
+      "id": "aspen-led-59",
+      "kind": "route",
+      "number": null,
+      "name": "Den riktiga fikahyllan",
+      "grade": "4",
+      "length": "",
+      "type": "trad",
+      "firstAscent": "16 Oktober 2011",
+      "description": "Offwidth-sprickan med samma start som Carl Gustavs HP, fast rakt upp.",
+      "source": {
+        "id": "legacy:aspen",
+        "path": "mediawiki/Aspen.txt"
+      }
+    },
+    {
+      "id": "aspen-led-60",
+      "kind": "route",
+      "number": null,
+      "name": "Carl Gustavs HP",
+      "grade": "6a",
+      "length": "10",
+      "type": "sport",
+      "firstAscent": "",
+      "description": "Fin led",
+      "source": {
+        "id": "legacy:aspen",
+        "path": "mediawiki/Aspen.txt"
+      }
+    },
+    {
+      "id": "aspen-led-61",
+      "kind": "route",
+      "number": null,
+      "name": "Silvias VF",
+      "grade": "5c+",
+      "length": "10",
+      "type": "sport",
+      "firstAscent": "",
+      "description": "",
+      "source": {
+        "id": "legacy:aspen",
+        "path": "mediawiki/Aspen.txt"
+      }
+    },
+    {
+      "id": "aspen-led-62",
+      "kind": "route",
+      "number": null,
+      "name": "Victiorias FM",
+      "grade": "5",
+      "length": "10",
+      "type": "trad",
+      "firstAscent": "",
+      "description": "Lätt att sätta upp topprep om man har ett statiskt rep med sig. Fin och nybörjarevänlig.",
+      "source": {
+        "id": "legacy:aspen",
+        "path": "mediawiki/Aspen.txt"
+      }
+    },
+    {
+      "id": "aspen-led-63",
+      "kind": "route",
+      "number": null,
+      "name": "Nudisten",
+      "grade": "4+",
+      "length": "10",
+      "type": "trad",
+      "firstAscent": "",
+      "description": "Mycket fin nybörjareled.",
+      "source": {
+        "id": "legacy:aspen",
+        "path": "mediawiki/Aspen.txt"
+      }
+    },
+    {
+      "id": "aspen-led-64",
+      "kind": "route",
+      "number": null,
+      "name": "Subba",
+      "grade": "6a",
+      "length": "10",
+      "type": "sport",
+      "firstAscent": "",
+      "description": "Sportled oavsett vad som står i föraren. Mycket fin!",
+      "source": {
+        "id": "legacy:aspen",
+        "path": "mediawiki/Aspen.txt"
+      }
+    },
+    {
+      "id": "aspen-led-65",
+      "kind": "route",
+      "number": null,
+      "name": "Bonus",
+      "grade": "6-",
+      "length": "10",
+      "type": "topprep",
+      "firstAscent": "",
+      "description": "Topprepsled som går rakt upp till ankaret.",
+      "source": {
+        "id": "legacy:aspen",
+        "path": "mediawiki/Aspen.txt"
+      }
+    },
+    {
+      "id": "aspen-led-66",
+      "kind": "route",
+      "number": null,
+      "name": "Caffe Latte",
+      "grade": "4c",
+      "length": "10",
+      "type": "sport",
+      "firstAscent": "",
+      "description": "inget att rekommendera.",
+      "source": {
+        "id": "legacy:aspen",
+        "path": "mediawiki/Aspen.txt"
+      }
+    },
+    {
+      "id": "aspen-led-67",
+      "kind": "route",
+      "number": null,
+      "name": "Espresso House",
+      "grade": "3+",
+      "length": "",
+      "type": "trad",
+      "firstAscent": "13/6-2011",
+      "description": "Dieder 4 meter till höger om Caffé Latte",
+      "source": {
+        "id": "legacy:aspen",
+        "path": "mediawiki/Aspen.txt"
+      }
+    },
+    {
+      "id": "aspen-led-68",
+      "kind": "route",
+      "number": null,
+      "name": "Super Tilde",
+      "grade": "4a",
+      "length": "",
+      "type": "projekt",
+      "firstAscent": "",
+      "description": "Firningsankare på en liten vägg vänster om Mumindalen",
+      "source": {
+        "id": "legacy:aspen",
+        "path": "mediawiki/Aspen.txt"
+      }
+    },
+    {
+      "id": "aspen-led-69",
+      "kind": "route",
+      "number": null,
+      "name": "Mumin",
+      "grade": "6a+",
+      "length": "",
+      "type": "",
+      "firstAscent": "Krister Stoltz",
+      "description": "",
+      "source": {
+        "id": "legacy:aspen",
+        "path": "mediawiki/Aspen.txt"
+      }
+    },
+    {
+      "id": "aspen-led-70",
+      "kind": "route",
+      "number": null,
+      "name": "Hemulen",
+      "grade": "5c",
+      "length": "",
+      "type": "",
+      "firstAscent": "Krister Stoltz",
+      "description": "",
+      "source": {
+        "id": "legacy:aspen",
+        "path": "mediawiki/Aspen.txt"
+      }
+    },
+    {
+      "id": "aspen-led-71",
+      "kind": "route",
+      "number": null,
+      "name": "Lilla my",
+      "grade": "?",
+      "length": "",
+      "type": "",
+      "firstAscent": "",
+      "description": "",
+      "source": {
+        "id": "legacy:aspen",
+        "path": "mediawiki/Aspen.txt"
+      }
+    },
+    {
+      "id": "aspen-led-72",
+      "kind": "route",
+      "number": null,
+      "name": "Snorkfröken",
+      "grade": "5b",
+      "length": "",
+      "type": "",
+      "firstAscent": "Krister Stoltz",
+      "description": "",
+      "source": {
+        "id": "legacy:aspen",
+        "path": "mediawiki/Aspen.txt"
+      }
+    },
+    {
+      "id": "aspen-led-73",
+      "kind": "route",
+      "number": null,
+      "name": "Too-ticky",
+      "grade": "6b",
+      "length": "",
+      "type": "",
+      "firstAscent": "Krister Stoltz",
+      "description": "",
+      "source": {
+        "id": "legacy:aspen",
+        "path": "mediawiki/Aspen.txt"
+      }
+    },
+    {
+      "id": "aspen-led-74",
+      "kind": "route",
+      "number": null,
+      "name": "Stinky",
+      "grade": "6b",
+      "length": "",
+      "type": "",
+      "firstAscent": "Peter Svahn",
+      "description": "",
+      "source": {
+        "id": "legacy:aspen",
+        "path": "mediawiki/Aspen.txt"
+      }
+    },
+    {
+      "id": "aspen-led-75",
+      "kind": "route",
+      "number": null,
+      "name": "Ribbensdiedren",
+      "grade": "5+",
+      "length": "",
+      "type": "trad",
+      "firstAscent": "Mikael Kristiansen",
+      "description": "",
+      "source": {
+        "id": "legacy:aspen",
+        "path": "mediawiki/Aspen.txt"
+      }
+    }
+  ],
+  "images": [
+    {
+      "filename": "Aspen_valkomstbild.jpg",
+      "caption": "",
+      "missing": false
+    },
+    {
+      "filename": "Aspen.png",
+      "caption": "",
+      "missing": false
+    }
+  ],
+  "access": {
+    "legacyText": null,
+    "federationSlug": "Aspen"
+  },
+  "qualityIssues": [],
+  "provenance": {
+    "primarySourceId": "legacy:aspen",
+    "sources": [
+      {
+        "id": "legacy:aspen",
+        "title": "Sverigeföraren 2014: Aspen",
+        "path": "mediawiki/Aspen.txt",
+        "license": "GNU Free Documentation License",
+        "snapshotDate": "2014-01-01"
+      }
+    ]
+  }
+}

@@ -1,0 +1,146 @@
+{
+  "schemaVersion": 1,
+  "id": "kallberget",
+  "slug": "kallberget",
+  "name": "Kallberget",
+  "description": "7 dokumenterade leder och problem.",
+  "coordinates": null,
+  "categories": [],
+  "sections": [
+    {
+      "id": "introduktion",
+      "title": "Introduktion",
+      "body": "En förare i PDF-form över Kallberget finns på TKAK. Några bilder hittar du här!"
+    },
+    {
+      "id": "leder",
+      "title": "Leder",
+      "body": "(ligger 50 m till vänster om alla andra) Stängt projekt, Conny (ca 8a - 8a+)"
+    }
+  ],
+  "routes": [
+    {
+      "id": "kallberget-led-1",
+      "kind": "route",
+      "number": null,
+      "name": "Glaurung",
+      "grade": "7a (6c+?)",
+      "length": "",
+      "type": "",
+      "firstAscent": "Conny",
+      "description": "",
+      "source": {
+        "id": "legacy:kallberget",
+        "path": "mediawiki/Kallberget.txt"
+      }
+    },
+    {
+      "id": "kallberget-led-2",
+      "kind": "route",
+      "number": null,
+      "name": "4 Real",
+      "grade": "6c",
+      "length": "",
+      "type": "",
+      "firstAscent": "Urban",
+      "description": "",
+      "source": {
+        "id": "legacy:kallberget",
+        "path": "mediawiki/Kallberget.txt"
+      }
+    },
+    {
+      "id": "kallberget-led-3",
+      "kind": "route",
+      "number": null,
+      "name": "Unreal",
+      "grade": "7c",
+      "length": "",
+      "type": "",
+      "firstAscent": "Dag",
+      "description": "",
+      "source": {
+        "id": "legacy:kallberget",
+        "path": "mediawiki/Kallberget.txt"
+      }
+    },
+    {
+      "id": "kallberget-led-4",
+      "kind": "route",
+      "number": null,
+      "name": "Emil",
+      "grade": "7b+ (7b?)",
+      "length": "",
+      "type": "",
+      "firstAscent": "Danne",
+      "description": "",
+      "source": {
+        "id": "legacy:kallberget",
+        "path": "mediawiki/Kallberget.txt"
+      }
+    },
+    {
+      "id": "kallberget-led-5",
+      "kind": "route",
+      "number": null,
+      "name": "Yoda",
+      "grade": "6c (6c+?)",
+      "length": "",
+      "type": "",
+      "firstAscent": "Eva",
+      "description": "",
+      "source": {
+        "id": "legacy:kallberget",
+        "path": "mediawiki/Kallberget.txt"
+      }
+    },
+    {
+      "id": "kallberget-led-6",
+      "kind": "route",
+      "number": null,
+      "name": "Uprising",
+      "grade": "7b (7b+?)",
+      "length": "",
+      "type": "",
+      "firstAscent": "Dag",
+      "description": "",
+      "source": {
+        "id": "legacy:kallberget",
+        "path": "mediawiki/Kallberget.txt"
+      }
+    },
+    {
+      "id": "kallberget-led-7",
+      "kind": "route",
+      "number": null,
+      "name": "Super Mario",
+      "grade": "6a+",
+      "length": "",
+      "type": "",
+      "firstAscent": "Hagge & Dag",
+      "description": "",
+      "source": {
+        "id": "legacy:kallberget",
+        "path": "mediawiki/Kallberget.txt"
+      }
+    }
+  ],
+  "images": [],
+  "access": {
+    "legacyText": null,
+    "federationSlug": null
+  },
+  "qualityIssues": [],
+  "provenance": {
+    "primarySourceId": "legacy:kallberget",
+    "sources": [
+      {
+        "id": "legacy:kallberget",
+        "title": "Sverigeföraren 2014: Kallberget",
+        "path": "mediawiki/Kallberget.txt",
+        "license": "GNU Free Documentation License",
+        "snapshotDate": "2014-01-01"
+      }
+    ]
+  }
+}

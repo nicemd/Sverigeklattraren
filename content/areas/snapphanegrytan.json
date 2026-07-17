@@ -1,0 +1,230 @@
+{
+  "schemaVersion": 1,
+  "id": "snapphanegrytan",
+  "slug": "snapphanegrytan",
+  "name": "Snapphanegrytan",
+  "description": "Klippan är belägen uppe på Hallandsåsen mellan Skåne och Halland, Klippan är mellan 6-10m och har riktigt god friktion och bjuder på en hel del fin jamklättring därför är det lämpligt att ta med friends eller häxor. För tillfället finns 12st leder. Lederna behöver ett par dagars uppehållsväder efter regn för att inte vara blöta.",
+  "coordinates": {
+    "latitude": 56.361028,
+    "longitude": 13.020483
+  },
+  "categories": [
+    "mix",
+    "Saknar karta",
+    "Saknar koordinater",
+    "Saknar skrivarformatering",
+    "sport",
+    "sva",
+    "trad",
+    "vertikalt",
+    "överhäng"
+  ],
+  "sections": [
+    {
+      "id": "allmant",
+      "title": "Allmänt",
+      "body": "Klippan är belägen uppe på Hallandsåsen mellan Skåne och Halland, Klippan är mellan 6-10m och har riktigt god friktion och bjuder på en hel del fin jamklättring därför är det lämpligt att ta med friends eller häxor. För tillfället finns 12st leder. Lederna behöver ett par dagars uppehållsväder efter regn för att inte vara blöta."
+    },
+    {
+      "id": "vagbeskrivning",
+      "title": "Vägbeskrivning",
+      "body": "Karta här. Tryck på kartknappen ovan. Vägbeskrivning: från E6 ta av vid Hjärnarp och vidare upp mot Ugglehult/Lerbäckshult. Kör förbi Faxeröd, snart går den asfalterade vägen över till grusväg. Man passera vägen till djurholmen och kör sedan 1 km och får då en väg på vänstersida denna väg följs ca 2 km. En stuga och sjö dyker upp på högersida några hundrameter till och kolugnsvägen dyker upp på högerhand. Parkera här och gå de sista 300m på Kolungnsvägen. Klippan syns ny på vänster sida 40m in i skogen."
+    },
+    {
+      "id": "kontakt",
+      "title": "Kontakt",
+      "body": "För mer info och bilder kolla Eskapader Höger kolumn Kategori:trad Kategori:vertikalt Kategori:överhäng kategori:Saknar koordinater kategori:Saknar karta kategori:Saknar skrivarformatering Category:Halland"
+    }
+  ],
+  "routes": [
+    {
+      "id": "snapphanegrytan-led-1",
+      "kind": "route",
+      "number": "1",
+      "name": "Mögel",
+      "grade": "5",
+      "length": "8",
+      "type": "trad",
+      "firstAscent": "M Gullvert P Karlsson -04",
+      "description": "Sprickan längst till höger.",
+      "source": {
+        "id": "legacy:snapphanegrytan",
+        "path": "mediawiki/Snapphanegrytan.txt"
+      }
+    },
+    {
+      "id": "snapphanegrytan-led-2",
+      "kind": "route",
+      "number": "2",
+      "name": "Fingersvamp",
+      "grade": "5+",
+      "length": "8",
+      "type": "trad",
+      "firstAscent": "M Gullvert p Karlsson -04",
+      "description": "Crux i toppen.",
+      "source": {
+        "id": "legacy:snapphanegrytan",
+        "path": "mediawiki/Snapphanegrytan.txt"
+      }
+    },
+    {
+      "id": "snapphanegrytan-led-3",
+      "kind": "route",
+      "number": "3",
+      "name": "Stenmurkla",
+      "grade": "4-",
+      "length": "8",
+      "type": "trad",
+      "firstAscent": "M Gullvert P Karlsson -04",
+      "description": "Kan vara fuktig, lite lös i mitten, välsäkrad.",
+      "source": {
+        "id": "legacy:snapphanegrytan",
+        "path": "mediawiki/Snapphanegrytan.txt"
+      }
+    },
+    {
+      "id": "snapphanegrytan-led-4",
+      "kind": "route",
+      "number": "4",
+      "name": "Taggsvamp",
+      "grade": "6-",
+      "length": "8",
+      "type": "trad",
+      "firstAscent": "M Gullvert J Dejmec -04",
+      "description": "Smålurig handjam i toppen, välsäkrad.",
+      "source": {
+        "id": "legacy:snapphanegrytan",
+        "path": "mediawiki/Snapphanegrytan.txt"
+      }
+    },
+    {
+      "id": "snapphanegrytan-led-5",
+      "kind": "route",
+      "number": "5",
+      "name": "Fotsvamp",
+      "grade": "5-",
+      "length": "8",
+      "type": "trad",
+      "firstAscent": "M Gullvert P Karlsson -04",
+      "description": "Fin, välsäkrad klättring med jam och sträck.",
+      "source": {
+        "id": "legacy:snapphanegrytan",
+        "path": "mediawiki/Snapphanegrytan.txt"
+      }
+    },
+    {
+      "id": "snapphanegrytan-led-6",
+      "kind": "route",
+      "number": "6",
+      "name": "Djävulssopp",
+      "grade": "6+",
+      "length": "7",
+      "type": "trad",
+      "firstAscent": "M Gullvert P Karlsson -04",
+      "description": "Upp till crimpen mitt på väggen, en näve i vänster sprickan är tillåten.",
+      "source": {
+        "id": "legacy:snapphanegrytan",
+        "path": "mediawiki/Snapphanegrytan.txt"
+      }
+    },
+    {
+      "id": "snapphanegrytan-led-7",
+      "kind": "route",
+      "number": "7",
+      "name": "Den tjocke och den fete",
+      "grade": "3",
+      "length": "7",
+      "type": "trad",
+      "firstAscent": "P Karlsson J Dejmec -04",
+      "description": "Upp i kaminen till vänster, välsäkrad.",
+      "source": {
+        "id": "legacy:snapphanegrytan",
+        "path": "mediawiki/Snapphanegrytan.txt"
+      }
+    },
+    {
+      "id": "snapphanegrytan-led-8",
+      "kind": "route",
+      "number": "8",
+      "name": "Öljäst",
+      "grade": "3",
+      "length": "7",
+      "type": "trad",
+      "firstAscent": "P Karlsson J Dejmec -04",
+      "description": "Upp i kaminen till höger, välsäkrad.",
+      "source": {
+        "id": "legacy:snapphanegrytan",
+        "path": "mediawiki/Snapphanegrytan.txt"
+      }
+    },
+    {
+      "id": "snapphanegrytan-led-9",
+      "kind": "route",
+      "number": "9",
+      "name": "Liksvamp",
+      "grade": "4+",
+      "length": "12",
+      "type": "trad",
+      "firstAscent": "M Gullvert -04",
+      "description": "Traversera från höger till vänster i den låga sprickan.",
+      "source": {
+        "id": "legacy:snapphanegrytan",
+        "path": "mediawiki/Snapphanegrytan.txt"
+      }
+    },
+    {
+      "id": "snapphanegrytan-led-10",
+      "kind": "route",
+      "number": "10",
+      "name": "Röksvamp",
+      "grade": "5-",
+      "length": "12",
+      "type": "trad",
+      "firstAscent": "M Gullvert -04",
+      "description": "Traversera från vänster till höger i den höga spickan. Avsluta vid toppen av Öljäst",
+      "source": {
+        "id": "legacy:snapphanegrytan",
+        "path": "mediawiki/Snapphanegrytan.txt"
+      }
+    },
+    {
+      "id": "snapphanegrytan-led-11",
+      "kind": "route",
+      "number": "11",
+      "name": "Lömsk flugsvamp",
+      "grade": "5+",
+      "length": "24",
+      "type": "trad",
+      "firstAscent": "M Gullvert -04",
+      "description": "Traversera från vänster till höger i den höga spickan. Avsluta vid toppen av Öljäst",
+      "source": {
+        "id": "legacy:snapphanegrytan",
+        "path": "mediawiki/Snapphanegrytan.txt"
+      }
+    }
+  ],
+  "images": [
+    {
+      "filename": "Nysnapphane.jpg",
+      "caption": "",
+      "missing": false
+    }
+  ],
+  "access": {
+    "legacyText": null,
+    "federationSlug": null
+  },
+  "qualityIssues": [],
+  "provenance": {
+    "primarySourceId": "legacy:snapphanegrytan",
+    "sources": [
+      {
+        "id": "legacy:snapphanegrytan",
+        "title": "Sverigeföraren 2014: Snapphanegrytan",
+        "path": "mediawiki/Snapphanegrytan.txt",
+        "license": "GNU Free Documentation License",
+        "snapshotDate": "2014-01-01"
+      }
+    ]
+  }
+}

@@ -1,0 +1,605 @@
+{
+  "schemaVersion": 1,
+  "id": "fjardhundra",
+  "slug": "fjardhundra",
+  "name": "Fjärdhundra",
+  "description": "Sportklätterklippa med leder i graderna 6-8. Finns möjlighet att sätta topprep.",
+  "coordinates": {
+    "latitude": 59.792825,
+    "longitude": 16.983183333333333
+  },
+  "categories": [
+    "Saknar vägbeskrivning",
+    "Sport",
+    "Uppland",
+    "Uppsala"
+  ],
+  "sections": [
+    {
+      "id": "allmant",
+      "title": "Allmänt",
+      "body": "Sportklätterklippa med leder i graderna 6-8. Finns möjlighet att sätta topprep."
+    },
+    {
+      "id": "karaktar",
+      "title": "Karaktär",
+      "body": "En i genomsnitt vertikal vägg, vars höjd uppskattas till 10-15 meter. Rolig klättring på distinkta grepp och god friktion för skorna."
+    },
+    {
+      "id": "historik-m-m",
+      "title": "Historik m.m.",
+      "body": "Ungefär 1993 började man klättra på klippan, men det stora genombrottet för klippan blev nog sommaren 1995 då den första guiden till lederna gavs ut. Även under år 96 och 97 gjordes ytterligare ett antal nyturer. Idag finns det totalt 31 turer (då är ett par kombinationer / varianter) uppsatta av ett tiotal olika klättrare. Efter att allt fler började klättra på klippan kom det 1998 och 1999 upp flertalet kompletterande firningsankare som Uppsala klätterklubb satte upp med ett stort stöd från Crux AB. Detta för att inte slita på träden och vegetationen ovanför klippan. Men framför allt för att höja säkerheten och klätterfrekvensen. Obs!! På firningankarna sitter det karbiner (utan låsbar grind) som bör backas upp med en skruvkarbin vid topprepning. Möjligheten finns till att klippa ur dessa när repet tvinnas runt sig själv eller om man går över karbinen / ankaret."
+    },
+    {
+      "id": "vagbeskrivning",
+      "title": "Vägbeskrivning",
+      "body": "Åk till Fjärdhundra. Åk genom samhället, efter någon km åker du över en bro och tar direkt vänster mot Altuna, in på en grusväg. Åk denna en kort stund och ta sen höger mot Nygård. Klippan ses efter en stund. Passera klippan, åk förbi en handfull hus och parkera sedan på \"Klätterparkering\" (skyltad, men skylten kan ha rasat) till vänster. Se till att ni inte står i vägen för annan trafik. Diskussion om vägbeskrivningen kan läsas på Bloxc. Kolla här också. Det verkar vara ett känsligt kapitel."
+    },
+    {
+      "id": "access",
+      "title": "Access",
+      "body": "Markägaren är positiv till klättring men vill inte ha någon klätterinvasion. Håll låg profil, ställ bilen på avsedd plats och bete er som folk. Kontakta Uppsala Klätterklubb innan ni åker till klippan för att få veta detaljerna i accessfrågan."
+    },
+    {
+      "id": "leder",
+      "title": "Leder",
+      "body": "Klippan består av en enda lång vägg, här uppdelad i tre sektioner (med mossiga partier emellan). Sektioner och leder är från höger till vänster, eller anmarschordning om man så vill."
+    },
+    {
+      "id": "skogen",
+      "title": "Skogen",
+      "body": "Denna förare bygger delvis på material från Bertil Dyvell publicerat i Uppsala klätterklubbs Medlemstidning Ukkern. Kategori:Sport Kategori:Uppsala Kategori:Uppland Kategori:Saknar vägbeskrivning"
+    }
+  ],
+  "routes": [
+    {
+      "id": "fjardhundra-led-1",
+      "kind": "route",
+      "number": "1",
+      "name": "BoulderTravers",
+      "grade": "?",
+      "length": "",
+      "type": "boulder",
+      "firstAscent": "",
+      "description": "Start på den vänstra sidan av kaminen till landningen är en risbuske åt höger.",
+      "source": {
+        "id": "legacy:fjardhundra",
+        "path": "mediawiki/Fjärdhundra.txt"
+      }
+    },
+    {
+      "id": "fjardhundra-led-2",
+      "kind": "route",
+      "number": "2",
+      "name": "Bultmannen",
+      "grade": "6+",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "Björn Bergmark,Fredrik Lingvall -01",
+      "description": "",
+      "source": {
+        "id": "legacy:fjardhundra",
+        "path": "mediawiki/Fjärdhundra.txt"
+      }
+    },
+    {
+      "id": "fjardhundra-led-3",
+      "kind": "route",
+      "number": "3",
+      "name": "La via del chato",
+      "grade": "6+",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "Håkan Eriksson -94",
+      "description": "tt kortare problem upp på hyllan. Runout till slutet.",
+      "source": {
+        "id": "legacy:fjardhundra",
+        "path": "mediawiki/Fjärdhundra.txt"
+      }
+    },
+    {
+      "id": "fjardhundra-led-4",
+      "kind": "route",
+      "number": "4",
+      "name": "Snedtrampet",
+      "grade": "6+",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "H.E. -94",
+      "description": "Ett måste bland de lättare lederna",
+      "source": {
+        "id": "legacy:fjardhundra",
+        "path": "mediawiki/Fjärdhundra.txt"
+      }
+    },
+    {
+      "id": "fjardhundra-led-5",
+      "kind": "route",
+      "number": "5",
+      "name": "El culo electrico",
+      "grade": "6",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "H.E: -95",
+      "description": "Detta är nog klippans mest repeterade led. Jämn klättring på fina grepp.",
+      "source": {
+        "id": "legacy:fjardhundra",
+        "path": "mediawiki/Fjärdhundra.txt"
+      }
+    },
+    {
+      "id": "fjardhundra-led-6",
+      "kind": "route",
+      "number": "6",
+      "name": "Korpen flyger",
+      "grade": "6-",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "H.E. -94",
+      "description": "Hård för sin grad.",
+      "source": {
+        "id": "legacy:fjardhundra",
+        "path": "mediawiki/Fjärdhundra.txt"
+      }
+    },
+    {
+      "id": "fjardhundra-led-7",
+      "kind": "route",
+      "number": "7",
+      "name": "Oborsten",
+      "grade": "4+/5-",
+      "length": "",
+      "type": "trad",
+      "firstAscent": "Ronny Nilsson -95",
+      "description": "För den som hellre lägger kilar och hexor är nog denna en bra uppvärmning. Man bör nog undvika att använda friends bakom de vassa blocken.",
+      "source": {
+        "id": "legacy:fjardhundra",
+        "path": "mediawiki/Fjärdhundra.txt"
+      }
+    },
+    {
+      "id": "fjardhundra-led-8",
+      "kind": "route",
+      "number": "8a",
+      "name": "Hövdingen",
+      "grade": "5+",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "Fredrik Ståhl -99",
+      "description": "Hårt (6a+?) insteg med första bulten ganska högt placerad. \"Nybörjargrad\", men inget för nybörjare.",
+      "source": {
+        "id": "legacy:fjardhundra",
+        "path": "mediawiki/Fjärdhundra.txt"
+      }
+    },
+    {
+      "id": "fjardhundra-led-9",
+      "kind": "route",
+      "number": "8b",
+      "name": "Mapumbe",
+      "grade": "6+",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "F.L, B.B. -00",
+      "description": "Fin och jämn linje.",
+      "source": {
+        "id": "legacy:fjardhundra",
+        "path": "mediawiki/Fjärdhundra.txt"
+      }
+    },
+    {
+      "id": "fjardhundra-led-10",
+      "kind": "route",
+      "number": "8c",
+      "name": "Spider Dance",
+      "grade": "7-/7",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "H.E. -94",
+      "description": "Välklättrad led",
+      "source": {
+        "id": "legacy:fjardhundra",
+        "path": "mediawiki/Fjärdhundra.txt"
+      }
+    },
+    {
+      "id": "fjardhundra-led-11",
+      "kind": "route",
+      "number": "9",
+      "name": "Seven plus",
+      "grade": "7+",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "Rikard Hedman -96",
+      "description": "En led med få repetitioner.",
+      "source": {
+        "id": "legacy:fjardhundra",
+        "path": "mediawiki/Fjärdhundra.txt"
+      }
+    },
+    {
+      "id": "fjardhundra-led-12",
+      "kind": "route",
+      "number": "10",
+      "name": "Premiären",
+      "grade": "7-",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "Kjell Henriksson -94",
+      "description": "En led som fick sin renässans med det nya toppankaret.",
+      "source": {
+        "id": "legacy:fjardhundra",
+        "path": "mediawiki/Fjärdhundra.txt"
+      }
+    },
+    {
+      "id": "fjardhundra-led-13",
+      "kind": "route",
+      "number": "11",
+      "name": "Vindöga",
+      "grade": "7",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "Björn Bergmark -97",
+      "description": "Omväxlande klättring",
+      "source": {
+        "id": "legacy:fjardhundra",
+        "path": "mediawiki/Fjärdhundra.txt"
+      }
+    },
+    {
+      "id": "fjardhundra-led-14",
+      "kind": "route",
+      "number": "12",
+      "name": "Stampad Berguv",
+      "grade": "7+/8-",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "Peter Viktorsson, Timo Kero -96",
+      "description": "Leden har även lytt under namnet Åttjäveln, kanske p.g.a. att denna del av klippan bjuder på bitvis ojämn klättring.",
+      "source": {
+        "id": "legacy:fjardhundra",
+        "path": "mediawiki/Fjärdhundra.txt"
+      }
+    },
+    {
+      "id": "fjardhundra-led-15",
+      "kind": "route",
+      "number": "13",
+      "name": "El Ninjo",
+      "grade": "7",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "B.B. -98",
+      "description": "Lite svårläst",
+      "source": {
+        "id": "legacy:fjardhundra",
+        "path": "mediawiki/Fjärdhundra.txt"
+      }
+    },
+    {
+      "id": "fjardhundra-led-16",
+      "kind": "route",
+      "number": "14",
+      "name": "Twist",
+      "grade": "6/6+",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "K.H. -94",
+      "description": "En av de bättre lederna på klippan. Distinkt crux som sätter graden.",
+      "source": {
+        "id": "legacy:fjardhundra",
+        "path": "mediawiki/Fjärdhundra.txt"
+      }
+    },
+    {
+      "id": "fjardhundra-led-17",
+      "kind": "route",
+      "number": "15",
+      "name": "Apor på åkern",
+      "grade": "7",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "Johan Ullsten",
+      "description": "Jämn och fin led. Håll tempot uppe.",
+      "source": {
+        "id": "legacy:fjardhundra",
+        "path": "mediawiki/Fjärdhundra.txt"
+      }
+    },
+    {
+      "id": "fjardhundra-led-18",
+      "kind": "route",
+      "number": "16",
+      "name": "Studenten",
+      "grade": "8",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "B.B. -98",
+      "description": "Små smärtsamma crimps. Går ihop med nr 15 mot slutet.",
+      "source": {
+        "id": "legacy:fjardhundra",
+        "path": "mediawiki/Fjärdhundra.txt"
+      }
+    },
+    {
+      "id": "fjardhundra-led-19",
+      "kind": "route",
+      "number": "17",
+      "name": "Bulletprof",
+      "grade": "7-",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "Patrik Malmström -97",
+      "description": "Tjockabultar!!",
+      "source": {
+        "id": "legacy:fjardhundra",
+        "path": "mediawiki/Fjärdhundra.txt"
+      }
+    },
+    {
+      "id": "fjardhundra-led-20",
+      "kind": "route",
+      "number": "18",
+      "name": "Huggormen",
+      "grade": "7+",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "H.E. -96",
+      "description": "Namnet efter ett slingrande djur som enligt uppgift trivdes bra under en repsäck nedan för leden..",
+      "source": {
+        "id": "legacy:fjardhundra",
+        "path": "mediawiki/Fjärdhundra.txt"
+      }
+    },
+    {
+      "id": "fjardhundra-led-21",
+      "kind": "route",
+      "number": "18b",
+      "name": "Viper",
+      "grade": "8/8+?",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "B.B. -99",
+      "description": "OBS! Klättra ej in på Huggormen.",
+      "source": {
+        "id": "legacy:fjardhundra",
+        "path": "mediawiki/Fjärdhundra.txt"
+      }
+    },
+    {
+      "id": "fjardhundra-led-22",
+      "kind": "route",
+      "number": "19",
+      "name": "Barracuda",
+      "grade": "8",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "Jon Smedsaas -96",
+      "description": "Lite svårare utstegs- variant på nr 20.",
+      "source": {
+        "id": "legacy:fjardhundra",
+        "path": "mediawiki/Fjärdhundra.txt"
+      }
+    },
+    {
+      "id": "fjardhundra-led-23",
+      "kind": "route",
+      "number": "20",
+      "name": "Sök och finn",
+      "grade": "7",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "R.H. -96",
+      "description": "En något känslig start avslutas med relativt fin klättring",
+      "source": {
+        "id": "legacy:fjardhundra",
+        "path": "mediawiki/Fjärdhundra.txt"
+      }
+    },
+    {
+      "id": "fjardhundra-led-24",
+      "kind": "route",
+      "number": "21",
+      "name": "Besökarna",
+      "grade": "6+",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "Pär Engman, FB, Bertil Dyvell -94",
+      "description": "Väl repeterad och har ett flertal onsighter på samvetet.",
+      "source": {
+        "id": "legacy:fjardhundra",
+        "path": "mediawiki/Fjärdhundra.txt"
+      }
+    },
+    {
+      "id": "fjardhundra-led-25",
+      "kind": "route",
+      "number": "22",
+      "name": "Besökarna Direkt",
+      "grade": "7-",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "Bertil Dyvell -94",
+      "description": "Ett direkt insteg rakt över det lilla taket, som höjer graden något steg.",
+      "source": {
+        "id": "legacy:fjardhundra",
+        "path": "mediawiki/Fjärdhundra.txt"
+      }
+    },
+    {
+      "id": "fjardhundra-led-26",
+      "kind": "route",
+      "number": "23",
+      "name": "Caramba Club",
+      "grade": "7",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "K.H. -94",
+      "description": "Här kan man i alla fall använda sina förmodade kunskaper från inomhusväggen.",
+      "source": {
+        "id": "legacy:fjardhundra",
+        "path": "mediawiki/Fjärdhundra.txt"
+      }
+    },
+    {
+      "id": "fjardhundra-led-27",
+      "kind": "route",
+      "number": "24",
+      "name": "Connection",
+      "grade": "7-/7",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "Bertil Dyvell -95",
+      "description": "Kombination av nr 23 till 2:a bulten sedan ut på nr:25.",
+      "source": {
+        "id": "legacy:fjardhundra",
+        "path": "mediawiki/Fjärdhundra.txt"
+      }
+    },
+    {
+      "id": "fjardhundra-led-28",
+      "kind": "route",
+      "number": "25",
+      "name": "Examen",
+      "grade": "8-/8",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "FB J.U. -95",
+      "description": "Crux betonad led",
+      "source": {
+        "id": "legacy:fjardhundra",
+        "path": "mediawiki/Fjärdhundra.txt"
+      }
+    },
+    {
+      "id": "fjardhundra-led-29",
+      "kind": "route",
+      "number": "26",
+      "name": "Kapten Zoom",
+      "grade": "6+",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "Peter Reffner, Jesper Orrhult -95",
+      "description": "Bitvis känslig svaklättring.",
+      "source": {
+        "id": "legacy:fjardhundra",
+        "path": "mediawiki/Fjärdhundra.txt"
+      }
+    },
+    {
+      "id": "fjardhundra-led-30",
+      "kind": "route",
+      "number": "27",
+      "name": "On the rocks",
+      "grade": "7-",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "B.B. -01",
+      "description": "",
+      "source": {
+        "id": "legacy:fjardhundra",
+        "path": "mediawiki/Fjärdhundra.txt"
+      }
+    },
+    {
+      "id": "fjardhundra-led-31",
+      "kind": "route",
+      "number": "28",
+      "name": "Soliga händer",
+      "grade": "6+",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "P.R., J.O. -97",
+      "description": "Efter att den något högt placerade första bulten har klippts kan man njuta av fin klättring.",
+      "source": {
+        "id": "legacy:fjardhundra",
+        "path": "mediawiki/Fjärdhundra.txt"
+      }
+    },
+    {
+      "id": "fjardhundra-led-32",
+      "kind": "route",
+      "number": "29",
+      "name": "Dynamo",
+      "grade": "7/ 7+",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "P.R., J.O. -97",
+      "description": "På denna led kan en liten kil / friend vara bra i starten.",
+      "source": {
+        "id": "legacy:fjardhundra",
+        "path": "mediawiki/Fjärdhundra.txt"
+      }
+    },
+    {
+      "id": "fjardhundra-led-33",
+      "kind": "route",
+      "number": "30",
+      "name": "H2O",
+      "grade": "8-",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "B.B. -99",
+      "description": "",
+      "source": {
+        "id": "legacy:fjardhundra",
+        "path": "mediawiki/Fjärdhundra.txt"
+      }
+    },
+    {
+      "id": "fjardhundra-led-34",
+      "kind": "route",
+      "number": "31",
+      "name": "Naturapoteket",
+      "grade": "7-",
+      "length": "",
+      "type": "trad",
+      "firstAscent": "B.B. -99",
+      "description": "Fin och ren klättring en gång i tiden. Säkras okej med två camalot 1 eller ett par mindre friends, en medelstor kil och en WC etta (friend).",
+      "source": {
+        "id": "legacy:fjardhundra",
+        "path": "mediawiki/Fjärdhundra.txt"
+      }
+    }
+  ],
+  "images": [
+    {
+      "filename": "Fjärdhundra.jpg",
+      "caption": "400px",
+      "missing": false
+    },
+    {
+      "filename": "Fjärdhundra_södra.png",
+      "caption": "",
+      "missing": false
+    },
+    {
+      "filename": "Fjärdhundra_åkern.png",
+      "caption": "650px",
+      "missing": false
+    },
+    {
+      "filename": "Fjärdhundra_skogen.png",
+      "caption": "650px",
+      "missing": false
+    }
+  ],
+  "access": {
+    "legacyText": "Markägaren är positiv till klättring men vill inte ha någon klätterinvasion. Håll låg profil, ställ bilen på avsedd plats och bete er som folk. Kontakta Uppsala Klätterklubb innan ni åker till klippan för att få veta detaljerna i accessfrågan.",
+    "federationSlug": null
+  },
+  "qualityIssues": [],
+  "provenance": {
+    "primarySourceId": "legacy:fjardhundra",
+    "sources": [
+      {
+        "id": "legacy:fjardhundra",
+        "title": "Sverigeföraren 2014: Fjärdhundra",
+        "path": "mediawiki/Fjärdhundra.txt",
+        "license": "GNU Free Documentation License",
+        "snapshotDate": "2014-01-01"
+      }
+    ]
+  }
+}

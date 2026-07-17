@@ -1,0 +1,281 @@
+{
+  "schemaVersion": 1,
+  "id": "ekholmsnas",
+  "slug": "ekholmsnas",
+  "name": "Ekholmsnäs",
+  "description": "Klippa på klätterfattiga Lidingö. Klippan är delvis sprängd och flera leder startar från en ”betongbalkong” ovanför ett bergrum där en pumpstation för Käppalaverket ligger. Det kan dock vara lite småstruligt att ta sig upp på balkongen. Tidigare fanns en stege på plats, men den har med tiden försvunnit. Den märkliga miljön till trots, flera av lederna är faktiskt helt OK. Dessutom ligger den alldeles vid vattnet. Det faktum att den är östvänd gör den också lämplig som kvällsklippa på varma sommardagar.",
+  "coordinates": {
+    "latitude": 59.3623,
+    "longitude": 18.20951
+  },
+  "categories": [
+    "Lidingö",
+    "Mix",
+    "Sport",
+    "Stockholm",
+    "Trad"
+  ],
+  "sections": [
+    {
+      "id": "allmant",
+      "title": "Allmänt",
+      "body": "Klippa på klätterfattiga Lidingö. Klippan är delvis sprängd och flera leder startar från en ”betongbalkong” ovanför ett bergrum där en pumpstation för Käppalaverket ligger. Det kan dock vara lite småstruligt att ta sig upp på balkongen. Tidigare fanns en stege på plats, men den har med tiden försvunnit. Den märkliga miljön till trots, flera av lederna är faktiskt helt OK. Dessutom ligger den alldeles vid vattnet. Det faktum att den är östvänd gör den också lämplig som kvällsklippa på varma sommardagar."
+    },
+    {
+      "id": "miljo",
+      "title": "Miljö",
+      "body": "Östvänd och öppen. Avloppslukten kan dock vara påträngande."
+    },
+    {
+      "id": "vagbeskrivning",
+      "title": "Vägbeskrivning",
+      "body": "titel=Ekholmsnas lat=18209510 long=59362300 Med bil, åk Södra Kungsvägen och sedermera Gåshagaleden ut mot Käppala. Ca 500 m innan Käppala hpl, ta v (skylt Killinge) på Katrinelundsvägen och sedan v på Killingevägen. Följ denna till dess slut och ta h på Slånbärsvägen, som leder till en hårnålskurva. Ca 200 m efter kurvan, ta h ner på en liten grusväg som leder till vattnet och klippan. Parkering vid instegen!"
+    },
+    {
+      "id": "vanstervaggen",
+      "title": "Vänsterväggen",
+      "body": "Tidigare listad som osäkrad, vilket inte stämmer. Går att säkra bra med ett gäng småkammar typ 0.3 camalot och däromkring. Mossig och jordig led men ganska rolig klättring."
+    },
+    {
+      "id": "huvudvaggen",
+      "title": "Huvudväggen",
+      "body": "Kategori:Sport Kategori:Mix Kategori:Trad Kategori:Stockholm Kategori:Lidingö"
+    }
+  ],
+  "routes": [
+    {
+      "id": "ekholmsnas-led-1",
+      "kind": "route",
+      "number": "1",
+      "name": "Göta juck",
+      "grade": "6",
+      "length": "10",
+      "type": "mix",
+      "firstAscent": "Marco Kupiainen, Mats Olofson, Jonas Paulsson -94",
+      "description": "",
+      "source": {
+        "id": "legacy:ekholmsnas",
+        "path": "mediawiki/Ekholmsnäs.txt"
+      }
+    },
+    {
+      "id": "ekholmsnas-led-2",
+      "kind": "route",
+      "number": "2",
+      "name": "Galen häst",
+      "grade": "6-",
+      "length": "8",
+      "type": "solo",
+      "firstAscent": "Ludde Hagberg -94",
+      "description": "",
+      "source": {
+        "id": "legacy:ekholmsnas",
+        "path": "mediawiki/Ekholmsnäs.txt"
+      }
+    },
+    {
+      "id": "ekholmsnas-led-3",
+      "kind": "route",
+      "number": "3",
+      "name": "Porcelio scaber",
+      "grade": "7-",
+      "length": "10",
+      "type": "mix",
+      "firstAscent": "Ludde Hagberg -94",
+      "description": "",
+      "source": {
+        "id": "legacy:ekholmsnas",
+        "path": "mediawiki/Ekholmsnäs.txt"
+      }
+    },
+    {
+      "id": "ekholmsnas-led-4",
+      "kind": "route",
+      "number": "4",
+      "name": "Strykjärn",
+      "grade": "5",
+      "length": "10",
+      "type": "trad",
+      "firstAscent": "Ludde Hagberg -94",
+      "description": "",
+      "source": {
+        "id": "legacy:ekholmsnas",
+        "path": "mediawiki/Ekholmsnäs.txt"
+      }
+    },
+    {
+      "id": "ekholmsnas-led-5",
+      "kind": "route",
+      "number": "5",
+      "name": "Sjöexpress",
+      "grade": "6+",
+      "length": "16",
+      "type": "sport",
+      "firstAscent": "Jonas Paulsson, Ludde Hagberg -94",
+      "description": "",
+      "source": {
+        "id": "legacy:ekholmsnas",
+        "path": "mediawiki/Ekholmsnäs.txt"
+      }
+    },
+    {
+      "id": "ekholmsnas-led-6",
+      "kind": "route",
+      "number": "5a",
+      "name": "Ribban",
+      "grade": "7b",
+      "length": "16",
+      "type": "sport",
+      "firstAscent": "Henrik Bolander-08",
+      "description": "",
+      "source": {
+        "id": "legacy:ekholmsnas",
+        "path": "mediawiki/Ekholmsnäs.txt"
+      }
+    },
+    {
+      "id": "ekholmsnas-led-7",
+      "kind": "route",
+      "number": "6",
+      "name": "Abnorm erektion",
+      "grade": "6+",
+      "length": "12",
+      "type": "sport",
+      "firstAscent": "Mats Olofson, Ludde Hagberg -94",
+      "description": "",
+      "source": {
+        "id": "legacy:ekholmsnas",
+        "path": "mediawiki/Ekholmsnäs.txt"
+      }
+    },
+    {
+      "id": "ekholmsnas-led-8",
+      "kind": "route",
+      "number": "7",
+      "name": "Den som tar han har",
+      "grade": "6+",
+      "length": "12",
+      "type": "sport",
+      "firstAscent": "Johan Hvenmark, Jonas Paulsson -95",
+      "description": "",
+      "source": {
+        "id": "legacy:ekholmsnas",
+        "path": "mediawiki/Ekholmsnäs.txt"
+      }
+    },
+    {
+      "id": "ekholmsnas-led-9",
+      "kind": "route",
+      "number": "8",
+      "name": "Tres amigos",
+      "grade": "7-",
+      "length": "13",
+      "type": "mix",
+      "firstAscent": "Mats Olofson, Ludde Hagberg, Jonas Paulsson -94",
+      "description": "",
+      "source": {
+        "id": "legacy:ekholmsnas",
+        "path": "mediawiki/Ekholmsnäs.txt"
+      }
+    },
+    {
+      "id": "ekholmsnas-led-10",
+      "kind": "route",
+      "number": "9",
+      "name": "Sgt Pepper",
+      "grade": "7",
+      "length": "12",
+      "type": "mix",
+      "firstAscent": "Jonas Paulsson, Ludde Hagberg -95",
+      "description": "",
+      "source": {
+        "id": "legacy:ekholmsnas",
+        "path": "mediawiki/Ekholmsnäs.txt"
+      }
+    },
+    {
+      "id": "ekholmsnas-led-11",
+      "kind": "route",
+      "number": "10",
+      "name": "Pumpa fläns",
+      "grade": "6+",
+      "length": "12",
+      "type": "mix",
+      "firstAscent": "Mats Olofson, Anders Karlsson, Jonas Paulsson -94",
+      "description": "",
+      "source": {
+        "id": "legacy:ekholmsnas",
+        "path": "mediawiki/Ekholmsnäs.txt"
+      }
+    },
+    {
+      "id": "ekholmsnas-led-12",
+      "kind": "route",
+      "number": "11",
+      "name": "Slacker",
+      "grade": "6+",
+      "length": "15",
+      "type": "trad",
+      "firstAscent": "Jonas Paulsson, Ludde Hagberg, Claes Thornberg -94",
+      "description": "",
+      "source": {
+        "id": "legacy:ekholmsnas",
+        "path": "mediawiki/Ekholmsnäs.txt"
+      }
+    },
+    {
+      "id": "ekholmsnas-led-13",
+      "kind": "route",
+      "number": "12",
+      "name": "Ångande åderpåle",
+      "grade": "7+",
+      "length": "17",
+      "type": "mix",
+      "firstAscent": "Mats Olofson, Claes Thornberg -94",
+      "description": "",
+      "source": {
+        "id": "legacy:ekholmsnas",
+        "path": "mediawiki/Ekholmsnäs.txt"
+      }
+    },
+    {
+      "id": "ekholmsnas-led-14",
+      "kind": "route",
+      "number": "13",
+      "name": "Pipeline",
+      "grade": "7+/8-",
+      "length": "15",
+      "type": "trad",
+      "firstAscent": "Henrik Bolander -95",
+      "description": "",
+      "source": {
+        "id": "legacy:ekholmsnas",
+        "path": "mediawiki/Ekholmsnäs.txt"
+      }
+    }
+  ],
+  "images": [
+    {
+      "filename": "Ekholmsnäs.png",
+      "caption": "",
+      "missing": false
+    }
+  ],
+  "access": {
+    "legacyText": null,
+    "federationSlug": null
+  },
+  "qualityIssues": [],
+  "provenance": {
+    "primarySourceId": "legacy:ekholmsnas",
+    "sources": [
+      {
+        "id": "legacy:ekholmsnas",
+        "title": "Sverigeföraren 2014: Ekholmsnäs",
+        "path": "mediawiki/Ekholmsnäs.txt",
+        "license": "GNU Free Documentation License",
+        "snapshotDate": "2014-01-01"
+      }
+    ]
+  }
+}

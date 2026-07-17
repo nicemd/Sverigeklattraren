@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 1,
+  "id": "hogkullberget",
+  "slug": "hogkullberget",
+  "name": "Högkullberget",
+  "description": "På södra sluttningen av det 102 m höga berget (över havet!) finns ett par mindre klippor. Den norra klippan har svastruktur medan den södra är brantare med några spricklinjer.",
+  "coordinates": null,
+  "categories": [
+    "Fituna",
+    "Gamla koordinater",
+    "Saknar karta",
+    "Stockholm",
+    "Sva",
+    "Vertikalt"
+  ],
+  "sections": [
+    {
+      "id": "allmant",
+      "title": "Allmänt",
+      "body": "På södra sluttningen av det 102 m höga berget (över havet!) finns ett par mindre klippor. Den norra klippan har svastruktur medan den södra är brantare med några spricklinjer."
+    },
+    {
+      "id": "vagbeskrivning",
+      "title": "Vägbeskrivning",
+      "body": "Högkullberget i södra ändan av den långa dal som väg 225 följer innan den går upp på Fullbro malm. Alldeles efter avtagsvägen mot Kagghamra gård går en enskild väg upp åt v, förbi några hus. Följ denna väg i ca 1 km tills den kommer ut på en äng. Klippan ligger uppe i skogen tv rakt in från ängens bortre hörn. Gamla koordinater: 10 I SV 555156"
+    },
+    {
+      "id": "kommunikationer",
+      "title": "Kommunikationer",
+      "body": "Buss 783 stannar vid avtagsvägen till Kagghamra gård."
+    },
+    {
+      "id": "leder",
+      "title": "Leder",
+      "body": "Kategori:Stockholm Kategori:Fituna Kategori:Sva Kategori:Vertikalt Kategori:Saknar karta Kategori:Gamla koordinater"
+    }
+  ],
+  "routes": [
+    {
+      "id": "hogkullberget-led-1",
+      "kind": "route",
+      "number": "1",
+      "name": "Daggpunkt",
+      "grade": "6-",
+      "length": "10",
+      "type": "",
+      "firstAscent": "Lars Grankvist, Niklas Björnerstedt -84",
+      "description": "",
+      "source": {
+        "id": "legacy:hogkullberget",
+        "path": "mediawiki/Högkullberget.txt"
+      }
+    },
+    {
+      "id": "hogkullberget-led-2",
+      "kind": "route",
+      "number": "2",
+      "name": "Maskerad",
+      "grade": "4",
+      "length": "12",
+      "type": "",
+      "firstAscent": "Jeremy Sheehan, Lars Svadängs -84",
+      "description": "",
+      "source": {
+        "id": "legacy:hogkullberget",
+        "path": "mediawiki/Högkullberget.txt"
+      }
+    }
+  ],
+  "images": [],
+  "access": {
+    "legacyText": null,
+    "federationSlug": null
+  },
+  "qualityIssues": [],
+  "provenance": {
+    "primarySourceId": "legacy:hogkullberget",
+    "sources": [
+      {
+        "id": "legacy:hogkullberget",
+        "title": "Sverigeföraren 2014: Högkullberget",
+        "path": "mediawiki/Högkullberget.txt",
+        "license": "GNU Free Documentation License",
+        "snapshotDate": "2014-01-01"
+      }
+    ]
+  }
+}

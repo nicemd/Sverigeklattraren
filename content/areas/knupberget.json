@@ -1,0 +1,143 @@
+{
+  "schemaVersion": 1,
+  "id": "knupberget",
+  "slug": "knupberget",
+  "name": "Knupberget",
+  "description": "Västvänd klippa (kvällssol) ca 60m lång och 15m hög. Den går rakt ner i Bergshamraviken, det finns som tur är en smal landremsa som gör att det går att gå under klippan. Klippan är slät och vattenslipad men med några tydliga sprickor.",
+  "coordinates": null,
+  "categories": [
+    "Norra Stockholm",
+    "Saknar karta",
+    "Saknar kolumner",
+    "Saknar skiss",
+    "Stockholm",
+    "Trad"
+  ],
+  "sections": [
+    {
+      "id": "allmant",
+      "title": "Allmänt",
+      "body": "Västvänd klippa (kvällssol) ca 60m lång och 15m hög. Den går rakt ner i Bergshamraviken, det finns som tur är en smal landremsa som gör att det går att gå under klippan. Klippan är slät och vattenslipad men med några tydliga sprickor."
+    },
+    {
+      "id": "vagbeskrivning",
+      "title": "Vägbeskrivning",
+      "body": "Klippan ligger i Bergshamraviken. Från Stockholm : väg 276 genom Åkersberga mot Norrtälje. 30 km från Åkerberga, 2 km efter Vettershaga bro, tag vänster vid vägskylt \"Bergshamra Varv\" forsätt grusväg ner till badplats. Kör vidare ca 400m till delvis uppväxt kalhygge på höger sida strax efter en korsning. Parkera under en stor gran och tag stigen genom hygget ner till en brygga. Klippan ligger vid vattnet ca 100m åt vänster."
+    },
+    {
+      "id": "leder",
+      "title": "Leder",
+      "body": "Kategori:Trad Kategori:Stockholm Kategori:Saknar skiss Kategori:Saknar karta Kategori:Saknar kolumner Kategori:Norra Stockholm"
+    }
+  ],
+  "routes": [
+    {
+      "id": "knupberget-led-1",
+      "kind": "route",
+      "number": "1",
+      "name": "Svanen",
+      "grade": "6+",
+      "length": "10",
+      "type": "",
+      "firstAscent": "Christer Åstrand-01",
+      "description": "Första sprickan till vänster om du står under klippan",
+      "source": {
+        "id": "legacy:knupberget",
+        "path": "mediawiki/Knupberget.txt"
+      }
+    },
+    {
+      "id": "knupberget-led-2",
+      "kind": "route",
+      "number": "2",
+      "name": "Projekt",
+      "grade": "7",
+      "length": "10",
+      "type": "",
+      "firstAscent": "Klas Jelinek-01",
+      "description": "Startar med en tunn spricka och sedan upp till hylla med ett litet träd (toppad)",
+      "source": {
+        "id": "legacy:knupberget",
+        "path": "mediawiki/Knupberget.txt"
+      }
+    },
+    {
+      "id": "knupberget-led-3",
+      "kind": "route",
+      "number": "3",
+      "name": "Vännernas Väg",
+      "grade": "5+",
+      "length": "15",
+      "type": "",
+      "firstAscent": "Staffan Ericsson, Christer Åstrand-07",
+      "description": "Tydlig spricka fin och välsäkrad med massor kilar (10st)",
+      "source": {
+        "id": "legacy:knupberget",
+        "path": "mediawiki/Knupberget.txt"
+      }
+    },
+    {
+      "id": "knupberget-led-4",
+      "kind": "route",
+      "number": "4",
+      "name": "Projekt",
+      "grade": "?",
+      "length": "15",
+      "type": "",
+      "firstAscent": "Christer Åstrand-07",
+      "description": "Knepigt insteg, följ rampliknande spricka åt vänster",
+      "source": {
+        "id": "legacy:knupberget",
+        "path": "mediawiki/Knupberget.txt"
+      }
+    },
+    {
+      "id": "knupberget-led-5",
+      "kind": "route",
+      "number": "5",
+      "name": "Underbar men kort",
+      "grade": "5+",
+      "length": "5",
+      "type": "",
+      "firstAscent": "Christer Åstrand, Staffan Ericsson-07",
+      "description": "Vackert hörn bra säkrat med kilar",
+      "source": {
+        "id": "legacy:knupberget",
+        "path": "mediawiki/Knupberget.txt"
+      }
+    },
+    {
+      "id": "knupberget-led-6",
+      "kind": "route",
+      "number": "6",
+      "name": "Kvällssol",
+      "grade": "4+",
+      "length": "12",
+      "type": "",
+      "firstAscent": "Christer Åstrand, Staffan Ericsson-07",
+      "description": "Tydlig spricka igenom den svarta hällen upp till 2 små tallar",
+      "source": {
+        "id": "legacy:knupberget",
+        "path": "mediawiki/Knupberget.txt"
+      }
+    }
+  ],
+  "images": [],
+  "access": {
+    "legacyText": null,
+    "federationSlug": null
+  },
+  "qualityIssues": [],
+  "provenance": {
+    "primarySourceId": "legacy:knupberget",
+    "sources": [
+      {
+        "id": "legacy:knupberget",
+        "title": "Sverigeföraren 2014: Knupberget",
+        "path": "mediawiki/Knupberget.txt",
+        "license": "GNU Free Documentation License",
+        "snapshotDate": "2014-01-01"
+      }
+    ]
+  }
+}

@@ -1,0 +1,154 @@
+{
+  "schemaVersion": 1,
+  "id": "skilsmassostupet",
+  "slug": "skilsmassostupet",
+  "name": "Skilsmässostupet",
+  "description": "Naturskönt belägen klippa med porlande öringbäck några meter från insteget. Ett fåtal gjorda leder med potential för det dubbla.",
+  "coordinates": {
+    "latitude": 60.115153,
+    "longitude": 13.92236
+  },
+  "categories": [
+    "mix",
+    "Saknar skiss",
+    "Saknar skrivarformatering",
+    "Saknar vägbeskrivning",
+    "sport",
+    "sva",
+    "trad",
+    "vertikalt",
+    "överhäng"
+  ],
+  "sections": [
+    {
+      "id": "allmant",
+      "title": "Allmänt",
+      "body": "Naturskönt belägen klippa med porlande öringbäck några meter från insteget. Ett fåtal gjorda leder med potential för det dubbla."
+    },
+    {
+      "id": "beskrivning",
+      "title": "Beskrivning",
+      "body": "Vertikalt till lätt överhängande. Namnet antyder att det är dit man åker på nåder och stannar en kort stund för intakt husfrid. I anslutning till klippan bedriver ett turistföretag ibland kommersiell verksamhet. Visa då hänsyn och fråga gärna huruvida klättring är acceptabelt."
+    },
+    {
+      "id": "vagbeskrivning",
+      "title": "Vägbeskrivning",
+      "body": "Här kommer det så småningom hamna en vägbeskrivning. Tillsvidare får man utgå från kartan."
+    },
+    {
+      "id": "leder",
+      "title": "Leder",
+      "body": "Kategori:sport Kategori:trad Kategori:vertikalt Kategori:överhäng kategori:Saknar skiss kategori:Saknar vägbeskrivning kategori:Saknar skrivarformatering Category:Värmland"
+    }
+  ],
+  "routes": [
+    {
+      "id": "skilsmassostupet-led-1",
+      "kind": "route",
+      "number": "1",
+      "name": "Revenge of scaphoideum",
+      "grade": "7a",
+      "length": "13",
+      "type": "sport",
+      "firstAscent": "Jonas Hasselroth 2008",
+      "description": "Tekniskt, lätt överhängande. Toppankare.",
+      "source": {
+        "id": "legacy:skilsmassostupet",
+        "path": "mediawiki/Skilsmässostupet.txt"
+      }
+    },
+    {
+      "id": "skilsmassostupet-led-2",
+      "kind": "route",
+      "number": "2",
+      "name": "Bultfeber",
+      "grade": "6a",
+      "length": "14",
+      "type": "sport",
+      "firstAscent": "Jonas Hasselroth 2005",
+      "description": "Grepprikt med ett okynnigt placerat toppankare.",
+      "source": {
+        "id": "legacy:skilsmassostupet",
+        "path": "mediawiki/Skilsmässostupet.txt"
+      }
+    },
+    {
+      "id": "skilsmassostupet-led-3",
+      "kind": "route",
+      "number": "3",
+      "name": "Projekt",
+      "grade": "?",
+      "length": "12?",
+      "type": "sport",
+      "firstAscent": "",
+      "description": "",
+      "source": {
+        "id": "legacy:skilsmassostupet",
+        "path": "mediawiki/Skilsmässostupet.txt"
+      }
+    },
+    {
+      "id": "skilsmassostupet-led-4",
+      "kind": "route",
+      "number": "4",
+      "name": "Borde bultas",
+      "grade": "6",
+      "length": "12",
+      "type": "trad",
+      "firstAscent": "Jonas Hasselroth 2005",
+      "description": "Välsäkrat längs den tydliga sprickan bakom flaket.",
+      "source": {
+        "id": "legacy:skilsmassostupet",
+        "path": "mediawiki/Skilsmässostupet.txt"
+      }
+    },
+    {
+      "id": "skilsmassostupet-led-5",
+      "kind": "route",
+      "number": "5",
+      "name": "Jo förfan, det går!!",
+      "grade": "7a+",
+      "length": "10",
+      "type": "sport",
+      "firstAscent": "Kari Nikumaa 2005",
+      "description": "Toppankare.",
+      "source": {
+        "id": "legacy:skilsmassostupet",
+        "path": "mediawiki/Skilsmässostupet.txt"
+      }
+    },
+    {
+      "id": "skilsmassostupet-led-6",
+      "kind": "route",
+      "number": "6",
+      "name": "Klyftan",
+      "grade": "6",
+      "length": "7",
+      "type": "trad",
+      "firstAscent": "Michael Salomonsson 2005",
+      "description": "Spricka i hörnet som syns tydligt från stigen till toppen.",
+      "source": {
+        "id": "legacy:skilsmassostupet",
+        "path": "mediawiki/Skilsmässostupet.txt"
+      }
+    }
+  ],
+  "images": [],
+  "access": {
+    "legacyText": null,
+    "federationSlug": null
+  },
+  "qualityIssues": [],
+  "provenance": {
+    "primarySourceId": "legacy:skilsmassostupet",
+    "sources": [
+      {
+        "id": "legacy:skilsmassostupet",
+        "title": "Sverigeföraren 2014: Skilsmässostupet",
+        "path": "mediawiki/Skilsmässostupet.txt",
+        "license": "GNU Free Documentation License",
+        "snapshotDate": "2014-01-01"
+      }
+    ]
+  }
+}

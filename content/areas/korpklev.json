@@ -1,0 +1,71 @@
+{
+  "schemaVersion": 1,
+  "id": "korpklev",
+  "slug": "korpklev",
+  "name": "Korpklev",
+  "description": "Karta här. Tryck på kartknappen ovan. Skriv vägbeskrivning här.",
+  "coordinates": {
+    "latitude": 59,
+    "longitude": 18
+  },
+  "categories": [
+    "mix",
+    "Saknar koordinater",
+    "Saknar leder",
+    "Saknar skiss",
+    "Saknar skrivarformatering",
+    "Saknar vägbeskrivning",
+    "sport",
+    "sva",
+    "trad",
+    "vertikalt",
+    "överhäng"
+  ],
+  "sections": [
+    {
+      "id": "vagbeskrivning",
+      "title": "Vägbeskrivning",
+      "body": "Karta här. Tryck på kartknappen ovan. Skriv vägbeskrivning här."
+    },
+    {
+      "id": "leder",
+      "title": "Leder",
+      "body": "Höger kolumn kategori:Saknar skiss kategori:Saknar vägbeskrivning kategori:Saknar leder kategori:Saknar koordinater kategori:Saknar skrivarformatering Category:Östergötland"
+    }
+  ],
+  "routes": [
+    {
+      "id": "korpklev-led-1",
+      "kind": "route",
+      "number": "1",
+      "name": "Namn på led",
+      "grade": "9c+",
+      "length": "30",
+      "type": "trad",
+      "firstAscent": "namn på fa -08",
+      "description": "ledbeskrivning",
+      "source": {
+        "id": "legacy:korpklev",
+        "path": "mediawiki/Korpklev.txt"
+      }
+    }
+  ],
+  "images": [],
+  "access": {
+    "legacyText": null,
+    "federationSlug": null
+  },
+  "qualityIssues": [],
+  "provenance": {
+    "primarySourceId": "legacy:korpklev",
+    "sources": [
+      {
+        "id": "legacy:korpklev",
+        "title": "Sverigeföraren 2014: Korpklev",
+        "path": "mediawiki/Korpklev.txt",
+        "license": "GNU Free Documentation License",
+        "snapshotDate": "2014-01-01"
+      }
+    ]
+  }
+}

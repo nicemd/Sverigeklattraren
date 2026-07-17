@@ -1,0 +1,163 @@
+{
+  "schemaVersion": 1,
+  "id": "enfotaberget",
+  "slug": "enfotaberget",
+  "name": "Enfotaberget",
+  "description": "Enfotaberget ligger i västra Hälsingland, en mil eller så norr om Voxna. Berget ligger 23,3 km från Edsbyn i Hälsingland (tar ca 20 min med bil från Edsbyn)",
+  "coordinates": {
+    "latitude": 61.400005961543656,
+    "longitude": 15.497589111328125
+  },
+  "categories": [
+    "Hälsingland",
+    "Saknar skiss",
+    "Trad"
+  ],
+  "sections": [
+    {
+      "id": "allmant",
+      "title": "Allmänt",
+      "body": "Enfotaberget ligger i västra Hälsingland, en mil eller så norr om Voxna. Berget ligger 23,3 km från Edsbyn i Hälsingland (tar ca 20 min med bil från Edsbyn)"
+    },
+    {
+      "id": "kommunikationer",
+      "title": "Kommunikationer",
+      "body": "Färdbeskrivning från Edsbyn: Kör Voxnavägen (301) ca 14km och sväng sedan höger och kör ca 2km till innan du svänger höger ytterligare en gång in på väg 296. Därefter är det ca 6,5 km till Enfotaberget som du ser på höger sida av vägen. Berget ligger inte så långt efter Voxna Camping. GPS-koordinater: Lat: N 61º 23' 51.46\" Long: E 15º 29' 51.3\""
+    },
+    {
+      "id": "vaggar",
+      "title": "Väggar",
+      "body": "Berget är inte så omfattande, men den korta anmarschen och den fina kvalitéen på klippan gör det värt en liten omväg om man är i trakten. Ett skönt berg att klättra på. Det är 23m högt, indelat i två sektioner. Den nedre är ca 10m hög och den övre 13. Berget består i princip av två partier. Det vänstra är inte så brant, och består av en slät vägg i två etager. Det högra partiet består av väggarna till höger och till vänster om en markerad arete. Dessutom finns en liten klippvägg en bit bortanför den största väggen. Den vänstra av väggarna är litet flackare och rätt kompakt, medan den högra är tämligen brant. Klipporna är syd- och östorienterade. Totalt finns inte utrymme på berget för mer än kanske dryga dussinet leder, men berget är, som sagt, värt en dags besök då. Klippan är en typ av ögongnejs, mycket lik den man finner på Torpberget och vissa partier på Mörkberget. Detta innebär att klippan är i huvudsak fast och de leder man finner där är överlag fina."
+    },
+    {
+      "id": "bilder",
+      "title": "Bilder",
+      "body": "Bilder finns på Bollnäs klätterklubbs sida: http://www.bollnasklatterklubb.se/fotoalbum/2009/Enfotaberget/index.html Kategori:Saknar skiss Kategori:Hälsingland Kategori:Trad Kategori:Hälsingland"
+    }
+  ],
+  "routes": [
+    {
+      "id": "enfotaberget-led-1",
+      "kind": "route",
+      "number": "1",
+      "name": "Photogenique",
+      "grade": "5+",
+      "length": "10",
+      "type": "trad",
+      "firstAscent": "Peter Brolin, Per Calleberg och Buster Delin 1990",
+      "description": "Delikat väggklättring längs en tunn spricka mitt på väggen. Välsäkrat utsteg, där sprickan är något grövre.",
+      "source": {
+        "id": "legacy:enfotaberget",
+        "path": "mediawiki/Enfotaberget.txt"
+      }
+    },
+    {
+      "id": "enfotaberget-led-2",
+      "kind": "route",
+      "number": "2",
+      "name": "Kofoten",
+      "grade": "6",
+      "length": "10",
+      "type": "trad",
+      "firstAscent": "Buster Delin 1989",
+      "description": "Tunn spricka 4 m till höger om Photogenique. Ihållande klättring med krux på slutet.",
+      "source": {
+        "id": "legacy:enfotaberget",
+        "path": "mediawiki/Enfotaberget.txt"
+      }
+    },
+    {
+      "id": "enfotaberget-led-3",
+      "kind": "route",
+      "number": "3",
+      "name": "Släpfot",
+      "grade": "5+",
+      "length": "23",
+      "type": "mix",
+      "firstAscent": "Kenneth Blom och Andreas Olsson 2008",
+      "description": "Svaklättring till vänster om areten. 4 borrbultar och lite eget.",
+      "source": {
+        "id": "legacy:enfotaberget",
+        "path": "mediawiki/Enfotaberget.txt"
+      }
+    },
+    {
+      "id": "enfotaberget-led-4",
+      "kind": "route",
+      "number": "4",
+      "name": "På resande fot",
+      "grade": "5+",
+      "length": "23",
+      "type": "mix",
+      "firstAscent": "Buster Delin, Per Calleberg och Peter Brolin 1990",
+      "description": "Följer den tydliga areten på klippans högsta parti. Räkna med långa run-outs. 2 bultar och 1 borrbult.",
+      "source": {
+        "id": "legacy:enfotaberget",
+        "path": "mediawiki/Enfotaberget.txt"
+      }
+    },
+    {
+      "id": "enfotaberget-led-5",
+      "kind": "route",
+      "number": "5",
+      "name": "En fot för mycket",
+      "grade": "6+",
+      "length": "23",
+      "type": "trad",
+      "firstAscent": "Per Calleberg och Buster Delin 1990",
+      "description": "Brant finger- och handjamspricka till höger om areten. Sprickan leder upp till en tall, varefter man följer en lättare ränna till toppen.",
+      "source": {
+        "id": "legacy:enfotaberget",
+        "path": "mediawiki/Enfotaberget.txt"
+      }
+    },
+    {
+      "id": "enfotaberget-led-6",
+      "kind": "route",
+      "number": "6",
+      "name": "Trappan",
+      "grade": "6-",
+      "length": "23",
+      "type": "mix",
+      "firstAscent": "Okänd",
+      "description": "Brant start som sedan går går ihop med En fot för mycket. 2 borrbultar och lite eget.",
+      "source": {
+        "id": "legacy:enfotaberget",
+        "path": "mediawiki/Enfotaberget.txt"
+      }
+    },
+    {
+      "id": "enfotaberget-led-7",
+      "kind": "route",
+      "number": "7",
+      "name": "Stinkfoot",
+      "grade": "6",
+      "length": "7",
+      "type": "sport",
+      "firstAscent": "Buster Delin och Per Calleberg 1990",
+      "description": "Delikat klättring på den släta väggen till vänster om areten. 2 borrbultar.",
+      "source": {
+        "id": "legacy:enfotaberget",
+        "path": "mediawiki/Enfotaberget.txt"
+      }
+    }
+  ],
+  "images": [],
+  "access": {
+    "legacyText": null,
+    "federationSlug": null
+  },
+  "qualityIssues": [],
+  "provenance": {
+    "primarySourceId": "legacy:enfotaberget",
+    "sources": [
+      {
+        "id": "legacy:enfotaberget",
+        "title": "Sverigeföraren 2014: Enfotaberget",
+        "path": "mediawiki/Enfotaberget.txt",
+        "license": "GNU Free Documentation License",
+        "snapshotDate": "2014-01-01"
+      }
+    ]
+  }
+}

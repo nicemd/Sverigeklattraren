@@ -1,0 +1,161 @@
+{
+  "schemaVersion": 1,
+  "id": "asberget",
+  "slug": "asberget",
+  "name": "Åsberget",
+  "description": "Kategori:Saknar allmän infoKategori:Saknar vägbeskrivning =Problem= Kategori:Ö-vik Kategori:Bouldering Kategori:Bimbo Kategori:Behöver kvalitetssäkras Kategori:Saknar karta Kategori:Saknar koordinater Kategori:Saknar skrivarformattering Kategori:Saknar skiss",
+  "coordinates": null,
+  "categories": [
+    "Behöver kvalitetssäkras",
+    "Bimbo",
+    "Bouldering",
+    "Saknar allmän info",
+    "Saknar karta",
+    "Saknar koordinater",
+    "Saknar skiss",
+    "Saknar skrivarformattering",
+    "Saknar vägbeskrivning",
+    "Ö-vik"
+  ],
+  "sections": [],
+  "routes": [
+    {
+      "id": "asberget-problem-1",
+      "kind": "problem",
+      "number": null,
+      "name": "Omvägen",
+      "grade": "6C+",
+      "length": "",
+      "type": "Krimp,Överhäng,Travers H->V",
+      "firstAscent": "Per Wermelin",
+      "description": "Problemet startar med sittstart till höger. Följ kanten åt vänster och avsluta längst till vänster med att gå rakt upp. Använd bara grepp som finns under kanten.",
+      "source": {
+        "id": "legacy:asberget",
+        "path": "mediawiki/Åsberget.txt"
+      }
+    },
+    {
+      "id": "asberget-problem-2",
+      "kind": "problem",
+      "number": null,
+      "name": "Bara biceps",
+      "grade": "7A",
+      "length": "",
+      "type": "Krimp,Överhäng,Dyno",
+      "firstAscent": "Per Wermelin",
+      "description": "Börja med vänster hand i sprickan och höger på ett crimp. Går rakt upp förbi den horisontella och lodräta sprickan.",
+      "source": {
+        "id": "legacy:asberget",
+        "path": "mediawiki/Åsberget.txt"
+      }
+    },
+    {
+      "id": "asberget-problem-3",
+      "kind": "problem",
+      "number": null,
+      "name": "Snabb klipp",
+      "grade": "6B",
+      "length": "",
+      "type": "Krimp,Slopers",
+      "firstAscent": "Per Wermelin",
+      "description": "Startar på en liten list för händerna, klättra sen rakt upp.",
+      "source": {
+        "id": "legacy:asberget",
+        "path": "mediawiki/Åsberget.txt"
+      }
+    },
+    {
+      "id": "asberget-problem-4",
+      "kind": "problem",
+      "number": null,
+      "name": "Mystravers",
+      "grade": "6A",
+      "length": "",
+      "type": "Slopers,Travers V->H",
+      "firstAscent": "Per Wermelin",
+      "description": "Starta längst ner till vänster. Följ kanten åt höger och avsluta längst upp.",
+      "source": {
+        "id": "legacy:asberget",
+        "path": "mediawiki/Åsberget.txt"
+      }
+    },
+    {
+      "id": "asberget-problem-5",
+      "kind": "problem",
+      "number": null,
+      "name": "Mysdirekt",
+      "grade": "6A",
+      "length": "",
+      "type": "Krimp",
+      "firstAscent": "Per Wermelin",
+      "description": "Starta under utsteget på Mystravers. Klättra rakt upp och avsluta med samma utsteg som Mystravers.",
+      "source": {
+        "id": "legacy:asberget",
+        "path": "mediawiki/Åsberget.txt"
+      }
+    },
+    {
+      "id": "asberget-problem-6",
+      "kind": "problem",
+      "number": null,
+      "name": "Tjohoo",
+      "grade": "5A",
+      "length": "",
+      "type": "Travers V->H",
+      "firstAscent": "Per Wermelin",
+      "description": "Startar till vänster. Följ kanten upp åt höger och avsluta längst upp.",
+      "source": {
+        "id": "legacy:asberget",
+        "path": "mediawiki/Åsberget.txt"
+      }
+    },
+    {
+      "id": "asberget-problem-7",
+      "kind": "problem",
+      "number": null,
+      "name": "Presspress",
+      "grade": "6B",
+      "length": "",
+      "type": "Krimp,Dyno",
+      "firstAscent": "Per Wermelin",
+      "description": "Starta under det lilla taket, avslutas rakt upp.",
+      "source": {
+        "id": "legacy:asberget",
+        "path": "mediawiki/Åsberget.txt"
+      }
+    },
+    {
+      "id": "asberget-problem-8",
+      "kind": "problem",
+      "number": null,
+      "name": "Dynamit",
+      "grade": "6C",
+      "length": "",
+      "type": "Krimp,Dyno",
+      "firstAscent": "Per Wermelin",
+      "description": "Starta under taket och dyna upp till kanten.",
+      "source": {
+        "id": "legacy:asberget",
+        "path": "mediawiki/Åsberget.txt"
+      }
+    }
+  ],
+  "images": [],
+  "access": {
+    "legacyText": null,
+    "federationSlug": null
+  },
+  "qualityIssues": [],
+  "provenance": {
+    "primarySourceId": "legacy:asberget",
+    "sources": [
+      {
+        "id": "legacy:asberget",
+        "title": "Sverigeföraren 2014: Åsberget",
+        "path": "mediawiki/Åsberget.txt",
+        "license": "GNU Free Documentation License",
+        "snapshotDate": "2014-01-01"
+      }
+    ]
+  }
+}

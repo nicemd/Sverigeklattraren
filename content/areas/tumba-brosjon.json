@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 1,
+  "id": "tumba-brosjon",
+  "slug": "tumba-brosjon",
+  "name": "Tumba - Brosjön",
+  "description": "Damma av era naturliga säkringar. Åk ut och treva runt med kilarna bland sprickorna. Passa på, snart läggs bultmattan ut och stockholms sista fina sprickor ryker. Till höger finns huvudväggen där två leder redan är gjorda. Utrymme finns för mycket mer. Till vänster finns ca fem kilturer och även några korta bultturer. Längre till vänster finns lite highball.",
+  "coordinates": {
+    "latitude": 59.1784,
+    "longitude": 17.7923
+  },
+  "categories": [
+    "mix",
+    "Saknar leder",
+    "Saknar skiss",
+    "Saknar skrivarformatering",
+    "Saknar vägbeskrivning",
+    "sport",
+    "sva",
+    "trad",
+    "vertikalt",
+    "Västra Södertörn",
+    "överhäng"
+  ],
+  "sections": [
+    {
+      "id": "allmant",
+      "title": "Allmänt",
+      "body": "Damma av era naturliga säkringar. Åk ut och treva runt med kilarna bland sprickorna. Passa på, snart läggs bultmattan ut och stockholms sista fina sprickor ryker. Till höger finns huvudväggen där två leder redan är gjorda. Utrymme finns för mycket mer. Till vänster finns ca fem kilturer och även några korta bultturer. Längre till vänster finns lite highball."
+    },
+    {
+      "id": "vagbeskrivning",
+      "title": "Vägbeskrivning",
+      "body": "Från stan: åk igenom tumba emot vårsta. Sväng höger emot brotorpsbadet."
+    },
+    {
+      "id": "leder",
+      "title": "Leder",
+      "body": "Kategori:sport Kategori:trad Category:Stockholm Kategori:Västra Södertörn"
+    }
+  ],
+  "routes": [
+    {
+      "id": "tumba-brosjon-led-1",
+      "kind": "route",
+      "number": "1",
+      "name": "Berndts",
+      "grade": "7a",
+      "length": "12",
+      "type": "sport",
+      "firstAscent": "Reino Liimatainen 20100904",
+      "description": "Tung i början och slutet",
+      "source": {
+        "id": "legacy:tumba-brosjon",
+        "path": "mediawiki/Tumba - Brosjön.txt"
+      }
+    },
+    {
+      "id": "tumba-brosjon-led-2",
+      "kind": "route",
+      "number": "1",
+      "name": "Kompassriktning",
+      "grade": "7a+",
+      "length": "12",
+      "type": "sport",
+      "firstAscent": "Larry Valkama 20100904",
+      "description": "Följer areten på slutet",
+      "source": {
+        "id": "legacy:tumba-brosjon",
+        "path": "mediawiki/Tumba - Brosjön.txt"
+      }
+    }
+  ],
+  "images": [
+    {
+      "filename": "Brosjon.png",
+      "caption": "",
+      "missing": false
+    }
+  ],
+  "access": {
+    "legacyText": null,
+    "federationSlug": null
+  },
+  "qualityIssues": [],
+  "provenance": {
+    "primarySourceId": "legacy:tumba-brosjon",
+    "sources": [
+      {
+        "id": "legacy:tumba-brosjon",
+        "title": "Sverigeföraren 2014: Tumba - Brosjön",
+        "path": "mediawiki/Tumba - Brosjön.txt",
+        "license": "GNU Free Documentation License",
+        "snapshotDate": "2014-01-01"
+      }
+    ]
+  }
+}

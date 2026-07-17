@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 1,
+  "id": "snack",
+  "slug": "snack",
+  "name": "Snäck",
+  "description": "Ovanför vattenrutschbanan vid Snäck finns ett bultat hörn på fin, fast klippa.",
+  "coordinates": {
+    "latitude": 57.673199,
+    "longitude": 18.336035
+  },
+  "categories": [
+    "Saknar leder",
+    "Saknar skiss",
+    "Saknar skrivarformatering",
+    "Saknar vägbeskrivning",
+    "sport",
+    "vertikalt"
+  ],
+  "sections": [
+    {
+      "id": "allmant",
+      "title": "Allmänt",
+      "body": "Ovanför vattenrutschbanan vid Snäck finns ett bultat hörn på fin, fast klippa."
+    },
+    {
+      "id": "leder",
+      "title": "Leder",
+      "body": "Höger kolumn kategori:Saknar skiss kategori:Saknar vägbeskrivning kategori:Saknar leder kategori:Saknar skrivarformatering Category:Gotland"
+    }
+  ],
+  "routes": [
+    {
+      "id": "snack-led-1",
+      "kind": "route",
+      "number": "1",
+      "name": "Le premier projet",
+      "grade": "6a+",
+      "length": "?",
+      "type": "sport",
+      "firstAscent": "Anders Lindström -??",
+      "description": "Glest bultad",
+      "source": {
+        "id": "legacy:snack",
+        "path": "mediawiki/Snäck.txt"
+      }
+    }
+  ],
+  "images": [],
+  "access": {
+    "legacyText": null,
+    "federationSlug": null
+  },
+  "qualityIssues": [],
+  "provenance": {
+    "primarySourceId": "legacy:snack",
+    "sources": [
+      {
+        "id": "legacy:snack",
+        "title": "Sverigeföraren 2014: Snäck",
+        "path": "mediawiki/Snäck.txt",
+        "license": "GNU Free Documentation License",
+        "snapshotDate": "2014-01-01"
+      }
+    ]
+  }
+}

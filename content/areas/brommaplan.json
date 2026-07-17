@@ -1,0 +1,152 @@
+{
+  "schemaVersion": 1,
+  "id": "brommaplan",
+  "slug": "brommaplan",
+  "name": "Brommaplan",
+  "description": "titel=Brommaplansobelisken lat= 17935781 long=59333583",
+  "coordinates": {
+    "latitude": 59.3335834217362,
+    "longitude": 17.935781478881836
+  },
+  "categories": [
+    "Bouldering",
+    "Klippa",
+    "Norra Stockholm",
+    "Sport",
+    "Stockholm",
+    "Vertikalt"
+  ],
+  "sections": [
+    {
+      "id": "vagbeskrivning",
+      "title": "Vägbeskrivning",
+      "body": "titel=Brommaplansobelisken lat= 17935781 long=59333583"
+    },
+    {
+      "id": "leder",
+      "title": "Leder",
+      "body": "Någon som kan hjälpa? Någon som vet om dom ens är gjorda? Ryktet säger att Luhr satt upp dom, nån som kan bekräfta? Från vänster till höger på bilden så är nu 1-4-5-6 Utrustade med hängare hela vägen, jag har även hängt upp snabblänkar på alla(21/10 07). Ett block som ligger tvärs över gatan klättras nog bäst med padda eller tradrack... Kategori:Klippa Kategori:Bouldering Kategori:Sport Kategori:Vertikalt Kategori:Stockholm Kategori:Norra Stockholm"
+    }
+  ],
+  "routes": [
+    {
+      "id": "brommaplan-led-1",
+      "kind": "route",
+      "number": "1",
+      "name": "?",
+      "grade": "7b",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "?",
+      "description": "",
+      "source": {
+        "id": "legacy:brommaplan",
+        "path": "mediawiki/Brommaplan.txt"
+      }
+    },
+    {
+      "id": "brommaplan-led-2",
+      "kind": "route",
+      "number": "2",
+      "name": "?",
+      "grade": "?",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "?",
+      "description": "saknar hängare",
+      "source": {
+        "id": "legacy:brommaplan",
+        "path": "mediawiki/Brommaplan.txt"
+      }
+    },
+    {
+      "id": "brommaplan-led-3",
+      "kind": "route",
+      "number": "3",
+      "name": "?",
+      "grade": "?",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "?",
+      "description": "saknar hängare",
+      "source": {
+        "id": "legacy:brommaplan",
+        "path": "mediawiki/Brommaplan.txt"
+      }
+    },
+    {
+      "id": "brommaplan-led-4",
+      "kind": "route",
+      "number": "4",
+      "name": "?",
+      "grade": "7c",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "?",
+      "description": "",
+      "source": {
+        "id": "legacy:brommaplan",
+        "path": "mediawiki/Brommaplan.txt"
+      }
+    },
+    {
+      "id": "brommaplan-led-5",
+      "kind": "route",
+      "number": "5",
+      "name": "?",
+      "grade": "7a",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "?",
+      "description": "",
+      "source": {
+        "id": "legacy:brommaplan",
+        "path": "mediawiki/Brommaplan.txt"
+      }
+    },
+    {
+      "id": "brommaplan-led-6",
+      "kind": "route",
+      "number": "6",
+      "name": "?",
+      "grade": "6b",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "?",
+      "description": "",
+      "source": {
+        "id": "legacy:brommaplan",
+        "path": "mediawiki/Brommaplan.txt"
+      }
+    }
+  ],
+  "images": [
+    {
+      "filename": "Brommaplan.jpg",
+      "caption": "",
+      "missing": false
+    },
+    {
+      "filename": "Komposten.jpg",
+      "caption": "",
+      "missing": false
+    }
+  ],
+  "access": {
+    "legacyText": null,
+    "federationSlug": null
+  },
+  "qualityIssues": [],
+  "provenance": {
+    "primarySourceId": "legacy:brommaplan",
+    "sources": [
+      {
+        "id": "legacy:brommaplan",
+        "title": "Sverigeföraren 2014: Brommaplan",
+        "path": "mediawiki/Brommaplan.txt",
+        "license": "GNU Free Documentation License",
+        "snapshotDate": "2014-01-01"
+      }
+    ]
+  }
+}

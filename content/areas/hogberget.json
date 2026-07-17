@@ -1,0 +1,466 @@
+{
+  "schemaVersion": 1,
+  "id": "hogberget",
+  "slug": "hogberget",
+  "name": "Högberget",
+  "description": "Allmän text om klippan här. Denna text visas i klipp-listan",
+  "coordinates": {
+    "latitude": 64.71554,
+    "longitude": 12.59247
+  },
+  "categories": [
+    "mix",
+    "Saknar koordinater",
+    "Saknar leder",
+    "Saknar skiss",
+    "Saknar skrivarformatering",
+    "Saknar vägbeskrivning",
+    "sport",
+    "sva",
+    "trad",
+    "vertikalt",
+    "överhäng"
+  ],
+  "sections": [
+    {
+      "id": "allmant",
+      "title": "Allmänt",
+      "body": "Allmän text om klippan här. Denna text visas i klipp-listan"
+    },
+    {
+      "id": "vagbeskrivning",
+      "title": "Vägbeskrivning",
+      "body": "Karta här. Tryck på kartknappen ovan. Skriv vägbeskrivning här."
+    },
+    {
+      "id": "leder",
+      "title": "Leder",
+      "body": "Kategori:trad kategori:Saknar skiss kategori:Saknar vägbeskrivning kategori:Saknar leder kategori:Saknar koordinater kategori:Saknar skrivarformatering Category:Bohuslän"
+    }
+  ],
+  "routes": [
+    {
+      "id": "hogberget-led-1",
+      "kind": "route",
+      "number": "1",
+      "name": "Namn på led",
+      "grade": "9c+",
+      "length": "30",
+      "type": "trad",
+      "firstAscent": "namn på fa -08",
+      "description": "ledbeskrivning",
+      "source": {
+        "id": "legacy:hogberget",
+        "path": "mediawiki/Högberget.txt"
+      }
+    },
+    {
+      "id": "hogberget-led-2",
+      "kind": "route",
+      "number": null,
+      "name": "Tommy og tiegeren",
+      "grade": "7",
+      "length": "",
+      "type": "",
+      "firstAscent": "",
+      "description": "",
+      "source": {
+        "id": "legacy:hogberget",
+        "path": "mediawiki/Högberget.txt"
+      }
+    },
+    {
+      "id": "hogberget-led-3",
+      "kind": "route",
+      "number": null,
+      "name": "Tårar i regn",
+      "grade": "8",
+      "length": "",
+      "type": "",
+      "firstAscent": "",
+      "description": "",
+      "source": {
+        "id": "legacy:hogberget",
+        "path": "mediawiki/Högberget.txt"
+      }
+    },
+    {
+      "id": "hogberget-led-4",
+      "kind": "route",
+      "number": null,
+      "name": "Peppsi",
+      "grade": "7",
+      "length": "",
+      "type": "",
+      "firstAscent": "",
+      "description": "",
+      "source": {
+        "id": "legacy:hogberget",
+        "path": "mediawiki/Högberget.txt"
+      }
+    },
+    {
+      "id": "hogberget-led-5",
+      "kind": "route",
+      "number": null,
+      "name": "Lattja",
+      "grade": "6+",
+      "length": "",
+      "type": "",
+      "firstAscent": "",
+      "description": "",
+      "source": {
+        "id": "legacy:hogberget",
+        "path": "mediawiki/Högberget.txt"
+      }
+    },
+    {
+      "id": "hogberget-led-6",
+      "kind": "route",
+      "number": null,
+      "name": "Café Olé",
+      "grade": "7",
+      "length": "",
+      "type": "",
+      "firstAscent": "",
+      "description": "",
+      "source": {
+        "id": "legacy:hogberget",
+        "path": "mediawiki/Högberget.txt"
+      }
+    },
+    {
+      "id": "hogberget-led-7",
+      "kind": "route",
+      "number": null,
+      "name": "Jäger",
+      "grade": "6+",
+      "length": "",
+      "type": "",
+      "firstAscent": "",
+      "description": "",
+      "source": {
+        "id": "legacy:hogberget",
+        "path": "mediawiki/Högberget.txt"
+      }
+    },
+    {
+      "id": "hogberget-led-8",
+      "kind": "route",
+      "number": null,
+      "name": "Kung Bore på besök",
+      "grade": "7+",
+      "length": "",
+      "type": "",
+      "firstAscent": "Geir Arne Bore",
+      "description": "",
+      "source": {
+        "id": "legacy:hogberget",
+        "path": "mediawiki/Högberget.txt"
+      }
+    },
+    {
+      "id": "hogberget-led-9",
+      "kind": "route",
+      "number": null,
+      "name": "Restmat",
+      "grade": "7+",
+      "length": "",
+      "type": "",
+      "firstAscent": "",
+      "description": "",
+      "source": {
+        "id": "legacy:hogberget",
+        "path": "mediawiki/Högberget.txt"
+      }
+    },
+    {
+      "id": "hogberget-led-10",
+      "kind": "route",
+      "number": null,
+      "name": "Amalie sover",
+      "grade": "7+",
+      "length": "",
+      "type": "",
+      "firstAscent": "",
+      "description": "",
+      "source": {
+        "id": "legacy:hogberget",
+        "path": "mediawiki/Högberget.txt"
+      }
+    },
+    {
+      "id": "hogberget-led-11",
+      "kind": "route",
+      "number": null,
+      "name": "Pearl jam",
+      "grade": "6+",
+      "length": "",
+      "type": "",
+      "firstAscent": "",
+      "description": "",
+      "source": {
+        "id": "legacy:hogberget",
+        "path": "mediawiki/Högberget.txt"
+      }
+    },
+    {
+      "id": "hogberget-led-12",
+      "kind": "route",
+      "number": null,
+      "name": "Gymnopedie",
+      "grade": "7-",
+      "length": "",
+      "type": "",
+      "firstAscent": "",
+      "description": "",
+      "source": {
+        "id": "legacy:hogberget",
+        "path": "mediawiki/Högberget.txt"
+      }
+    },
+    {
+      "id": "hogberget-led-13",
+      "kind": "route",
+      "number": null,
+      "name": "Yamamoto",
+      "grade": "6",
+      "length": "",
+      "type": "",
+      "firstAscent": "",
+      "description": "",
+      "source": {
+        "id": "legacy:hogberget",
+        "path": "mediawiki/Högberget.txt"
+      }
+    },
+    {
+      "id": "hogberget-led-14",
+      "kind": "route",
+      "number": null,
+      "name": "Eiriksgatan",
+      "grade": "6",
+      "length": "",
+      "type": "",
+      "firstAscent": "",
+      "description": "",
+      "source": {
+        "id": "legacy:hogberget",
+        "path": "mediawiki/Högberget.txt"
+      }
+    },
+    {
+      "id": "hogberget-led-15",
+      "kind": "route",
+      "number": null,
+      "name": "Anallogi",
+      "grade": "6+",
+      "length": "",
+      "type": "",
+      "firstAscent": "",
+      "description": "",
+      "source": {
+        "id": "legacy:hogberget",
+        "path": "mediawiki/Högberget.txt"
+      }
+    },
+    {
+      "id": "hogberget-led-16",
+      "kind": "route",
+      "number": null,
+      "name": "Andromeda",
+      "grade": "7-",
+      "length": "",
+      "type": "",
+      "firstAscent": "",
+      "description": "",
+      "source": {
+        "id": "legacy:hogberget",
+        "path": "mediawiki/Högberget.txt"
+      }
+    },
+    {
+      "id": "hogberget-led-17",
+      "kind": "route",
+      "number": null,
+      "name": "Olivia",
+      "grade": "5",
+      "length": "",
+      "type": "",
+      "firstAscent": "",
+      "description": "",
+      "source": {
+        "id": "legacy:hogberget",
+        "path": "mediawiki/Högberget.txt"
+      }
+    },
+    {
+      "id": "hogberget-led-18",
+      "kind": "route",
+      "number": null,
+      "name": "Börstetaket",
+      "grade": "7",
+      "length": "",
+      "type": "",
+      "firstAscent": "",
+      "description": "",
+      "source": {
+        "id": "legacy:hogberget",
+        "path": "mediawiki/Högberget.txt"
+      }
+    },
+    {
+      "id": "hogberget-led-19",
+      "kind": "route",
+      "number": null,
+      "name": "Enigma",
+      "grade": "7+",
+      "length": "",
+      "type": "",
+      "firstAscent": "",
+      "description": "",
+      "source": {
+        "id": "legacy:hogberget",
+        "path": "mediawiki/Högberget.txt"
+      }
+    },
+    {
+      "id": "hogberget-led-20",
+      "kind": "route",
+      "number": null,
+      "name": "Magien",
+      "grade": "8",
+      "length": "",
+      "type": "",
+      "firstAscent": "",
+      "description": "",
+      "source": {
+        "id": "legacy:hogberget",
+        "path": "mediawiki/Högberget.txt"
+      }
+    },
+    {
+      "id": "hogberget-led-21",
+      "kind": "route",
+      "number": null,
+      "name": "Mezzo forte",
+      "grade": "6+",
+      "length": "",
+      "type": "",
+      "firstAscent": "",
+      "description": "",
+      "source": {
+        "id": "legacy:hogberget",
+        "path": "mediawiki/Högberget.txt"
+      }
+    },
+    {
+      "id": "hogberget-led-22",
+      "kind": "route",
+      "number": null,
+      "name": "Karl Alfred",
+      "grade": "6-",
+      "length": "",
+      "type": "",
+      "firstAscent": "",
+      "description": "",
+      "source": {
+        "id": "legacy:hogberget",
+        "path": "mediawiki/Högberget.txt"
+      }
+    },
+    {
+      "id": "hogberget-led-23",
+      "kind": "route",
+      "number": null,
+      "name": "Feministiskt initiativ",
+      "grade": "5+",
+      "length": "",
+      "type": "",
+      "firstAscent": "",
+      "description": "",
+      "source": {
+        "id": "legacy:hogberget",
+        "path": "mediawiki/Högberget.txt"
+      }
+    },
+    {
+      "id": "hogberget-led-24",
+      "kind": "route",
+      "number": null,
+      "name": "Nesten syv",
+      "grade": "6-",
+      "length": "",
+      "type": "",
+      "firstAscent": "",
+      "description": "",
+      "source": {
+        "id": "legacy:hogberget",
+        "path": "mediawiki/Högberget.txt"
+      }
+    },
+    {
+      "id": "hogberget-led-25",
+      "kind": "route",
+      "number": null,
+      "name": "Stigfinnaren",
+      "grade": "6-",
+      "length": "",
+      "type": "",
+      "firstAscent": "",
+      "description": "",
+      "source": {
+        "id": "legacy:hogberget",
+        "path": "mediawiki/Högberget.txt"
+      }
+    },
+    {
+      "id": "hogberget-led-26",
+      "kind": "route",
+      "number": null,
+      "name": "Yamyohann",
+      "grade": "7",
+      "length": "",
+      "type": "",
+      "firstAscent": "",
+      "description": "",
+      "source": {
+        "id": "legacy:hogberget",
+        "path": "mediawiki/Högberget.txt"
+      }
+    },
+    {
+      "id": "hogberget-led-27",
+      "kind": "route",
+      "number": null,
+      "name": "Röd Gryning",
+      "grade": "6-",
+      "length": "",
+      "type": "",
+      "firstAscent": "",
+      "description": "",
+      "source": {
+        "id": "legacy:hogberget",
+        "path": "mediawiki/Högberget.txt"
+      }
+    }
+  ],
+  "images": [],
+  "access": {
+    "legacyText": null,
+    "federationSlug": null
+  },
+  "qualityIssues": [],
+  "provenance": {
+    "primarySourceId": "legacy:hogberget",
+    "sources": [
+      {
+        "id": "legacy:hogberget",
+        "title": "Sverigeföraren 2014: Högberget",
+        "path": "mediawiki/Högberget.txt",
+        "license": "GNU Free Documentation License",
+        "snapshotDate": "2014-01-01"
+      }
+    ]
+  }
+}

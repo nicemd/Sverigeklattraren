@@ -1,0 +1,987 @@
+{
+  "schemaVersion": 1,
+  "id": "fiby",
+  "slug": "fiby",
+  "name": "Fiby",
+  "description": "Det vackrast belägna området i Uppsala. Den bäst utvecklade delen består av några block på en äng, i skogen på andra sidan bäcken finns ca 50-100 block och många väggar att utveckla. =Vägbeskrivning= Kör väg 52 mot Sala från Uppsala, sväng av höger i Vänge och kör mot Fiby urskog. Passera blocken och parkera vid den skyltade parkeringen. =Sektorer=",
+  "coordinates": null,
+  "categories": [
+    "Bimbo",
+    "Bouldering",
+    "Saknar skiss",
+    "Saknar skrivarformattering",
+    "Uppsala"
+  ],
+  "sections": [
+    {
+      "id": "angen",
+      "title": "Ängen",
+      "body": "Blocken på ängen går ej att missa."
+    },
+    {
+      "id": "skogen",
+      "title": "Skogen",
+      "body": "Skogen på andra sidan ån sett från blocken på ängen är proppfull med block. Lite utveckling har skett här, och bara den är dåligt dokumenterad. För den orädde finns här stor potential."
+    },
+    {
+      "id": "nybygget",
+      "title": "Nybygget",
+      "body": "Ligger egentligen inte i själva Fiby. Ta väg 272 norrut och sväng av vänster mot Jumkil. Håll höger efter kyrkan och ta vänster när vägen delar sig. Blocken ligger i den andra dungen på vänster sida i området nybygget. De höga och finaste linjerna är ogjorda."
+    },
+    {
+      "id": "agget-och-noshorningen",
+      "title": "Ägget och Noshörningen",
+      "body": "Ägget ligger i skogen bakom skjulet halvvägs mellan blocken på ängen och parkeringen. =Problem= Kategori:Uppsala Kategori:Bouldering Kategori:Bimbo Kategori:Saknar skrivarformattering Kategori:Saknar skiss"
+    }
+  ],
+  "routes": [
+    {
+      "id": "fiby-problem-1",
+      "kind": "problem",
+      "number": null,
+      "name": "Painkiller",
+      "grade": "7C",
+      "length": "",
+      "type": "Krimp",
+      "firstAscent": "Stefan",
+      "description": "Ett par meter vä om Tottes hund på stora blocket på ängen. Starta vid uppenbar bred krimplist. Osäker grad - 7B+ - C.",
+      "source": {
+        "id": "legacy:fiby",
+        "path": "mediawiki/Fiby.txt"
+      }
+    },
+    {
+      "id": "fiby-problem-2",
+      "kind": "problem",
+      "number": "1",
+      "name": "Näckrofilen",
+      "grade": "6C",
+      "length": "",
+      "type": "Slopers",
+      "firstAscent": "J Smedsaas",
+      "description": "Klättra upp åt vänster.",
+      "source": {
+        "id": "legacy:fiby",
+        "path": "mediawiki/Fiby.txt"
+      }
+    },
+    {
+      "id": "fiby-problem-3",
+      "kind": "problem",
+      "number": "2",
+      "name": "Bellavista",
+      "grade": "6C",
+      "length": "",
+      "type": "Dyno",
+      "firstAscent": "J Smedsaas",
+      "description": "Starta med små lister, catcha till kanten.",
+      "source": {
+        "id": "legacy:fiby",
+        "path": "mediawiki/Fiby.txt"
+      }
+    },
+    {
+      "id": "fiby-problem-4",
+      "kind": "problem",
+      "number": "3",
+      "name": "-",
+      "grade": "5A",
+      "length": "",
+      "type": "",
+      "firstAscent": "J Smedsaas",
+      "description": "",
+      "source": {
+        "id": "legacy:fiby",
+        "path": "mediawiki/Fiby.txt"
+      }
+    },
+    {
+      "id": "fiby-problem-5",
+      "kind": "problem",
+      "number": "4",
+      "name": "-",
+      "grade": "4C",
+      "length": "",
+      "type": "Mantling",
+      "firstAscent": "J Smedsaas",
+      "description": "Sittstart höger om kanten, mantla runt åt vänster.",
+      "source": {
+        "id": "legacy:fiby",
+        "path": "mediawiki/Fiby.txt"
+      }
+    },
+    {
+      "id": "fiby-problem-6",
+      "kind": "problem",
+      "number": "5",
+      "name": "-",
+      "grade": "5A",
+      "length": "",
+      "type": "Mantling",
+      "firstAscent": "C Dinges / R Hedman / J Smedsaas",
+      "description": "",
+      "source": {
+        "id": "legacy:fiby",
+        "path": "mediawiki/Fiby.txt"
+      }
+    },
+    {
+      "id": "fiby-problem-7",
+      "kind": "problem",
+      "number": "6",
+      "name": "-",
+      "grade": "3A",
+      "length": "",
+      "type": "Slab",
+      "firstAscent": "C Dinges / R Hedman / J Smedsaas",
+      "description": "",
+      "source": {
+        "id": "legacy:fiby",
+        "path": "mediawiki/Fiby.txt"
+      }
+    },
+    {
+      "id": "fiby-problem-8",
+      "kind": "problem",
+      "number": "7",
+      "name": "Zoo Tycoon",
+      "grade": "5A",
+      "length": "",
+      "type": "Aréte",
+      "firstAscent": "C Dinges / R Hedman / J Smedsaas",
+      "description": "Följ aréten till toppen. 5c med sittstart.",
+      "source": {
+        "id": "legacy:fiby",
+        "path": "mediawiki/Fiby.txt"
+      }
+    },
+    {
+      "id": "fiby-problem-9",
+      "kind": "problem",
+      "number": "8",
+      "name": "Diablo",
+      "grade": "6A",
+      "length": "",
+      "type": "",
+      "firstAscent": "C Dinges / R Hedman / J Smedsaas",
+      "description": "Vägg. Rakt upp mitt på väggen (utan den stora vertikala kanten 6b).",
+      "source": {
+        "id": "legacy:fiby",
+        "path": "mediawiki/Fiby.txt"
+      }
+    },
+    {
+      "id": "fiby-problem-10",
+      "kind": "problem",
+      "number": "9",
+      "name": "Kannan",
+      "grade": "5A",
+      "length": "",
+      "type": "Aréte",
+      "firstAscent": "C Dinges / R Hedman / J Smedsaas",
+      "description": "",
+      "source": {
+        "id": "legacy:fiby",
+        "path": "mediawiki/Fiby.txt"
+      }
+    },
+    {
+      "id": "fiby-problem-11",
+      "kind": "problem",
+      "number": "10",
+      "name": "-",
+      "grade": "4C",
+      "length": "",
+      "type": "Slab",
+      "firstAscent": "C Dinges / R Hedman / J Smedsaas",
+      "description": "",
+      "source": {
+        "id": "legacy:fiby",
+        "path": "mediawiki/Fiby.txt"
+      }
+    },
+    {
+      "id": "fiby-problem-12",
+      "kind": "problem",
+      "number": "11",
+      "name": "Trollpisten",
+      "grade": "4B",
+      "length": "",
+      "type": "Slab",
+      "firstAscent": "C Dinges / R Hedman / J Smedsaas",
+      "description": "",
+      "source": {
+        "id": "legacy:fiby",
+        "path": "mediawiki/Fiby.txt"
+      }
+    },
+    {
+      "id": "fiby-problem-13",
+      "kind": "problem",
+      "number": "12",
+      "name": "-",
+      "grade": "6A+",
+      "length": "",
+      "type": "Mantling",
+      "firstAscent": "C Dinges / R Hedman / J Smedsaas",
+      "description": "Sittstart vid det lilla överhänget.",
+      "source": {
+        "id": "legacy:fiby",
+        "path": "mediawiki/Fiby.txt"
+      }
+    },
+    {
+      "id": "fiby-problem-14",
+      "kind": "problem",
+      "number": "13",
+      "name": "Kaffe och Cigg",
+      "grade": "6B",
+      "length": "",
+      "type": "Överhäng",
+      "firstAscent": "O Eriksson",
+      "description": "Sittstart till höger.",
+      "source": {
+        "id": "legacy:fiby",
+        "path": "mediawiki/Fiby.txt"
+      }
+    },
+    {
+      "id": "fiby-problem-15",
+      "kind": "problem",
+      "number": "14",
+      "name": "-",
+      "grade": "4C",
+      "length": "",
+      "type": "Travers H->V",
+      "firstAscent": "R Hedman / K Svensson",
+      "description": "Sittstart höger, klättra vänster ut till aréten och sedan upp.",
+      "source": {
+        "id": "legacy:fiby",
+        "path": "mediawiki/Fiby.txt"
+      }
+    },
+    {
+      "id": "fiby-problem-16",
+      "kind": "problem",
+      "number": "15",
+      "name": "Fred is Dead",
+      "grade": "7A",
+      "length": "",
+      "type": "Överhäng",
+      "firstAscent": "Crell",
+      "description": "Taket bakom bananbänken. Starta med stenen under taket, gå direkt ut vänster om hornet.",
+      "source": {
+        "id": "legacy:fiby",
+        "path": "mediawiki/Fiby.txt"
+      }
+    },
+    {
+      "id": "fiby-problem-17",
+      "kind": "problem",
+      "number": "15",
+      "name": "Jamtaket",
+      "grade": "6C",
+      "length": "",
+      "type": "",
+      "firstAscent": "J Smedsaas / D Andersson",
+      "description": "Tak. Sittstart med stenen under taket, sedan rakt ut på lister.",
+      "source": {
+        "id": "legacy:fiby",
+        "path": "mediawiki/Fiby.txt"
+      }
+    },
+    {
+      "id": "fiby-problem-18",
+      "kind": "problem",
+      "number": "16",
+      "name": "-",
+      "grade": "5C",
+      "length": "",
+      "type": "Mantling",
+      "firstAscent": "R Hedman",
+      "description": "Rakt upp vänster om hornet.",
+      "source": {
+        "id": "legacy:fiby",
+        "path": "mediawiki/Fiby.txt"
+      }
+    },
+    {
+      "id": "fiby-problem-19",
+      "kind": "problem",
+      "number": "17",
+      "name": "Bananbänken",
+      "grade": "6C",
+      "length": "",
+      "type": "Aréte,Heel hook",
+      "firstAscent": "Jon",
+      "description": "Bananformade arêten vid ängen. sittstarta vid hornet. Uppsalas populäraste problem?",
+      "source": {
+        "id": "legacy:fiby",
+        "path": "mediawiki/Fiby.txt"
+      }
+    },
+    {
+      "id": "fiby-problem-20",
+      "kind": "problem",
+      "number": "18",
+      "name": "-",
+      "grade": "6B+",
+      "length": "",
+      "type": "Travers V->H",
+      "firstAscent": "R Hedman",
+      "description": "Sittstart längst vänster, traversera höger och avsluta vid Bananbänken.",
+      "source": {
+        "id": "legacy:fiby",
+        "path": "mediawiki/Fiby.txt"
+      }
+    },
+    {
+      "id": "fiby-problem-21",
+      "kind": "problem",
+      "number": "18",
+      "name": "-",
+      "grade": "5B",
+      "length": "",
+      "type": "Mantling",
+      "firstAscent": "R Hedman",
+      "description": "Mantla upp på bananbänksblocket, längs vänster.",
+      "source": {
+        "id": "legacy:fiby",
+        "path": "mediawiki/Fiby.txt"
+      }
+    },
+    {
+      "id": "fiby-problem-22",
+      "kind": "problem",
+      "number": "19",
+      "name": "Farbror Anna och Tanten med den Långa...",
+      "grade": "7A+",
+      "length": "",
+      "type": "Slopers",
+      "firstAscent": "J Smedsaas",
+      "description": "Upp på stora slopers utan det stora greppet till vänster.",
+      "source": {
+        "id": "legacy:fiby",
+        "path": "mediawiki/Fiby.txt"
+      }
+    },
+    {
+      "id": "fiby-problem-23",
+      "kind": "problem",
+      "number": "20",
+      "name": "Lilla scenen",
+      "grade": "4A",
+      "length": "",
+      "type": "Mantling",
+      "firstAscent": "?",
+      "description": "SS vid hyllan på lilla blocket.",
+      "source": {
+        "id": "legacy:fiby",
+        "path": "mediawiki/Fiby.txt"
+      }
+    },
+    {
+      "id": "fiby-problem-24",
+      "kind": "problem",
+      "number": "22",
+      "name": "Calles Aréte",
+      "grade": "5A",
+      "length": "",
+      "type": "Aréte",
+      "firstAscent": "C Dinges",
+      "description": "",
+      "source": {
+        "id": "legacy:fiby",
+        "path": "mediawiki/Fiby.txt"
+      }
+    },
+    {
+      "id": "fiby-problem-25",
+      "kind": "problem",
+      "number": "23",
+      "name": "Tottes Hund",
+      "grade": "7A+",
+      "length": "",
+      "type": "Krimp",
+      "firstAscent": "J Smedsaas",
+      "description": "Stora scenen, längst höger på västra väggen. Rakt upp mot \"klykan\".",
+      "source": {
+        "id": "legacy:fiby",
+        "path": "mediawiki/Fiby.txt"
+      }
+    },
+    {
+      "id": "fiby-problem-26",
+      "kind": "problem",
+      "number": "24",
+      "name": "Tottes Hungriga Hund",
+      "grade": "-",
+      "length": "",
+      "type": "Dyno",
+      "firstAscent": "S Boye",
+      "description": "Hoppa upp till sprickan vid toppen.",
+      "source": {
+        "id": "legacy:fiby",
+        "path": "mediawiki/Fiby.txt"
+      }
+    },
+    {
+      "id": "fiby-problem-27",
+      "kind": "problem",
+      "number": "25",
+      "name": "Tottes Lilla Pudel",
+      "grade": "-",
+      "length": "",
+      "type": "Dyno",
+      "firstAscent": "S Boye",
+      "description": "Hoppa upp till den vänstra sprickan vid toppen.",
+      "source": {
+        "id": "legacy:fiby",
+        "path": "mediawiki/Fiby.txt"
+      }
+    },
+    {
+      "id": "fiby-problem-28",
+      "kind": "problem",
+      "number": "26",
+      "name": "-",
+      "grade": "5B",
+      "length": "",
+      "type": "Dyno",
+      "firstAscent": "R Hedman / K Svensson",
+      "description": "Starta med lister.",
+      "source": {
+        "id": "legacy:fiby",
+        "path": "mediawiki/Fiby.txt"
+      }
+    },
+    {
+      "id": "fiby-problem-29",
+      "kind": "problem",
+      "number": "27",
+      "name": "-",
+      "grade": "5A",
+      "length": "",
+      "type": "Mantling",
+      "firstAscent": "R Hedman / K Svensson",
+      "description": "Starta med det stora sidtaget vid aréten.",
+      "source": {
+        "id": "legacy:fiby",
+        "path": "mediawiki/Fiby.txt"
+      }
+    },
+    {
+      "id": "fiby-problem-30",
+      "kind": "problem",
+      "number": "28",
+      "name": "Förlös",
+      "grade": "7A+",
+      "length": "",
+      "type": "Layback",
+      "firstAscent": "J Smedsaas",
+      "description": "Sittstart vid diedret på kortsidan.",
+      "source": {
+        "id": "legacy:fiby",
+        "path": "mediawiki/Fiby.txt"
+      }
+    },
+    {
+      "id": "fiby-problem-31",
+      "kind": "problem",
+      "number": "29",
+      "name": "Le Dogge Totale",
+      "grade": "7B",
+      "length": "",
+      "type": "Överhäng",
+      "firstAscent": "J Smedsaas",
+      "description": "På stora scenens kortsida. Sittstart med stora sidtag, dra upp åt vänster till sloper med höger hand.",
+      "source": {
+        "id": "legacy:fiby",
+        "path": "mediawiki/Fiby.txt"
+      }
+    },
+    {
+      "id": "fiby-problem-32",
+      "kind": "problem",
+      "number": "29",
+      "name": "Dogstory",
+      "grade": "7A",
+      "length": "",
+      "type": "Överhäng,Dyno",
+      "firstAscent": "J Smedsaas",
+      "description": "På stora scenen, sittstart vänster om diedret med stora sidtag - catcha sedan upp höger till sloper med vänster hand.",
+      "source": {
+        "id": "legacy:fiby",
+        "path": "mediawiki/Fiby.txt"
+      }
+    },
+    {
+      "id": "fiby-problem-33",
+      "kind": "problem",
+      "number": "30",
+      "name": "Stora Scenen",
+      "grade": "5C",
+      "length": "",
+      "type": "Aréte",
+      "firstAscent": "J Smedsaas",
+      "description": "Sittstart med list vid aréten, klättra upp på aréten (ingen escape ut till vänster)",
+      "source": {
+        "id": "legacy:fiby",
+        "path": "mediawiki/Fiby.txt"
+      }
+    },
+    {
+      "id": "fiby-problem-34",
+      "kind": "problem",
+      "number": "31",
+      "name": "-",
+      "grade": "5A",
+      "length": "",
+      "type": "Travers H->V",
+      "firstAscent": "?",
+      "description": "Hangel åt vänster längs kanten.",
+      "source": {
+        "id": "legacy:fiby",
+        "path": "mediawiki/Fiby.txt"
+      }
+    },
+    {
+      "id": "fiby-problem-35",
+      "kind": "problem",
+      "number": "32",
+      "name": "Med ena foten i bäcken",
+      "grade": "7A",
+      "length": "",
+      "type": "Krimp",
+      "firstAscent": "J Antonsson och F Malmros",
+      "description": "Baksidan stora scenen. Mitt på väggen.",
+      "source": {
+        "id": "legacy:fiby",
+        "path": "mediawiki/Fiby.txt"
+      }
+    },
+    {
+      "id": "fiby-problem-36",
+      "kind": "problem",
+      "number": "33",
+      "name": "\"Fibyaréten\" -PROJEKT",
+      "grade": "-",
+      "length": "",
+      "type": "Aréte",
+      "firstAscent": "?",
+      "description": "Kanske Uppsalas bästa oklättrade linje. Hård hård hård.",
+      "source": {
+        "id": "legacy:fiby",
+        "path": "mediawiki/Fiby.txt"
+      }
+    },
+    {
+      "id": "fiby-problem-37",
+      "kind": "problem",
+      "number": "34",
+      "name": "-",
+      "grade": "6B+",
+      "length": "",
+      "type": "Slab",
+      "firstAscent": "?",
+      "description": "Upp åt vänster.",
+      "source": {
+        "id": "legacy:fiby",
+        "path": "mediawiki/Fiby.txt"
+      }
+    },
+    {
+      "id": "fiby-problem-38",
+      "kind": "problem",
+      "number": "34",
+      "name": "-",
+      "grade": "6A+",
+      "length": "",
+      "type": "Slab",
+      "firstAscent": "?",
+      "description": "Rakt upp på höger sida.",
+      "source": {
+        "id": "legacy:fiby",
+        "path": "mediawiki/Fiby.txt"
+      }
+    },
+    {
+      "id": "fiby-problem-39",
+      "kind": "problem",
+      "number": null,
+      "name": "Svart assis",
+      "grade": "7B+",
+      "length": "",
+      "type": "",
+      "firstAscent": "Jon",
+      "description": "Överhängande basaltvägg på stort block. Toppar ut vid uppenbar basalt tufa/pinch. Går inte att missa.",
+      "source": {
+        "id": "legacy:fiby",
+        "path": "mediawiki/Fiby.txt"
+      }
+    },
+    {
+      "id": "fiby-problem-40",
+      "kind": "problem",
+      "number": null,
+      "name": "Vitt",
+      "grade": "6B",
+      "length": "",
+      "type": "Överhäng,Spricka",
+      "firstAscent": "Anders Tväråna",
+      "description": "Sprickan till höger om Svart. Stora händer till knytnävar. Toppa ut över det hängande blocket.",
+      "source": {
+        "id": "legacy:fiby",
+        "path": "mediawiki/Fiby.txt"
+      }
+    },
+    {
+      "id": "fiby-problem-41",
+      "kind": "problem",
+      "number": null,
+      "name": "Rosa",
+      "grade": "6C",
+      "length": "",
+      "type": "Krimp,Layback",
+      "firstAscent": "skogstrollen",
+      "description": "till vänster om svart. börja med layback vid hörnet, upp via fler sidgrepp och mantla.",
+      "source": {
+        "id": "legacy:fiby",
+        "path": "mediawiki/Fiby.txt"
+      }
+    },
+    {
+      "id": "fiby-problem-42",
+      "kind": "problem",
+      "number": null,
+      "name": "Frostfritt",
+      "grade": "5B",
+      "length": "",
+      "type": "Arête",
+      "firstAscent": "Henric Skoog",
+      "description": "På litet block till höger om stort, rätt över ån från Ängen. Sittstart med händerna på stort grepp.",
+      "source": {
+        "id": "legacy:fiby",
+        "path": "mediawiki/Fiby.txt"
+      }
+    },
+    {
+      "id": "fiby-problem-43",
+      "kind": "problem",
+      "number": "1",
+      "name": "Welsh Sitstart",
+      "grade": "6C",
+      "length": "",
+      "type": "Dyno",
+      "firstAscent": "D Smith / J Smedsaas",
+      "description": "",
+      "source": {
+        "id": "legacy:fiby",
+        "path": "mediawiki/Fiby.txt"
+      }
+    },
+    {
+      "id": "fiby-problem-44",
+      "kind": "problem",
+      "number": "2",
+      "name": "Welsh Juvenile",
+      "grade": "5C",
+      "length": "",
+      "type": "",
+      "firstAscent": "D Smith / J Smedsaas",
+      "description": "Från vertikal till horisontell spricka.",
+      "source": {
+        "id": "legacy:fiby",
+        "path": "mediawiki/Fiby.txt"
+      }
+    },
+    {
+      "id": "fiby-problem-45",
+      "kind": "problem",
+      "number": "3",
+      "name": "Excusé Moi Sans",
+      "grade": "7B",
+      "length": "",
+      "type": "Krimp,Slopers",
+      "firstAscent": "Dylan och Jon",
+      "description": "Sittstart mitt i överhänget, dra sedan rakt upp över slabben utan greppen till höger.",
+      "source": {
+        "id": "legacy:fiby",
+        "path": "mediawiki/Fiby.txt"
+      }
+    },
+    {
+      "id": "fiby-problem-46",
+      "kind": "problem",
+      "number": "3",
+      "name": "Excusé Moi",
+      "grade": "7B",
+      "length": "",
+      "type": "Krimp,Slopers",
+      "firstAscent": "Dylan och Jon",
+      "description": "Sittstart mitt i överhänget, dra upp åt höger till gaston och upp på slabben.",
+      "source": {
+        "id": "legacy:fiby",
+        "path": "mediawiki/Fiby.txt"
+      }
+    },
+    {
+      "id": "fiby-problem-47",
+      "kind": "problem",
+      "number": "3",
+      "name": "Motor-Ola",
+      "grade": "6C+",
+      "length": "",
+      "type": "Krimp,Slopers",
+      "firstAscent": "J Smedsaas",
+      "description": "Sittstart vid det lilla överhänget, sedan höger och avsluta på aréten.",
+      "source": {
+        "id": "legacy:fiby",
+        "path": "mediawiki/Fiby.txt"
+      }
+    },
+    {
+      "id": "fiby-problem-48",
+      "kind": "problem",
+      "number": "4",
+      "name": "The Welsh Midget and the Swedish Troll",
+      "grade": "6A+",
+      "length": "",
+      "type": "Aréte",
+      "firstAscent": "D Smith / J Smedsaas",
+      "description": "",
+      "source": {
+        "id": "legacy:fiby",
+        "path": "mediawiki/Fiby.txt"
+      }
+    },
+    {
+      "id": "fiby-problem-49",
+      "kind": "problem",
+      "number": "1",
+      "name": "-",
+      "grade": "3A",
+      "length": "",
+      "type": "Slab",
+      "firstAscent": "C Dinges / L Oliv",
+      "description": "Starta med den stora listen.",
+      "source": {
+        "id": "legacy:fiby",
+        "path": "mediawiki/Fiby.txt"
+      }
+    },
+    {
+      "id": "fiby-problem-50",
+      "kind": "problem",
+      "number": "1",
+      "name": "-",
+      "grade": "5B",
+      "length": "",
+      "type": "Travers V->H",
+      "firstAscent": "C Dinges / L Oliv",
+      "description": "Starta med det stora greppet, traversera höger och avsluta med problem 4.",
+      "source": {
+        "id": "legacy:fiby",
+        "path": "mediawiki/Fiby.txt"
+      }
+    },
+    {
+      "id": "fiby-problem-51",
+      "kind": "problem",
+      "number": "2",
+      "name": "-",
+      "grade": "4B",
+      "length": "",
+      "type": "Slab",
+      "firstAscent": "C Dinges / L Oliv",
+      "description": "Vänster om diedret.",
+      "source": {
+        "id": "legacy:fiby",
+        "path": "mediawiki/Fiby.txt"
+      }
+    },
+    {
+      "id": "fiby-problem-52",
+      "kind": "problem",
+      "number": "3",
+      "name": "-",
+      "grade": "4A",
+      "length": "",
+      "type": "Slab",
+      "firstAscent": "C Dinges / L Oliv",
+      "description": "Rakt upp vid flaket.",
+      "source": {
+        "id": "legacy:fiby",
+        "path": "mediawiki/Fiby.txt"
+      }
+    },
+    {
+      "id": "fiby-problem-53",
+      "kind": "problem",
+      "number": "3",
+      "name": "-",
+      "grade": "4C",
+      "length": "",
+      "type": "",
+      "firstAscent": "C Dinges / L Oliv",
+      "description": "Dieder.",
+      "source": {
+        "id": "legacy:fiby",
+        "path": "mediawiki/Fiby.txt"
+      }
+    },
+    {
+      "id": "fiby-problem-54",
+      "kind": "problem",
+      "number": "4",
+      "name": "-",
+      "grade": "5A",
+      "length": "",
+      "type": "Mantling",
+      "firstAscent": "C Dinges / L Oliv",
+      "description": "Starta med stort grepp, mantla upp åt höger på svaet.",
+      "source": {
+        "id": "legacy:fiby",
+        "path": "mediawiki/Fiby.txt"
+      }
+    },
+    {
+      "id": "fiby-problem-55",
+      "kind": "problem",
+      "number": "4",
+      "name": "-",
+      "grade": "4C",
+      "length": "",
+      "type": "Travers H->V",
+      "firstAscent": "C Dinges / L Oliv",
+      "description": "Starta med stort grepp, traversera vänster och avsluta med problem 1.",
+      "source": {
+        "id": "legacy:fiby",
+        "path": "mediawiki/Fiby.txt"
+      }
+    },
+    {
+      "id": "fiby-problem-56",
+      "kind": "problem",
+      "number": "5",
+      "name": "Otto är en noshörning",
+      "grade": "7A",
+      "length": "",
+      "type": "Krimp,Överhäng",
+      "firstAscent": "J Smedsaas",
+      "description": "Överhänget på noshörningen, sittstart och klättra upp över sva.",
+      "source": {
+        "id": "legacy:fiby",
+        "path": "mediawiki/Fiby.txt"
+      }
+    },
+    {
+      "id": "fiby-problem-57",
+      "kind": "problem",
+      "number": "5",
+      "name": "Sweet & Sour",
+      "grade": "7B",
+      "length": "",
+      "type": "Överhäng",
+      "firstAscent": "SE",
+      "description": "Sittstart som Otto... dra höger till aréten och avsluta med Söt liten bagatell.",
+      "source": {
+        "id": "legacy:fiby",
+        "path": "mediawiki/Fiby.txt"
+      }
+    },
+    {
+      "id": "fiby-problem-58",
+      "kind": "problem",
+      "number": "6",
+      "name": "Söt Liten Bagatell (låg start)",
+      "grade": "7A",
+      "length": "",
+      "type": "Slopers,Överhäng",
+      "firstAscent": "J Smedsaas",
+      "description": "Noshörningen, starta med händerna på stora greppet på arêten, klättra upp höger.",
+      "source": {
+        "id": "legacy:fiby",
+        "path": "mediawiki/Fiby.txt"
+      }
+    },
+    {
+      "id": "fiby-problem-59",
+      "kind": "problem",
+      "number": "7",
+      "name": "Söt Liten Bagatell Hoppstart",
+      "grade": "6C",
+      "length": "",
+      "type": "Slopers",
+      "firstAscent": "J Smedsaas",
+      "description": "Vänster hand på sidtag, hoppa till sloper.",
+      "source": {
+        "id": "legacy:fiby",
+        "path": "mediawiki/Fiby.txt"
+      }
+    },
+    {
+      "id": "fiby-problem-60",
+      "kind": "problem",
+      "number": "8",
+      "name": "Nerveuse",
+      "grade": "7B",
+      "length": "",
+      "type": "Krimp,Överhäng,Highball",
+      "firstAscent": "J Smedsaas",
+      "description": "Till höger på ägget, campusstart.",
+      "source": {
+        "id": "legacy:fiby",
+        "path": "mediawiki/Fiby.txt"
+      }
+    },
+    {
+      "id": "fiby-problem-61",
+      "kind": "problem",
+      "number": "9",
+      "name": "-",
+      "grade": "5C",
+      "length": "",
+      "type": "Aréte",
+      "firstAscent": "C Dinges / R Hedman",
+      "description": "Stora grepp upp längs aréten.",
+      "source": {
+        "id": "legacy:fiby",
+        "path": "mediawiki/Fiby.txt"
+      }
+    },
+    {
+      "id": "fiby-problem-62",
+      "kind": "problem",
+      "number": null,
+      "name": "Bagatellen",
+      "grade": "7C+",
+      "length": "",
+      "type": "Överhäng",
+      "firstAscent": "Jon",
+      "description": "Sittstarten till Söt liten Bagatell.",
+      "source": {
+        "id": "legacy:fiby",
+        "path": "mediawiki/Fiby.txt"
+      }
+    }
+  ],
+  "images": [],
+  "access": {
+    "legacyText": null,
+    "federationSlug": null
+  },
+  "qualityIssues": [],
+  "provenance": {
+    "primarySourceId": "legacy:fiby",
+    "sources": [
+      {
+        "id": "legacy:fiby",
+        "title": "Sverigeföraren 2014: Fiby",
+        "path": "mediawiki/Fiby.txt",
+        "license": "GNU Free Documentation License",
+        "snapshotDate": "2014-01-01"
+      }
+    ]
+  }
+}

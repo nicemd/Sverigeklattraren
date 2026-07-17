@@ -1,0 +1,85 @@
+{
+  "schemaVersion": 1,
+  "id": "berghamn",
+  "slug": "berghamn",
+  "name": "Berghamn",
+  "description": "På ön Södra Berghamn utanför Stavsnäs finns denna klippa som är upp mot 20 meter som högst. Lätt och medelsvår klättring. Ett bra ställe för nybörjare då det finns bra träd sätta upp topprep i. Vänstra delen av klippan har bra kvalitet. Några leder har klättrats på topprep (Grad ung 6a - 6c+)",
+  "coordinates": {
+    "latitude": 59.287454975162454,
+    "longitude": 18.72516632080078
+  },
+  "categories": [
+    "DWS",
+    "Nacka-Värmdö",
+    "Saknar skiss",
+    "Stockholm"
+  ],
+  "sections": [
+    {
+      "id": "allmant",
+      "title": "Allmänt",
+      "body": "På ön Södra Berghamn utanför Stavsnäs finns denna klippa som är upp mot 20 meter som högst. Lätt och medelsvår klättring. Ett bra ställe för nybörjare då det finns bra träd sätta upp topprep i. Vänstra delen av klippan har bra kvalitet. Några leder har klättrats på topprep (Grad ung 6a - 6c+)"
+    },
+    {
+      "id": "vagbeskrivning",
+      "title": "Vägbeskrivning",
+      "body": "Om det är en lugn dag går det utmärkt att lägga båten precis under klippan. På sommaren då det är mycket vågor eller då det blåser är viken som vätter mot norra Berghamn ett bättre ställe."
+    },
+    {
+      "id": "leder",
+      "title": "Leder",
+      "body": "]] ]] ]] Kategori:DWS Kategori:Nacka-Värmdö Kategori:Stockholm Kategori:Saknar skiss"
+    }
+  ],
+  "routes": [
+    {
+      "id": "berghamn-led-1",
+      "kind": "route",
+      "number": "1",
+      "name": "PungGuns Hörn",
+      "grade": "6-",
+      "length": "10",
+      "type": "trad",
+      "firstAscent": "David Kleman, Love Calissendorff, -07",
+      "description": "Det tydliga diedret på vänstra delen av klippan. Krux på mitten. Säkras med ett par små friends.",
+      "source": {
+        "id": "legacy:berghamn",
+        "path": "mediawiki/Berghamn.txt"
+      }
+    }
+  ],
+  "images": [
+    {
+      "filename": "Berghamn001.jpg",
+      "caption": "Jonas Ahlman",
+      "missing": false
+    },
+    {
+      "filename": "Berghamn003.jpg",
+      "caption": "Jonas Ahlman",
+      "missing": false
+    },
+    {
+      "filename": "Berghamn002.jpg",
+      "caption": "Jonas Ahlman",
+      "missing": false
+    }
+  ],
+  "access": {
+    "legacyText": null,
+    "federationSlug": null
+  },
+  "qualityIssues": [],
+  "provenance": {
+    "primarySourceId": "legacy:berghamn",
+    "sources": [
+      {
+        "id": "legacy:berghamn",
+        "title": "Sverigeföraren 2014: Berghamn",
+        "path": "mediawiki/Berghamn.txt",
+        "license": "GNU Free Documentation License",
+        "snapshotDate": "2014-01-01"
+      }
+    ]
+  }
+}

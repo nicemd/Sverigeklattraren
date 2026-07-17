@@ -1,0 +1,573 @@
+{
+  "schemaVersion": 1,
+  "id": "hultberget-nord",
+  "slug": "hultberget-nord",
+  "name": "Hultberget (nord)",
+  "description": "Fin, vertikal sportklätterklippa utanför Eskilstuna. Många leder kring 6b-6c.",
+  "coordinates": null,
+  "categories": [
+    "Södermanland"
+  ],
+  "sections": [
+    {
+      "id": "allmant",
+      "title": "Allmänt",
+      "body": "Fin, vertikal sportklätterklippa utanför Eskilstuna. Många leder kring 6b-6c."
+    },
+    {
+      "id": "vagbeskrivning",
+      "title": "Vägbeskrivning",
+      "body": "Du aker fran Eskilstuna mot Katrineholm pa vag 230. I en rondell efter skogstorp svanger du vanster mot Hållsta pa vag 214. Kor forbi Hållsta och efter ca 6 km efter rondellen kor du in till vanster. Skyltat \"Tandersten\". Kor grusvagen over ett falt till en t-korsning. Svang hoger och parkera vid ett elskap. Du ser vaggen till vanster inne i hagen."
+    },
+    {
+      "id": "extern-forare",
+      "title": "Extern förare",
+      "body": "Förare finns på Eskilstuna Klätterklubbs hemsida www.klattring.net. Kategori:Södermanland"
+    }
+  ],
+  "routes": [
+    {
+      "id": "hultberget-nord-led-1",
+      "kind": "route",
+      "number": "1",
+      "name": "Älgen",
+      "grade": "3c",
+      "length": "5",
+      "type": "trad",
+      "firstAscent": "Harri Skyttborn-88?",
+      "description": "",
+      "source": {
+        "id": "legacy:hultberget-nord",
+        "path": "mediawiki/Hultberget (nord).txt"
+      }
+    },
+    {
+      "id": "hultberget-nord-led-2",
+      "kind": "route",
+      "number": "2",
+      "name": "Fiat Lux",
+      "grade": "4a",
+      "length": "6",
+      "type": "trad",
+      "firstAscent": "Tom Valis-85",
+      "description": "",
+      "source": {
+        "id": "legacy:hultberget-nord",
+        "path": "mediawiki/Hultberget (nord).txt"
+      }
+    },
+    {
+      "id": "hultberget-nord-led-3",
+      "kind": "route",
+      "number": "3",
+      "name": "Tom & Jerry",
+      "grade": "5b",
+      "length": "",
+      "type": "mix",
+      "firstAscent": "Tom Valis-85",
+      "description": "",
+      "source": {
+        "id": "legacy:hultberget-nord",
+        "path": "mediawiki/Hultberget (nord).txt"
+      }
+    },
+    {
+      "id": "hultberget-nord-led-4",
+      "kind": "route",
+      "number": "4",
+      "name": "Den namnlösa",
+      "grade": "7a+",
+      "length": "10",
+      "type": "sport",
+      "firstAscent": "-",
+      "description": "",
+      "source": {
+        "id": "legacy:hultberget-nord",
+        "path": "mediawiki/Hultberget (nord).txt"
+      }
+    },
+    {
+      "id": "hultberget-nord-led-5",
+      "kind": "route",
+      "number": "5",
+      "name": "Klubban",
+      "grade": "6c+",
+      "length": "12",
+      "type": "sport",
+      "firstAscent": "Johnny Pettersson, Kent Mihlberg-89",
+      "description": "Varning för potentiellt markfall vid andra bulten",
+      "source": {
+        "id": "legacy:hultberget-nord",
+        "path": "mediawiki/Hultberget (nord).txt"
+      }
+    },
+    {
+      "id": "hultberget-nord-led-6",
+      "kind": "route",
+      "number": "6",
+      "name": "Takråttan",
+      "grade": "6b+",
+      "length": "13",
+      "type": "sport",
+      "firstAscent": "Tom Valis-85",
+      "description": "",
+      "source": {
+        "id": "legacy:hultberget-nord",
+        "path": "mediawiki/Hultberget (nord).txt"
+      }
+    },
+    {
+      "id": "hultberget-nord-led-7",
+      "kind": "route",
+      "number": "7",
+      "name": "Takbobban",
+      "grade": "6c",
+      "length": "15",
+      "type": "sport",
+      "firstAscent": "Peter Viktorsson-",
+      "description": "",
+      "source": {
+        "id": "legacy:hultberget-nord",
+        "path": "mediawiki/Hultberget (nord).txt"
+      }
+    },
+    {
+      "id": "hultberget-nord-led-8",
+      "kind": "route",
+      "number": "8",
+      "name": "Genvägen",
+      "grade": "6c+",
+      "length": "14",
+      "type": "sport",
+      "firstAscent": "Tomas Lundgren-95",
+      "description": "",
+      "source": {
+        "id": "legacy:hultberget-nord",
+        "path": "mediawiki/Hultberget (nord).txt"
+      }
+    },
+    {
+      "id": "hultberget-nord-led-9",
+      "kind": "route",
+      "number": "9",
+      "name": "Omvägen",
+      "grade": "6c",
+      "length": "15",
+      "type": "sport",
+      "firstAscent": "Tomas Lundgren-98",
+      "description": "",
+      "source": {
+        "id": "legacy:hultberget-nord",
+        "path": "mediawiki/Hultberget (nord).txt"
+      }
+    },
+    {
+      "id": "hultberget-nord-led-10",
+      "kind": "route",
+      "number": "10",
+      "name": "Stulet Stål",
+      "grade": "6c",
+      "length": "15",
+      "type": "sport",
+      "firstAscent": "Tomas Lundgren-98",
+      "description": "",
+      "source": {
+        "id": "legacy:hultberget-nord",
+        "path": "mediawiki/Hultberget (nord).txt"
+      }
+    },
+    {
+      "id": "hultberget-nord-led-11",
+      "kind": "route",
+      "number": "11",
+      "name": "Tango",
+      "grade": "6b+",
+      "length": "15",
+      "type": "sport",
+      "firstAscent": "Kent Mihlberg, Johnny Pettersson-89",
+      "description": "",
+      "source": {
+        "id": "legacy:hultberget-nord",
+        "path": "mediawiki/Hultberget (nord).txt"
+      }
+    },
+    {
+      "id": "hultberget-nord-led-12",
+      "kind": "route",
+      "number": "12",
+      "name": "Milkshake",
+      "grade": "6c",
+      "length": "15",
+      "type": "sport",
+      "firstAscent": "Johan Lundgren-95",
+      "description": "",
+      "source": {
+        "id": "legacy:hultberget-nord",
+        "path": "mediawiki/Hultberget (nord).txt"
+      }
+    },
+    {
+      "id": "hultberget-nord-led-13",
+      "kind": "route",
+      "number": "13",
+      "name": "McFlurry",
+      "grade": "6c+",
+      "length": "16",
+      "type": "sport",
+      "firstAscent": "Johan Lundgren-02",
+      "description": "",
+      "source": {
+        "id": "legacy:hultberget-nord",
+        "path": "mediawiki/Hultberget (nord).txt"
+      }
+    },
+    {
+      "id": "hultberget-nord-led-14",
+      "kind": "route",
+      "number": "14",
+      "name": "Wicked shaker",
+      "grade": "7b",
+      "length": "15",
+      "type": "sport",
+      "firstAscent": "Johan Lundgren-",
+      "description": "",
+      "source": {
+        "id": "legacy:hultberget-nord",
+        "path": "mediawiki/Hultberget (nord).txt"
+      }
+    },
+    {
+      "id": "hultberget-nord-led-15",
+      "kind": "route",
+      "number": "15",
+      "name": "Wicked viper",
+      "grade": "7b",
+      "length": "15",
+      "type": "sport",
+      "firstAscent": "Peter Viktorsson-",
+      "description": "",
+      "source": {
+        "id": "legacy:hultberget-nord",
+        "path": "mediawiki/Hultberget (nord).txt"
+      }
+    },
+    {
+      "id": "hultberget-nord-led-16",
+      "kind": "route",
+      "number": "16",
+      "name": "Wicked diaper",
+      "grade": "7b",
+      "length": "15",
+      "type": "sport",
+      "firstAscent": "Tobbe Lindh-",
+      "description": "",
+      "source": {
+        "id": "legacy:hultberget-nord",
+        "path": "mediawiki/Hultberget (nord).txt"
+      }
+    },
+    {
+      "id": "hultberget-nord-led-17",
+      "kind": "route",
+      "number": "17",
+      "name": "Hylands hörna",
+      "grade": "6c+",
+      "length": "16",
+      "type": "",
+      "firstAscent": "Stefan Lindblom-03",
+      "description": "",
+      "source": {
+        "id": "legacy:hultberget-nord",
+        "path": "mediawiki/Hultberget (nord).txt"
+      }
+    },
+    {
+      "id": "hultberget-nord-led-18",
+      "kind": "route",
+      "number": "18",
+      "name": "Topprepan",
+      "grade": "7b",
+      "length": "",
+      "type": "",
+      "firstAscent": "Thoms Lundgren-02",
+      "description": "Topprepsled",
+      "source": {
+        "id": "legacy:hultberget-nord",
+        "path": "mediawiki/Hultberget (nord).txt"
+      }
+    },
+    {
+      "id": "hultberget-nord-led-19",
+      "kind": "route",
+      "number": "19",
+      "name": "2.35:an direkt",
+      "grade": "6b",
+      "length": "17",
+      "type": "",
+      "firstAscent": "Joel Hedman-94",
+      "description": "",
+      "source": {
+        "id": "legacy:hultberget-nord",
+        "path": "mediawiki/Hultberget (nord).txt"
+      }
+    },
+    {
+      "id": "hultberget-nord-led-20",
+      "kind": "route",
+      "number": "20",
+      "name": "2.35:an",
+      "grade": "6a+",
+      "length": "17",
+      "type": "",
+      "firstAscent": "Jonas Frid-",
+      "description": "",
+      "source": {
+        "id": "legacy:hultberget-nord",
+        "path": "mediawiki/Hultberget (nord).txt"
+      }
+    },
+    {
+      "id": "hultberget-nord-led-21",
+      "kind": "route",
+      "number": "21",
+      "name": "Mr E",
+      "grade": "6a+",
+      "length": "18",
+      "type": "mix",
+      "firstAscent": "Kent Mihlberg, Johnny Pettersson-88?",
+      "description": "",
+      "source": {
+        "id": "legacy:hultberget-nord",
+        "path": "mediawiki/Hultberget (nord).txt"
+      }
+    },
+    {
+      "id": "hultberget-nord-led-22",
+      "kind": "route",
+      "number": "22",
+      "name": "Rock and roll",
+      "grade": "6b",
+      "length": "17",
+      "type": "mix",
+      "firstAscent": "Joel Hedman-94",
+      "description": "",
+      "source": {
+        "id": "legacy:hultberget-nord",
+        "path": "mediawiki/Hultberget (nord).txt"
+      }
+    },
+    {
+      "id": "hultberget-nord-led-23",
+      "kind": "route",
+      "number": "23",
+      "name": "Batman",
+      "grade": "6c",
+      "length": "18",
+      "type": "mix",
+      "firstAscent": "Johnny Pettersson, Kent Mihlberg-89",
+      "description": "",
+      "source": {
+        "id": "legacy:hultberget-nord",
+        "path": "mediawiki/Hultberget (nord).txt"
+      }
+    },
+    {
+      "id": "hultberget-nord-led-24",
+      "kind": "route",
+      "number": "24",
+      "name": "Gillette",
+      "grade": "7a+",
+      "length": "17",
+      "type": "mix",
+      "firstAscent": "Fredrik Jonsson-",
+      "description": "",
+      "source": {
+        "id": "legacy:hultberget-nord",
+        "path": "mediawiki/Hultberget (nord).txt"
+      }
+    },
+    {
+      "id": "hultberget-nord-led-25",
+      "kind": "route",
+      "number": "25",
+      "name": "Blodiga väggen",
+      "grade": "6b+",
+      "length": "17",
+      "type": "mix",
+      "firstAscent": "Tom Valis-85",
+      "description": "",
+      "source": {
+        "id": "legacy:hultberget-nord",
+        "path": "mediawiki/Hultberget (nord).txt"
+      }
+    },
+    {
+      "id": "hultberget-nord-led-26",
+      "kind": "route",
+      "number": "26",
+      "name": "Petite list",
+      "grade": "7a",
+      "length": "17",
+      "type": "sport",
+      "firstAscent": "Magnus Ericsson-02",
+      "description": "",
+      "source": {
+        "id": "legacy:hultberget-nord",
+        "path": "mediawiki/Hultberget (nord).txt"
+      }
+    },
+    {
+      "id": "hultberget-nord-led-27",
+      "kind": "route",
+      "number": "27",
+      "name": "En kvinnlig list",
+      "grade": "6c",
+      "length": "18",
+      "type": "sport",
+      "firstAscent": "Joel Hedman-94",
+      "description": "",
+      "source": {
+        "id": "legacy:hultberget-nord",
+        "path": "mediawiki/Hultberget (nord).txt"
+      }
+    },
+    {
+      "id": "hultberget-nord-led-28",
+      "kind": "route",
+      "number": "28",
+      "name": "Help",
+      "grade": "6a+",
+      "length": "20",
+      "type": "mix",
+      "firstAscent": "Kent Mihlberg, Johnny Pettersson-88?",
+      "description": "",
+      "source": {
+        "id": "legacy:hultberget-nord",
+        "path": "mediawiki/Hultberget (nord).txt"
+      }
+    },
+    {
+      "id": "hultberget-nord-led-29",
+      "kind": "route",
+      "number": "29",
+      "name": "Platta väggen",
+      "grade": "6c+",
+      "length": "18",
+      "type": "sport",
+      "firstAscent": "Jonas Frid-",
+      "description": "",
+      "source": {
+        "id": "legacy:hultberget-nord",
+        "path": "mediawiki/Hultberget (nord).txt"
+      }
+    },
+    {
+      "id": "hultberget-nord-led-30",
+      "kind": "route",
+      "number": "30",
+      "name": "Spindeln",
+      "grade": "7a+",
+      "length": "18",
+      "type": "",
+      "firstAscent": "Johnne Pettersson, Kent Mihlberg-90?",
+      "description": "",
+      "source": {
+        "id": "legacy:hultberget-nord",
+        "path": "mediawiki/Hultberget (nord).txt"
+      }
+    },
+    {
+      "id": "hultberget-nord-led-31",
+      "kind": "route",
+      "number": "31",
+      "name": "Glasklar",
+      "grade": "7b+",
+      "length": "9",
+      "type": "",
+      "firstAscent": "Erik Massih-",
+      "description": "",
+      "source": {
+        "id": "legacy:hultberget-nord",
+        "path": "mediawiki/Hultberget (nord).txt"
+      }
+    },
+    {
+      "id": "hultberget-nord-led-32",
+      "kind": "route",
+      "number": "32",
+      "name": "Kristallklart",
+      "grade": "7a+",
+      "length": "9",
+      "type": "",
+      "firstAscent": "Peter Viktorsson-",
+      "description": "",
+      "source": {
+        "id": "legacy:hultberget-nord",
+        "path": "mediawiki/Hultberget (nord).txt"
+      }
+    },
+    {
+      "id": "hultberget-nord-led-33",
+      "kind": "route",
+      "number": "33",
+      "name": "Ouvertyr",
+      "grade": "6a+",
+      "length": "20",
+      "type": "mix",
+      "firstAscent": "Tom Valis-85",
+      "description": "",
+      "source": {
+        "id": "legacy:hultberget-nord",
+        "path": "mediawiki/Hultberget (nord).txt"
+      }
+    },
+    {
+      "id": "hultberget-nord-led-34",
+      "kind": "route",
+      "number": "34",
+      "name": "Objuden gäst",
+      "grade": "6c+",
+      "length": "16",
+      "type": "",
+      "firstAscent": "Thomas Lundgren-",
+      "description": "Plus en pitong",
+      "source": {
+        "id": "legacy:hultberget-nord",
+        "path": "mediawiki/Hultberget (nord).txt"
+      }
+    },
+    {
+      "id": "hultberget-nord-led-35",
+      "kind": "route",
+      "number": "35",
+      "name": "48:an",
+      "grade": "6c",
+      "length": "16",
+      "type": "",
+      "firstAscent": "Johnny Pettersson,Kent Mihlberg-89?",
+      "description": "",
+      "source": {
+        "id": "legacy:hultberget-nord",
+        "path": "mediawiki/Hultberget (nord).txt"
+      }
+    }
+  ],
+  "images": [],
+  "access": {
+    "legacyText": null,
+    "federationSlug": null
+  },
+  "qualityIssues": [],
+  "provenance": {
+    "primarySourceId": "legacy:hultberget-nord",
+    "sources": [
+      {
+        "id": "legacy:hultberget-nord",
+        "title": "Sverigeföraren 2014: Hultberget (nord)",
+        "path": "mediawiki/Hultberget (nord).txt",
+        "license": "GNU Free Documentation License",
+        "snapshotDate": "2014-01-01"
+      }
+    ]
+  }
+}

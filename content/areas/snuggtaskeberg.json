@@ -1,0 +1,1362 @@
+{
+  "schemaVersion": 1,
+  "id": "snuggtaskeberg",
+  "slug": "snuggtaskeberg",
+  "name": "Snuggtaskeberg",
+  "description": "Trevligt litet boulderområde som ligger i Törnskogen i Sollentuna kommun. Området är uppdelat på en handfull väggar och i dagsläget är närmare 80 problem gjorda. Samtliga problem i Snuggtaskeberg toppas ut. En hel del high-balls finns så det rekommenderas att ta med kompetent spottare om man vill försöka på samtliga problem.",
+  "coordinates": {
+    "latitude": 59.45697,
+    "longitude": 17.958318
+  },
+  "categories": [
+    "Norra Stockholm"
+  ],
+  "sections": [
+    {
+      "id": "allmant",
+      "title": "Allmänt",
+      "body": "Trevligt litet boulderområde som ligger i Törnskogen i Sollentuna kommun. Området är uppdelat på en handfull väggar och i dagsläget är närmare 80 problem gjorda. Samtliga problem i Snuggtaskeberg toppas ut. En hel del high-balls finns så det rekommenderas att ta med kompetent spottare om man vill försöka på samtliga problem."
+    },
+    {
+      "id": "historik",
+      "title": "Historik",
+      "body": "Snuggtaskebergs klätterhistoria är liksom många andra mindre områden bortom de stora klätterstråken höljt i dunkel. Någon form av aktivitet har bedrivits, det vet man, men inga dokument har återfunnits där problem beskrivits. Under 2003-2004 återupptäcktes området av en ny generation bouldrare som borstade fram vägg efter vägg och numera är det mesta självklara gjort, det som återstår är de hårdaste linjerna som i vissa fall är smått utopiska."
+    },
+    {
+      "id": "bil",
+      "title": "Bil",
+      "body": "Från Danderydsvägen svänger man in på Frestavägen. Efter ca 800 meter tar man vänster in på Båtmansvägen och sedan höger på Gammelvägen. Följ Gammelvägen tills dess slut. Där finns parkering invid Turebergs klubbstuga."
+    },
+    {
+      "id": "kommunal-transport",
+      "title": "Kommunal transport",
+      "body": "Tag buss 527 från Sollentuna station mot Vaxmora. Kliv av vid Båtmansvägen. Gå ca 700 meter tills du kommer fram till parkeringsplatsen vid klubbstugan."
+    },
+    {
+      "id": "hitta-fran-parkeringen",
+      "title": "Hitta från parkeringen",
+      "body": "Följ stigen från parkeringen tills huvudväggen skymtar på vänster sida. Orientera er sedan med hjälp av översiktskartan för att nå de andra väggarna."
+    },
+    {
+      "id": "huvudvaggen",
+      "title": "Huvudväggen",
+      "body": "Den största väggen i området och den vägg som har flest problem. Väggen är uppdelad i flera nivåer. Väggen har varierande kvalitet. Vissa delar är lite spröd, andra mycket fastare. Gröna Lund är ett problem som man inte bör missa på denna vägg."
+    },
+    {
+      "id": "ddt-vaggen",
+      "title": "DDT-väggen",
+      "body": "Mycket fin vägg med lite svårare problem. Här återfinns godbitar som Paranoid mongoloid, Megaplume och Marmaris."
+    },
+    {
+      "id": "svavaggen",
+      "title": "Svaväggen",
+      "body": "Vägg strax bortom DDT-väggen. Har både vertikala problem och sva-problem."
+    },
+    {
+      "id": "solvaggen",
+      "title": "Solväggen",
+      "body": "Trevlig vägg som ligger uppe på platån ovanför Huvudväggen och DDT-väggen. Två fina problem gör klippan väl värd ett besök."
+    },
+    {
+      "id": "hoga-vaggarna",
+      "title": "Höga väggarna",
+      "body": "Samlingsnamn på de klippor som ligger längts bort av de vi hittat. En riktigt hög highball finns här, men också många lägre problem."
+    },
+    {
+      "id": "revolvervaggen",
+      "title": "Revolverväggen",
+      "body": "Liten fin vägg som ligger bortanför Höga Väggarna. Fem problem är gjorda och några till går nog att få ut av denna granitvägg."
+    },
+    {
+      "id": "koreavaggen",
+      "title": "Koreaväggen",
+      "body": "Längre bort mot stora vägen finns ytterligare en liten vägg med par problem gjorda. Senaste tillskottet, ej helt rensad ännu. Kategori:Norra Stockholm"
+    }
+  ],
+  "routes": [
+    {
+      "id": "snuggtaskeberg-led-1",
+      "kind": "route",
+      "number": "1",
+      "name": "Nyfiken orienterare",
+      "grade": "3+",
+      "length": "",
+      "type": "",
+      "firstAscent": "Mattis Wide, 2005",
+      "description": "Ta kanten, upp och mantla.",
+      "source": {
+        "id": "legacy:snuggtaskeberg",
+        "path": "mediawiki/Snuggtaskeberg.txt"
+      }
+    },
+    {
+      "id": "snuggtaskeberg-led-2",
+      "kind": "route",
+      "number": "2",
+      "name": "Söderkisen",
+      "grade": "4+",
+      "length": "",
+      "type": "",
+      "firstAscent": "Magnus Lennartsson, 2005",
+      "description": "Små grepp, vidare till kanten.",
+      "source": {
+        "id": "legacy:snuggtaskeberg",
+        "path": "mediawiki/Snuggtaskeberg.txt"
+      }
+    },
+    {
+      "id": "snuggtaskeberg-led-3",
+      "kind": "route",
+      "number": "3",
+      "name": "Mezmerize",
+      "grade": "5-",
+      "length": "",
+      "type": "",
+      "firstAscent": "Mattis Wide, 2005",
+      "description": "Lätt arête med en något känslig avslutning.",
+      "source": {
+        "id": "legacy:snuggtaskeberg",
+        "path": "mediawiki/Snuggtaskeberg.txt"
+      }
+    },
+    {
+      "id": "snuggtaskeberg-led-4",
+      "kind": "route",
+      "number": "4",
+      "name": "Dubbelmantlingen",
+      "grade": "5-",
+      "length": "",
+      "type": "",
+      "firstAscent": "Magnus Lennartsson, 2005",
+      "description": "Mantla upp på starthyllan, nå ett grepp för vh. Upp till kanten och mantla igen.",
+      "source": {
+        "id": "legacy:snuggtaskeberg",
+        "path": "mediawiki/Snuggtaskeberg.txt"
+      }
+    },
+    {
+      "id": "snuggtaskeberg-led-5",
+      "kind": "route",
+      "number": "5",
+      "name": "Mattis dubbelmantling",
+      "grade": "4",
+      "length": "",
+      "type": "",
+      "firstAscent": "Mattis Wide, 2006",
+      "description": "Lätt dubbelmantling th om Dubbelmantlingen.",
+      "source": {
+        "id": "legacy:snuggtaskeberg",
+        "path": "mediawiki/Snuggtaskeberg.txt"
+      }
+    },
+    {
+      "id": "snuggtaskeberg-led-6",
+      "kind": "route",
+      "number": "6",
+      "name": "Ny",
+      "grade": "6B",
+      "length": "",
+      "type": "",
+      "firstAscent": "Kenneth Hedman, 2006",
+      "description": "Sittstart. Teknik och juggar. Hög.",
+      "source": {
+        "id": "legacy:snuggtaskeberg",
+        "path": "mediawiki/Snuggtaskeberg.txt"
+      }
+    },
+    {
+      "id": "snuggtaskeberg-led-7",
+      "kind": "route",
+      "number": "7",
+      "name": "Petter unleashed",
+      "grade": "5",
+      "length": "",
+      "type": "",
+      "firstAscent": "Mattis Wide, 2006",
+      "description": "Sittstart med ev layback. Gå mot kanten.",
+      "source": {
+        "id": "legacy:snuggtaskeberg",
+        "path": "mediawiki/Snuggtaskeberg.txt"
+      }
+    },
+    {
+      "id": "snuggtaskeberg-led-8",
+      "kind": "route",
+      "number": "8",
+      "name": "Teach the children to warship satan",
+      "grade": "5",
+      "length": "",
+      "type": "",
+      "firstAscent": "Petter Norberg, 2004",
+      "description": "Klippans jungfrutur. Tunna grepp tar en till toppen.",
+      "source": {
+        "id": "legacy:snuggtaskeberg",
+        "path": "mediawiki/Snuggtaskeberg.txt"
+      }
+    },
+    {
+      "id": "snuggtaskeberg-led-9",
+      "kind": "route",
+      "number": "9",
+      "name": "Cinemasten",
+      "grade": "5",
+      "length": "",
+      "type": "",
+      "firstAscent": "Magnus Lennartsson, 2005",
+      "description": "Den självklara linjen på röda partiet.",
+      "source": {
+        "id": "legacy:snuggtaskeberg",
+        "path": "mediawiki/Snuggtaskeberg.txt"
+      }
+    },
+    {
+      "id": "snuggtaskeberg-led-10",
+      "kind": "route",
+      "number": "10",
+      "name": "Tidsbrist",
+      "grade": "4-",
+      "length": "",
+      "type": "",
+      "firstAscent": "Mattis Wide, 2005",
+      "description": "Skön uppvärmningsmantling på bra grepp.",
+      "source": {
+        "id": "legacy:snuggtaskeberg",
+        "path": "mediawiki/Snuggtaskeberg.txt"
+      }
+    },
+    {
+      "id": "snuggtaskeberg-led-11",
+      "kind": "route",
+      "number": "11",
+      "name": "Neuros",
+      "grade": "5+",
+      "length": "",
+      "type": "",
+      "firstAscent": "Mattis Wide, 2004",
+      "description": "Problemet kräver en ganska lång sträckning. Mental avslutning, mången god bergsman har här valt att retirera.",
+      "source": {
+        "id": "legacy:snuggtaskeberg",
+        "path": "mediawiki/Snuggtaskeberg.txt"
+      }
+    },
+    {
+      "id": "snuggtaskeberg-led-12",
+      "kind": "route",
+      "number": "12",
+      "name": "Lättare än Fretless",
+      "grade": "5",
+      "length": "",
+      "type": "",
+      "firstAscent": "Rune Andersson, 2005",
+      "description": "Tunna steg, mantla. Fin!",
+      "source": {
+        "id": "legacy:snuggtaskeberg",
+        "path": "mediawiki/Snuggtaskeberg.txt"
+      }
+    },
+    {
+      "id": "snuggtaskeberg-led-13",
+      "kind": "route",
+      "number": "13",
+      "name": "Anderssons stulna linje",
+      "grade": "5+",
+      "length": "",
+      "type": "",
+      "firstAscent": "Rune Andersson, 2005",
+      "description": "Highball. Kul start, bra grepp, krimp på toppen. Känslig.",
+      "source": {
+        "id": "legacy:snuggtaskeberg",
+        "path": "mediawiki/Snuggtaskeberg.txt"
+      }
+    },
+    {
+      "id": "snuggtaskeberg-led-14",
+      "kind": "route",
+      "number": "14",
+      "name": "Sprickan",
+      "grade": "4-",
+      "length": "",
+      "type": "",
+      "firstAscent": "Mattis Wide, 2005",
+      "description": "Sprickan.",
+      "source": {
+        "id": "legacy:snuggtaskeberg",
+        "path": "mediawiki/Snuggtaskeberg.txt"
+      }
+    },
+    {
+      "id": "snuggtaskeberg-led-15",
+      "kind": "route",
+      "number": "15",
+      "name": "Psykos",
+      "grade": "5+",
+      "length": "",
+      "type": "",
+      "firstAscent": "Petter Norberg, 2005",
+      "description": "Start i kristallist för hh. Vidare upp via hyfsade grepp.",
+      "source": {
+        "id": "legacy:snuggtaskeberg",
+        "path": "mediawiki/Snuggtaskeberg.txt"
+      }
+    },
+    {
+      "id": "snuggtaskeberg-led-16",
+      "kind": "route",
+      "number": "16",
+      "name": "Borststöld",
+      "grade": "5",
+      "length": "",
+      "type": "",
+      "firstAscent": "Magnus Lennartsson, 2005",
+      "description": "Start i snedsprickan, upp till kanten, mantla.",
+      "source": {
+        "id": "legacy:snuggtaskeberg",
+        "path": "mediawiki/Snuggtaskeberg.txt"
+      }
+    },
+    {
+      "id": "snuggtaskeberg-led-17",
+      "kind": "route",
+      "number": "17",
+      "name": "Morfomannen",
+      "grade": "3+",
+      "length": "",
+      "type": "",
+      "firstAscent": "Mattis Wide, 2005",
+      "description": "Lätt problem upp till trädet.",
+      "source": {
+        "id": "legacy:snuggtaskeberg",
+        "path": "mediawiki/Snuggtaskeberg.txt"
+      }
+    },
+    {
+      "id": "snuggtaskeberg-led-18",
+      "kind": "route",
+      "number": "18",
+      "name": "Lättare än svår",
+      "grade": "5-",
+      "length": "",
+      "type": "",
+      "firstAscent": "Magnus Lennartsson, 2005",
+      "description": "V sidtag, h krimp, upp till toppen.",
+      "source": {
+        "id": "legacy:snuggtaskeberg",
+        "path": "mediawiki/Snuggtaskeberg.txt"
+      }
+    },
+    {
+      "id": "snuggtaskeberg-led-19",
+      "kind": "route",
+      "number": "19",
+      "name": "Lagens långa arm",
+      "grade": "5",
+      "length": "",
+      "type": "",
+      "firstAscent": "Mattis Wide, 2005",
+      "description": "Sittstart, sträck till kanten, mantla.",
+      "source": {
+        "id": "legacy:snuggtaskeberg",
+        "path": "mediawiki/Snuggtaskeberg.txt"
+      }
+    },
+    {
+      "id": "snuggtaskeberg-led-20",
+      "kind": "route",
+      "number": "20",
+      "name": "Mantlingspecialistens lilla godbit",
+      "grade": "6A",
+      "length": "",
+      "type": "",
+      "firstAscent": "Magnus Lennartsson, 2005",
+      "description": "Start i slopers på kanten, upp via känslig mantling.",
+      "source": {
+        "id": "legacy:snuggtaskeberg",
+        "path": "mediawiki/Snuggtaskeberg.txt"
+      }
+    },
+    {
+      "id": "snuggtaskeberg-led-21",
+      "kind": "route",
+      "number": "21",
+      "name": "Skjut en baptist",
+      "grade": "4-",
+      "length": "",
+      "type": "",
+      "firstAscent": "Petter Norberg, 2006",
+      "description": "Sprickan th om Lättare än svår.",
+      "source": {
+        "id": "legacy:snuggtaskeberg",
+        "path": "mediawiki/Snuggtaskeberg.txt"
+      }
+    },
+    {
+      "id": "snuggtaskeberg-led-22",
+      "kind": "route",
+      "number": "22",
+      "name": "Knäad",
+      "grade": "6A",
+      "length": "",
+      "type": "",
+      "firstAscent": "Rune Andersson, 2005",
+      "description": "Start i krimplist, upp via krimpers och mantla.",
+      "source": {
+        "id": "legacy:snuggtaskeberg",
+        "path": "mediawiki/Snuggtaskeberg.txt"
+      }
+    },
+    {
+      "id": "snuggtaskeberg-led-23",
+      "kind": "route",
+      "number": "23",
+      "name": "Fontankänsla",
+      "grade": "4+",
+      "length": "",
+      "type": "",
+      "firstAscent": "Mattis Wide, 2005",
+      "description": "Mantlingsproblem.",
+      "source": {
+        "id": "legacy:snuggtaskeberg",
+        "path": "mediawiki/Snuggtaskeberg.txt"
+      }
+    },
+    {
+      "id": "snuggtaskeberg-led-24",
+      "kind": "route",
+      "number": "24",
+      "name": "Mattanten har snopp",
+      "grade": "5",
+      "length": "",
+      "type": "",
+      "firstAscent": "Mattis Wide, 2005",
+      "description": "Sprickan. Mental beslutsamhet på slutet kan behövas.",
+      "source": {
+        "id": "legacy:snuggtaskeberg",
+        "path": "mediawiki/Snuggtaskeberg.txt"
+      }
+    },
+    {
+      "id": "snuggtaskeberg-led-25",
+      "kind": "route",
+      "number": "25",
+      "name": "Vila sig i form",
+      "grade": "5+",
+      "length": "",
+      "type": "",
+      "firstAscent": "Petter Norberg, 2005",
+      "description": "Starta i sidtag, upp höger till hyllan och vidare till toppen.",
+      "source": {
+        "id": "legacy:snuggtaskeberg",
+        "path": "mediawiki/Snuggtaskeberg.txt"
+      }
+    },
+    {
+      "id": "snuggtaskeberg-led-26",
+      "kind": "route",
+      "number": "26",
+      "name": "Gröna Lund",
+      "grade": "6B",
+      "length": "",
+      "type": "",
+      "firstAscent": "Rune Andersson, 2005",
+      "description": "Hårdare variant på Vila sig i form. Start på krimper för hh och sidtag/undercling för vh. Lås av, skicka till hyllan och gå sen till toppen.",
+      "source": {
+        "id": "legacy:snuggtaskeberg",
+        "path": "mediawiki/Snuggtaskeberg.txt"
+      }
+    },
+    {
+      "id": "snuggtaskeberg-led-27",
+      "kind": "route",
+      "number": "27",
+      "name": "Fjantkänsla",
+      "grade": "3+",
+      "length": "",
+      "type": "",
+      "firstAscent": "Mattis Wide, 2005",
+      "description": "Mantlingsproblem.",
+      "source": {
+        "id": "legacy:snuggtaskeberg",
+        "path": "mediawiki/Snuggtaskeberg.txt"
+      }
+    },
+    {
+      "id": "snuggtaskeberg-led-28",
+      "kind": "route",
+      "number": "28",
+      "name": "Rektal fissur",
+      "grade": "4+",
+      "length": "",
+      "type": "",
+      "firstAscent": "Mattis Wide, 2005",
+      "description": "Stora sprickan, rejält rensad som tur är då den är tyngre än vad man först tror.",
+      "source": {
+        "id": "legacy:snuggtaskeberg",
+        "path": "mediawiki/Snuggtaskeberg.txt"
+      }
+    },
+    {
+      "id": "snuggtaskeberg-led-29",
+      "kind": "route",
+      "number": "29",
+      "name": "Aeternum Vale",
+      "grade": "5+",
+      "length": "",
+      "type": "",
+      "firstAscent": "Mattis Wide, 2005",
+      "description": "Th om stora sprickan, tunn i mitten, läskig på slutet.",
+      "source": {
+        "id": "legacy:snuggtaskeberg",
+        "path": "mediawiki/Snuggtaskeberg.txt"
+      }
+    },
+    {
+      "id": "snuggtaskeberg-led-30",
+      "kind": "route",
+      "number": "30",
+      "name": "Stel som ett lik",
+      "grade": "6A",
+      "length": "",
+      "type": "",
+      "firstAscent": "Magnus Lennartsson, 2005",
+      "description": "Tekniskt problem som blir lättare på slutet.",
+      "source": {
+        "id": "legacy:snuggtaskeberg",
+        "path": "mediawiki/Snuggtaskeberg.txt"
+      }
+    },
+    {
+      "id": "snuggtaskeberg-led-31",
+      "kind": "route",
+      "number": "31",
+      "name": "Ni borstar - jag sänder",
+      "grade": "4+",
+      "length": "",
+      "type": "",
+      "firstAscent": "Petter Norberg, 2005",
+      "description": "Th om Stel som ett lik. Skön start.",
+      "source": {
+        "id": "legacy:snuggtaskeberg",
+        "path": "mediawiki/Snuggtaskeberg.txt"
+      }
+    },
+    {
+      "id": "snuggtaskeberg-led-32",
+      "kind": "route",
+      "number": "1",
+      "name": "Paranoid mongoloid",
+      "grade": "6A+",
+      "length": "",
+      "type": "",
+      "firstAscent": "Magnus Lennartsson, 2005",
+      "description": "Höger på sidtag, h fot på bra steg. Tag vh till gaston, kom upp, sträck och mantla.",
+      "source": {
+        "id": "legacy:snuggtaskeberg",
+        "path": "mediawiki/Snuggtaskeberg.txt"
+      }
+    },
+    {
+      "id": "snuggtaskeberg-led-33",
+      "kind": "route",
+      "number": "2",
+      "name": "Lustiga huset",
+      "grade": "7A",
+      "length": "",
+      "type": "",
+      "firstAscent": "Rune Andersson, 2005",
+      "description": "Vh på krimper, hh i sprickan. Kliv upp, tag tunt grepp och sträck till toppen, mantla. Hård!",
+      "source": {
+        "id": "legacy:snuggtaskeberg",
+        "path": "mediawiki/Snuggtaskeberg.txt"
+      }
+    },
+    {
+      "id": "snuggtaskeberg-led-34",
+      "kind": "route",
+      "number": "3",
+      "name": "Hale hopp",
+      "grade": "6B",
+      "length": "",
+      "type": "",
+      "firstAscent": "Mattis Wide, 2006",
+      "description": "Start i krimpers, skicka mot kanten och mantla ur.",
+      "source": {
+        "id": "legacy:snuggtaskeberg",
+        "path": "mediawiki/Snuggtaskeberg.txt"
+      }
+    },
+    {
+      "id": "snuggtaskeberg-led-35",
+      "kind": "route",
+      "number": "4",
+      "name": "Slicka uppåt - Sparka neråt",
+      "grade": "5+",
+      "length": "",
+      "type": "",
+      "firstAscent": "Mattis Wide, 2004",
+      "description": "Start i tunna flak, catch på toppen. Betydligt lättare om man är längre än 185 cm lång - och betydligt tråkigare.",
+      "source": {
+        "id": "legacy:snuggtaskeberg",
+        "path": "mediawiki/Snuggtaskeberg.txt"
+      }
+    },
+    {
+      "id": "snuggtaskeberg-led-36",
+      "kind": "route",
+      "number": "5",
+      "name": "Upponer",
+      "grade": "3",
+      "length": "",
+      "type": "",
+      "firstAscent": "Mattis Wide, 2004",
+      "description": "Stora sprickan.",
+      "source": {
+        "id": "legacy:snuggtaskeberg",
+        "path": "mediawiki/Snuggtaskeberg.txt"
+      }
+    },
+    {
+      "id": "snuggtaskeberg-led-37",
+      "kind": "route",
+      "number": "6",
+      "name": "Högerpolitik",
+      "grade": "3+",
+      "length": "",
+      "type": "",
+      "firstAscent": "Magnus Lennartsson, 2005",
+      "description": "Krystad variant på Uppochner. Till toppen utan att använd väggen tv om sprickan.",
+      "source": {
+        "id": "legacy:snuggtaskeberg",
+        "path": "mediawiki/Snuggtaskeberg.txt"
+      }
+    },
+    {
+      "id": "snuggtaskeberg-led-38",
+      "kind": "route",
+      "number": "7",
+      "name": "Banalt halt",
+      "grade": "6A",
+      "length": "",
+      "type": "",
+      "firstAscent": "Mattis Wide, 2005",
+      "description": "Tunn i starten, sträck till bra list, resten är lättare.",
+      "source": {
+        "id": "legacy:snuggtaskeberg",
+        "path": "mediawiki/Snuggtaskeberg.txt"
+      }
+    },
+    {
+      "id": "snuggtaskeberg-led-39",
+      "kind": "route",
+      "number": null,
+      "name": "Nästan som i Bohuslän!",
+      "grade": "5",
+      "length": "",
+      "type": "",
+      "firstAscent": "Joel Nyberg, 2013",
+      "description": "Ss med ett handjam, fötterna i \"grottan\".offwidth sprickan/kaminen upp hela vägen. Kliv rakt upp ur.",
+      "source": {
+        "id": "legacy:snuggtaskeberg",
+        "path": "mediawiki/Snuggtaskeberg.txt"
+      }
+    },
+    {
+      "id": "snuggtaskeberg-led-40",
+      "kind": "route",
+      "number": "8",
+      "name": "BlocBusters (who you gonna call?)",
+      "grade": "7A",
+      "length": "",
+      "type": "",
+      "firstAscent": "Ali Kraufvelin, 2006",
+      "description": "Hoppstart till bra grepp. Vidare rakt upp.",
+      "source": {
+        "id": "legacy:snuggtaskeberg",
+        "path": "mediawiki/Snuggtaskeberg.txt"
+      }
+    },
+    {
+      "id": "snuggtaskeberg-led-41",
+      "kind": "route",
+      "number": "9",
+      "name": "Megaplume",
+      "grade": "6B",
+      "length": "",
+      "type": "",
+      "firstAscent": "Magnus Lennartsson, 2005",
+      "description": "Vh på kristallsidtag, hh på sloper. Lås av och sträck till litet grepp för hh. Vidare till hyllan och mantla.",
+      "source": {
+        "id": "legacy:snuggtaskeberg",
+        "path": "mediawiki/Snuggtaskeberg.txt"
+      }
+    },
+    {
+      "id": "snuggtaskeberg-led-42",
+      "kind": "route",
+      "number": "10",
+      "name": "Marmaris",
+      "grade": "6C",
+      "length": "",
+      "type": "",
+      "firstAscent": "Mattis Wide, 2006",
+      "description": "Följ kanten snett uppåt, fötterna på vägg.",
+      "source": {
+        "id": "legacy:snuggtaskeberg",
+        "path": "mediawiki/Snuggtaskeberg.txt"
+      }
+    },
+    {
+      "id": "snuggtaskeberg-led-43",
+      "kind": "route",
+      "number": "11a",
+      "name": "Tropicana",
+      "grade": "5-",
+      "length": "",
+      "type": "",
+      "firstAscent": "Mårten Sjöström, 2006",
+      "description": "Slabben.",
+      "source": {
+        "id": "legacy:snuggtaskeberg",
+        "path": "mediawiki/Snuggtaskeberg.txt"
+      }
+    },
+    {
+      "id": "snuggtaskeberg-led-44",
+      "kind": "route",
+      "number": "11b",
+      "name": "Tropicana - no hands",
+      "grade": "5+",
+      "length": "",
+      "type": "",
+      "firstAscent": "Rune Andersson, 2006",
+      "description": "No hands variant.",
+      "source": {
+        "id": "legacy:snuggtaskeberg",
+        "path": "mediawiki/Snuggtaskeberg.txt"
+      }
+    },
+    {
+      "id": "snuggtaskeberg-led-45",
+      "kind": "route",
+      "number": "1",
+      "name": "Projekt 10",
+      "grade": "6A+",
+      "length": "",
+      "type": "",
+      "firstAscent": "Staffan Lorentz, 2007",
+      "description": "Sittstart, sedan rakt upp.",
+      "source": {
+        "id": "legacy:snuggtaskeberg",
+        "path": "mediawiki/Snuggtaskeberg.txt"
+      }
+    },
+    {
+      "id": "snuggtaskeberg-led-46",
+      "kind": "route",
+      "number": "2",
+      "name": "22:30",
+      "grade": "5",
+      "length": "",
+      "type": "",
+      "firstAscent": "Petter Norberg, 2006",
+      "description": "Hh i undercling, vh på crimp, gå mot toppen, mantla.",
+      "source": {
+        "id": "legacy:snuggtaskeberg",
+        "path": "mediawiki/Snuggtaskeberg.txt"
+      }
+    },
+    {
+      "id": "snuggtaskeberg-led-47",
+      "kind": "route",
+      "number": "3",
+      "name": "Mattis - den svenska gambianen",
+      "grade": "5-",
+      "length": "",
+      "type": "",
+      "firstAscent": "Petter Norberg, 2006",
+      "description": "Starta i små lister, följ slopekanten snett uppåt vänster.",
+      "source": {
+        "id": "legacy:snuggtaskeberg",
+        "path": "mediawiki/Snuggtaskeberg.txt"
+      }
+    },
+    {
+      "id": "snuggtaskeberg-led-48",
+      "kind": "route",
+      "number": "4",
+      "name": "Pappaledig",
+      "grade": "4+",
+      "length": "",
+      "type": "",
+      "firstAscent": "Petter Norberg, 2006",
+      "description": "Starta som Mattis - den svenske gambianen men gå rakt upp efter första flytten.",
+      "source": {
+        "id": "legacy:snuggtaskeberg",
+        "path": "mediawiki/Snuggtaskeberg.txt"
+      }
+    },
+    {
+      "id": "snuggtaskeberg-led-49",
+      "kind": "route",
+      "number": "5",
+      "name": "After Eight",
+      "grade": "5",
+      "length": "",
+      "type": "",
+      "firstAscent": "Mattis Wide, 2006",
+      "description": "Starta via rampen och sen upp.",
+      "source": {
+        "id": "legacy:snuggtaskeberg",
+        "path": "mediawiki/Snuggtaskeberg.txt"
+      }
+    },
+    {
+      "id": "snuggtaskeberg-led-50",
+      "kind": "route",
+      "number": "6",
+      "name": "Twisted Individual",
+      "grade": "6A+",
+      "length": "",
+      "type": "",
+      "firstAscent": "Mattis Wide, 2006",
+      "description": "Upp på den tunna väggen. Hyllan på The moisty slab ingår givetvis inte. Mycket känslig bit!",
+      "source": {
+        "id": "legacy:snuggtaskeberg",
+        "path": "mediawiki/Snuggtaskeberg.txt"
+      }
+    },
+    {
+      "id": "snuggtaskeberg-led-51",
+      "kind": "route",
+      "number": "7",
+      "name": "The moisty slab",
+      "grade": "4+",
+      "length": "",
+      "type": "",
+      "firstAscent": "Magnus Lennartsson, 2006",
+      "description": "Starta med hyllan, sen rakt upp på slabben strax höger om sprickan.",
+      "source": {
+        "id": "legacy:snuggtaskeberg",
+        "path": "mediawiki/Snuggtaskeberg.txt"
+      }
+    },
+    {
+      "id": "snuggtaskeberg-led-52",
+      "kind": "route",
+      "number": "8a",
+      "name": "Glöm inte kritpåsen",
+      "grade": "4",
+      "length": "",
+      "type": "",
+      "firstAscent": "Petter Norberg, 2006",
+      "description": "H fot på liten kristal, stega upp mot toppen.",
+      "source": {
+        "id": "legacy:snuggtaskeberg",
+        "path": "mediawiki/Snuggtaskeberg.txt"
+      }
+    },
+    {
+      "id": "snuggtaskeberg-led-53",
+      "kind": "route",
+      "number": "8b",
+      "name": "Glöm inte kritpåsen - no hands",
+      "grade": "5",
+      "length": "",
+      "type": "",
+      "firstAscent": "Petter Norberg, 2006",
+      "description": "Utan händer.",
+      "source": {
+        "id": "legacy:snuggtaskeberg",
+        "path": "mediawiki/Snuggtaskeberg.txt"
+      }
+    },
+    {
+      "id": "snuggtaskeberg-led-54",
+      "kind": "route",
+      "number": "9",
+      "name": "No hands heaven",
+      "grade": "4",
+      "length": "",
+      "type": "",
+      "firstAscent": "Magnus Lennartsson, 2006",
+      "description": "Upp utan att använda händerna.",
+      "source": {
+        "id": "legacy:snuggtaskeberg",
+        "path": "mediawiki/Snuggtaskeberg.txt"
+      }
+    },
+    {
+      "id": "snuggtaskeberg-led-55",
+      "kind": "route",
+      "number": "1",
+      "name": "Ännu mer mantelnödig",
+      "grade": "6A+",
+      "length": "",
+      "type": "",
+      "firstAscent": "Mattis Wide, 2006",
+      "description": "Rakt upp och mantla.",
+      "source": {
+        "id": "legacy:snuggtaskeberg",
+        "path": "mediawiki/Snuggtaskeberg.txt"
+      }
+    },
+    {
+      "id": "snuggtaskeberg-led-56",
+      "kind": "route",
+      "number": "2",
+      "name": "Solochvåraren",
+      "grade": "5",
+      "length": "",
+      "type": "",
+      "firstAscent": "Magnus Lennartsson, 2005",
+      "description": "Rakt upp och mantla.",
+      "source": {
+        "id": "legacy:snuggtaskeberg",
+        "path": "mediawiki/Snuggtaskeberg.txt"
+      }
+    },
+    {
+      "id": "snuggtaskeberg-led-57",
+      "kind": "route",
+      "number": "3a",
+      "name": "Medels gympaskor",
+      "grade": "4+",
+      "length": "",
+      "type": "",
+      "firstAscent": "Petter Norberg, 2005",
+      "description": "På hörnet, mantla.",
+      "source": {
+        "id": "legacy:snuggtaskeberg",
+        "path": "mediawiki/Snuggtaskeberg.txt"
+      }
+    },
+    {
+      "id": "snuggtaskeberg-led-58",
+      "kind": "route",
+      "number": "3b",
+      "name": "Medels gympaskor - sittstart",
+      "grade": "5",
+      "length": "",
+      "type": "",
+      "firstAscent": "Petter Norberg, 2006",
+      "description": "Sittstart på hörnet.",
+      "source": {
+        "id": "legacy:snuggtaskeberg",
+        "path": "mediawiki/Snuggtaskeberg.txt"
+      }
+    },
+    {
+      "id": "snuggtaskeberg-led-59",
+      "kind": "route",
+      "number": "3c",
+      "name": "Frasses deg",
+      "grade": "6A+",
+      "length": "",
+      "type": "",
+      "firstAscent": "Fredrik Gillving, 2007",
+      "description": "Variant på 3b, enbart sprickan för händerna.",
+      "source": {
+        "id": "legacy:snuggtaskeberg",
+        "path": "mediawiki/Snuggtaskeberg.txt"
+      }
+    },
+    {
+      "id": "snuggtaskeberg-led-60",
+      "kind": "route",
+      "number": "4",
+      "name": "Mantelnödig",
+      "grade": "4+",
+      "length": "",
+      "type": "",
+      "firstAscent": "Magnus Lennartsson, 2005",
+      "description": "Väggen tv om sprickan, mantla.",
+      "source": {
+        "id": "legacy:snuggtaskeberg",
+        "path": "mediawiki/Snuggtaskeberg.txt"
+      }
+    },
+    {
+      "id": "snuggtaskeberg-led-61",
+      "kind": "route",
+      "number": "5",
+      "name": "Bonus",
+      "grade": "6A",
+      "length": "",
+      "type": "",
+      "firstAscent": "Rune Andersson, 2005",
+      "description": "Start i krimpers. Upp på svaet utan att använda kanten tv.",
+      "source": {
+        "id": "legacy:snuggtaskeberg",
+        "path": "mediawiki/Snuggtaskeberg.txt"
+      }
+    },
+    {
+      "id": "snuggtaskeberg-led-62",
+      "kind": "route",
+      "number": "6",
+      "name": "Utan finess",
+      "grade": "5",
+      "length": "",
+      "type": "",
+      "firstAscent": "Magnus Lennartsson, 2005",
+      "description": "Upp till slopers och mantla ut. Hyllsystemet th är off limit.",
+      "source": {
+        "id": "legacy:snuggtaskeberg",
+        "path": "mediawiki/Snuggtaskeberg.txt"
+      }
+    },
+    {
+      "id": "snuggtaskeberg-led-63",
+      "kind": "route",
+      "number": "1",
+      "name": "Pajero Loco",
+      "grade": "5",
+      "length": "",
+      "type": "",
+      "firstAscent": "Mattis Wide, 2006",
+      "description": "Omfamna blocket och mantla.",
+      "source": {
+        "id": "legacy:snuggtaskeberg",
+        "path": "mediawiki/Snuggtaskeberg.txt"
+      }
+    },
+    {
+      "id": "snuggtaskeberg-led-64",
+      "kind": "route",
+      "number": "2",
+      "name": "Vänsterprofilen",
+      "grade": "5-",
+      "length": "",
+      "type": "",
+      "firstAscent": "Staffan Lorentz, 2006",
+      "description": "Sittstart, sen upp längs kanten.",
+      "source": {
+        "id": "legacy:snuggtaskeberg",
+        "path": "mediawiki/Snuggtaskeberg.txt"
+      }
+    },
+    {
+      "id": "snuggtaskeberg-led-65",
+      "kind": "route",
+      "number": "3",
+      "name": "Blodvite",
+      "grade": "5+",
+      "length": "",
+      "type": "",
+      "firstAscent": "Magnus Lennartsson, 2006",
+      "description": "Upp i sprickan, avsluta med mantling.",
+      "source": {
+        "id": "legacy:snuggtaskeberg",
+        "path": "mediawiki/Snuggtaskeberg.txt"
+      }
+    },
+    {
+      "id": "snuggtaskeberg-led-66",
+      "kind": "route",
+      "number": "4",
+      "name": "Stigmata",
+      "grade": "5",
+      "length": "",
+      "type": "",
+      "firstAscent": "Mattis Wide, 2006",
+      "description": "Genom taket, Mantla på slutet.",
+      "source": {
+        "id": "legacy:snuggtaskeberg",
+        "path": "mediawiki/Snuggtaskeberg.txt"
+      }
+    },
+    {
+      "id": "snuggtaskeberg-led-67",
+      "kind": "route",
+      "number": "5",
+      "name": "Stackblock",
+      "grade": "6A",
+      "length": "",
+      "type": "",
+      "firstAscent": "Staffan Lorentz, 2006",
+      "description": "Start i små grepp. Snett upp genom taket. Mantla.",
+      "source": {
+        "id": "legacy:snuggtaskeberg",
+        "path": "mediawiki/Snuggtaskeberg.txt"
+      }
+    },
+    {
+      "id": "snuggtaskeberg-led-68",
+      "kind": "route",
+      "number": "6",
+      "name": "Ny",
+      "grade": "6A",
+      "length": "",
+      "type": "",
+      "firstAscent": "Okänd, 2007",
+      "description": "Hög.",
+      "source": {
+        "id": "legacy:snuggtaskeberg",
+        "path": "mediawiki/Snuggtaskeberg.txt"
+      }
+    },
+    {
+      "id": "snuggtaskeberg-led-69",
+      "kind": "route",
+      "number": "6.5",
+      "name": "Sista dagen på jorden",
+      "grade": "6c+",
+      "length": "",
+      "type": "",
+      "firstAscent": "Mikael Söderström, 2011",
+      "description": "Insteg någon meter till vänster om problem nr7 ut på väggen till H följ diagonala sprickan åt V.och till topps. Rammla inte ner. Ledgraderad.",
+      "source": {
+        "id": "legacy:snuggtaskeberg",
+        "path": "mediawiki/Snuggtaskeberg.txt"
+      }
+    },
+    {
+      "id": "snuggtaskeberg-led-70",
+      "kind": "route",
+      "number": "7",
+      "name": "Mattis missade onsighten",
+      "grade": "2-",
+      "length": "",
+      "type": "",
+      "firstAscent": "Petter Norberg, 2006",
+      "description": "På med storskorna. Glöm ej picknickkorgen.",
+      "source": {
+        "id": "legacy:snuggtaskeberg",
+        "path": "mediawiki/Snuggtaskeberg.txt"
+      }
+    },
+    {
+      "id": "snuggtaskeberg-led-71",
+      "kind": "route",
+      "number": "8",
+      "name": "Väsby konsthall",
+      "grade": "6B",
+      "length": "",
+      "type": "",
+      "firstAscent": "Rune Andersson, 2006",
+      "description": "Endast arêten för händerna.",
+      "source": {
+        "id": "legacy:snuggtaskeberg",
+        "path": "mediawiki/Snuggtaskeberg.txt"
+      }
+    },
+    {
+      "id": "snuggtaskeberg-led-72",
+      "kind": "route",
+      "number": "9",
+      "name": "Leo bajsar löst",
+      "grade": "6A",
+      "length": "",
+      "type": "",
+      "firstAscent": "Petter Norberg, 2006",
+      "description": "Start med vh på arêten och hh i undercling.",
+      "source": {
+        "id": "legacy:snuggtaskeberg",
+        "path": "mediawiki/Snuggtaskeberg.txt"
+      }
+    },
+    {
+      "id": "snuggtaskeberg-led-73",
+      "kind": "route",
+      "number": "10",
+      "name": "Små vita maskar",
+      "grade": "5+",
+      "length": "",
+      "type": "",
+      "firstAscent": "Petter Norberg, 2006",
+      "description": "Undvik att vidröra trädet med rumpan.",
+      "source": {
+        "id": "legacy:snuggtaskeberg",
+        "path": "mediawiki/Snuggtaskeberg.txt"
+      }
+    },
+    {
+      "id": "snuggtaskeberg-led-74",
+      "kind": "route",
+      "number": "1",
+      "name": "Bamsefar",
+      "grade": "5-",
+      "length": "",
+      "type": "",
+      "firstAscent": "Magnus Lennartsson, 2004",
+      "description": "Start i listen och upp via ett bra grepp tv.",
+      "source": {
+        "id": "legacy:snuggtaskeberg",
+        "path": "mediawiki/Snuggtaskeberg.txt"
+      }
+    },
+    {
+      "id": "snuggtaskeberg-led-75",
+      "kind": "route",
+      "number": "2",
+      "name": "Revolverkäke",
+      "grade": "5",
+      "length": "",
+      "type": "",
+      "firstAscent": "Magnus Lennartsson, 2004",
+      "description": "Start i listen och sen upp till små krimplister.",
+      "source": {
+        "id": "legacy:snuggtaskeberg",
+        "path": "mediawiki/Snuggtaskeberg.txt"
+      }
+    },
+    {
+      "id": "snuggtaskeberg-led-76",
+      "kind": "route",
+      "number": "3",
+      "name": "The move",
+      "grade": "4+",
+      "length": "",
+      "type": "",
+      "firstAscent": "Magnus Lennartsson, 2006",
+      "description": "Tv om arêten.",
+      "source": {
+        "id": "legacy:snuggtaskeberg",
+        "path": "mediawiki/Snuggtaskeberg.txt"
+      }
+    },
+    {
+      "id": "snuggtaskeberg-led-77",
+      "kind": "route",
+      "number": "4",
+      "name": "Gustav och rönnbären",
+      "grade": "5-",
+      "length": "",
+      "type": "",
+      "firstAscent": "Mattis Wide, 2004",
+      "description": "Arêten höger om Revolverkäke.",
+      "source": {
+        "id": "legacy:snuggtaskeberg",
+        "path": "mediawiki/Snuggtaskeberg.txt"
+      }
+    },
+    {
+      "id": "snuggtaskeberg-led-78",
+      "kind": "route",
+      "number": "5",
+      "name": "Zupa Krimp",
+      "grade": "6A",
+      "length": "",
+      "type": "",
+      "firstAscent": "Magnus Lennartsson, 2006",
+      "description": "Start i krimpers och sen upp.",
+      "source": {
+        "id": "legacy:snuggtaskeberg",
+        "path": "mediawiki/Snuggtaskeberg.txt"
+      }
+    },
+    {
+      "id": "snuggtaskeberg-led-79",
+      "kind": "route",
+      "number": "1",
+      "name": "Kim Jong Il",
+      "grade": "5-",
+      "length": "",
+      "type": "",
+      "firstAscent": "Petter Norberg, 2007",
+      "description": "Rakt upp för väggen. Avsluta upp på svaet.",
+      "source": {
+        "id": "legacy:snuggtaskeberg",
+        "path": "mediawiki/Snuggtaskeberg.txt"
+      }
+    },
+    {
+      "id": "snuggtaskeberg-led-80",
+      "kind": "route",
+      "number": "2",
+      "name": "Kim Il Sung",
+      "grade": "5+",
+      "length": "",
+      "type": "",
+      "firstAscent": "Petter Norberg, 2007",
+      "description": "Längs den svaiga arêten.",
+      "source": {
+        "id": "legacy:snuggtaskeberg",
+        "path": "mediawiki/Snuggtaskeberg.txt"
+      }
+    }
+  ],
+  "images": [
+    {
+      "filename": "Sollentuna.jpg",
+      "caption": "",
+      "missing": false
+    },
+    {
+      "filename": "Snuggtaskeberg.jpg",
+      "caption": "750px",
+      "missing": false
+    },
+    {
+      "filename": "Huvudvaggen.jpg",
+      "caption": "750px",
+      "missing": false
+    },
+    {
+      "filename": "Huvudvaggen1.jpg",
+      "caption": "",
+      "missing": false
+    },
+    {
+      "filename": "Huvudvaggen2.jpg",
+      "caption": "",
+      "missing": false
+    },
+    {
+      "filename": "Huvudvaggen3.jpg",
+      "caption": "",
+      "missing": false
+    },
+    {
+      "filename": "Ddt.jpg",
+      "caption": "750px",
+      "missing": false
+    },
+    {
+      "filename": "Slicka.JPG",
+      "caption": "Magnus Lennartsson på Slicka uppåt - Sparka neråt (5+), Snuggtaskeberg 2006. Foto: Mattis Wide",
+      "missing": false
+    },
+    {
+      "filename": "Sva.jpg",
+      "caption": "750px",
+      "missing": false
+    },
+    {
+      "filename": "Solvaggen.jpg",
+      "caption": "750px",
+      "missing": false
+    },
+    {
+      "filename": "Hogavaggarna.jpg",
+      "caption": "750px",
+      "missing": false
+    },
+    {
+      "filename": "Revolver.jpg",
+      "caption": "750px",
+      "missing": false
+    },
+    {
+      "filename": "KimIlSung.JPG",
+      "caption": "Petter Norberg på Kim Il Sung (5+), Snuggtaskeberg 2007. Foto: Mattis Wide",
+      "missing": false
+    }
+  ],
+  "access": {
+    "legacyText": null,
+    "federationSlug": null
+  },
+  "qualityIssues": [],
+  "provenance": {
+    "primarySourceId": "legacy:snuggtaskeberg",
+    "sources": [
+      {
+        "id": "legacy:snuggtaskeberg",
+        "title": "Sverigeföraren 2014: Snuggtaskeberg",
+        "path": "mediawiki/Snuggtaskeberg.txt",
+        "license": "GNU Free Documentation License",
+        "snapshotDate": "2014-01-01"
+      }
+    ]
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 1,
+  "id": "hisnopp",
+  "slug": "hisnopp",
+  "name": "Hisnopp",
+  "description": "Hisnopp, eller Hisnapp som det heter på en del kartor, är det stora distinkta berget närmast väster om Bodberget.",
+  "coordinates": null,
+  "categories": [
+    "Hälsingland",
+    "Saknar karta",
+    "Saknar leder"
+  ],
+  "sections": [
+    {
+      "id": "allmant",
+      "title": "Allmänt",
+      "body": "Hisnopp, eller Hisnapp som det heter på en del kartor, är det stora distinkta berget närmast väster om Bodberget."
+    }
+  ],
+  "routes": [],
+  "images": [
+    {
+      "filename": "Hisnapp.jpg",
+      "caption": "Hisnopp i vinterskrud. Foto: Per Calleberg",
+      "missing": false
+    },
+    {
+      "filename": "Hisnopp.jpg",
+      "caption": "",
+      "missing": false
+    }
+  ],
+  "access": {
+    "legacyText": null,
+    "federationSlug": null
+  },
+  "qualityIssues": [],
+  "provenance": {
+    "primarySourceId": "legacy:hisnopp",
+    "sources": [
+      {
+        "id": "legacy:hisnopp",
+        "title": "Sverigeföraren 2014: Hisnopp",
+        "path": "mediawiki/Hisnopp.txt",
+        "license": "GNU Free Documentation License",
+        "snapshotDate": "2014-01-01"
+      }
+    ]
+  }
+}

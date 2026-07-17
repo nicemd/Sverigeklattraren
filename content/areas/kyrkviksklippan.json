@@ -1,0 +1,280 @@
+{
+  "schemaVersion": 1,
+  "id": "kyrkviksklippan",
+  "slug": "kyrkviksklippan",
+  "name": "Kyrkviksklippan",
+  "description": "Vägbeskrivning finns på Stockholms Nätförare titel=Kyrkviksklippan lat=18180600 long=59204810",
+  "coordinates": {
+    "latitude": 59.20481,
+    "longitude": 18.1806
+  },
+  "categories": [
+    "Sport",
+    "Stockholm",
+    "Södra Södertörn",
+    "Överhäng"
+  ],
+  "sections": [
+    {
+      "id": "vagbeskrivning",
+      "title": "Vägbeskrivning",
+      "body": "Vägbeskrivning finns på Stockholms Nätförare titel=Kyrkviksklippan lat=18180600 long=59204810"
+    },
+    {
+      "id": "leder",
+      "title": "Leder",
+      "body": "15m till höger: Kategori:Sport Kategori:Överhäng Kategori:Stockholm Kategori:Södra Södertörn"
+    }
+  ],
+  "routes": [
+    {
+      "id": "kyrkviksklippan-led-1",
+      "kind": "route",
+      "number": "1",
+      "name": "Momento",
+      "grade": "6a",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "Johan Luhr, Anders Granander",
+      "description": "Hängarna är på plats igen!",
+      "source": {
+        "id": "legacy:kyrkviksklippan",
+        "path": "mediawiki/Kyrkviksklippan.txt"
+      }
+    },
+    {
+      "id": "kyrkviksklippan-led-2",
+      "kind": "route",
+      "number": "2",
+      "name": "Nöff, nöff",
+      "grade": "6c+",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "Johan Luhr, Anders Granander",
+      "description": "",
+      "source": {
+        "id": "legacy:kyrkviksklippan",
+        "path": "mediawiki/Kyrkviksklippan.txt"
+      }
+    },
+    {
+      "id": "kyrkviksklippan-led-3",
+      "kind": "route",
+      "number": "3",
+      "name": "Matt Adams catch-tur",
+      "grade": "7c+",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "Matt Adams",
+      "description": "Catch!",
+      "source": {
+        "id": "legacy:kyrkviksklippan",
+        "path": "mediawiki/Kyrkviksklippan.txt"
+      }
+    },
+    {
+      "id": "kyrkviksklippan-led-4",
+      "kind": "route",
+      "number": "4",
+      "name": "Den vita ankan",
+      "grade": "6b",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "Johan Luhr",
+      "description": "",
+      "source": {
+        "id": "legacy:kyrkviksklippan",
+        "path": "mediawiki/Kyrkviksklippan.txt"
+      }
+    },
+    {
+      "id": "kyrkviksklippan-led-5",
+      "kind": "route",
+      "number": "5",
+      "name": "Oz",
+      "grade": "7c+",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "Johan Luhr",
+      "description": "Börja med Den vita ankan och gå höger efter taket.",
+      "source": {
+        "id": "legacy:kyrkviksklippan",
+        "path": "mediawiki/Kyrkviksklippan.txt"
+      }
+    },
+    {
+      "id": "kyrkviksklippan-led-6",
+      "kind": "route",
+      "number": "6",
+      "name": "El Gringo",
+      "grade": "7c",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "Johan Luhr",
+      "description": "Genom taket",
+      "source": {
+        "id": "legacy:kyrkviksklippan",
+        "path": "mediawiki/Kyrkviksklippan.txt"
+      }
+    },
+    {
+      "id": "kyrkviksklippan-led-7",
+      "kind": "route",
+      "number": "7",
+      "name": "Ola",
+      "grade": "6c",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "Johan Luhr",
+      "description": "",
+      "source": {
+        "id": "legacy:kyrkviksklippan",
+        "path": "mediawiki/Kyrkviksklippan.txt"
+      }
+    },
+    {
+      "id": "kyrkviksklippan-led-8",
+      "kind": "route",
+      "number": "8",
+      "name": "Kamp",
+      "grade": "7c+",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "Johan Luhr",
+      "description": "",
+      "source": {
+        "id": "legacy:kyrkviksklippan",
+        "path": "mediawiki/Kyrkviksklippan.txt"
+      }
+    },
+    {
+      "id": "kyrkviksklippan-led-9",
+      "kind": "route",
+      "number": "9",
+      "name": "Raf",
+      "grade": "7b+",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "Johan Luhr",
+      "description": "",
+      "source": {
+        "id": "legacy:kyrkviksklippan",
+        "path": "mediawiki/Kyrkviksklippan.txt"
+      }
+    },
+    {
+      "id": "kyrkviksklippan-led-10",
+      "kind": "route",
+      "number": "10",
+      "name": "Stolen",
+      "grade": "6c",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "Johan Luhr",
+      "description": "",
+      "source": {
+        "id": "legacy:kyrkviksklippan",
+        "path": "mediawiki/Kyrkviksklippan.txt"
+      }
+    },
+    {
+      "id": "kyrkviksklippan-led-11",
+      "kind": "route",
+      "number": null,
+      "name": "Ur en annan synvinkel",
+      "grade": "7b+",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "Johan Luhr",
+      "description": "Hängare saknas",
+      "source": {
+        "id": "legacy:kyrkviksklippan",
+        "path": "mediawiki/Kyrkviksklippan.txt"
+      }
+    },
+    {
+      "id": "kyrkviksklippan-led-12",
+      "kind": "route",
+      "number": null,
+      "name": "Ur dödlig synvinkel",
+      "grade": "7a",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "Johan Luhr",
+      "description": "Hängare saknas",
+      "source": {
+        "id": "legacy:kyrkviksklippan",
+        "path": "mediawiki/Kyrkviksklippan.txt"
+      }
+    },
+    {
+      "id": "kyrkviksklippan-led-13",
+      "kind": "route",
+      "number": null,
+      "name": "Matiné",
+      "grade": "6b",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "Johan Luhr",
+      "description": "Hängare saknas",
+      "source": {
+        "id": "legacy:kyrkviksklippan",
+        "path": "mediawiki/Kyrkviksklippan.txt"
+      }
+    },
+    {
+      "id": "kyrkviksklippan-led-14",
+      "kind": "route",
+      "number": null,
+      "name": "Rival",
+      "grade": "7b+",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "",
+      "description": "Hängare saknas",
+      "source": {
+        "id": "legacy:kyrkviksklippan",
+        "path": "mediawiki/Kyrkviksklippan.txt"
+      }
+    },
+    {
+      "id": "kyrkviksklippan-led-15",
+      "kind": "route",
+      "number": null,
+      "name": "Luna papa",
+      "grade": "7b+",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "",
+      "description": "Hängare saknas",
+      "source": {
+        "id": "legacy:kyrkviksklippan",
+        "path": "mediawiki/Kyrkviksklippan.txt"
+      }
+    }
+  ],
+  "images": [
+    {
+      "filename": "Kyrkviksklippan.gif",
+      "caption": "",
+      "missing": false
+    }
+  ],
+  "access": {
+    "legacyText": null,
+    "federationSlug": null
+  },
+  "qualityIssues": [],
+  "provenance": {
+    "primarySourceId": "legacy:kyrkviksklippan",
+    "sources": [
+      {
+        "id": "legacy:kyrkviksklippan",
+        "title": "Sverigeföraren 2014: Kyrkviksklippan",
+        "path": "mediawiki/Kyrkviksklippan.txt",
+        "license": "GNU Free Documentation License",
+        "snapshotDate": "2014-01-01"
+      }
+    ]
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "schemaVersion": 1,
+  "id": "himlaberg",
+  "slug": "himlaberg",
+  "name": "Himlaberg",
+  "description": "Himlaberg är Ormingelandets högsta punkt och har en lång rad med låga klippartier rakt ovanför gamla Värmdövägen. Längst ut th finns en fin liten klippa 30 m upp i skogen ovanför gamla Värmdövägen.",
+  "coordinates": null,
+  "categories": [
+    "Mix",
+    "Nacka-Värmdö",
+    "Sport",
+    "Stockholm",
+    "Trad"
+  ],
+  "sections": [
+    {
+      "id": "allmant",
+      "title": "Allmänt",
+      "body": "Himlaberg är Ormingelandets högsta punkt och har en lång rad med låga klippartier rakt ovanför gamla Värmdövägen. Längst ut th finns en fin liten klippa 30 m upp i skogen ovanför gamla Värmdövägen."
+    },
+    {
+      "id": "vagbeskrivning",
+      "title": "Vägbeskrivning",
+      "body": "Som Ekoberget men stanna i kröken vid Kilsviken."
+    },
+    {
+      "id": "leder",
+      "title": "Leder",
+      "body": "Kategori:Nacka-Värmdö Kategori:Stockholm Kategori:Trad Kategori:Mix Kategori:Sport"
+    }
+  ],
+  "routes": [
+    {
+      "id": "himlaberg-led-1",
+      "kind": "route",
+      "number": "1",
+      "name": "Stig Vig",
+      "grade": "6-",
+      "length": "12",
+      "type": "mix",
+      "firstAscent": "Anders Lundahl, Eva Selin -89",
+      "description": "",
+      "source": {
+        "id": "legacy:himlaberg",
+        "path": "mediawiki/Himlaberg.txt"
+      }
+    },
+    {
+      "id": "himlaberg-led-2",
+      "kind": "route",
+      "number": "2",
+      "name": "Mister Klister",
+      "grade": "6+",
+      "length": "12",
+      "type": "mix",
+      "firstAscent": "Anders Lundahl, Eva Selin -89",
+      "description": "",
+      "source": {
+        "id": "legacy:himlaberg",
+        "path": "mediawiki/Himlaberg.txt"
+      }
+    },
+    {
+      "id": "himlaberg-led-3",
+      "kind": "route",
+      "number": "3",
+      "name": "Fingerprints",
+      "grade": "7+",
+      "length": "12",
+      "type": "sport",
+      "firstAscent": "Eva Selin, Anders Lundahl -89",
+      "description": "",
+      "source": {
+        "id": "legacy:himlaberg",
+        "path": "mediawiki/Himlaberg.txt"
+      }
+    },
+    {
+      "id": "himlaberg-led-4",
+      "kind": "route",
+      "number": "4",
+      "name": "Guldfeber",
+      "grade": "7-",
+      "length": "12",
+      "type": "mix",
+      "firstAscent": "Eva Selin, Anders Lundahl -89",
+      "description": "",
+      "source": {
+        "id": "legacy:himlaberg",
+        "path": "mediawiki/Himlaberg.txt"
+      }
+    },
+    {
+      "id": "himlaberg-led-5",
+      "kind": "route",
+      "number": "5",
+      "name": "Biffalo Bull",
+      "grade": "6+",
+      "length": "12",
+      "type": "mix",
+      "firstAscent": "Anders Lundahl, Eva Selin -89",
+      "description": "",
+      "source": {
+        "id": "legacy:himlaberg",
+        "path": "mediawiki/Himlaberg.txt"
+      }
+    }
+  ],
+  "images": [
+    {
+      "filename": "Himlaberg.png",
+      "caption": "",
+      "missing": false
+    }
+  ],
+  "access": {
+    "legacyText": null,
+    "federationSlug": null
+  },
+  "qualityIssues": [],
+  "provenance": {
+    "primarySourceId": "legacy:himlaberg",
+    "sources": [
+      {
+        "id": "legacy:himlaberg",
+        "title": "Sverigeföraren 2014: Himlaberg",
+        "path": "mediawiki/Himlaberg.txt",
+        "license": "GNU Free Documentation License",
+        "snapshotDate": "2014-01-01"
+      }
+    ]
+  }
+}

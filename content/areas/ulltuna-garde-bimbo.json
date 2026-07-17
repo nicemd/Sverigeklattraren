@@ -1,0 +1,86 @@
+{
+  "schemaVersion": 1,
+  "id": "ulltuna-garde-bimbo",
+  "slug": "ulltuna-garde-bimbo",
+  "name": "Ulltuna gärde (bimbo)",
+  "description": "Kategori:Saknar allmän infoKategori:Saknar vägbeskrivning =Problem= Kategori:Uppsala Kategori:Bouldering Kategori:Bimbo Kategori:Behöver kvalitetssäkras Kategori:Saknar karta Kategori:Saknar koordinater Kategori:Saknar skrivarformattering Kategori:Saknar skiss",
+  "coordinates": null,
+  "categories": [
+    "Behöver kvalitetssäkras",
+    "Bimbo",
+    "Bouldering",
+    "Saknar allmän info",
+    "Saknar karta",
+    "Saknar koordinater",
+    "Saknar skiss",
+    "Saknar skrivarformattering",
+    "Saknar vägbeskrivning",
+    "Uppsala"
+  ],
+  "sections": [],
+  "routes": [
+    {
+      "id": "ulltuna-garde-bimbo-problem-1",
+      "kind": "problem",
+      "number": null,
+      "name": "Ulltunatraversen",
+      "grade": "7A+",
+      "length": "",
+      "type": "Travers V->H",
+      "firstAscent": "Luhr eller Hedman",
+      "description": "traversera hela väggen vänster till höger.",
+      "source": {
+        "id": "legacy:ulltuna-garde-bimbo",
+        "path": "mediawiki/Ulltuna gärde (bimbo).txt"
+      }
+    },
+    {
+      "id": "ulltuna-garde-bimbo-problem-2",
+      "kind": "problem",
+      "number": null,
+      "name": "Albatross",
+      "grade": "7A",
+      "length": "",
+      "type": "",
+      "firstAscent": "?",
+      "description": "Sittstart höger om diedret.",
+      "source": {
+        "id": "legacy:ulltuna-garde-bimbo",
+        "path": "mediawiki/Ulltuna gärde (bimbo).txt"
+      }
+    },
+    {
+      "id": "ulltuna-garde-bimbo-problem-3",
+      "kind": "problem",
+      "number": "1",
+      "name": "Uncas bitts",
+      "grade": "5A",
+      "length": "",
+      "type": "Krimp",
+      "firstAscent": "",
+      "description": "Ett mindre block 5 min söder om gärdetväggen. Vid cyckelvägen precis innan Lilla Sunnersta.Södra delen av blocket. Bra som uppvärmning inför gärdetväggen",
+      "source": {
+        "id": "legacy:ulltuna-garde-bimbo",
+        "path": "mediawiki/Ulltuna gärde (bimbo).txt"
+      }
+    }
+  ],
+  "images": [],
+  "access": {
+    "legacyText": null,
+    "federationSlug": null
+  },
+  "qualityIssues": [],
+  "provenance": {
+    "primarySourceId": "legacy:ulltuna-garde-bimbo",
+    "sources": [
+      {
+        "id": "legacy:ulltuna-garde-bimbo",
+        "title": "Sverigeföraren 2014: Ulltuna gärde (bimbo)",
+        "path": "mediawiki/Ulltuna gärde (bimbo).txt",
+        "license": "GNU Free Documentation License",
+        "snapshotDate": "2014-01-01"
+      }
+    ]
+  }
+}

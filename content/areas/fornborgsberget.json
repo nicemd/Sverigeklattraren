@@ -1,0 +1,230 @@
+{
+  "schemaVersion": 1,
+  "id": "fornborgsberget",
+  "slug": "fornborgsberget",
+  "name": "Fornborgsberget",
+  "description": "Oklättrad klippa nära Kagghamra i Grödinge. Klippan bestor av flera väggpartier, 7-12m hög och mestadel svagt överhängande. Det finns potential för några leder i varierande svårighetsgrad.",
+  "coordinates": {
+    "latitude": 59.1245,
+    "longitude": 17.7773
+  },
+  "categories": [
+    "Oklättrat",
+    "Saknar leder",
+    "Saknar skiss",
+    "sport",
+    "Stockholm",
+    "trad",
+    "vertikalt",
+    "Västra Södertörn",
+    "överhäng"
+  ],
+  "sections": [
+    {
+      "id": "allmant",
+      "title": "Allmänt",
+      "body": "Oklättrad klippa nära Kagghamra i Grödinge. Klippan bestor av flera väggpartier, 7-12m hög och mestadel svagt överhängande. Det finns potential för några leder i varierande svårighetsgrad."
+    },
+    {
+      "id": "miljo",
+      "title": "Miljö",
+      "body": "Klippan är sydvästvänd men mestadels skuggas av granskogen. På flera kartor kan man förtfarande se ett hus ganska nära klippan. Det var kanske huvudorsaken att klippan har varit helt outveklad och oklättrad trots att den finns listad i Stockholmsföraren (1992, 1996 och 2008). Huset finns inte längre!"
+    },
+    {
+      "id": "vagbeskrivning",
+      "title": "Vägbeskrivning",
+      "body": "Från Tumba kör väg 226 mot Vårsta. Kör genom Vårsta och ta vänster in på väg 225 mot Nynäshamn. Efter 1,8km sväng höger mot Skanssundet och Grödinge k:a. Efter 2,5km passeras kykan och Gullhamra berg. Kör 2,5km till och sväng vänster mot Kagghamra. Äfter ca 600m kommer du till Fornborgsberget som blir det första berget vänster om vägen. Parkera inte i vägkröken vid berget! Kör vidare, passera en sommarstuga och parkera på parkeringsplats vid en grusväg presis innan Kagghamra-skylt. Gå 250m tillbaka till vägkröken och sen 50m upp till klippan."
+    },
+    {
+      "id": "kommunikationer",
+      "title": "Kommunikationer",
+      "body": "Ta buss 727 från Tumba station mot Skanssundet. Bergavägen hpl ligger ca 100m innan sväng mot Kagghamra och 600m bort från klippan som är synlig därifrån. Restid ca 18min."
+    },
+    {
+      "id": "access",
+      "title": "Access",
+      "body": "Accessläget vid Fornborgsberget är oklart. Det ligger på privat mark. Dessutom finns en välkänd fornborg på berget. Fornborgen är belagen på andra “oklätterbara” sidan av berget, men... Var uppmärksam och glöm inte att nedsågning av träd och grenar ingår faktist inte i allemansrätten. Undvik att parkera nära klippan och håll låg profil tills mer information finns tillgänglig. http://www.botkyrka.se/kulturguiden/omraden/34221.html http://www.botkyrka.se/index.php?dispatchTo=Renderer&action=download&file=59999"
+    },
+    {
+      "id": "leder",
+      "title": "Leder",
+      "body": "Några projekt påbörjades vintern 2009."
+    },
+    {
+      "id": "pelaren",
+      "title": "Pelaren",
+      "body": "Inte hög men intressant klippformation längst åt vänster. Inga leder eller projekt. Möjlighet till ett par lättare turer."
+    },
+    {
+      "id": "huvudvaggen",
+      "title": "Huvudväggen",
+      "body": "10-12m hög svagt överhängande vägg. Inga leder eller projekt. Möjlighet till 5-6 sportturer."
+    },
+    {
+      "id": "jarnvaggen",
+      "title": "Järnväggen",
+      "body": "Mindre men kraftigt överhängande väggpartiet längst åt höger. Kategori:Stockholm Kategori:Västra Södertörn Kategori:Oklättrat Kategori:Saknar leder Kategori:Saknar skiss Kategori:Saknar skiss Kategori:sport Kategori:trad Kategori:vertikalt Kategori:överhäng"
+    }
+  ],
+  "routes": [
+    {
+      "id": "fornborgsberget-led-1",
+      "kind": "route",
+      "number": null,
+      "name": "Invasion",
+      "grade": "6b+",
+      "length": "10",
+      "type": "sport",
+      "firstAscent": "Jörgen Alvhäll, Peter Yakubenko -09",
+      "description": "Mitt på väggen till höger om den lutande granen. Krux i början, stora juggar på slutet. 4bb och ankare.",
+      "source": {
+        "id": "legacy:fornborgsberget",
+        "path": "mediawiki/Fornborgsberget.txt"
+      }
+    },
+    {
+      "id": "fornborgsberget-led-2",
+      "kind": "route",
+      "number": null,
+      "name": "Projekt",
+      "grade": "?",
+      "length": "10",
+      "type": "trad",
+      "firstAscent": "",
+      "description": "Off-width spricka som är svag överhängande i övre delen. Ganska mossig, måste rensas ordentligt. Öppet projekt",
+      "source": {
+        "id": "legacy:fornborgsberget",
+        "path": "mediawiki/Fornborgsberget.txt"
+      }
+    },
+    {
+      "id": "fornborgsberget-led-3",
+      "kind": "route",
+      "number": null,
+      "name": "Fornborgen",
+      "grade": "6b+",
+      "length": "11",
+      "type": "sport",
+      "firstAscent": "Peter Yakubenko, Anders Eriksson -09",
+      "description": "Överhängande sprickan till höger om föregående. 6bb och ankare.",
+      "source": {
+        "id": "legacy:fornborgsberget",
+        "path": "mediawiki/Fornborgsberget.txt"
+      }
+    },
+    {
+      "id": "fornborgsberget-led-4",
+      "kind": "route",
+      "number": "1",
+      "name": "Järnvilja",
+      "grade": "7b+",
+      "length": "7",
+      "type": "sport",
+      "firstAscent": "Johan Luhr -09",
+      "description": "På vänsterkant. 4bb.",
+      "source": {
+        "id": "legacy:fornborgsberget",
+        "path": "mediawiki/Fornborgsberget.txt"
+      }
+    },
+    {
+      "id": "fornborgsberget-led-5",
+      "kind": "route",
+      "number": "2",
+      "name": "Järnfingrar",
+      "grade": "7c",
+      "length": "8",
+      "type": "sport",
+      "firstAscent": "Peter Yakubenko -09",
+      "description": "Sprickan snett åt vänster. Två fingrar jam. 4bb och ankare.",
+      "source": {
+        "id": "legacy:fornborgsberget",
+        "path": "mediawiki/Fornborgsberget.txt"
+      }
+    },
+    {
+      "id": "fornborgsberget-led-6",
+      "kind": "route",
+      "number": "3",
+      "name": "Järnjätten",
+      "grade": "7c+",
+      "length": "8",
+      "type": "sport",
+      "firstAscent": "Larry Valkama, Johan Luhr -09",
+      "description": "Genom spricksystemet mitt på väggen. Hoppslut. 4bb och ankare.",
+      "source": {
+        "id": "legacy:fornborgsberget",
+        "path": "mediawiki/Fornborgsberget.txt"
+      }
+    },
+    {
+      "id": "fornborgsberget-led-7",
+      "kind": "route",
+      "number": "4",
+      "name": "Järnåldern",
+      "grade": "7a+",
+      "length": "8",
+      "type": "sport",
+      "firstAscent": "",
+      "description": "Peter Yakubenko -09. På högerkant. Fin och fast klippa. 4bb och ankare.",
+      "source": {
+        "id": "legacy:fornborgsberget",
+        "path": "mediawiki/Fornborgsberget.txt"
+      }
+    }
+  ],
+  "images": [
+    {
+      "filename": "Fornborgsberget_view1.jpg",
+      "caption": "Fornborgsberget",
+      "missing": false
+    },
+    {
+      "filename": "Fornborgsberget_parkering.jpg",
+      "caption": "Rätt parkering.",
+      "missing": false
+    },
+    {
+      "filename": "Fornborgsberget_parkera_inte.jpg",
+      "caption": "Ingång. Parkera inte här!",
+      "missing": false
+    },
+    {
+      "filename": "Fornborgsberget_pelaren.jpg",
+      "caption": "Pelaren",
+      "missing": false
+    },
+    {
+      "filename": "Fornborgsberget_huvudv.jpg",
+      "caption": "Huvudväggen",
+      "missing": false
+    },
+    {
+      "filename": "Fornborgsberget_day_off.jpg",
+      "caption": "Trad eller sport?",
+      "missing": false
+    },
+    {
+      "filename": "Fornborgsberget_iron_wall1.jpg",
+      "caption": "Järnväggen",
+      "missing": false
+    }
+  ],
+  "access": {
+    "legacyText": "Accessläget vid Fornborgsberget är oklart. Det ligger på privat mark. Dessutom finns en välkänd fornborg på berget. Fornborgen är belagen på andra “oklätterbara” sidan av berget, men... Var uppmärksam och glöm inte att nedsågning av träd och grenar ingår faktist inte i allemansrätten. Undvik att parkera nära klippan och håll låg profil tills mer information finns tillgänglig. http://www.botkyrka.se/kulturguiden/omraden/34221.html http://www.botkyrka.se/index.php?dispatchTo=Renderer&action=download&file=59999",
+    "federationSlug": null
+  },
+  "qualityIssues": [],
+  "provenance": {
+    "primarySourceId": "legacy:fornborgsberget",
+    "sources": [
+      {
+        "id": "legacy:fornborgsberget",
+        "title": "Sverigeföraren 2014: Fornborgsberget",
+        "path": "mediawiki/Fornborgsberget.txt",
+        "license": "GNU Free Documentation License",
+        "snapshotDate": "2014-01-01"
+      }
+    ]
+  }
+}

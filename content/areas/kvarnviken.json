@@ -1,0 +1,177 @@
+{
+  "schemaVersion": 1,
+  "id": "kvarnviken",
+  "slug": "kvarnviken",
+  "name": "Kvarnviken",
+  "description": "Nygammal klippa i de klätterfattiga västra delarna av Stockholm. Klippan är sydvästvänd med skön utsikt över Mälaren vilket gör det till en trevlig kvällsklippa. Ledregistret är som en påse gott-och-blandat med något för alla. Graderna går från 4 till 7 och för den som inte tycker det räcker så finns det några ultratunna linjer som kan bli ännu svårare. Kilsäkrade leder samsas med borrbultade och ett par boulderproblem runtomkring finns att utforska för den som vill. Flera av de naturligt säkrade lederna har med all sannolikhet klättrats tidigare. Ovanför till höger om klippan finns ytterligare en liten vägg med några artificiella leder för den hugade att återupptäcka. En fast kil sitter bland annat kvar. För enkelhetens skull anges alla leder med fransk gradering. Viss nyturspotential finns i det svårare registret.",
+  "coordinates": {
+    "latitude": 59.343278640111315,
+    "longitude": 17.872331142425537
+  },
+  "categories": [
+    "Norra Stockholm"
+  ],
+  "sections": [
+    {
+      "id": "allmant",
+      "title": "Allmänt",
+      "body": "Nygammal klippa i de klätterfattiga västra delarna av Stockholm. Klippan är sydvästvänd med skön utsikt över Mälaren vilket gör det till en trevlig kvällsklippa. Ledregistret är som en påse gott-och-blandat med något för alla. Graderna går från 4 till 7 och för den som inte tycker det räcker så finns det några ultratunna linjer som kan bli ännu svårare. Kilsäkrade leder samsas med borrbultade och ett par boulderproblem runtomkring finns att utforska för den som vill. Flera av de naturligt säkrade lederna har med all sannolikhet klättrats tidigare. Ovanför till höger om klippan finns ytterligare en liten vägg med några artificiella leder för den hugade att återupptäcka. En fast kil sitter bland annat kvar. För enkelhetens skull anges alla leder med fransk gradering. Viss nyturspotential finns i det svårare registret."
+    },
+    {
+      "id": "vagbeskrivning",
+      "title": "Vägbeskrivning",
+      "body": "Kör Bergslagsvägen västerut mot Hässelby. Sväng av mot Blackeberg i rondellen. Sväng första höger in på Grimstagatan. Ta sedan första vänster in på Kanaans väg. Fortsätt längs denna i 1 km till den gamla vattenkvarnen som dyker upp på vänster sida. Lämpligt ställe att parkera bilen på. Promenera förbi båthamnen söderut längs med vattnet. Fortsätt längs promenadspåret i ca 200 meter tills ett gallerstaket dyker upp till vänster om stigen. Enklast är nu att följa detta på vänstra sidan för att komma fram till klippan."
+    },
+    {
+      "id": "leder",
+      "title": "Leder",
+      "body": "Kategori : Stockholm Kategori : Trad Kategori : Sport Kategori : Vertikalt Kategori : Sva Kategori:Norra Stockholm"
+    }
+  ],
+  "routes": [
+    {
+      "id": "kvarnviken-led-1",
+      "kind": "route",
+      "number": "1",
+      "name": "Ants Crack",
+      "grade": "6a",
+      "length": "7",
+      "type": "trad",
+      "firstAscent": "Christer Stenmark, Jonas Cederling -01",
+      "description": "Känslig linje på svaväggen runt hörnet till vänster. Friends och kilar säkrar leden, dessvärre precis där man vill ha fingrarna. Trädet ovanför är bra topprepsfäste och firningsstation.",
+      "source": {
+        "id": "legacy:kvarnviken",
+        "path": "mediawiki/Kvarnviken.txt"
+      }
+    },
+    {
+      "id": "kvarnviken-led-2",
+      "kind": "route",
+      "number": "2",
+      "name": "Go get gri-gri",
+      "grade": "6c+",
+      "length": "9",
+      "type": "sport",
+      "firstAscent": "Peter Siljerud -07",
+      "description": "Följer areten i klippans vänsterkant. Insteg till vänster om hörnet. 3 bb och trädet som ankare.",
+      "source": {
+        "id": "legacy:kvarnviken",
+        "path": "mediawiki/Kvarnviken.txt"
+      }
+    },
+    {
+      "id": "kvarnviken-led-3",
+      "kind": "route",
+      "number": "3",
+      "name": "Halvmelur",
+      "grade": "6b",
+      "length": "10",
+      "type": "trad",
+      "firstAscent": "Christer Stenmark, Jonas Cederling -01",
+      "description": "Sprickdiedern som är klippans finaste linje. Omväxlande klättring. Säkras uteslutande med kilar och friends.",
+      "source": {
+        "id": "legacy:kvarnviken",
+        "path": "mediawiki/Kvarnviken.txt"
+      }
+    },
+    {
+      "id": "kvarnviken-led-4",
+      "kind": "route",
+      "number": "4",
+      "name": "Korsfest",
+      "grade": "6c+",
+      "length": "10",
+      "type": "sport",
+      "firstAscent": "Thomas Eriksson -07",
+      "description": "Startar vid flaksprickan som leder uppåt vänster. Via sidogreppet tar man sig återigen tillbaks högeråt för att avsluta rakt upp via försvagningen i taket. 3 bb och ankare ovanför (ankaret kan backas upp med träd).",
+      "source": {
+        "id": "legacy:kvarnviken",
+        "path": "mediawiki/Kvarnviken.txt"
+      }
+    },
+    {
+      "id": "kvarnviken-led-5",
+      "kind": "route",
+      "number": "5",
+      "name": "Rust never sleeps",
+      "grade": "4",
+      "length": "10",
+      "type": "trad",
+      "firstAscent": "Peter Siljerud -07",
+      "description": "Den vänstra sprickan vid dubbeldiedret i klippans mittersta del. En rostig bult vittnar om tidigare aktiviteter här. Går att säkra naturligt.",
+      "source": {
+        "id": "legacy:kvarnviken",
+        "path": "mediawiki/Kvarnviken.txt"
+      }
+    },
+    {
+      "id": "kvarnviken-led-6",
+      "kind": "route",
+      "number": "6",
+      "name": "Två fingrar i Zeus",
+      "grade": "7b",
+      "length": "8",
+      "type": "sport",
+      "firstAscent": "Per Willén -07",
+      "description": "Boulderaktig led som går upp längs den rödaktiga areten. Det ihåliga röda flaket får nog belastas med omtanke.",
+      "source": {
+        "id": "legacy:kvarnviken",
+        "path": "mediawiki/Kvarnviken.txt"
+      }
+    },
+    {
+      "id": "kvarnviken-led-7",
+      "kind": "route",
+      "number": "6.5",
+      "name": "Blue Powder",
+      "grade": "A3",
+      "length": "10",
+      "type": "aid",
+      "firstAscent": "Christer Stenmark -03",
+      "description": "Går upp mellan led 6 och 7 på den svagt överhängande väggen, säkras med Copperheads, microkilar, birdbeaks samt skyhook.).",
+      "source": {
+        "id": "legacy:kvarnviken",
+        "path": "mediawiki/Kvarnviken.txt"
+      }
+    },
+    {
+      "id": "kvarnviken-led-8",
+      "kind": "route",
+      "number": "7",
+      "name": "Beam me up",
+      "grade": "5b",
+      "length": "8",
+      "type": "sport",
+      "firstAscent": "Peter Siljerud, Thomas Eriksson -07",
+      "description": "Startar i hörnet längst till höger och går upp längs svaet. Greppen i rännan kan vara lösa och kan undvikas. 3 bb och ankare (ankaret kan backas upp med träd).",
+      "source": {
+        "id": "legacy:kvarnviken",
+        "path": "mediawiki/Kvarnviken.txt"
+      }
+    }
+  ],
+  "images": [
+    {
+      "filename": "Kvarnviken.jpg",
+      "caption": "",
+      "missing": false
+    }
+  ],
+  "access": {
+    "legacyText": null,
+    "federationSlug": null
+  },
+  "qualityIssues": [],
+  "provenance": {
+    "primarySourceId": "legacy:kvarnviken",
+    "sources": [
+      {
+        "id": "legacy:kvarnviken",
+        "title": "Sverigeföraren 2014: Kvarnviken",
+        "path": "mediawiki/Kvarnviken.txt",
+        "license": "GNU Free Documentation License",
+        "snapshotDate": "2014-01-01"
+      }
+    ]
+  }
+}

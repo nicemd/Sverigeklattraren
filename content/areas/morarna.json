@@ -1,0 +1,523 @@
+{
+  "schemaVersion": 1,
+  "id": "morarna",
+  "slug": "morarna",
+  "name": "Morarna",
+  "description": "Brant och imponerande klippa vid vägen till Skälåker ute på Gålö. Klippan, som är som maximalt ca 20 m hög, har ett antal friklättringsleder av hög klass och svårighet. Närmast vägen är klippan brant med stora och runda formationer som uppenbarligen formats av havet. En markant dieder avgränsar denna utskjutande del från den branta och släta väggen till vänster.",
+  "coordinates": {
+    "latitude": 59.088781054053605,
+    "longitude": 18.280391693115234
+  },
+  "categories": [
+    "Saknar kolumner",
+    "Sport",
+    "Stockholm",
+    "Södra Södertörn",
+    "Trad",
+    "Vertikalt",
+    "Överhäng"
+  ],
+  "sections": [
+    {
+      "id": "allmant",
+      "title": "Allmänt",
+      "body": "Brant och imponerande klippa vid vägen till Skälåker ute på Gålö. Klippan, som är som maximalt ca 20 m hög, har ett antal friklättringsleder av hög klass och svårighet. Närmast vägen är klippan brant med stora och runda formationer som uppenbarligen formats av havet. En markant dieder avgränsar denna utskjutande del från den branta och släta väggen till vänster."
+    },
+    {
+      "id": "miljo",
+      "title": "Miljö:",
+      "body": "Väst, öppet för solen. Det finns miljardvis med fästingar i snåren!"
+    },
+    {
+      "id": "vagbeskrivning",
+      "title": "Vägbeskrivning",
+      "body": "titel=Morarna lat=18280391 long=59088781 Kör Nynäshamnsvägen, sväng av mot Dalarö och kör tills du har en lanthandel på höger sida. Sväng höger mot Gålö och efter ca 1km sväng vänster vid skylt Gålö havsbad och Skälåker. Klippan ligger på vänster sida efter ca 3km. Kör in på parkeringen vid fornstigen. Parkeringen ligger på vänster sida strax före hembygdsmuseet (röda byggnader på höger sida av vägen)."
+    },
+    {
+      "id": "eldare-vaggen",
+      "title": "Eldare väggen",
+      "body": "Ligger ca 20m till höger Kategori:Saknar kolumner Kategori:Stockholm Kategori:Södra Södertörn Kategori:Trad Kategori:Sport Kategori:Vertikalt Kategori:Överhäng"
+    }
+  ],
+  "routes": [
+    {
+      "id": "morarna-led-1",
+      "kind": "route",
+      "number": "1",
+      "name": "Big boss",
+      "grade": "7c",
+      "length": "8",
+      "type": "sport",
+      "firstAscent": "Johan Luhr-91",
+      "description": "Mycket överhängande led med dynamisk klättring",
+      "source": {
+        "id": "legacy:morarna",
+        "path": "mediawiki/Morarna.txt"
+      }
+    },
+    {
+      "id": "morarna-led-2",
+      "kind": "route",
+      "number": null,
+      "name": "Beavis & Butthead",
+      "grade": "7+",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "Johan Boman, Jimmy Paladino-98",
+      "description": "Går på kanten",
+      "source": {
+        "id": "legacy:morarna",
+        "path": "mediawiki/Morarna.txt"
+      }
+    },
+    {
+      "id": "morarna-led-3",
+      "kind": "route",
+      "number": "2",
+      "name": "Gunde dopad",
+      "grade": "6+",
+      "length": "8",
+      "type": "sport",
+      "firstAscent": "Stefan Ösund, Anders Landström-89",
+      "description": "",
+      "source": {
+        "id": "legacy:morarna",
+        "path": "mediawiki/Morarna.txt"
+      }
+    },
+    {
+      "id": "morarna-led-4",
+      "kind": "route",
+      "number": "3",
+      "name": "Betongbarn",
+      "grade": "6+",
+      "length": "",
+      "type": "mix",
+      "firstAscent": "Lennart Swahn, Kay von Damm-94",
+      "description": "",
+      "source": {
+        "id": "legacy:morarna",
+        "path": "mediawiki/Morarna.txt"
+      }
+    },
+    {
+      "id": "morarna-led-5",
+      "kind": "route",
+      "number": "4",
+      "name": "Schizoid",
+      "grade": "7",
+      "length": "12",
+      "type": "mix",
+      "firstAscent": "Johan Luhr",
+      "description": "",
+      "source": {
+        "id": "legacy:morarna",
+        "path": "mediawiki/Morarna.txt"
+      }
+    },
+    {
+      "id": "morarna-led-6",
+      "kind": "route",
+      "number": "5",
+      "name": "Latmasken",
+      "grade": "6+",
+      "length": "12",
+      "type": "",
+      "firstAscent": "Jan Liliemark-83",
+      "description": "",
+      "source": {
+        "id": "legacy:morarna",
+        "path": "mediawiki/Morarna.txt"
+      }
+    },
+    {
+      "id": "morarna-led-7",
+      "kind": "route",
+      "number": "6",
+      "name": "Borrelia",
+      "grade": "8-/8",
+      "length": "14",
+      "type": "sport",
+      "firstAscent": "Bogi Palfay, Claes Jelinek -90",
+      "description": "10m till vänster om Onskans hemvist",
+      "source": {
+        "id": "legacy:morarna",
+        "path": "mediawiki/Morarna.txt"
+      }
+    },
+    {
+      "id": "morarna-led-8",
+      "kind": "route",
+      "number": "7",
+      "name": "Feimert betong aktivator",
+      "grade": "7",
+      "length": "20",
+      "type": "mix",
+      "firstAscent": "Daniel Bidner, Claes Jelinek-90",
+      "description": "",
+      "source": {
+        "id": "legacy:morarna",
+        "path": "mediawiki/Morarna.txt"
+      }
+    },
+    {
+      "id": "morarna-led-9",
+      "kind": "route",
+      "number": "7a",
+      "name": "Feimert betong aktivator direkt",
+      "grade": "7+/8-",
+      "length": "5",
+      "type": "sport",
+      "firstAscent": "Johan Luhr -91",
+      "description": "Boulderproblem",
+      "source": {
+        "id": "legacy:morarna",
+        "path": "mediawiki/Morarna.txt"
+      }
+    },
+    {
+      "id": "morarna-led-10",
+      "kind": "route",
+      "number": "8",
+      "name": "Ondskans hemvist",
+      "grade": "6+/7-",
+      "length": "20",
+      "type": "trad",
+      "firstAscent": "Jan Liliemark, Jeremy Sheehan-83",
+      "description": "En av de stora klassikerna i stockholm. Välsäkrad med kilar och medelstora friends.",
+      "source": {
+        "id": "legacy:morarna",
+        "path": "mediawiki/Morarna.txt"
+      }
+    },
+    {
+      "id": "morarna-led-11",
+      "kind": "route",
+      "number": "8a",
+      "name": "En ond man",
+      "grade": "7-/7",
+      "length": "10",
+      "type": "trad",
+      "firstAscent": "Johan Luhr, Rickard Hedman-84",
+      "description": "",
+      "source": {
+        "id": "legacy:morarna",
+        "path": "mediawiki/Morarna.txt"
+      }
+    },
+    {
+      "id": "morarna-led-12",
+      "kind": "route",
+      "number": "9",
+      "name": "Ung ofeg",
+      "grade": "8",
+      "length": "20",
+      "type": "mix",
+      "firstAscent": "Daniel Bidner -90",
+      "description": "Start i Onskans hemvist därefter ut höger till liten hylla",
+      "source": {
+        "id": "legacy:morarna",
+        "path": "mediawiki/Morarna.txt"
+      }
+    },
+    {
+      "id": "morarna-led-13",
+      "kind": "route",
+      "number": "10",
+      "name": "Herr festlige fästing",
+      "grade": "7b+",
+      "length": "20",
+      "type": "sport",
+      "firstAscent": "Johan Luhr -91",
+      "description": "",
+      "source": {
+        "id": "legacy:morarna",
+        "path": "mediawiki/Morarna.txt"
+      }
+    },
+    {
+      "id": "morarna-led-14",
+      "kind": "route",
+      "number": "11",
+      "name": "Negerbollar av stål",
+      "grade": "7a+",
+      "length": "20",
+      "type": "sport",
+      "firstAscent": "Daniel Bidner-85",
+      "description": "Gemensamt utsteg med En negerleksak",
+      "source": {
+        "id": "legacy:morarna",
+        "path": "mediawiki/Morarna.txt"
+      }
+    },
+    {
+      "id": "morarna-led-15",
+      "kind": "route",
+      "number": "11a",
+      "name": "Stor och stark",
+      "grade": "8",
+      "length": "20",
+      "type": "sport",
+      "firstAscent": "Johan Luhr",
+      "description": "Samma insteg som Negerbollar av stål, sedan rakt upp",
+      "source": {
+        "id": "legacy:morarna",
+        "path": "mediawiki/Morarna.txt"
+      }
+    },
+    {
+      "id": "morarna-led-16",
+      "kind": "route",
+      "number": "11b",
+      "name": "En negerleksak",
+      "grade": "7a+",
+      "length": "20",
+      "type": "sport",
+      "firstAscent": "Johan Luhr, Daniel Bidner -89",
+      "description": "",
+      "source": {
+        "id": "legacy:morarna",
+        "path": "mediawiki/Morarna.txt"
+      }
+    },
+    {
+      "id": "morarna-led-17",
+      "kind": "route",
+      "number": "12",
+      "name": "Två killar och en tjej",
+      "grade": "6/6+",
+      "length": "20",
+      "type": "trad",
+      "firstAscent": "JS, Johan Luhr, Annikki Liliemark-83",
+      "description": "Hörnet till höger",
+      "source": {
+        "id": "legacy:morarna",
+        "path": "mediawiki/Morarna.txt"
+      }
+    },
+    {
+      "id": "morarna-led-18",
+      "kind": "route",
+      "number": "13",
+      "name": "Sumpan",
+      "grade": "7+/8-",
+      "length": "8",
+      "type": "mix",
+      "firstAscent": "Johan Luhr -91",
+      "description": "Väggen till höger",
+      "source": {
+        "id": "legacy:morarna",
+        "path": "mediawiki/Morarna.txt"
+      }
+    },
+    {
+      "id": "morarna-led-19",
+      "kind": "route",
+      "number": "14",
+      "name": "Gubben",
+      "grade": "8-",
+      "length": "8",
+      "type": "sport",
+      "firstAscent": "Johan Luhr -91",
+      "description": "Går på lilla väggen övanför Sumpan",
+      "source": {
+        "id": "legacy:morarna",
+        "path": "mediawiki/Morarna.txt"
+      }
+    },
+    {
+      "id": "morarna-led-20",
+      "kind": "route",
+      "number": "15",
+      "name": "Sympati för djävulen",
+      "grade": "7+/8-",
+      "length": "15",
+      "type": "",
+      "firstAscent": "Daniel Bidner, David Fält, Bogi Palfay -90",
+      "description": "",
+      "source": {
+        "id": "legacy:morarna",
+        "path": "mediawiki/Morarna.txt"
+      }
+    },
+    {
+      "id": "morarna-led-21",
+      "kind": "route",
+      "number": "16",
+      "name": "Mördarmohikanen",
+      "grade": "6/6+",
+      "length": "15",
+      "type": "trad",
+      "firstAscent": "Daniel Bidner -85",
+      "description": "",
+      "source": {
+        "id": "legacy:morarna",
+        "path": "mediawiki/Morarna.txt"
+      }
+    },
+    {
+      "id": "morarna-led-22",
+      "kind": "route",
+      "number": "17",
+      "name": "Semlan",
+      "grade": "7+",
+      "length": "9",
+      "type": "mix",
+      "firstAscent": "Johan Luhr -90",
+      "description": "På \"bullen\"",
+      "source": {
+        "id": "legacy:morarna",
+        "path": "mediawiki/Morarna.txt"
+      }
+    },
+    {
+      "id": "morarna-led-23",
+      "kind": "route",
+      "number": "18",
+      "name": "Svart sol",
+      "grade": "7",
+      "length": "9",
+      "type": "sport",
+      "firstAscent": "Daniel Bidner -90",
+      "description": "På \"bullen\"",
+      "source": {
+        "id": "legacy:morarna",
+        "path": "mediawiki/Morarna.txt"
+      }
+    },
+    {
+      "id": "morarna-led-24",
+      "kind": "route",
+      "number": "19",
+      "name": "Brutal diciplin",
+      "grade": "8-/8",
+      "length": "16",
+      "type": "",
+      "firstAscent": "Daniel Bidner, Michael Wegrelius-85",
+      "description": "",
+      "source": {
+        "id": "legacy:morarna",
+        "path": "mediawiki/Morarna.txt"
+      }
+    },
+    {
+      "id": "morarna-led-25",
+      "kind": "route",
+      "number": "19a",
+      "name": "Kombinera mera",
+      "grade": "8/8+",
+      "length": "10",
+      "type": "",
+      "firstAscent": "Johan Luhr -91",
+      "description": "",
+      "source": {
+        "id": "legacy:morarna",
+        "path": "mediawiki/Morarna.txt"
+      }
+    },
+    {
+      "id": "morarna-led-26",
+      "kind": "route",
+      "number": "20",
+      "name": "K-factor",
+      "grade": "7-",
+      "length": "16",
+      "type": "trad",
+      "firstAscent": "Pat Littlejohn, Jan Liliemark-84",
+      "description": "",
+      "source": {
+        "id": "legacy:morarna",
+        "path": "mediawiki/Morarna.txt"
+      }
+    },
+    {
+      "id": "morarna-led-27",
+      "kind": "route",
+      "number": "21",
+      "name": "Peps på acid",
+      "grade": "8-/8",
+      "length": "16",
+      "type": "mix",
+      "firstAscent": "Daniel Bidner-91",
+      "description": "",
+      "source": {
+        "id": "legacy:morarna",
+        "path": "mediawiki/Morarna.txt"
+      }
+    },
+    {
+      "id": "morarna-led-28",
+      "kind": "route",
+      "number": "22",
+      "name": "Eldaren",
+      "grade": "7-",
+      "length": "9",
+      "type": "sport",
+      "firstAscent": "Daniel Bidner, Claes Jelinek -91",
+      "description": "",
+      "source": {
+        "id": "legacy:morarna",
+        "path": "mediawiki/Morarna.txt"
+      }
+    },
+    {
+      "id": "morarna-led-29",
+      "kind": "route",
+      "number": "23",
+      "name": "ICE",
+      "grade": "6+",
+      "length": "9",
+      "type": "",
+      "firstAscent": "Daniel Bidner, Claes Jelinek -91",
+      "description": "",
+      "source": {
+        "id": "legacy:morarna",
+        "path": "mediawiki/Morarna.txt"
+      }
+    }
+  ],
+  "images": [
+    {
+      "filename": "Morarna_karta.png",
+      "caption": "250px",
+      "missing": false
+    },
+    {
+      "filename": "Morarna-vänster.gif",
+      "caption": "",
+      "missing": false
+    },
+    {
+      "filename": "Morarna-huvudväggen.gif",
+      "caption": "",
+      "missing": false
+    },
+    {
+      "filename": "Morarna-högra.gif",
+      "caption": "",
+      "missing": false
+    },
+    {
+      "filename": "Morarna-eldare.gif",
+      "caption": "",
+      "missing": false
+    }
+  ],
+  "access": {
+    "legacyText": null,
+    "federationSlug": null
+  },
+  "qualityIssues": [],
+  "provenance": {
+    "primarySourceId": "legacy:morarna",
+    "sources": [
+      {
+        "id": "legacy:morarna",
+        "title": "Sverigeföraren 2014: Morarna",
+        "path": "mediawiki/Morarna.txt",
+        "license": "GNU Free Documentation License",
+        "snapshotDate": "2014-01-01"
+      }
+    ]
+  }
+}

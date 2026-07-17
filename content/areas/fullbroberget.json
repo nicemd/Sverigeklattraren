@@ -1,0 +1,252 @@
+{
+  "schemaVersion": 1,
+  "id": "fullbroberget",
+  "slug": "fullbroberget",
+  "name": "Fullbroberget",
+  "description": "En ca 50 m bred och som maximalt 30 m hög svaplatta med ett tiotal leder. Flera av lederna erbjuder kortare passager med svår småstegs- och friktionsklättring och ett par ger sammanhängande svaklättring av en längd som är sällsynt runt Stockholm. Det handlar mera om små grepp och steg än om ren friktion, vilket är tur då den lustiga, lite skifferaktiga bergarten har ganska dålig friktion. Säkring sker mestadels med småkilar i tunna sprickor. Några leder har dock ett mindre antal borrbultar.",
+  "coordinates": {
+    "latitude": 59.08156,
+    "longitude": 17.75603
+  },
+  "categories": [
+    "Fituna",
+    "Mix",
+    "Saknar kolumner",
+    "Stockholm",
+    "Sva",
+    "Trad"
+  ],
+  "sections": [
+    {
+      "id": "allmant",
+      "title": "Allmänt",
+      "body": "En ca 50 m bred och som maximalt 30 m hög svaplatta med ett tiotal leder. Flera av lederna erbjuder kortare passager med svår småstegs- och friktionsklättring och ett par ger sammanhängande svaklättring av en längd som är sällsynt runt Stockholm. Det handlar mera om små grepp och steg än om ren friktion, vilket är tur då den lustiga, lite skifferaktiga bergarten har ganska dålig friktion. Säkring sker mestadels med småkilar i tunna sprickor. Några leder har dock ett mindre antal borrbultar."
+    },
+    {
+      "id": "miljo",
+      "title": "Miljö",
+      "body": "Fil:Fullbroberget.jpg Sydost, öppet för solen. Ett par vattenstråk påverkar några av lederna. En röjning 2012 av träd och buskar närmast klippan har gett den ett mera öppet läge och den är numera inte så svår att upptäcka. Klippan är ganska mossig på de nedre delarna tyvärr. Parkering omedelbart i anslutning till klippan, trevlig fikaäng mellan klippan och stranden. Goda möjligheter till bad i Himmerfjärden."
+    },
+    {
+      "id": "vagbeskrivning",
+      "title": "Vägbeskrivning",
+      "body": "titel=Fullbroberget lat=17756030 long=59081560 Ta av Nynäshamnsvägen åt h in på en skogsväg, skyltad med en badplatsvägvisningsskylt, och följ sedan diverse skogsvägar i ca 2,5 km ned till ett friluftsbad. Berget ligger alldeles th om vägen, precis innan badet."
+    },
+    {
+      "id": "kommunikationer",
+      "title": "Kommunikationer:",
+      "body": "Gå av buss 783 vid Stutbyvägen som är hållplatsen innan Fitunavägen vid färd mot Nynäshamn. Fortsätt framåt ca 500 m längs Nynäshamnsvägen. Därifrån 2,5 km promenad enligt ovan. Det är dock tveksamt om det är värt besväret att åka buss till just denna klippa."
+    },
+    {
+      "id": "leder",
+      "title": "Leder",
+      "body": "Kategori:Sva Kategori:Trad Kategori:Mix Kategori:Stockholm Kategori:Fituna Kategori:Saknar kolumner"
+    }
+  ],
+  "routes": [
+    {
+      "id": "fullbroberget-led-1",
+      "kind": "route",
+      "number": "1",
+      "name": "Gipskatten",
+      "grade": "4",
+      "length": "15",
+      "type": "trad",
+      "firstAscent": "Börje Sjögren -82",
+      "description": "",
+      "source": {
+        "id": "legacy:fullbroberget",
+        "path": "mediawiki/Fullbroberget.txt"
+      }
+    },
+    {
+      "id": "fullbroberget-led-2",
+      "kind": "route",
+      "number": "2",
+      "name": "Snöflingan",
+      "grade": "5-",
+      "length": "20",
+      "type": "trad",
+      "firstAscent": "Lars Svadängs, Torgil Abrahamsson -80",
+      "description": "",
+      "source": {
+        "id": "legacy:fullbroberget",
+        "path": "mediawiki/Fullbroberget.txt"
+      }
+    },
+    {
+      "id": "fullbroberget-led-3",
+      "kind": "route",
+      "number": "3",
+      "name": "Brigitte",
+      "grade": "3+",
+      "length": "20",
+      "type": "mix",
+      "firstAscent": "Per-Elof Lidström -82",
+      "description": "",
+      "source": {
+        "id": "legacy:fullbroberget",
+        "path": "mediawiki/Fullbroberget.txt"
+      }
+    },
+    {
+      "id": "fullbroberget-led-4",
+      "kind": "route",
+      "number": "4",
+      "name": "Marilyn",
+      "grade": "4",
+      "length": "20",
+      "type": "mix",
+      "firstAscent": "Per-Elof Lidström -82",
+      "description": "",
+      "source": {
+        "id": "legacy:fullbroberget",
+        "path": "mediawiki/Fullbroberget.txt"
+      }
+    },
+    {
+      "id": "fullbroberget-led-5",
+      "kind": "route",
+      "number": "5",
+      "name": "Porrpulten",
+      "grade": "5+",
+      "length": "21",
+      "type": "trad",
+      "firstAscent": "Roger Pyddoke, Per-Elof Lidström -81",
+      "description": "",
+      "source": {
+        "id": "legacy:fullbroberget",
+        "path": "mediawiki/Fullbroberget.txt"
+      }
+    },
+    {
+      "id": "fullbroberget-led-6",
+      "kind": "route",
+      "number": "6",
+      "name": "Sva",
+      "grade": "5-",
+      "length": "25",
+      "type": "trad",
+      "firstAscent": "Per-Elof Lidström, Thomas Heide -83",
+      "description": "",
+      "source": {
+        "id": "legacy:fullbroberget",
+        "path": "mediawiki/Fullbroberget.txt"
+      }
+    },
+    {
+      "id": "fullbroberget-led-7",
+      "kind": "route",
+      "number": "7",
+      "name": "Borrbulten",
+      "grade": "6-",
+      "length": "15",
+      "type": "trad",
+      "firstAscent": "Per-Elof Lidström, Roger Pyddoke -81",
+      "description": "",
+      "source": {
+        "id": "legacy:fullbroberget",
+        "path": "mediawiki/Fullbroberget.txt"
+      }
+    },
+    {
+      "id": "fullbroberget-led-8",
+      "kind": "route",
+      "number": "8",
+      "name": "Status quo",
+      "grade": "6",
+      "length": "30",
+      "type": "trad",
+      "firstAscent": "Per-Elof Lidström, Roger Pyddoke, Kjell Carlsson -82",
+      "description": "",
+      "source": {
+        "id": "legacy:fullbroberget",
+        "path": "mediawiki/Fullbroberget.txt"
+      }
+    },
+    {
+      "id": "fullbroberget-led-9",
+      "kind": "route",
+      "number": "9",
+      "name": "En tunn strimla av hopp",
+      "grade": "6-",
+      "length": "30",
+      "type": "trad",
+      "firstAscent": "Torgil Abrahamsson, Lars Svadängs -80",
+      "description": "",
+      "source": {
+        "id": "legacy:fullbroberget",
+        "path": "mediawiki/Fullbroberget.txt"
+      }
+    },
+    {
+      "id": "fullbroberget-led-10",
+      "kind": "route",
+      "number": "10",
+      "name": "Svartfötter",
+      "grade": "4+",
+      "length": "25",
+      "type": "trad",
+      "firstAscent": "Rikard Hedman, Torgil Abrahamsson -80",
+      "description": "",
+      "source": {
+        "id": "legacy:fullbroberget",
+        "path": "mediawiki/Fullbroberget.txt"
+      }
+    },
+    {
+      "id": "fullbroberget-led-11",
+      "kind": "route",
+      "number": "11",
+      "name": "Svettfötterna",
+      "grade": "6-",
+      "length": "25",
+      "type": "trad",
+      "firstAscent": "Gunnar Woodsack, Vivi-Ann Friberg -86",
+      "description": "Osäkrat krux",
+      "source": {
+        "id": "legacy:fullbroberget",
+        "path": "mediawiki/Fullbroberget.txt"
+      }
+    },
+    {
+      "id": "fullbroberget-led-12",
+      "kind": "route",
+      "number": "12",
+      "name": "Incognito",
+      "grade": "?",
+      "length": "15",
+      "type": "mix",
+      "firstAscent": "Okända -90",
+      "description": "Slutar på hylla. Firningsslinga",
+      "source": {
+        "id": "legacy:fullbroberget",
+        "path": "mediawiki/Fullbroberget.txt"
+      }
+    }
+  ],
+  "images": [
+    {
+      "filename": "Fullbro.ill.png",
+      "caption": "center",
+      "missing": false
+    }
+  ],
+  "access": {
+    "legacyText": null,
+    "federationSlug": null
+  },
+  "qualityIssues": [],
+  "provenance": {
+    "primarySourceId": "legacy:fullbroberget",
+    "sources": [
+      {
+        "id": "legacy:fullbroberget",
+        "title": "Sverigeföraren 2014: Fullbroberget",
+        "path": "mediawiki/Fullbroberget.txt",
+        "license": "GNU Free Documentation License",
+        "snapshotDate": "2014-01-01"
+      }
+    ]
+  }
+}

@@ -1,0 +1,176 @@
+{
+  "schemaVersion": 1,
+  "id": "bohus",
+  "slug": "bohus",
+  "name": "Bohus",
+  "description": "Sportklippa vid Jordfallsbron strax norr om Göteborg.",
+  "coordinates": {
+    "latitude": 59,
+    "longitude": 18
+  },
+  "categories": [
+    "mix",
+    "Saknar koordinater",
+    "Saknar leder",
+    "Saknar skiss",
+    "Saknar skrivarformatering",
+    "Saknar vägbeskrivning",
+    "sport",
+    "sva",
+    "trad",
+    "vertikalt",
+    "överhäng"
+  ],
+  "sections": [
+    {
+      "id": "allmant",
+      "title": "Allmänt",
+      "body": "Sportklippa vid Jordfallsbron strax norr om Göteborg."
+    },
+    {
+      "id": "leder",
+      "title": "Leder",
+      "body": "Kategori:sport kategori:Saknar skiss kategori:Saknar vägbeskrivning kategori:Saknar leder kategori:Saknar koordinater kategori:Saknar skrivarformatering Category:Göteborg"
+    }
+  ],
+  "routes": [
+    {
+      "id": "bohus-led-1",
+      "kind": "route",
+      "number": null,
+      "name": "Full fart framåt",
+      "grade": "6c",
+      "length": "",
+      "type": "",
+      "firstAscent": "",
+      "description": "",
+      "source": {
+        "id": "legacy:bohus",
+        "path": "mediawiki/Bohus.txt"
+      }
+    },
+    {
+      "id": "bohus-led-2",
+      "kind": "route",
+      "number": null,
+      "name": "Kofotsvalsen",
+      "grade": "7c",
+      "length": "",
+      "type": "",
+      "firstAscent": "",
+      "description": "",
+      "source": {
+        "id": "legacy:bohus",
+        "path": "mediawiki/Bohus.txt"
+      }
+    },
+    {
+      "id": "bohus-led-3",
+      "kind": "route",
+      "number": null,
+      "name": "Klassisk",
+      "grade": "7a",
+      "length": "",
+      "type": "",
+      "firstAscent": "",
+      "description": "",
+      "source": {
+        "id": "legacy:bohus",
+        "path": "mediawiki/Bohus.txt"
+      }
+    },
+    {
+      "id": "bohus-led-4",
+      "kind": "route",
+      "number": null,
+      "name": "Miffo",
+      "grade": "7b",
+      "length": "",
+      "type": "",
+      "firstAscent": "",
+      "description": "",
+      "source": {
+        "id": "legacy:bohus",
+        "path": "mediawiki/Bohus.txt"
+      }
+    },
+    {
+      "id": "bohus-led-5",
+      "kind": "route",
+      "number": null,
+      "name": "Chamonix",
+      "grade": "7b+",
+      "length": "",
+      "type": "",
+      "firstAscent": "",
+      "description": "",
+      "source": {
+        "id": "legacy:bohus",
+        "path": "mediawiki/Bohus.txt"
+      }
+    },
+    {
+      "id": "bohus-led-6",
+      "kind": "route",
+      "number": null,
+      "name": "Stretch",
+      "grade": "7b",
+      "length": "",
+      "type": "",
+      "firstAscent": "",
+      "description": "",
+      "source": {
+        "id": "legacy:bohus",
+        "path": "mediawiki/Bohus.txt"
+      }
+    },
+    {
+      "id": "bohus-led-7",
+      "kind": "route",
+      "number": null,
+      "name": "Laddat vapen",
+      "grade": "7b+",
+      "length": "",
+      "type": "",
+      "firstAscent": "",
+      "description": "",
+      "source": {
+        "id": "legacy:bohus",
+        "path": "mediawiki/Bohus.txt"
+      }
+    },
+    {
+      "id": "bohus-led-8",
+      "kind": "route",
+      "number": null,
+      "name": "Voxpop",
+      "grade": "7b",
+      "length": "",
+      "type": "",
+      "firstAscent": "",
+      "description": "",
+      "source": {
+        "id": "legacy:bohus",
+        "path": "mediawiki/Bohus.txt"
+      }
+    }
+  ],
+  "images": [],
+  "access": {
+    "legacyText": null,
+    "federationSlug": null
+  },
+  "qualityIssues": [],
+  "provenance": {
+    "primarySourceId": "legacy:bohus",
+    "sources": [
+      {
+        "id": "legacy:bohus",
+        "title": "Sverigeföraren 2014: Bohus",
+        "path": "mediawiki/Bohus.txt",
+        "license": "GNU Free Documentation License",
+        "snapshotDate": "2014-01-01"
+      }
+    ]
+  }
+}

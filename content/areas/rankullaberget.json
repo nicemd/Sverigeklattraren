@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "rankullaberget",
+  "slug": "rankullaberget",
+  "name": "Rankullaberget",
+  "description": "0 dokumenterade leder och problem.",
+  "coordinates": {
+    "latitude": 57.468112,
+    "longitude": 14.951973
+  },
+  "categories": [
+    "Småland"
+  ],
+  "sections": [
+    {
+      "id": "karta",
+      "title": "Karta",
+      "body": "Förare över Rankullaberget: http://www.hoglandsklattrarna.se/img/upload/Rankullaberget.pdf sammanställd av Johan Ragnarson, Höglandsklättrarna."
+    },
+    {
+      "id": "lankar",
+      "title": "Länkar",
+      "body": "* Höglandsklättrarnas sida om Rankullaberget Kategori:Småland"
+    }
+  ],
+  "routes": [],
+  "images": [],
+  "access": {
+    "legacyText": null,
+    "federationSlug": null
+  },
+  "qualityIssues": [],
+  "provenance": {
+    "primarySourceId": "legacy:rankullaberget",
+    "sources": [
+      {
+        "id": "legacy:rankullaberget",
+        "title": "Sverigeföraren 2014: Rankullaberget",
+        "path": "mediawiki/Rankullaberget.txt",
+        "license": "GNU Free Documentation License",
+        "snapshotDate": "2014-01-01"
+      }
+    ]
+  }
+}

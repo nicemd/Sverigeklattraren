@@ -1,0 +1,585 @@
+{
+  "schemaVersion": 1,
+  "id": "sjotorpsberget",
+  "slug": "sjotorpsberget",
+  "name": "Sjötorpsberget",
+  "description": "Liten, brant klippa ca 1 km söder om Skogås pendeltågsstation. Den är 10-14 m hög och har ett antal ganska korta, men i vissa fall tämligen fina leder. En massa gamla militära befästningsverk bjuder på en del överraskningar. På grund av närhet till bostadsområdet så är platsen tyvärr ganska nedskräpad. Så farligt är det dock inte, men det är ingen höjdarklippa att ta med krypande barn eller hundar till på grund av en del krossat glas.",
+  "coordinates": {
+    "latitude": 59.21117,
+    "longitude": 18.15954
+  },
+  "categories": [
+    "Sport",
+    "Stockholm",
+    "Södra Södertörn",
+    "Trad"
+  ],
+  "sections": [
+    {
+      "id": "allmant",
+      "title": "Allmänt",
+      "body": "Liten, brant klippa ca 1 km söder om Skogås pendeltågsstation. Den är 10-14 m hög och har ett antal ganska korta, men i vissa fall tämligen fina leder. En massa gamla militära befästningsverk bjuder på en del överraskningar. På grund av närhet till bostadsområdet så är platsen tyvärr ganska nedskräpad. Så farligt är det dock inte, men det är ingen höjdarklippa att ta med krypande barn eller hundar till på grund av en del krossat glas."
+    },
+    {
+      "id": "miljo",
+      "title": "Miljö",
+      "body": "Sydvänd men delvis skuggig."
+    },
+    {
+      "id": "vagbeskrivning",
+      "title": "Vägbeskrivning",
+      "body": "titel=Sjotorpsberget lat=18159540 long=59211170 Nynäsvägen till Skogås-avtaget och vidare mot Skogås. Ca 400 m efter järnvägen, ta h på Rapsodivägen och parkera på förgreningen till Rapsodivägen 272-378. Promenera vidare ner på förgreningen till gångvägen och v på denna. Parkering på Rapsodivägen kan medföra parkeringsböter eftersom samfälligheten har infört att endast boende får parkera på dessa platser. Alternativ parkeringsplats är att istället för att åka in på Radsodivägen fortsätt rakt fram på Österleden. Kör tills den tar slut och parkera. Här slipper man alla förbudsskylter som det kryllar av i området. Gå ner till vattnet och gå trevligt promenadstråk åt höger."
+    },
+    {
+      "id": "kommunikationer",
+      "title": "Kommunikationer",
+      "body": "Väl avstigen från pendeltåget i Skogås, promenera söderut längs järnvägen, igenom småhusområdet. Efter en brant backe kommer den asfalterade stigen ner på en smal grusväg. Klippan ligger ca 100 m åt v."
+    },
+    {
+      "id": "extern-forare",
+      "title": "Extern förare",
+      "body": "Förare finns på Stockholms Nätförare. Kategori:Stockholm Kategori:Södra Södertörn Kategori:Sport Kategori:Trad"
+    }
+  ],
+  "routes": [
+    {
+      "id": "sjotorpsberget-led-1",
+      "kind": "route",
+      "number": "1",
+      "name": "Midsommardansen",
+      "grade": "3",
+      "length": "12",
+      "type": "",
+      "firstAscent": "Mats Hårdefeldt, Lars Svadängs -75",
+      "description": "",
+      "source": {
+        "id": "legacy:sjotorpsberget",
+        "path": "mediawiki/Sjötorpsberget.txt"
+      }
+    },
+    {
+      "id": "sjotorpsberget-led-2",
+      "kind": "route",
+      "number": "1a",
+      "name": "ABKK",
+      "grade": "6-",
+      "length": "6",
+      "type": "",
+      "firstAscent": "Daniel Bidner, Stefan Kallin -83",
+      "description": "",
+      "source": {
+        "id": "legacy:sjotorpsberget",
+        "path": "mediawiki/Sjötorpsberget.txt"
+      }
+    },
+    {
+      "id": "sjotorpsberget-led-3",
+      "kind": "route",
+      "number": null,
+      "name": "Okänd",
+      "grade": "5+",
+      "length": "12",
+      "type": "",
+      "firstAscent": "",
+      "description": "Gemensam start med 1/1a. Går sen rakt upp via två borrbultar.",
+      "source": {
+        "id": "legacy:sjotorpsberget",
+        "path": "mediawiki/Sjötorpsberget.txt"
+      }
+    },
+    {
+      "id": "sjotorpsberget-led-4",
+      "kind": "route",
+      "number": "2",
+      "name": "Smutsrännan",
+      "grade": "5",
+      "length": "12",
+      "type": "",
+      "firstAscent": "Christer Åstrand, Björn Bergström -78",
+      "description": "",
+      "source": {
+        "id": "legacy:sjotorpsberget",
+        "path": "mediawiki/Sjötorpsberget.txt"
+      }
+    },
+    {
+      "id": "sjotorpsberget-led-5",
+      "kind": "route",
+      "number": "2a",
+      "name": "Ett äckel",
+      "grade": "6b+",
+      "length": "12",
+      "type": "sport",
+      "firstAscent": "Erik Hagelin, Mikael Widerberg-12",
+      "description": "Ny led på det sva-aktiga partiet mellan Smutsrännan och Dubbeltaket. Tenderar att upplevas som lite äckligt... Testa får du se.",
+      "source": {
+        "id": "legacy:sjotorpsberget",
+        "path": "mediawiki/Sjötorpsberget.txt"
+      }
+    },
+    {
+      "id": "sjotorpsberget-led-6",
+      "kind": "route",
+      "number": "3",
+      "name": "Dubbeltaket",
+      "grade": "6-",
+      "length": "12",
+      "type": "",
+      "firstAscent": "Christer Åstrand, Björn Bergström -78",
+      "description": "",
+      "source": {
+        "id": "legacy:sjotorpsberget",
+        "path": "mediawiki/Sjötorpsberget.txt"
+      }
+    },
+    {
+      "id": "sjotorpsberget-led-7",
+      "kind": "route",
+      "number": "4",
+      "name": "1984",
+      "grade": "6-",
+      "length": "12",
+      "type": "",
+      "firstAscent": "Mikael Thorsell -84",
+      "description": "",
+      "source": {
+        "id": "legacy:sjotorpsberget",
+        "path": "mediawiki/Sjötorpsberget.txt"
+      }
+    },
+    {
+      "id": "sjotorpsberget-led-8",
+      "kind": "route",
+      "number": "5",
+      "name": "Branta svaet/S-sprickan",
+      "grade": "5-",
+      "length": "12",
+      "type": "",
+      "firstAscent": "Lars Svadängs, Ulf Lagercrantz -78",
+      "description": "",
+      "source": {
+        "id": "legacy:sjotorpsberget",
+        "path": "mediawiki/Sjötorpsberget.txt"
+      }
+    },
+    {
+      "id": "sjotorpsberget-led-9",
+      "kind": "route",
+      "number": "6",
+      "name": "Neanderthal",
+      "grade": "6-",
+      "length": "12",
+      "type": "",
+      "firstAscent": "Mikael Thorsell, D Vilhelm Casteel -84",
+      "description": "",
+      "source": {
+        "id": "legacy:sjotorpsberget",
+        "path": "mediawiki/Sjötorpsberget.txt"
+      }
+    },
+    {
+      "id": "sjotorpsberget-led-10",
+      "kind": "route",
+      "number": null,
+      "name": "Nyheter från Gud",
+      "grade": "7+",
+      "length": "12",
+      "type": "sport",
+      "firstAscent": "Stefan Pettersson",
+      "description": "\"Startar\" under taket, kliv upp till insteget via 6.",
+      "source": {
+        "id": "legacy:sjotorpsberget",
+        "path": "mediawiki/Sjötorpsberget.txt"
+      }
+    },
+    {
+      "id": "sjotorpsberget-led-11",
+      "kind": "route",
+      "number": "6a",
+      "name": "Mickes led",
+      "grade": "5-",
+      "length": "7",
+      "type": "",
+      "firstAscent": "Mikael Thorsell, D Vilhelm Casteel -84",
+      "description": "",
+      "source": {
+        "id": "legacy:sjotorpsberget",
+        "path": "mediawiki/Sjötorpsberget.txt"
+      }
+    },
+    {
+      "id": "sjotorpsberget-led-12",
+      "kind": "route",
+      "number": null,
+      "name": "Finska flickan",
+      "grade": "6c",
+      "length": "14",
+      "type": "sport",
+      "firstAscent": "Mikael Widerberg",
+      "description": "Bultlinje till vänster om häng loss.",
+      "source": {
+        "id": "legacy:sjotorpsberget",
+        "path": "mediawiki/Sjötorpsberget.txt"
+      }
+    },
+    {
+      "id": "sjotorpsberget-led-13",
+      "kind": "route",
+      "number": "7",
+      "name": "Häng loss",
+      "grade": "7b+",
+      "length": "14",
+      "type": "sport",
+      "firstAscent": "Johan Luhr -94",
+      "description": "",
+      "source": {
+        "id": "legacy:sjotorpsberget",
+        "path": "mediawiki/Sjötorpsberget.txt"
+      }
+    },
+    {
+      "id": "sjotorpsberget-led-14",
+      "kind": "route",
+      "number": "8",
+      "name": "Kamindiedern",
+      "grade": "5+",
+      "length": "14",
+      "type": "",
+      "firstAscent": "Christer Åstrand, Björn Bergström -78",
+      "description": "",
+      "source": {
+        "id": "legacy:sjotorpsberget",
+        "path": "mediawiki/Sjötorpsberget.txt"
+      }
+    },
+    {
+      "id": "sjotorpsberget-led-15",
+      "kind": "route",
+      "number": "8a",
+      "name": "Omega 3",
+      "grade": "6b",
+      "length": "7",
+      "type": "",
+      "firstAscent": "Johan Luhr -94",
+      "description": "",
+      "source": {
+        "id": "legacy:sjotorpsberget",
+        "path": "mediawiki/Sjötorpsberget.txt"
+      }
+    },
+    {
+      "id": "sjotorpsberget-led-16",
+      "kind": "route",
+      "number": "9",
+      "name": "Flotter Otto",
+      "grade": "7-",
+      "length": "10",
+      "type": "mix",
+      "firstAscent": "Michael Stimmer, Claes Jelinek -88",
+      "description": "",
+      "source": {
+        "id": "legacy:sjotorpsberget",
+        "path": "mediawiki/Sjötorpsberget.txt"
+      }
+    },
+    {
+      "id": "sjotorpsberget-led-17",
+      "kind": "route",
+      "number": "10",
+      "name": "Opti",
+      "grade": "7a",
+      "length": "13",
+      "type": "sport",
+      "firstAscent": "Johan Luhr -94",
+      "description": "Saknar hängare?",
+      "source": {
+        "id": "legacy:sjotorpsberget",
+        "path": "mediawiki/Sjötorpsberget.txt"
+      }
+    },
+    {
+      "id": "sjotorpsberget-led-18",
+      "kind": "route",
+      "number": "11",
+      "name": "Kryssa",
+      "grade": "7c",
+      "length": "13",
+      "type": "sport",
+      "firstAscent": "Johan Luhr -94",
+      "description": "",
+      "source": {
+        "id": "legacy:sjotorpsberget",
+        "path": "mediawiki/Sjötorpsberget.txt"
+      }
+    },
+    {
+      "id": "sjotorpsberget-led-19",
+      "kind": "route",
+      "number": "11a",
+      "name": "I have a dream",
+      "grade": "8a",
+      "length": "8",
+      "type": "sport",
+      "firstAscent": "Johan Luhr -94",
+      "description": "Känslig och svagt överhängande.",
+      "source": {
+        "id": "legacy:sjotorpsberget",
+        "path": "mediawiki/Sjötorpsberget.txt"
+      }
+    },
+    {
+      "id": "sjotorpsberget-led-20",
+      "kind": "route",
+      "number": "12",
+      "name": "Kalaspuffen",
+      "grade": "7a",
+      "length": "9",
+      "type": "sport",
+      "firstAscent": "Claes Jelinek, Michael Stimmer -88",
+      "description": "Viker av höger över bullen och ansluter nu för tiden till ankaret på Glöm din dröm, om man vill ha något att fira från.",
+      "source": {
+        "id": "legacy:sjotorpsberget",
+        "path": "mediawiki/Sjötorpsberget.txt"
+      }
+    },
+    {
+      "id": "sjotorpsberget-led-21",
+      "kind": "route",
+      "number": "12a",
+      "name": "Kalaspuffen direkt",
+      "grade": "7a+",
+      "length": "9",
+      "type": "sport",
+      "firstAscent": "Johan Luhr -94",
+      "description": "",
+      "source": {
+        "id": "legacy:sjotorpsberget",
+        "path": "mediawiki/Sjötorpsberget.txt"
+      }
+    },
+    {
+      "id": "sjotorpsberget-led-22",
+      "kind": "route",
+      "number": "12b",
+      "name": "Glöm din dröm",
+      "grade": "6b",
+      "length": "13",
+      "type": "sport",
+      "firstAscent": "Erik Hagelin -12",
+      "description": "Ny led som legat gömd under mossan till höger om Kalaspuffen, innan Mister Twister. Roligt krux.",
+      "source": {
+        "id": "legacy:sjotorpsberget",
+        "path": "mediawiki/Sjötorpsberget.txt"
+      }
+    },
+    {
+      "id": "sjotorpsberget-led-23",
+      "kind": "route",
+      "number": "13a",
+      "name": "Mr Twister",
+      "grade": "6b+",
+      "length": "10",
+      "type": "sport",
+      "firstAscent": "Peter Yakubenko -07",
+      "description": "Genom taket till vänster om Mr Grotesh. Har tappat nyckelgrepp i starten och kan vara svårare nu. 4bb",
+      "source": {
+        "id": "legacy:sjotorpsberget",
+        "path": "mediawiki/Sjötorpsberget.txt"
+      }
+    },
+    {
+      "id": "sjotorpsberget-led-24",
+      "kind": "route",
+      "number": "13",
+      "name": "Mr Grotesh",
+      "grade": "7a",
+      "length": "11",
+      "type": "sport",
+      "firstAscent": "Johan Luhr -94",
+      "description": "Rejält överhängande klättring på stora grepp",
+      "source": {
+        "id": "legacy:sjotorpsberget",
+        "path": "mediawiki/Sjötorpsberget.txt"
+      }
+    },
+    {
+      "id": "sjotorpsberget-led-25",
+      "kind": "route",
+      "number": "14",
+      "name": "Casall",
+      "grade": "7b",
+      "length": "11",
+      "type": "sport",
+      "firstAscent": "Johan Luhr -94",
+      "description": "En extrabult har placerats till höger om första bulten där klippkvaliteten är bättre.",
+      "source": {
+        "id": "legacy:sjotorpsberget",
+        "path": "mediawiki/Sjötorpsberget.txt"
+      }
+    },
+    {
+      "id": "sjotorpsberget-led-26",
+      "kind": "route",
+      "number": "14a",
+      "name": "Nescafé",
+      "grade": "6c+",
+      "length": "11",
+      "type": "sport",
+      "firstAscent": "Peter Yakubenko -08",
+      "description": "Till höger om Casall. Start vid det stora flaket. Gemensamt ankare med Casall. 6 bb",
+      "source": {
+        "id": "legacy:sjotorpsberget",
+        "path": "mediawiki/Sjötorpsberget.txt"
+      }
+    },
+    {
+      "id": "sjotorpsberget-led-27",
+      "kind": "route",
+      "number": "14b",
+      "name": "Ghetto rebel",
+      "grade": "6c",
+      "length": "12",
+      "type": "sport",
+      "firstAscent": "Andreas Harne -09",
+      "description": "Börjar på mitten av flaket och går rakt upp till ett eget ankare. Kan vara lite lös. Först överhängande powerklättring, sedan fingrigt sva. 7 bb",
+      "source": {
+        "id": "legacy:sjotorpsberget",
+        "path": "mediawiki/Sjötorpsberget.txt"
+      }
+    },
+    {
+      "id": "sjotorpsberget-led-28",
+      "kind": "route",
+      "number": "15",
+      "name": "Bröstutställning",
+      "grade": "6b+",
+      "length": "12",
+      "type": "sport",
+      "firstAscent": "Michael Stimmer, Claes Jelinek, Björn Alber -88",
+      "description": "Ombultad -09 och försedd med nytt ankare.",
+      "source": {
+        "id": "legacy:sjotorpsberget",
+        "path": "mediawiki/Sjötorpsberget.txt"
+      }
+    },
+    {
+      "id": "sjotorpsberget-led-29",
+      "kind": "route",
+      "number": null,
+      "name": "Ransom",
+      "grade": "6c",
+      "length": "12",
+      "type": "sport",
+      "firstAscent": "Stefan Pettersson",
+      "description": "Genom taket mellan 15 och 16.",
+      "source": {
+        "id": "legacy:sjotorpsberget",
+        "path": "mediawiki/Sjötorpsberget.txt"
+      }
+    },
+    {
+      "id": "sjotorpsberget-led-30",
+      "kind": "route",
+      "number": "16",
+      "name": "Pungsuell",
+      "grade": "7a+",
+      "length": "13",
+      "type": "sport",
+      "firstAscent": "Johan Luhr -94",
+      "description": "Klippans uppvärmningsled",
+      "source": {
+        "id": "legacy:sjotorpsberget",
+        "path": "mediawiki/Sjötorpsberget.txt"
+      }
+    },
+    {
+      "id": "sjotorpsberget-led-31",
+      "kind": "route",
+      "number": "17",
+      "name": "Analterror",
+      "grade": "7b+",
+      "length": "13",
+      "type": "sport",
+      "firstAscent": "Claes Jelinek, Michael Stimmer -88",
+      "description": "",
+      "source": {
+        "id": "legacy:sjotorpsberget",
+        "path": "mediawiki/Sjötorpsberget.txt"
+      }
+    },
+    {
+      "id": "sjotorpsberget-led-32",
+      "kind": "route",
+      "number": "17a",
+      "name": "Rövsvett",
+      "grade": "6c",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "Claes Jelinek, Michael Stimmer -88",
+      "description": "",
+      "source": {
+        "id": "legacy:sjotorpsberget",
+        "path": "mediawiki/Sjötorpsberget.txt"
+      }
+    },
+    {
+      "id": "sjotorpsberget-led-33",
+      "kind": "route",
+      "number": "18a",
+      "name": "Skogsorm",
+      "grade": "7b+",
+      "length": "11",
+      "type": "sport",
+      "firstAscent": "Peter Yakubenko -08",
+      "description": "Vertikal vägg till vänster om Ramaskri. 5 bb",
+      "source": {
+        "id": "legacy:sjotorpsberget",
+        "path": "mediawiki/Sjötorpsberget.txt"
+      }
+    },
+    {
+      "id": "sjotorpsberget-led-34",
+      "kind": "route",
+      "number": "18",
+      "name": "Ramaskri",
+      "grade": "6+",
+      "length": "12",
+      "type": "trad",
+      "firstAscent": "Kaj von Damm, Buster Delin -91",
+      "description": "Dieder längst till höger",
+      "source": {
+        "id": "legacy:sjotorpsberget",
+        "path": "mediawiki/Sjötorpsberget.txt"
+      }
+    }
+  ],
+  "images": [
+    {
+      "filename": "I_have_a_dream.jpg",
+      "caption": "Stockholms 'baby 8a', I have a dream",
+      "missing": false
+    },
+    {
+      "filename": "Sjötorp.png",
+      "caption": "",
+      "missing": false
+    }
+  ],
+  "access": {
+    "legacyText": null,
+    "federationSlug": null
+  },
+  "qualityIssues": [],
+  "provenance": {
+    "primarySourceId": "legacy:sjotorpsberget",
+    "sources": [
+      {
+        "id": "legacy:sjotorpsberget",
+        "title": "Sverigeföraren 2014: Sjötorpsberget",
+        "path": "mediawiki/Sjötorpsberget.txt",
+        "license": "GNU Free Documentation License",
+        "snapshotDate": "2014-01-01"
+      }
+    ]
+  }
+}

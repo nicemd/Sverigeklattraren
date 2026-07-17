@@ -1,0 +1,114 @@
+{
+  "schemaVersion": 1,
+  "id": "jarna-tuna-backar",
+  "slug": "jarna-tuna-backar",
+  "name": "Järna, Tuna backar",
+  "description": "Superfin klippa vid Rönnvägen, nära Järna brandstation. Balansig och fin klättring.",
+  "coordinates": null,
+  "categories": [
+    "Södermanland"
+  ],
+  "sections": [
+    {
+      "id": "allmant",
+      "title": "Allmänt",
+      "body": "Superfin klippa vid Rönnvägen, nära Järna brandstation. Balansig och fin klättring."
+    },
+    {
+      "id": "vagbeskrivning",
+      "title": "Vägbeskrivning",
+      "body": "Från Södertälje/Sthlm åker du väg 57 mot Järna och svänger av till höger mot Nykvarn. Klippan ligger sedan på höger sida precis vid vägen efter 1,5 km"
+    },
+    {
+      "id": "problem",
+      "title": "Problem",
+      "body": "Kategori:Södermanland"
+    }
+  ],
+  "routes": [
+    {
+      "id": "jarna-tuna-backar-problem-1",
+      "kind": "problem",
+      "number": "1",
+      "name": "Asuk ♥ Teya",
+      "grade": "6A+",
+      "length": "",
+      "type": "",
+      "firstAscent": "",
+      "description": "Sittstart upp till sloper och sidokant, vidare upp via taket och toppa ut rakt upp (inte fega ut till vänster =) (Leif Olsson. 10)",
+      "source": {
+        "id": "legacy:jarna-tuna-backar",
+        "path": "mediawiki/Järna, Tuna backar.txt"
+      }
+    },
+    {
+      "id": "jarna-tuna-backar-problem-2",
+      "kind": "problem",
+      "number": "2",
+      "name": "Off we go!",
+      "grade": "6B+",
+      "length": "",
+      "type": "",
+      "firstAscent": "",
+      "description": "Sittstart upp till bra sidocrimpers, skicka upp till liten crimp till höger om \"Asuk ♥ Teya\". Vidare upp via bra jugge och toppa ut rakt upp till höger. (Leif Olsson. 10)",
+      "source": {
+        "id": "legacy:jarna-tuna-backar",
+        "path": "mediawiki/Järna, Tuna backar.txt"
+      }
+    },
+    {
+      "id": "jarna-tuna-backar-problem-3",
+      "kind": "problem",
+      "number": "3",
+      "name": "Klaustrofobiske Asuk",
+      "grade": "6B",
+      "length": "",
+      "type": "",
+      "firstAscent": "",
+      "description": "Sittstart upp till de 2 crimparna längst till höger nedanför taket. Gå upp via taket och avsluta via \"Off we go!\" (Leif Olsson. 10)",
+      "source": {
+        "id": "legacy:jarna-tuna-backar",
+        "path": "mediawiki/Järna, Tuna backar.txt"
+      }
+    },
+    {
+      "id": "jarna-tuna-backar-problem-4",
+      "kind": "problem",
+      "number": "4",
+      "name": "Hey ho, lets go!",
+      "grade": "6B+",
+      "length": "",
+      "type": "",
+      "firstAscent": "",
+      "description": "Samma start som Klaustrofobiske Asuk, men går istället ut till höger till bra hylla och sen toppa ut rakt upp till höger. (Leif Olsson.)",
+      "source": {
+        "id": "legacy:jarna-tuna-backar",
+        "path": "mediawiki/Järna, Tuna backar.txt"
+      }
+    }
+  ],
+  "images": [
+    {
+      "filename": "Tuna_backar_översikt.jpg",
+      "caption": "",
+      "missing": false
+    }
+  ],
+  "access": {
+    "legacyText": null,
+    "federationSlug": null
+  },
+  "qualityIssues": [],
+  "provenance": {
+    "primarySourceId": "legacy:jarna-tuna-backar",
+    "sources": [
+      {
+        "id": "legacy:jarna-tuna-backar",
+        "title": "Sverigeföraren 2014: Järna, Tuna backar",
+        "path": "mediawiki/Järna, Tuna backar.txt",
+        "license": "GNU Free Documentation License",
+        "snapshotDate": "2014-01-01"
+      }
+    ]
+  }
+}

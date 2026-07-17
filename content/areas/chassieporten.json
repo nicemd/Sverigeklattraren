@@ -1,0 +1,125 @@
+{
+  "schemaVersion": 1,
+  "id": "chassieporten",
+  "slug": "chassieporten",
+  "name": "Chassieporten",
+  "description": "Liten klipp-snutt med fantastisk stenkvalitet, allt annat talar emot klippans helhetsintryck. Numera är det lite mer röjt så att klippan ligger lite mer exponerad utan träden som syns t v på bilden!",
+  "coordinates": {
+    "latitude": 59.168391,
+    "longitude": 17.636906
+  },
+  "categories": [
+    "mix",
+    "Saknar skrivarformatering",
+    "Saknar vägbeskrivning",
+    "sport",
+    "sva",
+    "trad",
+    "vertikalt",
+    "Västra Södertörn",
+    "överhäng"
+  ],
+  "sections": [
+    {
+      "id": "allmant",
+      "title": "Allmänt",
+      "body": "Liten klipp-snutt med fantastisk stenkvalitet, allt annat talar emot klippans helhetsintryck. Numera är det lite mer röjt så att klippan ligger lite mer exponerad utan träden som syns t v på bilden!"
+    },
+    {
+      "id": "vagbeskrivning",
+      "title": "Vägbeskrivning",
+      "body": "Järnagatan/Nyköpingsvägen utanför Scanias chassieverkstad, egentligen på andra sidan Scania än själva Chassieporten. titel=Chassieporten lat=17636906 long=59168391"
+    },
+    {
+      "id": "leder",
+      "title": "Leder",
+      "body": "Kategori:sport Kategori:trad Kategori:vertikalt kategori:Saknar vägbeskrivning kategori:Saknar skrivarformatering Category:Stockholm Kategori:Västra Södertörn"
+    }
+  ],
+  "routes": [
+    {
+      "id": "chassieporten-led-1",
+      "kind": "route",
+      "number": "1",
+      "name": "Ludmillaz",
+      "grade": "6c",
+      "length": "7",
+      "type": "trad",
+      "firstAscent": "Mikael Söderström -10",
+      "description": "Solo",
+      "source": {
+        "id": "legacy:chassieporten",
+        "path": "mediawiki/Chassieporten.txt"
+      }
+    },
+    {
+      "id": "chassieporten-led-2",
+      "kind": "route",
+      "number": "2",
+      "name": "Bayram",
+      "grade": "7b+",
+      "length": "9",
+      "type": "sport",
+      "firstAscent": "Robin Dahlberg -08",
+      "description": "Upp o stå!",
+      "source": {
+        "id": "legacy:chassieporten",
+        "path": "mediawiki/Chassieporten.txt"
+      }
+    },
+    {
+      "id": "chassieporten-led-3",
+      "kind": "route",
+      "number": "3",
+      "name": "Se upp!",
+      "grade": "7c",
+      "length": "9",
+      "type": "sport",
+      "firstAscent": "Johan Luhr -08",
+      "description": "",
+      "source": {
+        "id": "legacy:chassieporten",
+        "path": "mediawiki/Chassieporten.txt"
+      }
+    },
+    {
+      "id": "chassieporten-led-4",
+      "kind": "route",
+      "number": "4",
+      "name": "Ostkanten",
+      "grade": "5 (5b)",
+      "length": "9",
+      "type": "mix",
+      "firstAscent": "Anders Henriksson 090517",
+      "description": "Uppsprucket och flackt efter bulten. Ett kilknippe eller småkammar om man vill säkra ovanför bulten. Delar sista bult med \"Se upp!\".",
+      "source": {
+        "id": "legacy:chassieporten",
+        "path": "mediawiki/Chassieporten.txt"
+      }
+    }
+  ],
+  "images": [
+    {
+      "filename": "Sdt_copy.jpg",
+      "caption": "",
+      "missing": false
+    }
+  ],
+  "access": {
+    "legacyText": null,
+    "federationSlug": null
+  },
+  "qualityIssues": [],
+  "provenance": {
+    "primarySourceId": "legacy:chassieporten",
+    "sources": [
+      {
+        "id": "legacy:chassieporten",
+        "title": "Sverigeföraren 2014: Chassieporten",
+        "path": "mediawiki/Chassieporten.txt",
+        "license": "GNU Free Documentation License",
+        "snapshotDate": "2014-01-01"
+      }
+    ]
+  }
+}

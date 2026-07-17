@@ -1,0 +1,222 @@
+{
+  "schemaVersion": 1,
+  "id": "brotorp",
+  "slug": "brotorp",
+  "name": "Brotorp",
+  "description": "Det finns tre intressanta väggar. En överhängande del som ligger skuggigt och myggigt till, en fin del i en \"amfiteater\" vid en grillplats, samt slutligen en liten svaklippa. Problemen har utvecklats av olika personer genom åren.",
+  "coordinates": null,
+  "categories": [],
+  "sections": [
+    {
+      "id": "allmant",
+      "title": "Allmänt",
+      "body": "Det finns tre intressanta väggar. En överhängande del som ligger skuggigt och myggigt till, en fin del i en \"amfiteater\" vid en grillplats, samt slutligen en liten svaklippa. Problemen har utvecklats av olika personer genom åren."
+    },
+    {
+      "id": "vagbeskrivning",
+      "title": "Vägbeskrivning",
+      "body": "Tunnelbanan är grön linje 17 mot Skarpnäck och stationen heter Bagarmossen eller Skarpnäck. Ta dig till Brotorpstugan på kanten till Nackareservatet mellan Bagarmossen och Skarpnäck. Kommer du med bil går det att parkera i slutet av Klarälvsvägen (om du gör det snyggt). Ta sedan gångvägen rakt ut i Nackareservatet så kommer du ner mot stugan. Från stugan går en grusväg som leder till Älta, gå denna över ån och rakt fram. När vägen går över ett sankt område där det går ett dräneringsrör under vägen (efter ca 500 meter), går du tillbaks 20 meter och tar in på stigen som är till vänster om du tittar mot Älta. Följ stigen, efter 30 meter är du framme vid överhängande väggen vid en matplats för rådjur. Följ stigen ytterligare 50-100 meter, uppför backen till höger. Nu är du framme vid Amfiteatern med en stor grillplats i mitten. För att komma till svaklippan går du till höger istället från den överhängande väggen och upp en bit längs kanten."
+    },
+    {
+      "id": "gammal-forare",
+      "title": "Gammal förare",
+      "body": "Gammal förare: Klaan"
+    },
+    {
+      "id": "overhangande-sektorn",
+      "title": "Överhängande sektorn",
+      "body": "Från vänster till höger..."
+    },
+    {
+      "id": "amfiteatern",
+      "title": "Amfiteatern",
+      "body": "Från vänster till höger..."
+    },
+    {
+      "id": "svavaggen",
+      "title": "Svaväggen",
+      "body": "TODO"
+    }
+  ],
+  "routes": [
+    {
+      "id": "brotorp-problem-1",
+      "kind": "problem",
+      "number": "1",
+      "name": "R.C.T.O.D",
+      "grade": "6A",
+      "length": "",
+      "type": "Svagt överhäng, krimpers",
+      "firstAscent": "Erik L",
+      "description": "Sittstart till vänster om 'inget' på bra Grepp, sedan rakt upp i Sprickan och toppa ut till höger via 'inget'",
+      "source": {
+        "id": "legacy:brotorp",
+        "path": "mediawiki/Brotorp.txt"
+      }
+    },
+    {
+      "id": "brotorp-problem-2",
+      "kind": "problem",
+      "number": "2",
+      "name": "Inget",
+      "grade": "6A+",
+      "length": "",
+      "type": "Svagt överhäng, krimpers",
+      "firstAscent": "Tomas G",
+      "description": "Sittstart på bra Grepp sedan upp till höger, toppa ut.",
+      "source": {
+        "id": "legacy:brotorp",
+        "path": "mediawiki/Brotorp.txt"
+      }
+    },
+    {
+      "id": "brotorp-problem-3",
+      "kind": "problem",
+      "number": "3",
+      "name": "Säg wallah!",
+      "grade": "6C+",
+      "length": "",
+      "type": "Överhäng",
+      "firstAscent": "DD",
+      "description": "Sittstart med vH på en list och hH i Sprickan, upp i Sprickan till Juggen, fortsätt rakt upp, toppa ut.",
+      "source": {
+        "id": "legacy:brotorp",
+        "path": "mediawiki/Brotorp.txt"
+      }
+    },
+    {
+      "id": "brotorp-problem-4",
+      "kind": "problem",
+      "number": "4",
+      "name": "Firestarter",
+      "grade": "(7A+/B?)",
+      "length": "",
+      "type": "Överhäng",
+      "firstAscent": "Moritz K",
+      "description": "Sittstart precis bakom de 2 stora träden på stort platt Grepp, över efter 3 move i stor jug; skulle varit top om trädet inte fanns då skulle man kunna toppa ut det.",
+      "source": {
+        "id": "legacy:brotorp",
+        "path": "mediawiki/Brotorp.txt"
+      }
+    },
+    {
+      "id": "brotorp-problem-5",
+      "kind": "problem",
+      "number": "5",
+      "name": "Al Taneen",
+      "grade": "(7A/+?)",
+      "length": "",
+      "type": "Vertikal/Överhäng",
+      "firstAscent": "Moritz K",
+      "description": "CA. 2 meter till höger ifrån de 2 stora träden. Sittstart med vH på en list och hH på bättre list, lättaste väg upp,3 move till stor bulle, match, toppa ut.",
+      "source": {
+        "id": "legacy:brotorp",
+        "path": "mediawiki/Brotorp.txt"
+      }
+    },
+    {
+      "id": "brotorp-problem-6",
+      "kind": "problem",
+      "number": "6",
+      "name": "Al Taneen Nar",
+      "grade": "(7A+?)",
+      "length": "",
+      "type": "Vertikal/Överhäng",
+      "firstAscent": "Moritz K",
+      "description": "CA. 2 meter till höger ifrån de 2 stora träden. Variant av \"Al Taneen\" där man undervika stora bullen och går mera (vänster) rakt upp istället (Bullen är varken med för händerna eller fötterna).",
+      "source": {
+        "id": "legacy:brotorp",
+        "path": "mediawiki/Brotorp.txt"
+      }
+    },
+    {
+      "id": "brotorp-problem-7",
+      "kind": "problem",
+      "number": "1",
+      "name": "r00t",
+      "grade": "6C",
+      "length": "",
+      "type": "Krimpers",
+      "firstAscent": "Tomas G",
+      "description": "Ståstart med händerna i Juggen sedan upp till en list, fortsätt upp till vänster, OBS. Bra Fot- och Handgrepp till vänster ingår ej. Grön linje (sittstart projekt, gul).",
+      "source": {
+        "id": "legacy:brotorp",
+        "path": "mediawiki/Brotorp.txt"
+      }
+    },
+    {
+      "id": "brotorp-problem-8",
+      "kind": "problem",
+      "number": "2",
+      "name": "Tattotia",
+      "grade": "6C",
+      "length": "",
+      "type": "Travers",
+      "firstAscent": "Erik L",
+      "description": "Sittstart med vH I Undercling/sidogrepp och hH I ett hål, traversera till vänster och toppa ut. Röd linje.",
+      "source": {
+        "id": "legacy:brotorp",
+        "path": "mediawiki/Brotorp.txt"
+      }
+    },
+    {
+      "id": "brotorp-problem-9",
+      "kind": "problem",
+      "number": "3",
+      "name": "Det är vad det är",
+      "grade": "6B+",
+      "length": "",
+      "type": "Catch",
+      "firstAscent": "Moritz K?",
+      "description": "Sittstart med vH på en bra list och hH i ett bra flak, Catch upp till ett bra Grepp och fortsätt rakt upp, toppa ut. Blå linje.",
+      "source": {
+        "id": "legacy:brotorp",
+        "path": "mediawiki/Brotorp.txt"
+      }
+    },
+    {
+      "id": "brotorp-problem-10",
+      "kind": "problem",
+      "number": "4",
+      "name": "Inget",
+      "grade": "5",
+      "length": "",
+      "type": "Uppvärmning",
+      "firstAscent": "",
+      "description": "Hängstart med Händerna i Juggen, traversera till vänster, avsluta med 'Det är vad det är'. Svart(?) linje.",
+      "source": {
+        "id": "legacy:brotorp",
+        "path": "mediawiki/Brotorp.txt"
+      }
+    }
+  ],
+  "images": [
+    {
+      "filename": "todo",
+      "caption": "",
+      "missing": true
+    },
+    {
+      "filename": "Amfitheater.jpg",
+      "caption": "",
+      "missing": false
+    }
+  ],
+  "access": {
+    "legacyText": null,
+    "federationSlug": null
+  },
+  "qualityIssues": [],
+  "provenance": {
+    "primarySourceId": "legacy:brotorp",
+    "sources": [
+      {
+        "id": "legacy:brotorp",
+        "title": "Sverigeföraren 2014: Brotorp",
+        "path": "mediawiki/Brotorp.txt",
+        "license": "GNU Free Documentation License",
+        "snapshotDate": "2014-01-01"
+      }
+    ]
+  }
+}

@@ -1,0 +1,836 @@
+{
+  "schemaVersion": 1,
+  "id": "bistaberget",
+  "slug": "bistaberget",
+  "name": "Bistaberget",
+  "description": "Lång, lodrät ca 20m hög klippvägg med ett 50-tal leder i graderna 3- till 8. Omväxlande och fin klättring..",
+  "coordinates": {
+    "latitude": 58.6238885690899,
+    "longitude": 16.857662200927734
+  },
+  "categories": [
+    "Nyköping",
+    "Sport",
+    "Södermanland",
+    "Trad",
+    "Vertikalt"
+  ],
+  "sections": [
+    {
+      "id": "allmant",
+      "title": "Allmänt",
+      "body": "Lång, lodrät ca 20m hög klippvägg med ett 50-tal leder i graderna 3- till 8. Omväxlande och fin klättring.."
+    },
+    {
+      "id": "beskrivning",
+      "title": "Beskrivning",
+      "body": "Bistaberget i sydöstra Södermanland ligger i den gamla gruvsocknen Tunaberg, bara några kilometer från klättereldoradot Simonsberget. Bistaberget är en lång, lodrät vägg som är ca 20 m hög. Här finns i dag ett 50-tal leder i graderna 3- till 8. Många av lederna är borrbultade och försedda med firningsankare. På Bistaberget hittar man även flera fina mix-leder, där (för det mesta) kruxet är bultat medan fina sprickor lämnats för traditionella säkringsmetoder. Det är inte jättelätt att tälta vid Bistaberget, men med lite god vilja finns det plats för 2-3 tält på hällarna 20m in i skogen från toppen. En förare som täcker Simonsberget, Bistaberget samt andra berg i Södermanland utkom i november 2006. Beställ via Danger Zone. Under hösten 2009 har flera nya ankare satts upp och några leder fått nya bultar. Arbetet kommer att fortsätta under början av 2010. Mer info på http://dangerzone.forum24.se/dangerzone-about18.html."
+    },
+    {
+      "id": "vagbeskrivning",
+      "title": "Vägbeskrivning",
+      "body": "Om du kommer E4 norrifrån, sväng av vid Nyköping V - det är den sista Nyköpingsavfarten. I andra rondellen sväng höger på väg 53 mot Oxelösund. Följ skyltar mot Nävekvarn. I Nävekvarn, ta vänster när du kommer till T-korsningen i samhället, och fortsätt ca 3.5km. Berget ligger vid vägen och går inte att missa. Tänk på att parkeringsfickan vid berget även är infart till åkern för bonden och hans traktor. Parkera snällt."
+    },
+    {
+      "id": "lankar",
+      "title": "Länkar",
+      "body": "Här finns en förare tillhandahållen av Linköpings klätterklubb. kategori:Nyköping kategori:Södermanland Kategori:Vertikalt Kategori:Sport Kategori:Trad"
+    }
+  ],
+  "routes": [
+    {
+      "id": "bistaberget-led-1",
+      "kind": "route",
+      "number": "1",
+      "name": "Trabant",
+      "grade": "4a",
+      "length": "",
+      "type": "boulder",
+      "firstAscent": "Andreas Harne-93",
+      "description": "orensad sololed. inte kul!",
+      "source": {
+        "id": "legacy:bistaberget",
+        "path": "mediawiki/Bistaberget.txt"
+      }
+    },
+    {
+      "id": "bistaberget-led-2",
+      "kind": "route",
+      "number": "2",
+      "name": "Grus i dojan",
+      "grade": "4c",
+      "length": "",
+      "type": "trad",
+      "firstAscent": "Andreas Harne-93",
+      "description": "",
+      "source": {
+        "id": "legacy:bistaberget",
+        "path": "mediawiki/Bistaberget.txt"
+      }
+    },
+    {
+      "id": "bistaberget-led-3",
+      "kind": "route",
+      "number": "3",
+      "name": "Silverpillan",
+      "grade": "5b",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "Niclas Amloh-91",
+      "description": "",
+      "source": {
+        "id": "legacy:bistaberget",
+        "path": "mediawiki/Bistaberget.txt"
+      }
+    },
+    {
+      "id": "bistaberget-led-4",
+      "kind": "route",
+      "number": "4",
+      "name": "Valium",
+      "grade": "6c",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "Andreas Harne-02",
+      "description": "",
+      "source": {
+        "id": "legacy:bistaberget",
+        "path": "mediawiki/Bistaberget.txt"
+      }
+    },
+    {
+      "id": "bistaberget-led-5",
+      "kind": "route",
+      "number": "5",
+      "name": "Nyckelsteget",
+      "grade": "6b+",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "Niclas Amloh-91",
+      "description": "",
+      "source": {
+        "id": "legacy:bistaberget",
+        "path": "mediawiki/Bistaberget.txt"
+      }
+    },
+    {
+      "id": "bistaberget-led-6",
+      "kind": "route",
+      "number": "6",
+      "name": "Återvändsgränden",
+      "grade": "6c+",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "Mickael Hermansson-91",
+      "description": "",
+      "source": {
+        "id": "legacy:bistaberget",
+        "path": "mediawiki/Bistaberget.txt"
+      }
+    },
+    {
+      "id": "bistaberget-led-7",
+      "kind": "route",
+      "number": "7",
+      "name": "Söndagspromenad",
+      "grade": "5a",
+      "length": "",
+      "type": "trad",
+      "firstAscent": "Niclas Amloh-91",
+      "description": "",
+      "source": {
+        "id": "legacy:bistaberget",
+        "path": "mediawiki/Bistaberget.txt"
+      }
+    },
+    {
+      "id": "bistaberget-led-8",
+      "kind": "route",
+      "number": "8",
+      "name": "Helgonet",
+      "grade": "6a+",
+      "length": "",
+      "type": "trad",
+      "firstAscent": "Andreas Harne-93",
+      "description": "",
+      "source": {
+        "id": "legacy:bistaberget",
+        "path": "mediawiki/Bistaberget.txt"
+      }
+    },
+    {
+      "id": "bistaberget-led-9",
+      "kind": "route",
+      "number": "9",
+      "name": "Små gröna män",
+      "grade": "6c+",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "Andreas Harne-05",
+      "description": "",
+      "source": {
+        "id": "legacy:bistaberget",
+        "path": "mediawiki/Bistaberget.txt"
+      }
+    },
+    {
+      "id": "bistaberget-led-10",
+      "kind": "route",
+      "number": "10",
+      "name": "Skriet från vildmarken",
+      "grade": "6b",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "Andreas Harne-93-05",
+      "description": "",
+      "source": {
+        "id": "legacy:bistaberget",
+        "path": "mediawiki/Bistaberget.txt"
+      }
+    },
+    {
+      "id": "bistaberget-led-11",
+      "kind": "route",
+      "number": "11",
+      "name": "Kapten Krok",
+      "grade": "6a",
+      "length": "",
+      "type": "trad",
+      "firstAscent": "Andreas Harne-93",
+      "description": "Börjar i en sprickformation, fortsätter upp i ett mindre dieder, via en hylla och sen upp i den större (jam)sprickan. Egentligen ren tradtur men går rakt över första bulten på ...förbannelse.",
+      "source": {
+        "id": "legacy:bistaberget",
+        "path": "mediawiki/Bistaberget.txt"
+      }
+    },
+    {
+      "id": "bistaberget-led-12",
+      "kind": "route",
+      "number": "12",
+      "name": "Kapten Kroks förbannelse",
+      "grade": "6a+/6c",
+      "length": "",
+      "type": "mix",
+      "firstAscent": "Andreas Harne-93",
+      "description": "Samma insteg som Kapten Krok men går efter hyllan rakt upp via 3 bultar. Två utstegsvarianter, 5a och 6c.",
+      "source": {
+        "id": "legacy:bistaberget",
+        "path": "mediawiki/Bistaberget.txt"
+      }
+    },
+    {
+      "id": "bistaberget-led-13",
+      "kind": "route",
+      "number": "13",
+      "name": "Televinken",
+      "grade": "6b",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "Andreas Harne-06",
+      "description": "",
+      "source": {
+        "id": "legacy:bistaberget",
+        "path": "mediawiki/Bistaberget.txt"
+      }
+    },
+    {
+      "id": "bistaberget-led-14",
+      "kind": "route",
+      "number": "14",
+      "name": "Den ofullbordade",
+      "grade": "6b+",
+      "length": "",
+      "type": "trad",
+      "firstAscent": "Andreas Harne/ Anders Norrga-94-02",
+      "description": "",
+      "source": {
+        "id": "legacy:bistaberget",
+        "path": "mediawiki/Bistaberget.txt"
+      }
+    },
+    {
+      "id": "bistaberget-led-15",
+      "kind": "route",
+      "number": "15",
+      "name": "Änglatrappan",
+      "grade": "6b",
+      "length": "",
+      "type": "mix",
+      "firstAscent": "Andreas Harne-01",
+      "description": "Mycket fin och varierande led. Går genom den tydliga \"alkoven\" upp i ett system av diedrar, sprickor och annat skoj. Säkrad med 3bb, en pitong och egna säkringar (välsäkrat) sista halvan.",
+      "source": {
+        "id": "legacy:bistaberget",
+        "path": "mediawiki/Bistaberget.txt"
+      }
+    },
+    {
+      "id": "bistaberget-led-16",
+      "kind": "route",
+      "number": "16",
+      "name": "Ta av dig skorna",
+      "grade": "6b+",
+      "length": "",
+      "type": "trad",
+      "firstAscent": "Jan Liljemark/ Lars Grankvist-83",
+      "description": "Trevlig, brant klättring upp via ett tydligt system av sprickor. Börjar till höger om sprickan som leder upp i spricksystemet och traverserar vänster in i sprickorna via några crimpar. Välsäkrad. Stor bastant tall på toppen om man vill topprepa (ta med statiskt rep).",
+      "source": {
+        "id": "legacy:bistaberget",
+        "path": "mediawiki/Bistaberget.txt"
+      }
+    },
+    {
+      "id": "bistaberget-led-17",
+      "kind": "route",
+      "number": "17",
+      "name": "Totalonanisten",
+      "grade": "7a+",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "Stefan Lindblom-01",
+      "description": "",
+      "source": {
+        "id": "legacy:bistaberget",
+        "path": "mediawiki/Bistaberget.txt"
+      }
+    },
+    {
+      "id": "bistaberget-led-18",
+      "kind": "route",
+      "number": "18",
+      "name": "Sodom",
+      "grade": "6c",
+      "length": "",
+      "type": "trad",
+      "firstAscent": "Andreas Harne-02",
+      "description": "",
+      "source": {
+        "id": "legacy:bistaberget",
+        "path": "mediawiki/Bistaberget.txt"
+      }
+    },
+    {
+      "id": "bistaberget-led-19",
+      "kind": "route",
+      "number": "19",
+      "name": "Månfararen",
+      "grade": "6c",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "Andreas Harne-02",
+      "description": "",
+      "source": {
+        "id": "legacy:bistaberget",
+        "path": "mediawiki/Bistaberget.txt"
+      }
+    },
+    {
+      "id": "bistaberget-led-20",
+      "kind": "route",
+      "number": "20",
+      "name": "En gång en en",
+      "grade": "5c",
+      "length": "",
+      "type": "trad",
+      "firstAscent": "Niclas Amloh-92",
+      "description": "",
+      "source": {
+        "id": "legacy:bistaberget",
+        "path": "mediawiki/Bistaberget.txt"
+      }
+    },
+    {
+      "id": "bistaberget-led-21",
+      "kind": "route",
+      "number": "21",
+      "name": "Syndafallet",
+      "grade": "7a+",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "Andreas Harne-06",
+      "description": "",
+      "source": {
+        "id": "legacy:bistaberget",
+        "path": "mediawiki/Bistaberget.txt"
+      }
+    },
+    {
+      "id": "bistaberget-led-22",
+      "kind": "route",
+      "number": "22",
+      "name": "Gas-Niclas",
+      "grade": "5b",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "Jon Wentzel/ Andreas Harne-02",
+      "description": "",
+      "source": {
+        "id": "legacy:bistaberget",
+        "path": "mediawiki/Bistaberget.txt"
+      }
+    },
+    {
+      "id": "bistaberget-led-23",
+      "kind": "route",
+      "number": "23",
+      "name": "Vampyren",
+      "grade": "6a+",
+      "length": "",
+      "type": "mix",
+      "firstAscent": "Jon Brint/ Nicklas Borneskog -95",
+      "description": "Halva leden välbultad, sista halvan egna säkringar. Ankaret finns en bra bit ut till vänster förbi den lilla tallen. Det finns även en kilsäkrad utstegsvariant med samma grad som går rakt upp i slutet, gjord av Andreas Harne i sept 2011. Ett ordentligt firningsankare ska sättas på varianten, i dag sitter en ensam bult där.",
+      "source": {
+        "id": "legacy:bistaberget",
+        "path": "mediawiki/Bistaberget.txt"
+      }
+    },
+    {
+      "id": "bistaberget-led-24",
+      "kind": "route",
+      "number": "24",
+      "name": "Sprattelgubben",
+      "grade": "7a",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "Andreas Harne-03",
+      "description": "",
+      "source": {
+        "id": "legacy:bistaberget",
+        "path": "mediawiki/Bistaberget.txt"
+      }
+    },
+    {
+      "id": "bistaberget-led-25",
+      "kind": "route",
+      "number": "25",
+      "name": "Dörrterror",
+      "grade": "7b",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "Stefan Lindblom-03",
+      "description": "",
+      "source": {
+        "id": "legacy:bistaberget",
+        "path": "mediawiki/Bistaberget.txt"
+      }
+    },
+    {
+      "id": "bistaberget-led-26",
+      "kind": "route",
+      "number": "26",
+      "name": "Anarkisten Direkt",
+      "grade": "7b",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "Andreas Harne-05",
+      "description": "Graden är omdiskuterad. I föraren står den som 7b+, vilket är mycket generöst. Många tycker den snarare är 7a+.",
+      "source": {
+        "id": "legacy:bistaberget",
+        "path": "mediawiki/Bistaberget.txt"
+      }
+    },
+    {
+      "id": "bistaberget-led-27",
+      "kind": "route",
+      "number": "27",
+      "name": "Ättestupan",
+      "grade": "5b",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "Andreas Harne -03",
+      "description": "Trevlig, välbultad led (förutom insteget). För graden exponerad och fin klättring.",
+      "source": {
+        "id": "legacy:bistaberget",
+        "path": "mediawiki/Bistaberget.txt"
+      }
+    },
+    {
+      "id": "bistaberget-led-28",
+      "kind": "route",
+      "number": "28",
+      "name": "Våga lite mer",
+      "grade": "6a",
+      "length": "",
+      "type": "mix",
+      "firstAscent": "Niclas Amloh-91",
+      "description": "Mycket fint, kilsäkrat utsteg. Går på stora grepp upp i den tydliga sprickan.",
+      "source": {
+        "id": "legacy:bistaberget",
+        "path": "mediawiki/Bistaberget.txt"
+      }
+    },
+    {
+      "id": "bistaberget-led-29",
+      "kind": "route",
+      "number": "29",
+      "name": "Anarkisten",
+      "grade": "6b+",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "Andreas Harne-94",
+      "description": "Börja i Ättestupan, gå sen rakt upp vid \"taket\". Följer den lodräta sprickan rakt upp, bygg ankare i tallen. Suverän, ihållande klättring.",
+      "source": {
+        "id": "legacy:bistaberget",
+        "path": "mediawiki/Bistaberget.txt"
+      }
+    },
+    {
+      "id": "bistaberget-led-30",
+      "kind": "route",
+      "number": "29a",
+      "name": "Dystopia",
+      "grade": "7a+",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "Andreas Harne-10",
+      "description": "Börja i Ättestupan, men gå omedelbart spikrakt upp och in i Lilla flickan zombie. Riktigt häftiga positioner.",
+      "source": {
+        "id": "legacy:bistaberget",
+        "path": "mediawiki/Bistaberget.txt"
+      }
+    },
+    {
+      "id": "bistaberget-led-31",
+      "kind": "route",
+      "number": "30",
+      "name": "Lilla flickan zombie",
+      "grade": "7a",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "Stefan Lindblom-00",
+      "description": "",
+      "source": {
+        "id": "legacy:bistaberget",
+        "path": "mediawiki/Bistaberget.txt"
+      }
+    },
+    {
+      "id": "bistaberget-led-32",
+      "kind": "route",
+      "number": "31",
+      "name": "Likplundraren",
+      "grade": "6c+",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "Stefan Lindblom-04",
+      "description": "",
+      "source": {
+        "id": "legacy:bistaberget",
+        "path": "mediawiki/Bistaberget.txt"
+      }
+    },
+    {
+      "id": "bistaberget-led-33",
+      "kind": "route",
+      "number": "32",
+      "name": "Mörkrets riddare",
+      "grade": "6b+",
+      "length": "",
+      "type": "trad",
+      "firstAscent": "Andreas Harne-02",
+      "description": "",
+      "source": {
+        "id": "legacy:bistaberget",
+        "path": "mediawiki/Bistaberget.txt"
+      }
+    },
+    {
+      "id": "bistaberget-led-34",
+      "kind": "route",
+      "number": "33",
+      "name": "Parkering förbjuden",
+      "grade": "6a",
+      "length": "",
+      "type": "trad",
+      "firstAscent": "Andreas Harne-94",
+      "description": "Den extremt tydliga och stora sprickan. Inte så lätt som den ser ut, dessutom ganska mossig.",
+      "source": {
+        "id": "legacy:bistaberget",
+        "path": "mediawiki/Bistaberget.txt"
+      }
+    },
+    {
+      "id": "bistaberget-led-35",
+      "kind": "route",
+      "number": "34",
+      "name": "Via Veterano",
+      "grade": "6b",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "Andreas Harne-02",
+      "description": "",
+      "source": {
+        "id": "legacy:bistaberget",
+        "path": "mediawiki/Bistaberget.txt"
+      }
+    },
+    {
+      "id": "bistaberget-led-36",
+      "kind": "route",
+      "number": "35",
+      "name": "Los Suecos borrachos y un coche",
+      "grade": "6a+",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "Andreas Harne-02",
+      "description": "Lite fingrigt och pilligt på för berget ganska annorlunda klippa; eroderad, skrovlig och kalkstenslik.",
+      "source": {
+        "id": "legacy:bistaberget",
+        "path": "mediawiki/Bistaberget.txt"
+      }
+    },
+    {
+      "id": "bistaberget-led-37",
+      "kind": "route",
+      "number": "36",
+      "name": "En glad bastard",
+      "grade": "6b+",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "Andreas Harne-03",
+      "description": "",
+      "source": {
+        "id": "legacy:bistaberget",
+        "path": "mediawiki/Bistaberget.txt"
+      }
+    },
+    {
+      "id": "bistaberget-led-38",
+      "kind": "route",
+      "number": "37",
+      "name": "Quasimodo",
+      "grade": "6b+",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "Andreas Harne-03",
+      "description": "",
+      "source": {
+        "id": "legacy:bistaberget",
+        "path": "mediawiki/Bistaberget.txt"
+      }
+    },
+    {
+      "id": "bistaberget-led-39",
+      "kind": "route",
+      "number": "38",
+      "name": "L'Homme mort",
+      "grade": "7b+",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "Robin Dahlberg-06",
+      "description": "",
+      "source": {
+        "id": "legacy:bistaberget",
+        "path": "mediawiki/Bistaberget.txt"
+      }
+    },
+    {
+      "id": "bistaberget-led-40",
+      "kind": "route",
+      "number": "39",
+      "name": "Prästens irrfärd",
+      "grade": "7a",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "Andreas Harne-05",
+      "description": "",
+      "source": {
+        "id": "legacy:bistaberget",
+        "path": "mediawiki/Bistaberget.txt"
+      }
+    },
+    {
+      "id": "bistaberget-led-41",
+      "kind": "route",
+      "number": "40",
+      "name": "Resningen",
+      "grade": "6a+",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "J. Brint/ J. Falkestedt",
+      "description": "",
+      "source": {
+        "id": "legacy:bistaberget",
+        "path": "mediawiki/Bistaberget.txt"
+      }
+    },
+    {
+      "id": "bistaberget-led-42",
+      "kind": "route",
+      "number": "41",
+      "name": "Älskade desperado",
+      "grade": "7b",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "Andreas Harne-04",
+      "description": "",
+      "source": {
+        "id": "legacy:bistaberget",
+        "path": "mediawiki/Bistaberget.txt"
+      }
+    },
+    {
+      "id": "bistaberget-led-43",
+      "kind": "route",
+      "number": "42",
+      "name": "Moonwalker",
+      "grade": "8a",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "Scott Mooney-2011",
+      "description": "Södermanlands första 8a",
+      "source": {
+        "id": "legacy:bistaberget",
+        "path": "mediawiki/Bistaberget.txt"
+      }
+    },
+    {
+      "id": "bistaberget-led-44",
+      "kind": "route",
+      "number": "43",
+      "name": "Aerodynamex",
+      "grade": "7a",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "Jonas Franzen/ Andreas Harne-04",
+      "description": "",
+      "source": {
+        "id": "legacy:bistaberget",
+        "path": "mediawiki/Bistaberget.txt"
+      }
+    },
+    {
+      "id": "bistaberget-led-45",
+      "kind": "route",
+      "number": "44",
+      "name": "Rigor mortis",
+      "grade": "7a",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "Andreas Harne/ Jonas Franzen-04",
+      "description": "",
+      "source": {
+        "id": "legacy:bistaberget",
+        "path": "mediawiki/Bistaberget.txt"
+      }
+    },
+    {
+      "id": "bistaberget-led-46",
+      "kind": "route",
+      "number": "45",
+      "name": "Kampen mot Mars",
+      "grade": "7b",
+      "length": "",
+      "type": "trad",
+      "firstAscent": "Jonas Franzen-04",
+      "description": "",
+      "source": {
+        "id": "legacy:bistaberget",
+        "path": "mediawiki/Bistaberget.txt"
+      }
+    },
+    {
+      "id": "bistaberget-led-47",
+      "kind": "route",
+      "number": "45",
+      "name": "Bullen",
+      "grade": "4a",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "Niclas Amloh-91",
+      "description": "",
+      "source": {
+        "id": "legacy:bistaberget",
+        "path": "mediawiki/Bistaberget.txt"
+      }
+    },
+    {
+      "id": "bistaberget-led-48",
+      "kind": "route",
+      "number": "46",
+      "name": "Diedern",
+      "grade": "5a",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "Andreas Harne-93",
+      "description": "",
+      "source": {
+        "id": "legacy:bistaberget",
+        "path": "mediawiki/Bistaberget.txt"
+      }
+    },
+    {
+      "id": "bistaberget-led-49",
+      "kind": "route",
+      "number": "47",
+      "name": "Lilla My",
+      "grade": "5c",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "Daniel Eriksson-93",
+      "description": "",
+      "source": {
+        "id": "legacy:bistaberget",
+        "path": "mediawiki/Bistaberget.txt"
+      }
+    },
+    {
+      "id": "bistaberget-led-50",
+      "kind": "route",
+      "number": "48",
+      "name": "Råttan",
+      "grade": "5b",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "Andreas Harne-93",
+      "description": "",
+      "source": {
+        "id": "legacy:bistaberget",
+        "path": "mediawiki/Bistaberget.txt"
+      }
+    }
+  ],
+  "images": [
+    {
+      "filename": "Bistaberget_full.jpg",
+      "caption": "Per Lindh",
+      "missing": false
+    },
+    {
+      "filename": "Bistaberget-leder-1.jpg",
+      "caption": "",
+      "missing": false
+    },
+    {
+      "filename": "Bistaberget-leder-2.jpg",
+      "caption": "",
+      "missing": false
+    },
+    {
+      "filename": "Bistaberget-leder-3.jpg",
+      "caption": "",
+      "missing": false
+    },
+    {
+      "filename": "Bistaberget-leder-4.jpg",
+      "caption": "",
+      "missing": false
+    }
+  ],
+  "access": {
+    "legacyText": null,
+    "federationSlug": null
+  },
+  "qualityIssues": [],
+  "provenance": {
+    "primarySourceId": "legacy:bistaberget",
+    "sources": [
+      {
+        "id": "legacy:bistaberget",
+        "title": "Sverigeföraren 2014: Bistaberget",
+        "path": "mediawiki/Bistaberget.txt",
+        "license": "GNU Free Documentation License",
+        "snapshotDate": "2014-01-01"
+      }
+    ]
+  }
+}

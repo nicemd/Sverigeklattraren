@@ -1,0 +1,303 @@
+{
+  "schemaVersion": 1,
+  "id": "vaxnas",
+  "slug": "vaxnas",
+  "name": "Våxnäs",
+  "description": "I stadsdelen Våxnäs (centralt i Karlstad) finns dessa klippor. En handfull olika väggar på ca 3 meters höjd. Sol under hela dagen ger lång säsong och något enstaka problem kanske kan försvara ett besök.",
+  "coordinates": {
+    "latitude": 59.387936,
+    "longitude": 13.461063
+  },
+  "categories": [
+    "bouldering",
+    "vertikalt"
+  ],
+  "sections": [
+    {
+      "id": "allmant",
+      "title": "Allmänt",
+      "body": "I stadsdelen Våxnäs (centralt i Karlstad) finns dessa klippor. En handfull olika väggar på ca 3 meters höjd. Sol under hela dagen ger lång säsong och något enstaka problem kanske kan försvara ett besök."
+    },
+    {
+      "id": "vagbeskrivning",
+      "title": "Vägbeskrivning",
+      "body": "Kör mot stadsdelen Våxnäs, följ vägen Karmgatan mot Våxnäshallen och en fotbollsplan. Följ Karmgatan vänster när du ser hallen och fotbollsplanen rakt fram. Följ Karmgatan förbi avfarten till Hemvägen tills vägen övergår i en bussfil (bussfilen fortsätter förbi Vårdcentralen Västerstrand). Parkera i vändplanen, där det står bilar (gratis) och titta åt höger/upp mot skogen så borde du se klipporna. 100 meter från parkering."
+    },
+    {
+      "id": "sektioner",
+      "title": "Sektioner",
+      "body": "Sektionerna är uppräknade från vänster till höger. Graderna endast uppskattade av klättrare utan erfarenhet av bouldergrader och dess disciplin. Var god ändra direkt på sidan om de känns felaktiga."
+    },
+    {
+      "id": "hiv-vaggen",
+      "title": "HIV-väggen",
+      "body": "Klippartiet högst upp till vänster. Börjar med en tyngre överhängande parti. Mer befriad från grepp än övriga partier vilket gör den till Våxnäs testpiece. Allteftersom väggen sluttar nedåt höger, blir problemen lättare. Sektionen uppkallad efter allt skräp som tyvärr finns i direkt anslutning till väggen. Krossade glasflaskor, kondomer och vem vet... kanske en kanyl gömmer sig i gräset? Glöm inte paddan för att undvika... sjukdomar och annat. Ett annat alternativ är vinterbesök, så snön isolerar och skyddar. Väggen är vid en slänt. Om du inte vill trilla ner och rulla nedför slänten rekommenderas en spotter."
+    },
+    {
+      "id": "u2-vaggen",
+      "title": "U2-väggen",
+      "body": "Namnet U2 står/stod skrivet på väggen. Därav namnet på denna sektion. En plattvägg i vinkel. Några problem gjorda, men något ytterligare kanske möjligt. Namnen på problemen följer samma tema som sektionen. Problemen uppräknade från höger till vänster."
+    },
+    {
+      "id": "vinkel-vaggen",
+      "title": "Vinkel-väggen",
+      "body": "En vägg likt de andra i 90 graders vinkel. Placerad ganska långt till höger. Till skillnad mot andra väggar i vinkel så har denna en stenplatta i botten. Lederna räknas upp från höger till vänster. Kategori:vertikalt Kategori:bouldering Category:Värmland"
+    }
+  ],
+  "routes": [
+    {
+      "id": "vaxnas-problem-1",
+      "kind": "problem",
+      "number": "1",
+      "name": "Arslet I Dåligt Skick",
+      "grade": "6-isch?",
+      "length": "",
+      "type": "crimp, catch",
+      "firstAscent": "Sören Danielsson, Martin Jurander",
+      "description": "4-fingercrimp för vänster hand som nätt och jämt sväljer fingertopparna. Grov rensning resulterade i riktigt bra crimp för höger hand. Etablera fötter och dra sedan direkt till kanten. Hoppstart givetvis uteslutet.",
+      "source": {
+        "id": "legacy:vaxnas",
+        "path": "mediawiki/Våxnäs.txt"
+      }
+    },
+    {
+      "id": "vaxnas-problem-2",
+      "kind": "problem",
+      "number": "2",
+      "name": "Pulkrunkaren",
+      "grade": "6-isch?",
+      "length": "",
+      "type": "crimp, undercling",
+      "firstAscent": "Martin Jurander, Sören Danielsson",
+      "description": "Mellan aids och herpes. vänster hand på bra crimp, höger hand förslagsvis i undercling. upp till sidogrepp under kant eller launcha hela vägen upp. Går du ut höger till snälla kanten är du svag och feg.",
+      "source": {
+        "id": "legacy:vaxnas",
+        "path": "mediawiki/Våxnäs.txt"
+      }
+    },
+    {
+      "id": "vaxnas-problem-3",
+      "kind": "problem",
+      "number": "2-1",
+      "name": "Jag väljer Herpes",
+      "grade": "5-isch?",
+      "length": "",
+      "type": "",
+      "firstAscent": "Sören Danielsson",
+      "description": "Samma start som pulkrunkaren, men du är svag och flyr ut till höger och snälla utsteget.",
+      "source": {
+        "id": "legacy:vaxnas",
+        "path": "mediawiki/Våxnäs.txt"
+      }
+    },
+    {
+      "id": "vaxnas-problem-4",
+      "kind": "problem",
+      "number": "3",
+      "name": "Herpes",
+      "grade": "4?",
+      "length": "",
+      "type": "",
+      "firstAscent": "Sören Danielsson, Jonas Wallmander",
+      "description": "Något för alla (vilket namnet syftar på). Upp via stora tydliga hyllor och flak mitt på HIV-väggen.",
+      "source": {
+        "id": "legacy:vaxnas",
+        "path": "mediawiki/Våxnäs.txt"
+      }
+    },
+    {
+      "id": "vaxnas-problem-5",
+      "kind": "problem",
+      "number": "4",
+      "name": "projekt",
+      "grade": "?",
+      "length": "",
+      "type": "travers",
+      "firstAscent": "",
+      "description": "Travers. Börja där led 2 börjar. Gå via enkla grepp snett uppåt höger till den slopade kanten ovanför släta väggen. Se upp så du inte lägger handen i glas på kanten. Fortsätt genom \"tomtar i trumpeten\" och avsluta på lösa blocket där denna börjar. Namnförslag: Hepatit C",
+      "source": {
+        "id": "legacy:vaxnas",
+        "path": "mediawiki/Våxnäs.txt"
+      }
+    },
+    {
+      "id": "vaxnas-problem-6",
+      "kind": "problem",
+      "number": "5",
+      "name": "Tomtar i trumpeten",
+      "grade": "5b-5c?",
+      "length": "",
+      "type": "spricka, travers",
+      "firstAscent": "Sören Danielsson",
+      "description": "Börja med match på stora lösa blocket, följ sedan stora sprickan snett upp åt vänster. Bjuder mer motstånd än det ser ut.",
+      "source": {
+        "id": "legacy:vaxnas",
+        "path": "mediawiki/Våxnäs.txt"
+      }
+    },
+    {
+      "id": "vaxnas-problem-7",
+      "kind": "problem",
+      "number": "1",
+      "name": "Beautiful Day",
+      "grade": "6a?",
+      "length": "",
+      "type": "crimp, catch",
+      "firstAscent": "Sören Danielsson",
+      "description": "Börjar på areten, leta dig åt höger och etablera dig på vettiga crimpar innan du skickar till bra grepp rakt upp. Går du upp via stora greppet kl 10-11 nallar du på annat problem. Aja baja.",
+      "source": {
+        "id": "legacy:vaxnas",
+        "path": "mediawiki/Våxnäs.txt"
+      }
+    },
+    {
+      "id": "vaxnas-problem-8",
+      "kind": "problem",
+      "number": "2",
+      "name": "Sweetest thing",
+      "grade": "5-isch?",
+      "length": "",
+      "type": "arete",
+      "firstAscent": "Sören Danielsson",
+      "description": "Börja på areten och följ den sedan rakt upp",
+      "source": {
+        "id": "legacy:vaxnas",
+        "path": "mediawiki/Våxnäs.txt"
+      }
+    },
+    {
+      "id": "vaxnas-problem-9",
+      "kind": "problem",
+      "number": "3",
+      "name": "Elevation",
+      "grade": "6a?",
+      "length": "",
+      "type": "catch",
+      "firstAscent": "Sören Danielsson",
+      "description": "Börjar på platta väggen till vänster om areten, fina startgrepp, sedan \"långt\" one-move-wonder till tydliga hyllan strax under toppen och upp.",
+      "source": {
+        "id": "legacy:vaxnas",
+        "path": "mediawiki/Våxnäs.txt"
+      }
+    },
+    {
+      "id": "vaxnas-problem-10",
+      "kind": "problem",
+      "number": "4",
+      "name": "Bad",
+      "grade": "?",
+      "length": "",
+      "type": "",
+      "firstAscent": "Jonas Wallmander",
+      "description": "Upp via tydliga grepp \"i hörnet\" till vänster om Elevation",
+      "source": {
+        "id": "legacy:vaxnas",
+        "path": "mediawiki/Våxnäs.txt"
+      }
+    },
+    {
+      "id": "vaxnas-problem-11",
+      "kind": "problem",
+      "number": "5",
+      "name": "I still haven't found what I'm looking for",
+      "grade": "?",
+      "length": "",
+      "type": "",
+      "firstAscent": "Jonas Wallmander",
+      "description": "Över tvärhyllorna till vänster om \"bad\".",
+      "source": {
+        "id": "legacy:vaxnas",
+        "path": "mediawiki/Våxnäs.txt"
+      }
+    },
+    {
+      "id": "vaxnas-problem-12",
+      "kind": "problem",
+      "number": "1",
+      "name": "åh, strääääääääck.",
+      "grade": "6a?",
+      "length": "",
+      "type": "crimp, catch",
+      "firstAscent": "Sören Danielsson",
+      "description": "Sittstart och händer på två ok lister, sträck dig upp till en liten horisontalspricka. Etablera dig och skicka till kanten.",
+      "source": {
+        "id": "legacy:vaxnas",
+        "path": "mediawiki/Våxnäs.txt"
+      }
+    },
+    {
+      "id": "vaxnas-problem-13",
+      "kind": "problem",
+      "number": "2",
+      "name": "Kung Alkinoos",
+      "grade": "5?",
+      "length": "",
+      "type": "arete",
+      "firstAscent": "Sören Danielsson",
+      "description": "Börja på areten och leta dig upp åt höger. Dra sedan rakt upp. (Kung Alkinoos var drottning Aretes make)",
+      "source": {
+        "id": "legacy:vaxnas",
+        "path": "mediawiki/Våxnäs.txt"
+      }
+    },
+    {
+      "id": "vaxnas-problem-14",
+      "kind": "problem",
+      "number": "3",
+      "name": "Faiakernas drottning",
+      "grade": "5?",
+      "length": "",
+      "type": "arete",
+      "firstAscent": "Sören Danielsson, Jonas Wallmander",
+      "description": "Rakt upp på areten (Faiakernas drottning hette Arete).",
+      "source": {
+        "id": "legacy:vaxnas",
+        "path": "mediawiki/Våxnäs.txt"
+      }
+    }
+  ],
+  "images": [
+    {
+      "filename": "Hiv.JPG",
+      "caption": "right",
+      "missing": false
+    },
+    {
+      "filename": "Hiv2.JPG",
+      "caption": "Jonas på \"tomtar i trumpeten\"",
+      "missing": false
+    },
+    {
+      "filename": "Tn_vaxnas-u2sida1.JPG",
+      "caption": "Sweetest thing & Beautiful Day",
+      "missing": false
+    },
+    {
+      "filename": "Tn_vaxnas-u2sida.JPG",
+      "caption": "Vänstra delen av u2-väggen",
+      "missing": false
+    },
+    {
+      "filename": "Tn_vaxnas-vinkel.JPG",
+      "caption": "Vinkelväggen.",
+      "missing": false
+    }
+  ],
+  "access": {
+    "legacyText": null,
+    "federationSlug": null
+  },
+  "qualityIssues": [],
+  "provenance": {
+    "primarySourceId": "legacy:vaxnas",
+    "sources": [
+      {
+        "id": "legacy:vaxnas",
+        "title": "Sverigeföraren 2014: Våxnäs",
+        "path": "mediawiki/Våxnäs.txt",
+        "license": "GNU Free Documentation License",
+        "snapshotDate": "2014-01-01"
+      }
+    ]
+  }
+}

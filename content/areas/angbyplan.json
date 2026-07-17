@@ -1,0 +1,89 @@
+{
+  "schemaVersion": 1,
+  "id": "angbyplan",
+  "slug": "angbyplan",
+  "name": "Ängbyplan",
+  "description": "Kategori:Saknar allmän infoKategori:Saknar vägbeskrivning =Vägbeskrivning= Se även:Bloxc =Problem= Kategori:Stockholm Kategori:Bouldering Kategori:Bimbo Kategori:Behöver kvalitetssäkras Kategori:Saknar karta Kategori:Saknar koordinater Kategori:Saknar skrivarformattering Kategori:Saknar skiss",
+  "coordinates": {
+    "latitude": 59.338749,
+    "longitude": 17.911663
+  },
+  "categories": [
+    "Behöver kvalitetssäkras",
+    "Bimbo",
+    "Bouldering",
+    "Saknar allmän info",
+    "Saknar karta",
+    "Saknar koordinater",
+    "Saknar skiss",
+    "Saknar skrivarformattering",
+    "Saknar vägbeskrivning",
+    "Stockholm"
+  ],
+  "sections": [],
+  "routes": [
+    {
+      "id": "angbyplan-problem-1",
+      "kind": "problem",
+      "number": null,
+      "name": "Vulgar display of power",
+      "grade": "7C",
+      "length": "",
+      "type": "Överhäng",
+      "firstAscent": "Matte Nyberg",
+      "description": "Sittstart mitt på den branta väggen, dra upp till sidtag och vidare vä mot arêten och avsluta uppför denna.",
+      "source": {
+        "id": "legacy:angbyplan",
+        "path": "mediawiki/Ängbyplan.txt"
+      }
+    },
+    {
+      "id": "angbyplan-problem-2",
+      "kind": "problem",
+      "number": null,
+      "name": "Big L",
+      "grade": "7A+",
+      "length": "",
+      "type": "Dyno",
+      "firstAscent": "?",
+      "description": "Runt vä från VDP, från jug upp höger (dyno).",
+      "source": {
+        "id": "legacy:angbyplan",
+        "path": "mediawiki/Ängbyplan.txt"
+      }
+    },
+    {
+      "id": "angbyplan-problem-3",
+      "kind": "problem",
+      "number": null,
+      "name": "Bastard",
+      "grade": "7C+",
+      "length": "",
+      "type": "Krimp,Överhäng",
+      "firstAscent": "Jon Smedsaas",
+      "description": "Ståstart på Vulgarväggen. Rakt upp utan areten. Lite läskigt på slutet.",
+      "source": {
+        "id": "legacy:angbyplan",
+        "path": "mediawiki/Ängbyplan.txt"
+      }
+    }
+  ],
+  "images": [],
+  "access": {
+    "legacyText": null,
+    "federationSlug": null
+  },
+  "qualityIssues": [],
+  "provenance": {
+    "primarySourceId": "legacy:angbyplan",
+    "sources": [
+      {
+        "id": "legacy:angbyplan",
+        "title": "Sverigeföraren 2014: Ängbyplan",
+        "path": "mediawiki/Ängbyplan.txt",
+        "license": "GNU Free Documentation License",
+        "snapshotDate": "2014-01-01"
+      }
+    ]
+  }
+}

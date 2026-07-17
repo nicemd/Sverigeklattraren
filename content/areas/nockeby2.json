@@ -1,0 +1,149 @@
+{
+  "schemaVersion": 1,
+  "id": "nockeby2",
+  "slug": "nockeby2",
+  "name": "Nockeby2",
+  "description": "Kategori:Saknar allmän infoKategori:Saknar vägbeskrivning =Vägbeskrivning= =Problem= Kategori:Stockholm Kategori:Bouldering Kategori:Bimbo Kategori:Behöver kvalitetssäkras Kategori:Saknar karta Kategori:Saknar koordinater Kategori:Saknar skrivarformattering Kategori:Saknar skiss",
+  "coordinates": {
+    "latitude": 59.330661,
+    "longitude": 17.921791
+  },
+  "categories": [
+    "Behöver kvalitetssäkras",
+    "Bimbo",
+    "Bouldering",
+    "Saknar allmän info",
+    "Saknar karta",
+    "Saknar koordinater",
+    "Saknar skiss",
+    "Saknar skrivarformattering",
+    "Saknar vägbeskrivning",
+    "Stockholm"
+  ],
+  "sections": [],
+  "routes": [
+    {
+      "id": "nockeby2-problem-1",
+      "kind": "problem",
+      "number": null,
+      "name": "Moonlander assis",
+      "grade": "8A+",
+      "length": "",
+      "type": "",
+      "firstAscent": "Brizmo",
+      "description": "Sittstart till Moonlander.",
+      "source": {
+        "id": "legacy:nockeby2",
+        "path": "mediawiki/Nockeby2.txt"
+      }
+    },
+    {
+      "id": "nockeby2-problem-2",
+      "kind": "problem",
+      "number": null,
+      "name": "Nocke-By Shooting",
+      "grade": "7C+",
+      "length": "",
+      "type": "Överhäng",
+      "firstAscent": "Stefan Pettersson",
+      "description": "Sittstart som Moonlander, sedan vä längs arêteformationen.",
+      "source": {
+        "id": "legacy:nockeby2",
+        "path": "mediawiki/Nockeby2.txt"
+      }
+    },
+    {
+      "id": "nockeby2-problem-3",
+      "kind": "problem",
+      "number": null,
+      "name": "Shizzewhizzle",
+      "grade": "7C",
+      "length": "",
+      "type": "Travers V->H",
+      "firstAscent": "Crell",
+      "description": "Start som Moonlander ss, sedan travers höger under taket ut runt arêten.",
+      "source": {
+        "id": "legacy:nockeby2",
+        "path": "mediawiki/Nockeby2.txt"
+      }
+    },
+    {
+      "id": "nockeby2-problem-4",
+      "kind": "problem",
+      "number": null,
+      "name": "Moonlander",
+      "grade": "7C",
+      "length": "",
+      "type": "",
+      "firstAscent": "Brizmo",
+      "description": "Klassiker",
+      "source": {
+        "id": "legacy:nockeby2",
+        "path": "mediawiki/Nockeby2.txt"
+      }
+    },
+    {
+      "id": "nockeby2-problem-5",
+      "kind": "problem",
+      "number": null,
+      "name": "Stillhetens hav",
+      "grade": "8A",
+      "length": "",
+      "type": "",
+      "firstAscent": "Peter Bosma",
+      "description": "Areten till höger om Moonlander",
+      "source": {
+        "id": "legacy:nockeby2",
+        "path": "mediawiki/Nockeby2.txt"
+      }
+    },
+    {
+      "id": "nockeby2-problem-6",
+      "kind": "problem",
+      "number": null,
+      "name": "Armstrong",
+      "grade": "8A",
+      "length": "",
+      "type": "",
+      "firstAscent": "Peter Bosma",
+      "description": "Som Moonlander men toppa ut åt höger.",
+      "source": {
+        "id": "legacy:nockeby2",
+        "path": "mediawiki/Nockeby2.txt"
+      }
+    },
+    {
+      "id": "nockeby2-problem-7",
+      "kind": "problem",
+      "number": null,
+      "name": "Armstrong assis",
+      "grade": "8B",
+      "length": "",
+      "type": "",
+      "firstAscent": "Peter Bosma",
+      "description": "Sittstart till Armstrong.",
+      "source": {
+        "id": "legacy:nockeby2",
+        "path": "mediawiki/Nockeby2.txt"
+      }
+    }
+  ],
+  "images": [],
+  "access": {
+    "legacyText": null,
+    "federationSlug": null
+  },
+  "qualityIssues": [],
+  "provenance": {
+    "primarySourceId": "legacy:nockeby2",
+    "sources": [
+      {
+        "id": "legacy:nockeby2",
+        "title": "Sverigeföraren 2014: Nockeby2",
+        "path": "mediawiki/Nockeby2.txt",
+        "license": "GNU Free Documentation License",
+        "snapshotDate": "2014-01-01"
+      }
+    ]
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "id": "skeda-udde",
+  "slug": "skeda-udde",
+  "name": "Skeda Udde",
+  "description": "Kategori:Saknar allmän infoKategori:Saknar vägbeskrivning =Problem= Kategori:Linköping Kategori:Bouldering Kategori:Bimbo Kategori:Behöver kvalitetssäkras Kategori:Saknar karta Kategori:Saknar koordinater Kategori:Saknar skrivarformattering Kategori:Saknar skiss",
+  "coordinates": null,
+  "categories": [
+    "Behöver kvalitetssäkras",
+    "Bimbo",
+    "Bouldering",
+    "Linköping",
+    "Saknar allmän info",
+    "Saknar karta",
+    "Saknar koordinater",
+    "Saknar skiss",
+    "Saknar skrivarformattering",
+    "Saknar vägbeskrivning"
+  ],
+  "sections": [],
+  "routes": [
+    {
+      "id": "skeda-udde-problem-1",
+      "kind": "problem",
+      "number": null,
+      "name": "Trip hop",
+      "grade": "6C+",
+      "length": "",
+      "type": "",
+      "firstAscent": "S Holm",
+      "description": "",
+      "source": {
+        "id": "legacy:skeda-udde",
+        "path": "mediawiki/Skeda Udde.txt"
+      }
+    }
+  ],
+  "images": [],
+  "access": {
+    "legacyText": null,
+    "federationSlug": null
+  },
+  "qualityIssues": [],
+  "provenance": {
+    "primarySourceId": "legacy:skeda-udde",
+    "sources": [
+      {
+        "id": "legacy:skeda-udde",
+        "title": "Sverigeföraren 2014: Skeda Udde",
+        "path": "mediawiki/Skeda Udde.txt",
+        "license": "GNU Free Documentation License",
+        "snapshotDate": "2014-01-01"
+      }
+    ]
+  }
+}

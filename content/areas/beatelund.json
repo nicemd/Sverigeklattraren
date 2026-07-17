@@ -1,0 +1,570 @@
+{
+  "schemaVersion": 1,
+  "id": "beatelund",
+  "slug": "beatelund",
+  "name": "Beatelund",
+  "description": "Klippan ligger på södra Farstalandet, alldeles väster om Beatelunds gård. Detta är ett ganska stort berg med flera olika väggpartier som delvis går rakt ned i Kolström, det mycket smala sundet mellan Farstalandet och Ingarö. Berget är tämligen utforskat. Här finns dock möjligheter att göra fler leder.",
+  "coordinates": {
+    "latitude": 59.29208,
+    "longitude": 18.36107
+  },
+  "categories": [
+    "Mix",
+    "Nacka-Värmdö",
+    "Saknar kolumner",
+    "Saknar skiss",
+    "Saknar skrivarformatering",
+    "Sport",
+    "Stockholm",
+    "Sva",
+    "Trad",
+    "Överhäng"
+  ],
+  "sections": [
+    {
+      "id": "allmant",
+      "title": "Allmänt",
+      "body": "Klippan ligger på södra Farstalandet, alldeles väster om Beatelunds gård. Detta är ett ganska stort berg med flera olika väggpartier som delvis går rakt ned i Kolström, det mycket smala sundet mellan Farstalandet och Ingarö. Berget är tämligen utforskat. Här finns dock möjligheter att göra fler leder."
+    },
+    {
+      "id": "extern-forare",
+      "title": "Extern förare",
+      "body": "Förare med skiss finns på Stockholms Nätförare"
+    },
+    {
+      "id": "vagbeskrivning",
+      "title": "Vägbeskrivning",
+      "body": "titel=Beatelund lat=18361070 long=59292080 Kör mot Ingarö, sväng mot Beatelund innan bron. Efter 1,4 km passeras en flott grind på v sida. Efter ytterligare 400m gör vägen en skarp högersväng. Parkera här. Gå in i skogen och ta sikte mot högsta punkten. Rakt nedanför ligger röda väggen och th går Cabragg."
+    },
+    {
+      "id": "sidovaggen",
+      "title": "Sidoväggen",
+      "body": "Instegen till Kladdragg, Cabragg och Sponken är på en tämligen exponerad hylla. Ta med nått (en friend typiskt) för att sätta fast säkringsmannen för att undvika tandemfall innan första bulten är klippt. Dessa leder samt Borsten Torsten har ett gemensamt toppankare med två bultar som borde bytas ut/ändras. Dels sitter hängarna ett par centimeter ut från berget med ett tiotal brickor emellan. Kanske allvarligare är att ringhängaren som används inte förbunden med den andra bulten. I stället har man monterat kedjan i expanderpinnen under (dvs händer något med den så floppar också backupen...)"
+    },
+    {
+      "id": "svavaggen",
+      "title": "Svaväggen",
+      "body": "2011-10-04. Muttern i ankaret som rapporterades vara lös har nu åtgärdats"
+    },
+    {
+      "id": "ornnastet",
+      "title": "Örnnästet",
+      "body": "Kategori:Nacka-Värmdö Kategori:Stockholm Kategori:Sport Kategori:Trad Kategori:Mix Kategori:Överhäng Kategori:Sva Kategori:Saknar skiss Kategori:Saknar kolumner Kategori:Saknar skrivarformatering"
+    }
+  ],
+  "routes": [
+    {
+      "id": "beatelund-led-1",
+      "kind": "route",
+      "number": null,
+      "name": "Kladdragg",
+      "grade": "6a",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "Jesper Andersson, Christer Jansson -96",
+      "description": "Snarare 6b.",
+      "source": {
+        "id": "legacy:beatelund",
+        "path": "mediawiki/Beatelund.txt"
+      }
+    },
+    {
+      "id": "beatelund-led-2",
+      "kind": "route",
+      "number": null,
+      "name": "Cabragg",
+      "grade": "6a",
+      "length": "",
+      "type": "mix",
+      "firstAscent": "Mats Olofsson -95",
+      "description": "",
+      "source": {
+        "id": "legacy:beatelund",
+        "path": "mediawiki/Beatelund.txt"
+      }
+    },
+    {
+      "id": "beatelund-led-3",
+      "kind": "route",
+      "number": null,
+      "name": "Sponken",
+      "grade": "5c",
+      "length": "",
+      "type": "mix",
+      "firstAscent": "Mats Olofsson, Marco Kupiainen -97",
+      "description": "",
+      "source": {
+        "id": "legacy:beatelund",
+        "path": "mediawiki/Beatelund.txt"
+      }
+    },
+    {
+      "id": "beatelund-led-4",
+      "kind": "route",
+      "number": null,
+      "name": "Borsten Torsten",
+      "grade": "6c",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "Mats Olofsson, Claes Thornberg -97",
+      "description": "",
+      "source": {
+        "id": "legacy:beatelund",
+        "path": "mediawiki/Beatelund.txt"
+      }
+    },
+    {
+      "id": "beatelund-led-5",
+      "kind": "route",
+      "number": null,
+      "name": "Hårdhudade Hagberg",
+      "grade": "5b",
+      "length": "",
+      "type": "trad",
+      "firstAscent": "Ludde Hagberg, Christer Jansson, Mats Olofsson -96",
+      "description": "",
+      "source": {
+        "id": "legacy:beatelund",
+        "path": "mediawiki/Beatelund.txt"
+      }
+    },
+    {
+      "id": "beatelund-led-6",
+      "kind": "route",
+      "number": null,
+      "name": "FTW",
+      "grade": "7a",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "Mats Olofsson, Marco Kupiainen -96",
+      "description": "",
+      "source": {
+        "id": "legacy:beatelund",
+        "path": "mediawiki/Beatelund.txt"
+      }
+    },
+    {
+      "id": "beatelund-led-7",
+      "kind": "route",
+      "number": null,
+      "name": "Öppet projekt",
+      "grade": "?",
+      "length": "",
+      "type": "projekt",
+      "firstAscent": "",
+      "description": "Till höger om FTW",
+      "source": {
+        "id": "legacy:beatelund",
+        "path": "mediawiki/Beatelund.txt"
+      }
+    },
+    {
+      "id": "beatelund-led-8",
+      "kind": "route",
+      "number": null,
+      "name": "The fin",
+      "grade": "4a",
+      "length": "",
+      "type": "trad",
+      "firstAscent": "Christer Jansson, Ludde Hagberg -96",
+      "description": "",
+      "source": {
+        "id": "legacy:beatelund",
+        "path": "mediawiki/Beatelund.txt"
+      }
+    },
+    {
+      "id": "beatelund-led-9",
+      "kind": "route",
+      "number": null,
+      "name": "Minihångel",
+      "grade": "3a",
+      "length": "",
+      "type": "solo",
+      "firstAscent": "Marco Kupiainen -96",
+      "description": "",
+      "source": {
+        "id": "legacy:beatelund",
+        "path": "mediawiki/Beatelund.txt"
+      }
+    },
+    {
+      "id": "beatelund-led-10",
+      "kind": "route",
+      "number": null,
+      "name": "Piggsvinet",
+      "grade": "6a+",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "Marco Kupiainen, Mats Olofsson -97",
+      "description": "Massor med mer eller mindre lösa grepp och steg! Om du inte kan låta bli att klättra leden så bör säkringsmannen bära hjälm!!",
+      "source": {
+        "id": "legacy:beatelund",
+        "path": "mediawiki/Beatelund.txt"
+      }
+    },
+    {
+      "id": "beatelund-led-11",
+      "kind": "route",
+      "number": null,
+      "name": "Gubben i berget",
+      "grade": "5c",
+      "length": "15",
+      "type": "sport",
+      "firstAscent": "Thomas Eriksson-07",
+      "description": "Går längs aréten tv om \"Den maskerade..\".",
+      "source": {
+        "id": "legacy:beatelund",
+        "path": "mediawiki/Beatelund.txt"
+      }
+    },
+    {
+      "id": "beatelund-led-12",
+      "kind": "route",
+      "number": null,
+      "name": "Den maskerade smiskaren",
+      "grade": "6c",
+      "length": "20",
+      "type": "sport",
+      "firstAscent": "Mats Olofsson, Claes Thornberg, Peter Andersson -99",
+      "description": "",
+      "source": {
+        "id": "legacy:beatelund",
+        "path": "mediawiki/Beatelund.txt"
+      }
+    },
+    {
+      "id": "beatelund-led-13",
+      "kind": "route",
+      "number": null,
+      "name": "Mosarmasse",
+      "grade": "6c",
+      "length": "20",
+      "type": "sport",
+      "firstAscent": "Mats Olofsson, Peter Andersson -99",
+      "description": "",
+      "source": {
+        "id": "legacy:beatelund",
+        "path": "mediawiki/Beatelund.txt"
+      }
+    },
+    {
+      "id": "beatelund-led-14",
+      "kind": "route",
+      "number": null,
+      "name": "Håll i dig",
+      "grade": "6c+",
+      "length": "9",
+      "type": "sport",
+      "firstAscent": "Johan Luhr",
+      "description": "Kort med markant krux",
+      "source": {
+        "id": "legacy:beatelund",
+        "path": "mediawiki/Beatelund.txt"
+      }
+    },
+    {
+      "id": "beatelund-led-15",
+      "kind": "route",
+      "number": null,
+      "name": "Land of broken dreams",
+      "grade": "6c+",
+      "length": "10",
+      "type": "sport",
+      "firstAscent": "Claes Thornberg",
+      "description": "Tung och överhängande",
+      "source": {
+        "id": "legacy:beatelund",
+        "path": "mediawiki/Beatelund.txt"
+      }
+    },
+    {
+      "id": "beatelund-led-16",
+      "kind": "route",
+      "number": null,
+      "name": "plonk.nu",
+      "grade": "7c",
+      "length": "13",
+      "type": "sport",
+      "firstAscent": "Mikael Widerberg -99",
+      "description": "Brant",
+      "source": {
+        "id": "legacy:beatelund",
+        "path": "mediawiki/Beatelund.txt"
+      }
+    },
+    {
+      "id": "beatelund-led-17",
+      "kind": "route",
+      "number": null,
+      "name": "Hej!",
+      "grade": "7b",
+      "length": "10",
+      "type": "sport",
+      "firstAscent": "Johan Luhr -99",
+      "description": "",
+      "source": {
+        "id": "legacy:beatelund",
+        "path": "mediawiki/Beatelund.txt"
+      }
+    },
+    {
+      "id": "beatelund-led-18",
+      "kind": "route",
+      "number": null,
+      "name": "Big bag boulder",
+      "grade": "7a+",
+      "length": "10",
+      "type": "sport",
+      "firstAscent": "Mikael Widerberg",
+      "description": "Svårt insteg med dåligt placerad bult",
+      "source": {
+        "id": "legacy:beatelund",
+        "path": "mediawiki/Beatelund.txt"
+      }
+    },
+    {
+      "id": "beatelund-led-19",
+      "kind": "route",
+      "number": null,
+      "name": "Bamsiga baguetter",
+      "grade": "5b",
+      "length": "20",
+      "type": "mix",
+      "firstAscent": "Mats Olofsson, Peter Andersson, Claes Thornberg -98",
+      "description": "",
+      "source": {
+        "id": "legacy:beatelund",
+        "path": "mediawiki/Beatelund.txt"
+      }
+    },
+    {
+      "id": "beatelund-led-20",
+      "kind": "route",
+      "number": null,
+      "name": "Claes boulder",
+      "grade": "6c+",
+      "length": "",
+      "type": "trad",
+      "firstAscent": "Claes Thornberg",
+      "description": "Alt insteg till Bamsiga baguetter",
+      "source": {
+        "id": "legacy:beatelund",
+        "path": "mediawiki/Beatelund.txt"
+      }
+    },
+    {
+      "id": "beatelund-led-21",
+      "kind": "route",
+      "number": null,
+      "name": "Axellux",
+      "grade": "5b",
+      "length": "20",
+      "type": "trad",
+      "firstAscent": "Mats Olofsson, Peter Andersson -97",
+      "description": "Kanontrevlig klättring och förvånansvärt välsäkrad med ett par små friends i början.",
+      "source": {
+        "id": "legacy:beatelund",
+        "path": "mediawiki/Beatelund.txt"
+      }
+    },
+    {
+      "id": "beatelund-led-22",
+      "kind": "route",
+      "number": null,
+      "name": "En möglig årgång",
+      "grade": "5c",
+      "length": "20",
+      "type": "trad",
+      "firstAscent": "Mats Olofsson, Peter Andersson -97",
+      "description": "",
+      "source": {
+        "id": "legacy:beatelund",
+        "path": "mediawiki/Beatelund.txt"
+      }
+    },
+    {
+      "id": "beatelund-led-23",
+      "kind": "route",
+      "number": null,
+      "name": "Dubbla militärkallingar",
+      "grade": "5c",
+      "length": "20",
+      "type": "mix",
+      "firstAscent": "Mats Olofsson -97",
+      "description": "",
+      "source": {
+        "id": "legacy:beatelund",
+        "path": "mediawiki/Beatelund.txt"
+      }
+    },
+    {
+      "id": "beatelund-led-24",
+      "kind": "route",
+      "number": null,
+      "name": "Putita de Noche",
+      "grade": "6c",
+      "length": "6",
+      "type": "trad",
+      "firstAscent": "Claes Thornberg -97",
+      "description": "Avsluta med Dubbla militärkallingar",
+      "source": {
+        "id": "legacy:beatelund",
+        "path": "mediawiki/Beatelund.txt"
+      }
+    },
+    {
+      "id": "beatelund-led-25",
+      "kind": "route",
+      "number": null,
+      "name": "Chulu",
+      "grade": "4a",
+      "length": "16",
+      "type": "mix",
+      "firstAscent": "Mats Olofsson -97",
+      "description": "",
+      "source": {
+        "id": "legacy:beatelund",
+        "path": "mediawiki/Beatelund.txt"
+      }
+    },
+    {
+      "id": "beatelund-led-26",
+      "kind": "route",
+      "number": null,
+      "name": "Cabrones",
+      "grade": "5b",
+      "length": "20",
+      "type": "mix",
+      "firstAscent": "Mats Olofsson, Claes Thornberg -98",
+      "description": "",
+      "source": {
+        "id": "legacy:beatelund",
+        "path": "mediawiki/Beatelund.txt"
+      }
+    },
+    {
+      "id": "beatelund-led-27",
+      "kind": "route",
+      "number": null,
+      "name": "Göra kor",
+      "grade": "4c",
+      "length": "22",
+      "type": "trad",
+      "firstAscent": "Mats Olofsson, Claes Thornberg -98",
+      "description": "Läskiga säkringar bakom flak där inte en enda är pålitlig. Dock värd att göra med topprep.",
+      "source": {
+        "id": "legacy:beatelund",
+        "path": "mediawiki/Beatelund.txt"
+      }
+    },
+    {
+      "id": "beatelund-led-28",
+      "kind": "route",
+      "number": null,
+      "name": "Frysta Prinskorvar",
+      "grade": "4c",
+      "length": "",
+      "type": "trad",
+      "firstAscent": "Lars Svadängs, Lars Grankvist -79",
+      "description": "Eftersom hela väggpartiet är klätterbart kan man i praktiken göra två parallella och trevliga linjer. Halvbra säkringspunkter där väggen tar slut men om repet räcker kan man fortsätta ett tjugotal meter till några tallar.",
+      "source": {
+        "id": "legacy:beatelund",
+        "path": "mediawiki/Beatelund.txt"
+      }
+    },
+    {
+      "id": "beatelund-led-29",
+      "kind": "route",
+      "number": null,
+      "name": "Har du en mutter lös?",
+      "grade": "4c",
+      "length": "42",
+      "type": "mix",
+      "firstAscent": "Mats Olofsson, Staffan Gustavsson -98",
+      "description": "Lång",
+      "source": {
+        "id": "legacy:beatelund",
+        "path": "mediawiki/Beatelund.txt"
+      }
+    },
+    {
+      "id": "beatelund-led-30",
+      "kind": "route",
+      "number": null,
+      "name": "I will survive",
+      "grade": "7a+",
+      "length": "8",
+      "type": "sport",
+      "firstAscent": "Claes Thornberg -99",
+      "description": "",
+      "source": {
+        "id": "legacy:beatelund",
+        "path": "mediawiki/Beatelund.txt"
+      }
+    },
+    {
+      "id": "beatelund-led-31",
+      "kind": "route",
+      "number": null,
+      "name": "Village People",
+      "grade": "6c",
+      "length": "8",
+      "type": "mix",
+      "firstAscent": "Claes Thornberg -98",
+      "description": "",
+      "source": {
+        "id": "legacy:beatelund",
+        "path": "mediawiki/Beatelund.txt"
+      }
+    },
+    {
+      "id": "beatelund-led-32",
+      "kind": "route",
+      "number": null,
+      "name": "Inget att vara stolt över",
+      "grade": "5c",
+      "length": "8",
+      "type": "mix",
+      "firstAscent": "Claes Thornberg, Mats Olofsson, Peter Andersson -98",
+      "description": "",
+      "source": {
+        "id": "legacy:beatelund",
+        "path": "mediawiki/Beatelund.txt"
+      }
+    },
+    {
+      "id": "beatelund-led-33",
+      "kind": "route",
+      "number": null,
+      "name": "Djävulska hyllor",
+      "grade": "4+",
+      "length": "8",
+      "type": "mix",
+      "firstAscent": "Mats Olofsson, Staffan Gustavsson -xx",
+      "description": "",
+      "source": {
+        "id": "legacy:beatelund",
+        "path": "mediawiki/Beatelund.txt"
+      }
+    }
+  ],
+  "images": [],
+  "access": {
+    "legacyText": null,
+    "federationSlug": null
+  },
+  "qualityIssues": [],
+  "provenance": {
+    "primarySourceId": "legacy:beatelund",
+    "sources": [
+      {
+        "id": "legacy:beatelund",
+        "title": "Sverigeföraren 2014: Beatelund",
+        "path": "mediawiki/Beatelund.txt",
+        "license": "GNU Free Documentation License",
+        "snapshotDate": "2014-01-01"
+      }
+    ]
+  }
+}

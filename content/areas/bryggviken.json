@@ -1,0 +1,302 @@
+{
+  "schemaVersion": 1,
+  "id": "bryggviken",
+  "slug": "bryggviken",
+  "name": "Bryggviken",
+  "description": "Liten oansenlig klippa 5 km sydväst om Bålsta. Klippan är som mest 8 m hög och ca 20 m bred.",
+  "coordinates": null,
+  "categories": [
+    "Mix",
+    "Norra Stockholm",
+    "Saknar karta",
+    "Saknar kolumner",
+    "Saknar lednummer",
+    "Saknar skiss",
+    "Saknar vägbeskrivning",
+    "Sport",
+    "Stockholm",
+    "Trad"
+  ],
+  "sections": [
+    {
+      "id": "allmant",
+      "title": "Allmänt",
+      "body": "Liten oansenlig klippa 5 km sydväst om Bålsta. Klippan är som mest 8 m hög och ca 20 m bred."
+    },
+    {
+      "id": "access",
+      "title": "Access",
+      "body": "OBS!!! Det råder begränsad acess på klippan. Det är förbjudet att beträda bergsbranter och stup under perioden 1 jan - 31 juli. Förare med skiss finns på Stockholms Nätförare,Bryggviken"
+    },
+    {
+      "id": "vagbeskrivning",
+      "title": "Vägbeskrivning",
+      "body": "Position: 11 H SO kartlänk"
+    },
+    {
+      "id": "leder",
+      "title": "Leder",
+      "body": "Kategori:Trad Kategori:Sport Kategori:Mix Kategori:Saknar skiss Kategori:Saknar karta Kategori:Saknar lednummer Kategori:Saknar kolumner Kategori:Saknar vägbeskrivning Kategori:Stockholm Kategori:Norra Stockholm"
+    }
+  ],
+  "routes": [
+    {
+      "id": "bryggviken-led-1",
+      "kind": "route",
+      "number": null,
+      "name": "Krakslottet",
+      "grade": "6-",
+      "length": "7",
+      "type": "mix",
+      "firstAscent": "Kjell Henriksson-92",
+      "description": "",
+      "source": {
+        "id": "legacy:bryggviken",
+        "path": "mediawiki/Bryggviken.txt"
+      }
+    },
+    {
+      "id": "bryggviken-led-2",
+      "kind": "route",
+      "number": null,
+      "name": "Klockspelet",
+      "grade": "4+",
+      "length": "13",
+      "type": "trad",
+      "firstAscent": "Ake Soderberg-90",
+      "description": "",
+      "source": {
+        "id": "legacy:bryggviken",
+        "path": "mediawiki/Bryggviken.txt"
+      }
+    },
+    {
+      "id": "bryggviken-led-3",
+      "kind": "route",
+      "number": null,
+      "name": "Stackars Jack",
+      "grade": "6-",
+      "length": "6",
+      "type": "mix",
+      "firstAscent": "Ola Soderberg-93",
+      "description": "",
+      "source": {
+        "id": "legacy:bryggviken",
+        "path": "mediawiki/Bryggviken.txt"
+      }
+    },
+    {
+      "id": "bryggviken-led-4",
+      "kind": "route",
+      "number": null,
+      "name": "Nangilima",
+      "grade": "5-",
+      "length": "10",
+      "type": "",
+      "firstAscent": "Kjell Henriksson-92",
+      "description": "",
+      "source": {
+        "id": "legacy:bryggviken",
+        "path": "mediawiki/Bryggviken.txt"
+      }
+    },
+    {
+      "id": "bryggviken-led-5",
+      "kind": "route",
+      "number": null,
+      "name": "Nangijala",
+      "grade": "4",
+      "length": "8",
+      "type": "trad",
+      "firstAscent": "Ola Soderberg-97",
+      "description": "",
+      "source": {
+        "id": "legacy:bryggviken",
+        "path": "mediawiki/Bryggviken.txt"
+      }
+    },
+    {
+      "id": "bryggviken-led-6",
+      "kind": "route",
+      "number": null,
+      "name": "Valborg",
+      "grade": "3+",
+      "length": "",
+      "type": "trad",
+      "firstAscent": "Tor soderberg-93",
+      "description": "",
+      "source": {
+        "id": "legacy:bryggviken",
+        "path": "mediawiki/Bryggviken.txt"
+      }
+    },
+    {
+      "id": "bryggviken-led-7",
+      "kind": "route",
+      "number": null,
+      "name": "Enigma",
+      "grade": "4+",
+      "length": "10",
+      "type": "trad",
+      "firstAscent": "Tor Soderberg-93",
+      "description": "",
+      "source": {
+        "id": "legacy:bryggviken",
+        "path": "mediawiki/Bryggviken.txt"
+      }
+    },
+    {
+      "id": "bryggviken-led-8",
+      "kind": "route",
+      "number": null,
+      "name": "On the rocks",
+      "grade": "5-",
+      "length": "11",
+      "type": "",
+      "firstAscent": "Kay von Damm-90",
+      "description": "",
+      "source": {
+        "id": "legacy:bryggviken",
+        "path": "mediawiki/Bryggviken.txt"
+      }
+    },
+    {
+      "id": "bryggviken-led-9",
+      "kind": "route",
+      "number": null,
+      "name": "Spiran",
+      "grade": "5-",
+      "length": "7",
+      "type": "mix",
+      "firstAscent": "Ola Soderberg-89",
+      "description": "",
+      "source": {
+        "id": "legacy:bryggviken",
+        "path": "mediawiki/Bryggviken.txt"
+      }
+    },
+    {
+      "id": "bryggviken-led-10",
+      "kind": "route",
+      "number": null,
+      "name": "Trango Extrem",
+      "grade": "7",
+      "length": "15",
+      "type": "sport",
+      "firstAscent": "Ola Soderberg-90",
+      "description": "",
+      "source": {
+        "id": "legacy:bryggviken",
+        "path": "mediawiki/Bryggviken.txt"
+      }
+    },
+    {
+      "id": "bryggviken-led-11",
+      "kind": "route",
+      "number": null,
+      "name": "Jack Daniels",
+      "grade": "5",
+      "length": "15",
+      "type": "trad",
+      "firstAscent": "Ola Soderberg-89",
+      "description": "",
+      "source": {
+        "id": "legacy:bryggviken",
+        "path": "mediawiki/Bryggviken.txt"
+      }
+    },
+    {
+      "id": "bryggviken-led-12",
+      "kind": "route",
+      "number": null,
+      "name": "Det",
+      "grade": "5+",
+      "length": "6",
+      "type": "trad",
+      "firstAscent": "Ola Soderberg-89",
+      "description": "",
+      "source": {
+        "id": "legacy:bryggviken",
+        "path": "mediawiki/Bryggviken.txt"
+      }
+    },
+    {
+      "id": "bryggviken-led-13",
+      "kind": "route",
+      "number": null,
+      "name": "Biltjuven",
+      "grade": "5",
+      "length": "6",
+      "type": "trad",
+      "firstAscent": "Ola Soderberg-89",
+      "description": "",
+      "source": {
+        "id": "legacy:bryggviken",
+        "path": "mediawiki/Bryggviken.txt"
+      }
+    },
+    {
+      "id": "bryggviken-led-14",
+      "kind": "route",
+      "number": null,
+      "name": "King Karl",
+      "grade": "5",
+      "length": "10",
+      "type": "sport",
+      "firstAscent": "Ola Soderberg-89",
+      "description": "",
+      "source": {
+        "id": "legacy:bryggviken",
+        "path": "mediawiki/Bryggviken.txt"
+      }
+    },
+    {
+      "id": "bryggviken-led-15",
+      "kind": "route",
+      "number": null,
+      "name": "Magic Mushrooms",
+      "grade": "6",
+      "length": "9",
+      "type": "mix",
+      "firstAscent": "Ola Soderberg",
+      "description": "",
+      "source": {
+        "id": "legacy:bryggviken",
+        "path": "mediawiki/Bryggviken.txt"
+      }
+    },
+    {
+      "id": "bryggviken-led-16",
+      "kind": "route",
+      "number": null,
+      "name": "Scarface",
+      "grade": "5+",
+      "length": "8",
+      "type": "sport",
+      "firstAscent": "Ola Soderberg-89",
+      "description": "",
+      "source": {
+        "id": "legacy:bryggviken",
+        "path": "mediawiki/Bryggviken.txt"
+      }
+    }
+  ],
+  "images": [],
+  "access": {
+    "legacyText": "OBS!!! Det råder begränsad acess på klippan. Det är förbjudet att beträda bergsbranter och stup under perioden 1 jan - 31 juli. Förare med skiss finns på Stockholms Nätförare,Bryggviken",
+    "federationSlug": null
+  },
+  "qualityIssues": [],
+  "provenance": {
+    "primarySourceId": "legacy:bryggviken",
+    "sources": [
+      {
+        "id": "legacy:bryggviken",
+        "title": "Sverigeföraren 2014: Bryggviken",
+        "path": "mediawiki/Bryggviken.txt",
+        "license": "GNU Free Documentation License",
+        "snapshotDate": "2014-01-01"
+      }
+    ]
+  }
+}

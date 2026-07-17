@@ -1,0 +1,159 @@
+{
+  "schemaVersion": 1,
+  "id": "hogbo",
+  "slug": "hogbo",
+  "name": "Högbo",
+  "description": "=Allmänt= Området består än så länge av endast ett stort flyttblock. Men pga dess storlek kan blocket erbjuda många fina problem. =Vägbeskrivning= Kör till Valbo centrum. Sväng in mot Mio möbler, korsning vid gamla Vivo lågan. Kör vägen rakt fram och rakt igenom korsningen i Bäck. Efter en par km svänger ni höger mot Svartviksstugan. Kör ett par hundra meter så kommer blocket på höger sida. =Problem= Kategori:Gävle Kategori:Bouldering Kategori:Bimbo Kategori:Behöver kvalitetssäkras Kategori:Saknar karta Kategori:Saknar koordinater Kategori:Saknar skrivarformattering Kategori:Saknar skiss",
+  "coordinates": null,
+  "categories": [
+    "Behöver kvalitetssäkras",
+    "Bimbo",
+    "Bouldering",
+    "Gävle",
+    "Saknar karta",
+    "Saknar koordinater",
+    "Saknar skiss",
+    "Saknar skrivarformattering"
+  ],
+  "sections": [],
+  "routes": [
+    {
+      "id": "hogbo-problem-1",
+      "kind": "problem",
+      "number": "1",
+      "name": "General",
+      "grade": "6C",
+      "length": "",
+      "type": "Överhäng",
+      "firstAscent": "Ronny Andersson",
+      "description": "Går på baksidan av blocket sett från vägen, går rakt upp genom överhänget. Sittstart på den stora hyllan, gå sedan rakt upp. Aréten är utesluten.",
+      "source": {
+        "id": "legacy:hogbo",
+        "path": "mediawiki/Högbo.txt"
+      }
+    },
+    {
+      "id": "hogbo-problem-2",
+      "kind": "problem",
+      "number": "2",
+      "name": "Like stealing candy from little David",
+      "grade": "7A",
+      "length": "",
+      "type": "Aréte",
+      "firstAscent": "Stefan Hedin, David Hallman",
+      "description": "Går på vänstra aréten på den överhängande delen av blocket. Samma urtoppning som general.",
+      "source": {
+        "id": "legacy:hogbo",
+        "path": "mediawiki/Högbo.txt"
+      }
+    },
+    {
+      "id": "hogbo-problem-3",
+      "kind": "problem",
+      "number": "4",
+      "name": "fortuna",
+      "grade": "6B+",
+      "length": "",
+      "type": "Layback",
+      "firstAscent": "David Hallman, Daniel Hultgren",
+      "description": "ståstart. Problemet ligger på framsidan av stenen. Mot vägen.",
+      "source": {
+        "id": "legacy:hogbo",
+        "path": "mediawiki/Högbo.txt"
+      }
+    },
+    {
+      "id": "hogbo-problem-4",
+      "kind": "problem",
+      "number": "5",
+      "name": "fredmans aréte",
+      "grade": "6A+",
+      "length": "",
+      "type": "Överhäng",
+      "firstAscent": "David Hallman",
+      "description": "den högra arete på baksidan av stora blocket.",
+      "source": {
+        "id": "legacy:hogbo",
+        "path": "mediawiki/Högbo.txt"
+      }
+    },
+    {
+      "id": "hogbo-problem-5",
+      "kind": "problem",
+      "number": "6",
+      "name": "Knox",
+      "grade": "6C",
+      "length": "",
+      "type": "Krimp,Slab",
+      "firstAscent": "Patrick Olander",
+      "description": "Går till vänster om aretén. Vänster om Fortuna.",
+      "source": {
+        "id": "legacy:hogbo",
+        "path": "mediawiki/Högbo.txt"
+      }
+    },
+    {
+      "id": "hogbo-problem-6",
+      "kind": "problem",
+      "number": "7",
+      "name": "Högbo dynot",
+      "grade": "7A",
+      "length": "",
+      "type": "Krimp,Dyno",
+      "firstAscent": "Patrick Olander, Ronny Andersson",
+      "description": "Samma start som Fortuna. Sen dyno snett uppåt höger till juggen över kanten. Gå ej vänster som ni gör på Fortuna.",
+      "source": {
+        "id": "legacy:hogbo",
+        "path": "mediawiki/Högbo.txt"
+      }
+    },
+    {
+      "id": "hogbo-problem-7",
+      "kind": "problem",
+      "number": "8",
+      "name": "Gegghålä",
+      "grade": "6A",
+      "length": "",
+      "type": "Krimp, Slab",
+      "firstAscent": "Fredrik Andersson, Karin Sundqvist",
+      "description": "Går på vänstra kanten på vänstra väggen sett från vägen. Startar med hh i tydlig spricka och vh på kanten. Följ kanten utan att gå runt den.",
+      "source": {
+        "id": "legacy:hogbo",
+        "path": "mediawiki/Högbo.txt"
+      }
+    },
+    {
+      "id": "hogbo-problem-8",
+      "kind": "problem",
+      "number": "9",
+      "name": "De tre vise hålen",
+      "grade": "6B",
+      "length": "",
+      "type": "Layback,Sloper,Reach",
+      "firstAscent": "Fredrik Andersson, Karin Sundqvist",
+      "description": "Går mellan Knox och Gegghålä. Starta med vh i superb spricka och ta dig sedan rakt upp via sprickorna och slopiga grepp.",
+      "source": {
+        "id": "legacy:hogbo",
+        "path": "mediawiki/Högbo.txt"
+      }
+    }
+  ],
+  "images": [],
+  "access": {
+    "legacyText": null,
+    "federationSlug": null
+  },
+  "qualityIssues": [],
+  "provenance": {
+    "primarySourceId": "legacy:hogbo",
+    "sources": [
+      {
+        "id": "legacy:hogbo",
+        "title": "Sverigeföraren 2014: Högbo",
+        "path": "mediawiki/Högbo.txt",
+        "license": "GNU Free Documentation License",
+        "snapshotDate": "2014-01-01"
+      }
+    ]
+  }
+}

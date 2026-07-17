@@ -1,0 +1,203 @@
+{
+  "schemaVersion": 1,
+  "id": "blackhall",
+  "slug": "blackhall",
+  "name": "Bläckhall",
+  "description": "Egen båt!",
+  "coordinates": {
+    "latitude": 58.31978888888889,
+    "longitude": 11.388638888888888
+  },
+  "categories": [
+    "Bohuslän",
+    "DWS"
+  ],
+  "sections": [
+    {
+      "id": "vagbeskrivning",
+      "title": "Vägbeskrivning",
+      "body": "Egen båt!"
+    },
+    {
+      "id": "leder",
+      "title": "Leder",
+      "body": "Starten på alla leder är markerade med en svart prick. Kategori:DWS Kategori:Bohuslän Kategori:Bohuslän"
+    }
+  ],
+  "routes": [
+    {
+      "id": "blackhall-led-1",
+      "kind": "route",
+      "number": "1",
+      "name": "Strömming",
+      "grade": "6b S0",
+      "length": "12",
+      "type": "",
+      "firstAscent": "Björn Strömberg-07",
+      "description": "Startar till vänster om takformationen. Hangla ut i taket och följ aretéten uppåt. Håll därefter snett höger tills den går ihop med Hopptornet.",
+      "source": {
+        "id": "legacy:blackhall",
+        "path": "mediawiki/Bläckhall.txt"
+      }
+    },
+    {
+      "id": "blackhall-led-2",
+      "kind": "route",
+      "number": "2",
+      "name": "Hopptornet",
+      "grade": "6a S0",
+      "length": "12",
+      "type": "",
+      "firstAscent": "Jerk Thomsgård-07",
+      "description": "Startar till höger om takformationen. Linjen snett uppåt vänster. Håll till höger på slutet. Obligatorisk bakåtvolt från utsteget. Allt enligt förstabestigaren.",
+      "source": {
+        "id": "legacy:blackhall",
+        "path": "mediawiki/Bläckhall.txt"
+      }
+    },
+    {
+      "id": "blackhall-led-3",
+      "kind": "route",
+      "number": "3",
+      "name": "Paddla på",
+      "grade": "6a+ S0",
+      "length": "14",
+      "type": "",
+      "firstAscent": "Henrik Bolander-07",
+      "description": "Startar två meter till höger om Hopptornet. Sedan rakt upp till toppen.",
+      "source": {
+        "id": "legacy:blackhall",
+        "path": "mediawiki/Bläckhall.txt"
+      }
+    },
+    {
+      "id": "blackhall-led-4",
+      "kind": "route",
+      "number": "4",
+      "name": "Ribben",
+      "grade": "6c+ S1",
+      "length": "15",
+      "type": "",
+      "firstAscent": "Henrik Bolander-07",
+      "description": "Startar till höger om Paddla på. Krux på slutet.",
+      "source": {
+        "id": "legacy:blackhall",
+        "path": "mediawiki/Bläckhall.txt"
+      }
+    },
+    {
+      "id": "blackhall-led-5",
+      "kind": "route",
+      "number": "5",
+      "name": "GPS",
+      "grade": "7c S0",
+      "length": "16",
+      "type": "",
+      "firstAscent": "Stefan Wulf-07",
+      "description": "Startar i monot. Ihållande till toppen.",
+      "source": {
+        "id": "legacy:blackhall",
+        "path": "mediawiki/Bläckhall.txt"
+      }
+    },
+    {
+      "id": "blackhall-led-6",
+      "kind": "route",
+      "number": "6",
+      "name": "Saltkråkan",
+      "grade": "7a S0",
+      "length": "14",
+      "type": "",
+      "firstAscent": "Henrik Bolander-07",
+      "description": "Startar 5m till höger om GPS. Rakt upp till stora hyllan.",
+      "source": {
+        "id": "legacy:blackhall",
+        "path": "mediawiki/Bläckhall.txt"
+      }
+    },
+    {
+      "id": "blackhall-led-7",
+      "kind": "route",
+      "number": "7",
+      "name": "43 knop",
+      "grade": "7c+ S1",
+      "length": "20",
+      "type": "dws",
+      "firstAscent": "Henrik Bolander",
+      "description": "Startar i vänsterkant av ett gammalt gråmålat fält. Följ den slopiga rampen snett uppåt höger ca 5m. Därefter rakt upp genom det lilla taket.",
+      "source": {
+        "id": "legacy:blackhall",
+        "path": "mediawiki/Bläckhall.txt"
+      }
+    },
+    {
+      "id": "blackhall-led-8",
+      "kind": "route",
+      "number": "8",
+      "name": "Havspärlan",
+      "grade": "7c+ S1",
+      "length": "22",
+      "type": "",
+      "firstAscent": "Henrik Bolander -07",
+      "description": "Startar på det stora greppet till höger om 43 Knop. Teknisk klättring upp till kristallbandet. Följ sedan kristallbandet rakt upp mot toppen.",
+      "source": {
+        "id": "legacy:blackhall",
+        "path": "mediawiki/Bläckhall.txt"
+      }
+    },
+    {
+      "id": "blackhall-led-9",
+      "kind": "route",
+      "number": "9",
+      "name": "Svart 58",
+      "grade": "7a+ S0",
+      "length": "20",
+      "type": "",
+      "firstAscent": "Henrik Bolander -07",
+      "description": "Startar i monot vid ”58”. Klättra rakt upp till lilla hyllan. Sedan snett upp vänster till stora rampen. Följ rampen till toppen.",
+      "source": {
+        "id": "legacy:blackhall",
+        "path": "mediawiki/Bläckhall.txt"
+      }
+    }
+  ],
+  "images": [
+    {
+      "filename": "Bläckhall_fyr.jpg",
+      "caption": "350px",
+      "missing": false
+    },
+    {
+      "filename": "Bläckhall_vä.jpg",
+      "caption": "",
+      "missing": false
+    },
+    {
+      "filename": "Henrik_dws.jpg",
+      "caption": "Henrik Bolander på 43 knop",
+      "missing": false
+    },
+    {
+      "filename": "Bläckhall_hö.jpg",
+      "caption": "",
+      "missing": false
+    }
+  ],
+  "access": {
+    "legacyText": null,
+    "federationSlug": null
+  },
+  "qualityIssues": [],
+  "provenance": {
+    "primarySourceId": "legacy:blackhall",
+    "sources": [
+      {
+        "id": "legacy:blackhall",
+        "title": "Sverigeföraren 2014: Bläckhall",
+        "path": "mediawiki/Bläckhall.txt",
+        "license": "GNU Free Documentation License",
+        "snapshotDate": "2014-01-01"
+      }
+    ]
+  }
+}

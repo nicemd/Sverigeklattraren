@@ -1,0 +1,250 @@
+{
+  "schemaVersion": 1,
+  "id": "trollberget",
+  "slug": "trollberget",
+  "name": "Trollberget",
+  "description": "Kvällssolig Norrbottensklippa med både vägg- och sprickklättring. Mestadels mixad klättring med både bultar och egna kompletteringar. Nyturspotential!",
+  "coordinates": {
+    "latitude": 65.619897,
+    "longitude": 18.639336
+  },
+  "categories": [
+    "mix",
+    "sport",
+    "trad",
+    "vertikalt"
+  ],
+  "sections": [
+    {
+      "id": "allmant",
+      "title": "Allmänt",
+      "body": "Kvällssolig Norrbottensklippa med både vägg- och sprickklättring. Mestadels mixad klättring med både bultar och egna kompletteringar. Nyturspotential!"
+    },
+    {
+      "id": "klippan",
+      "title": "Klippan",
+      "body": "Klättring, mest artificiell och topprep, började 1995. Efter ett antal år i träda har nu klippan ”återupptäckts” och lederna blivit fler. Ytterligare leder finns att upptäcka/borsta fram på bergets mindre/kortare partier. Längre upp på kalhygget finns även ett par boulder-block. Klippan vetter åt sydväst vilket gör att den torkar upp fort och bjuder på trevlig kvällssol. I huvudsak väggklättring, men med inslag av sprickor. Klippans höjd är ca 7-20 m. Borrbultarna (samtliga borrbultar placerade våren 2002 om inget annat anges) kompletteras med en vanlig uppsättning friends (kamsäkringar), kilar och hexentrics."
+    },
+    {
+      "id": "vagbeskrivning",
+      "title": "Vägbeskrivning",
+      "body": "Från Arvidsjaur, kör mot Östersund. 25 km från Arvidsjaur ligger Avaviken. I Avaviken svänger man höger mot Renviken. Efter lite drygt 1 km finns det en parkeringsplats på vänster sida om vägen. Gå sista biten till klippan som syns tydligt från vägen (ca 400 m)."
+    },
+    {
+      "id": "access",
+      "title": "Access",
+      "body": "Rovfåglar häckar ibland på berget varför klättring då bör undvikas i maj/juni. Ansvarig för access-frågor är Tony Gustafsson (Norrlands dragonregemente)."
+    },
+    {
+      "id": "leder",
+      "title": "Leder",
+      "body": "Kategori:sport Kategori:trad Kategori:mix Kategori:vertikalt Category:Norrbotten"
+    }
+  ],
+  "routes": [
+    {
+      "id": "trollberget-led-1",
+      "kind": "route",
+      "number": "1",
+      "name": "Prinsessan Leia",
+      "grade": "5+",
+      "length": "",
+      "type": "trad",
+      "firstAscent": "",
+      "description": "Följer sprickan i bergets vänstra kant rakt upp. Flera lösa stenar/flak i ledens nedre del gör den svårsäkrad. Kort, men jämn klättring.",
+      "source": {
+        "id": "legacy:trollberget",
+        "path": "mediawiki/Trollberget.txt"
+      }
+    },
+    {
+      "id": "trollberget-led-2",
+      "kind": "route",
+      "number": "2",
+      "name": "Jabba the Hut",
+      "grade": "5+",
+      "length": "",
+      "type": "mix",
+      "firstAscent": "",
+      "description": "Väggklättring rakt upp till taket. Traversera sedan höger på goda grepp tills taket passerats. Därefter rakt upp längs sprickan/blocket. Försiktighet bör iakttas om friends används under taket då det kan vara löst på sina ställen.",
+      "source": {
+        "id": "legacy:trollberget",
+        "path": "mediawiki/Trollberget.txt"
+      }
+    },
+    {
+      "id": "trollberget-led-3",
+      "kind": "route",
+      "number": "2a",
+      "name": "Utstegsvariant på 2",
+      "grade": "5+",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "",
+      "description": "För de som inte vill traversera åt höger under taket går det att smita ut till vänster.",
+      "source": {
+        "id": "legacy:trollberget",
+        "path": "mediawiki/Trollberget.txt"
+      }
+    },
+    {
+      "id": "trollberget-led-4",
+      "kind": "route",
+      "number": "3",
+      "name": "Han Solo",
+      "grade": "6-/6",
+      "length": "",
+      "type": "mix",
+      "firstAscent": "",
+      "description": "Startar omedelbart till höger om Jabba the Hut. Klättra upp/in i hörnet, därefter på ”goda” handgrepp till höger för att därefter ta sig upp på den lilla hyllan. Väl där är cruxet passerat. Följer sedan hörnet upp till högerkanten av taket. Utsteget gemensamt med Jabba the Hut.",
+      "source": {
+        "id": "legacy:trollberget",
+        "path": "mediawiki/Trollberget.txt"
+      }
+    },
+    {
+      "id": "trollberget-led-5",
+      "kind": "route",
+      "number": "4",
+      "name": "Bobba Fett",
+      "grade": "5",
+      "length": "",
+      "type": "trad",
+      "firstAscent": "",
+      "description": "Insteg gemensamt med Luke Skywalker. När händerna når den stora hyllan till vänster om utsteget på Luke Skywalker, traversera vänster och kliv upp på den lilla hyllan (samma hylla som Han Solo). Resten av leden gemensam med Han Solo.",
+      "source": {
+        "id": "legacy:trollberget",
+        "path": "mediawiki/Trollberget.txt"
+      }
+    },
+    {
+      "id": "trollberget-led-6",
+      "kind": "route",
+      "number": "5",
+      "name": "Luke Skywalker",
+      "grade": "4+",
+      "length": "",
+      "type": "trad",
+      "firstAscent": "",
+      "description": "Följer den mycket tydliga sprickan/flakformationen i hörnet. Säkras med friends och hexentrics. Var försiktig då friends (kamsäkringar) används bakom flak mht den kraft som utvecklas vid ett fall.",
+      "source": {
+        "id": "legacy:trollberget",
+        "path": "mediawiki/Trollberget.txt"
+      }
+    },
+    {
+      "id": "trollberget-led-7",
+      "kind": "route",
+      "number": "6",
+      "name": "Perversa kollegor",
+      "grade": "4-",
+      "length": "",
+      "type": "mix",
+      "firstAscent": "",
+      "description": "Startar under en flak/blockformation. Fortsätter sedan rakt upp till utsteget.",
+      "source": {
+        "id": "legacy:trollberget",
+        "path": "mediawiki/Trollberget.txt"
+      }
+    },
+    {
+      "id": "trollberget-led-8",
+      "kind": "route",
+      "number": "7",
+      "name": "Två krokar i taket",
+      "grade": "4-",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "",
+      "description": "Startar mitt för den stora väggen. Inledningsvis snett upp till höger på goda grepp för att sedan vika rakt upp.",
+      "source": {
+        "id": "legacy:trollberget",
+        "path": "mediawiki/Trollberget.txt"
+      }
+    },
+    {
+      "id": "trollberget-led-9",
+      "kind": "route",
+      "number": "8",
+      "name": "Tjejerna på kameral",
+      "grade": "5/5+",
+      "length": "",
+      "type": "mix",
+      "firstAscent": "",
+      "description": "Insteg till höger om Två krokar i taket. Snett upp till en diagonal hylla. Sedan rakt upp (crux), via en liten hylla, vidare upp över de mjukt rundade formerna till utsteget som sker via ett kort sva-parti.",
+      "source": {
+        "id": "legacy:trollberget",
+        "path": "mediawiki/Trollberget.txt"
+      }
+    },
+    {
+      "id": "trollberget-led-10",
+      "kind": "route",
+      "number": "9",
+      "name": "Metkroken",
+      "grade": "3+",
+      "length": "",
+      "type": "mix",
+      "firstAscent": "",
+      "description": "Egentligen en variant av Tjejerna på kameral. Cruxet på Tjejerna... undviks genom en metkroksliknande kringgång på höger sida via ett jordigt hörn. Insteg och utsteg är gemensamt med Tjejerna på kameral.",
+      "source": {
+        "id": "legacy:trollberget",
+        "path": "mediawiki/Trollberget.txt"
+      }
+    },
+    {
+      "id": "trollberget-led-11",
+      "kind": "route",
+      "number": "10",
+      "name": "Kåt i Kosovo",
+      "grade": "5-",
+      "length": "",
+      "type": "mix",
+      "firstAscent": "",
+      "description": "En led med två korta passager av sprickklättring. Insteg gemensamt med Tjejerna..., följer sedan den diagonala hyllan snett upp till höger till den första korta sprickan. Därefter via en hylla till den andra korta sprickan som är ledens utsteg.",
+      "source": {
+        "id": "legacy:trollberget",
+        "path": "mediawiki/Trollberget.txt"
+      }
+    },
+    {
+      "id": "trollberget-led-12",
+      "kind": "route",
+      "number": "11",
+      "name": "Psykopater i uniform",
+      "grade": "6",
+      "length": "",
+      "type": "mix",
+      "firstAscent": "",
+      "description": "Ett boulderliknande insteg (crux) leder till en liten hylla. Nästa korta vägg klättras på goda grepp upp till den större hyllan. Resterande del av leden är gemensam med Kåt i Kosovo. Insteget kan lätt skapa psykoser hos klättraren, särskilt om man väljer att börja bakom/inne i granen, vilket mer än en gång slutat med en trälandning. Annars är mantling en teknik man bör behärska.",
+      "source": {
+        "id": "legacy:trollberget",
+        "path": "mediawiki/Trollberget.txt"
+      }
+    }
+  ],
+  "images": [
+    {
+      "filename": "Trollberget-skiss.gif",
+      "caption": "730px",
+      "missing": false
+    }
+  ],
+  "access": {
+    "legacyText": "Rovfåglar häckar ibland på berget varför klättring då bör undvikas i maj/juni. Ansvarig för access-frågor är Tony Gustafsson (Norrlands dragonregemente).",
+    "federationSlug": null
+  },
+  "qualityIssues": [],
+  "provenance": {
+    "primarySourceId": "legacy:trollberget",
+    "sources": [
+      {
+        "id": "legacy:trollberget",
+        "title": "Sverigeföraren 2014: Trollberget",
+        "path": "mediawiki/Trollberget.txt",
+        "license": "GNU Free Documentation License",
+        "snapshotDate": "2014-01-01"
+      }
+    ]
+  }
+}

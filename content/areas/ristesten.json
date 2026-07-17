@@ -1,0 +1,89 @@
+{
+  "schemaVersion": 1,
+  "id": "ristesten",
+  "slug": "ristesten",
+  "name": "Ristesten",
+  "description": "Off-width-klippa",
+  "coordinates": {
+    "latitude": 58.22694,
+    "longitude": 15.71222
+  },
+  "categories": [
+    "mix",
+    "Saknar skiss",
+    "Saknar skrivarformatering",
+    "Saknar vägbeskrivning",
+    "sport",
+    "sva",
+    "trad",
+    "vertikalt",
+    "överhäng"
+  ],
+  "sections": [
+    {
+      "id": "allmant",
+      "title": "Allmänt",
+      "body": "Off-width-klippa"
+    },
+    {
+      "id": "vagbeskrivning",
+      "title": "Vägbeskrivning",
+      "body": "Skriv vägbeskrivning här."
+    },
+    {
+      "id": "leder",
+      "title": "Leder",
+      "body": "Kategori:trad kategori:Saknar skiss kategori:Saknar vägbeskrivning kategori:Saknar skrivarformatering Category:Östergötland"
+    }
+  ],
+  "routes": [
+    {
+      "id": "ristesten-led-1",
+      "kind": "route",
+      "number": "1",
+      "name": "Fettot från Rimforsa",
+      "grade": "6+",
+      "length": "7",
+      "type": "trad",
+      "firstAscent": "F. Wichman, E. Grunnesjö -08",
+      "description": "Offwidth t.h.",
+      "source": {
+        "id": "legacy:ristesten",
+        "path": "mediawiki/Ristesten.txt"
+      }
+    },
+    {
+      "id": "ristesten-led-2",
+      "kind": "route",
+      "number": "2",
+      "name": "Best of Bestorp",
+      "grade": "8-",
+      "length": "8",
+      "type": "trad",
+      "firstAscent": "P. Restorp -08",
+      "description": "Offwidth t.v.",
+      "source": {
+        "id": "legacy:ristesten",
+        "path": "mediawiki/Ristesten.txt"
+      }
+    }
+  ],
+  "images": [],
+  "access": {
+    "legacyText": null,
+    "federationSlug": null
+  },
+  "qualityIssues": [],
+  "provenance": {
+    "primarySourceId": "legacy:ristesten",
+    "sources": [
+      {
+        "id": "legacy:ristesten",
+        "title": "Sverigeföraren 2014: Ristesten",
+        "path": "mediawiki/Ristesten.txt",
+        "license": "GNU Free Documentation License",
+        "snapshotDate": "2014-01-01"
+      }
+    ]
+  }
+}

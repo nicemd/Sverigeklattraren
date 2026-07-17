@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 1,
+  "id": "tullinge-skog",
+  "slug": "tullinge-skog",
+  "name": "Tullinge skog",
+  "description": "Vägbeskrivning här",
+  "coordinates": {
+    "latitude": 59.121,
+    "longitude": 17.5458
+  },
+  "categories": [
+    "trad",
+    "vertikalt",
+    "Västra Södertörn"
+  ],
+  "sections": [
+    {
+      "id": "vagbeskrivning",
+      "title": "Vägbeskrivning",
+      "body": "Vägbeskrivning här"
+    },
+    {
+      "id": "leder",
+      "title": "Leder",
+      "body": "Kategori:trad Kategori:vertikalt Category:Stockholm Kategori:Västra Södertörn"
+    }
+  ],
+  "routes": [
+    {
+      "id": "tullinge-skog-led-1",
+      "kind": "route",
+      "number": "1",
+      "name": "Pockettoppen",
+      "grade": "6",
+      "length": "7",
+      "type": "trad",
+      "firstAscent": "JL -11",
+      "description": "Vid cykelvägen. Bra klippa.",
+      "source": {
+        "id": "legacy:tullinge-skog",
+        "path": "mediawiki/Tullinge skog.txt"
+      }
+    }
+  ],
+  "images": [
+    {
+      "filename": "Tullingeskog.png",
+      "caption": "700px",
+      "missing": false
+    }
+  ],
+  "access": {
+    "legacyText": null,
+    "federationSlug": null
+  },
+  "qualityIssues": [],
+  "provenance": {
+    "primarySourceId": "legacy:tullinge-skog",
+    "sources": [
+      {
+        "id": "legacy:tullinge-skog",
+        "title": "Sverigeföraren 2014: Tullinge skog",
+        "path": "mediawiki/Tullinge skog.txt",
+        "license": "GNU Free Documentation License",
+        "snapshotDate": "2014-01-01"
+      }
+    ]
+  }
+}

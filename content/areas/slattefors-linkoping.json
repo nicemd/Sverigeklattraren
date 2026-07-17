@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "id": "slattefors-linkoping",
+  "slug": "slattefors-linkoping",
+  "name": "Slattefors (Linköping)",
+  "description": "Linköpings närmaste klippa.",
+  "coordinates": {
+    "latitude": 58.3565,
+    "longitude": 15.735
+  },
+  "categories": [
+    "Sport",
+    "sva",
+    "Trad",
+    "vertikalt",
+    "Östergötland"
+  ],
+  "sections": [
+    {
+      "id": "allmant",
+      "title": "Allmänt",
+      "body": "Linköpings närmaste klippa."
+    },
+    {
+      "id": "lankar",
+      "title": "Länkar",
+      "body": "Förare tillhandahållen av Linköpings klätterklubb. Kategori:ÖstergötlandKategori:vertikaltKategori:svaKategori:SportKategori:Trad"
+    }
+  ],
+  "routes": [],
+  "images": [
+    {
+      "filename": "Slattefors.jpg",
+      "caption": "Per Calleberg gör förstabestigningen av Vi måste skjuta oss ut... (6+), Slattefors 1986. Foto: Per Callebergs arkiv.",
+      "missing": false
+    }
+  ],
+  "access": {
+    "legacyText": null,
+    "federationSlug": null
+  },
+  "qualityIssues": [],
+  "provenance": {
+    "primarySourceId": "legacy:slattefors-linkoping",
+    "sources": [
+      {
+        "id": "legacy:slattefors-linkoping",
+        "title": "Sverigeföraren 2014: Slattefors (Linköping)",
+        "path": "mediawiki/Slattefors (Linköping).txt",
+        "license": "GNU Free Documentation License",
+        "snapshotDate": "2014-01-01"
+      }
+    ]
+  }
+}

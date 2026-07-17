@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "id": "kalleshallarna",
+  "slug": "kalleshallarna",
+  "name": "Kalleshallarna",
+  "description": "Nyupptäckt klippa cirka 5 km norr om Östmark. Klippan ligger i västerläge med ganska tät skog direkt invid. Klippan har potential till cirka 10-15 tradleder och 10-20 sportleder. Det verkar finnas möjlighet för bouldering i anslutning till klippan. Klippans höjd ligger kring 6-12 meter och cirka 100 meter bred.",
+  "coordinates": {
+    "latitude": 60.3135,
+    "longitude": 12.7641
+  },
+  "categories": [
+    "mix",
+    "Saknar koordinater",
+    "Saknar leder",
+    "Saknar skiss",
+    "Saknar skrivarformatering",
+    "Saknar vägbeskrivning",
+    "sport",
+    "sva",
+    "trad",
+    "vertikalt",
+    "överhäng"
+  ],
+  "sections": [
+    {
+      "id": "allmant",
+      "title": "Allmänt",
+      "body": "Nyupptäckt klippa cirka 5 km norr om Östmark. Klippan ligger i västerläge med ganska tät skog direkt invid. Klippan har potential till cirka 10-15 tradleder och 10-20 sportleder. Det verkar finnas möjlighet för bouldering i anslutning till klippan. Klippans höjd ligger kring 6-12 meter och cirka 100 meter bred."
+    },
+    {
+      "id": "vagbeskrivning",
+      "title": "Vägbeskrivning",
+      "body": "Kör E45 till Torsby och sväng av mot Östmark. Efter Östmarks kyrka sväng höger i korsningen vid ICA-butiken mot Kristinefors. Kör cirka 4-5 km till Metbäcken, sväng höger precis före skylten över en bro, parkera på vänster sida efter bron. Följ vägen till vänster längs åkerkanten tills en liten sommarlada dyker upp på höger sida, där finns en skogsbilväg på höger sida (kan vara svår att se på grund av buskage), följ denna genom skogen tills vägen kör en kraftig vänstersväng och går brant uppåt. Vid denna position välj att gå rakt fram genom skogen och du kommer fram till Klippan."
+    },
+    {
+      "id": "leder",
+      "title": "Leder",
+      "body": "Tre tradlinjer är gjorda hittills, det krävs en del rensningsarbete innan det går att uttala sig till fullo hur klippans kvalitet är. Av de tre gjorda linjerna är två fina leder, dom skulle dock gärna varit lite längre. Klippan har vissa lösa partier samt något ställe som verkar svårtorkat. Klippan har 3-4 sektioner med varierande typ av klättring med ofta överhängande start. Några av lederna har fina spricklinjer som tilltalar en kilfantast i början av karriären. Markägaren tycker att det är ok att klättring sker, frågor om att bulta har ännu inte ställts. Mer information kommer. 200px|thumb Kategori:sport Kategori:trad Kategori:vertikalt Kategori:överhäng kategori:Saknar skiss kategori:Saknar vägbeskrivning kategori:Saknar leder kategori:Saknar koordinater kategori:Saknar skrivarformatering Category:Värmland"
+    }
+  ],
+  "routes": [
+    {
+      "id": "kalleshallarna-led-1",
+      "kind": "route",
+      "number": "1",
+      "name": "Kallerhorn",
+      "grade": "5-",
+      "length": "10-12",
+      "type": "trad",
+      "firstAscent": "Mathias Nilsson (John-Olov Larsson) 120908",
+      "description": "Varierad klättring med blöt start, möjlighet att välja en alternativ start via en platå med en gran. Från cirka 3-4 meter och uppåt följer en fin välsäkrad spricklinje. Diederklättring med lite knix för att ta sig över en rygg till höger. I övrigt rätt fina jamgrepp och listor, dock behöver sprickan borstas ur djupare, just nu ställer mycket jord till intressanta problem. Leden avslutades med att klättra upp på \"hornet\" till vänster.",
+      "source": {
+        "id": "legacy:kalleshallarna",
+        "path": "mediawiki/Kalleshallarna.txt"
+      }
+    },
+    {
+      "id": "kalleshallarna-led-2",
+      "kind": "route",
+      "number": "2",
+      "name": "Kalles nr 2",
+      "grade": "4-",
+      "length": "8-10",
+      "type": "trad",
+      "firstAscent": "Mathias Nilsson (Conny Andersson) 120908",
+      "description": "Välsäkrad spricklinje med en något tung start, därefter enkelt till toppen. Leden sväljer kamkilar i en tills dels djup spricka full av rötter och jord.",
+      "source": {
+        "id": "legacy:kalleshallarna",
+        "path": "mediawiki/Kalleshallarna.txt"
+      }
+    },
+    {
+      "id": "kalleshallarna-led-3",
+      "kind": "route",
+      "number": "3",
+      "name": "Kalles Crack",
+      "grade": "4+",
+      "length": "7",
+      "type": "trad",
+      "firstAscent": "Conny Andersson (Mathias Nilsson) 120908",
+      "description": "Välsäkrad spricklinje med fina steg hela vägen.",
+      "source": {
+        "id": "legacy:kalleshallarna",
+        "path": "mediawiki/Kalleshallarna.txt"
+      }
+    }
+  ],
+  "images": [
+    {
+      "filename": "Kallerhorn.jpg",
+      "caption": "thumb",
+      "missing": false
+    }
+  ],
+  "access": {
+    "legacyText": null,
+    "federationSlug": null
+  },
+  "qualityIssues": [],
+  "provenance": {
+    "primarySourceId": "legacy:kalleshallarna",
+    "sources": [
+      {
+        "id": "legacy:kalleshallarna",
+        "title": "Sverigeföraren 2014: Kalleshallarna",
+        "path": "mediawiki/Kalleshallarna.txt",
+        "license": "GNU Free Documentation License",
+        "snapshotDate": "2014-01-01"
+      }
+    ]
+  }
+}

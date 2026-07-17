@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "id": "brakmaren",
+  "slug": "brakmaren",
+  "name": "Brakmaren",
+  "description": "Litet men kraftigt berg som har en kort och brant västvägg. 8-10 m långa sportklätterturer. 10 m anmarsch från vägen.",
+  "coordinates": {
+    "latitude": 59.20622194166667,
+    "longitude": 18.312034425
+  },
+  "categories": [
+    "Saknar skiss",
+    "Sport",
+    "Stockholm",
+    "Tyresö"
+  ],
+  "sections": [
+    {
+      "id": "allmant",
+      "title": "Allmänt",
+      "body": "Litet men kraftigt berg som har en kort och brant västvägg. 8-10 m långa sportklätterturer. 10 m anmarsch från vägen."
+    },
+    {
+      "id": "vagbeskrivning",
+      "title": "Vägbeskrivning",
+      "body": "Skall inte förväxlas med Brakmarsklippan som ligger ca 200m åt SV och som är så dålig att den inte får vara med."
+    },
+    {
+      "id": "leder",
+      "title": "Leder",
+      "body": "Kategori:Tyresö Kategori:Stockholm Kategori:Sport Kategori:Saknar skiss"
+    }
+  ],
+  "routes": [
+    {
+      "id": "brakmaren-led-1",
+      "kind": "route",
+      "number": "1",
+      "name": "Knep och knåp",
+      "grade": "8-",
+      "length": "",
+      "type": "",
+      "firstAscent": "Johan Luhr -92",
+      "description": "",
+      "source": {
+        "id": "legacy:brakmaren",
+        "path": "mediawiki/Brakmaren.txt"
+      }
+    },
+    {
+      "id": "brakmaren-led-2",
+      "kind": "route",
+      "number": "2",
+      "name": "Linjär succé",
+      "grade": "7",
+      "length": "",
+      "type": "",
+      "firstAscent": "Johan Luhr, Patrik Gelin -92",
+      "description": "",
+      "source": {
+        "id": "legacy:brakmaren",
+        "path": "mediawiki/Brakmaren.txt"
+      }
+    },
+    {
+      "id": "brakmaren-led-3",
+      "kind": "route",
+      "number": "3",
+      "name": "Berits kiosk",
+      "grade": "8",
+      "length": "",
+      "type": "",
+      "firstAscent": "Johan Luhr -92",
+      "description": "",
+      "source": {
+        "id": "legacy:brakmaren",
+        "path": "mediawiki/Brakmaren.txt"
+      }
+    },
+    {
+      "id": "brakmaren-led-4",
+      "kind": "route",
+      "number": "4",
+      "name": "Rimliga ramar",
+      "grade": "7+/8",
+      "length": "",
+      "type": "",
+      "firstAscent": "Johan Luhr, Patrik Gelin -92",
+      "description": "",
+      "source": {
+        "id": "legacy:brakmaren",
+        "path": "mediawiki/Brakmaren.txt"
+      }
+    },
+    {
+      "id": "brakmaren-led-5",
+      "kind": "route",
+      "number": "5",
+      "name": "Ägget är löst",
+      "grade": "7",
+      "length": "",
+      "type": "",
+      "firstAscent": "Johan Luhr, Patrik Gelin -92",
+      "description": "",
+      "source": {
+        "id": "legacy:brakmaren",
+        "path": "mediawiki/Brakmaren.txt"
+      }
+    }
+  ],
+  "images": [],
+  "access": {
+    "legacyText": null,
+    "federationSlug": null
+  },
+  "qualityIssues": [],
+  "provenance": {
+    "primarySourceId": "legacy:brakmaren",
+    "sources": [
+      {
+        "id": "legacy:brakmaren",
+        "title": "Sverigeföraren 2014: Brakmaren",
+        "path": "mediawiki/Brakmaren.txt",
+        "license": "GNU Free Documentation License",
+        "snapshotDate": "2014-01-01"
+      }
+    ]
+  }
+}

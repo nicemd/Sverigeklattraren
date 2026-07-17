@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "id": "karkevagge",
+  "slug": "karkevagge",
+  "name": "Kärkevagge",
+  "description": "Kategori:Saknar allmän infoKategori:Saknar vägbeskrivning =Problem= Kategori:Kiruna Kategori:Bouldering Kategori:Bimbo Kategori:Behöver kvalitetssäkras Kategori:Saknar karta Kategori:Saknar koordinater Kategori:Saknar skrivarformattering Kategori:Saknar skiss",
+  "coordinates": null,
+  "categories": [
+    "Behöver kvalitetssäkras",
+    "Bimbo",
+    "Bouldering",
+    "Kiruna",
+    "Saknar allmän info",
+    "Saknar karta",
+    "Saknar koordinater",
+    "Saknar skiss",
+    "Saknar skrivarformattering",
+    "Saknar vägbeskrivning"
+  ],
+  "sections": [],
+  "routes": [
+    {
+      "id": "karkevagge-problem-1",
+      "kind": "problem",
+      "number": null,
+      "name": "Samiska för nybörjare",
+      "grade": "6C",
+      "length": "",
+      "type": "Överhäng,Highball",
+      "firstAscent": "Heyman",
+      "description": "",
+      "source": {
+        "id": "legacy:karkevagge",
+        "path": "mediawiki/Kärkevagge.txt"
+      }
+    }
+  ],
+  "images": [],
+  "access": {
+    "legacyText": null,
+    "federationSlug": null
+  },
+  "qualityIssues": [],
+  "provenance": {
+    "primarySourceId": "legacy:karkevagge",
+    "sources": [
+      {
+        "id": "legacy:karkevagge",
+        "title": "Sverigeföraren 2014: Kärkevagge",
+        "path": "mediawiki/Kärkevagge.txt",
+        "license": "GNU Free Documentation License",
+        "snapshotDate": "2014-01-01"
+      }
+    ]
+  }
+}

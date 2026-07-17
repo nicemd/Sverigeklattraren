@@ -1,0 +1,86 @@
+{
+  "schemaVersion": 1,
+  "id": "katarinavagen",
+  "slug": "katarinavagen",
+  "name": "Katarinavägen",
+  "description": "Många har nog promenerat och cyklat förbi denna klippsnutt utan att lägga märke till den. Nordvänd vägg med fantastisk utsikt över Saltsjön och Gamla Stan. Solen tittar nog fram först sena sommarkvällar vilket gör den till en bra vår-, -sommar, höstklippa. Kan vara lite blöt i starten tidigt på säsongen.",
+  "coordinates": {
+    "latitude": 59.317925,
+    "longitude": 18.08959
+  },
+  "categories": [
+    "mix",
+    "Saknar leder",
+    "Saknar skiss",
+    "Saknar skrivarformatering",
+    "Saknar vägbeskrivning",
+    "sport",
+    "sva",
+    "trad",
+    "vertikalt",
+    "överhäng"
+  ],
+  "sections": [
+    {
+      "id": "allmant",
+      "title": "Allmänt",
+      "body": "Många har nog promenerat och cyklat förbi denna klippsnutt utan att lägga märke till den. Nordvänd vägg med fantastisk utsikt över Saltsjön och Gamla Stan. Solen tittar nog fram först sena sommarkvällar vilket gör den till en bra vår-, -sommar, höstklippa. Kan vara lite blöt i starten tidigt på säsongen."
+    },
+    {
+      "id": "access",
+      "title": "Access",
+      "body": "I och med att klippan ligger så synligt för förbipasserande är det viktigt att vi klättrare sköter oss exemplariskt. Skrik inte när du faller på slutkruxet ;) och var försiktig med de planterade buskarna och blommorna. Visa hänsyn till allt och alla."
+    },
+    {
+      "id": "vagbeskrivning",
+      "title": "Vägbeskrivning",
+      "body": "Skriv vägbeskrivning här."
+    },
+    {
+      "id": "leder",
+      "title": "Leder",
+      "body": "Kategori:sport kategori:Saknar skiss kategori:Saknar vägbeskrivning kategori:Saknar leder kategori:Saknar skrivarformatering Category:Stockholm Category:Stockholm City"
+    }
+  ],
+  "routes": [
+    {
+      "id": "katarinavagen-led-1",
+      "kind": "route",
+      "number": "1",
+      "name": "Tusen och en natt",
+      "grade": "8a+",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "Johan Luhr",
+      "description": "Kort och ihållande led med spektakulärt slut! Undvik att klättra upp till toppen av klippan så slipper de boende på toppen störas.",
+      "source": {
+        "id": "legacy:katarinavagen",
+        "path": "mediawiki/Katarinavägen.txt"
+      }
+    }
+  ],
+  "images": [
+    {
+      "filename": "Tusenoennatt.jpg",
+      "caption": "250px",
+      "missing": false
+    }
+  ],
+  "access": {
+    "legacyText": "I och med att klippan ligger så synligt för förbipasserande är det viktigt att vi klättrare sköter oss exemplariskt. Skrik inte när du faller på slutkruxet ;) och var försiktig med de planterade buskarna och blommorna. Visa hänsyn till allt och alla.",
+    "federationSlug": null
+  },
+  "qualityIssues": [],
+  "provenance": {
+    "primarySourceId": "legacy:katarinavagen",
+    "sources": [
+      {
+        "id": "legacy:katarinavagen",
+        "title": "Sverigeföraren 2014: Katarinavägen",
+        "path": "mediawiki/Katarinavägen.txt",
+        "license": "GNU Free Documentation License",
+        "snapshotDate": "2014-01-01"
+      }
+    ]
+  }
+}

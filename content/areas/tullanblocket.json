@@ -1,0 +1,82 @@
+{
+  "schemaVersion": 1,
+  "id": "tullanblocket",
+  "slug": "tullanblocket",
+  "name": "Tullanblocket",
+  "description": "Ett ensamt block vid vägen nära sjön Tullan.",
+  "coordinates": {
+    "latitude": 59.2229,
+    "longitude": 17.6771
+  },
+  "categories": [
+    "Västra Södertörn"
+  ],
+  "sections": [
+    {
+      "id": "allmant",
+      "title": "Allmänt",
+      "body": "Ett ensamt block vid vägen nära sjön Tullan."
+    },
+    {
+      "id": "forare",
+      "title": "Förare",
+      "body": "Category:Stockholm Kategori:Västra Södertörn"
+    }
+  ],
+  "routes": [
+    {
+      "id": "tullanblocket-led-1",
+      "kind": "route",
+      "number": "1",
+      "name": "Ge mig min mataffär tillbax era jävlar",
+      "grade": "6a",
+      "length": "",
+      "type": "boulder",
+      "firstAscent": "JL 09",
+      "description": "vert. ytan mot skogen",
+      "source": {
+        "id": "legacy:tullanblocket",
+        "path": "mediawiki/Tullanblocket.txt"
+      }
+    },
+    {
+      "id": "tullanblocket-led-2",
+      "kind": "route",
+      "number": "2",
+      "name": "Det luktar bränt",
+      "grade": "6a",
+      "length": "",
+      "type": "boulder",
+      "firstAscent": "JK 09",
+      "description": "aréten till höger",
+      "source": {
+        "id": "legacy:tullanblocket",
+        "path": "mediawiki/Tullanblocket.txt"
+      }
+    }
+  ],
+  "images": [
+    {
+      "filename": "Tullanblocket.png",
+      "caption": "",
+      "missing": false
+    }
+  ],
+  "access": {
+    "legacyText": null,
+    "federationSlug": null
+  },
+  "qualityIssues": [],
+  "provenance": {
+    "primarySourceId": "legacy:tullanblocket",
+    "sources": [
+      {
+        "id": "legacy:tullanblocket",
+        "title": "Sverigeföraren 2014: Tullanblocket",
+        "path": "mediawiki/Tullanblocket.txt",
+        "license": "GNU Free Documentation License",
+        "snapshotDate": "2014-01-01"
+      }
+    ]
+  }
+}

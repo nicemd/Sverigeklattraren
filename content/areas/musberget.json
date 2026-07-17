@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "id": "musberget",
+  "slug": "musberget",
+  "name": "Musberget",
+  "description": "kör E45 söderut från Trollhättan mot Göteborg sväng av vid den södra infarten till Sjuntorp, till vänster på åkern ligger klippan.sväng vänster första grusvägen. OBS! Gå inte över åkern, det finns en liten grusväg där man kan ta \"skogsvägen\" genom till klippan.",
+  "coordinates": null,
+  "categories": [
+    "mix",
+    "Saknar koordinater",
+    "Saknar leder",
+    "Saknar skiss",
+    "Saknar skrivarformatering",
+    "Saknar vägbeskrivning",
+    "sport",
+    "sva",
+    "trad",
+    "vertikalt",
+    "överhäng"
+  ],
+  "sections": [
+    {
+      "id": "allmant",
+      "title": "Allmänt",
+      "body": "kör E45 söderut från Trollhättan mot Göteborg sväng av vid den södra infarten till Sjuntorp, till vänster på åkern ligger klippan.sväng vänster första grusvägen. OBS! Gå inte över åkern, det finns en liten grusväg där man kan ta \"skogsvägen\" genom till klippan."
+    },
+    {
+      "id": "vagbeskrivning",
+      "title": "Vägbeskrivning",
+      "body": "Karta här. Tryck på kartknappen ovan. Skriv vägbeskrivning här."
+    },
+    {
+      "id": "leder",
+      "title": "Leder",
+      "body": "led|nr=1|namn=Yalla, Yalla! |grad=4|typ=trad|Längd=15m Leden till vänster, av de två fyrorna till höger den andra heter något med boomschackalack . Detta är i alla fall en rolig spricka för nybörjare. Tricepsträning i slutet. Antagligen bra att träna kilplaceringar på. namn= (Inte)Helt enkelt Grad=6/6+|typ=trad||längd=12m? hård och rå klättring med undercling. Höger kolumn kategori:Saknar skiss kategori:Saknar vägbeskrivning kategori:Saknar leder kategori:Saknar koordinater kategori:Saknar skrivarformatering Category:Västergötland"
+    }
+  ],
+  "routes": [],
+  "images": [
+    {
+      "filename": "Skiss.gif",
+      "caption": "",
+      "missing": false
+    }
+  ],
+  "access": {
+    "legacyText": null,
+    "federationSlug": null
+  },
+  "qualityIssues": [
+    {
+      "code": "invalid_coordinates",
+      "message": "Originalet innehåller ogiltiga koordinater: N 58° 12′ 41″, E 12° 10′ 59″."
+    }
+  ],
+  "provenance": {
+    "primarySourceId": "legacy:musberget",
+    "sources": [
+      {
+        "id": "legacy:musberget",
+        "title": "Sverigeföraren 2014: Musberget",
+        "path": "mediawiki/Musberget.txt",
+        "license": "GNU Free Documentation License",
+        "snapshotDate": "2014-01-01"
+      }
+    ]
+  }
+}

@@ -1,0 +1,131 @@
+{
+  "schemaVersion": 1,
+  "id": "lilla-gassholmen",
+  "slug": "lilla-gassholmen",
+  "name": "Lilla Gässholmen",
+  "description": "Fin DWS klättring i svårighetsgrad kring 6a. Man måste ha båt för att ta sig till området.",
+  "coordinates": {
+    "latitude": 59.3032,
+    "longitude": 18.736925
+  },
+  "categories": [
+    "DWS",
+    "mix",
+    "Nacka-Värmdö",
+    "Saknar koordinater",
+    "Saknar leder",
+    "Saknar skiss",
+    "Saknar skrivarformatering",
+    "Saknar vägbeskrivning",
+    "sport",
+    "Stockholm",
+    "Stockholms Skärgård",
+    "sva",
+    "trad",
+    "vertikalt",
+    "överhäng"
+  ],
+  "sections": [
+    {
+      "id": "allmant",
+      "title": "Allmänt",
+      "body": "Fin DWS klättring i svårighetsgrad kring 6a. Man måste ha båt för att ta sig till området."
+    },
+    {
+      "id": "vagbeskrivning",
+      "title": "Vägbeskrivning",
+      "body": "Med båt"
+    },
+    {
+      "id": "leder",
+      "title": "Leder",
+      "body": "Kategori:DWS Kategori:vertikalt Kategori:Stockholm Kategori:Nacka-Värmdö Kategori:Stockholms Skärgård"
+    }
+  ],
+  "routes": [
+    {
+      "id": "lilla-gassholmen-led-1",
+      "kind": "route",
+      "number": "1",
+      "name": "Där hittar Erik en \"liten\" vila",
+      "grade": "6b, S0",
+      "length": "20",
+      "type": "DWS",
+      "firstAscent": "Erik Holstad -08",
+      "description": "Tyngst i början längs vattnet, Uppför Bakis i Vasastan och sedan traversera sprickan till höger.",
+      "source": {
+        "id": "legacy:lilla-gassholmen",
+        "path": "mediawiki/Lilla Gässholmen.txt"
+      }
+    },
+    {
+      "id": "lilla-gassholmen-led-2",
+      "kind": "route",
+      "number": "2",
+      "name": "Bakis i Vasastan",
+      "grade": "6a, S0",
+      "length": "10",
+      "type": "DWS",
+      "firstAscent": "Mathias Gustavsson -08",
+      "description": "",
+      "source": {
+        "id": "legacy:lilla-gassholmen",
+        "path": "mediawiki/Lilla Gässholmen.txt"
+      }
+    },
+    {
+      "id": "lilla-gassholmen-led-3",
+      "kind": "route",
+      "number": "3",
+      "name": "Tisko Tansi",
+      "grade": "6a+, S0",
+      "length": "15",
+      "type": "DWS",
+      "firstAscent": "Erik Holstad -08",
+      "description": "Startar uppför Fiskmåsen och sedan travers åt vänster strax under sprickan.",
+      "source": {
+        "id": "legacy:lilla-gassholmen",
+        "path": "mediawiki/Lilla Gässholmen.txt"
+      }
+    },
+    {
+      "id": "lilla-gassholmen-led-4",
+      "kind": "route",
+      "number": "4",
+      "name": "Fiskmåsen",
+      "grade": "6a, S0",
+      "length": "10",
+      "type": "DWS",
+      "firstAscent": "Stefan Rydin -08",
+      "description": "Startar i den högra av två tunna sprickor.Vattendjup som en kanotpaddel;2-2,2m. Ta i beaktande, jag är tveksam till hur ett fall högt uppifrån skulle sluta./Tobias augusti2009",
+      "source": {
+        "id": "legacy:lilla-gassholmen",
+        "path": "mediawiki/Lilla Gässholmen.txt"
+      }
+    }
+  ],
+  "images": [
+    {
+      "filename": "Forare_gassholmen.JPG",
+      "caption": "",
+      "missing": false
+    }
+  ],
+  "access": {
+    "legacyText": null,
+    "federationSlug": null
+  },
+  "qualityIssues": [],
+  "provenance": {
+    "primarySourceId": "legacy:lilla-gassholmen",
+    "sources": [
+      {
+        "id": "legacy:lilla-gassholmen",
+        "title": "Sverigeföraren 2014: Lilla Gässholmen",
+        "path": "mediawiki/Lilla Gässholmen.txt",
+        "license": "GNU Free Documentation License",
+        "snapshotDate": "2014-01-01"
+      }
+    ]
+  }
+}

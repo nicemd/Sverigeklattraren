@@ -1,0 +1,716 @@
+{
+  "schemaVersion": 1,
+  "id": "sodra-berget",
+  "slug": "sodra-berget",
+  "name": "Södra Berget",
+  "description": "Kategori:Saknar allmän infoKategori:Saknar vägbeskrivning =Problem= Kategori:Sundsvall Kategori:Bouldering Kategori:Bimbo Kategori:Behöver kvalitetssäkras Kategori:Saknar karta Kategori:Saknar koordinater Kategori:Saknar skrivarformattering Kategori:Saknar skiss",
+  "coordinates": null,
+  "categories": [
+    "Behöver kvalitetssäkras",
+    "Bimbo",
+    "Bouldering",
+    "Saknar allmän info",
+    "Saknar karta",
+    "Saknar koordinater",
+    "Saknar skiss",
+    "Saknar skrivarformattering",
+    "Saknar vägbeskrivning",
+    "Sundsvall"
+  ],
+  "sections": [],
+  "routes": [
+    {
+      "id": "sodra-berget-problem-1",
+      "kind": "problem",
+      "number": null,
+      "name": "Enter the dragon",
+      "grade": "6C",
+      "length": "",
+      "type": "Mantling,Överhäng,Travers V->H",
+      "firstAscent": "Per Wermelin",
+      "description": "Problemet startar på samma strartgrepp som A pinch of snuff. Därefter traversera man åt höger och gör samma utsteg som Boulder dash. Kanten på stenen ingår inte i traversen",
+      "source": {
+        "id": "legacy:sodra-berget",
+        "path": "mediawiki/Södra Berget.txt"
+      }
+    },
+    {
+      "id": "sodra-berget-problem-2",
+      "kind": "problem",
+      "number": null,
+      "name": "Eliminera mera",
+      "grade": "5C",
+      "length": "",
+      "type": "Aréte",
+      "firstAscent": "Per Wermelin",
+      "description": "Problemet startar med sittstart och följer areten upp till toppen.",
+      "source": {
+        "id": "legacy:sodra-berget",
+        "path": "mediawiki/Södra Berget.txt"
+      }
+    },
+    {
+      "id": "sodra-berget-problem-3",
+      "kind": "problem",
+      "number": null,
+      "name": "Bruce Lee",
+      "grade": "7A+",
+      "length": "",
+      "type": "Krimp,Mantling,Överhäng",
+      "firstAscent": "Per Wermelin",
+      "description": "Problemet är med sittstart (dubbelvikt matta) och avslutas med en mantlig upp på hyllan. Dess grad behöver bekräftas!",
+      "source": {
+        "id": "legacy:sodra-berget",
+        "path": "mediawiki/Södra Berget.txt"
+      }
+    },
+    {
+      "id": "sodra-berget-problem-4",
+      "kind": "problem",
+      "number": null,
+      "name": "Mera varianter",
+      "grade": "6A",
+      "length": "",
+      "type": "Överhäng,Spricka",
+      "firstAscent": "Per Wermelin",
+      "description": "Startar med sittstart till höger om sprickan utanför grottan. Klättra ut från överhänget med lätt dragning åt vänster och avsluta vid den markanta horisontella listen.",
+      "source": {
+        "id": "legacy:sodra-berget",
+        "path": "mediawiki/Södra Berget.txt"
+      }
+    },
+    {
+      "id": "sodra-berget-problem-5",
+      "kind": "problem",
+      "number": null,
+      "name": "Din tur",
+      "grade": "6A",
+      "length": "",
+      "type": "Överhäng",
+      "firstAscent": "Per Wermelin",
+      "description": "Starta med sittstart under taket och klättra sen rakt upp och avsluta i det lilla diedret.",
+      "source": {
+        "id": "legacy:sodra-berget",
+        "path": "mediawiki/Södra Berget.txt"
+      }
+    },
+    {
+      "id": "sodra-berget-problem-6",
+      "kind": "problem",
+      "number": null,
+      "name": "Desperado",
+      "grade": "7A+",
+      "length": "",
+      "type": "Krimp,Layback,Mantling,Dyno",
+      "firstAscent": "Fredrik Bodin",
+      "description": "Går precis till höger om \"A pinch of snuff\". Börjar med vänster hand i gaston och höger hand på liten list, går rakt upp.",
+      "source": {
+        "id": "legacy:sodra-berget",
+        "path": "mediawiki/Södra Berget.txt"
+      }
+    },
+    {
+      "id": "sodra-berget-problem-7",
+      "kind": "problem",
+      "number": null,
+      "name": "Mentor",
+      "grade": "6A",
+      "length": "",
+      "type": "Jam,Mantling,Aréte",
+      "firstAscent": "Jon Kågström",
+      "description": "Sittstart till höger om \"Boulder Dash\", börjar med ett jam i sprickan mellan blocket och väggen, följer arêten upp.",
+      "source": {
+        "id": "legacy:sodra-berget",
+        "path": "mediawiki/Södra Berget.txt"
+      }
+    },
+    {
+      "id": "sodra-berget-problem-8",
+      "kind": "problem",
+      "number": "1",
+      "name": "Boulder dash",
+      "grade": "6B+",
+      "length": "",
+      "type": "Krimp,Mantling,Överhäng",
+      "firstAscent": "Fredrik Bodin",
+      "description": "Höger hand på sidepull och vänster hand på stor list, går rakt upp via listerna.",
+      "source": {
+        "id": "legacy:sodra-berget",
+        "path": "mediawiki/Södra Berget.txt"
+      }
+    },
+    {
+      "id": "sodra-berget-problem-9",
+      "kind": "problem",
+      "number": "2",
+      "name": "A pinch of snuff",
+      "grade": "6B",
+      "length": "",
+      "type": "Pinch",
+      "firstAscent": "Fredrik Bodin",
+      "description": "Vänster hand på greppet under den tydliga pinchen och höger hand på sidepull.",
+      "source": {
+        "id": "legacy:sodra-berget",
+        "path": "mediawiki/Södra Berget.txt"
+      }
+    },
+    {
+      "id": "sodra-berget-problem-10",
+      "kind": "problem",
+      "number": "3",
+      "name": "Coldmember",
+      "grade": "6C",
+      "length": "",
+      "type": "Dyno",
+      "firstAscent": "Fredrik Bodin",
+      "description": "Börjar med vänster hand på list och höger hand på jug. Dyno upp till hyllan utan att använda greppen däremellan. Går sedan upp till juggen ute på kanten.",
+      "source": {
+        "id": "legacy:sodra-berget",
+        "path": "mediawiki/Södra Berget.txt"
+      }
+    },
+    {
+      "id": "sodra-berget-problem-11",
+      "kind": "problem",
+      "number": "4",
+      "name": "Solid cold",
+      "grade": "5C",
+      "length": "",
+      "type": "Krimp",
+      "firstAscent": "Peter Nilsson",
+      "description": "Börjar inne i \"hålet\" med händerna på list. Går sedan ut åt vänster och upp, slutar i samma jug som \"Coldmember\".",
+      "source": {
+        "id": "legacy:sodra-berget",
+        "path": "mediawiki/Södra Berget.txt"
+      }
+    },
+    {
+      "id": "sodra-berget-problem-12",
+      "kind": "problem",
+      "number": "5",
+      "name": "Dragon´s breath",
+      "grade": "7A",
+      "length": "",
+      "type": "Krimp,Överhäng",
+      "firstAscent": "Fredrik Bodin",
+      "description": "Börjar i grottan på undersidan av blocket. Vänster hand på det stora underclinget i taket och höger hand längst ner på kanten. Går sedan ut ur grottan och upp utan att använda något annat än blocket.",
+      "source": {
+        "id": "legacy:sodra-berget",
+        "path": "mediawiki/Södra Berget.txt"
+      }
+    },
+    {
+      "id": "sodra-berget-problem-13",
+      "kind": "problem",
+      "number": "6",
+      "name": "Get shorty",
+      "grade": "5C",
+      "length": "",
+      "type": "Krimp",
+      "firstAscent": "Fredrik Bodin",
+      "description": "Börjar med händerna på den vassa listen, går därefter rakt upp.",
+      "source": {
+        "id": "legacy:sodra-berget",
+        "path": "mediawiki/Södra Berget.txt"
+      }
+    },
+    {
+      "id": "sodra-berget-problem-14",
+      "kind": "problem",
+      "number": "7",
+      "name": "Hakkapelitta",
+      "grade": "6C",
+      "length": "",
+      "type": "Krimp,Överhäng",
+      "firstAscent": "Fredrik Bodin",
+      "description": "Sittstart under taket. Vänster hand på crimp och högerhand på ett nästan obefintligt grepp. Gå sedan ut över taket och rakt upp.Arêten till vänster är ej med.",
+      "source": {
+        "id": "legacy:sodra-berget",
+        "path": "mediawiki/Södra Berget.txt"
+      }
+    },
+    {
+      "id": "sodra-berget-problem-15",
+      "kind": "problem",
+      "number": "8",
+      "name": "Power jet",
+      "grade": "5C",
+      "length": "",
+      "type": "Krimp",
+      "firstAscent": "Jon Kågström",
+      "description": "Går rakt upp utan att använda stenen till höger.",
+      "source": {
+        "id": "legacy:sodra-berget",
+        "path": "mediawiki/Södra Berget.txt"
+      }
+    },
+    {
+      "id": "sodra-berget-problem-16",
+      "kind": "problem",
+      "number": "9",
+      "name": "Trolltyg",
+      "grade": "6C+",
+      "length": "",
+      "type": "Krimp,Slopers",
+      "firstAscent": "Fredrik Bodin",
+      "description": "Börjar med vänster hand på liten crimp och höger hand på den slopiga kanten, går rakt upp.",
+      "source": {
+        "id": "legacy:sodra-berget",
+        "path": "mediawiki/Södra Berget.txt"
+      }
+    },
+    {
+      "id": "sodra-berget-problem-17",
+      "kind": "problem",
+      "number": "10",
+      "name": "Acrophobia",
+      "grade": "6B",
+      "length": "",
+      "type": "Krimp,Highball",
+      "firstAscent": "Jon Kågström",
+      "description": "Börjar med sittstart. Händerna på det stora greppet på arêten, följ sedan denna upp.",
+      "source": {
+        "id": "legacy:sodra-berget",
+        "path": "mediawiki/Södra Berget.txt"
+      }
+    },
+    {
+      "id": "sodra-berget-problem-18",
+      "kind": "problem",
+      "number": "11",
+      "name": "Hailys",
+      "grade": "7A+",
+      "length": "",
+      "type": "Dyno",
+      "firstAscent": "Fredrik Bodin",
+      "description": "Vänster hand i sprickan och höger hand på det lite sämre greppet åt höger. Dyno upp till kanten. Slutar när man har mantlat upp på hyllan.",
+      "source": {
+        "id": "legacy:sodra-berget",
+        "path": "mediawiki/Södra Berget.txt"
+      }
+    },
+    {
+      "id": "sodra-berget-problem-19",
+      "kind": "problem",
+      "number": "12",
+      "name": "Nova",
+      "grade": "6B",
+      "length": "",
+      "type": "Krimp",
+      "firstAscent": "Fredrik Bodin",
+      "description": "Variant på \"Hailys\", där man startar på samma grepp som denna och sedan klättrar upp utan att dyna. Den avslutas när man står på hyllan.",
+      "source": {
+        "id": "legacy:sodra-berget",
+        "path": "mediawiki/Södra Berget.txt"
+      }
+    },
+    {
+      "id": "sodra-berget-problem-20",
+      "kind": "problem",
+      "number": "13",
+      "name": "Psygnosis",
+      "grade": "7A",
+      "length": "",
+      "type": "Överhäng",
+      "firstAscent": "Jon Kågström",
+      "description": "Startar med undercling i taket, följer sedan detta ut och avslutas när man har mantlat upp över kanten. Väggarna på sidorna är inte med.",
+      "source": {
+        "id": "legacy:sodra-berget",
+        "path": "mediawiki/Södra Berget.txt"
+      }
+    },
+    {
+      "id": "sodra-berget-problem-21",
+      "kind": "problem",
+      "number": "14",
+      "name": "Ace is high",
+      "grade": "7A",
+      "length": "",
+      "type": "Krimp,Highball",
+      "firstAscent": "Fredrik Bodin",
+      "description": "Sittstart med händerna på listerna mellan sprickan till vänster och arêten till höger. Går rakt upp utan att använda just arêten och sprickan.",
+      "source": {
+        "id": "legacy:sodra-berget",
+        "path": "mediawiki/Södra Berget.txt"
+      }
+    },
+    {
+      "id": "sodra-berget-problem-22",
+      "kind": "problem",
+      "number": "15",
+      "name": "Grovsalt",
+      "grade": "6C",
+      "length": "",
+      "type": "Slopers",
+      "firstAscent": "Per Wermelin",
+      "description": "Klättra över bullen och upp mot toppen. Övredelen passeras med lätt dragning åt vänster.",
+      "source": {
+        "id": "legacy:sodra-berget",
+        "path": "mediawiki/Södra Berget.txt"
+      }
+    },
+    {
+      "id": "sodra-berget-problem-23",
+      "kind": "problem",
+      "number": "16",
+      "name": "Restless legs",
+      "grade": "6C",
+      "length": "",
+      "type": "Slopers",
+      "firstAscent": "Per Wermelin",
+      "description": "Börjar lika som \"Grovsalt\", men går till höger om bullen.",
+      "source": {
+        "id": "legacy:sodra-berget",
+        "path": "mediawiki/Södra Berget.txt"
+      }
+    },
+    {
+      "id": "sodra-berget-problem-24",
+      "kind": "problem",
+      "number": "17",
+      "name": "Svanka höften",
+      "grade": "5C",
+      "length": "",
+      "type": "Krimp",
+      "firstAscent": "Jon Kågström",
+      "description": "Börja längst ute till vänster under arêten. Höger hand på crimp och vänster hand på en bulle under arêten. Går rakt upp.",
+      "source": {
+        "id": "legacy:sodra-berget",
+        "path": "mediawiki/Södra Berget.txt"
+      }
+    },
+    {
+      "id": "sodra-berget-problem-25",
+      "kind": "problem",
+      "number": "18",
+      "name": "Lös fast fast",
+      "grade": "5B",
+      "length": "",
+      "type": "Krimp",
+      "firstAscent": "Jon Kågström",
+      "description": "Börja under de lösa (fast fasta) stenbitarna med ena handen på en sidepull och andra underkling. Klättra upp via sprickan",
+      "source": {
+        "id": "legacy:sodra-berget",
+        "path": "mediawiki/Södra Berget.txt"
+      }
+    },
+    {
+      "id": "sodra-berget-problem-26",
+      "kind": "problem",
+      "number": "19",
+      "name": "Static",
+      "grade": "6A",
+      "length": "",
+      "type": "Krimp",
+      "firstAscent": "Jon Kågström",
+      "description": "Sittstart med båda händerna i den horisontella sprickan, går rakt upp.",
+      "source": {
+        "id": "legacy:sodra-berget",
+        "path": "mediawiki/Södra Berget.txt"
+      }
+    },
+    {
+      "id": "sodra-berget-problem-27",
+      "kind": "problem",
+      "number": "20",
+      "name": "Mors lilla Olle",
+      "grade": "5A",
+      "length": "",
+      "type": "Krimp",
+      "firstAscent": "Fredrik Bodin",
+      "description": "Sittstart med händerna på juggen som ligger vid arêten till höger om \"Static\", går rakt upp.",
+      "source": {
+        "id": "legacy:sodra-berget",
+        "path": "mediawiki/Södra Berget.txt"
+      }
+    },
+    {
+      "id": "sodra-berget-problem-28",
+      "kind": "problem",
+      "number": "21",
+      "name": "Cavetroll",
+      "grade": "5B",
+      "length": "",
+      "type": "Spricka",
+      "firstAscent": "Jon Kågström",
+      "description": "Börja längst inne i hörnet i grottan. Klättra ut via sprickan som finns i taket mellan väggen och blocket. Slutar på samma ställe som \"Dragon´s breath\".",
+      "source": {
+        "id": "legacy:sodra-berget",
+        "path": "mediawiki/Södra Berget.txt"
+      }
+    },
+    {
+      "id": "sodra-berget-problem-29",
+      "kind": "problem",
+      "number": "22",
+      "name": "Operahuset",
+      "grade": "5A",
+      "length": "",
+      "type": "Slopers,Mantling",
+      "firstAscent": "",
+      "description": "Sittstart med höger hand i ett undercling och vänster hand på ett bra grepp på sidan av stenen. Klättra därefter längs kanten av stenen och mantla vid högsta punkt.",
+      "source": {
+        "id": "legacy:sodra-berget",
+        "path": "mediawiki/Södra Berget.txt"
+      }
+    },
+    {
+      "id": "sodra-berget-problem-30",
+      "kind": "problem",
+      "number": "23",
+      "name": "Extended edition",
+      "grade": "7A+",
+      "length": "",
+      "type": "Överhäng",
+      "firstAscent": "Fredrik Bodin",
+      "description": "Sittstart med händerna på juggen som sitter på den vertikala väggen. Går sedan rakt ut över grottans tak och länkas samman med \"Dragon´s breath\". Väggen på sidan är ej med.",
+      "source": {
+        "id": "legacy:sodra-berget",
+        "path": "mediawiki/Södra Berget.txt"
+      }
+    },
+    {
+      "id": "sodra-berget-problem-31",
+      "kind": "problem",
+      "number": "24",
+      "name": "Fredriks excavation",
+      "grade": "7A",
+      "length": "",
+      "type": "Krimp,Överhäng",
+      "firstAscent": "Fredrik Bodin",
+      "description": "Börjar under stenen med händerna på sideclinget, går sedan ut över kanten och rakt upp via arêten.",
+      "source": {
+        "id": "legacy:sodra-berget",
+        "path": "mediawiki/Södra Berget.txt"
+      }
+    },
+    {
+      "id": "sodra-berget-problem-32",
+      "kind": "problem",
+      "number": "25",
+      "name": "Fredriks stand up",
+      "grade": "3A",
+      "length": "",
+      "type": "Slab",
+      "firstAscent": "Fredrik Bodin",
+      "description": "Samma som Fredriks excavation, men börjar med ståstart.",
+      "source": {
+        "id": "legacy:sodra-berget",
+        "path": "mediawiki/Södra Berget.txt"
+      }
+    },
+    {
+      "id": "sodra-berget-problem-33",
+      "kind": "problem",
+      "number": "26",
+      "name": "El mono gordo",
+      "grade": "6A",
+      "length": "",
+      "type": "Krimp",
+      "firstAscent": "Peter Nilsson",
+      "description": "Sittstart. Börjar längst till vänster på stenen, går först rakt upp och sedan lite till vänster. Avslutas i den stora juggen.",
+      "source": {
+        "id": "legacy:sodra-berget",
+        "path": "mediawiki/Södra Berget.txt"
+      }
+    },
+    {
+      "id": "sodra-berget-problem-34",
+      "kind": "problem",
+      "number": "27",
+      "name": "Informaciones claras",
+      "grade": "5B",
+      "length": "",
+      "type": "Krimp,Slopers",
+      "firstAscent": "Peter Nilsson",
+      "description": "Börjar med vänster hand på \"El mono gordos\" startgrepp och högerhanden på en liten arête. Går sedan rakt up till den stora juggen",
+      "source": {
+        "id": "legacy:sodra-berget",
+        "path": "mediawiki/Södra Berget.txt"
+      }
+    },
+    {
+      "id": "sodra-berget-problem-35",
+      "kind": "problem",
+      "number": "28",
+      "name": "Muchacho alto",
+      "grade": "5C",
+      "length": "",
+      "type": "Krimp,Slopers",
+      "firstAscent": "Peter Nilsson",
+      "description": "Sittstart. Börjar med väster hand på arête-bullen och höger hand på pinch, går sedan rakt upp till toppjuggen.",
+      "source": {
+        "id": "legacy:sodra-berget",
+        "path": "mediawiki/Södra Berget.txt"
+      }
+    },
+    {
+      "id": "sodra-berget-problem-36",
+      "kind": "problem",
+      "number": "29",
+      "name": "Obsessed",
+      "grade": "7A",
+      "length": "",
+      "type": "Slopers,Travers V->H",
+      "firstAscent": "Fredrik Bodin",
+      "description": "Sittstart. Börjar med händerna på rampen längst till vänster. Traversera sedan åt höger bort till hörnet och mantla upp där. Följ sedan kammen till toppen.",
+      "source": {
+        "id": "legacy:sodra-berget",
+        "path": "mediawiki/Södra Berget.txt"
+      }
+    },
+    {
+      "id": "sodra-berget-problem-37",
+      "kind": "problem",
+      "number": "30",
+      "name": "Knäck",
+      "grade": "4C",
+      "length": "",
+      "type": "Krimp,Slopers",
+      "firstAscent": "Fredrik Bodin",
+      "description": "Ligger på hörnet där \"Obsessed\" går upp. Börjar med sittstart med händerna på det bra greppet, går därefter rakt upp.",
+      "source": {
+        "id": "legacy:sodra-berget",
+        "path": "mediawiki/Södra Berget.txt"
+      }
+    },
+    {
+      "id": "sodra-berget-problem-38",
+      "kind": "problem",
+      "number": "31",
+      "name": "Sledgehammer",
+      "grade": "7A",
+      "length": "",
+      "type": "Krimp,Dyno",
+      "firstAscent": "Fredrik Bodin",
+      "description": "Går rakt upp utan att använda sprickan till höger eller väggen till vänster. Desperat avslutning.",
+      "source": {
+        "id": "legacy:sodra-berget",
+        "path": "mediawiki/Södra Berget.txt"
+      }
+    },
+    {
+      "id": "sodra-berget-problem-39",
+      "kind": "problem",
+      "number": "32",
+      "name": "Mines of Moria",
+      "grade": "6C",
+      "length": "",
+      "type": "Krimp,Travers H->V",
+      "firstAscent": "Jon Kågström",
+      "description": "Börjar lika som \"Solid cold\", traversera igenom grottan och upp på andra sidan. Bumlingen som \"Dragon´s Breath\" går på är ej med.",
+      "source": {
+        "id": "legacy:sodra-berget",
+        "path": "mediawiki/Södra Berget.txt"
+      }
+    },
+    {
+      "id": "sodra-berget-problem-40",
+      "kind": "problem",
+      "number": "33",
+      "name": "Cold mine",
+      "grade": "5C",
+      "length": "",
+      "type": "Krimp",
+      "firstAscent": "Jon Kågström",
+      "description": "Sittstart under arêten, vänster hand på slopigt triangelformat grepp, höger hand på bra list. Går sedan rakt upp.",
+      "source": {
+        "id": "legacy:sodra-berget",
+        "path": "mediawiki/Södra Berget.txt"
+      }
+    },
+    {
+      "id": "sodra-berget-problem-41",
+      "kind": "problem",
+      "number": "34",
+      "name": "Balrogh",
+      "grade": "6A+",
+      "length": "",
+      "type": "Krimp",
+      "firstAscent": "Jon Kågström",
+      "description": "Ståstart vid samma arête som \"Cold Mine\", vänster hand på en crimp på insidan av arêten och höger hand på en \"bulle\" som sitter på utsidan. Går sedan rakt upp.",
+      "source": {
+        "id": "legacy:sodra-berget",
+        "path": "mediawiki/Södra Berget.txt"
+      }
+    },
+    {
+      "id": "sodra-berget-problem-42",
+      "kind": "problem",
+      "number": "35",
+      "name": "La fente sensible",
+      "grade": "5B",
+      "length": "",
+      "type": "Layback,Spricka",
+      "firstAscent": "Jon Kågström",
+      "description": "Går upp till vänster om \"Ace is high\", går rakt upp längs den tydliga laybacksprickan.",
+      "source": {
+        "id": "legacy:sodra-berget",
+        "path": "mediawiki/Södra Berget.txt"
+      }
+    },
+    {
+      "id": "sodra-berget-problem-43",
+      "kind": "problem",
+      "number": "36",
+      "name": "Gubbstön",
+      "grade": "5C",
+      "length": "",
+      "type": "Krimp",
+      "firstAscent": "Per Wermelin",
+      "description": "Börjar lika som \"Get shorty\". Går sedan åt vänster, för att sedan gå upp mitt på stenen.",
+      "source": {
+        "id": "legacy:sodra-berget",
+        "path": "mediawiki/Södra Berget.txt"
+      }
+    },
+    {
+      "id": "sodra-berget-problem-44",
+      "kind": "problem",
+      "number": "37",
+      "name": "Dirty Harry",
+      "grade": "5C",
+      "length": "",
+      "type": "Mantling",
+      "firstAscent": "Jon Kågström",
+      "description": "Börjar längst till vänste på det utstickande flaket, gå åt höger och mantla på högsta punkt.",
+      "source": {
+        "id": "legacy:sodra-berget",
+        "path": "mediawiki/Södra Berget.txt"
+      }
+    },
+    {
+      "id": "sodra-berget-problem-45",
+      "kind": "problem",
+      "number": "38",
+      "name": "No name",
+      "grade": "5C",
+      "length": "",
+      "type": "Krimp,Slopers",
+      "firstAscent": "Peter Nilsson",
+      "description": "Börjar med sittstart, går rakt upp.",
+      "source": {
+        "id": "legacy:sodra-berget",
+        "path": "mediawiki/Södra Berget.txt"
+      }
+    }
+  ],
+  "images": [],
+  "access": {
+    "legacyText": null,
+    "federationSlug": null
+  },
+  "qualityIssues": [],
+  "provenance": {
+    "primarySourceId": "legacy:sodra-berget",
+    "sources": [
+      {
+        "id": "legacy:sodra-berget",
+        "title": "Sverigeföraren 2014: Södra Berget",
+        "path": "mediawiki/Södra Berget.txt",
+        "license": "GNU Free Documentation License",
+        "snapshotDate": "2014-01-01"
+      }
+    ]
+  }
+}

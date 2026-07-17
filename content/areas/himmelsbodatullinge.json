@@ -1,0 +1,83 @@
+{
+  "schemaVersion": 1,
+  "id": "himmelsbodatullinge",
+  "slug": "himmelsbodatullinge",
+  "name": "HimmelsbodaTullinge",
+  "description": "Liten klippsnutt kanske inte värd någon längre resa men lite äventyrligt och skoj att ta sej dit. Topprep eller solo är det som gäller. Ett par hårdare superkorta turer går att göra till vänster och några lätta i mitten.",
+  "coordinates": {
+    "latitude": 59,
+    "longitude": 18
+  },
+  "categories": [
+    "mix",
+    "Saknar koordinater",
+    "Saknar leder",
+    "Saknar skiss",
+    "Saknar skrivarformatering",
+    "Saknar vägbeskrivning",
+    "sport",
+    "sva",
+    "trad",
+    "vertikalt",
+    "Västra Södertörn",
+    "överhäng"
+  ],
+  "sections": [
+    {
+      "id": "allmant",
+      "title": "Allmänt",
+      "body": "Liten klippsnutt kanske inte värd någon längre resa men lite äventyrligt och skoj att ta sej dit. Topprep eller solo är det som gäller. Ett par hårdare superkorta turer går att göra till vänster och några lätta i mitten."
+    },
+    {
+      "id": "vagbeskrivning",
+      "title": "Vägbeskrivning",
+      "body": "Åk till Storvreten i Tumba där letar du rätt på Stockstigen och parkerar på lämplig plats. Gå sedan på grusvägen över ängen och ta andra vänster. Gå förbi gården som ligger på vänster sida och när vägen svänger lite vänster så ligger klippan rakt fram inne bland träden vid åkeskanten. Karta här. Tryck på kartknappen ovan."
+    },
+    {
+      "id": "leder",
+      "title": "Leder",
+      "body": "kategori:Saknar skiss kategori:Saknar vägbeskrivning kategori:Saknar leder kategori:Saknar koordinater kategori:Saknar skrivarformatering Category:Stockholm Kategori:Västra Södertörn"
+    }
+  ],
+  "routes": [
+    {
+      "id": "himmelsbodatullinge-led-1",
+      "kind": "route",
+      "number": "1",
+      "name": "Måndagens fiasko övergick i Söndagens triumf",
+      "grade": "7a",
+      "length": "5",
+      "type": "Solo/toprep",
+      "firstAscent": "M.Söderström -2012 Solo",
+      "description": "Padda upp ordenkligt om du ska sola den.",
+      "source": {
+        "id": "legacy:himmelsbodatullinge",
+        "path": "mediawiki/HimmelsbodaTullinge.txt"
+      }
+    }
+  ],
+  "images": [
+    {
+      "filename": "Klippa.jpg",
+      "caption": "",
+      "missing": false
+    }
+  ],
+  "access": {
+    "legacyText": null,
+    "federationSlug": null
+  },
+  "qualityIssues": [],
+  "provenance": {
+    "primarySourceId": "legacy:himmelsbodatullinge",
+    "sources": [
+      {
+        "id": "legacy:himmelsbodatullinge",
+        "title": "Sverigeföraren 2014: HimmelsbodaTullinge",
+        "path": "mediawiki/HimmelsbodaTullinge.txt",
+        "license": "GNU Free Documentation License",
+        "snapshotDate": "2014-01-01"
+      }
+    ]
+  }
+}

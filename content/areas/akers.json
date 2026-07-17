@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "id": "akers",
+  "slug": "akers",
+  "name": "Åkers",
+  "description": "Litet boulderområde vid Åkers Styckebruk.",
+  "coordinates": {
+    "latitude": 59.23777777777778,
+    "longitude": 17.069166666666668
+  },
+  "categories": [
+    "Stockholm",
+    "Södermanland"
+  ],
+  "sections": [
+    {
+      "id": "allmant",
+      "title": "Allmänt",
+      "body": "Litet boulderområde vid Åkers Styckebruk."
+    },
+    {
+      "id": "vagbeskrivning",
+      "title": "Vägbeskrivning",
+      "body": "Kör E20 västerut från Södertälje och sväng av efter ca 30 km mot Åkers styckebruk. Kör igenom Åkers styckebruk förbi en statoilmack och håll vänster 200 m senare vid fabriken. Följ vägen runt fabriken och ta sedan vänster på grusvägen som följer efter Köpingevägen. Korsa åkrarna på denna, håll vänster när vägen delar sig och fortsätt sedan fram till grillplatsen vid sjön där det också går att parkera (Kommer du fram till stugorna har du åkt för långt). Följ stigen från parkeringen uppför sluttningen så kommer du till klätterområdet efter ca 150-200 meter."
+    },
+    {
+      "id": "forare",
+      "title": "Förare",
+      "body": "Media:åkers.pdf Kategori:Södermanland Kategori:Stockholm"
+    }
+  ],
+  "routes": [],
+  "images": [],
+  "access": {
+    "legacyText": null,
+    "federationSlug": null
+  },
+  "qualityIssues": [],
+  "provenance": {
+    "primarySourceId": "legacy:akers",
+    "sources": [
+      {
+        "id": "legacy:akers",
+        "title": "Sverigeföraren 2014: Åkers",
+        "path": "mediawiki/Åkers.txt",
+        "license": "GNU Free Documentation License",
+        "snapshotDate": "2014-01-01"
+      }
+    ]
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "schemaVersion": 1,
+  "id": "skansberget-bimbo",
+  "slug": "skansberget-bimbo",
+  "name": "Skansberget (bimbo)",
+  "description": "Kategori:Saknar allmän infoKategori:Saknar vägbeskrivning =Problem= Kategori:Uppsala Kategori:Bouldering Kategori:Bimbo Kategori:Behöver kvalitetssäkras Kategori:Saknar karta Kategori:Saknar koordinater Kategori:Saknar skrivarformattering Kategori:Saknar skiss",
+  "coordinates": null,
+  "categories": [
+    "Behöver kvalitetssäkras",
+    "Bimbo",
+    "Bouldering",
+    "Saknar allmän info",
+    "Saknar karta",
+    "Saknar koordinater",
+    "Saknar skiss",
+    "Saknar skrivarformattering",
+    "Saknar vägbeskrivning",
+    "Uppsala"
+  ],
+  "sections": [],
+  "routes": [
+    {
+      "id": "skansberget-bimbo-problem-1",
+      "kind": "problem",
+      "number": null,
+      "name": "Shout it out loud",
+      "grade": "7C",
+      "length": "",
+      "type": "",
+      "firstAscent": "stefan",
+      "description": "Sittstart på det lilla utskutande blockhornet. Lockgrad.",
+      "source": {
+        "id": "legacy:skansberget-bimbo",
+        "path": "mediawiki/Skansberget (bimbo).txt"
+      }
+    },
+    {
+      "id": "skansberget-bimbo-problem-2",
+      "kind": "problem",
+      "number": null,
+      "name": "Blanka",
+      "grade": "7B",
+      "length": "",
+      "type": "",
+      "firstAscent": "Stefan",
+      "description": "Den vänstra arêten på samma block som Shout it out loud. Ståstart från botten. Sitt möjlig för den hugade men blockeras tills vidare av ett dött träd.",
+      "source": {
+        "id": "legacy:skansberget-bimbo",
+        "path": "mediawiki/Skansberget (bimbo).txt"
+      }
+    },
+    {
+      "id": "skansberget-bimbo-problem-3",
+      "kind": "problem",
+      "number": null,
+      "name": "Hobgoblin",
+      "grade": "7C",
+      "length": "",
+      "type": "",
+      "firstAscent": "Stefan",
+      "description": "Ståstarten till ze project. Lång catch från usla grepp till en slopig kant. Svårgraderad men genuint hård.",
+      "source": {
+        "id": "legacy:skansberget-bimbo",
+        "path": "mediawiki/Skansberget (bimbo).txt"
+      }
+    }
+  ],
+  "images": [],
+  "access": {
+    "legacyText": null,
+    "federationSlug": null
+  },
+  "qualityIssues": [],
+  "provenance": {
+    "primarySourceId": "legacy:skansberget-bimbo",
+    "sources": [
+      {
+        "id": "legacy:skansberget-bimbo",
+        "title": "Sverigeföraren 2014: Skansberget (bimbo)",
+        "path": "mediawiki/Skansberget (bimbo).txt",
+        "license": "GNU Free Documentation License",
+        "snapshotDate": "2014-01-01"
+      }
+    ]
+  }
+}

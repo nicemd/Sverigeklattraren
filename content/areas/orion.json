@@ -1,0 +1,187 @@
+{
+  "schemaVersion": 1,
+  "id": "orion",
+  "slug": "orion",
+  "name": "Orion",
+  "description": "Fin klippa i Gärdsås med få men fina linjer. Värd ett besök!",
+  "coordinates": {
+    "latitude": 59,
+    "longitude": 18
+  },
+  "categories": [
+    "Saknar koordinater",
+    "Saknar skiss",
+    "Saknar skrivarformatering",
+    "trad",
+    "vertikalt",
+    "överhäng"
+  ],
+  "sections": [
+    {
+      "id": "allmant",
+      "title": "Allmänt",
+      "body": "Fin klippa i Gärdsås med få men fina linjer. Värd ett besök!"
+    },
+    {
+      "id": "miljo",
+      "title": "Miljö",
+      "body": "Kort anmarsch. Klippan ligger avskilt i en vacker, ganska tät skog som ger skugga på sommaren trots sydostligt läge."
+    },
+    {
+      "id": "vagbeskrivning",
+      "title": "Vägbeskrivning",
+      "body": "Fin klippa i sydost-läge precis intill (väster om) vägen Orion i Gärdsås. En kort promenad från Utby. 15 min från spårvagnen (Linje 11/7/6 - Kortedala torg). Mindre än 5 min från bussen (Linje 58 - Gärdsåsgatan)."
+    },
+    {
+      "id": "leder",
+      "title": "Leder",
+      "body": "Kategori:trad Kategori:vertikalt Kategori:överhäng kategori:Saknar skiss kategori:Saknar koordinater kategori:Saknar skrivarformatering Category:Göteborg"
+    }
+  ],
+  "routes": [
+    {
+      "id": "orion-led-1",
+      "kind": "route",
+      "number": "1",
+      "name": "Rigel",
+      "grade": "6+",
+      "length": "5",
+      "type": "trad",
+      "firstAscent": "Nils Bäckman -12",
+      "description": "Uppenbar, kort, takspricka. Hand, fist och mitt emellan.",
+      "source": {
+        "id": "legacy:orion",
+        "path": "mediawiki/Orion.txt"
+      }
+    },
+    {
+      "id": "orion-led-2",
+      "kind": "route",
+      "number": "2",
+      "name": "Betelgeuse",
+      "grade": "5+",
+      "length": "15",
+      "type": "trad",
+      "firstAscent": "Nils Bäckman -12",
+      "description": "Harmonisk led med ett lite bökigare krux i bred spricka. Från högt startgrepp, långa sträckningar ut längs högerkanten. Efter några meter tar den vänstra sprickan vid - som sedan följs till toppen. Välsäkrad. Inga stora säkringsprylar nödvändiga.",
+      "source": {
+        "id": "legacy:orion",
+        "path": "mediawiki/Orion.txt"
+      }
+    },
+    {
+      "id": "orion-led-3",
+      "kind": "route",
+      "number": "3",
+      "name": "Sol",
+      "grade": "6",
+      "length": "15",
+      "type": "trad",
+      "firstAscent": "John Liungman och Jonas Lyckeghård -13",
+      "description": "Areten höger om Betelgeuse.",
+      "source": {
+        "id": "legacy:orion",
+        "path": "mediawiki/Orion.txt"
+      }
+    },
+    {
+      "id": "orion-led-4",
+      "kind": "route",
+      "number": "4",
+      "name": "Eld o lågor",
+      "grade": "7+",
+      "length": "15",
+      "type": "trad",
+      "firstAscent": "Ronny Ek -13",
+      "description": "Rakt upp för facet, utan aréten till vänster.",
+      "source": {
+        "id": "legacy:orion",
+        "path": "mediawiki/Orion.txt"
+      }
+    },
+    {
+      "id": "orion-led-5",
+      "kind": "route",
+      "number": "5",
+      "name": "Lösgodis",
+      "grade": "5-",
+      "length": "18",
+      "type": "trad",
+      "firstAscent": "Erik Gustafsson och Per Larsson -13",
+      "description": "Lite lös, men rätt fin och rätt välsäkrad. Innerhörn först, sen låta bli att kliva ut vänster på stora hyllan, sen bred spricka / ytterhörn rakt upp.",
+      "source": {
+        "id": "legacy:orion",
+        "path": "mediawiki/Orion.txt"
+      }
+    },
+    {
+      "id": "orion-led-6",
+      "kind": "route",
+      "number": "6",
+      "name": "Projekt 1",
+      "grade": "?",
+      "length": "20",
+      "type": "",
+      "firstAscent": "",
+      "description": "Otroligt inbjudande greppklättring längs högersidan med dragning vänster upp mot taket som pryds av en otroligt fin horisontell takspricka.",
+      "source": {
+        "id": "legacy:orion",
+        "path": "mediawiki/Orion.txt"
+      }
+    },
+    {
+      "id": "orion-led-7",
+      "kind": "route",
+      "number": "7",
+      "name": "Orions bälte",
+      "grade": "6+",
+      "length": "20",
+      "type": "",
+      "firstAscent": "Linus Svensson -12",
+      "description": "Grepp och layback till det kristallrika bältet. Sedan en något överhängande spricka till toppen.",
+      "source": {
+        "id": "legacy:orion",
+        "path": "mediawiki/Orion.txt"
+      }
+    },
+    {
+      "id": "orion-led-8",
+      "kind": "route",
+      "number": "8",
+      "name": "Projekt 2",
+      "grade": "?",
+      "length": "20",
+      "type": "trad",
+      "firstAscent": "",
+      "description": "Sprickan strax till höger om Orions bälte.",
+      "source": {
+        "id": "legacy:orion",
+        "path": "mediawiki/Orion.txt"
+      }
+    }
+  ],
+  "images": [
+    {
+      "filename": "Miljo_bild_orion.jpg",
+      "caption": "",
+      "missing": false
+    }
+  ],
+  "access": {
+    "legacyText": null,
+    "federationSlug": null
+  },
+  "qualityIssues": [],
+  "provenance": {
+    "primarySourceId": "legacy:orion",
+    "sources": [
+      {
+        "id": "legacy:orion",
+        "title": "Sverigeföraren 2014: Orion",
+        "path": "mediawiki/Orion.txt",
+        "license": "GNU Free Documentation License",
+        "snapshotDate": "2014-01-01"
+      }
+    ]
+  }
+}

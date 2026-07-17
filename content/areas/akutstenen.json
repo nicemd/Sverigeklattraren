@@ -1,0 +1,146 @@
+{
+  "schemaVersion": 1,
+  "id": "akutstenen",
+  "slug": "akutstenen",
+  "name": "Akutstenen",
+  "description": "Kategori:Saknar allmän infoKategori:Saknar vägbeskrivning =Problem= Kategori:Sundsvall Kategori:Bouldering Kategori:Bimbo Kategori:Behöver kvalitetssäkras Kategori:Saknar karta Kategori:Saknar koordinater Kategori:Saknar skrivarformattering Kategori:Saknar skiss",
+  "coordinates": null,
+  "categories": [
+    "Behöver kvalitetssäkras",
+    "Bimbo",
+    "Bouldering",
+    "Saknar allmän info",
+    "Saknar karta",
+    "Saknar koordinater",
+    "Saknar skiss",
+    "Saknar skrivarformattering",
+    "Saknar vägbeskrivning",
+    "Sundsvall"
+  ],
+  "sections": [],
+  "routes": [
+    {
+      "id": "akutstenen-problem-1",
+      "kind": "problem",
+      "number": null,
+      "name": "Gubbsyndrom",
+      "grade": "7A",
+      "length": "",
+      "type": "Krimp,Överhäng",
+      "firstAscent": "Fredrik Bodin",
+      "description": "Sittstart under det lilla överhänget. Går upp via listerna och arêten. Småvassa grepp.",
+      "source": {
+        "id": "legacy:akutstenen",
+        "path": "mediawiki/Akutstenen.txt"
+      }
+    },
+    {
+      "id": "akutstenen-problem-2",
+      "kind": "problem",
+      "number": null,
+      "name": "Vart är Apan Nilsson",
+      "grade": "6B+",
+      "length": "",
+      "type": "Krimp,Aréte",
+      "firstAscent": "Fredrik Bodin",
+      "description": "Sittstart vid arêten, följer sedan denna rakt upp.",
+      "source": {
+        "id": "legacy:akutstenen",
+        "path": "mediawiki/Akutstenen.txt"
+      }
+    },
+    {
+      "id": "akutstenen-problem-3",
+      "kind": "problem",
+      "number": null,
+      "name": "Hopplös",
+      "grade": "6C",
+      "length": "",
+      "type": "Dyno",
+      "firstAscent": "Stefan Hedin",
+      "description": "Dyno upp till kanten från listerna på vänster sida av arêten.",
+      "source": {
+        "id": "legacy:akutstenen",
+        "path": "mediawiki/Akutstenen.txt"
+      }
+    },
+    {
+      "id": "akutstenen-problem-4",
+      "kind": "problem",
+      "number": null,
+      "name": "Skånepågen",
+      "grade": "5A",
+      "length": "",
+      "type": "Krimp",
+      "firstAscent": "Fredrik Lund",
+      "description": "Ståstart vid det lilla taket, går rakt upp.",
+      "source": {
+        "id": "legacy:akutstenen",
+        "path": "mediawiki/Akutstenen.txt"
+      }
+    },
+    {
+      "id": "akutstenen-problem-5",
+      "kind": "problem",
+      "number": null,
+      "name": "Chylodrillen",
+      "grade": "6B",
+      "length": "",
+      "type": "Krimp,Travers V->H",
+      "firstAscent": "Björn Knutsson",
+      "description": "Startar på jug under det lilla taket, går åt höger runt arêten och sedan upp.",
+      "source": {
+        "id": "legacy:akutstenen",
+        "path": "mediawiki/Akutstenen.txt"
+      }
+    },
+    {
+      "id": "akutstenen-problem-6",
+      "kind": "problem",
+      "number": null,
+      "name": "Mata apan",
+      "grade": "5C",
+      "length": "",
+      "type": "Krimp",
+      "firstAscent": "Björn Knutsson",
+      "description": "Ståstart med höger hand i sidepull och vänster hand på list, går rakt upp.",
+      "source": {
+        "id": "legacy:akutstenen",
+        "path": "mediawiki/Akutstenen.txt"
+      }
+    },
+    {
+      "id": "akutstenen-problem-7",
+      "kind": "problem",
+      "number": null,
+      "name": "Nivea for men",
+      "grade": "5C",
+      "length": "",
+      "type": "",
+      "firstAscent": "Per Wermelin",
+      "description": "?",
+      "source": {
+        "id": "legacy:akutstenen",
+        "path": "mediawiki/Akutstenen.txt"
+      }
+    }
+  ],
+  "images": [],
+  "access": {
+    "legacyText": null,
+    "federationSlug": null
+  },
+  "qualityIssues": [],
+  "provenance": {
+    "primarySourceId": "legacy:akutstenen",
+    "sources": [
+      {
+        "id": "legacy:akutstenen",
+        "title": "Sverigeföraren 2014: Akutstenen",
+        "path": "mediawiki/Akutstenen.txt",
+        "license": "GNU Free Documentation License",
+        "snapshotDate": "2014-01-01"
+      }
+    ]
+  }
+}

@@ -1,0 +1,329 @@
+{
+  "schemaVersion": 1,
+  "id": "branthall",
+  "slug": "branthall",
+  "name": "Branthäll",
+  "description": "I Söderhamns skärgård ligger ön Branthäll. En tio meter hög sjöklippa.",
+  "coordinates": {
+    "latitude": 61.26363097279574,
+    "longitude": 17.219009399414062
+  },
+  "categories": [
+    "Hälsingland",
+    "Saknar kolumner",
+    "Trad"
+  ],
+  "sections": [
+    {
+      "id": "allmant",
+      "title": "Allmänt",
+      "body": "I Söderhamns skärgård ligger ön Branthäll. En tio meter hög sjöklippa."
+    },
+    {
+      "id": "kommunikationer",
+      "title": "Kommunikationer",
+      "body": "Med båt; Om man har egen båt, eller lånad dito bereder det inga större problem att ta sig ut till ön, men det går att ta sig dit även utan sådana möjligheter. Under sommaren kan man åka ut med turistbåten \"Sunnan\" och bli ilandsatt på ön, för att bli hämtad med dagens sista tur, eller följande dags tur. \"Sunnan\" utgår från kajen mittemot järnvägsstationen i Söderhamn. GPS-koordinater: Lat: N 61º 15' 40.43\" Long: E 17º 13' 8.36\""
+    },
+    {
+      "id": "sydvaggen",
+      "title": "Sydväggen",
+      "body": "Väggen är en sydvägg av som högst tio meters höjd. Väggens längd är ungefär 75 m. Lederna startar vid vattenytan eller från stenar i vattnet. Klättringen sker i sprickor i ovanligt ren och fin granit. Den intressantaste delen av väggen är den högra halvan. I allmänhet topprepas turerna, genom att klättraren blir nedfirad på stichten. Kategori:Saknar kolumner Kategori:Hälsingland Kategori:Trad Kategori:Hälsingland"
+    }
+  ],
+  "routes": [
+    {
+      "id": "branthall-led-1",
+      "kind": "route",
+      "number": "1",
+      "name": "Våroffer",
+      "grade": "4+",
+      "length": "0",
+      "type": "trad",
+      "firstAscent": "Buster Delin 1984",
+      "description": "Kort väggtur tv om \"The Giant Flake Eater\".",
+      "source": {
+        "id": "legacy:branthall",
+        "path": "mediawiki/Branthäll.txt"
+      }
+    },
+    {
+      "id": "branthall-led-2",
+      "kind": "route",
+      "number": "2",
+      "name": "The giant flake eater",
+      "grade": "4",
+      "length": "0",
+      "type": "trad",
+      "firstAscent": "Kent Andersson m topprep 1981",
+      "description": "Fritt: Torbjörn Nilsson, 1984 Mitt på väggen finns en stor hylla någon meter över vattnet, vilken är ett bra ställe att landa båten. (På klippan mellan hyllan och vattnet syns en del klotter). Rakt ovanför hyllan finns detta fina flake. Perfekt layback. Kort.",
+      "source": {
+        "id": "legacy:branthall",
+        "path": "mediawiki/Branthäll.txt"
+      }
+    },
+    {
+      "id": "branthall-led-3",
+      "kind": "route",
+      "number": "3",
+      "name": "Livet",
+      "grade": "6-",
+      "length": "0",
+      "type": "trad",
+      "firstAscent": "Kent Andersson m topprep 1981",
+      "description": "Fritt: Torbjörn Nilsson, 1984 Hörnet till höger om \"The Giant Flake Eater\", på samma hylla. En verklig finger-tip layback.",
+      "source": {
+        "id": "legacy:branthall",
+        "path": "mediawiki/Branthäll.txt"
+      }
+    },
+    {
+      "id": "branthall-led-4",
+      "kind": "route",
+      "number": "4",
+      "name": "Korståg",
+      "grade": "5-",
+      "length": "0",
+      "type": "trad",
+      "firstAscent": "Buster Delin 1984",
+      "description": "Hangeltravers vid hyllan med klottret. Avslutningen är kruxet.",
+      "source": {
+        "id": "legacy:branthall",
+        "path": "mediawiki/Branthäll.txt"
+      }
+    },
+    {
+      "id": "branthall-led-5",
+      "kind": "route",
+      "number": "5",
+      "name": "Penguin in Bondage",
+      "grade": "4+",
+      "length": "0",
+      "type": "trad",
+      "firstAscent": "Kent Andersson m topprep 1981",
+      "description": "Fritt: Torbjörn Nilsson, 1984 Från den stora hyllan kliver man ned till vattenytan i högerkanten på hyllan och klättrar sedan den magnifika sprickan till toppen.",
+      "source": {
+        "id": "legacy:branthall",
+        "path": "mediawiki/Branthäll.txt"
+      }
+    },
+    {
+      "id": "branthall-led-6",
+      "kind": "route",
+      "number": "6",
+      "name": "Archimedes",
+      "grade": "5-/5",
+      "length": "0",
+      "type": "trad",
+      "firstAscent": "Joakim Brolin m topprep 1986",
+      "description": "Fin, rätt ihållande tur t v om \"Schooldays\".",
+      "source": {
+        "id": "legacy:branthall",
+        "path": "mediawiki/Branthäll.txt"
+      }
+    },
+    {
+      "id": "branthall-led-7",
+      "kind": "route",
+      "number": "7",
+      "name": "Sliding Boot",
+      "grade": "4-",
+      "length": "0",
+      "type": "trad",
+      "firstAscent": "Torbjörn Nilsson 1984",
+      "description": "Relativt lång, grov spricka.",
+      "source": {
+        "id": "legacy:branthall",
+        "path": "mediawiki/Branthäll.txt"
+      }
+    },
+    {
+      "id": "branthall-led-8",
+      "kind": "route",
+      "number": "8",
+      "name": "Schooldays",
+      "grade": "4+",
+      "length": "0",
+      "type": "trad",
+      "firstAscent": "Mikael Bäckman m topprep 1981",
+      "description": "Fritt: Torbjörn Nilsson, 1984 Startar från en sten i vattnet. Går rakt upp och snett åt vänster över ett block/flake till toppen.",
+      "source": {
+        "id": "legacy:branthall",
+        "path": "mediawiki/Branthäll.txt"
+      }
+    },
+    {
+      "id": "branthall-led-9",
+      "kind": "route",
+      "number": "9",
+      "name": "My Way",
+      "grade": "5-",
+      "length": "0",
+      "type": "trad",
+      "firstAscent": "Kent Andersson m topprep 1981",
+      "description": "Fritt: Torbjörn Nilsson, 1984 Startar från samma sten som \"Schooldays\", och lay-backar uppför den tydliga sprickan rakt ovanför.",
+      "source": {
+        "id": "legacy:branthall",
+        "path": "mediawiki/Branthäll.txt"
+      }
+    },
+    {
+      "id": "branthall-led-10",
+      "kind": "route",
+      "number": "10",
+      "name": "Spiderman",
+      "grade": "0",
+      "length": "0",
+      "type": "trad",
+      "firstAscent": "Kent Andersson m topprep 1981",
+      "description": "Startar från samma sten som \"Schooldays\", och sedan kliver man ut till höger och klättrar den mycket tunna sprickan till toppen. Det råder en viss tveksamhet om huruvida denna led egentligen är gjord utan häng eller inte. Minnet sviker, men vi tyckte i alla fall att den var klättrad på den tiden.",
+      "source": {
+        "id": "legacy:branthall",
+        "path": "mediawiki/Branthäll.txt"
+      }
+    },
+    {
+      "id": "branthall-led-11",
+      "kind": "route",
+      "number": "11",
+      "name": "Bifrost",
+      "grade": "4",
+      "length": "0",
+      "type": "trad",
+      "firstAscent": "Kent Andersson m topprep 1981",
+      "description": "Fritt: Torbjörn Nilsson, 1984 En kort jamspricka som vidgar sig nedåt vattenytan.",
+      "source": {
+        "id": "legacy:branthall",
+        "path": "mediawiki/Branthäll.txt"
+      }
+    },
+    {
+      "id": "branthall-led-12",
+      "kind": "route",
+      "number": "12",
+      "name": "Batman",
+      "grade": "5+",
+      "length": "0",
+      "type": "trad",
+      "firstAscent": "Torbjörn Nilsson 1984",
+      "description": "Avig klättring med lay-back moves.",
+      "source": {
+        "id": "legacy:branthall",
+        "path": "mediawiki/Branthäll.txt"
+      }
+    },
+    {
+      "id": "branthall-led-13",
+      "kind": "route",
+      "number": "13",
+      "name": "Goodman",
+      "grade": "4",
+      "length": "5",
+      "type": "trad",
+      "firstAscent": "Mikael Bäckman m topprep 1981",
+      "description": "Fritt: Torbjörn Nilsson, 1984 Ett rent och snyggt hörn. Startar från en sten.",
+      "source": {
+        "id": "legacy:branthall",
+        "path": "mediawiki/Branthäll.txt"
+      }
+    },
+    {
+      "id": "branthall-led-14",
+      "kind": "route",
+      "number": "14",
+      "name": "Väggman",
+      "grade": "3+",
+      "length": "0",
+      "type": "trad",
+      "firstAscent": "Mikael Bäckman m topprep 1981",
+      "description": "En kort väggled några meter till höger om \"Goodman\".",
+      "source": {
+        "id": "legacy:branthall",
+        "path": "mediawiki/Branthäll.txt"
+      }
+    },
+    {
+      "id": "branthall-led-15",
+      "kind": "route",
+      "number": "15",
+      "name": "Mot bättre vetande",
+      "grade": "2",
+      "length": "0",
+      "type": "trad",
+      "firstAscent": "Christer Johansson 1984",
+      "description": "Lätt liten sak",
+      "source": {
+        "id": "legacy:branthall",
+        "path": "mediawiki/Branthäll.txt"
+      }
+    },
+    {
+      "id": "branthall-led-16",
+      "kind": "route",
+      "number": "16",
+      "name": "Stray Cats",
+      "grade": "2",
+      "length": "0",
+      "type": "trad",
+      "firstAscent": "Mikael Bäckman m topprep 1981",
+      "description": "Kan man verkligen kalla det här en led? Ett kort hörn som börjar vid vattenytan.",
+      "source": {
+        "id": "legacy:branthall",
+        "path": "mediawiki/Branthäll.txt"
+      }
+    },
+    {
+      "id": "branthall-led-17",
+      "kind": "route",
+      "number": "17",
+      "name": "En vandring i solen",
+      "grade": "5+",
+      "length": "0",
+      "type": "trad",
+      "firstAscent": "Buster Delin 1984",
+      "description": "Travers in från höger, med ett känsligt krux runt en bulle. Avslutas med klättring t h om mot \"Bättre vetande\".",
+      "source": {
+        "id": "legacy:branthall",
+        "path": "mediawiki/Branthäll.txt"
+      }
+    }
+  ],
+  "images": [
+    {
+      "filename": "Branth%C3%A4ll.jpg",
+      "caption": "Branthäll. Foto: Per Calleberg",
+      "missing": true
+    },
+    {
+      "filename": "Branthall.jpg",
+      "caption": "",
+      "missing": false
+    },
+    {
+      "filename": "Seacliffclimbing.jpg",
+      "caption": "Buster Delin i mundering för sea cliff climbing på Penguin in Bondage. Foto: Peter Brolin",
+      "missing": false
+    },
+    {
+      "filename": "Spiderman.jpg",
+      "caption": "Mikael Bäckman på Spiderman, 1981. Foto: Per Calleberg",
+      "missing": false
+    }
+  ],
+  "access": {
+    "legacyText": null,
+    "federationSlug": null
+  },
+  "qualityIssues": [],
+  "provenance": {
+    "primarySourceId": "legacy:branthall",
+    "sources": [
+      {
+        "id": "legacy:branthall",
+        "title": "Sverigeföraren 2014: Branthäll",
+        "path": "mediawiki/Branthäll.txt",
+        "license": "GNU Free Documentation License",
+        "snapshotDate": "2014-01-01"
+      }
+    ]
+  }
+}

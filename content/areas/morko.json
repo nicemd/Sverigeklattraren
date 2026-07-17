@@ -1,0 +1,182 @@
+{
+  "schemaVersion": 1,
+  "id": "morko",
+  "slug": "morko",
+  "name": "Mörkö",
+  "description": "Kategori:Saknar allmän infoKategori:Saknar vägbeskrivning =Sektorer=",
+  "coordinates": null,
+  "categories": [
+    "Behöver kvalitetssäkras",
+    "Bimbo",
+    "Bouldering",
+    "Saknar allmän info",
+    "Saknar karta",
+    "Saknar koordinater",
+    "Saknar skiss",
+    "Saknar skrivarformattering",
+    "Saknar vägbeskrivning",
+    "Stockholm"
+  ],
+  "sections": [
+    {
+      "id": "berghuset",
+      "title": "Berghuset",
+      "body": "Kategori:Stockholm Kategori:Bouldering Kategori:Bimbo Kategori:Behöver kvalitetssäkras Kategori:Saknar karta Kategori:Saknar koordinater Kategori:Saknar skrivarformattering Kategori:Saknar skiss"
+    }
+  ],
+  "routes": [
+    {
+      "id": "morko-problem-1",
+      "kind": "problem",
+      "number": null,
+      "name": "Rock Molester",
+      "grade": "7B+",
+      "length": "",
+      "type": "Överhäng",
+      "firstAscent": "Jon Smedsaas",
+      "description": "Den uppenbara sittstarten till höger på den höga södra väggen. 6 meter kontinuerligt överhängande problem som är svårast i början.",
+      "source": {
+        "id": "legacy:morko",
+        "path": "mediawiki/Mörkö.txt"
+      }
+    },
+    {
+      "id": "morko-problem-2",
+      "kind": "problem",
+      "number": null,
+      "name": "Pruttlukt",
+      "grade": "6C",
+      "length": "",
+      "type": "",
+      "firstAscent": "Crell och John P",
+      "description": "Livsfarligt problem som går till höger om Rock Molester.",
+      "source": {
+        "id": "legacy:morko",
+        "path": "mediawiki/Mörkö.txt"
+      }
+    },
+    {
+      "id": "morko-problem-3",
+      "kind": "problem",
+      "number": null,
+      "name": "Golden Reciever",
+      "grade": "7B+",
+      "length": "",
+      "type": "Överhäng,Dyno",
+      "firstAscent": "Jon Smedsaas",
+      "description": "Catch vid den lilla mynningen till grottan. Start på två sidtag. Avig vatch till bra grepp. Något morfo. Merd några paddor är landning ok.",
+      "source": {
+        "id": "legacy:morko",
+        "path": "mediawiki/Mörkö.txt"
+      }
+    },
+    {
+      "id": "morko-problem-4",
+      "kind": "problem",
+      "number": null,
+      "name": "Golden Reciever SS",
+      "grade": "7C+",
+      "length": "",
+      "type": "Överhäng,Dyno",
+      "firstAscent": "Jon Smedsaas",
+      "description": "SS till Golden Reciever. Morfo.",
+      "source": {
+        "id": "legacy:morko",
+        "path": "mediawiki/Mörkö.txt"
+      }
+    },
+    {
+      "id": "morko-problem-5",
+      "kind": "problem",
+      "number": null,
+      "name": "Betonghäck",
+      "grade": "7B+",
+      "length": "",
+      "type": "Krimp,Överhäng",
+      "firstAscent": "Jon Smedsaas",
+      "description": "Brant underclingproblem i tak på liten sten bakom berghuset. Förnedrande jobbig start.",
+      "source": {
+        "id": "legacy:morko",
+        "path": "mediawiki/Mörkö.txt"
+      }
+    },
+    {
+      "id": "morko-problem-6",
+      "kind": "problem",
+      "number": null,
+      "name": "Den Onde",
+      "grade": "7B+",
+      "length": "",
+      "type": "",
+      "firstAscent": "Stefan Pettersson",
+      "description": "Ondskefullt problem till höger om grottans mynning.",
+      "source": {
+        "id": "legacy:morko",
+        "path": "mediawiki/Mörkö.txt"
+      }
+    },
+    {
+      "id": "morko-problem-7",
+      "kind": "problem",
+      "number": null,
+      "name": "Grottbjörnens folk",
+      "grade": "7A",
+      "length": "",
+      "type": "",
+      "firstAscent": "Stefan Pettersson",
+      "description": "Takproblem under Berghuset. Lättaste vägen tills det börjar bli svårt.",
+      "source": {
+        "id": "legacy:morko",
+        "path": "mediawiki/Mörkö.txt"
+      }
+    },
+    {
+      "id": "morko-problem-8",
+      "kind": "problem",
+      "number": null,
+      "name": "Crazy Roof Problem",
+      "grade": "7C",
+      "length": "",
+      "type": "",
+      "firstAscent": "Stefan Pettersson",
+      "description": "Takproblem under Berghuset",
+      "source": {
+        "id": "legacy:morko",
+        "path": "mediawiki/Mörkö.txt"
+      }
+    },
+    {
+      "id": "morko-problem-9",
+      "kind": "problem",
+      "number": null,
+      "name": "Mammutjägarna",
+      "grade": "7C+",
+      "length": "",
+      "type": "",
+      "firstAscent": "Stefan Pettersson",
+      "description": "Takproblem under Berghuset http://users.grevture.com/~stogroweb/images/berghuset1.jpg",
+      "source": {
+        "id": "legacy:morko",
+        "path": "mediawiki/Mörkö.txt"
+      }
+    }
+  ],
+  "images": [],
+  "access": {
+    "legacyText": null,
+    "federationSlug": null
+  },
+  "qualityIssues": [],
+  "provenance": {
+    "primarySourceId": "legacy:morko",
+    "sources": [
+      {
+        "id": "legacy:morko",
+        "title": "Sverigeföraren 2014: Mörkö",
+        "path": "mediawiki/Mörkö.txt",
+        "license": "GNU Free Documentation License",
+        "snapshotDate": "2014-01-01"
+      }
+    ]
+  }
+}

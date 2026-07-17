@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 1,
+  "id": "vallberget",
+  "slug": "vallberget",
+  "name": "Vallberget",
+  "description": "Lite skräpig klippa som torkar snabbt om våren. Klippan ligger i en gryta som gör att det bildas ett mikroklimat, där det blir mycket varmt och ofta vindstilla. Solen ligger på från morgonen och fram till 16:00. Klippan erbjuder ett stort antal topprepsleder, och några bultade turer, samt några som är möjliga att göra på kil.",
+  "coordinates": {
+    "latitude": 63.9959125627964,
+    "longitude": 20.0265312194824
+  },
+  "categories": [
+    "sport",
+    "vertikalt",
+    "Västerbotten"
+  ],
+  "sections": [
+    {
+      "id": "allmant",
+      "title": "Allmänt",
+      "body": "Lite skräpig klippa som torkar snabbt om våren. Klippan ligger i en gryta som gör att det bildas ett mikroklimat, där det blir mycket varmt och ofta vindstilla. Solen ligger på från morgonen och fram till 16:00. Klippan erbjuder ett stort antal topprepsleder, och några bultade turer, samt några som är möjliga att göra på kil."
+    },
+    {
+      "id": "uppdateringar",
+      "title": "Uppdateringar",
+      "body": "Ny väg upp till Vallberget! Det är numera förbjudet att gå via det gula huset. Läs mer här: UKHKs forum"
+    },
+    {
+      "id": "ostra-vaggen",
+      "title": "Östra väggen",
+      "body": "Väggen mot sjön, nedanför fikaplatsen på toppen. Väggen nås lättast genom att fira ner från fikaplatsen, alternativt genom scrambling nedifrån. Man kan även nå väggen genom klättring på huvudväggens fortsättning nedåt, nedanför/till höger om Linkan Special. Östra väggen bjuder på lätt tradklättring och har god möjlighet för nyturer. Det har klättrats på denna vägg under 70- och 80-talet men vad vi har kunnat hitta så finns inga ledbeskrivningar kvar. Kategori:Västerbotten Kategori:sport Kategori:vertikalt"
+    }
+  ],
+  "routes": [
+    {
+      "id": "vallberget-led-1",
+      "kind": "route",
+      "number": null,
+      "name": "Radius",
+      "grade": "4-",
+      "length": "7",
+      "type": "trad",
+      "firstAscent": "Oskar Hedin, 2012",
+      "description": "En av två korta lättsäkrade sprickor. Bra för nybörjare på trad.",
+      "source": {
+        "id": "legacy:vallberget",
+        "path": "mediawiki/Vallberget.txt"
+      }
+    },
+    {
+      "id": "vallberget-led-2",
+      "kind": "route",
+      "number": null,
+      "name": "Ulna",
+      "grade": "4",
+      "length": "7",
+      "type": "trad",
+      "firstAscent": "Johan Blixt Dackhammar, 2012",
+      "description": "Den andra sprickan, krux på mitten - lättare för de längre. Lättsäkrad och bra nybörjarled.",
+      "source": {
+        "id": "legacy:vallberget",
+        "path": "mediawiki/Vallberget.txt"
+      }
+    },
+    {
+      "id": "vallberget-led-3",
+      "kind": "route",
+      "number": null,
+      "name": "Skit samma",
+      "grade": "3-",
+      "length": "7",
+      "type": "trad",
+      "firstAscent": "Christoffer Vikström, 2012",
+      "description": "Skreva precis under fikaplatsen. Mycket lätt och skitig led.",
+      "source": {
+        "id": "legacy:vallberget",
+        "path": "mediawiki/Vallberget.txt"
+      }
+    },
+    {
+      "id": "vallberget-led-4",
+      "kind": "route",
+      "number": null,
+      "name": "Märgspik",
+      "grade": "4+",
+      "length": "12",
+      "type": "trad",
+      "firstAscent": "Oskar Hedin, 2012",
+      "description": "Längst till höger på plattån, vid den höga tallen. Off width-spricka upp till flakig arête. Rolig klättring.",
+      "source": {
+        "id": "legacy:vallberget",
+        "path": "mediawiki/Vallberget.txt"
+      }
+    }
+  ],
+  "images": [
+    {
+      "filename": "Radius_ulna.jpg",
+      "caption": "",
+      "missing": false
+    }
+  ],
+  "access": {
+    "legacyText": null,
+    "federationSlug": null
+  },
+  "qualityIssues": [],
+  "provenance": {
+    "primarySourceId": "legacy:vallberget",
+    "sources": [
+      {
+        "id": "legacy:vallberget",
+        "title": "Sverigeföraren 2014: Vallberget",
+        "path": "mediawiki/Vallberget.txt",
+        "license": "GNU Free Documentation License",
+        "snapshotDate": "2014-01-01"
+      }
+    ]
+  }
+}

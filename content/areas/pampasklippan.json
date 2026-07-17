@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 1,
+  "id": "pampasklippan",
+  "slug": "pampasklippan",
+  "name": "Pampasklippan",
+  "description": "En liten men naggande god klippa vid Pampas marina. Lederna är mellan 5-7 meter långa och klättras med eget rack eller solo. Spår av tidigare aktivitet finns i form av en ensam borrbult.",
+  "coordinates": null,
+  "categories": [
+    "Norra Stockholm",
+    "Stockholm",
+    "Trad",
+    "vertikalt"
+  ],
+  "sections": [
+    {
+      "id": "allmant",
+      "title": "Allmänt",
+      "body": "En liten men naggande god klippa vid Pampas marina. Lederna är mellan 5-7 meter långa och klättras med eget rack eller solo. Spår av tidigare aktivitet finns i form av en ensam borrbult."
+    },
+    {
+      "id": "vagbeskrivning",
+      "title": "Vägbeskrivning",
+      "body": "Från Stockholm sväng av Solna och följ skylt mot Pampas marina där du svänger in och sedan direkt höger. Kör igenom parkeringen som tillhör arbetsmiljöverket som ligger på din vänstra sida kör mot kolonilotterna och följ vägen som svänger vänster parkera på den lilla parkeringen vid kolonilotterna. Gå sedan tillbaka till Pampas marina och ut på stora vägen (Ekelundsvägen) gå höger och under Essingeleden då ska du se en betongbyggnad till vänster gå in bakom den och ta dig över en trasig grind nu borde du se klippan till vänster."
+    },
+    {
+      "id": "leder",
+      "title": "Leder",
+      "body": "http://www.sverigeforaren.se/images/a/a7/Pampasklippan.jpg kort krux Går att tradda Två olika utsteg där det högra är lite lättare men gillar du tvåfingerpockets så rekommenderas det vänstra. Mer en boulder, startar en bit upp i rasbranten. Kategori:Stockholm Kategori:Norra Stockholm Kategori:Trad Kategori:vertikalt"
+    }
+  ],
+  "routes": [
+    {
+      "id": "pampasklippan-led-1",
+      "kind": "route",
+      "number": null,
+      "name": "Securitas",
+      "grade": "6b",
+      "length": "5",
+      "type": "trad",
+      "firstAscent": "Mikael Söderström solo 11",
+      "description": "",
+      "source": {
+        "id": "legacy:pampasklippan",
+        "path": "mediawiki/Pampasklippan.txt"
+      }
+    },
+    {
+      "id": "pampasklippan-led-2",
+      "kind": "route",
+      "number": null,
+      "name": "?",
+      "grade": "6c",
+      "length": "6",
+      "type": "sport",
+      "firstAscent": "?",
+      "description": "",
+      "source": {
+        "id": "legacy:pampasklippan",
+        "path": "mediawiki/Pampasklippan.txt"
+      }
+    },
+    {
+      "id": "pampasklippan-led-3",
+      "kind": "route",
+      "number": null,
+      "name": "Vad gör du?",
+      "grade": "6c",
+      "length": "7",
+      "type": "trad",
+      "firstAscent": "Mikael Söderström solo 11",
+      "description": "",
+      "source": {
+        "id": "legacy:pampasklippan",
+        "path": "mediawiki/Pampasklippan.txt"
+      }
+    },
+    {
+      "id": "pampasklippan-led-4",
+      "kind": "route",
+      "number": null,
+      "name": "Jag har sett klottrare men inte klättrare",
+      "grade": "5c",
+      "length": "4",
+      "type": "trad",
+      "firstAscent": "Mikael Söderström solo 11",
+      "description": "",
+      "source": {
+        "id": "legacy:pampasklippan",
+        "path": "mediawiki/Pampasklippan.txt"
+      }
+    }
+  ],
+  "images": [],
+  "access": {
+    "legacyText": null,
+    "federationSlug": null
+  },
+  "qualityIssues": [],
+  "provenance": {
+    "primarySourceId": "legacy:pampasklippan",
+    "sources": [
+      {
+        "id": "legacy:pampasklippan",
+        "title": "Sverigeföraren 2014: Pampasklippan",
+        "path": "mediawiki/Pampasklippan.txt",
+        "license": "GNU Free Documentation License",
+        "snapshotDate": "2014-01-01"
+      }
+    ]
+  }
+}

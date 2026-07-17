@@ -1,0 +1,79 @@
+{
+  "schemaVersion": 1,
+  "id": "tossebergsklatten",
+  "slug": "tossebergsklatten",
+  "name": "Tossebergsklätten",
+  "description": "En liten klippa alldeles intill Fryken i närheten av Tossebergsklätten. Haft klätterbesök, men i övrigt ganska okänd. Observera accessreglerna.",
+  "coordinates": {
+    "latitude": 59.983333,
+    "longitude": 13.103406
+  },
+  "categories": [
+    "mix",
+    "Saknar leder",
+    "Saknar skiss",
+    "Saknar skrivarformatering",
+    "sport",
+    "sva",
+    "trad",
+    "vertikalt",
+    "överhäng"
+  ],
+  "sections": [
+    {
+      "id": "allmant",
+      "title": "Allmänt",
+      "body": "En liten klippa alldeles intill Fryken i närheten av Tossebergsklätten. Haft klätterbesök, men i övrigt ganska okänd. Observera accessreglerna."
+    },
+    {
+      "id": "vagbeskrivning",
+      "title": "Vägbeskrivning",
+      "body": "På E45 mellan Sunne och Torsby i höjd med Tossebergsklätten finns en rastplats med utsikt över övre Fryken. Stanna här och gå ner mot Fryken. Här hittar du klätterklippan. Detta är alltså inte på själva Tossebergsklätten utan på andra sidan E45 ner mot sjön."
+    },
+    {
+      "id": "leder",
+      "title": "Leder",
+      "body": "Uppskattningsvis 10-15 meter hög. Utmärkande spricklinjer. Mer information kommer längre fram. Osäkert om några linjer gjorts och i vilken utsträckning."
+    },
+    {
+      "id": "access",
+      "title": "Access",
+      "body": "OBS! Klippan har klätterförbud mellan 1/3 och 1/7 OBS! Kategori:trad Kategori:vertikalt kategori:Saknar skiss kategori:Saknar leder kategori:Saknar skrivarformatering Category:Värmland"
+    }
+  ],
+  "routes": [
+    {
+      "id": "tossebergsklatten-led-1",
+      "kind": "route",
+      "number": "1",
+      "name": "Namn på led",
+      "grade": "9c+",
+      "length": "30",
+      "type": "trad",
+      "firstAscent": "namn på fa -08",
+      "description": "ledbeskrivning",
+      "source": {
+        "id": "legacy:tossebergsklatten",
+        "path": "mediawiki/Tossebergsklätten.txt"
+      }
+    }
+  ],
+  "images": [],
+  "access": {
+    "legacyText": "OBS! Klippan har klätterförbud mellan 1/3 och 1/7 OBS! Kategori:trad Kategori:vertikalt kategori:Saknar skiss kategori:Saknar leder kategori:Saknar skrivarformatering Category:Värmland",
+    "federationSlug": null
+  },
+  "qualityIssues": [],
+  "provenance": {
+    "primarySourceId": "legacy:tossebergsklatten",
+    "sources": [
+      {
+        "id": "legacy:tossebergsklatten",
+        "title": "Sverigeföraren 2014: Tossebergsklätten",
+        "path": "mediawiki/Tossebergsklätten.txt",
+        "license": "GNU Free Documentation License",
+        "snapshotDate": "2014-01-01"
+      }
+    ]
+  }
+}

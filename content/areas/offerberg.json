@@ -1,0 +1,75 @@
+{
+  "schemaVersion": 1,
+  "id": "offerberg",
+  "slug": "offerberg",
+  "name": "Offerberg",
+  "description": "Offerberg ligger utanför Undersvik, mellan Arbrå och Ljusdal, längs riksväg 83. Berget är en imponerande stor (40 m) och brant östvägg. Tyvärr lovar det mer än vad det håller.",
+  "coordinates": {
+    "latitude": 61.621975,
+    "longitude": 16.28352777777778
+  },
+  "categories": [
+    "Aid",
+    "Hälsingland",
+    "Is",
+    "Saknar karta",
+    "Saknar leder"
+  ],
+  "sections": [
+    {
+      "id": "allmant",
+      "title": "Allmänt",
+      "body": "Offerberg ligger utanför Undersvik, mellan Arbrå och Ljusdal, längs riksväg 83. Berget är en imponerande stor (40 m) och brant östvägg. Tyvärr lovar det mer än vad det håller."
+    },
+    {
+      "id": "kommunikationer",
+      "title": "Kommunikationer",
+      "body": "Med bil; kör man längs riksväg 83. På vänster sida av vägen, om man kommer söderifrån, syns en stor och iögonfallande sprängvägg vid en kurva. Här finns en parkeringsficka snett nedanför sprängväggen. En 2-300 meter lång promenad, i bitvis blockig terräng, nedanför branten tar en fram till väggen. Ungefärliga GPS-koordinater för väggen: Lat: N 61º 37' 19.11\" Long: E 16º 17' 0.70\""
+    },
+    {
+      "id": "klippan",
+      "title": "Klippan",
+      "body": "Berget är en imponerande stor (40 m) och brant östvägg. Tyvärr lovar det mer än vad det håller. Klippan är, trots sin lutning, oerhört lös, med stora block som till synes bara hänger på väggen. Dessutom saknar klippan praktiskt taget helt och hållet linjer; de flesta formationerna är horisontella med mer eller mindre oklätterbara partier däremellan. Åtminstone tre försök har gjorts att forcera väggen med artificiella tekniker, men ingen led har kunnat följas ända till toppen. En liten kuriositet är den egentliga toppen på berget, som ligger en bit norr om väggen. Här finns ett tämligen stort flyttblock deponerat precis på högsta punkten. Ofta står en stege med vilkens hjälp man kan bestiga blocket. Säkert går här också att göra några pittoreska boulderproblem. Ostadig och oseriös klättring, eller kanske seriös?"
+    },
+    {
+      "id": "isklattring",
+      "title": "Isklättring",
+      "body": "I högerkanten av den ca 40 m höga, branta och lösa bergväggen bildas en brant och fin ispelare; några varianter finns, ca 15 m hög, med flackare is ovanför. Totalt ca 25 meter klättring. Denna klättrades första gången vintern 1990-91. Ytterligare 10 m till vänster finns en krokigare tur med tunnare is som slutar under en tallstam. 20 m. Kategori:Saknar karta Kategori:Saknar leder Kategori:Aid Kategori:Is Kategori:Hälsingland Kategori:Hälsingland"
+    }
+  ],
+  "routes": [
+    {
+      "id": "offerberg-led-1",
+      "kind": "route",
+      "number": "1",
+      "name": "Rituell kult",
+      "grade": "A2",
+      "length": "17",
+      "type": "",
+      "firstAscent": "Per Calleberg 1989",
+      "description": "Startar vid en stor gran ungefär mitt på väggen, till höger om stora överhäng. Följer ett system av grunda diedrar och ihåliga flak till en firningsstation med borrbult och bult, i nederkanten av ett band med mycket lös klippa.",
+      "source": {
+        "id": "legacy:offerberg",
+        "path": "mediawiki/Offerberg.txt"
+      }
+    }
+  ],
+  "images": [],
+  "access": {
+    "legacyText": null,
+    "federationSlug": null
+  },
+  "qualityIssues": [],
+  "provenance": {
+    "primarySourceId": "legacy:offerberg",
+    "sources": [
+      {
+        "id": "legacy:offerberg",
+        "title": "Sverigeföraren 2014: Offerberg",
+        "path": "mediawiki/Offerberg.txt",
+        "license": "GNU Free Documentation License",
+        "snapshotDate": "2014-01-01"
+      }
+    ]
+  }
+}

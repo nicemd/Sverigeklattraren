@@ -1,0 +1,627 @@
+{
+  "schemaVersion": 1,
+  "id": "ulvasen",
+  "slug": "ulvasen",
+  "name": "Ulvåsen",
+  "description": "Väldigt fint, men lite undangömt område som tyvärr tycks besökas mer sällan än mer kända klippor närmare centrum. Ingen bebyggelse i sikte, inget oväsen från E20.",
+  "coordinates": {
+    "latitude": 57.749999685553796,
+    "longitude": 12.100324630737305
+  },
+  "categories": [
+    "Göteborg"
+  ],
+  "sections": [
+    {
+      "id": "allmant",
+      "title": "Allmänt",
+      "body": "Väldigt fint, men lite undangömt område som tyvärr tycks besökas mer sällan än mer kända klippor närmare centrum. Ingen bebyggelse i sikte, inget oväsen från E20."
+    },
+    {
+      "id": "karaktar",
+      "title": "Karaktär",
+      "body": "Utpräglad jam-karaktär med tyngdpunkt runt grad 6. Turer på 10-20 meter. Hög kvalitet!"
+    },
+    {
+      "id": "vagbeskrivning",
+      "title": "Vägbeskrivning",
+      "body": "För att hitta hit med cykel från centrala Göteborg, ta Utbyvägen från Gamlestan, fortsätt förbi Utby, och sväng vänster någon kilometer senare in på Paradisvägen. Där Paradisvägen sedan tar av åt höger fortsätter du istället uppför den branta backen åt vänster, på Gavelåsvägen. Där vägen tar slut (efter ytterliggare en tuff uppförsbacke) börjar en välpreparerad stig. Ta stigen uppåt, dvs åt vänster. Sväng av stigen åt höger efter 5-10 minuter, där en skylt med en skidåkare sitter uppspikad. Ta dig fram över träsket på ruttna spänger. Klipporna ligger på din högra sida."
+    },
+    {
+      "id": "ulvasen-1",
+      "title": "Ulvåsen 1",
+      "body": "Klippan längst bort. Ligger längs samma berg som de andra klipporna, men det är något hundratal meter genom buskarna från Ulvåsen 3. Knata på så hittar du."
+    },
+    {
+      "id": "ulvasen-4",
+      "title": "Ulvåsen 4",
+      "body": "Den första klippan du kommer till, och här slipper du träsket."
+    },
+    {
+      "id": "ulvasen-mer-at-hoger",
+      "title": "Ulvåsen mer åt höger",
+      "body": "Kategori:Göteborg Category:trad"
+    }
+  ],
+  "routes": [
+    {
+      "id": "ulvasen-led-1",
+      "kind": "route",
+      "number": null,
+      "name": "Castor",
+      "grade": "6-",
+      "length": "",
+      "type": "",
+      "firstAscent": "",
+      "description": "Sprickan längst till vänster. Välsäkrad om man har några extra Camalot 2-3 eller motsvarande. Lätt för sin grad",
+      "source": {
+        "id": "legacy:ulvasen",
+        "path": "mediawiki/Ulvåsen.txt"
+      }
+    },
+    {
+      "id": "ulvasen-led-2",
+      "kind": "route",
+      "number": null,
+      "name": "Pollux",
+      "grade": "5",
+      "length": "12",
+      "type": "",
+      "firstAscent": "",
+      "description": "Sprickan bredvid. Går förbi ett träd.",
+      "source": {
+        "id": "legacy:ulvasen",
+        "path": "mediawiki/Ulvåsen.txt"
+      }
+    },
+    {
+      "id": "ulvasen-led-3",
+      "kind": "route",
+      "number": null,
+      "name": "Klytaimestra",
+      "grade": "6-",
+      "length": "",
+      "type": "",
+      "firstAscent": "Jan Machek & Tomas Machek",
+      "description": "Startar under taket",
+      "source": {
+        "id": "legacy:ulvasen",
+        "path": "mediawiki/Ulvåsen.txt"
+      }
+    },
+    {
+      "id": "ulvasen-led-4",
+      "kind": "route",
+      "number": null,
+      "name": "Adduktur",
+      "grade": "7b+",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "Johan Lindström",
+      "description": "Aréte vänster om First aid",
+      "source": {
+        "id": "legacy:ulvasen",
+        "path": "mediawiki/Ulvåsen.txt"
+      }
+    },
+    {
+      "id": "ulvasen-led-5",
+      "kind": "route",
+      "number": null,
+      "name": "First Aid",
+      "grade": "A2+",
+      "length": "",
+      "type": "aid",
+      "firstAscent": "Fredrik Rapp & Johannes Rodin",
+      "description": "Den riktigt tunna sprickan höger om Adduktur och vänster om Neverest.",
+      "source": {
+        "id": "legacy:ulvasen",
+        "path": "mediawiki/Ulvåsen.txt"
+      }
+    },
+    {
+      "id": "ulvasen-led-6",
+      "kind": "route",
+      "number": null,
+      "name": "Neverest",
+      "grade": "6+",
+      "length": "15",
+      "type": "trad",
+      "firstAscent": "Jan Machek & Anton Malak",
+      "description": "Brant dieder med fina handjam. Välsäkrad, gärna med 2-3 Camalot #2.",
+      "source": {
+        "id": "legacy:ulvasen",
+        "path": "mediawiki/Ulvåsen.txt"
+      }
+    },
+    {
+      "id": "ulvasen-led-7",
+      "kind": "route",
+      "number": null,
+      "name": "Vilse i blåbärsskogen",
+      "grade": "8b",
+      "length": "",
+      "type": "",
+      "firstAscent": "Magnus Högström 2009",
+      "description": "",
+      "source": {
+        "id": "legacy:ulvasen",
+        "path": "mediawiki/Ulvåsen.txt"
+      }
+    },
+    {
+      "id": "ulvasen-led-8",
+      "kind": "route",
+      "number": null,
+      "name": "Inflammerad led",
+      "grade": "5-",
+      "length": "",
+      "type": "",
+      "firstAscent": "",
+      "description": "",
+      "source": {
+        "id": "legacy:ulvasen",
+        "path": "mediawiki/Ulvåsen.txt"
+      }
+    },
+    {
+      "id": "ulvasen-led-9",
+      "kind": "route",
+      "number": null,
+      "name": "Sans Balance",
+      "grade": "7b",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "",
+      "description": "",
+      "source": {
+        "id": "legacy:ulvasen",
+        "path": "mediawiki/Ulvåsen.txt"
+      }
+    },
+    {
+      "id": "ulvasen-led-10",
+      "kind": "route",
+      "number": null,
+      "name": "Kantarellmonstret",
+      "grade": "8a+",
+      "length": "",
+      "type": "",
+      "firstAscent": "",
+      "description": "",
+      "source": {
+        "id": "legacy:ulvasen",
+        "path": "mediawiki/Ulvåsen.txt"
+      }
+    },
+    {
+      "id": "ulvasen-led-11",
+      "kind": "route",
+      "number": null,
+      "name": "I feel moody",
+      "grade": "8a",
+      "length": "",
+      "type": "",
+      "firstAscent": "",
+      "description": "",
+      "source": {
+        "id": "legacy:ulvasen",
+        "path": "mediawiki/Ulvåsen.txt"
+      }
+    },
+    {
+      "id": "ulvasen-led-12",
+      "kind": "route",
+      "number": null,
+      "name": "Putte P",
+      "grade": "7b+",
+      "length": "",
+      "type": "",
+      "firstAscent": "",
+      "description": "",
+      "source": {
+        "id": "legacy:ulvasen",
+        "path": "mediawiki/Ulvåsen.txt"
+      }
+    },
+    {
+      "id": "ulvasen-led-13",
+      "kind": "route",
+      "number": null,
+      "name": "Karusellen",
+      "grade": "7c+",
+      "length": "",
+      "type": "",
+      "firstAscent": "",
+      "description": "",
+      "source": {
+        "id": "legacy:ulvasen",
+        "path": "mediawiki/Ulvåsen.txt"
+      }
+    },
+    {
+      "id": "ulvasen-led-14",
+      "kind": "route",
+      "number": null,
+      "name": "Trappan",
+      "grade": "4-",
+      "length": "",
+      "type": "",
+      "firstAscent": "",
+      "description": "högerlutande \"trappa\"",
+      "source": {
+        "id": "legacy:ulvasen",
+        "path": "mediawiki/Ulvåsen.txt"
+      }
+    },
+    {
+      "id": "ulvasen-led-15",
+      "kind": "route",
+      "number": null,
+      "name": "Björnen",
+      "grade": "7b+",
+      "length": "",
+      "type": "",
+      "firstAscent": "",
+      "description": "",
+      "source": {
+        "id": "legacy:ulvasen",
+        "path": "mediawiki/Ulvåsen.txt"
+      }
+    },
+    {
+      "id": "ulvasen-led-16",
+      "kind": "route",
+      "number": null,
+      "name": "Lejonet",
+      "grade": "7b",
+      "length": "",
+      "type": "",
+      "firstAscent": "",
+      "description": "",
+      "source": {
+        "id": "legacy:ulvasen",
+        "path": "mediawiki/Ulvåsen.txt"
+      }
+    },
+    {
+      "id": "ulvasen-led-17",
+      "kind": "route",
+      "number": null,
+      "name": "Kolla, ett UFO!",
+      "grade": "6/6+",
+      "length": "",
+      "type": "",
+      "firstAscent": "Stefan Nilsson & Patrik Jacobson",
+      "description": "Spricka vänster om Medusa",
+      "source": {
+        "id": "legacy:ulvasen",
+        "path": "mediawiki/Ulvåsen.txt"
+      }
+    },
+    {
+      "id": "ulvasen-led-18",
+      "kind": "route",
+      "number": null,
+      "name": "Medusa",
+      "grade": "6-",
+      "length": "",
+      "type": "",
+      "firstAscent": "Anton Malak & Tomas Machek",
+      "description": "Spricka nr2",
+      "source": {
+        "id": "legacy:ulvasen",
+        "path": "mediawiki/Ulvåsen.txt"
+      }
+    },
+    {
+      "id": "ulvasen-led-19",
+      "kind": "route",
+      "number": null,
+      "name": "Megera",
+      "grade": "6",
+      "length": "15",
+      "type": "trad",
+      "firstAscent": "Jan Machek & Tomas Machek",
+      "description": "Grymt fin fingerspricka. Jämn och välsäkrad.",
+      "source": {
+        "id": "legacy:ulvasen",
+        "path": "mediawiki/Ulvåsen.txt"
+      }
+    },
+    {
+      "id": "ulvasen-led-20",
+      "kind": "route",
+      "number": null,
+      "name": "Nemesis",
+      "grade": "5+",
+      "length": "",
+      "type": "",
+      "firstAscent": "",
+      "description": "",
+      "source": {
+        "id": "legacy:ulvasen",
+        "path": "mediawiki/Ulvåsen.txt"
+      }
+    },
+    {
+      "id": "ulvasen-led-21",
+      "kind": "route",
+      "number": null,
+      "name": "Furie",
+      "grade": "6-",
+      "length": "",
+      "type": "",
+      "firstAscent": "",
+      "description": "",
+      "source": {
+        "id": "legacy:ulvasen",
+        "path": "mediawiki/Ulvåsen.txt"
+      }
+    },
+    {
+      "id": "ulvasen-led-22",
+      "kind": "route",
+      "number": null,
+      "name": "Achilles",
+      "grade": "6/a0",
+      "length": "",
+      "type": "",
+      "firstAscent": "",
+      "description": "",
+      "source": {
+        "id": "legacy:ulvasen",
+        "path": "mediawiki/Ulvåsen.txt"
+      }
+    },
+    {
+      "id": "ulvasen-led-23",
+      "kind": "route",
+      "number": null,
+      "name": "Sysyfos",
+      "grade": "5",
+      "length": "",
+      "type": "",
+      "firstAscent": "",
+      "description": "",
+      "source": {
+        "id": "legacy:ulvasen",
+        "path": "mediawiki/Ulvåsen.txt"
+      }
+    },
+    {
+      "id": "ulvasen-led-24",
+      "kind": "route",
+      "number": null,
+      "name": "Den gamle och klippan",
+      "grade": "6",
+      "length": "",
+      "type": "",
+      "firstAscent": "",
+      "description": "",
+      "source": {
+        "id": "legacy:ulvasen",
+        "path": "mediawiki/Ulvåsen.txt"
+      }
+    },
+    {
+      "id": "ulvasen-led-25",
+      "kind": "route",
+      "number": null,
+      "name": "Ulvens tand",
+      "grade": "6-",
+      "length": "",
+      "type": "",
+      "firstAscent": "",
+      "description": "Börjar i nischen men går ganska över till sprickan som är i vänsterdelen av det vackra svaet, sikta på ett block som ser ut som en huggtand, ca 1½ meter stor. Varierande och förvånansvärt jämn klättring.",
+      "source": {
+        "id": "legacy:ulvasen",
+        "path": "mediawiki/Ulvåsen.txt"
+      }
+    },
+    {
+      "id": "ulvasen-led-26",
+      "kind": "route",
+      "number": null,
+      "name": "Odysseus",
+      "grade": "5",
+      "length": "",
+      "type": "",
+      "firstAscent": "",
+      "description": "",
+      "source": {
+        "id": "legacy:ulvasen",
+        "path": "mediawiki/Ulvåsen.txt"
+      }
+    },
+    {
+      "id": "ulvasen-led-27",
+      "kind": "route",
+      "number": null,
+      "name": "Fenix",
+      "grade": "6",
+      "length": "",
+      "type": "",
+      "firstAscent": "",
+      "description": "",
+      "source": {
+        "id": "legacy:ulvasen",
+        "path": "mediawiki/Ulvåsen.txt"
+      }
+    },
+    {
+      "id": "ulvasen-led-28",
+      "kind": "route",
+      "number": null,
+      "name": "Damokles svärd",
+      "grade": "5",
+      "length": "",
+      "type": "",
+      "firstAscent": "",
+      "description": "",
+      "source": {
+        "id": "legacy:ulvasen",
+        "path": "mediawiki/Ulvåsen.txt"
+      }
+    },
+    {
+      "id": "ulvasen-led-29",
+      "kind": "route",
+      "number": null,
+      "name": "Cantilena",
+      "grade": "6+",
+      "length": "20",
+      "type": "trad",
+      "firstAscent": "Tomas Machek & Anton Malak",
+      "description": "Iögonfallande linje längs areten. Mycket tung.",
+      "source": {
+        "id": "legacy:ulvasen",
+        "path": "mediawiki/Ulvåsen.txt"
+      }
+    },
+    {
+      "id": "ulvasen-led-30",
+      "kind": "route",
+      "number": null,
+      "name": "Träskmonstret",
+      "grade": "6-",
+      "length": "",
+      "type": "",
+      "firstAscent": "Tomas Machek & Anton Malak",
+      "description": "Offwidth",
+      "source": {
+        "id": "legacy:ulvasen",
+        "path": "mediawiki/Ulvåsen.txt"
+      }
+    },
+    {
+      "id": "ulvasen-led-31",
+      "kind": "route",
+      "number": null,
+      "name": "Fistfight",
+      "grade": "6",
+      "length": "",
+      "type": "",
+      "firstAscent": "",
+      "description": "",
+      "source": {
+        "id": "legacy:ulvasen",
+        "path": "mediawiki/Ulvåsen.txt"
+      }
+    },
+    {
+      "id": "ulvasen-led-32",
+      "kind": "route",
+      "number": null,
+      "name": "Scylla",
+      "grade": "6",
+      "length": "20",
+      "type": "trad",
+      "firstAscent": "Tomas Machek & Anton Malak",
+      "description": "Varierad och spännande linje i vänsterkant på klippan.",
+      "source": {
+        "id": "legacy:ulvasen",
+        "path": "mediawiki/Ulvåsen.txt"
+      }
+    },
+    {
+      "id": "ulvasen-led-33",
+      "kind": "route",
+      "number": null,
+      "name": "Charybdis",
+      "grade": "5-",
+      "length": "",
+      "type": "",
+      "firstAscent": "",
+      "description": "",
+      "source": {
+        "id": "legacy:ulvasen",
+        "path": "mediawiki/Ulvåsen.txt"
+      }
+    },
+    {
+      "id": "ulvasen-led-34",
+      "kind": "route",
+      "number": null,
+      "name": "Midsommarrled",
+      "grade": "5",
+      "length": "",
+      "type": "",
+      "firstAscent": "",
+      "description": "",
+      "source": {
+        "id": "legacy:ulvasen",
+        "path": "mediawiki/Ulvåsen.txt"
+      }
+    },
+    {
+      "id": "ulvasen-led-35",
+      "kind": "route",
+      "number": null,
+      "name": "Bird on a Wire",
+      "grade": "5+",
+      "length": "",
+      "type": "",
+      "firstAscent": "",
+      "description": "",
+      "source": {
+        "id": "legacy:ulvasen",
+        "path": "mediawiki/Ulvåsen.txt"
+      }
+    },
+    {
+      "id": "ulvasen-led-36",
+      "kind": "route",
+      "number": null,
+      "name": "Grävlingen",
+      "grade": "5",
+      "length": "20",
+      "type": "trad",
+      "firstAscent": "Anton Malak & Tomas Machek",
+      "description": "Först lite bökig och uppbruten, sedan kalasfina handjam.",
+      "source": {
+        "id": "legacy:ulvasen",
+        "path": "mediawiki/Ulvåsen.txt"
+      }
+    },
+    {
+      "id": "ulvasen-led-37",
+      "kind": "route",
+      "number": null,
+      "name": "??",
+      "grade": "a1+",
+      "length": "",
+      "type": "",
+      "firstAscent": "",
+      "description": "Startar i ett överhäng, traversera ut höger, följ det lösa flaket upp, traversa vänster i horisentalsprickan och därefter upp emot enen. Antagligen lätt frigrad.",
+      "source": {
+        "id": "legacy:ulvasen",
+        "path": "mediawiki/Ulvåsen.txt"
+      }
+    }
+  ],
+  "images": [
+    {
+      "filename": "Ulvåsen_översikt.jpg",
+      "caption": "",
+      "missing": false
+    }
+  ],
+  "access": {
+    "legacyText": null,
+    "federationSlug": "ulvasen"
+  },
+  "qualityIssues": [],
+  "provenance": {
+    "primarySourceId": "legacy:ulvasen",
+    "sources": [
+      {
+        "id": "legacy:ulvasen",
+        "title": "Sverigeföraren 2014: Ulvåsen",
+        "path": "mediawiki/Ulvåsen.txt",
+        "license": "GNU Free Documentation License",
+        "snapshotDate": "2014-01-01"
+      }
+    ]
+  }
+}

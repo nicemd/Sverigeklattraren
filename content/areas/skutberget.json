@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 1,
+  "id": "skutberget",
+  "slug": "skutberget",
+  "name": "Skutberget",
+  "description": "Ett fåtal mediokra och lätta vertikalväggar... och så Karlstads brantaste och hårdaste tak som skön kontrast.",
+  "coordinates": {
+    "latitude": 59.37637,
+    "longitude": 13.373194
+  },
+  "categories": [
+    "mix",
+    "Saknar skiss",
+    "Saknar skrivarformatering",
+    "sport",
+    "sva",
+    "trad",
+    "vertikalt",
+    "överhäng"
+  ],
+  "sections": [
+    {
+      "id": "allmant",
+      "title": "Allmänt",
+      "body": "Ett fåtal mediokra och lätta vertikalväggar... och så Karlstads brantaste och hårdaste tak som skön kontrast."
+    },
+    {
+      "id": "vagbeskrivning",
+      "title": "Vägbeskrivning",
+      "body": "Kör från Karlstad mot Skutberget, sväng av på bomstadvägen. Kör på denna en knapp kilometer? Till höger tangerar ett löpspår vägen och du kan också köra ner vänster mot husvagsparkering o.dyl. Du ska följa löparspåret/elljusspåret. Koordinaterna endast uppskattade. Knalla in på elljusspåret och gå längs denna några hundratal meter förbi åtminstone ett fritidshus på höger sida och ett på vänster. Var uppmärksam på skyltar som indikerar cykelstig. När du hittar en sådan vik av på cykelstigen till höger och följ denna 100 meter och du börjar ana klippor i terrängen till vänster. Vik av från cykelstigen och knata upp 50-100 meter och du bör inom kort hitta det du söker. Oklart var du bör parkera. Använd sunt förnuft och stör inte friluftslivet. Kanske till vänster från där du ska in på spåret?"
+    },
+    {
+      "id": "problem",
+      "title": "Problem",
+      "body": "Kategori:vertikalt Kategori:överhäng kategori:Saknar skiss kategori:Saknar skrivarformatering Category:Värmland"
+    }
+  ],
+  "routes": [
+    {
+      "id": "skutberget-problem-1",
+      "kind": "problem",
+      "number": "1",
+      "name": "Mantla den här Johan Lovén",
+      "grade": "6b?",
+      "length": "",
+      "type": "mantling",
+      "firstAscent": "Sören Danielsson",
+      "description": "Hängstart på bulliga limpformationen ute vid läppen framför taket. Utgång rakt upp och dit tar du dig vid mantling eller strääääck.",
+      "source": {
+        "id": "legacy:skutberget",
+        "path": "mediawiki/Skutberget.txt"
+      }
+    },
+    {
+      "id": "skutberget-problem-2",
+      "kind": "problem",
+      "number": "2",
+      "name": "Nils-Magne, hard as a rock",
+      "grade": "7a?",
+      "length": "",
+      "type": "knälås, heelhook, tak, mantling",
+      "firstAscent": "Sören Danielsson 2011-06",
+      "description": "Sittstart längst inne i taket på bra grepp. Vänster klippformation får användas. Utnyttja detta för att låsa av och leta dig ut rakt ut genom taket. Avslutas med mantla den här Johan Lovén. Fördel långa personer. Graden extremt oviss pga ovanlig (dock väldigt rolig) klättring.",
+      "source": {
+        "id": "legacy:skutberget",
+        "path": "mediawiki/Skutberget.txt"
+      }
+    },
+    {
+      "id": "skutberget-problem-3",
+      "kind": "problem",
+      "number": "3",
+      "name": "Projekt",
+      "grade": "???",
+      "length": "",
+      "type": "tak",
+      "firstAscent": "projekt",
+      "description": "Du får inte använda någon av höger eller vänster klippformation. Det är endast taket och detta \"fristående\" block som gäller. Första movet går väl an, men ser blir allt väldigt hårt. Möjlig lösning att utan avlastning gå låååångt till usel crimp? Inovativ beta efterlyses för att det alls ska gå att göra?",
+      "source": {
+        "id": "legacy:skutberget",
+        "path": "mediawiki/Skutberget.txt"
+      }
+    }
+  ],
+  "images": [],
+  "access": {
+    "legacyText": null,
+    "federationSlug": null
+  },
+  "qualityIssues": [],
+  "provenance": {
+    "primarySourceId": "legacy:skutberget",
+    "sources": [
+      {
+        "id": "legacy:skutberget",
+        "title": "Sverigeföraren 2014: Skutberget",
+        "path": "mediawiki/Skutberget.txt",
+        "license": "GNU Free Documentation License",
+        "snapshotDate": "2014-01-01"
+      }
+    ]
+  }
+}

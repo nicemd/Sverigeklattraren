@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "id": "libroback",
+  "slug": "libroback",
+  "name": "Librobäck",
+  "description": "=Allmänt= Ett par block med några få problem, utvecklat först av F Malmros. =Vägbeskrivning= V 272 -> Gysinge. Eft. Industriomr. Librobäck, typ vid Hässelby o Hovlösa ta v. till grusparkering omgiven av björkar. Följ stigen v. om skogspartiet tills blocken syns. =Problem= Kategori:Uppsala Kategori:Bouldering Kategori:Bimbo Kategori:Behöver kvalitetssäkras Kategori:Saknar karta Kategori:Saknar koordinater Kategori:Saknar skrivarformattering Kategori:Saknar skiss",
+  "coordinates": null,
+  "categories": [
+    "Behöver kvalitetssäkras",
+    "Bimbo",
+    "Bouldering",
+    "Saknar karta",
+    "Saknar koordinater",
+    "Saknar skiss",
+    "Saknar skrivarformattering",
+    "Uppsala"
+  ],
+  "sections": [],
+  "routes": [
+    {
+      "id": "libroback-problem-1",
+      "kind": "problem",
+      "number": null,
+      "name": "Gesundheit",
+      "grade": "7A",
+      "length": "",
+      "type": "",
+      "firstAscent": "Sydde, Borg",
+      "description": "Första blockets nordsida. ss i undercling.",
+      "source": {
+        "id": "legacy:libroback",
+        "path": "mediawiki/Librobäck.txt"
+      }
+    }
+  ],
+  "images": [],
+  "access": {
+    "legacyText": null,
+    "federationSlug": null
+  },
+  "qualityIssues": [],
+  "provenance": {
+    "primarySourceId": "legacy:libroback",
+    "sources": [
+      {
+        "id": "legacy:libroback",
+        "title": "Sverigeföraren 2014: Librobäck",
+        "path": "mediawiki/Librobäck.txt",
+        "license": "GNU Free Documentation License",
+        "snapshotDate": "2014-01-01"
+      }
+    ]
+  }
+}

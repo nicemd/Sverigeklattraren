@@ -1,0 +1,71 @@
+{
+  "schemaVersion": 1,
+  "id": "kyrkstugan",
+  "slug": "kyrkstugan",
+  "name": "Kyrkstugan",
+  "description": "Kategori:Saknar allmän infoKategori:Saknar vägbeskrivning =Problem= Kategori:Lycksele Kategori:Bouldering Kategori:Bimbo Kategori:Behöver kvalitetssäkras Kategori:Saknar karta Kategori:Saknar koordinater Kategori:Saknar skrivarformattering Kategori:Saknar skiss",
+  "coordinates": null,
+  "categories": [
+    "Behöver kvalitetssäkras",
+    "Bimbo",
+    "Bouldering",
+    "Lycksele",
+    "Saknar allmän info",
+    "Saknar karta",
+    "Saknar koordinater",
+    "Saknar skiss",
+    "Saknar skrivarformattering",
+    "Saknar vägbeskrivning"
+  ],
+  "sections": [],
+  "routes": [
+    {
+      "id": "kyrkstugan-problem-1",
+      "kind": "problem",
+      "number": null,
+      "name": "Älgpasset",
+      "grade": "4C",
+      "length": "",
+      "type": "Krimp,Slopers",
+      "firstAscent": "Johan Danielsson",
+      "description": "På kanten mellan den flacka och överhängande delen. Starta vid stubben.",
+      "source": {
+        "id": "legacy:kyrkstugan",
+        "path": "mediawiki/Kyrkstugan.txt"
+      }
+    },
+    {
+      "id": "kyrkstugan-problem-2",
+      "kind": "problem",
+      "number": null,
+      "name": "Studsaren",
+      "grade": "4C",
+      "length": "",
+      "type": "Krimp",
+      "firstAscent": "Johan Danielsson",
+      "description": "Startar mitt på den flackare sidan.",
+      "source": {
+        "id": "legacy:kyrkstugan",
+        "path": "mediawiki/Kyrkstugan.txt"
+      }
+    }
+  ],
+  "images": [],
+  "access": {
+    "legacyText": null,
+    "federationSlug": null
+  },
+  "qualityIssues": [],
+  "provenance": {
+    "primarySourceId": "legacy:kyrkstugan",
+    "sources": [
+      {
+        "id": "legacy:kyrkstugan",
+        "title": "Sverigeföraren 2014: Kyrkstugan",
+        "path": "mediawiki/Kyrkstugan.txt",
+        "license": "GNU Free Documentation License",
+        "snapshotDate": "2014-01-01"
+      }
+    ]
+  }
+}

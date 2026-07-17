@@ -1,0 +1,123 @@
+{
+  "schemaVersion": 1,
+  "id": "stora-hoga",
+  "slug": "stora-hoga",
+  "name": "Stora Höga",
+  "description": "Det finns för tillfället tre stycken lätta bultade leder, 7-12 meter i graderna 4b, 4c och 5a på denna klippa.",
+  "coordinates": {
+    "latitude": 59,
+    "longitude": 18
+  },
+  "categories": [
+    "Göteborg",
+    "Saknar koordinater",
+    "Saknar skiss",
+    "Saknar skrivarformatering",
+    "Saknar vägbeskrivning",
+    "sport",
+    "sva"
+  ],
+  "sections": [
+    {
+      "id": "allmant",
+      "title": "Allmänt",
+      "body": "Det finns för tillfället tre stycken lätta bultade leder, 7-12 meter i graderna 4b, 4c och 5a på denna klippa."
+    },
+    {
+      "id": "vagbeskrivning",
+      "title": "Vägbeskrivning",
+      "body": "Klippan ligger vid Stora Högaskolan i Stora Höga, strax norr om Göteborg. Sök på Eniro för vägbeskrivning. Synlig ifrån vägen."
+    },
+    {
+      "id": "lank",
+      "title": "Länk",
+      "body": "http://www.8a.nu/forum/ViewForumThread.aspx?ObjectId=5745&ObjectClass=CLS_UserBlogComment&CountryCode=CZE Kategori:sport Kategori:sva"
+    },
+    {
+      "id": "bilder",
+      "title": "Bilder",
+      "body": "kategori:Saknar skiss kategori:Saknar vägbeskrivning kategori:Saknar koordinater kategori:Saknar skrivarformatering Category:Bohuslän Kategori:Göteborg"
+    }
+  ],
+  "routes": [
+    {
+      "id": "stora-hoga-led-1",
+      "kind": "route",
+      "number": null,
+      "name": "?",
+      "grade": "4b",
+      "length": "",
+      "type": "",
+      "firstAscent": "Jens Larssen (2009)",
+      "description": "",
+      "source": {
+        "id": "legacy:stora-hoga",
+        "path": "mediawiki/Stora Höga.txt"
+      }
+    },
+    {
+      "id": "stora-hoga-led-2",
+      "kind": "route",
+      "number": null,
+      "name": "?",
+      "grade": "4c",
+      "length": "",
+      "type": "",
+      "firstAscent": "Jens Larssen (2009)",
+      "description": "",
+      "source": {
+        "id": "legacy:stora-hoga",
+        "path": "mediawiki/Stora Höga.txt"
+      }
+    },
+    {
+      "id": "stora-hoga-led-3",
+      "kind": "route",
+      "number": null,
+      "name": "?",
+      "grade": "5a",
+      "length": "",
+      "type": "",
+      "firstAscent": "Jens Larssen (2009)",
+      "description": "",
+      "source": {
+        "id": "legacy:stora-hoga",
+        "path": "mediawiki/Stora Höga.txt"
+      }
+    }
+  ],
+  "images": [
+    {
+      "filename": "Stora_hoga_bild1.jpg",
+      "caption": "Topprepsklättring på Stora höga",
+      "missing": false
+    },
+    {
+      "filename": "Stora_hoga_bild2.jpg",
+      "caption": "Berget måste klättras också",
+      "missing": false
+    },
+    {
+      "filename": "Stora_hoga_bild3.jpg",
+      "caption": "En rolig eftermiddag.",
+      "missing": false
+    }
+  ],
+  "access": {
+    "legacyText": null,
+    "federationSlug": null
+  },
+  "qualityIssues": [],
+  "provenance": {
+    "primarySourceId": "legacy:stora-hoga",
+    "sources": [
+      {
+        "id": "legacy:stora-hoga",
+        "title": "Sverigeföraren 2014: Stora Höga",
+        "path": "mediawiki/Stora Höga.txt",
+        "license": "GNU Free Documentation License",
+        "snapshotDate": "2014-01-01"
+      }
+    ]
+  }
+}

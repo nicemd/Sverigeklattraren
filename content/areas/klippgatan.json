@@ -1,0 +1,86 @@
+{
+  "schemaVersion": 1,
+  "id": "klippgatan",
+  "slug": "klippgatan",
+  "name": "Klippgatan",
+  "description": "Kategori:Saknar allmän infoKategori:Saknar vägbeskrivning =Problem= Kategori:Sundsvall Kategori:Bouldering Kategori:Bimbo Kategori:Behöver kvalitetssäkras Kategori:Saknar karta Kategori:Saknar koordinater Kategori:Saknar skrivarformattering Kategori:Saknar skiss",
+  "coordinates": null,
+  "categories": [
+    "Behöver kvalitetssäkras",
+    "Bimbo",
+    "Bouldering",
+    "Saknar allmän info",
+    "Saknar karta",
+    "Saknar koordinater",
+    "Saknar skiss",
+    "Saknar skrivarformattering",
+    "Saknar vägbeskrivning",
+    "Sundsvall"
+  ],
+  "sections": [],
+  "routes": [
+    {
+      "id": "klippgatan-problem-1",
+      "kind": "problem",
+      "number": null,
+      "name": "Little Jug",
+      "grade": "6A",
+      "length": "",
+      "type": "Krimp,Slopers",
+      "firstAscent": "Björn Knutsson",
+      "description": "Kort problem där kruxet är starten. Start på crimp för höger hand och v hand lägre på slope. Gå rakt upp.",
+      "source": {
+        "id": "legacy:klippgatan",
+        "path": "mediawiki/Klippgatan.txt"
+      }
+    },
+    {
+      "id": "klippgatan-problem-2",
+      "kind": "problem",
+      "number": null,
+      "name": "Klippis",
+      "grade": "6A+",
+      "length": "",
+      "type": "",
+      "firstAscent": "Björn Knutsson",
+      "description": "Teknisk. Ngt hög på slutet men ingen större fara.",
+      "source": {
+        "id": "legacy:klippgatan",
+        "path": "mediawiki/Klippgatan.txt"
+      }
+    },
+    {
+      "id": "klippgatan-problem-3",
+      "kind": "problem",
+      "number": null,
+      "name": "Karamellen",
+      "grade": "5C",
+      "length": "",
+      "type": "Krimp,Travers H->V",
+      "firstAscent": "Björn Knutsson",
+      "description": "Start på hylla som kommer att markeras. Traversera åt vänster. Samma avslut som little Jug.",
+      "source": {
+        "id": "legacy:klippgatan",
+        "path": "mediawiki/Klippgatan.txt"
+      }
+    }
+  ],
+  "images": [],
+  "access": {
+    "legacyText": null,
+    "federationSlug": null
+  },
+  "qualityIssues": [],
+  "provenance": {
+    "primarySourceId": "legacy:klippgatan",
+    "sources": [
+      {
+        "id": "legacy:klippgatan",
+        "title": "Sverigeföraren 2014: Klippgatan",
+        "path": "mediawiki/Klippgatan.txt",
+        "license": "GNU Free Documentation License",
+        "snapshotDate": "2014-01-01"
+      }
+    ]
+  }
+}

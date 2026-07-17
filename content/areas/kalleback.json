@@ -1,0 +1,172 @@
+{
+  "schemaVersion": 1,
+  "id": "kalleback",
+  "slug": "kalleback",
+  "name": "Kallebäck",
+  "description": "En liten klippa som ligger nära ett äldreboende. Om man är student och bor i området (Kallebäck) kanske man kan vilja klättra här. Lätt att sätta upp topprep med hjälp av stora träd.",
+  "coordinates": {
+    "latitude": 57.67806,
+    "longitude": 12.01259
+  },
+  "categories": [
+    "Göteborg"
+  ],
+  "sections": [
+    {
+      "id": "allmant",
+      "title": "Allmänt",
+      "body": "En liten klippa som ligger nära ett äldreboende. Om man är student och bor i området (Kallebäck) kanske man kan vilja klättra här. Lätt att sätta upp topprep med hjälp av stora träd."
+    },
+    {
+      "id": "parkering",
+      "title": "Parkering",
+      "body": "Parkera vid äldreboendet, gå in i skogen och håll utkik för en liten klippa på höger sida. Inte av intresse för vana klättrare då alla leder är i det mycket lägre registret. Sva."
+    },
+    {
+      "id": "forsta-klippan",
+      "title": "Första klippan",
+      "body": "Många fästingar utlovas. Finns potential för att borsta fram ett par nya leder. Klippan är ca 10 meter hög. Fa=Patrik Alsebyg och Mattias Järemo, 1991 för de flesta lederna."
+    },
+    {
+      "id": "andra-sidan",
+      "title": "Andra sidan",
+      "body": "Kategori:Göteborg"
+    }
+  ],
+  "routes": [
+    {
+      "id": "kalleback-led-1",
+      "kind": "route",
+      "number": null,
+      "name": "Markus Torkar upp",
+      "grade": "4+",
+      "length": "",
+      "type": "",
+      "firstAscent": "",
+      "description": "",
+      "source": {
+        "id": "legacy:kalleback",
+        "path": "mediawiki/Kallebäck.txt"
+      }
+    },
+    {
+      "id": "kalleback-led-2",
+      "kind": "route",
+      "number": null,
+      "name": "KGB får lavemang",
+      "grade": "4+",
+      "length": "",
+      "type": "",
+      "firstAscent": "",
+      "description": "",
+      "source": {
+        "id": "legacy:kalleback",
+        "path": "mediawiki/Kallebäck.txt"
+      }
+    },
+    {
+      "id": "kalleback-led-3",
+      "kind": "route",
+      "number": null,
+      "name": "Sobril",
+      "grade": "5",
+      "length": "",
+      "type": "",
+      "firstAscent": "",
+      "description": "Sobril är väl en tablett för magen?",
+      "source": {
+        "id": "legacy:kalleback",
+        "path": "mediawiki/Kallebäck.txt"
+      }
+    },
+    {
+      "id": "kalleback-led-4",
+      "kind": "route",
+      "number": null,
+      "name": "Rullatorrally",
+      "grade": "5-",
+      "length": "",
+      "type": "",
+      "firstAscent": "",
+      "description": "",
+      "source": {
+        "id": "legacy:kalleback",
+        "path": "mediawiki/Kallebäck.txt"
+      }
+    },
+    {
+      "id": "kalleback-led-5",
+      "kind": "route",
+      "number": null,
+      "name": "Moggadon",
+      "grade": "4+",
+      "length": "",
+      "type": "",
+      "firstAscent": "",
+      "description": "",
+      "source": {
+        "id": "legacy:kalleback",
+        "path": "mediawiki/Kallebäck.txt"
+      }
+    },
+    {
+      "id": "kalleback-led-6",
+      "kind": "route",
+      "number": null,
+      "name": "Valium",
+      "grade": "5",
+      "length": "",
+      "type": "",
+      "firstAscent": "",
+      "description": "",
+      "source": {
+        "id": "legacy:kalleback",
+        "path": "mediawiki/Kallebäck.txt"
+      }
+    },
+    {
+      "id": "kalleback-led-7",
+      "kind": "route",
+      "number": null,
+      "name": "Cicciolina",
+      "grade": "6-",
+      "length": "",
+      "type": "",
+      "firstAscent": "Patrik Alseby, 1991",
+      "description": "Skall tydligen ligga på andra sidan berget, mot järnvägen till. Ingen har någonsin hittat leden.",
+      "source": {
+        "id": "legacy:kalleback",
+        "path": "mediawiki/Kallebäck.txt"
+      }
+    }
+  ],
+  "images": [
+    {
+      "filename": "Kalleback1_.jpg",
+      "caption": "",
+      "missing": false
+    },
+    {
+      "filename": "Kalleback3_.jpg",
+      "caption": "",
+      "missing": false
+    }
+  ],
+  "access": {
+    "legacyText": null,
+    "federationSlug": null
+  },
+  "qualityIssues": [],
+  "provenance": {
+    "primarySourceId": "legacy:kalleback",
+    "sources": [
+      {
+        "id": "legacy:kalleback",
+        "title": "Sverigeföraren 2014: Kallebäck",
+        "path": "mediawiki/Kallebäck.txt",
+        "license": "GNU Free Documentation License",
+        "snapshotDate": "2014-01-01"
+      }
+    ]
+  }
+}

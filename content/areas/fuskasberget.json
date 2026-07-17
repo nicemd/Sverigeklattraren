@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 1,
+  "id": "fuskasberget",
+  "slug": "fuskasberget",
+  "name": "Fuskåsberget",
+  "description": "Fuskåsberget ligger några kilometer före Blaxås, på höger sida av vägen om man kommer från Enångershållet.",
+  "coordinates": {
+    "latitude": 61.629811,
+    "longitude": 16.811572
+  },
+  "categories": [
+    "Hälsingland",
+    "Saknar karta",
+    "Saknar skiss",
+    "Saknar vägbeskrivning",
+    "Trad"
+  ],
+  "sections": [
+    {
+      "id": "allmant",
+      "title": "Allmänt",
+      "body": "Fuskåsberget ligger några kilometer före Blaxås, på höger sida av vägen om man kommer från Enångershållet."
+    },
+    {
+      "id": "kommunikationer",
+      "title": "Kommunikationer",
+      "body": "Vägbeskrivning saknas. Se Blaxsås och kartan där. Ungefärliga GPS-koordinater för klippan: Lat: N 61º 37' 47.32\" Long: E 16º 48' 41.66\""
+    },
+    {
+      "id": "klippan",
+      "title": "Klippan",
+      "body": "Berget är bara besökt ett par gånger och även om här finns potential för en hel del turer, både lätta och riktigt svåra så är det en riktig skogsklippa som kräver en hel del rensningsarbete för att bli något. Tre turer har dock gjorts: Sommaren 2007 gjorde Johan Luhr en tur som följer en spricka på den tidigare nämnda överhängande väggen. Uppgifter om namn och grad samt ledbeskrivning saknas. (Muntlig uppgift från Johan Luhr. /Per Calleberg). Kategori:Saknar skiss Kategori:Saknar karta Kategori:Saknar vägbeskrivning Kategori:Hälsingland Kategori:Trad Kategori:Hälsingland"
+    }
+  ],
+  "routes": [
+    {
+      "id": "fuskasberget-led-1",
+      "kind": "route",
+      "number": "1",
+      "name": "Mossan",
+      "grade": "3+",
+      "length": "30",
+      "type": "trad",
+      "firstAscent": "Torbjörn Nilsson och Per Calleberg 1983",
+      "description": "Slingrar sig upp längs de lättaste passagerna på den mossiga väggen som ligger i vinkel mot en rejält överhängande vägg, långt ner på berget.",
+      "source": {
+        "id": "legacy:fuskasberget",
+        "path": "mediawiki/Fuskåsberget.txt"
+      }
+    },
+    {
+      "id": "fuskasberget-led-2",
+      "kind": "route",
+      "number": "2",
+      "name": "Kyla",
+      "grade": "5+",
+      "length": "10",
+      "type": "trad",
+      "firstAscent": "Torbjörn Nilsson och Per Calleberg 1983",
+      "description": "Följer tydlig diederlinje mitt på en mindre vägg belägen 30 - 40 m in på berget ovanför utsteget på \"Mossan\".",
+      "source": {
+        "id": "legacy:fuskasberget",
+        "path": "mediawiki/Fuskåsberget.txt"
+      }
+    },
+    {
+      "id": "fuskasberget-led-3",
+      "kind": "route",
+      "number": "3",
+      "name": "Hypotenusan",
+      "grade": "5+",
+      "length": "15",
+      "type": "trad",
+      "firstAscent": "Torbjörn Nilsson och Peter Brolin 1984",
+      "description": "Tydlig, diagonal spricklinje på en vägg belägen i övre högra kanten på rasbranten t h om de föregående lederna. Något lös.",
+      "source": {
+        "id": "legacy:fuskasberget",
+        "path": "mediawiki/Fuskåsberget.txt"
+      }
+    }
+  ],
+  "images": [],
+  "access": {
+    "legacyText": null,
+    "federationSlug": null
+  },
+  "qualityIssues": [],
+  "provenance": {
+    "primarySourceId": "legacy:fuskasberget",
+    "sources": [
+      {
+        "id": "legacy:fuskasberget",
+        "title": "Sverigeföraren 2014: Fuskåsberget",
+        "path": "mediawiki/Fuskåsberget.txt",
+        "license": "GNU Free Documentation License",
+        "snapshotDate": "2014-01-01"
+      }
+    ]
+  }
+}

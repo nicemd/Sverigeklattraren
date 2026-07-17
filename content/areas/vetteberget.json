@@ -1,0 +1,855 @@
+{
+  "schemaVersion": 1,
+  "id": "vetteberget",
+  "slug": "vetteberget",
+  "name": "Vetteberget",
+  "description": "53 dokumenterade leder och problem.",
+  "coordinates": {
+    "latitude": 58.49791,
+    "longitude": 11.366558
+  },
+  "categories": [
+    "access",
+    "Bohuslän",
+    "sva",
+    "trad",
+    "vertikalt"
+  ],
+  "sections": [
+    {
+      "id": "gamhyllan",
+      "title": "Gamhyllan",
+      "body": "Gå på en ramp som leder snett upp åt höger för att komma upp till Gamhyllan. Rampen hittar du långt till vänster på berget mellan lederna Gamkanten och Fingrarna i Syltburken."
+    },
+    {
+      "id": "toppvaggen",
+      "title": "Toppväggen",
+      "body": "10-15 meter hög vägg som ligger på toppen av Stora Väggen."
+    },
+    {
+      "id": "sumpvaggen",
+      "title": "Sumpväggen",
+      "body": "Tio meter hög vägg som ligger bakom och ovanför Vänsternäve-Väggen."
+    },
+    {
+      "id": "klyftan",
+      "title": "Klyftan",
+      "body": "Flera leder klättrade av Henrik Sjöqvist och Andreas Holm. Kategori:Bohuslän Kategori:trad Kategori:sva Kategori:vertikalt Kategori:access Vettebergs klova Klättrad av Jan & Björn Holmgren omkr.1983 Normalvägen. Svårighet ca 4+ (men ganska läskig)"
+    }
+  ],
+  "routes": [
+    {
+      "id": "vetteberget-led-1",
+      "kind": "route",
+      "number": null,
+      "name": "Gamkanten",
+      "grade": "6+",
+      "length": "25",
+      "type": "trad",
+      "firstAscent": "Ann-Sofie Andersson -99",
+      "description": "Arete längst till vänster på berget.",
+      "source": {
+        "id": "legacy:vetteberget",
+        "path": "mediawiki/Vetteberget.txt"
+      }
+    },
+    {
+      "id": "vetteberget-led-2",
+      "kind": "route",
+      "number": null,
+      "name": "Enebacken",
+      "grade": "5-",
+      "length": "8",
+      "type": "trad",
+      "firstAscent": "Simon Thyr -99",
+      "description": "Startar över förra leden.",
+      "source": {
+        "id": "legacy:vetteberget",
+        "path": "mediawiki/Vetteberget.txt"
+      }
+    },
+    {
+      "id": "vetteberget-led-3",
+      "kind": "route",
+      "number": null,
+      "name": "Fingrarna I Syltburken",
+      "grade": "8",
+      "length": "20",
+      "type": "trad",
+      "firstAscent": "Johan Svensson -06",
+      "description": "Tunn men tydlig linje upp till Gamhyllan, ca 20meter till vänster om Konstnären. Snygg linje på rödaktig granit som går genom ett vattenslipat överhäng. Lätt upp till och tungt genom överhänget. Sprickan bjuder vidare på delikat och tekniskt desperat klättring. Välsäkrad.",
+      "source": {
+        "id": "legacy:vetteberget",
+        "path": "mediawiki/Vetteberget.txt"
+      }
+    },
+    {
+      "id": "vetteberget-led-4",
+      "kind": "route",
+      "number": null,
+      "name": "Vad Pojkar Vill Ha",
+      "grade": "7",
+      "length": "30",
+      "type": "trad",
+      "firstAscent": "Magnus Strömhäll -97",
+      "description": "",
+      "source": {
+        "id": "legacy:vetteberget",
+        "path": "mediawiki/Vetteberget.txt"
+      }
+    },
+    {
+      "id": "vetteberget-led-5",
+      "kind": "route",
+      "number": null,
+      "name": "Konstnären",
+      "grade": "7+",
+      "length": "30",
+      "type": "trad",
+      "firstAscent": "Johan Svensson -97",
+      "description": "",
+      "source": {
+        "id": "legacy:vetteberget",
+        "path": "mediawiki/Vetteberget.txt"
+      }
+    },
+    {
+      "id": "vetteberget-led-6",
+      "kind": "route",
+      "number": null,
+      "name": "Ta Mig Härifrån",
+      "grade": "7-",
+      "length": "45",
+      "type": "trad",
+      "firstAscent": "Magnus Strömhäll -97",
+      "description": "En STOR led med varierande kvalitet, men aldrig tråkig och absolut interessant hela vägen. Ser bedrägligt lätt ut i starten. Vad du tycker om den här leden säger mycket om vilket virke du är gjord av.",
+      "source": {
+        "id": "legacy:vetteberget",
+        "path": "mediawiki/Vetteberget.txt"
+      }
+    },
+    {
+      "id": "vetteberget-led-7",
+      "kind": "route",
+      "number": null,
+      "name": "Stupröret",
+      "grade": "6-",
+      "length": "20",
+      "type": "trad",
+      "firstAscent": "Anders Spång -97",
+      "description": "Börjar på en hylla.",
+      "source": {
+        "id": "legacy:vetteberget",
+        "path": "mediawiki/Vetteberget.txt"
+      }
+    },
+    {
+      "id": "vetteberget-led-8",
+      "kind": "route",
+      "number": null,
+      "name": "En Annan Mans Boja",
+      "grade": "6",
+      "length": "15",
+      "type": "trad",
+      "firstAscent": "Anders Spång -99",
+      "description": "Börjar på en hylla.",
+      "source": {
+        "id": "legacy:vetteberget",
+        "path": "mediawiki/Vetteberget.txt"
+      }
+    },
+    {
+      "id": "vetteberget-led-9",
+      "kind": "route",
+      "number": null,
+      "name": "1000 kg Tvätt",
+      "grade": "6",
+      "length": "17",
+      "type": "trad",
+      "firstAscent": "Michael Stribhadung, Lena Wegrelius -86",
+      "description": "",
+      "source": {
+        "id": "legacy:vetteberget",
+        "path": "mediawiki/Vetteberget.txt"
+      }
+    },
+    {
+      "id": "vetteberget-led-10",
+      "kind": "route",
+      "number": null,
+      "name": "Lilla Haren",
+      "grade": "7+",
+      "length": "17",
+      "type": "trad",
+      "firstAscent": "Magnus Strömhäll, Patrik Jacobsson -03",
+      "description": "Den tydliga bågen/sprickan till höger om 1000 kg tvätt.",
+      "source": {
+        "id": "legacy:vetteberget",
+        "path": "mediawiki/Vetteberget.txt"
+      }
+    },
+    {
+      "id": "vetteberget-led-11",
+      "kind": "route",
+      "number": null,
+      "name": "Min innersta hemlighet",
+      "grade": "6+?",
+      "length": "17",
+      "type": "trad",
+      "firstAscent": "Per Larsson, Erik Gustafsson -10",
+      "description": "Den vänsterlutande rännan till vänster om Blood on the tracks.",
+      "source": {
+        "id": "legacy:vetteberget",
+        "path": "mediawiki/Vetteberget.txt"
+      }
+    },
+    {
+      "id": "vetteberget-led-12",
+      "kind": "route",
+      "number": null,
+      "name": "Blood On The Tracks",
+      "grade": "6-",
+      "length": "15",
+      "type": "trad",
+      "firstAscent": "Michael Stribhadung, Lena Wegrelius -86",
+      "description": "",
+      "source": {
+        "id": "legacy:vetteberget",
+        "path": "mediawiki/Vetteberget.txt"
+      }
+    },
+    {
+      "id": "vetteberget-led-13",
+      "kind": "route",
+      "number": null,
+      "name": "Sprattelgubben",
+      "grade": "8-",
+      "length": "20",
+      "type": "trad",
+      "firstAscent": "Johan Svensson -00",
+      "description": "",
+      "source": {
+        "id": "legacy:vetteberget",
+        "path": "mediawiki/Vetteberget.txt"
+      }
+    },
+    {
+      "id": "vetteberget-led-14",
+      "kind": "route",
+      "number": null,
+      "name": "Sprättbågen",
+      "grade": "8-",
+      "length": "20",
+      "type": "trad",
+      "firstAscent": "Johan Svensson -00",
+      "description": "",
+      "source": {
+        "id": "legacy:vetteberget",
+        "path": "mediawiki/Vetteberget.txt"
+      }
+    },
+    {
+      "id": "vetteberget-led-15",
+      "kind": "route",
+      "number": null,
+      "name": "Gamen",
+      "grade": "7-",
+      "length": "20",
+      "type": "trad",
+      "firstAscent": "Johan Svensson -97",
+      "description": "",
+      "source": {
+        "id": "legacy:vetteberget",
+        "path": "mediawiki/Vetteberget.txt"
+      }
+    },
+    {
+      "id": "vetteberget-led-16",
+      "kind": "route",
+      "number": null,
+      "name": "Litet Hörn",
+      "grade": "5",
+      "length": "13",
+      "type": "trad",
+      "firstAscent": "Ann-Sofie Andersson -99",
+      "description": "",
+      "source": {
+        "id": "legacy:vetteberget",
+        "path": "mediawiki/Vetteberget.txt"
+      }
+    },
+    {
+      "id": "vetteberget-led-17",
+      "kind": "route",
+      "number": null,
+      "name": "Holken",
+      "grade": "6+",
+      "length": "10",
+      "type": "trad",
+      "firstAscent": "Johan Svensson -00",
+      "description": "",
+      "source": {
+        "id": "legacy:vetteberget",
+        "path": "mediawiki/Vetteberget.txt"
+      }
+    },
+    {
+      "id": "vetteberget-led-18",
+      "kind": "route",
+      "number": null,
+      "name": "Big Jimma",
+      "grade": "6",
+      "length": "10",
+      "type": "trad",
+      "firstAscent": "Jimmy Pettersson -00",
+      "description": "",
+      "source": {
+        "id": "legacy:vetteberget",
+        "path": "mediawiki/Vetteberget.txt"
+      }
+    },
+    {
+      "id": "vetteberget-led-19",
+      "kind": "route",
+      "number": null,
+      "name": "Iliopsoas",
+      "grade": "6+",
+      "length": "13",
+      "type": "trad",
+      "firstAscent": "Markus Sandersnäs -00",
+      "description": "",
+      "source": {
+        "id": "legacy:vetteberget",
+        "path": "mediawiki/Vetteberget.txt"
+      }
+    },
+    {
+      "id": "vetteberget-led-20",
+      "kind": "route",
+      "number": null,
+      "name": "Manvargen",
+      "grade": "8-",
+      "length": "17",
+      "type": "trad",
+      "firstAscent": "Johan Svensson -97",
+      "description": "",
+      "source": {
+        "id": "legacy:vetteberget",
+        "path": "mediawiki/Vetteberget.txt"
+      }
+    },
+    {
+      "id": "vetteberget-led-21",
+      "kind": "route",
+      "number": null,
+      "name": "Zoo",
+      "grade": "7",
+      "length": "15",
+      "type": "trad",
+      "firstAscent": "Simon Thyr -97",
+      "description": "",
+      "source": {
+        "id": "legacy:vetteberget",
+        "path": "mediawiki/Vetteberget.txt"
+      }
+    },
+    {
+      "id": "vetteberget-led-22",
+      "kind": "route",
+      "number": null,
+      "name": "Komiform",
+      "grade": "6",
+      "length": "15",
+      "type": "trad",
+      "firstAscent": "Joakim Fransson -97",
+      "description": "",
+      "source": {
+        "id": "legacy:vetteberget",
+        "path": "mediawiki/Vetteberget.txt"
+      }
+    },
+    {
+      "id": "vetteberget-led-23",
+      "kind": "route",
+      "number": null,
+      "name": "Längst Till Vänster",
+      "grade": "7-",
+      "length": "17",
+      "type": "trad",
+      "firstAscent": "Anders Spång -97",
+      "description": "",
+      "source": {
+        "id": "legacy:vetteberget",
+        "path": "mediawiki/Vetteberget.txt"
+      }
+    },
+    {
+      "id": "vetteberget-led-24",
+      "kind": "route",
+      "number": null,
+      "name": "Lättare Sagt Än Gjort",
+      "grade": "8-",
+      "length": "",
+      "type": "trad",
+      "firstAscent": "Marcus Sandernäs -97",
+      "description": "",
+      "source": {
+        "id": "legacy:vetteberget",
+        "path": "mediawiki/Vetteberget.txt"
+      }
+    },
+    {
+      "id": "vetteberget-led-25",
+      "kind": "route",
+      "number": null,
+      "name": "Fladdermusen",
+      "grade": "8",
+      "length": "15",
+      "type": "trad",
+      "firstAscent": "Fredrik Persson -99",
+      "description": "",
+      "source": {
+        "id": "legacy:vetteberget",
+        "path": "mediawiki/Vetteberget.txt"
+      }
+    },
+    {
+      "id": "vetteberget-led-26",
+      "kind": "route",
+      "number": null,
+      "name": "Camino De Los Pistoleros",
+      "grade": "8-",
+      "length": "15",
+      "type": "trad",
+      "firstAscent": "Mattias Hallsten -99",
+      "description": "",
+      "source": {
+        "id": "legacy:vetteberget",
+        "path": "mediawiki/Vetteberget.txt"
+      }
+    },
+    {
+      "id": "vetteberget-led-27",
+      "kind": "route",
+      "number": null,
+      "name": "Klassresan",
+      "grade": "8+",
+      "length": "15",
+      "type": "trad",
+      "firstAscent": "Magnus Strömhäll -05",
+      "description": "På vänsterväggen mellan El camino... och En knuten vänsternäve. Laybacks och fotjam. Ganska brant.",
+      "source": {
+        "id": "legacy:vetteberget",
+        "path": "mediawiki/Vetteberget.txt"
+      }
+    },
+    {
+      "id": "vetteberget-led-28",
+      "kind": "route",
+      "number": null,
+      "name": "En Knuten Vänsternäve",
+      "grade": "8-",
+      "length": "15",
+      "type": "trad",
+      "firstAscent": "Johan Svensson -97",
+      "description": "",
+      "source": {
+        "id": "legacy:vetteberget",
+        "path": "mediawiki/Vetteberget.txt"
+      }
+    },
+    {
+      "id": "vetteberget-led-29",
+      "kind": "route",
+      "number": null,
+      "name": "Astroturf",
+      "grade": "7-",
+      "length": "25",
+      "type": "trad",
+      "firstAscent": "Joakim Olofsson -00",
+      "description": "Lättare (6) med insteg som nästa led.",
+      "source": {
+        "id": "legacy:vetteberget",
+        "path": "mediawiki/Vetteberget.txt"
+      }
+    },
+    {
+      "id": "vetteberget-led-30",
+      "kind": "route",
+      "number": null,
+      "name": "Kung Tung",
+      "grade": "7-",
+      "length": "25",
+      "type": "trad",
+      "firstAscent": "Joakim Olofsson -00",
+      "description": "",
+      "source": {
+        "id": "legacy:vetteberget",
+        "path": "mediawiki/Vetteberget.txt"
+      }
+    },
+    {
+      "id": "vetteberget-led-31",
+      "kind": "route",
+      "number": null,
+      "name": "Urban Turban",
+      "grade": "7-",
+      "length": "25",
+      "type": "trad",
+      "firstAscent": "Joakim Olofsson -00",
+      "description": "",
+      "source": {
+        "id": "legacy:vetteberget",
+        "path": "mediawiki/Vetteberget.txt"
+      }
+    },
+    {
+      "id": "vetteberget-led-32",
+      "kind": "route",
+      "number": null,
+      "name": "Fallbilan",
+      "grade": "7",
+      "length": "20",
+      "type": "trad",
+      "firstAscent": "Magnus Strömhäll -97",
+      "description": "",
+      "source": {
+        "id": "legacy:vetteberget",
+        "path": "mediawiki/Vetteberget.txt"
+      }
+    },
+    {
+      "id": "vetteberget-led-33",
+      "kind": "route",
+      "number": null,
+      "name": "Vänsterblocket",
+      "grade": "7",
+      "length": "20",
+      "type": "trad",
+      "firstAscent": "Mattias Hallsten -97",
+      "description": "",
+      "source": {
+        "id": "legacy:vetteberget",
+        "path": "mediawiki/Vetteberget.txt"
+      }
+    },
+    {
+      "id": "vetteberget-led-34",
+      "kind": "route",
+      "number": null,
+      "name": "Karl-Petter Gellerstam",
+      "grade": "5+",
+      "length": "5+",
+      "type": "trad",
+      "firstAscent": "Maja Gellerstam -97",
+      "description": "",
+      "source": {
+        "id": "legacy:vetteberget",
+        "path": "mediawiki/Vetteberget.txt"
+      }
+    },
+    {
+      "id": "vetteberget-led-35",
+      "kind": "route",
+      "number": null,
+      "name": "Tobias Nilsson",
+      "grade": "6-",
+      "length": "17",
+      "type": "trad",
+      "firstAscent": "Jonas Nilsson",
+      "description": "",
+      "source": {
+        "id": "legacy:vetteberget",
+        "path": "mediawiki/Vetteberget.txt"
+      }
+    },
+    {
+      "id": "vetteberget-led-36",
+      "kind": "route",
+      "number": null,
+      "name": "Tjockkvist Tittar På",
+      "grade": "5+",
+      "length": "10",
+      "type": "trad",
+      "firstAscent": "Anders Spång -03",
+      "description": "Till vänster om Råger mår leder en rampformation upp mot vänster tillett utsteg över en kort vägg. Underliga ljud från greppen, men hyggliga säkringar på mitten",
+      "source": {
+        "id": "legacy:vetteberget",
+        "path": "mediawiki/Vetteberget.txt"
+      }
+    },
+    {
+      "id": "vetteberget-led-37",
+      "kind": "route",
+      "number": null,
+      "name": "Råger Mår",
+      "grade": "6-",
+      "length": "8",
+      "type": "trad",
+      "firstAscent": "Mattias Hallsten -97",
+      "description": "",
+      "source": {
+        "id": "legacy:vetteberget",
+        "path": "mediawiki/Vetteberget.txt"
+      }
+    },
+    {
+      "id": "vetteberget-led-38",
+      "kind": "route",
+      "number": null,
+      "name": "Ulfs Svaled",
+      "grade": "5+",
+      "length": "10",
+      "type": "trad",
+      "firstAscent": "Ulf Johansson -99",
+      "description": "",
+      "source": {
+        "id": "legacy:vetteberget",
+        "path": "mediawiki/Vetteberget.txt"
+      }
+    },
+    {
+      "id": "vetteberget-led-39",
+      "kind": "route",
+      "number": null,
+      "name": "Singelklubben",
+      "grade": "5+",
+      "length": "13",
+      "type": "trad",
+      "firstAscent": "Rikard Larsson -99",
+      "description": "",
+      "source": {
+        "id": "legacy:vetteberget",
+        "path": "mediawiki/Vetteberget.txt"
+      }
+    },
+    {
+      "id": "vetteberget-led-40",
+      "kind": "route",
+      "number": null,
+      "name": "OOPS!",
+      "grade": "6",
+      "length": "13",
+      "type": "trad",
+      "firstAscent": "Rikard Larsson -99",
+      "description": "",
+      "source": {
+        "id": "legacy:vetteberget",
+        "path": "mediawiki/Vetteberget.txt"
+      }
+    },
+    {
+      "id": "vetteberget-led-41",
+      "kind": "route",
+      "number": null,
+      "name": "Watertrap",
+      "grade": "5+",
+      "length": "10",
+      "type": "trad",
+      "firstAscent": "Rikard Larsson -99",
+      "description": "",
+      "source": {
+        "id": "legacy:vetteberget",
+        "path": "mediawiki/Vetteberget.txt"
+      }
+    },
+    {
+      "id": "vetteberget-led-42",
+      "kind": "route",
+      "number": null,
+      "name": "Smörgåsen",
+      "grade": "7-",
+      "length": "10",
+      "type": "trad",
+      "firstAscent": "Marcus Sandersnäs -98",
+      "description": "",
+      "source": {
+        "id": "legacy:vetteberget",
+        "path": "mediawiki/Vetteberget.txt"
+      }
+    },
+    {
+      "id": "vetteberget-led-43",
+      "kind": "route",
+      "number": null,
+      "name": "Gurkburken",
+      "grade": "5+",
+      "length": "10",
+      "type": "trad",
+      "firstAscent": "Jonas Hellstrand -99",
+      "description": "",
+      "source": {
+        "id": "legacy:vetteberget",
+        "path": "mediawiki/Vetteberget.txt"
+      }
+    },
+    {
+      "id": "vetteberget-led-44",
+      "kind": "route",
+      "number": null,
+      "name": "Pedalskav",
+      "grade": "5+",
+      "length": "7",
+      "type": "trad",
+      "firstAscent": "Ulrik Carlsson -99",
+      "description": "",
+      "source": {
+        "id": "legacy:vetteberget",
+        "path": "mediawiki/Vetteberget.txt"
+      }
+    },
+    {
+      "id": "vetteberget-led-45",
+      "kind": "route",
+      "number": null,
+      "name": "Stå Kvar",
+      "grade": "6-",
+      "length": "10",
+      "type": "trad",
+      "firstAscent": "Johan Svensson -99",
+      "description": "",
+      "source": {
+        "id": "legacy:vetteberget",
+        "path": "mediawiki/Vetteberget.txt"
+      }
+    },
+    {
+      "id": "vetteberget-led-46",
+      "kind": "route",
+      "number": null,
+      "name": "Stå Still",
+      "grade": "6-",
+      "length": "10",
+      "type": "trad",
+      "firstAscent": "Johan Svensson -99",
+      "description": "",
+      "source": {
+        "id": "legacy:vetteberget",
+        "path": "mediawiki/Vetteberget.txt"
+      }
+    },
+    {
+      "id": "vetteberget-led-47",
+      "kind": "route",
+      "number": null,
+      "name": "Ligg Still",
+      "grade": "5+",
+      "length": "10",
+      "type": "trad",
+      "firstAscent": "Ann-Sofie Andersson -99",
+      "description": "",
+      "source": {
+        "id": "legacy:vetteberget",
+        "path": "mediawiki/Vetteberget.txt"
+      }
+    },
+    {
+      "id": "vetteberget-led-48",
+      "kind": "route",
+      "number": null,
+      "name": "Upp Till Kamp",
+      "grade": "7-",
+      "length": "20",
+      "type": "trad",
+      "firstAscent": "Marcus Sandersnäs -07",
+      "description": "När man går på grusvägen från caféet så ligger denna vägg på höger sida, ca10 meter från vägen. Nedre delan av väggen har tre vattenslipade halvrör. Denna led följer den vänstra formationen, som startar med en tydlig sprickai en gryta. Följ spricksystemen till tops!",
+      "source": {
+        "id": "legacy:vetteberget",
+        "path": "mediawiki/Vetteberget.txt"
+      }
+    },
+    {
+      "id": "vetteberget-led-49",
+      "kind": "route",
+      "number": null,
+      "name": "Sunday Morning Shoot Out",
+      "grade": "7+",
+      "length": "20",
+      "type": "trad",
+      "firstAscent": "Henrik Sjöqvist -07",
+      "description": "Leden börjar i det mittre halvröret och vidare i hörnet rakt upp till toppen. Fin välsäkrad klättring.",
+      "source": {
+        "id": "legacy:vetteberget",
+        "path": "mediawiki/Vetteberget.txt"
+      }
+    },
+    {
+      "id": "vetteberget-led-50",
+      "kind": "route",
+      "number": null,
+      "name": "Lärare på Sommaren, Björn på Vintern",
+      "grade": "6+",
+      "length": "20",
+      "type": "trad",
+      "firstAscent": "Jonas Nilsson -99",
+      "description": "",
+      "source": {
+        "id": "legacy:vetteberget",
+        "path": "mediawiki/Vetteberget.txt"
+      }
+    },
+    {
+      "id": "vetteberget-led-51",
+      "kind": "route",
+      "number": null,
+      "name": "Kilsäkra Hela Bohuslän Girls",
+      "grade": "6+",
+      "length": "20",
+      "type": "trad",
+      "firstAscent": "Marcus Sandersnäs -98",
+      "description": "",
+      "source": {
+        "id": "legacy:vetteberget",
+        "path": "mediawiki/Vetteberget.txt"
+      }
+    },
+    {
+      "id": "vetteberget-led-52",
+      "kind": "route",
+      "number": null,
+      "name": "Namnlös led",
+      "grade": "",
+      "length": "",
+      "type": "trad",
+      "firstAscent": "[[]]",
+      "description": "",
+      "source": {
+        "id": "legacy:vetteberget",
+        "path": "mediawiki/Vetteberget.txt"
+      }
+    },
+    {
+      "id": "vetteberget-led-53",
+      "kind": "route",
+      "number": null,
+      "name": "Namnlös led",
+      "grade": "",
+      "length": "",
+      "type": "trad",
+      "firstAscent": "[[]]",
+      "description": "",
+      "source": {
+        "id": "legacy:vetteberget",
+        "path": "mediawiki/Vetteberget.txt"
+      }
+    }
+  ],
+  "images": [],
+  "access": {
+    "legacyText": null,
+    "federationSlug": null
+  },
+  "qualityIssues": [],
+  "provenance": {
+    "primarySourceId": "legacy:vetteberget",
+    "sources": [
+      {
+        "id": "legacy:vetteberget",
+        "title": "Sverigeföraren 2014: Vetteberget",
+        "path": "mediawiki/Vetteberget.txt",
+        "license": "GNU Free Documentation License",
+        "snapshotDate": "2014-01-01"
+      }
+    ]
+  }
+}

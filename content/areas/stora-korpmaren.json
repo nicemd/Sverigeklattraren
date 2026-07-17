@@ -1,0 +1,143 @@
+{
+  "schemaVersion": 1,
+  "id": "stora-korpmaren",
+  "slug": "stora-korpmaren",
+  "name": "Stora Korpmaren",
+  "description": "En liten kuperad ö norr om Härsö. Innanför ett stort, spetsigt block som sticker upp ur vattnet på västra sidan finns en kort men fin dieder. På väggen th finns en häftig spricka. (Tips: Under blocket finns en grotta inredd med golv, bord och stolar.)",
+  "coordinates": {
+    "latitude": 59.220934,
+    "longitude": 18.424158
+  },
+  "categories": [
+    "Stockholm",
+    "Stockholms Skärgård",
+    "Tyresö"
+  ],
+  "sections": [
+    {
+      "id": "allmant",
+      "title": "Allmänt",
+      "body": "En liten kuperad ö norr om Härsö. Innanför ett stort, spetsigt block som sticker upp ur vattnet på västra sidan finns en kort men fin dieder. På väggen th finns en häftig spricka. (Tips: Under blocket finns en grotta inredd med golv, bord och stolar.)"
+    },
+    {
+      "id": "vagbeskrivning",
+      "title": "Vägbeskrivning",
+      "body": "Egen båt."
+    },
+    {
+      "id": "leder",
+      "title": "Leder",
+      "body": "Kategori:Stockholm Kategori:Tyresö Kategori:Stockholms Skärgård"
+    }
+  ],
+  "routes": [
+    {
+      "id": "stora-korpmaren-led-1",
+      "kind": "route",
+      "number": "1",
+      "name": "Skörbjugg",
+      "grade": "5+",
+      "length": "15",
+      "type": "",
+      "firstAscent": "",
+      "description": "",
+      "source": {
+        "id": "legacy:stora-korpmaren",
+        "path": "mediawiki/Stora Korpmaren.txt"
+      }
+    },
+    {
+      "id": "stora-korpmaren-led-2",
+      "kind": "route",
+      "number": "2",
+      "name": "Surfin’ safari",
+      "grade": "7-",
+      "length": "15",
+      "type": "",
+      "firstAscent": "Gary& Thomas Hansson -86",
+      "description": "",
+      "source": {
+        "id": "legacy:stora-korpmaren",
+        "path": "mediawiki/Stora Korpmaren.txt"
+      }
+    },
+    {
+      "id": "stora-korpmaren-led-3",
+      "kind": "route",
+      "number": "3",
+      "name": "Bacon",
+      "grade": "5",
+      "length": "8",
+      "type": "",
+      "firstAscent": "Gary& Thomas Hansson -86",
+      "description": "",
+      "source": {
+        "id": "legacy:stora-korpmaren",
+        "path": "mediawiki/Stora Korpmaren.txt"
+      }
+    },
+    {
+      "id": "stora-korpmaren-led-4",
+      "kind": "route",
+      "number": "4",
+      "name": "Ägg",
+      "grade": "6-",
+      "length": "8",
+      "type": "",
+      "firstAscent": "Gary& Thomas Hansson -86",
+      "description": "",
+      "source": {
+        "id": "legacy:stora-korpmaren",
+        "path": "mediawiki/Stora Korpmaren.txt"
+      }
+    },
+    {
+      "id": "stora-korpmaren-led-5",
+      "kind": "route",
+      "number": "5",
+      "name": "Tex Mex",
+      "grade": "6+",
+      "length": "8",
+      "type": "",
+      "firstAscent": "Gary& Thomas Hansson -86",
+      "description": "",
+      "source": {
+        "id": "legacy:stora-korpmaren",
+        "path": "mediawiki/Stora Korpmaren.txt"
+      }
+    },
+    {
+      "id": "stora-korpmaren-led-6",
+      "kind": "route",
+      "number": "6",
+      "name": "Cornflake",
+      "grade": "6",
+      "length": "10",
+      "type": "",
+      "firstAscent": "Gary& Thomas Hansson -86",
+      "description": "",
+      "source": {
+        "id": "legacy:stora-korpmaren",
+        "path": "mediawiki/Stora Korpmaren.txt"
+      }
+    }
+  ],
+  "images": [],
+  "access": {
+    "legacyText": null,
+    "federationSlug": null
+  },
+  "qualityIssues": [],
+  "provenance": {
+    "primarySourceId": "legacy:stora-korpmaren",
+    "sources": [
+      {
+        "id": "legacy:stora-korpmaren",
+        "title": "Sverigeföraren 2014: Stora Korpmaren",
+        "path": "mediawiki/Stora Korpmaren.txt",
+        "license": "GNU Free Documentation License",
+        "snapshotDate": "2014-01-01"
+      }
+    ]
+  }
+}

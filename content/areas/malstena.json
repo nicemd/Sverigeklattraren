@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "id": "malstena",
+  "slug": "malstena",
+  "name": "Målstena",
+  "description": "En 15 m hög sydvänd sportklippa som frekventeras flitigt innan Solvik öppnar.",
+  "coordinates": {
+    "latitude": 58.3253,
+    "longitude": 16.1122
+  },
+  "categories": [
+    "Sport",
+    "vertikalt",
+    "Östergötland"
+  ],
+  "sections": [
+    {
+      "id": "allmant",
+      "title": "Allmänt",
+      "body": "En 15 m hög sydvänd sportklippa som frekventeras flitigt innan Solvik öppnar."
+    },
+    {
+      "id": "lankar",
+      "title": "Länkar",
+      "body": "Förare tillhandahållen av Linköpings klätterklubb. Kategori:ÖstergötlandKategori:vertikaltKategori:Sport"
+    }
+  ],
+  "routes": [],
+  "images": [],
+  "access": {
+    "legacyText": null,
+    "federationSlug": "malstena"
+  },
+  "qualityIssues": [],
+  "provenance": {
+    "primarySourceId": "legacy:malstena",
+    "sources": [
+      {
+        "id": "legacy:malstena",
+        "title": "Sverigeföraren 2014: Målstena",
+        "path": "mediawiki/Målstena.txt",
+        "license": "GNU Free Documentation License",
+        "snapshotDate": "2014-01-01"
+      }
+    ]
+  }
+}

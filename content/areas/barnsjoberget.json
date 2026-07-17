@@ -1,0 +1,144 @@
+{
+  "schemaVersion": 1,
+  "id": "barnsjoberget",
+  "slug": "barnsjoberget",
+  "name": "Barnsjöberget",
+  "description": "Liten klippa öster om Trollbäcken. Klippan består av en 20 m hög svavägg och en mindre men överhängande sidovägg. I området finns en god potential för bouldering (ta med rensborsten). Det är bara någon kilometer till klipporna vid Tyresö-Flaten. I Bansjön som ligger 200m från klippan finns en utmärkt badbrygga. Ett picknick-berg! 2011-06 Klippan oklättringsbar, mossa och träd på sva-väggen. Bult i dåligt skick. Planer på upprustning av denna klippa planerad av lokala klättrare.",
+  "coordinates": {
+    "latitude": 59.2265819,
+    "longitude": 18.2329284
+  },
+  "categories": [
+    "Saknar skiss",
+    "Stockholm",
+    "Trad",
+    "Tyresö"
+  ],
+  "sections": [
+    {
+      "id": "allmant",
+      "title": "Allmänt",
+      "body": "Liten klippa öster om Trollbäcken. Klippan består av en 20 m hög svavägg och en mindre men överhängande sidovägg. I området finns en god potential för bouldering (ta med rensborsten). Det är bara någon kilometer till klipporna vid Tyresö-Flaten. I Bansjön som ligger 200m från klippan finns en utmärkt badbrygga. Ett picknick-berg! 2011-06 Klippan oklättringsbar, mossa och träd på sva-väggen. Bult i dåligt skick. Planer på upprustning av denna klippa planerad av lokala klättrare."
+    },
+    {
+      "id": "vagbeskrivning",
+      "title": "Vägbeskrivning",
+      "body": "Åk Tyresövägen (229:an), men i stället för att åka mot Tyresö så åker man mot Haninge, Vendelsö längs Gudöbroleden (väg 260). Vid andra rödljuset svänger man v på Skogsängsvägen och fortsätter den 1,5 km då den tar slut och Barnsjöslingan tar vid. Parkera och gå längs med grusstigen till berget som ligger på vänster sida."
+    },
+    {
+      "id": "leder",
+      "title": "Leder",
+      "body": "Kategori:Stockholm Kategori:Tyresö Kategori:Trad Kategori:Saknar skiss"
+    }
+  ],
+  "routes": [
+    {
+      "id": "barnsjoberget-led-1",
+      "kind": "route",
+      "number": "1",
+      "name": "Before seven they are like heaven",
+      "grade": "6+",
+      "length": "13",
+      "type": "mix",
+      "firstAscent": "Marco Kupiainen, Jesper Andersson -92",
+      "description": "",
+      "source": {
+        "id": "legacy:barnsjoberget",
+        "path": "mediawiki/Barnsjöberget.txt"
+      }
+    },
+    {
+      "id": "barnsjoberget-led-2",
+      "kind": "route",
+      "number": "2",
+      "name": "Blöjraggaren",
+      "grade": "7",
+      "length": "16",
+      "type": "",
+      "firstAscent": "Marco Kupiainen, Mats Olofsson -94",
+      "description": "Travers till höger från Before...",
+      "source": {
+        "id": "legacy:barnsjoberget",
+        "path": "mediawiki/Barnsjöberget.txt"
+      }
+    },
+    {
+      "id": "barnsjoberget-led-3",
+      "kind": "route",
+      "number": "3",
+      "name": "Underrbarra barrbarra",
+      "grade": "5+",
+      "length": "16",
+      "type": "",
+      "firstAscent": "Marco Kupiainen, Jesper Andersson -92",
+      "description": "Överraskande fin.",
+      "source": {
+        "id": "legacy:barnsjoberget",
+        "path": "mediawiki/Barnsjöberget.txt"
+      }
+    },
+    {
+      "id": "barnsjoberget-led-4",
+      "kind": "route",
+      "number": "4",
+      "name": "Pedofilen",
+      "grade": "3+",
+      "length": "17",
+      "type": "",
+      "firstAscent": "Marco Kupiainen, Jesper Andersson -92",
+      "description": "",
+      "source": {
+        "id": "legacy:barnsjoberget",
+        "path": "mediawiki/Barnsjöberget.txt"
+      }
+    },
+    {
+      "id": "barnsjoberget-led-5",
+      "kind": "route",
+      "number": "5",
+      "name": "Vi var först",
+      "grade": "4+",
+      "length": "18",
+      "type": "",
+      "firstAscent": "Jesper Andersson, Marco Kupiainen -92",
+      "description": "",
+      "source": {
+        "id": "legacy:barnsjoberget",
+        "path": "mediawiki/Barnsjöberget.txt"
+      }
+    },
+    {
+      "id": "barnsjoberget-led-6",
+      "kind": "route",
+      "number": "5a",
+      "name": "Vi är dessutom kåtare",
+      "grade": "6",
+      "length": "5",
+      "type": "",
+      "firstAscent": "Marco Kupiainen, Jesper Andersson -92",
+      "description": "",
+      "source": {
+        "id": "legacy:barnsjoberget",
+        "path": "mediawiki/Barnsjöberget.txt"
+      }
+    }
+  ],
+  "images": [],
+  "access": {
+    "legacyText": null,
+    "federationSlug": null
+  },
+  "qualityIssues": [],
+  "provenance": {
+    "primarySourceId": "legacy:barnsjoberget",
+    "sources": [
+      {
+        "id": "legacy:barnsjoberget",
+        "title": "Sverigeföraren 2014: Barnsjöberget",
+        "path": "mediawiki/Barnsjöberget.txt",
+        "license": "GNU Free Documentation License",
+        "snapshotDate": "2014-01-01"
+      }
+    ]
+  }
+}

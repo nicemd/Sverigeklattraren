@@ -1,0 +1,423 @@
+{
+  "schemaVersion": 1,
+  "id": "anneberg",
+  "slug": "anneberg",
+  "name": "Anneberg",
+  "description": "Svagt överhängande klättring på små grepp. Klippan är inte så hög men har många fina leder, särskilt i de övre graderna. Öppet läge och nära till bad.",
+  "coordinates": {
+    "latitude": 59.33121,
+    "longitude": 18.20703
+  },
+  "categories": [
+    "Nacka-Värmdö",
+    "Stockholm"
+  ],
+  "sections": [
+    {
+      "id": "allmant",
+      "title": "Allmänt",
+      "body": "Svagt överhängande klättring på små grepp. Klippan är inte så hög men har många fina leder, särskilt i de övre graderna. Öppet läge och nära till bad."
+    },
+    {
+      "id": "vagbeskrivning",
+      "title": "Vägbeskrivning",
+      "body": "titel=Anneberg lat=18207030 long=59331210 Från Stockholm: kör Värmdöleden 222, sväng av mot \"Skuru/Ektorp/Sjukhus\" (innan Skurubron), kör vänster och under motorvägen. Följ Skurusundsvägen rakt fram och efter en stund har du klippan på höger sida precis vid vägkanten. Ställ bilen på parkeringen precis vid klippan."
+    },
+    {
+      "id": "leder",
+      "title": "Leder",
+      "body": "Vänstra väggen Högra väggen ]] Kategori:Nacka-Värmdö Kategori:Stockholm Category:Trad Category:Sport Category:Vertikalt"
+    }
+  ],
+  "routes": [
+    {
+      "id": "anneberg-led-1",
+      "kind": "route",
+      "number": "1",
+      "name": "Köp och...",
+      "grade": "7a",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "Johan Luhr",
+      "description": "Svårgraderad boulderled vid tallen.",
+      "source": {
+        "id": "legacy:anneberg",
+        "path": "mediawiki/Anneberg.txt"
+      }
+    },
+    {
+      "id": "anneberg-led-2",
+      "kind": "route",
+      "number": "2",
+      "name": "Sälj",
+      "grade": "6a+",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "Johan Luhr",
+      "description": "Kort och lite krånglig.",
+      "source": {
+        "id": "legacy:anneberg",
+        "path": "mediawiki/Anneberg.txt"
+      }
+    },
+    {
+      "id": "anneberg-led-3",
+      "kind": "route",
+      "number": "3",
+      "name": "Knutby",
+      "grade": "7c",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "Johan Luhr",
+      "description": "Går numera rakt upp till ett eget ankare.",
+      "source": {
+        "id": "legacy:anneberg",
+        "path": "mediawiki/Anneberg.txt"
+      }
+    },
+    {
+      "id": "anneberg-led-4",
+      "kind": "route",
+      "number": "4",
+      "name": "Pilgrim",
+      "grade": "8a",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "Anders Lundahl",
+      "description": "Förlängdes något 2013 och går upp till samma ankare som Knutby.",
+      "source": {
+        "id": "legacy:anneberg",
+        "path": "mediawiki/Anneberg.txt"
+      }
+    },
+    {
+      "id": "anneberg-led-5",
+      "kind": "route",
+      "number": "5",
+      "name": "No fuel for the pilgrims",
+      "grade": "8a+",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "Johan Luhr",
+      "description": "Långa moves mellan dåliga grepp. Ankare.",
+      "source": {
+        "id": "legacy:anneberg",
+        "path": "mediawiki/Anneberg.txt"
+      }
+    },
+    {
+      "id": "anneberg-led-6",
+      "kind": "route",
+      "number": "6",
+      "name": "Ge kärleken en chans",
+      "grade": "7c+",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "Johan Luhr",
+      "description": "Insteg vid flaket. Rakt upp sedan höger och upp på svaet. Ankare.",
+      "source": {
+        "id": "legacy:anneberg",
+        "path": "mediawiki/Anneberg.txt"
+      }
+    },
+    {
+      "id": "anneberg-led-7",
+      "kind": "route",
+      "number": "7",
+      "name": "Front page",
+      "grade": "6c+",
+      "length": "",
+      "type": "trad",
+      "firstAscent": "Anders Lundahl, Eva Selin",
+      "description": "",
+      "source": {
+        "id": "legacy:anneberg",
+        "path": "mediawiki/Anneberg.txt"
+      }
+    },
+    {
+      "id": "anneberg-led-8",
+      "kind": "route",
+      "number": "7b",
+      "name": "Jag vill ha ett moln",
+      "grade": "7b",
+      "length": "",
+      "type": "mix",
+      "firstAscent": "Johan Luhr",
+      "description": "Start i Frontpage sedan bultad linje till höger.",
+      "source": {
+        "id": "legacy:anneberg",
+        "path": "mediawiki/Anneberg.txt"
+      }
+    },
+    {
+      "id": "anneberg-led-9",
+      "kind": "route",
+      "number": "8",
+      "name": "Klart ball",
+      "grade": "7b+",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "Johan Luhr",
+      "description": "Intensiv klättring. Klart finare än vad den ser ut.",
+      "source": {
+        "id": "legacy:anneberg",
+        "path": "mediawiki/Anneberg.txt"
+      }
+    },
+    {
+      "id": "anneberg-led-10",
+      "kind": "route",
+      "number": "9",
+      "name": "Pausfågel",
+      "grade": "5b",
+      "length": "",
+      "type": "trad",
+      "firstAscent": "Eva Selin",
+      "description": "Diedret",
+      "source": {
+        "id": "legacy:anneberg",
+        "path": "mediawiki/Anneberg.txt"
+      }
+    },
+    {
+      "id": "anneberg-led-11",
+      "kind": "route",
+      "number": "10",
+      "name": "Ve och fasa",
+      "grade": "6c+",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "",
+      "description": "Precis till höger om diedret",
+      "source": {
+        "id": "legacy:anneberg",
+        "path": "mediawiki/Anneberg.txt"
+      }
+    },
+    {
+      "id": "anneberg-led-12",
+      "kind": "route",
+      "number": "11",
+      "name": "Bussen i nyllet",
+      "grade": "7b",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "Johan Luhr",
+      "description": "Överhänget på spetsen, ofta förväxlad med leden ovan.",
+      "source": {
+        "id": "legacy:anneberg",
+        "path": "mediawiki/Anneberg.txt"
+      }
+    },
+    {
+      "id": "anneberg-led-13",
+      "kind": "route",
+      "number": "12",
+      "name": "Sträck på dig",
+      "grade": "7a+",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "Johan Luhr",
+      "description": "",
+      "source": {
+        "id": "legacy:anneberg",
+        "path": "mediawiki/Anneberg.txt"
+      }
+    },
+    {
+      "id": "anneberg-led-14",
+      "kind": "route",
+      "number": "1",
+      "name": "Soldans",
+      "grade": "6c+",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "Anders Lundahl, Eva Selin",
+      "description": "Fin led på annorlunda grepp. Tidigare mixled, nu helbultad.",
+      "source": {
+        "id": "legacy:anneberg",
+        "path": "mediawiki/Anneberg.txt"
+      }
+    },
+    {
+      "id": "anneberg-led-15",
+      "kind": "route",
+      "number": "2",
+      "name": "Smått och gott",
+      "grade": "6c+",
+      "length": "",
+      "type": "trad",
+      "firstAscent": "Johan Luhr, Thomas Hansson",
+      "description": "",
+      "source": {
+        "id": "legacy:anneberg",
+        "path": "mediawiki/Anneberg.txt"
+      }
+    },
+    {
+      "id": "anneberg-led-16",
+      "kind": "route",
+      "number": "3",
+      "name": "Onda ögat",
+      "grade": "8a",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "Johan Luhr",
+      "description": "Rejält överhängande insteg.",
+      "source": {
+        "id": "legacy:anneberg",
+        "path": "mediawiki/Anneberg.txt"
+      }
+    },
+    {
+      "id": "anneberg-led-17",
+      "kind": "route",
+      "number": "4",
+      "name": "Benny Måne",
+      "grade": "7c",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "Johan Luhr",
+      "description": "Kroppstung. Förlängdes 2013 med ett par meter och försågs med ett ordentligt ankare.",
+      "source": {
+        "id": "legacy:anneberg",
+        "path": "mediawiki/Anneberg.txt"
+      }
+    },
+    {
+      "id": "anneberg-led-18",
+      "kind": "route",
+      "number": "5",
+      "name": "Crimp it",
+      "grade": "7c",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "Johan Luhr",
+      "description": "Beskrivande namn - den tydliga krimpen.",
+      "source": {
+        "id": "legacy:anneberg",
+        "path": "mediawiki/Anneberg.txt"
+      }
+    },
+    {
+      "id": "anneberg-led-19",
+      "kind": "route",
+      "number": "6",
+      "name": "Drive in",
+      "grade": "6a+",
+      "length": "",
+      "type": "trad",
+      "firstAscent": "Thomas Hansson, Johan Luhr",
+      "description": "Svårsäkrad.",
+      "source": {
+        "id": "legacy:anneberg",
+        "path": "mediawiki/Anneberg.txt"
+      }
+    },
+    {
+      "id": "anneberg-led-20",
+      "kind": "route",
+      "number": "7",
+      "name": "Fetmans fiender",
+      "grade": "6a+",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "Thomas Hansson, Johan Luhr",
+      "description": "Fina flytt. Ankare.",
+      "source": {
+        "id": "legacy:anneberg",
+        "path": "mediawiki/Anneberg.txt"
+      }
+    },
+    {
+      "id": "anneberg-led-21",
+      "kind": "route",
+      "number": "8",
+      "name": "1:an",
+      "grade": "6a",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "Johan Luhr",
+      "description": "Börjar precis t h om trädet. Bultades om och förlängdes 2013, går numera hela vägen till toppen.",
+      "source": {
+        "id": "legacy:anneberg",
+        "path": "mediawiki/Anneberg.txt"
+      }
+    },
+    {
+      "id": "anneberg-led-22",
+      "kind": "route",
+      "number": "9",
+      "name": "2:an",
+      "grade": "6b+",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "Johan Luhr",
+      "description": "Bultades om 2013 och förlängdes med ett par meter.",
+      "source": {
+        "id": "legacy:anneberg",
+        "path": "mediawiki/Anneberg.txt"
+      }
+    },
+    {
+      "id": "anneberg-led-23",
+      "kind": "route",
+      "number": "10",
+      "name": "3:an",
+      "grade": "6a+",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "Johan Luhr",
+      "description": "Den högra sprickan. Delar numera ankare med 2:an.",
+      "source": {
+        "id": "legacy:anneberg",
+        "path": "mediawiki/Anneberg.txt"
+      }
+    }
+  ],
+  "images": [
+    {
+      "filename": "Anneberg.jpg",
+      "caption": "center",
+      "missing": false
+    },
+    {
+      "filename": "Anneberg_vänster.gif",
+      "caption": "",
+      "missing": false
+    },
+    {
+      "filename": "Anneberg_vänster2.gif",
+      "caption": "",
+      "missing": false
+    },
+    {
+      "filename": "Anneberg_höger.gif",
+      "caption": "",
+      "missing": false
+    },
+    {
+      "filename": "Anneberg001.jpg",
+      "caption": "Jonas Ahlman",
+      "missing": false
+    }
+  ],
+  "access": {
+    "legacyText": null,
+    "federationSlug": null
+  },
+  "qualityIssues": [],
+  "provenance": {
+    "primarySourceId": "legacy:anneberg",
+    "sources": [
+      {
+        "id": "legacy:anneberg",
+        "title": "Sverigeföraren 2014: Anneberg",
+        "path": "mediawiki/Anneberg.txt",
+        "license": "GNU Free Documentation License",
+        "snapshotDate": "2014-01-01"
+      }
+    ]
+  }
+}

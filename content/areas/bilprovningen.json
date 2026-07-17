@@ -1,0 +1,222 @@
+{
+  "schemaVersion": 1,
+  "id": "bilprovningen",
+  "slug": "bilprovningen",
+  "name": "Bilprovningen",
+  "description": "En liten men grymt överhängande klippa som ligger minst sagt urbant i Karlshamns industriområde. Endast några få leder finns gjorda, men Gelin Karelin är att betrakta som en av de mest klassiska hårda turerna i Skåne/Blekinge-regionen. Anmarschen är väldigt kort då man i princip kan säkra genom takluckan på bilen! Alla sportleder har ankare.",
+  "coordinates": {
+    "latitude": 56.1799131099773,
+    "longitude": 14.844846725463867
+  },
+  "categories": [
+    "Blekinge"
+  ],
+  "sections": [
+    {
+      "id": "allmant",
+      "title": "Allmänt",
+      "body": "En liten men grymt överhängande klippa som ligger minst sagt urbant i Karlshamns industriområde. Endast några få leder finns gjorda, men Gelin Karelin är att betrakta som en av de mest klassiska hårda turerna i Skåne/Blekinge-regionen. Anmarschen är väldigt kort då man i princip kan säkra genom takluckan på bilen! Alla sportleder har ankare."
+    },
+    {
+      "id": "hitta-hit",
+      "title": "Hitta hit",
+      "body": "Väster ifrån: Kör E22an mot Kalmar. Ta av från E22 vid Karlshamn västra (Exit no 51). Ta höger vid avfartens slut. Kör söderut på väg 29 i ca. 1,7 km och ta vänster i nästa rondell in på Vekerumsvägen. Fortsätt 800 meter och ta sen vänster in på Gröna vägen. Fortsätt 60 meter till. Can´t miss it! Dessutom är det även skyltat mot bilprovningen. Dock inte hela vägen från E22an."
+    },
+    {
+      "id": "lederna",
+      "title": "Lederna",
+      "body": "Kategori:Blekinge"
+    }
+  ],
+  "routes": [
+    {
+      "id": "bilprovningen-led-1",
+      "kind": "route",
+      "number": "1",
+      "name": "Halvnelson",
+      "grade": "7+/8-",
+      "length": "10",
+      "type": "trad",
+      "firstAscent": "Fri: Kasper Berkowicz, Aid: Ola Modéer -12, -08",
+      "description": "Brant boulder start som följs av en lättare spricka. Hyfsat säkrad, men akta hyllan. Ganska kort. Slutar vid tallen på den stora bilden. Tidigare brant aidlinje A1+, Ola Modéer -08.",
+      "source": {
+        "id": "legacy:bilprovningen",
+        "path": "mediawiki/Bilprovningen.txt"
+      }
+    },
+    {
+      "id": "bilprovningen-led-2",
+      "kind": "route",
+      "number": "2",
+      "name": "Hög standard",
+      "grade": "A3",
+      "length": "14",
+      "type": "trad",
+      "firstAscent": "Fredrik Rapp -07",
+      "description": "Fin och brant aidklättring som övergår till en tunn copperheadsöm på sva mot slutet. Någon rivet finns där denna tunnar ut helt.",
+      "source": {
+        "id": "legacy:bilprovningen",
+        "path": "mediawiki/Bilprovningen.txt"
+      }
+    },
+    {
+      "id": "bilprovningen-led-3",
+      "kind": "route",
+      "number": "3",
+      "name": "Gelin Karelin",
+      "grade": "7c",
+      "length": "14",
+      "type": "sport",
+      "firstAscent": "Patrik Gelin -95",
+      "description": "Kanonhäftig och mycket brant sportklättring längs den överhängande sprickan. Ett måste för den hängivne och sydsvenske sportklättraren! Ankare. Etablerades av Mark Jansson i början på 90-talet, men den förste som klarade en bestigning var Patrik Gelin. Går även att klättra på egna säkringar...",
+      "source": {
+        "id": "legacy:bilprovningen",
+        "path": "mediawiki/Bilprovningen.txt"
+      }
+    },
+    {
+      "id": "bilprovningen-led-4",
+      "kind": "route",
+      "number": "4",
+      "name": "Japp",
+      "grade": "8a+",
+      "length": "12",
+      "type": "sport",
+      "firstAscent": "Johan Luhr -09?",
+      "description": "Stabil centrallinje som anses mycket fin. Ankare.",
+      "source": {
+        "id": "legacy:bilprovningen",
+        "path": "mediawiki/Bilprovningen.txt"
+      }
+    },
+    {
+      "id": "bilprovningen-led-5",
+      "kind": "route",
+      "number": null,
+      "name": "Japp/Gelin Karelin",
+      "grade": "7c+",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "Johan Luhr -12",
+      "description": "Variant om man inte har något annat att göra - Första halvan på Japp och sedan in i Gelin Karelin",
+      "source": {
+        "id": "legacy:bilprovningen",
+        "path": "mediawiki/Bilprovningen.txt"
+      }
+    },
+    {
+      "id": "bilprovningen-led-6",
+      "kind": "route",
+      "number": "5",
+      "name": "Shrek",
+      "grade": "8b",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "Johan Luhr -10",
+      "description": "Skåne/Blekinges hårdaste led! Linjen forcerar klippans mest kompakta yta, utan att erbjuda allt för mycket respit.. Ankare.",
+      "source": {
+        "id": "legacy:bilprovningen",
+        "path": "mediawiki/Bilprovningen.txt"
+      }
+    },
+    {
+      "id": "bilprovningen-led-7",
+      "kind": "route",
+      "number": "6",
+      "name": "Dubbelt upp",
+      "grade": "8a",
+      "length": "10",
+      "type": "sport",
+      "firstAscent": "Johan Luhr -04",
+      "description": "Fin linje som är knepigare än den ser ut. Ankare.",
+      "source": {
+        "id": "legacy:bilprovningen",
+        "path": "mediawiki/Bilprovningen.txt"
+      }
+    },
+    {
+      "id": "bilprovningen-led-8",
+      "kind": "route",
+      "number": null,
+      "name": "Hål in one",
+      "grade": "7c",
+      "length": "10",
+      "type": "sport",
+      "firstAscent": "Johan Luhr -12",
+      "description": "Starta de två första bultarna som Dubbelt upp sedan snett vänster och upp.",
+      "source": {
+        "id": "legacy:bilprovningen",
+        "path": "mediawiki/Bilprovningen.txt"
+      }
+    },
+    {
+      "id": "bilprovningen-led-9",
+      "kind": "route",
+      "number": "7",
+      "name": "Biltema",
+      "grade": "7c",
+      "length": "7",
+      "type": "sport",
+      "firstAscent": "Johan Luhr -04",
+      "description": "Kort linje långt till höger. Ankare.",
+      "source": {
+        "id": "legacy:bilprovningen",
+        "path": "mediawiki/Bilprovningen.txt"
+      }
+    },
+    {
+      "id": "bilprovningen-led-10",
+      "kind": "route",
+      "number": "8",
+      "name": "Släng dig i väggen",
+      "grade": "7c",
+      "length": "7",
+      "type": "sport",
+      "firstAscent": "Johan Luhr -04",
+      "description": "Kort linje längst till höger. Ankare.",
+      "source": {
+        "id": "legacy:bilprovningen",
+        "path": "mediawiki/Bilprovningen.txt"
+      }
+    }
+  ],
+  "images": [
+    {
+      "filename": "IMG_4713.1.jpg",
+      "caption": "Om du har ombesiktning på bilen så kan det vara lägligt att kombinera med lite fin sportklättring på klippan bredvid",
+      "missing": false
+    },
+    {
+      "filename": "Gelin_Karelin-1.jpg",
+      "caption": "Bekväm \"roadside\" cragging. Micke Blixt hänger loss på [[Gelin Karelin",
+      "missing": false
+    },
+    {
+      "filename": "BIlprov1.jpg",
+      "caption": "",
+      "missing": false
+    },
+    {
+      "filename": "Bilprov2.jpg",
+      "caption": "",
+      "missing": false
+    }
+  ],
+  "access": {
+    "legacyText": null,
+    "federationSlug": null
+  },
+  "qualityIssues": [],
+  "provenance": {
+    "primarySourceId": "legacy:bilprovningen",
+    "sources": [
+      {
+        "id": "legacy:bilprovningen",
+        "title": "Sverigeföraren 2014: Bilprovningen",
+        "path": "mediawiki/Bilprovningen.txt",
+        "license": "GNU Free Documentation License",
+        "snapshotDate": "2014-01-01"
+      }
+    ]
+  }
+}

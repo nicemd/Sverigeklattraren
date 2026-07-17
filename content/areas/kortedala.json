@@ -1,0 +1,577 @@
+{
+  "schemaVersion": 1,
+  "id": "kortedala",
+  "slug": "kortedala",
+  "name": "Kortedala",
+  "description": "Det finns några gjorda leder med lite ovanlig klättring. Dessutom finns det potential för några leder till på väggarna runt omkring huvudklippan. Klippan ligger i en vacker lövskog och det finns en bågskyttebana framför huvudklippan.",
+  "coordinates": {
+    "latitude": 57.75923,
+    "longitude": 12.02543
+  },
+  "categories": [
+    "Göteborg"
+  ],
+  "sections": [
+    {
+      "id": "allmant",
+      "title": "Allmänt",
+      "body": "Det finns några gjorda leder med lite ovanlig klättring. Dessutom finns det potential för några leder till på väggarna runt omkring huvudklippan. Klippan ligger i en vacker lövskog och det finns en bågskyttebana framför huvudklippan."
+    },
+    {
+      "id": "vagbeskrivning",
+      "title": "Vägbeskrivning",
+      "body": "Parkera bakom Kortedala brandstation, promenera ner för backen ca. 400 meter tills du får syn berget på höger sida av vägen. Kollektivt, åk spårvagn och kliv av vid Kortedala torg. Följ Tideräkningsgatan i riktning mot Angered tills du ser brandstationen, fortsätt förbi brandstationen ca. 400 meter tills du får syn på berget på höger sida av vägen. Total promenadsträcka ca. 1 km. För att komma till Burmaklippan och till dem söder om denna kan man antingen följa kraftledningen från kolonilotterna eller leta sig ner till dem via stigarna från brandstationen eller från Dagjämingsgatan. Parkera inte vid kolonilotterna."
+    },
+    {
+      "id": "vanstra-vaggen",
+      "title": "Vänstra väggen",
+      "body": "Inga leder är utvecklade på denna vägg, ca. 10 meter högt."
+    },
+    {
+      "id": "bagskyttevaggen",
+      "title": "Bågskytteväggen",
+      "body": "Väggen bakom bågskyttebanorna. Berget är ca. 15-18 meter högt och ungefär 100 meter brett. Göteborgsföraren ger en bra hänvisning och det går lätt att hitta lederna."
+    },
+    {
+      "id": "hogra-vaggen",
+      "title": "Högra väggen",
+      "body": "Den första lilla vägg du ser när du kommer från Tideräkningsgatan. Bör kanske kallas Tidräkningsväggen? Ungefär 10 meter högt. Potential finns för fler leder och boulderproblem. Se upp för ilskna myror. Kategori:Göteborg"
+    },
+    {
+      "id": "burmaklippan",
+      "title": "Burmaklippan",
+      "body": "Fil:Burmaklippan.jpg Parkera vid brandstationen, gå ner till koloniområded och följ krafledningarna. Parkera inte i koloniområdet. Alternativt, gå från Dagjämningsgatan genom skogen."
+    },
+    {
+      "id": "tardis-vaggen",
+      "title": "TARDIS-väggen",
+      "body": "Fortsätter man 100 meter mer söderut dyker ytterligare en vägg upp, samma höjd och lutning som de övriga, men bredare. Hit tar man sig enklast från Dagjämningsgatan. Följ stigen från Dagjämningsgatan ner för backen tills du kommer till ett rostigt stängsel. Där ligger följande leder: Dessa leder ligger ca 50 meter till höger om de föregående lederna: Dessa leder ligger ca 50 meter till höger om föregående lederna, ungefär där stigen är som brantast:"
+    },
+    {
+      "id": "kalendervagen",
+      "title": "Kalendervägen",
+      "body": "Vid Kalendervägen 38 i Kortedala finns tre tradleder. De finns markerade med T1, T2 och T3 på en topo på Gbg bouldering online tillsammans med ett antal boulderproblem. Se Kortedala > Kalendervägen på GBO."
+    }
+  ],
+  "routes": [
+    {
+      "id": "kortedala-led-1",
+      "kind": "route",
+      "number": null,
+      "name": "Hole in the wall",
+      "grade": "5",
+      "length": "",
+      "type": "trad",
+      "firstAscent": "Tomas Machek & Petra Machek",
+      "description": "Nästan längst till vänster på huvudväggen ser du två märkliga hål. Leden går emellan dessa hål och upp på en hylla, vidare till toppen.",
+      "source": {
+        "id": "legacy:kortedala",
+        "path": "mediawiki/Kortedala.txt"
+      }
+    },
+    {
+      "id": "kortedala-led-2",
+      "kind": "route",
+      "number": null,
+      "name": "Amors Pilar",
+      "grade": "5",
+      "length": "",
+      "type": "",
+      "firstAscent": "Tomas Machek & Petra Machek",
+      "description": "Startar rakt nedanför högerkanten av den hyllan som också är Hole in wall, och rakt upp.",
+      "source": {
+        "id": "legacy:kortedala",
+        "path": "mediawiki/Kortedala.txt"
+      }
+    },
+    {
+      "id": "kortedala-led-3",
+      "kind": "route",
+      "number": null,
+      "name": "Sherwood",
+      "grade": "5",
+      "length": "",
+      "type": "",
+      "firstAscent": "Jan Machek & Hanna Machek",
+      "description": "",
+      "source": {
+        "id": "legacy:kortedala",
+        "path": "mediawiki/Kortedala.txt"
+      }
+    },
+    {
+      "id": "kortedala-led-4",
+      "kind": "route",
+      "number": null,
+      "name": "Wilhelm Tell",
+      "grade": "5",
+      "length": "",
+      "type": "",
+      "firstAscent": "Jan Machek & Hanna Machek",
+      "description": "Startar vid ett träd",
+      "source": {
+        "id": "legacy:kortedala",
+        "path": "mediawiki/Kortedala.txt"
+      }
+    },
+    {
+      "id": "kortedala-led-5",
+      "kind": "route",
+      "number": null,
+      "name": "Robin Hood",
+      "grade": "5-",
+      "length": "",
+      "type": "",
+      "firstAscent": "Tomas Machek & Hanna Machek",
+      "description": "",
+      "source": {
+        "id": "legacy:kortedala",
+        "path": "mediawiki/Kortedala.txt"
+      }
+    },
+    {
+      "id": "kortedala-led-6",
+      "kind": "route",
+      "number": null,
+      "name": "Roaring Forties",
+      "grade": "6+",
+      "length": "",
+      "type": "",
+      "firstAscent": "Jan Machek & Tomas Machek & Anton Malak",
+      "description": "Går igenom sprickan som klyver taket.",
+      "source": {
+        "id": "legacy:kortedala",
+        "path": "mediawiki/Kortedala.txt"
+      }
+    },
+    {
+      "id": "kortedala-led-7",
+      "kind": "route",
+      "number": null,
+      "name": "Moaning Fifties",
+      "grade": "4+",
+      "length": "",
+      "type": "",
+      "firstAscent": "Anton Malak",
+      "description": "",
+      "source": {
+        "id": "legacy:kortedala",
+        "path": "mediawiki/Kortedala.txt"
+      }
+    },
+    {
+      "id": "kortedala-led-8",
+      "kind": "route",
+      "number": null,
+      "name": "Parti och minut",
+      "grade": "6-",
+      "length": "9",
+      "type": "trad",
+      "firstAscent": "Viktor Söderqvist, Marcus Bengtsson 2013-05-01",
+      "description": "",
+      "source": {
+        "id": "legacy:kortedala",
+        "path": "mediawiki/Kortedala.txt"
+      }
+    },
+    {
+      "id": "kortedala-led-9",
+      "kind": "route",
+      "number": null,
+      "name": "Stup i kvarten",
+      "grade": "6-",
+      "length": "7",
+      "type": "trad",
+      "firstAscent": "Viktor Söderqvist, Marcus Bengtsson 2013-05-01",
+      "description": "",
+      "source": {
+        "id": "legacy:kortedala",
+        "path": "mediawiki/Kortedala.txt"
+      }
+    },
+    {
+      "id": "kortedala-led-10",
+      "kind": "route",
+      "number": null,
+      "name": "?",
+      "grade": "?",
+      "length": "",
+      "type": "projekt",
+      "firstAscent": "",
+      "description": "",
+      "source": {
+        "id": "legacy:kortedala",
+        "path": "mediawiki/Kortedala.txt"
+      }
+    },
+    {
+      "id": "kortedala-led-11",
+      "kind": "route",
+      "number": null,
+      "name": "Burma",
+      "grade": "7a",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "Stefan Norman",
+      "description": "",
+      "source": {
+        "id": "legacy:kortedala",
+        "path": "mediawiki/Kortedala.txt"
+      }
+    },
+    {
+      "id": "kortedala-led-12",
+      "kind": "route",
+      "number": null,
+      "name": "Arboristen",
+      "grade": "6a+",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "",
+      "description": "",
+      "source": {
+        "id": "legacy:kortedala",
+        "path": "mediawiki/Kortedala.txt"
+      }
+    },
+    {
+      "id": "kortedala-led-13",
+      "kind": "route",
+      "number": null,
+      "name": "En 23-årings kropp men mentalt retarderad",
+      "grade": "5-",
+      "length": "",
+      "type": "trad",
+      "firstAscent": "",
+      "description": "",
+      "source": {
+        "id": "legacy:kortedala",
+        "path": "mediawiki/Kortedala.txt"
+      }
+    },
+    {
+      "id": "kortedala-led-14",
+      "kind": "route",
+      "number": null,
+      "name": "Burmahörnet",
+      "grade": "6b-6c",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "",
+      "description": "",
+      "source": {
+        "id": "legacy:kortedala",
+        "path": "mediawiki/Kortedala.txt"
+      }
+    },
+    {
+      "id": "kortedala-led-15",
+      "kind": "route",
+      "number": null,
+      "name": "In i slotten",
+      "grade": "6c+",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "",
+      "description": "",
+      "source": {
+        "id": "legacy:kortedala",
+        "path": "mediawiki/Kortedala.txt"
+      }
+    },
+    {
+      "id": "kortedala-led-16",
+      "kind": "route",
+      "number": null,
+      "name": "Ung och svag",
+      "grade": "6b/6b+",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "",
+      "description": "",
+      "source": {
+        "id": "legacy:kortedala",
+        "path": "mediawiki/Kortedala.txt"
+      }
+    },
+    {
+      "id": "kortedala-led-17",
+      "kind": "route",
+      "number": null,
+      "name": "Elliots led",
+      "grade": "5c/6a",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "",
+      "description": "",
+      "source": {
+        "id": "legacy:kortedala",
+        "path": "mediawiki/Kortedala.txt"
+      }
+    },
+    {
+      "id": "kortedala-led-18",
+      "kind": "route",
+      "number": null,
+      "name": "Automatsäkring",
+      "grade": "5",
+      "length": "",
+      "type": "trad",
+      "firstAscent": "Jonas Lyckegård, Markus Lyckegård & Viktor Söderqvist 2013-05-01",
+      "description": "",
+      "source": {
+        "id": "legacy:kortedala",
+        "path": "mediawiki/Kortedala.txt"
+      }
+    },
+    {
+      "id": "kortedala-led-19",
+      "kind": "route",
+      "number": null,
+      "name": "Kamin",
+      "grade": "5-",
+      "length": "",
+      "type": "trad",
+      "firstAscent": "Jonas Lyckegård, Viktor Söderqvist & Markus Lyckegård 2013-05-01",
+      "description": "",
+      "source": {
+        "id": "legacy:kortedala",
+        "path": "mediawiki/Kortedala.txt"
+      }
+    },
+    {
+      "id": "kortedala-led-20",
+      "kind": "route",
+      "number": null,
+      "name": "Lågspänning",
+      "grade": "5+",
+      "length": "",
+      "type": "",
+      "firstAscent": "Viktor Söderqvist, Markus Lyckegård & Jonas Lyckegård 2013-05-01",
+      "description": "",
+      "source": {
+        "id": "legacy:kortedala",
+        "path": "mediawiki/Kortedala.txt"
+      }
+    },
+    {
+      "id": "kortedala-led-21",
+      "kind": "route",
+      "number": null,
+      "name": "Första leden",
+      "grade": "4",
+      "length": "",
+      "type": "trad",
+      "firstAscent": "Markus Lyckegård, Jonas Lyckegård & Viktor Söderqvist 2013-05-01",
+      "description": "",
+      "source": {
+        "id": "legacy:kortedala",
+        "path": "mediawiki/Kortedala.txt"
+      }
+    },
+    {
+      "id": "kortedala-led-22",
+      "kind": "route",
+      "number": null,
+      "name": "Linje lusta",
+      "grade": "6a+",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "Håkan Thyr",
+      "description": "",
+      "source": {
+        "id": "legacy:kortedala",
+        "path": "mediawiki/Kortedala.txt"
+      }
+    },
+    {
+      "id": "kortedala-led-23",
+      "kind": "route",
+      "number": null,
+      "name": "Den gröna sfinxen",
+      "grade": "6",
+      "length": "10",
+      "type": "trad",
+      "firstAscent": "Viktor Söderqvist, Jonas Lyckegård 2013",
+      "description": "",
+      "source": {
+        "id": "legacy:kortedala",
+        "path": "mediawiki/Kortedala.txt"
+      }
+    },
+    {
+      "id": "kortedala-led-24",
+      "kind": "route",
+      "number": null,
+      "name": "Den röda rosen",
+      "grade": "5",
+      "length": "15",
+      "type": "trad",
+      "firstAscent": "Jonas Lyckegård, Viktor Söderqvist 2013",
+      "description": "",
+      "source": {
+        "id": "legacy:kortedala",
+        "path": "mediawiki/Kortedala.txt"
+      }
+    },
+    {
+      "id": "kortedala-led-25",
+      "kind": "route",
+      "number": null,
+      "name": "Den vita kråkan",
+      "grade": "6-",
+      "length": "15",
+      "type": "trad",
+      "firstAscent": "Viktor Söderqvist, Jonas Lyckegård 2013",
+      "description": "",
+      "source": {
+        "id": "legacy:kortedala",
+        "path": "mediawiki/Kortedala.txt"
+      }
+    },
+    {
+      "id": "kortedala-led-26",
+      "kind": "route",
+      "number": null,
+      "name": "Time vortex",
+      "grade": "5+",
+      "length": "15",
+      "type": "trad",
+      "firstAscent": "Tove Hansson, Viktor Söderqvist",
+      "description": "Minikamin eller bred spricka.",
+      "source": {
+        "id": "legacy:kortedala",
+        "path": "mediawiki/Kortedala.txt"
+      }
+    },
+    {
+      "id": "kortedala-led-27",
+      "kind": "route",
+      "number": null,
+      "name": "Face of Boe",
+      "grade": "6-",
+      "length": "15",
+      "type": "trad",
+      "firstAscent": "Viktor Söderqvist, Tove Hansson",
+      "description": "Via en grotta till ett dieder med en fin spricka som följs förbi ett litet tak och upp på facet. Korsa sedan Time vortex och gå rakt upp via hyllor.",
+      "source": {
+        "id": "legacy:kortedala",
+        "path": "mediawiki/Kortedala.txt"
+      }
+    },
+    {
+      "id": "kortedala-led-28",
+      "kind": "route",
+      "number": null,
+      "name": "Dalek",
+      "grade": "6-",
+      "length": "10",
+      "type": "trad",
+      "firstAscent": "Viktor Söderqvist, Tove Hansson 2013",
+      "description": "",
+      "source": {
+        "id": "legacy:kortedala",
+        "path": "mediawiki/Kortedala.txt"
+      }
+    },
+    {
+      "id": "kortedala-led-29",
+      "kind": "route",
+      "number": null,
+      "name": "Kortaste vägen upp",
+      "grade": "5",
+      "length": "5",
+      "type": "solo",
+      "firstAscent": "Viktor Söderqvist 2013",
+      "description": "",
+      "source": {
+        "id": "legacy:kortedala",
+        "path": "mediawiki/Kortedala.txt"
+      }
+    },
+    {
+      "id": "kortedala-led-30",
+      "kind": "route",
+      "number": null,
+      "name": "Omnejd",
+      "grade": "5-",
+      "length": "10",
+      "type": "trad",
+      "firstAscent": "Viktor Söderqvist 2013",
+      "description": "",
+      "source": {
+        "id": "legacy:kortedala",
+        "path": "mediawiki/Kortedala.txt"
+      }
+    },
+    {
+      "id": "kortedala-led-31",
+      "kind": "route",
+      "number": null,
+      "name": "TARDIS",
+      "grade": "6-",
+      "length": "15",
+      "type": "trad",
+      "firstAscent": "Viktor Söderqvist, Jonas Lyckegård 2013",
+      "description": "",
+      "source": {
+        "id": "legacy:kortedala",
+        "path": "mediawiki/Kortedala.txt"
+      }
+    },
+    {
+      "id": "kortedala-led-32",
+      "kind": "route",
+      "number": null,
+      "name": "Déjà vu",
+      "grade": "5",
+      "length": "15",
+      "type": "trad",
+      "firstAscent": "Jonas Lyckegård, Viktor Söderqvist 2013",
+      "description": "",
+      "source": {
+        "id": "legacy:kortedala",
+        "path": "mediawiki/Kortedala.txt"
+      }
+    }
+  ],
+  "images": [
+    {
+      "filename": "Kortedala_översikt.png",
+      "caption": "",
+      "missing": false
+    },
+    {
+      "filename": "Kortedala_vanster.jpg",
+      "caption": "",
+      "missing": false
+    },
+    {
+      "filename": "Kortedala_hoger.jpg",
+      "caption": "",
+      "missing": false
+    },
+    {
+      "filename": "Kortedala_Linjelusta-klippan.jpg",
+      "caption": "500px",
+      "missing": false
+    }
+  ],
+  "access": {
+    "legacyText": null,
+    "federationSlug": null
+  },
+  "qualityIssues": [],
+  "provenance": {
+    "primarySourceId": "legacy:kortedala",
+    "sources": [
+      {
+        "id": "legacy:kortedala",
+        "title": "Sverigeföraren 2014: Kortedala",
+        "path": "mediawiki/Kortedala.txt",
+        "license": "GNU Free Documentation License",
+        "snapshotDate": "2014-01-01"
+      }
+    ]
+  }
+}

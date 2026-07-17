@@ -1,0 +1,126 @@
+{
+  "schemaVersion": 1,
+  "id": "osbyberget",
+  "slug": "osbyberget",
+  "name": "Ösbyberget",
+  "description": "Liten klippa utanför Gustavsberg.",
+  "coordinates": null,
+  "categories": [
+    "Nacka-Värmdö",
+    "Saknar karta",
+    "Saknar skiss",
+    "Stockholm"
+  ],
+  "sections": [
+    {
+      "id": "allmant",
+      "title": "Allmänt",
+      "body": "Liten klippa utanför Gustavsberg."
+    },
+    {
+      "id": "vagbeskrivning",
+      "title": "Vägbeskrivning",
+      "body": "Vid OK-macken (vid vattentornet), ta h och klippan dyker upp på v sida vid en sjö efter 1,5km. Det finns två små men överhängande väggar."
+    },
+    {
+      "id": "leder",
+      "title": "Leder",
+      "body": "Kategori:Saknar karta Kategori:Saknar skiss Kategori:Nacka-Värmdö Kategori:Stockholm"
+    }
+  ],
+  "routes": [
+    {
+      "id": "osbyberget-led-1",
+      "kind": "route",
+      "number": "1",
+      "name": "Mövenpick",
+      "grade": "7",
+      "length": "7",
+      "type": "",
+      "firstAscent": "Johan Luhr -91",
+      "description": "",
+      "source": {
+        "id": "legacy:osbyberget",
+        "path": "mediawiki/Ösbyberget.txt"
+      }
+    },
+    {
+      "id": "osbyberget-led-2",
+      "kind": "route",
+      "number": "2",
+      "name": "Triumf",
+      "grade": "8-",
+      "length": "8",
+      "type": "",
+      "firstAscent": "Johan Luhr -91",
+      "description": "",
+      "source": {
+        "id": "legacy:osbyberget",
+        "path": "mediawiki/Ösbyberget.txt"
+      }
+    },
+    {
+      "id": "osbyberget-led-3",
+      "kind": "route",
+      "number": "3",
+      "name": "GB",
+      "grade": "8-/8",
+      "length": "8",
+      "type": "",
+      "firstAscent": "Johan Luhr -91",
+      "description": "",
+      "source": {
+        "id": "legacy:osbyberget",
+        "path": "mediawiki/Ösbyberget.txt"
+      }
+    },
+    {
+      "id": "osbyberget-led-4",
+      "kind": "route",
+      "number": "4",
+      "name": "Åhus",
+      "grade": "7+",
+      "length": "8",
+      "type": "",
+      "firstAscent": "Johan Luhr -91",
+      "description": "",
+      "source": {
+        "id": "legacy:osbyberget",
+        "path": "mediawiki/Ösbyberget.txt"
+      }
+    },
+    {
+      "id": "osbyberget-led-5",
+      "kind": "route",
+      "number": "5",
+      "name": "Premier",
+      "grade": "7+",
+      "length": "8",
+      "type": "",
+      "firstAscent": "Johan Luhr -91",
+      "description": "",
+      "source": {
+        "id": "legacy:osbyberget",
+        "path": "mediawiki/Ösbyberget.txt"
+      }
+    }
+  ],
+  "images": [],
+  "access": {
+    "legacyText": null,
+    "federationSlug": null
+  },
+  "qualityIssues": [],
+  "provenance": {
+    "primarySourceId": "legacy:osbyberget",
+    "sources": [
+      {
+        "id": "legacy:osbyberget",
+        "title": "Sverigeföraren 2014: Ösbyberget",
+        "path": "mediawiki/Ösbyberget.txt",
+        "license": "GNU Free Documentation License",
+        "snapshotDate": "2014-01-01"
+      }
+    ]
+  }
+}

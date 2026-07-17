@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "id": "nyhamn",
+  "slug": "nyhamn",
+  "name": "Nyhamn",
+  "description": "Kategori:Saknar allmän infoKategori:Saknar vägbeskrivning =Problem= Kategori:Sundsvall Kategori:Bouldering Kategori:Bimbo Kategori:Behöver kvalitetssäkras Kategori:Saknar karta Kategori:Saknar koordinater Kategori:Saknar skrivarformattering Kategori:Saknar skiss",
+  "coordinates": null,
+  "categories": [
+    "Behöver kvalitetssäkras",
+    "Bimbo",
+    "Bouldering",
+    "Saknar allmän info",
+    "Saknar karta",
+    "Saknar koordinater",
+    "Saknar skiss",
+    "Saknar skrivarformattering",
+    "Saknar vägbeskrivning",
+    "Sundsvall"
+  ],
+  "sections": [],
+  "routes": [
+    {
+      "id": "nyhamn-problem-1",
+      "kind": "problem",
+      "number": null,
+      "name": "Ljusskygg",
+      "grade": "7B+",
+      "length": "",
+      "type": "Krimp,Slopers",
+      "firstAscent": "Christofer Björklund",
+      "description": "Sittstart ca 3 meter till vänster om leden \"Onda vibrationer\". Börjar med båda händerna i ett incut, går rakt upp och slutar med händerna på jugrampen.",
+      "source": {
+        "id": "legacy:nyhamn",
+        "path": "mediawiki/Nyhamn.txt"
+      }
+    }
+  ],
+  "images": [],
+  "access": {
+    "legacyText": null,
+    "federationSlug": null
+  },
+  "qualityIssues": [],
+  "provenance": {
+    "primarySourceId": "legacy:nyhamn",
+    "sources": [
+      {
+        "id": "legacy:nyhamn",
+        "title": "Sverigeföraren 2014: Nyhamn",
+        "path": "mediawiki/Nyhamn.txt",
+        "license": "GNU Free Documentation License",
+        "snapshotDate": "2014-01-01"
+      }
+    ]
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "schemaVersion": 1,
+  "id": "ekensberg",
+  "slug": "ekensberg",
+  "name": "Ekensberg",
+  "description": "Kategori:Uppsala Kategori:Bouldering Kategori:Bimbo Kategori:Behöver kvalitetssäkras Kategori:Saknar karta Kategori:Saknar skrivarformattering Kategori:Saknar skiss =Allmänt= Litet område med viss utvecklingsmöjlighet. Det finns både hårt och lite längre (blocket med jaktstugan) och lågt och lätt att borsta fram. =Vägbeskrivning= Lättast att nå med cykel via Hågavägen eller Lurbovägen. =Bild= =Problem=",
+  "coordinates": null,
+  "categories": [
+    "Behöver kvalitetssäkras",
+    "Bimbo",
+    "Bouldering",
+    "Saknar karta",
+    "Saknar skiss",
+    "Saknar skrivarformattering",
+    "Uppsala"
+  ],
+  "sections": [],
+  "routes": [
+    {
+      "id": "ekensberg-problem-1",
+      "kind": "problem",
+      "number": null,
+      "name": "Den här flashar jag nog",
+      "grade": "6A",
+      "length": "",
+      "type": "Vägg",
+      "firstAscent": "H Skoog",
+      "description": "Sittstart mellan stubbarna och sedan rakt upp mot stenens högsta punkt via krimpar, slopers och en fin pocket.",
+      "source": {
+        "id": "legacy:ekensberg",
+        "path": "mediawiki/Ekensberg.txt"
+      }
+    },
+    {
+      "id": "ekensberg-problem-2",
+      "kind": "problem",
+      "number": null,
+      "name": "First ascent, yay!",
+      "grade": "4",
+      "length": "",
+      "type": "Slab",
+      "firstAscent": "M Carlsson",
+      "description": "Går på det väldigt svaiga svaet på en av stenarna närmast vägen, på kalhygget norr om \"Den här flashar jag nog\"",
+      "source": {
+        "id": "legacy:ekensberg",
+        "path": "mediawiki/Ekensberg.txt"
+      }
+    }
+  ],
+  "images": [
+    {
+      "filename": "Dhfjn.jpg",
+      "caption": "",
+      "missing": false
+    }
+  ],
+  "access": {
+    "legacyText": null,
+    "federationSlug": null
+  },
+  "qualityIssues": [],
+  "provenance": {
+    "primarySourceId": "legacy:ekensberg",
+    "sources": [
+      {
+        "id": "legacy:ekensberg",
+        "title": "Sverigeföraren 2014: Ekensberg",
+        "path": "mediawiki/Ekensberg.txt",
+        "license": "GNU Free Documentation License",
+        "snapshotDate": "2014-01-01"
+      }
+    ]
+  }
+}

@@ -1,0 +1,572 @@
+{
+  "schemaVersion": 1,
+  "id": "knipehall",
+  "slug": "knipehall",
+  "name": "Knipehall",
+  "description": "Knipehall är en ca 100 meter bred och 15 meter hög klippa vackert belägen i östra Blekinge. Ett 30-tal leder bjuder på utmaningar i de flesta grader. Klippan, som är av mycket god kvallité, ger ett kompakt intryck men är relativt sprickrik. Här finns såväl sport som aid, men fokuset ligger på tradklättring. De lätta lederna längst till höger är mycket mossiga, i övrigt är det rent och fint.",
+  "coordinates": {
+    "latitude": 56.17969813430581,
+    "longitude": 15.68075180053711
+  },
+  "categories": [
+    "Blekinge"
+  ],
+  "sections": [
+    {
+      "id": "allmant",
+      "title": "Allmänt",
+      "body": "Knipehall är en ca 100 meter bred och 15 meter hög klippa vackert belägen i östra Blekinge. Ett 30-tal leder bjuder på utmaningar i de flesta grader. Klippan, som är av mycket god kvallité, ger ett kompakt intryck men är relativt sprickrik. Här finns såväl sport som aid, men fokuset ligger på tradklättring. De lätta lederna längst till höger är mycket mossiga, i övrigt är det rent och fint."
+    },
+    {
+      "id": "access",
+      "title": "Access",
+      "body": "Klippan ligger ganska tätt inpå ett hus (norr om klippan) och vid bryggorna nedanför klippan ligger massa båtar. Hittills har Karlskrona Bergsportförening haft en bra dialog med husägaren, men det är givetvis självklart att man försöker hålla en låg profil när man klättrar här. Om du vill göra en nytur som innebär nya borrbultar vill Karlskrona Bergsportförening att du hör av dig till Patrik Lind (patrik.lind {snabela} ltblekinge.se) innan några ingrepp med borren görs."
+    },
+    {
+      "id": "hitta-hit",
+      "title": "Hitta hit",
+      "body": "Klippan ligger vid havet, ca fem km öster om Karlskrona. Kör E22:an mot Kalmar och ta av höger mot Lösen kyrka/Fäjö. Sväng direkt vänster mot Fäjö och följ vägen ända till bron (till Fäjö). Klippan hittar du till höger precis innan bron."
+    },
+    {
+      "id": "sodra-delen",
+      "title": "Södra delen",
+      "body": "]]"
+    },
+    {
+      "id": "norra-delen",
+      "title": "Norra delen",
+      "body": "Kategori:Blekinge Foto: Tomi Biloglav]]"
+    }
+  ],
+  "routes": [
+    {
+      "id": "knipehall-led-1",
+      "kind": "route",
+      "number": "1",
+      "name": "BGOV",
+      "grade": "6",
+      "length": "",
+      "type": "trad",
+      "firstAscent": "Patrik Lind -96",
+      "description": "",
+      "source": {
+        "id": "legacy:knipehall",
+        "path": "mediawiki/Knipehall.txt"
+      }
+    },
+    {
+      "id": "knipehall-led-2",
+      "kind": "route",
+      "number": "2",
+      "name": "4:e april",
+      "grade": "7",
+      "length": "",
+      "type": "trad",
+      "firstAscent": "Patrik Lind,-96",
+      "description": "",
+      "source": {
+        "id": "legacy:knipehall",
+        "path": "mediawiki/Knipehall.txt"
+      }
+    },
+    {
+      "id": "knipehall-led-3",
+      "kind": "route",
+      "number": "3",
+      "name": "Acromegali",
+      "grade": "7",
+      "length": "",
+      "type": "mix",
+      "firstAscent": "Patrik Lind-96",
+      "description": "",
+      "source": {
+        "id": "legacy:knipehall",
+        "path": "mediawiki/Knipehall.txt"
+      }
+    },
+    {
+      "id": "knipehall-led-4",
+      "kind": "route",
+      "number": "4",
+      "name": "Himlen runt hörnet",
+      "grade": "6",
+      "length": "",
+      "type": "trad",
+      "firstAscent": "Okänd",
+      "description": "Den tydligaste sprickan. Fin och välsäkrad.",
+      "source": {
+        "id": "legacy:knipehall",
+        "path": "mediawiki/Knipehall.txt"
+      }
+    },
+    {
+      "id": "knipehall-led-5",
+      "kind": "route",
+      "number": "5",
+      "name": "Catch the moon",
+      "grade": "6/6+",
+      "length": "",
+      "type": "trad",
+      "firstAscent": "Okänd",
+      "description": "",
+      "source": {
+        "id": "legacy:knipehall",
+        "path": "mediawiki/Knipehall.txt"
+      }
+    },
+    {
+      "id": "knipehall-led-6",
+      "kind": "route",
+      "number": "6",
+      "name": "Uppstigningsleden",
+      "grade": "4+",
+      "length": "",
+      "type": "trad",
+      "firstAscent": "Okänd",
+      "description": "",
+      "source": {
+        "id": "legacy:knipehall",
+        "path": "mediawiki/Knipehall.txt"
+      }
+    },
+    {
+      "id": "knipehall-led-7",
+      "kind": "route",
+      "number": "7",
+      "name": "Riktiga rörelser",
+      "grade": "7-",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "Maria Clifford Lind -08",
+      "description": "En av de enklare helbultade lederna",
+      "source": {
+        "id": "legacy:knipehall",
+        "path": "mediawiki/Knipehall.txt"
+      }
+    },
+    {
+      "id": "knipehall-led-8",
+      "kind": "route",
+      "number": "8a",
+      "name": "Cutlass supreme",
+      "grade": "7+",
+      "length": "",
+      "type": "mix",
+      "firstAscent": "Patrik Lind -96",
+      "description": "Ganska desperat klättring..",
+      "source": {
+        "id": "legacy:knipehall",
+        "path": "mediawiki/Knipehall.txt"
+      }
+    },
+    {
+      "id": "knipehall-led-9",
+      "kind": "route",
+      "number": "8b",
+      "name": "variant",
+      "grade": "7+",
+      "length": "",
+      "type": "mix",
+      "firstAscent": "Patrik Lind -96",
+      "description": "",
+      "source": {
+        "id": "legacy:knipehall",
+        "path": "mediawiki/Knipehall.txt"
+      }
+    },
+    {
+      "id": "knipehall-led-10",
+      "kind": "route",
+      "number": "9",
+      "name": "Zorrino",
+      "grade": "8/8+",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "Patrik Lind -05",
+      "description": "",
+      "source": {
+        "id": "legacy:knipehall",
+        "path": "mediawiki/Knipehall.txt"
+      }
+    },
+    {
+      "id": "knipehall-led-11",
+      "kind": "route",
+      "number": "10",
+      "name": "Tack till socialen",
+      "grade": "7",
+      "length": "",
+      "type": "trad",
+      "firstAscent": "Mattias Hallsten",
+      "description": "Fin spricka, men med en något svårsäkrad start.",
+      "source": {
+        "id": "legacy:knipehall",
+        "path": "mediawiki/Knipehall.txt"
+      }
+    },
+    {
+      "id": "knipehall-led-12",
+      "kind": "route",
+      "number": "11",
+      "name": "Rot rock",
+      "grade": "7+",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "Patrik Lind -96",
+      "description": "Fin väggorienterad sportklättring.",
+      "source": {
+        "id": "legacy:knipehall",
+        "path": "mediawiki/Knipehall.txt"
+      }
+    },
+    {
+      "id": "knipehall-led-13",
+      "kind": "route",
+      "number": "12",
+      "name": "Kaminen",
+      "grade": "5-",
+      "length": "",
+      "type": "mix",
+      "firstAscent": "Okänd",
+      "description": "",
+      "source": {
+        "id": "legacy:knipehall",
+        "path": "mediawiki/Knipehall.txt"
+      }
+    },
+    {
+      "id": "knipehall-led-14",
+      "kind": "route",
+      "number": "13",
+      "name": "Typiskt makaroner",
+      "grade": "6",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "Maria Clifford Lind -08",
+      "description": "Diederklättring som är knepigare än den ser ut..",
+      "source": {
+        "id": "legacy:knipehall",
+        "path": "mediawiki/Knipehall.txt"
+      }
+    },
+    {
+      "id": "knipehall-led-15",
+      "kind": "route",
+      "number": "14",
+      "name": "HPHP",
+      "grade": "5-/5",
+      "length": "",
+      "type": "trad",
+      "firstAscent": "Okänd",
+      "description": "",
+      "source": {
+        "id": "legacy:knipehall",
+        "path": "mediawiki/Knipehall.txt"
+      }
+    },
+    {
+      "id": "knipehall-led-16",
+      "kind": "route",
+      "number": "15",
+      "name": "En tesked tunnt",
+      "grade": "7",
+      "length": "",
+      "type": "trad",
+      "firstAscent": "Patrik Lind -08",
+      "description": "Småjobbig klättring längs tunna sprickor på brant sva.",
+      "source": {
+        "id": "legacy:knipehall",
+        "path": "mediawiki/Knipehall.txt"
+      }
+    },
+    {
+      "id": "knipehall-led-17",
+      "kind": "route",
+      "number": "16a",
+      "name": "Direktutsteg",
+      "grade": "A2+",
+      "length": "",
+      "type": "",
+      "firstAscent": "Patrik Lind -95",
+      "description": "",
+      "source": {
+        "id": "legacy:knipehall",
+        "path": "mediawiki/Knipehall.txt"
+      }
+    },
+    {
+      "id": "knipehall-led-18",
+      "kind": "route",
+      "number": "16b",
+      "name": "Det sjätte kasuset",
+      "grade": "A2",
+      "length": "",
+      "type": "",
+      "firstAscent": "Okänd",
+      "description": "",
+      "source": {
+        "id": "legacy:knipehall",
+        "path": "mediawiki/Knipehall.txt"
+      }
+    },
+    {
+      "id": "knipehall-led-19",
+      "kind": "route",
+      "number": "17",
+      "name": "Smått och blandat",
+      "grade": "6",
+      "length": "",
+      "type": "trad",
+      "firstAscent": "Okänd",
+      "description": "Om det känns jobbigt i slutet kan man gå över i nästa led när det tunnar ut.;)",
+      "source": {
+        "id": "legacy:knipehall",
+        "path": "mediawiki/Knipehall.txt"
+      }
+    },
+    {
+      "id": "knipehall-led-20",
+      "kind": "route",
+      "number": "18",
+      "name": "Spanska flugor",
+      "grade": "7+",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "Patrik Lind -08",
+      "description": "Startar på areten och går sen upp på ett sva.",
+      "source": {
+        "id": "legacy:knipehall",
+        "path": "mediawiki/Knipehall.txt"
+      }
+    },
+    {
+      "id": "knipehall-led-21",
+      "kind": "route",
+      "number": "19",
+      "name": "Kraft",
+      "grade": "8-",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "Patrik Lind -09",
+      "description": "Avslutas i Franska grodor.",
+      "source": {
+        "id": "legacy:knipehall",
+        "path": "mediawiki/Knipehall.txt"
+      }
+    },
+    {
+      "id": "knipehall-led-22",
+      "kind": "route",
+      "number": "20",
+      "name": "Franska grodor",
+      "grade": "7/7+",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "Okänd (topprepad av Joakim Fransson -95?)",
+      "description": "",
+      "source": {
+        "id": "legacy:knipehall",
+        "path": "mediawiki/Knipehall.txt"
+      }
+    },
+    {
+      "id": "knipehall-led-23",
+      "kind": "route",
+      "number": "21",
+      "name": "Spandex",
+      "grade": "7+",
+      "length": "",
+      "type": "mix",
+      "firstAscent": "Patrik Lind -03",
+      "description": "Kort krux, i övrigt betydligt lättare. Svår för korta..",
+      "source": {
+        "id": "legacy:knipehall",
+        "path": "mediawiki/Knipehall.txt"
+      }
+    },
+    {
+      "id": "knipehall-led-24",
+      "kind": "route",
+      "number": "22",
+      "name": "Blajen",
+      "grade": "6+",
+      "length": "",
+      "type": "mix",
+      "firstAscent": "Okänd",
+      "description": "",
+      "source": {
+        "id": "legacy:knipehall",
+        "path": "mediawiki/Knipehall.txt"
+      }
+    },
+    {
+      "id": "knipehall-led-25",
+      "kind": "route",
+      "number": "23",
+      "name": "Braxylen",
+      "grade": "6",
+      "length": "",
+      "type": "mix",
+      "firstAscent": "Maria Lind -03",
+      "description": "Lite tunt med säkringar på mitten. Bra med småkilar.",
+      "source": {
+        "id": "legacy:knipehall",
+        "path": "mediawiki/Knipehall.txt"
+      }
+    },
+    {
+      "id": "knipehall-led-26",
+      "kind": "route",
+      "number": "24",
+      "name": "Orginal-leden",
+      "grade": "5-",
+      "length": "",
+      "type": "trad",
+      "firstAscent": "Okänd",
+      "description": "",
+      "source": {
+        "id": "legacy:knipehall",
+        "path": "mediawiki/Knipehall.txt"
+      }
+    },
+    {
+      "id": "knipehall-led-27",
+      "kind": "route",
+      "number": "25",
+      "name": "Brandt",
+      "grade": "7-",
+      "length": "",
+      "type": "mix",
+      "firstAscent": "Okänd",
+      "description": "",
+      "source": {
+        "id": "legacy:knipehall",
+        "path": "mediawiki/Knipehall.txt"
+      }
+    },
+    {
+      "id": "knipehall-led-28",
+      "kind": "route",
+      "number": "26",
+      "name": "Z-leden",
+      "grade": "5",
+      "length": "",
+      "type": "trad",
+      "firstAscent": "Okänd",
+      "description": "",
+      "source": {
+        "id": "legacy:knipehall",
+        "path": "mediawiki/Knipehall.txt"
+      }
+    },
+    {
+      "id": "knipehall-led-29",
+      "kind": "route",
+      "number": "27",
+      "name": "Micke´s led (Pampers nya up´n layback)",
+      "grade": "5",
+      "length": "",
+      "type": "trad",
+      "firstAscent": "Mikael Månsson -96",
+      "description": "",
+      "source": {
+        "id": "legacy:knipehall",
+        "path": "mediawiki/Knipehall.txt"
+      }
+    },
+    {
+      "id": "knipehall-led-30",
+      "kind": "route",
+      "number": "28",
+      "name": "Ekleden",
+      "grade": "6-",
+      "length": "",
+      "type": "trad",
+      "firstAscent": "Okänd",
+      "description": "",
+      "source": {
+        "id": "legacy:knipehall",
+        "path": "mediawiki/Knipehall.txt"
+      }
+    },
+    {
+      "id": "knipehall-led-31",
+      "kind": "route",
+      "number": "29a",
+      "name": "Glass",
+      "grade": "4+",
+      "length": "",
+      "type": "trad",
+      "firstAscent": "Okänd",
+      "description": "",
+      "source": {
+        "id": "legacy:knipehall",
+        "path": "mediawiki/Knipehall.txt"
+      }
+    },
+    {
+      "id": "knipehall-led-32",
+      "kind": "route",
+      "number": "29b",
+      "name": "Päron",
+      "grade": "4",
+      "length": "",
+      "type": "trad",
+      "firstAscent": "Okänd",
+      "description": "",
+      "source": {
+        "id": "legacy:knipehall",
+        "path": "mediawiki/Knipehall.txt"
+      }
+    },
+    {
+      "id": "knipehall-led-33",
+      "kind": "route",
+      "number": "30",
+      "name": "Grävlingen",
+      "grade": "3",
+      "length": "",
+      "type": "trad",
+      "firstAscent": "Okänd",
+      "description": "",
+      "source": {
+        "id": "legacy:knipehall",
+        "path": "mediawiki/Knipehall.txt"
+      }
+    }
+  ],
+  "images": [
+    {
+      "filename": "Knipe1.jpg",
+      "caption": "Henrik Sundal",
+      "missing": false
+    },
+    {
+      "filename": "KnipehallTopoM.jpg",
+      "caption": "Fredrik Rapp",
+      "missing": false
+    },
+    {
+      "filename": "Knipe.jpg",
+      "caption": "Petter Åsander",
+      "missing": false
+    }
+  ],
+  "access": {
+    "legacyText": "Klippan ligger ganska tätt inpå ett hus (norr om klippan) och vid bryggorna nedanför klippan ligger massa båtar. Hittills har Karlskrona Bergsportförening haft en bra dialog med husägaren, men det är givetvis självklart att man försöker hålla en låg profil när man klättrar här. Om du vill göra en nytur som innebär nya borrbultar vill Karlskrona Bergsportförening att du hör av dig till Patrik Lind (patrik.lind {snabela} ltblekinge.se) innan några ingrepp med borren görs.",
+    "federationSlug": null
+  },
+  "qualityIssues": [],
+  "provenance": {
+    "primarySourceId": "legacy:knipehall",
+    "sources": [
+      {
+        "id": "legacy:knipehall",
+        "title": "Sverigeföraren 2014: Knipehall",
+        "path": "mediawiki/Knipehall.txt",
+        "license": "GNU Free Documentation License",
+        "snapshotDate": "2014-01-01"
+      }
+    ]
+  }
+}

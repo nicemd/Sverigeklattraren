@@ -1,0 +1,67 @@
+{
+  "schemaVersion": 1,
+  "id": "gravlingberget",
+  "slug": "gravlingberget",
+  "name": "Grävlingberget",
+  "description": "Ett outvecklat boulderområde utanför Jämjö med möjlighet till ett tiotal problem. Ta med borste!",
+  "coordinates": {
+    "latitude": 56.18138888888889,
+    "longitude": 15.842222222222222
+  },
+  "categories": [
+    "Blekinge",
+    "Oklättrat"
+  ],
+  "sections": [
+    {
+      "id": "allmant",
+      "title": "Allmänt",
+      "body": "Ett outvecklat boulderområde utanför Jämjö med möjlighet till ett tiotal problem. Ta med borste!"
+    },
+    {
+      "id": "vagbeskrivning",
+      "title": "Vägbeskrivning",
+      "body": "Från E22: *Kör in på Torhamnsv vid kyrkan i Jämjö. *Kör 2.0 km, sväng sen vänster och direkt höger (grusväg). *Kör 200 meter, sväng sen höger in på den 2:a vägen vid det blåa(?) huset. *Kör slutligen 800 meter. Boulderområdet ligger 50m upp i skogen."
+    },
+    {
+      "id": "problem",
+      "title": "Problem",
+      "body": "Kategori:Oklättrat kategori:Blekinge"
+    }
+  ],
+  "routes": [
+    {
+      "id": "gravlingberget-led-1",
+      "kind": "route",
+      "number": "1",
+      "name": "Johans Handjam",
+      "grade": "L",
+      "length": "4",
+      "type": "boulder",
+      "firstAscent": "Tomas Hjelmberg 07",
+      "description": "Lätt handjam.",
+      "source": {
+        "id": "legacy:gravlingberget",
+        "path": "mediawiki/Grävlingberget.txt"
+      }
+    }
+  ],
+  "images": [],
+  "access": {
+    "legacyText": null,
+    "federationSlug": null
+  },
+  "qualityIssues": [],
+  "provenance": {
+    "primarySourceId": "legacy:gravlingberget",
+    "sources": [
+      {
+        "id": "legacy:gravlingberget",
+        "title": "Sverigeföraren 2014: Grävlingberget",
+        "path": "mediawiki/Grävlingberget.txt",
+        "license": "GNU Free Documentation License",
+        "snapshotDate": "2014-01-01"
+      }
+    ]
+  }
+}

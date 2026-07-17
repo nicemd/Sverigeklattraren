@@ -1,0 +1,698 @@
+{
+  "schemaVersion": 1,
+  "id": "dynestad",
+  "slug": "dynestad",
+  "name": "Dynestad",
+  "description": "Dynestad bjuder på lodrät och överhängande klättring och är som högst 18 m. Ett mycket trevligt berg i fin miljö som vi rekommenderar. Det är klättring på fast granit som ibland är uppsprucken. I slutet av 1800-talet bröts det sten i Dynestad. Flera av klätterlederna håller mycket hög kvalitet. En av de bästa sportklätterklipporna som vi har. Det finns utmaningar i olika svårighetsgrader för alla klättrare. Väggen är vänd mot syd och får sol efter ca kl.10.00. Den torkar relativt snabbt efter regn. Ett bra vårberg. Klippan har 12 leder som särskilt rekommenderas.",
+  "coordinates": {
+    "latitude": 57.91246,
+    "longitude": 16.41829
+  },
+  "categories": [
+    "mix",
+    "Saknar skrivarformatering",
+    "sport",
+    "sva",
+    "trad",
+    "vertikalt",
+    "överhäng"
+  ],
+  "sections": [
+    {
+      "id": "allmant",
+      "title": "Allmänt",
+      "body": "Dynestad bjuder på lodrät och överhängande klättring och är som högst 18 m. Ett mycket trevligt berg i fin miljö som vi rekommenderar. Det är klättring på fast granit som ibland är uppsprucken. I slutet av 1800-talet bröts det sten i Dynestad. Flera av klätterlederna håller mycket hög kvalitet. En av de bästa sportklätterklipporna som vi har. Det finns utmaningar i olika svårighetsgrader för alla klättrare. Väggen är vänd mot syd och får sol efter ca kl.10.00. Den torkar relativt snabbt efter regn. Ett bra vårberg. Klippan har 12 leder som särskilt rekommenderas."
+    },
+    {
+      "id": "vagbeskrivning",
+      "title": "Vägbeskrivning",
+      "body": "Klippan ligger ca 25 km norr om Västervik. Kör av E22 vid den nordliga avfarten mot Gamleby centrum 1 km. Kör av åt vänster vid torget och kör förbi folkhögskolan och stanna efter 1 km. Direkt efter en liten bro sväng till höger in på parkeringsplatsen. Därefter följ stigen söderut 700 m med dynestadsviken på höger sida. Klippan ligger synlig på vänster sida."
+    },
+    {
+      "id": "overnattning",
+      "title": "Övernattning",
+      "body": "Camping KustCamp vid Hammarsbadet ligger 2 km från Gamleby centrum tel 0493-10221 www.campa.se Överums vandrarhem tel 0493-30302 www.overum.nu, stugor och camping hos Risebo fritid, tel 0493-33046, www.risebofritid.se, camping och stugor finns på Lysingsbadet i Västervik tel 0490-258000 www.lysingsbadet.se, stugor har Tofvehults café och konferens tel 0490-26351 www.tofvehult.se och på Live in Nature på Kallersnäs gård tel 0768-513090 www.liveinnature.se"
+    },
+    {
+      "id": "affarer",
+      "title": "Affärer",
+      "body": "Närmaste livsmedelsaffär ICA finns i Gamleby centrum ca 2 km från klippan. Närmaste bensinstationer Bilia och Preem finns i Gamleby."
+    },
+    {
+      "id": "klattercenter",
+      "title": "Klättercenter",
+      "body": "Mötesplatsen för klättrare är på centret i Västervik, Repslagargatan 5, vid gamla vattentornet. Där kan man koppla upp sig gratis på trådlöst internet, eller låna en dator. En plats att mötas på, utbyta erfarenheter, läsa klättertidningar, se klätterfilmer och även få aktuell information om klättringen och andra aktiviteter i kommunen. En plats där man kan klättra inomhus och lära känna andra klättrare. Ring 0490-37466 för mer information."
+    },
+    {
+      "id": "forare",
+      "title": "Förare",
+      "body": "Förare gjord av Västervik Climbing kan hittas på www.vastervikclimbing.se. Kategori:sport kategori:Saknar skrivarformatering Category:Småland"
+    }
+  ],
+  "routes": [
+    {
+      "id": "dynestad-led-1",
+      "kind": "route",
+      "number": "1",
+      "name": "Feministiskt initiativ",
+      "grade": "5c",
+      "length": "8",
+      "type": "sport",
+      "firstAscent": "Jim Wasmuth -07",
+      "description": "diederklättring",
+      "source": {
+        "id": "legacy:dynestad",
+        "path": "mediawiki/Dynestad.txt"
+      }
+    },
+    {
+      "id": "dynestad-led-2",
+      "kind": "route",
+      "number": "2",
+      "name": "Män är bättre",
+      "grade": "7b",
+      "length": "8",
+      "type": "sport",
+      "firstAscent": "Martin Jacobsson -91",
+      "description": "start till höger om trädet",
+      "source": {
+        "id": "legacy:dynestad",
+        "path": "mediawiki/Dynestad.txt"
+      }
+    },
+    {
+      "id": "dynestad-led-3",
+      "kind": "route",
+      "number": "3",
+      "name": "Mattias",
+      "grade": "5b",
+      "length": "8",
+      "type": "sport",
+      "firstAscent": "Mattias Magnusson -91",
+      "description": "",
+      "source": {
+        "id": "legacy:dynestad",
+        "path": "mediawiki/Dynestad.txt"
+      }
+    },
+    {
+      "id": "dynestad-led-4",
+      "kind": "route",
+      "number": "4",
+      "name": "Fyran",
+      "grade": "4a",
+      "length": "8",
+      "type": "sport",
+      "firstAscent": "",
+      "description": "",
+      "source": {
+        "id": "legacy:dynestad",
+        "path": "mediawiki/Dynestad.txt"
+      }
+    },
+    {
+      "id": "dynestad-led-5",
+      "kind": "route",
+      "number": "5",
+      "name": "Farmor kossa",
+      "grade": "6c",
+      "length": "8",
+      "type": "sport",
+      "firstAscent": "Lars Nilsson -91",
+      "description": "",
+      "source": {
+        "id": "legacy:dynestad",
+        "path": "mediawiki/Dynestad.txt"
+      }
+    },
+    {
+      "id": "dynestad-led-6",
+      "kind": "route",
+      "number": "6",
+      "name": "Rambokomplex",
+      "grade": "7b",
+      "length": "8",
+      "type": "sport",
+      "firstAscent": "Stefan Rasmussen -91",
+      "description": "",
+      "source": {
+        "id": "legacy:dynestad",
+        "path": "mediawiki/Dynestad.txt"
+      }
+    },
+    {
+      "id": "dynestad-led-7",
+      "kind": "route",
+      "number": "7",
+      "name": "Gäggväcket",
+      "grade": "6c",
+      "length": "8",
+      "type": "sport",
+      "firstAscent": "Martin Jacobsson -91",
+      "description": "tydlig spricka",
+      "source": {
+        "id": "legacy:dynestad",
+        "path": "mediawiki/Dynestad.txt"
+      }
+    },
+    {
+      "id": "dynestad-led-8",
+      "kind": "route",
+      "number": "8",
+      "name": "En led",
+      "grade": "5c",
+      "length": "8",
+      "type": "sport",
+      "firstAscent": "Martin Jacobsson -91",
+      "description": "",
+      "source": {
+        "id": "legacy:dynestad",
+        "path": "mediawiki/Dynestad.txt"
+      }
+    },
+    {
+      "id": "dynestad-led-9",
+      "kind": "route",
+      "number": "9",
+      "name": "Ännu en led",
+      "grade": "6a",
+      "length": "8",
+      "type": "sport",
+      "firstAscent": "Martin Jacobsson -91",
+      "description": "hårt insteg",
+      "source": {
+        "id": "legacy:dynestad",
+        "path": "mediawiki/Dynestad.txt"
+      }
+    },
+    {
+      "id": "dynestad-led-10",
+      "kind": "route",
+      "number": "10",
+      "name": "Nian",
+      "grade": "4c",
+      "length": "8",
+      "type": "sport",
+      "firstAscent": "",
+      "description": "",
+      "source": {
+        "id": "legacy:dynestad",
+        "path": "mediawiki/Dynestad.txt"
+      }
+    },
+    {
+      "id": "dynestad-led-11",
+      "kind": "route",
+      "number": "11",
+      "name": "Ålund ett",
+      "grade": "6a",
+      "length": "8",
+      "type": "sport",
+      "firstAscent": "Fredrik Ålund -91",
+      "description": "",
+      "source": {
+        "id": "legacy:dynestad",
+        "path": "mediawiki/Dynestad.txt"
+      }
+    },
+    {
+      "id": "dynestad-led-12",
+      "kind": "route",
+      "number": "12",
+      "name": "Ålund två",
+      "grade": "6a+",
+      "length": "8",
+      "type": "sport",
+      "firstAscent": "Fredrik Ålund -91",
+      "description": "start till vänster om staketet",
+      "source": {
+        "id": "legacy:dynestad",
+        "path": "mediawiki/Dynestad.txt"
+      }
+    },
+    {
+      "id": "dynestad-led-13",
+      "kind": "route",
+      "number": "13",
+      "name": "Red hot",
+      "grade": "7a+",
+      "length": "8",
+      "type": "sport",
+      "firstAscent": "Patrik Andersson -92",
+      "description": "övre delen, orensad",
+      "source": {
+        "id": "legacy:dynestad",
+        "path": "mediawiki/Dynestad.txt"
+      }
+    },
+    {
+      "id": "dynestad-led-14",
+      "kind": "route",
+      "number": "14",
+      "name": "Fjorton",
+      "grade": "4c",
+      "length": "8",
+      "type": "sport",
+      "firstAscent": "",
+      "description": "start t.h om staketet",
+      "source": {
+        "id": "legacy:dynestad",
+        "path": "mediawiki/Dynestad.txt"
+      }
+    },
+    {
+      "id": "dynestad-led-15",
+      "kind": "route",
+      "number": "15",
+      "name": "Hyena",
+      "grade": "7b",
+      "length": "8",
+      "type": "sport",
+      "firstAscent": "Patrik Andersson -92",
+      "description": "",
+      "source": {
+        "id": "legacy:dynestad",
+        "path": "mediawiki/Dynestad.txt"
+      }
+    },
+    {
+      "id": "dynestad-led-16",
+      "kind": "route",
+      "number": "16",
+      "name": "Mitt Party",
+      "grade": "7b",
+      "length": "9",
+      "type": "sport",
+      "firstAscent": "Jim Wasmuth -91",
+      "description": "",
+      "source": {
+        "id": "legacy:dynestad",
+        "path": "mediawiki/Dynestad.txt"
+      }
+    },
+    {
+      "id": "dynestad-led-17",
+      "kind": "route",
+      "number": "17",
+      "name": "Vibrator",
+      "grade": "7b",
+      "length": "9",
+      "type": "sport",
+      "firstAscent": "Stefan Rasmussen -92",
+      "description": "",
+      "source": {
+        "id": "legacy:dynestad",
+        "path": "mediawiki/Dynestad.txt"
+      }
+    },
+    {
+      "id": "dynestad-led-18",
+      "kind": "route",
+      "number": "18",
+      "name": "Avund",
+      "grade": "8b",
+      "length": "16",
+      "type": "sport",
+      "firstAscent": "Stefan Rasmussen -99",
+      "description": "orepeterad",
+      "source": {
+        "id": "legacy:dynestad",
+        "path": "mediawiki/Dynestad.txt"
+      }
+    },
+    {
+      "id": "dynestad-led-19",
+      "kind": "route",
+      "number": "19",
+      "name": "Yoga",
+      "grade": "8a+",
+      "length": "14",
+      "type": "sport",
+      "firstAscent": "Stefan Rasmussen -98",
+      "description": "1 repetition av Peter Bosma",
+      "source": {
+        "id": "legacy:dynestad",
+        "path": "mediawiki/Dynestad.txt"
+      }
+    },
+    {
+      "id": "dynestad-led-20",
+      "kind": "route",
+      "number": "20",
+      "name": "Struts",
+      "grade": "8a+",
+      "length": "8",
+      "type": "sport",
+      "firstAscent": "Peter Bosma",
+      "description": "",
+      "source": {
+        "id": "legacy:dynestad",
+        "path": "mediawiki/Dynestad.txt"
+      }
+    },
+    {
+      "id": "dynestad-led-21",
+      "kind": "route",
+      "number": "21",
+      "name": "Grand Magus",
+      "grade": "8a+",
+      "length": "9",
+      "type": "sport",
+      "firstAscent": "Johan Luhr",
+      "description": "",
+      "source": {
+        "id": "legacy:dynestad",
+        "path": "mediawiki/Dynestad.txt"
+      }
+    },
+    {
+      "id": "dynestad-led-22",
+      "kind": "route",
+      "number": "22",
+      "name": "Instegssprickan",
+      "grade": "5c",
+      "length": "7",
+      "type": "sport",
+      "firstAscent": "",
+      "description": "torr vid regn",
+      "source": {
+        "id": "legacy:dynestad",
+        "path": "mediawiki/Dynestad.txt"
+      }
+    },
+    {
+      "id": "dynestad-led-23",
+      "kind": "route",
+      "number": "23",
+      "name": "Kärlekens val",
+      "grade": "7c+",
+      "length": "18",
+      "type": "sport",
+      "firstAscent": "Johan Luhr -91",
+      "description": "hela leden, ej bultarna till höger",
+      "source": {
+        "id": "legacy:dynestad",
+        "path": "mediawiki/Dynestad.txt"
+      }
+    },
+    {
+      "id": "dynestad-led-24",
+      "kind": "route",
+      "number": "24",
+      "name": "Insteg högervinden",
+      "grade": "6a",
+      "length": "7",
+      "type": "sport",
+      "firstAscent": "Jim Wasmuth -91",
+      "description": "torr vid regn",
+      "source": {
+        "id": "legacy:dynestad",
+        "path": "mediawiki/Dynestad.txt"
+      }
+    },
+    {
+      "id": "dynestad-led-25",
+      "kind": "route",
+      "number": "25",
+      "name": "Högervinden",
+      "grade": "6c",
+      "length": "18",
+      "type": "sport",
+      "firstAscent": "Jim Wasmuth -91",
+      "description": "",
+      "source": {
+        "id": "legacy:dynestad",
+        "path": "mediawiki/Dynestad.txt"
+      }
+    },
+    {
+      "id": "dynestad-led-26",
+      "kind": "route",
+      "number": "27",
+      "name": "Vänsterinsteg till Fredonia",
+      "grade": "7a+",
+      "length": "6",
+      "type": "sport",
+      "firstAscent": "",
+      "description": "torr vid regn",
+      "source": {
+        "id": "legacy:dynestad",
+        "path": "mediawiki/Dynestad.txt"
+      }
+    },
+    {
+      "id": "dynestad-led-27",
+      "kind": "route",
+      "number": "28",
+      "name": "Fredonia",
+      "grade": "6c",
+      "length": "16",
+      "type": "sport",
+      "firstAscent": "Stefan Rasmussen -91",
+      "description": "toppankare mitt på leden",
+      "source": {
+        "id": "legacy:dynestad",
+        "path": "mediawiki/Dynestad.txt"
+      }
+    },
+    {
+      "id": "dynestad-led-28",
+      "kind": "route",
+      "number": "29",
+      "name": "Apkungen",
+      "grade": "7c",
+      "length": "9",
+      "type": "sport",
+      "firstAscent": "Patrik Andersson -91",
+      "description": "skall bultas om",
+      "source": {
+        "id": "legacy:dynestad",
+        "path": "mediawiki/Dynestad.txt"
+      }
+    },
+    {
+      "id": "dynestad-led-29",
+      "kind": "route",
+      "number": "30",
+      "name": "Djungel Jim",
+      "grade": "7c",
+      "length": "16",
+      "type": "sport",
+      "firstAscent": "Jim Wasmuth -91",
+      "description": "",
+      "source": {
+        "id": "legacy:dynestad",
+        "path": "mediawiki/Dynestad.txt"
+      }
+    },
+    {
+      "id": "dynestad-led-30",
+      "kind": "route",
+      "number": "31",
+      "name": "Mambo Feber",
+      "grade": "7a+",
+      "length": "15",
+      "type": "sport",
+      "firstAscent": "Patrik Andersson",
+      "description": "",
+      "source": {
+        "id": "legacy:dynestad",
+        "path": "mediawiki/Dynestad.txt"
+      }
+    },
+    {
+      "id": "dynestad-led-31",
+      "kind": "route",
+      "number": "32",
+      "name": "Blå kongo",
+      "grade": "6c",
+      "length": "15",
+      "type": "sport",
+      "firstAscent": "Jim Wasmuth -91",
+      "description": "",
+      "source": {
+        "id": "legacy:dynestad",
+        "path": "mediawiki/Dynestad.txt"
+      }
+    },
+    {
+      "id": "dynestad-led-32",
+      "kind": "route",
+      "number": "33",
+      "name": "Sheeta",
+      "grade": "6c",
+      "length": "15",
+      "type": "sport",
+      "firstAscent": "Stefan Rasmussen -91",
+      "description": "otydlig linje",
+      "source": {
+        "id": "legacy:dynestad",
+        "path": "mediawiki/Dynestad.txt"
+      }
+    },
+    {
+      "id": "dynestad-led-33",
+      "kind": "route",
+      "number": "34",
+      "name": "Baloo",
+      "grade": "6a",
+      "length": "15",
+      "type": "sport",
+      "firstAscent": "Mattias Magnusson -91",
+      "description": "bra startled, hårt insteg",
+      "source": {
+        "id": "legacy:dynestad",
+        "path": "mediawiki/Dynestad.txt"
+      }
+    },
+    {
+      "id": "dynestad-led-34",
+      "kind": "route",
+      "number": "35",
+      "name": "Kaa",
+      "grade": "6a",
+      "length": "12",
+      "type": "sport",
+      "firstAscent": "Johan Strömstad -99",
+      "description": "",
+      "source": {
+        "id": "legacy:dynestad",
+        "path": "mediawiki/Dynestad.txt"
+      }
+    },
+    {
+      "id": "dynestad-led-35",
+      "kind": "route",
+      "number": "36",
+      "name": "Strul",
+      "grade": "6a",
+      "length": "12",
+      "type": "sport",
+      "firstAscent": "Johan Strömstad -99",
+      "description": "",
+      "source": {
+        "id": "legacy:dynestad",
+        "path": "mediawiki/Dynestad.txt"
+      }
+    },
+    {
+      "id": "dynestad-led-36",
+      "kind": "route",
+      "number": "37",
+      "name": "AK grädd",
+      "grade": "6c",
+      "length": "12",
+      "type": "sport",
+      "firstAscent": "Patrik Andersson -91",
+      "description": "tidigare tradled",
+      "source": {
+        "id": "legacy:dynestad",
+        "path": "mediawiki/Dynestad.txt"
+      }
+    },
+    {
+      "id": "dynestad-led-37",
+      "kind": "route",
+      "number": "38",
+      "name": "Hundra grader",
+      "grade": "7a",
+      "length": "12",
+      "type": "sport",
+      "firstAscent": "Stefan Rasmussen -91",
+      "description": "",
+      "source": {
+        "id": "legacy:dynestad",
+        "path": "mediawiki/Dynestad.txt"
+      }
+    },
+    {
+      "id": "dynestad-led-38",
+      "kind": "route",
+      "number": "39",
+      "name": "Stress",
+      "grade": "8a+?",
+      "length": "12",
+      "type": "sport",
+      "firstAscent": "projekt",
+      "description": "öppet projekt",
+      "source": {
+        "id": "legacy:dynestad",
+        "path": "mediawiki/Dynestad.txt"
+      }
+    },
+    {
+      "id": "dynestad-led-39",
+      "kind": "route",
+      "number": "40",
+      "name": "Jag brinner",
+      "grade": "7b",
+      "length": "12",
+      "type": "sport",
+      "firstAscent": "Patrik Andersson -91",
+      "description": "",
+      "source": {
+        "id": "legacy:dynestad",
+        "path": "mediawiki/Dynestad.txt"
+      }
+    },
+    {
+      "id": "dynestad-led-40",
+      "kind": "route",
+      "number": "41",
+      "name": "Trettosexan",
+      "grade": "6a",
+      "length": "13",
+      "type": "sport",
+      "firstAscent": "",
+      "description": "ligger 20 m till höger",
+      "source": {
+        "id": "legacy:dynestad",
+        "path": "mediawiki/Dynestad.txt"
+      }
+    },
+    {
+      "id": "dynestad-led-41",
+      "kind": "route",
+      "number": "42",
+      "name": "Kvinnor är bäst",
+      "grade": "6a",
+      "length": "13",
+      "type": "sport",
+      "firstAscent": "Martin Jacobsson",
+      "description": "",
+      "source": {
+        "id": "legacy:dynestad",
+        "path": "mediawiki/Dynestad.txt"
+      }
+    }
+  ],
+  "images": [
+    {
+      "filename": "Dynestad1.png",
+      "caption": "",
+      "missing": false
+    },
+    {
+      "filename": "Dynestad2.png",
+      "caption": "",
+      "missing": false
+    }
+  ],
+  "access": {
+    "legacyText": null,
+    "federationSlug": null
+  },
+  "qualityIssues": [],
+  "provenance": {
+    "primarySourceId": "legacy:dynestad",
+    "sources": [
+      {
+        "id": "legacy:dynestad",
+        "title": "Sverigeföraren 2014: Dynestad",
+        "path": "mediawiki/Dynestad.txt",
+        "license": "GNU Free Documentation License",
+        "snapshotDate": "2014-01-01"
+      }
+    ]
+  }
+}

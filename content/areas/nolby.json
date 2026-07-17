@@ -1,0 +1,390 @@
+{
+  "schemaVersion": 1,
+  "id": "nolby",
+  "slug": "nolby",
+  "name": "Nolby",
+  "description": "Liten sportklippa vid Nolbybacken. Lederna här är ganska korta men håller ändå ganska hög klass.",
+  "coordinates": null,
+  "categories": [
+    "Medelpad",
+    "Sport"
+  ],
+  "sections": [
+    {
+      "id": "allmant",
+      "title": "Allmänt",
+      "body": "Liten sportklippa vid Nolbybacken. Lederna här är ganska korta men håller ändå ganska hög klass."
+    },
+    {
+      "id": "vagbeskrivning",
+      "title": "Vägbeskrivning",
+      "body": "Från Sundsvall: Följ E4:an söderut till Kvissleby. Sväng av åt höger, skyltat Nolbykullen. Ta sedan direkt vänster, dvs ej mot Nolbybacken. Ta sedan höger på Nyavägen. Sväng sedan höger igen på Trastvägen. Parkera på grusvägen 50m innan bommen. Promenera vidare längs vägen. 20 meter efter en blå container så finns en stig som går upp åt höger. Följ den 50m så är ni vid klippan."
+    },
+    {
+      "id": "miljo",
+      "title": "Miljö",
+      "body": "Huvudsaklingen nordvänd kompakt klippa. Skogen är ganska gles vid klippan, så den torkar ganska snabbt."
+    },
+    {
+      "id": "projekt-a-vaggen",
+      "title": "Projekt A-väggen",
+      "body": "Den första väggen som man kommer upp till från stigen."
+    },
+    {
+      "id": "hardrocksvaggen",
+      "title": "Hårdrocksväggen",
+      "body": "Nästa vägg till höger om Projekt A-väggen."
+    },
+    {
+      "id": "ovrevaggen-hogra",
+      "title": "Övreväggen, högra",
+      "body": "Ligger ovanför Projekt A-väggen. Senslessness kommer upp i klippans vänsterkant."
+    },
+    {
+      "id": "ovrevaggen-vanstra",
+      "title": "Övreväggen, vänstra",
+      "body": "Ligger övanför Projekt A-väggen. Lättaste sättet att ta sig upp hit är med ett fast rep till vänster om Projekt A-väggen."
+    },
+    {
+      "id": "baksidan",
+      "title": "Baksidan",
+      "body": "Ligger till vänster om Övreväggen, vänstra. Kategori:Sport Kategori:Medelpad"
+    }
+  ],
+  "routes": [
+    {
+      "id": "nolby-led-1",
+      "kind": "route",
+      "number": null,
+      "name": "Creation of the imagination",
+      "grade": "7c",
+      "length": "8",
+      "type": "sport",
+      "firstAscent": "?? -03",
+      "description": "Överhangande klättring med mycket undercling och sidepull.",
+      "source": {
+        "id": "legacy:nolby",
+        "path": "mediawiki/Nolby.txt"
+      }
+    },
+    {
+      "id": "nolby-led-2",
+      "kind": "route",
+      "number": null,
+      "name": "Projekt A",
+      "grade": "6c+",
+      "length": "10",
+      "type": "sport",
+      "firstAscent": "?? -01",
+      "description": "Följer borrbultslinjen snett upp åt höger. Amerikaankare.",
+      "source": {
+        "id": "legacy:nolby",
+        "path": "mediawiki/Nolby.txt"
+      }
+    },
+    {
+      "id": "nolby-led-3",
+      "kind": "route",
+      "number": null,
+      "name": "Torsk i tallen",
+      "grade": "6c",
+      "length": "12",
+      "type": "sport",
+      "firstAscent": "?? -01",
+      "description": "Gemensamt ankare med Bängel.",
+      "source": {
+        "id": "legacy:nolby",
+        "path": "mediawiki/Nolby.txt"
+      }
+    },
+    {
+      "id": "nolby-led-4",
+      "kind": "route",
+      "number": null,
+      "name": "Bängel",
+      "grade": "7a",
+      "length": "12",
+      "type": "sport",
+      "firstAscent": "?? -01",
+      "description": "Gemensamt ankare med Torsk i tallen.",
+      "source": {
+        "id": "legacy:nolby",
+        "path": "mediawiki/Nolby.txt"
+      }
+    },
+    {
+      "id": "nolby-led-5",
+      "kind": "route",
+      "number": null,
+      "name": "Senslessness",
+      "grade": "7c",
+      "length": "18",
+      "type": "sport",
+      "firstAscent": "?? -02",
+      "description": "Går till toppen. Delikat och varierande klättring.",
+      "source": {
+        "id": "legacy:nolby",
+        "path": "mediawiki/Nolby.txt"
+      }
+    },
+    {
+      "id": "nolby-led-6",
+      "kind": "route",
+      "number": null,
+      "name": "Crazy frog",
+      "grade": "6a",
+      "length": "7",
+      "type": "sport",
+      "firstAscent": "?? -05",
+      "description": "Startkrux. Ankare.",
+      "source": {
+        "id": "legacy:nolby",
+        "path": "mediawiki/Nolby.txt"
+      }
+    },
+    {
+      "id": "nolby-led-7",
+      "kind": "route",
+      "number": null,
+      "name": "Painkiller",
+      "grade": "7c",
+      "length": "7",
+      "type": "sport",
+      "firstAscent": "?? -02",
+      "description": "Kruxklättring längs arete'.",
+      "source": {
+        "id": "legacy:nolby",
+        "path": "mediawiki/Nolby.txt"
+      }
+    },
+    {
+      "id": "nolby-led-8",
+      "kind": "route",
+      "number": null,
+      "name": "Slaugterhouse",
+      "grade": "6b",
+      "length": "10",
+      "type": "sport",
+      "firstAscent": "?? -02",
+      "description": "Samma insteg som Fear of the dark. Efter 2 BB traverserar man vänster. Ankare.",
+      "source": {
+        "id": "legacy:nolby",
+        "path": "mediawiki/Nolby.txt"
+      }
+    },
+    {
+      "id": "nolby-led-9",
+      "kind": "route",
+      "number": null,
+      "name": "Fear of the dark",
+      "grade": "7a",
+      "length": "10",
+      "type": "sport",
+      "firstAscent": "?? -01",
+      "description": "Rakt upp. Ankare.",
+      "source": {
+        "id": "legacy:nolby",
+        "path": "mediawiki/Nolby.txt"
+      }
+    },
+    {
+      "id": "nolby-led-10",
+      "kind": "route",
+      "number": null,
+      "name": "Night comes down",
+      "grade": "6a+",
+      "length": "10",
+      "type": "sport",
+      "firstAscent": "?? -01",
+      "description": "Stora grepp och brant för graden. Ankare.",
+      "source": {
+        "id": "legacy:nolby",
+        "path": "mediawiki/Nolby.txt"
+      }
+    },
+    {
+      "id": "nolby-led-11",
+      "kind": "route",
+      "number": null,
+      "name": "Speak to me",
+      "grade": "5c",
+      "length": "10",
+      "type": "sport",
+      "firstAscent": "?? -02",
+      "description": "Andra halvan går genom ett dieder. Gemensamt ankare med Night comes down.",
+      "source": {
+        "id": "legacy:nolby",
+        "path": "mediawiki/Nolby.txt"
+      }
+    },
+    {
+      "id": "nolby-led-12",
+      "kind": "route",
+      "number": null,
+      "name": "Paranoid",
+      "grade": "6c",
+      "length": "10",
+      "type": "sport",
+      "firstAscent": "?? -02",
+      "description": "Brant på stora grepp. Ankare.",
+      "source": {
+        "id": "legacy:nolby",
+        "path": "mediawiki/Nolby.txt"
+      }
+    },
+    {
+      "id": "nolby-led-13",
+      "kind": "route",
+      "number": null,
+      "name": "I was made for loving you",
+      "grade": "6c",
+      "length": "10",
+      "type": "sport",
+      "firstAscent": "?? -02",
+      "description": "Ankare.",
+      "source": {
+        "id": "legacy:nolby",
+        "path": "mediawiki/Nolby.txt"
+      }
+    },
+    {
+      "id": "nolby-led-14",
+      "kind": "route",
+      "number": null,
+      "name": "Hjärtats fröjd",
+      "grade": "5c",
+      "length": "10",
+      "type": "sport",
+      "firstAscent": "?? -02",
+      "description": "Första två bultarna gemensama med Way of the samurai. Viker sedan av åt höger längs en spricka.",
+      "source": {
+        "id": "legacy:nolby",
+        "path": "mediawiki/Nolby.txt"
+      }
+    },
+    {
+      "id": "nolby-led-15",
+      "kind": "route",
+      "number": null,
+      "name": "Way of the samurai",
+      "grade": "7a",
+      "length": "10",
+      "type": "sport",
+      "firstAscent": "?? -02",
+      "description": "Rakt upp. Ankare. Det finns en statisk variant ut till höger efter sista bulten - Ninja trick, 6b.",
+      "source": {
+        "id": "legacy:nolby",
+        "path": "mediawiki/Nolby.txt"
+      }
+    },
+    {
+      "id": "nolby-led-16",
+      "kind": "route",
+      "number": null,
+      "name": "Texas chainsaw massacre",
+      "grade": "5a",
+      "length": "8",
+      "type": "sport",
+      "firstAscent": "?? -02",
+      "description": "Spricklinje.",
+      "source": {
+        "id": "legacy:nolby",
+        "path": "mediawiki/Nolby.txt"
+      }
+    },
+    {
+      "id": "nolby-led-17",
+      "kind": "route",
+      "number": null,
+      "name": "What do you want from me",
+      "grade": "6a",
+      "length": "8",
+      "type": "sport",
+      "firstAscent": "?? -02",
+      "description": "Ankare finns långt uppe på toppen.",
+      "source": {
+        "id": "legacy:nolby",
+        "path": "mediawiki/Nolby.txt"
+      }
+    },
+    {
+      "id": "nolby-led-18",
+      "kind": "route",
+      "number": null,
+      "name": "TNT",
+      "grade": "6c+",
+      "length": "8",
+      "type": "sport",
+      "firstAscent": "?? -02",
+      "description": "Ankare finns långt uppe på toppen.",
+      "source": {
+        "id": "legacy:nolby",
+        "path": "mediawiki/Nolby.txt"
+      }
+    },
+    {
+      "id": "nolby-led-19",
+      "kind": "route",
+      "number": null,
+      "name": "For those about to rock",
+      "grade": "6b",
+      "length": "10",
+      "type": "sport",
+      "firstAscent": "?? -02",
+      "description": "Leden startar i skrevan. Ankare finns långt uppe på toppen.",
+      "source": {
+        "id": "legacy:nolby",
+        "path": "mediawiki/Nolby.txt"
+      }
+    },
+    {
+      "id": "nolby-led-20",
+      "kind": "route",
+      "number": null,
+      "name": "Müsliexpressen",
+      "grade": "6a",
+      "length": "6",
+      "type": "sport",
+      "firstAscent": "?? -02",
+      "description": "",
+      "source": {
+        "id": "legacy:nolby",
+        "path": "mediawiki/Nolby.txt"
+      }
+    }
+  ],
+  "images": [
+    {
+      "filename": "Nolby.jpg",
+      "caption": "1.Projekt A 2.Hårdrocksväggen 3.Övreväggen, högra 4.Övreväggen, vänstra 5.Baksidan",
+      "missing": false
+    },
+    {
+      "filename": "Texaschainsaw.jpg",
+      "caption": "Elin klättrar Texas chainsaw massacre, 5a. Foto: Fredrik Nyberg.",
+      "missing": false
+    },
+    {
+      "filename": "Musliexpressen.jpg",
+      "caption": "Elin tar i på Musliexpressen, 6a. Foto: Fredrik Nyberg",
+      "missing": false
+    }
+  ],
+  "access": {
+    "legacyText": null,
+    "federationSlug": null
+  },
+  "qualityIssues": [],
+  "provenance": {
+    "primarySourceId": "legacy:nolby",
+    "sources": [
+      {
+        "id": "legacy:nolby",
+        "title": "Sverigeföraren 2014: Nolby",
+        "path": "mediawiki/Nolby.txt",
+        "license": "GNU Free Documentation License",
+        "snapshotDate": "2014-01-01"
+      }
+    ]
+  }
+}

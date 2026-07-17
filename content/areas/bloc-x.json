@@ -1,0 +1,137 @@
+{
+  "schemaVersion": 1,
+  "id": "bloc-x",
+  "slug": "bloc-x",
+  "name": "Bloc X",
+  "description": "Kategori:Saknar allmän infoKategori:Saknar vägbeskrivning =Vägbeskrivning= Kör E4 från Stockholm mot södertälje, sväng av vid sista \"Stockholmsavfarten\" mot Alby vid shellmacken, och följ gamla Södertäljevägen. När du passerat sjön, sväng höger mot Draget/Norsborgs Herrgård. Ta andra avfarten till vänster, skyltat mot Vällinge. Kör nästan ända fram till Vällinge, blocket ligget i skogen nedanför fältet precis före hemvärnskåkarna. Inte så lätt att hitta bra parkering. Det går att parkera vid en liten infart till åkern på andra sidan, en liten bit bort, akta så du inte spärrar vägen för någon traktor bara. =Problem= Kategori:Stockholm Kategori:Bouldering Kategori:Bimbo Kategori:Behöver kvalitetssäkras Kategori:Saknar karta Kategori:Saknar koordinater Kategori:Saknar skrivarformattering Kategori:Saknar skiss",
+  "coordinates": null,
+  "categories": [
+    "Behöver kvalitetssäkras",
+    "Bimbo",
+    "Bouldering",
+    "Saknar allmän info",
+    "Saknar karta",
+    "Saknar koordinater",
+    "Saknar skiss",
+    "Saknar skrivarformattering",
+    "Saknar vägbeskrivning",
+    "Stockholm"
+  ],
+  "sections": [],
+  "routes": [
+    {
+      "id": "bloc-x-problem-1",
+      "kind": "problem",
+      "number": null,
+      "name": "1.Da Bronx",
+      "grade": "7C",
+      "length": "",
+      "type": "Slopers,Överhäng",
+      "firstAscent": "Crell",
+      "description": "Högra delen av branta sidan på blocket.",
+      "source": {
+        "id": "legacy:bloc-x",
+        "path": "mediawiki/Bloc X.txt"
+      }
+    },
+    {
+      "id": "bloc-x-problem-2",
+      "kind": "problem",
+      "number": null,
+      "name": "2.Compton Crips",
+      "grade": "7B+",
+      "length": "",
+      "type": "Överhäng",
+      "firstAscent": "Stefan Pettersson",
+      "description": "Vänstra delen av överhängande sidan.",
+      "source": {
+        "id": "legacy:bloc-x",
+        "path": "mediawiki/Bloc X.txt"
+      }
+    },
+    {
+      "id": "bloc-x-problem-3",
+      "kind": "problem",
+      "number": null,
+      "name": "3.The smoke house",
+      "grade": "7C+",
+      "length": "",
+      "type": "Överhäng",
+      "firstAscent": "?",
+      "description": "Starta som Compton Crips, traversera höger in i Da Bronx.",
+      "source": {
+        "id": "legacy:bloc-x",
+        "path": "mediawiki/Bloc X.txt"
+      }
+    },
+    {
+      "id": "bloc-x-problem-4",
+      "kind": "problem",
+      "number": null,
+      "name": "?",
+      "grade": "7A+",
+      "length": "",
+      "type": "",
+      "firstAscent": "någon suicidal jävel...",
+      "description": "Första problemet från vägen sett. Ok problem men sunkig landning",
+      "source": {
+        "id": "legacy:bloc-x",
+        "path": "mediawiki/Bloc X.txt"
+      }
+    },
+    {
+      "id": "bloc-x-problem-5",
+      "kind": "problem",
+      "number": null,
+      "name": "The Bloods",
+      "grade": "7C",
+      "length": "",
+      "type": "",
+      "firstAscent": "Stefan Petterson",
+      "description": "? någonstans på bloc X",
+      "source": {
+        "id": "legacy:bloc-x",
+        "path": "mediawiki/Bloc X.txt"
+      }
+    },
+    {
+      "id": "bloc-x-problem-6",
+      "kind": "problem",
+      "number": null,
+      "name": "Don't believe the hype",
+      "grade": "6C+",
+      "length": "",
+      "type": "",
+      "firstAscent": "Fredrik Sydstrand",
+      "description": "Till vänster om Compton Crips. Sittstart bredvid det döda trädet, klättra rakt upp (utan träd-dab!).",
+      "source": {
+        "id": "legacy:bloc-x",
+        "path": "mediawiki/Bloc X.txt"
+      }
+    }
+  ],
+  "images": [
+    {
+      "filename": "Blocx.JPG",
+      "caption": "",
+      "missing": false
+    }
+  ],
+  "access": {
+    "legacyText": null,
+    "federationSlug": null
+  },
+  "qualityIssues": [],
+  "provenance": {
+    "primarySourceId": "legacy:bloc-x",
+    "sources": [
+      {
+        "id": "legacy:bloc-x",
+        "title": "Sverigeföraren 2014: Bloc X",
+        "path": "mediawiki/Bloc X.txt",
+        "license": "GNU Free Documentation License",
+        "snapshotDate": "2014-01-01"
+      }
+    ]
+  }
+}

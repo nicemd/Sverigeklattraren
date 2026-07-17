@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 1,
+  "id": "grannaberget",
+  "slug": "grannaberget",
+  "name": "Grännaberget",
+  "description": "Två leder, 20 m grad 6 och 40 m grad 5. Lederna ligger mitt i stan, i västläge med magnifik utsikt över Gränna stad, Vättern och Visingsö.",
+  "coordinates": {
+    "latitude": 58.0218,
+    "longitude": 14.4692
+  },
+  "categories": [
+    "mix",
+    "Saknar skiss",
+    "Saknar skrivarformatering",
+    "sport",
+    "sva",
+    "trad",
+    "vertikalt",
+    "överhäng"
+  ],
+  "sections": [
+    {
+      "id": "allmant",
+      "title": "Allmänt",
+      "body": "Två leder, 20 m grad 6 och 40 m grad 5. Lederna ligger mitt i stan, i västläge med magnifik utsikt över Gränna stad, Vättern och Visingsö."
+    },
+    {
+      "id": "vagbeskrivning",
+      "title": "Vägbeskrivning",
+      "body": "Bil Oavsett varifrån du kommer, följ skyltning mot Gränna. När man kör in i staden från norr eller söder hamnar man på Brahegatan. Följ den tills du kommer till torget. Parkera där och sök reda på Lergränd, som ligger vid torgets södra hörn och leder upp mot berget. Gå uppför Lergränd till tennisbanan. Vid tennisbanan finns lederna. Buss Det går bussar från Jönköping med duglig turtäthet. Plinga så snart du passerat kyrkan, så stannar bussen precis vid torget. Då är det bara att följa torgets närmre kant upp mot berget, så hittar du lederna. Det finns busslinjer från Tranås och Ödeshög också, men de har mycket lägre turtäthet. Bussen från Ödeshög stannar dessutom inte vid torget."
+    },
+    {
+      "id": "leder",
+      "title": "Leder",
+      "body": "Kategori:sport kategori:Saknar skiss kategori:Saknar skrivarformatering Category:Småland"
+    }
+  ],
+  "routes": [
+    {
+      "id": "grannaberget-led-1",
+      "kind": "route",
+      "number": "1",
+      "name": "Hålet i berget",
+      "grade": "5",
+      "length": "40",
+      "type": "sport",
+      "firstAscent": "",
+      "description": "Norra leden, den längre av de två. Börjar vid husknuten. Övre ankaret är åtkomligt uppifrån, och det går också att ta sig upp från ankaret till gångstigen längs bergskanten.",
+      "source": {
+        "id": "legacy:grannaberget",
+        "path": "mediawiki/Grännaberget.txt"
+      }
+    },
+    {
+      "id": "grannaberget-led-2",
+      "kind": "route",
+      "number": "2",
+      "name": "Pers kula",
+      "grade": "6",
+      "length": "20",
+      "type": "sport",
+      "firstAscent": "",
+      "description": "Södra leden, kortare men svårare. Börjar bakom tennisplan, 40 m höger om husknuten.",
+      "source": {
+        "id": "legacy:grannaberget",
+        "path": "mediawiki/Grännaberget.txt"
+      }
+    }
+  ],
+  "images": [],
+  "access": {
+    "legacyText": null,
+    "federationSlug": null
+  },
+  "qualityIssues": [],
+  "provenance": {
+    "primarySourceId": "legacy:grannaberget",
+    "sources": [
+      {
+        "id": "legacy:grannaberget",
+        "title": "Sverigeföraren 2014: Grännaberget",
+        "path": "mediawiki/Grännaberget.txt",
+        "license": "GNU Free Documentation License",
+        "snapshotDate": "2014-01-01"
+      }
+    ]
+  }
+}

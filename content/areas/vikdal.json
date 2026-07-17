@@ -1,0 +1,179 @@
+{
+  "schemaVersion": 1,
+  "id": "vikdal",
+  "slug": "vikdal",
+  "name": "Vikdal",
+  "description": "Liten brant klippa vid en vändplan. En perfekt klippa för den som vill kunna säkra från bakluckan. Fin och fast klippa. Behöver nog borstas för att återfå sin forna glans.",
+  "coordinates": {
+    "latitude": 59.31521,
+    "longitude": 18.15163
+  },
+  "categories": [
+    "Mix",
+    "Nacka-Värmdö",
+    "Stockholm"
+  ],
+  "sections": [
+    {
+      "id": "allmant",
+      "title": "Allmänt",
+      "body": "Liten brant klippa vid en vändplan. En perfekt klippa för den som vill kunna säkra från bakluckan. Fin och fast klippa. Behöver nog borstas för att återfå sin forna glans."
+    },
+    {
+      "id": "vagbeskrivning",
+      "title": "Vägbeskrivning",
+      "body": "titel=Vikdal lat=18151630 long=59315210 Värmdöleden till Jarlaberg. Korsa motorvägen och ta vänster på Vikdalsvägen. Följ vägen i 700 m till dess slut."
+    },
+    {
+      "id": "ovre-vaggen",
+      "title": "Övre väggen",
+      "body": "Senast jag åkte förbi var det ett nybyggt hus nedanför denna vägg. Kategori:Mix Kategori:Nacka-Värmdö Kategori:Stockholm"
+    }
+  ],
+  "routes": [
+    {
+      "id": "vikdal-led-1",
+      "kind": "route",
+      "number": null,
+      "name": "The lodge",
+      "grade": "7+/8-",
+      "length": "10",
+      "type": "mix",
+      "firstAscent": "Anders Lundahl, Eva Selin-90",
+      "description": "",
+      "source": {
+        "id": "legacy:vikdal",
+        "path": "mediawiki/Vikdal.txt"
+      }
+    },
+    {
+      "id": "vikdal-led-2",
+      "kind": "route",
+      "number": null,
+      "name": "Hot fudge",
+      "grade": "7/7+",
+      "length": "10",
+      "type": "",
+      "firstAscent": "Eva Selin, Anders Lundahl-90",
+      "description": "",
+      "source": {
+        "id": "legacy:vikdal",
+        "path": "mediawiki/Vikdal.txt"
+      }
+    },
+    {
+      "id": "vikdal-led-3",
+      "kind": "route",
+      "number": null,
+      "name": "Awahnee hotel",
+      "grade": "7",
+      "length": "9",
+      "type": "mix",
+      "firstAscent": "Eva Selin, Anders Lundahl-90",
+      "description": "",
+      "source": {
+        "id": "legacy:vikdal",
+        "path": "mediawiki/Vikdal.txt"
+      }
+    },
+    {
+      "id": "vikdal-led-4",
+      "kind": "route",
+      "number": null,
+      "name": "Supersam",
+      "grade": "7+",
+      "length": "7",
+      "type": "",
+      "firstAscent": "Eva Selin, Anders Lundahl-90",
+      "description": "",
+      "source": {
+        "id": "legacy:vikdal",
+        "path": "mediawiki/Vikdal.txt"
+      }
+    },
+    {
+      "id": "vikdal-led-5",
+      "kind": "route",
+      "number": null,
+      "name": "El Capitain",
+      "grade": "9",
+      "length": "8",
+      "type": "",
+      "firstAscent": "Anders Lundahl-90",
+      "description": "",
+      "source": {
+        "id": "legacy:vikdal",
+        "path": "mediawiki/Vikdal.txt"
+      }
+    },
+    {
+      "id": "vikdal-led-6",
+      "kind": "route",
+      "number": null,
+      "name": "Handegg",
+      "grade": "8",
+      "length": "",
+      "type": "",
+      "firstAscent": "Johan Luhr-92",
+      "description": "",
+      "source": {
+        "id": "legacy:vikdal",
+        "path": "mediawiki/Vikdal.txt"
+      }
+    },
+    {
+      "id": "vikdal-led-7",
+      "kind": "route",
+      "number": null,
+      "name": "Seasons end",
+      "grade": "7+",
+      "length": "8",
+      "type": "",
+      "firstAscent": "Johan Luhr, Stefan Norman-90",
+      "description": "",
+      "source": {
+        "id": "legacy:vikdal",
+        "path": "mediawiki/Vikdal.txt"
+      }
+    },
+    {
+      "id": "vikdal-led-8",
+      "kind": "route",
+      "number": null,
+      "name": "Stäm",
+      "grade": "6",
+      "length": "6",
+      "type": "trad",
+      "firstAscent": "Daniel Bidner-90",
+      "description": "",
+      "source": {
+        "id": "legacy:vikdal",
+        "path": "mediawiki/Vikdal.txt"
+      }
+    }
+  ],
+  "images": [
+    {
+      "filename": "Vikdal1_skiss.gif",
+      "caption": "",
+      "missing": false
+    }
+  ],
+  "access": {
+    "legacyText": null,
+    "federationSlug": null
+  },
+  "qualityIssues": [],
+  "provenance": {
+    "primarySourceId": "legacy:vikdal",
+    "sources": [
+      {
+        "id": "legacy:vikdal",
+        "title": "Sverigeföraren 2014: Vikdal",
+        "path": "mediawiki/Vikdal.txt",
+        "license": "GNU Free Documentation License",
+        "snapshotDate": "2014-01-01"
+      }
+    ]
+  }
+}

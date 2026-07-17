@@ -1,0 +1,998 @@
+{
+  "schemaVersion": 1,
+  "id": "bodberget",
+  "slug": "bodberget",
+  "name": "Bodberget",
+  "description": "Bodberget ligger ca 4 mil från Söderhamn, 7 kilometer från Arbrå. Det är det högra av de tre bergen öster om byn Flästa. Norrberget ligger nära, liksom Hisnopp och Torpberget.",
+  "coordinates": {
+    "latitude": 61.44779398698079,
+    "longitude": 16.501121520996094
+  },
+  "categories": [
+    "Hälsingland",
+    "Trad"
+  ],
+  "sections": [
+    {
+      "id": "allmant",
+      "title": "Allmänt",
+      "body": "Bodberget ligger ca 4 mil från Söderhamn, 7 kilometer från Arbrå. Det är det högra av de tre bergen öster om byn Flästa. Norrberget ligger nära, liksom Hisnopp och Torpberget."
+    },
+    {
+      "id": "access",
+      "title": "Access",
+      "body": "Det finns häckande fåglar på Bodberget vilket innebär klätterförbud fram till 1:a Augusti."
+    },
+    {
+      "id": "kommunikationer",
+      "title": "Kommunikationer",
+      "body": "Mest praktiskt är att åka bil. Från Söderhamn åker man länsväg 301 mot Bollnäs. Efter ca två mil befinner man sig i byn Glössbo, där svänger man höger vid en skylt \"ARBRÅ 27\". Efter ca 18 km kommer man till byn Flästa. Här svänger man höger vid en skylt \"ÖJUNGEN 6\". Efter en och en halv kilometer befinner man sig rakt nedanför Bodberget. 100 meter bortanför det andra militära förrådet efter vägen finns parkeringemöjligheter. Härifrån följer man ett gammalt skogsmaskinspår upp i skogen. Följ snitslingen fram till berget. Det är även möjligt att åka buss. Från Bollnäs får man åka till Arbrå, där man sedan byter till en buss som går till Flästa. Där den vänder, i bortre änden av Flästa, vid skylten \"ÖJUNGEN 6\", kliver man av och sedan får man gå sista biten (drygt en och en halv km). GPS-koordinater för klippan: Lat: N 61º 26' 47.15\" Long: E 16º 30' 56.38\""
+    },
+    {
+      "id": "vaggar",
+      "title": "Väggar",
+      "body": "Väggarna vätter mot söder. Längst till höger finns Östpelaren med två stora tydliga överhäng. Till vänster om denna ligger huvudväggen, vilken är som en stor amfiteater, urgröpt ur berget. Den är ungefär 100 m bred och 50 m hög, men ger ett rätt uppbrutet intryck. Till vänster om huvudväggen syns en tydlig klipprygg, en pelare som sluttar ca 60 grader lutning upp mot bergets topp, den s k Kvicksilverpelaren. Till vänster om pelaren finns en lös ränna, vilken tidigare begagnades som nedstigningsled. Till vänster om rännan ligger den s k övniningsklippan. Den är ca 75 m bred och 20 m hög och har åtminstone tidigare, när berget var mer frekventerat, varit så gott som renborstad från lavar och andra otrevligheter. Nedstigningen är helt problemfri och går i skogen till vänster om övningsklippan"
+    },
+    {
+      "id": "ostpelaren",
+      "title": "Östpelaren",
+      "body": "Kategori:Hälsingland Kategori:Trad Kategori:Hälsingland"
+    }
+  ],
+  "routes": [
+    {
+      "id": "bodberget-led-1",
+      "kind": "route",
+      "number": "1",
+      "name": "Kebab",
+      "grade": "4+",
+      "length": "7",
+      "type": "trad",
+      "firstAscent": "Thomas Johnsson och Buster Delin 1983",
+      "description": "(vid nedstigning) 75 m upp längs nedstigningnen räknat från röset vid \"Endast för galningars\" insteg, ligger en grov knytnävsspricka.",
+      "source": {
+        "id": "legacy:bodberget",
+        "path": "mediawiki/Bodberget.txt"
+      }
+    },
+    {
+      "id": "bodberget-led-2",
+      "kind": "route",
+      "number": "2",
+      "name": "Iskalla Killen",
+      "grade": "3+",
+      "length": "8",
+      "type": "trad",
+      "firstAscent": "Buster Delin och Claes Renström 1983",
+      "description": "30 m upp längs nedstigningen från röset räknat. Startar från en odefinierad pelare och sedan vidare upp på en fem m svaplatta. Avslutas med en hangeltravers vänster längs svaets topp. Osäkrad.",
+      "source": {
+        "id": "legacy:bodberget",
+        "path": "mediawiki/Bodberget.txt"
+      }
+    },
+    {
+      "id": "bodberget-led-3",
+      "kind": "route",
+      "number": "3",
+      "name": "Älvdansen",
+      "grade": "4",
+      "length": "20",
+      "type": "trad",
+      "firstAscent": "Buster Delin och Torbjörn Nilsson 1983",
+      "description": "Startar bakom tallen ca 10 m till vänster om röset. Startar vid en sned spricka, vid några utskjutande kloppblock. Ca 4 m upp kliver man höger över en bulle, ut på en list, sen följer man sprickor rakt upp mot toppen.",
+      "source": {
+        "id": "legacy:bodberget",
+        "path": "mediawiki/Bodberget.txt"
+      }
+    },
+    {
+      "id": "bodberget-led-4",
+      "kind": "route",
+      "number": "4",
+      "name": "Journey to Glory",
+      "grade": "4+",
+      "length": "20",
+      "type": "trad",
+      "firstAscent": "Pär Nolgård m topprep 1981",
+      "description": "Fritt: Kent Andersson, Per Calleberg och Pär Nolgård, 1981 Insteg på väggen strax till höger om föregående led. Följer tunna sprickor snett upp åt höger till ett rött dieder, korsas åt höger genom ett spagatsteg. Följer sedan den tydliga sprickan rätt upp på väggen till en tall.",
+      "source": {
+        "id": "legacy:bodberget",
+        "path": "mediawiki/Bodberget.txt"
+      }
+    },
+    {
+      "id": "bodberget-led-5",
+      "kind": "route",
+      "number": "5",
+      "name": "Änglavakt",
+      "grade": "4",
+      "length": "20",
+      "type": "trad",
+      "firstAscent": "Mikael Bäckman 1979",
+      "description": "Startar i ett litet hörn till höger om föregående led. Följer sedan den röda diederformationen till toppen.",
+      "source": {
+        "id": "legacy:bodberget",
+        "path": "mediawiki/Bodberget.txt"
+      }
+    },
+    {
+      "id": "bodberget-led-6",
+      "kind": "route",
+      "number": "6",
+      "name": "Maiden Voyage",
+      "grade": "5-",
+      "length": "20",
+      "type": "trad",
+      "firstAscent": "Kent Andersson och Gunnar Larsson 1981",
+      "description": "En tämligen slingrig och krystad linje. Startar till höger om \"Änglavakt\" med ett kliv in på densamma. Ca 6 m upp, kort travers höger till en nisch. Därifrån följer man den högra av två parallella sprickor diagonalt upp mot vänster. Sen följs ett ruttet dieder upp till toppen.",
+      "source": {
+        "id": "legacy:bodberget",
+        "path": "mediawiki/Bodberget.txt"
+      }
+    },
+    {
+      "id": "bodberget-led-7",
+      "kind": "route",
+      "number": "7",
+      "name": "Endast för Galningar",
+      "grade": "4+",
+      "length": "20",
+      "type": "trad",
+      "firstAscent": "Mikael Bäckman m topprep 1980)",
+      "description": "Fritt: Mikael Bäckman, Anders Dahl och Kent Andersson, 1980 Startar på den släta plattan mittför röset. Rakt upp till nischen, sen höger upp på en hylla. Vidare höger ut på väggen och sen rätt upp.",
+      "source": {
+        "id": "legacy:bodberget",
+        "path": "mediawiki/Bodberget.txt"
+      }
+    },
+    {
+      "id": "bodberget-led-8",
+      "kind": "route",
+      "number": "8",
+      "name": "Vårled",
+      "grade": "4-",
+      "length": "20",
+      "type": "trad",
+      "firstAscent": "Per Calleberg och Eva-Lotte Andersson 1982",
+      "description": "Startar i hörnet bakom tallen till höger om röset. Klättra snett uppåt vänster till nischen. Fortsätt rakt upp i den vänstra av de två diagonalsprickorna. Sprickan tar en till en hylla, från hyllan klättrar man rakt upp till toppen. 2 bultar.",
+      "source": {
+        "id": "legacy:bodberget",
+        "path": "mediawiki/Bodberget.txt"
+      }
+    },
+    {
+      "id": "bodberget-led-9",
+      "kind": "route",
+      "number": "9",
+      "name": "After Shave",
+      "grade": "5+",
+      "length": "8",
+      "type": "mix",
+      "firstAscent": "Buster Delin, Per Calleberg och Peter Brolin 1986",
+      "description": "Från hyllan på \"Endast för galningar\" klättrar man snett upp åt vänster till bultar, sedan rakt upp förbi en borrbult genom små tak tills man kommer in på \"Le Freak\"s utstegsspricka, som följs.",
+      "source": {
+        "id": "legacy:bodberget",
+        "path": "mediawiki/Bodberget.txt"
+      }
+    },
+    {
+      "id": "bodberget-led-10",
+      "kind": "route",
+      "number": "10",
+      "name": "Le Freak",
+      "grade": "5",
+      "length": "20",
+      "type": "mix",
+      "firstAscent": "Kent Andersson m topprep 1981",
+      "description": "Fritt: Kent Andersson, 1983 Samma insteg som Vårled, sedan rakt upp över ett litet överhäng. Klättra förbi en borrbult och sen det tydliga diedret upp. Vik sedan av åt vänster och följ en diagonal spricka till toppen. Starta i samma hörn som för \"Vårled\", men gå höger över hyllan och nå det stora, tydliga flaket. Följ kanten på flaket och stå upp på hyllan ovanpå. Fortsätt snett upp åt höger förbi bultar.",
+      "source": {
+        "id": "legacy:bodberget",
+        "path": "mediawiki/Bodberget.txt"
+      }
+    },
+    {
+      "id": "bodberget-led-11",
+      "kind": "route",
+      "number": "11",
+      "name": "The Bisquit",
+      "grade": "5",
+      "length": "20",
+      "type": "trad",
+      "firstAscent": "Eva-Lotte Andersson m topprep 1981",
+      "description": "Fritt: Per Calleberg och Kent Andersson, 1982 Starta i samma hörn som för \"Vårled\", men gå höger över hyllan och nå det stora, tydliga flaket. Följ kanten på flaket och stå upp på hyllan ovanpå. Fortsätt snett upp åt höger förbi bultar.",
+      "source": {
+        "id": "legacy:bodberget",
+        "path": "mediawiki/Bodberget.txt"
+      }
+    },
+    {
+      "id": "bodberget-led-12",
+      "kind": "route",
+      "number": "12",
+      "name": "Främlingsvägen",
+      "grade": "5",
+      "length": "20",
+      "type": "mix",
+      "firstAscent": "Per Calleberg m topprep 1982",
+      "description": "Fritt: Per Calleberg och Pär Nolgård, 1983 Följ räfflan på väggen någon meter till vänster om \"Hybris\". När flaket som leder upp till \"The Bisquit\" nås, kliver man ut åt höger och följer \"Hybris\" ett par meter upp. Så snart det är möjligt kliver man tillbaka ut åt vänster och klättrar rakt upp över den branta väggen.",
+      "source": {
+        "id": "legacy:bodberget",
+        "path": "mediawiki/Bodberget.txt"
+      }
+    },
+    {
+      "id": "bodberget-led-13",
+      "kind": "route",
+      "number": "13",
+      "name": "Hybris",
+      "grade": "4-",
+      "length": "17",
+      "type": "trad",
+      "firstAscent": "Kent Andersson, Hans Lindgren och Per Calleberg 1981",
+      "description": "Starta i ett kort hörn drygt fem m till höger om röset. Sedan upp över hyllor och det uppbrutna stråket av röd klippa under den tydliga, sluttande skivan.",
+      "source": {
+        "id": "legacy:bodberget",
+        "path": "mediawiki/Bodberget.txt"
+      }
+    },
+    {
+      "id": "bodberget-led-14",
+      "kind": "route",
+      "number": "14",
+      "name": "Utsvävningen",
+      "grade": "5-",
+      "length": "5",
+      "type": "trad",
+      "firstAscent": "Per Calleberg 1982",
+      "description": "Utstegsvariant på \"Hybris\". Går rakt ut åt höger i den tydliga sprickan i den stora, sluttande stenskivan",
+      "source": {
+        "id": "legacy:bodberget",
+        "path": "mediawiki/Bodberget.txt"
+      }
+    },
+    {
+      "id": "bodberget-led-15",
+      "kind": "route",
+      "number": "15",
+      "name": "Dynghålet",
+      "grade": "4+",
+      "length": "17",
+      "type": "trad",
+      "firstAscent": "Kent Andersson och Per Calleberg 1982",
+      "description": "Klättra uppför en kort vägg upp på en inte så brant häll. Klättra upp till björken och följ den tydliga rännan som separerar övningsväggen från den tydliga plattan till höger. Skitig och kan inte rekomenderas.",
+      "source": {
+        "id": "legacy:bodberget",
+        "path": "mediawiki/Bodberget.txt"
+      }
+    },
+    {
+      "id": "bodberget-led-16",
+      "kind": "route",
+      "number": "16",
+      "name": "Tilltaget",
+      "grade": "5",
+      "length": "20",
+      "type": "trad",
+      "firstAscent": "Per Calleberg m topprep 1982",
+      "description": "Fritt: Per Calleberg och Kent Andersson, 1982 Klättra uppför en kort vägg. Snedda upp över hällen till en björk. Följ räfflorna i plattans vänsterkant, förbi en borrbult, och vidare upp till toppen förbi en bult.",
+      "source": {
+        "id": "legacy:bodberget",
+        "path": "mediawiki/Bodberget.txt"
+      }
+    },
+    {
+      "id": "bodberget-led-17",
+      "kind": "route",
+      "number": "17",
+      "name": "Upptaget",
+      "grade": "4",
+      "length": "20",
+      "type": "trad",
+      "firstAscent": "Torbjörn Nilsson m topprep 1982",
+      "description": "Fritt: Buster Delin och Kent Andersson, 1984 Klättra uppför hällen till basen av plattan. Följ en serie ojämnheter rakt uppför mitten på plattan. Säkra med fördel i \"Tilltaget\"'s borrbult. Har tyvärr en tendens att växa igen snabbt.",
+      "source": {
+        "id": "legacy:bodberget",
+        "path": "mediawiki/Bodberget.txt"
+      }
+    },
+    {
+      "id": "bodberget-led-18",
+      "kind": "route",
+      "number": "18",
+      "name": "Handtaget",
+      "grade": "4-",
+      "length": "20",
+      "type": "trad",
+      "firstAscent": "Kent Andersson m topprep 1982",
+      "description": "Fritt: Buster Delin, 1984 Klättra uppför hällen till basen av plattan. Följ en serie ojämnheter i plattans högerkant. Osäkrad.",
+      "source": {
+        "id": "legacy:bodberget",
+        "path": "mediawiki/Bodberget.txt"
+      }
+    },
+    {
+      "id": "bodberget-led-19",
+      "kind": "route",
+      "number": "19",
+      "name": "Sol o vår",
+      "grade": "3-",
+      "length": "10",
+      "type": "trad",
+      "firstAscent": "Kent Andersson 1982",
+      "description": "Startar från svackan till vänster om den lösa rännan. Följer en diederformation upp till en platta och sen en diagonal travers åt höger.",
+      "source": {
+        "id": "legacy:bodberget",
+        "path": "mediawiki/Bodberget.txt"
+      }
+    },
+    {
+      "id": "bodberget-led-20",
+      "kind": "route",
+      "number": "20",
+      "name": "Det ska vi fira",
+      "grade": "?",
+      "length": "",
+      "type": "",
+      "firstAscent": "",
+      "description": "Mellan Övningsklippan och Kvicksilverpelaren finns en lös ränna (Det ska vi fira) som förr användes som nedstigning. Den är dock lös och bör undvikas.",
+      "source": {
+        "id": "legacy:bodberget",
+        "path": "mediawiki/Bodberget.txt"
+      }
+    },
+    {
+      "id": "bodberget-led-21",
+      "kind": "route",
+      "number": "21",
+      "name": "Frysleden",
+      "grade": "2",
+      "length": "120",
+      "type": "trad",
+      "firstAscent": "Olov Nilsson och Gunnar Larsson 1979",
+      "description": "Följer vänsterkanten på kvicksilverpelaren. Efter ca replängd går man höger upp på själva pelaren och fortsätter rakt upp till toppen på berget. Lös. Bör undvikas, åtminstone sommartid, p g a risk för stenras.",
+      "source": {
+        "id": "legacy:bodberget",
+        "path": "mediawiki/Bodberget.txt"
+      }
+    },
+    {
+      "id": "bodberget-led-22",
+      "kind": "route",
+      "number": "22",
+      "name": "Över noll",
+      "grade": "4-",
+      "length": "35",
+      "type": "trad",
+      "firstAscent": "Mikael Bäckman och Per Calleberg 1980",
+      "description": "Friktionsklättring längs toppen på kvicksilverpelaren. En replängd, 2 bultar. Standplats till höger vid en stor tall. Lätt nedklättring till vänster, runt hörnet. Man kommer så småningom ned till \"Det skall vi fira\", som så långt ned inte är särskilt lös.",
+      "source": {
+        "id": "legacy:bodberget",
+        "path": "mediawiki/Bodberget.txt"
+      }
+    },
+    {
+      "id": "bodberget-led-23",
+      "kind": "route",
+      "number": "23",
+      "name": "Stegen",
+      "grade": "3+",
+      "length": "10",
+      "type": "trad",
+      "firstAscent": "Torbjörn Nilsson 1982",
+      "description": "Väggklättring tre meter till vänster om \"Take Off\". Går ihop med \"Take Off\" efter ca 10 meter. 2 eller 3 bultar.",
+      "source": {
+        "id": "legacy:bodberget",
+        "path": "mediawiki/Bodberget.txt"
+      }
+    },
+    {
+      "id": "bodberget-led-24",
+      "kind": "route",
+      "number": "24",
+      "name": "Take Off",
+      "grade": "4-",
+      "length": "20",
+      "type": "trad",
+      "firstAscent": "Kent Andersson och Per Calleberg 1981",
+      "description": "25 m upp på högersidan på kvicksilverpelaren finns en tydlig diederformation som toppas av ett överhäng. Klättra diedret, traversera vänster under taket, sen rännan upp till standplatstallenpå \"Över noll\". Variant: runda taket på dess högra sida.",
+      "source": {
+        "id": "legacy:bodberget",
+        "path": "mediawiki/Bodberget.txt"
+      }
+    },
+    {
+      "id": "bodberget-led-25",
+      "kind": "route",
+      "number": "25",
+      "name": "Stridspiloten",
+      "grade": "5-",
+      "length": "20",
+      "type": "trad",
+      "firstAscent": "Per Calleberg m topprep 1981",
+      "description": "Fritt: Kent Andersson och Torbjörn Nilsson, 1982 Går uppför den sprickiga väggen alldeles till höger om \"Take Off\". Vidare upp på svaplattan ovanför. 1 borrbult på svaet. Standplats som för \"Över noll\".",
+      "source": {
+        "id": "legacy:bodberget",
+        "path": "mediawiki/Bodberget.txt"
+      }
+    },
+    {
+      "id": "bodberget-led-26",
+      "kind": "route",
+      "number": "26",
+      "name": "Venuspassagen",
+      "grade": "5-",
+      "length": "20",
+      "type": "trad",
+      "firstAscent": "Kent Andersson m topprep 1982",
+      "description": "Fritt: Kent Andersson, Torbjörn Nilsson och Åke Englund, 1983 Starta som för \"Stridspiloten\", men vik av åt höger under ett litet tak. Kliv upp i en diagonal spricka och följ den snett upp åt höger till toppen. Om man vill förlänga klättringen, kan man kliva ut på \"Stridspiloten\"'s slutmetrar när man kommit upp på en hylla efter den diagonala sprickan. Standplats som för \"Över noll\".",
+      "source": {
+        "id": "legacy:bodberget",
+        "path": "mediawiki/Bodberget.txt"
+      }
+    },
+    {
+      "id": "bodberget-led-27",
+      "kind": "route",
+      "number": "27",
+      "name": "Sarras Sahara",
+      "grade": "5+",
+      "length": "18",
+      "type": "trad",
+      "firstAscent": "Buster Delin och Per Calleberg 1984",
+      "description": "Insteg 7 meter t h om \"Venuspassagen\". Följ sprickan upp till 2 bultar islagna bredvid varandra. Härifrån leder ett grunt och något svårsäkrat dieder rakt upp (krux).",
+      "source": {
+        "id": "legacy:bodberget",
+        "path": "mediawiki/Bodberget.txt"
+      }
+    },
+    {
+      "id": "bodberget-led-28",
+      "kind": "route",
+      "number": "28",
+      "name": "Ritten",
+      "grade": "5-",
+      "length": "50",
+      "type": "trad",
+      "firstAscent": "Torbjörn Nilsson 1982",
+      "description": "Starta som för \"Stridspiloten\", men traversera strax höger och följ \"Venuspassagen\" upp någon meter. Fortsätt sedan den stigande traversen en full replängd. Standplats vid ett stort flak alldeles (snett) nedanför ett stort, sluttande överhäng. Bitvis dåligt säkrad.",
+      "source": {
+        "id": "legacy:bodberget",
+        "path": "mediawiki/Bodberget.txt"
+      }
+    },
+    {
+      "id": "bodberget-led-29",
+      "kind": "route",
+      "number": "29",
+      "name": "Den gode",
+      "grade": "4+",
+      "length": "15",
+      "type": "trad",
+      "firstAscent": "Torbjörn Nilsson 1982",
+      "description": "Fin flak-klättring. På väggen till vänster om \"Den onde\" går denna led. Klättra de tydliga flaken och avsluta med en spricka.",
+      "source": {
+        "id": "legacy:bodberget",
+        "path": "mediawiki/Bodberget.txt"
+      }
+    },
+    {
+      "id": "bodberget-led-30",
+      "kind": "route",
+      "number": "30",
+      "name": "Den onde",
+      "grade": "5+",
+      "length": "25",
+      "type": "trad",
+      "firstAscent": "Torbjörn Nilsson m topprep 1982",
+      "description": "Fritt: Torbjörn Nilsson och Anders Byfält, 1983 Tydlig spricklös diederformation som ligger ca 75 m upp i backen från insteget på \"Take Off\". I vänsterkanten av det sluttande överhänget finns en V-formad urgröpning. För att nå denna klättrar man \"Den gode\" någon meter och tar sedan ett jättekliv över i V-et. Sedan V-formen är klättrad traverserar man vänster någon meter och kliver upp, över en bulle, på ett sva, som sedan klättras. Säkras med en borrbult. Andremannen bör inte ta ur repet ur borrbulten innnan han//hon etablerat sig i V-et!",
+      "source": {
+        "id": "legacy:bodberget",
+        "path": "mediawiki/Bodberget.txt"
+      }
+    },
+    {
+      "id": "bodberget-led-31",
+      "kind": "route",
+      "number": "31",
+      "name": "Den fule",
+      "grade": "4+",
+      "length": "15",
+      "type": "trad",
+      "firstAscent": "Torbjörn Nilsson m topprep 1982",
+      "description": "Fritt: Torbjörn Nilsson och Buster Delin, 1983 Från insteget på \"Den onde\" går man höger på en häll, under ett sluttande överhäng och kliver ut på en egg, och sedan vidare.",
+      "source": {
+        "id": "legacy:bodberget",
+        "path": "mediawiki/Bodberget.txt"
+      }
+    },
+    {
+      "id": "bodberget-led-32",
+      "kind": "route",
+      "number": "32",
+      "name": "Skitleden",
+      "grade": "4+",
+      "length": "50",
+      "type": "trad",
+      "firstAscent": "Mikael Bäckman och Per Calleberg 1980",
+      "description": "Leden följer den kamin som finnns i skärningen mellan huvudväggen och pelaren till vänster och har en uttalad karaktär av fjällklättring. Klättra en kort kamin bakom en stenplatta. Fortsätt upp i ett hörn och klättra själva kaminen, \"Skithålet\". När man kommer ur kaminen går man vänster längs två hyllor och klättrar en kort spricka upp till en tall. Standplats. Höger bakom ett stort stenblock och sedan rakt upp till topppen i en ränna.",
+      "source": {
+        "id": "legacy:bodberget",
+        "path": "mediawiki/Bodberget.txt"
+      }
+    },
+    {
+      "id": "bodberget-led-33",
+      "kind": "route",
+      "number": "33",
+      "name": "Svart som natten",
+      "grade": "6-",
+      "length": "25",
+      "type": "trad",
+      "firstAscent": "Buster Delin och Tony Holmberg 1986",
+      "description": "Startar i ett tydligt svart stråk mellan \"Skitleden\" och det stora överhänget som korsas av \"Överheten\". Kliv sedan vänster och fortsätt rakt upp. Något ojämn klättring säkrad med ett par fasta bultar, men i övrigt inte så mycket.",
+      "source": {
+        "id": "legacy:bodberget",
+        "path": "mediawiki/Bodberget.txt"
+      }
+    },
+    {
+      "id": "bodberget-led-34",
+      "kind": "route",
+      "number": "34",
+      "name": "Överheten",
+      "grade": "A2",
+      "length": "50",
+      "type": "",
+      "firstAscent": "Kent Andersson och Per Calleberg 1982",
+      "description": "Klättra lättast möjliga väg upp till början på diedret på \"Genesis\". Traversera vänster tio meter och klättra rakt upp under stora taket. (Som en variant kan man klättra diedret på Genesis och sedan göra en skyhook-travers ut åt vänster direkt uppe under taket). I och med en fast bult börjar den artificiella klättringen, som blir allt besvärligare ju högre upp man kommer. Till slut kommer man upp på lingonrisfyllda hyllor och traverserar så vänster en lång bit till en standplatstall.",
+      "source": {
+        "id": "legacy:bodberget",
+        "path": "mediawiki/Bodberget.txt"
+      }
+    },
+    {
+      "id": "bodberget-led-35",
+      "kind": "route",
+      "number": "35",
+      "name": "Genesis",
+      "grade": "4+",
+      "length": "40",
+      "type": "trad",
+      "firstAscent": "Per Calleberg och Mikael Bäckman 1980",
+      "description": "Denna led följer det stora, tydliga diedret mitt på huvudväggen. Klättra en överhängande nisch i vit klippa upp till en björk under ett överhäng. Gå vänster och upp och klättra sedan diedret upp till en stor hylla. Fortsätt vidare upp åt höger till en stor hylla med en stor tall och stora stenblock på. Om man letar i en spricka här, hittar man eventuellt fortfarande en burk med en gästbok i. Skriv i så fall i den! Härifrån följer man rännan som börjar vid hyllans vänsterkant, uppåt till toppen.",
+      "source": {
+        "id": "legacy:bodberget",
+        "path": "mediawiki/Bodberget.txt"
+      }
+    },
+    {
+      "id": "bodberget-led-36",
+      "kind": "route",
+      "number": "36",
+      "name": "Exodus",
+      "grade": "4+",
+      "length": "8",
+      "type": "trad",
+      "firstAscent": "Buster Delin och Peter Brolin 1985",
+      "description": "Traversera vänster under det markerade taket t v om \"Genesis\" utsteg. Här kommer man att stå bredbent rakt över en otäck stenskiva, varför ett fall just därifrån skulle kunna få mycket olyckliga konsekvenser. Klättra sedan rakt upp över väggen ovanför. Tänk på att enochenhalvans friend kan vara bra att ha.",
+      "source": {
+        "id": "legacy:bodberget",
+        "path": "mediawiki/Bodberget.txt"
+      }
+    },
+    {
+      "id": "bodberget-led-37",
+      "kind": "route",
+      "number": "37",
+      "name": "Traverstvärs",
+      "grade": "3-",
+      "length": "8",
+      "type": "trad",
+      "firstAscent": "Åke Englund fågelskådande 19??",
+      "description": "Inte mycket till led egentligen, utan används för att variera utstegen på \"Genesis\" och \"Anabola stereoider\".",
+      "source": {
+        "id": "legacy:bodberget",
+        "path": "mediawiki/Bodberget.txt"
+      }
+    },
+    {
+      "id": "bodberget-led-38",
+      "kind": "route",
+      "number": "38",
+      "name": "Leviticus",
+      "grade": "5",
+      "length": "10",
+      "type": "trad",
+      "firstAscent": "Buster Delin, Per Calleberg och Peter Brolin 1986",
+      "description": "Från mitt på \"Traverstvärs\" leder en kort jamspricka upp till högerkanten av ett stort tak. Klättra den och traversera sedan vänster till \"Genesis\" utsteg.",
+      "source": {
+        "id": "legacy:bodberget",
+        "path": "mediawiki/Bodberget.txt"
+      }
+    },
+    {
+      "id": "bodberget-led-39",
+      "kind": "route",
+      "number": "39",
+      "name": "Stjärnornas Krog",
+      "grade": "5+",
+      "length": "18",
+      "type": "trad",
+      "firstAscent": "Kent Andersson och Per Calleberg 1981",
+      "description": "I vänsterkanten på den tydliga röda väggen finns en tunn spricka som går snett uppåt vänster förbi ett tydligt flak, upp till högerkanten av en liten hylla. Följ sprickorna rakt upp till stora tallen på \"Genesis\" standplats. Tung i början.",
+      "source": {
+        "id": "legacy:bodberget",
+        "path": "mediawiki/Bodberget.txt"
+      }
+    },
+    {
+      "id": "bodberget-led-40",
+      "kind": "route",
+      "number": "40",
+      "name": "Rymdimperiet Slår tillbaka",
+      "grade": "4+",
+      "length": "10",
+      "type": "trad",
+      "firstAscent": "Kent Andersson 1982",
+      "description": "Start som för \"Stjärnornas krog\", men vid den lilla hyllan går man vänster och ut runt ett hörn, in i ett dieder. Klättra rakt upp till ett överhäng. Här kliver man snett upp åt höger och går rakt upp i en ränna till \"Genesis\"'s standplats.",
+      "source": {
+        "id": "legacy:bodberget",
+        "path": "mediawiki/Bodberget.txt"
+      }
+    },
+    {
+      "id": "bodberget-led-41",
+      "kind": "route",
+      "number": "41",
+      "name": "Mr Skywalker",
+      "grade": "5-",
+      "length": "10",
+      "type": "trad",
+      "firstAscent": "Per Calleberg m topprep 1982",
+      "description": "Följ \"Rymdimperiet slår tillbaka\" upp till överhänget. Traversera ut vänster en bit och gå upp i sprickan ovanför överhänget. Fortsätt rakt upp till \"Genesis\"'s standplats.",
+      "source": {
+        "id": "legacy:bodberget",
+        "path": "mediawiki/Bodberget.txt"
+      }
+    },
+    {
+      "id": "bodberget-led-42",
+      "kind": "route",
+      "number": "42",
+      "name": "Anabola Steroider",
+      "grade": "5+",
+      "length": "40",
+      "type": "trad",
+      "firstAscent": "Mikael Bäckman och Åke Englund 1981",
+      "description": "Starta från en hylla nedanför en tydlig röd vägg. Klättra rakt uppför väggen, strax till vänster om ett hörn som vetter åt vänster, tills det börjar överhänga. Kliv höger ut runt hörnet och kliv med svårighet upp på en smal list. Gå något höger och klättra rakt upp till en liten hylla med en liten rönn på. Fortsätt rakt upp i den grova sprickan till en avrundad hylla. Standplats. Härifrån kan man antingen klättra rakt upp till toppen över något lös och svårsäkrad klippa, eller göra en travers vänster till \"Genesis\"'s utsteg.",
+      "source": {
+        "id": "legacy:bodberget",
+        "path": "mediawiki/Bodberget.txt"
+      }
+    },
+    {
+      "id": "bodberget-led-43",
+      "kind": "route",
+      "number": "43",
+      "name": "Domedag",
+      "grade": "6",
+      "length": "12",
+      "type": "trad",
+      "firstAscent": "Per Calleberg, Mikael Bäckman och Lennart Östlund 1980",
+      "description": "Fritt: Mikael Bäckman, 1986 En variant till \"Anabola stereoider\". Fortsätt rakt upp där det börjar överhänga och upp längs stenplattans vänsterkant tills dess överkant nås. Traversera sedan höger på \"Anabola stereoider\".",
+      "source": {
+        "id": "legacy:bodberget",
+        "path": "mediawiki/Bodberget.txt"
+      }
+    },
+    {
+      "id": "bodberget-led-44",
+      "kind": "route",
+      "number": "44",
+      "name": "Testosteron",
+      "grade": "6",
+      "length": "10",
+      "type": "trad",
+      "firstAscent": "Buster Delin och Peter Brolin 1986",
+      "description": "På väggen t h om \"Anabola steroider\"'s instegsdieder finns en borrbult. Klättra upp till denna, sedan följer en kort travers höger till en bult. Här går man rakt upp och in på \"Anabola steroider\".",
+      "source": {
+        "id": "legacy:bodberget",
+        "path": "mediawiki/Bodberget.txt"
+      }
+    },
+    {
+      "id": "bodberget-led-45",
+      "kind": "route",
+      "number": "45",
+      "name": "DNA",
+      "grade": "5",
+      "length": "14",
+      "type": "trad",
+      "firstAscent": "Buster Delin 1984",
+      "description": "Väggtur bestående av två korta partier med hylla emellan. Utsteg strax t v om \"Rock & Roll\"'s insteg. Leden ligger alltså egentligen på ett mindre väggparti nedanför huvudväggen, vilket har en tendens att växa igen rätt fort och nu går leden knappast att göra utan en rejäl rensning, om någon ens kan hitta den längre... 2 bultar.",
+      "source": {
+        "id": "legacy:bodberget",
+        "path": "mediawiki/Bodberget.txt"
+      }
+    },
+    {
+      "id": "bodberget-led-46",
+      "kind": "route",
+      "number": "46",
+      "name": "Juke Box",
+      "grade": "5-",
+      "length": "14",
+      "type": "trad",
+      "firstAscent": "Buster Delin och Daniel Nolgård 1984",
+      "description": "Starta som för \"Rock & Roll\" och klättra nästan hela denna. Vik sedan av åt vänster och följ ett diedersystem upp till en hylla. Här går man igenom ett överhäng och efter en kort travers vänster kan man följa en spricka rakt upp till toppen. Luftig. 2 bultar.",
+      "source": {
+        "id": "legacy:bodberget",
+        "path": "mediawiki/Bodberget.txt"
+      }
+    },
+    {
+      "id": "bodberget-led-47",
+      "kind": "route",
+      "number": "47",
+      "name": "Rock & Roll",
+      "grade": "4+",
+      "length": "20",
+      "type": "trad",
+      "firstAscent": "Torbjörn Nilsson och Thomas Lindholm 1982",
+      "description": "Starta vid \"Bäckfallet\"'s insteg, men klättra upp åt vänster och följ det tydliga diedret upp. Leden går ihop med \"Bäckfallet\" ovanför den stora hyllan halvvägs.",
+      "source": {
+        "id": "legacy:bodberget",
+        "path": "mediawiki/Bodberget.txt"
+      }
+    },
+    {
+      "id": "bodberget-led-48",
+      "kind": "route",
+      "number": "48",
+      "name": "Bäckfallet",
+      "grade": "4",
+      "length": "30",
+      "type": "trad",
+      "firstAscent": "Mikael Bäckman och Lennart Östlund 1980",
+      "description": "Följer hörnet i väggens högerkant, till höger om en tydlig, stor \"näsa\". Klättra rakt upp i det tydliga hörnet, rakt upp till en stor hylla ovanpå \"näsan\". (Ev standplats.) Fortsätt upp i hörnet ovanför, som avslutas med en kort layback och sedan utsteg åt höger.",
+      "source": {
+        "id": "legacy:bodberget",
+        "path": "mediawiki/Bodberget.txt"
+      }
+    },
+    {
+      "id": "bodberget-led-49",
+      "kind": "route",
+      "number": "55",
+      "name": "Panik i Kubik",
+      "grade": "5-",
+      "length": "12",
+      "type": "trad",
+      "firstAscent": "Buster Delin, Torbjörn Nilsson och Per Calleberg 1983",
+      "description": "Flack, numera bortglömd väggtur i ravinen på baksidan av Bodbergets högra pelare. 2 bultar.",
+      "source": {
+        "id": "legacy:bodberget",
+        "path": "mediawiki/Bodberget.txt"
+      }
+    },
+    {
+      "id": "bodberget-led-50",
+      "kind": "route",
+      "number": "56",
+      "name": "Sidvind",
+      "grade": "5+",
+      "length": "6",
+      "type": "trad",
+      "firstAscent": "Buster Delin m topprep 1984",
+      "description": "Kompakt dieder på östsidan av det största stenblocket i rasbranten nedanför huvudväggen.",
+      "source": {
+        "id": "legacy:bodberget",
+        "path": "mediawiki/Bodberget.txt"
+      }
+    },
+    {
+      "id": "bodberget-led-51",
+      "kind": "route",
+      "number": "49",
+      "name": "Den Muterade Hackspetten",
+      "grade": "6-",
+      "length": "15",
+      "type": "mix",
+      "firstAscent": "Kent Andersson och Per Calleberg 1982",
+      "description": "Klättra upp någon meter längs en spricka alldeles till höger om \"Bäckfallet\". Traversera höger till en bult. Klättra upp och sedan snett åt vänster förbi en bult. Klättra rakt upp till vänster om borrbult (krux) tills ett bra grepp nås i kanten av en nisch. Kliv upp i nischen, men fortsätt omedelbart ut åt vänster och sedan upp på hyllan.",
+      "source": {
+        "id": "legacy:bodberget",
+        "path": "mediawiki/Bodberget.txt"
+      }
+    },
+    {
+      "id": "bodberget-led-52",
+      "kind": "route",
+      "number": "50",
+      "name": "Flygande Trolldom",
+      "grade": "5+",
+      "length": "15",
+      "type": "mix",
+      "firstAscent": "Per Calleberg och Kent Andersson 1982",
+      "description": "Starta som för \"Den muterade hackspetten\", men klättra rakt upp från första bulten, till nischen med tallen. 1 borrbult och 2 bultar.",
+      "source": {
+        "id": "legacy:bodberget",
+        "path": "mediawiki/Bodberget.txt"
+      }
+    },
+    {
+      "id": "bodberget-led-53",
+      "kind": "route",
+      "number": "51",
+      "name": "Valdagen",
+      "grade": "5",
+      "length": "60",
+      "type": "trad",
+      "firstAscent": "Torbjörn Nilsson och Per Calleberg 1982",
+      "description": "Startar till vänster om \"Krakel Spektakel\". Klättra upp över lätt terräng till en hylla under stora taket. Upp till tydlig jamspricka. Alldeles under taket, går man vänster förbi en bult. Så småningom kommer man ner till \"Bäckfallet\"'s insteg. Standplats. Andra replängden följer till att börja med, en spricka parallellt med \"Bäckfallet\", men viker sen av åt höger och kommer upp på en stor hylla. Härifrån klättras den grova diagonalsprickan till toppen.",
+      "source": {
+        "id": "legacy:bodberget",
+        "path": "mediawiki/Bodberget.txt"
+      }
+    },
+    {
+      "id": "bodberget-led-54",
+      "kind": "route",
+      "number": "52a",
+      "name": "Stillheten, Piskad till underkastelse",
+      "grade": "7+",
+      "length": "9",
+      "type": "trad",
+      "firstAscent": "Johan Luhr och Arne Johnsen 1987",
+      "description": "Bodbergets gamla klassiska, desperata topprepsproblem blev så småningom lett. Tunn väggklättring på väggen till vänster om Kusin vitamin. Börjar svårt, och blir bara vidrigare ju högre upp man kommer. 2 borrbultar. Förstabestigaren förplacerade en kil vid utsteget under firningsinspektion.",
+      "source": {
+        "id": "legacy:bodberget",
+        "path": "mediawiki/Bodberget.txt"
+      }
+    },
+    {
+      "id": "bodberget-led-55",
+      "kind": "route",
+      "number": "52b",
+      "name": "Kusin Vitamin",
+      "grade": "4",
+      "length": "8",
+      "type": "trad",
+      "firstAscent": "Mikael Bäckman och Torbjörn Nilsson 1982",
+      "description": "I vänsterkanten på den stora hyllan där \"Krakel Spektakel\" slutar, klättrar man upp några block och når så två tunna, parallella sprickor, som leder snett uppåt höger. Följ den grova sprickan till toppen.",
+      "source": {
+        "id": "legacy:bodberget",
+        "path": "mediawiki/Bodberget.txt"
+      }
+    },
+    {
+      "id": "bodberget-led-56",
+      "kind": "route",
+      "number": "53",
+      "name": "Krakel Spektakel",
+      "grade": "5",
+      "length": "45",
+      "type": "trad",
+      "firstAscent": "Mikael Bäckman och Torbjörn Nilsson 1982",
+      "description": "Klättra uppför lätt klippa i det stora hörnet på högra pelaren. Standplats på hyllan under det stora taket. Klättra rakt ut i sprickan under taket (stora kilar) och gå rakt upp förbi taket när det är möjligt. Vidare i en lätt ränna till en stor hylla.",
+      "source": {
+        "id": "legacy:bodberget",
+        "path": "mediawiki/Bodberget.txt"
+      }
+    },
+    {
+      "id": "bodberget-led-57",
+      "kind": "route",
+      "number": "54",
+      "name": "Theresa",
+      "grade": "6-",
+      "length": "25",
+      "type": "trad",
+      "firstAscent": "Buster Delin och Per Järnefors 1984",
+      "description": "Följer den överhängande, diagonala spricklinjen på väggen t h om \"Krakel Spektakel\". Sedan viker man av åt vänster uppför ett kort sva och klättrar sedan det överhängande diedret ovanför.",
+      "source": {
+        "id": "legacy:bodberget",
+        "path": "mediawiki/Bodberget.txt"
+      }
+    }
+  ],
+  "images": [
+    {
+      "filename": "Krakel.jpg",
+      "caption": "Kent Andersson på Krakel Spektakel (5), Bodberget, 1982. Foto: Per Calleberg",
+      "missing": false
+    },
+    {
+      "filename": "Bodberget.jpg",
+      "caption": "",
+      "missing": false
+    },
+    {
+      "filename": "BB_ovning.jpg",
+      "caption": "",
+      "missing": false
+    },
+    {
+      "filename": "Journey.jpg",
+      "caption": "Kent Andersson gör första fria bestigningen av Journey to Glory (4+), Bodberget, 1981. Foto: Per Calleberg",
+      "missing": false
+    },
+    {
+      "filename": "TheBisquit.jpg",
+      "caption": "Per Calleberg gör första fria bestigningen av The Bisquit 1982. Foto: Per Callebergs arkiv.",
+      "missing": false
+    },
+    {
+      "filename": "BB_plattan.jpg",
+      "caption": "",
+      "missing": false
+    },
+    {
+      "filename": "BB_kvick_ned.jpg",
+      "caption": "",
+      "missing": false
+    },
+    {
+      "filename": "%C3%96stpelaren_Bodberget.jpg",
+      "caption": "Kvicksilverpelaren på Bodberget sedd från Östpelaren. Foto: Per Calleberg",
+      "missing": true
+    },
+    {
+      "filename": "BB_kvick_ovre.jpg",
+      "caption": "",
+      "missing": false
+    },
+    {
+      "filename": "Den_Onde.jpg",
+      "caption": "Torbjörn Nilsson toppar Den onde 1982. Foto: Per Calleberg",
+      "missing": false
+    },
+    {
+      "filename": "BB_huvud.jpg",
+      "caption": "",
+      "missing": false
+    },
+    {
+      "filename": "%C3%96verhet.jpg",
+      "caption": "Kent Andersson på Överheten (A2), Bodberget, 1982. Foto: Per Callebergs arkiv",
+      "missing": true
+    },
+    {
+      "filename": "AnabolaSteroider.jpg",
+      "caption": "Mikael Bäckman gör förstabestigningen av Anabola Steroider, 1981. Foto: Per Calleberg",
+      "missing": false
+    },
+    {
+      "filename": "Domedag.jpg",
+      "caption": "Mikael Bäckman försöker friklättra Domedag, 1980. Foto: Per Calleberg",
+      "missing": false
+    },
+    {
+      "filename": "BB_ostp.jpg",
+      "caption": "",
+      "missing": false
+    },
+    {
+      "filename": "Trolldom.jpg",
+      "caption": "Torbjörn Nilsson på Flygande trolldom (5+), Bodberget, 1982. Foto: Per Calleberg",
+      "missing": false
+    }
+  ],
+  "access": {
+    "legacyText": "Det finns häckande fåglar på Bodberget vilket innebär klätterförbud fram till 1:a Augusti.",
+    "federationSlug": "bodberget"
+  },
+  "qualityIssues": [],
+  "provenance": {
+    "primarySourceId": "legacy:bodberget",
+    "sources": [
+      {
+        "id": "legacy:bodberget",
+        "title": "Sverigeföraren 2014: Bodberget",
+        "path": "mediawiki/Bodberget.txt",
+        "license": "GNU Free Documentation License",
+        "snapshotDate": "2014-01-01"
+      }
+    ]
+  }
+}

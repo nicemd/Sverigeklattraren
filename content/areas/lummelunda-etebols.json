@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 1,
+  "id": "lummelunda-etebols",
+  "slug": "lummelunda-etebols",
+  "name": "Lummelunda Etebols",
+  "description": "Ett litet boulderområde vid en mindre klint. Stenen är ganska lös, varför urtoppning kan bli ett mindre äventyr. Dock finns här ett par problem med fina linjer i hårdare sten.",
+  "coordinates": null,
+  "categories": [
+    "Gotland"
+  ],
+  "sections": [
+    {
+      "id": "allmant",
+      "title": "Allmänt",
+      "body": "Ett litet boulderområde vid en mindre klint. Stenen är ganska lös, varför urtoppning kan bli ett mindre äventyr. Dock finns här ett par problem med fina linjer i hårdare sten."
+    },
+    {
+      "id": "vagbeskrivning",
+      "title": "Vägbeskrivning",
+      "body": "Vid skylt Kinnerstugan, ta vänster från väg 149 och parkera vid den stora parkeringen. Gå mot klintkanten, de första problemen ligger vid de nedfallna blocken under taket. Det finns större nedfallna block längre ner med problem i lättare grader ."
+    },
+    {
+      "id": "problem",
+      "title": "Problem",
+      "body": "Kategori:Gotland"
+    }
+  ],
+  "routes": [
+    {
+      "id": "lummelunda-etebols-problem-1",
+      "kind": "problem",
+      "number": null,
+      "name": "Die Erste",
+      "grade": "7A",
+      "length": "",
+      "type": "Överhäng",
+      "firstAscent": "Per-Ola Nilsson",
+      "description": "Problemet startar i sprickan längst ner, långt skick till en hylla för att därefter följa areten till slutgreppet.",
+      "source": {
+        "id": "legacy:lummelunda-etebols",
+        "path": "mediawiki/Lummelunda Etebols.txt"
+      }
+    },
+    {
+      "id": "lummelunda-etebols-problem-2",
+      "kind": "problem",
+      "number": null,
+      "name": "The Other",
+      "grade": "6C+",
+      "length": "",
+      "type": "Överhäng, små sprickor",
+      "firstAscent": "Per-Ola Nilsson",
+      "description": "Startar i samma spricka som Die Erste, men går ut på den vertikala delen. Samma slutgrepp som Die Erste.",
+      "source": {
+        "id": "legacy:lummelunda-etebols",
+        "path": "mediawiki/Lummelunda Etebols.txt"
+      }
+    },
+    {
+      "id": "lummelunda-etebols-problem-3",
+      "kind": "problem",
+      "number": null,
+      "name": "Etebols Balls",
+      "grade": "7A",
+      "length": "",
+      "type": "Krimp, slopers",
+      "firstAscent": "Per-Ola Nilsson",
+      "description": "Startar inne i grottan i jugge, följer stenen ut och upp till lös urtoppning.",
+      "source": {
+        "id": "legacy:lummelunda-etebols",
+        "path": "mediawiki/Lummelunda Etebols.txt"
+      }
+    },
+    {
+      "id": "lummelunda-etebols-problem-4",
+      "kind": "problem",
+      "number": null,
+      "name": "Loose End",
+      "grade": "6B",
+      "length": "",
+      "type": "Krimp",
+      "firstAscent": "Per-Ola Nilsson",
+      "description": "Litet block nedanför klinten. Start jugge vänster hand, grepp höger hand. Upp i gaston höger, sidotag vänster, grepp hela vägen därefter. Sista biten är lös, sträck förbi detta område för urtoppning.",
+      "source": {
+        "id": "legacy:lummelunda-etebols",
+        "path": "mediawiki/Lummelunda Etebols.txt"
+      }
+    }
+  ],
+  "images": [],
+  "access": {
+    "legacyText": null,
+    "federationSlug": null
+  },
+  "qualityIssues": [],
+  "provenance": {
+    "primarySourceId": "legacy:lummelunda-etebols",
+    "sources": [
+      {
+        "id": "legacy:lummelunda-etebols",
+        "title": "Sverigeföraren 2014: Lummelunda Etebols",
+        "path": "mediawiki/Lummelunda Etebols.txt",
+        "license": "GNU Free Documentation License",
+        "snapshotDate": "2014-01-01"
+      }
+    ]
+  }
+}

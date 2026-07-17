@@ -1,0 +1,577 @@
+{
+  "schemaVersion": 1,
+  "id": "norra-rorum",
+  "slug": "norra-rorum",
+  "name": "Norra Rörum",
+  "description": "Norra Rörum är en mindre klippa i mitten av Skåne, en mil norr om Höör. Klättringen är uppdelad på två väggpartier med lite olika karaktär. Den östra väggen är brant och ca 8 meter hög, här klättrar man i sprickor och på vägg med gott om små grepp och lister. Sydväggen är mer polerad och lutar svagt inåt, här bjuds på några riktigt fina balansleder. Mestadels är det tradklättring som gäller här, men ett antal bultar finns att klippa. Toppankare byggs oftast enkelt med hjälp av träd om man har långa slingor eller statiskt rep. Anmarschen är lätt och tillgängligheten väl framme vid klippan är bästa tänkbara. Klippan ligger i skugga i princip hela dagen.",
+  "coordinates": {
+    "latitude": 56.02544230429888,
+    "longitude": 13.500051498413086
+  },
+  "categories": [
+    "Skåne"
+  ],
+  "sections": [
+    {
+      "id": "allmant",
+      "title": "Allmänt",
+      "body": "Norra Rörum är en mindre klippa i mitten av Skåne, en mil norr om Höör. Klättringen är uppdelad på två väggpartier med lite olika karaktär. Den östra väggen är brant och ca 8 meter hög, här klättrar man i sprickor och på vägg med gott om små grepp och lister. Sydväggen är mer polerad och lutar svagt inåt, här bjuds på några riktigt fina balansleder. Mestadels är det tradklättring som gäller här, men ett antal bultar finns att klippa. Toppankare byggs oftast enkelt med hjälp av träd om man har långa slingor eller statiskt rep. Anmarschen är lätt och tillgängligheten väl framme vid klippan är bästa tänkbara. Klippan ligger i skugga i princip hela dagen."
+    },
+    {
+      "id": "hitta-hit",
+      "title": "Hitta hit",
+      "body": "Från Höör kör man norrut på väg 23 mot Sösdala/Hässleholm. Ca 5 km efter Höör tar man av till vänster mot Norra Rörum. Väl inne i Norra Rörum viker man av åt höger mitt inne i byn (vid lanthandeln). Passera kyrkan och fortsätt ut ur byn, vägen går här mellan två stora åkrar. Precis när åkrarna tar slut och skogen börjar (bostadshus på höger sida) går det en liten grusväg in till vänster. Parkera i början på denna (visa hänsyn när du parkerar). Gå in på grusvägen västerut till fots ca 50 meter, där finns på vänster sida en stege över stängslet. Klättra över stegen och gå rakt över ängen tills du kommer upp på en grusväg på andra sidan (den syns redan innan du gått över ängen). Följ denna grusväg till höger ungefär 200m (du passerar en stor grop på vänster sida) tills vägen stöter på en annan nord-syd-gående grusväg. Ta vänster och följ sedan vägen tills du är framme vid klippan och vägens vändplats."
+    },
+    {
+      "id": "vaggoversikt",
+      "title": "Väggöversikt",
+      "body": "* 1-3 Södra väggen * 4-5 Östra väggen * 6-8 Boulder"
+    },
+    {
+      "id": "vagg-2",
+      "title": "Vägg 2",
+      "body": "I princip alla leder till höger om \"Botten upp\" är mer eller mindre igenmossade och blockeras av ett stort träd som drar till sig mossa, fukt, löv och annat elände."
+    },
+    {
+      "id": "vagg-5",
+      "title": "Vägg 5",
+      "body": "Det finns ett direktinsteg som projekt och då håller man sig bara inne på vertikalväggen, alltså inte stora laybacksprickan längst till höger. Grad minst 7b+(8)."
+    },
+    {
+      "id": "bouldervaggarna",
+      "title": "Boulderväggarna",
+      "body": "Kategori:Skåne"
+    }
+  ],
+  "routes": [
+    {
+      "id": "norra-rorum-led-1",
+      "kind": "route",
+      "number": "1",
+      "name": "Ledbesvär",
+      "grade": "7-",
+      "length": "8",
+      "type": "trad",
+      "firstAscent": "Anders \"Killing\" Meyer 96",
+      "description": "Lätt upp till de två parallella skålarna. Svårsäkrat krux. Utsteg till vänster om grenen. Risk för fall i hylla!",
+      "source": {
+        "id": "legacy:norra-rorum",
+        "path": "mediawiki/Norra Rörum.txt"
+      }
+    },
+    {
+      "id": "norra-rorum-led-2",
+      "kind": "route",
+      "number": "2",
+      "name": "Smulan",
+      "grade": "5",
+      "length": "8",
+      "type": "trad",
+      "firstAscent": "Torbjörn Friberg 96",
+      "description": "",
+      "source": {
+        "id": "legacy:norra-rorum",
+        "path": "mediawiki/Norra Rörum.txt"
+      }
+    },
+    {
+      "id": "norra-rorum-led-3",
+      "kind": "route",
+      "number": "3",
+      "name": "Kejsarens baksmälla",
+      "grade": "3",
+      "length": "8",
+      "type": "trad",
+      "firstAscent": "Bernt Wagner",
+      "description": "Lätt led på den inte direkt jätteimponerande kanten.",
+      "source": {
+        "id": "legacy:norra-rorum",
+        "path": "mediawiki/Norra Rörum.txt"
+      }
+    },
+    {
+      "id": "norra-rorum-led-4",
+      "kind": "route",
+      "number": "1",
+      "name": "Return of the man",
+      "grade": "6",
+      "length": "12",
+      "type": "mix",
+      "firstAscent": "Torbjörna Friberg",
+      "description": "Insteg på hyllan, vik sedan av åt höger in till den lilla diedern.",
+      "source": {
+        "id": "legacy:norra-rorum",
+        "path": "mediawiki/Norra Rörum.txt"
+      }
+    },
+    {
+      "id": "norra-rorum-led-5",
+      "kind": "route",
+      "number": "2",
+      "name": "Drottningens framfall",
+      "grade": "4-",
+      "length": "",
+      "type": "trad",
+      "firstAscent": "Martin Weberg 06",
+      "description": "Start i småsprickor, följ sedan uppbruten klippa rakt upp. Utsteget i sprickan till vänster är kruxet. Osäker gradering.",
+      "source": {
+        "id": "legacy:norra-rorum",
+        "path": "mediawiki/Norra Rörum.txt"
+      }
+    },
+    {
+      "id": "norra-rorum-led-6",
+      "kind": "route",
+      "number": "3",
+      "name": "Direktinsteget",
+      "grade": "7-",
+      "length": "14",
+      "type": "mix",
+      "firstAscent": "Claes Cramer",
+      "description": "Instegsvariant till \"Myrslok\".",
+      "source": {
+        "id": "legacy:norra-rorum",
+        "path": "mediawiki/Norra Rörum.txt"
+      }
+    },
+    {
+      "id": "norra-rorum-led-7",
+      "kind": "route",
+      "number": "4",
+      "name": "Myrslok",
+      "grade": "6-",
+      "length": "14",
+      "type": "sport",
+      "firstAscent": "Benjamin Ehman",
+      "description": "Gå rakt upp till första bulten. Efter första bb. gå lite snett vänster och sen rakt upp. En av de trevligare lederna i Norra Rörum. Firningsankare.",
+      "source": {
+        "id": "legacy:norra-rorum",
+        "path": "mediawiki/Norra Rörum.txt"
+      }
+    },
+    {
+      "id": "norra-rorum-led-8",
+      "kind": "route",
+      "number": "5",
+      "name": "Pissmyrornas hämnd",
+      "grade": "7-",
+      "length": "14",
+      "type": "sport",
+      "firstAscent": "Daniel Ehman",
+      "description": "Samma insteg som \"Myrslok\", men där \"Myrslok\" viker av lite åt vänster fortsätter denna rakt upp och snart kommer ett svakrux. Ganska desperat krux. Firningsankare.",
+      "source": {
+        "id": "legacy:norra-rorum",
+        "path": "mediawiki/Norra Rörum.txt"
+      }
+    },
+    {
+      "id": "norra-rorum-led-9",
+      "kind": "route",
+      "number": "6",
+      "name": "Botten upp",
+      "grade": "5",
+      "length": "12",
+      "type": "trad",
+      "firstAscent": "Bernt Wagner",
+      "description": "Följ den markanta sprickan hela vägen. Berget är poröst och kan gå sönder om man faller på kilar. svårsäkrad.",
+      "source": {
+        "id": "legacy:norra-rorum",
+        "path": "mediawiki/Norra Rörum.txt"
+      }
+    },
+    {
+      "id": "norra-rorum-led-10",
+      "kind": "route",
+      "number": "7",
+      "name": "Mosquito wins",
+      "grade": "6+",
+      "length": "12",
+      "type": "trad",
+      "firstAscent": "Mats Larsson",
+      "description": "Lätt i början. Lurig och svår att on-sighta!",
+      "source": {
+        "id": "legacy:norra-rorum",
+        "path": "mediawiki/Norra Rörum.txt"
+      }
+    },
+    {
+      "id": "norra-rorum-led-11",
+      "kind": "route",
+      "number": "8",
+      "name": "Fribergs & Larssons led",
+      "grade": "6-",
+      "length": "12",
+      "type": "mix",
+      "firstAscent": "Torbjörn Friberg",
+      "description": "Rolig led mitt på väggen. Bultarna ska kompletteras med kil.",
+      "source": {
+        "id": "legacy:norra-rorum",
+        "path": "mediawiki/Norra Rörum.txt"
+      }
+    },
+    {
+      "id": "norra-rorum-led-12",
+      "kind": "route",
+      "number": "9",
+      "name": "Screaming Orgasm",
+      "grade": "5+",
+      "length": "12",
+      "type": "",
+      "firstAscent": "Bernt Wagner",
+      "description": "Vägg- och sprickklättring. Sparsamt säkrad i början, men bättre mot slutet.",
+      "source": {
+        "id": "legacy:norra-rorum",
+        "path": "mediawiki/Norra Rörum.txt"
+      }
+    },
+    {
+      "id": "norra-rorum-led-13",
+      "kind": "route",
+      "number": "10",
+      "name": "Sumpråtta",
+      "grade": "6-",
+      "length": "10",
+      "type": "trad",
+      "firstAscent": "Bernt Wagner",
+      "description": "Krux i starten, säkras med kilar.",
+      "source": {
+        "id": "legacy:norra-rorum",
+        "path": "mediawiki/Norra Rörum.txt"
+      }
+    },
+    {
+      "id": "norra-rorum-led-14",
+      "kind": "route",
+      "number": "11",
+      "name": "Skalman",
+      "grade": "5-",
+      "length": "8",
+      "type": "",
+      "firstAscent": "Benjamin Ehman",
+      "description": "Går utmed högra hörnet av väggen, sparsamt säkrad.",
+      "source": {
+        "id": "legacy:norra-rorum",
+        "path": "mediawiki/Norra Rörum.txt"
+      }
+    },
+    {
+      "id": "norra-rorum-led-15",
+      "kind": "route",
+      "number": "1",
+      "name": "Klarälven",
+      "grade": "5-",
+      "length": "8",
+      "type": "trad",
+      "firstAscent": "Petter Åsander 06",
+      "description": "Följer först \"Baksprickan\" upp halvvägs ungefär, sedan viker man av åt vänster förbi ett fint layback. Välsäkrad med kilar och friends. Osäker gradering.",
+      "source": {
+        "id": "legacy:norra-rorum",
+        "path": "mediawiki/Norra Rörum.txt"
+      }
+    },
+    {
+      "id": "norra-rorum-led-16",
+      "kind": "route",
+      "number": "2",
+      "name": "Baksprickan",
+      "grade": "4-",
+      "length": "8",
+      "type": "trad",
+      "firstAscent": "?",
+      "description": "Följer högra sprickan rakt upp. Välsäkrad med kilar och friends.",
+      "source": {
+        "id": "legacy:norra-rorum",
+        "path": "mediawiki/Norra Rörum.txt"
+      }
+    },
+    {
+      "id": "norra-rorum-led-17",
+      "kind": "route",
+      "number": "3",
+      "name": "En myra och en etta",
+      "grade": "6-",
+      "length": "8",
+      "type": "trad",
+      "firstAscent": "Claes Cramer",
+      "description": "Klättring upp i en tunn spricka ute på den lilla pelaren. (Osäkert exakt var leden går)",
+      "source": {
+        "id": "legacy:norra-rorum",
+        "path": "mediawiki/Norra Rörum.txt"
+      }
+    },
+    {
+      "id": "norra-rorum-led-18",
+      "kind": "route",
+      "number": "1",
+      "name": "Nere för vadsomhelst",
+      "grade": "4",
+      "length": "",
+      "type": "trad",
+      "firstAscent": "Petter Åsander 06",
+      "description": "En tydlig lite sick-sackande spricka. Osäker gradering.",
+      "source": {
+        "id": "legacy:norra-rorum",
+        "path": "mediawiki/Norra Rörum.txt"
+      }
+    },
+    {
+      "id": "norra-rorum-led-19",
+      "kind": "route",
+      "number": "1",
+      "name": "Börnis bravader",
+      "grade": "7",
+      "length": "7",
+      "type": "sport",
+      "firstAscent": "Bernt Wagner 91",
+      "description": "Väggklättring mitt på vänstra väggen. Säkras med en borrbult.",
+      "source": {
+        "id": "legacy:norra-rorum",
+        "path": "mediawiki/Norra Rörum.txt"
+      }
+    },
+    {
+      "id": "norra-rorum-led-20",
+      "kind": "route",
+      "number": "2",
+      "name": "Hot shot",
+      "grade": "8-",
+      "length": "7",
+      "type": "sport",
+      "firstAscent": "Bernt Wagner 92",
+      "description": "Tuff led till höger om \"Börnis bravader\". Sliter hårt på fingrarna och säkras med två borrbultar.",
+      "source": {
+        "id": "legacy:norra-rorum",
+        "path": "mediawiki/Norra Rörum.txt"
+      }
+    },
+    {
+      "id": "norra-rorum-led-21",
+      "kind": "route",
+      "number": "3",
+      "name": "Långa bollar på Bengt",
+      "grade": "7-",
+      "length": "8",
+      "type": "sport",
+      "firstAscent": "Patrik Lind 92",
+      "description": "Tung väggklätting med krux på insteget, andra krux vid borrbulten som är enda säkringen.",
+      "source": {
+        "id": "legacy:norra-rorum",
+        "path": "mediawiki/Norra Rörum.txt"
+      }
+    },
+    {
+      "id": "norra-rorum-led-22",
+      "kind": "route",
+      "number": "4",
+      "name": "Gröngöling",
+      "grade": "6-",
+      "length": "8",
+      "type": "trad",
+      "firstAscent": "Bernt Wagner 91",
+      "description": "Följer sprickan rakt upp till flaket som viker av åt vänster. Sparsamt säkrad.",
+      "source": {
+        "id": "legacy:norra-rorum",
+        "path": "mediawiki/Norra Rörum.txt"
+      }
+    },
+    {
+      "id": "norra-rorum-led-23",
+      "kind": "route",
+      "number": "5",
+      "name": "Raka rör",
+      "grade": "6",
+      "length": "8",
+      "type": "trad",
+      "firstAscent": "Daniel Ehman 91",
+      "description": "Följer sprickan åt höger. Krux vid utsteget.",
+      "source": {
+        "id": "legacy:norra-rorum",
+        "path": "mediawiki/Norra Rörum.txt"
+      }
+    },
+    {
+      "id": "norra-rorum-led-24",
+      "kind": "route",
+      "number": "6",
+      "name": "Bamsefar",
+      "grade": "6",
+      "length": "8",
+      "type": "trad",
+      "firstAscent": "Benjamin Ehman 92",
+      "description": "Rakt upp för väggens högra del. Samma utsteg som \"Raka rör\", som också är kruxet.",
+      "source": {
+        "id": "legacy:norra-rorum",
+        "path": "mediawiki/Norra Rörum.txt"
+      }
+    },
+    {
+      "id": "norra-rorum-led-25",
+      "kind": "route",
+      "number": "7",
+      "name": "Traversen",
+      "grade": "?",
+      "length": "",
+      "type": "trad",
+      "firstAscent": "Daniel Ehman, Benjamin Ehman & P Lind 91",
+      "description": "",
+      "source": {
+        "id": "legacy:norra-rorum",
+        "path": "mediawiki/Norra Rörum.txt"
+      }
+    },
+    {
+      "id": "norra-rorum-led-26",
+      "kind": "route",
+      "number": "1",
+      "name": "Namnlös",
+      "grade": "?",
+      "length": "",
+      "type": "",
+      "firstAscent": "",
+      "description": "Rakt uppför klippan, till höger om det lilla hörnet.",
+      "source": {
+        "id": "legacy:norra-rorum",
+        "path": "mediawiki/Norra Rörum.txt"
+      }
+    },
+    {
+      "id": "norra-rorum-led-27",
+      "kind": "route",
+      "number": "2",
+      "name": "Namnlös",
+      "grade": "?",
+      "length": "",
+      "type": "",
+      "firstAscent": "",
+      "description": "Startar någon meter från hörnet, tuff catch innan toppen.",
+      "source": {
+        "id": "legacy:norra-rorum",
+        "path": "mediawiki/Norra Rörum.txt"
+      }
+    },
+    {
+      "id": "norra-rorum-led-28",
+      "kind": "route",
+      "number": "3",
+      "name": "Namnlös",
+      "grade": "?",
+      "length": "",
+      "type": "",
+      "firstAscent": "",
+      "description": "Travers på klippans nedre del.",
+      "source": {
+        "id": "legacy:norra-rorum",
+        "path": "mediawiki/Norra Rörum.txt"
+      }
+    },
+    {
+      "id": "norra-rorum-led-29",
+      "kind": "route",
+      "number": "4",
+      "name": "Travers pervers",
+      "grade": "?",
+      "length": "",
+      "type": "",
+      "firstAscent": "",
+      "description": "Tung travers fram och tillbaka strax ovanför marken. Lätt överhängande.",
+      "source": {
+        "id": "legacy:norra-rorum",
+        "path": "mediawiki/Norra Rörum.txt"
+      }
+    },
+    {
+      "id": "norra-rorum-led-30",
+      "kind": "route",
+      "number": "5",
+      "name": "Namnlös",
+      "grade": "?",
+      "length": "",
+      "type": "",
+      "firstAscent": "",
+      "description": "Rakt uppför det rena partiet till höger på klippan.",
+      "source": {
+        "id": "legacy:norra-rorum",
+        "path": "mediawiki/Norra Rörum.txt"
+      }
+    }
+  ],
+  "images": [
+    {
+      "filename": "Nrorum.jpg",
+      "caption": "Nick Baker, [[Klarälven",
+      "missing": false
+    },
+    {
+      "filename": "Nrorumoversikt20130715.gif",
+      "caption": "",
+      "missing": false
+    },
+    {
+      "filename": "Nrorum_oversikt.png",
+      "caption": "",
+      "missing": false
+    },
+    {
+      "filename": "Nrorum_vagg1.png",
+      "caption": "",
+      "missing": false
+    },
+    {
+      "filename": "Nrorum_vagg2.png",
+      "caption": "",
+      "missing": false
+    },
+    {
+      "filename": "Nrorum_foto_vagg2.jpg",
+      "caption": "Foto av vägg 2, ganska igenvuxen just vid fototillfället",
+      "missing": false
+    },
+    {
+      "filename": "Nrorum_vagg3.png",
+      "caption": "",
+      "missing": false
+    },
+    {
+      "filename": "Nrorum_vagg4.png",
+      "caption": "",
+      "missing": false
+    },
+    {
+      "filename": "Nrorum_vagg5.png",
+      "caption": "",
+      "missing": false
+    },
+    {
+      "filename": "Nrorum_foto_vagg5a.jpg",
+      "caption": "Vänstra delen av vägg 5",
+      "missing": false
+    },
+    {
+      "filename": "Nrorum_foto_vagg5b.jpg",
+      "caption": "Högra delen av vägg 5",
+      "missing": false
+    },
+    {
+      "filename": "Nrorum_boulders.png",
+      "caption": "",
+      "missing": false
+    }
+  ],
+  "access": {
+    "legacyText": null,
+    "federationSlug": null
+  },
+  "qualityIssues": [],
+  "provenance": {
+    "primarySourceId": "legacy:norra-rorum",
+    "sources": [
+      {
+        "id": "legacy:norra-rorum",
+        "title": "Sverigeföraren 2014: Norra Rörum",
+        "path": "mediawiki/Norra Rörum.txt",
+        "license": "GNU Free Documentation License",
+        "snapshotDate": "2014-01-01"
+      }
+    ]
+  }
+}

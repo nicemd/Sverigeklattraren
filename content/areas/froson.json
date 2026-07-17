@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "id": "froson",
+  "slug": "froson",
+  "name": "Frösön",
+  "description": "Klätterklippa på cykelavstånd från centrala Östersund.",
+  "coordinates": {
+    "latitude": 63.19277978350721,
+    "longitude": 14.604778289794922
+  },
+  "categories": [
+    "Jämtland"
+  ],
+  "sections": [
+    {
+      "id": "allmant",
+      "title": "Allmänt",
+      "body": "Klätterklippa på cykelavstånd från centrala Östersund."
+    }
+  ],
+  "routes": [],
+  "images": [],
+  "access": {
+    "legacyText": null,
+    "federationSlug": null
+  },
+  "qualityIssues": [],
+  "provenance": {
+    "primarySourceId": "legacy:froson",
+    "sources": [
+      {
+        "id": "legacy:froson",
+        "title": "Sverigeföraren 2014: Frösön",
+        "path": "mediawiki/Frösön.txt",
+        "license": "GNU Free Documentation License",
+        "snapshotDate": "2014-01-01"
+      }
+    ]
+  }
+}

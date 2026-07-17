@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "id": "tasterods-vatten",
+  "slug": "tasterods-vatten",
+  "name": "Tåsteröds vatten",
+  "description": "Från Bärfendal mot Bovallstrand på väg 174. Höger mot Bottna och uppför en brant backe. Parkera på toppen av backen, vänster sida. Parkera så traktorn kan komma förbi. Fortsätt till fots på vägen och ta vänster vid binghultsskylten, på en traktorstig. Följ denna över ett kalhygge över en kulle och det går nedåt, mot Tåsteröds vatten. Berget ligger nedåt vänster och vetter söderut mot sjön.",
+  "coordinates": null,
+  "categories": [
+    "Bohuslän"
+  ],
+  "sections": [
+    {
+      "id": "introduktion",
+      "title": "Introduktion",
+      "body": "På"
+    },
+    {
+      "id": "karaktar",
+      "title": "Karaktär",
+      "body": "Sydvänt men stora träd skuggar nederdelen av klippan."
+    },
+    {
+      "id": "vagbeskrivning",
+      "title": "Vägbeskrivning",
+      "body": "Från Bärfendal mot Bovallstrand på väg 174. Höger mot Bottna och uppför en brant backe. Parkera på toppen av backen, vänster sida. Parkera så traktorn kan komma förbi. Fortsätt till fots på vägen och ta vänster vid binghultsskylten, på en traktorstig. Följ denna över ett kalhygge över en kulle och det går nedåt, mot Tåsteröds vatten. Berget ligger nedåt vänster och vetter söderut mot sjön."
+    }
+  ],
+  "routes": [
+    {
+      "id": "tasterods-vatten-led-1",
+      "kind": "route",
+      "number": null,
+      "name": "Fredagsflex",
+      "grade": "7",
+      "length": "10",
+      "type": "trad",
+      "firstAscent": "Ann-Sofie andersson",
+      "description": "Tunn spricka på lilla väggen. Något svårsäkrad och intensiv i början. Rp`s kan hjälpa dig.",
+      "source": {
+        "id": "legacy:tasterods-vatten",
+        "path": "mediawiki/Tåsteröds vatten.txt"
+      }
+    }
+  ],
+  "images": [],
+  "access": {
+    "legacyText": null,
+    "federationSlug": null
+  },
+  "qualityIssues": [
+    {
+      "code": "invalid_coordinates",
+      "message": "Originalet innehåller ogiltiga koordinater: –, –."
+    }
+  ],
+  "provenance": {
+    "primarySourceId": "legacy:tasterods-vatten",
+    "sources": [
+      {
+        "id": "legacy:tasterods-vatten",
+        "title": "Sverigeföraren 2014: Tåsteröds vatten",
+        "path": "mediawiki/Tåsteröds vatten.txt",
+        "license": "GNU Free Documentation License",
+        "snapshotDate": "2014-01-01"
+      }
+    ]
+  }
+}

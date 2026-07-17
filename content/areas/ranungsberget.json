@@ -1,0 +1,90 @@
+{
+  "schemaVersion": 1,
+  "id": "ranungsberget",
+  "slug": "ranungsberget",
+  "name": "Ranungsberget",
+  "description": "Berget karakteriseras av svahällar, men det finns också kortare sprickturer att göra. Även någon kamin eller väggtur kan locka den inbitne. Två inte alltför mossiga väggar bildar bergets sydvägg, vars högsta höjd är ca 40 m. På den vänstra väggen finns möjlighet till flera svåra sva/väggturer och långa sprickturer. Nedanför berget finns en badplats och dessutom finns här tältmöjligheter.",
+  "coordinates": {
+    "latitude": 61.83671,
+    "longitude": 16.003647
+  },
+  "categories": [
+    "Hälsingland",
+    "Saknar karta",
+    "Saknar leder",
+    "Trad"
+  ],
+  "sections": [
+    {
+      "id": "allmant",
+      "title": "Allmänt",
+      "body": "Berget karakteriseras av svahällar, men det finns också kortare sprickturer att göra. Även någon kamin eller väggtur kan locka den inbitne. Två inte alltför mossiga väggar bildar bergets sydvägg, vars högsta höjd är ca 40 m. På den vänstra väggen finns möjlighet till flera svåra sva/väggturer och långa sprickturer. Nedanför berget finns en badplats och dessutom finns här tältmöjligheter."
+    },
+    {
+      "id": "kommunikationer",
+      "title": "Kommunikationer",
+      "body": "Berget är beläget norr om Ranugnssjön, ca en mil väster om Ljusdal. Med bil; Man följer vägen från Ljusdal till Föne och tar till höger vid en bro strax innan Ranugnssjön. Följ vägen till sjön och parkera i närheten av en av mötesplatserna nedanför branten."
+    },
+    {
+      "id": "sydvaggen",
+      "title": "Sydväggen",
+      "body": "Kategori:Saknar leder Kategori:Saknar karta Kategori:Hälsingland Kategori:Trad Kategori:Hälsingland"
+    }
+  ],
+  "routes": [
+    {
+      "id": "ranungsberget-led-1",
+      "kind": "route",
+      "number": null,
+      "name": "Buenos Wires",
+      "grade": "5,5+",
+      "length": "",
+      "type": "",
+      "firstAscent": "Olle och Erik Zeidlitz -93",
+      "description": "Fin, tunn spricka",
+      "source": {
+        "id": "legacy:ranungsberget",
+        "path": "mediawiki/Ranungsberget.txt"
+      }
+    },
+    {
+      "id": "ranungsberget-led-2",
+      "kind": "route",
+      "number": null,
+      "name": "Psykopompus",
+      "grade": "2,5",
+      "length": "",
+      "type": "",
+      "firstAscent": "Olle och Erik Zeidlitz -93",
+      "description": "Flak/Svatur",
+      "source": {
+        "id": "legacy:ranungsberget",
+        "path": "mediawiki/Ranungsberget.txt"
+      }
+    }
+  ],
+  "images": [
+    {
+      "filename": "Ranungs.jpg",
+      "caption": "",
+      "missing": false
+    }
+  ],
+  "access": {
+    "legacyText": null,
+    "federationSlug": null
+  },
+  "qualityIssues": [],
+  "provenance": {
+    "primarySourceId": "legacy:ranungsberget",
+    "sources": [
+      {
+        "id": "legacy:ranungsberget",
+        "title": "Sverigeföraren 2014: Ranungsberget",
+        "path": "mediawiki/Ranungsberget.txt",
+        "license": "GNU Free Documentation License",
+        "snapshotDate": "2014-01-01"
+      }
+    ]
+  }
+}

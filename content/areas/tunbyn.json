@@ -1,0 +1,326 @@
+{
+  "schemaVersion": 1,
+  "id": "tunbyn",
+  "slug": "tunbyn",
+  "name": "Tunbyn",
+  "description": "En klippa som erbjuder både sport, mix och trad. Lederna är mellan 10-20m och potential finns för riktigt hårda leder då klippan är extremt överhängande och gör rätt för sitt smeknamn \"lilla Frankenjura\".",
+  "coordinates": {
+    "latitude": 62.30302,
+    "longitude": 17.3037
+  },
+  "categories": [
+    "Medelpad",
+    "Saknar skiss",
+    "sport",
+    "trad",
+    "vertikalt",
+    "överhäng"
+  ],
+  "sections": [
+    {
+      "id": "allmant",
+      "title": "Allmänt",
+      "body": "En klippa som erbjuder både sport, mix och trad. Lederna är mellan 10-20m och potential finns för riktigt hårda leder då klippan är extremt överhängande och gör rätt för sitt smeknamn \"lilla Frankenjura\"."
+    },
+    {
+      "id": "vagbeskrivning",
+      "title": "Vägbeskrivning",
+      "body": "Sväng av E4:an mot Matfors/Nolby. Kommer du söderifrån är detta strax innan Kvissleby. Åk genom samhället (Nolby), och fortsätt 8km. Ni passerar en grusväg till höger med skyltning mot Alsta och efter ca 200m kommer en grusparkering på vänster sida. Ni följer sedan vägen ni kom på till fots ytterligare ca 200m och ni ser klippan tydligt på höger sida. Precis innan vägen svänger till höger går det in en liten igenväxt väg och där följer ni stigen rakt upp mot klippan."
+    },
+    {
+      "id": "camping",
+      "title": "Camping",
+      "body": "Mer info pågång."
+    },
+    {
+      "id": "access",
+      "title": "Access",
+      "body": "Var uppmärksam på häckande fåglar etc för att säkerställa accessen till berget. All avverkning av stora eller små träd, samt sly förbjuden utan att man först kontaktar styrelsen i Sundsvalls Klätterklubb. För mer info angående access och bultningspolicy se vår hemsida om hur man går tillväga och vad som gäller."
+    },
+    {
+      "id": "leder",
+      "title": "Leder",
+      "body": "Det finns för närvarande 16 leder/projekt av varierande karaktär."
+    },
+    {
+      "id": "retrovaggen",
+      "title": "Retroväggen",
+      "body": "Kategori:sport Kategori:trad Kategori:vertikalt Kategori:överhäng Kategori:Saknar skiss Kategori:Medelpad"
+    }
+  ],
+  "routes": [
+    {
+      "id": "tunbyn-led-1",
+      "kind": "route",
+      "number": null,
+      "name": "Rastapopoulos",
+      "grade": "5c",
+      "length": "15",
+      "type": "sport",
+      "firstAscent": "Jonas Bäckström 2010",
+      "description": "Den första leden från vänster på Tintinväggen. Följer sprickan till ankaret vid kanten",
+      "source": {
+        "id": "legacy:tunbyn",
+        "path": "mediawiki/Tunbyn.txt"
+      }
+    },
+    {
+      "id": "tunbyn-led-2",
+      "kind": "route",
+      "number": null,
+      "name": "Näktergalen från Milano",
+      "grade": "6a+",
+      "length": "15",
+      "type": "sport",
+      "firstAscent": "Johan Hedman 2012",
+      "description": "väggklättring på lister. Samma ankare som Rastapopoulos",
+      "source": {
+        "id": "legacy:tunbyn",
+        "path": "mediawiki/Tunbyn.txt"
+      }
+    },
+    {
+      "id": "tunbyn-led-3",
+      "kind": "route",
+      "number": null,
+      "name": "Rackham den Röde",
+      "grade": "6a",
+      "length": "22",
+      "type": "sport",
+      "firstAscent": "Pär Åslund 2010",
+      "description": "Följ den tydliga sprickan/flaket",
+      "source": {
+        "id": "legacy:tunbyn",
+        "path": "mediawiki/Tunbyn.txt"
+      }
+    },
+    {
+      "id": "tunbyn-led-4",
+      "kind": "route",
+      "number": null,
+      "name": "Sötvattenpirater",
+      "grade": "6b",
+      "length": "12",
+      "type": "sport",
+      "firstAscent": "Johan Hedman 2012",
+      "description": "sprickan rakt upp, bultat ankare",
+      "source": {
+        "id": "legacy:tunbyn",
+        "path": "mediawiki/Tunbyn.txt"
+      }
+    },
+    {
+      "id": "tunbyn-led-5",
+      "kind": "route",
+      "number": null,
+      "name": "Anfäkta och anamma",
+      "grade": "6c",
+      "length": "18",
+      "type": "sport",
+      "firstAscent": "David Andreasson/Johan Hedman 2011",
+      "description": "Väggklättring",
+      "source": {
+        "id": "legacy:tunbyn",
+        "path": "mediawiki/Tunbyn.txt"
+      }
+    },
+    {
+      "id": "tunbyn-led-6",
+      "kind": "route",
+      "number": null,
+      "name": "Kalkyls etiska dilemma",
+      "grade": "6b",
+      "length": "20",
+      "type": "sport",
+      "firstAscent": "Anders Lidström/Johan Hedman 2011",
+      "description": "Väggklättring upp till sprickan som tar en vidare upp till ankaret.",
+      "source": {
+        "id": "legacy:tunbyn",
+        "path": "mediawiki/Tunbyn.txt"
+      }
+    },
+    {
+      "id": "tunbyn-led-7",
+      "kind": "route",
+      "number": null,
+      "name": "Herge aretet",
+      "grade": "6a",
+      "length": "18",
+      "type": "sport",
+      "firstAscent": "Johan Hedman 2010",
+      "description": "Aretet rakt upp, bultat ankare",
+      "source": {
+        "id": "legacy:tunbyn",
+        "path": "mediawiki/Tunbyn.txt"
+      }
+    },
+    {
+      "id": "tunbyn-led-8",
+      "kind": "route",
+      "number": null,
+      "name": "Blå lotus",
+      "grade": "5+",
+      "length": "20",
+      "type": "trad",
+      "firstAscent": "Johan Hedman 2010",
+      "description": "Leden ligger runt hörnet längst ut på tintin-väggen och följer den stora sprickan. Lite off width känsla.",
+      "source": {
+        "id": "legacy:tunbyn",
+        "path": "mediawiki/Tunbyn.txt"
+      }
+    },
+    {
+      "id": "tunbyn-led-9",
+      "kind": "route",
+      "number": null,
+      "name": "Rehab för kapten Haddock",
+      "grade": "6",
+      "length": "15",
+      "type": "mix",
+      "firstAscent": "Anders Lidström 2010",
+      "description": "Följer spricklinjen och avslutar med två bultar & sedan mantla upp, bultat ankare någon meter upp på hyllan",
+      "source": {
+        "id": "legacy:tunbyn",
+        "path": "mediawiki/Tunbyn.txt"
+      }
+    },
+    {
+      "id": "tunbyn-led-10",
+      "kind": "route",
+      "number": null,
+      "name": "Bit ihop Milou",
+      "grade": "6b+",
+      "length": "15",
+      "type": "sport",
+      "firstAscent": "Johan Hedman/Peter Ålander 2010",
+      "description": "Bultat ankare",
+      "source": {
+        "id": "legacy:tunbyn",
+        "path": "mediawiki/Tunbyn.txt"
+      }
+    },
+    {
+      "id": "tunbyn-led-11",
+      "kind": "route",
+      "number": null,
+      "name": "Killen i småbyxorna",
+      "grade": "6-",
+      "length": "15",
+      "type": "trad",
+      "firstAscent": "Peter Ålander 2010",
+      "description": "Följer överhängande spricklinjen, bultat ankare",
+      "source": {
+        "id": "legacy:tunbyn",
+        "path": "mediawiki/Tunbyn.txt"
+      }
+    },
+    {
+      "id": "tunbyn-led-12",
+      "kind": "route",
+      "number": null,
+      "name": "Bohuslänsk skitnödig",
+      "grade": "7",
+      "length": "15",
+      "type": "trad",
+      "firstAscent": "Johan Hedman 2013",
+      "description": "Följer överhängande spricklinjen, bultat ankare",
+      "source": {
+        "id": "legacy:tunbyn",
+        "path": "mediawiki/Tunbyn.txt"
+      }
+    },
+    {
+      "id": "tunbyn-led-13",
+      "kind": "route",
+      "number": null,
+      "name": "Tintin hos Gerillan",
+      "grade": "7a+",
+      "length": "12",
+      "type": "sport",
+      "firstAscent": "Peter Schybbie 2012",
+      "description": "Start vid spricka, rakt upp bultat ankare.",
+      "source": {
+        "id": "legacy:tunbyn",
+        "path": "mediawiki/Tunbyn.txt"
+      }
+    },
+    {
+      "id": "tunbyn-led-14",
+      "kind": "route",
+      "number": null,
+      "name": "Frankenstein",
+      "grade": "7a",
+      "length": "12",
+      "type": "sport",
+      "firstAscent": "Ola Lindström 1995",
+      "description": "Start vid blocket, rakt upp bultat ankare. Retrosopad 2010",
+      "source": {
+        "id": "legacy:tunbyn",
+        "path": "mediawiki/Tunbyn.txt"
+      }
+    },
+    {
+      "id": "tunbyn-led-15",
+      "kind": "route",
+      "number": null,
+      "name": "Frankie goes to Hollywood",
+      "grade": "6c",
+      "length": "12",
+      "type": "sport",
+      "firstAscent": "Ola Lindström 1995",
+      "description": "Retrosopad 2010. Lättare om man är lång.",
+      "source": {
+        "id": "legacy:tunbyn",
+        "path": "mediawiki/Tunbyn.txt"
+      }
+    },
+    {
+      "id": "tunbyn-led-16",
+      "kind": "route",
+      "number": null,
+      "name": "?",
+      "grade": "?",
+      "length": "12",
+      "type": "sport",
+      "firstAscent": "? ?",
+      "description": "Projekt",
+      "source": {
+        "id": "legacy:tunbyn",
+        "path": "mediawiki/Tunbyn.txt"
+      }
+    },
+    {
+      "id": "tunbyn-led-17",
+      "kind": "route",
+      "number": null,
+      "name": "Frankenjura",
+      "grade": "?",
+      "length": "10",
+      "type": "sport",
+      "firstAscent": "Daniel Nordström 1995",
+      "description": "Rakt upp, bultat ankare. Retrosopad 2010",
+      "source": {
+        "id": "legacy:tunbyn",
+        "path": "mediawiki/Tunbyn.txt"
+      }
+    }
+  ],
+  "images": [],
+  "access": {
+    "legacyText": "Var uppmärksam på häckande fåglar etc för att säkerställa accessen till berget. All avverkning av stora eller små träd, samt sly förbjuden utan att man först kontaktar styrelsen i Sundsvalls Klätterklubb. För mer info angående access och bultningspolicy se vår hemsida om hur man går tillväga och vad som gäller.",
+    "federationSlug": "tunomsberget"
+  },
+  "qualityIssues": [],
+  "provenance": {
+    "primarySourceId": "legacy:tunbyn",
+    "sources": [
+      {
+        "id": "legacy:tunbyn",
+        "title": "Sverigeföraren 2014: Tunbyn",
+        "path": "mediawiki/Tunbyn.txt",
+        "license": "GNU Free Documentation License",
+        "snapshotDate": "2014-01-01"
+      }
+    ]
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 1,
+  "id": "hillevik",
+  "slug": "hillevik",
+  "name": "Hillevik",
+  "description": "Kategori:Saknar allmän info =Vägbeskrivning= För att komma till blocket där HilleBay problemen går kör ni samma väg som till Eskön. När ni svängt av gamla E4:an mot Eskön så tar ni höger in på en grusväg i en skarp vänster kurva några hundra meter från \"stora\" vägen. (samma väg som till Blåbärsstenarna). Kör på grusvägen och sedan första vägen vänster, kör på den nya vägen några hundra meter och ta sedan första vägen vänster. Parkera i \"korsningen\" sedan har ni blocket 10meter in i skogen på er högra sida. =Problem= Kategori:Gävle Kategori:Bouldering Kategori:Bimbo Kategori:Behöver kvalitetssäkras Kategori:Saknar karta Kategori:Saknar koordinater Kategori:Saknar skrivarformattering Kategori:Saknar skiss",
+  "coordinates": null,
+  "categories": [
+    "Behöver kvalitetssäkras",
+    "Bimbo",
+    "Bouldering",
+    "Gävle",
+    "Saknar allmän info",
+    "Saknar karta",
+    "Saknar koordinater",
+    "Saknar skiss",
+    "Saknar skrivarformattering"
+  ],
+  "sections": [],
+  "routes": [
+    {
+      "id": "hillevik-problem-1",
+      "kind": "problem",
+      "number": "1",
+      "name": "HilleBay",
+      "grade": "6A+",
+      "length": "",
+      "type": "Krimp,Reach",
+      "firstAscent": "Ronny A",
+      "description": "Sittstart vid pilarna, med vänster hand på låga crimphyllan och höger på större gastonhyllan. Gå sedan vänster mot stora crimphyllan och upp via bullen på aréten, toppa ur rakt upp utan heelhook på högra aréten.",
+      "source": {
+        "id": "legacy:hillevik",
+        "path": "mediawiki/Hillevik.txt"
+      }
+    },
+    {
+      "id": "hillevik-problem-2",
+      "kind": "problem",
+      "number": "2",
+      "name": "H.B. Aréten",
+      "grade": "6A+",
+      "length": "",
+      "type": "Krimp,Aréte,Reach",
+      "firstAscent": "Ronny A",
+      "description": "Starta lika som HilleBay vid pilarna men gå rakt upp mot den högra lutande aréten via lilla crimpen, fortsätt sen aréten upp till toppen.",
+      "source": {
+        "id": "legacy:hillevik",
+        "path": "mediawiki/Hillevik.txt"
+      }
+    },
+    {
+      "id": "hillevik-problem-3",
+      "kind": "problem",
+      "number": "3",
+      "name": "H.B. Dynot",
+      "grade": "6C+",
+      "length": "",
+      "type": "Dyno",
+      "firstAscent": "Ronny A",
+      "description": "Starta vid pilen på den stora crimphyllan som HilleBay går förbi. Dyno rakt upp till översta hyllan utan att använda bullen på aréten.",
+      "source": {
+        "id": "legacy:hillevik",
+        "path": "mediawiki/Hillevik.txt"
+      }
+    },
+    {
+      "id": "hillevik-problem-4",
+      "kind": "problem",
+      "number": "4",
+      "name": "H.B. Slabben",
+      "grade": "6A+",
+      "length": "",
+      "type": "Krimp,Slab",
+      "firstAscent": "Ronny A",
+      "description": "Går runt hörnet till vänster sett från HilleBay. Starta vid pilen och gå rakt upp.",
+      "source": {
+        "id": "legacy:hillevik",
+        "path": "mediawiki/Hillevik.txt"
+      }
+    }
+  ],
+  "images": [],
+  "access": {
+    "legacyText": null,
+    "federationSlug": null
+  },
+  "qualityIssues": [],
+  "provenance": {
+    "primarySourceId": "legacy:hillevik",
+    "sources": [
+      {
+        "id": "legacy:hillevik",
+        "title": "Sverigeföraren 2014: Hillevik",
+        "path": "mediawiki/Hillevik.txt",
+        "license": "GNU Free Documentation License",
+        "snapshotDate": "2014-01-01"
+      }
+    ]
+  }
+}

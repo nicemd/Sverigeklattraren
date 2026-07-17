@@ -1,0 +1,132 @@
+{
+  "schemaVersion": 1,
+  "id": "smorkullen",
+  "slug": "smorkullen",
+  "name": "Smörkullen",
+  "description": "Parkera vid ladan på Röe gård och följ vandringstigen norrut ca:200m efter åkern. Klippan syns från parkeringen.",
+  "coordinates": {
+    "latitude": 58.4189,
+    "longitude": 11.43736
+  },
+  "categories": [
+    "Bohuslän"
+  ],
+  "sections": [
+    {
+      "id": "introduktion",
+      "title": "Introduktion",
+      "body": "Smörkullen"
+    },
+    {
+      "id": "karaktar",
+      "title": "Karaktär",
+      "body": "Sydvänd klippa som torkar fort efter regn."
+    },
+    {
+      "id": "vagbeskrivning",
+      "title": "Vägbeskrivning",
+      "body": "Parkera vid ladan på Röe gård och följ vandringstigen norrut ca:200m efter åkern. Klippan syns från parkeringen."
+    },
+    {
+      "id": "access",
+      "title": "Access",
+      "body": "Foto visar Smörkullen sed från parkeringen vid Röe gård."
+    },
+    {
+      "id": "rekommenderade-leder",
+      "title": "Rekommenderade leder",
+      "body": "Lederna och namn från vänster till höger på skissen Stefan Weddmark / Stefan Bäckström Stefan Bäckström / Stefan Weddmark Stefan Bäckström / Stefan Weddmark Stefan Weddmark / Stefan Bäckström category:trad category:saknar_skiss Kategori:Bohuslän --Bultfeber 21 maj 2012 kl. 09.14 (CEST)"
+    }
+  ],
+  "routes": [
+    {
+      "id": "smorkullen-led-1",
+      "kind": "route",
+      "number": null,
+      "name": "Veras led",
+      "grade": "4+ längd=15",
+      "length": "",
+      "type": "trad",
+      "firstAscent": "",
+      "description": "Svakrux på slutet, samma början som Eiras led.",
+      "source": {
+        "id": "legacy:smorkullen",
+        "path": "mediawiki/Smörkullen.txt"
+      }
+    },
+    {
+      "id": "smorkullen-led-2",
+      "kind": "route",
+      "number": null,
+      "name": "Eiras led",
+      "grade": "6- längd=15",
+      "length": "",
+      "type": "trad",
+      "firstAscent": "",
+      "description": "Svagt överhängande på slutet.",
+      "source": {
+        "id": "legacy:smorkullen",
+        "path": "mediawiki/Smörkullen.txt"
+      }
+    },
+    {
+      "id": "smorkullen-led-3",
+      "kind": "route",
+      "number": null,
+      "name": "Siris led",
+      "grade": "5+ längd=15",
+      "length": "",
+      "type": "trad",
+      "firstAscent": "",
+      "description": "Svårare än det ser ut.",
+      "source": {
+        "id": "legacy:smorkullen",
+        "path": "mediawiki/Smörkullen.txt"
+      }
+    },
+    {
+      "id": "smorkullen-led-4",
+      "kind": "route",
+      "number": null,
+      "name": "Moas led",
+      "grade": "6- längd=15",
+      "length": "",
+      "type": "trad",
+      "firstAscent": "",
+      "description": "Hårdare än det ser ut, samma utsteg som Siris led.",
+      "source": {
+        "id": "legacy:smorkullen",
+        "path": "mediawiki/Smörkullen.txt"
+      }
+    }
+  ],
+  "images": [
+    {
+      "filename": "Smör.jpg",
+      "caption": "",
+      "missing": false
+    },
+    {
+      "filename": "Smörkullen_översikt2.jpg",
+      "caption": "",
+      "missing": false
+    }
+  ],
+  "access": {
+    "legacyText": "Foto visar Smörkullen sed från parkeringen vid Röe gård.",
+    "federationSlug": null
+  },
+  "qualityIssues": [],
+  "provenance": {
+    "primarySourceId": "legacy:smorkullen",
+    "sources": [
+      {
+        "id": "legacy:smorkullen",
+        "title": "Sverigeföraren 2014: Smörkullen",
+        "path": "mediawiki/Smörkullen.txt",
+        "license": "GNU Free Documentation License",
+        "snapshotDate": "2014-01-01"
+      }
+    ]
+  }
+}

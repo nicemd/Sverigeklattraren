@@ -1,0 +1,131 @@
+{
+  "schemaVersion": 1,
+  "id": "noret-bimbo",
+  "slug": "noret-bimbo",
+  "name": "Noret (bimbo)",
+  "description": "Kategori:Saknar allmän infoKategori:Saknar vägbeskrivning =Problem= Kategori:Stockholm Kategori:Bouldering Kategori:Bimbo Kategori:Behöver kvalitetssäkras Kategori:Saknar karta Kategori:Saknar koordinater Kategori:Saknar skrivarformattering Kategori:Saknar skiss",
+  "coordinates": null,
+  "categories": [
+    "Behöver kvalitetssäkras",
+    "Bimbo",
+    "Bouldering",
+    "Saknar allmän info",
+    "Saknar karta",
+    "Saknar koordinater",
+    "Saknar skiss",
+    "Saknar skrivarformattering",
+    "Saknar vägbeskrivning",
+    "Stockholm"
+  ],
+  "sections": [],
+  "routes": [
+    {
+      "id": "noret-bimbo-problem-1",
+      "kind": "problem",
+      "number": null,
+      "name": "Enigma",
+      "grade": "8A+",
+      "length": "",
+      "type": "Överhäng",
+      "firstAscent": "Stefan Petterson",
+      "description": "Den uppenbara linjen rakt framför parkeringen. Går ej att missa. Brant överhäng med hård start.",
+      "source": {
+        "id": "legacy:noret-bimbo",
+        "path": "mediawiki/Noret (bimbo).txt"
+      }
+    },
+    {
+      "id": "noret-bimbo-problem-2",
+      "kind": "problem",
+      "number": null,
+      "name": "Megagrip",
+      "grade": "7C+",
+      "length": "",
+      "type": "Överhäng,Aréte",
+      "firstAscent": "Stefan Pettersson",
+      "description": "Arêten vä om Enigma, start på ett undercling.",
+      "source": {
+        "id": "legacy:noret-bimbo",
+        "path": "mediawiki/Noret (bimbo).txt"
+      }
+    },
+    {
+      "id": "noret-bimbo-problem-3",
+      "kind": "problem",
+      "number": null,
+      "name": "Frasradikal",
+      "grade": "6C+",
+      "length": "",
+      "type": "",
+      "firstAscent": "Jon S, Sydde, Stefan Eklund",
+      "description": "Ståstart till höger om Minigrip. Baksidan av Enigma. SS: lätt 7a.",
+      "source": {
+        "id": "legacy:noret-bimbo",
+        "path": "mediawiki/Noret (bimbo).txt"
+      }
+    },
+    {
+      "id": "noret-bimbo-problem-4",
+      "kind": "problem",
+      "number": null,
+      "name": "Borgarbrackor",
+      "grade": "6C",
+      "length": "",
+      "type": "",
+      "firstAscent": "Jon S",
+      "description": "Till höger om Frasrafikal strax vänster om areten.",
+      "source": {
+        "id": "legacy:noret-bimbo",
+        "path": "mediawiki/Noret (bimbo).txt"
+      }
+    },
+    {
+      "id": "noret-bimbo-problem-5",
+      "kind": "problem",
+      "number": null,
+      "name": "Minigrip",
+      "grade": "7B+",
+      "length": "",
+      "type": "Krimp",
+      "firstAscent": "Sydde",
+      "description": "Mitt på baksidan av Enigmablocket, start med två tiny crimpsidtag och skicka ut vä till bra grepp, sen upp till jug.",
+      "source": {
+        "id": "legacy:noret-bimbo",
+        "path": "mediawiki/Noret (bimbo).txt"
+      }
+    },
+    {
+      "id": "noret-bimbo-problem-6",
+      "kind": "problem",
+      "number": null,
+      "name": "Bergakungen",
+      "grade": "7B",
+      "length": "",
+      "type": "",
+      "firstAscent": "Peter Lindmark",
+      "description": "Överhäng på baksida om sten tv om enigmablocket. Start typ SS med VH på örat. Sedan rakt upp svagt åt höger.",
+      "source": {
+        "id": "legacy:noret-bimbo",
+        "path": "mediawiki/Noret (bimbo).txt"
+      }
+    }
+  ],
+  "images": [],
+  "access": {
+    "legacyText": null,
+    "federationSlug": null
+  },
+  "qualityIssues": [],
+  "provenance": {
+    "primarySourceId": "legacy:noret-bimbo",
+    "sources": [
+      {
+        "id": "legacy:noret-bimbo",
+        "title": "Sverigeföraren 2014: Noret (bimbo)",
+        "path": "mediawiki/Noret (bimbo).txt",
+        "license": "GNU Free Documentation License",
+        "snapshotDate": "2014-01-01"
+      }
+    ]
+  }
+}

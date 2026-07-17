@@ -1,0 +1,171 @@
+{
+  "schemaVersion": 1,
+  "id": "hakered",
+  "slug": "hakered",
+  "name": "Hakered",
+  "description": "Kategori:Göteborg Category:sport category:vertikalt Category:överhäng",
+  "coordinates": {
+    "latitude": 57.85114,
+    "longitude": 11.96779
+  },
+  "categories": [
+    "Göteborg"
+  ],
+  "sections": [
+    {
+      "id": "om-klippan",
+      "title": "Om klippan",
+      "body": "Olagligt bultade turer på en fornborg (skyddad enl fornminneslagen). Kunde blivit en katastrof för Göteborgsklättringen men det löste sig som genom ett mirakel. Nybultning här är TOTALFÖRBJUDET! Och vidare klättring högst tveksamt..."
+    },
+    {
+      "id": "access",
+      "title": "Access",
+      "body": "Se ovan. På grund av älgjakt bör klättrare hålla uppsyn för jägare."
+    },
+    {
+      "id": "leder",
+      "title": "Leder",
+      "body": "Se topo: http://www.gbg-guiden.info/site/archives/hakered_v11.pdf"
+    }
+  ],
+  "routes": [
+    {
+      "id": "hakered-led-1",
+      "kind": "route",
+      "number": null,
+      "name": "Aggresif",
+      "grade": "5c+",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "Ludwig Hansson och Jens Larssen",
+      "description": "",
+      "source": {
+        "id": "legacy:hakered",
+        "path": "mediawiki/Hakered.txt"
+      }
+    },
+    {
+      "id": "hakered-led-2",
+      "kind": "route",
+      "number": null,
+      "name": "-9°",
+      "grade": "7a",
+      "length": "",
+      "type": "",
+      "firstAscent": "Ludwig Hansson och Jens Larssen",
+      "description": "",
+      "source": {
+        "id": "legacy:hakered",
+        "path": "mediawiki/Hakered.txt"
+      }
+    },
+    {
+      "id": "hakered-led-3",
+      "kind": "route",
+      "number": null,
+      "name": "Slaktad Mazda",
+      "grade": "7a+",
+      "length": "",
+      "type": "",
+      "firstAscent": "Ludwig Hansson och Jens Larssen",
+      "description": "",
+      "source": {
+        "id": "legacy:hakered",
+        "path": "mediawiki/Hakered.txt"
+      }
+    },
+    {
+      "id": "hakered-led-4",
+      "kind": "route",
+      "number": null,
+      "name": "Villa Medusa",
+      "grade": "6b+",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "",
+      "description": "",
+      "source": {
+        "id": "legacy:hakered",
+        "path": "mediawiki/Hakered.txt"
+      }
+    },
+    {
+      "id": "hakered-led-5",
+      "kind": "route",
+      "number": null,
+      "name": "Baren",
+      "grade": "6b",
+      "length": "",
+      "type": "",
+      "firstAscent": "",
+      "description": "",
+      "source": {
+        "id": "legacy:hakered",
+        "path": "mediawiki/Hakered.txt"
+      }
+    },
+    {
+      "id": "hakered-led-6",
+      "kind": "route",
+      "number": null,
+      "name": "Sunt bondförnuft",
+      "grade": "6b+",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "",
+      "description": "",
+      "source": {
+        "id": "legacy:hakered",
+        "path": "mediawiki/Hakered.txt"
+      }
+    },
+    {
+      "id": "hakered-led-7",
+      "kind": "route",
+      "number": null,
+      "name": "Fingersallad",
+      "grade": "7a",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "Ludwig Hansson och Jens Larssen",
+      "description": "",
+      "source": {
+        "id": "legacy:hakered",
+        "path": "mediawiki/Hakered.txt"
+      }
+    },
+    {
+      "id": "hakered-led-8",
+      "kind": "route",
+      "number": null,
+      "name": "Abdullah",
+      "grade": "7a+",
+      "length": "",
+      "type": "",
+      "firstAscent": "Jens Larssen och Ludwig Hansson",
+      "description": "",
+      "source": {
+        "id": "legacy:hakered",
+        "path": "mediawiki/Hakered.txt"
+      }
+    }
+  ],
+  "images": [],
+  "access": {
+    "legacyText": "Se ovan. På grund av älgjakt bör klättrare hålla uppsyn för jägare.",
+    "federationSlug": "hakered"
+  },
+  "qualityIssues": [],
+  "provenance": {
+    "primarySourceId": "legacy:hakered",
+    "sources": [
+      {
+        "id": "legacy:hakered",
+        "title": "Sverigeföraren 2014: Hakered",
+        "path": "mediawiki/Hakered.txt",
+        "license": "GNU Free Documentation License",
+        "snapshotDate": "2014-01-01"
+      }
+    ]
+  }
+}

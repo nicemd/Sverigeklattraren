@@ -1,0 +1,136 @@
+{
+  "schemaVersion": 1,
+  "id": "ramonesklippan",
+  "slug": "ramonesklippan",
+  "name": "Ramonesklippan",
+  "description": "Ramonesklippan som den nu mera så fint heter ligger i skugga och passar alldeles utmärkt för lite kvällsklättring. Ett par av problemen är det faktiskt riktigt klass på. Bra landningar.",
+  "coordinates": null,
+  "categories": [],
+  "sections": [
+    {
+      "id": "allmant",
+      "title": "Allmänt",
+      "body": "Ramonesklippan som den nu mera så fint heter ligger i skugga och passar alldeles utmärkt för lite kvällsklättring. Ett par av problemen är det faktiskt riktigt klass på. Bra landningar."
+    },
+    {
+      "id": "vagbeskrivning",
+      "title": "Vägbeskrivning",
+      "body": "Klippan ligger mittemot Enskede IP på andra sidan tunnelbanan. Bilen kan man parkera vid Enskede IP. Från parkeringsplatsen går man över Enskedevägen och genom en tunneln under tunnelbanelinjen. Efter tunneln tar du vänster och går till höger om hundrastplatsen och sen upp i skogspartiet där klippan ligger."
+    },
+    {
+      "id": "boulderproblem",
+      "title": "Boulderproblem",
+      "body": "http://www.sverigeforaren.se/images/b/b4/Ramonesklippan.jpg"
+    }
+  ],
+  "routes": [
+    {
+      "id": "ramonesklippan-problem-1",
+      "kind": "problem",
+      "number": "1",
+      "name": "Hey",
+      "grade": "5a",
+      "length": "",
+      "type": "",
+      "firstAscent": "Mikael Söderström",
+      "description": "Starta med båda händerna på bra grepp. Röd linje.",
+      "source": {
+        "id": "legacy:ramonesklippan",
+        "path": "mediawiki/Ramonesklippan.txt"
+      }
+    },
+    {
+      "id": "ramonesklippan-problem-2",
+      "kind": "problem",
+      "number": "2",
+      "name": "Ho",
+      "grade": "6c",
+      "length": "",
+      "type": "Överhäng,Mantling",
+      "firstAscent": "Mikael Söderström",
+      "description": "En skitnödig sittstart med båda händerna på undercling. Blå linje.",
+      "source": {
+        "id": "legacy:ramonesklippan",
+        "path": "mediawiki/Ramonesklippan.txt"
+      }
+    },
+    {
+      "id": "ramonesklippan-problem-3",
+      "kind": "problem",
+      "number": "3",
+      "name": "Let´s",
+      "grade": "7a+",
+      "length": "",
+      "type": "",
+      "firstAscent": "Mikael Söderström",
+      "description": "Starta längst ner med händerna där SK står klottrat. Offra dej på slutet. Svart linje.",
+      "source": {
+        "id": "legacy:ramonesklippan",
+        "path": "mediawiki/Ramonesklippan.txt"
+      }
+    },
+    {
+      "id": "ramonesklippan-problem-4",
+      "kind": "problem",
+      "number": "4",
+      "name": "Go",
+      "grade": "7a+",
+      "length": "",
+      "type": "Överhäng,Slopers,Krimpers,Sva",
+      "firstAscent": "Mikael Söderström",
+      "description": "Sittande start i crimpar. Över kanten och upp på svaet. Se upp för trädet. Gul linje.",
+      "source": {
+        "id": "legacy:ramonesklippan",
+        "path": "mediawiki/Ramonesklippan.txt"
+      }
+    },
+    {
+      "id": "ramonesklippan-problem-5",
+      "kind": "problem",
+      "number": "5",
+      "name": "Blitzgrieg bob",
+      "grade": "6c",
+      "length": "",
+      "type": "",
+      "firstAscent": "Mikael Söderström",
+      "description": "Starta på ok grepp vänster om trädet och följ sprickan avslut upp i Ho. Vit linje.",
+      "source": {
+        "id": "legacy:ramonesklippan",
+        "path": "mediawiki/Ramonesklippan.txt"
+      }
+    },
+    {
+      "id": "ramonesklippan-problem-6",
+      "kind": "problem",
+      "number": "6",
+      "name": "Gabba Gabba Hey",
+      "grade": "7a",
+      "length": "",
+      "type": "",
+      "firstAscent": "?",
+      "description": "Start i \"Go\". Sedan upp i sprickan. Skicka på skålen och mantla. Hyllan i \"Let's\" är eliminerad.",
+      "source": {
+        "id": "legacy:ramonesklippan",
+        "path": "mediawiki/Ramonesklippan.txt"
+      }
+    }
+  ],
+  "images": [],
+  "access": {
+    "legacyText": null,
+    "federationSlug": null
+  },
+  "qualityIssues": [],
+  "provenance": {
+    "primarySourceId": "legacy:ramonesklippan",
+    "sources": [
+      {
+        "id": "legacy:ramonesklippan",
+        "title": "Sverigeföraren 2014: Ramonesklippan",
+        "path": "mediawiki/Ramonesklippan.txt",
+        "license": "GNU Free Documentation License",
+        "snapshotDate": "2014-01-01"
+      }
+    ]
+  }
+}

@@ -1,0 +1,160 @@
+{
+  "schemaVersion": 1,
+  "id": "norrmjole",
+  "slug": "norrmjole",
+  "name": "Norrmjöle",
+  "description": "Kategori:Saknar allmän info =Vägbeskrivning= Bakom masten finns ett liten »bullig« vägg. =Problem= Från vänster till höger: Kategori:Umeå Kategori:Bouldering Kategori:Bimbo Kategori:Behöver kvalitetssäkras Kategori:Saknar karta Kategori:Saknar koordinater Kategori:Saknar skrivarformattering Kategori:Saknar skiss",
+  "coordinates": null,
+  "categories": [
+    "Behöver kvalitetssäkras",
+    "Bimbo",
+    "Bouldering",
+    "Saknar allmän info",
+    "Saknar karta",
+    "Saknar koordinater",
+    "Saknar skiss",
+    "Saknar skrivarformattering",
+    "Umeå"
+  ],
+  "sections": [],
+  "routes": [
+    {
+      "id": "norrmjole-problem-1",
+      "kind": "problem",
+      "number": null,
+      "name": "Android",
+      "grade": "6C",
+      "length": "",
+      "type": "Vertikalt",
+      "firstAscent": "",
+      "description": "Till vänster om Ericsson och helt skild från denna. Mellan två tunna sprickor. Sitt/hukstart möjlig (grad 7B/7C kanske)",
+      "source": {
+        "id": "legacy:norrmjole",
+        "path": "mediawiki/Norrmjöle.txt"
+      }
+    },
+    {
+      "id": "norrmjole-problem-2",
+      "kind": "problem",
+      "number": null,
+      "name": "Ericsson",
+      "grade": "5C",
+      "length": "",
+      "type": "Jam,Spricka",
+      "firstAscent": "Per Gunnarsson",
+      "description": "Sprickan mitt genom överhänget. Sittstart möjlig men förmodligen komplicerad eller smärtsam eller båda.",
+      "source": {
+        "id": "legacy:norrmjole",
+        "path": "mediawiki/Norrmjöle.txt"
+      }
+    },
+    {
+      "id": "norrmjole-problem-3",
+      "kind": "problem",
+      "number": null,
+      "name": "Mobilt arbete",
+      "grade": "7A+",
+      "length": "",
+      "type": "Aréte",
+      "firstAscent": "",
+      "description": "Hukstart under skeppet, se film. 6B+ från stå",
+      "source": {
+        "id": "legacy:norrmjole",
+        "path": "mediawiki/Norrmjöle.txt"
+      }
+    },
+    {
+      "id": "norrmjole-problem-4",
+      "kind": "problem",
+      "number": null,
+      "name": "Bredband",
+      "grade": "6A",
+      "length": "",
+      "type": "Spricka, Sittstart",
+      "firstAscent": "",
+      "description": "Sittstart till sprickan direkt till höger om stennäsan",
+      "source": {
+        "id": "legacy:norrmjole",
+        "path": "mediawiki/Norrmjöle.txt"
+      }
+    },
+    {
+      "id": "norrmjole-problem-5",
+      "kind": "problem",
+      "number": null,
+      "name": "Nokia",
+      "grade": "5B",
+      "length": "",
+      "type": "Layback,Spricka",
+      "firstAscent": "Per Gunnarsson",
+      "description": "Sprickan längst till höger på tak-väggen. Starta sittande under taket med båda händerna under taket.",
+      "source": {
+        "id": "legacy:norrmjole",
+        "path": "mediawiki/Norrmjöle.txt"
+      }
+    },
+    {
+      "id": "norrmjole-problem-6",
+      "kind": "problem",
+      "number": null,
+      "name": "Hook",
+      "grade": "3B",
+      "length": "",
+      "type": "Aréte",
+      "firstAscent": "Pär Lindholm",
+      "description": "Lilla väggen runt hörnet till höger om överhänget.",
+      "source": {
+        "id": "legacy:norrmjole",
+        "path": "mediawiki/Norrmjöle.txt"
+      }
+    },
+    {
+      "id": "norrmjole-problem-7",
+      "kind": "problem",
+      "number": null,
+      "name": "Drive",
+      "grade": "5B",
+      "length": "",
+      "type": "Mantling",
+      "firstAscent": "Pär Lindholm",
+      "description": "Lilla väggen runt hörnet till höger om överhänget. Rakt upp mitt i. Mantlingen gör graden, ta dig dit hur du vill.",
+      "source": {
+        "id": "legacy:norrmjole",
+        "path": "mediawiki/Norrmjöle.txt"
+      }
+    },
+    {
+      "id": "norrmjole-problem-8",
+      "kind": "problem",
+      "number": null,
+      "name": "Slice",
+      "grade": "5B",
+      "length": "",
+      "type": "Slopers",
+      "firstAscent": "Pär Lindholm",
+      "description": "Lilla väggen runt hörnet till höger om överhänget. Klättra högra rampen. Starta med båda händerna längst ner efter rampen.",
+      "source": {
+        "id": "legacy:norrmjole",
+        "path": "mediawiki/Norrmjöle.txt"
+      }
+    }
+  ],
+  "images": [],
+  "access": {
+    "legacyText": null,
+    "federationSlug": null
+  },
+  "qualityIssues": [],
+  "provenance": {
+    "primarySourceId": "legacy:norrmjole",
+    "sources": [
+      {
+        "id": "legacy:norrmjole",
+        "title": "Sverigeföraren 2014: Norrmjöle",
+        "path": "mediawiki/Norrmjöle.txt",
+        "license": "GNU Free Documentation License",
+        "snapshotDate": "2014-01-01"
+      }
+    ]
+  }
+}

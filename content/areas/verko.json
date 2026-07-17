@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 1,
+  "id": "verko",
+  "slug": "verko",
+  "name": "Verkö",
+  "description": "Fint område som ligger precis vid vattnet. Finns ett trettiotal problem med flera möjligheter till nya leder.",
+  "coordinates": {
+    "latitude": 56.169951,
+    "longitude": 15.629547
+  },
+  "categories": [],
+  "sections": [
+    {
+      "id": "allmant",
+      "title": "Allmänt",
+      "body": "Fint område som ligger precis vid vattnet. Finns ett trettiotal problem med flera möjligheter till nya leder."
+    },
+    {
+      "id": "vagbeskrivning",
+      "title": "Vägbeskrivning",
+      "body": "Från E22: *Kör av på avfart 64 mot Karlskrona öst *Vid andra rondellen följ skyltar mot Verkö *När man kört över bron tar man fjärde vägen till höger. Det är en liten grusväg, väldigt lätt att missa. *Följ grusvägen ca 800m till en korsning. *Sväng vänster och parkera på grusplanen. Boulderområdet ligger ca 100m ner mot havet."
+    },
+    {
+      "id": "karta",
+      "title": "Karta",
+      "body": "Fil:VerköABB.jpg"
+    },
+    {
+      "id": "problem",
+      "title": "Problem",
+      "body": "A stenen"
+    }
+  ],
+  "routes": [
+    {
+      "id": "verko-led-1",
+      "kind": "route",
+      "number": "1",
+      "name": "Led 1",
+      "grade": "6",
+      "length": "4",
+      "type": "boulder",
+      "firstAscent": "",
+      "description": "",
+      "source": {
+        "id": "legacy:verko",
+        "path": "mediawiki/Verkö.txt"
+      }
+    }
+  ],
+  "images": [],
+  "access": {
+    "legacyText": null,
+    "federationSlug": null
+  },
+  "qualityIssues": [],
+  "provenance": {
+    "primarySourceId": "legacy:verko",
+    "sources": [
+      {
+        "id": "legacy:verko",
+        "title": "Sverigeföraren 2014: Verkö",
+        "path": "mediawiki/Verkö.txt",
+        "license": "GNU Free Documentation License",
+        "snapshotDate": "2014-01-01"
+      }
+    ]
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "schemaVersion": 1,
+  "id": "maryland",
+  "slug": "maryland",
+  "name": "Maryland",
+  "description": "Kategori:Saknar allmän infoKategori:Saknar vägbeskrivning =Problem= Kategori:Umeå Kategori:Bouldering Kategori:Bimbo Kategori:Behöver kvalitetssäkras Kategori:Saknar karta Kategori:Saknar koordinater Kategori:Saknar skrivarformattering Kategori:Saknar skiss",
+  "coordinates": null,
+  "categories": [
+    "Behöver kvalitetssäkras",
+    "Bimbo",
+    "Bouldering",
+    "Saknar allmän info",
+    "Saknar karta",
+    "Saknar koordinater",
+    "Saknar skiss",
+    "Saknar skrivarformattering",
+    "Saknar vägbeskrivning",
+    "Umeå"
+  ],
+  "sections": [],
+  "routes": [
+    {
+      "id": "maryland-problem-1",
+      "kind": "problem",
+      "number": null,
+      "name": "Karelin",
+      "grade": "6A+",
+      "length": "",
+      "type": "Slopers,Aréte",
+      "firstAscent": "Johan Öhman",
+      "description": "Kroppstung slopertravers upp längst ett arête. Klockren linje och väldigt fint problem. Startar längst ner på den utstickande \"sloper-bullen\".",
+      "source": {
+        "id": "legacy:maryland",
+        "path": "mediawiki/Maryland.txt"
+      }
+    },
+    {
+      "id": "maryland-problem-2",
+      "kind": "problem",
+      "number": null,
+      "name": "Stormvind",
+      "grade": "6B",
+      "length": "",
+      "type": "Slopers,Travers H->V,Heel hook",
+      "firstAscent": "Johan Öhman",
+      "description": "Ett lågt och coolt traversproblem. Mycket fint och väldigt slopigt. Troligen tyngre för långa, då fötternas placeringar är kritiska för att orka. Börja sittande längst till höger och toppa ut längst till vänster vid björken.",
+      "source": {
+        "id": "legacy:maryland",
+        "path": "mediawiki/Maryland.txt"
+      }
+    },
+    {
+      "id": "maryland-problem-3",
+      "kind": "problem",
+      "number": null,
+      "name": "Rönnbärstraversen",
+      "grade": "6A",
+      "length": "",
+      "type": "Slopers,Travers H->V",
+      "firstAscent": "Daniel Andersson",
+      "description": "Givet problem längst fristående block. Börja längst till höger på ganska givna startgrepp. Traversera, till du kommer runt vänstra kanten, där man viker av snett uppåt. Sugande men helt okej problem",
+      "source": {
+        "id": "legacy:maryland",
+        "path": "mediawiki/Maryland.txt"
+      }
+    }
+  ],
+  "images": [],
+  "access": {
+    "legacyText": null,
+    "federationSlug": null
+  },
+  "qualityIssues": [],
+  "provenance": {
+    "primarySourceId": "legacy:maryland",
+    "sources": [
+      {
+        "id": "legacy:maryland",
+        "title": "Sverigeföraren 2014: Maryland",
+        "path": "mediawiki/Maryland.txt",
+        "license": "GNU Free Documentation License",
+        "snapshotDate": "2014-01-01"
+      }
+    ]
+  }
+}

@@ -1,0 +1,123 @@
+{
+  "schemaVersion": 1,
+  "id": "hogerisasen",
+  "slug": "hogerisasen",
+  "name": "Högerisåsen",
+  "description": "En drygt 200 meter lång klippa uppdelad i flera sektioner. Klippan kommer aldrig att bli något nytt Hykieberg men det finns mycket kvar att upptäcka för nytursentusiasten. I närheten finns även Kringelrisåsen och Fisklöskölen med potential för en del leder.",
+  "coordinates": {
+    "latitude": 60.603824,
+    "longitude": 14.261627
+  },
+  "categories": [
+    "Saknar koordinater",
+    "Saknar leder",
+    "Saknar skiss",
+    "Saknar skrivarformatering",
+    "sva",
+    "trad",
+    "vertikalt"
+  ],
+  "sections": [
+    {
+      "id": "allmant",
+      "title": "Allmänt",
+      "body": "En drygt 200 meter lång klippa uppdelad i flera sektioner. Klippan kommer aldrig att bli något nytt Hykieberg men det finns mycket kvar att upptäcka för nytursentusiasten. I närheten finns även Kringelrisåsen och Fisklöskölen med potential för en del leder."
+    },
+    {
+      "id": "vagbeskrivning",
+      "title": "Vägbeskrivning",
+      "body": "Vägbeskrivning norrut på riksväg 71: 1.7 km efter Dala-Järna, sväng höger mot Skålö. 3.4 km från riksvägen sväng höger mot Vålbergsvägen och Fisklösskölen. Följ Hulnvägen och skyltar mot Fisklöskölen i 10 km och sväng sedan vänster. Efter ytterligare 2 km sväng vänster igen. Fortsätt fram till skylt mot Kringelrisåsen och parkera där. Gå sedan in i skogen på samma sida som skylten men 50 – 100 meter längre fram. Om du gått in på rätt ställe så kommer du passera en liten glänta med stora ljusa stenblock. Fortsätt ca 500 meter och du bör se klippan."
+    },
+    {
+      "id": "leder",
+      "title": "Leder",
+      "body": ". Foto: Lars Svensson]] kategori:Saknar skiss kategori:Saknar leder kategori:Saknar koordinater kategori:Saknar skrivarformatering Category:Dalarna"
+    }
+  ],
+  "routes": [
+    {
+      "id": "hogerisasen-led-1",
+      "kind": "route",
+      "number": "1",
+      "name": "Namn?",
+      "grade": "5-",
+      "length": "30",
+      "type": "trad",
+      "firstAscent": "Lars Svensson, Thomas Eriksson -08",
+      "description": "Härligt varierad klättring med goda säkringsmöjligheter. Startar 10 m vänster om Det rosa bandet.",
+      "source": {
+        "id": "legacy:hogerisasen",
+        "path": "mediawiki/Högerisåsen.txt"
+      }
+    },
+    {
+      "id": "hogerisasen-led-2",
+      "kind": "route",
+      "number": "2",
+      "name": "Det rosa bandet",
+      "grade": "6",
+      "length": "25",
+      "type": "trad",
+      "firstAscent": "Thomas Eriksson, Lars Svensson -08",
+      "description": "Härligt klättring men helt osäkrad 10 meter på mitten. Följer ett tydligt rosa stråk mitt på stora väggen.",
+      "source": {
+        "id": "legacy:hogerisasen",
+        "path": "mediawiki/Högerisåsen.txt"
+      }
+    },
+    {
+      "id": "hogerisasen-led-3",
+      "kind": "route",
+      "number": "3",
+      "name": "projekt",
+      "grade": "?",
+      "length": "25",
+      "type": "",
+      "firstAscent": "",
+      "description": "Delvis borstad men inte klättrad pga dåliga säkringsmöjligheter. Startar 5 m höger om Det rosa bandet.",
+      "source": {
+        "id": "legacy:hogerisasen",
+        "path": "mediawiki/Högerisåsen.txt"
+      }
+    },
+    {
+      "id": "hogerisasen-led-4",
+      "kind": "route",
+      "number": "4",
+      "name": "Vitruvius",
+      "grade": "5",
+      "length": "12",
+      "type": "",
+      "firstAscent": "Peter Siljerud -07",
+      "description": "Kort men härlig spricklinje. Leden går längst ut till höger på klippan.",
+      "source": {
+        "id": "legacy:hogerisasen",
+        "path": "mediawiki/Högerisåsen.txt"
+      }
+    }
+  ],
+  "images": [
+    {
+      "filename": "Högerisåsendetrosabandet.jpg",
+      "caption": "Thomas Eriksson klättrar [[Det rosa bandet",
+      "missing": false
+    }
+  ],
+  "access": {
+    "legacyText": null,
+    "federationSlug": null
+  },
+  "qualityIssues": [],
+  "provenance": {
+    "primarySourceId": "legacy:hogerisasen",
+    "sources": [
+      {
+        "id": "legacy:hogerisasen",
+        "title": "Sverigeföraren 2014: Högerisåsen",
+        "path": "mediawiki/Högerisåsen.txt",
+        "license": "GNU Free Documentation License",
+        "snapshotDate": "2014-01-01"
+      }
+    ]
+  }
+}

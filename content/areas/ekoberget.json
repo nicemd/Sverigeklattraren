@@ -1,0 +1,743 @@
+{
+  "schemaVersion": 1,
+  "id": "ekoberget",
+  "slug": "ekoberget",
+  "name": "Ekoberget",
+  "description": "Hög och stor \"strandklippa\" ganska nära stan som bjuder på både trad och sportklättring i brett spann av grader.",
+  "coordinates": {
+    "latitude": 59.32703,
+    "longitude": 18.31836
+  },
+  "categories": [
+    "Nacka-Värmdö",
+    "Stockholm"
+  ],
+  "sections": [
+    {
+      "id": "allmant",
+      "title": "Allmänt",
+      "body": "Hög och stor \"strandklippa\" ganska nära stan som bjuder på både trad och sportklättring i brett spann av grader."
+    },
+    {
+      "id": "vagbeskrivning",
+      "title": "Vägbeskrivning",
+      "body": "titel=Ekoberget lat=18318360 long=59327030 Åk Värmdöleden (väg 222) i riktning Gustavsberg. Ta av i Orminge/Lännersta. Åk över motorvägen mot Orminge. Följ sedan skyltar mot Gustavsberg (Gamla Värmdövägen). Följ skyltar mot Graninge, parkera vid Graninge Stiftgård. Gå ner till vattnet i vägens förlängning och ta höger längst stranden. Klippan ligger ca 200 meter bort. Jag håller på att gräva om vägen. följ orangea deviationen. Se även hitta.se"
+    },
+    {
+      "id": "hogra-delen",
+      "title": "Högra delen",
+      "body": "Kategori:Nacka-Värmdö Kategori:Stockholm Kategori : Trad Kategori : Mix Kategori : Sport Kategori : Vertikalt Kategori : Sva"
+    }
+  ],
+  "routes": [
+    {
+      "id": "ekoberget-led-1",
+      "kind": "route",
+      "number": "0a",
+      "name": "Stämborgarmärket",
+      "grade": "5b",
+      "length": "20",
+      "type": "sport",
+      "firstAscent": "Erik Hagelin 2012-09-29",
+      "description": "Börjar i diedret ca 10 m till vänster om För forna klätterfantaster. Något brölig stämklättring leder upp till ett mer tekniskt utsteg.",
+      "source": {
+        "id": "legacy:ekoberget",
+        "path": "mediawiki/Ekoberget.txt"
+      }
+    },
+    {
+      "id": "ekoberget-led-2",
+      "kind": "route",
+      "number": "0b",
+      "name": "Yggdrasil",
+      "grade": "6c?",
+      "length": "20",
+      "type": "sport",
+      "firstAscent": "",
+      "description": "Börjar på svat precis t v om Namnlös. Helbultad m ankare.",
+      "source": {
+        "id": "legacy:ekoberget",
+        "path": "mediawiki/Ekoberget.txt"
+      }
+    },
+    {
+      "id": "ekoberget-led-3",
+      "kind": "route",
+      "number": "1",
+      "name": "Namnlös",
+      "grade": "6-",
+      "length": "20",
+      "type": "sport",
+      "firstAscent": "",
+      "description": "1 bb + kilar.",
+      "source": {
+        "id": "legacy:ekoberget",
+        "path": "mediawiki/Ekoberget.txt"
+      }
+    },
+    {
+      "id": "ekoberget-led-4",
+      "kind": "route",
+      "number": "2",
+      "name": "För forna klätterfantaster",
+      "grade": "5c",
+      "length": "25",
+      "type": "sport",
+      "firstAscent": "Per Willén, Petra Carlén -02",
+      "description": "Ankare.",
+      "source": {
+        "id": "legacy:ekoberget",
+        "path": "mediawiki/Ekoberget.txt"
+      }
+    },
+    {
+      "id": "ekoberget-led-5",
+      "kind": "route",
+      "number": "2b",
+      "name": "Ska ni ha stryk eller",
+      "grade": "5c",
+      "length": "15",
+      "type": "sport",
+      "firstAscent": "Mats Olofsson, Pia Wass 020811",
+      "description": "Variant mellan För forna.. och Carnivore.",
+      "source": {
+        "id": "legacy:ekoberget",
+        "path": "mediawiki/Ekoberget.txt"
+      }
+    },
+    {
+      "id": "ekoberget-led-6",
+      "kind": "route",
+      "number": "3",
+      "name": "Paradoxal exkursion",
+      "grade": "7b+",
+      "length": "25",
+      "type": "sport",
+      "firstAscent": "Claes Jelinek, Thomas Hansson -01",
+      "description": "Ankare",
+      "source": {
+        "id": "legacy:ekoberget",
+        "path": "mediawiki/Ekoberget.txt"
+      }
+    },
+    {
+      "id": "ekoberget-led-7",
+      "kind": "route",
+      "number": "4",
+      "name": "Carnivore",
+      "grade": "4",
+      "length": "15",
+      "type": "trad",
+      "firstAscent": "Mikaela Rapp, TH -01",
+      "description": "Trad + ankare.(obs! endast en bult i ankaret)",
+      "source": {
+        "id": "legacy:ekoberget",
+        "path": "mediawiki/Ekoberget.txt"
+      }
+    },
+    {
+      "id": "ekoberget-led-8",
+      "kind": "route",
+      "number": "5",
+      "name": "Ekoturism",
+      "grade": "6c",
+      "length": "25",
+      "type": "sport",
+      "firstAscent": "CJ, Göran Wennerbrandt -00",
+      "description": "Ankare",
+      "source": {
+        "id": "legacy:ekoberget",
+        "path": "mediawiki/Ekoberget.txt"
+      }
+    },
+    {
+      "id": "ekoberget-led-9",
+      "kind": "route",
+      "number": "5a",
+      "name": "Prima Ballerina",
+      "grade": "6c+",
+      "length": "25",
+      "type": "sport",
+      "firstAscent": "Stefan Kalen -07",
+      "description": "Ny linje till höger om Ekoturism. Ankare",
+      "source": {
+        "id": "legacy:ekoberget",
+        "path": "mediawiki/Ekoberget.txt"
+      }
+    },
+    {
+      "id": "ekoberget-led-10",
+      "kind": "route",
+      "number": "6",
+      "name": "Namnlös 2",
+      "grade": "4-",
+      "length": "20",
+      "type": "trad",
+      "firstAscent": "Anita Rostén -00",
+      "description": "Trad + ankare",
+      "source": {
+        "id": "legacy:ekoberget",
+        "path": "mediawiki/Ekoberget.txt"
+      }
+    },
+    {
+      "id": "ekoberget-led-11",
+      "kind": "route",
+      "number": "7",
+      "name": "Lara med handklovarna",
+      "grade": "5c",
+      "length": "20",
+      "type": "sport",
+      "firstAscent": "MO, Eric Deering 020811",
+      "description": "Insteg till vänster om stora tallen. En extra borrbult säkrar numera det förut ganska läskiga slutet.",
+      "source": {
+        "id": "legacy:ekoberget",
+        "path": "mediawiki/Ekoberget.txt"
+      }
+    },
+    {
+      "id": "ekoberget-led-12",
+      "kind": "route",
+      "number": "7a",
+      "name": "Utan bojor",
+      "grade": "4",
+      "length": "20",
+      "type": "trad",
+      "firstAscent": "Thomas Eriksson, Per Willén -080426",
+      "description": "Startar mellan Lara och tallen och följer en diederformation. Leden korsar Lara och har gemensamt utsteg samt ankare med Namnlös.",
+      "source": {
+        "id": "legacy:ekoberget",
+        "path": "mediawiki/Ekoberget.txt"
+      }
+    },
+    {
+      "id": "ekoberget-led-13",
+      "kind": "route",
+      "number": "8",
+      "name": "Uppkomsten",
+      "grade": "6a+",
+      "length": "20",
+      "type": "sport",
+      "firstAscent": "Tomas Leitner, Anders Eriksson -96",
+      "description": "",
+      "source": {
+        "id": "legacy:ekoberget",
+        "path": "mediawiki/Ekoberget.txt"
+      }
+    },
+    {
+      "id": "ekoberget-led-14",
+      "kind": "route",
+      "number": "9",
+      "name": "Nedkomsten",
+      "grade": "5c",
+      "length": "20",
+      "type": "sport",
+      "firstAscent": "Tomas Leitner, Anders Eriksson , Christina Ögren -96",
+      "description": "Bultad spricka. Nytt toppankare-09",
+      "source": {
+        "id": "legacy:ekoberget",
+        "path": "mediawiki/Ekoberget.txt"
+      }
+    },
+    {
+      "id": "ekoberget-led-15",
+      "kind": "route",
+      "number": "10",
+      "name": "Fotografen har en stor apparat",
+      "grade": "6a",
+      "length": "27",
+      "type": "sport",
+      "firstAscent": "Mats Olofsson, Joakim Möller 020815",
+      "description": "Går ihop med Yohoia mot slutet.",
+      "source": {
+        "id": "legacy:ekoberget",
+        "path": "mediawiki/Ekoberget.txt"
+      }
+    },
+    {
+      "id": "ekoberget-led-16",
+      "kind": "route",
+      "number": "11",
+      "name": "Yohoia",
+      "grade": "6c",
+      "length": "27",
+      "type": "sport",
+      "firstAscent": "TH, Gary Hansson, MR -01",
+      "description": "Ankare",
+      "source": {
+        "id": "legacy:ekoberget",
+        "path": "mediawiki/Ekoberget.txt"
+      }
+    },
+    {
+      "id": "ekoberget-led-17",
+      "kind": "route",
+      "number": "12",
+      "name": "Breña",
+      "grade": "7b+",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "Robin Dahlberg -03",
+      "description": "Går lite sick-sack.",
+      "source": {
+        "id": "legacy:ekoberget",
+        "path": "mediawiki/Ekoberget.txt"
+      }
+    },
+    {
+      "id": "ekoberget-led-18",
+      "kind": "route",
+      "number": "13",
+      "name": "Vårkåt",
+      "grade": "6c",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "Mikael Widerberg -03",
+      "description": "Numera finns ett bultat vänsterutsteg. Graden ungefär den samma.",
+      "source": {
+        "id": "legacy:ekoberget",
+        "path": "mediawiki/Ekoberget.txt"
+      }
+    },
+    {
+      "id": "ekoberget-led-19",
+      "kind": "route",
+      "number": "14",
+      "name": "Återkomsten",
+      "grade": "6",
+      "length": "20",
+      "type": "trad",
+      "firstAscent": "Kenth Lindström, Jan Nyström -85",
+      "description": "Kilsäkrad led, som antagligen \"dödats\" av de leder som gjorts uppför samma parti senare. Oklart vart den går dock.",
+      "source": {
+        "id": "legacy:ekoberget",
+        "path": "mediawiki/Ekoberget.txt"
+      }
+    },
+    {
+      "id": "ekoberget-led-20",
+      "kind": "route",
+      "number": "15",
+      "name": "Evolution",
+      "grade": "6+",
+      "length": "20",
+      "type": "mix",
+      "firstAscent": "TL -96",
+      "description": "Ankare.",
+      "source": {
+        "id": "legacy:ekoberget",
+        "path": "mediawiki/Ekoberget.txt"
+      }
+    },
+    {
+      "id": "ekoberget-led-21",
+      "kind": "route",
+      "number": "16",
+      "name": "Sanningen",
+      "grade": "5+",
+      "length": "25",
+      "type": "trad",
+      "firstAscent": "Choe Brooks -80",
+      "description": "Trad. Se upp för lös sten halvvägs upp.",
+      "source": {
+        "id": "legacy:ekoberget",
+        "path": "mediawiki/Ekoberget.txt"
+      }
+    },
+    {
+      "id": "ekoberget-led-22",
+      "kind": "route",
+      "number": "17",
+      "name": "Hallucogenia",
+      "grade": "7c+",
+      "length": "28",
+      "type": "sport",
+      "firstAscent": "Robin Dahlberg",
+      "description": "Ankare.",
+      "source": {
+        "id": "legacy:ekoberget",
+        "path": "mediawiki/Ekoberget.txt"
+      }
+    },
+    {
+      "id": "ekoberget-led-23",
+      "kind": "route",
+      "number": "18",
+      "name": "Anomalocaris",
+      "grade": "7a",
+      "length": "28",
+      "type": "sport",
+      "firstAscent": "TH -00",
+      "description": "En av klippans finaste leder. Ihållande klättring på den vackra, ljusa väggen. Ankare.",
+      "source": {
+        "id": "legacy:ekoberget",
+        "path": "mediawiki/Ekoberget.txt"
+      }
+    },
+    {
+      "id": "ekoberget-led-24",
+      "kind": "route",
+      "number": "19",
+      "name": "Eldonia",
+      "grade": "7b+",
+      "length": "23",
+      "type": "sport",
+      "firstAscent": "TH -00",
+      "description": "Ankare.",
+      "source": {
+        "id": "legacy:ekoberget",
+        "path": "mediawiki/Ekoberget.txt"
+      }
+    },
+    {
+      "id": "ekoberget-led-25",
+      "kind": "route",
+      "number": "20",
+      "name": "Mantra",
+      "grade": "7b",
+      "length": "23",
+      "type": "sport",
+      "firstAscent": "PW -06",
+      "description": "Gör insteget till Wiwaxia upp till hyllan. Gå lite vänster och klättra pelaren upp till Wiwaxias ankare.",
+      "source": {
+        "id": "legacy:ekoberget",
+        "path": "mediawiki/Ekoberget.txt"
+      }
+    },
+    {
+      "id": "ekoberget-led-26",
+      "kind": "route",
+      "number": "21",
+      "name": "Wiwaxia",
+      "grade": "6c+",
+      "length": "23",
+      "type": "sport",
+      "firstAscent": "TH, AR -00",
+      "description": "Efter det lite boulderartade insteget är klättringen fantastiskt fin hela vägen till toppen. Samma ankare som Mantra och Eldonia.",
+      "source": {
+        "id": "legacy:ekoberget",
+        "path": "mediawiki/Ekoberget.txt"
+      }
+    },
+    {
+      "id": "ekoberget-led-27",
+      "kind": "route",
+      "number": "22a",
+      "name": "Ronin",
+      "grade": "6b+",
+      "length": "20",
+      "type": "sport",
+      "firstAscent": "okänt -13",
+      "description": "Ny led t.v om Tvivlet. Ankare.",
+      "source": {
+        "id": "legacy:ekoberget",
+        "path": "mediawiki/Ekoberget.txt"
+      }
+    },
+    {
+      "id": "ekoberget-led-28",
+      "kind": "route",
+      "number": "22",
+      "name": "Tvivlet",
+      "grade": "6-",
+      "length": "25",
+      "type": "trad",
+      "firstAscent": "",
+      "description": "Trad.",
+      "source": {
+        "id": "legacy:ekoberget",
+        "path": "mediawiki/Ekoberget.txt"
+      }
+    },
+    {
+      "id": "ekoberget-led-29",
+      "kind": "route",
+      "number": "23a",
+      "name": "Cykla med musik",
+      "grade": "6a+",
+      "length": "20",
+      "type": "mix",
+      "firstAscent": "Fredrik Lönn, Kathinka Kleiser Berg-10",
+      "description": "Klipp bult 1, 2 och den översta på Pikaia. Klättra där emellan till vänster om Pikaias svåra parti. Använd några få handgrepp på Tvivlet innan du traverserar tillbaks ut till Pikaias bulle vid översta bulten. Säkras med mindre friends och en kil. Ankare.",
+      "source": {
+        "id": "legacy:ekoberget",
+        "path": "mediawiki/Ekoberget.txt"
+      }
+    },
+    {
+      "id": "ekoberget-led-30",
+      "kind": "route",
+      "number": "23",
+      "name": "Pikaia",
+      "grade": "7a+",
+      "length": "20",
+      "type": "sport",
+      "firstAscent": "TH -00",
+      "description": "Ankare.",
+      "source": {
+        "id": "legacy:ekoberget",
+        "path": "mediawiki/Ekoberget.txt"
+      }
+    },
+    {
+      "id": "ekoberget-led-31",
+      "kind": "route",
+      "number": "23a",
+      "name": "Ny led",
+      "grade": "6a-6a+",
+      "length": "20",
+      "type": "sport",
+      "firstAscent": "okänt -13",
+      "description": "Ny led mellan Pikaia och Sannolikheten. Jämn och fin klättring. Ankare.",
+      "source": {
+        "id": "legacy:ekoberget",
+        "path": "mediawiki/Ekoberget.txt"
+      }
+    },
+    {
+      "id": "ekoberget-led-32",
+      "kind": "route",
+      "number": "24",
+      "name": "Sannolikheten",
+      "grade": "6",
+      "length": "30",
+      "type": "trad",
+      "firstAscent": "JN, Bengt Hansson -80",
+      "description": "Trad.",
+      "source": {
+        "id": "legacy:ekoberget",
+        "path": "mediawiki/Ekoberget.txt"
+      }
+    },
+    {
+      "id": "ekoberget-led-33",
+      "kind": "route",
+      "number": "24a",
+      "name": "Klätterutrustning i cykelväskor",
+      "grade": "6a",
+      "length": "30",
+      "type": "trad",
+      "firstAscent": "Fredrik Lönn, Kathinka Kleiser Berg -10",
+      "description": "Startar till vänster om Lögnen och går upp mot ett litet överhäng 5 meter över backen som rundas till v. Vidare rakt upp mot en utstickande bulle som rundas till h och sedan lättaste vägen till toppen med ständig dragning åt h. Säkras främst med stora och små friends men även någon kil.",
+      "source": {
+        "id": "legacy:ekoberget",
+        "path": "mediawiki/Ekoberget.txt"
+      }
+    },
+    {
+      "id": "ekoberget-led-34",
+      "kind": "route",
+      "number": "25",
+      "name": "Lögnen",
+      "grade": "5-",
+      "length": "30",
+      "type": "trad",
+      "firstAscent": "JN, BH -80",
+      "description": "Trad.",
+      "source": {
+        "id": "legacy:ekoberget",
+        "path": "mediawiki/Ekoberget.txt"
+      }
+    },
+    {
+      "id": "ekoberget-led-35",
+      "kind": "route",
+      "number": "26",
+      "name": "Hon va ond ond ond....",
+      "grade": "6c+",
+      "length": "20",
+      "type": "sport",
+      "firstAscent": "CJ, Johan Nilsson -01",
+      "description": "Ankare.",
+      "source": {
+        "id": "legacy:ekoberget",
+        "path": "mediawiki/Ekoberget.txt"
+      }
+    },
+    {
+      "id": "ekoberget-led-36",
+      "kind": "route",
+      "number": "27",
+      "name": "Fruktans fötter",
+      "grade": "7a",
+      "length": "15",
+      "type": "sport",
+      "firstAscent": "CJ, TH-01",
+      "description": "Knallhårt boulderinsteg, borde kanske graderas upp ett snäpp? Ankare.",
+      "source": {
+        "id": "legacy:ekoberget",
+        "path": "mediawiki/Ekoberget.txt"
+      }
+    },
+    {
+      "id": "ekoberget-led-37",
+      "kind": "route",
+      "number": "28",
+      "name": "På tiden",
+      "grade": "7b+",
+      "length": "15",
+      "type": "sport",
+      "firstAscent": "Johan Luhr 2013",
+      "description": "Thomas Hanssons gamla projekt. 7b+/7c enligt förstebestigaren Johan.",
+      "source": {
+        "id": "legacy:ekoberget",
+        "path": "mediawiki/Ekoberget.txt"
+      }
+    },
+    {
+      "id": "ekoberget-led-38",
+      "kind": "route",
+      "number": "29",
+      "name": "Pangea",
+      "grade": "6c",
+      "length": "20",
+      "type": "sport",
+      "firstAscent": "MR, TH-01",
+      "description": "Ankare med bara en ring.",
+      "source": {
+        "id": "legacy:ekoberget",
+        "path": "mediawiki/Ekoberget.txt"
+      }
+    },
+    {
+      "id": "ekoberget-led-39",
+      "kind": "route",
+      "number": "30",
+      "name": "Opabinia",
+      "grade": "7b+",
+      "length": "12",
+      "type": "sport",
+      "firstAscent": "TH -01",
+      "description": "Ankare.",
+      "source": {
+        "id": "legacy:ekoberget",
+        "path": "mediawiki/Ekoberget.txt"
+      }
+    },
+    {
+      "id": "ekoberget-led-40",
+      "kind": "route",
+      "number": "31",
+      "name": "Trollskott",
+      "grade": "7a",
+      "length": "20",
+      "type": "sport",
+      "firstAscent": "Jakob A, Fredrik M, Johan B -06",
+      "description": "Börjar t.h. om Pangea. Hårt över läppen till vila på hyllan. Avsluta med svaet på Pangea. Ankare med bara en ring.",
+      "source": {
+        "id": "legacy:ekoberget",
+        "path": "mediawiki/Ekoberget.txt"
+      }
+    },
+    {
+      "id": "ekoberget-led-41",
+      "kind": "route",
+      "number": null,
+      "name": "Wienerbrödvalsen",
+      "grade": "5+",
+      "length": "45",
+      "type": "trad",
+      "firstAscent": "BH, JN -85",
+      "description": "Trad.",
+      "source": {
+        "id": "legacy:ekoberget",
+        "path": "mediawiki/Ekoberget.txt"
+      }
+    },
+    {
+      "id": "ekoberget-led-42",
+      "kind": "route",
+      "number": null,
+      "name": "Vattenkammade snoken",
+      "grade": "4-",
+      "length": "35",
+      "type": "trad",
+      "firstAscent": "KL, JN -85",
+      "description": "Trad.",
+      "source": {
+        "id": "legacy:ekoberget",
+        "path": "mediawiki/Ekoberget.txt"
+      }
+    },
+    {
+      "id": "ekoberget-led-43",
+      "kind": "route",
+      "number": "34",
+      "name": "Nattugglan",
+      "grade": "6a",
+      "length": "29",
+      "type": "sport",
+      "firstAscent": "Michael Collins, Sylvia Janas -2012-10-10",
+      "description": "Börjar ca 10m t.h. om Pangea, strax höger om Vattenkammade snoken. Trevlig och omväxlande led på två replängder med bekväma standplatser. 1. 6a, 20m, 10 bultar: Lätt klättring rakt upp på uppbruten vägg till sva platta med dragning åt vänster efter tredje bulten, sedan lätt klättring med dragning åt höger upp till ett litet överhäng som rundas ut åt höger upp till stor bekväm hylla med ankare och firningsringar. 2. 6a, 9m, 5 bultar: Klättra rampen ut åt höger, sedan upp genom ett brantare parti till liten hylla med ankare och firningsringar. 60m rep krävs för att nå marken härifrån med en firning.",
+      "source": {
+        "id": "legacy:ekoberget",
+        "path": "mediawiki/Ekoberget.txt"
+      }
+    },
+    {
+      "id": "ekoberget-led-44",
+      "kind": "route",
+      "number": "35",
+      "name": "Morgonhönan",
+      "grade": "6a",
+      "length": "9",
+      "type": "sport",
+      "firstAscent": "Sylvia Janas, Michael Collins -2012-10-10",
+      "description": "Går rakt upp från Nattugglan's första standplats. Klättra rakt upp i hörnet, sedan vänster upp genom nisch och vidare upp med dragning åt vänster till liten hylla med ankare och firningsringar. 60m rep krävs för att nå marken härifrån med en firning.",
+      "source": {
+        "id": "legacy:ekoberget",
+        "path": "mediawiki/Ekoberget.txt"
+      }
+    },
+    {
+      "id": "ekoberget-led-45",
+      "kind": "route",
+      "number": "36",
+      "name": "Patrask",
+      "grade": "6-",
+      "length": "30",
+      "type": "trad",
+      "firstAscent": "Michael Collins -2013-03-30",
+      "description": "Bitvis fin klättring som skulle nog kunnat anses vara helt ok säkrad med både stort och smått, bara klippan hade varit helt solid. Skitig start i hörnet men går snabbt ut åt höger över en bulle upp till en bred spricka (Camalot #5 användbar). Följ sprickan upp till en liten hylla, kliv ut åt höger, klättra upp i hörnet och sedan vidare höger någon meter förbi buskarna innan man klättrar rakt upp mot den svagt överhängande sprickan (något dold microkil säkrar upp till sprickan). En kortare variant kan göras genom att från hyllan följa en grund spricka som går upp i riktning mot Nattugglans första standplats. Graden blir då 5 eller 5+.",
+      "source": {
+        "id": "legacy:ekoberget",
+        "path": "mediawiki/Ekoberget.txt"
+      }
+    }
+  ],
+  "images": [
+    {
+      "filename": "Ekoberget1.gif",
+      "caption": "",
+      "missing": false
+    },
+    {
+      "filename": "Ekoberget2.gif",
+      "caption": "",
+      "missing": false
+    },
+    {
+      "filename": "Ekoberget3.gif",
+      "caption": "",
+      "missing": false
+    }
+  ],
+  "access": {
+    "legacyText": null,
+    "federationSlug": null
+  },
+  "qualityIssues": [],
+  "provenance": {
+    "primarySourceId": "legacy:ekoberget",
+    "sources": [
+      {
+        "id": "legacy:ekoberget",
+        "title": "Sverigeföraren 2014: Ekoberget",
+        "path": "mediawiki/Ekoberget.txt",
+        "license": "GNU Free Documentation License",
+        "snapshotDate": "2014-01-01"
+      }
+    ]
+  }
+}

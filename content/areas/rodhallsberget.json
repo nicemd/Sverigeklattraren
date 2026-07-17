@@ -1,0 +1,138 @@
+{
+  "schemaVersion": 1,
+  "id": "rodhallsberget",
+  "slug": "rodhallsberget",
+  "name": "Rödhällsberget",
+  "description": "Rödhällsberget ligger en dryg mil nordväst om Hudiksvall. Klippan ligger längst uppe på en kulle, och har en ohygglig anmarsch längs en kraftledningsgata. Väl framme är det lätt att orientera sig; väggen, som är en sydvägg bestående av gnejs, är mer eller mindre sammanhängande i ca 100 meters längd. Bitvis är klippan litet lös, vilket är mest besvärande för de som rensar nyturer; de etablerade lederna är i huvudsak rena och fasta.",
+  "coordinates": null,
+  "categories": [
+    "Hälsingland",
+    "Saknar karta",
+    "Saknar skiss",
+    "Saknar vägbeskrivning",
+    "Trad"
+  ],
+  "sections": [
+    {
+      "id": "allmant",
+      "title": "Allmänt",
+      "body": "Rödhällsberget ligger en dryg mil nordväst om Hudiksvall. Klippan ligger längst uppe på en kulle, och har en ohygglig anmarsch längs en kraftledningsgata. Väl framme är det lätt att orientera sig; väggen, som är en sydvägg bestående av gnejs, är mer eller mindre sammanhängande i ca 100 meters längd. Bitvis är klippan litet lös, vilket är mest besvärande för de som rensar nyturer; de etablerade lederna är i huvudsak rena och fasta."
+    },
+    {
+      "id": "vagbeskrivning",
+      "title": "Vägbeskrivning",
+      "body": "Saknas. Ungefärliga GPS-koordinater: Lat: N 61º 48' 49.18\" Long: E 16º 54' 31.67\""
+    },
+    {
+      "id": "klippan",
+      "title": "Klippan",
+      "body": "Ren och fast klippa där lederna går. Kategori:Saknar vägbeskrivning Kategori:Saknar karta Kategori:Saknar skiss Kategori:Hälsingland Kategori:Trad Kategori:Hälsingland"
+    }
+  ],
+  "routes": [
+    {
+      "id": "rodhallsberget-led-1",
+      "kind": "route",
+      "number": "1",
+      "name": "Starten",
+      "grade": "3+",
+      "length": "6",
+      "type": "trad",
+      "firstAscent": "Peter Brolin och Per Calleberg 1990",
+      "description": "Brant liten spricktur nästan längst ut till vänster på berget.",
+      "source": {
+        "id": "legacy:rodhallsberget",
+        "path": "mediawiki/Rödhällsberget.txt"
+      }
+    },
+    {
+      "id": "rodhallsberget-led-2",
+      "kind": "route",
+      "number": "2",
+      "name": "Med borsten i käften",
+      "grade": "3",
+      "length": "6",
+      "type": "trad",
+      "firstAscent": "Buster Delin 1990",
+      "description": "Vass laybackkant i hörnet 2m till höger om \"Starten\"",
+      "source": {
+        "id": "legacy:rodhallsberget",
+        "path": "mediawiki/Rödhällsberget.txt"
+      }
+    },
+    {
+      "id": "rodhallsberget-led-3",
+      "kind": "route",
+      "number": "3",
+      "name": "Armerad betong",
+      "grade": "7-",
+      "length": "14",
+      "type": "trad",
+      "firstAscent": "Buster Delin och Per Calleberg 1990",
+      "description": "Kraftfull, överhängande vägg- och sprickklättring på väggen som ligger i vinkel mot de föregående lederna. Välkommen viloposition på hyllan mitt på väggen. En fast bult vid insteget. Fina kil- och Friendsäkringar i övrigt --- om man orkar lägga dem.",
+      "source": {
+        "id": "legacy:rodhallsberget",
+        "path": "mediawiki/Rödhällsberget.txt"
+      }
+    },
+    {
+      "id": "rodhallsberget-led-4",
+      "kind": "route",
+      "number": "4",
+      "name": "Penetrera",
+      "grade": "5-",
+      "length": "12",
+      "type": "trad",
+      "firstAscent": "Stefan Lindberg mfl 1989",
+      "description": "Runt hörnet, 8 m till höger om Armerad betong, ligger en A-formad grotta. Denna led följer en linje med i huvudsak väggklättring till vänster om grottan. Fint diederutsteg.",
+      "source": {
+        "id": "legacy:rodhallsberget",
+        "path": "mediawiki/Rödhällsberget.txt"
+      }
+    },
+    {
+      "id": "rodhallsberget-led-5",
+      "kind": "route",
+      "number": "5",
+      "name": "Livet under pylonerna",
+      "grade": "6-",
+      "length": "12",
+      "type": "mix",
+      "firstAscent": "Per Calleberg, Peter Brolin och Buster Delin 1990",
+      "description": "Långt till höger på berget finns ett ordentligt överhängande parti där klippan bitvis är dystert grå. I vänsterkanten av den överhängande väggen finns en tydlig arete. Leder följer denna. Insteg i ett litet hörn till vänster om den egentliga areten. 6 m upp rundar man areten och avslutar med fin väggklättring på aretens högra sida. 2 borrbultar.",
+      "source": {
+        "id": "legacy:rodhallsberget",
+        "path": "mediawiki/Rödhällsberget.txt"
+      }
+    }
+  ],
+  "images": [
+    {
+      "filename": "Armerad.jpg",
+      "caption": "Buster Delin på förstabestigningen av Armerad betong (7-), Rödhällsberget, 1990. Foto: Peter Brolin",
+      "missing": false
+    },
+    {
+      "filename": "Pylonerna.jpg",
+      "caption": "Per Calleberg gör förstabestigningen av Livet Under Pylonerna (6-), Rödhällsberget, 1990. Foto: Per Callebergs arkiv.",
+      "missing": false
+    }
+  ],
+  "access": {
+    "legacyText": null,
+    "federationSlug": null
+  },
+  "qualityIssues": [],
+  "provenance": {
+    "primarySourceId": "legacy:rodhallsberget",
+    "sources": [
+      {
+        "id": "legacy:rodhallsberget",
+        "title": "Sverigeföraren 2014: Rödhällsberget",
+        "path": "mediawiki/Rödhällsberget.txt",
+        "license": "GNU Free Documentation License",
+        "snapshotDate": "2014-01-01"
+      }
+    ]
+  }
+}

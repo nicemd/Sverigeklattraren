@@ -1,0 +1,137 @@
+{
+  "schemaVersion": 1,
+  "id": "edsvikenblocket",
+  "slug": "edsvikenblocket",
+  "name": "Edsvikenblocket",
+  "description": "Litet block med ett fint överhäng. Möjlig men svår travers finns, och ett par tre problem med lite olika insteg. Har fått höra att det finns två stycken äldre förare till detta lilla block och samtliga problem som beskrivs här har gjorts redan tidigt 90-tal av Hasse Häggquist, vet tyvärr inte vad han kallade problemen. Tänkte att föraren kan ligga kvar ändå som ett komplement! Värt ett besök om ni är i krokarna...",
+  "coordinates": {
+    "latitude": 59.432514,
+    "longitude": 17.983965
+  },
+  "categories": [
+    "Norra Stockholm"
+  ],
+  "sections": [
+    {
+      "id": "allmant",
+      "title": "Allmänt",
+      "body": "Litet block med ett fint överhäng. Möjlig men svår travers finns, och ett par tre problem med lite olika insteg. Har fått höra att det finns två stycken äldre förare till detta lilla block och samtliga problem som beskrivs här har gjorts redan tidigt 90-tal av Hasse Häggquist, vet tyvärr inte vad han kallade problemen. Tänkte att föraren kan ligga kvar ändå som ett komplement! Värt ett besök om ni är i krokarna..."
+    },
+    {
+      "id": "vagbeskrivning",
+      "title": "Vägbeskrivning",
+      "body": "Sollentuna, Edsviken. Stenen ligger i princip mitt emot infarten till Bergendahls Kursgård, väl synlig från vägen. Kör danderydsvägen (262) och sväng in på Landsnoravägen, skyltat Bergendahl, håll höger i T-korset. Fortsätt 30 meter förbi infarten till kursgården så ser man blocket på höger sida."
+    },
+    {
+      "id": "problem",
+      "title": "Problem",
+      "body": "Tre problem testade. Finns möjligen en svår travers. Föraren skapad av: Jim Eriksson Kategori:Norra Stockholm"
+    }
+  ],
+  "routes": [
+    {
+      "id": "edsvikenblocket-led-1",
+      "kind": "route",
+      "number": "1",
+      "name": "Straight up",
+      "grade": "5-",
+      "length": "",
+      "type": "",
+      "firstAscent": "",
+      "description": "",
+      "source": {
+        "id": "legacy:edsvikenblocket",
+        "path": "mediawiki/Edsvikenblocket.txt"
+      }
+    },
+    {
+      "id": "edsvikenblocket-led-2",
+      "kind": "route",
+      "number": "2a",
+      "name": "Fröken höger",
+      "grade": "6b",
+      "length": "",
+      "type": "",
+      "firstAscent": "",
+      "description": "Sittstart. VH-slab, HH-crimp/sidepull. Vidare i Satsa på Högern. Runt 6b skulle jag tro.",
+      "source": {
+        "id": "legacy:edsvikenblocket",
+        "path": "mediawiki/Edsvikenblocket.txt"
+      }
+    },
+    {
+      "id": "edsvikenblocket-led-3",
+      "kind": "route",
+      "number": "2b",
+      "name": "Satsa på högern",
+      "grade": "6a",
+      "length": "",
+      "type": "",
+      "firstAscent": "",
+      "description": "Stående insteg. Start i crimpers, satsa på högerhanden, toppa ur.",
+      "source": {
+        "id": "legacy:edsvikenblocket",
+        "path": "mediawiki/Edsvikenblocket.txt"
+      }
+    },
+    {
+      "id": "edsvikenblocket-led-4",
+      "kind": "route",
+      "number": "3a",
+      "name": "Valrossen",
+      "grade": "6c",
+      "length": "",
+      "type": "",
+      "firstAscent": "",
+      "description": "Sittstart sen vidare i 3b. Svår sittstart, 6c är nog en rimlig grad.",
+      "source": {
+        "id": "legacy:edsvikenblocket",
+        "path": "mediawiki/Edsvikenblocket.txt"
+      }
+    },
+    {
+      "id": "edsvikenblocket-led-5",
+      "kind": "route",
+      "number": "3b",
+      "name": "Magsår",
+      "grade": "6a",
+      "length": "",
+      "type": "",
+      "firstAscent": "",
+      "description": "Stående insteg. Börja mitt över areten, fortsätt upp höger under taket, toppa ur.",
+      "source": {
+        "id": "legacy:edsvikenblocket",
+        "path": "mediawiki/Edsvikenblocket.txt"
+      }
+    }
+  ],
+  "images": [
+    {
+      "filename": "Edsviken01.jpg",
+      "caption": "Kristoffer satsar alltid på högern",
+      "missing": false
+    },
+    {
+      "filename": "Edsviken02.jpg",
+      "caption": "",
+      "missing": false
+    }
+  ],
+  "access": {
+    "legacyText": null,
+    "federationSlug": null
+  },
+  "qualityIssues": [],
+  "provenance": {
+    "primarySourceId": "legacy:edsvikenblocket",
+    "sources": [
+      {
+        "id": "legacy:edsvikenblocket",
+        "title": "Sverigeföraren 2014: Edsvikenblocket",
+        "path": "mediawiki/Edsvikenblocket.txt",
+        "license": "GNU Free Documentation License",
+        "snapshotDate": "2014-01-01"
+      }
+    ]
+  }
+}

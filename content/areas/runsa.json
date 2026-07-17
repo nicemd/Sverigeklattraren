@@ -1,0 +1,542 @@
+{
+  "schemaVersion": 1,
+  "id": "runsa",
+  "slug": "runsa",
+  "name": "Runsa",
+  "description": "Vackert belägen vid en vik av Mälaren och med många fina leder i fast och bra klippa är detta berg värt ett besök. Klippan ligger ca 7 km NV om Upplands Väsby och är en av de få klätterklipporna av betydelse norr om Stockholm. Höjden är 10–20 m och den sammanlagda längden är ca 100 m. Bergarten är gnejs/granit av kompakt natur och blanka väggar dominerar. Klättring på klippan är inte tillåten före 1:a maj eftersom den är häckningsplats för berguv.",
+  "coordinates": {
+    "latitude": 59.56914,
+    "longitude": 17.82467
+  },
+  "categories": [
+    "Mix",
+    "Norra Stockholm",
+    "Saknar kolumner",
+    "Saknar skrivarformatering",
+    "Stockholm",
+    "Trad"
+  ],
+  "sections": [
+    {
+      "id": "allmant",
+      "title": "Allmänt",
+      "body": "Vackert belägen vid en vik av Mälaren och med många fina leder i fast och bra klippa är detta berg värt ett besök. Klippan ligger ca 7 km NV om Upplands Väsby och är en av de få klätterklipporna av betydelse norr om Stockholm. Höjden är 10–20 m och den sammanlagda längden är ca 100 m. Bergarten är gnejs/granit av kompakt natur och blanka väggar dominerar. Klättring på klippan är inte tillåten före 1:a maj eftersom den är häckningsplats för berguv."
+    },
+    {
+      "id": "miljo",
+      "title": "Miljö:",
+      "body": "Sydväst, öppet för solen. Kan vara sipprigt i sprickorna på våren eller efter långvarigt regn."
+    },
+    {
+      "id": "vagbeskrivning",
+      "title": "Vägbeskrivning",
+      "body": "titel=Runsa lat=17824670 long=59569140 Kör skyltade vägen mot Runsa, ca 6km. Parkera vid parkeringen efter allén. Följ grusvägen ca 400m till skylt Runsaborg. Följ stigen förbi skeppssättningen upp på fornborgen. Fortsätt över fornborgen och gå ner på andra sidan. Följ stigen ner mot vattnet. Klippan ligger på udden."
+    },
+    {
+      "id": "huvudvaggen",
+      "title": "Huvudväggen",
+      "body": "Längst tv ligger en kort brant vägg med ett tydligt flak. 10m h om flaket ligger en tydlig dieder, Dubbeldiedret."
+    },
+    {
+      "id": "flugvaggen",
+      "title": "Flugväggen",
+      "body": "40m th om huvudväggen ligger en lägre vägg med en liten nisch en bit upp."
+    },
+    {
+      "id": "skeppssattningen",
+      "title": "Skeppssättningen",
+      "body": "Rakt in i skogen vid skeppssättningen ligger en 30m bred och 6–9m hög klippa. Den har två huvudsakliga väggar varav den vänstra är brantast (95°) men också lägst. Det högra partiet är rätt skuggigt och har en tendens att gro igen. De fyra lederna är väl värda att göra och har mycket klättring för metrarna. Många av lederna har sina krux högst upp vilket gör dem mindre lämpliga som boulderturer, klippan passar nog bäst för en eftermiddags topprepsträning. Alla möjligheter på väggen är ännu inte uttömda. Kategori:Trad Kategori:Mix Kategori:Saknar kolumner Kategori:Saknar skrivarformatering Kategori:Stockholm Kategori:Norra Stockholm"
+    }
+  ],
+  "routes": [
+    {
+      "id": "runsa-led-1",
+      "kind": "route",
+      "number": "1",
+      "name": "Ättestupan",
+      "grade": "6-",
+      "length": "15",
+      "type": "mix",
+      "firstAscent": "Kenth Lindström -7?",
+      "description": "Mindre seriös sedan den fått en bult på det tidigare osäkrade kruxet. Firningsankare.",
+      "source": {
+        "id": "legacy:runsa",
+        "path": "mediawiki/Runsa.txt"
+      }
+    },
+    {
+      "id": "runsa-led-2",
+      "kind": "route",
+      "number": "2",
+      "name": "Katapult",
+      "grade": "7+",
+      "length": "10",
+      "type": "mix",
+      "firstAscent": "Lars Grankvist -88",
+      "description": "",
+      "source": {
+        "id": "legacy:runsa",
+        "path": "mediawiki/Runsa.txt"
+      }
+    },
+    {
+      "id": "runsa-led-3",
+      "kind": "route",
+      "number": "3",
+      "name": "Rådjursben",
+      "grade": "7",
+      "length": "15",
+      "type": "mix",
+      "firstAscent": "Lars Grankvist -85",
+      "description": "",
+      "source": {
+        "id": "legacy:runsa",
+        "path": "mediawiki/Runsa.txt"
+      }
+    },
+    {
+      "id": "runsa-led-4",
+      "kind": "route",
+      "number": "4",
+      "name": "Dubbeldiedret",
+      "grade": "5+",
+      "length": "25",
+      "type": "trad",
+      "firstAscent": "Hans Hellström -65",
+      "description": "",
+      "source": {
+        "id": "legacy:runsa",
+        "path": "mediawiki/Runsa.txt"
+      }
+    },
+    {
+      "id": "runsa-led-5",
+      "kind": "route",
+      "number": "5",
+      "name": "Abonnemang",
+      "grade": "6+",
+      "length": "15",
+      "type": "mix",
+      "firstAscent": "Lars Grankvist, Hans Hellström -88",
+      "description": "",
+      "source": {
+        "id": "legacy:runsa",
+        "path": "mediawiki/Runsa.txt"
+      }
+    },
+    {
+      "id": "runsa-led-6",
+      "kind": "route",
+      "number": "5a",
+      "name": "Abonnemang direkt",
+      "grade": "7+",
+      "length": "5",
+      "type": "mix",
+      "firstAscent": "Lars Grankvist -89",
+      "description": "",
+      "source": {
+        "id": "legacy:runsa",
+        "path": "mediawiki/Runsa.txt"
+      }
+    },
+    {
+      "id": "runsa-led-7",
+      "kind": "route",
+      "number": "6",
+      "name": "Rotleider",
+      "grade": "6",
+      "length": "",
+      "type": "trad",
+      "firstAscent": "Daniel Bidner, Svan Fohlin -83",
+      "description": "",
+      "source": {
+        "id": "legacy:runsa",
+        "path": "mediawiki/Runsa.txt"
+      }
+    },
+    {
+      "id": "runsa-led-8",
+      "kind": "route",
+      "number": null,
+      "name": "Tysk höst",
+      "grade": "A2",
+      "length": "13",
+      "type": "Aid",
+      "firstAscent": "ground up.Henrik L, Gustav P -09",
+      "description": "",
+      "source": {
+        "id": "legacy:runsa",
+        "path": "mediawiki/Runsa.txt"
+      }
+    },
+    {
+      "id": "runsa-led-9",
+      "kind": "route",
+      "number": null,
+      "name": "Ikaros",
+      "grade": "A2",
+      "length": "10",
+      "type": "Aid",
+      "firstAscent": "Henrik L, -10",
+      "description": "",
+      "source": {
+        "id": "legacy:runsa",
+        "path": "mediawiki/Runsa.txt"
+      }
+    },
+    {
+      "id": "runsa-led-10",
+      "kind": "route",
+      "number": "7",
+      "name": "Grangren",
+      "grade": "7-",
+      "length": "18",
+      "type": "sport",
+      "firstAscent": "Lars Grankvist -84",
+      "description": "På utsteget finns två bultar som tillåter att man riggar toppankare, och ovanför leden på väggen vid den stora hyllan finns ett firningsankare till vilket man kan gå osäkrad.",
+      "source": {
+        "id": "legacy:runsa",
+        "path": "mediawiki/Runsa.txt"
+      }
+    },
+    {
+      "id": "runsa-led-11",
+      "kind": "route",
+      "number": "8",
+      "name": "Tokglada pizzaätande jättesköldpaddor",
+      "grade": "8/8+",
+      "length": "15",
+      "type": "mix",
+      "firstAscent": "Henrik Bolander -91",
+      "description": "",
+      "source": {
+        "id": "legacy:runsa",
+        "path": "mediawiki/Runsa.txt"
+      }
+    },
+    {
+      "id": "runsa-led-12",
+      "kind": "route",
+      "number": "9",
+      "name": "Vampyren",
+      "grade": "6-",
+      "length": "17",
+      "type": "trad",
+      "firstAscent": "Hans Hellström -65, ff:Christer Åstrand -78",
+      "description": "Vampyren är en av Stockholms finare leder i sin svårighetsgrad. Brant, tung att leda och med varierande klättring (spricka, brevlådor, jam, layback m.m). I den övre delen bor en liten fladdermus i sprickan som med sina gälla pip kan öka adrenalinproduktionen (man vill ju inte stoppa in handen alltför långt om man inte är stelkrampsvaccinerad!). Leden är välsäkrad med mellanstora kilar och kammar men tyvärr finns ett och annat suspekt block (precis som på Ricks crack). Genom åren har det ramlat ut både mindre och större saker.",
+      "source": {
+        "id": "legacy:runsa",
+        "path": "mediawiki/Runsa.txt"
+      }
+    },
+    {
+      "id": "runsa-led-13",
+      "kind": "route",
+      "number": "9a",
+      "name": "Zing-zing",
+      "grade": "7",
+      "length": "8",
+      "type": "mix",
+      "firstAscent": "Johan Luhr, Rikard Hedman -89",
+      "description": "",
+      "source": {
+        "id": "legacy:runsa",
+        "path": "mediawiki/Runsa.txt"
+      }
+    },
+    {
+      "id": "runsa-led-14",
+      "kind": "route",
+      "number": "9b",
+      "name": "Pim-pim",
+      "grade": "7",
+      "length": "17",
+      "type": "trad",
+      "firstAscent": "Daniel Bidner -84",
+      "description": "Starta i Vampyren och traversera sen ut åt höger och tillbaks igen.",
+      "source": {
+        "id": "legacy:runsa",
+        "path": "mediawiki/Runsa.txt"
+      }
+    },
+    {
+      "id": "runsa-led-15",
+      "kind": "route",
+      "number": "10",
+      "name": "Den gröna överraskningen",
+      "grade": "5+",
+      "length": "25",
+      "type": "trad",
+      "firstAscent": "-7?",
+      "description": "",
+      "source": {
+        "id": "legacy:runsa",
+        "path": "mediawiki/Runsa.txt"
+      }
+    },
+    {
+      "id": "runsa-led-16",
+      "kind": "route",
+      "number": "11",
+      "name": "Som en Jehu",
+      "grade": "7+",
+      "length": "15",
+      "type": "mix",
+      "firstAscent": "Lars Grankvist -85",
+      "description": "Synnerligen vacker, brant och vass klättring i en fin spricka. Avslutas med ett tunt väggparti. Bultarna bytta 2013.",
+      "source": {
+        "id": "legacy:runsa",
+        "path": "mediawiki/Runsa.txt"
+      }
+    },
+    {
+      "id": "runsa-led-17",
+      "kind": "route",
+      "number": "12",
+      "name": "Rick's crack",
+      "grade": "6-",
+      "length": "15",
+      "type": "trad",
+      "firstAscent": "Rick McGregor -79",
+      "description": "",
+      "source": {
+        "id": "legacy:runsa",
+        "path": "mediawiki/Runsa.txt"
+      }
+    },
+    {
+      "id": "runsa-led-18",
+      "kind": "route",
+      "number": "13",
+      "name": "Fingerpull",
+      "grade": "7",
+      "length": "13",
+      "type": "mix",
+      "firstAscent": "Lars Grankvist, Niklas Björnerstedt -86",
+      "description": "",
+      "source": {
+        "id": "legacy:runsa",
+        "path": "mediawiki/Runsa.txt"
+      }
+    },
+    {
+      "id": "runsa-led-19",
+      "kind": "route",
+      "number": "13a",
+      "name": "Utan återvändo",
+      "grade": "8-/8",
+      "length": "6",
+      "type": "mix",
+      "firstAscent": "Johan Luhr, Rikard Hedman -89",
+      "description": "",
+      "source": {
+        "id": "legacy:runsa",
+        "path": "mediawiki/Runsa.txt"
+      }
+    },
+    {
+      "id": "runsa-led-20",
+      "kind": "route",
+      "number": "14",
+      "name": "Kattis led",
+      "grade": "4+",
+      "length": "10",
+      "type": "trad",
+      "firstAscent": "Mats Almlöf -87",
+      "description": "",
+      "source": {
+        "id": "legacy:runsa",
+        "path": "mediawiki/Runsa.txt"
+      }
+    },
+    {
+      "id": "runsa-led-21",
+      "kind": "route",
+      "number": "15",
+      "name": "Länge leve Cosmic Cowboys",
+      "grade": "7+",
+      "length": "15",
+      "type": "mix",
+      "firstAscent": "Åke Danielsson, Erik Grund -79",
+      "description": "",
+      "source": {
+        "id": "legacy:runsa",
+        "path": "mediawiki/Runsa.txt"
+      }
+    },
+    {
+      "id": "runsa-led-22",
+      "kind": "route",
+      "number": "16",
+      "name": "Flygans flykt",
+      "grade": "6",
+      "length": "10",
+      "type": "trad",
+      "firstAscent": "Daniel Bidner, Stefan Kallin -83",
+      "description": "",
+      "source": {
+        "id": "legacy:runsa",
+        "path": "mediawiki/Runsa.txt"
+      }
+    },
+    {
+      "id": "runsa-led-23",
+      "kind": "route",
+      "number": "17",
+      "name": "Flugornas herre",
+      "grade": "6-",
+      "length": "10",
+      "type": "trad",
+      "firstAscent": "Hans Hellström -65 ff:Christer Åstrand, Riley Moss 78",
+      "description": "",
+      "source": {
+        "id": "legacy:runsa",
+        "path": "mediawiki/Runsa.txt"
+      }
+    },
+    {
+      "id": "runsa-led-24",
+      "kind": "route",
+      "number": "18",
+      "name": "Tse-tse",
+      "grade": "7",
+      "length": "8",
+      "type": "mix",
+      "firstAscent": "Lars Grankvist -89",
+      "description": "",
+      "source": {
+        "id": "legacy:runsa",
+        "path": "mediawiki/Runsa.txt"
+      }
+    },
+    {
+      "id": "runsa-led-25",
+      "kind": "route",
+      "number": "19",
+      "name": "Flugskit",
+      "grade": "7-",
+      "length": "7",
+      "type": "sport",
+      "firstAscent": "Lars Grankvist, Niklas Björnerstedt -86",
+      "description": "",
+      "source": {
+        "id": "legacy:runsa",
+        "path": "mediawiki/Runsa.txt"
+      }
+    },
+    {
+      "id": "runsa-led-26",
+      "kind": "route",
+      "number": "20",
+      "name": "Nisse namnlös",
+      "grade": "5",
+      "length": "7",
+      "type": "trad",
+      "firstAscent": "Nils Sjöström -81",
+      "description": "",
+      "source": {
+        "id": "legacy:runsa",
+        "path": "mediawiki/Runsa.txt"
+      }
+    },
+    {
+      "id": "runsa-led-27",
+      "kind": "route",
+      "number": null,
+      "name": "Solovår",
+      "grade": "7-",
+      "length": "8",
+      "type": "solo",
+      "firstAscent": "Lars Grankvist -87",
+      "description": "",
+      "source": {
+        "id": "legacy:runsa",
+        "path": "mediawiki/Runsa.txt"
+      }
+    },
+    {
+      "id": "runsa-led-28",
+      "kind": "route",
+      "number": null,
+      "name": "Brantare än björken",
+      "grade": "7-",
+      "length": "8",
+      "type": "trad",
+      "firstAscent": "Niklas Björnerstedt -87",
+      "description": "",
+      "source": {
+        "id": "legacy:runsa",
+        "path": "mediawiki/Runsa.txt"
+      }
+    },
+    {
+      "id": "runsa-led-29",
+      "kind": "route",
+      "number": null,
+      "name": "Teknik",
+      "grade": "6",
+      "length": "8",
+      "type": "trad",
+      "firstAscent": "Christer Åstrand, Kenth Lindström, Niklas Björnerstedt -86",
+      "description": "",
+      "source": {
+        "id": "legacy:runsa",
+        "path": "mediawiki/Runsa.txt"
+      }
+    },
+    {
+      "id": "runsa-led-30",
+      "kind": "route",
+      "number": null,
+      "name": "Etik",
+      "grade": "7-",
+      "length": "9",
+      "type": "trad",
+      "firstAscent": "Niklas Björnerstedt -86",
+      "description": "",
+      "source": {
+        "id": "legacy:runsa",
+        "path": "mediawiki/Runsa.txt"
+      }
+    }
+  ],
+  "images": [
+    {
+      "filename": "Runsa_karta.png",
+      "caption": "right",
+      "missing": false
+    },
+    {
+      "filename": "Runsa_stor.png",
+      "caption": "",
+      "missing": false
+    },
+    {
+      "filename": "Runsa.jpg",
+      "caption": "namn=Vampyren}}, 6-",
+      "missing": false
+    },
+    {
+      "filename": "Runsa_flugvaggen.png",
+      "caption": "",
+      "missing": false
+    }
+  ],
+  "access": {
+    "legacyText": null,
+    "federationSlug": null
+  },
+  "qualityIssues": [],
+  "provenance": {
+    "primarySourceId": "legacy:runsa",
+    "sources": [
+      {
+        "id": "legacy:runsa",
+        "title": "Sverigeföraren 2014: Runsa",
+        "path": "mediawiki/Runsa.txt",
+        "license": "GNU Free Documentation License",
+        "snapshotDate": "2014-01-01"
+      }
+    ]
+  }
+}

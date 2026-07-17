@@ -1,0 +1,364 @@
+{
+  "schemaVersion": 1,
+  "id": "uringe",
+  "slug": "uringe",
+  "name": "Uringe",
+  "description": "Ganska nyligen utvecklad klippa med flera fina leder i registret 5c-7b, med tonvikten på 6c.",
+  "coordinates": {
+    "latitude": 59.1177,
+    "longitude": 17.85865
+  },
+  "categories": [
+    "Saknar kolumner",
+    "Saknar skrivarformatering",
+    "Sport",
+    "Stockholm",
+    "Sva",
+    "Vertikalt",
+    "Västra Södertörn",
+    "Överhäng"
+  ],
+  "sections": [
+    {
+      "id": "allmant",
+      "title": "Allmänt",
+      "body": "Ganska nyligen utvecklad klippa med flera fina leder i registret 5c-7b, med tonvikten på 6c."
+    },
+    {
+      "id": "vagbeskrivning",
+      "title": "Vägbeskrivning",
+      "body": "När du svängt av väg 257 så är det åker på båda sidor om vägen. Åkern på vänster sida om vägen övergår mer och mer till att bli ett träsk och ca 50-100 meter in bakom träsket ligger väggen. I höjd med att åkern på HÖGER sida tar slut och övergår till skog finns en smal och gropig grusväg som leder till en röd liten barack/förråd där det får plats ett par tre bilar. titel=Uringe lat=17858650 long=59117700"
+    },
+    {
+      "id": "leder",
+      "title": "Leder",
+      "body": "och kan ev klättras som en sportled.}} Kategori:Sport Kategori:Överhäng Kategori:Vertikalt Kategori:Sva Kategori:Stockholm Kategori:Västra Södertörn Kategori:Saknar kolumner Kategori:Saknar skrivarformatering"
+    }
+  ],
+  "routes": [
+    {
+      "id": "uringe-led-1",
+      "kind": "route",
+      "number": null,
+      "name": "Okänt",
+      "grade": "6a+",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "",
+      "description": "Ny. Tungt insteg",
+      "source": {
+        "id": "legacy:uringe",
+        "path": "mediawiki/Uringe.txt"
+      }
+    },
+    {
+      "id": "uringe-led-2",
+      "kind": "route",
+      "number": null,
+      "name": "Med lite fantasi",
+      "grade": "8a",
+      "length": "8",
+      "type": "sport",
+      "firstAscent": "",
+      "description": "Ny. Power-klättring med skygglappar. Rampen till vänster ingår ej i starten. Gå rakt upp efter tredje bb, inte ut till höger! Leden slutar mitt på väggen (snabblänk).",
+      "source": {
+        "id": "legacy:uringe",
+        "path": "mediawiki/Uringe.txt"
+      }
+    },
+    {
+      "id": "uringe-led-3",
+      "kind": "route",
+      "number": null,
+      "name": "Oldboy",
+      "grade": "7b",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "JE -07",
+      "description": "Ny. Bultat linje mellan \"Med lite fantasi och Slitvargen\". Följ bultarna rakt upp och vik av till höger i den övre sprickan, avslutas i Slitvargens ankare.",
+      "source": {
+        "id": "legacy:uringe",
+        "path": "mediawiki/Uringe.txt"
+      }
+    },
+    {
+      "id": "uringe-led-4",
+      "kind": "route",
+      "number": "1",
+      "name": "Svullo",
+      "grade": "5b",
+      "length": "",
+      "type": "mix",
+      "firstAscent": "Reino Liimatainen, A Eriksson -98",
+      "description": "Går ihop med och kan ev klättras som en sportled.",
+      "source": {
+        "id": "legacy:uringe",
+        "path": "mediawiki/Uringe.txt"
+      }
+    },
+    {
+      "id": "uringe-led-5",
+      "kind": "route",
+      "number": "2",
+      "name": "Slitvargen",
+      "grade": "6c",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "Reino Liimatainen -97",
+      "description": "",
+      "source": {
+        "id": "legacy:uringe",
+        "path": "mediawiki/Uringe.txt"
+      }
+    },
+    {
+      "id": "uringe-led-6",
+      "kind": "route",
+      "number": "3",
+      "name": "Tvåmeters mannen",
+      "grade": "6c+",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "Reino Liimatainen -98",
+      "description": "",
+      "source": {
+        "id": "legacy:uringe",
+        "path": "mediawiki/Uringe.txt"
+      }
+    },
+    {
+      "id": "uringe-led-7",
+      "kind": "route",
+      "number": null,
+      "name": "Tvåmeters mannen direkt",
+      "grade": "7a",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "Jan Emdebrant -05",
+      "description": "Ny. Fortsätt rakt upp till intressant avslutning.",
+      "source": {
+        "id": "legacy:uringe",
+        "path": "mediawiki/Uringe.txt"
+      }
+    },
+    {
+      "id": "uringe-led-8",
+      "kind": "route",
+      "number": null,
+      "name": "Så in i tallen",
+      "grade": "7b",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "Johan Luhr -07",
+      "description": "Ny. Gissar att den går bakom trädet.",
+      "source": {
+        "id": "legacy:uringe",
+        "path": "mediawiki/Uringe.txt"
+      }
+    },
+    {
+      "id": "uringe-led-9",
+      "kind": "route",
+      "number": "4",
+      "name": "Vilohemmet",
+      "grade": "6c+",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "Reino Liimatainen -98",
+      "description": "",
+      "source": {
+        "id": "legacy:uringe",
+        "path": "mediawiki/Uringe.txt"
+      }
+    },
+    {
+      "id": "uringe-led-10",
+      "kind": "route",
+      "number": "5",
+      "name": "Tidsmaskin",
+      "grade": "6c+",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "Reino Liimatainen -98",
+      "description": "",
+      "source": {
+        "id": "legacy:uringe",
+        "path": "mediawiki/Uringe.txt"
+      }
+    },
+    {
+      "id": "uringe-led-11",
+      "kind": "route",
+      "number": "6",
+      "name": "Yogi",
+      "grade": "6a",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "Reino Liimatainen -97",
+      "description": "",
+      "source": {
+        "id": "legacy:uringe",
+        "path": "mediawiki/Uringe.txt"
+      }
+    },
+    {
+      "id": "uringe-led-12",
+      "kind": "route",
+      "number": "7",
+      "name": "Girburken",
+      "grade": "6c",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "Reino Liimatainen -99",
+      "description": "",
+      "source": {
+        "id": "legacy:uringe",
+        "path": "mediawiki/Uringe.txt"
+      }
+    },
+    {
+      "id": "uringe-led-13",
+      "kind": "route",
+      "number": "8",
+      "name": "Rävspel",
+      "grade": "6a",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "Reino Liimatainen, A Eriksson -97",
+      "description": "",
+      "source": {
+        "id": "legacy:uringe",
+        "path": "mediawiki/Uringe.txt"
+      }
+    },
+    {
+      "id": "uringe-led-14",
+      "kind": "route",
+      "number": "9",
+      "name": "Kongo Jim",
+      "grade": "7a+",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "Reino Liimatainen -99",
+      "description": "",
+      "source": {
+        "id": "legacy:uringe",
+        "path": "mediawiki/Uringe.txt"
+      }
+    },
+    {
+      "id": "uringe-led-15",
+      "kind": "route",
+      "number": "10",
+      "name": "Mantra",
+      "grade": "7a",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "Magnus Derkert, Reino Liimatainen -97",
+      "description": "",
+      "source": {
+        "id": "legacy:uringe",
+        "path": "mediawiki/Uringe.txt"
+      }
+    },
+    {
+      "id": "uringe-led-16",
+      "kind": "route",
+      "number": "11",
+      "name": "Amigo",
+      "grade": "6c",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "Reino Liimatainen, Magnus Derkert -97",
+      "description": "",
+      "source": {
+        "id": "legacy:uringe",
+        "path": "mediawiki/Uringe.txt"
+      }
+    },
+    {
+      "id": "uringe-led-17",
+      "kind": "route",
+      "number": "12",
+      "name": "Timex",
+      "grade": "6c",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "Reino Liimatainen",
+      "description": "",
+      "source": {
+        "id": "legacy:uringe",
+        "path": "mediawiki/Uringe.txt"
+      }
+    },
+    {
+      "id": "uringe-led-18",
+      "kind": "route",
+      "number": null,
+      "name": "Sicksack",
+      "grade": "5c",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "Mattias Hamlin-07",
+      "description": "Ny.",
+      "source": {
+        "id": "legacy:uringe",
+        "path": "mediawiki/Uringe.txt"
+      }
+    },
+    {
+      "id": "uringe-led-19",
+      "kind": "route",
+      "number": null,
+      "name": "Filuren",
+      "grade": "6c",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "Mattias Hamlin-07",
+      "description": "Ny.",
+      "source": {
+        "id": "legacy:uringe",
+        "path": "mediawiki/Uringe.txt"
+      }
+    },
+    {
+      "id": "uringe-led-20",
+      "kind": "route",
+      "number": null,
+      "name": "Det lilla äventyret",
+      "grade": "6c",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "Mattias Hamlin-07",
+      "description": "Ny.",
+      "source": {
+        "id": "legacy:uringe",
+        "path": "mediawiki/Uringe.txt"
+      }
+    }
+  ],
+  "images": [
+    {
+      "filename": "Uringe.jpg",
+      "caption": "",
+      "missing": false
+    }
+  ],
+  "access": {
+    "legacyText": null,
+    "federationSlug": null
+  },
+  "qualityIssues": [],
+  "provenance": {
+    "primarySourceId": "legacy:uringe",
+    "sources": [
+      {
+        "id": "legacy:uringe",
+        "title": "Sverigeföraren 2014: Uringe",
+        "path": "mediawiki/Uringe.txt",
+        "license": "GNU Free Documentation License",
+        "snapshotDate": "2014-01-01"
+      }
+    ]
+  }
+}

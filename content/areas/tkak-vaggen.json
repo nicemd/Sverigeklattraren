@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "id": "tkak-vaggen",
+  "slug": "tkak-vaggen",
+  "name": "TKAK-väggen",
+  "description": "Liten vertikal till lätt överhängande klippa som i stort sett är färdigutvecklad. Cruxbetonad klättring.",
+  "coordinates": {
+    "latitude": 64.0875069813513,
+    "longitude": 19.9188995361328
+  },
+  "categories": [
+    "sport",
+    "vertikalt",
+    "Västerbotten"
+  ],
+  "sections": [
+    {
+      "id": "allmant",
+      "title": "Allmänt",
+      "body": "Liten vertikal till lätt överhängande klippa som i stort sett är färdigutvecklad. Cruxbetonad klättring."
+    },
+    {
+      "id": "bilder",
+      "title": "Bilder",
+      "body": "http://farm4.static.flickr.com/3471/3718152370_873d5a9ecc.jpg http://www.flickr.com/photos/nyberg_fredrik/3718152370/ Mangus Eriksson klättrar Lugnet 6c+, TKAK Kategori:sportKategori:vertikalt Kategori:Västerbotten"
+    }
+  ],
+  "routes": [
+    {
+      "id": "tkak-vaggen-led-1",
+      "kind": "route",
+      "number": null,
+      "name": "¡Industria Civil!",
+      "grade": "6a",
+      "length": "7",
+      "type": "sport",
+      "firstAscent": "Dag knutsson 2009",
+      "description": "Längst till höger på klippan. Lite hård för graden",
+      "source": {
+        "id": "legacy:tkak-vaggen",
+        "path": "mediawiki/TKAK-väggen.txt"
+      }
+    }
+  ],
+  "images": [],
+  "access": {
+    "legacyText": null,
+    "federationSlug": "tkak-klippan"
+  },
+  "qualityIssues": [],
+  "provenance": {
+    "primarySourceId": "legacy:tkak-vaggen",
+    "sources": [
+      {
+        "id": "legacy:tkak-vaggen",
+        "title": "Sverigeföraren 2014: TKAK-väggen",
+        "path": "mediawiki/TKAK-väggen.txt",
+        "license": "GNU Free Documentation License",
+        "snapshotDate": "2014-01-01"
+      }
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "id": "bornholm",
+  "slug": "bornholm",
+  "name": "Bornholm",
+  "description": "Okej, Bornholm tillhör danmark. Men det ligger närmre skåne än danmark och det finns en del klättring på ön.",
+  "coordinates": {
+    "latitude": 55.13178958302214,
+    "longitude": 14.8974609375
+  },
+  "categories": [
+    "Bornholm",
+    "Danmark",
+    "Skåne"
+  ],
+  "sections": [
+    {
+      "id": "allmant",
+      "title": "Allmänt",
+      "body": "Okej, Bornholm tillhör danmark. Men det ligger närmre skåne än danmark och det finns en del klättring på ön."
+    },
+    {
+      "id": "extern-forare",
+      "title": "Extern förare",
+      "body": "Kolla in http://rockclimbing.dk/wiki/index.php?title=Bornholm Dansk nätförare över bornholm http://bornholm.danskbjergklub.dk/gfx/anders-layback-bornholm.jpg Layback Risset 6-, Vang, Bornholm Kategori:Skåne Kategori:Danmark Kategori:Bornholm"
+    }
+  ],
+  "routes": [],
+  "images": [],
+  "access": {
+    "legacyText": null,
+    "federationSlug": null
+  },
+  "qualityIssues": [],
+  "provenance": {
+    "primarySourceId": "legacy:bornholm",
+    "sources": [
+      {
+        "id": "legacy:bornholm",
+        "title": "Sverigeföraren 2014: Bornholm",
+        "path": "mediawiki/Bornholm.txt",
+        "license": "GNU Free Documentation License",
+        "snapshotDate": "2014-01-01"
+      }
+    ]
+  }
+}

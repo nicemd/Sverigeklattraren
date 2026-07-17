@@ -1,0 +1,206 @@
+{
+  "schemaVersion": 1,
+  "id": "hagadalen",
+  "slug": "hagadalen",
+  "name": "Hågadalen",
+  "description": "Topprepsklippa.",
+  "coordinates": null,
+  "categories": [
+    "Saknar karta",
+    "Saknar vägbeskrivning",
+    "Uppland"
+  ],
+  "sections": [
+    {
+      "id": "allmant",
+      "title": "Allmänt",
+      "body": "Topprepsklippa."
+    },
+    {
+      "id": "leder",
+      "title": "Leder",
+      "body": "Kategori:Uppland Kategori:Saknar kartaKategori:Saknar vägbeskrivning"
+    }
+  ],
+  "routes": [
+    {
+      "id": "hagadalen-led-1",
+      "kind": "route",
+      "number": "1",
+      "name": "Svasprickan",
+      "grade": "3?",
+      "length": "",
+      "type": "trad",
+      "firstAscent": "?",
+      "description": "Vet inte om denna led är klättrad. Mycket mossig men bör ej borstas pga naturreservat. Är troligen inte klätterbar.",
+      "source": {
+        "id": "legacy:hagadalen",
+        "path": "mediawiki/Hågadalen.txt"
+      }
+    },
+    {
+      "id": "hagadalen-led-2",
+      "kind": "route",
+      "number": "2",
+      "name": "Grottan",
+      "grade": "4",
+      "length": "",
+      "type": "trad",
+      "firstAscent": "?",
+      "description": "Klättras på flaket ej i sprickan/grottan vilket Uppsala föraren föreslår.",
+      "source": {
+        "id": "legacy:hagadalen",
+        "path": "mediawiki/Hågadalen.txt"
+      }
+    },
+    {
+      "id": "hagadalen-led-3",
+      "kind": "route",
+      "number": "3",
+      "name": "Skäran",
+      "grade": "5-",
+      "length": "",
+      "type": "trad",
+      "firstAscent": "?",
+      "description": "Mycket bred spricka. Välsäkrad med näst största Camaloten.",
+      "source": {
+        "id": "legacy:hagadalen",
+        "path": "mediawiki/Hågadalen.txt"
+      }
+    },
+    {
+      "id": "hagadalen-led-4",
+      "kind": "route",
+      "number": "4",
+      "name": "Väggen",
+      "grade": "?",
+      "length": "",
+      "type": "topprepsled",
+      "firstAscent": "?",
+      "description": "Vertikal väggklättring.",
+      "source": {
+        "id": "legacy:hagadalen",
+        "path": "mediawiki/Hågadalen.txt"
+      }
+    },
+    {
+      "id": "hagadalen-led-5",
+      "kind": "route",
+      "number": "5",
+      "name": "Blockrännan",
+      "grade": "?",
+      "length": "",
+      "type": "trad",
+      "firstAscent": "?",
+      "description": "Scrambling.",
+      "source": {
+        "id": "legacy:hagadalen",
+        "path": "mediawiki/Hågadalen.txt"
+      }
+    },
+    {
+      "id": "hagadalen-led-6",
+      "kind": "route",
+      "number": "6",
+      "name": "Raka sprickan",
+      "grade": "7?",
+      "length": "",
+      "type": "trad",
+      "firstAscent": "?",
+      "description": "Säkras med mickrokilar.",
+      "source": {
+        "id": "legacy:hagadalen",
+        "path": "mediawiki/Hågadalen.txt"
+      }
+    },
+    {
+      "id": "hagadalen-led-7",
+      "kind": "route",
+      "number": "7",
+      "name": "Senvägen",
+      "grade": "7-",
+      "length": "",
+      "type": "topprepsled",
+      "firstAscent": "Erik Terenius och Bertil Dyvell 1990, topprep",
+      "description": "",
+      "source": {
+        "id": "legacy:hagadalen",
+        "path": "mediawiki/Hågadalen.txt"
+      }
+    },
+    {
+      "id": "hagadalen-led-8",
+      "kind": "route",
+      "number": "8",
+      "name": "Genvägen",
+      "grade": "4+",
+      "length": "",
+      "type": "topprepsled",
+      "firstAscent": "Erik Terenius och Bertil Dyvell 1990, topprep",
+      "description": "",
+      "source": {
+        "id": "legacy:hagadalen",
+        "path": "mediawiki/Hågadalen.txt"
+      }
+    },
+    {
+      "id": "hagadalen-led-9",
+      "kind": "route",
+      "number": "9",
+      "name": "Omvägen",
+      "grade": "5+",
+      "length": "",
+      "type": "topprepsled",
+      "firstAscent": "Erik Terenius och Bertil Dyvell 1990, topprep",
+      "description": "",
+      "source": {
+        "id": "legacy:hagadalen",
+        "path": "mediawiki/Hågadalen.txt"
+      }
+    },
+    {
+      "id": "hagadalen-led-10",
+      "kind": "route",
+      "number": "10",
+      "name": "Blocket",
+      "grade": "3",
+      "length": "",
+      "type": "boulder",
+      "firstAscent": "Erik Terenius 1990, solo",
+      "description": "",
+      "source": {
+        "id": "legacy:hagadalen",
+        "path": "mediawiki/Hågadalen.txt"
+      }
+    }
+  ],
+  "images": [
+    {
+      "filename": "HagadalenRoutesLeft.jpg",
+      "caption": "",
+      "missing": false
+    },
+    {
+      "filename": "HagadalenRoutesRight.jpg",
+      "caption": "",
+      "missing": false
+    }
+  ],
+  "access": {
+    "legacyText": null,
+    "federationSlug": null
+  },
+  "qualityIssues": [],
+  "provenance": {
+    "primarySourceId": "legacy:hagadalen",
+    "sources": [
+      {
+        "id": "legacy:hagadalen",
+        "title": "Sverigeföraren 2014: Hågadalen",
+        "path": "mediawiki/Hågadalen.txt",
+        "license": "GNU Free Documentation License",
+        "snapshotDate": "2014-01-01"
+      }
+    ]
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "schemaVersion": 1,
+  "id": "aryd",
+  "slug": "aryd",
+  "name": "Åryd",
+  "description": "Liten brant klippa med mycket fin, tunn spricka mitt på. Klippan ligger vid en hage och syns tydligt från vägen. 200 meter norr om klippan finns en större vägg där inga kända linjer är etablerade, där finns också en stor, brant boulder med 3-4 problem från 6b-7a.",
+  "coordinates": {
+    "latitude": 56.221,
+    "longitude": 15.0297
+  },
+  "categories": [
+    "mix",
+    "Saknar koordinater",
+    "Saknar leder",
+    "Saknar skiss",
+    "Saknar skrivarformatering",
+    "sport",
+    "sva",
+    "trad",
+    "vertikalt",
+    "överhäng"
+  ],
+  "sections": [
+    {
+      "id": "allmant",
+      "title": "Allmänt",
+      "body": "Liten brant klippa med mycket fin, tunn spricka mitt på. Klippan ligger vid en hage och syns tydligt från vägen. 200 meter norr om klippan finns en större vägg där inga kända linjer är etablerade, där finns också en stor, brant boulder med 3-4 problem från 6b-7a."
+    },
+    {
+      "id": "vagbeskrivning",
+      "title": "Vägbeskrivning",
+      "body": "Vägbeskrivning från Karlshamn. Kör österut längs E22 och sväng av mot Åryd efter ca 10 km. Ta vänster direkt och kör under E22 och in i Åryd by. Sväng höger vid kyrkan och följ vägen i ca 1,3 km, där tar du av åt vänster mot Törneryd. Efter 1,8 km kommer det en Hembygdsgård på din vänstra sida, nu bör du se klippan på höger sida, parkera vid hembgdsgården. Gå tillbaka 30-40m längs vägen och sväng vänster in på Blekingeleden och följ den österut över åkrarna. När du kommer till skogen har du den större klippan med bouldern rakt framför dig och för att komma till den lilla branta väggen följer du bara skogskanten åt höger (söderut)."
+    },
+    {
+      "id": "leder",
+      "title": "Leder",
+      "body": "kategori:Saknar skiss kategori:Saknar leder kategori:Saknar koordinater kategori:Saknar skrivarformatering Category:Blekinge"
+    }
+  ],
+  "routes": [
+    {
+      "id": "aryd-led-1",
+      "kind": "route",
+      "number": "1",
+      "name": "?",
+      "grade": "A2+",
+      "length": "8",
+      "type": "Aid",
+      "firstAscent": "Ola Modéer -08",
+      "description": "Följ den fantastiska sprickan",
+      "source": {
+        "id": "legacy:aryd",
+        "path": "mediawiki/Åryd.txt"
+      }
+    }
+  ],
+  "images": [
+    {
+      "filename": "Vägbeskrivning_NY.jpg",
+      "caption": "",
+      "missing": false
+    },
+    {
+      "filename": "Aidlinjen.jpg",
+      "caption": "",
+      "missing": false
+    },
+    {
+      "filename": "Brant.jpg",
+      "caption": "",
+      "missing": false
+    }
+  ],
+  "access": {
+    "legacyText": null,
+    "federationSlug": null
+  },
+  "qualityIssues": [],
+  "provenance": {
+    "primarySourceId": "legacy:aryd",
+    "sources": [
+      {
+        "id": "legacy:aryd",
+        "title": "Sverigeföraren 2014: Åryd",
+        "path": "mediawiki/Åryd.txt",
+        "license": "GNU Free Documentation License",
+        "snapshotDate": "2014-01-01"
+      }
+    ]
+  }
+}

@@ -1,0 +1,152 @@
+{
+  "schemaVersion": 1,
+  "id": "runsastenen",
+  "slug": "runsastenen",
+  "name": "Runsastenen",
+  "description": "Stenen ligger mycket fint längs stigen på väg till Runsa repklättring. Bra stenkvalitet, mycket bra landningar och trevlig höjd. En fin kväll kan med fördel bestå av att köra lederna på Runsastenen, sen möjligtvis lite traversering på väggen som ligger ca 150m längre fram längs stigen på höger sida.",
+  "coordinates": null,
+  "categories": [],
+  "sections": [
+    {
+      "id": "allmant",
+      "title": "Allmänt",
+      "body": "Stenen ligger mycket fint längs stigen på väg till Runsa repklättring. Bra stenkvalitet, mycket bra landningar och trevlig höjd. En fin kväll kan med fördel bestå av att köra lederna på Runsastenen, sen möjligtvis lite traversering på väggen som ligger ca 150m längre fram längs stigen på höger sida."
+    },
+    {
+      "id": "vagbeskrivning",
+      "title": "Vägbeskrivning",
+      "body": "titel=Runsa lat=17824670 long=59569140 Kör skyltade vägen mot Runsa, ca 6km. Parkera vid parkeringen efter allén. Följ grusvägen ca 400m till skylt Runsaborg vänster. Följ stigen. Efter ca 200 m ligger stenen mycket synligt på höger sida."
+    }
+  ],
+  "routes": [
+    {
+      "id": "runsastenen-problem-1",
+      "kind": "problem",
+      "number": "1",
+      "name": "Inte nudda trädet!!",
+      "grade": "5C",
+      "length": "",
+      "type": "",
+      "firstAscent": "",
+      "description": "Rakt upp. (S.Clancy 2011)",
+      "source": {
+        "id": "legacy:runsastenen",
+        "path": "mediawiki/Runsastenen.txt"
+      }
+    },
+    {
+      "id": "runsastenen-problem-2",
+      "kind": "problem",
+      "number": "2",
+      "name": "Rymdraketen",
+      "grade": "6C *",
+      "length": "",
+      "type": "",
+      "firstAscent": "",
+      "description": "Starta brett med sidotag. Rakt upp. (S.Clancy 2011)",
+      "source": {
+        "id": "legacy:runsastenen",
+        "path": "mediawiki/Runsastenen.txt"
+      }
+    },
+    {
+      "id": "runsastenen-problem-3",
+      "kind": "problem",
+      "number": "P",
+      "name": "Projekt",
+      "grade": "x",
+      "length": "",
+      "type": "",
+      "firstAscent": "",
+      "description": "För den starke kanske det går att ta sig upp på det blanka överhänget",
+      "source": {
+        "id": "legacy:runsastenen",
+        "path": "mediawiki/Runsastenen.txt"
+      }
+    },
+    {
+      "id": "runsastenen-problem-4",
+      "kind": "problem",
+      "number": "3a",
+      "name": "Jump in to space",
+      "grade": "6b+ *",
+      "length": "",
+      "type": "",
+      "firstAscent": "",
+      "description": "Startar som Take off men klättras upp längs aretén till stenens topp. (S.Clancy, 2011)",
+      "source": {
+        "id": "legacy:runsastenen",
+        "path": "mediawiki/Runsastenen.txt"
+      }
+    },
+    {
+      "id": "runsastenen-problem-5",
+      "kind": "problem",
+      "number": "3b",
+      "name": "Take off",
+      "grade": "6a+ *",
+      "length": "",
+      "type": "",
+      "firstAscent": "",
+      "description": "Start med höger hand i tydligt sprickhål, vänster på liten vårta. Rakt upp. (T.Rönnbäck, 2011)",
+      "source": {
+        "id": "legacy:runsastenen",
+        "path": "mediawiki/Runsastenen.txt"
+      }
+    },
+    {
+      "id": "runsastenen-problem-6",
+      "kind": "problem",
+      "number": "4",
+      "name": "Fuglesang",
+      "grade": "5C",
+      "length": "",
+      "type": "",
+      "firstAscent": "",
+      "description": "5c. Mellan led 3 och 5. Starta med höger hand på liten list, klättra över den lilla bullen. (T.Rönnbäck, 2011)",
+      "source": {
+        "id": "legacy:runsastenen",
+        "path": "mediawiki/Runsastenen.txt"
+      }
+    },
+    {
+      "id": "runsastenen-problem-7",
+      "kind": "problem",
+      "number": "5",
+      "name": "Sputnik",
+      "grade": "5a *",
+      "length": "",
+      "type": "",
+      "firstAscent": "",
+      "description": "Sva just hitom trädet, rakt upp. (T.Rönnbäck, 2011)",
+      "source": {
+        "id": "legacy:runsastenen",
+        "path": "mediawiki/Runsastenen.txt"
+      }
+    }
+  ],
+  "images": [
+    {
+      "filename": "Runsastenen_bild.jpg",
+      "caption": "",
+      "missing": false
+    }
+  ],
+  "access": {
+    "legacyText": null,
+    "federationSlug": null
+  },
+  "qualityIssues": [],
+  "provenance": {
+    "primarySourceId": "legacy:runsastenen",
+    "sources": [
+      {
+        "id": "legacy:runsastenen",
+        "title": "Sverigeföraren 2014: Runsastenen",
+        "path": "mediawiki/Runsastenen.txt",
+        "license": "GNU Free Documentation License",
+        "snapshotDate": "2014-01-01"
+      }
+    ]
+  }
+}

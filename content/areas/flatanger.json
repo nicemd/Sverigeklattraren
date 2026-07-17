@@ -1,0 +1,874 @@
+{
+  "schemaVersion": 1,
+  "id": "flatanger",
+  "slug": "flatanger",
+  "name": "Flatanger",
+  "description": "Utanför Flatanger finns en STOR gneissgrotta. Leder finns både i och utanför grottan. Åk hit om du tycker att Hell är för lätt!",
+  "coordinates": null,
+  "categories": [
+    "Norge",
+    "Sport",
+    "Trad",
+    "Utomlands",
+    "Vertikalt",
+    "Överhäng"
+  ],
+  "sections": [
+    {
+      "id": "allmant",
+      "title": "Allmänt",
+      "body": "Utanför Flatanger finns en STOR gneissgrotta. Leder finns både i och utanför grottan. Åk hit om du tycker att Hell är för lätt!"
+    },
+    {
+      "id": "ovrigt",
+      "title": "Övrigt",
+      "body": "Leder i grottan, som kallas Helleren, finns på Headwall och Steepstone. ]] ]]"
+    },
+    {
+      "id": "hanshelleren",
+      "title": "Hanshelleren",
+      "body": "Den stora grottan och väggen till vänster om den. Cirka 100 m hög vägg som hänger över 4-40m."
+    },
+    {
+      "id": "dalen-nedre-delen",
+      "title": "Dalen, Nedre delen",
+      "body": "Ganska långsträckt väggparti. Långa sträckor är ganska linjelösa."
+    },
+    {
+      "id": "dalen-midtre-del",
+      "title": "Dalen, Midtre del",
+      "body": "Ta gärna med lite större säkringar. Flera av lederna är ganska grova sprickor"
+    },
+    {
+      "id": "oppvarmningsveggen",
+      "title": "Oppvarmningsveggen",
+      "body": "Ofta seriösa och svåra starter på lederna. Kategori:Sport Kategori:Trad Kategori:Vertikalt Kategori:Överhäng Kategori:Norge Kategori:Utomlands"
+    }
+  ],
+  "routes": [
+    {
+      "id": "flatanger-led-1",
+      "kind": "route",
+      "number": "1",
+      "name": "Trang Födsel",
+      "grade": "6-",
+      "length": "90",
+      "type": "trad",
+      "firstAscent": "Vegard Fluge Samuelsen, Övind Amundsgård -96",
+      "description": "Spricka/dieder. Startar i vänstra diedret och går sen in i huvuddiedret.",
+      "source": {
+        "id": "legacy:flatanger",
+        "path": "mediawiki/Flatanger.txt"
+      }
+    },
+    {
+      "id": "flatanger-led-2",
+      "kind": "route",
+      "number": "2",
+      "name": "Tusen Tak",
+      "grade": "6+",
+      "length": "90",
+      "type": "trad",
+      "firstAscent": "Thomas Vekve, Erik Alde -96",
+      "description": "Gemensam start med Trang födsel. Viker av mot höger mitt på första replängden.",
+      "source": {
+        "id": "legacy:flatanger",
+        "path": "mediawiki/Flatanger.txt"
+      }
+    },
+    {
+      "id": "flatanger-led-3",
+      "kind": "route",
+      "number": "3",
+      "name": "Tungt möblement",
+      "grade": "7a+",
+      "length": "20",
+      "type": "sport",
+      "firstAscent": "Eivind W Nagell -00",
+      "description": "Till vänster om det stora taket.",
+      "source": {
+        "id": "legacy:flatanger",
+        "path": "mediawiki/Flatanger.txt"
+      }
+    },
+    {
+      "id": "flatanger-led-4",
+      "kind": "route",
+      "number": null,
+      "name": "???",
+      "grade": "?",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "",
+      "description": "Ny led till höger om Tungt möblement?",
+      "source": {
+        "id": "legacy:flatanger",
+        "path": "mediawiki/Flatanger.txt"
+      }
+    },
+    {
+      "id": "flatanger-led-5",
+      "kind": "route",
+      "number": "4",
+      "name": "(Öppet projekt)",
+      "grade": "?",
+      "length": "30",
+      "type": "trad",
+      "firstAscent": "",
+      "description": "Spricka genom tak.",
+      "source": {
+        "id": "legacy:flatanger",
+        "path": "mediawiki/Flatanger.txt"
+      }
+    },
+    {
+      "id": "flatanger-led-6",
+      "kind": "route",
+      "number": "5",
+      "name": "Kneopatra",
+      "grade": "7c",
+      "length": "20",
+      "type": "sport",
+      "firstAscent": "Thomas Vekve -99",
+      "description": "Slutar vid ankaret mitt i Bondeanger.",
+      "source": {
+        "id": "legacy:flatanger",
+        "path": "mediawiki/Flatanger.txt"
+      }
+    },
+    {
+      "id": "flatanger-led-7",
+      "kind": "route",
+      "number": "6",
+      "name": "Bondeanger",
+      "grade": "7c",
+      "length": "30",
+      "type": "sport",
+      "firstAscent": "Thomas Vekve -99",
+      "description": "Gemensam start med Kykkeli. Traverserar vänster till ankaret på Kneopatra och fortsätt rakt uppåt till nästa ankare.",
+      "source": {
+        "id": "legacy:flatanger",
+        "path": "mediawiki/Flatanger.txt"
+      }
+    },
+    {
+      "id": "flatanger-led-8",
+      "kind": "route",
+      "number": "7",
+      "name": "Kykkeli",
+      "grade": "7b",
+      "length": "20",
+      "type": "sport",
+      "firstAscent": "Pål Benum Reiten, Thomas Vekve -96",
+      "description": "Tydlig spricka som slutar just under ett tak.",
+      "source": {
+        "id": "legacy:flatanger",
+        "path": "mediawiki/Flatanger.txt"
+      }
+    },
+    {
+      "id": "flatanger-led-9",
+      "kind": "route",
+      "number": "8",
+      "name": "Kykkelikokos",
+      "grade": "7b+",
+      "length": "30",
+      "type": "sport",
+      "firstAscent": "Pål Benum Reiten, Thomas Vekve -96",
+      "description": "Förlängning av Kykkeli.",
+      "source": {
+        "id": "legacy:flatanger",
+        "path": "mediawiki/Flatanger.txt"
+      }
+    },
+    {
+      "id": "flatanger-led-10",
+      "kind": "route",
+      "number": "9",
+      "name": "Påltergeist",
+      "grade": "7c+",
+      "length": "30",
+      "type": "sport",
+      "firstAscent": "Pål Benum Reiten -97",
+      "description": "",
+      "source": {
+        "id": "legacy:flatanger",
+        "path": "mediawiki/Flatanger.txt"
+      }
+    },
+    {
+      "id": "flatanger-led-11",
+      "kind": "route",
+      "number": "10",
+      "name": "Påletikk",
+      "grade": "7b",
+      "length": "25",
+      "type": "trad",
+      "firstAscent": "Pål Benum Reiten -97",
+      "description": "Tydlig spricka och dieder.",
+      "source": {
+        "id": "legacy:flatanger",
+        "path": "mediawiki/Flatanger.txt"
+      }
+    },
+    {
+      "id": "flatanger-led-12",
+      "kind": "route",
+      "number": "11",
+      "name": "Eventyrblanding",
+      "grade": "8a",
+      "length": "25",
+      "type": "sport",
+      "firstAscent": "Thomas Vekve -01",
+      "description": "",
+      "source": {
+        "id": "legacy:flatanger",
+        "path": "mediawiki/Flatanger.txt"
+      }
+    },
+    {
+      "id": "flatanger-led-13",
+      "kind": "route",
+      "number": "12",
+      "name": "Nagells Drömmedieder",
+      "grade": "8a+",
+      "length": "25",
+      "type": "sport",
+      "firstAscent": "Erik Massih 2006",
+      "description": "",
+      "source": {
+        "id": "legacy:flatanger",
+        "path": "mediawiki/Flatanger.txt"
+      }
+    },
+    {
+      "id": "flatanger-led-14",
+      "kind": "route",
+      "number": "13",
+      "name": "Massih Attack",
+      "grade": "8b",
+      "length": "25",
+      "type": "sport",
+      "firstAscent": "Erik Massih 2006",
+      "description": "",
+      "source": {
+        "id": "legacy:flatanger",
+        "path": "mediawiki/Flatanger.txt"
+      }
+    },
+    {
+      "id": "flatanger-led-15",
+      "kind": "route",
+      "number": "14",
+      "name": "Hovdegjengen",
+      "grade": "6c+",
+      "length": "12",
+      "type": "sport",
+      "firstAscent": "Oscar H Berntsen -01",
+      "description": "Upp till första ankaret.",
+      "source": {
+        "id": "legacy:flatanger",
+        "path": "mediawiki/Flatanger.txt"
+      }
+    },
+    {
+      "id": "flatanger-led-16",
+      "kind": "route",
+      "number": "15",
+      "name": "Berntsenbanden",
+      "grade": "7c",
+      "length": "25",
+      "type": "sport",
+      "firstAscent": "Oscar H Berntsen -03",
+      "description": "Förlängning av Hoevdegjengen.",
+      "source": {
+        "id": "legacy:flatanger",
+        "path": "mediawiki/Flatanger.txt"
+      }
+    },
+    {
+      "id": "flatanger-led-17",
+      "kind": "route",
+      "number": "16",
+      "name": "Waliserne kommer",
+      "grade": "7b",
+      "length": "15",
+      "type": "sport",
+      "firstAscent": "Pål Benum Reiten -99",
+      "description": "Brant diederformation.",
+      "source": {
+        "id": "legacy:flatanger",
+        "path": "mediawiki/Flatanger.txt"
+      }
+    },
+    {
+      "id": "flatanger-led-18",
+      "kind": "route",
+      "number": "17",
+      "name": "Andre höyre",
+      "grade": "7c",
+      "length": "15",
+      "type": "sport",
+      "firstAscent": "Thomas Vekve, Gisle Andersen -00",
+      "description": "",
+      "source": {
+        "id": "legacy:flatanger",
+        "path": "mediawiki/Flatanger.txt"
+      }
+    },
+    {
+      "id": "flatanger-led-19",
+      "kind": "route",
+      "number": "18",
+      "name": "(Projekt)",
+      "grade": "?",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "",
+      "description": "Hårt, brant och långt!",
+      "source": {
+        "id": "legacy:flatanger",
+        "path": "mediawiki/Flatanger.txt"
+      }
+    },
+    {
+      "id": "flatanger-led-20",
+      "kind": "route",
+      "number": "19",
+      "name": "Kakestykket",
+      "grade": "7a",
+      "length": "15",
+      "type": "trad",
+      "firstAscent": "Pål Benum Reiten -95",
+      "description": "Traverserar ut åt höger och delar ankare med Flaggermusmannen.",
+      "source": {
+        "id": "legacy:flatanger",
+        "path": "mediawiki/Flatanger.txt"
+      }
+    },
+    {
+      "id": "flatanger-led-21",
+      "kind": "route",
+      "number": "20",
+      "name": "Flaggermusmannen",
+      "grade": "8a",
+      "length": "10",
+      "type": "sport",
+      "firstAscent": "Pål Benum Reiten -96",
+      "description": "Stick-clip första bulten och dra dig upp till den. Leden startar från första bult.",
+      "source": {
+        "id": "legacy:flatanger",
+        "path": "mediawiki/Flatanger.txt"
+      }
+    },
+    {
+      "id": "flatanger-led-22",
+      "kind": "route",
+      "number": null,
+      "name": "Gruvarbeid i höyden",
+      "grade": "4",
+      "length": "50",
+      "type": "trad",
+      "firstAscent": "Erik Alde, Magnhild S Hatlöy -96",
+      "description": "Kamin",
+      "source": {
+        "id": "legacy:flatanger",
+        "path": "mediawiki/Flatanger.txt"
+      }
+    },
+    {
+      "id": "flatanger-led-23",
+      "kind": "route",
+      "number": null,
+      "name": "Kabelmannen",
+      "grade": "7-",
+      "length": "50",
+      "type": "trad",
+      "firstAscent": "Pål Benum Reiten, Erik Alde -96",
+      "description": "Tydlig spricka.",
+      "source": {
+        "id": "legacy:flatanger",
+        "path": "mediawiki/Flatanger.txt"
+      }
+    },
+    {
+      "id": "flatanger-led-24",
+      "kind": "route",
+      "number": null,
+      "name": "Slalom",
+      "grade": "7-",
+      "length": "50",
+      "type": "trad",
+      "firstAscent": "Pål Benum Reiten, Thomas Vekve -96",
+      "description": "Zick-zack längs arete'.",
+      "source": {
+        "id": "legacy:flatanger",
+        "path": "mediawiki/Flatanger.txt"
+      }
+    },
+    {
+      "id": "flatanger-led-25",
+      "kind": "route",
+      "number": null,
+      "name": "Storfjellsbowling",
+      "grade": "6+",
+      "length": "50",
+      "type": "trad",
+      "firstAscent": "Erik Alde -96",
+      "description": "Dieder i början.",
+      "source": {
+        "id": "legacy:flatanger",
+        "path": "mediawiki/Flatanger.txt"
+      }
+    },
+    {
+      "id": "flatanger-led-26",
+      "kind": "route",
+      "number": null,
+      "name": "Scrotum explorer",
+      "grade": "4-",
+      "length": "50",
+      "type": "trad",
+      "firstAscent": "Erik Alde -96",
+      "description": "Diederformationer.",
+      "source": {
+        "id": "legacy:flatanger",
+        "path": "mediawiki/Flatanger.txt"
+      }
+    },
+    {
+      "id": "flatanger-led-27",
+      "kind": "route",
+      "number": null,
+      "name": "Lykkens sönn",
+      "grade": "7",
+      "length": "50",
+      "type": "trad",
+      "firstAscent": "Thomas Vekve, Pål Benum Reiten -97",
+      "description": "Dieder till tak. Passera taket.",
+      "source": {
+        "id": "legacy:flatanger",
+        "path": "mediawiki/Flatanger.txt"
+      }
+    },
+    {
+      "id": "flatanger-led-28",
+      "kind": "route",
+      "number": null,
+      "name": "Slagvolum",
+      "grade": "7-",
+      "length": "50",
+      "type": "trad",
+      "firstAscent": "Pål Benum Reiten -97",
+      "description": "Tydlig spricka som brantar på mot slutet.",
+      "source": {
+        "id": "legacy:flatanger",
+        "path": "mediawiki/Flatanger.txt"
+      }
+    },
+    {
+      "id": "flatanger-led-29",
+      "kind": "route",
+      "number": null,
+      "name": "Placebo",
+      "grade": "?",
+      "length": "50",
+      "type": "trad",
+      "firstAscent": "? -?",
+      "description": "Tydlig spricka.",
+      "source": {
+        "id": "legacy:flatanger",
+        "path": "mediawiki/Flatanger.txt"
+      }
+    },
+    {
+      "id": "flatanger-led-30",
+      "kind": "route",
+      "number": null,
+      "name": "Hypnose",
+      "grade": "6-",
+      "length": "50",
+      "type": "trad",
+      "firstAscent": "Anders Kringstad -97",
+      "description": "Tydlig spricka. Flack start.",
+      "source": {
+        "id": "legacy:flatanger",
+        "path": "mediawiki/Flatanger.txt"
+      }
+    },
+    {
+      "id": "flatanger-led-31",
+      "kind": "route",
+      "number": null,
+      "name": "Detektor",
+      "grade": "5+",
+      "length": "",
+      "type": "tradFALSKT",
+      "firstAscent": "Lars Andun Nornes, Thomas Vekve -97",
+      "description": "",
+      "source": {
+        "id": "legacy:flatanger",
+        "path": "mediawiki/Flatanger.txt"
+      }
+    },
+    {
+      "id": "flatanger-led-32",
+      "kind": "route",
+      "number": null,
+      "name": "Bunnlös uro",
+      "grade": "7+",
+      "length": "",
+      "type": "trad",
+      "firstAscent": "Thomas Vekve, Pål Benum Reiten -97",
+      "description": "Brant väggklättring och spricka.",
+      "source": {
+        "id": "legacy:flatanger",
+        "path": "mediawiki/Flatanger.txt"
+      }
+    },
+    {
+      "id": "flatanger-led-33",
+      "kind": "route",
+      "number": null,
+      "name": "Stemmeskiftet",
+      "grade": "7",
+      "length": "",
+      "type": "trad",
+      "firstAscent": "Thomas Vekve, Lars Andun Nornes -99",
+      "description": "Brant diederformation förbi två tak.",
+      "source": {
+        "id": "legacy:flatanger",
+        "path": "mediawiki/Flatanger.txt"
+      }
+    },
+    {
+      "id": "flatanger-led-34",
+      "kind": "route",
+      "number": null,
+      "name": "Kåt ugle",
+      "grade": "5",
+      "length": "",
+      "type": "trad",
+      "firstAscent": "Vegard Fluge Samuelsen, Öyvind Amundsgård -97",
+      "description": "Brant spricka och sedan en lätt dieder.",
+      "source": {
+        "id": "legacy:flatanger",
+        "path": "mediawiki/Flatanger.txt"
+      }
+    },
+    {
+      "id": "flatanger-led-35",
+      "kind": "route",
+      "number": null,
+      "name": "Kam du så kan jeg",
+      "grade": "5",
+      "length": "",
+      "type": "trad",
+      "firstAscent": "Vegard Fluge Samuelsen, Öyvind Amundsgård -97",
+      "description": "Spricka.",
+      "source": {
+        "id": "legacy:flatanger",
+        "path": "mediawiki/Flatanger.txt"
+      }
+    },
+    {
+      "id": "flatanger-led-36",
+      "kind": "route",
+      "number": null,
+      "name": "Snoken",
+      "grade": "7",
+      "length": "",
+      "type": "trad",
+      "firstAscent": "Thomas Vekve, Pål Benum Reiten -97",
+      "description": "Vänster sida av Brattsvaet.",
+      "source": {
+        "id": "legacy:flatanger",
+        "path": "mediawiki/Flatanger.txt"
+      }
+    },
+    {
+      "id": "flatanger-led-37",
+      "kind": "route",
+      "number": null,
+      "name": "Näringsvett",
+      "grade": "7-",
+      "length": "",
+      "type": "trad",
+      "firstAscent": "Eivind W Nagell, Anders Kringstad -00",
+      "description": "Höger sida av Brattsvaet.",
+      "source": {
+        "id": "legacy:flatanger",
+        "path": "mediawiki/Flatanger.txt"
+      }
+    },
+    {
+      "id": "flatanger-led-38",
+      "kind": "route",
+      "number": null,
+      "name": "Knottåt",
+      "grade": "8-",
+      "length": "",
+      "type": "trad",
+      "firstAscent": "Pål Benum Reiten, E. Sönstebö -97",
+      "description": "Gemensam start med Frivillig tvang och Gresk krydder. Viker av åt vänster.",
+      "source": {
+        "id": "legacy:flatanger",
+        "path": "mediawiki/Flatanger.txt"
+      }
+    },
+    {
+      "id": "flatanger-led-39",
+      "kind": "route",
+      "number": null,
+      "name": "Frivillig tvang",
+      "grade": "7+",
+      "length": "",
+      "type": "trad",
+      "firstAscent": "Pål Benum Reiten, Thomas Vekve -97",
+      "description": "Går rakt upp.",
+      "source": {
+        "id": "legacy:flatanger",
+        "path": "mediawiki/Flatanger.txt"
+      }
+    },
+    {
+      "id": "flatanger-led-40",
+      "kind": "route",
+      "number": null,
+      "name": "Gresk krydder",
+      "grade": "5",
+      "length": "",
+      "type": "trad",
+      "firstAscent": "Vegard Fluge Samuelsen, Öyvind Amundsgård -97",
+      "description": "Dieder. Sva i starten.",
+      "source": {
+        "id": "legacy:flatanger",
+        "path": "mediawiki/Flatanger.txt"
+      }
+    },
+    {
+      "id": "flatanger-led-41",
+      "kind": "route",
+      "number": null,
+      "name": "Strekkoden",
+      "grade": "6+",
+      "length": "",
+      "type": "trad",
+      "firstAscent": "Thomas Vekve, Pål Benum Reiten -96",
+      "description": "Gemensam start och slut med Genistreken.",
+      "source": {
+        "id": "legacy:flatanger",
+        "path": "mediawiki/Flatanger.txt"
+      }
+    },
+    {
+      "id": "flatanger-led-42",
+      "kind": "route",
+      "number": null,
+      "name": "Genistreken",
+      "grade": "7-",
+      "length": "",
+      "type": "trad",
+      "firstAscent": "Pål Benum Reiten, Thomas Vekve -96",
+      "description": "Gemensam start och slut med Strekkoden.",
+      "source": {
+        "id": "legacy:flatanger",
+        "path": "mediawiki/Flatanger.txt"
+      }
+    },
+    {
+      "id": "flatanger-led-43",
+      "kind": "route",
+      "number": null,
+      "name": "Superleder",
+      "grade": "5",
+      "length": "",
+      "type": "trad",
+      "firstAscent": "Vegard Fluge Samuelsen, Öyvind Amundsgård -97",
+      "description": "Dieder.",
+      "source": {
+        "id": "legacy:flatanger",
+        "path": "mediawiki/Flatanger.txt"
+      }
+    },
+    {
+      "id": "flatanger-led-44",
+      "kind": "route",
+      "number": null,
+      "name": "Knyttneven",
+      "grade": "7-",
+      "length": "",
+      "type": "trad",
+      "firstAscent": "Pål Benum Reiten, Thomas Vekve -96",
+      "description": "",
+      "source": {
+        "id": "legacy:flatanger",
+        "path": "mediawiki/Flatanger.txt"
+      }
+    },
+    {
+      "id": "flatanger-led-45",
+      "kind": "route",
+      "number": null,
+      "name": "Kul rundt kanten",
+      "grade": "5",
+      "length": "",
+      "type": "trad",
+      "firstAscent": "Thomas Vekve, Pål Benum Reiten -96",
+      "description": "",
+      "source": {
+        "id": "legacy:flatanger",
+        "path": "mediawiki/Flatanger.txt"
+      }
+    },
+    {
+      "id": "flatanger-led-46",
+      "kind": "route",
+      "number": null,
+      "name": "Organiske forbindelser",
+      "grade": "7-",
+      "length": "",
+      "type": "trad",
+      "firstAscent": "Thomas Vekve, Ragnhild Svinsås -99",
+      "description": "Spricka",
+      "source": {
+        "id": "legacy:flatanger",
+        "path": "mediawiki/Flatanger.txt"
+      }
+    },
+    {
+      "id": "flatanger-led-47",
+      "kind": "route",
+      "number": null,
+      "name": "Kollisjonsteori",
+      "grade": "7",
+      "length": "",
+      "type": "trad",
+      "firstAscent": "Pål Benum Reiten -98",
+      "description": "Spricka",
+      "source": {
+        "id": "legacy:flatanger",
+        "path": "mediawiki/Flatanger.txt"
+      }
+    },
+    {
+      "id": "flatanger-led-48",
+      "kind": "route",
+      "number": null,
+      "name": "Frie radikaler",
+      "grade": "7-",
+      "length": "",
+      "type": "trad",
+      "firstAscent": "Thomas Vekve, Kari Torgersen -98",
+      "description": "Spricka",
+      "source": {
+        "id": "legacy:flatanger",
+        "path": "mediawiki/Flatanger.txt"
+      }
+    },
+    {
+      "id": "flatanger-led-49",
+      "kind": "route",
+      "number": null,
+      "name": "Bunnfall",
+      "grade": "6-",
+      "length": "",
+      "type": "trad",
+      "firstAscent": "Thomas Vekve, Kari Torgersen -98",
+      "description": "Spricka. Svårsäkrad mot slutet.",
+      "source": {
+        "id": "legacy:flatanger",
+        "path": "mediawiki/Flatanger.txt"
+      }
+    },
+    {
+      "id": "flatanger-led-50",
+      "kind": "route",
+      "number": null,
+      "name": "Brownske bevegelser",
+      "grade": "6-",
+      "length": "",
+      "type": "trad",
+      "firstAscent": "Anders Kringstad, Eivind W Nagell -99",
+      "description": "",
+      "source": {
+        "id": "legacy:flatanger",
+        "path": "mediawiki/Flatanger.txt"
+      }
+    },
+    {
+      "id": "flatanger-led-51",
+      "kind": "route",
+      "number": null,
+      "name": "Det kritiske punkt",
+      "grade": "6-",
+      "length": "",
+      "type": "trad",
+      "firstAscent": "Anders Kringstad, Eivind W Nagell -99",
+      "description": "Mossig spricka.",
+      "source": {
+        "id": "legacy:flatanger",
+        "path": "mediawiki/Flatanger.txt"
+      }
+    },
+    {
+      "id": "flatanger-led-52",
+      "kind": "route",
+      "number": null,
+      "name": "Likevekt",
+      "grade": "6b",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "Thomas Vekve -00",
+      "description": "",
+      "source": {
+        "id": "legacy:flatanger",
+        "path": "mediawiki/Flatanger.txt"
+      }
+    },
+    {
+      "id": "flatanger-led-53",
+      "kind": "route",
+      "number": null,
+      "name": "Amatören",
+      "grade": "6b+",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "Thomas Vekve -00",
+      "description": "",
+      "source": {
+        "id": "legacy:flatanger",
+        "path": "mediawiki/Flatanger.txt"
+      }
+    }
+  ],
+  "images": [
+    {
+      "filename": "IMG_0845.jpg",
+      "caption": "Jan Lundström",
+      "missing": false
+    },
+    {
+      "filename": "IMG_0889.jpg",
+      "caption": "Jan Lundström",
+      "missing": false
+    }
+  ],
+  "access": {
+    "legacyText": null,
+    "federationSlug": null
+  },
+  "qualityIssues": [],
+  "provenance": {
+    "primarySourceId": "legacy:flatanger",
+    "sources": [
+      {
+        "id": "legacy:flatanger",
+        "title": "Sverigeföraren 2014: Flatanger",
+        "path": "mediawiki/Flatanger.txt",
+        "license": "GNU Free Documentation License",
+        "snapshotDate": "2014-01-01"
+      }
+    ]
+  }
+}

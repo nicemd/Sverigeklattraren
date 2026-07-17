@@ -1,0 +1,179 @@
+{
+  "schemaVersion": 1,
+  "id": "tanto",
+  "slug": "tanto",
+  "name": "Tanto",
+  "description": "Själlös sprängklippa. Oftast blöt. Men läget!",
+  "coordinates": {
+    "latitude": 59.31407517684315,
+    "longitude": 18.04234027862549
+  },
+  "categories": [
+    "Sport",
+    "Stockholm",
+    "Stockholm City"
+  ],
+  "sections": [
+    {
+      "id": "allmant",
+      "title": "Allmänt",
+      "body": "Själlös sprängklippa. Oftast blöt. Men läget!"
+    },
+    {
+      "id": "vagbeskrivning",
+      "title": "Vägbeskrivning",
+      "body": "KML titel=Tantoklippan lat=18042340 long=59314075 Det ska sägas på en gång: Det här är inte direkt stockholms bästa klättring. Å andra sidan finns det knappast någon mer lättillgänglig klippa och klättring är ju alltid klättring. Ta tunnelbanan till hornstull och kryssa genom parken mellan solbadare, glassätande barn och a-lagare. Klippan ligger längs cykelbanan mot zinken."
+    },
+    {
+      "id": "leder",
+      "title": "Leder",
+      "body": "Oklart vilka av dessa som finns kvar. Beskrivningen kommer från bloxc"
+    }
+  ],
+  "routes": [
+    {
+      "id": "tanto-led-1",
+      "kind": "route",
+      "number": null,
+      "name": "Reclaim the city",
+      "grade": "5+",
+      "length": "12",
+      "type": "sport",
+      "firstAscent": "MO, CT 00",
+      "description": "Längst till vänster. Svagt överhängande tur som drar åt höger, trevlig. 3 bb + ankare.",
+      "source": {
+        "id": "legacy:tanto",
+        "path": "mediawiki/Tanto.txt"
+      }
+    },
+    {
+      "id": "tanto-led-2",
+      "kind": "route",
+      "number": null,
+      "name": "Peter Siepen och fjollan",
+      "grade": "8",
+      "length": "10",
+      "type": "sport",
+      "firstAscent": "",
+      "description": "3m th ”Reclaim..” Svår teknisk tur rakt upp mot ankaret.",
+      "source": {
+        "id": "legacy:tanto",
+        "path": "mediawiki/Tanto.txt"
+      }
+    },
+    {
+      "id": "tanto-led-3",
+      "kind": "route",
+      "number": null,
+      "name": "Med fanan i näven",
+      "grade": "5+",
+      "length": "10",
+      "type": "mix",
+      "firstAscent": "MO, CT 00",
+      "description": "Det uppenbara svaga hörnet. Småtrevlig klättring med en borrbult i början och därefter kilar. Ankare.",
+      "source": {
+        "id": "legacy:tanto",
+        "path": "mediawiki/Tanto.txt"
+      }
+    },
+    {
+      "id": "tanto-led-4",
+      "kind": "route",
+      "number": null,
+      "name": "White men don´t jump",
+      "grade": "5+",
+      "length": "10",
+      "type": "sport",
+      "firstAscent": "MO, CT 00",
+      "description": "2m th ”Med fanan…”. Omväxlande klättring på kanten. 3 bb + föregående ankare.",
+      "source": {
+        "id": "legacy:tanto",
+        "path": "mediawiki/Tanto.txt"
+      }
+    },
+    {
+      "id": "tanto-led-5",
+      "kind": "route",
+      "number": null,
+      "name": "Två tanter i Tanto",
+      "grade": "6",
+      "length": "5",
+      "type": "sport",
+      "firstAscent": "CT 00",
+      "description": "Precis bakom trädet. Någon krystat men fin klättring rakt upp.",
+      "source": {
+        "id": "legacy:tanto",
+        "path": "mediawiki/Tanto.txt"
+      }
+    },
+    {
+      "id": "tanto-led-6",
+      "kind": "route",
+      "number": null,
+      "name": "Old men don´t jump",
+      "grade": "7-",
+      "length": "",
+      "type": "sport",
+      "firstAscent": "CT 00",
+      "description": "Tv ”Min pappa…”. För hög för att sola. Kort gorillatur med få steg.",
+      "source": {
+        "id": "legacy:tanto",
+        "path": "mediawiki/Tanto.txt"
+      }
+    },
+    {
+      "id": "tanto-led-7",
+      "kind": "route",
+      "number": null,
+      "name": "”Aerobics? Tror du att jag är bög eller!?”",
+      "grade": "7",
+      "length": "5",
+      "type": "sport",
+      "firstAscent": "CT",
+      "description": "1m th ”Old men…” Knepig inklämd tur, använd omgivande bultar.",
+      "source": {
+        "id": "legacy:tanto",
+        "path": "mediawiki/Tanto.txt"
+      }
+    },
+    {
+      "id": "tanto-led-8",
+      "kind": "route",
+      "number": null,
+      "name": "Pappa är pedolog",
+      "grade": "7-",
+      "length": "5",
+      "type": "sport",
+      "firstAscent": "CT 00",
+      "description": "Längst till höger. Teknisk pillrig tur med 1 bb och ankare.",
+      "source": {
+        "id": "legacy:tanto",
+        "path": "mediawiki/Tanto.txt"
+      }
+    }
+  ],
+  "images": [
+    {
+      "filename": "Tanto.jpeg",
+      "caption": "center",
+      "missing": false
+    }
+  ],
+  "access": {
+    "legacyText": null,
+    "federationSlug": null
+  },
+  "qualityIssues": [],
+  "provenance": {
+    "primarySourceId": "legacy:tanto",
+    "sources": [
+      {
+        "id": "legacy:tanto",
+        "title": "Sverigeföraren 2014: Tanto",
+        "path": "mediawiki/Tanto.txt",
+        "license": "GNU Free Documentation License",
+        "snapshotDate": "2014-01-01"
+      }
+    ]
+  }
+}
