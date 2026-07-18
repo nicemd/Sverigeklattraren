@@ -137,6 +137,7 @@ a { color: inherit; }
 .hero-stat strong { display: block; font-family: Georgia, serif; font-size: 28px; }
 .hero-stat span { color: rgb(255 255 255 / 62%); font-size: 11px; letter-spacing: .08em; text-transform: uppercase; }
 .translation-notice { background: rgb(255 255 255 / 10%); border-left: 3px solid var(--moss); color: #d8e5de; display: block; font-size: 11px; line-height: 1.45; margin-top: 18px; padding: 9px 11px; }
+.translation-retry { background: rgb(255 255 255 / 10%); border: 1px solid rgb(255 255 255 / 24%); border-radius: 9px; color: white; cursor: pointer; display: block; font-size: 11px; margin-top: 18px; padding: 9px 11px; position: relative; z-index: 2; }
 .machine-translation { background: rgb(255 255 255 / 10%); border-left: 3px solid var(--moss); color: #d8e5de; font-size: 11px; line-height: 1.45; margin-top: 18px; padding: 9px 11px; position: relative; z-index: 2; }
 .machine-translation summary { cursor: pointer; font-weight: 750; }
 .machine-translation > p { border-top: 1px solid rgb(255 255 255 / 16%); color: #edf4ef; font-size: 12px; margin: 8px 0 0; padding-top: 8px; }
@@ -288,6 +289,7 @@ a { color: inherit; }
 .route-description { border-left: 3px solid #bfd3b7; margin: 15px 0; padding: 2px 0 2px 13px; }
 .route-description > strong { color: var(--forest); font-size: 11px; letter-spacing: .05em; text-transform: uppercase; }
 .route-description p { color: #344b41; font-size: 16px; line-height: 1.55; margin: 7px 0 2px; white-space: pre-line; }
+.route-translation-status { background: #eef1e9; border-radius: 9px; color: #51635a; font-size: 12px; margin: -7px 0 15px; padding: 8px 10px; }
 .beta-panel { background: #14241e; border-radius: 14px; color: white; margin: 15px 0; padding: 15px; }
 .beta-toggle { background: #f4c65f; border: 0; border-radius: 10px; color: #1d332a; cursor: pointer; font-size: 14px; font-weight: 850; padding: 11px 16px; width: 100%; }
 .beta-heading { align-items: center; display: flex; justify-content: space-between; }

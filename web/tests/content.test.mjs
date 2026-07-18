@@ -182,3 +182,14 @@ test("prefers sector topos with verified route relations over unlinked historica
   assert.match(component, /if \(relatedDirect\.length\) return rank\(relatedDirect\)/);
   assert.match(component, /const groupImages = allGroupImages\.slice\(0, 1\)/);
 });
+
+test("requests missing English area and route descriptions through the context-aware runtime translator", async () => {
+  const component = await readFile(path.join(process.cwd(), "app", "components", "GuideApp.tsx"), "utf8");
+  const runtime = await readFile(path.join(process.cwd(), "lib", "translation-runtime.ts"), "utf8");
+  assert.match(component, /fetch\(`\/api\/translations\/\$\{encodeURIComponent\(area\.slug\)\}`/);
+  assert.match(component, /body: JSON\.stringify\(\{ routeId: selectedRoute\.id \}\)/);
+  assert.match(component, /Translating route description with sector context/);
+  assert.match(component, /selectedRouteTranslationComplete/);
+  assert.match(runtime, /neighbouring-routes/);
+  assert.match(runtime, /Preserve route and place names, grades, route numbers/);
+});

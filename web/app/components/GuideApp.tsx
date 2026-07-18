@@ -219,7 +219,7 @@ export function GuideApp({ areas, initialArea }: { areas: AreaSummary[]; initial
         </aside>
 
         <main className="main-canvas" aria-busy={loading}>
-          {selected ? <AreaView key={`${selected.slug}:${routeSeed?.slug === selected.slug ? routeSeed.value : ""}:${locale}`} area={selected} access={access} initialRouteQuery={routeSeed?.slug === selected.slug ? routeSeed.value : ""} locale={locale} onSuggest={() => setShowSuggestion(true)} /> : <div className="empty">{tr(locale, "Inget område valt.", "No area selected.")}</div>}
+          {selected ? <AreaView key={`${selected.slug}:${routeSeed?.slug === selected.slug ? routeSeed.value : ""}`} area={selected} access={access} initialRouteQuery={routeSeed?.slug === selected.slug ? routeSeed.value : ""} locale={locale} onSuggest={() => setShowSuggestion(true)} /> : <div className="empty">{tr(locale, "Inget område valt.", "No area selected.")}</div>}
         </main>
       </div>}
       {showSuggestion && selected && <SuggestionDialog area={selected} locale={locale} onClose={() => setShowSuggestion(false)} />}
@@ -284,9 +284,13 @@ function AreaMap({ area, locale }: { area: Area; locale: Locale }) {
 
 function AreaView({ area, access, initialRouteQuery, locale, onSuggest }: { area: Area; access: AccessInfo | null; initialRouteQuery: string; locale: Locale; onSuggest: () => void }) {
   const routeCount = area.routes.length;
-  const areaName = localized(area, locale, "name");
-  const areaDescription = localized(area, locale, "description");
-  const areaTranslation = locale === "en" ? area.translations?.en : undefined;
+  const [runtimeTranslation, setRuntimeTranslation] = useState(area.translations?.en);
+  const [translationStatus, setTranslationStatus] = useState<"idle" | "loading" | "error">("idle");
+  const [translatingRouteId, setTranslatingRouteId] = useState<string | null>(null);
+  const [translationRetry, setTranslationRetry] = useState(0);
+  const areaTranslation = locale === "en" ? runtimeTranslation : undefined;
+  const areaName = locale === "en" ? areaTranslation?.name?.text || area.name : area.name;
+  const areaDescription = locale === "en" ? areaTranslation?.description?.text || area.description : area.description;
   const sectionTitle = (section: Area["sections"][number]) => areaTranslation?.sections?.[section.id]?.title?.text || section.title;
   const sectionBody = (section: Area["sections"][number]) => areaTranslation?.sections?.[section.id]?.body?.text || section.body;
   const routeName = (route: Area["routes"][number]) => areaTranslation?.routes?.[route.id]?.name?.text || route.name;
@@ -300,6 +304,17 @@ function AreaView({ area, access, initialRouteQuery, locale, onSuggest }: { area
   const [openImage, setOpenImage] = useState<Area["images"][number] | null>(null);
   const [selectedRouteId, setSelectedRouteId] = useState<string | null>(null);
   const [showBeta, setShowBeta] = useState(false);
+
+  useEffect(() => {
+    if (locale !== "en" || runtimeTranslation?.description) return;
+    let cancelled = false;
+    Promise.resolve().then(() => { if (!cancelled) setTranslationStatus("loading"); });
+    fetch(`/api/translations/${encodeURIComponent(area.slug)}`, { method: "POST", headers: { "content-type": "application/json" }, body: "{}" })
+      .then(async (response) => response.ok ? response.json() : Promise.reject(new Error(String(response.status))))
+      .then(({ translation }) => { if (!cancelled) { setRuntimeTranslation((current) => ({ ...current, ...translation, routes: { ...(current?.routes || {}), ...(translation.routes || {}) } })); setTranslationStatus("idle"); } })
+      .catch(() => { if (!cancelled) setTranslationStatus("error"); });
+    return () => { cancelled = true; };
+  }, [area.slug, locale, runtimeTranslation?.description, translationRetry]);
   const normalizedRouteQuery = normalizeSearch(routeQuery);
   const sectionById = useMemo(() => new Map(area.sections.map((section) => [section.id, section])), [area.sections]);
   const sectors = useMemo(() => {
@@ -383,6 +398,23 @@ function AreaView({ area, access, initialRouteQuery, locale, onSuggest }: { area
   const problemTotal = area.routes.filter((route) => route.kind === "problem").length;
   const disciplineTotal = discipline === "route" ? routeTotal : discipline === "problem" ? problemTotal : routeCount;
   const selectedRoute = selectedRouteId ? area.routes.find((route) => route.id === selectedRouteId) || null : null;
+  const selectedRouteTranslation = selectedRoute ? runtimeTranslation?.routes?.[selectedRoute.id] : undefined;
+  const selectedRouteTranslationComplete = Boolean(selectedRoute
+    && (!selectedRoute.description || selectedRouteTranslation?.description)
+    && (!selectedRoute.beta || selectedRouteTranslation?.beta));
+
+  useEffect(() => {
+    if (locale !== "en" || !selectedRoute || (!selectedRoute.description && !selectedRoute.beta) || selectedRouteTranslationComplete) return;
+    let cancelled = false;
+    const requestedRouteId = selectedRoute.id;
+    Promise.resolve().then(() => { if (!cancelled) setTranslatingRouteId(requestedRouteId); });
+    fetch(`/api/translations/${encodeURIComponent(area.slug)}`, { method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify({ routeId: selectedRoute.id }) })
+      .then(async (response) => response.ok ? response.json() : Promise.reject(new Error(String(response.status))))
+      .then(({ translation }) => { if (!cancelled) setRuntimeTranslation((current) => ({ ...current, routes: { ...(current?.routes || {}), ...(translation.routes || {}) } })); })
+      .catch(() => { /* Swedish source remains visible when a runtime translation fails. */ })
+      .finally(() => { if (!cancelled) setTranslatingRouteId(null); });
+    return () => { cancelled = true; };
+  }, [area.slug, locale, selectedRoute, selectedRouteTranslationComplete]);
   const selectedRouteSector = selectedRoute?.sectorId ? sectionById.get(selectedRoute.sectorId) : null;
   const selectedRouteSources = selectedRoute ? [...new Set([selectedRoute.source.id, ...Object.values(selectedRoute.fieldSources || {}).flat()])] : [];
   const selectedRouteImageKey = selectedRoute?.name.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLocaleLowerCase("sv").replace(/[^a-z0-9]+/g, "") || "";
@@ -416,7 +448,9 @@ function AreaView({ area, access, initialRouteQuery, locale, onSuggest }: { area
           <h1>{areaName}</h1>
           <p><RichText text={areaDescription} /></p>
           {locale === "en" && <MachineTranslationNote value={areaTranslation?.description} original={area.description} />}
-          {locale === "en" && !hasEnglishContent && <small className="translation-notice">Source content is currently shown in Swedish. The interface and contribution workflow are available in English.</small>}
+          {locale === "en" && translationStatus === "loading" && <small className="translation-notice">Translating this area with climbing context… Swedish source text remains visible meanwhile.</small>}
+          {locale === "en" && translationStatus === "error" && <button type="button" className="translation-retry" onClick={() => { setTranslationStatus("idle"); setTranslationRetry((value) => value + 1); }}>Translation failed · Try again</button>}
+          {locale === "en" && !hasEnglishContent && translationStatus === "idle" && <small className="translation-notice">Preparing a context-aware English translation…</small>}
           <div className="hero-stats">
             <div className="hero-stat"><strong>{routeCount}</strong><span>{countLabel}</span></div>
             <div className="hero-stat"><strong>{area.images.length}</strong><span>{tr(locale, "bilder & topos", "images & topos")}</span></div>
@@ -553,6 +587,7 @@ function AreaView({ area, access, initialRouteQuery, locale, onSuggest }: { area
           {selectedRoute.firstAscent && <p className="first-ascent">{tr(locale, "Förstebestigning", "First ascent")}: <strong>{selectedRoute.firstAscent}</strong></p>}
           {selectedRoute.extraction?.method === "llm" && <p className="extraction-note">{tr(locale, "Strukturerad med OpenAI från originalförarens löptext · konfidens", "Structured with OpenAI from the original guide text · confidence")} {Math.round(selectedRoute.extraction.confidence * 100)} %</p>}
           {routeDescription(selectedRoute) && <div className="route-description"><strong>{tr(locale, "Ledbeskrivning", "Route description")}</strong><p><RichText text={routeDescription(selectedRoute)} /></p>{locale === "en" && <MachineTranslationNote compact value={areaTranslation?.routes?.[selectedRoute.id]?.description} original={selectedRoute.description} />}</div>}
+          {locale === "en" && translatingRouteId === selectedRoute.id && <p className="route-translation-status">Translating route description with sector context…</p>}
           {routeBeta(selectedRoute) && <div className="beta-panel">
             {!showBeta ? <button type="button" className="beta-toggle" onClick={() => setShowBeta(true)}>{tr(locale, "Visa beta", "Show beta")}</button> : <><div className="beta-heading"><strong>{tr(locale, "Beta från originalföraren", "Beta from the original guide")}</strong><button type="button" onClick={() => setShowBeta(false)}>{tr(locale, "Dölj beta", "Hide beta")}</button></div><p><RichText text={routeBeta(selectedRoute) || ""} /></p>{locale === "en" && <MachineTranslationNote compact value={areaTranslation?.routes?.[selectedRoute.id]?.beta} original={selectedRoute.beta || ""} />}</>}
           </div>}
