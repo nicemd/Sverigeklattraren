@@ -243,3 +243,17 @@ test("uses Sverigeklättraren as the product while preserving Sverigeföraren as
   assert.match(component, /Sverigeföraren\.se grundades 2006/);
   assert.match(component, /Från Sverigeföraren 2014/);
 });
+
+test("does not present an area overview as a route topo at Ringkallen", async () => {
+  const area = JSON.parse(await readFile(path.join(contentRoot, "areas", "ringkallen.json"), "utf8"));
+  const route = area.routes.find((item) => item.name === "Sträckbänken");
+  const overview = area.images.find((image) => image.filename === "Ringkallen_oversikt_split.jpg");
+  const middleTopo = area.images.find((image) => image.filename === "Fikaväggen_mitt_topo.jpg");
+  const tango = area.routes.find((item) => item.name === "Tango för två");
+
+  assert.ok(route && overview && middleTopo && tango);
+  assert.ok(!overview.routeIds.includes(route.id), "an area overview without route lines must not be inherited by the following route list");
+  assert.ok(!middleTopo.routeIds.includes(route.id), "the next topo belongs to its following route group, not Sträckbänken");
+  assert.ok(middleTopo.routeIds.includes(tango.id));
+  assert.ok(!area.images.some((image) => image.routeIds?.includes(route.id)), "Sträckbänken has no safely linked topo in the original guide");
+});

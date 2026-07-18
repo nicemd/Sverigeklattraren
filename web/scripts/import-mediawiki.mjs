@@ -356,13 +356,14 @@ function parseArea(filename, source, uniqueSlug) {
         const routeKey = slugify(route.name).replaceAll("-", "");
         return route.name !== "?" && routeKey.length > 3 && filenameKey.includes(routeKey);
       });
+      const enrichment = topoEnrichment.get(`${uniqueSlug}/${filename.toLocaleLowerCase("sv")}`);
+      const suppressSourceOrder = enrichment?.confidence >= 0.85 && enrichment.imageKind !== "topo";
       const nextImage = imageMatches[matchIndex + 1];
-      const groupedRouteIds = routeTemplates.flatMap((template, routeIndex) => template.start > (match.index ?? 0)
+      const groupedRouteIds = suppressSourceOrder ? [] : routeTemplates.flatMap((template, routeIndex) => template.start > (match.index ?? 0)
         && (!nextImage || template.start < (nextImage.index ?? source.length))
         ? [routes[routeIndex].id] : []);
       if (relatedRoute && !groupedRouteIds.includes(relatedRoute.id)) groupedRouteIds.unshift(relatedRoute.id);
-      const enrichment = topoEnrichment.get(`${uniqueSlug}/${filename.toLocaleLowerCase("sv")}`);
-      const visionRouteIds = enrichment?.confidence >= 0.85
+      const visionRouteIds = enrichment?.confidence >= 0.85 && enrichment.imageKind === "topo"
         ? (enrichment.visibleRouteNumbers || []).flatMap((number) => routes.filter((route) => route.sectorId === sector?.id && route.number?.trim().toLocaleLowerCase("sv") === String(number).trim().toLocaleLowerCase("sv")).map((route) => route.id))
         : [];
       const routeIds = [...new Set([...groupedRouteIds, ...visionRouteIds])];

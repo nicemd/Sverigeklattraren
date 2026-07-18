@@ -2370,25 +2370,22 @@
       "caption": "Pär Lindholm",
       "missing": false,
       "sectorId": "viktig-accessinformation",
-      "routeIds": []
+      "routeIds": [],
+      "imageKind": "photo",
+      "routeRelations": []
     },
     {
       "filename": "Ringkallen_oversikt_split.jpg",
       "caption": "600 px",
       "missing": false,
       "sectorId": "oversikt-vaggar",
-      "routeIds": [
-        "ringkallen-led-1",
-        "ringkallen-led-2",
-        "ringkallen-led-3",
-        "ringkallen-led-4",
-        "ringkallen-led-5",
-        "ringkallen-led-6"
-      ]
+      "routeIds": [],
+      "imageKind": "map",
+      "routeRelations": []
     },
     {
       "filename": "Fikaväggen_mitt_topo.jpg",
-      "caption": "Fikaväggen mitt topo",
+      "caption": "Fikaväggen",
       "missing": false,
       "sectorId": "fikavaggen",
       "routeIds": [
@@ -2398,18 +2395,126 @@
         "ringkallen-led-10",
         "ringkallen-led-11",
         "ringkallen-led-12",
-        "ringkallen-led-13"
+        "ringkallen-led-13",
+        "ringkallen-led-14"
+      ],
+      "imageKind": "topo",
+      "routeRelations": [
+        {
+          "routeId": "ringkallen-led-7",
+          "method": "vision",
+          "confidence": 0.95,
+          "evidence": "Klätterlederna är markerade med röda siffror, där varje nummer är tydligt synligt intill respektive led."
+        },
+        {
+          "routeId": "ringkallen-led-8",
+          "method": "vision",
+          "confidence": 0.95,
+          "evidence": "Klätterlederna är markerade med röda siffror, där varje nummer är tydligt synligt intill respektive led."
+        },
+        {
+          "routeId": "ringkallen-led-9",
+          "method": "vision",
+          "confidence": 0.95,
+          "evidence": "Klätterlederna är markerade med röda siffror, där varje nummer är tydligt synligt intill respektive led."
+        },
+        {
+          "routeId": "ringkallen-led-10",
+          "method": "vision",
+          "confidence": 0.95,
+          "evidence": "Klätterlederna är markerade med röda siffror, där varje nummer är tydligt synligt intill respektive led."
+        },
+        {
+          "routeId": "ringkallen-led-11",
+          "method": "vision",
+          "confidence": 0.95,
+          "evidence": "Klätterlederna är markerade med röda siffror, där varje nummer är tydligt synligt intill respektive led."
+        },
+        {
+          "routeId": "ringkallen-led-12",
+          "method": "vision",
+          "confidence": 0.95,
+          "evidence": "Klätterlederna är markerade med röda siffror, där varje nummer är tydligt synligt intill respektive led."
+        },
+        {
+          "routeId": "ringkallen-led-13",
+          "method": "vision",
+          "confidence": 0.95,
+          "evidence": "Klätterlederna är markerade med röda siffror, där varje nummer är tydligt synligt intill respektive led."
+        },
+        {
+          "routeId": "ringkallen-led-14",
+          "method": "vision",
+          "confidence": 0.95,
+          "evidence": "Klätterlederna är markerade med röda siffror, där varje nummer är tydligt synligt intill respektive led."
+        }
       ]
     },
     {
       "filename": "Fikaväggen_höger.jpg",
-      "caption": "Fikaväggen höger",
+      "caption": "Fikaväggen",
       "missing": false,
       "sectorId": "fikavaggen",
       "routeIds": [
         "ringkallen-led-14",
         "ringkallen-led-15",
-        "ringkallen-led-16"
+        "ringkallen-led-16",
+        "ringkallen-led-10",
+        "ringkallen-led-11",
+        "ringkallen-led-12",
+        "ringkallen-led-13",
+        "ringkallen-led-17"
+      ],
+      "imageKind": "topo",
+      "routeRelations": [
+        {
+          "routeId": "ringkallen-led-14",
+          "method": "vision",
+          "confidence": 0.95,
+          "evidence": "Climbing routes are indicated with red dashed lines and marked with numbers on the rock face, clearly showing routes 11 to 18."
+        },
+        {
+          "routeId": "ringkallen-led-15",
+          "method": "vision",
+          "confidence": 0.95,
+          "evidence": "Climbing routes are indicated with red dashed lines and marked with numbers on the rock face, clearly showing routes 11 to 18."
+        },
+        {
+          "routeId": "ringkallen-led-16",
+          "method": "vision",
+          "confidence": 0.95,
+          "evidence": "Climbing routes are indicated with red dashed lines and marked with numbers on the rock face, clearly showing routes 11 to 18."
+        },
+        {
+          "routeId": "ringkallen-led-10",
+          "method": "vision",
+          "confidence": 0.95,
+          "evidence": "Climbing routes are indicated with red dashed lines and marked with numbers on the rock face, clearly showing routes 11 to 18."
+        },
+        {
+          "routeId": "ringkallen-led-11",
+          "method": "vision",
+          "confidence": 0.95,
+          "evidence": "Climbing routes are indicated with red dashed lines and marked with numbers on the rock face, clearly showing routes 11 to 18."
+        },
+        {
+          "routeId": "ringkallen-led-12",
+          "method": "vision",
+          "confidence": 0.95,
+          "evidence": "Climbing routes are indicated with red dashed lines and marked with numbers on the rock face, clearly showing routes 11 to 18."
+        },
+        {
+          "routeId": "ringkallen-led-13",
+          "method": "vision",
+          "confidence": 0.95,
+          "evidence": "Climbing routes are indicated with red dashed lines and marked with numbers on the rock face, clearly showing routes 11 to 18."
+        },
+        {
+          "routeId": "ringkallen-led-17",
+          "method": "vision",
+          "confidence": 0.95,
+          "evidence": "Climbing routes are indicated with red dashed lines and marked with numbers on the rock face, clearly showing routes 11 to 18."
+        }
       ]
     },
     {
@@ -2457,18 +2562,241 @@
         "ringkallen-led-53",
         "ringkallen-led-54"
       ],
+      "imageKind": "topo",
       "routeRelations": [
         {
-          "routeId": "ringkallen-led-21",
-          "method": "filename",
+          "routeId": "ringkallen-led-17",
+          "method": "vision",
           "confidence": 0.95,
-          "evidence": "Lednamnet återfinns i originalfilens bildnamn."
+          "evidence": "Lednummerna 18, 19, 20, 21, 22 och 23 är markerade med röda cirklar och linjer som visar klätterleder."
+        },
+        {
+          "routeId": "ringkallen-led-18",
+          "method": "vision",
+          "confidence": 0.95,
+          "evidence": "Lednummerna 18, 19, 20, 21, 22 och 23 är markerade med röda cirklar och linjer som visar klätterleder."
+        },
+        {
+          "routeId": "ringkallen-led-19",
+          "method": "vision",
+          "confidence": 0.95,
+          "evidence": "Lednummerna 18, 19, 20, 21, 22 och 23 är markerade med röda cirklar och linjer som visar klätterleder."
+        },
+        {
+          "routeId": "ringkallen-led-20",
+          "method": "vision",
+          "confidence": 0.95,
+          "evidence": "Lednummerna 18, 19, 20, 21, 22 och 23 är markerade med röda cirklar och linjer som visar klätterleder."
+        },
+        {
+          "routeId": "ringkallen-led-21",
+          "method": "vision",
+          "confidence": 0.95,
+          "evidence": "Lednummerna 18, 19, 20, 21, 22 och 23 är markerade med röda cirklar och linjer som visar klätterleder."
+        },
+        {
+          "routeId": "ringkallen-led-22",
+          "method": "vision",
+          "confidence": 0.95,
+          "evidence": "Lednummerna 18, 19, 20, 21, 22 och 23 är markerade med röda cirklar och linjer som visar klätterleder."
+        },
+        {
+          "routeId": "ringkallen-led-23",
+          "method": "source-order",
+          "confidence": 0.72,
+          "evidence": "Leden följer bilden före nästa bild i samma originalsektion."
+        },
+        {
+          "routeId": "ringkallen-led-24",
+          "method": "source-order",
+          "confidence": 0.72,
+          "evidence": "Leden följer bilden före nästa bild i samma originalsektion."
+        },
+        {
+          "routeId": "ringkallen-led-25",
+          "method": "source-order",
+          "confidence": 0.72,
+          "evidence": "Leden följer bilden före nästa bild i samma originalsektion."
+        },
+        {
+          "routeId": "ringkallen-led-26",
+          "method": "source-order",
+          "confidence": 0.72,
+          "evidence": "Leden följer bilden före nästa bild i samma originalsektion."
+        },
+        {
+          "routeId": "ringkallen-led-27",
+          "method": "source-order",
+          "confidence": 0.72,
+          "evidence": "Leden följer bilden före nästa bild i samma originalsektion."
+        },
+        {
+          "routeId": "ringkallen-led-28",
+          "method": "source-order",
+          "confidence": 0.72,
+          "evidence": "Leden följer bilden före nästa bild i samma originalsektion."
+        },
+        {
+          "routeId": "ringkallen-led-29",
+          "method": "source-order",
+          "confidence": 0.72,
+          "evidence": "Leden följer bilden före nästa bild i samma originalsektion."
+        },
+        {
+          "routeId": "ringkallen-led-30",
+          "method": "source-order",
+          "confidence": 0.72,
+          "evidence": "Leden följer bilden före nästa bild i samma originalsektion."
+        },
+        {
+          "routeId": "ringkallen-led-31",
+          "method": "source-order",
+          "confidence": 0.72,
+          "evidence": "Leden följer bilden före nästa bild i samma originalsektion."
+        },
+        {
+          "routeId": "ringkallen-led-32",
+          "method": "source-order",
+          "confidence": 0.72,
+          "evidence": "Leden följer bilden före nästa bild i samma originalsektion."
+        },
+        {
+          "routeId": "ringkallen-led-33",
+          "method": "source-order",
+          "confidence": 0.72,
+          "evidence": "Leden följer bilden före nästa bild i samma originalsektion."
+        },
+        {
+          "routeId": "ringkallen-led-34",
+          "method": "source-order",
+          "confidence": 0.72,
+          "evidence": "Leden följer bilden före nästa bild i samma originalsektion."
+        },
+        {
+          "routeId": "ringkallen-led-35",
+          "method": "source-order",
+          "confidence": 0.72,
+          "evidence": "Leden följer bilden före nästa bild i samma originalsektion."
+        },
+        {
+          "routeId": "ringkallen-led-36",
+          "method": "source-order",
+          "confidence": 0.72,
+          "evidence": "Leden följer bilden före nästa bild i samma originalsektion."
+        },
+        {
+          "routeId": "ringkallen-led-37",
+          "method": "source-order",
+          "confidence": 0.72,
+          "evidence": "Leden följer bilden före nästa bild i samma originalsektion."
+        },
+        {
+          "routeId": "ringkallen-led-38",
+          "method": "source-order",
+          "confidence": 0.72,
+          "evidence": "Leden följer bilden före nästa bild i samma originalsektion."
+        },
+        {
+          "routeId": "ringkallen-led-39",
+          "method": "source-order",
+          "confidence": 0.72,
+          "evidence": "Leden följer bilden före nästa bild i samma originalsektion."
+        },
+        {
+          "routeId": "ringkallen-led-40",
+          "method": "source-order",
+          "confidence": 0.72,
+          "evidence": "Leden följer bilden före nästa bild i samma originalsektion."
+        },
+        {
+          "routeId": "ringkallen-led-41",
+          "method": "source-order",
+          "confidence": 0.72,
+          "evidence": "Leden följer bilden före nästa bild i samma originalsektion."
+        },
+        {
+          "routeId": "ringkallen-led-42",
+          "method": "source-order",
+          "confidence": 0.72,
+          "evidence": "Leden följer bilden före nästa bild i samma originalsektion."
+        },
+        {
+          "routeId": "ringkallen-led-43",
+          "method": "source-order",
+          "confidence": 0.72,
+          "evidence": "Leden följer bilden före nästa bild i samma originalsektion."
+        },
+        {
+          "routeId": "ringkallen-led-44",
+          "method": "source-order",
+          "confidence": 0.72,
+          "evidence": "Leden följer bilden före nästa bild i samma originalsektion."
+        },
+        {
+          "routeId": "ringkallen-led-45",
+          "method": "source-order",
+          "confidence": 0.72,
+          "evidence": "Leden följer bilden före nästa bild i samma originalsektion."
+        },
+        {
+          "routeId": "ringkallen-led-46",
+          "method": "source-order",
+          "confidence": 0.72,
+          "evidence": "Leden följer bilden före nästa bild i samma originalsektion."
+        },
+        {
+          "routeId": "ringkallen-led-47",
+          "method": "source-order",
+          "confidence": 0.72,
+          "evidence": "Leden följer bilden före nästa bild i samma originalsektion."
+        },
+        {
+          "routeId": "ringkallen-led-48",
+          "method": "source-order",
+          "confidence": 0.72,
+          "evidence": "Leden följer bilden före nästa bild i samma originalsektion."
+        },
+        {
+          "routeId": "ringkallen-led-49",
+          "method": "source-order",
+          "confidence": 0.72,
+          "evidence": "Leden följer bilden före nästa bild i samma originalsektion."
+        },
+        {
+          "routeId": "ringkallen-led-50",
+          "method": "source-order",
+          "confidence": 0.72,
+          "evidence": "Leden följer bilden före nästa bild i samma originalsektion."
+        },
+        {
+          "routeId": "ringkallen-led-51",
+          "method": "source-order",
+          "confidence": 0.72,
+          "evidence": "Leden följer bilden före nästa bild i samma originalsektion."
+        },
+        {
+          "routeId": "ringkallen-led-52",
+          "method": "source-order",
+          "confidence": 0.72,
+          "evidence": "Leden följer bilden före nästa bild i samma originalsektion."
+        },
+        {
+          "routeId": "ringkallen-led-53",
+          "method": "source-order",
+          "confidence": 0.72,
+          "evidence": "Leden följer bilden före nästa bild i samma originalsektion."
+        },
+        {
+          "routeId": "ringkallen-led-54",
+          "method": "source-order",
+          "confidence": 0.72,
+          "evidence": "Leden följer bilden före nästa bild i samma originalsektion."
         }
       ]
     },
     {
       "filename": "Kaminväggen_vänster.jpg",
-      "caption": "Kaminväggen vänster",
+      "caption": "Kaminväggen",
       "missing": false,
       "sectorId": "kaminvaggen",
       "routeIds": [
@@ -2482,6 +2810,69 @@
         "ringkallen-led-62",
         "ringkallen-led-63",
         "ringkallen-led-64"
+      ],
+      "imageKind": "topo",
+      "routeRelations": [
+        {
+          "routeId": "ringkallen-led-55",
+          "method": "vision",
+          "confidence": 0.95,
+          "evidence": "Lednummerna 1, 2, 3, 4, och 5 är tydligt markerade i rött längs klippan med linjer som visar klätterleder."
+        },
+        {
+          "routeId": "ringkallen-led-56",
+          "method": "vision",
+          "confidence": 0.95,
+          "evidence": "Lednummerna 1, 2, 3, 4, och 5 är tydligt markerade i rött längs klippan med linjer som visar klätterleder."
+        },
+        {
+          "routeId": "ringkallen-led-57",
+          "method": "vision",
+          "confidence": 0.95,
+          "evidence": "Lednummerna 1, 2, 3, 4, och 5 är tydligt markerade i rött längs klippan med linjer som visar klätterleder."
+        },
+        {
+          "routeId": "ringkallen-led-58",
+          "method": "vision",
+          "confidence": 0.95,
+          "evidence": "Lednummerna 1, 2, 3, 4, och 5 är tydligt markerade i rött längs klippan med linjer som visar klätterleder."
+        },
+        {
+          "routeId": "ringkallen-led-59",
+          "method": "vision",
+          "confidence": 0.95,
+          "evidence": "Lednummerna 1, 2, 3, 4, och 5 är tydligt markerade i rött längs klippan med linjer som visar klätterleder."
+        },
+        {
+          "routeId": "ringkallen-led-60",
+          "method": "source-order",
+          "confidence": 0.72,
+          "evidence": "Leden följer bilden före nästa bild i samma originalsektion."
+        },
+        {
+          "routeId": "ringkallen-led-61",
+          "method": "source-order",
+          "confidence": 0.72,
+          "evidence": "Leden följer bilden före nästa bild i samma originalsektion."
+        },
+        {
+          "routeId": "ringkallen-led-62",
+          "method": "source-order",
+          "confidence": 0.72,
+          "evidence": "Leden följer bilden före nästa bild i samma originalsektion."
+        },
+        {
+          "routeId": "ringkallen-led-63",
+          "method": "source-order",
+          "confidence": 0.72,
+          "evidence": "Leden följer bilden före nästa bild i samma originalsektion."
+        },
+        {
+          "routeId": "ringkallen-led-64",
+          "method": "source-order",
+          "confidence": 0.72,
+          "evidence": "Leden följer bilden före nästa bild i samma originalsektion."
+        }
       ]
     },
     {
@@ -2490,15 +2881,9 @@
       "missing": false,
       "sectorId": "portalvaggen",
       "routeIds": [
-        "ringkallen-led-65",
-        "ringkallen-led-66",
-        "ringkallen-led-67",
-        "ringkallen-led-68",
-        "ringkallen-led-69",
-        "ringkallen-led-70",
-        "ringkallen-led-71",
-        "ringkallen-led-72"
+        "ringkallen-led-70"
       ],
+      "imageKind": "photo",
       "routeRelations": [
         {
           "routeId": "ringkallen-led-70",
@@ -2576,12 +2961,373 @@
         "ringkallen-led-132",
         "ringkallen-led-133"
       ],
+      "imageKind": "topo",
       "routeRelations": [
         {
           "routeId": "ringkallen-led-73",
-          "method": "filename",
+          "method": "vision",
           "confidence": 0.95,
-          "evidence": "Lednamnet återfinns i originalfilens bildnamn."
+          "evidence": "Bild visar två klätterleder markerade med röda prickade linjer och nummer 1 och 2. Nummer 1 är placerat vid botten av väggen och nummer 2 är högre upp, nära toppen av väggen."
+        },
+        {
+          "routeId": "ringkallen-led-74",
+          "method": "vision",
+          "confidence": 0.95,
+          "evidence": "Bild visar två klätterleder markerade med röda prickade linjer och nummer 1 och 2. Nummer 1 är placerat vid botten av väggen och nummer 2 är högre upp, nära toppen av väggen."
+        },
+        {
+          "routeId": "ringkallen-led-75",
+          "method": "source-order",
+          "confidence": 0.72,
+          "evidence": "Leden följer bilden före nästa bild i samma originalsektion."
+        },
+        {
+          "routeId": "ringkallen-led-76",
+          "method": "source-order",
+          "confidence": 0.72,
+          "evidence": "Leden följer bilden före nästa bild i samma originalsektion."
+        },
+        {
+          "routeId": "ringkallen-led-77",
+          "method": "source-order",
+          "confidence": 0.72,
+          "evidence": "Leden följer bilden före nästa bild i samma originalsektion."
+        },
+        {
+          "routeId": "ringkallen-led-78",
+          "method": "source-order",
+          "confidence": 0.72,
+          "evidence": "Leden följer bilden före nästa bild i samma originalsektion."
+        },
+        {
+          "routeId": "ringkallen-led-79",
+          "method": "source-order",
+          "confidence": 0.72,
+          "evidence": "Leden följer bilden före nästa bild i samma originalsektion."
+        },
+        {
+          "routeId": "ringkallen-led-80",
+          "method": "source-order",
+          "confidence": 0.72,
+          "evidence": "Leden följer bilden före nästa bild i samma originalsektion."
+        },
+        {
+          "routeId": "ringkallen-led-81",
+          "method": "source-order",
+          "confidence": 0.72,
+          "evidence": "Leden följer bilden före nästa bild i samma originalsektion."
+        },
+        {
+          "routeId": "ringkallen-led-82",
+          "method": "source-order",
+          "confidence": 0.72,
+          "evidence": "Leden följer bilden före nästa bild i samma originalsektion."
+        },
+        {
+          "routeId": "ringkallen-led-83",
+          "method": "source-order",
+          "confidence": 0.72,
+          "evidence": "Leden följer bilden före nästa bild i samma originalsektion."
+        },
+        {
+          "routeId": "ringkallen-led-84",
+          "method": "source-order",
+          "confidence": 0.72,
+          "evidence": "Leden följer bilden före nästa bild i samma originalsektion."
+        },
+        {
+          "routeId": "ringkallen-led-85",
+          "method": "source-order",
+          "confidence": 0.72,
+          "evidence": "Leden följer bilden före nästa bild i samma originalsektion."
+        },
+        {
+          "routeId": "ringkallen-led-86",
+          "method": "source-order",
+          "confidence": 0.72,
+          "evidence": "Leden följer bilden före nästa bild i samma originalsektion."
+        },
+        {
+          "routeId": "ringkallen-led-87",
+          "method": "source-order",
+          "confidence": 0.72,
+          "evidence": "Leden följer bilden före nästa bild i samma originalsektion."
+        },
+        {
+          "routeId": "ringkallen-led-88",
+          "method": "source-order",
+          "confidence": 0.72,
+          "evidence": "Leden följer bilden före nästa bild i samma originalsektion."
+        },
+        {
+          "routeId": "ringkallen-led-89",
+          "method": "source-order",
+          "confidence": 0.72,
+          "evidence": "Leden följer bilden före nästa bild i samma originalsektion."
+        },
+        {
+          "routeId": "ringkallen-led-90",
+          "method": "source-order",
+          "confidence": 0.72,
+          "evidence": "Leden följer bilden före nästa bild i samma originalsektion."
+        },
+        {
+          "routeId": "ringkallen-led-91",
+          "method": "source-order",
+          "confidence": 0.72,
+          "evidence": "Leden följer bilden före nästa bild i samma originalsektion."
+        },
+        {
+          "routeId": "ringkallen-led-92",
+          "method": "source-order",
+          "confidence": 0.72,
+          "evidence": "Leden följer bilden före nästa bild i samma originalsektion."
+        },
+        {
+          "routeId": "ringkallen-led-93",
+          "method": "source-order",
+          "confidence": 0.72,
+          "evidence": "Leden följer bilden före nästa bild i samma originalsektion."
+        },
+        {
+          "routeId": "ringkallen-led-94",
+          "method": "source-order",
+          "confidence": 0.72,
+          "evidence": "Leden följer bilden före nästa bild i samma originalsektion."
+        },
+        {
+          "routeId": "ringkallen-led-95",
+          "method": "source-order",
+          "confidence": 0.72,
+          "evidence": "Leden följer bilden före nästa bild i samma originalsektion."
+        },
+        {
+          "routeId": "ringkallen-led-96",
+          "method": "source-order",
+          "confidence": 0.72,
+          "evidence": "Leden följer bilden före nästa bild i samma originalsektion."
+        },
+        {
+          "routeId": "ringkallen-led-97",
+          "method": "source-order",
+          "confidence": 0.72,
+          "evidence": "Leden följer bilden före nästa bild i samma originalsektion."
+        },
+        {
+          "routeId": "ringkallen-led-98",
+          "method": "source-order",
+          "confidence": 0.72,
+          "evidence": "Leden följer bilden före nästa bild i samma originalsektion."
+        },
+        {
+          "routeId": "ringkallen-led-99",
+          "method": "source-order",
+          "confidence": 0.72,
+          "evidence": "Leden följer bilden före nästa bild i samma originalsektion."
+        },
+        {
+          "routeId": "ringkallen-led-100",
+          "method": "source-order",
+          "confidence": 0.72,
+          "evidence": "Leden följer bilden före nästa bild i samma originalsektion."
+        },
+        {
+          "routeId": "ringkallen-led-101",
+          "method": "source-order",
+          "confidence": 0.72,
+          "evidence": "Leden följer bilden före nästa bild i samma originalsektion."
+        },
+        {
+          "routeId": "ringkallen-led-102",
+          "method": "source-order",
+          "confidence": 0.72,
+          "evidence": "Leden följer bilden före nästa bild i samma originalsektion."
+        },
+        {
+          "routeId": "ringkallen-led-103",
+          "method": "source-order",
+          "confidence": 0.72,
+          "evidence": "Leden följer bilden före nästa bild i samma originalsektion."
+        },
+        {
+          "routeId": "ringkallen-led-104",
+          "method": "source-order",
+          "confidence": 0.72,
+          "evidence": "Leden följer bilden före nästa bild i samma originalsektion."
+        },
+        {
+          "routeId": "ringkallen-led-105",
+          "method": "source-order",
+          "confidence": 0.72,
+          "evidence": "Leden följer bilden före nästa bild i samma originalsektion."
+        },
+        {
+          "routeId": "ringkallen-led-106",
+          "method": "source-order",
+          "confidence": 0.72,
+          "evidence": "Leden följer bilden före nästa bild i samma originalsektion."
+        },
+        {
+          "routeId": "ringkallen-led-107",
+          "method": "source-order",
+          "confidence": 0.72,
+          "evidence": "Leden följer bilden före nästa bild i samma originalsektion."
+        },
+        {
+          "routeId": "ringkallen-led-108",
+          "method": "source-order",
+          "confidence": 0.72,
+          "evidence": "Leden följer bilden före nästa bild i samma originalsektion."
+        },
+        {
+          "routeId": "ringkallen-led-109",
+          "method": "source-order",
+          "confidence": 0.72,
+          "evidence": "Leden följer bilden före nästa bild i samma originalsektion."
+        },
+        {
+          "routeId": "ringkallen-led-110",
+          "method": "source-order",
+          "confidence": 0.72,
+          "evidence": "Leden följer bilden före nästa bild i samma originalsektion."
+        },
+        {
+          "routeId": "ringkallen-led-111",
+          "method": "source-order",
+          "confidence": 0.72,
+          "evidence": "Leden följer bilden före nästa bild i samma originalsektion."
+        },
+        {
+          "routeId": "ringkallen-led-112",
+          "method": "source-order",
+          "confidence": 0.72,
+          "evidence": "Leden följer bilden före nästa bild i samma originalsektion."
+        },
+        {
+          "routeId": "ringkallen-led-113",
+          "method": "source-order",
+          "confidence": 0.72,
+          "evidence": "Leden följer bilden före nästa bild i samma originalsektion."
+        },
+        {
+          "routeId": "ringkallen-led-114",
+          "method": "source-order",
+          "confidence": 0.72,
+          "evidence": "Leden följer bilden före nästa bild i samma originalsektion."
+        },
+        {
+          "routeId": "ringkallen-led-115",
+          "method": "source-order",
+          "confidence": 0.72,
+          "evidence": "Leden följer bilden före nästa bild i samma originalsektion."
+        },
+        {
+          "routeId": "ringkallen-led-116",
+          "method": "source-order",
+          "confidence": 0.72,
+          "evidence": "Leden följer bilden före nästa bild i samma originalsektion."
+        },
+        {
+          "routeId": "ringkallen-led-117",
+          "method": "source-order",
+          "confidence": 0.72,
+          "evidence": "Leden följer bilden före nästa bild i samma originalsektion."
+        },
+        {
+          "routeId": "ringkallen-led-118",
+          "method": "source-order",
+          "confidence": 0.72,
+          "evidence": "Leden följer bilden före nästa bild i samma originalsektion."
+        },
+        {
+          "routeId": "ringkallen-led-119",
+          "method": "source-order",
+          "confidence": 0.72,
+          "evidence": "Leden följer bilden före nästa bild i samma originalsektion."
+        },
+        {
+          "routeId": "ringkallen-led-120",
+          "method": "source-order",
+          "confidence": 0.72,
+          "evidence": "Leden följer bilden före nästa bild i samma originalsektion."
+        },
+        {
+          "routeId": "ringkallen-led-121",
+          "method": "source-order",
+          "confidence": 0.72,
+          "evidence": "Leden följer bilden före nästa bild i samma originalsektion."
+        },
+        {
+          "routeId": "ringkallen-led-122",
+          "method": "source-order",
+          "confidence": 0.72,
+          "evidence": "Leden följer bilden före nästa bild i samma originalsektion."
+        },
+        {
+          "routeId": "ringkallen-led-123",
+          "method": "source-order",
+          "confidence": 0.72,
+          "evidence": "Leden följer bilden före nästa bild i samma originalsektion."
+        },
+        {
+          "routeId": "ringkallen-led-124",
+          "method": "source-order",
+          "confidence": 0.72,
+          "evidence": "Leden följer bilden före nästa bild i samma originalsektion."
+        },
+        {
+          "routeId": "ringkallen-led-125",
+          "method": "source-order",
+          "confidence": 0.72,
+          "evidence": "Leden följer bilden före nästa bild i samma originalsektion."
+        },
+        {
+          "routeId": "ringkallen-led-126",
+          "method": "source-order",
+          "confidence": 0.72,
+          "evidence": "Leden följer bilden före nästa bild i samma originalsektion."
+        },
+        {
+          "routeId": "ringkallen-led-127",
+          "method": "source-order",
+          "confidence": 0.72,
+          "evidence": "Leden följer bilden före nästa bild i samma originalsektion."
+        },
+        {
+          "routeId": "ringkallen-led-128",
+          "method": "source-order",
+          "confidence": 0.72,
+          "evidence": "Leden följer bilden före nästa bild i samma originalsektion."
+        },
+        {
+          "routeId": "ringkallen-led-129",
+          "method": "source-order",
+          "confidence": 0.72,
+          "evidence": "Leden följer bilden före nästa bild i samma originalsektion."
+        },
+        {
+          "routeId": "ringkallen-led-130",
+          "method": "source-order",
+          "confidence": 0.72,
+          "evidence": "Leden följer bilden före nästa bild i samma originalsektion."
+        },
+        {
+          "routeId": "ringkallen-led-131",
+          "method": "source-order",
+          "confidence": 0.72,
+          "evidence": "Leden följer bilden före nästa bild i samma originalsektion."
+        },
+        {
+          "routeId": "ringkallen-led-132",
+          "method": "source-order",
+          "confidence": 0.72,
+          "evidence": "Leden följer bilden före nästa bild i samma originalsektion."
+        },
+        {
+          "routeId": "ringkallen-led-133",
+          "method": "source-order",
+          "confidence": 0.72,
+          "evidence": "Leden följer bilden före nästa bild i samma originalsektion."
         }
       ]
     },
@@ -2593,6 +3339,7 @@
       "routeIds": [
         "ringkallen-led-90"
       ],
+      "imageKind": "photo",
       "routeRelations": [
         {
           "routeId": "ringkallen-led-90",
