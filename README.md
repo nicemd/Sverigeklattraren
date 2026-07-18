@@ -136,7 +136,7 @@ npm run build
 
 ## Private deployment on davtor1
 
-`Dockerfile`, `docker-compose.yml`, and `deploy.ps1` build a Git-versioned GHCR image, keep the application port bound to `127.0.0.1`, and expose it privately through the host's Tailscale Service. The deployment script requires a clean `codex/wiki-2026` branch, checks the service capability before pushing, always requires an explicit `DEPLOY` confirmation, waits for the application to become healthy, and restores the previous Compose configuration if remote verification fails.
+`Dockerfile`, `docker-compose.yml`, and `deploy.ps1` build a Git-versioned GHCR image, keep the application port bound to `127.0.0.1`, and expose it privately through the host's Tailscale Service. The deployment script requires a clean `main` branch, checks the service capability before pushing, always requires an explicit `DEPLOY` confirmation, waits for the application to become healthy, and restores the previous Compose configuration if remote verification fails.
 
 If davtor1 has the `services/sverigeforaren` capability, the dedicated address `https://sverigeforaren.tail026a3a.ts.net/` is used. Otherwise, the script automatically uses the private MagicDNS fallback address `https://davtor1.tail026a3a.ts.net:8443/` without affecting the host's existing HTTPS services on port 443. `-Confirmed` may only be used when the user has already explicitly approved the deployment in the active session.
 
