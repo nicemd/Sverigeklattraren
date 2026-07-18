@@ -83,5 +83,92 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "A popular and good area with around 4 fine icefalls. The area is relatively ice-reliable, and the ice often forms every year. The icefalls are 15–40m long and graded WI 3–5. Most routes can be top-roped, as a path provides access to the top of the crag.",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:munkedal"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "General",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:munkedal"
+            ]
+          },
+          "body": {
+            "text": "A popular, good area with around four fine icefalls. The area is relatively reliable for ice and usually forms up every year. The icefalls are 15–40 m long and graded between WI 3 and 5. Most routes can be climbed on a top rope, as a path provides access to the top of the crag.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:munkedal"
+            ]
+          }
+        },
+        "vagbeskrivning": {
+          "title": {
+            "text": "Directions",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:munkedal"
+            ]
+          },
+          "body": {
+            "text": "Approaching from the south, leave the motorway at exit 98 for Ed, Saltkällan and Munkedal. Turn right at the first roundabout. Go straight ahead at the second roundabout onto Uddevallavägen (the old E6), drive for about 900 m, then turn left onto Kviströmvägen. There is an old petrol station here, where you park. The icefalls are on the opposite side of the road from the river (Örekilsälven), i.e. in Kviströms Nature Reserve. Cross Uddevallavägen (the old E6) and follow a small road for about 100 m, crossing a small stream. Turn left here onto a barely visible path. After about 150 m, you reach the first icefall.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:munkedal"
+            ]
+          }
+        },
+        "isfallen": {
+          "title": {
+            "text": "The Icefalls",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:munkedal"
+            ]
+          },
+          "body": {
+            "text": "There are around four icefalls in the area, and their difficulty can vary depending on ice formation. There are usually two 45-metre icefalls, the first ones you reach. The left-hand one is grade 5 and the right-hand one grade 4. Further into the valley are some excellent grade 3 icefalls, 25–30 metres high. Even further in is a 12–15-metre pillar graded 5–6. It is relatively easy to set up top ropes on all the icefalls, as a path leads around the crag.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:munkedal"
+            ]
+          }
+        },
+        "access": {
+          "title": {
+            "text": "Access",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:munkedal"
+            ]
+          },
+          "body": {
+            "text": "NB: Kviström is a nature reserve, so take extra care while in the area!!!\n\nThe icefalls are spaced a couple of hundred metres apart along the path.\n\nFirst icefall, grade 3–5\n\nSecond icefall along the path, grade 3–5\n\nThird icefall, grade 3\n\nFourth icefall, grade 5",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:munkedal"
+            ]
+          }
+        }
+      },
+      "routes": {}
+    }
   }
 }

@@ -70,5 +70,40 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "=Problem=",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:juniskar"
+        ]
+      },
+      "sections": {},
+      "routes": {
+        "juniskar-problem-1": {
+          "description": {
+            "text": "Jump start in the middle of the wall, directly below the pocket edge. Then mantle straight up.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:juniskar"
+            ]
+          }
+        },
+        "juniskar-problem-2": {
+          "description": {
+            "text": "Jump start to the good hold about 2 metres right of \"The Wave\". Then move left and finish as for \"The Wave\".",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:juniskar"
+            ]
+          }
+        }
+      }
+    }
   }
 }

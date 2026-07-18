@@ -332,5 +332,307 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "Mainly vertical, with a couple of overhangs. The rock is quite loose and has plenty of holds.",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:hallfors"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "Overview",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hallfors"
+            ]
+          },
+          "body": {
+            "text": "Mainly vertical, with a couple of overhangs. The rock is quite loose and has plenty of holds.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hallfors"
+            ]
+          }
+        },
+        "miljo": {
+          "title": {
+            "text": "Aspect and conditions",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hallfors"
+            ]
+          },
+          "body": {
+            "text": "South-facing. Dries very quickly.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hallfors"
+            ]
+          }
+        },
+        "vagbeskrivning": {
+          "title": {
+            "text": "Directions",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hallfors"
+            ]
+          },
+          "body": {
+            "text": "From the E4: Leave the E4 at the northern entrance to Byske. Take the road towards Fällfors. Just after passing the small village of Hällfors, turn right onto a gravel road. You will now see the crag. Keep right and park directly below the crag. A short, easy walk leads up to the wall.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hallfors"
+            ]
+          }
+        },
+        "leder": {
+          "title": {
+            "text": "Routes",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hallfors"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hallfors"
+            ]
+          }
+        },
+        "huvudvaggen": {
+          "title": {
+            "text": "Main Wall",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hallfors"
+            ]
+          },
+          "body": {
+            "text": "(from left to right)",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hallfors"
+            ]
+          }
+        },
+        "hogra-vaggen": {
+          "title": {
+            "text": "Right Wall",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hallfors"
+            ]
+          },
+          "body": {
+            "text": "The most distinctive feature of this section of wall is the roof, which extends across half its length. (Routes from left to right)",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hallfors"
+            ]
+          }
+        },
+        "forare": {
+          "title": {
+            "text": "Guidebook",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hallfors"
+            ]
+          },
+          "body": {
+            "text": "Included in the online guide to Skellefteå: http://www.skelleftea.org/forening/kfumskelleftea/Webforare/www-filer/start.html",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hallfors"
+            ]
+          }
+        }
+      },
+      "routes": {
+        "hallfors-led-1": {
+          "description": {
+            "text": "Short trad route on the pillar left of the cave.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hallfors"
+            ]
+          }
+        },
+        "hallfors-led-2": {
+          "description": {
+            "text": "Short project at the cave entrance. Steep start.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hallfors"
+            ]
+          }
+        },
+        "hallfors-led-3": {
+          "description": {
+            "text": "Short project just right of the other project. Steep start.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hallfors"
+            ]
+          }
+        },
+        "hallfors-led-4": {
+          "description": {
+            "text": "Corner. Mossy and a little stiff for the grade.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hallfors"
+            ]
+          }
+        },
+        "hallfors-led-5": {
+          "description": {
+            "text": "Corner. Mossy.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hallfors"
+            ]
+          }
+        },
+        "hallfors-led-6": {
+          "description": {
+            "text": "Shares the start with the next route.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hallfors"
+            ]
+          }
+        },
+        "hallfors-led-7": {
+          "description": {
+            "text": "Shares the start with Starla and the finish with the next route.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hallfors"
+            ]
+          }
+        },
+        "hallfors-led-8": {
+          "description": {
+            "text": "Shares the finish with the route to the left.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hallfors"
+            ]
+          }
+        },
+        "hallfors-led-9": {
+          "description": {
+            "text": "A slightly wandering route.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hallfors"
+            ]
+          }
+        },
+        "hallfors-led-10": {
+          "description": {
+            "text": "Shares bolts and the start with Molnstigen?",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hallfors"
+            ]
+          }
+        },
+        "hallfors-led-11": {
+          "description": {
+            "text": "Shares bolts and the start with Molnstigen?",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hallfors"
+            ]
+          }
+        },
+        "hallfors-led-12": {
+          "description": {
+            "text": "Micro-route starting above the right-hand wall.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hallfors"
+            ]
+          }
+        },
+        "hallfors-led-13": {
+          "description": {
+            "text": "Super-short route on the left-hand side of the wall.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hallfors"
+            ]
+          }
+        },
+        "hallfors-led-14": {
+          "description": {
+            "text": "Good route traversing left above the roof. Shares the start with Stjärnstigen. Anchor.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hallfors"
+            ]
+          }
+        },
+        "hallfors-led-15": {
+          "description": {
+            "text": "Good route going straight up through the roof. The final clip is tricky. Anchor.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hallfors"
+            ]
+          }
+        },
+        "hallfors-led-16": {
+          "description": {
+            "text": "Far right on the crag. Mixed?",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hallfors"
+            ]
+          }
+        }
+      }
+    }
   }
 }

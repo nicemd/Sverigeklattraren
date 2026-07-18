@@ -934,5 +934,530 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "=Problems=",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:knutby"
+        ]
+      },
+      "sections": {},
+      "routes": {
+        "knutby-problem-1": {
+          "description": {
+            "text": "The problem starts in the middle of the overhang on the Kristi-Brud boulder. It then trends left and tops out on the left.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:knutby"
+            ]
+          }
+        },
+        "knutby-problem-2": {
+          "description": {
+            "text": "A slightly taller slab with the crux near the top. To the right of Fet,ful och fattig.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:knutby"
+            ]
+          }
+        },
+        "knutby-problem-3": {
+          "description": {
+            "text": "Straight up, to the right of Henke Lycklig.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:knutby"
+            ]
+          }
+        },
+        "knutby-problem-4": {
+          "description": {
+            "text": "Straight up, to the right of Månskäran.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:knutby"
+            ]
+          }
+        },
+        "knutby-problem-5": {
+          "description": {
+            "text": "Straight up via the obvious crescent-shaped hold.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:knutby"
+            ]
+          }
+        },
+        "knutby-problem-6": {
+          "description": {
+            "text": "Starts as Mad Hooker, then trends slightly right via the high crimps. Tops out straight up.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:knutby"
+            ]
+          }
+        },
+        "knutby-problem-7": {
+          "description": {
+            "text": "Straight up, trending right from the small crimps.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:knutby"
+            ]
+          }
+        },
+        "knutby-problem-8": {
+          "description": {
+            "text": "Start with your right hand on a Duella hold and your left on another crimp. Then climb diagonally up left.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:knutby"
+            ]
+          }
+        },
+        "knutby-problem-9": {
+          "description": {
+            "text": "Straight up over the bulge on the N boulder.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:knutby"
+            ]
+          }
+        },
+        "knutby-problem-10": {
+          "description": {
+            "text": "Starts as Meles meles, then climbs diagonally up right.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:knutby"
+            ]
+          }
+        },
+        "knutby-problem-11": {
+          "description": {
+            "text": "Straight up along the left arête of the A boulder.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:knutby"
+            ]
+          }
+        },
+        "knutby-problem-12": {
+          "description": {
+            "text": "A long throw from two pockets (hand and mono) to an edge. Then straight up without using the arête on the right.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:knutby"
+            ]
+          }
+        },
+        "knutby-problem-13": {
+          "description": {
+            "text": "The easiest way up. I started on the right beside the trad route and topped out on the slab above and to the left.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:knutby"
+            ]
+          }
+        },
+        "knutby-problem-14": {
+          "description": {
+            "text": "Start a couple of metres left of Aktiv grävling on the obvious holds. Climb straight up.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:knutby"
+            ]
+          }
+        },
+        "knutby-problem-15": {
+          "description": {
+            "text": "Sit-start to Mad Hooker. Start with both hands on the lowest rail.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:knutby"
+            ]
+          }
+        },
+        "knutby-problem-16": {
+          "description": {
+            "text": "On the same boulder as Lynx Lynx. The left side of the far arête.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:knutby"
+            ]
+          }
+        },
+        "knutby-problem-17": {
+          "description": {
+            "text": "Starts low on the ledge.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:knutby"
+            ]
+          }
+        },
+        "knutby-problem-19": {
+          "description": {
+            "text": "Start on the arête, then follow the edge left.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:knutby"
+            ]
+          }
+        },
+        "knutby-problem-20": {
+          "description": {
+            "text": "Start on the arête, then climb straight up.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:knutby"
+            ]
+          }
+        },
+        "knutby-problem-21": {
+          "description": {
+            "text": "Starts on the triangular hold in the overhang, with a crimp for the right hand, then climbs straight up. (Warning: loose hold)",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:knutby"
+            ]
+          }
+        },
+        "knutby-problem-22": {
+          "description": {
+            "text": "Hard first move.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:knutby"
+            ]
+          }
+        },
+        "knutby-problem-23": {
+          "description": {
+            "text": "Starts on a jug, then climbs straight up.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:knutby"
+            ]
+          }
+        },
+        "knutby-problem-24": {
+          "description": {
+            "text": "Starts as K2, then climbs right and up.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:knutby"
+            ]
+          }
+        },
+        "knutby-problem-25": {
+          "description": {
+            "text": "Stand-start two metres left of Mandolin, then straight up.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:knutby"
+            ]
+          }
+        },
+        "knutby-problem-26": {
+          "description": {
+            "text": "Sit-start to Bad Hooker. Start with both hands on the lowest rail directly below Mad Hooker.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:knutby"
+            ]
+          }
+        },
+        "knutby-problem-27": {
+          "description": {
+            "text": "Start with your right hand on the ‘foothold’ inside the roof and your left hand on the arête. 7A+/7B?",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:knutby"
+            ]
+          }
+        },
+        "knutby-problem-28": {
+          "description": {
+            "text": "Sit-start far to the right and traverse left towards the start of \"Kristibrud\".",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:knutby"
+            ]
+          }
+        },
+        "knutby-problem-29": {
+          "description": {
+            "text": "Sit-start far to the right. Continue into \"Bad Hooker\".",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:knutby"
+            ]
+          }
+        },
+        "knutby-problem-30": {
+          "description": {
+            "text": "A decent stand-start on the lowest rock. On the overhanging wall 70 metres east of the Mad Hooker boulder.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:knutby"
+            ]
+          }
+        },
+        "knutby-problem-31": {
+          "description": {
+            "text": "Starts to the right of the arête.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:knutby"
+            ]
+          }
+        },
+        "knutby-problem-32": {
+          "description": {
+            "text": "Sit-start to the problem that climbs over the ‘nose’ on the same boulder as Mount Knutby. Hard moves on slopers to reach the stand-start.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:knutby"
+            ]
+          }
+        },
+        "knutby-problem-33": {
+          "description": {
+            "text": "The arête on the back of the Kolossos boulder.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:knutby"
+            ]
+          }
+        },
+        "knutby-problem-34": {
+          "description": {
+            "text": "7B sit-start. 7A+ stand-start.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:knutby"
+            ]
+          }
+        },
+        "knutby-problem-35": {
+          "description": {
+            "text": "Starts on the same rail as Really Mad Hooker and Really Bad Hooker. Then climbs up left into Kristi brud.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:knutby"
+            ]
+          }
+        },
+        "knutby-problem-38": {
+          "description": {
+            "text": "Jump start, then straight up.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:knutby"
+            ]
+          }
+        },
+        "knutby-problem-39": {
+          "description": {
+            "text": "High start.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:knutby"
+            ]
+          }
+        },
+        "knutby-problem-40": {
+          "description": {
+            "text": "Follows the arête to the right of Lynx Lynx.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:knutby"
+            ]
+          }
+        },
+        "knutby-problem-41": {
+          "description": {
+            "text": "Starts at the very back of the cave.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:knutby"
+            ]
+          }
+        },
+        "knutby-problem-43": {
+          "description": {
+            "text": "Sit-start slightly right of Djurperken. Join it via its right-hand crimp.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:knutby"
+            ]
+          }
+        },
+        "knutby-problem-44": {
+          "description": {
+            "text": "Follow the right arête of the Mad Hooker overhang. High top-out, the same as Bad Hooker.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:knutby"
+            ]
+          }
+        },
+        "knutby-problem-45": {
+          "description": {
+            "text": "Starts as Prize Cut, then climbs straight up the vertical wall.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:knutby"
+            ]
+          }
+        },
+        "knutby-problem-46": {
+          "description": {
+            "text": "Starts by Leif-Edvin. Straight up the slab face.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:knutby"
+            ]
+          }
+        },
+        "knutby-problem-47": {
+          "description": {
+            "text": "Between \"Livsfarlig att leda\" and \"Fet, ful och fattig\".",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:knutby"
+            ]
+          }
+        },
+        "knutby-problem-48": {
+          "description": {
+            "text": "Follows the left arête of the Mad Hooker overhang.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:knutby"
+            ]
+          }
+        },
+        "knutby-problem-49": {
+          "description": {
+            "text": "At the far left of the slab face.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:knutby"
+            ]
+          }
+        },
+        "knutby-problem-50": {
+          "description": {
+            "text": "Right hand on a large layback hold, then diagonally left towards a jug.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:knutby"
+            ]
+          }
+        },
+        "knutby-problem-52": {
+          "description": {
+            "text": "Slab groove.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:knutby"
+            ]
+          }
+        },
+        "knutby-problem-53": {
+          "description": {
+            "text": "Over the slabby rib to the left of Huggorm.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:knutby"
+            ]
+          }
+        },
+        "knutby-problem-54": {
+          "description": {
+            "text": "Starts on the small holds below Kristibrud.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:knutby"
+            ]
+          }
+        },
+        "knutby-problem-55": {
+          "description": {
+            "text": "Climbs the right arête on the back of the kollosos boulder. Stand-start on slopers, then follow the arête up left. A sit-start could be worked out for anyone keen.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:knutby"
+            ]
+          }
+        },
+        "knutby-problem-56": {
+          "description": {
+            "text": "On the M boulder in Föraren, no. 5.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:knutby"
+            ]
+          }
+        }
+      }
+    }
   }
 }

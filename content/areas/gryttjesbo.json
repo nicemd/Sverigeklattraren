@@ -41,5 +41,56 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "Gryttjesbo lies on the road between Ljusdal and Hudiksvall.",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:gryttjesbo"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "General",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gryttjesbo"
+            ]
+          },
+          "body": {
+            "text": "Gryttjesbo lies on the road between Ljusdal and Hudiksvall.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gryttjesbo"
+            ]
+          }
+        },
+        "vagbeskrivning": {
+          "title": {
+            "text": "Directions",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gryttjesbo"
+            ]
+          },
+          "body": {
+            "text": "A few kilometres beyond Gryttjesbo when approaching from Ljusdal, the ice is a couple of hundred metres up in the forest, by a military storage depot. Above the depot's air intake is a 15 m high vertical ice pillar of good quality. A further 100 m along the gravel road is a gravel pit. Above this is another icefall, about 30 m high and moderately angled.\n\nApproximate GPS coordinates: Lat: N 61º 47' 53.79\" Long: E 16º 19' 57.72\"",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gryttjesbo"
+            ]
+          }
+        }
+      },
+      "routes": {}
+    }
   }
 }

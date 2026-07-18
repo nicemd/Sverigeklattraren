@@ -146,5 +146,135 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "West-facing crag (evening sun), approximately 60 m long and 15 m high. It drops straight into Bergshamraviken, but fortunately there is a narrow strip of land allowing access beneath the crag. The rock is smooth and water-polished, with a few distinct cracks.",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:knupberget"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "Overview",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:knupberget"
+            ]
+          },
+          "body": {
+            "text": "West-facing crag (evening sun), approximately 60m long and 15m high. It drops straight into Bergshamraviken, but fortunately there is a narrow strip of land allowing access beneath the crag. The rock is smooth and water-polished, but with a few distinct cracks.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:knupberget"
+            ]
+          }
+        },
+        "vagbeskrivning": {
+          "title": {
+            "text": "Directions",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:knupberget"
+            ]
+          },
+          "body": {
+            "text": "The crag is in Bergshamraviken. From Stockholm, take road 276 through Åkersberga towards Norrtälje. 30 km from Åkerberga, 2 km after Vettershaga bridge, turn left at the \"Bergshamra Varv\" road sign and continue along the gravel road to the bathing area. Drive on for approximately 400m to a partly overgrown clear-felled area on the right, just after a junction. Park beneath a large spruce and take the path through the clearing down to a jetty. The crag is by the water approximately 100m to the left.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:knupberget"
+            ]
+          }
+        },
+        "leder": {
+          "title": {
+            "text": "Routes",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:knupberget"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:knupberget"
+            ]
+          }
+        }
+      },
+      "routes": {
+        "knupberget-led-1": {
+          "description": {
+            "text": "The first crack on the left when standing below the crag.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:knupberget"
+            ]
+          }
+        },
+        "knupberget-led-2": {
+          "description": {
+            "text": "Starts up a thin crack, then continues to a ledge with a small tree. Has been top-roped.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:knupberget"
+            ]
+          }
+        },
+        "knupberget-led-3": {
+          "description": {
+            "text": "An obvious, fine crack, well protected with plenty of nuts (10).",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:knupberget"
+            ]
+          }
+        },
+        "knupberget-led-4": {
+          "description": {
+            "text": "An awkward start; follow the ramp-like crack leftwards.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:knupberget"
+            ]
+          }
+        },
+        "knupberget-led-5": {
+          "description": {
+            "text": "A beautiful corner, well protected with nuts.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:knupberget"
+            ]
+          }
+        },
+        "knupberget-led-6": {
+          "description": {
+            "text": "The obvious crack through the black slab to two small pines.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:knupberget"
+            ]
+          }
+        }
+      }
+    }
   }
 }

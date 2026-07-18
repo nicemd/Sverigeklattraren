@@ -69,5 +69,74 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "A fairly rarely climbed crag about 1 km from the nearest driveable road. ‘Permanent’ top-rope anchors installed by Vildmark i Värmland (fixed installations around pine trees at the top of the crag). The crag offers a number of routes in the 5s and 6s, as well as scope for harder face climbing. Some of the slabbier routes need brushing, while the vertical routes are largely climbable as they are. The crag faces south, but because of the relatively dense spruce woodland growing close by, it is slow to dry in places. There are some suspect blocks in places at the top of the crag which should be avoided when topping out.",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:jotumhallarna"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "General",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:jotumhallarna"
+            ]
+          },
+          "body": {
+            "text": "A seldom-climbed crag about 1 km from the nearest drivable road. ‘Permanent’ top-rope anchors installed by Vildmark i Värmland (fixed installations around pine trees at the top of the crag). The crag offers a number of routes in the grade 5 and 6 range, as well as scope for harder face climbing. Some brushing is needed to climb the more slabby routes, while the vertical routes are more or less climbable as they are. The crag is south-facing, but because of the relatively dense spruce forest growing close by, it is slow to dry in places. There are some suspect blocks in places at the top of the crag, which should be avoided when topping out.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:jotumhallarna"
+            ]
+          }
+        },
+        "vagbeskrivning": {
+          "title": {
+            "text": "Approach",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:jotumhallarna"
+            ]
+          },
+          "body": {
+            "text": "Drive north from the church in Vitsand and turn right by the football pitches. Follow the gravel road to a large gravel pit, park and follow the path up to Jotumhallarna. The crag is on the left after about 1 km.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:jotumhallarna"
+            ]
+          }
+        },
+        "leder": {
+          "title": {
+            "text": "Routes",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:jotumhallarna"
+            ]
+          },
+          "body": {
+            "text": "These routes have only been climbed on top rope, so the grades given are top-rope grades. There are no bolts, but the bold can of course climb them on trad. It is not known whether there are any established routes and/or FAs.\n\nThis route is around 5b. There are two possible finishes; the left-hand option is slightly thinner but more slabby.\n\nThe right-hand route follows the crack and is probably around 6b. The left-hand route is slightly harder, 6c (6c+?), and has a few loose holds at the start. Both routes are more or less vertical and very good.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:jotumhallarna"
+            ]
+          }
+        }
+      },
+      "routes": {}
+    }
   }
 }

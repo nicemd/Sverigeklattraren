@@ -48,5 +48,56 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "Plastic holds on a building",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:gamlestadstorget"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "General",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gamlestadstorget"
+            ]
+          },
+          "body": {
+            "text": "Plastic holds on a building",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gamlestadstorget"
+            ]
+          }
+        },
+        "vagbeskrivning": {
+          "title": {
+            "text": "Directions",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gamlestadstorget"
+            ]
+          },
+          "body": {
+            "text": "Walk from Gamlestadstorget tram stop towards SKF. This artificial boulder is next to the dog exercise area. The holds were loose, so bring a set of Torx keys to tighten them.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gamlestadstorget"
+            ]
+          }
+        }
+      },
+      "routes": {}
+    }
   }
 }

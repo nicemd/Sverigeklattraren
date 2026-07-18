@@ -201,5 +201,155 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "A lifeless explosive crag. Often wet. But what a location!",
+        "method": "llm",
+        "model": "gpt-4o-mini",
+        "sourceIds": [
+          "legacy:tanto"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "General",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tanto"
+            ]
+          },
+          "body": {
+            "text": "Själlös explosive rock. Often wet. But the location!",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tanto"
+            ]
+          }
+        },
+        "vagbeskrivning": {
+          "title": {
+            "text": "Access",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tanto"
+            ]
+          },
+          "body": {
+            "text": "KML\n\nLet's be clear: this isn’t exactly Stockholm’s best climbing. On the other hand, there’s hardly a more accessible crag, and climbing is always climbing. Take the subway to Hornstull and navigate through the park among sunbathers, ice cream-eating children, and the homeless. The crag is along the cycle path towards Zinken.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tanto"
+            ]
+          }
+        },
+        "leder": {
+          "title": {
+            "text": "Routes",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tanto"
+            ]
+          },
+          "body": {
+            "text": "Unclear which of these are still available. The description comes from bloxc (http://www.bloxc.com/forum/viewtopic.php?t=996)",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tanto"
+            ]
+          }
+        }
+      },
+      "routes": {
+        "tanto-led-1": {
+          "description": {
+            "text": "Far left. A gently overhanging route that trends right, nice. 3 bolts + anchor.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tanto"
+            ]
+          }
+        },
+        "tanto-led-2": {
+          "description": {
+            "text": "3m right of “Reclaim the city”. Tough technical ascent straight up to the anchor.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tanto"
+            ]
+          }
+        },
+        "tanto-led-3": {
+          "description": {
+            "text": "The obvious weak corner. Quite pleasant climbing with a bolt at the start and then gear. Anchor.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tanto"
+            ]
+          }
+        },
+        "tanto-led-4": {
+          "description": {
+            "text": "2m right of “Med fanan i näven”. Varied climbing on the edge. 3 bolts + previous anchor.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tanto"
+            ]
+          }
+        },
+        "tanto-led-5": {
+          "description": {
+            "text": "Just behind the tree. Somewhat awkward but nice climbing straight up.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tanto"
+            ]
+          }
+        },
+        "tanto-led-6": {
+          "description": {
+            "text": "Two left of “Min pappa...”. Too high for sunbathing. Short gorilla-like route with few moves.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tanto"
+            ]
+          }
+        },
+        "tanto-led-7": {
+          "description": {
+            "text": "1m right of “Old men don't jump”. Cramped tricky route, use surrounding bolts.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tanto"
+            ]
+          }
+        },
+        "tanto-led-8": {
+          "description": {
+            "text": "Far right. Technical fiddly route with 1 bolt and an anchor.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tanto"
+            ]
+          }
+        }
+      }
+    }
   }
 }

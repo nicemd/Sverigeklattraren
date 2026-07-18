@@ -124,5 +124,115 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "The crag faces south-southeast and is up to 17 metres high. The rock is coarse-grained gneiss of a much finer quality than the other crags in Flästa, resembling more the cliffs at Mörkberget. The descent is straightforward and takes a wide turn to the right around the crag.",
+        "method": "llm",
+        "model": "gpt-4o-mini",
+        "sourceIds": [
+          "legacy:torpberget"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "General",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:torpberget"
+            ]
+          },
+          "body": {
+            "text": "The wall faces south-southeast and is up to 17 metres high. The rock is coarse-grained gneiss of a much finer quality than the other crags in Flästa and resembles more the cliffs on Mörkberget. The descent is easy, taking a wide curve to the right around the rock.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:torpberget"
+            ]
+          }
+        },
+        "vagbeskrivning": {
+          "title": {
+            "text": "Access",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:torpberget"
+            ]
+          },
+          "body": {
+            "text": "Torpberget is located about 1 km from the village of Flästa, in the woods below Norrberget. The cliff is glimpsed between the trees.\n\nAbout 300 m east of the village of Flästa (see Bodberget for transport to Flästa), a road runs between two fields towards Norrberget. After about 300 m, you reach a farm. Park here. A 200 m easy walk leads to the crag.\n\nVery approximate GPS coordinates: Lat: N 61º 27' 13.51\" Long: E 16º 27' 42.27\"",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:torpberget"
+            ]
+          }
+        },
+        "vaggen": {
+          "title": {
+            "text": "The Wall",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:torpberget"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:torpberget"
+            ]
+          }
+        }
+      },
+      "routes": {
+        "torpberget-led-1": {
+          "description": {
+            "text": "Marked dihedral to the left of the prominent arete. The start is a short layback. Well protected.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:torpberget"
+            ]
+          }
+        },
+        "torpberget-led-2": {
+          "description": {
+            "text": "Start as for \"Vägen till Jylland\", then follow the arete straight up. A bolt at the exit.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:torpberget"
+            ]
+          }
+        },
+        "torpberget-led-3": {
+          "description": {
+            "text": "Starts just to the right of the arete. Follows the dihedral and ledge system up diagonally right until it's possible to go straight up through a small overhang.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:torpberget"
+            ]
+          }
+        },
+        "torpberget-led-4": {
+          "description": {
+            "text": "Narrow, sustained, and not overly well protected, but very fine wall climbing straight up to the exit of \"Vägen till Jylland\". A poor bolt at the crux.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:torpberget"
+            ]
+          }
+        }
+      }
+    }
   }
 }

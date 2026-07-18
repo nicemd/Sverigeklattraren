@@ -311,5 +311,121 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "From Gothenburg, take road 40 towards Borås. Turn off towards Hyssna onto road 156. In Hyssna, turn left towards Bollebygd/Seglora, then take a minor road to Seglora (approx. 10 km).\n\nFrom Borås, take the old Varberg road towards Viskafors. Before Seglora church, turn right towards Hyssna. After the bridge, keep right for the New Crag. It appears on the left after approx. 300–400 m. For the Old Crag, instead turn left after the bridge. Continue to the next T-junction (approx. 1 km) and turn right. After a while, the Old Crag appears on the right, after passing a farm on the left and emerging into a more open area.",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:seglora-nya"
+        ]
+      },
+      "sections": {
+        "introduktion": {
+          "title": {
+            "text": "Introduction",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:seglora-nya"
+            ]
+          },
+          "body": {
+            "text": "Nya berget offers face climbing with plenty of holds and footholds. The crag is just under 20 metres high, almost vertical to slightly overhanging, and all but one route are bolted. All routes have straightforward lower-off anchors.\n\nThe crag faces south or south-east and gets the sun until around three. Nya berget lies in what appears to be a gravel pit. At first sight, only the upper half of the crag is visible and it does not look particularly impressive. But fear not: the 20-metre approach takes you down into the pit, where the crag turns out to be quite high. In summer, when the sun is high in the sky, the pit can get very hot. In late autumn and early spring, when a little warmth would be welcome, the sun does not rise above the treetops. After prolonged rain, Nya berget is slow to dry, as water runs down from the mossy ground above. In spring 2004 it was not fully dry until the end of March.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:seglora-nya"
+            ]
+          }
+        },
+        "karaktar": {
+          "title": {
+            "text": "Character",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:seglora-nya"
+            ]
+          },
+          "body": {
+            "text": "Nya berget is a considerably smaller crag than Gamla berget, about fifteen metres high, mostly vertical and absolutely covered in holds.\n\nThe crag was developed mainly during 92–93. There are currently 12 sport routes and one mixed route. Fortunately, there is no conflict with the landowner here, so feel free to climb.\n\nNya berget is an excellent sport crag for climbers operating at the lower end of the grading scale. Most routes are graded 6a–6b. Almost all the routes are well worth doing, though avoid Ringfingerpullan—an obscene name for an obscene route. Many consider the grades at Nya berget slightly soft, but that can be quite pleasant these days, when sandbagging has become a matter of prestige...\n\nThe crag faces south-east (sun until around 14:00) and is sheltered from the wind, which means it dries quickly and offers excellent conditions in early spring and late autumn. Hot midsummer days are best spent elsewhere.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:seglora-nya"
+            ]
+          }
+        },
+        "vagbeskrivning": {
+          "title": {
+            "text": "Directions",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:seglora-nya"
+            ]
+          },
+          "body": {
+            "text": "From Gothenburg, take road 40 towards Borås. Turn off towards Hyssna onto road 156. At Hyssna, turn left towards Bollebygd/Seglora, then take a minor road to Seglora (about 10 km).\n\nFrom Borås, take the old Varberg road towards Viskafors. Before Seglora church, turn right towards Hyssna. After the bridge, keep right for Nya berget. The crag appears on the left after about 300–400 m. For Gamla berget, turn left instead after the bridge. Continue to the next T-junction (about 1 km) and turn right. After a while, Gamla berget appears on the right, after you have passed a farm on the left and entered a more open stretch.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:seglora-nya"
+            ]
+          }
+        },
+        "access": {
+          "title": {
+            "text": "Access",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:seglora-nya"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:seglora-nya"
+            ]
+          }
+        },
+        "leder": {
+          "title": {
+            "text": "Routes",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:seglora-nya"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:seglora-nya"
+            ]
+          }
+        }
+      },
+      "routes": {
+        "seglora-nya-led-12": {
+          "description": {
+            "text": "Straight up, sharing an anchor and one bolt with Svartenbrandt.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:seglora-nya"
+            ]
+          }
+        }
+      }
+    }
   }
 }

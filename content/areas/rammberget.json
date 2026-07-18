@@ -245,5 +245,133 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "A huge crag with far more cracks than are currently documented as routes (take note, new-route developers!).",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:rammberget"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "Overview",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:rammberget"
+            ]
+          },
+          "body": {
+            "text": "A huge crag with many more cracks than are currently recorded as routes (take note, new routers!).",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:rammberget"
+            ]
+          }
+        },
+        "miljo": {
+          "title": {
+            "text": "Setting",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:rammberget"
+            ]
+          },
+          "body": {
+            "text": "The crag lies in very dense spruce forest. However, the area immediately around Frigotime, extending a few routes to either side, is open. If the forest here were clear-felled, Rammberget would be a superb crag.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:rammberget"
+            ]
+          }
+        },
+        "vagbeskrivning": {
+          "title": {
+            "text": "Directions",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:rammberget"
+            ]
+          },
+          "body": {
+            "text": "From Utby/Partille, follow Mellbyleden until it becomes Bergsjövägen. On the right is a very small, inconspicuous sign reading \"Skanska Balk och spontupptag Bergsjön\". Park on the left where possible. From there, enter the forest and follow the path. The crag should appear after about 400–500 metres. It is west-facing and quite large. The routes are in the left-hand section.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:rammberget"
+            ]
+          }
+        },
+        "kollektivtrafik": {
+          "title": {
+            "text": "Public transport",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:rammberget"
+            ]
+          },
+          "body": {
+            "text": "Take bus 58 to the terminus. Walk down towards Bergsjövägen and follow the cycle path north towards Gunnilse. You will reach the parking area after about 600 metres.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:rammberget"
+            ]
+          }
+        }
+      },
+      "routes": {
+        "rammberget-led-5": {
+          "description": {
+            "text": "Given two stars in the Gothenburg guide...",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:rammberget"
+            ]
+          }
+        },
+        "rammberget-led-6": {
+          "description": {
+            "text": "The crack in the centre of the arete.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:rammberget"
+            ]
+          }
+        },
+        "rammberget-led-11": {
+          "description": {
+            "text": "A very large homemade piton marks the route.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:rammberget"
+            ]
+          }
+        },
+        "rammberget-led-12": {
+          "description": {
+            "text": "The crack to the right of the previous route.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:rammberget"
+            ]
+          }
+        }
+      }
+    }
   }
 }

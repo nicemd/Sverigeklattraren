@@ -70,5 +70,40 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "",
+        "method": "llm",
+        "model": "gpt-4o-mini",
+        "sourceIds": [
+          "legacy:starberget-bimbo"
+        ]
+      },
+      "sections": {},
+      "routes": {
+        "starberget-bimbo-problem-1": {
+          "description": {
+            "text": "Fat traverse. Start on \"Lennart Svan\" far left and traverse right past all routes, finishing by climbing up a dihedral, almost at the café area. No long resting allowed on Dumbo; keep your body moving. Long, hard and pumpy...",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:starberget-bimbo"
+            ]
+          }
+        },
+        "starberget-bimbo-problem-2": {
+          "description": {
+            "text": "Start in an excellent jug and dyno all the way to the top. A perfect and super enjoyable dyno that must be experienced. Possibly 7A.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:starberget-bimbo"
+            ]
+          }
+        }
+      }
+    }
   }
 }

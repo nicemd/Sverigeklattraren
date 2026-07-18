@@ -52,5 +52,30 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "=General= A handful of scattered boulders. Perhaps Uppsala’s hardest problem (The Swedish Stallion) is found here.\n\n=Directions= Drive east from Uppsala towards Almunge. After just over 10 km, turn right towards Fjällnora. The boulders are scattered on both sides of the road.\n\n=Problems=",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:fjallnora"
+        ]
+      },
+      "sections": {},
+      "routes": {
+        "fjallnora-problem-1": {
+          "description": {
+            "text": "Sit start in the steep overhang. Located on the right-hand side of the road, 100 m after crossing the railway.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:fjallnora"
+            ]
+          }
+        }
+      }
+    }
   }
 }

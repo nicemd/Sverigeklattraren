@@ -87,5 +87,92 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "On the southern slope of the 102-metre-high hill (above sea level!) are a couple of small crags. The northern crag is slabby, while the southern one is steeper with a few crack lines.",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:hogkullberget"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "General",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hogkullberget"
+            ]
+          },
+          "body": {
+            "text": "On the southern slope of the 102 m-high hill (above sea level!) are a couple of small crags. The northern crag is slabby, while the southern one is steeper with a few crack lines.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hogkullberget"
+            ]
+          }
+        },
+        "vagbeskrivning": {
+          "title": {
+            "text": "Directions",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hogkullberget"
+            ]
+          },
+          "body": {
+            "text": "Högkullberget lies at the southern end of the long valley followed by road 225 before it climbs onto Fullbro malm. Just after the turn-off towards Kagghamra gård, a private road heads uphill to the west, passing a few houses. Follow this road for about 1 km until it reaches a meadow. The crag is up in the woods on the left, straight in from the far corner of the meadow.\n\nOld coordinates: 10 I SV 555156",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hogkullberget"
+            ]
+          }
+        },
+        "kommunikationer": {
+          "title": {
+            "text": "Public transport",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hogkullberget"
+            ]
+          },
+          "body": {
+            "text": "Bus 783 stops at the turn-off to Kagghamra gård.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hogkullberget"
+            ]
+          }
+        },
+        "leder": {
+          "title": {
+            "text": "Routes",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hogkullberget"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hogkullberget"
+            ]
+          }
+        }
+      },
+      "routes": {}
+    }
   }
 }

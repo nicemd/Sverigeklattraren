@@ -34,5 +34,19 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "Bouldering area with around 50 problems. External guide (http://www.plonk.se/snf/skonstavik.html)",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:skonstavik"
+        ]
+      },
+      "sections": {},
+      "routes": {}
+    }
   }
 }

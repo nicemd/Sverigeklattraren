@@ -118,5 +118,70 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "",
+        "method": "llm",
+        "model": "gpt-4o-mini",
+        "sourceIds": [
+          "legacy:tjadervagen"
+        ]
+      },
+      "sections": {},
+      "routes": {
+        "tjadervagen-problem-1": {
+          "description": {
+            "text": "Start with hands on the slope ledge, or with the left hand on a small crimp. Move up to the crimp on the left, then either dyno or reach long to the edge.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tjadervagen"
+            ]
+          }
+        },
+        "tjadervagen-problem-2": {
+          "description": {
+            "text": "Begin on the same starting holds as Morning Glory and Svager. Traverse rightwards. At the edge, go straight up.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tjadervagen"
+            ]
+          }
+        },
+        "tjadervagen-problem-3": {
+          "description": {
+            "text": "Same start as Morning Glory and Rise and Shine. Move up to a large crimp for the right hand. Continue with the same hand and mantle over the edge.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tjadervagen"
+            ]
+          }
+        },
+        "tjadervagen-problem-4": {
+          "description": {
+            "text": "Start to the left on the stone. Starting hold is a slope for the left hand and a crack for the right hand. Traverse right and finish as per DvärgFeten.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tjadervagen"
+            ]
+          }
+        },
+        "tjadervagen-problem-5": {
+          "description": {
+            "text": "Starting holds will be marked. Move up to a crimp with the left hand, then to a small crimp with the right hand. Continue straight up and finish with a mantle. Probably easier for taller climbers.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tjadervagen"
+            ]
+          }
+        }
+      }
+    }
   }
 }

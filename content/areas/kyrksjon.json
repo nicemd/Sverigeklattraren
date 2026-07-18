@@ -341,5 +341,225 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "From Brommaplan: drive along Spångavägen for about 2 km to the roundabout where Spångavägen meets Gliavägen and Vultejusvägen. Turn left onto Vultejusvägen and continue for about 100 m. Where the houses end and the woods begin, a shared footpath and cycle path leads off to the left. Parking is available 50 m further on, on the right by Ängby IP. Follow the path until it forks. Take the left fork and continue for about 50 m. Where the path bends right, there is a park bench below a rocky knoll. Follow the rock face to the left (north) and you will find the crag 30–40 metres into the woods.\n\nPublic transport:\n\nTake the metro to Brommaplan. Take bus 117 towards Spånga station and get off at Vultejusvägen. Then follow Vultejusvägen as described above.",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:kyrksjon"
+        ]
+      },
+      "sections": {
+        "vagbeskrivning": {
+          "title": {
+            "text": "Directions",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:kyrksjon"
+            ]
+          },
+          "body": {
+            "text": "From Brommaplan: drive along Spångavägen for about 2 km to the roundabout where Spångavägen meets Gliavägen and Vultejusvägen. Turn left onto Vultejusvägen and continue for about 100 m. Where the houses end and the woods begin, take the shared footpath and cycle path on the left. Parking is available 50 m further on, on the right, at Ängby IP. Follow the path until it forks. Take the left fork and continue for about 50 m. Where the path bends right, there is a park bench below a rocky knoll. Follow the rock face to the left (north) and you will find the crag 30–40 metres into the woods.\n\nPublic transport:\n\nTake the metro to Brommaplan. Take bus 117 towards Spånga station and get off at Vultejusvägen. Then follow Vultejusvägen as described above.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:kyrksjon"
+            ]
+          }
+        },
+        "skiss": {
+          "title": {
+            "text": "Topo",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:kyrksjon"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:kyrksjon"
+            ]
+          }
+        },
+        "problem": {
+          "title": {
+            "text": "Problems",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:kyrksjon"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:kyrksjon"
+            ]
+          }
+        }
+      },
+      "routes": {
+        "kyrksjon-led-1": {
+          "description": {
+            "text": "Sit start with both hands on a good hold and climb the arete.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:kyrksjon"
+            ]
+          }
+        },
+        "kyrksjon-led-2": {
+          "description": {
+            "text": "Sit start. Use the starting hold of Blåsningen for your left hand and a sidepull for your right, then climb diagonally up left.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:kyrksjon"
+            ]
+          }
+        },
+        "kyrksjon-led-3": {
+          "description": {
+            "text": "Start low on holds on the bulge and climb straight up.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:kyrksjon"
+            ]
+          }
+        },
+        "kyrksjon-led-4": {
+          "description": {
+            "text": "Start on good holds just right of the arete, then climb left into the corner and up.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:kyrksjon"
+            ]
+          }
+        },
+        "kyrksjon-led-5": {
+          "description": {
+            "text": "Start on the same holds as no. 4, but climb up rightwards.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:kyrksjon"
+            ]
+          }
+        },
+        "kyrksjon-led-6": {
+          "description": {
+            "text": "Straight up the wall.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:kyrksjon"
+            ]
+          }
+        },
+        "kyrksjon-led-7": {
+          "description": {
+            "text": "The corner.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:kyrksjon"
+            ]
+          }
+        },
+        "kyrksjon-led-8": {
+          "description": {
+            "text": "Fridge-style climbing.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:kyrksjon"
+            ]
+          }
+        },
+        "kyrksjon-led-9": {
+          "description": {
+            "text": "Climb the arete. The jugs to the right and the corner to the left are out.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:kyrksjon"
+            ]
+          }
+        },
+        "kyrksjon-led-10": {
+          "description": {
+            "text": "The corner.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:kyrksjon"
+            ]
+          }
+        },
+        "kyrksjon-led-11": {
+          "description": {
+            "text": "Start low on good holds beneath the roof, climb diagonally up left along the ramp, then up the face on good but slightly loose holds.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:kyrksjon"
+            ]
+          }
+        },
+        "kyrksjon-led-12": {
+          "description": {
+            "text": "Climb through the right-hand side of the roof.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:kyrksjon"
+            ]
+          }
+        },
+        "kyrksjon-led-13": {
+          "description": {
+            "text": "Start in the middle of the slab and climb up through the roof.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:kyrksjon"
+            ]
+          }
+        },
+        "kyrksjon-led-14": {
+          "description": {
+            "text": "Climb the right-hand side of the slab without using the edge to the right.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:kyrksjon"
+            ]
+          }
+        },
+        "kyrksjon-led-15": {
+          "description": {
+            "text": "Climb along the edge, then step right onto the ledge.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:kyrksjon"
+            ]
+          }
+        }
+      }
+    }
   }
 }

@@ -758,5 +758,470 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "",
+        "method": "llm",
+        "model": "gpt-4o-mini",
+        "sourceIds": [
+          "legacy:sodra-berget"
+        ]
+      },
+      "sections": {},
+      "routes": {
+        "sodra-berget-problem-1": {
+          "description": {
+            "text": "Starts on the same holds as A pinch of snuff. Traverse right and exit the same way as Boulder dash. The edge of the rock is not part of the traverse.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:sodra-berget"
+            ]
+          }
+        },
+        "sodra-berget-problem-2": {
+          "description": {
+            "text": "Starts with a sit start and follows the arête up to the top.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:sodra-berget"
+            ]
+          }
+        },
+        "sodra-berget-problem-3": {
+          "description": {
+            "text": "Starts with a sit start (double mat) and finishes with a mantle onto the ledge. The grade needs to be confirmed.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:sodra-berget"
+            ]
+          }
+        },
+        "sodra-berget-problem-4": {
+          "description": {
+            "text": "Starts with a sit start to the right of the crack outside the cave. Climb out from the overhang with a slight pull left and finish at the prominent horizontal ledge.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:sodra-berget"
+            ]
+          }
+        },
+        "sodra-berget-problem-5": {
+          "description": {
+            "text": "Start with a sit start under the roof, then climb straight up and finish in the small dihedral.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:sodra-berget"
+            ]
+          }
+        },
+        "sodra-berget-problem-6": {
+          "description": {
+            "text": "Goes just right of \"A pinch of snuff\". Starts with the left hand in a gaston and the right hand on a small ledge, going straight up.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:sodra-berget"
+            ]
+          }
+        },
+        "sodra-berget-problem-7": {
+          "description": {
+            "text": "Sit start to the right of \"Boulder Dash\", begins with a jam in the crack between the block and the wall, following the arête up.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:sodra-berget"
+            ]
+          }
+        },
+        "sodra-berget-problem-8": {
+          "description": {
+            "text": "Right hand on the sidepull and left hand on a big ledge, climb straight up via the ledges.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:sodra-berget"
+            ]
+          }
+        },
+        "sodra-berget-problem-9": {
+          "description": {
+            "text": "Left hand on the hold beneath the clear pinch and right hand on the sidepull.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:sodra-berget"
+            ]
+          }
+        },
+        "sodra-berget-problem-10": {
+          "description": {
+            "text": "Starts with the left hand on a ledge and the right hand on a jug. Dyno up to the ledge without using the holds in between. Then go up to the jug on the edge.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:sodra-berget"
+            ]
+          }
+        },
+        "sodra-berget-problem-11": {
+          "description": {
+            "text": "Starts inside the \"hole\" with hands on the ledge. Moves out left and up, ending in the same jug as \"Coldmember\".",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:sodra-berget"
+            ]
+          }
+        },
+        "sodra-berget-problem-12": {
+          "description": {
+            "text": "Starts in the cave on the underside of the block. Left hand on the big undercling in the roof and right hand at the bottom edge. Then exit the cave and climb up without using anything other than the block.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:sodra-berget"
+            ]
+          }
+        },
+        "sodra-berget-problem-13": {
+          "description": {
+            "text": "Starts with hands on the sharp ledge, then climbs straight up.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:sodra-berget"
+            ]
+          }
+        },
+        "sodra-berget-problem-14": {
+          "description": {
+            "text": "Sit start under the roof. Left hand on crimp and right hand on an almost non-existent hold. Then go out over the roof and straight up. The arête to the left is not included.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:sodra-berget"
+            ]
+          }
+        },
+        "sodra-berget-problem-15": {
+          "description": {
+            "text": "Climb straight up without using the rock to the right.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:sodra-berget"
+            ]
+          }
+        },
+        "sodra-berget-problem-16": {
+          "description": {
+            "text": "Starts with the left hand on a small crimp and the right hand on the sloping edge, climb straight up.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:sodra-berget"
+            ]
+          }
+        },
+        "sodra-berget-problem-17": {
+          "description": {
+            "text": "Starts with a sit start. Hands on the big hold on the arête, then follow this up.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:sodra-berget"
+            ]
+          }
+        },
+        "sodra-berget-problem-18": {
+          "description": {
+            "text": "Left hand in the crack and right hand on the slightly worse hold to the right. Dyno up to the edge. Ends when mantle finished on the ledge.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:sodra-berget"
+            ]
+          }
+        },
+        "sodra-berget-problem-19": {
+          "description": {
+            "text": "Variant of \"Hailys\", starting on the same hold as this and then climbing up without dynoing. Ends when standing on the ledge.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:sodra-berget"
+            ]
+          }
+        },
+        "sodra-berget-problem-20": {
+          "description": {
+            "text": "Starts with an undercling in the roof, then follows this out and finishes when mantled over the edge. The walls on the sides are not included.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:sodra-berget"
+            ]
+          }
+        },
+        "sodra-berget-problem-21": {
+          "description": {
+            "text": "Sit start with hands on the ledges between the crack to the left and the arête to the right. Climb straight up without using the arête and crack.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:sodra-berget"
+            ]
+          }
+        },
+        "sodra-berget-problem-22": {
+          "description": {
+            "text": "Climb over the bulge and up towards the top. The upper section is passed with a slight pull to the left.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:sodra-berget"
+            ]
+          }
+        },
+        "sodra-berget-problem-23": {
+          "description": {
+            "text": "Starts the same as \"Grovsalt\", but climbs to the right of the bulge.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:sodra-berget"
+            ]
+          }
+        },
+        "sodra-berget-problem-24": {
+          "description": {
+            "text": "Start far left under the arête. Right hand on crimp and left hand on a hold under the arête. Climb straight up.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:sodra-berget"
+            ]
+          }
+        },
+        "sodra-berget-problem-25": {
+          "description": {
+            "text": "Start under the loose (but stable) rock pieces with one hand on a sidepull and the other undercling. Climb up the crack.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:sodra-berget"
+            ]
+          }
+        },
+        "sodra-berget-problem-26": {
+          "description": {
+            "text": "Sit start with both hands in the horizontal crack, climb straight up.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:sodra-berget"
+            ]
+          }
+        },
+        "sodra-berget-problem-27": {
+          "description": {
+            "text": "Sit start with hands on the jug located at the arête to the right of \"Static\", then climb straight up.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:sodra-berget"
+            ]
+          }
+        },
+        "sodra-berget-problem-28": {
+          "description": {
+            "text": "Sit start. Begins with the left hand on the arête bulge and right hand on a pinch, then straight up to the top jug.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:sodra-berget"
+            ]
+          }
+        },
+        "sodra-berget-problem-29": {
+          "description": {
+            "text": "Sit start. Starts with hands on the ramp far left. Traverse right to the corner and mantle up there. Then follow the arête to the top.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:sodra-berget"
+            ]
+          }
+        },
+        "sodra-berget-problem-30": {
+          "description": {
+            "text": "Located on the corner where \"Obsessed\" goes up. Begins with a sit start with hands on the good hold, then goes straight up.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:sodra-berget"
+            ]
+          }
+        },
+        "sodra-berget-problem-31": {
+          "description": {
+            "text": "Climbs straight up without using the crack to the right or the wall to the left. Desperate finish.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:sodra-berget"
+            ]
+          }
+        },
+        "sodra-berget-problem-32": {
+          "description": {
+            "text": "Starts the same as \"Solid cold\", traverse through the cave and up the other side. The bumbling route of \"Dragon´s Breath\" is not included.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:sodra-berget"
+            ]
+          }
+        },
+        "sodra-berget-problem-40": {
+          "description": {
+            "text": "Sit start under the arête, left hand on a sloping triangular hold, right hand on a good edge. Then goes straight up.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:sodra-berget"
+            ]
+          }
+        },
+        "sodra-berget-problem-41": {
+          "description": {
+            "text": "Standing start at the same arête as \"Cold Mine\", left hand on a crimp on the inside of the arête and right hand on a 'bulge' on the outside. Then goes straight up.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:sodra-berget"
+            ]
+          }
+        },
+        "sodra-berget-problem-42": {
+          "description": {
+            "text": "Climbs up to the left of \"Ace is high\", going straight up along the obvious layback crack.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:sodra-berget"
+            ]
+          }
+        },
+        "sodra-berget-problem-43": {
+          "description": {
+            "text": "Starts the same as \"Get shorty\". Then goes left, before continuing straight up the middle of the rock.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:sodra-berget"
+            ]
+          }
+        },
+        "sodra-berget-problem-44": {
+          "description": {
+            "text": "Starts far left on the protruding slab, move right and mantle onto the highest point.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:sodra-berget"
+            ]
+          }
+        },
+        "sodra-berget-problem-45": {
+          "description": {
+            "text": "Starts with a sit start, then goes straight up.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:sodra-berget"
+            ]
+          }
+        },
+        "sodra-berget-problem-33": {
+          "description": {
+            "text": "Sit start. Begins far left on the boulder, first goes straight up and then a little left. Finishes in the big jug.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:sodra-berget"
+            ]
+          }
+        },
+        "sodra-berget-problem-34": {
+          "description": {
+            "text": "Starts with the left hand on the starting hold of \"El mono gordo\" and the right hand on a small arete. Goes straight up to the big jug.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:sodra-berget"
+            ]
+          }
+        },
+        "sodra-berget-problem-35": {
+          "description": {
+            "text": "Sit start. Begins with the left hand on the arete jug and the right hand on a pinch, then goes straight up to the top jug.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:sodra-berget"
+            ]
+          }
+        },
+        "sodra-berget-problem-36": {
+          "description": {
+            "text": "Sit start. Begins with hands on the ramp far left. Traverse right to the corner and mantle up there. Then follow the arête to the top.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:sodra-berget"
+            ]
+          }
+        },
+        "sodra-berget-problem-37": {
+          "description": {
+            "text": "Located at the corner where \"Obsessed\" goes up. Starts with a sit start using the good hold, then goes straight up.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:sodra-berget"
+            ]
+          }
+        },
+        "sodra-berget-problem-38": {
+          "description": {
+            "text": "Goes straight up without using the crack to the right or the wall to the left. Desperate finish.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:sodra-berget"
+            ]
+          }
+        },
+        "sodra-berget-problem-39": {
+          "description": {
+            "text": "Starts like \"Solid cold\", traverse through the cave and up on the other side. The bumbling route of \"Dragon's Breath\" is not included.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:sodra-berget"
+            ]
+          }
+        }
+      }
+    }
   }
 }

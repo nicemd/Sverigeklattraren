@@ -53,5 +53,56 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "Bouldering near Farsta. Click on the markers on the map to go directly to the sector description on bloxc. If anyone knows where the other sectors are, click on Edit and the map icon at the far right of the button row... Then just click on the map and move the markers around until you’re happy, and copy-paste the Google Maps code over the old one on the page.",
+        "method": "llm",
+        "model": "gpt-4o-mini",
+        "sourceIds": [
+          "legacy:agesta"
+        ]
+      },
+      "sections": {
+        "omraden": {
+          "title": {
+            "text": "Areas",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:agesta"
+            ]
+          },
+          "body": {
+            "text": ";B5, \"Ko-blocket\" (http://www.bloxc.com/index.php?p=sector&a=2&c=b5): A large block in the middle of a \"meadow\". If you're not into cow rolling, there's little reason to trek here unless you climb 6C and above. It's quite a walk from the nearest parking, but it's an impressive block you can't miss!",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:agesta"
+            ]
+          }
+        },
+        "bloxc": {
+          "title": {
+            "text": "Bloxc",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:agesta"
+            ]
+          },
+          "body": {
+            "text": "More about Ågesta, overviews, and the problem database on bloxc (http://www.bloxc.com/index.php?p=frontarea&a=2)",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:agesta"
+            ]
+          }
+        }
+      },
+      "routes": {}
+    }
   }
 }

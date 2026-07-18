@@ -10,6 +10,7 @@
     "content:topos": "node scripts/enrich-topo-relations.mjs",
     "content:loose-routes": "node scripts/enrich-loose-routes.mjs",
     "content:translate": "node scripts/enrich-translations.mjs",
+    "content:translations:validate": "node scripts/validate-translations.mjs",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",

@@ -53,5 +53,74 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "Smooth slab in southern Ingarö. It drops straight into Ingaröfjärden and is easiest to access in late winter while the ice is still in place.",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:mortviksberget"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "General",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:mortviksberget"
+            ]
+          },
+          "body": {
+            "text": "A slab on southern Ingarö. It drops straight into Ingaröfjärden and is easiest to access in late winter while the ice is still in place.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:mortviksberget"
+            ]
+          }
+        },
+        "vagbeskrivning": {
+          "title": {
+            "text": "Directions",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:mortviksberget"
+            ]
+          },
+          "body": {
+            "text": "Currently unknown. Anyone? Position according to an ancient system: 10 I SO 721496.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:mortviksberget"
+            ]
+          }
+        },
+        "leder": {
+          "title": {
+            "text": "Routes",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:mortviksberget"
+            ]
+          },
+          "body": {
+            "text": "There is one route following one of the obvious diagonal cracks, around 5−. A few hundred metres further north, several quite good icefalls form under favourable conditions.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:mortviksberget"
+            ]
+          }
+        }
+      },
+      "routes": {}
+    }
   }
 }

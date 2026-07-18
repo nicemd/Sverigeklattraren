@@ -1043,5 +1043,655 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "NB: Parking is only permitted at Hallinden bus station. Do not drive along the farm track leading to Stora väggen!",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:hallinden"
+        ]
+      },
+      "sections": {
+        "introduktion": {
+          "title": {
+            "text": "Introduction",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hallinden"
+            ]
+          },
+          "body": {
+            "text": "One of Sweden’s finest and most important crags. This is the first crag you see when approaching Lysekil from the E6, and an absolute must for visitors. The routes are long (up to 50 m), generally following excellent, well-protected cracks of varying widths, and the rock is almost overhanging in places. The routes start at 5+, but you should be climbing around 6+ or even 7- to get on the best lines. The climbing is often fairly grown-up and requires good jamming skills. Beyond that, it is hard going, with many routes in the grade 8 range. The base of the crag is flat and pleasant, with both shade and sun, making it suitable for families with children too. The sun reaches Stora väggen at around two o’clock, while tall trees shade Branta väggen for most of the day.\n\nFollow the parking instructions carefully; see Access below.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hallinden"
+            ]
+          }
+        },
+        "vagbeskrivning": {
+          "title": {
+            "text": "Directions",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hallinden"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hallinden"
+            ]
+          }
+        },
+        "access": {
+          "title": {
+            "text": "Access",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hallinden"
+            ]
+          },
+          "body": {
+            "text": "Parking for Hallinden has changed since the old guidebook was published in 2002. Park at the Hallinden park-and-ride. The old parking area must not be used, and do not even consider driving along the tractor track to the crag. This has happened repeatedly and is ABSOLUTELY not permitted. If it happens again, we risk the crag being closed.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hallinden"
+            ]
+          }
+        },
+        "leder": {
+          "title": {
+            "text": "Routes",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hallinden"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hallinden"
+            ]
+          }
+        },
+        "stora-vaggen": {
+          "title": {
+            "text": "Stora väggen",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hallinden"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hallinden"
+            ]
+          }
+        },
+        "branta-vaggen": {
+          "title": {
+            "text": "Branta väggen",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hallinden"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hallinden"
+            ]
+          }
+        },
+        "hellervaggen": {
+          "title": {
+            "text": "Hellerväggen",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hallinden"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hallinden"
+            ]
+          }
+        },
+        "terassvaggen": {
+          "title": {
+            "text": "Terassväggen",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hallinden"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hallinden"
+            ]
+          }
+        }
+      },
+      "routes": {
+        "hallinden-led-1": {
+          "description": {
+            "text": "The wall left of the large corner. One piton and two bolts.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hallinden"
+            ]
+          }
+        },
+        "hallinden-led-2": {
+          "description": {
+            "text": "Mossy corner.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hallinden"
+            ]
+          }
+        },
+        "hallinden-led-3": {
+          "description": {
+            "text": "The wall right of the large corner.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hallinden"
+            ]
+          }
+        },
+        "hallinden-led-6": {
+          "description": {
+            "text": "Fine route with a short, hard crux immediately after the belay. This section is harder than the grade 7 given in the existing guidebook. The rest of the second pitch is excellent.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hallinden"
+            ]
+          }
+        },
+        "hallinden-led-7": {
+          "description": {
+            "text": "The first section is 7+, the second 6 and the third 5+. Climb the whole route or traverse in from Prismaster wherever looks suitable.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hallinden"
+            ]
+          }
+        },
+        "hallinden-led-8": {
+          "description": {
+            "text": "An excellent, long and varied route not to be missed.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hallinden"
+            ]
+          }
+        },
+        "hallinden-led-9": {
+          "description": {
+            "text": "Start as for Priesmaster, then head right into the corner system, passing a roof before it peters out on the upper wall. Three bolts.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hallinden"
+            ]
+          }
+        },
+        "hallinden-led-10": {
+          "description": {
+            "text": "Fine slab and corner climbing.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hallinden"
+            ]
+          }
+        },
+        "hallinden-led-11": {
+          "description": {
+            "text": "Starts as for Rapé, but branches right after the ledge and follows the thin crack line.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hallinden"
+            ]
+          }
+        },
+        "hallinden-led-12": {
+          "description": {
+            "text": "Fine, long route.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hallinden"
+            ]
+          }
+        },
+        "hallinden-led-13": {
+          "description": {
+            "text": "Long and fine.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hallinden"
+            ]
+          }
+        },
+        "hallinden-led-14": {
+          "description": {
+            "text": "Long and fine.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hallinden"
+            ]
+          }
+        },
+        "hallinden-led-15": {
+          "description": {
+            "text": "A little adventurous, but nothing to be afraid of.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hallinden"
+            ]
+          }
+        },
+        "hallinden-led-16": {
+          "description": {
+            "text": "Often wet. Often dirty.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hallinden"
+            ]
+          }
+        },
+        "hallinden-led-17": {
+          "description": {
+            "text": "Steep, sustained jamming.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hallinden"
+            ]
+          }
+        },
+        "hallinden-led-18": {
+          "description": {
+            "text": "Starts on the large flake. Steep, sustained jamming.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hallinden"
+            ]
+          }
+        },
+        "hallinden-led-19": {
+          "description": {
+            "text": "Steep, sustained jamming.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hallinden"
+            ]
+          }
+        },
+        "hallinden-led-20": {
+          "description": {
+            "text": "Traverse left immediately after the start, then climb straight up.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hallinden"
+            ]
+          }
+        },
+        "hallinden-led-21": {
+          "description": {
+            "text": "Starts one metre right of After Burner.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hallinden"
+            ]
+          }
+        },
+        "hallinden-led-22": {
+          "description": {
+            "text": "The crack right of Afterburner.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hallinden"
+            ]
+          }
+        },
+        "hallinden-led-23": {
+          "description": {
+            "text": "Steep, sustained jamming.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hallinden"
+            ]
+          }
+        },
+        "hallinden-led-24": {
+          "description": {
+            "text": "The crack left of Ont Blot. Start by the broken spruce, traverse back 3m towards Ont Blot, then climb flakes to the crack and follow it to the top.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hallinden"
+            ]
+          }
+        },
+        "hallinden-led-25": {
+          "description": {
+            "text": "Steep, sustained jamming.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hallinden"
+            ]
+          }
+        },
+        "hallinden-led-26": {
+          "description": {
+            "text": "Climb Ont Blot, but traverse left about halfway up. A fun alternative.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hallinden"
+            ]
+          }
+        },
+        "hallinden-led-27": {
+          "description": {
+            "text": "Starts with a 15-metre traverse to reach the main line. Steep, sustained jamming.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hallinden"
+            ]
+          }
+        },
+        "hallinden-led-28": {
+          "description": {
+            "text": "Two cracks start on opposite sides of a tree, just after you climb onto the small ledge by the large roof. This is the crack on the right side of the tree and its first few metres are often wet.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hallinden"
+            ]
+          }
+        },
+        "hallinden-led-29": {
+          "description": {
+            "text": "The obvious hand crack.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hallinden"
+            ]
+          }
+        },
+        "hallinden-led-30": {
+          "description": {
+            "text": "Starts up a chimney.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hallinden"
+            ]
+          }
+        },
+        "hallinden-led-31": {
+          "description": {
+            "text": "Climb two ledges at the start, then pass a large LOOSE triangular block and follow a crack trending slightly right to the top.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hallinden"
+            ]
+          }
+        },
+        "hallinden-led-32": {
+          "description": {
+            "text": "Crack on red rock right of the large cleft formation.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hallinden"
+            ]
+          }
+        },
+        "hallinden-led-33": {
+          "description": {
+            "text": "Start in a corner with an offwidth crack leading to a small ledge, then continue up the corner to a crack.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hallinden"
+            ]
+          }
+        },
+        "hallinden-led-34": {
+          "description": {
+            "text": "Wide crack and corner.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hallinden"
+            ]
+          }
+        },
+        "hallinden-led-35": {
+          "description": {
+            "text": "Corner.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hallinden"
+            ]
+          }
+        },
+        "hallinden-led-36": {
+          "description": {
+            "text": "Diagonal thin crack.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hallinden"
+            ]
+          }
+        },
+        "hallinden-led-37": {
+          "description": {
+            "text": "One bolt at the start and a short traverse to reach the crack. The direct start has not yet been climbed.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hallinden"
+            ]
+          }
+        },
+        "hallinden-led-38": {
+          "description": {
+            "text": "Traverse quite a long way west around the edge to reach a corner and crack, then follow these to the top. Abseil anchor.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hallinden"
+            ]
+          }
+        },
+        "hallinden-led-39": {
+          "description": {
+            "text": "Traverse west around the edge and climb straight up the corner. A classic! Abseil anchor.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hallinden"
+            ]
+          }
+        },
+        "hallinden-led-40": {
+          "description": {
+            "text": "The arete. Three bolts.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hallinden"
+            ]
+          }
+        },
+        "hallinden-led-41": {
+          "description": {
+            "text": "Follow the previous route to the ledge, then take the crack left of the arete to the top.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hallinden"
+            ]
+          }
+        },
+        "hallinden-led-42": {
+          "description": {
+            "text": "The corner right of the arete.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hallinden"
+            ]
+          }
+        },
+        "hallinden-led-43": {
+          "description": {
+            "text": "The crack line immediately right of Sorte mand.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hallinden"
+            ]
+          }
+        },
+        "hallinden-led-45": {
+          "description": {
+            "text": "Follow the same start as Pyttsan for 2 metres, then take the arch right before following the crack straight up.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hallinden"
+            ]
+          }
+        },
+        "hallinden-led-46": {
+          "description": {
+            "text": "Steep, wide crack right of the fixed rope. Can be climbed with an easier start.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hallinden"
+            ]
+          }
+        },
+        "hallinden-led-51": {
+          "description": {
+            "text": "The wide crack.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hallinden"
+            ]
+          }
+        },
+        "hallinden-led-55": {
+          "description": {
+            "text": "Glue-in bolts and some trad gear.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hallinden"
+            ]
+          }
+        },
+        "hallinden-led-56": {
+          "description": {
+            "text": "Hand-jam crack to an abseil anchor.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hallinden"
+            ]
+          }
+        },
+        "hallinden-led-57": {
+          "description": {
+            "text": "Sporty and sustained.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hallinden"
+            ]
+          }
+        },
+        "hallinden-led-58": {
+          "description": {
+            "text": "Climb BSDO, but avoid the top crux by traversing into the next route 5 metres below the top.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hallinden"
+            ]
+          }
+        },
+        "hallinden-led-59": {
+          "description": {
+            "text": "A short right-to-left traverse at the start, then climb straight up. Abseil anchor.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hallinden"
+            ]
+          }
+        }
+      }
+    }
   }
 }

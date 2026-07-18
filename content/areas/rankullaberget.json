@@ -61,5 +61,56 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "0 documented routes and problems.",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:rankullaberget"
+        ]
+      },
+      "sections": {
+        "karta": {
+          "title": {
+            "text": "Map",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:rankullaberget"
+            ]
+          },
+          "body": {
+            "text": "Guide to Rankullaberget: http://www.hoglandsklattrarna.se/img/upload/Rankullaberget.pdf\n\nCompiled by Johan Ragnarson, Höglandsklättrarna.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:rankullaberget"
+            ]
+          }
+        },
+        "lankar": {
+          "title": {
+            "text": "Links",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:rankullaberget"
+            ]
+          },
+          "body": {
+            "text": "• Höglandsklättrarna's page on Rankullaberget (http://www.hoglandsklattrarna.se/ccms.asp?pageID=33)",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:rankullaberget"
+            ]
+          }
+        }
+      },
+      "routes": {}
+    }
   }
 }

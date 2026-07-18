@@ -39,5 +39,56 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "Nice crag on the southern Orust.",
+        "method": "llm",
+        "model": "gpt-4o-mini",
+        "sourceIds": [
+          "legacy:svanvik"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "General",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:svanvik"
+            ]
+          },
+          "body": {
+            "text": "Nice crag on southern Orust.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:svanvik"
+            ]
+          }
+        },
+        "film": {
+          "title": {
+            "text": "Film",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:svanvik"
+            ]
+          },
+          "body": {
+            "text": "A film featuring Said and others climbing at Svanvik v=3INKLzI7gGE",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:svanvik"
+            ]
+          }
+        }
+      },
+      "routes": {}
+    }
   }
 }

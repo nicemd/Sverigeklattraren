@@ -79,5 +79,85 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "This very special mountain is located by Kallsjön. It resembles the nose of a lying giant. The wall is overhanging and faces south. The lower part of the wall is very loose, while the upper section is more solid, hence the overhang. Two attempts have been made. One ended with the first man hanging by one arm after most of the ground beneath him had collapsed.\n\nIn 2009-10(?), Krister Jonsson, Denny Calvo, and others climbed the first route to the top on the left part of the wall. The route follows a system of dihedrals followed by a traverse to a distinct exit gully. Approximately 2 rope lengths. D+ is the grade assigned.\n\nDespite its modest height (845 m), the summit offers an unusually impressive view over Kallsjön towards Skäckerfjällen.",
+        "method": "llm",
+        "model": "gpt-4o-mini",
+        "sourceIds": [
+          "legacy:suljatten"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "General",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:suljatten"
+            ]
+          },
+          "body": {
+            "text": "This very special mountain is located by Kallsjön. It resembles a giant's nose lying down. The wall, which is overhanging, faces south. The lower part of the wall is very loose while the upper part is more solid, hence the overhang. Two attempts have been made, one ending with the first climber hanging by an arm after most of the rock beneath him had collapsed.\n\nIn 2009-10(?), Krister Jonsson, Denny Calvo, and others climbed the first route to the top on the left side of the wall. The route follows a dyke system followed by a traverse to a distinct exit groove. Approximately 2 rope lengths. D+ is the grade given.\n\nDespite its modest height (845 m), the summit offers an unusually impressive view over Kallsjön towards the Skäckerfjällen.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:suljatten"
+            ]
+          }
+        },
+        "vagbeskrivning": {
+          "title": {
+            "text": "Access",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:suljatten"
+            ]
+          },
+          "body": {
+            "text": "Map here. Press the map button above.\n\nWrite access directions here.\n\nFollow E 14 to Järpen, turn right towards Kall. Continue past Kall to Övre Konäs. Where a power line crosses the road, a forest track begins. Follow this to a gate, then continue on a path marked on the mountain map.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:suljatten"
+            ]
+          }
+        },
+        "leder": {
+          "title": {
+            "text": "Routes",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:suljatten"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:suljatten"
+            ]
+          }
+        }
+      },
+      "routes": {
+        "suljatten-led-1": {
+          "description": {
+            "text": "The route starts on the left side of the wall, following a crack system before traversing to a prominent exit gully. It's around 2 rope lengths long. D+ is the difficulty level assigned.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:suljatten"
+            ]
+          }
+        }
+      }
+    }
   }
 }

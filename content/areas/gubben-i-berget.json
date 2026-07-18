@@ -606,5 +606,157 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "A fairly pleasant sport climbing crag in a rather out-of-the-way location. The approach is short and the rock quality poor, but there are plenty of enjoyable routes. Most are overhanging, and virtually all the routes are excellent, very well bolted and equipped with top anchors.",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:gubben-i-berget"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "General",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gubben-i-berget"
+            ]
+          },
+          "body": {
+            "text": "A fairly pleasant sport crag in a somewhat secluded location. Short approach and poor-quality rock, but plenty of enjoyable routes. Most of it is overhanging, and virtually all the routes are excellent, very well bolted and have lower-offs.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gubben-i-berget"
+            ]
+          }
+        },
+        "vagbeskrivning": {
+          "title": {
+            "text": "Directions",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gubben-i-berget"
+            ]
+          },
+          "body": {
+            "text": "Turn off the E6 towards Kode, then turn left. After about 500 m you will pass under the E6, then pass a golf course followed by a small lake. Park on the left-hand side of the road just after the first brow beyond the lake. Follow the path to the crag. You will arrive at routes 6–9.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gubben-i-berget"
+            ]
+          }
+        },
+        "karta": {
+          "title": {
+            "text": "Map",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gubben-i-berget"
+            ]
+          },
+          "body": {
+            "text": "Online guide: http://www.bohusbergen.se/pages/locations/gubben/gubben_default.aspx",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gubben-i-berget"
+            ]
+          }
+        },
+        "leder": {
+          "title": {
+            "text": "Routes",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gubben-i-berget"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gubben-i-berget"
+            ]
+          }
+        },
+        "utsikten": {
+          "title": {
+            "text": "Utsikten",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gubben-i-berget"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gubben-i-berget"
+            ]
+          }
+        },
+        "naid": {
+          "title": {
+            "text": "Nåid",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gubben-i-berget"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gubben-i-berget"
+            ]
+          }
+        },
+        "nirvana": {
+          "title": {
+            "text": "Nirvana",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gubben-i-berget"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gubben-i-berget"
+            ]
+          }
+        }
+      },
+      "routes": {
+        "gubben-i-berget-led-28": {
+          "description": {
+            "text": "Steep climbing on big jugs all the way.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gubben-i-berget"
+            ]
+          }
+        }
+      }
+    }
   }
 }

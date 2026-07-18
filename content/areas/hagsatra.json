@@ -89,5 +89,95 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "A small unclimbed crag in Hagsätra/Rågsved. It is in the woods behind a nursery at the junction of Rågsvedsvägen and Sköllerstagata. You have to climb into the nursery grounds. It may be best to go there at the weekend or ask permission.\n\nThere is probably scope for a few good but hard routes here. The crag has quite a lot of loose rock, so take care.",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:hagsatra"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "Overview",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hagsatra"
+            ]
+          },
+          "body": {
+            "text": "Small unclimbed crag in Hagsätra/Rågsved. It is in the woods behind a nursery at the junction of Rågsvedsvägen and Sköllerstagatan. You have to climb over into the nursery grounds. It may be best to go at the weekend or ask permission.\n\nThere are probably some good but hard routes to be developed here. The crag has quite a lot of loose rock, so be careful.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hagsatra"
+            ]
+          }
+        },
+        "vagbeskrivning": {
+          "title": {
+            "text": "Directions",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hagsatra"
+            ]
+          },
+          "body": {
+            "text": "Hagsätra lat=18.020314 long=59.257035\n\nTravel to Rågsved station, then follow Rågsvedsvägen towards Hagsätra until you reach the junction of Rågsvedsvägen and Sköllerstagatan. There is a yellow nursery there. The crag is in the woods behind the nursery. You have to climb over into their grounds. It may be best to go at the weekend or ask permission.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hagsatra"
+            ]
+          }
+        },
+        "leder": {
+          "title": {
+            "text": "Routes",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hagsatra"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hagsatra"
+            ]
+          }
+        }
+      },
+      "routes": {
+        "hagsatra-led-1": {
+          "description": {
+            "text": "I’ve barely started working on this route. On the right-hand side of the wall, there is a crack in slightly overhanging rock.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hagsatra"
+            ]
+          }
+        },
+        "hagsatra-led-2": {
+          "description": {
+            "text": "I had a look at the wall and envisaged a line, but haven’t tried it yet. The left-hand side of the wall is rough and slightly overhanging, with some sharp holds and loose rock.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hagsatra"
+            ]
+          }
+        }
+      }
+    }
   }
 }

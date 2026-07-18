@@ -139,5 +139,105 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "Good DWS climbing around 6a. You need a boat to reach the area.",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:lilla-gassholmen"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "Overview",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:lilla-gassholmen"
+            ]
+          },
+          "body": {
+            "text": "Good DWS climbing around 6a. A boat is required to reach the area.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:lilla-gassholmen"
+            ]
+          }
+        },
+        "vagbeskrivning": {
+          "title": {
+            "text": "Directions",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:lilla-gassholmen"
+            ]
+          },
+          "body": {
+            "text": "By boat",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:lilla-gassholmen"
+            ]
+          }
+        },
+        "leder": {
+          "title": {
+            "text": "Routes",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:lilla-gassholmen"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:lilla-gassholmen"
+            ]
+          }
+        }
+      },
+      "routes": {
+        "lilla-gassholmen-led-1": {
+          "description": {
+            "text": "Hardest at the start along the water. Climb Bakis i Vasastan, then traverse right along the crack.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:lilla-gassholmen"
+            ]
+          }
+        },
+        "lilla-gassholmen-led-3": {
+          "description": {
+            "text": "Start up Fiskmåsen, then traverse left just below the crack.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:lilla-gassholmen"
+            ]
+          }
+        },
+        "lilla-gassholmen-led-4": {
+          "description": {
+            "text": "Starts in the right-hand of two thin cracks. The water is one canoe paddle deep: 2–2.2m. Bear in mind that I am unsure how a fall from high up would end./Tobias August 2009",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:lilla-gassholmen"
+            ]
+          }
+        }
+      }
+    }
   }
 }

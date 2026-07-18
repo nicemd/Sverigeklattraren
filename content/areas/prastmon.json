@@ -28,5 +28,19 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "At Prästmon, just north of Kramfors, there are said to be a large number of routes.",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:prastmon"
+        ]
+      },
+      "sections": {},
+      "routes": {}
+    }
   }
 }

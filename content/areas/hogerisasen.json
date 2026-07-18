@@ -139,5 +139,115 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "A crag just over 200 metres long, divided into several sections. It will never be another Hykieberg, but there is still plenty to discover for new-route enthusiasts.\n\nNearby are also Kringelrisåsen and Fisklöskölen, with potential for a number of routes.",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:hogerisasen"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "General information",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hogerisasen"
+            ]
+          },
+          "body": {
+            "text": "A crag just over 200 metres long, divided into several sections. It will never become another Hykieberg, but there is still plenty to discover for new-route enthusiasts.\n\nNearby Kringelrisåsen and Fisklöskölen also have potential for a number of routes.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hogerisasen"
+            ]
+          }
+        },
+        "vagbeskrivning": {
+          "title": {
+            "text": "Directions",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hogerisasen"
+            ]
+          },
+          "body": {
+            "text": "Directions when travelling north on Route 71:\n\n1.7 km after Dala-Järna, turn right towards Skålö. At 3.4 km from the main road, turn right towards Vålbergsvägen and Fisklösskölen. Follow Hulnvägen and the signs towards Fisklöskölen for 10 km, then turn left. After another 2 km, turn left again. Continue to the sign for Kringelrisåsen and park there. Walk into the forest on the same side as the sign, but 50–100 metres further on. If you have entered the forest at the right place, you will pass a small clearing with large, pale boulders. Continue for about 500 metres and you should see the crag.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hogerisasen"
+            ]
+          }
+        },
+        "leder": {
+          "title": {
+            "text": "Routes",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hogerisasen"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hogerisasen"
+            ]
+          }
+        }
+      },
+      "routes": {
+        "hogerisasen-led-1": {
+          "description": {
+            "text": "Lovely varied climbing with good protection. Starts 10 m left of Det rosa bandet.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hogerisasen"
+            ]
+          }
+        },
+        "hogerisasen-led-2": {
+          "description": {
+            "text": "Lovely climbing, but with a completely unprotected 10 m section in the middle. Follows a distinct pink streak in the middle of the main wall.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hogerisasen"
+            ]
+          }
+        },
+        "hogerisasen-led-3": {
+          "description": {
+            "text": "Partially cleaned but not climbed due to poor protection. Starts 5 m right of Det rosa bandet.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hogerisasen"
+            ]
+          }
+        },
+        "hogerisasen-led-4": {
+          "description": {
+            "text": "Short but lovely crack line. The route is at the far right-hand end of the crag.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hogerisasen"
+            ]
+          }
+        }
+      }
+    }
   }
 }

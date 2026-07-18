@@ -54,5 +54,74 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "Fruberget offers walls, caves and boulders of exceptionally fine rock quality. The area currently has some of Sweden’s longest and steepest problems. Its position on the hillside near the sea keeps it cool in summer and provides a unique setting. Fruberget is divided into four sectors: “Fat Cat”, “Lilla grottan & v-väggen”, “Lätta väggen” and “Stora grottan”.",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:fruberget-vastervik"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "Overview",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:fruberget-vastervik"
+            ]
+          },
+          "body": {
+            "text": "Fruberget offers walls, caves and boulders with exceptionally fine rock. The area currently has some of Sweden’s longest and steepest problems. Its location on the hillside near the sea keeps it cool in summer and provides a unique setting. Fruberget is divided into four sectors: “Fat Cat”, “Lilla grottan & v-väggen”, “Lätta väggen” and “Stora grottan”.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:fruberget-vastervik"
+            ]
+          }
+        },
+        "vagbeskrivning": {
+          "title": {
+            "text": "Directions",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:fruberget-vastervik"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:fruberget-vastervik"
+            ]
+          }
+        },
+        "extern-forare": {
+          "title": {
+            "text": "External guide",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:fruberget-vastervik"
+            ]
+          },
+          "body": {
+            "text": "http://www.vastervikclimbing.se/klattercentret/pdfer/",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:fruberget-vastervik"
+            ]
+          }
+        }
+      },
+      "routes": {}
+    }
   }
 }

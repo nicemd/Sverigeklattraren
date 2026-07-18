@@ -160,5 +160,145 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "Falkberget lies about 20 km east of Hudiksvall, on the way to Hornslandet.",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:falkberget-halsingland"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "Overview",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:falkberget-halsingland"
+            ]
+          },
+          "body": {
+            "text": "Falkberget lies about 20 km east of Hudiksvall, on the way to Hornslandet.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:falkberget-halsingland"
+            ]
+          }
+        },
+        "kommunikationer": {
+          "title": {
+            "text": "Access",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:falkberget-halsingland"
+            ]
+          },
+          "body": {
+            "text": "By car: heading towards Hornslandet, pass through the village of Rogsta. About 4 km beyond Rogsta, there is a road sign reading \"STENSÖ 7\". Turn towards Stensö and continue for 1 km. Turn left onto a slightly rougher road and follow it for 1 km to a tractor track on the right. Park on the tractor track and follow it to its end. Turn right and walk straight uphill through the woods for about 100 m to the crag.\n\nApproximate GPS coordinates: Lat: N 61º 45' 56.89\" Long: E 17º 17' 2.18\"",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:falkberget-halsingland"
+            ]
+          }
+        },
+        "klippan": {
+          "title": {
+            "text": "The crag",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:falkberget-halsingland"
+            ]
+          },
+          "body": {
+            "text": "The crag is a few hundred metres wide and about 10 m high at its highest point. It is generally steep and well featured with cracks, although a little loose in places, offering potential for several routes.\n\nSlightly loose rock with opportunities for new routes.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:falkberget-halsingland"
+            ]
+          }
+        }
+      },
+      "routes": {
+        "falkberget-halsingland-led-1": {
+          "description": {
+            "text": "Starts in the crack beneath the roof, which is followed onto a slab before moving back onto the wall.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:falkberget-halsingland"
+            ]
+          }
+        },
+        "falkberget-halsingland-led-2": {
+          "description": {
+            "text": "Follow the obvious flake up to the roof, then make a rising traverse across the slab to the top. Good.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:falkberget-halsingland"
+            ]
+          }
+        },
+        "falkberget-halsingland-led-3": {
+          "description": {
+            "text": "The obvious crack 2 m right of Indianen. Strenuous and sustained climbing.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:falkberget-halsingland"
+            ]
+          }
+        },
+        "falkberget-halsingland-led-4": {
+          "description": {
+            "text": "Another obvious crack, which gradually thins out and disappears. Then traverse left to another crack that begins there.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:falkberget-halsingland"
+            ]
+          }
+        },
+        "falkberget-halsingland-led-5": {
+          "description": {
+            "text": "Has it ever been climbed?",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:falkberget-halsingland"
+            ]
+          }
+        },
+        "falkberget-halsingland-led-6": {
+          "description": {
+            "text": "Starts in a corner and continues by the obvious flake, which is followed to the top.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:falkberget-halsingland"
+            ]
+          }
+        },
+        "falkberget-halsingland-led-7": {
+          "description": {
+            "text": "Free ascent: André and Fredrik Bergström, 1991. Follows an obvious corner left of Apachesprickan.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:falkberget-halsingland"
+            ]
+          }
+        }
+      }
+    }
   }
 }

@@ -58,5 +58,56 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "Take the bus from Brommaplan towards Ekerö and get off at Nockeby. From the bus stop, follow the road downhill beside Nockebybron. Alternatively, take the tram from Alvik to Nockeby, about 14 minutes. Continue towards the church and take the steps down behind/in front of? the church to reach Tyska bottens väg by the end of the bridge.\n\nJust to the right below Nockebybron is a grocery shop (currently Tempo). Continue along Tyska bottens väg, which runs to the right past Tempo, for about 60 metres to the junction of Utflyktsvägen and Tyska bottens väg. The wall is up to the right in the woods, beside the path.\n\nThe crag is about 4–5 metres high and 25 metres long, with some good problems. There is a superb mantle, though it is covered in pine needles. The climbing ranges from jugs to blank faces with few holds.",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:nockeby"
+        ]
+      },
+      "sections": {
+        "vagbeskrivning": {
+          "title": {
+            "text": "Directions",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:nockeby"
+            ]
+          },
+          "body": {
+            "text": "Take a bus from Brommaplan towards Ekerö and get off at Nockeby. From the bus stop, follow the road downhill beside Nockebybron. Alternatively, take the light railway from Alvik to Nockeby, about 14 minutes, continue towards the church and take the steps down behind/in front of? the church to reach Tyska bottens väg by the bridge abutment.\n\nJust below and to the right of Nockebybron is a grocery shop (currently Tempo). Continue along the road (Tyska bottens väg), which runs right past Tempo, for about 60 metres to the Utflyktsvägen–Tyska bottens väg junction. The wall is up to the right in the woods, beside the path.\n\nThe crag is about 4–5 metres high and 25 metres long, with some nice problems. There is a wonderful but pine-needle-covered mantle. Everything from jugs to smooth faces with few holds.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:nockeby"
+            ]
+          }
+        },
+        "problem": {
+          "title": {
+            "text": "Problems",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:nockeby"
+            ]
+          },
+          "body": {
+            "text": "From the left:\n\n- Traverse (on the low wall left of the picture)\n\n- Delicate problem, ~6a to the triangular jug, furthest left on the wall left of the chimney\n\n- Variations to the ledge in the middle of the wall left of the chimney.\n\n- The chimney.\n\n- Arête, 7a. Sit start on the red overhanging pillar\n\n- Brizmolizer 7b. Start at the bottom of the arete with your left hand on a sidepull and your right hand on the ledge beneath the arete. Follow the arete to the top!!!\n\n- New 7B, start with both hands on the large handhold low down on Brizmolizer; adds a whole new variant – a bit harder than the above but nice!\n\n- Buttmans Best, ~6A. Sit start from the very lowest holds\n\n- Super Fly, 7b, sit start 3 m right of the chimney, Jimmy Paladino.\n\n- Rune hann först, 5+, right hand on the undercling, left hand on the sidepull. Straight up via good holds to a sloper at the finish. Rune Andersson.\n\n- Crimpmonstret, 7b, sit start on crimps left of Gräv Djupt, joining that problem with the same finish, Fredrik Malmros.\n\n- Crimp är för tjejer, 7a+. Sit start, left hand on a crimp, right hand on a sidepull in the thin crack. Björn Pohl\n\n- Gräv Djupt, 6a+, start on the sloper, then follow the obvious crack/feature to the top, JP.\n\nOther: - sit start/low traverse around the corner right of Gräv djupt. Project/done?\n\n- (yes, and then there is the mantle, location unknown)\n\n- Buttmans Best, ~6A. Sit start from the very lowest holds. Did a fun little sit start. On a triangular block (beside what I think is the Brizmoliser block), about 30 m west of the large block with DiF graffiti, in the area at the end of Gustav III´s väg in Nockeby.\n\n- Vertical wall 10 m to the right.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:nockeby"
+            ]
+          }
+        }
+      },
+      "routes": {}
+    }
   }
 }

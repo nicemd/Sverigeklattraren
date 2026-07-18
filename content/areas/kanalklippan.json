@@ -291,5 +291,181 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "High blasted rock face with a few good routes.",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:kanalklippan"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "General",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:kanalklippan"
+            ]
+          },
+          "body": {
+            "text": "A high blasted-rock crag with a few fine routes.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:kanalklippan"
+            ]
+          }
+        },
+        "karaktar": {
+          "title": {
+            "text": "Character",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:kanalklippan"
+            ]
+          },
+          "body": {
+            "text": "The crag faces west. The sun reaches the crag before disappearing behind the buildings on the other side of the canal later in the evening. It dries quickly after rain, however.\n\nThe crag is characterised by its many sharp edges. The holds are unusual, tending to be sidepulls or small ledge-like holds (easy to slip off when stepping up – balance required!). This can make the routes feel different from typical Stockholm routes, with movement perhaps more commonly found at somewhat higher grades. The routes are educational for climbers with less well-developed footwork. Most routes are in the 6 grades. On some routes, the first bolt may be a little higher than the climber would like at first glance. Get a spot! It immediately feels better. In places, the quayside can be quite narrow, making it easy for the end of the rope to end up in the water. Pulling the rope down quickly is recommended to avoid a rope dip as far as possible.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:kanalklippan"
+            ]
+          }
+        },
+        "vagbeskrivning": {
+          "title": {
+            "text": "Approach",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:kanalklippan"
+            ]
+          },
+          "body": {
+            "text": "A blasted-rock crag at Danvikstull. Cross Danvikstullsbron towards Nacka and turn right at the traffic lights. Drive up the hill and park by the houses. Take the steps down towards the water. All routes are bolted and have anchors. Close to the popular Boule & Berså, where you can enjoy Czech beer and good music after climbing (bring cash; they do not take cards). There is a basic pizzeria on Klippan. The remains of a windmill are directly where you climb up. More information at http://www.danviksklippan.se\n\nRoutes 4, 7 and 13 received new/restored anchors in December 2007.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:kanalklippan"
+            ]
+          }
+        },
+        "skiss": {
+          "title": {
+            "text": "Topo",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:kanalklippan"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:kanalklippan"
+            ]
+          }
+        },
+        "leder": {
+          "title": {
+            "text": "Routes",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:kanalklippan"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:kanalklippan"
+            ]
+          }
+        }
+      },
+      "routes": {
+        "kanalklippan-led-4": {
+          "description": {
+            "text": "Received a new/restored anchor in Dec 2007.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:kanalklippan"
+            ]
+          }
+        },
+        "kanalklippan-led-5": {
+          "description": {
+            "text": "The route in the middle of the crag, with a distinct crux in the overhanging section.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:kanalklippan"
+            ]
+          }
+        },
+        "kanalklippan-led-6": {
+          "description": {
+            "text": "A fine, technical route. Either continue all the way to the top (7-) or lower off from the glue-in bolts on Patrik Agerkrans's route. A top-rope anchor can be built using a long sling to reach the bolts on PA's route.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:kanalklippan"
+            ]
+          }
+        },
+        "kanalklippan-led-7": {
+          "description": {
+            "text": "A long, well-bolted and varied route. The second bolt cannot be seen from the ground, so don't despair—the start is not as dangerous as it looks. Received a new/restored anchor in Dec 2007. One ring and one carabiner as the anchor (10 July 2008).",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:kanalklippan"
+            ]
+          }
+        },
+        "kanalklippan-led-9": {
+          "description": {
+            "text": "Finishes halfway up the wall at a two-bolt anchor.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:kanalklippan"
+            ]
+          }
+        },
+        "kanalklippan-led-11": {
+          "description": {
+            "text": "A well-bolted route with a good anchor.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:kanalklippan"
+            ]
+          }
+        },
+        "kanalklippan-led-13": {
+          "description": {
+            "text": "A nice overhang at the finish! Received a new/restored anchor in Dec 2007.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:kanalklippan"
+            ]
+          }
+        }
+      }
+    }
   }
 }

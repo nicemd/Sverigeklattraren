@@ -132,5 +132,80 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "=General= A boulder developed by le Sydd. No real potential for further development in the area, but worth a visit if only to try Neftertiti ss, repeated just once? =Directions= Located at the bottom of Gottsundagipen; easiest to get here by bike. =Problems=",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:gottsunda-bimbo"
+        ]
+      },
+      "sections": {},
+      "routes": {
+        "gottsunda-bimbo-problem-1": {
+          "description": {
+            "text": "The fine arete. Sit start at the large hold.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gottsunda-bimbo"
+            ]
+          }
+        },
+        "gottsunda-bimbo-problem-2": {
+          "description": {
+            "text": "On the back, straight up from the crack to slopers and crimps.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gottsunda-bimbo"
+            ]
+          }
+        },
+        "gottsunda-bimbo-problem-3": {
+          "description": {
+            "text": "Start with both hands on the large undercling.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gottsunda-bimbo"
+            ]
+          }
+        },
+        "gottsunda-bimbo-problem-4": {
+          "description": {
+            "text": "Sit start on the large underclings. Straight up left of \"Men du'rå!\". The best problem on the boulder.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gottsunda-bimbo"
+            ]
+          }
+        },
+        "gottsunda-bimbo-problem-5": {
+          "description": {
+            "text": "Start as for Neftertiti ss and climb straight up using holds in the cracks, without using the holds left of the arete (a couple of sidepulls and the sloper pinch).",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gottsunda-bimbo"
+            ]
+          }
+        },
+        "gottsunda-bimbo-problem-6": {
+          "description": {
+            "text": "Along Valthornsvägen. Start with your right hand on the \"fingernail crimp\" and your left hand on the lower of the two slightly larger crimps. Then cruise up past crimps and jugs. Also done using only the left or right hand.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gottsunda-bimbo"
+            ]
+          }
+        }
+      }
+    }
   }
 }

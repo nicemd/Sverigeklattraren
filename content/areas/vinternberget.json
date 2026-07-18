@@ -34,5 +34,38 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "0 documented routes and problems.",
+        "method": "llm",
+        "model": "gpt-4o-mini",
+        "sourceIds": [
+          "legacy:vinternberget"
+        ]
+      },
+      "sections": {
+        "access": {
+          "title": {
+            "text": "Access",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:vinternberget"
+            ]
+          },
+          "body": {
+            "text": "There have previously been issues with incorrectly parked cars at Vinternberget, which has annoyed local residents and landowners. Please adhere to the information on the sign put up by Bohusläns Climbing Club and park as instructed. This area is a sensitive nesting site and climbing should be avoided until 15th July. Even being below and on top of the cliff may cause disturbance. Warning raptors indicate that you are causing a disturbance. Keep a low profile. Disturbing nesting raptors is illegal. Help avoid a formal access ban by following these guidelines.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:vinternberget"
+            ]
+          }
+        }
+      },
+      "routes": {}
+    }
   }
 }

@@ -44,5 +44,74 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "Opposite the entrance to Buskvallen ski resort in Tänndalen, there is an information board and parking for Hamrafjället Nature Reserve. The icefall can be seen up to the right above the forest. Head towards it and plough through the snow in the forest for about 1 km.",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:hamrafjallet"
+        ]
+      },
+      "sections": {
+        "vagbeskrivning": {
+          "title": {
+            "text": "Directions",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hamrafjallet"
+            ]
+          },
+          "body": {
+            "text": "Opposite the entrance to Buskvallen ski resort in Tänndalen, there is an information board and parking for Hamrafjället Nature Reserve. The ice can be seen up to the right above the forest. Head towards it and slog through the snow-covered forest for about 1 km.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hamrafjallet"
+            ]
+          }
+        },
+        "klattringen": {
+          "title": {
+            "text": "The climbing",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hamrafjallet"
+            ]
+          },
+          "body": {
+            "text": "A large ice pillar, 15 metres high, with several smaller ice boulders to its left. There is not much to climb, but the option of climbing into a cave halfway up and following it to the top (not for the claustrophobic) may make the snowy approach worthwhile.\n\nFirst ascent: Jon Wagenius, Oskar Stenström, Ted Ekberg Jan-07",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hamrafjallet"
+            ]
+          }
+        },
+        "access": {
+          "title": {
+            "text": "Access",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hamrafjallet"
+            ]
+          },
+          "body": {
+            "text": "Hamrafjället is a nature reserve, and climbing is not prohibited within the reserve. It would probably not be difficult for a ban to be introduced, however, so keep to the ice, as the fairly loose rock is easily damaged by axes and crampons.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hamrafjallet"
+            ]
+          }
+        }
+      },
+      "routes": {}
+    }
   }
 }

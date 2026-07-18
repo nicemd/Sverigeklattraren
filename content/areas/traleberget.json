@@ -463,5 +463,121 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "Mostly adding the rock here for access information.",
+        "method": "llm",
+        "model": "gpt-4o-mini",
+        "sourceIds": [
+          "legacy:traleberget"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "General",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:traleberget"
+            ]
+          },
+          "body": {
+            "text": "Mostly provides the cliff access information.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:traleberget"
+            ]
+          }
+        },
+        "vagbeskrivning": {
+          "title": {
+            "text": "Directions",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:traleberget"
+            ]
+          },
+          "body": {
+            "text": "Take the ferry across Gullmarschfjorden. Once you arrive, turn left towards Lysekil, then turn left at a small yellow sign \"Träleberget\". Parking is available at Trellebystrand camping (costs 20 SEK).",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:traleberget"
+            ]
+          }
+        },
+        "access": {
+          "title": {
+            "text": "Access",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:traleberget"
+            ]
+          },
+          "body": {
+            "text": "Currently, climbing on the cliff is not recommended as climbers are suspected to have scared away a Great Horned Owl. More info: http://klatterforum.forum24.se/klatterforum-post-261.html",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:traleberget"
+            ]
+          }
+        },
+        "traleberget": {
+          "title": {
+            "text": "Träleberget",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:traleberget"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:traleberget"
+            ]
+          }
+        },
+        "trellebystrand-camping": {
+          "title": {
+            "text": "Trellebystrand Camping",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:traleberget"
+            ]
+          },
+          "body": {
+            "text": "There are currently 7 routes, along with some top-rope lines. The routes are an attempt to attract more guests to Trellebystrand camping.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:traleberget"
+            ]
+          }
+        }
+      },
+      "routes": {
+        "traleberget-led-1": {
+          "description": {
+            "text": "Climb the left side of the crag.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:traleberget"
+            ]
+          }
+        }
+      }
+    }
   }
 }

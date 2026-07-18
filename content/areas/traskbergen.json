@@ -1717,5 +1717,493 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "Idyllic crags, surprisingly secluded despite their location, offering beautiful views over Ällmora swamp. Vox Populi wall is a mecca for the 7c climber, and Sahara wall is probably one of Stockholm's warmest spring crags.",
+        "method": "llm",
+        "model": "gpt-4o-mini",
+        "sourceIds": [
+          "legacy:traskbergen"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "General",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:traskbergen"
+            ]
+          },
+          "body": {
+            "text": "Picturesquely located crags, surprisingly secluded given their location, with beautiful views over Ällmora Träsk. The Vox Populi Wall is a haven for 7c climbers, and the Sahara Wall is arguably one of Stockholm's warmest spring crags.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:traskbergen"
+            ]
+          }
+        },
+        "beskrivning": {
+          "title": {
+            "text": "Description",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:traskbergen"
+            ]
+          },
+          "body": {
+            "text": "The crag is very compact with the exception of the Sump Wall, lacking larger formations. Most older routes can be protected with small to medium-sized nuts. The newer routes contain a varying amount of fixed gear. The rock is almost entirely shaded by trees, which means it takes a couple of days in spring to dry out. However, the large slab dries very quickly.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:traskbergen"
+            ]
+          }
+        },
+        "miljo": {
+          "title": {
+            "text": "Environment",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:traskbergen"
+            ]
+          },
+          "body": {
+            "text": "Southwest, Stora Träskberget is open to the sun, while Lilla Träskberget, the Overhanging Wall, and the Sump Wall are relatively shady yet have clean rock. Lilla Träskberget tends to get overgrown with fallen needles!",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:traskbergen"
+            ]
+          }
+        },
+        "vagbeskrivning": {
+          "title": {
+            "text": "Directions",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:traskbergen"
+            ]
+          },
+          "body": {
+            "text": "Drive along Breviksvägen, turn right onto Ällmoravägen, then left onto Stubvretsvägen. When the road takes a sharp left, continue straight onto a short gravel road. Park where the road ends. NOTE! This parking is no longer available! Park either down at one of the parking lots by Breviksmaren (the marina) or at the public parking opposite Tyresö Snickeri & Bygg (the old shop) just as you reach Brevik.\n\nFollow the path into the woods for 20m and then head up the hill continuing in the same direction until you see the swamp. You can't miss the 30m high slab of Stora Träskberget. If you continue north for about 200m, the mountain ends with a steep 15m high slab wall; this is Lilla Träskberget.\n\nTo reach the Sahara Wall, walk back about 100m from the parking until you see a 10m wide strip of forest between two properties on the left (southwest) side. Take the path that goes through the thicket along the fence. When the path forks, take the right path and you will see the overhanging Sahara Wall on the right side up on a plateau. If you now walk left along the lake, you will reach the other walls.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:traskbergen"
+            ]
+          }
+        },
+        "kommunikationer": {
+          "title": {
+            "text": "Transport:",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:traskbergen"
+            ]
+          },
+          "body": {
+            "text": "Take bus 816 or 817 from Gullmarsplan to Mossvägen (the end station for 816). Follow the path through the wooded area south of the road and out onto the road on the other side. Follow this west until it turns into a path after a few hundred meters. From there, proceed as above.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:traskbergen"
+            ]
+          }
+        },
+        "leder": {
+          "title": {
+            "text": "Routes",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:traskbergen"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:traskbergen"
+            ]
+          }
+        },
+        "sahara-vaggen": {
+          "title": {
+            "text": "Sahara Wall",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:traskbergen"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:traskbergen"
+            ]
+          }
+        },
+        "lilla-traskberget": {
+          "title": {
+            "text": "Lilla Träskberget",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:traskbergen"
+            ]
+          },
+          "body": {
+            "text": "This relatively small crag offers thin routes on compact rock. Many of the routes have become overgrown due to little traffic and abundant needles. However, it does contain a couple of classics. Leave your gear at the top of the crag and descend via a small gully to the right (facing outwards) of the rock.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:traskbergen"
+            ]
+          }
+        },
+        "greenpeace-vaggen": {
+          "title": {
+            "text": "Greenpeace Wall",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:traskbergen"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:traskbergen"
+            ]
+          }
+        },
+        "d-evenin-vaggen": {
+          "title": {
+            "text": "D’evenin’ Wall",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:traskbergen"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:traskbergen"
+            ]
+          }
+        },
+        "overhangande-vaggen": {
+          "title": {
+            "text": "Overhanging Wall",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:traskbergen"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:traskbergen"
+            ]
+          }
+        },
+        "stora-traskberget": {
+          "title": {
+            "text": "Stora Träskberget",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:traskbergen"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:traskbergen"
+            ]
+          }
+        },
+        "sumpvaggen": {
+          "title": {
+            "text": "Sump Wall",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:traskbergen"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:traskbergen"
+            ]
+          }
+        },
+        "vox-populi-vaggen": {
+          "title": {
+            "text": "Vox Populi Wall",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:traskbergen"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:traskbergen"
+            ]
+          }
+        }
+      },
+      "routes": {
+        "traskbergen-led-1": {
+          "description": {
+            "text": "Travels diagonally left. Finishes on an edge.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:traskbergen"
+            ]
+          }
+        },
+        "traskbergen-led-3": {
+          "description": {
+            "text": "The first bolt is a bit awkward. Fun finish.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:traskbergen"
+            ]
+          }
+        },
+        "traskbergen-led-7": {
+          "description": {
+            "text": "The main line of the cliff. Goes up the middle of the wall with an overhang of 30-40 degrees. Distinct crux, but don’t think it’s over until you’re over the edge!",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:traskbergen"
+            ]
+          }
+        },
+        "traskbergen-led-8": {
+          "description": {
+            "text": "Starts in the corner.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:traskbergen"
+            ]
+          }
+        },
+        "traskbergen-led-9": {
+          "description": {
+            "text": "Don’t think you’re anything...",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:traskbergen"
+            ]
+          }
+        },
+        "traskbergen-led-10": {
+          "description": {
+            "text": "Short.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:traskbergen"
+            ]
+          }
+        },
+        "traskbergen-led-13": {
+          "description": {
+            "text": "Climbing-wise, it's similar to the adjacent Moby Dick, but a fall here could land you in A&E or worse. High risk of ground fall if you’re not stable at the grade!",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:traskbergen"
+            ]
+          }
+        },
+        "traskbergen-led-14": {
+          "description": {
+            "text": "This is a nice route with decent (small) gear. Not very modern in its layout, but an old classic in its execution!",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:traskbergen"
+            ]
+          }
+        },
+        "traskbergen-led-15": {
+          "description": {
+            "text": "Nice crack with good protection.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:traskbergen"
+            ]
+          }
+        },
+        "traskbergen-led-19": {
+          "description": {
+            "text": "Sparsely protected climbing.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:traskbergen"
+            ]
+          }
+        },
+        "traskbergen-led-20": {
+          "description": {
+            "text": "Sadly overgrown. Hardly climbable in its current state.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:traskbergen"
+            ]
+          }
+        },
+        "traskbergen-led-26": {
+          "description": {
+            "text": "Nice varied climbing. Starts directly left of Sonny's...",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:traskbergen"
+            ]
+          }
+        },
+        "traskbergen-led-27": {
+          "description": {
+            "text": "Nice crack climbing.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:traskbergen"
+            ]
+          }
+        },
+        "traskbergen-led-28": {
+          "description": {
+            "text": "Good climbing but with sad bolts. Probably needs a scrub (or two) to be truly enjoyable.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:traskbergen"
+            ]
+          }
+        },
+        "traskbergen-led-30": {
+          "description": {
+            "text": "Straight up the middle of the wall, past one piton and two bolts. The start is unprotected.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:traskbergen"
+            ]
+          }
+        },
+        "traskbergen-led-31": {
+          "description": {
+            "text": "Long, nice, and not too scary crack. Starts in the right-leaning crack that has a few small pines in it. Up to just below the small pine in the crack, traverse left to the 'loose' block and follow the crack to the top.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:traskbergen"
+            ]
+          }
+        },
+        "traskbergen-led-32": {
+          "description": {
+            "text": "Direct start to D'evenin' showah. Starts on the left side of the slab. Straight up all the way.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:traskbergen"
+            ]
+          }
+        },
+        "traskbergen-led-57": {
+          "description": {
+            "text": "Looks to have lost a hold over the winter. A jug start is now a poor crimp, making the route a bit harder.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:traskbergen"
+            ]
+          }
+        },
+        "traskbergen-led-69": {
+          "description": {
+            "text": "Very dirty, moss on holds and poorly protected. (Spring -08)",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:traskbergen"
+            ]
+          }
+        },
+        "traskbergen-led-80": {
+          "description": {
+            "text": "Long moves between big holds.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:traskbergen"
+            ]
+          }
+        },
+        "traskbergen-led-82": {
+          "description": {
+            "text": "Straight up from the start on Vox Populi.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:traskbergen"
+            ]
+          }
+        },
+        "traskbergen-led-84": {
+          "description": {
+            "text": "Some holds have come off.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:traskbergen"
+            ]
+          }
+        }
+      }
+    }
   }
 }

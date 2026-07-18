@@ -45,5 +45,56 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "Uvaberget/Norra Hunna.\n\nNorth-facing crag with coniferous forest below, offering a nice view over the valley from the top. Status 2013: All routes are mossy and no one has climbed here in recent years.",
+        "method": "llm",
+        "model": "gpt-4o-mini",
+        "sourceIds": [
+          "legacy:uvaberget"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "General",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:uvaberget"
+            ]
+          },
+          "body": {
+            "text": "Uvaberget/Norra Hunna.\n\nNorth-facing crag with coniferous forest in front, offering a nice view over the fields from the top. Status 2013: All routes are overgrown and no one has climbed here in recent years.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:uvaberget"
+            ]
+          }
+        },
+        "beskrivning": {
+          "title": {
+            "text": "Description",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:uvaberget"
+            ]
+          },
+          "body": {
+            "text": "Read more here (http://www.orebroklatterklubb.com/)\n\nAlternative parking south of the mountain at a larger gathering spot in the bend, 300 metres east of Södra Hunna (700 metres west of Brona). A path through the wooded area between the fields leads north to the mountain, a 450-metre walk.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:uvaberget"
+            ]
+          }
+        }
+      },
+      "routes": {}
+    }
   }
 }

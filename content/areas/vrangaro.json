@@ -143,5 +143,151 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "Continue past Häller for about 1km. You'll pass a field on your left and a hill will come into view on your right. Park at the foot of the hill next to a small grassy area. Cross directly over the hill through the dip. The rock face facing the water will appear to your left.",
+        "method": "llm",
+        "model": "gpt-4o-mini",
+        "sourceIds": [
+          "legacy:vrangaro"
+        ]
+      },
+      "sections": {
+        "introduktion": {
+          "title": {
+            "text": "Introduction",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:vrangaro"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:vrangaro"
+            ]
+          }
+        },
+        "karaktar": {
+          "title": {
+            "text": "Character",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:vrangaro"
+            ]
+          },
+          "body": {
+            "text": "A 40m high crag with its own beach. Two lowering anchors at the top.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:vrangaro"
+            ]
+          }
+        },
+        "vagbeskrivning": {
+          "title": {
+            "text": "Access Directions",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:vrangaro"
+            ]
+          },
+          "body": {
+            "text": "Continue past Häller for about 1km. You'll pass a field, and water will be on your right as a hill comes into view. Park at the right foot of the hill at a small grassy area. Walk straight over the hill into the dip. The crag facing the water appears to the left.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:vrangaro"
+            ]
+          }
+        },
+        "access": {
+          "title": {
+            "text": "Access",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:vrangaro"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:vrangaro"
+            ]
+          }
+        },
+        "leder": {
+          "title": {
+            "text": "Routes",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:vrangaro"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:vrangaro"
+            ]
+          }
+        }
+      },
+      "routes": {
+        "vrangaro-led-1": {
+          "description": {
+            "text": "Cracks and dihedrals through black rock. One bolt.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:vrangaro"
+            ]
+          }
+        },
+        "vrangaro-led-2": {
+          "description": {
+            "text": "Starts in the crack west of the large slab. Heavy crack and dihedral climbing up to a ledge. Traverse right 4m beneath a small roof. Four bolted anchors.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:vrangaro"
+            ]
+          }
+        },
+        "vrangaro-led-3": {
+          "description": {
+            "text": "Starts at the slab. Thin, hard and strenuous.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:vrangaro"
+            ]
+          }
+        },
+        "vrangaro-led-4": {
+          "description": {
+            "text": "Long line to the right of Little Yosemite, starting in a roof. Five bolts complemented by a good selection of nuts and friends. The rock quality is typically high for the area.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:vrangaro"
+            ]
+          }
+        }
+      }
+    }
   }
 }

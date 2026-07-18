@@ -56,5 +56,74 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "Currently, a boulder known as Superägget. Located in Mangskog a couple of miles outside Arvika towards Karlstad. Not far from Gylterud, which is also marked on the map.",
+        "method": "llm",
+        "model": "gpt-4o-mini",
+        "sourceIds": [
+          "legacy:amot"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "General",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:amot"
+            ]
+          },
+          "body": {
+            "text": "Currently, there is a block known as Superägget. Located near Mangskog a few miles outside Arvika towards Karlstad. Not far from Gylterud, which is also marked on the map.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:amot"
+            ]
+          }
+        },
+        "vagbeskrivning": {
+          "title": {
+            "text": "Directions",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:amot"
+            ]
+          },
+          "body": {
+            "text": "See the map for directions.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:amot"
+            ]
+          }
+        },
+        "arvika-boulderforare": {
+          "title": {
+            "text": "Arvika Bouldering Guide",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:amot"
+            ]
+          },
+          "body": {
+            "text": "This site can be found in the Arvika Bouldering Guide created at www.27crags.com. See the following link for photos and additional description of the area... http://27crags.com/crags/amot (http://27crags.com/crags/amot)",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:amot"
+            ]
+          }
+        }
+      },
+      "routes": {}
+    }
   }
 }

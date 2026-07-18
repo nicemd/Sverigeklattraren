@@ -212,5 +212,171 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "A fairly large, neglected crag with several inviting cracks. Setting up top-ropes is difficult, as getting round to the top is awkward.",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:slatta-damm"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "Overview",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:slatta-damm"
+            ]
+          },
+          "body": {
+            "text": "A fairly large abandoned crag with several inviting cracks. Setting up top-ropes is difficult, as the walk round is awkward.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:slatta-damm"
+            ]
+          }
+        },
+        "vagbeskrivning": {
+          "title": {
+            "text": "Directions",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:slatta-damm"
+            ]
+          },
+          "body": {
+            "text": "Take Björlandavägen out of town towards Björlanda. Just before a futuristic-looking church (Toleredskyrkan), turn right and find a pay-and-display car park. Enter the woods behind the church and follow the wide footpath. If you take the right route, you will reach the crag after 400 metres.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:slatta-damm"
+            ]
+          }
+        },
+        "kollektivtrafik": {
+          "title": {
+            "text": "Public transport",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:slatta-damm"
+            ]
+          },
+          "body": {
+            "text": "Take a bus to the \"Toleredsgatan\" stop. Walk past the church, Toleredsskolan, a nursery and a couple of blocks of flats. Turn left into the woods behind the blocks of flats and follow an unlit exercise-trail path for about 400 metres. The walk takes no more than five minutes if you take the right route.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:slatta-damm"
+            ]
+          }
+        },
+        "leder": {
+          "title": {
+            "text": "Routes",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:slatta-damm"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:slatta-damm"
+            ]
+          }
+        },
+        "access": {
+          "title": {
+            "text": "Access",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:slatta-damm"
+            ]
+          },
+          "body": {
+            "text": "There is an ancient hillfort above the crag...",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:slatta-damm"
+            ]
+          }
+        }
+      },
+      "routes": {
+        "slatta-damm-led-1": {
+          "description": {
+            "text": "Easy ground to the top, somewhat mossy.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:slatta-damm"
+            ]
+          }
+        },
+        "slatta-damm-led-2": {
+          "description": {
+            "text": "Sustained, well-protected crack climbing.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:slatta-damm"
+            ]
+          }
+        },
+        "slatta-damm-led-5": {
+          "description": {
+            "text": "The first pitch follows Professorn, then takes a different line.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:slatta-damm"
+            ]
+          }
+        },
+        "slatta-damm-led-6": {
+          "description": {
+            "text": "Possibly more awkward than it looks.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:slatta-damm"
+            ]
+          }
+        },
+        "slatta-damm-led-7": {
+          "description": {
+            "text": "A fine, left-leaning hand-jam crack.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:slatta-damm"
+            ]
+          }
+        },
+        "slatta-damm-led-8": {
+          "description": {
+            "text": "Easy climbing up steep ground, then onto a slab.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:slatta-damm"
+            ]
+          }
+        }
+      }
+    }
   }
 }

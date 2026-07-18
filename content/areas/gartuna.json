@@ -54,5 +54,30 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "=Problem=",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:gartuna"
+        ]
+      },
+      "sections": {},
+      "routes": {
+        "gartuna-problem-1": {
+          "description": {
+            "text": "On the boulder closest to Astra. Sit start in the obvious overhang by the horn. Climb straight up on slippery pinches and slopers; easier than it looks.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gartuna"
+            ]
+          }
+        }
+      }
+    }
   }
 }

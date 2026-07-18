@@ -240,5 +240,125 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "Really good routes. All bolted routes have lower-off anchors. Park right by the crag or behind the petrol station.",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:landvetterklippan"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "General",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:landvetterklippan"
+            ]
+          },
+          "body": {
+            "text": "Really good routes. All bolted routes have lower-off anchors. Park right by the crag or behind the petrol station.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:landvetterklippan"
+            ]
+          }
+        },
+        "karta": {
+          "title": {
+            "text": "Map",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:landvetterklippan"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:landvetterklippan"
+            ]
+          }
+        },
+        "leder": {
+          "title": {
+            "text": "Routes",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:landvetterklippan"
+            ]
+          },
+          "body": {
+            "text": "The routes are of good quality. All routes are bolted except Tiggaren från Loussa and Majestix, although several of the routes can be climbed on nuts.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:landvetterklippan"
+            ]
+          }
+        }
+      },
+      "routes": {
+        "landvetterklippan-led-1": {
+          "description": {
+            "text": "The obvious route furthest left.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:landvetterklippan"
+            ]
+          }
+        },
+        "landvetterklippan-led-2": {
+          "description": {
+            "text": "Follows the fine red, left-leaning crack up the wall.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:landvetterklippan"
+            ]
+          }
+        },
+        "landvetterklippan-led-4": {
+          "description": {
+            "text": "The crack on the left side of the arete. It is advisable to clip the bolts to the left of the crack. Fine, and slightly easy for the grade.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:landvetterklippan"
+            ]
+          }
+        },
+        "landvetterklippan-led-5": {
+          "description": {
+            "text": "The route up the centre of the arete.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:landvetterklippan"
+            ]
+          }
+        },
+        "landvetterklippan-led-7": {
+          "description": {
+            "text": "The first bolt is 10 metres up. Goes straight through a birch tree.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:landvetterklippan"
+            ]
+          }
+        }
+      }
+    }
   }
 }

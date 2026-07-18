@@ -107,5 +107,105 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "After taking a closer look at the County Administrative Board of Skåne’s website in August 2010, the author could not find any documents listing a climbing ban at Impan. The left-hand side of the crag should therefore be open for climbing, but heed local signs. The right-hand side (out of shot) suffered a major rockfall several years ago, and climbing there may be best avoided. The climbing crag itself should be well away from the barbastelle bat’s hibernation sites.\n\nImpan vid Gladsax is an old quarry just outside the small village of Gladsax in Österlen. The rock is a sharp type of quartzite unusual in Skåne. Delicate face climbing predominates. The rock is compact and difficult to protect. There are a couple of old bolts on a few routes, but top-roping is recommended. The crag may be suitable for a short visit. There are said to be a couple more routes in addition to those marked in the photo.\n\nImpan and its surroundings are a Natura 2000 site. For more information, search for “Impan” at Länsstyrelsen.se. The Impan area contains an old mine where the rare barbastelle bat hibernates.",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:impan-vid-gladsax"
+        ]
+      },
+      "sections": {
+        "access": {
+          "title": {
+            "text": "Access",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:impan-vid-gladsax"
+            ]
+          },
+          "body": {
+            "text": "id=00 width=500 height=300\n\nNo climbing ban is listed on the County Administrative Board’s website (August 2010). Observe any local signage.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:impan-vid-gladsax"
+            ]
+          }
+        },
+        "allmant": {
+          "title": {
+            "text": "General",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:impan-vid-gladsax"
+            ]
+          },
+          "body": {
+            "text": "After taking a closer look at the County Administrative Board of Skåne’s website in August 2010, the author could not find any documents listing a climbing ban at Impan. The left-hand section of the crag should therefore be open for climbing – observe local signage. The right-hand section (out of shot) suffered a major rockfall several years ago, and climbing there is perhaps best avoided. The climbing crag itself should be well away from the barbastelle bats’ hibernation sites.\n\nImpan vid Gladsax is an old quarry just outside the small village of Gladsax in Österlen. The rock is sharp quartzite, unusual for Skåne. Delicate face climbing predominates. The rock is compact and difficult to protect. There are a couple of old bolts on a few routes, but top-roping is recommended. The crag may be suitable for a short visit. There are said to be another couple of routes in addition to those marked in the photo.\n\nImpan and its surroundings are a Natura 2000 site. For more information, search for \"Impan\" at Länsstyrelsen.se. The Impan area contains an old mine where the rare barbastelle bat hibernates.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:impan-vid-gladsax"
+            ]
+          }
+        },
+        "hitta-hit": {
+          "title": {
+            "text": "Getting there",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:impan-vid-gladsax"
+            ]
+          },
+          "body": {
+            "text": "The crag is visible from Gladsax. Turn onto Juliebergsvägen, then take the gravel road on the left as far as possible. With a little ground clearance, you can drive all the way to the area. Map of the area. (http://www.openstreetmap.org/?lat=55.55914&lon=14.30395&zoom=15&layers=M)",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:impan-vid-gladsax"
+            ]
+          }
+        }
+      },
+      "routes": {
+        "impan-vid-gladsax-led-1": {
+          "description": {
+            "text": "Face climbing on small holds. Two old Petzl bolts mark the line. A steel hammer or similar can be inserted into and tied off in an old bolt hole near the top.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:impan-vid-gladsax"
+            ]
+          }
+        },
+        "impan-vid-gladsax-led-2": {
+          "description": {
+            "text": "From the left edge of the small recess, follow a shallow diagonal crack rightwards.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:impan-vid-gladsax"
+            ]
+          }
+        },
+        "impan-vid-gladsax-led-3": {
+          "description": {
+            "text": "Climb the easy corner. Probably first climbed by scouts in the 1970s.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:impan-vid-gladsax"
+            ]
+          }
+        }
+      }
+    }
   }
 }

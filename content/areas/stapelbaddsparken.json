@@ -70,5 +70,38 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "There are three artificial boulders in Stapelbäddsparken outside Malmö. More information is available on the Stapelbäddsparken website (http://www.stapelbaddsparken.se/parken/climbing.aspx).\n\n• Map (http://maps.google.com/maps?q=55.613668,12.984493&num=1&t=h&sll=55.595268,13.000244&sspn=0.036581,0.043907&ie=UTF8&ll=55.613699,12.984611&spn=0.001648,0.006169&z=18&iwloc=near)",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:stapelbaddsparken"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "General",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:stapelbaddsparken"
+            ]
+          },
+          "body": {
+            "text": "Stapelbäddsparken, just outside Malmö, has three artificial boulders. More information is available on the Stapelbäddsparken website (http://www.stapelbaddsparken.se/parken/climbing.aspx).\n\n• Map (http://maps.google.com/maps?q=55.613668,12.984493&num=1&t=h&sll=55.595268,13.000244&sspn=0.036581,0.043907&ie=UTF8&ll=55.613699,12.984611&spn=0.001648,0.006169&z=18&iwloc=near)",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:stapelbaddsparken"
+            ]
+          }
+        }
+      },
+      "routes": {}
+    }
   }
 }

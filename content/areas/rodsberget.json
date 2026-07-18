@@ -269,5 +269,185 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "The crag is on Åbyfjorden, opposite Sjöhäller. It was developed by Team Granitbiten (http://www.granitbiten.com) in 2007.",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:rodsberget"
+        ]
+      },
+      "sections": {
+        "beskrivning": {
+          "title": {
+            "text": "Description",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:rodsberget"
+            ]
+          },
+          "body": {
+            "text": "The crag is in Åbyfjorden, opposite Sjöhäller. It was developed by Team Granitbiten (http://www.granitbiten.com) in 2007.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:rodsberget"
+            ]
+          }
+        },
+        "vagbeskrivning": {
+          "title": {
+            "text": "Directions",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:rodsberget"
+            ]
+          },
+          "body": {
+            "text": "The crag lies opposite Sjöhäller.\n\nFollow the directions to Sjöhäller. Continue past Häller for about 1 km. After passing a field, with the water on your right, a hill comes into view. Park at the right-hand foot of the hill by a small grassy area. Walk straight across the hill through the dip. The crag overlooking the water appears on the left.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:rodsberget"
+            ]
+          }
+        },
+        "klippan": {
+          "title": {
+            "text": "The crag",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:rodsberget"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:rodsberget"
+            ]
+          }
+        }
+      },
+      "routes": {
+        "rodsberget-led-1": {
+          "description": {
+            "text": "The small roof with the prominent arete, about 15m left of Badkrukan.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:rodsberget"
+            ]
+          }
+        },
+        "rodsberget-led-2": {
+          "description": {
+            "text": "The crack leading up to the small roof.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:rodsberget"
+            ]
+          }
+        },
+        "rodsberget-led-3": {
+          "description": {
+            "text": "Starts two metres left of Badkrukan. Hand-traverse the crack diagonally up left for about 4m, then climb straight up the crack system. Beware the projecting ledge below the traverse.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:rodsberget"
+            ]
+          }
+        },
+        "rodsberget-led-5": {
+          "description": {
+            "text": "The leftmost crack in the large roof. Starts on the arete of the projecting buttress.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:rodsberget"
+            ]
+          }
+        },
+        "rodsberget-led-6": {
+          "description": {
+            "text": "Follows the overhanging arete, then heads left onto the sloping ledge.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:rodsberget"
+            ]
+          }
+        },
+        "rodsberget-led-7": {
+          "description": {
+            "text": "Starts two metres right of Badkrukan. Follow the crack to the top.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:rodsberget"
+            ]
+          }
+        },
+        "rodsberget-led-8": {
+          "description": {
+            "text": "About 10m right of Badkrukan. Follow the corner feature for a short way, then head up left beneath the overhang. Hard.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:rodsberget"
+            ]
+          }
+        },
+        "rodsberget-led-9": {
+          "description": {
+            "text": "About 15m right of Badkrukan. Climb diagonally up right through the middle of the red shield.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:rodsberget"
+            ]
+          }
+        },
+        "rodsberget-led-10": {
+          "description": {
+            "text": "The wide crack running diagonally up right.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:rodsberget"
+            ]
+          }
+        },
+        "rodsberget-led-11": {
+          "description": {
+            "text": "The slanting crack right of Marulk.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:rodsberget"
+            ]
+          }
+        },
+        "rodsberget-led-12": {
+          "description": {
+            "text": "Starts from the mono 2m right of Lutfisk.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:rodsberget"
+            ]
+          }
+        }
+      }
+    }
   }
 }

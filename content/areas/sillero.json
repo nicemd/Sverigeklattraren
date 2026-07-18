@@ -179,5 +179,145 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "A boulder with overhangs, traverses and slab problems. The boulder has potential for more problems, and there are a few smaller boulders nearby that may also offer some projects. Feel free to develop them.",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:sillero"
+        ]
+      },
+      "sections": {
+        "beskrivning": {
+          "title": {
+            "text": "Description",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:sillero"
+            ]
+          },
+          "body": {
+            "text": "A boulder with overhanging, traverse and slab problems. The boulder has potential for more problems, and there are a few smaller boulders nearby that may also have some projects. Feel free to develop them.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:sillero"
+            ]
+          }
+        },
+        "vagbeskrivning": {
+          "title": {
+            "text": "Directions",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:sillero"
+            ]
+          },
+          "body": {
+            "text": "From Route 71 in Yttermalung, take the turn towards Tyngsjö and Sillerö. Once in Sillerö, after a while you will see a mast on your right. Turn onto the road towards the mast. Park on the left-hand side of the road, at the entrance to a forest road.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:sillero"
+            ]
+          }
+        },
+        "problem": {
+          "title": {
+            "text": "Problems",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:sillero"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:sillero"
+            ]
+          }
+        }
+      },
+      "routes": {
+        "sillero-problem-1": {
+          "description": {
+            "text": "Green line. Lower starting holds than the red line. Climb via slopers and edges, with a bit of mantling at the end. If anyone can manage a sit start, the grade will probably go up a little!",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:sillero"
+            ]
+          }
+        },
+        "sillero-problem-2": {
+          "description": {
+            "text": "Red line. Both hands on the good starting hold, then straight up the boulder. Can be sharp on the forearms.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:sillero"
+            ]
+          }
+        },
+        "sillero-problem-3": {
+          "description": {
+            "text": "Blue line. Same starting holds as the green line; the blue line is drawn incorrectly and should start further left. Traverse right via a small lip. A long reach or slopers lead to a good hold far to the right. Then straight up, sharing the finish with the yellow line.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:sillero"
+            ]
+          }
+        },
+        "sillero-problem-4": {
+          "description": {
+            "text": "Yellow line. Starting hold high up. If you’re short, fold the pad in half. Then make big reaches towards the top.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:sillero"
+            ]
+          }
+        },
+        "sillero-problem-5": {
+          "description": {
+            "text": "Traverse project. Dashed green line.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:sillero"
+            ]
+          }
+        },
+        "sillero-problem-6": {
+          "description": {
+            "text": "Red line. Hands only on the left-hand ledge, then throw for the top. Balancey and a little awkward.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:sillero"
+            ]
+          }
+        },
+        "sillero-problem-7": {
+          "description": {
+            "text": "Red and blue line. Use both the left- and right-hand ledges for your hands. Easy but quite fun.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:sillero"
+            ]
+          }
+        }
+      }
+    }
   }
 }

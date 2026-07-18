@@ -52,5 +52,30 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "=General= A couple of boulders with a handful of problems, first developed by F Malmros. =Directions= Take road 272 towards Gysinge. After the Librobäck industrial estate, around Hässelby and Hovlösa, turn left into a gravel car park surrounded by birch trees. Follow the path to the left of the wooded area until the boulders come into view. =Problems=",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:libroback"
+        ]
+      },
+      "sections": {},
+      "routes": {
+        "libroback-problem-1": {
+          "description": {
+            "text": "North face of the first boulder. Sit start on an undercling.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:libroback"
+            ]
+          }
+        }
+      }
+    }
   }
 }

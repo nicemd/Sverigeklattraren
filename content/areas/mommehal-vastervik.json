@@ -54,5 +54,74 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "Mommehål consists of two sectors: “Mommehålstenen” and “Mommehål 2”. Mommehålstenen is a large boulder that is home to, among other problems, Västervik’s first 8A boulder problem. It lies in a planted spruce forest next to the enduro track. “Mommehål 2” is a new bouldering area with many easy problems for beginners. Particularly recommended lines are marked with a star.",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:mommehal-vastervik"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "General information",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:mommehal-vastervik"
+            ]
+          },
+          "body": {
+            "text": "Mommehål consists of two sectors: “Mommehålstenen” and “Mommehål 2”. Mommehålstenen is a large boulder that is home to Västervik’s first 8A boulder problem, among others. It lies in a planted spruce forest next to the enduro track. “Mommehål 2” is a new bouldering area with many easy problems for beginners. Particularly recommended lines are marked with a star.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:mommehal-vastervik"
+            ]
+          }
+        },
+        "vagbeskrivning": {
+          "title": {
+            "text": "Directions",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:mommehal-vastervik"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:mommehal-vastervik"
+            ]
+          }
+        },
+        "extern-forare": {
+          "title": {
+            "text": "External guide",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:mommehal-vastervik"
+            ]
+          },
+          "body": {
+            "text": "http://www.vastervikclimbing.se/klattercentret/pdfer/",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:mommehal-vastervik"
+            ]
+          }
+        }
+      },
+      "routes": {}
+    }
   }
 }

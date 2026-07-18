@@ -84,5 +84,85 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "An undeveloped bouldering area outside Jämjö with potential for around ten problems. Bring a brush!",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:gravlingberget"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "General",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gravlingberget"
+            ]
+          },
+          "body": {
+            "text": "An undeveloped bouldering area outside Jämjö with potential for around ten problems. Bring a brush!",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gravlingberget"
+            ]
+          }
+        },
+        "vagbeskrivning": {
+          "title": {
+            "text": "Directions",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gravlingberget"
+            ]
+          },
+          "body": {
+            "text": "From the E22:\n\n• Turn onto Torhamnsvägen by the church in Jämjö.\n• Drive for 2.0 km, then turn left and immediately right onto a gravel road.\n• Drive for 200 metres, then turn right onto the second road by the blue(?) house.\n• Finally, drive for 800 metres.\n\nThe bouldering area is 50 m uphill in the woods.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gravlingberget"
+            ]
+          }
+        },
+        "problem": {
+          "title": {
+            "text": "Problems",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gravlingberget"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gravlingberget"
+            ]
+          }
+        }
+      },
+      "routes": {
+        "gravlingberget-led-1": {
+          "description": {
+            "text": "Easy hand jam.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gravlingberget"
+            ]
+          }
+        }
+      }
+    }
   }
 }

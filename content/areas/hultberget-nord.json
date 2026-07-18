@@ -616,5 +616,123 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "A fine, vertical sport climbing crag outside Eskilstuna. Many routes around 6b–6c.",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:hultberget-nord"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "General",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hultberget-nord"
+            ]
+          },
+          "body": {
+            "text": "A fine, vertical sport climbing crag outside Eskilstuna. Many routes around 6b–6c.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hultberget-nord"
+            ]
+          }
+        },
+        "vagbeskrivning": {
+          "title": {
+            "text": "Directions",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hultberget-nord"
+            ]
+          },
+          "body": {
+            "text": "From Eskilstuna, take road 230 towards Katrineholm. At a roundabout after Skogstorp, turn left towards Hållsta on road 214. Drive through Hållsta and, about 6 km after the roundabout, turn left at the sign for “Tandersten”. Follow the gravel road across a field to a T-junction. Turn right and park by an electrical cabinet. The crag can be seen on the left, inside the pasture.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hultberget-nord"
+            ]
+          }
+        },
+        "leder": {
+          "title": {
+            "text": "Routes",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hultberget-nord"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hultberget-nord"
+            ]
+          }
+        },
+        "extern-forare": {
+          "title": {
+            "text": "External guide",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hultberget-nord"
+            ]
+          },
+          "body": {
+            "text": "A guide is available on the Eskilstuna Klätterklubb website: www.klattring.net (http://www.klattring.net).",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hultberget-nord"
+            ]
+          }
+        }
+      },
+      "routes": {
+        "hultberget-nord-led-5": {
+          "description": {
+            "text": "Warning: potential ground fall at the second bolt.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hultberget-nord"
+            ]
+          }
+        },
+        "hultberget-nord-led-18": {
+          "description": {
+            "text": "Top-rope route.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hultberget-nord"
+            ]
+          }
+        },
+        "hultberget-nord-led-34": {
+          "description": {
+            "text": "Plus one piton.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hultberget-nord"
+            ]
+          }
+        }
+      }
+    }
   }
 }

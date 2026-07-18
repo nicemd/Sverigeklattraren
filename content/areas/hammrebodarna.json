@@ -63,5 +63,92 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "Hammrebodarna is situated on the eastern side of Vätaberget, approximately 20 km south of Sundsvall.\n\nFor current ice conditions or other enquiries, contact Sundsvalls Klätterklubb (http://www.sundsvallsklatterklubb.se).",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:hammrebodarna"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "General",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hammrebodarna"
+            ]
+          },
+          "body": {
+            "text": "Hammrebodarna is situated on the eastern side of Vätaberget, approximately 20 km south of Sundsvall.\n\nFor current ice conditions or other enquiries, contact Sundsvalls Klätterklubb (http://www.sundsvallsklatterklubb.se).",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hammrebodarna"
+            ]
+          }
+        },
+        "vagbeskrivning": {
+          "title": {
+            "text": "Directions",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hammrebodarna"
+            ]
+          },
+          "body": {
+            "text": "Take the E4 to Njurundabommen, 20 km south of Sundsvall. Turn off towards Ängom, follow the road for 3.4 km and turn right towards Sörfors. Continue for another 7 km, then turn right towards Hammrebodarna. Drive for 1 km until you reach a T-junction, where you turn left. Please park considerately so as not to disturb local residents.\n\nThe approach takes approximately ?? minutes, depending on snow conditions. Follow the foot of the crag to the left (south) and you will see the icefalls.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hammrebodarna"
+            ]
+          }
+        },
+        "klattringen": {
+          "title": {
+            "text": "Climbing",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hammrebodarna"
+            ]
+          },
+          "body": {
+            "text": "A number of icefalls of varying length and thickness. There is also an overhang with bouldering ice.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hammrebodarna"
+            ]
+          }
+        },
+        "accessinformation": {
+          "title": {
+            "text": "Access Information",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hammrebodarna"
+            ]
+          },
+          "body": {
+            "text": "There are currently no access issues, but when parking, make sure not to obstruct passing traffic.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hammrebodarna"
+            ]
+          }
+        }
+      },
+      "routes": {}
+    }
   }
 }

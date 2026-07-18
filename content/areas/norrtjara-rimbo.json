@@ -568,5 +568,457 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "=General= Varied crag climbing, 3–7 metres high, with plenty of easier routes. A long fault-line crag and several boulders.\n\n=Directions= 2 km south-east of Jägarhyddan. From Rimbo, take road 280 to the sign for Södertjära and turn right. Continue for just over 1 km, passing a sharp right-hand bend with a barn on the right, then park on the right at the top of the hill. Continue a little further along the road as it bends left and up to the crest. Spetsblocket is then visible straight ahead. Follow the forest track into the woods until it forks by an attractive mushroom-shaped boulder (with hard projects). Take the right-hand path. About 100 m before a house, a smaller path branches off to the left. Follow this until the long fault-line crag comes into view. About a pleasant 10-minute walk from the parking.\n\n=Sectors=",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:norrtjara-rimbo"
+        ]
+      },
+      "sections": {
+        "vansterflygeln": {
+          "title": {
+            "text": "Left Wing",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:norrtjara-rimbo"
+            ]
+          },
+          "body": {
+            "text": "The leftmost sector of the fault-line crag",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:norrtjara-rimbo"
+            ]
+          }
+        },
+        "spetsblocket": {
+          "title": {
+            "text": "Spetsblocket",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:norrtjara-rimbo"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:norrtjara-rimbo"
+            ]
+          }
+        },
+        "huvudsektionen": {
+          "title": {
+            "text": "Main Section",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:norrtjara-rimbo"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:norrtjara-rimbo"
+            ]
+          }
+        },
+        "mittflygeln": {
+          "title": {
+            "text": "Middle Wing",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:norrtjara-rimbo"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:norrtjara-rimbo"
+            ]
+          }
+        },
+        "hogerflygeln": {
+          "title": {
+            "text": "Right Wing",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:norrtjara-rimbo"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:norrtjara-rimbo"
+            ]
+          }
+        },
+        "platan-lilla-blocket": {
+          "title": {
+            "text": "The Plateau, Small Boulder",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:norrtjara-rimbo"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:norrtjara-rimbo"
+            ]
+          }
+        },
+        "platan-stora-blocket": {
+          "title": {
+            "text": "The Plateau, Large Boulder",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:norrtjara-rimbo"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:norrtjara-rimbo"
+            ]
+          }
+        }
+      },
+      "routes": {
+        "norrtjara-rimbo-problem-1": {
+          "description": {
+            "text": "Follow the edge upwards from left to right.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:norrtjara-rimbo"
+            ]
+          }
+        },
+        "norrtjara-rimbo-problem-2": {
+          "description": {
+            "text": "Straight up the overhanging bulge.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:norrtjara-rimbo"
+            ]
+          }
+        },
+        "norrtjara-rimbo-problem-3": {
+          "description": {
+            "text": "Up the centre of the small wall.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:norrtjara-rimbo"
+            ]
+          }
+        },
+        "norrtjara-rimbo-problem-4": {
+          "description": {
+            "text": "Up the right-hand side of the small wall.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:norrtjara-rimbo"
+            ]
+          }
+        },
+        "norrtjara-rimbo-problem-5": {
+          "description": {
+            "text": "Follow the flake over the lip.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:norrtjara-rimbo"
+            ]
+          }
+        },
+        "norrtjara-rimbo-problem-6": {
+          "description": {
+            "text": "Up the right-hand side of the flake.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:norrtjara-rimbo"
+            ]
+          }
+        },
+        "norrtjara-rimbo-problem-7": {
+          "description": {
+            "text": "Traverse the edge of the boulder, then finish up the flake.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:norrtjara-rimbo"
+            ]
+          }
+        },
+        "norrtjara-rimbo-problem-8": {
+          "description": {
+            "text": "By the spruce on the left.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:norrtjara-rimbo"
+            ]
+          }
+        },
+        "norrtjara-rimbo-problem-9": {
+          "description": {
+            "text": "Follow the edge diagonally up right, left of the small tree. Directly in front of the path.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:norrtjara-rimbo"
+            ]
+          }
+        },
+        "norrtjara-rimbo-problem-10": {
+          "description": {
+            "text": "Start at the inverted V. Climb to the edge directly above, then diagonally up to the lip and top out.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:norrtjara-rimbo"
+            ]
+          }
+        },
+        "norrtjara-rimbo-problem-11": {
+          "description": {
+            "text": "Climb over the lip.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:norrtjara-rimbo"
+            ]
+          }
+        },
+        "norrtjara-rimbo-problem-12": {
+          "description": {
+            "text": "Climb the ledges just left of the large tree and top out.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:norrtjara-rimbo"
+            ]
+          }
+        },
+        "norrtjara-rimbo-problem-13": {
+          "description": {
+            "text": "Between the tree and the pillar.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:norrtjara-rimbo"
+            ]
+          }
+        },
+        "norrtjara-rimbo-problem-14": {
+          "description": {
+            "text": "Straight up the pillar.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:norrtjara-rimbo"
+            ]
+          }
+        },
+        "norrtjara-rimbo-problem-15": {
+          "description": {
+            "text": "Straight up the classic corner.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:norrtjara-rimbo"
+            ]
+          }
+        },
+        "norrtjara-rimbo-problem-16": {
+          "description": {
+            "text": "Up the high section.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:norrtjara-rimbo"
+            ]
+          }
+        },
+        "norrtjara-rimbo-problem-17": {
+          "description": {
+            "text": "Traverse the flake from left to right.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:norrtjara-rimbo"
+            ]
+          }
+        },
+        "norrtjara-rimbo-problem-18": {
+          "description": {
+            "text": "Climb up using the huge undercling.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:norrtjara-rimbo"
+            ]
+          }
+        },
+        "norrtjara-rimbo-problem-19": {
+          "description": {
+            "text": "Climb using the left-hand undercling.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:norrtjara-rimbo"
+            ]
+          }
+        },
+        "norrtjara-rimbo-problem-20": {
+          "description": {
+            "text": "Up the left edge of the overhanging ledge.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:norrtjara-rimbo"
+            ]
+          }
+        },
+        "norrtjara-rimbo-problem-21": {
+          "description": {
+            "text": "Climb up.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:norrtjara-rimbo"
+            ]
+          }
+        },
+        "norrtjara-rimbo-problem-22": {
+          "description": {
+            "text": "Follow the diagonal.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:norrtjara-rimbo"
+            ]
+          }
+        },
+        "norrtjara-rimbo-problem-23": {
+          "description": {
+            "text": "Prominent V-hold, good foot placements.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:norrtjara-rimbo"
+            ]
+          }
+        },
+        "norrtjara-rimbo-problem-24": {
+          "description": {
+            "text": "Start at the left corner and climb up right.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:norrtjara-rimbo"
+            ]
+          }
+        },
+        "norrtjara-rimbo-problem-25": {
+          "description": {
+            "text": "Traverse from left to right and finish above.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:norrtjara-rimbo"
+            ]
+          }
+        },
+        "norrtjara-rimbo-problem-26": {
+          "description": {
+            "text": "Climb straight up on the left.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:norrtjara-rimbo"
+            ]
+          }
+        },
+        "norrtjara-rimbo-problem-27": {
+          "description": {
+            "text": "The small boulder further in.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:norrtjara-rimbo"
+            ]
+          }
+        },
+        "norrtjara-rimbo-problem-28": {
+          "description": {
+            "text": "A fine section traversing from right to left.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:norrtjara-rimbo"
+            ]
+          }
+        },
+        "norrtjara-rimbo-problem-29": {
+          "description": {
+            "text": "Traverse from left to right.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:norrtjara-rimbo"
+            ]
+          }
+        },
+        "norrtjara-rimbo-problem-30": {
+          "description": {
+            "text": "Follow the crack line left, finishing at the small boulder.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:norrtjara-rimbo"
+            ]
+          }
+        },
+        "norrtjara-rimbo-problem-31": {
+          "description": {
+            "text": "The long traverse from left to right.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:norrtjara-rimbo"
+            ]
+          }
+        }
+      }
+    }
   }
 }

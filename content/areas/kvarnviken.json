@@ -193,5 +193,155 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "A rediscovered crag in the climbing-starved western parts of Stockholm. The crag faces south-west and offers lovely views over Lake Mälaren, making it a pleasant evening venue. The routes are a real mixed bag, with something for everyone. Grades range from 4 to 7, and if that is not enough, there are a few ultra-thin lines that could be even harder. Trad routes sit alongside bolted lines, and there are a couple of boulder problems nearby for those who want to explore. Several of the trad routes have almost certainly been climbed before.\n\nAbove and to the right of the crag is another small wall with a few aid routes for keen climbers to rediscover. Among other things, a fixed nut remains in place. For simplicity, all routes are given French grades. There is some potential for new routes at the harder end of the scale.",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:kvarnviken"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "General",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:kvarnviken"
+            ]
+          },
+          "body": {
+            "text": "A rediscovered crag in the crag-scarce western parts of Stockholm. The crag faces south-west and has fine views over Lake Mälaren, making it a pleasant evening venue. The route selection is a real mixed bag, with something for everyone. Grades range from 4 to 7, and for those who find that insufficient, there are a few ultra-thin lines that could prove even harder. Trad routes sit alongside bolted ones, and there are a couple of boulder problems nearby for those keen to explore. Several of the trad routes have almost certainly been climbed before.\n\nAbove and to the right of the crag is another small wall with a few aid routes for anyone keen to rediscover them. Among other things, a fixed nut remains in place. For simplicity, all routes are given French grades. There is some potential for harder new routes.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:kvarnviken"
+            ]
+          }
+        },
+        "vagbeskrivning": {
+          "title": {
+            "text": "Directions",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:kvarnviken"
+            ]
+          },
+          "body": {
+            "text": "Drive west along Bergslagsvägen towards Hässelby. At the roundabout, turn towards Blackeberg. Take the first right onto Grimstagatan, then the first left onto Kanaans väg. Continue for 1 km until the old watermill appears on the left. This is a suitable place to park. Walk south past the marina, following the water. Continue along the footpath for about 200 metres until a metal fence appears to the left of the path. The easiest approach is to follow the left-hand side of the fence to reach the crag.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:kvarnviken"
+            ]
+          }
+        },
+        "leder": {
+          "title": {
+            "text": "Routes",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:kvarnviken"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:kvarnviken"
+            ]
+          }
+        }
+      },
+      "routes": {
+        "kvarnviken-led-1": {
+          "description": {
+            "text": "A delicate line on the slab wall round the corner to the left. Protected with cams and nuts, unfortunately exactly where you want to put your fingers. The tree above makes a good top-rope and abseil anchor.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:kvarnviken"
+            ]
+          }
+        },
+        "kvarnviken-led-2": {
+          "description": {
+            "text": "Follows the arete at the left-hand edge of the crag. Start left of the corner. 3 bolts and the tree as an anchor.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:kvarnviken"
+            ]
+          }
+        },
+        "kvarnviken-led-3": {
+          "description": {
+            "text": "The crack corner, and the finest line on the crag. Varied climbing. Protected entirely with nuts and cams.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:kvarnviken"
+            ]
+          }
+        },
+        "kvarnviken-led-4": {
+          "description": {
+            "text": "Starts at the flake crack leading up left. Use the sidepull to move back right, then finish straight up through the weakness in the roof. 3 bolts and an anchor above (the anchor can be backed up with the tree).",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:kvarnviken"
+            ]
+          }
+        },
+        "kvarnviken-led-5": {
+          "description": {
+            "text": "The left-hand crack in the twin corners in the central part of the crag. A rusty bolt bears witness to earlier activity here. Can be protected with trad gear.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:kvarnviken"
+            ]
+          }
+        },
+        "kvarnviken-led-6": {
+          "description": {
+            "text": "A bouldery route following the reddish arete. The hollow red flake should probably be weighted with care.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:kvarnviken"
+            ]
+          }
+        },
+        "kvarnviken-led-7": {
+          "description": {
+            "text": "Climbs between routes 6 and 7 on the slightly overhanging wall, protected with copperheads, micro-nuts, birdbeaks and a skyhook.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:kvarnviken"
+            ]
+          }
+        },
+        "kvarnviken-led-8": {
+          "description": {
+            "text": "Starts in the corner furthest right and follows the slab. The holds in the groove may be loose and can be avoided. 3 bolts and an anchor (the anchor can be backed up with the tree).",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:kvarnviken"
+            ]
+          }
+        }
+      }
+    }
   }
 }

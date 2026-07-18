@@ -89,5 +89,95 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "Stenbrott in Stenhamra on the southern part of Svartsjölandet. There are several walls ranging from 5 to 15 m high. The walls are steep and contain a fair amount of loose material. A few enticing formations, mostly just debris.",
+        "method": "llm",
+        "model": "gpt-4o-mini",
+        "sourceIds": [
+          "legacy:stenhamra"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "General",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:stenhamra"
+            ]
+          },
+          "body": {
+            "text": "Quarry in Stenhamra located in the southern part of Svartsjölandet. Several walls ranging from 5 to 15 metres high can be found here. The walls are steep and contain quite a bit of loose material. A few enticing formations are present, but mostly it's a bit of a dump.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:stenhamra"
+            ]
+          }
+        },
+        "bilder": {
+          "title": {
+            "text": "Images",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:stenhamra"
+            ]
+          },
+          "body": {
+            "text": "Old quarry that was closed in 1937. Images can be found at www.stenbrottet.nu (http://www.stenbrottet.nu/).",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:stenhamra"
+            ]
+          }
+        },
+        "vagbeskrivning": {
+          "title": {
+            "text": "Access",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:stenhamra"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:stenhamra"
+            ]
+          }
+        }
+      },
+      "routes": {
+        "stenhamra-led-1": {
+          "description": {
+            "text": "The prominent arete at the back of the quarry. Lacks protection placements but is considered technically easy for its grade.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:stenhamra"
+            ]
+          }
+        },
+        "stenhamra-led-2": {
+          "description": {
+            "text": "A distinct open corner also at the back of the quarry.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:stenhamra"
+            ]
+          }
+        }
+      }
+    }
   }
 }

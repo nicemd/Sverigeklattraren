@@ -81,5 +81,139 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "From Bärfendal towards Bovallstrand on road 174. Turn right towards Bottna and head up a steep hill. Park at the top of the hill on the left side, ensuring there's space for tractors to pass. Continue on foot along the road and take a left at the Binghult sign onto a tractor track. Follow this across a clearcut and up a knoll, then it descends towards Tåsteröds vatten. The crag lies down to the left, facing south towards the lake.",
+        "method": "llm",
+        "model": "gpt-4o-mini",
+        "sourceIds": [
+          "legacy:tasterods-vatten"
+        ]
+      },
+      "sections": {
+        "introduktion": {
+          "title": {
+            "text": "Introduction",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tasterods-vatten"
+            ]
+          },
+          "body": {
+            "text": "On",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tasterods-vatten"
+            ]
+          }
+        },
+        "karaktar": {
+          "title": {
+            "text": "Character",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tasterods-vatten"
+            ]
+          },
+          "body": {
+            "text": "South-facing but large trees shade the lower part of the crag.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tasterods-vatten"
+            ]
+          }
+        },
+        "vagbeskrivning": {
+          "title": {
+            "text": "Directions",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tasterods-vatten"
+            ]
+          },
+          "body": {
+            "text": "From Bärfendal towards Bovallstrand on road 174. Turn right towards Bottna and up a steep hill. Park at the top of the hill on the left side. Park so that the tractor can pass. Continue on foot along the road and turn left at the Binghult sign onto a tractor path. Follow this over a clear-cut area up a hill and it descends towards Tåsteröds vatten. The crag is down to the left and faces south towards the lake.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tasterods-vatten"
+            ]
+          }
+        },
+        "access": {
+          "title": {
+            "text": "Access",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tasterods-vatten"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tasterods-vatten"
+            ]
+          }
+        },
+        "leder": {
+          "title": {
+            "text": "Routes",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tasterods-vatten"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tasterods-vatten"
+            ]
+          }
+        },
+        "fran-vanster": {
+          "title": {
+            "text": "From the left",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tasterods-vatten"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tasterods-vatten"
+            ]
+          }
+        }
+      },
+      "routes": {
+        "tasterods-vatten-led-1": {
+          "description": {
+            "text": "Narrow crack on the small wall. Somewhat difficult to protect and intense at the start. RP's can help you.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tasterods-vatten"
+            ]
+          }
+        }
+      }
+    }
   }
 }

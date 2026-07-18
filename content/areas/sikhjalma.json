@@ -182,5 +182,110 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "=Problem=",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:sikhjalma"
+        ]
+      },
+      "sections": {},
+      "routes": {
+        "sikhjalma-problem-1": {
+          "description": {
+            "text": "First climbed with some serious belly scraping.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:sikhjalma"
+            ]
+          }
+        },
+        "sikhjalma-problem-2": {
+          "description": {
+            "text": "Lovely traverse above the water – hold on or get wet!",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:sikhjalma"
+            ]
+          }
+        },
+        "sikhjalma-problem-3": {
+          "description": {
+            "text": "Sit start with one hand on each arete, climb straight up and mantle.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:sikhjalma"
+            ]
+          }
+        },
+        "sikhjalma-problem-4": {
+          "description": {
+            "text": "Fine roof climbing on large holds.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:sikhjalma"
+            ]
+          }
+        },
+        "sikhjalma-problem-5": {
+          "description": {
+            "text": "The far arete on the isolated southern boulder.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:sikhjalma"
+            ]
+          }
+        },
+        "sikhjalma-problem-6": {
+          "description": {
+            "text": "A fine, slightly sustained traverse on large holds.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:sikhjalma"
+            ]
+          }
+        },
+        "sikhjalma-problem-7": {
+          "description": {
+            "text": "Heads out towards the water on the isolated southern boulder.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:sikhjalma"
+            ]
+          }
+        },
+        "sikhjalma-problem-8": {
+          "description": {
+            "text": "Follows a really fine crack. Mind your hands on the exit; much of what you can grab is loose.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:sikhjalma"
+            ]
+          }
+        },
+        "sikhjalma-problem-9": {
+          "description": {
+            "text": "Fine problem through an overhang.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:sikhjalma"
+            ]
+          }
+        }
+      }
+    }
   }
 }

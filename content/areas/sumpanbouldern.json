@@ -68,5 +68,74 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "A small crag just a stone's throw from Sundbybergs Torg.\n\nThere are various opportunities for traverses as well as numerous shorter problems of varying grades, all depending on your imagination and how low to the ground you're willing to start. The easiest traverse is said to be around 7a.\n\nThe best bouldering venue in Sumpan.\n\nDescription at plonk.se (http://www.plonk.se/oldsite/sumpanbouldern.html)",
+        "method": "llm",
+        "model": "gpt-4o-mini",
+        "sourceIds": [
+          "legacy:sumpanbouldern"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "General",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:sumpanbouldern"
+            ]
+          },
+          "body": {
+            "text": "A small crag just a stone's throw from Sundbyberg square.\n\nThere are various opportunities for traverses and a multitude of short problems at varying grades, depending on your imagination and how close to the ground you’re willing to start. The easiest traverse is said to be around 7a.\n\nThe best gym in Sumpan.\n\nDescription on plonk.se (http://www.plonk.se/oldsite/sumpanbouldern.html)",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:sumpanbouldern"
+            ]
+          }
+        },
+        "karta": {
+          "title": {
+            "text": "Map",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:sumpanbouldern"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:sumpanbouldern"
+            ]
+          }
+        },
+        "bilder": {
+          "title": {
+            "text": "Images",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:sumpanbouldern"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:sumpanbouldern"
+            ]
+          }
+        }
+      },
+      "routes": {}
+    }
   }
 }

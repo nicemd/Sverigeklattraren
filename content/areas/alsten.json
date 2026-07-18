@@ -401,5 +401,193 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "Large boulder with overhanging walls on three sides.",
+        "method": "llm",
+        "model": "gpt-4o-mini",
+        "sourceIds": [
+          "legacy:alsten"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "General",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:alsten"
+            ]
+          },
+          "body": {
+            "text": "Large boulder with overhanging walls on three sides.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:alsten"
+            ]
+          }
+        },
+        "vagbeskrivning": {
+          "title": {
+            "text": "Access",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:alsten"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:alsten"
+            ]
+          }
+        },
+        "gammal-forare": {
+          "title": {
+            "text": "Old Guide",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:alsten"
+            ]
+          },
+          "body": {
+            "text": "Plonk's original guide (http://plonk.se/oldsite/foraren/alsten/alsten.gif) Several problems have since seen their first ascents and the addition of new ones (?). Below is a text summary from forums/scorecards with the current information. Please feel free to add what you know.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:alsten"
+            ]
+          }
+        },
+        "uppdatering": {
+          "title": {
+            "text": "Update",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:alsten"
+            ]
+          },
+          "body": {
+            "text": "Ålsten Forest\n\nLeft side of Ålsten Forest (http://27crags.com/crags/alsten/topos/alstensskogen-vanstra) Right side of Ålsten Forest (http://27crags.com/crags/alsten/topos/alstensskogen-hogra) There should be many problems along the wall. Parking on Per Albins väg, follow the main path 75 m along the water on the other side of the meadow. The same path in the opposite direction leads to Ålsten Block.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:alsten"
+            ]
+          }
+        }
+      },
+      "routes": {
+        "alsten-problem-8": {
+          "description": {
+            "text": "Start sitting, left hand on a big hold, right hand on a high crimp. Climb up the arete. Superb for winter climbing! (=almost always dry) No. 2 on Plonk's photo",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:alsten"
+            ]
+          }
+        },
+        "alsten-problem-9": {
+          "description": {
+            "text": "Start sitting, under the roof to the right of Paladino's arete, west of problem 3, starting on crimpers; catch to pinch and mantle.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:alsten"
+            ]
+          }
+        },
+        "alsten-problem-11": {
+          "description": {
+            "text": "Start sitting, a nice approximately 20-degree overhanging problem on the east side of the block.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:alsten"
+            ]
+          }
+        },
+        "alsten-problem-12": {
+          "description": {
+            "text": "Starts on the steep side (?) a few meters from Karlsson's Arete on good holds in the horizontal crack.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:alsten"
+            ]
+          }
+        },
+        "alsten-problem-13": {
+          "description": {
+            "text": "Starts mid-way up the wall on crimpers, then moves right to the starting hold on Paladino's arete and continues up without using the arete.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:alsten"
+            ]
+          }
+        },
+        "alsten-problem-14": {
+          "description": {
+            "text": "Traverse from the west and finish with Popeye.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:alsten"
+            ]
+          }
+        },
+        "alsten-problem-15": {
+          "description": {
+            "text": "On the small block north of the large block. Traverse from left to right on slopers, starting however on a couple of crimpers.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:alsten"
+            ]
+          }
+        },
+        "alsten-problem-16": {
+          "description": {
+            "text": "The green line in the picture \"Steep Side\". Starts on two small holds above head height. A slightly harder move up to the fat crack, then straight up.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:alsten"
+            ]
+          }
+        },
+        "alsten-problem-17": {
+          "description": {
+            "text": "The white line in the picture \"Less Steep Side\".",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:alsten"
+            ]
+          }
+        },
+        "alsten-problem-18": {
+          "description": {
+            "text": "The yellow line in the picture \"Less Steep Side\".",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:alsten"
+            ]
+          }
+        }
+      }
+    }
   }
 }

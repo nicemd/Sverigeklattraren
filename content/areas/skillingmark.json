@@ -54,5 +54,56 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "Ice-climbing crag not far from the Norwegian border. Can offer interesting climbing in good conditions.",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:skillingmark"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "General",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:skillingmark"
+            ]
+          },
+          "body": {
+            "text": "An ice-climbing crag not far from the Norwegian border. Can offer interesting climbing in good conditions.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:skillingmark"
+            ]
+          }
+        },
+        "ovrigt": {
+          "title": {
+            "text": "Other information",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:skillingmark"
+            ]
+          },
+          "body": {
+            "text": "The ice is often somewhat brittle and therefore difficult to protect. Interesting formations spread across two sections of the crag. Mixed climbing is possible. Heavy water flow can sometimes make for a wet experience.\n\nMore information to come.\n\nFor now, please make do with the approximate map location and brief description.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:skillingmark"
+            ]
+          }
+        }
+      },
+      "routes": {}
+    }
   }
 }

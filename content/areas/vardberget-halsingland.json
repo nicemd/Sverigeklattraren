@@ -408,5 +408,327 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "Vårdberget is located in the centre of Ljusne, 13 km from Söderhamn.",
+        "method": "llm",
+        "model": "gpt-4o-mini",
+        "sourceIds": [
+          "legacy:vardberget-halsingland"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "General",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:vardberget-halsingland"
+            ]
+          },
+          "body": {
+            "text": "Vårdberget is located in the middle of Ljusne, 13 km from Söderhamn.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:vardberget-halsingland"
+            ]
+          }
+        },
+        "kommunikationer": {
+          "title": {
+            "text": "Access",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:vardberget-halsingland"
+            ]
+          },
+          "body": {
+            "text": "By car: From Söderhamn, head towards Sandarne. From there, go towards Ljusne and turn left at the sign \"Mot Ljusne bruk\". You will see the crag as you drive through Ljusne. Just before the ICA supermarket, at the intersection of Smedsvägen/Nygatan, turn left and park right below the crag. At the parking area, there’s an old wooden fence. Go through a hole in it and walk up a bit, following the fence for about 30 m. Here, there is a six-metre high wall with four cracks. GPS coordinates: Lat: N 61º 12' 40.60\" Long: E 17º 7' 55.4\".",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:vardberget-halsingland"
+            ]
+          }
+        },
+        "historik": {
+          "title": {
+            "text": "History",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:vardberget-halsingland"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:vardberget-halsingland"
+            ]
+          }
+        },
+        "vaggar": {
+          "title": {
+            "text": "Walls",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:vardberget-halsingland"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:vardberget-halsingland"
+            ]
+          }
+        },
+        "tuggummiblocket": {
+          "title": {
+            "text": "Gum Block",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:vardberget-halsingland"
+            ]
+          },
+          "body": {
+            "text": "Counting from the left:",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:vardberget-halsingland"
+            ]
+          }
+        },
+        "chokladblocket": {
+          "title": {
+            "text": "Chocolate Block",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:vardberget-halsingland"
+            ]
+          },
+          "body": {
+            "text": "To reach the Chocolate Block, follow the fence until it veers towards the top. From here, walk towards the large factory along the coastline until the factory disappears behind the treetops, then you will see a pointed boulder below you. When you turn around the corner, the wall of the Chocolate Block appears. The routes here vary in length between 5 and 7 m.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:vardberget-halsingland"
+            ]
+          }
+        },
+        "vattencisternen": {
+          "title": {
+            "text": "Water Cistern",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:vardberget-halsingland"
+            ]
+          },
+          "body": {
+            "text": "At the top of the crag, towards the village, there is a large water cistern. Walk 15 m from the cistern towards a telephone pole and in the direction of a yellow apartment building. One of the guy wires on the pole is anchored with a large bolt that can be used as a rappel bolt for descending to the routes on the north side of the crag. You would rappel directly over \"Heaven up here\". If you prefer not to rappel down, you can walk down to the left along a ramp.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:vardberget-halsingland"
+            ]
+          }
+        }
+      },
+      "routes": {
+        "vardberget-halsingland-led-1": {
+          "description": {
+            "text": "Clearly difficult.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:vardberget-halsingland"
+            ]
+          }
+        },
+        "vardberget-halsingland-led-2": {
+          "description": {
+            "text": "Relatively easy.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:vardberget-halsingland"
+            ]
+          }
+        },
+        "vardberget-halsingland-led-3": {
+          "description": {
+            "text": "Somewhat harder.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:vardberget-halsingland"
+            ]
+          }
+        },
+        "vardberget-halsingland-led-4": {
+          "description": {
+            "text": "Short vertical route angle to the left on Chokladblocket.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:vardberget-halsingland"
+            ]
+          }
+        },
+        "vardberget-halsingland-led-5": {
+          "description": {
+            "text": "Shallow corner with a hand jam in the corner. Easy.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:vardberget-halsingland"
+            ]
+          }
+        },
+        "vardberget-halsingland-led-6": {
+          "description": {
+            "text": "Clear traverse crack under a roof.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:vardberget-halsingland"
+            ]
+          }
+        },
+        "vardberget-halsingland-led-7": {
+          "description": {
+            "text": "The clear corner with an exit to the right. Easy.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:vardberget-halsingland"
+            ]
+          }
+        },
+        "vardberget-halsingland-led-8": {
+          "description": {
+            "text": "The left dihedral exit from the corner.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:vardberget-halsingland"
+            ]
+          }
+        },
+        "vardberget-halsingland-led-9": {
+          "description": {
+            "text": "The first clear crack to the right of the corner. Relatively hard.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:vardberget-halsingland"
+            ]
+          }
+        },
+        "vardberget-halsingland-led-10": {
+          "description": {
+            "text": "Five meters traverse in from the right to \"Schweizernöt\". Starts far at the crack to the right of \"Schweizernöt\". Step in from a loose block and traverse diagonally up towards the niche in the middle of \"Schweizernöt\". Sensitive.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:vardberget-halsingland"
+            ]
+          }
+        },
+        "vardberget-halsingland-led-11": {
+          "description": {
+            "text": "Thin crack directly above the start of \"Helnöt\". Sharp.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:vardberget-halsingland"
+            ]
+          }
+        },
+        "vardberget-halsingland-led-12": {
+          "description": {
+            "text": "The shallow corner to the right of \"Snickers\". Moderate.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:vardberget-halsingland"
+            ]
+          }
+        },
+        "vardberget-halsingland-led-13": {
+          "description": {
+            "text": "Clear layback crack to the right of the shallow corner that forms \"Raider\". Relatively easy.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:vardberget-halsingland"
+            ]
+          }
+        },
+        "vardberget-halsingland-led-14": {
+          "description": {
+            "text": "Wall with a 70-degree angle below the mentioned telephone pole. Wall route with small grips and steps. This route has not been led, as it is completely unprotected.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:vardberget-halsingland"
+            ]
+          }
+        },
+        "vardberget-halsingland-led-15": {
+          "description": {
+            "text": "From the start of \"Heaven up here\", following the bottom edge of the wall to the left towards the sea, you will reach a short dihedral after about 100 m.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:vardberget-halsingland"
+            ]
+          }
+        },
+        "vardberget-halsingland-led-16": {
+          "description": {
+            "text": "Even further to the left (about 50 m), below a wooden fence, lies a small ravine. This route follows a clear arete past a small roof.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:vardberget-halsingland"
+            ]
+          }
+        },
+        "vardberget-halsingland-led-17": {
+          "description": {
+            "text": "Located just to the left of \"Örnnäsan\".",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:vardberget-halsingland"
+            ]
+          }
+        },
+        "vardberget-halsingland-led-18": {
+          "description": {
+            "text": "Around the corner, to the right of \"Örnnäsan\", there is another wall. Clear crack on a relatively steep wall. Leads up to a spruce.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:vardberget-halsingland"
+            ]
+          }
+        }
+      }
+    }
   }
 }

@@ -31,5 +31,19 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "Large boulder with nice problems in the 7a range. A few problems are registered on this boulder under Bloc X on 8a.",
+        "method": "llm",
+        "model": "gpt-4o-mini",
+        "sourceIds": [
+          "legacy:vallinge"
+        ]
+      },
+      "sections": {},
+      "routes": {}
+    }
   }
 }

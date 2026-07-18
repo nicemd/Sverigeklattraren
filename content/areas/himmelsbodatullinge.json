@@ -85,5 +85,85 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "A small crag, perhaps not worth a long journey, but getting there is a bit adventurous and fun. Top-roping or soloing are the only options. A couple of harder, extremely short routes can be climbed on the left, with a few easy ones in the middle.",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:himmelsbodatullinge"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "General",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:himmelsbodatullinge"
+            ]
+          },
+          "body": {
+            "text": "A small crag, perhaps not worth a long journey, but getting there is a bit of an adventure and quite fun. Top-rope or solo only. There are a couple of harder, very short routes on the left and a few easy ones in the middle.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:himmelsbodatullinge"
+            ]
+          }
+        },
+        "vagbeskrivning": {
+          "title": {
+            "text": "Directions",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:himmelsbodatullinge"
+            ]
+          },
+          "body": {
+            "text": "Drive to Storvreten in Tumba, find Stockstigen and park in a suitable place. Then follow the gravel road across the meadow and take the second left. Pass the farm on the left; where the road bends slightly left, the crag is straight ahead among the trees at the edge of the field.\n\nMap here. Click the map button above.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:himmelsbodatullinge"
+            ]
+          }
+        },
+        "leder": {
+          "title": {
+            "text": "Routes",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:himmelsbodatullinge"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:himmelsbodatullinge"
+            ]
+          }
+        }
+      },
+      "routes": {
+        "himmelsbodatullinge-led-1": {
+          "description": {
+            "text": "Pad it out properly if you’re going to solo it.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:himmelsbodatullinge"
+            ]
+          }
+        }
+      }
+    }
   }
 }

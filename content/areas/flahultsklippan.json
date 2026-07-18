@@ -99,5 +99,56 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "Located in central Norrahammar, east of Konsum and above Flahultsvägen. On the right-hand side (south), behind Konsum, a steep path leads uphill towards Flahult. A short way up, you reach the foot of the crag. Follow the crag to the left (north) to find a suitable place to climb.\n\nContinue 20–30 metres up the path to find some boulders on the right-hand side, estimated at grade 4. Good cracks for practising technique.\n\nFlahultsklippan (http://kartor.eniro.se/m/p5rJI) Map (http://kartor.eniro.se/m/p5rY9)",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:flahultsklippan"
+        ]
+      },
+      "sections": {
+        "om-klippan": {
+          "title": {
+            "text": "About the crag",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:flahultsklippan"
+            ]
+          },
+          "body": {
+            "text": "Approximately 70 metres wide and 10–20 metres high. The crag offers climbing at a range of grades, including some overhangs. Estimated grades range from 3 to 6.\n\nIt is also well suited to top-roping, with sturdy pine trees growing along the edges. The top of the crag can be reached by walking around either side. There is quite a lot of scrub which, with the landowner's permission, could be cleared to make this a very pleasant crag with afternoon and evening sun. A fair amount of brushing is needed to establish good routes.\n\nFeel free to explore.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:flahultsklippan"
+            ]
+          }
+        },
+        "vagbeskrivning": {
+          "title": {
+            "text": "Directions",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:flahultsklippan"
+            ]
+          },
+          "body": {
+            "text": "Located in central Norrahammar, east of and behind Konsum, above Flahultsvägen. On the right-hand side (south) behind Konsum, a steep path leads uphill towards Flahult. A little way up, you reach the foot of the crag. Then follow the crag to the left (north) to find a suitable place to climb.\n\nIf you continue 20–30 metres up the path, you will find some boulders on the right. Approximately grade 4. Good cracks for practising technique.\n\nFlahultsklippan (http://kartor.eniro.se/m/p5rJI) Map (http://kartor.eniro.se/m/p5rY9)",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:flahultsklippan"
+            ]
+          }
+        }
+      },
+      "routes": {}
+    }
   }
 }

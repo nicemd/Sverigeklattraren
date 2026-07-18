@@ -204,5 +204,143 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "Tjärö is a beautiful nature reserve just south of Åryd, near Köpegårdaberget, in Blekinge. The island features two crags that offer climbing. While there isn't an extensive amount of climbing on Tjärö, the atmosphere and experience are quite unique. The rock is of good quality, and the cracks that most routes follow provide nice protection. To reach Tjärö, take a ferry from either Järnavik or Karlshamn, which operates only during the summer months. Otherwise, your own boat is required. A third option is to have your own kayak (or rent one at Nytäppet across from Matvik). On the island, there is an STF hostel where you can stay if you book a room (Tjärö Turiststation tel 0454-60063/info@tjaro.com). Wild camping is not allowed in the reserve.",
+        "method": "llm",
+        "model": "gpt-4o-mini",
+        "sourceIds": [
+          "legacy:tjaro"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "General",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tjaro"
+            ]
+          },
+          "body": {
+            "text": "Tjärö is a beautiful nature reserve just south of Åryd, near Köpegårdaberget, in Blekinge. The island features two crags suitable for climbing. Although the climbing on Tjärö is somewhat limited, the atmosphere and experience are very special. The rock quality is good, and the cracks that most routes follow provide excellent protection. To reach Tjärö, take a ferry from either Järnavik or Karlshamn, which operates only during the summer months. Otherwise, you will need to bring your own boat. A third option is to have your own kayak (or rent one at Nytäppet opposite Matvik). On the island, there is an STF hostel where you can stay if rooms are booked in advance (Tjärö Turiststation tel 0454-60063/info@tjaro.com). Camping is not allowed within the reserve.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tjaro"
+            ]
+          }
+        },
+        "hitta-hit": {
+          "title": {
+            "text": "Getting There",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tjaro"
+            ]
+          },
+          "body": {
+            "text": "From Karlshamn, drive east towards Karlskrona and take the exit from the E22 shortly after Åryd, towards Järnavik. In Järnavik, the tourist ferry to Tjärö is the way to go. You can also take a ferry from the harbour in Karlshamn. Unfortunately, both ferries only operate during the summer months. Once on the island, it is easy to navigate using the map below. If you wish to paddle your own kayak, there’s a good launch area with a pier by following the road past Köpegårdacliff and to its end (see Köpegårda).\n\nFerry from Karlshamn: http://www.karlshamn.se/Turism/Kommunikation/Skargardstrafik_Karlshamn-Tjaro/ Ferry from Järnavik: http://www.karlshamn.se/Turism/Kommunikation/Skargardstrafik_Jarnavik-Tjaro/",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tjaro"
+            ]
+          }
+        },
+        "havsklippan": {
+          "title": {
+            "text": "Sea Crag",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tjaro"
+            ]
+          },
+          "body": {
+            "text": "This is the crag visible immediately to the right of the pier where the Karlshamn ferry docks. The right side, where \"Skärgårdsturen\" is located, drops straight into the water. For those who find the climbing not thrilling enough, it's also an option to jump from the top of the crag above \"Skärgårdsturen\". In that area, the water is about five metres deep and free of rocks and other hazards.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tjaro"
+            ]
+          }
+        },
+        "svaklippan": {
+          "title": {
+            "text": "Weak Crag",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tjaro"
+            ]
+          },
+          "body": {
+            "text": "A smaller crag on the southern part of Tjärö. Unfortunately, there are no logical lines. However, the crag is very nicely situated on a meadow. It can be quite tricky to build top anchors.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tjaro"
+            ]
+          }
+        }
+      },
+      "routes": {
+        "tjaro-led-1": {
+          "description": {
+            "text": "Nice climbing up a varying crack. Somewhat uneven with a significant crux in the overhanging top section. The start can be accessed either by abseiling or through the large cleft between the rocks. This requires some downclimbing.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tjaro"
+            ]
+          }
+        },
+        "tjaro-led-2": {
+          "description": {
+            "text": "Superb finger crack up the smooth shield that drops straight down into the water. An abseil is required to reach the start (or your own boat). Previously, there was a small platform below for protection, but it's now gone, so a hanging stand is necessary. Two variations can be made at the start; the left one is considerably stiffer. Some lichen is present but doesn't detract much from the experience. Well protected.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tjaro"
+            ]
+          }
+        },
+        "tjaro-led-3": {
+          "description": {
+            "text": "A variant on the route above. Climb out into the cracks to the right when this becomes possible.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tjaro"
+            ]
+          }
+        },
+        "tjaro-led-4": {
+          "description": {
+            "text": "Climbing on solid and nice rock, but unfortunately quite lichen-covered, which makes the crux in the middle harder.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tjaro"
+            ]
+          }
+        },
+        "tjaro-led-5": {
+          "description": {
+            "text": "Same start as \"Pampers..\" but continue straight up.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tjaro"
+            ]
+          }
+        }
+      }
+    }
   }
 }

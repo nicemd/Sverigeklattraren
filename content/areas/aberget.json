@@ -469,5 +469,217 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "Quarry outside Boden. Dries quickly. The crag faces southwest. Chipping at a whole new level! Higher up on the same mountain is Åbergsfortet, which can be a good alternative if the heat is uncomfortable and the wind doesn’t quite reach the quarry.",
+        "method": "llm",
+        "model": "gpt-4o-mini",
+        "sourceIds": [
+          "legacy:aberget"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "General",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:aberget"
+            ]
+          },
+          "body": {
+            "text": "Quarried rock outside Boden. Dries quickly. The crag faces southwest. Chipping at a whole new level! Higher up on the same mountain is Åbergsfortet, which can be a good alternative if the heat is tough and the wind doesn't quite reach the quarry.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:aberget"
+            ]
+          }
+        },
+        "vagbeskrivning": {
+          "title": {
+            "text": "Access",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:aberget"
+            ]
+          },
+          "body": {
+            "text": "From Luleå, drive past the first intersection in Sävast (by the golf course). At the next intersection, turn left. Follow Sävastvägen through the village. When the houses on the left end, it's about 3.5 km until you should turn right. Just before the turn, there’s a stable and some paddocks on the right. The asphalt access road appears with a gentle right turn. Follow it for 100 m, then take the left onto a sandy/stony road. The crag should be visible through the trees from here. Park and walk, or if you have a decent vehicle, you can drive all the way to the crag (in which case, turn right after 20 m).",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:aberget"
+            ]
+          }
+        },
+        "leder": {
+          "title": {
+            "text": "Routes",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:aberget"
+            ]
+          },
+          "body": {
+            "text": "Many route names are painted on the crag, making it easy to navigate. Routes run from left to right. A topo is available in the guide at www.borrbult.nu (Fyrkanten guide - Sport climbing).",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:aberget"
+            ]
+          }
+        },
+        "moderna-transporter-vaggen": {
+          "title": {
+            "text": "Moderna Transporter Wall",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:aberget"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:aberget"
+            ]
+          }
+        },
+        "huvudklippan": {
+          "title": {
+            "text": "Main Crag",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:aberget"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:aberget"
+            ]
+          }
+        },
+        "extern-forare": {
+          "title": {
+            "text": "External Guide",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:aberget"
+            ]
+          },
+          "body": {
+            "text": "http://www.borrbult.nu click 'Guide' in the menu on the right, then 'Fyrkanten guide - Sport climbing'.\n\n=In English= Quarried rock. Very warm in summer. A good spring and autumn venue. Mostly drilled routes, but with a few good \"natural\" routes.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:aberget"
+            ]
+          }
+        },
+        "directions": {
+          "title": {
+            "text": "Directions",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:aberget"
+            ]
+          },
+          "body": {
+            "text": "From the centre of Boden, drive towards Bodsvedjan and continue towards Sävast. Just after passing Bodsvedjan, you will see the cliff on your left. After a left curve, turn left onto a road. Follow that road for 100 m and then turn left again onto a rough road that you follow for another 150 metres. Park directly beneath the cliff.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:aberget"
+            ]
+          }
+        }
+      },
+      "routes": {
+        "aberget-led-3": {
+          "description": {
+            "text": "New anchor.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:aberget"
+            ]
+          }
+        },
+        "aberget-led-7": {
+          "description": {
+            "text": "Never climbed.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:aberget"
+            ]
+          }
+        },
+        "aberget-led-14": {
+          "description": {
+            "text": "Åberget's most classic route. Sloping ramp and arete.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:aberget"
+            ]
+          }
+        },
+        "aberget-led-15": {
+          "description": {
+            "text": "Nice crack.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:aberget"
+            ]
+          }
+        },
+        "aberget-led-16": {
+          "description": {
+            "text": "The wall to the right of Pärleporten without using the crack.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:aberget"
+            ]
+          }
+        },
+        "aberget-led-23": {
+          "description": {
+            "text": "Juggy and steep.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:aberget"
+            ]
+          }
+        },
+        "aberget-led-24": {
+          "description": {
+            "text": "Simple bolt with a carabiner as an anchor.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:aberget"
+            ]
+          }
+        }
+      }
+    }
   }
 }

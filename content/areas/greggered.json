@@ -461,5 +461,307 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "A pleasant crag that is well worth a morning or afternoon visit. Greggered is a small village; the nearest grocery shop is probably in Lindome.",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:greggered"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "General",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:greggered"
+            ]
+          },
+          "body": {
+            "text": "A pleasant crag that is well worth a morning or afternoon. Greggered is a small village; the nearest grocery shop is probably in Lindome.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:greggered"
+            ]
+          }
+        },
+        "kollektivtrafik": {
+          "title": {
+            "text": "Public transport",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:greggered"
+            ]
+          },
+          "body": {
+            "text": "The nearest known bus stop is Greggereds Kapell, served by bus 763. The journey from Mölndal C takes 30–70 minutes.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:greggered"
+            ]
+          }
+        },
+        "vagbeskrivning": {
+          "title": {
+            "text": "Directions",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:greggered"
+            ]
+          },
+          "body": {
+            "text": "From Gothenburg, take exit 63 at Kållered, go straight on at the first roundabout, turn left, cross the motorway and continue straight ahead eastwards. After a couple of kilometres, turn left at the sign for Greggered.\n\nAlternatively, take exit 62 (Lindome S) and head towards Hällesåker. After a while, turn left at the sign for Greggered.\n\nIn Greggered, which is a small village, park in the small gravel area. Bear in mind that the farmer who owns it needs to be able to park his lorry there.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:greggered"
+            ]
+          }
+        },
+        "miljo": {
+          "title": {
+            "text": "Environment",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:greggered"
+            ]
+          },
+          "body": {
+            "text": "Deciduous woodland, with a fine view from the ledge. Not particularly accessible with a pushchair. To reach the top of the crag, walk to the right-hand end of the ledge. The “woodland” around Greggered is quite small. Pack out your shit!",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:greggered"
+            ]
+          }
+        },
+        "accessinformation": {
+          "title": {
+            "text": "Access information",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:greggered"
+            ]
+          },
+          "body": {
+            "text": "Make sure you park so that the landowner has room for his lorry. Do not damage the fence! Sound carries between the crag and the nearest neighbours, so it would be unwise to disturb them (i.e. keep the noise down).",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:greggered"
+            ]
+          }
+        },
+        "huvudklippan": {
+          "title": {
+            "text": "Main crag",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:greggered"
+            ]
+          },
+          "body": {
+            "text": "All routes on the “main crag” are bolted. From Rastafari to Obladi Obladi, this section is 20 metres high.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:greggered"
+            ]
+          }
+        },
+        "hyllan": {
+          "title": {
+            "text": "The ledge",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:greggered"
+            ]
+          },
+          "body": {
+            "text": "Before the metal ladder, there are these two routes:",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:greggered"
+            ]
+          }
+        }
+      },
+      "routes": {
+        "greggered-led-4": {
+          "description": {
+            "text": "Follows the crack and crosses the roof in the gap between the roofs. If you chicken out and head to Ikea's anchor on the right, it makes a good 6a; otherwise continue along the left-leaning crack. Sequencey.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:greggered"
+            ]
+          }
+        },
+        "greggered-led-6": {
+          "description": {
+            "text": "Excellent route!",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:greggered"
+            ]
+          }
+        },
+        "greggered-led-7": {
+          "description": {
+            "text": "Shares the start with Buss 765, but then heads right instead.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:greggered"
+            ]
+          }
+        },
+        "greggered-led-8": {
+          "description": {
+            "text": "Listed as a project in the guidebook.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:greggered"
+            ]
+          }
+        },
+        "greggered-led-10": {
+          "description": {
+            "text": "The chimney five metres before the ladder.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:greggered"
+            ]
+          }
+        },
+        "greggered-led-11": {
+          "description": {
+            "text": "The crack one metre left of the ladder.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:greggered"
+            ]
+          }
+        },
+        "greggered-led-12": {
+          "description": {
+            "text": "Follows the two cracks a metre apart and shares the top-out with the next route.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:greggered"
+            ]
+          }
+        },
+        "greggered-led-13": {
+          "description": {
+            "text": "A hand- and finger-width crack.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:greggered"
+            ]
+          }
+        },
+        "greggered-led-14": {
+          "description": {
+            "text": "Start in front of the tree, climb the left-leaning hand-jam crack, traverse 45cm, then follow the next left-leaning hand crack to the ledge.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:greggered"
+            ]
+          }
+        },
+        "greggered-led-15": {
+          "description": {
+            "text": "There is a single bolt four metres left of Hans's anchor. Jens calls it a top-rope anchor, and it gives three routes graded 6a, 6b and 6b.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:greggered"
+            ]
+          }
+        },
+        "greggered-led-16": {
+          "description": {
+            "text": "Starts in the corner left of Hans/Greta, continues to the roof and then follows a right-leaning crack. Finish at Hans's anchor. Possibly serious/hard to protect.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:greggered"
+            ]
+          }
+        },
+        "greggered-led-17": {
+          "description": {
+            "text": "Climbed on top-rope from Hans's anchor. Starts up Vargen, but instead of escaping into Hans, continue directly below the anchor or slightly left.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:greggered"
+            ]
+          }
+        },
+        "greggered-led-18": {
+          "description": {
+            "text": "Same start as Greta, but heads to the left-hand anchor.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:greggered"
+            ]
+          }
+        },
+        "greggered-led-19": {
+          "description": {
+            "text": "Same start as Hans, but follows the crack system to the right-hand anchor.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:greggered"
+            ]
+          }
+        },
+        "greggered-led-20": {
+          "description": {
+            "text": "Start via a tree and follow the hand-jam crack until the bolts begin. Sport/mixed.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:greggered"
+            ]
+          }
+        },
+        "greggered-led-21": {
+          "description": {
+            "text": "Good, thin face route. Locate it by looking for the bolt line.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:greggered"
+            ]
+          }
+        }
+      }
+    }
   }
 }

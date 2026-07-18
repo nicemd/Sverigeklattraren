@@ -771,5 +771,145 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "A mix of blasted and natural rock.",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:munchenbryggeriet"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "General",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:munchenbryggeriet"
+            ]
+          },
+          "body": {
+            "text": "Some blasted rock and some natural rock.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:munchenbryggeriet"
+            ]
+          }
+        },
+        "vagbeskrivning": {
+          "title": {
+            "text": "Directions",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:munchenbryggeriet"
+            ]
+          },
+          "body": {
+            "text": "The lower section is blasted rock of fairly poor quality, though the upper half, which is natural rock, offers surprisingly good climbing. The biggest advantage is probably how quick it is to get there after work in the evening.\n\nA sketch can be found on Plonk (http://www.plonk.se/oldsite/munchen2.html)\n\nThe six or seven routes whose hangers/anchors were stolen in 2007 have now been restored to their former glory and are climbable again. Read more on Utsidan (http://www.utsidan.se/forum/showthread.php?t=43532)\n\nThe Bolt Committee replaced the hangers on Meja Madeleine's anchor on 12/7 08.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:munchenbryggeriet"
+            ]
+          }
+        },
+        "leder": {
+          "title": {
+            "text": "Routes",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:munchenbryggeriet"
+            ]
+          },
+          "body": {
+            "text": "Left-hand section",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:munchenbryggeriet"
+            ]
+          }
+        }
+      },
+      "routes": {
+        "munchenbryggeriet-led-6": {
+          "description": {
+            "text": "5c to the ledge.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:munchenbryggeriet"
+            ]
+          }
+        },
+        "munchenbryggeriet-led-8": {
+          "description": {
+            "text": "Direct start to Längsta leden. After the ledge, you can also take the finish of Utan remmar.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:munchenbryggeriet"
+            ]
+          }
+        },
+        "munchenbryggeriet-led-13": {
+          "description": {
+            "text": "Variant heading right into Batman 7b+.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:munchenbryggeriet"
+            ]
+          }
+        },
+        "munchenbryggeriet-led-15": {
+          "description": {
+            "text": "Alternative start to Mors dag (7c+ overall) or Batman (7c overall).",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:munchenbryggeriet"
+            ]
+          }
+        },
+        "munchenbryggeriet-led-16": {
+          "description": {
+            "text": "Some claim the bar is in; others say it is not. First ascensionist Claes Thornberg insists that the bar is NOT to be used—it will be sawn off!",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:munchenbryggeriet"
+            ]
+          }
+        },
+        "munchenbryggeriet-led-43": {
+          "description": {
+            "text": "A foothold has broken off. It may be harder now.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:munchenbryggeriet"
+            ]
+          }
+        },
+        "munchenbryggeriet-led-44": {
+          "description": {
+            "text": "Start behind the tree and trend diagonally along the edge.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:munchenbryggeriet"
+            ]
+          }
+        }
+      }
+    }
   }
 }

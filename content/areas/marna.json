@@ -118,5 +118,70 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "=Problem=",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:marna"
+        ]
+      },
+      "sections": {},
+      "routes": {
+        "marna-problem-1": {
+          "description": {
+            "text": "Sit start below the arete, then straight up.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:marna"
+            ]
+          }
+        },
+        "marna-problem-2": {
+          "description": {
+            "text": "Sit start left of the arete, then straight up. The arete and everything to its left are in.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:marna"
+            ]
+          }
+        },
+        "marna-problem-3": {
+          "description": {
+            "text": "The slab on the large boulder.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:marna"
+            ]
+          }
+        },
+        "marna-problem-4": {
+          "description": {
+            "text": "Starts to the right of the tree growing towards the rock, with a swinging start and left hand on the jug. Then straight up!",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:marna"
+            ]
+          }
+        },
+        "marna-problem-5": {
+          "description": {
+            "text": "Starts about 2 metres left of the arete, then goes straight up without using the arete.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:marna"
+            ]
+          }
+        }
+      }
+    }
   }
 }

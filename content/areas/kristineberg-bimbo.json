@@ -99,5 +99,60 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "=General=\nA fairly spread-out area with low boulders and a few walls of questionable quality. However, there is scope to clean up a little more and put up a reasonably good new problem around Nånting. The advantages are that the area is relatively close to town and there are plenty of winter chanterelles when in season! The area has not yet been fully explored. I think more walls and boulders may be found closer to the golf course to the north, on both sides of the road.\n\n=Directions=\nFrom Uppsala, take Route 55 towards Enköping and turn right towards Läby, 3 km after the last set of traffic lights. Park on the right-hand side of the road after about 500 m, or continue a little further and park by the mast on the left. If you head towards the wall with Nånting, for which I have tried to estimate the correct coordinates, the boulders will be scattered on your left. Sorry that I cannot provide a better description of the area, but an imminent move means I do not have time to go out and make a proper map. For now, I hope the videos linked below are enough to find the problems.\n\n=Problems=",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:kristineberg-bimbo"
+        ]
+      },
+      "sections": {},
+      "routes": {
+        "kristineberg-bimbo-problem-1": {
+          "description": {
+            "text": "Stay right of the arete. A fairly delicate top-out.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:kristineberg-bimbo"
+            ]
+          }
+        },
+        "kristineberg-bimbo-problem-2": {
+          "description": {
+            "text": "A strenuous start leads to a balancy move to get established on the slab. Stay left of the arete.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:kristineberg-bimbo"
+            ]
+          }
+        },
+        "kristineberg-bimbo-problem-3": {
+          "description": {
+            "text": "A slightly delicate sequence gets you established on the left of the obvious wall. Then just enjoy it... short but sweet.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:kristineberg-bimbo"
+            ]
+          }
+        },
+        "kristineberg-bimbo-problem-4": {
+          "description": {
+            "text": "Plenty of holds and a little dull, but it was too obvious to resist. Straight up to the highest part of the wall. Pick the funnel chanterelles before putting the pad down.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:kristineberg-bimbo"
+            ]
+          }
+        }
+      }
+    }
   }
 }

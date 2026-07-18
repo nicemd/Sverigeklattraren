@@ -166,5 +166,100 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "",
+        "method": "llm",
+        "model": "gpt-4o-mini",
+        "sourceIds": [
+          "legacy:asberget"
+        ]
+      },
+      "sections": {},
+      "routes": {
+        "asberget-problem-1": {
+          "description": {
+            "text": "The problem starts with a sit start on the right. Follow the edge to the left and finish furthest left by going straight up. Use only the holds under the edge.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:asberget"
+            ]
+          }
+        },
+        "asberget-problem-2": {
+          "description": {
+            "text": "Begin with your left hand in the crack and your right on a crimp. Climb straight up past the horizontal and vertical crack.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:asberget"
+            ]
+          }
+        },
+        "asberget-problem-3": {
+          "description": {
+            "text": "Starts on a small rail for your hands, then climb straight up.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:asberget"
+            ]
+          }
+        },
+        "asberget-problem-4": {
+          "description": {
+            "text": "Start at the bottom left. Follow the edge to the right and finish at the top.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:asberget"
+            ]
+          }
+        },
+        "asberget-problem-5": {
+          "description": {
+            "text": "Start underneath the exit of Mystravers. Climb straight up and finish with the same exit as Mystravers.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:asberget"
+            ]
+          }
+        },
+        "asberget-problem-6": {
+          "description": {
+            "text": "Starts on the left. Follow the edge up to the right and finish at the top.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:asberget"
+            ]
+          }
+        },
+        "asberget-problem-7": {
+          "description": {
+            "text": "Start beneath the small roof, finish straight up.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:asberget"
+            ]
+          }
+        },
+        "asberget-problem-8": {
+          "description": {
+            "text": "Start below the roof and dyno up to the edge.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:asberget"
+            ]
+          }
+        }
+      }
+    }
   }
 }

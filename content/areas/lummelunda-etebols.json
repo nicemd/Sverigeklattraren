@@ -109,5 +109,115 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "A small bouldering area beneath a low cliff. The rock is fairly loose, so topping out can be a bit of an adventure. However, there are a couple of good lines on more solid rock.",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:lummelunda-etebols"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "Overview",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:lummelunda-etebols"
+            ]
+          },
+          "body": {
+            "text": "A small bouldering area by a low crag. The rock is quite loose, so topping out can be something of an adventure. However, there are a couple of good lines on more solid rock.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:lummelunda-etebols"
+            ]
+          }
+        },
+        "vagbeskrivning": {
+          "title": {
+            "text": "Directions",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:lummelunda-etebols"
+            ]
+          },
+          "body": {
+            "text": "At the Kinnerstugan sign, turn left off road 149 and park in the large car park. Walk towards the edge of the crag; the first problems are on the fallen blocks beneath the roof. There are larger fallen blocks further down, with easier problems.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:lummelunda-etebols"
+            ]
+          }
+        },
+        "problem": {
+          "title": {
+            "text": "Problems",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:lummelunda-etebols"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:lummelunda-etebols"
+            ]
+          }
+        }
+      },
+      "routes": {
+        "lummelunda-etebols-problem-1": {
+          "description": {
+            "text": "Starts in the crack at the bottom. Make a long move to a ledge, then follow the arete to the finishing hold.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:lummelunda-etebols"
+            ]
+          }
+        },
+        "lummelunda-etebols-problem-2": {
+          "description": {
+            "text": "Starts in the same crack as Die Erste, but heads out onto the vertical face. Same finishing hold as Die Erste.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:lummelunda-etebols"
+            ]
+          }
+        },
+        "lummelunda-etebols-problem-3": {
+          "description": {
+            "text": "Starts on a jug inside the cave, then follows the rock out and up to a loose top-out.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:lummelunda-etebols"
+            ]
+          }
+        },
+        "lummelunda-etebols-problem-4": {
+          "description": {
+            "text": "On a small block below the crag. Start with the left hand on a jug and the right hand on a hold. Move up to a right-hand gaston, then a left-hand sidepull, with holds all the way after that. The final section is loose; reach past it to top out.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:lummelunda-etebols"
+            ]
+          }
+        }
+      }
+    }
   }
 }

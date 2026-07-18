@@ -142,5 +142,169 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "A small crag in the centre of Södertälje.",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:kanalklippan-sodertalje"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "General",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:kanalklippan-sodertalje"
+            ]
+          },
+          "body": {
+            "text": "Small crag in the centre of Södertälje.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:kanalklippan-sodertalje"
+            ]
+          }
+        },
+        "vagbeskrivning": {
+          "title": {
+            "text": "Directions",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:kanalklippan-sodertalje"
+            ]
+          },
+          "body": {
+            "text": "From Stockholm, take the E4 towards Södertälje centrum. At Birkakorset (traffic lights), turn right, then take the first left. Drive down towards the canal, turn right onto Bergviksgatan and follow the canal until you have passed the crazy golf course. The crag is clearly visible on the right, with the prominent arch in the centre.\n\nTip: Opposite the crag on the other side of the water, but slightly upstream, there is another crag. Park by the nearby boat club and walk 100 m towards the town centre; the crag is then on the right, up in the small wooded area beside the road. Substantial anchors can be found in at least two places. The crag is not visible from a distance.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:kanalklippan-sodertalje"
+            ]
+          }
+        },
+        "miljo": {
+          "title": {
+            "text": "Setting",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:kanalklippan-sodertalje"
+            ]
+          },
+          "body": {
+            "text": "Sunny location with a grassy area below the crag and swimming in the canal. The crag dries quickly due to its westerly aspect (evening sun). Easily accessible, with parking right by the crag. A construction project (owner-occupied flats) is under way immediately to the left of the crag. Access remains unaffected for now. Viewed from the canal, there is another wall behind the crazy golf course. It has an obvious line up the steepest and highest section. The route was top-roped around 2004, but as the lower part of the crag in particular is loose, it has neither been led on nuts nor bolted. The grade may be around 4+, and the upper section is at least a little exposed, making it worth climbing once you have done the other routes.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:kanalklippan-sodertalje"
+            ]
+          }
+        },
+        "leder": {
+          "title": {
+            "text": "Routes",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:kanalklippan-sodertalje"
+            ]
+          },
+          "body": {
+            "text": "The crag has long been climbed on a top-rope. Two routes have been established. Anchors consist of several old iron rings in the rock; the rope should be at least 30 m for top-roping, and slings and carabiners are required. Approximately 15 m of climbing per route. (17 m from the ground to the fixed anchors, with an easy-angled slab at the end.)\n\n1.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:kanalklippan-sodertalje"
+            ]
+          }
+        },
+        "topprepsleder": {
+          "title": {
+            "text": "Top-rope Routes",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:kanalklippan-sodertalje"
+            ]
+          },
+          "body": {
+            "text": "There are more top-rope routes, including an easy one; 3.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:kanalklippan-sodertalje"
+            ]
+          }
+        },
+        "bilder": {
+          "title": {
+            "text": "Images",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:kanalklippan-sodertalje"
+            ]
+          },
+          "body": {
+            "text": "The topo was drawn by Anders Henriksson, who also took the photograph. The topo and photograph are used with permission.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:kanalklippan-sodertalje"
+            ]
+          }
+        }
+      },
+      "routes": {
+        "kanalklippan-sodertalje-led-1": {
+          "description": {
+            "text": "Easy up to the second bolt. The top-out was protected with a nut, where someone has now placed a bolt of unknown origin. The route name comes from the number of pairs of shoes that had to be tried before the route was climbed.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:kanalklippan-sodertalje"
+            ]
+          }
+        },
+        "kanalklippan-sodertalje-led-2": {
+          "description": {
+            "text": "Follow the edge of the doorway (originally climbed without touching the concrete, hence the route name). Supplement the protection with a nut between the first and second bolts.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:kanalklippan-sodertalje"
+            ]
+          }
+        },
+        "kanalklippan-sodertalje-led-3": {
+          "description": {
+            "text": "To the right of the doorway.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:kanalklippan-sodertalje"
+            ]
+          }
+        },
+        "kanalklippan-sodertalje-led-4": {
+          "description": {
+            "text": "A trickier line behind the park bench, 20 m right of the door. Start on blasted rock, then continue straight up to the pine on good edges.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:kanalklippan-sodertalje"
+            ]
+          }
+        }
+      }
+    }
   }
 }

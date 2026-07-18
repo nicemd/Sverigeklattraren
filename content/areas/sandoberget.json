@@ -238,5 +238,110 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "Lakeside crag on Värmdö, along Sandövägen near Rindö.",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:sandoberget"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "General",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:sandoberget"
+            ]
+          },
+          "body": {
+            "text": "A sea cliff on Värmdö, off Sandövägen near Rindö.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:sandoberget"
+            ]
+          }
+        },
+        "miljo": {
+          "title": {
+            "text": "Setting",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:sandoberget"
+            ]
+          },
+          "body": {
+            "text": "South-facing and completely open.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:sandoberget"
+            ]
+          }
+        },
+        "vagbeskrivning": {
+          "title": {
+            "text": "Directions",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:sandoberget"
+            ]
+          },
+          "body": {
+            "text": "At the Hemmesta junction, turn left towards Vaxholm. After about 4 km, turn off towards Sandö. After another 4 km, slabs can be glimpsed by the water on the left, at Sandövägen 77.\n\nPosition: 10 J NV",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:sandoberget"
+            ]
+          }
+        },
+        "access": {
+          "title": {
+            "text": "Access",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:sandoberget"
+            ]
+          },
+          "body": {
+            "text": "The crag is on private land, so please show the utmost consideration. Do not climb during the nesting season.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:sandoberget"
+            ]
+          }
+        },
+        "leder": {
+          "title": {
+            "text": "Routes",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:sandoberget"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:sandoberget"
+            ]
+          }
+        }
+      },
+      "routes": {}
+    }
   }
 }

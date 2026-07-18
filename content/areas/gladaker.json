@@ -410,5 +410,149 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "A beautifully situated crag by Lilla Ullfjärden, opposite the ski slope in Bålsta.\n\nThe approximately 12-metre-high Lower Wall has around ten routes offering fine, steep climbing on red rock. The approximately 12-metre-high Cave finishes with a 50-degree overhang up to 5 metres long.",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:gladaker"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "General",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gladaker"
+            ]
+          },
+          "body": {
+            "text": "A beautifully situated crag by Lilla Ullfjärden, opposite the ski slope in Bålsta.\n\nThe approximately 12-metre-high Nedre väggen has around ten routes offering steep, excellent climbing on red rock. The approximately 12-metre-high Grottan finishes with a 50-degree overhang up to 5 metres long.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gladaker"
+            ]
+          }
+        },
+        "vagbeskrivning": {
+          "title": {
+            "text": "Directions",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gladaker"
+            ]
+          },
+          "body": {
+            "text": "Take the E18 towards Oslo and leave at the first exit for Bålsta, then turn immediately right. After approximately 2 km, turn left towards Sättervikshage. Park here (driving into the area is not permitted. Continue by bike or on foot).",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gladaker"
+            ]
+          }
+        },
+        "access": {
+          "title": {
+            "text": "Access",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gladaker"
+            ]
+          },
+          "body": {
+            "text": "If, against all expectations, anyone nevertheless drives into the military area, note the following: IMPORTANT! Never drive onto the road leading to the red cottage. I have spoken to the landowner (who lives here), who politely but firmly made it clear that he absolutely does not want to see any cars on his road at all. He does not, however, object to climbing on the crag. The landowner is proactive and will not hesitate to use legal means to have any incorrectly parked car removed quickly.\n\nPark by the main road (S. Bålstaleden). If you nevertheless drive into the area (which is not permitted), you can park alongside the tarmac road approximately 200 m beyond the turn-off for the private road, at the risk of, for example, being ticketed by the military.\n\nBut, as stated, never take a car onto the final small private road leading to the cottage.\n\nIt is best not even to walk along the road (he moved here for peace and quiet, so please show respect). Instead, head straight down to the water from the tarmac road and follow the shoreline to the crag.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gladaker"
+            ]
+          }
+        },
+        "leder": {
+          "title": {
+            "text": "Routes",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gladaker"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gladaker"
+            ]
+          }
+        },
+        "huvudvaggen": {
+          "title": {
+            "text": "Main Wall",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gladaker"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gladaker"
+            ]
+          }
+        },
+        "takklippan": {
+          "title": {
+            "text": "Roof Crag",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gladaker"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gladaker"
+            ]
+          }
+        }
+      },
+      "routes": {
+        "gladaker-led-4": {
+          "description": {
+            "text": "Boulder start, protected by a cam placed from the ground, leading up towards a slabby ledge, then a steep wall with good holds to the top. 1 bolt, abseil anchor.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gladaker"
+            ]
+          }
+        },
+        "gladaker-led-6": {
+          "description": {
+            "text": "Steep start on large holds. Head towards the triangular hole, then follow the crack to the top. 4 bolts + nut. Abseil from the pine tree.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gladaker"
+            ]
+          }
+        }
+      }
+    }
   }
 }

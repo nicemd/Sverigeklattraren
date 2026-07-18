@@ -307,5 +307,279 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "=General= Görvälstorp is one of the smaller areas, with a number of established problems and a few projects. =Directions= 3 km north of Jägarhyddan on Route 280. Bus stop (639) Görvälstorp (by the greenhouses). From the bus stop, walk back 200 m to a small tractor track crossing the main road. Parking is available on the left. The track to the right leads to the boulders. Walk about 100 m; Stora blocket will then be visible on the left. Tandenblocket, Lilla stenen and Lutande stenen are nearby. Skogsblocket is about 50 m further into the woods. =Sectors=",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:gorvalstorp-rimbo"
+        ]
+      },
+      "sections": {
+        "stora-blocket": {
+          "title": {
+            "text": "The Big Boulder",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gorvalstorp-rimbo"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gorvalstorp-rimbo"
+            ]
+          }
+        },
+        "tandenblocket": {
+          "title": {
+            "text": "The Tooth Boulder",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gorvalstorp-rimbo"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gorvalstorp-rimbo"
+            ]
+          }
+        },
+        "lilla-stenen": {
+          "title": {
+            "text": "The Little Boulder",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gorvalstorp-rimbo"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gorvalstorp-rimbo"
+            ]
+          }
+        },
+        "lutande-stenen": {
+          "title": {
+            "text": "The Leaning Boulder",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gorvalstorp-rimbo"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gorvalstorp-rimbo"
+            ]
+          }
+        },
+        "skogsblocket": {
+          "title": {
+            "text": "The Forest Boulder",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gorvalstorp-rimbo"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gorvalstorp-rimbo"
+            ]
+          }
+        },
+        "traskblocket": {
+          "title": {
+            "text": "The Marsh Boulder",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gorvalstorp-rimbo"
+            ]
+          },
+          "body": {
+            "text": "=Problems=",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gorvalstorp-rimbo"
+            ]
+          }
+        }
+      },
+      "routes": {
+        "gorvalstorp-rimbo-problem-1": {
+          "description": {
+            "text": "Up the right-hand side of the slab.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gorvalstorp-rimbo"
+            ]
+          }
+        },
+        "gorvalstorp-rimbo-problem-2": {
+          "description": {
+            "text": "The left edge of the overhang.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gorvalstorp-rimbo"
+            ]
+          }
+        },
+        "gorvalstorp-rimbo-problem-3": {
+          "description": {
+            "text": "Start in the middle of the boulder and finish above.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gorvalstorp-rimbo"
+            ]
+          }
+        },
+        "gorvalstorp-rimbo-problem-4": {
+          "description": {
+            "text": "Traverse the edge from right to left.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gorvalstorp-rimbo"
+            ]
+          }
+        },
+        "gorvalstorp-rimbo-problem-5": {
+          "description": {
+            "text": "Up the left edge.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gorvalstorp-rimbo"
+            ]
+          }
+        },
+        "gorvalstorp-rimbo-problem-6": {
+          "description": {
+            "text": "Start in the middle of the boulder, with both feet on the ledge, and climb straight up.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gorvalstorp-rimbo"
+            ]
+          }
+        },
+        "gorvalstorp-rimbo-problem-7": {
+          "description": {
+            "text": "Up the right edge.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gorvalstorp-rimbo"
+            ]
+          }
+        },
+        "gorvalstorp-rimbo-problem-8": {
+          "description": {
+            "text": "Follow the edge from right to left.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gorvalstorp-rimbo"
+            ]
+          }
+        },
+        "gorvalstorp-rimbo-problem-9": {
+          "description": {
+            "text": "Follow the edge from left to right.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gorvalstorp-rimbo"
+            ]
+          }
+        },
+        "gorvalstorp-rimbo-problem-10": {
+          "description": {
+            "text": "The high slab line.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gorvalstorp-rimbo"
+            ]
+          }
+        },
+        "gorvalstorp-rimbo-problem-11": {
+          "description": {
+            "text": "Follow the edge diagonally up right.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gorvalstorp-rimbo"
+            ]
+          }
+        },
+        "gorvalstorp-rimbo-problem-12": {
+          "description": {
+            "text": "Climb over the bulge to the catch, then continue.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gorvalstorp-rimbo"
+            ]
+          }
+        },
+        "gorvalstorp-rimbo-problem-13": {
+          "description": {
+            "text": "The line to the right of Solar Plexus.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gorvalstorp-rimbo"
+            ]
+          }
+        },
+        "gorvalstorp-rimbo-problem-14": {
+          "description": {
+            "text": "The slab boulder. Traverse the edge from left to right.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gorvalstorp-rimbo"
+            ]
+          }
+        },
+        "gorvalstorp-rimbo-problem-15": {
+          "description": {
+            "text": "Climb diagonally up right.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gorvalstorp-rimbo"
+            ]
+          }
+        }
+      }
+    }
   }
 }

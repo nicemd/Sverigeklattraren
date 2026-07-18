@@ -42,5 +42,38 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "From Stockholm\n\nTake the E4 towards Södertälje/Helsingborg. Exit at Hallunda and continue straight ahead, then turn left at the roundabout onto Hågelbyleden. Follow Hågelbyleden to the end, then turn left onto Huddingevägen (226). Follow Huddingevägen to the end, then turn left onto Nynäsvägen (225). Continue for a short distance, then turn right at the sign for \"Grödinge k:a\". Continue ahead with Lake Kvarnsjön visible on the left. Just after the lake, there is a small parking area on a patch of grass to the right.",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:grodinge-ka"
+        ]
+      },
+      "sections": {
+        "vagbeskrivning": {
+          "title": {
+            "text": "Directions",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:grodinge-ka"
+            ]
+          },
+          "body": {
+            "text": "From Stockholm\n\nTake the E4 towards Södertälje/Helsingborg. Take the Hallunda exit and continue straight ahead, then turn left at the roundabout onto Hågelbyleden. Follow Hågelbyleden to the end, then turn left onto Huddingevägen (226). Follow Huddingevägen to the end, then turn left onto Nynäsvägen (225). Continue for a short distance, then turn right at the sign for \"Grödinge k:a\". Continue ahead with Lake Kvarnsjön visible on the left. Just after the end of the lake, there is a small parking area on a patch of grass on the right.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:grodinge-ka"
+            ]
+          }
+        }
+      },
+      "routes": {}
+    }
   }
 }

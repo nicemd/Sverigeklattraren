@@ -35,5 +35,19 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "http://www.klatterverket.se/bloc/utskog.html We have received permission to publish this guide on the Sweden guide.",
+        "method": "llm",
+        "model": "gpt-4o-mini",
+        "sourceIds": [
+          "legacy:utskog"
+        ]
+      },
+      "sections": {},
+      "routes": {}
+    }
   }
 }

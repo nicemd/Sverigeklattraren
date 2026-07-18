@@ -200,5 +200,110 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "A small steep crag at a turning point. Perfect for those wanting to belay from the boot of the car. Nice, solid rock, though it may need some cleaning to regain its former glory.",
+        "method": "llm",
+        "model": "gpt-4o-mini",
+        "sourceIds": [
+          "legacy:vikdal"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "General",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:vikdal"
+            ]
+          },
+          "body": {
+            "text": "A small steep crag by a turning area. A perfect crag for those who want to belay from the boot of their car. Nice and solid rock. It likely needs brushing to regain its former glory.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:vikdal"
+            ]
+          }
+        },
+        "vagbeskrivning": {
+          "title": {
+            "text": "Directions",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:vikdal"
+            ]
+          },
+          "body": {
+            "text": "Take the Värmdöleden to Jarlaberg. Cross the motorway and turn left onto Vikdalsvägen. Follow the road for 700 m to its end.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:vikdal"
+            ]
+          }
+        },
+        "leder": {
+          "title": {
+            "text": "Routes",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:vikdal"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:vikdal"
+            ]
+          }
+        },
+        "vandplanen": {
+          "title": {
+            "text": "Turning area",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:vikdal"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:vikdal"
+            ]
+          }
+        },
+        "ovre-vaggen": {
+          "title": {
+            "text": "Upper wall",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:vikdal"
+            ]
+          },
+          "body": {
+            "text": "Last time I passed by, there was a newly built house below this wall.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:vikdal"
+            ]
+          }
+        }
+      },
+      "routes": {}
+    }
   }
 }

@@ -45,5 +45,56 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "The crag by the swimming pool/Nolhagaskolan. Plenty of trad, plus a few bolted routes. Grippy rock.",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:nolhaga"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "General",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:nolhaga"
+            ]
+          },
+          "body": {
+            "text": "The crag by the swimming pool/Nolhagaskolan. Plenty of trad routes and a few bolted lines. Grippy rock.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:nolhaga"
+            ]
+          }
+        },
+        "mer": {
+          "title": {
+            "text": "More",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:nolhaga"
+            ]
+          },
+          "body": {
+            "text": "A guide is available on the Alingsås Klätterklubb website: http://www.akk.nu/localcrags.aspx?crag=1 A guide is not really necessary, as most of the crag remains unclimbed.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:nolhaga"
+            ]
+          }
+        }
+      },
+      "routes": {}
+    }
   }
 }

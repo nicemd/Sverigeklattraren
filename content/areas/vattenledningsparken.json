@@ -167,5 +167,169 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "Small crag with good top-rope anchors. East-facing, catching the sun in the morning, and dries fairly quickly. Climbing grades around 5-6 at about 8m high. Some parts are slightly mossy, so bring a brush.",
+        "method": "llm",
+        "model": "gpt-4o-mini",
+        "sourceIds": [
+          "legacy:vattenledningsparken"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "General",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:vattenledningsparken"
+            ]
+          },
+          "body": {
+            "text": "A small crag with good top-rope anchors. East-facing, it gets morning sun and dries quickly. Routes are around grades 5-6 and about 8m high. It's a bit mossy in places, so bring a brush.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:vattenledningsparken"
+            ]
+          }
+        },
+        "karta": {
+          "title": {
+            "text": "Map",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:vattenledningsparken"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:vattenledningsparken"
+            ]
+          }
+        },
+        "historia": {
+          "title": {
+            "text": "History",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:vattenledningsparken"
+            ]
+          },
+          "body": {
+            "text": "At Vattenledningsparken, there is the old Åsenverket, which means Åsendammen with its three infiltration ponds. From the 1860s until 1958, Åsenverket was the water reservoir supplying the old town of Jönköping. The old fountains in the infiltration ponds are back in use and, thanks to gravity, they spray water all year round. This results in ice sculptures forming during extremely cold winter periods.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:vattenledningsparken"
+            ]
+          }
+        },
+        "vagbeskrivning": {
+          "title": {
+            "text": "Directions",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:vattenledningsparken"
+            ]
+          },
+          "body": {
+            "text": "Parking is opposite the \"fountains\". From the parking area, walk back along the road. Follow the path to the right down among the trees.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:vattenledningsparken"
+            ]
+          }
+        },
+        "leder": {
+          "title": {
+            "text": "Routes",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:vattenledningsparken"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:vattenledningsparken"
+            ]
+          }
+        },
+        "ovrigt": {
+          "title": {
+            "text": "Miscellaneous",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:vattenledningsparken"
+            ]
+          },
+          "body": {
+            "text": "Around the ponds, there are barbecue spots, tables, and benches. There can be a lot of ants by the wall.\n\nIt may be difficult to reach some top anchors from above. If you want to set up a top rope, take care.\n\nI took the liberty of renaming the routes as no information on the first ascents could be found.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:vattenledningsparken"
+            ]
+          }
+        }
+      },
+      "routes": {
+        "vattenledningsparken-led-2": {
+          "description": {
+            "text": "Harder for shorter climbers.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:vattenledningsparken"
+            ]
+          }
+        },
+        "vattenledningsparken-led-3": {
+          "description": {
+            "text": "Mossy at the top.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:vattenledningsparken"
+            ]
+          }
+        },
+        "vattenledningsparken-led-4": {
+          "description": {
+            "text": "Top rope variation of route 3.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:vattenledningsparken"
+            ]
+          }
+        },
+        "vattenledningsparken-led-5": {
+          "description": {
+            "text": "No top anchor, but seems to be easy climbing from the last bolt. Very mossy, so bring a brush.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:vattenledningsparken"
+            ]
+          }
+        }
+      }
+    }
   }
 }

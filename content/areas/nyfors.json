@@ -279,5 +279,245 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "This area has several small crags offering good but hard bouldering, good aid routes, and conventional but relatively short routes.",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:nyfors"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "General",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:nyfors"
+            ]
+          },
+          "body": {
+            "text": "This area has several small crags offering good but hard bouldering, good aid routes and conventional but relatively short routes.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:nyfors"
+            ]
+          }
+        },
+        "vagbeskrivning": {
+          "title": {
+            "text": "Directions",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:nyfors"
+            ]
+          },
+          "body": {
+            "text": "Park just beyond the terminus of bus 803. Behind the bus shelter is a footpath; follow it to the T-junction. Turn right and follow the road for 150 m. When the road bends, continue straight ahead for 10 m, then turn right onto a clear path (Sörmlandsleden). Follow the path, bearing slightly left; the crag appears on the left after 200 m.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:nyfors"
+            ]
+          }
+        },
+        "kommunikationer": {
+          "title": {
+            "text": "Public transport",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:nyfors"
+            ]
+          },
+          "body": {
+            "text": "Take bus 803 to the Nyfors terminus (Nyforsvägen).",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:nyfors"
+            ]
+          }
+        },
+        "leder": {
+          "title": {
+            "text": "Routes",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:nyfors"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:nyfors"
+            ]
+          }
+        },
+        "oops-klippan": {
+          "title": {
+            "text": "Oops Crag",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:nyfors"
+            ]
+          },
+          "body": {
+            "text": "Small, steep crag with a distinct diagonal line.\n\nLocated along the footpath behind the terraced housing, before Alby skogsväg. It may need some traffic to stop it becoming overgrown.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:nyfors"
+            ]
+          }
+        },
+        "purgatorio-klippan": {
+          "title": {
+            "text": "Purgatorio Crag",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:nyfors"
+            ]
+          },
+          "body": {
+            "text": "A relatively high crag with a superb route. Follow Sörmlandsleden for about 150 m, then bear left to find the crag.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:nyfors"
+            ]
+          }
+        },
+        "nasta-klippa": {
+          "title": {
+            "text": "Next Crag",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:nyfors"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:nyfors"
+            ]
+          }
+        },
+        "alby-natureservat": {
+          "title": {
+            "text": "Alby (Nature Reserve)",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:nyfors"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:nyfors"
+            ]
+          }
+        }
+      },
+      "routes": {
+        "nyfors-led-1": {
+          "description": {
+            "text": "The obvious crack, with a sit start low down on an undercling.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:nyfors"
+            ]
+          }
+        },
+        "nyfors-led-2": {
+          "description": {
+            "text": "The right-hand crack line, with a defined start on a good hold at shoulder height.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:nyfors"
+            ]
+          }
+        },
+        "nyfors-led-3": {
+          "description": {
+            "text": "The right-hand crack line, with a sit start in the same place as",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:nyfors"
+            ]
+          }
+        },
+        "nyfors-led-7": {
+          "description": {
+            "text": "The obvious high crack on the right edge, just before the crag gets lower. Needs cleaning.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:nyfors"
+            ]
+          }
+        },
+        "nyfors-led-8": {
+          "description": {
+            "text": "Start on the obvious crimp 5 m to the right of and climb up left.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:nyfors"
+            ]
+          }
+        },
+        "nyfors-led-9": {
+          "description": {
+            "text": "Start on the obvious crimp 5 m to the right of and climb up right.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:nyfors"
+            ]
+          }
+        },
+        "nyfors-led-10": {
+          "description": {
+            "text": "Sit start at the far right.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:nyfors"
+            ]
+          }
+        },
+        "nyfors-led-12": {
+          "description": {
+            "text": "Sit start by the arete, straight up and top out.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:nyfors"
+            ]
+          }
+        }
+      }
+    }
   }
 }

@@ -86,5 +86,77 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "A lone boulder by the road near Lake Tullan.",
+        "method": "llm",
+        "model": "gpt-4o-mini",
+        "sourceIds": [
+          "legacy:tullanblocket"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "Overview",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tullanblocket"
+            ]
+          },
+          "body": {
+            "text": "A solitary boulder by the road near Lake Tullan.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tullanblocket"
+            ]
+          }
+        },
+        "forare": {
+          "title": {
+            "text": "Climbers",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tullanblocket"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tullanblocket"
+            ]
+          }
+        }
+      },
+      "routes": {
+        "tullanblocket-led-1": {
+          "description": {
+            "text": "Vertical face towards the forest",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tullanblocket"
+            ]
+          }
+        },
+        "tullanblocket-led-2": {
+          "description": {
+            "text": "Arête to the right",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tullanblocket"
+            ]
+          }
+        }
+      }
+    }
   }
 }

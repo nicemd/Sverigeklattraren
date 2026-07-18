@@ -134,5 +134,80 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "=Problems=",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:noret-bimbo"
+        ]
+      },
+      "sections": {},
+      "routes": {
+        "noret-bimbo-problem-1": {
+          "description": {
+            "text": "The obvious line directly in front of the car park. Impossible to miss. Steeply overhanging.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:noret-bimbo"
+            ]
+          }
+        },
+        "noret-bimbo-problem-2": {
+          "description": {
+            "text": "The arete left of Enigma.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:noret-bimbo"
+            ]
+          }
+        },
+        "noret-bimbo-problem-3": {
+          "description": {
+            "text": "Stand start right of Minigrip, on the back of the Enigma boulder. Sit start: easy 7a.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:noret-bimbo"
+            ]
+          }
+        },
+        "noret-bimbo-problem-4": {
+          "description": {
+            "text": "Right of Frasrafikal, just left of the arete.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:noret-bimbo"
+            ]
+          }
+        },
+        "noret-bimbo-problem-5": {
+          "description": {
+            "text": "In the middle of the back of the Enigma boulder.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:noret-bimbo"
+            ]
+          }
+        },
+        "noret-bimbo-problem-6": {
+          "description": {
+            "text": "The overhang on the back of the boulder left of the Enigma boulder. Goes straight up, trending slightly right.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:noret-bimbo"
+            ]
+          }
+        }
+      }
+    }
   }
 }

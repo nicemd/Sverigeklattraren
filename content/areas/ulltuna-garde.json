@@ -28,5 +28,19 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "=Directions=\nDrive south on Dag Hammarskjölds väg from Uppsala. The crag is at the forest edge on the other side of the field on your right, slightly south of SLU. Just before the roundabout at the outskirts of Sunnersta, there's a small gravel road on the right marked \"Russdog\"; turn in there and park.\n\n=Problems=\nLonely Hermit 5c** Mr S (Project)\nFlying Hand Slippery Slope 1. 4\nSlippery Slope 2. 5a",
+        "method": "llm",
+        "model": "gpt-4o-mini",
+        "sourceIds": [
+          "legacy:ulltuna-garde"
+        ]
+      },
+      "sections": {},
+      "routes": {}
+    }
   }
 }

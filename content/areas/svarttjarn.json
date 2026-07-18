@@ -477,5 +477,245 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "Very steep crag featuring some of Stockholm's hardest routes, including 8c/8c+.",
+        "method": "llm",
+        "model": "gpt-4o-mini",
+        "sourceIds": [
+          "legacy:svarttjarn"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "General",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:svarttjarn"
+            ]
+          },
+          "body": {
+            "text": "Very overhanging crag with some of Stockholm's hardest routes, including 8c/8c+.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:svarttjarn"
+            ]
+          }
+        },
+        "extern-forare": {
+          "title": {
+            "text": "External Guide",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:svarttjarn"
+            ]
+          },
+          "body": {
+            "text": "A guide with a sketch is available on Stockholm's Network Guide (http://www.plonk.se/snf/svarttjarn.html)\\n\\n(excerpt from Plonk)\\n\\nWarning! The large block to the left of the overhanging wall, out at Svarttjärn, has moved approximately 1 - 1.5 meters down towards the forest. A smaller block (about 1 ton) that was previously wedged between the block and the wall behind has fallen onto the ledge to the left of Corn Flakes, and more are on the way down. It is not advisable to climb on the three to four routes that go on the block. When the block, which is estimated to weigh 150 - 200 tons, decides to slide the last bit before it rolls down into the forest in front of the crag, you do not want to be clipped into one or more of the bolts!",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:svarttjarn"
+            ]
+          }
+        },
+        "vagbeskrivning": {
+          "title": {
+            "text": "Access Directions",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:svarttjarn"
+            ]
+          },
+          "body": {
+            "text": "Värmdöleden 222. Exit at Ingarö/Gustavsberg towards Ingarö. Right after Brunn, left onto Enkärrsvägen, right onto Svarttjärnsvägen.\\n\\nPark and head into the forest. (Difficult to find, use GPS or the map on SNF (http://plonk.se/oldsite/svarttjarn.html))",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:svarttjarn"
+            ]
+          }
+        },
+        "leder": {
+          "title": {
+            "text": "Routes",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:svarttjarn"
+            ]
+          },
+          "body": {
+            "text": "There are many more routes than these.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:svarttjarn"
+            ]
+          }
+        },
+        "overhangande-vaggen": {
+          "title": {
+            "text": "Overhanging Wall",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:svarttjarn"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:svarttjarn"
+            ]
+          }
+        },
+        "mitten-vaggen": {
+          "title": {
+            "text": "Middle Wall",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:svarttjarn"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:svarttjarn"
+            ]
+          }
+        },
+        "rasvaggen": {
+          "title": {
+            "text": "Falling Wall",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:svarttjarn"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:svarttjarn"
+            ]
+          }
+        },
+        "roda-vaggen": {
+          "title": {
+            "text": "Red Wall",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:svarttjarn"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:svarttjarn"
+            ]
+          }
+        }
+      },
+      "routes": {
+        "svarttjarn-led-5": {
+          "description": {
+            "text": "Starts on Powertrip and moves left into Gränslandet in the middle.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:svarttjarn"
+            ]
+          }
+        },
+        "svarttjarn-led-10": {
+          "description": {
+            "text": "Crystal band to Powertrip.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:svarttjarn"
+            ]
+          }
+        },
+        "svarttjarn-led-11": {
+          "description": {
+            "text": "Powertrip to Crystal band.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:svarttjarn"
+            ]
+          }
+        },
+        "svarttjarn-led-15": {
+          "description": {
+            "text": "The arete.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:svarttjarn"
+            ]
+          }
+        },
+        "svarttjarn-led-17": {
+          "description": {
+            "text": "Sensitive dike. A cam feels good.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:svarttjarn"
+            ]
+          }
+        },
+        "svarttjarn-led-21": {
+          "description": {
+            "text": "Project.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:svarttjarn"
+            ]
+          }
+        },
+        "svarttjarn-led-23": {
+          "description": {
+            "text": "Closed project.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:svarttjarn"
+            ]
+          }
+        },
+        "svarttjarn-led-24": {
+          "description": {
+            "text": "Closed project.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:svarttjarn"
+            ]
+          }
+        }
+      }
+    }
   }
 }

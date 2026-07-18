@@ -1994,5 +1994,1347 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "=Directions=\n\n=Sectors=",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:gaisenjarga-ostra"
+        ]
+      },
+      "sections": {
+        "centrum": {
+          "title": {
+            "text": "Centre",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaisenjarga-ostra"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaisenjarga-ostra"
+            ]
+          }
+        },
+        "intro-blocken": {
+          "title": {
+            "text": "Intro Boulders",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaisenjarga-ostra"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaisenjarga-ostra"
+            ]
+          }
+        },
+        "ostra-sektorn": {
+          "title": {
+            "text": "Eastern Sector",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaisenjarga-ostra"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaisenjarga-ostra"
+            ]
+          }
+        },
+        "hoftoperation": {
+          "title": {
+            "text": "Höftoperation",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaisenjarga-ostra"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaisenjarga-ostra"
+            ]
+          }
+        },
+        "svampen": {
+          "title": {
+            "text": "Svampen",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaisenjarga-ostra"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaisenjarga-ostra"
+            ]
+          }
+        },
+        "bauta": {
+          "title": {
+            "text": "Bauta",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaisenjarga-ostra"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaisenjarga-ostra"
+            ]
+          }
+        },
+        "highball-blocket": {
+          "title": {
+            "text": "Highball Boulder",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaisenjarga-ostra"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaisenjarga-ostra"
+            ]
+          }
+        }
+      },
+      "routes": {
+        "gaisenjarga-ostra-problem-1": {
+          "description": {
+            "text": "Dyno to the right of 20.2 on Boulder 20.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaisenjarga-ostra"
+            ]
+          }
+        },
+        "gaisenjarga-ostra-problem-2": {
+          "description": {
+            "text": "Left of \"Day of...\" on Boulder 12. The sit start is the same grade.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaisenjarga-ostra"
+            ]
+          }
+        },
+        "gaisenjarga-ostra-problem-3": {
+          "description": {
+            "text": "The right arete.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaisenjarga-ostra"
+            ]
+          }
+        },
+        "gaisenjarga-ostra-problem-4": {
+          "description": {
+            "text": "The aretes on the right and left are out, including for the top-out!",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaisenjarga-ostra"
+            ]
+          }
+        },
+        "gaisenjarga-ostra-problem-5": {
+          "description": {
+            "text": "The aretes on the right and left are out, including at the top.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaisenjarga-ostra"
+            ]
+          }
+        },
+        "gaisenjarga-ostra-problem-6": {
+          "description": {
+            "text": "The left arete.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaisenjarga-ostra"
+            ]
+          }
+        },
+        "gaisenjarga-ostra-problem-7": {
+          "description": {
+            "text": "The right edge of the fine slab.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaisenjarga-ostra"
+            ]
+          }
+        },
+        "gaisenjarga-ostra-problem-8": {
+          "description": {
+            "text": "Fine slab!",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaisenjarga-ostra"
+            ]
+          }
+        },
+        "gaisenjarga-ostra-problem-9": {
+          "description": {
+            "text": "Sit start low down on the right of the wall, from two vertical edges. Climb the layback sloping edge. Both aretes are out, as is the edge a long way out left.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaisenjarga-ostra"
+            ]
+          }
+        },
+        "gaisenjarga-ostra-problem-10": {
+          "description": {
+            "text": "The right edge of the fine slab. Without the large holds!",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaisenjarga-ostra"
+            ]
+          }
+        },
+        "gaisenjarga-ostra-problem-11": {
+          "description": {
+            "text": "Straight up the middle of the slab. Take it easy at the top!",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaisenjarga-ostra"
+            ]
+          }
+        },
+        "gaisenjarga-ostra-problem-12": {
+          "description": {
+            "text": "The left side of the arete. Fine!",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaisenjarga-ostra"
+            ]
+          }
+        },
+        "gaisenjarga-ostra-problem-13": {
+          "description": {
+            "text": "Follows the edge to the right.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaisenjarga-ostra"
+            ]
+          }
+        },
+        "gaisenjarga-ostra-problem-14": {
+          "description": {
+            "text": "Hand traverse leftwards along the edge. Sit start.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaisenjarga-ostra"
+            ]
+          }
+        },
+        "gaisenjarga-ostra-problem-15": {
+          "description": {
+            "text": "Straight up the steep face on good holds.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaisenjarga-ostra"
+            ]
+          }
+        },
+        "gaisenjarga-ostra-problem-16": {
+          "description": {
+            "text": "A short problem up the crack.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaisenjarga-ostra"
+            ]
+          }
+        },
+        "gaisenjarga-ostra-problem-17": {
+          "description": {
+            "text": "Delicate and fun climbing up the faint arete.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaisenjarga-ostra"
+            ]
+          }
+        },
+        "gaisenjarga-ostra-problem-18": {
+          "description": {
+            "text": "Jump start with the left hand on a sidepull, then jump for the edge.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaisenjarga-ostra"
+            ]
+          }
+        },
+        "gaisenjarga-ostra-problem-19": {
+          "description": {
+            "text": "Up the rounded slab.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaisenjarga-ostra"
+            ]
+          }
+        },
+        "gaisenjarga-ostra-problem-20": {
+          "description": {
+            "text": "Yes, straight up the bulge! A sit start is possible for the monstrously strong.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaisenjarga-ostra"
+            ]
+          }
+        },
+        "gaisenjarga-ostra-problem-21": {
+          "description": {
+            "text": "Right hand on the arete and jump start. \"Easy for the grade\" =)",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaisenjarga-ostra"
+            ]
+          }
+        },
+        "gaisenjarga-ostra-problem-22": {
+          "description": {
+            "text": "Sit start from the large sidepull right of Homoerotique, then climb up and left following the slopers. Unrepeated!",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaisenjarga-ostra"
+            ]
+          }
+        },
+        "gaisenjarga-ostra-problem-23": {
+          "description": {
+            "text": "Established start from a small undercling and a sloping edge out right. VERY awkward. For more beta, call Gruvan.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaisenjarga-ostra"
+            ]
+          }
+        },
+        "gaisenjarga-ostra-problem-24": {
+          "description": {
+            "text": "Start from good holds. Then it gets a little awkward.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaisenjarga-ostra"
+            ]
+          }
+        },
+        "gaisenjarga-ostra-problem-25": {
+          "description": {
+            "text": "Up via the crack. Watch out for the rock in the landing.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaisenjarga-ostra"
+            ]
+          }
+        },
+        "gaisenjarga-ostra-problem-26": {
+          "description": {
+            "text": "Between 131 and 132. Climb up to the right of the edge.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaisenjarga-ostra"
+            ]
+          }
+        },
+        "gaisenjarga-ostra-problem-27": {
+          "description": {
+            "text": "The pale, steep arete. Dynamic start! Left hand on the arete and jump start with the right.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaisenjarga-ostra"
+            ]
+          }
+        },
+        "gaisenjarga-ostra-problem-28": {
+          "description": {
+            "text": "Established start with the left hand on the arete and the right hand on the obvious pinch.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaisenjarga-ostra"
+            ]
+          }
+        },
+        "gaisenjarga-ostra-problem-29": {
+          "description": {
+            "text": "Start low on the left of the slab. The problem finishes left at the top. An easier variation goes right to the undercling.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaisenjarga-ostra"
+            ]
+          }
+        },
+        "gaisenjarga-ostra-problem-30": {
+          "description": {
+            "text": "A short, fun and tricky slab problem.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaisenjarga-ostra"
+            ]
+          }
+        },
+        "gaisenjarga-ostra-problem-31": {
+          "description": {
+            "text": "One step right of 151. The right arete is out.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaisenjarga-ostra"
+            ]
+          }
+        },
+        "gaisenjarga-ostra-problem-32": {
+          "description": {
+            "text": "Good holds. Delicate finish.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaisenjarga-ostra"
+            ]
+          }
+        },
+        "gaisenjarga-ostra-problem-33": {
+          "description": {
+            "text": "Left hand on the arete. Jump start with the right, then mantle!",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaisenjarga-ostra"
+            ]
+          }
+        },
+        "gaisenjarga-ostra-problem-34": {
+          "description": {
+            "text": "Sit start on the arete at the bottom right. Hand traverse right and mantle.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaisenjarga-ostra"
+            ]
+          }
+        },
+        "gaisenjarga-ostra-problem-35": {
+          "description": {
+            "text": "Fun moves up the edge and wall. Fine!",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaisenjarga-ostra"
+            ]
+          }
+        },
+        "gaisenjarga-ostra-problem-36": {
+          "description": {
+            "text": "The sit start to 171.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaisenjarga-ostra"
+            ]
+          }
+        },
+        "gaisenjarga-ostra-problem-37": {
+          "description": {
+            "text": "Start on the arete, then climb up and right. High finish.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaisenjarga-ostra"
+            ]
+          }
+        },
+        "gaisenjarga-ostra-problem-38": {
+          "description": {
+            "text": "Start lower down on the right of the wall and climb straight up via a sloper, if you like, to a high finish.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaisenjarga-ostra"
+            ]
+          }
+        },
+        "gaisenjarga-ostra-problem-39": {
+          "description": {
+            "text": "Start with the left hand on the \"tennis-ball-like hold\" and climb straight over the bulge.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaisenjarga-ostra"
+            ]
+          }
+        },
+        "gaisenjarga-ostra-problem-40": {
+          "description": {
+            "text": "The fine arete. A little morpho.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaisenjarga-ostra"
+            ]
+          }
+        },
+        "gaisenjarga-ostra-problem-41": {
+          "description": {
+            "text": "Established start. Begin from the start markers, which have not yet been painted, and climb diagonally up right.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaisenjarga-ostra"
+            ]
+          }
+        },
+        "gaisenjarga-ostra-problem-42": {
+          "description": {
+            "text": "Slab with a slightly awkward start.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaisenjarga-ostra"
+            ]
+          }
+        },
+        "gaisenjarga-ostra-problem-43": {
+          "description": {
+            "text": "Steep, short and fun. Difficult start if you are short.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaisenjarga-ostra"
+            ]
+          }
+        },
+        "gaisenjarga-ostra-problem-44": {
+          "description": {
+            "text": "Steep start.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaisenjarga-ostra"
+            ]
+          }
+        },
+        "gaisenjarga-ostra-problem-45": {
+          "description": {
+            "text": "Large holds.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaisenjarga-ostra"
+            ]
+          }
+        },
+        "gaisenjarga-ostra-problem-46": {
+          "description": {
+            "text": "Straight up on edges on the slightly lichenous wall.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaisenjarga-ostra"
+            ]
+          }
+        },
+        "gaisenjarga-ostra-problem-47": {
+          "description": {
+            "text": "The arete right of 201.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaisenjarga-ostra"
+            ]
+          }
+        },
+        "gaisenjarga-ostra-problem-48": {
+          "description": {
+            "text": "Established start on the edge beneath the small overhang. Launch upwards, traverse left and finish by the \"small rock\".",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaisenjarga-ostra"
+            ]
+          }
+        },
+        "gaisenjarga-ostra-problem-49": {
+          "description": {
+            "text": "Left hand on a sloper and right hand on the edge beneath the roof. Climb straight up and finish as for \"gotto get...\"",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaisenjarga-ostra"
+            ]
+          }
+        },
+        "gaisenjarga-ostra-problem-50": {
+          "description": {
+            "text": "Start at the far left of the ramp and finish at the far right.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaisenjarga-ostra"
+            ]
+          }
+        },
+        "gaisenjarga-ostra-problem-51": {
+          "description": {
+            "text": "Sit start beneath the small roof arete on the left edge. Make a footless pull into a right heel hook. Excellent!",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaisenjarga-ostra"
+            ]
+          }
+        },
+        "gaisenjarga-ostra-problem-52": {
+          "description": {
+            "text": "Sit start with the right hand on the small knob and the left on the obvious hold. Then climb up leftwards.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaisenjarga-ostra"
+            ]
+          }
+        },
+        "gaisenjarga-ostra-problem-53": {
+          "description": {
+            "text": "Start on the marked holds. Straight up over the bulge.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaisenjarga-ostra"
+            ]
+          }
+        },
+        "gaisenjarga-ostra-problem-54": {
+          "description": {
+            "text": "Start at the far left of the ‘lip’ and traverse right. Finish on the arete.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaisenjarga-ostra"
+            ]
+          }
+        },
+        "gaisenjarga-ostra-problem-55": {
+          "description": {
+            "text": "The boulder 5 m east of Sockertoppen. Sit start out right. Traverse left and mantle before the rock.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaisenjarga-ostra"
+            ]
+          }
+        },
+        "gaisenjarga-ostra-problem-56": {
+          "description": {
+            "text": "The sit start on the other side of Sluta röka linjen, i.e. the left-hand sit start. Awkward start, dyno to the edge, then finish as for Sluta röka linjen.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaisenjarga-ostra"
+            ]
+          }
+        },
+        "gaisenjarga-ostra-problem-57": {
+          "description": {
+            "text": "At the far right of the small slab on the south side of Block 1.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaisenjarga-ostra"
+            ]
+          }
+        },
+        "gaisenjarga-ostra-problem-58": {
+          "description": {
+            "text": "The boulder has a face overlooking the road. The left-hand arete.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaisenjarga-ostra"
+            ]
+          }
+        },
+        "gaisenjarga-ostra-problem-59": {
+          "description": {
+            "text": "Straight up the face overlooking the road.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaisenjarga-ostra"
+            ]
+          }
+        },
+        "gaisenjarga-ostra-problem-60": {
+          "description": {
+            "text": "Sit start at the right-hand arete on the overhanging side of the boulder. Establish with the left hand on the sidepull and the right hand low on the arete. Climb up, traverse left and top out. Excellent!",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaisenjarga-ostra"
+            ]
+          }
+        },
+        "gaisenjarga-ostra-problem-61": {
+          "description": {
+            "text": "Sit start on the same arete as Sluta röka linjen, but finish straight up. Reachy.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaisenjarga-ostra"
+            ]
+          }
+        },
+        "gaisenjarga-ostra-problem-62": {
+          "description": {
+            "text": "Straight up the fine slab, without the edges. Start from the rock to the right.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaisenjarga-ostra"
+            ]
+          }
+        },
+        "gaisenjarga-ostra-problem-63": {
+          "description": {
+            "text": "The left edge of the slab.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaisenjarga-ostra"
+            ]
+          }
+        },
+        "gaisenjarga-ostra-problem-64": {
+          "description": {
+            "text": "Straight up on large holds.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaisenjarga-ostra"
+            ]
+          }
+        },
+        "gaisenjarga-ostra-problem-65": {
+          "description": {
+            "text": "The fine arete with a tricky start. There is a variant to the right of the arete that excludes it.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaisenjarga-ostra"
+            ]
+          }
+        },
+        "gaisenjarga-ostra-problem-66": {
+          "description": {
+            "text": "Establish on the two obvious slopers, far left on the west side of the boulder. Mantle!",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaisenjarga-ostra"
+            ]
+          }
+        },
+        "gaisenjarga-ostra-problem-67": {
+          "description": {
+            "text": "Start on the two obvious slopers. Traverse right and finish up problem 34.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaisenjarga-ostra"
+            ]
+          }
+        },
+        "gaisenjarga-ostra-problem-68": {
+          "description": {
+            "text": "Sit start, then hand traverse left along the edge and top out. Standing start 5+.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaisenjarga-ostra"
+            ]
+          }
+        },
+        "gaisenjarga-ostra-problem-69": {
+          "description": {
+            "text": "Straight up. The start is probably hard for shorter climbers.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaisenjarga-ostra"
+            ]
+          }
+        },
+        "gaisenjarga-ostra-problem-70": {
+          "description": {
+            "text": "Start low on the obvious hold. Straight up!",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaisenjarga-ostra"
+            ]
+          }
+        },
+        "gaisenjarga-ostra-problem-71": {
+          "description": {
+            "text": "Start on the onigiri-shaped hold on the arete. Then climb up!",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaisenjarga-ostra"
+            ]
+          }
+        },
+        "gaisenjarga-ostra-problem-72": {
+          "description": {
+            "text": "Midway between 44 and 46.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaisenjarga-ostra"
+            ]
+          }
+        },
+        "gaisenjarga-ostra-problem-73": {
+          "description": {
+            "text": "A fine hand traverse on Block 4, left of problem 4.4, starting on an obvious hold on an arete and finishing as for Maja min Braja. Excellent.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaisenjarga-ostra"
+            ]
+          }
+        },
+        "gaisenjarga-ostra-problem-74": {
+          "description": {
+            "text": "Crawl down into the hole. Establish on the large edge and climb straight up. Excellent!",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaisenjarga-ostra"
+            ]
+          }
+        },
+        "gaisenjarga-ostra-problem-75": {
+          "description": {
+            "text": "Short but fun slab.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaisenjarga-ostra"
+            ]
+          }
+        },
+        "gaisenjarga-ostra-problem-76": {
+          "description": {
+            "text": "Up the left side of the arete, with a difficult start.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaisenjarga-ostra"
+            ]
+          }
+        },
+        "gaisenjarga-ostra-problem-77": {
+          "description": {
+            "text": "Establish with the left hand on the sidepull left of the arete and the right hand on the arete. One move, then mantle.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaisenjarga-ostra"
+            ]
+          }
+        },
+        "gaisenjarga-ostra-problem-78": {
+          "description": {
+            "text": "Mantle onto the slab.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaisenjarga-ostra"
+            ]
+          }
+        },
+        "gaisenjarga-ostra-problem-79": {
+          "description": {
+            "text": "Up the slab.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaisenjarga-ostra"
+            ]
+          }
+        },
+        "gaisenjarga-ostra-problem-80": {
+          "description": {
+            "text": "Slab.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaisenjarga-ostra"
+            ]
+          }
+        },
+        "gaisenjarga-ostra-problem-81": {
+          "description": {
+            "text": "Slab.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaisenjarga-ostra"
+            ]
+          }
+        },
+        "gaisenjarga-ostra-problem-82": {
+          "description": {
+            "text": "Straight up the vertical face without the edges. Sit start 5-.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaisenjarga-ostra"
+            ]
+          }
+        },
+        "gaisenjarga-ostra-problem-83": {
+          "description": {
+            "text": "Slab.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaisenjarga-ostra"
+            ]
+          }
+        },
+        "gaisenjarga-ostra-problem-84": {
+          "description": {
+            "text": "Right of problem 84.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaisenjarga-ostra"
+            ]
+          }
+        },
+        "gaisenjarga-ostra-problem-85": {
+          "description": {
+            "text": "An easier slab on the south/south-east side of ‘Grönan’ (50–100 m south-east of Bauta).",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaisenjarga-ostra"
+            ]
+          }
+        },
+        "gaisenjarga-ostra-problem-86": {
+          "description": {
+            "text": "A short slab on the west side of a boulder (‘Grönan’), 50–100 m south-east of Bautablocket (no. 23).",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaisenjarga-ostra"
+            ]
+          }
+        },
+        "gaisenjarga-ostra-problem-87": {
+          "description": {
+            "text": "A longer slab with a step-up start on the south-west side of ‘Grönan’, a boulder 50–100 m south-east of Bauta.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaisenjarga-ostra"
+            ]
+          }
+        },
+        "gaisenjarga-ostra-problem-88": {
+          "description": {
+            "text": "A really fun catch from the large hold by the pale streak.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaisenjarga-ostra"
+            ]
+          }
+        },
+        "gaisenjarga-ostra-problem-89": {
+          "description": {
+            "text": "Start from the boulder.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaisenjarga-ostra"
+            ]
+          }
+        },
+        "gaisenjarga-ostra-problem-90": {
+          "description": {
+            "text": "The short crack.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaisenjarga-ostra"
+            ]
+          }
+        },
+        "gaisenjarga-ostra-problem-91": {
+          "description": {
+            "text": "A fun move onto the rounded ‘arete’.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaisenjarga-ostra"
+            ]
+          }
+        },
+        "gaisenjarga-ostra-problem-92": {
+          "description": {
+            "text": "Short crack.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaisenjarga-ostra"
+            ]
+          }
+        },
+        "gaisenjarga-ostra-problem-93": {
+          "description": {
+            "text": "A fun problem on the left edge of the face, using an unusual hold.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaisenjarga-ostra"
+            ]
+          }
+        },
+        "gaisenjarga-ostra-problem-94": {
+          "description": {
+            "text": "Sit start immediately beside problem 452. Establish, send and mantle.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaisenjarga-ostra"
+            ]
+          }
+        },
+        "gaisenjarga-ostra-problem-95": {
+          "description": {
+            "text": "A fun mantle up into the corner. Hard!!",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaisenjarga-ostra"
+            ]
+          }
+        },
+        "gaisenjarga-ostra-problem-96": {
+          "description": {
+            "text": "Slab. Some lichen. Quite high.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaisenjarga-ostra"
+            ]
+          }
+        },
+        "gaisenjarga-ostra-problem-97": {
+          "description": {
+            "text": "A slightly delicate slab with a fairly high finish.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaisenjarga-ostra"
+            ]
+          }
+        },
+        "gaisenjarga-ostra-problem-98": {
+          "description": {
+            "text": "Pale face with good holds.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaisenjarga-ostra"
+            ]
+          }
+        },
+        "gaisenjarga-ostra-problem-99": {
+          "description": {
+            "text": "Short problem with good holds on the steep side. The easiest way down!",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaisenjarga-ostra"
+            ]
+          }
+        },
+        "gaisenjarga-ostra-problem-100": {
+          "description": {
+            "text": "The steep arete on the south-east corner.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaisenjarga-ostra"
+            ]
+          }
+        },
+        "gaisenjarga-ostra-problem-101": {
+          "description": {
+            "text": "Low established start on the right arete, using the obvious large starting hold. Trends diagonally up left.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaisenjarga-ostra"
+            ]
+          }
+        },
+        "gaisenjarga-ostra-problem-102": {
+          "description": {
+            "text": "Awkward sit start to the problem above.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaisenjarga-ostra"
+            ]
+          }
+        },
+        "gaisenjarga-ostra-problem-103": {
+          "description": {
+            "text": "Straight up the brushed grey streak. Great view from the top. A nerve-rackingly high slab. Don't fall off, idiot!",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaisenjarga-ostra"
+            ]
+          }
+        },
+        "gaisenjarga-ostra-problem-104": {
+          "description": {
+            "text": "Start to the right of the stone at the base.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaisenjarga-ostra"
+            ]
+          }
+        },
+        "gaisenjarga-ostra-problem-105": {
+          "description": {
+            "text": "Right of Solstorm. Straight up, with a scary mantle at the end.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaisenjarga-ostra"
+            ]
+          }
+        },
+        "gaisenjarga-ostra-problem-106": {
+          "description": {
+            "text": "The obvious slab right of Solkraft. Twisted! Gaisens Duel?",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaisenjarga-ostra"
+            ]
+          }
+        },
+        "gaisenjarga-ostra-problem-107": {
+          "description": {
+            "text": "The boulder's right arete. Establish, then climb to the top!",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaisenjarga-ostra"
+            ]
+          }
+        },
+        "gaisenjarga-ostra-problem-108": {
+          "description": {
+            "text": "Follow the crack.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaisenjarga-ostra"
+            ]
+          }
+        },
+        "gaisenjarga-ostra-problem-109": {
+          "description": {
+            "text": "Start on the obvious hold in the middle of the overhang, then go straight up.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaisenjarga-ostra"
+            ]
+          }
+        },
+        "gaisenjarga-ostra-problem-110": {
+          "description": {
+            "text": "Hand traverse from left to right on the east side of the Miss Piggy boulder, which lies directly east of Boulder 3 (Sockertoppen) and slightly south of 22 (Svampen) and 23 (Bauta).",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaisenjarga-ostra"
+            ]
+          }
+        },
+        "gaisenjarga-ostra-problem-111": {
+          "description": {
+            "text": "Start on the sloper above the small arete, then follow the edge right. Mantle onto the top.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaisenjarga-ostra"
+            ]
+          }
+        },
+        "gaisenjarga-ostra-problem-112": {
+          "description": {
+            "text": "Start on the obvious undercling and crimp. Fine climbing and just the right height.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaisenjarga-ostra"
+            ]
+          }
+        },
+        "gaisenjarga-ostra-problem-113": {
+          "description": {
+            "text": "Starts 3 m right of solstorm. Climb straight up to the edge/arete and make a scary mantle.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaisenjarga-ostra"
+            ]
+          }
+        },
+        "gaisenjarga-ostra-problem-114": {
+          "description": {
+            "text": "Start with your left hand on the large hold and your right around the arete. One starting hold has broken off, so it is probably harder these days.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaisenjarga-ostra"
+            ]
+          }
+        },
+        "gaisenjarga-ostra-problem-115": {
+          "description": {
+            "text": "Up the arete. Slightly harder if you finish left.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaisenjarga-ostra"
+            ]
+          }
+        },
+        "gaisenjarga-ostra-problem-116": {
+          "description": {
+            "text": "Start low in the crack, then climb up and over the lip.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaisenjarga-ostra"
+            ]
+          }
+        },
+        "gaisenjarga-ostra-problem-117": {
+          "description": {
+            "text": "Establish on the obvious ledge, then go straight up. The arete is out.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaisenjarga-ostra"
+            ]
+          }
+        },
+        "gaisenjarga-ostra-problem-118": {
+          "description": {
+            "text": "Establish on the arete and get to the top by the easiest method.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaisenjarga-ostra"
+            ]
+          }
+        },
+        "gaisenjarga-ostra-problem-119": {
+          "description": {
+            "text": "Start with your left hand in the crack and your right on the ramp. Climb right and mantle over at the end. An obvious, superb line!",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaisenjarga-ostra"
+            ]
+          }
+        },
+        "gaisenjarga-ostra-problem-120": {
+          "description": {
+            "text": "Step onto the large stone and grab the edge. Straight up via the bulge.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaisenjarga-ostra"
+            ]
+          }
+        }
+      }
+    }
   }
 }

@@ -102,5 +102,92 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "A couple of south-facing icefalls. They form relatively late in the season. A good place to stop if you are heading to Bohuslän and want to take a route other than the E6. Gissa Bajset is only 50 m from the nearest house.",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:lilla-edet"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "General",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:lilla-edet"
+            ]
+          },
+          "body": {
+            "text": "A couple of different south-facing icefalls. These falls form relatively late in the season. A good place to stop if you are heading to Bohuslän and want an alternative to the E6. Gissa Bajset is only 50 m from the nearest house.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:lilla-edet"
+            ]
+          }
+        },
+        "leder": {
+          "title": {
+            "text": "Routes",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:lilla-edet"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:lilla-edet"
+            ]
+          }
+        },
+        "vagbeskrivning": {
+          "title": {
+            "text": "Directions",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:lilla-edet"
+            ]
+          },
+          "body": {
+            "text": "From Göteborg, take the E45 north towards Karlstad. When you reach Lilla Edet after about 50 km, take the exit for road 167 towards Ljungskile. After passing through Lilla Edet and crossing the Göta älv, you will come to a set of traffic lights. Go straight ahead at the junction and continue for 1.8 km until you reach a sharp left-hand bend at the foot of a long hill. In the middle of the bend, turn off to the right and park after 100 m on the right, at the tractor access to the field. You should then be able to see the icefalls along the hillside. Walk about 200 m along the road 58.147779, 12.090687,\n\nTo find it on Google Maps, search for \"Uxås 275, 463 92 Lilla Edet\".",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:lilla-edet"
+            ]
+          }
+        },
+        "access": {
+          "title": {
+            "text": "Access",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:lilla-edet"
+            ]
+          },
+          "body": {
+            "text": "Park considerately. Keep a low profile, as there are houses very close by. Communicate by walkie-talkie, phone or rope commands to avoid causing a disturbance. We spoke to the residents on 130203, and they have no objection to climbers.\n\n--JM 27 February 2013 at 19.34 (CET)",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:lilla-edet"
+            ]
+          }
+        }
+      },
+      "routes": {}
+    }
   }
 }

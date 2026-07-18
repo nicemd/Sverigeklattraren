@@ -39,5 +39,56 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "Skellefteå’s most popular crag. Routes at all grades, though unfortunately they are becoming overgrown with moss. The routes are spread across four smaller walls.",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:falkberget"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "Overview",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:falkberget"
+            ]
+          },
+          "body": {
+            "text": "Skellefteå's most popular crag. Routes in all grades, though unfortunately they are becoming overgrown with moss. The routes are spread across four small walls.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:falkberget"
+            ]
+          }
+        },
+        "miljo": {
+          "title": {
+            "text": "Aspect and conditions",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:falkberget"
+            ]
+          },
+          "body": {
+            "text": "North-facing, but sheltered. A good place to climb in midsummer.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:falkberget"
+            ]
+          }
+        }
+      },
+      "routes": {}
+    }
   }
 }

@@ -48,5 +48,74 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "Small bouldering area at Åkers Styckebruk.",
+        "method": "llm",
+        "model": "gpt-4o-mini",
+        "sourceIds": [
+          "legacy:akers"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "General",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:akers"
+            ]
+          },
+          "body": {
+            "text": "A small bouldering area at Åkers Styckebruk.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:akers"
+            ]
+          }
+        },
+        "vagbeskrivning": {
+          "title": {
+            "text": "Directions",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:akers"
+            ]
+          },
+          "body": {
+            "text": "Drive west on the E20 from Södertälje and turn off after about 30 km towards Åkers Styckebruk. Drive through Åkers Styckebruk, past a Statoil petrol station, and then keep left 200 m later at the factory. Follow the road around the factory and then take a left onto the gravel road that follows Köpingevägen. Cross the fields on this road, keep left at the fork, and continue until you reach the picnic area by the lake where parking is also available (if you reach the cabins, you have gone too far).\n\nFollow the path from the parking area uphill, and you will arrive at the climbing area after about 150-200 meters.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:akers"
+            ]
+          }
+        },
+        "forare": {
+          "title": {
+            "text": "Guide",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:akers"
+            ]
+          },
+          "body": {
+            "text": "Media:åkers.pdf",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:akers"
+            ]
+          }
+        }
+      },
+      "routes": {}
+    }
   }
 }

@@ -198,5 +198,133 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "Rösås is an impressive 120-metre crag with a strong trad character.",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:rosas"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "Overview",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:rosas"
+            ]
+          },
+          "body": {
+            "text": "Rösås is an impressive 120 m crag with a strong trad character.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:rosas"
+            ]
+          }
+        },
+        "vagbeskrivning": {
+          "title": {
+            "text": "Directions",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:rosas"
+            ]
+          },
+          "body": {
+            "text": "From Örnsköldsvik, head south along the E4 for about 3 km. Turn right off the E4, signposted Route 348 towards Åsele. After 14 km, turn right onto Molidenvägen. On entering the village, follow the signs for Rösåsberget. Pass a football pitch and an old railway station. Park at the turning area below the crag.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:rosas"
+            ]
+          }
+        },
+        "idag-rekommenderade-leder": {
+          "title": {
+            "text": "Currently recommended routes",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:rosas"
+            ]
+          },
+          "body": {
+            "text": "Rösås is becoming overgrown with moss. Only a few routes are currently in climbable condition. The following routes are good to climb at present:",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:rosas"
+            ]
+          }
+        },
+        "forare": {
+          "title": {
+            "text": "Guidebook",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:rosas"
+            ]
+          },
+          "body": {
+            "text": "A PDF guidebook can be downloaded from UKHK.se (http://klatterklubben.wordpress.com/forare/)",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:rosas"
+            ]
+          }
+        }
+      },
+      "routes": {
+        "rosas-led-1": {
+          "description": {
+            "text": "New sport route in the gully. Steep, with good holds. Left of the classic Sprickan.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:rosas"
+            ]
+          }
+        },
+        "rosas-led-2": {
+          "description": {
+            "text": "Sport route on the right-hand side of the gully wall.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:rosas"
+            ]
+          }
+        },
+        "rosas-led-3": {
+          "description": {
+            "text": "A Rösås classic!",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:rosas"
+            ]
+          }
+        },
+        "rosas-led-4": {
+          "description": {
+            "text": "Classic traverse halfway up.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:rosas"
+            ]
+          }
+        }
+      }
+    }
   }
 }

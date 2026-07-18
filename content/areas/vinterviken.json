@@ -116,5 +116,123 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "The rock is a bit chossy in places. The left side is the most appealing, where you can find a few problems in the 5c-7a range.",
+        "method": "llm",
+        "model": "gpt-4o-mini",
+        "sourceIds": [
+          "legacy:vinterviken"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "General",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:vinterviken"
+            ]
+          },
+          "body": {
+            "text": "The crag is a bit rotten in places. The left side is the finest, where you can find a few problems in the 5c-7a range.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:vinterviken"
+            ]
+          }
+        },
+        "vagbeskrivning": {
+          "title": {
+            "text": "Access",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:vinterviken"
+            ]
+          },
+          "body": {
+            "text": "The crag is a few minutes' walk out on the point from Vintervikens Café (the old Sculpture House) on the right side of the path.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:vinterviken"
+            ]
+          }
+        },
+        "leder": {
+          "title": {
+            "text": "Routes",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:vinterviken"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:vinterviken"
+            ]
+          }
+        },
+        "repturer": {
+          "title": {
+            "text": "Rappels",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:vinterviken"
+            ]
+          },
+          "body": {
+            "text": "Yes, there are a couple of those; one is to the right of the chimney. The fluttery ear, graded 6c, was led as a sport route with a static rope and loops hung from the top. The other is across the bay in a blasting pit, roughly 7a-7b, actually three-star. This one was set up in the same way. These were established about 4-5 years ago.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:vinterviken"
+            ]
+          }
+        }
+      },
+      "routes": {
+        "vinterviken-problem-1": {
+          "description": {
+            "text": "Do not stand on the scrambling rock at the start.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:vinterviken"
+            ]
+          }
+        },
+        "vinterviken-problem-2": {
+          "description": {
+            "text": "Start SS. Try to do it with as few moves as possible.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:vinterviken"
+            ]
+          }
+        },
+        "vinterviken-problem-3": {
+          "description": {
+            "text": "Start SS)",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:vinterviken"
+            ]
+          }
+        }
+      }
+    }
   }
 }

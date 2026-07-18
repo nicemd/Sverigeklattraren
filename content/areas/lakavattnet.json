@@ -55,5 +55,92 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "The information is based on material from the Östersund Climbing Club website.",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:lakavattnet"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "General",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:lakavattnet"
+            ]
+          },
+          "body": {
+            "text": "The information is based on material from the Östersund Climbing Club website.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:lakavattnet"
+            ]
+          }
+        },
+        "vagbeskrivning": {
+          "title": {
+            "text": "Directions",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:lakavattnet"
+            ]
+          },
+          "body": {
+            "text": "From Östersund, drive towards Krokom, then take road 339 towards Föllinge. In Föllinge, turn right towards Laxsjö and continue past Laxsjö until Lakavattnet is signposted on the left. About 90 km from Östersund. Park where the road ends. Follow the snowmobile trail straight ahead for about 100 metres, then head right, straight up towards the ice (icefalls 1–3). The approach is short and easy. Follow the snowmobile trail for about 200 m to easily reach the next icefall (no. 4).",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:lakavattnet"
+            ]
+          }
+        },
+        "leder": {
+          "title": {
+            "text": "Routes",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:lakavattnet"
+            ]
+          },
+          "body": {
+            "text": "There are four icefalls to climb, three of which are clearly visible from the snowmobile trail; the fourth is about another 200 metres along the trail. The area lies within Hottagen Nature Reserve, in beautiful terrain near the mountains with fine views over the lake.\n\nThe climbing is steep and sustained, with scope for several fine mixed lines. The following icefalls are described from right to left; the first three are visible from the road:\n\nIcefall no. 1: 30 m of easy, low-angled ice just right of a substantial overhang. Icefall no. 2: A steep pillar emerging from the rock in the aforementioned overhang; 10 m of vertical free-hanging (sometimes suspect) ice, followed by about 3 m of lower-angled rock. Icefall no. 3: Just to the left, 30 m of steep, sustained ice narrowing to a pillar at the top – a fine line. Icefall no. 4: A steep pillar in the centre of the ice, with a few ledges halfway up, then slightly lower-angled towards the top. Just over 30 m – a fine line. There is scope for several vertical to slightly overhanging mixed lines both left and right of the solid ice in the centre.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:lakavattnet"
+            ]
+          }
+        },
+        "ovrigt": {
+          "title": {
+            "text": "Other Information",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:lakavattnet"
+            ]
+          },
+          "body": {
+            "text": "Lakavattnet on the ÖKK website (http://www.ostersundskk.se/is/index.php?id=9)",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:lakavattnet"
+            ]
+          }
+        }
+      },
+      "routes": {}
+    }
   }
 }

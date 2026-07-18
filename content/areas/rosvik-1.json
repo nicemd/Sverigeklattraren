@@ -326,5 +326,130 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "=Problems=",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:rosvik-1"
+        ]
+      },
+      "sections": {},
+      "routes": {
+        "rosvik-1-problem-1": {
+          "description": {
+            "text": "Start the traverse on the back of the boulder known as Jug-house. Traverse the entire side to the front, then continue to no. 15, Days of thunder, and finish the same way.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:rosvik-1"
+            ]
+          }
+        },
+        "rosvik-1-problem-2": {
+          "description": {
+            "text": "Obvious high crack with a poor landing, just around the corner to the right when viewed from no. 5.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:rosvik-1"
+            ]
+          }
+        },
+        "rosvik-1-problem-3": {
+          "description": {
+            "text": "Originally climbed using no holds left of the arete other than the arete itself. It has also been climbed using edges around the arete, which makes it much easier than intended.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:rosvik-1"
+            ]
+          }
+        },
+        "rosvik-1-problem-7": {
+          "description": {
+            "text": "A slightly contrived one-move problem: just lift your bum off the ground and grab the lip.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:rosvik-1"
+            ]
+          }
+        },
+        "rosvik-1-problem-8": {
+          "description": {
+            "text": "Sit start on the rock. One hand and foot on each side of the arete.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:rosvik-1"
+            ]
+          }
+        },
+        "rosvik-1-problem-9": {
+          "description": {
+            "text": "Sit start on the rock.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:rosvik-1"
+            ]
+          }
+        },
+        "rosvik-1-problem-10": {
+          "description": {
+            "text": "Sit start with both hands on holds below the roof.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:rosvik-1"
+            ]
+          }
+        },
+        "rosvik-1-problem-13": {
+          "description": {
+            "text": "From the starting holds, climb up right to the juggy ledge, then over the lip.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:rosvik-1"
+            ]
+          }
+        },
+        "rosvik-1-problem-14": {
+          "description": {
+            "text": "From the starting holds, make a small dyno to the lip, either straight up or slightly left.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:rosvik-1"
+            ]
+          }
+        },
+        "rosvik-1-problem-15": {
+          "description": {
+            "text": "Extremely low start.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:rosvik-1"
+            ]
+          }
+        },
+        "rosvik-1-problem-16": {
+          "description": {
+            "text": "Straight up the arete.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:rosvik-1"
+            ]
+          }
+        }
+      }
+    }
   }
 }

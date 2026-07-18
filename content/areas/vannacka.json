@@ -61,5 +61,74 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "A few problems at the bouldering spot between Årjäng and Koppom.",
+        "method": "llm",
+        "model": "gpt-4o-mini",
+        "sourceIds": [
+          "legacy:vannacka"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "General",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:vannacka"
+            ]
+          },
+          "body": {
+            "text": "A few problems at the bouldering spot between Årjäng and Koppom.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:vannacka"
+            ]
+          }
+        },
+        "vagbeskrivning": {
+          "title": {
+            "text": "Directions",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:vannacka"
+            ]
+          },
+          "body": {
+            "text": "Refer to the map to find your way. Visible directly from the road. Park further along by the tarn.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:vannacka"
+            ]
+          }
+        },
+        "arvika-boulderforare": {
+          "title": {
+            "text": "Arvika Boulder Guide",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:vannacka"
+            ]
+          },
+          "body": {
+            "text": "Pictures, correct descriptions, etc., can be found in the Arvika boulder guide at the following link. http://27crags.com/crags/vannacka (http://27crags.com/crags/vannacka)",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:vannacka"
+            ]
+          }
+        }
+      },
+      "routes": {}
+    }
   }
 }

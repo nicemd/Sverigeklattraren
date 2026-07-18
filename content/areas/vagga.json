@@ -28,5 +28,19 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "0 documented routes and boulders.",
+        "method": "llm",
+        "model": "gpt-4o-mini",
+        "sourceIds": [
+          "legacy:vagga"
+        ]
+      },
+      "sections": {},
+      "routes": {}
+    }
   }
 }

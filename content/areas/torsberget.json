@@ -97,5 +97,74 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "Torsberget is the highest point in the area at 86.5 m above sea level, and initially presents a grand impression. On closer inspection, however, the crag, despite its impressive dimensions, turns out to be somewhat disappointing, with few truly enticing lines. At least two of the three routes here are quite nice.",
+        "method": "llm",
+        "model": "gpt-4o-mini",
+        "sourceIds": [
+          "legacy:torsberget"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "General",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:torsberget"
+            ]
+          },
+          "body": {
+            "text": "The crag, at 86.5 m above sea level, is the highest point in the area and makes a grand impression at first glance. However, on closer inspection, the crag, despite its impressive dimensions, is somewhat disappointing, with few truly enticing lines. At least two of the three routes available are quite good.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:torsberget"
+            ]
+          }
+        },
+        "vagbeskrivning": {
+          "title": {
+            "text": "Directions:",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:torsberget"
+            ]
+          },
+          "body": {
+            "text": "The crag's bare summit rises 1 km east of Grönbrinksberget and is clearly visible from the top of it. Follow the tractor path along the field edge below Grönbrinksberget until it reaches a narrow forest road. From here, the crag is clearly visible. Follow the road east until a small path leads down west to the meadow below the crag. If you must drive, the easiest route from Fituna is to turn west onto the forest road just before the old school. Keep heading east, and it leads you to the base of Torsberget after about 1.5 km. Park at the small path leading down to the meadow beneath the crag.\n\nOld coordinates: 10 I SV 500142.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:torsberget"
+            ]
+          }
+        },
+        "leder": {
+          "title": {
+            "text": "Routes",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:torsberget"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:torsberget"
+            ]
+          }
+        }
+      },
+      "routes": {}
+    }
   }
 }

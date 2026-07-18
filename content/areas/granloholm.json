@@ -166,5 +166,100 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "=Problems=",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:granloholm"
+        ]
+      },
+      "sections": {},
+      "routes": {
+        "granloholm-problem-1": {
+          "description": {
+            "text": "The problem is about 40 m along beneath the power line from the boulder where most of the problems are located. It is an approximately 10 m traverse, starting on the left-hand end and finishing by topping out on the right-hand end. The top lip is out for the entire traverse.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:granloholm"
+            ]
+          }
+        },
+        "granloholm-problem-2": {
+          "description": {
+            "text": "A variation on El traversen that only takes in the interesting finish. Sit start about 3 m from the end.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:granloholm"
+            ]
+          }
+        },
+        "granloholm-problem-3": {
+          "description": {
+            "text": "Start with your right hand on the arete out to the right and your left hand in the pocket. Traverse left, then top out via the flake.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:granloholm"
+            ]
+          }
+        },
+        "granloholm-problem-4": {
+          "description": {
+            "text": "Start on an undercling beneath the roof on the right, then climb around the outside of it and up the end face.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:granloholm"
+            ]
+          }
+        },
+        "granloholm-problem-5": {
+          "description": {
+            "text": "Jump start to the jug at the outer edge of the roof, then dyno to the next jug and mantle up.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:granloholm"
+            ]
+          }
+        },
+        "granloholm-problem-6": {
+          "description": {
+            "text": "Sit start on the end face and climb straight up without using the large loose flake.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:granloholm"
+            ]
+          }
+        },
+        "granloholm-problem-7": {
+          "description": {
+            "text": "Start on the obvious jug beneath the roof, then climb straight up. Your feet must remain on the same boulder as your hands.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:granloholm"
+            ]
+          }
+        },
+        "granloholm-problem-8": {
+          "description": {
+            "text": "Start at the far left of the terror boulder. Climb straight up the arete.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:granloholm"
+            ]
+          }
+        }
+      }
+    }
   }
 }

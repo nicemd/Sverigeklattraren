@@ -39,5 +39,56 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "Sunne, or more accurately Östanås just outside Sunne (on the road to Mårbacka), features a small rocky outcrop that forms ice in winter. The rock and its ice are visible from the road. Keep an eye out to the side as you pass the blue village sign for Östanås.\n\nThe area has previously seen visits from local climbers as well as selected members of Karlstad Climbing Club.",
+        "method": "llm",
+        "model": "gpt-4o-mini",
+        "sourceIds": [
+          "legacy:sunne"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "General",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:sunne"
+            ]
+          },
+          "body": {
+            "text": "Sunne, or more precisely, Östanås just outside Sunne (on the road to Mårbacka), features a small outcrop where ice forms in winter. The crag and its ice can be seen from the road. Keep an eye out to the side as you pass the blue village sign for Östanås.\n\nThis place has previously been visited by local talents as well as selected members of Karlstad Climbing Club.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:sunne"
+            ]
+          }
+        },
+        "ovrigt": {
+          "title": {
+            "text": "Miscellaneous",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:sunne"
+            ]
+          },
+          "body": {
+            "text": "More information to follow...",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:sunne"
+            ]
+          }
+        }
+      },
+      "routes": {}
+    }
   }
 }

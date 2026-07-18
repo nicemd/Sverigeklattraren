@@ -207,5 +207,191 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "The crag is in an open setting beside a footpath and has a few problems, a couple of which are really good. Fridge-klippan is the main attraction, although a couple of other crags are listed in the old guide. At least one of the other crags (Crack for kids) is no longer accessible.\n\nThe area was developed mainly by Stefan Pettersson many years ago...",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:larsboda"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "General",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:larsboda"
+            ]
+          },
+          "body": {
+            "text": "The crag is in the open beside a footpath and has a handful of problems, a couple of which are really good. Fridge crag is the main attraction, although there are a couple of other crags in the old guide. At least one of the other crags (Crack for kids) is no longer accessible.\n\nThe area was developed mainly by Stefan Pettersson many years ago...",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:larsboda"
+            ]
+          }
+        },
+        "vagbeskrivning": {
+          "title": {
+            "text": "Directions",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:larsboda"
+            ]
+          },
+          "body": {
+            "text": "Take road 73 towards Nynäshamn. After Farsta C if approaching from the north, or before Farsta C if approaching from the south, turn off onto Ågesta broväg. Immediately turn left onto Mårbackagatan and pass Telia. Continue around the area and turn right onto Filipstabdsbacken. You can park on the street on the hill. Cross the road and follow the footpath downhill until you reach a footpath running between the houses. This is where the main crag at Larsboda is located.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:larsboda"
+            ]
+          }
+        },
+        "boulderproblem": {
+          "title": {
+            "text": "Boulder problems",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:larsboda"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:larsboda"
+            ]
+          }
+        },
+        "gammal-forare": {
+          "title": {
+            "text": "Old guide",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:larsboda"
+            ]
+          },
+          "body": {
+            "text": "Old guide: Klaan (http://www.klaan.nu/larsboda/#)",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:larsboda"
+            ]
+          }
+        },
+        "fridge-klippan": {
+          "title": {
+            "text": "Fridge crag",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:larsboda"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:larsboda"
+            ]
+          }
+        }
+      },
+      "routes": {
+        "larsboda-led-1": {
+          "description": {
+            "text": "Red line on the left.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:larsboda"
+            ]
+          }
+        },
+        "larsboda-led-2": {
+          "description": {
+            "text": "Green line. Slightly loose starting hold.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:larsboda"
+            ]
+          }
+        },
+        "larsboda-led-3": {
+          "description": {
+            "text": "Yellow line on the left.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:larsboda"
+            ]
+          }
+        },
+        "larsboda-led-4": {
+          "description": {
+            "text": "*** Red line in the centre. Go straight up the bulge, using the cracks on both sides.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:larsboda"
+            ]
+          }
+        },
+        "larsboda-led-5": {
+          "description": {
+            "text": "Yellow line on the right.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:larsboda"
+            ]
+          }
+        },
+        "larsboda-led-6": {
+          "description": {
+            "text": "Red line on the right.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:larsboda"
+            ]
+          }
+        },
+        "larsboda-led-7": {
+          "description": {
+            "text": "Blue line, right to left.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:larsboda"
+            ]
+          }
+        },
+        "larsboda-led-8": {
+          "description": {
+            "text": "Start on \"Travers\", but go straight up at \"DEA\".",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:larsboda"
+            ]
+          }
+        }
+      }
+    }
   }
 }

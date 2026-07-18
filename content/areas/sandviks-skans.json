@@ -44,5 +44,56 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "An unassuming crag 4 km west of Rosersberg. A few routes in the grade 4 range have been climbed on the almost white rock, which can be glimpsed from Runsa.",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:sandviks-skans"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "General",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:sandviks-skans"
+            ]
+          },
+          "body": {
+            "text": "An inconspicuous crag 4 km west of Rosersberg. A few routes in the grade 4 range have been climbed on the almost white rock, which can be glimpsed from Runsa.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:sandviks-skans"
+            ]
+          }
+        },
+        "position": {
+          "title": {
+            "text": "Position",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:sandviks-skans"
+            ]
+          },
+          "body": {
+            "text": "Position: 11 I SV 086139",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:sandviks-skans"
+            ]
+          }
+        }
+      },
+      "routes": {}
+    }
   }
 }

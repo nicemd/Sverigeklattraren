@@ -455,5 +455,365 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "These crags are located by the new Anneberg terraced houses in the Färjestad district. A handful of walls around 3–5 metres high. A few spectacular problems make it well worth a visit.",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:karlstad-anneberg"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "General",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:karlstad-anneberg"
+            ]
+          },
+          "body": {
+            "text": "These crags are beside the new Anneberg terraced houses in the Färjestad district. There are a handful of walls, around 3–5 metres high. Several spectacular problems make it worth a visit.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:karlstad-anneberg"
+            ]
+          }
+        },
+        "vagbeskrivning": {
+          "title": {
+            "text": "Directions",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:karlstad-anneberg"
+            ]
+          },
+          "body": {
+            "text": "From central Karlstad\n\nLeave the E18 towards the districts of Rud and Färjestad, then follow signs for Färjestad BK’s Löfbergs Lila Arena. Before the car park for the arena and racecourse, turn right uphill and you will soon reach the Anneberg terraced housing estate. Drive carefully and do not disturb the families living there. Park somewhere suitable. The turning area after the speed bumps is NOT a suitable place. Turn around and find somewhere appropriate. From the turning area, follow the gravel track to the right along the edge of the woods, towards town. Look for cleaned rock faces at the edge of the woods, which appear after a few minutes.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:karlstad-anneberg"
+            ]
+          }
+        },
+        "om-klattringen-sektioner": {
+          "title": {
+            "text": "About the Climbing + Sectors",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:karlstad-anneberg"
+            ]
+          },
+          "body": {
+            "text": "The climbing is spread across a handful of walls with slightly different appearances and characters. The various boulders offer many different types of problem, unlike nearby Hästspåret, which mainly offers vertical, crimpy climbing. There are several spectacular problems featuring roofs and interesting rounded formations. For the roofs, a spotter and more than one pad are recommended. You never know where the swing after the catch will take you.\n\nClimbers from Karlstad Klätterklubb will eventually add FAs, names, grades and so on here.\n\nThe sectors are listed from left to right.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:karlstad-anneberg"
+            ]
+          }
+        },
+        "vansterpartiet": {
+          "title": {
+            "text": "Left-Hand Section",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:karlstad-anneberg"
+            ]
+          },
+          "body": {
+            "text": "Left column",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:karlstad-anneberg"
+            ]
+          }
+        },
+        "vanster-mitten": {
+          "title": {
+            "text": "Centre-Left",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:karlstad-anneberg"
+            ]
+          },
+          "body": {
+            "text": "The problems are listed from left to right.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:karlstad-anneberg"
+            ]
+          }
+        },
+        "mittenpartiet-taket": {
+          "title": {
+            "text": "Central Section (the Roof)",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:karlstad-anneberg"
+            ]
+          },
+          "body": {
+            "text": "Distinguished by its steep overhang/roof.\n\nThe problems are listed from left to right.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:karlstad-anneberg"
+            ]
+          }
+        },
+        "mitten-hoger": {
+          "title": {
+            "text": "Centre-Right",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:karlstad-anneberg"
+            ]
+          },
+          "body": {
+            "text": "The problems are listed from left to right.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:karlstad-anneberg"
+            ]
+          }
+        },
+        "hogerpartiet": {
+          "title": {
+            "text": "Right-Hand Section",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:karlstad-anneberg"
+            ]
+          },
+          "body": {
+            "text": "The problems are listed from left to right.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:karlstad-anneberg"
+            ]
+          }
+        }
+      },
+      "routes": {
+        "karlstad-anneberg-problem-1": {
+          "description": {
+            "text": "Explanatory text about the problem.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:karlstad-anneberg"
+            ]
+          }
+        },
+        "karlstad-anneberg-problem-2": {
+          "description": {
+            "text": "Explanatory text about the problem.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:karlstad-anneberg"
+            ]
+          }
+        },
+        "karlstad-anneberg-problem-3": {
+          "description": {
+            "text": "Explanatory text about the problem.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:karlstad-anneberg"
+            ]
+          }
+        },
+        "karlstad-anneberg-problem-4": {
+          "description": {
+            "text": "Explanatory text about the problem.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:karlstad-anneberg"
+            ]
+          }
+        },
+        "karlstad-anneberg-problem-5": {
+          "description": {
+            "text": "Explanatory text about the problem.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:karlstad-anneberg"
+            ]
+          }
+        },
+        "karlstad-anneberg-problem-6": {
+          "description": {
+            "text": "Explanatory text about the problem.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:karlstad-anneberg"
+            ]
+          }
+        },
+        "karlstad-anneberg-problem-7": {
+          "description": {
+            "text": "Explanatory text about the problem.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:karlstad-anneberg"
+            ]
+          }
+        },
+        "karlstad-anneberg-problem-8": {
+          "description": {
+            "text": "Explanatory text about the problem.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:karlstad-anneberg"
+            ]
+          }
+        },
+        "karlstad-anneberg-problem-9": {
+          "description": {
+            "text": "Starts on obvious holds. Establish yourself using the feature up and right in the roof, then launch for the lip. From there, a somewhat exposed and very high, but relatively easy, top-out awaits. Bring plenty of pads and preferably more than one spotter, as you rarely know where you will land. An excellent problem strongly reminiscent of Helikoptere at Bas Cuvier, for those who have tried or climbed it. Top 5 in Karlstad! The top-out was unbrushed in July 2012. Give it a good scrub with a wire brush before committing!",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:karlstad-anneberg"
+            ]
+          }
+        },
+        "karlstad-anneberg-problem-10": {
+          "description": {
+            "text": "Explanatory text about the problem.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:karlstad-anneberg"
+            ]
+          }
+        },
+        "karlstad-anneberg-problem-11": {
+          "description": {
+            "text": "Explanatory text about the problem.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:karlstad-anneberg"
+            ]
+          }
+        },
+        "karlstad-anneberg-problem-12": {
+          "description": {
+            "text": "Explanatory text about the problem.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:karlstad-anneberg"
+            ]
+          }
+        },
+        "karlstad-anneberg-problem-13": {
+          "description": {
+            "text": "Explanatory text about the problem.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:karlstad-anneberg"
+            ]
+          }
+        },
+        "karlstad-anneberg-problem-14": {
+          "description": {
+            "text": "Explanatory text about the problem.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:karlstad-anneberg"
+            ]
+          }
+        },
+        "karlstad-anneberg-problem-15": {
+          "description": {
+            "text": "Explanatory text about the problem.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:karlstad-anneberg"
+            ]
+          }
+        },
+        "karlstad-anneberg-problem-16": {
+          "description": {
+            "text": "Explanatory text about the problem.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:karlstad-anneberg"
+            ]
+          }
+        },
+        "karlstad-anneberg-problem-17": {
+          "description": {
+            "text": "Explanatory text about the problem.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:karlstad-anneberg"
+            ]
+          }
+        },
+        "karlstad-anneberg-problem-18": {
+          "description": {
+            "text": "Explanatory text about the problem.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:karlstad-anneberg"
+            ]
+          }
+        },
+        "karlstad-anneberg-problem-19": {
+          "description": {
+            "text": "Explanatory text about the problem.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:karlstad-anneberg"
+            ]
+          }
+        },
+        "karlstad-anneberg-problem-20": {
+          "description": {
+            "text": "Explanatory text about the problem.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:karlstad-anneberg"
+            ]
+          }
+        }
+      }
+    }
   }
 }

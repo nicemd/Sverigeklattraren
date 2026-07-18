@@ -174,5 +174,121 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "The crag is situated by Lake Rudan in Handen and is clearly visible from the commuter train just before the station. The crag takes its name from its striking resemblance to an elephant’s head, its trunk drinking from the waters of Rudan.",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:elefantberget"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "General",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:elefantberget"
+            ]
+          },
+          "body": {
+            "text": "The crag is beside Lake Rudan in Handen and is clearly visible from the commuter train just before the station. It takes its name from its strong resemblance to an elephant’s head, with its trunk drinking from the waters of Rudan.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:elefantberget"
+            ]
+          }
+        },
+        "miljo": {
+          "title": {
+            "text": "Aspect and conditions",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:elefantberget"
+            ]
+          },
+          "body": {
+            "text": "North- and west-facing, but open to the sun. Prone to seepage in spring and autumn.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:elefantberget"
+            ]
+          }
+        },
+        "vagbeskrivning": {
+          "title": {
+            "text": "Directions",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:elefantberget"
+            ]
+          },
+          "body": {
+            "text": "Turn off Nynäshamnsvägen towards Handen. Just north of Handen, turn right onto Kolartorpsvägen if approaching from the north. After the railway, turn left onto Ängsvägen, then left again onto Sotargränd. Park a short way into the woods. The crag is a few hundred metres further on.\n\nThe crag is extremely close to the excellent bouldering at Kolartorp.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:elefantberget"
+            ]
+          }
+        },
+        "kommunikationer": {
+          "title": {
+            "text": "Public transport",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:elefantberget"
+            ]
+          },
+          "body": {
+            "text": "From Handen commuter train station, walk around the southern end of the lake, then head back north along the top of the crag.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:elefantberget"
+            ]
+          }
+        },
+        "leder": {
+          "title": {
+            "text": "Routes",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:elefantberget"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:elefantberget"
+            ]
+          }
+        }
+      },
+      "routes": {
+        "elefantberget-led-3": {
+          "description": {
+            "text": "Bolted by JL, DWSed/soloed by Stefan Wulf in 2007 (?)",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:elefantberget"
+            ]
+          }
+        }
+      }
+    }
   }
 }

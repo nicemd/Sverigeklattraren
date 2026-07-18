@@ -54,5 +54,30 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "=Problem=",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:lovsta"
+        ]
+      },
+      "sections": {},
+      "routes": {
+        "lovsta-problem-1": {
+          "description": {
+            "text": "Straight up from the huge hold in the middle of the wall.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:lovsta"
+            ]
+          }
+        }
+      }
+    }
   }
 }

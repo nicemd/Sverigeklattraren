@@ -398,5 +398,289 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "New bouldering area outside Järna. The boulders were found in spring 2009 and some development has taken place. There are two impressive boulders, a few smaller ones and some small walls. The large boulders are the most interesting, with several very overhanging faces and even a little roof climbing. Unfortunately, the rock is quite sharp in places and sometimes rather blank. There is potential for several new problems, mainly at the harder end. All projects are, of course, open.\n\nFurther into the area there are also some compact walls with possible potential for roped climbing. Another cluster of boulders, including one real monster, lies about 1 km closer to Järna. In winter they can be seen across a field on the right-hand side when travelling from Järna. Nothing has been done here yet.",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:jarna-orrsatra"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "General",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:jarna-orrsatra"
+            ]
+          },
+          "body": {
+            "text": "A new bouldering area outside Järna. The boulders were found in spring 2009 and some development has taken place. Two impressive boulders, a few smaller ones and some small walls. The large boulders are the most interesting, with several very overhanging faces. There is even a little roof climbing. Unfortunately, the rock is quite sharp in places and rather lacking in holds. Potential for several new problems, mainly at the harder end. All projects are, of course, open.\n\nFurther into the area there are also some compact walls with possible potential for roped climbing. Another group of boulders, including one real monster, lies about 1 km closer to Järna. In winter they can be seen across a field on the right-hand side when travelling from Järna. Nothing has been done here yet.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:jarna-orrsatra"
+            ]
+          }
+        },
+        "vagbeskrivning": {
+          "title": {
+            "text": "Directions",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:jarna-orrsatra"
+            ]
+          },
+          "body": {
+            "text": "The boulders lie in pleasant deciduous woodland a few kilometres from Järna, on the road towards Nykvarn. Boulder A is about 50 metres from the road, up a slope, but despite this it is very difficult to see in summer when the trees are in leaf. This probably explains why it was not found until now. Approaching from Järna, the boulders are on the right-hand side, immediately after a gravel road turning off to the right and signposted \"Backa\". Park well to the side on the gravel road. Do not park on the tractor track along the edge of the field, as it is used by the farmer.\n\nMap: http://www.hitta.se/LargeMap.aspx?z=3&mp=%3Cpts%3E%3Cpt%20x%3D%221596164%22%20y%3D%226555316%22%20i%3D%22http%3A//www.hitta.se/images/point.png%22%3E%3Ct%3EOrrs%E4tra%20boulder%3C/t%3E%3C/pt%3E%3C/pts%3E",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:jarna-orrsatra"
+            ]
+          }
+        },
+        "oversikt": {
+          "title": {
+            "text": "Overview",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:jarna-orrsatra"
+            ]
+          },
+          "body": {
+            "text": "(NB: Not all small boulders are shown)",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:jarna-orrsatra"
+            ]
+          }
+        },
+        "block-a": {
+          "title": {
+            "text": "Boulder A",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:jarna-orrsatra"
+            ]
+          },
+          "body": {
+            "text": "The largest boulder in the area. Two fine aretes, a cave and a few other lines await ascents.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:jarna-orrsatra"
+            ]
+          }
+        },
+        "block-b": {
+          "title": {
+            "text": "Boulder B",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:jarna-orrsatra"
+            ]
+          },
+          "body": {
+            "text": "A small boulder below the little wall between Boulder A and Boulder C. Two problems have been climbed, with possible room for one more.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:jarna-orrsatra"
+            ]
+          }
+        },
+        "block-c-och-d": {
+          "title": {
+            "text": "Boulders C and D",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:jarna-orrsatra"
+            ]
+          },
+          "body": {
+            "text": "Boulder C: The second large boulder in the area. Two very overhanging faces and a large slab. Potential for more hard problems.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:jarna-orrsatra"
+            ]
+          }
+        }
+      },
+      "routes": {
+        "jarna-orrsatra-problem-1": {
+          "description": {
+            "text": "(Nils Å. 09)",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:jarna-orrsatra"
+            ]
+          }
+        },
+        "jarna-orrsatra-problem-2": {
+          "description": {
+            "text": "Open project (brushed)",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:jarna-orrsatra"
+            ]
+          }
+        },
+        "jarna-orrsatra-problem-3": {
+          "description": {
+            "text": "Open project (brushed)",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:jarna-orrsatra"
+            ]
+          }
+        },
+        "jarna-orrsatra-problem-4": {
+          "description": {
+            "text": "Open project",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:jarna-orrsatra"
+            ]
+          }
+        },
+        "jarna-orrsatra-problem-5": {
+          "description": {
+            "text": "Open project",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:jarna-orrsatra"
+            ]
+          }
+        },
+        "jarna-orrsatra-problem-6": {
+          "description": {
+            "text": "Jump start to the lip, Johan L. -09",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:jarna-orrsatra"
+            ]
+          }
+        },
+        "jarna-orrsatra-problem-7": {
+          "description": {
+            "text": "Open project",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:jarna-orrsatra"
+            ]
+          }
+        },
+        "jarna-orrsatra-problem-8": {
+          "description": {
+            "text": "(Jenny K. 09)",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:jarna-orrsatra"
+            ]
+          }
+        },
+        "jarna-orrsatra-problem-9": {
+          "description": {
+            "text": "(Jenny K. 09)",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:jarna-orrsatra"
+            ]
+          }
+        },
+        "jarna-orrsatra-problem-10": {
+          "description": {
+            "text": "Standing start 6A+ (Nils Å. 09)",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:jarna-orrsatra"
+            ]
+          }
+        },
+        "jarna-orrsatra-problem-11": {
+          "description": {
+            "text": "Start by the crack, then straight up. (Ola T. 09) The sit start is a much harder open project called Tarzan.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:jarna-orrsatra"
+            ]
+          }
+        },
+        "jarna-orrsatra-problem-12": {
+          "description": {
+            "text": "Standing start at the far left, traverse along the ramp and then up. Really good! Fairly high, so pad the rock. (Nils Å. 09)",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:jarna-orrsatra"
+            ]
+          }
+        },
+        "jarna-orrsatra-problem-13": {
+          "description": {
+            "text": "Start on the obvious sidepulls, then straight up. (Nils Å. 09)",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:jarna-orrsatra"
+            ]
+          }
+        },
+        "jarna-orrsatra-problem-14": {
+          "description": {
+            "text": "Start with your left hand on the sidepull and your right hand on the sloper. Straight up. (Ola T. 09)",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:jarna-orrsatra"
+            ]
+          }
+        },
+        "jarna-orrsatra-problem-15": {
+          "description": {
+            "text": "Start with both hands on the low sloper and climb diagonally up left on the holds. (Jenny K. 09)",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:jarna-orrsatra"
+            ]
+          }
+        },
+        "jarna-orrsatra-problem-16": {
+          "description": {
+            "text": "Start as for D3, but go straight up. (Ola T. 09)",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:jarna-orrsatra"
+            ]
+          }
+        }
+      }
+    }
   }
 }

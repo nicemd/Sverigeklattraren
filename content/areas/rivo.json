@@ -52,5 +52,38 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "An uninhabited island in the Gothenburg archipelago, apart from a few sheep. Mostly bouldering, with the potential to be really good! It lies next to Brännö and can be reached by private boat or a swim of about 50 m. Access is unclear, and the only information to be found online is a few old lines on crimp.se: http://gbo.crimp.se/omraden.php?oid=18&PHPSESSID=3f1bb25aba3f2627cf55dfc02c3408fb. Above all, it states that this island should remain free of topos and grades, which should be respected. This article has been created for discussion purposes.\n\nMap at http://www.ovardar.se/rivo_aspero/karta_stor.html",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:rivo"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "General",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:rivo"
+            ]
+          },
+          "body": {
+            "text": "An uninhabited island in the Gothenburg archipelago, apart from a few sheep. Mostly bouldering, potentially really good! Located next to Brännö and accessible by private boat or a swim of about 50m. Access is unclear, and the only information online is a few old lines on crimp.se: http://gbo.crimp.se/omraden.php?oid=18&PHPSESSID=3f1bb25aba3f2627cf55dfc02c3408fb. Above all, it says that this island should be kept free of topos and grades, which should be respected. This article was created for discussion purposes.\n\nMap at http://www.ovardar.se/rivo_aspero/karta_stor.html",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:rivo"
+            ]
+          }
+        }
+      },
+      "routes": {}
+    }
   }
 }

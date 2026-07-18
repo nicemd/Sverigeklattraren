@@ -52,5 +52,56 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "Norra Näs lies just north of Varberg and offers fantastic bouldering close to the sea. The area is fairly compact and currently has around 40 problems on both free-standing boulders and walls, with potential for many more. The rock is solid and clean, though quite sharp and crystalline. A visit to Norra Näs is therefore hard on the skin, and it is usually your fingertips rather than your strength that give out and force you to call it a day. The area lies right beside the sea, exposed to the weather and wind. It dries quickly after rain, and there is always shade on one of the boulders, whatever the time of day. A guide to the area is in progress and will be published here at some point in the future.\n\nPlease be considerate of the nearby neighbours, keep a low profile and be discreet when brushing new problems.",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:norra-nas-varberg"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "General",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:norra-nas-varberg"
+            ]
+          },
+          "body": {
+            "text": "Norra Näs lies just north of Varberg and offers fantastic bouldering by the sea. The area is fairly compact and currently has around 40 problems on both freestanding boulders and walls, with potential for many more. The rock is solid and clean, though quite sharp and rich in crystals. A visit to Norra Näs is therefore hard on the skin, and it is usually your skin rather than your strength that gives out and forces you to stop. The area is right by the sea, exposed to the weather and wind. It dries quickly after rain, and shade can always be found on one of the boulders, whatever the time of day. A guide to the area is in progress and will be published here at some point in the future.\n\nPlease be considerate of the nearby residents, keep a low profile and be discreet when brushing new problems.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:norra-nas-varberg"
+            ]
+          }
+        },
+        "vagbeskrivning": {
+          "title": {
+            "text": "Directions",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:norra-nas-varberg"
+            ]
+          },
+          "body": {
+            "text": "From Varberg, drive north towards Rasta. Turn left at the roundabout by Lindhov and continue along Åsklostervägen. At Bläshammar, turn left towards Trönninge Näs and follow the road until you drive through a farmyard (please be considerate and drive slowly!). Continue through the farmyard and take the first right when you reach the water and harbour. Then follow Håhallavägen with the water on your left. The best place to park is by the electrical substation on Håhallavägen; from there, you can see the first wall towards the sea.\n\nRight-hand column",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:norra-nas-varberg"
+            ]
+          }
+        }
+      },
+      "routes": {}
+    }
   }
 }

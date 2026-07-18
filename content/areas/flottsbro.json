@@ -58,5 +58,92 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "Flottsbro, in Huddinge Municipality south of Stockholm Municipality, is an outdoor recreation area best known for its 100-metre-high ski slope, beach, campsite, several interesting circular walks and various mountain bike trails, as well as lead climbing routes and boulder problems.",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:flottsbro"
+        ]
+      },
+      "sections": {
+        "bilder": {
+          "title": {
+            "text": "Photos",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:flottsbro"
+            ]
+          },
+          "body": {
+            "text": "http://www.sverigeforaren.se/images/thumb/6/6c/KL%C3%84TTRING.jpg/450px-KL%C3%84TTRING.jpg http://www.sverigeforaren.se/images/thumb/3/32/KL%C3%84TTRING_060.JPG/450px-KL%C3%84TTRING_060.JPG",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:flottsbro"
+            ]
+          }
+        },
+        "allmant": {
+          "title": {
+            "text": "General",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:flottsbro"
+            ]
+          },
+          "body": {
+            "text": "Flottsbro, in Huddinge Municipality south of Stockholm Municipality, is an outdoor recreation area best known for its 100-metre-high ski slope, bathing beach, campsite and several interesting walking trails and various mountain-bike trails, as well as sport-climbing and bouldering routes.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:flottsbro"
+            ]
+          }
+        },
+        "vagbeskrivning": {
+          "title": {
+            "text": "Directions",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:flottsbro"
+            ]
+          },
+          "body": {
+            "text": "From central Stockholm, take Huddingevägen (226). After Huddinge C, turn off towards Glömstavägen and continue straight ahead. Turn left at the sign for FLOTTSBRO and drive straight ahead until you reach a junction. Continue straight ahead towards the church or chapel. There is parking behind the chapel. Walk down the gravel road; the crags are on the right.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:flottsbro"
+            ]
+          }
+        },
+        "access": {
+          "title": {
+            "text": "Access",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:flottsbro"
+            ]
+          },
+          "body": {
+            "text": "Flottsbro is an outdoor recreation area. Show consideration and use common sense, such as taking away any rubbish you brought with you.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:flottsbro"
+            ]
+          }
+        }
+      },
+      "routes": {}
+    }
   }
 }

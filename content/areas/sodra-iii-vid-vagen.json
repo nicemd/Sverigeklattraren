@@ -150,5 +150,90 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "",
+        "method": "llm",
+        "model": "gpt-4o-mini",
+        "sourceIds": [
+          "legacy:sodra-iii-vid-vagen"
+        ]
+      },
+      "sections": {},
+      "routes": {
+        "sodra-iii-vid-vagen-problem-1": {
+          "description": {
+            "text": "Starts with hands on the obvious hold under the sign, dyno to the top.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:sodra-iii-vid-vagen"
+            ]
+          }
+        },
+        "sodra-iii-vid-vagen-problem-2": {
+          "description": {
+            "text": "Sit start to the right in the overhang, moves up with a slight pull to the left. The right arete is not included.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:sodra-iii-vid-vagen"
+            ]
+          }
+        },
+        "sodra-iii-vid-vagen-problem-3": {
+          "description": {
+            "text": "Sit start between \"Ironfist\" and \"Lejdaren\", goes straight up. Keep your body between the two aretes.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:sodra-iii-vid-vagen"
+            ]
+          }
+        },
+        "sodra-iii-vid-vagen-problem-4": {
+          "description": {
+            "text": "Sit start at the good holds, goes straight up.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:sodra-iii-vid-vagen"
+            ]
+          }
+        },
+        "sodra-iii-vid-vagen-problem-5": {
+          "description": {
+            "text": "Start in the horizontal crack and then climb straight up and over the overhang. The wall to the right of the crack is not included. Finishes when your hands are on the big ledge.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:sodra-iii-vid-vagen"
+            ]
+          }
+        },
+        "sodra-iii-vid-vagen-problem-6": {
+          "description": {
+            "text": "Starts on the jug at the back, then goes straight out over the roof and finishes on the big ledge. The wall to the left is not included.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:sodra-iii-vid-vagen"
+            ]
+          }
+        },
+        "sodra-iii-vid-vagen-problem-7": {
+          "description": {
+            "text": "Start under the roof and then climb straight up.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:sodra-iii-vid-vagen"
+            ]
+          }
+        }
+      }
+    }
   }
 }

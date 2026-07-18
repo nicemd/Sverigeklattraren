@@ -28,5 +28,19 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "Good sport climbing on the north side of Orust. Routes range from 10 to 25m long, graded 6a+ to 7c.",
+        "method": "llm",
+        "model": "gpt-4o-mini",
+        "sourceIds": [
+          "legacy:vindon"
+        ]
+      },
+      "sections": {},
+      "routes": {}
+    }
   }
 }

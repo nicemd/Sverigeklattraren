@@ -311,5 +311,217 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "16 documented routes and problems.",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:kvark"
+        ]
+      },
+      "sections": {
+        "access": {
+          "title": {
+            "text": "Access",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:kvark"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:kvark"
+            ]
+          }
+        },
+        "leder": {
+          "title": {
+            "text": "Routes",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:kvark"
+            ]
+          },
+          "body": {
+            "text": "The following routes were climbed when climbing was previously permitted.\n\nClimbing these routes is therefore not permitted.\n\nFrom left to right.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:kvark"
+            ]
+          }
+        }
+      },
+      "routes": {
+        "kvark-led-1": {
+          "description": {
+            "text": "The corner furthest left. Technical. Anchor.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:kvark"
+            ]
+          }
+        },
+        "kvark-led-2": {
+          "description": {
+            "text": "Great fun on good holds. Anchor.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:kvark"
+            ]
+          }
+        },
+        "kvark-led-3": {
+          "description": {
+            "text": "According to some, even more fun on even better holds. Anchor.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:kvark"
+            ]
+          }
+        },
+        "kvark-led-4": {
+          "description": {
+            "text": "The edge/arete forming the right-hand end of the left wall. Anchor.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:kvark"
+            ]
+          }
+        },
+        "kvark-led-5": {
+          "description": {
+            "text": "The overhanging arete. Anchor.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:kvark"
+            ]
+          }
+        },
+        "kvark-led-6": {
+          "description": {
+            "text": "Crimpy wall climbing on the angled wall. There is a variation that heads left after the fourth bolt, at roughly the same grade. Anchor.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:kvark"
+            ]
+          }
+        },
+        "kvark-led-7": {
+          "description": {
+            "text": "The line passing close behind the tree. Technical. Anchor.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:kvark"
+            ]
+          }
+        },
+        "kvark-led-8": {
+          "description": {
+            "text": "A slightly less steep line on the small slab. Technical. Anchor.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:kvark"
+            ]
+          }
+        },
+        "kvark-led-9": {
+          "description": {
+            "text": "Technical climbing following the arete feature. Fun finish on the sloping edge. Anchor.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:kvark"
+            ]
+          }
+        },
+        "kvark-led-10": {
+          "description": {
+            "text": "A steeply angled corner feature. Small fingers help. Anchor.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:kvark"
+            ]
+          }
+        },
+        "kvark-led-11": {
+          "description": {
+            "text": "Starts in the obvious crack in the middle of the wall, then trends slightly left. Anchor.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:kvark"
+            ]
+          }
+        },
+        "kvark-led-12": {
+          "description": {
+            "text": "The heavily overhanging red wall. Crimpy. Anchor.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:kvark"
+            ]
+          }
+        },
+        "kvark-led-13": {
+          "description": {
+            "text": "The right-hand of the overhanging lines. A jugfest all the way. Anchor.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:kvark"
+            ]
+          }
+        },
+        "kvark-led-14": {
+          "description": {
+            "text": "Heads out at the left edge of the obvious roof. Anchor.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:kvark"
+            ]
+          }
+        },
+        "kvark-led-15": {
+          "description": {
+            "text": "Goes to the right of the obvious roof. Shares the anchor with the route above.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:kvark"
+            ]
+          }
+        },
+        "kvark-led-16": {
+          "description": {
+            "text": "A varied line furthest right, up the slope. Anchor.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:kvark"
+            ]
+          }
+        }
+      }
+    }
   }
 }

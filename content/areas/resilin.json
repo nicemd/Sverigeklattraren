@@ -443,5 +443,141 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "Essentially Fjällbo’s last outpost before Partille. Solid, fine rock, with mostly routes graded 7 and above. Sparsely bolted, but with good opportunities for placing your own protection.",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:resilin"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "Overview",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:resilin"
+            ]
+          },
+          "body": {
+            "text": "Essentially Fjällbo’s final outpost before Partille. Solid, good-quality rock, with mainly routes graded 7 and above. Sparsely bolted, but with good opportunities for placing your own protection.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:resilin"
+            ]
+          }
+        },
+        "karaktar": {
+          "title": {
+            "text": "Character",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:resilin"
+            ]
+          },
+          "body": {
+            "text": "High, vertical and clean crag. There are a few trad routes on the left, but it is the right-hand section of the wall that gives Resilin its character. The routes here are sparsely bolted and, by modern ethics, should be regarded as mixed routes. Excellent protection placements supplement the bolts. Several routes have top anchors, and the top is easily reached via the left-hand side of the crag. The bolts have recently been inspected by Göteborgs klätterklubb.\n\nThe crag is easily accessible and there is a playground 50 metres away. Child-friendly, in other words.\n\nSome routes tend to stay wet for a while after rain.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:resilin"
+            ]
+          }
+        },
+        "vagbeskrivning": {
+          "title": {
+            "text": "Directions",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:resilin"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:resilin"
+            ]
+          }
+        },
+        "access": {
+          "title": {
+            "text": "Access",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:resilin"
+            ]
+          },
+          "body": {
+            "text": "Keep noise levels down, as the neighbouring houses are very close. Park considerately.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:resilin"
+            ]
+          }
+        },
+        "leder": {
+          "title": {
+            "text": "Routes",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:resilin"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:resilin"
+            ]
+          }
+        }
+      },
+      "routes": {
+        "resilin-led-8": {
+          "description": {
+            "text": "Delicate. Well protected with small cams and nuts supplementing the two bolts. The top anchor can be reached from above, but it is a good idea to protect yourself with a length of static rope or a long sling.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:resilin"
+            ]
+          }
+        },
+        "resilin-led-11": {
+          "description": {
+            "text": "Really fine climbing. Few gear placements.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:resilin"
+            ]
+          }
+        },
+        "resilin-led-16": {
+          "description": {
+            "text": "Sequencey. Top anchor. Exceptionally well protected with a couple of small cams supplementing the bolts.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:resilin"
+            ]
+          }
+        }
+      }
+    }
   }
 }

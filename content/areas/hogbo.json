@@ -164,5 +164,100 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "=General= So far, the area consists of just one large boulder. However, its size means it offers plenty of good problems.\n\n=Directions= Drive to Valbo centre. Turn towards Mio Möbler at the junction by the old Vivo sign. Continue straight ahead and go straight across the junction in Bäck. After a couple of kilometres, turn right towards Svartviksstugan. Continue for a couple of hundred metres; the boulder is on the right.\n\n=Problems=",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:hogbo"
+        ]
+      },
+      "sections": {},
+      "routes": {
+        "hogbo-problem-1": {
+          "description": {
+            "text": "On the back of the boulder as seen from the road, straight up through the overhang. Sit start on the large ledge, then go straight up. The arete is out.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hogbo"
+            ]
+          }
+        },
+        "hogbo-problem-2": {
+          "description": {
+            "text": "The left arete of the overhanging section of the boulder. Same top-out as General.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hogbo"
+            ]
+          }
+        },
+        "hogbo-problem-3": {
+          "description": {
+            "text": "Standing start. The problem is on the front of the boulder, facing the road.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hogbo"
+            ]
+          }
+        },
+        "hogbo-problem-4": {
+          "description": {
+            "text": "The right-hand arete on the back of the large boulder.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hogbo"
+            ]
+          }
+        },
+        "hogbo-problem-5": {
+          "description": {
+            "text": "Left of the arete and left of fortuna.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hogbo"
+            ]
+          }
+        },
+        "hogbo-problem-6": {
+          "description": {
+            "text": "Same start as fortuna, then dyno diagonally up right to the jug above the lip. Do not go left as on fortuna.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hogbo"
+            ]
+          }
+        },
+        "hogbo-problem-7": {
+          "description": {
+            "text": "Climbs the left edge of the left-hand face as seen from the road. Start with your right hand in the obvious crack and left hand on the edge. Follow the edge without going around it.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hogbo"
+            ]
+          }
+        },
+        "hogbo-problem-8": {
+          "description": {
+            "text": "Between Knox and Gegghålä. Start with your left hand in the superb crack, then climb straight up via the cracks and slopers.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hogbo"
+            ]
+          }
+        }
+      }
+    }
   }
 }

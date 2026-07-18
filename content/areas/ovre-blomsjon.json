@@ -32,5 +32,38 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "Climbing in the area is prohibited due to nesting birds and cultural heritage.",
+        "method": "llm",
+        "model": "gpt-4o-mini",
+        "sourceIds": [
+          "legacy:ovre-blomsjon"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "General",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:ovre-blomsjon"
+            ]
+          },
+          "body": {
+            "text": "Climbing in the area is prohibited due to nesting birds and cultural heritage.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:ovre-blomsjon"
+            ]
+          }
+        }
+      },
+      "routes": {}
+    }
   }
 }

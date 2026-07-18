@@ -78,5 +78,67 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "Uskedalen is a relatively unexplored valley on the Norwegian west coast, offering long routes along cracks. Many of the walls are between 400 and 500 metres high and impress in their majestic surroundings. The topos are intended as a supplement to the somewhat outdated topo available on the Bergenklubbens website – route finding can be somewhat tricky.",
+        "method": "llm",
+        "model": "gpt-4o-mini",
+        "sourceIds": [
+          "legacy:uskedalen"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "General",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:uskedalen"
+            ]
+          },
+          "body": {
+            "text": "Uskedalen is a relatively unexplored valley on the west coast of Norway, offering long routes along cracks. Many of the walls are between 400 and 500 metres high and stand out in majestic surroundings. The topos are intended to complement the somewhat outdated topo found on the Bergenklubbens website - route finding can be quite tricky.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:uskedalen"
+            ]
+          }
+        },
+        "kertindvaggen": {
+          "title": {
+            "text": "Økertid Wall",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:uskedalen"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:uskedalen"
+            ]
+          }
+        }
+      },
+      "routes": {
+        "uskedalen-led-1": {
+          "description": {
+            "text": "A fantastic journey on par with Vestpillaren in Lofoten and Spionfuhrer in Nissedal! The route features many long splitter cracks connected by smooth wall sections. A bit of ‘walking on’ is required in places and there are a few runouts. Descent is done by abseiling the route using good bolted anchors. Approach time = 1 hour. Additionally, a two-rope-length approach must be navigated before reaching the start of the route.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:uskedalen"
+            ]
+          }
+        }
+      }
+    }
   }
 }

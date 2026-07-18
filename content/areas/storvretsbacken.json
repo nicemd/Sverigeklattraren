@@ -253,5 +253,179 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "A small crag with something, for the Stockholm area, quite unusual – easy bolted routes.",
+        "method": "llm",
+        "model": "gpt-4o-mini",
+        "sourceIds": [
+          "legacy:storvretsbacken"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "General",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:storvretsbacken"
+            ]
+          },
+          "body": {
+            "text": "A small crag with something, quite unusual for the Stockholm area, as it features easy bolted routes.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:storvretsbacken"
+            ]
+          }
+        },
+        "karaktar": {
+          "title": {
+            "text": "Character",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:storvretsbacken"
+            ]
+          },
+          "body": {
+            "text": "The wall is 8-10m high with all routes bolted and equipped with anchors. The setting is somewhat unique as the rock is right next to a busy walkway. You'll also encounter some comments from inebriated passers-by. Most anchors are easily accessible from above for setting up topropes.\n\nThe crag faces northeast but dries quite slowly after rain. The ground below is often wet as well. The crag is lit in the evenings!",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:storvretsbacken"
+            ]
+          }
+        },
+        "vagbeskrivning": {
+          "title": {
+            "text": "Directions",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:storvretsbacken"
+            ]
+          },
+          "body": {
+            "text": "By car: From Tumba centrum, take Huddingevägen towards Huddinge. Turn right after the shopping centre. Turn right onto Bryggarvägen and continue past McDonald's and the timber yard to the parking area.\n\nPublic transport: Take the commuter train to Tumba and exit at the western exit (forward in the direction of travel if coming from Stockholm) and walk down to the bus terminal. Pass the bus stops and a large bike rack, then enter a path signposted for Storvreten.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:storvretsbacken"
+            ]
+          }
+        },
+        "leder": {
+          "title": {
+            "text": "Routes",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:storvretsbacken"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:storvretsbacken"
+            ]
+          }
+        },
+        "observera": {
+          "title": {
+            "text": "Notice!",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:storvretsbacken"
+            ]
+          },
+          "body": {
+            "text": "The crag is situated on municipal park land. Botkyrka municipality has granted permission to develop the crag and allows climbing as long as it's done properly and all are aware that climbing is at their own risk. If you wish to establish a new route, which there is space for, it must be adequately bolted and equipped with solid anchors, all stainless, otherwise the route will be removed.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:storvretsbacken"
+            ]
+          }
+        },
+        "panorama": {
+          "title": {
+            "text": "Panorama",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:storvretsbacken"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:storvretsbacken"
+            ]
+          }
+        }
+      },
+      "routes": {
+        "storvretsbacken-led-1": {
+          "description": {
+            "text": "Ascends the 'shelves' on the left side of the crag. One of them is quite interesting to mantle up on.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:storvretsbacken"
+            ]
+          }
+        },
+        "storvretsbacken-led-2": {
+          "description": {
+            "text": "Reaches the same anchor but in a slightly more strenuous way.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:storvretsbacken"
+            ]
+          }
+        },
+        "storvretsbacken-led-3": {
+          "description": {
+            "text": "The grade applies to the direct entry straight up. You can make the route easier by starting on the ramp (5b).",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:storvretsbacken"
+            ]
+          }
+        },
+        "storvretsbacken-led-8": {
+          "description": {
+            "text": "Nice climbing, although the lower part is often wet.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:storvretsbacken"
+            ]
+          }
+        },
+        "storvretsbacken-led-10": {
+          "description": {
+            "text": "The crag's chill. The grade applies if you make a small detour to the left in the middle; otherwise, it becomes significantly harder.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:storvretsbacken"
+            ]
+          }
+        }
+      }
+    }
   }
 }

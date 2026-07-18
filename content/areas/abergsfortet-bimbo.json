@@ -187,5 +187,89 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "=Access= Head towards the sport climbing crag at Fortet, and when the forest starts to open up on the right side, follow the red-and-white markers down into the woods.\n\n=Sectors=",
+        "method": "llm",
+        "model": "gpt-4o-mini",
+        "sourceIds": [
+          "legacy:abergsfortet-bimbo"
+        ]
+      },
+      "sections": {
+        "stenen": {
+          "title": {
+            "text": "The Stone",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:abergsfortet-bimbo"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:abergsfortet-bimbo"
+            ]
+          }
+        }
+      },
+      "routes": {
+        "abergsfortet-bimbo-problem-2": {
+          "description": {
+            "text": "Grab the jug and jump for the edge.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:abergsfortet-bimbo"
+            ]
+          }
+        },
+        "abergsfortet-bimbo-problem-6": {
+          "description": {
+            "text": "Climb straight up. One of the finer problems on the boulder.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:abergsfortet-bimbo"
+            ]
+          }
+        },
+        "abergsfortet-bimbo-problem-7": {
+          "description": {
+            "text": "Climb on the left side of the arete. Mantle directly upwards.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:abergsfortet-bimbo"
+            ]
+          }
+        },
+        "abergsfortet-bimbo-problem-8": {
+          "description": {
+            "text": "Climb straight up without escaping to the left. Established start.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:abergsfortet-bimbo"
+            ]
+          }
+        },
+        "abergsfortet-bimbo-problem-9": {
+          "description": {
+            "text": "Climb straight up.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:abergsfortet-bimbo"
+            ]
+          }
+        }
+      }
+    }
   }
 }

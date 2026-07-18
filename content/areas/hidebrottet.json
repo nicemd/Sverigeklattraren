@@ -458,5 +458,143 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "An old limestone quarry in northern Gotland with a wall around 8 m high. The rock is loose in places, so wear a helmet and keep the rope away from the wall. Bring cleaning gear if possible to remove loose stones and flakes. There may be scope for future bolting, although it is very easy to rig a top rope. The entire crag lies in an amphitheatre-like, south-facing bowl, making climbing possible all year round.\n\nThis crag can easily be combined with a visit to the other side of the bay (Hidevikens Boulder).",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:hidebrottet"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "General",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hidebrottet"
+            ]
+          },
+          "body": {
+            "text": "An old limestone quarry in northern Gotland with a wall around 8 m high. The rock is loose in places, so wear a helmet and keep the rope away from the wall. Consider bringing cleaning tools to remove loose stones and flakes. There may be scope for future bolting, although it is very easy to rig a top-rope. The entire crag lies in an amphitheatre-like, south-facing hollow, making climbing possible all year round.\n\nCombine a visit to this wall with a trip to the other side of the bay (Hidevikens Boulder).",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hidebrottet"
+            ]
+          }
+        },
+        "vagbeskrivning": {
+          "title": {
+            "text": "Directions",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hidebrottet"
+            ]
+          },
+          "body": {
+            "text": "A few kilometres north of Slite, turn right towards Hellvi, then after around 6 km turn right towards Hide. Drive past the campsite. After around 500 metres, the wall can be seen on the left.\n\nMap here. Click the map button above.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hidebrottet"
+            ]
+          }
+        },
+        "boende": {
+          "title": {
+            "text": "Accommodation",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hidebrottet"
+            ]
+          },
+          "body": {
+            "text": "The campsite is around 500 metres from the quarry. If it is closed, there are good places to camp directly south of Hidebrottet, down by the water (the right of public access applies).",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hidebrottet"
+            ]
+          }
+        },
+        "leder": {
+          "title": {
+            "text": "Routes",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hidebrottet"
+            ]
+          },
+          "body": {
+            "text": "All routes run between the vertical drill holes along the wall and are graded without using them, unless otherwise stated. All first ascents were done on top-rope...",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hidebrottet"
+            ]
+          }
+        }
+      },
+      "routes": {
+        "hidebrottet-led-1": {
+          "description": {
+            "text": "Poorer rock.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hidebrottet"
+            ]
+          }
+        },
+        "hidebrottet-led-4": {
+          "description": {
+            "text": "Some larger features to hold. Don't trust the loose rock at the top.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hidebrottet"
+            ]
+          }
+        },
+        "hidebrottet-led-6": {
+          "description": {
+            "text": "A bit more enjoyable.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hidebrottet"
+            ]
+          }
+        },
+        "hidebrottet-led-9": {
+          "description": {
+            "text": "A bit more enjoyable.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hidebrottet"
+            ]
+          }
+        },
+        "hidebrottet-led-15": {
+          "description": {
+            "text": "Slightly easier climbing on nice small holds.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hidebrottet"
+            ]
+          }
+        }
+      }
+    }
   }
 }

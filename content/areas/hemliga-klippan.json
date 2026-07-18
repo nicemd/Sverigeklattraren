@@ -45,5 +45,56 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "A very steeply overhanging crag by Bornsjön, with many short, powerful routes. Grades range from 7c to 8a+. The crag is in a nature reserve and climbing is prohibited.",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:hemliga-klippan"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "Overview",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hemliga-klippan"
+            ]
+          },
+          "body": {
+            "text": "A heavily overhanging crag by Bornsjön with many short, powerful routes. Grades range from 7c to 8a+. The crag is in a nature reserve, where climbing is prohibited.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hemliga-klippan"
+            ]
+          }
+        },
+        "access": {
+          "title": {
+            "text": "Access",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hemliga-klippan"
+            ]
+          },
+          "body": {
+            "text": "The crag is kept secret because it lies within the Bornsjön nature reserve. Under the reserve regulations (http://www.sodertalje.se/templates/Page____1354.aspx), it is prohibited to \"climb rock faces using ropes or engage in similar activities\".\n\nThe purpose of the nature reserve is to \"keep the area easily accessible for types of outdoor recreation that do not require special facilities\".\n\nMany of the bolts have been removed by Stockholm Vatten.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hemliga-klippan"
+            ]
+          }
+        }
+      },
+      "routes": {}
+    }
   }
 }

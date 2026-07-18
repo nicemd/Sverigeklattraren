@@ -298,5 +298,89 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "The boulder is located in the residential area of Sätra, north of Gävle city centre. It sits behind the \"Sätrahöjdens day centre\" at the address Sätrahöjden 28.\n\n=Problems=",
+        "method": "llm",
+        "model": "gpt-4o-mini",
+        "sourceIds": [
+          "legacy:satra"
+        ]
+      },
+      "sections": {
+        "vagbeskrivning": {
+          "title": {
+            "text": "Directions",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:satra"
+            ]
+          },
+          "body": {
+            "text": "The boulder is located in the Sätra residential area, north of Gävle centre. It can be found behind the 'Sätrahöjdens Day Centre' at the address Sätrahöjden 28.\n\n=Problems=",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:satra"
+            ]
+          }
+        }
+      },
+      "routes": {
+        "satra-problem-1": {
+          "description": {
+            "text": "Climbs on the block by Skvattramsvägen.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:satra"
+            ]
+          }
+        },
+        "satra-problem-2": {
+          "description": {
+            "text": "Starts at the base for Dr Snuggles and follows the edge (traverse) just above the base for Kapten Zoom, then follows Kapten Zoom up.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:satra"
+            ]
+          }
+        },
+        "satra-problem-4": {
+          "description": {
+            "text": "Do not use the holds on Kapten Zoom.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:satra"
+            ]
+          }
+        },
+        "satra-problem-11": {
+          "description": {
+            "text": "Starts on two obvious holds in the middle of the wall.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:satra"
+            ]
+          }
+        },
+        "satra-problem-13": {
+          "description": {
+            "text": "Same start as Drutten, then up to the right.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:satra"
+            ]
+          }
+        }
+      }
+    }
   }
 }

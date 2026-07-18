@@ -531,5 +531,95 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "Just east of Mariannelund, head north on the road towards Kåremåla for about 2 km. Park at the hiking trail and follow it for about 500 m to the crag.\n\nCheck the weather at Trollevägga (http://www.hitta.se/LargeMap.aspx?z=6&cx=1484631&cy=6390571&PointX=1487111&PointY=6390671&referrer&var=Mariannelund&wflWhite=1a1b&wflPink=4a&SearchType=4&name=Trollev%e4gga&weather=true&forecastDate=&showTraffic=false)",
+        "method": "llm",
+        "model": "gpt-4o-mini",
+        "sourceIds": [
+          "legacy:trollevagga"
+        ]
+      },
+      "sections": {
+        "vagbeskrivning": {
+          "title": {
+            "text": "Directions",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:trollevagga"
+            ]
+          },
+          "body": {
+            "text": "Immediately east of Mariannelund, follow the road north towards Kåremåla for about 2 km. Park at the trailhead and follow the path for about 500 m into the mountain.\n\nCheck the weather at Trollevägga (http://www.hitta.se/LargeMap.aspx?z=6&cx=1484631&cy=6390571&PointX=1487111&PointY=6390671&referrer&var=Mariannelund&wflWhite=1a1b&wflPink=4a&SearchType=4&name=Trollev%e4gga&weather=true&forecastDate=&showTraffic=false)",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:trollevagga"
+            ]
+          }
+        },
+        "leder": {
+          "title": {
+            "text": "Routes",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:trollevagga"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:trollevagga"
+            ]
+          }
+        },
+        "lankar": {
+          "title": {
+            "text": "Links",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:trollevagga"
+            ]
+          },
+          "body": {
+            "text": "Linköping Climbing Club's description of Trollevägga (http://www.linkopingsklatterklubb.se/index.php/trollevagga.html).\n\nGuide provided by Linköping Climbing Club (http://linkopingsklatterklubb.se/index.php/forare.html).",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:trollevagga"
+            ]
+          }
+        }
+      },
+      "routes": {
+        "trollevagga-led-5": {
+          "description": {
+            "text": "Three pitch traverse! Be prepared for moss in sections between other routes.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:trollevagga"
+            ]
+          }
+        },
+        "trollevagga-led-6": {
+          "description": {
+            "text": "Thirty-five meters of pure enjoyment!",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:trollevagga"
+            ]
+          }
+        }
+      }
+    }
   }
 }

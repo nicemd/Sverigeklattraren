@@ -999,5 +999,146 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "An area with quite a few routes.",
+        "method": "llm",
+        "model": "gpt-4o-mini",
+        "sourceIds": [
+          "legacy:tosseryd"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "General",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tosseryd"
+            ]
+          },
+          "body": {
+            "text": "An area with quite a few routes..",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tosseryd"
+            ]
+          }
+        },
+        "vagbeskrivning": {
+          "title": {
+            "text": "Access",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tosseryd"
+            ]
+          },
+          "body": {
+            "text": "Borås. The parking mentioned in the guide is not entirely acceptable according to the locals. It should be possible to park along Fristadsvägen, in a small pocket across the road, opposite the forest path leading to the crag. There should be space for 3-4 cars. Thanks for the info, Gustav Widén.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tosseryd"
+            ]
+          }
+        },
+        "vaggar": {
+          "title": {
+            "text": "Walls",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tosseryd"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tosseryd"
+            ]
+          }
+        },
+        "vanster-sida": {
+          "title": {
+            "text": "Left Side",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tosseryd"
+            ]
+          },
+          "body": {
+            "text": "The following changes are not included in the 2012 guide: Vänstra sprickan and HB now share an anchor. Hix has received an anchor and a new bolt. There is a new route between Hix and Surt sa räven called Trix. Above Surt sa räven, there is now a lowering anchor. Byhåla has two additional bolts at the start. Bröderna djup has a new bolt at the end of the route.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tosseryd"
+            ]
+          }
+        },
+        "hoger-sida": {
+          "title": {
+            "text": "Right Side",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tosseryd"
+            ]
+          },
+          "body": {
+            "text": "The following changes are not included in the 2012 guide: The route Röde orm now has its own anchor.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tosseryd"
+            ]
+          }
+        },
+        "elaka-trollet": {
+          "title": {
+            "text": "Elaka Trollet",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tosseryd"
+            ]
+          },
+          "body": {
+            "text": "The following changes are not included in the 2012 guide: Elaka trollet and Torsk have received a new bolt each at the start. Vloeibare zeep has been given an anchor.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tosseryd"
+            ]
+          }
+        },
+        "kalhygget": {
+          "title": {
+            "text": "Clearcut",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tosseryd"
+            ]
+          },
+          "body": {
+            "text": "The following changes are not included in the 2012 guide: Korpen flyger has an additional bolt and is no longer mixed. Hallucination and Parentes share an anchor on the ledge below the top. Den rykande vaginan and Bullen now share a bolt at the end and are no longer mixed. Säpo has its own bolt at the end and is also no longer mixed. The first ascenders should be consulted on all routes that have changed from mixed to sport.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tosseryd"
+            ]
+          }
+        }
+      },
+      "routes": {}
+    }
   }
 }

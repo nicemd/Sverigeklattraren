@@ -565,5 +565,80 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "=Directions= Take road 363 towards Tavelsjö. After Hissjö, continue for another 3 km to a junction. Turn towards eastern Tavelsjö. After about 500 m, a forest road appears on the right, signposted ‘Grotta’. Follow it for 700 m and park at the bottom of a short uphill section. Walk up towards the crag. =Problems=",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:krogberget"
+        ]
+      },
+      "sections": {},
+      "routes": {
+        "krogberget-problem-1": {
+          "description": {
+            "text": "Under the roof to the right of problem 18. Start as far in as possible.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:krogberget"
+            ]
+          }
+        },
+        "krogberget-problem-11": {
+          "description": {
+            "text": "Sit start under the roof, with hands in the crack a little way to the right.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:krogberget"
+            ]
+          }
+        },
+        "krogberget-problem-16": {
+          "description": {
+            "text": "Tricky corner.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:krogberget"
+            ]
+          }
+        },
+        "krogberget-problem-17": {
+          "description": {
+            "text": "Still needs a little more brushing, and the pine tree at the top ought to go.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:krogberget"
+            ]
+          }
+        },
+        "krogberget-problem-29": {
+          "description": {
+            "text": "Two dynos!",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:krogberget"
+            ]
+          }
+        },
+        "krogberget-problem-32": {
+          "description": {
+            "text": "A classic.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:krogberget"
+            ]
+          }
+        }
+      }
+    }
   }
 }

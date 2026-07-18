@@ -90,5 +90,74 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "Stora Sjöfallet is a national park situated about 130 km west of Gällivare and is one of Sweden's premier ice climbing spots. To the south, the national park borders the renowned Sarek National Park, often referred to as Europe's last wilderness. However, Stora Sjöfallet itself is also somewhat of a wilderness, with only one road and climbing taking place in a mountainous environment. Most routes that have been climbed so far are located along this road between Vietas and Vakkotavare.\n\nThere are routes of around ten metres, but most come to climb multipitch on the several hundred metre long icefalls. Ice climbing in Stora Sjöfallet can be described as mature and on the harder side. Hard not only refers to the grading but also to the ice itself. Climbing in double-digit minus temperatures is not uncommon. Ice climbers have even had to give up due to the cold.",
+        "method": "llm",
+        "model": "gpt-4o-mini",
+        "sourceIds": [
+          "legacy:stora-sjofallet"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "General",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:stora-sjofallet"
+            ]
+          },
+          "body": {
+            "text": "Stora Sjöfallet is a national park located about 130 km west of Gällivare, home to one of Sweden's best ice climbing spots. To the south, the park borders the well-known Sarek National Park, sometimes called Europe’s last wilderness. However, Stora Sjöfallet is also somewhat of a wilderness, as there’s only one road and climbing takes place in a mountain setting. Most of the routes climbed so far lie along this road between Vietas and Vakkotavare.\n\nThere are routes around 10 metres, but most come here to tackle multipitch on the several hundred metre long icefalls. Ice climbing in Stora Sjöfallet can be described as mature and on the harder side. By harder, it refers not only to the grading but also to the ice. Climbing in double-digit subzero temperatures is not uncommon. Ice climbers have even had to give up due to the cold.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:stora-sjofallet"
+            ]
+          }
+        },
+        "vagbeskrivning": {
+          "title": {
+            "text": "Directions",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:stora-sjofallet"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:stora-sjofallet"
+            ]
+          }
+        },
+        "klattringen": {
+          "title": {
+            "text": "Climbing",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:stora-sjofallet"
+            ]
+          },
+          "body": {
+            "text": "Grevinnan WI 4, 250 m\n\nFirst ascent: P-E Lidström and T Krainer 1988.\n\nThis is Stora Sjöfallet's absolute classic, located about 8 km west of Vietas. It’s climbed in 5-6 pitches, with the last two on an impressive 80-degree ice wall. Park on the road and follow, if you're lucky, the tracks of previous climbers towards the icefall for about 30-40 minutes. Snowshoes are recommended.\n\nThe first pitch features 70-degree ice followed by a pitch of similar climbing. Like most of the icefalls in Stora Sjöfallet, Grevinnan is wide (tens of metres) and multiple lines can be taken. The easier climb is along the left edge with a belay right at the birches. The third pitch is less steep and ends at a larger plateau. From here, you can transition to Greven by going left on the plateau. Otherwise, the impressive 80-degree ice wall awaits, featuring sustained climbing for at least two pitches all the way to the top. A hanging belay is required.\n\nFor descent, go right to descend a bit above the ice wall. Here, hopefully, there’s an Abalakov to rappel down from to the previously mentioned plateau. Follow the plateau left towards Greven and rappel down from the birches.\n\nGreven WI 3, 300 m\n\nJust left of Grevinnan lies another Stora Sjöfallet classic, Greven. Like Grevinnan, Greven is wide but tapers up towards the top. With only a short hard section of 75-degree ice and most steep passages able to be avoided, Greven is described as beginner-friendly. However, Greven is 300 m and climbed in at least 7 pitches, which can be taxing.\n\nThe first pitch, slightly longer than 60 metres, consists of easy climbing up to a larger plateau. To avoid running out of rope, it’s recommended to start climbing 10 metres up. The start of Greven is not as clear as Grevinnan, so it’s easy to move up those 10 metres. The second pitch is where the real climbing begins. Here, you’ll pass Greven’s steepest section, about 10 metres of 75-degree ice, located mid-icefall.\n\nThe third pitch is less tough, ending at another larger plateau. This plateau connects Greven with Grevinnan. In other words, you can bypass Greven's easier section and instead climb the first 3 pitches of Grevinnan, then switch over to Greven here.\n\nThe final approximately 5 pitches ascend rolling ice at around 50 to 60 degrees. The icefall narrows as you go, and the climbing becomes more sustained.\n\nDescent follows the same route as Grevinnan.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:stora-sjofallet"
+            ]
+          }
+        }
+      },
+      "routes": {}
+    }
   }
 }

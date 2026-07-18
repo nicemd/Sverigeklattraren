@@ -34,5 +34,38 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "0 documented routes and problems.",
+        "method": "llm",
+        "model": "gpt-4o-mini",
+        "sourceIds": [
+          "legacy:vikskile"
+        ]
+      },
+      "sections": {
+        "access": {
+          "title": {
+            "text": "Access",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:vikskile"
+            ]
+          },
+          "body": {
+            "text": "2010-08-08 - Waste Issues: Unfortunately, some climbers are putting rubbish in the private bins available. Please _do not_ do this. It creates irritation and is a misuse of the trust climbers have been given to park on private land and walk through pastures.\n\nFilm from Vikskile: v=CWcNJuTXz08",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:vikskile"
+            ]
+          }
+        }
+      },
+      "routes": {}
+    }
   }
 }

@@ -320,5 +320,277 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "A very short wall with several top-rope routes graded 4 to 6. Close to the city and dries quickly after rain. There are no bolts currently, so you'll need to throw slings around trees at the top of the crag. Bring long slings!",
+        "method": "llm",
+        "model": "gpt-4o-mini",
+        "sourceIds": [
+          "legacy:taxiklippan"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "General",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:taxiklippan"
+            ]
+          },
+          "body": {
+            "text": "A (very) short crag with a number of top-rope routes graded 4 to 6. Close to the city and dries quickly after rain. There are no bolts, so you'll need to sling around trees at the top of the crag. Bring long slings!",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:taxiklippan"
+            ]
+          }
+        },
+        "misc": {
+          "title": {
+            "text": "Miscellaneous",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:taxiklippan"
+            ]
+          },
+          "body": {
+            "text": "The crag is mostly blasted rock, but the easier routes on the left mainly go over unspoilt rock.\n\nThe car park where the crag is located seems to be a popular spot for taxi drivers to stop and rest, and also a popular place for littering. Please take some extra rubbish home!\n\nThere is currently (2012-08-20) construction work in the area, and barriers have been put up that block the easiest path to the top of the crag. You can still reach the top by following the cycle path to the left of the crag, finding the parking area directly above, and going through some undergrowth. A perhaps better option is to climb the easy route in the middle of the crag.\n\nThere are a bunch of new routes to do that we didn't manage to get to (moved abroad /Johan), so please update the guide if you do any more routes.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:taxiklippan"
+            ]
+          }
+        },
+        "vagbeskrivning": {
+          "title": {
+            "text": "Directions",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:taxiklippan"
+            ]
+          },
+          "body": {
+            "text": "The crag is centrally located, south of Söder. It’s a few minutes' walk from Midsommarkransen subway station, and several buses stop right by the crag. If driving, the crag is in the middle of a car park -- however, it’s unclear whether you can park there.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:taxiklippan"
+            ]
+          }
+        },
+        "leder": {
+          "title": {
+            "text": "Routes",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:taxiklippan"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:taxiklippan"
+            ]
+          }
+        },
+        "vanster": {
+          "title": {
+            "text": "Left",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:taxiklippan"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:taxiklippan"
+            ]
+          }
+        },
+        "mitten": {
+          "title": {
+            "text": "Middle",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:taxiklippan"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:taxiklippan"
+            ]
+          }
+        },
+        "hoger": {
+          "title": {
+            "text": "Right",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:taxiklippan"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:taxiklippan"
+            ]
+          }
+        }
+      },
+      "routes": {
+        "taxiklippan-led-1": {
+          "description": {
+            "text": "Stay left on the large jugs (??).",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:taxiklippan"
+            ]
+          }
+        },
+        "taxiklippan-led-2": {
+          "description": {
+            "text": "Straight up through the small overhang.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:taxiklippan"
+            ]
+          }
+        },
+        "taxiklippan-led-3": {
+          "description": {
+            "text": "A bit cruxy balance climbing just left of the lamp post.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:taxiklippan"
+            ]
+          }
+        },
+        "taxiklippan-led-4": {
+          "description": {
+            "text": "Even more cruxy balance climbing, stay right of the lamp post.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:taxiklippan"
+            ]
+          }
+        },
+        "taxiklippan-led-5": {
+          "description": {
+            "text": "Follow the crack.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:taxiklippan"
+            ]
+          }
+        },
+        "taxiklippan-led-6": {
+          "description": {
+            "text": "Easy, but fun climbing with jugs and underclings.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:taxiklippan"
+            ]
+          }
+        },
+        "taxiklippan-led-7": {
+          "description": {
+            "text": "Easy, but fun climbing with jugs and underclings.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:taxiklippan"
+            ]
+          }
+        },
+        "taxiklippan-led-8": {
+          "description": {
+            "text": "The easiest way to get up to set up the toprope.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:taxiklippan"
+            ]
+          }
+        },
+        "taxiklippan-led-9": {
+          "description": {
+            "text": "Follow the small crack straight up.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:taxiklippan"
+            ]
+          }
+        },
+        "taxiklippan-led-10": {
+          "description": {
+            "text": "Follow the larger crack above the birch tree.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:taxiklippan"
+            ]
+          }
+        },
+        "taxiklippan-led-11": {
+          "description": {
+            "text": "..?",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:taxiklippan"
+            ]
+          }
+        },
+        "taxiklippan-led-12": {
+          "description": {
+            "text": "A tough crux...",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:taxiklippan"
+            ]
+          }
+        },
+        "taxiklippan-led-13": {
+          "description": {
+            "text": "Very undefined, can be made as hard or easy as you want by eliminating holds..",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:taxiklippan"
+            ]
+          }
+        }
+      }
+    }
   }
 }

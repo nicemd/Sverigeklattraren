@@ -263,5 +263,203 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "The crag is situated on Hallandsåsen, between Skåne and Halland. It is 6–10 m high, with excellent friction and plenty of fine jamming, so bring cams or hexes. There are currently 12 routes. After rain, the routes need a couple of days of dry weather before they dry out.",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:snapphanegrytan"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "General",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:snapphanegrytan"
+            ]
+          },
+          "body": {
+            "text": "The crag is situated on Hallandsåsen between Skåne and Halland. It is 6–10 m high, has excellent friction and offers plenty of fine jamming, so it is worth bringing cams or hexes. There are currently 12 routes. After rain, the routes need a couple of dry days before they dry out.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:snapphanegrytan"
+            ]
+          }
+        },
+        "vagbeskrivning": {
+          "title": {
+            "text": "Directions",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:snapphanegrytan"
+            ]
+          },
+          "body": {
+            "text": "Map here. Click the map button above.\n\nDirections: leave the E6 at Hjärnarp and continue towards Ugglehult/Lerbäckshult. Drive past Faxeröd; the tarmac soon turns to gravel. Pass the road to djurholmen, continue for 1 km, then take the road on the left and follow it for about 2 km. A cottage and lake appear on the right; a few hundred metres further on, kolugnsvägen is on the right. Park here and walk the final 300 m along Kolungnsvägen. The crag can be seen on the left, 40 m into the woods.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:snapphanegrytan"
+            ]
+          }
+        },
+        "leder": {
+          "title": {
+            "text": "Routes",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:snapphanegrytan"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:snapphanegrytan"
+            ]
+          }
+        },
+        "kontakt": {
+          "title": {
+            "text": "Contact",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:snapphanegrytan"
+            ]
+          },
+          "body": {
+            "text": "For more information and photos, see Eskapader (http://www.eskapader.se)\n\nRight-hand column",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:snapphanegrytan"
+            ]
+          }
+        }
+      },
+      "routes": {
+        "snapphanegrytan-led-1": {
+          "description": {
+            "text": "The rightmost crack.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:snapphanegrytan"
+            ]
+          }
+        },
+        "snapphanegrytan-led-2": {
+          "description": {
+            "text": "Crux at the top.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:snapphanegrytan"
+            ]
+          }
+        },
+        "snapphanegrytan-led-3": {
+          "description": {
+            "text": "Can be damp, slightly loose in the middle and well protected.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:snapphanegrytan"
+            ]
+          }
+        },
+        "snapphanegrytan-led-4": {
+          "description": {
+            "text": "Well protected.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:snapphanegrytan"
+            ]
+          }
+        },
+        "snapphanegrytan-led-5": {
+          "description": {
+            "text": "Fine, well-protected climbing with jamming and long reaches.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:snapphanegrytan"
+            ]
+          }
+        },
+        "snapphanegrytan-led-6": {
+          "description": {
+            "text": "Climb to the crimp in the middle of the wall.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:snapphanegrytan"
+            ]
+          }
+        },
+        "snapphanegrytan-led-7": {
+          "description": {
+            "text": "Climb the left-hand chimney. Well protected.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:snapphanegrytan"
+            ]
+          }
+        },
+        "snapphanegrytan-led-8": {
+          "description": {
+            "text": "Climb the right-hand chimney. Well protected.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:snapphanegrytan"
+            ]
+          }
+        },
+        "snapphanegrytan-led-9": {
+          "description": {
+            "text": "Traverse from right to left along the low crack.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:snapphanegrytan"
+            ]
+          }
+        },
+        "snapphanegrytan-led-10": {
+          "description": {
+            "text": "Traverse from left to right along the high crack. Finish at the top of Öljäst.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:snapphanegrytan"
+            ]
+          }
+        },
+        "snapphanegrytan-led-11": {
+          "description": {
+            "text": "Traverse from left to right along the high crack. Finish at the top of Öljäst.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:snapphanegrytan"
+            ]
+          }
+        }
+      }
+    }
   }
 }

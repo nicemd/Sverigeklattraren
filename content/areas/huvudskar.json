@@ -34,5 +34,38 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "At Huvudskär you’ll find some fine crack lines on one of the neighbouring islands. They are around 4 metres high, with about 10 problems in the 6a–7a range. Excellent rock and well worth the trip. If you don’t have a boat, the ferry runs from Dalarö during the summer months. A hostel on the island makes for a lovely weekend away from the city. To reach the island just offshore, you can hire a dinghy from the hostel.",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:huvudskar"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "General",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:huvudskar"
+            ]
+          },
+          "body": {
+            "text": "At Huvudskär, there are some fine crack lines on one of the neighbouring islands. They are about 4 metres high, with around 10 problems graded 6a–7a. The rock is excellent and well worth the trip. If you do not have a boat, a ferry runs from Dalarö during the summer months. The hostel on the island makes for a pleasant weekend away from the city. To reach the outlying island, you can hire a dinghy from the hostel.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:huvudskar"
+            ]
+          }
+        }
+      },
+      "routes": {}
+    }
   }
 }

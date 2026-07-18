@@ -618,5 +618,457 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "34 documented routes and problems.",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:forsby"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "General information",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:forsby"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:forsby"
+            ]
+          }
+        },
+        "sektorer": {
+          "title": {
+            "text": "Sectors",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:forsby"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:forsby"
+            ]
+          }
+        },
+        "vagbeskrivning": {
+          "title": {
+            "text": "Directions",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:forsby"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:forsby"
+            ]
+          }
+        },
+        "traversen": {
+          "title": {
+            "text": "The Traverse",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:forsby"
+            ]
+          },
+          "body": {
+            "text": "To reach the traverse, drive through Forsby. Just beyond Forsby, there is a large open area with a barrier on the left. The boulders are beyond the open area.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:forsby"
+            ]
+          }
+        },
+        "ormstenen": {
+          "title": {
+            "text": "Ormstenen",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:forsby"
+            ]
+          },
+          "body": {
+            "text": "To reach Ormstenen, drive almost all the way through Forsby. Turn left onto Tegelbruksvägen by a grey house with purple trim on the left. Cross the railway and turn right. Follow the road to a small turning area with a barrier. Walk past the barrier along Texelvägen for about 400–500 m. The boulder is on the left, up in a clear-cut area.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:forsby"
+            ]
+          }
+        },
+        "dyno-blocket-wintjes-fika-block": {
+          "title": {
+            "text": "Dyno-blocket/Wintjes fika-block",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:forsby"
+            ]
+          },
+          "body": {
+            "text": "Park in the same place as for Ormstenen, then walk up Texelvägen for about 200 m and cross the meadow on the left. There is a forest track on the far side of the meadow; follow it to the right for a couple of hundred metres. The boulder will appear on the left, on a small rise.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:forsby"
+            ]
+          }
+        },
+        "vhs-blocket": {
+          "title": {
+            "text": "VHS-blocket",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:forsby"
+            ]
+          },
+          "body": {
+            "text": "To reach the boulder, drive towards Forsby. Pass the Konsum triangle, but before crossing the railway turn left towards the newly built area in Stigslund (Stigsberget). Then immediately turn right onto Forsbykroken, a gravel road. Follow the gravel road to the barrier. Park by the barrier without obstructing any traffic. Continue along the gravel road for 400–500 m. The boulder is on the left, just before the power lines. An old video recorder lies on the ground beside the boulder, hence the name.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:forsby"
+            ]
+          }
+        }
+      },
+      "routes": {
+        "forsby-problem-3": {
+          "description": {
+            "text": "On the boulder to the right of Forsbytraversen.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:forsby"
+            ]
+          }
+        },
+        "forsby-problem-4": {
+          "description": {
+            "text": "The roadside boulder, at the same spot as Forsbytraversen.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:forsby"
+            ]
+          }
+        },
+        "forsby-problem-6": {
+          "description": {
+            "text": "On the same boulder as Novis.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:forsby"
+            ]
+          }
+        },
+        "forsby-problem-7": {
+          "description": {
+            "text": "On the same boulder as Novis. The arete is out.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:forsby"
+            ]
+          }
+        },
+        "forsby-problem-8": {
+          "description": {
+            "text": "On the same boulder as Giacometti, beside the road near Forsby traversen. Start at the left-hand arete, traverse right and finish up Novis.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:forsby"
+            ]
+          }
+        },
+        "forsby-problem-9": {
+          "description": {
+            "text": "On the large boulder on the other side of the railway. Climb the arete on the left side of the cave entrance. Start on the large hold and traverse left.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:forsby"
+            ]
+          }
+        },
+        "forsby-problem-10": {
+          "description": {
+            "text": "On the other side of the railway. Start on the large hold low down on the overhanging arete.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:forsby"
+            ]
+          }
+        },
+        "forsby-problem-11": {
+          "description": {
+            "text": "On the large boulder behind the Forsbytravers boulder. Walk past the traverse to the boulder behind it, with the high face on your right. The problem climbs the far left of the high face. Follow the large ledge upwards, then climb straight up.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:forsby"
+            ]
+          }
+        },
+        "forsby-problem-12": {
+          "description": {
+            "text": "On the large boulder behind the Forsbytravers boulder. Walk past the traverse to the boulder behind it, with the high face on your right. The problem climbs the left-hand arete, starting seated below the lip.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:forsby"
+            ]
+          }
+        },
+        "forsby-problem-13": {
+          "description": {
+            "text": "On the large boulder behind the Forsbytravers boulder. Walk past the traverse to the boulder behind it, with the high face on your right. The problem climbs the middle of the high face. Climb straight up without using the aretes or the ledge.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:forsby"
+            ]
+          }
+        },
+        "forsby-problem-14": {
+          "description": {
+            "text": "On the large boulder behind the Forsbytravers boulder. Walk past the traverse to the boulder behind it, with the high face on your right. The problem climbs the right-hand arete.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:forsby"
+            ]
+          }
+        },
+        "forsby-problem-15": {
+          "description": {
+            "text": "On the traverse boulder. Climb straight up the left-hand arete, then top out to the right; do not top out directly above.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:forsby"
+            ]
+          }
+        },
+        "forsby-problem-16": {
+          "description": {
+            "text": "Sit start directly below the standing start.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:forsby"
+            ]
+          }
+        },
+        "forsby-problem-17": {
+          "description": {
+            "text": "On David's new boulder. Facing the overhanging side, it climbs the right-hand arete.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:forsby"
+            ]
+          }
+        },
+        "forsby-problem-18": {
+          "description": {
+            "text": "On a new boulder in Forsby, diagonally right beyond the railway when viewed from the traverse. Climb the overhanging face left of the right-hand arete, trending diagonally right.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:forsby"
+            ]
+          }
+        },
+        "forsby-problem-19": {
+          "description": {
+            "text": "On the same boulder as Bländad, but on the long face. Establish on two crimps immediately left of the crack, then climb straight up without using anything right of the crack.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:forsby"
+            ]
+          }
+        },
+        "forsby-problem-20": {
+          "description": {
+            "text": "Climbs the left-hand overhanging section. Start on the obvious edge and dyno to the lip.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:forsby"
+            ]
+          }
+        },
+        "forsby-problem-21": {
+          "description": {
+            "text": "Sit start. Climbs the right-hand arete, to the right of Forsby dynot. Use only a heel hook with the left foot in the crack and top out over the overhanging section.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:forsby"
+            ]
+          }
+        },
+        "forsby-problem-22": {
+          "description": {
+            "text": "Climbs the middle of the face opposite Forsby dynot.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:forsby"
+            ]
+          }
+        },
+        "forsby-problem-23": {
+          "description": {
+            "text": "Climbs the slab facing the road. Start far left and top out roughly in the middle of the boulder.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:forsby"
+            ]
+          }
+        },
+        "forsby-problem-24": {
+          "description": {
+            "text": "Sit start. Climbs the slab at the far right, between the crack and the arete. Do not use anything left of the crack.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:forsby"
+            ]
+          }
+        },
+        "forsby-problem-25": {
+          "description": {
+            "text": "The same as Kaffe med dopp, but from a standing start. Do not use anything left of the crack.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:forsby"
+            ]
+          }
+        },
+        "forsby-problem-26": {
+          "description": {
+            "text": "Establish with the left hand on a low edge and the right hand on a good sidepull. On the right of the face with Saving private Joel. The lip is out.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:forsby"
+            ]
+          }
+        },
+        "forsby-problem-27": {
+          "description": {
+            "text": "Sit start. On the same face as Nybörjargodis. Start on the obvious ledge by the left-hand arete, then climb straight up between the two aretes on the slightly overhanging section, without using the crack to the right.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:forsby"
+            ]
+          }
+        },
+        "forsby-problem-28": {
+          "description": {
+            "text": "On the VHS boulder. Facing the slab, go round the left side of the boulder. Start on the obvious holds in the middle of the high vertical face. Dyno to the top.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:forsby"
+            ]
+          }
+        },
+        "forsby-problem-29": {
+          "description": {
+            "text": "On the VHS boulder. Facing the slab, the problem follows the left-hand arete.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:forsby"
+            ]
+          }
+        },
+        "forsby-problem-30": {
+          "description": {
+            "text": "On the VHS boulder. Facing the slab, the problem climbs just round the right-hand arete.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:forsby"
+            ]
+          }
+        },
+        "forsby-problem-31": {
+          "description": {
+            "text": "Climbs immediately left of Ett litet hopp on the VHS boulder, just before the left-hand arete.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:forsby"
+            ]
+          }
+        },
+        "forsby-problem-32": {
+          "description": {
+            "text": "Beside the road towards the 3G mast, on the left 80–100m before the turning area. Walk straight into the forest for 100–150m and the boulder comes into view. The problem climbs the right-hand arete on the steep side. Start on two underclings, then climb straight up and left.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:forsby"
+            ]
+          }
+        },
+        "forsby-problem-33": {
+          "description": {
+            "text": "On the Grinchen boulder on the other side of the railway. Climb the right-hand arete at the entrance between the boulders. Start with the left hand on a sidepull edge and the right hand low on the arete, then climb straight up.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:forsby"
+            ]
+          }
+        },
+        "forsby-problem-34": {
+          "description": {
+            "text": "On the large new boulder across the railway from forsbytraversen. Climb the steep face on the left by the birch tree. Start with the left hand on the large sidepull and the right hand on the two-finger crimp far to the right. Probably easier if you can reach the large sidepull with your right hand.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:forsby"
+            ]
+          }
+        }
+      }
+    }
   }
 }

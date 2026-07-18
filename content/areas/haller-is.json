@@ -44,5 +44,74 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "About 150 m to the right of Mallorol is a fine ice pillar, \"Brosöyla\", 10 m WI 4. Steep.",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:haller-is"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "General",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:haller-is"
+            ]
+          },
+          "body": {
+            "text": "About 150 m to the right of Mallorol is a fine ice pillar, \"Brosöyla\", 10 m WI 4. Steep.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:haller-is"
+            ]
+          }
+        },
+        "vagbeskrivning": {
+          "title": {
+            "text": "Directions",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:haller-is"
+            ]
+          },
+          "body": {
+            "text": "See Häller. Climbed sometime in the early 1990s.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:haller-is"
+            ]
+          }
+        },
+        "access": {
+          "title": {
+            "text": "Access",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:haller-is"
+            ]
+          },
+          "body": {
+            "text": "See Häller under \"Crag\".",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:haller-is"
+            ]
+          }
+        }
+      },
+      "routes": {}
+    }
   }
 }

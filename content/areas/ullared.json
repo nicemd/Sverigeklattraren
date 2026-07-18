@@ -72,5 +72,38 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "There are about 10 crags and some bouldering here. As far as I know, all the crags are unclimbed, and the land they sit on is owned by Falkenberg Municipality or Ge-Kås Camping, so access is not an issue. Here are some pictures: http://putfile.com/pic.php?pic=main/7/19812112334.jpg&s=f10 http://putfile.com/pic.php?pic=main/7/19812101469.jpg&s=f10 http://putfile.com/pic.php?pic=main/7/19812085031.jpg&s=f10 http://putfile.com/pic.php?pic=main/7/19812160239.jpg&s=f10 None of the crags are bolted, but it's possible to set top ropes to trees or climb on bolts in some areas. There's no proper guide beyond this overview of the crags, but feel free to contact me at nicke_dirtbike@msn.com, and I'd be happy to join you for some guiding (I’ll try to sort out a map to upload here). Most of what’s here is, as mentioned, unclimbed, so there are plenty of new routes and problems to discover. The crags are also quite clean naturally, so if you find a new route, it won’t require much brushing :) During the summer, the camping gets pretty full, so it’s hard to get a cabin without booking at least six months in advance, but there is always space for caravans and tents, and parking is available near the campsite (a few hundred metres from all the crags). Some parts of the crags may be a bit wet if it hasn’t been dry for a week, but some crags dry within a few hours after rain, so there's usually something to climb. Link to the camping: http://www.ullaredscamping.se/index.asp My email if you want guidance or have questions: nicke_dirtbike@msn.com. The map below only shows approximately where the crags are located, but they become visible as you approach, so there shouldn’t be any issues.",
+        "method": "llm",
+        "model": "gpt-4o-mini",
+        "sourceIds": [
+          "legacy:ullared"
+        ]
+      },
+      "sections": {
+        "vagbeskrivning": {
+          "title": {
+            "text": "Access Directions",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:ullared"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:ullared"
+            ]
+          }
+        }
+      },
+      "routes": {}
+    }
   }
 }

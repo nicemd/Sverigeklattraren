@@ -49,5 +49,74 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "Gråberget is located in Bönan, 15 km north-east of Gävle. The crag was (re)discovered in 1983 (?) – a bolt suggests that climbers may have visited it earlier.",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:graberget"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "General",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:graberget"
+            ]
+          },
+          "body": {
+            "text": "Gråberget is in Bönan, 15 km north-east of Gävle. The crag was (re)discovered (?) in 1983—a bolt suggests that climbers may have visited it previously.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:graberget"
+            ]
+          }
+        },
+        "kommunikationer": {
+          "title": {
+            "text": "Approach",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:graberget"
+            ]
+          },
+          "body": {
+            "text": "By car: from Gävle, drive north for a short distance and turn right at a sign for \"Bönan\". The crag is visible as you drive through the village.\n\nGPS coordinates: Lat: N 60º 44' 32.29\" Long: E 17º 18' 57.57\"",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:graberget"
+            ]
+          }
+        },
+        "klippor": {
+          "title": {
+            "text": "Crags",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:graberget"
+            ]
+          },
+          "body": {
+            "text": "The crags face south and extend for several hundred metres. The maximum height is about 15 m. The area also has quite a few boulder problems.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:graberget"
+            ]
+          }
+        }
+      },
+      "routes": {}
+    }
   }
 }

@@ -178,5 +178,133 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "The Nedansjö icefalls are beautifully situated on the north side of Skölesklevarna, overlooking the valley through which the River Ljungan flows. In normal conditions, the season runs from early December to late March.\n\nFor current ice conditions or other enquiries, contact Sundsvalls Klätterklubb (http://www.sundsvallsklatterklubb.se).",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:nedansjo-skolesklevarna"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "General",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:nedansjo-skolesklevarna"
+            ]
+          },
+          "body": {
+            "text": "The Nedansjö icefalls are beautifully situated on the north side of Skölesklevarna, overlooking the valley through which the River Ljungan flows. Under normal conditions, the season runs from early December to late March.\n\nFor current ice conditions or other enquiries, contact Sundsvalls Klätterklubb (http://www.sundsvallsklatterklubb.se).",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:nedansjo-skolesklevarna"
+            ]
+          }
+        },
+        "vagbeskrivning": {
+          "title": {
+            "text": "Directions",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:nedansjo-skolesklevarna"
+            ]
+          },
+          "body": {
+            "text": "Turn off the E14 towards Matfors, cross the Ljungan and, 700m later, turn right just before the road bridge (signposted towards Stöde). Drive 200m and turn right at the T-junction. Follow the road for 5.2km; the crag will now be clearly visible on the left. Drive down a hill and past a large meadow. You are nearly there! Take the first road on the left, which runs directly towards the crag. Note: the road is not always ploughed. If it is not, park by the turning, but make sure that a snowplough or the landowner can get past. If you are lucky and the road has been ploughed, continue for another 300m until it bends sharply right. This is a suitable place to park, as the landowner usually ploughs an extra-wide area here. There is usually a small ploughed turning area 400m farther along the road; if not, you will get a chance to practise driving in the other direction.\n\nThe approach is 300–600m, depending on where you can park. Just after the sharp right-hand bend, where you have hopefully been able to park, a path/forestry-machine track heads uphill to the left. Follow it across the stream until the path ends (about 250m). Then head straight uphill through the forest towards the crag, keeping slightly left. After about 150m, you should clearly see Stora fallet (or follow any well-trodden path).",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:nedansjo-skolesklevarna"
+            ]
+          }
+        },
+        "klattringen": {
+          "title": {
+            "text": "Climbing",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:nedansjo-skolesklevarna"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:nedansjo-skolesklevarna"
+            ]
+          }
+        },
+        "accessinformation": {
+          "title": {
+            "text": "Access information",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:nedansjo-skolesklevarna"
+            ]
+          },
+          "body": {
+            "text": "There are currently no access issues, but when parking, make sure that you do not obstruct passing traffic.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:nedansjo-skolesklevarna"
+            ]
+          }
+        }
+      },
+      "routes": {
+        "nedansjo-skolesklevarna-led-1": {
+          "description": {
+            "text": "Approx. 10m wide, with sustained climbing at around 75°. A top-rope anchor can be set in the trees on the ledge above (go right below the icefall and zigzag up).",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:nedansjo-skolesklevarna"
+            ]
+          }
+        },
+        "nedansjo-skolesklevarna-led-2": {
+          "description": {
+            "text": "The icefall consists of a small pillar, around 4m high, followed by a traverse left onto a larger pillar that reaches the top of the crag, around 11m. It is most easily reached from above, as it starts about 50m directly below Övre högra isen (it can also be reached from below by heading straight out onto the ledge to the right of Stora fallet). For top-roping, it is easiest to belay from above.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:nedansjo-skolesklevarna"
+            ]
+          }
+        },
+        "nedansjo-skolesklevarna-led-3": {
+          "description": {
+            "text": "Starts slightly left on the ledge above Stora fallet. This icefall usually takes a month or so to form.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:nedansjo-skolesklevarna"
+            ]
+          }
+        },
+        "nedansjo-skolesklevarna-led-4": {
+          "description": {
+            "text": "The icefall consists of two vertical sections with a lower-angled section in between. Starts about 100m to the right when viewed from the ledge above Stora fallet. A top-rope anchor can be set in the trees above (go right below the icefall to get up).",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:nedansjo-skolesklevarna"
+            ]
+          }
+        }
+      }
+    }
   }
 }

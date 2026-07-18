@@ -568,5 +568,155 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "Lovely spot. Very easy approach, with smooth, pleasant rock and big holds.",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:gunnilse"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "General",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gunnilse"
+            ]
+          },
+          "body": {
+            "text": "A pleasant spot. An excellent approach and smooth, pleasant rock with big holds.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gunnilse"
+            ]
+          }
+        },
+        "leder": {
+          "title": {
+            "text": "Routes",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gunnilse"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gunnilse"
+            ]
+          }
+        },
+        "enigma": {
+          "title": {
+            "text": "Enigma",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gunnilse"
+            ]
+          },
+          "body": {
+            "text": "A crag some distance away.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gunnilse"
+            ]
+          }
+        }
+      },
+      "routes": {
+        "gunnilse-led-2": {
+          "description": {
+            "text": "The ramp on the far left, then the corner. The last piece of protection is at the start of the corner.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gunnilse"
+            ]
+          }
+        },
+        "gunnilse-led-4": {
+          "description": {
+            "text": "Use Junibacken's top-rope anchor.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gunnilse"
+            ]
+          }
+        },
+        "gunnilse-led-6": {
+          "description": {
+            "text": "There is now a bolt, making it possible to climb safely from Elefantöra to Biceps femoris, 7b.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gunnilse"
+            ]
+          }
+        },
+        "gunnilse-led-13": {
+          "description": {
+            "text": "Long reaches between large holds.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gunnilse"
+            ]
+          }
+        },
+        "gunnilse-led-19": {
+          "description": {
+            "text": "Alternative finish to Skål.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gunnilse"
+            ]
+          }
+        },
+        "gunnilse-led-22": {
+          "description": {
+            "text": "Bolted by Joakim Andersson in 2013. Nada and Petitess can be top-roped from the anchor.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gunnilse"
+            ]
+          }
+        },
+        "gunnilse-led-24": {
+          "description": {
+            "text": "Behind the telephone pole.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gunnilse"
+            ]
+          }
+        },
+        "gunnilse-led-28": {
+          "description": {
+            "text": "By Jonas Emanuelsson / Jens Larssen, August 2013, 6b or 6a+.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gunnilse"
+            ]
+          }
+        }
+      }
+    }
   }
 }

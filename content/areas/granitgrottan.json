@@ -1307,5 +1307,103 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "A very steep cave formation with plenty of high-quality overhanging sport climbing. The side walls offer some slightly less steep and easier climbing. Many of the routes remain climbable in the rain due to the steep nature of the crag. After heavy rain, however, some water may seep through.",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:granitgrottan"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "General",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:granitgrottan"
+            ]
+          },
+          "body": {
+            "text": "A very steep cave formation with plenty of high-quality overhanging sport climbing. The side walls offer some less steep and easier climbing. Many of the routes remain climbable in the rain due to the steepness of the crag. After heavy rain, however, some water may seep through.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:granitgrottan"
+            ]
+          }
+        },
+        "vagbeskrivning": {
+          "title": {
+            "text": "Directions",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:granitgrottan"
+            ]
+          },
+          "body": {
+            "text": "Map here. Click the map button above.\n\nTake road 162 from the E6 towards Lysekil. Just before Hallinden, turn left towards Ingalsröd. Follow the road for approx. 2.5 km and turn right at the fork, again towards Ingalsröd. Continue for 2 km and turn left towards Ingalsröd. Follow the road for just over a kilometre until you see a large farm on the left. The crag can also be glimpsed through the woods on the left. Turn onto the gravel road towards the farm and park by the gable end of the barn immediately on the left. Continue along the gravel road, then turn left alongside the barn towards the crag and cross the large field. A 5-minute walk from the car.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:granitgrottan"
+            ]
+          }
+        },
+        "oversiktsbilder": {
+          "title": {
+            "text": "Overview photos",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:granitgrottan"
+            ]
+          },
+          "body": {
+            "text": "There are another four routes to the right of the top photo: 7a, 7a+, 6b+, 6b. There is also a sector between Granitväggen, shown on the topo marked in blue, and Granitgrottan, with approx. 15 routes starting from a ledge halfway up the wall.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:granitgrottan"
+            ]
+          }
+        },
+        "leder": {
+          "title": {
+            "text": "Routes",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:granitgrottan"
+            ]
+          },
+          "body": {
+            "text": "Barnväggen",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:granitgrottan"
+            ]
+          }
+        }
+      },
+      "routes": {
+        "granitgrottan-led-55": {
+          "description": {
+            "text": "By the cairn.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:granitgrottan"
+            ]
+          }
+        }
+      }
+    }
   }
 }

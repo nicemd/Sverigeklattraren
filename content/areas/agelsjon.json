@@ -1606,5 +1606,939 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "A fantastic area with plenty of climbing, but also a beautiful swimming lake with diving cliffs and beaches, great camping facilities, and easy access. It's also perfect for those travelling with friends or family who don't climb, as there's so much else to do. Many of the crags are child-friendly.",
+        "method": "llm",
+        "model": "gpt-4o-mini",
+        "sourceIds": [
+          "legacy:agelsjon"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "General",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:agelsjon"
+            ]
+          },
+          "body": {
+            "text": "A lovely area with plenty of climbing, plus a beautiful swimming lake with diving cliffs and beaches, excellent camping options, and easy access. It is also perfect for those travelling with friends or family who don't climb, as there’s so much else to do. Many of the crags are child-friendly.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:agelsjon"
+            ]
+          }
+        },
+        "karta": {
+          "title": {
+            "text": "Map",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:agelsjon"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:agelsjon"
+            ]
+          }
+        },
+        "access": {
+          "title": {
+            "text": "Access",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:agelsjon"
+            ]
+          },
+          "body": {
+            "text": "A current nature reserve project may impact climbing. Please be considerate while you are there!",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:agelsjon"
+            ]
+          }
+        },
+        "logi": {
+          "title": {
+            "text": "Accommodation",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:agelsjon"
+            ]
+          },
+          "body": {
+            "text": "Between the parking area and Little Mountain, there are plenty of camping spots. There is also a fire pit and rubbish bin. More secluded spots can be found by following the path along the lake past Little Mountain. Camping near the football pitch is NOT recommended unless you fancy midges.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:agelsjon"
+            ]
+          }
+        },
+        "lankar": {
+          "title": {
+            "text": "Links",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:agelsjon"
+            ]
+          },
+          "body": {
+            "text": "Guide provided by Linköping Climbing Club (http://linkopingsklatterklubb.se/index.php/forare.html).",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:agelsjon"
+            ]
+          }
+        },
+        "leder": {
+          "title": {
+            "text": "Routes",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:agelsjon"
+            ]
+          },
+          "body": {
+            "text": "Climbing in Ågelsjön is spread over a large number of walls with various characteristics. The A-Team Wall, B-Team Wall, Dragon Wall, Volx Wall, Surf Wall, Ravine Wall, and East Wall are located on \"Football Mountain\" or Borgar Mountain, which is north of the football pitch. Following the path along the lake, you first find Little Mountain, flanked by the Red October Wall on the right and the Diva Wall on the left. Continuing along the path you will eventually reach the Big Wall. Above it lies the Slab, with a few cross-walls and the lake crag beyond.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:agelsjon"
+            ]
+          }
+        },
+        "fotbollsberget": {
+          "title": {
+            "text": "Football Mountain",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:agelsjon"
+            ]
+          },
+          "body": {
+            "text": "Football Mountain, or Borgar Mountain as it’s officially known, is just north of the old football pitch. Here you’ll find several nice routes, and it is often \"free\" even when Little Mountain is busy with top ropes and queues are forming at the Big Wall and the Slab.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:agelsjon"
+            ]
+          }
+        },
+        "drakvaggen": {
+          "title": {
+            "text": "== Dragon Wall ==",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:agelsjon"
+            ]
+          },
+          "body": {
+            "text": "The Dragon Wall is located just across the road from the north-west corner of the football pitch. Easy to recognise by the engraved dragon.\n\nHere you’ll find three very nice bolted slab routes. From left to right:",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:agelsjon"
+            ]
+          }
+        },
+        "a-lagsvaggen": {
+          "title": {
+            "text": "== A-Team Wall ==",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:agelsjon"
+            ]
+          },
+          "body": {
+            "text": "The A-Team Wall is to the right and above the Dragon Wall. Routes from grade 6 to 8+. The bolting is not overly tight.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:agelsjon"
+            ]
+          }
+        },
+        "b-lagsvaggen": {
+          "title": {
+            "text": "== B-Team Wall ==",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:agelsjon"
+            ]
+          },
+          "body": {
+            "text": "The B-Team Wall is to the right of the A-Team Wall and has, as the name suggests, slightly easier routes than the former.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:agelsjon"
+            ]
+          }
+        },
+        "volxvaggen": {
+          "title": {
+            "text": "== Volx Wall ==",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:agelsjon"
+            ]
+          },
+          "body": {
+            "text": "If you go up to the right of the B-Team Wall, you will find a low overhanging cliff face. This is the Volx Wall. Short bouldery routes.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:agelsjon"
+            ]
+          }
+        },
+        "surfvaggen": {
+          "title": {
+            "text": "== Surf Wall ==",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:agelsjon"
+            ]
+          },
+          "body": {
+            "text": "Take a left at the Volx Wall and you will reach the Surf Wall.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:agelsjon"
+            ]
+          }
+        },
+        "ravinvaggen": {
+          "title": {
+            "text": "== Ravine Wall ==",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:agelsjon"
+            ]
+          },
+          "body": {
+            "text": "Above the Surf Wall lies a narrow ravine. This is (surprise) the Ravine Wall. Routes from grade 6 to 8.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:agelsjon"
+            ]
+          }
+        },
+        "lilla-berget-och-dar-omkring": {
+          "title": {
+            "text": "Little Mountain and Surrounding Area",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:agelsjon"
+            ]
+          },
+          "body": {
+            "text": "\"Little Mountain\" is the first vertical cliff face if you follow the path along the lake. Lots of top-rope options on nice days. Many hikers stop to watch.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:agelsjon"
+            ]
+          }
+        },
+        "lilla-berget": {
+          "title": {
+            "text": "== Little Mountain ==",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:agelsjon"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:agelsjon"
+            ]
+          }
+        },
+        "divavaggen": {
+          "title": {
+            "text": "== Diva Wall ==",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:agelsjon"
+            ]
+          },
+          "body": {
+            "text": "The Diva Wall is the continuation of Little Mountain to the left.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:agelsjon"
+            ]
+          }
+        },
+        "roda-oktobervaggen": {
+          "title": {
+            "text": "== Red October Wall ==",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:agelsjon"
+            ]
+          },
+          "body": {
+            "text": "The Red October Wall is the continuation of Little Mountain to the right.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:agelsjon"
+            ]
+          }
+        },
+        "borrbultspartiet": {
+          "title": {
+            "text": "== Bolted Wall ==",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:agelsjon"
+            ]
+          },
+          "body": {
+            "text": "The Bolted Wall is located beyond and above the Diva Wall.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:agelsjon"
+            ]
+          }
+        },
+        "bokskogsvaggen": {
+          "title": {
+            "text": "Beech Forest Wall",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:agelsjon"
+            ]
+          },
+          "body": {
+            "text": "A short distance beyond Little Mountain lies the \"Beech Forest Wall\" in almost constant shade.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:agelsjon"
+            ]
+          }
+        },
+        "stora-vaggen-och-dar-omkring": {
+          "title": {
+            "text": "Big Wall and Surrounding Area",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:agelsjon"
+            ]
+          },
+          "body": {
+            "text": "You reach the Big Wall by following the lake from Little Mountain. The approach takes about 15-20 minutes. You’ll know when you’re there...",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:agelsjon"
+            ]
+          }
+        },
+        "stora-vaggen": {
+          "title": {
+            "text": "== Big Wall ==",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:agelsjon"
+            ]
+          },
+          "body": {
+            "text": "An impressive wall with delightful climbing. It can take a while for the routes to dry after rain.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:agelsjon"
+            ]
+          }
+        },
+        "svaplattan": {
+          "title": {
+            "text": "== Slab ==",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:agelsjon"
+            ]
+          },
+          "body": {
+            "text": "To the right (and above) the Big Wall. Sunny and quick-drying. You can access this by climbing into the first (4) or by lowering from above. There are good anchors for top-rope.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:agelsjon"
+            ]
+          }
+        },
+        "gammbultspartiet": {
+          "title": {
+            "text": "== Old Bolt Area ==",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:agelsjon"
+            ]
+          },
+          "body": {
+            "text": "The Old Bolt Area is to the right of the Big Wall, leading up towards the Slab.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:agelsjon"
+            ]
+          }
+        },
+        "valhallvaggen": {
+          "title": {
+            "text": "== Valhalla Wall ==",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:agelsjon"
+            ]
+          },
+          "body": {
+            "text": "Here you’ll find a few routes in the 4/5 grade range. The granite is not kind to fingers.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:agelsjon"
+            ]
+          }
+        },
+        "sjoklippan": {
+          "title": {
+            "text": "Lake Crag",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:agelsjon"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:agelsjon"
+            ]
+          }
+        },
+        "ostvaggen": {
+          "title": {
+            "text": "East Wall",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:agelsjon"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:agelsjon"
+            ]
+          }
+        },
+        "musvaggen": {
+          "title": {
+            "text": "Mouse Wall",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:agelsjon"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:agelsjon"
+            ]
+          }
+        },
+        "joshuavaggen": {
+          "title": {
+            "text": "Joshua Wall",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:agelsjon"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:agelsjon"
+            ]
+          }
+        },
+        "traskvaggen": {
+          "title": {
+            "text": "Trask Wall",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:agelsjon"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:agelsjon"
+            ]
+          }
+        },
+        "nordvaggen": {
+          "title": {
+            "text": "North Wall",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:agelsjon"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:agelsjon"
+            ]
+          }
+        },
+        "bouldervaggen": {
+          "title": {
+            "text": "Boulder Wall",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:agelsjon"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:agelsjon"
+            ]
+          }
+        },
+        "triangelvaggen": {
+          "title": {
+            "text": "Triangle Wall",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:agelsjon"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:agelsjon"
+            ]
+          }
+        },
+        "bermudavaggen": {
+          "title": {
+            "text": "Bermuda Wall",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:agelsjon"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:agelsjon"
+            ]
+          }
+        },
+        "tvarvaggen": {
+          "title": {
+            "text": "Cross Wall",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:agelsjon"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:agelsjon"
+            ]
+          }
+        },
+        "ovre-isvaggen": {
+          "title": {
+            "text": "Upper Ice Wall",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:agelsjon"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:agelsjon"
+            ]
+          }
+        },
+        "undre-isvaggen": {
+          "title": {
+            "text": "Lower Ice Wall",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:agelsjon"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:agelsjon"
+            ]
+          }
+        }
+      },
+      "routes": {
+        "agelsjon-led-1": {
+          "description": {
+            "text": "Anchor with two bolts. Tree for lowering.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:agelsjon"
+            ]
+          }
+        },
+        "agelsjon-led-2": {
+          "description": {
+            "text": "The first bolt feels quite distant, especially with a nasty rock to fall on.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:agelsjon"
+            ]
+          }
+        },
+        "agelsjon-led-3": {
+          "description": {
+            "text": "Nice, moderately sensitive slab climbing with holds from good positions.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:agelsjon"
+            ]
+          }
+        },
+        "agelsjon-led-5": {
+          "description": {
+            "text": "Chain available for top belay.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:agelsjon"
+            ]
+          }
+        },
+        "agelsjon-led-7": {
+          "description": {
+            "text": "Imposing line that is fun and well-protected.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:agelsjon"
+            ]
+          }
+        },
+        "agelsjon-led-16": {
+          "description": {
+            "text": "There lives an aggressive half-metre long adder in the nice crack (Spring 2008).",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:agelsjon"
+            ]
+          }
+        },
+        "agelsjon-led-17": {
+          "description": {
+            "text": "Bold line with some layback and jamming. Not super easy to protect but doable.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:agelsjon"
+            ]
+          }
+        },
+        "agelsjon-led-18": {
+          "description": {
+            "text": "Heavy and technical. Now has an anchor.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:agelsjon"
+            ]
+          }
+        },
+        "agelsjon-led-19": {
+          "description": {
+            "text": "Follow the clear diagonal. Mantle up on the ledge where you get a break in an otherwise nice line. Two more bolts and an anchor await above.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:agelsjon"
+            ]
+          }
+        },
+        "agelsjon-led-31": {
+          "description": {
+            "text": "Wall climbing on good holds (but only if you take them right). Anchor available.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:agelsjon"
+            ]
+          }
+        },
+        "agelsjon-led-38": {
+          "description": {
+            "text": "Better climbing than the name suggests. Well-protected and perfect as an introduction to leading on nuts.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:agelsjon"
+            ]
+          }
+        },
+        "agelsjon-led-39": {
+          "description": {
+            "text": "A humiliating start crux, then nice wall climbing up to the summit which is the real crux.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:agelsjon"
+            ]
+          }
+        },
+        "agelsjon-led-40": {
+          "description": {
+            "text": "From below, this obvious crack doesn't seem like a six, but once on the wall you'll see it holds its grade...",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:agelsjon"
+            ]
+          }
+        },
+        "agelsjon-led-62": {
+          "description": {
+            "text": "Offers some resistance even before the roof. The roof is protected with a bolt. The rest of the route above the roof can be a bit dirty.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:agelsjon"
+            ]
+          }
+        },
+        "agelsjon-led-64": {
+          "description": {
+            "text": "Bolted start leads to a nice crack, which can be avoided if you dislike jamming. Pass a ledge to reach an anchor with two bolts and a chain. Highly recommended.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:agelsjon"
+            ]
+          }
+        },
+        "agelsjon-led-65": {
+          "description": {
+            "text": "Continue straight up from the belay of Lynnard Skynnard, via 1 bolt, then a trad crack (somewhat hard to protect at times) to a bolted top anchor, to be done in one go from the ground, about 40 meters!",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:agelsjon"
+            ]
+          }
+        },
+        "agelsjon-led-66": {
+          "description": {
+            "text": "Exit from Lynnard via the large dihedral formation.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:agelsjon"
+            ]
+          }
+        },
+        "agelsjon-led-67": {
+          "description": {
+            "text": "Shares the start with Lynnard Skynnard, then continues up in a crack to the right and up to the anchor on Lavskägge. Nice crack climbing but seems seldom visited - mossy (Aug 2007)!",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:agelsjon"
+            ]
+          }
+        },
+        "agelsjon-led-68": {
+          "description": {
+            "text": "Bolted wall climbing. Heavy start and finish. Anchor with two bolts and chain.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:agelsjon"
+            ]
+          }
+        },
+        "agelsjon-led-69": {
+          "description": {
+            "text": "Continue straight up from Lavskägge's anchor.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:agelsjon"
+            ]
+          }
+        },
+        "agelsjon-led-70": {
+          "description": {
+            "text": "Steady and very nice climbing all the way to the top. Varied and more technical than heavy. Balancy at the start. Well-protected. In spring 2012 a rock fell off at the start which will probably make the route a bit harder, around grade 6.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:agelsjon"
+            ]
+          }
+        },
+        "agelsjon-led-71": {
+          "description": {
+            "text": "The bolted line to the right of Mörkret faller. Anchor available.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:agelsjon"
+            ]
+          }
+        },
+        "agelsjon-led-72": {
+          "description": {
+            "text": "Crack climbing to the right of Prostetnic. The crack has a few driven pitons, is otherwise protected with nuts. Same anchor as Prostetnic.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:agelsjon"
+            ]
+          }
+        },
+        "agelsjon-led-78": {
+          "description": {
+            "text": "More sustained than the roots crack.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:agelsjon"
+            ]
+          }
+        },
+        "agelsjon-led-81": {
+          "description": {
+            "text": "An alternative for those wanting to reach Svaplattan. A few cruxy sections with ledges in between. Quite mossy (2007).",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:agelsjon"
+            ]
+          }
+        },
+        "agelsjon-led-82": {
+          "description": {
+            "text": "Nut protected four climbing up to Svaplattan, then bolted 6b+.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:agelsjon"
+            ]
+          }
+        },
+        "agelsjon-led-83": {
+          "description": {
+            "text": "Swim to the start and sunbathe?",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:agelsjon"
+            ]
+          }
+        }
+      }
+    }
   }
 }

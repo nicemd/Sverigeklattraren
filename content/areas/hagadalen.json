@@ -229,5 +229,117 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "Top-rope crag.",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:hagadalen"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "General information",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hagadalen"
+            ]
+          },
+          "body": {
+            "text": "Top-rope crag.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hagadalen"
+            ]
+          }
+        },
+        "leder": {
+          "title": {
+            "text": "Routes",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hagadalen"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hagadalen"
+            ]
+          }
+        }
+      },
+      "routes": {
+        "hagadalen-led-1": {
+          "description": {
+            "text": "It is not known whether this route has been climbed. Very mossy, but should not be brushed because it is in a nature reserve. Probably unclimbable.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hagadalen"
+            ]
+          }
+        },
+        "hagadalen-led-2": {
+          "description": {
+            "text": "Climb the slab, not the crack/cave as suggested by the Uppsala guidebook.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hagadalen"
+            ]
+          }
+        },
+        "hagadalen-led-3": {
+          "description": {
+            "text": "Very wide crack. Well protected with the second-largest Camalot.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hagadalen"
+            ]
+          }
+        },
+        "hagadalen-led-4": {
+          "description": {
+            "text": "Vertical wall climbing.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hagadalen"
+            ]
+          }
+        },
+        "hagadalen-led-5": {
+          "description": {
+            "text": "Scrambling.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hagadalen"
+            ]
+          }
+        },
+        "hagadalen-led-6": {
+          "description": {
+            "text": "Protected with micro nuts.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hagadalen"
+            ]
+          }
+        }
+      }
+    }
   }
 }

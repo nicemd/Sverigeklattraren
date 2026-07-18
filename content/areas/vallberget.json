@@ -146,5 +146,133 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "A somewhat scrappy crag that dries quickly in spring. The cliff is situated in a bowl, creating a microclimate that gets very warm and often remains sheltered from the wind. The sun shines from morning until 16:00. The crag offers a large number of top-roping routes, along with a few bolted lines, and some that can be protected with nuts.",
+        "method": "llm",
+        "model": "gpt-4o-mini",
+        "sourceIds": [
+          "legacy:vallberget"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "General",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:vallberget"
+            ]
+          },
+          "body": {
+            "text": "A slightly dirty crag that dries quickly in spring. The cliff lies in a basin, creating a microclimate that is very warm and often sheltered from the wind. The sun shines from morning until 16:00. The crag offers a large number of top-rope routes, some bolted climbs, and a few that can be done with gear.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:vallberget"
+            ]
+          }
+        },
+        "vagbeskrivning": {
+          "title": {
+            "text": "Access",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:vallberget"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:vallberget"
+            ]
+          }
+        },
+        "uppdateringar": {
+          "title": {
+            "text": "Updates",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:vallberget"
+            ]
+          },
+          "body": {
+            "text": "New route to Vallberget! It is now forbidden to approach via the yellow house. Read more here: UKHK forum (http://www.ukhk.se/nyaforumet/topic.asp?TOPIC_ID=222)",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:vallberget"
+            ]
+          }
+        },
+        "ostra-vaggen": {
+          "title": {
+            "text": "Eastern Wall",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:vallberget"
+            ]
+          },
+          "body": {
+            "text": "The wall facing the lake, below the picnic area at the top. The wall is easiest accessed by rappelling down from the picnic area, or alternatively by scrambling from below. You can also reach the wall by climbing down the continuation of the main wall, below/to the right of Linkan Special. The Eastern Wall offers easy trad climbing and has good potential for new routes.\n\nClimbing took place on this wall during the 70s and 80s, but so far we have not found any remaining route descriptions.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:vallberget"
+            ]
+          }
+        }
+      },
+      "routes": {
+        "vallberget-led-1": {
+          "description": {
+            "text": "One of two short, easily protected cracks. Good for beginners on trad.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:vallberget"
+            ]
+          }
+        },
+        "vallberget-led-2": {
+          "description": {
+            "text": "The second crack, with a crux in the middle - easier for taller climbers. Easily protected and a good beginner route.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:vallberget"
+            ]
+          }
+        },
+        "vallberget-led-3": {
+          "description": {
+            "text": "A shower directly below the café area. Very easy and dirty route.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:vallberget"
+            ]
+          }
+        },
+        "vallberget-led-4": {
+          "description": {
+            "text": "Far right on the plateau, by the tall pine tree. Off-width crack leading up to a flake arête. Fun climbing.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:vallberget"
+            ]
+          }
+        }
+      }
+    }
   }
 }

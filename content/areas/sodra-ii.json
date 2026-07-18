@@ -305,5 +305,217 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "=Sectors=",
+        "method": "llm",
+        "model": "gpt-4o-mini",
+        "sourceIds": [
+          "legacy:sodra-ii"
+        ]
+      },
+      "sections": {
+        "grottan": {
+          "title": {
+            "text": "The Cave",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:sodra-ii"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:sodra-ii"
+            ]
+          }
+        },
+        "blocket": {
+          "title": {
+            "text": "The Block",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:sodra-ii"
+            ]
+          },
+          "body": {
+            "text": "=Problems=",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:sodra-ii"
+            ]
+          }
+        }
+      },
+      "routes": {
+        "sodra-ii-problem-1": {
+          "description": {
+            "text": "Starts deep in the cave at the holds on the right of the dots. The wall to the right of the start holds is out. Follows the ledge out and up into \"La Grotte Grosse\".",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:sodra-ii"
+            ]
+          }
+        },
+        "sodra-ii-problem-2": {
+          "description": {
+            "text": "Sit start with hands on the ledge, goes straight out over the overhang and up the short side.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:sodra-ii"
+            ]
+          }
+        },
+        "sodra-ii-problem-3": {
+          "description": {
+            "text": "Sit start at the dots (same as \"Tungrott\"), goes straight up.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:sodra-ii"
+            ]
+          }
+        },
+        "sodra-ii-problem-4": {
+          "description": {
+            "text": "Sit start with hands on the jug (dots), follows the arete all the way up.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:sodra-ii"
+            ]
+          }
+        },
+        "sodra-ii-problem-5": {
+          "description": {
+            "text": "Starts deep under the roof with hands on the jug (dots), goes straight out and up into \"Tungrott\". The wall to the left at the beginning is out.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:sodra-ii"
+            ]
+          }
+        },
+        "sodra-ii-problem-6": {
+          "description": {
+            "text": "Starts like Grottesk, then traverses left through the roof and up on the short side. Follow the numbered arrows.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:sodra-ii"
+            ]
+          }
+        },
+        "sodra-ii-problem-7": {
+          "description": {
+            "text": "Sit start in the pit, goes straight back around the bulge and continues straight out and up the short side. The large ledge down to the left is out, as is the choss up to the right.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:sodra-ii"
+            ]
+          }
+        },
+        "sodra-ii-problem-8": {
+          "description": {
+            "text": "Starts to the right of the overhang. Follow the roof all the way out and then finish straight up.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:sodra-ii"
+            ]
+          }
+        },
+        "sodra-ii-problem-9": {
+          "description": {
+            "text": "Sit start down left in the overhang, finish like Blockage.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:sodra-ii"
+            ]
+          }
+        },
+        "sodra-ii-problem-10": {
+          "description": {
+            "text": "Goes straight up.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:sodra-ii"
+            ]
+          }
+        },
+        "sodra-ii-problem-11": {
+          "description": {
+            "text": "Sit start to the right of the arete, goes straight up.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:sodra-ii"
+            ]
+          }
+        },
+        "sodra-ii-problem-12": {
+          "description": {
+            "text": "Sit start to the left of the arete, goes straight up.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:sodra-ii"
+            ]
+          }
+        },
+        "sodra-ii-problem-13": {
+          "description": {
+            "text": "Sit start with hands on the inner jug in the roof, goes straight out and up.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:sodra-ii"
+            ]
+          }
+        },
+        "sodra-ii-problem-14": {
+          "description": {
+            "text": "Starts to the right of the descent ramp. Follow the arete right and then finish straight up.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:sodra-ii"
+            ]
+          }
+        },
+        "sodra-ii-problem-15": {
+          "description": {
+            "text": "Sit start with hands on the lowest ledge. Goes up with a slight pull right. Good for warming up.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:sodra-ii"
+            ]
+          }
+        },
+        "sodra-ii-problem-16": {
+          "description": {
+            "text": "Sit start, goes straight up.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:sodra-ii"
+            ]
+          }
+        }
+      }
+    }
   }
 }

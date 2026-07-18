@@ -376,5 +376,279 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "The crag is shaded during the day but relatively open to the evening sun. Mostly steeply overhanging climbing with plenty of holds and pockets. Recommended problems are Läderlappen, Buttman, Brutus and Hulken.",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:kraftsten"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "General",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:kraftsten"
+            ]
+          },
+          "body": {
+            "text": "The crag is shaded during the day but relatively open to the evening sun. Mostly steeply overhanging climbing with plenty of holds and pockets. Recommended problems: Läderlappen, Buttman, Brutus and Hulken.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:kraftsten"
+            ]
+          }
+        },
+        "vagbeskrivning": {
+          "title": {
+            "text": "Directions",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:kraftsten"
+            ]
+          },
+          "body": {
+            "text": "Drive towards Stavsnäs on Route 222. Before Strömma kanal, 5.5 km after the Ålstäket roundabout, turn left onto Strömmadalsvägen. Continue along this winding road at no more than 30 km/h, using as few cars as possible (car-share). Pass a wooden barrier on the right-hand side of the road and park on the left, outside the turning area at the next junction (two spaces on the grass beside the road). Walk back along the road to the barrier and join the Värmdöleden trail. By the barrier there is a sign for Vargstensängen, 700 m. The crag is about 150 m along Värmdöleden from the barrier on Strömmadalsvägen. It is on the right after rounding the property with the red houses.\n\nSee also Strömmadalsklippan",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:kraftsten"
+            ]
+          }
+        },
+        "boulderproblem": {
+          "title": {
+            "text": "Boulder problems",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:kraftsten"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:kraftsten"
+            ]
+          }
+        },
+        "vanstra-delen": {
+          "title": {
+            "text": "Left-hand section",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:kraftsten"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:kraftsten"
+            ]
+          }
+        },
+        "hogra-delen": {
+          "title": {
+            "text": "Right-hand section",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:kraftsten"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:kraftsten"
+            ]
+          }
+        },
+        "lilla-delen-till-hoger": {
+          "title": {
+            "text": "Small section on the right",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:kraftsten"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:kraftsten"
+            ]
+          }
+        }
+      },
+      "routes": {
+        "kraftsten-led-1": {
+          "description": {
+            "text": "Start with both hands on the large undercut, then make a long move straight up.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:kraftsten"
+            ]
+          }
+        },
+        "kraftsten-led-2": {
+          "description": {
+            "text": "Start on the obvious pinch and top out either left (easier) or right (better) of the crack.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:kraftsten"
+            ]
+          }
+        },
+        "kraftsten-led-3": {
+          "description": {
+            "text": "Start as for No. 5, ”Läderlappen”. An eliminate going straight up via a sharp, coral-like hold between the top-outs of Nosferatu and Läderlappen.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:kraftsten"
+            ]
+          }
+        },
+        "kraftsten-led-4": {
+          "description": {
+            "text": "Start as for No. 6, ”Läderlappen”, but go straight up to good edges and top out left.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:kraftsten"
+            ]
+          }
+        },
+        "kraftsten-led-5": {
+          "description": {
+            "text": "Start at the back beneath the overhang, with both hands on the obvious rail. Follow it to the jug at the lip, then continue up the crack to the right.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:kraftsten"
+            ]
+          }
+        },
+        "kraftsten-led-6": {
+          "description": {
+            "text": "Start on the same two good holds as No. 7, traverse the entire crag left beneath the lip and finish by the S-shaped tree left of ”Johnny Puma”.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:kraftsten"
+            ]
+          }
+        },
+        "kraftsten-led-7": {
+          "description": {
+            "text": "Start on two good holds, move up to the jug on the left, then straight up to a small edge. Continue right via tiny edges to a sharp pocket, then straight up. NB: Neither the crack from ”Läderlappen” nor the holds to the right used by ”Luke Skywalker” are in!",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:kraftsten"
+            ]
+          }
+        },
+        "kraftsten-led-8": {
+          "description": {
+            "text": "Start just left of the large spruce, using the obvious sidepulls, and go straight up.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:kraftsten"
+            ]
+          }
+        },
+        "kraftsten-led-9": {
+          "description": {
+            "text": "Start up the ramp, go straight up and top out slightly to the right.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:kraftsten"
+            ]
+          }
+        },
+        "kraftsten-led-10": {
+          "description": {
+            "text": "Start in the obvious crack, then go straight up.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:kraftsten"
+            ]
+          }
+        },
+        "kraftsten-led-11": {
+          "description": {
+            "text": "Sit start to ”Flexnes”.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:kraftsten"
+            ]
+          }
+        },
+        "kraftsten-led-12": {
+          "description": {
+            "text": "Start with your left hand on Flexnes’s right-hand starting hold. Move diagonally right via a tiny edge to a large pinch and finish as for Hulken. Anyone who can be bothered is welcome to move the rock in front of the problem.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:kraftsten"
+            ]
+          }
+        },
+        "kraftsten-led-13": {
+          "description": {
+            "text": "The arete on the right. Start with both hands on the large ledge and go straight up. Finish on the ledge or step left into the top-out of ”Hogan”.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:kraftsten"
+            ]
+          }
+        },
+        "kraftsten-led-14": {
+          "description": {
+            "text": "Start inside the recess, move up left to a good, sharp hold on the ramp, then go straight up. The edge and the arete (Elsa) to the right are out.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:kraftsten"
+            ]
+          }
+        },
+        "kraftsten-led-15": {
+          "description": {
+            "text": "Same start as ”Hogan”, but traverse left with a long move to a good pocket, then go straight up.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:kraftsten"
+            ]
+          }
+        }
+      }
+    }
   }
 }

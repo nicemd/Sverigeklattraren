@@ -253,5 +253,193 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "The crag faces east and has 10 routes. It gets little sun but dries quickly after rain. The crag is 5–10 m high. Some of the routes are difficult to top out.",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:manklippan-skedala"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "General",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:manklippan-skedala"
+            ]
+          },
+          "body": {
+            "text": "The crag faces east and has 10 routes. It gets little sun but dries quickly after rain. The crag is 5–10m high. Some routes are difficult to top out.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:manklippan-skedala"
+            ]
+          }
+        },
+        "vagbeskrivning": {
+          "title": {
+            "text": "Directions",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:manklippan-skedala"
+            ]
+          },
+          "body": {
+            "text": "Map here. Tap the map button above.\n\nIt is easy to find from Solväggen: stand with your back to Solväggen and walk straight ahead for about 200m through the spruce forest until you reach a ravine. Descend into the ravine; from here you can see the crag on your right.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:manklippan-skedala"
+            ]
+          }
+        },
+        "leder": {
+          "title": {
+            "text": "Routes",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:manklippan-skedala"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:manklippan-skedala"
+            ]
+          }
+        },
+        "kontakt": {
+          "title": {
+            "text": "Contact",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:manklippan-skedala"
+            ]
+          },
+          "body": {
+            "text": "For more information and photos, see Eskapader (http://www.eskapader.se)",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:manklippan-skedala"
+            ]
+          }
+        }
+      },
+      "routes": {
+        "manklippan-skedala-led-1": {
+          "description": {
+            "text": "Enjoyable, well-protected climbing, but short.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:manklippan-skedala"
+            ]
+          }
+        },
+        "manklippan-skedala-led-2": {
+          "description": {
+            "text": "Start beneath the small roof, then climb straight up.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:manklippan-skedala"
+            ]
+          }
+        },
+        "manklippan-skedala-led-3": {
+          "description": {
+            "text": "A good route, though the top-out is a little awkward.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:manklippan-skedala"
+            ]
+          }
+        },
+        "manklippan-skedala-led-4": {
+          "description": {
+            "text": "If you have nothing better to do, why not?",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:manklippan-skedala"
+            ]
+          }
+        },
+        "manklippan-skedala-led-5": {
+          "description": {
+            "text": "Start traversing at the overhang and follow the crack system all the way right.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:manklippan-skedala"
+            ]
+          }
+        },
+        "manklippan-skedala-led-6": {
+          "description": {
+            "text": "Climb the small corner, then exit left at the prominent edge before continuing straight up. Poorly protected.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:manklippan-skedala"
+            ]
+          }
+        },
+        "manklippan-skedala-led-7": {
+          "description": {
+            "text": "The same start as Buxus, then straight up. Few protection opportunities and a difficult top-out.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:manklippan-skedala"
+            ]
+          }
+        },
+        "manklippan-skedala-led-8": {
+          "description": {
+            "text": "A truly challenging, well-protected crack line.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:manklippan-skedala"
+            ]
+          }
+        },
+        "manklippan-skedala-led-9": {
+          "description": {
+            "text": "A fine line with cruxes midway up and at the top.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:manklippan-skedala"
+            ]
+          }
+        },
+        "manklippan-skedala-led-10": {
+          "description": {
+            "text": "For those who enjoy powerful reaches, though the top-out is a little tricky.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:manklippan-skedala"
+            ]
+          }
+        }
+      }
+    }
   }
 }

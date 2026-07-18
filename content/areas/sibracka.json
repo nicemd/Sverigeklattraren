@@ -52,5 +52,56 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "Sport climbing crag on Tjörn. Developed by members of Kvibergs klätterklubb, with a number of easy bolted routes as well as other climbing.",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:sibracka"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "General information",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:sibracka"
+            ]
+          },
+          "body": {
+            "text": "Sport climbing crag on Tjörn. Developed by members of Kvibergs klätterklubb, with several easy bolted routes and other climbing.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:sibracka"
+            ]
+          }
+        },
+        "vagbeskrivning": {
+          "title": {
+            "text": "Directions",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:sibracka"
+            ]
+          },
+          "body": {
+            "text": "Drive towards Sibräcka and the recycling centre. Park by the working dog club.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:sibracka"
+            ]
+          }
+        }
+      },
+      "routes": {}
+    }
   }
 }

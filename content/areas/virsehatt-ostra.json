@@ -229,5 +229,183 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "Description: The crag is 6-8 m high and features both overhanging and steep climbing. All routes are protected with gear, and the opportunity for setting top ropes is good.",
+        "method": "llm",
+        "model": "gpt-4o-mini",
+        "sourceIds": [
+          "legacy:virsehatt-ostra"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "General",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:virsehatt-ostra"
+            ]
+          },
+          "body": {
+            "text": "Description: The crag is 6-8 m high and features both overhanging and slab climbing. All routes are protected with gear, and the possibility to set up a top rope is good.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:virsehatt-ostra"
+            ]
+          }
+        },
+        "vagbeskrivning": {
+          "title": {
+            "text": "Access",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:virsehatt-ostra"
+            ]
+          },
+          "body": {
+            "text": "Map here. Click the map button above.\n\nThe easiest way to find it is from Oskarström. Drive from Oskarström towards Simlångsdalen and the Virsehatt nature reserve. Upon arriving at the reserve, pass an older building with a sharp roof, Virsestuga. Head straight up the scree slope behind the small house to the left of the cottage for about 50 m; you will then be underneath the crag.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:virsehatt-ostra"
+            ]
+          }
+        },
+        "leder": {
+          "title": {
+            "text": "Routes",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:virsehatt-ostra"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:virsehatt-ostra"
+            ]
+          }
+        },
+        "kontakt": {
+          "title": {
+            "text": "Contact",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:virsehatt-ostra"
+            ]
+          },
+          "body": {
+            "text": "For photos and more info check Eskapader (http://www.eskapader.se)\n\nRight column",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:virsehatt-ostra"
+            ]
+          }
+        }
+      },
+      "routes": {
+        "virsehatt-ostra-led-1": {
+          "description": {
+            "text": "Same start as Orren but then move left, can be protected.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:virsehatt-ostra"
+            ]
+          }
+        },
+        "virsehatt-ostra-led-2": {
+          "description": {
+            "text": "Climb up the middle of the wall.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:virsehatt-ostra"
+            ]
+          }
+        },
+        "virsehatt-ostra-led-3": {
+          "description": {
+            "text": "Somewhat harder than it looks, but well protected.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:virsehatt-ostra"
+            ]
+          }
+        },
+        "virsehatt-ostra-led-4": {
+          "description": {
+            "text": "Keep your body to the right of the corner, crux near the top.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:virsehatt-ostra"
+            ]
+          }
+        },
+        "virsehatt-ostra-led-5": {
+          "description": {
+            "text": "The start is easy climbing that ends in a panic attack. Top rope recommended.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:virsehatt-ostra"
+            ]
+          }
+        },
+        "virsehatt-ostra-led-6": {
+          "description": {
+            "text": "route description",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:virsehatt-ostra"
+            ]
+          }
+        },
+        "virsehatt-ostra-led-7": {
+          "description": {
+            "text": "The best route on the wall, climbing on big holds all the way up. Hard to top out.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:virsehatt-ostra"
+            ]
+          }
+        },
+        "virsehatt-ostra-led-8": {
+          "description": {
+            "text": "Climb the dihedral, placements are somewhat okay, a bit loose rock. A fixed top anchor is recommended.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:virsehatt-ostra"
+            ]
+          }
+        },
+        "virsehatt-ostra-led-9": {
+          "description": {
+            "text": "Traverse the wall from right to left.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:virsehatt-ostra"
+            ]
+          }
+        }
+      }
+    }
   }
 }

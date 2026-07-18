@@ -144,5 +144,125 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "A crag with sloping landings, close to a house; please be considerate of the homeowners. There is potential for more problems, though the left-hand side is somewhat loose. The problems in Skuruparken are above Saltängens skola and below Värmdövägen, with several walls and newly established problems from winter 2012. There are also a few projects. Park in the long-stay car park in front of the nursery and respect the cottage owners in the park. For more information, contact Stefan Wulf.",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:skuru"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "General",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:skuru"
+            ]
+          },
+          "body": {
+            "text": "A crag with sloping landings, located close to a house; please be considerate of the homeowners. There is potential for more problems, although the left-hand side is somewhat loose. The problems in Skuruparken are above Saltängens school, below Värmdövägen, with several walls and new problems put up in winter 2012. There are also some projects. Park in the long-stay car park in front of the nursery and respect the owners of the small cottages in the park. For more information, contact Stefan Wulf.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:skuru"
+            ]
+          }
+        },
+        "vagbeskrivning": {
+          "title": {
+            "text": "Directions",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:skuru"
+            ]
+          },
+          "body": {
+            "text": "This bouldering crag is definitely still there.\n\nTake Värmdöleden and turn off towards Skuru sjukhus (before the bridge). Turn left and follow Skurusundsvägen until you reach Kristinedalsvägen. Turn right onto Kristinedalsvägen, immediately after the football pitch. Continue straight ahead for a short distance and park on the street outside the enormous house at Kristinedalsvägen 6. Take the road beside the house and follow the gravel track uphill for about 20 metres.\n\nThe crags are where the pins are shown on the map.\n\nThe problems are rarely climbed, so do not expect to find any chalk indicating where they go.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:skuru"
+            ]
+          }
+        },
+        "boulderproblem": {
+          "title": {
+            "text": "Boulder problems",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:skuru"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:skuru"
+            ]
+          }
+        }
+      },
+      "routes": {
+        "skuru-problem-1": {
+          "description": {
+            "text": "Low sit start.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:skuru"
+            ]
+          }
+        },
+        "skuru-problem-2": {
+          "description": {
+            "text": "Traverses from right to left.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:skuru"
+            ]
+          }
+        },
+        "skuru-problem-3": {
+          "description": {
+            "text": "Located in Skuruparken, just behind and above the nursery, on the left-hand building. Take care not to leave litter or use bad language—remember the children :-). Standing start, then climb straight up.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:skuru"
+            ]
+          }
+        },
+        "skuru-problem-4": {
+          "description": {
+            "text": "Immediately right of En dag på jobbet. Climbs straight up to a sloping top-out.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:skuru"
+            ]
+          }
+        },
+        "skuru-problem-5": {
+          "description": {
+            "text": "Right hand on sloping ramp, left hand in crack, easiest way up if you're tall. Possible sit start?",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:skuru"
+            ]
+          }
+        }
+      }
+    }
   }
 }

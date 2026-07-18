@@ -949,5 +949,585 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "Outside Flatanger is a HUGE gneiss cave. There are routes both inside and outside the cave. Come here if you find Hell too easy!",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:flatanger"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "Overview",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:flatanger"
+            ]
+          },
+          "body": {
+            "text": "Outside Flatanger is a HUGE gneiss cave. There are routes both inside and outside the cave. Come here if you think Hell is too easy!",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:flatanger"
+            ]
+          }
+        },
+        "ovrigt": {
+          "title": {
+            "text": "Other information",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:flatanger"
+            ]
+          },
+          "body": {
+            "text": "Routes in the cave, known as Helleren, can be found on Headwall (http://www.headwall.com/headwall/explorer.jsp?cgy=CRAG&cid=374&skn=classic) and Steepstone (http://www.steepstone.com/topo/cragDet.asp?Crag_id=15).",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:flatanger"
+            ]
+          }
+        },
+        "leder": {
+          "title": {
+            "text": "Routes",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:flatanger"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:flatanger"
+            ]
+          }
+        },
+        "hanshelleren": {
+          "title": {
+            "text": "Hanshelleren",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:flatanger"
+            ]
+          },
+          "body": {
+            "text": "The huge cave and the wall to its left. Approximately 100 m high, overhanging by 4–40 m.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:flatanger"
+            ]
+          }
+        },
+        "dalen-nedre-delen": {
+          "title": {
+            "text": "Dalen, Lower Section",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:flatanger"
+            ]
+          },
+          "body": {
+            "text": "A fairly long stretch of wall. Long sections have few obvious lines.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:flatanger"
+            ]
+          }
+        },
+        "dalen-midtre-del": {
+          "title": {
+            "text": "Dalen, Middle Section",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:flatanger"
+            ]
+          },
+          "body": {
+            "text": "It is worth bringing some larger protection. Several of the routes follow fairly wide cracks.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:flatanger"
+            ]
+          }
+        },
+        "dalen-ovre-del": {
+          "title": {
+            "text": "Dalen, Upper Section",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:flatanger"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:flatanger"
+            ]
+          }
+        },
+        "oppvarmningsveggen": {
+          "title": {
+            "text": "Oppvarmningsveggen",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:flatanger"
+            ]
+          },
+          "body": {
+            "text": "The routes often have serious and difficult starts.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:flatanger"
+            ]
+          }
+        }
+      },
+      "routes": {
+        "flatanger-led-1": {
+          "description": {
+            "text": "Crack/corner. Starts in the left-hand corner, then joins the main corner.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:flatanger"
+            ]
+          }
+        },
+        "flatanger-led-2": {
+          "description": {
+            "text": "Shares a start with Trang födsel. Breaks right halfway up the first pitch.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:flatanger"
+            ]
+          }
+        },
+        "flatanger-led-3": {
+          "description": {
+            "text": "Left of the large roof.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:flatanger"
+            ]
+          }
+        },
+        "flatanger-led-4": {
+          "description": {
+            "text": "New route to the right of Tungt möblement?",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:flatanger"
+            ]
+          }
+        },
+        "flatanger-led-5": {
+          "description": {
+            "text": "Crack through the roof.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:flatanger"
+            ]
+          }
+        },
+        "flatanger-led-6": {
+          "description": {
+            "text": "Finishes at the anchor halfway up Bondeanger.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:flatanger"
+            ]
+          }
+        },
+        "flatanger-led-7": {
+          "description": {
+            "text": "Shares a start with Kykkeli. Traverses left to the anchor on Kneopatra, then continues straight up to the next anchor.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:flatanger"
+            ]
+          }
+        },
+        "flatanger-led-8": {
+          "description": {
+            "text": "Obvious crack ending just below a roof.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:flatanger"
+            ]
+          }
+        },
+        "flatanger-led-9": {
+          "description": {
+            "text": "Extension to Kykkeli.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:flatanger"
+            ]
+          }
+        },
+        "flatanger-led-11": {
+          "description": {
+            "text": "Obvious crack and corner.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:flatanger"
+            ]
+          }
+        },
+        "flatanger-led-15": {
+          "description": {
+            "text": "To the first anchor.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:flatanger"
+            ]
+          }
+        },
+        "flatanger-led-16": {
+          "description": {
+            "text": "Extension to Hoevdegjengen.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:flatanger"
+            ]
+          }
+        },
+        "flatanger-led-17": {
+          "description": {
+            "text": "Steep corner feature.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:flatanger"
+            ]
+          }
+        },
+        "flatanger-led-19": {
+          "description": {
+            "text": "Hard, steep and long!",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:flatanger"
+            ]
+          }
+        },
+        "flatanger-led-20": {
+          "description": {
+            "text": "Traverses out right and shares an anchor with Flaggermusmannen.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:flatanger"
+            ]
+          }
+        },
+        "flatanger-led-21": {
+          "description": {
+            "text": "The route starts at the first bolt.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:flatanger"
+            ]
+          }
+        },
+        "flatanger-led-22": {
+          "description": {
+            "text": "Chimney.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:flatanger"
+            ]
+          }
+        },
+        "flatanger-led-23": {
+          "description": {
+            "text": "Obvious crack.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:flatanger"
+            ]
+          }
+        },
+        "flatanger-led-24": {
+          "description": {
+            "text": "Zigzags along the arete.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:flatanger"
+            ]
+          }
+        },
+        "flatanger-led-25": {
+          "description": {
+            "text": "Corner at the start.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:flatanger"
+            ]
+          }
+        },
+        "flatanger-led-26": {
+          "description": {
+            "text": "Corner features.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:flatanger"
+            ]
+          }
+        },
+        "flatanger-led-27": {
+          "description": {
+            "text": "Corner to a roof, then through the roof.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:flatanger"
+            ]
+          }
+        },
+        "flatanger-led-28": {
+          "description": {
+            "text": "Obvious crack that steepens towards the top.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:flatanger"
+            ]
+          }
+        },
+        "flatanger-led-29": {
+          "description": {
+            "text": "Obvious crack.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:flatanger"
+            ]
+          }
+        },
+        "flatanger-led-30": {
+          "description": {
+            "text": "Obvious crack with a slabby start.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:flatanger"
+            ]
+          }
+        },
+        "flatanger-led-32": {
+          "description": {
+            "text": "Steep face climbing and a crack.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:flatanger"
+            ]
+          }
+        },
+        "flatanger-led-33": {
+          "description": {
+            "text": "Steep corner feature past two roofs.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:flatanger"
+            ]
+          }
+        },
+        "flatanger-led-34": {
+          "description": {
+            "text": "Steep crack followed by an easy corner.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:flatanger"
+            ]
+          }
+        },
+        "flatanger-led-35": {
+          "description": {
+            "text": "Crack.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:flatanger"
+            ]
+          }
+        },
+        "flatanger-led-36": {
+          "description": {
+            "text": "Left-hand side of Brattsvaet.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:flatanger"
+            ]
+          }
+        },
+        "flatanger-led-37": {
+          "description": {
+            "text": "Right-hand side of Brattsvaet.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:flatanger"
+            ]
+          }
+        },
+        "flatanger-led-38": {
+          "description": {
+            "text": "Shares a start with Frivillig tvang and Gresk krydder, then breaks left.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:flatanger"
+            ]
+          }
+        },
+        "flatanger-led-39": {
+          "description": {
+            "text": "Goes straight up.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:flatanger"
+            ]
+          }
+        },
+        "flatanger-led-40": {
+          "description": {
+            "text": "Corner with a slab at the start.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:flatanger"
+            ]
+          }
+        },
+        "flatanger-led-41": {
+          "description": {
+            "text": "Shares a start and finish with Genistreken.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:flatanger"
+            ]
+          }
+        },
+        "flatanger-led-42": {
+          "description": {
+            "text": "Shares a start and finish with Strekkoden.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:flatanger"
+            ]
+          }
+        },
+        "flatanger-led-43": {
+          "description": {
+            "text": "Corner.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:flatanger"
+            ]
+          }
+        },
+        "flatanger-led-46": {
+          "description": {
+            "text": "Crack.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:flatanger"
+            ]
+          }
+        },
+        "flatanger-led-47": {
+          "description": {
+            "text": "Crack.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:flatanger"
+            ]
+          }
+        },
+        "flatanger-led-48": {
+          "description": {
+            "text": "Crack.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:flatanger"
+            ]
+          }
+        },
+        "flatanger-led-49": {
+          "description": {
+            "text": "Crack. Difficult to protect towards the top.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:flatanger"
+            ]
+          }
+        },
+        "flatanger-led-51": {
+          "description": {
+            "text": "Mossy crack.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:flatanger"
+            ]
+          }
+        }
+      }
+    }
   }
 }

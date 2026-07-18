@@ -88,5 +88,77 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "At 1,797 metres, Helagsfjället is Sweden’s highest mountain south of the Arctic Circle. On closer inspection, it offers unexpected potential for excellent climbs.",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:helags"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "Overview",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:helags"
+            ]
+          },
+          "body": {
+            "text": "At 1,797 metres, Helagsfjället is Sweden’s highest mountain south of the Arctic Circle. On closer inspection, it offers unexpected possibilities for fine climbs.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:helags"
+            ]
+          }
+        },
+        "leder": {
+          "title": {
+            "text": "Routes",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:helags"
+            ]
+          },
+          "body": {
+            "text": "A photo of the wall with the routes marked will be added...",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:helags"
+            ]
+          }
+        }
+      },
+      "routes": {
+        "helags-led-1": {
+          "description": {
+            "text": "(6 pitches) 1. 3 30m. Follow the grassy ramp to its end.\n\n2. 5+ 55m. Climb straight up to a corner, through it, then diagonally left across ledges with a lot of loose rock to a belay above a small overhang, which is bypassed on the left.\n\n3. 5 45m. About 10 metres of enjoyable climbing straight up, then climb diagonally right via ledges with steeper sections between them. Belay below a steep crack and a large roof.\n\n4. 5+ 35m. Climb the crack to easier ground, then trend left to a ledge. Continue up a short wall to a steep ramp. Follow the ramp and belay at its end.\n\n5. 5 40m. Climb up a metre or so from the belay, then traverse left across a poorly protected slab and continue out to a ledge on the skyline. Climb straight up via a corner and easy slabs to a belay on a ledge with a large flake.\n\n6. 2 20m. Straight up to the top. Belay with the rope around a large block.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:helags"
+            ]
+          }
+        },
+        "helags-led-2": {
+          "description": {
+            "text": "(5 pitches) 1. 5+ 50m. Climb a couple of metres up the bottom of the arch to a long ledge on the left. From the right-hand end of the ledge, climb straight up the slab to a small corner. Continue through the corner to a ledge, then across slabs to the large grassy ledge. Belay in the large corner halfway along the ledge.\n\n2. 4 45m. Start up the slab a metre or so right of the belay. Continue straight up past large blocks to a ledge where the wall becomes noticeably steeper.\n\n3. 5 45m. Climb the steep crack directly above the belay. Then aim for the narrow chimney at the end of the pitch, climb through it and belay immediately above.\n\n4. 4 40m. Climb up to a ramp/ledge system and follow it diagonally right until it ends in a corner. Belay on the large ledge directly above the corner.\n\n5. 2 35m. Walk a metre or so left from the ledge, then climb straight up easy slabs to the top.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:helags"
+            ]
+          }
+        }
+      }
+    }
   }
 }

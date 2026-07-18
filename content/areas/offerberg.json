@@ -73,5 +73,103 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "Offerberg lies outside Undersvik, between Arbrå and Ljusdal, along Route 83. The crag is an impressively large (40 m), steep east-facing wall. Unfortunately, it promises more than it delivers.",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:offerberg"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "General",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:offerberg"
+            ]
+          },
+          "body": {
+            "text": "Offerberg lies outside Undersvik, between Arbrå and Ljusdal, along Route 83. The crag is an impressively large (40 m), steep east face. Unfortunately, it promises more than it delivers.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:offerberg"
+            ]
+          }
+        },
+        "kommunikationer": {
+          "title": {
+            "text": "Access",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:offerberg"
+            ]
+          },
+          "body": {
+            "text": "By car, follow Route 83. If approaching from the south, a large and conspicuous blasted rock face can be seen on the left-hand side of the road at a bend. There is a parking lay-by diagonally below the blasted face. A 200–300-metre walk below the cliff, over partly blocky terrain, leads to the crag.\n\nApproximate GPS coordinates for the crag: Lat: N 61º 37' 19.11\" Long: E 16º 17' 0.70\"",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:offerberg"
+            ]
+          }
+        },
+        "klippan": {
+          "title": {
+            "text": "The crag",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:offerberg"
+            ]
+          },
+          "body": {
+            "text": "The crag is an impressively large (40 m), steep east face. Unfortunately, it promises more than it delivers. Despite its angle, the rock is extremely loose, with large blocks that appear to be barely attached to the face. The crag also has virtually no lines at all; most of the features are horizontal, with more or less unclimbable sections between them. At least three attempts have been made to force a line up the face using aid techniques, but no route has been completed to the top. One small curiosity is the actual summit of the hill, which lies a short distance north of the face. There is a fairly large glacial erratic deposited right on the highest point. A ladder is often in place, allowing the boulder to be climbed. There are surely also a few picturesque boulder problems to be done here.\n\nUnstable and unserious climbing—or perhaps serious?",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:offerberg"
+            ]
+          }
+        },
+        "isklattring": {
+          "title": {
+            "text": "Ice climbing",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:offerberg"
+            ]
+          },
+          "body": {
+            "text": "At the right-hand edge of the approximately 40 m high, steep and loose rock face, a steep and fine ice pillar forms. There are a few variations, around 15 m high, with easier-angled ice above. About 25 metres of climbing in total. This was first climbed in the winter of 1990-91. Another 10 m to the left is a more winding line on thinner ice, ending beneath a pine trunk. 20 m.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:offerberg"
+            ]
+          }
+        }
+      },
+      "routes": {
+        "offerberg-led-1": {
+          "description": {
+            "text": "Starts by a large spruce roughly halfway along the wall, to the right of the large overhangs. Follows a system of shallow corners and hollow flakes to an abseil station with a bolt and piton, at the lower edge of a band of very loose rock.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:offerberg"
+            ]
+          }
+        }
+      }
+    }
   }
 }

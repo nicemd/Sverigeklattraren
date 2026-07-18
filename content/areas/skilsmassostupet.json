@@ -157,5 +157,143 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "A crag in a scenic setting, with a babbling trout stream a few metres from the base. A handful of established routes, with potential for twice as many.",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:skilsmassostupet"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "General",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:skilsmassostupet"
+            ]
+          },
+          "body": {
+            "text": "A beautifully situated crag with a babbling trout stream a few metres from the starts. A handful of established routes, with potential for twice as many.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:skilsmassostupet"
+            ]
+          }
+        },
+        "beskrivning": {
+          "title": {
+            "text": "Description",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:skilsmassostupet"
+            ]
+          },
+          "body": {
+            "text": "Vertical to slightly overhanging. The name suggests it is where you are grudgingly allowed to go for a short while to preserve domestic harmony. A tourist company sometimes runs commercial activities near the crag. Please be considerate when this happens and ask whether climbing is acceptable.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:skilsmassostupet"
+            ]
+          }
+        },
+        "vagbeskrivning": {
+          "title": {
+            "text": "Directions",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:skilsmassostupet"
+            ]
+          },
+          "body": {
+            "text": "Directions will eventually be added here. For now, use the map.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:skilsmassostupet"
+            ]
+          }
+        },
+        "leder": {
+          "title": {
+            "text": "Routes",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:skilsmassostupet"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:skilsmassostupet"
+            ]
+          }
+        }
+      },
+      "routes": {
+        "skilsmassostupet-led-1": {
+          "description": {
+            "text": "Technical and slightly overhanging. Lower-off.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:skilsmassostupet"
+            ]
+          }
+        },
+        "skilsmassostupet-led-2": {
+          "description": {
+            "text": "Plenty of holds, with an awkwardly positioned lower-off.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:skilsmassostupet"
+            ]
+          }
+        },
+        "skilsmassostupet-led-4": {
+          "description": {
+            "text": "Well protected along the obvious crack behind the flake.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:skilsmassostupet"
+            ]
+          }
+        },
+        "skilsmassostupet-led-5": {
+          "description": {
+            "text": "Lower-off.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:skilsmassostupet"
+            ]
+          }
+        },
+        "skilsmassostupet-led-6": {
+          "description": {
+            "text": "Crack in the corner, clearly visible from the path to the top.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:skilsmassostupet"
+            ]
+          }
+        }
+      }
+    }
   }
 }

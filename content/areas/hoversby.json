@@ -230,5 +230,110 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "=Problems=",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:hoversby"
+        ]
+      },
+      "sections": {},
+      "routes": {
+        "hoversby-problem-1": {
+          "description": {
+            "text": "The blunt arete on the wall furthest away by the field. Absolutely brilliant!",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hoversby"
+            ]
+          }
+        },
+        "hoversby-problem-2": {
+          "description": {
+            "text": "The large boulder by the car park. In the centre of the left-hand face.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hoversby"
+            ]
+          }
+        },
+        "hoversby-problem-3": {
+          "description": {
+            "text": "On the steep side of the large boulder at Höversby. Sit start below the ramp in the centre of the boulder, trending diagonally right.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hoversby"
+            ]
+          }
+        },
+        "hoversby-problem-4": {
+          "description": {
+            "text": "On the steep boulder by the cave. Sit start, finishing up Chrilles 7a.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hoversby"
+            ]
+          }
+        },
+        "hoversby-problem-5": {
+          "description": {
+            "text": "The right-hand overhanging arete on the large boulder.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hoversby"
+            ]
+          }
+        },
+        "hoversby-problem-8": {
+          "description": {
+            "text": "Left of Raw Hide.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hoversby"
+            ]
+          }
+        },
+        "hoversby-problem-9": {
+          "description": {
+            "text": "The right-hand side of the arete on the boulder beyond the cave.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hoversby"
+            ]
+          }
+        },
+        "hoversby-problem-10": {
+          "description": {
+            "text": "Sit start on the large boulder.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hoversby"
+            ]
+          }
+        },
+        "hoversby-problem-11": {
+          "description": {
+            "text": "Sit start on the boulder right of Aldrig vid min svans.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hoversby"
+            ]
+          }
+        }
+      }
+    }
   }
 }

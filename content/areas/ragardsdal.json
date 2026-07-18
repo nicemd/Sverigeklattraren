@@ -176,5 +176,123 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "One of the few easier crags in Bohuslän. Together with Brappersberget and Nordens ark, it provides the newly qualified climber with a perfect introduction to Bohuslän crack climbing. There are occasional opportunities for some fine jams.\n\nVisitors are recommended to walk down to Ulorna for a swim and to enjoy the beautiful surroundings.",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:ragardsdal"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "Overview",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:ragardsdal"
+            ]
+          },
+          "body": {
+            "text": "One of the few easier crags in Bohuslän. Together with Brappersberget and Nordens ark, it offers recently qualified climbers a perfect introduction to Bohuslän's cracks, with the occasional opportunity for some good jamming.\n\nVisitors are encouraged to walk down to Ulorna for a swim and to enjoy the beautiful surroundings.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:ragardsdal"
+            ]
+          }
+        },
+        "karaktar": {
+          "title": {
+            "text": "Character",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:ragardsdal"
+            ]
+          },
+          "body": {
+            "text": "Low-angled, compact rock with several crack systems running straight up. Very easily reached from the gravel road, which is also the approach to the more spectacular Ulorna. Generally well protected. The routes are around 17 metres high. The crag gets the afternoon sun, while the belayer remains shaded by trees.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:ragardsdal"
+            ]
+          }
+        },
+        "vagbeskrivning": {
+          "title": {
+            "text": "Directions",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:ragardsdal"
+            ]
+          },
+          "body": {
+            "text": "Park in the lay-by just before the harbour, not by the crag!\n\nThe best way to walk up and down is to the left of Pigger.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:ragardsdal"
+            ]
+          }
+        },
+        "access": {
+          "title": {
+            "text": "Access",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:ragardsdal"
+            ]
+          },
+          "body": {
+            "text": "• Keep noise levels down out of consideration for local residents.\n• Park only by the harbour, and under no circumstances drive along the gravel road to the crag.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:ragardsdal"
+            ]
+          }
+        }
+      },
+      "routes": {
+        "ragardsdal-led-1": {
+          "description": {
+            "text": "The corner at the left-hand edge of the crag.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:ragardsdal"
+            ]
+          }
+        },
+        "ragardsdal-led-2": {
+          "description": {
+            "text": "Behind a birch tree, about 10 m right of the previous route.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:ragardsdal"
+            ]
+          }
+        },
+        "ragardsdal-led-6": {
+          "description": {
+            "text": "Starts 1 metre left of Drömmar om snövit. Mantle onto good holds, then continue straight up the finger crack to catch the slopers and mantle over them. Follow the hand-crack system straight to the top.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:ragardsdal"
+            ]
+          }
+        }
+      }
+    }
   }
 }

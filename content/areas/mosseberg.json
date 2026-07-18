@@ -35,5 +35,19 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "Guidebook from Billingens Klätterklubb (http://www4.idrottonline.se/ImageVaultFiles/id_245724/cf_72266/forareversion1.pdf)",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:mosseberg"
+        ]
+      },
+      "sections": {},
+      "routes": {}
+    }
   }
 }

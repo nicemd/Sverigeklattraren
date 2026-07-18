@@ -829,5 +829,435 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "A fine, varied crag on Värmdö, on the way to the Strömma area. High in places, but with good landings.",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:lynxklippan"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "General",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:lynxklippan"
+            ]
+          },
+          "body": {
+            "text": "A fine, varied crag on Värmdö, on the way to the Strömma area. Some highballs, but with good landings.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:lynxklippan"
+            ]
+          }
+        },
+        "vagbeskrivning": {
+          "title": {
+            "text": "Directions",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:lynxklippan"
+            ]
+          },
+          "body": {
+            "text": "title=Anneberg lat= 18484400 long=59298100\n\nBy car\n\nLocated by Lostigen in Skeppsdalsström (behind Värmdö Golf), clearly visible from the road. Park considerately.\n\nBy bus\n\nTake bus 433 or 434 from Slussen (about 25 minutes) and get off at Skeppdalström.\n\nFollow Svartträskvägen past Återvägen, Svartträsket and Dalgången. Turn right when you reach a T-junction with Lostigen. The crag is somewhere along Lostigen between numbers 33 and 72.\n\nIt is about a 15-minute walk from the bus stop.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:lynxklippan"
+            ]
+          }
+        },
+        "sektor-1": {
+          "title": {
+            "text": "Sector 1",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:lynxklippan"
+            ]
+          },
+          "body": {
+            "text": "The crag sections are presented in order from the road into the woods.\n\nThe first crag from the road.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:lynxklippan"
+            ]
+          }
+        },
+        "sektor-2": {
+          "title": {
+            "text": "Sector 2",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:lynxklippan"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:lynxklippan"
+            ]
+          }
+        },
+        "sektor-3": {
+          "title": {
+            "text": "Sector 3",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:lynxklippan"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:lynxklippan"
+            ]
+          }
+        },
+        "hogra-delen": {
+          "title": {
+            "text": "Right-hand section",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:lynxklippan"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:lynxklippan"
+            ]
+          }
+        },
+        "vanstra-delen": {
+          "title": {
+            "text": "Left-hand section",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:lynxklippan"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:lynxklippan"
+            ]
+          }
+        },
+        "sektor-4": {
+          "title": {
+            "text": "Sector 4",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:lynxklippan"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:lynxklippan"
+            ]
+          }
+        }
+      },
+      "routes": {
+        "lynxklippan-led-2": {
+          "description": {
+            "text": "Starts on an obvious undercling and follows the line of holds diagonally up right, top out.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:lynxklippan"
+            ]
+          }
+        },
+        "lynxklippan-led-3": {
+          "description": {
+            "text": "High but fine arete with a delicate top-out.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:lynxklippan"
+            ]
+          }
+        },
+        "lynxklippan-led-7": {
+          "description": {
+            "text": "The whole wall left of the upper section is out, top out.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:lynxklippan"
+            ]
+          }
+        },
+        "lynxklippan-led-8": {
+          "description": {
+            "text": "Standing start.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:lynxklippan"
+            ]
+          }
+        },
+        "lynxklippan-led-9": {
+          "description": {
+            "text": "Straight up.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:lynxklippan"
+            ]
+          }
+        },
+        "lynxklippan-led-11": {
+          "description": {
+            "text": "Follows the obvious crack line left of the mossy sections at the right edge of the photo, up to the mossy ledge two-thirds of the way up.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:lynxklippan"
+            ]
+          }
+        },
+        "lynxklippan-led-13": {
+          "description": {
+            "text": "Tricky first move, top out.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:lynxklippan"
+            ]
+          }
+        },
+        "lynxklippan-led-14": {
+          "description": {
+            "text": "Steep start, almost all the way to the top.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:lynxklippan"
+            ]
+          }
+        },
+        "lynxklippan-led-16": {
+          "description": {
+            "text": "The obvious corner between 1 and 2, starting from the right-hand side.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:lynxklippan"
+            ]
+          }
+        },
+        "lynxklippan-led-17": {
+          "description": {
+            "text": "The jugs on the left are out, top out.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:lynxklippan"
+            ]
+          }
+        },
+        "lynxklippan-led-19": {
+          "description": {
+            "text": "The jugs right of the arete are out, top out.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:lynxklippan"
+            ]
+          }
+        },
+        "lynxklippan-led-20": {
+          "description": {
+            "text": "Body climbing and a top-out.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:lynxklippan"
+            ]
+          }
+        },
+        "lynxklippan-led-21": {
+          "description": {
+            "text": "Follows the obvious crack to a delicate top-out. The jugs left of the arete and the entire wall to the left are out.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:lynxklippan"
+            ]
+          }
+        },
+        "lynxklippan-led-23": {
+          "description": {
+            "text": "Starts in the pocket to the right beneath the niche, then climbs into it.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:lynxklippan"
+            ]
+          }
+        },
+        "lynxklippan-led-24": {
+          "description": {
+            "text": "Tricky.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:lynxklippan"
+            ]
+          }
+        },
+        "lynxklippan-led-25": {
+          "description": {
+            "text": "Technique and balance.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:lynxklippan"
+            ]
+          }
+        },
+        "lynxklippan-led-26": {
+          "description": {
+            "text": "Traverse from the start of Verso to the finish of M. Blaireau, top out.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:lynxklippan"
+            ]
+          }
+        },
+        "lynxklippan-led-27": {
+          "description": {
+            "text": "Traverse. Low variation with a nice swing.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:lynxklippan"
+            ]
+          }
+        },
+        "lynxklippan-led-28": {
+          "description": {
+            "text": "Start in the crack, straight up, finishing standing in the niche.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:lynxklippan"
+            ]
+          }
+        },
+        "lynxklippan-led-29": {
+          "description": {
+            "text": "High, top out...",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:lynxklippan"
+            ]
+          }
+        },
+        "lynxklippan-led-30": {
+          "description": {
+            "text": "All the way via the arete, top out.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:lynxklippan"
+            ]
+          }
+        },
+        "lynxklippan-led-31": {
+          "description": {
+            "text": "Start via an awkward right-hand finger jam; finished once standing on the bathtub edge.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:lynxklippan"
+            ]
+          }
+        },
+        "lynxklippan-led-32": {
+          "description": {
+            "text": "Starts with hands on the bathtub edge, then follows the arete, top out.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:lynxklippan"
+            ]
+          }
+        },
+        "lynxklippan-led-33": {
+          "description": {
+            "text": "Sit start at Le Frog, traverse using one hold below the line of Coupin (the Coupin holds are out), then go directly to the Bathtub and finish on Mme Blaierau.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:lynxklippan"
+            ]
+          }
+        },
+        "lynxklippan-led-34": {
+          "description": {
+            "text": "The large holds on the right at the top-out are out.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:lynxklippan"
+            ]
+          }
+        },
+        "lynxklippan-led-35": {
+          "description": {
+            "text": "Mind the tree.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:lynxklippan"
+            ]
+          }
+        },
+        "lynxklippan-led-36": {
+          "description": {
+            "text": "A tonne of rock was moved for this problem!",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:lynxklippan"
+            ]
+          }
+        }
+      }
+    }
   }
 }

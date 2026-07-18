@@ -214,5 +214,130 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "=Problems=",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:galtstrom"
+        ]
+      },
+      "sections": {},
+      "routes": {
+        "galtstrom-problem-1": {
+          "description": {
+            "text": "Sit start beneath the overhanging arete. Climb straight up, finishing when you are standing above the overhang.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:galtstrom"
+            ]
+          }
+        },
+        "galtstrom-problem-2": {
+          "description": {
+            "text": "Sit start with both hands on the sloping ledge. Traverse right to the arete and climb up there.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:galtstrom"
+            ]
+          }
+        },
+        "galtstrom-problem-3": {
+          "description": {
+            "text": "Start on the undercling, then climb up trending left.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:galtstrom"
+            ]
+          }
+        },
+        "galtstrom-problem-4": {
+          "description": {
+            "text": "A static variant of \"Hole in one\", climbing via the undercling.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:galtstrom"
+            ]
+          }
+        },
+        "galtstrom-problem-5": {
+          "description": {
+            "text": "Dyno from the obvious edge to the hole.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:galtstrom"
+            ]
+          }
+        },
+        "galtstrom-problem-6": {
+          "description": {
+            "text": "Sit start with both hands in the large pocket, then follow the arete up.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:galtstrom"
+            ]
+          }
+        },
+        "galtstrom-problem-7": {
+          "description": {
+            "text": "Start with both hands on the sloping edge to the right of the arete.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:galtstrom"
+            ]
+          }
+        },
+        "galtstrom-problem-8": {
+          "description": {
+            "text": "Running or jump start to two gastons on the slab, then straight up.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:galtstrom"
+            ]
+          }
+        },
+        "galtstrom-problem-9": {
+          "description": {
+            "text": "Start with both hands on the ramp and climb straight up.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:galtstrom"
+            ]
+          }
+        },
+        "galtstrom-problem-10": {
+          "description": {
+            "text": "Sit-start variant of \"Värmaren\".",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:galtstrom"
+            ]
+          }
+        },
+        "galtstrom-problem-11": {
+          "description": {
+            "text": "Sit start at the arete, with your right hand on a good sidepull and your left hand around the arete. Climb straight up.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:galtstrom"
+            ]
+          }
+        }
+      }
+    }
   }
 }

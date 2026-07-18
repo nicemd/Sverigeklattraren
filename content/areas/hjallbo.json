@@ -357,5 +357,153 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "Fun climbing, but the routes are short. It may be worth a visit if you live in Gothenburg and have already climbed everything else; otherwise, climb the other stuff first.",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:hjallbo"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "General",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hjallbo"
+            ]
+          },
+          "body": {
+            "text": "Fun climbing, but the routes are short. It may be worth a visit if you live in Gothenburg and have already climbed everything else; otherwise, climb the other crags first.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hjallbo"
+            ]
+          }
+        },
+        "vagbeskrivning": {
+          "title": {
+            "text": "Directions",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hjallbo"
+            ]
+          },
+          "body": {
+            "text": "To reach the crag by public transport, take the tram to Hjällbo station. Walk along Gråbovägen towards Gråbo. After passing Hjällbo Lillgata, continue for 100 metres, then turn left onto the cycle path and follow it straight to the crag. The crag is close to the residential area but sufficiently secluded.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hjallbo"
+            ]
+          }
+        },
+        "klattring": {
+          "title": {
+            "text": "Climbing",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hjallbo"
+            ]
+          },
+          "body": {
+            "text": "Many short trad routes or mixed routes. The blade bolts found here and there can often be backed up with other protection. There are a few sturdy trees at the top. Most routes are about 8 metres high.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hjallbo"
+            ]
+          }
+        },
+        "leder": {
+          "title": {
+            "text": "Routes",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hjallbo"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hjallbo"
+            ]
+          }
+        }
+      },
+      "routes": {
+        "hjallbo-led-2": {
+          "description": {
+            "text": "The right-leaning crack.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hjallbo"
+            ]
+          }
+        },
+        "hjallbo-led-3": {
+          "description": {
+            "text": "Starts just right of the tree.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hjallbo"
+            ]
+          }
+        },
+        "hjallbo-led-4": {
+          "description": {
+            "text": "There is a bolt right of Brufen. A project?",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hjallbo"
+            ]
+          }
+        },
+        "hjallbo-led-14": {
+          "description": {
+            "text": "Goes into the corner beneath the roof.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hjallbo"
+            ]
+          }
+        },
+        "hjallbo-led-15": {
+          "description": {
+            "text": "The route goes up between the roofs.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hjallbo"
+            ]
+          }
+        },
+        "hjallbo-led-17": {
+          "description": {
+            "text": "The route goes through the wedge-shaped section of the next roof.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hjallbo"
+            ]
+          }
+        }
+      }
+    }
   }
 }

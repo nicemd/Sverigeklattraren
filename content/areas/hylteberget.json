@@ -1966,5 +1966,419 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "Hylteberget is really two areas: Paradiset, a little further into the woods, with short, easy trad routes; and Hylteberget itself, Gothenburg’s sport climbing area, with many hard, long routes (20 metres). A rope bag and keeping noise to a minimum are required if you climb here. Do not park in the car park closest to the crag!",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:hylteberget"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "General",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hylteberget"
+            ]
+          },
+          "body": {
+            "text": "Hylteberget is really two areas: Paradiset, a little further into the forest, with short, easy trad routes, and Hylteberget, Gothenburg’s sport climbing area, with many hard, long routes (20 metres). A rope bag and low noise levels are required if you climb here. Do not park in the car park closest to the crag!",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hylteberget"
+            ]
+          }
+        },
+        "access": {
+          "title": {
+            "text": "Access",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hylteberget"
+            ]
+          },
+          "body": {
+            "text": "Keep noise levels down, do not establish new routes, and do not park closest to the crag.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hylteberget"
+            ]
+          }
+        },
+        "paradiset": {
+          "title": {
+            "text": "Paradiset",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hylteberget"
+            ]
+          },
+          "body": {
+            "text": "Paradiset is described in the Gothenburg guidebook as part of Hyltebergen, but should probably be regarded as a separate crag. It lies halfway between Hyltebergen and Ulvåsen. Drive towards Partille, turn onto Kung Göstas väg, pass under the railway and turn up Paradisvägen. Keep left and stop where Paradisvägen ends. You will now see a map showing several walking trails. There is an obvious path to the left and another to the right. Instead, follow the green-and-white-marked path straight ahead. Walk for half a kilometre and the crag appears on the left.\n\nAlmost all the routes are easy and vertical, but fairly short. There are plenty of trees from which to set up top ropes. Be creative with the top-outs; there is a lot of dirt and moss here. There is no need to damage the beautiful surroundings.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hylteberget"
+            ]
+          }
+        },
+        "nya-leder": {
+          "title": {
+            "text": "New routes",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hylteberget"
+            ]
+          },
+          "body": {
+            "text": "Located beyond Övre Hylte. To get here, walk past Övre Hylte and, when the path forks, take the right fork towards the rocks you can see. Alternatively, walk past Harricot Vertes, go left around the corner and continue straight ahead for about 70 metres.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hylteberget"
+            ]
+          }
+        },
+        "ovre-hylteberget": {
+          "title": {
+            "text": "Upper Hylteberget",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hylteberget"
+            ]
+          },
+          "body": {
+            "text": "The area beyond Plockepinn.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hylteberget"
+            ]
+          }
+        },
+        "ovre-ostra-hylteberget": {
+          "title": {
+            "text": "Upper Eastern Hylteberget",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hylteberget"
+            ]
+          },
+          "body": {
+            "text": "The area below Övre Hylteberget and above Plockepinn. Top ropes are easy to set up on most routes, as the top-rope anchors are readily accessible. As usual, spare the bolts and use your own carabiners!",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hylteberget"
+            ]
+          }
+        },
+        "en-trappa-upp": {
+          "title": {
+            "text": "En trappa upp",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hylteberget"
+            ]
+          },
+          "body": {
+            "text": "Located above everything else. There are also a couple of top-rope variations on some of the routes.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hylteberget"
+            ]
+          }
+        },
+        "plockepinn": {
+          "title": {
+            "text": "Plockepinn",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hylteberget"
+            ]
+          },
+          "body": {
+            "text": "Left of the Forex area. There is often ice here in winter. Often wet, with juggy overhanging climbing.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hylteberget"
+            ]
+          }
+        },
+        "forex": {
+          "title": {
+            "text": "Forex",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hylteberget"
+            ]
+          },
+          "body": {
+            "text": "The area immediately around the left-hand corner from the area by the car park. Forex is a classic route.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hylteberget"
+            ]
+          }
+        },
+        "hylteberget": {
+          "title": {
+            "text": "Hylteberget",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hylteberget"
+            ]
+          },
+          "body": {
+            "text": "The area closest to the car park. Do not park in the car park! Quite a few new routes have been established and need to be added here for the guide to be complete.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hylteberget"
+            ]
+          }
+        },
+        "nedre-hylteberget-banken": {
+          "title": {
+            "text": "Lower Hylteberget (the bench)",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hylteberget"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hylteberget"
+            ]
+          }
+        }
+      },
+      "routes": {
+        "hylteberget-led-5": {
+          "description": {
+            "text": "Found a bit of ice here...",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hylteberget"
+            ]
+          }
+        },
+        "hylteberget-led-10": {
+          "description": {
+            "text": "Identify the cannon barrel; a few metres to its right is a corner, where the route starts. Climb up to and through the cannon.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hylteberget"
+            ]
+          }
+        },
+        "hylteberget-led-11": {
+          "description": {
+            "text": "The appealing overhanging arete.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hylteberget"
+            ]
+          }
+        },
+        "hylteberget-led-12": {
+          "description": {
+            "text": "Exit variant.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hylteberget"
+            ]
+          }
+        },
+        "hylteberget-led-14": {
+          "description": {
+            "text": "The shortest bolted route in the entire universe, shorter than an average boulder problem.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hylteberget"
+            ]
+          }
+        },
+        "hylteberget-led-15": {
+          "description": {
+            "text": "Starts from a block and climbs the left side of the arete.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hylteberget"
+            ]
+          }
+        },
+        "hylteberget-led-16": {
+          "description": {
+            "text": "The next route, straight up.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hylteberget"
+            ]
+          }
+        },
+        "hylteberget-led-17": {
+          "description": {
+            "text": "Starts as Humlan, but traverses to the anchor of Grävlingen anfaller.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hylteberget"
+            ]
+          }
+        },
+        "hylteberget-led-18": {
+          "description": {
+            "text": "The corner.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hylteberget"
+            ]
+          }
+        },
+        "hylteberget-led-20": {
+          "description": {
+            "text": "Shares an anchor with Spindeln.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hylteberget"
+            ]
+          }
+        },
+        "hylteberget-led-21": {
+          "description": {
+            "text": "Shares an anchor with Ugglan.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hylteberget"
+            ]
+          }
+        },
+        "hylteberget-led-35": {
+          "description": {
+            "text": "Exciting, excellent climbing. Has an abseil anchor.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hylteberget"
+            ]
+          }
+        },
+        "hylteberget-led-36": {
+          "description": {
+            "text": "The crack to the right of Harricot Verts.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hylteberget"
+            ]
+          }
+        },
+        "hylteberget-led-44": {
+          "description": {
+            "text": "The hand-jam crack behind the tree. The anchor can be reached from Ekorrens anchor.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hylteberget"
+            ]
+          }
+        },
+        "hylteberget-led-46": {
+          "description": {
+            "text": "Excellent climbing, though some of the holds are small.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hylteberget"
+            ]
+          }
+        },
+        "hylteberget-led-79": {
+          "description": {
+            "text": "Short and steep, with about 3 bolts and an anchor; impossible to miss.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hylteberget"
+            ]
+          }
+        },
+        "hylteberget-led-88": {
+          "description": {
+            "text": "Bolted crack. Everyone climbs it.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hylteberget"
+            ]
+          }
+        },
+        "hylteberget-led-91": {
+          "description": {
+            "text": "Traverse.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hylteberget"
+            ]
+          }
+        },
+        "hylteberget-led-102": {
+          "description": {
+            "text": "Found a reference to a 7c here, but no name.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hylteberget"
+            ]
+          }
+        },
+        "hylteberget-led-115": {
+          "description": {
+            "text": "The chimney...",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hylteberget"
+            ]
+          }
+        }
+      }
+    }
   }
 }

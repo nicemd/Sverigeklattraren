@@ -97,5 +97,121 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "Who hasn’t wondered about this crag while driving past? An estimated 120 metres high, it is beautifully situated right beside Lake Ränken. This is the first cliff where there are signs of climbing. There are currently around 10 routes on the crag; the further left you go, the steeper the climbing becomes—follow the features. The central section (110 m) is at its best in winter, with mixed climbing, while the right-hand side offers classic bush climbing. Just over 10 km from Arvika towards Årjäng/Koppom. Bolting is prohibited. Please observe the access rules!",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:rankesnipan"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "General",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:rankesnipan"
+            ]
+          },
+          "body": {
+            "text": "Who has not wondered about this crag when driving past? Approximately 120 metres high, it stands in a scenic location right beside Lake Ränken. The first crag where there is evidence of climbers. Today there are around 10 routes on the crag; the farther left you go, the steeper the climbing becomes—follow the features. The central section (110 m) is best in winter, with mixed climbing, while the right-hand side offers classic bush climbing. Just over 10 km from Arvika towards Årjäng/Koppom. No bolting. Observe the access rules!",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:rankesnipan"
+            ]
+          }
+        },
+        "vagbeskrivning": {
+          "title": {
+            "text": "Directions",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:rankesnipan"
+            ]
+          },
+          "body": {
+            "text": "From Arvika, follow road 172 towards Årjäng, Bengtsfors, Sulvik and Jössefors. If any of the above appear on the signs, you are on the right road. Drive through the village of Jössefors, a few kilometres outside Arvika. Continue until you reach Sulvik, another kilometre or so. Go straight on at the junction by the petrol station and ICA convenience store. Continue past the next junction a few hundred metres farther on, where you turn right towards Åmotfors to reach Sulviksberget. Continue for another few hundred metres, then turn right at the junction towards Koppom. Within a kilometre, you will see Lake Ränken on the right and the crag on the lakeshore. Follow the minor roads to find suitable parking, then walk in.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:rankesnipan"
+            ]
+          }
+        },
+        "access": {
+          "title": {
+            "text": "Access",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:rankesnipan"
+            ]
+          },
+          "body": {
+            "text": "Climbing is completely prohibited at Ränkesnipan during certain parts of the year. Contact Jösse Klättersällskap (http://www.josseklatter.net) for current conditions.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:rankesnipan"
+            ]
+          }
+        },
+        "leder": {
+          "title": {
+            "text": "Routes",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:rankesnipan"
+            ]
+          },
+          "body": {
+            "text": "Routes will be added in due course.\n\n<!-- This is a comment",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:rankesnipan"
+            ]
+          }
+        },
+        "ovrigt": {
+          "title": {
+            "text": "Other information",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:rankesnipan"
+            ]
+          },
+          "body": {
+            "text": "Climbers have criss-crossed the entire crag since the 1970s, and most routes tend to be around grade 5/6 or easier mixed climbing. Most routes are difficult to protect, somewhat loose and often very dirty, but nevertheless offer a fine mountain-style experience. This is one of the few crags offering several pitches, and its setting makes the ascent particularly \"aesthetic\". The crag usually sees a couple of ascents each year, but note that a large section of the upper wall collapsed in 2006, so avoid this section if possible. (An attempt was made to break through it in 2007, but it had to be avoided by traversing left beneath the loose, pale section.) Tales and myths speak of unconfirmed patriots active on the partly overhanging left-hand section of the crag. These 'heroes' are said to have led at least three 60 m routes in the grade 6/7 range using natural protection and blade pitons; rumour has it that the routes are exposed and complex in places. But as no one wishes to step into the limelight, the future will have to judge this possible feat. According to reliable sources, the routes are described as follows: Excellent mountain-style character, which naturally also includes the hair-raising definition of loose and difficult to protect.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:rankesnipan"
+            ]
+          }
+        }
+      },
+      "routes": {
+        "rankesnipan-led-1": {
+          "description": {
+            "text": "Route description",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:rankesnipan"
+            ]
+          }
+        }
+      }
+    }
   }
 }

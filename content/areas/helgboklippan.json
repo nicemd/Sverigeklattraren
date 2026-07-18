@@ -68,5 +68,110 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "Helgboklippan is a relatively recently developed sport crag between Falun and Insjön. The crag lies some way into the forest, so it dries fairly slowly. It is a little muddy in places. The rock is probably prone to frost damage in winter, and there are plenty of loose or nearly loose sections of varying sizes. There are lots of mosquitoes here in summer, but on the plus side the approach is only 3 metres.",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:helgboklippan"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "General",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:helgboklippan"
+            ]
+          },
+          "body": {
+            "text": "Helgboklippan is a relatively recently developed sport crag between Falun and Insjön. The crag lies some way into the forest, so it dries fairly slowly. It is a little muddy in places. The crag is probably prone to frost damage in winter, and there are plenty of loose or nearly loose sections of various sizes. There are lots of mosquitoes here in summer, but on the plus side the approach is only 3 metres.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:helgboklippan"
+            ]
+          }
+        },
+        "vagbeskrivning": {
+          "title": {
+            "text": "Directions",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:helgboklippan"
+            ]
+          },
+          "body": {
+            "text": "From Falun, take road 293 towards Leksand. In Smedsbo, turn right towards Rexbo. Two kilometres after Rexbo, you will see a distinctive double-trunked pine on the left. Take the first gravel road on the right after this; after 700 m, the crag is immediately to the left of the road. You can park a little further on where the road widens slightly.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:helgboklippan"
+            ]
+          }
+        },
+        "access": {
+          "title": {
+            "text": "Access",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:helgboklippan"
+            ]
+          },
+          "body": {
+            "text": "At present (June 2011), there are no known access issues. As always, please leave the area tidy.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:helgboklippan"
+            ]
+          }
+        },
+        "klattring": {
+          "title": {
+            "text": "Climbing",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:helgboklippan"
+            ]
+          },
+          "body": {
+            "text": "The crag has a total of 7 bolted routes, graded from 5+ to 7-. All routes have anchors with a chain and carabiner. The top can be reached from either side of the crag, and several of the anchors can be accessed from above to set up a top-rope. A topo will be added shortly.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:helgboklippan"
+            ]
+          }
+        },
+        "ovrigt": {
+          "title": {
+            "text": "Other",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:helgboklippan"
+            ]
+          },
+          "body": {
+            "text": "There is a bathing spot at Helgbo if you continue another 3 km towards Insjön.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:helgboklippan"
+            ]
+          }
+        }
+      },
+      "routes": {}
+    }
   }
 }

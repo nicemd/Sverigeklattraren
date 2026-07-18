@@ -149,5 +149,115 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "Small boulder with a good overhang. There is a possible but difficult traverse, as well as two or three problems with slightly different starts.\n\nI’ve heard that there are two older guides to this small boulder, and all the problems described here were climbed by Hasse Häggquist in the early 1990s. Unfortunately, I don’t know what he called them. I thought this guide could stay up as a supplement anyway. Worth a visit if you’re nearby...",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:edsvikenblocket"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "General",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:edsvikenblocket"
+            ]
+          },
+          "body": {
+            "text": "A small boulder with a good overhang. There is a possible but difficult traverse, as well as two or three problems with slightly different starts.\n\nI have heard that there are two older guidebooks covering this small boulder, and all the problems described here were climbed by Hasse Häggquist back in the early 1990s. Unfortunately, I do not know what he called them. This guide can remain as a supplement anyway! Worth a visit if you are in the area...",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:edsvikenblocket"
+            ]
+          }
+        },
+        "vagbeskrivning": {
+          "title": {
+            "text": "Directions",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:edsvikenblocket"
+            ]
+          },
+          "body": {
+            "text": "Sollentuna, Edsviken. The boulder is almost directly opposite the entrance to Bergendahls Kursgård and clearly visible from the road. Take Danderydsvägen (262) and turn onto Landsnoravägen, signposted Bergendahl. Keep right at the T-junction. Continue 30 metres past the entrance to the conference centre and you will see the boulder on the right.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:edsvikenblocket"
+            ]
+          }
+        },
+        "problem": {
+          "title": {
+            "text": "Problems",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:edsvikenblocket"
+            ]
+          },
+          "body": {
+            "text": "Three problems tried. There may also be a difficult traverse.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:edsvikenblocket"
+            ]
+          }
+        }
+      },
+      "routes": {
+        "edsvikenblocket-led-2": {
+          "description": {
+            "text": "Sit start. LH on the slab, RH on a crimp/sidepull. Continue into Satsa på högern. Around 6b, I reckon.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:edsvikenblocket"
+            ]
+          }
+        },
+        "edsvikenblocket-led-3": {
+          "description": {
+            "text": "Standing start. Start on crimps, go for the right-hand hold and top out.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:edsvikenblocket"
+            ]
+          }
+        },
+        "edsvikenblocket-led-4": {
+          "description": {
+            "text": "Sit start, then continue into 3b. A hard sit start; 6c is probably a fair grade.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:edsvikenblocket"
+            ]
+          }
+        },
+        "edsvikenblocket-led-5": {
+          "description": {
+            "text": "Standing start. Start directly on the arete, continue up right beneath the roof and top out.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:edsvikenblocket"
+            ]
+          }
+        }
+      }
+    }
   }
 }

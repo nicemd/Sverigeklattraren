@@ -294,5 +294,215 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "Easily accessible crag in Jönköping. Offers climbing from 5c to 7c. The climbing varies from vertical to overhanging.",
+        "method": "llm",
+        "model": "gpt-4o-mini",
+        "sourceIds": [
+          "legacy:tolarp"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "General",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tolarp"
+            ]
+          },
+          "body": {
+            "text": "An easily accessible crag in Jönköping, offering climbing from 5c to 7c. The climbing varies from vertical to overhanging.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tolarp"
+            ]
+          }
+        },
+        "vagbeskrivning": {
+          "title": {
+            "text": "Directions",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tolarp"
+            ]
+          },
+          "body": {
+            "text": "Jönköping, take the road towards Bankeryd (Kortebovägen), turn at Garageportsexperten (Björnebergsvägen). When the slope levels off and the houses end, turn left, then take the next right towards Tolarp and first right onto a small (but drivable) forest road. Drive until you see the crag on your left.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tolarp"
+            ]
+          }
+        },
+        "leder": {
+          "title": {
+            "text": "Routes",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tolarp"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tolarp"
+            ]
+          }
+        }
+      },
+      "routes": {
+        "tolarp-led-1": {
+          "description": {
+            "text": "Easier route up a mossy ledge system.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tolarp"
+            ]
+          }
+        },
+        "tolarp-led-2": {
+          "description": {
+            "text": "Climbs the right edge of an overhang.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tolarp"
+            ]
+          }
+        },
+        "tolarp-led-3": {
+          "description": {
+            "text": "Hard start, then continue up the broken pillar.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tolarp"
+            ]
+          }
+        },
+        "tolarp-led-4": {
+          "description": {
+            "text": "Starts at an arete with a pinch hold.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tolarp"
+            ]
+          }
+        },
+        "tolarp-led-5": {
+          "description": {
+            "text": "Starts 2m to the right of the previous route, above a concrete roof. Small and sharp holds at the end.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tolarp"
+            ]
+          }
+        },
+        "tolarp-led-6": {
+          "description": {
+            "text": "Begins between the gate and the large boulder. Quite sharp and fingery climbing.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tolarp"
+            ]
+          }
+        },
+        "tolarp-led-7": {
+          "description": {
+            "text": "Starts on top of the large boulder and follows a slightly overhanging crack traverse. Same lower-off as Adreadre and Hyllningen.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tolarp"
+            ]
+          }
+        },
+        "tolarp-led-8": {
+          "description": {
+            "text": "Same start as Pionjären, but veers off to the right into a dihedral.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tolarp"
+            ]
+          }
+        },
+        "tolarp-led-9": {
+          "description": {
+            "text": "Occasionally overhanging route starting to the right of a large gate. Also climbed without the aid of the concrete pillar... Might have also been climbed by Fredrik Arlbrandt/Magnus Råström and named Pelargången.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tolarp"
+            ]
+          }
+        },
+        "tolarp-led-11": {
+          "description": {
+            "text": "Same start as Chili, but then holds right. Finishing in a distinct little dihedral.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tolarp"
+            ]
+          }
+        },
+        "tolarp-led-12": {
+          "description": {
+            "text": "One of the most popular routes. Follows the arête. Easy climbing at first, then it gets harder.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tolarp"
+            ]
+          }
+        },
+        "tolarp-led-13": {
+          "description": {
+            "text": "Top rope variant: start as 11 and at the ledge move over into 12 and finish with the crack. Use the anchor for route 12.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tolarp"
+            ]
+          }
+        },
+        "tolarp-led-14": {
+          "description": {
+            "text": "Wired crack.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tolarp"
+            ]
+          }
+        },
+        "tolarp-led-15": {
+          "description": {
+            "text": "The crack to the right of the previous route.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tolarp"
+            ]
+          }
+        }
+      }
+    }
   }
 }

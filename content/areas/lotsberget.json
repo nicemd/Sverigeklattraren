@@ -222,5 +222,56 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "The crag is located in Åland, Finland, which can be reached by ferry from Stockholm, Kapellskär or Grisslehamn. The crag is up to about 10 metres high and is partly blasted rock. The routes were established in the summer of 1990.",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:lotsberget"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "Overview",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:lotsberget"
+            ]
+          },
+          "body": {
+            "text": "The crag is on Åland (Finland), which can be reached by ferry from Stockholm, Kapellskär or Grisslehamn. It is up to approximately 10 metres high and partly consists of blasted rock. The routes were established in the summer of 1990.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:lotsberget"
+            ]
+          }
+        },
+        "vagbeskrivning": {
+          "title": {
+            "text": "Directions",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:lotsberget"
+            ]
+          },
+          "body": {
+            "text": "The crag is on the right-hand side (as seen from the sea) by the ferry terminal in Mariehamn.\n\nRoutes, from left to right.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:lotsberget"
+            ]
+          }
+        }
+      },
+      "routes": {}
+    }
   }
 }

@@ -57,5 +57,92 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "Two icefalls in the forest. Grade WI 4 if you choose the steep start, or WI 3 if you take the easier option on the right. Approx. 30 m high.",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:hogstorpskredsvik"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "General",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hogstorpskredsvik"
+            ]
+          },
+          "body": {
+            "text": "Two icefalls in the forest. Grade WI 4 if you take the steep start, or WI 3 if you take the easier option on the right. Approx. 30 m high.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hogstorpskredsvik"
+            ]
+          }
+        },
+        "bild": {
+          "title": {
+            "text": "Photo",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hogstorpskredsvik"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hogstorpskredsvik"
+            ]
+          }
+        },
+        "vagbeskrivning": {
+          "title": {
+            "text": "Directions",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hogstorpskredsvik"
+            ]
+          },
+          "body": {
+            "text": "Leave the E6 at the Hogstorp/Skredsvik turn-off. Drive towards Skredsvik for approx. 800 m. The icefall is on the south side of the road, beyond a field (it can sometimes be seen from the road behind large spruce trees). Park on the tractor track leading down towards the field beneath the power lines. Then walk south across the field, cross the stream and continue through the spruce forest. Approx. 300 m on foot.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hogstorpskredsvik"
+            ]
+          }
+        },
+        "access": {
+          "title": {
+            "text": "Access",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hogstorpskredsvik"
+            ]
+          },
+          "body": {
+            "text": "No known access issues.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hogstorpskredsvik"
+            ]
+          }
+        }
+      },
+      "routes": {}
+    }
   }
 }

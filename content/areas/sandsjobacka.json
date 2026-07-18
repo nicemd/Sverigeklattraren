@@ -335,5 +335,128 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "A beautiful natural area offering climbing on low, medium-height and full-height walls (20 metres).",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:sandsjobacka"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "General",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:sandsjobacka"
+            ]
+          },
+          "body": {
+            "text": "A beautiful nature area offering climbing on low, medium-height and full-height crags (20 metres).",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:sandsjobacka"
+            ]
+          }
+        },
+        "text": {
+          "title": {
+            "text": "Description",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:sandsjobacka"
+            ]
+          },
+          "body": {
+            "text": "The area is mainly bouldering, in fact.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:sandsjobacka"
+            ]
+          }
+        },
+        "access": {
+          "title": {
+            "text": "Access",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:sandsjobacka"
+            ]
+          },
+          "body": {
+            "text": "The crag lies within a nature reserve. There is no fixed gear on the crags, i.e. no bolts, fixed nuts or pitons. New bolting is not permitted.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:sandsjobacka"
+            ]
+          }
+        },
+        "kollektivtrafik": {
+          "title": {
+            "text": "Public transport",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:sandsjobacka"
+            ]
+          },
+          "body": {
+            "text": "The nearest bus stop is Maleviksvägen. Take the Blå Express from Gothenburg or Kungsbacka.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:sandsjobacka"
+            ]
+          }
+        },
+        "vagbeskrivning": {
+          "title": {
+            "text": "Directions",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:sandsjobacka"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:sandsjobacka"
+            ]
+          }
+        },
+        "leder": {
+          "title": {
+            "text": "Routes",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:sandsjobacka"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:sandsjobacka"
+            ]
+          }
+        }
+      },
+      "routes": {}
+    }
   }
 }

@@ -143,5 +143,121 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "The crag lies in Isaberg Nature Reserve and remains more or less unclimbed, so there is plenty of potential for new routes. There are also some good bouldering spots close to the crag.\n\nNearby is the scenic Isaberg, which offers plenty of activities for the whole family throughout the year. http://www.isaberg.com/",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:isaberg-vaster"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "General",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:isaberg-vaster"
+            ]
+          },
+          "body": {
+            "text": "The crag lies within Isaberg Nature Reserve and is still more or less unclimbed, so there is plenty of potential for new routes. There are also some good bouldering spots near the crag.\n\nNearby is the scenic Isaberg, which offers plenty of activities for the whole family throughout the year. http://www.isaberg.com/",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:isaberg-vaster"
+            ]
+          }
+        },
+        "vagbeskrivning": {
+          "title": {
+            "text": "Directions",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:isaberg-vaster"
+            ]
+          },
+          "body": {
+            "text": "Drive to Hestra via Route 26 from Halmstad/Jönköping, Route 151 from Värnamo or Route 27 from Borås (turn off at Mossebo towards Grimsås/Hestra/Isaberg).\n\nThe easiest way to reach the crag is to drive up to the Isaberg ski area, continue past the large car park and head up towards the tower. About 250 m from the bottom of Familjebacken and the warming hut, the road enters a sharp left-hand bend. Park on the grassy patch in the middle of the bend and walk straight out for about 20 m to reach the crag. The easiest way down to the base of the crag is on the left, viewed from above.\n\nCoordinates for the grassy patch on the bend: N57 25.941 E13 36.457\n\nAlternative approach from below\n\nAbout 400 m after leaving Hestra on the road towards Route 26 (Nissastigen), there are two large yellow signs reading \"Vattenskyddsområde\". Immediately after these, turn onto a small road on the left. Turn right straight away, then left, and drive as far as possible. At the end there is a T-junction, and the road to the right soon becomes a path; there is also a small turning area here. Park here, then follow the path along the hillside away from the village. After just under 150 m, there is a fairly large boulder beside the path on the left. Leave the path here and walk uphill for 100 m through dense spruce forest to reach the base of the crag.\n\nCoordinates for the turning area at the start of the path: N57 25.991 E13 36.306\n\nCoordinates for the boulder beside the path: N57 25.930 E13 36.310",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:isaberg-vaster"
+            ]
+          }
+        },
+        "information": {
+          "title": {
+            "text": "Information",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:isaberg-vaster"
+            ]
+          },
+          "body": {
+            "text": "This crag is still almost entirely unexplored and offers trad and top-rope climbing at grades 3–6, with routes about 6–15 m long. Plenty of holds, some overhangs and walls that are partly well protected offer something for most climbers. The crag is long, around 70 m in total, so be sure to explore it from north to south!",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:isaberg-vaster"
+            ]
+          }
+        },
+        "bouldering": {
+          "title": {
+            "text": "Bouldering",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:isaberg-vaster"
+            ]
+          },
+          "body": {
+            "text": "There are also some good bouldering spots in the area.\n\nThe main ones are: the northern section of the main crag (towards the village) and freestanding boulders about 100–200 m south of the main wall, in line with it.\n\nThe easiest way to reach the latter is to follow the alternative approach described above, but instead of leaving the path at the boulder and heading into the forest, continue along the path until it ends at a turning area, then carry on along a well-trodden forest path. The boulders all lie about 100 m uphill in the forest, which is open here, making them easy to locate.\n\n<!--",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:isaberg-vaster"
+            ]
+          }
+        },
+        "leder": {
+          "title": {
+            "text": "Routes",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:isaberg-vaster"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:isaberg-vaster"
+            ]
+          }
+        }
+      },
+      "routes": {
+        "isaberg-vaster-led-1": {
+          "description": {
+            "text": "Route description",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:isaberg-vaster"
+            ]
+          }
+        }
+      }
+    }
   }
 }

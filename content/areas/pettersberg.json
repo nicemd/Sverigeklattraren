@@ -246,5 +246,120 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "=General= Small area within cycling distance of the city centre. The climbing is mainly on the large boulder right next to the running trail in north-west Pettersberg. The boulder offers several fine slab problems as well as a few hard overhanging lines. Generally good landings. From here, it is only a few minutes by bike to the boulders by the Syriac Orthodox church in Vallby. =Directions= At Vallbymotet, head towards Pettersberg. Just before the ICA supermarket, turn right onto Jakobsgatan and follow it to the turning circle at the end. Park here. The boulders are below the parking area in the woods on the other side of the cycle path and running trail. =Topo= =Problems= The following problems are on the small boulder about 50 m south of the large boulder.",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:pettersberg"
+        ]
+      },
+      "sections": {},
+      "routes": {
+        "pettersberg-problem-1": {
+          "description": {
+            "text": "Establish the start with RH low in the crack and LH on the sidepull. Climb right and top out via the slab.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:pettersberg"
+            ]
+          }
+        },
+        "pettersberg-problem-2": {
+          "description": {
+            "text": "Sit start in the centre of the overhang, then climb straight up towards the boulder's highest point.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:pettersberg"
+            ]
+          }
+        },
+        "pettersberg-problem-3": {
+          "description": {
+            "text": "Sit start at the right arete, trend left and top out via the slab.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:pettersberg"
+            ]
+          }
+        },
+        "pettersberg-problem-4": {
+          "description": {
+            "text": "Sit start at the right arete, climb right onto the slab face, then straight up.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:pettersberg"
+            ]
+          }
+        },
+        "pettersberg-problem-6": {
+          "description": {
+            "text": "The slab line right of the tree and left of the slab arete.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:pettersberg"
+            ]
+          }
+        },
+        "pettersberg-problem-7": {
+          "description": {
+            "text": "Follow the sweeping feature to the top.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:pettersberg"
+            ]
+          }
+        },
+        "pettersberg-problem-10": {
+          "description": {
+            "text": "Sloper traverse from left to right.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:pettersberg"
+            ]
+          }
+        },
+        "pettersberg-problem-11": {
+          "description": {
+            "text": "Sit start beneath the arete.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:pettersberg"
+            ]
+          }
+        },
+        "pettersberg-problem-12": {
+          "description": {
+            "text": "Mantle on the south side of the boulder.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:pettersberg"
+            ]
+          }
+        },
+        "pettersberg-problem-13": {
+          "description": {
+            "text": "Sit start with RH on a low sidepull and LH on a Gaston crimp.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:pettersberg"
+            ]
+          }
+        }
+      }
+    }
   }
 }

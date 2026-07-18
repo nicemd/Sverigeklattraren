@@ -117,5 +117,115 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "Superb crag by Rönnvägen, near Järna fire station. Delicate, enjoyable climbing.",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:jarna-tuna-backar"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "General",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:jarna-tuna-backar"
+            ]
+          },
+          "body": {
+            "text": "Superb crag by Rönnvägen, near Järna fire station. Excellent, delicate climbing.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:jarna-tuna-backar"
+            ]
+          }
+        },
+        "vagbeskrivning": {
+          "title": {
+            "text": "Directions",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:jarna-tuna-backar"
+            ]
+          },
+          "body": {
+            "text": "From Södertälje/Stockholm, take Route 57 towards Järna, then turn right towards Nykvarn. After 1.5 km, the crag is on the right, immediately beside the road.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:jarna-tuna-backar"
+            ]
+          }
+        },
+        "problem": {
+          "title": {
+            "text": "Problems",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:jarna-tuna-backar"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:jarna-tuna-backar"
+            ]
+          }
+        }
+      },
+      "routes": {
+        "jarna-tuna-backar-problem-1": {
+          "description": {
+            "text": "Sit start up to a sloper and sidepull, then continue through the roof and top out straight up (don’t chicken out left =) (Leif Olsson. 10)",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:jarna-tuna-backar"
+            ]
+          }
+        },
+        "jarna-tuna-backar-problem-2": {
+          "description": {
+            "text": "Sit start up to good sidepull crimps, then make a move to a small crimp right of \"Asuk ♥ Teya\". Continue via a good jug and top out straight up and right. (Leif Olsson. 10)",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:jarna-tuna-backar"
+            ]
+          }
+        },
+        "jarna-tuna-backar-problem-3": {
+          "description": {
+            "text": "Sit start up to the two crimps furthest right below the roof. Climb through the roof and finish via \"Off we go!\" (Leif Olsson. 10)",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:jarna-tuna-backar"
+            ]
+          }
+        },
+        "jarna-tuna-backar-problem-4": {
+          "description": {
+            "text": "Same start as Klaustrofobiske Asuk, but instead head right to a good ledge, then top out straight up and right. (Leif Olsson.)",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:jarna-tuna-backar"
+            ]
+          }
+        }
+      }
+    }
   }
 }

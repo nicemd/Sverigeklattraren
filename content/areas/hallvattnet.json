@@ -51,5 +51,38 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "The crag has around 50 routes in grades 4–7, mostly in the 5–6 range. Many excellent bolted routes. The crag is extremely close to the road. You can swim below the crag, and the surroundings are incredibly beautiful (if you like northern Swedish forest).",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:hallvattnet"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "General information",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hallvattnet"
+            ]
+          },
+          "body": {
+            "text": "The crag has around 50 routes in grades 4–7, mostly in the 5–6 range. There are many excellent bolted routes. The crag is extremely close to the road. You can swim below the crag, and the surroundings are incredibly beautiful (if you like northern Swedish forest).",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hallvattnet"
+            ]
+          }
+        }
+      },
+      "routes": {}
+    }
   }
 }

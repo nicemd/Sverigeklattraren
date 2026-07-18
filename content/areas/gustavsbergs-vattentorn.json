@@ -371,5 +371,155 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "A small roadside crag offering better climbing than you might expect. Slow to dry. The crag was completely refurbished in spring ’08. All routes were inspected, and all pitons were removed and replaced with bolts or natural protection. All routes now have lower-off anchors. There is also an anchor above the four rightmost routes for anyone wishing to set up a top rope on them. Värmdö Municipality cleared the vegetation below the crag, and the routes were brushed as some had begun to moss over.",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:gustavsbergs-vattentorn"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "General",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gustavsbergs-vattentorn"
+            ]
+          },
+          "body": {
+            "text": "A small roadside crag offering better climbing than you might expect. Slow to dry. The crag was completely refurbished in spring 2008. Every route was checked. All pitons were removed and replaced with bolts or natural protection. All routes now have lower-off anchors. There is also an anchor above the four routes furthest right for anyone wishing to set up a top-rope on them. Värmdö Municipality cleared the vegetation below the crag, and the routes were brushed as some had begun to become mossy.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gustavsbergs-vattentorn"
+            ]
+          }
+        },
+        "vagbeskrivning": {
+          "title": {
+            "text": "Directions",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gustavsbergs-vattentorn"
+            ]
+          },
+          "body": {
+            "text": "Take road 222 towards Värmdö. Take the Ingarö/Gustavsberg exit. At the T-junction, turn right towards Gustavsberg. Continue straight along the road for a few kilometres until you see an OK petrol station on the left. Turn left, and after 30 metres the crag is on the right. There is a good parking bay just before the crag.\n\nThe crag is not far from Skevik.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gustavsbergs-vattentorn"
+            ]
+          }
+        },
+        "leder": {
+          "title": {
+            "text": "Routes",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gustavsbergs-vattentorn"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gustavsbergs-vattentorn"
+            ]
+          }
+        }
+      },
+      "routes": {
+        "gustavsbergs-vattentorn-led-1": {
+          "description": {
+            "text": "A pleasant short slab route 50 metres left of Lugna gatan. Thanks to Kjell Stenström for bolting it.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gustavsbergs-vattentorn"
+            ]
+          }
+        },
+        "gustavsbergs-vattentorn-led-2": {
+          "description": {
+            "text": "One of the finest 7b+ routes in Stockholm. The slightly overhanging pillar.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gustavsbergs-vattentorn"
+            ]
+          }
+        },
+        "gustavsbergs-vattentorn-led-3": {
+          "description": {
+            "text": "Obvious corner with a crack.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gustavsbergs-vattentorn"
+            ]
+          }
+        },
+        "gustavsbergs-vattentorn-led-4": {
+          "description": {
+            "text": "After the final bolt, the route finishes with a short traverse right, sharing the top-out with Vernissage. The topo is misleading.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gustavsbergs-vattentorn"
+            ]
+          }
+        },
+        "gustavsbergs-vattentorn-led-5": {
+          "description": {
+            "text": "Goes straight up; the topo is misleading.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gustavsbergs-vattentorn"
+            ]
+          }
+        },
+        "gustavsbergs-vattentorn-led-6": {
+          "description": {
+            "text": "Starts behind the large oak. Sparse protection.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gustavsbergs-vattentorn"
+            ]
+          }
+        },
+        "gustavsbergs-vattentorn-led-11": {
+          "description": {
+            "text": "The crag's standout route. Climbs the shield in the middle of the wall.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gustavsbergs-vattentorn"
+            ]
+          }
+        },
+        "gustavsbergs-vattentorn-led-18": {
+          "description": {
+            "text": "Sharp, slopey and bouldery.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gustavsbergs-vattentorn"
+            ]
+          }
+        }
+      }
+    }
   }
 }

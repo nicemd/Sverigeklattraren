@@ -78,5 +78,74 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "An area with 20–30 boulders midway between Hoting and Rossön. Much of the rock is weathered and sharp, but there is also some that is kinder on the fingers.",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:flybacken"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "General",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:flybacken"
+            ]
+          },
+          "body": {
+            "text": "An area with 20–30 boulders midway between Hoting and Rossön. Much of the rock is weathered and sharp, though some of it is also finger-friendly.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:flybacken"
+            ]
+          }
+        },
+        "vagbeskrivning": {
+          "title": {
+            "text": "Directions",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:flybacken"
+            ]
+          },
+          "body": {
+            "text": "From Rossön towards Hoting, take road 346 (as if you had a choice), pass the Flybäcken sign and cross the railway. The first boulders are clearly visible from the road after about 50 metres. Park at a small track entrance about 100 m further on, clear of the road. Make sure vehicles entering the forest road can get past.\n\nFrom Hoting, well... you’ve gone too far when you reach the railway, so turn around and follow the directions from Rossön.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:flybacken"
+            ]
+          }
+        },
+        "problem": {
+          "title": {
+            "text": "Problems",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:flybacken"
+            ]
+          },
+          "body": {
+            "text": "Some problems are marked on the rocks with small painted arrows; others have been climbed but are not marked. More information will be added to this page over time.\n\nLillbrontostenen is just south of Brontostenen. Climb straight up, 4 (FA Peblin).\n\nKantblocket stands fairly isolated north-east of Brontostenen. Follow the overhanging arete to the top, 6A (FA Peblin). A good problem, but beware the viciously sharp rock – expect cuts on the top-out.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:flybacken"
+            ]
+          }
+        }
+      },
+      "routes": {}
+    }
   }
 }

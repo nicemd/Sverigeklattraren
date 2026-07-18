@@ -570,5 +570,169 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "Crag located in a green space within a residential area. Relatively dark and gloomy setting among the fir trees, providing some shade. Vertical, compact wall of the harder variety. There are quite a few rusty bolts and other fixed gear, and the wall generally offers relatively few natural placements.\n\nA smaller wall to the left of the main one features slightly overhanging rock, with easier routes and better sun exposure. Some caution is advised for nettles.\n\nA smaller wall further to the right of the main crag offers overhanging routes.",
+        "method": "llm",
+        "model": "gpt-4o-mini",
+        "sourceIds": [
+          "legacy:tumbaklippan"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "General",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tumbaklippan"
+            ]
+          },
+          "body": {
+            "text": "Crag in a green area within a residential neighbourhood. Relatively dark and gloomy spot among the pines, providing some shade. Vertical compact wall of the harder type. A fair number of rusty bolt hangers and other fixings are in the wall, which otherwise offers relatively few natural placements.\n\nA smaller wall, extending to the left of the main one, offers slightly overhanging rock with easier routes and also more sun exposure. Caution advised for nettles.\n\nA smaller wall further away, to the right of the main wall, offers overhanging routes.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tumbaklippan"
+            ]
+          }
+        },
+        "vagbeskrivning": {
+          "title": {
+            "text": "Access",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tumbaklippan"
+            ]
+          },
+          "body": {
+            "text": "Turn off Dalvägen in Tumba towards Storvreten. After 1 km, take a left onto Odlingsvägen towards Storvretsskolan. Park by the swimming area. If using public transport, take the bus towards Storvreten from Tumba station.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tumbaklippan"
+            ]
+          }
+        },
+        "leder": {
+          "title": {
+            "text": "Routes",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tumbaklippan"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tumbaklippan"
+            ]
+          }
+        },
+        "vanstra-partiet": {
+          "title": {
+            "text": "Left Sector",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tumbaklippan"
+            ]
+          },
+          "body": {
+            "text": "Located approximately 100m to the west of the main wall.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tumbaklippan"
+            ]
+          }
+        },
+        "huvudvaggen": {
+          "title": {
+            "text": "Main Wall",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tumbaklippan"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tumbaklippan"
+            ]
+          }
+        },
+        "hogra-vaggen": {
+          "title": {
+            "text": "Right Wall",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tumbaklippan"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tumbaklippan"
+            ]
+          }
+        }
+      },
+      "routes": {
+        "tumbaklippan-led-7": {
+          "description": {
+            "text": "Listed as 7+/8- in the old Stockholm guide.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tumbaklippan"
+            ]
+          }
+        },
+        "tumbaklippan-led-21": {
+          "description": {
+            "text": "Very loose.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tumbaklippan"
+            ]
+          }
+        },
+        "tumbaklippan-led-24": {
+          "description": {
+            "text": "Goes almost inside the chimney.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tumbaklippan"
+            ]
+          }
+        },
+        "tumbaklippan-led-25": {
+          "description": {
+            "text": "First route to the right of the chimney, follows the arête.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tumbaklippan"
+            ]
+          }
+        }
+      }
+    }
   }
 }

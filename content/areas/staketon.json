@@ -62,5 +62,85 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "Highball bouldering at a serious level.",
+        "method": "llm",
+        "model": "gpt-4o-mini",
+        "sourceIds": [
+          "legacy:staketon"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "General",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:staketon"
+            ]
+          },
+          "body": {
+            "text": "Highball bouldering at a serious level.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:staketon"
+            ]
+          }
+        },
+        "vagbeskrivning": {
+          "title": {
+            "text": "Directions",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:staketon"
+            ]
+          },
+          "body": {
+            "text": "By car: Exit the E18 at Kungsängen, turn left over the motorway, continue down the hill to the T-junction. Turn left on Old Enköpingsvägen for about 500m. Park in the gravel area in the bend. Then walk along the gravel path that goes under the motorway and follow it to a derelict cabin visible on the right (may be hard to spot). Turn right here onto a small path. After 200m, take a right and you will reach a clearing where the boulders are.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:staketon"
+            ]
+          }
+        },
+        "boulderproblem": {
+          "title": {
+            "text": "Boulder Problems",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:staketon"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:staketon"
+            ]
+          }
+        }
+      },
+      "routes": {
+        "staketon-problem-1": {
+          "description": {
+            "text": "Really nice crack climbing with a nervous landing. Highball.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:staketon"
+            ]
+          }
+        }
+      }
+    }
   }
 }

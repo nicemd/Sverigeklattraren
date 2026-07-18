@@ -28,5 +28,19 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "A large boulder and a wall, with some additional boulders nearby. There's plenty of moss at Predikstolen, so bring a brush! \n\n=Directions= Drive down Vårdsätravägen through Högadalen, then turn right over the bridge and park immediately on the left. Cross the road and follow the riding path towards Predikstolen crag. The boulder is about 50 meters before the crag, with the wall situated above the crag.",
+        "method": "llm",
+        "model": "gpt-4o-mini",
+        "sourceIds": [
+          "legacy:uppsalapredikstolen-boulder"
+        ]
+      },
+      "sections": {},
+      "routes": {}
+    }
   }
 }

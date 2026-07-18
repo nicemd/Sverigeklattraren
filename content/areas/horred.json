@@ -95,5 +95,92 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "A couple of different south-facing icefalls. The longer falls can be seen from Helsjövägen.",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:horred"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "General",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:horred"
+            ]
+          },
+          "body": {
+            "text": "A few different icefalls facing south. The longer falls can be seen from Helsjövägen.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:horred"
+            ]
+          }
+        },
+        "leder": {
+          "title": {
+            "text": "Routes",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:horred"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:horred"
+            ]
+          }
+        },
+        "vagbeskrivning": {
+          "title": {
+            "text": "Directions",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:horred"
+            ]
+          },
+          "body": {
+            "text": "Drive to Horred. Then take Helsjövägen west for 5.4 km until you reach Helsjöns folkhögskola. Park there, then walk 400 m north-west along a gravel road until it becomes a tractor track. Then follow the trail along Helsjön. Alternatively, walk across the lake ice.\n\nPark here:\n\nhttps://maps.google.com/maps/place?q=57.367404,12.403623&hl=sv&ftid=0x465021b481d25745:0xbb1f76434e0c1005\n\nThe climbing is here:\n\nhttps://maps.google.com/maps/ms?msa=0&msid=209938940156915484086.0004d6bbd3a45304c425b&hl=sv&ie=UTF8&ll=57.369273,12.396333&spn=0.002201,0.008256&t=h&z=18&vpsrc=6&iwloc=0004d6bbd3a5a633c710d",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:horred"
+            ]
+          }
+        },
+        "access": {
+          "title": {
+            "text": "Access",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:horred"
+            ]
+          },
+          "body": {
+            "text": "No known access issues. Be aware that people walk below the ice where the climbing is and could be struck by falling ice.\n\n--JM 27 February 2013 at 19.34 (CET)",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:horred"
+            ]
+          }
+        }
+      },
+      "routes": {}
+    }
   }
 }

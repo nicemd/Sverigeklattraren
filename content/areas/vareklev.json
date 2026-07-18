@@ -51,5 +51,56 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "A small crag with most routes around grade 6.",
+        "method": "llm",
+        "model": "gpt-4o-mini",
+        "sourceIds": [
+          "legacy:vareklev"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "General",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:vareklev"
+            ]
+          },
+          "body": {
+            "text": "A small crag with most routes around grade 6.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:vareklev"
+            ]
+          }
+        },
+        "lankar": {
+          "title": {
+            "text": "Links",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:vareklev"
+            ]
+          },
+          "body": {
+            "text": "Guide provided by Linköping Climbing Club (http://linkopingsklatterklubb.se/index.php/forare.html).",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:vareklev"
+            ]
+          }
+        }
+      },
+      "routes": {}
+    }
   }
 }

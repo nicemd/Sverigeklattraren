@@ -41,5 +41,38 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "Yttergärdet is under development with several new routes in progress. The aim is to update this section with additions as routes are completed.\n\n[ http://www4.idrottonline.se/ImageVaultFiles/id_245724/cf_72266/forareversion1.pdf Guide by Billingens Climbing Club]",
+        "method": "llm",
+        "model": "gpt-4o-mini",
+        "sourceIds": [
+          "legacy:tiveden"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "General Information",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tiveden"
+            ]
+          },
+          "body": {
+            "text": "Yttergärdet is under development with several new routes in progress. The aim is to add information here for anything not already included in the guide below as the routes are completed.\n\n[ http://www4.idrottonline.se/ImageVaultFiles/id_245724/cf_72266/forareversion1.pdf Guide from Billingens Klätterklubb]",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tiveden"
+            ]
+          }
+        }
+      },
+      "routes": {}
+    }
   }
 }

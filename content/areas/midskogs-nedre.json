@@ -465,5 +465,317 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "=Sectors=",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:midskogs-nedre"
+        ]
+      },
+      "sections": {
+        "nedsidan-vagen": {
+          "title": {
+            "text": "Below the road",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:midskogs-nedre"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:midskogs-nedre"
+            ]
+          }
+        },
+        "ovansidan-vagen": {
+          "title": {
+            "text": "Above the road",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:midskogs-nedre"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:midskogs-nedre"
+            ]
+          }
+        }
+      },
+      "routes": {
+        "midskogs-nedre-problem-1": {
+          "description": {
+            "text": "Sit start far in on the left beneath the overhang, then move out to the arete and follow it up.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:midskogs-nedre"
+            ]
+          }
+        },
+        "midskogs-nedre-problem-2": {
+          "description": {
+            "text": "Sit start with both hands on the crimp rail, then climb straight up.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:midskogs-nedre"
+            ]
+          }
+        },
+        "midskogs-nedre-problem-3": {
+          "description": {
+            "text": "Climb straight up.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:midskogs-nedre"
+            ]
+          }
+        },
+        "midskogs-nedre-problem-4": {
+          "description": {
+            "text": "Sit start at the flake and follow the arrow straight up. The ledge by the tree on the left is out, though this is obvious if you follow the line.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:midskogs-nedre"
+            ]
+          }
+        },
+        "midskogs-nedre-problem-5": {
+          "description": {
+            "text": "Start at the pocket and climb straight up.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:midskogs-nedre"
+            ]
+          }
+        },
+        "midskogs-nedre-problem-6": {
+          "description": {
+            "text": "Start with both hands on the crimps by the \"ball\", then climb straight up.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:midskogs-nedre"
+            ]
+          }
+        },
+        "midskogs-nedre-problem-7": {
+          "description": {
+            "text": "Sit start far in beneath the boulder, climb straight out and mantle at the tip.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:midskogs-nedre"
+            ]
+          }
+        },
+        "midskogs-nedre-problem-8": {
+          "description": {
+            "text": "Sit start with both hands on the rails to the left of \"Rankor\", then climb straight up.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:midskogs-nedre"
+            ]
+          }
+        },
+        "midskogs-nedre-problem-9": {
+          "description": {
+            "text": "Climb straight up.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:midskogs-nedre"
+            ]
+          }
+        },
+        "midskogs-nedre-problem-10": {
+          "description": {
+            "text": "Start with both hands on the large ledge and climb up, trending slightly right. The large pocket on the left and the lower part of the arete are out.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:midskogs-nedre"
+            ]
+          }
+        },
+        "midskogs-nedre-problem-11": {
+          "description": {
+            "text": "Start with your left hand on the jug and right hand on the crimp, then climb up, trending slightly right.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:midskogs-nedre"
+            ]
+          }
+        },
+        "midskogs-nedre-problem-12": {
+          "description": {
+            "text": "Sit start with both hands on the large ramp, then climb straight up.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:midskogs-nedre"
+            ]
+          }
+        },
+        "midskogs-nedre-problem-13": {
+          "description": {
+            "text": "Climb straight up.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:midskogs-nedre"
+            ]
+          }
+        },
+        "midskogs-nedre-problem-14": {
+          "description": {
+            "text": "Climb straight up.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:midskogs-nedre"
+            ]
+          }
+        },
+        "midskogs-nedre-problem-15": {
+          "description": {
+            "text": "Sit-start version of \"Kortvåg\".",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:midskogs-nedre"
+            ]
+          }
+        },
+        "midskogs-nedre-problem-16": {
+          "description": {
+            "text": "Sit start with both hands in the crack in the roof, climb straight out and finish up Quinta Essentia.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:midskogs-nedre"
+            ]
+          }
+        },
+        "midskogs-nedre-problem-17": {
+          "description": {
+            "text": "Start with your left hand on the lower crimp and right hand on a hold around the arete (start holds are marked), then climb straight up.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:midskogs-nedre"
+            ]
+          }
+        },
+        "midskogs-nedre-problem-18": {
+          "description": {
+            "text": "Climb straight up through the white patch.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:midskogs-nedre"
+            ]
+          }
+        },
+        "midskogs-nedre-problem-19": {
+          "description": {
+            "text": "Sit start with both hands on the ramp/rail (establish on the start holds if you cannot reach them from the ground). Climb straight up.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:midskogs-nedre"
+            ]
+          }
+        },
+        "midskogs-nedre-problem-20": {
+          "description": {
+            "text": "Start with both hands on the sloping rail, then climb straight up.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:midskogs-nedre"
+            ]
+          }
+        },
+        "midskogs-nedre-problem-21": {
+          "description": {
+            "text": "Standing start. Climb however you like within the brushed area to the top.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:midskogs-nedre"
+            ]
+          }
+        },
+        "midskogs-nedre-problem-22": {
+          "description": {
+            "text": "Climb straight up, avoiding contact with the spruce on the starting move.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:midskogs-nedre"
+            ]
+          }
+        },
+        "midskogs-nedre-problem-23": {
+          "description": {
+            "text": "Start with your right hand on a good sidepull and left hand on the same starting hold as Grankontakt. Climb straight up, trending slightly right for the top-out.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:midskogs-nedre"
+            ]
+          }
+        },
+        "midskogs-nedre-problem-24": {
+          "description": {
+            "text": "Start with both hands on the edge and a heel hook. Follow the edge and finish with the same top-out as Climb in alone.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:midskogs-nedre"
+            ]
+          }
+        },
+        "midskogs-nedre-problem-25": {
+          "description": {
+            "text": "Climb straight up and finish with a mantle.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:midskogs-nedre"
+            ]
+          }
+        },
+        "midskogs-nedre-problem-26": {
+          "description": {
+            "text": "Sit-start version of Left Pocket. Start in a layback and climb to the starting holds of Left Pocket, then follow the same line.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:midskogs-nedre"
+            ]
+          }
+        }
+      }
+    }
   }
 }

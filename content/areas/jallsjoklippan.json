@@ -52,5 +52,56 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "A small crag with a mix of harder routes.",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:jallsjoklippan"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "Overview",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:jallsjoklippan"
+            ]
+          },
+          "body": {
+            "text": "A small crag with a mix of harder routes.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:jallsjoklippan"
+            ]
+          }
+        },
+        "lankar": {
+          "title": {
+            "text": "Links",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:jallsjoklippan"
+            ]
+          },
+          "body": {
+            "text": "Guide provided by Linköping Climbing Club (http://linkopingsklatterklubb.se/index.php/forare.html).",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:jallsjoklippan"
+            ]
+          }
+        }
+      },
+      "routes": {}
+    }
   }
 }

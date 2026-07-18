@@ -337,5 +337,159 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "The climbing crag itself is west-facing, in the middle of the island and a short walk from Smögenbryggan. From the car park, either follow the boardwalk between the rocks out onto the island, head left past the small inlet and then cut across the rock, or walk straight across the rock, depending on whether you park in the main car park or further out on the island.\n\nThe crag is on the west side of the island and faces west, so it dries quickly after rain. It is a short walk from the centre, harbour and quays in Smögen. Facing west from the car park, follow the few steps leading up where the main road bends left. Continue between the rocks along the wooden walkways, turn left at the small inlet and follow the left-hand side of the bay up and over the top of the crag. You will know you are in the right place when you see the bolted anchors on your right.",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:kleven"
+        ]
+      },
+      "sections": {
+        "introduktion": {
+          "title": {
+            "text": "Introduction",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:kleven"
+            ]
+          },
+          "body": {
+            "text": "Kleven is the island on the other side of the Smögen Canal. The crag faces the sea and has fine views. The routes are relatively easy and fairly short (about 10 m).\n\nKleven is the island on the west side of the Smögen Canal. The crag is right by the sea, with beautiful views. The routes are relatively easy and fairly short (about 10 metres).",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:kleven"
+            ]
+          }
+        },
+        "karaktar": {
+          "title": {
+            "text": "Character",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:kleven"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:kleven"
+            ]
+          }
+        },
+        "vagbeskrivning": {
+          "title": {
+            "text": "Approach",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:kleven"
+            ]
+          },
+          "body": {
+            "text": "The crag is west-facing, in the middle of the island, and a short walk from Smögenbryggan. Depending on whether you park in the large car park or farther out on the island, either follow the boardwalk between the rocks from the car park out onto the island, turn left past the small inlet and then cut across the rocks, or walk straight across the rocks.\n\nThe crag is on the west side of the island and faces west, so it dries quickly after rain. It is a short walk from the centre, harbour and docks of Smögen. Facing west from the car park, go up the few steps where the main road turns left. Continue between the rocks, following the wooden walkways, then turn left at the small inlet and follow the left-hand side of the bay up and over the top of the cliff. You will know you are in the right place when you see the bolted anchors on your right.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:kleven"
+            ]
+          }
+        },
+        "parkering": {
+          "title": {
+            "text": "Parking",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:kleven"
+            ]
+          },
+          "body": {
+            "text": "If arriving by car, drive through Smögen and out onto the island. You can park in the large car park immediately after crossing the channel, or find one of the occasional free spaces farther on.\n\nDrive through the whole town and out onto the island. You can park in the large car park immediately after the channel separating the island of Kleven from the mainland.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:kleven"
+            ]
+          }
+        },
+        "sakring": {
+          "title": {
+            "text": "Protection",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:kleven"
+            ]
+          },
+          "body": {
+            "text": "Top anchors are fitted on several routes.\n\nThere are top anchors on several of the routes.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:kleven"
+            ]
+          }
+        },
+        "leder": {
+          "title": {
+            "text": "Routes",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:kleven"
+            ]
+          },
+          "body": {
+            "text": "The right-hand section of the crag, as seen from below, appears to have suffered some rockfall, so the last few routes may no longer exist.\n\nFrom left to right:",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:kleven"
+            ]
+          }
+        }
+      },
+      "routes": {
+        "kleven-led-8": {
+          "description": {
+            "text": "Follows the corner.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:kleven"
+            ]
+          }
+        },
+        "kleven-led-14": {
+          "description": {
+            "text": "A very pleasant route in the middle of the right-hand section of the crag. Start from the rock that runs right up to the crag. A top anchor is in place.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:kleven"
+            ]
+          }
+        },
+        "kleven-led-17": {
+          "description": {
+            "text": "Traverse between the starts of Ta det med ro and Kölsvinet.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:kleven"
+            ]
+          }
+        }
+      }
+    }
   }
 }

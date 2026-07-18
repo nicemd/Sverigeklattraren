@@ -198,5 +198,120 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "=Problems=",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:nacksta"
+        ]
+      },
+      "sections": {},
+      "routes": {
+        "nacksta-problem-1": {
+          "description": {
+            "text": "Traverse from low down to the left, then climb up over the bulge.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:nacksta"
+            ]
+          }
+        },
+        "nacksta-problem-2": {
+          "description": {
+            "text": "Same as Da lil Gansta, but using the huge jug just right of the bulge.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:nacksta"
+            ]
+          }
+        },
+        "nacksta-problem-3": {
+          "description": {
+            "text": "Sit start left of the bulge and climb via the arete.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:nacksta"
+            ]
+          }
+        },
+        "nacksta-problem-4": {
+          "description": {
+            "text": "Sit start, straight up.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:nacksta"
+            ]
+          }
+        },
+        "nacksta-problem-5": {
+          "description": {
+            "text": "Sit start, then climb diagonally left.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:nacksta"
+            ]
+          }
+        },
+        "nacksta-problem-6": {
+          "description": {
+            "text": "Sit start at the far left of the boulder. Climb straight up, then traverse right and mantle.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:nacksta"
+            ]
+          }
+        },
+        "nacksta-problem-7": {
+          "description": {
+            "text": "Straight up, no hands.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:nacksta"
+            ]
+          }
+        },
+        "nacksta-problem-8": {
+          "description": {
+            "text": "Start by the stump and traverse halfway around the boulder.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:nacksta"
+            ]
+          }
+        },
+        "nacksta-problem-9": {
+          "description": {
+            "text": "Awkward sit start beneath the boulder, then straight up.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:nacksta"
+            ]
+          }
+        },
+        "nacksta-problem-10": {
+          "description": {
+            "text": "Sit start, straight up.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:nacksta"
+            ]
+          }
+        }
+      }
+    }
   }
 }

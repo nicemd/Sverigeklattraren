@@ -751,5 +751,197 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "Take road 34 from Linköping towards Kisa. At the roundabout outside Rimforsa, turn left towards the village. Cross the railway and turn right towards Slätmon. Follow the road for about 6 km until you see the crag on the right. Park a short way along the gravel road after the red cottage, or continue a little further and turn onto a bumpy forest track, then park in the clearing.",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:korpberget-rimforsa"
+        ]
+      },
+      "sections": {
+        "vagbeskrivning": {
+          "title": {
+            "text": "Directions",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:korpberget-rimforsa"
+            ]
+          },
+          "body": {
+            "text": "Take Route 34 from Linköping towards Kisa. At the roundabout outside Rimforsa, turn left towards the town centre. Cross the railway and turn right towards Slätmon. Follow the road for about 6 km until you see the crag on the right. Park a short way along the gravel road after the red cottage, or continue a little further, turn onto a bumpy forest track and park in the clearing.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:korpberget-rimforsa"
+            ]
+          }
+        },
+        "leder": {
+          "title": {
+            "text": "Routes",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:korpberget-rimforsa"
+            ]
+          },
+          "body": {
+            "text": "Korpberget offers mainly trad routes on coarse-grained granite. Many are crack routes, several of them high quality. The friction is very good, but the rock is hard on the fingers.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:korpberget-rimforsa"
+            ]
+          }
+        },
+        "vastra-flanken": {
+          "title": {
+            "text": "West Flank",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:korpberget-rimforsa"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:korpberget-rimforsa"
+            ]
+          }
+        },
+        "fikavaggen": {
+          "title": {
+            "text": "Fika Wall",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:korpberget-rimforsa"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:korpberget-rimforsa"
+            ]
+          }
+        },
+        "amfivaggen": {
+          "title": {
+            "text": "Amphitheatre Wall",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:korpberget-rimforsa"
+            ]
+          },
+          "body": {
+            "text": "The approach to the starts of the routes on Amphitheatre Wall is an interesting maze of boulders. At the left-hand edge, some kind soul has left a fixed rope.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:korpberget-rimforsa"
+            ]
+          }
+        },
+        "stora-vaggen-nordvaggen": {
+          "title": {
+            "text": "Main Wall, North Wall",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:korpberget-rimforsa"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:korpberget-rimforsa"
+            ]
+          }
+        },
+        "lankar": {
+          "title": {
+            "text": "Links",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:korpberget-rimforsa"
+            ]
+          },
+          "body": {
+            "text": "Guide provided by Linköping Climbing Club (http://linkopingsklatterklubb.se/index.php/forare.html).",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:korpberget-rimforsa"
+            ]
+          }
+        }
+      },
+      "routes": {
+        "korpberget-rimforsa-led-7": {
+          "description": {
+            "text": "Follow the crack that clearly gave the route its name, then an arete to the top.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:korpberget-rimforsa"
+            ]
+          }
+        },
+        "korpberget-rimforsa-led-8": {
+          "description": {
+            "text": "Big steps just to the right, followed by a finger crack to the top. Both routes can easily be top-roped from a tree.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:korpberget-rimforsa"
+            ]
+          }
+        },
+        "korpberget-rimforsa-led-9": {
+          "description": {
+            "text": "Big steps up to a pine tree.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:korpberget-rimforsa"
+            ]
+          }
+        },
+        "korpberget-rimforsa-led-10": {
+          "description": {
+            "text": "Significantly trickier for taller climbers, who find it a bit cramped in the corner.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:korpberget-rimforsa"
+            ]
+          }
+        },
+        "korpberget-rimforsa-led-37": {
+          "description": {
+            "text": "Long thought to be unrepeated, but a few climbers besides the first ascensionist have wriggled their way into the chimney. Requires specialist protection, such as gigantic gear.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:korpberget-rimforsa"
+            ]
+          }
+        }
+      }
+    }
   }
 }

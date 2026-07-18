@@ -683,5 +683,361 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "A very nice, but somewhat hidden area that unfortunately seems to be visited less frequently than the more renowned crags closer to the centre. There is no development in sight, and no noise from the E20.",
+        "method": "llm",
+        "model": "gpt-4o-mini",
+        "sourceIds": [
+          "legacy:ulvasen"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "General",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:ulvasen"
+            ]
+          },
+          "body": {
+            "text": "A very nice, but somewhat hidden area that sadly seems to be visited less often than more well-known crags closer to the city centre. No buildings in sight, no noise from the E20.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:ulvasen"
+            ]
+          }
+        },
+        "access": {
+          "title": {
+            "text": "Access",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:ulvasen"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:ulvasen"
+            ]
+          }
+        },
+        "karaktar": {
+          "title": {
+            "text": "Character",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:ulvasen"
+            ]
+          },
+          "body": {
+            "text": "Distinctive jamming character with a focus around grade 6. Routes are 10-20 meters long. High quality!",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:ulvasen"
+            ]
+          }
+        },
+        "vagbeskrivning": {
+          "title": {
+            "text": "Directions",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:ulvasen"
+            ]
+          },
+          "body": {
+            "text": "To reach here by bike from central Gothenburg, take Utbyvägen from Gamlestan, continue past Utby, and turn left a kilometre later onto Paradisvägen. Where Paradisvägen then takes a right turn, you continue instead up the steep hill on Gavelåsvägen. Where the road ends (after another tough uphill), a well-prepared path begins. Follow the path upwards, that is to the left. Turn off the path to the right after 5-10 minutes, where a sign with a skier is nailed up. Cross the swamp on rotten planks. The crags will be on your right.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:ulvasen"
+            ]
+          }
+        },
+        "leder": {
+          "title": {
+            "text": "Routes",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:ulvasen"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:ulvasen"
+            ]
+          }
+        },
+        "ulvasen-1": {
+          "title": {
+            "text": "Ulvåsen 1",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:ulvasen"
+            ]
+          },
+          "body": {
+            "text": "The crag furthest away. It lies along the same ridge as the other crags, but is a few hundred meters through bushes from Ulvåsen 3. Walk on and you'll find it.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:ulvasen"
+            ]
+          }
+        },
+        "ulvasen-2": {
+          "title": {
+            "text": "Ulvåsen 2",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:ulvasen"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:ulvasen"
+            ]
+          }
+        },
+        "ulvasen-3": {
+          "title": {
+            "text": "Ulvåsen 3",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:ulvasen"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:ulvasen"
+            ]
+          }
+        },
+        "ulvasen-4": {
+          "title": {
+            "text": "Ulvåsen 4",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:ulvasen"
+            ]
+          },
+          "body": {
+            "text": "The first crag you come to, and here you avoid the swamp.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:ulvasen"
+            ]
+          }
+        },
+        "ulvasen-mer-at-hoger": {
+          "title": {
+            "text": "Ulvåsen further to the right",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:ulvasen"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:ulvasen"
+            ]
+          }
+        }
+      },
+      "routes": {
+        "ulvasen-led-1": {
+          "description": {
+            "text": "The crack furthest left. Well protected if you have some extra Camalot 2-3 or similar. Easy for its grade",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:ulvasen"
+            ]
+          }
+        },
+        "ulvasen-led-2": {
+          "description": {
+            "text": "The crack next door. Goes past a tree.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:ulvasen"
+            ]
+          }
+        },
+        "ulvasen-led-3": {
+          "description": {
+            "text": "Starts under the roof.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:ulvasen"
+            ]
+          }
+        },
+        "ulvasen-led-4": {
+          "description": {
+            "text": "Arete left of First Aid.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:ulvasen"
+            ]
+          }
+        },
+        "ulvasen-led-5": {
+          "description": {
+            "text": "The very thin crack right of Adduktur and left of Neverest.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:ulvasen"
+            ]
+          }
+        },
+        "ulvasen-led-6": {
+          "description": {
+            "text": "Steep dihedral with nice hand jams. Well protected, ideally with 2-3 Camalot #2.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:ulvasen"
+            ]
+          }
+        },
+        "ulvasen-led-14": {
+          "description": {
+            "text": "Right-leaning \"staircase\".",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:ulvasen"
+            ]
+          }
+        },
+        "ulvasen-led-17": {
+          "description": {
+            "text": "Crack left of Medusa.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:ulvasen"
+            ]
+          }
+        },
+        "ulvasen-led-18": {
+          "description": {
+            "text": "Crack number 2.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:ulvasen"
+            ]
+          }
+        },
+        "ulvasen-led-19": {
+          "description": {
+            "text": "A really nice finger crack. Consistent and well protected.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:ulvasen"
+            ]
+          }
+        },
+        "ulvasen-led-25": {
+          "description": {
+            "text": "Starts in the niche but transitions into the crack on the left side of the beautiful slab, aim for a block that looks like a fang, about 1½ meters big. Varied and surprisingly consistent climbing.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:ulvasen"
+            ]
+          }
+        },
+        "ulvasen-led-29": {
+          "description": {
+            "text": "Striking line along the arete. Very strenuous.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:ulvasen"
+            ]
+          }
+        },
+        "ulvasen-led-30": {
+          "description": {
+            "text": "Offwidth.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:ulvasen"
+            ]
+          }
+        },
+        "ulvasen-led-32": {
+          "description": {
+            "text": "Varied and exciting line on the left edge of the crag.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:ulvasen"
+            ]
+          }
+        },
+        "ulvasen-led-36": {
+          "description": {
+            "text": "Starts a bit tricky and broken, then excellent hand jams.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:ulvasen"
+            ]
+          }
+        },
+        "ulvasen-led-37": {
+          "description": {
+            "text": "Starts in an overhang, traverse out right, follow the loose flake up, traverse left in the horizontal crack, and then up towards the tree. Probably easy free grade.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:ulvasen"
+            ]
+          }
+        }
+      }
+    }
   }
 }

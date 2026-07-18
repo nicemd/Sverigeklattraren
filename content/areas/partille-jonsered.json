@@ -69,5 +69,74 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "3–4 steep icefalls, 8–12 m high, WI4–WI6, M?. There are also another couple of mixed/dry-tooling lines to be done. The crag is north-facing and the ice lasts a long time. Vägverket has kindly installed bolts at the top of the easternmost routes; above the others, trees are strategically positioned for top-roping and abseiling. The crag and ice are lit by streetlights, so evening climbing is a doddle without a headtorch.",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:partille-jonsered"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "General",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:partille-jonsered"
+            ]
+          },
+          "body": {
+            "text": "3–4 steep icefalls, 8–12 m high, WI4–WI6, M?. There are also a couple more mixed/dry-tooling lines to be done. The crag is north-facing and the ice lasts a long time. The Swedish Road Administration has kindly installed bolts at the top of the easternmost routes; at the others, trees are conveniently positioned for top-roping and abseiling. The crag and ice are illuminated by street lighting, so evening climbing is a doddle without a headtorch.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:partille-jonsered"
+            ]
+          }
+        },
+        "vagbeskrivning": {
+          "title": {
+            "text": "Directions",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:partille-jonsered"
+            ]
+          },
+          "body": {
+            "text": "Take the E20 east towards Lerum. Turn off towards Jonsered; the ice is on the crag directly ahead as you leave the motorway. Park on Stärteredsvägen or Länsmansvägen.\n\nFrom left: Intenät, unnamed, unnamed, WWW, unnamed\n\nIntenät, approx. 8 m, WI4, first ascent Stefan Weddmark 20110216\n\nWWW - Wordld Wide Wedd, approx. 12 m, WI4, first ascent Stefan Weddmark 20110216",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:partille-jonsered"
+            ]
+          }
+        },
+        "access": {
+          "title": {
+            "text": "Access",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:partille-jonsered"
+            ]
+          },
+          "body": {
+            "text": "No known access issues\n\n--Bultfeber 18 February 2011 at 13.02 (CET)",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:partille-jonsered"
+            ]
+          }
+        }
+      },
+      "routes": {}
+    }
   }
 }

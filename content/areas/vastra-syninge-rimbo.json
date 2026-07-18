@@ -776,5 +776,557 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "=General= Västra Syninge, along with Jägarhyddan and Norrtjära, is the most developed bouldering area in Roslagen. =Directions= Västra Syninge is located 9 km east of Rimbo, take road 77 towards Finsta (bus 625 from Danderyds sjukhus to Finsta station), then turn left towards Södertjära, travel just over 1 km to the sign for V Syninge on the right. Drive 100 m and park in the clearing on the left. The blocs are lined up down towards the field; Stenkyrkan is visible directly from the road, Hasselblocket is 30 m beyond that and Häggsten a further 200 m on. A path runs through the forest to the left of the field. =Sectors=",
+        "method": "llm",
+        "model": "gpt-4o-mini",
+        "sourceIds": [
+          "legacy:vastra-syninge-rimbo"
+        ]
+      },
+      "sections": {
+        "uppvarmningsblocket": {
+          "title": {
+            "text": "Warm-up Boulder",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:vastra-syninge-rimbo"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:vastra-syninge-rimbo"
+            ]
+          }
+        },
+        "laga-skogsblocket": {
+          "title": {
+            "text": "Low Forest Boulder",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:vastra-syninge-rimbo"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:vastra-syninge-rimbo"
+            ]
+          }
+        },
+        "stenkyrkan": {
+          "title": {
+            "text": "Stone Church",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:vastra-syninge-rimbo"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:vastra-syninge-rimbo"
+            ]
+          }
+        },
+        "ekblocket": {
+          "title": {
+            "text": "Oak Boulder",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:vastra-syninge-rimbo"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:vastra-syninge-rimbo"
+            ]
+          }
+        },
+        "hasselblocket": {
+          "title": {
+            "text": "Hazel Boulder",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:vastra-syninge-rimbo"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:vastra-syninge-rimbo"
+            ]
+          }
+        },
+        "skogsblocket": {
+          "title": {
+            "text": "Forest Boulder",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:vastra-syninge-rimbo"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:vastra-syninge-rimbo"
+            ]
+          }
+        },
+        "haggsten": {
+          "title": {
+            "text": "Häggsten",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:vastra-syninge-rimbo"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:vastra-syninge-rimbo"
+            ]
+          }
+        }
+      },
+      "routes": {
+        "vastra-syninge-rimbo-problem-1": {
+          "description": {
+            "text": "Low start, crimp rails + undercling, catch ledge, continue to the edge",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:vastra-syninge-rimbo"
+            ]
+          }
+        },
+        "vastra-syninge-rimbo-problem-2": {
+          "description": {
+            "text": "Match start, pull up to the left edge and continue upwards",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:vastra-syninge-rimbo"
+            ]
+          }
+        },
+        "vastra-syninge-rimbo-problem-3": {
+          "description": {
+            "text": "Traverse left to right, mantle the edge",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:vastra-syninge-rimbo"
+            ]
+          }
+        },
+        "vastra-syninge-rimbo-problem-4": {
+          "description": {
+            "text": "Traverse right to left, up over the edge",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:vastra-syninge-rimbo"
+            ]
+          }
+        },
+        "vastra-syninge-rimbo-problem-5": {
+          "description": {
+            "text": "Traverse left to right starting from the cave, mantle the edge",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:vastra-syninge-rimbo"
+            ]
+          }
+        },
+        "vastra-syninge-rimbo-problem-7": {
+          "description": {
+            "text": "Start like Höstreflex, traverse right to left, finish like Midsommarnattsdröm",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:vastra-syninge-rimbo"
+            ]
+          }
+        },
+        "vastra-syninge-rimbo-problem-8": {
+          "description": {
+            "text": "Up over a small bulge",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:vastra-syninge-rimbo"
+            ]
+          }
+        },
+        "vastra-syninge-rimbo-problem-9": {
+          "description": {
+            "text": "Start like Dagsmeja, then continue like Frostnupen, without using the ledge to the left",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:vastra-syninge-rimbo"
+            ]
+          }
+        },
+        "vastra-syninge-rimbo-problem-10": {
+          "description": {
+            "text": "Start like Vårspegling, traverse the crack under Höstreflex right to left, finish like Förbigåendet",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:vastra-syninge-rimbo"
+            ]
+          }
+        },
+        "vastra-syninge-rimbo-problem-12": {
+          "description": {
+            "text": "Straight up over the highest part of the block",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:vastra-syninge-rimbo"
+            ]
+          }
+        },
+        "vastra-syninge-rimbo-problem-13": {
+          "description": {
+            "text": "The high one to the right of Midsommarhighball",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:vastra-syninge-rimbo"
+            ]
+          }
+        },
+        "vastra-syninge-rimbo-problem-14": {
+          "description": {
+            "text": "Start from the right edge, traverse left to right diagonally upwards",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:vastra-syninge-rimbo"
+            ]
+          }
+        },
+        "vastra-syninge-rimbo-problem-15": {
+          "description": {
+            "text": "Swat into the cave",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:vastra-syninge-rimbo"
+            ]
+          }
+        },
+        "vastra-syninge-rimbo-problem-16": {
+          "description": {
+            "text": "Left edge up",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:vastra-syninge-rimbo"
+            ]
+          }
+        },
+        "vastra-syninge-rimbo-problem-17": {
+          "description": {
+            "text": "Marked hold right, up to the left",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:vastra-syninge-rimbo"
+            ]
+          }
+        },
+        "vastra-syninge-rimbo-problem-18": {
+          "description": {
+            "text": "Start on a clear structure in the middle of the block, up to the edge",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:vastra-syninge-rimbo"
+            ]
+          }
+        },
+        "vastra-syninge-rimbo-problem-19": {
+          "description": {
+            "text": "Up the right side of the block",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:vastra-syninge-rimbo"
+            ]
+          }
+        },
+        "vastra-syninge-rimbo-problem-20": {
+          "description": {
+            "text": "Start on crimps, pull up to the edge",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:vastra-syninge-rimbo"
+            ]
+          }
+        },
+        "vastra-syninge-rimbo-problem-21": {
+          "description": {
+            "text": "The edge to the right of Vildsvinet, straight up",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:vastra-syninge-rimbo"
+            ]
+          }
+        },
+        "vastra-syninge-rimbo-problem-22": {
+          "description": {
+            "text": "Start at Svinhänget, traverse the edge right to left",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:vastra-syninge-rimbo"
+            ]
+          }
+        },
+        "vastra-syninge-rimbo-problem-23": {
+          "description": {
+            "text": "The block's side facing the field. Traverse the crack from the right edge upward towards the left",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:vastra-syninge-rimbo"
+            ]
+          }
+        },
+        "vastra-syninge-rimbo-problem-24": {
+          "description": {
+            "text": "Front up the block",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:vastra-syninge-rimbo"
+            ]
+          }
+        },
+        "vastra-syninge-rimbo-problem-25": {
+          "description": {
+            "text": "Straight up the swat section in the crack",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:vastra-syninge-rimbo"
+            ]
+          }
+        },
+        "vastra-syninge-rimbo-problem-26": {
+          "description": {
+            "text": "Traverse upwards to the left, up the bulge",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:vastra-syninge-rimbo"
+            ]
+          }
+        },
+        "vastra-syninge-rimbo-problem-27": {
+          "description": {
+            "text": "Straight up the second wall side on crimps",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:vastra-syninge-rimbo"
+            ]
+          }
+        },
+        "vastra-syninge-rimbo-problem-28": {
+          "description": {
+            "text": "Up over the dihedral bulge",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:vastra-syninge-rimbo"
+            ]
+          }
+        },
+        "vastra-syninge-rimbo-problem-29": {
+          "description": {
+            "text": "Between Traversbullen and Hasselkunten",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:vastra-syninge-rimbo"
+            ]
+          }
+        },
+        "vastra-syninge-rimbo-problem-30": {
+          "description": {
+            "text": "Lay back the dihedral",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:vastra-syninge-rimbo"
+            ]
+          }
+        },
+        "vastra-syninge-rimbo-problem-31": {
+          "description": {
+            "text": "Hands in the arête, jam it",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:vastra-syninge-rimbo"
+            ]
+          }
+        },
+        "vastra-syninge-rimbo-problem-32": {
+          "description": {
+            "text": "Up the left edge",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:vastra-syninge-rimbo"
+            ]
+          }
+        },
+        "vastra-syninge-rimbo-problem-33": {
+          "description": {
+            "text": "Up the right edge",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:vastra-syninge-rimbo"
+            ]
+          }
+        },
+        "vastra-syninge-rimbo-problem-34": {
+          "description": {
+            "text": "Start on the left side of the block, traverse up over the edge",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:vastra-syninge-rimbo"
+            ]
+          }
+        },
+        "vastra-syninge-rimbo-problem-35": {
+          "description": {
+            "text": "Start on a clear rail + undercling, up the rails",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:vastra-syninge-rimbo"
+            ]
+          }
+        },
+        "vastra-syninge-rimbo-problem-36": {
+          "description": {
+            "text": "Start at Påskharen, traverse right to left upwards",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:vastra-syninge-rimbo"
+            ]
+          }
+        },
+        "vastra-syninge-rimbo-problem-37": {
+          "description": {
+            "text": "Front the corner of the stone",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:vastra-syninge-rimbo"
+            ]
+          }
+        },
+        "vastra-syninge-rimbo-problem-38": {
+          "description": {
+            "text": "Lying start. Back on the low block, pull to a clear rail, up",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:vastra-syninge-rimbo"
+            ]
+          }
+        },
+        "vastra-syninge-rimbo-problem-39": {
+          "description": {
+            "text": "Pull to the ledge from the pinch, one move to the edge",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:vastra-syninge-rimbo"
+            ]
+          }
+        },
+        "vastra-syninge-rimbo-problem-40": {
+          "description": {
+            "text": "Hang the edge to the left and up",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:vastra-syninge-rimbo"
+            ]
+          }
+        },
+        "vastra-syninge-rimbo-problem-42": {
+          "description": {
+            "text": "Start sitting on a small block, wide with both hands",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:vastra-syninge-rimbo"
+            ]
+          }
+        },
+        "vastra-syninge-rimbo-problem-43": {
+          "description": {
+            "text": "Follow the nice crack upwards to the right",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:vastra-syninge-rimbo"
+            ]
+          }
+        },
+        "vastra-syninge-rimbo-problem-44": {
+          "description": {
+            "text": "Start both hands on marked holds on the left part of the block, to the right to the handle, reach to the pinch, up",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:vastra-syninge-rimbo"
+            ]
+          }
+        }
+      }
+    }
   }
 }

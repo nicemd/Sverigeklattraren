@@ -960,5 +960,421 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "53 documented routes and problems.",
+        "method": "llm",
+        "model": "gpt-4o-mini",
+        "sourceIds": [
+          "legacy:vetteberget"
+        ]
+      },
+      "sections": {
+        "introduktion": {
+          "title": {
+            "text": "Introduction",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:vetteberget"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:vetteberget"
+            ]
+          }
+        },
+        "karaktar": {
+          "title": {
+            "text": "Character",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:vetteberget"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:vetteberget"
+            ]
+          }
+        },
+        "vagbeskrivning": {
+          "title": {
+            "text": "Access Description",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:vetteberget"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:vetteberget"
+            ]
+          }
+        },
+        "access": {
+          "title": {
+            "text": "Access",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:vetteberget"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:vetteberget"
+            ]
+          }
+        },
+        "leder": {
+          "title": {
+            "text": "Routes",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:vetteberget"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:vetteberget"
+            ]
+          }
+        },
+        "stora-vaggen": {
+          "title": {
+            "text": "The Big Wall",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:vetteberget"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:vetteberget"
+            ]
+          }
+        },
+        "gamhyllan": {
+          "title": {
+            "text": "The Old Shelf",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:vetteberget"
+            ]
+          },
+          "body": {
+            "text": "Follow a ramp that angles up to the right to reach The Old Shelf. The ramp is located far left on the crag between Gamkanten and Fingrarna I Syltburken.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:vetteberget"
+            ]
+          }
+        },
+        "toppvaggen": {
+          "title": {
+            "text": "Top Wall",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:vetteberget"
+            ]
+          },
+          "body": {
+            "text": "A 10-15 metre high wall located at the summit of The Big Wall.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:vetteberget"
+            ]
+          }
+        },
+        "zoo-vaggen": {
+          "title": {
+            "text": "Zoo Wall",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:vetteberget"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:vetteberget"
+            ]
+          }
+        },
+        "vansternave-vaggen": {
+          "title": {
+            "text": "Left Fist Wall",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:vetteberget"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:vetteberget"
+            ]
+          }
+        },
+        "sumpvaggen": {
+          "title": {
+            "text": "The Swamp Wall",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:vetteberget"
+            ]
+          },
+          "body": {
+            "text": "A ten-metre high wall located behind and above the Left Fist Wall.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:vetteberget"
+            ]
+          }
+        },
+        "pinnackelvaggen": {
+          "title": {
+            "text": "The Pinnacle Wall",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:vetteberget"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:vetteberget"
+            ]
+          }
+        },
+        "husvagnsvaggen": {
+          "title": {
+            "text": "The Caravan Wall",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:vetteberget"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:vetteberget"
+            ]
+          }
+        },
+        "traktorvaggen": {
+          "title": {
+            "text": "The Tractor Wall",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:vetteberget"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:vetteberget"
+            ]
+          }
+        },
+        "klyftan": {
+          "title": {
+            "text": "The Crevice",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:vetteberget"
+            ]
+          },
+          "body": {
+            "text": "Several routes climbed by Henrik Sjöqvist and Andreas Holm.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:vetteberget"
+            ]
+          }
+        }
+      },
+      "routes": {
+        "vetteberget-led-1": {
+          "description": {
+            "text": "Arete furthest left on the crag.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:vetteberget"
+            ]
+          }
+        },
+        "vetteberget-led-2": {
+          "description": {
+            "text": "Starts above the previous route.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:vetteberget"
+            ]
+          }
+        },
+        "vetteberget-led-3": {
+          "description": {
+            "text": "Narrow but distinct line up to Gamhyllan, about 20 meters left of Konstnären. A beautiful line on reddish granite through a water-polished overhang. Easy up to the overhang, hard through it. The crack offers delicate and technically desperate climbing. Well protected.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:vetteberget"
+            ]
+          }
+        },
+        "vetteberget-led-6": {
+          "description": {
+            "text": "A LARGE route with varying quality, but never dull and absolutely interesting all the way. Looks deceptively easy at the start. Your thoughts on this route say a lot about what you’re made of.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:vetteberget"
+            ]
+          }
+        },
+        "vetteberget-led-7": {
+          "description": {
+            "text": "Starts on a ledge.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:vetteberget"
+            ]
+          }
+        },
+        "vetteberget-led-8": {
+          "description": {
+            "text": "Starts on a ledge.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:vetteberget"
+            ]
+          }
+        },
+        "vetteberget-led-10": {
+          "description": {
+            "text": "The clear arch/crack to the right of 1000 kg tvätt.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:vetteberget"
+            ]
+          }
+        },
+        "vetteberget-led-11": {
+          "description": {
+            "text": "The left-leaning groove to the left of Blood on the Tracks.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:vetteberget"
+            ]
+          }
+        },
+        "vetteberget-led-27": {
+          "description": {
+            "text": "On the left wall between El camino... and En knuten vänsternäve. Laybacks and foot jams. Quite steep.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:vetteberget"
+            ]
+          }
+        },
+        "vetteberget-led-29": {
+          "description": {
+            "text": "Easier (6) with an entry like the next route.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:vetteberget"
+            ]
+          }
+        },
+        "vetteberget-led-36": {
+          "description": {
+            "text": "To the left of Råger mår leads a ramp formation up to the left for an exit over a short wall. Strange sounds from the holds, but decent protection in the middle.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:vetteberget"
+            ]
+          }
+        },
+        "vetteberget-led-48": {
+          "description": {
+            "text": "When walking on the gravel road from the café, this wall is on the right side, about 10 meters from the road. The lower part of the wall has three water-polished half-tubes. This route follows the left formation, starting with a clear crack in a bowl. Follow the crack systems to the top!",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:vetteberget"
+            ]
+          }
+        },
+        "vetteberget-led-49": {
+          "description": {
+            "text": "The route starts in the middle half-tube and continues up the corner to the top. Nice well-protected climbing.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:vetteberget"
+            ]
+          }
+        }
+      }
+    }
   }
 }

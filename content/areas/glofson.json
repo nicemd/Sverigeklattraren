@@ -89,5 +89,74 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "An unclimbed and insignificant LITTLE crag on Glofsön in Lake Vänern, just outside Karlstad. On the north side of the island there is a fairly substantial concrete jetty of unknown purpose. This jetty is probably the best place to dock a pirate ship. Very beautiful scenery on the island.",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:glofson"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "General",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:glofson"
+            ]
+          },
+          "body": {
+            "text": "An unclimbed and unremarkable SMALL crag on Glofsön in Vänern, just outside Karlstad. On the northern side of the island there is a fairly large concrete jetty of unknown purpose. This jetty is probably the best place to dock a pirate ship. The island has very beautiful scenery.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:glofson"
+            ]
+          }
+        },
+        "vagbeskrivning": {
+          "title": {
+            "text": "Directions",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:glofson"
+            ]
+          },
+          "body": {
+            "text": "See map. Make your way to Alsters badplats on the other side of the bay. Take a boat or swim the hundred or so metres to the island.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:glofson"
+            ]
+          }
+        },
+        "beskrivning": {
+          "title": {
+            "text": "Description",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:glofson"
+            ]
+          },
+          "body": {
+            "text": "Glofsön lies in Vänern, off Alster strandbad, between the mainland and Jäverön. The island has clearly visible crags on its western side, perhaps two to three metres high. The crags often run along the water and can therefore be climbed without the risk of dangerous falls. There is quite a lot of vegetation in places.\n\nUnfortunately, I cannot provide any further details, but I may make it a project this summer to put together a more descriptive guide.\n\nupdate 15/2 2009\n\nI checked this place out at the weekend. It had been cold for a while and the ice was thick enough to walk across the sound.\n\nLike most crags around Karlstad, the place is unfortunately fairly mediocre. A shame, as in summer it would have been perfect for swimming across the sound from the popular Alsters badplats for a quick session. I did not have time to walk around the whole island, but I do not think it has much more to offer than the little I saw. A slightly overhanging section above the water may perhaps offer a problem worth the effort. However, I do not know what the landing is like, as the ice was too thick.\n\nSee photos.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:glofson"
+            ]
+          }
+        }
+      },
+      "routes": {}
+    }
   }
 }

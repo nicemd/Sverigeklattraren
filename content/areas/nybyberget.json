@@ -45,5 +45,56 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "Small crag in Torshälla.",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:nybyberget"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "General",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:nybyberget"
+            ]
+          },
+          "body": {
+            "text": "A small crag in Torshälla.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:nybyberget"
+            ]
+          }
+        },
+        "beskrivning": {
+          "title": {
+            "text": "Description",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:nybyberget"
+            ]
+          },
+          "body": {
+            "text": "A new guidebook covering the crags of Södermanland was published in November 2006. Order from www.dangerzone.se (http://www.dangerzone.se)",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:nybyberget"
+            ]
+          }
+        }
+      },
+      "routes": {}
+    }
   }
 }

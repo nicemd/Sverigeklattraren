@@ -60,5 +60,92 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "A very fine, overhanging crag near the junction of Road 51 and Rejmyrevägen. The crag is also known as Vistingeklippan.",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:rejmyrekorset"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "Overview",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:rejmyrekorset"
+            ]
+          },
+          "body": {
+            "text": "A very fine, overhanging crag near the junction of Road 51 and Rejmyrevägen. The crag is also known as Vistingeklippan.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:rejmyrekorset"
+            ]
+          }
+        },
+        "klattringen": {
+          "title": {
+            "text": "Climbing",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:rejmyrekorset"
+            ]
+          },
+          "body": {
+            "text": "A crag with a number of hard routes (6a–7b+) and one or two in the 5a–6a range. Most of these routes were established by Johan Luhr.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:rejmyrekorset"
+            ]
+          }
+        },
+        "vagbeskrivning": {
+          "title": {
+            "text": "Directions",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:rejmyrekorset"
+            ]
+          },
+          "body": {
+            "text": "Take the road towards Rejmyre, then immediately turn right again into a farm and follow the narrow old road out between the fields.\n\nPark so that you do not obstruct the farmer's access to and from the field; this should be fine.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:rejmyrekorset"
+            ]
+          }
+        },
+        "lankar": {
+          "title": {
+            "text": "Links",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:rejmyrekorset"
+            ]
+          },
+          "body": {
+            "text": "Guide provided by Linköpings klätterklubb (http://linkopingsklatterklubb.se/index.php/forare.html).",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:rejmyrekorset"
+            ]
+          }
+        }
+      },
+      "routes": {}
+    }
   }
 }

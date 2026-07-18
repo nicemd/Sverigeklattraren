@@ -28,5 +28,19 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "Stennäset, within cycling distance from Falun, is currently the most developed bouldering area in the county, boasting just over 600 problems. From Falun, take road 80 towards Rättvik. After about 2km, turn right onto a dirt road just before the parking pocket. Drive another 200m and park at Field 1. To reach Field 2, continue about 1.5km on road 80 and take the last dirt road on the left before the area of Bergsgården. Cross the railway (which has barriers) and continue a few hundred meters until you catch a glimpse of the Block sector Secretgarden on your left.",
+        "method": "llm",
+        "model": "gpt-4o-mini",
+        "sourceIds": [
+          "legacy:stennaset-falun"
+        ]
+      },
+      "sections": {},
+      "routes": {}
+    }
   }
 }

@@ -38,5 +38,19 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "Guide: http://www.klatterverket.se/bloc/sdk.html We have permission to post this guide on the Swedish guide. Also check out Kraftsten, which is not far from Strömmadalsklippan (same parking).",
+        "method": "llm",
+        "model": "gpt-4o-mini",
+        "sourceIds": [
+          "legacy:strommadalsklippan"
+        ]
+      },
+      "sections": {},
+      "routes": {}
+    }
   }
 }

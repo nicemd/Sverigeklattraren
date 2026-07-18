@@ -103,5 +103,105 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "A handful of mediocre, easy vertical walls... and, as a welcome contrast, Karlstad’s steepest and hardest roof.",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:skutberget"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "Overview",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:skutberget"
+            ]
+          },
+          "body": {
+            "text": "A handful of mediocre, easy vertical walls... contrasted nicely by Karlstad's steepest and hardest roof.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:skutberget"
+            ]
+          }
+        },
+        "vagbeskrivning": {
+          "title": {
+            "text": "Directions",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:skutberget"
+            ]
+          },
+          "body": {
+            "text": "Drive from Karlstad towards Skutberget and turn onto Bomstadvägen. Follow this for just under a kilometre? On the right, a running trail meets the road, and you can also turn down to the left towards caravan parking and the like. Follow the running trail/floodlit trail. The coordinates are only approximate. Walk onto the floodlit trail and follow it for a few hundred metres, passing at least one holiday cottage on the right and one on the left. Look out for signs indicating a cycle trail. When you find one, turn right onto the cycle trail and follow it for 100 metres; you should begin to make out crags in the terrain to the left. Leave the cycle trail and walk uphill for 50–100 metres, and you should soon find what you are looking for.\n\nIt is unclear where you should park. Use common sense and do not disrupt other outdoor users. Perhaps to the left of where you join the trail?",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:skutberget"
+            ]
+          }
+        },
+        "problem": {
+          "title": {
+            "text": "Problems",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:skutberget"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:skutberget"
+            ]
+          }
+        }
+      },
+      "routes": {
+        "skutberget-problem-1": {
+          "description": {
+            "text": "Hanging start on the rounded flowstone formation at the lip in front of the roof. Finish straight up, reached by mantling or stre-e-etching.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:skutberget"
+            ]
+          }
+        },
+        "skutberget-problem-2": {
+          "description": {
+            "text": "Sit start on good holds at the back of the roof. The rock formation on the left may be used. Use it to lock off and work your way straight out through the roof. Finish with Mantla den här Johan Lovén. Suits taller climbers. The grade is extremely uncertain due to the unusual (but very enjoyable) climbing.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:skutberget"
+            ]
+          }
+        },
+        "skutberget-problem-3": {
+          "description": {
+            "text": "Neither the right nor the left rock formation may be used. Only the roof and this “free-standing” block are in. The first move is manageable, but then it gets very hard. A possible solution may be to make a lo-o-ong reach to a terrible crimp without any respite? Innovative beta needed to make it go at all?",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:skutberget"
+            ]
+          }
+        }
+      }
+    }
   }
 }

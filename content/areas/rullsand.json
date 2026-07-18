@@ -124,5 +124,89 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "=Sectors=",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:rullsand"
+        ]
+      },
+      "sections": {
+        "brandablocket": {
+          "title": {
+            "text": "Brändablocket",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:rullsand"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:rullsand"
+            ]
+          }
+        }
+      },
+      "routes": {
+        "rullsand-problem-1": {
+          "description": {
+            "text": "Sit-start on the jug on the face away from the road. Climb straight up to a jug, then mantle out.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:rullsand"
+            ]
+          }
+        },
+        "rullsand-problem-2": {
+          "description": {
+            "text": "Start on the same hold as Gnistan, then move left to a crimp and finish as for Gnistan.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:rullsand"
+            ]
+          }
+        },
+        "rullsand-problem-3": {
+          "description": {
+            "text": "Start on the same hold as Gnistan, move left and finish up the arete on the corner above the stone on the ground.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:rullsand"
+            ]
+          }
+        },
+        "rullsand-problem-4": {
+          "description": {
+            "text": "Start on the same hold as Gnistan, move out to the crimp on the left, then heel-hook the starting hold and finish with a sloping top-out above.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:rullsand"
+            ]
+          }
+        },
+        "rullsand-problem-5": {
+          "description": {
+            "text": "On the right-hand, road-facing side of the boulder. Sit-start with your legs beneath the overhang and finish above it.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:rullsand"
+            ]
+          }
+        }
+      }
+    }
   }
 }

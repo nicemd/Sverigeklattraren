@@ -28,5 +28,19 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "A seldom-visited area north of Uppsala. Great development potential but sharp rock and a long drive. =Directions= Take road 272 towards Gysinge. Turn off towards Åkerlänna and drive through it. Turn towards Harbo and keep right at the Y-junction where the tarmacked road turns to gravel. Then turn towards Fastarbo. Myggstenen is signposted about 250m before a turning circle.",
+        "method": "llm",
+        "model": "gpt-4o-mini",
+        "sourceIds": [
+          "legacy:uppsalamyggstenen"
+        ]
+      },
+      "sections": {},
+      "routes": {}
+    }
   }
 }

@@ -93,5 +93,164 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "0 documented routes and problems.",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:funasdalen"
+        ]
+      },
+      "sections": {
+        "aktuella-isforhallanden-funasdalen": {
+          "title": {
+            "text": "Current ice conditions in Funäsdalen",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:funasdalen"
+            ]
+          },
+          "body": {
+            "text": "Please report the conditions if you have climbed in the area.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:funasdalen"
+            ]
+          }
+        },
+        "funasdalsberget-kavan": {
+          "title": {
+            "text": "Funäsdalsberget/Kåvan",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:funasdalen"
+            ]
+          },
+          "body": {
+            "text": "Several major ice climbs up to 120m! WI3 and above.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:funasdalen"
+            ]
+          }
+        },
+        "funasdalsberget-framsidan": {
+          "title": {
+            "text": "Funäsdalsberget/Framsidan",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:funasdalen"
+            ]
+          },
+          "body": {
+            "text": "Long, easy ice and a \"Via Feratta\".",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:funasdalen"
+            ]
+          }
+        },
+        "tannas": {
+          "title": {
+            "text": "Tännäs",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:funasdalen"
+            ]
+          },
+          "body": {
+            "text": "Good top-roping and beginner ice. WI2-WI4, 15m",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:funasdalen"
+            ]
+          }
+        },
+        "ulvknatten": {
+          "title": {
+            "text": "Ulvknatten",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:funasdalen"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:funasdalen"
+            ]
+          }
+        },
+        "tanndalen": {
+          "title": {
+            "text": "Tänndalen",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:funasdalen"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:funasdalen"
+            ]
+          }
+        },
+        "ramundberget": {
+          "title": {
+            "text": "Ramundberget",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:funasdalen"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:funasdalen"
+            ]
+          }
+        },
+        "storskarven": {
+          "title": {
+            "text": "Storskarven",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:funasdalen"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:funasdalen"
+            ]
+          }
+        }
+      },
+      "routes": {}
+    }
   }
 }

@@ -1762,5 +1762,953 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "=General= The first area to be developed in Uppsala. Mostly low boulders with sharp rock, though there are a few problems that make it worth the trip. Nåsten Enköpingsvägen is definitely worth a visit. =Directions= The easiest way to get here is by bike. Follow the old railway embankment east from Flogsta and pass through the wooded area beyond Håga village. Follow the edge of the woods on the left to a turning area – Nåsten is spread out along the road. To reach Nåsten Enköpingsvägen, continue along the railway embankment through the next wooded area and past a house on the right. The boulders are then beside the embankment on the left. =Sectors=",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:nasten-bimbo"
+        ]
+      },
+      "sections": {
+        "hygget": {
+          "title": {
+            "text": "Hygget",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:nasten-bimbo"
+            ]
+          },
+          "body": {
+            "text": "The part of Nåsten that begins at the turning area and extends a few hundred metres south.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:nasten-bimbo"
+            ]
+          }
+        },
+        "kaoset": {
+          "title": {
+            "text": "Kaoset",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:nasten-bimbo"
+            ]
+          },
+          "body": {
+            "text": "Follow the gravel road south from the turning area until it begins to bend right into the woods. Turn right here and head uphill into the woods, where you should spot an enormous boulder. This is Nåsten Kaoset.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:nasten-bimbo"
+            ]
+          }
+        },
+        "enkopingsvagen": {
+          "title": {
+            "text": "Enköpingsvägen",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:nasten-bimbo"
+            ]
+          },
+          "body": {
+            "text": "This sector consists of only four boulders, but several classic problems can be found here. If arriving by car on Route 55, turn left towards the quarry and park just inside the gate. Then walk about a hundred metres back east along the old railway embankment.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:nasten-bimbo"
+            ]
+          }
+        },
+        "bitigast-i-nasten": {
+          "title": {
+            "text": "Bitigast i Nåsten",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:nasten-bimbo"
+            ]
+          },
+          "body": {
+            "text": "The two boulders are in the clearing east of the Enköpingsvägen sector, south of the old railway embankment. The furthest boulder is clearly visible from the embankment when level with the red barn on the north side of the road. The rock quality is terrible, but some of the problems are worth climbing if you are prepared to sacrifice a little skin. Please help refine the grades!",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:nasten-bimbo"
+            ]
+          }
+        },
+        "hygget-plan-1": {
+          "title": {
+            "text": "Hygget topo 1",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:nasten-bimbo"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:nasten-bimbo"
+            ]
+          }
+        },
+        "hygget-plan-2": {
+          "title": {
+            "text": "Hygget topo 2",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:nasten-bimbo"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:nasten-bimbo"
+            ]
+          }
+        },
+        "hygget-plan-3": {
+          "title": {
+            "text": "Hygget topo 3",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:nasten-bimbo"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:nasten-bimbo"
+            ]
+          }
+        },
+        "hygget-plan-4": {
+          "title": {
+            "text": "Hygget topo 4",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:nasten-bimbo"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:nasten-bimbo"
+            ]
+          }
+        },
+        "hygget-plan-5": {
+          "title": {
+            "text": "Hygget topo 5",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:nasten-bimbo"
+            ]
+          },
+          "body": {
+            "text": "Walk south from the turning area and turn left uphill shortly before Kaoset. At the second obvious opportunity, turn right off the path into the woods; this is quite a way along the path. Head for the first oak you see, then continue towards the large pine furthest south. There is scope to brush up a few more problems in the area. Approximate coordinates: N 59*49.440' E 017*32.940'.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:nasten-bimbo"
+            ]
+          }
+        }
+      },
+      "routes": {
+        "nasten-bimbo-problem-1": {
+          "description": {
+            "text": "On the Färjesång boulder, just before the large boulder on the hill. Climb the sloping, overhanging arete; sit start on the left by the stump and finish right.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:nasten-bimbo"
+            ]
+          }
+        },
+        "nasten-bimbo-problem-2": {
+          "description": {
+            "text": "The back of the Färjesång boulder. From a sloping edge and a hold in the crack, catch up right to the ledge.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:nasten-bimbo"
+            ]
+          }
+        },
+        "nasten-bimbo-problem-3": {
+          "description": {
+            "text": "The back of the Färjesång boulder. From a sloping edge and a hold in the crack, catch straight up.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:nasten-bimbo"
+            ]
+          }
+        },
+        "nasten-bimbo-problem-4": {
+          "description": {
+            "text": "Left of Vindflöjeln.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:nasten-bimbo"
+            ]
+          }
+        },
+        "nasten-bimbo-problem-5": {
+          "description": {
+            "text": "The small boulders behind the wall project. The right-hand boulder, right-hand arete.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:nasten-bimbo"
+            ]
+          }
+        },
+        "nasten-bimbo-problem-6": {
+          "description": {
+            "text": "Hand-traverse the arete right of the wall project.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:nasten-bimbo"
+            ]
+          }
+        },
+        "nasten-bimbo-problem-7": {
+          "description": {
+            "text": "Fridge start by the arete, then straight up.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:nasten-bimbo"
+            ]
+          }
+        },
+        "nasten-bimbo-problem-8": {
+          "description": {
+            "text": "On the same boulder as The Spanish Pilgrim. Straight up the middle of the large face to the highest point. One of Uppsala's best highball problems. Pity anyone who falls from the top!!",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:nasten-bimbo"
+            ]
+          }
+        },
+        "nasten-bimbo-problem-9": {
+          "description": {
+            "text": "The left-hand part of the face beside \"Tills friktionen skiljer er åt\".",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:nasten-bimbo"
+            ]
+          }
+        },
+        "nasten-bimbo-problem-10": {
+          "description": {
+            "text": "On a boulder deeper into the woods. Follow the ridge for 50m beyond the large boulder. Start on the jug and continue to the sloper.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:nasten-bimbo"
+            ]
+          }
+        },
+        "nasten-bimbo-problem-11": {
+          "description": {
+            "text": "The first boulder along the railway embankment. Sit start at the arete facing the road, climb left around the arete and finish on the face to the left.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:nasten-bimbo"
+            ]
+          }
+        },
+        "nasten-bimbo-problem-12": {
+          "description": {
+            "text": "Sit start in the middle of the overhang and climb up right.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:nasten-bimbo"
+            ]
+          }
+        },
+        "nasten-bimbo-problem-13": {
+          "description": {
+            "text": "Straight up on slopers by World's Strongest Man.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:nasten-bimbo"
+            ]
+          }
+        },
+        "nasten-bimbo-problem-14": {
+          "description": {
+            "text": "Sit start right of King Louie beneath the roof and climb straight up without using the enormous jug.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:nasten-bimbo"
+            ]
+          }
+        },
+        "nasten-bimbo-problem-15": {
+          "description": {
+            "text": "A small topo showing where to find the problems.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:nasten-bimbo"
+            ]
+          }
+        },
+        "nasten-bimbo-problem-16": {
+          "description": {
+            "text": "Start with a sidepull on the left and the edge on the right.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:nasten-bimbo"
+            ]
+          }
+        },
+        "nasten-bimbo-problem-17": {
+          "description": {
+            "text": "Start with the edge on the left and, optionally, the sidepull far out right.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:nasten-bimbo"
+            ]
+          }
+        },
+        "nasten-bimbo-problem-18": {
+          "description": {
+            "text": "Start with your left hand by the triangular \"hole\". Move up right and mantle out.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:nasten-bimbo"
+            ]
+          }
+        },
+        "nasten-bimbo-problem-19": {
+          "description": {
+            "text": "Sharp but good. It would have earned a star if it did not eat skin.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:nasten-bimbo"
+            ]
+          }
+        },
+        "nasten-bimbo-problem-20": {
+          "description": {
+            "text": "For the starred version, the large edge high on the left is out. The grade is the same however it is climbed.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:nasten-bimbo"
+            ]
+          }
+        },
+        "nasten-bimbo-problem-21": {
+          "description": {
+            "text": "Straight up to the highest point of the face.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:nasten-bimbo"
+            ]
+          }
+        },
+        "nasten-bimbo-problem-22": {
+          "description": {
+            "text": "Tricky sit start to a skin-shredding catch. Nearly worth a star, but not quite, mainly because of the rock quality. The stump beneath the problem is also extremely annoying.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:nasten-bimbo"
+            ]
+          }
+        },
+        "nasten-bimbo-problem-23": {
+          "description": {
+            "text": "Climb the vertical \"staircase\" from the large edge at the bottom.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:nasten-bimbo"
+            ]
+          }
+        },
+        "nasten-bimbo-problem-24": {
+          "description": {
+            "text": "Sit start from the stone.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:nasten-bimbo"
+            ]
+          }
+        },
+        "nasten-bimbo-problem-25": {
+          "description": {
+            "text": "Face.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:nasten-bimbo"
+            ]
+          }
+        },
+        "nasten-bimbo-problem-27": {
+          "description": {
+            "text": "Sit start from the stone.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:nasten-bimbo"
+            ]
+          }
+        },
+        "nasten-bimbo-problem-29": {
+          "description": {
+            "text": "Mantle onto the slab (overgrown).",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:nasten-bimbo"
+            ]
+          }
+        },
+        "nasten-bimbo-problem-31": {
+          "description": {
+            "text": "Face. Low start, without the arete.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:nasten-bimbo"
+            ]
+          }
+        },
+        "nasten-bimbo-problem-33": {
+          "description": {
+            "text": "No hands!",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:nasten-bimbo"
+            ]
+          }
+        },
+        "nasten-bimbo-problem-37": {
+          "description": {
+            "text": "Sit start on sidepulls.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:nasten-bimbo"
+            ]
+          }
+        },
+        "nasten-bimbo-problem-39": {
+          "description": {
+            "text": "Sit start from the stone.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:nasten-bimbo"
+            ]
+          }
+        },
+        "nasten-bimbo-problem-41": {
+          "description": {
+            "text": "Face.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:nasten-bimbo"
+            ]
+          }
+        },
+        "nasten-bimbo-problem-42": {
+          "description": {
+            "text": "The boulder with Rikards spricka. Sit start at the right-hand arete; the stone below is in. Climb up left (?).",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:nasten-bimbo"
+            ]
+          }
+        },
+        "nasten-bimbo-problem-43": {
+          "description": {
+            "text": "Face. Start from the ground without the ledge on the right.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:nasten-bimbo"
+            ]
+          }
+        },
+        "nasten-bimbo-problem-47": {
+          "description": {
+            "text": "Start on small sidepulls in the crack.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:nasten-bimbo"
+            ]
+          }
+        },
+        "nasten-bimbo-problem-50": {
+          "description": {
+            "text": "Corner.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:nasten-bimbo"
+            ]
+          }
+        },
+        "nasten-bimbo-problem-51": {
+          "description": {
+            "text": "Straight up the left-hand side of the slab via a two-finger edge in the crack, without the side edges.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:nasten-bimbo"
+            ]
+          }
+        },
+        "nasten-bimbo-problem-52": {
+          "description": {
+            "text": "Sit start on an undercut and a sloper by the low arete.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:nasten-bimbo"
+            ]
+          }
+        },
+        "nasten-bimbo-problem-53": {
+          "description": {
+            "text": "Straight up on large holds.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:nasten-bimbo"
+            ]
+          }
+        },
+        "nasten-bimbo-problem-54": {
+          "description": {
+            "text": "Catch straight up to the lip without the holds on the right.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:nasten-bimbo"
+            ]
+          }
+        },
+        "nasten-bimbo-problem-55": {
+          "description": {
+            "text": "Straight up without the edge on the right.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:nasten-bimbo"
+            ]
+          }
+        },
+        "nasten-bimbo-problem-57": {
+          "description": {
+            "text": "On the slab boulder, sit start at the far right of the long side and traverse all the way left.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:nasten-bimbo"
+            ]
+          }
+        },
+        "nasten-bimbo-problem-59": {
+          "description": {
+            "text": "Climb up right into Manteln.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:nasten-bimbo"
+            ]
+          }
+        },
+        "nasten-bimbo-problem-60": {
+          "description": {
+            "text": "Jump start for shorter climbers.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:nasten-bimbo"
+            ]
+          }
+        },
+        "nasten-bimbo-problem-64": {
+          "description": {
+            "text": "Start on an undercut and a sidepull, then climb straight up to the ledge.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:nasten-bimbo"
+            ]
+          }
+        },
+        "nasten-bimbo-problem-65": {
+          "description": {
+            "text": "Climb the right-hand side of the arete (the left-hand side is 6A).",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:nasten-bimbo"
+            ]
+          }
+        },
+        "nasten-bimbo-problem-66": {
+          "description": {
+            "text": "The left-hand side is 6B+.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:nasten-bimbo"
+            ]
+          }
+        },
+        "nasten-bimbo-problem-68": {
+          "description": {
+            "text": "Right of the crack.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:nasten-bimbo"
+            ]
+          }
+        },
+        "nasten-bimbo-problem-69": {
+          "description": {
+            "text": "No hands, starting at the arete.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:nasten-bimbo"
+            ]
+          }
+        },
+        "nasten-bimbo-problem-71": {
+          "description": {
+            "text": "The boulder north of the Hästen boulder. Start on holds in the crack, then climb up left. Uppsala's hardest 6C+.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:nasten-bimbo"
+            ]
+          }
+        },
+        "nasten-bimbo-problem-72": {
+          "description": {
+            "text": "Sit start from the rock.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:nasten-bimbo"
+            ]
+          }
+        },
+        "nasten-bimbo-problem-73": {
+          "description": {
+            "text": "Climb straight up over the horn.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:nasten-bimbo"
+            ]
+          }
+        },
+        "nasten-bimbo-problem-74": {
+          "description": {
+            "text": "Start at the far left next to the rock, then climb right along the lip to the top.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:nasten-bimbo"
+            ]
+          }
+        },
+        "nasten-bimbo-problem-76": {
+          "description": {
+            "text": "Sit start at the large ledge.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:nasten-bimbo"
+            ]
+          }
+        },
+        "nasten-bimbo-problem-77": {
+          "description": {
+            "text": "Follow the arete to the top.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:nasten-bimbo"
+            ]
+          }
+        },
+        "nasten-bimbo-problem-78": {
+          "description": {
+            "text": "Sit start to the right of the rock on edges, then up onto the large slopers on the arete.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:nasten-bimbo"
+            ]
+          }
+        },
+        "nasten-bimbo-problem-79": {
+          "description": {
+            "text": "Start at the arete and catch straight up.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:nasten-bimbo"
+            ]
+          }
+        },
+        "nasten-bimbo-problem-80": {
+          "description": {
+            "text": "Start on the arete and climb up right along the crack.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:nasten-bimbo"
+            ]
+          }
+        },
+        "nasten-bimbo-problem-82": {
+          "description": {
+            "text": "Start on the sloping ledge, then climb slightly up and right.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:nasten-bimbo"
+            ]
+          }
+        },
+        "nasten-bimbo-problem-84": {
+          "description": {
+            "text": "Left of Köttsaft; catch the ledge from an undercut and pinch.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:nasten-bimbo"
+            ]
+          }
+        },
+        "nasten-bimbo-problem-85": {
+          "description": {
+            "text": "The arete on the large boulder above the Hästen boulder.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:nasten-bimbo"
+            ]
+          }
+        },
+        "nasten-bimbo-problem-86": {
+          "description": {
+            "text": "Start as for Köttsaft, but break out right halfway up to a large hold.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:nasten-bimbo"
+            ]
+          }
+        },
+        "nasten-bimbo-problem-87": {
+          "description": {
+            "text": "Start on an undercut and a sharp edge.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:nasten-bimbo"
+            ]
+          }
+        },
+        "nasten-bimbo-problem-89": {
+          "description": {
+            "text": "Start at the arete and follow the lip up right to the top. (Variant: Start with your left hand on the edge, stand on the ledge and jump up right to the sloper, then mantle, 6A+)",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:nasten-bimbo"
+            ]
+          }
+        },
+        "nasten-bimbo-problem-90": {
+          "description": {
+            "text": "Sit start beneath the roof on the Hästen boulder. Unclimbed?",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:nasten-bimbo"
+            ]
+          }
+        },
+        "nasten-bimbo-problem-91": {
+          "description": {
+            "text": "Start slightly right of the arete and climb up left.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:nasten-bimbo"
+            ]
+          }
+        },
+        "nasten-bimbo-problem-92": {
+          "description": {
+            "text": "Start at the far right of the sloping ledge and traverse left into Mental Kollaps. (Variant: Continue low around the arete and finish up the slopers, 6C)",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:nasten-bimbo"
+            ]
+          }
+        },
+        "nasten-bimbo-problem-93": {
+          "description": {
+            "text": "Jump start to the top and mantle.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:nasten-bimbo"
+            ]
+          }
+        },
+        "nasten-bimbo-problem-94": {
+          "description": {
+            "text": "Start at the arete, then climb up left.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:nasten-bimbo"
+            ]
+          }
+        },
+        "nasten-bimbo-problem-95": {
+          "description": {
+            "text": "Start with your right hand on the edge and your left on the arete, then climb straight up.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:nasten-bimbo"
+            ]
+          }
+        },
+        "nasten-bimbo-problem-97": {
+          "description": {
+            "text": "Wall. Start low by the rock.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:nasten-bimbo"
+            ]
+          }
+        },
+        "nasten-bimbo-problem-99": {
+          "description": {
+            "text": "Traverse right and finish up 41.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:nasten-bimbo"
+            ]
+          }
+        },
+        "nasten-bimbo-problem-101": {
+          "description": {
+            "text": "Roof. Start at the back on the right, follow the lip to the crack and finish straight out over the lip.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:nasten-bimbo"
+            ]
+          }
+        },
+        "nasten-bimbo-problem-102": {
+          "description": {
+            "text": "Roof. Start on the crack in the roof and climb straight out over the lip without using the edge on the right.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:nasten-bimbo"
+            ]
+          }
+        },
+        "nasten-bimbo-problem-103": {
+          "description": {
+            "text": "Standing start at the flake in the faint corner; establish, then catch. A sit start could be added for the strong, but that would raise the grade.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:nasten-bimbo"
+            ]
+          }
+        },
+        "nasten-bimbo-problem-104": {
+          "description": {
+            "text": "The arete right of Brachycera. Keep your body left of the arete.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:nasten-bimbo"
+            ]
+          }
+        },
+        "nasten-bimbo-problem-105": {
+          "description": {
+            "text": "Sit start as for World's strongest, then climb straight up.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:nasten-bimbo"
+            ]
+          }
+        }
+      }
+    }
   }
 }

@@ -1046,5 +1046,623 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "The most beautifully situated area in Uppsala. The best-developed section consists of a few boulders in a meadow. In the woods on the other side of the stream there are around 50–100 boulders and many walls still to be developed. =Directions= Take road 52 towards Sala from Uppsala, turn right in Vänge and follow signs for Fiby urskog. Pass the boulders and park in the signposted car park. =Sectors=",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:fiby"
+        ]
+      },
+      "sections": {
+        "angen": {
+          "title": {
+            "text": "The Meadow",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:fiby"
+            ]
+          },
+          "body": {
+            "text": "The boulders in the meadow are impossible to miss.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:fiby"
+            ]
+          }
+        },
+        "skogen": {
+          "title": {
+            "text": "The Woods",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:fiby"
+            ]
+          },
+          "body": {
+            "text": "Viewed from the boulders in the meadow, the woods on the other side of the stream are packed with boulders. There has been some development here, but even that is poorly documented. There is great potential here for the intrepid.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:fiby"
+            ]
+          }
+        },
+        "nybygget": {
+          "title": {
+            "text": "Nybygget",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:fiby"
+            ]
+          },
+          "body": {
+            "text": "Not actually in Fiby itself. Take road 272 north and turn left towards Jumkil. Keep right after the church and turn left where the road forks. The boulders are in the second copse on the left in the Nybygget area. The tallest and finest lines remain unclimbed.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:fiby"
+            ]
+          }
+        },
+        "agget-och-noshorningen": {
+          "title": {
+            "text": "The Egg and the Rhino",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:fiby"
+            ]
+          },
+          "body": {
+            "text": "The Egg is in the woods behind the shed, halfway between the boulders in the meadow and the car park.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:fiby"
+            ]
+          }
+        }
+      },
+      "routes": {
+        "fiby-problem-1": {
+          "description": {
+            "text": "A couple of metres left of Tottes Hund on the large boulder in the meadow. Start on the obvious broad crimp rail. Uncertain grade: 7B+–C.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:fiby"
+            ]
+          }
+        },
+        "fiby-problem-2": {
+          "description": {
+            "text": "Climb up leftwards.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:fiby"
+            ]
+          }
+        },
+        "fiby-problem-3": {
+          "description": {
+            "text": "Start on small edges and latch the lip.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:fiby"
+            ]
+          }
+        },
+        "fiby-problem-5": {
+          "description": {
+            "text": "Sit start right of the lip and mantle round to the left.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:fiby"
+            ]
+          }
+        },
+        "fiby-problem-8": {
+          "description": {
+            "text": "Follow the arete to the top. 5C from a sit start.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:fiby"
+            ]
+          }
+        },
+        "fiby-problem-9": {
+          "description": {
+            "text": "Wall. Straight up the centre of the wall (6B without the large vertical edge).",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:fiby"
+            ]
+          }
+        },
+        "fiby-problem-13": {
+          "description": {
+            "text": "Sit start at the small overhang.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:fiby"
+            ]
+          }
+        },
+        "fiby-problem-14": {
+          "description": {
+            "text": "Sit start on the right.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:fiby"
+            ]
+          }
+        },
+        "fiby-problem-15": {
+          "description": {
+            "text": "Sit start on the right, climb left to the arete, then up.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:fiby"
+            ]
+          }
+        },
+        "fiby-problem-16": {
+          "description": {
+            "text": "The roof behind Bananbänken. Start using the rock beneath the roof and head straight out left of the horn.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:fiby"
+            ]
+          }
+        },
+        "fiby-problem-17": {
+          "description": {
+            "text": "Roof. Sit start using the rock beneath the roof, then climb straight out on edges.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:fiby"
+            ]
+          }
+        },
+        "fiby-problem-18": {
+          "description": {
+            "text": "Straight up left of the horn.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:fiby"
+            ]
+          }
+        },
+        "fiby-problem-19": {
+          "description": {
+            "text": "The banana-shaped arete by the meadow. Sit start at the horn. Uppsala’s most popular problem?",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:fiby"
+            ]
+          }
+        },
+        "fiby-problem-20": {
+          "description": {
+            "text": "Sit start at the far left, traverse right and finish on Bananbänken.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:fiby"
+            ]
+          }
+        },
+        "fiby-problem-21": {
+          "description": {
+            "text": "Mantle onto the Bananbänken boulder along the left-hand side.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:fiby"
+            ]
+          }
+        },
+        "fiby-problem-22": {
+          "description": {
+            "text": "Climb the large slopers without using the large hold on the left.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:fiby"
+            ]
+          }
+        },
+        "fiby-problem-23": {
+          "description": {
+            "text": "Sit start at the ledge on the small boulder.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:fiby"
+            ]
+          }
+        },
+        "fiby-problem-25": {
+          "description": {
+            "text": "Stora scenen, at the far right of the west face. Straight up towards the ‘fork’.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:fiby"
+            ]
+          }
+        },
+        "fiby-problem-26": {
+          "description": {
+            "text": "Jump to the crack at the top.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:fiby"
+            ]
+          }
+        },
+        "fiby-problem-27": {
+          "description": {
+            "text": "Jump to the left-hand crack at the top.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:fiby"
+            ]
+          }
+        },
+        "fiby-problem-28": {
+          "description": {
+            "text": "Start on edges.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:fiby"
+            ]
+          }
+        },
+        "fiby-problem-29": {
+          "description": {
+            "text": "Start on the large sidepull by the arete.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:fiby"
+            ]
+          }
+        },
+        "fiby-problem-30": {
+          "description": {
+            "text": "Sit start at the corner on the short face.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:fiby"
+            ]
+          }
+        },
+        "fiby-problem-31": {
+          "description": {
+            "text": "On the short face of Stora scenen. Sit start on large sidepulls, pull up leftwards to a sloper with your right hand.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:fiby"
+            ]
+          }
+        },
+        "fiby-problem-32": {
+          "description": {
+            "text": "On Stora scenen, sit start left of the corner on large sidepulls, then latch the sloper up and right with your left hand.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:fiby"
+            ]
+          }
+        },
+        "fiby-problem-33": {
+          "description": {
+            "text": "Sit start on an edge by the arete and climb up the arete (no escape left).",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:fiby"
+            ]
+          }
+        },
+        "fiby-problem-34": {
+          "description": {
+            "text": "Hand-traverse left along the lip.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:fiby"
+            ]
+          }
+        },
+        "fiby-problem-35": {
+          "description": {
+            "text": "On the back of Stora scenen. Up the centre of the wall.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:fiby"
+            ]
+          }
+        },
+        "fiby-problem-36": {
+          "description": {
+            "text": "Perhaps Uppsala’s best unclimbed line. Hard, hard, hard.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:fiby"
+            ]
+          }
+        },
+        "fiby-problem-37": {
+          "description": {
+            "text": "Climb up leftwards.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:fiby"
+            ]
+          }
+        },
+        "fiby-problem-38": {
+          "description": {
+            "text": "Straight up the right-hand side.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:fiby"
+            ]
+          }
+        },
+        "fiby-problem-39": {
+          "description": {
+            "text": "Overhanging basalt wall on a large boulder. Tops out at the obvious basalt tufa/pinch. Impossible to miss.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:fiby"
+            ]
+          }
+        },
+        "fiby-problem-40": {
+          "description": {
+            "text": "The crack right of Svart. Large hands to fists. Top out over the hanging block.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:fiby"
+            ]
+          }
+        },
+        "fiby-problem-41": {
+          "description": {
+            "text": "Left of Svart. Start laybacking at the corner, continue via more sidepulls and mantle.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:fiby"
+            ]
+          }
+        },
+        "fiby-problem-42": {
+          "description": {
+            "text": "On a small boulder right of the large one, directly across the stream from Ängen. Sit start with both hands on the large hold.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:fiby"
+            ]
+          }
+        },
+        "fiby-problem-44": {
+          "description": {
+            "text": "From the vertical crack to the horizontal crack.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:fiby"
+            ]
+          }
+        },
+        "fiby-problem-45": {
+          "description": {
+            "text": "Sit start in the centre of the overhang, then pull straight up over the slab without using the holds on the right.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:fiby"
+            ]
+          }
+        },
+        "fiby-problem-46": {
+          "description": {
+            "text": "Sit start in the centre of the overhang, pull up rightwards to a Gaston, then onto the slab.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:fiby"
+            ]
+          }
+        },
+        "fiby-problem-47": {
+          "description": {
+            "text": "Sit start at the small overhang, then head right and finish on the arete.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:fiby"
+            ]
+          }
+        },
+        "fiby-problem-49": {
+          "description": {
+            "text": "Start on the large edge.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:fiby"
+            ]
+          }
+        },
+        "fiby-problem-50": {
+          "description": {
+            "text": "Start on the large hold, traverse right and finish on problem 4.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:fiby"
+            ]
+          }
+        },
+        "fiby-problem-51": {
+          "description": {
+            "text": "Left of the corner.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:fiby"
+            ]
+          }
+        },
+        "fiby-problem-52": {
+          "description": {
+            "text": "Straight up by the flake.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:fiby"
+            ]
+          }
+        },
+        "fiby-problem-53": {
+          "description": {
+            "text": "Corner.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:fiby"
+            ]
+          }
+        },
+        "fiby-problem-54": {
+          "description": {
+            "text": "Start on the large hold and mantle rightwards onto the slab.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:fiby"
+            ]
+          }
+        },
+        "fiby-problem-55": {
+          "description": {
+            "text": "Start on the large hold, traverse left and finish on problem 1.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:fiby"
+            ]
+          }
+        },
+        "fiby-problem-56": {
+          "description": {
+            "text": "The overhang on Noshörningen. Sit start and climb up over the slab.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:fiby"
+            ]
+          }
+        },
+        "fiby-problem-57": {
+          "description": {
+            "text": "Sit start as for Otto..., pull right to the arete and finish on Söt liten bagatell.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:fiby"
+            ]
+          }
+        },
+        "fiby-problem-58": {
+          "description": {
+            "text": "On Noshörningen, start with both hands on the large hold on the arete and climb up rightwards.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:fiby"
+            ]
+          }
+        },
+        "fiby-problem-59": {
+          "description": {
+            "text": "Left hand on the sidepull, jump to the sloper.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:fiby"
+            ]
+          }
+        },
+        "fiby-problem-60": {
+          "description": {
+            "text": "On the right of Ägget, campus start.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:fiby"
+            ]
+          }
+        },
+        "fiby-problem-61": {
+          "description": {
+            "text": "Follow large holds up the arete.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:fiby"
+            ]
+          }
+        },
+        "fiby-problem-62": {
+          "description": {
+            "text": "The sit start to Söt liten Bagatell.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:fiby"
+            ]
+          }
+        }
+      }
+    }
   }
 }

@@ -60,5 +60,92 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "Small crag near Järna with a couple of routes. Referred to as “Håknäs” in the 1996 Stockholm guidebook.",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:pilkrog"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "General",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:pilkrog"
+            ]
+          },
+          "body": {
+            "text": "A small crag near Järna with a couple of routes. Mentioned in the 1996 Stockholmsföraren guidebook as “Håknäs”.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:pilkrog"
+            ]
+          }
+        },
+        "vagbeskrivning": {
+          "title": {
+            "text": "Directions",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:pilkrog"
+            ]
+          },
+          "body": {
+            "text": "Leave the motorway at the Järna junction. Take the country road south beneath the motorway, then head towards Vagnhärad along the old Riksettan road.\n\nPass the entrance to Saltå kvarn and the Pilkrog sign. After a couple of hundred metres, the crag comes into view in the field on the left-hand side of the road.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:pilkrog"
+            ]
+          }
+        },
+        "access": {
+          "title": {
+            "text": "Access",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:pilkrog"
+            ]
+          },
+          "body": {
+            "text": "Park considerately on nearby minor side roads or similar. The field where the crag is situated is sometimes cultivated. Please respect this and never drive to the crag itself, even if the field is stubble or similar. The landowner is supportive of climbing, but deserves due consideration!",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:pilkrog"
+            ]
+          }
+        },
+        "leder": {
+          "title": {
+            "text": "Routes",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:pilkrog"
+            ]
+          },
+          "body": {
+            "text": "There are a couple of obvious routes, one of which has been reported and bolted. The other routes have been climbed, but the first ascensionists are unknown. “Anchors” above both routes in the middle: twin expansion bolts and a single bolt with a ring respectively.\n\n:“Antons ramp” on the far left. Perhaps 3 (6 m?) :Easy laybacking if you like. :Thank you David, 6. Three bolts; after the second bolt, the intention is presumably to place a nut. It is then quite a long way to the final bolt. It is unclear whether the finish involves mantling onto the slab and walking down, or whether the final bolt should be regarded as a sport anchor. :To the right of the bolted route (which appears in Stockholmsföraren), there is a crack—though it is not really crack climbing, as there are plenty of footholds and handholds—5-. :Can be finished via a long, fairly low-angled slab. There is now a single top anchor above the slab above the crack. A top-rope can be set up through this (backup nuts are easy to place), though rope drag across the slab is considerable. The grade may perhaps need raising slightly...\n\n:The route can be protected with trad gear, although the lower half has some questionable nut placements.\n\n:There is another crack farther to the right, but it is a shorter, lower-quality route.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:pilkrog"
+            ]
+          }
+        }
+      },
+      "routes": {}
+    }
   }
 }

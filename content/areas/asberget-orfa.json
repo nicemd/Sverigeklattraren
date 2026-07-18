@@ -75,5 +75,38 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "The crag is located three and a half miles from Arbrå.",
+        "method": "llm",
+        "model": "gpt-4o-mini",
+        "sourceIds": [
+          "legacy:asberget-orfa"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "General Information",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:asberget-orfa"
+            ]
+          },
+          "body": {
+            "text": "The crag is located a mile and a half from Arbrå.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:asberget-orfa"
+            ]
+          }
+        }
+      },
+      "routes": {}
+    }
   }
 }

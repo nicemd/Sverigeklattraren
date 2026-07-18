@@ -50,5 +50,92 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "Turn towards Kungshamn/Smögen off road 162. After about 4 km, at the end of the Åbyfjorden fjord, the cliff will be visible on the right side of the road. A large dihedral with a birch tree in it marks the second pitch of the route \"Örnen\". Park at the bus stop, ensuring not to block access for the bus.",
+        "method": "llm",
+        "model": "gpt-4o-mini",
+        "sourceIds": [
+          "legacy:stranderang"
+        ]
+      },
+      "sections": {
+        "introduktion": {
+          "title": {
+            "text": "Introduction",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:stranderang"
+            ]
+          },
+          "body": {
+            "text": "An imposing cliff at the end of Åbyfjorden. Unfortunately, the cliff holds few lines.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:stranderang"
+            ]
+          }
+        },
+        "karaktar": {
+          "title": {
+            "text": "Character",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:stranderang"
+            ]
+          },
+          "body": {
+            "text": "Classic crack and face climbing.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:stranderang"
+            ]
+          }
+        },
+        "vagbeskrivning": {
+          "title": {
+            "text": "Directions",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:stranderang"
+            ]
+          },
+          "body": {
+            "text": "Turn towards Kungshamn/Smögen off of route 162. After approx. 4 km at the bottom of Åbyfjorden, the cliff is visible on the right-hand side of the road. A huge dihedral with a birch tree in it marks the second pitch of the route \"Örnen - the eagle\". Park at the bus stop and pay attention not to block the stop for the bus.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:stranderang"
+            ]
+          }
+        },
+        "access": {
+          "title": {
+            "text": "Access",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:stranderang"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:stranderang"
+            ]
+          }
+        }
+      },
+      "routes": {}
+    }
   }
 }

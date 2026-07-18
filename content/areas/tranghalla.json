@@ -137,5 +137,143 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "Sport crag in the woods at Trånghalla, approximately 12 metres high. Quite sparsely bolted, it requires strong lead head.",
+        "method": "llm",
+        "model": "gpt-4o-mini",
+        "sourceIds": [
+          "legacy:tranghalla"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "General",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tranghalla"
+            ]
+          },
+          "body": {
+            "text": "Sport crag in the woods at Trånghalla, about 12 m high. It is notably airy with bolts; a strong lead psyche is required.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tranghalla"
+            ]
+          }
+        },
+        "vagbeskrivning": {
+          "title": {
+            "text": "Access",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tranghalla"
+            ]
+          },
+          "body": {
+            "text": "From Jönköping: head towards Bankeryd and turn right towards Trånghalla. Drive through the entire village until the buildings end and there's a road on the right towards a railway bridge. Park on the sandy area behind the bus stop and then follow a small path into the woods on the west side of the road, veering slightly left until you see the crag, then just head straight through the underbrush.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tranghalla"
+            ]
+          }
+        },
+        "leder": {
+          "title": {
+            "text": "Routes",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tranghalla"
+            ]
+          },
+          "body": {
+            "text": "From left to right:",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tranghalla"
+            ]
+          }
+        },
+        "ovrigt": {
+          "title": {
+            "text": "Miscellaneous",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tranghalla"
+            ]
+          },
+          "body": {
+            "text": "Anchors and bolts are becoming old and unwieldy; a few new anchors and some replacement bolting would make this crag much more enjoyable. \n\nI took the liberty to come up with new names as there's no information available about first ascents.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tranghalla"
+            ]
+          }
+        }
+      },
+      "routes": {
+        "tranghalla-led-1": {
+          "description": {
+            "text": "Not sure if there's a top anchor, otherwise the route with the closest bolts.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tranghalla"
+            ]
+          }
+        },
+        "tranghalla-led-2": {
+          "description": {
+            "text": "There’s a long distance between the first and second bolts.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tranghalla"
+            ]
+          }
+        },
+        "tranghalla-led-3": {
+          "description": {
+            "text": "High first bolt, unfortunately often wet at the end.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tranghalla"
+            ]
+          }
+        },
+        "tranghalla-led-5": {
+          "description": {
+            "text": "Climb on the face in the middle of the bolts. High first bolt.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tranghalla"
+            ]
+          }
+        },
+        "tranghalla-led-4": {
+          "description": {
+            "text": "Variant on route 4, same bolts but climb to the left of the bolts all the way. High first bolt.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tranghalla"
+            ]
+          }
+        }
+      }
+    }
   }
 }

@@ -75,5 +75,40 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "=General= Small area with some development potential. There are both hard and slightly longer problems (the boulder by the hunting lodge), as well as low, easy lines to clean up. =Directions= Most easily reached by bike via Hågavägen or Lurbovägen. =Photo= =Problems=",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:ekensberg"
+        ]
+      },
+      "sections": {},
+      "routes": {
+        "ekensberg-problem-1": {
+          "description": {
+            "text": "Sit start between the stumps, then straight up towards the highest point of the boulder via crimps, slopers and a good pocket.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:ekensberg"
+            ]
+          }
+        },
+        "ekensberg-problem-2": {
+          "description": {
+            "text": "Climbs the very low-angled slab on one of the boulders nearest the road, in the clear-cut area north of \"Den här flashar jag nog\".",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:ekensberg"
+            ]
+          }
+        }
+      }
+    }
   }
 }

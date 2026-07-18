@@ -51,5 +51,56 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "A fairly broad icefall, depending on how well it has formed, grade 4–5 and approximately 50 m high, offering excellent ice climbing. The icefall is close to Bohuslän Climbing Club’s clubhouse and is visible from both the clubhouse and the road. You can park at the clubhouse and walk across to the icefall.",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:fjallbacken"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "General",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:fjallbacken"
+            ]
+          },
+          "body": {
+            "text": "A fairly wide icefall, depending on how much it has formed, grade 4–5 and around 50m high, offering fine ice climbing. The icefall is close to Bohuslän Climbing Club’s clubhouse and can be seen from the clubhouse and the road. You can park at the clubhouse and walk across to the icefall.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:fjallbacken"
+            ]
+          }
+        },
+        "vagbeskrivning": {
+          "title": {
+            "text": "Directions",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:fjallbacken"
+            ]
+          },
+          "body": {
+            "text": "From the south, leave the E6 at Dinglemotet and take road 174 west. After approximately 6.5km, turn left towards Lysekil and into Bärfendalen. After 1.1km, you will reach the drive to the clubhouse, marked by a small sign on the right. Drive up the hill and park. Note: Parking by the bins down by the road is not permitted; the turning area there is for the horse owners and their vehicles. Do not block the road to the neighbouring house after the hill either.\n\nAlternatively, continue past the turn-off to the clubhouse, then take the third road down to the left (see map). Park at the end of the road, making sure not to inconvenience residents or anyone else. Then follow the path towards Dingle. After approximately 300m, you will reach the icefall.\n\nTo reach the icefall from the clubhouse: The icefall can be seen from the clubhouse and lies on the other side of the meadow. Walk down to the road from the clubhouse, turn left, then take the first road on the left. Continue uphill past the farms at the end of the road and be considerate. Beyond the farms, follow the path up to the icefall.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:fjallbacken"
+            ]
+          }
+        }
+      },
+      "routes": {}
+    }
   }
 }

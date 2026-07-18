@@ -95,5 +95,50 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "=Directions= See also: Bloxc (http://www.bloxc.com/forum/viewtopic.php?t=1346) =Problems=",
+        "method": "llm",
+        "model": "gpt-4o-mini",
+        "sourceIds": [
+          "legacy:angbyplan"
+        ]
+      },
+      "sections": {},
+      "routes": {
+        "angbyplan-problem-1": {
+          "description": {
+            "text": "Sit start in the middle of the steep wall, go up to a side hold and continue left towards the arete, finishing up this.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:angbyplan"
+            ]
+          }
+        },
+        "angbyplan-problem-2": {
+          "description": {
+            "text": "Traverse left from VDP, jump from the jug to the right (dyno).",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:angbyplan"
+            ]
+          }
+        },
+        "angbyplan-problem-3": {
+          "description": {
+            "text": "Stand start on the Vulgar wall. Straight up without using the arete. A bit scary at the top.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:angbyplan"
+            ]
+          }
+        }
+      }
+    }
   }
 }

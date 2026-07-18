@@ -32,5 +32,19 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "http://www.trauco.com/Hogdalen We have been given permission to add it to Sverigeföraren! (NB: Unfortunately, some grades are no longer accurate because holds have broken, etc. For example, the starting hold on \"Pretty Fly..\" is now much better than before.)",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:hogdalen"
+        ]
+      },
+      "sections": {},
+      "routes": {}
+    }
   }
 }

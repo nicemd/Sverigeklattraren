@@ -301,5 +301,103 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "Utsiktsberget is located on southern Svärdsö between Oxnö and Torö at the southern tip of Södertörn. The crag is about 8–10 m high and is roughly 300 m from excellent swimming opportunities, making it very accessible. The rock offers a diverse range of climbs with great friction and a wide difficulty range.",
+        "method": "llm",
+        "model": "gpt-4o-mini",
+        "sourceIds": [
+          "legacy:utsiktsberget"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "General Information",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:utsiktsberget"
+            ]
+          },
+          "body": {
+            "text": "Utsiktsberget is located on southern Svärdsö between Oxnö and Torö at the southern tip of Södertörn. The crag is around 8-10 m high and is about 300 m from excellent swimming spots. Overall, the crag is very accessible. It offers varied climbing with good friction and a wide range of difficulty levels.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:utsiktsberget"
+            ]
+          }
+        },
+        "miljo": {
+          "title": {
+            "text": "Environment",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:utsiktsberget"
+            ]
+          },
+          "body": {
+            "text": "West-facing, open location.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:utsiktsberget"
+            ]
+          }
+        },
+        "vagbeskrivning": {
+          "title": {
+            "text": "Access",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:utsiktsberget"
+            ]
+          },
+          "body": {
+            "text": "Svärdsö is just over 5 km southwest of Nynäshamn (as the crow flies). Drive a few km into Svärdsö, passing Svärdsögården on the left. After 1 km, turn onto Ringvägen, then take the first left onto Måsvägen, which you follow to the turning point where you can park. It's a 3-4 minute walk to the crag located on the south side.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:utsiktsberget"
+            ]
+          }
+        },
+        "leder": {
+          "title": {
+            "text": "Routes",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:utsiktsberget"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:utsiktsberget"
+            ]
+          }
+        }
+      },
+      "routes": {
+        "utsiktsberget-led-14": {
+          "description": {
+            "text": "David Fält's old project. Where does this go?",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:utsiktsberget"
+            ]
+          }
+        }
+      }
+    }
   }
 }

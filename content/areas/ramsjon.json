@@ -45,5 +45,56 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "The crag is worth a visit if you fancy some variety from the routes at Rosendal.",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:ramsjon"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "General",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:ramsjon"
+            ]
+          },
+          "body": {
+            "text": "If you fancy some variety from the routes at Rosendal, the crag is worth a visit.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:ramsjon"
+            ]
+          }
+        },
+        "beskrivning": {
+          "title": {
+            "text": "Description",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:ramsjon"
+            ]
+          },
+          "body": {
+            "text": "Read more here (http://www.orebroklatterklubb.com/)",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:ramsjon"
+            ]
+          }
+        }
+      },
+      "routes": {}
+    }
   }
 }

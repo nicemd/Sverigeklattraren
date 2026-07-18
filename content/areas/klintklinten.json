@@ -1145,5 +1145,803 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "Gotland's best bouldering area, extending along a low, steep crag in the scenic Östergarnslandet. Only a small part has been developed. Mostly high-quality limestone with few holds. The most developed wall faces west and therefore gets the evening sun. It is possible to climb inside Fåraherdens Grotta when it rains. Only the brave top out, as it is high and loose.",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:klintklinten"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "General",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:klintklinten"
+            ]
+          },
+          "body": {
+            "text": "Gotland’s best bouldering area, along a low, steep limestone escarpment in the scenic Östergarnslandet. Only a small part has been developed. Mostly high-quality limestone with sparse holds. The most developed wall faces west and therefore gets the evening sun. It is possible to climb inside Fåraherdens Grotta when it rains. Only the brave top out the problems, as they are high and loose.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:klintklinten"
+            ]
+          }
+        },
+        "access-boende-mm": {
+          "title": {
+            "text": "Access / accommodation etc.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:klintklinten"
+            ]
+          },
+          "body": {
+            "text": "PARKING: Do not park where you obstruct passing cars or farm machinery. If the gate towards Fåraherdens Grotta is open, you may park inside it. If more parking is needed, park discreetly in the farmer’s yard beside the barn, without obstructing farm machinery or other vehicles.\n\nACCOMMODATION: There is a campsite and cottages to rent in beautiful surroundings nearby. Östergarnstrand/Sandviken is approximately 4–5 km from Klintklinten. http://www.ostergarnstrand.se/index.htm\n\nVEGETATION CLEARANCE: Thorn bushes and other scrub beside the crag may be cleared. If you do so, gather the cuttings into a pile. Leave the trees untouched.\n\nCHIPPING/BOLTS: No thanks!!!\n\nFIRES/BARBECUES: Fires must NOT be lit beside the crag, as lambs are often present.\n\nOTHER: Visby Klätterklubb has a very good relationship with the landowner and wants to keep it that way. Take all rubbish away with you and be considerate of local residents and the lambs sometimes found beside the crag. If you have any questions, contact VKK’s access officer, Per Bäckström (0730-222990).",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:klintklinten"
+            ]
+          }
+        },
+        "vagbeskrivning": {
+          "title": {
+            "text": "Directions",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:klintklinten"
+            ]
+          },
+          "body": {
+            "text": "From Visby: take road 143 via Roma towards Ljugarn. At Alakorset, approximately 12 km before Ljugarn, turn left towards Kräklingbo/Katthammarsvik. Then turn right at Kräklingbokorset and continue towards Katthammarsvik. After approximately five kilometres, turn right towards Gammelgarns Kyrka, also signposted to the bicycle workshop. At Gammelgarns Kyrka, continue straight across the junction. After a few hundred metres, the crag can be seen directly to the east... Sound complicated? Don’t worry, it is well worth the effort...",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:klintklinten"
+            ]
+          }
+        },
+        "grottbjornens-hylla": {
+          "title": {
+            "text": "Grottbjörnens Hylla",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:klintklinten"
+            ]
+          },
+          "body": {
+            "text": "Cave/overhang further left of Bondens Grotta. Photos and more detailed descriptions are coming soon.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:klintklinten"
+            ]
+          }
+        },
+        "bondens-grotta": {
+          "title": {
+            "text": "Bondens Grotta",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:klintklinten"
+            ]
+          },
+          "body": {
+            "text": "Cave opposite the farmer’s house and immediately left of Smultronväggen. Still largely undeveloped, but there appears to be potential for several long roof traverses in the higher grades.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:klintklinten"
+            ]
+          }
+        },
+        "smultronvaggen": {
+          "title": {
+            "text": "Smultronväggen",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:klintklinten"
+            ]
+          },
+          "body": {
+            "text": "Small vertical section of crag opposite the houses. The right-hand part of the wall is overgrown with ivy. A large cave lies immediately to the left.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:klintklinten"
+            ]
+          }
+        },
+        "mysiga-blocket": {
+          "title": {
+            "text": "Mysiga Blocket",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:klintklinten"
+            ]
+          },
+          "body": {
+            "text": "A standalone boulder to the left of Fåraherdens Grotta.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:klintklinten"
+            ]
+          }
+        },
+        "faraherdens-grotta": {
+          "title": {
+            "text": "Fåraherdens Grotta",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:klintklinten"
+            ]
+          },
+          "body": {
+            "text": "The heavily overhanging cave with a small building in the middle. There is potential for quite a few more steep boulder problems, some entirely across the roof.\n\nTO THE LEFT OF THE FLAX-DRYING HUT",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:klintklinten"
+            ]
+          }
+        },
+        "nedfallna-kanten": {
+          "title": {
+            "text": "Nedfallna Kanten",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:klintklinten"
+            ]
+          },
+          "body": {
+            "text": "To the right of Fåraherdens Grotta is a small collapsed section of the escarpment.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:klintklinten"
+            ]
+          }
+        },
+        "raka-vaggen": {
+          "title": {
+            "text": "Raka Väggen",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:klintklinten"
+            ]
+          },
+          "body": {
+            "text": "Directly above and to the right of Nedfallna Kanten.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:klintklinten"
+            ]
+          }
+        },
+        "zorrotaket": {
+          "title": {
+            "text": "Zorrotaket",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:klintklinten"
+            ]
+          },
+          "body": {
+            "text": "Continue approximately 50 m to the right from Raka Väggen.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:klintklinten"
+            ]
+          }
+        },
+        "balkongvaggen": {
+          "title": {
+            "text": "Balkongväggen",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:klintklinten"
+            ]
+          },
+          "body": {
+            "text": "Continue right from Zorrotaket until you reach an open section of wall.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:klintklinten"
+            ]
+          }
+        },
+        "lutande-stenen-pa-gotland": {
+          "title": {
+            "text": "Lutande Stenen på Gotland",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:klintklinten"
+            ]
+          },
+          "body": {
+            "text": "Continue right from Zorrotaket.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:klintklinten"
+            ]
+          }
+        },
+        "farscenen": {
+          "title": {
+            "text": "Fårscenen",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:klintklinten"
+            ]
+          },
+          "body": {
+            "text": "Immediately beside Lutande Stenen.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:klintklinten"
+            ]
+          }
+        }
+      },
+      "routes": {
+        "klintklinten-led-1": {
+          "description": {
+            "text": "Just one long move. Sit start on the ledge with a high foot, then make a long reach to the lip.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:klintklinten"
+            ]
+          }
+        },
+        "klintklinten-led-2": {
+          "description": {
+            "text": "Sit start on an edge and climb straight up.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:klintklinten"
+            ]
+          }
+        },
+        "klintklinten-led-4": {
+          "description": {
+            "text": "Left of \"Urtoppning vid livets träd\". Sit start with both hands on the positive edge. The tree is out, making the top-out a little scary for a 4. Make sure you have spotters.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:klintklinten"
+            ]
+          }
+        },
+        "klintklinten-led-5": {
+          "description": {
+            "text": "Straight up beneath the tree, using the tree for the top-out. An easy problem, but with a potentially nasty landing.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:klintklinten"
+            ]
+          }
+        },
+        "klintklinten-led-6": {
+          "description": {
+            "text": "The same sit start as Mors problem, but head left when you join Mors bekymmer. Instead of climbing up to the small roof, continue left in a traverse. Go all the way to the vertical crack and climb up there.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:klintklinten"
+            ]
+          }
+        },
+        "klintklinten-led-7": {
+          "description": {
+            "text": "The same sit start as Mors problem, but head left when you join Mors bekymmer. Climb up beneath the small roof and top out on its left-hand side.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:klintklinten"
+            ]
+          }
+        },
+        "klintklinten-led-8": {
+          "description": {
+            "text": "An alternative start to Mors bekymmer that turns the concern into a problem. Sit start inside the cave with both hands on a jug. Climb to a slightly slopey crimp, then continue right to join Mors bekymmer and finish up that.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:klintklinten"
+            ]
+          }
+        },
+        "klintklinten-led-9": {
+          "description": {
+            "text": "Sit start beneath the arete. Climb straight up using crimps and ledges, then top out on the right-hand side of the small roof. The right-hand side of the arete is out. Slab.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:klintklinten"
+            ]
+          }
+        },
+        "klintklinten-led-10": {
+          "description": {
+            "text": "Sit start left of Nangiala, with your feet down in the hole. Do not start so far left that you are on the arete. Climb straight up and top out in the middle of the wall.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:klintklinten"
+            ]
+          }
+        },
+        "klintklinten-led-11": {
+          "description": {
+            "text": "The crack in the corner left of Smultron.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:klintklinten"
+            ]
+          }
+        },
+        "klintklinten-led-12": {
+          "description": {
+            "text": "Wall climbing midway between Nangiala and Smultron. Warning: loose near the top!",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:klintklinten"
+            ]
+          }
+        },
+        "klintklinten-led-13": {
+          "description": {
+            "text": "Standing start on the rounded vertical arete. Start either from two slopey edges or two undercuts.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:klintklinten"
+            ]
+          }
+        },
+        "klintklinten-led-14": {
+          "description": {
+            "text": "Sit start in the crack right of Smultron. Climb up past a mono.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:klintklinten"
+            ]
+          }
+        },
+        "klintklinten-led-15": {
+          "description": {
+            "text": "Sit start on two obvious crimps, then make a long move up and right to a crimp.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:klintklinten"
+            ]
+          }
+        },
+        "klintklinten-led-16": {
+          "description": {
+            "text": "The easiest way up the right-hand section of the wall. Highball.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:klintklinten"
+            ]
+          }
+        },
+        "klintklinten-led-17": {
+          "description": {
+            "text": "Climb the small left-facing corner on the left-hand side of the white patch.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:klintklinten"
+            ]
+          }
+        },
+        "klintklinten-led-18": {
+          "description": {
+            "text": "Crimpy climbing in the middle of the white patch. Standing start.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:klintklinten"
+            ]
+          }
+        },
+        "klintklinten-led-19": {
+          "description": {
+            "text": "Very low sit start on an arete beside a tree. Left hand on a crimp sidepull and right hand very low on a pocket-like hold. Then climb straight up the arete. Very crimpy. The standing start is about 6B: establish with your left hand on the sidepull and your right on a good crimp.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:klintklinten"
+            ]
+          }
+        },
+        "klintklinten-led-20": {
+          "description": {
+            "text": "Sit start on two crimps on the vertical wall around the corner from Icy Nipples. Finish at the small roof.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:klintklinten"
+            ]
+          }
+        },
+        "klintklinten-led-21": {
+          "description": {
+            "text": "Sit start on a good sidepull and a pinch, then keep left of the arete and finish on a slightly slopey ledge.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:klintklinten"
+            ]
+          }
+        },
+        "klintklinten-led-22": {
+          "description": {
+            "text": "Sit start on a juggy sidepull. Climb straight up and finish on the ledge directly above, the same finish as Dronten.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:klintklinten"
+            ]
+          }
+        },
+        "klintklinten-led-23": {
+          "description": {
+            "text": "Sit start just left of Mustamihno.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:klintklinten"
+            ]
+          }
+        },
+        "klintklinten-led-24": {
+          "description": {
+            "text": "Sit start left of EKG. Right hand on a tufa pinch and left hand on a poor sidepull. The jug midway is eliminated for the higher grade. Finish on the lip to the left.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:klintklinten"
+            ]
+          }
+        },
+        "klintklinten-led-25": {
+          "description": {
+            "text": "At the far left of the cave.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:klintklinten"
+            ]
+          }
+        },
+        "klintklinten-led-26": {
+          "description": {
+            "text": "Sit start inside the cave.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:klintklinten"
+            ]
+          }
+        },
+        "klintklinten-led-27": {
+          "description": {
+            "text": "A pumpy right-to-left traverse with a tricky finish. Follow the lower crack without climbing up to the large juggy crack. Given a route grade because of its length.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:klintklinten"
+            ]
+          }
+        },
+        "klintklinten-led-28": {
+          "description": {
+            "text": "The ultimate traverse! After climbing all of Shazam, continue straight up to the large holds. Follow them left to the far side of the house, but do not stand on the house! On the far side, continue on crimpy and slopey holds until you reach a good jug. The line can be extended further if desired.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:klintklinten"
+            ]
+          }
+        },
+        "klintklinten-led-29": {
+          "description": {
+            "text": "A pumpy right-to-left traverse on large holds. Follow the large crack all the way past the sheep house and finish just beyond it. Do not stand on the house! Given a route grade because of its length.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:klintklinten"
+            ]
+          }
+        },
+        "klintklinten-led-30": {
+          "description": {
+            "text": "The obvious line through the roof. Finish at the jug where the next roof begins.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:klintklinten"
+            ]
+          }
+        },
+        "klintklinten-led-31": {
+          "description": {
+            "text": "Sit start on an edge beneath the smaller roof just right of the cave. Finish on the ledge in the middle of the vertical wall.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:klintklinten"
+            ]
+          }
+        },
+        "klintklinten-led-32": {
+          "description": {
+            "text": "Sit start on the arete, move out right and then climb straight up.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:klintklinten"
+            ]
+          }
+        },
+        "klintklinten-led-33": {
+          "description": {
+            "text": "The obvious, fine line between Areten and Arytmi. Sit start on crimps and climb through crimps and pockets. Top out in the \"gravel pile\" directly above. Watch out for loose stones!",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:klintklinten"
+            ]
+          }
+        },
+        "klintklinten-led-34": {
+          "description": {
+            "text": "Sit start on two obvious edges. Pull up to a slopey ledge, then climb diagonally up and left.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:klintklinten"
+            ]
+          }
+        },
+        "klintklinten-led-35": {
+          "description": {
+            "text": "Sit start right of the right-hand arete. Climb left towards the arete, then straight up to a mantle-like finish.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:klintklinten"
+            ]
+          }
+        },
+        "klintklinten-led-36": {
+          "description": {
+            "text": "Standing start with a ledge for the right hand and a hold for the left. Move some way right, then climb up and finish at the lip beneath the loose section.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:klintklinten"
+            ]
+          }
+        },
+        "klintklinten-led-37": {
+          "description": {
+            "text": "Sit start on the arete at the upper end nearest the other wall. Follow the arete straight up to the loose section and finish there. Do not top out!",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:klintklinten"
+            ]
+          }
+        },
+        "klintklinten-led-38": {
+          "description": {
+            "text": "Vertical climbing with a few pockets.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:klintklinten"
+            ]
+          }
+        },
+        "klintklinten-led-39": {
+          "description": {
+            "text": "Standing start from a mono and an undercut. Climb up past, among other holds, two right-hand monos.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:klintklinten"
+            ]
+          }
+        },
+        "klintklinten-led-40": {
+          "description": {
+            "text": "Right of Skallskada. Climb diagonally right, then straight up. A harder sit start may be possible, leading into the sharp crack.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:klintklinten"
+            ]
+          }
+        },
+        "klintklinten-led-41": {
+          "description": {
+            "text": "Start crouched at the back against the wall, with no hands on the starting position. Continue up and left beneath the roof.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:klintklinten"
+            ]
+          }
+        },
+        "klintklinten-led-42": {
+          "description": {
+            "text": "Half-sit start.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:klintklinten"
+            ]
+          }
+        },
+        "klintklinten-led-43": {
+          "description": {
+            "text": "Sit start and climb straight up. Scrappy top-out.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:klintklinten"
+            ]
+          }
+        },
+        "klintklinten-led-44": {
+          "description": {
+            "text": "Sit start and top out.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:klintklinten"
+            ]
+          }
+        },
+        "klintklinten-led-45": {
+          "description": {
+            "text": "Stand start and top out.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:klintklinten"
+            ]
+          }
+        },
+        "klintklinten-led-46": {
+          "description": {
+            "text": "Sit start and continue straight up.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:klintklinten"
+            ]
+          }
+        },
+        "klintklinten-led-47": {
+          "description": {
+            "text": "Stand start, go straight out and up past the first roof, traverse right and continue up along the tufa.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:klintklinten"
+            ]
+          }
+        },
+        "klintklinten-led-48": {
+          "description": {
+            "text": "Straight up!",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:klintklinten"
+            ]
+          }
+        },
+        "klintklinten-led-49": {
+          "description": {
+            "text": "Sit start on the arete and follow it up.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:klintklinten"
+            ]
+          }
+        },
+        "klintklinten-led-50": {
+          "description": {
+            "text": "Sit start on the steepest arete and follow it up.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:klintklinten"
+            ]
+          }
+        },
+        "klintklinten-led-51": {
+          "description": {
+            "text": "Sit start beneath a small roof, then straight up.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:klintklinten"
+            ]
+          }
+        },
+        "klintklinten-led-54": {
+          "description": {
+            "text": "Start at the edge.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:klintklinten"
+            ]
+          }
+        },
+        "klintklinten-led-55": {
+          "description": {
+            "text": "Along the crack in the corner.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:klintklinten"
+            ]
+          }
+        },
+        "klintklinten-led-56": {
+          "description": {
+            "text": "Sit start beneath the overhang. The landing is a little poor, so bring plenty of pads and spotters.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:klintklinten"
+            ]
+          }
+        }
+      }
+    }
   }
 }

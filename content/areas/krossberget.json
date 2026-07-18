@@ -169,5 +169,74 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "Krossberget is a fairly steep, north-facing crag near Svensbyn, Piteå. The crag is around 200 metres long and 10–25 metres high, and is broken in many places by rockfall and blocks. There are three continuous sections of high-quality rock.",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:krossberget"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "Overview",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:krossberget"
+            ]
+          },
+          "body": {
+            "text": "Krossberget is a fairly steep, north-facing crag near Svensbyn, Piteå. The crag is about 200 metres long and 10–25 metres high, and is interrupted in many places by scree and blocks. There are three continuous sections of high-quality rock.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:krossberget"
+            ]
+          }
+        },
+        "historia": {
+          "title": {
+            "text": "History",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:krossberget"
+            ]
+          },
+          "body": {
+            "text": "In 1986 and 1987, the undersigned, Jörgen Vikström, cleaned around ten routes in the grade range 5 to 6+. This was back when it seemed unlikely that human beings, at least northerners, could climb harder than grade six. All the routes were named after different brands of snus: Ettan, General, Rapé, etc. I have climbed at Krossberget for several summers since then and can confirm that the routes are becoming overgrown. Some of the routes were first climbed by Anders Lindholm from Holmsund. Other Umeå climbers also visited during a few summers, including Tommy Nilsson, Lena Carleborg and Mikael Kivijärvi.\n\nThe approach crosses the clear-felled area from the northern road towards Bodsjön. The terrain is easy going, but watch out for the abrupt cliff edge if you have children or dogs with you. There is great potential for new, very hard routes. Among other things, there is a completely undeveloped overhanging wall with a hold-rich, overhanging finish, as well as a huge crack in an attractive high corner in this section, unless it has since been cleaned. The downside of Krossberget is that it is rather damp and fairly mosquito-ridden. But bring mosquito repellent and light a small smoky fire at the foot of the route. That will make it, if not pleasant, at least bearable. / Jörgen Vikström, info@jorgenvikstrom.com.\n\n---- 8 routes were bolted in the summer of 2012 by Magnus Eriksson Brändström, Johan Norén, Patrik Landberg and Laban Berglund.\n\nNotable routes include IO, 7c, Uppvärmningen, 6a+, and Renkadaver, 7a. The route name and grade are marked on the rock at the start of each route.\n\nSee http://www.borrbult.nu/2012/07/bultkurs-med-borrbult.html for more information.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:krossberget"
+            ]
+          }
+        },
+        "leder": {
+          "title": {
+            "text": "Routes",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:krossberget"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:krossberget"
+            ]
+          }
+        }
+      },
+      "routes": {}
+    }
   }
 }

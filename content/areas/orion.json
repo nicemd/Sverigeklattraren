@@ -194,5 +194,173 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "A fine crag in Gärdsås with only a few lines, but good ones. Well worth a visit!",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:orion"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "Overview",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:orion"
+            ]
+          },
+          "body": {
+            "text": "A fine crag in Gärdsås with only a few lines, but good ones. Well worth a visit!",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:orion"
+            ]
+          }
+        },
+        "miljo": {
+          "title": {
+            "text": "Setting",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:orion"
+            ]
+          },
+          "body": {
+            "text": "Short approach. The crag is secluded in beautiful, fairly dense woodland, which provides shade in summer despite its south-easterly aspect.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:orion"
+            ]
+          }
+        },
+        "vagbeskrivning": {
+          "title": {
+            "text": "Directions",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:orion"
+            ]
+          },
+          "body": {
+            "text": "A fine south-east-facing crag right next to (west of) Orion road in Gärdsås. A short walk from Utby. 15 minutes from the tram (lines 11/7/6 – Kortedala torg). Less than 5 minutes from the bus (line 58 – Gärdsåsgatan).",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:orion"
+            ]
+          }
+        },
+        "leder": {
+          "title": {
+            "text": "Routes",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:orion"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:orion"
+            ]
+          }
+        }
+      },
+      "routes": {
+        "orion-led-1": {
+          "description": {
+            "text": "An obvious, short roof crack. Hand jams, fist jams and sizes in between.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:orion"
+            ]
+          }
+        },
+        "orion-led-2": {
+          "description": {
+            "text": "A well-balanced route with a slightly awkward crux in a wide crack. From a high starting hold, make long reaches along the right-hand edge. After a few metres, take the left-hand crack and follow it to the top. Well protected. No large gear needed.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:orion"
+            ]
+          }
+        },
+        "orion-led-3": {
+          "description": {
+            "text": "The arete right of Betelgeuse.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:orion"
+            ]
+          }
+        },
+        "orion-led-4": {
+          "description": {
+            "text": "Straight up the face, without using the arete on the left.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:orion"
+            ]
+          }
+        },
+        "orion-led-5": {
+          "description": {
+            "text": "A little loose, but quite good and well protected. Start up the corner, avoid stepping left onto the large ledge, then follow the wide crack/outside corner straight up.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:orion"
+            ]
+          }
+        },
+        "orion-led-6": {
+          "description": {
+            "text": "Incredibly inviting face climbing on the right, trending left towards the roof, which features a superb horizontal roof crack.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:orion"
+            ]
+          }
+        },
+        "orion-led-7": {
+          "description": {
+            "text": "Holds and laybacking lead to the crystal-rich band. Then follow a slightly overhanging crack to the top.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:orion"
+            ]
+          }
+        },
+        "orion-led-8": {
+          "description": {
+            "text": "The crack just right of Orions bälte.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:orion"
+            ]
+          }
+        }
+      }
+    }
   }
 }

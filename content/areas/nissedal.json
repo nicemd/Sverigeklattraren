@@ -632,5 +632,153 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "http://www.osifjell.no/arkiv/klatreforer_nissedal.pdf http://www.rockfax.com/climbing-guides/miniguides/nissedal/ http://www2.idrottonline.se/ImageVaultFiles/id_366383/cf_359/Nyturer_i_Nissedal.PDF",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:nissedal"
+        ]
+      },
+      "sections": {
+        "haegefjell": {
+          "title": {
+            "text": "Haegefjell",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:nissedal"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:nissedal"
+            ]
+          }
+        },
+        "baremlandsfjellet": {
+          "title": {
+            "text": "Baremlandsfjellet",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:nissedal"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:nissedal"
+            ]
+          }
+        },
+        "langfjell": {
+          "title": {
+            "text": "Langfjell",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:nissedal"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:nissedal"
+            ]
+          }
+        },
+        "nipen": {
+          "title": {
+            "text": "Nipen",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:nissedal"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:nissedal"
+            ]
+          }
+        }
+      },
+      "routes": {
+        "nissedal-led-6": {
+          "description": {
+            "text": "A fine route with several pitches of grade 5/5+ crack climbing. Mostly trad, though there are occasional bolts.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:nissedal"
+            ]
+          }
+        },
+        "nissedal-led-17": {
+          "description": {
+            "text": "A well-protected/well-bolted and very popular route.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:nissedal"
+            ]
+          }
+        },
+        "nissedal-led-18": {
+          "description": {
+            "text": "An enjoyable trad route. There are several possible finishes, but the original follows the ramp towards Reven’s anchor.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:nissedal"
+            ]
+          }
+        },
+        "nissedal-led-19": {
+          "description": {
+            "text": "Fine and varied climbing.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:nissedal"
+            ]
+          }
+        },
+        "nissedal-led-21": {
+          "description": {
+            "text": "A well-protected, easy multi-pitch trad route following a crack system with several cracks.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:nissedal"
+            ]
+          }
+        },
+        "nissedal-led-31": {
+          "description": {
+            "text": "The route runs immediately right of Harry Pothead. The grade is mentioned on the Brattesider.no forum: http://www.brattesider.no/index.php?option=com_smf&Itemid=130&topic=9408.0",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:nissedal"
+            ]
+          }
+        }
+      }
+    }
   }
 }

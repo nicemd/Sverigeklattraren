@@ -28,5 +28,19 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "Bouldering tip in Täby. It appears that no one has climbed here yet. There should be scope for a few lines on a decent boulder in pleasant surroundings.\n\nDirections: Rigavägen (E–W) lies 200 metres WNW of Täby centrum. On the north side of the road, not far from Skiftesvägen, there is a small meadow and a path leading north. Follow it to the edge of the woods, then turn left onto a smaller path through the wooded area above the houses. After about 100 m, the large boulder is clearly visible. Note that if driving, Rigavägen is one-way, so you need to enter via Skiftesvägen.",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:rigablocket"
+        ]
+      },
+      "sections": {},
+      "routes": {}
+    }
   }
 }

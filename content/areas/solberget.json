@@ -362,5 +362,92 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "An approximately 15 m high crag with around 30 routes, some featuring unusual formations such as pillars, chimneys and roof cracks.",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:solberget"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "General",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:solberget"
+            ]
+          },
+          "body": {
+            "text": "Approximately 15m-high crag with around 30 routes, some featuring unusual formations such as pillars, chimneys and roof cracks.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:solberget"
+            ]
+          }
+        },
+        "access": {
+          "title": {
+            "text": "Access",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:solberget"
+            ]
+          },
+          "body": {
+            "text": "The crag is on common land belonging to the local property owners’ association. Access is currently OK, but the utmost consideration is required! Since the routes were established, many new houses have been built, including three directly above the crag. The routes furthest right now finish at a property fence and must be avoided entirely. So far, the property owners have accepted the few climbers who have come here, but everyone must show the utmost consideration! Stockholms Klätterklubb installed a number of top anchors in April 2010. This was to prevent climbers searching for belays at the top of the crag and ending up on or in front of the properties.\n\nNote that the only permitted approach to the crag is along the lakeshore!",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:solberget"
+            ]
+          }
+        },
+        "vagbeskrivning": {
+          "title": {
+            "text": "Directions",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:solberget"
+            ]
+          },
+          "body": {
+            "text": "The crag is beside Solbergasjön. From Stockholm: take road 276 through Åkersberga towards Norrtälje. 4 km after Åkersberga, turn right at the sign for “Skärgårdsstad”. Turn left onto Översättravägen immediately after the lake and park on the right outside the preschool after approximately 150m. Follow Stockängsstigen towards the lake, then follow the shore to the crag.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:solberget"
+            ]
+          }
+        },
+        "leder": {
+          "title": {
+            "text": "Routes",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:solberget"
+            ]
+          },
+          "body": {
+            "text": "The crag was “discovered” and developed by Kenth Lindström.\n\nCome here with your large protection or a top-rope and try some roof jamming, such as Honky Tonk Woman 5c (good hand jams), Utby 5:an 6a (good and well protected) or Bortbred 6c (a proper Jan Liljemark roof), all three good routes with natural protection.\n\nOr why not have a go at Solsprickan 6b, one of the finest routes north of the city.\n\nOr climb five chimney routes graded 3–6, including Mormors spricka 6a, which has still not been led.\n\nOr three very fine aretes: Immanuel 6a, Högerkanten 5c and Delikanten 6b+.\n\nThese are just a few examples of the routes offering climbing of an unusual kind.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:solberget"
+            ]
+          }
+        }
+      },
+      "routes": {}
+    }
   }
 }

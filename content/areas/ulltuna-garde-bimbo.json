@@ -86,5 +86,50 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "",
+        "method": "llm",
+        "model": "gpt-4o-mini",
+        "sourceIds": [
+          "legacy:ulltuna-garde-bimbo"
+        ]
+      },
+      "sections": {},
+      "routes": {
+        "ulltuna-garde-bimbo-problem-1": {
+          "description": {
+            "text": "Traverse the entire wall from left to right.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:ulltuna-garde-bimbo"
+            ]
+          }
+        },
+        "ulltuna-garde-bimbo-problem-2": {
+          "description": {
+            "text": "Sit start to the right of the dihedral.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:ulltuna-garde-bimbo"
+            ]
+          }
+        },
+        "ulltuna-garde-bimbo-problem-3": {
+          "description": {
+            "text": "A smaller boulder 5 minutes south of the gärdevägg. By the cycle path just before Lilla Sunnersta. Southern part of the boulder. Good for warming up before the gärdevägg.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:ulltuna-garde-bimbo"
+            ]
+          }
+        }
+      }
+    }
   }
 }

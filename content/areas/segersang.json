@@ -37,5 +37,19 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "Several small areas: 1) boulders in the woods north of Segersäng; 2) walls south of the road to Segersäng. More information can be found on the Bouldering i Nynäshamn website (http://web.telia.com/~u91133597/). See the topo and comments sections.",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:segersang"
+        ]
+      },
+      "sections": {},
+      "routes": {}
+    }
   }
 }

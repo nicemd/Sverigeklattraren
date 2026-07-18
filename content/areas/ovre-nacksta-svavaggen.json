@@ -198,5 +198,120 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "",
+        "method": "llm",
+        "model": "gpt-4o-mini",
+        "sourceIds": [
+          "legacy:ovre-nacksta-svavaggen"
+        ]
+      },
+      "sections": {},
+      "routes": {
+        "ovre-nacksta-svavaggen-problem-1": {
+          "description": {
+            "text": "Straight up.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:ovre-nacksta-svavaggen"
+            ]
+          }
+        },
+        "ovre-nacksta-svavaggen-problem-2": {
+          "description": {
+            "text": "Straight up the crack.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:ovre-nacksta-svavaggen"
+            ]
+          }
+        },
+        "ovre-nacksta-svavaggen-problem-3": {
+          "description": {
+            "text": "The crack to the left is excluded.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:ovre-nacksta-svavaggen"
+            ]
+          }
+        },
+        "ovre-nacksta-svavaggen-problem-4": {
+          "description": {
+            "text": "Straight up with a pull to the left.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:ovre-nacksta-svavaggen"
+            ]
+          }
+        },
+        "ovre-nacksta-svavaggen-problem-5": {
+          "description": {
+            "text": "Straight up.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:ovre-nacksta-svavaggen"
+            ]
+          }
+        },
+        "ovre-nacksta-svavaggen-problem-6": {
+          "description": {
+            "text": "Straight up.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:ovre-nacksta-svavaggen"
+            ]
+          }
+        },
+        "ovre-nacksta-svavaggen-problem-7": {
+          "description": {
+            "text": "Straight up.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:ovre-nacksta-svavaggen"
+            ]
+          }
+        },
+        "ovre-nacksta-svavaggen-problem-8": {
+          "description": {
+            "text": "Sit start, straight up.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:ovre-nacksta-svavaggen"
+            ]
+          }
+        },
+        "ovre-nacksta-svavaggen-problem-9": {
+          "description": {
+            "text": "Straight up.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:ovre-nacksta-svavaggen"
+            ]
+          }
+        },
+        "ovre-nacksta-svavaggen-problem-10": {
+          "description": {
+            "text": "Straight up with a slight pull to the left.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:ovre-nacksta-svavaggen"
+            ]
+          }
+        }
+      }
+    }
   }
 }

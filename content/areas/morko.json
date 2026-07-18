@@ -194,5 +194,129 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "=Sectors=",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:morko"
+        ]
+      },
+      "sections": {
+        "berghuset": {
+          "title": {
+            "text": "The Rock House",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:morko"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:morko"
+            ]
+          }
+        }
+      },
+      "routes": {
+        "morko-problem-1": {
+          "description": {
+            "text": "The obvious sit start on the right of the high south face. A continuously overhanging 6-metre problem, with the hardest moves at the start.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:morko"
+            ]
+          }
+        },
+        "morko-problem-2": {
+          "description": {
+            "text": "A lethal problem to the right of Rock Molester.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:morko"
+            ]
+          }
+        },
+        "morko-problem-3": {
+          "description": {
+            "text": "A catch at the small cave entrance. Start on two sidepulls. An awkward catch to a good hold. Somewhat morpho. The landing is OK with a few pads.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:morko"
+            ]
+          }
+        },
+        "morko-problem-4": {
+          "description": {
+            "text": "Sit start to Golden Reciever. Morpho.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:morko"
+            ]
+          }
+        },
+        "morko-problem-5": {
+          "description": {
+            "text": "A steep undercling problem through the roof of a small boulder behind Berghuset. A humiliatingly strenuous start.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:morko"
+            ]
+          }
+        },
+        "morko-problem-6": {
+          "description": {
+            "text": "A wicked problem to the right of the cave entrance.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:morko"
+            ]
+          }
+        },
+        "morko-problem-7": {
+          "description": {
+            "text": "Roof problem beneath Berghuset. Follow the easiest line until it starts getting hard.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:morko"
+            ]
+          }
+        },
+        "morko-problem-8": {
+          "description": {
+            "text": "Roof problem beneath Berghuset.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:morko"
+            ]
+          }
+        },
+        "morko-problem-9": {
+          "description": {
+            "text": "Roof problem beneath Berghuset. http://users.grevture.com/~stogroweb/images/berghuset1.jpg",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:morko"
+            ]
+          }
+        }
+      }
+    }
   }
 }

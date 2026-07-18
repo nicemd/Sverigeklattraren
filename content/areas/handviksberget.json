@@ -237,5 +237,110 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "A mossy crag with two faces: one steep and slightly broken, about 15 m high and south-west-facing; the other comprising smooth slabs, 15–20 m high and south-east-facing. There are around ten routes here. Its location and the climbing mean that this crag will never rank among the major venues, but there are in fact a few potentially decent routes, particularly on the large slab. Lots of moss and plenty of work needed before it becomes really pleasant.",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:handviksberget"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "General",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:handviksberget"
+            ]
+          },
+          "body": {
+            "text": "A mossy crag with two faces: one steep and somewhat cracked, around 15 m high and facing south-west; the other consisting of smooth slabs, 15–20 m high and facing south-east. There are around ten routes here. Its location and the climbing mean that this will never be considered one of the major crags, but there are in fact a few routes of potentially decent quality, particularly on the large slab. Lots of moss and lots of work needed before it becomes really pleasant.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:handviksberget"
+            ]
+          }
+        },
+        "miljo": {
+          "title": {
+            "text": "Aspect and conditions",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:handviksberget"
+            ]
+          },
+          "body": {
+            "text": "South-west and south-east facing, shady and mossy.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:handviksberget"
+            ]
+          }
+        },
+        "vagbeskrivning": {
+          "title": {
+            "text": "Directions",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:handviksberget"
+            ]
+          },
+          "body": {
+            "text": "The crag lies around 1.5 km north of Fituna gård. Follow the directions for Fullbroberget until a road turns sharply left, around 500 m before the bathing place. Follow the road to a turning area by a barrier. Continue along the road on foot to a red house, Handvik. The crag is visible from here.\n\nOld coordinates: 10 I SV 518120",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:handviksberget"
+            ]
+          }
+        },
+        "kommunikationer": {
+          "title": {
+            "text": "Public transport",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:handviksberget"
+            ]
+          },
+          "body": {
+            "text": "The easiest way to get there is to get off bus 783 at Fitunavägen. Follow it for around 500 m, then turn right onto a small forest road towards Torpängen, a small croft reached after around 1 km. Continue along various paths heading west until you reach a road after around 300 m. Follow the road to the left as described above.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:handviksberget"
+            ]
+          }
+        },
+        "leder": {
+          "title": {
+            "text": "Routes",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:handviksberget"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:handviksberget"
+            ]
+          }
+        }
+      },
+      "routes": {}
+    }
   }
 }

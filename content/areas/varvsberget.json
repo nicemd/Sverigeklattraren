@@ -35,5 +35,19 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "Guide by Billingens Klätterklubb (http://www4.idrottonline.se/ImageVaultFiles/id_245724/cf_72266/forareversion1.pdf)",
+        "method": "llm",
+        "model": "gpt-4o-mini",
+        "sourceIds": [
+          "legacy:varvsberget"
+        ]
+      },
+      "sections": {},
+      "routes": {}
+    }
   }
 }

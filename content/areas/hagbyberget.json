@@ -237,5 +237,121 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "An approximately 10 m-high crag, mainly offering face climbing, with a couple of fine finger cracks.",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:hagbyberget"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "Overview",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hagbyberget"
+            ]
+          },
+          "body": {
+            "text": "Approximately 10m-high crag, mostly face climbing, with a couple of fine finger cracks.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hagbyberget"
+            ]
+          }
+        },
+        "beskrivning": {
+          "title": {
+            "text": "Description",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hagbyberget"
+            ]
+          },
+          "body": {
+            "text": "There are currently no bolts at Hagbyberget, and it has seen little climbing. A very pleasant, open spot, and the rock has superb friction. However, there are not many routes, so it can easily get crowded. To maintain good relations with the landowner, climbers should stay away during October.\n\nThere is a guide to the crag; contact Björn.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hagbyberget"
+            ]
+          }
+        },
+        "rekomenderade-leder": {
+          "title": {
+            "text": "Recommended routes",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hagbyberget"
+            ]
+          },
+          "body": {
+            "text": "5+, 7m. Fine layback.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hagbyberget"
+            ]
+          }
+        },
+        "vagbeskrivning": {
+          "title": {
+            "text": "Directions",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hagbyberget"
+            ]
+          },
+          "body": {
+            "text": "From Uppsala, take road 72 to Vänge and turn left towards Hagby. Drive 5km south until you see the football pitch on the west side. Just before the pitch, take the road on the left signposted Nyborg and continue for 200m to the clearing on the right. You can park there if it is not being used for timber storage. Then continue on foot for another 100m and take the path on the left into the woods. Follow it north for 300m to the crag. (20min total by car)",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hagbyberget"
+            ]
+          }
+        },
+        "leder": {
+          "title": {
+            "text": "Routes",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hagbyberget"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hagbyberget"
+            ]
+          }
+        }
+      },
+      "routes": {
+        "hagbyberget-led-1": {
+          "description": {
+            "text": "Nice layback.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hagbyberget"
+            ]
+          }
+        }
+      }
+    }
   }
 }

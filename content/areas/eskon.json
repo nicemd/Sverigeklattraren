@@ -2495,5 +2495,1739 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "Eskön is 25 km north of Gävle.",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:eskon"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "General",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:eskon"
+            ]
+          },
+          "body": {
+            "text": "Eskön lies 25 km north of Gävle.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:eskon"
+            ]
+          }
+        },
+        "kommunikationer": {
+          "title": {
+            "text": "Access",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:eskon"
+            ]
+          },
+          "body": {
+            "text": "From Gävle, drive 15 km north along Trödjevägen (the old E4) and turn right at a sign reading “ESKÖN 7”. After 7 km, turn right by a village shop and continue along a gravel road for about 3 km, until Centralklippan is visible from the road.\n\nVery, very approximate GPS coordinates: Lat: N 60º 47' 34.45\" Long: E 17º 20' 29.39\"",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:eskon"
+            ]
+          }
+        },
+        "historik": {
+          "title": {
+            "text": "History",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:eskon"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:eskon"
+            ]
+          }
+        },
+        "klippan": {
+          "title": {
+            "text": "The crag",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:eskon"
+            ]
+          },
+          "body": {
+            "text": "Centralklippan is up to 10 metres high, with steep, fine crack climbing. There are plenty of smaller walls and boulders around Centralklippan. Very few routes have been climbed.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:eskon"
+            ]
+          }
+        },
+        "boulderproblem": {
+          "title": {
+            "text": "Boulder problems",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:eskon"
+            ]
+          },
+          "body": {
+            "text": "These sectors and their boulder problems are taken from the Bimbo guide.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:eskon"
+            ]
+          }
+        },
+        "a": {
+          "title": {
+            "text": "A",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:eskon"
+            ]
+          },
+          "body": {
+            "text": "http://www.bouldersinc.se/Bilder/A.jpg Sector A is the leftmost area as seen from the car park. Cross the field to reach the sector. Sector A includes Taggtrådsblocket, Hårdareblocket and Foo Fightersblocket. The walls between the various boulders are also part of the sector.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:eskon"
+            ]
+          }
+        },
+        "b": {
+          "title": {
+            "text": "B",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:eskon"
+            ]
+          },
+          "body": {
+            "text": "http://www.bouldersinc.se/Bilder/B.jpg Sector B is the area around Skogsklippan and includes Påskväggen, Lösablocket and a few smaller nearby boulders.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:eskon"
+            ]
+          }
+        },
+        "c": {
+          "title": {
+            "text": "C",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:eskon"
+            ]
+          },
+          "body": {
+            "text": "http://www.bouldersinc.se/Bilder/C.jpg Sector C is up to the right as seen from the car park. Head towards the “meadow” and follow the power line to the right to reach the boulders. The sector includes Kraftledningsblocken, Speleologiblocket and Snusblocken.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:eskon"
+            ]
+          }
+        },
+        "d": {
+          "title": {
+            "text": "D",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:eskon"
+            ]
+          },
+          "body": {
+            "text": "http://www.bouldersinc.se/Bilder/D.jpg Sector D is the area behind Skogsklippan and also includes Vattenblocken.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:eskon"
+            ]
+          }
+        },
+        "e": {
+          "title": {
+            "text": "E",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:eskon"
+            ]
+          },
+          "body": {
+            "text": "Sector E consists of Centralklippan and the surrounding area.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:eskon"
+            ]
+          }
+        },
+        "f": {
+          "title": {
+            "text": "F",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:eskon"
+            ]
+          },
+          "body": {
+            "text": "http://www.bouldersinc.se/Bilder/Sektor%20F.jpg Sector F is most easily reached by driving as far as possible along the road and parking at the turning area. The sector includes Stjärnväggen and Dynoväggen.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:eskon"
+            ]
+          }
+        },
+        "g": {
+          "title": {
+            "text": "G",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:eskon"
+            ]
+          },
+          "body": {
+            "text": "Sector G is the entire area down towards the water and includes Militärklippan, Båtblocket, Excersisblocket and Kanalblocket.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:eskon"
+            ]
+          }
+        },
+        "h": {
+          "title": {
+            "text": "H",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:eskon"
+            ]
+          },
+          "body": {
+            "text": "For now, Sector H consists only of Mantlingsblocken. It is the furthest sector from the car park, beyond Militärklippan.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:eskon"
+            ]
+          }
+        },
+        "drakberget": {
+          "title": {
+            "text": "Drakberget",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:eskon"
+            ]
+          },
+          "body": {
+            "text": "To reach Drakberget, drive out towards Eskön. Instead of turning right at the “Här slutar allmän väg” sign, turn left. Turn right after the “village shop” and follow the road for about 1 km; the crag will be on the right.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:eskon"
+            ]
+          }
+        },
+        "klubben": {
+          "title": {
+            "text": "Klubben",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:eskon"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:eskon"
+            ]
+          }
+        },
+        "svartmarsberget": {
+          "title": {
+            "text": "Svartmarsberget",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:eskon"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:eskon"
+            ]
+          }
+        }
+      },
+      "routes": {
+        "eskon-led-1": {
+          "description": {
+            "text": "Free ascent: Lars Eriksson",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:eskon"
+            ]
+          }
+        },
+        "eskon-led-2": {
+          "description": {
+            "text": "Two alternative finishes are possible.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:eskon"
+            ]
+          }
+        },
+        "eskon-led-3": {
+          "description": {
+            "text": "Free ascent: Kent Andersson and Lars Eriksson",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:eskon"
+            ]
+          }
+        },
+        "eskon-problem-5": {
+          "description": {
+            "text": "Mind the barbed wire on the ground that gave the problem its name. At the far left of Taggtrådsblocket in Sector A.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:eskon"
+            ]
+          }
+        },
+        "eskon-problem-6": {
+          "description": {
+            "text": "Sit start to Taggtråden, raising the grade a notch.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:eskon"
+            ]
+          }
+        },
+        "eskon-problem-7": {
+          "description": {
+            "text": "Climbs the arete to the right of Taggtråden on Taggtrådsblocket in Sector A.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:eskon"
+            ]
+          }
+        },
+        "eskon-problem-8": {
+          "description": {
+            "text": "Starts low on the left of Taggtrådsblocket, right next to Dog Fight. Start on the two obvious holds, then climb straight up and over the top.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:eskon"
+            ]
+          }
+        },
+        "eskon-problem-9": {
+          "description": {
+            "text": "Climbs the middle of Taggtrådsväggen, on the leftmost boulder by the clear-cut area in Sector A.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:eskon"
+            ]
+          }
+        },
+        "eskon-problem-10": {
+          "description": {
+            "text": "Climbs to the right of Passa Pinchen on Taggtrådsblocket in Sector A.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:eskon"
+            ]
+          }
+        },
+        "eskon-problem-11": {
+          "description": {
+            "text": "To the left of Den till vänster om stölden, facing the clear-cut area. The section left of the crack on the boulder is out.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:eskon"
+            ]
+          }
+        },
+        "eskon-problem-12": {
+          "description": {
+            "text": "Climbs straight up the crack to the left of Stölden. On the side facing the clear-cut area, between Taggtrådsväggen and Hårdareväggen.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:eskon"
+            ]
+          }
+        },
+        "eskon-problem-13": {
+          "description": {
+            "text": "The crack to the left is out.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:eskon"
+            ]
+          }
+        },
+        "eskon-problem-14": {
+          "description": {
+            "text": "Climbs to the left of U.C.S on Hårdareblocket, facing the clear-cut area.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:eskon"
+            ]
+          }
+        },
+        "eskon-problem-15": {
+          "description": {
+            "text": "On the left of Hårdareblocket, facing the clear-cut area. Establish on two underclings in the middle of the face. The large rock to the left is out—the cracked section that has broken off. Climb straight up without using the right-hand arete.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:eskon"
+            ]
+          }
+        },
+        "eskon-problem-16": {
+          "description": {
+            "text": "Climbs the obvious crack on Hårdareblocket. Sit start and follow the crack straight up.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:eskon"
+            ]
+          }
+        },
+        "eskon-problem-17": {
+          "description": {
+            "text": "Climbs just left of centre on Hårdareblocket. Sit start with a right-hand two-finger hold and left hand in the crack. Move up and match in the crack, then climb straight up without heading towards the arete.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:eskon"
+            ]
+          }
+        },
+        "eskon-problem-18": {
+          "description": {
+            "text": "Start in the same crack as Halvhård on Hårdareblocket. Move up right via a small sidepull/pinch, then over the top.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:eskon"
+            ]
+          }
+        },
+        "eskon-problem-19": {
+          "description": {
+            "text": "Climbs the right-hand side of Hårdareblocket. Start on two crimps, continue to an undercling and climb over the top.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:eskon"
+            ]
+          }
+        },
+        "eskon-problem-20": {
+          "description": {
+            "text": "Same start as Hårdare, then move right and climb up along the arete.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:eskon"
+            ]
+          }
+        },
+        "eskon-problem-21": {
+          "description": {
+            "text": "On Foo Fightersblocket, 10 metres into the woods from Hårdareväggen. Climbs the obvious overhanging arete.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:eskon"
+            ]
+          }
+        },
+        "eskon-problem-22": {
+          "description": {
+            "text": "On Foo Fightersblocket, 10 metres into the woods from Hårdareväggen. Climbs immediately right of Everlong.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:eskon"
+            ]
+          }
+        },
+        "eskon-problem-23": {
+          "description": {
+            "text": "Climbs between Hårdare and Hårdast on Hårdareblocket. Go straight up between the two problems towards the large ledge at the top of the bulge.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:eskon"
+            ]
+          }
+        },
+        "eskon-problem-24": {
+          "description": {
+            "text": "As you pass Skogsklippan towards passa pungen and the back of Skogsklippan, you pass two small aretes. The first is Ronnys aréte and the second Johans aréte.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:eskon"
+            ]
+          }
+        },
+        "eskon-problem-25": {
+          "description": {
+            "text": "As you pass Skogsklippan towards passa pungen and the back of Skogsklippan, you pass two small aretes. The first is Ronnys aréte and the second Johans aréte.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:eskon"
+            ]
+          }
+        },
+        "eskon-problem-26": {
+          "description": {
+            "text": "Follow the arete on good holds to the top. The leftmost problem on Lösablocket.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:eskon"
+            ]
+          }
+        },
+        "eskon-problem-27": {
+          "description": {
+            "text": "On the left of Lösablocket, immediately right of Oförsäkrad. Slightly overhanging with large holds.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:eskon"
+            ]
+          }
+        },
+        "eskon-problem-28": {
+          "description": {
+            "text": "The rock is slightly loose. Do not place your right foot too far out on the top-out, as it may be loose there.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:eskon"
+            ]
+          }
+        },
+        "eskon-problem-29": {
+          "description": {
+            "text": "Climbs the right-hand arete of Lösablocket.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:eskon"
+            ]
+          }
+        },
+        "eskon-problem-30": {
+          "description": {
+            "text": "The face is around the corner from Höjdskräck on Påskväggen. The section of rock right of the crack is out.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:eskon"
+            ]
+          }
+        },
+        "eskon-problem-31": {
+          "description": {
+            "text": "Climbs to the left of Nicko var är strumpan. The face is around the corner from Höjdskräck on Påskväggen.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:eskon"
+            ]
+          }
+        },
+        "eskon-problem-32": {
+          "description": {
+            "text": "Climbs the leftmost arete of Påskväggen, following the arete upwards.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:eskon"
+            ]
+          }
+        },
+        "eskon-problem-33": {
+          "description": {
+            "text": "Starts in the leftmost crack by the arete on Påskväggen, then follows the crack rightwards and up.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:eskon"
+            ]
+          }
+        },
+        "eskon-problem-34": {
+          "description": {
+            "text": "Climbs left of the large vertical crack on Påskväggen, the crack where Ronnys travers finishes. The crux is at the end.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:eskon"
+            ]
+          }
+        },
+        "eskon-problem-35": {
+          "description": {
+            "text": "The rightmost problem on the high section of Påskväggen. Dyno from the large edges to the edge 10 cm below the top, or use the sidepull to the right to reach the same edge.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:eskon"
+            ]
+          }
+        },
+        "eskon-problem-36": {
+          "description": {
+            "text": "Climbs to the left of Långfredag on Påskväggen.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:eskon"
+            ]
+          }
+        },
+        "eskon-problem-37": {
+          "description": {
+            "text": "Climbs to the left of Skärtorsdag on Påskväggen.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:eskon"
+            ]
+          }
+        },
+        "eskon-problem-38": {
+          "description": {
+            "text": "The rightmost problem on Påskväggen.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:eskon"
+            ]
+          }
+        },
+        "eskon-problem-39": {
+          "description": {
+            "text": "Start at the far left of Påskväggen, from the same start as Ronnys travers. Traverse the entire face to the right and top out as far right as possible without using the arete.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:eskon"
+            ]
+          }
+        },
+        "eskon-problem-40": {
+          "description": {
+            "text": "Climbs to the right of the crack where Ronnys travers finishes. The crack to the left is out.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:eskon"
+            ]
+          }
+        },
+        "eskon-problem-41": {
+          "description": {
+            "text": "A variation on Först fanns det grepp sen kom Dan. Climbs just right of Junior och de gamla grenarna, in the middle of Lösablocket. Start on an undercling and a crimp, then go for the top.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:eskon"
+            ]
+          }
+        },
+        "eskon-problem-42": {
+          "description": {
+            "text": "Climbs just right of Junior och de gamla grenarna on Lösablocket.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:eskon"
+            ]
+          }
+        },
+        "eskon-problem-43": {
+          "description": {
+            "text": "Same start as Vattenskräck, but follows the boulder leftwards past the arete before climbing up beyond it.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:eskon"
+            ]
+          }
+        },
+        "eskon-problem-44": {
+          "description": {
+            "text": "On the first large boulder among Kraftledningsblocken. Same start as Svanka, then mantle straight up via the rounded hold.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:eskon"
+            ]
+          }
+        },
+        "eskon-problem-45": {
+          "description": {
+            "text": "On the back of the boulder where svankit goes.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:eskon"
+            ]
+          }
+        },
+        "eskon-problem-46": {
+          "description": {
+            "text": "At the power-line boulders. Facing Ronnys kana, the problem takes the arete of the boulder to the left. A low problem with a sit start.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:eskon"
+            ]
+          }
+        },
+        "eskon-problem-47": {
+          "description": {
+            "text": "On the same boulder as Tjocksälen. Start on the back as viewed from Tjocksälen. Place your foot on the large bulge, then traverse right around the boulder and finish up Tjocksälen.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:eskon"
+            ]
+          }
+        },
+        "eskon-problem-48": {
+          "description": {
+            "text": "On the same side as Lägre än låg, on the leftmost of the power-line boulders. Right hand on a sloper/sidepull and left hand on a low undercling/sidepull. The boulder to the left is out.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:eskon"
+            ]
+          }
+        },
+        "eskon-problem-49": {
+          "description": {
+            "text": "On the same side as Lägre än låg, on the leftmost of the power-line boulders. As for Våga vägra sittstart, but without the arete. Establish the start on the crimp/sidepull beneath the overhang.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:eskon"
+            ]
+          }
+        },
+        "eskon-problem-50": {
+          "description": {
+            "text": "At the power-line boulders, on the other side of the power line as viewed from Slippery when wet, to the right of the sit-start problems. Start low on the jug. Follow the crack up over the lip. Mantel crux.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:eskon"
+            ]
+          }
+        },
+        "eskon-problem-51": {
+          "description": {
+            "text": "At the power-line boulders. Walk past Våga vägra sittstart towards the speleology boulder; it is just before the boulder ends. Start on the jug, then mantel over the lip. The large section of rock to the right is out for feet.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:eskon"
+            ]
+          }
+        },
+        "eskon-problem-52": {
+          "description": {
+            "text": "Left of Knubbsälen at the power-line boulders. Start out left on the jugs, traverse along the roof to Knubbsälen and finish up Knubbsälen.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:eskon"
+            ]
+          }
+        },
+        "eskon-problem-53": {
+          "description": {
+            "text": "On the largest of the power-line boulders, on the side facing the power line. Start on two crimps and the large foothold. Continue slightly right over the lip.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:eskon"
+            ]
+          }
+        },
+        "eskon-problem-54": {
+          "description": {
+            "text": "On the arete of the largest power-line boulder, facing the power line. Sit start on the large jug.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:eskon"
+            ]
+          }
+        },
+        "eskon-problem-55": {
+          "description": {
+            "text": "On the largest power-line boulder, right of Slippery when wet. Start on the sharp crimp, then go straight up and left. Do not go right across the moss into Nybörjaren.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:eskon"
+            ]
+          }
+        },
+        "eskon-problem-56": {
+          "description": {
+            "text": "On the largest power-line boulder, right of Left hand crimp. Goes straight up to the right of the moss.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:eskon"
+            ]
+          }
+        },
+        "eskon-problem-57": {
+          "description": {
+            "text": "Walk past the power-line boulders towards the road; the problem is on the left before the road. Start down in the cave with both hands on the obvious edge. The brushed foothold on the boulder to the left is in for the start.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:eskon"
+            ]
+          }
+        },
+        "eskon-problem-58": {
+          "description": {
+            "text": "Start on the large sidepull beneath the boulder. Move out onto the edge and arete, then straight up. Only the underside of the boulder to the right is in. At the far right of the speleology boulder.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:eskon"
+            ]
+          }
+        },
+        "eskon-problem-59": {
+          "description": {
+            "text": "Start lying beneath the rock, with both hands in the obvious pockets in the crack. The crux is getting out and up without touching the ground. Left of Hårdrock on the speleology boulder.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:eskon"
+            ]
+          }
+        },
+        "eskon-problem-60": {
+          "description": {
+            "text": "Left of Speleologi for beginners on the speleology boulder.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:eskon"
+            ]
+          }
+        },
+        "eskon-problem-61": {
+          "description": {
+            "text": "Around the left side of the speleology boulder, starting on the obvious edge. The boulder to the left is out for feet.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:eskon"
+            ]
+          }
+        },
+        "eskon-problem-63": {
+          "description": {
+            "text": "Brilliant line, easier than it looks...",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:eskon"
+            ]
+          }
+        },
+        "eskon-problem-64": {
+          "description": {
+            "text": "The brushed foothold on the boulder to the left is in.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:eskon"
+            ]
+          }
+        },
+        "eskon-problem-65": {
+          "description": {
+            "text": "On the same boulder as Ragnar. Start beneath the roof.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:eskon"
+            ]
+          }
+        },
+        "eskon-problem-66": {
+          "description": {
+            "text": "On the back of the large boulder before the central crag, following a small arete.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:eskon"
+            ]
+          }
+        },
+        "eskon-problem-67": {
+          "description": {
+            "text": "An extension to syster dyster (syster dyster is the same problem as \"Tjejpisk\", but without using the boulder beside it for feet). At the power-line boulders. Start in the cave on the edges to the right. Mind the rock.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:eskon"
+            ]
+          }
+        },
+        "eskon-problem-68": {
+          "description": {
+            "text": "Right of Katla, along the lip. Start on the right-hand end of the low lip of the overhang. Traverse along the lip and mantel up.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:eskon"
+            ]
+          }
+        },
+        "eskon-problem-69": {
+          "description": {
+            "text": "At the forest crag.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:eskon"
+            ]
+          }
+        },
+        "eskon-problem-70": {
+          "description": {
+            "text": "At the forest crag.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:eskon"
+            ]
+          }
+        },
+        "eskon-problem-71": {
+          "description": {
+            "text": "At the forest crag. Double dyno between the cracks, then another double dyno to the top.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:eskon"
+            ]
+          }
+        },
+        "eskon-problem-72": {
+          "description": {
+            "text": "At the forest crag.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:eskon"
+            ]
+          }
+        },
+        "eskon-problem-73": {
+          "description": {
+            "text": "At the forest crag.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:eskon"
+            ]
+          }
+        },
+        "eskon-problem-74": {
+          "description": {
+            "text": "At the forest crag. Follows the right-hand arete.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:eskon"
+            ]
+          }
+        },
+        "eskon-problem-75": {
+          "description": {
+            "text": "At the forest crag. Follows the left-hand arete and tops out at the same point as \"Tokfin\".",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:eskon"
+            ]
+          }
+        },
+        "eskon-problem-76": {
+          "description": {
+            "text": "At the forest crag. Starts on two crimps in the middle of the wall.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:eskon"
+            ]
+          }
+        },
+        "eskon-problem-77": {
+          "description": {
+            "text": "At the forest crag. Starts inside a cave. Top out through a hole!",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:eskon"
+            ]
+          }
+        },
+        "eskon-problem-78": {
+          "description": {
+            "text": "At the forest crag, starting beneath a small overhang. Essentially the same problem as dreamcatcher, but with any choice of handholds and footholds at the start.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:eskon"
+            ]
+          }
+        },
+        "eskon-problem-79": {
+          "description": {
+            "text": "Use the same sit start as \"Vill du bli piska med björken deluxe\", then traverse right and finish up \"tokfin\".",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:eskon"
+            ]
+          }
+        },
+        "eskon-problem-80": {
+          "description": {
+            "text": "At the water boulders.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:eskon"
+            ]
+          }
+        },
+        "eskon-problem-81": {
+          "description": {
+            "text": "Start at the back of the cave where Reinkarnation goes, traverse out towards the entrance and climb straight up Reinkarnation. The wall behind your back is out.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:eskon"
+            ]
+          }
+        },
+        "eskon-problem-82": {
+          "description": {
+            "text": "At the water boulders, about 50 metres north-west of the central crag.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:eskon"
+            ]
+          }
+        },
+        "eskon-problem-83": {
+          "description": {
+            "text": "At the forest crag. Drop down into a hole to reach the start.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:eskon"
+            ]
+          }
+        },
+        "eskon-problem-84": {
+          "description": {
+            "text": "Start with your left hand on a good crimp above the lip.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:eskon"
+            ]
+          }
+        },
+        "eskon-problem-85": {
+          "description": {
+            "text": "On the back of the forest crag.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:eskon"
+            ]
+          }
+        },
+        "eskon-problem-86": {
+          "description": {
+            "text": "The same as Vill du få pisk med björken, but with a sit start.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:eskon"
+            ]
+          }
+        },
+        "eskon-problem-87": {
+          "description": {
+            "text": "On the Water Boulders. Starts just left of the right-hand arete, then trends diagonally left to the juggy ramp. The area is on the hill above Dreamcatcher; stand with your back to Dreamcatcher and walk straight uphill.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:eskon"
+            ]
+          }
+        },
+        "eskon-problem-88": {
+          "description": {
+            "text": "Standing start on the left side of the high vertical wall at the Water Boulders. The grade is uncertain and may be easier.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:eskon"
+            ]
+          }
+        },
+        "eskon-problem-89": {
+          "description": {
+            "text": "Right of Dreamcatcher, on the same boulder.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:eskon"
+            ]
+          }
+        },
+        "eskon-problem-90": {
+          "description": {
+            "text": "The roof beside the Water Boulder at spirited away. Low sit start on the logs in the water.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:eskon"
+            ]
+          }
+        },
+        "eskon-problem-91": {
+          "description": {
+            "text": "Standing start left of Dinosaurie fot.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:eskon"
+            ]
+          }
+        },
+        "eskon-problem-92": {
+          "description": {
+            "text": "At Centralklippan.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:eskon"
+            ]
+          }
+        },
+        "eskon-problem-93": {
+          "description": {
+            "text": "At Centralklippan.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:eskon"
+            ]
+          }
+        },
+        "eskon-problem-94": {
+          "description": {
+            "text": "Climbs a ‘pillar’ left of Escape.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:eskon"
+            ]
+          }
+        },
+        "eskon-problem-95": {
+          "description": {
+            "text": "At Centralklippan.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:eskon"
+            ]
+          }
+        },
+        "eskon-problem-96": {
+          "description": {
+            "text": "At Centralklippan.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:eskon"
+            ]
+          }
+        },
+        "eskon-problem-97": {
+          "description": {
+            "text": "At Centralklippan.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:eskon"
+            ]
+          }
+        },
+        "eskon-problem-98": {
+          "description": {
+            "text": "At Centralklippan.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:eskon"
+            ]
+          }
+        },
+        "eskon-problem-99": {
+          "description": {
+            "text": "At Centralklippan.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:eskon"
+            ]
+          }
+        },
+        "eskon-problem-100": {
+          "description": {
+            "text": "At Centralklippan.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:eskon"
+            ]
+          }
+        },
+        "eskon-problem-102": {
+          "description": {
+            "text": "Around the corner past 7up and the neighbouring problems.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:eskon"
+            ]
+          }
+        },
+        "eskon-problem-103": {
+          "description": {
+            "text": "On Stjärnväggen, about 150 metres diagonally uphill and right from Centralklippan.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:eskon"
+            ]
+          }
+        },
+        "eskon-problem-104": {
+          "description": {
+            "text": "On Stjärnväggen. The large crack to the right is out.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:eskon"
+            ]
+          }
+        },
+        "eskon-problem-105": {
+          "description": {
+            "text": "On Stjärnväggen.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:eskon"
+            ]
+          }
+        },
+        "eskon-problem-106": {
+          "description": {
+            "text": "On Stjärnväggen.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:eskon"
+            ]
+          }
+        },
+        "eskon-problem-107": {
+          "description": {
+            "text": "On Stjärnväggen.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:eskon"
+            ]
+          }
+        },
+        "eskon-problem-108": {
+          "description": {
+            "text": "On Stjärnväggen.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:eskon"
+            ]
+          }
+        },
+        "eskon-problem-109": {
+          "description": {
+            "text": "The leftmost problem on Dynoväggen.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:eskon"
+            ]
+          }
+        },
+        "eskon-problem-110": {
+          "description": {
+            "text": "The rightmost problem on Dynoväggen. The arete to the right is out. The coordinates mark the wall, not the problem.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:eskon"
+            ]
+          }
+        },
+        "eskon-problem-111": {
+          "description": {
+            "text": "At Militärklippan, starting low beneath the overhang.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:eskon"
+            ]
+          }
+        },
+        "eskon-problem-112": {
+          "description": {
+            "text": "At Militärklippan.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:eskon"
+            ]
+          }
+        },
+        "eskon-problem-113": {
+          "description": {
+            "text": "At Militärklippan.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:eskon"
+            ]
+          }
+        },
+        "eskon-problem-114": {
+          "description": {
+            "text": "In a cleft at the top of Militärklippan, starting just right of a small birch tree.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:eskon"
+            ]
+          }
+        },
+        "eskon-problem-115": {
+          "description": {
+            "text": "At Militärklippan, on the boulder right of Shoop. Climbs the left-hand arete.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:eskon"
+            ]
+          }
+        },
+        "eskon-problem-116": {
+          "description": {
+            "text": "At Militärklippan, on a boulder immediately right of Shoop. Standing start in the crack between the boulders.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:eskon"
+            ]
+          }
+        },
+        "eskon-problem-117": {
+          "description": {
+            "text": "At Militärklippan, on the opposite side of the same boulder as Corona Extra. Starts on the arete and finishes up and right.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:eskon"
+            ]
+          }
+        },
+        "eskon-problem-118": {
+          "description": {
+            "text": "Left of Tak så mycket at Militärklippan.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:eskon"
+            ]
+          }
+        },
+        "eskon-problem-119": {
+          "description": {
+            "text": "On Båtblocket at Militärklippan.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:eskon"
+            ]
+          }
+        },
+        "eskon-problem-120": {
+          "description": {
+            "text": "On Båtblocket at Militärklippan. Standing start at the bow of the ‘boat’.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:eskon"
+            ]
+          }
+        },
+        "eskon-problem-121": {
+          "description": {
+            "text": "On Båtblocket at Militärklippan, right of 91:an. Starts at the far right of the large rounded bulge.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:eskon"
+            ]
+          }
+        },
+        "eskon-problem-122": {
+          "description": {
+            "text": "On Båtblocket at Militärklippan.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:eskon"
+            ]
+          }
+        },
+        "eskon-problem-123": {
+          "description": {
+            "text": "On Båtblocket.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:eskon"
+            ]
+          }
+        },
+        "eskon-problem-124": {
+          "description": {
+            "text": "On Exercisblocket.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:eskon"
+            ]
+          }
+        },
+        "eskon-problem-125": {
+          "description": {
+            "text": "At Militärklippan. The sit-start to Givakt!",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:eskon"
+            ]
+          }
+        },
+        "eskon-problem-126": {
+          "description": {
+            "text": "The leftmost problem on Exercisblocket, on the same side as Givakt!.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:eskon"
+            ]
+          }
+        },
+        "eskon-problem-127": {
+          "description": {
+            "text": "On the back of Exercisblocket.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:eskon"
+            ]
+          }
+        },
+        "eskon-problem-128": {
+          "description": {
+            "text": "On a boulder beside the ‘canal’ between Eskön and klubben. Follow the road towards Militärklippan and turn right when you reach the water. The problem is the leftmost line on the road-facing side of the boulder. Start at the arrow.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:eskon"
+            ]
+          }
+        },
+        "eskon-problem-129": {
+          "description": {
+            "text": "On a boulder beside the ‘canal’ between Eskön and klubben, right of Ann Ahl(s) boulder. Start at the arrow, slightly right of centre on the road-facing side, and climb straight up.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:eskon"
+            ]
+          }
+        },
+        "eskon-problem-130": {
+          "description": {
+            "text": "On the same boulder as I maskopi med en sursloper, Gävle edition., around the corner to the right when viewed from the road. Sit start at the arrow and follow the arete.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:eskon"
+            ]
+          }
+        },
+        "eskon-problem-131": {
+          "description": {
+            "text": "At Militärklippan. Starts on the vertical wall left of Fullständigt Obehaglig.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:eskon"
+            ]
+          }
+        },
+        "eskon-problem-132": {
+          "description": {
+            "text": "At Militärklippan, on the right-hand arete.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:eskon"
+            ]
+          }
+        },
+        "eskon-problem-133": {
+          "description": {
+            "text": "On Båtblocket. Starts right of Junk food rules and climbs straight up.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:eskon"
+            ]
+          }
+        },
+        "eskon-problem-134": {
+          "description": {
+            "text": "On \"Båtblocket\". Start as for \"Supermeal\", then head left into \"Junk food\".",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:eskon"
+            ]
+          }
+        },
+        "eskon-problem-135": {
+          "description": {
+            "text": "On Kanalblocket. Start on the slab right of the arete taken by I maskopi med en sursloper..., then continue straight up from the ledge.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:eskon"
+            ]
+          }
+        },
+        "eskon-problem-136": {
+          "description": {
+            "text": "On the back of the boulder with Givakt. An old project with a dyno/jump crux.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:eskon"
+            ]
+          }
+        },
+        "eskon-problem-137": {
+          "description": {
+            "text": "At \"Mantlings väggarna\". Follow the crack up left.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:eskon"
+            ]
+          }
+        },
+        "eskon-problem-138": {
+          "description": {
+            "text": "At \"Mantlingsväggarna\". The coordinates are for the wall, not the individual problem.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:eskon"
+            ]
+          }
+        },
+        "eskon-problem-139": {
+          "description": {
+            "text": "On the other side of the wall from Junior mantling. The coordinates are for the wall.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:eskon"
+            ]
+          }
+        },
+        "eskon-problem-140": {
+          "description": {
+            "text": "Start lying beneath the boulder.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:eskon"
+            ]
+          }
+        },
+        "eskon-problem-141": {
+          "description": {
+            "text": "The problem is in the new area between Eskön and Eskörönningen. Before the boulders, a gravel track leads towards the water. Walk down it, then turn right. A fine overhanging wall after about 100 m.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:eskon"
+            ]
+          }
+        },
+        "eskon-problem-142": {
+          "description": {
+            "text": "Out on the island of Klubben. Wade across, then walk straight along the shore for 300 m.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:eskon"
+            ]
+          }
+        },
+        "eskon-problem-143": {
+          "description": {
+            "text": "Out on Klubben. Best done in spring when the ice is still there; otherwise the landing is awful! :)",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:eskon"
+            ]
+          }
+        },
+        "eskon-problem-144": {
+          "description": {
+            "text": "Established start with the right hand on the side hold.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:eskon"
+            ]
+          }
+        },
+        "eskon-problem-145": {
+          "description": {
+            "text": "Runs into the crag in the area behind Skogsklippan. Chimney climbing at its finest.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:eskon"
+            ]
+          }
+        },
+        "eskon-problem-146": {
+          "description": {
+            "text": "In the \"cave\" a little below the entrance to Reinkarnation. The boulder on the right is out.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:eskon"
+            ]
+          }
+        }
+      }
+    }
   }
 }

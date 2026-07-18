@@ -276,5 +276,123 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "An overhanging limestone crag, 10–15 metres high. The rock looks somewhat loose but is actually reasonably solid. Quite fun, pumpy climbing and well worth a visit if you happen to be on Gotland.\n\nMost of the routes were first climbed by Patrik Agerkrans.",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:galgberget"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "Overview",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:galgberget"
+            ]
+          },
+          "body": {
+            "text": "Overhanging limestone crag, 10–15 metres high. The rock looks somewhat loose but is actually reasonably sound. Quite fun, pumpy climbing, and perfectly OK if you happen to be on Gotland anyway.\n\nMost of the routes were first climbed by Patrik Agerkrans.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:galgberget"
+            ]
+          }
+        },
+        "miljo": {
+          "title": {
+            "text": "Aspect and conditions",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:galgberget"
+            ]
+          },
+          "body": {
+            "text": "West-facing. The wall is partly shaded by the trees.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:galgberget"
+            ]
+          }
+        },
+        "vagbeskrivning": {
+          "title": {
+            "text": "Directions",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:galgberget"
+            ]
+          },
+          "body": {
+            "text": "The crag is located about 1.5 km beyond the northern part of the city wall. From the car park, follow the path uphill to the left for about 150 metres, then turn right. Turn off left just before the steps, and the crag appears after about 20 metres.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:galgberget"
+            ]
+          }
+        },
+        "leder": {
+          "title": {
+            "text": "Routes",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:galgberget"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:galgberget"
+            ]
+          }
+        }
+      },
+      "routes": {
+        "galgberget-led-2": {
+          "description": {
+            "text": "Top-rope route from the anchor in the middle of the easiest wall, left of the troll carving.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:galgberget"
+            ]
+          }
+        },
+        "galgberget-led-5": {
+          "description": {
+            "text": "The finest route on the wall, with very sustained and pumpy climbing on large holds.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:galgberget"
+            ]
+          }
+        },
+        "galgberget-led-7": {
+          "description": {
+            "text": "Holds have broken off at the start, making it harder. Perhaps 7b+?",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:galgberget"
+            ]
+          }
+        }
+      }
+    }
   }
 }

@@ -59,5 +59,92 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "Small ice in a well-protected environment.",
+        "method": "llm",
+        "model": "gpt-4o-mini",
+        "sourceIds": [
+          "legacy:trollhattan"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "General",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:trollhattan"
+            ]
+          },
+          "body": {
+            "text": "Small ice in a well-protected environment.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:trollhattan"
+            ]
+          }
+        },
+        "vagbeskrivning": {
+          "title": {
+            "text": "Directions",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:trollhattan"
+            ]
+          },
+          "body": {
+            "text": "Drive along either side of the river towards the lock area. Either on the south side via Nohab Industrial Area and park at the visitor parking lot. Or on the opposite side past the falls area, the church, the power station, and the allotments. Park at the first visitor parking lot. The ice is located at the bottom of the old lock, and you can conveniently set a top anchor behind the yellow kiosk and rappel down to the bottom of the lock. The ice is visible from the bridge over the top of the lock.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:trollhattan"
+            ]
+          }
+        },
+        "isfallen": {
+          "title": {
+            "text": "Ice Falls",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:trollhattan"
+            ]
+          },
+          "body": {
+            "text": "At the lock, there’s a fall larger than the others, approximately 12 meters high and 6-8 meters wide. A few other formations exist in the lock and at the actual lock gate, where ice also forms (uncertain about its climbability). At the bottom of the lock, it tends to be quite wet, and there’s a risk of breaking through the ice into the muck. It’s likely quite hard to keep your feet dry when the thaw period begins...",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:trollhattan"
+            ]
+          }
+        },
+        "access": {
+          "title": {
+            "text": "Access",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:trollhattan"
+            ]
+          },
+          "body": {
+            "text": "Note: The area is owned and monitored by the Maritime Administration/Lock Authority, and they have not chased us away so far. However, the descent behind the kiosk goes through a Rhododendron bush, which should be handled with care. Along the wall you need to climb to access the top, there is a water line bolted in place. Do not hang on this!\n\nIt’s probably smartest to set up the top rope (or not) and rappel down on a separate rope, then ascend with a jumar after you’re done. This way, there’s no risk of damaging anything or irritating anyone.\n\nThe largest ice.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:trollhattan"
+            ]
+          }
+        }
+      },
+      "routes": {}
+    }
   }
 }

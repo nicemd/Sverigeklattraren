@@ -42,5 +42,56 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "Vertical to slightly slabby rock. Compact and north-facing. A few routes can be led on nuts, but most climbing here is done on a top rope.",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:fagersberget"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "General",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:fagersberget"
+            ]
+          },
+          "body": {
+            "text": "Vertical to slightly slabby, solid, north-facing rock. A few routes can be led on nuts, but climbing here is mainly top-roped.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:fagersberget"
+            ]
+          }
+        },
+        "vagbeskrivning": {
+          "title": {
+            "text": "Directions",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:fagersberget"
+            ]
+          },
+          "body": {
+            "text": "From the E4, turn off at Bergsviken towards Svensbyn. Pass a fairly large blasted rock cutting, then turn left towards Vitsand. Immediately turn right. Just before a white house, turn left onto a gravel road. Park where the road ends. Follow the power lines to the crag.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:fagersberget"
+            ]
+          }
+        }
+      },
+      "routes": {}
+    }
   }
 }

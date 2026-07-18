@@ -62,5 +62,74 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "Sport crag near Gunnebo.",
+        "method": "llm",
+        "model": "gpt-4o-mini",
+        "sourceIds": [
+          "legacy:valstadsberget"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "General",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:valstadsberget"
+            ]
+          },
+          "body": {
+            "text": "Sport crag near Gunnebo.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:valstadsberget"
+            ]
+          }
+        },
+        "vagbeskrivning": {
+          "title": {
+            "text": "Directions",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:valstadsberget"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:valstadsberget"
+            ]
+          }
+        },
+        "forare": {
+          "title": {
+            "text": "Guide",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:valstadsberget"
+            ]
+          },
+          "body": {
+            "text": "The guide by Västervik Climbing can be found at www.vastervikclimbing.se (http://www.vastervikclimbing.se/klattercentret/pdfer/).",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:valstadsberget"
+            ]
+          }
+        }
+      },
+      "routes": {}
+    }
   }
 }

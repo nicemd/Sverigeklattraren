@@ -105,5 +105,123 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "Valberget is best known for its sport climbing, but there are plenty of boulders and lower walls here too. A few easy problems have been climbed, but there's significant potential for new routes for those willing to put in some work with a steel brush.",
+        "method": "llm",
+        "model": "gpt-4o-mini",
+        "sourceIds": [
+          "legacy:valberget-boulder"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "General",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:valberget-boulder"
+            ]
+          },
+          "body": {
+            "text": "Valberget is best known for its sport climbing, but there are plenty of boulders and lower walls here too. A few easy problems have been climbed, but there's great potential for new routes for those willing to put in some work with a wire brush.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:valberget-boulder"
+            ]
+          }
+        },
+        "hitta-hit": {
+          "title": {
+            "text": "Getting There",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:valberget-boulder"
+            ]
+          },
+          "body": {
+            "text": "From the E22, take the exit signposted for Karlshamn Hospital, then head north towards Asarum. Go straight through two small roundabouts and turn right at the third roundabout towards Asarum Centre. At the 'big intersection' by ICA and Coop in Asarum, turn right and continue towards the edge of the town. Turn right towards Granefors and after about 100 meters, turn left towards Tararp. Just after a small bridge, turn right (again towards Granefors) and follow the road through the S-bend. Directly after the bend, two small roads appear on the left. Take the right one, signposted for Valberget, and follow it for about 1 kilometre to a clear junction. Here, it's signposted left to Valberget; park your car here and ensure there's space for the landowner to pass with forestry machinery. If you plan a bit, you could probably fit four cars here. Continue on foot along the road to the large turning area where people used to park. Follow the path, which is the continuation of the road, and take the first fork left. Then follow the path slightly to the left keeping an old (now overgrown) clearing on your left. Gradually veer more to the right, away from the 'clearing'. Shortly after, the rock becomes visible across a wet dip. If you continue along the path, you'll find walkways over the dip.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:valberget-boulder"
+            ]
+          }
+        },
+        "tungan": {
+          "title": {
+            "text": "The Tongue",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:valberget-boulder"
+            ]
+          },
+          "body": {
+            "text": "A small protruding boulder right by the path after the Welcome Boulder.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:valberget-boulder"
+            ]
+          }
+        },
+        "kyrkblocken": {
+          "title": {
+            "text": "The Church Boulders",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:valberget-boulder"
+            ]
+          },
+          "body": {
+            "text": "A collection of blocks under the large roof.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:valberget-boulder"
+            ]
+          }
+        }
+      },
+      "routes": {
+        "valberget-boulder-problem-1": {
+          "description": {
+            "text": "An obvious short traverse and mantling at the highest point. More of a circus act/play than a boulder problem.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:valberget-boulder"
+            ]
+          }
+        },
+        "valberget-boulder-problem-2": {
+          "description": {
+            "text": "Sharp arete.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:valberget-boulder"
+            ]
+          }
+        },
+        "valberget-boulder-problem-3": {
+          "description": {
+            "text": "Sweeping traverse line on fairly good holds but with subpar footholds. Mantling on the corner.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:valberget-boulder"
+            ]
+          }
+        }
+      }
+    }
   }
 }

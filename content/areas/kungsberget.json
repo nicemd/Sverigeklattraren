@@ -70,5 +70,92 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "Kungsberget is located 20 km north of Sandviken.",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:kungsberget"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "General",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:kungsberget"
+            ]
+          },
+          "body": {
+            "text": "Kungsberget is located 20 km north of Sandviken.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:kungsberget"
+            ]
+          }
+        },
+        "access": {
+          "title": {
+            "text": "Access",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:kungsberget"
+            ]
+          },
+          "body": {
+            "text": "Climbing is completely prohibited at Kungsberget.\n\nPlease respect this! Gästrike Klätterklubb (GKK) (http://www.gkk.nu/) is in discussions with the Gävleborg County Administrative Board about expanding access; do not jeopardise this dialogue.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:kungsberget"
+            ]
+          }
+        },
+        "kommunikationer": {
+          "title": {
+            "text": "Getting there",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:kungsberget"
+            ]
+          },
+          "body": {
+            "text": "By car: follow the same road as for the Kungsberget ski resort, but about 1 km south of it, turn left at a sign reading \"Norrby 2\". The crags can now be glimpsed through the trees. After 2 km, the road ends at a farm. From here, a red-waymarked path leads uphill to a sign reading \"Grottorna\"; continue past it to reach the campsite.\n\nVery approximate GPS coordinates: Lat: N 60º 44' 59.41\" Long: E 16º 30' 35.99\"",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:kungsberget"
+            ]
+          }
+        },
+        "vaggen": {
+          "title": {
+            "text": "The crag",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:kungsberget"
+            ]
+          },
+          "body": {
+            "text": "The crag faces south and is several hundred metres long. Its maximum height is probably 20–25 m. Much of the rock is very mossy. There are some pleasant caves right by the campsite. The area is a nature reserve, and climbing is completely prohibited.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:kungsberget"
+            ]
+          }
+        }
+      },
+      "routes": {}
+    }
   }
 }

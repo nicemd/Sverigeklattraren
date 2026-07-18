@@ -38,7 +38,7 @@ const concurrency = Math.max(1, Math.min(6, Number.isFinite(requestedConcurrency
 if (!runAll && requestedAreas.length === 0) throw new Error("Ange --area <slug> eller välj uttryckligen --all.");
 await loadLocalEnv();
 if (!process.env.OPENAI_API_KEY) throw new Error("OPENAI_API_KEY saknas.");
-const model = process.env.OPENAI_TRANSLATION_MODEL || process.env.OPENAI_MODEL || "gpt-5.6-sol";
+const model = process.env.OPENAI_TRANSLATION_MODEL || process.env.OPENAI_MODEL || "gpt-4o-mini";
 const client = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
 const manifestPath = path.join(contentRoot, "areas.json");
 const manifest = JSON.parse(await readFile(manifestPath, "utf8"));
@@ -56,7 +56,16 @@ try { failures = JSON.parse(await readFile(failuresPath, "utf8")); } catch { /* 
 const atomicJsonWrite = async (filename, data) => {
   const temporary = `${filename}.${process.pid}.tmp`;
   await writeFile(temporary, `${JSON.stringify(data, null, 2)}\n`);
-  await rename(temporary, filename);
+  for (let attempt = 1; attempt <= 8; attempt += 1) {
+    try {
+      await rename(temporary, filename);
+      return;
+    } catch (error) {
+      const retryable = ["EPERM", "EBUSY", "EACCES"].includes(error?.code);
+      if (!retryable || attempt === 8) throw error;
+      await new Promise((resolve) => setTimeout(resolve, 100 * (2 ** (attempt - 1))));
+    }
+  }
 };
 let checkpointQueue = Promise.resolve();
 const queueCheckpoint = () => {
@@ -106,46 +115,105 @@ const parseWithRetry = async (request, label) => {
   throw lastError;
 };
 
+const parseCompleteWithRetry = async (request, label, isComplete) => {
+  for (let attempt = 1; attempt <= 3; attempt += 1) {
+    const response = await parseWithRetry(request, label);
+    if (response.output_parsed && isComplete(response.output_parsed)) return response.output_parsed;
+    if (attempt < 3) console.warn(`${label}: ofullständigt strukturerat svar, försöker igen.`);
+  }
+  throw new Error(`${label}: ofullständigt strukturerat svar efter 3 försök.`);
+};
+
+const sourceNeedsTranslation = (source) => {
+  const text = String(source || "").trim();
+  return Boolean(text) && !/^=+[^=\r\n]+=+$/.test(text);
+};
+const translatedValueComplete = (translated, source) => translated
+  && typeof translated.text === "string"
+  && (!sourceNeedsTranslation(source) || translated.text.trim().length > 0);
+const translationComplete = (area, translation) => {
+  if (!translatedValueComplete(translation?.description, area.description)) return false;
+  if ((area.sections || []).some((section) => {
+    const translated = translation?.sections?.[section.id];
+    return !translatedValueComplete(translated?.title, section.title)
+      || !translatedValueComplete(translated?.body, section.body);
+  })) return false;
+  return !(area.routes || []).some((route) => {
+    if (!route.description && !route.beta) return false;
+    const translated = translation?.routes?.[route.id];
+    return (route.description && !translatedValueComplete(translated?.description, route.description))
+      || (route.beta && !translatedValueComplete(translated?.beta, route.beta));
+  });
+};
+
 const translateArea = async (summary) => {
   const areaPath = path.join(contentRoot, "areas", `${summary.slug}.json`);
   const area = JSON.parse(await readFile(areaPath, "utf8"));
   const contextHash = translationContextHash(area);
   const cached = output.areas[area.slug];
-  let translation = cached?.contextHash === contextHash && !force ? cached.translation : null;
-  if (!translation) {
-    const context = translationContext(area);
-    const primarySourceId = area.provenance.primarySourceId;
-    const descriptionResponse = await parseWithRetry({
+  const cacheMatches = cached?.contextHash === contextHash && !force;
+  const completeCache = cacheMatches && translationComplete(area, cached.translation);
+  const context = translationContext(area);
+  const primarySourceId = area.provenance.primarySourceId;
+  const translation = cacheMatches
+    ? structuredClone(cached.translation)
+    : { description: null, sections: {}, routes: {} };
+  let changed = !completeCache;
+
+  if (!translatedValueComplete(translation.description, context.description)) {
+    if (!sourceNeedsTranslation(context.description)) {
+      translation.description = value("", [primarySourceId]);
+    } else {
+      const description = await parseCompleteWithRetry({
       model, store: false, max_output_tokens: 1200, instructions,
       input: `Translate the area description.\n<context>${JSON.stringify({ name: context.name, categories: context.categories, sectionTitles: context.sections.map((section) => section.title), routeNames: context.routes.slice(0, 80).map((route) => route.name) })}</context>\n<description>${context.description}</description>`,
       text: { format: zodTextFormat(descriptionSchema, "area_description_translation") },
-    }, `${area.slug}/beskrivning`);
-    if (!descriptionResponse.output_parsed) throw new Error(`Ingen beskrivningsöversättning för ${area.slug}.`);
-    translation = { description: value(descriptionResponse.output_parsed.description, [primarySourceId]), sections: {}, routes: {} };
+      }, `${area.slug}/beskrivning`, (parsed) => translatedValueComplete({ text: parsed.description }, context.description));
+      translation.description = value(description.description, [primarySourceId]);
+    }
+  }
 
-    for (const chunk of chunksByCharacters(context.sections, 12_000)) {
-      const response = await parseWithRetry({
+  const missingSections = context.sections.filter((section) => {
+    const translated = translation.sections?.[section.id];
+    return !translatedValueComplete(translated?.title, section.title)
+      || !translatedValueComplete(translated?.body, section.body);
+  });
+  for (const chunk of chunksByCharacters(missingSections, 12_000)) {
+      const parsed = await parseCompleteWithRetry({
         model, store: false, max_output_tokens: 6000, instructions,
         input: `Translate these section titles and bodies in the context of the complete climbing area. Return every id exactly once.\n<area>${JSON.stringify({ name: context.name, description: context.description, categories: context.categories, routeNames: context.routes.map((route) => route.name) })}</area>\n<sections>${JSON.stringify(chunk)}</sections>`,
         text: { format: zodTextFormat(sectionSchema, "section_translations") },
-      }, `${area.slug}/sektioner`);
-      if (!response.output_parsed) throw new Error(`Ingen sektionsöversättning för ${area.slug}.`);
-      for (const item of response.output_parsed.sections) {
+      }, `${area.slug}/sektioner`, (result) => chunk.every((source) => {
+        const item = result.sections.find((candidate) => candidate.id === source.id);
+        return item && translatedValueComplete({ text: item.title }, source.title)
+          && translatedValueComplete({ text: item.body }, source.body);
+      }));
+      for (const item of parsed.sections) {
         const source = area.sections.find((section) => section.id === item.id);
         if (!source) continue;
         translation.sections[item.id] = { title: value(item.title, [primarySourceId]), body: value(item.body, [primarySourceId]) };
       }
-    }
+  }
 
-    for (const chunk of chunksByCharacters(context.routes.filter((route) => route.description || route.beta), 11_000)) {
+  const missingRoutes = context.routes.filter((route) => {
+    if (!route.description && !route.beta) return false;
+    const translated = translation.routes?.[route.id];
+    return (route.description && !translatedValueComplete(translated?.description, route.description))
+      || (route.beta && !translatedValueComplete(translated?.beta, route.beta));
+  });
+  for (const chunk of chunksByCharacters(missingRoutes, 11_000)) {
       const sectorIds = new Set(chunk.map((route) => route.sectorId).filter(Boolean));
-      const response = await parseWithRetry({
+      const parsed = await parseCompleteWithRetry({
         model, store: false, max_output_tokens: 6000, instructions,
         input: `Translate route descriptions and beta using the area, sector and neighbouring-route context. Do not translate route names. Return every id exactly once.\n<area>${JSON.stringify({ name: context.name, description: context.description, categories: context.categories })}</area>\n<sectors>${JSON.stringify(context.sections.filter((section) => sectorIds.has(section.id)))}</sectors>\n<routes>${JSON.stringify(chunk)}</routes>`,
         text: { format: zodTextFormat(routeSchema, "route_translations") },
-      }, `${area.slug}/leder`);
-      if (!response.output_parsed) throw new Error(`Ingen ledöversättning för ${area.slug}.`);
-      for (const item of response.output_parsed.routes) {
+      }, `${area.slug}/leder`, (result) => chunk.every((source) => {
+        const item = result.routes.find((candidate) => candidate.id === source.id);
+        return item
+          && (!source.description || item.description.trim())
+          && (!source.beta || item.beta.trim());
+      }));
+      for (const item of parsed.routes) {
         const source = area.routes.find((route) => route.id === item.id);
         if (!source) continue;
         const descriptionSources = source.fieldSources?.description || [source.source.id];
@@ -155,9 +223,15 @@ const translateArea = async (summary) => {
           ...(source.beta ? { beta: value(item.beta, betaSources) } : {}),
         };
       }
-    }
+  }
+
+  if (!translationComplete(area, translation)) throw new Error(`${area.slug}: översättningen är inte komplett.`);
+  const hadFailure = Boolean(failures.failures[area.slug]);
+  if (changed) {
     output.areas[area.slug] = { contextHash, translatedAt: new Date().toISOString(), translation };
     output = { ...output, generatedAt: new Date().toISOString(), model };
+  }
+  if (changed || hadFailure) {
     delete failures.failures[area.slug];
     failures.updatedAt = new Date().toISOString();
     await queueCheckpoint();
@@ -165,7 +239,7 @@ const translateArea = async (summary) => {
   area.translations = { ...(area.translations || {}), en: translation };
   await writeFile(areaPath, `${JSON.stringify(area, null, 2)}\n`);
   summary.translations = { ...(summary.translations || {}), en: { description: translation.description } };
-  console.log(`${area.slug}: ${Object.keys(translation.sections || {}).length} sections, ${Object.keys(translation.routes || {}).length} routes translated${cached?.contextHash === contextHash && !force ? " (cache)" : ""}.`);
+  console.log(`${area.slug}: ${Object.keys(translation.sections || {}).length} sections, ${Object.keys(translation.routes || {}).length} routes translated${completeCache ? " (cache)" : ""}.`);
 };
 
 let nextTarget = 0;

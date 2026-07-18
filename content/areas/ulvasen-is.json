@@ -154,5 +154,74 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "The area is quite small, with routes between 10-15 m long. The routes face west. It's a plus that it’s quiet and peaceful. Ideal for beginners and those looking to try out climbing, as it's easy to set up top ropes. The names of the routes are made up and the first ascender is welcome to change them. Approach: the routes are easy to find if you follow the ski trail and look to the right.",
+        "method": "llm",
+        "model": "gpt-4o-mini",
+        "sourceIds": [
+          "legacy:ulvasen-is"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "General",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:ulvasen-is"
+            ]
+          },
+          "body": {
+            "text": "The area is quite small and the routes are between 10-15 m long. They face west, and it’s a plus that it’s quiet and peaceful. Ideal for beginners and trying out. It’s easy to set top ropes. The names of the routes are made up; the first ascensionist is welcome to change them. Approach: the routes are easy to find if you follow the ski track and look to the right.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:ulvasen-is"
+            ]
+          }
+        },
+        "vagbeskrivning": {
+          "title": {
+            "text": "Directions",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:ulvasen-is"
+            ]
+          },
+          "body": {
+            "text": "Take exit 80 from E20 in Partille. Drive towards Lexby/Utby. Turn right at the roundabout towards Lexby. After about 150 m, turn left onto Paradisvägen. Turn left again onto Gavelåsvägen. Drive until the road ends and park at the parking area by a brick villa. Follow the path into the forest for about 1 km. Turn right where the path splits at a sign with a skier on it. Walk about 300 m from the path intersection, and you’ll find the falls on the right side. The falls are approximately 300 m south of the climbing crags.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:ulvasen-is"
+            ]
+          }
+        },
+        "access": {
+          "title": {
+            "text": "Access",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:ulvasen-is"
+            ]
+          },
+          "body": {
+            "text": "No known access issues.\n\n--Mr Dark 27 February 2011 23:43 (CET)",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:ulvasen-is"
+            ]
+          }
+        }
+      },
+      "routes": {}
+    }
   }
 }

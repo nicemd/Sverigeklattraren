@@ -439,5 +439,373 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "A small sport crag by Nolbybacken. The routes here are fairly short but still of a high standard.",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:nolby"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "General",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:nolby"
+            ]
+          },
+          "body": {
+            "text": "A small sport crag by Nolbybacken. The routes here are fairly short but still of a high standard.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:nolby"
+            ]
+          }
+        },
+        "vagbeskrivning": {
+          "title": {
+            "text": "Directions",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:nolby"
+            ]
+          },
+          "body": {
+            "text": "From Sundsvall: Follow the E4 south to Kvissleby. Turn right, signposted Nolbykullen. Then turn immediately left, i.e. not towards Nolbybacken. Turn right onto Nyavägen, then right again onto Trastvägen. Park on the gravel road 50 m before the barrier.\n\nContinue on foot along the road. Twenty metres after a blue container, a path leads uphill to the right. Follow it for 50 m to reach the crag.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:nolby"
+            ]
+          }
+        },
+        "miljo": {
+          "title": {
+            "text": "Aspect and surroundings",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:nolby"
+            ]
+          },
+          "body": {
+            "text": "Predominantly north-facing compact rock. The woodland around the crag is fairly sparse, so it dries quite quickly.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:nolby"
+            ]
+          }
+        },
+        "leder": {
+          "title": {
+            "text": "Routes",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:nolby"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:nolby"
+            ]
+          }
+        },
+        "projekt-a-vaggen": {
+          "title": {
+            "text": "Projekt A Wall",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:nolby"
+            ]
+          },
+          "body": {
+            "text": "The first wall you reach from the path.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:nolby"
+            ]
+          }
+        },
+        "hardrocksvaggen": {
+          "title": {
+            "text": "Heavy Metal Wall",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:nolby"
+            ]
+          },
+          "body": {
+            "text": "The next wall to the right of Projekt A Wall.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:nolby"
+            ]
+          }
+        },
+        "ovrevaggen-hogra": {
+          "title": {
+            "text": "Upper Wall, right",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:nolby"
+            ]
+          },
+          "body": {
+            "text": "Located above Projekt A Wall. Senslessness finishes at the left edge of the crag.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:nolby"
+            ]
+          }
+        },
+        "ovrevaggen-vanstra": {
+          "title": {
+            "text": "Upper Wall, left",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:nolby"
+            ]
+          },
+          "body": {
+            "text": "Located above Projekt A Wall. The easiest way to get up here is via a fixed rope to the left of Projekt A Wall.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:nolby"
+            ]
+          }
+        },
+        "baksidan": {
+          "title": {
+            "text": "The Back",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:nolby"
+            ]
+          },
+          "body": {
+            "text": "Located to the left of Upper Wall, left.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:nolby"
+            ]
+          }
+        }
+      },
+      "routes": {
+        "nolby-led-1": {
+          "description": {
+            "text": "Overhanging climbing.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:nolby"
+            ]
+          }
+        },
+        "nolby-led-2": {
+          "description": {
+            "text": "Follows the bolt line diagonally up right. American-style anchor.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:nolby"
+            ]
+          }
+        },
+        "nolby-led-3": {
+          "description": {
+            "text": "Shares an anchor with Bängel.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:nolby"
+            ]
+          }
+        },
+        "nolby-led-4": {
+          "description": {
+            "text": "Shares an anchor with Torsk i tallen.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:nolby"
+            ]
+          }
+        },
+        "nolby-led-5": {
+          "description": {
+            "text": "Goes to the top. Delicate and varied climbing.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:nolby"
+            ]
+          }
+        },
+        "nolby-led-6": {
+          "description": {
+            "text": "Anchor.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:nolby"
+            ]
+          }
+        },
+        "nolby-led-7": {
+          "description": {
+            "text": "Cruxy climbing along the arete.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:nolby"
+            ]
+          }
+        },
+        "nolby-led-8": {
+          "description": {
+            "text": "Same start as Fear of the dark. Traverse left after two bolts. Anchor.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:nolby"
+            ]
+          }
+        },
+        "nolby-led-9": {
+          "description": {
+            "text": "Straight up. Anchor.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:nolby"
+            ]
+          }
+        },
+        "nolby-led-10": {
+          "description": {
+            "text": "Steep for the grade. Anchor.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:nolby"
+            ]
+          }
+        },
+        "nolby-led-11": {
+          "description": {
+            "text": "The second half follows a corner. Shares an anchor with Night comes down.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:nolby"
+            ]
+          }
+        },
+        "nolby-led-12": {
+          "description": {
+            "text": "Steep climbing. Anchor.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:nolby"
+            ]
+          }
+        },
+        "nolby-led-13": {
+          "description": {
+            "text": "Anchor.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:nolby"
+            ]
+          }
+        },
+        "nolby-led-14": {
+          "description": {
+            "text": "Shares the first two bolts with Way of the samurai, then branches right along a crack.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:nolby"
+            ]
+          }
+        },
+        "nolby-led-15": {
+          "description": {
+            "text": "Straight up. Anchor. There is a static variation out right after the final bolt: Ninja trick, 6b.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:nolby"
+            ]
+          }
+        },
+        "nolby-led-16": {
+          "description": {
+            "text": "Crack line.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:nolby"
+            ]
+          }
+        },
+        "nolby-led-17": {
+          "description": {
+            "text": "The anchor is a long way up at the top.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:nolby"
+            ]
+          }
+        },
+        "nolby-led-18": {
+          "description": {
+            "text": "The anchor is a long way up at the top.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:nolby"
+            ]
+          }
+        },
+        "nolby-led-19": {
+          "description": {
+            "text": "Starts in the cleft. The anchor is a long way up at the top.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:nolby"
+            ]
+          }
+        }
+      }
+    }
   }
 }

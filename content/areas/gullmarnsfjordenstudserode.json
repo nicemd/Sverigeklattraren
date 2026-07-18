@@ -78,5 +78,92 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "Large area with good icefalls of varying difficulty, ranging from several pitches to short 12–15 m falls. The icefalls lie along the cliffs on both the right- and left-hand sides of the harbour at Studseröd. The falls are a couple of hundred metres apart. They drop into Gullmansfjorden, so the sea ice must be sound!\n\nBe aware of the prevailing sea-ice conditions, carry ice claws or keep your ice axes ready when walking on the ice, and leave your rucksack hip belt unfastened.",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:gullmarnsfjordenstudserode"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "General",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gullmarnsfjordenstudserode"
+            ]
+          },
+          "body": {
+            "text": "A large area with fine icefalls of varying difficulty, ranging from multi-pitch routes to short 12–15 m falls. The icefalls lie along the crags on both the right- and left-hand sides of the harbour at Studseröd. There are a few hundred metres between the falls. The icefalls drop into Gullmansfjorden, so the sea ice must be secure!\n\nBe aware of the current sea-ice conditions, carry ice claws/keep your ice axes to hand when walking on the ice, and leave your rucksack waist belt undone.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gullmarnsfjordenstudserode"
+            ]
+          }
+        },
+        "stora-fallen": {
+          "title": {
+            "text": "Stora Fallen",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gullmarnsfjordenstudserode"
+            ]
+          },
+          "body": {
+            "text": "The highest icefall in Gullmarsfjorden. Photo taken on 20110106 by Johan Mörk.\n\nThe first pitch, photographed from above at the first belay. The pitch is approximately 55 m, WI4. Belay from a birch tree.\n\nThe final pitch, which climbs via a free-hanging pillar. Photo taken from the first belay by Johan Mörk on 20110106.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gullmarnsfjordenstudserode"
+            ]
+          }
+        },
+        "vagbeskrivning": {
+          "title": {
+            "text": "Directions",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gullmarnsfjordenstudserode"
+            ]
+          },
+          "body": {
+            "text": "From the E6, take the Saltkällan exit. Follow the signs towards Studseröd. On reaching Studseröd, drive down towards the harbour and park at the start of a small road on the left, approximately 200 m above the harbour. Park closely and considerately! Bear in mind that others may also want to park here, as it is commonly used by fishermen and people with houses nearby.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gullmarnsfjordenstudserode"
+            ]
+          }
+        },
+        "access": {
+          "title": {
+            "text": "Access",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gullmarnsfjordenstudserode"
+            ]
+          },
+          "body": {
+            "text": "Park considerately so as not to disturb local residents. Birds of prey nest in the surrounding area. Exercise caution during spring.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gullmarnsfjordenstudserode"
+            ]
+          }
+        }
+      },
+      "routes": {}
+    }
   }
 }

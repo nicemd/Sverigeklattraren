@@ -141,5 +141,133 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "Virsehatt is a nature reserve east of Halmstad featuring some cliffs around a prominent rise in the terrain. The routes are easily accessible and set in very beautiful natural surroundings. There are currently about 15 trad routes, and none are bolted.",
+        "method": "llm",
+        "model": "gpt-4o-mini",
+        "sourceIds": [
+          "legacy:virsehatt"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "General Information",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:virsehatt"
+            ]
+          },
+          "body": {
+            "text": "Virsehatt is a nature reserve east of Halmstad with some cliffs around a prominent rise in the terrain. The routes are easily accessible and set in very nice natural surroundings. There are currently about 15 trad routes and none are bolted.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:virsehatt"
+            ]
+          }
+        },
+        "vagbeskrivning": {
+          "title": {
+            "text": "Access",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:virsehatt"
+            ]
+          },
+          "body": {
+            "text": "Map here. Click the map button above.\n\nVirsehatt is located between Simlångsdalen and Oskarström just outside Halmstad. From the parking area, walk through the gates keeping the height on your right. Follow the path until the cliffs start to appear on your right. Turn right onto the small path and the cliff will now be clearly visible on your right.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:virsehatt"
+            ]
+          }
+        },
+        "leder": {
+          "title": {
+            "text": "Routes",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:virsehatt"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:virsehatt"
+            ]
+          }
+        },
+        "kontakt": {
+          "title": {
+            "text": "Contact",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:virsehatt"
+            ]
+          },
+          "body": {
+            "text": "For more info and photos check out Eskapader (http://www.eskapader.se)",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:virsehatt"
+            ]
+          }
+        }
+      },
+      "routes": {
+        "virsehatt-led-1": {
+          "description": {
+            "text": "Easy climbing up to the middle, then a well-protected crux, a bit loose at the top but otherwise solid.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:virsehatt"
+            ]
+          }
+        },
+        "virsehatt-led-2": {
+          "description": {
+            "text": "Crux at the start, the birch at the end is a nice resting spot, a bit loose at the top but can be protected.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:virsehatt"
+            ]
+          }
+        },
+        "virsehatt-led-3": {
+          "description": {
+            "text": "Technical climbing at the start, then various options to the top can be protected.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:virsehatt"
+            ]
+          }
+        },
+        "virsehatt-led-4": {
+          "description": {
+            "text": "Consistent and slightly green climbing.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:virsehatt"
+            ]
+          }
+        }
+      }
+    }
   }
 }

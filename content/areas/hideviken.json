@@ -204,5 +204,173 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "A fine boulder in an exceptionally beautiful setting. The rock is east-facing, offers climbing at all grades and gets the sun until midday. The area is a nature reserve, so take care not to damage anything and take all rubbish with you. Read the information board. There is a barbecue area right next to the crag. The area is currently divided into three sectors: Övre Delen, Taken and Barbeque Garden.",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:hideviken"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "General",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hideviken"
+            ]
+          },
+          "body": {
+            "text": "A fine crag in an exceptionally beautiful setting. The east-facing rock offers climbing at all grades and stays in the sun until midday. The area is a nature reserve, so take care not to damage anything and take all rubbish away with you. Read the information board. There is a barbecue area right next to the crag. The area is currently divided into three sectors: Övre Delen, Taken and Barbeque Garden.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hideviken"
+            ]
+          }
+        },
+        "vagbeskrivning": {
+          "title": {
+            "text": "Directions",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hideviken"
+            ]
+          },
+          "body": {
+            "text": "A few kilometres north of Slite, turn right towards Hellvi. After about 6 km, turn right towards Hide. After a few more kilometres, turn right onto Stengrindevägen (NB: drive slowly on the gravel road to avoid covering the summer cottages in dust). Follow the road, but do not go down to the small fishing village; keep right, and after about 500 metres the crag comes into view. Park up in the woods and walk the final stretch.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hideviken"
+            ]
+          }
+        },
+        "boende": {
+          "title": {
+            "text": "Accommodation",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hideviken"
+            ]
+          },
+          "body": {
+            "text": "Hidevikens Campingplats is at the innermost end of the eastern part of the bay. If it is closed, there are good places to pitch a tent by the water on the eastern side of the bay, south of the quarry (Hidebrottet). The right of public access applies here.\n\nMap here. Click the map button above.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hideviken"
+            ]
+          }
+        },
+        "leder": {
+          "title": {
+            "text": "Routes",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hideviken"
+            ]
+          },
+          "body": {
+            "text": "ÖVRE DELEN",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hideviken"
+            ]
+          }
+        }
+      },
+      "routes": {
+        "hideviken-led-1": {
+          "description": {
+            "text": "Sit start on two fairly good holds. Straight up.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hideviken"
+            ]
+          }
+        },
+        "hideviken-led-2": {
+          "description": {
+            "text": "Sit start on two fairly good holds. Straight up.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hideviken"
+            ]
+          }
+        },
+        "hideviken-led-3": {
+          "description": {
+            "text": "Sit start with a right-hand sidepull and a left-hand crimp. Then head up via obvious slopers and pockets.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hideviken"
+            ]
+          }
+        },
+        "hideviken-led-4": {
+          "description": {
+            "text": "Far to the left, a few metres from the descent. Sit start, then straight up on good holds and top out.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hideviken"
+            ]
+          }
+        },
+        "hideviken-led-5": {
+          "description": {
+            "text": "Sit start.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hideviken"
+            ]
+          }
+        },
+        "hideviken-led-6": {
+          "description": {
+            "text": "Start on the big hold in the middle of the roof and reach for the lip. Warning! The big flake at the top-out may not hold. Go up on the left.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hideviken"
+            ]
+          }
+        },
+        "hideviken-led-7": {
+          "description": {
+            "text": "Stand start on the ledge and head straight out.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hideviken"
+            ]
+          }
+        },
+        "hideviken-led-8": {
+          "description": {
+            "text": "The right-hand side of the large projecting block above the barbecue area.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hideviken"
+            ]
+          }
+        }
+      }
+    }
   }
 }

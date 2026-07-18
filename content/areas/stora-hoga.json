@@ -140,5 +140,110 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "Currently, there are three easy bolted routes, 7-12 metres long, graded 4b, 4c, and 5a on this crag.",
+        "method": "llm",
+        "model": "gpt-4o-mini",
+        "sourceIds": [
+          "legacy:stora-hoga"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "General",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:stora-hoga"
+            ]
+          },
+          "body": {
+            "text": "Currently, there are three easy bolted routes, 7-12 metres long, graded 4b, 4c, and 5a at this crag.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:stora-hoga"
+            ]
+          }
+        },
+        "vagbeskrivning": {
+          "title": {
+            "text": "Approach",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:stora-hoga"
+            ]
+          },
+          "body": {
+            "text": "The crag is located by Stora Högaskolan in Stora Höga, just north of Gothenburg. Search on Eniro for directions. Visible from the road.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:stora-hoga"
+            ]
+          }
+        },
+        "leder": {
+          "title": {
+            "text": "Routes",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:stora-hoga"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:stora-hoga"
+            ]
+          }
+        },
+        "lank": {
+          "title": {
+            "text": "Link",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:stora-hoga"
+            ]
+          },
+          "body": {
+            "text": "http://www.8a.nu/forum/ViewForumThread.aspx?ObjectId=5745&ObjectClass=CLS_UserBlogComment&CountryCode=CZE",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:stora-hoga"
+            ]
+          }
+        },
+        "bilder": {
+          "title": {
+            "text": "Images",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:stora-hoga"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:stora-hoga"
+            ]
+          }
+        }
+      },
+      "routes": {}
+    }
   }
 }

@@ -88,5 +88,103 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "Many people have probably walked or cycled past this little crag without noticing it. A north-facing wall with fantastic views over Saltsjön and Gamla Stan. It probably only gets the sun on late summer evenings, making it a good crag for spring, summer and autumn. The start can be a little wet early in the season.",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:katarinavagen"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "General",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:katarinavagen"
+            ]
+          },
+          "body": {
+            "text": "Many people have probably walked or cycled past this little crag without noticing it. A north-facing wall with fantastic views over Saltsjön and Gamla Stan. It probably only gets the sun on late summer evenings, making it a good crag for spring, summer and autumn. The starts can be a little wet early in the season.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:katarinavagen"
+            ]
+          }
+        },
+        "access": {
+          "title": {
+            "text": "Access",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:katarinavagen"
+            ]
+          },
+          "body": {
+            "text": "As the crag is highly visible to passers-by, it is important that we climbers behave impeccably. Don't scream when you fall off the final crux ;) and take care around the planted shrubs and flowers. Be considerate of everyone and everything.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:katarinavagen"
+            ]
+          }
+        },
+        "vagbeskrivning": {
+          "title": {
+            "text": "Directions",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:katarinavagen"
+            ]
+          },
+          "body": {
+            "text": "Add directions here.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:katarinavagen"
+            ]
+          }
+        },
+        "leder": {
+          "title": {
+            "text": "Routes",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:katarinavagen"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:katarinavagen"
+            ]
+          }
+        }
+      },
+      "routes": {
+        "katarinavagen-led-1": {
+          "description": {
+            "text": "Short, sustained route with a spectacular finish! Avoid climbing to the top of the crag so as not to disturb the residents above.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:katarinavagen"
+            ]
+          }
+        }
+      }
+    }
   }
 }

@@ -358,5 +358,265 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "=Sectors=",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:hastberget"
+        ]
+      },
+      "sections": {
+        "nedre-vaggen": {
+          "title": {
+            "text": "Lower Wall",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hastberget"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hastberget"
+            ]
+          }
+        },
+        "mellanvaggen": {
+          "title": {
+            "text": "Middle Wall",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hastberget"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hastberget"
+            ]
+          }
+        },
+        "ovre-vaggen": {
+          "title": {
+            "text": "Upper Wall",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hastberget"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hastberget"
+            ]
+          }
+        }
+      },
+      "routes": {
+        "hastberget-problem-1": {
+          "description": {
+            "text": "Start with both hands on the rock below. Double dyno to the point, then straight up.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hastberget"
+            ]
+          }
+        },
+        "hastberget-problem-2": {
+          "description": {
+            "text": "Start with both hands on the rock below and climb straight up via the point.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hastberget"
+            ]
+          }
+        },
+        "hastberget-problem-3": {
+          "description": {
+            "text": "Start with your left hand on the large hold inside the crack, move left onto the point, then up.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hastberget"
+            ]
+          }
+        },
+        "hastberget-problem-4": {
+          "description": {
+            "text": "Sit start beneath the overhang and climb straight up its right-hand side.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hastberget"
+            ]
+          }
+        },
+        "hastberget-problem-5": {
+          "description": {
+            "text": "Start with both hands on the obvious edge, then climb straight up via the pocket. The boulder to the left is out.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hastberget"
+            ]
+          }
+        },
+        "hastberget-problem-6": {
+          "description": {
+            "text": "Sit start by the arete and climb straight up. The boulder to the left is out.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hastberget"
+            ]
+          }
+        },
+        "hastberget-problem-7": {
+          "description": {
+            "text": "Start on the obvious edge and dyno to the lip.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hastberget"
+            ]
+          }
+        },
+        "hastberget-problem-8": {
+          "description": {
+            "text": "A delicate dyno problem. Start with both hands on the ledge beneath the overhang, step up and launch roughly 180 centimetres to the finishing jug.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hastberget"
+            ]
+          }
+        },
+        "hastberget-problem-9": {
+          "description": {
+            "text": "Start with a high right-hand gaston and a tiny left-hand crimp, then climb straight up.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hastberget"
+            ]
+          }
+        },
+        "hastberget-problem-10": {
+          "description": {
+            "text": "Start with a left-hand gaston and a right-hand crimp, then climb straight up.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hastberget"
+            ]
+          }
+        },
+        "hastberget-problem-11": {
+          "description": {
+            "text": "A dyno problem starting with both hands on crimps in the horizontal crack. Dyno to the lip and mantle.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hastberget"
+            ]
+          }
+        },
+        "hastberget-problem-12": {
+          "description": {
+            "text": "Start with both hands on the obvious edge and climb straight up. The cracks to either side are out, though the line naturally avoids them.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hastberget"
+            ]
+          }
+        },
+        "hastberget-problem-13": {
+          "description": {
+            "text": "Start on the good ledge and climb straight up without using the crack out right.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hastberget"
+            ]
+          }
+        },
+        "hastberget-problem-14": {
+          "description": {
+            "text": "Start with both hands on the large undercut, then follow the cracks straight up.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hastberget"
+            ]
+          }
+        },
+        "hastberget-problem-15": {
+          "description": {
+            "text": "Sit start to the right of \"Another Snatch\" and climb straight up.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hastberget"
+            ]
+          }
+        },
+        "hastberget-problem-16": {
+          "description": {
+            "text": "Climb straight up by the crack.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hastberget"
+            ]
+          }
+        },
+        "hastberget-problem-17": {
+          "description": {
+            "text": "Standing start to the left of \"Nyskick\" and climb straight up. The crack followed by \"Nyskick\" is out.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hastberget"
+            ]
+          }
+        },
+        "hastberget-problem-18": {
+          "description": {
+            "text": "Start with your right hand on the same hold used for the left hand on \"Another Snatch\", and your left hand on another sidepull. Climb diagonally up left.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hastberget"
+            ]
+          }
+        },
+        "hastberget-problem-19": {
+          "description": {
+            "text": "Sit start with both hands on the ledge and climb straight up into \"Sjätte Sinnet\". The crack out left is excluded, though the line naturally avoids it.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hastberget"
+            ]
+          }
+        }
+      }
+    }
   }
 }

@@ -34,5 +34,38 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "0 documented routes and problems.",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:klovaberget"
+        ]
+      },
+      "sections": {
+        "klovaberget": {
+          "title": {
+            "text": "Klövaberget",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:klovaberget"
+            ]
+          },
+          "body": {
+            "text": "A forest crag in Simlångsdalen, about 20 km east of Halmstad towards Ljungby, offering climbing on nuts or top rope. This is a very beautiful fault escarpment set in a beech forest. There are plenty of unclimbed cracks for anyone wishing to establish new routes. Note: the cracks are generally harder to protect than they look! The crag can remain wet for several days after rain. Bear in mind that it lies within a protected nature area, with all that entails. The crag once had old bolts, but these have now been removed. A guidebook will be published by Halmstad KK.\n\nSimple directions: Drive from Halmstad towards Sinlångsdalen on Route 25. In Simlångsdalen, turn left towards Oskarström and continue for about 1 km. Park in a small lay-by on the right-hand side of the road. The crag is on the left, about 200–300 m from the road.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:klovaberget"
+            ]
+          }
+        }
+      },
+      "routes": {}
+    }
   }
 }

@@ -46,5 +46,56 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "0 documented routes and problems.",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:solsidan"
+        ]
+      },
+      "sections": {
+        "hitta-hit": {
+          "title": {
+            "text": "Getting there",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:solsidan"
+            ]
+          },
+          "body": {
+            "text": "By car: Take Värmdöleden from Stockholm and turn off towards Saltsjöbaden/Fisksätra. Continue towards Saltsjöbaden. When you reach Saltsjöbaden, the road forks; take the right fork. Continue through the roundabouts. Eventually you will reach Solsidan railway station. Turn left immediately after the station, then immediately right. Continue through the residential area. When the road forks, take the right-hand road down a straight hill. At the bottom, the road ends at a turning circle. Follow the path straight ahead from the turning circle and bear right. After 20–40 metres, the crag is up the slope on the left.\n\nBy train: Take Saltsjöbanan from Slussen to Solsidan station. From the station, follow the driving directions above.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:solsidan"
+            ]
+          }
+        },
+        "forare": {
+          "title": {
+            "text": "Guide",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:solsidan"
+            ]
+          },
+          "body": {
+            "text": "http://www.klatterverket.se/bloc/solsidan.html\n\nWe have been given permission to publish this guide on Sverigeföraren.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:solsidan"
+            ]
+          }
+        }
+      },
+      "routes": {}
+    }
   }
 }

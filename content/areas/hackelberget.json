@@ -114,5 +114,56 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "From Funäsdalen, drive towards Bruksvallarna. 800 metres after the campsite there is a ploughed lay-by on the left-hand side of the road. Park here and follow the path that starts directly across the road; it is usually well trodden by ice fishers heading up to Häckelsjön. Follow the path to the lake. Cross the ice and enter the woods at the far left-hand end of the lake. Keep right around a hill to reach the small wall. To find the other walls, see the overview of the crag. Approach approximately one kilometre.\n\nJens Juhlin leading Praktikantfallet. Photo: Ted Ekberg.",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:hackelberget"
+        ]
+      },
+      "sections": {
+        "vagbeskrivning": {
+          "title": {
+            "text": "Directions",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hackelberget"
+            ]
+          },
+          "body": {
+            "text": "From Funäsdalen, drive towards Bruksvallarna. 800 metres after the campsite, there is a ploughed lay-by on the left-hand side of the road. Park here and follow the path that starts directly across the road; it is usually well trodden by ice fishers heading up to Häckelsjön. Follow the path up to the lake. Cross the ice and enter the woods at the far left-hand end of the lake. Keep right around a hill to reach the Small Wall. To find the other walls, see the overview of the crag. Approach approx. one kilometre.\n\nJens Juhlin leading Praktikantfallet. Photo: Ted Ekberg.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hackelberget"
+            ]
+          }
+        },
+        "klattringen": {
+          "title": {
+            "text": "Climbing",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hackelberget"
+            ]
+          },
+          "body": {
+            "text": "All the ice routes climbed so far are on the \"Left Wall\". There are still a couple of unclimbed lines here, but all the walls offer interesting ice and mixed lines. Feel free to climb them and report any new routes here. Some ice usually forms on the \"Lower Wall\", offering opportunities for a bit of mixed climbing. The ice routes below are on the Left Wall and are described from right to left.\n\nhttp://img100.imageshack.us/img100/6338/isklttring075hq3.jpg\n\nPraktikantfallet: WI3 40 metres Jon Wagenius, Ted Ekberg Mar.-05\n\nLarge icefall at the far right, easily recognised by the rock pillar beneath the ice, which makes the left-hand section bulge out markedly. The first steep section leads to a ledge with a large pine, from which you can abseil or continue to the top over easier-angled ice and some snow.\n\nNamnlös: WI3+ 15 metres Ted Ekberg, Oskar Stenström Mar.-07\n\nOn a smaller wall a little farther left and slightly higher up is a steep pillar that ends just below the top. Traverse about a metre left along a ledge, then climb up via some ice, rock and moss. A couple of nuts are very useful.\n\nGottegrisen: WI3- 30 metres Ted Ekberg (solo) Dec.-06\n\nLarge, broad icefall with a wide ledge and a pine halfway up. Excellent ice for beginners wanting to try leading. It can be climbed in two pitches, with a belay at the large pine halfway up if preferred.\n\nMetabol demens: 20 metres Ted Ekberg, Oskar Stenström Mar.-07\n\nMixed route just right of \"Vänstra isen\". A few metres of steep ice lead to a ledge. From the ledge, head straight up via a small corner with a birch, another ledge and the top wall, which is steeper than it looks. Reasonably well protected with 1–2 ice screws, a rack of nuts and a few small cams.\n\nVänstra isen: WI3-4 15 metres Michael Ärfström, Ted Ekberg Dec.-06\n\nA low but broad and steep ice wall offering many variations at the far left-hand end of the crag.\n\nTed Ekberg on the first ascent of Metabol Demens. Photo: Oskar Stenström.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hackelberget"
+            ]
+          }
+        }
+      },
+      "routes": {}
+    }
   }
 }

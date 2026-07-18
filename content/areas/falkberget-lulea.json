@@ -375,5 +375,223 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "A vertical to slightly overhanging crag, about 20 metres high. A good place to build up your crimp strength.",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:falkberget-lulea"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "Overview",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:falkberget-lulea"
+            ]
+          },
+          "body": {
+            "text": "Vertical to slightly overhanging crag, around 20 metres high. A good place to build up your crimp strength.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:falkberget-lulea"
+            ]
+          }
+        },
+        "vagbeskrivning": {
+          "title": {
+            "text": "Directions",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:falkberget-lulea"
+            ]
+          },
+          "body": {
+            "text": "From Töre towards Kalix.\n\n5 km from Töre, turn left at the sign for Kamlunge/Bondersbyn. Drive 6 km and turn right onto the gravel road at the crossroads. After 1.4 km, at the red house, turn right towards the crag.\n\nFrom Kalix towards Töre.\n\n11 km from the Kalix River, turn right at the sign for Bondersbyn/Småkvarnarna/V Börjelsbyn. Follow the road for 4.5 km; the crag is visible on the left. At the red house, turn up towards the crag.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:falkberget-lulea"
+            ]
+          }
+        },
+        "miljo": {
+          "title": {
+            "text": "Conditions",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:falkberget-lulea"
+            ]
+          },
+          "body": {
+            "text": "Sunny until 14:00. The crag dries quickly. Remember to bring insect repellent.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:falkberget-lulea"
+            ]
+          }
+        },
+        "leder": {
+          "title": {
+            "text": "Routes",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:falkberget-lulea"
+            ]
+          },
+          "body": {
+            "text": "Several route names are written on the rock, making it easier to find your way around. (From left to right)",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:falkberget-lulea"
+            ]
+          }
+        }
+      },
+      "routes": {
+        "falkberget-lulea-led-1": {
+          "description": {
+            "text": "At the far left of the crag.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:falkberget-lulea"
+            ]
+          }
+        },
+        "falkberget-lulea-led-4": {
+          "description": {
+            "text": "Ring anchor.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:falkberget-lulea"
+            ]
+          }
+        },
+        "falkberget-lulea-led-5": {
+          "description": {
+            "text": "Ring anchor.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:falkberget-lulea"
+            ]
+          }
+        },
+        "falkberget-lulea-led-6": {
+          "description": {
+            "text": "Crimpy.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:falkberget-lulea"
+            ]
+          }
+        },
+        "falkberget-lulea-led-8": {
+          "description": {
+            "text": "Ring anchor.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:falkberget-lulea"
+            ]
+          }
+        },
+        "falkberget-lulea-led-9": {
+          "description": {
+            "text": "Shares the start with Ryggskott.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:falkberget-lulea"
+            ]
+          }
+        },
+        "falkberget-lulea-led-10": {
+          "description": {
+            "text": "Shares the first bolt with Kleptomani.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:falkberget-lulea"
+            ]
+          }
+        },
+        "falkberget-lulea-led-11": {
+          "description": {
+            "text": "Shares the finish and anchor with Profylax.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:falkberget-lulea"
+            ]
+          }
+        },
+        "falkberget-lulea-led-12": {
+          "description": {
+            "text": "Shares the finish and anchor with Mytomani.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:falkberget-lulea"
+            ]
+          }
+        },
+        "falkberget-lulea-led-14": {
+          "description": {
+            "text": "Extension to the previous route. Ring anchor.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:falkberget-lulea"
+            ]
+          }
+        },
+        "falkberget-lulea-led-16": {
+          "description": {
+            "text": "Extension to the previous route.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:falkberget-lulea"
+            ]
+          }
+        },
+        "falkberget-lulea-led-19": {
+          "description": {
+            "text": "Starts c. 15 m to the right of Pillertrillaretripp.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:falkberget-lulea"
+            ]
+          }
+        },
+        "falkberget-lulea-led-20": {
+          "description": {
+            "text": "Start up Purex for bolts 1–4. Traverse across to Anorectica, then from bolt 6 climb left of its bolt line.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:falkberget-lulea"
+            ]
+          }
+        }
+      }
+    }
   }
 }

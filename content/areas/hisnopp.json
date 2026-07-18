@@ -51,5 +51,38 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "Hisnopp, or Hisnapp as it is called on some maps, is the large, distinctive mountain immediately west of Bodberget.",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:hisnopp"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "Overview",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hisnopp"
+            ]
+          },
+          "body": {
+            "text": "Hisnopp, or Hisnapp as it is called on some maps, is the large, distinctive mountain immediately west of Bodberget.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hisnopp"
+            ]
+          }
+        }
+      },
+      "routes": {}
+    }
   }
 }

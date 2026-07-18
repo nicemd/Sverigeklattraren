@@ -43,5 +43,56 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "A large, high crag south of Albysjön. According to the old Stockholm guidebook, the face is fairly unattractive and lacks inviting features. The northern part of the crag, facing the lake, has several smaller sections of rock that may be of somewhat greater interest.",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:grandalsberget"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "General",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:grandalsberget"
+            ]
+          },
+          "body": {
+            "text": "A large, high crag south of Albysjön. According to the old Stockholm guidebook, the face is rather unattractive and lacks inviting features. The northern part of the crag, facing the lake, has several smaller sections of rock that may be of somewhat greater interest.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:grandalsberget"
+            ]
+          }
+        },
+        "vagbeskrivning": {
+          "title": {
+            "text": "Approach",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:grandalsberget"
+            ]
+          },
+          "body": {
+            "text": "A large, high crag south of Albysjön. Unfortunately, the face is rather unattractive and lacks inviting features. The northern part of the crag, facing the lake, has several smaller sections of rock that may be of somewhat greater interest. There are a few routes of unknown origin here. There is also a very steep section, though it is somewhat hidden.\n\nThe best time to climb is early spring or late autumn, when mosquitoes are not a nuisance.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:grandalsberget"
+            ]
+          }
+        }
+      },
+      "routes": {}
+    }
   }
 }

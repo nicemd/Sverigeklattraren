@@ -55,5 +55,19 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "Directions: Drive the 155 towards Öckerö, after Maxi you’ll see 2-3 icefalls to the right, about 7-8 meters high. Quite easy climbing. Park at the commuter parking at Hällsviksvägen, a 1-minute walk away. Additional icefalls usually appear about 150 meters further on towards Öckerö.",
+        "method": "llm",
+        "model": "gpt-4o-mini",
+        "sourceIds": [
+          "legacy:torslanda-is"
+        ]
+      },
+      "sections": {},
+      "routes": {}
+    }
   }
 }

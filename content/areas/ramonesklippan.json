@@ -145,5 +145,135 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "Ramonesklippan, as it is now so aptly named, is in the shade and is ideal for a spot of evening climbing. A couple of the problems are genuinely excellent. Good landings.",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:ramonesklippan"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "General",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:ramonesklippan"
+            ]
+          },
+          "body": {
+            "text": "Ramonesklippan, as it is now so aptly called, is in the shade and ideal for a bit of evening climbing. A couple of the problems are genuinely excellent. Good landings.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:ramonesklippan"
+            ]
+          }
+        },
+        "vagbeskrivning": {
+          "title": {
+            "text": "Directions",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:ramonesklippan"
+            ]
+          },
+          "body": {
+            "text": "The crag is opposite Enskede IP, on the other side of the metro line. You can park at Enskede IP. From the car park, cross Enskedevägen and go through the tunnel beneath the metro line. After the tunnel, turn left, pass to the right of the dog exercise area, then head up into the wooded area where the crag is located.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:ramonesklippan"
+            ]
+          }
+        },
+        "boulderproblem": {
+          "title": {
+            "text": "Boulder Problems",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:ramonesklippan"
+            ]
+          },
+          "body": {
+            "text": "http://www.sverigeforaren.se/images/b/b4/Ramonesklippan.jpg",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:ramonesklippan"
+            ]
+          }
+        }
+      },
+      "routes": {
+        "ramonesklippan-problem-1": {
+          "description": {
+            "text": "Start with both hands on good holds. Red line.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:ramonesklippan"
+            ]
+          }
+        },
+        "ramonesklippan-problem-2": {
+          "description": {
+            "text": "An awkward sit start with both hands on an undercling. Blue line.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:ramonesklippan"
+            ]
+          }
+        },
+        "ramonesklippan-problem-3": {
+          "description": {
+            "text": "Start low down with your hands where SK is scrawled. Commit at the top. Black line.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:ramonesklippan"
+            ]
+          }
+        },
+        "ramonesklippan-problem-4": {
+          "description": {
+            "text": "Sit start on crimps. Over the lip and up the slab. Watch out for the tree. Yellow line.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:ramonesklippan"
+            ]
+          }
+        },
+        "ramonesklippan-problem-5": {
+          "description": {
+            "text": "Start on decent holds left of the tree and follow the crack, finishing up Ho. White line.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:ramonesklippan"
+            ]
+          }
+        },
+        "ramonesklippan-problem-6": {
+          "description": {
+            "text": "Start as for Go, then climb up into the crack. Go for the dish and mantle. The ledge on Let´s is out.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:ramonesklippan"
+            ]
+          }
+        }
+      }
+    }
   }
 }

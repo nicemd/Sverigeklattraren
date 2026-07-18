@@ -299,5 +299,128 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "A crag on climbing-starved Lidingö. The rock has been partly blasted, and several routes start from a ‘concrete balcony’ above an underground chamber housing a pumping station for the Käppala sewage treatment plant. Getting onto the balcony can be a little awkward, however. There used to be a ladder, but it has disappeared over time. Despite the unusual setting, several of the routes are actually quite good. The crag is also right by the water. As it faces east, it is well suited to evening climbing on hot summer days.",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:ekholmsnas"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "General",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:ekholmsnas"
+            ]
+          },
+          "body": {
+            "text": "A crag on climbing-starved Lidingö. The crag has been partly blasted, and several routes start from a ‘concrete balcony’ above a rock cavern housing a pumping station for the Käppala sewage treatment plant. Getting onto the balcony can be a little awkward. There used to be a ladder, but it has since disappeared. Despite the unusual setting, several of the routes are actually quite good. It is also right by the water. As it faces east, it makes a good evening crag on hot summer days.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:ekholmsnas"
+            ]
+          }
+        },
+        "miljo": {
+          "title": {
+            "text": "Setting",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:ekholmsnas"
+            ]
+          },
+          "body": {
+            "text": "East-facing and open. However, the smell of sewage can be overpowering.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:ekholmsnas"
+            ]
+          }
+        },
+        "vagbeskrivning": {
+          "title": {
+            "text": "Directions",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:ekholmsnas"
+            ]
+          },
+          "body": {
+            "text": "By car, take Södra Kungsvägen and then Gåshagaleden towards Käppala. About 500 m before Käppala bus stop, turn left (signposted Killinge) onto Katrinelundsvägen, then left onto Killingevägen. Follow it to the end and turn right onto Slånbärsvägen, which leads to a hairpin bend. About 200 m after the bend, turn right down a small gravel road leading to the water and the crag. Parking by the foot of the routes!",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:ekholmsnas"
+            ]
+          }
+        },
+        "leder": {
+          "title": {
+            "text": "Routes",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:ekholmsnas"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:ekholmsnas"
+            ]
+          }
+        },
+        "vanstervaggen": {
+          "title": {
+            "text": "Left Wall",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:ekholmsnas"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:ekholmsnas"
+            ]
+          }
+        },
+        "huvudvaggen": {
+          "title": {
+            "text": "Main Wall",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:ekholmsnas"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:ekholmsnas"
+            ]
+          }
+        }
+      },
+      "routes": {}
+    }
   }
 }

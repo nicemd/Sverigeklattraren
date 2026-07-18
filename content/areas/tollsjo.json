@@ -39,5 +39,56 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "Cliff suitable for climbing.",
+        "method": "llm",
+        "model": "gpt-4o-mini",
+        "sourceIds": [
+          "legacy:tollsjo"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "General Information",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tollsjo"
+            ]
+          },
+          "body": {
+            "text": "Climbing crag.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tollsjo"
+            ]
+          }
+        },
+        "mer-text": {
+          "title": {
+            "text": "More Information",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tollsjo"
+            ]
+          },
+          "body": {
+            "text": "A large climbing area in TÖLLSJÖ with numerous well-bolted routes, ranging from easy climbing to steep overhangs with lower-offs.\n\nThere are also extensive cave systems (the 24th largest in Sweden) for those interested in exploring; remember to bring a headlamp and helmet.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tollsjo"
+            ]
+          }
+        }
+      },
+      "routes": {}
+    }
   }
 }

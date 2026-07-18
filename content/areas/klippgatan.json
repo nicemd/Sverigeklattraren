@@ -86,5 +86,50 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "=Problems=",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:klippgatan"
+        ]
+      },
+      "sections": {},
+      "routes": {
+        "klippgatan-problem-1": {
+          "description": {
+            "text": "Short problem with the crux at the start. Start with your right hand on a crimp and your left hand lower down on a sloper. Go straight up.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:klippgatan"
+            ]
+          }
+        },
+        "klippgatan-problem-2": {
+          "description": {
+            "text": "Technical. A little high at the finish, but nothing too serious.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:klippgatan"
+            ]
+          }
+        },
+        "klippgatan-problem-3": {
+          "description": {
+            "text": "Start on the ledge that will be marked. Traverse left. Same finish as Little Jug.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:klippgatan"
+            ]
+          }
+        }
+      }
+    }
   }
 }

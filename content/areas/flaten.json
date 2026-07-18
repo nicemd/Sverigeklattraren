@@ -1249,5 +1249,273 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "A very steep crag with some of Stockholm’s hardest routes. Flatenbadet is nearby if you fancy a dip.",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:flaten"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "General",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:flaten"
+            ]
+          },
+          "body": {
+            "text": "A very steep crag with some of Stockholm's hardest routes. Close to Flatenbadet if you fancy a swim.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:flaten"
+            ]
+          }
+        },
+        "extern-forare": {
+          "title": {
+            "text": "External guide",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:flaten"
+            ]
+          },
+          "body": {
+            "text": "A guide is available on Stockholms Nätförare (http://www.plonk.se/snf/flaten.html)",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:flaten"
+            ]
+          }
+        },
+        "vagbeskrivning": {
+          "title": {
+            "text": "Directions",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:flaten"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:flaten"
+            ]
+          }
+        },
+        "leder": {
+          "title": {
+            "text": "Routes",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:flaten"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:flaten"
+            ]
+          }
+        },
+        "hells-cave": {
+          "title": {
+            "text": "Hells cave",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:flaten"
+            ]
+          },
+          "body": {
+            "text": "Located about 150 m to the left of the main wall.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:flaten"
+            ]
+          }
+        },
+        "mellanklipporna": {
+          "title": {
+            "text": "Middle crags",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:flaten"
+            ]
+          },
+          "body": {
+            "text": "Small walls between the Main Wall and Hells cave.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:flaten"
+            ]
+          }
+        },
+        "lilla-klippan": {
+          "title": {
+            "text": "Small Crag",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:flaten"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:flaten"
+            ]
+          }
+        },
+        "huvudvaggen": {
+          "title": {
+            "text": "Main Wall",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:flaten"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:flaten"
+            ]
+          }
+        },
+        "hogra-vaggen": {
+          "title": {
+            "text": "Right Wall",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:flaten"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:flaten"
+            ]
+          }
+        }
+      },
+      "routes": {
+        "flaten-led-32": {
+          "description": {
+            "text": "Start up Purimax, then move into Sumitomo.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:flaten"
+            ]
+          }
+        },
+        "flaten-led-34": {
+          "description": {
+            "text": "Unfortunately completely blackened after a fire.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:flaten"
+            ]
+          }
+        },
+        "flaten-led-35": {
+          "description": {
+            "text": "Hangers missing.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:flaten"
+            ]
+          }
+        },
+        "flaten-led-42": {
+          "description": {
+            "text": "Starts up Slick.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:flaten"
+            ]
+          }
+        },
+        "flaten-led-43": {
+          "description": {
+            "text": "Starts up Kojak, then goes left.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:flaten"
+            ]
+          }
+        },
+        "flaten-led-44": {
+          "description": {
+            "text": "Straight up the corner.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:flaten"
+            ]
+          }
+        },
+        "flaten-led-46": {
+          "description": {
+            "text": "Starts by the drilled mono.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:flaten"
+            ]
+          }
+        },
+        "flaten-led-47": {
+          "description": {
+            "text": "To the right of Columbo.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:flaten"
+            ]
+          }
+        },
+        "flaten-led-56": {
+          "description": {
+            "text": "Starts up Motorola.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:flaten"
+            ]
+          }
+        }
+      }
+    }
   }
 }

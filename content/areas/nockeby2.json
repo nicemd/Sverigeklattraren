@@ -153,5 +153,90 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "=Directions= =Problems=",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:nockeby2"
+        ]
+      },
+      "sections": {},
+      "routes": {
+        "nockeby2-problem-1": {
+          "description": {
+            "text": "Sit start to Moonlander.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:nockeby2"
+            ]
+          }
+        },
+        "nockeby2-problem-2": {
+          "description": {
+            "text": "Sit start as for Moonlander, then left along the arete feature.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:nockeby2"
+            ]
+          }
+        },
+        "nockeby2-problem-3": {
+          "description": {
+            "text": "Start as for Moonlander assis, then traverse right beneath the roof and out around the arete.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:nockeby2"
+            ]
+          }
+        },
+        "nockeby2-problem-4": {
+          "description": {
+            "text": "Classic.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:nockeby2"
+            ]
+          }
+        },
+        "nockeby2-problem-5": {
+          "description": {
+            "text": "The arete to the right of Moonlander.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:nockeby2"
+            ]
+          }
+        },
+        "nockeby2-problem-6": {
+          "description": {
+            "text": "As for Moonlander, but top out to the right.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:nockeby2"
+            ]
+          }
+        },
+        "nockeby2-problem-7": {
+          "description": {
+            "text": "Sit start to Armstrong.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:nockeby2"
+            ]
+          }
+        }
+      }
+    }
   }
 }

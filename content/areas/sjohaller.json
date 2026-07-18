@@ -159,5 +159,151 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "Continue past Häller for about 1 km. After passing a field, with water on the right, a hill comes into view. Park by a small grassy area at the right-hand foot of the hill. Walk straight over the hill and down into the hollow. The crag facing the water appears on the left.",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:sjohaller"
+        ]
+      },
+      "sections": {
+        "introduktion": {
+          "title": {
+            "text": "Introduction",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:sjohaller"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:sjohaller"
+            ]
+          }
+        },
+        "karaktar": {
+          "title": {
+            "text": "Character",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:sjohaller"
+            ]
+          },
+          "body": {
+            "text": "A 40m-high crag with its own beach. Two abseil anchors at the top.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:sjohaller"
+            ]
+          }
+        },
+        "vagbeskrivning": {
+          "title": {
+            "text": "Directions",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:sjohaller"
+            ]
+          },
+          "body": {
+            "text": "Continue past Häller for about 1km. After passing a field, with water on the right, a hill comes into view. Park at the right-hand foot of the hill by a small grassy area. Walk straight across the hill through the dip. The crag overlooking the water appears on the left.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:sjohaller"
+            ]
+          }
+        },
+        "access": {
+          "title": {
+            "text": "Access",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:sjohaller"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:sjohaller"
+            ]
+          }
+        },
+        "leder": {
+          "title": {
+            "text": "Routes",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:sjohaller"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:sjohaller"
+            ]
+          }
+        }
+      },
+      "routes": {
+        "sjohaller-led-1": {
+          "description": {
+            "text": "Cracks and a corner through black rock. One bolt.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:sjohaller"
+            ]
+          }
+        },
+        "sjohaller-led-2": {
+          "description": {
+            "text": "Starts in the crack left of the large flake. Strenuous crack and corner climbing to a ledge. Traverse 4m right beneath a small roof. Four bolts.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:sjohaller"
+            ]
+          }
+        },
+        "sjohaller-led-3": {
+          "description": {
+            "text": "Starts by the flake. Thin, strenuous and hard.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:sjohaller"
+            ]
+          }
+        },
+        "sjohaller-led-4": {
+          "description": {
+            "text": "A long line right of Little Yosemite, starting in an overhang. Five bolts, supplemented by a good selection of nuts and cams. The usual high quality for this crag.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:sjohaller"
+            ]
+          }
+        }
+      }
+    }
   }
 }

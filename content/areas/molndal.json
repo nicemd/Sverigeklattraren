@@ -185,5 +185,125 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "Central Mölndal has many small crags, all collected together on this page.",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:molndal"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "General",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:molndal"
+            ]
+          },
+          "body": {
+            "text": "There are many small crags in central Mölndal, all collected here on the same page.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:molndal"
+            ]
+          }
+        },
+        "molndalsparaden": {
+          "title": {
+            "text": "Mölndalsparaden",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:molndal"
+            ]
+          },
+          "body": {
+            "text": "This undeveloped crag lies on the southern edge of Safjället, by Bifrostgatan. Although it is quite high, it is difficult to see from the road because of the trees.\n\nDirections: The crag is on Bifrostgatan, between Toltorpsgatan and the Lackarebäck junction. It is barely visible from the road, but when you reach a patch of grass that looks like an overgrown garden, you are there. You can park your bike here and walk behind the bushes; the crag will soon come into view.\n\nBy car: Take the E6 from Gothenburg and turn off at the Lackarebäck junction. Park near one of the junctions or on another street, as parking is not permitted along Bifrostgatan.\n\nPublic transport: Several trams and buses run to Lackarebäck, the nearest stop. The Bifrost bus stop is also nearby.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:molndal"
+            ]
+          }
+        },
+        "lilla-toltorpsdalen": {
+          "title": {
+            "text": "Lilla Toltorpsdalen",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:molndal"
+            ]
+          },
+          "body": {
+            "text": "Directions: Park on Axgatan and follow the path towards Västerberget. If you reach a wire fence with a locked gate, you are in the right place. Go around the fence on the right (it ends high up to the right), continue along the path, then head uphill to the right when you begin to see granite. Walk alongside it until you find the routes, about 300–400 metres. Map (http://www.hitta.se/karta?ref=start#var=bifrost%20m%C3%B6lndal&from=1&pageCount=20&level=1&sm=6&center=6399312:1276156&type=map&zl=8&bounds=6398506:1270190,6400288:1273420&rlm=1&mp=%5B%7B%20%22x%22%3A%221271896%22%2C%20%22y%22%3A%226399312%22%2C%20%22i%22%3A%22%2Fpublic%2Fimages%2Fweb%2Fmap%2Fmap-pin%2Fpoint.png%3F120614-134402%22%2C%20%22t%22%3A%22Typ%20h%C3%A4r...%20%0A%22%7D%5D)",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:molndal"
+            ]
+          }
+        }
+      },
+      "routes": {
+        "molndal-led-1": {
+          "description": {
+            "text": "Starts in the middle of the wall behind a huge rhododendron bush and continues to the top.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:molndal"
+            ]
+          }
+        },
+        "molndal-led-3": {
+          "description": {
+            "text": "The leftmost finger crack.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:molndal"
+            ]
+          }
+        },
+        "molndal-led-4": {
+          "description": {
+            "text": "Along the arete.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:molndal"
+            ]
+          }
+        },
+        "molndal-led-5": {
+          "description": {
+            "text": "Straight up the slab to the finish of the next route. Ground-fall potential.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:molndal"
+            ]
+          }
+        },
+        "molndal-led-6": {
+          "description": {
+            "text": "Feet along the diagonal ledge/crack. Balance on the big holds.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:molndal"
+            ]
+          }
+        }
+      }
+    }
   }
 }

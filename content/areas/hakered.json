@@ -182,5 +182,74 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "8 documented routes and problems.",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:hakered"
+        ]
+      },
+      "sections": {
+        "om-klippan": {
+          "title": {
+            "text": "About the crag",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hakered"
+            ]
+          },
+          "body": {
+            "text": "Illegally bolted routes on an ancient hillfort (protected under the Heritage Conservation Act). This could have been disastrous for climbing in Gothenburg, but was resolved almost miraculously. New bolting here is STRICTLY FORBIDDEN! And continued climbing is highly questionable...",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hakered"
+            ]
+          }
+        },
+        "access": {
+          "title": {
+            "text": "Access",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hakered"
+            ]
+          },
+          "body": {
+            "text": "See above. Due to moose hunting, climbers should keep an eye out for hunters.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hakered"
+            ]
+          }
+        },
+        "leder": {
+          "title": {
+            "text": "Routes",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hakered"
+            ]
+          },
+          "body": {
+            "text": "See topo: http://www.gbg-guiden.info/site/archives/hakered_v11.pdf",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hakered"
+            ]
+          }
+        }
+      },
+      "routes": {}
+    }
   }
 }

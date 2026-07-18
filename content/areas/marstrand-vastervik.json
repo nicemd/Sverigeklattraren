@@ -54,5 +54,74 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "The Marstrand boulders comprise several overhanging walls and caves. Most are north-facing, providing good conditions even on hot summer days.",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:marstrand-vastervik"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "General",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:marstrand-vastervik"
+            ]
+          },
+          "body": {
+            "text": "The bouldering at Marstrand consists of several overhanging walls and caves. Most of it faces north, providing good temperatures even on hot summer days.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:marstrand-vastervik"
+            ]
+          }
+        },
+        "vagbeskrivning": {
+          "title": {
+            "text": "Directions",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:marstrand-vastervik"
+            ]
+          },
+          "body": {
+            "text": "The area is divided into two sectors, “Roots” and “Grottan”. “Roots” is a couple of hundred metres to the left of the path heading north from the information board in the car park. For “Grottan”, follow the path from the information board for about 100 metres, then turn right onto a smaller path. Follow this for 50 metres to “Grottan”.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:marstrand-vastervik"
+            ]
+          }
+        },
+        "extern-forare": {
+          "title": {
+            "text": "External guide",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:marstrand-vastervik"
+            ]
+          },
+          "body": {
+            "text": "http://www.vastervikclimbing.se/klattercentret/pdfer/",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:marstrand-vastervik"
+            ]
+          }
+        }
+      },
+      "routes": {}
+    }
   }
 }

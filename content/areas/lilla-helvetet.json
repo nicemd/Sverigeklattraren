@@ -312,5 +312,115 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "A crag beside the E14 near the Norwegian border. Trad climbing and/or top-roping only. Bring insect repellent.",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:lilla-helvetet"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "General",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:lilla-helvetet"
+            ]
+          },
+          "body": {
+            "text": "A crag beside the E14 near the Norwegian border. Trad climbing and/or top-rope only. Bring insect repellent.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:lilla-helvetet"
+            ]
+          }
+        },
+        "vagbeskrivning": {
+          "title": {
+            "text": "Directions",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:lilla-helvetet"
+            ]
+          },
+          "body": {
+            "text": "The crag is on the right, immediately beside the E14 and the parking area a few hundred metres beyond the border checkpoint in Storlien. On the other side of the road, a waymarked hiking trail descends to Brudslöjan.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:lilla-helvetet"
+            ]
+          }
+        },
+        "leder": {
+          "title": {
+            "text": "Routes",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:lilla-helvetet"
+            ]
+          },
+          "body": {
+            "text": "The small lake extends right up to the crag along much of it. The routes are approximately 10–25 metres long??\n\nA topo is available at www.coronn.com (http://www.coronn.com/TOPOS/readersTOPOS/readersTOPOS/Lilla_Helvetet.pdf)",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:lilla-helvetet"
+            ]
+          }
+        }
+      },
+      "routes": {
+        "lilla-helvetet-led-2": {
+          "description": {
+            "text": "Top-rope anchor",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:lilla-helvetet"
+            ]
+          }
+        },
+        "lilla-helvetet-led-4": {
+          "description": {
+            "text": "Abseil down to the start",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:lilla-helvetet"
+            ]
+          }
+        },
+        "lilla-helvetet-led-8": {
+          "description": {
+            "text": "Top rope?",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:lilla-helvetet"
+            ]
+          }
+        },
+        "lilla-helvetet-led-13": {
+          "description": {
+            "text": "Top rope",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:lilla-helvetet"
+            ]
+          }
+        }
+      }
+    }
   }
 }

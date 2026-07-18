@@ -386,5 +386,182 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "Vertical to slightly slabby rock, south-facing, dries quickly in spring. Located just over thirty kilometres from Umeå. Almost all routes are fully bolted, unless otherwise noted.",
+        "method": "llm",
+        "model": "gpt-4o-mini",
+        "sourceIds": [
+          "legacy:starrberget"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "General",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:starrberget"
+            ]
+          },
+          "body": {
+            "text": "Starrberget is a south facing vertical to off-vertical crag that dries out quickly. All routes are bolted.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:starrberget"
+            ]
+          }
+        },
+        "vagbeskrivning": {
+          "title": {
+            "text": "Directions",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:starrberget"
+            ]
+          },
+          "body": {
+            "text": "From Umeå, drive E12 towards Vännäs. At the crossroad after Vännesby take right on E12 towards Mo I Rana and continue 2 km and park at a pull-out on the right side. Follow a track up to a small cliff with some bolts on your right, walk straight past this and take a small path on your right. There will be a birch with a carving of a K in it.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:starrberget"
+            ]
+          }
+        },
+        "huvudvaggen": {
+          "title": {
+            "text": "Main Wall",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:starrberget"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:starrberget"
+            ]
+          }
+        },
+        "ovre-delen": {
+          "title": {
+            "text": "Upper Section",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:starrberget"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:starrberget"
+            ]
+          }
+        },
+        "judge-dreddvaggen": {
+          "title": {
+            "text": "Judge Dredd Wall",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:starrberget"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:starrberget"
+            ]
+          }
+        },
+        "vaggen-i-skogen": {
+          "title": {
+            "text": "Wall in the Forest",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:starrberget"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:starrberget"
+            ]
+          }
+        },
+        "uppdateringar": {
+          "title": {
+            "text": "Updates",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:starrberget"
+            ]
+          },
+          "body": {
+            "text": "=In English=",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:starrberget"
+            ]
+          }
+        },
+        "description": {
+          "title": {
+            "text": "Description",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:starrberget"
+            ]
+          },
+          "body": {
+            "text": "Starrberget is a south facing vertical to off-vertical crag that dries out quickly. All routes are bolted.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:starrberget"
+            ]
+          }
+        },
+        "directions": {
+          "title": {
+            "text": "Directions",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:starrberget"
+            ]
+          },
+          "body": {
+            "text": "From Umeå, drive E12 towards Vännäs. At the crossroad after Vännesby take right on E12 towards Mo I Rana and continue 2 km and park at a pull-out on the right side. Follow a track up to a small cliff with some bolts on your right, walk straight past this and take a small path on your right. There will be a birch with a carving of a K in it.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:starrberget"
+            ]
+          }
+        }
+      },
+      "routes": {}
+    }
   }
 }

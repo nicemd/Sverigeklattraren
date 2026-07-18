@@ -34,5 +34,38 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "0 documented routes and problems.",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:klappe"
+        ]
+      },
+      "sections": {
+        "klappe-offerdal": {
+          "title": {
+            "text": "Kläppe, Offerdal",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:klappe"
+            ]
+          },
+          "body": {
+            "text": "The following is taken from the Östersund Climbing Club website:\n\nDirections & facts\n\nStora fallet: From Östersund it is about 45 km to the village of Tulleråsen, north-west of Krokom. In Tulleråsen, turn left towards Änge. After about 1.5 km, you reach a dip where there is a red barn/garage among some trees on the right. Park beside the barn. Follow the snowmobile track towards the mountain. At the edge of the forest there is a blue-and-white waymarked path (slightly difficult to find) leading up to the ice.\n\nThe ice consists of a larger fall and a cigar. (Kläppeisen is often called Cigarren...) Both icefalls are about 25 m high to the tree at the top. A 60 m rope is recommended. There is some fun mixed climbing between the icefalls. 150 metres left of Cigarren is a narrow icefall inside a chimney which narrows considerably towards the top. Not particularly hard climbing, but enjoyably tricky. A suggested name (to continue the smoking theme) is \"Piprensarn\" (first ascent by Mårten Ellingssson / \"Göteborg Andreas\" in the late 1990s).\n\n100 metres left of the cigar mentioned above, two icicle formations emerge from a HUGE roof directly below the red summit hut. After a short roof section on rock, the left-hand one continues up a large corner (protected with nuts and cams). Belay at a tree. Suggested name: \"Bongen\" (first complete ascent by P. Fransson, 2005). There is also scope here for several more VERY steep routes for those who are bold enough. The ice is shaded by the trees, so it will probably last well into spring. (Thanks to Daniel for the descriptions of these latter, rediscovered ice lines.)\n\nParad-isen.\n\nLocated on Kittelberget by Landösjön. Drive to Landön and turn left after the shop towards Rönnöfors. After a while you reach Kittelberget. The ice is visible from the road. Easy, short approach through the forest. The ice is just over ten metres wide, 20–30 m high and grade 3–4. The area below the ice is called Paradiset, which gave us the idea for the name of the icefall. The area is lush and fertile. The landowner says that apple trees planted below the icefall were destroyed by falling ice. The landowner is welcoming towards climbers.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:klappe"
+            ]
+          }
+        }
+      },
+      "routes": {}
+    }
   }
 }

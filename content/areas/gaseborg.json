@@ -1250,5 +1250,397 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "A fine sport climbing crag right on the shore of Lake Mälaren. (Bring your swimming gear!) Mostly bolted routes and a real mecca for climbers operating in the 6c–7b range. Well protected.",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:gaseborg"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "General",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaseborg"
+            ]
+          },
+          "body": {
+            "text": "A fine sport crag right on the shore of Lake Mälaren. (Bring your swimming gear!) Mostly bolted routes and a real mecca for anyone climbing in the 6c–7b range. Well protected.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaseborg"
+            ]
+          }
+        },
+        "vagbeskrivning": {
+          "title": {
+            "text": "Directions",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaseborg"
+            ]
+          },
+          "body": {
+            "text": "Take the E18 towards Oslo. Turn off towards Viksjö. Follow Viksjöleden and turn left onto Hummelmoravägen. Turn left onto Basunvägen and park in the visitors’ car park. (A Google map is available on a separate page.) Follow the cycle path towards the woods and pass the barrier. Follow the path and cross the floodlit trail twice. The path crosses a footbridge and forks 120 metres beyond it. Take the left fork—the path is marked with yellow triangles. Cross the gravel road and follow the yellow triangles/orange trail markers. After about 5 minutes you reach another road and a tree marked with a yellow triangle and an arrow pointing left, as well as an orange marker and an arrow pointing right—turn right and follow the orange markers. After about 20 metres, turn left onto another path.\n\nYou are now at the ancient hillfort. Keep right to enter the hillfort; keep left to descend to Ravinen.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaseborg"
+            ]
+          }
+        },
+        "klippor": {
+          "title": {
+            "text": "Crags",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaseborg"
+            ]
+          },
+          "body": {
+            "text": "Gåseborg is easy to navigate. Ravinen is the first sector you reach if you keep left at the ancient hillfort. You can then follow the water while maintaining some height, which brings you up roughly by Gula Väggen. Djävulsväggen is then about 75 metres north/to the left, and Ovanför Ravinen around 20 metres south/to the right. From Ovanför Ravinen, head towards the water to reach a firepit directly above Ravinen’s top anchors. If you prefer to go straight to Djävulsväggen for a warm-up, keep right at the ancient hillfort.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaseborg"
+            ]
+          }
+        },
+        "ravinen": {
+          "title": {
+            "text": "Ravinen",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaseborg"
+            ]
+          },
+          "body": {
+            "text": "The first part of the routes is slightly overhanging, after which the wall becomes a steep slab. Several anchors can be reached from above.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaseborg"
+            ]
+          }
+        },
+        "ovanfor-ravinen": {
+          "title": {
+            "text": "Ovanför Ravinen",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaseborg"
+            ]
+          },
+          "body": {
+            "text": "The crag, called “Överhängande väggen” in the latest Stockholm guidebook (1996!), previously had three reported routes, as well as signs of earlier activity. There are now also several fine sport routes with bolts and lower-off anchors. One way to reach it is to walk straight past the firepit inside the ancient hillfort, following a small path which, after a little scrambling, leads directly to the wall. Anyone wishing to reach the anchors from above can, with the utmost caution, climb down via the hillfort on top of the crag. Abseil the final section; the ground is loose at the crag edge... The steep section is around 10 m high.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaseborg"
+            ]
+          }
+        },
+        "gula-vaggen": {
+          "title": {
+            "text": "Gula Väggen",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaseborg"
+            ]
+          },
+          "body": {
+            "text": "20 m to the left of Ovanför Ravinen",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaseborg"
+            ]
+          }
+        },
+        "djavulsvaggen": {
+          "title": {
+            "text": "Djävulsväggen",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaseborg"
+            ]
+          },
+          "body": {
+            "text": "There are no top anchors, but two substantial pine trees make up for this.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaseborg"
+            ]
+          }
+        }
+      },
+      "routes": {
+        "gaseborg-led-1": {
+          "description": {
+            "text": "New route left of Vickevire, sharing the same anchor. Well bolted, mostly on large holds, with some laybacking if desired.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaseborg"
+            ]
+          }
+        },
+        "gaseborg-led-2": {
+          "description": {
+            "text": "Finally climbable, now equipped with hangers and a couple of new bolts.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaseborg"
+            ]
+          }
+        },
+        "gaseborg-led-3": {
+          "description": {
+            "text": "The first bolt has now been replaced (Bultkommittén, Oct -11).",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaseborg"
+            ]
+          }
+        },
+        "gaseborg-led-4": {
+          "description": {
+            "text": "New anchor and a new bolt at the start (Bultkommittén, Oct -11).",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaseborg"
+            ]
+          }
+        },
+        "gaseborg-led-5": {
+          "description": {
+            "text": "New bolt at the start (Bultkommittén, Oct -11).",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaseborg"
+            ]
+          }
+        },
+        "gaseborg-led-19": {
+          "description": {
+            "text": "A hold has come off, so it is probably harder now.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaseborg"
+            ]
+          }
+        },
+        "gaseborg-led-25": {
+          "description": {
+            "text": "Follows the left-hand flake crack. It gets easier once established in the crack. Fully bolted.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaseborg"
+            ]
+          }
+        },
+        "gaseborg-led-26": {
+          "description": {
+            "text": "The crack right of Törnrosa. Slightly harder than that route.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaseborg"
+            ]
+          }
+        },
+        "gaseborg-led-30": {
+          "description": {
+            "text": "The arete right on the right-hand bend towards Överhängande väggen.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaseborg"
+            ]
+          }
+        },
+        "gaseborg-led-31": {
+          "description": {
+            "text": "Short, steep wall followed by a slab/crack. Rarely climbed.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaseborg"
+            ]
+          }
+        },
+        "gaseborg-led-32": {
+          "description": {
+            "text": "Steep start, followed by slab climbing on rounded holds.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaseborg"
+            ]
+          }
+        },
+        "gaseborg-led-33": {
+          "description": {
+            "text": "Follows the obvious pale band.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaseborg"
+            ]
+          }
+        },
+        "gaseborg-led-34": {
+          "description": {
+            "text": "Hard moves straight up, then right towards the jug.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaseborg"
+            ]
+          }
+        },
+        "gaseborg-led-35": {
+          "description": {
+            "text": "The logical start to Dynamo.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaseborg"
+            ]
+          }
+        },
+        "gaseborg-led-36": {
+          "description": {
+            "text": "Powerful start. The first bolt can be clipped from the boulder.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaseborg"
+            ]
+          }
+        },
+        "gaseborg-led-37": {
+          "description": {
+            "text": "A crimpfest on the red section.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaseborg"
+            ]
+          }
+        },
+        "gaseborg-led-39": {
+          "description": {
+            "text": "Short overhanging wall 2 m left of Apelsinleden. Rarely climbed.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaseborg"
+            ]
+          }
+        },
+        "gaseborg-led-40": {
+          "description": {
+            "text": "Steep corner. Rusty blade bolts.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaseborg"
+            ]
+          }
+        },
+        "gaseborg-led-41": {
+          "description": {
+            "text": "Lower-off.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaseborg"
+            ]
+          }
+        },
+        "gaseborg-led-42": {
+          "description": {
+            "text": "Open project. Lower-off.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaseborg"
+            ]
+          }
+        },
+        "gaseborg-led-43": {
+          "description": {
+            "text": "Short slab route south of the ascent to the ancient hillfort.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaseborg"
+            ]
+          }
+        },
+        "gaseborg-led-54": {
+          "description": {
+            "text": "Starts on the left-hand side of the edge. Traditionally protected, with no bolts (those belong to Inga fler Kratrar).",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaseborg"
+            ]
+          }
+        },
+        "gaseborg-led-55": {
+          "description": {
+            "text": "The route starts by an inscription carved into the rock, “Till minne av...”, about one metre left of the start of Wall Hall. It continues up the slab/face about 1–1.5 m left of Wall Hall all the way, without touching it, to the pine. Moving out to the edge a couple of metres to the left makes the route considerably easier. The route eases after the crux above the second bolt, but remains high-quality climbing all the way to the top. A slightly straighter, finer line than Wall Hall and considerably more demanding on both feet and fingers.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaseborg"
+            ]
+          }
+        },
+        "gaseborg-led-56": {
+          "description": {
+            "text": "A bolted start leads to a fine flake crack protected with nuts. Received new bolts in 2006.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaseborg"
+            ]
+          }
+        },
+        "gaseborg-led-58": {
+          "description": {
+            "text": "The obvious wide crack cutting across the left-hand part of the wall. The crack ends on a ledge, from where easy climbing leads to the pine if you want to abseil from it. Fun and well protected with large cams.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaseborg"
+            ]
+          }
+        }
+      }
+    }
   }
 }

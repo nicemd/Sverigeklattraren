@@ -182,5 +182,110 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "=Problem=",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:norrblocket"
+        ]
+      },
+      "sections": {},
+      "routes": {
+        "norrblocket-problem-1": {
+          "description": {
+            "text": "On the left of the boulder's slabby face.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:norrblocket"
+            ]
+          }
+        },
+        "norrblocket-problem-2": {
+          "description": {
+            "text": "Start on the right arete of the overhanging face, then follow the lip out to a jug and mantle.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:norrblocket"
+            ]
+          }
+        },
+        "norrblocket-problem-3": {
+          "description": {
+            "text": "Start on the right-hand side of the overhanging section and mantle.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:norrblocket"
+            ]
+          }
+        },
+        "norrblocket-problem-4": {
+          "description": {
+            "text": "Sit start on the right of the overhanging section, then join Midsom.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:norrblocket"
+            ]
+          }
+        },
+        "norrblocket-problem-5": {
+          "description": {
+            "text": "Start on the left of the vertical wall and climb straight up.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:norrblocket"
+            ]
+          }
+        },
+        "norrblocket-problem-6": {
+          "description": {
+            "text": "Sit start out right on the vertical wall, then climb straight up by the best method.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:norrblocket"
+            ]
+          }
+        },
+        "norrblocket-problem-7": {
+          "description": {
+            "text": "Start on the left of the wave-shaped face and mantle.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:norrblocket"
+            ]
+          }
+        },
+        "norrblocket-problem-8": {
+          "description": {
+            "text": "Start in the middle of the wave-shaped wall and top out.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:norrblocket"
+            ]
+          }
+        },
+        "norrblocket-problem-9": {
+          "description": {
+            "text": "Start on the right of the wave-shaped wall and top out.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:norrblocket"
+            ]
+          }
+        }
+      }
+    }
   }
 }

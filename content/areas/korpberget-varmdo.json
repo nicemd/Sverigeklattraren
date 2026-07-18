@@ -38,5 +38,19 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "NB! The location is approximate. http://animalstrength.blogspot.com/2008/05/franz-jaeger.html",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:korpberget-varmdo"
+        ]
+      },
+      "sections": {},
+      "routes": {}
+    }
   }
 }

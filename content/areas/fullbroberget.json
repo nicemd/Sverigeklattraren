@@ -283,5 +283,131 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "An approximately 50 m wide slab, up to 30 m high, with around ten routes. Several of the routes offer short sections of difficult climbing on tiny footholds and friction moves, while a couple provide sustained slab climbing of a length rarely found around Stockholm. It is more about small holds and footholds than pure friction, which is fortunate as the unusual, slightly slate-like rock has fairly poor friction. Protection is mostly with small wires in thin cracks, although a few routes have a small number of bolts.",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:fullbroberget"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "General",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:fullbroberget"
+            ]
+          },
+          "body": {
+            "text": "A slab about 50 m wide and up to 30 m high, with around ten routes. Several routes offer short sections of difficult climbing on tiny footholds and friction, while a couple provide sustained slab climbing of a length rarely found around Stockholm. It is more about small holds and footholds than pure friction, which is fortunate as the unusual, slightly slate-like rock has fairly poor friction. Protection is mainly with small nuts in thin cracks, though some routes have a few bolts.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:fullbroberget"
+            ]
+          }
+        },
+        "miljo": {
+          "title": {
+            "text": "Setting",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:fullbroberget"
+            ]
+          },
+          "body": {
+            "text": "South-east-facing and open to the sun. A couple of water streaks affect some of the routes. Trees and bushes closest to the crag were cleared in 2012, leaving it more open and now easier to spot.\n\nUnfortunately, the lower parts of the crag are quite mossy.\n\nParking immediately beside the crag, with a pleasant picnic meadow between the crag and the shore. Good swimming in Himmerfjärden.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:fullbroberget"
+            ]
+          }
+        },
+        "vagbeskrivning": {
+          "title": {
+            "text": "Directions",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:fullbroberget"
+            ]
+          },
+          "body": {
+            "text": "Turn right off Nynäshamnsvägen onto a forest road, signposted for a bathing area, then follow various forest roads for about 2.5 km down to a public bathing area. The crag is immediately to the right of the road, just before the bathing area.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:fullbroberget"
+            ]
+          }
+        },
+        "kommunikationer": {
+          "title": {
+            "text": "Public transport:",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:fullbroberget"
+            ]
+          },
+          "body": {
+            "text": "Take bus 783 to Stutbyvägen, the stop before Fitunavägen when travelling towards Nynäshamn. Continue ahead for about 500 m along Nynäshamnsvägen. From there, walk 2.5 km as described above. However, it is debatable whether this particular crag is worth the effort of travelling by bus.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:fullbroberget"
+            ]
+          }
+        },
+        "leder": {
+          "title": {
+            "text": "Routes",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:fullbroberget"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:fullbroberget"
+            ]
+          }
+        }
+      },
+      "routes": {
+        "fullbroberget-led-11": {
+          "description": {
+            "text": "Unprotected crux.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:fullbroberget"
+            ]
+          }
+        },
+        "fullbroberget-led-12": {
+          "description": {
+            "text": "Finishes on a ledge. Abseil sling.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:fullbroberget"
+            ]
+          }
+        }
+      }
+    }
   }
 }

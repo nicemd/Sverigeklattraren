@@ -44,5 +44,74 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "A few routes can be found between Slussen and Münchenbryggeriet, depending on seasonal conditions. Views of the City Hall.",
+        "method": "llm",
+        "model": "gpt-4o-mini",
+        "sourceIds": [
+          "legacy:sodermalarstrand"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "General",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:sodermalarstrand"
+            ]
+          },
+          "body": {
+            "text": "Some lines can be found between Slussen and Münchenbryggeriet, depending on seasonal conditions. View over the City Hall.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:sodermalarstrand"
+            ]
+          }
+        },
+        "leder": {
+          "title": {
+            "text": "Routes",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:sodermalarstrand"
+            ]
+          },
+          "body": {
+            "text": "At the traffic lights Torkel Knutssongatan/Söder Mälarstrand, there is a line. Be careful not to drop ice on a shiny XC90 waiting for green! About 15m east is another line with significantly less risk of car damage. At least one bottom bolt.\n\nBoth lines are easy to top-rope and include mixed elements (Jan 2012).\n\nIn 2011, there was a large \"wall\" for ice bouldering and traverses slightly higher up on Torkel Knutssongatan.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:sodermalarstrand"
+            ]
+          }
+        },
+        "ovrigt": {
+          "title": {
+            "text": "Miscellaneous",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:sodermalarstrand"
+            ]
+          },
+          "body": {
+            "text": "The construction (2012) of new rail tracks may affect future climbing.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:sodermalarstrand"
+            ]
+          }
+        }
+      },
+      "routes": {}
+    }
   }
 }

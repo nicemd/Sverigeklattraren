@@ -254,5 +254,113 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "The crag everyone has seen when taking the 58 past SKF, looking to the left and wondering what it is. Only very local climbers are likely to want to climb here; everyone else carries on towards Utby/Fjällbo.",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:nylose"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "General",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:nylose"
+            ]
+          },
+          "body": {
+            "text": "The crag that everyone who has taken the 58 past SKF, looked to the left and wondered what it is has seen. Only very local climbers are likely to want to climb here; everyone else carries on towards Utby/Fjällbo.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:nylose"
+            ]
+          }
+        },
+        "mer": {
+          "title": {
+            "text": "More",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:nylose"
+            ]
+          },
+          "body": {
+            "text": "The left-hand crag is behind the sports hall, while the right-hand crag is behind Nylöseskolan. Use hitta.se to find Nylöseskolan. (The crag is 400 metres from SKF).",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:nylose"
+            ]
+          }
+        },
+        "vanstra-berget": {
+          "title": {
+            "text": "Left-hand crag",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:nylose"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:nylose"
+            ]
+          }
+        },
+        "hogra-berget": {
+          "title": {
+            "text": "Right-hand crag",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:nylose"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:nylose"
+            ]
+          }
+        }
+      },
+      "routes": {
+        "nylose-led-2": {
+          "description": {
+            "text": "There are a few bolts to the right of the roof. Start from the second bolt and climb the arete. You can’t miss the route!",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:nylose"
+            ]
+          }
+        },
+        "nylose-led-5": {
+          "description": {
+            "text": "The corner.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:nylose"
+            ]
+          }
+        }
+      }
+    }
   }
 }

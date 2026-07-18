@@ -117,5 +117,123 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "The crag at Nacka Strand is quite loose in character, hence there are certain regulations around climbing (see route descriptions) and all climbers are encouraged to belay a bit away from the wall and, of course, wear a helmet! Please stand by the fence at the parking area. Currently, there are 3 developed routes at the crag. These are colour-coded and graded, see below. There are two anchors available for top-rope climbing. Access to these is via a path around the fence located at the top of the crag. More routes will be developed over time, and currently, only top-rope climbing is allowed – but with the limited mixed climbing options in Stockholm, we hope this will be a welcomed addition. If anyone wishes to develop more routes or has feedback on grades etc., please contact Jonas Klasson at 070-226 89 44 or Joakim Niklasson at 0739-864199. Tändkulevägen with the crag circled in red. The routes that have been developed so far are in the area marked in green, and it is in this zone that the property owner has indicated climbing is allowed.",
+        "method": "llm",
+        "model": "gpt-4o-mini",
+        "sourceIds": [
+          "legacy:tandkulevagen"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "General",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tandkulevagen"
+            ]
+          },
+          "body": {
+            "text": "The crag at Nacka Strand is very loose in character, which is why there are certain regulations regarding climbing (see route descriptions), and all climbers are encouraged to belay a bit away from the wall and, of course, wear a helmet! Please stand by the fence at the parking area. Currently, there are 3 routes developed at the crag. These are colour-coded in different colours and graded, see below. There are two anchors available for top roping. Access them by going around the fence at the top of the crag. More routes will be developed over time, and at the moment, it's only top rope climbing – but with the limited mixed climbing offerings in Stockholm, we hope this is a welcome addition. If anyone wishes to develop more routes or has feedback on grades, etc., please contact either Jonas Klasson at 070-226 89 44 or Joakim Niklasson at 0739-864199. Tändkulevägen with the crag circled in red. The routes that have been developed so far are in the area marked in green, which is where the landowner has indicated that climbing is allowed.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tandkulevagen"
+            ]
+          }
+        },
+        "vagbeskrivning": {
+          "title": {
+            "text": "Directions",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tandkulevagen"
+            ]
+          },
+          "body": {
+            "text": "Drive to Tändkulevägen in Nacka. Park according to the applicable regulations.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tandkulevagen"
+            ]
+          }
+        },
+        "access": {
+          "title": {
+            "text": "Access",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tandkulevagen"
+            ]
+          },
+          "body": {
+            "text": "As representatives of the landowner Nacka Strand Fastighets AB, we permit the Stockholm Climbing Club to use the rock wall at Tändkulevägen, see the sketch above, for climbing under the following conditions: The landowner takes no responsibility for any accidents related to climbing; all climbing is at your own risk. The existing fence must not be climbed on or over, nor used for anchoring ropes or similar. Placement of bolts and anchors in the rock wall is allowed but should be done in a limited manner. If clearing loose stones is required on the rock wall, any falling loose stones should be gathered into piles outside the parking area. Existing fire hydrants must not be used to wash water under any circumstances. The Stockholm Climbing Club is responsible for informing its members of the above conditions. If the above conditions are not followed, both parties agree that the right to use the rock wall for climbing will cease immediately.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tandkulevagen"
+            ]
+          }
+        },
+        "leder": {
+          "title": {
+            "text": "Routes",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tandkulevagen"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tandkulevagen"
+            ]
+          }
+        }
+      },
+      "routes": {
+        "tandkulevagen-led-1": {
+          "description": {
+            "text": "The route is orange and follows the left edge of the cleared area. For ice axe placements, use the orange-marked drilled holes (no other placements allowed), and all holds can be used for feet, including drilled holes.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tandkulevagen"
+            ]
+          }
+        },
+        "tandkulevagen-led-2": {
+          "description": {
+            "text": "The route is green and follows the middle of the cleared area. For ice axe placements, use the green-marked drilled holes (no other placements allowed), and all holds can be used for feet, including drilled holes.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tandkulevagen"
+            ]
+          }
+        },
+        "tandkulevagen-led-3": {
+          "description": {
+            "text": "The route is red and follows the right edge of the cleared area. Do not go into the corner as this area is very loose. For ice axe placements, use the red-marked drilled holes (no other placements allowed), and all holds can be used for feet, including drilled holes.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tandkulevagen"
+            ]
+          }
+        }
+      }
+    }
   }
 }

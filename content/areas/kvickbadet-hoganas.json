@@ -111,5 +111,74 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "At Kvickbadet in Höganäs, there are two artificial boulders.",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:kvickbadet-hoganas"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "General information",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:kvickbadet-hoganas"
+            ]
+          },
+          "body": {
+            "text": "At Kvickbadet in Höganäs, there are two artificial boulders.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:kvickbadet-hoganas"
+            ]
+          }
+        },
+        "beskrivning": {
+          "title": {
+            "text": "Description",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:kvickbadet-hoganas"
+            ]
+          },
+          "body": {
+            "text": "Address: Hamnplan, Höganäs. At Kvickbadet and the marina.\n\nMap (http://maps.google.se/maps?q=H%C3%B6gan%C3%A4s+-+Kvickbadet&oe=utf-8&rls=org.mozilla:en-US:official&client=firefox-a&um=1&ie=UTF-8&hq=&hnear=Kvickbadet,+H%C3%B6gan%C3%A4s&gl=se&ei=EqEHTJyOGqiHOILr9PEP&sa=X&oi=geocode_result&ct=image&resnum=1&ved=0CBgQ8gEwAA)\n\nPhoto: Ola\n\nPhoto: Ola\n\nPhoto: Ola\n\nPhoto: Höganäs Tourist Office. Used with permission.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:kvickbadet-hoganas"
+            ]
+          }
+        },
+        "lankar": {
+          "title": {
+            "text": "Links",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:kvickbadet-hoganas"
+            ]
+          },
+          "body": {
+            "text": "• Newspaper article from the opening in Höganäs (http://hd.se/hoganas/2010/05/30/det-ar-en-oslipad-diamant/)\n• Freeform climbing boulders (http://www.entre-prises.com/news/2010/05/FreeformBouldersSweden)",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:kvickbadet-hoganas"
+            ]
+          }
+        }
+      },
+      "routes": {}
+    }
   }
 }

@@ -371,5 +371,191 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "A crag right next to the toboggan run in Saltsjöbaden. Small but steep. Predominantly sport climbing. New solo/top-rope routes on the upper wall.",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:rodelberget"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "General",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:rodelberget"
+            ]
+          },
+          "body": {
+            "text": "A crag right next to the toboggan run in Saltsjöbaden. Small but steep. Mainly sport climbing. New solo/top-rope routes on the upper wall.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:rodelberget"
+            ]
+          }
+        },
+        "miljo": {
+          "title": {
+            "text": "Conditions",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:rodelberget"
+            ]
+          },
+          "body": {
+            "text": "West-facing but shady. The upper wall goes into shade at around 3 pm.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:rodelberget"
+            ]
+          }
+        },
+        "vagbeskrivning": {
+          "title": {
+            "text": "Directions",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:rodelberget"
+            ]
+          },
+          "body": {
+            "text": "Head to Solsidans station and turn left just after it. Then immediately turn right onto Slalomvägen and continue for about 200 m before turning right again at the bend where Slalomvägen forks. Follow the road to the end and park considerately. The crag is about a hundred metres to the north. Old coordinates: 10 I NO 752 423",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:rodelberget"
+            ]
+          }
+        },
+        "leder": {
+          "title": {
+            "text": "Routes",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:rodelberget"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:rodelberget"
+            ]
+          }
+        },
+        "ovre-vaggen": {
+          "title": {
+            "text": "Upper wall",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:rodelberget"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:rodelberget"
+            ]
+          }
+        }
+      },
+      "routes": {
+        "rodelberget-led-10": {
+          "description": {
+            "text": "Follows the arete left of Liten. Soloed.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:rodelberget"
+            ]
+          }
+        },
+        "rodelberget-led-11": {
+          "description": {
+            "text": "Short and hard.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:rodelberget"
+            ]
+          }
+        },
+        "rodelberget-led-13": {
+          "description": {
+            "text": "A distinct crux at the end. Soloed.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:rodelberget"
+            ]
+          }
+        },
+        "rodelberget-led-14": {
+          "description": {
+            "text": "The short traverse between Den andra vägen and Den rätta vägen. Mostly just for fun.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:rodelberget"
+            ]
+          }
+        },
+        "rodelberget-led-15": {
+          "description": {
+            "text": "You can turn back at Hillary step. Soloed.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:rodelberget"
+            ]
+          }
+        },
+        "rodelberget-led-16": {
+          "description": {
+            "text": "The start is the route. Mind the tree. Soloed.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:rodelberget"
+            ]
+          }
+        },
+        "rodelberget-led-17": {
+          "description": {
+            "text": "Fine crack climbing. Soloed.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:rodelberget"
+            ]
+          }
+        },
+        "rodelberget-led-18": {
+          "description": {
+            "text": "Comfortable climbing. Soloed.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:rodelberget"
+            ]
+          }
+        }
+      }
+    }
   }
 }

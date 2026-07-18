@@ -60,5 +60,92 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "Korpaberget is near Mariedal greyhound racing track. The easiest approach is to park by the track, then walk to the top of the crag and abseil in from one of the abseil anchors. Do not park on the gravel road below the crag! From Alingsås, take the E20 towards Gothenburg and turn off at the Statoil petrol station. Head back towards Alingsås on Afzeliivägen, then follow Mariedalsvägen towards the greyhound racing track. Park considerately outside the gates of Hundkappen.",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:korpaberget"
+        ]
+      },
+      "sections": {
+        "om-klippan": {
+          "title": {
+            "text": "About the crag",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:korpaberget"
+            ]
+          },
+          "body": {
+            "text": "The crag is set in lush deciduous woodland, providing welcome shade in summer, although in late summer the mosquitoes can torment the unfortunate belayer forced to stand still. It is possible to climb at Korpaberget even during heavy rain, as the crag—particularly the left-hand section—is severely overhanging. Any parts of the crag that do get slightly wet in the rain dry quickly.\n\nKorpaberget is primarily a sport climbing venue, although there are a small number of trad routes. The climbing is steep to very steep (read: roof climbing). The crag is 20–25 metres high, with routes ranging from 5c to 8b. The area around the crag also contains several large and small boulders of interest for bouldering. A few boulder problems already exist. Eremit is one of the few trad routes at the crag, but the top anchor makes it easy to top-rope. The crux move crosses a large roof, where anyone who fancies playing Kurt Albert will be in their element. Some of the newer routes cross sections of fairly poor-quality rock, which should be borne in mind.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:korpaberget"
+            ]
+          }
+        },
+        "access": {
+          "title": {
+            "text": "Access",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:korpaberget"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:korpaberget"
+            ]
+          }
+        },
+        "vagbeskrivning": {
+          "title": {
+            "text": "Directions",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:korpaberget"
+            ]
+          },
+          "body": {
+            "text": "Korpaberget is near Mariedal greyhound racing track. The easiest option is to park by the track, then walk to the top of the crag and abseil down from one of the abseil anchors. Do not park on the gravel road below the crag! From Alingsås, take the E20 towards Göteborg and turn off by the Statoil petrol station. Head back towards Alingsås along Afzeliivägen, then follow Mariedalsvägen towards the greyhound racing track. Park considerately outside the gates of Hundkappen.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:korpaberget"
+            ]
+          }
+        },
+        "leder": {
+          "title": {
+            "text": "Routes",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:korpaberget"
+            ]
+          },
+          "body": {
+            "text": "Hans Rapp topo: http://www.gbg-guiden.info/site/archives/KORPABERGET%20080818.pdf\n\nhttp://www.akk.nu/localcrags.aspx?crag=2",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:korpaberget"
+            ]
+          }
+        }
+      },
+      "routes": {}
+    }
   }
 }

@@ -78,5 +78,67 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "Road-cut crag at the Vida Vättern interchange (junction 105 on the E4 near Gränna), on the east side of the E4. Crossed by a prominent crack, the crag’s only route.",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:sprangvaggen-vid-grannaavfarten-fran-e4"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "Overview",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:sprangvaggen-vid-grannaavfarten-fran-e4"
+            ]
+          },
+          "body": {
+            "text": "A road cutting at the Vida Vättern interchange (junction 105 on the E4 near Gränna), on the eastern side of the E4. Crossed by a prominent crack, the crag’s only route.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:sprangvaggen-vid-grannaavfarten-fran-e4"
+            ]
+          }
+        },
+        "leder": {
+          "title": {
+            "text": "Routes",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:sprangvaggen-vid-grannaavfarten-fran-e4"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:sprangvaggen-vid-grannaavfarten-fran-e4"
+            ]
+          }
+        }
+      },
+      "routes": {
+        "sprangvaggen-vid-grannaavfarten-fran-e4-led-1": {
+          "description": {
+            "text": "The obvious crack in the middle of the crag. Clearly visible from the E4.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:sprangvaggen-vid-grannaavfarten-fran-e4"
+            ]
+          }
+        }
+      }
+    }
   }
 }

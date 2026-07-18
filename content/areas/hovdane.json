@@ -55,5 +55,74 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "A small bouldering area not far from classic crags such as Sulvik and Ränkesnipan in western Värmland.",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:hovdane"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "General",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hovdane"
+            ]
+          },
+          "body": {
+            "text": "A small bouldering spot not far from classic crags such as Sulvik and Ränkesnipan in western Värmland.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hovdane"
+            ]
+          }
+        },
+        "vagbeskrivning": {
+          "title": {
+            "text": "Directions",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hovdane"
+            ]
+          },
+          "body": {
+            "text": "From Arvika, head towards Årjäng, pass Jössefors and continue until you reach Sulvik, about 10–15 km outside town. Continue past Sulvik and turn right towards Koppom. Follow this road for a few kilometres until you see a sign on the right marked Hovdane.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hovdane"
+            ]
+          }
+        },
+        "foraren": {
+          "title": {
+            "text": "Guidebook",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hovdane"
+            ]
+          },
+          "body": {
+            "text": "A guide with full directions and problem descriptions is available in the Arvika bouldering guide at the following link: http://27crags.com/crags/hovdane (http://27crags.com/crags/hovdane)",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hovdane"
+            ]
+          }
+        }
+      },
+      "routes": {}
+    }
   }
 }

@@ -423,5 +423,195 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "The area has 28 routes from 5c to 8b, with most around 6c. The rock is sharp but of good quality.",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:hallsunga"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "Overview",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hallsunga"
+            ]
+          },
+          "body": {
+            "text": "The area has 28 routes from 5c to 8b, mostly around 6c. The rock is sharp but good quality.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hallsunga"
+            ]
+          }
+        },
+        "access": {
+          "title": {
+            "text": "Access",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hallsunga"
+            ]
+          },
+          "body": {
+            "text": "Please be considerate towards Kungälv’s friendliest landowner.\n\nExternal guide: http://www.gbg-guiden.info/site/archives/karna_v16.pdf",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hallsunga"
+            ]
+          }
+        },
+        "leder": {
+          "title": {
+            "text": "Routes",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hallsunga"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hallsunga"
+            ]
+          }
+        }
+      },
+      "routes": {
+        "hallsunga-led-7": {
+          "description": {
+            "text": "Onsight-friendly. There was a bird's nest just below the anchor (June 2012); it was unclear whether it was occupied. The previous route's anchor can be used, though this makes stripping the route harder, albeit entirely feasible.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hallsunga"
+            ]
+          }
+        },
+        "hallsunga-led-10": {
+          "description": {
+            "text": "Fine, varied climbing.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hallsunga"
+            ]
+          }
+        },
+        "hallsunga-led-11": {
+          "description": {
+            "text": "A short but fine route.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hallsunga"
+            ]
+          }
+        },
+        "hallsunga-led-12": {
+          "description": {
+            "text": "A short, fine route. Essentially feels like a boulder problem.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hallsunga"
+            ]
+          }
+        },
+        "hallsunga-led-13": {
+          "description": {
+            "text": "The continuation of Bull.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hallsunga"
+            ]
+          }
+        },
+        "hallsunga-led-15": {
+          "description": {
+            "text": "The direct start to Monkey business.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hallsunga"
+            ]
+          }
+        },
+        "hallsunga-led-16": {
+          "description": {
+            "text": "Starts in the corner, but soon moves out onto the middle of the steep wall.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hallsunga"
+            ]
+          }
+        },
+        "hallsunga-led-17": {
+          "description": {
+            "text": "Corner.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hallsunga"
+            ]
+          }
+        },
+        "hallsunga-led-19": {
+          "description": {
+            "text": "Crimpy wall climbing.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hallsunga"
+            ]
+          }
+        },
+        "hallsunga-led-20": {
+          "description": {
+            "text": "Arete.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hallsunga"
+            ]
+          }
+        },
+        "hallsunga-led-21": {
+          "description": {
+            "text": "Corner.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hallsunga"
+            ]
+          }
+        },
+        "hallsunga-led-22": {
+          "description": {
+            "text": "Roof section.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hallsunga"
+            ]
+          }
+        }
+      }
+    }
   }
 }

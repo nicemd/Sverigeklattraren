@@ -1417,5 +1417,695 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "In the woods north of Färjestad, just a few kilometres from central Karlstad, there are several bouldering walls and a slightly higher slab.",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:farjestad"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "General",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:farjestad"
+            ]
+          },
+          "body": {
+            "text": "In the woods north of Färjestad, just a few kilometres from central Karlstad, there are several bouldering walls and one slightly higher slab.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:farjestad"
+            ]
+          }
+        },
+        "vagbeskrivning": {
+          "title": {
+            "text": "Directions",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:farjestad"
+            ]
+          },
+          "body": {
+            "text": "Leave the E18 towards Färjestad/Rud. If you cannot find it, ask for directions to Löfbergs Lila Arena or the racecourse. Everyone in the area knows where they are. Continue past Löfbergs Lila Arena and the racecourse. Turn right at the small-animal hospital. Follow the sign and gravel road towards Tyrstugan. Park by the clubhouse (or whatever the building is) and walk up the steep floodlit trail until it levels out. Continue for another hundred metres or so. At a sharp right-hand bend, by a half-rotten wooden bench and a fire pit, go straight ahead, bearing slightly left. It is no more than 1–2 minutes from the wooden bench to the wall. Look out for stone cairns placed to help you find the way. Seek and you shall find. Many people have wandered around on the hill without finding the right place. If you are one of those unlucky souls, it is better to negotiate the entire rocky slope and make your way to the bottom. Follow the horse track until you find the deer feeding station and the boulders beside it. It is easier to get your bearings from here.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:farjestad"
+            ]
+          }
+        },
+        "ovrigt": {
+          "title": {
+            "text": "Other information",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:farjestad"
+            ]
+          },
+          "body": {
+            "text": "Probably Karlstad’s oldest bouldering area. It forms part of the same fault line as Anneberg (http://www.sverigeforaren.se/index.php/Karlstad-Anneberg), Djupdalen (http://www.sverigeforaren.se/index.php/Karlstad-Djupdalen) and Hästspåret (http://www.sverigeforaren.se/index.php/H%C3%A4stspåret).\n\nMostly vertical climbing on scattered sections of wall. Grades range from 3 to 7b/7b+, with most problems at the lower end.\n\nThe contents of this guide were taken from an old PDF that Karlstad Klätterklubb (http://www.karlstadklatterklubb.se) hosted on its old website. It is not fully up to date and needs expanding. If YOU know of other problems, first ascensionists or any other information, please help by clicking edit near the top of the page and making the changes. It is quick and easy!",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:farjestad"
+            ]
+          }
+        },
+        "topo": {
+          "title": {
+            "text": "Topo",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:farjestad"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:farjestad"
+            ]
+          }
+        },
+        "problemen": {
+          "title": {
+            "text": "The problems",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:farjestad"
+            ]
+          },
+          "body": {
+            "text": "Each wall has been assigned a number on the topo. The letter after the number indicates where on the wall the problem is located. A problem numbered 32a therefore belongs to wall 32 on the topo, while the letter a indicates its position on the wall. It is somewhat unclear and not immediately obvious how to find everything. Hopefully, photographs of the walls will serve as topos in future. Until then, the information in this guide will have to suffice.\n\nProblems with a small video icon, such as Bad Dog and Silent Scream, are clickable and show a video ascent. This may help if you are looking for beta or simply wondering whether you are at the right boulder or wall. Hopefully, more ascents can be filmed so that the archive can grow.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:farjestad"
+            ]
+          }
+        },
+        "svavaggen": {
+          "title": {
+            "text": "The Slab Wall",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:farjestad"
+            ]
+          },
+          "body": {
+            "text": "At the far left of Färjestad. Several sections of rock run diagonally up and right through the terrain from the large, obvious slab that characterises the area.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:farjestad"
+            ]
+          }
+        },
+        "grytan": {
+          "title": {
+            "text": "The Bowl",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:farjestad"
+            ]
+          },
+          "body": {
+            "text": "A compact little area. A rope ladder still hangs among the trees, left over from intensive training sessions in the early 2000s. It is mostly a curiosity nowadays, but do give it a try. The Bowl is many people’s first encounter with Färjestad, as it is often the first place reached from the floodlit trail. At first glance, the problems may seem somewhat sandbagged, but that is probably because you are not used to placing your feet lightly and precisely. The grades sometimes reflect earlier Karlstad climbers’ visits to Fontainebleau. There’s always a trick, my friend. There is a bench/log where you can rest your backside between sessions.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:farjestad"
+            ]
+          }
+        },
+        "norgevaggen": {
+          "title": {
+            "text": "The Norway Wall",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:farjestad"
+            ]
+          },
+          "body": {
+            "text": "View on map (http://maps.google.com/maps?q=59.422107,13.490082)",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:farjestad"
+            ]
+          }
+        },
+        "silent-scream-vaggen": {
+          "title": {
+            "text": "The Silent Scream Wall",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:farjestad"
+            ]
+          },
+          "body": {
+            "text": "The area lies between the Norway Wall and the Deer Feeding Station, down by the training track. From the Deer Feeding Station, go up one level in the terrain and about 50 metres to the left. Approaching this way, you will see the wall just as you are about to walk into it. A juniper bush overhangs the top. Operation Handsaw has never been carried out, despite many people having considered it. One classic makes this place worth seeking out and gives the whole area its name.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:farjestad"
+            ]
+          }
+        },
+        "radjursutfodringen": {
+          "title": {
+            "text": "The Deer Feeding Station",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:farjestad"
+            ]
+          },
+          "body": {
+            "text": "We have now made our way down to the training track for trotting horses, which lies in the ‘valley’ at Färjestad. The feeding station was still there in 2011; that is, the hay rack used to feed the game remains. The name is so well established among boulderers in and around Karlstad that the place has always simply been called the Deer Feeding Station. A popular spot with several fine lines.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:farjestad"
+            ]
+          }
+        },
+        "mellan-radjursutfodringen-och-karma-roof": {
+          "title": {
+            "text": "Between the Deer Feeding Station and Karma Roof",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:farjestad"
+            ]
+          },
+          "body": {
+            "text": "An area extending diagonally uphill from the Deer Feeding Station. The walls follow one after another. Use the topo to find the right one.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:farjestad"
+            ]
+          }
+        },
+        "karma-roof": {
+          "title": {
+            "text": "Karma Roof",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:farjestad"
+            ]
+          },
+          "body": {
+            "text": "This is Färjestad’s only genuinely overhanging section. It consists of a cave formation. A fall from the upper sections may leave you landing back-first across a large ledge, resulting in some serious pain. Three solutions: 1. Make sure your mates spot well. 2. Fall correctly. 3. Do not fall.\n\nThe cave floor is often covered by a pool of water. During prolonged, serious shredding, this can usefully be brushed away or out.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:farjestad"
+            ]
+          }
+        },
+        "golden-vaggen": {
+          "title": {
+            "text": "The Golden Wall",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:farjestad"
+            ]
+          },
+          "body": {
+            "text": "The classic Golden Wall. Several fine lines cross horizontal cracks that invite a crimpfest. From the obvious and easily identified Karma cave, head uphill and to the right when viewed from below. A path shows the way.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:farjestad"
+            ]
+          }
+        }
+      },
+      "routes": {
+        "farjestad-problem-2": {
+          "description": {
+            "text": "Starts just right of no. 1 and finishes up no. 1's crack.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:farjestad"
+            ]
+          }
+        },
+        "farjestad-problem-3": {
+          "description": {
+            "text": "Climb only the face between the cracks. Rumoured to be thin, balancy and excellent.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:farjestad"
+            ]
+          }
+        },
+        "farjestad-problem-4": {
+          "description": {
+            "text": "The crack right of Miko.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:farjestad"
+            ]
+          }
+        },
+        "farjestad-problem-5": {
+          "description": {
+            "text": "The next crack to the right, trending diagonally rightwards.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:farjestad"
+            ]
+          }
+        },
+        "farjestad-problem-6": {
+          "description": {
+            "text": "An easy line to a ledge with a tree, then easily to the top via ledges.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:farjestad"
+            ]
+          }
+        },
+        "farjestad-problem-7": {
+          "description": {
+            "text": "Start in the corner on the right, then continue easily via ledges to the top.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:farjestad"
+            ]
+          }
+        },
+        "farjestad-problem-8": {
+          "description": {
+            "text": "The longest problem on the slab, about 10 m high. It has only been climbed on top rope, so anyone with big enough cojones could claim a major scalp here.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:farjestad"
+            ]
+          }
+        },
+        "farjestad-problem-9": {
+          "description": {
+            "text": "The crack right of Ninja Turtles. Beyond Trickle Down are four problems around 4–4+; Numb Nuts is one of them.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:farjestad"
+            ]
+          }
+        },
+        "farjestad-problem-12": {
+          "description": {
+            "text": "Furthest left; a good warm-up.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:farjestad"
+            ]
+          }
+        },
+        "farjestad-problem-13": {
+          "description": {
+            "text": "Along with Cool your Jets, one of the most-climbed problems in Grytan. Trends diagonally leftwards and tops out just right of the previous problem.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:farjestad"
+            ]
+          }
+        },
+        "farjestad-problem-14": {
+          "description": {
+            "text": "Starts at the hole and goes straight up.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:farjestad"
+            ]
+          }
+        },
+        "farjestad-problem-15": {
+          "description": {
+            "text": "An eliminate starting roughly at the hole, but excluding it. Confined to the section between the hole and about 1 m to its right.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:farjestad"
+            ]
+          }
+        },
+        "farjestad-problem-16": {
+          "description": {
+            "text": "The arete only.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:farjestad"
+            ]
+          }
+        },
+        "farjestad-problem-19": {
+          "description": {
+            "text": "Traverse.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:farjestad"
+            ]
+          }
+        },
+        "farjestad-problem-21": {
+          "description": {
+            "text": "From the horizontal crack to the top.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:farjestad"
+            ]
+          }
+        },
+        "farjestad-problem-22": {
+          "description": {
+            "text": "The large crack in the middle of the wall.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:farjestad"
+            ]
+          }
+        },
+        "farjestad-problem-23": {
+          "description": {
+            "text": "Climb only the face, avoiding the cracks of Nästan som Norge and Juleribba.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:farjestad"
+            ]
+          }
+        },
+        "farjestad-problem-24": {
+          "description": {
+            "text": "Follow the left-hand crack.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:farjestad"
+            ]
+          }
+        },
+        "farjestad-problem-25": {
+          "description": {
+            "text": "Around the corner of the boulder. Starts on the small ledge.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:farjestad"
+            ]
+          }
+        },
+        "farjestad-problem-30": {
+          "description": {
+            "text": "A superb problem starting on the right of the wall and trending diagonally leftwards. Soft according to some, but either way a Färjestad classic!",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:farjestad"
+            ]
+          }
+        },
+        "farjestad-problem-31": {
+          "description": {
+            "text": "Sit start.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:farjestad"
+            ]
+          }
+        },
+        "farjestad-problem-37": {
+          "description": {
+            "text": "The ‘arete’ furthest left on the obvious wall immediately left of the boulder-like block climbed by No Fat Chicks.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:farjestad"
+            ]
+          }
+        },
+        "farjestad-problem-38": {
+          "description": {
+            "text": "On the blank face immediately left of Immigrant flake. The distance to the top edge is frustratingly short, but do not be fooled: many vouch for the grade. An excellent problem, though jumping from the starting position is very awkward.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:farjestad"
+            ]
+          }
+        },
+        "farjestad-problem-39": {
+          "description": {
+            "text": "On the extremely thin face left of the arete?",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:farjestad"
+            ]
+          }
+        },
+        "farjestad-problem-40": {
+          "description": {
+            "text": "A superb, almost completely freestanding boulder that adds variety among all the small vertical walls. Follows the arete and is probably the most-climbed problem at Färjestad. A classic!",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:farjestad"
+            ]
+          }
+        },
+        "farjestad-problem-41": {
+          "description": {
+            "text": "Start on the ramp, with possible jams to reach the starting holds. Very small feet or smear work required.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:farjestad"
+            ]
+          }
+        },
+        "farjestad-problem-43": {
+          "description": {
+            "text": "A sit-start mantling problem. Feet on the rocks beneath the boulder.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:farjestad"
+            ]
+          }
+        },
+        "farjestad-problem-44": {
+          "description": {
+            "text": "Ice wall.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:farjestad"
+            ]
+          }
+        },
+        "farjestad-problem-45": {
+          "description": {
+            "text": "Ice wall.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:farjestad"
+            ]
+          }
+        },
+        "farjestad-problem-46": {
+          "description": {
+            "text": "There is an ice wall right of The thing that ate Sweden.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:farjestad"
+            ]
+          }
+        },
+        "farjestad-problem-53": {
+          "description": {
+            "text": "A low-level traverse. Jan's high traverse starts on the right-hand side of the crystal band higher up on druid.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:farjestad"
+            ]
+          }
+        },
+        "farjestad-problem-54": {
+          "description": {
+            "text": "Climb Jam This, traverse left, descend the arete and finish along the low-level traverse.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:farjestad"
+            ]
+          }
+        },
+        "farjestad-problem-57": {
+          "description": {
+            "text": "These cattle-inspired problems are all on their own small, low wall. Not many moves due to the limited height, but still OK.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:farjestad"
+            ]
+          }
+        },
+        "farjestad-problem-62": {
+          "description": {
+            "text": "Sit start at the far left of Karma Roof.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:farjestad"
+            ]
+          }
+        },
+        "farjestad-problem-63": {
+          "description": {
+            "text": "Sit start right of Nudisten, finishing at the flake with its obvious surrounding cracks. Dangerous landing.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:farjestad"
+            ]
+          }
+        },
+        "farjestad-problem-64": {
+          "description": {
+            "text": "Straight through the middle of the cave formation from a standing start. After the first repeat, the key roof crimp broke off, making the grade considerably harder as you now have to use a non-existent hold beside it. Pad it out well, including beyond the edge by the brushwood. Welcome home David!",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:farjestad"
+            ]
+          }
+        },
+        "farjestad-problem-65": {
+          "description": {
+            "text": "The proper start in the crack!",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:farjestad"
+            ]
+          }
+        },
+        "farjestad-problem-66": {
+          "description": {
+            "text": "Sit start, though the standing start is also common. Climbs straight up the right-hand side of the cave entrance. Excellent!",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:farjestad"
+            ]
+          }
+        },
+        "farjestad-problem-67": {
+          "description": {
+            "text": "Standing start from two obvious holds.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:farjestad"
+            ]
+          }
+        },
+        "farjestad-problem-70": {
+          "description": {
+            "text": "A long-unclimbed crimp monster that has now seen several ascents. Starts in the middle and trends diagonally leftwards across the horizontal cracks. If you are going to fall, do not do so over the edge of the ledge—it looks ready to dish out sprained ankles. Stack up pads and spotters.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:farjestad"
+            ]
+          }
+        },
+        "farjestad-problem-71": {
+          "description": {
+            "text": "Lovely climbing.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:farjestad"
+            ]
+          }
+        },
+        "farjestad-problem-73": {
+          "description": {
+            "text": "Has anyone done it? Hard.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:farjestad"
+            ]
+          }
+        },
+        "farjestad-problem-76": {
+          "description": {
+            "text": "Unclimbed?",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:farjestad"
+            ]
+          }
+        },
+        "farjestad-problem-77": {
+          "description": {
+            "text": "Nice crack.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:farjestad"
+            ]
+          }
+        }
+      }
+    }
   }
 }

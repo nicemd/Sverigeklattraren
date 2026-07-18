@@ -96,5 +96,113 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "The crag is characterised by slabs, but there are also some shorter crack routes. The odd chimney or face route may also appeal to the dedicated climber. Two not overly mossy faces form the south wall, which reaches a maximum height of about 40 m. The left-hand face offers scope for several hard slab/face routes and long crack routes. Below the crag there is a bathing spot as well as places to pitch a tent.",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:ranungsberget"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "General",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:ranungsberget"
+            ]
+          },
+          "body": {
+            "text": "The crag is characterised by slabs, though there are also some shorter crack routes. The odd chimney or face route may also appeal to the keen climber. Two relatively moss-free faces form the crag's south face, which reaches a maximum height of about 40 m. The left-hand face offers several difficult slab/face routes and long crack routes. Below the crag there is a bathing spot as well as places to camp.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:ranungsberget"
+            ]
+          }
+        },
+        "kommunikationer": {
+          "title": {
+            "text": "Access",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:ranungsberget"
+            ]
+          },
+          "body": {
+            "text": "The crag lies north of Ranugnssjön, about 10 km west of Ljusdal.\n\nBy car: Follow the road from Ljusdal towards Föne and turn right by a bridge shortly before Ranugnssjön. Follow the road to the lake and park near one of the passing places below the crag.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:ranungsberget"
+            ]
+          }
+        },
+        "berget": {
+          "title": {
+            "text": "The Crag",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:ranungsberget"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:ranungsberget"
+            ]
+          }
+        },
+        "sydvaggen": {
+          "title": {
+            "text": "South Face",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:ranungsberget"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:ranungsberget"
+            ]
+          }
+        }
+      },
+      "routes": {
+        "ranungsberget-led-1": {
+          "description": {
+            "text": "Fine, thin crack.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:ranungsberget"
+            ]
+          }
+        },
+        "ranungsberget-led-2": {
+          "description": {
+            "text": "Flake/slab route.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:ranungsberget"
+            ]
+          }
+        }
+      }
+    }
   }
 }

@@ -52,5 +52,92 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "A fine and relatively undeveloped trad crag. Head here if you want to clean up some long and beautiful routes!",
+        "method": "llm",
+        "model": "gpt-4o-mini",
+        "sourceIds": [
+          "legacy:sunnanaberget"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "General",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:sunnanaberget"
+            ]
+          },
+          "body": {
+            "text": "A fine and relatively undeveloped trad crag. Come here if you want to clean up some long and nice routes!",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:sunnanaberget"
+            ]
+          }
+        },
+        "miljo": {
+          "title": {
+            "text": "Environment",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:sunnanaberget"
+            ]
+          },
+          "body": {
+            "text": "Northwest-facing with a fair bit of moss, so it can be a bit damp at times.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:sunnanaberget"
+            ]
+          }
+        },
+        "vagbeskrivning": {
+          "title": {
+            "text": "Directions",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:sunnanaberget"
+            ]
+          },
+          "body": {
+            "text": "If you're coming from the coast, drive past Renström on road 370. After the village, you'll reach a bridge. Immediately after the bridge, take a left. Then park on the side road marked Näset. You should see the crag on your right side.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:sunnanaberget"
+            ]
+          }
+        },
+        "forare": {
+          "title": {
+            "text": "Guide",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:sunnanaberget"
+            ]
+          },
+          "body": {
+            "text": "Previously, there was a guide in a folder by the crag, but after it became weathered, it's unclear if the route names, grades, and first ascensionists are recorded.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:sunnanaberget"
+            ]
+          }
+        }
+      },
+      "routes": {}
+    }
   }
 }

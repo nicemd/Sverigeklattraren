@@ -243,5 +243,145 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "A broad, high crag in Nacka. Semi-open setting. Unfortunately, the rock is rather loose. There still appears to be potential for more routes. Located near Nyckelviksberget.",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:fredriksvik"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "General",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:fredriksvik"
+            ]
+          },
+          "body": {
+            "text": "A wide, high crag in Nacka. Semi-open setting. Unfortunately, the rock is fairly poor. Even so, there appears to be potential for more routes. Located near Nyckelviksberget.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:fredriksvik"
+            ]
+          }
+        },
+        "vagbeskrivning": {
+          "title": {
+            "text": "Directions",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:fredriksvik"
+            ]
+          },
+          "body": {
+            "text": "Take route 222, Värmdöleden, towards Nacka. Turn off just before Skurubron and follow Skurusundsvägen under the motorway. Turn left onto Kristiniedalsvägen, which then becomes Utskogsvägen. Park by Sten Stures Väg.\n\nWalk back to the meadow before Sten Stures Väg and follow the path diagonally across it. At the edge of the woods, keep right and follow the path signposted Fredriksvik. The crag appears on the right after about 300 m.\n\nOn the left-hand side of the meadow there is an overhanging bouldering crag with chalk marks.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:fredriksvik"
+            ]
+          }
+        },
+        "leder": {
+          "title": {
+            "text": "Routes",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:fredriksvik"
+            ]
+          },
+          "body": {
+            "text": "These two unknown routes are located almost down by the house.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:fredriksvik"
+            ]
+          }
+        }
+      },
+      "routes": {
+        "fredriksvik-led-1": {
+          "description": {
+            "text": "Missing hangers.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:fredriksvik"
+            ]
+          }
+        },
+        "fredriksvik-led-2": {
+          "description": {
+            "text": "Missing hangers.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:fredriksvik"
+            ]
+          }
+        },
+        "fredriksvik-led-8": {
+          "description": {
+            "text": "Great moves through the crux! Mixed up with Pollux in the printed Stockholm guidebook.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:fredriksvik"
+            ]
+          }
+        },
+        "fredriksvik-led-9": {
+          "description": {
+            "text": "More enjoyable than it looks. Mixed up with Castor in the printed Stockholm guidebook.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:fredriksvik"
+            ]
+          }
+        },
+        "fredriksvik-led-10": {
+          "description": {
+            "text": "Missing hangers.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:fredriksvik"
+            ]
+          }
+        },
+        "fredriksvik-led-11": {
+          "description": {
+            "text": "Missing hangers.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:fredriksvik"
+            ]
+          }
+        },
+        "fredriksvik-led-12": {
+          "description": {
+            "text": "Missing hangers.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:fredriksvik"
+            ]
+          }
+        }
+      }
+    }
   }
 }

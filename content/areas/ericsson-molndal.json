@@ -39,5 +39,56 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "A 10–12-metre-high crag with good, thick WI3 ice. An 8-metre-wide icefall situated high on the crag behind Ericsson, partly sheltered by trees. The icefall is visible from the E6. Trees at the top for abseiling or setting up a top-rope.\n\nApproach from Sallarängsgatan, heading east up the slope and crossing the railway line after about 200 m.\n\nAnother 200 m further up to the north is a shorter icefall with good ice (WI2–3). Further north again (straight up from the bridge over the E6) and towards the top is another icefall, around 10 m, WI2–3. Continuing even further up Samuel Nordbergsgatan, there is another icefall of about 10 metres (now climbed on lead)...\n\n--Bultfeber, 27 January 2011 at 10.07 (CET)",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:ericsson-molndal"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "Overview",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:ericsson-molndal"
+            ]
+          },
+          "body": {
+            "text": "A 10–12-metre-high crag with good, thick WI3 ice. An 8-metre-wide icefall high up on the crag behind Ericsson, partly sheltered by trees. The icefall is visible from the E6. Trees at the top for abseiling or setting up a top-rope.\n\nApproach from Sallarängsgatan, heading east up the slope and crossing the railway line, about 200 m.\n\nAnother shorter icefall with good ice (WI2–3) lies 200 m further up to the north. Further north again (straight up from the bridge over the E6) and towards the top is another icefall, about 10 m, WI2–3. Continuing even further up Samuel Nordbergsgatan, there is another icefall of ~10 metres (now climbed)...\n\n--Bultfeber, 27 January 2011 at 10.07 (CET)",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:ericsson-molndal"
+            ]
+          }
+        },
+        "access": {
+          "title": {
+            "text": "Access",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:ericsson-molndal"
+            ]
+          },
+          "body": {
+            "text": "No known access issues.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:ericsson-molndal"
+            ]
+          }
+        }
+      },
+      "routes": {}
+    }
   }
 }

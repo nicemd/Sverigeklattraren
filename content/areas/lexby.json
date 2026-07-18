@@ -878,5 +878,177 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "The obvious crag above the school in Lexby, clearly visible even from the motorway. Among other things, it offers some fine jamming routes up on the ledge, often simply called “Lexbyhyllan”. You can scramble up to the ledge via ramps and chimneys if you’re feeling brave, otherwise you can climb up via, for example",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:lexby"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "General",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:lexby"
+            ]
+          },
+          "body": {
+            "text": "The obvious wall above the school in Lexby, clearly visible even from the motorway. Among other things, it offers fine jamming routes above the ledge, often simply called \"Lexbyhyllan\". You can scramble up to the ledge via ramps and chimneys if you are feeling brave; otherwise, you will have to climb up via, for example",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:lexby"
+            ]
+          }
+        },
+        "access": {
+          "title": {
+            "text": "Access",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:lexby"
+            ]
+          },
+          "body": {
+            "text": "It is worth noting that Lexby crag is covered by Göteborgs klätterklubb's bolting policy, which states that no further bolts are to be placed on the crag.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:lexby"
+            ]
+          }
+        },
+        "vagbeskrivning": {
+          "title": {
+            "text": "Directions",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:lexby"
+            ]
+          },
+          "body": {
+            "text": "Good cycle path all the way from Gamlestan / Utby.\n\nBy car: Leave the E20 at Allum / Partille C. Cross the river to a small roundabout and turn right. The school is directly below the clearly visible wall at Lexbyhyllan. Park there (possibly prohibited during working hours on weekdays?). Walk around the school to reach the start at the rear of the building.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:lexby"
+            ]
+          }
+        },
+        "vaggar": {
+          "title": {
+            "text": "Walls",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:lexby"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:lexby"
+            ]
+          }
+        },
+        "nedre-delen": {
+          "title": {
+            "text": "Lower Section",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:lexby"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:lexby"
+            ]
+          }
+        },
+        "ovre-delen": {
+          "title": {
+            "text": "Upper Section",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:lexby"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:lexby"
+            ]
+          }
+        },
+        "isklattring": {
+          "title": {
+            "text": "Ice Climbing",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:lexby"
+            ]
+          },
+          "body": {
+            "text": "At ground level, just to the right of the school beside a small cottage, a fine ice pillar forms in some winters, offering climbing at various grades. The hardest line goes up left of and behind the pillar, then works through Galleriet. The slab to the right is easiest. Everything can be top-roped from a large pine at the top with a chain anchor, but you have to lead up to reach it. The names are made up; whoever made the first ascents is welcome to change them.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:lexby"
+            ]
+          }
+        }
+      },
+      "routes": {
+        "lexby-led-30": {
+          "description": {
+            "text": "The route takes the very exposed, steeply overhanging arete between Blå himlen blues and Flyende Norrman. The first half (crux) has virtually no protection. Probably Gothenburg's hardest trad route.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:lexby"
+            ]
+          }
+        },
+        "lexby-led-35": {
+          "description": {
+            "text": "Fine finger crack near the edge.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:lexby"
+            ]
+          }
+        },
+        "lexby-led-43": {
+          "description": {
+            "text": "Starts in the corner; at the birch tree the route changes character, becoming pure hand-jamming up the crack.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:lexby"
+            ]
+          }
+        }
+      }
+    }
   }
 }

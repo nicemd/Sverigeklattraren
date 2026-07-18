@@ -29,5 +29,19 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "=General= A large and a few smaller boulders just east of the Syrian Orthodox Church at the intersection of Vallbyleden - Narvavägen. =Map=",
+        "method": "llm",
+        "model": "gpt-4o-mini",
+        "sourceIds": [
+          "legacy:vallby"
+        ]
+      },
+      "sections": {},
+      "routes": {}
+    }
   }
 }

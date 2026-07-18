@@ -473,5 +473,385 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "The crag is described in the Gothenburg guide under \"other crags\". Local climbers sometimes climb here, provided there are no access issues.",
+        "method": "llm",
+        "model": "gpt-4o-mini",
+        "sourceIds": [
+          "legacy:tumlehed"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "General",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tumlehed"
+            ]
+          },
+          "body": {
+            "text": "The crag is described in the Gothenburg guide under \"other crags\". Local climbers occasionally climb here when there are no access issues.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tumlehed"
+            ]
+          }
+        },
+        "t": {
+          "title": {
+            "text": "T",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tumlehed"
+            ]
+          },
+          "body": {
+            "text": "(The information in Climbing in Gothenburg and surroundings is based on information from the Sweden guide).",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tumlehed"
+            ]
+          }
+        },
+        "lottkarr": {
+          "title": {
+            "text": "Lottkärr",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tumlehed"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tumlehed"
+            ]
+          }
+        },
+        "miljo": {
+          "title": {
+            "text": "Environment",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tumlehed"
+            ]
+          },
+          "body": {
+            "text": "A seemingly wide crag offering a handful of mixed/trad routes, steep sport, as well as a fully bolted route. It sits by a meadow, out of ear- and eye-shot from the road. The approach is about 800 metres. To the left of this crag in the wooded area are some interesting boulders and shorter walls (overhangs).",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tumlehed"
+            ]
+          }
+        },
+        "access": {
+          "title": {
+            "text": "Access",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tumlehed"
+            ]
+          },
+          "body": {
+            "text": "There are nesting birds at the crag, therefore no climbing is recommended when the birds are nesting (the birds nest in spring, according to a local resident).",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tumlehed"
+            ]
+          }
+        },
+        "vagbeskrivning": {
+          "title": {
+            "text": "Directions",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tumlehed"
+            ]
+          },
+          "body": {
+            "text": "Drive along road 155 from Gothenburg towards Öckerö. Continue on Torslandavägen, which changes name to Kongahällavägen. Pass the square and the church, then turn left onto Domarringsgatan. Follow Domarringsgatan to the Västtrafik commuter parking and park there (just after the grocery store). Walk back along Domarringsvägen to Lottkärrsvägen and the large crag will be visible straight ahead. The left part of the crag has been climbed, and there's a gap in the bushes to approach where the routes begin.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tumlehed"
+            ]
+          }
+        },
+        "leder-lottkarr": {
+          "title": {
+            "text": "Lottkärr Routes",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tumlehed"
+            ]
+          },
+          "body": {
+            "text": "Access: The bird that nests at Lottkärr Crag often does so in the same spot. Count on birds nesting at the crag every spring (at least in 2013). It's unmistakable whether there are birds or not; if so, go elsewhere.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tumlehed"
+            ]
+          }
+        },
+        "runhallsgatan": {
+          "title": {
+            "text": "Runhällsgatan",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tumlehed"
+            ]
+          },
+          "body": {
+            "text": "Park at the bottom of Runhällsgatan, or take the Yellow Express to the nearest stop and walk to Runhällsgatan. Climbing starts along the left side at the beginning of the road. Route lengths are 7-12m.\n\nAccess: This crag is very close to residential houses, stay low-profile and park appropriately.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tumlehed"
+            ]
+          }
+        }
+      },
+      "routes": {
+        "tumlehed-led-1": {
+          "description": {
+            "text": "The shortest route on the crag. An isolated bolt marks the exit, small nuts can be placed for protection.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tumlehed"
+            ]
+          }
+        },
+        "tumlehed-led-2": {
+          "description": {
+            "text": "The first chimney.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tumlehed"
+            ]
+          }
+        },
+        "tumlehed-led-3": {
+          "description": {
+            "text": "An isolated bolt barely defines the route.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tumlehed"
+            ]
+          }
+        },
+        "tumlehed-led-4": {
+          "description": {
+            "text": "Steep start.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tumlehed"
+            ]
+          }
+        },
+        "tumlehed-led-5": {
+          "description": {
+            "text": "Second chimney, usually wet with some loose rock.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tumlehed"
+            ]
+          }
+        },
+        "tumlehed-led-6": {
+          "description": {
+            "text": "The finest route, starts two meters to the right of the chimney.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tumlehed"
+            ]
+          }
+        },
+        "tumlehed-led-7": {
+          "description": {
+            "text": "Top rope variant straight up, easy climbing but hard.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tumlehed"
+            ]
+          }
+        },
+        "tumlehed-led-8": {
+          "description": {
+            "text": "Same start as the next route but goes left after the layback instead.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tumlehed"
+            ]
+          }
+        },
+        "tumlehed-led-9": {
+          "description": {
+            "text": "Starts from the ground, mantel the ledge and go straight up.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tumlehed"
+            ]
+          }
+        },
+        "tumlehed-led-10": {
+          "description": {
+            "text": "Possibly a campus start followed by a sloping problem to the top.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tumlehed"
+            ]
+          }
+        },
+        "tumlehed-led-11": {
+          "description": {
+            "text": "After the shared start, take the more right line, a crack placement and a bolt at the end mark the route.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tumlehed"
+            ]
+          }
+        },
+        "tumlehed-led-12": {
+          "description": {
+            "text": "There is an isolated bolt above the raven's nest. Possibly a mixed route?",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tumlehed"
+            ]
+          }
+        },
+        "tumlehed-led-13": {
+          "description": {
+            "text": "Right-leaning sloping crack.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tumlehed"
+            ]
+          }
+        },
+        "tumlehed-led-14": {
+          "description": {
+            "text": "The crack before the chimney.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tumlehed"
+            ]
+          }
+        },
+        "tumlehed-led-15": {
+          "description": {
+            "text": "The right chimney, the name comes from the geocache located in the chimney.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tumlehed"
+            ]
+          }
+        },
+        "tumlehed-led-16": {
+          "description": {
+            "text": "Not exactly a classic.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tumlehed"
+            ]
+          }
+        },
+        "tumlehed-led-17": {
+          "description": {
+            "text": "Double overhang.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tumlehed"
+            ]
+          }
+        },
+        "tumlehed-led-18": {
+          "description": {
+            "text": "To maintain the grade, you need to climb straight up all the time... Well protected.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tumlehed"
+            ]
+          }
+        },
+        "tumlehed-led-19": {
+          "description": {
+            "text": "Well protected in the dihedral.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tumlehed"
+            ]
+          }
+        },
+        "tumlehed-led-20": {
+          "description": {
+            "text": "Nice climbing, but unfortunately a dusty route.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tumlehed"
+            ]
+          }
+        },
+        "tumlehed-led-21": {
+          "description": {
+            "text": "Good but hard to place gear.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tumlehed"
+            ]
+          }
+        },
+        "tumlehed-led-22": {
+          "description": {
+            "text": "Keep right!",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tumlehed"
+            ]
+          }
+        }
+      }
+    }
   }
 }

@@ -708,5 +708,447 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "Olberget lies 13.5 km from Söderhamn, close to Route 50 towards Bollnäs. The main wall is a 20–25 m high, steeply overhanging south-facing wall. The rock is compact, but the cracks are clean and good. There is a simple picnic area below the main wall.",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:olberget"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "General",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:olberget"
+            ]
+          },
+          "body": {
+            "text": "Olberget lies 13.5 km from Söderhamn, close to Route 50 towards Bollnäs. The main wall is a 20–25 m high, heavily overhanging south-facing wall. The rock is compact, but the cracks are clean and good. There is a basic picnic spot below the main wall.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:olberget"
+            ]
+          }
+        },
+        "kommunikationer": {
+          "title": {
+            "text": "Getting there",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:olberget"
+            ]
+          },
+          "body": {
+            "text": "From Söderhamn: Take Route 50 towards Bollnäs. About 1 km after the turn-off for Mohed, you will see a scrapyard/tyre firm on the left; take the first road on the right after it. (The road can sometimes be in poor condition; if so, park in the lay-by on Route 50.) Drive past the fields and the house on the left, then park by the old abandoned house on the right. The crag and boulders are up in the woods on the left.\n\nBy bus from Söderhamn: Take route 100 towards Bollnäs. Ask the driver to stop at the road between the Näcktjärn N and Östbo bus stops.\n\nGPS coordinates for the crag: N61 18 36.0 E16 48 42.0",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:olberget"
+            ]
+          }
+        },
+        "vaggar": {
+          "title": {
+            "text": "Walls",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:olberget"
+            ]
+          },
+          "body": {
+            "text": "The main wall is a 20–25 m high, heavily overhanging south-facing wall. The rock is compact, but the cracks are clean and good. The rock is gneiss. To the left of the main wall is an area of smaller walls and large boulders. The easiest descent is to the right of the main wall.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:olberget"
+            ]
+          }
+        },
+        "huvudvaggen": {
+          "title": {
+            "text": "Main Wall",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:olberget"
+            ]
+          },
+          "body": {
+            "text": "Topo by Jörgen Lundgren.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:olberget"
+            ]
+          }
+        },
+        "lilla-vaggen": {
+          "title": {
+            "text": "Lilla väggen",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:olberget"
+            ]
+          },
+          "body": {
+            "text": "Topo by Jörgen Lundgren.\n\nLocated 30 metres uphill and left of Huvudväggen. Photos, mainly of Lilla väggen, can be found on the Bollnäs Climbing Club website: http://www.bollnasklatterklubb.se/fotoalbum/2008/ute/olbergetapril6/index.html",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:olberget"
+            ]
+          }
+        },
+        "sudoku-vaggen": {
+          "title": {
+            "text": "Sudoku-väggen",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:olberget"
+            ]
+          },
+          "body": {
+            "text": "Located 200 metres left of Huvudväggen on a large boulder. Photos, mainly of Sudoku-väggen, can be found on the Bollnäs Climbing Club website: http://www.bollnasklatterklubb.se/fotoalbum/2008/ute/Olberget19april/index.html",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:olberget"
+            ]
+          }
+        },
+        "bouldering": {
+          "title": {
+            "text": "Bouldering",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:olberget"
+            ]
+          },
+          "body": {
+            "text": "The bouldering at Olberget is described separately in Sverigeföraren: = Olberget = Olberget is described separately in Sverigeföraren: http://www.sverigeforaren.se/index.php/Olberget_%28bimbo%29",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:olberget"
+            ]
+          }
+        }
+      },
+      "routes": {
+        "olberget-led-1": {
+          "description": {
+            "text": "Short, unprotected wall problem at the far right of the crag. The finish is the crux.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:olberget"
+            ]
+          }
+        },
+        "olberget-led-2": {
+          "description": {
+            "text": "Starts on the indistinct arete between \"Zombie Woof\" and \"Apostrophe\". Awkward start into the sloping corner above. 1 bolt.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:olberget"
+            ]
+          }
+        },
+        "olberget-led-3": {
+          "description": {
+            "text": "Free: To the ledge: Mikael Bäckman and Per Calleberg, 1982. Free: From the ledge: (\"Dina-Moe-Hum\") Mikael Bäckman, 1986. Overhanging corner/crack at the right-hand edge of the wall. Take care with nut placements. From the ledge just below the top, follow the obvious corner. Somewhat difficult to protect.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:olberget"
+            ]
+          }
+        },
+        "olberget-led-4": {
+          "description": {
+            "text": "Alternative finish to \"Zombie Woof\", at the left-hand edge of the ledge.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:olberget"
+            ]
+          }
+        },
+        "olberget-led-5": {
+          "description": {
+            "text": "Steeply overhanging and crimpy. 1 bolt as an anchor.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:olberget"
+            ]
+          }
+        },
+        "olberget-led-6": {
+          "description": {
+            "text": "Chain anchor.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:olberget"
+            ]
+          }
+        },
+        "olberget-led-7": {
+          "description": {
+            "text": "Chain anchor.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:olberget"
+            ]
+          }
+        },
+        "olberget-led-8": {
+          "description": {
+            "text": "Hälsingland's first 8a. Chain anchor.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:olberget"
+            ]
+          }
+        },
+        "olberget-led-9": {
+          "description": {
+            "text": "Overhanging, desperate face climbing and laybacking a couple of metres right of Sunset Crack. Leads to the right-hand branch of Sunset Crack. 2 bolts. Rebolted in 2008.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:olberget"
+            ]
+          }
+        },
+        "olberget-led-10": {
+          "description": {
+            "text": "Free: Johan Luhr and Mathias Flodin, 1987. The obvious crack straight up the wall. The start is a recess forming a small roof. Follow the crack straight up, with distinct hard sections. Some way below the top, once the difficulties are over, a large sloping ledge is reached. Traverse right for a metre or so, then follow easier climbing straight up a corner to the top. The finest route on the crag. Top-rope anchor installed in 2007.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:olberget"
+            ]
+          }
+        },
+        "olberget-led-11": {
+          "description": {
+            "text": "Follow the right-hand branch of the crack instead of going straight up below the ledge. This makes the whole route grade 7.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:olberget"
+            ]
+          }
+        },
+        "olberget-led-12": {
+          "description": {
+            "text": "The first section, \"Kafferast\" (A1), as far as the bolt, was climbed by Mikael Bäckman and Per Calleberg in 1979. A thin piton crack leads to a bolt at the end of the crack. Continue using a \"rivet\" and skyhooks to reach a flake leading to a sloping ledge. From here, follow the obvious crack upwards.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:olberget"
+            ]
+          }
+        },
+        "olberget-led-13": {
+          "description": {
+            "text": "Vertical crimpfest. Chain anchor.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:olberget"
+            ]
+          }
+        },
+        "olberget-led-14": {
+          "description": {
+            "text": "Free: Jan Liliemark, 1983. Obvious, steeply overhanging crack immediately right of an overhanging chimney. First climb onto a ledge below the crack. Climb on good holds over the blocks and into the crack. Jam and bridge up to a niche. Climb diagonally up left onto a large ledge, then continue straight up the obvious wide crack to the top. Well protected. If Friends are used, some care is recommended, as the rope can easily push a Friend further into the crack.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:olberget"
+            ]
+          }
+        },
+        "olberget-led-15": {
+          "description": {
+            "text": "Follows the obvious overhanging off-width chimney left of \"Turist i tillvaron\". Tasteless line.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:olberget"
+            ]
+          }
+        },
+        "olberget-led-16": {
+          "description": {
+            "text": "On the pillar left of \"Turist i tillvaron\", a thin crack leads to a block and a crack running diagonally up left. Step across from a detached block to the thin crack and climb it with difficulty to the block. From here, a considerably easier crack leads diagonally up left, past a small birch, to a small ledge. Make an easy but unprotected traverse towards an obvious arete, climb onto and over it, and reach a large ledge with a dead birch. From here, follow a dirty ramp diagonally up left to the top.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:olberget"
+            ]
+          }
+        },
+        "olberget-led-17": {
+          "description": {
+            "text": "Direct finish to \"Fotonen\". From the large ledge, climb straight up a concave wall behind the dead birch. Unprotected.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:olberget"
+            ]
+          }
+        },
+        "olberget-led-18": {
+          "description": {
+            "text": "Free: Kent Andersson and Dennis Butler, 1981. This route is at the left-hand edge of the wall. Climb an easy, slightly dirty slab to a ledge. Continue straight up, following the corner with the wide jamming crack above. Well protected.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:olberget"
+            ]
+          }
+        },
+        "olberget-led-19": {
+          "description": {
+            "text": "Follow the easy, slightly dirty slab to the ledge, then climb into a corner on the right-hand side of an arete. At the base of the wide jamming crack on \"Finally started\", step left across a sharp arete and follow the crack upwards.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:olberget"
+            ]
+          }
+        },
+        "olberget-led-20": {
+          "description": {
+            "text": "Short corner directly below \"Finally Started\".",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:olberget"
+            ]
+          }
+        },
+        "olberget-led-21": {
+          "description": {
+            "text": "Fine, varied climbing. Chain anchor.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:olberget"
+            ]
+          }
+        },
+        "olberget-led-22": {
+          "description": {
+            "text": "Wide crack line leading diagonally up left.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:olberget"
+            ]
+          }
+        },
+        "olberget-led-23": {
+          "description": {
+            "text": "Straight crack line immediately right of \"Sauervotze\". Joins \"One Size Fits All\" just below the top.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:olberget"
+            ]
+          }
+        },
+        "olberget-led-24": {
+          "description": {
+            "text": "Obvious corner leading to a large, crooked birch.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:olberget"
+            ]
+          }
+        },
+        "olberget-led-26": {
+          "description": {
+            "text": "The first corner left of \"Sauervotze\". Starts behind a small detached block.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:olberget"
+            ]
+          }
+        },
+        "olberget-led-27": {
+          "description": {
+            "text": "Not shown on the topo: 10 m left of \"Annikis hörn\". Starts in a short finger crack. Traverse left, then scramble up a low-angled corner.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:olberget"
+            ]
+          }
+        },
+        "olberget-led-28": {
+          "description": {
+            "text": "About 15 m left of \"Annikis hörn\", right at the entrance to a narrow ravine. Climbs the wall forming the right-hand side of the ravine, straight up beside an obvious white quartz patch. Unprotected.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:olberget"
+            ]
+          }
+        },
+        "olberget-led-29": {
+          "description": {
+            "text": "Not shown on the topo: About 5 m into the ravine. Obvious crack.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:olberget"
+            ]
+          }
+        },
+        "olberget-led-30": {
+          "description": {
+            "text": "Not shown on the topo: On a small wall hidden behind detached blocks, just over 50 m left of \"Sauervotze\", behind a large, sturdy birch. Overhanging corner with a fist crack.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:olberget"
+            ]
+          }
+        },
+        "olberget-led-31": {
+          "description": {
+            "text": "Thin start.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:olberget"
+            ]
+          }
+        }
+      }
+    }
   }
 }

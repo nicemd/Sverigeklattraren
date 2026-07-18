@@ -87,5 +87,121 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "A small vertical to slightly overhanging crag that is mostly fully developed. The climbing is crux-intensive.",
+        "method": "llm",
+        "model": "gpt-4o-mini",
+        "sourceIds": [
+          "legacy:tkak-vaggen"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "General",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tkak-vaggen"
+            ]
+          },
+          "body": {
+            "text": "A small vertical to slightly overhanging crag that is mostly fully developed. Crux-focused climbing.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tkak-vaggen"
+            ]
+          }
+        },
+        "vagbeskrivning": {
+          "title": {
+            "text": "Route Description",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tkak-vaggen"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tkak-vaggen"
+            ]
+          }
+        },
+        "access": {
+          "title": {
+            "text": "Access",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tkak-vaggen"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tkak-vaggen"
+            ]
+          }
+        },
+        "uppdateringar": {
+          "title": {
+            "text": "Updates",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tkak-vaggen"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tkak-vaggen"
+            ]
+          }
+        },
+        "bilder": {
+          "title": {
+            "text": "Images",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tkak-vaggen"
+            ]
+          },
+          "body": {
+            "text": "http://farm4.static.flickr.com/3471/3718152370_873d5a9ecc.jpg http://www.flickr.com/photos/nyberg_fredrik/3718152370/ Mangus Eriksson climbing Lugnet 6c+, TKAK",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tkak-vaggen"
+            ]
+          }
+        }
+      },
+      "routes": {
+        "tkak-vaggen-led-1": {
+          "description": {
+            "text": "Furthest right on the crag. A bit hard for the grade.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tkak-vaggen"
+            ]
+          }
+        }
+      }
+    }
   }
 }

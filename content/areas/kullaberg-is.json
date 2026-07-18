@@ -44,5 +44,74 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "On the Kullaberg peninsula in Skåne, there are a handful of ice climbs in good conditions.",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:kullaberg-is"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "Overview",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:kullaberg-is"
+            ]
+          },
+          "body": {
+            "text": "There are a handful of ice climbs on the Kullaberg peninsula in Skåne when conditions are good.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:kullaberg-is"
+            ]
+          }
+        },
+        "vagbeskrivning": {
+          "title": {
+            "text": "Directions",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:kullaberg-is"
+            ]
+          },
+          "body": {
+            "text": "See Kullaberg.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:kullaberg-is"
+            ]
+          }
+        },
+        "access": {
+          "title": {
+            "text": "Access",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:kullaberg-is"
+            ]
+          },
+          "body": {
+            "text": "See Kullaberg.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:kullaberg-is"
+            ]
+          }
+        }
+      },
+      "routes": {}
+    }
   }
 }

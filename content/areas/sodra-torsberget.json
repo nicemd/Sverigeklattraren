@@ -193,5 +193,128 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "Rock formations on the expansive massif south of Torsberget. Here, two steep walls are angled toward each other. A couple of excellent routes, one of which is a little gem! The proximity to Grönbrinksberget makes the crag well worth a visit. There are still some easier climbs to be done.",
+        "method": "llm",
+        "model": "gpt-4o-mini",
+        "sourceIds": [
+          "legacy:sodra-torsberget"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "General",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:sodra-torsberget"
+            ]
+          },
+          "body": {
+            "text": "Rock formations on the vast massif south of Torsberget. There are two steep walls that are angled towards each other. A couple of fine routes, one of which is a little gem! The proximity to Grönbrinksberget makes the crag worth a visit. A few easier climbs are still to be done.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:sodra-torsberget"
+            ]
+          }
+        },
+        "miljo": {
+          "title": {
+            "text": "Environment",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:sodra-torsberget"
+            ]
+          },
+          "body": {
+            "text": "Shaded south-facing location. Not suitable for a damp day.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:sodra-torsberget"
+            ]
+          }
+        },
+        "vagbeskrivning": {
+          "title": {
+            "text": "Directions:",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:sodra-torsberget"
+            ]
+          },
+          "body": {
+            "text": "As for Torsberget, but continue along the road for another 500 m to a small meadow on the left. Cross the meadow; the crag is located in the woods at the far end of the meadow.\n\nOld coordinates: 9 I NV 496144",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:sodra-torsberget"
+            ]
+          }
+        },
+        "leder": {
+          "title": {
+            "text": "Routes",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:sodra-torsberget"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:sodra-torsberget"
+            ]
+          }
+        },
+        "sydvaggen": {
+          "title": {
+            "text": "South Wall",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:sodra-torsberget"
+            ]
+          },
+          "body": {
+            "text": "In the left part of the wall, there is a wide crack that has yet to be climbed!",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:sodra-torsberget"
+            ]
+          }
+        },
+        "vastvaggen": {
+          "title": {
+            "text": "West Wall",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:sodra-torsberget"
+            ]
+          },
+          "body": {
+            "text": "This wall section ends towards the right with a distinct arête.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:sodra-torsberget"
+            ]
+          }
+        }
+      },
+      "routes": {}
+    }
   }
 }

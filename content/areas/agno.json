@@ -245,5 +245,164 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "A large and heavily contoured island, north of Härsö. The entire southern section is a vast rock mass featuring relatively flat slabs, while a steep wall section lies in the middle of the island. Unfortunately, the compact and fissure-poor rock means there aren't as many climbing opportunities here as one might initially think. The routes are located on the largest cliff.",
+        "method": "llm",
+        "model": "gpt-4o-mini",
+        "sourceIds": [
+          "legacy:agno"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "Overview",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:agno"
+            ]
+          },
+          "body": {
+            "text": "A large and rugged island, north of Härsö. The southern part features a major mountain mass with fairly flat slabs, and in the middle of the island, there's a high vertical section. Unfortunately, the compact and low-featured rock means there aren't as many climbing opportunities here as one might initially think. The routes are on the largest cliff.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:agno"
+            ]
+          }
+        },
+        "miljo": {
+          "title": {
+            "text": "Environment:",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:agno"
+            ]
+          },
+          "body": {
+            "text": "West-facing. Open and not particularly mossy.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:agno"
+            ]
+          }
+        },
+        "vagbeskrivning": {
+          "title": {
+            "text": "Access",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:agno"
+            ]
+          },
+          "body": {
+            "text": "Own boat required. If you're passing by, Härsö and Stora Korpmaren are nearby.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:agno"
+            ]
+          }
+        },
+        "leder": {
+          "title": {
+            "text": "Routes",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:agno"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:agno"
+            ]
+          }
+        },
+        "mittpartiet": {
+          "title": {
+            "text": "Middle Section",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:agno"
+            ]
+          },
+          "body": {
+            "text": "In the middle of the wall, there's a slab, and above that, a sharply defined corner with a very smooth right wall.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:agno"
+            ]
+          }
+        },
+        "hogra-svaet": {
+          "title": {
+            "text": "Right Slab",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:agno"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:agno"
+            ]
+          }
+        },
+        "mer-information": {
+          "title": {
+            "text": "More Information",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:agno"
+            ]
+          },
+          "body": {
+            "text": "Thread on Bloxc (http://www.bloxc.com/forum/viewtopic.php?t=1536) with pictures.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:agno"
+            ]
+          }
+        },
+        "bilder": {
+          "title": {
+            "text": "Images",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:agno"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:agno"
+            ]
+          }
+        }
+      },
+      "routes": {}
+    }
   }
 }

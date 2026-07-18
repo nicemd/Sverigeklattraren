@@ -63,5 +63,92 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "Norrberget is the crag visible directly to the north from Flästa, i.e. the second crag west of Bodberget.",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:norrberget"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "General",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:norrberget"
+            ]
+          },
+          "body": {
+            "text": "Norrberget is the crag visible directly north from Flästa, i.e. the second hill west of Bodberget.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:norrberget"
+            ]
+          }
+        },
+        "kommunikationer": {
+          "title": {
+            "text": "Access",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:norrberget"
+            ]
+          },
+          "body": {
+            "text": "GPS coordinates: Lat: N 61º 27' 26.57\" Long: E 16º 28' 6.62\"\n\nSee Bodberget",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:norrberget"
+            ]
+          }
+        },
+        "vagbeskrivning": {
+          "title": {
+            "text": "Directions",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:norrberget"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:norrberget"
+            ]
+          }
+        },
+        "vaggen": {
+          "title": {
+            "text": "The crag",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:norrberget"
+            ]
+          },
+          "body": {
+            "text": "The crag has the same character as Bodberget. The best way to reach the routes is to abseil in from the top. The top is reached by following a path from a farm down in the village of Flästa. There are a few caves at the top, which also offers a very fine view. Climbing has taken place here for almost as long as at Bodberget, but the first ascensionists and route names were never recorded. To preserve some of the sense of discovery, we have not researched this further or provided detailed route descriptions beyond marking the established routes on the topo. The grades are roughly 4–6, with mostly fine crack climbing.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:norrberget"
+            ]
+          }
+        }
+      },
+      "routes": {}
+    }
   }
 }

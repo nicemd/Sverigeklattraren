@@ -142,5 +142,105 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "Recently discovered crag about 5 km north of Östmark. The crag faces west, with fairly dense woodland immediately next to it. It has potential for around 10–15 trad routes and 10–20 sport routes. There also appears to be potential for bouldering nearby. The crag is around 6–12 metres high and approximately 100 metres wide.",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:kalleshallarna"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "General",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:kalleshallarna"
+            ]
+          },
+          "body": {
+            "text": "Newly discovered crag about 5 km north of Östmark. The crag faces west, with fairly dense woodland immediately beside it. It has potential for around 10–15 trad routes and 10–20 sport routes. There also appears to be potential for bouldering nearby. The crag is around 6–12 metres high and approximately 100 metres wide.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:kalleshallarna"
+            ]
+          }
+        },
+        "vagbeskrivning": {
+          "title": {
+            "text": "Directions",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:kalleshallarna"
+            ]
+          },
+          "body": {
+            "text": "Take the E45 to Torsby and turn towards Östmark. After Östmark Church, turn right at the junction by the ICA shop towards Kristinefors. Continue for about 4–5 km to Metbäcken, then turn right just before the sign and cross a bridge. Park on the left after the bridge. Follow the road to the left along the edge of the field until a small summer barn appears on the right. There is a forest road on the right here, which can be difficult to spot due to the bushes. Follow it through the forest until it bends sharply left and climbs steeply. At this point, continue straight ahead through the forest to reach the crag.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:kalleshallarna"
+            ]
+          }
+        },
+        "leder": {
+          "title": {
+            "text": "Routes",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:kalleshallarna"
+            ]
+          },
+          "body": {
+            "text": "Three trad lines have been climbed so far. Some cleaning is needed before the quality of the crag can be fully assessed. Two of the three lines climbed are good routes, although they would benefit from being a little longer. The crag has some loose sections, as well as one spot that appears slow to dry. It has 3–4 sections offering varied climbing, often with overhanging starts. Some of the routes have fine crack lines that will appeal to novice nut enthusiasts.\n\nThe landowner is happy for climbing to take place, but permission to bolt has not yet been requested.\n\nMore information to follow.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:kalleshallarna"
+            ]
+          }
+        }
+      },
+      "routes": {
+        "kalleshallarna-led-1": {
+          "description": {
+            "text": "Varied climbing with a wet start; an alternative start is possible via a ledge with a spruce tree. From about 3–4 metres, the route follows a fine, well-protected crack line. Corner climbing with an awkward move to get over a rib on the right. Otherwise, there are some good jams and edges, though the crack needs brushing out deeper inside; at present, a lot of soil creates some interesting problems. The route finishes by climbing onto the ‘horn’ on the left.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:kalleshallarna"
+            ]
+          }
+        },
+        "kalleshallarna-led-2": {
+          "description": {
+            "text": "A well-protected crack line with a somewhat strenuous start, then easy climbing to the top. The route gobbles up cams in a crack that is deep in places and full of roots and soil.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:kalleshallarna"
+            ]
+          }
+        },
+        "kalleshallarna-led-3": {
+          "description": {
+            "text": "A well-protected crack line with good moves all the way.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:kalleshallarna"
+            ]
+          }
+        }
+      }
+    }
   }
 }

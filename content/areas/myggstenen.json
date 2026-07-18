@@ -847,5 +847,377 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "A rarely visited area north of Uppsala. Plenty of development potential, but the rock is sharp and it is a long drive.\n\n=Directions=\nTake road 272 towards Gysinge. Turn off towards Åkerlänna and drive through the village. Turn towards Harbo and keep right at the fork where the tarmac becomes a gravel road. Then turn towards Fastarbo. Myggstenen is signposted about 250 m before a turning area.\n\n=Sectors=",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:myggstenen"
+        ]
+      },
+      "sections": {
+        "plan-1": {
+          "title": {
+            "text": "Map 1",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:myggstenen"
+            ]
+          },
+          "body": {
+            "text": "Stop at the sign for Myggstenen. A couple of boulders lie beside the road if you walk back about 100 metres. To reach the enormous Myggstenen boulder, follow the sign and the path.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:myggstenen"
+            ]
+          }
+        },
+        "plan-2": {
+          "title": {
+            "text": "Map 2",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:myggstenen"
+            ]
+          },
+          "body": {
+            "text": "Drive past the sign for Myggsten and park at the turning area instead. The boulders are scattered across the clear-felled area south of the turning area.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:myggstenen"
+            ]
+          }
+        }
+      },
+      "routes": {
+        "myggstenen-problem-1": {
+          "description": {
+            "text": "Start on the right and traverse left to the top.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:myggstenen"
+            ]
+          }
+        },
+        "myggstenen-problem-4": {
+          "description": {
+            "text": "Wall right of the arete.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:myggstenen"
+            ]
+          }
+        },
+        "myggstenen-problem-7": {
+          "description": {
+            "text": "Straight up.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:myggstenen"
+            ]
+          }
+        },
+        "myggstenen-problem-8": {
+          "description": {
+            "text": "Wall, straight up.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:myggstenen"
+            ]
+          }
+        },
+        "myggstenen-problem-9": {
+          "description": {
+            "text": "Start by the tree, traverse right to the arete, then go up.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:myggstenen"
+            ]
+          }
+        },
+        "myggstenen-problem-10": {
+          "description": {
+            "text": "Corner.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:myggstenen"
+            ]
+          }
+        },
+        "myggstenen-problem-14": {
+          "description": {
+            "text": "Wall.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:myggstenen"
+            ]
+          }
+        },
+        "myggstenen-problem-15": {
+          "description": {
+            "text": "The high wall on Myggstenen.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:myggstenen"
+            ]
+          }
+        },
+        "myggstenen-problem-16": {
+          "description": {
+            "text": "Grade 5 trad.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:myggstenen"
+            ]
+          }
+        },
+        "myggstenen-problem-17": {
+          "description": {
+            "text": "Very hard bolted project.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:myggstenen"
+            ]
+          }
+        },
+        "myggstenen-problem-18": {
+          "description": {
+            "text": "Boulder 7. The overhang.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:myggstenen"
+            ]
+          }
+        },
+        "myggstenen-problem-19": {
+          "description": {
+            "text": "Boulder 1. The overhang.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:myggstenen"
+            ]
+          }
+        },
+        "myggstenen-problem-21": {
+          "description": {
+            "text": "The overhang.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:myggstenen"
+            ]
+          }
+        },
+        "myggstenen-problem-23": {
+          "description": {
+            "text": "Follow the pale band.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:myggstenen"
+            ]
+          }
+        },
+        "myggstenen-problem-24": {
+          "description": {
+            "text": "Wall. Straight up towards the edge.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:myggstenen"
+            ]
+          }
+        },
+        "myggstenen-problem-26": {
+          "description": {
+            "text": "Trends slightly left.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:myggstenen"
+            ]
+          }
+        },
+        "myggstenen-problem-27": {
+          "description": {
+            "text": "The arete.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:myggstenen"
+            ]
+          }
+        },
+        "myggstenen-problem-29": {
+          "description": {
+            "text": "Boulder 6. The east face.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:myggstenen"
+            ]
+          }
+        },
+        "myggstenen-problem-30": {
+          "description": {
+            "text": "Boulder 6. Right of En Handjävuls Liv och Förlustelser.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:myggstenen"
+            ]
+          }
+        },
+        "myggstenen-problem-33": {
+          "description": {
+            "text": "Climb either the right or left side of the arete.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:myggstenen"
+            ]
+          }
+        },
+        "myggstenen-problem-34": {
+          "description": {
+            "text": "Edges. Sit start with the left hand on a large sidehold.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:myggstenen"
+            ]
+          }
+        },
+        "myggstenen-problem-35": {
+          "description": {
+            "text": "Edges. Sit start with the right hand on a large sidehold and without the left edge.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:myggstenen"
+            ]
+          }
+        },
+        "myggstenen-problem-36": {
+          "description": {
+            "text": "Wall.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:myggstenen"
+            ]
+          }
+        },
+        "myggstenen-problem-38": {
+          "description": {
+            "text": "Corner.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:myggstenen"
+            ]
+          }
+        },
+        "myggstenen-problem-40": {
+          "description": {
+            "text": "Follow the crack up right.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:myggstenen"
+            ]
+          }
+        },
+        "myggstenen-problem-41": {
+          "description": {
+            "text": "Follow the crystal band.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:myggstenen"
+            ]
+          }
+        },
+        "myggstenen-problem-42": {
+          "description": {
+            "text": "Wall.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:myggstenen"
+            ]
+          }
+        },
+        "myggstenen-problem-43": {
+          "description": {
+            "text": "Trends left.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:myggstenen"
+            ]
+          }
+        },
+        "myggstenen-problem-44": {
+          "description": {
+            "text": "Straight up.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:myggstenen"
+            ]
+          }
+        },
+        "myggstenen-problem-45": {
+          "description": {
+            "text": "Traverse right and finish via Magkontakt av 3:e Graden.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:myggstenen"
+            ]
+          }
+        },
+        "myggstenen-problem-49": {
+          "description": {
+            "text": "Straight up.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:myggstenen"
+            ]
+          }
+        },
+        "myggstenen-problem-50": {
+          "description": {
+            "text": "Up the left side of the slabby arete.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:myggstenen"
+            ]
+          }
+        }
+      }
+    }
   }
 }

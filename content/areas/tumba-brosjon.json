@@ -101,5 +101,95 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "Dust off your natural protection. Head out and fiddle around with your cams in the cracks. Take the chance, soon the bolt mat will go up and Stockholm's last good cracks will disappear.\n\nTo the right is the main wall where two routes have already been established. There is space for much more. To the left, there are about five cam routes and a few short bolted routes. Further left, there's a bit of highball.",
+        "method": "llm",
+        "model": "gpt-4o-mini",
+        "sourceIds": [
+          "legacy:tumba-brosjon"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "General",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tumba-brosjon"
+            ]
+          },
+          "body": {
+            "text": "Dust off your natural protection. Head out and fiddle around with your nuts in the cracks. Make the most of it; soon the bolt mat will be laid out and Stockholm's last fine cracks will be gone.\n\nTo the right is the main wall where two routes have already been established. There's space for many more. To the left are about five crack routes and a few short sport routes. Further left, there's some highball.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tumba-brosjon"
+            ]
+          }
+        },
+        "vagbeskrivning": {
+          "title": {
+            "text": "Directions",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tumba-brosjon"
+            ]
+          },
+          "body": {
+            "text": "From the town: drive through Tumba towards Vårsta. Turn right towards Brotorpsbadet.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tumba-brosjon"
+            ]
+          }
+        },
+        "leder": {
+          "title": {
+            "text": "Routes",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tumba-brosjon"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tumba-brosjon"
+            ]
+          }
+        }
+      },
+      "routes": {
+        "tumba-brosjon-led-1": {
+          "description": {
+            "text": "Powerful at the start and finish",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tumba-brosjon"
+            ]
+          }
+        },
+        "tumba-brosjon-led-2": {
+          "description": {
+            "text": "Follows the arete at the end",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tumba-brosjon"
+            ]
+          }
+        }
+      }
+    }
   }
 }

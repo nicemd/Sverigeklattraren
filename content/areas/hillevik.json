@@ -101,5 +101,60 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "=Directions= To reach the boulder with the HilleBay problems, follow the same road as for Eskön. After turning off the old E4 towards Eskön, turn right onto a gravel road at a sharp left-hand bend a few hundred metres from the “main” road (the same road as for Blåbärsstenarna). Follow the gravel road, then take the first road on the left. Continue along the new road for a few hundred metres, then take the first road on the left. Park at the “junction”; the boulder is 10 metres into the woods on your right.\n\n=Problems=",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:hillevik"
+        ]
+      },
+      "sections": {},
+      "routes": {
+        "hillevik-problem-1": {
+          "description": {
+            "text": "Sit start at the arrows, with your left hand on the low crimp rail and your right on the larger Gaston rail. Move left towards the large crimp rail, then up via the bulge on the arete. Top out straight up without a heel hook on the right-hand arete.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hillevik"
+            ]
+          }
+        },
+        "hillevik-problem-2": {
+          "description": {
+            "text": "Start as for HilleBay at the arrows, but go straight up towards the sloping right-hand arete via the small crimp, then follow the arete to the top.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hillevik"
+            ]
+          }
+        },
+        "hillevik-problem-3": {
+          "description": {
+            "text": "Start at the arrow on the large crimp rail that HilleBay passes. Dyno straight up to the top rail without using the bulge on the arete.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hillevik"
+            ]
+          }
+        },
+        "hillevik-problem-4": {
+          "description": {
+            "text": "Around the corner to the left when facing HilleBay. Start at the arrow and go straight up.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hillevik"
+            ]
+          }
+        }
+      }
+    }
   }
 }

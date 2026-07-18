@@ -117,5 +117,133 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "Kåhög is in Partille and offers hard bolted routes. The crag is 10–20 metres high. You can expect to have the crag pretty much to yourself.",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:kahog"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "General information",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:kahog"
+            ]
+          },
+          "body": {
+            "text": "Kåhög is in Partille and offers hard bolted routes. The crag is 10–20 metres high. You can expect to have the crag very much to yourself.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:kahog"
+            ]
+          }
+        },
+        "karaktar": {
+          "title": {
+            "text": "Character",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:kahog"
+            ]
+          },
+          "body": {
+            "text": "The crag faces south but is shaded by large trees. It can probably be wet here in spring. A major drawback is the extremely frequent and noisy rail traffic passing by!\n\nThe routes are about 10–20 m long and slightly overhanging. All routes are bolted and equipped with lower-off anchors. Recommended routes are Le Débutant 8- and Den långa resan 8.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:kahog"
+            ]
+          }
+        },
+        "vagbeskrivning": {
+          "title": {
+            "text": "Directions",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:kahog"
+            ]
+          },
+          "body": {
+            "text": "From Gothenburg, take the E20 towards Stockholm. Exit at Jonseredsmotet and follow the signs for Kåhög along Kåhögsvägen. Park on the right just after crossing the railway, at the junction of Byvägen and Torsetvägen.\n\nThe total drive is about 12 km.\n\nFrom the parking, walk uphill into the woods, past the house, and you will reach the crag after about 100 m.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:kahog"
+            ]
+          }
+        },
+        "rekommenderade-leder": {
+          "title": {
+            "text": "Recommended routes",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:kahog"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:kahog"
+            ]
+          }
+        }
+      },
+      "routes": {
+        "kahog-led-1": {
+          "description": {
+            "text": "Quite awkward.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:kahog"
+            ]
+          }
+        },
+        "kahog-led-2": {
+          "description": {
+            "text": "Cruxy. Somewhat loose.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:kahog"
+            ]
+          }
+        },
+        "kahog-led-3": {
+          "description": {
+            "text": "Good.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:kahog"
+            ]
+          }
+        },
+        "kahog-led-4": {
+          "description": {
+            "text": "Easy for the grade.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:kahog"
+            ]
+          }
+        }
+      }
+    }
   }
 }

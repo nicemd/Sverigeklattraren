@@ -55,5 +55,74 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "A small wall below Solstugan café in Kristineberg on Kungsholmen.",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:solstugan"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "General",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:solstugan"
+            ]
+          },
+          "body": {
+            "text": "A small wall below Café Solstugan in Kristineberg on Kungsholmen.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:solstugan"
+            ]
+          }
+        },
+        "vagbeskrivning": {
+          "title": {
+            "text": "Directions",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:solstugan"
+            ]
+          },
+          "body": {
+            "text": "Take the metro to Kristineberg. Walk down through the park towards Stockholms Seglarklubb. Follow the shore; just beyond the steps leading up to Café Solstugan, a path leads in to the crag.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:solstugan"
+            ]
+          }
+        },
+        "omraden": {
+          "title": {
+            "text": "Areas",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:solstugan"
+            ]
+          },
+          "body": {
+            "text": "A detailed guide can be found at bloxc.com\n\nhttp://www.bloxc.com/areas.php\n\nThere is also an overview on the old Plonk site:\n\nhttp://www.plonk.se/oldsite/solstugan.html\n\nThe crag has perhaps Stockholm's hardest (most sandbagged) 6B, as well as some fine sloper climbing à la Ekoberget. Bouldering has taken place here since the 1980s without being documented, so the names of the first ascensionists in the guide should be taken with a large pinch of salt. No one knows who first climbed the problems.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:solstugan"
+            ]
+          }
+        }
+      },
+      "routes": {}
+    }
   }
 }

@@ -145,5 +145,117 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "=Sectors=",
+        "method": "llm",
+        "model": "gpt-4o-mini",
+        "sourceIds": [
+          "legacy:umea-city"
+        ]
+      },
+      "sections": {
+        "iksu-stenen": {
+          "title": {
+            "text": "IKSU Stone",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:umea-city"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:umea-city"
+            ]
+          }
+        },
+        "brofastet": {
+          "title": {
+            "text": "Bridge Base",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:umea-city"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:umea-city"
+            ]
+          }
+        }
+      },
+      "routes": {
+        "umea-city-problem-1": {
+          "description": {
+            "text": "Climbs up the walkway over the river between Teg and the city. Starts on the city side of Brofästet, heading straight up to the ledge and mantling. Sensitive holds.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:umea-city"
+            ]
+          }
+        },
+        "umea-city-problem-2": {
+          "description": {
+            "text": "Starts in the same place as Fikusexhibitionism. Dynamically reach directly to the ledge from the designated starting holds. Quite a stretch, and it gets trickier with small/bad footholds.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:umea-city"
+            ]
+          }
+        },
+        "umea-city-problem-3": {
+          "description": {
+            "text": "Located on the wall on Hovrättsgatan, west of the city. Before the last intersection down towards the river. Essentially a pointless problem. Start hanging from the lower fixed hold and reach to the upper then go up. No straight upwards movement allowed.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:umea-city"
+            ]
+          }
+        },
+        "umea-city-problem-4": {
+          "description": {
+            "text": "Situated by the tunnel under the E4 on Teg. The designated high arete. Just sink in and wriggle up. Might be equally easy with climbing shoes as without. A pad would be nice in case you fall unexpectedly.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:umea-city"
+            ]
+          }
+        },
+        "umea-city-problem-5": {
+          "description": {
+            "text": "Located in the middle of the wall to the left of Artifiziellecke. Start at the centre for the pole and go straight up, not that it makes much difference, as there are similar holds several meters in every direction. A bit sharp but okay.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:umea-city"
+            ]
+          }
+        },
+        "umea-city-problem-6": {
+          "description": {
+            "text": "Found down by the pathway from Carlshem to Strömpilen. The so-called MAXI rock. Start on a slope for the right hand and crimp for the left. Climb straight up.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:umea-city"
+            ]
+          }
+        }
+      }
+    }
   }
 }

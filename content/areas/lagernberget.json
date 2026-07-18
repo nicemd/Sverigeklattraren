@@ -453,5 +453,110 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "The crag is near Lake Östra Lägern, roughly halfway between Tranås and Eksjö.\n\nFrom Tranås, take road 131 towards Hestra and Österbymo. At Sund, turn right towards Forsnäs gård. Just before Forsnäs gård, turn right towards Hestrahult.\n\nFrom Eksjö, take road 134 north-east towards Österbymo. Just over 5 km after Rydsnäs, turn left towards Forsnäs gård. After passing Forsnäs gård, bear left towards Hestrahult.\n\nFrom Kisa, take road 134 towards Österbymo and Eksjö. Three kilometres after Österbymo, turn right towards Forsnäs gård. After passing Forsnäs gård, bear left towards Hestrahult.\n\nAfter turning towards Hestrahult, follow the road for just under a kilometre, then turn left by the first houses in Hestrahult. Follow the road for 3 kilometres, then turn right towards Lopperyd. At Lopperyds gård there is good parking just before the barrier.\n\nFrom the parking, it is a two-kilometre walk to the crag. Continue along the road for just under a kilometre to a T-junction and turn left. The road then follows a broad U-shape with two right-angle bends to the right. At the large left-hand bend, enter the woods, heading roughly in the same direction as the left side of the U. The crag is approximately 200 metres through the woods.",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:lagernberget"
+        ]
+      },
+      "sections": {
+        "karta": {
+          "title": {
+            "text": "Map",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:lagernberget"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:lagernberget"
+            ]
+          }
+        },
+        "vagbeskrivning": {
+          "title": {
+            "text": "Directions",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:lagernberget"
+            ]
+          },
+          "body": {
+            "text": "The crag is near Lake Östra Lägern, roughly halfway between Tranås and Eksjö.\n\nFrom Tranås, take road 131 towards Hestra and Österbymo. At Sund, turn right towards Forsnäs gård. Just before Forsnäs gård, turn right towards Hestrahult.\n\nFrom Eksjö, take road 134 north-east towards Österbymo. Just over 5 kilometres after Rydsnäs, turn left towards Forsnäs gård. After passing Forsnäs gård, bear left towards Hestrahult.\n\nFrom Kisa, take road 134 towards Österbymo and Eksjö. Three kilometres after Österbymo, turn right towards Forsnäs gård. After passing Forsnäs gård, bear left towards Hestrahult.\n\nAfter turning towards Hestrahult, follow the road for just under a kilometre, then turn left by the first houses in Hestrahult. Follow the road for 3 kilometres, then turn right towards Lopperyd. There is good parking at Lopperyds gård, just before the barrier.\n\nThe crag is a two-kilometre walk from the parking. Continue along the road for just under a kilometre to a T-junction and turn left. The road now forms a large U, with two 90-degree right-hand bends. At the large left-hand bend, enter the forest, heading roughly in the same direction as the left-hand side of the U. The crag is approximately 200 metres through the forest.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:lagernberget"
+            ]
+          }
+        },
+        "access": {
+          "title": {
+            "text": "Access",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:lagernberget"
+            ]
+          },
+          "body": {
+            "text": "Check the weather at Lägernberget (http://www.hitta.se/LargeMap.aspx?z=6&cx=1460139&cy=6413073&PointX=1460139&PointY=6413073&referrer&var=Edhult&wflWhite=1a1b&wflPink=4a&SearchType=4&name=L%e4gernberget&weather=true&forecastDate=&showTraffic=false)",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:lagernberget"
+            ]
+          }
+        },
+        "leder": {
+          "title": {
+            "text": "Routes",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:lagernberget"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:lagernberget"
+            ]
+          }
+        },
+        "lankar": {
+          "title": {
+            "text": "Links",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:lagernberget"
+            ]
+          },
+          "body": {
+            "text": "Höglandsklättrarna's page on Lägernberget (http://www.hoglandsklattrarna.se/ccms.asp?pageID=30)\n\nGuide provided by Linköpings klätterklubb (http://linkopingsklatterklubb.se/index.php/forare.html).",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:lagernberget"
+            ]
+          }
+        }
+      },
+      "routes": {}
+    }
   }
 }

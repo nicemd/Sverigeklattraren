@@ -260,5 +260,128 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "Crag in Tyresta Nature Reserve with an amazing location. The crag is situated along the Sörmlandsleden trail, overlooking Tyresö-Flaten lake. Newly established in autumn 2008.",
+        "method": "llm",
+        "model": "gpt-4o-mini",
+        "sourceIds": [
+          "legacy:tyreso-flaten"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "Overview",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tyreso-flaten"
+            ]
+          },
+          "body": {
+            "text": "Crag in Tyresta Nature Reserve with a fantastic location. The rock is situated along the Sörmlandsleden with views over Lake Tyresö-Flaten. Recently bolted in autumn 2008.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tyreso-flaten"
+            ]
+          }
+        },
+        "miljo": {
+          "title": {
+            "text": "Environment",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tyreso-flaten"
+            ]
+          },
+          "body": {
+            "text": "West-facing. Open, sunny from 12 PM.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tyreso-flaten"
+            ]
+          }
+        },
+        "vagbeskrivning": {
+          "title": {
+            "text": "Directions",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tyreso-flaten"
+            ]
+          },
+          "body": {
+            "text": "Parking is available before the turning point. By bus, take lines 803 or 813 to the final stop Nyfors. Follow Nyforsvägen and turn right after 200 m. Follow the Sörmlandsleden from the turning point. After 400 m, the crag appears on your right at the northeastern shore of Lake Tyresö-Flaten. It’s about a 1 km walk from the bus.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tyreso-flaten"
+            ]
+          }
+        },
+        "leder": {
+          "title": {
+            "text": "Routes",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tyreso-flaten"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tyreso-flaten"
+            ]
+          }
+        },
+        "kojklippan": {
+          "title": {
+            "text": "Kojcliff",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tyreso-flaten"
+            ]
+          },
+          "body": {
+            "text": "This north-facing wall is located in a small ravine beneath the main wall.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tyreso-flaten"
+            ]
+          }
+        },
+        "huvudvaggen": {
+          "title": {
+            "text": "Main Wall",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tyreso-flaten"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tyreso-flaten"
+            ]
+          }
+        }
+      },
+      "routes": {}
+    }
   }
 }

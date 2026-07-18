@@ -124,5 +124,56 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "A small, unassuming crag on the eastern shore of Edsviken.",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:falkberget-stockholm"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "General",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:falkberget-stockholm"
+            ]
+          },
+          "body": {
+            "text": "A small, inconspicuous crag on the eastern shore of Edsviken.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:falkberget-stockholm"
+            ]
+          }
+        },
+        "position": {
+          "title": {
+            "text": "Position",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:falkberget-stockholm"
+            ]
+          },
+          "body": {
+            "text": "Position: 10 I NV 920233",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:falkberget-stockholm"
+            ]
+          }
+        }
+      },
+      "routes": {}
+    }
   }
 }

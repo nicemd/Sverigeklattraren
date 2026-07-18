@@ -39,5 +39,56 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "Small crag near Bistaberget.",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:hultberget-syd"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "General",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hultberget-syd"
+            ]
+          },
+          "body": {
+            "text": "Small crag near Bistaberget.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hultberget-syd"
+            ]
+          }
+        },
+        "beskrivning": {
+          "title": {
+            "text": "Description",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hultberget-syd"
+            ]
+          },
+          "body": {
+            "text": "I stopped by to take a look at this crag on 11 Aug 2012. It was a depressing sight, as it was completely overgrown. It would be good to get a group together and go there to clear it up. - wille",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hultberget-syd"
+            ]
+          }
+        }
+      },
+      "routes": {}
+    }
   }
 }

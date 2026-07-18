@@ -49,5 +49,92 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "From Funäsdalen, drive towards Sveg for 7 km until you reach a road on the right signposted \"Tännäs 7\". Follow this road to Tännäs. Once in Tännäs, the ice is clearly visible on the left as you approach the church. Park at the rest area by the ski trail sign.\n\nFrom the parking area, walk straight up towards the ice, following a ski track (don’t damage the tracks!) for about 50 meters to the right, where you ascend into the edge of a meadow to the ice. For those wishing to set up a top rope, there are fixed ropes installed to the right of the fall, leading to the top via a ledge system. The ropes start at a crooked birch 10 meters to the right of the fall.",
+        "method": "llm",
+        "model": "gpt-4o-mini",
+        "sourceIds": [
+          "legacy:tannas"
+        ]
+      },
+      "sections": {
+        "tannas-svamorfallet": {
+          "title": {
+            "text": "Tännäs/Svamorfallet",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tannas"
+            ]
+          },
+          "body": {
+            "text": "The ice in Tännäs is perhaps one of the country’s best beginner ice climbs due to the short approach, modest height, and easy climbing. It is also straightforward to set up top ropes in trees above the fall (using a 10-metre static rope).",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tannas"
+            ]
+          }
+        },
+        "vagbeskrivning": {
+          "title": {
+            "text": "Directions",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tannas"
+            ]
+          },
+          "body": {
+            "text": "From Funäsdalen, drive towards Sveg for 7 km to a road on the right signposted \"Tännäs 7\", and follow this to Tännäs. Once in Tännäs, the ice is clearly visible on the left side as you arrive at the church. Park at the rest area where the ski trail board is located.\n\nFrom the parking area, walk directly up towards the ice, onto a ski track (don’t damage the tracks!) and follow it about 50 metres to the right, where you walk up the edge of a meadow to the ice. For those wishing to set up a top rope, fixed ropes are installed to the right of the fall to access the top via a ledge system. The ropes start at a curved birch tree 10 metres to the right of the fall.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tannas"
+            ]
+          }
+        },
+        "klattringen": {
+          "title": {
+            "text": "Climbing",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tannas"
+            ]
+          },
+          "body": {
+            "text": "The main ice is 10-15 metres high and approximately 20 metres wide. The easiest routes up are on the far right and left of the main ice. The middle section is steeper, and there is often a section of bare rock in the centre for those wanting to try some dry-tooling. To the left of the main ice, there are a couple of tough mixed routes to try on top rope. However, be cautious of the large icicles on the left at the beginning of the season, allowing them time to freeze properly.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tannas"
+            ]
+          }
+        },
+        "ovrigt": {
+          "title": {
+            "text": "Other",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tannas"
+            ]
+          },
+          "body": {
+            "text": "There have been no access issues, but remember that the whole village can see and hear what is happening on the ice. Park down by the ski trail board; the owners of Tännäsgården do not want us using their parking.\n\nDuring winter, there are often top rope anchors and ropes left above the ice. These belong to Strapatser AB in Funäsdalen, who offer introductory climbing in Tännäs.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tannas"
+            ]
+          }
+        }
+      },
+      "routes": {}
+    }
   }
 }

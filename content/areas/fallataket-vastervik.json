@@ -54,5 +54,74 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "Fallataket is an overhanging, water-polished granite crag. Set in woodland, the roof offers unusually steep lines.",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:fallataket-vastervik"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "General",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:fallataket-vastervik"
+            ]
+          },
+          "body": {
+            "text": "Fallataket is an overhanging, water-polished granite wall. The roof is set in woodland and features unusually steep lines.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:fallataket-vastervik"
+            ]
+          }
+        },
+        "vagbeskrivning": {
+          "title": {
+            "text": "Directions",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:fallataket-vastervik"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:fallataket-vastervik"
+            ]
+          }
+        },
+        "extern-forare": {
+          "title": {
+            "text": "External guide",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:fallataket-vastervik"
+            ]
+          },
+          "body": {
+            "text": "http://www.vastervikclimbing.se/klattercentret/pdfer/",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:fallataket-vastervik"
+            ]
+          }
+        }
+      },
+      "routes": {}
+    }
   }
 }

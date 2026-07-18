@@ -67,5 +67,74 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "Take the E45 south from Trollhättan towards Gothenburg and turn off at the southern entrance to Sjuntorp. The crag is on the left, across the field. Turn left onto the first gravel road. NB: Do not cross the field; there is a small gravel road from which you can take the forest track through to the crag.",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:musberget"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "General",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:musberget"
+            ]
+          },
+          "body": {
+            "text": "Take the E45 south from Trollhättan towards Göteborg and turn off at the southern entrance to Sjuntorp. The crag is on the left, in the field. Turn left onto the first gravel road. NOTE: Do not cross the field; there is a small gravel road from which you can take the ‘forest road’ through to the crag.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:musberget"
+            ]
+          }
+        },
+        "vagbeskrivning": {
+          "title": {
+            "text": "Directions",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:musberget"
+            ]
+          },
+          "body": {
+            "text": "Map here. Press the map button above.\n\nAdd directions here.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:musberget"
+            ]
+          }
+        },
+        "leder": {
+          "title": {
+            "text": "Routes",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:musberget"
+            ]
+          },
+          "body": {
+            "text": "route|no=1|name=Yalla, Yalla! |grade=4|type=trad|Length=15m The left-hand route of the two grade 4s on the right; the other is called something with boomschackalack. In any case, this is an enjoyable crack for beginners. A triceps workout at the end. Probably good for practising nut placements.\n\nname= (Inte)Helt enkelt Grade=6/6+|type=trad||length=12m? Tough, burly climbing with underclings.\n\nRight-hand column",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:musberget"
+            ]
+          }
+        }
+      },
+      "routes": {}
+    }
   }
 }

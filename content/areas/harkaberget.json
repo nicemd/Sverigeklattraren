@@ -133,5 +133,113 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "Newly developed sport crag with routes from 7a upwards.",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:harkaberget"
+        ]
+      },
+      "sections": {
+        "access": {
+          "title": {
+            "text": "Access",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:harkaberget"
+            ]
+          },
+          "body": {
+            "text": "Parking is extremely sensitive. There is space for a maximum of two cars at the indicated parking spot. Park at the far left of the lay-by. The landowner takes horses past here and must be able to use the small forest road on the right. If this is full, alternative parking is available along the road down towards Kavlanda brygga. There is a gravel lay-by on a bend (not a passing place) that we may use.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:harkaberget"
+            ]
+          }
+        },
+        "allmant": {
+          "title": {
+            "text": "General",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:harkaberget"
+            ]
+          },
+          "body": {
+            "text": "Newly bolted sport crag with routes from 7a upwards.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:harkaberget"
+            ]
+          }
+        },
+        "vagbeskrivning": {
+          "title": {
+            "text": "Directions",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:harkaberget"
+            ]
+          },
+          "body": {
+            "text": "http://www.gbg-guiden.info/harkaberget_v4.pdf\n\nGöteborgs klätterklubb and Highsport have contributed some of the bolts.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:harkaberget"
+            ]
+          }
+        },
+        "leder": {
+          "title": {
+            "text": "Routes",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:harkaberget"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:harkaberget"
+            ]
+          }
+        }
+      },
+      "routes": {
+        "harkaberget-led-1": {
+          "description": {
+            "text": "On the less steep wall to the left.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:harkaberget"
+            ]
+          }
+        },
+        "harkaberget-led-4": {
+          "description": {
+            "text": "On the less steep wall to the right.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:harkaberget"
+            ]
+          }
+        }
+      }
+    }
   }
 }

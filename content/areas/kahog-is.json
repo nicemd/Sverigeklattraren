@@ -121,5 +121,92 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "Two icefalls facing south-west. Marodören is very close to a house.",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:kahog-is"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "Overview",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:kahog-is"
+            ]
+          },
+          "body": {
+            "text": "Two icefalls facing south-west. Marodören is very close to a house.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:kahog-is"
+            ]
+          }
+        },
+        "leder": {
+          "title": {
+            "text": "Routes",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:kahog-is"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:kahog-is"
+            ]
+          }
+        },
+        "vagbeskrivning": {
+          "title": {
+            "text": "Directions",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:kahog-is"
+            ]
+          },
+          "body": {
+            "text": "Take the E20 east towards Lerum. Turn off towards Jonsered and Kåhög; the ice is on the crag above Nedre Östangårdsvägen (the second street on the right after the railway).",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:kahog-is"
+            ]
+          }
+        },
+        "access": {
+          "title": {
+            "text": "Access",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:kahog-is"
+            ]
+          },
+          "body": {
+            "text": "Park considerately. Keep a low profile, as houses are very close by. Communicate by walkie-talkie, phone or rope commands to avoid causing a disturbance.\n\n--Bultfeber, 25 February 2011 at 08.34 (CET)",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:kahog-is"
+            ]
+          }
+        }
+      },
+      "routes": {}
+    }
   }
 }

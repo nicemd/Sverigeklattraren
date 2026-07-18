@@ -80,5 +80,85 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "The crag is approx. 10–15 m high and the surroundings are fantastic and feel like true wilderness. It is somewhat surprising that the crag has not been developed, given how many people visit the area. There is plenty to do for anyone looking to establish new routes, but the local climbers want to keep the crag bolt-free; any bolts placed will be removed. During 2008 and 2009, a number of fine routes appeared in the Knäred area, mostly at the easier grades of 4–6. The routes are of high quality, however, so it is definitely worth a visit. The crag rises directly out of the water, making a normal lead from the ground difficult without a boat. You can belay from a canoe, or abseil down and establish a belay, or why not top-rope solo the routes. Deep-water soloing is also possible, but the water depth has not been checked.",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:odens-kammare"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "General",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:odens-kammare"
+            ]
+          },
+          "body": {
+            "text": "The crag is about 10–15 m high and the surroundings are fantastic and feel like wilderness. It is rather surprising that the crag has not been developed, given how many people visit the area. There is plenty of scope for new routes, but local climbers want to keep the crag bolt-free; any bolts placed will be removed. A number of fine routes appeared in the Knäred area during 2008 and 2009, mostly at the easier grades of 4–6. The routes are high quality, however, so it is definitely worth a visit. The crag rises straight out of the water, making a normal lead from the ground difficult without a boat. You can, however, belay from a canoe, or abseil in and set up a belay, or why not rope-solo the routes. Deep-water soloing is also possible, though the water depth has not been checked.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:odens-kammare"
+            ]
+          }
+        },
+        "vagbeskrivning": {
+          "title": {
+            "text": "Directions",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:odens-kammare"
+            ]
+          },
+          "body": {
+            "text": "Map here. Click the map button above.\n\nThe crag is in the scenic Hjörnered area outside Knäred. The best way to reach it is by canoe or boat. The crag lies north of the canoe hire by the bridge at Hjörneredssjön, upstream on the Lagan. It takes about 15 minutes to paddle there.\n\nDo not forget to buy waffles from Uno at Vippentorpet café – absolutely delicious :-) – or crawl into Midsommargrottan, which is on the way to the café.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:odens-kammare"
+            ]
+          }
+        },
+        "leder": {
+          "title": {
+            "text": "Routes",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:odens-kammare"
+            ]
+          },
+          "body": {
+            "text": "Odens kammare guide (http://eskapader.se/FörareGuiderResor/Klätterförare/Övriga.aspx)",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:odens-kammare"
+            ]
+          }
+        }
+      },
+      "routes": {
+        "odens-kammare-led-1": {
+          "description": {
+            "text": "Route description",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:odens-kammare"
+            ]
+          }
+        }
+      }
+    }
   }
 }

@@ -735,5 +735,327 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "Overhanging climbing close to the archipelago.",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:finnsvedsberget"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "General",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:finnsvedsberget"
+            ]
+          },
+          "body": {
+            "text": "Overhanging climbing close to the archipelago.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:finnsvedsberget"
+            ]
+          }
+        },
+        "vagbeskrivning": {
+          "title": {
+            "text": "Directions",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:finnsvedsberget"
+            ]
+          },
+          "body": {
+            "text": "Take road 222, Värmdöleden, and exit towards Gustavsberg/Ingarö. Turn left towards Ingarö. Follow Ingarövägen for about 2 km, then turn right towards Lillängsdal after the bridge. Follow Lillängsdalsvägen for about 4 km and park at the junction of Lillängsdalsvägen and Klintvägen.\n\nFollow Klintvägen to its end, then continue along the path. At the forks, take the first left, the second left and the third right.\n\nContinue along the path for another 200–300 m. A cairn beside the path marks where to turn left and head down towards the water. Avoid the summer cottages. Once at the water, turn right.\n\nA newly installed abseil anchor is on the slab above the left-hand section of the crag. From this anchor you can reach the anchors for Sjöjungfrun–Tintin. To find it, continue along the path for just under 100 m; a second cairn marks where to turn left towards the water.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:finnsvedsberget"
+            ]
+          }
+        },
+        "leder": {
+          "title": {
+            "text": "Routes",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:finnsvedsberget"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:finnsvedsberget"
+            ]
+          }
+        },
+        "sjovaggen": {
+          "title": {
+            "text": "Sjöväggen",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:finnsvedsberget"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:finnsvedsberget"
+            ]
+          }
+        },
+        "hogklint": {
+          "title": {
+            "text": "Högklint",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:finnsvedsberget"
+            ]
+          },
+          "body": {
+            "text": "An overhanging wall, also by the water. Short, strenuous routes.\n\nDirections: As for Sjöväggen, but continue straight along the path. After a few hundred metres, a power line crosses the path, and shortly afterwards a third cairn marks where to turn right and head down towards the water. Easier to find than Sjöväggen.\n\nThere are several new routes here. Does anyone have the details?",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:finnsvedsberget"
+            ]
+          }
+        },
+        "svavaggen": {
+          "title": {
+            "text": "Svaväggen",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:finnsvedsberget"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:finnsvedsberget"
+            ]
+          }
+        },
+        "lilla-vaggen": {
+          "title": {
+            "text": "Lilla väggen",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:finnsvedsberget"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:finnsvedsberget"
+            ]
+          }
+        }
+      },
+      "routes": {
+        "finnsvedsberget-led-3": {
+          "description": {
+            "text": "Previously graded 7b+, but a large hold broke off in summer 2012 and the route is now slightly harder.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:finnsvedsberget"
+            ]
+          }
+        },
+        "finnsvedsberget-led-4": {
+          "description": {
+            "text": "Starts in the same place as Kattöga, but goes straight up.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:finnsvedsberget"
+            ]
+          }
+        },
+        "finnsvedsberget-led-5": {
+          "description": {
+            "text": "A diagonal traverse across the entire wall. Starts at Baggen and finishes in Sjöjungfrun. Missing hangers?",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:finnsvedsberget"
+            ]
+          }
+        },
+        "finnsvedsberget-led-6": {
+          "description": {
+            "text": "Goes straight up past a prominent flake feature.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:finnsvedsberget"
+            ]
+          }
+        },
+        "finnsvedsberget-led-7": {
+          "description": {
+            "text": "Starts up Baggen, but heads left to join Snatch.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:finnsvedsberget"
+            ]
+          }
+        },
+        "finnsvedsberget-led-8": {
+          "description": {
+            "text": "Bouldery start. Begins by a bent iron bar.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:finnsvedsberget"
+            ]
+          }
+        },
+        "finnsvedsberget-led-13": {
+          "description": {
+            "text": "An unprotected start leads to a corner that angles right. The exit is steeper and requires commitment.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:finnsvedsberget"
+            ]
+          }
+        },
+        "finnsvedsberget-led-14": {
+          "description": {
+            "text": "Good climbing on positive holds to the same exit and anchor as Ada.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:finnsvedsberget"
+            ]
+          }
+        },
+        "finnsvedsberget-led-15": {
+          "description": {
+            "text": "A few metres right of Runda former. Enjoyable climbing leads to a ledge with a large pine tree, where there is a separate anchor.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:finnsvedsberget"
+            ]
+          }
+        },
+        "finnsvedsberget-led-16": {
+          "description": {
+            "text": "Climbs a small slab to the right of the main wall. Abseil anchor.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:finnsvedsberget"
+            ]
+          }
+        },
+        "finnsvedsberget-led-17": {
+          "description": {
+            "text": "Joins Salt Sill?",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:finnsvedsberget"
+            ]
+          }
+        },
+        "finnsvedsberget-led-18": {
+          "description": {
+            "text": "Branches off right?",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:finnsvedsberget"
+            ]
+          }
+        },
+        "finnsvedsberget-led-19": {
+          "description": {
+            "text": "Is this correct? Joins Salt Sill?",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:finnsvedsberget"
+            ]
+          }
+        },
+        "finnsvedsberget-led-20": {
+          "description": {
+            "text": "Goes left of the roof. Gymnastic, full-body climbing. Horrible, but fun. Well bolted.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:finnsvedsberget"
+            ]
+          }
+        },
+        "finnsvedsberget-led-21": {
+          "description": {
+            "text": "Takes the right-hand side of the roof. Harder than it looks.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:finnsvedsberget"
+            ]
+          }
+        },
+        "finnsvedsberget-led-27": {
+          "description": {
+            "text": "In the corner. Quite good.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:finnsvedsberget"
+            ]
+          }
+        },
+        "finnsvedsberget-led-29": {
+          "description": {
+            "text": "Wall climbing left of the “arete”.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:finnsvedsberget"
+            ]
+          }
+        },
+        "finnsvedsberget-led-30": {
+          "description": {
+            "text": "Follows the “arete”. The crux may be 6b/6b+; the rest is considerably easier.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:finnsvedsberget"
+            ]
+          }
+        }
+      }
+    }
   }
 }

@@ -144,5 +144,125 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "Rödhällsberget lies just over 10 km north-west of Hudiksvall. The crag is at the top of a hill, with a horrendous approach along a power-line corridor. Once there, it is easy to get your bearings: the south-facing gneiss wall is more or less continuous for about 100 metres. The rock is slightly loose in places, which mainly affects those cleaning new routes; the established routes are generally clean and sound.",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:rodhallsberget"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "Overview",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:rodhallsberget"
+            ]
+          },
+          "body": {
+            "text": "Rödhällsberget lies just over 10 km north-west of Hudiksvall. The crag is right at the top of a hill and has a horrendous approach along a power-line corridor. Once there, it is easy to find your way around; the south-facing gneiss wall is more or less continuous for about 100 metres. The rock is slightly loose in places, which is mainly an issue for those cleaning new routes; the established routes are largely clean and sound.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:rodhallsberget"
+            ]
+          }
+        },
+        "vagbeskrivning": {
+          "title": {
+            "text": "Directions",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:rodhallsberget"
+            ]
+          },
+          "body": {
+            "text": "Not available.\n\nApproximate GPS coordinates: Lat: N 61º 48' 49.18\" Long: E 16º 54' 31.67\"",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:rodhallsberget"
+            ]
+          }
+        },
+        "klippan": {
+          "title": {
+            "text": "The crag",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:rodhallsberget"
+            ]
+          },
+          "body": {
+            "text": "Clean, sound rock where the routes run.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:rodhallsberget"
+            ]
+          }
+        }
+      },
+      "routes": {
+        "rodhallsberget-led-1": {
+          "description": {
+            "text": "A short, steep crack route almost at the far left-hand end of the crag.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:rodhallsberget"
+            ]
+          }
+        },
+        "rodhallsberget-led-2": {
+          "description": {
+            "text": "A sharp layback edge in the corner 2 m to the right of \"Starten\".",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:rodhallsberget"
+            ]
+          }
+        },
+        "rodhallsberget-led-3": {
+          "description": {
+            "text": "Powerful, overhanging face and crack climbing on the wall angled away from the preceding routes. A welcome resting position on the ledge halfway up the wall. One fixed peg at the start. Otherwise good nut and Friend placements—if you have the strength to place them.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:rodhallsberget"
+            ]
+          }
+        },
+        "rodhallsberget-led-4": {
+          "description": {
+            "text": "Around the corner, 8 m to the right of Armerad betong, is an A-shaped cave. The route follows a line of mainly face climbing to the left of the cave. Fine corner finish.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:rodhallsberget"
+            ]
+          }
+        },
+        "rodhallsberget-led-5": {
+          "description": {
+            "text": "Far to the right on the crag is a markedly overhanging section where the rock is in places a sombre grey. A distinct arete marks the left edge of the overhanging wall. The route follows this, starting in a small corner to the left of the arete itself. After 6 m, round the arete and finish with fine face climbing on its right-hand side. 2 bolts.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:rodhallsberget"
+            ]
+          }
+        }
+      }
+    }
   }
 }

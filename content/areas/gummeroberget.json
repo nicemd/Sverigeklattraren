@@ -40,5 +40,38 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "The author does not know where this crag is, but as the access rules describe a military training area, I suspect it is the training ground formerly belonging to Kristinehamn Garrison. Following the 2000 defence resolution, the Swedish Armed Forces were radically reorganised. It seems that, after all the cutbacks, the only unit still active in the area is some form of Home Guard group. The access rules are probably still current, but... For more information about this crag, contact Karlstad Klätterklubb (http://www.karlstadklatterklubb.se). They know where the crag is and can tell you whether it is worth a visit at all.",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:gummeroberget"
+        ]
+      },
+      "sections": {
+        "access": {
+          "title": {
+            "text": "Access",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gummeroberget"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gummeroberget"
+            ]
+          }
+        }
+      },
+      "routes": {}
+    }
   }
 }

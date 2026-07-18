@@ -276,5 +276,110 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "=General= A wall with a few outstanding problems, the hardest being the best. The rock quality is very good. =Directions= Take road 72 towards Sala, turn right at Ålands Church. The wall is immediately on your right. =Problems=",
+        "method": "llm",
+        "model": "gpt-4o-mini",
+        "sourceIds": [
+          "legacy:alandsdal"
+        ]
+      },
+      "sections": {},
+      "routes": {
+        "alandsdal-problem-4": {
+          "description": {
+            "text": "Start with a side grip, straight up.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:alandsdal"
+            ]
+          }
+        },
+        "alandsdal-problem-6": {
+          "description": {
+            "text": "Start with a side grip, up to the left.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:alandsdal"
+            ]
+          }
+        },
+        "alandsdal-problem-7": {
+          "description": {
+            "text": "Without the right edge.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:alandsdal"
+            ]
+          }
+        },
+        "alandsdal-problem-9": {
+          "description": {
+            "text": "Up along the edge.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:alandsdal"
+            ]
+          }
+        },
+        "alandsdal-problem-10": {
+          "description": {
+            "text": "Start with a pinch, finish right without the edge to the left.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:alandsdal"
+            ]
+          }
+        },
+        "alandsdal-problem-12": {
+          "description": {
+            "text": "Right of Herbal field, substantial topping out.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:alandsdal"
+            ]
+          }
+        },
+        "alandsdal-problem-13": {
+          "description": {
+            "text": "The right section of the overhanging wall. From the crack up left to a side grip, finish up right to the sloper.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:alandsdal"
+            ]
+          }
+        },
+        "alandsdal-problem-14": {
+          "description": {
+            "text": "Direct version of African Herbsmen. Finish straight up with edges without the sloper above to the right.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:alandsdal"
+            ]
+          }
+        },
+        "alandsdal-problem-15": {
+          "description": {
+            "text": "Start with a side grip, follow the crack to the top without escaping right (finish left on slopers 6a+).",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:alandsdal"
+            ]
+          }
+        }
+      }
+    }
   }
 }

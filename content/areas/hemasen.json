@@ -173,5 +173,145 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "Hemåsen is a small crag on a large hill outside Segersta, near Kilafors.",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:hemasen"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "General",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hemasen"
+            ]
+          },
+          "body": {
+            "text": "Hemåsen is a small crag on a large hill outside Segersta, near Kilafors.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hemasen"
+            ]
+          }
+        },
+        "vagbeskrivning": {
+          "title": {
+            "text": "Directions",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hemasen"
+            ]
+          },
+          "body": {
+            "text": "From Route 83, turn towards Segersta just north of Kilafors. After the bridge in Segersta, turn left onto Djupavägen. After a few kilometres, turn right at Lillåkers (the name of the bus stop). Where this road ends, turn right onto LarsSvedenvägen and follow it to the end. A forest road heads uphill to the left from here. Follow it (on foot or by car, depending on the vehicle's ground clearance) until it ends at a turning area. Continue straight ahead along the line of the road until the crags can be glimpsed through the trees up to the right (about 400–500 m from the turning area). Approximate GPS coordinates: Lat: N 61º 17' 17.53\" Long: E 16º 35' 16.74\"",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hemasen"
+            ]
+          }
+        },
+        "klippan": {
+          "title": {
+            "text": "The crag",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hemasen"
+            ]
+          },
+          "body": {
+            "text": "The crag, which consists of grey to reddish gneiss, is not large. However, it faces south and is fairly exposed, making climbing possible on a sunny day even when the air is chilly. It is perhaps 17–18 m at its highest. It lies partway up Hemåsen itself and can be seen from a distance, especially if you know where to look. Above a small rock face is a large ledge. All the routes start from here. The climbing mainly follows cracks, flakes and corners. Roughly halfway along the crag, on the ledge, stands a large, striking pinnacle, \"Stintan\". It is actually a large slab of rock standing a short distance out from the face. This formation is the reference point used to describe most of the routes.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hemasen"
+            ]
+          }
+        }
+      },
+      "routes": {
+        "hemasen-led-1": {
+          "description": {
+            "text": "Follows the easiest line up the large pinnacle, \"Stintan\", along its left edge. One bolt for abseiling at the top.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hemasen"
+            ]
+          }
+        },
+        "hemasen-led-2": {
+          "description": {
+            "text": "An unusual route on the right side of the pinnacle, above the axe-blade-shaped formation. Bridging between the pinnacle and the 'mainland' is followed by steep, strenuous climbing to the top of the pinnacle. The lower down you stop bridging and step across onto the pinnacle, the harder the route becomes, hence the unusual grade. Two bolts and one piton.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hemasen"
+            ]
+          }
+        },
+        "hemasen-led-3": {
+          "description": {
+            "text": "Follows the crack line immediately right of the large slab of rock leaning against the wall, through a small roof with good jams.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hemasen"
+            ]
+          }
+        },
+        "hemasen-led-4": {
+          "description": {
+            "text": "A thin, beautiful and smooth finger crack 3 m right of Dalahambo. Unfortunately far too short. Protected with TCUs.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hemasen"
+            ]
+          }
+        },
+        "hemasen-led-5": {
+          "description": {
+            "text": "The large, obvious corner 2 m right of Förhäxad. Easier than it looks.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hemasen"
+            ]
+          }
+        },
+        "hemasen-led-6": {
+          "description": {
+            "text": "Slightly loose, alpine-style climbing up the highest part of the wall. Start at the right edge of the plate-like roof. The start is the crux.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hemasen"
+            ]
+          }
+        },
+        "hemasen-led-7": {
+          "description": {
+            "text": "Follows the obvious crack corner at the right-hand edge of the crag.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hemasen"
+            ]
+          }
+        }
+      }
+    }
   }
 }

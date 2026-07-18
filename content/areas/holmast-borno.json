@@ -143,5 +143,110 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "Good ice climbing on Stora Bornö, with two large icefalls around 55 m high at WI3. They form relatively often. There are also 2–3 WI4–5 falls, but these do not form as often. One snag is that the ice on Gullmarn has to freeze over before you can walk out to the island. On the other hand, if it has not frozen over, the ice climbing is probably no good anyway ;-)\n\nWhen crossing, be sure to check the condition of the sea ice. Carry ice claws or keep your ice axes to hand, and leave your rucksack hip belt undone.\n\nNB: During a thaw, a fair amount of meltwater may collect between the crag and the ice, over a gap of around 1–3 m. A plank or short ladder may then do the trick if you are not good at jumping or do not want wet feet. If there is snow on the ice, shovelling snow into the water also works well.",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:holmast-borno"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "General",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:holmast-borno"
+            ]
+          },
+          "body": {
+            "text": "Good ice climbing on Stora Bornö, with two large icefalls around 55 m high, graded WI3. They form relatively often. There are also 2–3 WI4–5 icefalls, but these do not form as often. One crux is that Gullmarn has to freeze over to allow access to the island. On the other hand, if it has not frozen over, the ice climbing is probably no good anyway ;-)\n\nWhen crossing the ice, be sure to pay attention to the condition of the sea ice. Carry ice claws or have your ice axes ready, and keep your rucksack hip belt undone.\n\nNB: During a thaw, a considerable amount of meltwater can collect between the crag and the ice, over a distance of around 1–3 m. A plank or short ladder may help if you are not good at jumping or do not want to get your feet wet. If there is snow on the ice, shovelling snow into the water also works well.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:holmast-borno"
+            ]
+          }
+        },
+        "vagbeskrivning": {
+          "title": {
+            "text": "Directions",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:holmast-borno"
+            ]
+          },
+          "body": {
+            "text": "Leave the motorway at Gleborgmotet, taking the exit signposted Lysekil, Smögen. Continue until you reach Brastad, then turn left at the large roundabout. Continue to the junction before the church and turn right. Follow this road to a junction signposted Holma. Drive down to the harbour and park in the designated area. You can now see the ice straight across the water/ice. Walk about 500 m across the ice to the icefalls.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:holmast-borno"
+            ]
+          }
+        },
+        "stora-fallen": {
+          "title": {
+            "text": "The large icefalls",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:holmast-borno"
+            ]
+          },
+          "body": {
+            "text": "The names of the icefalls are unknown. The left-hand icefall is around 50 m, WI3. The right-hand icefall is around 55 m, WI3. Abseil from a pine tree above the right-hand icefall. The photos were taken by Johan Mörk 20110107.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:holmast-borno"
+            ]
+          }
+        },
+        "vastra-fallen": {
+          "title": {
+            "text": "The western icefalls",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:holmast-borno"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:holmast-borno"
+            ]
+          }
+        },
+        "access": {
+          "title": {
+            "text": "Access",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:holmast-borno"
+            ]
+          },
+          "body": {
+            "text": "No known access issues",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:holmast-borno"
+            ]
+          }
+        }
+      },
+      "routes": {}
+    }
   }
 }

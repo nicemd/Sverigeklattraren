@@ -378,5 +378,92 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "Small, steep crag on the back of Henriksdalsberget, directly below the Henriksdal residential area. The rock is nowhere near as loose as it looks. The typical route offers steep climbing on large holds. A good evening crag for warm summer evenings.",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:henriksdalsberget"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "General",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:henriksdalsberget"
+            ]
+          },
+          "body": {
+            "text": "A small, steep wall on the back of Henriksdalsberget, just below the Henriksdal residential area. The rock is nowhere near as loose as it looks. A typical route offers overhanging climbing on large holds. A good evening crag for warm summer evenings.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:henriksdalsberget"
+            ]
+          }
+        },
+        "miljo": {
+          "title": {
+            "text": "Aspect:",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:henriksdalsberget"
+            ]
+          },
+          "body": {
+            "text": "East-facing wall, partly shaded.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:henriksdalsberget"
+            ]
+          }
+        },
+        "vagbeskrivning": {
+          "title": {
+            "text": "Directions",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:henriksdalsberget"
+            ]
+          },
+          "body": {
+            "text": "From Södermalm, cross Danviksbron and turn left at the traffic lights. Follow Kvarnholmsvägen for about 400 m, turn left again, then right across Kvarnholmsvägen and continue uphill for about 400 m towards Henriksdalsringen. Park before the blocks of flats in a gravel car park on the left. Walk down towards the marina via a wooden staircase. Before the staircase ends, turn off right along the crags. The crag is about 150 m along to the right and 60 m above the marina at the head of Svindersviken. More information about Henriksdalsberget (http://www.henriksdalsberget.se)",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:henriksdalsberget"
+            ]
+          }
+        },
+        "leder": {
+          "title": {
+            "text": "Routes",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:henriksdalsberget"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:henriksdalsberget"
+            ]
+          }
+        }
+      },
+      "routes": {}
+    }
   }
 }

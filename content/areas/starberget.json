@@ -211,5 +211,110 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "Drive south on road 34 from Kisa towards Vimmerby for about 1 km until you see a rocky massif on the left. Turn left onto a small road after the guardrail. The road has a barrier. Open the barrier and park at the shooting range. Follow the overgrown forest track with a few storm-felled trees back north, keeping to the rock face, and head up right in the first ravine until you see the bolts. Long trousers are recommended for the approach.",
+        "method": "llm",
+        "model": "gpt-4o-mini",
+        "sourceIds": [
+          "legacy:starberget"
+        ]
+      },
+      "sections": {
+        "vagbeskrivning": {
+          "title": {
+            "text": "Directions",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:starberget"
+            ]
+          },
+          "body": {
+            "text": "Drive south on road 34 from Kisa towards Vimmerby for about 1 km, until you see a mountain massif on your left. Turn left onto a small road after the guardrail. The road has a barrier. Open the barrier and park at the shooting range. Follow the overgrown forest path with some storm-felled trees back north, along the rock face, and head up the right side in the first ravine until you see the bolts. Long trousers are recommended for the approach.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:starberget"
+            ]
+          }
+        },
+        "klippan": {
+          "title": {
+            "text": "The Crag",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:starberget"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:starberget"
+            ]
+          }
+        },
+        "syltvaggen": {
+          "title": {
+            "text": "Jam Wall",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:starberget"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:starberget"
+            ]
+          }
+        },
+        "konditorvaggen": {
+          "title": {
+            "text": "Bakery Wall",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:starberget"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:starberget"
+            ]
+          }
+        },
+        "lankar": {
+          "title": {
+            "text": "Links",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:starberget"
+            ]
+          },
+          "body": {
+            "text": "Guide provided by Linköping Climbing Club (http://linkopingsklatterklubb.se/index.php/forare.html).\n\nhttp://linkopingsklatterklubb.se/index.php/forare.html",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:starberget"
+            ]
+          }
+        }
+      },
+      "routes": {}
+    }
   }
 }

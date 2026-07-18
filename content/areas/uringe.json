@@ -404,5 +404,165 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "A fairly recently developed crag with several good routes in the grade range of 5c-7b, focusing on 6c.",
+        "method": "llm",
+        "model": "gpt-4o-mini",
+        "sourceIds": [
+          "legacy:uringe"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "General",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:uringe"
+            ]
+          },
+          "body": {
+            "text": "A recently developed crag with several excellent routes in the 5c-7b range, predominantly focusing on 6c.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:uringe"
+            ]
+          }
+        },
+        "vagbeskrivning": {
+          "title": {
+            "text": "Directions",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:uringe"
+            ]
+          },
+          "body": {
+            "text": "After turning off route 257, you'll find fields on either side of the road. The field on the left gradually transitions into marshland, and about 50-100 metres behind the marsh lies the crag. At the point where the field on the RIGHT ends and turns into forest, there's a narrow, bumpy gravel road leading to a small red shed/store that can accommodate a couple of cars.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:uringe"
+            ]
+          }
+        },
+        "leder": {
+          "title": {
+            "text": "Routes",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:uringe"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:uringe"
+            ]
+          }
+        }
+      },
+      "routes": {
+        "uringe-led-1": {
+          "description": {
+            "text": "New. Hard start.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:uringe"
+            ]
+          }
+        },
+        "uringe-led-2": {
+          "description": {
+            "text": "New. Power climbing with blinders. The ramp to the left is not part of the start. Go straight up after the third bolt, not out to the right! The route ends midway up the wall (quick link).",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:uringe"
+            ]
+          }
+        },
+        "uringe-led-3": {
+          "description": {
+            "text": "New. Bolted line between \"Med lite fantasi\" and \"Slitvargen\". Follow the bolts straight up and veer right in the upper crack, finishing at the anchors of Slitvargen.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:uringe"
+            ]
+          }
+        },
+        "uringe-led-4": {
+          "description": {
+            "text": "Can be climbed as a sport route and merges with it.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:uringe"
+            ]
+          }
+        },
+        "uringe-led-7": {
+          "description": {
+            "text": "New. Continue straight up to an interesting finish.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:uringe"
+            ]
+          }
+        },
+        "uringe-led-8": {
+          "description": {
+            "text": "New. Guessing it goes behind the tree.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:uringe"
+            ]
+          }
+        },
+        "uringe-led-18": {
+          "description": {
+            "text": "New.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:uringe"
+            ]
+          }
+        },
+        "uringe-led-19": {
+          "description": {
+            "text": "New.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:uringe"
+            ]
+          }
+        },
+        "uringe-led-20": {
+          "description": {
+            "text": "New.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:uringe"
+            ]
+          }
+        }
+      }
+    }
   }
 }

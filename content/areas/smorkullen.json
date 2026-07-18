@@ -148,5 +148,151 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "Park by the barn at Röe gård and follow the hiking trail northwards for approximately 200 m beyond the field. The crag is visible from the parking area.",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:smorkullen"
+        ]
+      },
+      "sections": {
+        "introduktion": {
+          "title": {
+            "text": "Introduction",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:smorkullen"
+            ]
+          },
+          "body": {
+            "text": "Smörkullen",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:smorkullen"
+            ]
+          }
+        },
+        "karaktar": {
+          "title": {
+            "text": "Character",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:smorkullen"
+            ]
+          },
+          "body": {
+            "text": "South-facing crag that dries quickly after rain.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:smorkullen"
+            ]
+          }
+        },
+        "vagbeskrivning": {
+          "title": {
+            "text": "Directions",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:smorkullen"
+            ]
+          },
+          "body": {
+            "text": "Park by the barn at Röe gård and follow the hiking trail north for approximately 200m beyond the field. The crag is visible from the parking area.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:smorkullen"
+            ]
+          }
+        },
+        "access": {
+          "title": {
+            "text": "Access",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:smorkullen"
+            ]
+          },
+          "body": {
+            "text": "The photo shows Smörkullen as seen from the parking area at Röe gård.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:smorkullen"
+            ]
+          }
+        },
+        "rekommenderade-leder": {
+          "title": {
+            "text": "Recommended routes",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:smorkullen"
+            ]
+          },
+          "body": {
+            "text": "Routes and names from left to right in the topo.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:smorkullen"
+            ]
+          }
+        }
+      },
+      "routes": {
+        "smorkullen-led-1": {
+          "description": {
+            "text": "Slab crux near the top; shares the same start as Eiras led.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:smorkullen"
+            ]
+          }
+        },
+        "smorkullen-led-2": {
+          "description": {
+            "text": "Slightly overhanging near the top.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:smorkullen"
+            ]
+          }
+        },
+        "smorkullen-led-3": {
+          "description": {
+            "text": "Harder than it looks.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:smorkullen"
+            ]
+          }
+        },
+        "smorkullen-led-4": {
+          "description": {
+            "text": "Tougher than it looks; shares the same finish as Siris led.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:smorkullen"
+            ]
+          }
+        }
+      }
+    }
   }
 }

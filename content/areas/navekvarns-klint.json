@@ -45,5 +45,56 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "Small seaside crag with a handful of routes, including Södermanland's only 7c to date.",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:navekvarns-klint"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "General information",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:navekvarns-klint"
+            ]
+          },
+          "body": {
+            "text": "A small seaside crag with a handful of routes, including Södermanland's only 7c to date.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:navekvarns-klint"
+            ]
+          }
+        },
+        "beskrivning": {
+          "title": {
+            "text": "Description",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:navekvarns-klint"
+            ]
+          },
+          "body": {
+            "text": "=Printed guidebook= \"Klättring i Södermanland\", covering Hultberget, Simonsberget, Bistaberget and other crags in Södermanland, was published in November 2006. The guidebook can be ordered from www.dangerzone.se (http://www.dangerzone.se).",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:navekvarns-klint"
+            ]
+          }
+        }
+      },
+      "routes": {}
+    }
   }
 }

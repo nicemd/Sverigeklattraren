@@ -97,5 +97,85 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "A small, steep crag featuring a very nice, thin crack in the middle. The crag is situated next to a pasture and is clearly visible from the road. 200 meters north of the crag, there is a larger wall where no established lines are known, along with a large, steep boulder that has 3-4 problems graded between 6b and 7a.",
+        "method": "llm",
+        "model": "gpt-4o-mini",
+        "sourceIds": [
+          "legacy:aryd"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "General",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:aryd"
+            ]
+          },
+          "body": {
+            "text": "A small steep crag featuring a very nice, thin crack in the middle. The crag is by a field and clearly visible from the road. 200 metres north of the crag, there’s a larger wall where no known lines have been established; there’s also a large steep boulder with 3-4 problems graded between 6b-7a.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:aryd"
+            ]
+          }
+        },
+        "vagbeskrivning": {
+          "title": {
+            "text": "Access",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:aryd"
+            ]
+          },
+          "body": {
+            "text": "Directions from Karlshamn. Drive east along the E22 and turn off towards Åryd after about 10 km. Take an immediate left, drive under the E22 and into Åryd village. Turn right at the church and follow the road for about 1.3 km, then turn left towards Törneryd. After 1.8 km, there will be a Hembygdsgård on your left side; you should now see the crag on your right side. Park at the Hembygdsgård. Walk back 30-40m along the road and turn left onto the Blekingeleden, following it east across the fields. When you reach the forest, the larger crag with the boulder will be directly in front of you, and to get to the small steep wall, simply follow the forest edge to the right (south).",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:aryd"
+            ]
+          }
+        },
+        "leder": {
+          "title": {
+            "text": "Routes",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:aryd"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:aryd"
+            ]
+          }
+        }
+      },
+      "routes": {
+        "aryd-led-1": {
+          "description": {
+            "text": "Follow the amazing crack",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:aryd"
+            ]
+          }
+        }
+      }
+    }
   }
 }

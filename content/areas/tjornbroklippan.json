@@ -666,5 +666,151 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "Park south of Road 160 in a car park, and take the foot tunnel under the road.\n\nv=LS46D1Y5kuM",
+        "method": "llm",
+        "model": "gpt-4o-mini",
+        "sourceIds": [
+          "legacy:tjornbroklippan"
+        ]
+      },
+      "sections": {
+        "introduktion": {
+          "title": {
+            "text": "Introduction",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tjornbroklippan"
+            ]
+          },
+          "body": {
+            "text": "A very accessible sport crag. Do not park at the crag under any circumstances. There is a swimming spot nearby.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tjornbroklippan"
+            ]
+          }
+        },
+        "access": {
+          "title": {
+            "text": "Access",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tjornbroklippan"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tjornbroklippan"
+            ]
+          }
+        },
+        "karaktar": {
+          "title": {
+            "text": "Character",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tjornbroklippan"
+            ]
+          },
+          "body": {
+            "text": "Steep. Fully bolted. Stays relatively dry.\n\nRoutes from 6a and upwards.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tjornbroklippan"
+            ]
+          }
+        },
+        "vagbeskrivning": {
+          "title": {
+            "text": "Directions",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tjornbroklippan"
+            ]
+          },
+          "body": {
+            "text": "Park south of road 160, in a car park, and take the underpass beneath the road.\n\nv=LS46D1Y5kuM",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tjornbroklippan"
+            ]
+          }
+        },
+        "leder": {
+          "title": {
+            "text": "Routes",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tjornbroklippan"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tjornbroklippan"
+            ]
+          }
+        }
+      },
+      "routes": {
+        "tjornbroklippan-led-1": {
+          "description": {
+            "text": "Starts on the left in the trees.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tjornbroklippan"
+            ]
+          }
+        },
+        "tjornbroklippan-led-2": {
+          "description": {
+            "text": "Starts on the left in the trees.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tjornbroklippan"
+            ]
+          }
+        },
+        "tjornbroklippan-led-20": {
+          "description": {
+            "text": "Project no. 17.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tjornbroklippan"
+            ]
+          }
+        },
+        "tjornbroklippan-led-31": {
+          "description": {
+            "text": "Project no. 27.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tjornbroklippan"
+            ]
+          }
+        }
+      }
+    }
   }
 }

@@ -214,5 +214,105 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "An up to 8-metre-high crag of variable rock quality on the north-east coast of Gotland, between Valleviken and Lergrav, right by the sea. The crag faces west and offers bouldering at all grades. The left-hand section has the best rock and is the most developed. The area is a nature reserve, so do not damage anything and take all rubbish away with you. Read the information board. Park in the car park 100 metres up in the woods.",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:husken"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "General",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:husken"
+            ]
+          },
+          "body": {
+            "text": "A cliff edge up to 8 metres high, with variable rock quality, on the coast of north-east Gotland between Valleviken and Lergrav. The crag faces west and offers bouldering at all grades. The left-hand section has the best rock and is the most developed. The area is a nature reserve, so do not damage anything and take all rubbish away with you. Read the information board. Park in the car park 100 metres up in the woods.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:husken"
+            ]
+          }
+        },
+        "vagbeskrivning": {
+          "title": {
+            "text": "Directions",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:husken"
+            ]
+          },
+          "body": {
+            "text": "Map here. Click the map button above.\n\nJust north of Valleviken, turn towards Puttersjaus. Keep right where the road forks. Turn off at the small ‘squiggly sign’. Park immediately afterwards. If approaching from Lergrav: pass the Furillen turn-off and turn left when the squiggly sign appears.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:husken"
+            ]
+          }
+        },
+        "leder": {
+          "title": {
+            "text": "Routes",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:husken"
+            ]
+          },
+          "body": {
+            "text": "PoPoPopcorn area",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:husken"
+            ]
+          }
+        }
+      },
+      "routes": {
+        "husken-led-1": {
+          "description": {
+            "text": "Standing start with one hand on each wall. Climb onto the left wall and top out in the corner.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:husken"
+            ]
+          }
+        },
+        "husken-led-2": {
+          "description": {
+            "text": "Same start as Bokhyllan, but further into the corner. Top out straight up the overhanging wall.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:husken"
+            ]
+          }
+        },
+        "husken-led-4": {
+          "description": {
+            "text": "Sit start directly left of the two upper vertical cracks. Climb straight up and top out.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:husken"
+            ]
+          }
+        }
+      }
+    }
   }
 }

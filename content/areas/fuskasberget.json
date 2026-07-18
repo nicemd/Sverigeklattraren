@@ -100,5 +100,105 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "Fuskåsberget lies a few kilometres before Blaxås, on the right-hand side of the road when approaching from Enånger.",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:fuskasberget"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "General information",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:fuskasberget"
+            ]
+          },
+          "body": {
+            "text": "Fuskåsberget lies a few kilometres before Blaxås, on the right-hand side of the road when approaching from Enånger.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:fuskasberget"
+            ]
+          }
+        },
+        "kommunikationer": {
+          "title": {
+            "text": "Access",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:fuskasberget"
+            ]
+          },
+          "body": {
+            "text": "No directions are available. See Blaxsås and the map there. Approximate GPS coordinates for the crag: Lat: N 61º 37' 47.32\" Long: E 16º 48' 41.66\"",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:fuskasberget"
+            ]
+          }
+        },
+        "klippan": {
+          "title": {
+            "text": "The crag",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:fuskasberget"
+            ]
+          },
+          "body": {
+            "text": "The crag has only been visited a couple of times, and although there is potential for quite a few routes, both easy and very hard, it is a proper woodland crag that will require a lot of cleaning to amount to anything. Three routes have, however, been climbed:",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:fuskasberget"
+            ]
+          }
+        }
+      },
+      "routes": {
+        "fuskasberget-led-1": {
+          "description": {
+            "text": "Winds its way up the easiest sections of the mossy wall angled towards a heavily overhanging wall, low down on the crag.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:fuskasberget"
+            ]
+          }
+        },
+        "fuskasberget-led-2": {
+          "description": {
+            "text": "Follows the obvious corner line in the middle of a smaller wall, 30–40 m along the crag above the top-out of \"Mossan\".",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:fuskasberget"
+            ]
+          }
+        },
+        "fuskasberget-led-3": {
+          "description": {
+            "text": "An obvious diagonal crack line on a wall at the upper right edge of the scree slope, to the right of the previous routes. A little loose.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:fuskasberget"
+            ]
+          }
+        }
+      }
+    }
   }
 }

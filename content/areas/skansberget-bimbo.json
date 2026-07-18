@@ -86,5 +86,50 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "=Problem=",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:skansberget-bimbo"
+        ]
+      },
+      "sections": {},
+      "routes": {
+        "skansberget-bimbo-problem-1": {
+          "description": {
+            "text": "Sit start on the small protruding blocky horn. Bait grade.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:skansberget-bimbo"
+            ]
+          }
+        },
+        "skansberget-bimbo-problem-2": {
+          "description": {
+            "text": "The left arete on the same block as Shout it out loud. Stand start from the base. A sit start is possible for the keen, but is currently blocked by a dead tree.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:skansberget-bimbo"
+            ]
+          }
+        },
+        "skansberget-bimbo-problem-3": {
+          "description": {
+            "text": "The stand start to ze project. Hard to grade, but genuinely hard.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:skansberget-bimbo"
+            ]
+          }
+        }
+      }
+    }
   }
 }

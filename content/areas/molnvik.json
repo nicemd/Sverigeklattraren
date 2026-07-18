@@ -76,5 +76,92 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "New unclimbed crag near Mölnvik shopping centre. The crag is overhanging and around 10 m high. It is fairly broken but probably has potential for a few routes of varying difficulty. Unfortunately, the most interesting part of the crag is not visible in the photo above.",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:molnvik"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "General",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:molnvik"
+            ]
+          },
+          "body": {
+            "text": "New unclimbed crag near Mölnvik shopping centre. The crag is overhanging and about 10m high. It is fairly broken but probably has potential for a few routes of varying difficulty. Unfortunately, the most interesting part of the crag is not visible in the photo above.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:molnvik"
+            ]
+          }
+        },
+        "kalla": {
+          "title": {
+            "text": "Source",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:molnvik"
+            ]
+          },
+          "body": {
+            "text": "Source: Bloxc (http://www.bloxc.com/forum/viewtopic.php?t=1192&start=45)",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:molnvik"
+            ]
+          }
+        },
+        "vagbeskrivning": {
+          "title": {
+            "text": "Directions",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:molnvik"
+            ]
+          },
+          "body": {
+            "text": "Take Route 222, Värmdöleden. When the motorway ends at a roundabout, turn right onto the small tractor track. Follow the track down to the water; the crag is clearly visible on the left.\n\nThe track is really rough. If the ground is wet, leave the sports car at home or walk from the shopping centre.\n\nThe crag is higher and more overhanging than it looks in the photo.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:molnvik"
+            ]
+          }
+        },
+        "leder": {
+          "title": {
+            "text": "Routes",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:molnvik"
+            ]
+          },
+          "body": {
+            "text": "None so far!",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:molnvik"
+            ]
+          }
+        }
+      },
+      "routes": {}
+    }
   }
 }

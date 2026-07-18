@@ -118,5 +118,74 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "A small but perfectly formed crag by Pampas marina. The routes are 5–7 metres long and are climbed on trad gear or solo. Evidence of previous activity remains in the form of a single bolt.",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:pampasklippan"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "General",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:pampasklippan"
+            ]
+          },
+          "body": {
+            "text": "A small but excellent crag by Pampas marina. The routes are 5–7 metres long and are climbed on trad gear or solo. Signs of previous activity remain in the form of a single bolt.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:pampasklippan"
+            ]
+          }
+        },
+        "vagbeskrivning": {
+          "title": {
+            "text": "Directions",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:pampasklippan"
+            ]
+          },
+          "body": {
+            "text": "From Stockholm, take the exit for Solna and follow the signs for Pampas marina. Turn in and then immediately right. Drive through the car park belonging to the Swedish Work Environment Authority on your left, continue towards the allotments and follow the road as it bends left. Park in the small car park by the allotments. Then walk back towards Pampas marina and out onto the main road (Ekelundsvägen). Turn right and walk under Essingeleden. You should see a concrete building on the left; go behind it and climb over a broken gate. You should now see the crag on the left.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:pampasklippan"
+            ]
+          }
+        },
+        "leder": {
+          "title": {
+            "text": "Routes",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:pampasklippan"
+            ]
+          },
+          "body": {
+            "text": "http://www.sverigeforaren.se/images/a/a7/Pampasklippan.jpg",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:pampasklippan"
+            ]
+          }
+        }
+      },
+      "routes": {}
+    }
   }
 }

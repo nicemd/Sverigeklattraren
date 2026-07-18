@@ -50,5 +50,74 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "Despite the route names, there's excellent ice climbing on two waterfalls. The left one is approximately 25m and the right one about 20m. On the left fall, a route called \"L´abbatoir\" WI4 has been climbed in the middle of the fall.\n\nOn the right fall, a route called \"Kadavret\" has been climbed on the left edge, with the grade varying between WI4-5 depending on ice conditions. Both routes were climbed by Joakim Olofsson with partners in the early 2000s, but they have likely been climbed by locals from Gothenburg before.\n\nFor images, follow the link http://alpinistbloggen.wirsin.se/#post21.",
+        "method": "llm",
+        "model": "gpt-4o-mini",
+        "sourceIds": [
+          "legacy:varekil"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "General",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:varekil"
+            ]
+          },
+          "body": {
+            "text": "Despite the route names, there is excellent ice climbing on two icefalls. The left one is about 25m, and the right one is approximately 20m. On the left fall, a route named \"L´abbatoir\" WI4 has been climbed in the middle.\n\nOn the right fall, a route called \"Kadavret\" has been ascended on the left side, with the grade varying between WI4-5 depending on the ice conditions. Both routes were climbed by Joakim Olofsson with partners in the early 2000s but have likely been climbed by locals before.\n\nFor pictures, follow the link http://alpinistbloggen.wirsin.se/#post21.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:varekil"
+            ]
+          }
+        },
+        "vagbeskrivning": {
+          "title": {
+            "text": "Directions",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:varekil"
+            ]
+          },
+          "body": {
+            "text": "Coming from the south, take the E6 exit onto road 160 towards Tjörn and Orust, passing Tjörn Bridge and Skåpesund Bridge. After about a 5-minute drive past Skåpesund Bridge, you will reach Varekil. Continue past the Statoil petrol station and turn right after a few hundred metres into \"Ekoslakteriet.\"",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:varekil"
+            ]
+          }
+        },
+        "access": {
+          "title": {
+            "text": "Access",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:varekil"
+            ]
+          },
+          "body": {
+            "text": "No known access issues, but please park responsibly at the Ekoslakteriet parking area.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:varekil"
+            ]
+          }
+        }
+      },
+      "routes": {}
+    }
   }
 }

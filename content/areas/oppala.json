@@ -1568,5 +1568,961 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "=Sectors=",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:oppala"
+        ]
+      },
+      "sections": {
+        "oppalaklippan": {
+          "title": {
+            "text": "Oppala Crag",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:oppala"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:oppala"
+            ]
+          }
+        },
+        "fire-away": {
+          "title": {
+            "text": "Fire Away",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:oppala"
+            ]
+          },
+          "body": {
+            "text": "To reach this sector, turn left towards Oppala in Björke. After about 20 m, turn right and follow this road past the houses. After about 1.5 km, you will see the boulders in the woods on the left.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:oppala"
+            ]
+          }
+        },
+        "hugo": {
+          "title": {
+            "text": "Hugo",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:oppala"
+            ]
+          },
+          "body": {
+            "text": "Turn left towards Oppala at Björke. After the railway, take the first road on the right and park at the turning circle. The boulders are on the hill straight ahead.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:oppala"
+            ]
+          }
+        },
+        "linskakten": {
+          "title": {
+            "text": "Linskäkten",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:oppala"
+            ]
+          },
+          "body": {
+            "text": "Turn left towards Oppala in Björke. Cross the railway, and when the road bends 90 degrees to the left, turn right onto the gravel road. Continue for just under a kilometre until the road bends sharply right, then turn left at the Linskäkt sign. The first boulder is about 20 m in on the left.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:oppala"
+            ]
+          }
+        },
+        "midgard": {
+          "title": {
+            "text": "Midgård",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:oppala"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:oppala"
+            ]
+          }
+        }
+      },
+      "routes": {
+        "oppala-problem-1": {
+          "description": {
+            "text": "Climbs to the right of CH brinner on \"Nya klippan\". Can be protected with two bolts.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:oppala"
+            ]
+          }
+        },
+        "oppala-problem-2": {
+          "description": {
+            "text": "Next to the roped crag. Starts in the middle of the wall, then trends up right via the horizontal crack and crystals. A slab fest.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:oppala"
+            ]
+          }
+        },
+        "oppala-problem-3": {
+          "description": {
+            "text": "Climbs the left side of the forest crag at Oppala.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:oppala"
+            ]
+          }
+        },
+        "oppala-problem-4": {
+          "description": {
+            "text": "On the southern bouldering wall, the first one you see from the parking. Sit-start on the corner and traverse left to right.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:oppala"
+            ]
+          }
+        },
+        "oppala-problem-5": {
+          "description": {
+            "text": "On the \"Fire Away blocket\", at the far left-hand end.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:oppala"
+            ]
+          }
+        },
+        "oppala-problem-6": {
+          "description": {
+            "text": "Climbs to the left of \"Fire Away\".",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:oppala"
+            ]
+          }
+        },
+        "oppala-problem-7": {
+          "description": {
+            "text": "Climbs straight through the roof.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:oppala"
+            ]
+          }
+        },
+        "oppala-problem-8": {
+          "description": {
+            "text": "On the \"Fire Away blocket\", to the right of \"Freakin´you out\".",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:oppala"
+            ]
+          }
+        },
+        "oppala-problem-9": {
+          "description": {
+            "text": "On the back of the \"Fire Away blocket\", facing the forest.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:oppala"
+            ]
+          }
+        },
+        "oppala-problem-10": {
+          "description": {
+            "text": "On the back of the \"Fire Away blocket\", facing the forest.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:oppala"
+            ]
+          }
+        },
+        "oppala-problem-11": {
+          "description": {
+            "text": "Trends diagonally up right.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:oppala"
+            ]
+          }
+        },
+        "oppala-problem-12": {
+          "description": {
+            "text": "To the right of \"Fire Away\".",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:oppala"
+            ]
+          }
+        },
+        "oppala-problem-13": {
+          "description": {
+            "text": "To the right of \"Fire Away\".",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:oppala"
+            ]
+          }
+        },
+        "oppala-problem-15": {
+          "description": {
+            "text": "To the right of Fire away.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:oppala"
+            ]
+          }
+        },
+        "oppala-problem-16": {
+          "description": {
+            "text": "On the small boulder beside the path, near the \"Hugo\" boulder. Sit-start at the arete, then trend left and up.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:oppala"
+            ]
+          }
+        },
+        "oppala-problem-17": {
+          "description": {
+            "text": "On the \"Hugoblocket\". Takes the left-hand side of the \"Hugo\" roof, sit-starting beneath the roof and climbing up the left arete.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:oppala"
+            ]
+          }
+        },
+        "oppala-problem-18": {
+          "description": {
+            "text": "Sit-start beneath the roof and climb through its right-hand side.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:oppala"
+            ]
+          }
+        },
+        "oppala-problem-19": {
+          "description": {
+            "text": "The left arete on the back of the \"Hugo\" boulder.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:oppala"
+            ]
+          }
+        },
+        "oppala-problem-20": {
+          "description": {
+            "text": "On the \"Hugoblocket\", to the left of \"Kill-O-Zap\". Climbs straight up, without using the arete.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:oppala"
+            ]
+          }
+        },
+        "oppala-problem-21": {
+          "description": {
+            "text": "On the back of the \"Hugo blocket\". The obvious line in the middle of the wall.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:oppala"
+            ]
+          }
+        },
+        "oppala-problem-22": {
+          "description": {
+            "text": "On the boulder down by the field; from the \"Hugo\" boulder, follow the edge of the field for about 100m. Sit-start at the overhang to the left of the spruce.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:oppala"
+            ]
+          }
+        },
+        "oppala-problem-23": {
+          "description": {
+            "text": "On a smaller boulder beside the large boulder at the top of the hill. Sit-start on the left and follow the edge rightwards.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:oppala"
+            ]
+          }
+        },
+        "oppala-problem-24": {
+          "description": {
+            "text": "Starts as for \"Hugo\", then follows the ramp leftwards through the roof and tops out straight through the roof.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:oppala"
+            ]
+          }
+        },
+        "oppala-problem-25": {
+          "description": {
+            "text": "On the large boulder up the hill beside the \"Hugoblocket\", beneath the hut. Does not top out; finishes on the last large jug.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:oppala"
+            ]
+          }
+        },
+        "oppala-problem-26": {
+          "description": {
+            "text": "On the same boulder as \"Bilbo\", beside the large boulder at the top of the hill. Sit-start in the middle of the wall and climb straight up.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:oppala"
+            ]
+          }
+        },
+        "oppala-problem-27": {
+          "description": {
+            "text": "On the large boulder at the top of the hill. Sit-start by the tree, climb up and right, and finish on a large jug near the arete.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:oppala"
+            ]
+          }
+        },
+        "oppala-problem-28": {
+          "description": {
+            "text": "On the large boulder at the top of the hill. Start left of the pine and climb up and right. Top out via the crack.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:oppala"
+            ]
+          }
+        },
+        "oppala-problem-29": {
+          "description": {
+            "text": "Sit-start beneath the roof.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:oppala"
+            ]
+          }
+        },
+        "oppala-problem-30": {
+          "description": {
+            "text": "Climbs the high slab face on the same boulder as Bilbo.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:oppala"
+            ]
+          }
+        },
+        "oppala-problem-31": {
+          "description": {
+            "text": "On the same boulder as HUGO, but to the left of the spruce. Establish with both hands on the left-hand jug, mantle onto the ledge and balance your way to the top.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:oppala"
+            ]
+          }
+        },
+        "oppala-problem-32": {
+          "description": {
+            "text": "On the same boulder as \"Bilbo\", taking the arete to its right.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:oppala"
+            ]
+          }
+        },
+        "oppala-problem-33": {
+          "description": {
+            "text": "On the large boulder at the top of the hill. To the left of \"väsen\".",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:oppala"
+            ]
+          }
+        },
+        "oppala-problem-34": {
+          "description": {
+            "text": "On the large boulder at Oppala. Start on the rock to the right of \"Hero\" and climb straight up.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:oppala"
+            ]
+          }
+        },
+        "oppala-problem-35": {
+          "description": {
+            "text": "To the right of \"Kung fu\". Finishes on the same hold.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:oppala"
+            ]
+          }
+        },
+        "oppala-problem-36": {
+          "description": {
+            "text": "On the large boulder at Oppala, to the right of \"väsen\".",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:oppala"
+            ]
+          }
+        },
+        "oppala-problem-37": {
+          "description": {
+            "text": "The same problem as Hugo, but without eliminations.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:oppala"
+            ]
+          }
+        },
+        "oppala-problem-38": {
+          "description": {
+            "text": "On the back of the Hugo boulder. Climb the arete to the left, then straight up.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:oppala"
+            ]
+          }
+        },
+        "oppala-problem-39": {
+          "description": {
+            "text": "On the large boulder at Oppala. A low sit-start to Pride, without sitting on the rock.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:oppala"
+            ]
+          }
+        },
+        "oppala-problem-40": {
+          "description": {
+            "text": "The sit-start to Oväsen.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:oppala"
+            ]
+          }
+        },
+        "oppala-problem-41": {
+          "description": {
+            "text": "To the right of Pride. The elegant crack line.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:oppala"
+            ]
+          }
+        },
+        "oppala-problem-42": {
+          "description": {
+            "text": "On the first boulder you reach after turning towards Linskäkten, on the left in the forest. Climbs the back of the boulder.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:oppala"
+            ]
+          }
+        },
+        "oppala-problem-43": {
+          "description": {
+            "text": "On the first boulder you reach after turning towards Linskäkten, on the left in the forest. To the right of \"Old man's crimp\".",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:oppala"
+            ]
+          }
+        },
+        "oppala-problem-44": {
+          "description": {
+            "text": "On the first boulder you reach after turning towards Linskäkten, on the left in the forest. Follow the arete up right to the \"sloper dish\", then mantle.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:oppala"
+            ]
+          }
+        },
+        "oppala-problem-45": {
+          "description": {
+            "text": "On the first boulder you reach after turning towards Linskäkten, on the left in the woods. Follow the arete left to the large sloping dish, then mantle.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:oppala"
+            ]
+          }
+        },
+        "oppala-problem-46": {
+          "description": {
+            "text": "On the first boulder you reach after turning towards Linskäkten, on the left in the woods. A low traverse across the back of the boulder.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:oppala"
+            ]
+          }
+        },
+        "oppala-problem-47": {
+          "description": {
+            "text": "On a boulder across the road from the Salut boulder. The left-hand problem on the boulder.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:oppala"
+            ]
+          }
+        },
+        "oppala-problem-48": {
+          "description": {
+            "text": "On the boulder in the woods across the road from the Salut boulder. The right-hand problem on the boulder.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:oppala"
+            ]
+          }
+        },
+        "oppala-problem-49": {
+          "description": {
+            "text": "On the huge boulder by the stream, near Linskäkten.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:oppala"
+            ]
+          }
+        },
+        "oppala-problem-50": {
+          "description": {
+            "text": "At Linskäkten, on the boulder beside the road. Standing start at the arete.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:oppala"
+            ]
+          }
+        },
+        "oppala-problem-51": {
+          "description": {
+            "text": "At Linskäkten, on the boulder beside the road. Sit start on the left of the face by the obvious ramp. Climb to the lip, follow it right and top out in the middle of the boulder.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:oppala"
+            ]
+          }
+        },
+        "oppala-problem-53": {
+          "description": {
+            "text": "Start on the obvious ledge right of Salut and top out at the same point.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:oppala"
+            ]
+          }
+        },
+        "oppala-problem-54": {
+          "description": {
+            "text": "A variant of Fly in my eye. Start in the same place and climb up without using the arete.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:oppala"
+            ]
+          }
+        },
+        "oppala-problem-55": {
+          "description": {
+            "text": "At Linskäkten, on the boulder on the right-hand side of the road. Sit start in the middle of the face and climb up leftwards.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:oppala"
+            ]
+          }
+        },
+        "oppala-problem-56": {
+          "description": {
+            "text": "On the Fly and cry boulder, on the face right of Fly and cry. Sit start at the right-hand arete. Two-finger crimp.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:oppala"
+            ]
+          }
+        },
+        "oppala-problem-57": {
+          "description": {
+            "text": "On the opposite side of the Fly and cry boulder from Fly and cry. The rightmost problem on this face; sit start and climb through sloping holds.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:oppala"
+            ]
+          }
+        },
+        "oppala-problem-58": {
+          "description": {
+            "text": "Start as for Pingvinmannen and traverse left. On the large boulder at Linskäkten.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:oppala"
+            ]
+          }
+        },
+        "oppala-problem-59": {
+          "description": {
+            "text": "One move from a sit start. At Linskäkten.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:oppala"
+            ]
+          }
+        },
+        "oppala-problem-60": {
+          "description": {
+            "text": "A fine problem between the large boulders in the meadow at Linskäkten. On the left-hand boulder, at the far right towards the stream.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:oppala"
+            ]
+          }
+        },
+        "oppala-problem-61": {
+          "description": {
+            "text": "On the Fly and cry boulder, on the opposite side from Fly and cry. Sit start on the left of the face and climb diagonally up right via a few small crimps.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:oppala"
+            ]
+          }
+        },
+        "oppala-problem-63": {
+          "description": {
+            "text": "On the opposite side of the Fly and cry boulder from Fly and cry. Sit start on a large undercut and climb up and left.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:oppala"
+            ]
+          }
+        },
+        "oppala-problem-64": {
+          "description": {
+            "text": "Start on the upper edge and dyno to the lip. An extremely long variant can be done from the lower edge.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:oppala"
+            ]
+          }
+        },
+        "oppala-problem-65": {
+          "description": {
+            "text": "Start at the arrows on the obvious indoor-style holds, climb up rightwards and top out straight up.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:oppala"
+            ]
+          }
+        },
+        "oppala-problem-66": {
+          "description": {
+            "text": "Start at the arrows. The same start as Skogens vänner, but climb straight up.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:oppala"
+            ]
+          }
+        },
+        "oppala-problem-67": {
+          "description": {
+            "text": "The line marked by the green arrow. Start at the left-hand arete and climb straight up via the jugs.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:oppala"
+            ]
+          }
+        },
+        "oppala-problem-68": {
+          "description": {
+            "text": "Start on the top jug of Death in the shape of a Madrock Mugen. Dyno to the lip.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:oppala"
+            ]
+          }
+        },
+        "oppala-problem-69": {
+          "description": {
+            "text": "On the small boulder just before the turning area at Midgård. Climb the western arete on the side facing the road, starting on the ledge and continuing straight up to the lip.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:oppala"
+            ]
+          }
+        },
+        "oppala-problem-70": {
+          "description": {
+            "text": "Starts right of Save it for the ladies, preferably with a right-hand pinch/sidepull and a left-hand crimp, then goes straight up (see photo).",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:oppala"
+            ]
+          }
+        },
+        "oppala-problem-71": {
+          "description": {
+            "text": "Right of P.L.Ä.P. Use its pinch with your left hand and the crimp with your right, then go right-handed to the sidepull/jug and climb over the lip.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:oppala"
+            ]
+          }
+        },
+        "oppala-problem-72": {
+          "description": {
+            "text": "On the large boulder beside the road, about 100 m before the turning area at Midgård. Standing start about 1 m right of the left-hand arete on the side facing the road. Straight up to the top, no complications.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:oppala"
+            ]
+          }
+        },
+        "oppala-problem-73": {
+          "description": {
+            "text": "Turn left before the road leading towards the turning area at Midgård. After about 100 m, turn left again into the woods and continue for about 70–80 m. You should see a 5–6 m boulder on the right. The problem follows the green arrow, 1 m from the left-hand arete. Standing start, straight up to the lip.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:oppala"
+            ]
+          }
+        },
+        "oppala-problem-74": {
+          "description": {
+            "text": "Climbs the arete left of Pärts knogar; see Pärts knogar for the boulder's location. Start with your hands on the holds marked with green crosses, then dyno to the lip or the sidepull just below it. The grade is 6B if any holds are used.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:oppala"
+            ]
+          }
+        },
+        "oppala-problem-75": {
+          "description": {
+            "text": "On the Sons of Guns boulder. The traverse from Jasså Janssons frestelse är en vätska?. See the photo of Sons of Guns to see the line of fragglarna.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:oppala"
+            ]
+          }
+        },
+        "oppala-problem-76": {
+          "description": {
+            "text": "Straight up the arete left of S.U.W.U. See S.U.W.U for the boulder's location.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:oppala"
+            ]
+          }
+        },
+        "oppala-problem-77": {
+          "description": {
+            "text": "Climbs by the arete right of S.U.W.U. The arete is out.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:oppala"
+            ]
+          }
+        },
+        "oppala-problem-78": {
+          "description": {
+            "text": "On the back of the S.U.W.U boulder, by the right-hand arete. Sit start at the green arrow, make the first move straight up, then climb diagonally up right.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:oppala"
+            ]
+          }
+        },
+        "oppala-problem-79": {
+          "description": {
+            "text": "On the Sons of Guns boulder, immediately right of Sons of Guns. Start right of the roof at the arrow, using a sidepull and crimp. Then climb left and up over the roof.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:oppala"
+            ]
+          }
+        },
+        "oppala-problem-80": {
+          "description": {
+            "text": "Start beneath the roof on the Sons of Guns boulder and climb straight up through the roof. The arete on the left is out.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:oppala"
+            ]
+          }
+        },
+        "oppala-problem-81": {
+          "description": {
+            "text": "Right of Jasså Janssons frestelse är en vätska?. Start on the small ledge at the arrow, climb straight up to the large ramp and follow it up right. Finish by mantling onto the huge ledge. The start is slightly morpho.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:oppala"
+            ]
+          }
+        },
+        "oppala-problem-82": {
+          "description": {
+            "text": "On the boulder nearest the railway by the Sons of Guns boulder. Climb the arete facing the railway.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:oppala"
+            ]
+          }
+        },
+        "oppala-problem-83": {
+          "description": {
+            "text": "On the smaller boulder in front of the Sons of Guns boulder. Start on the jug, then follow the lip before stepping up.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:oppala"
+            ]
+          }
+        },
+        "oppala-problem-84": {
+          "description": {
+            "text": "On a boulder some distance behind the Sons of Guns boulder. Start with your left hand on the arete and your right on an edge. Move your right hand to the arete, match with your left, then move your right hand to the vertical edge on the right and top out.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:oppala"
+            ]
+          }
+        },
+        "oppala-problem-85": {
+          "description": {
+            "text": "On the Överhängsblocket. Sit start at the arrow low down in the cave, with both hands on the ‘diagonal’ ledge. Move diagonally up left to the huge ledge, then go for the lip.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:oppala"
+            ]
+          }
+        },
+        "oppala-problem-86": {
+          "description": {
+            "text": "On the arete of Överhängsblocket, left of Överhäng. Start at the arrow and follow the arete.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:oppala"
+            ]
+          }
+        },
+        "oppala-problem-87": {
+          "description": {
+            "text": "Sit start beneath a steep overhang.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:oppala"
+            ]
+          }
+        },
+        "oppala-problem-92": {
+          "description": {
+            "text": "A fairly short but good problem.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:oppala"
+            ]
+          }
+        }
+      }
+    }
   }
 }

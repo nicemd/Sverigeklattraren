@@ -64,5 +64,74 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "A small but excellent crag for those who enjoy high-quality crack climbing, often very sustained. In recent years, a new, hard and excellent route has been established, and the crag deserves more visitors!",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:martens-blomtorn"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "General",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:martens-blomtorn"
+            ]
+          },
+          "body": {
+            "text": "A small but delightful crag for anyone who enjoys high-quality crack climbing, often very sustained. In recent years, a new hard and excellent route has been put up, and the crag deserves more visitors!",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:martens-blomtorn"
+            ]
+          }
+        },
+        "vagbeskrivning": {
+          "title": {
+            "text": "Directions",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:martens-blomtorn"
+            ]
+          },
+          "body": {
+            "text": "Directions.\n\nFrom Brunflo, drive towards Rissna until you see a sign for Singsjöböle. Turn towards Singsjöböle and take the first forest road on the left. After about 3–4 km, turn right at a junction. After driving for about 2 km, look out for where the road bends around a small tarn on the left. You will then reach a larger tarn, with the crag literally above it.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:martens-blomtorn"
+            ]
+          }
+        },
+        "leder": {
+          "title": {
+            "text": "Routes",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:martens-blomtorn"
+            ]
+          },
+          "body": {
+            "text": "A: Mårtens vänstra, -6 B: Eagle, 6 C: Mårtens högra, -7 D: Karis superspricka, -7 E: Aeroflot, 7+\n\nRight-hand column",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:martens-blomtorn"
+            ]
+          }
+        }
+      },
+      "routes": {}
+    }
   }
 }

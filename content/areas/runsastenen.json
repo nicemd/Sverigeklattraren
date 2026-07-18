@@ -171,5 +171,145 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "The boulder is beautifully situated beside the path on the way to the roped climbing at Runsa. Good rock, excellent landings and a pleasant height. A fine evening could be spent climbing the problems on Runsastenen, perhaps followed by some traversing on the wall about 150m further along the path on the right.",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:runsastenen"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "Overview",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:runsastenen"
+            ]
+          },
+          "body": {
+            "text": "The boulder is beautifully situated beside the path to the Runsa roped climbing. Good rock quality, excellent landings and a pleasant height. A fine evening can be spent climbing the problems on Runsastenen, perhaps followed by some traversing on the wall about 150 m further along the path on the right.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:runsastenen"
+            ]
+          }
+        },
+        "vagbeskrivning": {
+          "title": {
+            "text": "Directions",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:runsastenen"
+            ]
+          },
+          "body": {
+            "text": "Follow the signposted road towards Runsa for about 6 km. Park in the car park after the avenue. Follow the gravel road for about 400 m to the sign for Runsaborg pointing left. Follow the path. After about 200 m, the boulder is clearly visible on the right.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:runsastenen"
+            ]
+          }
+        },
+        "leder": {
+          "title": {
+            "text": "Routes",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:runsastenen"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:runsastenen"
+            ]
+          }
+        }
+      },
+      "routes": {
+        "runsastenen-problem-1": {
+          "description": {
+            "text": "Straight up. (S.Clancy 2011)",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:runsastenen"
+            ]
+          }
+        },
+        "runsastenen-problem-2": {
+          "description": {
+            "text": "Straight up. (S.Clancy 2011)",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:runsastenen"
+            ]
+          }
+        },
+        "runsastenen-problem-3": {
+          "description": {
+            "text": "The strong may perhaps be able to climb the blank overhang.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:runsastenen"
+            ]
+          }
+        },
+        "runsastenen-problem-4": {
+          "description": {
+            "text": "Starts as for Take off, then follows the arete to the top of the boulder. (S.Clancy, 2011)",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:runsastenen"
+            ]
+          }
+        },
+        "runsastenen-problem-5": {
+          "description": {
+            "text": "Straight up. (T.Rönnbäck, 2011)",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:runsastenen"
+            ]
+          }
+        },
+        "runsastenen-problem-6": {
+          "description": {
+            "text": "5c. Between routes 3 and 5. (T.Rönnbäck, 2011)",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:runsastenen"
+            ]
+          }
+        },
+        "runsastenen-problem-7": {
+          "description": {
+            "text": "Slab just this side of the tree, straight up. (T.Rönnbäck, 2011)",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:runsastenen"
+            ]
+          }
+        }
+      }
+    }
   }
 }

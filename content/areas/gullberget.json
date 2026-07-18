@@ -352,5 +352,259 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "Gullberget lies just over 20 km from Söderhamn and 6 km from Bergvik.",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:gullberget"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "General",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gullberget"
+            ]
+          },
+          "body": {
+            "text": "Gullberget lies just over 20 km from Söderhamn, six km from Bergvik.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gullberget"
+            ]
+          }
+        },
+        "kommunikationer": {
+          "title": {
+            "text": "Access",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gullberget"
+            ]
+          },
+          "body": {
+            "text": "By car: from road 301, turn towards Bergvik at a sign reading \"Bergvik~5\". Six km from the bridge in Bergvik, heading towards Stråtjära and Holmsveden, the crag can be seen as a wooded hill on the right. Following extensive clear-felling by the road, the cliffs are now clearly visible. Park about 200 m before a woodland tarn, opposite a half-metre-high blasted rock face. From here, a path leads up to the main crag. Approximate GPS coordinates for the crag: Lat: N 61º 12' 46.37\" Long: E 16º 49' 59.11\"",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gullberget"
+            ]
+          }
+        },
+        "historik": {
+          "title": {
+            "text": "History",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gullberget"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gullberget"
+            ]
+          }
+        },
+        "klipporna": {
+          "title": {
+            "text": "The crags",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gullberget"
+            ]
+          },
+          "body": {
+            "text": "There are two crags here. The main crag is 8–15 m high and has seven routes, all of which have been thoroughly brushed free of lichen. There are also a few small boulder problems at the top. The rock is good-quality granite with fine, narrow cracks. The descent is to the right of the wall. The small crag, about 50 m to the left of the main crag, consists largely of gigantic boulders jumbled together to form a cliff. The small crag has not been brushed and is not recommended.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gullberget"
+            ]
+          }
+        },
+        "stora-klippan": {
+          "title": {
+            "text": "Main crag",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gullberget"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gullberget"
+            ]
+          }
+        },
+        "lilla-klippan": {
+          "title": {
+            "text": "Small crag",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gullberget"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gullberget"
+            ]
+          }
+        }
+      },
+      "routes": {
+        "gullberget-led-1": {
+          "description": {
+            "text": "FFA: Mikael Bäckman and Per Calleberg, 1980. Follows a sloping, often wet chimney to a large ledge. Then climb a right-facing corner to the top.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gullberget"
+            ]
+          }
+        },
+        "gullberget-led-2": {
+          "description": {
+            "text": "FFA: Kent Andersson and Per Calleberg, 1981. Starts from the top of a flake, climbs a narrowing chimney, then follows the crack to the top. Well protected.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gullberget"
+            ]
+          }
+        },
+        "gullberget-led-3": {
+          "description": {
+            "text": "FFA: Mikael Bäckman, Per Calleberg and Gunnar Larsson, 1979. Climbs a short wall, crosses a ledge and follows the recess above to a spruce. Then follow the gully above to the top.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gullberget"
+            ]
+          }
+        },
+        "gullberget-led-4": {
+          "description": {
+            "text": "FFA: Birger Hedlund, 1984. Climbs a rough crack around the corner, just right of \"Styrkans hemvist\". Continue up the slab above to join \"Trappan\".",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gullberget"
+            ]
+          }
+        },
+        "gullberget-led-5": {
+          "description": {
+            "text": "Thin crack right of \"Klass mot klass\".",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gullberget"
+            ]
+          }
+        },
+        "gullberget-led-6": {
+          "description": {
+            "text": "Diagonal jamming crack on a slightly overhanging wall. Leads up to the overhang on \"Trappan\". Well protected.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gullberget"
+            ]
+          }
+        },
+        "gullberget-led-7": {
+          "description": {
+            "text": "FFA: Mikael Bäckman and Kent Andersson. The combination of Styrkans hemvist and Trappan makes a three-star route. Follows a prominent corner to a roof. Avoid this with a hand traverse right to a ledge. Follow the crack above to the top. Well protected.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gullberget"
+            ]
+          }
+        },
+        "gullberget-led-8": {
+          "description": {
+            "text": "A slippery, blocky, chimney-like feature.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gullberget"
+            ]
+          }
+        },
+        "gullberget-led-9": {
+          "description": {
+            "text": "Follows a jamming crack in a small corner, starting some way up the wall. Where the crack ends, step left and soon reach the top.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gullberget"
+            ]
+          }
+        },
+        "gullberget-led-10": {
+          "description": {
+            "text": "FFA: Birger Hedlund, 1984. Starts just right of a prominent corner. Follows a diagonal line up and right. Shares the finish with \"The Giant Stone Eater\".",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gullberget"
+            ]
+          }
+        },
+        "gullberget-led-11": {
+          "description": {
+            "text": "A clean, prominent corner.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gullberget"
+            ]
+          }
+        },
+        "gullberget-led-12": {
+          "description": {
+            "text": "A tight chimney that widens upwards.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gullberget"
+            ]
+          }
+        },
+        "gullberget-led-13": {
+          "description": {
+            "text": "Where the chimney of \"Return of the king\" begins, traverse left along a narrow ledge, then climb the mossy corner above.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gullberget"
+            ]
+          }
+        }
+      }
+    }
   }
 }

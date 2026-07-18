@@ -408,5 +408,261 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "Myrberget lies about 15 km north of Karlskrona and offers varied climbing with an emphasis on cracks. The crag is around 15 m high and consists of excellent, high-friction granite. There are 18 established routes from 4+ to 8-, with potential for several harder new routes. These lines already have anchors and have been climbed on top-rope. The crag is otherwise sparsely bolted, with only two fully bolted routes, and trad predominates. Some routes may be a little mossy as they are not yet climbed very often. Early in spring it can be somewhat damp below the crag, and there may be the odd mosquito later in summer, but the quality of the rock more than makes up for this. The large wall also has a pleasantly shady west-facing aspect.\n\nThe landowner asks that we DO NOT light fires at the crag, despite there being a fire pit.",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:myrberget"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "General information",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:myrberget"
+            ]
+          },
+          "body": {
+            "text": "Myrberget lies about 15 km north of Karlskrona and offers varied climbing with an emphasis on cracks. The crag is around 15 m high and consists of excellent granite with good friction. There are 18 established routes from 4+ to 8-, with potential for several harder new routes. These prospective lines have already been equipped with anchors and climbed on top-rope. Otherwise, the crag is sparsely bolted (there are two fully bolted routes) and trad predominates. Some routes can be a little mossy as they are not yet climbed very often... In early spring it can be somewhat damp below the crag, with the odd mosquito later in the summer, but the crag itself more than makes up for this. The main wall also faces west and is pleasantly shady.\n\nThe landowner asks that we DO NOT light fires at the crag, despite there being a fire pit.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:myrberget"
+            ]
+          }
+        },
+        "vagbeskrivning": {
+          "title": {
+            "text": "Directions",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:myrberget"
+            ]
+          },
+          "body": {
+            "text": "Drive north from Karlskrona on road 28/122 towards Rödeby. Drive through Rödeby and after about 2 km turn left towards Fridlevstad (road 122). Follow road 122 for about 1.5 km (pass beneath the large power line and continue almost to where the spruce forest begins on the left), then turn left onto the small gravel road. The area was recently logged and the road was left a little rough, but it is perfectly passable. Follow the small gravel road until you see the large power line again. Follow the small road/path down to the left and you will reach the crag after about 400 m.\n\nAccording to the landowner, you may park anywhere as long as you do not obstruct access along the gravel road between road 122 and the farm on Emmerydsvägen. There are therefore no side turnings where parking is unsuitable.\n\nYou can also cycle here, with a cycle path all the way to where roads 28 and 122 diverge. If you prefer public transport, take bus 173 towards Fridlevstad. There is a bus stop at the junction of road 122 and the road to Emmeryd farm.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:myrberget"
+            ]
+          }
+        },
+        "leder": {
+          "title": {
+            "text": "Routes",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:myrberget"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:myrberget"
+            ]
+          }
+        },
+        "norra-vaggen": {
+          "title": {
+            "text": "North Wall",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:myrberget"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:myrberget"
+            ]
+          }
+        },
+        "vastra-vaggen": {
+          "title": {
+            "text": "West Wall",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:myrberget"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:myrberget"
+            ]
+          }
+        }
+      },
+      "routes": {
+        "myrberget-led-2": {
+          "description": {
+            "text": "Harder than it looks...",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:myrberget"
+            ]
+          }
+        },
+        "myrberget-led-3": {
+          "description": {
+            "text": "Same start as Giljotinen. Towards the end of its crux, make a delicate traverse left. New possibilities then lead up the shallow corner to the top.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:myrberget"
+            ]
+          }
+        },
+        "myrberget-led-4": {
+          "description": {
+            "text": "A pumpy route named after a block that now lies in the lake. Don’t join it...",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:myrberget"
+            ]
+          }
+        },
+        "myrberget-led-5": {
+          "description": {
+            "text": "Varied climbing, but sustained throughout.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:myrberget"
+            ]
+          }
+        },
+        "myrberget-led-6": {
+          "description": {
+            "text": "Crux near the top...",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:myrberget"
+            ]
+          }
+        },
+        "myrberget-led-7": {
+          "description": {
+            "text": "Starts with the crux on the slab, then continues up the crack.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:myrberget"
+            ]
+          }
+        },
+        "myrberget-led-8": {
+          "description": {
+            "text": "Two pitches are recommended to avoid rope drag. The crux comes when leaving the blueberry ledge.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:myrberget"
+            ]
+          }
+        },
+        "myrberget-led-9": {
+          "description": {
+            "text": "Very well protected apart from the crux 4m up.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:myrberget"
+            ]
+          }
+        },
+        "myrberget-led-11": {
+          "description": {
+            "text": "Well protected!",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:myrberget"
+            ]
+          }
+        },
+        "myrberget-led-12": {
+          "description": {
+            "text": "A varied route with a somewhat exciting finish.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:myrberget"
+            ]
+          }
+        },
+        "myrberget-led-14": {
+          "description": {
+            "text": "Can also be top-roped, at around grade 8...",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:myrberget"
+            ]
+          }
+        },
+        "myrberget-led-15": {
+          "description": {
+            "text": "Intricate, technical bridging, jamming and laybacking in a steep crack. Excellent. Established as an aid line by Patrik Lind and then named \"Namnlös(2)\", grade A1. The route has been climbed free, protected with nuts and cams. Hammered aid on the route is therefore no longer acceptable. The first free ascent is uncertain. The route is known to have been top-roped previously.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:myrberget"
+            ]
+          }
+        },
+        "myrberget-led-16": {
+          "description": {
+            "text": "Excellent climbing up the corner along a superb, well-protected crack.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:myrberget"
+            ]
+          }
+        },
+        "myrberget-led-17": {
+          "description": {
+            "text": "A tricky start that can be protected with a nut; the rest of the route is considerably easier. The bolt is actually intended for an etrier, turning the route into one suitable for children and beginners.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:myrberget"
+            ]
+          }
+        },
+        "myrberget-led-19": {
+          "description": {
+            "text": "A pronounced crux on the leftward traverse.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:myrberget"
+            ]
+          }
+        }
+      }
+    }
   }
 }

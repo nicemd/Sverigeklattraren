@@ -246,5 +246,150 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "=Problem=",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:gnarpstenen"
+        ]
+      },
+      "sections": {},
+      "routes": {
+        "gnarpstenen-problem-1": {
+          "description": {
+            "text": "Sit start by the arete, move right via the flake, then climb up by the crack.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gnarpstenen"
+            ]
+          }
+        },
+        "gnarpstenen-problem-2": {
+          "description": {
+            "text": "Sit start with hands on the edges and climb straight up. Finishes on the jug at the top.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gnarpstenen"
+            ]
+          }
+        },
+        "gnarpstenen-problem-3": {
+          "description": {
+            "text": "Sit start with hands in the crack, then climb straight up. A balance crux. Finishes with hands on the jug.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gnarpstenen"
+            ]
+          }
+        },
+        "gnarpstenen-problem-4": {
+          "description": {
+            "text": "Sit start with hands on the flake and climb straight up, finishing with hands on the edge.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gnarpstenen"
+            ]
+          }
+        },
+        "gnarpstenen-problem-5": {
+          "description": {
+            "text": "Start beneath the roof and climb straight out and up.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gnarpstenen"
+            ]
+          }
+        },
+        "gnarpstenen-problem-6": {
+          "description": {
+            "text": "Sit start beneath the lowest edge of the Hyena boulder. Lunge to the lip and mantle.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gnarpstenen"
+            ]
+          }
+        },
+        "gnarpstenen-problem-7": {
+          "description": {
+            "text": "Sit start on the right-hand side of the overhang on the other boulder, 5 m behind Minstingen. The aretes are excluded.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gnarpstenen"
+            ]
+          }
+        },
+        "gnarpstenen-problem-8": {
+          "description": {
+            "text": "Sit start beneath the crack, 2 m left of Minstingen.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gnarpstenen"
+            ]
+          }
+        },
+        "gnarpstenen-problem-9": {
+          "description": {
+            "text": "Sit start with hands on the ramp, continue to the flake out left, then climb up.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gnarpstenen"
+            ]
+          }
+        },
+        "gnarpstenen-problem-10": {
+          "description": {
+            "text": "Starts as for Dingo, crosses Hyena, then climbs the arete.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gnarpstenen"
+            ]
+          }
+        },
+        "gnarpstenen-problem-11": {
+          "description": {
+            "text": "Starts as for Dingo, then climbs straight up.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gnarpstenen"
+            ]
+          }
+        },
+        "gnarpstenen-problem-12": {
+          "description": {
+            "text": "Climb the arete left of Hyena.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gnarpstenen"
+            ]
+          }
+        },
+        "gnarpstenen-problem-13": {
+          "description": {
+            "text": "Sit start on the left-hand arete beside Penetratorn and climb straight up.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gnarpstenen"
+            ]
+          }
+        }
+      }
+    }
   }
 }

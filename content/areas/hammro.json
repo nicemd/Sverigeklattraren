@@ -47,5 +47,56 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "A 6–8-metre-high pine tree with good, thick WI5 ice. However, the ice may not return every year.\n\nApproach uphill from Hovlandavägen 100.\n\n--Bultfeber, 25 February 2011 at 14:33 (CET)",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:hammro"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "General",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hammro"
+            ]
+          },
+          "body": {
+            "text": "A 6–8-metre-high pine with good, thick WI5 ice. However, the ice may not reform every year.\n\nApproach uphill from Hovlandavägen 100.\n\n--Bultfeber 25 February 2011 at 14.33 (CET)",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hammro"
+            ]
+          }
+        },
+        "access": {
+          "title": {
+            "text": "Access",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hammro"
+            ]
+          },
+          "body": {
+            "text": "No known access issues, but do not use the hot tub without bringing your own beer.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hammro"
+            ]
+          }
+        }
+      },
+      "routes": {}
+    }
   }
 }

@@ -109,5 +109,95 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "Two routes: 20 m, grade 6, and 40 m, grade 5. The routes are located right in the centre of town, facing west, with magnificent views over Gränna, Lake Vättern and Visingsö.",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:grannaberget"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "General information",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:grannaberget"
+            ]
+          },
+          "body": {
+            "text": "Two routes: a 20 m grade 6 and a 40 m grade 5. The routes are in the centre of town, west-facing and with magnificent views over Gränna, Lake Vättern and Visingsö.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:grannaberget"
+            ]
+          }
+        },
+        "vagbeskrivning": {
+          "title": {
+            "text": "Directions",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:grannaberget"
+            ]
+          },
+          "body": {
+            "text": "By car\n\nWhichever direction you are coming from, follow signs for Gränna. Entering the town from the north or south brings you onto Brahegatan. Follow it to the main square. Park there and find Lergränd, which starts at the southern corner of the square and leads uphill towards the crag. Walk up Lergränd to the tennis court. The routes are by the tennis court.\n\nBy bus\n\nBuses run from Jönköping reasonably frequently. Press the stop button as soon as you have passed the church, and the bus will stop right by the main square. Follow the nearer edge of the square uphill towards the crag and you will find the routes.\n\nThere are also bus services from Tranås and Ödeshög, but they run much less frequently. The bus from Ödeshög does not stop at the main square either.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:grannaberget"
+            ]
+          }
+        },
+        "leder": {
+          "title": {
+            "text": "Routes",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:grannaberget"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:grannaberget"
+            ]
+          }
+        }
+      },
+      "routes": {
+        "grannaberget-led-1": {
+          "description": {
+            "text": "The northern route, the longer of the two. Starts at the corner of the house. The upper anchor is accessible from above, and it is also possible to climb up from the anchor to the footpath along the top of the crag.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:grannaberget"
+            ]
+          }
+        },
+        "grannaberget-led-2": {
+          "description": {
+            "text": "The southern route, shorter but harder. Starts behind the tennis court, 40 m right of the corner of the house.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:grannaberget"
+            ]
+          }
+        }
+      }
+    }
   }
 }

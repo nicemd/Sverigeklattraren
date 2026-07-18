@@ -171,5 +171,100 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "=Directions= Behind the mast is a small, rounded wall. =Problems= From left to right:",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:norrmjole"
+        ]
+      },
+      "sections": {},
+      "routes": {
+        "norrmjole-problem-1": {
+          "description": {
+            "text": "Left of Ericsson and completely separate from it, between two thin cracks. A sit/crouch start is possible (perhaps 7B/7C).",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:norrmjole"
+            ]
+          }
+        },
+        "norrmjole-problem-2": {
+          "description": {
+            "text": "The crack through the middle of the overhang. A sit start is possible, but probably complicated, painful or both.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:norrmjole"
+            ]
+          }
+        },
+        "norrmjole-problem-3": {
+          "description": {
+            "text": "Crouch start beneath the prow; see video (http://www.facebook.com/photo.php?v=431634573537232). 6B+ from standing.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:norrmjole"
+            ]
+          }
+        },
+        "norrmjole-problem-4": {
+          "description": {
+            "text": "Sit start on the crack immediately right of the rock nose.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:norrmjole"
+            ]
+          }
+        },
+        "norrmjole-problem-5": {
+          "description": {
+            "text": "The rightmost crack on the roof wall. Sit start beneath the roof with both hands under the roof.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:norrmjole"
+            ]
+          }
+        },
+        "norrmjole-problem-6": {
+          "description": {
+            "text": "The small wall around the corner to the right of the overhang.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:norrmjole"
+            ]
+          }
+        },
+        "norrmjole-problem-7": {
+          "description": {
+            "text": "The small wall around the corner to the right of the overhang. Straight up the middle.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:norrmjole"
+            ]
+          }
+        },
+        "norrmjole-problem-8": {
+          "description": {
+            "text": "The small wall around the corner to the right of the overhang. Climb the right-hand ramp. Start with both hands at the very bottom of the ramp.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:norrmjole"
+            ]
+          }
+        }
+      }
+    }
   }
 }

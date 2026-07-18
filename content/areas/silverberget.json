@@ -70,5 +70,74 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "From Västervik\n\nDrive towards Överum, then turn left towards Dalhem. Continue following the sign for “Kila 5”.",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:silverberget"
+        ]
+      },
+      "sections": {
+        "vagbeskrivning": {
+          "title": {
+            "text": "Directions",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:silverberget"
+            ]
+          },
+          "body": {
+            "text": "From Västervik\n\nDrive towards Överum, then turn left towards Dalhem. Follow the sign for “Kila 5”.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:silverberget"
+            ]
+          }
+        },
+        "leder": {
+          "title": {
+            "text": "Routes",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:silverberget"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:silverberget"
+            ]
+          }
+        },
+        "lankar": {
+          "title": {
+            "text": "Links",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:silverberget"
+            ]
+          },
+          "body": {
+            "text": "Guide provided by Linköpings klätterklubb (http://linkopingsklatterklubb.se/index.php/forare.html).\n\nGuide by Västervik Climbing (http://www.vastervikclimbing.se/klattercentret/pdfer/).",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:silverberget"
+            ]
+          }
+        }
+      },
+      "routes": {}
+    }
   }
 }

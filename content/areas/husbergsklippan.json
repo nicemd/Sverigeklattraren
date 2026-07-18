@@ -42,5 +42,56 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "Easily accessible warm-ups in the 4–6 grade range.",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:husbergsklippan"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "Overview",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:husbergsklippan"
+            ]
+          },
+          "body": {
+            "text": "Easily accessible warm-ups in grades 4–6.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:husbergsklippan"
+            ]
+          }
+        },
+        "vagbeskrivning": {
+          "title": {
+            "text": "Directions",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:husbergsklippan"
+            ]
+          },
+          "body": {
+            "text": "Take Boglösavägen out of Enköping. About 500 m from the Bredsand turn-off, turn in towards Gånstagården. Park and follow the running trails to the playground; the crag is on the far side of the playground.\n\nThere are a couple more routes further along the crag.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:husbergsklippan"
+            ]
+          }
+        }
+      },
+      "routes": {}
+    }
   }
 }

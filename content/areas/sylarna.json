@@ -77,5 +77,74 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "Sylarna is the cradle of Swedish alpine climbing, where the first ascents were made in the late 1800s. The main attraction is the Stora Syl Traverse.",
+        "method": "llm",
+        "model": "gpt-4o-mini",
+        "sourceIds": [
+          "legacy:sylarna"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "General",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:sylarna"
+            ]
+          },
+          "body": {
+            "text": "Sylarna is the cradle of Swedish alpine climbing, where the first routes were established in the late 1800s. The main attraction is the Stora syltraversen.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:sylarna"
+            ]
+          }
+        },
+        "forare": {
+          "title": {
+            "text": "Guide",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:sylarna"
+            ]
+          },
+          "body": {
+            "text": "Guides from Östersunds KK (http://www.ostersundskk.se/klattring/fjallklattring_sylarna.htm)",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:sylarna"
+            ]
+          }
+        },
+        "bilder": {
+          "title": {
+            "text": "Images",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:sylarna"
+            ]
+          },
+          "body": {
+            "text": "Film of the Stora syltraversen, summer 2012. http://youtu.be/uO8yhyomREY Film: Robin Haag",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:sylarna"
+            ]
+          }
+        }
+      },
+      "routes": {}
+    }
   }
 }

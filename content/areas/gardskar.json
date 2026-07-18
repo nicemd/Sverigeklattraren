@@ -133,5 +133,80 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "=General= Drive towards Älvkarleby. After Dalälven, turn off towards Rullsand and Långsand. Continue past Långsand until you see a sign saying “Gårdskär 5”. Park at the turning area by the sign. Take the path on the right. At the first fork (where a Swedish flag is hanging), keep left. At the next fork, keep right. Follow the path all the way down to the water. Continue right along the shoreline and past the headland to reach the area.\n\n=Problems=",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:gardskar"
+        ]
+      },
+      "sections": {},
+      "routes": {
+        "gardskar-problem-1": {
+          "description": {
+            "text": "The right-hand arete of the large boulder facing the water.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gardskar"
+            ]
+          }
+        },
+        "gardskar-problem-2": {
+          "description": {
+            "text": "Go left around the boulder with B-kupa. The problem is at the back of the \"crack\".",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gardskar"
+            ]
+          }
+        },
+        "gardskar-problem-3": {
+          "description": {
+            "text": "Climbs the overhanging arete between \"Gårdskärshoppet\" and \"B-kupa\".",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gardskar"
+            ]
+          }
+        },
+        "gardskar-problem-4": {
+          "description": {
+            "text": "Follow the \"crack\" past Gårdskärshoppet and climb the short left-hand pillar straight up.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gardskar"
+            ]
+          }
+        },
+        "gardskar-problem-5": {
+          "description": {
+            "text": "The problem is beyond Gårdskärshoppet towards the woods, starting beneath a rock where a spruce twig grows on the ground.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gardskar"
+            ]
+          }
+        },
+        "gardskar-problem-6": {
+          "description": {
+            "text": "The problem is opposite Gårdskärshoppet. Start in the obvious crack and climb diagonally right. The ledge to the left and below the start is out.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gardskar"
+            ]
+          }
+        }
+      }
+    }
   }
 }

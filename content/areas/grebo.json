@@ -65,5 +65,67 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "=Sectors=",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:grebo"
+        ]
+      },
+      "sections": {
+        "vaggen": {
+          "title": {
+            "text": "The Wall",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:grebo"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:grebo"
+            ]
+          }
+        },
+        "southside": {
+          "title": {
+            "text": "Southside",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:grebo"
+            ]
+          },
+          "body": {
+            "text": "=Problems=",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:grebo"
+            ]
+          }
+        }
+      },
+      "routes": {
+        "grebo-problem-1": {
+          "description": {
+            "text": "A couple of kilometres south of Grebo. Some quite good boulders, but lots of foxes and dens.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:grebo"
+            ]
+          }
+        }
+      }
+    }
   }
 }

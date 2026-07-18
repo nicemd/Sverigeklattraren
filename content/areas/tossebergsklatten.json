@@ -77,5 +77,103 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "A small crag right by Fryken near Tossebergsklätten. It has seen some climbing activity but is otherwise quite unknown. Please note the access rules.",
+        "method": "llm",
+        "model": "gpt-4o-mini",
+        "sourceIds": [
+          "legacy:tossebergsklatten"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "General",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tossebergsklatten"
+            ]
+          },
+          "body": {
+            "text": "A small crag right by Fryken near Tossebergsklätten. Has had climbing visitors but is otherwise quite unknown. Please observe the access rules.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tossebergsklatten"
+            ]
+          }
+        },
+        "vagbeskrivning": {
+          "title": {
+            "text": "Access Directions",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tossebergsklatten"
+            ]
+          },
+          "body": {
+            "text": "On the E45 between Sunne and Torsby, at the level of Tossebergsklätten, there is a rest area with a view over upper Fryken. Stop here and head down towards Fryken. You'll find the climbing crag here. This is not on Tossebergsklätten itself but on the other side of the E45 down towards the lake.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tossebergsklatten"
+            ]
+          }
+        },
+        "leder": {
+          "title": {
+            "text": "Routes",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tossebergsklatten"
+            ]
+          },
+          "body": {
+            "text": "Approximately 10-15 metres high. Notable crack lines. More information will follow. It is uncertain if any lines have been established and to what extent.\n\n<!--",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tossebergsklatten"
+            ]
+          }
+        },
+        "access": {
+          "title": {
+            "text": "Access",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tossebergsklatten"
+            ]
+          },
+          "body": {
+            "text": "NOTE! The crag is closed to climbing between 1st March and 1st July! NOTE!",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tossebergsklatten"
+            ]
+          }
+        }
+      },
+      "routes": {
+        "tossebergsklatten-led-1": {
+          "description": {
+            "text": "Route starts on the left side of the sector, climbing through prominent cracks before trending right on the upper section. The terrain is mostly vertical with some overhanging sections.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:tossebergsklatten"
+            ]
+          }
+        }
+      }
+    }
   }
 }

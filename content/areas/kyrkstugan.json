@@ -70,5 +70,40 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "=Problems=",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:kyrkstugan"
+        ]
+      },
+      "sections": {},
+      "routes": {
+        "kyrkstugan-problem-1": {
+          "description": {
+            "text": "On the arete between the slabby and overhanging sections. Start by the stump.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:kyrkstugan"
+            ]
+          }
+        },
+        "kyrkstugan-problem-2": {
+          "description": {
+            "text": "Starts in the middle of the slabby face.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:kyrkstugan"
+            ]
+          }
+        }
+      }
+    }
   }
 }

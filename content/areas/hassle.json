@@ -77,5 +77,85 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "The area has around twenty boulders with some 40 problems at present, and the friction is generally excellent. All the problems are at the easier end of the grading scale. Landings are generally very good. There is still potential for new problems. While here, it is also worth visiting the routes in Hasslebrottet, where there are boulder problems too.",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:hassle"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "General",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hassle"
+            ]
+          },
+          "body": {
+            "text": "The area has around twenty boulders and currently about 40 problems, with generally excellent friction. All the problems are at the easier end of the grading scale. Landings are generally very good. There is currently scope for new problems. While here, it is also worth visiting the routes at Hasslebrottet, where there are boulder problems too.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hassle"
+            ]
+          }
+        },
+        "vagbeskrivning": {
+          "title": {
+            "text": "Directions",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hassle"
+            ]
+          },
+          "body": {
+            "text": "Map here. Click the map button above.\n\nDirections: If coming from Halmstad, drive towards Holm and take the road through Holm that crosses the E6. Once across the E6, take the second road on the left, then drive to the golf club and continue past it until the road bends sharply left. Turn right here onto a tarmac road, which becomes a gravel road after 300 m. Follow this for approximately two kilometres. Keep an eye out on the right, where you will see the boulders. Hasslebrottet is 50 m further on. Park here or on the forest road to the left by the upper boulders.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hassle"
+            ]
+          }
+        },
+        "leder": {
+          "title": {
+            "text": "Routes",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hassle"
+            ]
+          },
+          "body": {
+            "text": "Hassle guide (http://eskapader.se/FörareGuiderResor/Klätterförare/Hassleboulder.aspx)",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hassle"
+            ]
+          }
+        }
+      },
+      "routes": {
+        "hassle-led-1": {
+          "description": {
+            "text": "Route description",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:hassle"
+            ]
+          }
+        }
+      }
+    }
   }
 }

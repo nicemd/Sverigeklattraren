@@ -1440,5 +1440,751 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "=Sectors=",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:gaisenjarga-vastra"
+        ]
+      },
+      "sections": {
+        "tintin-blocken": {
+          "title": {
+            "text": "Tintin-blocken",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaisenjarga-vastra"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaisenjarga-vastra"
+            ]
+          }
+        },
+        "strandblocken": {
+          "title": {
+            "text": "Strandblocken",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaisenjarga-vastra"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaisenjarga-vastra"
+            ]
+          }
+        },
+        "boulderasen": {
+          "title": {
+            "text": "Boulderåsen",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaisenjarga-vastra"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaisenjarga-vastra"
+            ]
+          }
+        },
+        "det-nya-landet": {
+          "title": {
+            "text": "Det nya landet",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaisenjarga-vastra"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaisenjarga-vastra"
+            ]
+          }
+        },
+        "silverfaran": {
+          "title": {
+            "text": "Silverfåran",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaisenjarga-vastra"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaisenjarga-vastra"
+            ]
+          }
+        }
+      },
+      "routes": {
+        "gaisenjarga-vastra-problem-2": {
+          "description": {
+            "text": "Up the pale slab.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaisenjarga-vastra"
+            ]
+          }
+        },
+        "gaisenjarga-vastra-problem-4": {
+          "description": {
+            "text": "A shallow corner 3 m from the left edge of the south-west face of \"Ship Rock\", on top of the hill about 300 m north of Strandblocket.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaisenjarga-vastra"
+            ]
+          }
+        },
+        "gaisenjarga-vastra-problem-5": {
+          "description": {
+            "text": "Establish low on the ramp. Climb diagonally right and finish over the bulge. Good!",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaisenjarga-vastra"
+            ]
+          }
+        },
+        "gaisenjarga-vastra-problem-6": {
+          "description": {
+            "text": "Straight up the wall left of Kapten Stofil. Catch it or go static at the finish. The arete is obviously out.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaisenjarga-vastra"
+            ]
+          }
+        },
+        "gaisenjarga-vastra-problem-7": {
+          "description": {
+            "text": "The right-hand arete. Good!",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaisenjarga-vastra"
+            ]
+          }
+        },
+        "gaisenjarga-vastra-problem-8": {
+          "description": {
+            "text": "\"Start by laybacking the crack, then follow it to the top (note that you climb to the left of the crack throughout).\" Variant: \"...going straight up instead of following the crack is about 6B, and using the ledges to the right of the crack is 6A...\"",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaisenjarga-vastra"
+            ]
+          }
+        },
+        "gaisenjarga-vastra-problem-9": {
+          "description": {
+            "text": "Start on two sidepulls, then climb the arete.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaisenjarga-vastra"
+            ]
+          }
+        },
+        "gaisenjarga-vastra-problem-10": {
+          "description": {
+            "text": "The obvious corner on the back of \"tunna röda\".",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaisenjarga-vastra"
+            ]
+          }
+        },
+        "gaisenjarga-vastra-problem-11": {
+          "description": {
+            "text": "On the back of Hotellbloc. The obvious face. Desperate, but definitely possible...",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaisenjarga-vastra"
+            ]
+          }
+        },
+        "gaisenjarga-vastra-problem-12": {
+          "description": {
+            "text": "Sit start on the edge.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaisenjarga-vastra"
+            ]
+          }
+        },
+        "gaisenjarga-vastra-problem-13": {
+          "description": {
+            "text": "Start at Senilo. Climb left via the obvious edge, then straight up.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaisenjarga-vastra"
+            ]
+          }
+        },
+        "gaisenjarga-vastra-problem-14": {
+          "description": {
+            "text": "Sit start at the two obvious sidepull ramps. Go straight up from these and mantle over the bulge. Good.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaisenjarga-vastra"
+            ]
+          }
+        },
+        "gaisenjarga-vastra-problem-15": {
+          "description": {
+            "text": "The obvious prow on the boulder just north of \"inte så lätt ändå\". Sit start, then straight up the prow. Possibly half a grade harder. Good!",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaisenjarga-vastra"
+            ]
+          }
+        },
+        "gaisenjarga-vastra-problem-16": {
+          "description": {
+            "text": "A variant of \"inte så lätt ändå\". Layback after the left-hand ramp. Good!",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaisenjarga-vastra"
+            ]
+          }
+        },
+        "gaisenjarga-vastra-problem-17": {
+          "description": {
+            "text": "Sit start low in the recess. Then climb over the bulge on fun slopers.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaisenjarga-vastra"
+            ]
+          }
+        },
+        "gaisenjarga-vastra-problem-18": {
+          "description": {
+            "text": "The east arete of boulder 13, the viewpoint boulder.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaisenjarga-vastra"
+            ]
+          }
+        },
+        "gaisenjarga-vastra-problem-19": {
+          "description": {
+            "text": "The face left of Kanta Rei.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaisenjarga-vastra"
+            ]
+          }
+        },
+        "gaisenjarga-vastra-problem-20": {
+          "description": {
+            "text": "The inner line through the roof beside Magic Line. Desperate???",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaisenjarga-vastra"
+            ]
+          }
+        },
+        "gaisenjarga-vastra-problem-21": {
+          "description": {
+            "text": "Roof problem beyond tunna röda, east towards the marsh. Visible as you walk up onto the ridge: two small roofs in the foreground. Follow a roof (60–70 degrees) to a finishing dyno, then mantle. Really hard and fun! ...there is an even lower sit start too... :)",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaisenjarga-vastra"
+            ]
+          }
+        },
+        "gaisenjarga-vastra-problem-22": {
+          "description": {
+            "text": "Boulderåsen lies behind the upper (second) \"pond\". From franska blocket, head diagonally right into the woods until you reach two \"ponds\". Starts on the lowest edge and follows the crack.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaisenjarga-vastra"
+            ]
+          }
+        },
+        "gaisenjarga-vastra-problem-23": {
+          "description": {
+            "text": "About 50 metres from Hotel njarga towards the road. Start at the crack, possibly with the right hand further right.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaisenjarga-vastra"
+            ]
+          }
+        },
+        "gaisenjarga-vastra-problem-24": {
+          "description": {
+            "text": "Sit start in the right-hand corner. Then move left onto the face and go straight up.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaisenjarga-vastra"
+            ]
+          }
+        },
+        "gaisenjarga-vastra-problem-25": {
+          "description": {
+            "text": "Straight up the obvious pillar/prow. Fontainebleau style!",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaisenjarga-vastra"
+            ]
+          }
+        },
+        "gaisenjarga-vastra-problem-26": {
+          "description": {
+            "text": "A short problem on the otherwise high boulder, diagonally back towards the road from \"Nästan som Örebro\". Possibly half a grade easier.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaisenjarga-vastra"
+            ]
+          }
+        },
+        "gaisenjarga-vastra-problem-27": {
+          "description": {
+            "text": "Start on and climb the arete right of Renjävel.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaisenjarga-vastra"
+            ]
+          }
+        },
+        "gaisenjarga-vastra-problem-28": {
+          "description": {
+            "text": "Start with one hand on the arete and the other in the overhang. Dyno to the top of the arete.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaisenjarga-vastra"
+            ]
+          }
+        },
+        "gaisenjarga-vastra-problem-31": {
+          "description": {
+            "text": "A superb face problem on one of the bermudablocken in nya landet.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaisenjarga-vastra"
+            ]
+          }
+        },
+        "gaisenjarga-vastra-problem-32": {
+          "description": {
+            "text": "Face problem on the chimney boulder to the north, beyond the small bay in nya landet.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaisenjarga-vastra"
+            ]
+          }
+        },
+        "gaisenjarga-vastra-problem-33": {
+          "description": {
+            "text": "A short problem near the small bay in nya landet, just beyond the main boulders.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaisenjarga-vastra"
+            ]
+          }
+        },
+        "gaisenjarga-vastra-problem-34": {
+          "description": {
+            "text": "Starts to the right of \"Kill-Aila\" and climbs over the nose. The sit start is obvious, on a huge jug.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaisenjarga-vastra"
+            ]
+          }
+        },
+        "gaisenjarga-vastra-problem-35": {
+          "description": {
+            "text": "On the second Bermudablocket. Sit start on the small rock, the same as for the hand traverse. Top out in the middle of the wall via the crimp rail.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaisenjarga-vastra"
+            ]
+          }
+        },
+        "gaisenjarga-vastra-problem-36": {
+          "description": {
+            "text": "On the second Bermudablocket. Start on the two good holds of the traverse and dyno straight up to the edge.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaisenjarga-vastra"
+            ]
+          }
+        },
+        "gaisenjarga-vastra-problem-43": {
+          "description": {
+            "text": "Sit start at the left-hand corner. Follow the juggy lip right, then mantle over to the right. Good!",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaisenjarga-vastra"
+            ]
+          }
+        },
+        "gaisenjarga-vastra-problem-44": {
+          "description": {
+            "text": "The central line. Insane and outrageously good-looking. Still unclimbed, though...",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaisenjarga-vastra"
+            ]
+          }
+        },
+        "gaisenjarga-vastra-problem-45": {
+          "description": {
+            "text": "Start on the right by the singing tree, then straight up. Quite high...",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaisenjarga-vastra"
+            ]
+          }
+        },
+        "gaisenjarga-vastra-problem-46": {
+          "description": {
+            "text": "Up the slab without the tempting holds on the right.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaisenjarga-vastra"
+            ]
+          }
+        },
+        "gaisenjarga-vastra-problem-51": {
+          "description": {
+            "text": "Start on the lip using the obvious slopers. Then straight up, which is considerably harder than it looks...",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaisenjarga-vastra"
+            ]
+          }
+        },
+        "gaisenjarga-vastra-problem-52": {
+          "description": {
+            "text": "Sit start on the edges, then climb up left and mantle. Good!",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaisenjarga-vastra"
+            ]
+          }
+        },
+        "gaisenjarga-vastra-problem-53": {
+          "description": {
+            "text": "The fine slab with the crack on the far right.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaisenjarga-vastra"
+            ]
+          }
+        },
+        "gaisenjarga-vastra-problem-54": {
+          "description": {
+            "text": "An eliminate of the previous problem. Climb the slab without the crack. Good!",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaisenjarga-vastra"
+            ]
+          }
+        },
+        "gaisenjarga-vastra-problem-55": {
+          "description": {
+            "text": "The slab on the far left. Good and high...",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaisenjarga-vastra"
+            ]
+          }
+        },
+        "gaisenjarga-vastra-problem-56": {
+          "description": {
+            "text": "Start at the arete on the right, then move into the overhang and straight up.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaisenjarga-vastra"
+            ]
+          }
+        },
+        "gaisenjarga-vastra-problem-57": {
+          "description": {
+            "text": "The slab to the right of 15.1. High and excellent!",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaisenjarga-vastra"
+            ]
+          }
+        },
+        "gaisenjarga-vastra-problem-58": {
+          "description": {
+            "text": "Sit start at the crack/edge. Pull up to the lip and mantle over. Excellent!",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaisenjarga-vastra"
+            ]
+          }
+        },
+        "gaisenjarga-vastra-problem-59": {
+          "description": {
+            "text": "Sit start low in the hole. Then head left and up on progressively better holds. Tricky start.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaisenjarga-vastra"
+            ]
+          }
+        },
+        "gaisenjarga-vastra-problem-60": {
+          "description": {
+            "text": "The beautiful arete. Looks tough at the start.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaisenjarga-vastra"
+            ]
+          }
+        },
+        "gaisenjarga-vastra-problem-61": {
+          "description": {
+            "text": "Brushed and ready! An incredibly striking line, but still unclimbed!",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaisenjarga-vastra"
+            ]
+          }
+        },
+        "gaisenjarga-vastra-problem-62": {
+          "description": {
+            "text": "Sit start. Climb up to the sloping ramp.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaisenjarga-vastra"
+            ]
+          }
+        },
+        "gaisenjarga-vastra-problem-63": {
+          "description": {
+            "text": "Sit start. Harder than it looks.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaisenjarga-vastra"
+            ]
+          }
+        },
+        "gaisenjarga-vastra-problem-64": {
+          "description": {
+            "text": "Jump start from an undercling. Then a short, hard dyno to the top.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaisenjarga-vastra"
+            ]
+          }
+        },
+        "gaisenjarga-vastra-problem-66": {
+          "description": {
+            "text": "Sit start. Follow the ladder of jugs right and mantle out along the brushed line. Brilliant!",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaisenjarga-vastra"
+            ]
+          }
+        },
+        "gaisenjarga-vastra-problem-67": {
+          "description": {
+            "text": "The obvious high arete.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaisenjarga-vastra"
+            ]
+          }
+        },
+        "gaisenjarga-vastra-problem-72": {
+          "description": {
+            "text": "The first problem at the \"Franska\" Boulder when approaching from the road. Sit start on two holds left of the nose and finish with a mantle.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaisenjarga-vastra"
+            ]
+          }
+        },
+        "gaisenjarga-vastra-problem-74": {
+          "description": {
+            "text": "The overhang.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaisenjarga-vastra"
+            ]
+          }
+        },
+        "gaisenjarga-vastra-problem-75": {
+          "description": {
+            "text": "Sit start, pull hard onto the slab, then use toe hooks for a dyno to a jug before mantling out. 45% overhanging.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaisenjarga-vastra"
+            ]
+          }
+        },
+        "gaisenjarga-vastra-problem-76": {
+          "description": {
+            "text": "The sit start to the right-hand dyno line.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaisenjarga-vastra"
+            ]
+          }
+        },
+        "gaisenjarga-vastra-problem-77": {
+          "description": {
+            "text": "Sit start with your hands far apart, one to the right and one to the left, and pull hard. One move, then jugs.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaisenjarga-vastra"
+            ]
+          }
+        },
+        "gaisenjarga-vastra-problem-78": {
+          "description": {
+            "text": "Establish yourself and jump. Located on the Franska Boulder.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaisenjarga-vastra"
+            ]
+          }
+        },
+        "gaisenjarga-vastra-problem-79": {
+          "description": {
+            "text": "Establish yourself and jump. On the Franska Boulder.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaisenjarga-vastra"
+            ]
+          }
+        },
+        "gaisenjarga-vastra-problem-80": {
+          "description": {
+            "text": "Follow the juggy ledge onto the slab, then make a long move to a jug. Furthest right on the Franska Boulder.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaisenjarga-vastra"
+            ]
+          }
+        },
+        "gaisenjarga-vastra-problem-82": {
+          "description": {
+            "text": "From Kill-Aila, head 100m due north along the top of the ridge.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaisenjarga-vastra"
+            ]
+          }
+        },
+        "gaisenjarga-vastra-problem-83": {
+          "description": {
+            "text": "On the same boulder as Jah.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaisenjarga-vastra"
+            ]
+          }
+        },
+        "gaisenjarga-vastra-problem-84": {
+          "description": {
+            "text": "At BoulderAsen, on the middle slab following the line.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaisenjarga-vastra"
+            ]
+          }
+        },
+        "gaisenjarga-vastra-problem-86": {
+          "description": {
+            "text": "The first problem at the \"Franska\" Boulder when approaching from the road. Sit start on two holds left of the nose and finish with a mantle.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:gaisenjarga-vastra"
+            ]
+          }
+        }
+      }
+    }
   }
 }

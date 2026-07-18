@@ -44,5 +44,74 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "An area with several icefalls along the crags by Kärnsjön. Most are around 12–20 m high and graded WI 3, but there is also a taller icefall where the first pitch is WI 3 and the second WI 5–6, depending on ice formation.",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:karnsjon"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "General",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:karnsjon"
+            ]
+          },
+          "body": {
+            "text": "An area with several icefalls along the crags by Kärnsjön. Most are graded WI 3 and around 12–20 m high, but there is also a taller icefall where the first pitch is WI 3 and the second WI 5–6, depending on ice formation.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:karnsjon"
+            ]
+          }
+        },
+        "vagbeskrivning": {
+          "title": {
+            "text": "Directions",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:karnsjon"
+            ]
+          },
+          "body": {
+            "text": "Leave the E6 at Håby and drive towards Munkedal. After about 600 m, follow the sign for Smedseröd. Continue along the road until you cross a dam. Then take the first turning on the left, a minor forest road. Follow it to the end and park. The icefalls are then on the right, towards the lake.\n\nNB: Be alert to the thickness of the ice. Carry ice claws or keep your ice axes to hand, and leave your rucksack hip belt unfastened!",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:karnsjon"
+            ]
+          }
+        },
+        "access": {
+          "title": {
+            "text": "Access",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:karnsjon"
+            ]
+          },
+          "body": {
+            "text": "Bird protection from 1 March.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:karnsjon"
+            ]
+          }
+        }
+      },
+      "routes": {}
+    }
   }
 }

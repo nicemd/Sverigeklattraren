@@ -86,5 +86,50 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "=Problem=",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:ljusne"
+        ]
+      },
+      "sections": {},
+      "routes": {
+        "ljusne-problem-1": {
+          "description": {
+            "text": "Start on the right-hand side of the larger wall, move left to the designated crimps in the middle of the wall, then straight up from them.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:ljusne"
+            ]
+          }
+        },
+        "ljusne-problem-2": {
+          "description": {
+            "text": "Start on the crimps in the middle of the wall used on \"Ljusne lives\". Climb straight up and left.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:ljusne"
+            ]
+          }
+        },
+        "ljusne-problem-3": {
+          "description": {
+            "text": "On the opposite side of the road from Ljusne lives. Wall climbing on crimps.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:ljusne"
+            ]
+          }
+        }
+      }
+    }
   }
 }

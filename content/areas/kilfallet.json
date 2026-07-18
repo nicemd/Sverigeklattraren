@@ -47,5 +47,56 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "20 km from Karlstad towards Arvika. Right beside Route 61, level with Kil/Fagerås.",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:kilfallet"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "General",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:kilfallet"
+            ]
+          },
+          "body": {
+            "text": "20 km from Karlstad towards Arvika, right beside Route 61 near Kil/Fagerås.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:kilfallet"
+            ]
+          }
+        },
+        "ovrigt": {
+          "title": {
+            "text": "Other",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:kilfallet"
+            ]
+          },
+          "body": {
+            "text": "Somewhat slabby ice. It also forms rather slowly and disappears fairly quickly in warmer temperatures. Climbed mainly because of its proximity to Karlstad and easy access. If anything, the cars passing right by are a disturbance? Park at the nearby rest area and walk a hundred(?) metres to the crag. It is unclear whether the wildlife fence at the top of the blasted road cutting can be used as an anchor point for top-roping. Placing your own protection is difficult, and the ice can sometimes be rather thin. See photo.\n\nThe blasted road cutting is divided into two sections. The photo below shows the left-hand section.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:kilfallet"
+            ]
+          }
+        }
+      },
+      "routes": {}
+    }
   }
 }

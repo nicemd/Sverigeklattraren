@@ -95,5 +95,128 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "The beautiful Kjugekull nature reserve is one of Sweden’s largest and very best bouldering areas, currently offering 1,140 different problems and variations. The boulders are generally large, rounded and freestanding, scattered through open deciduous woodland between rolling grazing pastures. This provides a beautiful setting for the boulders and makes Kjugekull an exceptional nature experience. Every type of problem is represented: low sit starts and high lines, delicate slabs and steep roofs, pumpy traverses and long catches. The climbing is often technical and friction-dependent, and rarely very steep. Kjugekull can be climbed at almost all times of year. More info (http://www.kjuge.nu/) Kjuge Blog (http://www.kjugekull.blogspot.com/) More bouldering near Kjuge (http://skaneboulderhunter.blogspot.com/)",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:kjugekull"
+        ]
+      },
+      "sections": {
+        "access": {
+          "title": {
+            "text": "Access",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:kjugekull"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:kjugekull"
+            ]
+          }
+        },
+        "boende": {
+          "title": {
+            "text": "Accommodation",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:kjugekull"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:kjugekull"
+            ]
+          }
+        },
+        "vandrarhemmet-i-vanga": {
+          "title": {
+            "text": "Vandrarhemmet i Vånga",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:kjugekull"
+            ]
+          },
+          "body": {
+            "text": "http://www.vandrarhemmetivanga.com/ Very good hostel, with discounted rates for STF members. Sauna and wood-fired hot tub. Relatively close to Kjuge.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:kjugekull"
+            ]
+          }
+        },
+        "humletorkan": {
+          "title": {
+            "text": "Humletorkan",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:kjugekull"
+            ]
+          },
+          "body": {
+            "text": "http://www.humletorkan.com/ Basic accommodation a little too far from Kjuge. More of a local heritage centre than a hostel, with a simply equipped kitchen.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:kjugekull"
+            ]
+          }
+        },
+        "backaskogs-slott": {
+          "title": {
+            "text": "Bäckaskogs slott",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:kjugekull"
+            ]
+          },
+          "body": {
+            "text": "http://www.backaskogslott.se/ Luxury accommodation close to Kjuge.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:kjugekull"
+            ]
+          }
+        },
+        "vens-camping": {
+          "title": {
+            "text": "Vens Camping",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:kjugekull"
+            ]
+          },
+          "body": {
+            "text": "http://www.venscamping.se/ For those who like camping, but there are also cabins.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:kjugekull"
+            ]
+          }
+        }
+      },
+      "routes": {}
+    }
   }
 }

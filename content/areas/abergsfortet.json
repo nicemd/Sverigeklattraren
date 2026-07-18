@@ -73,5 +73,110 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "Bolted crag outside Boden. Lower down on the same mountain lies Åberget, which is less exposed to the wind.",
+        "method": "llm",
+        "model": "gpt-4o-mini",
+        "sourceIds": [
+          "legacy:abergsfortet"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "General",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:abergsfortet"
+            ]
+          },
+          "body": {
+            "text": "Bolted explosive rock outside Boden. Further down the same mountain lies Åberget, which is less exposed to the wind.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:abergsfortet"
+            ]
+          }
+        },
+        "miljo": {
+          "title": {
+            "text": "Environment",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:abergsfortet"
+            ]
+          },
+          "body": {
+            "text": "The crag faces southwest. The rock can feel a bit slippery at times.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:abergsfortet"
+            ]
+          }
+        },
+        "vagbeskrivning": {
+          "title": {
+            "text": "Access",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:abergsfortet"
+            ]
+          },
+          "body": {
+            "text": "Follow the directions to Åberget, but do not turn left onto the sandy/rocky lesser road; continue on the tarmacked road for about 1 km. Here, the road is blocked by a barrier. Park 20 metres before the barrier and walk along the road towards the fort. The routes are located at the far end of the right side of the fort (viewed from the barrier).",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:abergsfortet"
+            ]
+          }
+        },
+        "leder": {
+          "title": {
+            "text": "Routes",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:abergsfortet"
+            ]
+          },
+          "body": {
+            "text": "A dozen routes, mainly from 5c to 6b+, approximately 10 m high. Slopers and crimps dominate. Route names are painted on the wall. If you want to set up top rope without leading, you can use ladders and a suspended chain to the left of the wall, inside the gate.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:abergsfortet"
+            ]
+          }
+        },
+        "forare": {
+          "title": {
+            "text": "Guide",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:abergsfortet"
+            ]
+          },
+          "body": {
+            "text": "http://www.borrbult.nu",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:abergsfortet"
+            ]
+          }
+        }
+      },
+      "routes": {}
+    }
   }
 }

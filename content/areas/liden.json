@@ -169,5 +169,133 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "The icefalls at Liden, on the edge of the Indalsälven valley, offer everything from 15 m WI2 to 80 m WI4. Note that if you want to set up a top-rope on Trappstegsfallet or Göteborgsisarna, you will need to lead one of the WI2 falls to reach the ledges above.\n\nFor current ice conditions and other queries, see the Sundsvalls Klätterklubb forum (http://www.sundsvallsklatterklubb.se/forum/viewforum.php?f=20).",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:liden"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "General",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:liden"
+            ]
+          },
+          "body": {
+            "text": "The icefalls at Liden, on the edge of the Indalsälven valley, offer everything from 15m WI2 to 80m WI4. Note that to set up a top-rope on Trappstegsfallet or Göteborgsisarna, you will have to lead one of the WI2 icefalls to reach the ledges above.\n\nFor current ice conditions or other questions, see the Sundsvalls Klätterklubb forum (http://www.sundsvallsklatterklubb.se/forum/viewforum.php?f=20).",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:liden"
+            ]
+          }
+        },
+        "vagbeskrivning": {
+          "title": {
+            "text": "Directions",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:liden"
+            ]
+          },
+          "body": {
+            "text": "Take road 86 to Liden and turn off towards the ski slope. The crag is now clearly visible, and you can catch a glimpse of Stora fallet. Follow the winding road down to and across Indalsälven, then keep right.\n\nGöteborgsisarna: Continue along the road for 1.3km until you reach a meadow and a house on the right. Park on the road just beyond the house, where it is usually ploughed extra wide.\n\nThe approach takes about 5 minutes. Continue along the road from where you parked for about 200m, then turn left onto a path. Follow the path to the power line, then head straight towards the crag—the icefalls are impossible to miss!\n\nTrappstegsfallet: Use the same parking as for Göteborgsisarna.\n\nWalk back along the road you came on and, just after the house, turn right uphill onto the path. Turn left at the first T-junction, then go straight on at the second, uphill through the woods and out beneath the power line. Continue left until you have passed the two large boulders and are midway between the boulders and the power-line pylons, in a shallow dip. Then head straight uphill towards the crag for about 150m to reach the icefall.\n\nSkjutbaneisarna: Instead of turning right after the bridge over the river, turn left. Take the first road on the right, by the dance pavilion, continue for about 500m and park where the road ends. The icefalls are now visible straight ahead on the crag. A small path enters the woods where the slalom slope ends, by the lowest lamp post. Follow it for about 300m until you reach a clear-cut. Follow its left-hand edge straight uphill through the woods for about 200m to reach the icefall.\n\nStorafallet: Use the same parking as for Göteborgsisarna. (NB Do not park in the ploughed passing place, as this obstructs the snowplough!)\n\nThe approach takes about 20–30 minutes. Walk back along the road, round the bend and beneath the power line until you reach an old clear-cut after 750m. Then head straight uphill towards the crag for about 350m—the icefall is impossible to miss.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:liden"
+            ]
+          }
+        },
+        "klattringen": {
+          "title": {
+            "text": "Climbing",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:liden"
+            ]
+          },
+          "body": {
+            "text": "Listed from left to right as seen from Liden.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:liden"
+            ]
+          }
+        },
+        "accessinformation": {
+          "title": {
+            "text": "Access information",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:liden"
+            ]
+          },
+          "body": {
+            "text": "There are currently no access issues, but when parking, make sure you do not obstruct passing traffic.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:liden"
+            ]
+          }
+        }
+      },
+      "routes": {
+        "liden-led-1": {
+          "description": {
+            "text": "Starts with a 10m vertical curtain, after which the angle eases progressively higher up.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:liden"
+            ]
+          }
+        },
+        "liden-led-2": {
+          "description": {
+            "text": "Best climbed by soloing up low-angle ice to a few small trees on the left of the fall. Then follow about 40m of sustained steep climbing at 80–90° to reach the snowfield, with a tree belay out left. The second pitch starts with a 20m steep curtain, which then eases to 50–60°.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:liden"
+            ]
+          }
+        },
+        "liden-led-3": {
+          "description": {
+            "text": "A large, broad icefall with a very variable angle. A 60m single rope is sufficient for the abseil.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:liden"
+            ]
+          }
+        },
+        "liden-led-4": {
+          "description": {
+            "text": "Actually consists of four smaller icefalls. Furthest left is an ice-covered corner followed by an overhanging curtain, which sometimes reaches the ground and forms a free-standing ice pillar. Next comes progressively steeper slab ice, with the highest fall furthest right, where the path emerges.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:liden"
+            ]
+          }
+        }
+      }
+    }
   }
 }

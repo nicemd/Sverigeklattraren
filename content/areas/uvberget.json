@@ -271,5 +271,161 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "Uvberget is beautifully situated by Lake Tenhultasjön. The crag is approximately 15-20 meters high, facing west and overhanging. All the routes hang over more than they appear, and the climbing is really enjoyable. The sun shines on the crag until around 1 PM.\n\nAccess / The crag has bird protection and cannot be climbed for most of the summer. However, it often takes until autumn for the rock to dry out properly. Routes range from 6b+ to 7c+. There are harder projects available.",
+        "method": "llm",
+        "model": "gpt-4o-mini",
+        "sourceIds": [
+          "legacy:uvberget"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "General",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:uvberget"
+            ]
+          },
+          "body": {
+            "text": "Uvberget is beautifully located by Lake Tenhultasjön. The crag is about 15-20 metres high, west-facing and overhanging. All the routes hang more than they appear to, plus it's really fun climbing. The sun shines on the rock until around 13:00. Access / The crag has bird protection and therefore cannot be climbed for much of the summer. However, it usually takes until autumn before the rock is properly dry. Routes range from 6b+ to 7c+. Harder projects are available.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:uvberget"
+            ]
+          }
+        },
+        "vagbeskrivning": {
+          "title": {
+            "text": "Directions",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:uvberget"
+            ]
+          },
+          "body": {
+            "text": "Directions: From Tenhult, take the road south towards Ödestugu. Continue for 1.5 km from the bathing area; at the incline, there will be a roadworks sandbox on the right side. Turn left 10 metres past this (at a mailbox on the left side, house on the right side). Park in the clearing. Follow the path for 20 metres, when it turns left, continue straight and find your way down the slope along a somewhat unclear path (if you stay on the path, you'll reach the top of the crag). Follow the lake a few hundred metres north and the crag will become visible.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:uvberget"
+            ]
+          }
+        },
+        "access": {
+          "title": {
+            "text": "Access",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:uvberget"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:uvberget"
+            ]
+          }
+        },
+        "leder": {
+          "title": {
+            "text": "Routes",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:uvberget"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:uvberget"
+            ]
+          }
+        },
+        "forare": {
+          "title": {
+            "text": "Guide",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:uvberget"
+            ]
+          },
+          "body": {
+            "text": "• Guide (http://www12.speedyshare.com/files/29771890/download/uvberget.pdf)",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:uvberget"
+            ]
+          }
+        }
+      },
+      "routes": {
+        "uvberget-led-2": {
+          "description": {
+            "text": "Easier if you climb out left after the third bolt. Climbing in the groove.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:uvberget"
+            ]
+          }
+        },
+        "uvberget-led-8": {
+          "description": {
+            "text": "Climbing on mostly good holds.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:uvberget"
+            ]
+          }
+        },
+        "uvberget-led-9": {
+          "description": {
+            "text": "Exit through the roof.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:uvberget"
+            ]
+          }
+        },
+        "uvberget-led-10": {
+          "description": {
+            "text": "Exit to the right. Furthest right on the crag.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:uvberget"
+            ]
+          }
+        },
+        "uvberget-led-11": {
+          "description": {
+            "text": "Traverse left and mantle out.",
+            "method": "llm",
+            "model": "gpt-4o-mini",
+            "sourceIds": [
+              "legacy:uvberget"
+            ]
+          }
+        }
+      }
+    }
   }
 }

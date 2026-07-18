@@ -143,5 +143,74 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "Himlaberg is the highest point in the Orminge area and has a long line of low crags directly above Gamla Värmdövägen. At the far right is a fine little crag, 30 m up into the woods above Gamla Värmdövägen.",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:himlaberg"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "Overview",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:himlaberg"
+            ]
+          },
+          "body": {
+            "text": "Himlaberg is the highest point in the Orminge area and has a long line of low crags directly above Gamla Värmdövägen. At the far right is a fine little crag 30 m up in the woods above Gamla Värmdövägen.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:himlaberg"
+            ]
+          }
+        },
+        "vagbeskrivning": {
+          "title": {
+            "text": "Directions",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:himlaberg"
+            ]
+          },
+          "body": {
+            "text": "As for Ekoberget, but stop on the bend by Kilsviken.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:himlaberg"
+            ]
+          }
+        },
+        "leder": {
+          "title": {
+            "text": "Routes",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:himlaberg"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:himlaberg"
+            ]
+          }
+        }
+      },
+      "routes": {}
+    }
   }
 }

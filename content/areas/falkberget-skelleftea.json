@@ -402,5 +402,245 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "Skellefteå’s most popular crag. Routes in all grades, though unfortunately they are becoming overgrown with moss. The routes are spread across four smaller walls.",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:falkberget-skelleftea"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "General",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:falkberget-skelleftea"
+            ]
+          },
+          "body": {
+            "text": "Skellefteå’s most popular crag. Routes in all grades, though unfortunately they are becoming overgrown with moss. The routes are spread across four small walls.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:falkberget-skelleftea"
+            ]
+          }
+        },
+        "miljo": {
+          "title": {
+            "text": "Conditions",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:falkberget-skelleftea"
+            ]
+          },
+          "body": {
+            "text": "North-facing, but with solid rock. A good place to climb in midsummer. The Ingen utväg sector gets morning sun.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:falkberget-skelleftea"
+            ]
+          }
+        },
+        "vagbeskrivning": {
+          "title": {
+            "text": "Directions",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:falkberget-skelleftea"
+            ]
+          },
+          "body": {
+            "text": "From the E4, turn towards Sörböle at the southern roundabout (E4 N, Anderstorp, E4 S and Sörböle). Follow the road to a slaughterhouse, where Falkträsket is signposted. Head towards Falkträsket. Continue past the bathing area and the holiday cottages. Then turn right onto a small forest road signposted Falkstugan. Park ‘behind’ the crag.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:falkberget-skelleftea"
+            ]
+          }
+        },
+        "sektorer": {
+          "title": {
+            "text": "Sectors",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:falkberget-skelleftea"
+            ]
+          },
+          "body": {
+            "text": "At present, mainly bolted routes are listed on Sverigeföraren. From right to left.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:falkberget-skelleftea"
+            ]
+          }
+        },
+        "ingen-utvag": {
+          "title": {
+            "text": "Ingen utväg",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:falkberget-skelleftea"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:falkberget-skelleftea"
+            ]
+          }
+        },
+        "fatigue": {
+          "title": {
+            "text": "Fatigue",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:falkberget-skelleftea"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:falkberget-skelleftea"
+            ]
+          }
+        },
+        "roda-vaggen": {
+          "title": {
+            "text": "Red Wall",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:falkberget-skelleftea"
+            ]
+          },
+          "body": {
+            "text": "A 5-metre wall with the occasional bolt. Several medium-height, moderately difficult boulder problems of unknown or uncertain origin.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:falkberget-skelleftea"
+            ]
+          }
+        },
+        "kaminvaggen": {
+          "title": {
+            "text": "Chimney Wall",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:falkberget-skelleftea"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:falkberget-skelleftea"
+            ]
+          }
+        }
+      },
+      "routes": {
+        "falkberget-skelleftea-led-1": {
+          "description": {
+            "text": "Starts beneath a roof in a corner.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:falkberget-skelleftea"
+            ]
+          }
+        },
+        "falkberget-skelleftea-led-2": {
+          "description": {
+            "text": "Face climbing.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:falkberget-skelleftea"
+            ]
+          }
+        },
+        "falkberget-skelleftea-led-3": {
+          "description": {
+            "text": "Shares the finish with Eraser.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:falkberget-skelleftea"
+            ]
+          }
+        },
+        "falkberget-skelleftea-led-14": {
+          "description": {
+            "text": "A well-protected crack.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:falkberget-skelleftea"
+            ]
+          }
+        },
+        "falkberget-skelleftea-led-16": {
+          "description": {
+            "text": "Mossy. Trend right to a ledge, then go straight up.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:falkberget-skelleftea"
+            ]
+          }
+        },
+        "falkberget-skelleftea-led-17": {
+          "description": {
+            "text": "Start on the other side of the pillar. Shares the finish with Bokhyllan.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:falkberget-skelleftea"
+            ]
+          }
+        },
+        "falkberget-skelleftea-led-19": {
+          "description": {
+            "text": "Nuts?",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:falkberget-skelleftea"
+            ]
+          }
+        },
+        "falkberget-skelleftea-led-20": {
+          "description": {
+            "text": "Starts on a boulder beneath a roof.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:falkberget-skelleftea"
+            ]
+          }
+        }
+      }
+    }
   }
 }

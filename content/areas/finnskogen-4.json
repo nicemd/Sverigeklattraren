@@ -56,5 +56,74 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "A small bouldering crag right beside the road at the start of the area known as Finnskogen, between Arvika and Årjäng.",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:finnskogen-4"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "General",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:finnskogen-4"
+            ]
+          },
+          "body": {
+            "text": "A small bouldering crag right beside the road at the start of the area known as Finnskogen, between Arvika and Årjäng.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:finnskogen-4"
+            ]
+          }
+        },
+        "vagbeskrivning": {
+          "title": {
+            "text": "Directions",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:finnskogen-4"
+            ]
+          },
+          "body": {
+            "text": "Drive from Arvika towards Årjäng, passing both Jössefors and Sulvik, and continue straight towards Årjäng. Shortly after Sulvikingen (the petrol station in Sulvik), the road begins to get steeper. Continue round the broad, gentle left-hand bend, past the turn-off/junction on the right for Koppom. The crag has remained cleverly hidden for many years, immediately to the left of the road. If the road levels out and you can see a small tarn on the left, you have gone too far.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:finnskogen-4"
+            ]
+          }
+        },
+        "foraren": {
+          "title": {
+            "text": "Guide",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:finnskogen-4"
+            ]
+          },
+          "body": {
+            "text": "A complete guide can be found in the Arvika bouldering guide at the following link: http://27crags.com/crags/finnskogen-4 (http://27crags.com/crags/finnskogen-4)",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:finnskogen-4"
+            ]
+          }
+        }
+      },
+      "routes": {}
+    }
   }
 }

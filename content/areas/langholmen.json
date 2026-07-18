@@ -72,5 +72,74 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "Långholmen is home to the Traverse beneath Västerbron, as well as Houdini, Stockholm’s ultimate classic.\n\nThe easiest way to reach the Traverse is to walk along the western side of Västerbron and take the stairs down when you reach Långholmen.\n\nHoudini is on the western side of Långholmen. It is a large boulder suspended between two crags. There are also several other problems here.\n\nThe small crag Lustberget, near the Houdini boulders, has a couple of other problems, which are described in the guide.",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:langholmen"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "General",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:langholmen"
+            ]
+          },
+          "body": {
+            "text": "Långholmen is home to the Traverse beneath Västerbron, as well as Houdini, one of Stockholm’s greatest classics.\n\nThe easiest way to reach the Traverse is to walk along the western side of Västerbron and take the stairs down when you reach Långholmen.\n\nHoudini is on the western side of Långholmen. It is a large boulder suspended between two rock faces. There are also several other problems here.\n\nThere are a couple of other problems on the small rock face of Lustberget near the Houdini boulders; these are described in the guide.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:langholmen"
+            ]
+          }
+        },
+        "vagbeskrivning": {
+          "title": {
+            "text": "Directions",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:langholmen"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:langholmen"
+            ]
+          }
+        },
+        "problem": {
+          "title": {
+            "text": "Problems",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:langholmen"
+            ]
+          },
+          "body": {
+            "text": "The Houdini boulders\n\nHoudini 7b+/7c – S. Petterson. Start low beneath the roof. Travers 5+ – On the back, furthest from the roof, traverse towards Houdini along two sides. There are also a couple of easier problems.\n\nVästerbron\n\nA 50m-long vertical traverse. Quite polished and tricky, with small holds.\n\nLustberget\n\nHomo 6c – traverse. Hetro 4. Bi 6c.\n\nPlease feel free to add more information.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:langholmen"
+            ]
+          }
+        }
+      },
+      "routes": {}
+    }
   }
 }

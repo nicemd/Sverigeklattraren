@@ -629,5 +629,435 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "=General= Hälleborg is one of the latest additions to Västerås. Park on Rörverksgatan and find the boulders in the adjacent woods. The area is divided into three sectors: Höjden, Träsket and Skogen.\n\n=Directions= (the marker on the map shows the parking; the boulders are in the woods) From Oslo on the E18, take the exit at Bäckbymotet, then follow Bäckbyvägen, parallel to the E18, back westwards. Turn left onto Spikverksgatan, then left again onto Rörverksgatan. Park by the residential parking spaces and find the boulders in the woods above the car park.\n\n=Description= Hälleborg is one of the latest additions to Västerås. There are several easy problems as well as some harder ones. Park on Rörverksgatan in the second car park and find the boulders in the adjacent woods. They are somewhat scattered throughout the woods. The area is divided into three sectors: Höjden, Träsket and Skogen. Some favourite problems are King of Sparta 6b, Eragorn 6c, Aratron 6b, Hoppet i Hälleborg 6c+ and Kapten Nemo 6a.\n\n=Sectors=",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:halleborg"
+        ]
+      },
+      "sections": {
+        "hojden": {
+          "title": {
+            "text": "The Hill",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:halleborg"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:halleborg"
+            ]
+          }
+        },
+        "trasket": {
+          "title": {
+            "text": "The Swamp",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:halleborg"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:halleborg"
+            ]
+          }
+        },
+        "skogen": {
+          "title": {
+            "text": "The Forest",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:halleborg"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:halleborg"
+            ]
+          }
+        }
+      },
+      "routes": {
+        "halleborg-problem-1": {
+          "description": {
+            "text": "The large boulder on top of the hill, with an inviting overhang. The problem at the far left of the large overhang. Sit start on the arete. The back of the boulder is out for the mantle.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:halleborg"
+            ]
+          }
+        },
+        "halleborg-problem-2": {
+          "description": {
+            "text": "Start as for Sparta Warrior, then move right via a crimp and mantle straight up.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:halleborg"
+            ]
+          }
+        },
+        "halleborg-problem-3": {
+          "description": {
+            "text": "Sit start to the right of the large overhang. Start on a sloper and ramp, then make a long move diagonally up right to a crimp.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:halleborg"
+            ]
+          }
+        },
+        "halleborg-problem-4": {
+          "description": {
+            "text": "Sit start to the right of King of Sparta. Pull up to a large jug.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:halleborg"
+            ]
+          }
+        },
+        "halleborg-problem-5": {
+          "description": {
+            "text": "Kid karate, the low boulder to the left of the Sparta boulder. Start on the ledge, move right on good holds and mantle up. Mind your head!",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:halleborg"
+            ]
+          }
+        },
+        "halleborg-problem-6": {
+          "description": {
+            "text": "On the Kid karate boulder, round the corner to the left of Cobra Kai. Sit start on pockets, then straight up.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:halleborg"
+            ]
+          }
+        },
+        "halleborg-problem-7": {
+          "description": {
+            "text": "The boulder 50 m south of the Sparta boulder, down towards the cycle track by the junipers. Start hanging on the left, then traverse around the boulder and finish with a mantle at the obvious hold.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:halleborg"
+            ]
+          }
+        },
+        "halleborg-problem-8": {
+          "description": {
+            "text": "The boulder directly above the far car park. Behind the spruce! 50 m south-west of Herkules traverse. Hanging start, then a campus move followed by edges for the hands.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:halleborg"
+            ]
+          }
+        },
+        "halleborg-problem-9": {
+          "description": {
+            "text": "Sit start to Superman. Establish on the rocks beneath the roof, then use a crimp or pinch to join Superman.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:halleborg"
+            ]
+          }
+        },
+        "halleborg-problem-10": {
+          "description": {
+            "text": "The Grizzly boulder, 10 m south of the Superman boulder towards the car park. Start hanging beneath the boulder in wide compression, using the middle hold.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:halleborg"
+            ]
+          }
+        },
+        "halleborg-problem-11": {
+          "description": {
+            "text": "The Superman boulder. To the right of the aspen, on the eastern end of the boulder. The sit start is tempting...",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:halleborg"
+            ]
+          }
+        },
+        "halleborg-problem-12": {
+          "description": {
+            "text": "The Superman boulder. To the right of the aspen, on the eastern end of the boulder. Sit start with both hands on the large hold, then straight up. A still lower start on the small rock may be possible?",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:halleborg"
+            ]
+          }
+        },
+        "halleborg-problem-13": {
+          "description": {
+            "text": "The Sparta boulder. Sit start to the right of Queen of Sparta.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:halleborg"
+            ]
+          }
+        },
+        "halleborg-problem-14": {
+          "description": {
+            "text": "The Sparta boulder. Sit start just right of Prästkragen. Climb the crack up left.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:halleborg"
+            ]
+          }
+        },
+        "halleborg-problem-15": {
+          "description": {
+            "text": "The Sparta boulder, on its southern side in the short, steep roof. Establish on a pinch and crimp in the left-hand part of the roof, then go straight up via the obvious hold on the lip.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:halleborg"
+            ]
+          }
+        },
+        "halleborg-problem-16": {
+          "description": {
+            "text": "Mantle; the starting holds are difficult to reach for shorter climbers. Start between Cobra Kai and Mr Miyagi.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:halleborg"
+            ]
+          }
+        },
+        "halleborg-problem-17": {
+          "description": {
+            "text": "Start with your left hand on a small sidepull and your right in a thin undercut. Pull straight up without using the arete or the jugs on Cobra Kai.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:halleborg"
+            ]
+          }
+        },
+        "halleborg-problem-18": {
+          "description": {
+            "text": "The large boulder by the marsh. On the short side. Standing start with both hands on the sloping ledge, then straight up. The upper corner is out.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:halleborg"
+            ]
+          }
+        },
+        "halleborg-problem-19": {
+          "description": {
+            "text": "Sit start to Slopigt! Right hand on the obvious ledge and left on a crimp. Climb to the sloper, then straight up without using the obvious ‘corner’ to the left or the arete to the right.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:halleborg"
+            ]
+          }
+        },
+        "halleborg-problem-20": {
+          "description": {
+            "text": "Sit start to the right of Slopigt, at the ‘corner’.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:halleborg"
+            ]
+          }
+        },
+        "halleborg-problem-21": {
+          "description": {
+            "text": "In the middle of the marsh boulder. Start beneath the overhang. Gain the ledge, traverse left, then follow the crack towards the top!",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:halleborg"
+            ]
+          }
+        },
+        "halleborg-problem-22": {
+          "description": {
+            "text": "Start as for Eragon. First gain the large ledge, then make a long move diagonally up left to a small sloping ledge. Continue via the crack, then straight up.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:halleborg"
+            ]
+          }
+        },
+        "halleborg-problem-23": {
+          "description": {
+            "text": "Start as for Eragon, then traverse right and finish in the same crack as Eragon towards the top.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:halleborg"
+            ]
+          }
+        },
+        "halleborg-problem-24": {
+          "description": {
+            "text": "At the marsh, on the small boulder. Sit start at the end facing the marsh. Straight up via crimps and a dyno, without the aretes.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:halleborg"
+            ]
+          }
+        },
+        "halleborg-problem-25": {
+          "description": {
+            "text": "At the marsh, on the small boulder. Sit start at the end facing the marsh (about 1 m right of Hoppet i Hälleborg). Start on crimps and climb via the right-hand pinch.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:halleborg"
+            ]
+          }
+        },
+        "halleborg-problem-26": {
+          "description": {
+            "text": "At the marsh, on the small boulder. Starts left of the tree (which is out), on the side facing away from the marsh. An obvious bulge marks the starting hold.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:halleborg"
+            ]
+          }
+        },
+        "halleborg-problem-27": {
+          "description": {
+            "text": "The marsh boulder. Start on the obvious sloping ledge to the right. Traverse left on sloping holds and finish up Aratron. An interesting problem.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:halleborg"
+            ]
+          }
+        },
+        "halleborg-problem-28": {
+          "description": {
+            "text": "The Gaveln boulder. Gaveln 5C lies 10 m south of the marsh boulder. Start with both hands on the large hold.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:halleborg"
+            ]
+          }
+        },
+        "halleborg-problem-29": {
+          "description": {
+            "text": "Standing start. Mantle up.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:halleborg"
+            ]
+          }
+        },
+        "halleborg-problem-30": {
+          "description": {
+            "text": "South-west of the marsh boulder are two boulders side by side. One of these is the Moskva boulder. Sit start on a well-defined crimp rail, pull for the top and mantle up. The small crimp in the middle is out.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:halleborg"
+            ]
+          }
+        },
+        "halleborg-problem-31": {
+          "description": {
+            "text": "Low, rounded boulder about 25 m south of Bullen. Establish at the low right-hand end of the boulder, then hand-traverse left. Mantle up where the boulder is highest.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:halleborg"
+            ]
+          }
+        },
+        "halleborg-problem-32": {
+          "description": {
+            "text": "The Kristallbågen boulder. Sit start on the left, traverse right and top out where the boulder is highest.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:halleborg"
+            ]
+          }
+        },
+        "halleborg-problem-33": {
+          "description": {
+            "text": "The boulder between Kristallbågen and the marsh boulders. The arete right of the Bullen mantle. Sit start on crimp rails at the obvious arete.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:halleborg"
+            ]
+          }
+        },
+        "halleborg-problem-34": {
+          "description": {
+            "text": "On the skull boulder behind the Kristall boulder. Sit start on slopers, move left on slopers, then up.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:halleborg"
+            ]
+          }
+        },
+        "halleborg-problem-35": {
+          "description": {
+            "text": "On the skull boulder. Sit start with your right hand on a sloper and your left around the edge.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:halleborg"
+            ]
+          }
+        },
+        "halleborg-problem-36": {
+          "description": {
+            "text": "On the skull boulder, left of Pumpa och stöt. Standing start with your left hand on an undercut and your right on a sloper. Straight up on slopers.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:halleborg"
+            ]
+          }
+        }
+      }
+    }
   }
 }
