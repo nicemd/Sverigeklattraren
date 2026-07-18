@@ -37,5 +37,56 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "From Funäsdalen, drive to and past the ski areas in Tänndalen. One kilometre after the last lifts, there is a sign for ‘Naturrastplats’ on the right; park here in a suitable spot. The waterfall is clearly visible from the road; the approach is 100 metres.",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:anderssjofallet"
+        ]
+      },
+      "sections": {
+        "vagbeskrivning": {
+          "title": {
+            "text": "Directions",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:anderssjofallet"
+            ]
+          },
+          "body": {
+            "text": "From Funäsdalen, drive to and past the ski resorts in Tänndalen. One kilometre after the last lifts, there is a sign for \"Naturrastplats\" on the right; park here in a suitable place. The waterfall is clearly visible from the road, with a 100-metre approach.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:anderssjofallet"
+            ]
+          }
+        },
+        "klattringen": {
+          "title": {
+            "text": "The climbing",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:anderssjofallet"
+            ]
+          },
+          "body": {
+            "text": "Very easy climbing, but difficult to rig a top rope without ice screws or a long (20-metre) rope for the rigging. Bear in mind that in summer this is a real waterfall, with a very large volume of water flowing behind the ice.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:anderssjofallet"
+            ]
+          }
+        }
+      },
+      "routes": {}
+    }
   }
 }

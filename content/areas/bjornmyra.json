@@ -160,5 +160,135 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "A low, broad crag with a couple of fun routes and plenty of bouldering potential. Solid, compact rock with a fresh, fairly rough, slightly fiery character and a hint of harshness.",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:bjornmyra"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "Overview",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:bjornmyra"
+            ]
+          },
+          "body": {
+            "text": "A low, broad crag with a couple of enjoyable routes and plenty of bouldering potential. Solid, compact rock with a fresh, fairly rough, slightly fierce character and a somewhat harsh edge.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:bjornmyra"
+            ]
+          }
+        },
+        "vagbeskrivning": {
+          "title": {
+            "text": "Directions",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:bjornmyra"
+            ]
+          },
+          "body": {
+            "text": "From Arvika, take road 175 towards Klässbol/Säffle. At the southern Ingestrand turn-off, head up towards Björnmyra. Signposted from the road? The crag is on the far side of the clear-cut area you pass on your left before crossing the stream. However, this crag has seen very little traffic in recent years, so it is in great need of clearing, both at the base (very overgrown) and on the routes!",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:bjornmyra"
+            ]
+          }
+        },
+        "leder": {
+          "title": {
+            "text": "Routes",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:bjornmyra"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:bjornmyra"
+            ]
+          }
+        }
+      },
+      "routes": {
+        "bjornmyra-led-1": {
+          "description": {
+            "text": "Pass the large roof on the left. A pleasant route for anyone not feeling inspired by the large roof.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:bjornmyra"
+            ]
+          }
+        },
+        "bjornmyra-led-2": {
+          "description": {
+            "text": "Straight over the large roof.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:bjornmyra"
+            ]
+          }
+        },
+        "bjornmyra-led-3": {
+          "description": {
+            "text": "On the arete to the left.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:bjornmyra"
+            ]
+          }
+        },
+        "bjornmyra-led-4": {
+          "description": {
+            "text": "Up the middle of the wall.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:bjornmyra"
+            ]
+          }
+        },
+        "bjornmyra-led-5": {
+          "description": {
+            "text": "Up the right-hand arete. Easy, pleasant climbing.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:bjornmyra"
+            ]
+          }
+        },
+        "bjornmyra-led-6": {
+          "description": {
+            "text": "A short traverse right rounds the small roof. Good natural protection.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:bjornmyra"
+            ]
+          }
+        }
+      }
+    }
   }
 }

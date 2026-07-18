@@ -1319,5 +1319,593 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "A pleasant crag above the lake, with mostly bolted routes but also some trad. Amenable grades. Take a dip after a day’s climbing, either from the jetty below the crag or at the beach at the northern end of the lake. Take your rubbish home!",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:aspen"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "General",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:aspen"
+            ]
+          },
+          "body": {
+            "text": "A pleasant crag above the lake, mostly bolted but with some trad as well. Accessible grades. Take a dip after a day’s climbing, either from the jetty below the crag or at the beach at the northern end of the lake. Take your rubbish with you!",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:aspen"
+            ]
+          }
+        },
+        "karaktar": {
+          "title": {
+            "text": "Character",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:aspen"
+            ]
+          },
+          "body": {
+            "text": "A crag with slightly longer (20-metre) vertical routes and steep slabby routes; most are easier than 7a. Much of the crag is fairly shady. It is very popular, and there are often queues for the best routes. Take your rubbish with you. Be considerate of other climbers. Always use your own karabiners in the lower-off anchors!\n\nMany beginners climb at Fikahyllan.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:aspen"
+            ]
+          }
+        },
+        "vagbeskrivning": {
+          "title": {
+            "text": "Directions",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:aspen"
+            ]
+          },
+          "body": {
+            "text": "Leave the motorway at Hulanmotet and drive alongside the motorway. At the roundabout, turn left towards Aspenäs, then left again. Continue taking a left whenever possible. Follow Goråsvägen. After passing an old barn on each side of the road, a gravel car park appears on the right. Park here!",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:aspen"
+            ]
+          }
+        },
+        "kollektivtrafik": {
+          "title": {
+            "text": "Public transport",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:aspen"
+            ]
+          },
+          "body": {
+            "text": "Take the train to Aspedalen, then book a taxi to the crag.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:aspen"
+            ]
+          }
+        },
+        "access": {
+          "title": {
+            "text": "Access",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:aspen"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:aspen"
+            ]
+          }
+        },
+        "vaggar": {
+          "title": {
+            "text": "Walls",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:aspen"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:aspen"
+            ]
+          }
+        },
+        "nalle-puh": {
+          "title": {
+            "text": "Nalle Puh",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:aspen"
+            ]
+          },
+          "body": {
+            "text": "The wall furthest from the car park. To get here, follow the road until the crag ends, then enter the woods. An approximately 20-metre-high wall with several bolted routes. The best is probably the route sharing the wall’s name, Nalle Puh (5c).",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:aspen"
+            ]
+          }
+        },
+        "columbushyllan": {
+          "title": {
+            "text": "Columbushyllan",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:aspen"
+            ]
+          },
+          "body": {
+            "text": "Located above Nalle Puh. Take care not to kick down stones or drop anything on climbers at Nalle Puh.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:aspen"
+            ]
+          }
+        },
+        "sheriffen": {
+          "title": {
+            "text": "Sheriffen",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:aspen"
+            ]
+          },
+          "body": {
+            "text": "Right of the Nalle Puh area, or directly below Highwayhyllan. Some harder routes, including Sheriffen.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:aspen"
+            ]
+          }
+        },
+        "amaretto": {
+          "title": {
+            "text": "Amaretto",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:aspen"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:aspen"
+            ]
+          }
+        },
+        "highwayhyllan": {
+          "title": {
+            "text": "Highwayhyllan",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:aspen"
+            ]
+          },
+          "body": {
+            "text": "Highwayhyllan is recommended! The easiest approach is to scramble up above Fikahyllan and follow the top of the crag until you see the two lower-off anchors for Highway 66 and Sonic Youth. There are two glue-in bolts at the base of the sport routes. Take care not to kick down stones onto Sheriffen, and remember to shout “Rock!”.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:aspen"
+            ]
+          }
+        },
+        "oversta-hyllan": {
+          "title": {
+            "text": "Översta hyllan",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:aspen"
+            ]
+          },
+          "body": {
+            "text": "Above Fikahyllan. Scramble down, or climb up via one of the routes between Svarta leden and Mr100.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:aspen"
+            ]
+          }
+        },
+        "fikahyllan": {
+          "title": {
+            "text": "Fikahyllan",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:aspen"
+            ]
+          },
+          "body": {
+            "text": "Do not top-rope directly through the rings! Use your own karabiners. From the car park, enter the woods and head uphill, parallel to the road.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:aspen"
+            ]
+          }
+        },
+        "mumindalen": {
+          "title": {
+            "text": "Mumindalen",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:aspen"
+            ]
+          },
+          "body": {
+            "text": "Right of the car park, rather than left where all the other routes are. Five or six bolted routes of average quality, equipped with lower-off anchors. Recommended on hot summer days when Fikahyllan is too warm, or when all the other sectors at Aspen are packed with climbers (which does happen).",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:aspen"
+            ]
+          }
+        }
+      },
+      "routes": {
+        "aspen-led-4": {
+          "description": {
+            "text": "A more frequently climbed route.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:aspen"
+            ]
+          }
+        },
+        "aspen-led-8": {
+          "description": {
+            "text": "Starts as for Nalle Puh, then continues to the anchor right of Nalle Puh's.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:aspen"
+            ]
+          }
+        },
+        "aspen-led-9": {
+          "description": {
+            "text": "Tiger finishes at Nasse's anchor.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:aspen"
+            ]
+          }
+        },
+        "aspen-led-11": {
+          "description": {
+            "text": "The chimney right of Plåtniklas. The bolts are entirely avoidable (same grade, more enjoyable climbing).",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:aspen"
+            ]
+          }
+        },
+        "aspen-led-14": {
+          "description": {
+            "text": "Not entirely unclimbed.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:aspen"
+            ]
+          }
+        },
+        "aspen-led-16": {
+          "description": {
+            "text": "Now bolted? What is its name?",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:aspen"
+            ]
+          }
+        },
+        "aspen-led-28": {
+          "description": {
+            "text": "Tv1 and Tv2 are the inviting cracks left of the overhang (Robin Hood).",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:aspen"
+            ]
+          }
+        },
+        "aspen-led-29": {
+          "description": {
+            "text": "Super Channel is the continuation of Tv1/Tv2.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:aspen"
+            ]
+          }
+        },
+        "aspen-led-30": {
+          "description": {
+            "text": "The very inviting overhang.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:aspen"
+            ]
+          }
+        },
+        "aspen-led-31": {
+          "description": {
+            "text": "Follows the flake.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:aspen"
+            ]
+          }
+        },
+        "aspen-led-32": {
+          "description": {
+            "text": "Starts as for Sheriffen, but goes straight up.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:aspen"
+            ]
+          }
+        },
+        "aspen-led-34": {
+          "description": {
+            "text": "Ends at the ring.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:aspen"
+            ]
+          }
+        },
+        "aspen-led-35": {
+          "description": {
+            "text": "A continuation of Little John; it should be climbed from the ground, not from a hanging belay.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:aspen"
+            ]
+          }
+        },
+        "aspen-led-39": {
+          "description": {
+            "text": "Flakmoppen's finish is called Afrodite; Afrodite continues and becomes Helenas salva.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:aspen"
+            ]
+          }
+        },
+        "aspen-led-40": {
+          "description": {
+            "text": "There are two top-rope anchors left of Mors lilla olle, with individual bolts.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:aspen"
+            ]
+          }
+        },
+        "aspen-led-41": {
+          "description": {
+            "text": "The anchors are quite easy to see from the foot of Fikahyllan.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:aspen"
+            ]
+          }
+        },
+        "aspen-led-42": {
+          "description": {
+            "text": "Climbs to the final bolt.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:aspen"
+            ]
+          }
+        },
+        "aspen-led-43": {
+          "description": {
+            "text": "A continuation of Mors lilla Olle.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:aspen"
+            ]
+          }
+        },
+        "aspen-led-44": {
+          "description": {
+            "text": "The crack directly below Mors lilla Olle's anchor, with an old piton four metres up.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:aspen"
+            ]
+          }
+        },
+        "aspen-led-45": {
+          "description": {
+            "text": "The bolts have now been removed.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:aspen"
+            ]
+          }
+        },
+        "aspen-led-48": {
+          "description": {
+            "text": "Exposed. Highway 66 is the arete with an abseil anchor.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:aspen"
+            ]
+          }
+        },
+        "aspen-led-51": {
+          "description": {
+            "text": "The well-protected crack. An excellent beginner's route!",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:aspen"
+            ]
+          }
+        },
+        "aspen-led-52": {
+          "description": {
+            "text": "Starts in the corner and follows the crack. Some loose holds and plenty of dirt. Dirty finish. The route gets no stars.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:aspen"
+            ]
+          }
+        },
+        "aspen-led-59": {
+          "description": {
+            "text": "The offwidth crack starting as for Carl Gustavs HP, but going straight up.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:aspen"
+            ]
+          }
+        },
+        "aspen-led-60": {
+          "description": {
+            "text": "A fine route.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:aspen"
+            ]
+          }
+        },
+        "aspen-led-62": {
+          "description": {
+            "text": "Easy to rig a top rope if you have a static rope. A fine, beginner-friendly route.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:aspen"
+            ]
+          }
+        },
+        "aspen-led-63": {
+          "description": {
+            "text": "A very fine beginner's route.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:aspen"
+            ]
+          }
+        },
+        "aspen-led-64": {
+          "description": {
+            "text": "A sport route, regardless of what the guidebook says. Very fine!",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:aspen"
+            ]
+          }
+        },
+        "aspen-led-65": {
+          "description": {
+            "text": "A top-rope route that goes straight up to the anchor.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:aspen"
+            ]
+          }
+        },
+        "aspen-led-66": {
+          "description": {
+            "text": "Not recommended.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:aspen"
+            ]
+          }
+        },
+        "aspen-led-67": {
+          "description": {
+            "text": "The corner four metres right of Caffé Latte.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:aspen"
+            ]
+          }
+        },
+        "aspen-led-68": {
+          "description": {
+            "text": "Abseil anchor on a small wall left of Mumindalen.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:aspen"
+            ]
+          }
+        }
+      }
+    }
   }
 }

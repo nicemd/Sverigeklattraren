@@ -234,5 +234,147 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "Own boat required!",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:blackhall"
+        ]
+      },
+      "sections": {
+        "vagbeskrivning": {
+          "title": {
+            "text": "Directions",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:blackhall"
+            ]
+          },
+          "body": {
+            "text": "Own boat required!",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:blackhall"
+            ]
+          }
+        },
+        "leder": {
+          "title": {
+            "text": "Routes",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:blackhall"
+            ]
+          },
+          "body": {
+            "text": "The start of each route is marked with a black dot.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:blackhall"
+            ]
+          }
+        }
+      },
+      "routes": {
+        "blackhall-led-1": {
+          "description": {
+            "text": "Starts left of the roof formation. Hand-traverse out beneath the roof and follow the arete upwards. Then trend right until it joins Hopptornet.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:blackhall"
+            ]
+          }
+        },
+        "blackhall-led-2": {
+          "description": {
+            "text": "Starts right of the roof formation. Trend diagonally up left, keeping right at the top. A backflip from the top-out is compulsory. All according to the first ascensionist.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:blackhall"
+            ]
+          }
+        },
+        "blackhall-led-3": {
+          "description": {
+            "text": "Starts two metres right of Hopptornet, then goes straight up to the top.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:blackhall"
+            ]
+          }
+        },
+        "blackhall-led-4": {
+          "description": {
+            "text": "Starts right of Paddla på. Crux at the top.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:blackhall"
+            ]
+          }
+        },
+        "blackhall-led-5": {
+          "description": {
+            "text": "Starts on the mono. Sustained to the top.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:blackhall"
+            ]
+          }
+        },
+        "blackhall-led-6": {
+          "description": {
+            "text": "Starts 5 m right of GPS. Straight up to the large ledge.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:blackhall"
+            ]
+          }
+        },
+        "blackhall-led-7": {
+          "description": {
+            "text": "Starts at the left edge of an old grey-painted area. Follow the slopey ramp diagonally up right for about 5 m, then go straight up through the small roof.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:blackhall"
+            ]
+          }
+        },
+        "blackhall-led-8": {
+          "description": {
+            "text": "Starts on the large hold right of 43 Knop. Technical climbing up to the crystal band, then follow it straight up towards the top.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:blackhall"
+            ]
+          }
+        },
+        "blackhall-led-9": {
+          "description": {
+            "text": "Starts on the mono by ‘58’. Climb straight up to the small ledge, then diagonally up left to the large ramp. Follow the ramp to the top.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:blackhall"
+            ]
+          }
+        }
+      }
+    }
   }
 }

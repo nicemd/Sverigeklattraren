@@ -166,5 +166,77 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "title=Brommaplansobelisken lat=17935781 long=59333583",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:brommaplan"
+        ]
+      },
+      "sections": {
+        "vagbeskrivning": {
+          "title": {
+            "text": "Directions",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:brommaplan"
+            ]
+          },
+          "body": {
+            "text": "title=Brommaplansobelisken lat= 17935781 long=59333583",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:brommaplan"
+            ]
+          }
+        },
+        "leder": {
+          "title": {
+            "text": "Routes",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:brommaplan"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:brommaplan"
+            ]
+          }
+        }
+      },
+      "routes": {
+        "brommaplan-led-2": {
+          "description": {
+            "text": "Missing hangers.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:brommaplan"
+            ]
+          }
+        },
+        "brommaplan-led-3": {
+          "description": {
+            "text": "Missing hangers.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:brommaplan"
+            ]
+          }
+        }
+      }
+    }
   }
 }

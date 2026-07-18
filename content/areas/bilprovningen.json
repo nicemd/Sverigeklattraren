@@ -247,5 +247,175 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "A small but fiercely overhanging crag in a distinctly urban setting in Karlshamn’s industrial estate. Only a handful of routes have been established, but Gelin Karelin is regarded as one of the classic hard routes in the Skåne/Blekinge region. The approach is very short – you can practically belay through the car’s sunroof! All sport routes have anchors.",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:bilprovningen"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "General",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:bilprovningen"
+            ]
+          },
+          "body": {
+            "text": "A small but fiercely overhanging crag in a decidedly urban setting in Karlshamn’s industrial estate. Only a handful of routes have been established, but Gelin Karelin is considered one of the great hard classics of the Skåne/Blekinge region. The approach is extremely short – you can practically belay through the car’s sunroof! All sport routes have anchors.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:bilprovningen"
+            ]
+          }
+        },
+        "hitta-hit": {
+          "title": {
+            "text": "Getting there",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:bilprovningen"
+            ]
+          },
+          "body": {
+            "text": "From the west: Take the E22 towards Kalmar. Leave the E22 at Karlshamn västra (exit 51). Turn right at the end of the slip road. Head south on road 29 for about 1.7 km, then turn left at the next roundabout onto Vekerumsvägen. Continue for 800 metres, then turn left onto Gröna vägen. Continue for another 60 metres. You can’t miss it! It is also signposted to Bilprovningen, though not all the way from the E22.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:bilprovningen"
+            ]
+          }
+        },
+        "lederna": {
+          "title": {
+            "text": "Routes",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:bilprovningen"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:bilprovningen"
+            ]
+          }
+        }
+      },
+      "routes": {
+        "bilprovningen-led-1": {
+          "description": {
+            "text": "A steep, bouldery start followed by an easier crack. Reasonably well protected, but beware the ledge. Quite short. Finishes at the pine tree in the main photo. Previously a steep A1+ aid line, Ola Modéer -08.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:bilprovningen"
+            ]
+          }
+        },
+        "bilprovningen-led-2": {
+          "description": {
+            "text": "Good, steep aid climbing, finishing with a thin copperhead seam on a slab. There is a rivet where the seam disappears completely.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:bilprovningen"
+            ]
+          }
+        },
+        "bilprovningen-led-3": {
+          "description": {
+            "text": "Superb, very steep sport climbing along the overhanging crack. A must for the dedicated southern Swedish sport climber! Anchor. Established by Mark Jansson in the early 90s, but Patrik Gelin made the first successful ascent. Can also be climbed on trad gear...",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:bilprovningen"
+            ]
+          }
+        },
+        "bilprovningen-led-4": {
+          "description": {
+            "text": "A solid central line, considered very good. Anchor.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:bilprovningen"
+            ]
+          }
+        },
+        "bilprovningen-led-5": {
+          "description": {
+            "text": "A variant if you have nothing better to do – climb the first half of Japp, then move into Gelin Karelin.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:bilprovningen"
+            ]
+          }
+        },
+        "bilprovningen-led-6": {
+          "description": {
+            "text": "The hardest route in Skåne/Blekinge! The line tackles the crag's most compact face, offering very little respite. Anchor.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:bilprovningen"
+            ]
+          }
+        },
+        "bilprovningen-led-7": {
+          "description": {
+            "text": "A good line that is trickier than it looks. Anchor.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:bilprovningen"
+            ]
+          }
+        },
+        "bilprovningen-led-8": {
+          "description": {
+            "text": "Start up the first two bolts of Dubbelt upp, then head diagonally left and up.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:bilprovningen"
+            ]
+          }
+        },
+        "bilprovningen-led-9": {
+          "description": {
+            "text": "Short line well to the right. Anchor.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:bilprovningen"
+            ]
+          }
+        },
+        "bilprovningen-led-10": {
+          "description": {
+            "text": "Short line at the far right. Anchor.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:bilprovningen"
+            ]
+          }
+        }
+      }
+    }
   }
 }

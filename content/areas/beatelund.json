@@ -622,5 +622,305 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "The crag is on southern Farstalandet, immediately west of Beatelunds gård. It is a fairly large crag with several different sections, some of which drop straight into Kolström, the very narrow strait between Farstalandet and Ingarö. The crag has been fairly thoroughly explored, though there is still potential for more routes.",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:beatelund"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "General",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:beatelund"
+            ]
+          },
+          "body": {
+            "text": "The crag lies on southern Farstalandet, just west of Beatelund farm. It is a fairly large crag with several different sections, some dropping straight into Kolström, the very narrow strait between Farstalandet and Ingarö. The crag has been fairly thoroughly explored, though there is still potential for more routes.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:beatelund"
+            ]
+          }
+        },
+        "extern-forare": {
+          "title": {
+            "text": "External guide",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:beatelund"
+            ]
+          },
+          "body": {
+            "text": "A guide with a topo is available on Stockholms Nätförare (http://www.plonk.se/oldsite/beatelund.html)",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:beatelund"
+            ]
+          }
+        },
+        "vagbeskrivning": {
+          "title": {
+            "text": "Directions",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:beatelund"
+            ]
+          },
+          "body": {
+            "text": "Drive towards Ingarö and turn towards Beatelund before the bridge. After 1.4 km, pass an impressive gate on the left. After another 400 m, the road bends sharply right. Park here. Walk into the woods and head towards the highest point. The red wall lies directly below, with Cabragg on the right.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:beatelund"
+            ]
+          }
+        },
+        "leder": {
+          "title": {
+            "text": "Routes",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:beatelund"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:beatelund"
+            ]
+          }
+        },
+        "sidovaggen": {
+          "title": {
+            "text": "Side Wall",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:beatelund"
+            ]
+          },
+          "body": {
+            "text": "The starts of Kladdragg, Cabragg and Sponken are on a fairly exposed ledge. Bring something (typically a cam) to anchor the belayer and avoid a tandem fall before the first bolt is clipped.\n\nThese routes and Borsten Torsten share a two-bolt top anchor that should be replaced or altered. The hangers sit a couple of centimetres proud of the rock, with around ten washers between them and the rock. Perhaps more seriously, the ring hanger in use is not connected to the other bolt. Instead, the chain has been attached to the expansion stud beneath it (meaning that if anything happens to it, the backup also fails...).",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:beatelund"
+            ]
+          }
+        },
+        "overhangande-vaggen": {
+          "title": {
+            "text": "Overhanging Wall",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:beatelund"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:beatelund"
+            ]
+          }
+        },
+        "svavaggen": {
+          "title": {
+            "text": "Slab Wall",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:beatelund"
+            ]
+          },
+          "body": {
+            "text": "2011-10-04. The loose nut in the anchor that was reported has now been fixed.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:beatelund"
+            ]
+          }
+        },
+        "ornnastet": {
+          "title": {
+            "text": "Eagle’s Nest",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:beatelund"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:beatelund"
+            ]
+          }
+        }
+      },
+      "routes": {
+        "beatelund-led-1": {
+          "description": {
+            "text": "More like 6b.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:beatelund"
+            ]
+          }
+        },
+        "beatelund-led-7": {
+          "description": {
+            "text": "Right of FTW.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:beatelund"
+            ]
+          }
+        },
+        "beatelund-led-10": {
+          "description": {
+            "text": "Loads of more or less loose holds and footholds! If you cannot resist climbing the route, the belayer should wear a helmet!!",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:beatelund"
+            ]
+          }
+        },
+        "beatelund-led-11": {
+          "description": {
+            "text": "Follows the arete left of \"Den maskerade..\".",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:beatelund"
+            ]
+          }
+        },
+        "beatelund-led-14": {
+          "description": {
+            "text": "Short, with a distinct crux.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:beatelund"
+            ]
+          }
+        },
+        "beatelund-led-15": {
+          "description": {
+            "text": "Powerful and overhanging.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:beatelund"
+            ]
+          }
+        },
+        "beatelund-led-16": {
+          "description": {
+            "text": "Steep.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:beatelund"
+            ]
+          }
+        },
+        "beatelund-led-18": {
+          "description": {
+            "text": "Difficult start with a poorly positioned bolt.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:beatelund"
+            ]
+          }
+        },
+        "beatelund-led-20": {
+          "description": {
+            "text": "Alternative start to Bamsiga baguetter.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:beatelund"
+            ]
+          }
+        },
+        "beatelund-led-21": {
+          "description": {
+            "text": "Superb climbing and surprisingly well protected, with a couple of small cams at the start.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:beatelund"
+            ]
+          }
+        },
+        "beatelund-led-24": {
+          "description": {
+            "text": "Finish via Dubbla militärkallingar.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:beatelund"
+            ]
+          }
+        },
+        "beatelund-led-27": {
+          "description": {
+            "text": "Scary protection behind flakes, none of it reliable. Worth doing on top-rope, though.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:beatelund"
+            ]
+          }
+        },
+        "beatelund-led-28": {
+          "description": {
+            "text": "As the whole wall is climbable, you can effectively do two pleasant parallel lines. The protection is mediocre where the wall ends, but if the rope is long enough you can continue for around twenty metres to some pine trees.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:beatelund"
+            ]
+          }
+        },
+        "beatelund-led-29": {
+          "description": {
+            "text": "Long.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:beatelund"
+            ]
+          }
+        }
+      }
+    }
   }
 }

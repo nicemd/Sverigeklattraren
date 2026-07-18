@@ -76,5 +76,59 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "=Sectors=",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:bjorke"
+        ]
+      },
+      "sections": {
+        "blabarsstenarna": {
+          "title": {
+            "text": "Blåbärsstenarna",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:bjorke"
+            ]
+          },
+          "body": {
+            "text": "To reach Blåbärsstenarna, take the same road as for Eskön. After turning off the old E4 towards Eskön, turn right onto a gravel road on a left-hand bend a few hundred metres from the ‘main’ road. Follow the gravel road until it forks, then take the left fork. After a couple of hundred metres, turn right onto a smaller forest road. Continue for another couple of hundred metres and the boulders will be on your left.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:bjorke"
+            ]
+          }
+        }
+      },
+      "routes": {
+        "bjorke-problem-1": {
+          "description": {
+            "text": "At the Blåbärsstenarna boulders. On the boulder nearest the road: standing on the road facing the boulder, it is the right-hand arete.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:bjorke"
+            ]
+          }
+        },
+        "bjorke-problem-2": {
+          "description": {
+            "text": "At the green arrow.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:bjorke"
+            ]
+          }
+        }
+      }
+    }
   }
 }

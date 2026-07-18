@@ -79,5 +79,110 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "=Brunnberget= (also Ramelsberget on the map) A crag visible from Route 40 through Ulricehamn. Said to have some fine trad, around 20 m high. The longest route is 30 m. 2010-04-21: NOTE!!! Sensitive nesting site; climbing prohibited up to and including 15/7. Disturbance has been observed and the area is being monitored. /Johan Svensson, access officer for Bohusläns KK. Unfortunately, the crag is often wet, but the climbing is fun, with good holds on the highly featured gneiss. Try fucking hard 8+9-, perhaps the hardest route east of Gothenburg. Add more if you know the area! Is this map correct?",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:brunn"
+        ]
+      },
+      "sections": {
+        "leder-i-pa-brunnberget": {
+          "title": {
+            "text": "Routes at Brunnberget",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:brunn"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:brunn"
+            ]
+          }
+        },
+        "ost-vaggen": {
+          "title": {
+            "text": "East Wall",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:brunn"
+            ]
+          },
+          "body": {
+            "text": "Route 1, grade 6+. FA Martin Svensson\n\nRoute 2, grade 7+, mixed, anchor. FA Martin Svensson\n\nRoute 3, grade 8, bolt. FA Martin Svensson\n\nRoute 4, grade 5+, trad. FA unknown",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:brunn"
+            ]
+          }
+        },
+        "nordvast-vaggen": {
+          "title": {
+            "text": "North-west Wall",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:brunn"
+            ]
+          },
+          "body": {
+            "text": "Route 5: obvious corner formation leading to the roof, grade 5, trad. FA Martin Svensson.\n\nRoute 6: 1 bolt. Starts in the overhang and leads to a large corner, grade 5. Winter grade M5+. FA Martin Svensson/Marcus Santana.\n\nRoute 7: starts in the middle of the large arch, 2 bolts, mixed. Continue straight up to the large ledge above the roof, grade 6+. Winter grade M7+. FA Martin Svensson\n\nRoute 8: the classic, 3 bolts. Belay in the alcove above the roof among crack formations, grade 5+. FA Martin Svensson.\n\nRoute 9: The Sheild, grade 7, 2 bolts, mixed, anchor. FA Martin Svensson\n\nRoute 10: Röen, 6-, trad. FA unknown. Winter variant, ground-up FA, M5. FA Martin Svensson.\n\nRoute 11: Slabben, grade 6, bolt, anchor. FA Martin Svensson\n\nRoute 12: Diedret, trad. FA unknown\n\nRoute 13: Layback sprickan, grade 4, trad. FA unknown",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:brunn"
+            ]
+          }
+        },
+        "nedre-nordvast-vaggen": {
+          "title": {
+            "text": "Lower North-west Wall",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:brunn"
+            ]
+          },
+          "body": {
+            "text": "Route 14: Killern, bolt, 7-, anchor. Winter ascent M7. FA Martin Svensson/Marcus Santana\n\nRoute 15: grade 7-, bolt, anchor. FA Martin Svensson/Marcus Santana\n\nRoute 16: grade 4+, bolt. FA Martin Svensson\n\nRoute 17: Finger sprickan, grade 6. FA Martin Svensson",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:brunn"
+            ]
+          }
+        },
+        "glantan-nv-vaggen": {
+          "title": {
+            "text": "Gläntan NW Wall",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:brunn"
+            ]
+          },
+          "body": {
+            "text": "Route 18: Fucking hard, bolt, blade peg, grade 8-/9-. Martin Svensson\n\nRoute 19: Finger sprickan, grade 6. FA Martin Svensson.\n\nFor more information, contact [martin@mwsguide.com]\n\nMartin Svensson\n\nMountain guide, 7 Route Village, Argentière, France",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:brunn"
+            ]
+          }
+        }
+      },
+      "routes": {}
+    }
   }
 }

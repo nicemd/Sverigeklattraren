@@ -43,5 +43,38 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "Bastustainen is near Hägdarve. At Rone church, turn towards Burs. After approx. 1.5 km, turn right towards Gerete. After approx. 1 km, just before the first house on the right, a small road/path leads to the boulder.",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:bastustain"
+        ]
+      },
+      "sections": {
+        "vagbeskrivning": {
+          "title": {
+            "text": "Directions",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:bastustain"
+            ]
+          },
+          "body": {
+            "text": "Bastustainen is near Hägdarve. At Rone Church, turn towards Burs. After about 1.5 km, turn right towards Gerete. After about 1 km, just before the first house on the right, a small track/path leads in to the boulder.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:bastustain"
+            ]
+          }
+        }
+      },
+      "routes": {}
+    }
   }
 }

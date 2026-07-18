@@ -320,5 +320,229 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "Two small walls with short, intense problems, plus a highball wall. Short approaches and close to the Tube, so definitely worth a visit. Be prepared for a few spectators at Parkeringsväggen.",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:bjorkhagen"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "General",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:bjorkhagen"
+            ]
+          },
+          "body": {
+            "text": "Two small walls with short, intense problems, plus a highball wall. Short approaches and close to the metro, so definitely worth a visit. Expect some spectators at Parkeringsväggen.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:bjorkhagen"
+            ]
+          }
+        },
+        "vagbeskrivning": {
+          "title": {
+            "text": "Directions",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:bjorkhagen"
+            ]
+          },
+          "body": {
+            "text": "From the city centre or the E4, take the exit leading up to the large roundabout above Nynäsvägen and turn left at the roundabout. You should now be on Sofielundsvägen. Turn left onto Garagevägen, then almost immediately right onto Paternostervägen. Follow this road as it becomes Ulricehamnsvägen. Take the next right onto Malmövägen and follow it until you see a church on the left. Turn left just after the church and park. Free parking for 4 hours.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:bjorkhagen"
+            ]
+          }
+        },
+        "fritidsvaggen": {
+          "title": {
+            "text": "Fritidsväggen",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:bjorkhagen"
+            ]
+          },
+          "body": {
+            "text": "A larger crag with a few highballs and boulder problems, as well as some brutally hard projects for those so inclined. Walk past the block of flats on the left; the crag is on the left, opposite the recreation centre. Expect a few comments from curious children.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:bjorkhagen"
+            ]
+          }
+        },
+        "parkeringsvaggen": {
+          "title": {
+            "text": "Parkeringsväggen",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:bjorkhagen"
+            ]
+          },
+          "body": {
+            "text": "From the car park, with the nursery on your left and the large block of flats on your right, walk straight ahead onto the path. Follow it uphill for a short distance and look left; you will see a small wall a little way into the woods. The crag has been brushed, even if it does not look like it in the photo.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:bjorkhagen"
+            ]
+          }
+        },
+        "traskvaggen": {
+          "title": {
+            "text": "Träskväggen",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:bjorkhagen"
+            ]
+          },
+          "body": {
+            "text": "Take the footpath that passes the nursery, the single-storey building that looks a little like a prefab hut. This brings you to a grass field. Continue straight ahead, cross the football pitch, and take the small path into the woods just to the left of the main floodlit trail. The crag is on the left after a few metres.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:bjorkhagen"
+            ]
+          }
+        },
+        "traskvaggen-2": {
+          "title": {
+            "text": "Träskväggen 2",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:bjorkhagen"
+            ]
+          },
+          "body": {
+            "text": "The slightly higher wall, about 10 m to the right of Tott.\n\nThree problems",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:bjorkhagen"
+            ]
+          }
+        }
+      },
+      "routes": {
+        "bjorkhagen-led-1": {
+          "description": {
+            "text": "A highball with a crux halfway up and an exciting finish.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:bjorkhagen"
+            ]
+          }
+        },
+        "bjorkhagen-led-2": {
+          "description": {
+            "text": "A tricky start followed by some really cool finger pockets.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:bjorkhagen"
+            ]
+          }
+        },
+        "bjorkhagen-led-3": {
+          "description": {
+            "text": "The same sit start as Stirra. Follow the arete for a short way, then go straight up.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:bjorkhagen"
+            ]
+          }
+        },
+        "bjorkhagen-led-4": {
+          "description": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:bjorkhagen"
+            ]
+          }
+        },
+        "bjorkhagen-led-5": {
+          "description": {
+            "text": "A variation on problem no. 3, using the good hold on the left. The dashed line in the photo.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:bjorkhagen"
+            ]
+          }
+        },
+        "bjorkhagen-led-6": {
+          "description": {
+            "text": "Straight up.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:bjorkhagen"
+            ]
+          }
+        },
+        "bjorkhagen-led-7": {
+          "description": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:bjorkhagen"
+            ]
+          }
+        },
+        "bjorkhagen-led-8": {
+          "description": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:bjorkhagen"
+            ]
+          }
+        },
+        "bjorkhagen-led-9": {
+          "description": {
+            "text": "The same start as the previous problem. Follow the sloping edge, then finish up Tott.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:bjorkhagen"
+            ]
+          }
+        },
+        "bjorkhagen-led-10": {
+          "description": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:bjorkhagen"
+            ]
+          }
+        }
+      }
+    }
   }
 }

@@ -481,5 +481,211 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "Billingehus lies directly above Skövde, home to Billingens Klätterklubb.",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:billingehus"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "General information",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:billingehus"
+            ]
+          },
+          "body": {
+            "text": "Billingehus lies directly above Skövde and is home to Billingens Klätterklubb.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:billingehus"
+            ]
+          }
+        },
+        "vagbeskrivning": {
+          "title": {
+            "text": "Directions",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:billingehus"
+            ]
+          },
+          "body": {
+            "text": "Map here\n\nFollow the road uphill to the car park outside Billingenbadet.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:billingehus"
+            ]
+          }
+        },
+        "access": {
+          "title": {
+            "text": "Access",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:billingehus"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:billingehus"
+            ]
+          }
+        },
+        "gamla-liften": {
+          "title": {
+            "text": "Gamla liften",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:billingehus"
+            ]
+          },
+          "body": {
+            "text": "Gamla liften is the part of the crag outside the nature reserve, south of the narrows, and is described in the guidebook. It begins at the ski slope and extends north towards the narrows. Quite a few routes have been established, with scope for many more.\n\nThe easiest approaches are either from below—park in the ski slope car park and walk up beneath the small lift. Enter the woods where the \"Snowparken\" begins and continue straight up towards the crag.\n\nFrom above, park by the bandy pitch. Walk behind the hotel and descend between the ski slope and the chapel. Take care not to walk in front of the chapel’s panoramic windows!!\n\nTwo fixed ropes have been installed for ascent and descent and are easiest to locate from below. One is between routes 5 and 9, and the other between routes 35 and 41.\n\nThe first section begins immediately beside the ski slope.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:billingehus"
+            ]
+          }
+        },
+        "extern-forare": {
+          "title": {
+            "text": "External guidebook",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:billingehus"
+            ]
+          },
+          "body": {
+            "text": "Guidebook from Billingens Klätterklubb (http://www4.idrottonline.se/ImageVaultFiles/id_245724/cf_72266/forareversion1.pdf)",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:billingehus"
+            ]
+          }
+        }
+      },
+      "routes": {
+        "billingehus-led-2": {
+          "description": {
+            "text": "Well-protected route.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:billingehus"
+            ]
+          }
+        },
+        "billingehus-led-4": {
+          "description": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:billingehus"
+            ]
+          }
+        },
+        "billingehus-led-5": {
+          "description": {
+            "text": "One bolt at the start; the exposed finish adds just the right amount of excitement.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:billingehus"
+            ]
+          }
+        },
+        "billingehus-led-6": {
+          "description": {
+            "text": "Follow the crack, then climb through the roof.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:billingehus"
+            ]
+          }
+        },
+        "billingehus-led-7": {
+          "description": {
+            "text": "Good protection. Bolted anchor.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:billingehus"
+            ]
+          }
+        },
+        "billingehus-led-8": {
+          "description": {
+            "text": "One bolt near the start. Bolted anchor.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:billingehus"
+            ]
+          }
+        },
+        "billingehus-led-9": {
+          "description": {
+            "text": "Gets progressively harder, with the crux at the finish. Good protection. Bolted anchor.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:billingehus"
+            ]
+          }
+        },
+        "billingehus-led-11": {
+          "description": {
+            "text": "Well protected. Bolted anchor.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:billingehus"
+            ]
+          }
+        },
+        "billingehus-led-15": {
+          "description": {
+            "text": "Bolted anchor on the front face of the crag.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:billingehus"
+            ]
+          }
+        },
+        "billingehus-led-17": {
+          "description": {
+            "text": "Bolts 3 and 4 are shared by both routes.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:billingehus"
+            ]
+          }
+        }
+      }
+    }
   }
 }

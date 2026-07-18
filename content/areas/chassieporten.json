@@ -133,5 +133,105 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "A small section of crag with fantastic rock quality, though everything else detracts from the overall impression. It has now been cleared a little more, leaving the crag more exposed without the trees visible on the left in the photo!",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:chassieporten"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "General",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:chassieporten"
+            ]
+          },
+          "body": {
+            "text": "A small section of crag with fantastic rock quality; everything else detracts from the overall impression. It has now been cleared a little more, leaving the crag more exposed without the trees visible on the left of the photo.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:chassieporten"
+            ]
+          }
+        },
+        "vagbeskrivning": {
+          "title": {
+            "text": "Directions",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:chassieporten"
+            ]
+          },
+          "body": {
+            "text": "Järnagatan/Nyköpingsvägen, outside Scania’s chassis workshop—actually on the opposite side of Scania from Chassieporten itself.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:chassieporten"
+            ]
+          }
+        },
+        "leder": {
+          "title": {
+            "text": "Routes",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:chassieporten"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:chassieporten"
+            ]
+          }
+        }
+      },
+      "routes": {
+        "chassieporten-led-1": {
+          "description": {
+            "text": "Solo.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:chassieporten"
+            ]
+          }
+        },
+        "chassieporten-led-2": {
+          "description": {
+            "text": "Up you get!",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:chassieporten"
+            ]
+          }
+        },
+        "chassieporten-led-4": {
+          "description": {
+            "text": "Cracked and low-angled after the bolt. Take a set of nuts or small cams if you want protection above the bolt. Shares the final bolt with \"Se upp!\".",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:chassieporten"
+            ]
+          }
+        }
+      }
+    }
   }
 }

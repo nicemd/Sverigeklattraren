@@ -252,5 +252,123 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "A crag on Lidingö, opposite Värtahamnen. It is low (6–7 m), but the routes are sustained and entertaining. The crag has a number of short, slightly overhanging problems. All routes are bolt-protected. Some of the bolts have been painted in an attempt to blend them into the colour of the rock. Watch out for pine needles on the top-outs by the large pine; it may be worth brushing these before climbing.",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:baggeby"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "General",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:baggeby"
+            ]
+          },
+          "body": {
+            "text": "A crag on Lidingö opposite Värtahamnen. It is low (6–7 m), but the routes are sustained and enjoyable. The crag has several short, slightly overhanging problems. All routes are protected by bolts. Some of the bolts have been painted in an attempt to blend them into the colour of the rock. Watch out for pine needles at the top-outs by the large pine tree; it may be worth brushing these top-outs before climbing them.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:baggeby"
+            ]
+          }
+        },
+        "miljo": {
+          "title": {
+            "text": "Aspect and setting",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:baggeby"
+            ]
+          },
+          "body": {
+            "text": "South-west facing and relatively open.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:baggeby"
+            ]
+          }
+        },
+        "vagbeskrivning": {
+          "title": {
+            "text": "Directions",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:baggeby"
+            ]
+          },
+          "body": {
+            "text": "Go to the Baggeby residential area (see map). Find Farkostvägen 8. Opposite this block of flats, a clear gravel path leads down towards the water. Follow it as it bends right for about 3 minutes. The crag is on the right-hand side, on a small slope.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:baggeby"
+            ]
+          }
+        },
+        "leder": {
+          "title": {
+            "text": "Routes",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:baggeby"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:baggeby"
+            ]
+          }
+        }
+      },
+      "routes": {
+        "baggeby-led-6": {
+          "description": {
+            "text": "Start up Klifingertango, then head right at the second bolt.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:baggeby"
+            ]
+          }
+        },
+        "baggeby-led-7": {
+          "description": {
+            "text": "Start up Klifingertango, then head right at the first bolt.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:baggeby"
+            ]
+          }
+        },
+        "baggeby-led-11": {
+          "description": {
+            "text": "Without the rock.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:baggeby"
+            ]
+          }
+        }
+      }
+    }
   }
 }

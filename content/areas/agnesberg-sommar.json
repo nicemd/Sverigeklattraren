@@ -289,5 +289,110 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "Agnesberg is best known for ice climbing beside Route 45. On the other side of Ramnebacken, however, there is also summer climbing. The routes were mostly climbed in the 1980s and nowadays are visited only by curious local climbers wondering what the crag has to offer.",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:agnesberg-sommar"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "Overview",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:agnesberg-sommar"
+            ]
+          },
+          "body": {
+            "text": "Agnesberg is most often associated with ice climbing beside Route 45. However, summer climbing can be found on the other side of Ramnebacken. The routes were climbed mainly in the 1980s and today are visited only by curious local climbers wondering what is on offer.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:agnesberg-sommar"
+            ]
+          }
+        },
+        "nar-klippan-passar": {
+          "title": {
+            "text": "When to visit",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:agnesberg-sommar"
+            ]
+          },
+          "body": {
+            "text": "The crag may be an option if you live very nearby, your car breaks down and all the trams have stopped running, while the weather still permits climbing.......",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:agnesberg-sommar"
+            ]
+          }
+        },
+        "vagbeskrivning": {
+          "title": {
+            "text": "Directions",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:agnesberg-sommar"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:agnesberg-sommar"
+            ]
+          }
+        },
+        "miljo": {
+          "title": {
+            "text": "Environment",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:agnesberg-sommar"
+            ]
+          },
+          "body": {
+            "text": "It is reportedly quite overgrown in front of the routes..",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:agnesberg-sommar"
+            ]
+          }
+        },
+        "leder": {
+          "title": {
+            "text": "Routes",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:agnesberg-sommar"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:agnesberg-sommar"
+            ]
+          }
+        }
+      },
+      "routes": {}
+    }
   }
 }

@@ -70,5 +70,110 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "The crag lies within the Huskvarnabergen Nature Reserve, which forms part of the Östra Vätterstranden area of national interest. It covers a 3.5-kilometre stretch of the fault escarpment overlooking Vättern and the plateau to the east, whose highest parts rise to over 300 metres above sea level. The rock consists of lime-rich greenstones (diorite and gabbro) that weather easily, resulting in many good cracks. In places, however, the rock is quite smooth, offering little friction.",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:brunnstorp"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "General",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:brunnstorp"
+            ]
+          },
+          "body": {
+            "text": "The crag lies in the Huskvarnabergen Nature Reserve, which forms part of the Östra Vätterstranden area of national interest. It occupies a 3.5-kilometre stretch of the fault scarp overlooking Vättern and the plateau to the east, whose highest parts are over 300 metres above sea level. The rock consists of calcium-rich greenstones (diorite and gabbro) that weather easily, resulting in many fine cracks. In places, however, the rock is fairly smooth, providing little friction.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:brunnstorp"
+            ]
+          }
+        },
+        "vagbeskrivning": {
+          "title": {
+            "text": "Directions",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:brunnstorp"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:brunnstorp"
+            ]
+          }
+        },
+        "access": {
+          "title": {
+            "text": "Access",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:brunnstorp"
+            ]
+          },
+          "body": {
+            "text": "The right of public access does not apply in full within the Huskvarnabergen Nature Reserve. Among other things, you may not camp; pick liverleaf, yellow anemone, lily of the valley, globeflower or cowslip; dig up shrubs, herbs or ferns; or remove mosses, lichens or tree-growing fungi. Dogs and other pets must not be allowed to roam freely. Fires may only be lit in specially designated places. Signs, notices, inscriptions, orienteering controls, posters or similar installations must not be permanently erected. No bolting is permitted.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:brunnstorp"
+            ]
+          }
+        },
+        "leder": {
+          "title": {
+            "text": "Routes",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:brunnstorp"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:brunnstorp"
+            ]
+          }
+        },
+        "ovrigt": {
+          "title": {
+            "text": "Other",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:brunnstorp"
+            ]
+          },
+          "body": {
+            "text": "Brunnstoprs café can be a good place to start or finish a visit. It is open until 23.00 on most days from June to August. During May and September, it is open at weekends when the weather is fine.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:brunnstorp"
+            ]
+          }
+        }
+      },
+      "routes": {}
+    }
   }
 }

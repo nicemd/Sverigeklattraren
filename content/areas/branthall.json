@@ -380,5 +380,245 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "The island of Branthäll lies in the Söderhamn archipelago. A ten-metre sea cliff.",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:branthall"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "General",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:branthall"
+            ]
+          },
+          "body": {
+            "text": "The island of Branthäll lies in the Söderhamn archipelago. It has a ten-metre-high sea cliff.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:branthall"
+            ]
+          }
+        },
+        "kommunikationer": {
+          "title": {
+            "text": "Access",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:branthall"
+            ]
+          },
+          "body": {
+            "text": "By boat: If you have your own boat, or can borrow one, reaching the island presents no great difficulty, but it is also possible without one. During the summer, you can take the tourist boat \"Sunnan\" and be dropped off on the island, then collected on the final trip of the day or the following day. \"Sunnan\" departs from the quay opposite Söderhamn railway station. GPS coordinates: Lat: N 61º 15' 40.43\" Long: E 17º 13' 8.36\"",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:branthall"
+            ]
+          }
+        },
+        "sydvaggen": {
+          "title": {
+            "text": "South Face",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:branthall"
+            ]
+          },
+          "body": {
+            "text": "This south-facing wall is up to ten metres high and approximately 75 m long. The routes start at water level or from rocks in the water. The climbing follows cracks in exceptionally clean, excellent granite. The most interesting section is the right-hand half of the wall. The routes are generally top-roped, with the climber lowered on a Sticht plate.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:branthall"
+            ]
+          }
+        }
+      },
+      "routes": {
+        "branthall-led-1": {
+          "description": {
+            "text": "Short wall route left of \"The Giant Flake Eater\".",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:branthall"
+            ]
+          }
+        },
+        "branthall-led-2": {
+          "description": {
+            "text": "Free: Torbjörn Nilsson, 1984\n\nIn the middle of the wall is a large ledge a metre or so above the water, which is a good place to land the boat. (Some graffiti can be seen on the rock between the ledge and the water.) Directly above the ledge is this fine flake. Perfect layback. Short.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:branthall"
+            ]
+          }
+        },
+        "branthall-led-3": {
+          "description": {
+            "text": "Free: Torbjörn Nilsson, 1984\n\nThe corner right of \"The Giant Flake Eater\", starting from the same ledge. A true fingertip layback.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:branthall"
+            ]
+          }
+        },
+        "branthall-led-4": {
+          "description": {
+            "text": "Hand traverse by the ledge with the graffiti. The finish is the crux.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:branthall"
+            ]
+          }
+        },
+        "branthall-led-5": {
+          "description": {
+            "text": "Free: Torbjörn Nilsson, 1984\n\nFrom the large ledge, step down to the waterline at its right-hand end, then climb the magnificent crack to the top.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:branthall"
+            ]
+          }
+        },
+        "branthall-led-6": {
+          "description": {
+            "text": "Fine, fairly sustained route left of \"Schooldays\".",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:branthall"
+            ]
+          }
+        },
+        "branthall-led-7": {
+          "description": {
+            "text": "A relatively long, wide crack.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:branthall"
+            ]
+          }
+        },
+        "branthall-led-8": {
+          "description": {
+            "text": "Free: Torbjörn Nilsson, 1984\n\nStarts from a rock in the water. Climb straight up, then diagonally left over a block/flake to the top.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:branthall"
+            ]
+          }
+        },
+        "branthall-led-9": {
+          "description": {
+            "text": "Free: Torbjörn Nilsson, 1984\n\nStarts from the same rock as \"Schooldays\", then laybacks up the obvious crack directly above.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:branthall"
+            ]
+          }
+        },
+        "branthall-led-10": {
+          "description": {
+            "text": "Starts from the same rock as \"Schooldays\", then step out right and climb the very thin crack to the top. There is some doubt as to whether this route was actually climbed without hangs. Memory fails, but at the time we considered it climbed.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:branthall"
+            ]
+          }
+        },
+        "branthall-led-11": {
+          "description": {
+            "text": "Free: Torbjörn Nilsson, 1984\n\nA short jamming crack that widens downwards towards the waterline.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:branthall"
+            ]
+          }
+        },
+        "branthall-led-12": {
+          "description": {
+            "text": "Awkward climbing with layback moves.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:branthall"
+            ]
+          }
+        },
+        "branthall-led-13": {
+          "description": {
+            "text": "Free: Torbjörn Nilsson, 1984\n\nA clean, attractive corner. Starts from a rock.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:branthall"
+            ]
+          }
+        },
+        "branthall-led-14": {
+          "description": {
+            "text": "A short wall route a few metres right of \"Goodman\".",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:branthall"
+            ]
+          }
+        },
+        "branthall-led-15": {
+          "description": {
+            "text": "An easy little number.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:branthall"
+            ]
+          }
+        },
+        "branthall-led-16": {
+          "description": {
+            "text": "Can this really be called a route? A short corner starting at the waterline.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:branthall"
+            ]
+          }
+        },
+        "branthall-led-17": {
+          "description": {
+            "text": "Traverse in from the right, with a delicate crux around a bulge. Finish by climbing rightwards towards \"Bättre vetande\".",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:branthall"
+            ]
+          }
+        }
+      }
+    }
   }
 }

@@ -60,5 +60,30 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "http://27crags.com/crags/degersjoberget =Problem=",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:degerberget"
+        ]
+      },
+      "sections": {},
+      "routes": {
+        "degerberget-problem-1": {
+          "description": {
+            "text": "Juggy and pleasant. A slightly overhanging arete. On the leftmost boulder when facing away from the lake.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:degerberget"
+            ]
+          }
+        }
+      }
+    }
   }
 }

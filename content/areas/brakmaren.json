@@ -131,5 +131,74 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "A small but imposing crag with a short, steep west face. Sport routes 8–10 m long. A 10 m approach from the road.",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:brakmaren"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "General",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:brakmaren"
+            ]
+          },
+          "body": {
+            "text": "A small but substantial crag with a short, steep west face. Sport routes 8–10 m long. 10 m approach from the road.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:brakmaren"
+            ]
+          }
+        },
+        "vagbeskrivning": {
+          "title": {
+            "text": "Directions",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:brakmaren"
+            ]
+          },
+          "body": {
+            "text": "Not to be confused with Brakmarsklippan, which lies about 200 m to the south-west and is so poor that it does not merit inclusion.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:brakmaren"
+            ]
+          }
+        },
+        "leder": {
+          "title": {
+            "text": "Routes",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:brakmaren"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:brakmaren"
+            ]
+          }
+        }
+      },
+      "routes": {}
+    }
   }
 }

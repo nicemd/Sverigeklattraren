@@ -289,5 +289,139 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "A pleasant little slab with substantial cracks.",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:dalkarlskarret"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "General",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:dalkarlskarret"
+            ]
+          },
+          "body": {
+            "text": "A pleasant little slab with substantial cracks.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:dalkarlskarret"
+            ]
+          }
+        },
+        "introduktion": {
+          "title": {
+            "text": "Introduction",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:dalkarlskarret"
+            ]
+          },
+          "body": {
+            "text": "An excellent crag for learning to lead trad. The crag faces south-west over an open field, providing plenty of evening sun. There are good opportunities for top-roping, but bring suitably long slings and/or a few nuts, as the trees are some distance from the top of the crag. The crag is 20 m long and varies between 3 and 8 metres in height, so with a crash pad and a healthy dose of cojones, you can leave the rope at home. Uppsala’s best after-work crag?",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:dalkarlskarret"
+            ]
+          }
+        },
+        "rekommenderade-leder": {
+          "title": {
+            "text": "Recommended routes",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:dalkarlskarret"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:dalkarlskarret"
+            ]
+          }
+        },
+        "vagbeskrivning": {
+          "title": {
+            "text": "Directions",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:dalkarlskarret"
+            ]
+          },
+          "body": {
+            "text": "Take Dag Hammarskjölds väg south from the city centre and turn right onto Vårdsätravägen at the traffic lights by Ulleråker. Continue for a few kilometres to a turning signposted Hammarskog and take it across the bridge (Lurbo bro). Continue to the turning signposted Uppsala Näs on the left. Follow this road for 1 km, then turn right onto the gravel road that provides the back route to Hammarskog. After a couple of kilometres, you will see the Dalkarlskärret car park on the left. Cross the road and walk north-west around the lake for 10 minutes. You will see the crag on the right.\n\nAlternative: instead of turning left towards Uppsala Näs, turn right at that junction, then turn left onto a gravel road. Pass a few houses and continue into the woods. You will soon find a parking bay on the right—park there or at the turning area a little further on. Follow the path opposite the first parking bay for 5–10 minutes (there are red markers). The crag is on the left at the edge of the field.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:dalkarlskarret"
+            ]
+          }
+        },
+        "leder": {
+          "title": {
+            "text": "Routes",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:dalkarlskarret"
+            ]
+          },
+          "body": {
+            "text": "Listed from left to right when facing the crag. This is not a complete description: please add any that are missing!",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:dalkarlskarret"
+            ]
+          }
+        },
+        "lankar": {
+          "title": {
+            "text": "Links",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:dalkarlskarret"
+            ]
+          },
+          "body": {
+            "text": "Mark Harris provided much of the original material for this page, and his page on climbing around Uppsala (http://alpha2.bmc.uu.se/mark/climbing/climbing_areas_swedish.html) is invaluable if you are stuck in the Uppland mud wondering where all the crags have gone.\n\nAnother guide with slightly clearer route descriptions can be found at www.bergsklattring.nu. Link to guide (http://www.bergsklattring.nu/index.php?pg=/showpage.php&t=142)",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:dalkarlskarret"
+            ]
+          }
+        }
+      },
+      "routes": {
+        "dalkarlskarret-led-12": {
+          "description": {
+            "text": "Not visible in the photo. Approx. 5 m right of 11.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:dalkarlskarret"
+            ]
+          }
+        }
+      }
+    }
   }
 }

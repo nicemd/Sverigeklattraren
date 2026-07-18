@@ -307,5 +307,213 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "Take the Ingarö exit from Route 222 (Värmdöleden). Drive through Brunn and continue straight towards Björkvik. Shortly before Björkviks brygga, turn left at the sign for Björnö Nature Reserve. The crag is on the left, 50 m before the first speed bump.",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:bjorno"
+        ]
+      },
+      "sections": {
+        "vagbeskrivning": {
+          "title": {
+            "text": "Directions",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:bjorno"
+            ]
+          },
+          "body": {
+            "text": "Take the Ingarö exit from route 222, Värmdöleden. Drive through Brunn and continue straight towards Björkvik. Shortly before Björkviks brygga, turn left at the sign for Björnö Naturreservat. The crag is on the left, 50m before the first speed bump.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:bjorno"
+            ]
+          }
+        },
+        "boulderproblem": {
+          "title": {
+            "text": "Boulder problems",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:bjorno"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:bjorno"
+            ]
+          }
+        },
+        "mera": {
+          "title": {
+            "text": "More",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:bjorno"
+            ]
+          },
+          "body": {
+            "text": "There is another bouldering wall inside Björnö Naturreservat. Park in the large car park, then follow the road past a few houses until you reach a sharp right-hand bend. Take the gravel path downhill to the left for approx. 300m and you are there.\n\nNOTE: This is a nature reserve. Please take your litter with you and try to remove any chalk and tick marks. Thank you.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:bjorno"
+            ]
+          }
+        },
+        "bjorno-1": {
+          "title": {
+            "text": "Björnö 1",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:bjorno"
+            ]
+          },
+          "body": {
+            "text": "Overview photo",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:bjorno"
+            ]
+          }
+        }
+      },
+      "routes": {
+        "bjorno-led-1": {
+          "description": {
+            "text": "Furthest left, on the short wall. Sit start, following all three finger cracks.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:bjorno"
+            ]
+          }
+        },
+        "bjorno-led-2": {
+          "description": {
+            "text": "Sit start from the jug, finishing at the grassy tuft.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:bjorno"
+            ]
+          }
+        },
+        "bjorno-led-3": {
+          "description": {
+            "text": "From the large undercling, climb to the grassy tuft.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:bjorno"
+            ]
+          }
+        },
+        "bjorno-led-4": {
+          "description": {
+            "text": "Sit start to the jug, then follow the thin crack left and finish up Inskolning.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:bjorno"
+            ]
+          }
+        },
+        "bjorno-led-5": {
+          "description": {
+            "text": "Climb Fröken Fröken, but continue all the way up without using the jugs on Inskolning. Long and high.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:bjorno"
+            ]
+          }
+        },
+        "bjorno-led-6": {
+          "description": {
+            "text": "Sit start to the jug, then continue up right.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:bjorno"
+            ]
+          }
+        },
+        "bjorno-led-7": {
+          "description": {
+            "text": "Green line. Starts by a wedged stone, with an easy traverse left, then up.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:bjorno"
+            ]
+          }
+        },
+        "bjorno-led-8": {
+          "description": {
+            "text": "Same start as above, but straight up. Unrepeated since a key hold broke off.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:bjorno"
+            ]
+          }
+        },
+        "bjorno-led-9": {
+          "description": {
+            "text": "Red line, sit start.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:bjorno"
+            ]
+          }
+        },
+        "bjorno-led-10": {
+          "description": {
+            "text": "(Red) Starts low down with one hand on a forked hold, then climbs diagonally up using the left arete.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:bjorno"
+            ]
+          }
+        },
+        "bjorno-led-11": {
+          "description": {
+            "text": "(Green) Starts from the established start further left; three moves lead into Medvind assis.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:bjorno"
+            ]
+          }
+        },
+        "bjorno-led-12": {
+          "description": {
+            "text": "?. The crack?",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:bjorno"
+            ]
+          }
+        }
+      }
+    }
   }
 }

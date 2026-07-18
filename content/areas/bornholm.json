@@ -55,5 +55,56 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "Okay, Bornholm is part of Denmark. But it is closer to Skåne than to the rest of Denmark, and there is some climbing on the island.",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:bornholm"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "General",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:bornholm"
+            ]
+          },
+          "body": {
+            "text": "OK, Bornholm belongs to Denmark. But it is closer to Skåne than to Denmark, and there is some climbing on the island.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:bornholm"
+            ]
+          }
+        },
+        "extern-forare": {
+          "title": {
+            "text": "External guide",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:bornholm"
+            ]
+          },
+          "body": {
+            "text": "See http://rockclimbing.dk/wiki/index.php?title=Bornholm – a Danish online guide to Bornholm.\n\nhttp://bornholm.danskbjergklub.dk/gfx/anders-layback-bornholm.jpg Layback Risset 6-, Vang, Bornholm",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:bornholm"
+            ]
+          }
+        }
+      },
+      "routes": {}
+    }
   }
 }

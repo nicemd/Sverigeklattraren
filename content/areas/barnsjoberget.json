@@ -147,5 +147,95 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "A small crag east of Trollbäcken. It consists of a 20 m-high slab and a smaller but overhanging side wall. There is good bouldering potential in the area (bring a cleaning brush). The crags at Tyresö-Flaten are only a few kilometres away. Bansjön, 200 m from the crag, has an excellent bathing jetty. A picnic crag!\n\n2011-06 The crag is unclimbable, with moss and trees on the slab. Bolt in poor condition. Local climbers are planning to restore the crag.",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:barnsjoberget"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "General",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:barnsjoberget"
+            ]
+          },
+          "body": {
+            "text": "Small crag east of Trollbäcken. The crag consists of a 20 m slab and a smaller but overhanging side wall. There is good bouldering potential in the area (bring a cleaning brush). The crags at Tyresö-Flaten are only a few kilometres away. Bansjön, 200 m from the crag, has an excellent swimming jetty. A picnic crag!\n\n2011-06 The crag is unclimbable, with moss and trees on the slab. Bolt in poor condition. Local climbers are planning to restore this crag.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:barnsjoberget"
+            ]
+          }
+        },
+        "vagbeskrivning": {
+          "title": {
+            "text": "Directions",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:barnsjoberget"
+            ]
+          },
+          "body": {
+            "text": "Take Tyresövägen (road 229), but instead of heading towards Tyresö, head towards Haninge and Vendelsö along Gudöbroleden (road 260). At the second set of traffic lights, turn left onto Skogsängsvägen and continue for 1.5 km until it ends and becomes Barnsjöslingan. Park and follow the gravel path to the crag on the left.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:barnsjoberget"
+            ]
+          }
+        },
+        "leder": {
+          "title": {
+            "text": "Routes",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:barnsjoberget"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:barnsjoberget"
+            ]
+          }
+        }
+      },
+      "routes": {
+        "barnsjoberget-led-2": {
+          "description": {
+            "text": "Traverse right from Before...",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:barnsjoberget"
+            ]
+          }
+        },
+        "barnsjoberget-led-3": {
+          "description": {
+            "text": "Surprisingly good.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:barnsjoberget"
+            ]
+          }
+        }
+      }
+    }
   }
 }

@@ -50,5 +50,38 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "0 documented routes and problems.",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:djupviken"
+        ]
+      },
+      "sections": {
+        "access": {
+          "title": {
+            "text": "Access",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:djupviken"
+            ]
+          },
+          "body": {
+            "text": "Quoted from Bloxc (http://bloxc.com/forum/viewtopic.php?t=1718)\n\nThe use of private roads is now strictly prohibited. The landowners have contacted the Finnish Climbing Association about the matter. If you are heading to Djupviken (the caves) or Fågelberget, park at Soltuna (café, holiday village, etc.) and walk from there.\n\nParking at Kasviken is very limited. If the parking by the field is full, find somewhere else to park or go elsewhere. Do not block access.\n\nTake all rubbish home with you, including bits of tape and cigarette butts. Set a good example and pick up any other rubbish you find as well. The bin at the caves is emptied extremely rarely, so it is better to take your rubbish home than put it there. Last summer it was not emptied between May and October and was therefore overflowing for most of the year.\n\nÅland (Finland) does not have the same right of public access as Sweden, so camping should be kept to an absolute minimum. Soltuna offers camping with facilities. Brush off tick marks.\n\nFor more information: http://www.slouppi.net/contents/news/moreNews.phtml?typeId=2 http://www.slouppi.net/pdf_files/Accesstiedote.pdf (in Finnish)",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:djupviken"
+            ]
+          }
+        }
+      },
+      "routes": {}
+    }
   }
 }

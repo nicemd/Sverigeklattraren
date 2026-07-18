@@ -35,5 +35,19 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "Welcome to Borås and Almenäs! After many years of searching the woods around the town, we have finally found something resembling a bouldering area. Some of the boulders are a little low, but others would be classics even in Fontan. Perhaps a bit too steep for frog-eating slab specialists, but in our opinion, really enjoyable problems. http://www.crimp.se/web/topos/almenas/ALMENAS_BoulderGuide.pdf",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:almenas"
+        ]
+      },
+      "sections": {},
+      "routes": {}
+    }
   }
 }

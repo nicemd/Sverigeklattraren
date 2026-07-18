@@ -45,5 +45,56 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "A forgotten gem on the Södermanland coast. This 15–20-metre crag near Bistaberget has several fine aid routes, as well as around ten high-quality sport and trad routes. Several new routes, both sport and trad, were added to the main wall in 2012. In addition, several of the aid routes were freed.",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:bjurviksberget"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "General information",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:bjurviksberget"
+            ]
+          },
+          "body": {
+            "text": "A forgotten gem on the Södermanland coast. A 15–20-metre-high crag near Bistaberget, with several fine aid routes and around ten high-quality sport and trad routes. Several new routes, both sport and trad, were added to the main wall in 2012. Several of the aid routes were also freed.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:bjurviksberget"
+            ]
+          }
+        },
+        "beskrivning": {
+          "title": {
+            "text": "Description",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:bjurviksberget"
+            ]
+          },
+          "body": {
+            "text": "A new guidebook covering Simonsberget, Bistaberget and other crags in Södermanland was published in November 2006. Order via www.dangerzone.se (http://www.dangerzone.se). The author reports that work has begun on a supplement to the guidebook.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:bjurviksberget"
+            ]
+          }
+        }
+      },
+      "routes": {}
+    }
   }
 }

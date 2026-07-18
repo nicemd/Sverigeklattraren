@@ -104,5 +104,121 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "A number of icefalls form on the blasted rock faces beside road 159, on the uphill stretch from road 40 towards Angered. Not the most pleasant setting in the world, but at least you are protected by concrete barriers. Park sensibly nearby – obviously not on the motorway, duh... Watch out for missing manhole covers hidden beneath the snow when walking in the ditch below the crag.",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:agnesberg"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "General",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:agnesberg"
+            ]
+          },
+          "body": {
+            "text": "A number of icefalls adorn the blasted rock faces beside road 159, on the hill up from road 40 towards Angered. Not the most pleasant setting in the world, but at least you are protected by concrete barriers. Park sensibly nearby—obviously not on the motorway, duh... Watch out for missing manhole covers beneath the snow when walking in the ditch below the crag.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:agnesberg"
+            ]
+          }
+        },
+        "karaktar": {
+          "title": {
+            "text": "Character",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:agnesberg"
+            ]
+          },
+          "body": {
+            "text": "Several long, nearly vertical routes. Rarely leadable, but top-rope opportunities are not uncommon. The easiest way up is via a crawling ramp on the right-hand side.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:agnesberg"
+            ]
+          }
+        },
+        "access": {
+          "title": {
+            "text": "Access",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:agnesberg"
+            ]
+          },
+          "body": {
+            "text": "There are some access issues at Agnesberg. Park down by Steken, where there are usually plenty of spaces. Alternatively, park up in Hammarkullen and walk down. Keep off the road and NEVER stop (or park) along Angeredsleden. The police usually receive several calls every year from annoyed or concerned motorists.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:agnesberg"
+            ]
+          }
+        },
+        "leder": {
+          "title": {
+            "text": "Routes",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:agnesberg"
+            ]
+          },
+          "body": {
+            "text": "4–5 routes, most of them fairly steep. A slabby variation in the corner a little way to the right.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:agnesberg"
+            ]
+          }
+        },
+        "vackra-bilder": {
+          "title": {
+            "text": "Pretty pictures",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:agnesberg"
+            ]
+          },
+          "body": {
+            "text": "A few pictures so that anyone interested can see just how scenic the crag is.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:agnesberg"
+            ]
+          }
+        }
+      },
+      "routes": {
+        "agnesberg-led-1": {
+          "description": {
+            "text": "Fine, sustained and long climbing directly beneath the power lines. Often quite thin.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:agnesberg"
+            ]
+          }
+        }
+      }
+    }
   }
 }

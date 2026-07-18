@@ -1210,5 +1210,771 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "Bodberget lies about 40 km from Söderhamn and 7 km from Arbrå. It is the rightmost of the three hills east of the village of Flästa. Norrberget is nearby, as are Hisnopp and Torpberget.",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:bodberget"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "General",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:bodberget"
+            ]
+          },
+          "body": {
+            "text": "Bodberget is about 40 km from Söderhamn and 7 kilometres from Arbrå. It is the right-hand one of the three hills east of the village of Flästa. Norrberget is nearby, as are Hisnopp and Torpberget.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:bodberget"
+            ]
+          }
+        },
+        "access": {
+          "title": {
+            "text": "Access",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:bodberget"
+            ]
+          },
+          "body": {
+            "text": "Birds nest at Bodberget, so climbing is prohibited until 1 August.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:bodberget"
+            ]
+          }
+        },
+        "kommunikationer": {
+          "title": {
+            "text": "Getting there",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:bodberget"
+            ]
+          },
+          "body": {
+            "text": "Travelling by car is the most practical option. From Söderhamn, take county road 301 towards Bollnäs. After about 20 kilometres, you reach the village of Glössbo; turn right at a sign reading \"ARBRÅ 27\". After about 18 km, you reach the village of Flästa. Turn right here at a sign reading \"ÖJUNGEN 6\". After one and a half kilometres, you are directly below Bodberget. Parking is available 100 metres beyond the second military storehouse along the road. From here, follow an old forestry vehicle track uphill into the woods. Follow the waymarkers to the crag.\n\nIt is also possible to travel by bus. From Bollnäs, take a bus to Arbrå, then change to a bus for Flästa. Get off where it turns around, at the far end of Flästa by the \"ÖJUNGEN 6\" sign, then walk the remaining distance (just over one and a half km).\n\nGPS coordinates for the crag: Lat: N 61º 26' 47.15\" Long: E 16º 30' 56.38\"",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:bodberget"
+            ]
+          }
+        },
+        "vaggar": {
+          "title": {
+            "text": "Walls",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:bodberget"
+            ]
+          },
+          "body": {
+            "text": "The walls face south. At the far right is Östpelaren, with two large, obvious overhangs. To its left is the main wall, shaped like a large amphitheatre carved out of the rock. It is approximately 100 m wide and 50 m high, but has a rather broken appearance. To the left of the main wall is a distinct rock ridge, a buttress rising towards the top of the hill at an angle of about 60 degrees, known as Kvicksilverpelaren. To the left of the buttress is a loose gully that was formerly used as a descent route. To the left of the gully is the so-called practice crag. It is about 75 m wide and 20 m high and, at least in the past when the crag was more frequently visited, was almost entirely brushed clean of lichen and other unpleasantness. The descent is straightforward and goes through the woods to the left of the practice crag.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:bodberget"
+            ]
+          }
+        },
+        "ovningsklippan": {
+          "title": {
+            "text": "Practice Crag",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:bodberget"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:bodberget"
+            ]
+          }
+        },
+        "ovningsklippan-plattan": {
+          "title": {
+            "text": "Practice Crag – The Slab",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:bodberget"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:bodberget"
+            ]
+          }
+        },
+        "kvicksilverpelaren-nedre-delen": {
+          "title": {
+            "text": "Kvicksilverpelaren – Lower Section",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:bodberget"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:bodberget"
+            ]
+          }
+        },
+        "kvicksilverpelaren-ovre-delen": {
+          "title": {
+            "text": "Kvicksilverpelaren – Upper Section",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:bodberget"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:bodberget"
+            ]
+          }
+        },
+        "huvudvaggen": {
+          "title": {
+            "text": "Main Wall",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:bodberget"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:bodberget"
+            ]
+          }
+        },
+        "ostpelaren": {
+          "title": {
+            "text": "East Buttress",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:bodberget"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:bodberget"
+            ]
+          }
+        }
+      },
+      "routes": {
+        "bodberget-led-1": {
+          "description": {
+            "text": "(by the descent) 75 m up the descent from the cairn at the start of \"Endast för galningar\" is a wide fist crack.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:bodberget"
+            ]
+          }
+        },
+        "bodberget-led-2": {
+          "description": {
+            "text": "30 m up the descent from the cairn. Starts on an ill-defined pillar, then continues onto a five-metre slab. Finishes with a hand traverse left along the top of the slab. Unprotected.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:bodberget"
+            ]
+          }
+        },
+        "bodberget-led-3": {
+          "description": {
+            "text": "Starts behind the pine about 10 m left of the cairn, at a diagonal crack by some protruding blocks. About 4 m up, step right over a bulge onto a ledge, then follow cracks straight up to the top.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:bodberget"
+            ]
+          }
+        },
+        "bodberget-led-4": {
+          "description": {
+            "text": "FFA: Kent Andersson, Per Calleberg and Pär Nolgård, 1981. Starts on the wall just right of the previous route. Follow thin cracks diagonally up right to a red corner, crossing it to the right with a bridging move. Then follow the obvious crack straight up the wall to a pine.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:bodberget"
+            ]
+          }
+        },
+        "bodberget-led-5": {
+          "description": {
+            "text": "Starts in a small corner right of the previous route. Follow the red corner formation to the top.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:bodberget"
+            ]
+          }
+        },
+        "bodberget-led-6": {
+          "description": {
+            "text": "A rather wandering and contrived line. Starts right of \"Änglavakt\" by stepping onto it. About 6 m up, make a short traverse right to an alcove. From there, follow the right-hand of two parallel cracks diagonally up left. Then follow a rotten corner to the top.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:bodberget"
+            ]
+          }
+        },
+        "bodberget-led-7": {
+          "description": {
+            "text": "FFA: Mikael Bäckman, Anders Dahl and Kent Andersson, 1980. Starts on the smooth slab opposite the cairn. Climb straight up to the alcove, then right to a ledge. Continue right onto the wall, then straight up.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:bodberget"
+            ]
+          }
+        },
+        "bodberget-led-8": {
+          "description": {
+            "text": "Starts in the corner behind the pine right of the cairn. Climb diagonally up left to the alcove. Continue straight up the left-hand of the two diagonal cracks. The crack leads to a ledge; from there, climb straight up to the top. 2 bolts.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:bodberget"
+            ]
+          }
+        },
+        "bodberget-led-9": {
+          "description": {
+            "text": "From the ledge on \"Endast för galningar\", climb diagonally up left to bolts, then straight up past a bolt through small roofs until joining the finishing crack of \"Le Freak\", which is followed.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:bodberget"
+            ]
+          }
+        },
+        "bodberget-led-10": {
+          "description": {
+            "text": "FFA: Kent Andersson, 1983. Same start as Vårled, then straight up over a small overhang. Climb past a bolt and then up the obvious corner. Bear left and follow a diagonal crack to the top. Start in the same corner as \"Vårled\", but move right across the ledge to reach the large, obvious flake. Follow the edge of the flake and stand up on the ledge above. Continue diagonally up right past bolts.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:bodberget"
+            ]
+          }
+        },
+        "bodberget-led-11": {
+          "description": {
+            "text": "FFA: Per Calleberg and Kent Andersson, 1982. Start in the same corner as \"Vårled\", but move right across the ledge to reach the large, obvious flake. Follow the edge of the flake and stand up on the ledge above. Continue diagonally up right past bolts.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:bodberget"
+            ]
+          }
+        },
+        "bodberget-led-12": {
+          "description": {
+            "text": "FFA: Per Calleberg and Pär Nolgård, 1983. Follow the groove on the wall a few metres left of \"Hybris\". On reaching the flake leading up to \"The Bisquit\", step out right and follow \"Hybris\" for a couple of metres. As soon as possible, step back left and climb straight up the steep wall.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:bodberget"
+            ]
+          }
+        },
+        "bodberget-led-13": {
+          "description": {
+            "text": "Start in a short corner just over five metres right of the cairn. Continue over ledges and up the broken band of red rock beneath the obvious sloping slab.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:bodberget"
+            ]
+          }
+        },
+        "bodberget-led-14": {
+          "description": {
+            "text": "A finish variation to \"Hybris\". Goes straight out right along the obvious crack in the large sloping slab.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:bodberget"
+            ]
+          }
+        },
+        "bodberget-led-15": {
+          "description": {
+            "text": "Climb a short wall onto a low-angled slab. Climb to the birch and follow the obvious gully separating the practice wall from the prominent slab on the right. Dirty and not recommended.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:bodberget"
+            ]
+          }
+        },
+        "bodberget-led-16": {
+          "description": {
+            "text": "FFA: Per Calleberg and Kent Andersson, 1982. Climb a short wall. Angle up across the slab to a birch. Follow the grooves along the left edge of the slab, past a bolt, and continue to the top past another bolt.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:bodberget"
+            ]
+          }
+        },
+        "bodberget-led-17": {
+          "description": {
+            "text": "FFA: Buster Delin and Kent Andersson, 1984. Climb the slab to the base of the main slab. Follow a series of irregularities straight up its centre. The bolt on \"Tilltaget\" can usefully be clipped for protection. Unfortunately, it tends to become overgrown quickly.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:bodberget"
+            ]
+          }
+        },
+        "bodberget-led-18": {
+          "description": {
+            "text": "FFA: Buster Delin, 1984. Climb the slab to the base of the main slab. Follow a series of irregularities along its right edge. Unprotected.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:bodberget"
+            ]
+          }
+        },
+        "bodberget-led-19": {
+          "description": {
+            "text": "Starts in the hollow left of the loose gully. Follow a corner formation to a slab, then make a diagonal traverse right.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:bodberget"
+            ]
+          }
+        },
+        "bodberget-led-20": {
+          "description": {
+            "text": "Between Övningsklippan and Kvicksilverpelaren is a loose gully (Det ska vi fira) formerly used as a descent. It is loose, however, and should be avoided.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:bodberget"
+            ]
+          }
+        },
+        "bodberget-led-21": {
+          "description": {
+            "text": "Follows the left edge of Kvicksilverpelaren. After about one pitch, move right onto the pillar itself and continue straight up to the top of the crag. Loose. Should be avoided, at least in summer, due to the risk of rockfall.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:bodberget"
+            ]
+          }
+        },
+        "bodberget-led-22": {
+          "description": {
+            "text": "Friction climbing along the top of Kvicksilverpelaren. One pitch, 2 bolts. Belay on the right by a large pine. Easy downclimbing to the left, around the corner. Eventually this reaches \"Det skall vi fira\", which is not particularly loose this far down.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:bodberget"
+            ]
+          }
+        },
+        "bodberget-led-23": {
+          "description": {
+            "text": "Wall climbing three metres left of \"Take Off\". Joins \"Take Off\" after about 10 metres. 2 or 3 bolts.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:bodberget"
+            ]
+          }
+        },
+        "bodberget-led-24": {
+          "description": {
+            "text": "25 m up the right-hand side of Kvicksilverpelaren is an obvious corner formation capped by an overhang. Climb the corner, traverse left beneath the roof, then follow the gully to the belay pine on \"Över noll\". Variation: pass the roof on its right-hand side.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:bodberget"
+            ]
+          }
+        },
+        "bodberget-led-25": {
+          "description": {
+            "text": "FFA: Kent Andersson and Torbjörn Nilsson, 1982. Climbs the cracked wall immediately right of \"Take Off\". Continue onto the slab above. 1 bolt on the slab. Belay as for \"Över noll\".",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:bodberget"
+            ]
+          }
+        },
+        "bodberget-led-26": {
+          "description": {
+            "text": "FFA: Kent Andersson, Torbjörn Nilsson and Åke Englund, 1983. Start as for \"Stridspiloten\", but bear right beneath a small roof. Step up into a diagonal crack and follow it diagonally up right to the top. To extend the climbing, move onto the final metres of \"Stridspiloten\" after reaching a ledge above the diagonal crack. Belay as for \"Över noll\".",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:bodberget"
+            ]
+          }
+        },
+        "bodberget-led-27": {
+          "description": {
+            "text": "Starts 7 metres right of \"Venuspassagen\". Follow the crack to 2 bolts placed side by side. From here, a shallow and somewhat poorly protected corner leads straight up (crux).",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:bodberget"
+            ]
+          }
+        },
+        "bodberget-led-28": {
+          "description": {
+            "text": "Start as for \"Stridspiloten\", but soon traverse right and follow \"Venuspassagen\" for a few metres. Then continue the rising traverse for a full pitch. Belay at a large flake directly below and slightly to one side of a large sloping overhang. Poorly protected in places.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:bodberget"
+            ]
+          }
+        },
+        "bodberget-led-29": {
+          "description": {
+            "text": "Fine flake climbing. This route takes the wall left of \"Den onde\". Climb the obvious flakes and finish up a crack.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:bodberget"
+            ]
+          }
+        },
+        "bodberget-led-30": {
+          "description": {
+            "text": "Free ascent: Torbjörn Nilsson and Anders Byfält, 1983. The obvious crackless corner formation about 75 m uphill from the start of \"Take Off\". At the left edge of the sloping overhang is a V-shaped recess. To reach it, climb \"Den gode\" for a metre or so, then make a huge step across into the V. After climbing the V, traverse left for a metre or so, step over a bulge onto a slab and climb it. Protected by one bolt. The second must not unclip the rope from the bolt before becoming established in the V!",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:bodberget"
+            ]
+          }
+        },
+        "bodberget-led-31": {
+          "description": {
+            "text": "Free ascent: Torbjörn Nilsson and Buster Delin, 1983. From the start of \"Den onde\", move right across a slab beneath a sloping overhang, step out onto an arete and continue.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:bodberget"
+            ]
+          }
+        },
+        "bodberget-led-32": {
+          "description": {
+            "text": "The route follows the chimney at the junction of the main face and the pillar to its left, and has a distinctly mountaineering character. Climb a short chimney behind a rock slab. Continue up a corner and climb the chimney itself, \"Skithålet\". On emerging from the chimney, move left along two ledges and climb a short crack to a pine. Belay. Go right behind a large block, then straight up a gully to the top.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:bodberget"
+            ]
+          }
+        },
+        "bodberget-led-33": {
+          "description": {
+            "text": "Starts in an obvious black streak between \"Skitleden\" and the large overhang crossed by \"Överheten\". Step left, then continue straight up. Somewhat inconsistent climbing, protected by a couple of fixed pegs but otherwise not much else.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:bodberget"
+            ]
+          }
+        },
+        "bodberget-led-34": {
+          "description": {
+            "text": "Take the easiest possible line to the start of the corner on \"Genesis\". Traverse left for ten metres, then climb straight up beneath the large roof. (Alternatively, climb the corner on Genesis, then make a skyhook traverse left directly beneath the roof.) The aid climbing begins at a fixed peg and becomes increasingly awkward higher up. Eventually gain ledges covered in lingonberry scrub, then traverse a long way left to a pine belay.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:bodberget"
+            ]
+          }
+        },
+        "bodberget-led-35": {
+          "description": {
+            "text": "This route follows the large, obvious corner in the middle of the main face. Climb an overhanging recess in white rock to a birch beneath an overhang. Move left and up, then climb the corner to a large ledge. Continue up and right to a large ledge with a large pine and large blocks. If you search in a crack here, you may still find a tin containing a visitors’ book. If so, sign it! From here, follow the gully beginning at the left edge of the ledge to the top.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:bodberget"
+            ]
+          }
+        },
+        "bodberget-led-36": {
+          "description": {
+            "text": "Traverse left beneath the prominent roof to the left of the finish of \"Genesis\". Here you will be standing astride an unpleasant rock flake, so a fall from this point could have very unfortunate consequences. Then climb straight up the face above. Bear in mind that a size 1½ Friend may be useful.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:bodberget"
+            ]
+          }
+        },
+        "bodberget-led-37": {
+          "description": {
+            "text": "Not much of a route in its own right, but used to vary the finishes of \"Genesis\" and \"Anabola stereoider\".",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:bodberget"
+            ]
+          }
+        },
+        "bodberget-led-38": {
+          "description": {
+            "text": "From the middle of \"Traverstvärs\", a short jamming crack leads up to the right edge of a large roof. Climb it, then traverse left to the finish of \"Genesis\".",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:bodberget"
+            ]
+          }
+        },
+        "bodberget-led-39": {
+          "description": {
+            "text": "At the left edge of the obvious red face, a thin crack runs diagonally up left past a prominent flake to the right edge of a small ledge. Follow the cracks straight up to the large pine at the \"Genesis\" belay. Strenuous at the start.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:bodberget"
+            ]
+          }
+        },
+        "bodberget-led-40": {
+          "description": {
+            "text": "Start as for \"Stjärnornas Krog\", but at the small ledge move left and round a corner into a corner. Climb straight up to an overhang. Step diagonally up right, then continue straight up a gully to the \"Genesis\" belay.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:bodberget"
+            ]
+          }
+        },
+        "bodberget-led-41": {
+          "description": {
+            "text": "Follow \"Rymdimperiet Slår tillbaka\" to the overhang. Traverse left for a short distance, then climb the crack above the overhang. Continue straight up to the \"Genesis\" belay.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:bodberget"
+            ]
+          }
+        },
+        "bodberget-led-42": {
+          "description": {
+            "text": "Start from a ledge below an obvious red face. Climb straight up the face, just left of a left-facing corner, until it begins to overhang. Step right round the corner and make a difficult move onto a narrow edge. Move slightly right, then climb straight up to a small ledge with a small rowan. Continue straight up the wide crack to a rounded ledge. Belay. From here, either climb straight to the top over somewhat loose, poorly protected rock, or traverse left to the finish of \"Genesis\".",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:bodberget"
+            ]
+          }
+        },
+        "bodberget-led-43": {
+          "description": {
+            "text": "Free ascent: Mikael Bäckman, 1986. A variation to \"Anabola Steroider\". Continue straight up where it begins to overhang, following the left edge of the rock slab to its top. Then traverse right onto \"Anabola Steroider\".",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:bodberget"
+            ]
+          }
+        },
+        "bodberget-led-44": {
+          "description": {
+            "text": "There is a bolt on the face to the right of the starting corner of \"Anabola Steroider\". Climb to it, then make a short traverse right to a peg. From here, climb straight up to join \"Anabola Steroider\".",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:bodberget"
+            ]
+          }
+        },
+        "bodberget-led-45": {
+          "description": {
+            "text": "A face route consisting of two short sections separated by a ledge. It finishes just left of the start of \"Rock & Roll\". The route is actually on a smaller section of face below the main wall, which tends to become overgrown quickly. It can now hardly be climbed without a thorough clean, if anyone can even find it any more... 2 pegs.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:bodberget"
+            ]
+          }
+        },
+        "bodberget-led-46": {
+          "description": {
+            "text": "Start as for \"Rock & Roll\" and climb nearly all of it. Then branch left and follow a system of corners to a ledge. Climb through an overhang and, after a short traverse left, follow a crack straight to the top. Exposed. 2 pegs.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:bodberget"
+            ]
+          }
+        },
+        "bodberget-led-47": {
+          "description": {
+            "text": "Start at the foot of \"Bäckfallet\", but climb up left and follow the obvious corner. The route joins \"Bäckfallet\" above the large ledge halfway up.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:bodberget"
+            ]
+          }
+        },
+        "bodberget-led-48": {
+          "description": {
+            "text": "Follows the corner at the right edge of the face, to the right of a prominent large “nose”. Climb straight up the obvious corner to a large ledge on top of the “nose”. (Possible belay.) Continue up the corner above, finishing with a short layback before exiting right.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:bodberget"
+            ]
+          }
+        },
+        "bodberget-led-49": {
+          "description": {
+            "text": "A low-angled, now forgotten face route in the ravine behind Bodberget’s right-hand pillar. 2 pegs.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:bodberget"
+            ]
+          }
+        },
+        "bodberget-led-50": {
+          "description": {
+            "text": "A compact corner on the east side of the largest block on the scree slope below the main face.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:bodberget"
+            ]
+          }
+        },
+        "bodberget-led-51": {
+          "description": {
+            "text": "Climb for a metre or so up a crack immediately right of \"Bäckfallet\". Traverse right to a peg. Climb up, then diagonally left past another peg. Climb straight up to the left of the bolt (crux) until a good hold is reached at the edge of a recess. Step into the recess, but immediately move back out left and then up onto the ledge.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:bodberget"
+            ]
+          }
+        },
+        "bodberget-led-52": {
+          "description": {
+            "text": "Start as for \"Den Muterade Hackspetten\", but climb straight up from the first peg to the recess with the pine. 1 bolt and 2 pegs.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:bodberget"
+            ]
+          }
+        },
+        "bodberget-led-53": {
+          "description": {
+            "text": "Starts left of \"Krakel Spektakel\". Climb easy ground to a ledge beneath the large roof. Continue to the obvious jamming crack. Just below the roof, move left past a peg. Eventually descend to the start of \"Bäckfallet\". Belay. The second pitch initially follows a crack parallel to \"Bäckfallet\", then branches right to reach a large ledge. From here, climb the wide diagonal crack to the top.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:bodberget"
+            ]
+          }
+        },
+        "bodberget-led-54": {
+          "description": {
+            "text": "Bodberget’s old classic, desperate top-rope problem was eventually climbed on lead. Thin face climbing on the wall left of Kusin vitamin. It starts hard and only becomes more vicious higher up. 2 bolts. The first ascensionist pre-placed a nut at the finish while inspecting the route on abseil.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:bodberget"
+            ]
+          }
+        },
+        "bodberget-led-55": {
+          "description": {
+            "text": "At the left-hand end of the large ledge where \"Krakel Spektakel\" finishes, climb over a few blocks to reach two thin, parallel cracks trending diagonally right. Follow the wider crack to the top.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:bodberget"
+            ]
+          }
+        },
+        "bodberget-led-56": {
+          "description": {
+            "text": "Climb easy rock up the large corner on the right-hand pillar. Belay on the ledge beneath the large roof. Follow the crack straight out beneath the roof (large nuts), then climb straight up past the roof when possible. Continue up an easy groove to a large ledge.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:bodberget"
+            ]
+          }
+        },
+        "bodberget-led-57": {
+          "description": {
+            "text": "Follow the overhanging diagonal crack line on the wall right of \"Krakel Spektakel\". Then move left up a short slab before climbing the overhanging corner above.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:bodberget"
+            ]
+          }
+        }
+      }
+    }
   }
 }

@@ -77,5 +77,92 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "Note that the ice is on a south-facing slope, so conditions may be poor unless it has been properly cold for a couple of days.\n\nFor current ice conditions or other enquiries, contact Sundsvalls Klätterklubb (http://www.sundsvallsklatterklubb.se).",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:barnbergspelaren"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "General",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:barnbergspelaren"
+            ]
+          },
+          "body": {
+            "text": "Note that the icefalls are on a south-facing slope, so conditions may be poor unless it has been really cold for a couple of days.\n\nFor current ice conditions or other enquiries, contact Sundsvalls Klätterklubb (http://www.sundsvallsklatterklubb.se).",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:barnbergspelaren"
+            ]
+          }
+        },
+        "vagbeskrivning": {
+          "title": {
+            "text": "Directions",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:barnbergspelaren"
+            ]
+          },
+          "body": {
+            "text": "Take road 631/320 to Laggaberg, between Timrå and Kovland. Turn off towards Laggarberg (the crag is now visible to the north), keep left and park near the end of the road.\n\nThe approach takes about 20–30 minutes, depending on snow conditions. Walk straight towards the crag and follow the edge until you find the icefalls. If you reach the tarn, you have gone too far.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:barnbergspelaren"
+            ]
+          }
+        },
+        "klattringen": {
+          "title": {
+            "text": "Climbing",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:barnbergspelaren"
+            ]
+          },
+          "body": {
+            "text": "Several small icefalls, with a few freestanding pillars in varying condition.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:barnbergspelaren"
+            ]
+          }
+        },
+        "accessinformation": {
+          "title": {
+            "text": "Access information",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:barnbergspelaren"
+            ]
+          },
+          "body": {
+            "text": "There are currently no access issues, but when parking, make sure you do not obstruct passing traffic.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:barnbergspelaren"
+            ]
+          }
+        }
+      },
+      "routes": {}
+    }
   }
 }

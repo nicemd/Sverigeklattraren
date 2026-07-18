@@ -54,5 +54,74 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "Granite boulders and walls in open woodland on top of a hill. The large boulder is home to “The Hourglass”, one of Sweden’s hardest boulder problems.",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:bjornblocket-vastervik"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "General",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:bjornblocket-vastervik"
+            ]
+          },
+          "body": {
+            "text": "Granite boulders and walls in open woodland on top of a hill. The large boulder is home to “The Hourglass”, one of Sweden's hardest boulder problems.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:bjornblocket-vastervik"
+            ]
+          }
+        },
+        "vagbeskrivning": {
+          "title": {
+            "text": "Directions",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:bjornblocket-vastervik"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:bjornblocket-vastervik"
+            ]
+          }
+        },
+        "extern-forare": {
+          "title": {
+            "text": "External guide",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:bjornblocket-vastervik"
+            ]
+          },
+          "body": {
+            "text": "http://www.vastervikclimbing.se/klattercentret/pdfer/",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:bjornblocket-vastervik"
+            ]
+          }
+        }
+      },
+      "routes": {}
+    }
   }
 }

@@ -123,5 +123,131 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "The area is a disused quarry. The crag is south-facing and suitable for climbing from early spring until late autumn. The walls are around 10–15 m high and consist largely of quarried but solid rock. Everything is bolted, with a few exceptions that are top-rope routes.",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:bolagsbrottet"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "General",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:bolagsbrottet"
+            ]
+          },
+          "body": {
+            "text": "The area is a disused quarry. The crag is sunny and suitable for climbing from early spring to late autumn. The walls are approximately 10–15m high and consist largely of quarried but solid rock. Everything is bolted, with a few top-rope-only exceptions.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:bolagsbrottet"
+            ]
+          }
+        },
+        "access": {
+          "title": {
+            "text": "Access",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:bolagsbrottet"
+            ]
+          },
+          "body": {
+            "text": "No problems.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:bolagsbrottet"
+            ]
+          }
+        },
+        "hitta-hit": {
+          "title": {
+            "text": "Getting there",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:bolagsbrottet"
+            ]
+          },
+          "body": {
+            "text": "Drive to Grötvik. Continue past the marina and café; the quarry appears on the right after a few hundred metres. There are several older bolted routes on the left-hand side when viewed from the sea. The new routes are on the wall straight ahead.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:bolagsbrottet"
+            ]
+          }
+        },
+        "klippor": {
+          "title": {
+            "text": "Crags",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:bolagsbrottet"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:bolagsbrottet"
+            ]
+          }
+        },
+        "originalvaggen": {
+          "title": {
+            "text": "Original Wall",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:bolagsbrottet"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:bolagsbrottet"
+            ]
+          }
+        }
+      },
+      "routes": {
+        "bolagsbrottet-led-1": {
+          "description": {
+            "text": "The route follows the obvious left-leaning arete. It has a distinct crux and offers enjoyable climbing. 3 bolts + anchor.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:bolagsbrottet"
+            ]
+          }
+        },
+        "bolagsbrottet-led-2": {
+          "description": {
+            "text": "The route starts directly below the obvious layback arete, passes the ‘ledge’ halfway up, then follows the natural line to the anchor. Varied and enjoyable climbing throughout. 5 bolts + anchor.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:bolagsbrottet"
+            ]
+          }
+        }
+      }
+    }
   }
 }

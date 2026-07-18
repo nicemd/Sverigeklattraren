@@ -108,5 +108,131 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "A small crag that no one climbs at. There are three bolted routes.",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:backadalen"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "General",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:backadalen"
+            ]
+          },
+          "body": {
+            "text": "A small crag that no one climbs at. There are three bolted routes.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:backadalen"
+            ]
+          }
+        },
+        "bild": {
+          "title": {
+            "text": "Photo",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:backadalen"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:backadalen"
+            ]
+          }
+        },
+        "kollektivtrafik": {
+          "title": {
+            "text": "Public transport",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:backadalen"
+            ]
+          },
+          "body": {
+            "text": "Akkas gata is probably the nearest/best stop. However, the crag is easier to find from Olshammarsgatan. From the Olshammarsgatan stop, walk up Plockerotsvägen, then turn right into the woods (towards the meadow you have just passed). The crag soon comes into view.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:backadalen"
+            ]
+          }
+        },
+        "vagbeskrivning": {
+          "title": {
+            "text": "Directions",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:backadalen"
+            ]
+          },
+          "body": {
+            "text": "Map here. Click the map button above.\n\nAdd directions here.\n\n(The crag is described very vaguely in Göteborg med omnejd)",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:backadalen"
+            ]
+          }
+        },
+        "leder": {
+          "title": {
+            "text": "Routes",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:backadalen"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:backadalen"
+            ]
+          }
+        }
+      },
+      "routes": {
+        "backadalen-led-1": {
+          "description": {
+            "text": "Route description",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:backadalen"
+            ]
+          }
+        },
+        "backadalen-led-2": {
+          "description": {
+            "text": "Comment: An aid highball, if you like; not really worth bothering with. Climbs left of the ‘big’ wall, between the offwidth crack and the ‘one-bolt route’. Thin cracks, good edges and possibly a birch tree. Starts with bodyweight placements. Unfortunately(?) looks easier to free-climb than to aid. The following gear was used: 2 aluheads (5–6 mm), 1 birdbeak, 1 BD Grappling Hook, 1 Camalot #1, 1 Lost Arrow #1. Location: Backadalenklippan (under ‘other crags’ in the book).",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:backadalen"
+            ]
+          }
+        }
+      }
+    }
   }
 }

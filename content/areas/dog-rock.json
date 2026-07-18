@@ -258,5 +258,175 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "Small bouldering wall on Värmdö with a handful of good problems. See also Mölnvik.",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:dog-rock"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "Overview",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:dog-rock"
+            ]
+          },
+          "body": {
+            "text": "A small bouldering wall on Värmdö with a handful of good problems. See also Mölnvik.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:dog-rock"
+            ]
+          }
+        },
+        "vagbeskrivning": {
+          "title": {
+            "text": "Directions",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:dog-rock"
+            ]
+          },
+          "body": {
+            "text": "Take Route 222, Värmdöleden.\n\nTurn left at the large Mölnvik roundabout, then left again towards Bygg-Ole. Turn left at the tiny roundabout and pass under the motorway. Park by the brukshundklubben. Continue along the tarmac road on foot for about 150 m until there is a meadow on your left. Cross the meadow to reach the wall.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:dog-rock"
+            ]
+          }
+        },
+        "boulderproblem": {
+          "title": {
+            "text": "Boulder Problems",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:dog-rock"
+            ]
+          },
+          "body": {
+            "text": "All problems start sitting.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:dog-rock"
+            ]
+          }
+        }
+      },
+      "routes": {
+        "dog-rock-problem-1": {
+          "description": {
+            "text": "The left side of the arete.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:dog-rock"
+            ]
+          }
+        },
+        "dog-rock-problem-2": {
+          "description": {
+            "text": "Straight up the arete.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:dog-rock"
+            ]
+          }
+        },
+        "dog-rock-problem-3": {
+          "description": {
+            "text": "Behind the oak. There is another project on the right-hand side of the oak.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:dog-rock"
+            ]
+          }
+        },
+        "dog-rock-problem-4": {
+          "description": {
+            "text": "Left of the pine, straight up.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:dog-rock"
+            ]
+          }
+        },
+        "dog-rock-problem-5": {
+          "description": {
+            "text": "Same start, then up right.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:dog-rock"
+            ]
+          }
+        },
+        "dog-rock-problem-6": {
+          "description": {
+            "text": "Right of the pine.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:dog-rock"
+            ]
+          }
+        },
+        "dog-rock-problem-7": {
+          "description": {
+            "text": "From the established start, climb up and slightly left.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:dog-rock"
+            ]
+          }
+        },
+        "dog-rock-problem-8": {
+          "description": {
+            "text": "Project behind the birch. Sit start left of the obvious ramp, then gain the ramp and climb slightly right. The start is shown in the photo above.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:dog-rock"
+            ]
+          }
+        },
+        "dog-rock-problem-9": {
+          "description": {
+            "text": "The rightmost problem.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:dog-rock"
+            ]
+          }
+        },
+        "dog-rock-problem-10": {
+          "description": {
+            "text": "Climb straight up to the lip, then traverse left and top out through a slopey groove.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:dog-rock"
+            ]
+          }
+        }
+      }
+    }
   }
 }

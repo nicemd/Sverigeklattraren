@@ -256,5 +256,247 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "There are three walls of interest: an overhanging section in a shady, mosquito-ridden spot; a good section in an ‘amphitheatre’ by a barbecue area; and finally a small slab. The problems have been developed by various people over the years.",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:brotorp"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "General",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:brotorp"
+            ]
+          },
+          "body": {
+            "text": "There are three walls of interest: a shady, mosquito-ridden overhanging section; a good section in an ‘amphitheatre’ by a barbecue area; and finally a small slab. The problems have been developed by various people over the years.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:brotorp"
+            ]
+          }
+        },
+        "vagbeskrivning": {
+          "title": {
+            "text": "Directions",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:brotorp"
+            ]
+          },
+          "body": {
+            "text": "Take metro green line 17 towards Skarpnäck and get off at either Bagarmossen or Skarpnäck.\n\nMake your way to Brotorpstugan on the edge of Nackareservatet, between Bagarmossen and Skarpnäck. If travelling by car, you can park at the end of Klarälvsvägen, provided you park considerately. Then follow the footpath straight into Nackareservatet and down towards Brotorpstugan.\n\nFrom Brotorpstugan, follow the gravel road towards Älta, crossing the stream and continuing straight ahead. After about 500 metres, the road crosses a marshy area with a drainage pipe running beneath it. Go back 20 metres and take the path on the left when facing towards Älta. Follow the path for 30 metres to reach the overhanging wall by a deer feeding station. Continue along the path for another 50–100 metres, heading uphill to the right. You are now at Amfiteatern, with a large barbecue area in the middle.\n\nTo reach the slab, turn right instead at the overhanging wall and head uphill a short way along the edge.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:brotorp"
+            ]
+          }
+        },
+        "boulderproblem": {
+          "title": {
+            "text": "Boulder Problems",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:brotorp"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:brotorp"
+            ]
+          }
+        },
+        "gammal-forare": {
+          "title": {
+            "text": "Old Guide",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:brotorp"
+            ]
+          },
+          "body": {
+            "text": "Old guide: Klaan (http://www.klaan.nu/brotorp/area.html#)",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:brotorp"
+            ]
+          }
+        },
+        "overhangande-sektorn": {
+          "title": {
+            "text": "Overhanging Sector",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:brotorp"
+            ]
+          },
+          "body": {
+            "text": "From left to right...",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:brotorp"
+            ]
+          }
+        },
+        "amfiteatern": {
+          "title": {
+            "text": "Amfiteatern",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:brotorp"
+            ]
+          },
+          "body": {
+            "text": "From left to right...",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:brotorp"
+            ]
+          }
+        },
+        "svavaggen": {
+          "title": {
+            "text": "Slab Wall",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:brotorp"
+            ]
+          },
+          "body": {
+            "text": "TODO",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:brotorp"
+            ]
+          }
+        }
+      },
+      "routes": {
+        "brotorp-problem-1": {
+          "description": {
+            "text": "Sit start left of 'inget' on good holds, then straight up into the crack and top out right via 'inget'.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:brotorp"
+            ]
+          }
+        },
+        "brotorp-problem-2": {
+          "description": {
+            "text": "Sit start on good holds, then climb up and right and top out.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:brotorp"
+            ]
+          }
+        },
+        "brotorp-problem-3": {
+          "description": {
+            "text": "Sit start with LH on an edge and RH in the crack. Follow the crack to the jug, then continue straight up and top out.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:brotorp"
+            ]
+          }
+        },
+        "brotorp-problem-4": {
+          "description": {
+            "text": "Sit start directly behind the two large trees on a large flat hold. Finishes after three moves at a large jug; this would have been the top if the tree were not there, as it would otherwise be possible to top out.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:brotorp"
+            ]
+          }
+        },
+        "brotorp-problem-5": {
+          "description": {
+            "text": "About 2 metres right of the two large trees. Sit start with LH on an edge and RH on a better edge. Take the easiest line up: three moves to the large rounded hold, match, then top out.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:brotorp"
+            ]
+          }
+        },
+        "brotorp-problem-6": {
+          "description": {
+            "text": "About 2 metres right of the two large trees. A variant of \"Al Taneen\" that avoids the large rounded hold and instead climbs more directly up to the left. The rounded hold is out for both hands and feet.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:brotorp"
+            ]
+          }
+        },
+        "brotorp-problem-7": {
+          "description": {
+            "text": "Standing start with both hands on the jug, then climb to an edge and continue up left. Note: the good footholds and handholds to the left are out. Green line (sit-start project, yellow).",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:brotorp"
+            ]
+          }
+        },
+        "brotorp-problem-8": {
+          "description": {
+            "text": "Sit start with LH in an undercut/sidepull and RH in a pocket. Traverse left and top out. Red line.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:brotorp"
+            ]
+          }
+        },
+        "brotorp-problem-9": {
+          "description": {
+            "text": "Sit start with LH on a good edge and RH on a good flake. Catch a good hold above, then continue straight up and top out. Blue line.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:brotorp"
+            ]
+          }
+        },
+        "brotorp-problem-10": {
+          "description": {
+            "text": "Hanging start with both hands on the jug. Traverse left and finish up 'Det är vad det är'. Black(?) line.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:brotorp"
+            ]
+          }
+        }
+      }
+    }
   }
 }

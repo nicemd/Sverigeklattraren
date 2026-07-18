@@ -41,5 +41,38 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "Guidebook available from Billingens Klatterklubb (http://www4.idrottonline.se/ImageVaultFiles/id_245724/cf_72266/forareversion1.pdf). New permission was granted in 2011 for the following five years. Contact Billingens KK for information.",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:borgehall-och-ryds-grottor"
+        ]
+      },
+      "sections": {
+        "access": {
+          "title": {
+            "text": "Access",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:borgehall-och-ryds-grottor"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:borgehall-och-ryds-grottor"
+            ]
+          }
+        }
+      },
+      "routes": {}
+    }
   }
 }

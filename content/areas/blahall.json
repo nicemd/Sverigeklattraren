@@ -72,5 +72,85 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "A crag for top-roping on the Tofta military training area.",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:blahall"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "Overview",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:blahall"
+            ]
+          },
+          "body": {
+            "text": "A crag for top-roping on the Tofta firing range.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:blahall"
+            ]
+          }
+        },
+        "vagbeskrivning": {
+          "title": {
+            "text": "Directions",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:blahall"
+            ]
+          },
+          "body": {
+            "text": "Map here. Click the map button above.\n\nEnter directions here.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:blahall"
+            ]
+          }
+        },
+        "leder": {
+          "title": {
+            "text": "Routes",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:blahall"
+            ]
+          },
+          "body": {
+            "text": "<!--",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:blahall"
+            ]
+          }
+        }
+      },
+      "routes": {
+        "blahall-led-1": {
+          "description": {
+            "text": "Route description",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:blahall"
+            ]
+          }
+        }
+      }
+    }
   }
 }

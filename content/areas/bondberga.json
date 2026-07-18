@@ -220,5 +220,123 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "A new crag a few kilometres from Gullhamra. The crag is about 20 m wide and the rock is good quality. It is south-facing and shaded by trees.",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:bondberga"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "General",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:bondberga"
+            ]
+          },
+          "body": {
+            "text": "A new crag a few kilometres from Gullhamra. The rock is about 20m wide and of good quality. The crag faces south and is shaded by trees.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:bondberga"
+            ]
+          }
+        },
+        "vagbeskrivning": {
+          "title": {
+            "text": "Directions",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:bondberga"
+            ]
+          },
+          "body": {
+            "text": "From Tumba, take road 226 towards Vårsta. Drive through Vårsta and turn left onto road 225 towards Nynäshamn. After 1.8km, turn right towards Skanssundet and Grödinge Church. After 2.5km, pass the church and Gullhamra berg. Continue for another 2.5km and turn right onto the gravel road by the Bergavägen bus stop. Drive for about 1km, turn right and follow the road for about 500m, then park in the lay-by by the field. Walk along the field for about 500m, with the crag on your right. Do not turn up towards the first crag you see; the routes are a little further on.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:bondberga"
+            ]
+          }
+        },
+        "kommunikation": {
+          "title": {
+            "text": "Public transport",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:bondberga"
+            ]
+          },
+          "body": {
+            "text": "Take bus 727 from Tumba station towards Skanssundet and get off at the Bergavägen bus stop. Journey time is about 20 minutes. Walk along Bergavägen, a gravel road, for about 1km, then turn right at the first turning.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:bondberga"
+            ]
+          }
+        },
+        "leder": {
+          "title": {
+            "text": "Routes",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:bondberga"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:bondberga"
+            ]
+          }
+        }
+      },
+      "routes": {
+        "bondberga-led-1": {
+          "description": {
+            "text": "No feet on the left wall.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:bondberga"
+            ]
+          }
+        },
+        "bondberga-led-3": {
+          "description": {
+            "text": "Go straight up at the last bolt; don't move left onto the ledge.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:bondberga"
+            ]
+          }
+        },
+        "bondberga-led-9": {
+          "description": {
+            "text": "Closed project JE. Traverse the entire crag from the right-hand edge (right of På Frifot) to the left-hand edge, finishing at Tinget.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:bondberga"
+            ]
+          }
+        }
+      }
+    }
   }
 }

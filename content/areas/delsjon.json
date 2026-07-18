@@ -371,5 +371,149 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "Härlanda Tjärn is a lovely swimming lake. Not far from the bathing area is Brudaremossen, a fairly broad crag, 10–12 metres high. Alternatively, follow the figure-of-eight trail to the left before/at the car park to reach Härlanda Tjärn/Västra långvattnet. There is also bouldering in the woods; see gbo-crimp.",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:delsjon"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "General",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:delsjon"
+            ]
+          },
+          "body": {
+            "text": "Härlanda Tjärn is a lovely swimming lake. Not far from the bathing area is Brudaremossen, a fairly wide crag, 10–12 metres high. Alternatively, follow the figure-of-eight trail to the left just before/by the car park to reach Härlanda Tjärn/Västra Långvattnet. There is also bouldering in the woods; see gbo-crimp.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:delsjon"
+            ]
+          }
+        },
+        "access": {
+          "title": {
+            "text": "Access",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:delsjon"
+            ]
+          },
+          "body": {
+            "text": "The area is a nature reserve and is extremely popular. Follow the instructions on signs at the car parks and throughout the area.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:delsjon"
+            ]
+          }
+        },
+        "kollektivtrafik": {
+          "title": {
+            "text": "Public transport",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:delsjon"
+            ]
+          },
+          "body": {
+            "text": "Take bus 17 to Spåntorget, then turn right and follow signs for the Härlanda Tjärn bathing area. The figure-of-eight trail starts just before the car park; the approaches to the various crags are described from here.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:delsjon"
+            ]
+          }
+        },
+        "harlanda-tjarn-vastra-langvattnet": {
+          "title": {
+            "text": "Härlanda Tjärn, Västra Långvattnet",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:delsjon"
+            ]
+          },
+          "body": {
+            "text": "Approach: follow the figure-of-eight trail until you see the crags on the left, just under a kilometre.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:delsjon"
+            ]
+          }
+        },
+        "brudaremossen": {
+          "title": {
+            "text": "Brudaremossen",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:delsjon"
+            ]
+          },
+          "body": {
+            "text": "From the car park at Härlanda Tjärn, follow the figure-of-eight trail, which starts just before the car park. When you reach a lake called Svarttjärn, keep right and follow signs towards Brudaremossen; the crag is on the left-hand side of the path. The crag is shady and dirty, and there are lots of mosquitoes here. However, it is fairly wide and has a great many unclimbed cracks. New-route potential!",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:delsjon"
+            ]
+          }
+        },
+        "brudarebacken": {
+          "title": {
+            "text": "Brudarebacken",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:delsjon"
+            ]
+          },
+          "body": {
+            "text": "Continue past Brudaremossen.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:delsjon"
+            ]
+          }
+        }
+      },
+      "routes": {
+        "delsjon-led-7": {
+          "description": {
+            "text": "A triangular roof, with steep climbing on excellent holds!",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:delsjon"
+            ]
+          }
+        },
+        "delsjon-led-9": {
+          "description": {
+            "text": "GPS: X 6403188, Y 1276987",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:delsjon"
+            ]
+          }
+        }
+      }
+    }
   }
 }

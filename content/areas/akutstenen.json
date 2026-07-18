@@ -150,5 +150,90 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "=Problems=",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:akutstenen"
+        ]
+      },
+      "sections": {},
+      "routes": {
+        "akutstenen-problem-1": {
+          "description": {
+            "text": "Sit start beneath the small overhang. Climb via the edges and the arete. Small, sharp holds.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:akutstenen"
+            ]
+          }
+        },
+        "akutstenen-problem-2": {
+          "description": {
+            "text": "Sit start at the arete, then follow it straight up.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:akutstenen"
+            ]
+          }
+        },
+        "akutstenen-problem-3": {
+          "description": {
+            "text": "Dyno from the edges left of the arete to the lip.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:akutstenen"
+            ]
+          }
+        },
+        "akutstenen-problem-4": {
+          "description": {
+            "text": "Standing start at the small roof; climb straight up.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:akutstenen"
+            ]
+          }
+        },
+        "akutstenen-problem-5": {
+          "description": {
+            "text": "Start on the jug beneath the small roof, traverse right around the arete, then climb up.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:akutstenen"
+            ]
+          }
+        },
+        "akutstenen-problem-6": {
+          "description": {
+            "text": "Standing start with your right hand on the sidepull and left hand on an edge; climb straight up.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:akutstenen"
+            ]
+          }
+        },
+        "akutstenen-problem-7": {
+          "description": {
+            "text": "?",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:akutstenen"
+            ]
+          }
+        }
+      }
+    }
   }
 }

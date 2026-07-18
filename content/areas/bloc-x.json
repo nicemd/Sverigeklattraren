@@ -142,5 +142,80 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "=Directions= Take the E4 from Stockholm towards Södertälje and turn off at the last “Stockholm exit”, towards Alby by the Shell petrol station. Follow the old Södertäljevägen. After passing the lake, turn right towards Draget/Norsborgs Herrgård. Take the second turning on the left, signposted Vällinge. Drive almost all the way to Vällinge; the bloc is in the woods below the field, just before the Home Guard huts. Finding suitable parking is not easy. You can park by a small entrance to the field on the opposite side of the road, a short distance away, but make sure you do not block access for tractors. =Problems=",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:bloc-x"
+        ]
+      },
+      "sections": {},
+      "routes": {
+        "bloc-x-problem-1": {
+          "description": {
+            "text": "The right-hand part of the block's steep face.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:bloc-x"
+            ]
+          }
+        },
+        "bloc-x-problem-2": {
+          "description": {
+            "text": "The left-hand part of the overhanging face.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:bloc-x"
+            ]
+          }
+        },
+        "bloc-x-problem-3": {
+          "description": {
+            "text": "Start as for Compton Crips, then traverse right into Da Bronx.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:bloc-x"
+            ]
+          }
+        },
+        "bloc-x-problem-4": {
+          "description": {
+            "text": "The first problem seen from the road. An OK problem, but with a poor landing.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:bloc-x"
+            ]
+          }
+        },
+        "bloc-x-problem-5": {
+          "description": {
+            "text": "? somewhere on Bloc X",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:bloc-x"
+            ]
+          }
+        },
+        "bloc-x-problem-6": {
+          "description": {
+            "text": "Left of Compton Crips. Sit start beside the dead tree and climb straight up (without dabbing the tree!).",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:bloc-x"
+            ]
+          }
+        }
+      }
+    }
   }
 }

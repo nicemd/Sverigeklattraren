@@ -118,5 +118,70 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "=Problems=",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:balingeberget"
+        ]
+      },
+      "sections": {},
+      "routes": {
+        "balingeberget-problem-1": {
+          "description": {
+            "text": "The central line through the roof. Starts at the back of the roof on a designated block. Goes straight out towards the lip, then mantles out to the right.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:balingeberget"
+            ]
+          }
+        },
+        "balingeberget-problem-2": {
+          "description": {
+            "text": "The direct variant of Snusmumriken. Same start, but the large slopers and EVERYTHING to their left are out.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:balingeberget"
+            ]
+          }
+        },
+        "balingeberget-problem-3": {
+          "description": {
+            "text": "Takes the far-left line through the roof. Starts beneath the roof on a good side crimp for the left hand and a good sidepull for the right. From there, goes straight out and up.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:balingeberget"
+            ]
+          }
+        },
+        "balingeberget-problem-4": {
+          "description": {
+            "text": "Starts on a large jug on the wall left of Hemulen and finishes up Hemulen.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:balingeberget"
+            ]
+          }
+        },
+        "balingeberget-problem-5": {
+          "description": {
+            "text": "Starts in Snusmumriken and finishes in Hemulen. A long, pumpy roof climb.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:balingeberget"
+            ]
+          }
+        }
+      }
+    }
   }
 }

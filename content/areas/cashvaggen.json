@@ -147,5 +147,125 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "Two small walls in Runby, discovered in 2011. There are definitely a few more problems awaiting first ascents! The finest line (no. 1) should be around 6c–7a and is still awaiting a first ascent. Brushing will probably reveal another 3–4 problems to the left of no. 1.",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:cashvaggen"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "General",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:cashvaggen"
+            ]
+          },
+          "body": {
+            "text": "Two small crags in Runby, discovered in 2011. There are definitely a few more problems awaiting first ascents. The finest line (no. 1) should be around 6c–7a and is still awaiting a first ascent. Another 3–4 problems could probably be brushed out to the left of no. 1.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:cashvaggen"
+            ]
+          }
+        },
+        "vagbeskrivning": {
+          "title": {
+            "text": "Directions",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:cashvaggen"
+            ]
+          },
+          "body": {
+            "text": "The crags are in Runby, Upplands Väsby. By car: Leave the E4 when approaching from Stockholm, heading towards Upplands Väsby C, and turn left at the roundabout onto Mälarvägen. Turn right at the roundabout just after Hemköp. Turn left onto Törnbyvägen. Park at the end of Törnbyvägen. Straight ahead, in the direction the road continues, you will see a small path; take it and pass a wooden barrier. Take the first path on the right and follow the edge of the meadow/tree line for about 100m. The crags are on your right.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:cashvaggen"
+            ]
+          }
+        },
+        "leder": {
+          "title": {
+            "text": "Routes",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:cashvaggen"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:cashvaggen"
+            ]
+          }
+        }
+      },
+      "routes": {
+        "cashvaggen-problem-1": {
+          "description": {
+            "text": "Start on the obvious sidepull, then straight up via a crimp and undercling to a sloper. (FA. Christoffer Olander & Tommy Zetterman)",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:cashvaggen"
+            ]
+          }
+        },
+        "cashvaggen-problem-2": {
+          "description": {
+            "text": "The crack. (T.Rönnbäck 2011)",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:cashvaggen"
+            ]
+          }
+        },
+        "cashvaggen-problem-3": {
+          "description": {
+            "text": "Sit start at the sloping ledge, then up right. (T.Rönnbäck 2011)",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:cashvaggen"
+            ]
+          }
+        },
+        "cashvaggen-problem-4": {
+          "description": {
+            "text": "Start on the side jug and go straight up. (T.Rönnbäck, 2011)",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:cashvaggen"
+            ]
+          }
+        },
+        "cashvaggen-problem-5": {
+          "description": {
+            "text": "Sit start at the bottom of the crack, then straight up. (T.Rönnbäck, 2011)",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:cashvaggen"
+            ]
+          }
+        }
+      }
+    }
   }
 }

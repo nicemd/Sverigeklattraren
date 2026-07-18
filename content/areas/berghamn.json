@@ -89,5 +89,85 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "This crag on the island of Södra Berghamn, off Stavsnäs, is up to 20 metres high. Easy to moderately difficult climbing. A good place for beginners, with suitable trees for setting up top ropes. The left-hand section of the crag has good-quality rock. A few routes have been climbed on top rope (approximately 6a–6c+).",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:berghamn"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "Overview",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:berghamn"
+            ]
+          },
+          "body": {
+            "text": "This crag is on the island of Södra Berghamn, off Stavsnäs, and is up to 20 metres high. Easy and moderate climbing. A good place for beginners, with good trees for setting up top ropes. The left-hand section of the crag is good-quality rock. Some routes have been climbed on top rope (approximately 6a–6c+).",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:berghamn"
+            ]
+          }
+        },
+        "vagbeskrivning": {
+          "title": {
+            "text": "Directions",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:berghamn"
+            ]
+          },
+          "body": {
+            "text": "On a calm day, the boat can easily be moored directly below the crag. In summer, when there are a lot of waves or it is windy, the bay facing Norra Berghamn is a better option.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:berghamn"
+            ]
+          }
+        },
+        "leder": {
+          "title": {
+            "text": "Routes",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:berghamn"
+            ]
+          },
+          "body": {
+            "text": "",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:berghamn"
+            ]
+          }
+        }
+      },
+      "routes": {
+        "berghamn-led-1": {
+          "description": {
+            "text": "The obvious corner on the left-hand side of the crag. Crux halfway up. Protected with a couple of small cams.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:berghamn"
+            ]
+          }
+        }
+      }
+    }
   }
 }

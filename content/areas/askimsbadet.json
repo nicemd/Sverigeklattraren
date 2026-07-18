@@ -89,5 +89,110 @@
         "snapshotDate": "2014-01-01"
       }
     ]
+  },
+  "translations": {
+    "en": {
+      "description": {
+        "text": "A small crag at Askimsbadet, 8–9 metres high and 30 metres wide. 4–5 lines.",
+        "method": "llm",
+        "model": "gpt-5.6-sol",
+        "sourceIds": [
+          "legacy:askimsbadet"
+        ]
+      },
+      "sections": {
+        "allmant": {
+          "title": {
+            "text": "Overview",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:askimsbadet"
+            ]
+          },
+          "body": {
+            "text": "A small crag by Askimsbadet, 8–9 metres high and 30 metres wide. 4–5 lines.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:askimsbadet"
+            ]
+          }
+        },
+        "historia": {
+          "title": {
+            "text": "History",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:askimsbadet"
+            ]
+          },
+          "body": {
+            "text": "Patrik Alseby climbed a few routes here in 1991. He showed the crag to a few people, but it fell into obscurity. However, if you are at Askimsbadet for a swim, you may at least want to have a look at the crag, even if you do not intend to climb any of the routes.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:askimsbadet"
+            ]
+          }
+        },
+        "miljo": {
+          "title": {
+            "text": "Setting",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:askimsbadet"
+            ]
+          },
+          "body": {
+            "text": "Askimsbadet is a municipal bathing area with modern facilities, including an accessible bathing jetty, changing rooms, showers, crazy golf and more. The crag is 100 metres from the beach and visible from it, although most of the crag is hidden by dense woodland, so you are unlikely to be disturbed by other bathers.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:askimsbadet"
+            ]
+          }
+        },
+        "vagbeskrivning": {
+          "title": {
+            "text": "Approach",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:askimsbadet"
+            ]
+          },
+          "body": {
+            "text": "Drive to Askimsbadet and park. From the car park, pass the red building marked \"Askims bangolf och beachcafé\", go up to and through the stone-walled terrace on the left, then continue into the woods, heading towards the vertical wall visible from the beach about 100 metres away.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:askimsbadet"
+            ]
+          }
+        },
+        "forare": {
+          "title": {
+            "text": "Guidebooks",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:askimsbadet"
+            ]
+          },
+          "body": {
+            "text": "The crag is not described in any modern guidebook. However, Patrik Alseby probably made the first ascents of most of the lines.",
+            "method": "llm",
+            "model": "gpt-5.6-sol",
+            "sourceIds": [
+              "legacy:askimsbadet"
+            ]
+          }
+        }
+      },
+      "routes": {}
+    }
   }
 }
