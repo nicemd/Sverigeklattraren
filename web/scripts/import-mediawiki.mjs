@@ -1,6 +1,7 @@
 import { mkdir, readFile, readdir, rm, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
+import { translationContextHash } from "./translation-context.mjs";
 
 const webRoot = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const repoRoot = path.resolve(webRoot, "..");
@@ -12,6 +13,7 @@ const imageIndex = new Map();
 const publishedProposals = new Map();
 const topoEnrichment = new Map();
 const looseRouteEnrichment = new Map();
+const translationEnrichment = new Map();
 
 const slugify = (value) => value
   .normalize("NFD")
@@ -435,6 +437,10 @@ try {
   const enrichment = JSON.parse(await readFile(path.join(contentRoot, "enrichment", "loose-routes.json"), "utf8"));
   for (const [key, value] of Object.entries(enrichment.sections || {})) looseRouteEnrichment.set(key.toLocaleLowerCase("sv"), value);
 } catch { /* Löptextberikning är valfri och granskningsbar i Git. */ }
+try {
+  const enrichment = JSON.parse(await readFile(path.join(contentRoot, "enrichment", "translations-en.json"), "utf8"));
+  for (const [key, value] of Object.entries(enrichment.areas || {})) translationEnrichment.set(key.toLocaleLowerCase("sv"), value);
+} catch { /* Översättningar är valfria, cachelagrade och granskningsbara i Git. */ }
 const files = (await readdir(inputDir)).filter((filename) => filename.toLowerCase().endsWith(".txt"));
 for (const filename of await readdir(path.join(repoRoot, "images"))) {
   imageIndex.set(filename.toLowerCase(), filename);
@@ -450,6 +456,8 @@ for (const filename of files) {
   slugOccurrences.set(baseSlug, occurrence);
   const uniqueSlug = occurrence === 1 ? baseSlug : `${baseSlug}-${occurrence}`;
   const area = applyPublishedProposals(parseArea(filename, source, uniqueSlug));
+  const english = translationEnrichment.get(area.slug.toLocaleLowerCase("sv"));
+  if (english?.translation && english.contextHash === translationContextHash(area)) area.translations = { en: english.translation };
   await writeFile(path.join(outputDir, `${area.slug}.json`), `${JSON.stringify(area, null, 2)}\n`);
   manifest.push({
     id: area.id,
@@ -462,6 +470,7 @@ for (const filename of files) {
     imageCount: area.images.length,
     accessSlug: area.access.federationSlug,
     searchText: area.routes.map((route) => `${route.name} ${route.grade}`).join(" "),
+    ...(area.translations?.en ? { translations: { en: { description: area.translations.en.description } } } : {}),
   });
 }
 manifest.sort((a, b) => a.name.localeCompare(b.name, "sv"));

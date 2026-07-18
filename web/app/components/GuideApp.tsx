@@ -20,6 +20,15 @@ function RichText({ text }: { text: string }) {
     : <Fragment key={index}>{piece}</Fragment>)}</>;
 }
 
+function MachineTranslationNote({ value, original, compact = false }: { value?: { method: "human" | "llm"; model?: string }; original: string; compact?: boolean }) {
+  if (value?.method !== "llm") return null;
+  const model = value.model ? ` with ${value.model}` : "";
+  return <details className={`machine-translation ${compact ? "compact" : ""}`}>
+    <summary>Machine translated from Swedish{model} · View original</summary>
+    <p lang="sv"><RichText text={original} /></p>
+  </details>;
+}
+
 function StructuredProse({ blocks, fallback }: { blocks?: Area["sections"][number]["blocks"]; fallback: string }) {
   if (!blocks?.length) return <p><RichText text={fallback} /></p>;
   return <div className="structured-prose">{blocks.map((block, index) => block.kind === "heading"
@@ -319,9 +328,22 @@ function AreaView({ area, access, initialRouteQuery, locale, onSuggest }: { area
   const imagesForSector = (targetSectorId: string) => {
     const targetRouteIds = new Set(area.routes.filter((route) => route.sectorId === targetSectorId && (discipline === "all" || route.kind === discipline)).map((route) => route.id));
     const candidates = area.images.filter((image) => !image.missing && image.imageKind !== "photo" && image.imageKind !== "map");
+    const rank = (images: Area["images"]) => uniqueImages(images).sort((left, right) => {
+      const score = (image: Area["images"][number]) => {
+        const relations = (image.routeRelations || []).filter((relation) => targetRouteIds.has(relation.routeId));
+        return Math.max(0, ...relations.map((relation) => relation.confidence)) * 100
+          + relations.filter((relation) => relation.method === "vision").length * 4
+          + relations.length * 0.1
+          - (/^\d+\s*(?:width)?px$/i.test(image.caption.trim()) ? 20 : 0);
+      };
+      return score(right) - score(left);
+    });
     const direct = candidates.filter((image) => image.sectorId === targetSectorId);
-    if (direct.length) return uniqueImages(direct);
-    return uniqueImages(candidates.filter((image) => image.routeRelations?.some((relation) => targetRouteIds.has(relation.routeId) && relation.confidence >= 0.7)
+    const relatedDirect = direct.filter((image) => image.routeRelations?.some((relation) => targetRouteIds.has(relation.routeId) && relation.confidence >= 0.7)
+      || image.routeIds?.some((routeId) => targetRouteIds.has(routeId)));
+    if (relatedDirect.length) return rank(relatedDirect);
+    if (direct.length) return rank(direct);
+    return rank(candidates.filter((image) => image.routeRelations?.some((relation) => targetRouteIds.has(relation.routeId) && relation.confidence >= 0.7)
       || image.routeIds?.some((routeId) => targetRouteIds.has(routeId))));
   };
   const selectedSectorImages = selectedSector ? imagesForSector(selectedSector.id) : [];
@@ -393,6 +415,7 @@ function AreaView({ area, access, initialRouteQuery, locale, onSuggest }: { area
           <span className="eyebrow">{climbingLabel}</span>
           <h1>{areaName}</h1>
           <p><RichText text={areaDescription} /></p>
+          {locale === "en" && <MachineTranslationNote value={areaTranslation?.description} original={area.description} />}
           {locale === "en" && !hasEnglishContent && <small className="translation-notice">Source content is currently shown in Swedish. The interface and contribution workflow are available in English.</small>}
           <div className="hero-stats">
             <div className="hero-stat"><strong>{routeCount}</strong><span>{countLabel}</span></div>
@@ -476,10 +499,11 @@ function AreaView({ area, access, initialRouteQuery, locale, onSuggest }: { area
             {visibleRoutes.map((route, visibleIndex) => (
               <Fragment key={route.id}>
               {(visibleIndex === 0 || visibleRoutes[visibleIndex - 1]?.sectorId !== route.sectorId) && (sectorId === "all" || selectedSectorImages.length === 0) && (() => {
-                const groupImages = route.sectorId ? imagesForSector(route.sectorId).slice(0, 3) : [];
+                const allGroupImages = route.sectorId ? imagesForSector(route.sectorId) : [];
+                const groupImages = allGroupImages.slice(0, 1);
                 const groupSection = route.sectorId ? sectionById.get(route.sectorId) : undefined;
                 const groupTitle = groupSection ? sectionTitle(groupSection) : tr(locale, "Övriga leder", "Other routes");
-                return <div className={`sector-heading ${groupImages.length ? "with-topos" : ""}`}><strong>{groupTitle}</strong><span><RichText text={groupSection ? sectionBody(groupSection) || tr(locale, "Sektorsbeskrivning saknas i originalet.", "The original has no sector description.") : tr(locale, "Sektorsbeskrivning saknas i originalet.", "The original has no sector description.")} /></span>{groupImages.length > 0 && <div className="sector-heading-topos">{groupImages.map((image) => <div className="sector-heading-topo" key={image.filename}>{renderTopoVisual(image, groupTitle)}<small>{imageCaption(image) || tr(locale, "Sektorskiss", "Sector topo")}</small></div>)}</div>}</div>;
+                return <div className={`sector-heading ${groupImages.length ? "with-topos" : ""}`}><strong>{groupTitle}</strong><span><RichText text={groupSection ? sectionBody(groupSection) || tr(locale, "Sektorsbeskrivning saknas i originalet.", "The original has no sector description.") : tr(locale, "Sektorsbeskrivning saknas i originalet.", "The original has no sector description.")} /></span>{groupImages.length > 0 && <div className="sector-heading-topos">{groupImages.map((image) => <div className="sector-heading-topo" key={image.filename}>{renderTopoVisual(image, groupTitle)}<small>{imageCaption(image) || tr(locale, "Sektorskiss", "Sector topo")}{allGroupImages.length > 1 ? ` · +${allGroupImages.length - 1} ${tr(locale, "vid sektorval", "when sector is selected")}` : ""}</small></div>)}</div>}</div>;
               })()}
               {renderRouteRow(route)}
               </Fragment>
@@ -528,9 +552,9 @@ function AreaView({ area, access, initialRouteQuery, locale, onSuggest }: { area
           <div className="route-detail-facts"><strong>{selectedRoute.grade || tr(locale, "Ograderad", "Ungraded")}</strong><span>{selectedRoute.kind === "problem" ? tr(locale, "Boulderproblem", "Boulder problem") : tr(locale, "Klätterled", "Climbing route")}</span>{selectedRoute.length && <span>{selectedRoute.length} m</span>}{selectedRoute.type && <span>{selectedRoute.type}</span>}</div>
           {selectedRoute.firstAscent && <p className="first-ascent">{tr(locale, "Förstebestigning", "First ascent")}: <strong>{selectedRoute.firstAscent}</strong></p>}
           {selectedRoute.extraction?.method === "llm" && <p className="extraction-note">{tr(locale, "Strukturerad med OpenAI från originalförarens löptext · konfidens", "Structured with OpenAI from the original guide text · confidence")} {Math.round(selectedRoute.extraction.confidence * 100)} %</p>}
-          {routeDescription(selectedRoute) && <div className="route-description"><strong>{tr(locale, "Ledbeskrivning", "Route description")}</strong><p><RichText text={routeDescription(selectedRoute)} /></p></div>}
+          {routeDescription(selectedRoute) && <div className="route-description"><strong>{tr(locale, "Ledbeskrivning", "Route description")}</strong><p><RichText text={routeDescription(selectedRoute)} /></p>{locale === "en" && <MachineTranslationNote compact value={areaTranslation?.routes?.[selectedRoute.id]?.description} original={selectedRoute.description} />}</div>}
           {routeBeta(selectedRoute) && <div className="beta-panel">
-            {!showBeta ? <button type="button" className="beta-toggle" onClick={() => setShowBeta(true)}>{tr(locale, "Visa beta", "Show beta")}</button> : <><div className="beta-heading"><strong>{tr(locale, "Beta från originalföraren", "Beta from the original guide")}</strong><button type="button" onClick={() => setShowBeta(false)}>{tr(locale, "Dölj beta", "Hide beta")}</button></div><p><RichText text={routeBeta(selectedRoute) || ""} /></p></>}
+            {!showBeta ? <button type="button" className="beta-toggle" onClick={() => setShowBeta(true)}>{tr(locale, "Visa beta", "Show beta")}</button> : <><div className="beta-heading"><strong>{tr(locale, "Beta från originalföraren", "Beta from the original guide")}</strong><button type="button" onClick={() => setShowBeta(false)}>{tr(locale, "Dölj beta", "Hide beta")}</button></div><p><RichText text={routeBeta(selectedRoute) || ""} /></p>{locale === "en" && <MachineTranslationNote compact value={areaTranslation?.routes?.[selectedRoute.id]?.beta} original={selectedRoute.beta || ""} />}</>}
           </div>}
           {selectedRouteImages.length > 0 ? <div className="route-detail-images"><div><strong>{tr(locale, "Kopplad skiss", "Linked topo")}</strong><span>{selectedRouteImages.some((image) => routeImageRelation(image, selectedRoute.id)?.method === "vision" && (routeImageRelation(image, selectedRoute.id)?.confidence || 0) >= 0.85) ? tr(locale, "Lednumret är avläst i originalskissen", "The route number was read from the original topo") : tr(locale, "Kopplad genom bildens placering vid ledlistan i originalet", "Linked by the image's position next to the route list in the original")} · {tr(locale, "tryck för full storlek", "tap for full size")}</span></div><div>{selectedRouteImages.slice(0, 4).map((image) => <button type="button" key={image.filename} onClick={() => setOpenImage(image)} aria-label={`${tr(locale, "Visa bild", "View image")}: ${imageCaption(image)}`}>
             {/* eslint-disable-next-line @next/next/no-img-element */}

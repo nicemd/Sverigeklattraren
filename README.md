@@ -1,72 +1,82 @@
 # Sverigeföraren
 
-En modern, öppen och källspårbar klätterförare – och ett praktiskt experiment i hur en LLM-baserad wiki kan återuppliva kunskap som annars går förlorad.
+A modern, open, and source-traceable climbing guide—and a practical experiment in how an LLM-powered wiki can revive knowledge that would otherwise be lost.
 
-Sverigeföraren.se grundades 2006 av Niclas Emdelius och Per Lindh, såldes 2013 och förföll därefter. Projektet bygger på den öppet licensierade ögonblicksbild som bevarades 2014.
+Sverigeföraren.se was founded in 2006 by Niclas Emdelius and Per Lindh, sold in 2013, and subsequently fell into disrepair. This project is built on the openly licensed snapshot preserved in 2014.
 
-Den nya applikationen finns i `web/`. Originalets MediaWiki-filer och bilder ligger kvar oförändrade i `mediawiki/` respektive `images/`. Importverktyget skapar strukturerade områdesdokument i `content/` och bevarar en direkt hänvisning till primärkällan för varje led och problem.
+The new application is located in `web/`. The original MediaWiki files and images remain unchanged in `mediawiki/` and `images/`. The importer creates structured area documents in `content/` while preserving a direct reference to the primary source for every route and problem.
 
-## En agentdriven wiki
+## OpenAI Build Week: how Codex and GPT-5.6 were used
 
-Codex har använts för att bygga, testa och iterera produkten. OpenAI API och GPT-5.6 driver tre tydliga redaktionella roller:
+Codex was the end-to-end development collaborator for Sverigeföraren. It helped analyze the legacy MediaWiki archive, design the source-provenance model, implement the importer and agent workflows, build the responsive Next.js interface, write and run tests, diagnose failures, and validate production builds. Codex also helped create and verify the Docker-based deployment workflow, prepare the demo-video manuscript, and shape the Build Week submission. It supported the full path from a dormant archive and an initial idea to a deployed, documented product.
 
-- **Importagenten** strukturerar MediaWiki-mallar och lös text samt tolkar lednummer i topos med vision.
-- **Kvalitetsagenten** granskar formatering, källor, motsägelser och osäkra relationer med explicit belägg och konfidens.
-- **Redaktörsagenten** omvandlar användares fritext till precisa, källbelagda ändringsförslag och ställer följdfrågor när uppgifterna inte räcker.
+GPT-5.6 is also part of the running application through the OpenAI Responses API. It powers three evidence-bound editorial roles:
 
-Git är wikins minne: varje publicerbar förändring är en diff och en commit. Modellen får föreslå struktur och samband men är aldrig själv en faktakälla. Målet är en generell arkitektur för övergivna kunskapsbaser, demonstrerad i ett krävande fältfall där användaren faktiskt måste kunna hitta rätt klippa, sektor, skiss och led.
+- **Import agent:** identifies route lists in loosely structured source material and proposes structured records with explicit evidence and confidence.
+- **Editor agent:** converts a climber's free-text contribution into a precise, source-backed change proposal and asks follow-up questions when required information is missing.
+- **Quality agent:** independently checks provenance, contradictions, uncertainty, and presentation before a proposal can be published.
+- **Translation agent:** produces context-aware English descriptions from the complete area, sector, discipline, and neighbouring-route context while keeping route names, grades, and factual details unchanged.
 
-## Funktioner
+GPT-5.6 vision is used to read route numbers and other markers from historical topos and propose connections to the corresponding structured routes. Each proposed relationship records its method, evidence, and confidence, and uncertain matches are not presented as facts.
 
-- 803 sökbara klätterområden och 14 830 importerade leder/problem.
-- Responsiv React/Next.js-vy med karta, vägbeskrivning, sektorer, bilder, topos och klickbara ledkort.
-- Beständigt språkval mellan svenska och engelska för hela gränssnittet, fältflödet och redaktörsagenten.
-- Sökning på område, led och grad samt filtrering mellan sektorer, klätterleder och boulderproblem.
-- Ledkort med nummer, grad, längd, förstebestigning, synlig ledbeskrivning och källor. Ett separat beta-fält visas först efter ett aktivt val.
-- Spårbara relationer mellan sektor, led och skiss. Kopplingen kan härledas från källordning, filnamn eller bildtolkning av lednummer och har metod, belägg och konfidens.
-- Livekoppling till Svenska Klätterförbundets accessdatabas med källans uppdateringsdatum och lokal hämtningstid.
-- Fritextförslag som bearbetas av separata struktur-, presentations- och granskningsagenter via OpenAI Responses API.
-- Kvalitetsgrind där access, parkering, vägbeskrivning, koordinater, avstängningar och säkerhetsuppgifter alltid kräver mänsklig granskning.
-- Godkända ändringar och granskningsärenden sparas genom Git-commits.
-- Källor registreras per ändrat ledfält. Faktareferenser, exempelvis 27crags, får belägga korta fakta men aldrig återpublicerad text, bild eller topo.
+The key product decision was to use AI for interpretation, never as factual authority. Every factual addition must point to a real source. Access restrictions, closures, parking, directions, coordinates, and safety information are protected changes that always require authoritative evidence and human review. Git records accepted changes as reviewable diffs and commits, giving the agent-driven wiki a durable audit trail.
 
-## Data och databas
+## An agent-driven wiki
 
-Projektets publicerade kunskapsdatabas är versionsstyrda JSON-dokument i `content/areas/`. Det finns ingen separat SQL-databas i drift: Git är historik och granskningsspår, medan JSON-dokumenten är den byggbara och publicerbara representationen. `content/areas.json` är det sökbara områdesindexet.
+Codex was used to build, test, and iterate on the product. The OpenAI API and GPT-5.6 power three distinct editorial roles:
 
-### Engelska och källspårade översättningar
+- **The import agent** structures MediaWiki templates and loose text, and uses vision to interpret route numbers in topos.
+- **The quality agent** reviews formatting, sources, contradictions, and uncertain relationships using explicit evidence and confidence.
+- **The editor agent** transforms users' free-text input into precise, source-backed change proposals and asks follow-up questions when the available information is insufficient.
 
-Områdesdokument kan innehålla `translations.en` för områdesnamn och beskrivning samt översättningar per sektor, led och bild. Varje översatt värde lagrar metod (`human` eller `llm`), käll-id:n, eventuell modell och granskningstid. Engelska UI-texter är inbyggda; där en granskad innehållsöversättning ännu saknas visas originalets svenska text med en tydlig språknotis. På så sätt kan en översättningsagent fylla på innehåll stegvis utan att en maskinöversättning blandas ihop med originalkällan.
+Git is the wiki's memory: every publishable change is a diff and a commit. The model may propose structure and relationships, but it is never itself a factual source. The goal is a general architecture for abandoned knowledge bases, demonstrated through a demanding real-world case where users must be able to find the correct crag, sector, topo, and route.
 
-Varje områdesdokument följer i huvudsak denna modell:
+## Features
+
+- 803 searchable climbing areas and 14,830 imported routes and problems.
+- A responsive React/Next.js interface with maps, directions, sectors, images, topos, and interactive route cards.
+- Search by area, route, and grade, with filters for sectors, climbing routes, and boulder problems.
+- Route cards with number, grade, length, first ascent, visible route description, and sources. A separate beta field is revealed only after an explicit user action.
+- Traceable relationships between sectors, routes, and topos. A relationship can be derived from source order, filenames, or visual interpretation of route numbers, and records its method, evidence, and confidence.
+- Live integration with the Swedish Climbing Federation's access database, showing both the source's update time and the local fetch time.
+- Free-text proposals processed by separate structuring, presentation, and review agents through the OpenAI Responses API.
+- A quality gate where access, parking, directions, coordinates, closures, and safety information always require human review.
+- Approved changes and review cases are stored as Git commits.
+- Sources are registered per changed route field. Fact-reference sources, such as 27crags, may support short factual claims but never republished text, images, or topos.
+
+## Data and database
+
+The project's published knowledge base consists of version-controlled JSON documents in `content/areas/`. There is no separate SQL database in production: Git provides history and the review trail, while the JSON documents are the buildable and publishable representation. `content/areas.json` is the searchable area index.
+
+Each area document broadly follows this model:
 
 ```text
-område
-├── sektorer och redaktionella textblock
-├── leder och problem
-│   ├── sektorrelation
-│   ├── källa för originalposten
-│   └── noll, en eller flera källor per faktfält
-├── bilder och topos
-│   └── ledrelationer med metod, konfidens och belägg
-├── externa länkar
-├── accesskoppling
-└── provenance och kvalitetsanmärkningar
+area
+├── sectors and editorial text blocks
+├── routes and problems
+│   ├── sector relationship
+│   ├── source for the original record
+│   └── zero, one, or multiple sources per factual field
+├── images and topos
+│   └── route relationships with method, confidence, and evidence
+├── external links
+├── access relationship
+└── provenance and quality notes
 ```
 
-`mediawiki/` och `images/` är den oföränderliga ögonblicksbilden från 2014. Importen får förbättra strukturen men skriver aldrig om originalet. Genererade dokument kan byggas om reproducerbart och senare, committade förslag spelas då tillbaka.
+`mediawiki/` and `images/` contain the immutable 2014 snapshot. The importer may improve the structure but never rewrites the original. Generated documents can be rebuilt reproducibly, with later committed proposals replayed during the process.
 
-## Skisser och ledrelationer
+## Topos and route relationships
 
-En topo kan höra till en sektor och samtidigt vara kopplad till flera leder. Importören använder generella, granskningsbara signaler:
+A topo may belong to a sector while also being linked to multiple routes. The importer uses general, reviewable signals:
 
-- `source-order`: bilden och ledlistan följer varandra i samma originalsektion.
-- `filename`: ledens identitet framgår av bildens filnamn.
-- `vision`: OpenAI läser lednummer eller andra tydliga markörer i skissen och matchar dem mot den strukturerade ledlistan.
+- `source-order`: the image and route list follow each other within the same original section.
+- `filename`: the route's identity is apparent from the image filename.
+- `vision`: OpenAI reads route numbers or other clear markers in the topo and matches them to the structured route list.
 
-Varje relation lagrar metod, konfidens och ett kort belägg. Osäkra relationer visas inte som säkra; ledkortet säger i stället att ingen skiss ännu har kunnat kopplas. Underlaget för LLM-berikning sparas i `content/enrichment/`, så resultatet kan granskas och byggas om utan ett nytt modell-anrop.
+Each relationship stores its method, confidence, and a short piece of evidence. Uncertain relationships are not presented as certain; instead, the route card states that no topo has yet been reliably linked. The inputs and outputs of LLM enrichment are stored in `content/enrichment/`, allowing the results to be reviewed and rebuilt without another model call.
 
-Kör bildtolkningen för ett avgränsat område eller uttryckligen för alla områden:
+Run visual interpretation for a specific area, or explicitly for all areas:
 
 ```powershell
 cd web
@@ -74,29 +84,32 @@ npm run content:topos -- --area haggsta
 npm run content:topos -- --all
 ```
 
-## Flera källor och rättigheter
+## Multiple sources and rights
 
-`provenance.sources` innehåller områdets källregister. Varje led har en primärkälla och kan dessutom ha `fieldSources` för exempelvis namn, grad, längd, förstebestigning, ledbeskrivning, beta eller sektor. Samma faktauppgift kan därmed beläggas av flera källor och olika fält på samma led kan ha olika ursprung. Ledbeskrivning anger var och hur linjen går på klippan och visas direkt; beta beskriver grepp, rörelser eller lösning och är dold tills användaren väljer att visa den.
+`provenance.sources` contains the area's source registry. Every route has a primary source and may also have `fieldSources` for fields such as name, grade, length, first ascent, route description, beta, or sector. The same factual claim can therefore be supported by multiple sources, while different fields on the same route may have different origins. The route description explains where and how the line runs on the rock and is displayed directly; beta describes holds, moves, or the solution and remains hidden until the user chooses to reveal it.
 
-En källa anger hur den får användas:
+A source specifies how it may be used:
 
-- `licensed-content`: licensen tillåter att materialet återpubliceras med angiven attribution.
-- `fact-reference`: källan belägger enstaka fakta; text, bilder och topos kopieras inte.
-- `firsthand`: ett användarförslag eller annan förstahandsuppgift med egen spårbarhet.
+- `licensed-content`: the license permits the material to be republished with attribution.
+- `fact-reference`: the source supports individual facts; its text, images, and topos are not copied.
+- `firsthand`: a user proposal or other firsthand report with its own traceability.
 
-Det gör det möjligt att exempelvis komplettera ett lednamn från en extern tjänst utan att återpublicera tjänstens beskrivning eller bilder. Källhänvisningar visas både för området och på det berörda ledkortet.
+This makes it possible, for example, to supplement a route name from an external service without republishing that service's description or images. Source references are shown both for the area and on the affected route card.
 
-## LLM-driven import och ändringsförslag
+## LLM-driven import and change proposals
 
-OpenAI används för uppgifter där den gamla wikins mallar och löptext inte räcker för deterministisk import:
+OpenAI is used for tasks where the old wiki's templates and prose are insufficient for deterministic import:
 
-- `npm run content:loose-routes -- --area <slug>` identifierar ledlistor i löst innehåll och föreslår strukturerade leder med explicit belägg och konfidens.
-- `npm run content:topos -- --area <slug>` tolkar skisser och föreslår relationer till befintliga lednummer.
-- Fritextförslag i sajten hanteras av separata roller för faktainsamling, presentation och oberoende kvalitetsgranskning.
+- `npm run content:loose-routes -- --area <slug>` identifies route lists in loose content and proposes structured routes with explicit evidence and confidence.
+- `npm run content:topos -- --area <slug>` interprets topos and proposes relationships to existing route numbers.
+- `npm run content:translate -- --area <slug>` creates context-aware English descriptions and beta, clearly marked as machine translated in the reader. Use `--all` only when intentionally refreshing the complete archive.
+- Free-text proposals submitted through the site are processed by separate roles for fact collection, presentation, and independent quality review.
 
-LLM-resultat är aldrig i sig en faktakälla. De måste peka tillbaka på källmaterialet, lagras som granskningsbart berikningsunderlag och passera projektets kvalitetsgrind. Godkända ändringar blir Git-commits; access, parkering, avstängningar, koordinater och annan säkerhetskritisk information kräver mänsklig granskning.
+Translations are an import enrichment rather than an opaque runtime rewrite. Results are cached in `content/enrichment/translations-en.json`, carry their model and source references, and are committed for review. A hash of the Swedish area, sectors, routes, descriptions, and beta invalidates stale translations after source changes; the MediaWiki importer reapplies only cache entries matching the current source context. This keeps repeated imports deterministic and avoids translating route descriptions without knowing whether a term refers to a hold, a feature, an orientation, or a place. Route descriptions remain visible, while translated beta remains behind the same explicit reveal control as Swedish beta.
 
-## Lokal utveckling
+LLM output is never itself a factual source. It must point back to source material, be stored as reviewable enrichment data, and pass the project's quality gate. Approved changes become Git commits; access, parking, closures, coordinates, and other safety-critical information require human review.
+
+## Local development
 
 ```powershell
 cd web
@@ -105,9 +118,9 @@ npm run content:import
 npm run dev
 ```
 
-Konfigurationen dokumenteras i `.env.example`. Lägg hemligheter i den Git-ignorerade `.env.local` i repots rot; Next-konfigurationen läser samma fil vid lokal utveckling och deployskriptet återanvänder den utan att checka in nyckeln. Standardmodellen är den explicita kvalitetsrollen `gpt-5.6-sol`.
+Configuration is documented in `.env.example`. Store secrets in the Git-ignored `.env.local` file at the repository root; the Next.js configuration reads the same file during local development, and the deployment script reuses it without committing the key. The default model for the explicit quality role is `gpt-5.6-sol`.
 
-## Verifiering
+## Verification
 
 ```powershell
 cd web
@@ -115,14 +128,14 @@ npm test
 npm run build
 ```
 
-`npm run build` använder den versionsstyrda `content/`-representationen. `npm run content:import` behövs när importeraren eller 2014-källorna ändras och återspelar då auto-publicerade förslag så att senare kunskap inte går förlorad.
+`npm run build` uses the version-controlled `content/` representation. `npm run content:import` is required when the importer or the 2014 sources change; it then replays automatically published proposals so that later knowledge is not lost.
 
-## Privat drift på davtor1
+## Private deployment on davtor1
 
-`Dockerfile`, `docker-compose.yml` och `deploy.ps1` bygger en Git-versionsmärkt GHCR-image, håller applikationsporten bunden till `127.0.0.1` och exponerar den privat med värdens Tailscale Service. Deployskriptet kräver en ren `codex/wiki-2026`, kontrollerar servicekapabiliteten före push, kräver alltid en uttrycklig `DEPLOY`-bekräftelse, väntar in hälsa och återställer föregående compose-konfiguration om fjärrverifieringen misslyckas.
+`Dockerfile`, `docker-compose.yml`, and `deploy.ps1` build a Git-versioned GHCR image, keep the application port bound to `127.0.0.1`, and expose it privately through the host's Tailscale Service. The deployment script requires a clean `codex/wiki-2026` branch, checks the service capability before pushing, always requires an explicit `DEPLOY` confirmation, waits for the application to become healthy, and restores the previous Compose configuration if remote verification fails.
 
-Om davtor1 har kapabiliteten `services/sverigeforaren` används den egna adressen `https://sverigeforaren.tail026a3a.ts.net/`. Annars använder skriptet automatiskt den privata MagicDNS-reservadressen `https://davtor1.tail026a3a.ts.net:8443/`, utan att påverka värdens befintliga HTTPS-tjänster på port 443. `-Confirmed` får bara användas när användaren redan har godkänt deploy uttryckligen i den aktiva sessionen.
+If davtor1 has the `services/sverigeforaren` capability, the dedicated address `https://sverigeforaren.tail026a3a.ts.net/` is used. Otherwise, the script automatically uses the private MagicDNS fallback address `https://davtor1.tail026a3a.ts.net:8443/` without affecting the host's existing HTTPS services on port 443. `-Confirmed` may only be used when the user has already explicitly approved the deployment in the active session.
 
-## Licens
+## License
 
-Originalinnehållet distribueras under GNU Free Documentation License. Se [LICENSE](LICENSE). Nya externa källor ska registreras med egen attribution och licensmetadata; en extern källa görs aldrig automatiskt till projektets egen text.
+The original content is distributed under the GNU Free Documentation License. See [LICENSE](LICENSE). New external sources must be registered with their own attribution and license metadata; an external source never automatically becomes project-owned text.

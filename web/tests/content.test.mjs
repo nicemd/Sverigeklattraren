@@ -4,6 +4,7 @@ import { spawn } from "node:child_process";
 import os from "node:os";
 import path from "node:path";
 import test from "node:test";
+import { translationContextHash } from "../scripts/translation-context.mjs";
 
 const repoRoot = path.resolve(process.cwd(), "..");
 const contentRoot = path.join(repoRoot, "content");
@@ -155,4 +156,29 @@ test("keeps route descriptions visible and beta in a separate spoiler field", as
   const component = await readFile(path.join(process.cwd(), "app", "components", "GuideApp.tsx"), "utf8");
   assert.match(component, /className="route-description"[\s\S]*routeDescription\(selectedRoute\)/);
   assert.match(component, /routeBeta\(selectedRoute\)[\s\S]*className="beta-panel"/);
+});
+
+test("invalidates cached translations when source context changes, but not when translations are attached", () => {
+  const area = {
+    name: "Testklippan", description: "En sva leder åt vänster.", categories: ["Sport"],
+    sections: [{ id: "sva", title: "Sva-väggen", body: "Väggen vetter mot söder." }],
+    routes: [{ id: "led-1", kind: "route", number: "1", name: "Namnet", grade: "6a", type: "sport", sectorId: "sva", description: "Följ sprickan.", beta: "Höger hand på listen." }],
+  };
+  const originalHash = translationContextHash(area);
+  assert.equal(translationContextHash({ ...area, translations: { en: { description: { text: "A slab.", method: "llm", sourceIds: ["legacy:test"] } } } }), originalHash);
+  assert.notEqual(translationContextHash({ ...area, routes: [{ ...area.routes[0], description: "Följ diedret." }] }), originalHash);
+});
+
+test("marks machine translations and keeps the Swedish original available", async () => {
+  const component = await readFile(path.join(process.cwd(), "app", "components", "GuideApp.tsx"), "utf8");
+  assert.match(component, /Machine translated from Swedish/);
+  assert.match(component, /<p lang="sv"><RichText text=\{original\}/);
+  assert.match(component, /areaTranslation\?\.routes\?\.\[selectedRoute\.id\]\?\.description/);
+});
+
+test("prefers sector topos with verified route relations over unlinked historical images", async () => {
+  const component = await readFile(path.join(process.cwd(), "app", "components", "GuideApp.tsx"), "utf8");
+  assert.match(component, /const relatedDirect = direct\.filter/);
+  assert.match(component, /if \(relatedDirect\.length\) return rank\(relatedDirect\)/);
+  assert.match(component, /const groupImages = allGroupImages\.slice\(0, 1\)/);
 });

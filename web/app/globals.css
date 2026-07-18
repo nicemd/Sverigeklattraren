@@ -137,6 +137,13 @@ a { color: inherit; }
 .hero-stat strong { display: block; font-family: Georgia, serif; font-size: 28px; }
 .hero-stat span { color: rgb(255 255 255 / 62%); font-size: 11px; letter-spacing: .08em; text-transform: uppercase; }
 .translation-notice { background: rgb(255 255 255 / 10%); border-left: 3px solid var(--moss); color: #d8e5de; display: block; font-size: 11px; line-height: 1.45; margin-top: 18px; padding: 9px 11px; }
+.machine-translation { background: rgb(255 255 255 / 10%); border-left: 3px solid var(--moss); color: #d8e5de; font-size: 11px; line-height: 1.45; margin-top: 18px; padding: 9px 11px; position: relative; z-index: 2; }
+.machine-translation summary { cursor: pointer; font-weight: 750; }
+.machine-translation > p { border-top: 1px solid rgb(255 255 255 / 16%); color: #edf4ef; font-size: 12px; margin: 8px 0 0; padding-top: 8px; }
+.machine-translation.compact { background: #eef1e9; border-left-color: #9db58f; color: #42564c; margin-top: 10px; }
+.machine-translation.compact > p { border-top-color: #d6ded1; color: #344b41; font-size: 13px; }
+.beta-panel .machine-translation.compact { background: rgb(255 255 255 / 8%); border-left-color: #f4c65f; color: #e6eee9; }
+.beta-panel .machine-translation.compact > p { border-top-color: rgb(255 255 255 / 14%); color: #f4f7f5; }
 .map-card { background: #dce6d5; border-radius: 26px; min-height: 350px; overflow: hidden; position: relative; }
 #area-map { inset: 0; position: absolute; }
 .map-overlay { background: rgb(255 253 248 / 92%); border-radius: 14px; bottom: 15px; left: 15px; padding: 11px 13px; position: absolute; z-index: 2; }

@@ -9,6 +9,7 @@
     "content:import": "node scripts/import-mediawiki.mjs",
     "content:topos": "node scripts/enrich-topo-relations.mjs",
     "content:loose-routes": "node scripts/enrich-loose-routes.mjs",
+    "content:translate": "node scripts/enrich-translations.mjs",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
