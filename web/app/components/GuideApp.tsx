@@ -249,7 +249,8 @@ function AboutDialog({ locale, onClose }: { locale: Locale; onClose: () => void 
         <h3>{tr(locale, "Git är wikins minne", "Git is the wiki's memory")}</h3>
         <p>{tr(locale, "Den publicerade kunskapsdatabasen består av versionsstyrda JSON-dokument. Uppgifter kan ha flera källor per fält, och varje agentändring blir en diff och en commit. GPT-5.6 får föreslå struktur och samband men är aldrig själv en faktakälla. Access, parkering, avstängningar och annan säkerhetskritisk information kräver mänskligt godkännande.", "The published knowledge base consists of version-controlled JSON documents. Fields may cite multiple sources, and every agent edit becomes a diff and a commit. GPT-5.6 may propose structure and relationships but is never itself a factual source. Access, parking, closures and other safety-critical information always require human approval.")}</p>
         <p>{tr(locale, "Samma arkitektur kan återuppliva andra övergivna kunskapsbaser: bevara originalet, importera med agenter, spåra varje påstående och låt människor bidra på sitt eget språk.", "The same architecture can revive other abandoned knowledge bases: preserve the original, import with agents, trace every claim and let people contribute in their own language.")}</p>
-        <p><strong>{tr(locale, "Licens:", "Licence:")}</strong> GNU Free Documentation License. {tr(locale, "Nya externa källor behåller sin egen attribution och licensmetadata.", "New external sources retain their own attribution and licence metadata.")}</p>
+        <p><strong>{tr(locale, "Licens för innehåll:", "Content licence:")}</strong> GNU Free Documentation License 1.3. {tr(locale, "Förartexter, beskrivningar och översättningar förblir fria. Själva sajten, designen och agentverktygen är proprietära och får inte återanvändas utan tillstånd. Externa källor behåller sin egen attribution och licensmetadata.", "Guide text, descriptions and translations remain free. The website software, design and agent tooling are proprietary and may not be reused without permission. External sources retain their own attribution and licence metadata.")}</p>
+        <a className="source-link" href="https://github.com/nicemd/Sverigeklattraren/blob/main/CONTENT_LICENSE.md" target="_blank" rel="noreferrer"><span>{tr(locale, "Fullständiga licensvillkor", "Full licence terms")}</span><span>↗</span></a>
         <a className="source-link" href="https://github.com/nicemd/Sverigeklattraren" target="_blank" rel="noreferrer"><span>{tr(locale, "Projektets Git-repository", "Project Git repository")}</span><span>↗</span></a>
       </section>
     </div>
@@ -354,12 +355,11 @@ function AreaView({ area, access, initialRouteQuery, locale, onSuggest }: { area
       return score(right) - score(left);
     });
     const direct = candidates.filter((image) => image.sectorId === targetSectorId);
-    const relatedDirect = direct.filter((image) => image.routeRelations?.some((relation) => targetRouteIds.has(relation.routeId) && relation.confidence >= 0.7)
+    const related = candidates.filter((image) => image.routeRelations?.some((relation) => targetRouteIds.has(relation.routeId) && relation.confidence >= 0.7)
       || image.routeIds?.some((routeId) => targetRouteIds.has(routeId)));
-    if (relatedDirect.length) return rank(relatedDirect);
+    if (related.length) return rank(related);
     if (direct.length) return rank(direct);
-    return rank(candidates.filter((image) => image.routeRelations?.some((relation) => targetRouteIds.has(relation.routeId) && relation.confidence >= 0.7)
-      || image.routeIds?.some((routeId) => targetRouteIds.has(routeId))));
+    return [];
   };
   const selectedSectorImages = selectedSector ? imagesForSector(selectedSector.id) : [];
   const selectedRoutesByImage = new Map<string, Area["routes"]>();
@@ -635,7 +635,7 @@ function SuggestionDialog({ area, locale, onClose }: { area: Area; locale: Local
         {status === "needs_information" && !pending && <div className="suggestion-shortcuts"><button type="button" onClick={() => void send(tr(locale, "Ja, gör så utifrån din sammanfattning.", "Yes, proceed based on your summary."))}>{tr(locale, "Ja, gör så", "Yes, proceed")}</button><button type="button" onClick={() => setMessage(tr(locale, "Jag vill förtydliga: ", "I want to clarify: "))}>{tr(locale, "Jag vill förtydliga", "I want to clarify")}</button></div>}
         <form className="suggestion-form" onSubmit={submit}>
           <textarea value={message} onChange={(event) => setMessage(event.target.value)} placeholder={conversation.length ? tr(locale, "Svara kort eller lägg till en detalj…", "Reply briefly or add a detail…") : tr(locale, "Exempel: Ta bort stycket om tv-serien i den allmänna beskrivningen.", "Example: Remove the paragraph about the TV series from the general description.")} aria-label={tr(locale, "Ditt ändringsförslag", "Your edit suggestion")} />
-          <div className="form-actions"><small>{tr(locale, "Redaktionella ändringar kan bygga på ditt godkännande. Nya fakta behöver en kontrollerbar källa.", "Editorial changes may rely on your approval. New facts require a verifiable source.")}</small><button className="primary-button" disabled={pending || !message.trim()} type="submit">{pending ? tr(locale, "Granskar…", "Reviewing…") : conversation.length ? tr(locale, "Skicka svar", "Send reply") : tr(locale, "Skicka förslag", "Send suggestion")}</button></div>
+          <div className="form-actions"><small>{tr(locale, "Redaktionella ändringar kan bygga på ditt godkännande. Nya fakta behöver en kontrollerbar källa. När du skickar bekräftar du att du får bidra med texten och godkänner att accepterat förarinnehåll publiceras under GFDL 1.3.", "Editorial changes may rely on your approval. New facts require a verifiable source. By submitting, you confirm that you may contribute the text and agree that accepted guide content is published under GFDL 1.3.")}</small><button className="primary-button" disabled={pending || !message.trim()} type="submit">{pending ? tr(locale, "Granskar…", "Reviewing…") : conversation.length ? tr(locale, "Skicka svar", "Send reply") : tr(locale, "Skicka förslag", "Send suggestion")}</button></div>
         </form>
       </section>
     </div>

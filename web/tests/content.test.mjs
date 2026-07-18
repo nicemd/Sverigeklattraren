@@ -67,6 +67,14 @@ test("keeps Nacka Kvarn sport, boulder, sketches and source numbers aligned", as
   assert.match(area.sections.find((section) => section.id === "vagbeskrivning")?.body || "", /gångbro över ån/i);
 });
 
+test("links Dödskalleberget sectors to the full-size topo that precedes their route block", async () => {
+  const area = JSON.parse(await readFile(path.join(contentRoot, "areas", "dodskalleberget.json"), "utf8"));
+  const fullTopo = area.images.find((image) => image.filename === "Dodskalleberget_v.png");
+  const mainWallRouteIds = area.routes.filter((route) => route.sectorId === "stora-vaggen").map((route) => route.id);
+  assert.ok(fullTopo, "the original full-size vertical topo should be published");
+  assert.ok(mainWallRouteIds.every((routeId) => fullTopo.routeIds.includes(routeId)), "the topo should remain linked across nested sector headings");
+  assert.ok(!area.images.some((image) => image.filename === "Dodskalleberget_liten_h.png"), "a legacy thumbnail should not be published beside its full-size equivalent");
+});
 test("turns legacy boulder templates, loose notes and external links into usable content", async () => {
   const [orminge, askimsbadet, almenas] = await Promise.all([
     readFile(path.join(contentRoot, "areas", "orminge.json"), "utf8").then(JSON.parse),
@@ -176,6 +184,20 @@ test("marks machine translations and keeps the Swedish original available", asyn
   assert.match(component, /areaTranslation\?\.routes\?\.\[selectedRoute\.id\]\?\.description/);
 });
 
+test("separates free guide content from proprietary website software", async () => {
+  const root = path.resolve(process.cwd(), "..");
+  const softwareNotice = await readFile(path.join(root, "LICENSE"), "utf8");
+  const contentNotice = await readFile(path.join(root, "CONTENT_LICENSE.md"), "utf8");
+  const packageJson = JSON.parse(await readFile(path.join(process.cwd(), "package.json"), "utf8"));
+  const component = await readFile(path.join(process.cwd(), "app", "components", "GuideApp.tsx"), "utf8");
+  assert.match(softwareNotice, /All rights reserved/);
+  assert.match(softwareNotice, /does not apply to the guide content/i);
+  assert.match(contentNotice, /mediawiki\//);
+  assert.match(contentNotice, /Translations and editorial rewrites/i);
+  assert.equal(packageJson.license, "UNLICENSED");
+  assert.match(component, /The website software, design and agent tooling are proprietary/);
+  assert.match(component, /accepted guide content is published under GFDL 1\.3/);
+});
 test("labels a sourced route number explicitly in the field card and linked topo", async () => {
   const component = await readFile(path.join(process.cwd(), "app", "components", "GuideApp.tsx"), "utf8");
   assert.match(component, /className="route-detail-number"/);
@@ -184,10 +206,10 @@ test("labels a sourced route number explicitly in the field card and linked topo
   assert.match(component, /"leta efter", "find"/);
 });
 
-test("prefers sector topos with verified route relations over unlinked historical images", async () => {
+test("prefers source-linked sector topos over unlinked historical images", async () => {
   const component = await readFile(path.join(process.cwd(), "app", "components", "GuideApp.tsx"), "utf8");
-  assert.match(component, /const relatedDirect = direct\.filter/);
-  assert.match(component, /if \(relatedDirect\.length\) return rank\(relatedDirect\)/);
+  assert.match(component, /const related = candidates\.filter/);
+  assert.match(component, /if \(related\.length\) return rank\(related\)/);
   assert.match(component, /const groupImages = allGroupImages\.slice\(0, 1\)/);
 });
 

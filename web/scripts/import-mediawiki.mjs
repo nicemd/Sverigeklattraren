@@ -208,6 +208,20 @@ function sectionAt(sections, position) {
   return [...sections].reverse().find((section) => position >= section.sourceStart && position < section.sourceEnd) || null;
 }
 
+function canonicalImageVariant(filename) {
+  const extension = path.extname(filename);
+  const basename = path.basename(filename, extension);
+  return basename
+    .split(/[_\s-]+/)
+    .filter((part) => !/^(?:liten|small|thumb|thumbnail)$/i.test(part))
+    .join("_")
+    .toLocaleLowerCase("sv");
+}
+
+function isThumbnailVariant(filename) {
+  return /(?:^|[_\s-])(?:liten|small|thumb|thumbnail)(?:[_\s-]|$)/i.test(path.basename(filename, path.extname(filename)));
+}
+
 function numeric(value) {
   if (!value) return null;
   const result = Number.parseFloat(value.replace(",", "."));
@@ -342,10 +356,10 @@ function parseArea(filename, source, uniqueSlug) {
         const routeKey = slugify(route.name).replaceAll("-", "");
         return route.name !== "?" && routeKey.length > 3 && filenameKey.includes(routeKey);
       });
-      const nextImageInSector = imageMatches.slice(matchIndex + 1).find((candidate) => sectionAt(sections, candidate.index ?? 0)?.id === sector?.id);
+      const nextImage = imageMatches[matchIndex + 1];
       const groupedRouteIds = routeTemplates.flatMap((template, routeIndex) => template.start > (match.index ?? 0)
-        && (!nextImageInSector || template.start < (nextImageInSector.index ?? source.length))
-        && routes[routeIndex]?.sectorId === sector?.id ? [routes[routeIndex].id] : []);
+        && (!nextImage || template.start < (nextImage.index ?? source.length))
+        ? [routes[routeIndex].id] : []);
       if (relatedRoute && !groupedRouteIds.includes(relatedRoute.id)) groupedRouteIds.unshift(relatedRoute.id);
       const enrichment = topoEnrichment.get(`${uniqueSlug}/${filename.toLocaleLowerCase("sv")}`);
       const visionRouteIds = enrichment?.confidence >= 0.85
@@ -363,7 +377,11 @@ function parseArea(filename, source, uniqueSlug) {
       if (enrichment) Object.assign(image, { imageKind: enrichment.imageKind, routeRelations });
       else if (relatedRoute) Object.assign(image, { routeRelations: routeRelations.filter((relation) => relation.method === "filename") });
       return image;
-    });
+    })
+    .filter((image, index, allImages) => !isThumbnailVariant(image.filename)
+      || !allImages.some((candidate, candidateIndex) => candidateIndex !== index
+        && !isThumbnailVariant(candidate.filename)
+        && canonicalImageVariant(candidate.filename) === canonicalImageVariant(image.filename)));
   const accessTemplate = templates.find((template) => template.name === "accessdb");
   const externalLinks = [];
   const seenExternalUrls = new Set();

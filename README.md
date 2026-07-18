@@ -144,4 +144,10 @@ For a deliberately public demo, run `./deploy.ps1 -Public` after confirming that
 
 ## License
 
-The original content is distributed under the GNU Free Documentation License. See [LICENSE](LICENSE). New external sources must be registered with their own attribution and license metadata; an external source never automatically becomes project-owned text.
+This repository uses a split licence model:
+
+- **Guide content stays free:** the preserved MediaWiki archive, publishable guide data, descriptions, route text, committed translations, and licensed archive media are distributed under the GNU Free Documentation License 1.3. See [CONTENT_LICENSE.md](CONTENT_LICENSE.md) and the [unaltered GFDL text](LICENSE-CONTENT-GFDL-1.3.txt).
+- **The website is proprietary:** application code, UI and visual design, schemas, import and agent tooling, deployment configuration, and original software assets are all rights reserved. See [LICENSE](LICENSE).
+- **External sources keep their own terms:** every external source must retain its attribution and licence metadata. A factual reference never grants permission to copy its wording, images, or topos.
+
+Accepted guide contributions are published under GFDL 1.3. Source availability for the website software does not grant permission to reuse, modify, redistribute, or host it.
