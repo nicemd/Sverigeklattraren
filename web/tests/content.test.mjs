@@ -176,6 +176,14 @@ test("marks machine translations and keeps the Swedish original available", asyn
   assert.match(component, /areaTranslation\?\.routes\?\.\[selectedRoute\.id\]\?\.description/);
 });
 
+test("labels a sourced route number explicitly in the field card and linked topo", async () => {
+  const component = await readFile(path.join(process.cwd(), "app", "components", "GuideApp.tsx"), "utf8");
+  assert.match(component, /className="route-detail-number"/);
+  assert.match(component, /"Led nr", "Route no\."/);
+  assert.match(component, /className="route-topo-number"/);
+  assert.match(component, /"leta efter", "find"/);
+});
+
 test("prefers sector topos with verified route relations over unlinked historical images", async () => {
   const component = await readFile(path.join(process.cwd(), "app", "components", "GuideApp.tsx"), "utf8");
   assert.match(component, /const relatedDirect = direct\.filter/);
