@@ -11,6 +11,7 @@ export const runtime = "nodejs";
 const requestSchema = z.object({
   areaSlug: z.string().regex(/^[a-z0-9-]+$/),
   conversation: z.array(z.object({ role: z.enum(["user", "assistant"]), content: z.string().min(1).max(4000) })).min(1).max(20),
+  locale: z.enum(["sv", "en"]).default("sv"),
 });
 
 const attempts = new Map<string, number[]>();
@@ -32,14 +33,15 @@ export async function POST(request: Request) {
   const area = await getArea(parsed.data.areaSlug);
   if (!area) return NextResponse.json({ error: "Området hittades inte." }, { status: 404 });
   try {
-    const intake = await runIntake(area, parsed.data.conversation);
+    const locale = parsed.data.locale;
+    const intake = await runIntake(area, parsed.data.conversation, locale);
     if (intake.status === "needs_information") return NextResponse.json({ reply: intake.reply, status: intake.status, questions: intake.missingQuestions });
-    const edit = await runEditor(area, intake);
+    const edit = await runEditor(area, intake, locale);
     const review = await runReviewer(area, intake, edit);
     const publication = await publishProposal(area, intake, edit, review);
-    const decision = publication.autoPublished
-      ? "Ändringen klarade den automatiska kvalitetsgrinden och publicerades som en Git-commit."
-      : publication.committed ? "Förslaget sparades som en Git-commit för mänsklig granskning." : "Förslaget sparades för granskning, men kunde inte committas automatiskt.";
+    const decision = locale === "en"
+      ? publication.autoPublished ? "The change passed the automatic quality gate and was published as a Git commit." : publication.committed ? "The suggestion was saved as a Git commit for human review." : "The suggestion was saved for review but could not be committed automatically."
+      : publication.autoPublished ? "Ändringen klarade den automatiska kvalitetsgrinden och publicerades som en Git-commit." : publication.committed ? "Förslaget sparades som en Git-commit för mänsklig granskning." : "Förslaget sparades för granskning, men kunde inte committas automatiskt.";
     return NextResponse.json({ reply: `${edit.reply}\n\n${decision}`, status: publication.autoPublished ? "published" : "review", review: publication });
   } catch (error) {
     console.error(error);

@@ -153,6 +153,6 @@ test("keeps route descriptions visible and beta in a separate spoiler field", as
   assert.equal(spiderPig.beta, undefined);
 
   const component = await readFile(path.join(process.cwd(), "app", "components", "GuideApp.tsx"), "utf8");
-  assert.match(component, /className="route-description"[\s\S]*selectedRoute\.description/);
-  assert.match(component, /selectedRoute\.beta[\s\S]*className="beta-panel"/);
+  assert.match(component, /className="route-description"[\s\S]*routeDescription\(selectedRoute\)/);
+  assert.match(component, /routeBeta\(selectedRoute\)[\s\S]*className="beta-panel"/);
 });

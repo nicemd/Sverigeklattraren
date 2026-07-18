@@ -20,6 +20,7 @@ Git är wikins minne: varje publicerbar förändring är en diff och en commit. 
 
 - 803 sökbara klätterområden och 14 830 importerade leder/problem.
 - Responsiv React/Next.js-vy med karta, vägbeskrivning, sektorer, bilder, topos och klickbara ledkort.
+- Beständigt språkval mellan svenska och engelska för hela gränssnittet, fältflödet och redaktörsagenten.
 - Sökning på område, led och grad samt filtrering mellan sektorer, klätterleder och boulderproblem.
 - Ledkort med nummer, grad, längd, förstebestigning, synlig ledbeskrivning och källor. Ett separat beta-fält visas först efter ett aktivt val.
 - Spårbara relationer mellan sektor, led och skiss. Kopplingen kan härledas från källordning, filnamn eller bildtolkning av lednummer och har metod, belägg och konfidens.
@@ -32,6 +33,10 @@ Git är wikins minne: varje publicerbar förändring är en diff och en commit. 
 ## Data och databas
 
 Projektets publicerade kunskapsdatabas är versionsstyrda JSON-dokument i `content/areas/`. Det finns ingen separat SQL-databas i drift: Git är historik och granskningsspår, medan JSON-dokumenten är den byggbara och publicerbara representationen. `content/areas.json` är det sökbara områdesindexet.
+
+### Engelska och källspårade översättningar
+
+Områdesdokument kan innehålla `translations.en` för områdesnamn och beskrivning samt översättningar per sektor, led och bild. Varje översatt värde lagrar metod (`human` eller `llm`), käll-id:n, eventuell modell och granskningstid. Engelska UI-texter är inbyggda; där en granskad innehållsöversättning ännu saknas visas originalets svenska text med en tydlig språknotis. På så sätt kan en översättningsagent fylla på innehåll stegvis utan att en maskinöversättning blandas ihop med originalkällan.
 
 Varje områdesdokument följer i huvudsak denna modell:
 

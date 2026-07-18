@@ -57,6 +57,9 @@ a { color: inherit; }
 }
 .search:focus { border-color: var(--forest); box-shadow: 0 0 0 4px rgb(23 77 59 / 10%); }
 .header-actions { align-items: center; display: flex; gap: 10px; }
+.language-switch { background: #e5e8df; border: 1px solid var(--line); border-radius: 999px; display: flex; padding: 3px; }
+.language-switch button { background: transparent; border: 0; border-radius: 999px; color: var(--muted); cursor: pointer; font-size: 10px; font-weight: 850; padding: 7px 8px; }
+.language-switch button.active { background: var(--surface); box-shadow: 0 1px 4px rgb(20 45 36 / 13%); color: var(--forest); }
 .ghost-button, .primary-button {
   border: 0; border-radius: 999px; cursor: pointer; font-weight: 750; padding: 11px 17px; transition: .18s;
 }
@@ -133,6 +136,7 @@ a { color: inherit; }
 .hero-stats { display: flex; flex-wrap: wrap; gap: 24px; margin-top: 30px; position: relative; z-index: 2; }
 .hero-stat strong { display: block; font-family: Georgia, serif; font-size: 28px; }
 .hero-stat span { color: rgb(255 255 255 / 62%); font-size: 11px; letter-spacing: .08em; text-transform: uppercase; }
+.translation-notice { background: rgb(255 255 255 / 10%); border-left: 3px solid var(--moss); color: #d8e5de; display: block; font-size: 11px; line-height: 1.45; margin-top: 18px; padding: 9px 11px; }
 .map-card { background: #dce6d5; border-radius: 26px; min-height: 350px; overflow: hidden; position: relative; }
 #area-map { inset: 0; position: absolute; }
 .map-overlay { background: rgb(255 253 248 / 92%); border-radius: 14px; bottom: 15px; left: 15px; padding: 11px 13px; position: absolute; z-index: 2; }
@@ -343,6 +347,7 @@ a { color: inherit; }
   .header-actions { position: absolute; right: 12px; top: 14px; }
   .header-actions { display: flex; gap: 6px; }
   .header-actions .ghost-button, .header-actions .primary-button { padding: 11px 13px; }
+  .language-switch button { padding: 6px; }
   .header-actions .desktop-label { display: none; }
   .header-actions .mobile-label { display: inline; }
   .workspace { display: block; }
@@ -391,6 +396,11 @@ a { color: inherit; }
   .route-detail-images > div:last-child { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .image-route-context { align-items: start; flex-direction: column; gap: 2px; }
   .modal { border-radius: 18px; padding: 20px; }
+}
+
+@media (max-width: 480px) {
+  .brand > div:last-child { display: none; }
+  .header-actions { right: 10px; }
 }
 
 @media (prefers-reduced-motion: reduce) { * { scroll-behavior: auto !important; transition: none !important; } }

@@ -11,6 +11,22 @@ export type SourceReference = {
   rightsNote?: string;
 };
 
+export type TranslationValue = {
+  text: string;
+  method: "human" | "llm";
+  sourceIds: string[];
+  model?: string;
+  reviewedAt?: string;
+};
+
+export type AreaTranslation = {
+  name?: TranslationValue;
+  description?: TranslationValue;
+  sections?: Record<string, { title?: TranslationValue; body?: TranslationValue }>;
+  routes?: Record<string, { name?: TranslationValue; description?: TranslationValue; beta?: TranslationValue }>;
+  images?: Record<string, { caption?: TranslationValue }>;
+};
+
 export type Route = {
   id: string;
   kind: "route" | "problem";
@@ -39,6 +55,7 @@ export type AreaSummary = {
   imageCount: number;
   accessSlug: string | null;
   searchText: string;
+  translations?: Partial<Record<"en", AreaTranslation>>;
 };
 
 export type Area = Omit<AreaSummary, "routeCount" | "imageCount" | "accessSlug" | "searchText"> & {
