@@ -306,6 +306,7 @@ function AreaView({ area, access, initialRouteQuery, locale, onSuggest }: { area
   const [openImage, setOpenImage] = useState<Area["images"][number] | null>(null);
   const [selectedRouteId, setSelectedRouteId] = useState<string | null>(null);
   const [showBeta, setShowBeta] = useState(false);
+  const [showAllNotes, setShowAllNotes] = useState(false);
 
   useEffect(() => {
     if (locale !== "en" || runtimeTranslation?.description) return;
@@ -402,6 +403,12 @@ function AreaView({ area, access, initialRouteQuery, locale, onSuggest }: { area
   const problemTotal = area.routes.filter((route) => route.kind === "problem").length;
   const disciplineTotal = discipline === "route" ? routeTotal : discipline === "problem" ? problemTotal : routeCount;
   const selectedRoute = selectedRouteId ? area.routes.find((route) => route.id === selectedRouteId) || null : null;
+  const routeNavigationList = selectedRoute && visibleRoutes.some((route) => route.id === selectedRoute.id) ? visibleRoutes : area.routes;
+  const selectedRouteNavigationIndex = selectedRoute ? routeNavigationList.findIndex((route) => route.id === selectedRoute.id) : -1;
+  const previousRoute = selectedRouteNavigationIndex > 0 ? routeNavigationList[selectedRouteNavigationIndex - 1] : null;
+  const nextRoute = selectedRouteNavigationIndex >= 0 && selectedRouteNavigationIndex < routeNavigationList.length - 1 ? routeNavigationList[selectedRouteNavigationIndex + 1] : null;
+  const selectedRouteSectorList = selectedRoute?.sectorId ? area.routes.filter((route) => route.sectorId === selectedRoute.sectorId) : [];
+  const selectedRouteSectorIndex = selectedRoute ? selectedRouteSectorList.findIndex((route) => route.id === selectedRoute.id) : -1;
   const selectedRouteTranslation = selectedRoute ? runtimeTranslation?.routes?.[selectedRoute.id] : undefined;
   const selectedRouteTranslationComplete = Boolean(selectedRoute
     && (!selectedRoute.description || selectedRouteTranslation?.description)
@@ -466,6 +473,33 @@ function AreaView({ area, access, initialRouteQuery, locale, onSuggest }: { area
           <div className="map-overlay"><strong>{areaName}</strong><span>{area.coordinates?.latitude?.toFixed(4) || "–"}, {area.coordinates?.longitude?.toFixed(4) || "–"}</span></div>
         </div>
       </section>
+      <section className="arrival-access-grid">
+        <section className="arrival-card" aria-labelledby="arrival-title">
+          <div className="arrival-summary">
+            <div><span className="eyebrow" style={{ color: "var(--forest)" }}>{tr(locale, "På väg till berget", "Getting to the crag")}</span><h2 id="arrival-title">{tr(locale, "Hitta klippan", "Find the crag")}</h2></div>
+            {area.coordinates?.latitude && area.coordinates.longitude && <a className="primary-button directions-button" href={`https://www.google.com/maps/dir/?api=1&destination=${area.coordinates.latitude},${area.coordinates.longitude}`} target="_blank" rel="noreferrer">{tr(locale, "Vägbeskrivning", "Directions")} ↗</a>}
+          </div>
+          <div className="arrival-copy">
+            <StructuredProse blocks={translatedDirections ? undefined : directions?.blocks} fallback={translatedDirections || directions?.body || tr(locale, "Originalkällan saknar en strukturerad vägbeskrivning. Använd kartpunkten med försiktighet och föreslå gärna en verifierad anmarsch.", "The original source has no structured directions. Use the map point with caution and consider suggesting a verified approach.")} />
+            <small>{tr(locale, "Vägbeskrivningen är från 2014. Kontrollera alltid aktuell access före avfärd.", "The directions are from 2014. Always check current access information before departure.")}</small>
+          </div>
+        </section>
+        <article className="panel access-card">
+          <span className="eyebrow" style={{ color: "#8c5c13" }}>{tr(locale, "Aktuell access", "Current access")}</span>
+          <div className="status-line"><span className="status-dot" /><strong>{access?.status || (area.access.federationSlug ? tr(locale, "Hämtar från Klätterförbundet…", "Fetching from the Swedish Climbing Federation…") : tr(locale, "Ingen direktkoppling ännu", "No direct integration yet"))}</strong></div>
+          <p>{access?.summary || area.access.legacyText || tr(locale, "Det saknas kopplad accessinformation för området. Kontrollera alltid lokala regler före besöket.", "No linked access information is available for this area. Always check local rules before visiting.")}</p>
+          {access && <a className="source-link" href={access.url} target="_blank" rel="noreferrer"><span>{tr(locale, "Klätterförbundets accessdatabas", "Swedish Climbing Federation access database")}<br /><small>{tr(locale, "Uppdaterad", "Updated")} {formatDate(access.sourceUpdatedAt, locale)} · {tr(locale, "hämtad", "fetched")} {formatDate(access.fetchedAt, locale)}</small></span><span>↗</span></a>}
+        </article>
+      </section>
+
+      {looseSections.length > 0 && <section className={`legacy-notes area-notes ${showAllNotes ? "expanded" : "collapsed"}`} aria-label={tr(locale, "Anteckningar från originalföraren", "Notes from the original guide")}>
+        <div className="legacy-notes-heading"><strong>{tr(locale, "Anteckningar från originalföraren", "Notes from the original guide")}</strong><span>{tr(locale, "Historiskt, löst strukturerat material", "Historic, loosely structured material")}</span></div>
+        {(showAllNotes ? looseSections : looseSections.slice(0, 3)).map((section) => <article key={section.id}><h3>{sectionTitle(section)}</h3><p><RichText text={sectionBody(section)} /></p></article>)}
+        {looseSections.length > 3 && <button className="notes-toggle" type="button" onClick={() => setShowAllNotes((value) => !value)} aria-expanded={showAllNotes}>
+          {showAllNotes ? tr(locale, "Visa färre anteckningar", "Show fewer notes") : `${tr(locale, "Visa alla anteckningar", "Show all notes")} (${looseSections.length})`}
+        </button>}
+      </section>}
+
       {overviewImages.length > 0 && <section className="area-overview" aria-labelledby="area-overview-title">
         <div className="area-overview-heading">
           <div><span className="eyebrow">{tr(locale, "Områdesöversikt", "Area overview")}</span><h2 id="area-overview-title">{tr(locale, "Hitta mellan väggarna", "Find your way between the walls")}</h2></div>
@@ -480,13 +514,6 @@ function AreaView({ area, access, initialRouteQuery, locale, onSuggest }: { area
           </button>)}
         </div>
       </section>}
-
-      <section className="arrival-card" aria-labelledby="arrival-title">
-        <div><span className="eyebrow" style={{ color: "var(--forest)" }}>{tr(locale, "På väg till berget", "Getting to the crag")}</span><h2 id="arrival-title">{tr(locale, "Hitta klippan", "Find the crag")}</h2></div>
-        <StructuredProse blocks={translatedDirections ? undefined : directions?.blocks} fallback={translatedDirections || directions?.body || tr(locale, "Originalkällan saknar en strukturerad vägbeskrivning. Använd kartpunkten med försiktighet och föreslå gärna en verifierad anmarsch.", "The original source has no structured directions. Use the map point with caution and consider suggesting a verified approach.")} />
-        {area.coordinates?.latitude && area.coordinates.longitude && <a className="primary-button directions-button" href={`https://www.google.com/maps/dir/?api=1&destination=${area.coordinates.latitude},${area.coordinates.longitude}`} target="_blank" rel="noreferrer">{tr(locale, "Vägbeskrivning", "Directions")} ↗</a>}
-        <small>{tr(locale, "Vägbeskrivningen är från 2014. Kontrollera alltid aktuell access före avfärd.", "The directions are from 2014. Always check current access information before departure.")}</small>
-      </section>
 
       <section className="content-grid">
         <article className="panel">
@@ -522,10 +549,6 @@ function AreaView({ area, access, initialRouteQuery, locale, onSuggest }: { area
               })}</div>
             </div>
           )}
-          {looseSections.length > 0 && <section className="legacy-notes" aria-label={tr(locale, "Anteckningar från originalföraren", "Notes from the original guide")}>
-            <div className="legacy-notes-heading"><strong>{tr(locale, "Anteckningar från originalföraren", "Notes from the original guide")}</strong><span>{tr(locale, "Historiskt, löst strukturerat material", "Historic, loosely structured material")}</span></div>
-            {looseSections.map((section) => <article key={section.id}><h3>{sectionTitle(section)}</h3><p><RichText text={sectionBody(section)} /></p></article>)}
-          </section>}
           {selectedSector && selectedSectorImages.length > 0 && (
             <section className="sector-topo" aria-labelledby="selected-sector-title">
               <div className="sector-topo-heading">
@@ -567,12 +590,6 @@ function AreaView({ area, access, initialRouteQuery, locale, onSuggest }: { area
         </article>
 
         <aside>
-          <article className="panel access-card">
-            <span className="eyebrow" style={{ color: "#8c5c13" }}>{tr(locale, "Aktuell access", "Current access")}</span>
-            <div className="status-line"><span className="status-dot" /><strong>{access?.status || (area.access.federationSlug ? tr(locale, "Hämtar från Klätterförbundet…", "Fetching from the Swedish Climbing Federation…") : tr(locale, "Ingen direktkoppling ännu", "No direct integration yet"))}</strong></div>
-            <p>{access?.summary || area.access.legacyText || tr(locale, "Det saknas kopplad accessinformation för området. Kontrollera alltid lokala regler före besöket.", "No linked access information is available for this area. Always check local rules before visiting.")}</p>
-            {access && <a className="source-link" href={access.url} target="_blank" rel="noreferrer"><span>{tr(locale, "Klätterförbundets accessdatabas", "Swedish Climbing Federation access database")}<br /><small>{tr(locale, "Uppdaterad", "Updated")} {formatDate(access.sourceUpdatedAt, locale)} · {tr(locale, "hämtad", "fetched")} {formatDate(access.fetchedAt, locale)}</small></span><span>↗</span></a>}
-          </article>
           <article className="panel source-card">
             <span className="eyebrow" style={{ color: "var(--forest)" }}>{tr(locale, "Källspårning", "Source tracing")}</span>
             <h2>{area.provenance.sources.length} {area.provenance.sources.length === 1 ? tr(locale, "källa", "source") : tr(locale, "källor", "sources")}</h2>
@@ -596,12 +613,27 @@ function AreaView({ area, access, initialRouteQuery, locale, onSuggest }: { area
         </section>
       </div>}
       {selectedRoute && <div className="route-detail-backdrop" role="presentation" onMouseDown={(event) => { if (event.target === event.currentTarget) setSelectedRouteId(null); }}>
-        <section className="route-detail" role="dialog" aria-modal="true" aria-label={`${tr(locale, "Fältkort för", "Field card for")} ${routeName(selectedRoute)}`}>
+        <section className="route-detail" key={selectedRoute.id} role="dialog" aria-modal="true" aria-label={`${tr(locale, "Fältkort för", "Field card for")} ${routeName(selectedRoute)}`}>
           <div className="route-detail-head">
             <div><span className="eyebrow">{selectedRouteSector ? sectionTitle(selectedRouteSector) : tr(locale, "Sektor saknas", "Sector missing")}</span><h2>{routeName(selectedRoute)}</h2></div>
             <button type="button" onClick={() => setSelectedRouteId(null)} aria-label={tr(locale, "Stäng fältkort", "Close field card")}>×</button>
           </div>
+          <nav className="route-detail-navigation" aria-label={tr(locale, "Bläddra mellan leder", "Browse routes")}>
+            <button type="button" disabled={!previousRoute} onClick={() => { if (previousRoute) { setSelectedRouteId(previousRoute.id); setShowBeta(false); } }}>
+              <span>← {tr(locale, "Föregående", "Previous")}</span><strong>{previousRoute ? `${previousRoute.number || "–"} · ${routeName(previousRoute)}` : tr(locale, "Början av listan", "Start of list")}</strong>
+            </button>
+            <span><b>{selectedRouteNavigationIndex + 1}</b> / {routeNavigationList.length}<small>{normalizedRouteQuery || sectorId !== "all" || discipline !== "all" ? tr(locale, "i urvalet", "in selection") : tr(locale, "i området", "in area")}</small></span>
+            <button type="button" disabled={!nextRoute} onClick={() => { if (nextRoute) { setSelectedRouteId(nextRoute.id); setShowBeta(false); } }}>
+              <span>{tr(locale, "Nästa", "Next")} →</span><strong>{nextRoute ? `${nextRoute.number || "–"} · ${routeName(nextRoute)}` : tr(locale, "Slutet av listan", "End of list")}</strong>
+            </button>
+          </nav>
           <div className="route-detail-facts">{selectedRoute.number && <span className="route-detail-number"><small>{selectedRoute.kind === "problem" ? tr(locale, "Problem nr", "Problem no.") : tr(locale, "Led nr", "Route no.")}</small><b>{selectedRoute.number}</b></span>}<strong>{selectedRoute.grade || tr(locale, "Ograderad", "Ungraded")}</strong><span>{selectedRoute.kind === "problem" ? tr(locale, "Boulderproblem", "Boulder problem") : tr(locale, "Klätterled", "Climbing route")}</span>{selectedRoute.length && <span>{selectedRoute.length} m</span>}{selectedRoute.type && <span>{selectedRoute.type}</span>}</div>
+          <div className="route-detail-context">
+            <span><small>{tr(locale, "Sektor", "Sector")}</small><strong>{selectedRouteSector ? sectionTitle(selectedRouteSector) : "–"}</strong></span>
+            <span><small>{tr(locale, "Position i sektorn", "Position in sector")}</small><strong>{selectedRouteSectorIndex >= 0 ? `${selectedRouteSectorIndex + 1} ${tr(locale, "av", "of")} ${selectedRouteSectorList.length}` : "–"}</strong></span>
+            <span><small>{tr(locale, "Kopplade skisser", "Linked topos")}</small><strong>{selectedRouteImages.length}</strong></span>
+            <span><small>{tr(locale, "Spårade källor", "Traced sources")}</small><strong>{selectedRouteSources.length}</strong></span>
+          </div>
           {selectedRoute.firstAscent && <p className="first-ascent">{tr(locale, "Förstebestigning", "First ascent")}: <strong>{selectedRoute.firstAscent}</strong></p>}
           {selectedRoute.extraction?.method === "llm" && <p className="extraction-note">{tr(locale, "Strukturerad med OpenAI från originalförarens löptext · konfidens", "Structured with OpenAI from the original guide text · confidence")} {Math.round(selectedRoute.extraction.confidence * 100)} %</p>}
           {routeDescription(selectedRoute) && <div className="route-description"><strong>{tr(locale, "Ledbeskrivning", "Route description")}</strong><p><RichText text={routeDescription(selectedRoute)} /></p>{locale === "en" && <MachineTranslationNote compact value={areaTranslation?.routes?.[selectedRoute.id]?.description} original={selectedRoute.description} />}</div>}

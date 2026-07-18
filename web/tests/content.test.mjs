@@ -206,6 +206,19 @@ test("labels a sourced route number explicitly in the field card and linked topo
   assert.match(component, /"leta efter", "find"/);
 });
 
+test("orders field information for arrival, orientation and route finding", async () => {
+  const component = await readFile(path.join(process.cwd(), "app", "components", "GuideApp.tsx"), "utf8");
+  const arrival = component.indexOf('className="arrival-access-grid"');
+  const notes = component.indexOf('className={`legacy-notes area-notes');
+  const overview = component.indexOf('className="area-overview"');
+  const routes = component.indexOf('className="content-grid"');
+  assert.ok(arrival >= 0 && arrival < notes && notes < overview && overview < routes);
+  assert.match(component, /className="route-detail-navigation"/);
+  assert.match(component, /setSelectedRouteId\(previousRoute\.id\)/);
+  assert.match(component, /setSelectedRouteId\(nextRoute\.id\)/);
+  assert.match(component, /className="route-detail-context"/);
+});
+
 test("prefers source-linked sector topos over unlinked historical images", async () => {
   const component = await readFile(path.join(process.cwd(), "app", "components", "GuideApp.tsx"), "utf8");
   assert.match(component, /const related = candidates\.filter/);
