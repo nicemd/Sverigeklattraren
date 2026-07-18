@@ -1,7 +1,7 @@
 services:
   web:
-    image: ${GHCR_IMAGE:-ghcr.io/nicemd/sverigeforaren:latest}
-    container_name: sverigeforaren
+    image: ${GHCR_IMAGE:-ghcr.io/nicemd/sverigeklattraren:latest}
+    container_name: sverigeklattraren
     restart: unless-stopped
     env_file:
       - .env

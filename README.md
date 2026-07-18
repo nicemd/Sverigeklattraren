@@ -1,14 +1,14 @@
-# Sverigeföraren
+# Sverigeklättraren
 
-A modern, open, and source-traceable climbing guide—and a practical experiment in how an LLM-powered wiki can revive knowledge that would otherwise be lost.
+Sverigeklättraren is a modern, open, and source-traceable climbing guide—and a practical experiment in how an LLM-powered wiki can revive knowledge that would otherwise be lost. It is a fork of Sverigeföraren: the new product and site are named Sverigeklättraren, while Sverigeföraren remains the name of the original guide and the preserved source archive.
 
-Sverigeföraren.se was founded in 2006 by Niclas Emdelius and Per Lindh, sold in 2013, and subsequently fell into disrepair. This project is built on the openly licensed snapshot preserved in 2014.
+Sverigeföraren.se was founded in 2006 by Niclas Emdelius and Per Lindh, sold in 2013, and subsequently fell into disrepair. Sverigeklättraren is built on the openly licensed snapshot preserved in 2014.
 
 The new application is located in `web/`. The original MediaWiki files and images remain unchanged in `mediawiki/` and `images/`. The importer creates structured area documents in `content/` while preserving a direct reference to the primary source for every route and problem.
 
 ## OpenAI Build Week: how Codex and GPT-5.6 were used
 
-Codex was the end-to-end development collaborator for Sverigeföraren. It helped analyze the legacy MediaWiki archive, design the source-provenance model, implement the importer and agent workflows, build the responsive Next.js interface, write and run tests, diagnose failures, and validate production builds. Codex also helped create and verify the Docker-based deployment workflow, prepare the demo-video manuscript, and shape the Build Week submission. It supported the full path from a dormant archive and an initial idea to a deployed, documented product.
+Codex was the end-to-end development collaborator for Sverigeklättraren. It helped analyze the legacy MediaWiki archive, design the source-provenance model, implement the importer and agent workflows, build the responsive Next.js interface, write and run tests, diagnose failures, and validate production builds. Codex also helped create and verify the Docker-based deployment workflow, prepare the demo-video manuscript, and shape the Build Week submission. It supported the full path from a dormant archive and an initial idea to a deployed, documented product.
 
 GPT-5.6 is also part of the running application through the OpenAI Responses API. It powers three evidence-bound editorial roles:
 
@@ -138,7 +138,7 @@ npm run build
 
 `Dockerfile`, `docker-compose.yml`, and `deploy.ps1` build a Git-versioned GHCR image, keep the application port bound to `127.0.0.1`, and expose it privately through the host's Tailscale Service. The deployment script requires a clean `main` branch, checks the service capability before pushing, always requires an explicit `DEPLOY` confirmation, waits for the application to become healthy, and restores the previous Compose configuration if remote verification fails.
 
-If davtor1 has the `services/sverigeforaren` capability, the dedicated address `https://sverigeforaren.tail026a3a.ts.net/` is used. Otherwise, the script automatically uses the private MagicDNS fallback address `https://davtor1.tail026a3a.ts.net:8443/` without affecting the host's existing HTTPS services on port 443. `-Confirmed` may only be used when the user has already explicitly approved the deployment in the active session.
+If davtor1 has the `services/sverigeklattraren` capability, the dedicated address `https://sverigeklattraren.tail026a3a.ts.net/` is used. Otherwise, the script automatically uses the private MagicDNS fallback address `https://davtor1.tail026a3a.ts.net:8443/` without affecting the host's existing HTTPS services on port 443. `-Confirmed` may only be used when the user has already explicitly approved the deployment in the active session.
 
 For a deliberately public demo, run `./deploy.ps1 -Public` after confirming that the public OpenAI-backed contribution endpoint and its rate limits are appropriate. Once Funnel is enabled, later deploys detect and preserve it instead of silently reverting the site to tailnet-only access. Disable the public proxy with `sudo tailscale funnel --https=8443 off` on davtor1.
 

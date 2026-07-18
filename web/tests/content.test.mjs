@@ -223,3 +223,23 @@ test("requests missing English area and route descriptions through the context-a
   assert.match(runtime, /neighbouring-routes/);
   assert.match(runtime, /Preserve route and place names, grades, route numbers/);
 });
+
+test("uses Sverigeklättraren as the product while preserving Sverigeföraren as its source", async () => {
+  const root = path.resolve(process.cwd(), "..");
+  const readme = await readFile(path.join(root, "README.md"), "utf8");
+  const layout = await readFile(path.join(process.cwd(), "app", "layout.tsx"), "utf8");
+  const component = await readFile(path.join(process.cwd(), "app", "components", "GuideApp.tsx"), "utf8");
+  const packageJson = JSON.parse(await readFile(path.join(process.cwd(), "package.json"), "utf8"));
+
+  assert.match(readme, /^# Sverigeklättraren/m);
+  assert.match(readme, /fork of Sverigeföraren/);
+  assert.match(layout, /default: "Sverigeklättraren"/);
+  assert.match(component, /<strong>Sverigeklättraren<\/strong>/);
+  assert.match(component, /brand-mark">SK/);
+  assert.doesNotMatch(component, /<strong>Sverigeföraren<\/strong>/);
+  assert.equal(packageJson.name, "sverigeklattraren-web");
+
+  assert.match(readme, /Sverigeföraren\.se was founded in 2006/);
+  assert.match(component, /Sverigeföraren\.se grundades 2006/);
+  assert.match(component, /Från Sverigeföraren 2014/);
+});

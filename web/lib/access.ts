@@ -6,7 +6,7 @@ const fetchCachedAccessInfo = unstable_cache(async (slug: string) => {
   const url = `https://access.klatterforbundet.se/${encodeURIComponent(slug)}/`;
   const response = await fetch(url, {
     cache: "no-store",
-    headers: { "user-agent": "Sverigeforaren/2026 (+https://github.com/nicemd/Sverigeklattraren)" },
+    headers: { "user-agent": "Sverigeklattraren/2026 (+https://github.com/nicemd/Sverigeklattraren)" },
     signal: AbortSignal.timeout(10_000),
   });
   if (!response.ok) return null;

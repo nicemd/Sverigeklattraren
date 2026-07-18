@@ -100,14 +100,14 @@ export function GuideApp({ areas, initialArea }: { areas: AreaSummary[]; initial
   const access = accessResult?.slug === selectedAccessSlug ? accessResult.info : null;
 
   useEffect(() => {
-    const saved = window.localStorage.getItem("sverigeforaren-language");
+    const saved = window.localStorage.getItem("sverigeklattraren-language") || window.localStorage.getItem("sverigeforaren-language");
     const shouldUseEnglish = saved === "en" || (!saved && navigator.language.toLocaleLowerCase().startsWith("en"));
     const timer = window.setTimeout(() => { if (shouldUseEnglish) setLocale("en"); }, 0);
     return () => window.clearTimeout(timer);
   }, []);
   useEffect(() => {
     document.documentElement.lang = locale;
-    window.localStorage.setItem("sverigeforaren-language", locale);
+    window.localStorage.setItem("sverigeklattraren-language", locale);
   }, [locale]);
 
   const filtered = useMemo(() => areas.filter((area) => areaMatches(area, query, filter)).sort((left, right) => {
@@ -169,9 +169,9 @@ export function GuideApp({ areas, initialArea }: { areas: AreaSummary[]; initial
   return (
     <div className="app-shell">
       <header className="site-header">
-        <button className="brand" type="button" aria-label={tr(locale, "Till Sverigeförarens startsida", "Go to the Sverigeföraren home page")} onClick={() => { setShowLanding(true); setQuery(""); }}>
-          <div className="brand-mark">SF</div>
-          <div><strong>Sverigeföraren</strong><small>{tr(locale, "Öppen klätterkunskap", "Open climbing knowledge")}</small></div>
+        <button className="brand" type="button" aria-label={tr(locale, "Till Sverigeklättrarens startsida", "Go to the Sverigeklättraren home page")} onClick={() => { setShowLanding(true); setQuery(""); }}>
+          <div className="brand-mark">SK</div>
+          <div><strong>Sverigeklättraren</strong><small>{tr(locale, "En fork av Sverigeföraren", "A fork of Sverigeföraren")}</small></div>
         </button>
         <label className="search-wrap">
           <span className="sr-only">{tr(locale, "Sök område eller led", "Search for an area or route")}</span>
@@ -194,7 +194,7 @@ export function GuideApp({ areas, initialArea }: { areas: AreaSummary[]; initial
         <section className="landing-hero">
           <span className="eyebrow">{tr(locale, "Öppen klätterkunskap", "Open climbing knowledge")}</span>
           <h1>{tr(locale, "Hitta klippan.", "Find the crag.")}<br />{tr(locale, "Hitta leden.", "Find the route.")}</h1>
-          <p>{tr(locale, `En modern fältförare byggd från den öppna Sverigeföraren. Sök bland ${areas.length} områden, välj sektor och se skissen tillsammans med lederna.`, `A modern field guide built from the open Sverigeföraren archive. Search ${areas.length} areas, choose a sector and view the topo together with its routes.`)}</p>
+          <p>{tr(locale, `Sverigeklättraren är en modern fork av den öppna Sverigeföraren. Sök bland ${areas.length} områden, välj sektor och se skissen tillsammans med lederna.`, `Sverigeklättraren is a modern fork of the open Sverigeföraren archive. Search ${areas.length} areas, choose a sector and view the topo together with its routes.`)}</p>
           <div className="landing-actions"><button className="primary-button" type="button" onClick={() => setShowLanding(false)}>{tr(locale, "Utforska alla områden", "Explore all areas")}</button><button className="ghost-button" type="button" onClick={() => setShowAbout(true)}>{tr(locale, "Så fungerar projektet", "How it works")}</button></div>
           <div className="landing-stats"><div><strong>{areas.length}</strong><span>{tr(locale, "områden", "areas")}</span></div><div><strong>{areas.reduce((sum, area) => sum + area.routeCount, 0)}</strong><span>{tr(locale, "leder & problem", "routes & problems")}</span></div><div><strong>2006→2026</strong><span>{tr(locale, "öppen kunskap", "open knowledge")}</span></div></div>
         </section>
@@ -233,6 +233,7 @@ function AboutDialog({ locale, onClose }: { locale: Locale; onClose: () => void 
     <div className="modal-backdrop" role="presentation" onMouseDown={(event) => { if (event.target === event.currentTarget) onClose(); }}>
       <section className="modal" role="dialog" aria-modal="true" aria-labelledby="about-title">
         <div className="modal-head"><div><span className="eyebrow" style={{ color: "var(--forest)" }}>{tr(locale, "Om projektet", "About the project")}</span><h2 id="about-title">{tr(locale, "En agentdriven wiki för kunskap som annars försvinner", "An agent-driven wiki for knowledge that would otherwise disappear")}</h2></div><button className="close-button" type="button" onClick={onClose} aria-label={tr(locale, "Stäng", "Close")}>×</button></div>
+        <p>{tr(locale, "Sverigeklättraren är en modern, agentdriven fork av Sverigeföraren. Den nya siten vidareutvecklar det öppna förarinnehållet, medan Sverigeföraren bevaras som namn på originalet och källan.", "Sverigeklättraren is a modern, agent-driven fork of Sverigeföraren. The new site develops the open guide content further, while Sverigeföraren remains the name of the original and its source material.")}</p>
         <p>{tr(locale, "Sverigeföraren.se grundades 2006 av Niclas Emdelius och Per Lindh, såldes 2013 och förföll därefter. En öppen ögonblicksbild från 2014 finns kvar: hundratals områden, tusentals leder, bilder och topos – värdefull kunskap fångad i en åldrad MediaWiki.", "Sverigeföraren.se was founded in 2006 by Niclas Emdelius and Per Lindh, sold in 2013 and subsequently fell into disrepair. An open snapshot from 2014 remains: hundreds of areas, thousands of routes, images and topos — valuable knowledge trapped in an ageing MediaWiki.")}</p>
         <p>{tr(locale, "Projektet är en konkret take på en LLM-baserad wiki. Codex har använts för att bygga om hela produkten och OpenAI API driver agenter som gör ostrukturerat arv till källspårbar, levande kunskap utan att skriva över originalet.", "This project is a practical take on an LLM-based wiki. Codex was used to rebuild the product, while the OpenAI API powers agents that turn an unstructured legacy into traceable, living knowledge without overwriting the original.")}</p>
 

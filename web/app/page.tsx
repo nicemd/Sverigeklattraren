@@ -3,7 +3,7 @@ import { getArea, getAreaSummaries } from "@/lib/content";
 import { GuideApp } from "./components/GuideApp";
 
 export const metadata: Metadata = {
-  title: "Sverigeföraren — klättring i Sverige",
+  title: "Sverigeklättraren — klättring i Sverige",
   description: "Öppen, källspårbar klätterförare för svenska klippor och boulderområden.",
 };
 

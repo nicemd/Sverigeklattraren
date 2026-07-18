@@ -8,7 +8,7 @@ import type { Intake, ProposedEdit, Review } from "./agents/schemas";
 import { patchNeedsHumanReview } from "./publication-policy.mjs";
 
 const runGit = (args: string[]) => new Promise<void>((resolve, reject) => {
-  const child = spawn("git", ["-c", `safe.directory=${repositoryRoot.replaceAll("\\", "/")}`, ...args], { cwd: repositoryRoot, env: { ...process.env, GIT_AUTHOR_NAME: "Sverigeföraren agent", GIT_AUTHOR_EMAIL: "agent@sverigeforaren.local", GIT_COMMITTER_NAME: "Sverigeföraren agent", GIT_COMMITTER_EMAIL: "agent@sverigeforaren.local" } });
+  const child = spawn("git", ["-c", `safe.directory=${repositoryRoot.replaceAll("\\", "/")}`, ...args], { cwd: repositoryRoot, env: { ...process.env, GIT_AUTHOR_NAME: "Sverigeklättraren agent", GIT_AUTHOR_EMAIL: "agent@sverigeklattraren.local", GIT_COMMITTER_NAME: "Sverigeklättraren agent", GIT_COMMITTER_EMAIL: "agent@sverigeklattraren.local" } });
   let error = "";
   child.stderr.on("data", (chunk) => { error += String(chunk); });
   child.on("error", reject);

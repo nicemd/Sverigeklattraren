@@ -1,11 +1,11 @@
 [CmdletBinding()]
 param(
     [string]$Server = "nicemd@davtor1",
-    [string]$Image = "ghcr.io/nicemd/sverigeforaren",
-    [string]$AppDirectory = "~/migrated-compose/sverigeforaren",
+    [string]$Image = "ghcr.io/nicemd/sverigeklattraren",
+    [string]$AppDirectory = "~/migrated-compose/sverigeklattraren",
     [string]$Branch = "main",
     [int]$LocalBindPort = 3086,
-    [string]$ServiceName = "sverigeforaren",
+    [string]$ServiceName = "sverigeklattraren",
     [int]$FallbackHttpsPort = 8443,
     [switch]$Public,
     [switch]$Confirmed
@@ -75,7 +75,7 @@ if ($LASTEXITCODE -ne 0) { throw "Push av versionsimagen till GHCR misslyckades.
 docker push $latestRef
 if ($LASTEXITCODE -ne 0) { throw "Push till GHCR misslyckades." }
 
-$tempDirectory = Join-Path ([IO.Path]::GetTempPath()) ("sverigeforaren-deploy-" + [guid]::NewGuid().ToString("N"))
+$tempDirectory = Join-Path ([IO.Path]::GetTempPath()) ("sverigeklattraren-deploy-" + [guid]::NewGuid().ToString("N"))
 $resolvedTemp = [IO.Path]::GetFullPath($tempDirectory)
 New-Item -ItemType Directory -Path $resolvedTemp | Out-Null
 try {
@@ -102,12 +102,24 @@ try {
     ssh $Server $repositoryCommand
     if ($LASTEXITCODE -ne 0) { throw "Kunde inte uppdatera innehållsrepot på servern." }
 
+    # One-time compatibility migration from the former product deployment.
+    $legacyAppDirectory = "~/migrated-compose/sverigeforaren"
+    $legacyWasRunning = $false
+    if ($AppDirectory -ne $legacyAppDirectory) {
+        $legacyProbe = (ssh $Server "if [ -f $legacyAppDirectory/docker-compose.yml ] && cd $legacyAppDirectory && [ -n `"`$(sudo docker-compose ps -q 2>/dev/null)`" ]; then echo running; else echo stopped; fi") -join "`n"
+        $legacyWasRunning = $legacyProbe.Trim() -eq "running"
+        if ($legacyWasRunning) {
+            ssh -t $Server "cd $legacyAppDirectory && sudo docker-compose down"
+            if ($LASTEXITCODE -ne 0) { throw "Kunde inte stoppa den äldre Sverigeföraren-deployen inför migreringen." }
+        }
+    }
     $deployCommand = 'cd {0} && sudo docker-compose pull && sudo docker-compose up -d --force-recreate --no-build && for i in $(seq 1 30); do curl --fail --silent http://127.0.0.1:{1}/ >/dev/null && break; if [ "$i" -eq 30 ]; then exit 1; fi; sleep 2; done && {2} && sudo tailscale serve status --json && tailscale status --self --json && sudo docker-compose ps' -f $AppDirectory, $LocalBindPort, $tailscaleServeCommand
     ssh -t $Server $deployCommand
     if ($LASTEXITCODE -ne 0) {
         Write-Warning "Fjärrdeploy misslyckades. Försöker återställa föregående compose-konfiguration."
         $rollbackCommand = 'cd {0} && if [ -f .env.previous ] && [ -f docker-compose.yml.previous ]; then cp -f .env.previous .env && cp -f docker-compose.yml.previous docker-compose.yml && chmod 600 .env && sudo docker-compose pull && sudo docker-compose up -d --force-recreate --no-build; fi' -f $AppDirectory
         ssh -t $Server $rollbackCommand
+        if ($legacyWasRunning) { ssh -t $Server "cd $legacyAppDirectory && sudo docker-compose up -d" }
         throw "Fjärrdeploy eller verifiering misslyckades; rollback har försökts."
     }
 
