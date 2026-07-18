@@ -7,6 +7,7 @@ param(
     [int]$LocalBindPort = 3086,
     [string]$ServiceName = "sverigeforaren",
     [int]$FallbackHttpsPort = 8443,
+    [switch]$Public,
     [switch]$Confirmed
 )
 
@@ -42,13 +43,24 @@ if ($useService) {
     $tailscaleServeCommand = "sudo tailscale serve --yes --bg --service=svc:$ServiceName --https=443 http://127.0.0.1:$LocalBindPort"
 } else {
     $publicUrl = "https://davtor1.tail026a3a.ts.net:$FallbackHttpsPort/"
-    $tailscaleServeCommand = "sudo tailscale serve --yes --bg --https=$FallbackHttpsPort http://127.0.0.1:$LocalBindPort"
+    $funnelStatus = (ssh $Server "sudo tailscale funnel status") -join "`n"
+    if ($LASTEXITCODE -ne 0) { throw "Kunde inte kontrollera befintlig Tailscale Funnel-status." }
+    $funnelAlreadyEnabled = $funnelStatus -match ([regex]::Escape("https://davtor1.tail026a3a.ts.net:$FallbackHttpsPort") + ' \(Funnel on\)')
+    $tailscaleServeCommand = if ($Public -or $funnelAlreadyEnabled) {
+        "sudo tailscale funnel --yes --bg --https=$FallbackHttpsPort http://127.0.0.1:$LocalBindPort"
+    } else {
+        "sudo tailscale serve --yes --bg --https=$FallbackHttpsPort http://127.0.0.1:$LocalBindPort"
+    }
     $serveStatus = (ssh $Server "sudo tailscale serve status --json") -join "`n"
     if ($LASTEXITCODE -ne 0) { throw "Kunde inte kontrollera befintliga Tailscale Serve-portar." }
     if ($serveStatus -match ('"' + $FallbackHttpsPort + '"') -and $serveStatus -notmatch ('127\.0\.0\.1:' + $LocalBindPort)) {
         throw "Tailscale HTTPS-port $FallbackHttpsPort används redan av en annan tjänst."
     }
-    Write-Warning "davtor1 saknar $requiredCapability. Publicerar privat via värdens MagicDNS på $publicUrl i stället."
+    if ($Public -or $funnelAlreadyEnabled) {
+        Write-Warning "davtor1 saknar $requiredCapability. Bevarar publik Tailscale Funnel på $publicUrl."
+    } else {
+        Write-Warning "davtor1 saknar $requiredCapability. Publicerar privat via värdens MagicDNS på $publicUrl i stället."
+    }
 }
 
 if (-not $Confirmed) {

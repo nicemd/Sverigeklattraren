@@ -136,6 +136,8 @@ npm run build
 
 If davtor1 has the `services/sverigeforaren` capability, the dedicated address `https://sverigeforaren.tail026a3a.ts.net/` is used. Otherwise, the script automatically uses the private MagicDNS fallback address `https://davtor1.tail026a3a.ts.net:8443/` without affecting the host's existing HTTPS services on port 443. `-Confirmed` may only be used when the user has already explicitly approved the deployment in the active session.
 
+For a deliberately public demo, run `./deploy.ps1 -Public` after confirming that the public OpenAI-backed contribution endpoint and its rate limits are appropriate. Once Funnel is enabled, later deploys detect and preserve it instead of silently reverting the site to tailnet-only access. Disable the public proxy with `sudo tailscale funnel --https=8443 off` on davtor1.
+
 ## License
 
 The original content is distributed under the GNU Free Documentation License. See [LICENSE](LICENSE). New external sources must be registered with their own attribution and license metadata; an external source never automatically becomes project-owned text.
