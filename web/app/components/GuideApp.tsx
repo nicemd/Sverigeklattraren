@@ -35,6 +35,10 @@ function normalizeSearch(value: string) {
   return value.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLocaleLowerCase("sv").replace(/[^a-z0-9åäö]+/g, " ").trim();
 }
 
+function uniqueImages(images: Area["images"]) {
+  return [...new Map(images.map((image) => [image.filename.toLocaleLowerCase("sv"), image])).values()];
+}
+
 function areaMatches(area: AreaSummary, query: string, filter: string) {
   const haystack = normalizeSearch(`${area.name} ${area.description} ${area.categories.join(" ")} ${area.searchText}`);
   const matchesQuery = haystack.includes(normalizeSearch(query));
@@ -100,7 +104,7 @@ export function GuideApp({ areas, initialArea }: { areas: AreaSummary[]; initial
   async function selectArea(slug: string, initialRouteQuery = "") {
     const routeSeedFor = (area: Area) => {
       const needle = normalizeSearch(initialRouteQuery);
-      if (!needle) return "";
+      if (!needle || needle === normalizeSearch(area.name)) return "";
       return area.routes.some((route) => normalizeSearch(`${route.name} ${route.grade || ""} ${route.number || ""}`).includes(needle))
         ? initialRouteQuery
         : "";
@@ -163,7 +167,7 @@ export function GuideApp({ areas, initialArea }: { areas: AreaSummary[]; initial
           <h1>Hitta klippan.<br />Hitta leden.</h1>
           <p>En modern fältförare byggd från den öppna Sverigeföraren. Sök bland {areas.length} områden, välj sektor och se skissen tillsammans med lederna.</p>
           <div className="landing-actions"><button className="primary-button" type="button" onClick={() => setShowLanding(false)}>Utforska alla områden</button><button className="ghost-button" type="button" onClick={() => setShowAbout(true)}>Så fungerar projektet</button></div>
-          <div className="landing-stats"><div><strong>{areas.length}</strong><span>områden</span></div><div><strong>{areas.reduce((sum, area) => sum + area.routeCount, 0)}</strong><span>leder & problem</span></div><div><strong>2014→2026</strong><span>öppen kunskap</span></div></div>
+          <div className="landing-stats"><div><strong>{areas.length}</strong><span>områden</span></div><div><strong>{areas.reduce((sum, area) => sum + area.routeCount, 0)}</strong><span>leder & problem</span></div><div><strong>2006→2026</strong><span>öppen kunskap</span></div></div>
         </section>
         <section className="landing-featured" aria-labelledby="featured-title"><div><span className="eyebrow">Börja utforska</span><h2 id="featured-title">Hitta efter klätterdag</h2></div><div className="landing-groups">{landingGroups.map((group) => <section key={group.title}><div><h3>{group.title}</h3><p>{group.description}</p></div><div className="landing-area-grid">{group.areas.map((area) => <button type="button" key={area.id} onClick={() => selectArea(area.slug)}><span><strong>{area.name}</strong><small>{area.routeCount} leder · {area.categories.slice(0, 1).join("") || "Sverige"}</small></span><b title="Beräknad kvalitet på fältdata">{areaQualityScore(area)}%</b></button>)}</div></section>)}</div></section>
       </main> : <div className="workspace">
@@ -199,22 +203,23 @@ function AboutDialog({ onClose }: { onClose: () => void }) {
   return (
     <div className="modal-backdrop" role="presentation" onMouseDown={(event) => { if (event.target === event.currentTarget) onClose(); }}>
       <section className="modal" role="dialog" aria-modal="true" aria-labelledby="about-title">
-        <div className="modal-head"><div><span className="eyebrow" style={{ color: "var(--forest)" }}>Om projektet</span><h2 id="about-title">Öppen klätterkunskap, byggd för att leva vidare</h2></div><button className="close-button" type="button" onClick={onClose} aria-label="Stäng">×</button></div>
-        <p>Sverigeföraren utgår från den öppet licensierade wikin som bevarades 2014. Originaltext och bilder ligger kvar oförändrade som primärkällor. Den moderna sajten gör kunskapen användbar vid klippan utan att dölja var den kommer ifrån.</p>
+        <div className="modal-head"><div><span className="eyebrow" style={{ color: "var(--forest)" }}>Om projektet</span><h2 id="about-title">En agentdriven wiki för kunskap som annars försvinner</h2></div><button className="close-button" type="button" onClick={onClose} aria-label="Stäng">×</button></div>
+        <p>Sverigeföraren.se grundades 2006 av Niclas Emdelius och Per Lindh, såldes 2013 och förföll därefter. En öppen ögonblicksbild från 2014 finns kvar: hundratals områden, tusentals leder, bilder och topos – värdefull kunskap fångad i en åldrad MediaWiki.</p>
+        <p>Projektet är en konkret take på en LLM-baserad wiki. Codex har använts för att bygga om hela produkten och OpenAI API driver agenter som gör ostrukturerat arv till källspårbar, levande kunskap utan att skriva över originalet.</p>
 
-        <h3>Byggd för att hitta rätt</h3>
+        <h3>Tre agenter, ett granskningsbart flöde</h3>
         <ul>
-          <li>Områden har karta, vägbeskrivning, sektorer och sökbara leder eller problem.</li>
-          <li>Varje ledkort samlar nummer, grad, längd, förstebestigning, beskrivning och källor. Beta är dold tills du själv väljer att visa den.</li>
-          <li>Skisser och topos kopplas till berörda leder. Kopplingen kan bygga på placeringen i originalet, filnamnet eller avlästa lednummer i bilden och sparas med metod, belägg och konfidens.</li>
+          <li><strong>Importagenten</strong> tolkar MediaWiki-mallar och lös text, strukturerar områden, sektorer och leder samt läser lednummer ur skisser med vision.</li>
+          <li><strong>Kvalitetsagenten</strong> letar efter motsägelser, saknade källor, dålig formatering och osäkra relationer. Varje slutsats sparas med metod, belägg och konfidens.</li>
+          <li><strong>Redaktörsagenten</strong> förvandlar användarens fritext till en precis ändring, ställer följdfrågor när underlaget inte räcker och skapar ett granskningsbart Git-förslag.</li>
         </ul>
 
-        <h3>En spårbar kunskapsdatabas</h3>
-        <p>Den publicerade databasen består av versionsstyrda JSON-dokument i Git. Modellen binder samman område, sektor, led eller problem, bild, topo och källa. En uppgift på en led kan hänvisa till en eller flera källor, så nya fakta kan läggas till utan att en extern källas skyddade text eller bilder kopieras.</p>
-        <p>Aktuell accessinformation hämtas från Svenska Klätterförbundets accessdatabas. Både källans uppdateringsdatum och tidpunkten då uppgiften hämtades visas.</p>
+        <h3>Byggd för verkligheten vid klippan</h3>
+        <p>Resultatet bedöms inte som en lyckad import förrän en klättrare kan hitta klippan, välja rätt sektor, se rätt skiss och identifiera rätt led. Ledkort visar beskrivning och källor; beta är dold tills användaren själv väljer att se den. Aktuell access hämtas från Svenska Klätterförbundet med synligt uppdateringsdatum.</p>
 
-        <h3>Ändringar med granskning</h3>
-        <p>Fritextförslag bearbetas med OpenAI av separata roller för strukturering, presentation och kvalitetsgranskning. Resultatet blir granskningsbara Git-commits. Access, parkering, avstängningar och annan säkerhetskritisk information kräver alltid mänskligt godkännande.</p>
+        <h3>Git är wikins minne</h3>
+        <p>Den publicerade kunskapsdatabasen består av versionsstyrda JSON-dokument. Uppgifter kan ha flera källor per fält, och varje agentändring blir en diff och en commit. GPT-5.6 får föreslå struktur och samband men är aldrig själv en faktakälla. Access, parkering, avstängningar och annan säkerhetskritisk information kräver mänskligt godkännande.</p>
+        <p>Samma arkitektur kan återuppliva andra övergivna kunskapsbaser: bevara originalet, importera med agenter, spåra varje påstående och låt människor bidra på sitt eget språk.</p>
         <p><strong>Licens:</strong> GNU Free Documentation License. Nya externa källor behåller sin egen attribution och licensmetadata.</p>
         <a className="source-link" href="https://github.com/nicemd/Sverigeforaren" target="_blank" rel="noreferrer"><span>Projektets Git-repository</span><span>↗</span></a>
       </section>
@@ -280,34 +285,27 @@ function AreaView({ area, access, initialRouteQuery, onSuggest }: { area: Area; 
   const exactIndex = exactRoute ? sectorRoutes.findIndex((route) => route.id === exactRoute.id) : -1;
   const exactSourceIds = exactRoute ? [...new Set([exactRoute.source.id, ...Object.values(exactRoute.fieldSources || {}).flat()])] : [];
   const selectedSector = sectorId !== "all" ? sectionById.get(sectorId) : null;
-  const selectedSectorRoutes = selectedSector
-    ? area.routes.filter((route) => route.sectorId === selectedSector.id && (discipline === "all" || route.kind === discipline))
-    : [];
-  const selectedSectorRouteIds = new Set(selectedSectorRoutes.map((route) => route.id));
-  const selectedSectorImages = selectedSector ? area.images
-    .filter((image) => !image.missing && image.imageKind !== "photo" && image.imageKind !== "map" && (
-      image.sectorId === selectedSector.id
-      || image.routeRelations?.some((relation) => selectedSectorRouteIds.has(relation.routeId) && relation.confidence >= 0.7)
-      || image.routeIds?.some((routeId) => selectedSectorRouteIds.has(routeId))
-    ))
-    .sort((left, right) => {
-      const score = (image: Area["images"][number]) => Number(image.sectorId === selectedSector.id) * 2
-        + Math.max(0, ...(image.routeRelations || []).filter((relation) => selectedSectorRouteIds.has(relation.routeId)).map((relation) => relation.confidence));
-      return score(right) - score(left);
-    })
-    : [];
-  const routesShownInImage = (image: Area["images"][number]) => selectedSectorRoutes.filter((route) => {
-    const relation = routeImageRelation(image, route.id);
-    return Boolean(relation && relation.confidence >= 0.7);
-  });
+  const selectedSectorRoutes = selectedSector ? visibleRoutes : [];
   const imagesForSector = (targetSectorId: string) => {
     const targetRouteIds = new Set(area.routes.filter((route) => route.sectorId === targetSectorId && (discipline === "all" || route.kind === discipline)).map((route) => route.id));
-    return area.images.filter((image) => !image.missing && image.imageKind !== "photo" && image.imageKind !== "map" && (
-      image.sectorId === targetSectorId
-      || image.routeRelations?.some((relation) => targetRouteIds.has(relation.routeId) && relation.confidence >= 0.7)
-      || image.routeIds?.some((routeId) => targetRouteIds.has(routeId))
-    ));
+    const candidates = area.images.filter((image) => !image.missing && image.imageKind !== "photo" && image.imageKind !== "map");
+    const direct = candidates.filter((image) => image.sectorId === targetSectorId);
+    if (direct.length) return uniqueImages(direct);
+    return uniqueImages(candidates.filter((image) => image.routeRelations?.some((relation) => targetRouteIds.has(relation.routeId) && relation.confidence >= 0.7)
+      || image.routeIds?.some((routeId) => targetRouteIds.has(routeId))));
   };
+  const selectedSectorImages = selectedSector ? imagesForSector(selectedSector.id) : [];
+  const selectedRoutesByImage = new Map<string, Area["routes"]>();
+  const selectedRoutesWithoutImage: Area["routes"] = [];
+  selectedSectorImages.forEach((image) => selectedRoutesByImage.set(image.filename, []));
+  selectedSectorRoutes.forEach((route) => {
+    const bestImage = selectedSectorImages
+      .map((image) => ({ image, confidence: routeImageRelation(image, route.id)?.confidence || 0 }))
+      .filter(({ confidence }) => confidence >= 0.7)
+      .sort((left, right) => right.confidence - left.confidence)[0]?.image;
+    if (bestImage) selectedRoutesByImage.get(bestImage.filename)?.push(route);
+    else selectedRoutesWithoutImage.push(route);
+  });
   const routesForTopo = (image: Area["images"][number]) => area.routes.filter((route) =>
     (discipline === "all" || route.kind === discipline)
     && (routeImageRelation(image, route.id)?.confidence || 0) >= 0.7
@@ -321,6 +319,12 @@ function AreaView({ area, access, initialRouteQuery, onSuggest }: { area: Area; 
       </button>
     </div>;
   };
+  const renderRouteRow = (route: Area["routes"][number]) => <button type="button" className={`route-row ${exactRoute?.id === route.id ? "highlighted" : ""}`} key={route.id} onClick={() => { setSelectedRouteId(route.id); setShowBeta(false); }} aria-label={`Öppna fältkort för ${route.name}`}>
+    <span className="route-number" title={route.number ? "Nummer i originalets skiss/lista" : "Lednummer saknas i originalkällan"}>{route.number || "–"}</span>
+    <span className="route-name"><strong>{route.name}</strong><small>Visa fältkort{area.images.some((image) => image.imageKind !== "photo" && image.imageKind !== "map" && (routeImageRelation(image, route.id)?.confidence || 0) >= 0.7) ? " · finns i skissen" : ""}</small>{route.description && <span className="route-inline-description">{route.description}</span>}</span>
+    <span className="grade">{route.grade || "–"}</span>
+    <span className="route-length">{route.length ? `${route.length} m` : route.type}</span>
+  </button>;
   const directions = area.sections.find((section) => /vägbeskrivning|hitta hit|anmarsch/i.test(section.title));
   const routeTotal = area.routes.filter((route) => route.kind === "route").length;
   const problemTotal = area.routes.filter((route) => route.kind === "problem").length;
@@ -421,18 +425,22 @@ function AreaView({ area, access, initialRouteQuery, onSuggest }: { area: Area; 
                 <div><span className="eyebrow">Vald sektor</span><h3 id="selected-sector-title">{selectedSector.title}</h3></div>
                 <p><RichText text={selectedSector.body || "Sektorsbeskrivning saknas i originalet."} /></p>
               </div>
-              <div className={`sector-topo-grid ${selectedSectorImages.length === 1 ? "single" : ""}`}>
-                {selectedSectorImages.slice(0, 3).map((image) => {
-                  const relatedRoutes = routesShownInImage(image);
-                  return <article className="sector-topo-image" key={image.filename}>
-                    {renderTopoVisual(image, selectedSector.title)}
-                    <div className="sector-topo-caption"><strong>{image.caption || `Skiss över ${selectedSector.title}`}</strong><span>{relatedRoutes.length > 0 ? `${relatedRoutes.length} lednummer har kopplats till skissen` : "Skissen hör till sektorn, men lednummer har ännu inte kunnat läsas säkert."}</span></div>
+              <div className="sector-topo-groups">
+                {selectedSectorImages.map((image) => {
+                  const relatedRoutes = selectedRoutesByImage.get(image.filename) || [];
+                  return <article className="sector-topo-route-group" key={image.filename}>
+                    <div className="sector-topo-image">
+                      {renderTopoVisual(image, selectedSector.title)}
+                      <div className="sector-topo-caption"><strong>{image.caption || `Skiss över ${selectedSector.title}`}</strong><span>{relatedRoutes.length > 0 ? `${relatedRoutes.length} leder hör till skissen` : "Skissen hör till sektorn, men inga leder har kunnat kopplas säkert."}</span></div>
+                    </div>
+                    {relatedRoutes.length > 0 && <div className="route-list sketch-route-list">{relatedRoutes.map(renderRouteRow)}</div>}
                   </article>;
                 })}
+                {selectedRoutesWithoutImage.length > 0 && <section className="unlinked-sector-routes"><div><strong>Övriga leder i sektorn</strong><span>{selectedRoutesWithoutImage.length} saknar säker koppling till en skiss</span></div><div className="route-list sketch-route-list">{selectedRoutesWithoutImage.map(renderRouteRow)}</div></section>}
               </div>
             </section>
           )}
-          <div className={`route-list ${sectorId !== "all" ? "sector-route-list" : ""}`}>
+          {(!selectedSector || selectedSectorImages.length === 0) && <div className={`route-list ${sectorId !== "all" ? "sector-route-list" : ""}`}>
             {visibleRoutes.map((route, visibleIndex) => (
               <Fragment key={route.id}>
               {(visibleIndex === 0 || visibleRoutes[visibleIndex - 1]?.sectorId !== route.sectorId) && (sectorId === "all" || selectedSectorImages.length === 0) && (() => {
@@ -440,17 +448,12 @@ function AreaView({ area, access, initialRouteQuery, onSuggest }: { area: Area; 
                 const groupTitle = route.sectorId ? sectionById.get(route.sectorId)?.title || "Övriga leder" : "Övriga leder";
                 return <div className={`sector-heading ${groupImages.length ? "with-topos" : ""}`}><strong>{groupTitle}</strong><span><RichText text={route.sectorId ? sectionById.get(route.sectorId)?.body || "Sektorsbeskrivning saknas i originalet." : "Sektorsbeskrivning saknas i originalet."} /></span>{groupImages.length > 0 && <div className="sector-heading-topos">{groupImages.map((image) => <div className="sector-heading-topo" key={image.filename}>{renderTopoVisual(image, groupTitle)}<small>{image.caption || "Sektorskiss"}</small></div>)}</div>}</div>;
               })()}
-              <button type="button" className={`route-row ${exactRoute?.id === route.id ? "highlighted" : ""}`} onClick={() => { setSelectedRouteId(route.id); setShowBeta(false); }} aria-label={`Öppna fältkort för ${route.name}`}>
-                <span className="route-number" title={route.number ? "Nummer i originalets skiss/lista" : "Lednummer saknas i originalkällan"}>{route.number || "–"}</span>
-                <span className="route-name"><strong>{route.name}</strong><small>Visa fältkort{area.images.some((image) => image.imageKind !== "photo" && image.imageKind !== "map" && (routeImageRelation(image, route.id)?.confidence || 0) >= 0.7) ? " · finns i skissen" : ""}</small>{route.description && <span className="route-inline-description">{route.description}</span>}</span>
-                <span className="grade">{route.grade || "–"}</span>
-                <span className="route-length">{route.length ? `${route.length} m` : route.type}</span>
-              </button>
+              {renderRouteRow(route)}
               </Fragment>
             ))}
             {!area.routes.length && <div className="empty">Originalet innehåller inga ledposter som säkert kan struktureras. Anteckningar och externa länkar visas ändå ovan.</div>}
             {area.routes.length > 0 && !visibleRoutes.length && <div className="empty">Ingen led matchar sökningen i vald sektor.</div>}
-          </div>
+          </div>}
           {area.routes.length > 0 && <div className="list-note">Visar {visibleRoutes.length} av {area.routes.length}. Ledordning och sektortext kommer från originalkällan.</div>}
         </article>
 
@@ -477,8 +480,8 @@ function AreaView({ area, access, initialRouteQuery, onSuggest }: { area: Area; 
           <div className="image-modal-visual">
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img src={`/api/media/${encodeURIComponent(openImage.filename)}`} alt={openImage.caption || `Skiss eller bild från ${area.name}`} />
-            {openImageRoutes.length > 0 && <details className="image-modal-annotations" open><summary>Lednyckel <span>{openImageRoutes.length} leder</span></summary><div>{openImageRoutes.map((route) => <button type="button" key={route.id} onClick={() => { setOpenImage(null); setSelectedRouteId(route.id); setShowBeta(false); }} title={`Öppna fältkort för ${route.name}`}><b>{route.number || "–"}</b><span>{route.name}</span>{route.grade && <em>{route.grade}</em>}</button>)}</div></details>}
           </div>
+          {openImageRoutes.length > 0 && <details className="image-modal-annotations"><summary>Lednyckel <span>{openImageRoutes.length} leder</span></summary><div>{openImageRoutes.map((route) => <button type="button" key={route.id} onClick={() => { setOpenImage(null); setSelectedRouteId(route.id); setShowBeta(false); }} title={`Öppna fältkort för ${route.name}`}><b>{route.number || "–"}</b><span>{route.name}</span>{route.grade && <em>{route.grade}</em>}</button>)}</div></details>}
           {openImageRoute && <div className="image-route-context"><strong>{openImageRoute.number || "Utan nummer"} · {openImageRoute.name}</strong><span>{openImageRoute.grade || "Ograderad"}{openImageRouteColor ? ` · ${openImageRouteColor.toLocaleLowerCase("sv")} i originaltopon` : ""}</span></div>}
           <p>Lednumren i listan motsvarar originalskissen när ett nummer finns angivet i källan.</p>
         </section>

@@ -1,8 +1,20 @@
 # Sverigeföraren
 
-En modern, öppen och källspårbar klätterförare byggd på innehållet från `sverigeforaren.se` såsom det bevarades 2014.
+En modern, öppen och källspårbar klätterförare – och ett praktiskt experiment i hur en LLM-baserad wiki kan återuppliva kunskap som annars går förlorad.
+
+Sverigeföraren.se grundades 2006 av Niclas Emdelius och Per Lindh, såldes 2013 och förföll därefter. Projektet bygger på den öppet licensierade ögonblicksbild som bevarades 2014.
 
 Den nya applikationen finns i `web/`. Originalets MediaWiki-filer och bilder ligger kvar oförändrade i `mediawiki/` respektive `images/`. Importverktyget skapar strukturerade områdesdokument i `content/` och bevarar en direkt hänvisning till primärkällan för varje led och problem.
+
+## En agentdriven wiki
+
+Codex har använts för att bygga, testa och iterera produkten. OpenAI API och GPT-5.6 driver tre tydliga redaktionella roller:
+
+- **Importagenten** strukturerar MediaWiki-mallar och lös text samt tolkar lednummer i topos med vision.
+- **Kvalitetsagenten** granskar formatering, källor, motsägelser och osäkra relationer med explicit belägg och konfidens.
+- **Redaktörsagenten** omvandlar användares fritext till precisa, källbelagda ändringsförslag och ställer följdfrågor när uppgifterna inte räcker.
+
+Git är wikins minne: varje publicerbar förändring är en diff och en commit. Modellen får föreslå struktur och samband men är aldrig själv en faktakälla. Målet är en generell arkitektur för övergivna kunskapsbaser, demonstrerad i ett krävande fältfall där användaren faktiskt måste kunna hitta rätt klippa, sektor, skiss och led.
 
 ## Funktioner
 
