@@ -130,7 +130,7 @@ test("keeps directions as semantic headings, paragraphs and lists", async () => 
   assert.ok(directions?.blocks?.some((block) => block.kind === "list" && block.items.length === 4));
 });
 
-test("replays committed auto-published proposals during a fresh import", async () => {
+test("replays auto-published and human-merged proposals during a fresh import", async () => {
   const output = await mkdtemp(path.join(os.tmpdir(), "sverigeforaren-import-"));
   const proposalDir = path.join(process.cwd(), "tests", "fixtures", "proposals");
   try {
@@ -150,6 +150,7 @@ test("replays committed auto-published proposals during a fresh import", async (
     const externalSource = utby.provenance.sources.find((source) => source.url === "https://example.test/source");
     assert.ok(carlsberg.fieldSources.grade.includes(externalSource.id));
     assert.equal(externalSource.usage, "fact-reference");
+    assert.ok(utby.sections.some((section) => section.title === "PR-granskad historik"));
   } finally {
     await rm(output, { recursive: true, force: true });
   }

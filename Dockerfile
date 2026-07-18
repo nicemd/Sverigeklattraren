@@ -13,7 +13,7 @@ ENV REPOSITORY_ROOT=/repository-build
 RUN npx next build
 
 FROM node:22-alpine AS runner
-RUN apk add --no-cache git
+RUN apk add --no-cache git openssh-client
 ENV NODE_ENV=production \
     NEXT_TELEMETRY_DISABLED=1 \
     HOSTNAME=0.0.0.0 \

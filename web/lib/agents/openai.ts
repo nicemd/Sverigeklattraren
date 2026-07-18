@@ -6,4 +6,4 @@ export function getOpenAI() {
   client ||= new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
   return client;
 }
-export const editorialModel = process.env.OPENAI_EDITORIAL_MODEL || "gpt-5.6-sol";
+export const editorialModel = process.env.OPENAI_EDITORIAL_MODEL || "gpt-5-mini";

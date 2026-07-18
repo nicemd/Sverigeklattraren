@@ -446,7 +446,7 @@ try {
   const proposalDir = runtimeEnv.PROPOSAL_DIR ? path.resolve(runtimeEnv.PROPOSAL_DIR) : path.join(repoRoot, "proposals");
   for (const filename of (await readdir(proposalDir)).filter((name) => name.endsWith(".json")).sort()) {
     const proposal = JSON.parse(await readFile(path.join(proposalDir, filename), "utf8"));
-    if (proposal.decision !== "auto_published" || typeof proposal.area !== "string") continue;
+    if (!["auto_published", "approved_on_merge"].includes(proposal.decision) || typeof proposal.area !== "string") continue;
     const entries = publishedProposals.get(proposal.area) || [];
     entries.push(proposal);
     publishedProposals.set(proposal.area, entries);

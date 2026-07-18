@@ -82,8 +82,10 @@ try {
     $remoteEnv = Join-Path $resolvedTemp ".env"
     $envText = @(
         $keyLine
-        "OPENAI_EDITORIAL_MODEL=gpt-5.6-sol"
+        "OPENAI_EDITORIAL_MODEL=gpt-5-mini"
         "AUTO_PUBLISH_THRESHOLD=0.97"
+        "GITHUB_REPOSITORY=nicemd/Sverigeklattraren"
+        "GITHUB_PROPOSAL_KEY_PATH=/run/secrets/github-proposal-key"
         "GHCR_IMAGE=$imageRef"
         "LOCAL_BIND_PORT=$LocalBindPort"
         "PUBLIC_BASE_URL=$($publicUrl.TrimEnd('/'))"

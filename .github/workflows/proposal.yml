@@ -1,0 +1,92 @@
+name: Proposal Pull Request
+
+on:
+  push:
+    branches:
+      - "proposal/**"
+
+permissions:
+  actions: write
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: proposal-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    outputs:
+      auto_merge: ${{ steps.metadata.outputs.auto_merge }}
+      pr_url: ${{ steps.pull_request.outputs.url }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Fetch main
+        run: git fetch origin main
+
+      - name: Validate proposal scope and policy
+        id: metadata
+        working-directory: .
+        env:
+          AUTO_PUBLISH_THRESHOLD: "0.97"
+        run: node web/scripts/proposal-pr-metadata.mjs
+
+      - name: Create or locate Pull Request
+        id: pull_request
+        env:
+          GH_TOKEN: ${{ github.token }}
+          TITLE: ${{ steps.metadata.outputs.title }}
+          BODY: ${{ steps.metadata.outputs.body }}
+        run: |
+          existing="$(gh pr list --head "$GITHUB_REF_NAME" --state open --json url --jq '.[0].url // empty')"
+          if [ -z "$existing" ]; then
+            body_file="$RUNNER_TEMP/proposal-body.md"
+            printf '%s\n' "$BODY" > "$body_file"
+            existing="$(gh pr create --base main --head "$GITHUB_REF_NAME" --title "$TITLE" --body-file "$body_file")"
+          fi
+          echo "url=$existing" >> "$GITHUB_OUTPUT"
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: web/package-lock.json
+
+      - name: Install dependencies
+        working-directory: web
+        run: npm ci --ignore-scripts --no-audit --no-fund
+
+      - name: Rebuild content deterministically
+        working-directory: web
+        run: npm run content:import
+
+      - name: Reject generated drift
+        run: git diff --exit-code -- content
+
+      - name: Test
+        working-directory: web
+        run: npm test
+
+      - name: Build
+        working-directory: web
+        run: npm run build
+
+  merge_automatic_proposal:
+    needs: validate
+    if: needs.validate.outputs.auto_merge == 'true'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Merge automatically reviewed proposal
+        env:
+          GH_TOKEN: ${{ github.token }}
+          PR_URL: ${{ needs.validate.outputs.pr_url }}
+        run: gh pr merge "$PR_URL" --squash --delete-branch
+
+      - name: Trigger deployment from merged main
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run deploy.yml --repo "$GITHUB_REPOSITORY" --ref main
