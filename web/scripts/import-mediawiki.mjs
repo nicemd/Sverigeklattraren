@@ -359,8 +359,12 @@ function parseArea(filename, source, uniqueSlug) {
       const enrichment = topoEnrichment.get(`${uniqueSlug}/${filename.toLocaleLowerCase("sv")}`);
       const suppressSourceOrder = enrichment?.confidence >= 0.85 && enrichment.imageKind !== "topo";
       const nextImage = imageMatches[matchIndex + 1];
+      const nextPeerSection = sector
+        ? sections.find((candidate) => candidate.sourceStart > (match.index ?? 0) && candidate.level <= sector.level)
+        : null;
+      const relationEnd = Math.min(nextImage?.index ?? source.length, nextPeerSection?.sourceStart ?? source.length);
       const groupedRouteIds = suppressSourceOrder ? [] : routeTemplates.flatMap((template, routeIndex) => template.start > (match.index ?? 0)
-        && (!nextImage || template.start < (nextImage.index ?? source.length))
+        && template.start < relationEnd
         ? [routes[routeIndex].id] : []);
       if (relatedRoute && !groupedRouteIds.includes(relatedRoute.id)) groupedRouteIds.unshift(relatedRoute.id);
       const visionRouteIds = enrichment?.confidence >= 0.85 && enrichment.imageKind === "topo"

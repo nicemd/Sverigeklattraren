@@ -210,6 +210,18 @@ a { color: inherit; }
 .sector-heading-topo { background: #fff; border-top: 1px solid #d8ded4; position: relative; }
 .sector-heading-topos img { display: block; height: 310px; object-fit: contain; width: 100%; }
 .sector-heading-topo > small { background: rgb(18 65 50 / 90%); border-radius: 999px; color: #fff; font-size: 11px; font-weight: 700; left: 12px; padding: 7px 10px; position: absolute; top: 12px; z-index: 2; }
+.area-overview { background: #eef2e9; border: 1px solid #d3ddce; border-radius: 22px; margin-bottom: 22px; overflow: hidden; }
+.area-overview-heading { align-items: end; display: grid; gap: 24px; grid-template-columns: minmax(240px, .8fr) minmax(280px, 1.2fr); padding: 20px 22px; }
+.area-overview-heading h2 { font-family: Georgia, serif; font-size: 27px; line-height: 1.05; margin: 4px 0 0; }
+.area-overview-heading p { color: var(--muted); line-height: 1.55; margin: 0; }
+.area-overview-images { background: #d3ddce; border-top: 1px solid #d3ddce; display: grid; gap: 1px; grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.area-overview-images.single { grid-template-columns: minmax(0, 1fr); }
+.area-overview-images button { background: #fff; border: 0; cursor: zoom-in; min-width: 0; padding: 0; position: relative; }
+.area-overview-images img { display: block; height: 360px; object-fit: contain; width: 100%; }
+.area-overview-images span, .area-overview-images em { background: rgb(18 65 50 / 90%); border-radius: 999px; color: #fff; font-size: 11px; font-style: normal; font-weight: 750; padding: 7px 10px; position: absolute; top: 12px; }
+.area-overview-images span { left: 12px; }
+.area-overview-images em { right: 12px; }
+
 .sector-topo { background: #eef2e9; border: 1px solid #d3ddce; border-radius: 18px 18px 0 0; margin: 0; overflow: hidden; }
 .sector-topo-heading { align-items: end; display: grid; gap: 20px; grid-template-columns: minmax(180px, .7fr) minmax(260px, 1.3fr); padding: 20px 22px; }
 .sector-topo-heading h3 { font-family: Georgia, serif; font-size: 26px; line-height: 1.05; margin: 4px 0 0; }
@@ -394,6 +406,11 @@ a { color: inherit; }
   .route-neighbours { grid-template-columns: 1fr; }
   .route-neighbours span:last-child { text-align: left; }
   .sector-heading { margin-inline: -4px; }
+  .area-overview { margin-inline: -4px; }
+  .area-overview-heading { align-items: start; grid-template-columns: 1fr; padding: 17px 16px; }
+  .area-overview-images { grid-template-columns: 1fr; }
+  .area-overview-images img { height: min(68vw, 340px); }
+
   .sector-topo { margin-inline: -4px; }
   .sector-topo-heading { align-items: start; grid-template-columns: 1fr; padding: 17px 16px; }
   .sector-topo-grid { grid-template-columns: 1fr; }

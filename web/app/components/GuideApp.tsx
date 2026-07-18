@@ -363,6 +363,9 @@ function AreaView({ area, access, initialRouteQuery, locale, onSuggest }: { area
     return [];
   };
   const selectedSectorImages = selectedSector ? imagesForSector(selectedSector.id) : [];
+  const overviewImages = uniqueImages(area.images.filter((image) => !image.missing && image.imageKind === "map"));
+  const overviewCaption = (image: Area["images"][number]) => /^\d+\s*(?:width)?px$/i.test(imageCaption(image).trim())
+    ? tr(locale, "Områdesöversikt", "Area overview") : imageCaption(image) || tr(locale, "Områdesöversikt", "Area overview");
   const selectedRoutesByImage = new Map<string, Area["routes"]>();
   const selectedRoutesWithoutImage: Area["routes"] = [];
   selectedSectorImages.forEach((image) => selectedRoutesByImage.set(image.filename, []));
@@ -463,6 +466,20 @@ function AreaView({ area, access, initialRouteQuery, locale, onSuggest }: { area
           <div className="map-overlay"><strong>{areaName}</strong><span>{area.coordinates?.latitude?.toFixed(4) || "–"}, {area.coordinates?.longitude?.toFixed(4) || "–"}</span></div>
         </div>
       </section>
+      {overviewImages.length > 0 && <section className="area-overview" aria-labelledby="area-overview-title">
+        <div className="area-overview-heading">
+          <div><span className="eyebrow">{tr(locale, "Områdesöversikt", "Area overview")}</span><h2 id="area-overview-title">{tr(locale, "Hitta mellan väggarna", "Find your way between the walls")}</h2></div>
+          <p>{tr(locale, "Originalförarens översikt hjälper dig att orientera dig mellan väggar och sektorer. Tryck på bilden för full storlek.", "The original guide's overview helps you navigate between walls and sectors. Tap the image for full size.")}</p>
+        </div>
+        <div className={"area-overview-images " + (overviewImages.length === 1 ? "single" : "")}>
+          {overviewImages.map((image) => <button type="button" key={image.filename} onClick={() => setOpenImage(image)} aria-label={tr(locale, "Öppna områdesöversikt", "Open area overview") + ": " + overviewCaption(image)}>
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img src={"/api/media/" + encodeURIComponent(image.filename)} alt={overviewCaption(image)} loading="lazy" />
+            <span>{overviewCaption(image)}</span>
+            <em>{tr(locale, "Öppna stort", "Enlarge")}</em>
+          </button>)}
+        </div>
+      </section>}
 
       <section className="arrival-card" aria-labelledby="arrival-title">
         <div><span className="eyebrow" style={{ color: "var(--forest)" }}>{tr(locale, "På väg till berget", "Getting to the crag")}</span><h2 id="arrival-title">{tr(locale, "Hitta klippan", "Find the crag")}</h2></div>
