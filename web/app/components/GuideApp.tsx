@@ -6,6 +6,9 @@ import type { Area, AreaSummary } from "@/lib/types";
 type ConversationEntry = { role: "user" | "assistant"; content: string };
 type AccessInfo = { title: string; status: string; summary: string; url: string; sourceUpdatedAt: string | null; fetchedAt: string };
 type Locale = "sv" | "en";
+type GuideOverlayState = { areaSlug: string; routeId?: string; imageFilename?: string };
+
+const overlayHistoryKey = "sverigeklattrarenOverlay";
 
 const tr = (locale: Locale, swedish: string, english: string) => locale === "en" ? english : swedish;
 const formatDate = (value: string | null | undefined, locale: Locale) => value
@@ -384,14 +387,14 @@ function AreaView({ area, access, initialRouteQuery, locale, onSuggest }: { area
   );
   const renderTopoVisual = (image: Area["images"][number], sectorTitle: string) => {
     return <div className="topo-visual">
-      <button className="topo-image-open" type="button" onClick={() => setOpenImage(image)} aria-label={`${tr(locale, "Öppna skiss för", "Open topo for")} ${sectorTitle} ${tr(locale, "i full storlek", "full size")}`}>
+      <button className="topo-image-open" type="button" onClick={() => openImageViewer(image)} aria-label={`${tr(locale, "Öppna skiss för", "Open topo for")} ${sectorTitle} ${tr(locale, "i full storlek", "full size")}`}>
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img src={`/api/media/${encodeURIComponent(image.filename)}`} alt={imageCaption(image) || `${tr(locale, "Skiss över", "Topo of")} ${sectorTitle}`} loading="lazy" />
         <span>{tr(locale, "Öppna stort", "Enlarge")}</span>
       </button>
     </div>;
   };
-  const renderRouteRow = (route: Area["routes"][number]) => <button type="button" className={`route-row ${exactRoute?.id === route.id ? "highlighted" : ""}`} key={route.id} onClick={() => { setSelectedRouteId(route.id); setShowBeta(false); }} aria-label={`${tr(locale, "Öppna fältkort för", "Open field card for")} ${routeName(route)}`}>
+  const renderRouteRow = (route: Area["routes"][number]) => <button type="button" className={`route-row ${exactRoute?.id === route.id ? "highlighted" : ""}`} key={route.id} onClick={() => openRouteCard(route.id)} aria-label={`${tr(locale, "Öppna fältkort för", "Open field card for")} ${routeName(route)}`}>
     <span className="route-number" title={route.number ? tr(locale, "Nummer i originalets skiss/lista", "Number in the original topo/list") : tr(locale, "Lednummer saknas i originalkällan", "Route number missing from the original source")}>{route.number || "–"}</span>
     <span className="route-name"><strong>{routeName(route)}</strong><small>{tr(locale, "Visa fältkort", "View field card")}{area.images.some((image) => image.imageKind !== "photo" && image.imageKind !== "map" && (routeImageRelation(image, route.id)?.confidence || 0) >= 0.7) ? tr(locale, " · finns i skissen", " · shown in topo") : ""}</small>{routeDescription(route) && <span className="route-inline-description">{routeDescription(route)}</span>}</span>
     <span className="grade">{route.grade || "–"}</span>
@@ -427,6 +430,47 @@ function AreaView({ area, access, initialRouteQuery, locale, onSuggest }: { area
     return () => { cancelled = true; };
   }, [area.slug, locale, selectedRoute, selectedRouteTranslationComplete]);
   const selectedRouteSector = selectedRoute?.sectorId ? sectionById.get(selectedRoute.sectorId) : null;
+  const overlayFromState = (state: unknown): GuideOverlayState | null => {
+    if (!state || typeof state !== "object") return null;
+    const overlay = (state as Record<string, unknown>)[overlayHistoryKey];
+    return overlay && typeof overlay === "object" ? overlay as GuideOverlayState : null;
+  };
+  const setOverlayHistory = (overlay: GuideOverlayState, replace = false) => {
+    const state = window.history.state && typeof window.history.state === "object" ? window.history.state : {};
+    window.history[replace ? "replaceState" : "pushState"]({ ...state, [overlayHistoryKey]: overlay }, "");
+  };
+  const openRouteCard = (routeId: string, replace = false) => {
+    setSelectedRouteId(routeId);
+    setOpenImage(null);
+    setShowBeta(false);
+    setOverlayHistory({ areaSlug: area.slug, routeId }, replace);
+  };
+  const openImageViewer = (image: Area["images"][number]) => {
+    setOpenImage(image);
+    setOverlayHistory({ areaSlug: area.slug, routeId: selectedRouteId || undefined, imageFilename: image.filename });
+  };
+  const closeRouteCard = () => {
+    const overlay = overlayFromState(window.history.state);
+    if (overlay?.areaSlug === area.slug && overlay.routeId) window.history.back();
+    else setSelectedRouteId(null);
+  };
+  const closeImageViewer = () => {
+    const overlay = overlayFromState(window.history.state);
+    if (overlay?.areaSlug === area.slug && overlay.imageFilename) window.history.back();
+    else setOpenImage(null);
+  };
+
+  useEffect(() => {
+    const restoreOverlay = (event: PopStateEvent) => {
+      const overlay = overlayFromState(event.state);
+      setSelectedRouteId(overlay?.areaSlug === area.slug && overlay.routeId && area.routes.some((route) => route.id === overlay.routeId) ? overlay.routeId : null);
+      setOpenImage(overlay?.areaSlug === area.slug && overlay.imageFilename ? area.images.find((image) => image.filename === overlay.imageFilename) || null : null);
+      setShowBeta(false);
+    };
+    window.addEventListener("popstate", restoreOverlay);
+    return () => window.removeEventListener("popstate", restoreOverlay);
+  }, [area.images, area.routes, area.slug]);
+
   const selectedRouteSources = selectedRoute ? [...new Set([selectedRoute.source.id, ...Object.values(selectedRoute.fieldSources || {}).flat()])] : [];
   const selectedRouteImageKey = selectedRoute?.name.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLocaleLowerCase("sv").replace(/[^a-z0-9]+/g, "") || "";
   const selectedRouteImageCandidates = selectedRoute ? area.images
@@ -439,6 +483,19 @@ function AreaView({ area, access, initialRouteQuery, locale, onSuggest }: { area
       const score = (image: Area["images"][number]) => Number(image.routeIds?.includes(selectedRoute!.id)) * 2 + Number(image.filename.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLocaleLowerCase("sv").replace(/[^a-z0-9]+/g, "").includes(selectedRouteImageKey));
       return score(right) - score(left);
     });
+  const selectedRouteTopoCaption = (image: Area["images"][number]) => {
+    const caption = imageCaption(image).trim();
+    const genericCaption = !caption
+      || /^\d+\s*(?:width)?px$/i.test(caption)
+      || normalizeSearch(caption) === normalizeSearch(area.name)
+      || normalizeSearch(caption) === normalizeSearch(areaName);
+    const subject = selectedRouteSector ? sectionTitle(selectedRouteSector) : areaName;
+    return genericCaption ? `${tr(locale, "Skiss över", "Topo of")} ${subject}` : caption;
+  };
+  const selectedRouteType = selectedRoute?.type?.trim();
+  const selectedRouteStyle = selectedRouteType
+    ? selectedRouteType.charAt(0).toLocaleUpperCase(locale === "sv" ? "sv" : "en") + selectedRouteType.slice(1)
+    : selectedRoute?.kind === "problem" ? tr(locale, "Boulderproblem", "Boulder problem") : tr(locale, "Klätterled", "Climbing route");
   const openImageRoutes = openImage ? routesForTopo(openImage) : [];
   const openImageRoute = selectedRoute && openImage && routeImageRelation(openImage, selectedRoute.id) ? selectedRoute : null;
   const openImageRouteColor = openImageRoute?.description.match(/^\(([^)]+)\)/)?.[1] || null;
@@ -600,34 +657,32 @@ function AreaView({ area, access, initialRouteQuery, locale, onSuggest }: { area
           </article>
         </aside>
       </section>
-      {openImage && <div className="image-modal" role="presentation" onMouseDown={(event) => { if (event.target === event.currentTarget) setOpenImage(null); }}>
+      {openImage && <div className="image-modal" role="presentation" onMouseDown={(event) => { if (event.target === event.currentTarget) closeImageViewer(); }}>
         <section role="dialog" aria-modal="true" aria-label={`${tr(locale, "Skiss eller bild från", "Topo or image from")} ${areaName}`}>
-          <div className="image-modal-head"><div><span className="eyebrow">{openImage.sectorId && sectionById.get(openImage.sectorId) ? sectionTitle(sectionById.get(openImage.sectorId)!) : areaName}</span><strong>{imageCaption(openImage) || tr(locale, "Skiss från originalföraren", "Topo from the original guide")}</strong></div><button type="button" onClick={() => setOpenImage(null)} aria-label={tr(locale, "Stäng skiss", "Close topo")}>×</button></div>
+          <div className="image-modal-head"><div><span className="eyebrow">{openImage.sectorId && sectionById.get(openImage.sectorId) ? sectionTitle(sectionById.get(openImage.sectorId)!) : areaName}</span><strong>{selectedRoute ? selectedRouteTopoCaption(openImage) : imageCaption(openImage) || tr(locale, "Skiss från originalföraren", "Topo from the original guide")}</strong></div><button type="button" onClick={closeImageViewer} aria-label={tr(locale, "Stäng skiss", "Close topo")}>×</button></div>
           <div className="image-modal-visual">
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img src={`/api/media/${encodeURIComponent(openImage.filename)}`} alt={imageCaption(openImage) || `${tr(locale, "Skiss eller bild från", "Topo or image from")} ${areaName}`} />
           </div>
-          {openImageRoutes.length > 0 && <details className="image-modal-annotations"><summary>{tr(locale, "Lednyckel", "Route key")} <span>{openImageRoutes.length} {tr(locale, "leder", "routes")}</span></summary><div>{openImageRoutes.map((route) => <button type="button" key={route.id} onClick={() => { setOpenImage(null); setSelectedRouteId(route.id); setShowBeta(false); }} title={`${tr(locale, "Öppna fältkort för", "Open field card for")} ${routeName(route)}`}><b>{route.number || "–"}</b><span>{routeName(route)}</span>{route.grade && <em>{route.grade}</em>}</button>)}</div></details>}
+          {openImageRoutes.length > 0 && <details className="image-modal-annotations"><summary>{tr(locale, "Lednyckel", "Route key")} <span>{openImageRoutes.length} {tr(locale, "leder", "routes")}</span></summary><div>{openImageRoutes.map((route) => <button type="button" key={route.id} onClick={() => openRouteCard(route.id, true)} title={`${tr(locale, "Öppna fältkort för", "Open field card for")} ${routeName(route)}`}><b>{route.number || "–"}</b><span>{routeName(route)}</span>{route.grade && <em>{route.grade}</em>}</button>)}</div></details>}
           {openImageRoute && <div className="image-route-context"><strong>{openImageRoute.number || tr(locale, "Utan nummer", "No number")} · {routeName(openImageRoute)}</strong><span>{openImageRoute.grade || tr(locale, "Ograderad", "Ungraded")}{openImageRouteColor ? ` · ${openImageRouteColor.toLocaleLowerCase("sv")} ${tr(locale, "i originaltopon", "in the original topo")}` : ""}</span></div>}
           <p>{tr(locale, "Lednumren i listan motsvarar originalskissen när ett nummer finns angivet i källan.", "Route numbers in the list match the original topo whenever the source provides a number.")}</p>
         </section>
       </div>}
-      {selectedRoute && <div className="route-detail-backdrop" role="presentation" onMouseDown={(event) => { if (event.target === event.currentTarget) setSelectedRouteId(null); }}>
+      {selectedRoute && <div className="route-detail-backdrop" role="presentation" onMouseDown={(event) => { if (event.target === event.currentTarget) closeRouteCard(); }}>
         <section className="route-detail" key={selectedRoute.id} role="dialog" aria-modal="true" aria-label={`${tr(locale, "Fältkort för", "Field card for")} ${routeName(selectedRoute)}`}>
           <div className="route-detail-head">
-            <div><span className="eyebrow">{selectedRouteSector ? sectionTitle(selectedRouteSector) : tr(locale, "Sektor saknas", "Sector missing")}</span><h2>{routeName(selectedRoute)}</h2></div>
-            <button type="button" onClick={() => setSelectedRouteId(null)} aria-label={tr(locale, "Stäng fältkort", "Close field card")}>×</button>
+            <div><span className="eyebrow">{selectedRouteSector ? sectionTitle(selectedRouteSector) : tr(locale, "Sektor saknas", "Sector missing")}</span><h2>{selectedRoute.number && <span className="route-title-number">{selectedRoute.number}.</span>} {routeName(selectedRoute)}</h2></div>
+            <button type="button" onClick={closeRouteCard} aria-label={tr(locale, "Stäng fältkort", "Close field card")}>×</button>
           </div>
-          <nav className="route-detail-navigation" aria-label={tr(locale, "Bläddra mellan leder", "Browse routes")}>
-            <button type="button" disabled={!previousRoute} onClick={() => { if (previousRoute) { setSelectedRouteId(previousRoute.id); setShowBeta(false); } }}>
-              <span>← {tr(locale, "Föregående", "Previous")}</span><strong>{previousRoute ? `${previousRoute.number || "–"} · ${routeName(previousRoute)}` : tr(locale, "Början av listan", "Start of list")}</strong>
-            </button>
-            <span><b>{selectedRouteNavigationIndex + 1}</b> / {routeNavigationList.length}<small>{normalizedRouteQuery || sectorId !== "all" || discipline !== "all" ? tr(locale, "i urvalet", "in selection") : tr(locale, "i området", "in area")}</small></span>
-            <button type="button" disabled={!nextRoute} onClick={() => { if (nextRoute) { setSelectedRouteId(nextRoute.id); setShowBeta(false); } }}>
-              <span>{tr(locale, "Nästa", "Next")} →</span><strong>{nextRoute ? `${nextRoute.number || "–"} · ${routeName(nextRoute)}` : tr(locale, "Slutet av listan", "End of list")}</strong>
-            </button>
-          </nav>
-          <div className="route-detail-facts">{selectedRoute.number && <span className="route-detail-number"><small>{selectedRoute.kind === "problem" ? tr(locale, "Problem nr", "Problem no.") : tr(locale, "Led nr", "Route no.")}</small><b>{selectedRoute.number}</b></span>}<strong>{selectedRoute.grade || tr(locale, "Ograderad", "Ungraded")}</strong><span>{selectedRoute.kind === "problem" ? tr(locale, "Boulderproblem", "Boulder problem") : tr(locale, "Klätterled", "Climbing route")}</span>{selectedRoute.length && <span>{selectedRoute.length} m</span>}{selectedRoute.type && <span>{selectedRoute.type}</span>}</div>
+          <div className="route-detail-toolbar">
+            <div className="route-detail-facts"><strong>{selectedRoute.grade || tr(locale, "Ograderad", "Ungraded")}</strong><span>{selectedRouteStyle}</span>{selectedRoute.length && <span>{selectedRoute.length} m</span>}</div>
+            <nav className="route-detail-navigation" aria-label={tr(locale, "Bläddra mellan leder", "Browse routes")}>
+              <button type="button" disabled={!previousRoute} onClick={() => { if (previousRoute) openRouteCard(previousRoute.id, true); }} aria-label={previousRoute ? `${tr(locale, "Föregående led", "Previous route")}: ${routeName(previousRoute)}` : tr(locale, "Början av listan", "Start of list")} title={previousRoute ? routeName(previousRoute) : undefined}>←</button>
+              <span>{selectedRouteNavigationIndex + 1} / {routeNavigationList.length}</span>
+              <button type="button" disabled={!nextRoute} onClick={() => { if (nextRoute) openRouteCard(nextRoute.id, true); }} aria-label={nextRoute ? `${tr(locale, "Nästa led", "Next route")}: ${routeName(nextRoute)}` : tr(locale, "Slutet av listan", "End of list")} title={nextRoute ? routeName(nextRoute) : undefined}>→</button>
+            </nav>
+          </div>
           <div className="route-detail-context">
             <span><small>{tr(locale, "Sektor", "Sector")}</small><strong>{selectedRouteSector ? sectionTitle(selectedRouteSector) : "–"}</strong></span>
             <span><small>{tr(locale, "Position i sektorn", "Position in sector")}</small><strong>{selectedRouteSectorIndex >= 0 ? `${selectedRouteSectorIndex + 1} ${tr(locale, "av", "of")} ${selectedRouteSectorList.length}` : "–"}</strong></span>
@@ -641,9 +696,9 @@ function AreaView({ area, access, initialRouteQuery, locale, onSuggest }: { area
           {routeBeta(selectedRoute) && <div className="beta-panel">
             {!showBeta ? <button type="button" className="beta-toggle" onClick={() => setShowBeta(true)}>{tr(locale, "Visa beta", "Show beta")}</button> : <><div className="beta-heading"><strong>{tr(locale, "Beta från originalföraren", "Beta from the original guide")}</strong><button type="button" onClick={() => setShowBeta(false)}>{tr(locale, "Dölj beta", "Hide beta")}</button></div><p><RichText text={routeBeta(selectedRoute) || ""} /></p>{locale === "en" && <MachineTranslationNote compact value={areaTranslation?.routes?.[selectedRoute.id]?.beta} original={selectedRoute.beta || ""} />}</>}
           </div>}
-          {selectedRouteImages.length > 0 ? <div className="route-detail-images"><div><strong>{tr(locale, "Kopplad skiss", "Linked topo")}{selectedRoute.number && <em className="route-topo-number">{tr(locale, "leta efter", "find")} {selectedRoute.number}</em>}</strong><span>{selectedRouteImages.some((image) => routeImageRelation(image, selectedRoute.id)?.method === "vision" && (routeImageRelation(image, selectedRoute.id)?.confidence || 0) >= 0.85) ? tr(locale, "Lednumret är avläst i originalskissen", "The route number was read from the original topo") : tr(locale, "Kopplad genom bildens placering vid ledlistan i originalet", "Linked by the image's position next to the route list in the original")} · {tr(locale, "tryck för full storlek", "tap for full size")}</span></div><div>{selectedRouteImages.slice(0, 4).map((image) => <button type="button" key={image.filename} onClick={() => setOpenImage(image)} aria-label={`${tr(locale, "Visa bild", "View image")}: ${imageCaption(image)}`}>
+          {selectedRouteImages.length > 0 ? <div className="route-detail-images"><div><strong>{tr(locale, "Kopplad skiss", "Linked topo")}{selectedRoute.number && <em className="route-topo-number">{tr(locale, "Nr", "No.")} {selectedRoute.number} {tr(locale, "i skissen", "in topo")}</em>}</strong><span>{selectedRouteImages.some((image) => routeImageRelation(image, selectedRoute.id)?.method === "vision" && (routeImageRelation(image, selectedRoute.id)?.confidence || 0) >= 0.85) ? tr(locale, "Lednumret är avläst i originalskissen", "The route number was read from the original topo") : tr(locale, "Kopplad genom bildens placering vid ledlistan i originalet", "Linked by the image's position next to the route list in the original")} · {tr(locale, "tryck för full storlek", "tap for full size")}</span></div><div>{selectedRouteImages.slice(0, 4).map((image) => <button type="button" key={image.filename} onClick={() => openImageViewer(image)} aria-label={`${tr(locale, "Visa bild", "View image")}: ${selectedRouteTopoCaption(image)}`}>
             {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img src={`/api/media/${encodeURIComponent(image.filename)}`} alt={imageCaption(image)} /><span>{imageCaption(image)}</span>
+            <img src={`/api/media/${encodeURIComponent(image.filename)}`} alt={selectedRouteTopoCaption(image)} /><span>{selectedRouteTopoCaption(image)}</span>
           </button>)}</div></div> : <p className="no-topo">{tr(locale, "Ingen skiss har ännu kunnat kopplas säkert till den här leden.", "No topo has yet been linked safely to this route.")}</p>}
           <div className="route-detail-sources"><strong>{tr(locale, "Källor för uppgifterna", "Sources for these facts")}</strong>{selectedRouteSources.map((sourceId) => { const source = area.provenance.sources.find((item) => item.id === sourceId); return source ? <a key={sourceId} href={source.url || `/api/source/${area.slug}`} target="_blank" rel="noreferrer">{source.title} ↗</a> : null; })}</div>
         </section>
