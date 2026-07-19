@@ -277,3 +277,20 @@ test("does not present an area overview as a route topo at Ringkallen", async ()
   assert.ok(petTopo.routeIds.length > 0, "the Pet Problem topo should retain its own route block");
   assert.ok(petTopo.routeIds.every((routeId) => area.routes.find((item) => item.id === routeId)?.sectorId === "overhangande-vaggen"), "a sector topo must stop at the next peer sector heading");
 });
+test("keeps edit proposals grounded, observable and single-shot", async () => {
+  const [component, intake, editor, reviewer, publisher, githubPublisher] = await Promise.all([
+    readFile(path.join(process.cwd(), "app", "components", "GuideApp.tsx"), "utf8"),
+    readFile(path.join(process.cwd(), "lib", "agents", "intake.ts"), "utf8"),
+    readFile(path.join(process.cwd(), "lib", "agents", "editor.ts"), "utf8"),
+    readFile(path.join(process.cwd(), "lib", "agents", "reviewer.ts"), "utf8"),
+    readFile(path.join(process.cwd(), "lib", "publish.ts"), "utf8"),
+    readFile(path.join(process.cwd(), "lib", "github-publish.ts"), "utf8"),
+  ]);
+  assert.match(component, /showLanding \? tr\(locale, "Välj område för att föreslå en ändring"/);
+  assert.match(component, /className="suggestion-progress"[\s\S]*pendingSeconds/);
+  assert.match(component, /disabled=\{completed\}/);
+  assert.match(intake + editor + publisher, /sourceId/);
+  assert.match(reviewer, /canonicalTargets\(area, edit\)/);
+  assert.match(githubPublisher, /setTimeout\(\(\) => child\.kill\(\), 90_000\)/);
+  assert.match(githubPublisher, /setTimeout\(resolve, 10_000\)/);
+});

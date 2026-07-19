@@ -6,6 +6,7 @@ const sourceUrlSchema = z.string().regex(/^https?:\/\/[^\s]+$/i, "Källan måste
 
 export const factSchema = z.object({
   claim: z.string(),
+  sourceId: z.string().nullable(),
   sourceUrl: sourceUrlSchema,
   sourceQuote: z.string().nullable(),
   isFirsthandObservation: z.boolean(),
@@ -22,6 +23,7 @@ export const patchSchema = z.object({
   field: z.enum(["description", "coordinates", "section", "route_fact", "access"]),
   value: z.string(),
   rationale: z.string(),
+  sourceId: z.string().nullable(),
   sourceUrl: sourceUrlSchema,
   sourceQuote: z.string().nullable(),
 });

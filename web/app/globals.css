@@ -99,6 +99,9 @@ a { color: inherit; }
 .landing-area-grid b { background: #e6eee1; border-radius: 999px; color: var(--forest); min-width: 36px; padding: 7px; text-align: center; }
 .suggestion-shortcuts { display: flex; flex-wrap: wrap; gap: 8px; justify-content: flex-end; margin: -2px 0 12px; }
 .suggestion-shortcuts button { background: #edf2e9; border: 1px solid #ccd8c7; border-radius: 999px; color: var(--forest); cursor: pointer; font-weight: 700; padding: 8px 12px; }
+.suggestion-progress { align-items: flex-start; background: #edf2e9; border: 1px solid #ccd8c7; border-radius: 14px; display: flex; flex-direction: column; gap: 3px; margin: 10px 0 14px; padding: 12px 14px; }
+.suggestion-progress strong { color: var(--forest); }
+.suggestion-progress span { color: var(--muted); font-size: .86rem; }
 .area-nav { border-right: 1px solid var(--line); padding: 24px 18px; }
 .nav-kicker { color: var(--muted); font-size: 12px; font-weight: 800; letter-spacing: .11em; text-transform: uppercase; }
 .filter-row { display: flex; gap: 7px; margin: 14px 0 16px; overflow: auto; padding-bottom: 4px; scrollbar-width: none; }

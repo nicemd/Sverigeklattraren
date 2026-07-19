@@ -8,15 +8,16 @@ const execFileAsync = promisify(execFile);
 test("emits an OpenAI-compatible intake schema without unsupported uri format", async () => {
   const script = `
     import { zodTextFormat } from "openai/helpers/zod";
-    import { intakeSchema } from "./lib/agents/schemas.ts";
-    const json = JSON.stringify(zodTextFormat(intakeSchema, "suggestion_intake"));
+    import { editSchema, intakeSchema } from "./lib/agents/schemas.ts";
+    const json = JSON.stringify([zodTextFormat(intakeSchema, "suggestion_intake"), zodTextFormat(editSchema, "editorial_change")]);
     process.stdout.write(JSON.stringify({
       hasUriFormat: json.includes('"format":"uri"'),
-      hasHttpPattern: json.includes("https?")
+      hasHttpPattern: json.includes("https?"),
+      hasSourceId: json.includes('"sourceId"')
     }));
   `;
   const { stdout } = await execFileAsync(process.execPath, ["--experimental-strip-types", "--input-type=module", "-e", script], {
     cwd: new URL("..", import.meta.url),
   });
-  assert.deepEqual(JSON.parse(stdout), { hasUriFormat: false, hasHttpPattern: true });
+  assert.deepEqual(JSON.parse(stdout), { hasUriFormat: false, hasHttpPattern: true, hasSourceId: true });
 });
