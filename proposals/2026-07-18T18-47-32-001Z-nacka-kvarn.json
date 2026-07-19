@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 2,
+  "createdAt": "2026-07-18T18:47:32.001Z",
+  "area": "nacka-kvarn",
+  "intake": {
+    "status": "ready",
+    "reply": "Jag lägger till på Get It Shorty: ”Morfoberoende och lättare för långa klättrare.”",
+    "missingQuestions": [],
+    "facts": [
+      {
+        "claim": "Boulderproblemet Get It Shorty är morfoberoende och lättare för långa klättrare.",
+        "sourceUrl": null,
+        "sourceQuote": "”get it shorty” är morpho och lättare om man är lång",
+        "isFirsthandObservation": true
+      }
+    ]
+  },
+  "edit": {
+    "reply": "Lägger observationen som beta, eftersom den gäller hur kroppslängd påverkar lösningen.",
+    "patches": [
+      {
+        "field": "route_fact",
+        "value": "{\"routeId\":\"nacka-kvarn-problem-68\",\"kind\":\"problem\",\"sectorId\":\"vaggen\",\"facts\":{\"beta\":\"Morfoberoende; upplevs lättare för långa klättrare.\"}}",
+        "rationale": "Uppgiften beskriver hur kroppslängd påverkar problemets svårighet och hör därför hemma som beta. Formuleringen följer förstahandsobservationens uppgift att problemet är morpho.",
+        "sourceUrl": null,
+        "sourceQuote": "”get it shorty” är morpho och lättare om man är lång"
+      }
+    ]
+  },
+  "review": {
+    "passed": false,
+    "score": 0.18,
+    "reasons": [
+      "Ändringen motsäger källuppgiften: ”morpho” innebär att problemet är morfologiskt/kroppslängdsberoende, inte morfoberoende.",
+      "Påståendena ”morfoberoende” och ”lättare för långa klättrare” är inbördes svårförenliga.",
+      "Underlagets reply förvanskar redan förstahandsobservationen och kan därför inte stödja patchens formulering.",
+      "Kopplingen mellan namnet Get It Shorty och routeId ”nacka-kvarn-problem-68” samt sektor ”vaggen” är inte belagd, vilket medför risk att beta läggs på fel problem eller klippa.",
+      "Om identiteten verifieras bör en trogen formulering vara exempelvis: ”Morfoberoende beta enligt uppgiftslämnaren; upplevs lättare för långa klättrare” är fortfarande felaktig. Skriv i stället: ”Morfologiskt beroende; upplevs lättare för långa klättrare.”"
+    ],
+    "requiresHumanReview": true
+  },
+  "decision": "needs_review",
+  "workflow": {
+    "kind": "github_pull_request",
+    "mergePolicy": "revision_required",
+    "migratedFrom": "davtor1:backup/server-proposal-1c2e5e72"
+  }
+}
