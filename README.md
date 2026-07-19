@@ -136,7 +136,12 @@ npm run build
 
 ## Private deployment on davtor1
 
-GitHub is the canonical deployment source. A merge to `main` runs `.github/workflows/deploy.yml`, builds an immutable SHA-tagged GHCR image, connects with a dedicated davtor1 deployment key, fast-forwards the clean server checkout, recreates the container, and verifies the localhost health endpoint. The application remains bound to `127.0.0.1` and exposed through host Tailscale. The workflow deliberately refuses to overwrite dirty files or unpushed server commits. `deploy.ps1` remains the explicitly confirmed manual recovery path.
+GitHub is the canonical deployment source, but guide content and application code have separate publication paths:
+
+- A content-only merge is detected by a pull-based publisher on davtor1. It exports the committed `content/` tree to `published/releases/<git-sha>`, validates the manifest and atomically moves `published/current`. The running app reads JSON from that link on every request, so no Docker image or container restart is needed.
+- Changes below `web/`, or to `Dockerfile` or `docker-compose.yml`, build an immutable SHA-tagged GHCR image. The same davtor1 publisher waits until that exact image exists, switches content and application together, verifies the localhost health endpoint, and rolls back the compose files and content link if health fails.
+
+`scripts/publish-main.sh` runs from `sverigeklattraren-publisher.timer` every 15 seconds under a lock. It accepts only fast-forwarded, clean Git state and never needs a davtor1 private key in GitHub. The application remains bound to `127.0.0.1` and is exposed through host Tailscale. `deploy.ps1` remains the explicitly confirmed manual recovery path.
 
 If davtor1 has the `services/sverigeklattraren` capability, the dedicated address `https://sverigeklattraren.tail026a3a.ts.net/` is used. Otherwise, the script automatically uses the private MagicDNS fallback address `https://davtor1.tail026a3a.ts.net:8443/` without affecting the host's existing HTTPS services on port 443. `-Confirmed` may only be used when the user has already explicitly approved the deployment in the active session.
 

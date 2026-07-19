@@ -104,6 +104,10 @@ try {
     ssh $Server $repositoryCommand
     if ($LASTEXITCODE -ne 0) { throw "Kunde inte uppdatera innehållsrepot på servern." }
 
+    $publishedBootstrap = 'set -e; app_dir={0}; repo_dir=$app_dir/repository; published=$app_dir/published; sha=$(git -C $repo_dir rev-parse HEAD); release=$published/releases/$sha; mkdir -p $published/releases $published/state; if [ ! -s $release/content/areas.json ]; then tmp=$published/releases/$sha.tmp; rm -rf $tmp; mkdir $tmp; git -C $repo_dir archive HEAD content | tar -x -C $tmp; test -s $tmp/content/areas.json; echo $sha > $tmp/REVISION; mv $tmp $release; fi; rm -f $published/current.next; ln -s releases/$sha $published/current.next; mv -Tf $published/current.next $published/current; echo $sha > $published/state/published-sha' -f $AppDirectory
+    ssh $Server $publishedBootstrap
+    if ($LASTEXITCODE -ne 0) { throw "Kunde inte skapa den atomiska content-publiceringen." }
+
     # One-time compatibility migration from the former product deployment.
     $legacyAppDirectory = "~/migrated-compose/sverigeforaren"
     $legacyWasRunning = $false

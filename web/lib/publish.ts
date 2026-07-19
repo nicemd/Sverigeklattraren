@@ -2,7 +2,7 @@ import "server-only";
 import { readFile } from "node:fs/promises";
 import path from "node:path";
 import type { Area } from "./types";
-import { repositoryRoot } from "./content";
+import { contentRoot } from "./content";
 import type { Intake, ProposedEdit, Review } from "./agents/schemas";
 import { patchNeedsHumanReview } from "./publication-policy.mjs";
 import { pushProposalBranch, type ProposalFile } from "./github-publish";
@@ -54,8 +54,8 @@ function hasConflictingRouteFact(area: Area, edit: ProposedEdit) {
 async function buildContentFiles(area: Area, edit: ProposedEdit, stamp: string) {
   const areaRelative = path.posix.join("content", "areas", `${area.slug}.json`);
   const manifestRelative = path.posix.join("content", "areas.json");
-  const updated: Area = JSON.parse(await readFile(path.join(repositoryRoot, ...areaRelative.split("/")), "utf8"));
-  const manifest = JSON.parse(await readFile(path.join(repositoryRoot, ...manifestRelative.split("/")), "utf8"));
+  const updated: Area = JSON.parse(await readFile(path.join(contentRoot, "areas", `${area.slug}.json`), "utf8"));
+  const manifest = JSON.parse(await readFile(path.join(contentRoot, "areas.json"), "utf8"));
   let changed = false;
 
   for (const [patchIndex, patch] of edit.patches.entries()) {

@@ -10,11 +10,13 @@ services:
       PORT: 3000
       REPOSITORY_ROOT: /repository
       GITHUB_REPOSITORY: nicemd/Sverigeklattraren
+      CONTENT_ROOT: /published/current/content
       GITHUB_PROPOSAL_KEY_PATH: /run/secrets/github-proposal-key
     ports:
       - "127.0.0.1:${LOCAL_BIND_PORT:-3086}:3000"
     volumes:
       - ./repository:/repository:ro
+      - ./published:/published:ro
       - ./github-proposal-key:/run/secrets/github-proposal-key:ro
     healthcheck:
       test: ["CMD", "node", "-e", "fetch('http://127.0.0.1:3000/').then(r=>{if(!r.ok)process.exit(1)}).catch(()=>process.exit(1))"]

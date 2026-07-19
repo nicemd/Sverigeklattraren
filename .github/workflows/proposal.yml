@@ -6,7 +6,6 @@ on:
       - "proposal/**"
 
 permissions:
-  actions: write
   contents: write
   pull-requests: write
 
@@ -85,8 +84,3 @@ jobs:
           GH_TOKEN: ${{ github.token }}
           PR_URL: ${{ needs.validate.outputs.pr_url }}
         run: gh pr merge "$PR_URL" --squash --delete-branch
-
-      - name: Trigger deployment from merged main
-        env:
-          GH_TOKEN: ${{ github.token }}
-        run: gh workflow run deploy.yml --repo "$GITHUB_REPOSITORY" --ref main
