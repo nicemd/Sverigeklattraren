@@ -4,7 +4,7 @@ import { spawn } from "node:child_process";
 import os from "node:os";
 import path from "node:path";
 import test from "node:test";
-import { translationContextHash } from "../scripts/translation-context.mjs";
+import { translationContextHash, translationPunctuationHash } from "../scripts/translation-context.mjs";
 
 const repoRoot = path.resolve(process.cwd(), "..");
 const contentRoot = path.join(repoRoot, "content");
@@ -179,6 +179,8 @@ test("invalidates cached translations when source context changes, but not when 
   const originalHash = translationContextHash(area);
   assert.equal(translationContextHash({ ...area, translations: { en: { description: { text: "A slab.", method: "llm", sourceIds: ["legacy:test"] } } } }), originalHash);
   assert.notEqual(translationContextHash({ ...area, routes: [{ ...area.routes[0], description: "Följ diedret." }] }), originalHash);
+  assert.equal(translationPunctuationHash(area), translationPunctuationHash({ ...area, routes: [{ ...area.routes[0], description: "Följ sprickan" }] }));
+  assert.notEqual(translationPunctuationHash(area), translationPunctuationHash({ ...area, routes: [{ ...area.routes[0], description: "Följ diedret." }] }));
 });
 
 test("marks machine translations and keeps the Swedish original available", async () => {
