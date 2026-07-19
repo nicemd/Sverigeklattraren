@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 2,
+  "createdAt": "2026-07-19T07:40:18.110Z",
+  "area": "utby",
+  "intake": {
+    "status": "ready",
+    "reply": "Ready to update Fingersprickan’s description to: “En kort led med annorlunda grepp.”",
+    "missingQuestions": [],
+    "facts": [
+      {
+        "claim": "The existing description for Fingersprickan is “En kort led med annorlunda grepp” without a final period.",
+        "sourceUrl": null,
+        "sourceQuote": "En kort led med annorlunda grepp",
+        "isFirsthandObservation": false
+      }
+    ]
+  },
+  "edit": {
+    "reply": "Added the missing final period to the route description.",
+    "patches": [
+      {
+        "field": "route_fact",
+        "value": "{\"routeId\":\"utby-led-2\",\"kind\":\"route\",\"sectorId\":\"gomda-vaggen\",\"facts\":{\"description\":\"En kort led med annorlunda grepp.\"}}",
+        "rationale": "Corrects punctuation without changing the meaning of the existing description.",
+        "sourceUrl": null,
+        "sourceQuote": "En kort led med annorlunda grepp"
+      }
+    ]
+  },
+  "review": {
+    "passed": false,
+    "score": 0.58,
+    "reasons": [
+      "Ändringen är en betydelsebevarande interpunktionsrättning och den nya texten stämmer med den angivna ursprungstexten.",
+      "Underlaget kopplar inte uttryckligen Fingersprickan till routeId \"utby-led-2\" eller sektorn \"gomda-vaggen\". Därför går det inte att utesluta att fel led ändras.",
+      "Källhänvisning saknas, även om risken för sakfel i själva textändringen är liten."
+    ],
+    "requiresHumanReview": true
+  },
+  "decision": "needs_review",
+  "workflow": {
+    "kind": "github_pull_request",
+    "mergePolicy": "revision_required"
+  }
+}
