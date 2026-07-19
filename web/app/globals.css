@@ -293,8 +293,7 @@ a { color: inherit; }
 .legacy-notes article { border-top: 1px solid #ded8c8; padding: 14px 15px; }
 .legacy-notes article:first-of-type { border-top: 0; }
 .legacy-notes h3 { font-family: Georgia, serif; font-size: 17px; margin: 0 0 6px; }
-.legacy-notes p { color: #3f5049; font-size: 15px; line-height: 1.6; margin: 0; white-space: pre-line; }
-.area-notes.collapsed article p { -webkit-box-orient: vertical; display: -webkit-box; -webkit-line-clamp: 4; overflow: hidden; }
+.legacy-notes p { color: #3f5049; font-size: 15px; line-height: 1.6; margin: 0; overflow-wrap: anywhere; white-space: pre-line; }
 .notes-toggle { background: #e9e3d3; border: 0; border-top: 1px solid #d7cfbb; color: var(--forest); cursor: pointer; font-size: 12px; font-weight: 800; padding: 13px 16px; text-align: left; width: 100%; }
 .notes-toggle:hover { background: #e2dbc8; }
 .notes-toggle:focus-visible { outline: 3px solid #d9a337; outline-offset: -3px; }
@@ -302,25 +301,20 @@ a { color: inherit; }
 .route-detail-backdrop { align-items: center; background: rgb(7 17 13 / 74%); display: flex; inset: 0; justify-content: center; padding: 18px; position: fixed; z-index: 90; }
 .route-detail { background: #fffdf8; border-radius: 20px; box-shadow: 0 28px 80px rgb(0 0 0 / 32%); max-height: calc(100vh - 36px); max-width: 760px; overflow: auto; padding: 22px; width: 100%; }
 .route-detail-head { align-items: start; display: flex; gap: 16px; justify-content: space-between; }
-.route-detail-head h2 { font-family: Georgia, serif; font-size: 34px; line-height: 1.05; margin: 5px 0 0; }
+.route-detail-head h2 { font-family: Georgia, serif; font-size: 34px; line-height: 1.12; margin: 5px 0 0; }
+.route-title-number { color: var(--forest); font-variant-numeric: tabular-nums; }
 .route-detail-head > button { background: #e8ece5; border: 0; border-radius: 50%; color: var(--forest-dark); cursor: pointer; flex: 0 0 auto; font-size: 25px; height: 42px; width: 42px; }
-.route-detail-navigation { align-items: stretch; background: #edf1e9; border: 1px solid #dbe3d7; border-radius: 14px; display: grid; gap: 8px; grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr); margin-top: 18px; padding: 7px; }
-.route-detail-navigation > button { background: #fffdf8; border: 1px solid #d9e0d6; border-radius: 10px; color: var(--forest-dark); cursor: pointer; display: grid; gap: 3px; min-width: 0; padding: 9px 11px; text-align: left; }
-.route-detail-navigation > button:last-child { text-align: right; }
-.route-detail-navigation > button:not(:disabled):hover { border-color: var(--forest); transform: translateY(-1px); }
+.route-detail-toolbar { align-items: center; border-bottom: 1px solid var(--line); display: flex; gap: 16px; justify-content: space-between; margin-top: 18px; padding-bottom: 15px; }
+.route-detail-navigation { align-items: center; display: flex; flex: 0 0 auto; gap: 8px; }
+.route-detail-navigation > button { align-items: center; background: transparent; border: 1px solid #cfd9ce; border-radius: 50%; color: var(--forest); cursor: pointer; display: flex; font-size: 17px; height: 34px; justify-content: center; padding: 0; width: 34px; }
+.route-detail-navigation > button:not(:disabled):hover { background: #e8eee8; border-color: var(--forest); }
 .route-detail-navigation > button:focus-visible { outline: 3px solid #d9a337; outline-offset: 1px; }
-.route-detail-navigation > button:disabled { cursor: default; opacity: .42; }
-.route-detail-navigation button span { color: var(--muted); font-size: 10px; font-weight: 750; letter-spacing: .03em; text-transform: uppercase; }
-.route-detail-navigation button strong { font-size: 12px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
-.route-detail-navigation > span { align-self: center; color: var(--muted); display: grid; font-size: 11px; min-width: 62px; place-items: center; }
-.route-detail-navigation > span b { color: var(--forest); font-family: Georgia, serif; font-size: 18px; }
-.route-detail-navigation > span small { font-size: 9px; }
-.route-detail-facts { align-items: center; border-bottom: 1px solid var(--line); display: flex; flex-wrap: wrap; gap: 8px; margin-top: 18px; padding-bottom: 15px; }
-.route-detail-facts strong { color: var(--forest); font-family: Georgia, serif; font-size: 28px; margin-right: 4px; }
-.route-detail-facts > span { background: #e8eee8; border-radius: 999px; color: #315342; font-size: 12px; font-weight: 750; padding: 6px 9px; }
-.route-detail-facts > .route-detail-number { align-items: baseline; background: var(--forest); color: white; display: inline-flex; gap: 7px; padding: 7px 11px; }
-.route-detail-number small { font-size: 10px; letter-spacing: .04em; text-transform: uppercase; }
-.route-detail-number b { font-family: Georgia, serif; font-size: 19px; line-height: 1; }
+.route-detail-navigation > button:disabled { cursor: default; opacity: .28; }
+.route-detail-navigation > span { color: var(--muted); font-size: 11px; min-width: 44px; text-align: center; }
+.route-detail-facts { align-items: baseline; display: flex; flex-wrap: wrap; gap: 0; min-width: 0; }
+.route-detail-facts strong { color: var(--forest); font-family: Georgia, serif; font-size: 29px; margin-right: 12px; }
+.route-detail-facts > span { color: #53645d; font-size: 13px; font-weight: 700; }
+.route-detail-facts > span + span::before { color: #a3aea7; content: "·"; margin: 0 8px; }
 .route-detail-context { background: #f4f1e8; border-radius: 12px; display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); margin: 14px 0; overflow: hidden; }
 .route-detail-context > span { border-left: 1px solid #e2dccd; display: grid; gap: 4px; min-width: 0; padding: 10px 11px; }
 .route-detail-context > span:first-child { border-left: 0; }
@@ -446,7 +440,8 @@ a { color: inherit; }
   .route-detail-backdrop { align-items: end; padding: 0; }
   .route-detail { border-radius: 20px 20px 0 0; max-height: 92vh; padding: 18px; }
   .route-detail-head h2 { font-size: 29px; }
-  .route-detail-navigation { grid-template-columns: minmax(0, 1fr) 48px minmax(0, 1fr); }
+  .route-detail-toolbar { align-items: center; }
+  .route-detail-navigation { gap: 6px; }
   .route-detail-context { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .route-detail-images > div:last-child { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .image-route-context { align-items: start; flex-direction: column; gap: 2px; }

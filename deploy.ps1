@@ -82,8 +82,10 @@ try {
     $remoteEnv = Join-Path $resolvedTemp ".env"
     $envText = @(
         $keyLine
-        "OPENAI_EDITORIAL_MODEL=gpt-5.6-sol"
+        "OPENAI_EDITORIAL_MODEL=gpt-5-mini"
         "AUTO_PUBLISH_THRESHOLD=0.97"
+        "GITHUB_REPOSITORY=nicemd/Sverigeklattraren"
+        "GITHUB_PROPOSAL_KEY_PATH=/run/secrets/github-proposal-key"
         "GHCR_IMAGE=$imageRef"
         "LOCAL_BIND_PORT=$LocalBindPort"
         "PUBLIC_BASE_URL=$($publicUrl.TrimEnd('/'))"
@@ -101,6 +103,10 @@ try {
     $repositoryCommand = "if [ ! -d $AppDirectory/repository/.git ]; then git clone https://github.com/nicemd/Sverigeklattraren.git $AppDirectory/repository; fi && cd $AppDirectory/repository && git remote set-url origin https://github.com/nicemd/Sverigeklattraren.git && git fetch origin $Branch && git checkout $Branch && git pull --ff-only origin $Branch"
     ssh $Server $repositoryCommand
     if ($LASTEXITCODE -ne 0) { throw "Kunde inte uppdatera innehållsrepot på servern." }
+
+    $publishedBootstrap = 'set -e; app_dir={0}; repo_dir=$app_dir/repository; published=$app_dir/published; sha=$(git -C $repo_dir rev-parse HEAD); release=$published/releases/$sha; mkdir -p $published/releases $published/state; if [ ! -s $release/content/areas.json ]; then tmp=$published/releases/$sha.tmp; rm -rf $tmp; mkdir $tmp; git -C $repo_dir archive HEAD content | tar -x -C $tmp; test -s $tmp/content/areas.json; echo $sha > $tmp/REVISION; mv $tmp $release; fi; rm -f $published/current.next; ln -s releases/$sha $published/current.next; mv -Tf $published/current.next $published/current; echo $sha > $published/state/published-sha' -f $AppDirectory
+    ssh $Server $publishedBootstrap
+    if ($LASTEXITCODE -ne 0) { throw "Kunde inte skapa den atomiska content-publiceringen." }
 
     # One-time compatibility migration from the former product deployment.
     $legacyAppDirectory = "~/migrated-compose/sverigeforaren"

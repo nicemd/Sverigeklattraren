@@ -39,10 +39,19 @@ export async function POST(request: Request) {
     const edit = await runEditor(area, intake, locale);
     const review = await runReviewer(area, intake, edit);
     const publication = await publishProposal(area, intake, edit, review);
+    const proposalUrl = publication.pullRequestUrl || publication.branchUrl;
     const decision = locale === "en"
-      ? publication.autoPublished ? "The change passed the automatic quality gate and was published as a Git commit." : publication.committed ? "The suggestion was saved as a Git commit for human review." : "The suggestion was saved for review but could not be committed automatically."
-      : publication.autoPublished ? "Ändringen klarade den automatiska kvalitetsgrinden och publicerades som en Git-commit." : publication.committed ? "Förslaget sparades som en Git-commit för mänsklig granskning." : "Förslaget sparades för granskning, men kunde inte committas automatiskt.";
-    return NextResponse.json({ reply: `${edit.reply}\n\n${decision}`, status: publication.autoPublished ? "published" : "review", review: publication });
+      ? publication.autoMergeEligible
+        ? `A GitHub Pull Request was created and will merge automatically only after all checks pass: ${proposalUrl}`
+        : publication.readyForHumanMerge
+          ? `A GitHub Pull Request was created for human review. The published guide is unchanged until it is merged: ${proposalUrl}`
+          : `The quality review found issues. A GitHub Pull Request was opened for discussion, but it must be corrected before merge and does not change the published guide: ${proposalUrl}`
+      : publication.autoMergeEligible
+        ? `En GitHub Pull Request skapades och mergas automatiskt först när alla kontroller passerar: ${proposalUrl}`
+        : publication.readyForHumanMerge
+          ? `En GitHub Pull Request skapades för mänsklig granskning. Den publicerade föraren är oförändrad tills den mergas: ${proposalUrl}`
+          : `Kvalitetsgranskningen hittade problem. En GitHub Pull Request öppnades för diskussion, men måste rättas före merge och ändrar inte den publicerade föraren: ${proposalUrl}`;
+    return NextResponse.json({ reply: `${edit.reply}\n\n${decision}`, status: "review", review: publication, proposalUrl });
   } catch (error) {
     console.error(error);
     return NextResponse.json({ error: "Agentgranskningen misslyckades. Försök igen." }, { status: 502 });

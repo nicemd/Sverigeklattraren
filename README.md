@@ -41,7 +41,7 @@ Git is the wiki's memory: every publishable change is a diff and a commit. The m
 - Live integration with the Swedish Climbing Federation's access database, showing both the source's update time and the local fetch time.
 - Free-text proposals processed by separate structuring, presentation, and review agents through the OpenAI Responses API.
 - A quality gate where access, parking, directions, coordinates, closures, and safety information always require human review.
-- Approved changes and review cases are stored as Git commits.
+- Every accepted contribution is a GitHub Pull Request. Human-review proposals remain unpublished until merge; low-risk, fully cited proposals may merge automatically only after policy checks, deterministic import, tests, and a production build pass.
 - Sources are registered per changed route field. Fact-reference sources, such as 27crags, may support short factual claims but never republished text, images, or topos.
 
 ## Data and database
@@ -111,7 +111,7 @@ Translations are an import enrichment rather than an opaque runtime rewrite. Res
 
 When an English reader opens an area that has not yet been imported into the Git cache, the application provides a context-aware runtime fallback. The area and its section descriptions are translated together; individual route descriptions and beta are translated when their field card is opened, using the sector and neighbouring routes as context. Runtime results are deduplicated in the running server, clearly marked as machine translated, and never replace the Swedish source. The public endpoint is rate-limited. Frequently used translations should still be promoted through `content:translate` so they become reviewable, reproducible Git data.
 
-LLM output is never itself a factual source. It must point back to source material, be stored as reviewable enrichment data, and pass the project's quality gate. Approved changes become Git commits; access, parking, closures, coordinates, and other safety-critical information require human review.
+LLM output is never itself a factual source. It must point back to source material, be stored as reviewable enrichment data, and pass the project's quality gate. Agent proposals are pushed to isolated `proposal/*` branches and opened as GitHub Pull Requests. Merging is the durable approval event; access, parking, closures, coordinates, and other safety-critical information always require a human merge.
 
 ## Local development
 
@@ -122,7 +122,7 @@ npm run content:import
 npm run dev
 ```
 
-Configuration is documented in `.env.example`. Store secrets in the Git-ignored `.env.local` file at the repository root; the Next.js configuration reads the same file during local development, and the deployment script reuses it without committing the key. The default model for the explicit quality role is `gpt-5.6-sol`.
+Configuration is documented in `.env.example`. Store secrets in the Git-ignored `.env.local` file at the repository root; the Next.js configuration reads the same file during local development, and the deployment script reuses it without committing the key. The default editorial model is the cost-efficient `gpt-5-mini`; it can be overridden intentionally through `OPENAI_EDITORIAL_MODEL`.
 
 ## Verification
 
@@ -136,7 +136,12 @@ npm run build
 
 ## Private deployment on davtor1
 
-`Dockerfile`, `docker-compose.yml`, and `deploy.ps1` build a Git-versioned GHCR image, keep the application port bound to `127.0.0.1`, and expose it privately through the host's Tailscale Service. The deployment script requires a clean `main` branch, checks the service capability before pushing, always requires an explicit `DEPLOY` confirmation, waits for the application to become healthy, and restores the previous Compose configuration if remote verification fails.
+GitHub is the canonical deployment source, but guide content and application code have separate publication paths:
+
+- A content-only merge is detected by a pull-based publisher on davtor1. It exports the committed `content/` tree to `published/releases/<git-sha>`, validates the manifest and atomically moves `published/current`. The running app reads JSON from that link on every request, so no Docker image or container restart is needed.
+- Changes below `web/`, or to `Dockerfile` or `docker-compose.yml`, build an immutable SHA-tagged GHCR image. The same davtor1 publisher waits until that exact image exists, switches content and application together, verifies the localhost health endpoint, and rolls back the compose files and content link if health fails.
+
+`scripts/publish-main.sh` runs from `sverigeklattraren-publisher.timer` every 15 seconds under a lock. It accepts only fast-forwarded, clean Git state and never needs a davtor1 private key in GitHub. The application remains bound to `127.0.0.1` and is exposed through host Tailscale. `deploy.ps1` remains the explicitly confirmed manual recovery path.
 
 If davtor1 has the `services/sverigeklattraren` capability, the dedicated address `https://sverigeklattraren.tail026a3a.ts.net/` is used. Otherwise, the script automatically uses the private MagicDNS fallback address `https://davtor1.tail026a3a.ts.net:8443/` without affecting the host's existing HTTPS services on port 443. `-Confirmed` may only be used when the user has already explicitly approved the deployment in the active session.
 

@@ -130,7 +130,7 @@ test("keeps directions as semantic headings, paragraphs and lists", async () => 
   assert.ok(directions?.blocks?.some((block) => block.kind === "list" && block.items.length === 4));
 });
 
-test("replays committed auto-published proposals during a fresh import", async () => {
+test("replays auto-published and human-merged proposals during a fresh import", async () => {
   const output = await mkdtemp(path.join(os.tmpdir(), "sverigeforaren-import-"));
   const proposalDir = path.join(process.cwd(), "tests", "fixtures", "proposals");
   try {
@@ -150,6 +150,7 @@ test("replays committed auto-published proposals during a fresh import", async (
     const externalSource = utby.provenance.sources.find((source) => source.url === "https://example.test/source");
     assert.ok(carlsberg.fieldSources.grade.includes(externalSource.id));
     assert.equal(externalSource.usage, "fact-reference");
+    assert.ok(utby.sections.some((section) => section.title === "PR-granskad historik"));
   } finally {
     await rm(output, { recursive: true, force: true });
   }
@@ -200,10 +201,10 @@ test("separates free guide content from proprietary website software", async () 
 });
 test("labels a sourced route number explicitly in the field card and linked topo", async () => {
   const component = await readFile(path.join(process.cwd(), "app", "components", "GuideApp.tsx"), "utf8");
-  assert.match(component, /className="route-detail-number"/);
-  assert.match(component, /"Led nr", "Route no\."/);
+  assert.match(component, /className="route-title-number"/);
+  assert.match(component, /selectedRoute\.number.*routeName\(selectedRoute\)/);
   assert.match(component, /className="route-topo-number"/);
-  assert.match(component, /"leta efter", "find"/);
+  assert.match(component, /"i skissen", "in topo"/);
 });
 
 test("orders field information for arrival, orientation and route finding", async () => {
@@ -214,8 +215,11 @@ test("orders field information for arrival, orientation and route finding", asyn
   const routes = component.indexOf('className="content-grid"');
   assert.ok(arrival >= 0 && arrival < notes && notes < overview && overview < routes);
   assert.match(component, /className="route-detail-navigation"/);
-  assert.match(component, /setSelectedRouteId\(previousRoute\.id\)/);
-  assert.match(component, /setSelectedRouteId\(nextRoute\.id\)/);
+  assert.match(component, /openRouteCard\(previousRoute\.id, true\)/);
+  assert.match(component, /openRouteCard\(nextRoute\.id, true\)/);
+  assert.match(component, /window\.history\[replace \? "replaceState" : "pushState"\]/);
+  assert.match(component, /window\.addEventListener\("popstate"/);
+  assert.match(component, /closeRouteCard/);
   assert.match(component, /className="route-detail-context"/);
 });
 

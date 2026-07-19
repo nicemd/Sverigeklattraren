@@ -1,0 +1,13 @@
+[Unit]
+Description=Publish Sverigeklättraren from GitHub main
+After=network-online.target docker.service
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+User=nicemd
+Environment=APP_DIR=/home/nicemd/migrated-compose/sverigeklattraren
+ExecStart=/home/nicemd/migrated-compose/sverigeklattraren/publish-main.sh
+Nice=10
+IOSchedulingClass=best-effort
+IOSchedulingPriority=6

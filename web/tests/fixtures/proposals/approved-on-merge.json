@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 2,
+  "createdAt": "2026-07-18T00:00:00.000Z",
+  "area": "utby",
+  "edit": {
+    "patches": [
+      {
+        "field": "section",
+        "value": "{\"title\":\"PR-granskad historik\",\"body\":\"Detta verifierar att ett mänskligt mergat förslag överlever en fullständig nyimport.\"}",
+        "rationale": "Testar replay efter mänsklig PR-merge.",
+        "sourceUrl": "https://example.test/human-review",
+        "sourceQuote": "Verifierat testunderlag"
+      }
+    ]
+  },
+  "decision": "approved_on_merge"
+}
