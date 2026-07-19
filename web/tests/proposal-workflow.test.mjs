@@ -46,7 +46,7 @@ const baseProposal = {
 test("accepts a human-review proposal branch without treating it as published", async () => {
   const root = await proposalRepository(baseProposal);
   try {
-    const result = spawnSync(process.execPath, [script], { cwd: root, encoding: "utf8" });
+    const result = spawnSync(process.execPath, [script], { cwd: root, encoding: "utf8", env: { ...process.env, GITHUB_OUTPUT: "" } });
     assert.equal(result.status, 0, result.stderr);
     const metadata = JSON.parse(result.stdout);
     assert.equal(metadata.autoMerge, false);
@@ -65,7 +65,7 @@ test("rejects protected access information from automatic merge", async () => {
   };
   const root = await proposalRepository(proposal);
   try {
-    const result = spawnSync(process.execPath, [script], { cwd: root, encoding: "utf8" });
+    const result = spawnSync(process.execPath, [script], { cwd: root, encoding: "utf8", env: { ...process.env, GITHUB_OUTPUT: "" } });
     assert.notEqual(result.status, 0);
     assert.match(result.stderr, /Skyddade ändringar/);
   } finally {
@@ -77,7 +77,7 @@ test("keeps a failed review as a non-publishable discussion PR", async () => {
   const proposal = { ...baseProposal, decision: "needs_review" };
   const root = await proposalRepository(proposal);
   try {
-    const result = spawnSync(process.execPath, [script], { cwd: root, encoding: "utf8" });
+    const result = spawnSync(process.execPath, [script], { cwd: root, encoding: "utf8", env: { ...process.env, GITHUB_OUTPUT: "" } });
     assert.equal(result.status, 0, result.stderr);
     const metadata = JSON.parse(result.stdout);
     assert.equal(metadata.autoMerge, false);

@@ -9,6 +9,7 @@ on:
       - ".dockerignore"
       - "docker-compose.yml"
       - "web/**"
+      - "!web/tests/**"
   workflow_dispatch:
 
 permissions:
