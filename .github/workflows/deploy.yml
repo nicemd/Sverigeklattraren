@@ -39,7 +39,7 @@ jobs:
           context: .
           push: true
           tags: |
-            ghcr.io/nicemd/sverigeklattraren:${{ github.sha }}
-            ghcr.io/nicemd/sverigeklattraren:latest
+            ghcr.io/nicemd/sverigeklattraren-app:${{ github.sha }}
+            ghcr.io/nicemd/sverigeklattraren-app:latest
           cache-from: type=gha
           cache-to: type=gha,mode=max

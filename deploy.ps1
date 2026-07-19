@@ -1,7 +1,7 @@
 [CmdletBinding()]
 param(
     [string]$Server = "nicemd@davtor1",
-    [string]$Image = "ghcr.io/nicemd/sverigeklattraren",
+    [string]$Image = "ghcr.io/nicemd/sverigeklattraren-app",
     [string]$AppDirectory = "~/migrated-compose/sverigeklattraren",
     [string]$Branch = "main",
     [int]$LocalBindPort = 3086,

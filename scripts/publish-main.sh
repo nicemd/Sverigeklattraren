@@ -9,7 +9,7 @@ state_dir="$published_dir/state"
 current_link="$published_dir/current"
 env_file="$app_dir/.env"
 compose_file="$app_dir/docker-compose.yml"
-image_repo="ghcr.io/nicemd/sverigeklattraren"
+image_repo="ghcr.io/nicemd/sverigeklattraren-app"
 
 test -d "$repo_dir/.git"
 test -f "$env_file"
