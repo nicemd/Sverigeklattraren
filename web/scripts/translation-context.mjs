@@ -13,3 +13,11 @@ export function translationContext(area) {
 export function translationContextHash(area) {
   return createHash("sha256").update(JSON.stringify(translationContext(area))).digest("hex");
 }
+
+export function translationPunctuationHash(area) {
+  const translatableTextFields = new Set(["description", "body", "beta"]);
+  const normalized = JSON.stringify(translationContext(area), (key, value) =>
+    typeof value === "string" && translatableTextFields.has(key) ? value.trimEnd().replace(/\.$/u, "") : value
+  );
+  return createHash("sha256").update(normalized).digest("hex");
+}

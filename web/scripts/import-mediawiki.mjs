@@ -1,7 +1,7 @@
 import { mkdir, readFile, readdir, rm, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
-import { translationContextHash } from "./translation-context.mjs";
+import { translationContextHash, translationPunctuationHash } from "./translation-context.mjs";
 
 const webRoot = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const repoRoot = path.resolve(webRoot, "..");
@@ -482,9 +482,14 @@ for (const filename of files) {
   const occurrence = (slugOccurrences.get(baseSlug) || 0) + 1;
   slugOccurrences.set(baseSlug, occurrence);
   const uniqueSlug = occurrence === 1 ? baseSlug : `${baseSlug}-${occurrence}`;
-  const area = applyPublishedProposals(parseArea(filename, source, uniqueSlug));
+  const importedArea = parseArea(filename, source, uniqueSlug);
+  const importedContextHash = translationContextHash(importedArea);
+  const importedPunctuationHash = translationPunctuationHash(importedArea);
+  const area = applyPublishedProposals(importedArea);
   const english = translationEnrichment.get(area.slug.toLocaleLowerCase("sv"));
-  if (english?.translation && english.contextHash === translationContextHash(area)) area.translations = { en: english.translation };
+  const translationStillApplies = english?.contextHash === translationContextHash(area)
+    || (english?.contextHash === importedContextHash && importedPunctuationHash === translationPunctuationHash(area));
+  if (english?.translation && translationStillApplies) area.translations = { en: english.translation };
   await writeFile(path.join(outputDir, `${area.slug}.json`), `${JSON.stringify(area, null, 2)}\n`);
   manifest.push({
     id: area.id,
