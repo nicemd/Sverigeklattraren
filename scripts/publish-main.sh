@@ -51,6 +51,8 @@ fi
 app_changed=false
 while IFS= read -r changed_path; do
   case "$changed_path" in
+    web/tests/*)
+      ;;
     web/*|Dockerfile|docker-compose.yml|.dockerignore)
       app_changed=true
       break

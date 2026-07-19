@@ -29,6 +29,7 @@ test("builds Docker images only for application changes", async () => {
   assert.match(workflow, /paths:\s+[\s\S]*"web\/\*\*"/);
   assert.doesNotMatch(workflow, /DAVTOR1_SSH_KEY|ssh -i/);
   assert.doesNotMatch(proposalWorkflow, /gh workflow run deploy\.yml/);
+  assert.match(publisher, /web\/tests\/\*\)\s+;;\s+web\/\*\|Dockerfile/);
   assert.match(publisher, /web\/\*\|Dockerfile\|docker-compose\.yml\|\.dockerignore/);
   assert.match(publisher, /if \[\[ "\$app_changed" == true \]\]; then\s+if ! sudo docker pull/);
 });
