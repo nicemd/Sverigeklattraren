@@ -41,7 +41,7 @@ if (autoMerge) {
 }
 
 const reasons = Array.isArray(proposal.review?.reasons) ? proposal.review.reasons : [];
-const sources = [...new Set(patches.map((patch) => patch.sourceUrl).filter(Boolean))];
+const sources = [...new Set(patches.map((patch) => patch.sourceUrl || patch.sourceId).filter(Boolean))];
 const title = `${autoMerge ? "Automatiskt granskat förslag" : readyForHumanMerge ? "Granskningsförslag" : "Förslag som behöver utredas"}: ${proposal.area}`;
 const body = [
   "## Agentförslag",
@@ -55,7 +55,7 @@ const body = [
   ...(reasons.length ? reasons.map((reason) => `- ${reason}`) : ["- Ingen motivering angavs."]),
   "",
   "### Källor",
-  ...(sources.length ? sources.map((source) => `- ${source}`) : ["- Användarbidrag utan extern källa; måste granskas manuellt."]),
+  ...(sources.length ? sources.map((source) => `- ${source}`) : ["- Användarbidrag utan spårbar källa; måste granskas manuellt."]),
   "",
   autoMerge
     ? "Den här PR:n får endast mergas automatiskt om policykontroll, import, tester och produktionsbygge passerar."

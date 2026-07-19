@@ -231,8 +231,12 @@ function numeric(value) {
 function applyPublishedProposals(area) {
   for (const proposal of publishedProposals.get(area.slug) || []) {
     for (const patch of proposal.edit?.patches || []) {
-      const existingSource = patch.sourceUrl ? area.provenance.sources.find((source) => source.url === patch.sourceUrl) : null;
-      const sourceId = patch.sourceUrl ? existingSource?.id || `external:${slugify(patch.sourceUrl)}` : null;
+      const existingSource = patch.sourceId
+        ? area.provenance.sources.find((source) => source.id === patch.sourceId)
+        : patch.sourceUrl
+          ? area.provenance.sources.find((source) => source.url === patch.sourceUrl)
+          : null;
+      const sourceId = existingSource?.id || (patch.sourceUrl ? `external:${slugify(patch.sourceUrl)}` : null);
       if (patch.sourceUrl && !existingSource) area.provenance.sources.push({
         id: sourceId,
         title: patch.sourceUrl,
@@ -257,7 +261,7 @@ function applyPublishedProposals(area) {
           if (index === -1) area.sections.push(section); else area.sections[index] = section;
         } catch { /* En ogiltig historisk patch ändrar aldrig importresultatet. */ }
       }
-      if (patch.field === "route_fact" && sourceId && patch.sourceUrl) {
+      if (patch.field === "route_fact" && sourceId) {
         try {
           const value = JSON.parse(patch.value);
           let route = value.routeId ? area.routes.find((item) => item.id === value.routeId) : null;
