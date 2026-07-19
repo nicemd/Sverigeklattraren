@@ -189,7 +189,7 @@ export function GuideApp({ areas, initialArea }: { areas: AreaSummary[]; initial
         <div className="header-actions">
           <div className="language-switch" aria-label={tr(locale, "Välj språk", "Choose language")}><button type="button" className={locale === "sv" ? "active" : ""} onClick={() => setLocale("sv")} aria-pressed={locale === "sv"}>SV</button><button type="button" className={locale === "en" ? "active" : ""} onClick={() => setLocale("en")} aria-pressed={locale === "en"}>EN</button></div>
           <button className="ghost-button" type="button" aria-label={tr(locale, "Om projektet", "About the project")} onClick={() => setShowAbout(true)}><span className="desktop-label">{tr(locale, "Om projektet", "About")}</span><span className="mobile-label" aria-hidden="true">{tr(locale, "Om", "About")}</span></button>
-          <button className="primary-button" type="button" aria-label={tr(locale, "Föreslå ändring", "Suggest an edit")} onClick={() => setShowSuggestion(true)}><span className="desktop-label">{tr(locale, "Föreslå ändring", "Suggest an edit")}</span><span className="mobile-label" aria-hidden="true">{tr(locale, "Ändra", "Edit")}</span></button>
+          <button className="primary-button" type="button" aria-label={showLanding ? tr(locale, "Välj område för att föreslå en ändring", "Choose an area before suggesting an edit") : tr(locale, "Föreslå ändring", "Suggest an edit")} onClick={() => { if (showLanding) { setShowLanding(false); setQuery(""); } else setShowSuggestion(true); }}><span className="desktop-label">{showLanding ? tr(locale, "Välj område", "Choose area") : tr(locale, "Föreslå ändring", "Suggest an edit")}</span><span className="mobile-label" aria-hidden="true">{showLanding ? tr(locale, "Välj", "Choose") : tr(locale, "Ändra", "Edit")}</span></button>
         </div>
       </header>
 
@@ -712,21 +712,37 @@ function SuggestionDialog({ area, locale, onClose }: { area: Area; locale: Local
   const [conversation, setConversation] = useState<ConversationEntry[]>([]);
   const [pending, setPending] = useState(false);
   const [status, setStatus] = useState<string | null>(null);
+  const [pendingSeconds, setPendingSeconds] = useState(0);
+  const completed = status === "review";
+
+  useEffect(() => {
+    if (!pending) return;
+    const startedAt = Date.now();
+    const timer = window.setInterval(() => setPendingSeconds(Math.floor((Date.now() - startedAt) / 1000)), 1000);
+    return () => window.clearInterval(timer);
+  }, [pending]);
+
 
   async function send(content: string) {
-    if (!content.trim() || pending) return;
+    if (!content.trim() || pending || completed) return;
     const next = [...conversation, { role: "user" as const, content: content.trim() }];
     setConversation(next);
     setMessage("");
+    setStatus(null);
+    setPendingSeconds(0);
     setPending(true);
+    const controller = new AbortController();
+    const timeout = window.setTimeout(() => controller.abort(), 180_000);
     try {
-      const response = await fetch("/api/suggestions", { method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify({ areaSlug: area.slug, conversation: next, locale }) });
+      const response = await fetch("/api/suggestions", { method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify({ areaSlug: area.slug, conversation: next, locale }), signal: controller.signal });
       const result = await response.json();
       setStatus(result.status || "error");
       setConversation([...next, { role: "assistant", content: result.reply || result.error || tr(locale, "Förslaget kunde inte behandlas.", "The suggestion could not be processed.") }]);
-    } catch {
-      setConversation([...next, { role: "assistant", content: tr(locale, "Tjänsten kunde inte nås. Försök igen om en stund.", "The service could not be reached. Please try again shortly.") }]);
-    } finally { setPending(false); }
+    } catch (error) {
+      setStatus("error");
+      const timedOut = error instanceof DOMException && error.name === "AbortError";
+      setConversation([...next, { role: "assistant", content: timedOut ? tr(locale, "Granskningen tog för lång tid och avbröts. Förslaget kan ändå ha nått GitHub; försök inte skicka igen direkt.", "The review took too long and was stopped. The proposal may still have reached GitHub; do not submit it again immediately.") : tr(locale, "Tjänsten kunde inte nås. Försök igen om en stund.", "The service could not be reached. Please try again shortly.") }]);
+    } finally { window.clearTimeout(timeout); setPending(false); }
   }
 
   function submit(event: React.FormEvent) { event.preventDefault(); void send(message); }
@@ -737,10 +753,11 @@ function SuggestionDialog({ area, locale, onClose }: { area: Area; locale: Local
         <div className="modal-head"><div><span className="eyebrow" style={{ color: "var(--forest)" }}>{tr(locale, "Kunskapsbidrag", "Knowledge contribution")}</span><h2 id="suggest-title">{tr(locale, "Förbättra", "Improve")} {localized(area, locale, "name")}</h2></div><button className="close-button" type="button" onClick={onClose} aria-label={tr(locale, "Stäng", "Close")}>×</button></div>
         <p>{tr(locale, "Beskriv ändringen med egna ord. Agenten använder områdets befintliga innehåll som kontext och frågar bara när något avgörande saknas.", "Describe the change in your own words. The agent uses the area's existing content as context and only asks when essential information is missing.")}</p>
         <div className="conversation">{conversation.map((entry, index) => <div key={index} className={`bubble ${entry.role}`}>{entry.role === "assistant" ? <RichText text={entry.content} /> : entry.content}</div>)}</div>
+        {pending && <div className="suggestion-progress" role="status" aria-live="polite"><strong>{tr(locale, "Agenterna arbetar", "Agents are working")}</strong><span>{pendingSeconds < 45 ? tr(locale, "Strukturerar och kvalitetsgranskar förslaget…", "Structuring and reviewing the proposal…") : tr(locale, "Skapar branch och inväntar GitHub Pull Request…", "Creating the branch and waiting for the GitHub Pull Request…")} · {pendingSeconds} s</span></div>}
         {status === "needs_information" && !pending && <div className="suggestion-shortcuts"><button type="button" onClick={() => void send(tr(locale, "Ja, gör så utifrån din sammanfattning.", "Yes, proceed based on your summary."))}>{tr(locale, "Ja, gör så", "Yes, proceed")}</button><button type="button" onClick={() => setMessage(tr(locale, "Jag vill förtydliga: ", "I want to clarify: "))}>{tr(locale, "Jag vill förtydliga", "I want to clarify")}</button></div>}
         <form className="suggestion-form" onSubmit={submit}>
-          <textarea value={message} onChange={(event) => setMessage(event.target.value)} placeholder={conversation.length ? tr(locale, "Svara kort eller lägg till en detalj…", "Reply briefly or add a detail…") : tr(locale, "Exempel: Ta bort stycket om tv-serien i den allmänna beskrivningen.", "Example: Remove the paragraph about the TV series from the general description.")} aria-label={tr(locale, "Ditt ändringsförslag", "Your edit suggestion")} />
-          <div className="form-actions"><small>{tr(locale, "Redaktionella ändringar kan bygga på ditt godkännande. Nya fakta behöver en kontrollerbar källa. När du skickar bekräftar du att du får bidra med texten och godkänner att accepterat förarinnehåll publiceras under GFDL 1.3.", "Editorial changes may rely on your approval. New facts require a verifiable source. By submitting, you confirm that you may contribute the text and agree that accepted guide content is published under GFDL 1.3.")}</small><button className="primary-button" disabled={pending || !message.trim()} type="submit">{pending ? tr(locale, "Granskar…", "Reviewing…") : conversation.length ? tr(locale, "Skicka svar", "Send reply") : tr(locale, "Skicka förslag", "Send suggestion")}</button></div>
+          <textarea value={message} disabled={completed} onChange={(event) => setMessage(event.target.value)} placeholder={completed ? tr(locale, "Förslaget finns nu i GitHub-flödet.", "The proposal is now in the GitHub workflow.") : conversation.length ? tr(locale, "Svara kort eller lägg till en detalj…", "Reply briefly or add a detail…") : tr(locale, "Exempel: Ta bort stycket om tv-serien i den allmänna beskrivningen.", "Example: Remove the paragraph about the TV series from the general description.")} aria-label={tr(locale, "Ditt ändringsförslag", "Your edit suggestion")} />
+          <div className="form-actions"><small>{tr(locale, "Redaktionella ändringar kan bygga på ditt godkännande. Nya fakta behöver en kontrollerbar källa. När du skickar bekräftar du att du får bidra med texten och godkänner att accepterat förarinnehåll publiceras under GFDL 1.3.", "Editorial changes may rely on your approval. New facts require a verifiable source. By submitting, you confirm that you may contribute the text and agree that accepted guide content is published under GFDL 1.3.")}</small><button className="primary-button" disabled={pending || completed || !message.trim()} type="submit">{pending ? tr(locale, "Granskar…", "Reviewing…") : completed ? tr(locale, "Klart", "Done") : conversation.length ? tr(locale, "Skicka svar", "Send reply") : tr(locale, "Skicka förslag", "Send suggestion")}</button></div>
         </form>
       </section>
     </div>

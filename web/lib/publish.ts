@@ -10,6 +10,7 @@ import { pushProposalBranch, type ProposalFile } from "./github-publish";
 const routeFactFields = new Set(["name", "grade", "number", "length", "type", "firstAscent", "description", "beta", "sectorId"]);
 
 function patchIsApplicable(area: Area, patch: ProposedEdit["patches"][number]) {
+  if (patch.sourceId && !area.provenance.sources.some((source) => source.id === patch.sourceId)) return false;
   if (patch.field === "description") return patch.value.trim().length >= 20;
   if (patch.field === "access") return true;
   try {
@@ -28,6 +29,10 @@ function patchIsApplicable(area: Area, patch: ProposedEdit["patches"][number]) {
   } catch {
     return false;
   }
+}
+
+function patchHasValidSource(area: Area, patch: ProposedEdit["patches"][number]) {
+  return Boolean(patch.sourceUrl || (patch.sourceId && area.provenance.sources.some((source) => source.id === patch.sourceId)));
 }
 
 function hasConflictingRouteFact(area: Area, edit: ProposedEdit) {
@@ -61,7 +66,11 @@ async function buildContentFiles(area: Area, edit: ProposedEdit, stamp: string) 
   for (const [patchIndex, patch] of edit.patches.entries()) {
     if (!patchIsApplicable(area, patch) || patch.field === "access") continue;
     let sourceId: string;
-    if (patch.sourceUrl) {
+    if (patch.sourceId) {
+      const existingSource = updated.provenance.sources.find((source) => source.id === patch.sourceId);
+      if (!existingSource) continue;
+      sourceId = existingSource.id;
+    } else if (patch.sourceUrl) {
       const existingSource = updated.provenance.sources.find((source) => source.url === patch.sourceUrl);
       sourceId = existingSource?.id || `external:${stamp}:${patchIndex + 1}`;
       if (!existingSource) updated.provenance.sources.push({
@@ -136,7 +145,7 @@ export async function publishProposal(area: Area, intake: Intake, edit: Proposed
   const now = new Date();
   const stamp = now.toISOString().replace(/[:.]/g, "-");
   const threshold = Number(process.env.AUTO_PUBLISH_THRESHOLD || "0.97");
-  const allCited = edit.patches.length > 0 && edit.patches.every((patch) => Boolean(patch.sourceUrl));
+  const allCited = edit.patches.length > 0 && edit.patches.every((patch) => patchHasValidSource(area, patch));
   const hasProtectedChange = edit.patches.some(patchNeedsHumanReview);
   const patchesAreApplicable = edit.patches.length > 0 && edit.patches.every((patch) => patchIsApplicable(area, patch));
   const conflictingRouteFact = hasConflictingRouteFact(area, edit);

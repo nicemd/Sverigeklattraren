@@ -17,9 +17,10 @@ function runGit(args: string[], cwd: string, env: Record<string, string>) {
   return new Promise<void>((resolve, reject) => {
     const child = spawn("git", args, { cwd, env: { ...process.env, ...gitIdentity, ...env } });
     let stderr = "";
+    const timeout = setTimeout(() => child.kill(), 90_000);
     child.stderr.on("data", (chunk) => { stderr += String(chunk); });
-    child.on("error", reject);
-    child.on("close", (code) => code === 0 ? resolve() : reject(new Error(stderr.trim() || `git exited ${code}`)));
+    child.on("error", (error) => { clearTimeout(timeout); reject(error); });
+    child.on("close", (code, signal) => { clearTimeout(timeout); if (code === 0) { resolve(); return; } reject(new Error(stderr.trim() || (signal ? `git timed out (${signal})` : `git exited ${code}`))); });
   });
 }
 
@@ -45,12 +46,13 @@ async function findPullRequest(repository: string, branch: string) {
     const response = await fetch(`https://api.github.com/repos/${repository}/pulls?state=open&head=${encodeURIComponent(`${owner}:${branch}`)}`, {
       headers: { accept: "application/vnd.github+json", "user-agent": "Sverigeklattraren-agent" },
       cache: "no-store",
+      signal: AbortSignal.timeout(5000),
     });
     if (response.ok) {
       const pulls = await response.json() as Array<{ html_url?: string; number?: number }>;
       if (pulls[0]?.html_url) return { url: pulls[0].html_url, number: pulls[0].number || null };
     }
-    await new Promise((resolve) => setTimeout(resolve, 1000));
+    if (attempt < 7) await new Promise((resolve) => setTimeout(resolve, 10_000));
   }
   return { url: null, number: null };
 }
