@@ -169,6 +169,8 @@ export function GuideApp({ areas, initialArea }: { areas: AreaSummary[]; initial
       .catch(() => setAccessResult({ slug, info: null }));
   }, [selected?.access.federationSlug]);
 
+  const needsSuggestionArea = showLanding || !selected;
+
   return (
     <div className="app-shell">
       <header className="site-header">
@@ -189,7 +191,7 @@ export function GuideApp({ areas, initialArea }: { areas: AreaSummary[]; initial
         <div className="header-actions">
           <div className="language-switch" aria-label={tr(locale, "Välj språk", "Choose language")}><button type="button" className={locale === "sv" ? "active" : ""} onClick={() => setLocale("sv")} aria-pressed={locale === "sv"}>SV</button><button type="button" className={locale === "en" ? "active" : ""} onClick={() => setLocale("en")} aria-pressed={locale === "en"}>EN</button></div>
           <button className="ghost-button" type="button" aria-label={tr(locale, "Om projektet", "About the project")} onClick={() => setShowAbout(true)}><span className="desktop-label">{tr(locale, "Om projektet", "About")}</span><span className="mobile-label" aria-hidden="true">{tr(locale, "Om", "About")}</span></button>
-          <button className="primary-button" type="button" aria-label={showLanding ? tr(locale, "Välj område för att föreslå en ändring", "Choose an area before suggesting an edit") : tr(locale, "Föreslå ändring", "Suggest an edit")} onClick={() => { if (showLanding) { setShowLanding(false); setQuery(""); } else setShowSuggestion(true); }}><span className="desktop-label">{showLanding ? tr(locale, "Välj område", "Choose area") : tr(locale, "Föreslå ändring", "Suggest an edit")}</span><span className="mobile-label" aria-hidden="true">{showLanding ? tr(locale, "Välj", "Choose") : tr(locale, "Ändra", "Edit")}</span></button>
+          <button className="primary-button" type="button" aria-label={needsSuggestionArea ? tr(locale, "Välj område för att föreslå en ändring", "Choose an area before suggesting an edit") : tr(locale, "Föreslå ändring", "Suggest an edit")} onClick={() => { if (needsSuggestionArea) { setShowLanding(false); setSelected(null); setQuery(""); setShowSuggestion(false); } else setShowSuggestion(true); }}><span className="desktop-label">{needsSuggestionArea ? tr(locale, "Välj område", "Choose area") : tr(locale, "Föreslå ändring", "Suggest an edit")}</span><span className="mobile-label" aria-hidden="true">{needsSuggestionArea ? tr(locale, "Välj", "Choose") : tr(locale, "Ändra", "Edit")}</span></button>
         </div>
       </header>
 

@@ -286,7 +286,8 @@ test("keeps edit proposals grounded, observable and single-shot", async () => {
     readFile(path.join(process.cwd(), "lib", "publish.ts"), "utf8"),
     readFile(path.join(process.cwd(), "lib", "github-publish.ts"), "utf8"),
   ]);
-  assert.match(component, /showLanding \? tr\(locale, "Välj område för att föreslå en ändring"/);
+  assert.match(component, /const needsSuggestionArea = showLanding \|\| !selected/);
+  assert.match(component, /if \(needsSuggestionArea\) \{ setShowLanding\(false\); setSelected\(null\)/);
   assert.match(component, /className="suggestion-progress"[\s\S]*pendingSeconds/);
   assert.match(component, /disabled=\{completed\}/);
   assert.match(intake + editor + publisher, /sourceId/);
