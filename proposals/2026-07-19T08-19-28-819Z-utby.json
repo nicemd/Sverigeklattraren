@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 2,
+  "createdAt": "2026-07-19T08:19:28.819Z",
+  "area": "utby",
+  "intake": {
+    "status": "ready",
+    "reply": "Ready: add a final period to the description of Fingersprickan in Utby. No factual content changes.",
+    "missingQuestions": [],
+    "facts": [
+      {
+        "claim": "Change the description of Fingersprickan to “En kort led med annorlunda grepp.”",
+        "sourceId": "legacy:utby",
+        "sourceUrl": null,
+        "sourceQuote": "En kort led med annorlunda grepp",
+        "isFirsthandObservation": false
+      }
+    ]
+  },
+  "edit": {
+    "reply": "Updated the Fingersprickan description with the requested punctuation.",
+    "patches": [
+      {
+        "field": "route_fact",
+        "value": "{\"routeId\":\"utby-led-2\",\"kind\":\"route\",\"sectorId\":\"gomda-vaggen\",\"facts\":{\"description\":\"En kort led med annorlunda grepp.\"}}",
+        "rationale": "The supplied source supports this description; the patch adds the requested final period.",
+        "sourceId": "legacy:utby",
+        "sourceUrl": null,
+        "sourceQuote": "En kort led med annorlunda grepp"
+      }
+    ]
+  },
+  "review": {
+    "passed": true,
+    "score": 1,
+    "reasons": [
+      "Kanoniska målet bekräftar att leden är Fingersprickan i sektorn Gömda väggen och att rätt routeId och sectorId används.",
+      "Ändringen lägger endast till en avslutande punkt; beskrivningens sakliga innehåll är oförändrat och stöds ordagrant av den angivna källan.",
+      "Källan har angiven GFDL-licens och den korta återgivna texten innebär ingen otillåten kopiering.",
+      "Ändringen berör inte access, förbud, parkering eller säkerhet och medför låg risk att fel klippa eller led ändras."
+    ],
+    "requiresHumanReview": false
+  },
+  "decision": "approved_on_merge",
+  "workflow": {
+    "kind": "github_pull_request",
+    "mergePolicy": "human_review_required"
+  }
+}

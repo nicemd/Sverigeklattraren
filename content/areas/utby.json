@@ -165,11 +165,16 @@
       "length": "10",
       "type": "trad",
       "firstAscent": "",
-      "description": "En kort led med annorlunda grepp",
+      "description": "En kort led med annorlunda grepp.",
       "sectorId": "gomda-vaggen",
       "source": {
         "id": "legacy:utby",
         "path": "mediawiki/Utby.txt"
+      },
+      "fieldSources": {
+        "description": [
+          "legacy:utby"
+        ]
       }
     },
     {
