@@ -38,7 +38,7 @@ const baseProposal = {
   schemaVersion: 2,
   area: "nacka-kvarn",
   workflow: { kind: "github_pull_request" },
-  edit: { patches: [{ field: "description", value: "En tillräckligt lång redaktionell beskrivning.", rationale: "Redaktionellt", sourceUrl: null }] },
+  edit: { patches: [{ field: "description", value: "En tillräckligt lång redaktionell beskrivning.", rationale: "Redaktionellt", sourceId: "legacy:nacka-kvarn", sourceUrl: null }] },
   review: { passed: false, score: 0.6, reasons: ["Mänsklig kontroll krävs."], requiresHumanReview: true },
   decision: "approved_on_merge",
 };
@@ -51,6 +51,7 @@ test("accepts a human-review proposal branch without treating it as published", 
     const metadata = JSON.parse(result.stdout);
     assert.equal(metadata.autoMerge, false);
     assert.match(metadata.body, /mänskliga godkännandet/i);
+    assert.match(metadata.body, /legacy:nacka-kvarn/);
   } finally {
     await rm(root, { recursive: true, force: true });
   }

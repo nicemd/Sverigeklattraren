@@ -10,6 +10,13 @@
         "rationale": "Testar replay efter mänsklig PR-merge.",
         "sourceUrl": "https://example.test/human-review",
         "sourceQuote": "Verifierat testunderlag"
+      },
+      {
+        "field": "route_fact",
+        "value": "{\"routeId\":\"utby-led-2\",\"kind\":\"route\",\"sectorId\":\"gomda-vaggen\",\"facts\":{\"description\":\"En kort led med annorlunda grepp.\"}}",
+        "rationale": "Testar replay med den interna originalkällans id.",
+        "sourceId": "legacy:utby",
+        "sourceQuote": "En kort led med annorlunda grepp"
       }
     ]
   },
