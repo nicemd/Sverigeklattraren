@@ -147,8 +147,11 @@ test("replays auto-published and human-merged proposals during a fresh import", 
     assert.equal(utby.description, "Verifierad testbeskrivning som ska överleva en fullständig nyimport.");
     assert.ok(utby.provenance.sources.some((source) => source.url === "https://example.test/source"));
     const carlsberg = utby.routes.find((route) => route.id === "utby-led-74");
+    const fingersprickan = utby.routes.find((route) => route.id === "utby-led-2");
     const externalSource = utby.provenance.sources.find((source) => source.url === "https://example.test/source");
     assert.ok(carlsberg.fieldSources.grade.includes(externalSource.id));
+    assert.equal(fingersprickan.description, "En kort led med annorlunda grepp.");
+    assert.deepEqual(fingersprickan.fieldSources.description, ["legacy:utby"]);
     assert.equal(externalSource.usage, "fact-reference");
     assert.ok(utby.sections.some((section) => section.title === "PR-granskad historik"));
   } finally {
