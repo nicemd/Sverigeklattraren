@@ -84,6 +84,16 @@ a { color: inherit; }
 .landing-stats div { display: grid; gap: 3px; }
 .landing-stats strong { font-family: Georgia, serif; font-size: 26px; }
 .landing-stats span { color: rgb(255 255 255 / 62%); font-size: 11px; letter-spacing: .08em; text-transform: uppercase; }
+.landing-map-section { padding: 42px 6px 0; }
+.landing-section-heading { align-items: end; display: flex; justify-content: space-between; margin-bottom: 16px; }
+.landing-section-heading h2 { font-family: Georgia, serif; font-size: clamp(30px, 4vw, 42px); margin: 5px 0 0; }
+.landing-section-heading > p { color: var(--muted); line-height: 1.5; margin: 0 0 4px; max-width: 390px; text-align: right; }
+.landing-map-frame { background: #dce6d5; border: 1px solid var(--line); border-radius: 24px; box-shadow: 0 18px 50px rgb(22 49 39 / 9%); height: clamp(430px, 58vw, 620px); overflow: hidden; position: relative; }
+.landing-map { height: 100%; width: 100%; }
+.landing-map-legend { align-items: center; background: rgb(255 253 248 / 94%); border: 1px solid rgb(23 77 59 / 14%); border-radius: 14px; bottom: 16px; display: flex; gap: 18px; left: 16px; max-width: calc(100% - 86px); padding: 11px 14px; position: absolute; z-index: 2; }
+.landing-map-legend span { align-items: center; display: flex; font-size: 12px; font-weight: 800; gap: 7px; white-space: nowrap; }
+.landing-map-legend i { background: #ed7447; border: 2px solid #fffdf8; border-radius: 50%; box-shadow: 0 0 0 1px rgb(23 77 59 / 16%); height: 12px; width: 12px; }
+.landing-map-legend small { color: var(--muted); line-height: 1.35; }
 .landing-featured { padding: 42px 6px 0; }
 .landing-featured h2 { font-family: Georgia, serif; font-size: 34px; margin: 5px 0 22px; }
 .landing-groups { display: grid; gap: 34px; }
@@ -408,6 +418,12 @@ a { color: inherit; }
   .area-list { scrollbar-width: none; }
   .area-list::-webkit-scrollbar { display: none; }
   .landing-page { padding: 20px 14px 42px; }
+  .landing-map-section { padding: 30px 0 0; }
+  .landing-section-heading { align-items: start; flex-direction: column; gap: 7px; }
+  .landing-section-heading > p { font-size: 13px; text-align: left; }
+  .landing-map-frame { border-radius: 20px; height: 500px; }
+  .landing-map-legend { align-items: start; bottom: 10px; flex-direction: column; gap: 4px; left: 10px; max-width: calc(100% - 72px); padding: 9px 11px; }
+  .landing-map-legend small { font-size: 10px; }
   .landing-hero { border-radius: 20px; padding: 30px 24px; }
   .landing-hero::after { inset: 55% 0 0; }
   .landing-hero h1 { font-size: 48px; }

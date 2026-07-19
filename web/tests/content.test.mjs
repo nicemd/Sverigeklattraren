@@ -292,11 +292,28 @@ test("keeps edit proposals grounded, observable and single-shot", async () => {
     readFile(path.join(process.cwd(), "lib", "github-publish.ts"), "utf8"),
   ]);
   assert.match(component, /const needsSuggestionArea = showLanding \|\| !selected/);
-  assert.match(component, /if \(needsSuggestionArea\) \{ setShowLanding\(false\); setSelected\(null\)/);
+  assert.match(component, /if \(needsSuggestionArea\) \{ void ensureAreaIndex\(\); setShowLanding\(false\); setSelected\(null\)/);
   assert.match(component, /className="suggestion-progress"[\s\S]*pendingSeconds/);
   assert.match(component, /disabled=\{completed\}/);
   assert.match(intake + editor + publisher, /sourceId/);
   assert.match(reviewer, /canonicalTargets\(area, edit\)/);
   assert.match(githubPublisher, /setTimeout\(\(\) => child\.kill\(\), 90_000\)/);
   assert.match(githubPublisher, /setTimeout\(resolve, 10_000\)/);
+});
+test("keeps the landing page area-light and offers a clustered Sweden map", async () => {
+  const [page, component, css, areaIndexApi] = await Promise.all([
+    readFile(path.join(process.cwd(), "app", "page.tsx"), "utf8"),
+    readFile(path.join(process.cwd(), "app", "components", "GuideApp.tsx"), "utf8"),
+    readFile(path.join(process.cwd(), "app", "globals.css"), "utf8"),
+    readFile(path.join(process.cwd(), "app", "api", "areas", "route.ts"), "utf8"),
+  ]);
+  assert.doesNotMatch(page, /getArea\(/);
+  assert.match(page, /initialArea=\{null\}/);
+  assert.match(page, /searchText:\s*""/);
+  assert.match(component, /function LandingMap[\s\S]*cluster:\s*true/);
+  assert.match(component, /Hitta klättring nära dig/);
+  assert.match(component, /<LandingMap areas=\{areas\}/);
+  assert.match(component, /fetch\("\/api\/areas"\)/);
+  assert.match(areaIndexApi, /getAreaSummaries/);
+  assert.match(css, /\.landing-map-frame[\s\S]*height:\s*clamp/);
 });

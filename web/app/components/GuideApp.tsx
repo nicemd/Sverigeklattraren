@@ -87,8 +87,137 @@ function areaQualityScore(area: AreaSummary) {
   );
 }
 
-export function GuideApp({ areas, initialArea }: { areas: AreaSummary[]; initialArea: Area | null }) {
+function LandingMap({ areas, locale, onSelect }: { areas: AreaSummary[]; locale: Locale; onSelect: (slug: string) => void }) {
+  const mapRef = useRef<HTMLDivElement>(null);
+  const onSelectRef = useRef(onSelect);
+  useEffect(() => { onSelectRef.current = onSelect; }, [onSelect]);
+  const mappedAreas = useMemo(() => areas.filter((area) =>
+    area.coordinates?.latitude != null
+    && area.coordinates.longitude != null
+    && area.coordinates.latitude >= 54
+    && area.coordinates.latitude <= 70
+    && area.coordinates.longitude >= 8
+    && area.coordinates.longitude <= 25
+  ), [areas]);
+
+  useEffect(() => {
+    if (!mapRef.current) return;
+    let cancelled = false;
+    let map: import("maplibre-gl").Map | undefined;
+    import("maplibre-gl").then(({ default: maplibregl }) => {
+      if (cancelled || !mapRef.current) return;
+      map = new maplibregl.Map({
+        container: mapRef.current,
+        style: "https://tiles.openfreemap.org/styles/bright",
+        bounds: [[10, 54.5], [25, 69.5]],
+        fitBoundsOptions: { padding: 28 },
+        minZoom: 2.4,
+        maxZoom: 15,
+        attributionControl: false,
+      });
+      map.addControl(new maplibregl.NavigationControl({ showCompass: false }), "top-right");
+      map.addControl(new maplibregl.AttributionControl({ compact: true }), "bottom-right");
+      map.on("load", () => {
+        if (!map || cancelled) return;
+        map.addSource("landing-areas", {
+          type: "geojson",
+          cluster: true,
+          clusterMaxZoom: 9,
+          clusterRadius: 42,
+          data: {
+            type: "FeatureCollection",
+            features: mappedAreas.map((area) => ({
+              type: "Feature",
+              properties: { slug: area.slug, name: area.name, routeCount: area.routeCount },
+              geometry: { type: "Point", coordinates: [area.coordinates!.longitude!, area.coordinates!.latitude!] },
+            })),
+          },
+        });
+        map.addLayer({
+          id: "landing-area-clusters",
+          type: "circle",
+          source: "landing-areas",
+          filter: ["has", "point_count"],
+          paint: {
+            "circle-color": ["step", ["get", "point_count"], "#2e735a", 20, "#19543f", 75, "#103d2e"],
+            "circle-radius": ["step", ["get", "point_count"], 17, 20, 22, 75, 28],
+            "circle-stroke-color": "#fffdf8",
+            "circle-stroke-width": 2,
+          },
+        });
+        map.addLayer({
+          id: "landing-area-cluster-count",
+          type: "symbol",
+          source: "landing-areas",
+          filter: ["has", "point_count"],
+          layout: { "text-field": ["get", "point_count_abbreviated"], "text-size": 12 },
+          paint: { "text-color": "#ffffff" },
+        });
+        map.addLayer({
+          id: "landing-area-points",
+          type: "circle",
+          source: "landing-areas",
+          filter: ["!", ["has", "point_count"]],
+          paint: {
+            "circle-color": "#ed7447",
+            "circle-radius": ["interpolate", ["linear"], ["zoom"], 3, 5, 9, 8],
+            "circle-stroke-color": "#fffdf8",
+            "circle-stroke-width": 2,
+          },
+        });
+        map.addLayer({
+          id: "landing-area-labels",
+          type: "symbol",
+          source: "landing-areas",
+          filter: ["!", ["has", "point_count"]],
+          minzoom: 6,
+          layout: {
+            "text-field": ["get", "name"],
+            "text-size": 12,
+            "text-offset": [0, 1.25],
+            "text-anchor": "top",
+            "text-allow-overlap": false,
+          },
+          paint: { "text-color": "#17392e", "text-halo-color": "#fffdf8", "text-halo-width": 1.5 },
+        });
+        map.on("click", "landing-area-points", (event) => {
+          const slug = event.features?.[0]?.properties?.slug;
+          if (typeof slug === "string") void onSelectRef.current(slug);
+        });
+        map.on("click", "landing-area-clusters", async (event) => {
+          const feature = event.features?.[0];
+          const clusterId = feature?.properties?.cluster_id;
+          if (!map || clusterId == null || feature?.geometry.type !== "Point") return;
+          const source = map.getSource("landing-areas") as import("maplibre-gl").GeoJSONSource;
+          const zoom = await source.getClusterExpansionZoom(Number(clusterId));
+          map.easeTo({ center: feature.geometry.coordinates as [number, number], zoom });
+        });
+        for (const layer of ["landing-area-clusters", "landing-area-points"]) {
+          map.on("mouseenter", layer, () => { if (map) map.getCanvas().style.cursor = "pointer"; });
+          map.on("mouseleave", layer, () => { if (map) map.getCanvas().style.cursor = ""; });
+        }
+      });
+    });
+    return () => { cancelled = true; map?.remove(); };
+  }, [mappedAreas]);
+
+  return <section className="landing-map-section" aria-labelledby="landing-map-title">
+    <div className="landing-section-heading">
+      <div><span className="eyebrow">{tr(locale, "Hela Sverige", "All of Sweden")}</span><h2 id="landing-map-title">{tr(locale, "Hitta klättring nära dig", "Find climbing near you")}</h2></div>
+      <p>{mappedAreas.length} {tr(locale, "områden med kartposition. Zooma in och välj en punkt.", "areas with map positions. Zoom in and choose a point.")}</p>
+    </div>
+    <div className="landing-map-frame">
+      <div ref={mapRef} className="landing-map" aria-label={tr(locale, "Karta över klätterområden i Sverige", "Map of climbing areas in Sweden")} />
+      <div className="landing-map-legend"><span><i />{tr(locale, "Klätterområde", "Climbing area")}</span><small>{tr(locale, "Områden utan verifierad position finns i listan nedanför.", "Areas without a verified position are listed below.")}</small></div>
+    </div>
+  </section>;
+}
+
+export function GuideApp({ areas: initialAreas, initialArea }: { areas: AreaSummary[]; initialArea: Area | null }) {
   const [locale, setLocale] = useState<Locale>("sv");
+  const [areas, setAreas] = useState(initialAreas);
+  const [areaIndexLoaded, setAreaIndexLoaded] = useState(false);
+  const areaIndexPromise = useRef<Promise<AreaSummary[] | null> | null>(null);
   const [query, setQuery] = useState("");
   const [filter, setFilter] = useState("Alla");
   const [sort, setSort] = useState<"Kvalitet" | "A–Ö" | "Flest leder">("Kvalitet");
@@ -112,6 +241,22 @@ export function GuideApp({ areas, initialArea }: { areas: AreaSummary[]; initial
     document.documentElement.lang = locale;
     window.localStorage.setItem("sverigeklattraren-language", locale);
   }, [locale]);
+
+  async function ensureAreaIndex() {
+    if (areaIndexLoaded) return areas;
+    if (!areaIndexPromise.current) {
+      areaIndexPromise.current = fetch("/api/areas")
+        .then(async (response) => response.ok ? await response.json() as AreaSummary[] : null)
+        .catch(() => null);
+    }
+    const fullAreas = await areaIndexPromise.current;
+    if (fullAreas) {
+      setAreas(fullAreas);
+      setAreaIndexLoaded(true);
+      return fullAreas;
+    }
+    return areas;
+  }
 
   const filtered = useMemo(() => areas.filter((area) => areaMatches(area, query, filter)).sort((left, right) => {
     if (sort === "A–Ö") return left.name.localeCompare(right.name, "sv");
@@ -180,10 +325,10 @@ export function GuideApp({ areas, initialArea }: { areas: AreaSummary[]; initial
         </button>
         <label className="search-wrap">
           <span className="sr-only">{tr(locale, "Sök område eller led", "Search for an area or route")}</span>
-          <input className="search" value={query} onChange={(event) => {
+          <input className="search" value={query} onFocus={() => { void ensureAreaIndex(); }} onChange={(event) => {
             const value = event.target.value;
             setQuery(value);
-            if (value.trim()) setShowLanding(false);
+            if (value.trim()) { void ensureAreaIndex(); setShowLanding(false); }
             const matches = areas.filter((area) => areaMatches(area, value, filter));
             if (value.trim() && matches.length === 1) void selectArea(matches[0].slug, value.trim());
           }} placeholder={tr(locale, "Sök område, led eller grad…", "Search area, route or grade…")} />
@@ -191,7 +336,7 @@ export function GuideApp({ areas, initialArea }: { areas: AreaSummary[]; initial
         <div className="header-actions">
           <div className="language-switch" aria-label={tr(locale, "Välj språk", "Choose language")}><button type="button" className={locale === "sv" ? "active" : ""} onClick={() => setLocale("sv")} aria-pressed={locale === "sv"}>SV</button><button type="button" className={locale === "en" ? "active" : ""} onClick={() => setLocale("en")} aria-pressed={locale === "en"}>EN</button></div>
           <button className="ghost-button" type="button" aria-label={tr(locale, "Om projektet", "About the project")} onClick={() => setShowAbout(true)}><span className="desktop-label">{tr(locale, "Om projektet", "About")}</span><span className="mobile-label" aria-hidden="true">{tr(locale, "Om", "About")}</span></button>
-          <button className="primary-button" type="button" aria-label={needsSuggestionArea ? tr(locale, "Välj område för att föreslå en ändring", "Choose an area before suggesting an edit") : tr(locale, "Föreslå ändring", "Suggest an edit")} onClick={() => { if (needsSuggestionArea) { setShowLanding(false); setSelected(null); setQuery(""); setShowSuggestion(false); } else setShowSuggestion(true); }}><span className="desktop-label">{needsSuggestionArea ? tr(locale, "Välj område", "Choose area") : tr(locale, "Föreslå ändring", "Suggest an edit")}</span><span className="mobile-label" aria-hidden="true">{needsSuggestionArea ? tr(locale, "Välj", "Choose") : tr(locale, "Ändra", "Edit")}</span></button>
+          <button className="primary-button" type="button" aria-label={needsSuggestionArea ? tr(locale, "Välj område för att föreslå en ändring", "Choose an area before suggesting an edit") : tr(locale, "Föreslå ändring", "Suggest an edit")} onClick={() => { if (needsSuggestionArea) { void ensureAreaIndex(); setShowLanding(false); setSelected(null); setQuery(""); setShowSuggestion(false); } else setShowSuggestion(true); }}><span className="desktop-label">{needsSuggestionArea ? tr(locale, "Välj område", "Choose area") : tr(locale, "Föreslå ändring", "Suggest an edit")}</span><span className="mobile-label" aria-hidden="true">{needsSuggestionArea ? tr(locale, "Välj", "Choose") : tr(locale, "Ändra", "Edit")}</span></button>
         </div>
       </header>
 
@@ -200,9 +345,10 @@ export function GuideApp({ areas, initialArea }: { areas: AreaSummary[]; initial
           <span className="eyebrow">{tr(locale, "Öppen klätterkunskap", "Open climbing knowledge")}</span>
           <h1>{tr(locale, "Hitta klippan.", "Find the crag.")}<br />{tr(locale, "Hitta leden.", "Find the route.")}</h1>
           <p>{tr(locale, `Sverigeklättraren är en modern fork av den öppna Sverigeföraren. Sök bland ${areas.length} områden, välj sektor och se skissen tillsammans med lederna.`, `Sverigeklättraren is a modern fork of the open Sverigeföraren archive. Search ${areas.length} areas, choose a sector and view the topo together with its routes.`)}</p>
-          <div className="landing-actions"><button className="primary-button" type="button" onClick={() => setShowLanding(false)}>{tr(locale, "Utforska alla områden", "Explore all areas")}</button><button className="ghost-button" type="button" onClick={() => setShowAbout(true)}>{tr(locale, "Så fungerar projektet", "How it works")}</button></div>
+          <div className="landing-actions"><button className="primary-button" type="button" onClick={() => { void ensureAreaIndex(); setShowLanding(false); }}>{tr(locale, "Utforska alla områden", "Explore all areas")}</button><button className="ghost-button" type="button" onClick={() => setShowAbout(true)}>{tr(locale, "Så fungerar projektet", "How it works")}</button></div>
           <div className="landing-stats"><div><strong>{areas.length}</strong><span>{tr(locale, "områden", "areas")}</span></div><div><strong>{areas.reduce((sum, area) => sum + area.routeCount, 0)}</strong><span>{tr(locale, "leder & problem", "routes & problems")}</span></div><div><strong>2006→2026</strong><span>{tr(locale, "öppen kunskap", "open knowledge")}</span></div></div>
         </section>
+        <LandingMap areas={areas} locale={locale} onSelect={(slug) => { void selectArea(slug); }} />
         <section className="landing-featured" aria-labelledby="featured-title"><div><span className="eyebrow">{tr(locale, "Börja utforska", "Start exploring")}</span><h2 id="featured-title">{tr(locale, "Hitta efter klätterdag", "Choose your climbing day")}</h2></div><div className="landing-groups">{landingGroups.map((group) => <section key={group.title}><div><h3>{group.title}</h3><p>{group.description}</p></div><div className="landing-area-grid">{group.areas.map((area) => <button type="button" key={area.id} onClick={() => selectArea(area.slug)}><span><strong>{locale === "en" ? area.translations?.en?.name?.text || area.name : area.name}</strong><small>{area.routeCount} {tr(locale, "leder", "routes")} · {area.categories.slice(0, 1).join("") || tr(locale, "Sverige", "Sweden")}</small></span><b title={tr(locale, "Beräknad kvalitet på fältdata", "Estimated field-data quality")}>{areaQualityScore(area)}%</b></button>)}</div></section>)}</div></section>
       </main> : <div className="workspace">
         <aside className="area-nav">
