@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 2,
+  "createdAt": "2026-07-20T16:32:37.843Z",
+  "area": "dodskalleberget",
+  "intake": {
+    "status": "ready",
+    "reply": "Ready to add Dirty: a 25 m sport route graded 7c+, immediately left of Diana on Stora väggen.",
+    "missingQuestions": [],
+    "facts": [
+      {
+        "claim": "The route is named Dirty.",
+        "sourceId": null,
+        "sourceUrl": null,
+        "sourceQuote": "it's called Dirty",
+        "isFirsthandObservation": true
+      },
+      {
+        "claim": "Dirty is graded 7c+.",
+        "sourceId": null,
+        "sourceUrl": null,
+        "sourceQuote": "7c+",
+        "isFirsthandObservation": true
+      },
+      {
+        "claim": "Dirty is a 25 m sport route.",
+        "sourceId": null,
+        "sourceUrl": null,
+        "sourceQuote": "sport. 25m",
+        "isFirsthandObservation": true
+      },
+      {
+        "claim": "Dirty is immediately left of Diana on Stora väggen.",
+        "sourceId": null,
+        "sourceUrl": null,
+        "sourceQuote": "new route to the left of Diana",
+        "isFirsthandObservation": true
+      }
+    ]
+  },
+  "edit": {
+    "reply": "Add the newly reported route Dirty to Stora väggen.",
+    "patches": [
+      {
+        "field": "route_fact",
+        "value": "{\"kind\":\"route\",\"sectorId\":\"stora-vaggen\",\"facts\":{\"name\":\"Dirty\",\"grade\":\"7c+\",\"length\":\"25\",\"type\":\"sport\",\"description\":\"Immediately left of Diana.\"}}",
+        "rationale": "Firsthand observations identify the route’s name, grade, length, type and position on Stora väggen.",
+        "sourceId": null,
+        "sourceUrl": null,
+        "sourceQuote": null
+      }
+    ]
+  },
+  "review": {
+    "passed": false,
+    "score": 0.42,
+    "reasons": [
+      "Den kanoniska områdesdatan bekräftar sektorn Stora väggen men innehåller ingen matchande led eller källa för Dirty. Ledens identitet och placering kan därför inte verifieras tillräckligt säkert.",
+      "Underlaget består enbart av ospecificerade förstahandsuppgifter utan identifierbar uppgiftslämnare, länk eller annat belägg som kan kontrolleras.",
+      "Påståendet ”Immediately left of Diana” är starkare än källcitatet ”to the left of Diana”; ”omedelbart” saknar uttryckligt stöd.",
+      "En ny led med grad, längd och typ bör få identitet och position bekräftade innan publicering för att minska risken att fel led eller klippavsnitt registreras."
+    ],
+    "requiresHumanReview": true
+  },
+  "decision": "needs_review",
+  "workflow": {
+    "kind": "github_pull_request",
+    "mergePolicy": "revision_required"
+  }
+}
