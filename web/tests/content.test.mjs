@@ -300,6 +300,20 @@ test("keeps edit proposals grounded, observable and single-shot", async () => {
   assert.match(githubPublisher, /setTimeout\(\(\) => child\.kill\(\), 90_000\)/);
   assert.match(githubPublisher, /setTimeout\(resolve, 10_000\)/);
 });
+test("acknowledges a complete suggestion before background review and publication", async () => {
+  const [route, component] = await Promise.all([
+    readFile(path.join(process.cwd(), "app", "api", "suggestions", "route.ts"), "utf8"),
+    readFile(path.join(process.cwd(), "app", "components", "GuideApp.tsx"), "utf8"),
+  ]);
+  assert.match(route, /import \{ after, NextResponse \} from "next\/server"/);
+  assert.match(route, /if \(intake\.status === "needs_information"\)[\s\S]*after\(async \(\) =>/);
+  assert.match(route, /runEditor[\s\S]*runReviewer[\s\S]*publishProposal/);
+  assert.match(route, /status: "accepted"[\s\S]*status: 202/);
+  assert.match(route, /Access- och säkerhetsändringar kräver alltid mänsklig granskning/);
+  assert.match(component, /status === "accepted" \|\| status === "review"/);
+  assert.match(component, /Förslaget är mottaget/);
+  assert.match(component, /Förslaget är mottaget och behandlas i bakgrunden/);
+});
 test("keeps the landing page area-light and offers a clustered Sweden map", async () => {
   const [page, component, css, areaIndexApi] = await Promise.all([
     readFile(path.join(process.cwd(), "app", "page.tsx"), "utf8"),

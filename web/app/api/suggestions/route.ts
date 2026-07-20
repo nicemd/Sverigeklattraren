@@ -1,4 +1,4 @@
-import { NextResponse } from "next/server";
+import { after, NextResponse } from "next/server";
 import { z } from "zod";
 import { getArea } from "@/lib/content";
 import { runIntake } from "@/lib/agents/intake";
@@ -36,22 +36,22 @@ export async function POST(request: Request) {
     const locale = parsed.data.locale;
     const intake = await runIntake(area, parsed.data.conversation, locale);
     if (intake.status === "needs_information") return NextResponse.json({ reply: intake.reply, status: intake.status, questions: intake.missingQuestions });
-    const edit = await runEditor(area, intake, locale);
-    const review = await runReviewer(area, intake, edit);
-    const publication = await publishProposal(area, intake, edit, review);
-    const proposalUrl = publication.pullRequestUrl || publication.branchUrl;
-    const decision = locale === "en"
-      ? publication.autoMergeEligible
-        ? `A GitHub Pull Request was created and will merge automatically only after all checks pass: ${proposalUrl}`
-        : publication.readyForHumanMerge
-          ? `A GitHub Pull Request was created for human review. The published guide is unchanged until it is merged: ${proposalUrl}`
-          : `The quality review found issues. A GitHub Pull Request was opened for discussion, but it must be corrected before merge and does not change the published guide: ${proposalUrl}`
-      : publication.autoMergeEligible
-        ? `En GitHub Pull Request skapades och mergas automatiskt först när alla kontroller passerar: ${proposalUrl}`
-        : publication.readyForHumanMerge
-          ? `En GitHub Pull Request skapades för mänsklig granskning. Den publicerade föraren är oförändrad tills den mergas: ${proposalUrl}`
-          : `Kvalitetsgranskningen hittade problem. En GitHub Pull Request öppnades för diskussion, men måste rättas före merge och ändrar inte den publicerade föraren: ${proposalUrl}`;
-    return NextResponse.json({ reply: `${edit.reply}\n\n${decision}`, status: "review", review: publication, proposalUrl });
+    const receiptId = crypto.randomUUID();
+    after(async () => {
+      const startedAt = Date.now();
+      try {
+        const edit = await runEditor(area, intake, locale);
+        const review = await runReviewer(area, intake, edit);
+        const publication = await publishProposal(area, intake, edit, review);
+        console.info("Suggestion processed", { receiptId, area: area.slug, durationMs: Date.now() - startedAt, publication });
+      } catch (error) {
+        console.error("Background suggestion processing failed", { receiptId, area: area.slug, durationMs: Date.now() - startedAt, error });
+      }
+    });
+    const reply = locale === "en"
+      ? "We have received your proposal. It is now being structured and quality-reviewed in the background. Proposals with sufficient quality, high confidence and verifiable sources may be approved automatically after the GitHub checks pass. Other proposals go to human review and do not change the published guide until approved. Access and safety changes always require human review. You can close this window."
+      : "Vi har tagit emot ditt förslag. Det struktureras och kvalitetsgranskas nu i bakgrunden. Förslag med tillräcklig kvalitet, hög konfidens och kontrollerbara källor kan godkännas automatiskt efter godkända GitHub-kontroller. Övriga förslag går till mänsklig granskning och ändrar inte den publicerade föraren innan de har godkänts. Access- och säkerhetsändringar kräver alltid mänsklig granskning. Du kan stänga fönstret.";
+    return NextResponse.json({ reply, status: "accepted", receiptId }, { status: 202 });
   } catch (error) {
     console.error(error);
     return NextResponse.json({ error: "Agentgranskningen misslyckades. Försök igen." }, { status: 502 });
