@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 2,
+  "createdAt": "2026-07-20T16:08:31.456Z",
+  "area": "dodskalleberget",
+  "intake": {
+    "status": "ready",
+    "reply": "Ready to add an unnamed 7c+ sport route immediately left of Diana.",
+    "missingQuestions": [],
+    "facts": [
+      {
+        "claim": "There is an unnamed 7c+ sport route immediately left of Diana at Dödskalleberget.",
+        "sourceId": null,
+        "sourceUrl": null,
+        "sourceQuote": null,
+        "isFirsthandObservation": false
+      }
+    ]
+  },
+  "edit": {
+    "reply": "Add the reported unnamed sport route to the Main Wall. The claim has no cited source, so provenance remains unset.",
+    "patches": [
+      {
+        "field": "route_fact",
+        "value": "{\"kind\":\"route\",\"sectorId\":\"stora-vaggen\",\"facts\":{\"number\":null,\"grade\":\"7c+\",\"type\":\"sport\",\"description\":\"Immediately left of Diana.\"}}",
+        "rationale": "The supplied claim states that an unnamed 7c+ sport route exists immediately left of Diana.",
+        "sourceId": null,
+        "sourceUrl": null,
+        "sourceQuote": null
+      }
+    ]
+  },
+  "review": {
+    "passed": false,
+    "score": 0.12,
+    "reasons": [
+      "Påståendet saknar helt källa och är inte markerat som en förstahandsobservation; grad, ledtyp och existens har därför inget faktastöd.",
+      "Det kanoniska målet innehåller ingen identifierad led och ingen publicerad källa som styrker identiteten.",
+      "Lägesangivelsen ”Immediately left of Diana” är otillräcklig utan belägg för vilken led som avses och innebär risk att en felaktig eller duplicerad led läggs till.",
+      "Ändringens benämning ”Main Wall” är mindre precis än det kanoniska sektorsnamnet ”Stora väggen”, även om patchens sectorId är korrekt."
+    ],
+    "requiresHumanReview": true
+  },
+  "decision": "needs_review",
+  "workflow": {
+    "kind": "github_pull_request",
+    "mergePolicy": "revision_required"
+  }
+}
