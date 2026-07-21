@@ -8,28 +8,20 @@ The new application is located in `web/`. The original MediaWiki files and image
 
 ## OpenAI Build Week: how Codex and GPT-5.6 were used
 
-Codex was the end-to-end development collaborator for Sverigeklättraren. It helped analyze the legacy MediaWiki archive, design the source-provenance model, implement the importer and agent workflows, build the responsive Next.js interface, write and run tests, diagnose failures, and validate production builds. Codex also helped create and verify the Docker-based deployment workflow, prepare the demo-video manuscript, and shape the Build Week submission. It supported the full path from a dormant archive and an initial idea to a deployed, documented product.
+Codex was the end-to-end development collaborator for Sverigeklättraren. Starting from the preserved MediaWiki dump, Codex helped inspect the archive, define the provenance-aware data model, implement the deterministic importer and OpenAI-powered enrichment tools, build the responsive Next.js application, write regression tests, diagnose content and UX problems, and verify the GitHub/Docker deployment on davtor1. The implementation was developed as reviewable Git branches, commits, and pull requests rather than as an opaque one-off generation.
 
-GPT-5.6 is also part of the running application through the OpenAI Responses API. It powers three evidence-bound editorial roles:
+GPT-5.6 was used for the interpretation-heavy parts of the project. The committed enrichment data records the model used for every run: `gpt-5.6-sol` was used to recover structured route records from loose prose and for selected context-aware English translations. It was especially useful where MediaWiki templates, section boundaries, climbing terminology, and neighbouring routes had to be considered together. Topo-number interpretation and the bulk translation pass also use the OpenAI Responses API; their committed records currently include runs from both GPT-5.6 and the more cost-efficient `gpt-4o-mini`.
 
-- **Import agent:** identifies route lists in loosely structured source material and proposes structured records with explicit evidence and confidence.
-- **Editor agent:** converts a climber's free-text contribution into a precise, source-backed change proposal and asks follow-up questions when required information is missing.
-- **Quality agent:** independently checks provenance, contradictions, uncertainty, and presentation before a proposal can be published.
-- **Translation agent:** produces context-aware English descriptions from the complete area, sector, discipline, and neighbouring-route context while keeping route names, grades, and factual details unchanged.
+The running contribution workflow uses the same evidence-bound agent architecture through the OpenAI Responses API:
 
-GPT-5.6 vision is used to read route numbers and other markers from historical topos and propose connections to the corresponding structured routes. Each proposed relationship records its method, evidence, and confidence, and uncertain matches are not presented as facts.
+- **Intake agent:** understands a climber's free-text proposal in the context of the existing area and asks one focused follow-up question when essential information is missing.
+- **Editor agent:** converts verified facts into a small, precise patch without inventing route names, grades, locations, or sources.
+- **Quality agent:** independently checks provenance, contradictions, uncertainty, protected fields, and whether the proposed change targets the correct route and sector.
+- **Translation agent:** translates descriptions with the area, discipline, sector, and neighbouring routes as context while preserving names, grades, and climbing meaning.
 
-The key product decision was to use AI for interpretation, never as factual authority. Every factual addition must point to a real source. Access restrictions, closures, parking, directions, coordinates, and safety information are protected changes that always require authoritative evidence and human review. Git records accepted changes as reviewable diffs and commits, giving the agent-driven wiki a durable audit trail.
+Production defaults to `gpt-5-mini` for interactive editorial work and `gpt-4o-mini` for translation and topo enrichment so that normal use remains affordable. The model names are configurable, and GPT-5.6 can be selected for difficult import or enrichment work where its additional reasoning quality is worth the cost.
 
-## An agent-driven wiki
-
-Codex was used to build, test, and iterate on the product. The OpenAI API and GPT-5.6 power three distinct editorial roles:
-
-- **The import agent** structures MediaWiki templates and loose text, and uses vision to interpret route numbers in topos.
-- **The quality agent** reviews formatting, sources, contradictions, and uncertain relationships using explicit evidence and confidence.
-- **The editor agent** transforms users' free-text input into precise, source-backed change proposals and asks follow-up questions when the available information is insufficient.
-
-Git is the wiki's memory: every publishable change is a diff and a commit. The model may propose structure and relationships, but it is never itself a factual source. The goal is a general architecture for abandoned knowledge bases, demonstrated through a demanding real-world case where users must be able to find the correct crag, sector, topo, and route.
+The key product decision is to use AI for interpretation, never as factual authority. Every factual addition must point to a real source. Access restrictions, closures, parking, directions, coordinates, and safety information are protected changes that always require authoritative evidence and human review. Model outputs are stored with evidence and confidence, while Git records accepted changes as reviewable diffs and commits.
 
 ## Features
 
@@ -113,7 +105,25 @@ When an English reader opens an area that has not yet been imported into the Git
 
 LLM output is never itself a factual source. It must point back to source material, be stored as reviewable enrichment data, and pass the project's quality gate. Agent proposals are pushed to isolated `proposal/*` branches and opened as GitHub Pull Requests. Merging is the durable approval event; access, parking, closures, coordinates, and other safety-critical information always require a human merge.
 
-## Local development
+## Local setup
+
+Prerequisites:
+
+- Git.
+- Node.js 22.13 or newer and npm.
+- An OpenAI API key only if you want to run translations, enrichment, or the free-text contribution agents. The guide itself, search, maps, routes, sources, and topos work without an API key.
+
+Clone the repository and create the local environment file:
+
+```powershell
+git clone https://github.com/nicemd/Sverigeklattraren.git
+cd Sverigeklattraren
+Copy-Item .env.example .env.local
+```
+
+Add `OPENAI_API_KEY` to `.env.local` when using AI features. Secrets must stay in this Git-ignored root file; `web/next.config.ts` loads it when commands are run from `web/`.
+
+Install dependencies, rebuild the publishable JSON representation, and start the development server:
 
 ```powershell
 cd web
@@ -122,13 +132,25 @@ npm run content:import
 npm run dev
 ```
 
-Configuration is documented in `.env.example`. Store secrets in the Git-ignored `.env.local` file at the repository root; the Next.js configuration reads the same file during local development, and the deployment script reuses it without committing the key. The default editorial model is the cost-efficient `gpt-5-mini`; it can be overridden intentionally through `OPENAI_EDITORIAL_MODEL`.
+Open [http://localhost:3000](http://localhost:3000). `mediawiki/` and `images/` are the immutable 2014 source snapshot; `content/areas/*.json` is the current publishable representation. Run `npm run content:import` after importer or legacy-source changes. The importer also replays committed proposals, so newer accepted knowledge is not lost.
+
+The most relevant optional settings are:
+
+| Variable | Purpose | Default |
+| --- | --- | --- |
+| `OPENAI_EDITORIAL_MODEL` | Intake, editing, and independent review | `gpt-5-mini` |
+| `OPENAI_TRANSLATION_MODEL` | Context-aware English translation | `gpt-4o-mini` |
+| `AUTO_PUBLISH_THRESHOLD` | Minimum review score for eligible low-risk automatic merges | `0.97` |
+| `GITHUB_REPOSITORY` | Repository used by the proposal workflow | `nicemd/Sverigeklattraren` |
+
+Creating proposal branches from a local or deployed server additionally requires a GitHub deploy key at `GITHUB_PROPOSAL_KEY_PATH`. This is not required for browsing or rebuilding the guide.
 
 ## Verification
 
 ```powershell
 cd web
 npm test
+npm run lint
 npm run build
 ```
 
