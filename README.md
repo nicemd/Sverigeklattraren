@@ -61,7 +61,7 @@ area
 
 ## WebMCP and OpenAI Site Tools
 
-The browser application registers a read-only `search_climbing_routes` tool through `navigator.modelContext` when that WebMCP API is available. The tool exposes structured filters rather than asking a model to scrape the rendered page:
+The browser application registers a read-only `search_climbing_routes` tool through the document-scoped Site Tools/WebMCP model context injected by compatible OpenAI browsers. It retains a navigator-scoped fallback for earlier WebMCP implementations and waits briefly for clients that inject the API after hydration. The tool exposes structured filters rather than asking a model to scrape the rendered page:
 
 - exact, case-sensitive grade (`8a` for a roped French grade, `8A` for a Fontainebleau boulder grade);
 - Swedish location or region, such as `Stockholm`, `Göteborg`, or `Bohuslän`;
@@ -74,7 +74,7 @@ Each result includes the area, sector, route number, name, grade, type, descript
 /api/site-tools/routes?grade=8a&location=Stockholm&kind=route
 ```
 
-The API is deterministic and reads committed guide data only. It does not call an LLM, and browsers without WebMCP continue to use the normal site unchanged.
+The API is deterministic and reads committed guide data only. It does not call an LLM, and browsers without WebMCP continue to use the normal site unchanged. For diagnostics, the root element exposes `data-site-tools-status` as `waiting`, `registered`, `unsupported`, or `error`.
 
 ## Topos and route relationships
 
