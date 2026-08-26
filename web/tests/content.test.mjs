@@ -349,7 +349,11 @@ test("exposes a sourced WebMCP route search without mixing route and boulder gra
   assert.ok(routeGradeMatches.length >= 8, "Stockholm should have enough exact 8a route records for a useful answer");
   assert.ok(routeGradeMatches.includes("Örnberget: Sator"));
   assert.ok(boulderGradeMatches.length > 0, "the corpus should contain uppercase 8A boulder grades that must remain distinct");
-  assert.match(component, /navigator\.modelContext/);
+  assert.match(component, /document\.modelContext \|\| navigator\.modelContext/);
+  assert.match(component, /siteToolsStatus = status/);
+  assert.match(component, /readOnlyHint: true/);
+  assert.match(component, /inputSchema:/);
+  assert.match(component, /async execute\(input\)/);
   assert.match(component, /name: toolName/);
   assert.match(component, /search_climbing_routes/);
   assert.match(component, /lowercase 8a[\s\S]*uppercase 8A/);
