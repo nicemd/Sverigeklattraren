@@ -28,6 +28,7 @@ The key product decision is to use AI for interpretation, never as factual autho
 - 803 searchable climbing areas and 14,830 imported routes and problems.
 - A responsive React/Next.js interface with maps, directions, sectors, images, topos, and interactive route cards.
 - Search by area, route, and grade, with filters for sectors, climbing routes, and boulder problems.
+- WebMCP/OpenAI Site Tools support: compatible agents can call the read-only `search_climbing_routes` tool to answer sourced questions such as “List 8a routes in Stockholm,” with exact grade, location, discipline, and route/problem filters.
 - Route cards with number, grade, length, first ascent, visible route description, and sources. A separate beta field is revealed only after an explicit user action.
 - Traceable relationships between sectors, routes, and topos. A relationship can be derived from source order, filenames, or visual interpretation of route numbers, and records its method, evidence, and confidence.
 - Live integration with the Swedish Climbing Federation's access database, showing both the source's update time and the local fetch time.
@@ -57,6 +58,23 @@ area
 ```
 
 `mediawiki/` and `images/` contain the immutable 2014 snapshot. The importer may improve the structure but never rewrites the original. Generated documents can be rebuilt reproducibly, with later committed proposals replayed during the process.
+
+## WebMCP and OpenAI Site Tools
+
+The browser application registers a read-only `search_climbing_routes` tool through `navigator.modelContext` when that WebMCP API is available. The tool exposes structured filters rather than asking a model to scrape the rendered page:
+
+- exact, case-sensitive grade (`8a` for a roped French grade, `8A` for a Fontainebleau boulder grade);
+- Swedish location or region, such as `Stockholm`, `Göteborg`, or `Bohuslän`;
+- optional discipline (`sport`, `trad`, `boulder`, `aid`, or `ice`);
+- route kind (`route` or `problem`) and a bounded result limit.
+
+Each result includes the area, sector, route number, name, grade, type, description, and primary source. The same query surface is available without WebMCP as `GET` or `POST /api/site-tools/routes`; for example:
+
+```text
+/api/site-tools/routes?grade=8a&location=Stockholm&kind=route
+```
+
+The API is deterministic and reads committed guide data only. It does not call an LLM, and browsers without WebMCP continue to use the normal site unchanged.
 
 ## Topos and route relationships
 

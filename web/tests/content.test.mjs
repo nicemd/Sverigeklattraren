@@ -331,3 +331,31 @@ test("keeps the landing page area-light and offers a clustered Sweden map", asyn
   assert.match(areaIndexApi, /getAreaSummaries/);
   assert.match(css, /\.landing-map-frame[\s\S]*height:\s*clamp/);
 });
+
+test("exposes a sourced WebMCP route search without mixing route and boulder grades", async () => {
+  const [manifest, component, search, api, layout] = await Promise.all([
+    readFile(path.join(contentRoot, "areas.json"), "utf8").then(JSON.parse),
+    readFile(path.join(process.cwd(), "app", "components", "SiteTools.tsx"), "utf8"),
+    readFile(path.join(process.cwd(), "lib", "site-tools.ts"), "utf8"),
+    readFile(path.join(process.cwd(), "app", "api", "site-tools", "routes", "route.ts"), "utf8"),
+    readFile(path.join(process.cwd(), "app", "layout.tsx"), "utf8"),
+  ]);
+
+  const stockholmAreas = manifest.filter((area) => area.categories.some((category) => category.toLocaleLowerCase("sv") === "stockholm"));
+  const areas = await Promise.all(stockholmAreas.map((area) => readFile(path.join(contentRoot, "areas", `${area.slug}.json`), "utf8").then(JSON.parse)));
+  const routeGradeMatches = areas.flatMap((area) => area.routes.filter((route) => route.grade.trim() === "8a").map((route) => `${area.name}: ${route.name}`));
+  const boulderGradeMatches = areas.flatMap((area) => area.routes.filter((route) => route.grade.trim() === "8A"));
+
+  assert.ok(routeGradeMatches.length >= 8, "Stockholm should have enough exact 8a route records for a useful answer");
+  assert.ok(routeGradeMatches.includes("Örnberget: Sator"));
+  assert.ok(boulderGradeMatches.length > 0, "the corpus should contain uppercase 8A boulder grades that must remain distinct");
+  assert.match(component, /navigator\.modelContext/);
+  assert.match(component, /name: toolName/);
+  assert.match(component, /search_climbing_routes/);
+  assert.match(component, /lowercase 8a[\s\S]*uppercase 8A/);
+  assert.match(search, /entry\.route\.grade\.trim\(\) !== grade/);
+  assert.match(search, /sourceFor\(area, route\)/);
+  assert.match(api, /export async function GET/);
+  assert.match(api, /export async function POST/);
+  assert.match(layout, /<SiteTools \/>/);
+});
