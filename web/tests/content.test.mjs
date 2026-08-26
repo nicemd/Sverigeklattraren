@@ -332,12 +332,19 @@ test("keeps the landing page area-light and offers a clustered Sweden map", asyn
   assert.match(css, /\.landing-map-frame[\s\S]*height:\s*clamp/);
 });
 
-test("exposes a sourced WebMCP route search without mixing route and boulder grades", async () => {
-  const [manifest, component, search, api, layout] = await Promise.all([
+test("exposes useful sourced WebMCP climbing tools without mixing route and boulder grades", async () => {
+  const [manifest, component, search, routeApi, areaApi, accessApi, nearbyApi, compareApi, sectorApi, routeDetailApi, guide, layout] = await Promise.all([
     readFile(path.join(contentRoot, "areas.json"), "utf8").then(JSON.parse),
     readFile(path.join(process.cwd(), "app", "components", "SiteTools.tsx"), "utf8"),
     readFile(path.join(process.cwd(), "lib", "site-tools.ts"), "utf8"),
     readFile(path.join(process.cwd(), "app", "api", "site-tools", "routes", "route.ts"), "utf8"),
+    readFile(path.join(process.cwd(), "app", "api", "site-tools", "areas", "route.ts"), "utf8"),
+    readFile(path.join(process.cwd(), "app", "api", "site-tools", "access", "[areaSlug]", "route.ts"), "utf8"),
+    readFile(path.join(process.cwd(), "app", "api", "site-tools", "nearby", "route.ts"), "utf8"),
+    readFile(path.join(process.cwd(), "app", "api", "site-tools", "compare", "route.ts"), "utf8"),
+    readFile(path.join(process.cwd(), "app", "api", "site-tools", "sectors", "[areaSlug]", "[sectorId]", "route.ts"), "utf8"),
+    readFile(path.join(process.cwd(), "app", "api", "site-tools", "routes", "[areaSlug]", "[routeId]", "route.ts"), "utf8"),
+    readFile(path.join(process.cwd(), "app", "components", "GuideApp.tsx"), "utf8"),
     readFile(path.join(process.cwd(), "app", "layout.tsx"), "utf8"),
   ]);
 
@@ -354,12 +361,25 @@ test("exposes a sourced WebMCP route search without mixing route and boulder gra
   assert.match(component, /readOnlyHint: true/);
   assert.match(component, /inputSchema:/);
   assert.match(component, /async execute\(input\)/);
-  assert.match(component, /name: toolName/);
-  assert.match(component, /search_climbing_routes/);
-  assert.match(component, /lowercase 8a[\s\S]*uppercase 8A/);
+  for (const name of ["search_climbing_routes", "search_climbing_areas", "get_climbing_area", "get_climbing_route", "get_current_climbing_access", "get_climbing_sector", "find_nearby_climbing", "compare_climbing_areas", "show_climbing_on_page"]) {
+    assert.match(component, new RegExp(`name: "${name}"`));
+  }
+  assert.match(component, /8a is a roped French grade[\s\S]*8A is a Fontainebleau boulder grade/);
+  assert.match(component, /only set it when the user explicitly asks to see beta/);
+  assert.match(component, /dataset\.siteToolsCount/);
   assert.match(search, /entry\.route\.grade\.trim\(\) !== grade/);
   assert.match(search, /sourceFor\(area, route\)/);
-  assert.match(api, /export async function GET/);
-  assert.match(api, /export async function POST/);
+  assert.match(search, /findNearbyClimbingAreas/);
+  assert.match(search, /getClimbingSectorGuide/);
+  assert.match(search, /compareClimbingAreas/);
+  assert.match(routeApi, /export async function GET/);
+  assert.match(routeApi, /export async function POST/);
+  assert.match(areaApi, /searchClimbingAreas/);
+  assert.match(accessApi, /sourceUpdatedAt|current/);
+  assert.match(nearbyApi, /findNearbyClimbingAreas/);
+  assert.match(compareApi, /compareClimbingAreas/);
+  assert.match(sectorApi, /getClimbingSectorGuide/);
+  assert.match(routeDetailApi, /includeBeta/);
+  assert.match(guide, /sverigeklattraren:show-climbing/);
   assert.match(layout, /<SiteTools \/>/);
 });

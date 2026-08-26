@@ -1,6 +1,6 @@
 "use client";
 
-import { Fragment, useEffect, useMemo, useRef, useState } from "react";
+import { Fragment, useCallback, useEffect, useMemo, useRef, useState } from "react";
 import type { Area, AreaSummary } from "@/lib/types";
 
 type ConversationEntry = { role: "user" | "assistant"; content: string };
@@ -277,7 +277,7 @@ export function GuideApp({ areas: initialAreas, initialArea }: { areas: AreaSumm
     ].filter((group) => group.areas.length > 0);
   }, [areas, locale]);
 
-  async function selectArea(slug: string, initialRouteQuery = "") {
+  const selectArea = useCallback(async (slug: string, initialRouteQuery = "") => {
     const routeSeedFor = (area: Area) => {
       const needle = normalizeSearch(initialRouteQuery);
       if (!needle || needle === normalizeSearch(area.name)) return "";
@@ -303,7 +303,16 @@ export function GuideApp({ areas: initialAreas, initialArea }: { areas: AreaSumm
       setShowLanding(false);
     }
     setLoading(false);
-  }
+  }, [selected]);
+
+  useEffect(() => {
+    const showClimbing = (event: Event) => {
+      const detail = (event as CustomEvent<{ areaSlug?: string; routeQuery?: string }>).detail;
+      if (detail?.areaSlug) void selectArea(detail.areaSlug, detail.routeQuery || "");
+    };
+    window.addEventListener("sverigeklattraren:show-climbing", showClimbing);
+    return () => window.removeEventListener("sverigeklattraren:show-climbing", showClimbing);
+  }, [selectArea]);
 
   useEffect(() => {
     const slug = selected?.access.federationSlug;
