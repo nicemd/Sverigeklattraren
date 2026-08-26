@@ -61,12 +61,17 @@ area
 
 ## WebMCP and OpenAI Site Tools
 
-The browser application registers a read-only `search_climbing_routes` tool through the document-scoped Site Tools/WebMCP model context injected by compatible OpenAI browsers. It retains a navigator-scoped fallback for earlier WebMCP implementations and waits briefly for clients that inject the API after hydration. The tool exposes structured filters rather than asking a model to scrape the rendered page:
+The browser application registers a focused set of tools through the document-scoped Site Tools/WebMCP model context injected by compatible OpenAI browsers. It retains a navigator-scoped fallback for earlier WebMCP implementations and waits briefly for clients that inject the API after hydration. The tools expose structured guide data and existing UI actions rather than asking a model to scrape the rendered page:
 
-- exact, case-sensitive grade (`8a` for a roped French grade, `8A` for a Fontainebleau boulder grade);
-- Swedish location or region, such as `Stockholm`, `Göteborg`, or `Bohuslän`;
-- optional discipline (`sport`, `trad`, `boulder`, `aid`, or `ice`);
-- route kind (`route` or `problem`) and a bounded result limit.
+- `search_climbing_routes` — sourced routes/problems by exact grade, location, discipline and kind;
+- `search_climbing_areas` — areas by region, discipline, size, coordinates and access-data availability;
+- `get_climbing_area` — coordinates, directions, sectors, overview images, quality notes and provenance;
+- `get_climbing_route` — a full field card with linked topos; beta remains opt-in;
+- `get_current_climbing_access` — authoritative access status with source and fetch timestamps;
+- `get_climbing_sector` — the sector's ordered routes, descriptions and linked topos;
+- `find_nearby_climbing` — coordinate/radius search using deterministic distance calculations;
+- `compare_climbing_areas` — route, sector, topo, grade and discipline comparison for trip planning;
+- `show_climbing_on_page` — opens the requested area/route in the shared visible interface without changing guide data.
 
 Each result includes the area, sector, route number, name, grade, type, description, and primary source. The same query surface is available without WebMCP as `GET` or `POST /api/site-tools/routes`; for example:
 
@@ -74,7 +79,7 @@ Each result includes the area, sector, route number, name, grade, type, descript
 /api/site-tools/routes?grade=8a&location=Stockholm&kind=route
 ```
 
-The API is deterministic and reads committed guide data only. It does not call an LLM, and browsers without WebMCP continue to use the normal site unchanged. For diagnostics, the root element exposes `data-site-tools-status` as `waiting`, `registered`, `unsupported`, or `error`.
+The APIs are deterministic and read committed guide data only; current access is fetched from the Swedish Climbing Federation through the existing cached integration. No Site Tool calls an LLM. Browsers without WebMCP continue to use the normal site unchanged. For diagnostics, the root element exposes `data-site-tools-status` and `data-site-tools-count`.
 
 ## Topos and route relationships
 
