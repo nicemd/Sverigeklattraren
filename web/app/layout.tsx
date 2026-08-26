@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import { SiteTools } from "./components/SiteTools";
 
 export const metadata: Metadata = {
   metadataBase: new URL(process.env.PUBLIC_BASE_URL || "http://localhost:3000"),
@@ -19,7 +20,7 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="sv">
-      <body>{children}</body>
+      <body><SiteTools />{children}</body>
     </html>
   );
 }
