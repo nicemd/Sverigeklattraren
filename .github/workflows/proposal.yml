@@ -27,6 +27,12 @@ jobs:
       - name: Fetch main
         run: git fetch origin main
 
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: .node-version
+          cache: npm
+          cache-dependency-path: web/package-lock.json
+
       - name: Validate proposal scope and policy
         id: metadata
         working-directory: .
@@ -48,12 +54,6 @@ jobs:
             existing="$(gh pr create --base main --head "$GITHUB_REF_NAME" --title "$TITLE" --body-file "$body_file")"
           fi
           echo "url=$existing" >> "$GITHUB_OUTPUT"
-
-      - uses: actions/setup-node@v4
-        with:
-          node-version: 22
-          cache: npm
-          cache-dependency-path: web/package-lock.json
 
       - name: Install dependencies
         working-directory: web
