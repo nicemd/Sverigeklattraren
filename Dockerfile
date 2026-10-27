@@ -1,9 +1,9 @@
-FROM node:22-alpine AS dependencies
+FROM node:24.22.1-alpine AS dependencies
 WORKDIR /app/web
 COPY web/package.json web/package-lock.json ./
 RUN npm ci --ignore-scripts --no-audit --no-fund
 
-FROM node:22-alpine AS builder
+FROM node:24.22.1-alpine AS builder
 ENV NEXT_TELEMETRY_DISABLED=1
 WORKDIR /app/web
 COPY --from=dependencies /app/web/node_modules ./node_modules
@@ -12,7 +12,7 @@ COPY content /repository-build/content
 ENV REPOSITORY_ROOT=/repository-build
 RUN npx next build
 
-FROM node:22-alpine AS runner
+FROM node:24.22.1-alpine AS runner
 RUN apk add --no-cache git openssh-client
 ENV NODE_ENV=production \
     NEXT_TELEMETRY_DISABLED=1 \

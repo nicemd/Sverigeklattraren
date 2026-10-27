@@ -133,7 +133,7 @@ LLM output is never itself a factual source. It must point back to source materi
 Prerequisites:
 
 - Git.
-- Node.js 22.13 or newer and npm.
+- Node.js 24.22.1 LTS (see `.node-version`) and npm.
 - An OpenAI API key only if you want to run translations, enrichment, or the free-text contribution agents. The guide itself, search, maps, routes, sources, and topos work without an API key.
 
 Clone the repository and create the local environment file:
